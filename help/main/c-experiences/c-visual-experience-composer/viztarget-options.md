@@ -1,21 +1,21 @@
 ---
-keywords: opzioni compositore esperienza visivo;opzioni compositore esperienza;opzioni esperienza;modifica testo;modifica html;modifica testo/html;modifica colore di sfondo;colore di sfondo;inserire elemento;modifica collegamento;collegamento;collegamento;collegamento compositore esperienza visivo;modifica classe css;classe css;sostituire offerta;scambiare immagine;scambiare immagine;rimuovere elemento;rimuovere elemento;elemento rimuovere;nascondere elemento;nascondere elemento;ridisporre;spostare elemento;spostare elemento;ridimensionare elemento;ridimensionare elemento;elemento;espandere la selezione;passare a questo collegamento;passare al collegamento;passare al collegamento;navigare;passare;collegamento;annullare;ripetere;annullare/ripetere;eventi personalizzati;componenti web;decisione offerta;offer decisioning
-description: Esplora le opzioni disponibili in [!DNL Adobe Target] [!UICONTROL Compositore esperienza visivo] (VEC).
-title: Come si utilizza [!UICONTROL Compositore esperienza visivo] Opzioni (VEC)?
+keywords: opzioni compositore esperienza visivo;opzioni compositore esperienza;opzioni esperienza;modifica testo;modifica html;modifica testo/html;modifica colore di sfondo;colore di sfondo;inserisci elemento;modifica collegamento;collegamento;collegamento compositore esperienza visivo;modifica classe css;offerta di scambio;scambio di offerte;scambio di immagini;rimozione elemento;rimozione elemento;elemento;nascondere elemento;elemento;sposta elemento;elemento;spostamento elemento;elemento;ridimensionamento elemento;ridimensionamento elemento;ridimensionamento;espandere la selezione;passare a questo collegamento;navigare tra collegamenti;navigare;collegamenti;navigare;annullare;annullare/ripetere;eventi personalizzati;componenti web;decisione offerta;offer decisioning
+description: Esplorare le opzioni disponibili nella [!DNL Adobe Target] [!UICONTROL Compositore esperienza visivo] (Compositore esperienza visivo).
+title: Come si utilizzano i [!UICONTROL Compositore esperienza visivo] Opzioni (VEC)?
 feature: Visual Experience Composer (VEC)
 exl-id: 50993d6c-5025-488a-8b33-9ed7c142de6e
-source-git-commit: 3ac61272ee1ccd72a8670966f181e7798cbe9f76
+source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
 workflow-type: tm+mt
-source-wordcount: '2920'
+source-wordcount: '2923'
 ht-degree: 62%
 
 ---
 
 # Opzioni del Compositore esperienza visivo
 
-Quando fai clic su un elemento di pagina in [!DNL Adobe Target] [!UICONTROL Compositore esperienza visivo] (VEC), un menu mostra le opzioni disponibili per quel tipo di elemento. Inoltre, nella parte inferiore della pagina viene visualizzato un percorso DOM che consente di navigare facilmente nella struttura della pagina.
+Quando fai clic su un elemento di pagina nel [!DNL Adobe Target] [!UICONTROL Compositore esperienza visivo] (Compositore esperienza visivo), un menu mostra le opzioni disponibili per quel tipo di elemento. Inoltre, nella parte inferiore della pagina viene visualizzato un percorso DOM che consente di navigare facilmente nella struttura della pagina.
 
-I vari [!UICONTROL Compositore esperienza visivo] Le azioni di (VEC) sono raggruppate in opzioni di menu appropriate per rendere il lavoro più rapido ed efficiente:
+Le varie [!UICONTROL Compositore esperienza visivo] Le azioni (VEC) sono raggruppate in opzioni di menu appropriate per rendere il lavoro più rapido ed efficiente:
 
 ![Menu delle opzioni del Compositore esperienza visivo](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/assets/vec-options.png)
 
@@ -54,21 +54,21 @@ Utilizza il settore colori per selezionare o configurare un colore di sfondo. È
 
 Il pannello [!UICONTROL Stili] consente di visualizzare o modificare il valore degli stili esistenti per l’elemento selezionato. Inoltre, è possibile aggiungere ulteriore formattazione.
 
-Per accedere al [!UICONTROL Stili] fare clic su un elemento di pagina nel Compositore esperienza visivo, quindi fare clic su **[!UICONTROL Modifica]** > **[!UICONTROL Stili]**.
+Per accedere al [!UICONTROL Stili] fai clic su un elemento di pagina nel Compositore esperienza visivo, quindi fai clic su **[!UICONTROL Modifica]** > **[!UICONTROL Stili]**.
 
 Il pannello [!UICONTROL Stili] viene visualizzato sul lato destro del Compositore esperienza visivo. Il pannello contiene un elenco di stili che consente di modificare o aggiungere formattazione all’elemento selezionato. Se hai familiarità con l’utilizzo di Cascading Style Sheet (CSS) o se ricevi del codice dallo sviluppatore, un editor CSS in tempo reale consente di visualizzare le modifiche e aggiungere stili.
 
 ![Pannello Stili](/help/main/c-experiences/c-visual-experience-composer/assets/styles-panel-new.png)
 
-Quando si applicano stili diversi, è sempre possibile ripristinare le modifiche facendo clic sul pulsante [!UICONTROL Ripristina] che viene visualizzata nell&#39;angolo in alto a destra del [!UICONTROL Stili] dopo aver modificato una sezione. Facendo clic su [!UICONTROL Ripristina] ripristina tutte le modifiche nel pannello della sezione corrente.
+Quando applichi stili diversi, puoi sempre ripristinare le modifiche facendo clic sul pulsante [!UICONTROL Ripristina] che viene visualizzata nell’angolo in alto a destra del [!UICONTROL Stili] dopo aver modificato una sezione. Fai clic su [!UICONTROL Ripristina] ripristina tutte le modifiche apportate al pannello della sezione corrente.
 
-Espandi ogni sezione per modificare o aggiungere stili, come descritto di seguito. Per salvare le modifiche, fare clic su [!UICONTROL Indietro] nella parte superiore del pannello per tornare alla visualizzazione principale, quindi fai clic su **[!UICONTROL Salva]**.
+Espandi ogni sezione per modificare o aggiungere stili, come descritto di seguito. Per salvare le modifiche, fai clic sul pulsante [!UICONTROL Indietro] icona nella parte superiore del pannello per tornare alla visualizzazione principale del pannello, quindi fai clic su **[!UICONTROL Salva]**.
 
-I punti blu nel pannello principale e accanto a ogni opzione nei vari pannelli di sezione indicano che sono stati modificati gli stili corrispondenti. Questo indicatore visivo consente di rivedere facilmente le modifiche prima di fare clic su [!UICONTROL Salva].
+I punti blu nel pannello principale e accanto a ogni opzione nei vari pannelli di sezione indicano che sono stati modificati gli stili corrispondenti. Questo indicatore visivo facilita la revisione delle modifiche prima di fare clic su [!UICONTROL Salva].
 
 >[!NOTE]
 >
->Le azioni rapide per le modifiche di layout, il colore di sfondo, il ridimensionamento e lo spostamento sono disponibili anche come azioni separate nel menu del Compositore esperienza visivo. Queste opzioni possono essere utilizzate come azioni separate oppure puoi utilizzare il menu Stili, come spiegato qui.
+>Le azioni rapide per le modifiche di layout, il colore di sfondo, il ridimensionamento e lo spostamento sono disponibili anche come azioni separate nel menu del Compositore esperienza visivo. Queste opzioni possono essere utilizzate come azioni separate oppure puoi utilizzare il menu Stili , come spiegato qui.
 
 * **[!UICONTROL Sfondo]**
 
@@ -88,14 +88,14 @@ I punti blu nel pannello principale e accanto a ogni opzione nei vari pannelli d
 
    Puoi modificare la composizione tipografica di un elemento. Le modifiche tipografiche sono semplici e veloci.
 
-   Anche se l’editor Rich Text (Modifica testo/HTML) è disponibile per eseguire regolazioni precise, questa opzione consente di accedere ad azioni rapide per modificare l’intero elemento. Se desideri applicare modifiche di composizione tipografica a una sola parte del testo (non al testo completo), utilizza l’[editor Rich Text](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md).
+   Anche se l’editor Rich Text (Modifica testo/HTML) è disponibile per la regolazione fine, questa opzione permette di intervenire rapidamente per modificare l’intero elemento. Se desideri applicare modifiche di composizione tipografica a una sola parte del testo (non al testo completo), utilizza l’[editor Rich Text](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md).
 
    È possibile modificare i seguenti stili di composizione tipografica:
 
    * [!UICONTROL Dimensione font]
    * [!UICONTROL Spessore font]
    * [!UICONTROL Stile font]
-   * [!UICONTROL Colore] (specifica il codice colore o utilizza il selettore colore)
+   * [!UICONTROL Colore] (specifica il codice del colore o utilizza il selettore del colore)
    * [!UICONTROL Spaziatura tra parole]
    * [!UICONTROL Altezza riga]
    * [!UICONTROL Allineamento testo]
@@ -111,7 +111,7 @@ I punti blu nel pannello principale e accanto a ogni opzione nei vari pannelli d
 
    Il margine supporta valori positivi e negativi.
 
-   Target supporta anche altre unità di misura, come rem, pc, em. Per ulteriori informazioni su queste unità, vedere [Suggerimenti e trucchi per i fogli di stile web CSS](https://www.w3.org/Style/Examples/007/units.en.html).
+   Target supporta anche altre unità di misura, come rem, pc, em. Per ulteriori informazioni su queste unità, vedi [Suggerimenti e trucchi per i fogli di stile web CSS](https://www.w3.org/Style/Examples/007/units.en.html).
 
 * **[!UICONTROL Spaziatura]**
 
@@ -121,7 +121,7 @@ I punti blu nel pannello principale e accanto a ogni opzione nei vari pannelli d
 
    La spaziatura supporta valori di larghezza a partire da 0.
 
-   Target supporta anche [altre unità di misura](https://www.w3.org/Style/Examples/007/units.en.html), ad esempio rem, pc, em.
+   Target supporta anche [altre unità](https://www.w3.org/Style/Examples/007/units.en.html), come rem, pc, em.
 
 * **[!UICONTROL Bordo]**
 
@@ -129,17 +129,17 @@ I punti blu nel pannello principale e accanto a ogni opzione nei vari pannelli d
 
    È possibile modificare i seguenti stili per ciascun bordo (superiore, destro, inferiore e sinistro):
 
-   * [!UICONTROL Stile bordo] (nessuna, nascosta, punteggiata, tratteggiata, continua o doppia)
-   * [!UICONTROL Colore bordo] (specifica il codice colore o utilizza il selettore colore)
-   * [!UICONTROL Spessore bordo] (trascina il cursore per selezionare lo spessore del bordo o specifica lo spessore in pixel)
+   * [!UICONTROL Stile bordo] (Nessuno, nascosto, punteggiato, tratteggiato, pieno o doppio)
+   * [!UICONTROL Colore bordo] (specifica il codice del colore o utilizza il selettore del colore)
+   * [!UICONTROL Larghezza bordo] (trascina il cursore per selezionare la larghezza di un bordo o specifica la larghezza in pixel)
 
    Il bordo supporta valori di spessore a partire da 0.
 
-   Target supporta anche [altre unità di misura](https://www.w3.org/Style/Examples/007/units.en.html), ad esempio rem, pc, em.
+   Target supporta anche [altre unità](https://www.w3.org/Style/Examples/007/units.en.html), come rem, pc, em.
 
 * **[!UICONTROL Posizione]**
 
-   Sposta l’elemento selezionato dalla posizione corrente. È possibile modificare la parte superiore, inferiore, sinistra, destra e [Indice Z](https://www.w3schools.com/cssref/pr_pos_z-index.asp) posizione.
+   Sposta l’elemento selezionato dalla posizione corrente. È possibile modificare i valori superiore, inferiore, sinistro, destro e [Indice Z](https://www.w3schools.com/cssref/pr_pos_z-index.asp) posizione.
 
    Fai clic sull’elenco a discesa [!UICONTROL Statico] per scegliere tra le seguenti opzioni di posizione:
 
@@ -152,11 +152,11 @@ I punti blu nel pannello principale e accanto a ogni opzione nei vari pannelli d
    Fai clic sull’icona a discesa per ciascuna posizione per scegliere tra le seguenti opzioni:
 
    * [!UICONTROL Automatico]
-   * [!UICONTROL Valore] (trascina il cursore per posizionare l’elemento o specifica il numero di pixel da spostare)
+   * [!UICONTROL Valore] (trascinate il cursore per posizionare l’elemento o specificate il numero di pixel da spostare)
 
    La posizione supporta valori positivi e negativi.
 
-   Target supporta anche [altre unità di misura](https://www.w3.org/Style/Examples/007/units.en.html), ad esempio rem, pc, em.
+   Target supporta anche [altre unità](https://www.w3.org/Style/Examples/007/units.en.html), come rem, pc, em.
 
 * **[!UICONTROL Dimensioni]**
 
@@ -190,11 +190,11 @@ I punti blu nel pannello principale e accanto a ogni opzione nei vari pannelli d
 
    ![Editor CSS con modifiche](/help/main/c-experiences/c-visual-experience-composer/assets/css-changes.png)
 
-   Osserva i punti blu accanto alle opzioni [!UICONTROL Composizione tipografica], [!UICONTROL Bordo] e [!UICONTROL Dimensione] dell’illustrazione precedente. Questi punti indicano che le sezioni sono state modificate. Se apri questi pannelli di sezione, i punti blu vengono visualizzati accanto alle opzioni modificate.
+   Osserva i punti blu accanto alle opzioni [!UICONTROL Composizione tipografica], [!UICONTROL Bordo] e [!UICONTROL Dimensione] dell’illustrazione precedente. Questi punti indicano che queste sezioni sono state modificate. Se apri questi pannelli di sezione, i punti blu vengono visualizzati accanto alle opzioni modificate.
 
    Se per impostazione predefinita lo stile desiderato non è disponibile negli [!UICONTROL Stili], è possibile digitare il codice desiderato.
 
-   L’editor CSS mostra i dettagli solo per la sessione corrente. Se salvi le modifiche e quindi riapri l’editor, i dettagli relativi alla modifica precedente non vengono visualizzati nell’editor, anche se selezioni di nuovo lo stesso elemento.
+   L’Editor CSS mostra i dettagli solo per la sessione corrente. Se salvi le modifiche e quindi riapri l’editor, i dettagli relativi alla modifica precedente non vengono visualizzati nell’editor, anche se selezioni di nuovo lo stesso elemento.
 
    >[!IMPORTANT]
    >
@@ -216,15 +216,15 @@ Utilizza Modifica collegamento per aggiornare il selettore in modo che indirizzi
 
 Sono disponibili le seguenti opzioni:
 
-### [!UICONTROL Decisione offerta]
+### [!UICONTROL Decisione di offerta]
 
-Aggiungi un [offerta creata in [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html){target=_blank} per presentare ai clienti l’offerta e l’esperienza migliore utilizzando offer decisioning.
+Aggiungi un [offerta creata in [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html){target=_blank} per presentare ai clienti la migliore offerta ed esperienza utilizzando offer decisioning.
 
-**Nota:** Questa opzione è disponibile durante la modifica o la creazione di [manuale [!UICONTROL Test A/B]](/help/main/c-activities/t-test-ab/test-ab.md#types) o [[!UICONTROL Targeting esperienza]](/help/main/c-activities/t-experience-target/experience-target.md) (XT) solo attività. Questa opzione non è disponibile per altri tipi di attività.
+**Nota:** Questa opzione è disponibile durante la modifica o la creazione [manuale [!UICONTROL Test A/B]](/help/main/c-activities/t-test-ab/test-ab.md#types) o [[!UICONTROL Targeting esperienza]](/help/main/c-activities/t-experience-target/experience-target.md) Solo attività (XT). Questa opzione non è disponibile per altri tipi di attività.
 
 Per ulteriori informazioni, consulta [Utilizzare le decisioni sulle offerte](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md).
 
-### [!UICONTROL Immagine], [!UICONTROL HTML], e [!UICONTROL Testo]
+### [!UICONTROL Immagine], [!UICONTROL HTML]e [!UICONTROL Testo]
 
 Consente di aggiungere qualsiasi tipo di elemento alla pagina, e di modificare il contenuto esistente. Puoi aggiungere testo, codice, elenchi e così via per creare esperienze diverse da testare.
 
@@ -248,15 +248,15 @@ Inserisci frammenti esperienza creati in [!DNL Adobe Experience Manager] (AEM) n
 
 Sono disponibili le seguenti opzioni:
 
-### [!UICONTROL Decisione offerta]
+### [!UICONTROL Decisione di offerta]
 
-Aggiungi un [offerta creata in [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html){target=_blank} per presentare ai clienti l’offerta e l’esperienza migliore utilizzando offer decisioning.
+Aggiungi un [offerta creata in [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html){target=_blank} per presentare ai clienti la migliore offerta ed esperienza utilizzando offer decisioning.
 
-**Nota:** Questa opzione è disponibile durante la modifica o la creazione di [manuale [!UICONTROL Test A/B]](/help/main/c-activities/t-test-ab/test-ab.md#types) o [[!UICONTROL Targeting esperienza]](/help/main/c-activities/t-experience-target/experience-target.md) (XT) solo attività. Questa opzione non è disponibile per altri tipi di attività.
+**Nota:** Questa opzione è disponibile durante la modifica o la creazione [manuale [!UICONTROL Test A/B]](/help/main/c-activities/t-test-ab/test-ab.md#types) o [[!UICONTROL Targeting esperienza]](/help/main/c-activities/t-experience-target/experience-target.md) Solo attività (XT). Questa opzione non è disponibile per altri tipi di attività.
 
 Per ulteriori informazioni, consulta [Utilizzare le decisioni sulle offerte](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md).
 
-### [!UICONTROL Immagine], [!UICONTROL HTML], e [!UICONTROL Testo]
+### [!UICONTROL Immagine], [!UICONTROL HTML]e [!UICONTROL Testo]
 
 Consente di aggiungere qualsiasi tipo di elemento alla pagina, e di modificare il contenuto esistente. Puoi aggiungere testo, codice, elenchi e così via per creare esperienze diverse da testare.
 
@@ -280,11 +280,11 @@ Inserisci frammenti esperienza creati in [!DNL Adobe Experience Manager] (AEM) n
 
 Sono disponibili le seguenti opzioni:
 
-### [!UICONTROL Decisione offerta]
+### [!UICONTROL Decisione di offerta]
 
-Aggiungi un [offerta creata in [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html){target=_blank} per presentare ai clienti l’offerta e l’esperienza migliore utilizzando offer decisioning.
+Aggiungi un [offerta creata in [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html){target=_blank} per presentare ai clienti la migliore offerta ed esperienza utilizzando offer decisioning.
 
-**Nota:** Questa opzione è disponibile durante la modifica o la creazione di [manuale [!UICONTROL Test A/B]](/help/main/c-activities/t-test-ab/test-ab.md#types) o [[!UICONTROL Targeting esperienza]](/help/main/c-activities/t-experience-target/experience-target.md) (XT) solo attività. Questa opzione non è disponibile per altri tipi di attività.
+**Nota:** Questa opzione è disponibile durante la modifica o la creazione [manuale [!UICONTROL Test A/B]](/help/main/c-activities/t-test-ab/test-ab.md#types) o [[!UICONTROL Targeting esperienza]](/help/main/c-activities/t-experience-target/experience-target.md) Solo attività (XT). Questa opzione non è disponibile per altri tipi di attività.
 
 Per ulteriori informazioni, consulta [Utilizzare le decisioni sulle offerte](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md).
 
@@ -312,7 +312,7 @@ Seleziona un’offerta diversa dalla [!UICONTROL libreria dei contenuti].
 
 **Nota:**[!DNL Target] le offerte HTML sono memorizzate sui server di
 
-Un’offerta HTML può avere una dimensione massima di 256 KB.
+Un’offerta HTML può contenere fino a 256 KB.
 
 ### Consiglio
 
@@ -330,23 +330,23 @@ Sono disponibili le seguenti opzioni:
 
 Trascina l’elemento in un’altra posizione nello stesso elemento padre o DIV. Gli altri elementi vengono spostati per fare spazio all’elemento ridisposto.
 
-**Nota**: il tracciamento dei clic non funziona sugli elementi ridisposti.
+**Nota**: Il tracciamento dei clic non funziona sugli elementi ridisposti.
 
-Attualmente, alcune azioni del Compositore esperienza visivo [!UICONTROL Ridisponi] e [!UICONTROL Sposta], si supponga che gli elementi di pari livello degli elementi padre di origine e di destinazione siano completamente caricati. Se si verifica un caricamento lento sotto gli elementi DOM principali (sorgente o destinazione), queste azioni del Compositore esperienza visivo possono causare un comportamento incoerente. Stiamo lavorando a un approccio più affidabile per far funzionare le azioni del Compositore esperienza visivo in elementi DOM caricati lentamente. Come soluzione alternativa temporanea, puoi utilizzare [!UICONTROL Codice personalizzato] per eseguire il rendering delle esperienze.
+Attualmente, alcune azioni del Compositore esperienza visivo, come [!UICONTROL Ridisponi] e [!UICONTROL Sposta], si supponga che gli elementi di pari livello degli elementi padre di origine e di destinazione siano completamente caricati. Se si verifica un caricamento lento sotto gli elementi DOM padre (origine o destinazione), queste azioni del Compositore esperienza visivo possono causare comportamenti incoerenti. Stiamo lavorando a un approccio più affidabile per far funzionare le azioni VEC in elementi DOM a carico lento. Come soluzione alternativa temporanea, puoi utilizzare [!UICONTROL Codice personalizzato] in questi scenari per eseguire il rendering delle esperienze.
 
 ### [!UICONTROL Ridimensiona]
 
-Consente di ridimensionare un elemento nella pagina. Quando selezioni [!UICONTROL Ridimensiona], nell&#39;angolo inferiore destro dell&#39;elemento viene visualizzata una maniglia che consente di trascinare l&#39;angolo per ridimensionarlo. Tieni premuto il tasto Maiusc per mantenere le stesse proporzioni.
+Consente di ridimensionare un elemento nella pagina. Quando selezioni [!UICONTROL Ridimensiona], nell’angolo in basso a destra dell’elemento viene visualizzata una maniglia che consente di trascinare tale angolo per ridimensionare. Tieni premuto il tasto Maiusc per mantenere le stesse proporzioni.
 
 **Nota:** gli elementi in linea non possono essere ridimensionati.
 
 ### [!UICONTROL Sposta] {#move}
 
-Consnete di spostare gli elementi nella pagina. A differenza dell’opzione [!UICONTROL Ridisponi], [!UICONTROL Sposta] non cambia la posizione degli altri elementi per lasciare spazio all’elemento spostato. Utilizza i tasti freccia per regolare meglio lo spostamento. (Miglioramento pianificato: supporto per garantire che gli elementi spostati non siano nascosti dietro altri elementi.)
+Consnete di spostare gli elementi nella pagina. A differenza dell’opzione [!UICONTROL Ridisponi], [!UICONTROL Sposta] non cambia la posizione degli altri elementi per lasciare spazio all’elemento spostato. Utilizza i tasti freccia per regolare meglio lo spostamento. (Miglioramento pianificato: per garantire che gli elementi spostati non siano nascosti dietro ad altri elementi.)
 
 In alcune situazioni, ad esempio quando una limitazione CSS richiede che un elemento resti all’interno del suo elemento padre, non puoi spostare l’elemento al di fuori di quest’ultimo. Un elemento non può essere spostato all’esterno di un contenitore seguito dalla proprietà CSS `overflow: hidden`.
 
-Consulta [!UICONTROL Ridisponi] per ulteriori informazioni su comportamenti non coerenti con [!UICONTROL Sposta] e [!UICONTROL Ridisponi] azioni dovute al caricamento lento degli elementi DOM.
+Vedi [!UICONTROL Ridisponi] per ulteriori informazioni sui comportamenti incoerenti con [!UICONTROL Sposta] e [!UICONTROL Ridisponi] azioni dovute a un caricamento lento degli elementi DOM.
 
 ### [!UICONTROL Nascondi]
 
@@ -372,21 +372,21 @@ Annulla le modifiche apportate alle attività durante una sessione di modifica. 
 
 ## Considerazioni {#considerations}
 
-* Se un’offerta contiene contenuti HTML, consulta la sezione su come avviene il rendering di contenuti HTML in at.js, in [Funzionamento di at.js](https://developer.adobe.com/target/implement/client-side/atjs/how-atjs-works/how-atjs-works/).{target=_blank}
+* Se un’offerta contiene contenuti HTML, consulta la sezione su come avviene il rendering di contenuti HTML in at.js, in [Funzionamento di at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html).{target=_blank}
 
-## Supporto per elementi personalizzati {#custom}
+## Supporto di elementi personalizzati {#custom}
 
-Il Compositore esperienza visivo supporta [Componenti Web](https://developer.mozilla.org/en-US/docs/Web/Web_Components) per consentirti di creare e testare esperienze e offerte personalizzate su elementi personalizzati e su elementi al loro interno. Questa funzionalità è disponibile nel Compositore esperienza visivo per tutti [!DNL Target] tipi di attività.
+Il Compositore esperienza visivo supporta [Componenti web](https://developer.mozilla.org/en-US/docs/Web/Web_Components) per creare e testare esperienze e offerte personalizzate su elementi personalizzati e su elementi all’interno di elementi personalizzati. Questa funzionalità è disponibile nel Compositore esperienza visivo per tutti [!DNL Target] tipi di attività.
 
 >[!NOTE]
 >
->Il supporto VEC per gli elementi personalizzati è disponibile in [Versione at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} 2.7.0 (or later){target=_blank}. Verifica che sul tuo sito web sia installata la versione richiesta. Se utilizzi il [Estensione Helper per Compositore esperienza visivo](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md), deve anche distribuire la versione richiesta di at.js. Le opzioni del Compositore esperienza visivo descritte in precedenza non sono visibili e sono disponibili per l’utilizzo con le versioni non supportate di at.js.
+>Il supporto del Compositore esperienza visivo per gli elementi personalizzati è supportato in [versione at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} 2.7.0 (or later){target=_blank}. Assicurati che il tuo sito web disponga della versione richiesta distribuita. Se utilizzi [Estensione helper del Compositore esperienza visivo](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md), deve anche avere la versione richiesta di at.js distribuita. Le opzioni del Compositore esperienza visivo descritte sopra non sono visibili e sono disponibili per l’uso con le versioni non supportate di at.js.
 >
->Il supporto VEC per gli elementi personalizzati non è attualmente supportato con [Adobe Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/){target=_blank}.
+>Il supporto del Compositore esperienza visivo per gli elementi personalizzati non è attualmente supportato con [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}.
 
 La maggior parte delle azioni del Compositore esperienza visivo è supportata su eventi personalizzati e all’interno di eventi personalizzati, con le seguenti eccezioni:
 
-Le seguenti azioni non sono disponibili sugli elementi personalizzati:
+Le azioni seguenti non sono disponibili sugli elementi personalizzati:
 
 * [!UICONTROL Modifica]
    * [!UICONTROL Testo/HTML]
@@ -395,7 +395,7 @@ Le seguenti azioni non sono disponibili sugli elementi personalizzati:
 
 * [!UICONTROL Sostituisci contenuto]
 
-La seguente azione non è disponibile all’interno di elementi personalizzati:
+L’azione seguente non è disponibile all’interno di elementi personalizzati:
 
 * [!UICONTROL Layout]
    * [!UICONTROL Ridisponi]

@@ -4,10 +4,10 @@ description: Scopri come utilizzare il Compositore esperienza visivo SPA in Adob
 title: Come si utilizza il Compositore esperienza visivo per app a pagina singola (SPA Compositore esperienza visivo)?
 feature: Visual Experience Composer (VEC)
 exl-id: fd3dcfaa-e5c6-45a1-8229-9c206562e5b0
-source-git-commit: f7a9c08567669160684bff8ae5098d57c6237463
+source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
 workflow-type: tm+mt
-source-wordcount: '3748'
-ht-degree: 87%
+source-wordcount: '3753'
+ht-degree: 72%
 
 ---
 
@@ -23,7 +23,7 @@ Con la versione più recente si inaugura il Compositore esperienza visivo per le
 
 Il Compositore esperienza visivo di Adobe Target per applicazioni a pagina singola (SPA) sfrutta un nuovo concetto chiamato Visualizzazioni: un gruppo logico di elementi visivi che insieme formano un’esperienza SPA. Un’applicazione a pagina singola può, infatti, essere considerata come transizione attraverso le visualizzazioni (al posto degli URL) basata sulle interazioni dell’utente. In genere, una visualizzazione può rappresentare un intero sito o elementi visivi raggruppati all&#39;interno di un sito.
 
-Per spiegare ulteriormente cosa sono le visualizzazioni, navighiamo in questo ipotetico sito online di e-commerce implementato in React ed esploriamo alcune visualizzazioni di esempio. Fai clic sui collegamenti di seguito per aprire il sito in una nuova scheda del browser.
+Per spiegare ulteriormente cosa sono le visualizzazioni, navighiamo in questo ipotetico sito di e-commerce online implementato in React ed esploriamo alcune visualizzazioni di esempio. Fai clic sui collegamenti di seguito per aprire il sito in una nuova scheda del browser.
 
 **Collegamento: [Sito principale](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/)**
 
@@ -57,7 +57,7 @@ Adesso, gli esperti di marketing potrebbero voler eseguire un test A/B per valut
 
 ## Adobe di implementazione [!DNL Target] Viste
 
-Ora che abbiamo capito cosa sono le visualizzazioni di Adobe Target, possiamo sfruttare questo concetto in Target per consentire agli addetti al marketing di eseguire test A/B e XT sulle applicazioni a pagina singola tramite il Compositore esperienza visivo. Questo richiederà una configurazione per sviluppatori una tantum. Seguiamo i passaggi effettuare la configurazione.
+Ora che abbiamo capito cosa sono le visualizzazioni di Adobe Target, possiamo sfruttare questo concetto in Target per consentire agli addetti al marketing di eseguire test A/B e XT sulle applicazioni a pagina singola tramite il Compositore esperienza visivo. Questo richiederà una configurazione per sviluppatori una tantum. Passiamo ai passaggi per configurarlo.
 
 1. Installa at.js 2.x.
 
@@ -65,11 +65,11 @@ Ora che abbiamo capito cosa sono le visualizzazioni di Adobe Target, possiamo sf
 
    ![Finestra di dialogo dei dettagli dell&#39;implementazione](/help/main/c-experiences/assets/imp-200.png)
 
-   Scarica at.js 2.x tramite l’interfaccia utente di Adobe Target disponibile in [!UICONTROL Amministrazione > Implementazione]. at.js 2.x può essere distribuito anche tramite tag in [Adobe Experience Platform](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/){target=_blank}. Tuttavia, le estensioni Adobe Target non sono aggiornate e supportate al momento.
+   Scarica at.js 2.x tramite l’interfaccia utente di Adobe Target disponibile in [!UICONTROL Amministrazione > Implementazione]. at.js 2.x può essere distribuito anche tramite tag in [Adobe Experience Platform](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch.html){target=_blank}. Tuttavia, le estensioni Adobe Target non sono aggiornate e supportate al momento.
 
-1. Implementa la funzione più recente di at.js 2.x: [triggerView()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/adobe-target-triggerview-atjs-2/) sui siti.{target=_blank}
+1. Implementare l’ultima funzione di at.js 2.x: [triggerView()](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/adobe-target-triggerview-atjs-2.html){target=_blank} sui siti.
 
-   Dopo aver definito le visualizzazioni dell’applicazione a pagina singola in cui desideri eseguire un test A/B o XT, implementa la funzione `triggerView()` di at.js 2.x con le visualizzazioni trasmesse come parametro. Questo consente agli esperti di marketing di utilizzare il Compositore esperienza visivo per progettare ed eseguire i test A/B e XT per queste visualizzazioni definite. Se la funzione `triggerView()` non è definita per tali visualizzazioni, il Compositore esperienza visivo non le rileva e, pertanto, gli addetti al marketing non possono utilizzarlo per progettare ed eseguire test A/B e XT.
+   Dopo aver definito le visualizzazioni della SPA in cui desideri eseguire un test A/B o XT, implementa at.js 2.x `triggerView()` con le visualizzazioni trasmesse come parametro. Questo consente agli esperti di marketing di utilizzare il Compositore esperienza visivo per progettare ed eseguire i test A/B e XT per queste visualizzazioni definite. Se la funzione `triggerView()` non è definita per tali visualizzazioni, il Compositore esperienza visivo non le rileva e, pertanto, gli addetti al marketing non possono utilizzarlo per progettare ed eseguire test A/B e XT.
 
    **`adobe.target.triggerView(viewName, options)`**
 
@@ -79,7 +79,7 @@ Ora che abbiamo capito cosa sono le visualizzazioni di Adobe Target, possiamo sf
    | options | Oggetto | No |  |  |
    | options > page | Booleano | No |  | **TRUE**: il valore predefinito della pagina è vero. Con `page=true`, si inviano notifiche ai server perimetrali per incrementare il conteggio delle impression.<br>**FALSE**: con `page=false`, non si inviano notifiche per incrementare il conteggio delle impression. Da utilizzare solo per eseguire nuovamente il rendering di un componente su una pagina con un’offerta. |
 
-   Ora vediamo alcuni esempi d’uso su come invocare la funzione `triggerView()` in React per la nostra ipotetica applicazione a pagina singola per e-commerce:
+   Ora esaminiamo alcuni esempi di casi d’uso su come invocare il `triggerView()` funziona in React per il nostro ipotetico SPA di e-commerce:
 
    **Collegamento: [Sito principale](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/)**
 
@@ -114,7 +114,7 @@ Ora che abbiamo capito cosa sono le visualizzazioni di Adobe Target, possiamo sf
 
    **Collegamento: [Sito prodotti](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products)**
 
-   Ora vediamo un esempio un po’ più complicato. Diciamo che, in qualità di esperti di marketing, desideriamo personalizzare la seconda riga dei prodotti cambiando il colore dell’etichetta del prezzo in rosso dopo che un utente ha fatto clic sul pulsante Carica altro.
+   Ora, diamo un esempio un po&#39; più complicato. Diciamo che in qualità di esperti di marketing, desideriamo personalizzare la seconda riga dei prodotti cambiando il colore dell’etichetta del prezzo in rosso dopo che un utente ha fatto clic sul pulsante Carica altro.
 
    ![react prodotti](/help/main/c-experiences/assets/react4.png)
 
@@ -134,7 +134,7 @@ Ora che abbiamo capito cosa sono le visualizzazioni di Adobe Target, possiamo sf
      }
    
      handleLoadMoreClicked() {
-       var page = this.state.page + 1; // assuming page number is derived from component’s state
+       var page = this.state.page + 1; // assuming page number is derived from component's state
        this.setState({page: page});
        targetView('PRODUCTS-PAGE-' + page);
      }
@@ -206,7 +206,7 @@ Nella tabella seguente viene descritta ogni azione:
 | --- | --- |
 | Informazioni | Visualizza i dettagli dell’azione. |
 | Modifica | Ti consente di modificare direttamente le proprietà dell’azione. |
-| Clona | Clona l’azione in una o più visualizzazioni presenti nel pannello [!UICONTROL Modifiche] o in una o più visualizzazioni a cui sei passato nel Compositore esperienza visivo. L’azione non deve necessariamente essere presente nel pannello [!UICONTROL Modifiche].<br>**Nota**: dopo un’operazione Clona, passa alla visualizzazione nel Compositore esperienza visivo tramite [!UICONTROL Sfoglia] per verificare che l’azione clonata sia un’operazione valida. Se non può essere applicata alla visualizzazione, viene visualizzato un errore. |
+| Clona | Clona l’azione in una o più visualizzazioni presenti nel pannello [!UICONTROL Modifiche] o in una o più visualizzazioni a cui sei passato nel Compositore esperienza visivo. L&#39;azione non deve necessariamente esistere nel [!UICONTROL Modifiche] pannello.<br>**Nota**: dopo un’operazione Clona, passa alla visualizzazione nel Compositore esperienza visivo tramite [!UICONTROL Sfoglia] per verificare che l’azione clonata sia un’operazione valida. Se non può essere applicata alla visualizzazione, viene visualizzato un errore. |
 | Sposta | Sposta l’azione in un evento di caricamento pagina o in un’altra visualizzazione già esistente nel pannello delle modifiche.<br>[!UICONTROL Evento di caricamento pagina]: tutte le azioni corrispondenti all’evento di caricamento pagina vengono applicate al caricamento iniziale della pagina dell’applicazione web.<br>**Nota**: dopo un’operazione Sposta, passa alla visualizzazione nel Compositore esperienza visivo tramite Sfoglia per verificare che lo spostamento sia un’operazione valida. Se non può essere applicata alla visualizzazione, viene visualizzato un errore. |
 | Elimina | Elimina l’azione. |
 
@@ -216,9 +216,9 @@ Nella tabella seguente viene descritta ogni azione:
 
 **Esempio 1**
 
-Facciamo riferimento all’esempio precedente, quando abbiamo creato la visualizzazione Home. Il nostro obiettivo per questa visualizzazione è doppio:
+Facciamo riferimento all’esempio precedente, in cui abbiamo creato una visualizzazione Home. Il nostro obiettivo per questa visualizzazione è doppio:
 
-1. Cambiare il pulsante Aggiungi al carrello e il pulsante “Mi piace” in un colore blu più chiaro. Questo deve avvenire in un “Caricamento pagina” perché stiamo modificando i componenti dell’intestazione.
+1. Cambiare il pulsante Aggiungi al carrello e il pulsante “Mi piace” in un colore blu più chiaro. Questo dovrebbe essere in un &quot;Caricamento pagina&quot; perché stiamo modificando i componenti dell’intestazione.
 1. Modificare l’etichetta “Ultimi prodotti del 2019” in “Migliori prodotto del 2019” con il colore del testo cambiato in viola.
 
 Per eseguire questi obiettivi, nel Compositore esperienza visivo fai clic su [!UICONTROL Componi] e applica le modifiche nella visualizzazione Home.
@@ -227,7 +227,7 @@ Per eseguire questi obiettivi, nel Compositore esperienza visivo fai clic su [!U
 
 **Esempio 2**
 
-Facciamo riferimento all’esempio precedente, quando abbiamo creato la visualizzazione Pagina prodotti 2. L’obiettivo è quello di cambiare l’etichetta “Prezzo” in “Prezzo di vendita” con l’etichetta di colore rosso.
+Facciamo riferimento all&#39;esempio precedente, in cui abbiamo creato una visualizzazione Pagina prodotti 2. L’obiettivo è quello di cambiare l’etichetta “Prezzo” in “Prezzo di vendita” con l’etichetta di colore rosso.
 
 1. Fai clic su [!UICONTROL Sfoglia], quindi sul collegamento [!UICONTROL Prodotti] nell’intestazione.
 1. Fai clic su [!UICONTROL Carica altro] una volta per passare alla seconda riga di prodotti.
@@ -258,37 +258,37 @@ Infine, come indicato precedentemente, le visualizzazioni si possono definire a 
 
 **Come posso recuperare le visualizzazioni per i dati del pubblico più recenti forniti dalle azioni dopo il caricamento della pagina iniziale nella mia applicazione a pagina singola?**
 
-Il flusso di lavoro tipico di at.js 2.x è il caricamento del sito e tutte le viste e le azioni sono memorizzate nella cache in modo che le azioni successive degli utenti sul sito non attivino le chiamate al server per recuperare le offerte. Se desideri recuperare le visualizzazioni in base ai dati di profilo più aggiornati, i quali potrebbero essere stati aggiornati a seconda delle azioni degli utenti successivi, richiama `getOffers()` e `applyOffers()` con gli utenti del pubblico o i dati di profilo passati più di recente.
+Il flusso di lavoro tipico di at.js 2.x è il caricamento del sito e tutte le visualizzazioni e le azioni sono memorizzate nella cache in modo che le azioni degli utenti successivi sul sito non attivino le chiamate al server per recuperare le offerte. Se desideri recuperare le visualizzazioni in base ai dati di profilo più aggiornati, i quali potrebbero essere stati aggiornati a seconda delle azioni degli utenti successivi, richiama `getOffers()` e `applyOffers()` con gli utenti del pubblico o i dati di profilo passati più di recente.
 
 Ad esempio, immagina di essere una società di telefonia e di disporre di una applicazione a pagina singola che utilizza at.js 2.x. Come azienda, vuoi raggiungere i seguenti obiettivi:
 
-* Per un utente disconnesso o anonimo, mostrare la promozione più recente dell’azienda, ad esempio mostrare un’offerta “Primo mese gratis” come immagine protagonista (hero) su `http://www.telecom.com/home`.
-* Per un utente registrato, mostrare un’offerta promozionale quando il suo contratto è in scadenza, ad esempio “Potresti avere un telefono gratis!” su `http://www.telecom.com/loggedIn/home`.
+* Per un utente disconnesso o anonimo, mostrare la promozione più recente dell’azienda, ad esempio mostrare un’offerta &quot;Primo mese gratis&quot; come immagine protagonista (hero) su `http://www.telecom.com/home`.
+* Per un utente connesso, mostrare un&#39;offerta promozionale di aggiornamento per gli utenti i cui contratti sono in arrivo, ad esempio &quot;Puoi avere un telefono gratis!&quot; su `http://www.telecom.com/loggedIn/home`.
 
 Ora, i tuoi sviluppatori chiamano le visualizzazioni e richiamano `triggerView()` nel modo seguente:
 
 * Per `http://www.telecom.com/home` il nome della visualizzazione è “Logged Out Home”
-   * Si richiama `triggerView(“Logged Out Home”)`.
+   * Si richiama `triggerView("Logged Out Home")`.
 * Per `http://www.telecom.com/loggedIn/home` il nome della visualizzazione è “Logged In Home”
-   * `triggerView(“Logged In Home”)` viene richiamato alla modifica del percorso.
+   * `triggerView("Logged In Home")` viene richiamato alla modifica del percorso.
 
 Gli addetti al marketing eseguono quindi le seguenti attività A/B tramite il Compositore esperienza visivo:
 
-* Attività A/B con l’offerta “Primo mese gratuito” per i tipi di pubblico con il parametro “`loggedIn= false`” da mostrare in `http://www.telecom.com/home`, dove il nome della visualizzazione è Logged Out Home.
-* Attività A/B con l’offerta “Potresti avere un telefono gratis!” per i tipi di pubblico con il parametro “`loggedIn=true`” da mostrare in `http://www.telecom.com/loggedIn/home`, dove il nome della visualizzazione Logged In Hero Offer.
+* Attività A/B con l’offerta &quot;Primo mese gratuito&quot; per i tipi di pubblico con il parametro &quot;`loggedIn= false`&quot; da visualizzare in `http://www.telecom.com/home`, in cui il nome della visualizzazione è Logged Out Home.
+* Attività A/B con &quot;Sei idoneo per un telefono gratis!&quot; offerta per tipi di pubblico con il parametro &quot;`loggedIn=true`&quot; da visualizzare in `http://www.telecom.com/loggedIn/home`, dove il nome della visualizzazione è Logged In Hero Offer.
 
 Adesso, prendiamo in considerazione questo flusso utente:
 
 1. Un utente non registrato anonimo arriva sulla tua pagina.
-1. Poiché stai utilizzando at.js 2.x, passi il parametro “`loggedIn = false`” al caricamento della pagina per recuperare tutte le viste presenti nelle attività attive che si qualificano quando il pubblico ha il parametro “`loggedIn = false`”.
-1. at.js 2.x quindi recupera la vista e l’azione Logged Out Home per mostrare l’offerta “Primo mese gratuito” e la memorizza nella cache.
-1. Quando si richiama `triggerView(“Logged Out Home”)`, si recupera l’offerta “Primo mese gratuito” dalla cache e l’offerta appare senza una chiamata al server.
-1. L’utente ora fa clic su “Login” e fornisce le relative credenziali.
+1. Poiché utilizzi at.js 2.x, passi il parametro &quot;`loggedIn = false`&quot; al caricamento della pagina per recuperare tutte le visualizzazioni presenti nelle attività attive che si qualificano quando il pubblico ha il parametro &quot;`loggedIn = false`&quot;.
+1. at.js 2.x quindi recupera la visualizzazione e l’azione Logged Out Home per mostrare l’offerta &quot;Primo mese gratuito&quot; e la memorizza nella cache.
+1. Quando `triggerView("Logged Out Home")` viene richiamata, l’offerta &quot;Primo mese gratuito&quot; viene recuperata dalla cache e l’offerta viene visualizzata senza una chiamata al server.
+1. L&#39;utente ora fa clic su &quot;Accedi&quot; e fornisce le proprie credenziali.
 1. Poiché il tuo sito web è una applicazione a pagina singola, non si esegue un caricamento completo della pagina, ma si indirizza invece l’utente a `http://www.telecom.com/loggedIn/home`.
 
-Il problema è qui. L’utente accede e trova `triggerView(“Logged In Home”)` perché abbiamo inserito questo codice in seguito alla modifica del percorso. Questo comunica a at.js 2.x di recuperare la vista e le azioni dalla cache, ma l’unica vista presente è Logged Out Home.
+Il problema è qui. L’utente accede e trova `triggerView("Logged In Home")` perché abbiamo inserito questo codice in seguito alla modifica del percorso. Questo comunica a at.js 2.x di recuperare la vista e le azioni dalla cache, ma l’unica vista presente è Logged Out Home.
 
-Quindi, come si recupera la visualizzazione Logged In e si visualizza il messaggio “Puoi avere un telefono gratis!”? offerta? Inoltre, poiché tutte le azioni successive sul sito saranno da un punto di vista di un utente registrato, come fare per assicurarsi che tutte le azioni successive risultino in offerte personalizzate per utenti registrati?
+Quindi, come possiamo recuperare la nostra visualizzazione Logged In e mostrare &quot;Sei idoneo per un telefono gratis!&quot; offerta? Inoltre, poiché tutte le azioni successive sul sito saranno da un punto di vista di un utente registrato, come fare per assicurarsi che tutte le azioni successive risultino in offerte personalizzate per utenti registrati?
 
 Utilizza le nuove funzioni `getOffers()` e `applyOffers()` supportate in at.js 2.x:
 
@@ -307,7 +307,7 @@ adobe.target.getOffers({
 });
 ```
 
-Passa la risposta di `getOffers()` a `applyOffers()` e ora tutte le visualizzazioni e azioni associate a “loggedIn = true” aggiorneranno la cache di at.js.
+Passa la risposta di `getOffers()` a `applyOffers()` e ora tutte le visualizzazioni e le azioni associate a &quot;loggedIn = true&quot; aggiorneranno la cache at.js.
 
 In altre parole, at.js 2.x supporta un modo per recuperare le viste, le azioni e le offerte con i dati del pubblico più aggiornati in modalità on demand.
 
@@ -327,9 +327,9 @@ Sì, at.js 2.x supporta A4T per applicazioni a pagina singola tramite la funzion
 | 6 | I dati di Target vengono confrontati con i dati di Analytics tramite SDID e vengono elaborati nell’archivio dei rapporti di Analytics. È quindi possibile visualizzare i dati di Analytics sia in Analytics che in Target tramite i rapporti A4T. |
 
 >[!NOTE]
->Se non desideri inviare notifiche ad Adobe Analytics per il conteggio delle impression ogni volta che si attiva una visualizzazione, passa `{page: false}` nella funzione `triggerView()` in modo che il conteggio delle impression non si gonfi quando una visualizzazione si attiva più volte per un componente riprodotto costantemente. Ad esempio:
+>Se non desideri inviare notifiche ad Adobe Analytics per il conteggio delle impression ogni volta che si attiva una visualizzazione, passa `{page: false}` al `triggerView()` in modo che il conteggio delle impression non si gonfi quando una visualizzazione si attiva più volte per un componente che viene riprodotto costantemente. Ad esempio:
 >
->`adobe.target.triggerView(“PRODUCTS-PAGE-2”, {page:false})`
+>`adobe.target.triggerView("PRODUCTS-PAGE-2", {page:false})`
 
 ## Attività supportate
 
@@ -354,7 +354,7 @@ Se desideri utilizzare le attività A/B di targeting automatico, sposta tutte le
 | --- | --- |
 | [Analytics for Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md) | Sì |
 | [Experience Cloud Audiences](/help/main/c-integrating-target-with-mac/mmp.md) | Sì |
-| [Attributi del cliente](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/customer-attributes/){target=_blank} | Sì |
+| [Attributi del cliente](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html){target=_blank} | Sì |
 | [Frammenti esperienza AEM](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md) | Sì |
 
 ## Funzioni supportate {#supported-features}
@@ -421,7 +421,7 @@ Nota: Accesso utente a [https://experienceleague.adobe.com/developer/ashop-react
 
 ### Best practice
 
-La gestione del percorso dell’utente può essere complessa, dato che gli utenti possono arrivare a qualsiasi URL dell’applicazione a pagina singola, e passare a qualsiasi altra pagina. Pertanto, è consigliabile specificare una regola di Consegna pagine che includa l’URL di base, in modo da includere l’intera applicazione a pagina singola. In questo modo, non è necessario prevedere tutti i diversi percorsi che un utente potrebbe seguire per arrivare a una pagina in cui desideri mostrare un’attività Test A/B o Targeting esperienza.
+La gestione del percorso dell’utente può essere complessa, dato che gli utenti possono arrivare a qualsiasi URL dell’applicazione a pagina singola, e passare a qualsiasi altra pagina. Pertanto, è consigliabile specificare una regola di Consegna pagine che includa l’URL di base, in modo da includere l’intera applicazione a pagina singola. In questo modo, non è necessario pensare a tutti i diversi percorsi e percorsi che un utente potrebbe seguire per arrivare a una pagina in cui desideri mostrare un’attività Test A/B o Targeting esperienza (XT).
 
 Ad esempio, per risolvere il problema di cui sopra, possiamo specificare così l’URL di base nelle impostazioni Consegna pagine:
 

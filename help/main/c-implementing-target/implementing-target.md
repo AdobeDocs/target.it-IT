@@ -7,10 +7,10 @@ title: Come si implementa [!DNL Target]?
 feature: Implementation
 role: Developer
 exl-id: 2ad3d33c-467c-48fc-8aa2-4d5c21708a71
-source-git-commit: 207095a1db483abcc59f7806a67e559ee8694397
+source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
 workflow-type: tm+mt
-source-wordcount: '197'
-ht-degree: 6%
+source-wordcount: '204'
+ht-degree: 1%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 6%
 
 Prima di iniziare a utilizzare [!DNL Adobe Target], devi implementarlo sul tuo sito.
 
-La [Portale guida per sviluppatori di Adobe Target](https://developer.adobe.com/target/){target=_blank} contiene informazioni che devi conoscere prima di implementare [!DNL Target].
+La [Guida per gli sviluppatori di Adobe Target](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html){target=_blank} contiene informazioni che devi conoscere prima di implementare [!DNL Target].
 
 Il portale per sviluppatori include informazioni sui seguenti tipi di implementazione:
 
@@ -29,11 +29,11 @@ Il portale per sviluppatori include informazioni sui seguenti tipi di implementa
 * **App mobili**: Informazioni utili per implementare utilizzando [!DNL Adobe Experience Platform Mobile] SDK.
 * **E-mail**: Informazioni utili per l’implementazione [!DNL Target] nelle e-mail.
 
-Per ulteriori informazioni, consulta la sezione [Portale guida per sviluppatori di Adobe Target](https://developer.adobe.com/target/){target=_blank}.
+Per ulteriori informazioni, consulta la sezione [Guida per gli sviluppatori di Adobe Target](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html){target=_blank}.
 
 >[!NOTE]
 >
->Tutte le informazioni precedentemente incluse nel *Implementare Target* in questa guida (la sezione *Guida ai professionisti di Adobe Target*) è ora incluso nella [Portale per sviluppatori](https://developer.adobe.com/target/){target=_blank}.
+>Tutte le informazioni precedentemente incluse nel *Implementare Target* in questa guida (la sezione *Guida ai professionisti di Adobe Target*) è ora incluso nella [Guida per gli sviluppatori](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html){target=_blank}.
 
 
 

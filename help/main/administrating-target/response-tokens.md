@@ -1,33 +1,33 @@
 ---
-keywords: token di risposta;token;plugins;plug-in;at.js;response;platform web sdk
-description: Scopri come utilizzare i token di risposta in [!DNL Adobe Target] informazioni specifiche per l’output, per il debug e l’integrazione con strumenti di terze parti.
-title: Cosa sono i token di risposta e come si utilizzano?
+keywords: token di risposta;token;plug-in;plug-in;at.js;risposta;platform web sdk
+description: Scopri come utilizzare i token di risposta in [!DNL Adobe Target] per informazioni specifiche sull’output per il debug e l’integrazione con strumenti di terze parti.
+title: Cosa sono i token di risposta e come li utilizzo?
 feature: Administration & Configuration
 role: Admin
 exl-id: d0c1e914-3172-466d-9721-fe0690abd30b
-source-git-commit: 3ac61272ee1ccd72a8670966f181e7798cbe9f76
+source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
 workflow-type: tm+mt
-source-wordcount: '1669'
-ht-degree: 28%
+source-wordcount: '1679'
+ht-degree: 27%
 
 ---
 
 # Token di risposta
 
-I token di risposta consentono di inviare automaticamente informazioni specifiche a [!DNL Adobe Target] alla pagina web del tuo marchio. Queste informazioni possono includere dettagli sull’attività, l’offerta, l’esperienza, il profilo utente, le informazioni geografiche e altro ancora. Questi dettagli forniscono dati di risposta aggiuntivi da condividere con strumenti interni o di terze parti o da utilizzare per il debug.
+I token di risposta consentono di trasmettere automaticamente informazioni specifiche per [!DNL Adobe Target] alla pagina web del tuo marchio. Queste informazioni possono includere dettagli sull’attività, l’offerta, l’esperienza, il profilo utente, le informazioni geografiche e altro ancora. Questi dettagli forniscono dati di risposta aggiuntivi da condividere con strumenti interni o di terze parti o da utilizzare per il debug.
 
-I token di risposta consentono di scegliere le variabili (in coppie di valori chiave) da utilizzare e quindi di inviarle come parte di un [!DNL Target] risposta. Abilita una variabile utilizzando lo switch e la variabile viene inviata con [!DNL Target] che possono essere convalidate nelle chiamate di rete. I token di risposta funzionano anche in [!UICONTROL Anteprima] modalità.
+I token di risposta consentono di scegliere quali variabili (in coppie di valori chiave) utilizzare e quindi di attivarle come parte di un [!DNL Target] risposta. È possibile abilitare una variabile utilizzando l’interruttore e la variabile viene inviata con [!DNL Target] risposte, che possono essere convalidate nelle chiamate di rete. I token di risposta funzionano anche in [!UICONTROL Anteprima] modalità.
 
-Una differenza chiave tra plug-in e token di risposta è che i plug-in forniscono JavaScript alla pagina che viene eseguita al momento della consegna. I token di risposta, tuttavia, forniscono un oggetto che può quindi essere letto e seguito utilizzando i listener di eventi. L’approccio del token di risposta è più sicuro e consente di sviluppare e mantenere più facilmente le integrazioni di terze parti.
+Una differenza fondamentale tra plug-in e token di risposta è che i plug-in distribuiscono JavaScript alla pagina che viene eseguita al momento della consegna. I token di risposta, tuttavia, forniscono un oggetto che può quindi essere letto e agito utilizzando listener di eventi. L’approccio dei token di risposta è più sicuro e consente uno sviluppo e una manutenzione più semplici delle integrazioni di terze parti.
 
 >[!NOTE]
 >
 >I token di risposta sono disponibili con at.js versione 1.1 o successiva.
 
-| SDK di Target | Azioni suggerite |
+| SDK di Target | Azioni consigliate |
 |--- |--- |
-| [Adobe Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/){target=_blank} | Assicurati di utilizzare Platform Web SDK versione 2.6.0 o successiva. Per informazioni sul download dell’ultima versione di Platform Web SDK, consulta [Installare l’SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html){target=_blank} nel *Panoramica di Platform Web SDK* guida. Per informazioni sulle nuove funzionalità in ogni versione di Platform Web SDK, consulta [Note sulla versione](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html) nel *Panoramica di Platform Web SDK* guida. |
-| [at.js](https://developer.adobe.com/target/implement/client-side/atjs/how-atjs-works/how-atjs-works/){target=_blank} | Assicurati di utilizzare at.js nella versione 1.1 o successiva. Per informazioni su come scaricare l’ultima versione di at.js, consulta [Scaricare at.js](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-without-a-tag-manager/){target=_blank}. For information about new functionality in each version of at.js, see [at.js Version Details](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank}.<br>I clienti che utilizzano at.js sono incoraggiati a utilizzare i token di risposta e ad abbandonare i plug-in. Alcuni plug-in che si basano su metodi interni esistenti in mbox.js (ora obsoleto), ma non in at.js, vengono consegnati ma non hanno esito positivo. |
+| [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank} | Assicurati di utilizzare Platform Web SDK versione 2.6.0 o successiva. Per informazioni su come scaricare l’ultima versione di Platform Web SDK, vedi [Installare l’SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html){target=_blank} in *Panoramica dell’SDK per web di Platform* guida. Per informazioni sulle nuove funzionalità in ogni versione dell’SDK per web di Platform, vedi [Note sulla versione](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=it) in *Panoramica dell’SDK per web di Platform* guida. |
+| [at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html){target=_blank} | Assicurati di utilizzare at.js nella versione 1.1 o successiva. Per informazioni su come scaricare l’ultima versione di at.js, consulta [Scaricare at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-without-a-tag-manager.html?lang=en){target=_blank}. For information about new functionality in each version of at.js, see [at.js Version Details](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}.<br>I clienti che utilizzano at.js sono incoraggiati a utilizzare i token di risposta e ad abbandonare i plug-in. Alcuni plug-in che si basano su metodi interni esistenti in mbox.js (ora obsoleto), ma non in at.js, vengono consegnati ma non riescono. |
 
 ## Utilizzo dei token di risposta {#section_A9E141DDCBA84308926E68D05FD2AC62}
 
@@ -35,10 +35,10 @@ Una differenza chiave tra plug-in e token di risposta è che i plug-in forniscon
 
    Per ulteriori informazioni:
 
-   * **Platform Web SDK**: vedi [Installare l’SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html) nel *Panoramica di Platform Web SDK* guida.
-   * **at.js**: vedi [Scarica at.js](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-without-a-tag-manager/){target=_blank}.
+   * **SDK per web per Platform**: Vedi [Installare l’SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html) in *Panoramica dell’SDK per web di Platform* guida.
+   * **at.js**: Vedi [Scaricare at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-without-a-tag-manager.html){target=_blank}.
 
-1. In entrata [!DNL Target], fai clic su **[!UICONTROL Amministrazione]** > **[!UICONTROL Token di risposta]**.
+1. In [!DNL Target], fai clic su **[!UICONTROL Amministrazione]** > **[!UICONTROL Token di risposta]**.
 
    ![response_tokens-new image](assets/response_tokens-new.png)
 
@@ -48,7 +48,7 @@ Una differenza chiave tra plug-in e token di risposta è che i plug-in forniscon
 
    | Tipo | Parametro | Note |
    |--- |--- |--- |
-   | Profili incorporati | `profile.activeActivities` | Restituisce una matrice dei codici `activityIds` per i quali il visitatore si qualifica. Viene incrementato man mano che gli utenti si qualificano. Ad esempio, in una pagina con due [!DNL Target] richieste che distribuiscono due attività diverse; la seconda richiesta include entrambe le attività. |
+   | Profili incorporati | `profile.activeActivities` | Restituisce una matrice dei codici `activityIds` per i quali il visitatore si qualifica. Viene incrementato man mano che gli utenti si qualificano. Ad esempio, in una pagina con due [!DNL Target] richieste che forniscono due diverse attività, la seconda richiesta include entrambe le attività. |
    |  | `profile.isFirstSession` | Restituisce “vero” o “falso”. |
    |  | `profile.isNewSession` | Restituisce “vero” o “falso”. |
    |  | `profile.daysSinceLastVisit` | Restituisce il numero di giorni dall’ultima visita del visitatore. |
@@ -57,10 +57,10 @@ Una differenza chiave tra plug-in e token di risposta è che i plug-in forniscon
    |  | `profile.thirdPartyId` | Restituisce l’ID di terze parti del visitatore. |
    |  | `profile.categoryAffinity` | Restituisce la categoria preferita del visitatore. |
    |  | `profile.categoryAffinities` | Restituisce una matrice delle 5 categorie principali del visitatore, sotto forma di stringhe. |
-   | Attività | `activity.name`<br>`activity.id`<br>`experience.name`<br>`experience.id`<br>`offer.name`<br>`offer.id` | Dettagli dell’attività corrente.<br> I valori dei parametri dell’offerta vengono valutati a livello di esperienza. |
+   | Attività | `activity.name`<br>`activity.id`<br>`experience.name`<br>`experience.id`<br>`offer.name`<br>`offer.id` | Dettagli dell’attività corrente.<br> Tieni presente che i valori per i parametri dell’offerta vengono valutati a livello di esperienza. |
    | Geo | `geo.country`<br>`geo.state`<br>`geo.city`<br>`geo.zip`<br>`geo.dma`<br>`geo.domainName`<br>`geo.ispName`<br>`geo.connectionSpeed`<br>`geo.mobileCarrier` | Consulta [Geo](/help/main/c-target/c-audiences/c-target-rules/geo.md) per ulteriori informazioni sull’utilizzo del geotargeting nelle attività. |
-   | Metodo di allocazione traffico<br>(Si applica a [!UICONTROL Targeting automatico] e [!UICONTROL Automated Personalization] solo attività). | `experience.trafficAllocationId` | Restituisce 0 se un visitatore ha ricevuto un’esperienza dal traffico &quot;di controllo&quot; e 1 se un visitatore ha ricevuto un’esperienza dalla distribuzione del traffico &quot;mirata&quot;. |
-   |  | `experience.trafficAllocationType` | Restituire &quot;di controllo&quot; o &quot;mirato&quot;. |
+   | Metodo di allocazione traffico<br>(Si applica a [!UICONTROL Targeting automatico] e [!UICONTROL Automated Personalization] solo attività.) | `experience.trafficAllocationId` | Restituisce 0 se un visitatore ha ricevuto un’esperienza dal traffico &quot;di controllo&quot; e 1 se ha ricevuto un’esperienza dalla distribuzione del traffico &quot;mirata&quot;. |
+   |  | `experience.trafficAllocationType` | Restituisce &quot;control&quot; o &quot;target&quot;. |
 
    Nell’elenco vengono visualizzati anche gli attributi del profilo utente e gli attributi del cliente.
 
@@ -68,28 +68,28 @@ Una differenza chiave tra plug-in e token di risposta è che i plug-in forniscon
    >
    >I parametri con caratteri speciali non vengono visualizzati nell’elenco. Sono supportati solo caratteri alfanumerici e il trattino basso.
 
-1. (Condizionale) Per utilizzare un parametro di profilo come token di risposta, ma il parametro non è stato trasmesso tramite un [!DNL Target] e non è stato quindi caricato in [!DNL Target] UI, puoi utilizzare il [!UICONTROL Aggiungi token di risposta] per aggiungere il profilo all’interfaccia utente.
+1. (Condizionale) Per utilizzare un parametro di profilo come token di risposta, ma il parametro non è stato passato attraverso un [!DNL Target] e, pertanto, non ha caricato nel [!DNL Target] nell’interfaccia utente, puoi utilizzare [!UICONTROL Aggiungi token di risposta] per aggiungere il profilo all’interfaccia utente.
 
-   Clic **[!UICONTROL Aggiungi token di risposta]**, specifica il nome del token, quindi fai clic su **[!UICONTROL Attiva]**.
+   Fai clic su **[!UICONTROL Aggiungi token di risposta]**, specifica il nome del token, quindi fai clic su **[!UICONTROL Attiva]**.
 
-   ![immagine response_token_create](assets/response_token_create.png)
+   ![response_token_create immagine](assets/response_token_create.png)
 
 1. Crea un’attività.
 
-## Ascoltare le risposte e leggere i token di risposta
+## Ascoltare risposte e leggere token di risposta
 
-Processo utilizzato per l&#39;ascolto [!DNL Target] risposte e token di risposta di lettura variano a seconda che si disponga di un [!DNL Platform Web SDK] o implementazione at.js.
+Il processo utilizzato per ascoltare [!DNL Target] le risposte e i token di risposta in lettura variano a seconda che si disponga di un [!DNL Platform Web SDK] o implementazione at.js.
 
-### ![Badge Adobe Experience Platform Web SDK](/help/main/assets/platform.png) [!DNL Platform Web SDK] utilizzo della classe oggetto Handle {#platform-web-sdk}
+### ![Badge Adobe Experience Platform Web SDK](/help/main/assets/platform.png) [!DNL Platform Web SDK] utilizzo della classe dell&#39;oggetto Handle {#platform-web-sdk}
 
-Utilizzare la classe Handle object, che dispone di un oggetto metadati e di un oggetto dati da ascoltare [!DNL Target] e leggere i token di risposta.
+Utilizzare la classe dell&#39;oggetto Handle, che dispone di un oggetto metadati e di un oggetto dati da ascoltare [!DNL Target] risposte e leggi i token di risposta.
 
-L’esempio di risposta seguente aggiunge una [!DNL Platform Web SDK] gestore eventi personalizzato direttamente nella pagina HTML (la tabella spiega gli oggetti utilizzati nel codice):
+L’esempio di risposta seguente aggiunge un [!DNL Platform Web SDK] gestore eventi personalizzato direttamente nella pagina HTML (nella tabella sono illustrati gli oggetti utilizzati nel codice):
 
 | Oggetto | Informazioni |
 | --- | --- |
-| Tipo: Personalization.decision | Se la decisione sia stata presa dal [!DNL Target] o dal provider di Offer decisioning. |
-| DecisionProvider - TGT | TGT-[!DNL Target]. [!DNL Target] fornisce alla pagina i metadati e i valori del token di risposta. |
+| Tipo - Personalization.decision | Se la decisione è stata presa dalla [!DNL Target] o Offer Decisioning. |
+| DecisionProvider - TGT | TGT-[!DNL Target]. [!DNL Target] fornisce i metadati e i valori del token di risposta alla pagina. |
 | Meta | Metadati passati alla pagina. |
 | Dati | Valori dei metadati passati alla pagina. |
 
@@ -149,7 +149,7 @@ L’esempio di risposta seguente aggiunge una [!DNL Platform Web SDK] gestore ev
 
 ### ![Badge at.js](/help/main/assets/atjs.png) at.js utilizzando eventi personalizzati
 
-Usa gli [eventi personalizzati di at.js](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/atjs-custom-events/) per ascoltare la risposta della e leggere i token di risposta.{target=_blank}[!DNL Target]
+Usa gli [eventi personalizzati di at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/atjs-custom-events.html?lang=en) per ascoltare la risposta della e leggere i token di risposta.{target=_blank}[!DNL Target]
 
 Il codice di esempio seguente aggiunge un gestore di eventi personalizzati di [!DNL at.js] direttamente alla pagina HTML:
 
@@ -180,7 +180,7 @@ I token di risposta possono essere attivati o disattivati solo dagli utenti con 
 
 Non hai accesso ai token di risposta.
 
-**Cosa succede se eseguo at.js 1.0 (o versione precedente)?**
+**Cosa succede se eseguo at.js 1.0 (o versioni precedenti)?**
 
 Puoi visualizzare i token di risposta, ma at.js non può utilizzarli.
 
@@ -188,45 +188,45 @@ Puoi visualizzare i token di risposta, ma at.js non può utilizzarli.
 
 Plug-in e token di risposta sono disponibili in parallelo; tuttavia, i plug-in diventeranno obsoleti in futuro.
 
-**I token di risposta vengono consegnati tramite tutti [!DNL Target] risposte o solo tramite [!DNL Target] risposte che forniscono un’attività?**
+**I token di risposta sono consegnati attraverso tutti [!DNL Target] risposte o solo tramite [!DNL Target] risposte che forniscono un’attività?**
 
-I token di risposta vengono consegnati solo tramite [!DNL Target] le risposte che forniscono un’attività.
+I token di risposta vengono consegnati solo tramite [!DNL Target] risposte che forniscono un’attività.
 
-**I miei [!DNL Target Classic] Il plug-in include JavaScript. Come posso riprodurne la funzionalità utilizzando i token di risposta?**
+**My [!DNL Target Classic] plug-in incluso JavaScript. Come posso riprodurne la funzionalità utilizzando i token di risposta?**
 
-Durante la migrazione ai token di risposta, questo tipo di JavaScript deve essere mantenuto nella soluzione di base di codice o di gestione dei tag. Puoi attivare questo codice utilizzando [!DNL Platform Web SDK] o [!DNL at.js] personalizza gli eventi e passa i valori del token di risposta alle funzioni JavaScript.
+Durante la migrazione ai token di risposta, questo tipo di JavaScript deve essere mantenuto nel codebase o nella soluzione di gestione dei tag. Puoi attivare questo codice utilizzando [!DNL Platform Web SDK] o [!DNL at.js] eventi personalizzati e passa i valori del token di risposta alle funzioni JavaScript.
 
 **Perché il mio parametro profilo/attributi del cliente non viene visualizzato nell’elenco dei token di risposta?**
 
-[!DNL Target] in genere aggiorna i parametri ogni 15 minuti. Questo aggiornamento dipende dall’azione dell’utente e i dati vengono aggiornati solo quando viene visualizzata la pagina dei token di risposta. Se i parametri non vengono visualizzati nell’elenco dei token di risposta, [!DNL Target] non ha ancora aggiornato i dati.
+[!DNL Target] aggiorna normalmente i parametri ogni 15 minuti. Questo aggiornamento dipende dall’azione dell’utente e i dati vengono aggiornati solo quando visualizzi la pagina dei token di risposta. Se i parametri non vengono visualizzati nell’elenco dei token di risposta, [!DNL Target] non ha ancora aggiornato i dati.
 
-Inoltre, se il parametro contiene solo caratteri non alfanumerici o simboli diversi dai caratteri di sottolineatura, il parametro non viene visualizzato nell&#39;elenco. Attualmente sono supportati solo caratteri alfanumerici e il trattino basso.
+Inoltre, se il parametro contiene elementi tranne caratteri non alfanumerici o simboli diversi dai caratteri di sottolineatura, il parametro non viene visualizzato nell’elenco. Attualmente sono supportati solo caratteri alfanumerici e il trattino basso.
 
-**Il token di risposta fornisce ancora contenuto se utilizza uno script di profilo eliminato o un parametro di profilo?**
+**Il token di risposta continua a fornire contenuto se utilizza uno script di profilo eliminato o un parametro di profilo?**
 
-I token di risposta estraggono informazioni dai profili utente e quindi recapitano tali informazioni. Se elimini uno script o un parametro di profilo, le informazioni non vengono necessariamente rimosse dai profili utente. I profili utente dispongono ancora di dati corrispondenti allo script del profilo. Il token di risposta continua a distribuire il contenuto. Per gli utenti che non hanno tali informazioni salvate nei loro profili o per i nuovi visitatori, tale token non viene consegnato perché i dati non sono presenti nei loro profili.
+I token di risposta estraggono informazioni dai profili utente e quindi recapitano tali informazioni. Se elimini uno script o un parametro di profilo, le informazioni non vengono necessariamente rimosse dai profili utente. I profili utente contengono ancora i dati corrispondenti allo script del profilo. Il token di risposta continua a fornire il contenuto. Per gli utenti per i quali non sono state salvate tali informazioni nei loro profili o per i nuovi visitatori, tale token non viene consegnato perché i dati non sono presenti nei loro profili.
 
 [!DNL Target] non disattiva automaticamente il token. Se elimini uno script di profilo e non desideri più che il token venga consegnato, devi disattivare il token manualmente.
 
 **Ho rinominato il mio script di profilo, ma il token che utilizza lo script è ancora attivo con il vecchio nome. Perché?**
 
-Come accennato in precedenza, i token di risposta funzionano sulle informazioni del profilo salvate per gli utenti. Anche se hai rinominato lo script di profilo, gli utenti che hanno visitato il tuo sito web hanno il valore dello script di profilo precedente salvato nei loro profili. Il token continua a raccogliere il vecchio valore già salvato nei profili utente. Se ora desideri consegnare il contenuto del nuovo nome, devi disattivare il token precedente e attivare quello nuovo.
+Come accennato in precedenza, i token di risposta funzionano sulle informazioni del profilo salvate per gli utenti. Anche se hai rinominato il tuo script di profilo, gli utenti che hanno visitato il tuo sito web hanno il vecchio valore dello script di profilo salvato nei loro profili. Il token continua a raccogliere il valore precedente già salvato nei profili utente. Se ora desideri consegnare il contenuto del nuovo nome, devi disattivare il token precedente e attivare quello nuovo.
 
-**Se gli attributi sono stati modificati, quando verranno rimossi dall&#39;elenco?**
+**Se i miei attributi sono cambiati, quando saranno rimossi dall’elenco?**
 
-[!DNL Target] esegue un aggiornamento degli attributi a intervalli regolari. Qualsiasi attributo non attivato viene rimosso durante il successivo aggiornamento. Tuttavia, se l&#39;attributo è stato attivato e rimosso, lo script non viene rimosso dall&#39;elenco degli attributi fino a quando non viene disattivato. Ad esempio, hai rimosso uno script di profilo utilizzato come token. [!DNL Target] rimuove dall’elenco solo gli attributi disattivati quando vengono eliminati o rinominati.
+[!DNL Target] esegue un aggiornamento degli attributi a intervalli regolari. Gli attributi non attivati vengono rimossi durante l’aggiornamento successivo. Tuttavia, se un attributo è stato attivato ed è stato rimosso, tale script non viene rimosso dall’elenco degli attributi finché non lo si disattiva. Ad esempio, hai rimosso uno script di profilo utilizzato come token. [!DNL Target] rimuove dall’elenco solo gli attributi disattivati quando vengono eliminati o rinominati.
 
 ## Invia dati a Google Analytics
 
-Le sezioni seguenti descrivono come inviare [!DNL Target] dati alle Google Analytics. I dati inviati dai token di risposta possono essere inviati anche ad altre integrazioni di terze parti.
+Le sezioni seguenti descrivono come inviare [!DNL Target] dati alle Google Analytics. I dati inviati dai token di risposta possono essere inviati ad altre integrazioni di terze parti.
 
-### ![Badge AEP](/help/main/assets/platform.png) Invio di dati a Google Analytics tramite Platform Web SDK
+### ![Badge AEP](/help/main/assets/platform.png) Invio di dati a Google Analytics tramite SDK per web di Platform
 
-È possibile inviare i dati alle Google Analytics tramite Platform Web SDK versione 2.6.0 (o successiva) aggiungendo il seguente codice nella pagina di HTML.
+I dati delle Google Analytics possono essere inviati tramite Platform Web SDK versione 2.6.0 (o successiva) aggiungendo il seguente codice nella pagina HTML.
 
 >[!NOTE]
 >
->Assicurati che la coppia di valori chiave del token di risposta sia sotto `alloy(“sendEvent”` oggetto.
+>Assicurati che la coppia di valori della chiave del token di risposta sia sotto la `alloy("sendEvent"` oggetto.
 
 ```
 <script type="text/javascript"> 
@@ -347,9 +347,9 @@ Puoi inviare dati a Google Analytics tramite at.js aggiungendo il seguente codic
 
 Le sezioni seguenti forniscono informazioni sul debug dei token di risposta:
 
-### ![Badge at.js](/help/main/assets/atjs.png) Google Analytics e debug
+### ![Badge at.js](/help/main/assets/atjs.png) Google Analytics e debugging
 
-Il codice seguente consente di eseguire il debug utilizzando le Google Analytics:
+Il codice seguente consente di eseguire il debug utilizzando Google Analytics:
 
 ```javascript
 <script type="text/javascript"> 
@@ -412,7 +412,7 @@ Il codice seguente consente di eseguire il debug utilizzando le Google Analytics
   } 
 ```
 
-### Debug con l’equivalente del plug-in ttMeta
+### Debug utilizzando l’equivalente del plug-in ttMeta
 
 L’equivalente del plug-in ttMeta per scopi di debug può essere creato aggiungendo il seguente codice alla pagina HTML:
 
@@ -464,14 +464,14 @@ L’equivalente del plug-in ttMeta per scopi di debug può essere creato aggiung
 </script>
 ```
 
-## ![at.js](/help/main/assets/atjs.png) Video di formazione: Token di risposta ed eventi personalizzati at. js {#section_3AA0A6C8DBD94A528337A2525E3E05D5}
+## ![at.js](/help/main/assets/atjs.png) Video di formazione: Token di risposta ed eventi personalizzati at.js {#section_3AA0A6C8DBD94A528337A2525E3E05D5}
 
-Il video seguente spiega come utilizzare i token di risposta e gli eventi personalizzati at.js per condividere le informazioni del profilo da [!DNL Target] a sistemi di terze parti.
+Il video seguente spiega come utilizzare i token di risposta e gli eventi personalizzati at.js per condividere le informazioni sul profilo da [!DNL Target] a sistemi di terze parti.
 
 >[!NOTE]
 >
 >L’interfaccia utente di [!DNL Target] del menu [!UICONTROL Amministrazione] (precedentemente [!UICONTROL Configurazione]) è stato riprogettato per fornire prestazioni migliori, ridurre il tempo di manutenzione necessario durante il rilascio di nuove funzioni e migliorare l’esperienza utente nel prodotto. Le informazioni contenute nel video seguente sono corrette; tuttavia, le opzioni si trovano in posizioni leggermente diverse.
 >
->Il video menziona `option.name` e `option.id`, che sono stati sostituiti con `offer.name` e `offer.id`, rispettivamente.
+>Il video cita `option.name` e `option.id`che sono stati sostituiti con `offer.name` e `offer.id`, rispettivamente.
 
 >[!VIDEO](https://video.tv.adobe.com/v/23253/)

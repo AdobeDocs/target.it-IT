@@ -6,9 +6,9 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Administration & Configuration
 role: Admin
 exl-id: 838abe87-dba7-4274-97b4-31a7905846dc
-source-git-commit: e776f4f3871350c00ac5e00ae7a915a0396d979e
+source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
 workflow-type: tm+mt
-source-wordcount: '3216'
+source-wordcount: '3213'
 ht-degree: 58%
 
 ---
@@ -252,7 +252,7 @@ Quando utilizzi o configuri proprietà e autorizzazioni in , considera quanto se
 
    In una versione futura, Target lavorerà su pagine in cui non è presente alcun token `at_property` o su pagine in cui è presente un token `at_property` diverso.
 
-* La funzionalità Autorizzazioni Enterprise non è supportata nelle [chiamate API di Adobe I/O](https://developer.adobe.com/target/){target=_blank}.
+* La funzionalità Autorizzazioni Enterprise non è supportata nelle chiamate API di Adobe I/O.
 
 ## Domande frequenti {#faqs}
 

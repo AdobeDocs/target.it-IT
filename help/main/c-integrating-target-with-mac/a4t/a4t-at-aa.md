@@ -4,14 +4,14 @@ description: Scopri come creare [!UICONTROL Allocazione automatica] e [!UICONTRO
 title: È supportato da A4T [!UICONTROL Allocazione automatica] e [!UICONTROL Targeting automatico] Attività?
 feature: Analytics for Target (A4T)
 exl-id: 3302f26d-c445-4779-8435-be142d5cea8c
-source-git-commit: 1c9728b447ee1402cc133d38845a25da3038d0ca
+source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
 workflow-type: tm+mt
 source-wordcount: '1265'
 ht-degree: 7%
 
 ---
 
-# Supporto A4T per [!UICONTROL attività di allocazione] automatica e [!UICONTROL targeting automatico]
+# Supporto A4T per attività di [!UICONTROL allocazione automatica] e [!UICONTROL targeting automatico]
 
 La [!DNL Adobe Target]-to-[!DNL Adobe Analytics] integrazione, nota come [Analytics for Target](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T) supporta [!UICONTROL Allocazione automatica] e [!UICONTROL Targeting automatico] attività.
 
@@ -20,7 +20,7 @@ L’integrazione A4T consente di:
 * Utilizzo [Allocazione automatica](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)Capacità di slot machine per indirizzare il traffico verso esperienze vincenti.
 * Utilizzo [Targeting automatico](/help/main/c-activities/auto-target/auto-target-to-optimize.md)L&#39;algoritmo di apprendimento automatico del gruppo di scegliere una migliore esperienza per ogni visitatore. [!UICONTROL Targeting automatico] sceglie l’esperienza migliore in base ai profili, ai comportamenti e al contesto degli utenti durante l’utilizzo di un’ [!DNL Adobe Analytics] metrica di obiettivo e [!DNL Adobe Analytics]Funzionalità avanzate di reporting e analisi.
 
-Assicurati di [implementato A4T per l’utilizzo con attività di test A/B e targeting delle esperienze](/help/main/c-integrating-target-with-mac/a4t/a4timplementation.md). Se utilizzi `analyticsLogging = client_side`, è inoltre necessario trasmettere `sessionId` valore a [!DNL Analytics]. Per ulteriori informazioni, consulta [Reporting di Analytics for Target (A4T)](https://developer.adobe.com/target/implement/server-side/sdk-guides/integration-with-experience-cloud/a4t-reporting/){target=_blank} in *SDK per Adobe Target* guida.
+Assicurati di [implementato A4T per l’utilizzo con attività di test A/B e targeting delle esperienze](/help/main/c-integrating-target-with-mac/a4t/a4timplementation.md). Se utilizzi `analyticsLogging = client_side`, è inoltre necessario trasmettere `sessionId` valore a [!DNL Analytics]. Per ulteriori informazioni, consulta [Reporting di Analytics for Target (A4T)](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/integration/a4t-reporting.html){target=_blank} in *SDK per Adobe Target* guida.
 
 Per iniziare:
 
@@ -133,7 +133,7 @@ Questa esercitazione illustra le modifiche consigliate per l’analisi [!UICONTR
 
 Per ulteriori informazioni, consulta [Come impostare rapporti A4T in Analysis Workspace per le attività di allocazione automatica](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-allocate-activities.html?lang=it){target=_blank} in *Tutorials Adobe Target*.
 
-### Configurazione dei rapporti A4T in [!DNL Analysis Workspace] per le attività di [!UICONTROL Targeting automatico] 
+### Configurazione dei rapporti A4T in[!DNL Analysis Workspace]per le attività di [!UICONTROL Targeting automatico]
 
 Questa esercitazione illustra le modifiche consigliate per l’analisi [!UICONTROL Targeting automatico] attività [!DNL Analysis Workspace].
 

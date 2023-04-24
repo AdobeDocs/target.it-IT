@@ -5,9 +5,9 @@ title: Quali dati vengono raccolti per creare algoritmi di apprendimento automat
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Automated Personalization
 exl-id: 7114a6d6-4779-471e-9b91-646aa49e102a
-source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
+source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
 workflow-type: tm+mt
-source-wordcount: '2022'
+source-wordcount: '2025'
 ht-degree: 51%
 
 ---
@@ -49,7 +49,7 @@ La tabella seguente mostra i dati forniti dal cliente raccolti da [!UICONTROL Au
 
 È possibile bloccare alcune funzionalità per evitare che vengano utilizzate dagli algoritmi di apprendimento automatico di [!DNL Target], in modo da impedirne l’utilizzo nei modelli o nelle attività di [!UICONTROL Targeting automatico] o [!UICONTROL Automated Personalization].
 
-Per ulteriori informazioni, consulta [Panoramica dell’API dei modelli (Inserire nell&#39;elenco Bloccati)](https://developer.adobe.com/target/before-administer/models-api/){target=_blank} in *Guida per gli sviluppatori di Adobe Target*.
+Per ulteriori informazioni, consulta [Panoramica dell’API dei modelli (Inserire nell&#39;elenco Bloccati)](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api.html){target=_blank} in *Guida per gli sviluppatori di Adobe Target*.
 
 ## Dati mobili e sul dispositivo {#device-mobile}
 

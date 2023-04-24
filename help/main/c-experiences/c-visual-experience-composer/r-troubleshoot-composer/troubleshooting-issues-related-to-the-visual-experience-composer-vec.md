@@ -1,21 +1,21 @@
 ---
 keywords: Targeting;compositore esperienza visivo;vec;risoluzione dei problemi compositore esperienza visiva;risoluzione dei problemi;tls;tls 1.2
-description: Scopri come risolvere i problemi che a volte si verificano nell’Adobe [!DNL Target] Compositore esperienza visivo in determinate condizioni.
+description: Scopri come risolvere i problemi che si verificano a volte nell’Adobe [!DNL Target] Compositore esperienza visivo (VEC) in determinate condizioni.
 title: Come posso risolvere i problemi relativi al Compositore esperienza visivo?
 feature: Visual Experience Composer (VEC)
 exl-id: ca251025-25e8-4e56-9b59-81310fc763c1
-source-git-commit: 3ac61272ee1ccd72a8670966f181e7798cbe9f76
+source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
 workflow-type: tm+mt
-source-wordcount: '971'
-ht-degree: 69%
+source-wordcount: '975'
+ht-degree: 68%
 
 ---
 
 # Risoluzione dei problemi relativi al Compositore esperienza visivo
 
-Talvolta si verificano problemi di visualizzazione in [!DNL Adobe Target] [!UICONTROL Compositore esperienza visivo] (VEC) in determinate condizioni.
+A volte si verificano problemi di visualizzazione nel [!DNL Adobe Target] [!UICONTROL Compositore esperienza visivo] (VEC) a determinate condizioni.
 
-## Quando apro il mio sito web nel Compositore esperienza visivo, il [!DNL Target] le librerie non vengono caricate. (Solo Compositore esperienza visivo)  {#section_8A7D3F4AD2CC4C3B823EE9432B97E06F}
+## Quando apro il mio sito web nel Compositore esperienza visivo, la [!DNL Target] le librerie non vengono caricate. (Solo Compositore esperienza visivo)  {#section_8A7D3F4AD2CC4C3B823EE9432B97E06F}
 
 Target aggiunge due parametri (`mboxEdit=1` e `mboxDisable=1`) durante l&#39;apertura del sito web nel Compositore esperienza visivo.
 
@@ -32,7 +32,7 @@ Diversi problemi possono influenzare le prestazioni della pagina nei compositori
 
 Se si verificano problemi con il Compositore esperienza avanzato, prova a disattivarlo e utilizza invece il Compositore esperienza visivo.
 
-Per disabilitare il Compositore esperienza avanzato, vai a **[!UICONTROL Amministrazione]** > **[!UICONTROL Compositore esperienza visivo]** e spegnere il **[!UICONTROL Abilita Compositore esperienza avanzato]** opzione.
+Per disabilitare il Compositore esperienza avanzato, passa a **[!UICONTROL Amministrazione]** > **[!UICONTROL Compositore esperienza visivo]** e spegne **[!UICONTROL Abilita Compositore esperienza avanzato]** opzione .
 
 Alcuni utenti visualizzano il seguente messaggio di errore nella console:
 
@@ -87,7 +87,7 @@ Se né il Compositore esperienza visivo né il Compositore esperienza avanzato f
 
 1. Fai clic su **[!UICONTROL Salva]**.
 
-   ![richiedi immagine](assets/requestly.png)
+   ![immagine richiesta](assets/requestly.png)
 
    Ora dovresti essere in grado di caricare la pagina rapidamente con il Compositore esperienza visivo.
 
@@ -117,14 +117,14 @@ Dopo aver impostato un&#39;estensione, apri Target. Dovrebbe essere ora possibil
 
    Assicurati che questa impostazione sia abilitata, quindi scarica e aggiorna at.js sul tuo sito web.
 
-* Se si prova a utilizzare il [nuovo [!UICONTROL Helper per editing video] estensione](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) e quindi tornare al [vecchia estensione](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) e [!DNL Target] impossibile caricare il sito web, cancella tutti i dati del browser e disabilita la nuova estensione.
+* Se provi a utilizzare il [nuovo [!UICONTROL Helper per editing video] estensione](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) e poi tornare alla [vecchia estensione](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) e [!DNL Target] non riesce a caricare il sito web, cancella tutti i dati del browser e disabilita la nuova estensione.
 
-* Se il sito web non viene caricato nel Compositore esperienza visivo o si comporta in modo imprevisto, è possibile che vengano accettati dei cookie sul sito web nel browser prima di tentare di caricare il sito web in [!DNL Target].
+* Se il sito web non viene caricato nel Compositore esperienza visivo o si comporta in modo imprevisto, è possibile accettare i cookie sul sito web nel browser prima di provare a caricare il sito web in [!DNL Target].
 
 ## Il Compositore esperienza visivo sembra non funzionare quando uso la modalità Sfoglia. (Solo Compositore esperienza visivo)  {#section_FA2A18E8FD6A4274B2E395DBAA2FB407}
 
-Quando si utilizza la modalità Sfoglia, se si accede a un URL che non dispone di [!DNL Target] librerie implementate ([at.js](https://developer.adobe.com/target/implement/client-side/){target=_blank} or [Adobe Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/){target=_blank}) o contiene un’intestazione frame-buster, il Compositore esperienza visivo sembra non funzionare. A causa di problemi di sicurezza del browser, [!DNL Target] non può accedere correttamente all’URL a cui sei passato oppure l’URL del Compositore esperienza visivo non viene aggiornato in modo coerente se la pagina viene caricata.
+Durante l&#39;utilizzo della modalità Sfoglia, se si accede a un URL che non ha [!DNL Target] librerie implementate ([at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/overview.html){target=_blank} or [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}) o contiene un&#39;intestazione di buster del frame, il Compositore esperienza visivo sembra non funzionare. A causa di problemi di sicurezza del browser, [!DNL Target] non è in grado di accedere correttamente all’URL a cui sei passato o l’URL del Compositore esperienza visivo non viene aggiornato in modo coerente se la pagina viene caricata.
 
-Questo problema si verifica perché il Compositore esperienza visivo carica la pagina web in un `<iframe>`. Gli attuali meccanismi di sicurezza dei browser impediscono [!DNL Target] L’interfaccia utente non accede agli elementi del frame specificato a causa del criterio relativo alla stessa origine. I browser bloccano gli script che tentano di accedere a un frame con un’origine diversa e che include informazioni quali `location.href`.
+Questo problema si verifica perché il Compositore esperienza visivo carica la pagina web in un `<iframe>`. Gli attuali meccanismi di sicurezza dei browser impediscono [!DNL Target] L’interfaccia utente non può accedere agli elementi del frame specificato a causa dei criteri della stessa origine. I browser bloccano gli script che tentano di accedere a un frame con un&#39;origine diversa e che include informazioni come il `location.href`.
 
-È necessario utilizzare il nuovo [Estensione Helper per editing video](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) (consigliato) o [vecchia estensione](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) per iniettare [!DNL Target] nelle pagine per sfogliarle in modo ottimale.
+È necessario utilizzare il nuovo [Estensione Visual Editing Helper](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) (consigliato) o [vecchia estensione](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) per inserire [!DNL Target] libreria nelle pagine per poterle sfogliare in modo ottimale.
