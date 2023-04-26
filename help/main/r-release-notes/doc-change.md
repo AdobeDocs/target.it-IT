@@ -4,10 +4,10 @@ description: Resta aggiornato sulle importanti aggiunte e modifiche apportate al
 title: Dove posso trovare la documentazione aggiornata per  [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: fe9811185328754ef983bdd5db3a4cd7fad772f6
+source-git-commit: 14467a97509d505cd737bb6a1eb356bd681cd749
 workflow-type: tm+mt
-source-wordcount: '2600'
-ht-degree: 92%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -21,7 +21,7 @@ Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Targ
 | --- | --- | --- |
 | 26 aprile | [Panoramica dei [!UICONTROL frammenti di esperienza] e [!UICONTROL frammenti di contenuto] di AEM](/help/main/c-integrating-target-with-mac/aem/aem-experience-and-content-fragments.md) | La [!UICONTROL Frammenti di contenuto AEM] è ora disponibile per tutti [!DNL Target customers]. |
 |  | [[!UICONTROL Frammenti di contenuto]](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md) di AEM | La [!UICONTROL Frammenti di contenuto AEM] è ora disponibile per tutti [!DNL Target customers]. |
-|  | [*Guida per gli sviluppatori di Adobe Target*](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html){target=_blank} | *Guida per gli sviluppatori di Adobe Target* è stato trasferito in *Adobe Experience League*. Il passaggio a *Experience League* strumenti per la localizzazione di testo in lingue aggiuntive, unifica la ricerca in *Experience League* per fornire i risultati della ricerca di entrambe le guide e offre ulteriori vantaggi.<P>I reindirizzamenti dalla posizione precedente verranno implementati nei prossimi giorni. Aggiorna i segnalibri. |
+|  | [*Guida per gli sviluppatori di Adobe Target*](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html){target=_blank} | La *Guida per gli sviluppatori di Adobe Target* è stato trasferito in *[!UICONTROL Adobe Experience League]*. Il passaggio a *[!UICONTROL Experience League]* strumenti per la localizzazione di testo in lingue aggiuntive, unifica la ricerca in *Experience League* per fornire risultati di ricerca per *[!UICONTROL Guida dei professionisti di Adobe Target]* e *[!UICONTROL Guida per gli sviluppatori di Adobe Target]* e offre ulteriori vantaggi.<P>Verrai reindirizzato dalla posizione precedente a *[!UICONTROL Experience League]* automaticamente. Aggiorna i segnalibri secondo necessità. |
 | 24 aprile | [[!DNL Adobe Target] annunci ed eventi](/help/main/r-release-notes/target-announcements.md) | Sono state aggiunte informazioni sulle seguenti domande e risposte relative all’interruzione del caffè della community Adobe Target:<ul><li>Ottimizzazione e personalizzazione dell’esperienza mobile per ambienti autenticati</li></ul> |
 |  | [Note sulla versione di Target (corrente)](/help/main/r-release-notes/release-notes.md) | Sono state aggiunte note sulla versione 23.4.1 di [!DNL Target Standard/Premium]. |
 
