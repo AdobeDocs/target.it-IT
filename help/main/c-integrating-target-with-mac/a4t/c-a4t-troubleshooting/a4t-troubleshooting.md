@@ -5,9 +5,9 @@ title: Come posso risolvere i problemi relativi all’integrazione di Analytics 
 feature: Analytics for Target (A4T)
 exl-id: 7d155cbe-e799-43b5-afc2-1aea43f432ba
 source-git-commit: 0be54d82e25eb919102f6098c1b1db76ab291675
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '960'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -35,7 +35,7 @@ Se suddividi la riga “Non specificata” per la dimensione “Analytics for Ta
 
 >[!NOTE]
 >
->A volte i dati vengono visualizzati correttamente nei rapporti, ma poi vengono ripristinati come &quot;non specificato&quot; perché è stata aggiunta una nuova attività che non ha completato la classificazione. Tieni presente che in genere la classificazione impiega da 24 a 72 ore per classificare i rapporti dopo il primo salvataggio.
+>A volte i dati vengono visualizzati correttamente nei rapporti, ma successivamente vengono elencati come “non specificati” perché è stata aggiunta una nuova attività per la quale non è ancora stata completata la classificazione. Tieni presente che in genere la classificazione impiega da 24 a 72 ore per classificare i rapporti dopo il primo salvataggio.
 >
 >Quando compare la dicitura “non specificato” non viene perso alcun dato. I dati vengono assegnati correttamente all’attività o all’esperienza appropriata dopo l’esecuzione della classificazione.
 
@@ -43,11 +43,11 @@ Se suddividi la riga “Non specificata” per la dimensione “Analytics for Ta
 
 Nel rapporto potrebbe essere visualizzata una riga di eventi con dicitura “[!UICONTROL Non specificata]”, a seconda della metrica con cui visualizzi i dati.
 
-Solitamente, questa riga viene visualizzata se si sceglie una metrica comune nel rapporto che non è specifica di [!DNL Target] (ad esempio, [!UICONTROL Visualizzazioni di pagina], [!UICONTROL Visite], [!UICONTROL Visitatori unici] e così via). In questo caso, il [!UICONTROL &quot;Non specificato&quot;] la riga include tutte le [!UICONTROL Visualizzazioni pagina], [!UICONTROL Visite]e [!UICONTROL Visitatori unici] non associati a [!DNL Target] attività.
+Solitamente, questa riga viene visualizzata se si sceglie una metrica comune nel rapporto che non è specifica di [!DNL Target] (ad esempio, [!UICONTROL Visualizzazioni di pagina], [!UICONTROL Visite], [!UICONTROL Visitatori unici] e così via). In questo caso, la riga con dicitura [!UICONTROL “Non specificata”] include tutte le [!UICONTROL Visualizzazioni di pagina], le [!UICONTROL Visite] e i [!UICONTROL Visitatori univoci] non associati ad attività [!DNL Target].
 
-Quella riga non ne avrà alcuna [!DNL Target]Informazioni associate (ad esempio, nessun visitatore, visita o impression). Per ulteriori informazioni, consulta [&quot;Non specificato&quot;, &quot;Nessuno&quot;, &quot;Altro&quot; e &quot;Sconosciuto&quot; nel reporting](https://experienceleague.adobe.com/docs/analytics/technotes/unspecified.html?lang=it) in *Note tecniche di Analytics*.
+Quella riga non includerà alcuna informazione associata a [!DNL Target] (ad esempio, nessun visitatore, visita o impression). Per ulteriori informazioni, consulta [“Non specificato”, “Nessuno,” “Altro,” e “Sconosciuto” nel reporting](https://experienceleague.adobe.com/docs/analytics/technotes/unspecified.html?lang=it) nelle *Note tecniche di Analytics*.
 
-Se scegli una [!DNL Target]una metrica specifica nel rapporto, che [!UICONTROL &quot;Non specificato&quot;] la riga non viene visualizzata. L’unico modo per evitare di averla nel rapporto è impostare una chiamata [!DNL Target] dietro ogni richiesta inviata da quella pagina, che non è comune o necessaria.
+Se scegli una metrica specifica di [!DNL Target] nel rapporto, la riga con dicitura [!UICONTROL “Non specificata”] non viene visualizzata. L’unico modo per evitare di averla nel rapporto è impostare una chiamata [!DNL Target] su ogni richiesta inviata da quella pagina, che non è comune o necessaria.
 
 ## L’incremento stimato nella metrica delle entrate non mostra dati corretti. {#section_35D766E5E4D347C39E15D08AA883FBB0}
 
