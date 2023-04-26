@@ -5,8 +5,8 @@ title: Come posso utilizzare i [!UICONTROL rrammenti di esperienza] e i [!UICONT
 feature: Integrations
 exl-id: 6f1a02da-8f59-4a8b-8e97-c20444ef53c8
 source-git-commit: f39ec80d9804fff2c65fce98ca2be5400d99aad0
-workflow-type: ht
-source-wordcount: '0'
+workflow-type: tm+mt
+source-wordcount: '383'
 ht-degree: 100%
 
 ---

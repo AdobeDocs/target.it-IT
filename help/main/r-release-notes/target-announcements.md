@@ -7,7 +7,7 @@ exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 source-git-commit: 0628e4b4d5cd4998a1bc2d87fd27e99accabd42e
 workflow-type: tm+mt
 source-wordcount: '2152'
-ht-degree: 85%
+ht-degree: 90%
 
 ---
 
@@ -48,26 +48,26 @@ In questa sessione, scopri come [!DNL Target] e [!DNL Real-Time Customer Data Pl
 
 Registrati per partecipare ai seguenti webinar e scopri come i clienti utilizzano [!DNL Target] per raggiungere i loro obiettivi di personalizzazione e ottimizzazione:
 
-### Offri sempre esperienze personalizzate ai clienti!
+### Offrire sempre esperienze personalizzate ai clienti!
 
 * **Giovedì 27 aprile 2023**
-* **dalle 9:00 alle 10:00 (BST, GMT +1), dalle 10.00 alle 11.00 (CEST, GMT +2)**
+* **dalle 9:00 alle 10:00 (BST, GMT +1), dalle 10:00 alle 11:00 (CEST, GMT +2)**
 * **[Informazioni sulla registrazione](https://adobetargetemea2023.experienceleague.adobeevents.com/){target=_blank}**
 
-Con [!DNL Adobe Target]Funzioni avanzate di test e personalizzazione. Assicurati di essere ovunque si trovi il cliente, offrendo esperienze contestuali dinamiche su web, dispositivi mobili e dispositivi digitali.
+Stai un passo avanti rispetto alla clientela, con le funzioni avanzate di test e personalizzazione di [!DNL Adobe Target]. Assicurati di essere ovunque si trovi il cliente, offrendo esperienze contestuali dinamiche su web, dispositivi mobili e dispositivi digitali.
 
 +++Dettagli
 
-Il webinar tratterà:
+Argomenti del webinar:
 
-* Perché la personalizzazione è una parte critica di qualsiasi strategia
+* Perché la personalizzazione è una parte fondamentale di qualsiasi strategia
 * Identificazione e utilizzo di diversi tipi di attività
-* Spotlight - Casi d&#39;uso del settore
-* Recommendations per stimolare la personalizzazione
-* Demo di [!DNL Target] Interfaccia utente, evidenziazione
-   * Creazione di pubblico
-   * Configurazione [!UICONTROL Targeting esperienza] Attività (XT)
-   * Configurazione [!UICONTROL Targeting automatico] e [!UICONTROL Personalizzazione automatica] attività
+* In evidenza - Casi d’uso del settore
+* Consigli per stimolare la personalizzazione
+* Demo dell’interfaccia utente di [!DNL Target], in evidenza
+   * Creazione di un pubblico
+   * Impostazione delle attività di [!UICONTROL Targeting dell’esperienza] (XT)
+   * Impostazione delle attività di [!UICONTROL Targeting automatico] e [!UICONTROL Personalizzazione automatica]
 
 +++
 
