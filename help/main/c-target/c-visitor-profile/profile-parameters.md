@@ -4,10 +4,10 @@ description: Scopri gli attributi specifici del visitatore che vengono memorizza
 title: Cosa sono gli attributi del profilo?
 feature: Audiences
 exl-id: 6c689629-bbd3-461e-9a68-5b16d4eb4250
-source-git-commit: 1383088bb2f6be0432e6f140400d8723048c8530
+source-git-commit: 40698d4ad9cb8d846bcfb0d0767f4dd75bca5562
 workflow-type: tm+mt
-source-wordcount: '2455'
-ht-degree: 94%
+source-wordcount: '2499'
+ht-degree: 92%
 
 ---
 
@@ -249,7 +249,7 @@ I parametri del profilo di script possono fare riferimento agli oggetti e ai met
 | `page.query` | La stringa di query per la pagina corrente. Tutto dopo il &quot;?&quot;. Ad esempio, `blue&size=small` in `http://www.acme.com/categories/mens_jeans?color=blue&size=small`. |
 | `page.param('<par_name>')` | Il valore del parametro indicato da `<par_name>`. Se l’URL corrente è la pagina di ricerca Google e hai inserito `page.param('hl')`, otterrai &quot;en&quot; per l’URL `http://www.google.com/search?hl=en& q=what+is+asdf&btnG=Google+Search`. |
 | `page.referrer` | Le stesse operazioni di cui sopra valgono per la pagina di provenienza e quella di destinazione (ad esempio referrer.url è l’indirizzo URL della pagina di provenienza). |
-| `landing.url`, `landing.protocol`, `landing.query` e `landing.param` | Simile a quella della pagina, ma per la pagina di destinazione. |
+| `landing.url`, `landing.protocol`, `landing.query` e `landing.param` | Simile a quella della pagina, ma per la pagina di destinazione.<P>Affinché l’URL della pagina di destinazione funzioni come previsto, imposta la variabile `context` > `browser` > `host`.<P>Inoltre, non puoi avere l&#39;URL di riferimento nella prima chiamata della sessione. Nelle chiamate successive, assicurati che `referringURL` è veramente l’URL precedente che l’utente ha visitato nella sessione corrente.<!-- KB-2092 --> |
 | `mbox.name` | Il nome della mbox attiva. |
 | `mbox.param('<par_name>')` | Un parametro mbox in base al nome specificato nella mbox attiva. |
 | `profile.get('<par_name>')` | Il parametro del profilo utente creato dal client in base al nome `<par_name>`. Ad esempio, se l’utente imposta un parametro di profilo denominato &quot;gender&quot;, il valore può essere estratto utilizzando &quot;profile.gender&quot;. Restituisce il valore del &quot;`profile.<par_name>`&quot; impostato per il visitatore corrente; restituisce null se non è stato impostato alcun valore. Tieni presente che `profile.get(<par_name>)` è qualificato come chiamata di funzione. |
@@ -260,7 +260,6 @@ I parametri del profilo di script possono fare riferimento agli oggetti e ai met
 | `user.browser` | Restituisce l’agente utente nell’intestazione HTTP. Ad esempio, puoi creare una destinazione dell’espressione rivolta solo agli utenti Safari: `if (user.browser != null && user.browser.indexOf('Safari') != -1) { return true; }` |
 
 ### Operatori comuni
-
 
 Tutti gli operatori JavaScript standard sono presenti e utilizzabili. Gli operatori JavaScript possono essere utilizzati su stringhe e numeri (e su altri tipi di dati). Una rapida descrizione:
 

@@ -4,10 +4,10 @@ description: Resta aggiornato sulle importanti aggiunte e modifiche apportate al
 title: Dove posso trovare la documentazione aggiornata per  [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 56e23e2eb6097e12d62268e086a53f10cc4a89d9
+source-git-commit: 40698d4ad9cb8d846bcfb0d0767f4dd75bca5562
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '2648'
+ht-degree: 90%
 
 ---
 
@@ -19,6 +19,8 @@ Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Targ
 
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
+| 3 maggio | [Visualizzare i rapporti - Domande frequenti su A4T](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md#activity-impressions) | È stata aggiunta la seguente domanda frequente:<ul><li>Come si tiene traccia delle impression dell’attività in [!DNL Analysis Workspace] quando utilizzi [!UICONTROL Analytics for Target] (A4T)?</li></ul> |
+|  | [Attributi del profilo](/help/main/c-target/c-visitor-profile/profile-parameters.md#objects) | Sono state aggiunte ulteriori informazioni alla riga &quot;landing.URL&quot;. |
 | 26 aprile | [Panoramica dei [!UICONTROL frammenti di esperienza] e [!UICONTROL frammenti di contenuto] di AEM](/help/main/c-integrating-target-with-mac/aem/aem-experience-and-content-fragments.md) | La [!UICONTROL Frammenti di contenuto AEM] è ora disponibile per tutti [!DNL Target customers]. |
 |  | [[!UICONTROL Frammenti di contenuto]](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md) di AEM | La [!UICONTROL Frammenti di contenuto AEM] è ora disponibile per tutti [!DNL Target customers]. |
 |  | [*Guida per gli sviluppatori di Adobe Target*](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html){target=_blank} | La *Guida per gli sviluppatori di Adobe Target* è stato trasferito in *[!UICONTROL Adobe Experience League]*. Il passaggio a *[!UICONTROL Experience League]* strumenti per la localizzazione di testo in lingue aggiuntive, unifica la ricerca in *Experience League* per estendere e offrire i risultati della ricerca sia dal *[!UICONTROL Guida dei professionisti di Adobe Target]* e *[!UICONTROL Guida per gli sviluppatori di Adobe Target]* e offre ulteriori vantaggi.<P>Verrai reindirizzato dalla posizione precedente a *[!UICONTROL Experience League]* automaticamente. Aggiorna i segnalibri secondo necessità. |
