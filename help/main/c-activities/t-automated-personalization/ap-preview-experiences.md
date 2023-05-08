@@ -5,14 +5,14 @@ title: Come posso visualizzare in anteprima le esperienze Automated Personalizat
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Automated Personalization
 exl-id: b346e9cb-f4db-4777-8671-cf714bed465a
-source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
+source-git-commit: bfe25200407086680b2f2a4e9f33f8ec130c25ad
 workflow-type: tm+mt
-source-wordcount: '257'
-ht-degree: 47%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
-# !Anteprima delle esperienze di Personalizzazione automatizzata nel Compositore esperienza visivo
+# Anteprima delle esperienze di Personalizzazione automatizzata nel Compositore esperienza visivo
 
 Perché [!DNL Adobe Target] [!UICONTROL Automated Personalization] (AP) l&#39;attività confronta più offerte su una pagina, è utile visualizzare un&#39;anteprima della pagina con ogni esperienza.
 
