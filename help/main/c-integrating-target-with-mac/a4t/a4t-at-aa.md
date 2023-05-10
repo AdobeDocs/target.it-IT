@@ -4,7 +4,7 @@ description: Scopri come creare [!UICONTROL Allocazione automatica] e [!UICONTRO
 title: È supportato da A4T [!UICONTROL Allocazione automatica] e [!UICONTROL Targeting automatico] Attività?
 feature: Analytics for Target (A4T)
 exl-id: 3302f26d-c445-4779-8435-be142d5cea8c
-source-git-commit: 39b4c0363cde97b07265403b680ad4ed899f5a64
+source-git-commit: 99bd509988a7d1545a6a1fe59aa59f35ef0a7d11
 workflow-type: tm+mt
 source-wordcount: '1271'
 ht-degree: 6%
@@ -13,7 +13,7 @@ ht-degree: 6%
 
 # Supporto A4T per attività di [!UICONTROL allocazione automatica] e [!UICONTROL targeting automatico]
 
-La [!DNL Adobe Target]-to-[!DNL Adobe Analytics] integrazione, nota come [Analytics for Target](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T) supporta [!UICONTROL Allocazione automatica] e [!UICONTROL Targeting automatico] attività.
+La [!DNL Adobe Target]-to-[!DNL Adobe Analytics] integrazione, nota come [Analytics for Target](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T), supporta [!UICONTROL Allocazione automatica] e [!UICONTROL Targeting automatico] attività.
 
 L’integrazione A4T consente di:
 
