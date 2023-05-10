@@ -4,7 +4,7 @@ description: Scopri come creare [!UICONTROL Allocazione automatica] e [!UICONTRO
 title: È supportato da A4T [!UICONTROL Allocazione automatica] e [!UICONTROL Targeting automatico] Attività?
 feature: Analytics for Target (A4T)
 exl-id: 3302f26d-c445-4779-8435-be142d5cea8c
-source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
+source-git-commit: 073c1ce6ad591204fb0f27ca2887bcb65b7c5809
 workflow-type: tm+mt
 source-wordcount: '1265'
 ht-degree: 7%
@@ -17,8 +17,8 @@ La [!DNL Adobe Target]-to-[!DNL Adobe Analytics] integrazione, nota come [Analyt
 
 L’integrazione A4T consente di:
 
-* Utilizzo [Allocazione automatica](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)Capacità di slot machine per indirizzare il traffico verso esperienze vincenti.
-* Utilizzo [Targeting automatico](/help/main/c-activities/auto-target/auto-target-to-optimize.md)L&#39;algoritmo di apprendimento automatico del gruppo di scegliere una migliore esperienza per ogni visitatore. [!UICONTROL Targeting automatico] sceglie l’esperienza migliore in base ai profili, ai comportamenti e al contesto degli utenti durante l’utilizzo di un’ [!DNL Adobe Analytics] metrica di obiettivo e [!DNL Adobe Analytics]Funzionalità avanzate di reporting e analisi.
+* Utilizza la [Allocazione automatica](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) capacità slot machine per indirizzare il traffico verso esperienze vincenti.
+* Utilizza la [Targeting automatico](/help/main/c-activities/auto-target/auto-target-to-optimize.md) ensemble machine learning Algorithm per scegliere una migliore esperienza per ogni visitatore. [!UICONTROL Targeting automatico] sceglie l’esperienza migliore in base ai profili, ai comportamenti e al contesto degli utenti durante l’utilizzo di un’ [!DNL Adobe Analytics] metrica di obiettivo e [!DNL Adobe Analytics]Funzionalità avanzate di reporting e analisi.
 
 Assicurati di [implementato A4T per l’utilizzo con attività di test A/B e targeting delle esperienze](/help/main/c-integrating-target-with-mac/a4t/a4timplementation.md). Se utilizzi `analyticsLogging = client_side`, è inoltre necessario trasmettere `sessionId` valore a [!DNL Analytics]. Per ulteriori informazioni, consulta [Reporting di Analytics for Target (A4T)](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/integration/a4t-reporting.html){target=_blank} in *SDK per Adobe Target* guida.
 
