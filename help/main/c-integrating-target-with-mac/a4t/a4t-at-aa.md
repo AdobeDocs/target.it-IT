@@ -4,7 +4,7 @@ description: Scopri come creare [!UICONTROL Allocazione automatica] e [!UICONTRO
 title: È supportato da A4T [!UICONTROL Allocazione automatica] e [!UICONTROL Targeting automatico] Attività?
 feature: Analytics for Target (A4T)
 exl-id: 3302f26d-c445-4779-8435-be142d5cea8c
-source-git-commit: 142401e402ad73d0622f232d021304723ed21b2c
+source-git-commit: 39b4c0363cde97b07265403b680ad4ed899f5a64
 workflow-type: tm+mt
 source-wordcount: '1271'
 ht-degree: 6%
@@ -24,7 +24,7 @@ Assicurati di avere [implementato A4T per l’utilizzo con attività di test A/B
 
 Per iniziare:
 
-1. Durante la creazione di un’ [!UICONTROL Test A/B] sull&#39;attività **[!UICONTROL Targeting]** seleziona una delle seguenti opzioni come **[!UICONTROL Metodo di allocazione traffico]**:
+1. Quando [creazione di un [!UICONTROL Test A/B] attività](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md), sul **[!UICONTROL Targeting]** seleziona una delle seguenti opzioni come **[!UICONTROL Metodo di allocazione traffico]**:
 
    * [!UICONTROL Allocazione automatica all’esperienza migliore]
    * [!UICONTROL Targeting automatico per esperienze personalizzate]
