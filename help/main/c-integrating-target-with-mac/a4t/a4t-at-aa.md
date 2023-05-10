@@ -1,13 +1,13 @@
 ---
-keywords: a4T;A4T;Analytics come fonte di origine per i rapporti per Target
+keywords: a4t;A4T;Analytics come origine per la generazione di rapporti per Target;Analytics for Target
 description: Scopri come creare [!UICONTROL Allocazione automatica] e [!UICONTROL Targeting automatico] attività [!DNL Target] che utilizzano [!DNL Analytics] come origine per la generazione di rapporti (A4T).
 title: È supportato da A4T [!UICONTROL Allocazione automatica] e [!UICONTROL Targeting automatico] Attività?
 feature: Analytics for Target (A4T)
 exl-id: 3302f26d-c445-4779-8435-be142d5cea8c
-source-git-commit: 073c1ce6ad591204fb0f27ca2887bcb65b7c5809
+source-git-commit: 4cc795f038e17d9ff82074fd0af8301212091e87
 workflow-type: tm+mt
-source-wordcount: '1265'
-ht-degree: 7%
+source-wordcount: '1268'
+ht-degree: 6%
 
 ---
 
