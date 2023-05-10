@@ -4,9 +4,9 @@ description: Scopri come creare [!UICONTROL Allocazione automatica] e [!UICONTRO
 title: È supportato da A4T [!UICONTROL Allocazione automatica] e [!UICONTROL Targeting automatico] Attività?
 feature: Analytics for Target (A4T)
 exl-id: 3302f26d-c445-4779-8435-be142d5cea8c
-source-git-commit: 4cc795f038e17d9ff82074fd0af8301212091e87
+source-git-commit: 142401e402ad73d0622f232d021304723ed21b2c
 workflow-type: tm+mt
-source-wordcount: '1268'
+source-wordcount: '1271'
 ht-degree: 6%
 
 ---
@@ -18,9 +18,9 @@ La [!DNL Adobe Target]-to-[!DNL Adobe Analytics] integrazione, nota come [Analyt
 L’integrazione A4T consente di:
 
 * Utilizza la [Allocazione automatica](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) capacità slot machine per indirizzare il traffico verso esperienze vincenti.
-* Utilizza la [Targeting automatico](/help/main/c-activities/auto-target/auto-target-to-optimize.md) ensemble machine learning Algorithm per scegliere una migliore esperienza per ogni visitatore. [!UICONTROL Targeting automatico] sceglie l’esperienza migliore in base ai profili, ai comportamenti e al contesto degli utenti durante l’utilizzo di un’ [!DNL Adobe Analytics] metrica di obiettivo e [!DNL Adobe Analytics]Funzionalità avanzate di reporting e analisi.
+* Utilizza la [Targeting automatico](/help/main/c-activities/auto-target/auto-target-to-optimize.md) riunisce l&#39;algoritmo di apprendimento automatico per scegliere l&#39;esperienza migliore per ogni visitatore. [!UICONTROL Targeting automatico] sceglie l&#39;esperienza migliore in base al profilo, al comportamento e al contesto di ciascun utente, il tutto utilizzando un [!DNL Adobe Analytics] metrica obiettivo e funzionalità avanzate di reporting e analisi di [!DNL Adobe Analytics].
 
-Assicurati di [implementato A4T per l’utilizzo con attività di test A/B e targeting delle esperienze](/help/main/c-integrating-target-with-mac/a4t/a4timplementation.md). Se utilizzi `analyticsLogging = client_side`, è inoltre necessario trasmettere `sessionId` valore a [!DNL Analytics]. Per ulteriori informazioni, consulta [Reporting di Analytics for Target (A4T)](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/integration/a4t-reporting.html){target=_blank} in *SDK per Adobe Target* guida.
+Assicurati di avere [implementato A4T per l’utilizzo con attività di test A/B e targeting delle esperienze](/help/main/c-integrating-target-with-mac/a4t/a4timplementation.md). Se utilizzi `analyticsLogging = client_side`, è inoltre necessario trasmettere `sessionId` valore a [!DNL Analytics]. Per ulteriori informazioni, consulta [Reporting di Analytics for Target (A4T)](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/integration/a4t-reporting.html){target=_blank} in *Guida per gli sviluppatori di Adobe Target*.
 
 Per iniziare:
 
@@ -111,7 +111,7 @@ Alcune limitazioni e note si applicano a entrambi [!UICONTROL Allocazione automa
 * **Frequenza di formazione**: [!UICONTROL Allocazione automatica] i modelli continuano a allenarsi ogni ora, come al solito.
 * **Modelli di attribuzione**: [!DNL Target] utilizza [!DNL Adobe Analytics] modello di attribuzione predefinito per[!UICONTROL  Allocazione automatica] attività che utilizzano A4T.
 * **Affidabilità**: Formula di affidabilità utilizzata da [!UICONTROL Allocazione automatica] le attività sono diverse dalla formula mostrata per impostazione predefinita nel [!DNL Adobe Analytics] [!UICONTROL A4T] pannello. [Come descritto qui](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md), [!UICONTROL Allocazione automatica] utilizza intervalli di affidabilità più conservativi rispetto a quelli regolari [!UICONTROL Test A/B] attività. Questi livelli di affidabilità conservativi compensano le valutazioni ripetute (sbirce) ai dati. Di conseguenza, il rapporto predefinito in [!DNL Adobe Analytics] mostra intervalli di affidabilità più stretti rispetto a quelli utilizzati dal [!UICONTROL Allocazione automatica] algoritmo. Tuttavia, puoi determinare quale esperienza è preferita dagli algoritmi in base ai quali l’esperienza ha più visitatori univoci che vengono inviati a essa.
-* **Stato vincitore**: Attualmente, il [Badge &quot;Ancora nessun vincitore&quot; e &quot;Vincitore&quot;](/help/main/c-activities/automated-traffic-allocation/determine-winner.md) non sono disponibili nel [!UICONTROL A4T] pannello in [!DNL Analysis Workspace]. Anche questi badge non sono disponibili se lo stesso rapporto viene visualizzato in [!DNL Target]. Un badge &quot;stella&quot; vincitore mostrato in un [!DNL Target] rapporto per un [!UICONTROL Allocazione automatica] le attività che utilizzano A4T devono essere ignorate. Questo badge riflette i calcoli di affidabilità regolari e non quelli utilizzati da [!UICONTROL Allocazione automatica].
+* **Stato vincitore**: Attualmente, il [Badge &quot;Ancora nessun vincitore&quot; e &quot;Vincitore&quot;](/help/main/c-activities/automated-traffic-allocation/determine-winner.md) non sono disponibili nel [!UICONTROL A4T] pannello in [!DNL Analysis Workspace]. Anche questi badge non sono disponibili se lo stesso rapporto viene visualizzato in [!DNL Target]. Un badge &quot;stella&quot; vincitore mostrato in un [!DNL Target] rapporto per un [!UICONTROL Allocazione automatica] le attività che utilizzano A4T devono essere ignorate. Questo badge riflette i calcoli di affidabilità regolari e non i calcoli utilizzati da [!UICONTROL Allocazione automatica].
 
 ### Targeting automatico {#at}
 
