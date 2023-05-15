@@ -6,8 +6,8 @@ feature: Overview
 exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
 source-git-commit: 79ae58377c9eea0faca1ade11f2ab53da56b7bc1
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '571'
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Oltre a questa guida, i seguenti [!DNL Adobe Target] Sono inoltre disponibili guide:
+>Oltre a questa guida, le seguenti guide [!DNL Adobe Target] sono inoltre disponibili:
 >
 >- [*Guida per gli sviluppatori di Adobe Target*](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=it){target=_blank}
 >
