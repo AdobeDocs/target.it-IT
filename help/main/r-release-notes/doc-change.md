@@ -4,9 +4,9 @@ description: Resta aggiornato sulle importanti aggiunte e modifiche apportate al
 title: Dove posso trovare la documentazione aggiornata per  [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 5e500973dda9feba7e2599502c9ef61c894ddd39
+source-git-commit: b92ac8d60707107564f18413cefd6faa9f3980eb
 workflow-type: tm+mt
-source-wordcount: '2731'
+source-wordcount: '2749'
 ht-degree: 96%
 
 ---
@@ -19,6 +19,7 @@ Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Targ
 
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
+| 17 maggio | [[!DNL Adobe Target] annunci ed eventi](/help/main/r-release-notes/target-announcements.md) | Sono state aggiunte informazioni sulla [!UICONTROL Community Adobe Target] Interruzione caffè Q&amp;A mercoledì 24 maggio 2023. |
 | 16 maggio | [Attributi di entità](/help/main/c-recommendations/c-products/entity-attributes.md) | Indica che gli &quot;spazi&quot; non sono consentiti in `entity.id` valori. |
 |  | [targetGlobalSettings()](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetglobalsettings.html){target=_blank} | Aggiornato `viewsEnabled` descrizione. |
 |  | [Implementazione di un&#39;applicazione a pagina singola](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/target-atjs-single-page-application.html){target=_blank} | Sono stati apportati i seguenti aggiornamenti:<ul><li>È stata aggiunta una nota dopo il passaggio 2 in &quot;Implementazione delle visualizzazioni di Adobe Target&quot;.</li><li>È stato aggiornato il passaggio 2 &quot;Esegui richiesta Target&quot; in &quot;Ordine delle operazioni per il caricamento iniziale della pagina&quot;.</li></ul> |
