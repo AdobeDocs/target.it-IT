@@ -1,13 +1,13 @@
 ---
 keywords: note sulla versione;versioni;aggiornamenti;versione futura;miglioramenti;nuove funzioni;correzioni;aggiornamenti;prerelease
-description: Scopri le nuove funzioni, i miglioramenti e le correzioni, compresi SDK, API e librerie JavaScript, inclusi nella prossima versione di  [!DNL Adobe Target].
+description: Scopri le nuove funzioni, i miglioramenti e le correzioni, compresi SDK, API e librerie JavaScript, inclusi nella prossima versione di [!DNL Adobe Target].
 title: Quali nuove funzioni e miglioramenti saranno inclusi nella prossima versione [!DNL Target] ?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
 source-git-commit: 241ebc7af24ad17705b437e620a9c91f983bc4ad
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '239'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ Questo articolo contiene informazioni prerelease per le prossime versioni di [!D
 
 ## [!DNL Target] Standard/Premium 23.5.1 (23-25 maggio 2023)
 
-Questa versione contiene le seguenti nuove funzioni, miglioramenti e correzioni:
+Questa versione include le nuove funzioni, i miglioramenti e le correzioni seguenti:
 
 | Funzione | Dettagli |
 |--- |--- |
