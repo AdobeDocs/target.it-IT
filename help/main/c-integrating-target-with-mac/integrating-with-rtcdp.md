@@ -4,10 +4,10 @@ description: Scopri come utilizzare l’integrazione  [!DNL Target]/[!DNL Real-T
 title: Come posso integrare  [!DNL Target]  con  [!DNL Real-Time Customer Data Platform]?
 feature: Integrations
 exl-id: 1c066b62-91a2-4b8c-807a-3cc56fca7778
-source-git-commit: 08422323607f7238a7cf9bac5b863032ce734662
-workflow-type: ht
-source-wordcount: '936'
-ht-degree: 100%
+source-git-commit: cf7af568f270f97868107032897cd4fdd8e45131
+workflow-type: tm+mt
+source-wordcount: '1029'
+ht-degree: 90%
 
 ---
 
@@ -113,7 +113,7 @@ Per ulteriori informazioni, consulta i seguenti argomenti:
 * [Connessione ad Adobe Target](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html?lang=it){target=_blank} nella guida *Panoramica sulle destinazioni*
 * [Attributi mappa](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-profile-request-destinations.html?lang=it#map-attributes){target=_blank} nella guida *Panoramica sulle destinazioni*.
 
-## Video e post del blog
+## Video e post del blog {#videos-blogs}
 
 I video e i post del blog seguenti forniscono ulteriori informazioni sulla personalizzazione avanzata con Target e RTCDP:
 
@@ -124,6 +124,30 @@ Scopri come personalizzare l’hit successivo con [!DNL Real-Time Customer Data 
 Per ulteriori informazioni, consulta [Personalizzazione hit successivo con Real-Time CDP e Adobe Target](https://experienceleague.adobe.com/docs/platform-learn/tutorials/experience-cloud/next-hit-personalization.html?lang=it){target=_blank} nella guida *Tutorial Platform*.
 
 >[!VIDEO](https://video.tv.adobe.com/v/340091?quality=12&learn=on)
+
+### Video: configurare [!DNL Adobe Target] destinazione in [!DNL Real-Time Customer Data Platform]
+
+Scopri come configurare [!DNL Adobe Target] destinazione in [!DNL Real-Time Customer Data Platform] per iniziare a inviare segmenti e attributi di profilo da [!DNL Real-Time CDP] a [!DNL Target].
+
+>[!VIDEO](https://video.tv.adobe.com/v/3418799/?learn=on)
+
+### Video: Attivare segmenti e attributi di profilo
+
+Scopri come attivare segmenti e attributi di profilo da [!DNL Adobe Real-Time Customer Data Platform] a [!DNL Adobe Target] per visualizzare contenuti personalizzati in tempo reale su siti web, app mobili e altre proprietà digitali.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3419036/?learn=on)
+
+### Video: Utilizzare [!DNL Real-Time CDP] segmenti in [!DNL Target]
+
+Scopri come utilizzare [!DNL Real-Time Customer Data Platform] segmenti in [!DNL Adobe Target] per offrire esperienze personalizzate sul tuo sito web e sulle app mobili.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3419149/?learn=on)
+
+### Video: Utilizzare [!DNL Real-Time CDP] attributi del profilo in [!DNL Adobe Target]
+
+Scopri come utilizzare [!DNL Adobe Real-Time Customer Data Platform] attributi del profilo in [!DNL Adobe Target] per offrire esperienze personalizzate sul tuo sito web e sulle app mobili.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3419318/?learn=on)
 
 ### Blog e video di [!DNL Adobe Target]: Personalizzazione stessa pagina avanzata
 

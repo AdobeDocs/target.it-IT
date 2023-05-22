@@ -4,10 +4,10 @@ description: Resta aggiornato sulle importanti aggiunte e modifiche apportate al
 title: Dove posso trovare la documentazione aggiornata per  [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 716180f5a9177b6c86b2aacce76d87a9994f596d
+source-git-commit: cf7af568f270f97868107032897cd4fdd8e45131
 workflow-type: tm+mt
-source-wordcount: '2759'
-ht-degree: 96%
+source-wordcount: '2783'
+ht-degree: 95%
 
 ---
 
@@ -19,11 +19,12 @@ Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Targ
 
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
+| 22 maggio | [Integrare con [!DNL Real-Time Customer Data Platform]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#videos-blogs) | Sono stati aggiunti i seguenti nuovi video:<ul><li>Configurare [!DNL Adobe Target] destinazione in [!DNL Real-Time Customer Data Platform]</li><li>Attivare segmenti e attributi di profilo</li><li>Utilizzare [!DNL Real-Time CDP] segmenti in [!DNL Target]</li><li>Utilizzare [!DNL Real-Time CDP] attributi del profilo in [!DNL Adobe Target]</li></ul> |
 | 19 maggio | Note sulla versione (prerelease) di [[!DNL Target] ](/help/main/r-release-notes/target-release-notes.md) | Sono state aggiornate le note sulla versione prerelease per le prossime versioni. |
-| 17 maggio | [[!DNL Adobe Target] annunci ed eventi](/help/main/r-release-notes/target-announcements.md) | Sono state aggiunte informazioni sulla [!UICONTROL Community Adobe Target] Interruzione caffè Q&amp;A mercoledì 24 maggio 2023. |
-| 16 maggio | [Attributi di entità](/help/main/c-recommendations/c-products/entity-attributes.md) | Indica che gli &quot;spazi&quot; non sono consentiti in `entity.id` valori. |
+| 17 maggio | [[!DNL Adobe Target] annunci ed eventi](/help/main/r-release-notes/target-announcements.md) | Sono state aggiunte informazioni su [!UICONTROL Community Adobe Target] Q&amp;A Coffee Break mercoledì 24 maggio 2023. |
+| 16 maggio | [Attributi di entità](/help/main/c-recommendations/c-products/entity-attributes.md) | Indica che non sono consentiti &quot;spazi&quot; in `entity.id` valori. |
 |  | [targetGlobalSettings()](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetglobalsettings.html){target=_blank} | Aggiornato `viewsEnabled` descrizione. |
-|  | [Implementazione di un&#39;applicazione a pagina singola](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/target-atjs-single-page-application.html){target=_blank} | Sono stati apportati i seguenti aggiornamenti:<ul><li>È stata aggiunta una nota dopo il passaggio 2 in &quot;Implementazione delle visualizzazioni di Adobe Target&quot;.</li><li>È stato aggiornato il passaggio 2 &quot;Esegui richiesta Target&quot; in &quot;Ordine delle operazioni per il caricamento iniziale della pagina&quot;.</li></ul> |
+|  | [Implementazione di un&#39;applicazione a pagina singola](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/target-atjs-single-page-application.html){target=_blank} | Sono stati apportati i seguenti aggiornamenti:<ul><li>Aggiunta nota dopo il passaggio 2 in &quot;Implementazione delle visualizzazioni di Adobe Target&quot;.</li><li>È stato aggiornato il passaggio 2 &quot;Esegui richiesta Target&quot; in &quot;Ordine delle operazioni per il caricamento della pagina iniziale&quot;.</li></ul> |
 | Maggio 4 | [Configurare l’autenticazione per le API di Adobe Target](https://experienceleague.adobe.com/docs/target-dev/developer/api/configure-authentication.html){target=_blank} | È stata aggiunta una nota che spiega la necessità di migrare da una credenziale JWT a una credenziale server-to-server OAuth. |
 | 3 maggio | [Visualizzare i rapporti - Domande frequenti su A4T](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md#activity-impressions) | È stata aggiunta la seguente domanda frequente:<ul><li>Come si tiene traccia delle impression dell’attività in [!DNL Analysis Workspace] quando utilizzi [!UICONTROL Analytics for Target] (A4T)?</li></ul> |
 | 26 aprile | [Panoramica dei [!UICONTROL frammenti di esperienza] e [!UICONTROL frammenti di contenuto] di AEM](/help/main/c-integrating-target-with-mac/aem/aem-experience-and-content-fragments.md) | La funzione [!UICONTROL Frammenti di contenuto di AEM] è ora disponibile per tutti [!DNL Target customers]. |
