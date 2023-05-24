@@ -5,9 +5,9 @@ title: Dove posso trovare annunci ed eventi relativi a  [!DNL Target] ?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 source-git-commit: b92ac8d60707107564f18413cefd6faa9f3980eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1850'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -21,9 +21,9 @@ Annunci e informazioni sui prossimi eventi di [!DNL Adobe Target], che includono
 * **8:00-9:00 (PT, UTC-7)**
 * **[Informazioni sulla registrazione](https://adobe.ly/3BgfeZZ){target=_blank}**
 
-Ci uniranno Ryan Roberts, Gentry Lin e Ryan Pizzuto del [!UICONTROL Consulenza Adobe Target] team e Mihnea Docea del [!UICONTROL Tecnica di supporto tecnico Adobe] team, che sarà connesso al [Community Adobe Target](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community){target=_blank} per chiacchierare direttamente con te su questo thread [!DNL Adobe Target] domande relative alle tue domande [!DNL Target] @ [!UICONTROL Adobe Summit] 2023
+A noi si uniranno Ryan Roberts, Gentry Lin e Ryan Pizzuto del team [!UICONTROL Adobe Target Consulting] e Mihnea Docea del team [!UICONTROL Ingegnere del supporto tecnico Adobe], che accederanno alla [Community Adobe Target](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community){target=_blank} per chattare direttamente con te su questo thread relativo [!DNL Adobe Target] alle tue domande su [!DNL Target] @ [!UICONTROL Adobe Summit] 2023
 
-Sentitevi liberi di rivedere uno qualsiasi dei [registrazioni on-demand della sessione Adobe Target Summit](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/session-videos-adobe-summit-mar-21-23-2023-complete-adobe-target/td-p/569706){target=_blank} in anticipo per portare le vostre domande di follow-up a questa chat.
+Ti invitiamo a rivedere una qualsiasi delle [registrazioni on-demand della sessione di Adobe Target Summit](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/session-videos-adobe-summit-mar-21-23-2023-complete-adobe-target/td-p/569706){target=_blank} per contribuire con le tue domande di follow-up a questa chat.
 
 ## Serie di webinar su [!DNL Adobe Target] {#webinar-series}
 
