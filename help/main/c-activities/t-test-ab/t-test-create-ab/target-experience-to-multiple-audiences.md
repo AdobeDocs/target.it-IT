@@ -1,7 +1,7 @@
 ---
 keywords: più tipi di pubblico;versioni esperienza;versioni esperienza target
-description: Scopri come eseguire il targeting delle versioni della stessa esperienza per diversi tipi di pubblico in Adobe [!DNL Target] Attività A/B.
-title: Posso utilizzare più versioni di esperienza in un’attività A/B?
+description: Scopri come indirizzare le versioni di una stessa esperienza a tipi di pubblico diversi in Adobe [!DNL Target] Attività A/B.
+title: È possibile utilizzare più versioni di esperienza in un’attività A/B?
 feature: A/B Tests
 exl-id: 7afe36f0-ec46-4d63-bfff-45d2c8923a04
 source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
@@ -13,7 +13,7 @@ ht-degree: 92%
 
 # Esperienza con più tipi di pubblico un testo A/B
 
-Puoi indirizzare una versione della stessa esperienza a tipi di pubblico diversi in [!DNL Adobe Target] Attività A/B. È possibile impostare più tipi di pubblico per un’esperienza nel Compositore esperienza visivo o nel Compositore esperienza basato su moduli.
+Puoi indirizzare le versioni della stessa esperienza a tipi di pubblico diversi in [!DNL Adobe Target] Attività A/B. È possibile impostare più tipi di pubblico per un’esperienza nel Compositore esperienza visivo o nel Compositore esperienza basato su moduli.
 
 Gli utenti possono passare da un pubblico dell&#39;esperienza all&#39;altro quando cambiano profilo. Non sono bloccati nella stessa esperienza per l&#39;intero ciclo di vita dell&#39;attività.
 
@@ -39,7 +39,7 @@ In questo caso, sono necessarie le versioni dell&#39;esperienza specifiche per a
 
 1. Fai clic su **[!UICONTROL Aggiungi pubblico]** quindi seleziona il primo pubblico a cui desideri rivolgerti. Ripeti per ogni pubblico.
 
-   ![immagine a versioni exp](assets/exp-versions.png)
+   ![immagine exp-versions](assets/exp-versions.png)
 
    Se il pubblico non esiste ancora, fai clic su [Crea pubblico](/help/main/c-target/c-audiences/create-audience.md#task_E18BD77A9A8F4ED0AC50569F94556558) e configuralo.
 

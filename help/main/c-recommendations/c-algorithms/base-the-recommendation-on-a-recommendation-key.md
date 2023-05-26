@@ -1,6 +1,6 @@
 ---
-keywords: chiave di consiglio;logica di consiglio;categoria corrente;attributo personalizzato;ultimo articolo acquistato;ultimo articolo visualizzato;articolo più visualizzato;articolo più visualizzato;articolo più visualizzato;categoria preferita;popolarità;articolo visualizzato di recente;ultimo articolo acquistato;ultimo visualizzato;più visualizzato;preferito;visualizzato di recente
-description: Scopri come utilizzare i consigli basati sulle chiavi che utilizzano il contesto di comportamento del visitatore per mostrare risultati rilevanti in Adobe [!DNL Target] Attività Recommendations.
+keywords: chiave consigli;logica consigli;categoria corrente;attributo personalizzato;ultimo articolo acquistato;ultimo articolo visualizzato;articolo più visualizzato;articolo più visualizzato;categoria preferita;popolarità;articolo visualizzato di recente;ultimo articolo acquistato;più visualizzato;preferito;visualizzato di recente
+description: Scopri come utilizzare i consigli in base a chiavi che utilizzano il contesto del comportamento del visitatore per mostrare risultati rilevanti in Adobe [!DNL Target] Attività Recommendations.
 title: Come posso basare il consiglio su una Chiave consiglio?
 feature: Recommendations
 mini-toc-levels: 2
@@ -14,55 +14,55 @@ ht-degree: 37%
 
 # Basare il consiglio su una chiave consiglio
 
-Recommendations basato sugli algoritmi utilizza il contesto di comportamento del visitatore per mostrare i risultati rilevanti in [!DNL Adobe Target] [!DNL Recommendations] attività.
+I Recommendations basati su algoritmi utilizzano il contesto del comportamento del visitatore per mostrare risultati rilevanti in [!DNL Adobe Target] [!DNL Recommendations] attività.
 
-Ogni tipo di algoritmo fornisce algoritmi diversi appropriati per il relativo tipo, come illustrato nella tabella seguente:
+Ogni tipo di algoritmo fornisce diversi algoritmi appropriati al proprio tipo, come illustrato nella tabella seguente:
 
 | Tipo di algoritmo | Quando utilizzare | Algoritmi disponibili |
 | --- | --- | --- |
-| [!UICONTROL Basato sul carrello] | Effettua i consigli in base al contenuto del carrello dell’utente. | <ul><li>Chi ha visualizzato questi ha visualizzato quelli</li><li>Chi li ha visti, li ha comprati</li><li>Chi ha comprato questi ha acquistato quelli</li></ul> |
-| [!UICONTROL Basato sulla popolarità] | Puoi formulare consigli in base alla popolarità complessiva di un elemento all’interno del tuo sito o in base alla popolarità degli articoli all’interno della categoria, del marchio, del genere e così via preferiti o più visualizzati da un utente. | <ul><li>Più visualizzati nel sito</li><li>Più visualizzate per categoria</li><li>Più visualizzato per attributo articolo</li><li>Articoli più venduti in tutto il sito</li><li>Più venduti per categoria</li><li>Principali venduti per attributo articolo</li><li>Metrica di Analytics in alto</li></ul> |
-| [!UICONTROL Basato su articolo] | formulare raccomandazioni in base al risultato di elementi simili a un elemento che l’utente sta visualizzando o ha visualizzato di recente. | <ul><li>Chi ha visualizzato questo ha visualizzato anche quello</li><li>Chi ha visualizzato questo ha acquistato anche quello</li><li>Chi ha comprato questo ha acquistato anche quello</li><li>Articoli con attributi simili</li></ul> |
-| [!UICONTROL Basato su utente] | Eseguite raccomandazioni in base al comportamento dell&#39;utente. | <ul><li>Articoli visualizzati di recente</li><li>Consigliato per te</li></ul> |
-| [!UICONTROL Criteri personalizzati] | Crea consigli in base a un file personalizzato caricato. | <ul><li>Algoritmo personalizzato</li></ul> |
+| [!UICONTROL Basato su carrello] | Creare consigli in base al contenuto del carrello dell’utente. | <ul><li>Chi ha visualizzato questi ha visualizzato anche quelli</li><li>Chi ha visualizzato questi ha acquistato anche quelli</li><li>Chi ha comprato questi ha acquistato anche quelli</li></ul> |
+| [!UICONTROL Basato sulla popolarità] | Puoi formulare raccomandazioni in base alla popolarità complessiva di un elemento nel tuo sito o in base alla popolarità degli elementi nella categoria, nel brand, nel genere e così via preferiti o più visualizzati di un utente. | <ul><li>Articoli più visualizzati nel sito</li><li>Più visualizzati per categoria</li><li>Più visualizzati per attributo articolo</li><li>Articoli più venduti in tutto il sito</li><li>Articoli più venduti per categoria</li><li>Attributo Articoli più venduti</li><li>Primi per metrica di Analytics</li></ul> |
+| [!UICONTROL Basato su articolo] | Creare consigli in base alla ricerca di elementi simili a quelli di un elemento attualmente visualizzato dall’utente o che è stato recentemente visualizzato. | <ul><li>Chi ha visualizzato questo ha visualizzato anche quello</li><li>Chi ha visualizzato questo ha acquistato anche quello</li><li>Chi ha comprato questo ha acquistato anche quello</li><li>Articoli con attributi simili</li></ul> |
+| [!UICONTROL Basato su utente] | Creare consigli in base al comportamento dell’utente. | <ul><li>Articoli visualizzati di recente</li><li>Consigliato per te</li></ul> |
+| [!UICONTROL Criteri personalizzati] | Formulare raccomandazioni in base a un file personalizzato caricato. | <ul><li>Algoritmo personalizzato</li></ul> |
 
-Ogni criterio è definito nella relativa scheda. Il traffico è suddiviso in modo uniforme tra i diversi test di criteri. In altre parole, in presenza di due criteri, il traffico viene suddiviso in modo uniforme tra di essi. In presenza di due criteri e di due progettazioni, il traffico viene suddiviso in modo uniforme tra le quattro combinazioni. Puoi inoltre specificare una percentuale di visitatori del sito che visualizzano il contenuto predefinito, a scopo di confronto. In tal caso, la percentuale specificata di visitatori visualizza il contenuto predefinito e gli altri sono suddivisi tra i criteri e le combinazioni di progettazione.
+Ogni criterio è definito nella relativa scheda. Il traffico è suddiviso in modo uniforme tra i diversi test di criteri. In altre parole, in presenza di due criteri, il traffico viene suddiviso in modo uniforme tra di essi. In presenza di due criteri e di due progettazioni, il traffico viene suddiviso in modo uniforme tra le quattro combinazioni. Puoi inoltre specificare una percentuale di visitatori del sito che visualizzano il contenuto predefinito, a scopo di confronto. In tal caso, la percentuale di visitatori specificata visualizza il contenuto predefinito e il resto viene suddiviso tra i criteri e le combinazioni di progettazione.
 
-Per ulteriori informazioni sulla creazione dei criteri e sulla definizione dei relativi tipi e algoritmi, consulta [Creare criteri](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md).
+Per ulteriori informazioni sulla creazione di criteri e sulla definizione dei relativi tipi e algoritmi, consulta [Creare criteri](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md).
 
-Diversi algoritmi di consigli si prestano a posizionarsi su diversi tipi di pagine. Per ulteriori informazioni su ciascun tipo di algoritmo e i relativi algoritmi disponibili, consulta le sezioni seguenti.
+Diversi algoritmi di Recommendations si prestano a essere posizionati su diversi tipi di pagine. Per ulteriori informazioni su ciascun tipo di algoritmo e sui relativi algoritmi disponibili, consulta le sezioni seguenti.
 
-## Basato sul carrello {#cart-based}
+## Basato su carrello {#cart-based}
 
-La [!UICONTROL Basato sul carrello] Il tipo di algoritmo consente di consigliare gli elementi in base al contenuto del carrello corrente del visitatore. Le chiavi di raccomandazione sono fornite tramite [parametro mbox `cartIds`](https://experienceleague.corp.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} in valori separati da virgole. Vengono considerati solo i primi 10 valori.
+Il [!UICONTROL Basato su carrello] il tipo di algoritmo consente di consigliare gli elementi in base al contenuto del carrello corrente del visitatore. Le chiavi per i consigli sono fornite tramite [parametro mbox `cartIds`](https://experienceleague.corp.adobe.com/docs/target-dev/developer/recommendations.html?lang=it){target=_blank} in valori separati da virgole. Vengono considerati solo i primi 10 valori.
 
-La logica dei consigli basati sul carrello è simile alla &quot;[!UICONTROL Consigliato]&quot; algoritmo basato su utenti e al &quot;[!UICONTROL Chi li ha visti, li ha comprati]&quot; e &quot;[!UICONTROL Chi ha comprato questi ha acquistato quelli]&quot; algoritmi basati su elementi.
+La logica dei consigli basati sul carrello è simile al &quot;[!UICONTROL Consigliato per te]&quot;algoritmo basato su utente e al&quot;[!UICONTROL Chi ha visualizzato questi ha acquistato anche quelli]&quot; e &quot;[!UICONTROL Chi ha comprato questi ha acquistato anche quelli]&quot; algoritmi basati su elementi.
 
-[!DNL Target] utilizza tecniche di filtro collaborativo per determinare le somiglianze per ogni elemento nel carrello del visitatore, quindi combina queste somiglianze comportamentali tra ciascun elemento per ottenere un elenco unito.
+[!DNL Target] utilizza tecniche di filtro collaborativo per determinare le somiglianze per ogni elemento nel carrello del visitatore, quindi combina queste somiglianze comportamentali in ogni elemento per ottenere un elenco unito.
 
-[!DNL Target] offre anche agli esperti di marketing la possibilità di osservare il comportamento dei visitatori in una singola sessione o in più sessioni:
+[!DNL Target] offre inoltre agli addetti al marketing la possibilità di osservare il comportamento dei visitatori all’interno di una singola sessione o in più sessioni:
 
-* **[!UICONTROL Sessione singola]**: In base a ciò che hanno fatto altri visitatori all’interno di una singola sessione.
+* **[!UICONTROL Sessione singola]**: in base a ciò che hanno fatto altri visitatori all’interno di una singola sessione.
 
-   Osservare il comportamento all’interno di una singola sessione potrebbe avere senso quando si ha la sensazione che i prodotti si &quot;incontrino&quot; fortemente in base a un utilizzo, un’occasione o un evento. Ad esempio, un visitatore sta acquistando una stampante e potrebbe anche aver bisogno di inchiostro e carta. Oppure, un visitatore sta comprando burro di arachidi e potrebbe anche avere bisogno di pane e gelatina.
+   Osservare il comportamento all’interno di una singola sessione potrebbe avere senso quando si può ritenere che i prodotti si &quot;abbinino&quot; fortemente tra loro in base a un utilizzo, un’occasione o un evento. Ad esempio, un visitatore sta acquistando una stampante e potrebbe anche aver bisogno di carta e inchiostro. Oppure, un visitatore sta comprando burro di arachidi e potrebbe anche aver bisogno di pane e gelatina.
 
-* **[!UICONTROL Più sessioni]**: In base a ciò che altri visitatori hanno fatto in più sessioni.
+* **[!UICONTROL Tra sessioni]**: in base a ciò che hanno fatto altri visitatori in più sessioni.
 
-   Osservare il comportamento in più sessioni potrebbe avere senso quando si ha la sensazione che i prodotti si &quot;incontrino&quot; fortemente in base alla preferenza o al gusto del visitatore. Ad esempio, a un visitatore piace Star Wars e potrebbe piacere anche Indiana Jones, anche se il visitatore non vuole necessariamente guardare entrambi i film nella stessa seduta. Oppure, a un visitatore piace il gioco della bacheca &quot;Codenames&quot; e potrebbe anche piacere il gioco della bacheca &quot;Avalon&quot;, anche se il visitatore non può giocare entrambi i giochi contemporaneamente. 
+   Osservare il comportamento in più sessioni potrebbe avere senso quando si ha la sensazione che i prodotti vivamente &quot;vanno di pari passo&quot; l’uno con l’altro in base alle preferenze o al gusto dei visitatori. Ad esempio, a un visitatore piace Star Wars e potrebbe piacere anche Indiana Jones, anche se non desidera necessariamente guardare entrambi i film contemporaneamente. Oppure, a un visitatore piace il gioco da tavolo &quot;Codenames&quot; e potrebbe anche piacere il gioco da tavolo &quot;Avalon&quot;, anche se il visitatore non può giocare entrambi i giochi contemporaneamente. 
 
-[!DNL Target] formula raccomandazioni per ogni visitatore in base agli elementi nel carrello corrente, indipendentemente dal fatto che osservi il comportamento del visitatore in una singola sessione o in più sessioni.
+[!DNL Target] formula raccomandazioni per ogni visitatore in base agli elementi nel suo carrello corrente, indipendentemente dal fatto che tu guardi al comportamento del visitatore all’interno di una singola sessione o in più sessioni.
 
-I seguenti algoritmi sono disponibili con [!UICONTROL Basato sul carrello] tipo di algoritmo:
+I seguenti algoritmi sono disponibili con [!UICONTROL Basato su carrello] tipo di algoritmo:
 
 ### [!UICONTROL Chi ha visualizzato questo ha visualizzato anche quelli]
 
 Consiglia gli elementi che vengono visualizzati più spesso nella stessa sessione in cui viene visualizzato l’elemento specificato.
 
-Questa logica restituisce gli altri prodotti visualizzati dopo la visualizzazione di questo; il prodotto specificato non è incluso nel set di risultati.
+Questa logica restituisce altri prodotti visualizzati dopo aver visualizzato questo; il prodotto specificato non è incluso nel set di risultati.
 
-Questa logica ti consente di creare ulteriori opportunità di conversione consigliando gli elementi visualizzati anche da altri visitatori che hanno visualizzato un elemento. Ad esempio, i visitatori che visualizzano le bici da strada sul tuo sito potrebbero anche guardare caschi da bicicletta, kit da ciclismo, serrature e così via. Potete creare una raccomandazione utilizzando questa logica che suggerisce che altri prodotti vi aiutino ad aumentare i ricavi.
+Questa logica consente di creare opportunità di conversione aggiuntive consigliando gli articoli visualizzati anche dagli altri visitatori che hanno visualizzato un articolo. Ad esempio, i visitatori che visualizzano le bici da strada sul sito potrebbero anche guardare caschi, kit per ciclismo, serrature e così via. Utilizzando questa logica, puoi creare un consiglio che suggerisca ad altri prodotti di aiutarti ad aumentare i ricavi.
 
-Se selezioni questo algoritmo, puoi selezionare le seguenti chiavi Recommendations:
+Se si seleziona questo algoritmo, è possibile selezionare le seguenti chiavi Recommendations:
 
 * Elemento corrente
 * Ultimo articolo acquistato
@@ -73,11 +73,11 @@ Se selezioni questo algoritmo, puoi selezionare le seguenti chiavi Recommendatio
 
 Consiglia gli articoli che vengono acquistati più spesso nella stessa sessione in cui viene visualizzato l’articolo specificato. Questo criterio restituisce gli altri prodotti acquistati dopo la visualizzazione dell’articolo corrente; il prodotto specificato non è incluso nell’insieme di risultati.
 
-Questa logica restituisce gli altri prodotti acquistati dopo aver visualizzato questo; il prodotto specificato non è incluso nel set di risultati.
+Questa logica restituisce altri prodotti acquistati dopo aver visualizzato questo; il prodotto specificato non è incluso nel set di risultati.
 
-Questa logica consente di aumentare le opportunità di vendita incrociata visualizzando una raccomandazione su una pagina di prodotto, ad esempio, che mostra gli articoli che altri visitatori hanno visualizzato l’articolo acquistato. Ad esempio, se il visitatore sta visualizzando un palo da pesca, la raccomandazione potrebbe mostrare altri oggetti acquistati, come scatole di gestione, waders e lures da pesca. Quando i visitatori navigano nel sito, è possibile fornire loro ulteriori consigli di acquisto.
+Questa logica consente di aumentare le opportunità di cross-selling visualizzando un consiglio in una pagina di prodotto, ad esempio, in cui vengono visualizzati gli articoli acquistati da altri visitatori. Ad esempio, se il visitatore visualizza un palo da pesca, il consiglio potrebbe mostrare altri elementi acquistati da altri visitatori, come scatole per placcaggi, trampolieri e esche per pesca. Man mano che i visitatori navigano nel tuo sito, fornisci loro ulteriori consigli di acquisto.
 
-Se selezioni questo algoritmo, puoi selezionare le seguenti chiavi Recommendations:
+Se si seleziona questo algoritmo, è possibile selezionare le seguenti chiavi Recommendations:
 
 * Elemento corrente
 * Ultimo articolo acquistato
@@ -88,11 +88,11 @@ Se selezioni questo algoritmo, puoi selezionare le seguenti chiavi Recommendatio
 
 Consiglia gli articoli che sono acquistati più spesso dai clienti contemporaneamente all’articolo specificato.
 
-Questa logica restituisce gli altri prodotti acquistati dopo l’acquisto di questo; il prodotto specificato non è incluso nel set di risultati.
+Questa logica restituisce altri prodotti acquistati dopo l’acquisto di questo; il prodotto specificato non è incluso nel set di risultati.
 
-Questa logica ti consente di aumentare le opportunità di vendita incrociata visualizzando una raccomandazione in una pagina di riepilogo del carrello, ad esempio, che mostra gli articoli acquistati anche da altri acquirenti. Ad esempio, se il visitatore sta acquistando un seme, il consiglio potrebbe visualizzare altri articoli acquistati insieme alla tuta, come cravatta, scarpe da vestito e gemelli. Man mano che i visitatori esaminano i loro acquisti, fornisci loro ulteriori consigli.
+Questa logica ti consente di aumentare le opportunità di cross-selling visualizzando un consiglio in una pagina di riepilogo del carrello, ad esempio, in cui vengono visualizzati gli articoli acquistati anche da altri acquirenti. Ad esempio, se il visitatore acquista un completo, il consiglio potrebbe mostrare altri articoli acquistati da altri visitatori insieme all’indumento, come cravatte, scarpe e gemelli. Man mano che i visitatori esaminano i loro acquisti, fornisci loro ulteriori consigli.
 
-Se selezioni questo algoritmo, puoi selezionare le seguenti chiavi Recommendations:
+Se si seleziona questo algoritmo, è possibile selezionare le seguenti chiavi Recommendations:
 
 * Elemento corrente
 * Ultimo articolo acquistato
@@ -101,23 +101,23 @@ Se selezioni questo algoritmo, puoi selezionare le seguenti chiavi Recommendatio
 
 ## [!UICONTROL Basato sulla popolarità]
 
-La [!UICONTROL Basato sulla popolarità] il tipo di algoritmo consente di formulare raccomandazioni in base alla popolarità complessiva di un elemento nel sito o in base alla popolarità degli elementi all’interno della categoria, del marchio, del genere e così via preferita da un utente o più visualizzati.
+Il [!UICONTROL Basato sulla popolarità] il tipo di algoritmo consente di formulare consigli in base alla popolarità complessiva di un elemento nel sito o in base alla popolarità degli elementi nella categoria, nel marchio, nel genere e così via preferiti o più visualizzati di un utente.
 
 I seguenti algoritmi sono disponibili con [!UICONTROL Basato sulla popolarità] tipo di algoritmo:
 
-### Più visualizzati nel sito {#most-viewed}
+### Articoli più visualizzati nel sito {#most-viewed}
 
-Il consiglio è determinato dall&#39;elemento visualizzato più spesso. Tale metodo si basa sul criterio di attualità/frequenza, che si comporta come segue:
+Il consiglio è determinato dall’elemento visualizzato più di frequente. Tale metodo si basa sul criterio di attualità/frequenza, che si comporta come segue:
 
 * 10 punti per la prima visualizzazione del prodotto
 * 5 punti per ogni visualizzazione successiva
 * Alla fine della sessione tutti i valori vengono divisi per 2
 
-Ad esempio, la visualizzazione di “tavola da surf A” e poi di “tavola da surf B” in una sessione restituisce come risultato A: 10, B: 5. Al termine della sessione, hai A: 5, B: 2.5. Se visualizzi gli stessi elementi nella sessione successiva, i valori diventano A: 15 B: 7.5.
+Ad esempio, la visualizzazione di “tavola da surf A” e poi di “tavola da surf B” in una sessione restituisce come risultato A: 10, B: 5. Al termine della sessione, avrai A: 5, B: 2.5. Se visualizzi gli stessi elementi nella sessione successiva, i valori diventano A: 15 B: 7.5.
 
-Utilizza questo algoritmo nelle pagine generali, ad esempio nelle pagine principali o di destinazione e negli annunci offsite.
+Utilizza questo algoritmo nelle pagine generali, ad esempio home page o pagine di destinazione e annunci offsite.
 
-### Più visualizzate per categoria {#most-viewed-category}
+### Più visualizzati per categoria {#most-viewed-category}
 
 Il consiglio è determinato dalla categoria destinataria della maggioranza dell&#39;attività, con lo stesso metodo utilizzato per “articolo più visualizzato”, il punteggio però viene attribuito alle categorie anziché ai prodotti.
 
@@ -130,53 +130,53 @@ Alle categorie visitate per la prima volta sono attribuiti 10 punti. Per le visi
 
 Ad esempio, la visualizzazione di “Categoria A” e poi di “Categoria B” in una sessione restituisce come risultato A: 9, B: 10. Se si visualizzano gli stessi elementi nella sessione successiva, i valori cambiano in A: 20, B: 9.
 
-Utilizza questo algoritmo nelle pagine generali, ad esempio nelle pagine principali o di destinazione e negli annunci offsite.
+Utilizza questo algoritmo nelle pagine generali, ad esempio home page o pagine di destinazione e annunci offsite.
 
-Se selezionate l&#39;algoritmo Più visualizzato per categoria, potete selezionare le seguenti chiavi Recommendations:
+Se selezioni l’algoritmo Più visualizzato per categoria, puoi selezionare le seguenti chiavi Recommendations:
 
 * Categoria corrente
 * Categoria preferita
 
-### Più visualizzato per attributo articolo
+### Più visualizzati per attributo articolo
 
-Consiglia articoli o contenuti multimediali simili agli elementi o ai file multimediali più visualizzati sul sito.
+Consiglia elementi o file multimediali simili a quelli più visualizzati sul sito.
 
-Questo algoritmo consente di selezionare l&#39;attributo dell&#39;elemento su cui si desidera basare il consiglio, ad esempio, &quot;Nome&quot; o &quot;Marchio&quot;.
+Questo algoritmo consente di selezionare l’attributo dell’elemento su cui basare il consiglio, ad esempio &quot;Nome&quot; o &quot;Marchio&quot;.
 
-Seleziona quindi gli attributi di profilo memorizzati nel profilo del visitatore in base ai quali desideri confrontarli, ad esempio &quot;Marchio preferito&quot;, &quot;Ultimo elemento aggiunto al carrello&quot; o &quot;Mostra più visualizzata&quot;.
+Quindi seleziona gli attributi di profilo memorizzati nel profilo del visitatore da associare, ad esempio &quot;Marchio preferito&quot;, &quot;Ultimo elemento aggiunto al carrello&quot; o &quot;Spettacolo più visualizzato&quot;.
 
 ### Articoli più venduti in tutto il sito {#top-sellers}
 
-Visualizza gli elementi inclusi nella maggior parte degli ordini completati da tutto il sito. Più unità dello stesso articolo in un unico ordine vengono conteggiate come un ordine.
+Visualizza gli articoli inclusi nel maggior numero di ordini completati dall&#39;interno del sito. Più unità dello stesso articolo in un unico ordine vengono conteggiate come un ordine.
 
-Questo algoritmo consente di creare consigli per gli articoli più venduti sul sito per aumentare le conversioni e i ricavi. Questa logica è particolarmente adatta per i nuovi visitatori del sito.
+Questo algoritmo consente di creare consigli per gli articoli più venduti sul sito per aumentare la conversione e i ricavi. Questa logica è particolarmente adatta per i nuovi visitatori del sito.
 
-### Più venduti per categoria
+### Articoli più venduti per categoria
 
-Visualizza gli elementi inclusi nella maggior parte degli ordini completati per categoria. Più unità dello stesso articolo in un unico ordine vengono conteggiate come un ordine.
+Visualizza gli articoli inclusi nel maggior numero di ordini completati per categoria. Più unità dello stesso articolo in un unico ordine vengono conteggiate come un ordine.
 
-Questo algoritmo consente di creare consigli per gli articoli più venduti sul sito in base alla categoria per aumentare le conversioni e i ricavi. Questa logica è particolarmente adatta per i nuovi visitatori del sito.
+Questo algoritmo ti consente di creare consigli per gli articoli più venduti sul sito in base alla categoria, per aumentare la conversione e i ricavi. Questa logica è particolarmente adatta per i nuovi visitatori del sito.
 
-Se selezionate l&#39;algoritmo Più visualizzato per categoria, potete selezionare le seguenti chiavi Recommendations:
+Se selezioni l’algoritmo Più visualizzato per categoria, puoi selezionare le seguenti chiavi Recommendations:
 
 * Categoria corrente
 * Categoria preferita
 
-### Principali venduti per attributo articolo
+### Attributo Articoli più venduti
 
-Consiglia articoli o supporti simili agli articoli o ai supporti più acquistati sul sito.
+Consiglia articoli o supporti simili a quelli acquistati di più sul sito.
 
-Questo algoritmo consente di selezionare l&#39;attributo dell&#39;elemento su cui si desidera basare il consiglio, ad esempio, &quot;Nome&quot; o &quot;Marchio&quot;.
+Questo algoritmo consente di selezionare l’attributo dell’elemento su cui basare il consiglio, ad esempio &quot;Nome&quot; o &quot;Marchio&quot;.
 
-Seleziona quindi gli attributi di profilo memorizzati nel profilo del visitatore in base ai quali desideri confrontarli, ad esempio &quot;Marchio preferito&quot;, &quot;Ultimo elemento aggiunto al carrello&quot; o &quot;Mostra più visualizzata&quot;.
+Quindi seleziona gli attributi di profilo memorizzati nel profilo del visitatore da associare, ad esempio &quot;Marchio preferito&quot;, &quot;Ultimo elemento aggiunto al carrello&quot; o &quot;Spettacolo più visualizzato&quot;.
 
-### Metrica di Analytics in alto
+### Primi per metrica di Analytics
 
-Visualizza la &quot;Top x&quot; in cui *x* è arbitrario [!DNL Analytics] metrica. Quando utilizzi i dati comportamentali provenienti dalle mbox, puoi utilizzare Top Sold o Top Viewed (x = &quot;Sold&quot; o x = &quot;Viewed&quot;). Se utilizzi dati comportamentali provenienti da [!DNL Adobe Analytics], puoi utilizzare x = &quot;Aggiunte al carrello&quot; o altri [!DNL Analytics] metrica.
+Visualizza la &quot;X superiore&quot; dove *x* è un arbitrario [!DNL Analytics] metrica. Quando utilizzi dati comportamentali da mbox, puoi utilizzare i più venduti o i più visualizzati (x = &quot;venduti&quot; o x = &quot;visualizzati&quot;). Se utilizzi dati comportamentali di [!DNL Adobe Analytics], è possibile utilizzare x = &quot;Aggiunte al carrello&quot; o un altro [!DNL Analytics] metrica.
 
 ## [!UICONTROL Basato su articolo]
 
-La [!UICONTROL Basato su articolo] Il tipo di raccomandazione consente di formulare raccomandazioni in base al risultato di elementi simili a un elemento che l&#39;utente sta visualizzando o ha visualizzato di recente.
+Il [!UICONTROL Basato su articolo] il tipo di consiglio consente di formulare consigli in base alla ricerca di elementi simili a quelli di un elemento attualmente visualizzato o visualizzato di recente dall’utente.
 
 I seguenti algoritmi sono disponibili con [!UICONTROL Basato su articolo] tipo di algoritmo:
 
@@ -184,11 +184,11 @@ I seguenti algoritmi sono disponibili con [!UICONTROL Basato su articolo] tipo d
 
 Consiglia gli elementi che vengono visualizzati più spesso nella stessa sessione in cui viene visualizzato l’elemento specificato.
 
-Questa logica restituisce gli altri prodotti visualizzati dopo la visualizzazione di questo; il prodotto specificato non è incluso nel set di risultati.
+Questa logica restituisce altri prodotti visualizzati dopo aver visualizzato questo; il prodotto specificato non è incluso nel set di risultati.
 
-Questa logica ti consente di creare ulteriori opportunità di conversione consigliando gli elementi visualizzati anche da altri visitatori che hanno visualizzato un elemento. Ad esempio, i visitatori che visualizzano le bici da strada sul tuo sito potrebbero anche guardare caschi da bicicletta, kit da ciclismo, serrature e così via. Potete creare una raccomandazione utilizzando questa logica che suggerisce che altri prodotti vi aiutino ad aumentare i ricavi.
+Questa logica consente di creare opportunità di conversione aggiuntive consigliando gli articoli visualizzati anche dagli altri visitatori che hanno visualizzato un articolo. Ad esempio, i visitatori che visualizzano le bici da strada sul sito potrebbero anche guardare caschi, kit per ciclismo, serrature e così via. Utilizzando questa logica, puoi creare un consiglio che suggerisca ad altri prodotti di aiutarti ad aumentare i ricavi.
 
-Se selezioni questo algoritmo, puoi selezionare le seguenti chiavi Recommendations:
+Se si seleziona questo algoritmo, è possibile selezionare le seguenti chiavi Recommendations:
 
 * Elemento corrente
 * Ultimo articolo acquistato
@@ -199,11 +199,11 @@ Se selezioni questo algoritmo, puoi selezionare le seguenti chiavi Recommendatio
 
 Consiglia gli articoli che vengono acquistati più spesso nella stessa sessione in cui viene visualizzato l’articolo specificato. Questo criterio restituisce gli altri prodotti acquistati dopo la visualizzazione dell’articolo corrente; il prodotto specificato non è incluso nell’insieme di risultati.
 
-Questa logica restituisce gli altri prodotti acquistati dopo aver visualizzato questo; il prodotto specificato non è incluso nel set di risultati.
+Questa logica restituisce altri prodotti acquistati dopo aver visualizzato questo; il prodotto specificato non è incluso nel set di risultati.
 
-Questa logica consente di aumentare le opportunità di vendita incrociata visualizzando una raccomandazione su una pagina di prodotto, ad esempio, che mostra gli articoli che altri visitatori hanno visualizzato l’articolo acquistato. Ad esempio, se il visitatore sta visualizzando un palo da pesca, la raccomandazione potrebbe mostrare altri oggetti acquistati, come scatole di gestione, waders e lures da pesca. Quando i visitatori navigano nel sito, è possibile fornire loro ulteriori consigli di acquisto.
+Questa logica consente di aumentare le opportunità di cross-selling visualizzando un consiglio in una pagina di prodotto, ad esempio, in cui vengono visualizzati gli articoli acquistati da altri visitatori. Ad esempio, se il visitatore visualizza un palo da pesca, il consiglio potrebbe mostrare altri elementi acquistati da altri visitatori, come scatole per placcaggi, trampolieri e esche per pesca. Man mano che i visitatori navigano nel tuo sito, fornisci loro ulteriori consigli di acquisto.
 
-Se selezioni questo algoritmo, puoi selezionare le seguenti chiavi Recommendations:
+Se si seleziona questo algoritmo, è possibile selezionare le seguenti chiavi Recommendations:
 
 * Elemento corrente
 * Ultimo articolo acquistato
@@ -214,11 +214,11 @@ Se selezioni questo algoritmo, puoi selezionare le seguenti chiavi Recommendatio
 
 Consiglia gli articoli che sono acquistati più spesso dai clienti contemporaneamente all’articolo specificato.
 
-Questa logica restituisce gli altri prodotti acquistati dopo l’acquisto di questo; il prodotto specificato non è incluso nel set di risultati.
+Questa logica restituisce altri prodotti acquistati dopo l’acquisto di questo; il prodotto specificato non è incluso nel set di risultati.
 
-Questa logica ti consente di aumentare le opportunità di vendita incrociata visualizzando una raccomandazione in una pagina di riepilogo del carrello, ad esempio, che mostra gli articoli acquistati anche da altri acquirenti. Ad esempio, se il visitatore sta acquistando un seme, il consiglio potrebbe visualizzare altri articoli acquistati insieme alla tuta, come cravatta, scarpe da vestito e gemelli. Man mano che i visitatori esaminano i loro acquisti, fornisci loro ulteriori consigli.
+Questa logica ti consente di aumentare le opportunità di cross-selling visualizzando un consiglio in una pagina di riepilogo del carrello, ad esempio, in cui vengono visualizzati gli articoli acquistati anche da altri acquirenti. Ad esempio, se il visitatore acquista un completo, il consiglio potrebbe mostrare altri articoli acquistati da altri visitatori insieme all’indumento, come cravatte, scarpe e gemelli. Man mano che i visitatori esaminano i loro acquisti, fornisci loro ulteriori consigli.
 
-Se selezioni questo algoritmo, puoi selezionare le seguenti chiavi Recommendations:
+Se si seleziona questo algoritmo, è possibile selezionare le seguenti chiavi Recommendations:
 
 * Elemento corrente
 * Ultimo articolo acquistato
@@ -229,22 +229,22 @@ Se selezioni questo algoritmo, puoi selezionare le seguenti chiavi Recommendatio
 
 Consiglia articoli o media simili in base all’attività corrente o al comportamento passato del visitatore.
 
-Se selezioni Articoli/Media con attributi simili, puoi impostare regole di somiglianza del contenuto.
+Se selezioni Articoli/Media con attributi simili, puoi impostare le regole di somiglianza del contenuto.
 
-L’utilizzo della somiglianza di contenuto per generare consigli è particolarmente efficace per i nuovi elementi, che probabilmente non verranno visualizzati nei consigli utilizzando le persone che hanno visualizzato questo, hanno visto quello e altre logiche in base al comportamento passato. È inoltre possibile utilizzare la somiglianza del contenuto per generare consigli utili per i nuovi visitatori, che non hanno effettuato acquisti in precedenza o non possiedono altri dati storici.
+L’utilizzo di somiglianze di contenuti per generare consigli è particolarmente efficace per i nuovi elementi, che probabilmente non verranno visualizzati nei consigli utilizzando Persone che hanno visualizzato questo, Visualizzato quello e altre logiche basate sul comportamento passato. È inoltre possibile utilizzare la somiglianza del contenuto per generare consigli utili per i nuovi visitatori, che non hanno effettuato acquisti in precedenza o non possiedono altri dati storici.
 
-Se selezioni questo algoritmo, puoi selezionare le seguenti chiavi Recommendations:
+Se si seleziona questo algoritmo, è possibile selezionare le seguenti chiavi Recommendations:
 
 * Elemento corrente
 * Ultimo articolo acquistato
 * Ultimo articolo visualizzato
 * Articolo più visualizzato
 
-Per ulteriori informazioni, consulta [Somiglianza del contenuto](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#similarity).
+Per ulteriori informazioni, consulta [Somiglianza contenuti](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#similarity).
 
 ## [!UICONTROL Basato su utente]
 
-Il tipo di algoritmo basato su utente consente di formulare raccomandazioni in base al comportamento dell’utente.
+Il tipo di algoritmo basato sull’utente consente di formulare consigli in base al comportamento dell’utente.
 
 I seguenti algoritmi sono disponibili con [!UICONTROL Basato su utente] tipo di algoritmo:
 
@@ -252,36 +252,36 @@ I seguenti algoritmi sono disponibili con [!UICONTROL Basato su utente] tipo di 
 
 Utilizza la cronologia del visitatore (nell&#39;arco delle sessioni) per presentare gli ultimi elementi *x* visualizzati, in base al numero di posizioni nella progettazione.
 
-L’algoritmo di visualizzazione degli elementi visualizzati di recente restituisce un risultato specifico per un dato [ambiente](/help/main/administrating-target/hosts.md). Se due siti appartengono ad ambienti diversi e un visitatore passa da un sito all’altro, ciascun sito mostra solo gli articoli visualizzati di recente per il sito appropriato. Se due siti si trovano nello stesso ambiente e un visitatore passa tra i due siti, il visitatore visualizza gli stessi elementi visualizzati di recente per entrambi i siti.
+L’algoritmo Articoli visualizzati di recente restituisce un risultato specifico per un dato [ambiente](/help/main/administrating-target/hosts.md). Se due siti appartengono ad ambienti diversi e un visitatore passa da un sito all’altro, ciascun sito mostra solo gli articoli visualizzati di recente per il sito appropriato. Se due siti si trovano nello stesso ambiente e un visitatore passa da un sito all’altro, il visitatore visualizza gli stessi elementi visualizzati di recente per entrambi i siti.
 
 >[!NOTE]
 >
->Non è possibile utilizzare il [!UICONTROL Articoli visualizzati di recente] criteri per i consigli di backup.
+>Non è possibile utilizzare [!UICONTROL Articoli visualizzati di recente] criteri per i consigli di backup.
 
 Puoi filtrare gli articoli o i file multimediali visualizzati di recente in modo che vengano visualizzati solo quelli con uno specifico attributo.
 
 * I criteri “visualizzati di recente” sono configurabili, come altri criteri nei consigli.
 * È possibile utilizzare [raccolte](/help/main/c-recommendations/c-products/collections.md), [esclusioni](/help/main/c-recommendations/c-products/exclusions.md) e [inclusioni](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md) (incluse le regole speciali per Prezzo e Inventario) proprio come per tutti gli altri criteri.
 
-Eventuali casi d’uso includono: un’azienda multinazionale con più aziende potrebbe avere un visitatore che visualizza elementi su più proprietà digitali. In questo caso, puoi limitare gli articoli visualizzati di recente al solo sito su cui sono stati visualizzati. Questo impedisce la visualizzazione degli elementi visualizzati di recente sul sito di un&#39;altra proprietà digitale.
+I possibili casi d’uso includono: un’azienda multinazionale con più aziende potrebbe avere un visitatore che visualizza gli articoli in più proprietà digitali. In questo caso, puoi limitare gli articoli visualizzati di recente al solo sito su cui sono stati visualizzati. Questo impedisce la visualizzazione degli elementi visualizzati di recente sul sito di un’altra proprietà digitale.
 
-Utilizza questo algoritmo nelle pagine generali, ad esempio nelle pagine principali o di destinazione e negli annunci offsite.
+Utilizza questo algoritmo nelle pagine generali, ad esempio home page o pagine di destinazione e annunci offsite.
 
 >[!NOTE]
 >
->[!UICONTROL Articoli visualizzati di recente] rispetta sia le impostazioni globali di esclusioni che l’impostazione di raccolta selezionata per l’attività. Se un elemento è escluso da un’esclusione globale o non è contenuto nella raccolta selezionata, non verrà visualizzato. Pertanto, quando si utilizza un [!UICONTROL Articoli visualizzati di recente] In genere, è necessario utilizzare l’impostazione &quot;Tutte le raccolte&quot;.
+>[!UICONTROL Articoli visualizzati di recente] rispetta sia le impostazioni globali di esclusione che l’impostazione di raccolta selezionata per l’attività. Se un elemento è escluso da un’esclusione globale o non è contenuto nella raccolta selezionata, non verrà visualizzato. Pertanto, quando si utilizza un’ [!UICONTROL Articoli visualizzati di recente] , viene generalmente utilizzata l’impostazione &quot;All Collections&quot; (Tutte le raccolte).
 
 ### Consigliato per te {#recommended-for-you}
 
 Consiglia gli articoli in base alla cronologia di navigazione, visualizzazione e acquisto di ogni visitatore.
 
-Questo algoritmo consente di fornire contenuti ed esperienze personalizzati sia ai visitatori nuovi che a quelli di ritorno. L’elenco dei consigli è ponderato rispetto all’attività più recente del visitatore, viene aggiornato in sessione e diventa più personalizzato quando l’utente naviga sul sito.
+Questo algoritmo ti consente di fornire contenuti ed esperienze personalizzati sia ai visitatori nuovi che a quelli di ritorno. L’elenco dei consigli è ponderato rispetto all’attività più recente del visitatore, viene aggiornato durante la sessione e diventa più personalizzato man mano che l’utente naviga sul sito.
 
-Per determinare gli elementi consigliati vengono utilizzate sia le viste che gli acquisti. La chiave di consiglio specificata (ad esempio, Elemento corrente) viene utilizzata per applicare eventuali filtri di regola di inclusione selezionati.
+Sia le visualizzazioni che gli acquisti vengono utilizzati per determinare gli articoli consigliati. La chiave di consiglio specificata (ad esempio, Elemento corrente) viene utilizzata per applicare tutti i filtri selezionati per le regole di inclusione.
 
 Sarà possibile, ad esempio:
 
-* Escludere gli articoli che non soddisfano determinati criteri (prodotti esauriti, articoli pubblicati più di 30 giorni fa, film classificati R e così via).
+* Escludi gli articoli che non soddisfano determinati criteri (prodotti esauriti, articoli pubblicati più di 30 giorni fa, film classificati R e così via).
 * Limita gli elementi inclusi a una singola categoria o alla categoria corrente.
 
 Se si seleziona questo algoritmo, è possibile selezionare le seguenti chiavi di filtro:
@@ -293,7 +293,7 @@ Se si seleziona questo algoritmo, è possibile selezionare le seguenti chiavi di
 
 ## Criteri personalizzati {#custom}
 
-Il tipo di algoritmo Criteri personalizzati ti consente di formulare raccomandazioni in base a un file personalizzato caricato.
+Il tipo di algoritmo Criteri personalizzati consente di formulare consigli in base a un file personalizzato caricato.
 
 Il consiglio è determinato da un elemento memorizzato nel profilo di un visitatore, utilizzando uno degli utenti.*x* o profilo.Attributi *x*.
 
@@ -313,12 +313,12 @@ Con l’aggiunta delle regole di inclusione ai Criteri personalizzati, i consigl
 Eventuali casi di utilizzo includono:
 
 * Vuoi consigliare film da una lista personalizzata, ma solo se il visitatore non li ha già guardati.
-* Desideri eseguire un algoritmo offline e utilizzare i risultati per abilitare i consigli, ma devi assicurarti che gli articoli esauriti non siano mai consigliati.
+* Desideri eseguire un algoritmo offline e utilizzare i risultati per alimentare i consigli, ma devi assicurarti che gli elementi esauriti non vengano mai consigliati.
 * Vuoi includere solo gli articoli appartenenti alla categoria preferita del visitatore.
 
-## Chiavi dei consigli {#keys}
+## Chiavi consiglio {#keys}
 
-Le seguenti chiavi di raccomandazione sono disponibili dal [!UICONTROL Chiave dei consigli] elenco a discesa:
+Le seguenti chiavi di consigli sono disponibili da [!UICONTROL Chiave consiglio] elenco a discesa:
 
 ### Elemento corrente {#current-item}
 
@@ -335,14 +335,14 @@ Può essere utilizzato con i seguenti algoritmi:
 * [!UICONTROL Chi ha visualizzato questo ha acquistato anche quello]
 * [!UICONTROL Chi ha comprato questo ha acquistato anche quello]
 
-Utilizza la [!UICONTROL Elemento corrente] chiave di consigli sul sito:
+Utilizza il [!UICONTROL Elemento corrente] chiave consigli sul sito su:
 
 * Pagine a elemento singolo, ad esempio le pagine del prodotto.
 * NON utilizzare nelle pagine dei risultati di ricerca nulli.
 
 ### Ultimo articolo acquistato {#last-purchased}
 
-Il consiglio è determinato in base all&#39;ultimo articolo acquistato da ogni visitatore univoco. Questa viene acquisita automaticamente, pertanto non è necessario trasmettere alcun valore alla pagina.
+Il consiglio è determinato in base all&#39;ultimo articolo acquistato da ogni visitatore univoco. Questo viene acquisito automaticamente, quindi non è necessario trasmettere valori sulla pagina.
 
 Può essere utilizzato con i seguenti algoritmi:
 
@@ -351,23 +351,23 @@ Può essere utilizzato con i seguenti algoritmi:
 * [!UICONTROL Chi ha visualizzato questo ha acquistato anche quello]
 * [!UICONTROL Chi ha comprato questo ha acquistato anche quello]
 
-Utilizza la [!UICONTROL Ultimo articolo acquistato] chiave di consigli sul sito:
+Utilizza il [!UICONTROL Ultimo articolo acquistato] chiave consigli sul sito su:
 
 * Pagina principale, pagina account, annunci fuori sede.
 * NON utilizzare su pagine di prodotti o pagine rilevanti per gli acquisti.
 
-#### Chiave consiglio personalizzata
+#### Chiave consigli personalizzata
 
 Puoi basare i consigli sul valore di un attributo di profilo personalizzato. Ad esempio, supponi di voler visualizzare filmati consigliati in base all’ultimo filmato che un visitatore ha aggiunto alla sua coda.
 
-1. Seleziona l’attributo di profilo personalizzato dal **[!UICONTROL Chiave dei consigli]** elenco a discesa (ad esempio, &quot;Ultimo filmato aggiunto alla watchlist&quot;).
+1. Seleziona l’attributo di profilo personalizzato dall’elenco **[!UICONTROL Chiave consiglio]** (ad esempio, &quot;Last Show Added to Watchlist&quot;).
 1. Seleziona quindi la **[!UICONTROL Logica consigliata]** (ad esempio “Persone che hanno visualizzato questo, hanno visualizzato anche quello”).
 
    ![Finestra di dialogo per creare un nuovo criterio](/help/main/c-recommendations/c-algorithms/assets/create-new-criteria-1.png)
 
-Se l’attributo di profilo personalizzato non corrisponde direttamente a un singolo ID entità, devi spiegare a [!DNL Recommendations] come desideri che avvenga la corrispondenza a un’entità. Ad esempio, supponi di voler visualizzare gli articoli più venduti del marchio preferito di un visitatore.
+Se l’attributo di profilo personalizzato non corrisponde direttamente a un singolo ID entità, devi spiegare a [!DNL Recommendations] come desideri che avvenga la corrispondenza a un’entità. Ad esempio, supponi di voler visualizzare gli articoli più venduti della marca preferita di un visitatore.
 
-1. Seleziona l’attributo di profilo personalizzato dal **[!UICONTROL Chiave dei consigli]** elenco a discesa (ad esempio, &quot;Marchio preferito&quot;).
+1. Seleziona l’attributo di profilo personalizzato dall’elenco **[!UICONTROL Chiave consiglio]** (ad esempio, &quot;Marchio preferito&quot;).
 
 1. Quindi seleziona la **[!UICONTROL Logica consigli]** che desideri utilizzare con questa chiave (ad esempio, “Più venduti”).
 
@@ -381,7 +381,7 @@ Se l’attributo di profilo personalizzato non corrisponde direttamente a un sin
 
 ### Ultimo articolo visualizzato {#last-viewed}
 
-Il consiglio è determinato dall&#39;ultimo articolo visualizzato da ogni visitatore univoco. Questa viene acquisita automaticamente, pertanto non è necessario trasmettere alcun valore alla pagina.
+Il consiglio è determinato dall&#39;ultimo articolo visualizzato da ogni visitatore univoco. Questo viene acquisito automaticamente, quindi non è necessario trasmettere valori sulla pagina.
 
 Può essere utilizzato con i seguenti algoritmi:
 
@@ -390,18 +390,18 @@ Può essere utilizzato con i seguenti algoritmi:
 * [!UICONTROL Chi ha visualizzato questo ha acquistato anche quello]
 * [!UICONTROL Chi ha comprato questo ha acquistato anche quello]
 
-Utilizza la [!UICONTROL Ultimo articolo visualizzato] chiave di consigli sul sito:
+Utilizza il [!UICONTROL Ultimo articolo visualizzato] chiave consigli sul sito su:
 
 * Pagina principale, pagina account, annunci fuori sede.
 * NON utilizzare su pagine di prodotti o pagine rilevanti per gli acquisti.
 
 ### Articolo più visualizzato {#most-viewed-logic}
 
-Visualizza gli elementi o i file multimediali visualizzati più spesso sul sito.
+Visualizza gli elementi o i supporti visualizzati più di frequente sul sito.
 
-Questa logica consente di visualizzare consigli basati sugli elementi più visualizzati sul sito per aumentare le conversioni per altri elementi. Ad esempio, un sito multimediale potrebbe visualizzare consigli nella propria home page per i video più visualizzati per incoraggiare i visitatori a guardare altri video.
+Questa logica consente di visualizzare i consigli in base agli elementi più visualizzati sul sito per aumentare le conversioni per altri elementi. Ad esempio, un sito di contenuti multimediali potrebbe mostrare nella propria home page i consigli per i video più visualizzati, in modo da incoraggiare i visitatori a guardare altri video.
 
-Questa chiave di raccomandazione può essere utilizzata con i seguenti algoritmi:
+Questa chiave di consigli può essere utilizzata con i seguenti algoritmi:
 
 * [!UICONTROL Articoli con attributi simili]
 * [!UICONTROL Chi ha visualizzato questo ha visualizzato anche quello]
@@ -416,12 +416,12 @@ I consigli mostrano gli elementi nella categoria di prodotto specificata.
 
 Quando questa opzione è selezionata, il valore `entity.categoryId` deve essere trasmesso come parametro alla mbox di visualizzazione.
 
-Questa chiave di raccomandazione può essere utilizzata con i seguenti algoritmi:
+Questa chiave di consigli può essere utilizzata con i seguenti algoritmi:
 
 * Articoli più venduti
 * Articoli più visualizzati
 
-Utilizza la [!UICONTROL Categoria corrente] chiave di consigli sul sito:
+Utilizza il [!UICONTROL Categoria corrente] chiave consigli sul sito su:
 
 * Pagine a categoria singola.
 * NON utilizzare nelle pagine dei risultati di ricerca nulli.
@@ -434,12 +434,12 @@ I consigli mostrano gli elementi nella categoria di prodotto specificata.
 
 Quando questa opzione è selezionata, il valore `entity.categoryId` deve essere trasmesso come parametro alla mbox di visualizzazione.
 
-Questa chiave di raccomandazione può essere utilizzata con i seguenti algoritmi:
+Questa chiave di consigli può essere utilizzata con i seguenti algoritmi:
 
 * Articoli più venduti
 * Articoli più visualizzati
 
-Utilizza la [!UICONTROL Categoria corrente] chiave di consigli sul sito:
+Utilizza il [!UICONTROL Categoria corrente] chiave consigli sul sito su:
 
 * Pagine a categoria singola.
 * NON utilizzare nelle pagine dei risultati di ricerca nulli.
@@ -450,11 +450,11 @@ Consiglia gli articoli in base alla certezza di una relazione tra articoli diver
 
 Ad esempio, se imposti un’affinità molto forte e il progetto include cinque elementi, tre dei quali soddisfano il livello di soglia di connessione, i due elementi che non soddisfano i requisiti di forza minima non vengono visualizzati nei suggerimenti e vengono sostituiti dagli elementi di backup definiti. Gli elementi con affinità più elevata vengono visualizzati per primi.
 
-Ad esempio, un rivenditore online può consigliare agli articoli in visite successive di cui un visitatore ha mostrato interesse durante le sessioni precedenti. L&#39;attività per ogni sessione del visitatore viene acquisita per calcolare un&#39;affinità basata su un modello di aggiornamento e frequenza. Quando il visitatore ritorna al sito, viene utilizzata l&#39;affinità di sito per visualizzare i consigli in base alle azioni precedenti sul sito.
+Ad esempio, un rivenditore online può consigliare articoli in visite successive che hanno suscitato interesse in un visitatore durante le sessioni precedenti. L’attività per ogni sessione del visitatore viene acquisita per calcolare un’affinità in base a un modello di frequenza e recency. Quando il visitatore ritorna sul sito, l’affinità viene utilizzata per visualizzare i consigli in base alle azioni passate eseguite sul sito.
 
 Alcuni clienti con varie raccolte di prodotti e comportamenti diversi sui siti potrebbero ottenere risultati ottimali impostando un’affinità di sito debole.
 
-Questa logica può essere utilizzata con le seguenti chiavi di raccomandazione:
+Questa logica può essere utilizzata con le seguenti chiavi di consigli:
 
 * Elemento corrente
 * Ultimo articolo acquistato

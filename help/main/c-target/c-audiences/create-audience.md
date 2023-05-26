@@ -1,7 +1,7 @@
 ---
 keywords: pubblico;regole del pubblico;creare pubblico;creazione pubblico
-description: Scopri come creare tipi di pubblico personalizzati e salvarli nel [!DNL Adobe Target] [!UICONTROL Tipi di pubblico] libreria da utilizzare nelle attività.
-title: Come Posso Creare Tipi Di Pubblico?
+description: Scopri come creare tipi di pubblico personalizzati e salvarli in [!DNL Adobe Target] [!UICONTROL Tipi di pubblico] libreria da utilizzare nelle attività.
+title: Come Si Creano I Tipi Di Pubblico?
 feature: Audiences
 exl-id: 59057461-d958-4d38-9725-53aacbe1f7eb
 source-git-commit: a185edee86f6d07b488cf5dd3fe7e5dc3f4e87b3
@@ -13,13 +13,13 @@ ht-degree: 59%
 
 # Creare tipi di pubblico in [!DNL Target]
 
-Puoi creare tipi di pubblico personalizzati e salvarli nel [!DNL Adobe Target] [!UICONTROL Tipi di pubblico] libreria da utilizzare nelle attività. Puoi anche copiare un pubblico esistente da modificare per creare un pubblico simile e combinare più tipi di pubblico.
+Puoi creare tipi di pubblico personalizzati e salvarli in [!DNL Adobe Target] [!UICONTROL Tipi di pubblico] da utilizzare nelle attività. Puoi anche copiare un pubblico esistente da modificare per crearne uno simile e combinare più tipi di pubblico.
 
 ## Panoramica sul pubblico
 
 I tipi di pubblico sono definiti da regole che determinano chi è incluso o escluso da un&#39;attività di [!DNL Target]. Una definizione di pubblico può includere più regole e ogni regola può includere più parametri. Le definizioni di pubblico complesse utilizzano gli operatori booleani AND e OR (E/O) per combinare regole e parametri per poter controllare in modo dettagliato quali visitatori del sito vengono conteggiati come partecipanti all&#39;attività.
 
-Quando combini regole o parametri con AND, qualsiasi membro potenziale del pubblico deve soddisfare *tutto* condizioni definite da includere come partecipante. Ad esempio, se si definisce una regola del sistema operativo e una regola del browser, solo i visitatori che utilizzano il sistema operativo definito *e* il browser definito sono inclusi nell&#39;attività.
+Quando combini regole o parametri con AND, qualsiasi potenziale membro del pubblico deve soddisfare *tutto* condizioni definite da includere come partecipante. Ad esempio, se si definisce una regola del sistema operativo e una regola del browser, solo i visitatori che utilizzano il sistema operativo definito *e* il browser definito sono inclusi nell&#39;attività.
 
 Quando si combinano regole o parametri con OR, qualsiasi membro potenziale del pubblico deve soddisfare solo una singola condizione definita per essere incluso come partecipante. Ad esempio, se si definiscono più regole mobili connesse da OR, i visitatori che soddisfano *uno* dei criteri definiti sono inclusi nell&#39;attività.
 
@@ -39,23 +39,23 @@ Ad esempio, la regola seguente è destinata ai visitatori che utilizzano Chrome 
 
    ![immagine audiences_list](assets/audiences_list.png)
 
-1. Da [!UICONTROL Tipi di pubblico] elenco, fai clic su **[!UICONTROL Crea pubblico]**.
+1. Dalla sezione [!UICONTROL Tipi di pubblico] , fare clic su **[!UICONTROL Crea pubblico]**.
 
    Oppure
 
-   Per copiare un pubblico esistente, dai [!UICONTROL Tipi di pubblico] elenco, fai clic su **[!UICONTROL Altre azioni]** icona (icona dei puntini di sospensione), quindi fai clic su **[!UICONTROL Duplica]**. Ora puoi modificare il pubblico per crearne uno simile.
+   Per copiare un pubblico esistente, da [!UICONTROL Tipi di pubblico] , fare clic sul pulsante **[!UICONTROL Altre azioni]** (icona con i puntini di sospensione), quindi fai clic su **[!UICONTROL Duplica]**. Ora puoi modificare il pubblico per crearne uno simile.
 
-1. Inserisci un nome descrittivo e univoco per il pubblico e una descrizione facoltativa.
+1. Digita un nome descrittivo e univoco per il pubblico e una descrizione facoltativa.
 
-   I nomi dei tipi di pubblico non possono iniziare con i seguenti caratteri:
+   I nomi del pubblico non possono iniziare con i seguenti caratteri:
 
    `=  +  -  !  @`
 
-   I nomi dei tipi di pubblico non possono contenere le seguenti sequenze di caratteri:
+   I nomi del pubblico non possono contenere nessuna delle seguenti sequenze di caratteri:
 
    `;=  ;+  ;-  ;@  ,=  ,+  ,-  ,@  ["  "]  ['  ]'`
 
-1. Trascina e rilascia gli attributi desiderati dal **[!UICONTROL Attributi]** a destra del riquadro di audience builder.
+1. Trascina e rilascia gli attributi desiderati dal menu **[!UICONTROL Attributi]** a destra del riquadro audience builder.
 
    ![Trascinare gli attributi](assets/drag-attribute.png)
 
@@ -63,13 +63,13 @@ Ad esempio, la regola seguente è destinata ai visitatori che utilizzano Chrome 
 
 1. Definisci i parametri della regola.
 
-   Ad esempio, il pubblico seguente esegue il targeting dei visitatori provenienti dallo Utah che utilizzano il sistema operativo Macintosh.
+   Ad esempio, il pubblico seguente include i visitatori dello Utah che utilizzano il sistema operativo Macintosh.
 
    ![Pubblico Utah/Macintosh](assets/adience-builder.png)
 
 1. (Condizionale) Continua ad aggiungere e definire gli attributi desiderati.
 
-   Per creare un altro contenitore, fai clic su **[!UICONTROL Aggiungi contenitore]** oppure trascina semplicemente un altro attributo nel riquadro Audience Builder. È quindi possibile regolare l’operatore (AND o OR) utilizzando l’elenco a discesa.
+   Per creare un altro contenitore, fai clic su **[!UICONTROL Aggiungi contenitore]** o semplicemente trascina un altro attributo nel riquadro Audience Builder. È quindi possibile regolare l’operatore (AND o OR) utilizzando l’elenco a discesa.
 
 1. Fai clic su **[!UICONTROL Fine]**.
 

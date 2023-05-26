@@ -1,7 +1,7 @@
 ---
-keywords: sommario
-description: Visualizza un riepilogo dell’attività Test multivariato (MVT) che fornisce una panoramica visiva dell’attività MVT in Adobe Target.
-title: Come posso visualizzare il riepilogo di un'attività Test multivariato (MVT)?
+keywords: riepilogo
+description: Visualizza il riepilogo di un’attività Test multivariato (MVT) che fornisce una panoramica visiva dell’attività MVT in Adobe Target.
+title: Come posso visualizzare il riepilogo di un’attività Test multivariato (MVT)?
 feature: Multivariate Tests
 exl-id: 8fcbd296-a1a9-42a1-ae46-edc861fc036a
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
@@ -13,7 +13,7 @@ ht-degree: 62%
 
 # Riepilogo del test (test multivariati)
 
-Il riepilogo del test fornisce una panoramica visiva del [!DNL Adobe Target] [!UICONTROL Test multivariato].
+Il riepilogo del test fornisce una panoramica visiva [!DNL Adobe Target] [!UICONTROL Test multivariato].
 
 ![Finestra di dialogo Riepilogo del test](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/summary2new.png)
 

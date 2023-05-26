@@ -1,7 +1,7 @@
 ---
-keywords: Creare targeting automatico;test A/B;attività di targeting automatico;nuova attività A/B;targeting automatico;targeting automatico per esperienze personalizzate;personalizzato;ottimizzazione
-description: Scopri come utilizzare il Compositore esperienza visivo (VEC) in Adobe [!DNL Target] per creare l’attività Targeting automatico A/B Test direttamente su un [!DNL Target]Pagina abilitata.
-title: Come si crea un'attività di Targeting automatico?
+keywords: creare targeting automatico;test A/B;targeting automatico;nuova attività A/B;targeting automatico;targeting automatico per esperienze personalizzate;personalizzato;ottimizzazione
+description: Scopri come utilizzare il Compositore esperienza visivo in Adobe [!DNL Target] per creare l’attività di Targeting automatico test A/B direttamente su un [!DNL Target]pagina abilitata.
+title: Come si crea un’attività di Targeting automatico?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Auto-Target
 exl-id: 5521740c-eee2-4ba2-8931-cf56d56a4561
@@ -14,15 +14,15 @@ ht-degree: 51%
 
 # Creare un’attività di Targeting automatico
 
-Utilizza la [!UICONTROL Compositore esperienza visivo] (Compositore esperienza visivo) in [!DNL Adobe Target] per creare [!UICONTROL Targeting automatico] [!UICONTROL Test A/B] attività direttamente su un [!DNL Target]pagina abilitata e per modificare parti della pagina [!DNL Target].
+Utilizza il [!UICONTROL Compositore esperienza visivo] (VEC) in [!DNL Adobe Target] per creare [!UICONTROL Targeting automatico] [!UICONTROL Test A/B] attività direttamente su un [!DNL Target]e per modificare parti della pagina in [!DNL Target].
 
 >[!NOTE]
 >
 >La funzione di [!UICONTROL Targeting automatico] è disponibile come parte della soluzione [!DNL Target Premium]. Questa funzione non è disponibile in [!DNL Target Standard] senza una licenza [!DNL Target Premium]. Per ulteriori informazioni sulle funzioni avanzate fornite da questa licenza, consulta [Target Premium](/help/main/c-intro/intro.md).
 >
->Oltre al [!UICONTROL Targeting automatico] [!UICONTROL Test A/B] attività (discussa in questo articolo), [!DNL Target] fornisce altri due tipi di [!UICONTROL Test A/B] attività: [!UICONTROL Manuale (predefinito)] e [!UICONTROL Allocazione automatica].
+>Oltre al [!UICONTROL Targeting automatico] [!UICONTROL Test A/B] attività (discussa in questo articolo), [!DNL Target] fornisce altri due tipi di [!UICONTROL Test A/B] attività: [!UICONTROL Manuale (impostazione predefinita)] e [!UICONTROL Allocazione automatica].
 >
->Vedi [Tipi di attività di test A/B](/help/main/c-activities/t-test-ab/test-ab.md#types) in *Panoramica del test A/B*.
+>Consulta [Tipi di attività di test A/B](/help/main/c-activities/t-test-ab/test-ab.md#types) in *Panoramica sui test A/B*.
 
 Per creare un [!UICONTROL Targeting automatico] attività:
 
@@ -38,17 +38,17 @@ Per creare un [!UICONTROL Targeting automatico] attività:
 
 1. Se necessario, seleziona **[!UICONTROL Visivo (impostazione predefinita)]**.
 
-   ![Creare un’attività Test A/B](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/create-ab.png)
+   ![Crea attività test A/B](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/create-ab.png)
 
-   Se preferisci utilizzare il [!UICONTROL Compositore esperienza basato su moduli], seleziona [!UICONTROL Modulo]. Per ulteriori informazioni, consulta [Compositore esperienza basato su moduli](/help/main/c-experiences/form-experience-composer.md).
+   Se preferisce utilizzare il [!UICONTROL Compositore esperienza basato su moduli], seleziona [!UICONTROL Modulo]. Per ulteriori informazioni, consulta [Compositore esperienza basato su moduli](/help/main/c-experiences/form-experience-composer.md).
 
    >[!NOTE]
    >
-   >Oltre al Compositore esperienza visivo e al [!UICONTROL Compositore esperienza basato su moduli], [!DNL Target] offre il Compositore esperienza visivo per applicazione a pagina singola. Per ulteriori informazioni sui vari moduli di composizione, consulta [Esperienze e offerte](/help/main/c-experiences/experiences.md).
+   >Oltre al Compositore esperienza visivo e [!UICONTROL Compositore esperienza basato su moduli], [!DNL Target] offre il Compositore esperienza visivo per applicazione a pagina singola. Per ulteriori informazioni sui vari moduli di composizione, consulta [Esperienze e offerte](/help/main/c-experiences/experiences.md).
    >
    >Per informazioni sulla risoluzione dei problemi relativi al Compositore esperienza visivo, consulta [Risoluzione dei problemi relativi al Compositore esperienza visivo](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md).
    >
-   >L’opzione [[!UICONTROL Choose Workplace]](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) (Scegli luogo di lavoro) nell’illustrazione precedente è una funzione di [Target Premium](/help/main/c-intro/intro.md). La tua organizzazione dispone di un [!UICONTROL Target Standard] in caso contrario,
+   >L’opzione [[!UICONTROL Choose Workplace]](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) (Scegli luogo di lavoro) nell’illustrazione precedente è una funzione di [Target Premium](/help/main/c-intro/intro.md). La tua organizzazione dispone di [!UICONTROL Target Standard] se questa opzione non è disponibile.
 
 1. Scegli un [workspace](/help/main/administrating-target/c-user-management/property-channel/property-channel.md).
 
@@ -73,9 +73,9 @@ Per creare un [!UICONTROL Targeting automatico] attività:
    | `-` | Meno |
    | `@` | Chiocciola |
 
-1. Crea esperienze modificando gli elementi nella pagina.
+1. Crea le esperienze modificando gli elementi nella pagina.
 
-   La [!UICONTROL Compositore esperienza visivo] dopo la creazione di un’attività vengono visualizzate due schede a sinistra: Esperienza A ed Esperienza B. L’esperienza A è l’esperienza di controllo. La tua attenzione è rivolta alla scheda Esperienza B, che puoi modificare come desiderato. Esperienza B è l&#39;esperienza alternativa che puoi aggiungere al tuo test. È possibile aggiungere più esperienze al test. È inoltre possibile eliminare l&#39;Esperienza A dall&#39;attività se non si desidera includere un&#39;esperienza di sito predefinita come opzione.
+   Il [!UICONTROL Compositore esperienza visivo] dopo aver creato un’attività di, visualizza due schede a sinistra: Esperienza A e Esperienza B. L’Esperienza A è l’esperienza di controllo. L&#39;attenzione è rivolta alla scheda Esperienza B, che puoi modificare in base alle tue esigenze. Esperienza B è l&#39;esperienza alternativa che puoi aggiungere al tuo test. È possibile aggiungere più esperienze al test. È inoltre possibile eliminare l&#39;Esperienza A dall&#39;attività se non si desidera includere un&#39;esperienza di sito predefinita come opzione.
 
    Per ulteriori informazioni su come aggiungere e modificare le esperienze nel [!UICONTROL Compositore esperienza visivo], vedi [Aggiungi esperienza](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-add-experience.md). Per modificare l&#39;Esperienza B, inizia con il passaggio 3.
 
@@ -103,16 +103,16 @@ Per creare un [!UICONTROL Targeting automatico] attività:
 
    Scegli il metodo desiderato per l’allocazione del traffico. Per creare un [!UICONTROL Targeting automatico] attività, seleziona **[!UICONTROL Targeting automatico per esperienze personalizzate]**.
 
-   I tre tipi di ripartizione del traffico sono descritti di seguito:
+   Di seguito sono descritti i tre tipi di allocazione del traffico:
 
    * **[!UICONTROL Manuale (impostazione predefinita)]**: specifica la percentuale di partecipanti che dovranno visualizzare ogni esperienza. Puoi suddividere le percentuali in modo uniforme tra tutte le esperienze, oppure specificare percentuali maggiori o minori per ogni esperienza. Il totale per tutte le esperienze deve essere uguale al 100%. Per ulteriori informazioni, consulta [Creare un test A/B](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md).
 
-   * **[!UICONTROL Allocazione automatica all’esperienza migliore]**: La maggior parte dei partecipanti all’attività viene automaticamente indirizzata alle esperienze con prestazioni migliori. Alcuni visitatori sono assegnati a tutte le esperienze, per mantenere l’esplorazione delle esperienze e riconoscere eventuali cambiamenti nelle tendenze prestazionali. Per ulteriori informazioni, consulta [Panoramica dell’allocazione automatica](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md).
+   * **[!UICONTROL Allocazione automatica all’esperienza migliore]**: la maggior parte dei partecipanti all’attività viene automaticamente indirizzata alle esperienze con prestazioni migliori. Alcuni visitatori sono assegnati a tutte le esperienze, per mantenere l’esplorazione delle esperienze e riconoscere eventuali cambiamenti nelle tendenze prestazionali. Per ulteriori informazioni, consulta [Panoramica dell’allocazione automatica](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md).
 
-   * **[!UICONTROL Targeting automatico per esperienze personalizzate]**: [!DNL Target] utilizza l’apprendimento automatico avanzato per personalizzare i contenuti e favorire le conversioni identificando più esperienze ad alte prestazioni definite dall’addetto al marketing. In seguito, indica l’esperienza più adatta per i visitatori in base ai loro profili cliente individuali e comportamenti passati di visitatori simili.
+   * **[!UICONTROL Targeting automatico per esperienze personalizzate]**: [!DNL Target] utilizza l’apprendimento automatico avanzato per personalizzare i contenuti e favorire le conversioni identificando più esperienze ad alte prestazioni definite dall’addetto al marketing. Inoltre, indica l’esperienza più adatta per ogni visitatore in base al suo profilo cliente individuale e ai comportamenti precedenti di visitatori simili.
    Potete inoltre fate clic su **[!UICONTROL Add  (Aggiungi esperienza)]** per aggiungere un&#39;altra esperienza all&#39;attività.
 
-1. Quando sei soddisfatto del pubblico, delle scelte di esperienza e delle scelte di allocazione del traffico, fai clic su **[!UICONTROL Successivo]** per passare al terzo passaggio del flusso di lavoro guidato in tre passaggi.
+1. Quando sei soddisfatto delle scelte di pubblico, esperienza e allocazione del traffico, fai clic su **[!UICONTROL Successivo]** per passare al terzo passaggio del flusso di lavoro guidato in tre passaggi.
 
 1. Specifica [obiettivi e impostazioni](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md) per l’attività.
 
@@ -120,17 +120,17 @@ Per creare un [!UICONTROL Targeting automatico] attività:
 
    >[!NOTE]
    >
-   >Se desideri utilizzare [Analytics for Target](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T) con questa attività, consulta informazioni importanti in [Supporto A4T per attività di allocazione automatica e targeting automatico](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md).
+   >Se si desidera utilizzare [Analytics for Target](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T) con questa attività, consulta informazioni importanti in [Supporto A4T per attività di allocazione automatica e targeting automatico](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md).
 
-1. Fai clic su **[!UICONTROL Salva e chiudi]** o **[!UICONTROL Salva]**.
+1. Clic **[!UICONTROL Salva e chiudi]** o **[!UICONTROL Salva]**.
 
-Dopo aver creato l’attività, la [!UICONTROL Panoramica] La scheda mostra informazioni sull’attività, compreso un diagramma.
+Dopo aver creato l’attività, il [!UICONTROL Panoramica] Questa scheda mostra informazioni sull’attività, incluso un diagramma dell’attività.
 
-## Video di formazione: Creazione di test A/B (8:36) ![Badge tutorial](/help/main/assets/tutorial.png)
+## Video di formazione: Creazione di test A/B (08:36) ![Icona esercitazione](/help/main/assets/tutorial.png)
 
 In questo video viene illustrato come creare un test A/B utilizzando il flusso di lavoro guidato in tre fasi di [!DNL Target].
 
-* Crea un [!UICONTROL Test A/B] attività in [!DNL Adobe Target]
+* Creare un [!UICONTROL Test A/B] attività in [!DNL Adobe Target]
 * Allocare il traffico con suddivisione manuale o automatica del traffico
 
 >[!VIDEO](https://video.tv.adobe.com/v/17391)

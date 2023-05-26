@@ -1,7 +1,7 @@
 ---
 keywords: Targeting;targeting esperienza;xt;pagina di destinazione;campagna pagina di destinazione
-description: Scopri come utilizzare le attività di targeting delle esperienze (XT) in Adobe [!DNL Target] per fornire contenuti a un pubblico specifico in base a una serie di regole e criteri definiti dall’addetto al marketing.
-title: Che cos’è un’attività Targeting esperienze (XT)?
+description: Scopri come utilizzare le attività Targeting esperienza (XT) in Adobe [!DNL Target] per fornire contenuti a un pubblico specifico in base a una serie di regole e criteri definiti dall’addetto al marketing.
+title: Cos’è un’attività Targeting esperienza?
 feature: Experience Targeting
 exl-id: 416d8941-d4de-487f-8fd2-27806b73a63c
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
@@ -17,7 +17,7 @@ La funzione Targeting esperienza (XT) fornisce contenuti a un pubblico specifico
 
 La funzione Targeting esperienza, che comprende il [geotargeting](/help/main/c-target/c-audiences/c-target-rules/geo.md), è utile per definire regole che rivolgono un’esperienza o un contenuto specifico a un determinato pubblico. È possibile definire diverse regole in un’attività per fornire diverse varianti di contenuto a tipi di pubblico diversi.
 
-Quando i visitatori visualizzano il tuo sito, la funzione Targeting esperienza (XT) li valuta per determinare se soddisfano i criteri impostati. Se soddisfano i criteri, vengono inclusi nell&#39;attività e viene visualizzata l&#39;esperienza progettata per i tipi di pubblico idonei. Puoi creare esperienze per più tipi di pubblico all&#39;interno di una singola attività.
+Quando i visitatori visualizzano il tuo sito, la funzione Targeting dell’esperienza (XT) li valuta per determinare se soddisfano i criteri impostati. Se soddisfano i criteri, vengono inclusi nell&#39;attività e viene visualizzata l&#39;esperienza progettata per i tipi di pubblico idonei. Puoi creare esperienze per più tipi di pubblico all&#39;interno di una singola attività.
 
 Il targeting esperienza è un primo passo nel mondo della personalizzazione e spesso inizia con test A/B. Un addetto al marketing esegue un test A/B e attraverso l&#39;uso di tipi di pubblico di reporting rileva che diverse esperienze trovano accoglienza tra diversi destinatari. Il targeting esperienza consente all’addetto al marketing di sfruttare facilmente tale individuazione e passare a un&#39;impostazione a lungo termine del contenuto per tali segmenti di utenti diversi.
 

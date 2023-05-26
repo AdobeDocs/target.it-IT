@@ -1,6 +1,6 @@
 ---
 keywords: test multivariato;mvt;piano mvt;piano test multivariato
-description: Scopri come pianificare un test multivariato in Adobe [!DNL Target] in modo da poter creare un test di successo.
+description: Scopri come pianificare test multivariati in Adobe [!DNL Target] in modo da poter creare un test di successo.
 title: Come si pianifica un test multivariato?
 feature: Multivariate Tests
 exl-id: 130718d5-7bd9-4b1a-b81a-7a146f0ffd0d
@@ -25,7 +25,7 @@ Pianifica il test degli elementi sulla pagina che produrranno probabilmente risu
 
 Infine, prima di creare il test, devi creare il contenuto da verificare. Assicurati di comprendere le differenze nel contenuto previsto per ogni offerta, e di creare tutte le offerte immagine, testo e HTML che prevedi di utilizzare nel test.
 
-## Video di formazione: Creazione di test multivariati (9:25) ![Badge tutorial](/help/main/assets/tutorial.png)
+## Video di formazione: Creazione di test multivariati (09:25) ![Icona esercitazione](/help/main/assets/tutorial.png)
 
 In questo video viene illustrato come pianificare e creare un test multivariato utilizzando il flusso di lavoro guidato a tre passaggi di Target.
 

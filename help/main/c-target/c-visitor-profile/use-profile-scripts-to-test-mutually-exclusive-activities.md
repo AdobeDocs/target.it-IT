@@ -1,6 +1,6 @@
 ---
-keywords: script di profilo;attributi degli script di profilo;attività reciprocamente esclusive
-description: Scopri come utilizzare gli attributi del profilo per impostare i test in Adobe [!DNL Target] che confrontano più attività ma non consentono agli stessi visitatori di partecipare a ciascuna attività.
+keywords: script di profilo;attributi script di profilo;attività reciprocamente esclusive
+description: Scopri come utilizzare gli attributi del profilo per impostare i test in Adobe [!DNL Target] che confrontano più attività ma non consentono la partecipazione degli stessi visitatori a ciascuna attività.
 title: Posso utilizzare gli script di profilo per testare attività reciprocamente esclusive?
 feature: Audiences
 exl-id: b0b23887-3339-411e-9f5c-64f9d1ba778c
@@ -13,16 +13,16 @@ ht-degree: 74%
 
 # Utilizzare gli script di profilo per testare attività reciprocamente esclusive
 
-Puoi utilizzare gli attributi di profilo in [!DNL Adobe Target] per impostare test che confrontino due o più attività ma non consentano agli stessi visitatori di partecipare a ogni attività.
+È possibile utilizzare gli attributi del profilo in [!DNL Adobe Target] per impostare test che confrontino due o più attività senza consentire la partecipazione degli stessi visitatori a ciascuna attività.
 
 La verifica delle attività reciprocamente esclusive impedisce al visitatore di un’attività di influenzare i risultati del test per le altre attività. Quando un visitatore partecipa a più attività, può essere difficile determinare se l’incremento positivo o negativo deriva dall’esperienza del visitatore con una sola attività o se le interazioni tra più attività ne hanno influenzato i risultati.
 
-Ad esempio, puoi testare due aree del tuo sistema di e-commerce. Potrebbe essere utile provare a rendere rosso il pulsante &quot;Aggiungi al carrello&quot; invece che blu. Oppure, potresti voler testare un nuovo processo di pagamento che prevede solo due passaggi, invece degli attuali cinque passaggi. Se entrambe le attività hanno lo stesso evento di successo (un acquisto completato), può essere difficile determinare se le conversioni sono state determinate dal pulsante rosso o dal miglioramento del processo di pagamento. Separando i test in attività reciprocamente esclusive, è possibile testare ogni modifica in modo indipendente.
+Ad esempio, puoi testare due aree del tuo sistema di e-commerce. Puoi provare a rendere il pulsante &quot;Aggiungi al carrello&quot; rosso invece che blu. Oppure, potresti voler testare un nuovo processo di pagamento che prevede solo due passaggi, invece degli attuali cinque passaggi. Se entrambe le attività hanno lo stesso evento di successo (un acquisto completato), può essere difficile determinare se il pulsante rosso migliora le conversioni o se le stesse conversioni sono state aumentate a causa del miglioramento del processo di pagamento. Separando i test in attività reciprocamente esclusive, è possibile testare ogni modifica in modo indipendente.
 
 Quando utilizzi uno degli script di profilo seguenti, considera quanto segue:
 
 * Lo script di profilo deve essere eseguito prima dell’avvio dell’attività e deve rimanere invariato per tutta la durata dell’attività.
-* Questa tecnica riduce la quantità di traffico nell’attività, che potrebbe richiedere una maggiore esecuzione dell’attività. Tieni conto di questo fatto quando stimi la durata dell’attività.
+* Questa tecnica riduce la quantità di traffico nell’attività, il che potrebbe richiedere un’esecuzione più lunga. Tieni conto di questo fatto quando stimi la durata dell’attività.
 
 ## Impostazione di due attività
 
@@ -45,11 +45,11 @@ if (!user.get('twogroups')) {
 
 * `if (ran_number <= 49)` inizia una routine che determina il gruppo a cui appartiene il visitatore. Se il numero restituito è 0-49, il visitatore viene assegnato a GroupA. Se il numero è 50-100, il visitatore viene assegnato a GroupB. Il gruppo determina l’attività che verrà visualizzata dal visitatore.
 
-Dopo aver creato l’attributo di profilo, imposta la prima attività per eseguire il targeting della popolazione desiderata richiedendo il parametro del profilo utente `user.twogroups` corrisponde al valore specificato per GroupA.
+Dopo aver creato l’attributo profilo, imposta la prima attività in modo che esegua il targeting della popolazione desiderata richiedendo che il parametro del profilo utente `user.twogroups` corrisponde al valore specificato per GroupA.
 
 >[!NOTE]
 >
->Scegli una mbox all’inizio della pagina. Questo codice determina se un visitatore sperimenta l&#39;attività. Se il browser incontra subito una mbox, questa può essere utilizzata per impostare questo valore.
+>Scegli una mbox all’inizio della pagina. Questo codice determina se un visitatore riceve l’attività. Se il browser incontra subito una mbox, questa può essere utilizzata per impostare questo valore.
 
 Imposta la seconda campagna in modo che il parametro `user.twogroups` del profilo utente corrisponda al valore specificato per GroupB.
 

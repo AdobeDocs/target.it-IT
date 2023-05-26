@@ -1,6 +1,6 @@
 ---
 keywords: Experience Cloud;accedi;lingua;lingua predefinita interfaccia;lingua predefinita
-description: Scopri come accedere a [!DNL Target] da Adobe Experience Cloud, impostare la visualizzazione predefinita e modificare la lingua del [!DNL Target] Interfaccia utente e documentazione.
+description: Scopri come accedere a [!DNL Target] da Adobe Experience Cloud, impostare la visualizzazione predefinita e modificare la lingua [!DNL Target] Interfaccia utente e documentazione.
 title: Come posso accedere a  [!DNL Target]  da Adobe Experience Cloud?
 feature: Overview
 exl-id: a5ac8d33-69c3-4e21-9f0f-baab430a6b76

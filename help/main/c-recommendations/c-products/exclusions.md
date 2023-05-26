@@ -7,7 +7,7 @@ exl-id: e41487c7-6d47-4958-8e4b-616a2ad56b3c
 source-git-commit: 1383088bb2f6be0432e6f140400d8723048c8530
 workflow-type: tm+mt
 source-wordcount: '623'
-ht-degree: 43%
+ht-degree: 44%
 
 ---
 
@@ -15,19 +15,19 @@ ht-degree: 43%
 
 Creare un’esclusione in [!DNL Adobe Target Recommendations] per evitare che prodotti o contenuti vengano consigliati ai visitatori. Un’esclusione è un sottoinsieme di prodotti o contenuti che non devono essere consigliati ai visitatori.
 
-Le esclusioni sono disponibili nell’intero account. A differenza delle raccolte, in cui si specifica una raccolta specifica per ogni esperienza durante la creazione di un [!UICONTROL Recommendations] attività , le esclusioni si applicano a tutte le attività nell’account . Non è possibile assegnare un gruppo di esclusione durante la creazione dell’attività.
+Le esclusioni sono disponibili a livello dell&#39;intero account. A differenza delle raccolte, in cui si specifica una raccolta specifica per ogni esperienza durante la creazione di un [!UICONTROL Recommendations] attività, le esclusioni si applicano a tutte le attività nell’account. Non è possibile assegnare un gruppo di esclusione durante la creazione dell’attività.
 
 Alcuni esempi di utilizzo delle esclusioni includono:
 
-* Prodotti che sono stati interrotti
-* Il catalogo Autunno/Inverno è ora l&#39;unico catalogo che dovrebbe essere presente online. Qualsiasi articolo del catalogo Estate non è più disponibile per l&#39;acquisto.
-* Articoli che potrebbero essere inappropriati da consigliare sulla maggior parte delle pagine/schermi (prodotti per adulti, film NC-17, ecc.)
-* Prodotti con campi di metadati incompleti (miniatura mancante, prezzo o altri metadati importanti)
-* Prodotti che non dovrebbero mai essere raccomandati (forse esiste una SKU nel sistema per qualcosa ma non è un articolo acquistabile, o forse è una SKU falsa per il team QA simulare un acquisto senza ordinare effettivamente qualcosa, ecc,)
+* Prodotti che sono stati sospesi
+* Il catalogo Autunno/Inverno è ora l&#39;unico catalogo che dovrebbe essere presente online. Tutti gli articoli del catalogo estivo non sono più disponibili per l&#39;acquisto.
+* Articoli che potrebbero essere inappropriati da consigliare sulla maggior parte delle pagine/schermate (prodotti per adulti, film NC-17, ecc.)
+* Prodotti con campi di metadati incompleti (miniatura, prezzo o altri metadati importanti mancanti)
+* Prodotti che non dovrebbero mai essere consigliati (forse nel sistema esiste una SKU per qualcosa, ma non è un articolo acquistabile, o forse è una SKU falsa per il team di QA simulare un acquisto senza effettivamente ordinare qualcosa, ecc.)
 
 >[!IMPORTANT]
 >
->Le regole di esclusione vengono applicate globalmente a tutti gli ambienti.
+>Le regole di esclusione vengono applicate a livello globale a tutti gli ambienti.
 >
 >Le regole di esclusione statica e dinamica sono funzioni molto efficaci che possono esserti utili nelle iniziative di marketing. Per informazioni dettagliate, esempi e scenari di utilizzo, consulta [Utilizzare regole di inclusione dinamiche e statiche](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#concept_4CB5C0FA705D4E449BD0B37B3D987F9F).
 
@@ -35,9 +35,9 @@ Alcuni esempi di utilizzo delle esclusioni includono:
 
 1. Fai clic su **[!UICONTROL Consigli]** > **[!UICONTROL Esclusioni]** per visualizzare l&#39;elenco delle esclusioni esistenti.
 
-   ![immagine esclusions_list](assets/exclusions_list.png)
+   ![immagine elenco_esclusioni](assets/exclusions_list.png)
 
-   Il “Numero di elementi” segnalato per ogni esclusione nella visualizzazione elenco [!UICONTROL Esclusioni] è il numero di prodotti che corrispondono alle regole per tale esclusione all’interno del [gruppo di host](/help/main/administrating-target/hosts.md) Consigli (ambiente) predefinito configurato. Consulta [Impostazioni](https://experienceleague.corp.adobe.com/docs/target-dev/developer/recommendations.html) per modificare il gruppo host predefinito.{target=_blank}
+   Il “Numero di elementi” segnalato per ogni esclusione nella visualizzazione elenco [!UICONTROL Esclusioni] è il numero di prodotti che corrispondono alle regole per tale esclusione all’interno del [gruppo di host](/help/main/administrating-target/hosts.md) Consigli (ambiente) predefinito configurato. Consulta [Impostazioni](https://experienceleague.corp.adobe.com/docs/target-dev/developer/recommendations.html?lang=it) per modificare il gruppo host predefinito.{target=_blank}
 
 1. Fai clic su **[!UICONTROL Crea esclusione]**.
 
@@ -55,7 +55,7 @@ Alcuni esempi di utilizzo delle esclusioni includono:
 
 ## Creare un’esclusione utilizzando Ricerca avanzata
 
-Puoi anche creare esclusioni utilizzando [!UICONTROL Ricerca avanzata] sulla [Ricerca nel catalogo](/help/main/c-recommendations/c-products/catalog-search.md#save-as) page ( [!UICONTROL Recommendations] > [!UICONTROL Ricerca nel catalogo] > [!UICONTROL Ricerca avanzata]).
+Puoi anche creare esclusioni utilizzando [!UICONTROL Ricerca avanzata] il [Ricerca nel catalogo](/help/main/c-recommendations/c-products/catalog-search.md#save-as) page ( [!UICONTROL Recommendations] > [!UICONTROL Ricerca nel catalogo] > [!UICONTROL Ricerca avanzata]).
 
 ![Finestra di dialogo Salva con nome](/help/main/c-recommendations/c-products/assets/save-as.png)
 
@@ -63,19 +63,19 @@ Dopo aver creato una ricerca utilizzando “id > contiene”, ad esempio, è pos
 
 >[!IMPORTANT]
 >
->La [!UICONTROL Ricerca avanzata] la funzionalità non distingue tra maiuscole e minuscole; tuttavia, i prodotti restituiti al momento della consegna si basano sulla ricerca con distinzione tra maiuscole e minuscole. Questa mancata corrispondenza potrebbe creare confusione. Assicurati di considerare la distinzione tra maiuscole e minuscole quando crei esclusioni in base ai risultati utilizzando la funzionalità Ricerca avanzata. Ad esempio, se esegui una ricerca per “Vacanza”, i risultati della ricerca iniziale contengono “Vacanza” e “vacanza”. Se poi crei un’esclusione con l’intento di escludere i prodotti contenenti “vacanza”, verranno esclusi solo i prodotti contenenti “vacanza”. ma non quelli contenenti “Vacanza”.
+>Il [!UICONTROL Ricerca avanzata] La funzionalità non distingue tra maiuscole e minuscole, tuttavia, i prodotti restituiti al momento della consegna si basano sulla ricerca con distinzione tra maiuscole e minuscole. Questa mancata corrispondenza potrebbe creare confusione. Assicurati di considerare la distinzione tra maiuscole e minuscole quando crei esclusioni in base ai risultati utilizzando la funzionalità Ricerca avanzata. Ad esempio, se esegui una ricerca per “Vacanza”, i risultati della ricerca iniziale contengono “Vacanza” e “vacanza”. Se poi crei un’esclusione con l’intento di escludere i prodotti contenenti “vacanza”, verranno esclusi solo i prodotti contenenti “vacanza”. ma non quelli contenenti “Vacanza”.
 
 ## Modificare, copiare o eliminare un’esclusione
 
-Passa il puntatore del mouse sull’esclusione desiderata nell’elenco, quindi fai clic sull’icona appropriata: modificare, copiare o eliminare elementi.
+Passa il cursore del mouse sull’esclusione desiderata nell’elenco, quindi fai clic sull’icona appropriata: modifica, copia o elimina.
 
 ![Icone al passaggio del mouse per un’esclusione](/help/main/c-recommendations/c-products/assets/hover-exclusions.png)
 
-È possibile copiare un’esclusione esistente per creare un’esclusione duplicata da modificare. Questo ti consente di creare un’esclusione simile con meno sforzo.
+Puoi copiare un’esclusione esistente per creare un’esclusione duplicata che puoi quindi modificare. Questo consente di creare un’esclusione simile con meno sforzo.
 
-Tieni presente che le esclusioni sono disponibili nell’intero account. Considera questo aspetto prima di eliminare un’esclusione. Le esclusioni eliminate non possono essere recuperate.
+Tieni presente che le esclusioni sono disponibili in tutto l’account. Prima di eliminare un’esclusione, tieni presente quanto segue. Non è possibile recuperare le esclusioni eliminate.
 
-## Video di formazione: Creare raccolte ed esclusioni in Recommendations (7:05) ![Badge tutorial](/help/main/assets/tutorial.png)
+## Video di formazione: Creare raccolte ed esclusioni in Recommendations (7:05) ![Icona esercitazione](/help/main/assets/tutorial.png)
 
 Questo video contiene le seguenti informazioni:
 

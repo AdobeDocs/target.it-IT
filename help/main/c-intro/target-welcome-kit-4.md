@@ -13,7 +13,7 @@ ht-degree: 73%
 
 # Capitolo 4: Suggerimenti per l’utilizzo di Target
 
-Basato sul nostro lavoro con molti [!DNL Target] utenti, abbiamo osservato come puoi ottenere più valore dal tuo [!DNL Target] soluzione. Ne abbiamo riassunto i tanti suggerimenti che abbiamo incluso in questo capitolo. Anche se potresti non essere pronto a utilizzare tutte queste idee immediatamente, attendi a questo elenco. Maggiore è l&#39;esperienza con la soluzione e maggiore è la maturazione del programma, maggiore è la possibilità di vedere come questi suggerimenti possono aiutarti a ottenere di più con [!DNL Target].
+In base al nostro lavoro con molti [!DNL Target] utenti, abbiamo osservato come è possibile ottenere più valore dal tuo [!DNL Target] soluzione. Questi sono i numerosi suggerimenti che abbiamo incluso in questo capitolo. Anche se potresti non essere pronto a utilizzare tutte queste idee immediatamente, attendi a questo elenco. Più esperienza acquisisci con la soluzione e più il programma matura, più vedrai come questi suggerimenti possono aiutare a ottenere di più con [!DNL Target].
 
 ## Suggerimento 1: approfondisci la personalizzazione incrementando il profilo del visitatore con dati aggiuntivi.
 
@@ -25,19 +25,19 @@ Per istruzioni dettagliate, consulta [Attributi personalizzati](https://experien
 
 **Buono a sapersi**: poiché [!DNL Target] è una piattaforma aperta e agnostica che funziona bene con tecnologie diverse, puoi aggiungere dati di gestione delle relazioni con i clienti o dati acquistati in modi diversi. Ciò significa che puoi scegliere un metodo che funzioni al meglio per la tua organizzazione.
 
-Per ulteriori informazioni, consulta [Metodi per immettere i dati in Target](https://experienceleague.corp.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html).{target=_blank}
+Per ulteriori informazioni, consulta [Metodi per immettere i dati in Target](https://experienceleague.corp.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html?lang=it).{target=_blank}
 
 ## Suggerimento 2: personalizza in modo più avanzato, combinando i tipi di pubblico di [!DNL Target] con altri tipi di pubblico di Adobe Experience Cloud.
 
-La fusione dei tipi di pubblico che vivono in diverse soluzioni [!DNL Adobe Experience Cloud] può offrirti una comprensione molto più ampia dei tuoi clienti e la possibilità di personalizzare in modo più approfondito. Ad esempio, anche se [!DNL Target] fornisce dati sul pubblico in tempo reale, [!DNL Adobe Analytics] fornisce dati sullo storico del pubblico. Combinare questi due elementi può aiutarti a identificare quando il comportamento di un cliente è coerente e quando potrebbe esserci l&#39;opportunità di agire su un nuovo comportamento. Fai clic sul menu a discesa accanto a &quot;Tutti i visitatori&quot; durante la creazione di un’attività. Quindi, seleziona le caselle di un massimo di venti tipi di pubblico, fai clic su &quot;Combina più tipi di pubblico&quot; e fai clic su &quot;Salva&quot;.
+La fusione dei tipi di pubblico che vivono in diverse soluzioni [!DNL Adobe Experience Cloud] può offrirti una comprensione molto più ampia dei tuoi clienti e la possibilità di personalizzare in modo più approfondito. Ad esempio, anche se [!DNL Target] fornisce dati sul pubblico in tempo reale, [!DNL Adobe Analytics] fornisce dati sullo storico del pubblico. Combinare questi due elementi può aiutarti a identificare quando il comportamento di un cliente è coerente e quando potrebbe esserci l’opportunità di agire su un nuovo comportamento. Fai clic sul menu a discesa accanto a &quot;Tutti i visitatori&quot; durante la creazione di un’attività. Quindi, seleziona le caselle di massimo venti tipi di pubblico, fai clic su &quot;Combina più tipi di pubblico&quot; e poi su &quot;Salva&quot;.
 
 Per istruzioni dettagliate, consulta [Combinazione di più tipi di pubblico](/help/main/c-target/combining-multiple-audiences.md).
 
-**Buono a sapersi**: [!DNL Adobe Audience Manager] i tipi di pubblico sono disponibili in [!DNL Target] automaticamente. Ma la condivisione del pubblico [!DNL Adobe Analytics] richiede una configurazione manuale. È sufficiente selezionare la casella etichettata &quot;Make this an Experience Cloud audience&quot; (Crea questo pubblico ) durante il processo di creazione del pubblico in [!DNL Analytics]. Quindi da [!DNL Target], fai clic su &quot;Importa pubblico di Experience Cloud&quot;.
+**Buono a sapersi**: [!DNL Adobe Audience Manager] i tipi di pubblico sono disponibili in [!DNL Target] automaticamente. Ma la condivisione del pubblico [!DNL Adobe Analytics] richiede una configurazione manuale. È sufficiente selezionare la casella con l’etichetta &quot;Rendi questo un pubblico Experience Cloud&quot; durante il processo di creazione del pubblico in [!DNL Analytics]. Quindi da [!DNL Target], fai clic su &quot;Importa tipi di pubblico di Experience Cloud&quot;.
 
 ## Suggerimento 3: esporta dati da [!DNL Target] da utilizzare con strumenti di terze parti.
 
-Con i token di risposta, gli amministratori possono estrarre facilmente i dati da [!DNL Target] e in strumenti di terze parti. Questa funzione può essere utile quando desideri aggiungere i dati ai dati raccolti in uno strumento di sondaggio. Ad esempio, se un sondaggio mostra un campione di una popolazione con un punteggio &quot;9&quot; e un’altra con un punteggio di esperienza pari a &quot;4&quot;, puoi utilizzare i tuoi dati per vedere chi ha visto l’esperienza A e chi ha visto l’esperienza B. Puoi anche utilizzare i token di risposta per esportare [!DNL Target] dati nel data warehouse interno. Fai clic su &quot;Amministrazione&quot;, quindi attiva il pulsante accanto al Token di risposta desiderato. Quindi, crea un’attività. I dati sono quindi pronti per essere trasferiti al fornitore di terze parti. Puoi verificare che [!DNL Target] stia esportando i dati utilizzando gli strumenti di debug.
+Con i token di risposta, gli amministratori possono estrarre facilmente i dati da [!DNL Target] e in strumenti di terze parti. Questa funzione può essere utile quando desideri aggiungere i dati ai dati raccolti in uno strumento di sondaggio. Ad esempio, se un sondaggio mostra un campione di una popolazione con un punteggio di esperienza pari a &quot;9&quot; e un’altra con un punteggio di esperienza pari a &quot;4&quot;, puoi utilizzare i tuoi dati per vedere chi ha visto l’esperienza A e chi ha visto l’esperienza B. Puoi anche utilizzare i token di risposta per esportare [!DNL Target] dati al data warehouse interno. Fai clic su &quot;Amministrazione&quot;, quindi attiva il pulsante accanto al token di risposta desiderato. Quindi, crea un’attività. I dati sono quindi pronti per essere trasferiti al fornitore di terze parti. Puoi verificare che [!DNL Target] stia esportando i dati utilizzando gli strumenti di debug.
 
 Per istruzioni dettagliate, consulta [Token di risposta](/help/main/administrating-target/response-tokens.md).
 
@@ -63,7 +63,7 @@ Semplifica l’utilizzo dei dati dell’organizzazione mantenendo al contempo la
 
 Per ulteriori informazioni, consulta [Autorizzazioni per gli utenti aziendali](/help/main/administrating-target/c-user-management/property-channel/property-channel.md).
 
-**Suggerimento utile**: Quando aggiungi degli utenti, se il nome di un membro del team non è stato aggiunto in precedenza all’organizzazione, ad esempio nel caso di un dipendente di un’agenzia di terze parti, l’immissione del proprio indirizzo e-mail e della relativa password attiverà un invito e-mail a partecipare all’area di lavoro di un team.
+**Suggerimento utile**: quando aggiungi degli utenti, se il nome di un membro del team non è stato aggiunto in precedenza all’organizzazione, ad esempio nel caso di un dipendente di un’agenzia di terze parti, l’immissione del proprio indirizzo e-mail e della relativa password attiverà un invito e-mail a partecipare all’area di lavoro di un team.
 
 Utilizzare Target Standard? Puoi comunque [assegnare tre livelli di accesso](/help/main/administrating-target/c-user-management/c-user-management/user-management.md) agli utenti con ruoli di sola lettura, editor e approvatore!
 
@@ -73,7 +73,7 @@ Scopri le prestazioni di un’offerta, ad esempio la spedizione gratuita, durant
 
 Per istruzioni dettagliate, consulta [Attività multipagina](/help/main/c-experiences/c-visual-experience-composer/multipage-activity.md).
 
-**Suggerimento utile**: La modifica dell’URL dopo aver specificato un intervallo di pagine reimposterà l’esperienza. Ciò significa che le varianti specificate non verranno più visualizzate. Se devi modificare l’URL, ricorda di ridefinire l’esperienza.
+**Suggerimento utile**: la modifica dell’URL dopo aver specificato un intervallo di pagine reimposterà l’esperienza. Ciò significa che le varianti specificate non verranno più visualizzate. Se devi modificare l’URL, ricorda di ridefinire l’esperienza.
 
 ## Suggerimento 7: sottoponi a test un’offerta con tipi di pubblico diversi per scoprire se i tipi di pubblico hanno preferenze diverse.
 
@@ -89,7 +89,7 @@ Per istruzioni dettagliate, consulta [Includere la stessa esperienza su pagine s
 
 ## Suggerimento 9: riduci il disordine nella libreria tipi di pubblico creando tipi di pubblico occasionali.
 
-Se esegui nuovamente il targeting di un segmento per il quale sai che non verrà eseguito nuovamente il targeting, ad esempio, per i clienti interessati da un evento meteo imprevisto, la creazione di un pubblico per un utilizzo una tantum può aiutarti a svolgere il lavoro senza aggiungere confusione alla Libreria tipi di pubblico. In questo modo è più facile trovare tipi di pubblico da utilizzare più volte.
+Se esegui il targeting di un segmento per il quale sai che non verrà eseguito nuovamente il targeting, ad esempio, per i clienti interessati da un evento meteo imprevisto, la creazione di un pubblico per un utilizzo una tantum può aiutarti a svolgere il lavoro senza aggiungere confusione alla Libreria tipi di pubblico. In questo modo è più facile trovare tipi di pubblico da utilizzare più volte.
 
 Per istruzioni dettagliate, consulta [Creare un pubblico per sola attività](/help/main/c-target/creating-activity-only-audience.md).
 
@@ -109,11 +109,11 @@ Molti esperti di marketing lanciano programmi di ottimizzazione per la segmentaz
 * Qual è il tasso di conversione per la pagina?
 * Per quanto tempo si prevede che sarà necessario eseguire il test prima di poterlo chiamare completo?
 
-**Suggerimento utile**: Utilizza la [!DNL Adobe Target] [Calcolatore dimensioni campione](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6) per determinare le dimensioni del campione necessarie per il successo del test.
+**Consiglio**: utilizza [!DNL Adobe Target] [Calcolatore dimensioni campione](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6) per determinare le dimensioni del campione necessarie per il successo del test.
 
 ## Suggerimento 12: progetta test più semplici per assicurarti di poterli creare e implementare.
 
-Dopo aver considerato tutti gli aspetti su come progettare un test, un piano può diventare molto complesso. In base a dove si trova la tua azienda con i test e alla capacità del gruppo di progettare, programmare, eseguire e analizzare i risultati, determina se il test sembra troppo ambizioso. In caso affermativo, riducine la portata e la complessità. Meglio iniziare in piccolo che non eseguire affatto il test. Non puoi offrire un incremento di impatto se non avvii mai il test. È importante bilanciare le aspirazioni del team con le realtà delle tue risorse e capacità.
+Dopo aver considerato tutti gli aspetti su come progettare un test, un piano può diventare molto complesso. In base a dove si trova la tua azienda con i test e alla capacità del tuo gruppo di progettare, codificare, eseguire e analizzare i risultati, verifica se il test sembra troppo ambizioso. In caso affermativo, riducine la portata e la complessità. Meglio iniziare in piccolo che non eseguire affatto il test. Non puoi offrire un incremento di impatto se non avvii mai il test. È importante bilanciare le aspirazioni del team con le realtà delle risorse e delle capacità.
 
 ## Suggerimento 13: suddividi i test complessi in attività di test più piccole per renderli raggiungibili.
 
@@ -129,29 +129,29 @@ Il test eseguito vicino alla pagina in cui i visitatori fanno clic su Acquisto c
 
 ## Suggerimento 15: aggiorna costantemente i test per apportare miglioramenti iterativi.
 
-Se la tua ipotesi non si è rivelata vera, pensa a come migliorare il tuo test. Ricorda che anche se nessuna delle esperienze testate ha avuto risultati migliori, il tuo esperimento non è stato una perdita di tempo. Un test di successo non implica sempre un aumento dei ricavi o delle conversioni. Se il test ha realmente sostenuto la vostra ipotesi, allora siete sulla strada per sviluppare una teoria generale. Ma anche quando avete un chiaro risultato di vittoria, non fermatevi lì. Troppo spesso, gli esperti di marketing commettono l’errore di testare una volta e poi di fare il punto su tali risultati senza capire realmente cosa ha portato al successo. Piuttosto, pianificare l’iterazione di quei risultati per capire perché il favorito era in testa. Questo ti porterà a informazioni più approfondite che puoi utilizzare nelle campagne future.
+Se la tua ipotesi non si è rivelata vera, pensa a come migliorare il tuo test. Ricorda che anche se nessuna delle esperienze testate ha avuto risultati migliori, l’esperimento non è stato una perdita di tempo. Un test di successo non significa sempre un aumento dei ricavi o delle conversioni. Se il test ha effettivamente supportato la tua ipotesi, allora sei sulla strada per sviluppare una teoria generale. Ma anche quando hai un chiaro risultato di vittoria, non fermarti lì. Troppo spesso, gli esperti di marketing commettono l’errore di testare una volta e poi di fare il punto su tali risultati senza capire realmente cosa ha portato al successo. Piuttosto, pianificare l’iterazione di quei risultati per capire perché il favorito era in testa. Questo ti porterà a informazioni più approfondite che puoi utilizzare nelle campagne future.
 
 ## Suggerimento 16: confronta test e attività di personalizzazione per idee per migliorare il targeting.
 
-Confrontare le prestazioni di conversione di diversi tipi di pubblico all&#39;interno di diversi test in luoghi diversi può aiutare a focalizzare l&#39;attenzione e a perfezionare la strategia di ottimizzazione di un&#39;azienda. Utilizza i confronti tra test per identificare quali tipi di pubblico sono più importanti da sottoporre a test, quali dovrebbero ricevere esperienze mirate e quali tipi di esperienze sono più propensi a suscitare una risposta.
+Confrontare le prestazioni di conversione di diversi tipi di pubblico all’interno di diversi test in posizioni diverse può aiutare a focalizzare l’attenzione e a perfezionare la strategia di ottimizzazione di un’azienda. Utilizza i confronti tra test per identificare quali tipi di pubblico sono più importanti da sottoporre a test, quali dovrebbero ricevere esperienze mirate e quali tipi di esperienze sono più propensi a suscitare una risposta.
 
 Ad esempio, un cliente di servizi finanziari ha condotto una campagna promozionale per una carta di credito che coinvolgeva incentivi per eventi sportivi professionali. Mediante test multivariati fattoriali parziali delle pagine di destinazione, il cliente è stato in grado di bilanciare in modo ottimale la messaggistica sui benefici della carta di credito con incentivi sportivi per indirizzare tipi di pubblico distinti dalla sua base di clienti. Questo approccio ha permesso all’azienda di sfruttare e massimizzare la conversione durante una finestra sensibile al tempo che circonda un importante evento sportivo.
 
 ## Suggerimento 17: affinché i test siano utili, avviali solo se sai di poter agire sui dati.
 
-Un test è inutile se non sei chiaro su come agirai sui dati. Ciò include la conoscenza della metrica di successo chiave, ciò che deve accadere per spingere un vincitore, come seguirai i risultati dei test e cosa farai con le informazioni sul pubblico. Per un test rapido e di successo, è fondamentale che ogni gruppo coinvolto nel test (sviluppatori, creativi, specialisti di test e altri) sia consapevole del suo ruolo prima del lancio del test.
+Un test è inutile se non sai come agire sui dati. Ciò include la conoscenza della metrica di successo chiave, ciò che deve accadere per spingere un vincitore, come seguirai i risultati dei test e cosa farai con le informazioni sul pubblico. Per un test rapido e di successo, è fondamentale che ogni gruppo coinvolto nel test (sviluppatori, creativi, specialisti di test e altri) sia consapevole del suo ruolo prima del lancio del test.
 
 ## Suggerimento 18: prima di lanciare un test, assicurati che l’azienda supporti la spinta del vincitore.
 
-Le organizzazioni di ottimizzazione di successo credono nel concetto di test e comprendono che le loro opinioni professionali su quale esperienza vincerà il test non sempre si dimostrano vere. Determinano il vincitore in base a una solida base di dati, e sono entusiasti e disposti a spingere in diretta l&#39;esperienza vincente dopo i risultati in, anche se non è in linea con le loro aspettative o sembra controintuitivo.
+Le organizzazioni di ottimizzazione di successo credono nel concetto di test e comprendono che le loro opinioni professionali su quale esperienza vincerà il test non sempre si dimostrano vere. Determinano il vincitore in base a una solida base di dati e sono desiderosi e disposti a trasmettere in diretta l’esperienza vincente dopo che i risultati sono stati raggiunti, anche se non è in linea con le loro aspettative o sembra illogico.
 
-Ad esempio, un cliente dei servizi sanitari di Adobe ha recentemente dimostrato il valore dei test mostrando come un banner eroe che il team aveva considerato uno slam dunk ha avuto un impatto negativo sulla conversione. Se la tua organizzazione non ha ancora adottato completamente i test, è meglio condurre prima test di ambito più semplici e più piccoli in modo che le modifiche dai risultati dei test possano essere apportate in modo incrementale.
+Ad esempio, un cliente dei servizi sanitari di Adobe ha recentemente dimostrato il valore dei test mostrando come un banner eroe che il team aveva considerato uno slam dunk ha avuto un impatto negativo sulla conversione. Se la tua organizzazione non ha ancora adottato completamente i test, è consigliabile eseguire prima test di ambito più semplici e più piccoli in modo che le modifiche dai risultati dei test possano essere apportate in modo incrementale.
 
 ## Suggerimento 19: comunica a tutti che hai avviato un test per evitare problemi quando il sito cambia.
 
-Uno dei vantaggi della configurazione delle attività per l’utilizzo dei parametri di controllo qualità è la possibilità di condividere tali collegamenti con tutti gli utenti del team. Fai in modo che più persone siano consapevoli dell’attività e assicurati che il sito non funzioni correttamente quando raggiungono una variante di test.
+Uno dei vantaggi della configurazione delle attività per l’utilizzo dei parametri di controllo qualità è la possibilità di condividere tali collegamenti con tutti gli utenti del team. Fai in modo che più persone siano consapevoli dell’attività e assicurati che non credano che il sito non funzioni correttamente quando raggiungono una variante di test.
 
-Dopo aver completato i test, comunicare i lanci delle campagne, i risultati dei test e in particolare le lezioni apprese ti aiuta a sensibilizzare l’utente sui risultati dei test e a renderli più interessati. Condividere i risultati con tutti nell&#39;organizzazione evita anche di ripetere un&#39;ipotesi, educa tutti su ciò che funziona e li aiuta fondamentalmente a sfidare le proprie idee su ciò che funziona in base a ciò che hai trovato. È consigliabile preparare un modello da utilizzare ogni volta per condividere i risultati e gli insegnamenti chiave.
+Dopo aver completato i test, comunicare i lanci delle campagne, i risultati dei test e in particolare le lezioni apprese ti aiuta a sensibilizzare l’utente sui risultati dei test e a renderli più interessati. Condividere i risultati con tutti nell’organizzazione evita anche di ripetere un’ipotesi, educa tutti su ciò che funziona e li aiuta fondamentalmente a sfidare le proprie idee su ciò che funziona in base a ciò che hai trovato. È consigliabile preparare un modello da utilizzare ogni volta per condividere i risultati e gli insegnamenti chiave.
 Quindi prendi in considerazione la creazione di un libro condivisibile o un deck Microsoft PowerPoint che acquisisce cumulativamente questi insegnamenti.
 
 ## Suggerimento 20: utilizza la funzionalità mobile per creare attività mobili più innovative.
@@ -164,11 +164,11 @@ Gli utenti di dispositivi mobili hanno un intento elevato. La maggior parte di l
 
 ## Suggerimento 22: raggiungi meglio il pubblico di dispositivi mobili utilizzando il targeting in base all’ora del giorno per le campagne mobile SEM (Search Engine Marketing).
 
-Scopri come e quando raggiungere il tuo pubblico e come gestire meglio la tua spesa pubblicitaria giornaliera &quot;suddividendo giorno per giorno&quot; le tue campagne mobili in segmenti diversi durante il giorno.
+Scopri come e quando raggiungere il pubblico e come gestire meglio la spesa pubblicitaria giornaliera suddividendo giorno per giorno le campagne mobile in segmenti diversi della giornata.
 
 Molti addetti al marketing commettono l’errore di non riuscire ad assegnare abbastanza budget per acquisire tale share of voice nelle ore in cui particolari dispositivi sono più utilizzati, lasciando così andare molti clienti potenziali e ricavi.
 
-Ad esempio, l’utilizzo del tablet ha solitamente picchi nelle ore serali e molti utenti navigano mentre guardano la televisione. Al contrario, gli utenti di smartphone solitamente accedono al contenuto in movimento. I tempi di conversione dei picchi variano anche a seconda del settore, quindi è importante capire quando i clienti unici hanno più probabilità di agire.
+Ad esempio, l’utilizzo del tablet ha solitamente picchi nelle ore serali e molti utenti navigano mentre guardano la televisione. Al contrario, gli utenti di smartphone solitamente accedono al contenuto in movimento. I tempi di conversione dei picchi variano anche a seconda del settore, pertanto è importante capire quando è più probabile che i clienti univoci agiscano.
 
 ## Nota bene
 

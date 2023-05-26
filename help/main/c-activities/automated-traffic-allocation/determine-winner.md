@@ -1,7 +1,7 @@
 ---
 keywords: allocazione automatica del traffico;targeting;vincitore;garanzia statistica;affidabilità;determinare vincitore;incremento;affidabilità;impostazione predefinita;esperienza predefinita;allocazione automatica;allocazione automatica
-description: Scopri come interpretare i risultati di un’attività di allocazione automatica A/B in Adobe [!DNL Target] esaminando indicatori importanti, compresi incremento e fiducia.
-title: Come Interpreto I Rapporti Di Allocazione Automatica?
+description: Scopri come interpretare i risultati di un’attività di allocazione automatica A/B in Adobe [!DNL Target] esaminando indicatori importanti, compresi l'incremento e l'affidabilità.
+title: Come si interpretano i rapporti di allocazione automatica?
 feature: Auto-Allocate
 exl-id: 4ed00eee-8939-4958-9be6-b45a8c08afbc
 source-git-commit: 4564e0b95bbd19f20c75e5e83d452d12a5403083
@@ -13,13 +13,13 @@ ht-degree: 44%
 
 # Interpretare i rapporti di allocazione automatica
 
-Interpretare i risultati di un [!UICONTROL Allocazione automatica] Attività A/B in [!UICONTROL Adobe Target] esaminando indicatori importanti, compresi incremento e fiducia.
+Interpretare i risultati di un [!UICONTROL Allocazione automatica] Attività A/B in [!UICONTROL Adobe Target] esaminando indicatori importanti, compresi l&#39;incremento e l&#39;affidabilità.
 
 Molti addetti al marketing commettono l’errore di dichiarare un’esperienza vincente prima che i risultati indichino chiaramente quale sia l’esperienza migliore. Ora abbiamo reso più facile determinare il vincitore.
 
 >[!NOTE]
 >
->Per informazioni generali sulla dichiarazione di un vincitore, vedi [Dieci insidie frequenti per i test A/B e come evitarle](/help/main/c-activities/t-test-ab/common-ab-testing-pitfalls.md).
+>Per informazioni generali sulla dichiarazione di un vincitore, consulta [Dieci insidie frequenti per i test A/B e come evitarle](/help/main/c-activities/t-test-ab/common-ab-testing-pitfalls.md).
 
 ## Identificare l’esperienza vincente {#section_24007470CF5B4D30A06610CE8DD23CE3}
 
@@ -29,7 +29,7 @@ Quando utilizzi la funzione di [!UICONTROL Allocazione automatica], [!DNL Target
 
 Quando viene dichiarata l&#39;esperienza migliore, in [!DNL Target] appare la scritta “Vincitore: esperienza X”.
 
-![immagine vincente](assets/winner.png)
+![immagine vincitore](assets/winner.png)
 
 >[!NOTE]
 >
@@ -47,21 +47,21 @@ I test A/B normali calcolano l’affidabilità in base ai valori p. L&#39;Alloca
 
 >[!IMPORTANT]
 >
->Target mostra un vincitore dopo un numero minimo predefinito di conversioni; tuttavia, la decisione finale di scegliere il vincitore dovrebbe sempre essere sui risultati del [!DNL Adobe Target] Calcolatore dimensioni campione. [!DNL Target] non considera i tassi di conversione di base di un sito e altri aspetti importanti inseriti nel calcolatore per determinare la durata dell&#39;attività. Di conseguenza, Target potrebbe visualizzare un vincitore prima del previsto sulla base di un numero minimo di conversioni. Per ulteriori informazioni, consulta [Calcolatore dimensioni campione](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6).
+>Target mostra un vincitore dopo un numero minimo predefinito di conversioni; tuttavia, la decisione finale di scegliere il vincitore dovrebbe sempre basarsi sui risultati del [!DNL Adobe Target] Calcolatore dimensioni campione. [!DNL Target] non considera i tassi di conversione di base di un sito e altri aspetti importanti che vengono inseriti nel calcolatore per determinare la durata dell’attività. Di conseguenza, Target potrebbe presentare un vincitore prima di quanto giustificato sulla base di un numero minimo di conversioni. Per ulteriori informazioni, consulta [Calcolatore dimensioni campione](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6).
 
-## Comprendere i rapporti Incremento e Affidabilità nelle attività di Allocazione automatica {#lift-confidence}
+## Rapporti di incremento e affidabilità nelle attività di allocazione automatica {#lift-confidence}
 
-Nelle attività di allocazione automatica, la prima esperienza (per impostazione predefinita denominata Esperienza A) viene sempre definita come esperienza di controllo nella scheda Rapporti . Questa esperienza non viene trattata come un vero controllo statistico nella modellazione utilizzata per determinare le prestazioni delle esperienze, ma viene trattata come un riferimento o una linea di base per alcune figure nel rapporto.
+Nelle attività di allocazione automatica, la prima esperienza (per impostazione predefinita denominata Esperienza A) è sempre definita come esperienza di &quot;controllo&quot; nella scheda Rapporti. Questa esperienza non viene trattata come un vero e proprio controllo statistico nella modellazione utilizzata per determinare le prestazioni delle esperienze, ma viene trattata come un riferimento o una base per alcune figure nel rapporto.
 
-Il valore numerico &quot;Incremento&quot; e i limiti del 95% per ogni esperienza vengono sempre calcolati con riferimento all’esperienza &quot;Controllo&quot; definita. L’esperienza definita &quot;Controllo&quot; non può avere un incremento relativo a se stessa, pertanto per questa esperienza viene riportato un valore &quot;—&quot; vuoto. A differenza dei test A/B, nei test di allocazione automatica, se un’esperienza funziona in modo peggiore del controllo definito, non viene riportato un valore di incremento negativo; viene invece visualizzato &quot;—&quot;.
+Il valore numerico di &quot;Incremento&quot; e i limiti del 95% per ogni esperienza vengono sempre calcolati in riferimento all’esperienza di &quot;Controllo&quot; definita. L&#39;esperienza &quot;Controllo&quot; definita non può avere un incremento relativo a se stessa, pertanto per questa esperienza viene segnalato un valore vuoto &quot;—&quot;. A differenza dei test A/B, nei test di Allocazione automatica, se un’esperienza funziona peggio del controllo definito, non viene riportato un valore di Incremento negativo, ma viene visualizzato &quot;—&quot;.
 
-Le barre dell’intervallo di affidabilità visualizzate rappresentano l’intervallo di affidabilità del 95% intorno alla stima media del tasso di conversione di un’esperienza. Questi vengono anche codificati in base al colore dell’esperienza definita di &quot;controllo&quot;. La barra dell’esperienza &quot;Control&quot; è sempre colorata di grigio. Le parti degli intervalli di affidabilità al di sotto dell’intervallo di affidabilità dell’esperienza &quot;Control&quot; sono colorate di rosso e le parti degli intervalli di affidabilità al di sopra dell’esperienza &quot;Control&quot; sono colorate di verde.
+Le barre di intervallo di affidabilità visualizzate rappresentano l’intervallo di affidabilità del 95% intorno alla stima media del tasso di conversione di un’esperienza. Questi sono anche codificati per colore in relazione all’esperienza di &quot;controllo&quot; definita. La barra dell’esperienza &quot;Controllo&quot; è sempre di colore grigio. Le parti degli intervalli di affidabilità al di sotto dell’intervallo di affidabilità dell’esperienza &quot;Controllo&quot; sono di colore rosso, mentre le parti degli intervalli di affidabilità al di sopra dell’esperienza &quot;Controllo&quot; sono di colore verde.
 
-Un vincitore si trova quando l’intervallo di affidabilità del 95% dell’esperienza principale non si sovrappone ad altre esperienze. L’esperienza vincente viene designata con un badge a stella verde a sinistra del nome dell’esperienza e nel banner &quot;Vincitore&quot;. Quando nessuna stella è visibile, lo striscione dice &quot;Ancora nessun vincitore&quot; e un vincitore non è ancora stato trovato.
+Un vincitore si trova quando l’intervallo di affidabilità del 95% dell’esperienza principale non si sovrappone a nessun’altra esperienza. L’esperienza vincente è indicata da un contrassegno a stella verde a sinistra del nome dell’esperienza e nel banner &quot;Vincitore&quot;. Quando non è visibile alcuna stella, sullo striscione si legge &quot;Ancora nessun vincitore&quot; e non è stato ancora trovato un vincitore.
 
-Accanto all’esperienza attuale o vincente viene riportato anche un numero di &quot;Affidabilità&quot;. Questa cifra viene riportata solo fino a quando l’esperienza principale non raggiunge almeno il 60% di affidabilità. Se esattamente due esperienze sono presenti nell’esperimento di allocazione automatica, questo numero rappresenta il livello di affidabilità che l’esperienza sta ottenendo meglio rispetto all’altra esperienza. Se nell’esperimento di allocazione automatica sono presenti più di due esperienze, questo numero rappresenta il livello di affidabilità che l’esperienza sta ottenendo meglio dell’esperienza definita di controllo. Se l’esperienza &quot;Controllo&quot; è vincente, non viene segnalata alcuna figura di &quot;Affidabilità&quot;.
+Viene inoltre riportato un numero di &quot;affidabilità&quot; accanto all’esperienza attualmente leader o vincente. Questa cifra viene riportata solo fino a quando l’affidabilità dell’esperienza principale non raggiunge almeno il 60%. Se nell’esperimento di Allocazione automatica sono presenti esattamente due esperienze, questo numero rappresenta il livello di affidabilità con cui l’esperienza sta ottenendo risultati migliori rispetto all’altra esperienza. Se nell’esperimento di Allocazione automatica sono presenti più di due esperienze, questo numero rappresenta il livello di affidabilità con cui l’esperienza offre prestazioni migliori rispetto all’esperienza di &quot;controllo&quot; definita. Se l’esperienza &quot;Controllo&quot; sta vincendo, non viene segnalato alcun valore &quot;Affidabilità&quot;.
 
-## Domande frequenti  {#section_C8E068512A93458D8C006760B1C0B6A2}
+## Domande frequenti {#section_C8E068512A93458D8C006760B1C0B6A2}
 
 Considera le seguenti risposte alle domande frequenti:
 
@@ -75,14 +75,14 @@ Nella colonna [!UICONTROL Affidabilità] del rapporto per tutte le attività vie
 
    L&#39;allocazione automatica mostra la probabilità che una determinata esperienza sia un vero vincitore in tutte le esperienze dell&#39;attività. Questo significa che solo un&#39;esperienza vincente (che è più probabile che sia il vincitore), avrà un valore di affidabilità diverso da zero. Tutte le altre hanno più probabilità di essere perdenti e presentano il valore 0%.
 
-* L&#39;allocazione automatica inizia a mostrare un valore di affidabilità solo dopo che l&#39;esperienza vincente avrà raccolto il 60% di affidabilità. Questi livelli di affidabilità generalmente appaiono in circa la metà del tempo necessario per completare un normale test A/B (anche se questo non è garantito). Per determinare per quanto tempo deve essere eseguito un normale test A/B, utilizza il [!DNL Adobe Target] [Calcolatore dimensioni campione](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6): il tasso di conversione del controllo plug in &quot;Tasso di conversione di base&quot;, &quot;5%&quot; per &quot;Incremento&quot; e 95% per &quot;Affidabilità&quot;. In genere, i valori di affidabilità iniziano a comparire dopo che ogni esperienza ha accumulato almeno il 50% dei campioni richiesti per esperienza. Questo ti dà un&#39;idea di quando potrai iniziare a vedere valori di affidabilità.
+* L&#39;allocazione automatica inizia a mostrare un valore di affidabilità solo dopo che l&#39;esperienza vincente avrà raccolto il 60% di affidabilità. Questi livelli di affidabilità compaiono in genere nella metà circa del tempo necessario per il completamento di un normale test A/B (anche se questo non è garantito). Per determinare quanto tempo richiede un normale test A/B, utilizza [!DNL Adobe Target] [Calcolatore dimensioni campione](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6): inserisci il tasso di conversione del controllo in &quot;Tasso di conversione di base&quot;, &quot;5%&quot; per &quot;Incremento&quot; e 95% per &quot;Affidabilità&quot;. In genere, i valori di affidabilità iniziano a comparire dopo che ogni esperienza ha accumulato almeno il 50% dei campioni richiesti per esperienza. Questo ti dà un&#39;idea di quando potrai iniziare a vedere valori di affidabilità.
 
 * Se il rapporto presenta 0% per tutte le esperienze, è probabile che sia ancora troppo presto nel corso dell’attività.
 
 ### Sono disponibili i badge (distintivi) “No Winner”, “Winner” e “star” per le attività di [!UICONTROL Allocazione automatica] che utilizzano [!UICONTROL Analytics come origine di reporting] (A4T)?
 
-I simboli &quot;Ancora nessun vincitore&quot; e &quot;Vincitore&quot; non sono attualmente disponibili nel [!UICONTROL A4T] pannello in [!DNL Analysis Workspace]. Anche questi badge non sono disponibili se lo stesso rapporto viene visualizzato in [!DNL Target]. Un badge &quot;stella&quot; vincitore mostrato in un [!DNL Target] rapporto per un [!UICONTROL Allocazione automatica] le attività che utilizzano A4T devono essere ignorate.
+I badge &quot;Ancora nessun vincitore&quot; e &quot;Vincitore&quot; non sono attualmente disponibili nel [!UICONTROL A4T] pannello in [!DNL Analysis Workspace]. Questi badge non sono disponibili neanche se lo stesso rapporto viene visualizzato in [!DNL Target]. Un badge vincitore &quot;stella&quot; mostrato in una [!DNL Target] rapporto per un [!UICONTROL Allocazione automatica] L’attività che utilizza A4T deve essere ignorata.
 
-Per ulteriori informazioni su questa e altre limitazioni e note, consulta [Allocazione automatica](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md#aa) in *Supporto per A4T per [!UICONTROL Allocazione automatica] e [!UICONTROL Targeting automatico] attività*.
+Per ulteriori informazioni su questa e altre limitazioni e note, consulta [Allocazione automatica](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md#aa) in *Supporto A4T per [!UICONTROL Allocazione automatica] e [!UICONTROL Targeting automatico] attività*.
 
 

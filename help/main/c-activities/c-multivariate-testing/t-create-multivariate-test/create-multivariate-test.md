@@ -1,6 +1,6 @@
 ---
 keywords: MVT;test multivariato;creare test multivariato;creazione test multivariato;creare MVT;creazione MVT;come MVT;come test multivariato
-description: Scopri come utilizzare il Compositore esperienza visivo (VEC) in Adobe [!DNL Target] per creare un test multivariato (MVT) diritto su un [!DNL Target]Pagina abilitata.
+description: Scopri come utilizzare il Compositore esperienza visivo in Adobe [!DNL Target] per creare un test multivariato (MVT) direttamente su un [!DNL Target]pagina abilitata.
 title: Come si crea un test multivariato?
 feature: Multivariate Tests
 exl-id: 7712b747-543a-4e19-b689-bea36c44805c
@@ -15,7 +15,7 @@ ht-degree: 88%
 
 Il [!UICONTROL Compositore esperienza visivo] in [!DNL Adobe Target] è utile per creare i test direttamente su una pagina abilitata per e modificare parti della pagina in [!DNL Target].
 
-La [!DNL Target] l’editor rapido consente di scegliere qualsiasi posizione e di aggiungere offerte multiple.
+Il [!DNL Target] l’editor rapido consente di scegliere qualsiasi posizione e di aggiungere più offerte.
 
 Il [!UICONTROL test multivariato] richiede un rapporto di tipo “page-first”. In altre parole, il test viene eseguito su un URL specifico, con l’esperienza progettata per tale pagina.
 
@@ -92,7 +92,7 @@ Il [!UICONTROL test multivariato] richiede un rapporto di tipo “page-first”.
 
    L’illustrazione seguente indica che l’attività non dispone di traffico sufficiente.
 
-   ![immagine estimatore2](assets/estimator2.png)
+   ![immagine estimator2](assets/estimator2.png)
 
 1. Fai clic su **[!UICONTROL Successivo]** per passare alla pagina [!UICONTROL Targeting.]
 
@@ -112,7 +112,7 @@ Il [!UICONTROL test multivariato] richiede un rapporto di tipo “page-first”.
 
 1. Fai clic su **[!UICONTROL Salva e chiudi]** per creare l’attività.
 
-## Video di formazione: Creazione di test multivariati (9:25) ![Badge tutorial](/help/main/assets/tutorial.png)
+## Video di formazione: Creazione di test multivariati (09:25) ![Icona esercitazione](/help/main/assets/tutorial.png)
 
 In questo video viene illustrato come pianificare e creare un test multivariato utilizzando il flusso di lavoro guidato a tre passaggi di Target.
 

@@ -13,13 +13,13 @@ ht-degree: 92%
 
 # Compositore esperienza visivo
 
-Informazioni sull’utilizzo del [!UICONTROL Compositore esperienza visivo] (Compositore esperienza visivo) in [!DNL Adobe Target].
+Informazioni sull&#39;utilizzo di [!UICONTROL Compositore esperienza visivo] (VEC) in [!DNL Adobe Target].
 
 Il Compositore esperienza visivo è un’interfaccia utente WYSIWYG che consente di creare e testare offerte ed esperienze personalizzate nel contesto del sito. Per creare esperienze e offerte per le attività di Target puoi trascinare, scambiare e modificare il layout e il contenuto di una pagina web (o offerta) oppure di una pagina web per dispositivi mobili.
 
 Il Compositore esperienza visivo è una delle funzionalità principali di [!DNL Adobe Target]. Il Compositore esperienza visivo consente agli addetti al marketing e ai designer di creare e modificare i contenuti mediante un’interfaccia visiva che permette di operare molte scelte di progettazione senza dover intervenire direttamente sul codice. Il compositore offre anche opzioni per modificare il codice HTML e JavaScript.
 
-Su Target **[!UICONTROL Amministrazione]** > **[!UICONTROL Compositore esperienza visivo]** puoi immettere l’URL predefinito del Compositore esperienza visivo.
+Sul target **[!UICONTROL Amministrazione]** > **[!UICONTROL Compositore esperienza visivo]** , puoi immettere l’URL predefinito del Compositore esperienza visivo.
 
 ![Impostazioni predefinite dell’URL del Compositore esperienza visivo](/help/main/c-experiences/c-visual-experience-composer/assets/pref-default-url-new.png)
 
@@ -108,14 +108,14 @@ Per continuare a gestire le esperienze nell’attività corrente o per aggiunger
 
 I video seguenti contengono ulteriori informazioni sui concetti descritti in questo articolo.
 
-### Compositore esperienza visivo (1 di 2) (7:17) ![Badge tutorial](/help/main/assets/tutorial.png)
+### Compositore esperienza visivo (1 di 2) (7:17) ![Icona esercitazione](/help/main/assets/tutorial.png)
 
 * Modificare il contenuto di una pagina
 * Modificare il layout di una pagina
 
 >[!VIDEO](https://video.tv.adobe.com/v/17399)
 
-### Compositore esperienza visivo (2 di 2) (7:29) ![Badge tutorial](/help/main/assets/tutorial.png)
+### Compositore esperienza visivo (2 di 2) (7:29) ![Icona esercitazione](/help/main/assets/tutorial.png)
 
 * Rinominare e duplicare un’esperienza
 * Creare un’esperienza con reindirizzamento
@@ -126,7 +126,7 @@ I video seguenti contengono ulteriori informazioni sui concetti descritti in que
 
 >[!VIDEO](https://video.tv.adobe.com/v/17401)
 
-### Orario ufficio: Compositore esperienza visivo ![Badge tutorial](/help/main/assets/tutorial.png)
+### Office Hours: Compositore esperienza visivo ![Icona esercitazione](/help/main/assets/tutorial.png)
 
 Questo video è una registrazione di “ [Office Hours](/help/main/cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7)”, un’iniziativa condotta dal team di assistenza clienti Adobe.
 

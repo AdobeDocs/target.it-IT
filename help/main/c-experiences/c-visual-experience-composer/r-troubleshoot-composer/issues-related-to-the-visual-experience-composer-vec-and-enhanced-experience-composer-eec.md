@@ -1,6 +1,6 @@
 ---
-keywords: Targeting;compositore esperienza visivo;whitelist;white list;inserire nell'elenco Consentiti;elenco consentiti;compositore esperienza visivo avanzato;vec;risoluzione dei problemi compositore esperienza visivo;risoluzione dei problemi;eec;compositore esperienza avanzato;tls;tls 1.2
-description: Scopri come risolvere i problemi che si verificano a volte nell’Adobe [!DNL Target] Compositore esperienza visivo e Compositore esperienza avanzato in determinate condizioni.
+keywords: Inserire nell'elenco Consentiti Targeting;compositore esperienza visivo;whitelist;whitelist;compositore;elenco consentiti;compositore esperienza visivo avanzato;vec;risoluzione dei problemi compositore esperienza visivo;risoluzione dei problemi;eec;esperienza avanzata;tls;tls 1.2
+description: Scopri come risolvere i problemi che a volte si verificano nell’Adobe [!DNL Target] In determinate condizioni, il Compositore esperienza visivo e il Compositore esperienza avanzato.
 title: Come posso risolvere i problemi relativi al Compositore esperienza visivo e al Compositore esperienza avanzato?
 feature: Visual Experience Composer (VEC)
 exl-id: d829cd63-950f-4bb4-aa58-0247f85de383
@@ -13,60 +13,60 @@ ht-degree: 51%
 
 # Risoluzione dei problemi relativi al [!UICONTROL Compositore esperienza visivo] e [!UICONTROL Compositore esperienza avanzato]
 
-I problemi di visualizzazione e altri problemi si verificano a volte nel [!DNL Adobe Target] [!UICONTROL Compositore esperienza visivo] (Compositore esperienza visivo) e [!UICONTROL Compositore esperienza avanzato] (CEE) a determinate condizioni.
+Talvolta si verificano problemi di visualizzazione e altri problemi in [!DNL Adobe Target] [!UICONTROL Compositore esperienza visivo] (VEC) e [!UICONTROL Compositore esperienza avanzato] (CEE) a determinate condizioni.
 
 ## In che modo i criteri di implementazione dei cookie SameSite di Google Chrome influiscono sul Compositore esperienza visivo e sul Compositore esperienza avanzato? {#samesite}
 
-Tieni presente le modifiche che influiscono sul Compositore esperienza visivo e sul Compositore esperienza avanzato quando utilizzi le seguenti versioni di Chrome:
+Tieni presente le modifiche che interessano il Compositore esperienza visivo e il Compositore esperienza avanzato quando utilizzi le seguenti versioni di Chrome:
 
 >[!NOTE]
 >
 >La seguente modifica interessa tutti e tre gli aggiornamenti descritti di seguito:
 >
-> * Sarà *not* puoi utilizzare il Compositore esperienza visivo senza l’estensione VEC Helper installata e abilitata per le pagine dei tuoi siti protette da password. I cookie di accesso al sito sono considerati cookie di terze parti e non vengono inviati con richieste di accesso all’interno dell’editor del Compositore esperienza visivo in modalità Sfoglia. L’unica eccezione è rappresentata dal fatto che i cookie di accesso al sito dispongono già del `SameSite=None` e `Secure` attributi impostati.
+> * Will *non* essere in grado di utilizzare il Compositore esperienza visivo senza che sia installata e abilitata l’estensione VEC Helper per le pagine dei siti protette da password. I cookie di accesso al sito sono considerati cookie di terze parti e non vengono inviati con richieste di accesso all’interno dell’editor del Compositore esperienza visivo in modalità Sfoglia. L’unica eccezione si verifica quando i cookie di accesso al sito presentano già il `SameSite=None` e `Secure` attributi impostati.
 
 
-**Chrome 94 (21 settembre 2021)**: Con le imminenti modifiche pianificate per la versione di Chrome 94 (21 settembre 2021), le seguenti modifiche hanno un impatto su tutti gli utenti con le versioni del browser Chrome 94+:
+**Chrome 94 (21 settembre 2021)**: con le modifiche imminenti pianificate per la versione di Chrome 94 (21 settembre 2021), la seguente modifica influisce su tutti gli utenti con le versioni del browser Chrome 94+:
 
 * Flag della riga di comando `--disable-features=SameSiteByDefaultCookies,CookiesWithoutSameSiteMustBeSecure` verrà rimosso.
 
-**Chrome 91 (25 maggio 2021)**: Con le modifiche implementate per la versione di Chrome 91 (25 maggio 2021), le seguenti modifiche hanno un impatto su tutti gli utenti con le versioni del browser Chrome 91+:
+**Chrome 91 (25 maggio 2021)**: con le modifiche implementate per la versione di Chrome 91 (25 maggio 2021), la seguente modifica influisce su tutti gli utenti con le versioni del browser Chrome 91+:
 
-* I flag `#same-site-by-default-cookies` e `#cookies-without-same-site-must-be-secure` sono stati rimossi da `chrome://flags`. Questo comportamento ora è abilitato per impostazione predefinita.
+* I flag `#same-site-by-default-cookies` e `#cookies-without-same-site-must-be-secure` sono stati rimossi da `chrome://flags`. Questo comportamento è ora abilitato per impostazione predefinita.
 
-**Chrome 80 (agosto 2020)**: Con le modifiche implementate ad agosto 2020, tutti gli utenti con versioni del browser Chrome 80+:
+**Chrome 80 (agosto 2020)**: con le modifiche implementate ad agosto 2020, tutti gli utenti con le versioni del browser Chrome 80+:
 
-* Sarà *not* essere in grado di scaricare [!DNL Target] durante la modifica di un&#39;attività (quando queste non sono già sul sito). Questo perché la chiamata di download viene effettuata dal dominio del cliente verso un [!DNL Adobe] e viene rifiutato come non autenticato.
-* La CEE *not* funziona per tutti gli utenti perché non è in grado di impostare l’attributo SameSite per i cookie su `adobemc.com domain`. Senza questo attributo, il browser rifiuta questi cookie, causando il mancato funzionamento del Compositore esperienza avanzato.
+* Will *non* essere in grado di scaricare [!DNL Target] librerie durante la modifica di un’attività (quando non sono già presenti nel sito). Questo perché la chiamata di download viene effettuata dal dominio del cliente verso un [!DNL Adobe] e viene rifiutato in quanto non autenticato.
+* Il CEE *non* per tutti gli utenti perché non è in grado di impostare l’attributo SameSite per i cookie su `adobemc.com domain`. Senza questo attributo, il browser rifiuta questi cookie, causando il mancato funzionamento del Compositore esperienza avanzato.
 
 ### Determinare quali cookie sono bloccati
 
 Per determinare quali cookie sono bloccati a causa dei criteri di imposizione dei cookie SameSite, utilizza gli strumenti per sviluppatori in Chrome.
 
-1. Per accedere agli Strumenti per sviluppatori, mentre visualizzi il Compositore esperienza visivo in Chrome, fai clic sul pulsante **[!UICONTROL ellissi]** icona nell’angolo in alto a destra di Chrome > **[!UICONTROL Altri strumenti]** > **[!UICONTROL Strumenti per gli sviluppatori]**.
-1. Fai clic sul pulsante **[!UICONTROL Rete]** scheda > quindi cerca i cookie bloccati.
+1. Per accedere agli strumenti per sviluppatori, durante la visualizzazione del Compositore esperienza visivo in Chrome, fai clic su **[!UICONTROL puntini di sospensione]** nell’angolo in alto a destra di Chrome > **[!UICONTROL Altri strumenti]** > **[!UICONTROL Strumenti per sviluppatori]**.
+1. Fai clic su **[!UICONTROL Rete]** , quindi cerca i cookie bloccati.
 
    >[!NOTE]
    >
-   >Utilizza la **[!UICONTROL Ha bloccato i cookie]** per semplificare la ricerca dei cookie bloccati.
+   >Utilizza il **[!UICONTROL Ha bloccato i cookie]** casella di controllo per facilitare la ricerca dei cookie bloccati.
 
    La figura seguente mostra un cookie bloccato:
 
-   ![Strumenti sviluppatore > Scheda Rete che mostra un cookie bloccato](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/chrome-developer-tools.png)
+   ![Strumenti per sviluppatori > Scheda Rete che mostra un cookie bloccato](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/chrome-developer-tools.png)
 
 ### [!DNL Adobe Target] Estensione VEC Helper
 
-A partire dalla versione 0.7.1, la funzione [!DNL Adobe Target] L’estensione VEC Helper per il browser aggiunge `SameSite=None` e `Secure` attributi a tutti i cookie nelle risposte provenienti da pagine web modificate all’interno del Compositore esperienza visivo quando l’opzione &quot;Cookie&quot; è attivata nell’interfaccia utente dell’estensione:
+A partire dalla versione 0.7.1 di, [!DNL Adobe Target] L’estensione VEC Helper per il browser aggiunge `SameSite=None` e `Secure` attributi a tutti i cookie sulle risposte provenienti da pagine web modificate all’interno del Compositore esperienza visivo quando l’opzione &quot;Cookie&quot; è attivata nell’interfaccia utente dell’estensione:
 
-![Estensione Adobe Target VEC Helper Interfaccia utente dell’estensione Adobe Target VEC Helper](assets/cookies-vec-helper.png)
+![Interfaccia utente dell’estensione Adobe Target VEC Helper UIAdobe Target VEC Helper](assets/cookies-vec-helper.png)
 
 ### Alternative e soluzioni alternative
 
-Utilizza una delle seguenti opzioni per garantire che VEC e Compositore esperienza avanzato continuino a funzionare come previsto:
+Utilizza una delle seguenti opzioni per garantire che il Compositore esperienza visivo e il Compositore esperienza avanzato continuino a funzionare come previsto:
 
-* Scarica e utilizza il [Estensione VEC Helper](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak?hl=en).
-* Usa il browser Mozilla Firefox. Firefox non ha ancora applicato questo criterio.
-* Utilizza i seguenti flag per eseguire Google Chrome dalla riga di comando fino al 21 settembre 2021. Dopo il 21 settembre, le funzioni che richiedono i cookie non funzioneranno più nel Compositore esperienza visivo, come le pop di accesso o di consenso dei cookie. Se esegui l’aggiornamento a Chrome 94, devi generare manualmente i cookie con `SameSite=none` e `Secure` sui siti web.
+* Scarica e utilizza il file aggiornato [Estensione VEC Helper](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak?hl=en).
+* Utilizza il browser Mozilla Firefox. Firefox non sta ancora applicando questo criterio.
+* Utilizza i seguenti flag per eseguire Google Chrome dalla riga di comando fino al 21 settembre 2021. Dopo il 21 settembre, le funzioni che richiedono i cookie non funzioneranno più nel Compositore esperienza visivo, come ad esempio le finestre a comparsa per il consenso di accesso o dei cookie. Se esegui l’aggiornamento a Chrome 94, devi generare manualmente i cookie con `SameSite=none` e `Secure` sui tuoi siti web.
 
    ```
    --disable-features=SameSiteByDefaultCookies,CookiesWithoutSameSiteMustBeSecure
@@ -74,7 +74,7 @@ Utilizza una delle seguenti opzioni per garantire che VEC e Compositore esperien
 
 ## Does [!DNL Target] supporta gli iframe a più livelli?
 
-[!DNL Target] non supporta gli iframe a più livelli. Se il sito web carica un iframe con un iframe secondario, at.js interagisce solo con l’iframe principale. [!DNL Target]Le librerie di non interagiscono con l’iframe secondario.
+[!DNL Target] non supporta gli iframe a più livelli. Se il sito web carica un iframe contenente un iframe secondario, at.js interagisce solo con l’iframe principale. [!DNL Target]Le librerie di non interagiscono con l’iframe secondario.
 
 Come soluzione alternativa, puoi aggiungere all’esperienza una pagina con l’URL dell’iframe secondario.
 
@@ -82,7 +82,7 @@ Come soluzione alternativa, puoi aggiungere all’esperienza una pagina con l’
 
 Questa situazione può verificarsi se l’URL contiene un carattere #. Per risolvere il problema, passa alla modalità Sfoglia nel Compositore esperienza visivo, quindi ritorna alla modalità Componi. L’icona che ruota scompare e la pagina viene caricata correttamente.
 
-## Le intestazioni Content Security Policy (CSP) bloccano il [!DNL Target] nel mio sito web. (Compositore esperienza visivo e Compositore esperienza avanzato)  {#section_89A30C7A213D43BFA0822E66B482B803}
+## Le intestazioni Content Security Policy (CSP) bloccano il [!DNL Target] librerie sul mio sito web. (Compositore esperienza visivo e Compositore esperienza avanzato)  {#section_89A30C7A213D43BFA0822E66B482B803}
 
 Se le intestazioni CSP del tuo sito web bloccano le librerie di Target, quindi caricano il sito web ma ne impediscono la modifica, assicurati che le librerie di Target non siano bloccate.
 
@@ -113,11 +113,11 @@ Per impostazione predefinita, il Compositore esperienza visivo blocca gli elemen
 
 ## Alla modifica di un elemento della pagina, vengono modificati più elementi. (Compositore esperienza visivo e Compositore esperienza avanzato)  {#section_309188ACF34942989BE473F63C5710AF}
 
-Se lo stesso ID di elemento DOM è utilizzato in più elementi della pagina, la modifica di uno di questi elementi influenza tutti gli elementi con lo stesso ID. Per evitare il problema, è opportuno utilizzare ciascun ID solo una volta in ogni pagina. Questa è una best practice standard per HTML. Per ulteriori informazioni, consulta [Scenari di modifica delle pagine](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md#concept_A458A95F65B4401588016683FB1694DB).
+Se lo stesso ID di elemento DOM è utilizzato in più elementi della pagina, la modifica di uno di questi elementi influenza tutti gli elementi con lo stesso ID. Per evitare il problema, è opportuno utilizzare ciascun ID solo una volta in ogni pagina. Questa è una best practice standard per i HTML. Per ulteriori informazioni, consulta [Scenari di modifica delle pagine](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md#concept_A458A95F65B4401588016683FB1694DB).
 
 ## Non sono in grado di modificare le esperienze per un sito non compatibile con iFrame. (Compositore esperienza visivo e Compositore esperienza avanzato)  {#section_9FE266B964314F2EB75604B4D7047200}
 
-Questo problema può essere affrontato abilitando il Compositore esperienza avanzato. Fai clic su **[!UICONTROL Amministrazione]** > **[!UICONTROL Compositore esperienza visivo]**, quindi seleziona la casella di controllo che abilita il Compositore esperienza avanzato. Il Compositore esperienza avanzato utilizza un proxy gestito da Adobe per caricare la pagina da modificare. Questo proxy consente la modifica su siti non compatibili con iFrame e su siti e pagine in cui non hai ancora aggiunto il codice Adobe Target. Le attività non vengono fornite al sito fino all&#39;aggiunta del codice. È possibile che alcuni siti non vengano caricati tramite il Compositore esperienza avanzato. In questo caso, deseleziona questa opzione per caricare il Compositore esperienza visivo tramite un iFrame.
+Questo problema può essere affrontato abilitando il Compositore esperienza avanzato. Clic **[!UICONTROL Amministrazione]** > **[!UICONTROL Compositore esperienza visivo]**, quindi seleziona la casella di controllo che abilita il Compositore esperienza avanzato. Il Compositore esperienza avanzato utilizza un proxy gestito da Adobe per caricare la pagina da modificare. Questo proxy consente la modifica su siti non compatibili con iFrame e la modifica su siti e pagine in cui non è stato ancora aggiunto il codice Adobe Target. Le attività non vengono fornite al sito fino all&#39;aggiunta del codice. È possibile che alcuni siti non vengano caricati tramite il Compositore esperienza avanzato. In questo caso, deseleziona questa opzione per caricare il Compositore esperienza visivo tramite un iFrame.
 
 >[!NOTE]
 >
@@ -129,7 +129,7 @@ Vedi “Non sono in grado di modificare le esperienze per un sito non compatibil
 
 ## Gli stili di testo in grassetto e corsivo con Modifica testo/HTML o Cambia testo/HTML non vengono visualizzati sulla mia pagina. A volte il testo scompare dopo l&#39;applicazione di queste modifiche. (Compositore esperienza visivo e Compositore esperienza avanzato)  {#section_7A71D6DF41084C58B34C18701E8774E5}
 
-Se si utilizza **[!UICONTROL Modifica testo/HTML]** nel Compositore esperienza visivo per A/B o le attività di targeting per l&#39;esperienza o **[!UICONTROL Cambia testo/HTML]** per la personalizzazione automatizzata o per attività di test multivariato per rendere il testo in grassetto o corsivo, questi stili potrebbero non essere applicati nella pagina o il testo potrebbe scomparire dalla pagina nel Compositore esperienza visivo. Questo accade a causa del modo in cui l’editor Rich Text applica questi stili potrebbe interferire con il markup del sito web.
+Se si utilizza **[!UICONTROL Modifica testo/HTML]** nel Compositore esperienza visivo per A/B o le attività di targeting per l&#39;esperienza o **[!UICONTROL Cambia testo/HTML]** per la personalizzazione automatizzata o per attività di test multivariato per rendere il testo in grassetto o corsivo, questi stili potrebbero non essere applicati nella pagina o il testo potrebbe scomparire dalla pagina nel Compositore esperienza visivo. Ciò si verifica a causa del modo in cui l’editor Rich Text applica questi stili potrebbero interferire con il markup del sito web.
 
 Se vedi questo problema:
 

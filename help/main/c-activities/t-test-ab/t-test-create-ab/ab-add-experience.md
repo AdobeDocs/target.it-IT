@@ -1,7 +1,7 @@
 ---
 keywords: Targeting;esperienza;aggiungere un’esperienza;aggiunta esperienza
-description: Scopri come utilizzare il Compositore esperienza visivo in Adobe Target. Il Compositore esperienza visivo offre un’interfaccia visiva per l’aggiunta e la modifica di esperienze sulla pagina.
-title: Come si aggiungono le esperienze in un [!DNL Target] Attività A/B?
+description: Scopri come utilizzare il Compositore esperienza visivo in Adobe Target. Il Compositore esperienza visivo offre un’interfaccia visiva per aggiungere e modificare le esperienze sulla pagina.
+title: Come si aggiungono esperienze in una [!DNL Target] Attività A/B?
 feature: A/B Tests
 exl-id: c0f1b5a7-07b0-46c2-97f3-95dcc0fcbe3d
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
@@ -13,7 +13,7 @@ ht-degree: 79%
 
 # Aggiungi esperienza
 
-Il Compositore esperienza visivo di Adobe Target offre un’interfaccia visiva per l’aggiunta e la modifica delle esperienze sulla pagina.
+Il Compositore esperienza visivo di Adobe Target offre un’interfaccia visiva per aggiungere e modificare le esperienze sulla pagina.
 
 Per ulteriori dettagli sulle esperienze, vedi [Esperienze](/help/main/c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D).
 
@@ -29,7 +29,7 @@ Per ulteriori dettagli sulle esperienze, vedi [Esperienze](/help/main/c-experien
 
    Quando passi il puntatore del mouse sopra gli elementi della pagina, gli elementi vengono evidenziati. Qualsiasi elemento evidenziato può essere modificato utilizzando il Compositore esperienza.
 
-   Se hai creato un [!DNL Target] richiesta sulla pagina utilizzando Target Classic (precedentemente Test&amp;Target), che [!DNL Target] La richiesta viene visualizzata come un elemento che mostra il nome della richiesta e può essere modificata come qualsiasi altro elemento.
+   Se hai creato un’ [!DNL Target] sulla pagina utilizzando Target Classic (precedentemente Test&amp;Target), che [!DNL Target] request viene visualizzato come un elemento che mostra il nome della richiesta e può essere modificato come qualsiasi altro elemento.
 
    Per un elenco delle azioni che possono essere eseguite su un elemento nella pagina visualizzata per modificare l&#39;esperienza, consulta [Opzioni del Compositore esperienza visivo](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md).
 
@@ -92,7 +92,7 @@ Nella pagina **[!UICONTROL Esperienze]** (il primo passaggio del flusso di lavor
 
 ![Opzione Elimina esperienza](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/delete-experience.png)
 
-## Video di formazione: Utilizzo del Compositore esperienza visivo ![Badge tutorial](/help/main/assets/tutorial.png)
+## Video di formazione: Utilizzo del Compositore esperienza visivo ![Icona esercitazione](/help/main/assets/tutorial.png)
 
 Il video qui sotto fornisce informazioni sull&#39;utilizzo delle opzioni del Compositore esperienza visivo. (7:17)
 

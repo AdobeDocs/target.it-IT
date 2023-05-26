@@ -1,7 +1,7 @@
 ---
 keywords: impostazioni attività;obiettivi e impostazioni di targeting esperienza;obiettivi e impostazioni XT;targeting esperienza;impostazioni di reporting;metriche obiettivo;metriche di successo;metriche di successo dipendenti;impostazioni avanzate;obiettivo primario;metriche aggiuntive;finalità;priorità;durata;soluzione di reporting;obiettivo;pubblico per il reporting;quale metrica di successo deve essere raggiunta prima di incrementare questa metrica;cosa succede dopo che un utente trova questa metrica di obiettivo;note
-description: Scopri come utilizzare la pagina Obiettivi e impostazioni in Adobe [!DNL Target] per specificare informazioni sugli obiettivi di un’attività Targeting esperienza (XT).
-title: Come si specificano obiettivi e impostazioni in un’attività Targeting esperienze?
+description: Scopri come utilizzare la pagina Obiettivi e impostazioni in Adobe [!DNL Target] per specificare informazioni sugli obiettivi di un’attività Targeting esperienza.
+title: Come posso specificare obiettivi e impostazioni in un’attività Targeting esperienza?
 feature: Experience Targeting
 exl-id: 80cb7eff-4e9c-43d7-a3d8-7a9de79c91b9
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
@@ -11,7 +11,7 @@ ht-degree: 94%
 
 ---
 
-# Obiettivi e impostazioni nelle attività di targeting delle esperienze (XT)
+# Obiettivi e impostazioni nelle attività Targeting esperienza
 
 Nella pagina Obiettivi e impostazioni è possibile inserire le informazioni sugli obiettivi del test.
 
@@ -39,7 +39,7 @@ La priorità è utilizzata se più attività vengono assegnate alla stessa posiz
 
 Se questa opzione non è abilitata in Amministrazione (impostazione predefinita), specifica una priorità: Bassa, Media o Alta.
 
-Per abilitare le priorità dettagliate, fai clic su **[!UICONTROL Amministrazione]** > **[!UICONTROL Reporting]**, quindi attiva l’opzione Abilita priorità precise.
+Per abilitare le priorità dettagliate, fai clic su **[!UICONTROL Amministrazione]** > **[!UICONTROL Generazione rapporti]**, quindi attiva l’opzione Abilita priorità precise.
 
 Se questa opzione è abilitata, specifica un valore compreso tra 0 e 999:
 

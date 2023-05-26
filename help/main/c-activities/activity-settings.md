@@ -1,6 +1,6 @@
 ---
-keywords: Obiettivo e impostazioni;finalità;priorità;durata
-description: Scopri come utilizzare le impostazioni delle attività in Adobe [!DNL Target] per gestire l'obiettivo, la priorità e la durata delle attività.
+keywords: Obiettivo e impostazioni;obiettivo;priorità;durata
+description: Scopri come utilizzare le impostazioni delle attività in Adobe [!DNL Target] gestire l’obiettivo, la priorità e la durata delle attività.
 title: Come Si Specificano Le Impostazioni Delle Attività?
 feature: Activities
 exl-id: 7f34080b-d2ed-4fe5-80ff-3aba16961223
@@ -13,7 +13,7 @@ ht-degree: 79%
 
 # Impostazioni delle attività
 
-Utilizzo [!UICONTROL Impostazioni attività] in [!DNL Adobe Target] per gestire l&#39;obiettivo, la priorità e la durata delle attività.
+Utilizzare [!UICONTROL Impostazioni delle attività] in [!DNL Adobe Target] gestire l’obiettivo, la priorità e la durata delle attività.
 
 1. Immetti delle note sulla finalità dell&#39;attività.
 
@@ -24,9 +24,9 @@ Utilizzo [!UICONTROL Impostazioni attività] in [!DNL Adobe Target] per gestire 
 
    La priorità è utilizzata se più attività vengono assegnate alla stessa posizione con lo stesso pubblico. Se due o più attività vengono assegnate alla posizione, viene visualizzata l’attività con priorità maggiore.
 
-   Se questa opzione non è abilitata in [!UICONTROL Amministrazione] > [!UICONTROL Reporting] (impostazione predefinita), specifica una priorità: Bassa, Media o Alta.
+   Se questa opzione non è abilitata in [!UICONTROL Amministrazione] > [!UICONTROL Generazione rapporti] (impostazione predefinita), specifica una priorità: Bassa, Media o Alta.
 
-   Per abilitare le priorità dettagliate, fai clic su [!UICONTROL Amministrazione] > [!UICONTROL Reporting], quindi attiva/disattiva il [!UICONTROL Abilita priorità precise] nella posizione &quot;On&quot;.
+   Per abilitare le priorità dettagliate, fai clic su [!UICONTROL Amministrazione] > [!UICONTROL Generazione rapporti], quindi attiva/disattiva [!UICONTROL Abilita priorità precise] nella posizione &quot;On&quot;.
 
    Se questa opzione è abilitata, specifica un valore compreso tra 0 e 999:
 
@@ -53,9 +53,9 @@ La pagina [!UICONTROL Obiettivi e impostazioni] include impostazioni aggiuntive 
 * [Personalizzazione automatizzata](/help/main/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9)
 * [Targeting esperienza](/help/main/c-activities/t-experience-target/t-xt-create/xt-goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC)
 * [Test multivariato](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC)
-* [Consigli](/help/main/c-recommendations/t-create-recs-activity/recs-activity-settings.md#reference_3FDA8388CEEC4159949151C1829E2FBB)
+* [Recommendations](/help/main/c-recommendations/t-create-recs-activity/recs-activity-settings.md#reference_3FDA8388CEEC4159949151C1829E2FBB)
 
-## Video di formazione: Impostazioni attività ![Badge tutorial](/help/main/assets/tutorial.png)
+## Video di formazione: Impostazioni attività ![Icona esercitazione](/help/main/assets/tutorial.png)
 
 Questo video include informazioni sulle impostazioni delle attività.
 

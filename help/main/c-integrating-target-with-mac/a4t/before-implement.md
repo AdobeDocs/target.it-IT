@@ -13,25 +13,25 @@ ht-degree: 30%
 
 # Prima di implementare Analytics for Target (A4T) con at.js
 
-Diverse modifiche si verificano nel processo di raccolta dei dati quando si abilita [!DNL Adobe Analytics] come origine per la generazione di rapporti per [!DNL Adobe Target] (A4T).
+Diverse modifiche si verificano nel processo di raccolta dei dati quando si abilita [!DNL Adobe Analytics] come origine di reporting per [!DNL Adobe Target] (A4T).
 
 Prima di decidere di utilizzare questa integrazione, consulta le sezioni seguenti e considera l&#39;impatto sui processi di reporting.
 
 >[!NOTE]
 >
->Questo articolo si applica solo alle implementazioni di at.js .
+>Questo articolo si applica solo alle implementazioni di at.js.
 
 ## Requisiti di implementazione {#section_A0D2EF18033D4C3997B08A6EBB34C17A}
 
 >[!IMPORTANT]
 >
->Prima di poter iniziare a utilizzare A4T, è necessario richiedere il provisioning dell’account per l’integrazione. Utilizza la [Modulo di provisioning integrazioni Marketing Cloud](https://survey.adobe.com/jfe/form/SV_ekBHTLSoP5Zki2y){target=_blank} per richiedere il provisioning.
+>Prima di iniziare a utilizzare A4T, devi richiedere che il tuo account sia predisposto per l’integrazione. Utilizza il [Modulo di provisioning integrazioni di Marketing Cloud](https://survey.adobe.com/jfe/form/SV_ekBHTLSoP5Zki2y){target=_blank} per richiedere il provisioning.
 
 Questa integrazione A4T richiede l’implementazione delle seguenti versioni della libreria (o più recenti), a seconda che si desideri utilizzare o meno le offerte di reindirizzamento con A4T.
 
 >[!NOTE]
 >
->I seguenti requisiti elencano le *minimo* versioni di at.js necessarie per implementare A4T. La [!DNL Target] il team gestisce solo due versioni di [!DNL at.js]- la versione corrente e la seconda versione più recente. Aggiorna [!DNL at.js] per assicurarti di eseguire una versione supportata. Per ulteriori informazioni su ogni versione, consulta [Dettagli sulla versione di at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}.
+>I seguenti requisiti elencano *minimo* versioni di at.js necessarie per implementare A4T. Il [!DNL Target] il team gestisce solo due versioni di [!DNL at.js]- la versione corrente e la seconda versione più recente. Aggiorna [!DNL at.js] per assicurarti di eseguire una versione supportata. Per ulteriori informazioni su ogni versione, consulta [Dettagli sulla versione di at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}.
 
 ### Requisiti necessari se *non* si utilizzano offerte di reindirizzamento con A4T
 
@@ -63,46 +63,46 @@ Per informazioni sull’implementazione di A4T con [!DNL Platform Web SDK], vedi
 
 ## Aspetti da considerare prima dell’implementazione {#section_50D49CC52E11414089C89FB67F9B88F5}
 
-* Questa integrazione è abilitata sulle nuove attività quando selezioni l’utilizzo [!DNL Analytics] come origine per la generazione di rapporti. Dopo avere apportato le modifiche all&#39;implementazione descritte in questo documento, le attività esistenti non vengono influenzate.
-* Il processo di configurazione [!DNL Analytics] come origine per la generazione di rapporti per [!DNL Target] include diverse fasi di implementazione, seguite da una fase di provisioning. È opportuno rivedere l&#39;intero processo come descritto di seguito prima di procedere all&#39;implementazione. Dopo aver completato questi passaggi, puoi utilizzare [!DNL Analytics] come origine per la generazione di rapporti quando è abilitata. Il processo di previsionamento può richiedere fino a cinque giorni lavorativi.
-* La [!DNL Visitor ID service] crea una condivisione [!DNL Visitor ID] attraverso [!DNL Adobe Experience Cloud]. Anche se non sostituisce il [!DNL Target] mboxPC id o [!DNL Audience Manager] UUID, sostituisce il modo [!DNL Analytics] identifica i nuovi visitatori. Se impostato correttamente, torna [!DNL Analytics] i visitatori dovrebbero essere identificati anche attraverso i loro vecchi [!DNL Analytics] ID. Allo stesso modo, perché [!DNL Target] mboxPCid rimane intatto, no [!DNL Target] i dati del profilo del visitatore vengono persi quando esegui l’aggiornamento al [!DNL Visitor ID service].
-* La [!DNL Visitor ID service] deve essere eseguito prima del [!DNL Analytics] e [!DNL Target] codice della pagina. Assicurati che `VisitorAPI.js` viene visualizzato sopra i tag per tutti gli altri [!DNL Experience Cloud] soluzioni.
+* Questa integrazione è abilitata sulle nuove attività quando selezioni per utilizzare [!DNL Analytics] come origine per la generazione di rapporti. Dopo avere apportato le modifiche all&#39;implementazione descritte in questo documento, le attività esistenti non vengono influenzate.
+* Il processo di impostazione [!DNL Analytics] come origine di reporting per [!DNL Target] include diversi passaggi di implementazione, seguiti da un passaggio di provisioning. È opportuno rivedere l&#39;intero processo come descritto di seguito prima di procedere all&#39;implementazione. Dopo aver completato questi passaggi, puoi utilizzare [!DNL Analytics] come origine per la generazione di rapporti quando è abilitata per te. Il processo di previsionamento può richiedere fino a cinque giorni lavorativi.
+* Il [!DNL Visitor ID service] crea una condivisione [!DNL Visitor ID] in tutto [!DNL Adobe Experience Cloud]. Anche se non sostituisce il [!DNL Target] mboxPC id o [!DNL Audience Manager] UUID, sostituisce il metodo [!DNL Analytics] identifica nuovi visitatori. Se configurato correttamente, verrà restituito [!DNL Analytics] i visitatori devono essere identificati anche tramite il [!DNL Analytics] ID Analogamente, poiché [!DNL Target] mboxPCid rimane intatto, no [!DNL Target] i dati del profilo del visitatore vengono persi quando si esegue l&#39;aggiornamento a [!DNL Visitor ID service].
+* Il [!DNL Visitor ID service] deve essere eseguito prima del [!DNL Analytics] e [!DNL Target] codice della pagina. Assicurati che `VisitorAPI.js` viene visualizzato sopra i tag per tutti gli altri [!DNL Experience Cloud] soluzioni.
 
 ## Latenza {#section_9489BE6FD21641A4844E591711E3F813}
 
-Dopo l’abilitazione di questa integrazione, si verifica una latenza supplementare di 5-10 minuti in [!DNL Analytics]. Questo aumento della latenza consente l’utilizzo dei dati [!DNL Analytics] e [!DNL Target] da memorizzare sullo stesso hit, per suddividere le attività per pagina e sezione del sito.
+Dopo l’abilitazione di questa integrazione, si verifica una latenza aggiuntiva di 5-10 minuti in [!DNL Analytics]. Questo aumento di latenza consente di [!DNL Analytics] e [!DNL Target] essere memorizzate sullo stesso hit, consentendoti di suddividere le attività per pagina e sezione del sito.
 
-Questo aumento si riflette in tutti [!DNL Analytics] servizi e strumenti, compresi i rapporti in tempo reale e in tempo reale, e si applica nei seguenti scenari:
+Questo aumento si riflette in tutti [!DNL Analytics] servizi e strumenti, tra cui la generazione di rapporti in tempo reale e in tempo reale, e si applica nei seguenti scenari:
 
 * Per lo streaming live, i rapporti in tempo reale e le richieste API e per i dati correnti per le variabili di traffico, vengono ritardati solo gli insiemi con ID di dati supplementari.
-* Per i dati correnti sulle metriche di conversione, i dati finalizzati e i feed di dati, tutti gli hit vengono ritardati di 5-7 minuti in più.
+* Per i dati correnti sulle metriche di conversione, i dati finalizzati e i feed di dati, tutti gli hit subiscono un ritardo di 5-7 minuti.
 
-L’aumento della latenza inizia dopo l’implementazione della [!DNL Experience Cloud] servizio ID visitatore, anche se non hai implementato completamente questa integrazione.
+L&#39;aumento della latenza inizia dopo l&#39;implementazione di [!DNL Experience Cloud] servizio ID visitatore, anche se non hai implementato completamente questa integrazione.
 
 ## ID supplementare {#section_2C1F745A2B7D41FE9E30915539226E3A}
 
-Tutto [!DNL Target] le chiamate utilizzate da un’attività A4T per fornire contenuto o registrare la metrica di obiettivo devono avere un [!DNL Analytics] hit che condivide l’ID supplementare per A4T in modo che funzioni correttamente.
+Tutti [!DNL Target] le chiamate utilizzate da un’attività A4T per consegnare contenuti o registrare che la metrica di obiettivo deve avere un valore [!DNL Analytics] hit che condivide l’ID supplementare affinché A4T funzioni correttamente.
 
-Hit che contengono dati provenienti da [!DNL Analytics] e [!DNL Target] contiene un ID dati supplementare. Puoi visualizzare questo ID nella sezione [Debugger Adobe Experience Cloud](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html) come `sdid` parametro . Ad esempio: `sdid=2F3C18E511F618CC-45F83E994AEE93A0`. Questo ID viene generato in qualsiasi momento siano presenti i seguenti criteri:
+Hit che contengono i dati di [!DNL Analytics] e [!DNL Target] contiene un ID dati supplementare. Puoi visualizzare questo ID in [Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html) come `sdid` parametro. Ad esempio: `sdid=2F3C18E511F618CC-45F83E994AEE93A0`. Questo ID viene generato in qualsiasi momento siano presenti i seguenti criteri:
 
 * È implementato il servizio ID visitatore
 
-Quando [risoluzione](/help/main/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md), assicurati di confermare che l’ID supplementare è presente in [!DNL Analytics] hit.
+Quando [risoluzione dei problemi](/help/main/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md), assicurati di confermare che l’ID supplementare sia presente in [!DNL Analytics] hit.
 
 ## Registrazione Analytics lato client {#client-side}
 
-Se at.js, la [!DNL Experience Cloud Visitor ID Service]e appMeasurement.js si trovano sulla pagina, [!DNL Analytics]e [!DNL Target] unisce correttamente gli eventi a scopo di reporting e analisi nel backend, purché l’ID supplementare corretto sia incluso dalla pagina. Non è necessario gestire ed eseguire altre operazioni affinché A4T funzioni correttamente.
+Se at.js, il [!DNL Experience Cloud Visitor ID Service], e appMeasurement.js si trovano sulla pagina, [!DNL Analytics], e [!DNL Target] unisce correttamente gli eventi a scopo di reporting e analisi nel backend, purché l’ID supplementare corretto sia incluso dalla pagina. Per il corretto funzionamento di A4T non è necessario gestire ed eseguire altre operazioni.
 
-In alcuni casi potrebbe essere utile avere maggiore controllo su quando e come inviare i dati di analisi relativi a [!DNL Target] a [!DNL Analytics] a fini di segnalazione. È possibile che tu disponga di uno strumento di analisi interno che utilizzi per scopi interni. Tuttavia, desideri anche inviare i dati di analisi a [!DNL Analytics] tramite il prodotto di analisi aziendale in modo che altri membri dell’organizzazione possano continuare a utilizzare [!DNL Analytics] come origine visiva per la generazione di rapporti. Vedi [Passaggio 7: Fai riferimento a at.js in tutte le pagine del sito](/help/main/c-integrating-target-with-mac/a4t/a4timplementation.md#step7) in *Implementazione di Analytics for Target* per ulteriori informazioni.
+In alcuni casi potrebbe essere necessario avere maggiore controllo su quando e come inviare dati analitici relativi a [!DNL Target] a [!DNL Analytics] a scopo di reporting. Potresti avere uno strumento di analisi interno da utilizzare per scopi interni. Tuttavia, desideri anche inviare i dati di analisi a [!DNL Analytics] tramite il prodotto di analisi interna, in modo che altri membri dell’organizzazione possano continuare a utilizzare [!DNL Analytics] come origine di reporting visiva. Consulta [Passaggio 7: Includere un riferimento a at.js in tutte le pagine del sito](/help/main/c-integrating-target-with-mac/a4t/a4timplementation.md#step7) in *Implementazione di Analytics for Target* per ulteriori informazioni.
 
 ## Pubblico condiviso
 
-Durante il riempimento [Modulo di provisioning integrazioni Marketing Cloud](https://survey.adobe.com/jfe/form/SV_ekBHTLSoP5Zki2y){target=_blank}, essere a conoscenza delle seguenti importanti informazioni riguardanti [!UICONTROL Pubblico condiviso] opzione elencata in &quot;[!UICONTROL Per quali funzionalità richiedi il provisioning]?&quot;
+Durante la compilazione del [Modulo di provisioning integrazioni di Marketing Cloud](https://survey.adobe.com/jfe/form/SV_ekBHTLSoP5Zki2y){target=_blank}, siano a conoscenza delle seguenti informazioni importanti relative [!UICONTROL Pubblico condiviso] opzione elencata in &quot;[!UICONTROL Per quali funzionalità si richiede il provisioning]?&quot;
 
 ![Modulo di richiesta](/help/main/c-integrating-target-with-mac/a4t/assets/request-form.png)
 
-Quando richiedi [!UICONTROL Pubblico condiviso], abilita [!UICONTROL Target] e [!UICONTROL Adobe Audience Manager] (AAM) per condividere informazioni, in questo caso audience.
+Quando richiedi [!UICONTROL Pubblico condiviso], si attiva [!UICONTROL Target] e [!UICONTROL Adobe Audience Manager] (AAM) condividere informazioni, in questo caso audience.
 
 >[!IMPORTANT]
 >
->Questa integrazione tra [!UICONTROL Target] e AAM con costi aggiuntivi. È fatturato per ogni [!UICONTROL Target] AAM.
+>Questa integrazione tra [!UICONTROL Target] e l&#39;AAM comporta costi aggiuntivi. Viene addebitato per ogni [!UICONTROL Target] nell’AAM.

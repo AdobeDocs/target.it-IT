@@ -1,6 +1,6 @@
 ---
-keywords: risoluzione dei problemi;domande frequenti;FAQ;FAQ;personalizzazione automatizzata;controllo;esperienza predefinita;best practice
-description: Esplora un elenco delle domande frequenti e delle risposte sulle attività di Automated Personalization (AP) in Adobe Target.
+keywords: risoluzione dei problemi;domande frequenti;FAQ;personalizzazione automatizzata;controllo;esperienza predefinita;best practice
+description: Esplora un elenco di domande frequenti e risposte sulle attività di Automated Personalization (AP) in Adobe Target.
 title: Come posso trovare le domande frequenti sulle attività di Automated Personalization?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Automated Personalization
@@ -26,7 +26,7 @@ Per ulteriori informazioni, consulta [Utilizzare un’esperienza specifica come 
 
 ## Come posso confrontare la Personalizzazione automatizzata con un’esperienza predefinita? {#section_46C1A620A2384C2C8392D6716DD18495}
 
-Non esiste un’opzione diretta per confrontare la Personalizzazione automatizzata con un’esperienza predefinita. Tuttavia, come soluzione alternativa, se un’offerta o un’esperienza predefinita esiste come parte dell’attività complessiva, per comprenderne le prestazioni di base puoi fare clic sul segmento &quot;Controllo&quot; nei rapporti e individuare tale offerta particolare nel rapporto risultante a livello di offerta. Il tasso di conversione registrato per questa offerta può essere utilizzato per confrontare con il tasso di conversazione dell’intero segmento &quot;Foresta casuale&quot;. Questo permette di confrontare le prestazioni della macchina rispetto all’offerta predefinita.
+Non esiste un’opzione diretta per confrontare la Personalizzazione automatizzata con un’esperienza predefinita. Tuttavia, come soluzione alternativa, se un’offerta o esperienza predefinita fa parte dell’attività complessiva, per comprenderne le prestazioni linea di base puoi fare clic sul segmento &quot;Controllo&quot; nei rapporti e individuare tale offerta specifica nel rapporto a livello di offerta risultante. Il tasso di conversione registrato per questa offerta può essere utilizzato per confrontare con il tasso di conversazione dell’intero segmento &quot;Foresta casuale&quot;. Questo permette di confrontare le prestazioni della macchina rispetto all’offerta predefinita.
 
 ## Quali sono le best practice per impostare un’attività di Personalizzazione automatizzata? {#section_E155B26282BE49B58EA2683413D11DE6}
 
@@ -40,8 +40,8 @@ Non esiste un’opzione diretta per confrontare la Personalizzazione automatizza
 
    Esistono tre scenari da considerare in base all’obiettivo dell’attività e al tipo di controllo selezionato:
 
-   * **Controllo: esperienze casuali; obiettivo dell’attività: testare l’efficacia dell’algoritmo di personalizzazione**: Se l’obiettivo è quello di valutare l’algoritmo di personalizzazione, allora avrai bisogno di avere un’immagine più precisa dell’incremento. Inoltre, vorrai probabilmente un confronto con il tasso di conversione per esperienze/offerte rispetto a un semplice test A/B (controllo casuale). In tal caso, si consiglia di utilizzare un’allocazione del 50% a un controllo composto da esperienze distribuite in modo casuale.
-   * **Controllo: esperienze casuali e obiettivo dell’attività: massimizzare il traffico personalizzato**: Se l’algoritmo è a tuo agio e desideri che la quantità massima di traffico sia personalizzata, si consiglia di allocare al controllo dal 10% al 30% del traffico. Il compromesso è la precisione che sarà possibile vedere nelle informazioni sull’incremento (in quanto gli intervalli di affidabilità del traffico di controllo saranno più ampi perché vi è meno traffico verso di loro).
+   * **Controllo: esperienze casuali; obiettivo dell’attività: testare l’efficacia dell’algoritmo di personalizzazione**: se il tuo obiettivo è quello di valutare l’algoritmo di personalizzazione, vuoi ottenere un’immagine più precisa dell’incremento. Inoltre, vorrai probabilmente un confronto con il tasso di conversione per esperienze/offerte rispetto a un semplice test A/B (controllo casuale). In tal caso, si consiglia di utilizzare un’allocazione del 50% a un controllo composto da esperienze distribuite in modo casuale.
+   * **Controllo: esperienze casuali; obiettivo dell’attività: massimizzare il traffico personalizzato**: se l’algoritmo va bene e desideri che la quantità massima di traffico sia personalizzata, si consiglia di allocare al controllo dal 10% al 30% del traffico. Il compromesso è la precisione che potrai vedere nelle informazioni sull’incremento (poiché gli intervalli di affidabilità del traffico di controllo saranno più ampi perché il traffico verso di essi fluisce meno).
    * **Controllo: esperienza specifica; entrambi i tipi di obiettivo**: se desideri confrontare con i modelli di personalizzazione un’esperienza specifica definita dagli esperti di marketing, si consiglia di allocare al controllo dal 10% al 30% del traffico. Quando selezioni una sola esperienza come controllo, tale traffico non viene distribuito su ogni offerta/esperienza nell’attività.
 
 * Le regole di targeting devono essere utilizzate con la massima parsimonia possibile perché possono interferire con la capacità di ottimizzazione del modello.
@@ -113,7 +113,7 @@ Esamina l’impostazione dell’attività e verifica se ci sono modifiche che in
 
 Le attività di personalizzazione automatizzata vengono valutate una volta per sessione. Se c’erano delle sessioni attive idonee per una particolare esperienza e ora sono state aggiunte nuove offerte, gli utenti vedranno il nuovo contenuto insieme alle offerte precedentemente mostrate. Poiché in precedenza sono stati considerati idonei per quelle esperienze, continueranno a vederle per tutta la durata della sessione. Per eseguire la valutazione per ogni singola visita, usa il tipo di attività Targeting esperienza (XT).
 
-### Posso cambiare la metrica dell’obiettivo a metà strada attraverso un’attività Automated Personalization? {#change-metric}
+### Posso cambiare la metrica di obiettivo a metà strada attraverso un’attività di Automated Personalization? {#change-metric}
 
 Non è consigliabile modificare la metrica obiettivo a metà strada all’interno di un’attività. Anche se è possibile modificare la metrica dell’obiettivo durante un’attività utilizzando l’interfaccia utente [!DNL Target], è sempre necessario avviare una nuova attività. Non forniamo alcuna garanzia su ciò che accade se modifichi la metrica dell’obiettivo in un’attività dopo l’esecuzione.
 
@@ -121,12 +121,12 @@ Questo consiglio si applica alle attività [!UICONTROL Allocazione automatica], 
 
 ### Posso utilizzare l’opzione Reimposta dati dei rapporti durante l’esecuzione di un’attività Automated Personalization?
 
-Utilizzo della [!UICONTROL Ripristina dati dei rapporti] opzione per [!UICONTROL Automated Personalization] le attività non sono suggerite. Anche se rimuove i dati di reporting visibili, questa opzione non rimuove tutti i record di formazione dal [!UICONTROL Automated Personalization] modello. Invece di utilizzare il [!UICONTROL Ripristina dati dei rapporti] opzione per [!UICONTROL Automated Personalization] , crea una nuova attività e disattiva l’attività originale. (Nota: La presente guida si applica anche [!UICONTROL Allocazione automatica] e [!UICONTROL Targeting automatico] attività).
+Utilizzo di [!UICONTROL Ripristina dati rapporto] opzione per [!UICONTROL Automated Personalization] attività non è consigliato. Anche se rimuove i dati di reporting visibili, questa opzione non rimuove tutti i record di formazione dal [!UICONTROL Automated Personalization] modello. Invece di utilizzare [!UICONTROL Ripristina dati rapporto] opzione per [!UICONTROL Automated Personalization] , crea una nuova attività e disattiva l&#39;attività originale. (Nota: questa guida si applica anche a [!UICONTROL Allocazione automatica] e [!UICONTROL Targeting automatico] attività.)
 
 ### In che modo Automated Personalization genera i modelli rispetto agli ambienti?
 
-Un modello è costruito per identificare le prestazioni della strategia personalizzata rispetto al traffico distribuito in modo casuale rispetto all’invio di tutto il traffico all’esperienza vincente complessiva. Questo modello considera gli hit e le conversioni solo nell’ambiente predefinito.
+Un modello è stato creato per identificare le prestazioni della strategia personalizzata rispetto al traffico distribuito in modo casuale rispetto all’invio di tutto il traffico all’esperienza vincente complessiva. Questo modello considera gli hit e le conversioni solo nell’ambiente predefinito.
 
-Il traffico proveniente da un secondo set di modelli viene generato per ciascun gruppo di modeling (AP) o per esperienza (AT). Per ciascuno di questi modelli, vengono considerati hit e conversioni in tutti gli ambienti.
+Il traffico proveniente da un secondo set di modelli viene generato per ciascun gruppo di modellazione (AP) o esperienza (AT). Per ciascuno di questi modelli, vengono considerati gli hit e le conversioni in tutti gli ambienti.
 
-Le richieste verranno quindi servite con lo stesso modello, indipendentemente dall’ambiente, ma la pluralità di traffico dovrebbe provenire dall’ambiente predefinito per garantire che l’esperienza vincente complessiva identificata sia coerente con il comportamento del mondo reale.
+Le richieste verranno quindi servite con lo stesso modello, indipendentemente dall’ambiente, ma la pluralità di traffico dovrebbe provenire dall’ambiente predefinito per garantire che l’esperienza complessiva vincente identificata sia coerente con il comportamento reale.

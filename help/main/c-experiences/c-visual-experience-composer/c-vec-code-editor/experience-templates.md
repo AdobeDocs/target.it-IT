@@ -1,6 +1,6 @@
 ---
 keywords: modello di esperienza;codice personalizzato;banner;lightbox;carosello;conto alla rovescia;barra multifunzione;pulsanti
-description: Scopri come utilizzare i modelli di esperienza, che sono esempi precodificati con input configurabili da utilizzare per eseguire casi d’uso comuni degli addetti al marketing in Adobe Target.
+description: Scopri come utilizzare i modelli di esperienza, ovvero esempi precodificati con input configurabili da utilizzare per eseguire casi di utilizzo comuni per gli addetti al marketing in Adobe Target.
 title: Quali modelli di esperienza sono disponibili in Target?
 feature: Visual Experience Composer (VEC)
 exl-id: 83bee583-656f-47d4-8892-e41b6629696f
@@ -29,13 +29,13 @@ Il [modello di esperienza Carosello banner con miniature](https://github.com/Ado
 
 Il [modello di esperienza Carosello banner](https://github.com/Adobe-Marketing-Cloud/target-experience-templates/tree/master/banner-carousel) è un carosello rotante, di solito utilizzato nelle home page e nelle pagine di destinazione o in altre pagine di accesso dal volume elevato. Questo carosello non ruoterà automaticamente tra le immagini ed è possibile interagire direttamente con esso facendo clic sulla freccia sinistra e destra.
 
-![immagine exp-template-banner-carousel](assets/exp-template-banner-carousel.png)
+![immagine exp-template-banner-carosello](assets/exp-template-banner-carousel.png)
 
 ## Conto alla rovescia banner {#section_ED9501FE096C4CD7B6D9933E0322B4AD}
 
 Il [modello di esperienza Conto alla rovescia banner](https://github.com/Adobe-Marketing-Cloud/target-experience-templates/tree/master/banner-countdown) è un banner di grandi dimensioni con un conto alla rovescia centrale, di solito utilizzato nelle home page e nelle pagine di destinazione o in altre pagine di accesso dal volume elevato.
 
-![immagine exp-template-banner-conto alla rovescia](assets/exp-template-banner-countdown.png)
+![immagine exp-template-banner-countdown](assets/exp-template-banner-countdown.png)
 
 ## Generatore di pulsanti {#section_DBDD1C9A9F294FB6BABBC04B4454E59B}
 
@@ -47,7 +47,7 @@ Il [modello di esperienza Generatore di pulsanti](https://github.com/Adobe-Marke
 
 Il [modello di esperienza Lightbox con conto alla rovescia](https://github.com/Adobe-Marketing-Cloud/target-experience-templates/tree/master/lightbox-countdown) è una finestra a comparsa di sovrapposizione lightbox con un conto alla rovescia centrale, di solito utilizzata nelle home page e nelle pagine di destinazione o in altre pagine di accesso dal volume elevato.
 
-![immagine exp-template-lightbox-conto alla rovescia](assets/exp-template-lightbox-countdown.png)
+![immagine exp-template-lightbox-countdown](assets/exp-template-lightbox-countdown.png)
 
 ## Lightbox con intento di uscita {#section_E624C867E4CD4F2294CFC7917EFAEBD7}
 

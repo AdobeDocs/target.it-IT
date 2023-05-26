@@ -1,7 +1,7 @@
 ---
-keywords: foresta casuale;albero decisionale;app;Automated Personalization
-description: Adobe [!DNL Target] utilizza l’algoritmo Foresta casuale sia nelle attività di Automated Personalization (AP) che di Targeting automatico.
-title: Come funziona [!DNL Target] Utilizzare l'algoritmo Foresta casuale?
+keywords: foresta casuale;albero decisionale;ap;Automated Personalization
+description: Adobe [!DNL Target] utilizza l’algoritmo Foresta casuale sia nelle attività di Automated Personalization (AP) che in quelle di Targeting automatico.
+title: In che modo [!DNL Target] Utilizzare l’algoritmo Foresta casuale?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Automated Personalization
 exl-id: 07a89525-4071-4434-ac96-c59a4f4422ad
@@ -20,7 +20,7 @@ Quando si pensa alle statistiche, si potrebbe pensare a un unico modello di regr
 
 L&#39;algoritmo di Foresta casuale è l&#39;algoritmo chiave di personalizzazione sottostante utilizzato nelle attività di Personalizzazione automatizzata e di Targeting automatico. Foresta casuale unisce centinaia di alberi decisionali per arrivare ad una previsione migliore di quanto un singolo albero possa fare da solo.
 
-## Cos&#39;è un albero decisionale? {#section_7F5865D8064447F4856FED426243FDAC}
+## Che cos&#39;è un albero decisionale? {#section_7F5865D8064447F4856FED426243FDAC}
 
 L&#39;obiettivo di una struttura decisionale è quello di abbattere tutti i dati di visita disponibili da cui un sistema può imparare e poi raggruppare i dati in cui le visite all&#39;interno di ogni gruppo sono più simili possibile l&#39;una all&#39;altra per quanto riguarda la metrica di obiettivo. Attraverso i gruppi, tuttavia, le visite sono il più possibile diverse, rispetto alla metrica di obiettivo (ad esempio il tasso di conversione). L&#39;albero decisionale esamina le diverse variabili che ha nell&#39;insieme di apprendimento per determinare come dividere i dati in un MECE (mutualmente-esclusivo-collettivamente-esaustivo) in questi gruppi (o “foglie”) per massimizzare questo obiettivo.
 
@@ -35,13 +35,13 @@ Diciamo che il codice postale è più predittivo. Questa variabile forma il prim
 
 Questa azione sarebbe il primo livello del nostro albero decisionale:
 
-![immagine decsion_tree_1](assets/decsion_tree_1.png)
+![immagine decission_tree_1](assets/decsion_tree_1.png)
 
 L&#39;albero decisionale porrebbe la domanda: “Qual è la variabile più predittiva?” Nel nostro esempio, abbiamo solo due variabili, quindi la risposta qui è chiaramente di genere. L&#39;albero ora cercherebbe di completare un esercizio simile per dividere i dati *all&#39;interno di ogni ramo*. Per prima cosa, consideriamo il ramo 11111, 22222 e 33333. In questi codici di avviamento postale, se ci fosse una differenza di conversione tra uomini e donne, ci sarebbero due foglie (uomini e donne) e questo ramo sarebbe completo. Nell&#39;altro ramo, 44444 e 55555, supponiamo che non ci sia differenza statistica tra le conversioni di donne e uomini. In questo caso, il primo ramo diventa la divisione finale.
 
 Il nostro esempio comporterebbe l&#39;albero sottostante:
 
-![immagine decsion_tree_2](assets/decsion_tree_2.png)
+![immagine decission_tree_2](assets/decsion_tree_2.png)
 
 ## Come vengono utilizzati gli alberi decisionali da Foresta casuale? {#section_536C105EF9F540C096D60450CAC6F627}
 
@@ -78,7 +78,7 @@ Le trasformazioni di funzionalità dipendono dal tipo di attributo. Pricipalment
 
 Per le funzionalità categoriche, viene mantenuto un insieme di tutte le funzionalità possibili e la probabilità di trasformazione viene utilizzata per ridurre la dimensione dei dati. Per le caratteristiche numeriche, il ridimensionamento assicura che le funzioni siano confrontabili a livello globale.
 
-**Apprendimento di bilanciamento contro personalizzazione con slot machine**
+**Apprendimento di bilanciamento rispetto alla personalizzazione con slot machine**
 
 Una volta che Target ha generato modelli di personalizzazione per personalizzare il traffico, c&#39;è un chiaro compromesso che devi affrontare per i futuri visitatori della tua attività: dovresti personalizzare tutto il traffico in base al modello attuale o continuare a imparare dai nuovi visitatori fornendo loro offerte casuali? Vuoi assicurarti che l&#39;algoritmo di personalizzazione apprenda sempre nuove tendenze nei visitatori, personalizzando contemporaneamente la maggior parte del traffico.
 

@@ -1,7 +1,7 @@
 ---
 keywords: A/B;metriche di attività;metriche;configurare metriche;metriche obiettivo;impostazioni attività;metrica successo;conversione;ricavi;impegno
 description: Scopri come specificare le metriche in un Adobe [!DNL Target] Attività A/B per determinare quando una visita ha esito positivo, ad esempio Conversione, Entrate e Coinvolgimento.
-title: Come si impostano le metriche degli obiettivi in un’attività A/B?
+title: Come si impostano le metriche dell’obiettivo in un’attività A/B?
 feature: A/B Tests
 exl-id: 9e9e8787-c0cd-4aab-bd2d-0e9591e0a07d
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839

@@ -31,7 +31,7 @@ Le best practice di settore sono integrate in [!DNL Target Standard]. [!DNL Targ
 
 [!DNL Target Premium] è un’offerta avanzata [!DNL Target] che richiede una licenza per aggiungere funzionalità Premium a [!DNL Target Standard].
 
-Tutto [!DNL Target Premium] articoli [!DNL Target] le guide includono [!UICONTROL Premium] nella parte superiore di ogni pagina o in linea vicino al testo interessato. La [!UICONTROL Premium] è possibile fare clic su badge e include un collegamento a questa sezione.
+Tutti [!DNL Target Premium] articoli in [!DNL Target] le guide includono [!UICONTROL Premium] badge nella parte superiore di ogni pagina o in linea vicino al testo interessato. Il [!UICONTROL Premium] Il badge è cliccabile e include un collegamento a questa sezione.
 
 **[!DNL Target Premium]include le seguenti funzionalità:**
 
@@ -84,9 +84,9 @@ La funzionalità [Autorizzazioni per gli utenti aziendali](/help/main/administra
 
 [!BADGE Beta]{type=Informative}
 
-La [!DNL Adobe Target] il team spesso abilita nuove funzioni per determinati clienti a scopo di test e feedback. Al termine del periodo di test, queste funzioni sono abilitate per tutti i clienti in futuro [!DNL Target Standard/Premium] versioni e annunciate nelle note sulla versione.
+Il [!DNL Adobe Target] team abilita spesso nuove funzioni per determinati clienti a scopo di test e feedback. Al termine del periodo di test, queste funzioni saranno abilitate per tutti i clienti in futuro [!DNL Target Standard/Premium] e annunciate nelle note sulla versione.
 
-Articoli [!DNL Target] le guide che descrivono le funzioni Beta includono il badge Beta nella parte superiore di ogni pagina o in linea vicino al testo interessato. Il badge Beta può essere cliccato e include un collegamento a questa sezione.
+Articoli in [!DNL Target] Le guide che descrivono le funzioni beta includono il badge beta nella parte superiore di ogni pagina o in linea vicino al testo interessato. Il badge Beta è cliccabile e include un collegamento a questa sezione.
 
 ## Recommendations Classic {#section_9554068100054D2DBDB298CBE5A0E413}
 

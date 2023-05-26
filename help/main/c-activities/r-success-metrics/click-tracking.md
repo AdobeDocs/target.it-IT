@@ -81,7 +81,7 @@ Ci sono diversi fattori da considerare quando si selezionano gli elementi:
 
    | Carattere | Descrizione |
    |---|---|
-   | # | Cancelletto oppure Hash |
+   | N. | Cancelletto oppure Hash |
    | : | Due punti |
    | . | Punto |
    | $ | Simbolo del dollaro |

@@ -1,7 +1,7 @@
 ---
 keywords: Targeting esperienza;XT;metriche;impostazione metriche;metrica obiettivo;impostazioni attività;metrica di successo;conversione;entrate;ricavi;coinvolgimento
 description: Scopri come specificare le metriche in un Adobe [!DNL Target] Attività Targeting esperienza per determinare quando una visita ha esito positivo, ad esempio Conversione, Entrate e Coinvolgimento.
-title: Come si impostano le metriche degli obiettivi in un’attività di targeting delle esperienze?
+title: Come si impostano le metriche dell’obiettivo in un’attività Targeting esperienza?
 feature: Experience Targeting
 exl-id: 16249930-8b9c-441c-bd14-5f32332556d2
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
@@ -11,9 +11,9 @@ ht-degree: 83%
 
 ---
 
-# Impostare le metriche nelle attività Targeting esperienza (XT)
+# Impostare le metriche nelle attività Targeting esperienza
 
-Utilizzare le metriche in un [!DNL Adobe Target] [!UICONTROL Targeting esperienza] (XT) per determinare quando una visita ha esito positivo.
+Utilizzare le metriche in un [!DNL Adobe Target] [!UICONTROL Targeting esperienza] (XT) attività per determinare quando una visita ha esito positivo.
 
 Per informazioni dettagliate sulle metriche di successo, consulta [Metriche di successo](/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924).
 

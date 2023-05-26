@@ -1,7 +1,7 @@
 ---
-keywords: configurazione;configurazione;configurazione;configurazione;configurazione;amministrazione
-description: Imposta Adobe Target, incluse preferenze, implementazione, gestione utenti, proprietà, configurazione Scene7, gestione host e token di risposta.
-title: Come Posso Amministrare Target?
+keywords: configurazione;configurazione;configurazione;configurare;amministrazione;setup;setup;set up;administration
+description: Imposta Adobe Target, compresi preferenze, implementazione, gestione degli utenti, proprietà, configurazione Scene7, gestione degli host e token di risposta.
+title: Come posso amministrare Target?
 feature: Administration & Configuration
 role: Admin
 exl-id: 89023213-b109-4d07-af4e-4b8da481806d
@@ -14,9 +14,9 @@ ht-degree: 11%
 
 # Amministrare [!DNL Target] Panoramica
 
-Informazioni utili per l’amministrazione [!DNL Adobe Target], incluse le impostazioni di configurazione per il Compositore esperienza visivo, il reporting, la configurazione di Scene7, l’implementazione, gli host, gli ambienti, i token di risposta e gli utenti.
+Informazioni utili per la somministrazione [!DNL Adobe Target], incluse le impostazioni di configurazione per il Compositore esperienza visivo, il reporting, la configurazione di Scene7, l’implementazione, gli host, gli ambienti, i token di risposta e gli utenti.
 
-Per accedere al [!UICONTROL Amministrazione] voci di menu, fai clic su **[!UICONTROL Amministrazione]** nella barra dei menu superiore, fai clic sulla scheda desiderata lungo il lato sinistro:
+Per accedere al [!UICONTROL Amministrazione] voci di menu, fare clic su **[!UICONTROL Amministrazione]** nella barra dei menu superiore, fai clic sulla scheda desiderata lungo il lato sinistro:
 
 * [Compositore esperienza visivo](/help/main/administrating-target/visual-experience-composer-set-up.md)
 * [Generazione di rapporti](/help/main/administrating-target/reporting.md)

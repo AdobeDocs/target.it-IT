@@ -1,6 +1,6 @@
 ---
 keywords: Targeting;compositore esperienza visivo;compositore esperienza visivo avanzato;VEC;risoluzione dei problemi del compositore esperienza visivo;risoluzione dei problemi;compositore esperienza avanzato;TLS;TLS 1.2
-description: Scopri come risolvere i problemi che a volte si verificano nel Compositore esperienza visivo e nel Compositore esperienza avanzato in determinate condizioni.
+description: Scopri come risolvere i problemi che talvolta si verificano nel Compositore esperienza visivo e nel Compositore esperienza avanzato in determinate condizioni.
 title: Come posso risolvere i problemi relativi al Compositore esperienza visivo e al Compositore esperienza avanzato?
 feature: Visual Experience Composer (VEC)
 exl-id: a971627c-662e-487b-bf0c-f73d196e3e71
@@ -13,7 +13,7 @@ ht-degree: 78%
 
 # Risoluzione dei problemi relativi al Compositore esperienza visivo e Compositore esperienza avanzato
 
-A volte si verificano problemi di visualizzazione nel [!DNL Adobe Target] [!UICONTROL Compositore esperienza visivo] (Compositore esperienza visivo) e [!UICONTROL Compositore esperienza avanzato] (CEE) a determinate condizioni.
+Talvolta si verificano problemi di visualizzazione in [!DNL Adobe Target] [!UICONTROL Compositore esperienza visivo] (VEC) e [!UICONTROL Compositore esperienza avanzato] (CEE) a determinate condizioni.
 
 Il Compositore esperienza visivo è una delle funzionalità principali di [!DNL Adobe Target]. Il Compositore esperienza visivo è un editor che consente agli addetti al marketing e ai designer di creare e modificare il contenuto mediante un’interfaccia visiva, che permette di operare molte scelte di progettazione senza dover intervenire direttamente sul codice. Il compositore offre anche opzioni per modificare il codice HTML e JavaScript.
 

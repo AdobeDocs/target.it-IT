@@ -1,7 +1,7 @@
 ---
 keywords: Targeting;origini di traffico;origini di traffico target;traffico da motore di ricerca;motore di ricerca;pagina di destinazione;pagina di destinazione di target;pagina di destinazione di riferimento
 description: Scopri come creare tipi di pubblico in Adobe [!DNL Target] per eseguire il targeting dei visitatori in base al motore di ricerca o alla pagina di destinazione che li rimanda al sito.
-title: È possibile indirizzare i visitatori in base al motore di ricerca o al sito di riferimento?
+title: Posso indirizzare i visitatori in base al motore di ricerca o al sito di riferimento?
 feature: Audiences
 exl-id: 61902d29-36ea-4d9a-8650-f6f6690a545b
 source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
@@ -13,7 +13,7 @@ ht-degree: 63%
 
 # Origini del traffico
 
-Crea un pubblico in [!DNL Adobe Target] per eseguire il targeting dei visitatori in base al motore di ricerca o alla pagina di destinazione che li rimanda al sito.
+Creare tipi di pubblico in [!DNL Adobe Target] per eseguire il targeting dei visitatori in base al motore di ricerca o alla pagina di destinazione che li rimanda al sito.
 
 Ad esempio, puoi rivolgerti a visitatori specifici in base al browser utilizzato, al motore di ricerca o alla pagina di destinazione di riferimento. La pagina di destinazione di riferimento è quella in cui il visitatore ha fatto clic per raggiungere il sito corrente durante la sessione in corso. Ad esempio, se fai clic su un annuncio su Google che ti porta alla pagina Home di `adobe.com`, la pagina di destinazione di riferimento è `google.com`.
 
@@ -22,7 +22,7 @@ Puoi combinare più origini di traffico per creare una regola di targeting compl
 1. Nell’interfaccia di [!DNL Target] fai clic su **[!UICONTROL Pubblico]** > **[!UICONTROL Crea pubblico]**.
 1. 
    1. Assegna un nome al pubblico e aggiungi una descrizione facoltativa.
-1. Trascinamento della selezione **[!UICONTROL Origini del traffico]** nel riquadro audience builder (generatore di pubblico).
+1. Trascina **[!UICONTROL Sorgenti di traffico]** nel riquadro audience builder.
 
    ![immagine target_traffic_source](assets/target_traffic_source.png)
 

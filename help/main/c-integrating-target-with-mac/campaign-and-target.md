@@ -13,9 +13,9 @@ ht-degree: 41%
 
 # Integrare [!DNL Target] con Adobe Campaign
 
-Utilizzo [!DNL Target] con [!DNL Adobe Campaign] per ottimizzare il contenuto delle e-mail.
+Utilizzare [!DNL Target] con [!DNL Adobe Campaign] per ottimizzare il contenuto delle e-mail.
 
-Per ottimizzare il contenuto delle e-mail, puoi creare un’offerta di reindirizzamento in [!DNL Target], quindi utilizza [!DNL Adobe Campaign] per gestire le offerte e-mail. Ad esempio, puoi visualizzare offerte diverse per i destinatari di sesso maschile e femminile.
+Per ottimizzare il contenuto delle e-mail, puoi creare un’offerta di reindirizzamento in [!DNL Target], quindi utilizza [!DNL Adobe Campaign] per gestire le offerte e-mail. Ad esempio, puoi visualizzare offerte diverse per destinatari di sesso maschile e femminile.
 
 L’integrazione avviene all’apertura dell’e-mail. Quando il cliente apre l’e-mail, viene effettuata una chiamata a [!DNL Target] e viene visualizzata una versione dinamica del contenuto. Il contenuto è costituito da un’immagine statica supportata da tutti i browser. [!DNL Target] tiene traccia della reazione all’offerta, a livello di pubblico o di sessione, e tali dati sono disponibili nel rapporto di [!DNL Target]
 
@@ -24,7 +24,7 @@ L’integrazione avviene all’apertura dell’e-mail. Quando il cliente apre l�
 * Agente utente
 * Indirizzo IP
 * Posizione geografica
-* Segmento associato all’ID del visitatore in [!DNL Target] (previa approvazione legale)
+* Segmento associato all’ID del visitatore in [!DNL Target] (previa autorizzazione legale)
 * Dati da [!DNL Campaign] Datamart
 
 Ci sono diverse limitazioni:
@@ -33,9 +33,9 @@ Ci sono diverse limitazioni:
 * Il tracciamento non è consolidato in [!DNL Adobe Campaign].
 * Nessuna esperienza utente unificata.
 
-Usa entrambi [!DNL Target] e [!DNL Campaign] per impostare diverse parti dell&#39;integrazione:
+Usa entrambi [!DNL Target] e [!DNL Campaign] per impostare parti diverse dell&#39;integrazione:
 
-* La casella non elaborata e l’esperienza in [!DNL Target]
+* La casella raw e l’esperienza in [!DNL Target]
 
 >[!NOTE]
 >
@@ -45,13 +45,13 @@ Usa entrambi [!DNL Target] e [!DNL Campaign] per impostare diverse parti dell&#3
 
 ## Prima di iniziare {#section_FF19BF1BCA064260930BF6C141313B0E}
 
-Prima di utilizzare [!DNL Adobe Campaign] per impostare le offerte e-mail mirate, configura quanto segue in [!DNL Target]:
+Prima di usare [!DNL Adobe Campaign] per impostare le offerte e-mail mirate, imposta quanto segue in [!DNL Target]:
 
 * Due o più [!DNL Target] offerte di reindirizzamento
 
-   Vedi [Creare un’offerta di reindirizzamento](/help/main/c-experiences/c-manage-content/offer-redirect.md).
+   Consulta [Crea offerta di reindirizzamento](/help/main/c-experiences/c-manage-content/offer-redirect.md).
 
-* A [!DNL Target] attività con un’esperienza per ogni offerta e [metrica di successo](/help/main/c-activities/r-success-metrics/success-metrics.md).
+* A [!DNL Target] con un’esperienza per ogni offerta e il [metrica di successo](/help/main/c-activities/r-success-metrics/success-metrics.md).
 
    Consulta [Reindirizza all’URL](/help/main/c-experiences/c-visual-experience-composer/redirect-offer.md).
 
@@ -65,10 +65,10 @@ Avvia l’attività in [!DNL Target] prima di configurare [!DNL Campaign] parte 
 1. Specifica la posizione (rawbox).
 1. Aggiungi qualsiasi altro parametro decisionale, ad esempio il genere del destinatario.
 1. Visualizza in anteprima l’e-mail, selezionando almeno un destinatario per ogni offerta (in questo caso, un uomo e una donna).
-1. In [!DNL Campaign], definire [!DNL Target] Server Edge utilizzato per controllare l’attività e il nome del tenant.
-1. Specifica l’account esterno utilizzato per la [!DNL Adobe Experience Cloud] per accedere alle risorse nel [!DNL Experience Cloud].
+1. In entrata [!DNL Campaign], definisci [!DNL Target] Edge Server utilizzato per controllare l’attività e il nome del tenant.
+1. Specifica l’account esterno utilizzato per [!DNL Adobe Experience Cloud] per accedere alle risorse in [!DNL Experience Cloud].
 
-Per ulteriori informazioni, consulta la [!DNL Adobe Campaign] documentazione.
+Per ulteriori informazioni, consulta [!DNL Adobe Campaign] documentazione.
 
 ## Video: Integrare [!DNL Target] con [!DNL Campaign]
 

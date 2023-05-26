@@ -1,5 +1,5 @@
 ---
-keywords: Analytics come origine per la generazione di rapporti;a4t;A4T;requisiti
+keywords: Analytics come origine per la generazione di rapporti;a4t;A4T;requirements
 description: Scopri come configurare i requisiti dell’account utente necessari per creare un’attività basata su Adobe Analytics in Adobe [!DNL Target] utilizzo di Analytics per [!DNL Target] (A4T).
 title: Quali requisiti di autorizzazione utente sono necessari per A4T?
 feature: Analytics for Target (A4T)
@@ -34,25 +34,25 @@ Per ulteriori informazioni, consulta [Organizzazioni e collegamento di account](
 
 Devi essere membro di uno o più gruppi di [!DNL Experience Cloud] che hanno accesso a [!DNL Analytics] e a [!DNL Target].
 
-Per ulteriori informazioni, consulta [Gestione di utenti e prodotti Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html).
+Per ulteriori informazioni, consulta [Gestione di utenti e prodotti Experienci Cloud](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html).
 
 ## Adobe Analytics {#section_8F404FDE9A634534AB0AA4CB3075582B}
 
-Per utilizzare A4T in una determinata suite di rapporti, devi disporre dell’accesso a tale suite di rapporti e concedere l’accesso a [!DNL Web Services Access] gruppo.
+Per utilizzare A4T in una determinata suite di rapporti, devi avere accesso a tale suite di rapporti e concedere l’accesso a [!DNL Web Services Access] gruppo.
 
-1. In **[!UICONTROL Admin Console]**, fai clic su [!DNL Analytics] profilo di prodotto, quindi fai clic sul **[!UICONTROL Autorizzazioni]** scheda .
+1. In entrata **[!UICONTROL Admin Console]**, fare clic su un [!DNL Analytics] profilo di prodotto, quindi fai clic su **[!UICONTROL Autorizzazioni]** scheda.
 
-   Puoi quindi vedere a quali suite di rapporti ha accesso il profilo.
+   Puoi quindi vedere a quali suite di rapporti il profilo ha accesso.
 
-1. Assicurati che la suite di rapporti a cui desideri accedere in [!DNL Target] è uno di quelli elencati nel profilo di prodotto di cui fai parte.
+1. Assicurati che la suite di rapporti a cui desideri avere accesso in [!DNL Target] è uno di quelli elencati nel profilo di prodotto di cui fai parte.
 
-   L’illustrazione seguente è un esempio di un profilo di prodotto con accesso a tutte le suite di rapporti:
+   L’illustrazione seguente è un esempio di un profilo di prodotto che ha accesso a tutte le suite di rapporti:
 
    ![Scheda Autorizzazione Admin Console](/help/main/c-integrating-target-with-mac/a4t/assets/permissions-tab.png)
 
-1. Configurare l’accesso al [!UICONTROL Accesso ai servizi Web] gruppo.
+1. Configurare l’accesso a [!UICONTROL Accesso ai servizi Web] gruppo.
 
-   Accesso al [!UICONTROL Accesso ai servizi Web] in [!DNL Analytics] è necessario per poter utilizzare [!DNL Analytics] come origine per la generazione di rapporti per [!DNL Target].
+   Accesso al [!UICONTROL Accesso ai servizi Web] raggruppare in [!DNL Analytics] deve essere in grado di utilizzare [!DNL Analytics] come origine di reporting per [!DNL Target].
 
 
 ## Adobe [!DNL Target] {#section_26BA212D8D40443E9EE2AB327091425C}

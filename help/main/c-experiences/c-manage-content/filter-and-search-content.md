@@ -1,7 +1,7 @@
 ---
 keywords: libreria di contenuti;risorse;ricerca;filtro
-description: Scopri come cercare offerte di codice e immagini nell’Adobe [!DNL Target] Libreria offerte.
-title: Come si cerca il contenuto nella libreria delle offerte?
+description: Scopri come cercare le offerte di codice e immagini nell’Adobe [!DNL Target] Libreria di offerte.
+title: Come posso cercare contenuti nella libreria delle offerte?
 feature: Experiences and Offers
 exl-id: 68ff0da5-4556-493e-b6b3-7bcbba320d57
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
@@ -13,24 +13,24 @@ ht-degree: 13%
 
 # Ricercare contenuto
 
-Cercare risorse per parole chiave nel [!UICONTROL Offerte] libreria in [!DNL Adobe Target].
+Cercare le risorse per parole chiave in [!UICONTROL Offerte] libreria in [!DNL Adobe Target].
 
-## Ricerca di offerte di codice per parola chiave
+## Cerca offerte di codice per parola chiave
 
-1. Fai clic su **[!UICONTROL Offerte]** > **[!UICONTROL Offerte di codice]**.
-1. Digita le parole chiave desiderate nel [!UICONTROL Ricerca] scatola.
+1. Clic **[!UICONTROL Offerte]** > **[!UICONTROL Offerte di codice]**.
+1. Digita le parole chiave desiderate nel [!UICONTROL Ricerca] casella.
 
-   Puoi anche filtrare utilizzando la [!UICONTROL Tipo] e [!UICONTROL Origine] elenchi a discesa per perfezionare ulteriormente la ricerca.
+   Puoi anche filtrare utilizzando [!UICONTROL Tipo] e [!UICONTROL Sorgente] per perfezionare ulteriormente la ricerca.
 
-## Ricerca di offerte di immagini per parola chiave {#section_2465A71BC95942588F586B1EC8B9E5DB}
+## Cerca offerte di immagini per parola chiave {#section_2465A71BC95942588F586B1EC8B9E5DB}
 
-1. Fai clic su **[!UICONTROL Offerte]** > **[!UICONTROL Offerte immagine]**.
+1. Clic **[!UICONTROL Offerte]** > **[!UICONTROL Offerte immagine]**.
 
-1. (Facoltativo) Passa da [!UICONTROL Vista a schede] e [!UICONTROL Vista a elenco], fai clic su [!UICONTROL Vista a schede] o [!UICONTROL Vista a elenco] nell’angolo in alto a destra della libreria dei contenuti. È inoltre possibile utilizzare [!UICONTROL Visualizza impostazioni] per configurare ulteriormente le colonne quando visualizzi il [!UICONTROL Vista a elenco].
+1. (Facoltativo) Passa da [!UICONTROL Vista a schede] e [!UICONTROL Vista a elenco], fare clic su [!UICONTROL Vista a schede] o [!UICONTROL Vista a elenco] nell’angolo superiore destro della libreria dei contenuti. Puoi anche utilizzare [!UICONTROL Impostazioni vista] per configurare ulteriormente le colonne durante la visualizzazione del [!UICONTROL Vista a elenco].
 
-   L’illustrazione seguente mostra le opzioni disponibili quando visualizzi il [!UICONTROL Vista a elenco]:
+   Nella figura seguente sono illustrate le opzioni disponibili per la visualizzazione [!UICONTROL Vista a elenco]:
 
-   ![Opzioni Vista a elenco](/help/main/c-experiences/c-manage-content/assets/view-settings-options.png)
+   ![Opzioni vista a elenco](/help/main/c-experiences/c-manage-content/assets/view-settings-options.png)
 
 1. Per visualizzare la casella di ricerca, fai clic sull&#39;icona **[!UICONTROL Solo contenuto]** nell&#39;angolo superiore sinistro.
 
@@ -44,14 +44,14 @@ Cercare risorse per parole chiave nel [!UICONTROL Offerte] libreria in [!DNL Ado
 
    Puoi filtrare per:
 
-   * Tipo di file: Immagini, Documenti, Multimedia o Archivi.
-   * Dimensione file: Piccolo, Medio o Grande
-   * Ultima modifica: Ora, giorno, settimana, mese o anno.
-   * Stato approvazione: Approvato o rifiutato.
-   * Stato scadenza: Scaduto.
+   * Tipo di file: immagini, documenti, file multimediali o archivi.
+   * Dimensione file: piccolo, medio o grande
+   * Ultima modifica: Ora, Giorno, Settimana, Mese o Anno.
+   * Stato approvazione: approvato o rifiutato.
+   * Stato scadenza: scaduto.
    * Valutazione media: da 1 a 5.
    * Orientamento: Orizzontale, Verticale o Quadrato.
-   * Stile: Colore o Bianco e nero.
-   * Punteggio di utilizzo: Da minimo a massimo
-   * Punteggio impression: Da minimo a massimo
-   * Fai clic su Punteggio: da 1 a 5.
+   * Stile: colore o bianco e nero.
+   * Punteggio di utilizzo: dal minimo al massimo
+   * Punteggio impression: dal minimo al massimo
+   * Fare clic su Punteggio: da 1 a 5.

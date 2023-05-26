@@ -26,7 +26,7 @@ Sono disponibili tre metodi di integrazione [!DNL Target Recommendations] con il
 
 Per i metodi 1 e 2, il tuo ESP deve effettuare chiamate a un’API esterna per cliente/per e-mail e attendedere che venga restituito il contenuto appropriato. Questi metodi non sono supportati da tutt gli ESP; contatta il tuo ESP per determinare se è compatibile con questo modello di integrazione.
 
-Per il metodo 3, il tuo ESP deve unre all’elenco delle e-mail un elenco di consigli per ID prodotto o ID categoria. Questo metodo può essere basato su un attributo come l&#39;ultimo prodotto visualizzato del cliente, l&#39;ultimo prodotto acquistato o la categoria più visualizzata. Tuttavia, per eseguire l’unione di tali elenchi, l’ESP deve avere accesso a questi dati nel suo profilo cliente. Contatta il tuo ESP per determinare se ha accesso a questi dati e se è compatibile con questo modello di integrazione.
+Per il metodo 3, il tuo ESP deve unre all’elenco delle e-mail un elenco di consigli per ID prodotto o ID categoria. Questo metodo può essere basato su un attributo come ultimo prodotto visualizzato dal cliente, ultimo prodotto acquistato o la categoria più visualizzata. Tuttavia, per eseguire l’unione di tali elenchi, l’ESP deve avere accesso a questi dati nel suo profilo cliente. Contatta il tuo ESP per determinare se ha accesso a questi dati e se è compatibile con questo modello di integrazione.
 
 La personalizzazione dei consigli in base all’ora di apertura non è supportata da [!DNL Adobe Target].
 

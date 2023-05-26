@@ -1,7 +1,7 @@
 ---
 keywords: compositore esperienza visivo;best practice compositore esperienza visivo;limitazioni compositore esperienza visivo;avvertenze compositore esperienza visivo;procedure ottimali compositore esperienza visivo;vec
-description: Scopri le best practice per far funzionare le esperienze come previsto quando utilizzi il Compositore esperienza visivo in Adobe Target.
-title: Quali sono le best practice e limitazioni del Compositore esperienza visivo?
+description: Scopri le best practice per fare in modo che le esperienze funzionino come previsto quando utilizzi il Compositore esperienza visivo in Adobe Target.
+title: Quali sono le best practice e le limitazioni del Compositore esperienza visivo?
 feature: Visual Experience Composer (VEC)
 exl-id: cf51bfec-d7fa-4ec1-a5dc-35edefefd3e4
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
@@ -13,25 +13,25 @@ ht-degree: 93%
 
 # Best practice e limitazioni del Compositore esperienza visivo
 
-Le best practice seguenti consentono di ottenere più facilmente il funzionamento previsto per le esperienze. Sono inoltre disponibili altri suggerimenti e limitazioni di cui tenere conto quando si utilizza il Compositore esperienza visivo in [!DNL Adobe Target].
+Le best practice seguenti consentono di ottenere più facilmente il funzionamento previsto per le esperienze. Quando si utilizza il Compositore esperienza visivo in, è inoltre necessario conoscere altri suggerimenti e limitazioni. [!DNL Adobe Target].
 
 Segui queste best practice per evitare che si verifichino problemi imprevisti con le esperienze che progetti.
 
 ## Best practice  {#section_86CF28C99CFF40329E4CBAFE4DD78BB4}
 
-**Posiziona il riferimento at.js nella parte superiore della `<head>` della pagina.**
+**Posiziona il riferimento at.js nella parte superiore della sezione `<head>` della pagina.**
 
-Se utilizzi anche il servizio API visitatore, inserisci lo script API del visitatore sopra at.js.
+Se utilizzi anche il servizio API Visitor, inserisci lo script dell’API visitatore sopra at.js.
 
 **Puoi abilitare il Compositore esperienza avanzato a livello di account (abilitato per tutte le attività create nell’account) o a livello della singola attività.**
 
-Per abilitare il Compositore esperienza avanzato a livello di account, fai clic su [!UICONTROL Amministrazione > Compositore esperienza visivo]quindi attivare l&#39;interruttore.
+Per abilitare il Compositore esperienza avanzato a livello di account, fai clic su [!UICONTROL Amministrazione > Compositore esperienza visivo], quindi attivare l&#39;interruttore.
 
 Per abilitare il Compositore esperienza avanzato a livello di attività durante la creazione di un&#39;attività nel Compositore esperienza visivo, fai clic su [!UICONTROL Configura > URL], quindi attiva il pulsante.
 
-**Puoi inserire nell&#39;elenco Consentiti alcuni indirizzi IP se il Compositore esperienza visivo avanzato non viene caricato su pagine protette del sito.**
+**Inserire nell&#39;elenco Consentiti Se il Compositore esperienza visivo avanzato non viene caricato su pagine protette del sito, puoi alcuni indirizzi IP.**
 
-Per risolvere i problemi di caricamento del Compositore esperienza visivo avanzato, inserire nell&#39;elenco Consentiti i seguenti indirizzi IP. Si tratta degli indirizzi IP per il server Adobe utilizzato per il proxy del Compositore esperienza avanzato. Sono necessari solo per modificare le attività. I visitatori del tuo sito non hanno bisogno di questi indirizzi IP inseriti nell&#39;elenco Consentiti.
+I problemi relativi al caricamento del Compositore esperienza visivo avanzato possono essere risolti inserendo nell&#39;elenco Consentiti i seguenti indirizzi IP. Si tratta degli indirizzi IP per il server Adobe utilizzato per il proxy del Compositore esperienza avanzato. Sono necessari solo per modificare le attività. I visitatori del tuo sito non hanno bisogno di inserire nell&#39;elenco Consentiti questi indirizzi IP.
 
 Stati Uniti: 52.55.99.45, 54.80.158.92, e 54.204.197.253
 

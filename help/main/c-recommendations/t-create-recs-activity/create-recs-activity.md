@@ -1,7 +1,7 @@
 ---
 keywords: creare consigli;attività consigli;nuovi consigli;panoramica consigli
-description: Scopri come utilizzare l’Adobe [!DNL Target] Compositore esperienza visivo per creare un’attività Recommendations direttamente su un [!DNL Target]Pagina abilitata.
-title: Come si crea un'attività Recommendations?
+description: Scopri come utilizzare l’Adobe [!DNL Target] Compositore esperienza visivo (VEC) per creare un’attività Recommendations direttamente su un [!DNL Target]pagina abilitata.
+title: Come si crea un’attività Recommendations?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 exl-id: c83073d5-f852-4f09-8343-e4658fbf6f43
@@ -32,7 +32,7 @@ Utilizza il Compositore esperienza visivo di Target per creare attività Consigl
    >
    >Per informazioni sulla risoluzione dei problemi relativi al Compositore esperienza visivo, consulta [Risoluzione dei problemi relativi al Compositore esperienza visivo](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md).
    >
-   >La [!UICONTROL [Scegli luogo di lavoro]](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) nell&#39;illustrazione precedente è presente un&#39;opzione [Target Premium](/help/main/c-intro/intro.md) funzionalità. Se la tua organizzazione dispone di una licenza di Target Standard, questa opzione non è disponibile.
+   >Il [!UICONTROL [Scegli area di lavoro]](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) nell&#39;illustrazione precedente è un&#39;opzione [Target Premium](/help/main/c-intro/intro.md) funzionalità. Se la tua organizzazione dispone di una licenza di Target Standard, questa opzione non è disponibile.
 
 1. (Condizionale) Se sei un cliente [Target Premium](/help/main/c-intro/intro.md#premium), scegli un’[area di lavoro](/help/main/administrating-target/c-user-management/property-channel/property-channel.md).
 
@@ -46,17 +46,17 @@ Utilizza il Compositore esperienza visivo di Target per creare attività Consigl
 
    Quando fai clic su [!UICONTROL Avanti], il Compositore esperienza visivo si apre e mostra la pagina. Puoi sostituire un elemento corrente con i consigli oppure inserirli.
 
-1. Fai clic su un elemento nella pagina; quindi, se i consigli sono disponibili nella posizione in cui si trova l’elemento, fai clic su **[!UICONTROL Sostituisci con Recommendations]**, **[!UICONTROL Inserisci Recommendations prima]** oppure **[!UICONTROL Inserisci Recommendations dopo]**.
+1. Fai clic su un elemento nella pagina; quindi, se i consigli sono disponibili nella posizione in cui si trova l’elemento, fai clic su **[!UICONTROL Sostituisci con Recommendations]**, **[!UICONTROL Inserisci Recommendations prima]**, o **[!UICONTROL Inserisci Recommendations dopo]**.
 
-   I visitatori del sito visualizzeranno il contenuto consigliato solo se si qualificano per la raccomandazione. I visitatori che non si qualificano per la raccomandazione visualizzeranno il contenuto predefinito.
+   I visitatori del tuo sito visualizzeranno il contenuto consigliato solo se sono idonei per il consiglio. I visitatori che non sono idonei per il consiglio visualizzeranno il contenuto predefinito.
 
    ![Opzioni per la funzione Consigli](/help/main/c-recommendations/t-create-recs-activity/assets/Menu_Replace-Insert.png)
 
-   * **[!UICONTROL Sostituisci con Recommendations]**: La sostituzione di un elemento con i consigli elimina il contenuto corrente e lo sostituisce con i consigli. Quando i visitatori visitano il sito e si qualificano per il consiglio, visualizzano gli elementi consigliati nell&#39;area specificata invece del contenuto esistente.
-   * **[!UICONTROL Inserisci Recommendations prima]**: L’inserimento di consigli prima dell’elemento selezionato posiziona il contenuto consigliato prima di tale elemento. A seconda della costruzione della pagina, il consiglio viene visualizzato sopra o a sinistra dell’elemento selezionato.
-   * **[!UICONTROL Inserisci Recommendations dopo]**: L’inserimento di consigli dopo l’elemento selezionato posiziona il contenuto consigliato dopo tale elemento. A seconda della costruzione della pagina, il consiglio viene visualizzato sotto o a destra dell’elemento selezionato.
+   * **[!UICONTROL Sostituisci con Recommendations]**: la sostituzione di un elemento con i consigli elimina il contenuto corrente e lo sostituisce con i consigli. Quando i visitatori visitano il tuo sito e si qualificano per il consiglio, visualizzano gli articoli consigliati nell&#39;area specificata invece che nel contenuto esistente.
+   * **[!UICONTROL Inserisci Recommendations prima]**: inserendo i consigli prima che l’elemento selezionato inserisca il contenuto consigliato prima di tale elemento. A seconda della costruzione della pagina, il consiglio viene visualizzato sopra o a sinistra dell’elemento selezionato.
+   * **[!UICONTROL Inserisci Recommendations dopo]**: l’inserimento di consigli dopo che l’elemento selezionato inserisce il contenuto consigliato dopo tale elemento. A seconda della costruzione della pagina, il consiglio viene visualizzato di seguito o a destra dell’elemento selezionato.
 
-   La **[!UICONTROL Espandi selezione]** consente di espandere la posizione selezionata (contenitore principale) per facilitarti di identificare e includere più facilmente gli elementi di pagina desiderati.
+   Il **[!UICONTROL Espandi selezione]** consente di espandere la posizione selezionata (contenitore principale) per identificare e includere più facilmente gli elementi della pagina desiderati.
 
 1. Seleziona un tipo di pagina.
 
@@ -75,11 +75,11 @@ Utilizza il Compositore esperienza visivo di Target per creare attività Consigl
 
 1. Seleziona uno o più [criteri](/help/main/c-recommendations/c-algorithms/algorithms.md).
 
-   I criteri vengono visualizzati sotto forma di schede contenenti informazioni su ciascun criterio. Per impostazione predefinita, la [!UICONTROL Seleziona criteri] in questa schermata vengono visualizzati i criteri compatibili con il settore verticale e il tipo di pagina selezionato nel passaggio precedente. Puoi modificare queste opzioni per visualizzare altri criteri.
+   I criteri vengono visualizzati sotto forma di schede contenenti informazioni su ciascun criterio. Per impostazione predefinita, il [!UICONTROL Seleziona criterio] nella schermata vengono visualizzati criteri compatibili con il settore verticale e il tipo di pagina selezionato nel passaggio precedente. Puoi modificare queste opzioni per visualizzare altri criteri.
 
    >[!NOTE]
    >
-   >Non tutti i criteri vengono eseguiti correttamente su ogni pagina. La pagina o mbox deve passare `entity.id` o `entity.categoryId` per rendere compatibili i consigli per l’elemento o la categoria corrente. In generale, è consigliabile mostrare solo i criteri compatibili. Tuttavia, se desideri che i criteri non compatibili siano disponibili per l’attività, deseleziona la casella di controllo **[!UICONTROL Compatibile]**. L&#39;opzione [!UICONTROL Compatibile] potrebbe non essere visualizzata, a seconda delle impostazioni dei Consigli (**[!UICONTROL Consigli]** > **[!UICONTROL Impostazioni]** > **[!UICONTROL Criteri non compatibili]**). Per ulteriori informazioni, consulta [Impostazioni](https://experienceleague.corp.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}.
+   >Non tutti i criteri vengono eseguiti correttamente su ogni pagina. La pagina o mbox deve passare `entity.id` o `entity.categoryId` per rendere compatibili i consigli per l’elemento o la categoria corrente. In generale, è consigliabile mostrare solo i criteri compatibili. Tuttavia, se desideri che i criteri non compatibili siano disponibili per l’attività, deseleziona la casella di controllo **[!UICONTROL Compatibile]**. L&#39;opzione [!UICONTROL Compatibile] potrebbe non essere visualizzata, a seconda delle impostazioni dei Consigli (**[!UICONTROL Consigli]** > **[!UICONTROL Impostazioni]** > **[!UICONTROL Criteri non compatibili]**). Per ulteriori informazioni, consulta [Impostazioni](https://experienceleague.corp.adobe.com/docs/target-dev/developer/recommendations.html?lang=it){target=_blank}.
 
    ![Finestra di dialogo Seleziona criteri](/help/main/c-recommendations/t-create-recs-activity/assets/SCRN_SelectCriteria2.png)
 
@@ -89,8 +89,8 @@ Utilizza il Compositore esperienza visivo di Target per creare attività Consigl
 
       Alcuni criteri sono forniti con [!DNL Recommendations]. Con il tuo team puoi inoltre creare criteri personalizzati.
 
-   * Per creare un nuovo criterio, fai clic su **[!UICONTROL Creare criteri]** > **[!UICONTROL Creare criteri]**, quindi compila le informazioni per i nuovi criteri. Per informazioni sulla creazione di un nuovo criterio, consulta [Creazione di criteri](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md).
-   * È inoltre possibile raggruppare i criteri in sequenze. Per creare una nuova sequenza di criteri, fai clic su **[!UICONTROL Creare criteri]** > **[!UICONTROL Crea sequenza criteri]**. Vedi [Crea sequenza criteri](/help/main/c-recommendations/c-algorithms/create-criteria-sequence.md) per ulteriori informazioni.
+   * Per creare un nuovo criterio, fai clic su **[!UICONTROL Crea criterio]** > **[!UICONTROL Crea criterio]**, quindi inserisci le informazioni per i nuovi criteri. Per informazioni sulla creazione di un nuovo criterio, consulta [Creazione di criteri](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md).
+   * È inoltre possibile raggruppare i criteri in sequenze. Per creare una nuova sequenza di criteri, fai clic su **[!UICONTROL Crea criterio]** > **[!UICONTROL Crea sequenza criteri]**. Consulta [Crea sequenza criteri](/help/main/c-recommendations/c-algorithms/create-criteria-sequence.md) per ulteriori informazioni.
 
 1. Fai clic su **[!UICONTROL Successivo]**.
 1. Seleziona un [design](/help/main/c-recommendations/c-design-overview/design-overview.md).
@@ -164,8 +164,8 @@ Utilizza il Compositore esperienza visivo di Target per creare attività Consigl
 
    * Attivare l’attività
    * Modificare l’attività
-   * Condividi l’attività nel feed di Experience Cloud
-   * Controllo qualità dell’attività
+   * Condividi l’attività nel tuo feed Experience Cloud
+   * Eseguire il controllo qualità dell’attività
    * Visualizzare gli URL dell’esperienza
    * Scaricare dati
    * Modificare la percentuale di partecipanti all’attività che visualizzano l’esperienza di controllo

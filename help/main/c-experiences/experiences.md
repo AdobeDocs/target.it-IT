@@ -1,7 +1,7 @@
 ---
 keywords: esperienza;compositore esperienza visivo;compositore esperienza avanzato;compositore esperienza basato su moduli;compositore moduli;compositore visivo;compositore esperienza;contenuto misto;iframe;iframe busting;iframe bust;x-frame-options;origini incrociate;problemi di origini incrociate;flusso di lavoro di autenticazione
-description: Ulteriori informazioni su Compositori esperienza Adobe - Compositore esperienza visivo, Compositore esperienza basato su moduli e Compositore esperienza visivo a pagina singola.
-title: Quale Compositore esperienza fa [!DNL Target] Offerta?
+description: 'Ulteriori informazioni su Compositori esperienza Adobe: Compositore esperienza visivo, Compositore esperienza basato su moduli e Compositore esperienza visivo a pagina singola.'
+title: Quali Compositori Esperienza Funzionano [!DNL Target] Offerta?
 feature: Experiences and Offers
 exl-id: 83daca9f-c154-487e-83cd-e458d50cece2
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
@@ -13,7 +13,7 @@ ht-degree: 79%
 
 # Esperienze e offerte
 
-Un’esperienza in [!DNL Adobe Target] determina il contenuto visualizzato quando il visitatore soddisfa i criteri di pubblico per un’attività.
+Un’esperienza in [!DNL Adobe Target] determina quale contenuto visualizzare quando il visitatore soddisfa i criteri di pubblico per un’attività.
 
 Un’esperienza può essere un’offerta, un’immagine, un testo, un pulsante, un video, una combinazione di questi vari elementi su una pagina, un’intera pagina web o un set di pagine, ad esempio un percorso di acquisto o altra sequenza logica di pagine. Può essere anche la risposta di un assistente vocale o di uno script di servizio clienti, o addirittura un gusto personalizzato da un distributore di bevande. Puoi testare o personalizzare le esperienze nelle attività di [!DNL Target].
 

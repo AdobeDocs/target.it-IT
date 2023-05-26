@@ -6,10 +6,10 @@ short-description: Scopri le nuove funzioni, i miglioramenti e le correzioni inc
 title: Cosa è incluso nella versione corrente?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: ecdb94a679e033d3ec030513fd66c9eea039195b
+source-git-commit: 241ebc7af24ad17705b437e620a9c91f983bc4ad
 workflow-type: tm+mt
-source-wordcount: '396'
-ht-degree: 83%
+source-wordcount: '449'
+ht-degree: 100%
 
 ---
 
@@ -19,17 +19,14 @@ Queste note sulla versione forniscono informazioni su funzioni, miglioramenti e 
 
 I codici dei problemi tra parentesi sono per uso interno di [!DNL Adobe].
 
-## [!DNL Target] Standard/Premium 23.5.1 (23-25 maggio 2023)
+## [!DNL Target] Standard/Premium 23.4.1 (25-27 aprile 2023)
 
-Questa versione sarà disponibile in base al seguente programma scaglionato:
+Questa versione contiene aggiornamenti di sicurezza e le seguenti nuove funzioni:
 
-23 maggio: area geografica Europa, Medio Oriente e Africa (EMEA) 24 maggio: area geografica Asia-Pacifico (APAC) 25 maggio: area geografica delle Americhe
-
-Questa versione include i seguenti miglioramenti e correzioni:
-
-* È stato risolto un problema che impediva ad alcuni clienti di creare tipi di pubblico con profili di visitatori utilizzando operatori &quot;maggiore di&quot; o &quot;minore di&quot;. (TGT-45271)
-* Sono state apportate diverse correzioni di localizzazione in tutta l’interfaccia utente di [!DNL Target].
-* L’interfaccia utente di Target è stata aggiornata in diverse posizioni per un prossimo aggiornamento dell’interfaccia utente (le modifiche sono dietro un flag di funzione fino al rilascio degli aggiornamenti).
+| Funzione | Dettagli |
+|--- |--- |
+| [!UICONTROL Frammenti di contenuto] di AEM per personalizzazione e sperimentazione headless | Puoi utilizzare i [!UICONTROL frammenti di contenuto] di [!DNL Adobe Experience Manager] (AEM) nelle attività di [!DNL Target]. Combina la facilità d’uso e la potenza di AEM con le potenti capacità dell’intelligenza artificiale (IA) e dell’apprendimento automatico (ML) in [!DNL Target] per facilitare la personalizzazione e la sperimentazione headless.<P>Per ulteriori informazioni, consulta [[!UICONTROL Frammenti di contenuto AEM]](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md). |
+| [*Guida per gli sviluppatori di Adobe Target*](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=it){target=_blank} | La *Guida per gli sviluppatori di Adobe Target* è stata trasferita in *[!UICONTROL Adobe Experience League]*. Il passaggio a *[!UICONTROL Experience League]* aiuta a localizzare il testo in lingue aggiuntive, unifica la ricerca all’interno di *Experience League* per estendere e offrire i risultati della ricerca sia dalla *[!UICONTROL Guida dei professionisti di Adobe Target]* che dalla *[!UICONTROL Guida per gli sviluppatori di Adobe Target]* e offre ulteriori vantaggi.<P>Verrai reindirizzato dalla posizione precedente a *[!UICONTROL Experience League]* automaticamente. Aggiorna i segnalibri secondo necessità. |
 
 ## Note aggiuntive e dettagli sulla versione
 

@@ -59,16 +59,16 @@ Le modifiche seguenti vengono applicate solo dopo l’esecuzione dell’algoritm
 * Una modifica alle impostazioni di promozione può richiedere fino a cinque ore per essere visualizzata sul sito.
 * Una modifica alle impostazioni di altri criteri potrebbe essere applicata solo alla successiva esecuzione dell’algoritmo:
 
-   * Alcune impostazioni di criteri (ad esempio, &quot;aggiunta di una regola di inclusione dinamica&quot;) vengono riflesse istantaneamente.
-   * Non è possibile incorporare altre impostazioni di criteri (ad esempio &quot;rimozione di una regola di inclusione dinamica&quot;, modifica dell’intervallo di lookback e così via) finché non viene eseguito l’algoritmo successivo.
+   * Alcune impostazioni di criteri (ad esempio, &quot;aggiunta di una regola di inclusione dinamica&quot;) vengono applicate immediatamente.
+   * Non è possibile incorporare altre impostazioni di criteri (ad esempio &quot;rimozione di una regola di inclusione dinamica&quot;, modifica dell’intervallo di lookback e così via) fino alla successiva esecuzione dell’algoritmo.
    * Le esecuzioni dell’algoritmo vengono attivate da queste modifiche, ma il loro completamento può richiedere fino a 24 ore. Inoltre, gli algoritmi vengono eseguiti su base pianificata ogni 12-24 ore.
 
-## Quanto tempo ci vuole affinché il comportamento di un utente (ad esempio, facendo clic sul prodotto A e acquistando il prodotto B) si rifletta nei consigli? *che* l&#39;utente riceve?
+## Quanto tempo ci vuole affinché il comportamento di un utente (ad esempio, clic sul prodotto A e acquisto del prodotto B) si rifletta nei consigli? *che* l&#39;utente riceve?
 
 * Il prodotto/contenuto attualmente visualizzato/acquistato influisce sui consigli che l’utente riceve sulla stessa richiesta di contenuto pageview/[!DNL Target].
-* Il comportamento storico degli utenti, ad esempio &quot;ultimo prodotto visualizzato&quot;, &quot;prodotto più visualizzato&quot; e la cronologia generale di visualizzazione/acquisto viene aggiornato con tale richiesta e influenza le raccomandazioni ricevute dall’utente sulla pagina successiva/[!DNL Target] richiesta di contenuto. Ad esempio, gli algoritmi &quot;Articoli visualizzati di recente&quot; e &quot;Consigliati per te&quot; vengono aggiornati con ogni visualizzazione/acquisto del prodotto e si riflettono sulla successiva richiesta di contenuto.
+* Con tale richiesta viene aggiornato il comportamento storico degli utenti, ad esempio &quot;ultimo prodotto visualizzato&quot;, &quot;prodotto più visualizzato&quot; e la cronologia generale di visualizzazione/acquisto, influenzando i consigli ricevuti dall’utente sulla successiva visualizzazione di pagina/[!DNL Target] richiesta di contenuto. Ad esempio, gli algoritmi &quot;Articoli visualizzati di recente&quot; e &quot;Consigliati per te&quot; vengono aggiornati con ogni visualizzazione/acquisto di prodotto e si riflettono sulla successiva richiesta di contenuto.
 
-## Quanto tempo ci vuole affinché il comportamento di un utente (ad esempio, facendo clic sul prodotto A e acquistando il prodotto B) si rifletta nei consigli? *altro* gli utenti ricevono?
+## Quanto tempo ci vuole affinché il comportamento di un utente (ad esempio, clic sul prodotto A e acquisto del prodotto B) si rifletta nei consigli? *altro* gli utenti ricevono?
 
 Il comportamento degli utenti in aggregato viene incorporato nell’elaborazione offline dell’algoritmo ogni volta che l’algoritmo viene eseguito, ogni 12-24 ore.
 
@@ -95,7 +95,7 @@ Se la posizione in cui stai applicando questo criterio non contiene l’ID di ca
 
 Se utilizzi una posizione in cui l’ID di categoria è presente nella mbox, il selettore di criteri contiene tutti i criteri applicabili.
 
-L’impostazione [!DNL Target]Filtra criteri incompatibili[](https://experienceleague.corp.adobe.com/docs/target-dev/developer/recommendations.html) di {target=_blank} consente di controllare il filtraggio intelligente del selettore dell’algoritmo.
+L’impostazione [!DNL Target]Filtra criteri incompatibili[](https://experienceleague.corp.adobe.com/docs/target-dev/developer/recommendations.html?lang=it) di {target=_blank} consente di controllare il filtraggio intelligente del selettore dell’algoritmo.
 
 >[!NOTE]
 >
@@ -111,7 +111,7 @@ Se l’impostazione [!UICONTROL Filtra criteri incompatibili] è abilitata, nell
 
 Se l’impostazione [!UICONTROL Filtra criteri incompatibili] è abilitata, è comunque possibile visualizzare gli algoritmi non compatibili deselezionando la casella [!UICONTROL Compatibile] durante la selezione dei criteri.
 
-![immagine compatibile_check](assets/compatible_checkbox.png)
+![immagine compatible_checkbox](assets/compatible_checkbox.png)
 
 L’elenco seguente contiene casi speciali in cui [!DNL Target] non visualizza la casella [!UICONTROL Compatibile]:
 
@@ -129,10 +129,10 @@ Considera le seguenti informazioni se noti che una raccolta, che in precedenza n
 
    ![immagine product_catalog](assets/product_catalog.png)
 
-* L’indice è aggiornato? Vai a [!DNL /target/products.html#productSearch] e controlla da quante ore esiste l&#39;indice (ad esempio, &quot;indicizzato 3 ore fa&quot;). Se necessario, puoi aggiornare l’indice.
+* L’indice è aggiornato? Vai a [!DNL /target/products.html#productSearch] e controlla da quante ore esiste l’indice (per esempio, &quot;indicizzato 3 ore fa&quot;). Se necessario, puoi aggiornare l’indice.
 * Hai modificato qualcosa nel livello di feed o di dati che ha comportato la mancata corrispondenza delle entità alle regole di raccolta? Assicurati che le maiuscole e le minuscole corrispondano.
 * Il feed è stato eseguito correttamente? Qualcuno ha cambiato la directory FTP, la password e così via?
-* [!DNL Target] fa del suo meglio per aggiornare la consegna (sulla pagina/app del cliente) il più rapidamente possibile. Tuttavia, [!DNL Target] deve anche fornire una rappresentazione nell’interfaccia utente per l’addetto marketing. [!DNL Target] non ritarda gli aggiornamenti di consegna per attendere la sincronizzazione con gli aggiornamenti dell’interfaccia utente. Puoi usare [mboxTrace](/help/main/c-activities/c-troubleshooting-activities/content-trouble.md) per vedere cosa c’è nel sistema nel momento in cui arriva una richiesta.
+* [!DNL Target] In gli aggiornamenti alla consegna (sulla pagina o nell’app del cliente) accadono il più rapidamente possibile. Tuttavia, [!DNL Target] deve anche fornire una rappresentazione nell’interfaccia utente per l’addetto marketing. [!DNL Target] non ritarda gli aggiornamenti di consegna per attendere la sincronizzazione con gli aggiornamenti dell’interfaccia utente. Puoi usare [mboxTrace](/help/main/c-activities/c-troubleshooting-activities/content-trouble.md) per vedere cosa c’è nel sistema nel momento in cui arriva una richiesta.
 
 ## Qual è la differenza tra Ponderazione attributi generale e Ponderazione attributi relativa alle somiglianze di contenuti? {#section_FCD96598CBB44B16A4C6C084649928FF}
 
@@ -142,9 +142,9 @@ La “ponderazione attributi standard” si applica, se non a tutti, alla maggio
 
 ![immagine attribute_weight_example](assets/attribute_weighting_example.png)
 
-La &quot;ponderazione degli attributi di somiglianza del contenuto&quot; si applica solo ai criteri di somiglianza del contenuto.
+La &quot;ponderazione degli attributi per similarità dei contenuti&quot; si applica solo ai criteri di somiglianza dei contenuti.
 
-Questo tipo di ponderazione è più dinamico e si basa sull&#39;attuale &quot;chiave di consiglio&quot; (l&#39;elemento attualmente visualizzato). Nell’esempio seguente (brand x 16), se un visitatore visualizzava scarpe da ginnastica Nike, è più probabile che il visitatore sia consigliato per altri prodotti Nike (non necessariamente solo per le scarpe da ginnastica) piuttosto che per le scarpe da ginnastica della concorrenza. A un visitatore che visualizza delle sneaker Adidas, verranno probabilmente consigliati prodotti Adidas.
+Questo tipo di ponderazione è più dinamico e si basa sulla &quot;chiave consiglio&quot; corrente (l’elemento attualmente visualizzato). Nell’esempio seguente (marchio x 16), se un visitatore stava guardando delle sneaker Nike, è più probabile che venga consigliato di utilizzare altri prodotti Nike (non necessariamente solo sneaker) piuttosto che le sneaker della concorrenza. A un visitatore che visualizza delle sneaker Adidas, verranno probabilmente consigliati prodotti Adidas.
 
 ![immagine content_similarity_example](assets/content_similarity_example.png)
 
@@ -251,7 +251,7 @@ Gli algoritmi creati in [!DNL Recommendations Classic] non sono supportati in [!
 Alcuni clienti dei settori comunicazione ed editoria desiderano assicurarsi che gli elementi consigliati includano solo gli articoli o i video più recenti. Ad esempio, un cliente [!DNL Target] ha utilizzato il seguente approccio per consigliare articoli usciti da meno di 60 giorni:
 
 1. La data di pubblicazione dell’articolo, in formato AAAAMMGG, viene passata come attributo di entità personalizzato.
-1. Crea uno script di profilo che sia la data odierna meno 60 giorni, anche in formato AAAAMMGG.
+1. Crea uno script di profilo corrispondente alla data odierna meno 60 giorni, anche questa in formato AAAAMMGG.
 1. Si utilizza un filtro di inclusione dinamica nei criteri, in modo che `publish date > today's date minus 60 days`.
 
 ### La data di pubblicazione viene passata come attributo di entità personalizzato:
@@ -276,7 +276,7 @@ Alcuni clienti dei settori comunicazione ed editoria desiderano assicurarsi che 
 >
 >Questo esempio può essere eseguito anche utilizzando la corrispondenza dei parametri e passando il valore `priorDate60` come parametro mbox.
 
-### Quali sono alcuni problemi noti durante l&#39;utilizzo di [!DNL Recommendations] attività?
+### Quali sono alcuni problemi noti durante l’utilizzo di [!DNL Recommendations] attività?
 
 Di seguito sono riportati i problemi noti relativi alle attività [!UICONTROL Recommendations]:
 

@@ -5,7 +5,7 @@ title: Come posso utilizzare i [!UICONTROL frammenti di esperienza] di  [!DNL Ad
 feature: Integrations
 exl-id: 400d0cde-e435-4cac-9bf0-64a6cad98995
 source-git-commit: 7c81362a82ca6692bb8c183b8e8fc50c6329e2e8
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1352'
 ht-degree: 100%
 
@@ -31,7 +31,7 @@ Quando utilizzi i [!UICONTROL frammenti di esperienza] di AEM in [!DNL Target], 
 * [!UICONTROL Frammenti di esperienza] e [!UICONTROL frammenti di contenuto] non sono disponibili per i seguenti tipi di attività:
 
    * [[!UICONTROL Test multivariato] (MVT)](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md)
-   * [[!UICONTROL Raccomandazioni]](/help/main/c-recommendations/recommendations.md)
+   * [[!UICONTROL Consigli]](/help/main/c-recommendations/recommendations.md)
 
 * È possibile sfruttare i [!UICONTROL frammenti di esperienza] nelle attività di [!DNL Target] utilizzando il [Compositore esperienza visivo](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) o il [Compositore esperienza basato su moduli](/help/main/c-experiences/form-experience-composer.md).
 

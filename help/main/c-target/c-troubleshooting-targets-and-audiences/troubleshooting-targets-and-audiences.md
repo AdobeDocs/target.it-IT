@@ -1,6 +1,6 @@
 ---
 keywords: risoluzione dei problemi;domande frequenti;FAQ;targeting;tipi di pubblico
-description: Visualizza le domande frequenti (FAQ) sul targeting delle esperienze e sui tipi di pubblico utilizzati in Adobe [!DNL Target] attività.
+description: Visualizza le domande frequenti sul targeting dell’esperienza e sui tipi di pubblico utilizzati in Adobe [!DNL Target] attività.
 title: Dove posso trovare domande e risposte su Target e tipi di pubblico?
 feature: Audiences
 exl-id: f829bd4a-852a-4eb1-85d1-89e74c14b37e
@@ -15,53 +15,53 @@ ht-degree: 62%
 
 Elenco delle domande frequenti (FAQ) sul targeting delle esperienze e sui tipi di pubblico.
 
-## Come funziona [!DNL Target] valuta gli URL nel targeting? {#url}
+## In che modo [!DNL Target] valutare gli URL nel targeting? {#url}
 
-Target valuta gli URL in modo diverso a seconda che tu utilizzi il targeting degli URL del pubblico durante la creazione di un&#39;attività o se utilizzi il targeting URL durante la creazione di un pubblico.
+Target valuta gli URL in modo diverso a seconda che si utilizzi il targeting degli URL di un pubblico durante la creazione di un’attività o che si utilizzi il targeting degli URL durante la creazione di un pubblico.
 
 Considera il seguente URL:
 
 `http://www.example.com/path1/path2/path3?queryStringParam1=test123&queryStringParam2=test7`
 
-### Targeting dell’URL del pubblico
+### Targeting degli URL del pubblico
 
-Per applicare il targeting dell&#39;URL del pubblico, durante la creazione di un&#39;attività, nella pagina Esperienze (passaggio uno del flusso di lavoro guidato in tre passaggi) fai clic sull&#39;icona a forma di ingranaggio, fai clic su Consegna pagine e specifica l&#39;URL desiderato.
+Per applicare il targeting degli URL del pubblico durante la creazione di un’attività, nella pagina Esperienze (passaggio 1 del flusso di lavoro guidato in tre passaggi) fai clic sull’icona a forma di ingranaggio, fai clic su Consegna pagine, quindi specifica l’URL desiderato.
 
 ![URL di consegna pagina](/help/main/c-target/c-troubleshooting-targets-and-audiences/assets/activity-url.png)
 
-Il targeting dell&#39;URL del pubblico cerca una corrispondenza esatta dell&#39;URL. Se l’URL corrisponde, Target non considera ulteriori logiche. Nell’URL precedente, se l’attività è impostata per essere attivata `www.example.com`, l’URL corrisponde ai seguenti URL perché il targeting dell’URL del pubblico è indipendente dalla query:
+Il targeting degli URL del pubblico cerca una corrispondenza URL esatta. Se l’URL corrisponde, Target non considera un’ulteriore logica. Nell’URL precedente, se l’attività è impostata su attiva `www.example.com`, l’URL corrisponde ai seguenti URL perché il targeting degli URL del pubblico è indipendente dalle query:
 
 * `www.example.com?query=something`
 * `www.example.com?query=anything`
 * `www.example.com?query=nothing&qa=true&stuff=random&product=shoes&height=superTall`
 
-Oltre al targeting del pubblico sull’URL, puoi anche specificare valori specifici che possono essere presenti nella query.
+Oltre al targeting di pubblico sull’URL, puoi anche specificare valori specifici che possono essere presenti nella query.
 
-Targeting degli URL del pubblico e targeting URL aggiunto tramite [!UICONTROL Regole modello] vengono valutati come targeting URL (consulta il targeting URL di seguito).
+Targeting degli URL del pubblico e targeting degli URL aggiunti tramite [!UICONTROL Regole modello] valuta come targeting URL (vedi targeting URL di seguito).
 
 ### Targeting URL
 
-Per applicare il targeting URL durante la creazione di un pubblico, fai clic su [!UICONTROL Aggiungi regola], fai clic su [!UICONTROL Pagine del sito], seleziona un’opzione dal primo elenco a discesa ([!UICONTROL Pagina corrente], [!UICONTROL Pagina precedente]oppure [!UICONTROL Pagina di destinazione]), seleziona [!UICONTROL URL] dal secondo elenco a discesa, specifica un valutatore, quindi specifica l’URL desiderato.
+Per applicare il targeting URL durante la creazione di un pubblico, fai clic su [!UICONTROL Aggiungi regola], fai clic su [!UICONTROL Pagine del sito], seleziona un&#39;opzione dal primo elenco a discesa ([!UICONTROL Pagina corrente], [!UICONTROL Pagina precedente], o [!UICONTROL Pagina di destinazione]), seleziona [!UICONTROL URL] dal secondo elenco a discesa, specifica un valutatore, quindi specifica l’URL desiderato.
 
 ![Pagine del sito > Pagina corrente > URL](/help/main/c-target/c-troubleshooting-targets-and-audiences/assets/site-url.png)
 
-Il targeting URL trasforma l’URL in un set di regole per valutare:
+Il targeting degli URL trasforma l’URL in un set di regole per valutare:
 
 * URL = `example.com/path1?query=something`
 * Dominio URL = `example.com`
-* Percorso = percorso1/percorso2/percorso3
+* Path = path1/path2/path3
 * queryStringParam1 = test123
 * queryStringParam2 = test7
 
-## Quando si creano stringhe URL complesse, esegue le operazioni seguenti: [!DNL Target] valuta l’intero URL?
+## Quando si creano stringhe URL complesse, [!DNL Target] valutare l’intero URL?
 
-Se utilizzi lo stesso nome di parametro più di una volta in una stringa URL, HTTP considera il nome del primo parametro e ignora i parametri successivi con lo stesso nome.
+Se utilizzi lo stesso nome di parametro più volte in una stringa URL, HTTP considera il nome del primo parametro e ignora i parametri successivi con lo stesso nome.
 
-Ad esempio, nella stringa URL seguente:
+Ad esempio, nella seguente stringa URL:
 
 `https://www.adobe.com/SearchResults.aspx?sc=BM&fi=1&fr=1&ps=0&av=0&Category=C0010438&Category=C000047`
 
-la prima istanza del `Category` viene valutato il secondo parametro `Category` viene ignorato.
+la prima istanza del `Category` viene valutato il parametro e il secondo `Category` viene ignorato.
 
 Si consiglia di associare più valori a una singola categoria, come illustrato di seguito:
 
@@ -83,7 +83,7 @@ Lʼutente diventa idoneo per la prima esperienza/il primo pubblico che viene vis
 
 Ad esempio, nellʼillustrazione seguente, un utente in California che utilizza un dispositivo Windows è idoneo sia per l’esperienza A (pubblico Windows) che per l’esperienza C (pubblico californiano). A questo utente verrà presentata lʼesperienza A perché è presente nellʼelenco sopra lʼesperienza C nella pagina Destinazioni.
 
-![audiences_order immagine](assets/audiences_order.png)
+![immagine audiences_order](assets/audiences_order.png)
 
 ## Perché esistono nomi diversi per uno stesso pubblico in [!DNL Target], Adobe Audience Manager (AAM) e nella libreria Pubblico nei servizi di base? {#section_F67E61A607B6444C8DAA4F99C3E95AED}
 
@@ -95,7 +95,7 @@ Ad esempio, potresti vedere i seguenti tipi di pubblico: “Utenti PC” (in [!D
 
 Alcuni tipi di pubblico di Target sono predefiniti, ad esempio “Nuovi visitatori” e “Visitatori di ritorno”. Questi non possono essere rinominati dagli utenti.
 
-## Perché tutti i parametri di profilo non vengono visualizzati nella [!DNL Target] interfaccia utente? {#section_3CD947D15C984EE9AD19550220E0E8BD}
+## Perché non tutti i parametri di profilo sono visualizzati nel [!DNL Target] interfaccia utente? {#section_3CD947D15C984EE9AD19550220E0E8BD}
 
 [!DNL Target] ha un limite di 50 attributi di profilo univoci per chiamata mbox. Se devi passare più di 50 attributi di profilo a [!DNL Target], puoi farlo utilizzando il metodo API [!UICONTROL Aggiornamento profilo]. Per ulteriori informazioni, vedi [Aggiornamento profilo](https://developers.adobetarget.com/api/#authentication-tokens) nella documentazione API di Adobe Target.
 
@@ -103,7 +103,7 @@ Alcuni tipi di pubblico di Target sono predefiniti, ad esempio “Nuovi visitato
 
 Le attività di personalizzazione automatizzata vengono valutate una volta per sessione. Se c’erano delle sessioni attive idonee per una particolare esperienza e ora sono state aggiunte nuove offerte, gli utenti vedranno il nuovo contenuto insieme alle offerte precedentemente mostrate. Poiché in precedenza sono stati considerati idonei per quelle esperienze, continueranno a vederle per tutta la durata della sessione. Per eseguire la valutazione per ogni singola visita, usa il tipo di attività Targeting esperienza (XT).
 
-## Perché le modifiche apportate ai tipi di pubblico creati tramite API non vengono riportate in [!DNL Target] Interfaccia utente? {#section_6BEB237CAC004A06A290F9644E5BF0FB}
+## Perché le modifiche apportate ai tipi di pubblico creati tramite API non vengono riportate nel [!DNL Target] UI? {#section_6BEB237CAC004A06A290F9644E5BF0FB}
 
 A differenza delle offerte e degli script di profilo, le modifiche apportate da API a tipi di pubblico creati tramite Target Standard non sono attualmente sincronizzate nell&#39;interfaccia utente di Target.
 

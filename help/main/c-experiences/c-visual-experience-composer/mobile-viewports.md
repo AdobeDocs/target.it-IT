@@ -5,9 +5,9 @@ title: Come posso utilizzare i riquadri di visualizzazione mobili per esperienze
 feature: Visual Experience Composer (VEC)
 exl-id: 1062e7a1-10b4-4746-bce9-67017978578d
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
-workflow-type: ht
-source-wordcount: '1155'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '1154'
+ht-degree: 99%
 
 ---
 
@@ -32,7 +32,7 @@ Di seguito sono mostrati i riquadri di visualizzazione e le risoluzioni dei disp
 >
 >Ci sono vari siti web che elencano le misure del riquadro di visualizzazione dei dispositivi più popolari. Ad esempio, vedi `https://viewportsizer.com/devices/`. Consulta il sito web del produttore del dispositivo per informazioni più precise e aggiornate.
 
-| Dispositivo | Dimensioni riquadro di visualizzazione  (larghezza x altezza) | Risoluzione del dispositivo (larghezza x altezza) |
+| Dispositivo | Dimensioni del riquadro di visualizzazione (larghezza x altezza) | Risoluzione del dispositivo (larghezza x altezza) |
 |---|---|---|
 | iPhone 12 | 390 x 844 | 1170 x 2532 |
 | iPhone 12 Mini | 360 x 780 | 1080 x 2340 |
@@ -53,7 +53,7 @@ Di seguito sono mostrati i riquadri di visualizzazione e le risoluzioni dei disp
 | iPhone 7 | 375 x 667 | 750 x 1334 |
 | iPhone 6s Plus | 414 x 736 | 1080 x 1920 |
 | iPhone 6s | 375 x 667 | 750 x 1334 |
-| iPhone 6 Plus | 414  x 736 | 1080 x 1920 |
+| iPhone 6 Plus | 414 x 736 | 1080 x 1920 |
 | iPhone 6 | 375 x 667 | 750 x 1334 |
 | iPad  Pro | 1024 x 1366 | 2048 x 2732 |
 | iPad di terza e quarta generazione | 768 x 1024 | 1536 x 2048 |

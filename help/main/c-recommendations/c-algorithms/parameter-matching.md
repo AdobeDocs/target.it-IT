@@ -1,7 +1,7 @@
 ---
 keywords: regole di inclusione;criteri di inclusione;consigli;promozione;promozioni;filtro dinamico;dinamico;corrispondenza dei parametri
-description: Scopri come filtrare dinamicamente in Adobe [!DNL Target] Recommendations confrontando gli articoli (entità) con un valore nella richiesta (API o mbox).
-title: Come Si Filtra Per Corrispondenza Parametro Nelle Attività Di Recommendations?
+description: Scopri come filtrare dinamicamente in Adobe [!DNL Target] Recommendations confrontando gli elementi (entità) con un valore nella richiesta (API o mbox).
+title: Come posso filtrare per corrispondenza dei parametri nelle attività di Recommendations?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 exl-id: 9ec161b9-1b37-4475-b508-af676126c817
@@ -14,13 +14,13 @@ ht-degree: 10%
 
 # Corrispondenza parametro
 
-Filtrare dinamicamente confrontando gli articoli (entità) con un valore nella richiesta (API o mbox).
+Filtra dinamicamente confrontando gli elementi (entità) con un valore nella richiesta (API o mbox).
 
-Ad esempio, per consigliare solo i contenuti che corrispondono al parametro di pagina &quot;settore&quot; o ad altri parametri, come le dimensioni del dispositivo o la geolocalizzazione, come negli esempi seguenti.
+Ad esempio, per consigliare solo i contenuti che corrispondono al parametro di pagina &quot;settore&quot; o altri parametri, come le dimensioni del dispositivo o la geolocalizzazione, come negli esempi seguenti.
 
-* I parametri mbox per la larghezza e l’altezza dello schermo possono essere utilizzati per indirizzare i visitatori mobili e consigliare solo dispositivi e accessori mobili.
-* Crea una regola di consigli che restituisce solo i telefoni cellulari più venduti che corrispondono o superano l’altezza dello schermo del dispositivo mobile che il visitatore sta utilizzando per visualizzare la pagina.
-* I parametri di geolocalizzazione regionali possono essere utilizzati per restituire consigli sugli strumenti durante l’inverno. I soffiatori di neve e altri strumenti di abbattimento della neve possono essere consigliati per i visitatori in aree in cui nevica ma non consigliato per i visitatori in aree in cui non neve.
+* I parametri mbox per la larghezza e l’altezza dello schermo possono essere utilizzati per rivolgersi ai visitatori mobili e consigliare solo dispositivi mobili e accessori.
+* Crea una regola di consigli che restituisca solo i telefoni cellulari più venduti con altezza dello schermo superiore a quella del dispositivo mobile utilizzato dal visitatore per visualizzare la pagina.
+* I parametri di geolocalizzazione regionali possono essere utilizzati per restituire consigli per gli strumenti durante l’inverno. I soffiatori di neve e altri strumenti di abbattimento della neve possono essere consigliati per i visitatori nelle aree in cui nevica, ma non consigliati per i visitatori nelle aree in cui non nevica.
 
 >[!NOTE]
 >
@@ -33,14 +33,14 @@ Ad esempio, per consigliare solo i contenuti che corrispondono al parametro di p
 
 ## Esempi di corrispondenza dei parametri
 
-[!UICONTROL Corrispondenza parametro] consente di consigliare contenuti che corrispondono ai parametri della pagina o ai parametri del visitatore, come dimensioni del dispositivo o geolocalizzazione, come nell’esempio seguente:
+[!UICONTROL Corrispondenza parametro] ti consente di consigliare contenuti che corrispondono ai parametri di pagina o ai parametri del visitatore, come le dimensioni del dispositivo o la geolocalizzazione, come nell’esempio seguente:
 
-[!DNL Recommendations] può corrispondere ai valori dei parametri inviati in [!DNL Target] chiama. In questo caso, [!DNL Target] rileva che un visitatore utilizza un dispositivo mobile in base ai parametri di altezza e larghezza dello schermo inviati nel [!DNL Target] chiama e consiglia solo gli elementi che sono dispositivi mobili.
+[!DNL Recommendations] può corrispondere ai valori dei parametri inviati nel [!DNL Target] chiamare. In questo caso, [!DNL Target] rileva che un visitatore sta utilizzando un dispositivo mobile, in base ai parametri di altezza e larghezza dello schermo inviati nel [!DNL Target] effettua una chiamata e consiglierà solo gli elementi che sono dispositivi mobili.
 
-Prendi in considerazione il seguente esempio di chiamata Target:
+Prendi in considerazione la seguente chiamata di Target di esempio:
 
 ![Chiamata Target](/help/main/c-recommendations/c-algorithms/assets/example-target-call-2.png)
 
-Sulla pagina che un visitatore sta visualizzando, vedrà i prodotti per dispositivi mobili.
+Nella pagina che un visitatore sta visualizzando, troverà i prodotti dei dispositivi mobili.
 
 ![Prodotti per dispositivi mobili](/help/main/c-recommendations/c-algorithms/assets/phones.png)

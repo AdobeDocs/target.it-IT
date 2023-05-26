@@ -1,6 +1,6 @@
 ---
 keywords: Targeting esperienza;xt;creare
-description: Scopri come utilizzare il Compositore esperienza visivo (VEC) in Adobe [!DNL Target] per creare un’attività Targeting esperienze (XT) su una pagina abilitata per Target.
+description: Scopri come utilizzare il Compositore esperienza visivo in Adobe [!DNL Target] per creare un’attività Targeting esperienza su una pagina abilitata per Target.
 title: Come si crea un’attività Targeting esperienze?
 feature: Experience Targeting
 exl-id: fc7fc37f-40bf-4947-a4d0-e51fa09b6c56

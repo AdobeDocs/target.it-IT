@@ -13,7 +13,7 @@ ht-degree: 95%
 
 # Guida di Adobe Target per professionisti aziendali {#using}
 
-+ [Pagina principale della Guida dei professionisti di Adobe Target](target-home.md)
++ [Pagina principale della guida per professionisti aziendali di Adobe Target](target-home.md)
 + Note sulla versione di Target {#release-notes}
    + [Annunci ed eventi di Target](/help/main/r-release-notes/target-announcements.md)
    + [Note sulla versione di Target (corrente)](r-release-notes/release-notes.md)
@@ -94,7 +94,7 @@ ht-degree: 95%
    + [Experience Cloud Audiences](/help/main/c-integrating-target-with-mac/mmp.md)
    + Integrare Target con Adobe Experience Manager (AEM) {#aem}
       + [Panoramica sull’integrazione di Target con AEM](/help/main/c-integrating-target-with-mac/aem/aem-target-integration.md)
-      + Frammenti esperienza e frammenti di contenuto {#fragments}
+      + Frammenti di esperienza e frammenti di contenuto {#fragments}
          + [Panoramica dei frammenti di esperienza e frammenti di contenuto di AEM](/help/main/c-integrating-target-with-mac/aem/aem-experience-and-content-fragments.md)
          + [Frammenti esperienza AEM](/help/main/c-integrating-target-with-mac/aem/experience-fragments-aem.md)
          + [Frammenti di contenuto di AEM](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md)
@@ -253,7 +253,7 @@ ht-degree: 95%
       + [Utilizzare i contenuti della libreria](c-experiences/c-manage-content/assets-working.md)
       + [Ricercare contenuto](c-experiences/c-manage-content/filter-and-search-content.md)
       + [Trasmettere i dati dinamici nelle offerte](c-experiences/c-manage-content/passing-profile-attributes-to-the-html-offer.md)
-      + [Esperienza AEM e frammenti di contenuto](c-experiences/c-manage-content/aem-experience-fragments.md)
+      + [Frammenti di esperienza e contenuti AEM](c-experiences/c-manage-content/aem-experience-fragments.md)
 + Rapporti {#reports}
    + [Panoramica sui rapporti](c-reports/reports.md)
    + Impostazioni dei rapporti {#settings}
@@ -263,14 +263,14 @@ ht-degree: 95%
       + [Download di dati in un file CSV](/help/main/c-reports/c-report-settings/downloading-data-in-csv-file.md)
    + Metodologia statistica {#statistical-methodology}
       + [Calcoli statistici nei test A/Bn](/help/main/c-reports/statistical-methodology/statistical-calculations.md)
-   + Rapporti sulla personalizzazione {#personalization-reports}
+   + Rapporti di personalizzazione {#personalization-reports}
       + [Rapporto di riepilogo del Targeting automatico](/help/main/c-reports/personalization-reports/auto-target-summary-report.md)
       + [Rapporto di riepilogo per Automated Personalization](/help/main/c-reports/personalization-reports/reports-ap.md)
    + Rapporto Approfondimenti personalizzazione {#insights}
       + [Panoramica sui rapporti Approfondimenti personalizzazione](c-reports/c-personalization-insights-reports/personalization-insights-reports.md)
       + [Rapporto Segmenti automatizzati](c-reports/c-personalization-insights-reports/automated-segments-report.md)
       + [Rapporto Attributi importanti](c-reports/c-personalization-insights-reports/important-attributes-report.md)
-   + Report test multivariati {#multivariate-test-reports}
+   + Rapporti sui test multivariati {#multivariate-test-reports}
       + [Rapporto Prestazioni Esperienza (MVT)](/help/main/c-reports/multivariate-test-reports/experience-performance-report.md)
       + [Rapporto Contributo Posizione (MVT)](/help/main/c-reports/multivariate-test-reports/location-contribution-report.md)
    + [Reporting di Analytics for Target (A4T)](c-reports/analytics-for-target-a4t-reporting.md)

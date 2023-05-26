@@ -1,6 +1,6 @@
 ---
 keywords: priorità;generare esperienze;esperienza;pubblico;passare a un’altra esperienza;compositore esperienza visivo
-description: Scopri come i visitatori possono passare da un’esperienza all’altra in un Adobe [!DNL Target] L’attività Targeting esperienza (XT) mentre i loro profili evolvono.
+description: Scopri come i visitatori possono passare da un’esperienza all’altra in un Adobe [!DNL Target] L’attività Targeting esperienza (XT) con l’evolversi dei profili.
 title: I visitatori possono cambiare esperienze in un’attività Targeting esperienze?
 feature: Experience Targeting
 exl-id: 8d931764-8ba7-4eac-99db-60659086b8be

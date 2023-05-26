@@ -1,7 +1,7 @@
 ---
-keywords: deduplicazione;consentire duplicati;escludere offerte duplicate;personalizzazione automatizzata;disabilitare offerte duplicate;escludere;contenuto predefinito;gruppo di esclusione;
-description: Gestire le esclusioni in Adobe [!DNL Target] Attività Automated Personalization (AP). Crea gruppi di esclusione ed esclude offerte duplicate, esperienze specifiche e contenuto predefinito.
-title: Come si gestiscono le esclusioni nelle attività di Automated Personalization?
+keywords: deduplicare;consentire duplicati;escludere offerte duplicate;personalizzazione automatizzata;non consentire offerte duplicate;escludere;contenuto predefinito;gruppo di esclusione;
+description: Gestire le esclusioni in Adobe [!DNL Target] Attività di Automated Personalization (AP). Crea gruppi di esclusione ed escludi le offerte duplicate, esperienze specifiche e contenuti predefiniti.
+title: Come posso gestire le esclusioni nelle attività di Automated Personalization?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Automated Personalization
 solution: Target,Analytics
@@ -15,7 +15,7 @@ ht-degree: 88%
 
 # Gestire le esclusioni
 
-Gestisci le esclusioni creando gruppi di esclusione, escludendo le offerte duplicate, esperienze specifiche e contenuti predefiniti in [!UICONTROL Automated Personalization] (AP) attività [!DNL Adobe Target] [!UICONTROL Automated Personalization] (AP) attività.
+Gestisci le esclusioni creando gruppi di esclusione, escludendo le offerte duplicate, esperienze specifiche e contenuti predefiniti in [!UICONTROL Automated Personalization] Attività di (AP) in [!DNL Adobe Target] [!UICONTROL Automated Personalization] attività (AP).
 
 ## Creare gruppi di esclusione {#task_AAAA6C7239A84F7696C8492F04B575A2}
 
@@ -99,7 +99,7 @@ L’esclusione del contenuto predefinito è molto utile per cambiare l’aspetto
 
 **Per escludere il contenuto predefinito utilizzando il Compositore di esperienza visiva:**
 
-1. Quando [creazione o modifica di un’attività di Personalizzazione automatizzata](/help/main/c-activities/t-automated-personalization/create-ap-activity.md), seleziona il contenuto da sostituire e fai clic su per accedere **[!UICONTROL Cambia testo/HTML]**, **[!UICONTROL Cambia immagine]** oppure **[!UICONTROL Cambia colore di sfondo]**.
+1. Mentre [creazione o modifica di un’attività di Personalizzazione automatizzata](/help/main/c-activities/t-automated-personalization/create-ap-activity.md), seleziona il contenuto che desideri sostituire e fai clic per accedere **[!UICONTROL Cambia testo/HTML]**, **[!UICONTROL Cambia immagine]**, o **[!UICONTROL Cambia colore di sfondo]**.
 1. Nella finestra di dialogo, crea il nuovo contenuto e deseleziona **Includi** a destra del contenuto predefinito (oppure deseleziona Immagine/video predefinito nella schermata Seleziona contenuto).
 
    A seconda del tipo di contenuto/offerta, la casella di controllo [!UICONTROL Includi] è in un percorso leggermente diverso.

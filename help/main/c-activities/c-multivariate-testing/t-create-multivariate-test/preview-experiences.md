@@ -1,6 +1,6 @@
 ---
-keywords: multivariato;MVT;anteprima;esperienze
-description: Scopri come visualizzare in anteprima ogni esperienza in un’attività Test multivariato (MVT) in Adobe [!DNL Target] utilizzando il Compositore esperienza visivo.
+keywords: multivariato;mvt;anteprima;esperienze
+description: Scopri come visualizzare in anteprima ogni esperienza in un’attività Test multivariato (MVT) in Adobe [!DNL Target] utilizzando il Compositore esperienza visivo (VEC).
 title: Come posso visualizzare in anteprima le esperienze per un test multivariato (MVT)
 feature: Multivariate Tests
 exl-id: 33c3ef24-eb58-437b-bae5-fdca25317c25
@@ -13,13 +13,13 @@ ht-degree: 67%
 
 # Visualizzare un&#39;anteprima delle esperienze per un test multivariato
 
-Perché [!UICONTROL Test multivariato] in [!DNL Adobe Target] confronta più esperienze su una pagina, è utile visualizzare un’anteprima della pagina con ogni esperienza.
+Perché un [!UICONTROL Test multivariato] in [!DNL Adobe Target] confronta più esperienze su una pagina; è utile visualizzare un’anteprima della pagina con ogni esperienza.
 
 1. Nel Compositore esperienza visivo, fai clic su **[!UICONTROL Anteprima]**.
 
    Viene visualizzato un elenco di tutte le esperienze.
 
-   ![immagine di anteprima](assets/preview.png)
+   ![anteprima immagine](assets/preview.png)
 
 1. Fai clic su una delle esperienze nell&#39;elenco per visualizzarla.
 

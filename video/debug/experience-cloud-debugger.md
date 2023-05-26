@@ -4,7 +4,7 @@ description: Debug di Adobe  [!DNL Target]  utilizzando Adobe Experience Cloud D
 title: Debug di  [!DNL Target]  con Experience Cloud Debugger
 feature: Troubleshooting
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '71'
 ht-degree: 100%
 

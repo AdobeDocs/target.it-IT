@@ -1,7 +1,7 @@
 ---
 keywords: opzioni browser;tipo;tipo di browser;lingua del browser;lingua;versione;versione del browser
-description: Scopri come creare tipi di pubblico in [!DNL Adobe Target] per indirizzare l’attività agli utenti che visitano la pagina utilizzando un browser specifico o specifiche opzioni del browser.
-title: È possibile indirizzare i visitatori in base al tipo di browser?
+description: Scopri come creare tipi di pubblico in [!DNL Adobe Target] per eseguire il targeting degli utenti che visitano la pagina utilizzando un browser specifico o opzioni specifiche del browser.
+title: Posso indirizzare i visitatori in base al tipo di browser?
 feature: Audiences
 exl-id: 8420bbe3-b58a-4ddb-89bb-0265dab6b5fc
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
@@ -23,36 +23,36 @@ Puoi indirizzare l’attività agli utenti che visitano la pagina utilizzando un
 * Internet Explorer
 * Microsoft Edge
 * Opera
-* iPad
+* iPad 
 * iPhone|
 
 Esistono due modi per indirizzare i browser:
 
 * **Pubblico predefinito:** il pubblico predefinito è utile se desideri indirizzare un’attività solo ai visitatori che utilizzano un browser specifico per visitare il tuo sito. Ad esempio, se stai offrendo un’estensione per Chrome, puoi rivolgerti ai soli utenti di Chrome.
 
-   1. Quando imposti l’attività, seleziona il browser dall’elenco a discesa.
+   1. Durante la configurazione dell’attività, seleziona il browser dall’elenco a discesa.
 
       Questa opzione indirizza l’attività solo ai visitatori che utilizzano il browser specificato.
 
       ![Utenti di Target Chrome](/help/main/c-target/c-audiences/c-target-rules/assets/target-chrome.png)
 
-* **Regola di pubblico personalizzato del browser:** Un pubblico personalizzato consente di rivolgerti a più browser o di impostare regole o esclusioni per specifici browser, versioni o lingue del browser. Questa funzionalità offre una flessibilità significativa durante il targeting di un’attività basata sugli attributi del browser.
+* **Regola pubblico browser personalizzato:** Un pubblico personalizzato consente di rivolgerti a più browser o di impostare regole o esclusioni per specifici browser, versioni o lingue del browser. Questa funzionalità offre una flessibilità significativa quando esegui il targeting di un’attività in base agli attributi del browser.
 
    1. Nell’interfaccia di [!DNL Target] fai clic su **[!UICONTROL Pubblico]** > **[!UICONTROL Crea pubblico]**.
    1. Assegna un nome al pubblico e aggiungi una descrizione facoltativa.
-   1. Trascinamento della selezione **[!UICONTROL Browser]** in Audience Builder.
+   1. Trascina **[!UICONTROL Browser]** in Audience Builder.
 
-      ![Regole > Browser](assets/target_browser.png)
+      ![Rules (Regole) > Browser](assets/target_browser.png)
 
    1. Fai clic su **[!UICONTROL Seleziona]**, quindi scegli una delle seguenti opzioni:
 
       * **Tipo**: Includi o escludi gli utenti che usano un determinato browser. Consulta [Tipo](/help/main/c-target/c-audiences/c-target-rules/browser.md#section_6ADC758F23F145B3A310151546D83D56).
-      * **Lingua:** Includi o escludi i browser impostati per una specifica lingua. Consulta [Lingua](/help/main/c-target/c-audiences/c-target-rules/browser.md#section_7520D1AA464A45A6843EABE2D2B431A1).
+      * **Lingua:** Includi o escludi alcuni browser impostati per una specifica lingua. Consulta [Lingua](/help/main/c-target/c-audiences/c-target-rules/browser.md#section_7520D1AA464A45A6843EABE2D2B431A1).
       * **Versione:** includi o escludi una determinata versione del browser. Consulta [Versione](/help/main/c-target/c-audiences/c-target-rules/browser.md#section_37CC8CE45DA04E8682AE6388321BA6EF).
    1. (Facoltativo) Imposta regole aggiuntive per il pubblico.
    1. Fai clic su **[!UICONTROL Fine]**.
 
-   L’esempio seguente mostra un pubblico che include gli utenti Microsoft Edge delle versioni 91 o 92:
+   L’esempio seguente mostra un pubblico che include gli utenti di Microsoft Edge nelle versioni 91 o 92:
 
    ![Target Edge 91 o 92](assets/target_edge.png)
 
@@ -113,7 +113,7 @@ Seleziona **[!UICONTROL Versione]**, quindi scegli un operatore:
 * È minore di
 * È minore o uguale a
 
-Digita il numero della versione. In questo campo di testo è possibile immettere solo le versioni principali. La versione specificata include tutte le eventuali versioni secondarie di tale versione principale. Ad esempio, se specifichi la versione 10, vengono inclusi anche i visitatori della versione 10.1.
+Digita il numero della versione. In questo campo di testo è possibile immettere solo le versioni principali. La versione specificata include tutte le eventuali versioni secondarie di tale versione principale. Ad esempio, se specifichi la versione 10, sono inclusi anche i visitatori della versione 10.1.
 
 Le opzioni multiple sono collegate con l’operatore O.
 

@@ -1,21 +1,21 @@
 ---
 keywords: Targeting;analytics;server di tracciamento;analytics for target;a4t
-description: Scopri come configurare un’attività in Adobe [!DNL Target] per utilizzare Adobe Analytics come origine per la generazione di rapporti. Questa integrazione è denominata Analytics per [!DNL Target] (A4T).
+description: Scopri come configurare un’attività in Adobe [!DNL Target] per utilizzare Adobe Analytics come origine per la generazione di rapporti. Questa integrazione si chiama Analytics per [!DNL Target] (A4T).
 title: Come posso utilizzare i dati di Analytics in Target?
 feature: Analytics for Target (A4T)
 exl-id: 85605ff9-c09a-4a1a-9784-bdacda377e1d
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
 workflow-type: tm+mt
 source-wordcount: '545'
-ht-degree: 78%
+ht-degree: 80%
 
 ---
 
 # Utilizzo dei dati di Analytics
 
-Puoi configurare un’attività in [!DNL Adobe Target] utilizzare [!DNL Adobe Analytics] come origine per la generazione di rapporti (A4T).
+Puoi configurare un’attività in [!DNL Adobe Target] da utilizzare [!DNL Adobe Analytics] come origine per la generazione di rapporti (A4T)
 
-Per informazioni dettagliate sulla configurazione di Analytics come origine dati per Target, vedi [Adobe Analytics come origine per la generazione di rapporti per Adobe Target](/help/main/c-integrating-target-with-mac/a4t/a4t.md).
+Per informazioni dettagliate sulla configurazione di Analytics come origine dati per Target, consulta [Adobe Analytics come origine per la generazione di rapporti per Adobe Target](/help/main/c-integrating-target-with-mac/a4t/a4t.md).
 
 Prima di impostare un’attività che utilizza Analytics come origine per la generazione di rapporti, stabilisci l’obiettivo dell’attività, ad esempio il miglioramento dei ricavi per visitatore (RPV) o l’aumento dei clic sul carrello acquisti. Scegli una metrica finale di successo per la campagna. Anche se in Analytics puoi selezionare metriche aggiuntive in qualsiasi momento, è comunque necessario indicare una metrica specifica che si prevede verrà interessata dal test.
 
@@ -29,7 +29,7 @@ Analytics for Target richiede un server di tracciamento per riportare correttame
 
 >[!NOTE]
 >
->Se utilizzi Adobe Analytics come origine per la generazione di rapporti dell’attività, non è necessario specificare un server di tracciamento durante la creazione dell’attività se utilizzi at.js versione 0.9.1 (o successiva). La libreria at.js invia automaticamente i valori del server di tracciamento a [!DNL Target]. Durante la creazione di attività, puoi lasciare vuoto il campo [!UICONTROL Server di tracciamento] nella pagina [!UICONTROL Obiettivi e impostazioni].
+>Se utilizzi Adobe Analytics come origine per la generazione di rapporti dell’attività, non è necessario specificare un server di tracciamento durante la creazione dell’attività se utilizzi at.js versione 0.9.1 (o successiva). La libreria at.js invia automaticamente i valori del server di tracciamento a [!DNL Target]. Durante la creazione di attività, puoi lasciare vuoto il campo [!UICONTROL Server di monitoraggio] nella pagina [!UICONTROL Obiettivi e impostazioni].
 
 Durante l&#39;impostazione di un&#39;attività dopo aver impostato Analytics come origine per la generazione di rapporti, non è possibile impostare tipi di pubblico per la generazione dei rapporti. I segmenti di Analytics sono disponibili nel rapporto Attività di Target.
 

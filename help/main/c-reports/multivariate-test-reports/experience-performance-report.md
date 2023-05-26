@@ -1,6 +1,6 @@
 ---
 keywords: test multivariato;MVT;rapporto prestazioni esperienza
-description: Scopri come utilizzare ad Adobe il rapporto Prestazioni esperienza [!DNL Target] Attività di targeting delle esperienze che mostrano le prestazioni di ogni esperienza nell’attività.
+description: Scopri come utilizzare il rapporto Prestazioni esperienza per Adobe [!DNL Target] Attività di targeting delle esperienze che mostrano le prestazioni di ogni esperienza nell’attività.
 title: Come si utilizza il rapporto Prestazioni esperienza per i test multivariati?
 feature: Reports
 exl-id: 83ca691c-4392-42f5-9251-f374bf28cc4b

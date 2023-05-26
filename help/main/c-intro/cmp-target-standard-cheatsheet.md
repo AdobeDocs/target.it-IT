@@ -166,7 +166,7 @@ Consulta [Regole modello](/help/main/c-experiences/c-visual-experience-composer/
 
 **Sono stanco del messaggio “Consenti al browser di caricare script” quando si tenta di caricare la pagina nel Compositore esperienza visivo. Come posso evitarlo?**
 
-Questo perché il tuo sito ha contenuti misti; è un sito che recupera sia le risorse HTTP che HTTPS. Richiedi che il tuo team IT si muova completamente su HTTPS.
+Questo perché il tuo sito ha contenuti misti, è un sito che recupera sia risorse HTTP che HTTPS. Richiedi che il tuo team IT si muova completamente su HTTPS.
 
 In questo caso, segui le istruzioni [Consentire contenuti misti nel browser](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/mixed-content.md#concept_46D022D50280468C9EF6D5DF6EFC911C) per consentire al browser di caricare contenuti misti. Questa è una caratteristica di sicurezza della maggior parte dei browser moderni.
 
@@ -218,7 +218,7 @@ Utilizza le funzioni Componi e Sfoglia per passare alla pagina scelta e iniziare
 
 Fai clic sulla miniatura di fronte al nome dell’esperienza al passaggio 2 e si aprirà l&#39;esperienza scelta.
 
-![immagine thumbnail_experience](assets/thumbnail_experiences.png)
+![immagine miniatura_esperienze](assets/thumbnail_experiences.png)
 
 **Sono un ex utente di Target Classic. Posso sfruttare le mie mbox per alcuni casi di utilizzo?**
 

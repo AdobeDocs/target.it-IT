@@ -1,13 +1,13 @@
 ---
-keywords: risoluzione dei problemi;discrepanze metriche;FAQ;rapporti;nuovo visitatore;nuovi visitatori;visitatori di ritorno;visitatori di ritorno;visita di ritorno;nuova visita
-description: Esplora un elenco delle domande frequenti e delle risposte relative all’Adobe [!DNL Target] rapporti.
-title: Dove posso trovare le risposte alle domande su [!DNL Target] Segnalazione?
+keywords: risoluzione dei problemi;discrepanze metriche;FAQ;rapporti;nuovo visitatore;nuovi visitatori;visitatore di ritorno;visitatori di ritorno;visita di ritorno;nuova visita
+description: Esplora un elenco di domande e risposte frequenti su Adobe [!DNL Target] reportistica.
+title: Dove posso trovare le risposte alle domande su [!DNL Target] Generare rapporti?
 feature: Reports
 exl-id: 1a345a67-5050-4bd3-858d-99731d2c1dd3
 source-git-commit: 1383088bb2f6be0432e6f140400d8723048c8530
 workflow-type: tm+mt
 source-wordcount: '1226'
-ht-degree: 30%
+ht-degree: 31%
 
 ---
 
@@ -17,49 +17,49 @@ Elenco delle domande frequenti sulla generazione di rapporti in [!DNL Adobe Targ
 
 ## Come vengono conteggiate le metriche Nuovi visitatori e Visitatori di ritorno? {#methodology}
 
-La prima visita di un nuovo visitatore dura fino a quando il visitatore è attivo sul sito.
-Se l’utente è inattivo per 30 minuti o più, la sessione viene reimpostata. Reimpostando la sessione, il visitatore diventa un visitatore di ritorno alla visita successiva o diventa nuovamente attivo dopo 30 minuti di inattività.
-Se il visitatore si sposta sul sito ogni 29 minuti per un’intera giornata, viene conteggiato come nuovo visitatore per l’intero giorno. La sessione non è mai stata reimpostata perché il visitatore non ha mai superato la soglia di 30 minuti.
+La prima visita di un nuovo visitatore dura finché il visitatore è attivo sul sito.
+Se l’utente è inattivo per 30 minuti o più, la sessione viene reimpostata. Reimpostando la sessione, il visitatore diventa un visitatore di ritorno alla visita successiva o ridiventa attivo dopo 30 minuti di inattività.
+Se il visitatore si sposta all’interno del sito ogni 29 minuti per un giorno intero, viene conteggiato come nuovo visitatore per l’intero giorno. La sessione non è mai stata reimpostata perché il visitatore non ha mai superato la soglia dei 30 minuti.
 
-Le informazioni seguenti spiegano più dettagliatamente come vengono conteggiati i visitatori nuovi e i visitatori di ritorno. Sono inclusi anche esempi che spiegano perché la somma di questi due segmenti non corrisponde sempre al numero di visitatori totali.
+Le seguenti informazioni spiegano più dettagliatamente come vengono conteggiati i nuovi visitatori e i visitatori di ritorno. Sono inclusi anche esempi che spiegano perché la somma di questi due segmenti non sempre corrisponde al numero di visitatori totali.
 
 ### Visitatori nuovi
 
 Un visitatore viene incluso nel segmento Nuovi visitatori se viene soddisfatta una delle seguenti condizioni:
 
-* È la prima volta che il visitatore visita il sito.
+* È la prima volta che visita il sito.
 * È la prima volta che visita il sito dopo aver cancellato i cookie.
-* È la prima volta che il visitatore visita il sito dal [Durata del profilo del visitatore](/help/main/c-target/c-visitor-profile/visitor-profile-lifetime.md) è scaduto.
+* È la prima volta che visita il sito dal giorno in cui [Durata del profilo del visitatore](/help/main/c-target/c-visitor-profile/visitor-profile-lifetime.md) è scaduto.
 
 ### Visitatori di ritorno
 
 Un visitatore viene incluso nel segmento Visitatore di ritorno se ha già visitato il sito, è uscito da almeno 30 minuti ed è tornato di nuovo sul sito con gli stessi cookie. Fino a quando un visitatore ritorna entro la durata del suo profilo, viene considerato un visitatore di ritorno.
 
-Supponiamo che la durata del profilo sia impostata per 14 giorni (impostazione predefinita). Un visitatore è incluso nel segmento Visitatori di ritorno se sono soddisfatte le seguenti condizioni:
+Supponiamo che la durata del profilo sia impostata su 14 giorni (impostazione predefinita). Un visitatore viene incluso nel segmento Visitatori di ritorno se sono soddisfatte le seguenti condizioni:
 
 * Un visitatore visita il sito per la prima volta e viene registrato come nuovo visitatore.
-* Il visitatore lascia il sito, ma ritorna sei giorni dopo.
+* Il visitatore lascia il sito, ma ritorna dopo sei giorni.
 
-Poiché la durata del profilo è impostata per 14 giorni, questo visitatore è incluso nel segmento Visitatori di ritorno . Se il visitatore ha eliminato dei cookie entro tale periodo di sei giorni, viene incluso nel segmento Nuovi visitatori .
+Poiché la durata del profilo è impostata su 14 giorni, il visitatore viene incluso nel segmento Visitatori di ritorno. Se il visitatore ha eliminato dei cookie entro tale periodo di sei giorni, viene incluso nel segmento Nuovi visitatori.
 
 ### Esempi che spiegano le discrepanze tra i conteggi delle metriche
 
-**Esempio 1**: Se questi due segmenti vengono applicati a un’attività, il segmento Nuovi visitatori e il segmento Visitatori di ritorno non sempre si sommano al numero totale di visitatori.
+**Esempio 1**: se questi due segmenti vengono applicati a un’attività, la somma dei segmenti Nuovi visitatori e Visitatori di ritorno non sempre corrisponde al numero totale di visitatori.
 
-Prendi in considerazione l’esempio seguente, tenendo presenti le condizioni precedentemente menzionate per Nuovi visitatori e Visitatori di ritorno:
+Prendi in considerazione l’esempio seguente, prendendo in considerazione le condizioni precedentemente menzionate per Nuovi visitatori e Visitatori di ritorno:
 
 * Un visitatore visita il sito per la prima volta e viene conteggiato come nuovo visitatore.
-* Il visitatore ritorna al sito dopo che le condizioni sono soddisfatte per i visitatori di ritorno e viene conteggiato come visitatore di ritorno.
+* Il visitatore ritorna al sito dopo che sono state soddisfatte le condizioni per Visitatori di ritorno e viene conteggiato come Visitatore di ritorno.
 
-Questo visitatore viene conteggiato come un singolo visitatore nel conteggio complessivo dei visitatori dell’attività, anche se viene conteggiato nei segmenti Nuovi visitatori e Visitatori di ritorno .
+Questo visitatore viene conteggiato come un singolo visitatore nel conteggio complessivo dei visitatori dell’attività, anche se viene conteggiato sia nel segmento Nuovi visitatori che nel segmento Visitatori di ritorno.
 
-**Esempio 2**: Le discrepanze tra i conteggi per nuovi visitatori e visitatori di ritorno dipendono anche dalla modalità di configurazione dell’attività [metriche di successo](/help/main/c-activities/r-success-metrics/success-metrics.md).
+**Esempio 2**: le discrepanze tra i conteggi per Nuovi visitatori e Visitatori di ritorno dipendono anche da come configuri l’attività [metriche di successo](/help/main/c-activities/r-success-metrics/success-metrics.md).
 
 Ad esempio:
 
-Diversi nuovi visitatori visitano il tuo sito e sono qualificati per un’attività. Questi nuovi visitatori vengono conteggiati per il segmento Nuovi visitatori . Anche tutti questi visitatori hanno registrato una visita in quell’attività.
+Diversi nuovi visitatori visitano il tuo sito e sono qualificati per un’attività. Questi nuovi visitatori vengono conteggiati nel segmento Nuovi visitatori. Tutti questi visitatori hanno anche registrato una visita a quell’attività.
 
-Alcuni visitatori hanno raggiunto la metrica di conversione, configurata come &quot;Incrementa il conteggio e mantieni l’utente in attività&quot;. Supponiamo che alcuni di questi utenti raggiungano la metrica di conversione più volte, che la metrica di conversione non aumenti. Dato che la configurazione, tuttavia, alcuni utenti potrebbero aver raggiunto la metrica di conversione e quindi tornare alla home page, qualificandosi nuovamente per l’attività per registrare una nuova visita.
+Alcuni visitatori hanno raggiunto la metrica di conversione, configurata come &quot;Incrementa il conteggio e mantieni l’utente in attività&quot;. Supponiamo che alcuni di questi utenti raggiungano più volte la metrica di conversione, la metrica di conversione non aumenta. Dato che la configurazione, tuttavia, alcuni utenti potrebbero raggiungere la metrica di conversione e quindi tornare alla home page, qualificandosi di nuovo nell’attività per registrare una nuova visita.
 
 ## Perché i miei rapporti [!UICONTROL Targeting esperienze] (XT) contengono metriche per le esperienze di controllo?
 
@@ -97,15 +97,15 @@ Per modificare l’ambiente per il rapporto di un’attività:
 
 Per ulteriori informazioni sugli ambienti, vedi [Host](/help/main/administrating-target/hosts.md#concept_516BB01EBFBD4449AB03940D31AEB66E).
 
-## Perché il traffico è suddiviso tra le mie esperienze in modo non uniforme nella mia attività A/B o MVT? {#uneven}
+## Perché la suddivisione del traffico tra le mie esperienze è irregolare nella mia attività A/B o MVT? {#uneven}
 
-Ad esempio, ho impostato la suddivisione del traffico su 50/50 o 25/25/25/25/25, ma vedo una distribuzione molto diversa tra le esperienze nel reporting. Ci sono diverse ragioni spiegabili per conteggi irregolari dei visitatori in [!DNL Target] reporting:
+Ad esempio, ho impostato la suddivisione del traffico su 50/50 o 25/25/25/25 ma vedo una distribuzione molto diversa tra le esperienze nel reporting. Ci sono diversi motivi spiegabili per conteggi irregolari di visitatori in [!DNL Target] reporting:
 
-* Quando un [!DNL Target] l’attività viene avviata per la prima volta, la distribuzione del traffico può essere irregolare a causa dell’architettura dei nodi perimetrali che [!DNL Target] utilizza per ottimizzare la distribuzione delle esperienze. La best practice prevede di dare a un’attività un po’ di tempo per raccogliere più dati e la distribuzione si normalizzerà. Per ulteriori informazioni su [!DNL Adobe Target] l&#39;architettura e i nodi di Edge, vedi [Come funziona Adobe Target](/help/main/c-intro/how-target-works.md).
-* Se sei in [!DNL Target] o [!DNL Analytics] e si utilizza il **[!UICONTROL Visite]** metrica, ricorda che [!DNL Target] è un sistema basato su visitatore e la distribuzione del traffico per un test A/B o MVT è assegnata a livello di visitatore. Pertanto, se esamini i risultati dell’attività utilizzando **[!UICONTROL Visite]** , la distribuzione del traffico potrebbe apparire irregolare perché alcuni visitatori potrebbero avere più visite. I visitatori sono la metrica standard di normalizzazione durante la valutazione delle prestazioni dell’attività.
-* La best practice per i test A/B e MVT consiste nel mantenere uniformi le suddivisioni del traffico. La modifica della distribuzione del traffico tra le esperienze (ad esempio dal 10/90 al 50/50) durante un test può portare a visitatori irregolari tra le diverse esperienze. L&#39;esperienza di traffico inferiore potrebbe non &quot;recuperare&quot;.
+* Quando un [!DNL Target] attività viene avviata per la prima volta, la distribuzione del traffico può essere irregolare a causa dell’architettura dei nodi edge che [!DNL Target] utilizza per ottimizzare la consegna delle esperienze. La best practice prevede che un’attività disponga di un certo tempo per raccogliere più dati, in modo che la distribuzione si normalizzi. Per ulteriori informazioni su [!DNL Adobe Target] architettura e nodi Edge, consulta [Come funziona Adobe Target](/help/main/c-intro/how-target-works.md).
+* Se ti trovi in [!DNL Target] o [!DNL Analytics] e si sta utilizzando **[!UICONTROL Visite]** metrica, ricorda che [!DNL Target] è un sistema basato su visitatore e la distribuzione del traffico per un test A/B o MVT viene assegnata a livello di visitatore. Pertanto, se esamini i risultati dell’attività utilizzando **[!UICONTROL Visite]** metrica, la distribuzione del traffico potrebbe apparire irregolare perché alcuni visitatori potrebbero avere più visite. Visitatori è la metrica di normalizzazione standard durante la valutazione delle prestazioni dell’attività.
+* La best practice per i test A/B e MVT consiste nel mantenere uniformi le suddivisioni del traffico. Cambiare la distribuzione del traffico tra le esperienze (ad esempio da 90/10 a 50/50) durante un test può portare a visitatori irregolari tra le esperienze. L’esperienza con traffico ridotto potrebbe non &quot;recuperare&quot; mai.
 * Se segui le best practice di cui sopra e la suddivisione del traffico non si normalizza nel tempo, controlla quanto segue:
 
-   * Utilizzi la libreria at.js più recente? Per ulteriori informazioni sulla versione corrente e sulle relative note sulla versione, consulta [Dettagli sulle versioni di at.js](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}.
+   * Stai utilizzando la libreria at.js più recente? Per ulteriori informazioni sulla versione corrente e sulle relative note sulla versione, consulta [Dettagli sulle versioni di at.js](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=it){target=_blank}.
 
-   * È un test di reindirizzamento? La corretta tempistica dei tag attivati sulla pagina può causare suddivisioni del traffico non uniformi, soprattutto quando si utilizza [!DNL Analytics] come origine dati per un [!DNL Target] attività. Per informazioni dettagliate su come correggere la distribuzione non uniforme del traffico su un’attività di reindirizzamento con Analytics for Target (A4T), consulta [Offerte di reindirizzamento - Domande frequenti su A4T](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md).
+   * È un test di reindirizzamento? Un orario errato per l’attivazione dei tag sulla pagina può causare suddivisioni del traffico irregolari, soprattutto quando si utilizza [!DNL Analytics] come origine di dati per un [!DNL Target] attività. Per informazioni su come porre rimedio a una distribuzione del traffico non uniforme in un’attività di reindirizzamento con Analytics for Target (A4T), consulta [Offerte di reindirizzamento - Domande frequenti su A4T](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md).

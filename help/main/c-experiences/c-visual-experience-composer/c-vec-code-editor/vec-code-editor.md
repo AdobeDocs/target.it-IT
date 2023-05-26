@@ -213,7 +213,7 @@ Se utilizzi la funzione codice personalizzato per due attività con targeting al
 
 **Il codice personalizzato non viene eseguito quando si utilizza `triggerView`.**
 
-Le offerte di codice personalizzato nel Compositore esperienza visivo non vengono sottoposte a rendering quando `triggerView()` viene chiamato con `{page: false}` come opzione.
+Le offerte di codice personalizzato nel Compositore esperienza visivo non vengono sottoposte nuovamente a rendering quando `triggerView()` viene chiamato con `{page: false}` come opzione.
 
 **Ho ricevuto un avviso rispetto al fatto che un&#39;azione non può essere applicata a causa di modifiche strutturali a una pagina. Cosa significa?**
 

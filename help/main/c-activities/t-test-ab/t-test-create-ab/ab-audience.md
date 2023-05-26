@@ -1,7 +1,7 @@
 ---
 keywords: pubblico;selezionare il pubblico;scegliere il pubblico;audience;selettori
 description: Il pubblico determina quali visitatori del sito vengono inseriti nell’Adobe [!DNL Target] attività.
-title: Come si seleziona un pubblico in un [!DNL Target] Attività A/B?
+title: Come si seleziona un pubblico in una [!DNL Target] Attività A/B?
 feature: A/B Tests
 exl-id: 281ae227-c593-4b71-ad12-865430b332be
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
@@ -13,7 +13,7 @@ ht-degree: 91%
 
 # Selezionare il pubblico
 
-Il pubblico determina quali visitatori del sito vengono inseriti nel tuo [!DNL Adobe Target] attività.
+Il pubblico determina quali visitatori del sito vengono inseriti nel [!DNL Adobe Target] attività.
 
 >[!NOTE]
 >
@@ -59,7 +59,7 @@ Questo video spiega come utilizzare i tipi di pubblico in [!DNL Target Standard/
 
 >[!VIDEO](https://video.tv.adobe.com/v/17398)
 
-### Flusso di lavoro di un’attività - Targeting (2:14) ![Badge tutorial](/help/main/assets/tutorial.png)
+### Flusso di lavoro di un&#39;attività - Targeting (2:14) ![Icona esercitazione](/help/main/assets/tutorial.png)
 
 Questo video contiene informazioni su come impostare i tipi di pubblico.
 

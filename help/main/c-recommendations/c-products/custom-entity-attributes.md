@@ -1,6 +1,6 @@
 ---
 keywords: attributi di entità multivalore;attributi di entità personalizzati;JSON valido;valore di attributo di entità;vettore JSON;array JSON;matrice JSON;multivalore;con più valori
-description: Scopri come utilizzare gli attributi di entità personalizzati a valore singolo e multiplo per definire informazioni aggiuntive sugli elementi nel tuo Adobe [!DNL Target] Catalogo Recommendations.
+description: Scopri come utilizzare gli attributi di entità personalizzati a valore singolo e multiplo per definire informazioni aggiuntive sugli elementi nell’Adobe [!DNL Target] Catalogo Recommendations.
 title: Come Si Utilizzano Gli Attributi Di Entità Personalizzati?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
@@ -9,13 +9,13 @@ exl-id: d7d0b04a-0f50-4d30-9cbe-c0347a3d3715
 source-git-commit: 2a25fdb42ce4470f9126b7e0e7f6fd9e60c350e5
 workflow-type: tm+mt
 source-wordcount: '1409'
-ht-degree: 88%
+ht-degree: 89%
 
 ---
 
 # Attributi di entità personalizzati
 
-Utilizzare attributi di entità personalizzati a valore singolo e multiplo in [!DNL Adobe Target Recommendations] per definire informazioni aggiuntive sugli elementi nel catalogo.
+Utilizzare attributi di entità personalizzati a valore singolo e più valori in [!DNL Adobe Target Recommendations] per definire informazioni aggiuntive sugli articoli nel catalogo.
 
 ## Limiti {#limits}
 
@@ -29,7 +29,7 @@ Gli attributi personalizzati delle entità con più valori possono contenere un 
 
 Gli attributi di entità personalizzati possono contenere uno o più valori. I valori degli attributi di entità vengono mostrati nella visualizzazione del prodotto.
 
-![immagine multi-valore_prodotto](assets/multi-value_product.png)
+![immagine multi-value_product](assets/multi-value_product.png)
 
 Un attributo di entità personalizzato con un valore singolo è formato come un attributo di entità predefinito a valore singolo:
 
@@ -63,7 +63,7 @@ Dopo che un attributo personalizzato viene inviato come array JSON valido, viene
 
 ## Implementazione di attributi con più valori {#section_80FEFE49E8AF415D99B739AA3CBA2A14}
 
-Gli attributi di entità personalizzate con più valori sono supportati quando si utilizzano feed (CSV), `targetPageParams`, e l’API di consegna per caricare i prodotti. I nuovi valori sostituiscono quelli correnti; non vengono aggiunti. Gli array vuoti ([]) vengono considerati privi di valori.
+Quando si utilizzano feed (CSV), sono supportati attributi di entità personalizzati con più valori, `targetPageParams`e l’API di consegna per caricare i prodotti. I nuovi valori sostituiscono quelli correnti; non vengono aggiunti. Gli array vuoti ([]) vengono considerati privi di valori.
 
 Le virgolette doppie devono essere precedute dalla sequenza di escape. Ad esempio, `"[""test"", ""value""]"` è un array JSON valido che può essere utilizzato in CSV.
 
@@ -94,11 +94,11 @@ Puoi gestire i file CSV in formato raw tramite un editor di testo o un foglio di
 
 Il CSV raw sarà simile a questo:
 
-![immagine multi-valore_esempio_raw](assets/multi-value_example_raw.png)
+![immagine multi-value_example_raw](assets/multi-value_example_raw.png)
 
 Lo stesso catalogo si presenterà così in un foglio di calcolo:
 
-![immagine multi-valore_esempio_excel](assets/multi-value_example_excel.png)
+![immagine multi-value_example_excel](assets/multi-value_example_excel.png)
 
 Durante la conversione in formato .csv, il foglio di calcolo aggiunge virgolette doppie attorno al contenuto delle celle per evitare che le virgole all’interno della cella agiscano come separatori di colonna. Vengono inoltre aggiunte virgolette doppie intorno ai valori di stringa JSON inclusi negli attributi con più valori personalizzati. Questo può rendere complicato lavorare direttamente sul file raw. Ad esempio:
 
@@ -109,7 +109,7 @@ Presta attenzione quando modifichi direttamente un file di catalogo CSV raw.
 
 ### Utilizzo delle API
 
-Puoi trasmettere attributi con più valori utilizzando l’API di consegna in un parametro mbox come valore di stringa contenente un array JSON con escape.
+Puoi trasmettere attributi con più valori utilizzando l’API di consegna in un parametro mbox come valore stringa contenente un array JSON con escape.
 
 ```javascript
 "execute": {
@@ -127,7 +127,7 @@ Puoi trasmettere attributi con più valori utilizzando l’API di consegna in un
   }
 ```
 
-Per informazioni sull’utilizzo delle API per consegnare e salvare entità, consulta la [documentazione sulle API di Adobe Recommendations](https://experienceleague.corp.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}.
+Per informazioni sull’utilizzo delle API per consegnare e salvare entità, consulta la [documentazione sulle API di Adobe Recommendations](https://experienceleague.corp.adobe.com/docs/target-dev/developer/recommendations.html?lang=it){target=_blank}.
 
 ## Utilizzo di operatori con attributi con più valori {#section_83C2288A805242D9A02EBC4F07DEE945}
 
@@ -140,7 +140,7 @@ Nell’esempio seguente, la regola è `message contains abc`.
 
 Per gli operatori negativi, tutti i valori di attributo devono essere soddisfatti (booleano *and*). Ad esempio, se l’operatore è `notEquals`, il risultato sarà *falso* se viene rilevata una corrispondenza con uno dei valori.
 
-Consulta le sezioni seguenti per il comportamento dell’operatore nelle regole di inclusione degli algoritmi, di catalogo e di esclusione.
+Per informazioni sul comportamento dell’operatore nelle regole di inclusione degli algoritmi, di catalogo e di esclusione, consulta le sezioni seguenti.
 
 ### È uguale a
 
@@ -241,7 +241,7 @@ Esempio: `genre does not match abc`
 
 ### Rientra dinamicamente nell’intervallo (disponibile solo negli algoritmi basati su elementi, solo per valori numerici)
 
-Se un qualunque valore di attributo numerico si trova entro l&#39;intervallo specificato, restituisce vero.
+Se un qualunque valore di attributo numerico rientra nell’intervallo specificato, restituisce vero.
 
 Esempio: `price dynamically ranges in 80% to 120% of 100`
 
@@ -254,7 +254,7 @@ Esempio: `price dynamically ranges in 80% to 120% of 100`
 
 ## Attributi con più valori nelle progettazioni {#section_F672E4F6E1D44B3196B7ADE89334ED4A}
 
-Gli attributi con più valori vengono visualizzati come un elenco separato da virgole quando vi si fa riferimento in una progettazione.
+Gli attributi con più valori vengono visualizzati come elenco separato da virgole quando vi si fa riferimento in una progettazione.
 
 Esempio:
 

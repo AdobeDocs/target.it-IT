@@ -1,7 +1,7 @@
 ---
 kewords: Automated Personalization;ap;troublshoot;troubleshooting;model;lift
 description: Esplora le potenziali sfide che potresti affrontare durante l’utilizzo delle attività di Automated Personalization (AP) in Adobe Target, insieme alle soluzioni suggerite.
-title: Come Posso Risolvere I Problemi Di Automated Personalization?
+title: Come posso risolvere i problemi relativi ad Automated Personalization?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Automated Personalization
 exl-id: bc23e5db-5b65-44be-be45-c972287a64e7
@@ -40,7 +40,7 @@ Ci sono diversi fattori necessari affinché un’attività di Personalizzazione 
 
 ## L’URL della mia attività Personalizzazione automatizzata mostra il contenuto delle offerte su pagine errate. {#section_82A224406DBF4107B05204BEFBBE458C}
 
-In Personalizzazione automatizzata, le regole di test URL e modelli vengono aggiunte al [!DNL Target] vincolo di ingresso della richiesta (ad esempio, target-global-mbox), in cui vengono valutati una sola volta. Quando un utente si qualifica per un&#39;attività, le regole di targeting a livello di richiesta di Target non vengono rivalutate. Tuttavia, il pubblico di destinazione viene aggiunto alle regole di targeting per la posizione.
+In Personalizzazione automatizzata, le regole di test di URL e modelli vengono aggiunte al [!DNL Target] vincolo di immissione della richiesta (ad esempio, target-global-mbox), in cui vengono valutati una sola volta. Quando un utente si qualifica per un’attività, le regole di targeting a livello di richiesta di Target non vengono rivalutate. Tuttavia, il pubblico di destinazione viene aggiunto alle regole di targeting per la posizione.
 
 **Soluzione:** aggiungi le regole di modello necessarie come pubblico di input della campagna. La valutazione del pubblico avviene su ogni richiesta/chiamata.
 

@@ -1,7 +1,7 @@
 ---
 keywords: profilo visitatore;targeting profilo visitatore
-description: Scopri come creare tipi di pubblico in [!DNL Adobe Target] per indirizzare l’attività ai visitatori che soddisfano parametri di profilo specifici, ad esempio visitatori nuovi o di ritorno, affinità tra categorie e altro ancora.
-title: Posso Indirizzare I Visitatori Che Soddisfano Parametri Di Profilo Specifici?
+description: Scopri come creare tipi di pubblico in [!DNL Adobe Target] per eseguire il targeting dei visitatori che soddisfano parametri di profilo specifici, ad esempio visitatori nuovi o di ritorno, affinità tra categorie e altro ancora.
+title: Posso Eseguire Il Targeting Di Visitatori Che Soddisfano Parametri Di Profilo Specifici?
 feature: Audiences
 exl-id: aca45b80-660d-4b8e-a0d7-84627b8fd77b
 source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
@@ -13,11 +13,11 @@ ht-degree: 46%
 
 # Profilo visitatore
 
-Crea un pubblico in [!DNL Adobe Target] per indirizzare l’attività ai visitatori che soddisfano parametri di profilo specifici.
+Creare tipi di pubblico in [!DNL Adobe Target] per eseguire il targeting dei visitatori che soddisfano parametri di profilo specifici.
 
 1. Nell’interfaccia di [!DNL Target] fai clic su **[!UICONTROL Pubblico]** > **[!UICONTROL Crea pubblico]**.
 1. Assegna un nome al pubblico e aggiungi una descrizione facoltativa.
-1. Trascinamento della selezione **[!UICONTROL Profilo visitatore]** nel riquadro audience builder (generatore di pubblico).
+1. Trascina **[!UICONTROL Profilo visitatore]** nel riquadro audience builder.
 
 1. Fai clic su **[!UICONTROL Seleziona]**, quindi scegli una delle seguenti opzioni:
 
@@ -33,11 +33,11 @@ Crea un pubblico in [!DNL Adobe Target] per indirizzare l’attività ai visitat
    * [!UICONTROL Non la prima pagina della sessione]
    * [!UICONTROL Affinità tra categorie]
 
-   Un profilo visitatore viene creato nella memoria Edge locale per ogni chiamata mbox con nuovo `mboxPC`. Dopo 30 minuti di inattività, il profilo viene salvato nel [!DNL Target] database ed è accessibile da altri Edge.
+   Un profilo visitatore viene creato nella memoria Edge locale per ogni chiamata mbox con nuovo `mboxPC`. Dopo 30 minuti di inattività, il profilo viene salvato in [!DNL Target] ed è accessibile da altri edge.
 
-   Quando un visitatore del sito accede a metà sessione e ottiene un `3rdpartyId`, tutti gli attributi di profilo precedentemente caricati associati a `3rdPartyId` sono immediatamente disponibili.
+   Quando un visitatore del sito accede a metà sessione e ottiene un `3rdpartyId`, tutti gli attributi di profilo caricati in precedenza associati al `3rdPartyId` sono immediatamente disponibili.
 
-   Puoi eseguire il targeting di parametri di profilo personalizzati e parametri `user.`. Scegli il parametro che desideri utilizzare per eseguire il targeting dell’attività. Se il parametro desiderato non viene visualizzato, non è stato attivato da una mbox.
+   Puoi eseguire il targeting di parametri di profilo personalizzati e parametri `user.`. Scegli il parametro che desideri utilizzare per eseguire il targeting dell’attività. Se il parametro desiderato non viene visualizzato, significa che non è stato attivato da una mbox.
 
 1. (Facoltativo) Imposta regole aggiuntive per il pubblico.
 1. Fai clic su **[!UICONTROL Fine]**.

@@ -1,7 +1,7 @@
 ---
 keywords: multivariato;MVT;metriche;impostare metriche;metrica obiettivo;impostazioni attività;metrica di successo;conversione;ricavi;impegno
-description: Scopri come specificare le metriche in un Adobe [!DNL Target] Attività Test multivariato per determinare quando una visita ha esito positivo, ad esempio Conversione, Entrate e Coinvolgimento.
-title: Come si impostano le metriche degli obiettivi in un’attività Test multivariato (MVT)?
+description: Scopri come specificare le metriche in un Adobe [!DNL Target] Attività di test multivariato per determinare quando una visita ha esito positivo, ad esempio Conversione, Entrate e Coinvolgimento.
+title: Come si impostano le metriche obiettivo in un’attività Test multivariato (MVT)?
 feature: Multivariate Tests
 exl-id: 8530b3f1-5daa-4a03-a482-93b10eb23208
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839

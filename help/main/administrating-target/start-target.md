@@ -1,6 +1,6 @@
 ---
 keywords: Amministrazione;ruolo approvatore;approvatore
-description: Esegui il primo Adobe di attività [!DNL Target] gli amministratori devono accettare dopo aver ricevuto l'invito via e-mail a Adobe Experience Cloud.
+description: Eseguire l'Adobe delle prime attività [!DNL Target] gli amministratori devono seguire l’invito inviato via e-mail al Adobe Experience Cloud.
 title: Dove Posso Iniziare Ad Amministrare Target?
 feature: Administration & Configuration
 role: Admin
@@ -14,13 +14,13 @@ ht-degree: 82%
 
 # Primi passaggi per l&#39;amministratore
 
-Questo articolo contiene i primi passi [!DNL Adobe Target] dopo aver ricevuto l&#39;invito a [!DNL Adobe Experience Cloud].
+Questo articolo contiene i primi passaggi [!DNL Adobe Target] gli amministratori devono accettare dopo aver ricevuto l’invito ad [!DNL Adobe Experience Cloud].
 
-## Ricevere un invito per [!DNL Target] {#task_3E0817630774431983FAA3D2CB2E75BD}
+## Ricevi un invito per [!DNL Target] {#task_3E0817630774431983FAA3D2CB2E75BD}
 
 Un amministratore di sistema utilizza [!DNL Adobe Admin Console] per aggiungerti come utente ad [!DNL Target] invitandoti a partecipare. L’amministratore di sistema deve quindi aggiungerti a uno o più gruppi specifici per il tuo ruolo. Entrambe queste attività sono eseguite in [Adobe Admin Console](https://adminconsole.adobe.com).
 
-Per ulteriori informazioni, consulta [Gestione di utenti e prodotti Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html) in *Aiuto per Experience Cloud e servizi di base*.
+Per ulteriori informazioni, consulta [Gestione di utenti e prodotti Experienci Cloud](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html) nel *Aiuto per Experience Cloud e servizi di base*.
 
 Dopo che l’amministratore di sistema avrà eseguito questi passaggi, riceverai un messaggio e-mail di invito.
 

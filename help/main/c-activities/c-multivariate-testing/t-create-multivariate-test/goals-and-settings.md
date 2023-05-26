@@ -1,6 +1,6 @@
 ---
 keywords: impostazioni attività;obiettivi e impostazioni;multivariato;mvt
-description: Scopri come utilizzare la pagina Obiettivi e impostazioni in Adobe [!DNL Target] per specificare le informazioni sugli obiettivi di un’attività Test multivariato (MVT).
+description: Scopri come utilizzare la pagina Obiettivi e impostazioni in Adobe [!DNL Target] per specificare informazioni sugli obiettivi di un'attività Test multivariato (MVT).
 title: Come si specificano obiettivi e impostazioni in un’attività Test multivariato (MVT)?
 feature: Multivariate Tests
 exl-id: 823a1435-ccb9-4357-9c33-a0968d704b7a
@@ -13,7 +13,7 @@ ht-degree: 90%
 
 # Obiettivi e impostazioni (test multivariati)
 
-Nella pagina Obiettivi e impostazioni di Adobe Target puoi inserire informazioni sugli obiettivi [!UICONTROL Multivariato] test (MVT).
+Nella pagina Obiettivi e impostazioni di Adobe Target è possibile inserire informazioni sugli obiettivi [!UICONTROL Multivariato] (MVT).
 
 * Impostazioni attività
 * Impostazioni reporting
@@ -37,9 +37,9 @@ L’interfaccia utente e le opzioni per Priorità variano a seconda delle impost
 
 La priorità è utilizzata se più attività vengono assegnate alla stessa posizione con lo stesso pubblico. Se due o più attività vengono assegnate alla posizione, viene visualizzata l’attività con priorità maggiore.
 
-Se questa opzione non è abilitata in S[!UICONTROL Amministrazione] > [!UICONTROL Reporting] (impostazione predefinita), specifica una priorità: Bassa, Media o Alta.
+Se questa opzione non è abilitata in S[!UICONTROL Amministrazione] > [!UICONTROL Generazione rapporti] (impostazione predefinita), specifica una priorità: Bassa, Media o Alta.
 
-Per abilitare le priorità dettagliate, fai clic su [!UICONTROL Amministrazione] > [!UICONTROL Reporting], quindi attiva l’opzione Abilita priorità precise.
+Per abilitare le priorità dettagliate, fai clic su [!UICONTROL Amministrazione] > [!UICONTROL Generazione rapporti], quindi attiva l’opzione Abilita priorità precise.
 
 Se questa opzione è abilitata, specifica un valore compreso tra 0 e 999:
 
@@ -153,7 +153,7 @@ Inserisci informazioni sull’attività, utili per te o per gli altri membri del
 
 I video seguenti contengono ulteriori informazioni sui concetti descritti in questo articolo.
 
-### Impostazioni attività (3:02) ![Badge tutorial](/help/main/assets/tutorial.png)
+### Impostazioni attività (3:02) ![Icona esercitazione](/help/main/assets/tutorial.png)
 
 Questo video include informazioni sulle impostazioni delle attività.
 
@@ -165,7 +165,7 @@ Questo video include informazioni sulle impostazioni delle attività.
 
 >[!VIDEO](https://video.tv.adobe.com/v/17381)
 
-### Creazione di test multivariati (9:25) ![Badge tutorial](/help/main/assets/tutorial.png)
+### Creazione di test multivariati (9:25) ![Icona esercitazione](/help/main/assets/tutorial.png)
 
 In questo video viene illustrato come creare un test multivariato utilizzando il flusso di lavoro guidato in tre passaggi di Target. Obiettivi e impostazioni sono trattati a partire dal minuto 07:00.
 

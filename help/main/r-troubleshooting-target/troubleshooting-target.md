@@ -1,5 +1,5 @@
 ---
-keywords: risolvere problemi di Target;risoluzione problemi di Target;risolvere problemi
+keywords: risolvere problemi di target;risoluzione problemi di target;risolvere problemi
 description: Riguarda l’elenco di argomenti che consentono di risolvere i problemi di Adobe Target, inclusi gli argomenti relativi alla risoluzione dei problemi, le domande frequenti (FAQ) e altri argomenti utili.
 title: Come posso risolvere i problemi di Target?
 feature: Troubleshooting
@@ -7,7 +7,7 @@ exl-id: c72443f0-1ea2-4f81-9bc3-495a8d459083
 source-git-commit: 2a25fdb42ce4470f9126b7e0e7f6fd9e60c350e5
 workflow-type: tm+mt
 source-wordcount: '508'
-ht-degree: 82%
+ht-degree: 86%
 
 ---
 
@@ -119,7 +119,7 @@ Nelle seguenti sezioni sono disponibili informazioni sulla risoluzione di proble
 
 * [Domande frequenti su at.js](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-faq.html/)
 * [Debugging di at.js utilizzando il debugger Adobe Experience Cloud](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/target-debugging-atjs.html)
-* [Dettagli sulle versioni di at.js](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html)
+* [Dettagli sulle versioni di at.js](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=it)
 * Video “Office hours”, un&#39;iniziativa portata avanti dal team di assistenza clienti di Adobe. 
 
 ## App mobili
@@ -137,7 +137,7 @@ Nelle seguenti sezioni sono disponibili informazioni sulla risoluzione di proble
 
 ## Sicurezza
 
-* [Direttive Content Security Policy (CSP)](https://experienceleague.corp.adobe.com/docs/target-dev/developer/implementation/privacy/content-security-policy.html)
+* [Direttive Content Security Policy (CSP)](https://experienceleague.corp.adobe.com/docs/target-dev/developer/implementation/privacy/content-security-policy.html?lang=it)
 
 ## Stato del sistema
 

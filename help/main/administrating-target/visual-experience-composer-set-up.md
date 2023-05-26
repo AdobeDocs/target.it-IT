@@ -1,6 +1,6 @@
 ---
 keywords: compositore esperienza visivo;vec;url predefinito;compositore esperienza avanzato;eec;contenuto misto;istantanee esperienza;riquadro di visualizzazione mobile;css;selettori css
-description: Scopri come configurare l’Adobe [!DNL Target] Compositore esperienza visivo specificando le impostazioni generali, la configurazione del riquadro di visualizzazione mobile e i selettori CSS.
+description: Scopri come configurare l’Adobe [!DNL Target] Compositore esperienza visivo specificandone le impostazioni generali, la configurazione del riquadro di visualizzazione mobile e i selettori CSS.
 title: Come si configura il Compositore esperienza visivo?
 feature: Administration & Configuration
 role: Admin
@@ -14,19 +14,19 @@ ht-degree: 57%
 
 # Configurare il Compositore esperienza visivo
 
-Configura le [!DNL Adobe Target] [!UICONTROL Compositore esperienza visivo] (VEC) specificando le impostazioni generali, la configurazione del riquadro di visualizzazione mobile e i selettori CSS.
+Configurare [!DNL Adobe Target] [!UICONTROL Compositore esperienza visivo] (VEC) specificando le impostazioni generali, la configurazione del riquadro di visualizzazione mobile e i selettori CSS.
 
-Per accedere al [!UICONTROL Compositore esperienza visivo] pagina di configurazione, fai clic su **[!UICONTROL Amministrazione]** > **[!UICONTROL Compositore esperienza visivo].**
+Per accedere al [!UICONTROL Compositore esperienza visivo] nella pagina di configurazione, fai clic su **[!UICONTROL Amministrazione]** > **[!UICONTROL Compositore esperienza visivo].**
 
 >[!NOTE]
 >
->Tieni presente che le impostazioni in questa pagina si applicano all’intero [!DNL Target] conto.
+>Tieni presente che le impostazioni di questa pagina si applicano all’intero [!DNL Target] account.
 
 ![Pagina di configurazione del Compositore esperienza visivo](/help/main/administrating-target/assets/vec.png)
 
 ## Impostazioni generali
 
-Puoi specificare le impostazioni generali del Compositore esperienza visivo.
+Puoi specificare le impostazioni generali per il Compositore esperienza visivo.
 
 ![Sezione Impostazioni generali](/help/main/administrating-target/assets/general-settings.png)
 
@@ -46,14 +46,14 @@ Per ulteriori informazioni, consulta [Risoluzione dei problemi relativi a Compos
 
 ### Caricamento contenuto misto
 
-Abilitare i contenuti misti durante l’apertura di un sito web utilizzando [!UICONTROL Compositore esperienza avanzato] (CEE) n. L’abilitazione di questa opzione evita il sovraccarico aggiuntivo derivante dal caricamento di risorse statiche tramite [!DNL Target] server proxy.
+Abilitare i contenuti misti durante l&#39;apertura di un sito Web utilizzando [!UICONTROL Compositore esperienza avanzato] (CEE). L’abilitazione di questa opzione evita un carico aggiuntivo dovuto al caricamento di risorse statiche tramite [!DNL Target] server proxy.
 
 Questa opzione è utile se, ad esempio:
 
-* Le intestazioni Content Security Policy (CSP) consentono di caricare contenuti misti senza l’utilizzo di server proxy con il Compositore esperienza avanzato abilitato.
-* Nel sito web HTTP si verificano tempi di caricamento più elevati nel Compositore esperienza avanzato, con JavaScript, immagini e così via che richiedono più tempo per essere caricati tramite proxy.
+* Le intestazioni Content Security Policy (CSP) consentono di caricare contenuti misti senza l’utilizzo di server proxy quando è abilitato il Compositore esperienza avanzato.
+* Il sito web HTTP deve affrontare tempi di caricamento più elevati nel Compositore esperienza avanzato, con JavaScript, immagini e così via che richiedono più tempo per essere caricati tramite proxy.
 
-### Genera istantanee esperienza nel diagramma di flusso dell&#39;attività
+### Generare istantanee delle esperienze nel diagramma del flusso di attività
 
 L&#39;attivazione delle istantanee esperienza genera miniature per le tue esperienze nel diagramma del flusso di lavoro dell&#39;attività. La disabilitazione delle istantanee potrebbe determinare prestazioni più veloci per alcuni utenti.
 
@@ -61,9 +61,9 @@ L&#39;attivazione delle istantanee esperienza genera miniature per le tue esperi
 
 Puoi aggiungere dispositivi da utilizzare quando visualizzi le esperienze in anteprima. A ogni dispositivo è associato un pubblico.
 
-![Sezione Configurazione di riquadri di visualizzazione per dispositivi mobili](/help/main/administrating-target/assets/mobile-viewport-configuration.png)
+![Sezione Configurazione riquadro di visualizzazione mobile](/help/main/administrating-target/assets/mobile-viewport-configuration.png)
 
-Fai clic su **[!UICONTROL Aggiungi]**, specifica un nome descrittivo per il riquadro di visualizzazione mobile, specifica la larghezza e l&#39;altezza, seleziona il sistema operativo desiderato, quindi fai clic su [!UICONTROL Salva].
+Clic **[!UICONTROL Aggiungi]**, specifica un nome descrittivo per il riquadro di visualizzazione mobile, specifica la larghezza e l&#39;altezza, seleziona il sistema operativo desiderato, quindi fai clic su [!UICONTROL Salva].
 
 Per informazioni su come aggiungere un riquadro di visualizzazione mobile, vedi [Configurazione di riquadri di visualizzazione per dispositivi mobili](/help/main/c-experiences/c-visual-experience-composer/mobile-viewports.md).
 
@@ -87,13 +87,13 @@ Per impostazione predefinita, [!DNL Target] utilizza solo ID elemento. Tuttavia,
 
 >[!NOTE]
 >
->Anche se è stato fatto tutto il possibile per garantire precisione, è importante tenere presente che l’utilizzo delle classi può causare errori. Anche non selezionare nessuna opzione influenza la precisione. L&#39;ordine di precisione è ID > classi > nessuna opzione. Testa sempre la pagina per assicurarti che i selettori siano corretti.
+>Sebbene sia stato fatto tutto il possibile per garantire la precisione, l’utilizzo delle classi può causare errori. Anche non selezionare nessuna opzione influenza la precisione. L&#39;ordine di precisione è ID > classi > nessuna opzione. Testa sempre la pagina per assicurarti che i selettori siano corretti.
 
 Puoi eseguire l&#39;override di questa [!UICONTROL impostazione] per ogni attività (fai clic sull&#39;icona Impostazioni, quindi seleziona [!UICONTROL Selettori CSS]). È particolarmente utile se disponi di più siti configurati in modo diverso.
 
 >[!NOTE]
 >
->L’override dell’impostazione per ogni attività non è disponibile in [!UICONTROL Automated Personalization] e [!UICONTROL Multivariate Testing] attività.  Per ulteriori informazioni sui selettori, vedi [Selettori di elementi utilizzati nel Compositore esperienza visivo](/help/main/c-experiences/c-visual-experience-composer/vec-selectors.md).
+>La possibilità di bypassare l’impostazione per ogni attività non è disponibile in [!UICONTROL Automated Personalization] e [!UICONTROL Multivariate Testing] attività.  Per ulteriori informazioni sui selettori, vedi [Selettori di elementi utilizzati nel Compositore esperienza visivo](/help/main/c-experiences/c-visual-experience-composer/vec-selectors.md).
 
 ## Video di formazione: Preferenze account (7:33) ![Badge panoramica](/help/main/assets/overview.png)
 

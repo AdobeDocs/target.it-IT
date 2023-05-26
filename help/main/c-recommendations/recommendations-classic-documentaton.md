@@ -1,7 +1,7 @@
 ---
 keywords: Recommendations Classic
 description: Scarica un PDF della documentazione legacy di Adobe Recommendations Classic.
-title: Dove posso trovare la documentazione per Adobe Recommendations Classic?
+title: Dove posso trovare la documentazione di Adobe Recommendations Classic?
 feature: Recommendations
 exl-id: e59fbf51-0c2d-4ec3-941d-d10633ce8a28
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
@@ -17,7 +17,7 @@ Con [!DNL Recommendations Classic] vengono visualizzati automaticamente prodotti
 
 >[!IMPORTANT]
 >
->[!DNL Recommendations Classic] è un prodotto legacy e non dispone più della licenza per i nuovi clienti. Per il meglio [!DNL Recommendations] esperienza, aggiornamento a [!DNL Recommendations] attività disponibili in [Adobe Target Premium](/help/main/c-intro/intro.md).
+>[!DNL Recommendations Classic] è un prodotto legacy e non dispone più della licenza per i nuovi clienti. Per ottenere il meglio [!DNL Recommendations] esperienza, effettua l’aggiornamento a [!DNL Recommendations] attività disponibili in [Adobe Target Premium](/help/main/c-intro/intro.md).
 
 Con la funzionalità Consigli è possibile indirizzare i clienti verso articoli di cui potrebbero ignorare l’esistenza, incrementando le vendite generate sul sito.
 

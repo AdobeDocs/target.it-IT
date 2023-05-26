@@ -1,6 +1,6 @@
 ---
 keyword: traffic estimate;traffic estimator;estimate;traffic;confidence;statistical power;lift;bonferroni;conversion rate;visitors per day;duration
-description: Scopri come utilizzare il Calcolatore del traffico che ti consente di sapere se disponi di traffico sufficiente per il tuo Adobe [!DNL Target] Attività Test multivariato per il successo.
+description: Scopri come utilizzare il Calcolatore del traffico che ti consente di sapere se disponi di traffico sufficiente per il tuo Adobe [!DNL Target] Attività di test multivariato completata.
 title: Quanto traffico è necessario per un’attività Test multivariato (MVT)?
 feature: Multivariate Tests
 exl-id: 2b32f4a7-b9b4-40bf-a17b-88225bc88787
@@ -35,7 +35,7 @@ Il Calcolatore del traffico fornisce un feedback che consente di sapere se dispo
 
    Viene visualizzato il Calcolatore del traffico. Fai nuovamente clic sull’icona **[!UICONTROL Traffico]** per nascondere il Calcolatore del traffico.
 
-   ![stima immagine vuota](assets/estimatorempty.png)
+   ![estimatorempty image](assets/estimatorempty.png)
 
 1. Indica il tasso di conversione tipico, i visitatori stimati al giorno e la durata del test.
 
@@ -48,7 +48,7 @@ Il Calcolatore del traffico fornisce un feedback che consente di sapere se dispo
 
    Nella parte superiore del Calcolatore del traffico, vengono calcolati i valori inseriti e visualizzati i risultati.
 
-   ![stima immagine insufficiente](assets/estimatorinsufficient.png)
+   ![estimatorinsufficienti](assets/estimatorinsufficient.png)
 
    Modificando i valori, si modifica anche la stima. Ad esempio, se stai sottoponendo a test un numero elevato di esperienze e il tasso di conversione e le impression sono troppo ridotti, il Calcolatore del traffico mostra quanto dovrà durare l&#39;esecuzione del test perché questo abbia successo. Oppure, se il traffico è limitato, nel Calcolatore del traffico potrebbe venire suggerito un numero inferiore di esperienze, in modo che sia possibile eseguire il test per il numero desiderato di giorni.
 
@@ -59,4 +59,4 @@ Il Calcolatore del traffico fornisce un feedback che consente di sapere se dispo
 
    Adegua i valori finché il Calcolatore del traffico indica che il traffico è sufficiente, quindi progetta il test di conseguenza.
 
-   ![immagine estimatore](assets/estimatorok.png)
+   ![immagine estimatorok](assets/estimatorok.png)

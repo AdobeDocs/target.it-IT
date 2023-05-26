@@ -5,7 +5,7 @@ title: Dove posso trovare la documentazione e le risorse per  [!DNL Adobe Target
 feature: Release Notes
 exl-id: 8e06c57b-94e6-41e4-a30c-8e10ab4882b5
 source-git-commit: 2a25fdb42ce4470f9126b7e0e7f6fd9e60c350e5
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '459'
 ht-degree: 100%
 

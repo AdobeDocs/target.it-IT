@@ -17,7 +17,7 @@ Un selettore di elementi è un’espressione CSS che può identificare uno o pi�
 
 Puoi trovare informazioni di base sui selettori CSS nel documento sui [selettori](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started/Selectors) in Mozilla Developer Network (MDN).
 
-Puoi specificare se utilizzare l’ID o la classe degli elementi nelle preferenze dell’account. Fai clic su **[!UICONTROL Amministrazione > Compositore esperienza visivo]**, quindi scegli i selettori CSS preferiti.
+Puoi specificare se utilizzare l’ID o la classe degli elementi nelle preferenze dell’account. Clic **[!UICONTROL Amministrazione > Compositore esperienza visivo]**, quindi scegli i selettori CSS preferiti.
 
 ![immagine css_selectors](assets/css_selectors.png)
 
@@ -27,7 +27,7 @@ Puoi specificare se utilizzare l’ID o la classe degli elementi nelle preferenz
 
 Per informazioni su quando utilizzare selettori CSS e quando utilizzare ID univoci, consulta [Best practice e limitazioni del Compositore esperienza visivo](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#concept_E284B3F704C04406B174D9050A2528A6).
 
-## Adobe [!DNL Target] Genera un selettore per un elemento {#section_D89D954BCBFB486CA081BE183776A475}
+## Come Adobe [!DNL Target] Genera un selettore per un elemento {#section_D89D954BCBFB486CA081BE183776A475}
 
 Target utilizza un semplice algoritmo per creare un selettore. Ecco una brevissima spiegazione della logica di generazione:
 
