@@ -6,10 +6,10 @@ short-description: Scopri le nuove funzioni, i miglioramenti e le correzioni inc
 title: Cosa è incluso nella versione corrente?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 2e6efe777925eb14e280ea38110dc1cb12264d17
+source-git-commit: b06cc6f4a8e7d1617dd5d3a8226e2b77474cfe77
 workflow-type: tm+mt
-source-wordcount: '621'
-ht-degree: 57%
+source-wordcount: '654'
+ht-degree: 59%
 
 ---
 
@@ -22,6 +22,10 @@ I codici dei problemi tra parentesi sono per uso interno di [!DNL Adobe].
 ## [!DNL Target] Standard/Premium 23.5.2 (31 maggio 2023)
 
 Questa versione include i miglioramenti e le correzioni seguenti:
+
+| Funzione | Dettagli |
+|--- |--- |
+| Attributi di profilo Real-Time CDP condivisi con [!DNL Target] | Gli [!UICONTROL attributi di profilo Real-Time CDP] possono essere condivisi con [!DNL Target] per l’utilizzo nelle offerte HTML e JSON.<P>Per ulteriori informazioni, consulta [Condividere gli attributi di profilo Real-Time CDP con [!DNL Target]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#rtcdp-profile-attributes). |
 
 * È stato risolto un problema che causava la visualizzazione di una pagina vuota durante la generazione di un token di autorizzazione API profilo. (TGT-45387 e TGT-45423)
 * È stato risolto un problema che impediva la visualizzazione di un’immagine in [!UICONTROL Crea design] se il nome dell’immagine contiene GB 18030 caratteri. (TGT-44614)

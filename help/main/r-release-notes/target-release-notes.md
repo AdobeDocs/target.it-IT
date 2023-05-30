@@ -4,10 +4,10 @@ description: Scopri le nuove funzioni, i miglioramenti e le correzioni, compresi
 title: Quali nuove funzioni e miglioramenti saranno inclusi nella prossima versione [!DNL Target] ?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 2e6efe777925eb14e280ea38110dc1cb12264d17
+source-git-commit: b06cc6f4a8e7d1617dd5d3a8226e2b77474cfe77
 workflow-type: tm+mt
-source-wordcount: '281'
-ht-degree: 84%
+source-wordcount: '250'
+ht-degree: 82%
 
 ---
 
@@ -30,7 +30,6 @@ Questo rilascio contiene i seguenti miglioramenti:
 | Funzione | Dettagli |
 |--- |--- |
 | [!UICONTROL Modalità di controllo qualità] per [!UICONTROL Automated Personalization] attività | [!DNL Adobe Target] [!UICONTROL Modalità di controllo qualità] è ora disponibile per [!UICONTROL Automated Personalization] attività, sostituzione [!UICONTROL Collegamenti di anteprima] funzionalità.<P>Per ulteriori informazioni, consulta [Controllo qualità delle attività](/help/main/c-activities/c-activity-qa/activity-qa.md). |
-| Attributi di profilo Real-Time CDP condivisi con [!DNL Target] | Gli [!UICONTROL attributi di profilo Real-Time CDP] possono essere condivisi con [!DNL Target] per l’utilizzo nelle offerte HTML e JSON.<P>Per ulteriori informazioni, consulta [Condividere gli attributi di profilo Real-Time CDP con [!DNL Target]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#rtcdp-profile-attributes). |
 
 * Miglioramenti delle prestazioni per non consentire la duplicazione delle funzionalità (inclusa la riduzione del tempo di caricamento) durante [gestione delle esclusioni](/help/main/c-activities/t-automated-personalization/managing-exclusions.md#concept_4EF78013F80E48EFA024AE0274C9F037) in [!UICONTROL Automated Personalization] attività.
 
