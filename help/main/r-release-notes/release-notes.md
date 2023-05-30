@@ -6,10 +6,10 @@ short-description: Scopri le nuove funzioni, i miglioramenti e le correzioni inc
 title: Cosa è incluso nella versione corrente?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: ecdb94a679e033d3ec030513fd66c9eea039195b
+source-git-commit: 2e6efe777925eb14e280ea38110dc1cb12264d17
 workflow-type: tm+mt
-source-wordcount: '396'
-ht-degree: 83%
+source-wordcount: '621'
+ht-degree: 57%
 
 ---
 
@@ -18,6 +18,21 @@ ht-degree: 83%
 Queste note sulla versione forniscono informazioni su funzioni, miglioramenti e correzioni per ciascuna versione di [!DNL Adobe Target Standard] e [!DNL Target Premium]. Sono inoltre incluse, ove applicabili, le note sulla versione di API di [!DNL Target], SDK, [!DNL Adobe Experience Platform Web SDK], at.js e altre modifiche alla piattaforma.
 
 I codici dei problemi tra parentesi sono per uso interno di [!DNL Adobe].
+
+## [!DNL Target] Standard/Premium 23.5.2 (31 maggio 2023)
+
+Questa versione include i miglioramenti e le correzioni seguenti:
+
+* È stato risolto un problema che causava la visualizzazione di una pagina vuota durante la generazione di un token di autorizzazione API profilo. (TGT-45387 e TGT-45423)
+* È stato risolto un problema che impediva la visualizzazione di un’immagine in [!UICONTROL Crea design] se il nome dell’immagine contiene GB 18030 caratteri. (TGT-44614)
+* È stato risolto un problema a causa del quale alcuni caratteri GB 18030 simbolo venivano erroneamente preceduti da escape in Testo/HTML nelle esperienze. (TGT-44600)
+* È stato risolto un problema che causava la generazione di rapporti per [!UICONTROL Personalizzazione automatica] attività da congelare durante l’analisi. (TGT-44820)
+* È stato risolto un problema che impediva la ricerca di un’attività sul [!UICONTROL Attività] pagina se il nome dell’attività contiene una parentesi quadra ( [ o ] ). (TGT-44777)
+* È stato risolto un problema che impediva la sincronizzazione di un’attività se la sua finalità conteneva caratteri speciali. (TGT-44982)
+* È stato risolto un problema che impediva la visualizzazione di attività in [!DNL Target] Interfaccia utente per l’area di lavoro predefinita per alcuni clienti. (TGT-45286)
+* È stato aggiornato il comportamento del flag &quot;Non consentire duplicati&quot;. I flag di offerte ripetute escluse vengono aggiornati per consentire le offerte ripetute se sono l’offerta di contenuto predefinita (per API v3 e v4) e per consentire le opzioni duplicate se le opzioni fanno riferimento all’offerta di contenuto predefinita e non hanno modelli definiti. (TNT-46617)
+* È stato risolto un problema a causa del quale un parametro di query veniva aggiunto a un URL, impedendo il caricamento della pagina in. [!UICONTROL Compositore esperienza visivo] (VEC). (TGT-44873)
+* Sono state apportate diverse correzioni di localizzazione in tutta l’interfaccia utente di [!DNL Target].
 
 ## [!DNL Target] Standard/Premium 23.5.1 (23-25 maggio 2023)
 

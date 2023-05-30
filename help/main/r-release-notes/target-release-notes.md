@@ -4,10 +4,10 @@ description: Scopri le nuove funzioni, i miglioramenti e le correzioni, compresi
 title: Quali nuove funzioni e miglioramenti saranno inclusi nella prossima versione [!DNL Target] ?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: ecdb94a679e033d3ec030513fd66c9eea039195b
+source-git-commit: 2e6efe777925eb14e280ea38110dc1cb12264d17
 workflow-type: tm+mt
-source-wordcount: '457'
-ht-degree: 56%
+source-wordcount: '281'
+ht-degree: 84%
 
 ---
 
@@ -22,18 +22,6 @@ Questo articolo contiene informazioni prerelease per le prossime versioni di [!D
 >Date di rilascio, funzioni e altre informazioni sono soggette a modifica senza preavviso.
 >
 >Per visualizzare informazioni sulla versione corrente, consulta [Note sulla versione di Target](release-notes.md). Le informazioni su queste pagine potrebbero essere uguali, a seconda della tempistica delle release. I codici tra parentesi sono per uso interno di [!DNL Adobe].
-
-## [!DNL Target] Standard/Premium 23.5.2 (31 maggio 2023)
-
-Questa versione include i miglioramenti e le correzioni seguenti:
-
-* È stato risolto un problema che causava la visualizzazione di una pagina vuota durante la generazione di un token di autorizzazione API profilo. (TGT-45387)
-* È stato risolto un problema che impediva la visualizzazione di un’immagine in [!UICONTROL Crea design] se il nome dell’immagine contiene GB 18030 caratteri. (TGT-44614)
-* È stato risolto un problema che causava la generazione di rapporti per [!UICONTROL Personalizzazione automatica] attività da congelare durante l’analisi. (TGT-44820)
-* È stato risolto un problema che per alcuni clienti non causava la visualizzazione di alcuna attività nell’interfaccia utente di Target per l’area di lavoro predefinita. (TGT-45286)
-* È stato aggiornato il comportamento del flag &quot;Non consentire duplicati&quot;. I flag di offerte ripetute escluse vengono aggiornati per consentire le offerte ripetute se sono l’offerta di contenuto predefinita (per API v3 e v4) e per consentire le opzioni duplicate se le opzioni fanno riferimento all’offerta di contenuto predefinita e non hanno modelli definiti. (TNT-46617)
-* È stato risolto un problema a causa del quale un parametro di query veniva aggiunto a un URL, impedendo il caricamento della pagina nel Compositore esperienza visivo. (TGT-44873)
-* È stato risolto un problema a causa del quale alcuni caratteri venivano erroneamente preceduti dall’escape in Text/HTML nelle esperienze. (TGT-44600)
 
 ## [!DNL Target] Standard/Premium 23.5.3 (data da definire)
 
