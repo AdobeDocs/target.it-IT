@@ -4,10 +4,10 @@ description: Leggi gli annunci e registrati per gli eventi su Adobe  [!DNL Targe
 title: Dove posso trovare annunci ed eventi relativi a  [!DNL Target] ?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: 08acd374a76dca61b37c2dc26bf5446170b0eea2
+source-git-commit: 1b2a8db76d6bef231c5086d8afdbdb9556e3ff55
 workflow-type: tm+mt
-source-wordcount: '1889'
-ht-degree: 92%
+source-wordcount: '1989'
+ht-degree: 87%
 
 ---
 
@@ -44,6 +44,14 @@ Nessuna pianificata in questo momento.
 ## Registrazioni di sessioni Skill Builder e webinar passati
 
 Accedere alle registrazioni di eventi passati (se disponibili):
+
+### Il Percorso per stimolare la crescita con la personalizzazione
+
+Sovrascrivi la capacità della tua organizzazione di distribuire personalizzazioni, presentata da Ramon Cespedes, Customer Success Manager Adobe.
+
+Il rapporto degli analisti chiave suggerisce che le aziende che eccellono nella personalizzazione generano il 40% di ricavi in più rispetto alle loro controparti. Per soddisfare la domanda di esperienze nuove, pertinenti e altamente personalizzate con ogni clic, gli esperti di marketing devono disporre del framework e della strategia giusti. In questo webinar, unisciti agli esperti di Adobe per scoprire come utilizzare un framework basato sui dati per creare i programmi di personalizzazione della tua organizzazione e favorire il successo.
+
+* [Collegamento alla registrazione](https://event.on24.com/wcc/r/4217828/9C1E092251A62DF896221FB5A91437D4){target=_blank}
 
 ### Personalizzazione ottimizzata basata sull’intelligenza artificiale: nuove funzioni in [!DNL Adobe Target] (11 ottobre 2022)
 
