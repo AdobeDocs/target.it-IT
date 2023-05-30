@@ -4,9 +4,9 @@ description: Resta aggiornato sulle importanti aggiunte e modifiche apportate al
 title: Dove posso trovare la documentazione aggiornata per  [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 2e6efe777925eb14e280ea38110dc1cb12264d17
+source-git-commit: ccdb075b47c0897e658155fef6834c344f8e7597
 workflow-type: tm+mt
-source-wordcount: '2849'
+source-wordcount: '2870'
 ht-degree: 98%
 
 ---
@@ -20,6 +20,7 @@ Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Targ
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
 | 30 maggio | Note sulla versione (corrente) di [[!DNL Target] ](/help/main/r-release-notes/release-notes.md) | Sono state aggiunte note sulla versione 23.5.2 di [!DNL Target Standard/Premium]. |
+|  | [[!DNL Adobe Target] annunci ed eventi](/help/main/r-release-notes/target-announcements.md) | Sono state aggiunte informazioni sui seguenti eventi in programma per Coffee Break:<ul><li>[!DNL Adobe Target Recommendations] Coffee Break (7 giugno)</li><li>Follow-up del webinar Preparazione al programma di personalizzazione (21 giugno)</li></ul> |
 | 23 maggio | [Inserire nell’elenco consentiti i nodi edge di Target](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/allowlist-edges.html?lang=it){target=_blank} | È stata aggiornata una nota importante. |
 |  | Note sulla versione (prerelease) di [[!DNL Target] ](/help/main/r-release-notes/target-release-notes.md) | Sono state aggiornate le note sulla versione prerelease per le prossime versioni. |
 |  | [Note sulla versione di Target (corrente)](/help/main/r-release-notes/release-notes.md) | Sono state aggiunte note sulla versione 23.5.1 di [!DNL Target Standard/Premium]. |

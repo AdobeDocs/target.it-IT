@@ -4,10 +4,10 @@ description: Leggi gli annunci e registrati per gli eventi su Adobe  [!DNL Targe
 title: Dove posso trovare annunci ed eventi relativi a  [!DNL Target] ?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: b92ac8d60707107564f18413cefd6faa9f3980eb
+source-git-commit: ccdb075b47c0897e658155fef6834c344f8e7597
 workflow-type: tm+mt
-source-wordcount: '1850'
-ht-degree: 94%
+source-wordcount: '1889'
+ht-degree: 92%
 
 ---
 
@@ -15,15 +15,25 @@ ht-degree: 94%
 
 Annunci e informazioni sui prossimi eventi di [!DNL Adobe Target], che includono le sessioni Coffee Break su [!DNL Target], le serie di webinar su [!DNL Target], le sessioni Skill Builder dedicate a [!DNL Target], le chat per sviluppatori e altro ancora. Se disponibili, sono inclusi i collegamenti alle registrazioni precedenti.
 
-## [!UICONTROL Adobe Target - Community] Q&amp;A Coffee Break
+## [!UICONTROL Community Adobe Target] Q&amp;A Coffee Breaks
 
-* **Mercoledì 24 maggio 2023**
-* **8:00-9:00 (PT, UTC-7)**
-* **[Informazioni sulla registrazione](https://adobe.ly/3BgfeZZ){target=_blank}**
+Informazioni sui seguenti Coffee Break:
 
-A noi si uniranno Ryan Roberts, Gentry Lin e Ryan Pizzuto del team [!UICONTROL Adobe Target Consulting] e Mihnea Docea del team [!UICONTROL Ingegnere del supporto tecnico Adobe], che accederanno alla [Community Adobe Target](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community){target=_blank} per chattare direttamente con te su questo thread relativo [!DNL Adobe Target] alle tue domande su [!DNL Target] @ [!UICONTROL Adobe Summit] 2023
+### [!DNL Adobe Target Recommendations] Coffee Break
 
-Ti invitiamo a rivedere una qualsiasi delle [registrazioni on-demand della sessione di Adobe Target Summit](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/session-videos-adobe-summit-mar-21-23-2023-complete-adobe-target/td-p/569706){target=_blank} per contribuire con le tue domande di follow-up a questa chat.
+* **Mercoledì 7 giugno 2023**
+* **8:00-9:00:00 (PDT, UTC-7)**
+* **[Ulteriori informazioni](https://experienceleaguecommunities.adobe.com/t5/target-community-events/community-q-amp-a-coffee-break-6-7-23-at-recommendations-feature/ec-p/595749#M7){target=_blank}**
+
+A noi si uniranno [!DNL Adobe Target] esperti: Bill Ozinga, John Mosbaugh, Justin Patrick e Eric Thibeault. In questo evento AMA (Ask Me Anything), gli esperti avranno effettuato l’accesso e saranno pronti a rispondere a qualsiasi domanda relativa al [!DNL Target Recommendations] funzionalità.
+
+### Follow-up del webinar Preparazione al programma di personalizzazione
+
+* **Mercoledì 21 giugno 2023**
+* **8:00-9:00:00 (PDT, UTC-7)**
+* **[Ulteriori informazioni]https://experienceleaguecommunities.adobe.com/t5/target-community-events/community-q-amp-a-coffee-break-6-21-23-personalization-program/ec-p/595807#M9){target=_blank}**
+
+A noi si uniranno gli esperti Adobe Target, Ramon Cespedes e Kevin Jemison. In questo evento AMA (Ask Me Anything), gli esperti saranno connessi e pronti a rispondere a qualsiasi domanda relativa agli argomenti trattati nel recente webinar del 24/5 su [Il Percorso per stimolare la crescita con la personalizzazione](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/webinar-recording-wednesday-5-24-8am-9am-pt-the-journey-to/td-p/594567){target=_blank}.
 
 ## Serie di webinar su [!DNL Adobe Target] {#webinar-series}
 
