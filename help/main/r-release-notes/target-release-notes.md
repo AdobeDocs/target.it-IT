@@ -4,10 +4,10 @@ description: Scopri le nuove funzioni, i miglioramenti e le correzioni, compresi
 title: Quali nuove funzioni e miglioramenti saranno inclusi nella prossima versione [!DNL Target] ?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: b06cc6f4a8e7d1617dd5d3a8226e2b77474cfe77
+source-git-commit: 87595187e4d45ce8ba042d43ebf45a9ca9ec9a47
 workflow-type: tm+mt
-source-wordcount: '250'
-ht-degree: 82%
+source-wordcount: '247'
+ht-degree: 83%
 
 ---
 
@@ -23,7 +23,7 @@ Questo articolo contiene informazioni prerelease per le prossime versioni di [!D
 >
 >Per visualizzare informazioni sulla versione corrente, consulta [Note sulla versione di Target](release-notes.md). Le informazioni su queste pagine potrebbero essere uguali, a seconda della tempistica delle release. I codici tra parentesi sono per uso interno di [!DNL Adobe].
 
-## [!DNL Target] Standard/Premium 23.5.3 (data da definire)
+## [!DNL Target] Standard/Premium 23.5.4 (27-28 giugno)
 
 Questo rilascio contiene i seguenti miglioramenti:
 
