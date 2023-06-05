@@ -5,9 +5,9 @@ title: Come posso integrare  [!DNL Target]  con  [!DNL Real-Time Customer Data P
 feature: Integrations
 exl-id: 1c066b62-91a2-4b8c-807a-3cc56fca7778
 source-git-commit: cf7af568f270f97868107032897cd4fdd8e45131
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1029'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 90%
 
 Basato su [!DNL Adobe Experience Platform], [!DNL Real-Time Customer Data Platform] (RTCDP) consente alle aziende di riunire dati noti e anonimi provenienti da più origini aziendali. RTCDP consente di creare profili cliente da utilizzare per fornire ai clienti esperienze personalizzate in tempo reale su tutti i canali e i dispositivi.
 
-Per ulteriori informazioni su RTCDP, consulta la [Panoramica di Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html?lang=it){target=_blank}
+Per ulteriori informazioni su RTCDP, consulta la [Panoramica di Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html?lang=it){target=_blank}.
 
 ## Funzioni chiave
 
@@ -125,27 +125,27 @@ Per ulteriori informazioni, consulta [Personalizzazione hit successivo con Real-
 
 >[!VIDEO](https://video.tv.adobe.com/v/340091?quality=12&learn=on)
 
-### Video: configurare [!DNL Adobe Target] destinazione in [!DNL Real-Time Customer Data Platform]
+### Video: configurare la destinazione [!DNL Adobe Target] in [!DNL Real-Time Customer Data Platform]
 
-Scopri come configurare [!DNL Adobe Target] destinazione in [!DNL Real-Time Customer Data Platform] per iniziare a inviare segmenti e attributi di profilo da [!DNL Real-Time CDP] a [!DNL Target].
+Scopri come configurare la destinazione [!DNL Adobe Target] in [!DNL Real-Time Customer Data Platform] per iniziare a inviare segmenti e attributi di profilo da [!DNL Real-Time CDP] a [!DNL Target].
 
 >[!VIDEO](https://video.tv.adobe.com/v/3418799/?learn=on)
 
-### Video: Attivare segmenti e attributi di profilo
+### Video: attivare segmenti e attributi di profilo
 
-Scopri come attivare segmenti e attributi di profilo da [!DNL Adobe Real-Time Customer Data Platform] a [!DNL Adobe Target] per visualizzare contenuti personalizzati in tempo reale su siti web, app mobili e altre proprietà digitali.
+Scopri come attivare segmenti e attributi di profilo da [!DNL Adobe Real-Time Customer Data Platform] a [!DNL Adobe Target] per visualizzare contenuti personalizzati in tempo reale su siti web, app per dispositivi mobili e altre proprietà digitali.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3419036/?learn=on)
 
-### Video: Utilizzare [!DNL Real-Time CDP] segmenti in [!DNL Target]
+### Video: utilizzare segmenti [!DNL Real-Time CDP] in [!DNL Target]
 
-Scopri come utilizzare [!DNL Real-Time Customer Data Platform] segmenti in [!DNL Adobe Target] per offrire esperienze personalizzate sul tuo sito web e sulle app mobili.
+Scopri come utilizzare segmenti [!DNL Real-Time Customer Data Platform] in [!DNL Adobe Target] per offrire esperienze personalizzate sul sito web e sulle app per dispositivi mobili.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3419149/?learn=on)
 
-### Video: Utilizzare [!DNL Real-Time CDP] attributi del profilo in [!DNL Adobe Target]
+### Video: utilizzare attributi di profilo [!DNL Real-Time CDP] in [!DNL Adobe Target]
 
-Scopri come utilizzare [!DNL Adobe Real-Time Customer Data Platform] attributi del profilo in [!DNL Adobe Target] per offrire esperienze personalizzate sul tuo sito web e sulle app mobili.
+Scopri come utilizzare attributi di profilo [!DNL Adobe Real-Time Customer Data Platform] in [!DNL Adobe Target] per offrire esperienze personalizzate sul sito web e sulle app per dispositivi mobili.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3419318/?learn=on)
 
