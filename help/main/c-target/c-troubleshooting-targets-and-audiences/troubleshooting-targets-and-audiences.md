@@ -4,10 +4,10 @@ description: Visualizza le domande frequenti sul targeting dell’esperienza e s
 title: Dove posso trovare domande e risposte su Target e tipi di pubblico?
 feature: Audiences
 exl-id: f829bd4a-852a-4eb1-85d1-89e74c14b37e
-source-git-commit: f3b420631681a922b66b0e58febda536e9812815
+source-git-commit: 6df7df69e54730d4c63bd17a33c12484e2bbdc92
 workflow-type: tm+mt
-source-wordcount: '969'
-ht-degree: 62%
+source-wordcount: '962'
+ht-degree: 63%
 
 ---
 
@@ -39,7 +39,7 @@ Oltre al targeting di pubblico sull’URL, puoi anche specificare valori specifi
 
 Targeting degli URL del pubblico e targeting degli URL aggiunti tramite [!UICONTROL Regole modello] valuta come targeting URL (vedi targeting URL di seguito).
 
-### Targeting URL
+### Targeting URL {#url-targeting}
 
 Per applicare il targeting URL durante la creazione di un pubblico, fai clic su [!UICONTROL Aggiungi regola], fai clic su [!UICONTROL Pagine del sito], seleziona un&#39;opzione dal primo elenco a discesa ([!UICONTROL Pagina corrente], [!UICONTROL Pagina precedente], o [!UICONTROL Pagina di destinazione]), seleziona [!UICONTROL URL] dal secondo elenco a discesa, specifica un valutatore, quindi specifica l’URL desiderato.
 
@@ -47,11 +47,10 @@ Per applicare il targeting URL durante la creazione di un pubblico, fai clic su 
 
 Il targeting degli URL trasforma l’URL in un set di regole per valutare:
 
-* URL = `example.com/path1?query=something`
-* Dominio URL = `example.com`
-* Path = path1/path2/path3
-* queryStringParam1 = test123
-* queryStringParam2 = test7
+* URL = `example.com/path1/path2/path3?queryStringParam1=test123&queryStringParam2=test7`
+* Dominio = `example.com`
+* Percorso = `path1/path2/path3`
+* Query = `queryStringParam1=test123&queryStringParam2=test7`
 
 ## Quando si creano stringhe URL complesse, [!DNL Target] valutare l’intero URL?
 
