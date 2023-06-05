@@ -9,7 +9,7 @@ exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 source-git-commit: b06cc6f4a8e7d1617dd5d3a8226e2b77474cfe77
 workflow-type: tm+mt
 source-wordcount: '654'
-ht-degree: 59%
+ht-degree: 84%
 
 ---
 
@@ -27,14 +27,14 @@ Questa versione include i miglioramenti e le correzioni seguenti:
 |--- |--- |
 | Attributi di profilo Real-Time CDP condivisi con [!DNL Target] | Gli [!UICONTROL attributi di profilo Real-Time CDP] possono essere condivisi con [!DNL Target] per l’utilizzo nelle offerte HTML e JSON.<P>Per ulteriori informazioni, consulta [Condividere gli attributi di profilo Real-Time CDP con [!DNL Target]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#rtcdp-profile-attributes). |
 
-* È stato risolto un problema che causava la visualizzazione di una pagina vuota durante la generazione di un token di autorizzazione API profilo. (TGT-45387 e TGT-45423)
-* È stato risolto un problema che impediva la visualizzazione di un’immagine in [!UICONTROL Crea design] se il nome dell’immagine contiene GB 18030 caratteri. (TGT-44614)
+* È stato risolto un problema che causava la visualizzazione di una pagina vuota durante la generazione di un token di autorizzazione di un profilo API. (TGT-45387 e TGT-45423)
+* È stato risolto un problema che impediva la visualizzazione di un’immagine nel pannello [!UICONTROL Crea progettazione] se il nome dell’immagine conteneva caratteri GB 18030. (TGT-44614)
 * È stato risolto un problema a causa del quale alcuni caratteri GB 18030 simbolo venivano erroneamente preceduti da escape in Testo/HTML nelle esperienze. (TGT-44600)
-* È stato risolto un problema che causava la generazione di rapporti per [!UICONTROL Personalizzazione automatica] attività da congelare durante l’analisi. (TGT-44820)
+* È stato risolto un problema che causava il blocco dei rapporti delle attività di [!UICONTROL Personalizzazione automatica] durante l’analisi. (TGT-44820)
 * È stato risolto un problema che impediva la ricerca di un’attività sul [!UICONTROL Attività] pagina se il nome dell’attività contiene una parentesi quadra ( [ o ] ). (TGT-44777)
 * È stato risolto un problema che impediva la sincronizzazione di un’attività se la sua finalità conteneva caratteri speciali. (TGT-44982)
 * È stato risolto un problema che impediva la visualizzazione di attività in [!DNL Target] Interfaccia utente per l’area di lavoro predefinita per alcuni clienti. (TGT-45286)
-* È stato aggiornato il comportamento del flag &quot;Non consentire duplicati&quot;. I flag di offerte ripetute escluse vengono aggiornati per consentire le offerte ripetute se sono l’offerta di contenuto predefinita (per API v3 e v4) e per consentire le opzioni duplicate se le opzioni fanno riferimento all’offerta di contenuto predefinita e non hanno modelli definiti. (TNT-46617)
+* È stato aggiornato il comportamento del flag “Disabilita duplicati”. I flag di esclusione offerte ripetute sono stati aggiornati per consentire tali offerte in caso di offerta di contenuto predefinita (per API v3 e v4) e per consentire le opzioni duplicate se tali opzioni fanno riferimento all’offerta di contenuto predefinita e non hanno modelli definiti. (TNT-46617)
 * È stato risolto un problema a causa del quale un parametro di query veniva aggiunto a un URL, impedendo il caricamento della pagina in. [!UICONTROL Compositore esperienza visivo] (VEC). (TGT-44873)
 * Sono state apportate diverse correzioni di localizzazione in tutta l’interfaccia utente di [!DNL Target].
 
@@ -42,13 +42,15 @@ Questa versione include i miglioramenti e le correzioni seguenti:
 
 Questa versione sarà disponibile in base al seguente programma scaglionato:
 
-23 maggio: area geografica Europa, Medio Oriente e Africa (EMEA) 24 maggio: area geografica Asia-Pacifico (APAC) 25 maggio: area geografica delle Americhe
+23 maggio: area geografica Europa, Medio Oriente e Africa (EMEA)
+24 maggio: area geografica Asia-Pacifico (APAC)
+25 maggio: area geografica delle Americhe
 
-Questa versione include i seguenti miglioramenti e correzioni:
+Questa versione include i nuovi miglioramenti e le correzioni seguenti:
 
-* È stato risolto un problema che impediva ad alcuni clienti di creare tipi di pubblico con profili di visitatori utilizzando operatori &quot;maggiore di&quot; o &quot;minore di&quot;. (TGT-45271)
+* È stato risolto un problema che impediva ad alcuni clienti di creare tipi di pubblico con profili di visitatori utilizzando gli operatori “maggiore di” o “minore di”. (TGT-45271)
 * Sono state apportate diverse correzioni di localizzazione in tutta l’interfaccia utente di [!DNL Target].
-* L’interfaccia utente di Target è stata aggiornata in diverse posizioni per un prossimo aggiornamento dell’interfaccia utente (le modifiche sono dietro un flag di funzione fino al rilascio degli aggiornamenti).
+* L’interfaccia utente di Target è stata aggiornata in diverse posizioni in vista di un prossimo aggiornamento (le modifiche sono dietro un flag di funzione fino al rilascio degli aggiornamenti).
 
 ## Note aggiuntive e dettagli sulla versione
 

@@ -7,7 +7,7 @@ exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
 source-git-commit: 87595187e4d45ce8ba042d43ebf45a9ca9ec9a47
 workflow-type: tm+mt
 source-wordcount: '247'
-ht-degree: 83%
+ht-degree: 98%
 
 ---
 
@@ -29,9 +29,9 @@ Questo rilascio contiene i seguenti miglioramenti:
 
 | Funzione | Dettagli |
 |--- |--- |
-| [!UICONTROL Modalità di controllo qualità] per [!UICONTROL Automated Personalization] attività | [!DNL Adobe Target] [!UICONTROL Modalità di controllo qualità] è ora disponibile per [!UICONTROL Automated Personalization] attività, sostituzione [!UICONTROL Collegamenti di anteprima] funzionalità.<P>Per ulteriori informazioni, consulta [Controllo qualità delle attività](/help/main/c-activities/c-activity-qa/activity-qa.md). |
+| [!UICONTROL Modalità Controllo qualità] per attività di [!UICONTROL Automated Personalization] | [!DNL Adobe Target] La [!UICONTROL Modalità Controllo qualità] è ora disponibile per le attività di [!UICONTROL Automated Personalization], in sostituzione della funzionalità [!UICONTROL Collegamenti di anteprima].<P>Per ulteriori informazioni, consulta [Controllo qualità delle attività](/help/main/c-activities/c-activity-qa/activity-qa.md). |
 
-* Miglioramenti delle prestazioni per non consentire la duplicazione delle funzionalità (inclusa la riduzione del tempo di caricamento) durante [gestione delle esclusioni](/help/main/c-activities/t-automated-personalization/managing-exclusions.md#concept_4EF78013F80E48EFA024AE0274C9F037) in [!UICONTROL Automated Personalization] attività.
+* Miglioramenti delle prestazioni per non consentire la duplicazione delle funzionalità (inclusa la riduzione del tempo di caricamento) durante la [gestione delle esclusioni](/help/main/c-activities/t-automated-personalization/managing-exclusions.md#concept_4EF78013F80E48EFA024AE0274C9F037) nelle attività di [!UICONTROL Automated Personalization].
 
 ## Note aggiuntive e dettagli sulla versione
 
