@@ -4,10 +4,10 @@ description: Hai creato la tua prima attività in Adobe Target. Cosa succede ora
 title: Dove posso trovare risorse aggiuntive per utilizzare più efficacemente Target?
 feature: Overview
 exl-id: 76bd62e6-07fa-40b9-9d81-529a825500fb
-source-git-commit: 3f22cb3b11dfdc679127f62d1486d9ba8c42dfa3
+source-git-commit: 1f505991ea9a0caf0d6d49f6464550243128ffaf
 workflow-type: tm+mt
-source-wordcount: '691'
-ht-degree: 83%
+source-wordcount: '690'
+ht-degree: 82%
 
 ---
 
@@ -41,7 +41,7 @@ Abbiamo compilato un elenco organizzato di informazioni importanti per consentir
 ## Risorse aggiuntive
 
 * **Home page di Adobe Target**: la home page di [!DNL Adobe Target], dove puoi scoprire le funzionalità e conoscere le ultime storie di successo. Visita [Adobe Target](https://www.adobe.com/it/marketing/target.html).
-* **Blog**: resta aggiornato sulle ultime notizie, i suggerimenti e le storie di successo seguendo il [blog di Target](https://blog.adobe.com/en/2020/07/29/adobe-target-announces-enhanced-analytics-measurement-for-ai-powered-testing-and-personalization.html#gs.di9df5).
+* **Blog**: resta aggiornato sulle ultime notizie, i suggerimenti e le storie di successo seguendo il [blog di Target](https://blog.adobe.com/en/topics/target).
 * **Experience League**: scopri le guide, gli eventi e i corsi di formazione necessari per avviare attività incentrate sulle esperienze, entrare in contatto con la community di Target e trovare le risposte che cerchi. Consulta la [home page di Adobe Experience League](https://experienceleague.adobe.com/?lang=it#home).
 * **Certificazione Adobe Target**: ottieni lo stato di Adobe Certified Expert con i nuovi esami Adobe Target. Qui puoi pianificare un esame o corsi di formazione. Consulta [Formazione e certificazione](/help/main/c-intro/training-and-certification.md).
 * **Note sulla versione di Adobe Target**: informazioni su funzioni, miglioramenti e correzioni per ogni versione di [!DNL Target Standard] e [!DNL Target Premium]. Sono inoltre incluse, ove applicabili, le note sulla versione per API di Target, SDK, libreria JavaScript (at.js) e altre modifiche alla piattaforma. Consulta [Note sulla versione di Target (corrente)](/help/main/r-release-notes/release-notes.md).
