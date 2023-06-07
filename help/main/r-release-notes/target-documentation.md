@@ -4,10 +4,10 @@ description: Accedi alla documentazione e alle risorse di  [!DNL Adobe Target]  
 title: Dove posso trovare la documentazione e le risorse per  [!DNL Adobe Target]?
 feature: Release Notes
 exl-id: 8e06c57b-94e6-41e4-a30c-8e10ab4882b5
-source-git-commit: 1f505991ea9a0caf0d6d49f6464550243128ffaf
+source-git-commit: 6945e762a527f5ca88bb97096aac9e13d042de2c
 workflow-type: tm+mt
-source-wordcount: '463'
-ht-degree: 96%
+source-wordcount: '462'
+ht-degree: 95%
 
 ---
 
@@ -29,7 +29,7 @@ Sono disponibili le seguenti guide e risorse per [!DNL Target]:
 | [API per la funzione Consigli di Target](https://experienceleague.adobe.com/docs/target-dev/developer/api/recommendations-api/overview.html){target=_blank} | Informazioni sulle API [!UICONTROL Recommendations] che consentono di interagire in modo programmatico con i server di consigli [!DNL Target]. Queste API possono essere integrate con una serie di applicazioni per eseguire funzioni che vengono normalmente eseguite mediante l’interfaccia utente [!DNL Target]. |
 | [API di distribuzione lato server](https://experienceleague.corp.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html?lang=it){target=_blank} | Informazioni sulle risorse che compongono Adobe Target Delivery API. |
 | [SDK per Target lato server](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/getting-started.html){target=_blank} | Spiega come implementare [!DNL Target] lato server utilizzando gli SDK. |
-| [SDK di Adobe Experience Platform Mobile](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-target) | Informazioni sull’implementazione di [!DNL Target] nelle app mobili. |
+| [SDK di Adobe Experience Platform Mobile](https://experienceleague.adobe.com/docs/mobile.html) | Informazioni sull’implementazione di [!DNL Target] nelle app mobili. |
 
 Oltre alle risorse di cui sopra, visita la [Community Target di Adobe Experience League](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community), dove è possibile:
 
