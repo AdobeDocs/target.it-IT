@@ -7,7 +7,7 @@ exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: 1f505991ea9a0caf0d6d49f6464550243128ffaf
 workflow-type: tm+mt
 source-wordcount: '1120'
-ht-degree: 92%
+ht-degree: 95%
 
 ---
 
@@ -19,12 +19,12 @@ Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Targ
 
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
-| 5 giugno | [[!DNL Adobe Target] annunci ed eventi](/help/main/r-release-notes/target-announcements.md) | Sono state aggiornate le informazioni per i seguenti eventi:<ul><li>È stato aggiornato il collegamento di registrazione per [!DNL Adobe Target Recommendations] Coffee Break (mercoledì 7 giugno 2023)</li><li>Sono state aggiunte informazioni sul recente webinar &quot;Mobile Experience Optimization and Personalization for Authenticated Environments&quot; e un collegamento alla registrazione.</li></ul> |
+| 5 giugno | Annunci ed eventi di [[!DNL Adobe Target] ](/help/main/r-release-notes/target-announcements.md) | Sono state aggiornate le informazioni per i seguenti eventi:<ul><li>È stato aggiornato il collegamento di registrazione per [!DNL Adobe Target Recommendations] Coffee Break (mercoledì 7 giugno 2023)</li><li>Sono state aggiunte informazioni sul recente webinar &quot;Mobile Experience Optimization and Personalization for Authenticated Environments&quot; e un collegamento alla registrazione.</li></ul> |
 |  | [Applicare un pubblico di reportistica a una metrica di successo](/help/main/c-target/apply-reporting-audience-success-metric.md) | È stata aggiornata la sezione &quot;Considerazioni&quot; e aggiunta la sezione &quot;Esempio&quot;. |
 |  | [Domande frequenti su target e tipi di pubblico](/help/main/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md#url-targeting) | È stata aggiornata la sezione &quot;Targeting URL&quot;. |
 | 30 maggio | Note sulla versione (corrente) di [[!DNL Target] ](/help/main/r-release-notes/release-notes.md) | Sono state aggiunte note sulla versione 23.5.2 di [!DNL Target Standard/Premium]. |
-|  | [Integrare con [!DNL Real-Time Customer Data Platform]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md) | Articolo aggiornato con informazioni sulla condivisione [!UICONTROL Attributi del profilo di Real-Time CDP] con [!DNL Target] da utilizzare nelle offerte HTML e JSON. |
-|  | [[!DNL Adobe Target] annunci ed eventi](/help/main/r-release-notes/target-announcements.md) | Sono state aggiunte informazioni sui seguenti eventi in programma per Coffee Break:<ul><li>[!DNL Adobe Target Recommendations] Coffee Break (7 giugno)</li><li>Follow-up del webinar Preparazione al programma di personalizzazione (21 giugno)</li></ul> |
+|  | [Integrare con [!DNL Real-Time Customer Data Platform]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md) | Articolo aggiornato con informazioni sulla condivisione di [!UICONTROL Attributi del profilo di Real-Time CDP] con [!DNL Target] da utilizzare nelle offerte HTML e JSON. |
+|  | Annunci ed eventi di [[!DNL Adobe Target] ](/help/main/r-release-notes/target-announcements.md) | Sono state aggiunte informazioni sui prossimi eventi Coffee Break previsti:<ul><li>[!DNL Adobe Target Recommendations] Coffee Break (7 giugno)</li><li>Follow-up del webinar Preparazione al programma di personalizzazione (21 giugno)</li></ul> |
 | 23 maggio | [Inserire nell’elenco consentiti i nodi edge di Target](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/allowlist-edges.html?lang=it){target=_blank} | È stata aggiornata una nota importante. |
 |  | Note sulla versione (prerelease) di [[!DNL Target] ](/help/main/r-release-notes/target-release-notes.md) | Sono state aggiornate le note prerelease per le prossime versioni. |
 |  | [Note sulla versione di Target (corrente)](/help/main/r-release-notes/release-notes.md) | Sono state aggiunte note sulla versione 23.5.1 di [!DNL Target Standard/Premium]. |

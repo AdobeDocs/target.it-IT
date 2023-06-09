@@ -9,7 +9,7 @@ exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 source-git-commit: b06cc6f4a8e7d1617dd5d3a8226e2b77474cfe77
 workflow-type: tm+mt
 source-wordcount: '654'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -29,13 +29,13 @@ Questa versione include i miglioramenti e le correzioni seguenti:
 
 * È stato risolto un problema che causava la visualizzazione di una pagina vuota durante la generazione di un token di autorizzazione di un profilo API. (TGT-45387 e TGT-45423)
 * È stato risolto un problema che impediva la visualizzazione di un’immagine nel pannello [!UICONTROL Crea progettazione] se il nome dell’immagine conteneva caratteri GB 18030. (TGT-44614)
-* È stato risolto un problema a causa del quale alcuni caratteri GB 18030 simbolo venivano erroneamente preceduti da escape in Testo/HTML nelle esperienze. (TGT-44600)
+* È stato risolto un problema a causa del quale in alcuni caratteri dei simboli GB 18030 veniva erroneamente applicato l’escape nel Testo/HTML nelle esperienze. (TGT-44600)
 * È stato risolto un problema che causava il blocco dei rapporti delle attività di [!UICONTROL Personalizzazione automatica] durante l’analisi. (TGT-44820)
-* È stato risolto un problema che impediva la ricerca di un’attività sul [!UICONTROL Attività] pagina se il nome dell’attività contiene una parentesi quadra ( [ o ] ). (TGT-44777)
-* È stato risolto un problema che impediva la sincronizzazione di un’attività se la sua finalità conteneva caratteri speciali. (TGT-44982)
-* È stato risolto un problema che impediva la visualizzazione di attività in [!DNL Target] Interfaccia utente per l’area di lavoro predefinita per alcuni clienti. (TGT-45286)
+* È stato risolto un problema che impediva la ricerca di un’attività sulla pagina [!UICONTROL Attività] se il nome conteneva una parentesi quadra ( [ o ] ). (TGT-44777)
+* È stato risolto un problema che impediva la sincronizzazione di un’attività se il relativo obiettivo conteneva caratteri speciali. (TGT-44982)
+* È stato risolto un problema che impediva ad alcuni clienti la visualizzazione delle attività nell’interfaccia utente di [!DNL Target] per l’area di lavoro predefinita. (TGT-45286)
 * È stato aggiornato il comportamento del flag “Disabilita duplicati”. I flag di esclusione offerte ripetute sono stati aggiornati per consentire tali offerte in caso di offerta di contenuto predefinita (per API v3 e v4) e per consentire le opzioni duplicate se tali opzioni fanno riferimento all’offerta di contenuto predefinita e non hanno modelli definiti. (TNT-46617)
-* È stato risolto un problema a causa del quale un parametro di query veniva aggiunto a un URL, impedendo il caricamento della pagina in. [!UICONTROL Compositore esperienza visivo] (VEC). (TGT-44873)
+* È stato risolto un problema a causa del quale un parametro di query veniva aggiunto a un URL che impediva il caricamento della pagina nel [!UICONTROL Compositore esperienza visivo]. (TGT-44873)
 * Sono state apportate diverse correzioni di localizzazione in tutta l’interfaccia utente di [!DNL Target].
 
 ## [!DNL Target] Standard/Premium 23.5.1 (23-25 maggio 2023)
