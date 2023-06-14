@@ -4,10 +4,10 @@ description: Scopri come utilizzare l’integrazione  [!DNL Target]/[!DNL Real-T
 title: Come posso integrare  [!DNL Target]  con  [!DNL Real-Time Customer Data Platform]?
 feature: Integrations
 exl-id: 1c066b62-91a2-4b8c-807a-3cc56fca7778
-source-git-commit: cf7af568f270f97868107032897cd4fdd8e45131
-workflow-type: ht
-source-wordcount: '1029'
-ht-degree: 100%
+source-git-commit: 92990584efd21ab81f6a4cadab2f46529e1bc182
+workflow-type: tm+mt
+source-wordcount: '1076'
+ht-degree: 95%
 
 ---
 
@@ -112,6 +112,8 @@ Per ulteriori informazioni, consulta i seguenti argomenti:
 * [Configurare le destinazioni di personalizzazione per la personalizzazione stessa pagina e pagina successiva](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/configure-personalization-destinations.html?lang=it){target=_blank} nella guida *Panoramica sulle destinazioni*.
 * [Connessione ad Adobe Target](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html?lang=it){target=_blank} nella guida *Panoramica sulle destinazioni*
 * [Attributi mappa](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-profile-request-destinations.html?lang=it#map-attributes){target=_blank} nella guida *Panoramica sulle destinazioni*.
+* [Attivare i tipi di pubblico per Edge Personalization Destinations](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-edge-personalization-destinations.htm){target=_blank} nel *Panoramica sulle destinazioni* guida.
+* [Personalizzazione della stessa pagina e della pagina successiva tramite [!DNL Adobe Target] e le destinazioni di personalizzazione personalizzate](https://experienceleague.adobe.com/docs/experience-platform/destinations/destinations-faq.html?lang=en#same-next-page-personalization){target=_blank} in &quot;Domande frequenti&quot; nella sezione *Panoramica sulle destinazioni* guida.
 
 ## Video e post del blog {#videos-blogs}
 
