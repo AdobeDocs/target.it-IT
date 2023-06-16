@@ -7,7 +7,7 @@ exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 source-git-commit: ffd59dc1edc15b2493670ef5ff883dfc238f7226
 workflow-type: tm+mt
 source-wordcount: '2104'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -46,7 +46,7 @@ In che modo i brand dei settori dei servizi finanziari e assicurativi, della ven
 In questa sessione, scopri come [!DNL Adobe Target] e [!DNL Real-Time CDP] possono stimolare maggiormente il coinvolgimento, i ricavi e la fidelizzazione dei clienti all’interno dei settori regolamentati mentre parliamo di:
 
 * Come i team forniscono esperienze personalizzate ai visitatori anonimi e autenticati
-* Informazioni sulle autorizzazioni dei consumatori e gli standard sulla privacy con la personalizzazione
+* Comprendere le autorizzazioni dei consumatori e gli standard sulla privacy con la personalizzazione
 * Contenuto e offerte personalizzati ai visitatori autenticati anonimizzando le identità
 * Casi d’uso univoci per siti autenticati e sicuri sul web e sui dispositivi mobili
 
