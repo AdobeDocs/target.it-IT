@@ -6,7 +6,7 @@ short-description: Scopri le nuove funzioni, i miglioramenti e le correzioni inc
 title: Cosa è incluso nella versione corrente?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 351ed1e51b0a253476c6cda456781351333e8da5
+source-git-commit: 3349b3a948186a18093adfc4580c5134e9ef7fc7
 workflow-type: tm+mt
 source-wordcount: '671'
 ht-degree: 98%
@@ -34,7 +34,7 @@ Questa versione include i miglioramenti e le correzioni seguenti:
 * È stato risolto un problema a causa del quale un parametro di query veniva aggiunto a un URL che impediva il caricamento della pagina nel [!UICONTROL Compositore esperienza visivo]. (TGT-44873)
 * Sono state apportate diverse correzioni di localizzazione in tutta l’interfaccia utente di [!DNL Target].
 
-## Attributi del profilo di Real-Time CDP condivisi con [!DNL Target]|[!UICONTROL Attributi del profilo di Real-Time CDP] (13 giugno 2023)
+## Attributi del profilo di Real-Time CDP condivisi con [!DNL Target] [!UICONTROL Attributi del profilo di Real-Time CDP] (13 giugno 2023)
 
 Questa versione contiene i seguenti miglioramenti:
 
