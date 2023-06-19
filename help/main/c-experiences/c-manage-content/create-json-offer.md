@@ -4,9 +4,9 @@ description: Scopri come creare offerte JSON in Adobe [!DNL Target] da utilizzar
 title: Come si creano le offerte JSON?
 feature: Experiences and Offers
 exl-id: 793665a4-4cd6-458f-8225-ba23e503a115
-source-git-commit: fedef4bfa5fdcc757dc1bd5e0d3577a85896c918
+source-git-commit: 7449e00c331fd131b527fe136ffeeeccc6625e47
 workflow-type: tm+mt
-source-wordcount: '458'
+source-wordcount: '457'
 ht-degree: 32%
 
 ---

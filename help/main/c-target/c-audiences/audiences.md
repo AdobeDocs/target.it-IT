@@ -4,10 +4,10 @@ description: Scopri come utilizzare i tipi di pubblico in [!DNL Adobe Target].
 title: Come si utilizza l’elenco del pubblico?
 feature: Audiences
 exl-id: 7af7f101-f550-4fdc-bcd9-90e4107b0415
-source-git-commit: 2a25fdb42ce4470f9126b7e0e7f6fd9e60c350e5
+source-git-commit: 7449e00c331fd131b527fe136ffeeeccc6625e47
 workflow-type: tm+mt
-source-wordcount: '818'
-ht-degree: 33%
+source-wordcount: '861'
+ht-degree: 31%
 
 ---
 
@@ -28,7 +28,7 @@ Esistono due tipi di pubblico in [!DNL Target]:
 * **Targeting dei tipi di pubblico:** Utilizzato per fornire contenuti diversi a diversi tipi di visitatori.
 * **Tipi di pubblico per i rapporti:** Utilizzato per determinare come diversi tipi di visitatori rispondono allo stesso contenuto e analizzare i risultati dei test.
 
-   In [!DNL Target], è possibile configurare i tipi di pubblico per reportistica solo se [!DNL Target] è utilizzato come origine per la generazione di rapporti. Se utilizzi [ Adobe Analytics come origine per la generazione di rapporti](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T), devi configurare i tipi di pubblico per la generazione di rapporti in [!DNL Analytics].
+  In [!DNL Target], è possibile configurare i tipi di pubblico per reportistica solo se [!DNL Target] è utilizzato come origine per la generazione di rapporti. Se utilizzi [ Adobe Analytics come origine per la generazione di rapporti](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T), devi configurare i tipi di pubblico per la generazione di rapporti in [!DNL Analytics].
 
 ## Utilizza il [!UICONTROL Tipi di pubblico] list {#use-list}
 
@@ -43,13 +43,13 @@ Il [!UICONTROL Tipi di pubblico] contiene i tipi di pubblico che puoi utilizzare
 * [!DNL Experience Cloud]
 * [!DNL Adobe Experience Platform]
 
-   >[!NOTE]
-   >
-   >Il [!DNL Adobe Experience Platform] l&#39;origine è disponibile per tutti [!DNL Target] clienti che utilizzano [Adobe Experience Platform Web SDK](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=it){target=_blank}. Tipi di pubblico disponibili da [!DNL Adobe Experience Platform] può essere utilizzato così come è o [combinato con tipi di pubblico esistenti](/help/main/c-target/combining-multiple-audiences.md).
-   >
-   >Gli utenti devono avere [!UICONTROL Approvatore] o superiore in [!DNL Target] da configurare [!DNL Target] [!UICONTROL Destinazioni] schede in AEP/RTCDP ([!DNL Real-time Customer Data Platform]).
-   >
-   >Per ulteriori informazioni, consulta [Utilizzare i tipi di pubblico da Adobe Experience Platform](#aep).
+  >[!NOTE]
+  >
+  >Il [!DNL Adobe Experience Platform] l&#39;origine è disponibile per tutti [!DNL Target] clienti che utilizzano [Adobe Experience Platform Web SDK](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=it){target=_blank}. Tipi di pubblico disponibili da [!DNL Adobe Experience Platform] può essere utilizzato così come è o [combinato con tipi di pubblico esistenti](/help/main/c-target/combining-multiple-audiences.md).
+  >
+  >Gli utenti devono avere [!UICONTROL Approvatore] o superiore in [!DNL Target] da configurare [!DNL Target] [!UICONTROL Destinazioni] schede in AEP/RTCDP ([!DNL Real-time Customer Data Platform]).
+  >
+  >Per ulteriori informazioni, consulta [Utilizzare i tipi di pubblico da Adobe Experience Platform](#aep).
 
 Tipi di pubblico predefiniti, ad esempio &quot;[!UICONTROL Nuovi visitatori]&quot; e &quot;[!UICONTROL Visitatori abituali],&quot; non può essere rinominato.
 
@@ -110,6 +110,12 @@ Keep the following points in mind as you work with imported audiences:
 L’utilizzo dei tipi di pubblico creati in [!DNL Adobe Experience Platform] fornisce dati più completi sui clienti, per una personalizzazione più incisiva.
 
 Per ulteriori informazioni, consulta [Utilizza i tipi di pubblico da [!DNL Adobe Experience Platform]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#aep).
+
+## Utilizzare gli attributi del profilo Real-time CDP nelle offerte HTML e JSON
+
+Gli attributi del profilo Real-time CDP possono essere condivisi con Target per l’utilizzo nelle offerte di HTML e nelle offerte JSON. Per ulteriori informazioni, consulta Integrare con [!DNL Real-Time Customer Data Platform].
+
+Per ulteriori informazioni, consulta [Gestire i contenuti](/help/main/c-experiences/c-manage-content/manage-content.md) e [Creare offerte JSON](/help/main/c-experiences/c-manage-content/create-json-offer.md).
 
 ## Video di formazione: Utilizzo dei tipi di pubblico ![Icona esercitazione](/help/main/assets/tutorial.png)
 
