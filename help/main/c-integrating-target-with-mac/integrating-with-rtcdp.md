@@ -4,9 +4,9 @@ description: Scopri come utilizzare l’integrazione  [!DNL Target]/[!DNL Real-T
 title: Come posso integrare  [!DNL Target]  con  [!DNL Real-Time Customer Data Platform]?
 feature: Integrations
 exl-id: 1c066b62-91a2-4b8c-807a-3cc56fca7778
-source-git-commit: 92990584efd21ab81f6a4cadab2f46529e1bc182
+source-git-commit: fedef4bfa5fdcc757dc1bd5e0d3577a85896c918
 workflow-type: tm+mt
-source-wordcount: '1076'
+source-wordcount: '1060'
 ht-degree: 95%
 
 ---
@@ -77,10 +77,6 @@ Questa integrazione sblocca i casi d’uso chiave con Real-Time CDP:
 Gli attributi di profilo Real-Time CDP possono essere condivisi con [!DNL Target] per l’utilizzo nelle offerte HTML e [JSON](/help/main/c-experiences/c-manage-content/create-json-offer.md).
 
 ### Limitazioni e considerazioni sulle funzioni degli attributi di profilo di Real-Time CDP
-
->[!NOTE]
->
->La funzione degli attributi di profilo di Real-Time CDP è disponibile in versione beta per le offerte HTML e [JSON](/help/main/c-experiences/c-manage-content/create-json-offer.md).
 
 Considera i seguenti aspetti:
 
