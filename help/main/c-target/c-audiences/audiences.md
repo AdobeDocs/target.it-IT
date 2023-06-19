@@ -4,10 +4,10 @@ description: Scopri come utilizzare i tipi di pubblico in [!DNL Adobe Target].
 title: Come si utilizza l’elenco del pubblico?
 feature: Audiences
 exl-id: 7af7f101-f550-4fdc-bcd9-90e4107b0415
-source-git-commit: 7449e00c331fd131b527fe136ffeeeccc6625e47
+source-git-commit: 351ed1e51b0a253476c6cda456781351333e8da5
 workflow-type: tm+mt
-source-wordcount: '861'
-ht-degree: 31%
+source-wordcount: '818'
+ht-degree: 33%
 
 ---
 
@@ -110,12 +110,6 @@ Keep the following points in mind as you work with imported audiences:
 L’utilizzo dei tipi di pubblico creati in [!DNL Adobe Experience Platform] fornisce dati più completi sui clienti, per una personalizzazione più incisiva.
 
 Per ulteriori informazioni, consulta [Utilizza i tipi di pubblico da [!DNL Adobe Experience Platform]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#aep).
-
-## Utilizzare gli attributi del profilo Real-time CDP nelle offerte HTML e JSON
-
-Gli attributi del profilo Real-time CDP possono essere condivisi con Target per l’utilizzo nelle offerte di HTML e nelle offerte JSON. Per ulteriori informazioni, consulta Integrare con [!DNL Real-Time Customer Data Platform].
-
-Per ulteriori informazioni, consulta [Gestire i contenuti](/help/main/c-experiences/c-manage-content/manage-content.md) e [Creare offerte JSON](/help/main/c-experiences/c-manage-content/create-json-offer.md).
 
 ## Video di formazione: Utilizzo dei tipi di pubblico ![Icona esercitazione](/help/main/assets/tutorial.png)
 
