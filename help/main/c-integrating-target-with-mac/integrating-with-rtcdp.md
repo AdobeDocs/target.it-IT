@@ -7,7 +7,7 @@ exl-id: 1c066b62-91a2-4b8c-807a-3cc56fca7778
 source-git-commit: 210e9de954dba813972b0da9a7db5b9383d3e303
 workflow-type: tm+mt
 source-wordcount: '1060'
-ht-degree: 95%
+ht-degree: 99%
 
 ---
 
@@ -108,8 +108,8 @@ Per ulteriori informazioni, consulta i seguenti argomenti:
 * [Configurare le destinazioni di personalizzazione per la personalizzazione stessa pagina e pagina successiva](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/configure-personalization-destinations.html?lang=it){target=_blank} nella guida *Panoramica sulle destinazioni*.
 * [Connessione ad Adobe Target](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html?lang=it){target=_blank} nella guida *Panoramica sulle destinazioni*
 * [Attributi mappa](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-profile-request-destinations.html?lang=it#map-attributes){target=_blank} nella guida *Panoramica sulle destinazioni*.
-* [Attivare i tipi di pubblico per Edge Personalization Destinations](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-edge-personalization-destinations.html){target=_blank} nel *Panoramica sulle destinazioni* guida.
-* [Personalizzazione della stessa pagina e della pagina successiva tramite [!DNL Adobe Target] e le destinazioni di personalizzazione personalizzate](https://experienceleague.adobe.com/docs/experience-platform/destinations/destinations-faq.html?lang=en#same-next-page-personalization){target=_blank} in &quot;Domande frequenti&quot; nella sezione *Panoramica sulle destinazioni* guida.
+* [Attivare i tipi di pubblico per destinazioni di personalizzazione Edge](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-edge-personalization-destinations.html){target=_blank} nella guida *Panoramica sulle destinazioni*.
+* [Personalizzazione della stessa pagina e della pagina successiva tramite  [!DNL Adobe Target]  e le destinazioni di personalizzazione su misura](https://experienceleague.adobe.com/docs/experience-platform/destinations/destinations-faq.html?lang=it#same-next-page-personalization){target=_blank} in “Domande frequenti” nella guida *Panoramica sulle destinazioni*.
 
 ## Video e post del blog {#videos-blogs}
 
