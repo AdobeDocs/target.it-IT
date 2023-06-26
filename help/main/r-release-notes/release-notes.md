@@ -7,9 +7,9 @@ title: Cosa è incluso nella versione corrente?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 source-git-commit: 3349b3a948186a18093adfc4580c5134e9ef7fc7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '671'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -27,14 +27,14 @@ Questa versione include i miglioramenti e le correzioni seguenti:
 * È stato risolto un problema che impediva la visualizzazione di un’immagine nel pannello [!UICONTROL Crea progettazione] se il nome dell’immagine conteneva caratteri GB 18030. (TGT-44614)
 * È stato risolto un problema a causa del quale in alcuni caratteri dei simboli GB 18030 veniva erroneamente applicato l’escape nel Testo/HTML nelle esperienze. (TGT-44600)
 * È stato risolto un problema che causava il blocco dei rapporti delle attività di [!UICONTROL Personalizzazione automatica] durante l’analisi. (TGT-44820)
-* È stato risolto un problema che impediva la ricerca di un’attività sulla pagina [!UICONTROL Attività] se il nome conteneva una parentesi quadra ( [ o ] ). (TGT-44777)
+* È stato risolto un problema che impediva la ricerca di un’attività sulla pagina [!UICONTROL Attività] se il nome conteneva una parentesi quadra ( [o] ). (TGT-44777)
 * È stato risolto un problema che impediva la sincronizzazione di un’attività se il relativo obiettivo conteneva caratteri speciali. (TGT-44982)
 * È stato risolto un problema che impediva ad alcuni clienti la visualizzazione delle attività nell’interfaccia utente di [!DNL Target] per l’area di lavoro predefinita. (TGT-45286)
 * È stato aggiornato il comportamento del flag “Disabilita duplicati”. I flag di esclusione offerte ripetute sono stati aggiornati per consentire tali offerte in caso di offerta di contenuto predefinita (per API v3 e v4) e per consentire le opzioni duplicate se tali opzioni fanno riferimento all’offerta di contenuto predefinita e non hanno modelli definiti. (TNT-46617)
 * È stato risolto un problema a causa del quale un parametro di query veniva aggiunto a un URL che impediva il caricamento della pagina nel [!UICONTROL Compositore esperienza visivo]. (TGT-44873)
 * Sono state apportate diverse correzioni di localizzazione in tutta l’interfaccia utente di [!DNL Target].
 
-## Attributi del profilo di Real-Time CDP condivisi con [!DNL Target] [!UICONTROL Attributi del profilo di Real-Time CDP] (13 giugno 2023)
+## Attributi del profilo di Real-Time CDP condivisi con [!UICONTROL Attributi del profilo di Real-Time CDP] di [!DNL Target] (13 giugno 2023)
 
 Questa versione contiene i seguenti miglioramenti:
 
