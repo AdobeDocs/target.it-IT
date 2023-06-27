@@ -6,9 +6,9 @@ short-description: Scopri le nuove funzioni, i miglioramenti e le correzioni inc
 title: Cosa è incluso nella versione corrente?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 3349b3a948186a18093adfc4580c5134e9ef7fc7
-workflow-type: ht
-source-wordcount: '671'
+source-git-commit: 30ce57ffacabb9625b4668c5482646d4acdb1e55
+workflow-type: tm+mt
+source-wordcount: '387'
 ht-degree: 100%
 
 ---
@@ -19,42 +19,21 @@ Queste note sulla versione forniscono informazioni su funzioni, miglioramenti e 
 
 I codici dei problemi tra parentesi sono per uso interno di [!DNL Adobe].
 
-## [!DNL Target] Standard/Premium 23.5.2 (31 maggio 2023)
-
-Questa versione include i miglioramenti e le correzioni seguenti:
-
-* È stato risolto un problema che causava la visualizzazione di una pagina vuota durante la generazione di un token di autorizzazione di un profilo API. (TGT-45387 e TGT-45423)
-* È stato risolto un problema che impediva la visualizzazione di un’immagine nel pannello [!UICONTROL Crea progettazione] se il nome dell’immagine conteneva caratteri GB 18030. (TGT-44614)
-* È stato risolto un problema a causa del quale in alcuni caratteri dei simboli GB 18030 veniva erroneamente applicato l’escape nel Testo/HTML nelle esperienze. (TGT-44600)
-* È stato risolto un problema che causava il blocco dei rapporti delle attività di [!UICONTROL Personalizzazione automatica] durante l’analisi. (TGT-44820)
-* È stato risolto un problema che impediva la ricerca di un’attività sulla pagina [!UICONTROL Attività] se il nome conteneva una parentesi quadra ( [o] ). (TGT-44777)
-* È stato risolto un problema che impediva la sincronizzazione di un’attività se il relativo obiettivo conteneva caratteri speciali. (TGT-44982)
-* È stato risolto un problema che impediva ad alcuni clienti la visualizzazione delle attività nell’interfaccia utente di [!DNL Target] per l’area di lavoro predefinita. (TGT-45286)
-* È stato aggiornato il comportamento del flag “Disabilita duplicati”. I flag di esclusione offerte ripetute sono stati aggiornati per consentire tali offerte in caso di offerta di contenuto predefinita (per API v3 e v4) e per consentire le opzioni duplicate se tali opzioni fanno riferimento all’offerta di contenuto predefinita e non hanno modelli definiti. (TNT-46617)
-* È stato risolto un problema a causa del quale un parametro di query veniva aggiunto a un URL che impediva il caricamento della pagina nel [!UICONTROL Compositore esperienza visivo]. (TGT-44873)
-* Sono state apportate diverse correzioni di localizzazione in tutta l’interfaccia utente di [!DNL Target].
-
-## Attributi del profilo di Real-Time CDP condivisi con [!UICONTROL Attributi del profilo di Real-Time CDP] di [!DNL Target] (13 giugno 2023)
-
-Questa versione contiene i seguenti miglioramenti:
-
-| Funzione | Dettagli |
-|--- |--- |
-| Attributi di profilo Real-Time CDP condivisi con [!DNL Target] | Gli [!UICONTROL attributi di profilo Real-Time CDP] possono essere condivisi con [!DNL Target] per l’utilizzo nelle offerte HTML e JSON.<P>Per ulteriori informazioni, consulta [Condividere gli attributi di profilo Real-Time CDP con [!DNL Target]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#rtcdp-profile-attributes). |
-
-## [!DNL Target] Standard/Premium 23.5.1 (23-25 maggio 2023)
+## [!DNL Target] Standard/Premium 23.6.1 (27-29 giugno)
 
 Questa versione sarà disponibile in base al seguente programma scaglionato:
 
-23 maggio: area geografica Europa, Medio Oriente e Africa (EMEA)
-24 maggio: area geografica Asia-Pacifico (APAC)
-25 maggio: area geografica delle Americhe
+* **27 giugno**: area geografica Europa, Medio Oriente e Africa (EMEA)
+* **28 giugno**: area geografica Asia Pacifico (APAC)
+* **29 giugno**: area geografica delle Americhe
 
-Questa versione include i nuovi miglioramenti e le correzioni seguenti:
+Questo rilascio contiene i seguenti miglioramenti:
 
-* È stato risolto un problema che impediva ad alcuni clienti di creare tipi di pubblico con profili di visitatori utilizzando gli operatori “maggiore di” o “minore di”. (TGT-45271)
-* Sono state apportate diverse correzioni di localizzazione in tutta l’interfaccia utente di [!DNL Target].
-* L’interfaccia utente di Target è stata aggiornata in diverse posizioni in vista di un prossimo aggiornamento (le modifiche sono dietro un flag di funzione fino al rilascio degli aggiornamenti).
+| Funzione | Dettagli |
+|--- |--- |
+| [!UICONTROL Modalità Controllo qualità] per attività di [!UICONTROL Automated Personalization] | [!DNL Adobe Target] La [!UICONTROL Modalità Controllo qualità] è ora disponibile per le attività di [!UICONTROL Automated Personalization], in sostituzione della funzionalità [!UICONTROL Collegamenti di anteprima].<P>Per ulteriori informazioni, consulta [Controllo qualità delle attività](/help/main/c-activities/c-activity-qa/activity-qa.md). |
+
+* Miglioramenti delle prestazioni per non consentire la duplicazione delle funzionalità (inclusa la riduzione del tempo di caricamento) durante la [gestione delle esclusioni](/help/main/c-activities/t-automated-personalization/managing-exclusions.md#concept_4EF78013F80E48EFA024AE0274C9F037) nelle attività di [!UICONTROL Automated Personalization].
 
 ## Note aggiuntive e dettagli sulla versione
 

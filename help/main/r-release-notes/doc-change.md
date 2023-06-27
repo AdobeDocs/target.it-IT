@@ -4,16 +4,24 @@ description: Resta aggiornato sulle importanti aggiunte e modifiche apportate al
 title: Dove posso trovare la documentazione aggiornata per  [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: f7a23cd485e445a0e9f9c420b42dfca3adb85895
+source-git-commit: 30ce57ffacabb9625b4668c5482646d4acdb1e55
 workflow-type: tm+mt
-source-wordcount: '1203'
-ht-degree: 99%
+source-wordcount: '1263'
+ht-degree: 95%
 
 ---
 
 # Modifiche alla documentazione
 
 Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Target].
+
+## [!DNL Target] Standard/Premium 23.6.1 (27-29 giugno 2023)
+
+| Data | Argomento | Modifiche |
+| --- | --- | --- |
+| 27 giugno | [Controllo di qualità delle attività](/help/main/c-activities/c-activity-qa/activity-qa.md) | Il Controllo di qualità delle attività è ora disponibile per tutti i tipi di attività di Target, tra cui [!UICONTROL Automated Personalization] attività (AP). Sono state rimosse informazioni sui collegamenti di anteprima. |
+|  | URL di anteprima | Poiché tutti i tipi di attività ora supportano il Controllo qualità delle attività, questo argomento è stato eliminato e reindirizzato al [Controllo di qualità delle attività](/help/main/c-activities/c-activity-qa/activity-qa.md) argomento. |
+|  | [Note sulla versione di Target (corrente)](/help/main/r-release-notes/release-notes.md) | Sono state aggiunte note sulla versione 23.6.1 di [!DNL Target Standard/Premium]. |
 
 ## [!DNL Target] Standard/Premium 23.5.1 (23-25 maggio 2023)
 
