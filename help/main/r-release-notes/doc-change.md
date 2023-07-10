@@ -4,10 +4,10 @@ description: Resta aggiornato sulle importanti aggiunte e modifiche apportate al
 title: Dove posso trovare la documentazione aggiornata per  [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 30ce57ffacabb9625b4668c5482646d4acdb1e55
+source-git-commit: 05e0c6107d911b5dae8387b4136743ebb92c0e7c
 workflow-type: tm+mt
-source-wordcount: '1263'
-ht-degree: 100%
+source-wordcount: '1290'
+ht-degree: 97%
 
 ---
 
@@ -19,6 +19,7 @@ Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Targ
 
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
+| 10 Luglio | [Considerazioni e limitazioni note](https://experienceleague.adobe.com/docs/target-dev/developer/api/delivery-api/known-limitations.html){target=_blank} | Sono state aggiunte informazioni al *API di consegna di Target* documentazione su HTTP/2 applicazione di nomi di intestazione minuscoli. |
 | 27 giugno | [Controllo di qualità attività](/help/main/c-activities/c-activity-qa/activity-qa.md) | La funzione Controllo di qualità attività è ora disponibile per tutti i tipi di attività di Target, comprese le attività di [!UICONTROL Automated Personalization] (AP). Sono state rimosse le informazioni sui collegamenti di anteprima. |
 |  | URL di anteprima | Poiché tutti i tipi di attività ora supportano la funzione Controllo di qualità attività, questo argomento è stato eliminato e reindirizzato all’argomento [Controllo di qualità attività](/help/main/c-activities/c-activity-qa/activity-qa.md). |
 |  | [Note sulla versione di Target (corrente)](/help/main/r-release-notes/release-notes.md) | Sono state aggiunte le note sulla versione 23.6.1 di [!DNL Target Standard/Premium]. |
