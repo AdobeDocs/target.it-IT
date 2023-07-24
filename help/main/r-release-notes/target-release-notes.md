@@ -4,7 +4,7 @@ description: Scopri le nuove funzioni, i miglioramenti e le correzioni, compresi
 title: Quali nuove funzioni e miglioramenti saranno inclusi nella prossima versione [!DNL Target] ?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 2f350479244748db923dfdf5dd3b02c102d08433
+source-git-commit: 11f4be7a245326d5428b5d6d4c4fad795a24df2f
 workflow-type: tm+mt
 source-wordcount: '291'
 ht-degree: 74%
@@ -36,7 +36,6 @@ Questa versione include i miglioramenti e le correzioni seguenti:
 * Ricerca migliorata quando [esplorazione degli elementi utilizzando il percorso DOM](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path) nel [!UICONTROL Compositore esperienza visivo] (VEC) per includere gli elementi DOM ombra. (TGT-45262)
 * È stato risolto un problema che impediva alla funzione [Cambia sovrapposizione](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) che non funzionino correttamente. (TGT-45202)
 * È stato risolto un problema che impediva ad alcuni clienti di scaricare i rapporti delle attività di dopo aver ricevuto il seguente messaggio di errore: &quot;L’utente non è autorizzato ad accedere al rapporto&quot;. (TGT-45724 e TGT-45747)
-
 
 ## Note aggiuntive e dettagli sulla versione
 

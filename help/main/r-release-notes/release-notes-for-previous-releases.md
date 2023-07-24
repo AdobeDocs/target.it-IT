@@ -4,9 +4,9 @@ description: Visualizza un elenco di funzioni, miglioramenti e correzioni inclus
 title: Quali funzioni sono incluse nelle versioni precedenti?
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: 37610e658a25027ae614818b0be425dfc9dbffc6
+source-git-commit: 11f4be7a245326d5428b5d6d4c4fad795a24df2f
 workflow-type: tm+mt
-source-wordcount: '36917'
+source-wordcount: '36971'
 ht-degree: 96%
 
 ---
@@ -22,6 +22,16 @@ Le note sulla versione vengono ordinate in ordine decrescente per mese e anno di
 >Consulta [Note sulla versione di Target (corrente)](/help/main/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A) per informazioni sulle versioni di Target del mese corrente (piattaforma e Target Standard/Premium).
 
 ## Note sulla versione - 2023
+
+### [!DNL Target] Standard/Premium 23.6.1 (27-29 giugno)
+
+Questo rilascio contiene i seguenti miglioramenti:
+
+| Funzione | Dettagli |
+|--- |--- |
+| [!UICONTROL Modalità Controllo qualità] per attività di [!UICONTROL Automated Personalization] | [!DNL Adobe Target] La [!UICONTROL Modalità Controllo qualità] è ora disponibile per le attività di [!UICONTROL Automated Personalization], in sostituzione della funzionalità [!UICONTROL Collegamenti di anteprima].<P>Per ulteriori informazioni, consulta [Controllo qualità delle attività](/help/main/c-activities/c-activity-qa/activity-qa.md). |
+
+* Miglioramenti delle prestazioni per non consentire la duplicazione delle funzionalità (inclusa la riduzione del tempo di caricamento) durante la [gestione delle esclusioni](/help/main/c-activities/t-automated-personalization/managing-exclusions.md#concept_4EF78013F80E48EFA024AE0274C9F037) nelle attività di [!UICONTROL Automated Personalization].
 
 ### [!DNL Target] Standard/Premium 23.5.2 (31 maggio 2023)
 
@@ -608,7 +618,7 @@ I codici tra parentesi sono per uso interno di [!DNL Adobe].
 * È stato aggiunto il filtro [!UICONTROL Ultimo aggiornamento] a [!UICONTROL Ricerca nel catalogo] per [!UICONTROL Consigli]. (TGT-38340)
 * È stato risolto un problema relativo alla funzione [!UICONTROL Consigli] che causava il blocco della pagina [!UICONTROL Crea sequenza] dopo la modifica del settore verticale. (TGT-38160)
 * È stato risolto un problema che impediva agli utenti di rimuovere un pubblico da un’offerta in un’attività [!UICONTROL Automated Personalization] (AP). (TGT-39058)
-* È stato risolto un problema che causava la visualizzazione errata dell’intervallo di tempo (date di inizio e di fine) nelle schede [!UICONTROL Informazioni pubblico] per alcuni clienti. (TGT-39150)
+* È stato risolto un problema che causava la visualizzazione errata dell’arco temporale (date di inizio e di fine) nelle schede [!UICONTROL Informazioni pubblico] per alcuni clienti. (TGT-39150)
 * È stato risolto un problema che impediva ad alcuni clienti di visualizzare l’elenco delle attività nell’[!UICONTROL Area di lavoro predefinita]. (TGT-38526)
 
 ### at.js 2.4.0 (14 gennaio 2021)
@@ -1779,7 +1789,7 @@ Questa versione include i miglioramenti e le funzioni seguenti:
    <td colname="col1"> <p>Tipi di pubblico </p> </td> 
    <td colname="col2"> <p> 
      <ul id="ul_42D7C86043C94A7BBA5ED405B2902E3A"> 
-      <li id="li_50F2A7D05AB244E18D263A476BD906B3"> <p>Ora puoi creare un pubblico con Intervallo di tempo senza date di inizio o di fine. In questo modo puoi utilizzare lo stesso pubblico in più attività (senza creare una copia del pubblico) controllando le date di inizio e di fine a livello di attività. Consulta <a href="/help/main/c-target/c-audiences/c-target-rules/time-frame.md#concept_0FE1E8DACD104F8B870B0BADE3197F0A" format="dita" scope="local">Intervallo di tempo</a>. (TGT-25975) </p> </li> 
+      <li id="li_50F2A7D05AB244E18D263A476BD906B3"> <p>Ora puoi creare un pubblico con Arco temporale senza date di inizio o di fine. In questo modo puoi utilizzare lo stesso pubblico in più attività (senza creare una copia del pubblico) controllando le date di inizio e di fine a livello di attività. Consulta <a href="/help/main/c-target/c-audiences/c-target-rules/time-frame.md#concept_0FE1E8DACD104F8B870B0BADE3197F0A" format="dita" scope="local">Intervallo di tempo</a>. (TGT-25975) </p> </li> 
       <li id="li_6F08D63BC4F040859D51C47C3521C5E1"> <p>La funzionalità Copia e modifica è disponibile per il pubblico solo attività: fai clic su Seleziona pubblico &gt; Solo attività, e passa il mouse su un pubblico. In precedenza, questa funzionalità esisteva solo per il pubblico di Librerie. Consulta <a href="/help/main/c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483" format="dita" scope="local">Creazione di un pubblico per sola attività</a>. (TGT-27410) </p> </li> 
       <li id="li_A8CF45E6DC37401AA273F7D6CF617524"> <p>Il pubblico solo attività può avere lo stesso nome in attività diverse. In precedenza, i nomi duplicati generavano l’aggiunta di marche temporali; un pubblico duplicato denominato "Target nel giorno feriale" veniva salvato come "Target nel giorno feriale-1456732099201". </p> <p>I tipi di pubblico della Libreria continua a richiedere nomi univoci. (TGT-17967) </p> </li> 
      </ul> </p> </td> 
@@ -2380,7 +2390,7 @@ Questa versione include i miglioramenti e le funzioni seguenti:
    <td colname="col1"> <p>Tipi di pubblico </p> </td> 
    <td colname="col2"> <p>I seguenti miglioramenti sono stati apportati al targeting di pubblico: </p> <p> 
      <ul id="ul_C920198404654C97A33190A29ACA6990"> 
-      <li id="li_DB52EF909C9640649981940460CDF2B5"> <p><b>Ripartizione tra settimana e giorno:</b> è possibile impostare le opzioni di <span class="wintitle">ripartizione settimana/giorno</span> per creare modelli ricorrenti per il targeting di pubblico. </p> <p>Per ulteriori informazioni, consulta <a href="/help/main/c-target/c-audiences/c-target-rules/time-frame.md#concept_0FE1E8DACD104F8B870B0BADE3197F0A" format="dita" scope="local">Intervallo di tempo</a>. </p> </li> 
+      <li id="li_DB52EF909C9640649981940460CDF2B5"> <p><b>Ripartizione tra settimana e giorno:</b> è possibile impostare le opzioni di <span class="wintitle">ripartizione settimana/giorno</span> per creare modelli ricorrenti per il targeting di pubblico. </p> <p>Per ulteriori informazioni, consulta <a href="/help/main/c-target/c-audiences/c-target-rules/time-frame.md#concept_0FE1E8DACD104F8B870B0BADE3197F0A" format="dita" scope="local"> Arco temporale </a>. </p> </li> 
       <li id="li_2541A6EF2D604CE098012A16909C237E"> <p><b> Esclusioni nel pubblico combinato:</b> è ora possibile aggiungere regole di esclusione per escludere il pubblico quando si combinano più tipi di pubblico. </p> <p>Per ulteriori informazioni, consulta <a href="/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5" format="dita" scope="local">Combinazione di più tipi di pubblico</a>. </p> </li> 
      </ul> </p> </td> 
   </tr> 
@@ -2628,7 +2638,7 @@ Questa versione include i miglioramenti e le funzioni seguenti:
   </tr> 
   <tr> 
    <td colname="col1"> Targeting dei visitatori durante un periodo di tempo specifico </td> 
-   <td colname="col2"> <p>Aggiungi la data di inizio e fine del periodo per indirizzare un pubblico. </p> <p>Per esempio, utilizzando i nuovi tipi di pubblico combinati ad hoc di cui sopra, è possibile indirizzare gli utenti che spendono meno su contenuti specifici nei tre giorni prima del Black Friday e su altri contenuti dopo il Black Friday. </p> <p>Per ulteriori informazioni, consulta <a href="/help/main/c-target/c-audiences/c-target-rules/time-frame.md#concept_0FE1E8DACD104F8B870B0BADE3197F0A" format="dita" scope="local">Intervallo di tempo</a>. </p> </td> 
+   <td colname="col2"> <p>Aggiungi la data di inizio e fine del periodo per indirizzare un pubblico. </p> <p>Per esempio, utilizzando i nuovi tipi di pubblico combinati ad hoc di cui sopra, è possibile indirizzare gli utenti che spendono meno su contenuti specifici nei tre giorni prima del Black Friday e su altri contenuti dopo il Black Friday. </p> <p>Per ulteriori informazioni, consulta <a href="/help/main/c-target/c-audiences/c-target-rules/time-frame.md#concept_0FE1E8DACD104F8B870B0BADE3197F0A" format="dita" scope="local"> Arco temporale </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Salvare raccolte avanzate </td> 
@@ -2693,7 +2703,7 @@ Questa versione include i miglioramenti e le funzioni seguenti:
   </tr> 
   <tr> 
    <td colname="col1"> Targeting dei visitatori durante un periodo di tempo specifico </td> 
-   <td colname="col2"> <p>Aggiungi la data di inizio e fine del periodo per indirizzare un pubblico. </p> <p>Per esempio, utilizzando i nuovi tipi di pubblico combinati ad hoc di cui sopra, è possibile indirizzare gli utenti che spendono meno su contenuti specifici nei tre giorni prima del Black Friday e su altri contenuti dopo il Black Friday. </p> <p>Per ulteriori informazioni, consulta <a href="/help/main/c-target/c-audiences/c-target-rules/time-frame.md#concept_0FE1E8DACD104F8B870B0BADE3197F0A" format="dita" scope="local">Intervallo di tempo</a>. </p> </td> 
+   <td colname="col2"> <p>Aggiungi la data di inizio e fine del periodo per indirizzare un pubblico. </p> <p>Per esempio, utilizzando i nuovi tipi di pubblico combinati ad hoc di cui sopra, è possibile indirizzare gli utenti che spendono meno su contenuti specifici nei tre giorni prima del Black Friday e su altri contenuti dopo il Black Friday. </p> <p>Per ulteriori informazioni, consulta <a href="/help/main/c-target/c-audiences/c-target-rules/time-frame.md#concept_0FE1E8DACD104F8B870B0BADE3197F0A" format="dita" scope="local"> Arco temporale </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Salvare raccolte avanzate </td> 
