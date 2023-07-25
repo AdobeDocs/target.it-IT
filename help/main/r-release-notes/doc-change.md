@@ -4,10 +4,10 @@ description: Resta aggiornato sulle importanti aggiunte e modifiche apportate al
 title: Dove posso trovare la documentazione aggiornata per  [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 70fa740ce25fa0a1d6ba5d4d4d54ce7bd048bfaa
+source-git-commit: 17bb53ef1f48b4c5f9f6c5caccf1fe8aa3e17286
 workflow-type: tm+mt
-source-wordcount: '1348'
-ht-degree: 97%
+source-wordcount: '1384'
+ht-degree: 95%
 
 ---
 
@@ -19,6 +19,8 @@ Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Targ
 
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
+| 25 Luglio | Note sulla versione (corrente) di [[!DNL Target] ](/help/main/r-release-notes/release-notes.md#edge) | Sono state aggiunte informazioni sull’aggiornamento dell’infrastruttura Edge pianificato per il 9 agosto 2023. |
+|  | [Inserire nell’elenco consentiti i nodi edge di Target](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/allowlist-edges.html?lang=it){target=_blank} | Sono stati aggiornati i domini NAT e IP/per le distribuzioni Edge 41-48. |
 | Luglio 24 | [Note sulla versione di Target (corrente)](/help/main/r-release-notes/release-notes.md) | Sono state aggiunte le note sulla versione 23.7.1 di [!DNL Target Standard/Premium]. |
 
 ## [!DNL Target] Standard/Premium 23.6.1 (27-29 giugno 2023)
