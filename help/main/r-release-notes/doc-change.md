@@ -7,7 +7,7 @@ exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: 17bb53ef1f48b4c5f9f6c5caccf1fe8aa3e17286
 workflow-type: tm+mt
 source-wordcount: '1384'
-ht-degree: 95%
+ht-degree: 98%
 
 ---
 
@@ -19,7 +19,7 @@ Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Targ
 
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
-| 25 Luglio | Note sulla versione (corrente) di [[!DNL Target] ](/help/main/r-release-notes/release-notes.md#edge) | Sono state aggiunte informazioni sull’aggiornamento dell’infrastruttura Edge pianificato per il 9 agosto 2023. |
+| 25 luglio | Note sulla versione (corrente) di [[!DNL Target] ](/help/main/r-release-notes/release-notes.md#edge) | Sono state aggiunte informazioni sull’aggiornamento dell’infrastruttura Edge pianificato per il 9 agosto 2023. |
 |  | [Inserire nell’elenco consentiti i nodi edge di Target](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/allowlist-edges.html?lang=it){target=_blank} | Sono stati aggiornati i domini NAT e IP/per le distribuzioni Edge 41-48. |
 | Luglio 24 | [Note sulla versione di Target (corrente)](/help/main/r-release-notes/release-notes.md) | Sono state aggiunte le note sulla versione 23.7.1 di [!DNL Target Standard/Premium]. |
 
@@ -27,7 +27,7 @@ Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Targ
 
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
-| 20 Luglio | [Direttive Content Security Policy (CSP)](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/content-security-policy.html){target=_blank} | Sono state aggiunte le seguenti domande frequenti alla *Guida per gli sviluppatori di Adobe Target*: come posso consentire o impedire che il mio sito venga incorporato come iFrame in domini esterni? |
+| 20 luglio | [Direttive Content Security Policy (CSP)](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/content-security-policy.html?lang=it){target=_blank} | Sono state aggiunte le seguenti domande frequenti alla *Guida per gli sviluppatori di Adobe Target*: come posso consentire o impedire che il mio sito venga incorporato come iFrame in domini esterni? |
 | 10 Luglio | [Considerazioni e limitazioni note](https://experienceleague.adobe.com/docs/target-dev/developer/api/delivery-api/known-limitations.html?lang=it){target=_blank} | Sono state aggiunte informazioni alla documentazione di *API di consegna target* su HTTP/2 che si applica ai nomi delle intestazioni in minuscolo. |
 | 27 giugno | [Controllo di qualità attività](/help/main/c-activities/c-activity-qa/activity-qa.md) | La funzione Controllo di qualità attività è ora disponibile per tutti i tipi di attività di Target, comprese le attività di [!UICONTROL Automated Personalization] (AP). Sono state rimosse le informazioni sui collegamenti di anteprima. |
 |  | URL di anteprima | Poiché tutti i tipi di attività ora supportano la funzione Controllo di qualità attività, questo argomento è stato eliminato e reindirizzato all’argomento [Controllo di qualità attività](/help/main/c-activities/c-activity-qa/activity-qa.md). |
