@@ -7,9 +7,9 @@ title: Cosa è incluso nella versione corrente?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 source-git-commit: 17bb53ef1f48b4c5f9f6c5caccf1fe8aa3e17286
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '459'
-ht-degree: 73%
+ht-degree: 100%
 
 ---
 
@@ -19,26 +19,26 @@ Queste note sulla versione forniscono informazioni su funzioni, miglioramenti e 
 
 I codici dei problemi tra parentesi sono per uso interno di [!DNL Adobe].
 
-## [!DNL Adobe Target] Aggiornamento dell&#39;infrastruttura pianificata Edge {#edge}
+## Aggiornamento pianificato dell’infrastruttura Edge di [!DNL Adobe Target]  {#edge}
 
-L’aggiornamento pianificato dell’infrastruttura Edge richiede l’inserimento di IP o domini aggiuntivi nell’elenco Consentiti. Rivedi e inserisci nell’elenco Consentiti i domini NAT e IP/per le distribuzioni Edge 41-48. Gli aggiornamenti dell’infrastruttura iniziano il 9 agosto 2023.
+A causa dell’aggiornamento pianificato dell’infrastruttura Edge, è necessario inserire nell’elenco Consentiti indirizzi IP o domini aggiuntivi. Consulta i domini NAT e IP per le distribuzioni Edge 41-48 e inseriscili nell’elenco Consentiti. Gli aggiornamenti dell’infrastruttura iniziano il 9 agosto 2023.
 &quot;
 
-Per ulteriori informazioni, consulta [Inserire nell&#39;elenco Consentiti nodi edge di Target](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/allowlist-edges.html?lang=it){target=_blank} nel *Guida per gli sviluppatori di Adobe Target*.
+Per ulteriori informazioni, consulta [Inserire nell’elenco Consentiti nodi Edge di Target](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/allowlist-edges.html?lang=it){target=_blank} nella *Guida per gli sviluppatori di Adobe Target*.
 
 ## [!DNL Target] Standard/Premium 23.7.1 (24-26 luglio)
 
 Questa versione sarà disponibile in base al seguente programma scaglionato:
 
-* **Luglio 24**: area geografica Europa, Medio Oriente e Africa (EMEA)
-* **Luglio 25**: area geografica Asia-Pacifico (APAC)
-* **Luglio 26**: area geografica delle Americhe
+* **24 luglio**: area geografica Europa, Medio Oriente e Africa (EMEA)
+* **25 luglio**: area geografica Asia-Pacifico (APAC)
+* **26 luglio**: area geografica delle Americhe
 
 Questa versione include i miglioramenti e le correzioni seguenti:
 
-* Ricerca migliorata quando [esplorazione degli elementi utilizzando il percorso DOM](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path) nel [!UICONTROL Compositore esperienza visivo] (VEC) per includere gli elementi DOM ombra. (TGT-45262)
-* È stato risolto un problema che impediva alla funzione [Cambia sovrapposizione](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) che non funzionino correttamente. (TGT-45202)
-* È stato risolto un problema che impediva ad alcuni clienti di scaricare i rapporti delle attività di dopo aver ricevuto il seguente messaggio di errore: &quot;L’utente non è autorizzato ad accedere al rapporto&quot;. (TGT-45724 e TGT-45747)
+* La ricerca durante l’[esplorazione degli elementi utilizzando il percorso DOM](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path) nel [!UICONTROL Compositore esperienza visivo] è stata migliorata per includere gli elementi shadow DOM. (TGT-45262)
+* È stato risolto un problema che impediva il corretto funzionamento delle impostazioni [Cambia sovrapposizione](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md). (TGT-45202)
+* È stato risolto un problema a causa del quale alcuni clienti ricevevano il messaggio di errore “L’utente non è autorizzato ad accedere al rapporto” e non potevano scaricare i rapporti delle attività. (TGT-45724 e TGT-45747)
 
 ## Note aggiuntive e dettagli sulla versione
 
