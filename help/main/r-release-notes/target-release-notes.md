@@ -5,9 +5,9 @@ title: Quali nuove funzioni e miglioramenti saranno inclusi nella prossima versi
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
 source-git-commit: 17bb53ef1f48b4c5f9f6c5caccf1fe8aa3e17286
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '291'
-ht-degree: 74%
+ht-degree: 100%
 
 ---
 
@@ -27,15 +27,15 @@ Questo articolo contiene informazioni prerelease per le prossime versioni di [!D
 
 Questa versione sarà disponibile in base al seguente programma scaglionato:
 
-* **Luglio 24**: area geografica Europa, Medio Oriente e Africa (EMEA)
-* **Luglio 25**: area geografica Asia-Pacifico (APAC)
-* **Luglio 26**: area geografica delle Americhe
+* **24 luglio**: area geografica Europa, Medio Oriente e Africa (EMEA)
+* **25 luglio**: area geografica Asia-Pacifico (APAC)
+* **26 luglio**: area geografica delle Americhe
 
 Questa versione include i miglioramenti e le correzioni seguenti:
 
-* Ricerca migliorata quando [esplorazione degli elementi utilizzando il percorso DOM](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path) nel [!UICONTROL Compositore esperienza visivo] (VEC) per includere gli elementi DOM ombra. (TGT-45262)
-* È stato risolto un problema che impediva alla funzione [Cambia sovrapposizione](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) che non funzionino correttamente. (TGT-45202)
-* È stato risolto un problema che impediva ad alcuni clienti di scaricare i rapporti delle attività di dopo aver ricevuto il seguente messaggio di errore: &quot;L’utente non è autorizzato ad accedere al rapporto&quot;. (TGT-45724 e TGT-45747)
+* La ricerca durante l’[esplorazione degli elementi utilizzando il percorso DOM](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path) nel [!UICONTROL Compositore esperienza visivo] è stata migliorata per includere gli elementi shadow DOM. (TGT-45262)
+* È stato risolto un problema che impediva il corretto funzionamento delle impostazioni [Cambia sovrapposizione](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md). (TGT-45202)
+* È stato risolto un problema a causa del quale alcuni clienti ricevevano il messaggio di errore “L’utente non è autorizzato ad accedere al rapporto” e non potevano scaricare i rapporti delle attività. (TGT-45724 e TGT-45747)
 
 ## Note aggiuntive e dettagli sulla versione
 
