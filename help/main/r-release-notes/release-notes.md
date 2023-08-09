@@ -6,8 +6,8 @@ short-description: Scopri le nuove funzioni, i miglioramenti e le correzioni inc
 title: Cosa è incluso nella versione corrente?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 17bb53ef1f48b4c5f9f6c5caccf1fe8aa3e17286
-workflow-type: ht
+source-git-commit: 8ec1e3c483fb9d0f70c4cbf573295ba8a639f103
+workflow-type: tm+mt
 source-wordcount: '459'
 ht-degree: 100%
 
@@ -22,7 +22,6 @@ I codici dei problemi tra parentesi sono per uso interno di [!DNL Adobe].
 ## Aggiornamento pianificato dell’infrastruttura Edge di [!DNL Adobe Target]  {#edge}
 
 A causa dell’aggiornamento pianificato dell’infrastruttura Edge, è necessario inserire nell’elenco Consentiti indirizzi IP o domini aggiuntivi. Consulta i domini NAT e IP per le distribuzioni Edge 41-48 e inseriscili nell’elenco Consentiti. Gli aggiornamenti dell’infrastruttura iniziano il 9 agosto 2023.
-&quot;
 
 Per ulteriori informazioni, consulta [Inserire nell’elenco Consentiti nodi Edge di Target](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/allowlist-edges.html?lang=it){target=_blank} nella *Guida per gli sviluppatori di Adobe Target*.
 
