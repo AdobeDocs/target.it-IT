@@ -4,9 +4,9 @@ description: Visualizza un elenco di funzioni, miglioramenti e correzioni inclus
 title: Quali funzioni sono incluse nelle versioni precedenti?
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: 11f4be7a245326d5428b5d6d4c4fad795a24df2f
+source-git-commit: e130c68c838e799228956c598c583038a2f68ecf
 workflow-type: tm+mt
-source-wordcount: '36971'
+source-wordcount: '37043'
 ht-degree: 96%
 
 ---
@@ -22,6 +22,14 @@ Le note sulla versione vengono ordinate in ordine decrescente per mese e anno di
 >Consulta [Note sulla versione di Target (corrente)](/help/main/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A) per informazioni sulle versioni di Target del mese corrente (piattaforma e Target Standard/Premium).
 
 ## Note sulla versione - 2023
+
+### [!DNL Target] Standard/Premium 23.7.1 (24-26 luglio)
+
+Questa versione include i miglioramenti e le correzioni seguenti:
+
+* La ricerca durante l’[esplorazione degli elementi utilizzando il percorso DOM](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path) nel [!UICONTROL Compositore esperienza visivo] è stata migliorata per includere gli elementi shadow DOM. (TGT-45262)
+* È stato risolto un problema che impediva il corretto funzionamento delle impostazioni [Cambia sovrapposizione](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md). (TGT-45202)
+* È stato risolto un problema a causa del quale alcuni clienti ricevevano il messaggio di errore “L’utente non è autorizzato ad accedere al rapporto” e non potevano scaricare i rapporti delle attività. (TGT-45724 e TGT-45747)
 
 ### [!DNL Target] Standard/Premium 23.6.1 (27-29 giugno)
 
