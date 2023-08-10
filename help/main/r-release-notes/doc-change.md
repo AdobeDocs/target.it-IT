@@ -7,7 +7,7 @@ exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: e130c68c838e799228956c598c583038a2f68ecf
 workflow-type: tm+mt
 source-wordcount: '1503'
-ht-degree: 94%
+ht-degree: 95%
 
 ---
 
@@ -29,7 +29,7 @@ Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Targ
 | --- | --- | --- |
 | 9 agosto | [Anteprima mobile di Target](https://experienceleague.adobe.com/docs/target-dev/developer/mobile-apps/target-mobile-preview.html){target=_blank} | L’argomento è stato aggiornato con informazioni sulle versioni correnti di [!DNL Adobe Experience Platform Mobile SDK]. |
 |  | Annunci ed eventi di [[!DNL Adobe Target] ](/help/main/r-release-notes/target-announcements.md) | Sono state aggiunte informazioni sul seguente webinar pianificato per il 17 agosto 2023: *Strategizzare per ottenere il massimo impatto sul ROI con la preparazione per la stagione di picco*. |
-| 7 agosto | [Dettagli sulle versioni di at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | Sono state rese più chiare le informazioni sulle versioni supportate di at.js. |
+| 7 agosto | [Dettagli sulle versioni di at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=it){target=_blank} | Sono state rese più chiare le informazioni sulle versioni supportate di at.js. |
 | 25 luglio | Note sulla versione di [[!DNL Target]  (corrente)](/help/main/r-release-notes/release-notes.md#edge) | Sono state aggiunte informazioni sull’aggiornamento dell’infrastruttura Edge pianificato per il 9 agosto 2023. |
 |  | [Inserire nell’elenco consentiti i nodi Edge di Target](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/allowlist-edges.html?lang=it){target=_blank} | Sono stati aggiornati i domini NAT e IP per le distribuzioni Edge 41-48. |
 | 24 luglio | [Note sulla versione di Target (corrente)](/help/main/r-release-notes/release-notes.md) | Sono state aggiunte le note sulla versione 23.7.1 di [!DNL Target Standard/Premium]. |
