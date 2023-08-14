@@ -4,10 +4,10 @@ description: Scopri come gestire le offerte di codice e immagini utilizzando la 
 title: Come posso gestire le offerte di codice e immagini?
 feature: Experiences and Offers
 exl-id: d8c24656-64d6-4a4b-a5f2-bcde57180007
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: be59e8ccbf12f7b3cc42becc36a8b3c7474f2f9e
 workflow-type: tm+mt
-source-wordcount: '563'
-ht-degree: 36%
+source-wordcount: '574'
+ht-degree: 35%
 
 ---
 
@@ -59,6 +59,11 @@ Utilizza il [!UICONTROL Offerte] libreria in [!DNL Adobe Target] per gestire il 
    * Copia
 
    Per informazioni dettagliate sulle attività eseguibili su offerte e cartelle, consulta [Utilizzare i contenuti della libreria di risorse](/help/main/c-experiences/c-manage-content/assets-working.md).
+
+   >[!NOTE]
+   >
+   >Le offerte di immagini non fanno parte del [Autorizzazioni per gli utenti Enterprise](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) modello.
+
 
 ## Visualizzazione delle definizioni delle offerte {#section_6B059DD121434E6292CAB393507D010E}
 
