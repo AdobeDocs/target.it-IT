@@ -4,7 +4,7 @@ description: Scopri i calcoli statistici utilizzati nel manuale [!UICONTROL Test
 title: Come posso scoprire i calcoli statistici utilizzati in [!UICONTROL Test A/B] Attività?
 feature: Reports
 exl-id: 5f7377b9-0567-4b6f-8968-4696b2088d0a
-source-git-commit: f997b6a0ea9e0cebf7b414c029971d8520f8b95f
+source-git-commit: bb95d160940737e23022d70cbe56567f79cbf255
 workflow-type: tm+mt
 source-wordcount: '1091'
 ht-degree: 5%
@@ -101,7 +101,7 @@ Questo calcolo utilizza il metodo &quot;Delta&quot; ed è descritto [più dettag
 
 ## [!UICONTROL Affidabilità]
 
-L’ultima colonna mostra l’affidabilità in una [!DNL Target] rapporto. L’affidabilità di un’esperienza è una probabilità (espressa in percentuale) di ottenere un risultato meno estremo di quello osservato, data l’ipotesi nulla è vera. In termini di valori p, l’affidabilità visualizzata è *1 - valore p*. Intuitivamente, una maggiore affidabilità significa che è meno probabile che l’esperienza di controllo e quella di non controllo abbiano tassi di conversione uguali.
+L’ultima colonna mostra l’affidabilità in una [!DNL Target] rapporto. L’affidabilità di un’esperienza è una probabilità (espressa in percentuale) di ottenere un risultato estremo quanto quello osservato, data l’ipotesi nulla è vera. In termini di valori p, l’affidabilità visualizzata è *1 - valore p*. Intuitivamente, una maggiore affidabilità significa che è meno probabile che l’esperienza di controllo e quella di non controllo abbiano tassi di conversione uguali.
 
 In entrata [!DNL Target], a due code **Test t di Welch** viene eseguita tra l’esperienza di prova e l’esperienza di controllo per verificare se i mezzi di prova e le esperienze di controllo sono gli stessi. Perché di solito non sappiamo se le dimensioni del campione e le varianze di due gruppi sono le stesse prima di eseguire l’esperimento, e [!DNL Target] Inoltre, consente di avere percentuali di traffico non uguali inviate a ogni esperienza, non si presume che la varianza per ogni esperienza sia uguale. Pertanto, il test t di Welch viene scelto al posto del test t di Student.
 
