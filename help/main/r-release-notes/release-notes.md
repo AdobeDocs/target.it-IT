@@ -7,9 +7,9 @@ title: Cosa è incluso nella versione corrente?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 source-git-commit: e130c68c838e799228956c598c583038a2f68ecf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '494'
-ht-degree: 75%
+ht-degree: 100%
 
 ---
 
@@ -29,11 +29,11 @@ Per ulteriori informazioni, consulta [Inserire nell’elenco Consentiti nodi Edg
 
 Questa versione include i miglioramenti e le correzioni seguenti:
 
-* È stato risolto un problema che a volte impediva la corretta sincronizzazione delle attività, come mostrato nella &quot;[!UICONTROL Stato]&quot; sulla colonna [!UICONTROL Attività] pagina elenco. (TGT-46010 e TGT-44831)
-* È stato risolto un problema che a volte impediva a &quot;[!UICONTROL Visualizza in Analytics]Il collegamento &quot; non viene visualizzato sul [!UICONTROL Rapporti] pagina delle attività che utilizzano [!UICONTROL Analytics for Target] (A4T) come origine per la generazione di rapporti. (TGT-45808)
-* È stata corretta la presentazione dei valori nelle tabelle in modo da visualizzarli come percentuali anziché come numeri con decimali. Ad esempio, 8% invece di 0,08. (TGT-45548)
-* È stato risolto un problema che impediva ai clienti di utilizzare la tastiera per passare all’elemento successivo nella [!UICONTROL Obiettivi e impostazioni] pagina per [!UICONTROL Targeting esperienza] (XT) attività. (TGT-44526)
-* È stato risolto un problema che causava la perdita della messa a fuoco della tastiera dopo l’apertura della &quot;[!UICONTROL Aggiungere tipi di pubblico]&quot; durante la creazione di un’attività. (TGT-44525)
+* È stato risolto un problema che a volte impediva la corretta sincronizzazione delle attività, come mostrato nella colonna “[!UICONTROL Stato]” sulla pagina dell’elenco [!UICONTROL Attività]. (TGT-46010 e TGT-44831)
+* È stato risolto un problema che a volte impediva la visualizzazione del collegamento a “[!UICONTROL Visualizza in Analytics]” sulla pagina di attività [!UICONTROL Rapporti] che utilizza [!UICONTROL Analytics for Target] (A4T) come origine di reporting. (TGT-45808)
+* È stata corretta la presentazione di valori in tabelle, in modo da visualizzarli come percentuali anziché come numeri con decimali. Ad esempio, 8% invece di 0,08. (TGT-45548)
+* È stato risolto un problema che impediva alla clientela di utilizzare l’attivazione della tastiera per passare all’elemento successivo nella pagina [!UICONTROL Obiettivi e impostazioni] per le attività di [!UICONTROL Targeting dell’esperienza] (XT). (TGT-44526)
+* È stato risolto un problema che causava la perdita dell’attivazione della tastiera dopo l’apertura della finestra di dialogo “[!UICONTROL Aggiungi tipi di pubblico]” durante la creazione di un’attività. (TGT-44525)
 
 ## Note aggiuntive e dettagli sulla versione
 
