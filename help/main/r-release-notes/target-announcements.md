@@ -5,9 +5,9 @@ title: Dove posso trovare annunci ed eventi relativi a  [!DNL Target] ?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 source-git-commit: af1dbc551199a90907abb191ee1be5f09513deda
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2133'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -19,25 +19,25 @@ Annunci e informazioni sui prossimi eventi di [!DNL Adobe Target], che includono
 
 Registrati per partecipare ai seguenti webinar e scopri come i clienti utilizzano [!DNL Target] per raggiungere i loro obiettivi di personalizzazione e ottimizzazione:
 
-### Strategizzare per ottenere il massimo impatto sul ROI con la preparazione per la stagione di picco
+### Creare per ottenere il massimo impatto del Ritorno sull&#39;investimento (ROI) in preparazione alla stagione di picco
 
 * **Giovedì 17 agosto 2023**
 * **8:00-9::00 (PDT, UTC -7)**
 * **[Registrati qui](https://adobepeakseasonreadiness2023.experienceleague.adobeevents.com/){target=_blank}**
 
-Fornisci esperienze cliente coinvolgenti per migliorare i tassi di conversione. La tua azienda è pronta per la stagione di picco? Unisciti a noi e accedi a suggerimenti degli esperti su come ottenere prestazioni ottimali e il massimo ROI questa volta.
+Fornisci esperienze cliente coinvolgenti per migliorare i tassi di conversione. La tua azienda è pronta per la stagione di picco? Unisciti a noi ora e accedi a suggerimenti di esperti su come ottenere prestazioni ottimali e il massimo Ritorno sull&#39;investimento (ROI).
 
-+++Vedi i dettagli
++++Consulta i dettagli
 
-Unisciti a John Magnusson, Adobe Customer Success Manager e Katherine Klein, Director - MarTech &amp; AdTech Solutions, Macy&#39;s Inc. Unisciti a noi per scoprire le strategie che influiscono in modo significativo sul tuo programma di preparazione alla stagione di picco.
+Unisciti a John Magnusson, Customer Success Manager di Adobe e Katherine Klein, Direttore di MarTech &amp; AdTech Solutions, Macy&#39;s Inc. Unisciti a noi per scoprire le strategie che influiscono in modo significativo sul tuo programma di preparazione alla stagione di picco.
 
 Gli argomenti includono:
 
 * Creare in modo efficace dashboard e generare rapporti sulle metriche chiave
-* Esamina l’impatto di ciascun canale di marketing
-* Approfondisci il comportamento dei clienti e le tendenze di acquisto
-* Identificare le esperienze dei clienti insoddisfacenti e migliorarle tramite test
-* Scopri le aree di opportunità per la conversione del sito
+* Esaminare l’impatto di ciascun canale di marketing
+* Approfondire il comportamento della clientela e le tendenze di acquisto
+* Identificare le esperienze cliente insoddisfacenti e migliorarle tramite test
+* Scoprire le aree di opportunità per stimolare una conversione del sito
 
 +++
 
