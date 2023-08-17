@@ -4,9 +4,9 @@ description: Scopri come utilizzare Adobe [!DNL Target] URL di controllo qualit�
 title: Come posso eseguire il controllo qualità delle attività?
 feature: Activities
 exl-id: 5c606d61-6d13-4a9b-9a23-4840f1754d3c
-source-git-commit: 38aba1e137065c0e60ab82f80ddba41086887bf8
+source-git-commit: 87cfc86bdabeb87424d2cf9fff7754dd85f7ac0b
 workflow-type: tm+mt
-source-wordcount: '1762'
+source-wordcount: '1767'
 ht-degree: 34%
 
 ---
@@ -59,6 +59,20 @@ Utilizzare gli URL di controllo qualità in [!DNL Adobe Target] per eseguire in 
 
 1. Per visualizzare i rapporti generati dagli URL di collegamento di un’attività, fai clic su **[!UICONTROL Rapporti]** , fare clic su **[!UICONTROL Impostazioni]** icona (  ![icon_gear image](assets/icon_gear.png) ), quindi seleziona **[!UICONTROL Traffico modalità Controllo di qualità]** dal **[!UICONTROL Ambiente]** elenco a discesa.
 
+## Rilascio dalla modalità di controllo qualità
+
+[!UICONTROL Controllo di qualità delle attività] è appiccicoso. Dopo aver navigato su un sito web in [!UICONTROL Controllo di qualità delle attività], il tuo [!DNL Target] la sessione deve scadere o [!DNL Target] rilascia da [!UICONTROL Controllo di qualità delle attività] prima di poter visualizzare il sito come un normale visitatore.
+
+* **Equivalente in at.js 2.*x***: se il tuo sito dispone di at.js 2.*x* , utilizza [Bookmarklet di controllo qualità di Target](/help/main/c-activities/c-activity-qa/activity-qa-bookmark.md#concept_A8A3551A4B5342079AFEED5ECF93E879) per forzarti a uscire da [!UICONTROL Controllo di qualità delle attività]. Il caricamento di una pagina del sito con un valore vuoto, come descritto nel punto successivo, *non* rimuovi il cookie di controllo qualità dal browser quando si utilizza at.js 2.*x* è implementato.
+
+* **at.js 1.*x***: se il tuo sito dispone di at.js 1.*x* implementato, oltre a utilizzare il [Bookmarklet di controllo qualità di Target](/help/main/c-activities/c-activity-qa/activity-qa-bookmark.md#concept_A8A3551A4B5342079AFEED5ECF93E879), puoi anche forzare manualmente l’uscita dalla modalità di controllo qualità caricando una pagina del sito con il `at_preview_token` con un valore vuoto. Ad esempio,
+
+  `https://www.mysite.com/?at_preview_token=`
+
+* **[!DNL Adobe Experience Platform Web SDK]**: se il tuo sito dispone di [[!UICONTROL Platform Web SDK]](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank} implementato, puoi forzare manualmente l’uscita dalla modalità di controllo qualità caricando una pagina del sito con il `at_qa_mode` con un valore vuoto. Ad esempio,
+
+  `https://www.mysite.com/?at_qa_mode=`
+
 ## Considerazioni {#section_B256EDD7BFEC4A6DA72A8A6ABD196D78}
 
 * Perché il Controllo di qualità delle attività è ora disponibile per tutti [!DNL Target] tipi di attività, la funzione &quot;Anteprima delle attività di Automated Personalization con URL di anteprima dell’esperienza&quot; non è più necessaria.
@@ -67,18 +81,6 @@ Utilizzare gli URL di controllo qualità in [!DNL Adobe Target] per eseguire in 
 * [!UICONTROL La funzione Controllo di qualità attività non visualizza i contenuti di attività archiviate o scadute. ] Se disattivi un’attività terminata, devi salvarla nuovamente per [!UICONTROL Controllo di qualità delle attività] al lavoro.
 * Attività importate in [!DNL Target Standard/Premium] (da [!DNL Target Classic], ad esempio) non supportano gli URL di controllo qualità.
 * In entrata [!UICONTROL Allocazione automatica] e [!UICONTROL Recommendations] attività, il modello non è interessato dalle visite acquisite in [!UICONTROL Controllo di qualità delle attività].
-* [!UICONTROL Controllo di qualità delle attività] è appiccicoso. Dopo aver navigato su un sito web in [!UICONTROL Controllo di qualità delle attività], il tuo [!DNL Target] la sessione deve scadere o [!DNL Target] rilascia da [!UICONTROL Controllo di qualità delle attività] prima di poter visualizzare il sito come un normale visitatore.
-
-   * **Equivalente in at.js 2.*x***: se il tuo sito dispone di at.js 2.*x* , utilizza [Bookmarklet di controllo qualità di Target](/help/main/c-activities/c-activity-qa/activity-qa-bookmark.md#concept_A8A3551A4B5342079AFEED5ECF93E879) per forzarti a uscire da [!UICONTROL Controllo di qualità delle attività]. Il caricamento di una pagina del sito con un valore vuoto, come descritto nel punto successivo, *non* rimuovi il cookie di controllo qualità dal browser quando si utilizza at.js 2.*x* è implementato.
-
-   * **at.js 1.*x***: se il tuo sito dispone di at.js 1.*x* implementato, oltre a utilizzare il [Bookmarklet di controllo qualità di Target](/help/main/c-activities/c-activity-qa/activity-qa-bookmark.md#concept_A8A3551A4B5342079AFEED5ECF93E879), puoi anche forzare manualmente l’uscita dalla modalità di controllo qualità caricando una pagina del sito con il `at_preview_token` con un valore vuoto. Ad esempio,
-
-     `https://www.mysite.com/?at_preview_token=`
-
-   * **[!DNL Adobe Experience Platform Web SDK]**: se il tuo sito dispone di [[!UICONTROL Platform Web SDK]](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank} implementato, puoi forzare manualmente l’uscita dalla modalità di controllo qualità caricando una pagina del sito con il `at_qa_mode` con un valore vuoto. Ad esempio,
-
-     `https://www.mysite.com/?at_qa_mode=`
-
 * Se hai specificato un URL durante la creazione dell’attività [Miglioramenti nel Compositore basato su moduli](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) o [opzioni di consegna delle pagine nel Compositore esperienza visivo)](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81), l’URL di controllo qualità non funziona perché [!UICONTROL Controllo di qualità delle attività] aggiunge i parametri URL. Per risolvere questo problema, fai clic su URL di controllo qualità per passare al sito, rimuovi dall’URL i parametri aggiunti, quindi carica il nuovo l’URL.
 * Se hai at.js 1.*x*, [!UICONTROL Controllo di qualità delle attività] La modalità non è definitiva se utilizzi Safari o un altro browser che blocca i cookie di terze parti. In questi casi, devi aggiungere i parametri di anteprima a ogni URL a cui vai. Lo stesso vale se hai implementato [CNAME](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/implement-cname-support-in-target.html){target=_blank}.
 * Se un’attività utilizza più tipi di pubblico per le esperienze (ad esempio, se nella stessa attività sono inclusi un sito britannico e uno statunitense), i collegamenti di controllo qualità non vengono generati per le quattro combinazioni (Esperienza A/sito US, Esperienza A/sito UK, Esperienza B/sito US, Esperienza B/sito UK). Vengono creati solo due collegamenti di controllo qualità (Esperienza A ed Esperienza B) e la pagina verrà visualizzata dagli utenti che risultano idonei per il pubblico appropriato. Una persona che effettua il controllo qualità nel Regno Unito non può visualizzare il sito degli Stati Uniti.
