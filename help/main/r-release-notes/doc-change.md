@@ -5,9 +5,9 @@ title: Dove posso trovare la documentazione aggiornata per  [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: 645116e1c1efba3d861b21bce110e5fb9aec1f0c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1561'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -19,19 +19,19 @@ Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Targ
 
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
-| 14 agosto | [Controllo di qualità attività](/help/main/c-activities/c-activity-qa/activity-qa.md) | Sono state aggiunte informazioni che chiariscono che il caricamento di una pagina del sito con un valore vuoto *non* rimuovi il cookie di controllo qualità dal browser quando si utilizza at.js 2.*x* è implementato. |
-|  | [Calcoli statistici nei test A/Bn](/help/main/c-reports/statistical-methodology/statistical-calculations.md) | È stata aggiornata la definizione di &quot;Affidabilità&quot;. |
-|  | [Offerte](/help/main/c-experiences/c-manage-content/manage-content.md) | È stata aggiunta una nota per spiegare che le offerte di immagini non fanno parte del [!UICONTROL Autorizzazioni per gli utenti Enterprise] modello. |
-| 9 agosto | [Anteprima mobile di Target](https://experienceleague.adobe.com/docs/target-dev/developer/mobile-apps/target-mobile-preview.html){target=_blank} | L’argomento è stato aggiornato con informazioni sulle versioni correnti di [!DNL Adobe Experience Platform Mobile SDK]. |
-| 9 agosto | [Anteprima mobile di Target](https://experienceleague.adobe.com/docs/target-dev/developer/mobile-apps/target-mobile-preview.html){target=_blank} | L’argomento è stato aggiornato con informazioni sulle versioni correnti di [!DNL Adobe Experience Platform Mobile SDK]. |
-|  | Annunci ed eventi di [[!DNL Adobe Target] ](/help/main/r-release-notes/target-announcements.md) | Sono state aggiunte informazioni sul seguente webinar pianificato per il 17 agosto 2023: *Strategizzare per ottenere il massimo impatto sul ROI con la preparazione per la stagione di picco*. |
+| 14 agosto | [Controllo di qualità attività](/help/main/c-activities/c-activity-qa/activity-qa.md) | Sono state aggiunte informazioni per spiegare che il caricamento di una pagina del sito con un valore vuoto *non* rimuove il cookie di controllo qualità dal browser quando si utilizza at.js 2.*x* è implementato. |
+|  | [Calcoli statistici nei test A/Bn](/help/main/c-reports/statistical-methodology/statistical-calculations.md) | È stata aggiornata la definizione di “Affidabilità”. |
+|  | [Offerte](/help/main/c-experiences/c-manage-content/manage-content.md) | È stata aggiunta una nota per spiegare che le offerte di immagini non fanno parte del modello [!UICONTROL Autorizzazioni per utenti Enterprise]. |
+| 9 agosto | [Anteprima Target per dispositivi mobili](https://experienceleague.adobe.com/docs/target-dev/developer/mobile-apps/target-mobile-preview.html?lang=it){target=_blank} | L’argomento è stato aggiornato con informazioni sulle versioni correnti di [!DNL Adobe Experience Platform Mobile SDK]. |
+| 9 agosto | [Anteprima Target per dispositivi mobili](https://experienceleague.adobe.com/docs/target-dev/developer/mobile-apps/target-mobile-preview.html?lang=it){target=_blank} | L’argomento è stato aggiornato con informazioni sulle versioni correnti di [!DNL Adobe Experience Platform Mobile SDK]. |
+|  | Annunci ed eventi di [[!DNL Adobe Target] ](/help/main/r-release-notes/target-announcements.md) | Sono state aggiunte informazioni sul seguente webinar programmato per il 17 agosto 2023: *Creare strategie per ottenere il massimo impatto del Ritorno sull&#39;investimento (ROI) in preparazione alla stagione di picco*. |
 |  | [Note sulla versione di Target (corrente)](/help/main/r-release-notes/release-notes.md) | Sono state aggiunte le note sulla versione 23.8.1 di [!DNL Target Standard/Premium]. |
 
 ## [!DNL Target] Standard/Premium 23.7.1 (24-26 luglio 2023)
 
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
-|  | Annunci ed eventi di [[!DNL Adobe Target] ](/help/main/r-release-notes/target-announcements.md) | Sono state aggiunte informazioni sul seguente webinar pianificato per il 17 agosto 2023: *Strategizzare per ottenere il massimo impatto sul ROI con la preparazione per la stagione di picco*. |
+|  | Annunci ed eventi di [[!DNL Adobe Target] ](/help/main/r-release-notes/target-announcements.md) | Sono state aggiunte informazioni sul seguente webinar programmato per il 17 agosto 2023: *Creare strategie per ottenere il massimo impatto del Ritorno sull&#39;investimento (ROI) in preparazione alla stagione di picco*. |
 | 7 agosto | [Dettagli sulle versioni di at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=it){target=_blank} | Sono state rese più chiare le informazioni sulle versioni supportate di at.js. |
 | 25 luglio | Note sulla versione di [[!DNL Target]  (corrente)](/help/main/r-release-notes/release-notes.md#edge) | Sono state aggiunte informazioni sull’aggiornamento dell’infrastruttura Edge pianificato per il 9 agosto 2023. |
 |  | [Inserire nell’elenco consentiti i nodi Edge di Target](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/allowlist-edges.html?lang=it){target=_blank} | Sono stati aggiornati i domini NAT e IP per le distribuzioni Edge 41-48. |
