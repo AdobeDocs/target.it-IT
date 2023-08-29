@@ -4,10 +4,10 @@ description: Resta aggiornato sulle importanti aggiunte e modifiche apportate al
 title: Dove posso trovare la documentazione aggiornata per  [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 645116e1c1efba3d861b21bce110e5fb9aec1f0c
-workflow-type: ht
-source-wordcount: '1561'
-ht-degree: 100%
+source-git-commit: e782fe4a26a624d3c407b991092dc0cfce18fdb7
+workflow-type: tm+mt
+source-wordcount: '1585'
+ht-degree: 98%
 
 ---
 
@@ -19,6 +19,7 @@ Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Targ
 
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
+| 29 agosto | [Implementare Target con l’SDK di AEP Mobile in un’app nativa con visualizzazioni web](https://experienceleague.adobe.com/docs/target-dev/developer/mobile-apps/native-app.html){target=_blank} | Nuovo articolo. |
 | 14 agosto | [Controllo di qualità attività](/help/main/c-activities/c-activity-qa/activity-qa.md) | Sono state aggiunte informazioni per spiegare che il caricamento di una pagina del sito con un valore vuoto *non* rimuove il cookie di controllo qualità dal browser quando si utilizza at.js 2.*x* è implementato. |
 |  | [Calcoli statistici nei test A/Bn](/help/main/c-reports/statistical-methodology/statistical-calculations.md) | È stata aggiornata la definizione di “Affidabilità”. |
 |  | [Offerte](/help/main/c-experiences/c-manage-content/manage-content.md) | È stata aggiunta una nota per spiegare che le offerte di immagini non fanno parte del modello [!UICONTROL Autorizzazioni per utenti Enterprise]. |
