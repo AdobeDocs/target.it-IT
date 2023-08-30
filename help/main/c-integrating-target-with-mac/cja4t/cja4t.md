@@ -5,10 +5,10 @@ title: Cos’è [!DNL Adobe Customer Journey Analytics] per [!DNL Target] (CJA4T
 feature: Integrations
 hide: true
 hidefromtoc: true
-source-git-commit: 79d4bfa7bbdaea6b779ab548b80fbcf732635ba5
+source-git-commit: ea113d1e4df68868bd9512b098ee6b17335a3e1c
 workflow-type: tm+mt
-source-wordcount: '1001'
-ht-degree: 16%
+source-wordcount: '998'
+ht-degree: 15%
 
 ---
 
@@ -22,7 +22,7 @@ L’integrazione [!DNL Customer Journey Analytics for Target] tra [!DNL Customer
 
 L’utilizzo dei dati di [!DNL Customer Journey Analytics] in [!DNL Target] offre i tre vantaggi principali seguenti:
 
-* Gli addetti al marketing possono applicare dinamicamente le metriche di successo di [!DNL Customer Journey Analytics] o i segmenti di reporting ai rapporti delle attività di [!DNL Target] in qualsiasi momento. Non è necessario specificare tutte le impostazioni prima di eseguire l’attività.
+* Gli addetti al marketing possono applicare dinamicamente [!DNL Customer Journey Analytics] metriche di successo per [!DNL Target] rapporti di attività in qualsiasi momento. Non è necessario specificare tutte le impostazioni prima di eseguire l’attività.
 * Una singola origine di dati riduce al minimo la varianza che si verifica durante la raccolta dei dati in due sistemi separati.
 * Il tuo esistente [!DNL Customer Journey Analytics] l’implementazione raccoglie tutti i dati richiesti. Non è necessario implementare mbox sulle pagine al solo scopo di raccogliere dati per i rapporti.
 
