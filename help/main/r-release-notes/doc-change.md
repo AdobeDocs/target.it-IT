@@ -4,10 +4,10 @@ description: Resta aggiornato sulle importanti aggiunte e modifiche apportate al
 title: Dove posso trovare la documentazione aggiornata per  [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: d9179911a9f6cb2eca242822669e2374aebeb970
+source-git-commit: 52dd26acfce77da0eea14be572708c069ba5e9ba
 workflow-type: tm+mt
-source-wordcount: '1665'
-ht-degree: 94%
+source-wordcount: '1722'
+ht-degree: 92%
 
 ---
 
@@ -19,6 +19,8 @@ Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Targ
 
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
+| 30 agosto | [Privacy](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/privacy.html#aep){target=_blank} | È stata aggiunta una nuova sezione: &quot;Offuscamento IP a livello di stream di dati quando si utilizza Adobe Experience Platform Web SDK&quot; |
+|  | [Impostazioni delle attività - Domande frequenti su A4T](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-activity-setup.md#section_9F8092BE4225442896F926540292F221) | È stato corretto l’intervallo di tempo entro il quale i dati dovevano essere visualizzati nei rapporti, nelle seguenti domande frequenti: &quot;Ho appena creato un’attività. Perché non vedo dati in arrivo?&quot; |
 | 29 agosto | [Funzioni supportate per il decisioning sul dispositivo](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/on-device-decisioning/supported-features.html){target=_blank} | È stato aggiunto l’elenco degli attributi geografici supportati per il targeting quando si utilizzano decisioni su dispositivo (ODD) lato client. |
 |  | [Panoramica del decisioning sul dispositivo](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/on-device-decisioning/overview.html){target=_blank} | È stato aggiunto l’elenco degli attributi geografici supportati per il targeting quando si utilizza il lato server delle decisioni sul dispositivo (ODD). |
 |  | [Implementare Target con l’SDK di AEP Mobile in un’app nativa con visualizzazioni web](https://experienceleague.adobe.com/docs/target-dev/developer/mobile-apps/native-app.html){target=_blank} | Nuovo articolo. |

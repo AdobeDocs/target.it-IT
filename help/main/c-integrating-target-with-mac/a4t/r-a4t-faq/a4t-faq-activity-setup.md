@@ -4,10 +4,10 @@ description: Risposte alle domande sulla configurazione delle attività quando s
 title: Dove posso trovare domande frequenti sulle impostazioni delle attività con A4T?
 feature: Analytics for Target (A4T)
 exl-id: 8a8cdbb9-89f6-4e4a-a53e-8f33adab4d61
-source-git-commit: ed4fadc338bf5a1afad87e2b245a9b00e225b92c
+source-git-commit: 52dd26acfce77da0eea14be572708c069ba5e9ba
 workflow-type: tm+mt
 source-wordcount: '571'
-ht-degree: 16%
+ht-degree: 14%
 
 ---
 
@@ -32,7 +32,7 @@ Per ulteriori informazioni, consulta &quot;Perché non posso accedere alle opzio
 ## Ho appena creato un’attività. Perché non vedo dati in arrivo? {#section_9F8092BE4225442896F926540292F221}
 
 
-+++Risposta alla creazione di un&#39;attività, [!DNL Target] invia un file di classificazione a [!DNL Analytics]. Anche se [!DNL Analytics] : durante l’acquisizione e l’elaborazione dei dati, nei rapporti non viene visualizzato questo messaggio fino a quando il file di classificazione non viene aggiornato. Questo processo può richiedere fino a 24 ore. Se dopo 48 ore non vedi i tuoi dati, [contatta l’assistenza clienti](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C). In alternativa, se sai di avviare un’attività, puoi crearla con qualche giorno di anticipo e le classificazioni vengono inviate quando l’attività viene salvata. e in questo modo al momento dell’avvio i dati potranno essere visualizzati nei rapporti. L’elaborazione dei dati in richiede 45-90 minuti [!DNL Analytics].
++++Risposta alla creazione di un&#39;attività, [!DNL Target] invia un file di classificazione a [!DNL Analytics]. Anche se [!DNL Analytics] : durante l’acquisizione e l’elaborazione dei dati, nei rapporti non viene visualizzato questo messaggio fino a quando il file di classificazione non viene aggiornato. Questo processo può richiedere da 24 a 72 ore. Se dopo 72 ore i dati non vengono visualizzati, [contatta l’Assistenza clienti](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C). In alternativa, se sai di avviare un’attività, puoi crearla con qualche giorno di anticipo e le classificazioni vengono inviate quando l’attività viene salvata. e in questo modo al momento dell’avvio i dati potranno essere visualizzati nei rapporti. L’elaborazione dei dati in richiede 45-90 minuti [!DNL Analytics].
 
 +++
 
