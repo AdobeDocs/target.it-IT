@@ -4,10 +4,10 @@ description: Scopri come evitare le insidie e gli errori più comuni commessi da
 title: Come posso evitare gli errori comuni relativi ai test A/B?
 feature: A/B Tests
 exl-id: db085819-1a85-4936-bdc9-7501cf9b26ce
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: b830b3b3b225fd4c2c55a62a5982f59312d391cd
 workflow-type: tm+mt
 source-wordcount: '3898'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -41,19 +41,19 @@ Tuttavia, due situazioni garantiscono una particolare attenzione al livello di s
 
 * **Segmentazione post-test:** gli addetti al marketing spesso dividono e tagliano i risultati di un test basato sui segmenti di visitatori dopo la conclusione del test A/B. I segmenti comuni includono tipo di browser, tipo di dispositivo, aree geografiche, ora del giorno e visitatori nuovi rispetto a quelli di ritorno. Questa pratica, nota come segmentazione post-test, fornisce un&#39;eccellente intuizione nei segmenti di visitatori. A sua volta, gli addetti al marketing possono utilizzare queste intuizioni per creare contenuti più mirati e più rilevanti e differenziati.
 
-   Se non c&#39;è una reale differenza nel tasso di conversione, ogni volta che si sottopone a test un segmento, la probabilità di un falso positivo è uguale al livello di significatività. Come accennato, più test si eseguono, maggiore è la probabilità che si verificherà almeno un falso positivo tra questi test. In sostanza, ogni segmento di post-test rappresenta un test separato. Con un livello di significatività del 5%, in media ti imbatti in un falso positivo ogni volta che guardi 20 segmenti post-test. Il grafico di cui sopra mostra come aumenta tale probabilità.
+  Se non c&#39;è una reale differenza nel tasso di conversione, ogni volta che si sottopone a test un segmento, la probabilità di un falso positivo è uguale al livello di significatività. Come accennato, più test si eseguono, maggiore è la probabilità che si verificherà almeno un falso positivo tra questi test. In sostanza, ogni segmento di post-test rappresenta un test separato. Con un livello di significatività del 5%, in media ti imbatti in un falso positivo ogni volta che guardi 20 segmenti post-test. Il grafico di cui sopra mostra come aumenta tale probabilità.
 
-   Come accennato, più test si eseguono, maggiore è la probabilità che si verificherà almeno un falso positivo tra questi test. In sostanza, ogni segmento post-test rappresenta un test separato, che aumenta la probabilità di un falso positivo. Questo aumento può essere ancora più significativo se i segmenti sono correlati.
+  Come accennato, più test si eseguono, maggiore è la probabilità che si verificherà almeno un falso positivo tra questi test. In sostanza, ogni segmento post-test rappresenta un test separato, che aumenta la probabilità di un falso positivo. Questo aumento può essere ancora più significativo se i segmenti sono correlati.
 
-   Non basta semplicemente non fare la segmentazione post-test? No, i segmenti post-test sono preziosi. Al contrario, per evitare questo problema cumulativo di falso positivo con la segmentazione di post-test, dopo aver identificato un segmento di post-test, è consigliabile sottoporlo ad un nuovo test. In alternativa, è possibile applicare la correzione Bonferroni, discussa di seguito.
+  Non basta semplicemente non fare la segmentazione post-test? No, i segmenti post-test sono preziosi. Al contrario, per evitare questo problema cumulativo di falso positivo con la segmentazione di post-test, dopo aver identificato un segmento di post-test, è consigliabile sottoporlo ad un nuovo test. In alternativa, è possibile applicare la correzione Bonferroni, discussa di seguito.
 
 * **Test di offerte multiple:** gli addetti al marketing spesso sottopongono a test più di due offerte (o esperienze) tra loro. Ecco perché a volte vedi soluzioni di test A/B chiamati test A/B/n, dove n è il numero di offerte che si sta sottoponendo a test contemporaneamente.
 
-   È importante notare che *ogni* offerta sottoposta a test ha un tasso di falso positivo pari al livello di significatività, come descritto sopra. Esegui effettivamente più test quando diverse offerte sono contrapposte l&#39;una all&#39;altra all&#39;interno di un singolo ambiente di test. Ad esempio, se confronti cinque offerte in un test A/B/C/D/E, formi effettivamente quattro confronti: tra il controllo e B, tra il controllo e C, tra il controllo e D, tra il controllo ed E. Con un livello di affidabilità del 95%, rispetto a una la probabilità di un falso positivo del 5%, si ha effettivamente 18,5%. 2
+  È importante notare che *ogni* offerta sottoposta a test ha un tasso di falso positivo pari al livello di significatività, come descritto sopra. Esegui effettivamente più test quando diverse offerte sono contrapposte l&#39;una all&#39;altra all&#39;interno di un singolo ambiente di test. Ad esempio, se confronti cinque offerte in un test A/B/C/D/E, formi effettivamente quattro confronti: tra il controllo e B, tra il controllo e C, tra il controllo e D, tra il controllo ed E. Con un livello di affidabilità del 95%, rispetto a una la probabilità di un falso positivo del 5%, si ha effettivamente 18,5%. 2
 
-   Per mantenere il livello di affidabilità globale al 95% ed evitare questo problema, si applica la correzione Bonferroni. Con questa correzione, è sufficiente dividere il livello di significatività per il numero di confronti per ottenere il livello di significatività necessario per raggiungere un livello di affidabilità del 95%.
+  Per mantenere il livello di affidabilità globale al 95% ed evitare questo problema, si applica la correzione Bonferroni. Con questa correzione, è sufficiente dividere il livello di significatività per il numero di confronti per ottenere il livello di significatività necessario per raggiungere un livello di affidabilità del 95%.
 
-   Applicando la correzione Bonferroni all&#39;esempio precedente, si utilizzerebbe un livello di significatività di 5%/4 = 1,25%, che corrisponde al livello di affidabilità del 98,75% per un singolo test (100%-1,25% = 98,75%). Quando si hanno quattro test, come nell&#39;esempio precedente, questa regolazione mantiene il livello di affidabilità effettivo al 95%.
+  Applicando la correzione Bonferroni all&#39;esempio precedente, si utilizzerebbe un livello di significatività di 5%/4 = 1,25%, che corrisponde al livello di affidabilità del 98,75% per un singolo test (100%-1,25% = 98,75%). Quando si hanno quattro test, come nell&#39;esempio precedente, questa regolazione mantiene il livello di affidabilità effettivo al 95%.
 
 ## Insidia 2: dichiarare i vincitori di test di offerta multipla senza differenza statisticamente significativa {#section_FA83977C71DB4F69B3D438AF850EF3B6}
 
@@ -127,7 +127,7 @@ Se modifichi manualmente la suddivisione dell’allocazione al 100% per l’Espe
 Se desideri modificare le percentuali o influenzare notevolmente il flusso di visitatori in ogni esperienza, ti consigliamo di creare una nuova attività o di copiare l’attività e quindi modificare le percentuali di allocazione del traffico.
 
 Se modifichi le percentuali di diverse esperienze durante il periodo di test, occorrono alcuni giorni perché i dati si normalizzino, soprattutto se molti acquirenti sono visitatori di ritorno.
-Per fare un altro esempio, se l’allocazione del traffico del Test A/B è suddivisa 50/50 e in seguito modifichi la suddivisione in 80/20, per i primi giorni dopo la modifica i risultati potrebbe apparire distorti. Se il tempo medio di conversione è elevato, ovvero per qualcuno sono necessarie diverse ore o anche giorni per effettuare un acquisto, queste conversioni ritardate potrebbero influenzare i report. Così, in quella prima esperienza in cui il numero è passato da 50% a 80% e il tempo medio di conversione è di due giorni, solo i visitatori che fanno parte del 50% della popolazione eseguiranno la conversione nel primo giorno del test, anche se oggi l’80% della popolazione accede all’esperienza. Questo fa risultare un brusco calo del tasso di conversione, che tuttavia si normalizza nuovamente trascorsi i due giorni necessari alla conversione per l’80% dei visitatori.
+Un altro esempio: se l’allocazione del traffico del test A/B è suddivisa 50/50 e in seguito modifichi la suddivisione in 80/20, nei primi giorni successivi alla modifica i risultati potrebbero apparire distorti. Se il tempo medio di conversione è elevato, ovvero per qualcuno sono necessarie diverse ore o anche giorni per effettuare un acquisto, queste conversioni ritardate potrebbero influenzare i report. Così, in quella prima esperienza in cui il numero è passato da 50% a 80% e il tempo medio di conversione è di due giorni, solo i visitatori che fanno parte del 50% della popolazione eseguiranno la conversione nel primo giorno del test, anche se oggi l’80% della popolazione accede all’esperienza. Questo fa risultare un brusco calo del tasso di conversione, che tuttavia si normalizza nuovamente trascorsi i due giorni necessari alla conversione per l’80% dei visitatori.
 
 ## Insidia 8: non considerare gli effetti “novità” {#section_90F0D24C40294A8F801B1A6D6DEF9003}
 
