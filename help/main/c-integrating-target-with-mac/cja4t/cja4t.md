@@ -5,9 +5,9 @@ title: Cos’è [!DNL Adobe Customer Journey Analytics] per [!DNL Target] (CJA4T
 feature: Integrations
 hide: true
 hidefromtoc: true
-source-git-commit: dd92d5ac7db123e583df5f4927601a4bea2127bb
+source-git-commit: bc85a169cd0805a5e424bfca8b5bda9b4861fde3
 workflow-type: tm+mt
-source-wordcount: '921'
+source-wordcount: '918'
 ht-degree: 12%
 
 ---
@@ -21,7 +21,9 @@ Vantaggi principali dell&#39;utilizzo di [!DNL Customer Journey Analytics] dati 
 * Gli addetti al marketing possono applicare dinamicamente [!DNL Customer Journey Analytics] metriche di successo per [!DNL Target] rapporti di attività in qualsiasi momento. Non è necessario specificare tutte le impostazioni prima di eseguire l’attività.
 * Una singola origine di dati riduce al minimo la varianza che si verifica durante la raccolta dei dati in due sistemi separati.
 
-Quando prendi in considerazione l’utilizzo dell’integrazione CJA4T, considera gli aspetti seguenti:
+## Considerazioni
+
+Prima di utilizzare l’integrazione CJA4T, considera quanto segue:
 
 * Per utilizzare [!DNL Customer Journey Analytics] come origine per la generazione di rapporti per [!DNL Target], sia tu che la tua società dovete avere accesso ad [!DNL Customer Journey Analytics] e a [!DNL Target]. Se hai bisogno di accedere a una delle soluzioni, contatta l’amministratore della tua organizzazione o il rappresentante del tuo account.
 * Per creare [!DNL Target] attività con [!DNL Customer Journey Analytics] nel reporting, è necessario disporre del valore &quot;[!UICONTROL Approvatore]&quot; o &quot;[!UICONTROL Editor]&quot; ruolo in [!DNL Target].
