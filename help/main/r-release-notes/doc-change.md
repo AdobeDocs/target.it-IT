@@ -4,10 +4,10 @@ description: Resta aggiornato sulle importanti aggiunte e modifiche apportate al
 title: Dove posso trovare la documentazione aggiornata per  [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 52dd26acfce77da0eea14be572708c069ba5e9ba
+source-git-commit: da10ba6b79ff52bf793a474c97475739180591db
 workflow-type: tm+mt
-source-wordcount: '1722'
-ht-degree: 92%
+source-wordcount: '1733'
+ht-degree: 91%
 
 ---
 
@@ -19,6 +19,7 @@ Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Targ
 
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
+| 1 settembre | [Ambienti](/help/main/administrating-target/environments.md##section_4F8539B07C0C45E886E8525C344D5FB0) | È stata aggiornata la nota in &quot;Imposta l’ambiente predefinito per il reporting&quot;. |
 | 30 agosto | [Privacy](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/privacy.html#aep){target=_blank} | È stata aggiunta una nuova sezione: &quot;Offuscamento IP a livello di stream di dati quando si utilizza Adobe Experience Platform Web SDK&quot; |
 |  | [Impostazioni delle attività - Domande frequenti su A4T](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-activity-setup.md#section_9F8092BE4225442896F926540292F221) | È stato corretto l’intervallo di tempo entro il quale i dati dovevano essere visualizzati nei rapporti, nelle seguenti domande frequenti: &quot;Ho appena creato un’attività. Perché non vedo dati in arrivo?&quot; |
 | 29 agosto | [Funzioni supportate per il decisioning sul dispositivo](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/on-device-decisioning/supported-features.html){target=_blank} | È stato aggiunto l’elenco degli attributi geografici supportati per il targeting quando si utilizzano decisioni su dispositivo (ODD) lato client. |
