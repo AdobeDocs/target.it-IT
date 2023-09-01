@@ -2,13 +2,13 @@
 keywords: aree di lavoro;gestire proprietà;autorizzazioni;configurazione prodotto;profilo prodotto;ruoli;progetto;osservatore;editor;approvatore;publisher
 description: Scopri come creare aree di lavoro separate (profili di prodotto) e quindi assegnare agli utenti ruoli e autorizzazioni diversi per singole pagine, proprietà o siti web.
 title: Quali sono le autorizzazioni per gli utenti Enterprise e come si utilizzano?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Vedi cosa è incluso in Target Premium."
 feature: Administration & Configuration
 role: Admin
 exl-id: 838abe87-dba7-4274-97b4-31a7905846dc
-source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
+source-git-commit: 273143c5b2157948eee464ee0514e04a0105e978
 workflow-type: tm+mt
-source-wordcount: '3213'
+source-wordcount: '3232'
 ht-degree: 58%
 
 ---
@@ -83,7 +83,7 @@ Tutti i ruoli utente e accesso a tutti [!DNL Target] Le funzionalità rimanevano
 
 Puoi creare gruppi di utenti, ad esempio sviluppatori, analisti, addetti al marketing, dirigenti e così via. È quindi possibile assegnare privilegi a più prodotti di Adobe e aree di lavoro. Per assegnare a un nuovo membro del team tutti i privilegi appropriati per i diversi prodotti Adobe, sarà sufficiente aggiungerlo a un gruppo di utenti specifico.
 
-### Ruoli e autorizzazioni
+### Ruoli e autorizzazioni {#roles-permissions}
 
 I ruoli e le autorizzazioni determinano i livelli di accesso che gli utenti devono creare e gestiscono le attività nell&#39;implementazione del tuo [!DNL Target]. In [!DNL Target] i ruoli includono quanto segue:
 
@@ -149,21 +149,21 @@ Se fai parte di un’azienda multinazionale, potresti avere un’area di lavoro 
 
 * **Jan**: Jan è il capo dell’ottimizzazione nel centro di eccellenza per le pagine Web degli Stati Uniti, le proprietà e i siti della sua organizzazione. Molto probabilmente dispone dei diritti di amministratore di sistema nel cloud Adobe Experience Cloud.
 
-   Nel suo ruolo, ha le autorizzazioni di approvatore per la homepage degli Stati Uniti e il sito statunitense. grazie alle autorizzazioni di approvatore può creare, modificare e attivare o arrestare le attività.
+  Nel suo ruolo, ha le autorizzazioni di approvatore per la homepage degli Stati Uniti e il sito statunitense. grazie alle autorizzazioni di approvatore può creare, modificare e attivare o arrestare le attività.
 
-   Jan si consulta anche con il team di ottimizzazione in Francia e, pertanto, dispone delle autorizzazioni di osservatore per il sito Francia che le danno un accesso in sola lettura alle attività. Jan può visualizzare le attività, ma non può crearle o modificarle.
+  Jan si consulta anche con il team di ottimizzazione in Francia e, pertanto, dispone delle autorizzazioni di osservatore per il sito Francia che le danno un accesso in sola lettura alle attività. Jan può visualizzare le attività, ma non può crearle o modificarle.
 
-   Siccome Jan non ha un ruolo che richiede la sua visualizzazione delle pagine dei prodotti, del sito Russia, o del sito carriere, lei non può vedere le attività per quei siti.
+  Siccome Jan non ha un ruolo che richiede la sua visualizzazione delle pagine dei prodotti, del sito Russia, o del sito carriere, lei non può vedere le attività per quei siti.
 
 * **Ernie**: Ernie è un Marketing Manager per l’organizzazione ed è responsabile del marketing negli Stati Uniti.
 
-   Siccome Ernie è entrato di recente nell&#39;organizzazione e non ha esperienza con Target, dispone dei permessi editor per la homepage degli Stati Uniti, il sito degli Stati Uniti e le pagine dei prodotti. Con le autorizzazioni dell’editor, Ernie può creare e modificare le attività prima che siano live. Non può approvare l’avvio di un’attività: un utente con autorizzazioni di approvazione, come Jan, deve approvare l’attività prima che possa essere messa in produzione.
+  Siccome Ernie è entrato di recente nell&#39;organizzazione e non ha esperienza con Target, dispone dei permessi editor per la homepage degli Stati Uniti, il sito degli Stati Uniti e le pagine dei prodotti. Con le autorizzazioni dell’editor, Ernie può creare e modificare le attività prima che siano live. Non può approvare l’avvio di un’attività: un utente con autorizzazioni di approvazione, come Jan, deve approvare l’attività prima che possa essere messa in produzione.
 
-   Siccome Ernie non ha un ruolo che richiede la sua visualizzazione del sito Russia, del sito Francia, o del sito carriere, non può vedere le attività per quei siti.
+  Siccome Ernie non ha un ruolo che richiede la sua visualizzazione del sito Russia, del sito Francia, o del sito carriere, non può vedere le attività per quei siti.
 
 * **Diana**: Diana è ora un’analista per l’organizzazione e le sono stati concessi i permessi di osservatore per la homepage degli Stati Uniti, il sito degli Stati Uniti, le pagine dei prodotti, il sito Russia e il sito di Francia, che le consentono un accesso in sola lettura alle attività. Diana può visualizzare le attività, ma non può crearle o modificarle.
 
-   Siccome Diana non ha alcun ruolo che richiede la sua visualizzazione del sito carriere, lei non può vedere le attività per quei siti.
+  Siccome Diana non ha alcun ruolo che richiede la sua visualizzazione del sito carriere, lei non può vedere le attività per quei siti.
 
 ### Organizzazione multi-brand
 
@@ -173,15 +173,15 @@ Dopo una riorganizzazione, utilizzando gli utenti tipo nelle illustrazioni di cu
 
 * **Jan**: Jan è il capo dell’ottimizzazione nel centro di eccellenza di un’organizzazione sanitaria che opera nell’ambito dei prodotti ospedalieri e dei prodotti di consumo. Molto probabilmente dispone dei diritti di amministratore di sistema nel cloud Adobe Experience Cloud.
 
-   Nel suo ruolo dispone delle autorizzazioni di approvatore per il sito ospedaliero. grazie alle autorizzazioni di approvatore può creare, modificare e attivare o arrestare le attività.
+  Nel suo ruolo dispone delle autorizzazioni di approvatore per il sito ospedaliero. grazie alle autorizzazioni di approvatore può creare, modificare e attivare o arrestare le attività.
 
-   Jan si consulta inoltre con il team di ottimizzazione nell&#39;ambito dei prodotti di consumo e, pertanto, dispone delle autorizzazioni di osservatore per quel sito, che le consentono l&#39;accesso in sola lettura alle attività. Jan può visualizzare le attività, ma non può crearle o modificarle.
+  Jan si consulta inoltre con il team di ottimizzazione nell&#39;ambito dei prodotti di consumo e, pertanto, dispone delle autorizzazioni di osservatore per quel sito, che le consentono l&#39;accesso in sola lettura alle attività. Jan può visualizzare le attività, ma non può crearle o modificarle.
 
 * **Ernie:** Ernie è un Marketing Manager per l’organizzazione ed è responsabile del marketing nell’ambito dei prodotti di consumo.
 
-   Poiché Ernie è entrato di recente nell’organizzazione e non ha esperienza con Target, dispone dei permessi editor per il sito consumatore. Con le autorizzazioni dell’editor, Ernie può creare e modificare le attività prima che siano live. Non può approvare l’avvio di un’attività: un utente con autorizzazioni di approvazione per il sito consumatore, ma non Jan in questo scenario, deve approvare l’attività prima che possa essere messa in produzione.
+  Poiché Ernie è entrato di recente nell’organizzazione e non ha esperienza con Target, dispone dei permessi editor per il sito consumatore. Con le autorizzazioni dell’editor, Ernie può creare e modificare le attività prima che siano live. Non può approvare l’avvio di un’attività: un utente con autorizzazioni di approvazione per il sito consumatore, ma non Jan in questo scenario, deve approvare l’attività prima che possa essere messa in produzione.
 
-   Siccome Ernie non ha un ruolo che richiede la sua visualizzazione del sito dell&#39;ospedale, non può vedere le attività per quel sito.
+  Siccome Ernie non ha un ruolo che richiede la sua visualizzazione del sito dell&#39;ospedale, non può vedere le attività per quel sito.
 
 * **Diana**: Diana è ora un’analista per l’organizzazione e le sono stati concessi i permessi di osservatore per il sito dell’ospedale e il sito consumatore, che le consentono un accesso in sola lettura alle attività. Diana può visualizzare le attività, ma non può crearle o modificarle.
 
@@ -191,18 +191,18 @@ La nuova funzionalità delle autorizzazioni può essere vista in varie posizioni
 
 * **Elenco a discesa nell&#39;area di lavoro (profilo prodotto):** l&#39;elenco a discesa nell&#39;area di lavoro viene visualizzato nella parte superiore delle pagine [!UICONTROL Attività], [!UICONTROL Tipi di pubblico] e [!UICONTROL Offerte]. Seleziona l&#39;area di lavoro desiderata per filtrare l&#39;elenco e visualizzare solo gli elementi nell&#39;area di lavoro selezionata.
 
-   ![immagine a discesa workspace](assets/workspace_drop-down.png)
+  ![immagine a discesa workspace](assets/workspace_drop-down.png)
 
 * **Creazione attività:** Quando crei un’attività, questa viene creata nell’area di lavoro attualmente selezionata. Nella prima finestra di dialogo sono visualizzate le opzioni di selezione del canale che consentono di scegliere il canale desiderato per l’attività: Web, App mobile, E-mail o Altro/API.
 
-   ![immagine channel_options](assets/channel_options.png)
+  ![immagine channel_options](assets/channel_options.png)
 
 * **Creazione di pubblico:** Quando crei un pubblico, questo viene creato nell’area di lavoro attualmente selezionata.
 * **Elenco pubblico:** È possibile spostare i tipi di pubblico tra aree di lavoro utilizzando [!UICONTROL Altre azioni] > [!DNL Move] opzione sul [!UICONTROL Tipi di pubblico] pagina.
 * **Creazione di offerte:** Quando crei un’offerta, questa viene creata nell’area di lavoro attualmente selezionata.
 * **Pagina Proprietà (Amministrazione > Proprietà):** È possibile utilizzare [!UICONTROL Ricerca] casella per eseguire la ricerca [!UICONTROL Proprietà] elenco.
 
-   ![immagine properties_list](assets/properties_list.png)
+  ![immagine properties_list](assets/properties_list.png)
 
 ## Avvertenze {#section_9714311B1CD9497A86F4910F8AE635E2}
 
@@ -246,11 +246,11 @@ Quando utilizzi o configuri proprietà e autorizzazioni in, tieni presente quant
    * Offerte di immagini (risorse memorizzate in `https://[tenantName].marketing.adobe.com/content/mac/[tenantName]/target/offers.html#image-library` non può essere attualmente controllato dal modello di autorizzazioni Enterprise.
    * clickTracking e reindirizzamenti funzionano quando il collegamento di destinazione o la pagina di destinazione fanno parte di una proprietà inclusa nell’attività. Inoltre, clickTracking potrebbe non funzionare quando si utilizza `targetPageParams()` funzione. La funzione suggerita è `targetPageParamsAll()`.
 
-   [!DNL Target] attualmente richiede un token `at_property` per essere presente in qualsiasi pagina in cui si verifica il rilevamento. Se il token è (1) non presente, (2) non rilevato al momento della configurazione dell’attività (all’interno del Compositore esperienza visivo), o (3) non passato alla chiamata di destinazione clickTracking tramite il `targetPageParamsAll()` , la metrica non viene incrementata e viene visualizzata come &quot;0&quot;.
+  [!DNL Target] attualmente richiede un token `at_property` per essere presente in qualsiasi pagina in cui si verifica il rilevamento. Se il token è (1) non presente, (2) non rilevato al momento della configurazione dell’attività (all’interno del Compositore esperienza visivo), o (3) non passato alla chiamata di destinazione clickTracking tramite il `targetPageParamsAll()` , la metrica non viene incrementata e viene visualizzata come &quot;0&quot;.
 
-   Lo stesso vale per le attività che utilizzano i reindirizzamenti. La pagina di destinazione deve avere un token `at_property` ed essere riconosciuta al momento della configurazione all&#39;interno di Compositore esperienza visivo.
+  Lo stesso vale per le attività che utilizzano i reindirizzamenti. La pagina di destinazione deve avere un token `at_property` ed essere riconosciuta al momento della configurazione all&#39;interno di Compositore esperienza visivo.
 
-   In una versione futura, Target lavorerà su pagine in cui non è presente alcun token `at_property` o su pagine in cui è presente un token `at_property` diverso.
+  In una versione futura, Target lavorerà su pagine in cui non è presente alcun token `at_property` o su pagine in cui è presente un token `at_property` diverso.
 
 * La funzionalità Autorizzazioni Enterprise non è supportata nelle chiamate API di Adobe I/O.
 

@@ -5,7 +5,7 @@ title: Come si configura il reporting in Target?
 feature: Administration & Configuration
 role: Admin
 exl-id: fd83e60e-64a6-4d0e-909f-480d13bac32b
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 273143c5b2157948eee464ee0514e04a0105e978
 workflow-type: tm+mt
 source-wordcount: '697'
 ht-degree: 36%
@@ -33,7 +33,7 @@ In questa pagina è possibile specificare le impostazioni seguenti:
 
 ![Pagina di reporting](/help/main/administrating-target/assets/reporting.png)
 
-## Soluzione Reporting Cloud
+## Soluzione Reporting Cloud {#solution}
 
 Imposta le opzioni che determinano quali dati vengono utilizzati per i risultati e i rapporti.
 

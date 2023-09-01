@@ -3,10 +3,10 @@ user-guide-title: Guida di Adobe Target per professionisti aziendali
 breadcrumb-title: Guida di Target
 user-guide-description: Scopri come adattare e personalizzare l’esperienza dei clienti per massimizzare le entrate dai siti web e mobili, dalle app, dai social media e da altri canali digitali.
 feature-set: Target
-source-git-commit: 30ce57ffacabb9625b4668c5482646d4acdb1e55
+source-git-commit: 273143c5b2157948eee464ee0514e04a0105e978
 workflow-type: tm+mt
-source-wordcount: '1215'
-ht-degree: 95%
+source-wordcount: '1236'
+ht-degree: 94%
 
 ---
 
@@ -89,6 +89,8 @@ ht-degree: 95%
          + [Condividere metriche, pubblico e rapporti - Domande frequenti su A4T](/help/main/c-target/c-troubleshooting-targets-and-audiences/a4t-faq-sharing-metrics-audiences-reports.md)
          + [Integrazione legacy tra SiteCatalyst e Test&amp;Target - Domande frequenti su A4T](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-old-integration.md)
       + [Varianze di dati previste tra Target e Analytics durante l’utilizzo con e senza A4T](c-integrating-target-with-mac/a4t/understanding-expected-data-variances.md)
+   + Integrare Target con Adobe Customer Journey Analytics (CJA4T) {#cja4t} {#hidden}
+      + [Adobe Customer Journey Analytics come origine per la generazione di rapporti per Target (CJA4T)](/help/main/c-integrating-target-with-mac/cja4t/cja4t.md)
    + Integrare Target con Adobe Journey Optimizer (AJO) {#ajo}
       + [Utilizzare le decisioni sulle offerte](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md)
    + [Experience Cloud Audiences](/help/main/c-integrating-target-with-mac/mmp.md)
@@ -196,7 +198,7 @@ ht-degree: 95%
          + [Sistema operativo](c-target/c-audiences/c-target-rules/operating-system.md)
          + [Pagine del sito](c-target/c-audiences/c-target-rules/site-pages.md)
          + [Target Libreria](c-target/c-audiences/c-target-rules/target-library.md)
-         + [Intervallo temporale](c-target/c-audiences/c-target-rules/time-frame.md)
+         + [Arco temporale](c-target/c-audiences/c-target-rules/time-frame.md)
          + [Origini del traffico](c-target/c-audiences/c-target-rules/traffic-sources.md)
          + [Profilo visitatore](c-target/c-audiences/c-target-rules/visitor-profile.md)
       + [Creare un pubblico per il confronto degli attributi di profilo](c-target/c-audiences/creating-a-profile-attribute-comparison-audience.md)
