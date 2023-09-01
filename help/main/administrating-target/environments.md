@@ -5,9 +5,9 @@ title: Cosa sono gli ambienti e come li utilizzo?
 feature: Administration & Configuration
 role: Admin
 exl-id: 820a116a-15f9-4ba0-94f3-8e35aa0f90da
-source-git-commit: 43291a102dee4cf03a3a427a4f29fe75d2c11221
+source-git-commit: 516d3969c8a6ed073b9f8d53c842e4d759cee8a2
 workflow-type: tm+mt
-source-wordcount: '709'
+source-wordcount: '706'
 ht-degree: 56%
 
 ---
@@ -50,7 +50,7 @@ Per impostare l’ambiente predefinito per la segnalazione:
 >
 >Se gli host passano ad altri gruppi host, gli utenti che usano la funzionalità [!DNL Recommendations] devono rigenerare il database dei comportamenti e quello dei prodotti.
 >
->Se si specifica un [ambiente predefinito in un flusso di dati Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=en#target){target=_blank}, questo ambiente sostituisce l’impostazione in [!DNL Target Recommendations].
+>Se si specifica un [ambiente predefinito in un [!DNL Adobe Experience Platform] flusso di dati](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=en#target){target=_blank}, questa impostazione ha la precedenza su quella in [!DNL Target].
 
 ## Modificare il nome di un ambiente {#section_9F5F94285F8E495E9CE69810CE94CA08}
 
