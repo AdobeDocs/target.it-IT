@@ -7,7 +7,7 @@ exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: da10ba6b79ff52bf793a474c97475739180591db
 workflow-type: tm+mt
 source-wordcount: '1733'
-ht-degree: 91%
+ht-degree: 93%
 
 ---
 
@@ -24,7 +24,7 @@ Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Targ
 |  | [Impostazioni delle attività - Domande frequenti su A4T](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-activity-setup.md#section_9F8092BE4225442896F926540292F221) | È stato corretto l’intervallo di tempo entro il quale i dati dovevano essere visualizzati nei rapporti, nelle seguenti domande frequenti: &quot;Ho appena creato un’attività. Perché non vedo dati in arrivo?&quot; |
 | 29 agosto | [Funzioni supportate per il decisioning sul dispositivo](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/on-device-decisioning/supported-features.html){target=_blank} | È stato aggiunto l’elenco degli attributi geografici supportati per il targeting quando si utilizzano decisioni su dispositivo (ODD) lato client. |
 |  | [Panoramica del decisioning sul dispositivo](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/on-device-decisioning/overview.html){target=_blank} | È stato aggiunto l’elenco degli attributi geografici supportati per il targeting quando si utilizza il lato server delle decisioni sul dispositivo (ODD). |
-|  | [Implementare Target con l’SDK di AEP Mobile in un’app nativa con visualizzazioni web](https://experienceleague.adobe.com/docs/target-dev/developer/mobile-apps/native-app.html){target=_blank} | Nuovo articolo. |
+|  | [Implementare Target con AEP Mobile SDK in un’app nativa con visualizzazioni web](https://experienceleague.adobe.com/docs/target-dev/developer/mobile-apps/native-app.html?lang=it){target=_blank} | Nuovo articolo. |
 |  | Annunci ed eventi di [[!DNL Adobe Target] ](/help/main/r-release-notes/target-announcements.md) | Sono state aggiunte informazioni sulla prossima sessione Adobe Target Community Coffee Break (30 agosto 2023): follow-up sul webinar &quot;Strategizzare per il massimo impatto sul ROI con preparazione alle fasi di picco&quot;. |
 | 14 agosto | [Controllo di qualità attività](/help/main/c-activities/c-activity-qa/activity-qa.md) | Sono state aggiunte informazioni per spiegare che il caricamento di una pagina del sito con un valore vuoto *non* rimuove il cookie di controllo qualità dal browser quando si utilizza at.js 2.*x* è implementato. |
 |  | [Calcoli statistici nei test A/Bn](/help/main/c-reports/statistical-methodology/statistical-calculations.md) | È stata aggiornata la definizione di “Affidabilità”. |
