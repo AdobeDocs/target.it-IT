@@ -4,10 +4,10 @@ description: Scopri le nuove funzioni, i miglioramenti e le correzioni, compresi
 title: Quali nuove funzioni e miglioramenti saranno inclusi nella prossima versione [!DNL Target] ?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 8490f73213dff433a58e6284924324f648aa2d0f
-workflow-type: ht
-source-wordcount: '326'
-ht-degree: 100%
+source-git-commit: 362fac25f04028dff0fb0233d418ef9ce88e53d6
+workflow-type: tm+mt
+source-wordcount: '418'
+ht-degree: 56%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 Questo articolo contiene informazioni prerelease per le prossime versioni di [!DNL Adobe Target], incluse SDK, API e librerie JavaScript.
 
-**Ultimo aggiornamento: 9 agosto 2023**
+**Ultimo aggiornamento: 4 settembre 2023**
 
 >[!NOTE]
 >
@@ -23,15 +23,24 @@ Questo articolo contiene informazioni prerelease per le prossime versioni di [!D
 >
 >Per visualizzare informazioni sulla versione corrente, consulta [Note sulla versione di Target](release-notes.md). Le informazioni su queste pagine potrebbero essere uguali, a seconda della tempistica delle release. I codici tra parentesi sono per uso interno di [!DNL Adobe].
 
-## [!DNL Target] Standard/Premium 23.8.1 (9 agosto 2023)
+## [!DNL Target] Standard/Premium 23.9.1 (6-11 settembre 2023)
+
+Questa versione sarà disponibile in base al seguente programma scaglionato:
+
+* **6 settembre**: area geografica delle Americhe
+* **7 settembre**: area geografica Europa, Medio Oriente e Africa (EMEA)
+* **11 settembre**: area geografica Asia-Pacifico (APAC)
 
 Questa versione include i miglioramenti e le correzioni seguenti:
 
-* È stato risolto un problema che a volte impediva la corretta sincronizzazione delle attività, come mostrato nella colonna “[!UICONTROL Stato]” sulla pagina dell’elenco [!UICONTROL Attività]. (TGT-46010 e TGT-44831)
-* È stato risolto un problema che a volte impediva la visualizzazione del collegamento a “[!UICONTROL Visualizza in Analytics]” sulla pagina di attività [!UICONTROL Rapporti], che utilizza [!UICONTROL Analytics for Target] (A4T) come origine di reporting. (TGT-45808)
-* È stata corretta la presentazione di valori in tabelle, in modo da visualizzarli come percentuali anziché come numeri con decimali. Ad esempio, 8% invece di 0,08. (TGT-45548)
-* È stato risolto un problema che impediva alla clientela di utilizzare l’attivazione della tastiera per passare all’elemento successivo nella pagina [!UICONTROL Obiettivi e impostazioni] per le attività di [!UICONTROL Targeting dell’esperienza] (XT). (TGT-44526)
-* È stato risolto un problema che causava la perdita dell’attivazione della tastiera dopo l’apertura della finestra di dialogo “[!UICONTROL Aggiungi tipi di pubblico]” durante la creazione di un’attività. (TGT-44525)
+* È stato risolto un problema che causava incoerenza nei dati di reporting in. [!DNL Target] Interfaccia e [!DNL Adobe Analytics] Interfaccia utente per [!UICONTROL Allocazione automatica] attività che utilizzano [!UICONTROL Analytics for Target] (A4T) come origine per la generazione di rapporti. (TGT-46112)
+* Il timeout per le chiamate PUT all’API di consegna di Target è stato aumentato a 15 secondi per evitare errori di timeout. (TGT-46091)
+* È stato risolto un problema che causava la visualizzazione di un nome di report errato quando si passava da un [!UICONTROL Vista tabella] e [!UICONTROL Segmenti automatizzati] e [!UICONTROL Attributi importanti] rapporti. (TGT-46040)
+* È stata migliorata la [!UICONTROL Compositore esperienza visivo] (Compositore esperienza visivo) per supportare Lightning DOM (Web Components). (TGT-45422)
+* È stato risolto un problema che causava l’applicazione delle azioni del Compositore esperienza visivo in un ordine errato. In alcuni casi, il Compositore esperienza visivo ha applicato alcune modifiche in modo asincrono e l’aggiunta di modifiche aggiuntive a un elemento ha causato errori se tale elemento viene visualizzato dopo un’ [!UICONTROL Inserisci] azione. (TGT-45983)
+* Aggiunta la possibilità di specificare un selettore CSS nel Compositore esperienza visivo. (TGT-45958 e TGT-46017)
+* È stato risolto un problema che si verificava all’apertura di una pagina di un’applicazione a pagina singola (SPA) nel Compositore esperienza visivo, quando si passava alla modalità Sfoglia, causava il malfunzionamento delle frecce Indietro e Avanti. (TGT-45956)
+* È stato risolto un problema che impediva l’aggiornamento coerente dell’URL durante la navigazione in un sito web di un’applicazione a pagina singola (SPA). (TGT-45417)
 
 ## Note aggiuntive e dettagli sulla versione
 
