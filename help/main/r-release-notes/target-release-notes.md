@@ -4,10 +4,10 @@ description: Scopri le nuove funzioni, i miglioramenti e le correzioni, compresi
 title: Quali nuove funzioni e miglioramenti saranno inclusi nella prossima versione [!DNL Target] ?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 362fac25f04028dff0fb0233d418ef9ce88e53d6
+source-git-commit: 8da8daf7da0cfe3e4936cb48b4c594c464708775
 workflow-type: tm+mt
-source-wordcount: '418'
-ht-degree: 56%
+source-wordcount: '405'
+ht-degree: 57%
 
 ---
 
@@ -38,7 +38,6 @@ Questa versione include i miglioramenti e le correzioni seguenti:
 * È stato risolto un problema che causava la visualizzazione di un nome di report errato quando si passava da un [!UICONTROL Vista tabella] e [!UICONTROL Segmenti automatizzati] e [!UICONTROL Attributi importanti] rapporti. (TGT-46040)
 * È stata migliorata la [!UICONTROL Compositore esperienza visivo] (Compositore esperienza visivo) per supportare Lightning DOM (Web Components). (TGT-45422)
 * È stato risolto un problema che causava l’applicazione delle azioni del Compositore esperienza visivo in un ordine errato. In alcuni casi, il Compositore esperienza visivo ha applicato alcune modifiche in modo asincrono e l’aggiunta di modifiche aggiuntive a un elemento ha causato errori se tale elemento viene visualizzato dopo un’ [!UICONTROL Inserisci] azione. (TGT-45983)
-* Aggiunta la possibilità di specificare un selettore CSS nel Compositore esperienza visivo. (TGT-45958 e TGT-46017)
 * È stato risolto un problema che si verificava all’apertura di una pagina di un’applicazione a pagina singola (SPA) nel Compositore esperienza visivo, quando si passava alla modalità Sfoglia, causava il malfunzionamento delle frecce Indietro e Avanti. (TGT-45956)
 * È stato risolto un problema che impediva l’aggiornamento coerente dell’URL durante la navigazione in un sito web di un’applicazione a pagina singola (SPA). (TGT-45417)
 
