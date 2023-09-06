@@ -4,7 +4,7 @@ description: Resta aggiornato sulle importanti aggiunte e modifiche apportate al
 title: Dove posso trovare la documentazione aggiornata per  [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 8da8daf7da0cfe3e4936cb48b4c594c464708775
+source-git-commit: 083271c724df793425fbbebaf9303bfefe8d9b9f
 workflow-type: tm+mt
 source-wordcount: '1750'
 ht-degree: 92%
@@ -19,7 +19,7 @@ Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Targ
 
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
-| 5 settembre | [Note sulla versione di Target (corrente)](/help/main/r-release-notes/release-notes.md) | Sono state aggiunte le note sulla versione 23.9.1 di [!DNL Target Standard/Premium]. |
+| 6 settembre | [Note sulla versione di Target (corrente)](/help/main/r-release-notes/release-notes.md) | Sono state aggiunte le note sulla versione 23.9.1 di [!DNL Target Standard/Premium]. |
 
 ## [!DNL Target] Standard/Premium 23.8.1 (9 agosto 2023)
 
