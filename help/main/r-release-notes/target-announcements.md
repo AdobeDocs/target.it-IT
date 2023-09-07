@@ -5,9 +5,9 @@ title: Dove posso trovare annunci ed eventi relativi a  [!DNL Target] ?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 source-git-commit: b830b3b3b225fd4c2c55a62a5982f59312d391cd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2241'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -15,24 +15,24 @@ ht-degree: 95%
 
 Annunci e informazioni sui prossimi eventi di [!DNL Adobe Target], che includono le sessioni Coffee Break su [!DNL Target], le serie di webinar su [!DNL Target], le sessioni Skill Builder dedicate a [!DNL Target], le chat per sviluppatori e altro ancora. Se disponibili, sono inclusi i collegamenti alle registrazioni precedenti.
 
-## [!DNL Adobe Target] Sessione Community Q&amp;A Coffee Break (30 agosto 2023)
+## [!DNL Adobe Target] Community Q&amp;A Coffee Break (30 agosto 2023)
 
-* **Argomento: &quot;Strategizzare per il massimo impatto sul ritorno sull’investimento con preparazione in alta stagione&quot; follow-up del webinar**
+* **Argomento: follow-up del webinar “Strategizzare per il massimo impatto del Ritorno sull’investimento (ROI) in preparazione della stagione di picco”**
 * **Mercoledì 30 agosto 2023**
 * **8:00-9::00 (PDT, UTC -7)**
 * **[Registrati qui](https://experienceleaguecommunities.adobe.com/t5/target-community-events/community-q-amp-a-coffee-break-8-30-23-strategize-for-maximum/ec-p/612837#M80){target=_blank}**
 
-[!DNL Adobe Target] gli esperti John Magnusson e John Mosbaugh saranno disponibili in questo evento ask-me-any per rispondere alle tue domande relative agli argomenti trattati nel webinar &quot;Strategize for maximum ROI impact with peak season readiness&quot; (Strategizzare per il massimo impatto sul ROI con preparazione alla stagione di picco) (17 agosto 2023).
+Gli esperti [!DNL Adobe Target] John Magnusson e John Mosbaugh saranno disponibili in questo evento ask-me-anything per rispondere alle domande relative agli argomenti trattati nel webinar “Strategizzare per il massimo impatto del Ritorno sull’investimento (ROI) in preparazione della stagione di picco” (17 agosto 2023).
 
 +++Consulta i dettagli
 
 Gli argomenti includono:
 
-* Come creare in modo efficace dashboard e segnalare le metriche chiave
-* Analisi dell’impatto di ciascun canale di marketing
-* Approfondimento del comportamento dei clienti e delle tendenze di acquisto
-* Identificare le esperienze dei clienti insoddisfacenti e migliorarle tramite test
-* Individuazione delle aree di opportunità per la conversione del sito
+* Creare in modo efficace dashboard e metriche chiave per il rapporto
+* Esame dell’impatto di ciascun canale di marketing
+* Ulteriore approfondimento sul comportamento della clientela e le tendenze di acquisto
+* Identificazione delle esperienze cliente insoddisfacenti e migliorarle tramite test
+* Scoperta delle aree di opportunità per stimolare una conversione del sito
 
 +++
 
@@ -46,7 +46,7 @@ Nessuna pianificata in questo momento.
 
 Accedere alle registrazioni di eventi passati (se disponibili):
 
-### Creare per ottenere il massimo impatto del Ritorno sull&#39;investimento (ROI) in preparazione alla stagione di picco
+### Creare per ottenere il massimo impatto del Ritorno sull’investimento (ROI) in preparazione alla stagione di picco
 
 Fornisci esperienze cliente coinvolgenti per migliorare i tassi di conversione. La tua azienda è pronta per la stagione di picco? Unisciti a noi ora e accedi a suggerimenti di esperti su come ottenere prestazioni ottimali e il massimo Ritorno sull&#39;investimento (ROI).
 
