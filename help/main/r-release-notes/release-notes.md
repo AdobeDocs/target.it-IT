@@ -9,7 +9,7 @@ exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 source-git-commit: c8afd59614e94590fdca8345999c11e4a92c042a
 workflow-type: tm+mt
 source-wordcount: '483'
-ht-degree: 78%
+ht-degree: 92%
 
 ---
 
@@ -42,9 +42,9 @@ Questa versione sarà disponibile in base al seguente programma scaglionato:
 
 Questa versione include i miglioramenti e le correzioni seguenti:
 
-* È stato risolto un problema che causava incoerenza nei dati di reporting in. [!DNL Target] Interfaccia e [!DNL Adobe Analytics] Interfaccia utente per [!UICONTROL Allocazione automatica] attività che utilizzano [!UICONTROL Analytics for Target] (A4T) come origine per la generazione di rapporti. (TGT-46112)
-* Il timeout per le chiamate PUT all’API di consegna di Target è stato aumentato a 15 secondi per evitare errori di timeout. (TGT-46091)
-* È stato risolto un problema che impediva l’aggiornamento coerente dell’URL durante la navigazione in un sito web di un’applicazione a pagina singola (SPA). (TGT-45417)
+* È stato corretto un problema che causava incoerenza nei dati di reporting nell’interfaccia utente di [!DNL Target] e nell’interfaccia utente di [!DNL Adobe Analytics] per attività di [!UICONTROL allocazione automatica] che utilizzano [!UICONTROL Analytics for Target] (A4T) come origine di reporting. (TGT-46112)
+* Il timeout per le chiamate PUT all’API di consegna di Target è stato aumentato a 15 secondi, per evitare errori di timeout. (TGT-46091)
+* È stato corretto un problema che impediva l’aggiornamento costante dell’URL durante la navigazione nel sito web di un’applicazione a pagina singola (SPA). (TGT-45417)
 
 ## Note aggiuntive e dettagli sulla versione
 
