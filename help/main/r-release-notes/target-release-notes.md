@@ -7,7 +7,7 @@ exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
 source-git-commit: 56435a5603c08b5c7272d3393893c427717c065b
 workflow-type: tm+mt
 source-wordcount: '369'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -33,8 +33,8 @@ Questa versione sarà disponibile in base al seguente programma scaglionato:
 
 Questa versione include i miglioramenti e le correzioni seguenti:
 
-* È stato modificato il [!DNL Analytics] API per il nuovo [!DNL Analytics] API versione 2.0. (TGT-45345)
-* Sono stati risolti i problemi che hanno interessato [!UICONTROL Automated Personalization] (AP) attività per alcuni clienti, inclusa la sincronizzazione tempestiva dell&#39;attività sul [!DNL Target] backend e fornire l’esperienza prevista nei collegamenti di anteprima. (TGT-46202)
+* È stata modificata l’API di [!DNL Analytics] per la nuova versione 2.0 API di [!DNL Analytics]. (TGT-45345)
+* Sono stati risolti i problemi che hanno interessato le attività [!UICONTROL Automated Personalization] (AP) per alcuni clienti, inclusa la sincronizzazione tempestiva dell’attività sul back-end di [!DNL Target] e la possibilità di fornire l’esperienza prevista nei collegamenti di anteprima. (TGT-46202)
 
 ## [!DNL Target] Standard/Premium 23.9.1 (6-11 settembre 2023)
 
