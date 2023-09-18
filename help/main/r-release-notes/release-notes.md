@@ -6,10 +6,10 @@ short-description: Scopri le nuove funzioni, i miglioramenti e le correzioni inc
 title: Cosa è incluso nella versione corrente?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: c8afd59614e94590fdca8345999c11e4a92c042a
+source-git-commit: 6fa553c7179cd2a6d500bdc53cc77dc01ee906e7
 workflow-type: tm+mt
-source-wordcount: '483'
-ht-degree: 100%
+source-wordcount: '623'
+ht-degree: 79%
 
 ---
 
@@ -18,6 +18,16 @@ ht-degree: 100%
 Queste note sulla versione forniscono informazioni su funzioni, miglioramenti e correzioni per ciascuna versione di [!DNL Adobe Target Standard] e [!DNL Target Premium]. Sono inoltre incluse, ove applicabili, le note sulla versione di API di [!DNL Target], SDK, [!DNL Adobe Experience Platform Web SDK], at.js e altre modifiche alla piattaforma.
 
 I codici dei problemi tra parentesi sono per uso interno di [!DNL Adobe].
+
+## [!DNL Target] Standard/Premium 23.9.3 (18 settembre 2023)
+
+Questa versione include i miglioramenti e le correzioni seguenti:
+
+* È stata migliorata la [!UICONTROL Compositore esperienza visivo] (VEC) per supportare Lightning Web Components (Light DOM). (TGT-45422)
+* È stato risolto un problema che causava l’applicazione delle azioni del Compositore esperienza visivo in un ordine errato. In alcuni casi, il Compositore esperienza visivo ha applicato alcune modifiche in modo asincrono e l’aggiunta di modifiche aggiuntive a un elemento ha causato errori se tale elemento viene visualizzato dopo un’ [!UICONTROL Inserisci] azione. Corregge anche l’URL del Compositore esperienza visivo che ora si aggiorna quando si fa clic sui collegamenti di ancoraggio. (TGT-45983)
+* È stato risolto un problema relativo al Compositore esperienza visivo [!UICONTROL Sovrapposizione] che ora supporta gli elementi nei DOM shadow. (TGT-45202 e TGT-45262)
+* È stato risolto un problema che si verificava all’apertura della pagina di un’applicazione a pagina singola (SPA) nel Compositore esperienza visivo, quando si selezionava [!UICONTROL Sfoglia] causava il malfunzionamento delle frecce Indietro e Avanti. (TGT-45956)
+* È stato risolto un problema che impediva il caricamento di alcune pagine web nel Compositore esperienza visivo. (TGT-45983)
 
 ## [!DNL Target] Standard/Premium 23.9.2 (12-14 settembre 2023)
 

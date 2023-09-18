@@ -4,10 +4,10 @@ description: Scopri le nuove funzioni, i miglioramenti e le correzioni, compresi
 title: Quali nuove funzioni e miglioramenti saranno inclusi nella prossima versione [!DNL Target] ?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: b0bdb7d5004af73c6dff8323266ea4c58972fd80
+source-git-commit: 6fa553c7179cd2a6d500bdc53cc77dc01ee906e7
 workflow-type: tm+mt
-source-wordcount: '496'
-ht-degree: 77%
+source-wordcount: '509'
+ht-degree: 75%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 77%
 
 Questo articolo contiene informazioni prerelease per le prossime versioni di [!DNL Adobe Target], incluse SDK, API e librerie JavaScript.
 
-**Ultimo aggiornamento: 15 settembre 2023**
+**Ultimo aggiornamento: 18 settembre 2023**
 
 >[!NOTE]
 >
@@ -27,8 +27,8 @@ Questo articolo contiene informazioni prerelease per le prossime versioni di [!D
 
 Questa versione include i miglioramenti e le correzioni seguenti:
 
-* È stata migliorata la [!UICONTROL Compositore esperienza visivo] (Compositore esperienza visivo) per supportare Lightning DOM (Web Components). (TGT-45422)
-* È stato risolto un problema che causava l’applicazione delle azioni del Compositore esperienza visivo in un ordine errato. In alcuni casi, il Compositore esperienza visivo ha applicato alcune modifiche in modo asincrono e l’aggiunta di modifiche aggiuntive a un elemento ha causato errori se tale elemento viene visualizzato dopo un’ [!UICONTROL Inserisci] azione. (TGT-45983)
+* È stata migliorata la [!UICONTROL Compositore esperienza visivo] (VEC) per supportare Lightning Web Components (Light DOM). (TGT-45422)
+* È stato risolto un problema che causava l’applicazione delle azioni del Compositore esperienza visivo in un ordine errato. In alcuni casi, il Compositore esperienza visivo ha applicato alcune modifiche in modo asincrono e l’aggiunta di modifiche aggiuntive a un elemento ha causato errori se tale elemento viene visualizzato dopo un’ [!UICONTROL Inserisci] azione. Corregge anche l’URL del Compositore esperienza visivo che ora si aggiorna quando si fa clic sui collegamenti di ancoraggio. (TGT-45983)
 * È stato risolto un problema relativo al Compositore esperienza visivo [!UICONTROL Sovrapposizione] che ora supporta gli elementi nei DOM shadow. (TGT-45202 e TGT-45262)
 * È stato risolto un problema che si verificava all’apertura della pagina di un’applicazione a pagina singola (SPA) nel Compositore esperienza visivo, quando si selezionava [!UICONTROL Sfoglia] causava il malfunzionamento delle frecce Indietro e Avanti. (TGT-45956)
 * È stato risolto un problema che impediva il caricamento di alcune pagine web nel Compositore esperienza visivo. (TGT-45983)
