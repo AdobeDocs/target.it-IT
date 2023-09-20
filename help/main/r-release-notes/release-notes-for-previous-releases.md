@@ -4,9 +4,9 @@ description: Visualizza un elenco di funzioni, miglioramenti e correzioni inclus
 title: Quali funzioni sono incluse nelle versioni precedenti?
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: 8da8daf7da0cfe3e4936cb48b4c594c464708775
+source-git-commit: b35f86e01b5527b750b981affd1a2c72c26f8c55
 workflow-type: tm+mt
-source-wordcount: '37230'
+source-wordcount: '37213'
 ht-degree: 96%
 
 ---
@@ -2933,10 +2933,6 @@ La versione 16.5.1 di Adobe Target Standard/Premium (19 maggio 2016) prevede le 
   <tr> 
    <td colname="col1"> Versioni di esperienza </td> 
    <td colname="col2"> <p>Le versioni destinate a diversi gruppi possono ora essere configurate all'interno di esperienze nelle attività A/B. </p> <p>Consulta <a href="/help/main/c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences.md#task_0138112E283A4A5B9F8AB9AAF2FBC2FF" format="dita" scope="local">Eseguire il targeting di un’esperienza su più tipi di pubblico.</a> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> URL di QA/anteprima </td> 
-   <td colname="col2"> <p>Da oggi, sono disponibili gli URL di anteprima per il Compositore esperienza basato su moduli. </p> <p>Consulta <a href="/help/main/c-activities/c-activity-qa/activity-qa.md" format="dita" scope="local">Visualizzare gli URL esperienza.</a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> Algoritmi personalizzati per i consigli </td> 

@@ -4,9 +4,9 @@ description: Scopri cos’è un test A/A, perché potresti voler eseguire un tes
 title: Cos’è il test A/A?
 feature: A/B Tests
 exl-id: 7489f4f5-3655-45f9-a743-651ba1c23c53
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 4f0ebdd06287a438e519d9bccb677ab1a9093396
 workflow-type: tm+mt
-source-wordcount: '940'
+source-wordcount: '933'
 ht-degree: 1%
 
 ---
@@ -31,17 +31,17 @@ Alcune organizzazioni eseguono test A/A quando implementano un nuovo strumento d
 * Il codice è stato implementato correttamente
 * Il reporting è accurato
 
-Anche se poche organizzazioni eseguono test A/A, in realtà è buona prassi eseguirli come esperimenti di &quot;sanità&quot; per creare fiducia dopo l’implementazione dello strumento o prima di eseguire test A/B che potrebbero influire sulla conversione e sui ricavi.
+Anche se poche organizzazioni eseguono test A/A, è buona prassi eseguirli come esperimenti di &quot;sanità&quot; per creare fiducia dopo l’implementazione dello strumento o prima di eseguire test A/B che potrebbero influire sulla conversione e sui ricavi.
 
 ## Perché potresti visualizzare l’incremento per un’esperienza quando le esperienze sono identiche?
 
-Ci sono diversi motivi per cui potresti vedere l’incremento in un’esperienza rispetto all’altra esperienza (identica):
+Ci sono diversi motivi per cui potresti vedere l’incremento in un’esperienza rispetto a un’altra esperienza (identica):
 
 ### Il test A/A è stato monitorato continuamente
 
-Un problema comune nell’esecuzione di qualsiasi tipo di test, incluso un test A/A, consiste nell’esaminare i risultati in modo continuo, interrompere anticipatamente un test non appena viene rilevata una rilevanza statistica e dichiarare un’esperienza vincente. Gli analisti fanno spesso ciò che viene chiamato &quot;sbirciamento dei dati&quot;. Il peking dei dati comporta l’esame dei dati del test in anticipo e con frequenza, cercando di determinare quale esperienza funziona meglio. Il rischio è quello di interrompere prematuramente il test, il che potrebbe invalidare i risultati.
+Un problema comune nell’esecuzione di qualsiasi tipo di test, incluso un test A/A, consiste nell’esaminare i risultati in modo continuo e nell’interrompere anticipatamente un test quando si rileva una significatività statistica e si dichiara un’esperienza vincente. Gli analisti fanno spesso ciò che viene chiamato &quot;sbirciamento dei dati&quot;. Il peking dei dati comporta l’esame dei dati del test in anticipo e con frequenza, cercando di determinare quale esperienza funziona meglio. Il rischio è quello di interrompere prematuramente il test, il che potrebbe invalidare i risultati.
 
-In un test A/A, il data peking può spesso causare la visualizzazione dell’incremento da parte degli analisti in un’esperienza, quando in realtà non dovrebbe esserci alcuna differenza, perché le due esperienze sono identiche. Infatti, con il peking continuo, i test A/A sono in realtà _garantito_ mostrare &quot;significatività statistica&quot; (vale a dire, un’affidabilità al di sopra di una certa soglia, come il 95%) ad un certo punto durante il test.
+In un test A/A, il data peking può spesso causare la visualizzazione dell’incremento da parte degli analisti in un’esperienza, quando in realtà non dovrebbe esserci alcuna differenza, perché le due esperienze sono identiche. Infatti, con il peking continuo, i test A/A sono *garantito* mostrare &quot;significatività statistica&quot; (vale a dire, un’affidabilità al di sopra di una certa soglia, come il 95%) ad un certo punto durante il test.
 
 Per evitare questo problema, e come con un normale test A/B, è necessario quindi decidere in anticipo quale dimensione campione utilizzare, in base alla dimensione minima dell’effetto (l’incremento minimo al di sotto del quale un effetto non è importante per la tua azienda), alla potenza e ai livelli di significatività che ritieni accettabili.
 
@@ -51,7 +51,7 @@ Il [!UICONTROL Calcolatore dimensioni campione Adobe Target] è uno strumento im
 
 * [Calcolatore dimensioni Adobe Target](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6)
 
-Inoltre, consulta i seguenti articoli per informazioni sulla durata di un’attività, nonché altri suggerimenti e trucchi utili:
+Inoltre, consulta i seguenti articoli per informazioni sulla durata di un’attività e altri suggerimenti utili:
 
 * [Per quanto tempo si deve eseguire un test A/B?](/help/main/c-activities/t-test-ab/sample-size-determination.md)
 * [Dieci insidie A/B comuni e come evitarle](/help/main/c-activities/t-test-ab/common-ab-testing-pitfalls.md)

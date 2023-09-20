@@ -1,30 +1,30 @@
 ---
-keywords: calcolatore di traffico;personalizzazione automatizzata;ap;stima traffico;targeting automatico
-description: Utilizza l’Adobe [!DNL Target] Calcolatore del traffico per determinare se disponi di traffico sufficiente per il successo dell’attività Automated Personalization.
-title: Quanto traffico è necessario per un'attività di successo?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
+keywords: calcolatore di traffico;personalizzazione automatizzata;ap;stima traffico
+description: Utilizza il [!DNL Adobe Target] [!UICONTROL Calcolatore del traffico] per determinare se disponi di traffico sufficiente per il tuo [!UICONTROL Automated Personalization] attività per il completamento.
+title: Quanto traffico è necessario per un successo [!UICONTROL Automated Personalization] Attività?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Vedi cosa è incluso in Target Premium."
 feature: Automated Personalization
 exl-id: 11f9e239-700b-45cd-bf77-39f7f8967a2e
-source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
+source-git-commit: eacee6f353aa685d17b781ac82d3f79574384dfe
 workflow-type: tm+mt
-source-wordcount: '749'
-ht-degree: 14%
+source-wordcount: '779'
+ht-degree: 11%
 
 ---
 
 # Stimare il traffico necessario per il successo
 
-Il [!DNL Adobe Target] [!UICONTROL Calcolatore del traffico] fornisce un feedback che ti consente di sapere se disponi di traffico sufficiente per il tuo [!UICONTROL Automated Personalization] attività per il completamento.
+Il [!DNL Adobe Target] [!UICONTROL Calcolatore del traffico] fornisce un feedback che ti consente di sapere se disponi di traffico sufficiente per il tuo [!UICONTROL Automated Personalization] (AP) per il completamento dell&#39;attività.
 
-Perché un [!UICONTROL Automated Personalization] l’attività utilizza più combinazioni di offerte, è importante sapere quanto traffico è necessario per fornire risultati significativi. Il [!UICONTROL Calcolatore del traffico] utilizza le statistiche sulla pagina e sul numero di esperienze testate per stimare la quantità di traffico e la durata del test necessari per il successo dell’attività.
+Perché [!UICONTROL Automated Personalization] le attività utilizzano più combinazioni di offerte, è importante sapere quanto traffico è necessario per fornire risultati significativi. Il [!UICONTROL Calcolatore del traffico] utilizza le statistiche sulla pagina e sul numero di esperienze testate per stimare la quantità di traffico e la durata del test necessari per il successo dell’attività.
 
 Il [!UICONTROL Calcolatore del traffico] determina se il traffico è sufficiente per generare modelli personalizzati confrontando le impression di pagina stimate e il tasso di conversione tipico per le pagine. Idealmente, per il successo di un&#39;attività, la corretta dimensione del campione garantisce che il contenuto personalizzato sia pronto entro il 50% della durata dell&#39;attività o in 14 giorni, a seconda del minore tra questi due valori. Questo processo consente di ottenere contenuti personalizzati e di imparare quali contenuti distribuire.
 
-Ricorda che [!DNL Target] fornisce le esperienze in modo casuale, fino a quando non vengono generati gli algoritmi di personalizzazione. L’icona a forma di segno di spunta posta accanto a ciascuna offerta mostra quando il modello è pronto e [!DNL Target] è in grado di iniziare a consegnare contenuti personalizzati. Poiché l&#39;incremento è previsto solo una volta che i modelli sono pronti, l&#39;indicazione visiva consente di stabilire la giusta previsione. Utilizza il [!UICONTROL Calcolatore del traffico] nel [!UICONTROL Compositore esperienza visivo] (VEC) per ottenere indicazioni su quando i modelli sono pronti.
+Ricorda che [!DNL Target] fornisce le esperienze in modo casuale, fino a quando non vengono generati gli algoritmi di personalizzazione. L’icona a forma di segno di spunta posta accanto a ciascuna offerta mostra quando il modello è pronto e [!DNL Target] è in grado di iniziare a consegnare contenuti personalizzati. Poiché l’incremento è previsto solo dopo che i modelli sono pronti, l’indicazione visiva consente di impostare l’aspettativa corretta. Utilizza il [!UICONTROL Calcolatore del traffico] nel [!UICONTROL Compositore esperienza visivo] (VEC) per ottenere indicazioni su quando i modelli sono pronti.
 
 ## Utilizzare il Calcolatore del traffico
 
-1. Dalla sezione [!UICONTROL Compositore esperienza visivo], fai clic su **[!UICONTROL Traffico]**.
+1. Dalla sezione [!UICONTROL Esperienze] pagina di [!UICONTROL Compositore esperienza visivo] in un [!UICONTROL Automated Personalization] attività, fai clic su  **[!UICONTROL Traffico]** icona.
 
    ![Icona Traffico](/help/main/c-activities/t-automated-personalization/assets/icon-traffic.png)
 

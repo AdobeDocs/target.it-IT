@@ -4,10 +4,10 @@ description: Il pubblico determina quali visitatori del sito vengono inseriti ne
 title: Come si seleziona un pubblico in una [!DNL Target] Attività A/B?
 feature: A/B Tests
 exl-id: 281ae227-c593-4b71-ad12-865430b332be
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 676350453268e4ffc04df83dcda0525842ca8b07
 workflow-type: tm+mt
-source-wordcount: '442'
-ht-degree: 91%
+source-wordcount: '431'
+ht-degree: 70%
 
 ---
 
@@ -19,29 +19,40 @@ Il pubblico determina quali visitatori del sito vengono inseriti nel [!DNL Adobe
 >
 >Oltre a selezionare un pubblico esistente, puoi combinare più tipi di pubblico per creare un pubblico combinato ad hoc anziché crearne uno nuovo. Per ulteriori informazioni, consulta [Combinazione di più tipi di pubblico](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5).
 
-Fai clic sull’icona Modifica (tre puntini di sospensione verticali) nella casella [!UICONTROL Pubblico], quindi fai clic su **[!UICONTROL Sostituisci pubblico]**.
+1. In [!UICONTROL Pubblico] , fare clic sul pulsante **[!UICONTROL Modifica]** (puntini di sospensione verticali), quindi fai clic su **[!UICONTROL Sostituisci pubblico]**.
 
-![Opzione Sostituisci pubblico](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/replace-audience.png)
+   ![Opzione Sostituisci pubblico](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/replace-audience.png)
 
-Per impostazione predefinita, il pubblico è composto da tutti i visitatori. Tuttavia, è possibile modificarlo. I tipi di pubblico vengono selezionati dalla libreria del pubblico oppure è possibile creare un pubblico per una sola attività. La libreria del pubblico include tipi di pubblico definiti in precedenza, inclusi alcuni di utilizzo comune già integrati in Target. È possibile selezionare un pubblico dalla libreria, [crearne uno nuovo](/help/main/c-target/c-audiences/create-audience.md#task_1D507519D3AD4390B507F188BD294DC1) o [creare un pubblico per la sola attività](/help/main/c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483). Per un test A/B senza targeting per uno specifico pubblico, scegli l&#39;impostazione predefinita, Tutti i visitatori.
+   Per impostazione predefinita, il pubblico è composto da tutti i visitatori. Tuttavia, è possibile modificarlo. I tipi di pubblico vengono selezionati dalla libreria del pubblico oppure è possibile creare un pubblico per una sola attività. La libreria del pubblico include tipi di pubblico definiti in precedenza, inclusi alcuni di utilizzo comune già integrati in [!DNL Target].
 
-È anche possibile modificare o copiare un pubblico passando il cursore sopra il pubblico desiderato nella finestra di dialogo [!UICONTROL Scegli il pubblico], come illustrato di seguito. È utile copiare un pubblico per crearne uno simile a un pubblico esistente. Puoi effettuare una copia del pubblico, apportarvi le modifiche desiderate, e quindi salvarlo come un nuovo pubblico. Questa funzionalità esiste anche in altri tipi di attività.
+1. Seleziona o crea il pubblico desiderato:
 
-![Pubblico al passaggio del mouse](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/audience_picker_hover-new.png)
+   * Selezionare un pubblico dalla libreria
+   * [Combinare più tipi di pubblico](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5)
+   * [Creare un nuovo pubblico](/help/main/c-target/c-audiences/create-audience.md#task_1D507519D3AD4390B507F188BD294DC1)
+   * [Creare un pubblico per sola attività](/help/main/c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483).
 
-Durante la creazione di un pubblico, puoi selezionare una posizione (mbox) e specificarne i parametri. In Parametri personalizzati, seleziona la mbox e specifica i parametri desiderati.
+   Per un test A/B senza targeting di pubblico specifico, scegli il valore predefinito, [!UICONTROL Tutti i visitatori].
 
->[!NOTE]
->
->Quando apri l’elenco dei tipi di pubblico e questi sono stati importati da almeno 10 minuti, vengono importati automaticamente in background.
+   Puoi anche modificare o copiare un pubblico passando il cursore sopra il pubblico desiderato nella [!UICONTROL Aggiungi pubblico] come illustrato di seguito.
 
-Fai clic sulla freccia rivolta verso il basso per rimuovere il pubblico esistente o per cambiare pubblico.
+   È utile copiare un pubblico per crearne uno simile a un pubblico esistente. Puoi effettuare una copia del pubblico, apportarvi le modifiche desiderate, e quindi salvarlo come un nuovo pubblico. Questa funzionalità esiste anche in altri tipi di attività.
 
-Puoi specificare la percentuale di visitatori idonei da includere nell’attività. Ad esempio, puoi scegliere di includere il 50% di tutti i visitatori.
+   ![Pubblico al passaggio del mouse](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/audience_picker_hover-new.png)
 
-![Percentuale di pubblico](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/audperc-new.png)
+   Durante la creazione di un pubblico, puoi selezionare una posizione (mbox) e specificarne i parametri. Sotto [!UICONTROL Parametri personalizzati], seleziona la mbox e specifica i parametri desiderati.
 
-Puoi anche scegliere di lasciare che Target [allochi automaticamente il traffico](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4).
+   >[!NOTE]
+   >
+   >Quando apri l’elenco dei tipi di pubblico e questi sono stati importati da almeno 10 minuti, vengono importati automaticamente in background.
+
+1. (Condizionale) Specifica la percentuale di visitatori idonei da includere nell’attività.
+
+   Ad esempio, puoi scegliere di includere il 50% di tutti i visitatori.
+
+   ![Percentuale di pubblico](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/audperc-new.png)
+
+   Puoi anche scegliere di lasciare che Target [allochi automaticamente il traffico](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4).
 
 ## Video di formazione
 

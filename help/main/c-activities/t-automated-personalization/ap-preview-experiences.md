@@ -1,20 +1,20 @@
 ---
-keywords: Automated Personalization;app;anteprima;escludere esperienza;
-description: Scopri come visualizzare in anteprima ogni esperienza in un’attività di Automated Personalization (AP) in Adobe [!DNL Target] utilizzando il Compositore esperienza visivo (VEC).
-title: Come posso visualizzare in anteprima le esperienze Automated Personalization nel Compositore esperienza visivo?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
+keywords: Automated Personalization;app;anteprima;esperienza di esclusione;app;preview;exclude experience
+description: Scopri come visualizzare in anteprima ogni esperienza in un [!UICONTROL Automated Personalization] Attività di (AP) in [!DNL Adobe Target] utilizzando [!UICONTROL Compositore esperienza visivo] (VEC).
+title: Come posso visualizzare in anteprima [!UICONTROL Automated Personalization] Esperienze nel Compositore esperienza visivo?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Vedi cosa è incluso in Target Premium."
 feature: Automated Personalization
 exl-id: b346e9cb-f4db-4777-8671-cf714bed465a
-source-git-commit: bfe25200407086680b2f2a4e9f33f8ec130c25ad
+source-git-commit: eacee6f353aa685d17b781ac82d3f79574384dfe
 workflow-type: tm+mt
-source-wordcount: '257'
-ht-degree: 47%
+source-wordcount: '279'
+ht-degree: 28%
 
 ---
 
-# Anteprima delle esperienze di Personalizzazione automatizzata nel Compositore esperienza visivo
+# Visualizzare un’anteprima delle esperienze in [!UICONTROL Automated Personalization] attività in [!UICONTROL Compositore esperienza visivo] (VEC)
 
-Perché un [!DNL Adobe Target] [!UICONTROL Automated Personalization] L’attività di (AP) confronta più offerte in una pagina. È utile visualizzare un’anteprima della pagina con ogni esperienza.
+Perché [!DNL Adobe Target] [!UICONTROL Automated Personalization] Le attività di (AP) confrontano più offerte in una pagina. È utile visualizzare in anteprima la pagina con ogni esperienza.
 
 1. Dalla sezione [!UICONTROL Compositore esperienza visivo] (VEC), fai clic su **[!UICONTROL Anteprima]**.
 
@@ -44,4 +44,4 @@ Perché un [!DNL Adobe Target] [!UICONTROL Automated Personalization] L’attivi
 
    Per includere più esperienze che erano state escluse, seleziona la casella di controllo di ciascuna esperienza e fai clic su **[!UICONTROL Includi]** in alto a destra nell’elenco.
 
-1. Fai clic su **[!UICONTROL Componi]** per tornare al Compositore esperienza visivo e apportare modifiche, oppure fai clic su **[!UICONTROL Successivo]** per passare al passaggio [!UICONTROL Targeting].
+1. Clic **[!UICONTROL Componi]** per tornare al [!UICONTROL Compositore esperienza visivo] in modo da poter apportare ulteriori modifiche o fare clic su **[!UICONTROL Successivo]** per passare al [!UICONTROL Targeting] passaggio.

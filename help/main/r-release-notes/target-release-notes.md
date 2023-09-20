@@ -4,10 +4,10 @@ description: Scopri le nuove funzioni, i miglioramenti e le correzioni, compresi
 title: Quali nuove funzioni e miglioramenti saranno inclusi nella prossima versione [!DNL Target] ?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 6fa553c7179cd2a6d500bdc53cc77dc01ee906e7
+source-git-commit: 11b5915d75b72a3891572d841de0a353f68dcbf3
 workflow-type: tm+mt
-source-wordcount: '509'
-ht-degree: 75%
+source-wordcount: '603'
+ht-degree: 72%
 
 ---
 
@@ -59,6 +59,23 @@ Questa versione include i miglioramenti e le correzioni seguenti:
 * È stato corretto un problema che causava incoerenza nei dati di reporting nell’interfaccia utente di [!DNL Target] e nell’interfaccia utente di [!DNL Adobe Analytics] per attività di [!UICONTROL allocazione automatica] che utilizzano [!UICONTROL Analytics for Target] (A4T) come origine di reporting. (TGT-46112)
 * Il timeout per le chiamate PUT all’API di consegna di Target è stato aumentato a 15 secondi, per evitare errori di timeout. (TGT-46091)
 * È stato corretto un problema che impediva l’aggiornamento costante dell’URL durante la navigazione nel sito web di un’applicazione a pagina singola (SPA). (TGT-45417)
+
+## [!DNL Target] Standard/Premium 23.5.2 (data da definire)
+
+Questa versione include i miglioramenti e le correzioni seguenti:
+
+* Abilitazione della selezione dei criteri di ottimizzazione per [!DNL Adobe Analytics] metriche.
+* Abilitazione della sincronizzazione di tipi di pubblico esterni tramite processi sling.
+* È stato risolto un problema che impediva il supporto delle suite di rapporti SC contenenti un carattere punto nel nome.
+* È stata abilitata la funzionalità per consentire ai clienti di eliminare e modificare i tipi di pubblico incorporati.
+
+## [!DNL Target] Standard/Premium 23.5.3 (data da definire)
+
+Questo rilascio contiene i seguenti miglioramenti:
+
+| Funzione | Dettagli |
+|--- |--- |
+| [!UICONTROL Modalità Controllo qualità] per attività di [!UICONTROL Automated Personalization] | [!DNL Adobe Target] La [!UICONTROL Modalità Controllo qualità] è ora disponibile per le attività di [!UICONTROL Automated Personalization], in sostituzione della funzionalità [!UICONTROL Collegamenti di anteprima].<P>Per ulteriori informazioni, consulta [Controllo qualità delle attività](/help/main/c-activities/c-activity-qa/activity-qa.md). |
 
 ## Note aggiuntive e dettagli sulla versione
 

@@ -4,10 +4,10 @@ description: Scopri come utilizzare Adobe [!DNL Target] URL di controllo qualit�
 title: Come posso eseguire il controllo qualità delle attività?
 feature: Activities
 exl-id: 5c606d61-6d13-4a9b-9a23-4840f1754d3c
-source-git-commit: 87cfc86bdabeb87424d2cf9fff7754dd85f7ac0b
+source-git-commit: 9fc17a3d3c0b9f5b07abcd7583e61e7931a040cd
 workflow-type: tm+mt
 source-wordcount: '1767'
-ht-degree: 34%
+ht-degree: 35%
 
 ---
 
@@ -69,7 +69,7 @@ Utilizzare gli URL di controllo qualità in [!DNL Adobe Target] per eseguire in 
 
   `https://www.mysite.com/?at_preview_token=`
 
-* **[!DNL Adobe Experience Platform Web SDK]**: se il tuo sito dispone di [[!UICONTROL Platform Web SDK]](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank} implementato, puoi forzare manualmente l’uscita dalla modalità di controllo qualità caricando una pagina del sito con il `at_qa_mode` con un valore vuoto. Ad esempio,
+* **[!DNL Adobe Experience Platform Web SDK]**: se il tuo sito dispone di [[!UICONTROL Platform Web SDK]](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=it){target=_blank} implementato, puoi forzare manualmente l’uscita dalla modalità di controllo qualità caricando una pagina del sito con il `at_qa_mode` con un valore vuoto. Ad esempio,
 
   `https://www.mysite.com/?at_qa_mode=`
 
@@ -111,7 +111,7 @@ Utilizzare gli URL di controllo qualità in [!DNL Adobe Target] per eseguire in 
 
 * [at.js 1.x](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html)
 * [at.js 2.x](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html)
-* [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html)
+* [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=it)
 
 Nella tabella seguente sono elencati i vari tipi di attività e viene indicato se [!UICONTROL Controllo di qualità delle attività] è supportata per ogni libreria:
 
@@ -124,4 +124,3 @@ Nella tabella seguente sono elencati i vari tipi di attività e viene indicato s
 | [!UICONTROL Targeting dell’esperienza] (XT) | Sì | Sì | Sì |
 | [!UICONTROL Test multivariato] (MVT) | Sì | Sì | Sì |
 | [!UICONTROL Raccomandazioni] | Sì | Sì | Sì |
-
