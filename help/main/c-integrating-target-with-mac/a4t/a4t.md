@@ -4,10 +4,10 @@ description: Utilizza  [!DNL Analytics]  for  [!DNL Target]  (A4T) per creare at
 title: Cos’è  [!DNL Analytics]  for  [!DNL Target]  (A4T)?
 feature: Analytics for Target (A4T)
 exl-id: 5bb80b03-8209-4932-a838-0e11c5865133
-source-git-commit: 3493ea35ee161d4a643dc45feab01347f9d14ef1
+source-git-commit: 787124c9c20a71b8feb49809bd8f2925264a1668
 workflow-type: tm+mt
-source-wordcount: '1131'
-ht-degree: 100%
+source-wordcount: '1148'
+ht-degree: 98%
 
 ---
 
@@ -44,7 +44,7 @@ Considerazioni importanti per l’utilizzo di A4T:
 * È consentita una sola metrica basata su mbox quando si utilizza A4T.
 * Una chiamata da server a server da [!DNL Target] ad [!DNL Analytics] invia informazioni sulle attività e sulle esperienze ad [!DNL Analytics]. Questa integrazione non comporta chiamate server aggiuntive per [!DNL Target] o [!DNL Analytics].
 
-   In alcune situazioni, le classificazioni da [!DNL Target] ad [!DNL Analytics] non vanno a buon fine e le attività non mostrano i dati in [!DNL Analytics]. Consulta [Risoluzione di problemi relativi all’integrazione di Analytics e Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md). Puoi inoltre [contattare l’Assistenza clienti](/help/main/cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB) per ulteriore supporto.
+  In alcune situazioni, le classificazioni da [!DNL Target] ad [!DNL Analytics] non vanno a buon fine e le attività non mostrano i dati in [!DNL Analytics]. Consulta [Risoluzione di problemi relativi all’integrazione di Analytics e Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md). Puoi inoltre [contattare l’Assistenza clienti](/help/main/cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB) per ulteriore supporto.
 
 ## Implementazione di A4T
 
@@ -58,7 +58,7 @@ Le sezioni seguenti contengono informazioni sui tipi di attività supportati qua
 |--- |--- |--- |
 | [Attività A/B con suddivisione manuale del traffico](/help/main/c-activities/t-test-ab/test-ab.md) | Sì |  |
 | [Attività A/B con allocazione automatica](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | Sì | Consulta [Supporto A4T per attività di allocazione automatica e targeting automatico](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md) |
-| [Attività A/B con targeting automatico](/help/main/c-activities/auto-target/auto-target-to-optimize.md) | No |  |
+| [Attività A/B con targeting automatico](/help/main/c-activities/auto-target/auto-target-to-optimize.md) | Sì (at.js)<P>No (Platform Web SDK) | Il supporto A4T per le attività di Targeting automatico è attualmente supportato solo per at.js. |
 | [Targeting delle esperienze (XT)](/help/main/c-activities/t-experience-target/experience-target.md) | Sì |  |
 | [Test multivariato (MVT)](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md) | Sì | Richiede metriche di obiettivo basate su mbox per ottenere il rapporto sul [!UICONTROL contributo degli elementi]. Il rapporto sul [!UICONTROL contributo degli elementi] non supporta attualmente le metriche di [!DNL Analytics]. |
 | [Attività di Automated Personalization (AP)](/help/main/c-activities/t-automated-personalization/automated-personalization.md) | No |  |
@@ -126,4 +126,3 @@ Questo video è una registrazione di “ [Office Hours](/help/main/cmp-resources
 >* [Offerte di reindirizzamento: domande frequenti su A4T](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md)
 >* [Cos’è Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=it): contiene informazioni generali su Platform Web SDK.
 >* [Panoramica di Target](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/adobe-target/target-overview.html?lang=it): contiene informazioni specifiche di [!DNL Target] e [!DNL Platform Web SDK].
-
