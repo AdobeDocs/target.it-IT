@@ -4,7 +4,7 @@ description: Scopri come risolvere i problemi che a volte si verificano nell’A
 title: Come posso risolvere i problemi relativi al Compositore esperienza avanzato?
 feature: Visual Experience Composer (VEC)
 exl-id: 7dea7707-5d9f-49c4-9ccd-618eeb7b3568
-source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
+source-git-commit: f948e6bd66a42939834b598821d68b93c82fa6af
 workflow-type: tm+mt
 source-wordcount: '451'
 ht-degree: 42%
@@ -21,15 +21,15 @@ Questo problema può essere risolto inserendo nell&#39;elenco Consentiti seguent
 
 Inserire nell&#39;elenco Consentiti Chiedi al tuo team IT di i seguenti indirizzi IP:
 
-* 34.253.100.20
-* 34.248.100.23
-* 52.49.228.246
-* 54.205.42.123
-* 107.22.177.39
-* 52.201.5.105
-* 52.193.211.177
-* 18.180.24.249
-* 52.194.154.154
+* 52.18.97.86
+* 52.209.31.20
+* 52.214.41.220
+* 54.144.66.225
+* 54.82.53.36
+* 34.206.104.26
+* 3.115.90.128
+* 18.178.137.67
+* 3.112.77.52
 
 È possibile visualizzare il seguente messaggio di errore in [!DNL Target]:
 
@@ -41,11 +41,11 @@ Di seguito sono riportati possibili cause per questo messaggio di errore e soluz
 
 * **Problema:**[!UICONTROL  il dominio del sito Web (ISP) sta bloccando il Compositore esperienza avanzato].
 
-   **Rimedio:** Inserire nell&#39;elenco Consentiti gli indirizzi IP elencati sopra.
+  **Rimedio:** Inserire nell&#39;elenco Consentiti gli indirizzi IP elencati sopra.
 
 * **Problema:** Gli indirizzi IP vengono inseriti nell&#39;elenco Consentiti, ma il tuo sito Web non supporta la versione 1.2 di TLS. [!DNL Target] attualmente utilizza la configurazione predefinita di 1.2. Prima della [!DNL Target] 18.4.1 (25 aprile 2018), la configurazione predefinita supportava TLS 1.0. Per ulteriori informazioni, consulta [Modifiche alla crittografia di TLS (Transport Layer Security)](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html){target=_blank}.
 
-   **Soluzione:**[!UICONTROL  consulta la domanda seguente (il Compositore esperienza visivo avanzato non viene caricato su pagine protette del mio sito che utilizzano TLS 1.2).]
+  **Soluzione:**[!UICONTROL  consulta la domanda seguente (il Compositore esperienza visivo avanzato non viene caricato su pagine protette del mio sito che utilizzano TLS 1.2).]
 
 ## Il Compositore esperienza avanzato non viene caricato su pagine protette del mio sito che utilizzano TLS 1.0. (Solo Compositore esperienza avanzato) {#section_C5B31E3D32A844F68E5A8153BD17551F}
 
