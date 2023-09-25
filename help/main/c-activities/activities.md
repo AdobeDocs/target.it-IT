@@ -4,10 +4,10 @@ description: Scopri come le attività in Adobe [!DNL Target] consente di persona
 title: Come posso personalizzare il contenuto e testare le progettazioni di pagine con [!DNL Target]?
 feature: Activities
 exl-id: 7e61525d-b2db-44f6-a7c2-df5a8d28eca2
-source-git-commit: ea63fe92d55f6fba8fda18dc7ea358def638a8ac
+source-git-commit: 4b62017fe4dca61b5b05c7778f3a02cf446c17f7
 workflow-type: tm+mt
-source-wordcount: '2467'
-ht-degree: 45%
+source-wordcount: '2489'
+ht-degree: 44%
 
 ---
 
@@ -25,7 +25,12 @@ L’elenco [!UICONTROL Attività] è la vista predefinita all’apertura di [!DN
 
 Puoi anche visualizzare l’elenco [!UICONTROL Attività] facendo clic sulla scheda [!UICONTROL Attività] nella parte superiore dell’[!DNL Target]interfaccia utente.
 
-![Elenco attività](/help/main/c-activities/assets/activities-list-new.png)
+>[!NOTE]
+>
+>La figura e la tabella seguenti mostrano le funzionalità dell’interfaccia utente aggiornata dell’elenco Attività, attualmente in versione beta, che verrà rilasciata a breve.
+
+
+![Attività, elenco](/help/main/c-activities/assets/activities-list-new.png)
 
 Il [!UICONTROL Attività] L’elenco fornisce una panoramica di tutte le attività e consente di eseguire varie azioni:
 
