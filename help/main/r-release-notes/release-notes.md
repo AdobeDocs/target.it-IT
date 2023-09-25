@@ -7,9 +7,9 @@ title: Cosa è incluso nella versione corrente?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 source-git-commit: 6fa553c7179cd2a6d500bdc53cc77dc01ee906e7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '623'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -23,11 +23,11 @@ I codici dei problemi tra parentesi sono per uso interno di [!DNL Adobe].
 
 Questa versione include i miglioramenti e le correzioni seguenti:
 
-* È stata migliorata la [!UICONTROL Compositore esperienza visivo] (VEC) per supportare Lightning Web Components (Light DOM). (TGT-45422)
-* È stato risolto un problema che causava l’applicazione delle azioni del Compositore esperienza visivo in un ordine errato. In alcuni casi, il Compositore esperienza visivo ha applicato alcune modifiche in modo asincrono e l’aggiunta di modifiche aggiuntive a un elemento ha causato errori se tale elemento viene visualizzato dopo un’ [!UICONTROL Inserisci] azione. Corregge anche l’URL del Compositore esperienza visivo che ora si aggiorna quando si fa clic sui collegamenti di ancoraggio. (TGT-45983)
-* È stato risolto un problema relativo al Compositore esperienza visivo [!UICONTROL Sovrapposizione] che ora supporta gli elementi nei DOM shadow. (TGT-45202 e TGT-45262)
-* È stato risolto un problema che si verificava all’apertura della pagina di un’applicazione a pagina singola (SPA) nel Compositore esperienza visivo, quando si selezionava [!UICONTROL Sfoglia] causava il malfunzionamento delle frecce Indietro e Avanti. (TGT-45956)
-* È stato risolto un problema che impediva il caricamento di alcune pagine web nel Compositore esperienza visivo. (TGT-45983)
+* È stato migliorato il [!UICONTROL Compositore esperienza visivo] (VEC) per supportare componenti Web Lightning (Light DOM). (TGT-45422)
+* È stato risolto un problema che causava l’applicazione delle azioni VEC in un ordine errato. In alcuni casi, il VEC ha applicato alcune modifiche in modo asincrono e l’aggiunta di ulteriori modifiche a un elemento ha causato errori se tale elemento viene visualizzato dopo un’azione [!UICONTROL Inserisci]. Corregge anche l’URL del VEC, che ora si aggiorna quando si clicca sui collegamenti di ancoraggio. (TGT-45983)
+* È stato risolto un problema relativo alla funzione [!UICONTROL Sovrapposizione] del VEC, che ora supporta gli elementi in shadow DOM. (TGT-45202 e TGT-45262)
+* È stato risolto un problema che si verificava all’apertura della pagina di un’applicazione a pagina singola (SPA) nel VEC e di conseguenza il passaggio alla modalità [!UICONTROL Sfoglia] causava il malfunzionamento delle frecce Indietro e Avanti. (TGT-45956)
+* È stato risolto un problema che impediva il caricamento di alcune pagine web nel VEC. (TGT-45983)
 
 ## [!DNL Target] Standard/Premium 23.9.2 (12-14 settembre 2023)
 
