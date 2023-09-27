@@ -1,25 +1,25 @@
 ---
 keywords: test multivariato;mvt;piano mvt;piano test multivariato
-description: Scopri come pianificare test multivariati in Adobe [!DNL Target] in modo da poter creare un test di successo.
-title: Come si pianifica un test multivariato?
+description: Scopri come pianificare un [!UICONTROL Test multivariato] in [!DNL Adobe Target] in modo da poter creare un test di successo.
+title: Come si pianifica una [!UICONTROL Test multivariato]?
 feature: Multivariate Tests
 exl-id: 130718d5-7bd9-4b1a-b81a-7a146f0ffd0d
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 0d73a062f70080057c3323f5150af067e3a2e27e
 workflow-type: tm+mt
-source-wordcount: '297'
-ht-degree: 89%
+source-wordcount: '293'
+ht-degree: 63%
 
 ---
 
-# Pianificare un test multivariato
+# Piano a [!UICONTROL Test multivariato]
 
-I [!UICONTROL test multivariati] (MVT) in [!DNL Adobe Target] richiedono una certa pianificazione prima di poter creare un test di successo.
+[!UICONTROL Test multivariati] (MVT) attività in [!DNL Adobe Target] è necessaria una certa pianificazione prima di poter creare un test di successo.
 
-I test multivariati richiedono traffico sufficiente a generare risultati utili. Prima di configurare il test, è necessario sapere quanto traffico viene normalmente generato, compreso il numero di impression e di conversioni. Questa informazione consentirà di ridurre la probabilità di progettare un test con requisiti in eccesso rispetto al traffico del sito.
+MVT richiede traffico sufficiente per generare risultati utili. Prima di configurare il test, è necessario sapere quanto traffico viene normalmente generato, compreso il numero di impression e di conversioni. Disporre di queste informazioni aiuta a ridurre la probabilità di progettare un test con requisiti che superano il traffico del sito.
 
-È consigliabile che gli elementi siano indipendenti l’uno dall’altro. Ad esempio, non eseguire il test del layout e del contenuto contemporaneamente.
+Gli elementi devono essere indipendenti l&#39;uno dall&#39;altro. Ad esempio, non testare il layout e il contenuto nello stesso test.
 
-Esamina il codice HTML per le pagine da sottoporre a test. Assicurati che gli elementi HTML del sito non presentino ID DOM duplicati. Gli ID duplicati possono fare sì che lo stesso contenuto sia distribuito a più posizioni.
+Esamina il codice HTML per le pagine da testare. Assicurati che gli elementi HTML del sito non presentino ID DOM duplicati. Gli ID duplicati possono fare sì che lo stesso contenuto sia distribuito a più posizioni.
 
 Pianifica il test degli elementi sulla pagina che produrranno probabilmente risultati significativi. Ad esempio, un banner o un’immagine protagonista porterà probabilmente più conversioni di una modifica del piè di pagina. L&#39;inclusione di elementi meno significativi nel test aumenta la quantità di traffico e il tempo necessario per eseguire il test sugli elementi più importanti della pagina.
 
@@ -27,7 +27,7 @@ Infine, prima di creare il test, devi creare il contenuto da verificare. Assicur
 
 ## Video di formazione: Creazione di test multivariati (09:25) ![Icona esercitazione](/help/main/assets/tutorial.png)
 
-In questo video viene illustrato come pianificare e creare un test multivariato utilizzando il flusso di lavoro guidato a tre passaggi di Target.
+Questo video illustra come pianificare e creare un test multivariato utilizzando [!DNL Target] flusso di lavoro guidato in tre passaggi.
 
 * Definizione e progettazione di un test multivariato
 * Creazione di un test multivariato
