@@ -1,13 +1,13 @@
 ---
 keywords: Test multivariati;URL attività
-description: Scopri come specificare l’URL attività che determina la pagina utilizzata nel test e che viene visualizzata quando l’attività Test multivariato viene progettata utilizzando Adobe Target.
-title: Qual è l’URL attività in un’attività multivariata (MVT)?
+description: Scopri come specificare l’URL attività che determina la pagina utilizzata nel test e che si apre quando [!UICONTROL Test multivariato] l’attività è progettata utilizzando [!DNL Adobe Target].
+title: Cos’è l’URL attività in una [!UICONTROL Test multivariato] (MVT) Attività?
 feature: Multivariate Tests
 exl-id: 336169ae-7c8b-4fd5-9b1c-0bd3e9524425
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 7853d8c5934e40d1026e067dfa413f520ecba931
 workflow-type: tm+mt
-source-wordcount: '303'
-ht-degree: 85%
+source-wordcount: '301'
+ht-degree: 77%
 
 ---
 
@@ -38,13 +38,13 @@ Le regole aggiuntive possono essere basate su uno dei seguenti elementi:
 * Query
 * Parametro
 
-È possibile aggiungere altre regole all’URL attività mediante l’operatore E oppure O. Tutte le regole aggiunte vengono valutate tra loro con E.
+È possibile unire ulteriori regole all’URL attività con AND o OR. Tutte le regole aggiunte vengono valutate l&#39;una rispetto all&#39;altra mediante l&#39;operatore AND.
 
 Al termine, fai clic su **[!UICONTROL Salva]**.
 
 >[!NOTE]
 >
->Se hai inserito un URL per un sito che non include il codice JavaScript di Target Standard, non puoi selezionare elementi di pagina.
+>Se hai inserito un URL per un sito che non include il codice JavaScript di [!DNL Target] , non puoi selezionare elementi di pagina.
 
 Per impostazione predefinita, il Compositore esperienza visivo non consente di modificare gli elementi contenenti JavaScript, ad esempio i banner rotanti. Puoi disattivare **[!UICONTROL Esegui rendering con JavaScript]** se desideri modificare tali elementi utilizzando il [!UICONTROL Compositore esperienza visivo].
 

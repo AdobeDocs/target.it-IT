@@ -1,21 +1,21 @@
 ---
 keywords: multivariato;mvt;anteprima;esperienze
-description: Scopri come visualizzare in anteprima ogni esperienza in un’attività Test multivariato (MVT) in Adobe [!DNL Target] utilizzando il Compositore esperienza visivo (VEC).
-title: Come posso visualizzare in anteprima le esperienze per un test multivariato (MVT)
+description: Scopri come visualizzare in anteprima ogni esperienza in un [!UICONTROL Test multivariato] (MVT) attività in [!DNL Adobe Target] utilizzando [!UICONTROL Compositore esperienza visivo] (VEC).
+title: Come posso visualizzare in anteprima le esperienze per una [!UICONTROL Test multivariato] (MVT)
 feature: Multivariate Tests
 exl-id: 33c3ef24-eb58-437b-bae5-fdca25317c25
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: 7853d8c5934e40d1026e067dfa413f520ecba931
 workflow-type: tm+mt
 source-wordcount: '202'
-ht-degree: 67%
+ht-degree: 38%
 
 ---
 
-# Visualizzare un&#39;anteprima delle esperienze per un test multivariato
+# Visualizzare un’anteprima delle esperienze per un [!UICONTROL Test multivariato]
 
 Perché un [!UICONTROL Test multivariato] in [!DNL Adobe Target] confronta più esperienze su una pagina; è utile visualizzare un’anteprima della pagina con ogni esperienza.
 
-1. Nel Compositore esperienza visivo, fai clic su **[!UICONTROL Anteprima]**.
+1. Dalla sezione [!UICONTROL Compositore esperienza visivo] (VEC), fai clic su **[!UICONTROL Anteprima]**.
 
    Viene visualizzato un elenco di tutte le esperienze.
 
@@ -31,8 +31,8 @@ Perché un [!UICONTROL Test multivariato] in [!DNL Adobe Target] confronta più 
 
    >[!NOTE]
    >
-   >Quando si creano test multivariati, è ora possibile escludere più del 10% di esperienze dal test; in questo caso, per effettuare l’analisi è necessario utilizzare la generazione rapporti non in linea.
+   >Quando si creano test multivariati, è possibile escludere più del 10% di esperienze dal test, purché si riconosca l’avviso che è necessario utilizzare il reporting offline per l’analisi.
 
    Per impostazione predefinita, tutte le esperienze sono incluse nel test multivariato. Per includere una esperienza che è stata esclusa, selezionala e fai clic su **[!UICONTROL Includi]**.
 
-Fai clic su **[!UICONTROL Esci da modalità anteprima]** per tornare a Compositore esperienza in modo da poter apportare modifiche, o fai clic su **[!UICONTROL Continua]** per passare al riepilogo del test.
+1. Clic **[!UICONTROL Esci da modalità anteprima]** per tornare al [!UICONTROL Compositore esperienza visivo] in modo da poter apportare modifiche, oppure fare clic su **[!UICONTROL Continua]** per passare al riepilogo del test.
