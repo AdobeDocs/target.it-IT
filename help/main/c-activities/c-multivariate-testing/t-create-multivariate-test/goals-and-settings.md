@@ -1,27 +1,27 @@
 ---
 keywords: impostazioni attività;obiettivi e impostazioni;multivariato;mvt
-description: Scopri come utilizzare la pagina Obiettivi e impostazioni in Adobe [!DNL Target] per specificare informazioni sugli obiettivi di un'attività Test multivariato (MVT).
-title: Come si specificano obiettivi e impostazioni in un’attività Test multivariato (MVT)?
+description: Scopri come utilizzare il [!UICONTROL Obiettivi e impostazioni] pagina in [!DNL Adobe Target] per specificare informazioni sugli obiettivi di un [!UICONTROL Test multivariato] (MVT).
+title: Come si specificano obiettivi e impostazioni in una [!UICONTROL Test multivariato] (MVT) Attività?
 feature: Multivariate Tests
 exl-id: 823a1435-ccb9-4357-9c33-a0968d704b7a
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: ba4eb936a0fcf3a8ec7ed7ca87625a9829deb901
 workflow-type: tm+mt
-source-wordcount: '1282'
-ht-degree: 90%
+source-wordcount: '1237'
+ht-degree: 50%
 
 ---
 
-# Obiettivi e impostazioni (test multivariati)
+# Obiettivi e impostazioni ([!UICONTROL Test multivariato])
 
-Nella pagina Obiettivi e impostazioni di Adobe Target è possibile inserire informazioni sugli obiettivi [!UICONTROL Multivariato] (MVT).
+Il [!UICONTROL Obiettivi e impostazioni] pagina in [!DNL Adobe Target] è il punto in cui vengono immesse le informazioni sugli obiettivi [!UICONTROL Test multivariato] (MVT) attività.
 
-* Impostazioni attività
-* Impostazioni reporting
-* Altri metadati
+Sono disponibili le seguenti sezioni:
 
-Le impostazioni disponibili dipendono dall’utilizzo di Target o Analytics come origine di dati.
+* [!UICONTROL Impostazioni attività]
+* [!UICONTROL Impostazioni reporting]
+* [!UICONTROL Altri metadati]
 
-![immagine mvt_settings](assets/mvt_settings.png)
+Le impostazioni disponibili in ciascuna sezione dipendono dall’utilizzo o meno di [!DNL Target] o [!DNL Analytics] come origine per la generazione di rapporti.
 
 ## Impostazioni attività {#section_DCBDC354261F420EBD4B43EA34947BAC}
 
@@ -33,20 +33,20 @@ Specifica una finalità facoltativa. La finalità può essere costituita da qual
 
 ### Priorità
 
-L’interfaccia utente e le opzioni per Priorità variano a seconda delle impostazioni. È possibile utilizzare le impostazioni legacy Bassa, Media o Alta, oppure attivare la priorità precisa da 0 a 999.
+A seconda delle impostazioni, il [!DNL Target] Interfaccia utente e opzioni per [!UICONTROL Priorità] variare. Puoi utilizzare le impostazioni legacy di [!UICONTROL Basso], [!UICONTROL Medio], o [!UICONTROL Alta], oppure puoi abilitare le priorità dettagliate da 0 a 999.
 
 La priorità è utilizzata se più attività vengono assegnate alla stessa posizione con lo stesso pubblico. Se due o più attività vengono assegnate alla posizione, viene visualizzata l’attività con priorità maggiore.
 
-Se questa opzione non è abilitata in S[!UICONTROL Amministrazione] > [!UICONTROL Generazione rapporti] (impostazione predefinita), specifica una priorità: Bassa, Media o Alta.
+Se questa opzione non è abilitata in [!UICONTROL Amministrazione] > [!UICONTROL Generazione rapporti] (impostazione predefinita), specifica una priorità: [!UICONTROL Basso], [!UICONTROL Medio], o [!UICONTROL Alta].
 
-Per abilitare le priorità dettagliate, fai clic su [!UICONTROL Amministrazione] > [!UICONTROL Generazione rapporti], quindi attiva l’opzione Abilita priorità precise.
+Per abilitare le priorità dettagliate, fai clic su [!UICONTROL Amministrazione] > [!UICONTROL Generazione rapporti], quindi attiva/disattiva [!UICONTROL Abilita priorità precise] nella posizione &quot;On&quot;.
 
 Se questa opzione è abilitata, specifica un valore compreso tra 0 e 999:
 
 * 0 = Bassa
 * 999 = Alta
 
-Per le attività create con le versioni precedenti di Target Standard/Premium, la priorità Bassa viene convertita in 0, la priorità Media in 5 e la priorità Alta in 10. Se necessario, è possibile modificare questi valori.
+Per le attività create con le versioni precedenti di [!DNL Target], [!UICONTROL Basso] la priorità è convertita in 0, [!UICONTROL Medio] la priorità è convertita in 5, e [!UICONTROL Alta] priorità convertita in 10. Se necessario, è possibile modificare questi valori.
 
 >[!NOTE]
 >
@@ -58,70 +58,70 @@ L’attività può iniziare dopo l’approvazione, oppure è possibile impostare
 
 ## Impostazioni reporting {#section_13119392051044FBA6387D9B3B1C43CF}
 
-Sono disponibili le seguenti opzioni:
+Sono disponibili le seguenti impostazioni:
 
-### Soluzione di reporting
+### Origine per i rapporti
 
-Specifica se i dati vengono raccolti da Adobe Target o da Adobe Analytics. Consulta [Adobe Analytics come origine per la generazione di rapporti per Target](/help/main/c-integrating-target-with-mac/a4t/a4t.md) per scoprire le differenze tra le soluzioni di reporting e i vantaggi di ciascuna.
+Specifica se i dati vengono raccolti da [!DNL Adobe Target] o da [!DNL Adobe Analytics]. Consulta [Adobe Analytics come origine per la generazione di rapporti per Target](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T) per scoprire le differenze tra le soluzioni di reporting e i vantaggi di ciascuna.
 
-Quando si seleziona Analytics come origine per la generazione di rapporti per Target, si seleziona la suite di rapporti di Analytics che dovrà ricevere i dati relativi all’attività di Target. Scegli innanzitutto una delle società Analytics associate al tuo account, quindi, seleziona la suite di rapporti idonea all’attività. Puoi selezionare solo le suite di rapporti impostate per la connessione ad Adobe Target. Se non visualizzi la suite di rapporti desiderata, disconnettiti, accedi di nuovo ad Adobe Experience Cloud e riprova. Se la suite di rapporti continua a non essere elencata, contatta l’Assistenza clienti.
+Durante la selezione [!DNL Analytics] come origine di reporting per [!DNL Target], si seleziona un [!DNL Analytics] suite di rapporti da ricevere [!DNL Target] dati attività. A questo scopo, scegli innanzitutto una delle seguenti opzioni [!DNL Analytics] aziende a cui è associato il tuo account, quindi seleziona la suite di rapporti appropriata per l’attività. Solo le suite di rapporti per le quali è stato eseguito il provisioning [!DNL Target] sono disponibili per la selezione. Se non trovi la suite di rapporti desiderata, disconnettiti e accedi di nuovo al [!DNL Adobe Experience Cloud] per riprovare. Se la suite di rapporti non è ancora presente nell’elenco, contatta [Assistenza clienti](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C).
 
-Analytics for Target richiede un server di tracciamento per riportare correttamente i risultati. Un server di tracciamento predefinito verrà visualizzato nel campo Server di tracciamento. Se si utilizzano più server di tracciamento, è necessario verificare di aver inserito in questo campo quello corretto. Consulta [Utilizzo di un server di tracciamento di Analytics](/help/main/c-integrating-target-with-mac/a4t/analytics-tracking-server.md#task_72077BA7E93C4A65A715A18F32228823) per ulteriori informazioni.
+[!UICONTROL Analytics for Target] (A4T) richiede un server di tracciamento per riportare correttamente i risultati. Un server di tracciamento predefinito viene visualizzato in [!UICONTROL Server di tracciamento] campo. Se utilizzi più server di tracciamento, assicurati di includere in questo campo il server di tracciamento corretto. Consulta [Utilizzo di un server di tracciamento di Analytics](/help/main/c-integrating-target-with-mac/a4t/analytics-tracking-server.md#task_72077BA7E93C4A65A715A18F32228823) per ulteriori informazioni.
 
 Se una soluzione di reporting è specificata nelle impostazioni del tuo account, viene utilizzata tale soluzione e questa impostazione non è visibile.
 
 >[!NOTE]
 >
->Al fine di mantenere coerenza dei rapporti, non è possibile cambiare l’origine per i rapporti una volta che l’attività è diventata attiva.
+>Al fine di mantenere coerenza dei rapporti, non è possibile modificare l’origine per i rapporti una volta che l’attività è diventata attiva.
 
-### Obiettivo
+### Metrica per obiettivo
 
-Seleziona l’azione che deve essere eseguita da un visitatore per raggiungere l’obiettivo. Ad esempio, scegli una metrica di conversione, quindi imposta i parametri che determinano il raggiungimento del successo.
+Seleziona l’azione che deve essere eseguita da un visitatore per raggiungere l’obiettivo. Ad esempio, scegli un [!UICONTROL Conversione] metrica, quindi imposta i parametri che determinano quando viene raggiunto il successo.
 
 >[!NOTE]
 >
->Se la soluzione di reporting è impostata su Analytics, l’unica metrica di obiettivo disponibile è Conversione. Le metriche di Analytics non possono essere selezionate come obiettivo.
+>Se la soluzione di reporting è impostata su [!DNL Analytics], l’unica metrica di obiettivo disponibile è [!UICONTROL Conversione]. [!DNL Analytics]Le metriche di non possono essere selezionate come obiettivo.
 
 Quando si seleziona la metrica di successo, viene visualizzato un selettore. Utilizza questo selettore per scegliere le specifiche per la metrica di successo.
 
-Se attivato, il campo del Valore stimato di una conversione (non disponibile per la metrica Punteggio di pagina) fornisce un valore per l’obiettivo, ma non per altre metriche. Questo valore consente a Target di calcolare un incremento stimato dei ricavi. Questo campo è facoltativo; tuttavia, i ricavi incrementali per eventuali metriche non collegate ai ricavi non possono essere calcolate senza di esso. Per tutte le metriche collegate ai ricavi (Ricavo per visitatore, Valore ordine medio, Vendite totali e Ordini), la stima utilizza Ricavo per visitatore. I dati sono di tipo valuta.
+Se l&#39;opzione è abilitata, [!UICONTROL Valore stimato della conversione] (non disponibile per il [!UICONTROL Punteggio pagina] metriche) fornisce un valore per l’obiettivo, ma non per altre metriche. Questo valore consente a [!DNL Target] di calcolare un incremento stimato dei ricavi. Questo campo è facoltativo; tuttavia, i ricavi incrementali per eventuali metriche non collegate ai ricavi non possono essere calcolate senza di esso. Per tutte le metriche ricavi ([!UICONTROL Ricavo per visitatore], [!UICONTROL Valore medio ordine], [!UICONTROL Vendite totali], e [!UICONTROL Ordini]), la stima utilizza [!UICONTROL Ricavo per visitatore]. I dati sono di tipo valuta.
 
-Dopo aver raggiunto l’obiettivo dell’attività, un visitatore continua a vedere il contenuto dell’attività, a meno che il visitatore non sia idoneo per un’attività di priorità maggiore. Se il visitatore raggiunge nuovamente l’obiettivo, viene conteggiato come un’altra conversione. Nota: questo è diverso dal comportamento predefinito in Target Classic, in cui i visitatori sono conteggiati come nuovi se vedono il test di nuovo.
+Dopo aver raggiunto l’obiettivo dell’attività, un visitatore continua a vedere il contenuto dell’attività, a meno che il visitatore non sia idoneo per un’attività di priorità più elevata. Se il visitatore raggiunge nuovamente l’obiettivo, viene conteggiato come un’altra conversione. Questo comportamento è diverso da quello predefinito in [!DNL Target Classic], che conta i visitatori come nuovi se visualizzano nuovamente il test.
 
 ### Altre metriche
 
 Consente di creare metriche di successo aggiuntive.
 
-Questa impostazione non è disponibile se la soluzione di reporting è impostata su Analytics. In questo caso, si applicano le metriche definite per la suite di rapporti di Analytics.
+Questa impostazione non è disponibile se la soluzione di reporting è impostata su [!DNL Analytics]. In questo caso, le metriche definite per [!DNL Analytics] suite di rapporti.
 
-Tipi di pubblico per i rapporti
+### Tipi di pubblico per i rapporti
 
-### Per impostazione predefinita, nei rapporti sono mostrati i risultati per tutti i visitatori idonei. È possibile aggiungere tipi di pubblico per i rapporti per visualizzare solo le informazioni su tipi di pubblico specifici.
+Per impostazione predefinita, nei rapporti sono mostrati i risultati per tutti i visitatori idonei. È possibile aggiungere tipi di pubblico per i rapporti per visualizzare solo le informazioni su tipi di pubblico specifici.
 
-## Impostazioni avanzate  {#section_E2FE441AFB324E498793ABB025ED9974}
+### Impostazioni avanzate  {#section_E2FE441AFB324E498793ABB025ED9974}
 
-Le impostazioni avanzate sono disponibili per le metriche obiettivo di test multivariato.
+Le impostazioni avanzate sono disponibili per [!UICONTROL Test multivariato] metriche dell’obiettivo.
 
 ![Menu Impostazioni avanzate](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/Menu_AdvancedSettings.png)
 
 >[!NOTE]
 >
->Se utilizzi Adobe Analytics come origine per la generazione dei rapporti, le impostazioni vengono gestite dal server Analytics. L’opzione Impostazioni avanzate non sarà disponibile.
+>Se utilizzi [!DNL Adobe Analytics] come origine per la generazione dei rapporti, le impostazioni vengono gestite dal server [!DNL Analytics]. L&#39;opzione Impostazioni avanzate non è disponibile.
 
-### Quali sono le metriche di successo da raggiungere prima di incrementare questa metrica?
+#### Quali sono le metriche di successo da raggiungere prima di incrementare questa metrica?
 
-Utilizza questa opzione per contare solo chi raggiunge la metrica di successo se in precedenza aveva raggiunto una metrica di successo diversa. Ad esempio potresti rendere valida una conversione di test solo se un visitatore fa clic sull’offerta o raggiunge una determinata pagina prima della conversione.
+Utilizza questa opzione per contare solo chi raggiunge la metrica di successo se in precedenza aveva raggiunto una metrica di successo diversa. Ad esempio, una conversione di test potrebbe essere valida solo se il visitatore fa clic sull’offerta o raggiunge una pagina particolare prima della conversione.
 
-È possibile fornire una dipendenza da più metriche e decidere se, per incrementare il conteggio, la metrica deve essere raggiunta o non raggiunta.
+È possibile fornire la dipendenza su più metriche insieme alla flessibilità necessaria, per scegliere se la metrica debba essere raggiunta o meno per incrementare il conteggio.
 
-È necessario definire entrambe le metriche (o più metriche) di successo prima di renderle interdipendenti tra loro.
+Definisci entrambe le metriche (o più metriche) di successo prima di renderle interdipendenti tra loro.
 
-L’opzione Aggiungi dipendenza consente di incrementare la metrica di successo nel caso in cui un’altra metrica di successo venga raggiunta o meno.
+L’opzione [!UICONTROL Aggiungi dipendenza] consente di incrementare la metrica di successo nel caso in cui un’altra metrica di successo venga raggiunta o meno.
 
 Per aggiungere una dipendenza:
 
 1. Dopo aver aggiunto le metriche aggiuntive, fai clic su **[!UICONTROL Impostazioni avanzate]**.
-2. Fai clic sull’opzione Aggiungi dipendenza:
+2. Fai clic sull’opzione **[!UICONTROL Aggiungi dipendenza]**:
 
    ![Aggiungi dipendenza](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/add_dependency.png)
 
@@ -135,9 +135,9 @@ Per aggiungere una dipendenza:
 
 Dopo che un visitatore raggiunge la metrica obiettivo, sono disponibili tre opzioni:
 
-* Seleziona Incrementa il conteggio e mantieni utente attivo per specificare la modalità di incremento del conteggio.
-* Seleziona Incrementa il conteggio, rilascia l’utente e consenti nuovo accesso per specificare l’esperienza che l’utente vedrà se accede di nuovo all’attività.
-* Seleziona Incrementa il conteggio, rilascia l’utente e impedisci nuovo accesso per specificare cosa vedrà l’utente al posto del contenuto dell’attività.
+* [!UICONTROL Seleziona Incrementa il conteggio e mantieni utente attivo per specificare la modalità di incremento del conteggio.]
+* [!UICONTROL Seleziona Incrementa il conteggio, rilascia l’utente e consenti nuovo accesso per specificare l’esperienza che l’utente vedrà se accede di nuovo all’attività.]
+* [!UICONTROL Seleziona Incrementa il conteggio, rilascia l’utente e impedisci nuovo accesso per specificare cosa vedrà l’utente al posto del contenuto dell’attività.]
 
 Consulta [Metriche di successo](/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924) per ulteriori informazioni sulle impostazioni avanzate.
 
@@ -147,13 +147,13 @@ Sono disponibili le seguenti impostazioni:
 
 ### Note
 
-Inserisci informazioni sull’attività, utili per te o per gli altri membri del gruppo. Il riquadro Note può essere ridimensionato.
+Inserisci informazioni sull’attività, utili per te o per gli altri membri del gruppo. Il [!UICONTROL Note] è ridimensionabile.
 
 ## Video di formazione
 
 I video seguenti contengono ulteriori informazioni sui concetti descritti in questo articolo.
 
-### Impostazioni attività (3:02) ![Icona esercitazione](/help/main/assets/tutorial.png)
+### Impostazioni delle attività (3:02)
 
 Questo video include informazioni sulle impostazioni delle attività.
 
@@ -165,9 +165,9 @@ Questo video include informazioni sulle impostazioni delle attività.
 
 >[!VIDEO](https://video.tv.adobe.com/v/17381)
 
-### Creazione di test multivariati (9:25) ![Icona esercitazione](/help/main/assets/tutorial.png)
+### Creazione di test multivariati (9:25)
 
-In questo video viene illustrato come creare un test multivariato utilizzando il flusso di lavoro guidato in tre passaggi di Target. Obiettivi e impostazioni sono trattati a partire dal minuto 07:00.
+Questo video illustra come creare un test multivariato utilizzando [!DNL Target] flusso di lavoro guidato in tre passaggi. Obiettivi e impostazioni sono trattati a partire dal minuto 07:00.
 
 * Definizione e progettazione di un test multivariato
 * Creazione di un test multivariato
