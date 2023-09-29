@@ -4,10 +4,10 @@ description: Scopri le nuove funzioni, i miglioramenti e le correzioni, compresi
 title: Quali nuove funzioni e miglioramenti saranno inclusi nella prossima versione [!DNL Target] ?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: d68337b9f19801efa593f85a62791423e98d13f2
+source-git-commit: 055dfe5cb917428fc6dcb015a64b0c3c6ccf5b5d
 workflow-type: tm+mt
-source-wordcount: '683'
-ht-degree: 87%
+source-wordcount: '730'
+ht-degree: 82%
 
 ---
 
@@ -32,6 +32,10 @@ Questa versione sarà disponibile in base al seguente programma scaglionato:
 * **4 ottobre**: area geografica Asia-Pacifico (APAC)
 
 Questa versione include i miglioramenti e le correzioni seguenti:
+
+| Funzione | Dettagli |
+| --- | --- |
+| [!UICONTROL Attività] Aggiornamento interfaccia utente<P>[!UICONTROL Feed] Aggiornamento interfaccia utente | Nell&#39;ambito del [!DNL Adobe Target] impegno continuo del team per migliorare l’esperienza utente per [!DNL Target] utenti, questa versione aggiorna la [!UICONTROL Attività] e [!DNL Recommendations] [!UICONTROL Feed] pagine in [!DNL Target] UI. Questo aggiornamento unisce e standardizza i modelli di progettazione che in precedenza erano incoerenti, aggiungendo nuovi miglioramenti. |
 
 * Aggiunto [!UICONTROL Compositore esperienza visivo] Miglioramenti al Compositore esperienza visivo per i framework dinamici. (TGT-44064)
 * È stato risolto un problema che causava la selezione della data in `getViewInAnalyticsId` richiesta di non aggiornamento corretto. Questa correzione consente di ricalcolare [!DNL Analytics] collega nei rapporti quando vengono modificate le impostazioni dei rapporti relativi a metriche e intervalli di date. (TGT-46246)
