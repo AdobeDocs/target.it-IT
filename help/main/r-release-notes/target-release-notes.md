@@ -4,10 +4,10 @@ description: Scopri le nuove funzioni, i miglioramenti e le correzioni, compresi
 title: Quali nuove funzioni e miglioramenti saranno inclusi nella prossima versione [!DNL Target] ?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 2e15709ac2a34a96dbc632c71f400c2575d74cf4
+source-git-commit: 0ba699a88a7d9b778e5e8585adf06c58ff53a647
 workflow-type: tm+mt
-source-wordcount: '852'
-ht-degree: 70%
+source-wordcount: '784'
+ht-degree: 76%
 
 ---
 
@@ -36,7 +36,7 @@ Questa versione include i miglioramenti e le correzioni seguenti:
 | Funzione | Dettagli |
 | --- | --- |
 | [!UICONTROL Attività] Aggiornamento interfaccia utente<P>e<P>[!UICONTROL Feed] Aggiornamento interfaccia utente | Nell&#39;ambito del [!DNL Adobe Target] impegno continuo del team per migliorare l’esperienza utente per [!DNL Target] utenti, questa versione aggiorna la [!UICONTROL Attività] e [!DNL Recommendations] [!UICONTROL Feed] pagine in [!DNL Target] UI. Questo aggiornamento unisce e standardizza i modelli di progettazione che in precedenza erano incoerenti, aggiungendo nuovi miglioramenti.<P>Per ulteriori informazioni, consulta [Attività](/help/main/c-activities/activities.md) e [Feed](/help/main/c-recommendations/c-products/feeds.md). |
-| [!DNL Recommendations] modello di implementazione | Il *Modello di implementazione di Recommendations utilizzando at.js* articoli ti aiutano a comprendere e creare [!DNL Adobe Target Recommendations] implementazione quando si utilizza la libreria JavaScript at.js.<P>Per informazioni generali sui modelli di Target, consulta [Panoramica sui modelli di implementazione](https://experienceleague.adobe.com/docs/target-dev/developer/implementation-patterns/pattern-overview.html){target=_blank} nel *Guida per gli sviluppatori di Adobe Target*.<P>Il nuovo modello di implementazione di Recommendations è composto dai seguenti articoli:<ul><li>[Panoramica sul modello di implementazione di Recommendations tramite at.js](https://experienceleague.adobe.com/docs/target-dev/developer/implementation-patterns/atjs/recs-implementation-pattern-atjs.html){target=_blank}</li><ul><li>[Inizializzare gli SDK](https://experienceleague.adobe.com/docs/target-dev/developer/implementation-patterns/atjs/initialize-sdk.html){target=_blank}</li><li>[Configurare la raccolta dati](https://experienceleague.adobe.com/docs/target-dev/developer/implementation-patterns/atjs/data-collection.html){target=_blank}</li><li>[Esperienze di rendering](https://experienceleague.adobe.com/docs/target-dev/developer/implementation-patterns/atjs/render-experiences.html?lang=en){target=_blank}</li><li>[Notifica [!DNL Target]](https://experienceleague.adobe.com/docs/target-dev/developer/implementation-patterns/atjs/notify-target.html?lang=en){target=_blank}</li></ul></ul> |
+| [!DNL Recommendations] modello di implementazione | Il *Modello di implementazione di Recommendations utilizzando at.js* articoli ti aiutano a comprendere e creare [!DNL Adobe Target Recommendations] implementazione quando si utilizza la libreria JavaScript at.js.<P>Per ulteriori informazioni, consulta [Panoramica sul modello di implementazione di Recommendations tramite at.js](https://experienceleague.adobe.com/docs/target-dev/developer/implementation-patterns/atjs/recs-implementation-pattern-atjs.html){target=_blank} nel *Guida per gli sviluppatori di Adobe Target*. |
 
 * Aggiunto [!UICONTROL Compositore esperienza visivo] Miglioramenti al Compositore esperienza visivo per i framework dinamici. (TGT-44064)
 * È stato risolto un problema che causava la selezione della data in `getViewInAnalyticsId` richiesta di non aggiornamento corretto. Questa correzione consente di ricalcolare [!DNL Analytics] collega nei rapporti quando vengono modificate le impostazioni dei rapporti relativi a metriche e intervalli di date. (TGT-46246)
