@@ -4,10 +4,10 @@ description: Resta aggiornato sulle importanti aggiunte e modifiche apportate al
 title: Dove posso trovare la documentazione aggiornata per  [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 2e15709ac2a34a96dbc632c71f400c2575d74cf4
+source-git-commit: 159cf7595878e0412f249a52dc979e0824c717eb
 workflow-type: tm+mt
-source-wordcount: '2007'
-ht-degree: 92%
+source-wordcount: '1987'
+ht-degree: 93%
 
 ---
 
@@ -20,8 +20,6 @@ Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Targ
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
 | 2 ottobre | Note sulla versione di [[!DNL Target]  (corrente)](/help/main/r-release-notes/release-notes.md) | Sono state aggiunte le note sulla versione 23.9.3 di [!DNL Target Standard/Premium]. |
-|  | [Attività](/help/main/c-activities/activities.md) | Articolo aggiornato per riflettere [!UICONTROL Attività] aggiornamento dell’interfaccia utente della pagina. |
-|  | [Feed](/help/main/c-recommendations/c-products/feeds.md) | Articolo aggiornato per riflettere [!UICONTROL Feed] aggiornamento dell’interfaccia utente della pagina. |
 |  | [[!DNL Recommendations] modello di implementazione](https://experienceleague.adobe.com/docs/target-dev/developer/implementation-patterns/atjs/recs-implementation-pattern-atjs.html){target=_blank} | Il nuovo *Modello di implementazione di Recommendations utilizzando at.js* articoli ti aiutano a comprendere e creare [!DNL Adobe Target Recommendations] implementazione quando si utilizza la libreria JavaScript at.js.<P>Per informazioni generali su [!DNL Target] pattern, vedi [Panoramica sui modelli di implementazione](https://experienceleague.adobe.com/docs/target-dev/developer/implementation-patterns/pattern-overview.html){target=_blank} nel *Guida per gli sviluppatori di Adobe Target*.<P>Il nuovo modello di implementazione di Recommendations è composto dai seguenti articoli:<ul><li>[Panoramica sul modello di implementazione di Recommendations tramite at.js](https://experienceleague.adobe.com/docs/target-dev/developer/implementation-patterns/atjs/recs-implementation-pattern-atjs.html){target=_blank}</li><ul><li>[Inizializzare gli SDK](https://experienceleague.adobe.com/docs/target-dev/developer/implementation-patterns/atjs/initialize-sdk.html){target=_blank}</li><li>[Configurare la raccolta dati](https://experienceleague.adobe.com/docs/target-dev/developer/implementation-patterns/atjs/data-collection.html){target=_blank}</li><li>[Esperienze di rendering](https://experienceleague.adobe.com/docs/target-dev/developer/implementation-patterns/atjs/render-experiences.html?lang=en){target=_blank}</li><li>[Notifica [!DNL Target]](https://experienceleague.adobe.com/docs/target-dev/developer/implementation-patterns/atjs/notify-target.html?lang=en){target=_blank}</li></ul></ul> |
 | 29 settembre | Note sulla versione (prerelease) di [[!DNL Target] ](/help/main/r-release-notes/target-release-notes.md) | Sono state aggiunte le note prerelease sulla versione 23.9.3 di [!DNL Target Standard/Premium]. |
 |  | [Inizializzare l’SDK Java](https://experienceleague.corp.adobe.com/docs/target-dev/developer/server-side/java/initialize-sdk.html){target=_blank} | Sono stati aggiunti i seguenti nuovi parametri alla tabella:<ul><li>`connectionTtlMs`</li><li>`idleConnectionValidationMs`</li><li>`evictIdleConnectionsAfterSecs`</li></ul> |
