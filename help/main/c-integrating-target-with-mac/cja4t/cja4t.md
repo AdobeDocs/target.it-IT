@@ -5,10 +5,11 @@ title: Cos’è  [!DNL Adobe Customer Journey Analytics]  for  [!DNL Target]  (C
 feature: Integrations
 hide: true
 hidefromtoc: true
-source-git-commit: 1e130d616c7042b61a12594eb1d9d57970d6a409
+exl-id: 67b20bf6-ffbe-4220-9455-cb3886bb9227
+source-git-commit: 034d95dd797a7a9cb323094ce5bea0c78b1426ab
 workflow-type: tm+mt
-source-wordcount: '961'
-ht-degree: 95%
+source-wordcount: '1065'
+ht-degree: 82%
 
 ---
 
@@ -16,10 +17,11 @@ ht-degree: 95%
 
 L’integrazione di [!DNL Customer Journey Analytics for Target] (CJA4T) tra [Adobe Customer Journey Analytics (CJA)](https://experienceleague.adobe.com/docs/customer-journey-analytics.html?lang=it){target=_blank} e [!DNL Target] fornisce potenti strumenti di analisi per il programma di ottimizzazione, che consentono di risparmiare tempo prezioso.
 
-I vantaggi principali dell’utilizzo dei dati di [!DNL Customer Journey Analytics] in [!DNL Target] sono:
+Vantaggi principali dell&#39;utilizzo di [!DNL Customer Journey Analytics] come origine di reporting per [!DNL Target] sono:
 
 * Gli addetti al marketing possono applicare dinamicamente le metriche di successo di [!DNL Customer Journey Analytics] ai rapporti delle attività di [!DNL Target] in qualsiasi momento. Non è necessario specificare tutte le impostazioni prima di eseguire l’attività.
-* Un’unica origine dati elimina la varianza che si verifica quando si raccolgono dati in due sistemi distinti.
+* Sfruttare le funzioni del Customer Journey Analytics come [Pannello Sperimentazione](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/panels/experimentation.html?lang=en#:~:text=The%20Experimentation%20panel%20lets%20analysts%20compare%20different%20user,which%20is%20best%20at%20driving%20a%20specific%20outcome.) per analizzare ulteriormente la personalizzazione del sito web.
+* Avere un&#39;unica origine di reporting per [Adobe Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/reporting/cja-ajo.html?lang=en) e Target. Entrambi i prodotti di personalizzazione possono essere collegati al Customer Journey Analytics per una visualizzazione più olistica della personalizzazione web.
 
 ## Considerazioni
 
@@ -35,7 +37,7 @@ Valuta le seguenti informazioni prima di utilizzare l’integrazione CJA4T:
 * Per la generazione dei rapporti, utilizza un’origine o l’altra. Non è possibile raccogliere dati per una singola attività da diverse origini di reporting.
 * Quando imposti [!DNL Customer Journey Analytics] come origine di reporting, ti viene richiesto di specificare la sandbox per la generazione dei rapporti. Durante la configurazione, vengono visualizzate solo le sandbox a cui hai accesso.
 * Tutte le attività di [!DNL Target] esistenti continuano a utilizzare la raccolta dati di [!DNL Target] e non sono influenzate dall’abilitazione di CJA4T.
-* CJA4T è disponibile solo se hai [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform.html?lang=it){target=_blank} and [!DNL Target] implemented through the [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=it){target=_blank}. Il supporto per [!DNL Analytics Data Connector] è pianificato per il futuro.
+* Per utilizzare CJA4T, il metodo di implementazione preferito è avere [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform.html?lang=it){target=_blank} and [!DNL Target] implemented through the [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=it){target=_blank}. Se al momento non hai implementato Adobe Experience Platform Web SDK puoi anche creare un [Connessione sorgente Adobe Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=en) per inserire i dati in Adobe Experience Platform.
 * Per domande sulla tempistica, consulta [Considerazioni sulla latenza](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-faq.html?lang=it#latency){target=_blank} in *Domande frequenti* nella *Guida di Adobe Customer Analytics*.
 
 ## Tipi di attività supportati {#supported-activities}
