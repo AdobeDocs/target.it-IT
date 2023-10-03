@@ -6,10 +6,10 @@ short-description: Scopri le nuove funzioni, i miglioramenti e le correzioni inc
 title: Cosa è incluso nella versione corrente?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 159cf7595878e0412f249a52dc979e0824c717eb
+source-git-commit: dbf9a51044f317d02a705f2331d6dc58b6549606
 workflow-type: tm+mt
-source-wordcount: '782'
-ht-degree: 81%
+source-wordcount: '804'
+ht-degree: 82%
 
 ---
 
@@ -19,7 +19,13 @@ Queste note sulla versione forniscono informazioni su funzioni, miglioramenti e 
 
 I codici dei problemi tra parentesi sono per uso interno di [!DNL Adobe].
 
-## [!DNL Target] Standard/Premium 23.9.4 (data da definire)
+## [!DNL Target] Standard/Premium 23.9.4 (4-6 ottobre 2023)
+
+Questa versione sarà disponibile in base al seguente programma scaglionato:
+
+* **4 ottobre**: area geografica Asia-Pacifico (APAC)
+* **5 ottobre**: area geografica Europa, Medio Oriente e Africa (EMEA)
+* **6 ottobre**: area geografica delle Americhe
 
 Questa versione include i miglioramenti e le correzioni seguenti:
 
