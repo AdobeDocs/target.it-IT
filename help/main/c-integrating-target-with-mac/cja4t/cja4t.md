@@ -9,7 +9,7 @@ exl-id: 67b20bf6-ffbe-4220-9455-cb3886bb9227
 source-git-commit: 2480578b3e26cfbb5881700c2a09b5b6e2dabba2
 workflow-type: tm+mt
 source-wordcount: '1020'
-ht-degree: 85%
+ht-degree: 89%
 
 ---
 
@@ -32,7 +32,7 @@ Valuta le seguenti informazioni prima di utilizzare l’integrazione CJA4T:
    * Se la tua organizzazione dispone di un account [Target Standard](/help/main/c-intro/intro.md#section_ACD5EFF17AAB4E979CBEFA0145CCD905), consulta [Specificare ruoli e autorizzazioni](/help/main/administrating-target/c-user-management/c-user-management/user-management.md#roles-permissions) in *Utenti*.
    * Se si dispone di un account [Target Premium](/help/main/c-intro/intro.md#premium), consulta [Ruoli e autorizzazioni](/help/main/administrating-target/c-user-management/property-channel/property-channel.md#roles-permissions) in *Autorizzazioni per gli utenti Enterprise*.
 
-* Devi far parte di un ruolo in [!DNL Adobe Experience Platform] per impostare un [!DNL Target] attività con [!DNL Customer Journey Analytics] come origine per la generazione di rapporti. Per ulteriori informazioni, consulta [Aggiungi un Ruolo in [!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/configure-permissions.html){target=_blank} in *Configurare le autorizzazioni* nel *Tutorial su Architetto e ingegnere di dati.*
+* Devi far parte di un ruolo in [!DNL Adobe Experience Platform] per impostare un’attività [!DNL Target] con [!DNL Customer Journey Analytics] come origine di reporting. Per ulteriori informazioni, consulta [Aggiungere un ruolo in [!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/configure-permissions.html?lang=it){target=_blank} nella sezione *Configurare le autorizzazioni* del *tutorial per Data Architect e Data Engineer.*
 * A seconda delle impostazioni, il reporting può essere modificato per attività o a livello di organizzazione. Consulta [Soluzione Reporting Cloud](/help/main/administrating-target/reporting.md#solution) in *Configurare il reporting in Target*.
 * Per la generazione dei rapporti, utilizza un’origine o l’altra. Non è possibile raccogliere dati per una singola attività da diverse origini di reporting.
 * Quando imposti [!DNL Customer Journey Analytics] come origine di reporting, ti viene richiesto di specificare la sandbox per la generazione dei rapporti. Durante la configurazione, vengono visualizzate solo le sandbox a cui hai accesso.

@@ -7,7 +7,7 @@ exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
 source-git-commit: 159cf7595878e0412f249a52dc979e0824c717eb
 workflow-type: tm+mt
 source-wordcount: '762'
-ht-degree: 75%
+ht-degree: 80%
 
 ---
 
@@ -76,10 +76,10 @@ Questa versione include i miglioramenti e le correzioni seguenti:
 
 Questa versione include i miglioramenti e le correzioni seguenti:
 
-* Abilitazione della selezione dei criteri di ottimizzazione per [!DNL Adobe Analytics] metriche.
+* Abilitazione della selezione dei criteri di ottimizzazione per le metriche di [!DNL Adobe Analytics].
 * Abilitazione della sincronizzazione di tipi di pubblico esterni tramite processi sling.
-* È stato risolto un problema che impediva il supporto delle suite di rapporti SC contenenti un carattere punto nel nome.
-* È stata abilitata la funzionalità per consentire ai clienti di eliminare e modificare i tipi di pubblico incorporati.
+* È stato risolto un problema per cui le suite di rapporti SC contenenti un carattere punto nel nome non erano supportate.
+* È stata abilitata la funzionalità per consentire alla clientela di eliminare e modificare i tipi di pubblico incorporati.
 
 ## [!DNL Target] Standard/Premium 23.5.3 (data da definire)
 
