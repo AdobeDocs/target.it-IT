@@ -4,9 +4,9 @@ description: Resta aggiornato sulle importanti aggiunte e modifiche apportate al
 title: Dove posso trovare la documentazione aggiornata per  [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 3d8d5322211b8cc962c4f8daef2e3a5c046b92ba
+source-git-commit: 395b8615c9fe0fb5230021c88afc6917a6620bbe
 workflow-type: tm+mt
-source-wordcount: '2023'
+source-wordcount: '2049'
 ht-degree: 91%
 
 ---
@@ -20,6 +20,7 @@ Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Targ
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
 | 6 ottobre | [Token di risposta](/help/main/administrating-target/response-tokens.md) | Sono stati aggiornati tutti gli esempi di codice. |
+|  | [Configurazione dei rapporti A4T in  [!DNL Analysis Workspace]  per le attività di [!UICONTROL Allocazione automatica] ](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-allocate-activities.html?lang=it){target=_blank} | Tutorial completo aggiornato in *[!UICONTROL Tutorials Adobe Target]* guida. |
 | 4 ottobre | [Attività](/help/main/c-activities/activities.md) | Sono stati aggiornati testo e immagini per riflettere l’aggiornamento dell’interfaccia utente incluso nel [!DNL Target] Versione 23.9.4. |
 |  | [Feed](/help/main/c-recommendations/c-products/feeds.md) | Sono stati aggiornati testo e immagini per riflettere l’aggiornamento dell’interfaccia utente incluso nel [!DNL Target] Versione 23.9.4. |
 | 2 ottobre | Note sulla versione di [[!DNL Target]  (corrente)](/help/main/r-release-notes/release-notes.md) | Sono state aggiunte le note sulla versione 23.9.3 di [!DNL Target Standard/Premium]. |
