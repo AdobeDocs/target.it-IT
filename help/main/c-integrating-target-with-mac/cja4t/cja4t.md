@@ -9,7 +9,7 @@ exl-id: 67b20bf6-ffbe-4220-9455-cb3886bb9227
 source-git-commit: 2480578b3e26cfbb5881700c2a09b5b6e2dabba2
 workflow-type: tm+mt
 source-wordcount: '1020'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -17,11 +17,11 @@ ht-degree: 89%
 
 L’integrazione di [!DNL Customer Journey Analytics for Target] (CJA4T) tra [Adobe Customer Journey Analytics (CJA)](https://experienceleague.adobe.com/docs/customer-journey-analytics.html?lang=it){target=_blank} e [!DNL Target] fornisce potenti strumenti di analisi per il programma di ottimizzazione, che consentono di risparmiare tempo prezioso.
 
-Vantaggi principali dell&#39;utilizzo di [!DNL Customer Journey Analytics] come origine di reporting per [!DNL Target] sono:
+I vantaggi principali dell’utilizzo di [!DNL Customer Journey Analytics] come origine di reporting per [!DNL Target] sono:
 
 * Gli addetti al marketing possono applicare dinamicamente le metriche di successo di [!DNL Customer Journey Analytics] ai rapporti delle attività di [!DNL Target] in qualsiasi momento. Non è necessario specificare tutte le impostazioni prima di eseguire l’attività.
-* Sfruttare [!DNL Customer Journey Analytics] funzioni, ad esempio [Pannello Sperimentazione](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/panels/experimentation.html){target=_blank}, per analizzare ulteriormente la personalizzazione del sito web.
-* Avere un&#39;unica origine di reporting per [[!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/reporting/cja-ajo.html){target=_blank} e [!DNL Target]. Entrambi i prodotti di personalizzazione possono essere collegati a [!DNL Customer Journey Analytics] per una visualizzazione più olistica della personalizzazione web.
+* Sfrutta le funzioni di [!DNL Customer Journey Analytics], ad esempio il [Pannello sperimentazione](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/panels/experimentation.html?lang=it){target=_blank}, per analizzare ulteriormente la personalizzazione del sito web.
+* Disponi di un’unica origine di reporting per [[!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/reporting/cja-ajo.html?lang=it){target=_blank} e [!DNL Target]. Entrambi i prodotti di personalizzazione possono essere collegati a [!DNL Customer Journey Analytics] per una visione più olistica della personalizzazione web.
 
 ## Considerazioni
 
@@ -37,8 +37,8 @@ Valuta le seguenti informazioni prima di utilizzare l’integrazione CJA4T:
 * Per la generazione dei rapporti, utilizza un’origine o l’altra. Non è possibile raccogliere dati per una singola attività da diverse origini di reporting.
 * Quando imposti [!DNL Customer Journey Analytics] come origine di reporting, ti viene richiesto di specificare la sandbox per la generazione dei rapporti. Durante la configurazione, vengono visualizzate solo le sandbox a cui hai accesso.
 * Tutte le attività di [!DNL Target] esistenti continuano a utilizzare la raccolta dati di [!DNL Target] e non sono influenzate dall’abilitazione di CJA4T.
-* Per utilizzare CJA4T, il metodo di implementazione preferito consiste nel [[!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/docs/experience-platform.html?lang=it){target=_blank} and [!DNL Target] implemented through the [[!DNL Adobe Experience Platform Web SDK]](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=it){target=_blank}. Se al momento non disponi di [!DNL Adobe Experience Platform Web SDK] implementato, puoi anche creare un’ [[!DNL Adobe Analytics] connessione sorgente](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=en) per inserire i dati in [!DNL Adobe Experience Platform].
-* Per domande sulla tempistica, consulta [Considerazioni sulla latenza](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-faq.html?lang=it#latency){target=_blank} in *Domande frequenti* nella *[!DNL Adobe Customer Analytics]Guida di*.
+* Per utilizzare CJA4T, il metodo di implementazione preferito consiste nel disporre di [[!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/docs/experience-platform.html?lang=it){target=_blank} and [!DNL Target] implemented through the [[!DNL Adobe Experience Platform Web SDK]](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=it){target=_blank}. Se al momento non hai implementato [!DNL Adobe Experience Platform Web SDK], puoi anche creare una [[!DNL Adobe Analytics] connessione di origine](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=it) per trasferire i dati in [!DNL Adobe Experience Platform].
+* Per domande sulla tempistica, consulta [Considerazioni sulla latenza](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-faq.html?lang=it#latency){target=_blank} in *Domande frequenti* nella Guida di *[!DNL Adobe Customer Analytics]*.
 
 ## Tipi di attività supportati {#supported-activities}
 

@@ -9,7 +9,7 @@ exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 source-git-commit: dbf9a51044f317d02a705f2331d6dc58b6549606
 workflow-type: tm+mt
 source-wordcount: '804'
-ht-degree: 82%
+ht-degree: 99%
 
 ---
 
@@ -31,11 +31,11 @@ Questa versione include i miglioramenti e le correzioni seguenti:
 
 | Funzione | Dettagli |
 | --- | --- |
-| [!UICONTROL Attività] Aggiornamento interfaccia utente<P>e<P>[!UICONTROL Feed] Aggiornamento interfaccia utente | Nell&#39;ambito del [!DNL Adobe Target] impegno continuo del team per migliorare l’esperienza utente per [!DNL Target] utenti, questa versione aggiorna la [!UICONTROL Attività] e [!DNL Recommendations] [!UICONTROL Feed] pagine in [!DNL Target] UI. Questo aggiornamento unisce e standardizza i modelli di progettazione che in precedenza erano incoerenti, aggiungendo nuovi miglioramenti.<P>Per ulteriori informazioni, consulta [Attività](/help/main/c-activities/activities.md) e [Feed](/help/main/c-recommendations/c-products/feeds.md). |
-| [!DNL Recommendations] modello di implementazione | Il *Modello di implementazione di Recommendations utilizzando at.js* articoli ti aiutano a comprendere e creare [!DNL Adobe Target Recommendations] implementazione quando si utilizza la libreria JavaScript at.js.<P>Per ulteriori informazioni, consulta [Panoramica sul modello di implementazione di Recommendations tramite at.js](https://experienceleague.adobe.com/docs/target-dev/developer/implementation-patterns/atjs/recs-implementation-pattern-atjs.html){target=_blank} nel *Guida per gli sviluppatori di Adobe Target*. |
+| Aggiornamento interfaccia utente [!UICONTROL Attività]<P>e<P>aggiornamento interfaccia utente [!UICONTROL Feed] | Come parte del continuo impegno del team di [!DNL Adobe Target] per migliorare l’esperienza utente di [!DNL Target], questa versione aggiorna le pagine [!UICONTROL Attività] e [!UICONTROL Feed] di [!DNL Recommendations] nell’interfaccia utente di [!DNL Target]. Questo aggiornamento unisce e standardizza i modelli di progettazione precedentemente incoerenti, aggiungendo allo stesso tempo nuovi miglioramenti.<P>Per ulteriori informazioni, consulta [Attività](/help/main/c-activities/activities.md) e [Feed](/help/main/c-recommendations/c-products/feeds.md). |
+| Pattern di implementazione di [!DNL Recommendations] | Gli articoli *Pattern di implementazione di Recommendations tramite at.js* contribuiscono a comprendere e creare l’implementazione di [!DNL Adobe Target Recommendations] quando si utilizza la libreria JavaScript at.js.<P>Per ulteriori informazioni, consulta [Panoramica sul pattern di implementazione di Recommendations tramite at.js](https://experienceleague.adobe.com/docs/target-dev/developer/implementation-patterns/atjs/recs-implementation-pattern-atjs.html?lang=it){target=_blank} nella *Guida per gli sviluppatori di Adobe Target*. |
 
-* Aggiunto [!UICONTROL Compositore esperienza visivo] Miglioramenti al Compositore esperienza visivo per i framework dinamici. (TGT-44064)
-* È stato risolto un problema che causava la selezione della data in `getViewInAnalyticsId` richiesta di non aggiornamento corretto. Questa correzione consente di ricalcolare [!DNL Analytics] collega nei rapporti quando vengono modificate le impostazioni dei rapporti relativi a metriche e intervalli di date. (TGT-46246)
+* Sono stati aggiunti miglioramenti al [!UICONTROL Compositore esperienza visivo] (VEC) per i framework dinamici. (TGT-44064)
+* È stato risolto un problema che causava un aggiornamento non corretto alla data selezionata nella richiesta `getViewInAnalyticsId`. Questa correzione consente di ricalcolare il collegamento di [!DNL Analytics] nel reporting quando vengono modificate le impostazioni dei rapporti relativi alle metriche e agli intervalli di date. (TGT-46246)
 
 ## [!DNL Target] Standard/Premium 23.9.3 (18 settembre 2023)
 
