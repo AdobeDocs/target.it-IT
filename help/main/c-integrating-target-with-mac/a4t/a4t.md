@@ -4,10 +4,10 @@ description: Utilizza  [!DNL Analytics]  for  [!DNL Target]  (A4T) per creare at
 title: Cos’è  [!DNL Analytics]  for  [!DNL Target]  (A4T)?
 feature: Analytics for Target (A4T)
 exl-id: 5bb80b03-8209-4932-a838-0e11c5865133
-source-git-commit: 787124c9c20a71b8feb49809bd8f2925264a1668
-workflow-type: ht
-source-wordcount: '1148'
-ht-degree: 100%
+source-git-commit: f7bb9b5d6e96095a31f50f1976b87d9ee7b7eb51
+workflow-type: tm+mt
+source-wordcount: '1144'
+ht-degree: 98%
 
 ---
 
@@ -57,8 +57,8 @@ Le sezioni seguenti contengono informazioni sui tipi di attività supportati qua
 | Tipi di attività | Compatibile con A4T? | Note, se applicabili |
 |--- |--- |--- |
 | [Attività A/B con suddivisione manuale del traffico](/help/main/c-activities/t-test-ab/test-ab.md) | Sì |  |
-| [Attività A/B con allocazione automatica](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | Sì | Consulta [Supporto A4T per attività di allocazione automatica e targeting automatico](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md) |
-| [Attività A/B con targeting automatico](/help/main/c-activities/auto-target/auto-target-to-optimize.md) | Sì (at.js)<P>No (Platform Web SDK) | Il supporto A4T per le attività di Targeting automatico è attualmente supportato solo per at.js. |
+| [Attività A/B con allocazione automatica](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | Sì | Consulta [Supporto A4T per attività di allocazione automatica e targeting automatico](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md). |
+| [Attività A/B con targeting automatico](/help/main/c-activities/auto-target/auto-target-to-optimize.md) | Sì | Il supporto A4T per le attività di Targeting automatico è ora supportato per entrambi [!DNL Platform Web SDK] e at.js. |
 | [Targeting delle esperienze (XT)](/help/main/c-activities/t-experience-target/experience-target.md) | Sì |  |
 | [Test multivariato (MVT)](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md) | Sì | Richiede metriche di obiettivo basate su mbox per ottenere il rapporto sul [!UICONTROL contributo degli elementi]. Il rapporto sul [!UICONTROL contributo degli elementi] non supporta attualmente le metriche di [!DNL Analytics]. |
 | [Attività di Automated Personalization (AP)](/help/main/c-activities/t-automated-personalization/automated-personalization.md) | No |  |
