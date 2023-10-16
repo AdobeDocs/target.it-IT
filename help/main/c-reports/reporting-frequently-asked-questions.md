@@ -4,10 +4,10 @@ description: Esplora un elenco di domande e risposte frequenti su Adobe [!DNL Ta
 title: Dove posso trovare le risposte alle domande su [!DNL Target] Generare rapporti?
 feature: Reports
 exl-id: 1a345a67-5050-4bd3-858d-99731d2c1dd3
-source-git-commit: 1383088bb2f6be0432e6f140400d8723048c8530
+source-git-commit: 29f8c19e24443e84b8d900f630495d163530f80e
 workflow-type: tm+mt
-source-wordcount: '1226'
-ht-degree: 31%
+source-wordcount: '1374'
+ht-degree: 27%
 
 ---
 
@@ -74,9 +74,16 @@ Numeri delle metriche, ad esempio visite, segnalati da [!DNL Target] sono sempre
 
 ## Perché non sono disponibili dati per il rapporto della mia attività? {#section_E4722F6445884130951DF79981C8289B}
 
-Se il contenuto di un’attività è stato recapitato correttamente agli utenti ma il relativo rapporto non contiene dati, assicurati di aver selezionato l’ambiente corretto ([gruppo host](/help/main/administrating-target/hosts.md)) nelle impostazioni del rapporto.
+Se il contenuto di un’attività è stato recapitato correttamente ai visitatori ma il relativo rapporto non contiene dati, potrebbe venire visualizzato il seguente messaggio di errore: &quot;Non sono disponibili dati per le impostazioni di rapporto selezionate&quot;.
 
-Se hai selezionato un ambiente di sviluppo, potresti visualizzare il seguente messaggio di errore: “Non sono disponibili dati per le impostazioni di rapporto selezionate.”.
+Ci sono alcuni possibili motivi per cui i dati mancano dai rapporti di attività:
+
+* Non hai selezionato l’ambiente corretto nelle impostazioni del rapporto
+* Non è stato allocato traffico all&#39;esperienza di controllo
+
+### Nelle impostazioni del rapporto non è stato selezionato l’ambiente corretto:
+
+Se il contenuto di un’attività è stato recapitato correttamente agli utenti ma il relativo rapporto non contiene dati, assicurati di aver selezionato l’ambiente corretto ([gruppo host](/help/main/administrating-target/hosts.md)) nelle impostazioni del rapporto.
 
 Per modificare l’ambiente per il rapporto di un’attività:
 
@@ -85,10 +92,6 @@ Per modificare l’ambiente per il rapporto di un’attività:
 
    ![Finestra di dialogo Impostazioni A/B](/help/main/c-reports/c-report-settings/assets/ab_settings_dialog.png)
 
-   >[!NOTE]
-   >
-   >L’icona a forma di ingranaggio non è disponibile per i rapporti di [!UICONTROL Personalizzazione automatizzata].
-
 1. Dall’elenco a discesa **[!UICONTROL Ambiente]**, seleziona **[!UICONTROL Produzione]**.
 
    I dati del rapporto potrebbero non essere disponibili se hai selezionato un ambiente di sviluppo.
@@ -96,6 +99,22 @@ Per modificare l’ambiente per il rapporto di un’attività:
 1. Fai clic su **[!UICONTROL Salva]**.
 
 Per ulteriori informazioni sugli ambienti, vedi [Host](/help/main/administrating-target/hosts.md#concept_516BB01EBFBD4449AB03940D31AEB66E).
+
+### Non è stato allocato traffico all&#39;esperienza di controllo
+
+Se il contenuto di un’attività è stato recapitato correttamente agli utenti ma il relativo rapporto non contiene dati, assicurati di disporre di traffico allocato all’esperienza di controllo.
+
+1. Fai clic su **[!UICONTROL Attività]**, scegli l’attività desiderata dall’elenco, quindi fai clic sulla scheda **[!UICONTROL Rapporti]**.
+1. Fai clic sull’icona a forma di ruota dentata per configurare le impostazioni dei rapporti.
+
+1. Dalla sezione **[!UICONTROL Controllo]** dall&#39;elenco a discesa, seleziona un&#39;esperienza che riceve traffico.
+
+1. Fai clic su **[!UICONTROL Salva]**.
+
+>[!NOTE]
+>
+>Per ulteriori informazioni su come aggiornare un’ [!UICONTROL Automated Personalization] (AP) e cambiare l&#39;esperienza di controllo in un&#39;esperienza che riceve il traffico, vedi [Selezionare il controllo per l’attività Automated Personalization o Targeting automatico](/help/main/c-activities/t-automated-personalization/experience-as-control.md).
+
 
 ## Perché la suddivisione del traffico tra le mie esperienze è irregolare nella mia attività A/B o MVT? {#uneven}
 

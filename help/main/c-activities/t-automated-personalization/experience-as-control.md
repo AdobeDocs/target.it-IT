@@ -6,9 +6,9 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Automated Personalization, Auto-Target
 solution: Target,Analytics
 exl-id: a0a36ace-3cba-4d8d-9bbd-e35204ff6453
-source-git-commit: a9508c4bc454faeb8d6763677cce17a264a4a70f
+source-git-commit: 29f8c19e24443e84b8d900f630495d163530f80e
 workflow-type: tm+mt
-source-wordcount: '783'
+source-wordcount: '785'
 ht-degree: 42%
 
 ---
@@ -29,7 +29,7 @@ Sono disponibili due opzioni per il controllo nel [!UICONTROL Automated Personal
 
 ## Specificare come controllo un’esperienza specifica
 
-1. Durante la creazione di un’ [[!UICONTROL Automated Personalization] attività](/help/main/c-activities/t-automated-personalization/create-ap-activity.md) o [[!UICONTROL Targeting automatico] attività](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-audience.md), configura le esperienze nel modo desiderato.
+1. Durante la creazione o la modifica di un’ [[!UICONTROL Automated Personalization] attività](/help/main/c-activities/t-automated-personalization/create-ap-activity.md) o [[!UICONTROL Targeting automatico] attività](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-audience.md), configura le esperienze nel modo desiderato.
 1. Nella pagina [!UICONTROL Targeting] (passaggio 2 del flusso di lavoro guidato in tre parti), seleziona l’esperienza da usare come controllo.
 1. Specifica la percentuale di traffico da allocare all’esperienza di controllo e alle altre esperienze.
 
