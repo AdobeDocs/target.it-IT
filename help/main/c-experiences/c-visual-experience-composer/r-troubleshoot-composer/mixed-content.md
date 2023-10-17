@@ -1,13 +1,13 @@
 ---
 keywords: contenuto misto;protetto;non protetto;chrome;risoluzione dei problemi;vec;compositore esperienza visivo;non sicuro;http;https;firefox;internet explorer
-description: Scopri come abilitare i contenuti misti in [!DNL Chrome], [!DNL Firefox], e [!DNL Edge].
+description: Scopri come consentire i contenuti misti in [!DNL Chrome] , [!DNL Firefox] e  [!DNL Edge].
 title: Come abilitare i contenuti misti nel browser
 feature: Visual Experience Composer (VEC)
 exl-id: a2209af6-65e5-427e-b2cb-53b803728ef3
 source-git-commit: c5b43faa2fc55c2c8737e586cfdfaa1444a05880
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '560'
-ht-degree: 65%
+ht-degree: 100%
 
 ---
 
@@ -35,11 +35,11 @@ Per ulteriori informazioni, consulta la pagina sui [contenuti misti](https://dev
 
 ## Consentire contenuti misti in [!DNL Google Chrome] {#task_FF297A08F66E47A588C14FD67C037B3A}
 
-Se stai visitando un sito tramite una connessione sicura, [!DNL Chrome] verifica che il contenuto della pagina web sia stato trasmesso in modo sicuro.
+Se stai visitando un sito tramite una connessione sicura, [!DNL Chrome] verifica che i contenuti della pagina web siano trasmessi in modo sicuro.
 
-Consulta &quot;[Gestione avvisi sui siti non sicuri](https://support.google.com/chrome/answer/99020?hl=it)&quot; nella Guida di Google Chrome.
+Consulta “[Gestire avvisi sui siti non sicuri](https://support.google.com/chrome/answer/99020?hl=it)” nella guida di Google Chrome.
 
-Se utilizzi il Compositore esperienza visivo con l’ultima versione di [!DNL Chrome] (versione 79.0.3945.117 o successiva), è necessario aggiornare le impostazioni del sito. I visitatori del sito non devono completare questi passaggi.
+Se utilizzi il Compositore esperienza visivo con la versione più recente di [!DNL Chrome] (versione 79.0.3945.117 o successiva), devi aggiornare le impostazioni del sito. I visitatori del sito non devono completare questi passaggi.
 
 1. Fai clic sull’icona del lucchetto (avviso), quindi fai clic su **[!UICONTROL Impostazioni sito]**.
 
@@ -53,7 +53,7 @@ Se utilizzi il Compositore esperienza visivo con l’ultima versione di [!DNL Ch
 
 ## Consentire contenuti misti in [!DNL Mozilla Firefox] {#task_5448763B8DC941FD80F84041AEF0A14D}
 
-Per impostazione predefinita, [!DNL Firebox] blocca le pagine che contengono un misto di contenuti sicuri e non sicuri. È necessario modificare definitivamente questa impostazione per utilizzare [!DNL Target]. I visitatori del sito non devono completare questi passaggi.
+Per impostazione predefinita, [!DNL Firebox] blocca le pagine che contengono un misto di contenuti protetti e non protetti. È necessario modificare questa impostazione in modo permanente per utilizzare [!DNL Target]. I visitatori del sito non devono completare questi passaggi.
 
 1. In Firefox, digita `about:config` nella barra degli indirizzi.
 1. Conferma il messaggio di avvertenza visualizzato da [!DNL Firefox].
@@ -74,14 +74,14 @@ Per impostazione predefinita, [!DNL Firebox] blocca le pagine che contengono un 
 
 ## Consentire contenuti misti in [!DNL Microsoft Edge]
 
-Se stai visitando un sito tramite una connessione sicura, [!DNL Edge] verifica che il contenuto della pagina web sia stato trasmesso in modo sicuro.
+Se stai visitando un sito tramite una connessione sicura, [!DNL Edge] verifica che i contenuti della pagina web siano trasmessi in modo sicuro.
 
-Se utilizzi il Compositore esperienza visivo con l’ultima versione di [!DNL Edge], è necessario aggiornare le impostazioni del sito. I visitatori del sito non devono completare questi passaggi.
+Se utilizzi il Compositore esperienza visivo con la versione più recente di [!DNL Edge], devi aggiornare le impostazioni del sito. I visitatori del sito non devono completare questi passaggi.
 
-1. In entrata [!DNL Edge], fai clic su **[!DNL Microsoft Edge]** nella barra dei menu, **[!UICONTROL Impostazioni]**, quindi fai clic su **Cookie e autorizzazioni per il sito**.
+1. In [!DNL Edge], fai clic su **[!DNL Microsoft Edge]** nella barra del menu **[!UICONTROL Impostazioni]**, quindi fai clic su **Cookie e autorizzazioni per il sito**.
 
-1. Scorri fino a **[!UICONTROL Contenuto non sicuro]**.
+1. Scorri fino a **[!UICONTROL Contenuto non protetto]**.
 
-1. Clic **[!UICONTROL Contenuto non sicuro]**, quindi fai clic su **[!UICONTROL Aggiungi]** accanto a **[!UICONTROL Consenti]**, aggiungi il sito su cui consentire contenuti non sicuri, quindi fai clic su **[!UICONTROL Aggiungi]**.
+1. Clicca su **[!UICONTROL Contenuto non protetto]**, quindi fai clic su **[!UICONTROL Aggiungi]** accanto a **[!UICONTROL Consenti]**, aggiungi il sito per il quale intendi consentire contenuti non protetti, quindi fai clic su **[!UICONTROL Aggiungi]**.
 
 1. Ricarica la pagina del Compositore esperienza visivo.
