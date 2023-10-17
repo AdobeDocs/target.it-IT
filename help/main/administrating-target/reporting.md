@@ -5,9 +5,9 @@ title: Come si configura il reporting in Target?
 feature: Administration & Configuration
 role: Admin
 exl-id: fd83e60e-64a6-4d0e-909f-480d13bac32b
-source-git-commit: 273143c5b2157948eee464ee0514e04a0105e978
+source-git-commit: d414f1554e1875e873f1ce557a7edf86b88ee79e
 workflow-type: tm+mt
-source-wordcount: '697'
+source-wordcount: '690'
 ht-degree: 36%
 
 ---
@@ -29,7 +29,7 @@ In questa pagina è possibile specificare le impostazioni seguenti:
 
 >[!NOTE]
 >
->Tieni presente che il fuso orario, la valuta e gli indirizzi IP da escludere si applicano alle attività che utilizzano [!DNL Target] reportistica. Queste impostazioni non si applicano alle attività che utilizzano [Analytics for Target (A4T)] come fonte di reporting (/help/main/c-integrating-target-with-mac/a4t/a4t.md).
+>Tieni presente che il fuso orario, la valuta e gli indirizzi IP da escludere si applicano alle attività che utilizzano [!DNL Target] reportistica. Queste impostazioni non si applicano alle attività che utilizzano [Analytics for Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md) come origine per la generazione di rapporti.
 
 ![Pagina di reporting](/help/main/administrating-target/assets/reporting.png)
 
