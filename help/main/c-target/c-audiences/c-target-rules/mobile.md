@@ -4,9 +4,9 @@ description: Scopri come creare tipi di pubblico in [!DNL Adobe Target] per eseg
 title: Posso indirizzare i visitatori in base alle opzioni mobile?
 feature: Audiences
 exl-id: 73d5c80c-bfa2-4806-8c04-652781b70bf2
-source-git-commit: 1383088bb2f6be0432e6f140400d8723048c8530
+source-git-commit: 0f51f2a8c501ebfc2f11aebd9bfc434160a6b471
 workflow-type: tm+mt
-source-wordcount: '673'
+source-wordcount: '675'
 ht-degree: 39%
 
 ---
@@ -33,7 +33,7 @@ Per risolvere questo problema: [!DNL Target] raccoglie dati aggiuntivi per rilev
 
 >[!NOTE]
 >
->I clienti che utilizzano l’SDK di Mobile non devono eseguire alcuna operazione per applicare questa funzionalità. I clienti che utilizzano at.js devono [aggiornamento alla versione 1.5.0 di at.js](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=it){target=_blank} (or later){target=_blank}.
+>I clienti che utilizzano l’SDK di Mobile non devono eseguire alcuna operazione per applicare questa funzionalità. I clienti che utilizzano at.js devono [aggiornamento alla versione 1.5.0 di at.js](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=it){target=_blank} (o successiva).
 
 È possibile scegliere più di una proprietà per i dispositivi mobili. Le selezioni multiple sono collegate da un operatore OR.
 
