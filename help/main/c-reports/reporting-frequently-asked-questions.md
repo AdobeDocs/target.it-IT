@@ -4,9 +4,9 @@ description: Esplora un elenco di domande e risposte frequenti su Adobe [!DNL Ta
 title: Dove posso trovare le risposte alle domande su [!DNL Target] Generare rapporti?
 feature: Reports
 exl-id: 1a345a67-5050-4bd3-858d-99731d2c1dd3
-source-git-commit: 29f8c19e24443e84b8d900f630495d163530f80e
+source-git-commit: 5856bed8dd3bf59164c842eef687757f4e877bd5
 workflow-type: tm+mt
-source-wordcount: '1374'
+source-wordcount: '1376'
 ht-degree: 27%
 
 ---
@@ -102,7 +102,7 @@ Per ulteriori informazioni sugli ambienti, vedi [Host](/help/main/administrating
 
 ### Non è stato allocato traffico all&#39;esperienza di controllo
 
-Se il contenuto di un’attività è stato recapitato correttamente agli utenti ma il relativo rapporto non contiene dati, assicurati di disporre di traffico allocato all’esperienza di controllo.
+Se il contenuto di un’attività è stato recapitato correttamente agli utenti ma il relativo rapporto non contiene dati, assicurati di utilizzare un’esperienza con il traffico come esperienza di controllo.
 
 1. Fai clic su **[!UICONTROL Attività]**, scegli l’attività desiderata dall’elenco, quindi fai clic sulla scheda **[!UICONTROL Rapporti]**.
 1. Fai clic sull’icona a forma di ruota dentata per configurare le impostazioni dei rapporti.

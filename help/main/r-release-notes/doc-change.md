@@ -4,10 +4,10 @@ description: Resta aggiornato sulle importanti aggiunte e modifiche apportate al
 title: Dove posso trovare la documentazione aggiornata per  [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: f7bb9b5d6e96095a31f50f1976b87d9ee7b7eb51
+source-git-commit: 5856bed8dd3bf59164c842eef687757f4e877bd5
 workflow-type: tm+mt
-source-wordcount: '2078'
-ht-degree: 100%
+source-wordcount: '2095'
+ht-degree: 99%
 
 ---
 
@@ -19,6 +19,7 @@ Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Targ
 
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
+| 17 ottobre | [Domande frequenti sulla generazione di rapporti](/help/main/c-reports/reporting-frequently-asked-questions.md#section_E4722F6445884130951DF79981C8289B) | È stata aggiornata la seguente domanda frequente: &quot;Perché non ci sono dati disponibili per il rapporto della mia attività? &quot; |
 | 11 ottobre | [[!DNL Adobe Analytics] as the reporting source for [!DNL Adobe Target] (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#section_F487896214BF4803AF78C552EF1669AA) | Sono state aggiornate le informazioni sul supporto A4T per [!DNL Adobe Experience Platform Web SDK]. |
 | 10 ottobre | [Dettagli sulle versioni di at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=it){target=_blank} | Sono state aggiunte note sulla versione per la versione 2.11.0 di at.js. |
 | 6 ottobre | [Token di risposta](/help/main/administrating-target/response-tokens.md) | Aggiornati tutti gli esempi di codice. |
