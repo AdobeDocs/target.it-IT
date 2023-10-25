@@ -4,9 +4,9 @@ description: Resta aggiornato sulle importanti aggiunte e modifiche apportate al
 title: Dove posso trovare la documentazione aggiornata per  [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: e0a72a21792800fda8a15999be7aab48b5ff136d
+source-git-commit: 2e234935402add3e2174961bcac8fc1c65ef4fd8
 workflow-type: tm+mt
-source-wordcount: '2112'
+source-wordcount: '2126'
 ht-degree: 99%
 
 ---
@@ -15,17 +15,18 @@ ht-degree: 99%
 
 Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Target].
 
-## [!DNL Target] Standard/Premium 23.10.1 (24 ottobre 2023)
+## [!DNL Target] Standard/Premium 23.10.2 (24 ottobre 2023)
 
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
+| 25 ottobre | Note sulla versione di [[!DNL Target]  (corrente)](/help/main/r-release-notes/release-notes.md) | Sono state aggiunte informazioni su [!UICONTROL Attività] aggiornamento dell’interfaccia utente della pagina (25 ottobre 2023) |
 | 24 ottobre | [Note sulla versione di Target (corrente)](/help/main/r-release-notes/release-notes.md) | Sono state aggiunte le note sulla versione 23.10.2 di [!DNL Target Standard/Premium]. |
 
 ## [!DNL Target] Standard/Premium 23.9.1 (6-11 settembre 2023)
 
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
-| 17 ottobre | [Domande frequenti sulla generazione di rapporti](/help/main/c-reports/reporting-frequently-asked-questions.md#section_E4722F6445884130951DF79981C8289B) | È stata aggiornata la seguente domanda frequente: &quot;Perché non ci sono dati disponibili per il rapporto della mia attività? &quot; |
+| 17 ottobre | [Domande frequenti sulla generazione di rapporti](/help/main/c-reports/reporting-frequently-asked-questions.md#section_E4722F6445884130951DF79981C8289B) | È stata aggiornata la seguente domanda frequente: “Perché non ci sono dati disponibili per il rapporto della mia attività? ” |
 | 11 ottobre | [[!DNL Adobe Analytics] as the reporting source for [!DNL Adobe Target] (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#section_F487896214BF4803AF78C552EF1669AA) | Sono state aggiornate le informazioni sul supporto A4T per [!DNL Adobe Experience Platform Web SDK]. |
 | 10 ottobre | [Dettagli sulle versioni di at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=it){target=_blank} | Sono state aggiunte note sulla versione per la versione 2.11.0 di at.js. |
 | 6 ottobre | [Token di risposta](/help/main/administrating-target/response-tokens.md) | Aggiornati tutti gli esempi di codice. |
