@@ -7,7 +7,7 @@ exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
 source-git-commit: 2e234935402add3e2174961bcac8fc1c65ef4fd8
 workflow-type: tm+mt
 source-wordcount: '370'
-ht-degree: 59%
+ht-degree: 84%
 
 ---
 
@@ -35,10 +35,10 @@ Per ulteriori informazioni, consulta [Attività](/help/main/c-activities/activit
 
 Questa versione include i miglioramenti e le correzioni seguenti:
 
-* È stata migliorata la nuova [!UICONTROL Attività] interfaccia utente in modo che [!UICONTROL Compositore esperienza visivo] (VEC) si apre con le impostazioni predefinite per `selectorCriteria` durante la creazione di una nuova attività. (TGT-46586)
-* È stato risolto un problema che impediva ad alcuni clienti di modificare elementi in [!UICONTROL Compositore] quando si utilizza il Compositore esperienza visivo. (TGT-46470)
+* È stata migliorata la nuova interfaccia utente [!UICONTROL Attività] in modo che il [!UICONTROL Compositore esperienza visivo] (VEC) si apra con le impostazioni predefinite per `selectorCriteria` durante la creazione di una nuova attività. (TGT-46586)
+* È stato risolto un problema che impediva ad alcuni clienti di modificare elementi in modalità [!UICONTROL Compositore] quando si utilizzava il Compositore esperienza visivo. (TGT-46470)
 * È stata aggiunta la possibilità di specificare un selettore preferito generico quando si utilizzano attributi personalizzati. (TGT-46545)
-* È stato risolto un problema che a volte impediva un’ [!UICONTROL Targeting automatico] report che utilizza [!UICONTROL Analytics for Target] (A4T) dalla visualizzazione in [!DNL Target] anche se il rapporto viene visualizzato correttamente in [!DNL Adobe Analysis Workspace]. (TGT-46494)
+* È stato risolto un problema che a volte impediva la visualizzazione di un rapporto [!UICONTROL Targeting automatico] che utilizza [!UICONTROL Analytics for Target] (A4T) nell’interfaccia di [!DNL Target], anche se il rapporto era visualizzato correttamente in [!DNL Adobe Analysis Workspace]. (TGT-46494)
 * Sono state aggiornate diverse stringhe localizzate nell’interfaccia utente di Target. (TGT-18899)
 
 ## Note aggiuntive e dettagli sulla versione
