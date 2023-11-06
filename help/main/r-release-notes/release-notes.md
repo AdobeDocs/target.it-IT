@@ -9,7 +9,7 @@ exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 source-git-commit: 2e234935402add3e2174961bcac8fc1c65ef4fd8
 workflow-type: tm+mt
 source-wordcount: '484'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -19,11 +19,11 @@ Queste note sulla versione forniscono informazioni su funzioni, miglioramenti e 
 
 I codici dei problemi tra parentesi sono per uso interno di [!DNL Adobe].
 
-## [!UICONTROL Attività] aggiornamento dell’interfaccia utente della pagina (25 ottobre 2023)
+## Aggiornamento dell’interfaccia utente della pagina [!UICONTROL Attività] (25 ottobre 2023)
 
-Nell&#39;ambito del [!DNL Adobe Target] impegno continuo del team per migliorare l’esperienza utente per [!DNL Target] utenti, questa versione aggiorna la [!UICONTROL Attività] pagina in [!DNL Target] UI. Questo aggiornamento unisce e standardizza i modelli di progettazione precedentemente incoerenti, aggiungendo allo stesso tempo nuovi miglioramenti.
+Come parte del [!DNL Adobe Target] continuo impegno del team di per migliorare l’esperienza utente per [!DNL Target] utenti, questa versione aggiorna la pagina [!UICONTROL Attività] nell’[!DNL Target] interfaccia utente. Questo aggiornamento unisce e standardizza i modelli di progettazione precedentemente incoerenti, aggiungendo allo stesso tempo nuovi miglioramenti.
 
-A partire da mercoledì 25 ottobre, una percentuale di clienti avrà accesso alla nuova interfaccia utente e altri clienti potranno accedervi nei prossimi giorni.
+A partire da mercoledì 25 ottobre, una percentuale di clienti avrà accesso alla nuova interfaccia utente e altri clienti potranno accedervi nei giorni successivi.
 
 Per ulteriori informazioni, consulta [Attività](/help/main/c-activities/activities.md).
 
