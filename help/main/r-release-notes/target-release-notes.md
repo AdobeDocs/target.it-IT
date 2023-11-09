@@ -4,9 +4,9 @@ description: Scopri le nuove funzioni, i miglioramenti e le correzioni, compresi
 title: Quali nuove funzioni e miglioramenti saranno inclusi nella prossima versione [!DNL Target] ?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 3cce7d181de4e344b1878990fd5506000d40befd
+source-git-commit: 2421c9c0c3cf4cb2f914ef270fcb4fcf0dd3c3c3
 workflow-type: tm+mt
-source-wordcount: '379'
+source-wordcount: '381'
 ht-degree: 54%
 
 ---
@@ -31,12 +31,11 @@ Questa versione è pianificata per i seguenti giorni:
 * **Novembre 14**: area geografica delle Americhe
 * **Novembre 14**: area geografica Europa, Medio Oriente e Africa (EMEA)
 
-Questa versione include le seguenti correzioni:
+Questa versione include i miglioramenti e le correzioni seguenti:
 
 * È stata migliorata la [Controllo di qualità delle attività](/help/main/c-activities/c-activity-qa/activity-qa.md) funzionalità da supportare [disabilitazione delle offerte duplicate](/help/main/c-activities/t-automated-personalization/managing-exclusions.md) per esperienze in [!UICONTROL Automated Personalization] attività. (TGT-46627)
 * È stata aggiunta una descrizione comando in [!DNL Target] Interfaccia utente per aiutare i clienti a comprendere il motivo per cui potrebbero non essere disponibili dati nei rapporti sulle attività se non viene allocato traffico all’esperienza di controllo. Nella descrizione comando è incluso un collegamento a ulteriori informazioni: [Perché non sono disponibili dati per il rapporto della mia attività?](/help/main/c-reports/reporting-frequently-asked-questions.md#section_E4722F6445884130951DF79981C8289B). (TGT-46610)
 * È stato risolto un problema che impediva la corretta visualizzazione delle attività in [!UICONTROL Attività] per alcuni clienti. (TGT-46830)
-
 * Sono stati risolti i seguenti problemi che interessavano le attività che utilizzavano [[!UICONTROL Analytics for Target]](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T) come origine per la generazione di rapporti:
    * È stato risolto un problema che impediva ad alcuni clienti di visualizzare i dati di reporting. (TGT-46557)
    * È stato risolto un problema che a volte causava la [!UICONTROL Visualizza in Analytics] sulle pagine di reporting delle attività per non funzionare correttamente. (TGT-46731)
