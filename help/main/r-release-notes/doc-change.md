@@ -4,10 +4,10 @@ description: Resta aggiornato sulle importanti aggiunte e modifiche apportate al
 title: Dove posso trovare la documentazione aggiornata per  [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 059a19926a2c4943661e0fffd0abc0f0280aa5af
+source-git-commit: f013c2a16de857543594ebeccc4ced0b4241b3dd
 workflow-type: tm+mt
-source-wordcount: '2160'
-ht-degree: 99%
+source-wordcount: '2183'
+ht-degree: 98%
 
 ---
 
@@ -19,6 +19,7 @@ Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Targ
 
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
+| Novembre 10 | [Riferimento API di Recommendations](https://developer.adobe.com/target/administer/recommendations-api/){target=_blank} | Il [!DNL Adobe Target] [!DNL Recommendations] L&#39;API è stata trasferita in [!DNL Adobe Developer] sito Web. Se necessario, aggiorna i segnalibri. |
 | 8 novembre | Note sulla versione (prerelease) di [[!DNL Target] ](/help/main/r-release-notes/target-release-notes.md) | Sono state aggiunte note sulla versione prerelease per il prossimo [!DNL Target Standard/Premium] Versione 23.11.1. |
 | 28 ottobre | [Dettagli sulle versioni di at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=it){target=_blank} | Aggiunti dettagli sulla versione 2.11.2 di at.js. |
 | 25 ottobre | Note sulla versione di [[!DNL Target]  (corrente)](/help/main/r-release-notes/release-notes.md) | Sono state aggiunte informazioni sull’aggiornamento dell’interfaccia utente della pagina [!UICONTROL Attività] (25 ottobre 2023) |
