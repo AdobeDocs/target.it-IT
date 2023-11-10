@@ -1,17 +1,17 @@
 ---
-keywords: intervallo temporale;data di inizio;data di fine;date di inizio/fine;pianificazione di target;ripartizione settimanale;ripartizione giornaliera;ripartizione
+keywords: arco temporale;data di inizio;data di fine;date di inizio/fine;pianificazione di target;ripartizione settimanale;ripartizione giornaliera;ripartizione
 description: Scopri come utilizzare le date e le ore di inizio e fine per eseguire il targeting degli utenti che visitano il sito durante un intervallo di tempo specifico.
 title: Posso indirizzare l’attività a visitatori che visitano il mio sito in momenti specifici?
 feature: Audiences
 exl-id: 814d545d-baee-4f8b-a2ed-ed68fceaeb7f
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: 1081baa170e8ee979562223c0aa760002d4b9c8c
 workflow-type: tm+mt
-source-wordcount: '428'
-ht-degree: 44%
+source-wordcount: '453'
+ht-degree: 43%
 
 ---
 
-# Intervallo temporale
+# Arco temporale
 
 È possibile aggiungere date e ore di inizio e fine in [!DNL Adobe Target] per eseguire il targeting degli utenti che visitano il sito durante un intervallo di tempo specifico. Puoi anche impostare le opzioni Ripartizione settimanale e giornaliera per creare pattern ricorrenti per il targeting del pubblico.
 
@@ -31,7 +31,11 @@ Ad esempio, utilizzando [funzione tipi di pubblico combinati ad hoc](/help/main/
 
    >[!NOTE]
    >
-   >Il fuso orario per le date di inizio/fine viene visualizzato come GMT +/- NN:NN, dove NN:NN è lo scostamento da GMT e corrisponde al fuso orario dell’account, non a quello del visitatore. Ad esempio, il fuso orario della California verrebbe visualizzato come GMT -08:00.
+   >Considera i seguenti aspetti:
+   >
+   >* Il fuso orario per le date di inizio/fine viene visualizzato come GMT +/- NN:NN, dove NN:NN è lo scostamento da GMT e corrisponde al fuso orario dell’account, non a quello del visitatore. Ad esempio, il fuso orario della California verrebbe visualizzato come GMT -08:00.
+   >
+   >* [!DNL Target] I tipi di pubblico dell’ora legale non tengono conto delle modifiche dell’ora legale (DST). Devi aggiornare manualmente i tipi di pubblico per tenere conto delle modifiche dell’ora legale.
 
 1. (Condizionale) Fai clic su **[!UICONTROL Impostare la frequenza]** per impostare pattern ricorrenti, inclusi giorni della settimana e ore.
 
