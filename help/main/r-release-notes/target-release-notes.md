@@ -7,7 +7,7 @@ exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
 source-git-commit: 2421c9c0c3cf4cb2f914ef270fcb4fcf0dd3c3c3
 workflow-type: tm+mt
 source-wordcount: '381'
-ht-degree: 54%
+ht-degree: 76%
 
 ---
 
@@ -23,19 +23,19 @@ Questo articolo contiene informazioni prerelease per le prossime versioni di [!D
 >
 >Per visualizzare informazioni sulla versione corrente, consulta [Note sulla versione di Target](release-notes.md). Le informazioni su queste pagine potrebbero essere uguali, a seconda della tempistica delle release. I codici tra parentesi sono per uso interno di [!DNL Adobe].
 
-## [!DNL Target] Standard/Premium 23.11.1 (13 e 14 novembre 2023)
+## [!DNL Target]Standard/Premium 23.11.1 (13 e 14 novembre 2023)
 
 Questa versione è pianificata per i seguenti giorni:
 
-* **Novembre 13**: area geografica Asia-Pacifico (APAC)
-* **Novembre 14**: area geografica delle Americhe
-* **Novembre 14**: area geografica Europa, Medio Oriente e Africa (EMEA)
+* **13 novembre**: area geografica Asia-Pacifico (APAC)
+* **14 novembre**: area geografica delle Americhe
+* **14 novembre**: area geografica Europa, Medio Oriente e Africa (EMEA)
 
 Questa versione include i miglioramenti e le correzioni seguenti:
 
 * È stata migliorata la [Controllo di qualità delle attività](/help/main/c-activities/c-activity-qa/activity-qa.md) funzionalità da supportare [disabilitazione delle offerte duplicate](/help/main/c-activities/t-automated-personalization/managing-exclusions.md) per esperienze in [!UICONTROL Automated Personalization] attività. (TGT-46627)
-* È stata aggiunta una descrizione comando in [!DNL Target] Interfaccia utente per aiutare i clienti a comprendere il motivo per cui potrebbero non essere disponibili dati nei rapporti sulle attività se non viene allocato traffico all’esperienza di controllo. Nella descrizione comando è incluso un collegamento a ulteriori informazioni: [Perché non sono disponibili dati per il rapporto della mia attività?](/help/main/c-reports/reporting-frequently-asked-questions.md#section_E4722F6445884130951DF79981C8289B). (TGT-46610)
-* È stato risolto un problema che impediva la corretta visualizzazione delle attività in [!UICONTROL Attività] per alcuni clienti. (TGT-46830)
+* È stata aggiunta una descrizione nell’interfaccia utente di [!DNL Target] per aiutare la clientela a comprendere il motivo per cui potrebbero non essere disponibili dati nei rapporti sulle attività, se non viene allocato traffico all’esperienza di controllo. Nella descrizione è incluso un collegamento a ulteriori informazioni: [Perché non sono disponibili dati per il rapporto della mia attività?](/help/main/c-reports/reporting-frequently-asked-questions.md#section_E4722F6445884130951DF79981C8289B). (TGT-46610)
+* È stato risolto un problema che impediva a una parte della clientela la corretta visualizzazione delle attività nella pagina [!UICONTROL Attività]. (TGT-46830)
 * Sono stati risolti i seguenti problemi che interessavano le attività che utilizzavano [[!UICONTROL Analytics for Target]](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T) come origine per la generazione di rapporti:
    * È stato risolto un problema che impediva ad alcuni clienti di visualizzare i dati di reporting. (TGT-46557)
    * È stato risolto un problema che a volte causava la [!UICONTROL Visualizza in Analytics] sulle pagine di reporting delle attività per non funzionare correttamente. (TGT-46731)
