@@ -4,9 +4,9 @@ description: Visualizza un elenco di funzioni, miglioramenti e correzioni inclus
 title: Quali funzioni sono incluse nelle versioni precedenti?
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: 44ac64d0b97db4995193dea11c0c65934f386926
+source-git-commit: d2aac088d5f1ae60a4b0e7ac1fff9960e2959130
 workflow-type: tm+mt
-source-wordcount: '37687'
+source-wordcount: '37759'
 ht-degree: 96%
 
 ---
@@ -22,6 +22,14 @@ Le note sulla versione vengono ordinate in ordine decrescente per mese e anno di
 >Consulta [Note sulla versione di Target (corrente)](/help/main/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A) per informazioni sulle versioni di Target del mese corrente (piattaforma e Target Standard/Premium).
 
 ## Note sulla versione - 2023
+
+### Aggiornamento dell’interfaccia utente della pagina [!UICONTROL Attività] (25 ottobre 2023)
+
+Come parte del [!DNL Adobe Target] continuo impegno del team di per migliorare l’esperienza utente per [!DNL Target] utenti, questa versione aggiorna la pagina [!UICONTROL Attività] nell’[!DNL Target] interfaccia utente. Questo aggiornamento unisce e standardizza i modelli di progettazione precedentemente incoerenti, aggiungendo allo stesso tempo nuovi miglioramenti.
+
+A partire da mercoledì 25 ottobre, una percentuale di clienti avrà accesso alla nuova interfaccia utente e altri clienti potranno accedervi nei giorni successivi.
+
+Per ulteriori informazioni, consulta [Attività](/help/main/c-activities/activities.md).
 
 ### [!DNL Target] Standard/Premium 23.10.2 (24 ottobre 2023)
 
