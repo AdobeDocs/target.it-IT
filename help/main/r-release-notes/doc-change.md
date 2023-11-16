@@ -7,7 +7,7 @@ exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: 44ac64d0b97db4995193dea11c0c65934f386926
 workflow-type: tm+mt
 source-wordcount: '2227'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -25,9 +25,9 @@ Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Targ
 
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
-| Novembre 10 | [Riferimento API di Recommendations](https://developer.adobe.com/target/administer/recommendations-api/){target=_blank} | Il [!DNL Adobe Target] [!DNL Recommendations] L&#39;API è stata trasferita in [!DNL Adobe Developer] sito Web. Se necessario, aggiorna i segnalibri. |
-|  | [Arco temporale](/help/main/c-target/c-audiences/c-target-rules/time-frame.md) | Aggiunta nota relativa a [!DNL Target] I tipi di pubblico dell’ora legale non tengono conto delle modifiche dell’ora legale (DST). Devi aggiornare manualmente i tipi di pubblico per tenere conto delle modifiche dell’ora legale. |
-| 8 novembre | Note sulla versione (prerelease) di [[!DNL Target] ](/help/main/r-release-notes/target-release-notes.md) | Sono state aggiunte note sulla versione prerelease per il prossimo [!DNL Target Standard/Premium] Versione 23.11.1. |
+| 10 novembre | [API Recommendations di riferimento](https://developer.adobe.com/target/administer/recommendations-api/){target=_blank} | L’API di [!DNL Adobe Target] [!DNL Recommendations] è stata trasferita nel sito web [!DNL Adobe Developer] . Aggiorna i segnalibri, se necessario. |
+|  | [Arco temporale](/help/main/c-target/c-audiences/c-target-rules/time-frame.md) | Aggiunta nota per cui i tipi di pubblico in tempo [!DNL Target] non tengono conto delle modifiche dell’ora legale. Devi aggiornare manualmente i tipi di pubblico per tenere in considerazione le modifiche dell’ora legale. |
+| 8 novembre | Note sulla versione (prerelease) di [[!DNL Target] ](/help/main/r-release-notes/target-release-notes.md) | Sono state aggiunte le note pre-release sulla prossima versione [!DNL Target Standard/Premium] 23.11.1. |
 | 28 ottobre | [Dettagli sulle versioni di at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=it){target=_blank} | Aggiunti dettagli sulla versione 2.11.2 di at.js. |
 | 25 ottobre | Note sulla versione di [[!DNL Target]  (corrente)](/help/main/r-release-notes/release-notes.md) | Sono state aggiunte informazioni sull’aggiornamento dell’interfaccia utente della pagina [!UICONTROL Attività] (25 ottobre 2023) |
 | 24 ottobre | [Note sulla versione di Target (corrente)](/help/main/r-release-notes/release-notes.md) | Sono state aggiunte le note sulla versione 23.10.2 di [!DNL Target Standard/Premium]. |
