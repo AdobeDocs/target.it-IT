@@ -4,10 +4,10 @@ description: Resta aggiornato sulle importanti aggiunte e modifiche apportate al
 title: Dove posso trovare la documentazione aggiornata per  [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: d40c25f75103327e749ad864b17df926cb323be0
+source-git-commit: e842d80e759cd2efc781d5a600cd3704a1c0dcca
 workflow-type: tm+mt
-source-wordcount: '2314'
-ht-degree: 96%
+source-wordcount: '2356'
+ht-degree: 95%
 
 ---
 
@@ -20,6 +20,8 @@ Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Targ
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
 | Novembre 17 | [Primi passaggi per l’amministratore](/help/main/administrating-target/start-target.md) | È stata aggiunta la seguente nota importante:<ul><li>Utenti con [!UICONTROL Amministratore prodotto] o [!UICONTROL Amministratore di sistema] diritti in [!DNL Adobe Admin Console] può modificare o modificare tutte le impostazioni sul [!UICONTROL Amministrazione] pagina di [!DNL Target], indipendentemente dalla loro [!DNL Target] ruolo. Utenti senza [!UICONTROL Amministratore prodotto] o [!UICONTROL Amministratore di sistema] diritti in [!DNL Adobe Admin Console] deve avere [!DNL Target] ruolo per apportare queste modifiche.1</li></ul> |
+|  | [Limiti](/help/main/r-troubleshooting-target/target-limits.md#in-mbox) | È stata aggiornata la sezione con informazioni su come [!DNL Target] gestisce il troncamento in at.js 2.*x* e [!DNL Adobe Experience Platform Web SDK]. |
+|  | [API di consegna](https://experienceleague.adobe.com/docs/target-dev/developer/api/delivery-api/overview.html){target=_blank} | Sono stati aggiunti reindirizzamenti alla documentazione corrente sulle API di consegna e ne è stata dichiarata obsoleta la documentazione legacy (`http://developers.adobetarget.com/api/delivery-api/`). Aggiornare i segnalibri in base alle esigenze. |
 | 16 novembre | [API di aggiornamento del profilo bulk](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/bulk-profile-update-api.html){target=_blank} | È stata aggiunta la seguente avvertenza: &quot;Gli aggiornamenti si verificano generalmente in meno di un’ora, ma la visualizzazione può richiedere fino a 24 ore.&quot; |
 | Novembre 13 | [Note sulla versione di Target (corrente)](/help/main/r-release-notes/release-notes.md) | Sono state aggiunte le note sulla versione 23.11.1 di [!DNL Target Standard/Premium]. |
 
