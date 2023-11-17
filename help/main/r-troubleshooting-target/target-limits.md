@@ -5,9 +5,9 @@ title: Quali sono i vari caratteri, dimensioni e altri limiti in [!DNL Adobe Tar
 feature: Troubleshooting
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
-source-git-commit: e842d80e759cd2efc781d5a600cd3704a1c0dcca
+source-git-commit: aa7242a20d6e80623dfe14b5e2f9c2996d9579b7
 workflow-type: tm+mt
-source-wordcount: '1609'
+source-wordcount: '1610'
 ht-degree: 81%
 
 ---
@@ -169,7 +169,7 @@ Limiti dei caratteri e altri limiti (dimensioni dell’offerta, pubblico, profil
 
 * **Limite**: 256 caratteri.
 
-  I valori più lunghi vengono troncati quando si utilizza at.js 1.*x*. Se invii più di 256 caratteri quando utilizzi at.js 2.*x* o [!DNL Adobe Experience Platform Web SDK], viene visualizzato un messaggio di errore (i valori non vengono troncati automaticamente).
+  I valori con più di 256 caratteri vengono troncati quando si utilizza at.js 1.*x*. Ricevi un messaggio di errore quando invii valori con più di 256 caratteri quando utilizzi at.js 2.*x* o [!DNL Adobe Experience Platform Web SDK]. I valori non vengono troncati automaticamente.
 
 ### Nomi di profilo In-mbox
 
