@@ -5,9 +5,9 @@ title: Quali sono i vari caratteri, dimensioni e altri limiti in [!DNL Adobe Tar
 feature: Troubleshooting
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
-source-git-commit: aa7242a20d6e80623dfe14b5e2f9c2996d9579b7
+source-git-commit: 5ab209ae91580403ad9ec63998fcf3077400490f
 workflow-type: tm+mt
-source-wordcount: '1610'
+source-wordcount: '1604'
 ht-degree: 81%
 
 ---
@@ -179,7 +179,7 @@ Limiti dei caratteri e altri limiti (dimensioni dell’offerta, pubblico, profil
 
 * **Limite**: 250 caratteri.
 
-  Per l’API di consegna (at.js 2.*x*), Batch mbox V2 e integrazioni AEP Web SDK (alloy.js), nomi mbox *può* contengono caratteri alfanumerici (A-Z, a-z, 0-9) e uno qualsiasi dei seguenti caratteri:
+  Per [!DNL Delivery API] (at.js 2.*x*), Batch mbox V2 e [!DNL Adobe Experience Platform Web SDK] Integrazioni (alloy.js), nomi mbox *può* contengono caratteri alfanumerici (A-Z, a-z, 0-9) e uno qualsiasi dei seguenti caratteri:
 
   ```
   - , . _ / = ` : ; & ! @ # $ % ^ & * ( ) _ + | ? ~ [ ] { }
