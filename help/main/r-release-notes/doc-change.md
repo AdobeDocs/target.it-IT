@@ -4,9 +4,9 @@ description: Resta aggiornato sulle importanti aggiunte e modifiche apportate al
 title: Dove posso trovare la documentazione aggiornata per  [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: e842d80e759cd2efc781d5a600cd3704a1c0dcca
+source-git-commit: fe45d3b9a456a862ef2294aea59f972f861b0e1e
 workflow-type: tm+mt
-source-wordcount: '2356'
+source-wordcount: '2373'
 ht-degree: 95%
 
 ---
@@ -19,6 +19,7 @@ Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Targ
 
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
+| 21 novembre | [Dettagli sulle versioni di at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=it){target=_blank} | Sono state aggiunte le note sulla versione di at.js 2.11.3. |
 | Novembre 17 | [Primi passaggi per l’amministratore](/help/main/administrating-target/start-target.md) | È stata aggiunta la seguente nota importante:<ul><li>Utenti con [!UICONTROL Amministratore prodotto] o [!UICONTROL Amministratore di sistema] diritti in [!DNL Adobe Admin Console] può modificare o modificare tutte le impostazioni sul [!UICONTROL Amministrazione] pagina di [!DNL Target], indipendentemente dalla loro [!DNL Target] ruolo. Utenti senza [!UICONTROL Amministratore prodotto] o [!UICONTROL Amministratore di sistema] diritti in [!DNL Adobe Admin Console] deve avere [!DNL Target] ruolo per apportare queste modifiche.1</li></ul> |
 |  | [Limiti](/help/main/r-troubleshooting-target/target-limits.md#in-mbox) | È stata aggiornata la sezione con informazioni su come [!DNL Target] gestisce il troncamento in at.js 2.*x* e [!DNL Adobe Experience Platform Web SDK]. |
 |  | [API di consegna](https://experienceleague.adobe.com/docs/target-dev/developer/api/delivery-api/overview.html){target=_blank} | Sono stati aggiunti reindirizzamenti alla documentazione corrente sulle API di consegna e ne è stata dichiarata obsoleta la documentazione legacy (`http://developers.adobetarget.com/api/delivery-api/`). Aggiornare i segnalibri in base alle esigenze. |
