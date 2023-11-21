@@ -15,7 +15,7 @@ ht-degree: 95%
 
 Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Target].
 
-## [!DNL Target]Standard/Premium 23.11.1 (13 e 14 novembre 2023)
+## [!DNL Target] Standard/Premium 23.11.1 (13 e 14 novembre 2023)
 
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
