@@ -7,7 +7,7 @@ exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: fe45d3b9a456a862ef2294aea59f972f861b0e1e
 workflow-type: tm+mt
 source-wordcount: '2373'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -19,11 +19,11 @@ Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Targ
 
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
-| 21 novembre | [Dettagli sulle versioni di at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=it){target=_blank} | Sono state aggiunte le note sulla versione di at.js 2.11.3. |
-| Novembre 17 | [Primi passaggi per l’amministratore](/help/main/administrating-target/start-target.md) | È stata aggiunta la seguente nota importante:<ul><li>Utenti con [!UICONTROL Amministratore prodotto] o [!UICONTROL Amministratore di sistema] diritti in [!DNL Adobe Admin Console] può modificare o modificare tutte le impostazioni sul [!UICONTROL Amministrazione] pagina di [!DNL Target], indipendentemente dalla loro [!DNL Target] ruolo. Utenti senza [!UICONTROL Amministratore prodotto] o [!UICONTROL Amministratore di sistema] diritti in [!DNL Adobe Admin Console] deve avere [!DNL Target] ruolo per apportare queste modifiche.1</li></ul> |
+| Novembre 21 | [Dettagli sulle versioni di at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=it){target=_blank} | Sono state aggiunte le note sulla versione di at.js 2.11.3. |
+| Novembre 17 | [Primi passaggi per l’amministratore](/help/main/administrating-target/start-target.md) | È stata aggiunta la seguente nota importante:<ul><li>Utenti con i diritti di [!UICONTROL Amministratore prodotto] o [!UICONTROL Amministratore di sistema] in [!DNL Adobe Admin Console] possono modificare o cambiare tutte le impostazioni sulla pagina [!UICONTROL Amministrazione] di [!DNL Target], indipendentemente dal loro ruolo in [!DNL Target]. Utenti senza i diritti [!UICONTROL Amministratore prodotto] o [!UICONTROL Amministratore di sistema] in [!DNL Adobe Admin Console] devono avere il ruolo specifico di [!DNL Target] per apportare queste modifiche.1</li></ul> |
 |  | [Limiti](/help/main/r-troubleshooting-target/target-limits.md#in-mbox) | È stata aggiornata la sezione con informazioni su come [!DNL Target] gestisce il troncamento in at.js 2.*x* e [!DNL Adobe Experience Platform Web SDK]. |
-|  | [API di consegna](https://experienceleague.adobe.com/docs/target-dev/developer/api/delivery-api/overview.html){target=_blank} | Sono stati aggiunti reindirizzamenti alla documentazione corrente sulle API di consegna e ne è stata dichiarata obsoleta la documentazione legacy (`http://developers.adobetarget.com/api/delivery-api/`). Aggiornare i segnalibri in base alle esigenze. |
-| 16 novembre | [API di aggiornamento del profilo bulk](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/bulk-profile-update-api.html){target=_blank} | È stata aggiunta la seguente avvertenza: &quot;Gli aggiornamenti si verificano generalmente in meno di un’ora, ma la visualizzazione può richiedere fino a 24 ore.&quot; |
+|  | [API di consegna](https://experienceleague.adobe.com/docs/target-dev/developer/api/delivery-api/overview.html?lang=it){target=_blank} | Sono stati aggiunti reindirizzamenti alla documentazione corrente sulle API di consegna e ne è stata dichiarata obsoleta la documentazione legacy (`http://developers.adobetarget.com/api/delivery-api/`). Se necessario, effettuare l’aggiornamento dei segnalibri. |
+| 16 novembre | [API di aggiornamento del profilo bulk](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/bulk-profile-update-api.html?lang=it){target=_blank} | È stata aggiunta la seguente avvertenza: “Gli aggiornamenti si verificano generalmente in meno di un’ora, ma la visualizzazione può richiedere fino a 24 ore.” |
 | Novembre 13 | [Note sulla versione di Target (corrente)](/help/main/r-release-notes/release-notes.md) | Sono state aggiunte le note sulla versione 23.11.1 di [!DNL Target Standard/Premium]. |
 
 ## [!DNL Target] Standard/Premium 23.10.2 (24 ottobre 2023)
