@@ -4,10 +4,10 @@ description: Resta aggiornato sulle importanti aggiunte e modifiche apportate al
 title: Dove posso trovare la documentazione aggiornata per  [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 556a03b3caa7cca4ac48e9766e44f811550ea916
+source-git-commit: 13b284d581dfa44e5a41f4403dc115a2f81a9dd5
 workflow-type: tm+mt
-source-wordcount: '2417'
-ht-degree: 98%
+source-wordcount: '2480'
+ht-degree: 96%
 
 ---
 
@@ -19,6 +19,7 @@ Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Targ
 
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
+| Dicembre 1 | [API di aggiornamento del profilo di Adobe Target](https://experienceleague.adobe.com/docs/target-dev/developer/api/profile-apis/profile-api-overview.html){target=_blank} | La documentazione API legacy è stata spostata nei seguenti articoli:<ul><li>[Panoramica delle API del profilo di Adobe Target](https://experienceleague.adobe.com/docs/target-dev/developer/api/profile-apis/profile-api-overview.html){target=_blank}</li><li>[API di aggiornamento a profilo singolo di Adobe Target](https://experienceleague.adobe.com/docs/target-dev/developer/api/profile-apis/profile-single-api.html){target=_blank}</li><li>[API di aggiornamento del profilo bulk di Adobe Target](https://experienceleague.adobe.com/docs/target-dev/developer/api/profile-apis/profile-bulk-api.html?){target=_blank}</li></ul> |
 | 29 novembre | [API di aggiornamento del profilo bulk](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/bulk-profile-update-api.html?lang=it){target=_blank} | Sono state rese più chiare le differenze su come [!DNL Target] gestisce gli attributi del cliente durante la creazione di un profilo per un utente [!DNL Target] non ancora visto quando si utilizza [!UICONTROL API di aggiornamento del profilo bulk] v2 invece di v1. |
 | Novembre 21 | [Dettagli sulle versioni di at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=it){target=_blank} | Sono state aggiunte le note sulla versione di at.js 2.11.3. |
 | Novembre 17 | [Primi passaggi per l’amministratore](/help/main/administrating-target/start-target.md) | È stata aggiunta la seguente nota importante:<ul><li>Utenti con i diritti di [!UICONTROL Amministratore prodotto] o [!UICONTROL Amministratore di sistema] in [!DNL Adobe Admin Console] possono modificare o cambiare tutte le impostazioni sulla pagina [!UICONTROL Amministrazione] di [!DNL Target], indipendentemente dal loro ruolo in [!DNL Target]. Utenti senza i diritti [!UICONTROL Amministratore prodotto] o [!UICONTROL Amministratore di sistema] in [!DNL Adobe Admin Console] devono avere il ruolo specifico di [!DNL Target] per apportare queste modifiche.1</li></ul> |
