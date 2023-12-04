@@ -4,16 +4,35 @@ description: Leggi gli annunci e registrati per gli eventi su Adobe  [!DNL Targe
 title: Dove posso trovare annunci ed eventi relativi a  [!DNL Target] ?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: 5f782d0a2f632d2df3067825ebe829a6a781b3e0
-workflow-type: ht
-source-wordcount: '2128'
-ht-degree: 100%
+source-git-commit: 537af78695d8c22ec3725dfd86449852182c0b25
+workflow-type: tm+mt
+source-wordcount: '2242'
+ht-degree: 94%
 
 ---
 
 # Annunci ed eventi di [!DNL Adobe Target]
 
 Annunci e informazioni sui prossimi eventi di [!DNL Adobe Target], che includono le sessioni Coffee Break su [!DNL Target], le serie di webinar su [!DNL Target], le sessioni Skill Builder dedicate a [!DNL Target], le chat per sviluppatori e altro ancora. Se disponibili, sono inclusi i collegamenti alle registrazioni precedenti.
+
+## [!DNL Adobe Target Community] Coffee Break
+
+* **Reporting e analisi di Machine Learning e IA**
+* **giovedì 6 dicembre 2023**
+* **8:00 - 9:00 (PST -8 GMT)**
+* **[Registrati qui](https://experienceleaguecommunities.adobe.com/t5/target-community-events/at-community-q-amp-a-coffee-break-wednesday-12-6-23-8am-pt/ec-p/636275/thread-id/81){target=_blank}**
+
+Iscriviti [!DNL Adobe Target] gli esperti Brent Kostak, Cristinel Anastasoaie, Drew Burns e Marisol St. John in un evento ask-me-any per discutere l’apprendimento automatico e la generazione di rapporti e analisi di intelligenza artificiale in [!DNL Adobe Target].
+
++++Dettagli Questa discussione sarà incentrata sui seguenti argomenti:
+
+* Sei entusiasta dell’apprendimento automatico e dell’intelligenza artificiale e vuoi comprendere meglio il successo della generazione rapporti sulle tue attività?
+* Cerchi di scoprire nuove idee e casi d’uso in cui puoi utilizzare la personalizzazione in tempo reale per contenuti, offerte e messaggi?
+* Vuoi conoscere le best practice per la creazione di attività basate su moduli per test lato server?
+* Stai cercando di migliorare l’analisi e la misurazione delle attività in [!UICONTROL Analytics for Target] Generazione rapporti (A4T)?
+* I tuoi team sono curiosi di sapere come espandere il servizio oltre i test A/B con test e personalizzazione su esperienze autenticate e note dei clienti?
+
++++
 
 ## Serie di webinar su [!DNL Adobe Target] {#webinar-series}
 

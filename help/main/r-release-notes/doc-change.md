@@ -4,10 +4,10 @@ description: Resta aggiornato sulle importanti aggiunte e modifiche apportate al
 title: Dove posso trovare la documentazione aggiornata per  [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 13b284d581dfa44e5a41f4403dc115a2f81a9dd5
+source-git-commit: 537af78695d8c22ec3725dfd86449852182c0b25
 workflow-type: tm+mt
-source-wordcount: '2480'
-ht-degree: 96%
+source-wordcount: '2337'
+ht-degree: 95%
 
 ---
 
@@ -19,6 +19,7 @@ Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Targ
 
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
+| 4 dicembre | Annunci ed eventi di [[!DNL Adobe Target] ](/help/main/r-release-notes/target-announcements.md) | Sono state aggiunte informazioni sulla registrazione per &quot;Machine Learning &amp; AI Reporting &amp; Analysis&quot; (Apprendimento automatico e IA Reporting e analisi) [!DNL Adobe Target Community] Sessione Coffee Break: mercoledì 6 dicembre 2023. |
 | Dicembre 1 | [API di aggiornamento del profilo di Adobe Target](https://experienceleague.adobe.com/docs/target-dev/developer/api/profile-apis/profile-api-overview.html){target=_blank} | La documentazione API legacy è stata spostata nei seguenti articoli:<ul><li>[Panoramica delle API del profilo di Adobe Target](https://experienceleague.adobe.com/docs/target-dev/developer/api/profile-apis/profile-api-overview.html){target=_blank}</li><li>[API di aggiornamento a profilo singolo di Adobe Target](https://experienceleague.adobe.com/docs/target-dev/developer/api/profile-apis/profile-single-api.html){target=_blank}</li><li>[API di aggiornamento del profilo bulk di Adobe Target](https://experienceleague.adobe.com/docs/target-dev/developer/api/profile-apis/profile-bulk-api.html?){target=_blank}</li></ul> |
 | 29 novembre | [API di aggiornamento del profilo bulk](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/bulk-profile-update-api.html?lang=it){target=_blank} | Sono state rese più chiare le differenze su come [!DNL Target] gestisce gli attributi del cliente durante la creazione di un profilo per un utente [!DNL Target] non ancora visto quando si utilizza [!UICONTROL API di aggiornamento del profilo bulk] v2 invece di v1. |
 | Novembre 21 | [Dettagli sulle versioni di at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=it){target=_blank} | Sono state aggiunte le note sulla versione di at.js 2.11.3. |
@@ -178,5 +179,5 @@ Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Targ
 |  | [Creare tipi di pubblico in Target](/help/main/c-target/c-audiences/create-audience.md) | È stato aggiunto un elenco di caratteri e sequenze di caratteri che non possono essere utilizzati nei nomi dei tipi di pubblico. |
 | 31 gennaio | [Limiti](/help/main/r-troubleshooting-target/target-limits.md#mbox-names) | È stato aggiunto un elenco dei caratteri consentiti e non consentiti nei nomi mbox. |
 | 25 gennaio | [Crea offerte JSON](/help/main/c-experiences/c-manage-content/create-json-offer.md) | Indica che è ora disponibile il supporto per le offerte JSON nelle attività di [!UICONTROL Automated Personalization] (AP) utilizzando il Compositore esperienza basato su moduli. |
-|  | [Annunci ed eventi di Adobe Target](/help/main/r-release-notes/target-announcements.md) | Sono state aggiunte informazioni sui seguenti eventi:<ul><li>[!DNL Adobe Target] Community Q&amp;A Coffee Break: Casi d’uso autenticati e per dispositivi mobili per l’ottimizzazione dell’esperienza</li></ul> |
+|  | [Annunci ed eventi di Adobe Target](/help/main/r-release-notes/target-announcements.md) | Sono state aggiunte informazioni sui seguenti eventi:<ul><li>[!DNL Adobe Target] Community Q&amp;A Coffee Break: casi d’uso per dispositivi mobili e autenticati per l’ottimizzazione delle esperienze</li></ul> |
 |  | [Note sulla versione di Target (corrente)](/help/main/r-release-notes/release-notes.md) | Sono state aggiunte note sulla versione 22.13.3 di [!DNL Target Standard/Premium]. |
