@@ -5,9 +5,9 @@ title: Dove posso trovare annunci ed eventi relativi a  [!DNL Target] ?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 source-git-commit: 537af78695d8c22ec3725dfd86449852182c0b25
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2242'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -17,20 +17,21 @@ Annunci e informazioni sui prossimi eventi di [!DNL Adobe Target], che includono
 
 ## [!DNL Adobe Target Community] Coffee Break
 
-* **Reporting e analisi di Machine Learning e IA**
-* **giovedì 6 dicembre 2023**
-* **8:00 - 9:00 (PST -8 GMT)**
+* **Reporting e analisi di apprendimento automatico e intelligenza artificiale**
+* **6 dicembre 2023**
+* **dalle 17:00 alle 18:00 (CET)**
 * **[Registrati qui](https://experienceleaguecommunities.adobe.com/t5/target-community-events/at-community-q-amp-a-coffee-break-wednesday-12-6-23-8am-pt/ec-p/636275/thread-id/81){target=_blank}**
 
-Iscriviti [!DNL Adobe Target] gli esperti Brent Kostak, Cristinel Anastasoaie, Drew Burns e Marisol St. John in un evento ask-me-any per discutere l’apprendimento automatico e la generazione di rapporti e analisi di intelligenza artificiale in [!DNL Adobe Target].
+Unisciti agli esperti di [!DNL Adobe Target] Brent Kostak, Cristinel Anastasoaie, Drew Burns e Marisol St. John in un evento Ask Me Anything per discutere di reporting e analisi di apprendimento automatico e Intelligenza artificiale in [!DNL Adobe Target].
 
-+++Dettagli Questa discussione sarà incentrata sui seguenti argomenti:
++++Dettagli
+Questa discussione sarà incentrata sui seguenti argomenti:
 
-* Sei entusiasta dell’apprendimento automatico e dell’intelligenza artificiale e vuoi comprendere meglio il successo della generazione rapporti sulle tue attività?
-* Cerchi di scoprire nuove idee e casi d’uso in cui puoi utilizzare la personalizzazione in tempo reale per contenuti, offerte e messaggi?
+* Hai interesse nell&#39;apprendimento automatico e nell’intelligenza artificiale e vuoi comprendere meglio il successo della generazione rapporti sulle tue attività?
+* Sei alla ricerca di nuove idee e casi d’uso in cui puoi utilizzare la personalizzazione in tempo reale di contenuti, offerte e messaggi?
 * Vuoi conoscere le best practice per la creazione di attività basate su moduli per test lato server?
-* Stai cercando di migliorare l’analisi e la misurazione delle attività in [!UICONTROL Analytics for Target] Generazione rapporti (A4T)?
-* I tuoi team sono curiosi di sapere come espandere il servizio oltre i test A/B con test e personalizzazione su esperienze autenticate e note dei clienti?
+* Stai cercando di migliorare l’analisi e la misurazione delle attività nel reporting di [!UICONTROL Analytics for Target] (A4T)?
+* I tuoi team sono curiosi di sapere come espandere il servizio oltre i test A/B con test e personalizzazione su esperienze autenticate e note esperienze clienti?
 
 +++
 
