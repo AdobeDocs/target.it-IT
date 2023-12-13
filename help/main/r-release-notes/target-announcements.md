@@ -4,7 +4,7 @@ description: Leggi gli annunci e registrati per gli eventi su Adobe  [!DNL Targe
 title: Dove posso trovare annunci ed eventi relativi a  [!DNL Target] ?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: bc57a7543c124f5be2d5f8d1df973cf10105d92b
+source-git-commit: 626f6debb36d7610bd0284142caf57e6ce911f83
 workflow-type: tm+mt
 source-wordcount: '2348'
 ht-degree: 88%
@@ -30,22 +30,22 @@ Perché dovresti partecipare:
 +++Date e dettagli
 
 * **L&#39;arte del possibile**
-* **martedì 16 gennaio 2024**
-* **10:00 - 11:00 (PST -8 GMT)**
+   * **martedì 16 gennaio 2024**
+   * **10:00 - 11:00 (PST -8 GMT)**
 
-Alla base della maturità nella personalizzazione ci sono l’intelligenza artificiale e l’apprendimento automatico. [!DNL Adobe Target] sfrutta queste tecnologie per comprendere il comportamento degli utenti, prevedere le preferenze e adattare dinamicamente i contenuti. Sfruttando la potenza dell’intelligenza artificiale e machine learning, scopri come i brand si stanno muovendo oltre i test A/B statici e la personalizzazione basata su regole per fornire esperienze dinamiche e contestualmente rilevanti.
+     Alla base della maturità nella personalizzazione ci sono l’intelligenza artificiale e l’apprendimento automatico. [!DNL Adobe Target] sfrutta queste tecnologie per comprendere il comportamento degli utenti, prevedere le preferenze e adattare dinamicamente i contenuti. Sfruttando la potenza dell’intelligenza artificiale e machine learning, scopri come i brand si stanno muovendo oltre i test A/B statici e la personalizzazione basata su regole per fornire esperienze dinamiche e contestualmente rilevanti.
 
 * **Recommendations ad alte prestazioni**
-* **martedì 13 febbraio 2024**
-* **10:00 - 11:00 (PST -8 GMT)**
+   * **martedì 13 febbraio 2024**
+   * **10:00 - 11:00 (PST -8 GMT)**
 
-Scopri come gli algoritmi di raccomandazione possono cambiare le regole del gioco per le aziende, stimolando coinvolgimento e profitti. Da suggerimenti di prodotti personalizzati a consigli sui contenuti, la possibilità di guidare gli utenti in modo semplice attraverso il percorso contribuisce direttamente a sbloccare una crescita significativa del business.
+     Scopri come gli algoritmi di raccomandazione possono cambiare le regole del gioco per le aziende, stimolando coinvolgimento e profitti. Da suggerimenti di prodotti personalizzati a consigli sui contenuti, la possibilità di guidare gli utenti in modo semplice attraverso il percorso contribuisce direttamente a sbloccare una crescita significativa del business.
 
 * **Sblocco della personalizzazione basata sull’intelligenza artificiale**
-* **martedì 12 marzo 2024**
-* **10:00 - 11:00 (PST -8 GMT)**
+   * **martedì 12 marzo 2024**
+   * **10:00 - 11:00 (PST -8 GMT)**
 
-[!DNL Adobe Target] facilita le funzionalità di personalizzazione basate sull’intelligenza artificiale in ogni fase del ciclo di vita del cliente, per esperienze personalizzate da 1 a 1. Dall&#39;acquisizione alla conservazione, scopri come le aziende ottengono informazioni approfondite sulla semplificazione dei processi, sulla riduzione al minimo degli sforzi manuali e sulla distribuzione di esperienze cliente contestuali e coinvolgenti su larga scala.
+     [!DNL Adobe Target] facilita le funzionalità di personalizzazione basate sull’intelligenza artificiale in ogni fase del ciclo di vita del cliente, per esperienze personalizzate da 1 a 1. Dall&#39;acquisizione alla conservazione, scopri come le aziende ottengono informazioni approfondite sulla semplificazione dei processi, sulla riduzione al minimo degli sforzi manuali e sulla distribuzione di esperienze cliente contestuali e coinvolgenti su larga scala.
 
 +++
 
