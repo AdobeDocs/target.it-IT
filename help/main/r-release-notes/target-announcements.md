@@ -5,9 +5,9 @@ title: Dove posso trovare annunci ed eventi relativi a  [!DNL Target] ?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 source-git-commit: 626f6debb36d7610bd0284142caf57e6ce911f83
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2348'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -17,35 +17,35 @@ Annunci e informazioni sui prossimi eventi di [!DNL Adobe Target], che includono
 
 ## Serie di webinar sulla maturità della personalizzazione di Adobe Target 2024
 
-Questa serie di webinar live evidenzierà la chiave [!DNL Adobe Target] funzionalità, casi d’uso e suggerimenti per sbloccare la personalizzazione basata sull’intelligenza artificiale man mano che i clienti espandono il proprio percorso di sperimentazione e personalizzazione con [!DNL Adobe Experience Platform].
+Questa serie di webinar live evidenzierà le funzionalità chiave di [!DNL Adobe Target], i casi d’uso e suggerimenti per sbloccare la personalizzazione basata sull’intelligenza artificiale man mano che si espande il proprio percorso di sperimentazione e personalizzazione con [!DNL Adobe Experience Platform].
 
 Perché dovresti partecipare:
 
-* **Scopri i casi d’uso principali**: trasforma le visioni in realtà con una blueprint per l’ottimizzazione intelligente, la maturazione [!DNL Adobe Target] oltre la sperimentazione basata su regole e i test A/B.
-* **Massimizzare le funzionalità univoche**: personalizza le esperienze per il successo con consigli ad alte prestazioni per massimizzare il ROI, i ricavi e la conversione.
-* **Avanzare le strategie di personalizzazione**: immergiti nelle tecniche avanzate di intelligenza artificiale e machine learning per ridimensionare l’impatto aziendale, creare risonanza con nuovi segmenti e tipi di pubblico e perfezionare i modelli di personalizzazione per esperienze ottimizzate
+* **Scopri i casi d’uso principali**: trasforma le visioni in realtà con una blueprint per l’ottimizzazione intelligente, che consente a chi utilizza [!DNL Adobe Target] di evolversi oltre la sperimentazione basata su regole e i test A/B.
+* **Ottimizza le funzionalità univoche**: personalizza le esperienze per il successo con consigli ad alte prestazioni per massimizzare il ritorno sull’investimento (ROI), i ricavi e la conversione.
+* **Strategie di personalizzazione avanzate**: approfondisci le tecnologie avanzate di intelligenza artificiale e di apprendimento automatico per ridimensionare l’impatto aziendale, creare risonanza con nuovi segmenti e tipi di pubblico e perfezionare i modelli di personalizzazione per esperienze ottimizzate
 
 * **[Registrati qui](https://adobe-target-personalization-maturity-webinar-series-q1-2024.dxfieldmarketing.adobeevents.com/){target=_blank}**
 
 +++Date e dettagli
 
-* **L&#39;arte del possibile**
-   * **martedì 16 gennaio 2024**
-   * **10:00 - 11:00 (PST -8 GMT)**
+* **L’arte del possibile**
+   * **Martedì, 16 gennaio 2024**
+   * **dalle 19:00 alle 20:00 (CET)**
 
-     Alla base della maturità nella personalizzazione ci sono l’intelligenza artificiale e l’apprendimento automatico. [!DNL Adobe Target] sfrutta queste tecnologie per comprendere il comportamento degli utenti, prevedere le preferenze e adattare dinamicamente i contenuti. Sfruttando la potenza dell’intelligenza artificiale e machine learning, scopri come i brand si stanno muovendo oltre i test A/B statici e la personalizzazione basata su regole per fornire esperienze dinamiche e contestualmente rilevanti.
+     L’intelligenza artificiale e l’apprendimento automatico sono alla base della maturità nella personalizzazione. [!DNL Adobe Target] sfrutta queste tecnologie per comprendere il comportamento degli utenti, prevedere le preferenze e adattare dinamicamente i contenuti. Sfruttando la potenza dell’intelligenza artificiale e dell’apprendimento automatico, potrai scoprire come i brand si stanno muovendo oltre i test A/B statici e la personalizzazione basata su regole per fornire esperienze dinamiche e contestualmente rilevanti.
 
-* **Recommendations ad alte prestazioni**
-   * **martedì 13 febbraio 2024**
-   * **10:00 - 11:00 (PST -8 GMT)**
+* **Consigli per prestazioni elevate**
+   * **Martedì, 13 febbraio 2024**
+   * **dalle 19:00 alle 20:00 (CET)**
 
-     Scopri come gli algoritmi di raccomandazione possono cambiare le regole del gioco per le aziende, stimolando coinvolgimento e profitti. Da suggerimenti di prodotti personalizzati a consigli sui contenuti, la possibilità di guidare gli utenti in modo semplice attraverso il percorso contribuisce direttamente a sbloccare una crescita significativa del business.
+     Scopri come gli algoritmi dei consigli possono cambiare le regole del gioco per le aziende, stimolando coinvolgimento ed entrate. Dai suggerimenti sui prodotti personalizzati ai consigli sui contenuti, la possibilità di guidare gli utenti in modo semplice attraverso il percorso contribuisce direttamente a sbloccare una crescita aziendale significativa.
 
-* **Sblocco della personalizzazione basata sull’intelligenza artificiale**
-   * **martedì 12 marzo 2024**
-   * **10:00 - 11:00 (PST -8 GMT)**
+* **Sbloccare la personalizzazione basata sull’intelligenza artificiale**
+   * **Martedì, 12 marzo 2024**
+   * **dalle 19:00 alle 20:00 (CET)**
 
-     [!DNL Adobe Target] facilita le funzionalità di personalizzazione basate sull’intelligenza artificiale in ogni fase del ciclo di vita del cliente, per esperienze personalizzate da 1 a 1. Dall&#39;acquisizione alla conservazione, scopri come le aziende ottengono informazioni approfondite sulla semplificazione dei processi, sulla riduzione al minimo degli sforzi manuali e sulla distribuzione di esperienze cliente contestuali e coinvolgenti su larga scala.
+     [!DNL Adobe Target] facilita le funzionalità di personalizzazione basate sull’intelligenza artificiale in ogni fase del ciclo di vita del cliente, per esperienze personalizzate 1:1. Dall’acquisizione alla conservazione, scopri come le aziende ottengono informazioni approfondite per la semplificazione dei processi, riducendo al minimo gli sforzi manuali e distribuendo esperienze cliente contestuali e coinvolgenti su larga scala.
 
 +++
 
