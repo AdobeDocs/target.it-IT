@@ -4,10 +4,10 @@ description: Scopri come creare tipi di pubblico in [!DNL Adobe Target] per eseg
 title: Posso indirizzare i visitatori in base al tipo di browser?
 feature: Audiences
 exl-id: 8420bbe3-b58a-4ddb-89bb-0265dab6b5fc
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: bb6d08581ddb685b4a311ad1c1d792546db12db6
 workflow-type: tm+mt
-source-wordcount: '667'
-ht-degree: 76%
+source-wordcount: '675'
+ht-degree: 73%
 
 ---
 
@@ -24,7 +24,7 @@ Puoi indirizzare l’attività agli utenti che visitano la pagina utilizzando un
 * Microsoft Edge
 * Opera
 * iPad 
-* iPhone|
+* iPhone
 
 Esistono due modi per indirizzare i browser:
 
@@ -38,7 +38,7 @@ Esistono due modi per indirizzare i browser:
 
 * **Regola pubblico browser personalizzato:** Un pubblico personalizzato consente di rivolgerti a più browser o di impostare regole o esclusioni per specifici browser, versioni o lingue del browser. Questa funzionalità offre una flessibilità significativa quando esegui il targeting di un’attività in base agli attributi del browser.
 
-   1. Nell’interfaccia di [!DNL Target] fai clic su **[!UICONTROL Pubblico]** > **[!UICONTROL Crea pubblico]**.
+   1. In [!DNL Target] , fare clic su **[!UICONTROL Tipi di pubblico]** > **[!UICONTROL Crea pubblico]**.
    1. Assegna un nome al pubblico e aggiungi una descrizione facoltativa.
    1. Trascina **[!UICONTROL Browser]** in Audience Builder.
 
@@ -49,12 +49,13 @@ Esistono due modi per indirizzare i browser:
       * **Tipo**: Includi o escludi gli utenti che usano un determinato browser. Consulta [Tipo](/help/main/c-target/c-audiences/c-target-rules/browser.md#section_6ADC758F23F145B3A310151546D83D56).
       * **Lingua:** Includi o escludi alcuni browser impostati per una specifica lingua. Consulta [Lingua](/help/main/c-target/c-audiences/c-target-rules/browser.md#section_7520D1AA464A45A6843EABE2D2B431A1).
       * **Versione:** includi o escludi una determinata versione del browser. Consulta [Versione](/help/main/c-target/c-audiences/c-target-rules/browser.md#section_37CC8CE45DA04E8682AE6388321BA6EF).
+
    1. (Facoltativo) Imposta regole aggiuntive per il pubblico.
    1. Fai clic su **[!UICONTROL Fine]**.
 
-   L’esempio seguente mostra un pubblico che include gli utenti di Microsoft Edge nelle versioni 91 o 92:
+  L’esempio seguente mostra un pubblico che include gli utenti di Microsoft Edge nelle versioni 91 o 92:
 
-   ![Target Edge 91 o 92](assets/target_edge.png)
+  ![Target Edge 91 o 92](assets/target_edge.png)
 
 ## Opzioni browser {#concept_221D8EEF53CC45AEACEB17CF336A3658}
 
@@ -64,7 +65,7 @@ Per un’attività, puoi includere o escludere i partecipanti in base al tipo, a
 
 Includi o escludi gli utenti che usano un determinato browser.
 
-Seleziona **[!UICONTROL Tipo]**, quindi scegli “è uguale a” o “è diverso da”.
+Seleziona **[!UICONTROL Tipo]**, poi scegli “è uguale a” o “è diverso da”.
 
 * È uguale a: includi nell’attività i browser selezionati.
 * È diverso da: escludi dall’attività i browser selezionati.
@@ -113,11 +114,11 @@ Seleziona **[!UICONTROL Versione]**, quindi scegli un operatore:
 * È minore di
 * È minore o uguale a
 
-Digita il numero della versione. In questo campo di testo è possibile immettere solo le versioni principali. La versione specificata include tutte le eventuali versioni secondarie di tale versione principale. Ad esempio, se specifichi la versione 10, sono inclusi anche i visitatori della versione 10.1.
+Digita il numero di versione. In questo campo di testo è possibile immettere solo le versioni principali. La versione specificata include tutte le eventuali versioni secondarie di tale versione principale. Ad esempio, se specifichi la versione 10, sono inclusi anche i visitatori della versione 10.1.
 
 Le opzioni multiple sono collegate con l’operatore O.
 
-## Video di formazione: Creazione di tipi di pubblico ![Icona Tutorial](/help/main/assets/tutorial.png)
+## Video di formazione: Creazione di tipi di pubblico ![Icona esercitazione](/help/main/assets/tutorial.png)
 
 Questo video contiene informazioni sull&#39;utilizzo delle categorie di pubblico.
 
