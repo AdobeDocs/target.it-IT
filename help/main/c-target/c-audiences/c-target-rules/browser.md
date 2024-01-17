@@ -4,10 +4,10 @@ description: Scopri come creare tipi di pubblico in [!DNL Adobe Target] per eseg
 title: Posso indirizzare i visitatori in base al tipo di browser?
 feature: Audiences
 exl-id: 8420bbe3-b58a-4ddb-89bb-0265dab6b5fc
-source-git-commit: 335b5eaa9240fb4ecc592063bebd3ba977fb8d6e
+source-git-commit: 77c8a3460b800183481637723b9631c11157d143
 workflow-type: tm+mt
-source-wordcount: '943'
-ht-degree: 53%
+source-wordcount: '970'
+ht-degree: 51%
 
 ---
 
@@ -141,29 +141,29 @@ Se hai tipi di pubblico che eseguono il targeting di iPad o iPhone utilizzando [
 
 In futuro sarà possibile utilizzare le seguenti impostazioni:
 
-* [!UICONTROL Dispositivi mobili] > [!UICONTROL Fornitore dispositivo] [!UICONTROL corrisponde a] [!DNL Apple]
+* Per corrispondenze browser [!DNL Apple]: [!UICONTROL Dispositivi mobili] > [!UICONTROL Fornitore dispositivo] [!UICONTROL corrisponde a] [!DNL Apple]
 
   ![Apple](/help/main/r-release-notes/assets/apple.png)
 
-* [!UICONTROL Dispositivi mobili] > [!UICONTROL è un tablet] > [!UICONTROL true]
+* Per il browser corrisponde al tablet: [!UICONTROL Dispositivi mobili] > [!UICONTROL è un tablet] > [!UICONTROL true]
 
   ![mobile è tablet](/help/main/r-release-notes/assets/is-tablet.png)
 
-* [!UICONTROL Dispositivi mobili] > [!UICONTROL Nome marketing del dispositivo] [!UICONTROL corrisponde a] [!DNL iPad] con un contenitore And con [!UICONTROL Dispositivi mobili] > [!UICONTROL È un tablet] è [!DNL true]
+* Per le corrispondenze del browser con iPad: [!UICONTROL Dispositivi mobili] > [!UICONTROL Nome marketing del dispositivo] [!UICONTROL corrisponde a] [!DNL iPad] con un contenitore And con [!UICONTROL Dispositivi mobili] > [!UICONTROL È un tablet] è [!DNL true]
 
   ![iPad](/help/main/r-release-notes/assets/ipad.png)
 
-* [!UICONTROL Dispositivi mobili] > [!UICONTROL Nome marketing del dispositivo] [!UICONTROL corrisponde a] [!DNL iPhone] con un contenitore And con [!UICONTROL Dispositivi mobili] > [!UICONTROL È un telefono cellulare] è [!DNL true]
+* Per le corrispondenze del browser con iPhone: [!UICONTROL Dispositivi mobili] > [!UICONTROL Nome marketing del dispositivo] [!UICONTROL corrisponde a] [!DNL iPhone] con un contenitore And con [!UICONTROL Dispositivi mobili] > [!UICONTROL È un telefono cellulare] è [!DNL true]
 
   ![iPhone](/help/main/r-release-notes/assets/iphone.png)
 
 È possibile utilizzare molte altre impostazioni, ad esempio quando le condizioni vengono negate. Di seguito sono riportati alcuni esempi di condizioni negate:
 
-* [!UICONTROL Dispositivi mobili] > [!UICONTROL Fornitore dispositivo] [!UICONTROL non corrisponde a] [!UICONTROL Apple] con un contenitore O con [!UICONTROL Dispositivi mobili] > [!UICONTROL È un telefono cellulare] è [!UICONTROL false]
+* Per il browser non corrisponde a iPhone: [!UICONTROL Dispositivi mobili] > [!UICONTROL Fornitore dispositivo] [!UICONTROL non corrisponde a] [!UICONTROL Apple] con un contenitore O con [!UICONTROL Dispositivi mobili] > [!UICONTROL È un telefono cellulare] è [!UICONTROL false]
 
   ![Non telefono cellulare](/help/main/r-release-notes/assets/mobile-phone-false.png)
 
-* [!UICONTROL Dispositivi mobili] > [!UICONTROL Fornitore dispositivo] [!UICONTROL non corrisponde a] [!UICONTROL Apple] con un contenitore O con [!UICONTROL Dispositivi mobili] > [!UICONTROL È un tablet] è [!UICONTROL false].
+* Per il browser non corrisponde a iPad: [!UICONTROL Dispositivi mobili] > [!UICONTROL Fornitore dispositivo] [!UICONTROL non corrisponde a] [!UICONTROL Apple] con un contenitore O con [!UICONTROL Dispositivi mobili] > [!UICONTROL È un tablet] è [!UICONTROL false].
 
   ![Non tablet](/help/main/r-release-notes/assets/tablet-false.png)
 
