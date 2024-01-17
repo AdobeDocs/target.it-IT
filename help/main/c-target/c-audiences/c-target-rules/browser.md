@@ -4,10 +4,10 @@ description: Scopri come creare tipi di pubblico in [!DNL Adobe Target] per eseg
 title: Posso indirizzare i visitatori in base al tipo di browser?
 feature: Audiences
 exl-id: 8420bbe3-b58a-4ddb-89bb-0265dab6b5fc
-source-git-commit: 8755e5f314c5133f3b70e62eb9660fab42a7ea61
+source-git-commit: 335b5eaa9240fb4ecc592063bebd3ba977fb8d6e
 workflow-type: tm+mt
-source-wordcount: '923'
-ht-degree: 54%
+source-wordcount: '943'
+ht-degree: 53%
 
 ---
 
@@ -145,15 +145,15 @@ In futuro sarà possibile utilizzare le seguenti impostazioni:
 
   ![Apple](/help/main/r-release-notes/assets/apple.png)
 
-* [!UICONTROL Dispositivi mobili] > [!UICONTROL è un tablet]
+* [!UICONTROL Dispositivi mobili] > [!UICONTROL è un tablet] > [!UICONTROL true]
 
   ![mobile è tablet](/help/main/r-release-notes/assets/is-tablet.png)
 
-* [!UICONTROL Dispositivi mobili] > [!UICONTROL Nome marketing del dispositivo] [!UICONTROL corrisponde a] [!DNL iPad]
+* [!UICONTROL Dispositivi mobili] > [!UICONTROL Nome marketing del dispositivo] [!UICONTROL corrisponde a] [!DNL iPad] con un contenitore And con [!UICONTROL Dispositivi mobili] > [!UICONTROL È un tablet] è [!DNL true]
 
   ![iPad](/help/main/r-release-notes/assets/ipad.png)
 
-* [!UICONTROL Dispositivi mobili] > [!UICONTROL Nome marketing del dispositivo] [!UICONTROL corrisponde a] [!DNL iPhone]
+* [!UICONTROL Dispositivi mobili] > [!UICONTROL Nome marketing del dispositivo] [!UICONTROL corrisponde a] [!DNL iPhone] con un contenitore And con [!UICONTROL Dispositivi mobili] > [!UICONTROL È un telefono cellulare] è [!DNL true]
 
   ![iPhone](/help/main/r-release-notes/assets/iphone.png)
 
