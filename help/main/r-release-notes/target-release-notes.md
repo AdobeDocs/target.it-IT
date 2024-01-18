@@ -4,10 +4,10 @@ description: Scopri le nuove funzioni, i miglioramenti e le correzioni, compresi
 title: Quali nuove funzioni e miglioramenti saranno inclusi nella prossima versione [!DNL Target] ?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 8755e5f314c5133f3b70e62eb9660fab42a7ea61
+source-git-commit: a2ffeec1b98ee3c9df2466b245b972a252044c3d
 workflow-type: tm+mt
-source-wordcount: '421'
-ht-degree: 51%
+source-wordcount: '346'
+ht-degree: 62%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 51%
 
 Questo articolo contiene informazioni prerelease per le prossime versioni di [!DNL Adobe Target], incluse SDK, API e librerie JavaScript.
 
-**Ultimo aggiornamento: giovedì 17 gennaio 2024**
+**Ultimo aggiornamento: venerdì 18 gennaio 2024**
 
 >[!NOTE]
 >
@@ -23,11 +23,6 @@ Questo articolo contiene informazioni prerelease per le prossime versioni di [!D
 >
 >Per visualizzare informazioni sulla versione corrente, consulta [Note sulla versione di Target](release-notes.md). Le informazioni su queste pagine potrebbero essere uguali, a seconda della tempistica delle release. I codici tra parentesi sono per uso interno di [!DNL Adobe].
 
-## Obsolescenza di iPad e iPhone dall’attributo di pubblico del browser (30 aprile 2024)
-
-| Obsolescenza | Dettagli |
-|--- |--- |
-| [!DNL iPad] e [!DNL iPhone] da rendere obsoleto a partire dal [Attributo browser](/help/main/c-target/c-audiences/c-target-rules/browser.md) utilizzato durante la creazione di tipi di pubblico.<p>Data obsoleta:<P>mercoledì 30 aprile 2024 | [!DNL Adobe Target] consente di: [esegui il targeting su uno qualsiasi dei vari attributi di categoria](/help/main/c-target/c-audiences/c-target-rules/target-rules.md), inclusi gli utenti che utilizzano un [opzioni browser o browser](/help/main/c-target/c-audiences/c-target-rules/browser.md) quando visitano la tua pagina.<P><B>A partire dal 30 aprile 2024, iPad e iPhone verranno rimossi dal [!UICONTROL Browser] digita l’elenco a discesa durante la creazione di categorie per i tipi di pubblico.</b><P>Se hai tipi di pubblico che eseguono il targeting di iPad o iPhone utilizzando [!UICONTROL Browser] , è necessario modificare queste impostazioni prima del 30 aprile 2024 per garantire che tali tipi di pubblico continuino a funzionare come previsto.<p>Per esempi di impostazioni alternative, consulta [Obsolescenza di iPad e iPhone dall’attributo di pubblico del browser (30 aprile 2024)](/help/main/c-target/c-audiences/c-target-rules/browser.md#deprecation). |
 
 ## [!DNL Target] Standard/Premium 24.1.1 (22, 23 e 25 gennaio 2024)
 
@@ -39,10 +34,11 @@ Questa versione è pianificata per i seguenti giorni:
 
 Questa versione include i miglioramenti e le correzioni seguenti:
 
+* [!UICONTROL Analytics for Target] Le attività (A4T) con metriche dell’obiettivo di ricavo non mostravano &quot;Ricavi&quot; come nome della colonna e la metrica Ricavi non veniva visualizzata nel rapporto in formato ($). Si trattava di un problema estetico al quale si è posto rimedio. (TGT-46995)
 * È stato risolto un problema che impediva il corretto funzionamento degli intervalli di date per la generazione di rapporti. (TGT-47396)
 * È stato risolto un problema che causava la visualizzazione dello stato errato su [!UICONTROL Tutte le attività] dopo che i clienti hanno attivato o disattivato un’attività utilizzando [!UICONTROL Altre azioni] icona. (TGT-47367)
-* È stato risolto un problema che causava la [!UICONTROL Attributi importanti] rapporto da non visualizzare per un cliente. (TGT-47272)
-* È stato risolto un problema che causava la visualizzazione di un messaggio di &quot;payload non valido&quot; quando un cliente tentava di abilitare &quot;Richiedi autenticazione&quot;. (TGT-47195)
+* È stato risolto un problema che causava la [!UICONTROL Attributi importanti] rapporto da non visualizzare per un singolo cliente. (TGT-47272)
+* È stato risolto un problema che causava la visualizzazione di un messaggio di &quot;payload non valido&quot; quando un singolo cliente tentava di abilitare &quot;Richiedi autenticazione&quot;. (TGT-47195)
 * Sono state aggiornate numerose stringhe localizzate in [!DNL Target] UI.
 
 ## Note aggiuntive e dettagli sulla versione

@@ -4,10 +4,10 @@ description: Scopri come creare tipi di pubblico in [!DNL Adobe Target] per eseg
 title: Posso indirizzare i visitatori in base al tipo di browser?
 feature: Audiences
 exl-id: 8420bbe3-b58a-4ddb-89bb-0265dab6b5fc
-source-git-commit: 1e1641a52478e21bba4a1991f62809c7046dd33e
+source-git-commit: a2ffeec1b98ee3c9df2466b245b972a252044c3d
 workflow-type: tm+mt
-source-wordcount: '970'
-ht-degree: 51%
+source-wordcount: '675'
+ht-degree: 73%
 
 ---
 
@@ -25,10 +25,6 @@ Puoi indirizzare l’attività agli utenti che visitano la pagina utilizzando un
 * Opera
 * iPad 
 * iPhone
-
->[!IMPORTANT]
->
->A partire dal 30 aprile 2024, iPad e iPhone verranno rimossi dal [!UICONTROL Browser] digita l’elenco a discesa durante la creazione di categorie per i tipi di pubblico. Per le impostazioni della soluzione alternativa, consulta [Obsolescenza di iPad e iPhone dall’attributo di pubblico del browser (30 aprile 2024)](#deprecation) di seguito.
 
 Esistono due modi per indirizzare i browser:
 
@@ -130,81 +126,3 @@ Questo video contiene informazioni sull&#39;utilizzo delle categorie di pubblico
 * Definizione delle categorie di pubblico
 
 >[!VIDEO](https://video.tv.adobe.com/v/17392)
-
-## Obsolescenza di iPad e iPhone dall’attributo di pubblico del browser (30 aprile 2024) {#deprecation}
-
-[!DNL Adobe Target] consente di: [esegui il targeting su uno qualsiasi dei vari attributi di categoria](/help/main/c-target/c-audiences/c-target-rules/target-rules.md), inclusi gli utenti che visitano la pagina utilizzando un browser o opzioni di browser specifiche.
-
-A partire dal 30 aprile 2024, iPad e iPhone verranno rimossi dal [!UICONTROL Browser] digita l’elenco a discesa durante la creazione di categorie per i tipi di pubblico.
-
-Se hai tipi di pubblico che eseguono il targeting di iPad o iPhone utilizzando [!UICONTROL Browser] , è necessario modificare queste impostazioni prima del 30 aprile 2024 per garantire che tali tipi di pubblico continuino a funzionare come previsto.
-
-In futuro sarà possibile utilizzare le seguenti impostazioni:
-
-* **Per corrispondenze browser[!DNL Apple]**: [!UICONTROL Dispositivi mobili] > [!UICONTROL Fornitore dispositivo] [!UICONTROL corrisponde a] [!DNL Apple]
-
-  ![Apple](/help/main/r-release-notes/assets/apple.png)
-
-* **Per il browser corrisponde al tablet**: [!UICONTROL Dispositivi mobili] > [!UICONTROL è un tablet] > [!UICONTROL true]
-
-  ![mobile è tablet](/help/main/r-release-notes/assets/is-tablet.png)
-
-* **Per il browser corrisponde a iPad**: [!UICONTROL Dispositivi mobili] > [!UICONTROL Nome marketing del dispositivo] [!UICONTROL corrisponde a] [!DNL iPad] con un contenitore And con [!UICONTROL Dispositivi mobili] > [!UICONTROL È un tablet] è [!DNL true]
-
-  ![iPad](/help/main/r-release-notes/assets/ipad.png)
-
-* **Per il browser corrisponde a iPhone**: [!UICONTROL Dispositivi mobili] > [!UICONTROL Nome marketing del dispositivo] [!UICONTROL corrisponde a] [!DNL iPhone] con un contenitore And con [!UICONTROL Dispositivi mobili] > [!UICONTROL È un telefono cellulare] è [!DNL true]
-
-  ![iPhone](/help/main/r-release-notes/assets/iphone.png)
-
-È possibile utilizzare molte altre impostazioni, ad esempio quando le condizioni vengono negate. Di seguito sono riportati alcuni esempi di condizioni negate:
-
-* **Per il browser non corrisponde a iPhone**: [!UICONTROL Dispositivi mobili] > [!UICONTROL Fornitore dispositivo] [!UICONTROL non corrisponde a] [!UICONTROL Apple] con un contenitore O con [!UICONTROL Dispositivi mobili] > [!UICONTROL È un telefono cellulare] è [!UICONTROL false]
-
-  ![Non telefono cellulare](/help/main/r-release-notes/assets/mobile-phone-false.png)
-
-* **Per il browser non corrisponde a iPad**: [!UICONTROL Dispositivi mobili] > [!UICONTROL Fornitore dispositivo] [!UICONTROL non corrisponde a] [!UICONTROL Apple] con un contenitore O con [!UICONTROL Dispositivi mobili] > [!UICONTROL È un tablet] è [!UICONTROL false].
-
-  ![Non tablet](/help/main/r-release-notes/assets/tablet-false.png)
-
-Se usa `user.browserType` nei segmenti JavaScript, le modifiche potrebbero includere quanto segue:
-
-* **BrowserType è iPhone**:
-
-  Sostituisci:
-
-  `user.browserType=="iphone"`
-
-  Con:
-
-  `user.mobile.deviceVendor == "Apple" && user.mobile.deviceModel && user.mobile.deviceModel.toLowerCase().includes("iphone")`
-
-* **BrowserType non è iPhone**:
-
-  Sostituisci:
-
-  `user.browserType!="iphone"`
-
-  Con:
-
-  `user.mobile.deviceVendor != "Apple" || user.mobile.deviceModel == null !! !user.mobile.deviceModel.toLowerCase().includes("iphone")`
-
-* **BrowserType è iPad**:
-
-  Sostituisci:
-
-  `user.browserType=="ipad"`
-
-  Con:
-
-  `user.mobile.deviceVendor == "Apple" && user.mobile.deviceModel && user.mobile.deviceModel.toLowerCase().includes("ipad")`
-
-* **BrowserType non è iPad**:
-
-  Sostituisci:
-
-  `user.browserType!="ipad"`
-
-  Con:
-
-  `user.mobile.deviceVendor != "Apple" || user.mobile.deviceModel == null !! !user.mobile.deviceModel.toLowerCase().includes("ipad")`

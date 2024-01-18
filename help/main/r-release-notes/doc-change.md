@@ -4,10 +4,10 @@ description: Resta aggiornato sulle importanti aggiunte e modifiche apportate al
 title: Dove posso trovare la documentazione aggiornata per  [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: bc57a7543c124f5be2d5f8d1df973cf10105d92b
-workflow-type: ht
-source-wordcount: '2360'
-ht-degree: 100%
+source-git-commit: a2ffeec1b98ee3c9df2466b245b972a252044c3d
+workflow-type: tm+mt
+source-wordcount: '2374'
+ht-degree: 99%
 
 ---
 
@@ -19,6 +19,7 @@ Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Targ
 
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
+| 18 gennaio | Note sulla versione (prerelease) di [[!DNL Target] ](/help/main/r-release-notes/target-release-notes.md) | Sono state aggiunte note sulla versione prerelease per il prossimo [!DNL Target Standard/Premium] Versione 24.1.1. |
 | 13 dicembre | Annunci ed eventi di [[!DNL Adobe Target] ](/help/main/r-release-notes/target-announcements.md) | Sono state aggiunte informazioni sulla serie di webinar sulla maturità della personalizzazione di [!DNL Adobe Target] 2024. |
 |  | [targetGlobalSettings()](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetglobalsettings.html?lang=it){target=_blank} | Sono state aggiunte due nuove impostazioni facoltative: <ul><li>aepSandboxId</li><li>aepSandboxName</li></ul> |
 | 4 dicembre | Annunci ed eventi di [[!DNL Adobe Target] ](/help/main/r-release-notes/target-announcements.md) | Sono state aggiunte informazioni sulla registrazione della sessione Coffee Break di [!DNL Adobe Target Community] su “Reporting e analisi di apprendimento automatico e intelligenza artificiale” di mercoledì 6 dicembre 2023. |
