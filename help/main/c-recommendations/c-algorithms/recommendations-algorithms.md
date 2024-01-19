@@ -2,14 +2,14 @@
 keywords: algoritmi consigli;formazione modello;server modelli;distribuzione contenuti;basato su elementi;basato su utenti;basato su popolarità;basato su carrello;criteri personalizzati;recommendations algorithms;model training;model serving;content delivery;item-based;user-based;popularity-based;cart-based;custom criteria
 description: Scopri gli algoritmi utilizzati in [!DNL Target Recommendations], tra cui formazione su modelli e servizi di assistenza su modelli.
 title: Dove posso scoprire la scienza alla base degli algoritmi Recommendations di Target?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Vedi cosa è incluso in Target Premium."
 feature: Recommendations
 mini-toc-levels: 2
 exl-id: c156952b-8eda-491d-a68e-d3d09846f640
-source-git-commit: 2a25fdb42ce4470f9126b7e0e7f6fd9e60c350e5
+source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
 workflow-type: tm+mt
-source-wordcount: '2842'
-ht-degree: 1%
+source-wordcount: '2832'
+ht-degree: 0%
 
 ---
 
@@ -65,7 +65,7 @@ Il flusso logico dell’implementazione effettiva dell’algoritmo è mostrato n
 
 Di seguito sono riportati i dettagli di questi passaggi:
 
-* **Dati di input**: dati comportamentali, sotto forma di visualizzazioni e acquisti di visitatori raccolti quando [implementare Target](https://experienceleague.corp.adobe.com/docs/target-dev/developer/recommendations.html?lang=it){target=_blank} or from [Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md){target=_blank}.
+* **Dati di input**: dati comportamentali, sotto forma di visualizzazioni e acquisti di visitatori raccolti quando [implementare Target](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} or from [Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md){target=_blank}.
 
 * **Formazione sui modelli**:
 
@@ -89,24 +89,24 @@ Anche se gli aspetti relativi alla distribuzione dei modelli e dei contenuti di 
 
 Di seguito sono riportati i dettagli di questi passaggi:
 
-* **Dati di input**: come descritto in precedenza, questo algoritmo si basa esclusivamente sui dati di catalogo (acquisiti in [!DNL Target] tramite un [Feed di catalogo, API di entità o da aggiornamenti su pagina](https://experienceleague.corp.adobe.com/docs/target-dev/developer/recommendations.html?lang=it){target=_blank}.
+* **Dati di input**: come descritto in precedenza, questo algoritmo si basa esclusivamente sui dati di catalogo (acquisiti in [!DNL Target] tramite un [Feed di catalogo, API di entità o da aggiornamenti su pagina](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}.
 
 * **Formazione sui modelli**:
 
    * **Estrazione attributo**: dopo l’applicazione di filtri statici regolari, regole di catalogo ed esclusioni globali, questo algoritmo estrae campi testuali rilevanti dallo schema di entità. [!DNL Target] utilizza automaticamente i campi nome, messaggio e categoria dagli attributi di entità e tenta di estrarre qualsiasi campo stringa da personalizzato [attributi di entità](/help/main/c-recommendations/c-products/entity-attributes.md). Questo processo viene eseguito assicurandosi che la maggior parte dei valori per quel campo non sia analizzabile come numero, data o booleano.
    * **Stemming e rimozione di parole non significative**: per una corrispondenza più accurata della somiglianza del testo, è prudente rimuovere le parole &quot;stop&quot; molto comuni che non alterano in modo significativo il significato di un elemento (ad esempio, &quot;era&quot;, &quot;è&quot;, &quot;e&quot;, &quot;e così via). Allo stesso modo, il termine stemming si riferisce al processo di riduzione delle parole con suffissi diversi alla loro parola principale, che ha un significato identico (ad esempio, &quot;connect&quot;, &quot;connect&quot; e &quot;connection&quot; hanno tutti la stessa parola principale: &quot;connect&quot;). [!DNL Target] usa lo stemmer Snowball. [!DNL Target] esegue prima il rilevamento automatico della lingua e può interrompere la rimozione delle parole per un massimo di 50 lingue e la creazione di stemming per 18 lingue.
    * **creazione n-grammi**: dopo i passaggi precedenti, ogni parola viene trattata come un token. Il processo di combinazione di sequenze contigue di token in un singolo token è definito creazione di n grammi. [!DNL Target]Gli algoritmi di considerano fino a 2 grammi.
-   * **calcolo tf-idf**: il passaggio successivo prevede la creazione di vettori tf-idf per riflettere l’importanza relativa dei token nella descrizione dell’elemento. Per ogni token/termine t in un elemento i, in un catalogo D con |D| elementi, il termine frequenza TF(t, i) viene calcolato per primo (il numero di volte che il termine appare nella voce i), nonché la frequenza del documento DF(t, D). In sostanza, il numero di elementi in cui esiste il token. La misura tf-idf è quindi
+   * **calcolo tf-idf**: il passaggio successivo prevede la creazione di vettori tf-idf per riflettere l’importanza relativa dei token nella descrizione dell’elemento. Per ogni token/termine t in un elemento i, in un catalogo D con D| elementi, il termine frequenza TF(t, i) viene calcolato per primo (il numero di volte in cui il termine appare nell&#39;elemento i), nonché la frequenza del documento DF(t, D). In sostanza, il numero di elementi in cui esiste il token. La misura tf-idf è quindi
 
-      ![Formula che mostra la misura tf-idf](assets/formula2.png)
+     ![Formula che mostra la misura tf-idf](assets/formula2.png)
 
-      [!DNL Target] utilizza Apache Spark *tf-idf* implementazione di funzionalità, che fornisce l’hash di ogni token su uno spazio di 218 token. In questo passaggio, vengono applicati anche il potenziamento degli attributi specificati dal cliente, regolando le frequenze dei termini in ciascun vettore in base alle impostazioni specificate nella [criteri](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#similarity).
+     [!DNL Target] utilizza Apache Spark *tf-idf* implementazione di funzionalità, che fornisce l’hash di ogni token su uno spazio di 218 token. In questo passaggio, vengono applicati anche il potenziamento degli attributi specificati dal cliente, regolando le frequenze dei termini in ciascun vettore in base alle impostazioni specificate nella [criteri](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#similarity).
 
    * **Calcolo per somiglianza elemento**: il calcolo della somiglianza dell’elemento finale viene eseguito utilizzando una somiglianza approssimativa con il coseno. Per due voci, *A* e *B*, con i vettori tA e tB, la somiglianza coseno è definita come:
 
-      ![Formula che mostra il calcolo della somiglianza dell&#39;articolo](assets/formula3.png)
+     ![Formula che mostra il calcolo della somiglianza dell&#39;articolo](assets/formula3.png)
 
-      Per evitare complessità significative nel calcolo delle somiglianze tra tutti gli elementi N x N, *tf-idf* il vettore è troncato per contenere solo le sue 500 voci più grandi, e quindi calcolare le somiglianze coseno tra gli elementi utilizzando questa rappresentazione vettoriale troncata. Questo approccio si dimostra più robusto per i calcoli di somiglianza vettoriale sparsa, rispetto ad altre tecniche approssimate più vicine (ANN), come l&#39;hashing sensibile alla località.
+     Per evitare complessità significative nel calcolo delle somiglianze tra tutti gli elementi N x N, *tf-idf* il vettore è troncato per contenere solo le sue 500 voci più grandi, e quindi calcolare le somiglianze coseno tra gli elementi utilizzando questa rappresentazione vettoriale troncata. Questo approccio si dimostra più robusto per i calcoli di somiglianza vettoriale sparsa, rispetto ad altre tecniche approssimate più vicine (ANN), come l&#39;hashing sensibile alla località.
 
    * **Model serving**: questo processo è identico alle tecniche di filtro collaborativo elemento-elemento descritte nella sezione precedente.
 
@@ -127,7 +127,7 @@ La logica dei passaggi di apprendimento del modello e del punteggio è illustrat
 
 Di seguito sono riportati i dettagli di questi passaggi:
 
-* **Dati di input**: è identico ai metodi di filtro collaborativo elemento-elemento (CF). [!UICONTROL Entrambi Consigliati Per Te] e gli algoritmi basati sul carrello utilizzano dati comportamentali, sotto forma di visualizzazioni e acquisti di utenti raccolti quando [implementare Target](https://experienceleague.corp.adobe.com/docs/target-dev/developer/recommendations.html?lang=it){target=_blank} or from [Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md){target=_blank}.
+* **Dati di input**: è identico ai metodi di filtro collaborativo elemento-elemento (CF). [!UICONTROL Entrambi Consigliati Per Te] e gli algoritmi basati sul carrello utilizzano dati comportamentali, sotto forma di visualizzazioni e acquisti di utenti raccolti quando [implementare Target](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} or from [Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md){target=_blank}.
 
 * **Formazione sui modelli**:
 
@@ -135,14 +135,13 @@ Di seguito sono riportati i dettagli di questi passaggi:
    * **Divisione di prova del treno**: esegui una suddivisione cronologica degli utilizzi per ogni utente, allocando il primo 80% dei suoi utilizzi ai dati di addestramento, con il restante 20% assegnato ai dati di test.
    * **Formazione per modello similarità articolo**: il calcolo della somiglianza dell’elemento core è diverso per [!UICONTROL Consigliato per te] e algoritmi basati su carrello nel modo in cui vengono costruiti i vettori degli elementi candidati. Per [!UICONTROL Consigliato per te], i vettori di articolo hanno dimensioni NUser, in cui ogni voce rappresenta la somma delle valutazioni implicite per l’utente dell’articolo. Agli acquisti di un articolo viene assegnato un peso pari al doppio delle visualizzazioni dell’articolo. Per i consigli basati su carrello, i vettori di elementi dispongono di voci binarie; se il comportamento all’interno della sessione deve essere considerato solo, esiste una nuova voce per ogni sessione. In caso contrario, esiste una voce in questo vettore elemento per ogni visitatore.
 
-   Il passaggio di apprendimento calcola diversi tipi di somiglianze vettoriali: LLR similarity ([discussi qui](/help/main/c-recommendations/c-algorithms/assets/log-likelihood-ratios-recommendation-algorithms.pdf)), somiglianza coseno (definita in precedenza) e somiglianza L2 normalizzata, definita come:
+  Il passaggio di apprendimento calcola diversi tipi di somiglianze vettoriali: LLR similarity ([discussi qui](/help/main/c-recommendations/c-algorithms/assets/log-likelihood-ratios-recommendation-algorithms.pdf)), somiglianza coseno (definita in precedenza) e somiglianza L2 normalizzata, definita come:
 
-   ![Formula che mostra il calcolo dell’addestramento](assets/formula4.png)
+  ![Formula che mostra il calcolo dell’addestramento](assets/formula4.png)
 
    * **Valutazione modello similarità articolo**: la valutazione del modello viene eseguita prendendo i consigli generati nel passaggio precedente e facendo previsioni sul set di dati di test. La fase di punteggio online viene imitata ordinando in modo cronologico gli utilizzi degli articoli di ogni utente nel set di dati di test, quindi eseguendo 100 consigli per sottoinsiemi di articoli ordinati nel tentativo di prevedere visualizzazioni e acquisti successivi. Una metrica di recupero delle informazioni, la [Precisione media](https://en.wikipedia.org/wiki/Evaluation_measures_(information_retrieval), viene utilizzato per valutare la qualità di questi consigli. Questa metrica prende in considerazione l’ordine dei consigli e favorisce gli elementi pertinenti più in alto nell’elenco dei consigli, che è una proprietà importante per i sistemi di classificazione.
    * **Selezione modello**: dopo la valutazione offline, viene selezionato il modello con la precisione media più elevata e vengono calcolati tutti i singoli consigli articolo-articolo.
    * **Filtro offline**: la fase finale dell’apprendimento del modello consiste nell’applicazione di eventuali filtri dinamici applicabili. Dopo questo passaggio, i consigli precalcolati vengono memorizzati nella cache a livello globale per essere disponibili per il servizio.
-
 
 * **Model serving**: a differenza dei precedenti algoritmi in cui i consigli richiedono di specificare una singola chiave per il recupero, seguita dall’applicazione di regole di business, il [!UICONTROL Consigliato per te] Gli algoritmi basati su carrello utilizzano un processo di runtime più complesso.
 

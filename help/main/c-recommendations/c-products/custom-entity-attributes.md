@@ -2,14 +2,14 @@
 keywords: attributi di entità multivalore;attributi di entità personalizzati;JSON valido;valore di attributo di entità;vettore JSON;array JSON;matrice JSON;multivalore;con più valori
 description: Scopri come utilizzare gli attributi di entità personalizzati a valore singolo e multiplo per definire informazioni aggiuntive sugli elementi nell’Adobe [!DNL Target] Catalogo Recommendations.
 title: Come Si Utilizzano Gli Attributi Di Entità Personalizzati?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Vedi cosa è incluso in Target Premium."
 feature: Recommendations
 mini-toc-levels: 3
 exl-id: d7d0b04a-0f50-4d30-9cbe-c0347a3d3715
-source-git-commit: 2a25fdb42ce4470f9126b7e0e7f6fd9e60c350e5
+source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
 workflow-type: tm+mt
-source-wordcount: '1409'
-ht-degree: 89%
+source-wordcount: '1454'
+ht-degree: 81%
 
 ---
 
@@ -63,7 +63,7 @@ Dopo che un attributo personalizzato viene inviato come array JSON valido, viene
 
 ## Implementazione di attributi con più valori {#section_80FEFE49E8AF415D99B739AA3CBA2A14}
 
-Quando si utilizzano feed (CSV), sono supportati attributi di entità personalizzati con più valori, `targetPageParams`e l’API di consegna per caricare i prodotti. I nuovi valori sostituiscono quelli correnti; non vengono aggiunti. Gli array vuoti ([]) vengono considerati privi di valori.
+Quando si utilizzano feed (CSV), sono supportati attributi di entità personalizzati con più valori, `targetPageParams`e l’API di consegna per caricare i prodotti. I nuovi valori sostituiscono quelli correnti; non vengono aggiunti. Array vuoti ( [] ) vengono considerati privi di valori.
 
 Le virgolette doppie devono essere precedute dalla sequenza di escape. Ad esempio, `"[""test"", ""value""]"` è un array JSON valido che può essere utilizzato in CSV.
 
@@ -127,7 +127,7 @@ Puoi trasmettere attributi con più valori utilizzando l’API di consegna in un
   }
 ```
 
-Per informazioni sull’utilizzo delle API per consegnare e salvare entità, consulta la [documentazione sulle API di Adobe Recommendations](https://experienceleague.corp.adobe.com/docs/target-dev/developer/recommendations.html?lang=it){target=_blank}.
+Consulta la [Documentazione API di Adobe Recommendations](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} per informazioni sull’utilizzo delle API Consegna e Salva entità.
 
 ## Utilizzo di operatori con attributi con più valori {#section_83C2288A805242D9A02EBC4F07DEE945}
 
@@ -138,7 +138,7 @@ Nell’esempio seguente, la regola è `message contains abc`.
 * Caso 1: `entity.genre = ["ab", "bc", "de"]`. Il risultato è falso perché nessun valore contiene `abc`.
 * Caso 2: `entity.genre = ["abcde","de","ef"]`. Il risultato è vero perché un valore contiene `abc`.
 
-Per gli operatori negativi, tutti i valori di attributo devono essere soddisfatti (booleano *and*). Ad esempio, se l’operatore è `notEquals`, il risultato sarà *falso* se viene rilevata una corrispondenza con uno dei valori.
+Per gli operatori negativi, tutti i valori di attributo devono essere soddisfatti (booleano *and*). Ad esempio, se l’operatore è `notEquals`, il risultato sarà *false* se un valore corrisponde a.
 
 Per informazioni sul comportamento dell’operatore nelle regole di inclusione degli algoritmi, di catalogo e di esclusione, consulta le sezioni seguenti.
 

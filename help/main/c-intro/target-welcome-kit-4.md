@@ -4,10 +4,10 @@ description: Leggi i suggerimenti del nostro gruppo di esperti sull’utilizzo d
 title: Dove posso trovare suggerimenti per l’utilizzo di Target?
 feature: Overview
 exl-id: 86437ad1-83ea-4670-b503-6c3c1fff0c16
-source-git-commit: 1383088bb2f6be0432e6f140400d8723048c8530
+source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
 workflow-type: tm+mt
-source-wordcount: '2899'
-ht-degree: 73%
+source-wordcount: '2890'
+ht-degree: 72%
 
 ---
 
@@ -25,7 +25,7 @@ Per istruzioni dettagliate, consulta [Attributi personalizzati](https://experien
 
 **Buono a sapersi**: poiché [!DNL Target] è una piattaforma aperta e agnostica che funziona bene con tecnologie diverse, puoi aggiungere dati di gestione delle relazioni con i clienti o dati acquistati in modi diversi. Ciò significa che puoi scegliere un metodo che funzioni al meglio per la tua organizzazione.
 
-Per ulteriori informazioni, consulta [Metodi per immettere i dati in Target](https://experienceleague.corp.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html?lang=it).{target=_blank}
+Consulta [Metodi per immettere i dati in Target](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html){target=_blank} per ulteriori informazioni.
 
 ## Suggerimento 2: personalizza in modo più avanzato, combinando i tipi di pubblico di [!DNL Target] con altri tipi di pubblico di Adobe Experience Cloud.
 
@@ -103,7 +103,7 @@ Per istruzioni dettagliate, consulta [Controllo qualità delle attività](/help/
 
 ## Suggerimento 11: esegui test su pagine con traffico elevato in modo che raggiungano la rilevanza statistica più rapidamente.
 
-Molti esperti di marketing lanciano programmi di ottimizzazione per la segmentazione del pubblico e il targeting senza verificare se i livelli di traffico e i tipi di pubblico rappresentati forniranno risultati significativi entro il periodo di tempo di test per i loro obiettivi di ottimizzazione e conversione. Per evitare questo errore comune, rispondi anticipatamente alle seguenti domande:
+Molti esperti di marketing lanciano programmi di ottimizzazione per la segmentazione del pubblico e il targeting senza verificare se i livelli di traffico e i tipi di pubblico rappresentati forniranno risultati significativi entro l’arco temporale di test per i loro obiettivi di ottimizzazione e conversione. Per evitare questo errore comune, rispondi anticipatamente alle seguenti domande:
 
 * Quanti visitatori univoci giornalieri ha la pagina?
 * Qual è il tasso di conversione per la pagina?

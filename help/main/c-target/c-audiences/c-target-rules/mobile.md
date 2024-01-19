@@ -4,10 +4,10 @@ description: Scopri come creare tipi di pubblico in [!DNL Adobe Target] per eseg
 title: Posso indirizzare i visitatori in base alle opzioni mobile?
 feature: Audiences
 exl-id: 73d5c80c-bfa2-4806-8c04-652781b70bf2
-source-git-commit: 0f51f2a8c501ebfc2f11aebd9bfc434160a6b471
+source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
 workflow-type: tm+mt
-source-wordcount: '675'
-ht-degree: 39%
+source-wordcount: '687'
+ht-degree: 34%
 
 ---
 
@@ -33,13 +33,13 @@ Per risolvere questo problema: [!DNL Target] raccoglie dati aggiuntivi per rilev
 
 >[!NOTE]
 >
->I clienti che utilizzano l’SDK di Mobile non devono eseguire alcuna operazione per applicare questa funzionalità. I clienti che utilizzano at.js devono [aggiornamento alla versione 1.5.0 di at.js](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=it){target=_blank} (o successiva).
+>I clienti che utilizzano l’SDK di Mobile non devono eseguire alcuna operazione per applicare questa funzionalità. I clienti che utilizzano at.js devono [aggiornamento alla versione 1.5.0 di at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=it){target=_blank} (o successiva).
 
 È possibile scegliere più di una proprietà per i dispositivi mobili. Le selezioni multiple sono collegate da un operatore OR.
 
 I clienti che utilizzano un&#39;integrazione personalizzata (non con at.js o l&#39;SDK mobile) possono raccogliere questi parametri e trasmetterli come parametri mbox.
 
-1. Nell’interfaccia di [!DNL Target] fai clic su **[!UICONTROL Pubblico]** > **[!UICONTROL Crea pubblico]**.
+1. In [!DNL Target] , fare clic su **[!UICONTROL Tipi di pubblico]** > **[!UICONTROL Crea pubblico]**.
 1. Assegna un nome al pubblico e aggiungi una descrizione facoltativa.
 1. Trascina **[!UICONTROL Dispositivi mobili]** nel riquadro audience builder.
 1. Fai clic su **[!UICONTROL Seleziona]**, quindi scegli una delle seguenti opzioni:

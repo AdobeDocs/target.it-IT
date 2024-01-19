@@ -4,10 +4,10 @@ description: Scopri come utilizzare i tipi di pubblico in [!DNL Adobe Target].
 title: Come si utilizza l’elenco del pubblico?
 feature: Audiences
 exl-id: 7af7f101-f550-4fdc-bcd9-90e4107b0415
-source-git-commit: 351ed1e51b0a253476c6cda456781351333e8da5
+source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
 workflow-type: tm+mt
-source-wordcount: '818'
-ht-degree: 33%
+source-wordcount: '802'
+ht-degree: 26%
 
 ---
 
@@ -28,13 +28,13 @@ Esistono due tipi di pubblico in [!DNL Target]:
 * **Targeting dei tipi di pubblico:** Utilizzato per fornire contenuti diversi a diversi tipi di visitatori.
 * **Tipi di pubblico per i rapporti:** Utilizzato per determinare come diversi tipi di visitatori rispondono allo stesso contenuto e analizzare i risultati dei test.
 
-  In [!DNL Target], è possibile configurare i tipi di pubblico per reportistica solo se [!DNL Target] è utilizzato come origine per la generazione di rapporti. Se utilizzi [ Adobe Analytics come origine per la generazione di rapporti](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T), devi configurare i tipi di pubblico per la generazione di rapporti in [!DNL Analytics].
+  In [!DNL Target], è possibile configurare i tipi di pubblico per reportistica solo se [!DNL Target] è utilizzato come origine per la generazione di rapporti. Se usa [Adobe Analytics come origine per la generazione di rapporti](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T), devi configurare i tipi di pubblico per reportistica in [!DNL Analytics].
 
 ## Utilizza il [!UICONTROL Tipi di pubblico] list {#use-list}
 
-Per accedere all’elenco [!UICONTROL Tipi di pubblico], fai clic su **[!UICONTROL Tipi di pubblico]** nella barra dei menu superiore:
+Per accedere all&#39;elenco [!UICONTROL Tipi di pubblico], fai clic su **[!UICONTROL Tipi di pubblico]** nella barra dei menu superiore:
 
-![Elenco Tipi di pubblico](assets/audiences_list.png)
+![[!UICONTROL Tipi di pubblico] list](assets/audiences_list.png)
 
 Il [!UICONTROL Tipi di pubblico] contiene i tipi di pubblico che puoi utilizzare nelle attività. Utilizza il [!UICONTROL Tipi di pubblico] elenco per creare, modificare, duplicare, copiare o combinare i tipi di pubblico. L’elenco mostra anche l’origine in cui è stato creato il pubblico:
 
@@ -45,7 +45,7 @@ Il [!UICONTROL Tipi di pubblico] contiene i tipi di pubblico che puoi utilizzare
 
   >[!NOTE]
   >
-  >Il [!DNL Adobe Experience Platform] l&#39;origine è disponibile per tutti [!DNL Target] clienti che utilizzano [Adobe Experience Platform Web SDK](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=it){target=_blank}. Tipi di pubblico disponibili da [!DNL Adobe Experience Platform] può essere utilizzato così come è o [combinato con tipi di pubblico esistenti](/help/main/c-target/combining-multiple-audiences.md).
+  >Il [!DNL Adobe Experience Platform] l&#39;origine è disponibile per tutti [!DNL Target] clienti che utilizzano [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=it){target=_blank}. Tipi di pubblico disponibili da [!DNL Adobe Experience Platform] può essere utilizzato così come è o [combinato con tipi di pubblico esistenti](/help/main/c-target/combining-multiple-audiences.md).
   >
   >Gli utenti devono avere [!UICONTROL Approvatore] o superiore in [!DNL Target] da configurare [!DNL Target] [!UICONTROL Destinazioni] schede in AEP/RTCDP ([!DNL Real-time Customer Data Platform]).
   >
@@ -68,7 +68,7 @@ Utilizza il [!UICONTROL Cerca tipi di pubblico] per eseguire ricerche nel [!UICO
 
 Puoi ordinare lʼelenco [!UICONTROL Tipi di pubblico] in base al nome o alla data dellʼultima modifica. Per ordinare in base al nome o alla data, fai clic sull’intestazione di colonna, quindi seleziona la visualizzazione dei tipi di pubblico in ordine crescente o decrescente.
 
-## Visualizzare le definizioni dei tipi di pubblico {#section_11B9C4A777E14D36BA1E925021945780}
+## Visualizzare le definizioni del pubblico {#section_11B9C4A777E14D36BA1E925021945780}
 
 Puoi visualizzare i dettagli della definizione del pubblico su una scheda a comparsa in varie posizioni nella [!DNL Target] senza aprire il pubblico. Questa funzionalità si applica ai tipi di pubblico creati in [!DNL Target Standard/Premium] e tipi di pubblico importati da [!DNL Target Classic] o creato tramite API.
 
@@ -107,7 +107,7 @@ Keep the following points in mind as you work with imported audiences:
 
 ## Utilizzo dei tipi di pubblico da [!DNL Adobe Experience Platform] {#aep}
 
-L’utilizzo dei tipi di pubblico creati in [!DNL Adobe Experience Platform] fornisce dati più completi sui clienti, per una personalizzazione più incisiva.
+Utilizzo dei tipi di pubblico creati in [!DNL Adobe Experience Platform] fornisci dati più completi sui clienti per una personalizzazione di maggior impatto.
 
 Per ulteriori informazioni, consulta [Utilizza i tipi di pubblico da [!DNL Adobe Experience Platform]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#aep).
 

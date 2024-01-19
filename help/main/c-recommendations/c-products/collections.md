@@ -2,19 +2,19 @@
 keywords: raccolta;Targeting
 description: Scopri come utilizzare le raccolte in Adobe [!DNL Target] Recommendations. Una raccolta è un insieme di prodotti o elementi che sono considerati idonei per essere proposti come consigli.
 title: Come si utilizzano le raccolte nelle attività di Recommendations?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Vedi cosa è incluso in Target Premium."
 feature: Recommendations
 exl-id: e62f501b-3521-4456-9ea1-e4b8a2b478c6
-source-git-commit: 2a25fdb42ce4470f9126b7e0e7f6fd9e60c350e5
+source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
 workflow-type: tm+mt
-source-wordcount: '884'
-ht-degree: 60%
+source-wordcount: '891'
+ht-degree: 52%
 
 ---
 
 # Raccolte
 
-Una raccolta è un insieme di prodotti o elementi che sono considerati idonei per essere proposti come consigli. Una raccolta viene definita specificando le condizioni che devono essere soddisfatte dagli elementi affinché ne facciano parte.
+Una raccolta è un insieme di prodotti o elementi che sono idonei per essere proposti come consigli. Una raccolta viene definita specificando le condizioni che devono essere soddisfatte dagli elementi affinché ne facciano parte.
 
 Solitamente, una raccolta è un insieme di elementi simili o correlati, come una raccolta di prodotti singoli. Tuttavia, puoi raggruppare qualsiasi elemento in una categoria adatta alla tua attività, ad esempio prodotti in una determinata fascia di prezzo o colore o articoli che potrebbero essere interessanti in una particolare area geografica.
 
@@ -38,7 +38,7 @@ Quando crei o modifichi un’attività di [!DNL Recommendations], il nome della 
 
 Crea una raccolta per organizzare i prodotti o i contenuti da mostrare nei consigli.
 
-1. Fai clic su **[!UICONTROL Consigli]** > **[!UICONTROL Raccolte]** per visualizzare l&#39;elenco delle raccolte esistenti.
+1. Clic **[!UICONTROL Recommendations]** > **[!UICONTROL Raccolte]** per visualizzare l’elenco delle raccolte esistenti.
 
    ![Elenco Raccolte](assets/collections_list.png)
 
@@ -46,17 +46,17 @@ Crea una raccolta per organizzare i prodotti o i contenuti da mostrare nei consi
 
    ![Icone al passaggio del mouse: modifica, copia ed elimina](/help/main/c-recommendations/c-products/assets/hover-icons.png)
 
-   Il “Numero di elementi” segnalato per ogni raccolta nella visualizzazione elenco [!UICONTROL Raccolte] è il numero di prodotti che corrispondono alle regole per tale raccolta all’interno del [gruppo host](/help/main/administrating-target/hosts.md) Consigli (ambiente) predefinito configurato. Consulta [Impostazioni](https://experienceleague.corp.adobe.com/docs/target-dev/developer/recommendations.html?lang=it) per modificare il gruppo host predefinito.{target=_blank}
+   Il “Numero di elementi” segnalato per ogni raccolta nella visualizzazione elenco [!UICONTROL Raccolte] è il numero di prodotti che corrispondono alle regole per tale raccolta all’interno del [gruppo host](/help/main/administrating-target/hosts.md) Consigli (ambiente) predefinito configurato. Consulta [Impostazioni](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} per modificare il gruppo host predefinito.
 
-1. Fai clic su **[!UICONTROL Crea raccolta]**.
+1. Clic **[!UICONTROL Crea raccolta]**.
 
-1. (Facoltativo) Scegli un ambiente dal filtro **[!UICONTROL Ambiente]** quando crei (o aggiorni) una raccolta per visualizzare in anteprima i contenuti della raccolta in tale ambiente. Per impostazione predefinita, sono visualizzati i risultati del gruppo di host predefinito.
+1. (Condizionale) Scegli un ambiente dalla sezione **[!UICONTROL Ambiente]** durante la creazione (o l’aggiornamento) di una raccolta per visualizzare in anteprima il contenuto della raccolta in tale ambiente. Per impostazione predefinita, sono visualizzati i risultati del gruppo di host predefinito.
 
    ![Creare una raccolta](/help/main/c-recommendations/c-products/assets/CreateCollection.png)
 
 1. Digita un **[!UICONTROL Nome]** per la raccolta.
 
-   È inoltre possibile immettere una **[!UICONTROL Descrizione facoltativa]**.
+   È inoltre possibile immettere una **[!UICONTROL Descrizione]** facoltativa.
 
 1. Imposta le regole utilizzate per compilare la raccolta.
 

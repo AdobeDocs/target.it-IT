@@ -4,10 +4,10 @@ description: Riguarda l’elenco di argomenti che consentono di risolvere i prob
 title: Come posso risolvere i problemi di Target?
 feature: Troubleshooting
 exl-id: c72443f0-1ea2-4f81-9bc3-495a8d459083
-source-git-commit: 1f505991ea9a0caf0d6d49f6464550243128ffaf
+source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
 workflow-type: tm+mt
-source-wordcount: '508'
-ht-degree: 86%
+source-wordcount: '425'
+ht-degree: 95%
 
 ---
 
@@ -96,7 +96,7 @@ Nelle sezioni seguenti sono disponibili informazioni sulla risoluzione di proble
 
 ## Mbox globale
 
-* [Mbox globale](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/global-mbox/global-mbox-faq.html)
+* [Mbox globale](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/global-mbox/global-mbox-faq.html)
 
 ## Host/Ambienti
 
@@ -108,23 +108,23 @@ Nelle seguenti sezioni sono disponibili informazioni sulla risoluzione di proble
 
 ### Implementazione generale
 
-* [Browser supportati](https://experienceleague.corp.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html)
-* [Utilizzo di istanze basate su cloud con Target](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targeting-using-cloud-based-instances.html)
+* [Browser supportati](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html)
+* [Utilizzo di istanze basate su cloud con Target](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targeting-using-cloud-based-instances.html)
 
 ### Mboxs globali
 
-* [Domande frequenti sulle mbox globali](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/global-mbox/global-mbox-faq.html)
+* [Domande frequenti sulle mbox globali](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/global-mbox/global-mbox-faq.html)
 
 ### at.js
 
 * [Domande frequenti su at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-faq.html)
-* [Debugging di at.js utilizzando il debugger Adobe Experience Cloud](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/target-debugging-atjs.html)
-* [Dettagli sulle versioni di at.js](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=it)
+* [Debugging di at.js utilizzando il debugger Adobe Experience Cloud](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/target-debugging-atjs.html)
+* [Dettagli sulle versioni di at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=it)
 * Video “Office hours”, un&#39;iniziativa portata avanti dal team di assistenza clienti di Adobe. 
 
 ## App mobili
 
-* [Domande frequenti su Target per le app per dispositivi mobili](https://experienceleague.corp.adobe.com/docs/target-dev/developer/mobile-apps/mobile-faq.html)
+* [Domande frequenti su Target per le app per dispositivi mobili](https://experienceleague.adobe.com/docs/target-dev/developer/mobile-apps/mobile-faq.html)
 
 ## Generazione di rapporti
 
@@ -133,11 +133,11 @@ Nelle seguenti sezioni sono disponibili informazioni sulla risoluzione di proble
 
 ## Ottimizzazione dei motori di ricerca (SEO)
 
-* [Test di usabilità per l’ottimizzazione per i motori di ricerca (SEO)](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html)
+* [Test di usabilità per l’ottimizzazione per i motori di ricerca (SEO)](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html)
 
 ## Sicurezza
 
-* [Direttive Content Security Policy (CSP)](https://experienceleague.corp.adobe.com/docs/target-dev/developer/implementation/privacy/content-security-policy.html?lang=it)
+* [Direttive Content Security Policy (CSP)](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/content-security-policy.html?lang=it)
 
 ## Stato del sistema
 

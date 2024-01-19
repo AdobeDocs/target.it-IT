@@ -4,10 +4,10 @@ description: Scopri come creare esclusioni in Adobe [!DNL Target] Recommendation
 title: Come si utilizzano le esclusioni nelle attività di Recommendations?
 feature: Recommendations
 exl-id: e41487c7-6d47-4958-8e4b-616a2ad56b3c
-source-git-commit: 1383088bb2f6be0432e6f140400d8723048c8530
+source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
 workflow-type: tm+mt
-source-wordcount: '623'
-ht-degree: 44%
+source-wordcount: '619'
+ht-degree: 34%
 
 ---
 
@@ -33,19 +33,19 @@ Alcuni esempi di utilizzo delle esclusioni includono:
 
 ## Creare un’esclusione
 
-1. Fai clic su **[!UICONTROL Consigli]** > **[!UICONTROL Esclusioni]** per visualizzare l&#39;elenco delle esclusioni esistenti.
+1. Clic **[!UICONTROL Recommendations]** > **[!UICONTROL Esclusioni]** per visualizzare l’elenco delle esclusioni esistenti.
 
    ![immagine elenco_esclusioni](assets/exclusions_list.png)
 
-   Il “Numero di elementi” segnalato per ogni esclusione nella visualizzazione elenco [!UICONTROL Esclusioni] è il numero di prodotti che corrispondono alle regole per tale esclusione all’interno del [gruppo di host](/help/main/administrating-target/hosts.md) Consigli (ambiente) predefinito configurato. Consulta [Impostazioni](https://experienceleague.corp.adobe.com/docs/target-dev/developer/recommendations.html?lang=it) per modificare il gruppo host predefinito.{target=_blank}
+   Il “Numero di elementi” segnalato per ogni esclusione nella visualizzazione elenco [!UICONTROL Esclusioni] è il numero di prodotti che corrispondono alle regole per tale esclusione all’interno del [gruppo di host](/help/main/administrating-target/hosts.md) Consigli (ambiente) predefinito configurato. Consulta [Impostazioni](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} per modificare il gruppo host predefinito.
 
-1. Fai clic su **[!UICONTROL Crea esclusione]**.
+1. Clic **[!UICONTROL Crea esclusione]**.
 
-1. (Facoltativo) Scegli un ambiente dal filtro **[!UICONTROL Ambiente]** quando crei (o aggiorni) un’esclusione per visualizzare in anteprima i contenuti dell’esclusione tale ambiente. Per impostazione predefinita, sono visualizzati i risultati del gruppo di host predefinito.
+1. (Condizionale) Scegli un ambiente dalla sezione **[!UICONTROL Ambiente]** filtrare durante la creazione (o l’aggiornamento) di un’esclusione per visualizzare in anteprima il contenuto dell’esclusione in tale ambiente. Per impostazione predefinita, sono visualizzati i risultati del gruppo di host predefinito.
 
    ![Creare un’esclusione](/help/main/c-recommendations/c-products/assets/CreateExclusion.png)
 
-1. Digita un **[!UICONTROL Nome]** per l’esclusione e immetti una descrizione facoltativa.
+1. Digita un’esclusione **[!UICONTROL Nome]** e inserisci una descrizione facoltativa.
 
 1. Utilizza il generatore di regole per creare le esclusioni.
 

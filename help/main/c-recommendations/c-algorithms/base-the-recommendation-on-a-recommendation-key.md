@@ -5,10 +5,10 @@ title: Come posso basare il consiglio su una Chiave consiglio?
 feature: Recommendations
 mini-toc-levels: 2
 exl-id: 49764f18-88fb-41be-b2a0-e7ced9de742c
-source-git-commit: 2a25fdb42ce4470f9126b7e0e7f6fd9e60c350e5
+source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
 workflow-type: tm+mt
-source-wordcount: '3999'
-ht-degree: 37%
+source-wordcount: '4013'
+ht-degree: 34%
 
 ---
 
@@ -34,7 +34,7 @@ Diversi algoritmi di Recommendations si prestano a essere posizionati su diversi
 
 ## Basato su carrello {#cart-based}
 
-Il [!UICONTROL Basato su carrello] il tipo di algoritmo consente di consigliare gli elementi in base al contenuto del carrello corrente del visitatore. Le chiavi per i consigli sono fornite tramite [parametro mbox `cartIds`](https://experienceleague.corp.adobe.com/docs/target-dev/developer/recommendations.html?lang=it){target=_blank} in valori separati da virgole. Vengono considerati solo i primi 10 valori.
+Il [!UICONTROL Basato su carrello] il tipo di algoritmo consente di consigliare gli elementi in base al contenuto del carrello corrente del visitatore. Le chiavi per i consigli sono fornite tramite [parametro mbox `cartIds`](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} in valori separati da virgole. Vengono considerati solo i primi 10 valori.
 
 La logica dei consigli basati sul carrello è simile al &quot;[!UICONTROL Consigliato per te]&quot;algoritmo basato su utente e al&quot;[!UICONTROL Chi ha visualizzato questi ha acquistato anche quelli]&quot; e &quot;[!UICONTROL Chi ha comprato questi ha acquistato anche quelli]&quot; algoritmi basati su elementi.
 
@@ -44,11 +44,11 @@ La logica dei consigli basati sul carrello è simile al &quot;[!UICONTROL Consig
 
 * **[!UICONTROL Sessione singola]**: in base a ciò che hanno fatto altri visitatori all’interno di una singola sessione.
 
-   Osservare il comportamento all’interno di una singola sessione potrebbe avere senso quando si può ritenere che i prodotti si &quot;abbinino&quot; fortemente tra loro in base a un utilizzo, un’occasione o un evento. Ad esempio, un visitatore sta acquistando una stampante e potrebbe anche aver bisogno di carta e inchiostro. Oppure, un visitatore sta comprando burro di arachidi e potrebbe anche aver bisogno di pane e gelatina.
+  Osservare il comportamento all’interno di una singola sessione potrebbe avere senso quando si ha la sensazione che i prodotti vivamente si &quot;accompagnano&quot; l’uno con l’altro in base a un utilizzo, un’occasione o un evento. Ad esempio, un visitatore sta acquistando una stampante e potrebbe anche aver bisogno di carta e inchiostro. Oppure, un visitatore sta comprando burro di arachidi e potrebbe anche aver bisogno di pane e gelatina.
 
 * **[!UICONTROL Tra sessioni]**: in base a ciò che hanno fatto altri visitatori in più sessioni.
 
-   Osservare il comportamento in più sessioni potrebbe avere senso quando si ha la sensazione che i prodotti vivamente &quot;vanno di pari passo&quot; l’uno con l’altro in base alle preferenze o al gusto dei visitatori. Ad esempio, a un visitatore piace Star Wars e potrebbe piacere anche Indiana Jones, anche se non desidera necessariamente guardare entrambi i film contemporaneamente. Oppure, a un visitatore piace il gioco da tavolo &quot;Codenames&quot; e potrebbe anche piacere il gioco da tavolo &quot;Avalon&quot;, anche se il visitatore non può giocare entrambi i giochi contemporaneamente. 
+  Osservare il comportamento in più sessioni potrebbe avere senso quando si ha la sensazione che i prodotti vivamente &quot;vanno di pari passo&quot; l’uno con l’altro in base alle preferenze o al gusto dei visitatori. Ad esempio, a un visitatore piace Star Wars e potrebbe piacere anche Indiana Jones, anche se non desidera necessariamente guardare entrambi i film contemporaneamente. Oppure, a un visitatore piace il gioco da tavolo &quot;Codenames&quot; e potrebbe anche piacere il gioco da tavolo &quot;Avalon&quot;, anche se il visitatore non può giocare entrambi i giochi contemporaneamente. 
 
 [!DNL Target] formula raccomandazioni per ogni visitatore in base agli elementi nel suo carrello corrente, indipendentemente dal fatto che tu guardi al comportamento del visitatore all’interno di una singola sessione o in più sessioni.
 
@@ -258,10 +258,10 @@ L’algoritmo Articoli visualizzati di recente restituisce un risultato specific
 >
 >Non è possibile utilizzare [!UICONTROL Articoli visualizzati di recente] criteri per i consigli di backup.
 
-Puoi filtrare gli articoli o i file multimediali visualizzati di recente in modo che vengano visualizzati solo quelli con uno specifico attributo.
+[!UICONTROL Articoli visualizzati di recente]/Media può essere filtrato in modo che vengano visualizzati solo gli elementi con un particolare attributo.
 
 * I criteri “visualizzati di recente” sono configurabili, come altri criteri nei consigli.
-* È possibile utilizzare [raccolte](/help/main/c-recommendations/c-products/collections.md), [esclusioni](/help/main/c-recommendations/c-products/exclusions.md) e [inclusioni](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md) (incluse le regole speciali per Prezzo e Inventario) proprio come per tutti gli altri criteri.
+* È possibile utilizzare [raccolte](/help/main/c-recommendations/c-products/collections.md), [esclusioni](/help/main/c-recommendations/c-products/exclusions.md), e [inclusioni](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md) (comprese le regole speciali per Prezzo e Inventario) proprio come per tutti gli altri criteri.
 
 I possibili casi d’uso includono: un’azienda multinazionale con più aziende potrebbe avere un visitatore che visualizza gli articoli in più proprietà digitali. In questo caso, puoi limitare gli articoli visualizzati di recente al solo sito su cui sono stati visualizzati. Questo impedisce la visualizzazione degli elementi visualizzati di recente sul sito di un’altra proprietà digitale.
 
@@ -308,7 +308,7 @@ Questa funzionalità consente di utilizzare [!DNL Target] per aggiungere la pers
 Con l’aggiunta delle regole di inclusione ai Criteri personalizzati, i consigli non sono più statici ma diventano dinamici, in base agli interessi del visitatore.
 
 * I criteri personalizzati sono configurabili, come altri criteri nei consigli.
-* È possibile utilizzare [raccolte](/help/main/c-recommendations/c-products/collections.md), [esclusioni](/help/main/c-recommendations/c-products/exclusions.md) e [inclusioni](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md) (incluse le regole speciali per Prezzo e Inventario) proprio come per tutti gli altri criteri.
+* È possibile utilizzare [raccolte](/help/main/c-recommendations/c-products/collections.md), [esclusioni](/help/main/c-recommendations/c-products/exclusions.md), e [inclusioni](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md) (comprese le regole speciali per Prezzo e Inventario) proprio come per tutti gli altri criteri.
 
 Eventuali casi di utilizzo includono:
 
@@ -361,7 +361,7 @@ Utilizza il [!UICONTROL Ultimo articolo acquistato] chiave consigli sul sito su:
 Puoi basare i consigli sul valore di un attributo di profilo personalizzato. Ad esempio, supponi di voler visualizzare filmati consigliati in base all’ultimo filmato che un visitatore ha aggiunto alla sua coda.
 
 1. Seleziona l’attributo di profilo personalizzato dall’elenco **[!UICONTROL Chiave consiglio]** (ad esempio, &quot;Last Show Added to Watchlist&quot;).
-1. Seleziona quindi la **[!UICONTROL Logica consigliata]** (ad esempio “Persone che hanno visualizzato questo, hanno visualizzato anche quello”).
+1. Quindi seleziona il tuo **[!UICONTROL Logica consigli]** (ad esempio, &quot;Persone che hanno visualizzato questo hanno visualizzato anche quello&quot;).
 
    ![Finestra di dialogo per creare un nuovo criterio](/help/main/c-recommendations/c-algorithms/assets/create-new-criteria-1.png)
 
@@ -369,7 +369,7 @@ Se l’attributo di profilo personalizzato non corrisponde direttamente a un sin
 
 1. Seleziona l’attributo di profilo personalizzato dall’elenco **[!UICONTROL Chiave consiglio]** (ad esempio, &quot;Marchio preferito&quot;).
 
-1. Quindi seleziona la **[!UICONTROL Logica consigli]** che desideri utilizzare con questa chiave (ad esempio, “Più venduti”).
+1. Quindi seleziona la **[!UICONTROL Logica consigli]** desideri utilizzarlo con questa chiave (ad esempio, &quot;Più venduti&quot;).
 
    Viene visualizzata l’opzione [!UICONTROL Raggruppa per valore univoco di].
 
@@ -446,7 +446,7 @@ Utilizza il [!UICONTROL Categoria corrente] chiave consigli sul sito su:
 
 ### Affinità sito {#site-affinity}
 
-Consiglia gli articoli in base alla certezza di una relazione tra articoli diversi. È possibile configurare questo criterio per determinare la quantità di dati necessari prima che venga presentato un consiglio utilizzando il cursore delle Regole di inclusione. Per esempio, se selezioni molto forte, vengono consigliati i prodotti con una maggiore certezza di corrispondenza.
+Consiglia gli articoli in base alla certezza di una relazione tra articoli diversi. Puoi configurare questo criterio per determinare la quantità di dati necessari prima che venga presentato un consiglio utilizzando il cursore delle Regole di inclusione. Ad esempio, se selezioni molto forte, vengono consigliati i prodotti con la maggiore certezza di corrispondenza.
 
 Ad esempio, se imposti un’affinità molto forte e il progetto include cinque elementi, tre dei quali soddisfano il livello di soglia di connessione, i due elementi che non soddisfano i requisiti di forza minima non vengono visualizzati nei suggerimenti e vengono sostituiti dagli elementi di backup definiti. Gli elementi con affinità più elevata vengono visualizzati per primi.
 

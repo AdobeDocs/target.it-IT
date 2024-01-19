@@ -4,10 +4,10 @@ description: Scopri i profili dei visitatori che contengono informazioni su come
 title: Cosa Sono I Profili Dei Visitatori?
 feature: Audiences
 exl-id: 199085a6-1519-4c73-8189-33b4ea4fff24
-source-git-commit: 1383088bb2f6be0432e6f140400d8723048c8530
+source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
 workflow-type: tm+mt
-source-wordcount: '114'
-ht-degree: 36%
+source-wordcount: '106'
+ht-degree: 38%
 
 ---
 
@@ -24,6 +24,6 @@ Le sezioni che seguono contengono le informazioni seguenti:
 - [Durata del profilo del visitatore](visitor-profile-lifetime.md)
 - [Attributi del profilo](profile-parameters.md)
 - [Affinità tra categorie](category-affinity.md)
-- [Attributi del cliente](https://experienceleague.corp.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html)
+- [Attributi del cliente](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html)
 - [Sincronizzazione dei profili in tempo reale per mbox3rdPartyID](3rd-party-id.md)
 - [Glossario di profili e variabili](variables-profiles-parameters-methods.md)

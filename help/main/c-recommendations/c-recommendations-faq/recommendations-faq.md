@@ -2,17 +2,17 @@
 keywords: risoluzione dei problemi;domande frequenti;FAQ;consigli;caratteri speciali;ponderazione degli attributi;somiglianza contenuti
 description: Visualizza un elenco delle domande e risposte più frequenti sulle attività Consigli di Adobe [!DNL Target] .
 title: Dove posso trovare domande e risposte sulla funzione Consigli di  [!DNL Target] ?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Vedi cosa è incluso in Target Premium."
 feature: Recommendations
 exl-id: aaa52923-1c2d-44ae-bd89-671329222077
-source-git-commit: 2a25fdb42ce4470f9126b7e0e7f6fd9e60c350e5
+source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
 workflow-type: tm+mt
-source-wordcount: '3400'
-ht-degree: 91%
+source-wordcount: '3471'
+ht-degree: 90%
 
 ---
 
-# Consigli Domande frequenti
+# Domande frequenti sui consigli
 
 Elenco delle domande frequenti sulle attività relative alle attività di [!DNL Adobe Target] [!DNL Recommendations].
 
@@ -24,7 +24,7 @@ Attualmente, non è disponibile alcuna funzionalità che consenta ai clienti di 
 
 ## Quanto tempo trascorre prima che gli aggiornamenti degli articoli nel catalogo vengano rispecchiati nel sito?
 
-L’intervallo di tempo e i risultati variano a seconda di come vengono aggiornati gli elementi.
+L’arco temporale e i risultati variano a seconda di come vengono aggiornati gli elementi.
 
 | Origine | Dettagli |
 | --- | --- |
@@ -38,7 +38,7 @@ Dopo aver importato un file di feed, o ricevuto aggiornamenti di entità tramite
 
 * Se un elemento è stato escluso in precedenza ma ora deve essere incluso, verrà incluso nella successiva esecuzione dell’algoritmo (12-24 ore).
 
-   Questa situazione si verifica perché [!DNL Target] applica le esclusioni sia online che offline. Quando un elemento viene escluso di recente, l’esclusione online viene applicata rapidamente. Quando un elemento è stato incluso di recente, l’esclusione online viene applicata rapidamente mentre quella offline viene applicata solo alla successiva esecuzione dell’algoritmo.
+  Questa situazione si verifica perché [!DNL Target] applica le esclusioni sia online che offline. Quando un elemento viene escluso di recente, l’esclusione online viene applicata rapidamente. Quando un elemento è stato incluso di recente, l’esclusione online viene applicata rapidamente mentre quella offline viene applicata solo alla successiva esecuzione dell’algoritmo.
 
 * Se un elemento è stato incluso in precedenza ma ora deve essere escluso, l’elemento viene escluso secondo la tempistica “Attributi elemento aggiornati…” di cui sopra a seconda della sorgente dei feed (15 minuti tramite mbox/API o 12-24 ore tramite feed).
 
@@ -52,7 +52,7 @@ Le modifiche seguenti vengono applicate solo dopo l’esecuzione dell’algoritm
 
 >[!NOTE]
 >
->Un file di feed viene considerato importato quando il suo stato cambia da “Importazione elementi” a “Preparazione aggiornamenti indice di ricerca”. Possono trascorrere più di 60 minuti prima che gli aggiornamenti vengano rispecchiati nell’interfaccia utente di Ricerca nel catalogo. La funzione Ricerca nel catalogo è aggiornata quando lo stato del feed diventa “Aggiornamenti completati”. Anche se la funzione Ricerca nel catalogo non risulta ancora aggiornata, gli aggiornamenti vengono visualizzati nel sito in base alle tempistiche riportate qui sopra. Nella pagina Ricerca nel catalogo viene indicata l’ora dell’ultimo aggiornamento dell’indice di Ricerca nel catalogo.
+>Un file di feed viene considerato importato quando il suo stato cambia da “Importazione elementi” a “Preparazione aggiornamenti indice di ricerca”. Possono trascorrere più di 60 minuti prima che gli aggiornamenti vengano rispecchiati nell’interfaccia utente di Ricerca nel catalogo. La funzione Ricerca nel catalogo è aggiornata quando lo stato del feed diventa “Aggiornamenti completati”. Anche se la funzione Ricerca nel catalogo non risulta ancora aggiornata, gli aggiornamenti vengono visualizzati nel sito in base agli archi temporali riportati qui sopra. Nella pagina Ricerca nel catalogo viene indicata l’ora dell’ultimo aggiornamento dell’indice di Ricerca nel catalogo.
 
 ## Quanto tempo ci vuole affinché una modifica alla configurazione delle impostazioni di attività, offerte, promozioni o criteri della funzione [!UICONTROL Consigli] venga riportata sul sito?
 
@@ -95,7 +95,7 @@ Se la posizione in cui stai applicando questo criterio non contiene l’ID di ca
 
 Se utilizzi una posizione in cui l’ID di categoria è presente nella mbox, il selettore di criteri contiene tutti i criteri applicabili.
 
-L’impostazione [!DNL Target]Filtra criteri incompatibili[](https://experienceleague.corp.adobe.com/docs/target-dev/developer/recommendations.html?lang=it) di {target=_blank} consente di controllare il filtraggio intelligente del selettore dell’algoritmo.
+[!DNL Target] ha un [Filtra criteri incompatibili](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} impostazione per controllare il filtraggio intelligente del selettore dell’algoritmo.
 
 >[!NOTE]
 >
@@ -127,7 +127,7 @@ Considera le seguenti informazioni se noti che una raccolta, che in precedenza n
 * Puoi salvare nuovamente la raccolta e vedere se il numero si aggiorna. Salvando nuovamente, la raccolta esegue nuovamente tutti gli algoritmi che la utilizzano.
 * Stai guardando nell’ambiente giusto? Vai su [!DNL /target/products.html#recsSettings] e controlla (come mostrato di seguito).
 
-   ![immagine product_catalog](assets/product_catalog.png)
+  ![immagine product_catalog](assets/product_catalog.png)
 
 * L’indice è aggiornato? Vai a [!DNL /target/products.html#productSearch] e controlla da quante ore esiste l’indice (per esempio, &quot;indicizzato 3 ore fa&quot;). Se necessario, puoi aggiornare l’indice.
 * Hai modificato qualcosa nel livello di feed o di dati che ha comportato la mancata corrispondenza delle entità alle regole di raccolta? Assicurati che le maiuscole e le minuscole corrispondano.
@@ -214,19 +214,19 @@ NO_CONTENT viene restituito quando i consigli non sono disponibili per la combin
 
 * I risultati non sono ancora pronti.
 
-   Questa situazione si verifica in genere al primo salvataggio di un’attività appena creata o dopo che sono state apportate modifiche alla raccolta, ai criteri o alle promozioni utilizzate nell’attività.
+  Questa situazione si verifica in genere al primo salvataggio di un’attività appena creata o dopo che sono state apportate modifiche alla raccolta, ai criteri o alle promozioni utilizzate nell’attività.
 
 * I risultati sono pronti, ma non ancora memorizzati nella cache del server edge più vicino, per la combinazione di algoritmo/chiave richiesta.
 
-   La richiesta avvia un’operazione di caching, quindi questo problema dovrebbe risolversi da solo dopo alcuni ricaricamenti delle pagine e/o dopo pochi minuti.
+  La richiesta avvia un’operazione di caching, quindi questo problema dovrebbe risolversi da solo dopo alcuni ricaricamenti delle pagine e/o dopo pochi minuti.
 
 * I risultati sono pronti, ma non disponibili per il valore chiave fornito.
 
-   Questa situazione si verifica in genere quando si richiedono raccomandazioni per un elemento aggiunto al catalogo dopo l’esecuzione dell’algoritmo più recente e si risolve da solo dopo l’esecuzione dell’algoritmo successivo.
+  Questa situazione si verifica in genere quando si richiedono raccomandazioni per un elemento aggiunto al catalogo dopo l’esecuzione dell’algoritmo più recente e si risolve da solo dopo l’esecuzione dell’algoritmo successivo.
 
 * Il rendering parziale del modello è disabilitato e non sono disponibili risultati sufficienti per riempire il modello.
 
-   Questa situazione si verifica in genere quando disponi di una regola di inclusione dinamica, che filtra in modo aggressivo molti elementi dai possibili risultati. Per evitare questa situazione, abilita i backup e non applicare la regola di inclusione ai backup, o utilizza i criteri in sequenza con criteri filtrati in modo meno aggressivo.
+  Questa situazione si verifica in genere quando disponi di una regola di inclusione dinamica, che filtra in modo aggressivo molti elementi dai possibili risultati. Per evitare questa situazione, abilita i backup e non applicare la regola di inclusione ai backup, o utilizza i criteri in sequenza con criteri filtrati in modo meno aggressivo.
 
 ## I consigli basati sugli elementi visualizzati di recente persistono su più dispositivi per un singolo visitatore? {#persist-across-devices}
 
@@ -244,7 +244,7 @@ Se il visitatore non ha due sessioni attive contemporaneamente, gli elementi vis
 
 ## Posso utilizzare in [!DNL Recommendations Premium] un algoritmo creato in [!DNL Adobe Recommendations Classic]?
 
-Gli algoritmi creati in [!DNL Recommendations Classic] non sono supportati in [!DNL Recommendations Premium]. È possibile utilizzare un algoritmo legacy in [!DNL Target Premium]; tuttavia, l’algoritmo potrà creare problemi di sincronizzazione durante la disattivazione o l’eliminazione dell’attività nell’interfaccia utente di [!DNL Target Premium]. Per ulteriori informazioni sulle differenze tra le due soluzioni, consulta Attività [[!DNL Recommendations Classic] versus [!DNL Recommendations] in [!DNL Target Premium]](/help/main/c-recommendations/c-recommendations-faq/recommendations-classic-versus-recommendations-activities-target-premium.md).
+Gli algoritmi creati in [!DNL Recommendations Classic] non sono supportati in [!DNL Recommendations Premium]. È possibile utilizzare un algoritmo legacy in [!DNL Target Premium]; tuttavia, l’algoritmo potrà creare problemi di sincronizzazione durante la disattivazione o l’eliminazione dell’attività nell’interfaccia utente di [!DNL Target Premium]. Per ulteriori informazioni sulle differenze tra le due soluzioni, consulta [[!DNL Recommendations Classic] rispetto a [!DNL Recommendations] attività in [!DNL Target Premium]](/help/main/c-recommendations/c-recommendations-faq/recommendations-classic-versus-recommendations-activities-target-premium.md).
 
 ## Come posso consigliare solo articoli o video nuovi? {#recommend-new-articles}
 

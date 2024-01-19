@@ -4,10 +4,10 @@ description: Scopri come definire un pubblico per confrontare due attributi di p
 title: È possibile confrontare due attributi di profilo da utilizzare nei tipi di pubblico?
 feature: Audiences
 exl-id: 033e90f1-5a05-4fce-a520-68826860a908
-source-git-commit: 1383088bb2f6be0432e6f140400d8723048c8530
+source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
 workflow-type: tm+mt
-source-wordcount: '431'
-ht-degree: 62%
+source-wordcount: '428'
+ht-degree: 53%
 
 ---
 
@@ -28,9 +28,9 @@ Ad esempio, supponiamo che tu lavori per un’azienda di mobili e che in sia sta
 * Probabilità di acquisto di mobili per la sala da pranzo nei prossimi 90 giorni
 * Probabilità di acquisto di mobili per il soggiorno nei prossimi 90 giorni
 
-Puoi creare un pubblico la cui propensione ad acquistare mobili per la sala da pranzo è maggiore della propensione ad acquistarne per il soggiorno. [!DNL Target] consente quindi di confrontare in modo dinamico il punteggio della propensione per la sala da pranzo e il soggiorno per un visitatore specifico per determinare se tale visitatore è destinato a questo pubblico.
+Puoi creare un pubblico la cui propensione ad acquistare mobili per la sala da pranzo è maggiore della propensione ad acquistarne per il soggiorno. [!DNL Target] confronta quindi in modo dinamico i punteggi di propensione per la sala da pranzo e il soggiorno di un visitatore specifico per determinare se quel visitatore è idoneo per questo pubblico.
 
-Per ulteriori informazioni, consulta [Metodi per ottenere dati in Target](https://experienceleague.corp.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html?lang=it){target=_blank}.
+Per ulteriori informazioni, consulta [Metodi per immettere i dati in Target](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html){target=_blank}.
 
 ## Creare un pubblico per il confronto degli attributi di profilo {#section_7A62FD47D5C74C3EBC3417ACDBB85013}
 

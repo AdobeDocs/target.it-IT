@@ -4,10 +4,10 @@ description: Scopri come combinare più tipi di pubblico (tra cui quelli di Adob
 title: È possibile combinare più tipi di pubblico per creare un nuovo pubblico?
 feature: Audiences
 exl-id: 1d9bff9c-f63b-4e15-9809-71b046158b71
-source-git-commit: 1383088bb2f6be0432e6f140400d8723048c8530
+source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
 workflow-type: tm+mt
-source-wordcount: '961'
-ht-degree: 63%
+source-wordcount: '947'
+ht-degree: 56%
 
 ---
 
@@ -17,7 +17,7 @@ Combinare più tipi di pubblico (incluso [!DNL Adobe Experience Cloud], [!DNL Ad
 
 >[!NOTE]
 >
->Il [!DNL Adobe Experience Platform] l&#39;origine è disponibile per tutti [!DNL Target] clienti che utilizzano [Adobe Experience Platform Web SDK](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=en){target=_blank}. Tipi di pubblico disponibili da [!DNL Adobe Experience Platform] può essere utilizzato così come è o combinato con i tipi di pubblico esistenti, come spiegato in questo argomento.
+>Il [!DNL Adobe Experience Platform] l&#39;origine è disponibile per tutti [!DNL Target] clienti che utilizzano [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=en){target=_blank}. Tipi di pubblico disponibili da [!DNL Adobe Experience Platform] può essere utilizzato così come è o combinato con i tipi di pubblico esistenti, come spiegato in questo argomento.
 >
 >Per ulteriori informazioni, consulta [Utilizzare i tipi di pubblico da Adobe Experience Platform](/help/main/c-target/c-audiences/audiences.md#aep).
 
@@ -83,7 +83,7 @@ Puoi creare un pubblico combinato specifico nella pagina di [!UICONTROL Target] 
 
 Puoi creare un pubblico combinato specifico nella pagina [!UICONTROL Obiettivi e impostazioni] dell&#39;attività da utilizzare nel targeting metrico. Ad esempio, per creare un targeting basato sulla conversione utilizzando un pubblico combinato:
 
-1. Durante la modifica o la creazione di un&#39; [attività](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03), nella pagina **[!UICONTROL Obiettivi e impostazioni]**, seleziona **[!UICONTROL Conversione]** per la metrica di successo, quindi seleziona **[!UICONTROL Visualizza una mbox]** come azione.
+1. Durante la modifica o la creazione di un’ [attività](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03), sulla **[!UICONTROL Obiettivi e impostazioni]** pagina, seleziona **[!UICONTROL Conversione]** per la metrica di successo, quindi seleziona **[!UICONTROL Visualizzazione di una Mbox]** come azione.
 1. Seleziona la mbox desiderata nel campo **[!UICONTROL Ricerca mbox]**.
 
    ![immagine combinate_multiple_audiences4](assets/combine_multiple_audiences4.png)
@@ -99,7 +99,7 @@ Puoi creare un pubblico combinato specifico nella pagina [!UICONTROL Obiettivi e
 
 Puoi creare un pubblico combinato specifico nella pagina dell&#39;attività [!UICONTROL Obiettivi e impostazioni] da utilizzare nel rapporto.
 
-1. Durante la modifica o la creazione di un’ [attività](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03), nella pagina **[!UICONTROL Obiettivi e impostazioni]** fai clic sull&#39;icona **[!UICONTROL Aggiungi pubblico]** in [!UICONTROL Pubblico per la creazione di rapporti] per visualizzare la pagina [!UICONTROL Scegli pubblico].
+1. Durante la modifica o la creazione di un’ [attività](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03), sulla **[!UICONTROL Obiettivi e impostazioni]** , fare clic su **[!UICONTROL Aggiungi pubblico]** icona sotto [!UICONTROL Tipi di pubblico per i rapporti] per visualizzare [!UICONTROL Scegli pubblico] pagina.
 
    ![immagine combinate_multiple_audiences6](assets/combine_multiple_audiences6.png)
 
@@ -119,7 +119,7 @@ Puoi creare un pubblico combinato specifico durante la modifica di un&#39;attivi
 
    ![Configura > Tipi di pubblico > Più tipi di pubblico](assets/combine_multiple_audiences7.png)
 
-1. Fai clic sull’icona altre opzioni (tre puntini di sospensione verticali) accanto al pubblico corrente dell’attività, quindi fai clic su **[!UICONTROL Cambia pubblico]**.
+1. Fai clic sull&#39;icona altre opzioni (tre puntini di sospensione verticali) accanto al pubblico corrente dell&#39;attività, quindi fai clic su **[!UICONTROL Sostituisci pubblico]**.
 
    ![Cambia pubblico](assets/combine_multiple_audiences8.png)
 

@@ -1,14 +1,14 @@
 ---
 keywords: entità;attributi di entità;passare informazioni a Recommendations;dati comportamentali;contatore dati;definire URL relativo;visualizzare livello di inventario;definire prezzo;definire margine di profitto;attributi personalizzati
 description: Scopri come utilizzare gli attributi di entità per trasmettere informazioni su prodotti o contenuti a [!DNL Target] Recommendations.
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Vedi cosa è incluso in Target Premium."
 title: Come si utilizzano gli attributi di entità?
 feature: Recommendations
 exl-id: 4ed5fad3-b8b6-4675-a741-9f85cf73fcf1
-source-git-commit: 341b57a91dac8f948e9d7767999411118c0e0562
+source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
 workflow-type: tm+mt
-source-wordcount: '1081'
-ht-degree: 53%
+source-wordcount: '1090'
+ht-degree: 52%
 
 ---
 
@@ -31,7 +31,7 @@ In generale, se utilizzi at.js 1, la mbox delle informazioni di visualizzazione 
 
 >[!NOTE]
 >
->Se utilizzi at.js 2.*x*, `mboxCreate` (utilizzato nell’esempio seguente) non è più supportato. Per trasmettere informazioni su prodotti o contenuti a [!DNL Recommendations] utilizzo di at.js 2.*x*, utilizza [targetPageParams](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetpageparams.html){target=_blank}. For an example, see [Plan and implement Recommendations](https://experienceleague.corp.adobe.com/docs/target-dev/developer/recommendations.html?lang=it){target=_blank}.
+>Se utilizzi at.js 2.*x*, `mboxCreate` (utilizzato nell’esempio seguente) non è più supportato. Per trasmettere informazioni su prodotti o contenuti a [!DNL Recommendations] utilizzo di at.js 2.*x*, utilizza [targetPageParams](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetpageparams.html){target=_blank}. For an example, see [Plan and implement Recommendations](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}.
 
 ```javascript
 <div class="mboxDefault"></div><script language="JavaScript1.2"> 
@@ -183,11 +183,11 @@ Il margine di profitto o altro valore dell&#39;elemento.
 
 Esempio: `'entity.margin=1.00'`
 
-### entity.*custom*
+### entità.*personalizzato*
 
 Supporta più valori (array JSON).
 
-Definisci fino a 100 variabili personalizzate che forniscono informazioni aggiuntive sul prodotto. Puoi specificare qualsiasi nome di attributo non utilizzato per ogni attributo personalizzato. Ad esempio, puoi creare un attributo personalizzato denominato `entity.genre` per definire un libro o un filmato. Un venditore di biglietti può creare attributi per il luogo di un evento per un artista secondario, ad esempio una squadra in visita in un evento sportivo o un atto di apertura in un concerto.
+Definisci fino a 100 variabili personalizzate che forniscono informazioni aggiuntive sul prodotto. Puoi specificare qualsiasi nome di attributo non utilizzato per ogni attributo personalizzato. Ad esempio, puoi creare un attributo personalizzato denominato `entity.genre` per definire un libro o un filmato. Un venditore di biglietti può creare attributi per un luogo di un evento per un artista secondario, ad esempio una squadra in visita in un evento sportivo o un atto di apertura in un concerto.
 
 Limitazioni:
 
@@ -224,4 +224,3 @@ mboxCreate('myMbox',  'profile.geo.city = new york', 'profile.geo.state = new yo
 >[!MORELIKETHIS]
 >
 >* [Attributi di entità personalizzati](/help/main/c-recommendations/c-products/custom-entity-attributes.md#concept_E5CF39BCAC8140309A73828706288322)
-

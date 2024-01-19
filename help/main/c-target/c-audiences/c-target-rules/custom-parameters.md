@@ -4,10 +4,10 @@ description: Scopri come trasmettere parametri personalizzati a [!DNL Adobe Targ
 title: Posso indirizzare i visitatori in base a parametri personalizzati?
 feature: Audiences
 exl-id: f0669888-6b9e-4738-9ed4-0418ea56fffa
-source-git-commit: 1383088bb2f6be0432e6f140400d8723048c8530
+source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
 workflow-type: tm+mt
-source-wordcount: '495'
-ht-degree: 42%
+source-wordcount: '491'
+ht-degree: 37%
 
 ---
 
@@ -15,11 +15,11 @@ ht-degree: 42%
 
 I parametri personalizzati sono parametri mbox in [!DNL Adobe Target]. Se trasmetti parametri mbox alle mbox o utilizzi il `targetPageParams` funzione, questi parametri vengono visualizzati qui per essere utilizzati nei tipi di pubblico.
 
-Per ulteriori informazioni, consulta [Trasmettere i parametri a una mbox globale](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/global-mbox/pass-parameters-to-global-mbox.html?lang=it){target=_blank}.
+Per ulteriori informazioni, consulta [Trasmettere i parametri a una mbox globale](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/global-mbox/pass-parameters-to-global-mbox.html){target=_blank}.
 
 Durante la creazione di un pubblico personalizzato basato su un parametro mbox, `mboxParameter` non richiede più di specificare `mboxName`. Il nome dell’elemento mbox è ora facoltativo. Questa modifica consente di utilizzare parametri da più elementi mbox o di fare riferimento a un parametro che non è ancora stato registrato nella rete Edge.
 
-1. Nell’interfaccia di [!DNL Target] fai clic su **[!UICONTROL Pubblico]** > **[!UICONTROL Crea pubblico]**.
+1. In [!DNL Target] , fare clic su **[!UICONTROL Tipi di pubblico]** > **[!UICONTROL Crea pubblico]**.
 1. Assegna un nome al pubblico e aggiungi una descrizione facoltativa.
 1. Trascina **[!UICONTROL Personalizzato]** in Audience Builder.
 
@@ -60,7 +60,7 @@ Durante la creazione di un pubblico personalizzato basato su un parametro mbox, 
 1. (Facoltativo) Imposta regole aggiuntive per il pubblico.
 1. Fai clic su **[!UICONTROL Fine]**.
 
-I [dettagli della definizione di una scheda a comparsa](/help/main/c-target/c-audiences/audiences.md#section_11B9C4A777E14D36BA1E925021945780) del pubblico visualizzano il nome del parametro nella sezione Regole. **** Non esiste un riferimento al mbox utilizzato per il filtraggio.
+Il pubblico [scheda a comparsa dettagli definizione](/help/main/c-target/c-audiences/audiences.md#section_11B9C4A777E14D36BA1E925021945780) mostra il nome del parametro in **[!UICONTROL Regole]** sezione. Non esiste un riferimento al mbox utilizzato per il filtraggio.
 
 >[!NOTE]
 >

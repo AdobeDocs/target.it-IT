@@ -4,10 +4,10 @@ description: Esplora un elenco di domande e risposte frequenti su Adobe [!DNL Ta
 title: Dove posso trovare le risposte alle domande su [!DNL Target] Generare rapporti?
 feature: Reports
 exl-id: 1a345a67-5050-4bd3-858d-99731d2c1dd3
-source-git-commit: 5856bed8dd3bf59164c842eef687757f4e877bd5
+source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
 workflow-type: tm+mt
-source-wordcount: '1376'
-ht-degree: 27%
+source-wordcount: '1385'
+ht-degree: 25%
 
 ---
 
@@ -65,7 +65,7 @@ Alcuni visitatori hanno raggiunto la metrica di conversione, configurata come &q
 
 Nelle attività Targeting esperienze (XT) deve essere sempre presente un’esperienza di controllo. Se utilizzi un’attività XT in modo simile a un’[!UICONTROL attività Test A/B], come spesso avviene, i dati sull’esperienza di controllo sono utili. Se ritieni che non siano utili nei tuoi rapporti, puoi semplicemente ignorarli.
 
-## Perché il numero di visite in [!DNL Target] è inferiore rispetto ad altre soluzioni [!DNL Adobe Experience Cloud]? {#section_7E626FDB417E41B8B58BBF30FB207409}
+## Perché il numero di visite è inferiore in [!DNL Target] rispetto ad altri [!DNL Adobe Experience Cloud] soluzioni? {#section_7E626FDB417E41B8B58BBF30FB207409}
 
 Numeri delle metriche, ad esempio visite, segnalati da [!DNL Target] sono sempre inferiori ai numeri riportati in altri [!DNL Experience Cloud] soluzioni per diversi motivi:
 
@@ -125,6 +125,6 @@ Ad esempio, ho impostato la suddivisione del traffico su 50/50 o 25/25/25/25 ma 
 * La best practice per i test A/B e MVT consiste nel mantenere uniformi le suddivisioni del traffico. Cambiare la distribuzione del traffico tra le esperienze (ad esempio da 90/10 a 50/50) durante un test può portare a visitatori irregolari tra le esperienze. L’esperienza con traffico ridotto potrebbe non &quot;recuperare&quot; mai.
 * Se segui le best practice di cui sopra e la suddivisione del traffico non si normalizza nel tempo, controlla quanto segue:
 
-   * Stai utilizzando la libreria at.js più recente? Per ulteriori informazioni sulla versione corrente e sulle relative note sulla versione, consulta [Dettagli sulle versioni di at.js](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=it){target=_blank}.
+   * Stai utilizzando la libreria at.js più recente? Per ulteriori informazioni sulla versione corrente e sulle relative note sulla versione, consulta [Dettagli sulle versioni di at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=it){target=_blank}.
 
    * È un test di reindirizzamento? Un orario errato per l’attivazione dei tag sulla pagina può causare suddivisioni del traffico irregolari, soprattutto quando si utilizza [!DNL Analytics] come origine di dati per un [!DNL Target] attività. Per informazioni su come porre rimedio a una distribuzione del traffico non uniforme in un’attività di reindirizzamento con Analytics for Target (A4T), consulta [Offerte di reindirizzamento - Domande frequenti su A4T](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md).
