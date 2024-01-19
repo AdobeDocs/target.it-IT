@@ -7,7 +7,7 @@ exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
 source-git-commit: a2ffeec1b98ee3c9df2466b245b972a252044c3d
 workflow-type: tm+mt
 source-wordcount: '346'
-ht-degree: 62%
+ht-degree: 78%
 
 ---
 
@@ -35,11 +35,11 @@ Questa versione è pianificata per i seguenti giorni:
 Questa versione include i miglioramenti e le correzioni seguenti:
 
 * [!UICONTROL Analytics for Target] Le attività (A4T) con metriche dell’obiettivo di ricavo non mostravano &quot;Ricavi&quot; come nome della colonna e la metrica Ricavi non veniva visualizzata nel rapporto in formato ($). Si trattava di un problema estetico al quale si è posto rimedio. (TGT-46995)
-* È stato risolto un problema che impediva il corretto funzionamento degli intervalli di date per la generazione di rapporti. (TGT-47396)
-* È stato risolto un problema che causava la visualizzazione dello stato errato su [!UICONTROL Tutte le attività] dopo che i clienti hanno attivato o disattivato un’attività utilizzando [!UICONTROL Altre azioni] icona. (TGT-47367)
+* È stato risolto un problema che impediva il corretto funzionamento della reportistica degli intervalli di date. (TGT-47396)
+* È stato risolto un problema che causava la visualizzazione dello stato errato nella pagina [!UICONTROL Tutte le attività] dopo che i clienti hanno attivato o disattivato un’attività utilizzando l’icona [!UICONTROL Altre azioni]. (TGT-47367)
 * È stato risolto un problema che causava la [!UICONTROL Attributi importanti] rapporto da non visualizzare per un singolo cliente. (TGT-47272)
 * È stato risolto un problema che causava la visualizzazione di un messaggio di &quot;payload non valido&quot; quando un singolo cliente tentava di abilitare &quot;Richiedi autenticazione&quot;. (TGT-47195)
-* Sono state aggiornate numerose stringhe localizzate in [!DNL Target] UI.
+* Sono state aggiornate diverse stringhe localizzate nell’interfaccia utente di [!DNL Target].
 
 ## Note aggiuntive e dettagli sulla versione
 
