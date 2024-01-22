@@ -6,10 +6,10 @@ short-description: Scopri le nuove funzioni, i miglioramenti e le correzioni inc
 title: Cosa è incluso nella versione corrente?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
+source-git-commit: 99152f66217f66174e8b6a5a7319f11b22c74b8e
 workflow-type: tm+mt
-source-wordcount: '488'
-ht-degree: 100%
+source-wordcount: '575'
+ht-degree: 84%
 
 ---
 
@@ -19,23 +19,28 @@ Queste note sulla versione forniscono informazioni su funzioni, miglioramenti e 
 
 I codici dei problemi tra parentesi sono per uso interno di [!DNL Adobe].
 
-## [!DNL Target] Standard/Premium 23.11.1 (13 e 14 novembre 2023)
+## Rimozione di iPad e iPhone dall’attributo di pubblico del browser (30 aprile 2024)
+
+| Rimozione | Dettagli |
+|--- |--- |
+| [!DNL iPad] e [!DNL iPhone] verranno rimossi dall’[attributo di browser](/help/main/c-target/c-audiences/c-target-rules/browser.md) utilizzato durante la creazione di tipi di pubblico.<p>Data di rimozione:<P>30 aprile 2024 | [!DNL Adobe Target] consente di [eseguire il targeting su uno qualsiasi dei vari attributi di categoria](/help/main/c-target/c-audiences/c-target-rules/target-rules.md), inclusi gli utenti che utilizzano [opzioni browser o browser](/help/main/c-target/c-audiences/c-target-rules/browser.md) specifici quando visitano la tua pagina.<P><B>A partire dal 30 aprile 2024, iPad e iPhone verranno rimossi dall’elenco a discesa del tipo di [!UICONTROL browser] durante la creazione di categorie per i tipi di pubblico.</b><P>Se hai tipi di pubblico che eseguono il targeting di iPad o iPhone utilizzando come attributo il [!UICONTROL browser], è necessario modificare queste impostazioni prima del 30 aprile 2024 per garantire che tali tipi di pubblico continuino a funzionare come previsto.<p>Per esempi di impostazioni alternative, consulta [Obsolescenza di iPad e iPhone dall’attributo di pubblico del browser (30 aprile 2024)](/help/main/c-target/c-audiences/c-target-rules/browser.md#deprecation). |
+
+## [!DNL Target] Standard/Premium 24.1.1 (22, 23 e 25 gennaio 2024)
 
 Questa versione è pianificata per i seguenti giorni:
 
-* **13 novembre**: area geografica Asia-Pacifico (APAC)
-* **14 novembre**: area geografica delle Americhe
-* **14 novembre**: area geografica Europa, Medio Oriente e Africa (EMEA)
+* **22 gennaio**: area geografica Europa, Medio Oriente e Africa (EMEA)
+* **23 gennaio**: area geografica Asia-Pacifico (APAC)
+* **25 gennaio**: area geografica delle Americhe
 
 Questa versione include i miglioramenti e le correzioni seguenti:
 
-* È stata migliorata la funzione [Controllo qualità delle attività](/help/main/c-activities/c-activity-qa/activity-qa.md) per supportare la [disabilitazione delle offerte duplicate](/help/main/c-activities/t-automated-personalization/managing-exclusions.md) per esperienze nelle attività di [!UICONTROL Automated Personalization] . (TGT-46627)
-* È stata aggiunta una descrizione nell’interfaccia utente di [!DNL Target] per aiutare la clientela a comprendere il motivo per cui potrebbero non essere disponibili dati nei rapporti sulle attività, se non viene allocato traffico all’esperienza di controllo. Nella descrizione è incluso un collegamento a ulteriori informazioni: [Perché non sono disponibili dati per il rapporto della mia attività?](/help/main/c-reports/reporting-frequently-asked-questions.md#section_E4722F6445884130951DF79981C8289B). (TGT-46610)
-* È stato risolto un problema che impediva a una parte della clientela la corretta visualizzazione delle attività nella pagina [!UICONTROL Attività]. (TGT-46830)
-* Sono stati risolti i seguenti problemi che interessavano le attività che utilizzavano [[!UICONTROL Analytics for Target]](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T) come origine di reporting:
-   * È stato risolto un problema che impediva ad alcuni clienti di visualizzare i dati di reporting. (TGT-46557)
-   * È stato risolto un problema che a volte causava il malfunzionamento del collegamento [!UICONTROL Visualizza in Analytics] nelle pagine di reporting delle attività. (TGT-46731)
-   * È stato risolto un problema che impediva la corretta visualizzazione dei dati per [!UICONTROL Incremento] e [!UICONTROL Affidabilità] nell’interfaccia utente di [!DNL Target] . (TGT-46592, TGT-46554, TGT-46586)
+* [!UICONTROL Analytics for Target] Le attività (A4T) con metriche dell’obiettivo di ricavo non mostravano &quot;Ricavi&quot; come nome della colonna e la metrica Ricavi non veniva visualizzata nel rapporto in formato ($). Si trattava di un problema estetico al quale si è posto rimedio. (TGT-46995)
+* È stato risolto un problema che impediva il corretto funzionamento della reportistica degli intervalli di date. (TGT-47396)
+* È stato risolto un problema che causava la visualizzazione dello stato errato nella pagina [!UICONTROL Tutte le attività] dopo che i clienti hanno attivato o disattivato un’attività utilizzando l’icona [!UICONTROL Altre azioni]. (TGT-47367)
+* È stato risolto un problema che causava la [!UICONTROL Attributi importanti] rapporto da non visualizzare per un singolo cliente. (TGT-47272)
+* È stato risolto un problema che causava la visualizzazione di un messaggio di &quot;payload non valido&quot; quando un singolo cliente tentava di abilitare &quot;Richiedi autenticazione&quot;. (TGT-47195)
+* Sono state aggiornate diverse stringhe localizzate nell’interfaccia utente di [!DNL Target].
 
 ## Note aggiuntive e dettagli sulla versione
 
