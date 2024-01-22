@@ -3,10 +3,10 @@ user-guide-title: Guida di Adobe Target per professionisti aziendali
 breadcrumb-title: Guida di Target
 user-guide-description: Scopri come adattare e personalizzare l’esperienza dei clienti per massimizzare le entrate dai siti web e mobili, dalle app, dai social media e da altri canali digitali.
 feature-set: Target
-source-git-commit: 273143c5b2157948eee464ee0514e04a0105e978
+source-git-commit: 1faedc44c4f8f95000b666af8eecaf1eca5bf48d
 workflow-type: tm+mt
-source-wordcount: '1236'
-ht-degree: 94%
+source-wordcount: '1225'
+ht-degree: 92%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 94%
 + Introduzione {#introduction}
    + [Introduzione a Target](c-intro/intro.md)
    + [Accedere a Target da Adobe Experience Cloud](c-intro/target-access-from-mac.md)
-   + [Target concetti chiave](c-intro/target-key-concepts.md)
+   + [Concetti chiave di Target](c-intro/target-key-concepts.md)
    + [Descrizione dell’interfaccia utente di Target](/help/main/c-intro/understand-the-target-ui.md)
    + Kit di benvenuto Adobe Target {#welcome}
       + [Panoramica del kit di benvenuto di Target](/help/main/c-intro/target-welcome-kit.md)
@@ -93,13 +93,14 @@ ht-degree: 94%
       + [Adobe Customer Journey Analytics come origine per la generazione di rapporti per Target (CJA4T)](/help/main/c-integrating-target-with-mac/cja4t/cja4t.md)
    + Integrare Target con Adobe Journey Optimizer (AJO) {#ajo}
       + [Utilizzare le decisioni sulle offerte](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md)
+      + [Integrare [!DNL Adobe Target Recommendations] e [!DNL Adobe Journey Optimizer]](/help/main/c-integrating-target-with-mac/ajo/recs-ajo-integration.md) {#recs-ajo} {#hidden}
    + [Experience Cloud Audiences](/help/main/c-integrating-target-with-mac/mmp.md)
    + Integrare Target con Adobe Experience Manager (AEM) {#aem}
       + [Panoramica sull’integrazione di Target con AEM](/help/main/c-integrating-target-with-mac/aem/aem-target-integration.md)
       + Frammenti di esperienza e frammenti di contenuto {#fragments}
-         + [Panoramica dei frammenti di esperienza e frammenti di contenuto di AEM](/help/main/c-integrating-target-with-mac/aem/aem-experience-and-content-fragments.md)
+         + [Panoramica sui frammenti di esperienza e sui frammenti di contenuto dell’AEM](/help/main/c-integrating-target-with-mac/aem/aem-experience-and-content-fragments.md)
          + [Frammenti esperienza AEM](/help/main/c-integrating-target-with-mac/aem/experience-fragments-aem.md)
-         + [Frammenti di contenuto di AEM](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md)
+         + [Frammenti di contenuto AEM](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md)
    + [Integrare Target con Adobe Audience Manager (AAM)](/help/main/c-integrating-target-with-mac/audience-manager-target-integration.md)
    + [Integrare con Real-time Customer Data Platform](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md)
    + [Integrare Target con Adobe Campaign](c-integrating-target-with-mac/campaign-and-target.md)
@@ -129,7 +130,7 @@ ht-degree: 94%
       + [Panoramica del Targeting automatico](/help/main/c-activities/auto-target/auto-target-to-optimize.md)
       + [Creare un’attività di Targeting automatico](/help/main/c-activities/auto-target/create-auto-target.md)
       + [Domande frequenti sul Targeting automatico e risoluzione dei problemi](/help/main/c-activities/auto-target/auto-target-troubleshooting-faqs.md)
-      + [Creazione di rapporti e Targeting automatico](/help/main/c-activities/auto-target/reporting-and-auto-target.md)
+      + [Relazioni e Targeting automatico](/help/main/c-activities/auto-target/reporting-and-auto-target.md)
    + Automated Personalization {#automated-personalization}
       + [Panoramica su Automated Personalization](c-activities/t-automated-personalization/automated-personalization.md)
       + [Algoritmo Foresta casuale](c-activities/t-automated-personalization/algo-random-forest.md)
@@ -197,7 +198,7 @@ ht-degree: 94%
          + [Dispositivi mobili](c-target/c-audiences/c-target-rules/mobile.md)
          + [Sistema operativo](c-target/c-audiences/c-target-rules/operating-system.md)
          + [Pagine del sito](c-target/c-audiences/c-target-rules/site-pages.md)
-         + [Target Libreria](c-target/c-audiences/c-target-rules/target-library.md)
+         + [Libreria di Target](c-target/c-audiences/c-target-rules/target-library.md)
          + [Arco temporale](c-target/c-audiences/c-target-rules/time-frame.md)
          + [Origini del traffico](c-target/c-audiences/c-target-rules/traffic-sources.md)
          + [Profilo visitatore](c-target/c-audiences/c-target-rules/visitor-profile.md)

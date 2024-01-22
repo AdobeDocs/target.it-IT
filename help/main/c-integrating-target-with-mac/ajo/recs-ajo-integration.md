@@ -1,20 +1,20 @@
 ---
 keywords: ajo;adobe percorsi optimizer;adobe percorsi optimizer integrazione target;recommendations;target recommendations;integrazione
-description: Utilizzare [!DNL Adobe Target Recommendations] con [!DNL Adobe Journey Optimizer].
+description: Integrare [!DNL Adobe Target Recommendations] con [!DNL Adobe Journey Optimizer].
 title: Come si utilizza [!DNL Target Recommendations] nei percorsi di clienti utilizzando [!DNL Adobe Journey Optimizer]?
 feature: Integrations
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Vedi cosa è incluso in Target Premium."
 badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=it#beta newtab=true" tooltip="Cosa sono le funzioni beta in [!DNL Adobe Target]."
 hide: true
 hidefromtoc: true
-source-git-commit: bb6c83ff393656a634e1e8ddcb02b14dc8d4c8d2
+source-git-commit: 1faedc44c4f8f95000b666af8eecaf1eca5bf48d
 workflow-type: tm+mt
 source-wordcount: '343'
 ht-degree: 3%
 
 ---
 
-# [!DNL Adobe Target Recommendations] e [!DNL Adobe Journey Optimizer] integrazione
+# Integra [!DNL Adobe Target Recommendations] e [!DNL Adobe Journey Optimizer]
 
 Questo articolo spiega casi d’uso e informazioni utili per configurare l’integrazione tra [!DNL Adobe Target Recommendation] e [!DNL Adobe Journey Optimizer] per aiutarti a fornire ai tuoi clienti esperienze connesse, contestuali e personalizzate.
 
