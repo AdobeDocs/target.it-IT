@@ -4,10 +4,10 @@ description: Resta aggiornato sulle importanti aggiunte e modifiche apportate al
 title: Dove posso trovare la documentazione aggiornata per  [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 99152f66217f66174e8b6a5a7319f11b22c74b8e
+source-git-commit: c79b1d40e0bf0495dc3f3d5accd196f14d18b934
 workflow-type: tm+mt
-source-wordcount: '1202'
-ht-degree: 97%
+source-wordcount: '1237'
+ht-degree: 95%
 
 ---
 
@@ -19,6 +19,8 @@ Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Targ
 
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
+| 24 gennaio | [Dettagli sulle versioni di at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=it){target=_blank} | Nuove note sulla versione per la versione 2.11.4 di at.js. |
+|  | [Browser](/help/main/c-target/c-audiences/c-target-rules/browser.md#deprecation) | Ha annunciato che i due nuovi profili non sono ancora disponibili. Queste note verranno aggiornate quando questi profili saranno disponibili. |
 | 22 gennaio | [Note sulla versione di Target (corrente)](/help/main/r-release-notes/release-notes.md) | Sono state aggiunte informazioni importanti sulla rimozione di iPad e iPhone dalla [!UICONTROL Browser] attributo di pubblico che richiede modifiche da parte tua prima del 30 aprile 2024. |
 |  | [Browser](/help/main/c-target/c-audiences/c-target-rules/browser.md#deprecation) | È stata aggiunta una nuova sezione: <ul><li>Rimozione di iPad e iPhone dall’attributo di pubblico del browser (30 aprile 2024)</li></ul> |
 |  | [Note sulla versione di Target (corrente)](/help/main/r-release-notes/release-notes.md) | Sono state aggiunte le note sulla versione 24.1.1 di [!DNL Target Standard/Premium]. |

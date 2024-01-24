@@ -4,10 +4,10 @@ description: Scopri come creare tipi di pubblico in [!DNL Adobe Target] per eseg
 title: Posso indirizzare i visitatori in base al tipo di browser?
 feature: Audiences
 exl-id: 8420bbe3-b58a-4ddb-89bb-0265dab6b5fc
-source-git-commit: 99152f66217f66174e8b6a5a7319f11b22c74b8e
+source-git-commit: c79b1d40e0bf0495dc3f3d5accd196f14d18b934
 workflow-type: tm+mt
-source-wordcount: '986'
-ht-degree: 55%
+source-wordcount: '1022'
+ht-degree: 53%
 
 ---
 
@@ -139,6 +139,8 @@ A partire dal 30 aprile 2024, iPad e iPhone verranno rimossi dal [!UICONTROL Bro
 
 Se hai tipi di pubblico che eseguono il targeting di iPad o iPhone utilizzando come attributo il [!UICONTROL browser], è necessario modificare queste impostazioni prima del 30 aprile 2024 per garantire che tali tipi di pubblico continuino a funzionare come previsto.
 
+### Tipi di pubblico creati utilizzando [!DNL Target] UI
+
 In futuro sarà possibile utilizzare le seguenti impostazioni:
 
 * **Per corrispondenze browser[!DNL Apple]**: [!UICONTROL Dispositivi mobili] > [!UICONTROL Fornitore dispositivo] [!UICONTROL corrisponde a] [!DNL Apple]
@@ -167,16 +169,19 @@ In futuro sarà possibile utilizzare le seguenti impostazioni:
 
   ![Non tablet](/help/main/r-release-notes/assets/tablet-false.png)
 
-Se usa `user.browserType` nei segmenti JavaScript, le modifiche devono includere quanto segue:
+### Tipi di pubblico creati mediante script di profilo
+
+Se usa `user.browserType` nei segmenti JavaScript come spiegato in [Glossario di profili e variabili](/help/main/c-target/c-visitor-profile/variables-profiles-parameters-methods.md), le modifiche devono includere quanto segue:
 
 >[!NOTE]
 >
->Le seguenti aggiunte sono previste per il 24 gennaio 2024. Queste aggiunte rendono possibili le seguenti modifiche:
->
->* `profile.mobile.isTablet`
->
->* `profile.mobile.isMobilePhone`
+>I seguenti profili sono pianificati per essere rilasciati nei prossimi giorni, a partire dal 24 gennaio 2024. Il [note sulla versione corrente](/help/main/r-release-notes/release-notes.md) verranno aggiornati quando questi profili saranno disponibili.
 
+Questi profili consentono le seguenti modifiche:
+>>
+* `profile.mobile.isTablet`
+>>
+* `profile.mobile.isMobilePhone`
 
 * **BrowserType è iPhone**:
 
