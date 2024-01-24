@@ -4,10 +4,10 @@ description: Scopri come creare tipi di pubblico in [!DNL Adobe Target] per eseg
 title: Posso indirizzare i visitatori in base al tipo di browser?
 feature: Audiences
 exl-id: 8420bbe3-b58a-4ddb-89bb-0265dab6b5fc
-source-git-commit: c79b1d40e0bf0495dc3f3d5accd196f14d18b934
+source-git-commit: 968f9982299156d3f4d599d00322106fe3629610
 workflow-type: tm+mt
-source-wordcount: '1022'
-ht-degree: 53%
+source-wordcount: '1057'
+ht-degree: 36%
 
 ---
 
@@ -17,22 +17,22 @@ Puoi indirizzare l’attività agli utenti che visitano la pagina utilizzando un
 
 È possibile indirizza l’attività ai seguenti browser:
 
-* Chrome
-* Firefox
-* Safari
-* Internet Explorer
-* Microsoft Edge
-* Opera
-* iPad 
-* iPhone
+* [!UICONTROL Chrome]
+* [!UICONTROL Firefox]
+* [!UICONTROL Safari]
+* [!UICONTROL Internet Explorer]
+* [!UICONTROL Microsoft Edge]
+* [!UICONTROL Opera]
+* [!DNL iPad]
+* [!DNL iPhone]
 
 >[!IMPORTANT]
 >
->A partire dal 30 aprile 2024, iPad e iPhone verranno rimossi dal [!UICONTROL Browser] digita l’elenco a discesa durante la creazione di categorie per i tipi di pubblico. Per le impostazioni della soluzione alternativa, consulta [Obsolescenza di iPad e iPhone dall’attributo di pubblico del browser (30 aprile 2024)](#deprecation) di seguito.
+>A partire dal 30 aprile 2024, [!DNL iPad] e [!DNL iPhone] verrà rimosso dal [!UICONTROL Browser] digita l’elenco a discesa durante la creazione di categorie per i tipi di pubblico. Per le impostazioni della soluzione alternativa, consulta [Obsolescenza di iPad e iPhone dall’attributo di pubblico del browser (30 aprile 2024)](#deprecation) di seguito.
 
 Esistono due modi per indirizzare i browser:
 
-* **Pubblico predefinito:** il pubblico predefinito è utile se desideri indirizzare un’attività solo ai visitatori che utilizzano un browser specifico per visitare il tuo sito. Ad esempio, se stai offrendo un’estensione per Chrome, puoi rivolgerti ai soli utenti di Chrome.
+* **Pubblico predefinito:** il pubblico predefinito è utile se desideri indirizzare un’attività solo ai visitatori che utilizzano un browser specifico per visitare il tuo sito. Ad esempio, se offri un [!DNL Chrome] estensione, esegui solo il targeting [!DNL Chrome] utenti.
 
    1. Durante la configurazione dell’attività, seleziona il browser dall’elenco a discesa.
 
@@ -57,7 +57,7 @@ Esistono due modi per indirizzare i browser:
    1. (Facoltativo) Imposta regole aggiuntive per il pubblico.
    1. Fai clic su **[!UICONTROL Fine]**.
 
-  L’esempio seguente mostra un pubblico che include gli utenti di Microsoft Edge nelle versioni 91 o 92:
+  L’esempio seguente mostra un pubblico che include [!DNL Microsoft Edge] utenti nelle versioni 91 o 92:
 
   ![Target Edge 91 o 92](assets/target_edge.png)
 
@@ -71,8 +71,8 @@ Includi o escludi gli utenti che usano un determinato browser.
 
 Seleziona **[!UICONTROL Tipo]**, poi scegli “è uguale a” o “è diverso da”.
 
-* È uguale a: includi nell’attività i browser selezionati.
-* È diverso da: escludi dall’attività i browser selezionati.
+* [!UICONTROL Uguale a]: esegui il targeting dei browser selezionati.
+* [!UICONTROL Non è uguale a]: escludi i browser selezionati.
 
 Seleziona uno o più browser. Le opzioni multiple sono collegate con l’operatore O.
 
@@ -86,8 +86,8 @@ L’inclusione o l’esclusione in base alla lingua del browser può permetterti
 
 Seleziona **[!UICONTROL Lingua]**, quindi scegli “è uguale a” o “è diverso da”.
 
-* È uguale a: includi nell’attività i browser nelle lingue selezionate.
-* È diverso da: escludi dall’attività i browser nelle lingue selezionate.
+* [!UICONTROL Uguale a]: esegui il targeting delle lingue del browser selezionate.
+* [!UICONTROL Non è uguale a]: esclude le lingue del browser selezionate.
 
 Seleziona una o più lingue. Le opzioni multiple sono collegate con l’operatore O.
 
@@ -107,16 +107,16 @@ Seleziona una o più lingue. Le opzioni multiple sono collegate con l’operator
 
 Includi o escludi una determinata versione del browser.
 
-Se, ad esempio, la pagina non può essere visualizzata correttamente in Internet Explorer versione 11 o precedente, puoi creare un pubblico escludendo tali versioni. In tal caso, è necessario impostare una regola in cui il tipo di browser è uguale a Internet Explorer e aggiungere una seconda regola in cui la versione è minore o uguale a 11.
+Ad esempio, se la pagina non viene visualizzata correttamente in [!DNL Internet Explorer] versione 11 o precedente, puoi creare un pubblico che escluda tali versioni. In tal caso, imposta una regola in cui il tipo di browser è uguale a [!DNL Internet Explorer] e aggiungi una seconda regola in cui la versione è minore o uguale a 11.
 
 Seleziona **[!UICONTROL Versione]**, quindi scegli un operatore:
 
-* È uguale a
-* È diverso da
-* È maggiore di
+* [!UICONTROL Uguale a]
+* [!UICONTROL Non è uguale a]
+* [!UICONTROL È maggiore di]
 * È maggiore o uguale a
-* È minore di
-* È minore o uguale a
+* [!UICONTROL È minore di]
+* [!UICONTROL È minore di o uguale a]
 
 Digita il numero di versione. In questo campo di testo è possibile immettere solo le versioni principali. La versione specificata include tutte le eventuali versioni secondarie di tale versione principale. Ad esempio, se specifichi la versione 10, sono inclusi anche i visitatori della versione 10.1.
 
@@ -137,7 +137,9 @@ Questo video contiene informazioni sull&#39;utilizzo delle categorie di pubblico
 
 A partire dal 30 aprile 2024, iPad e iPhone verranno rimossi dal [!UICONTROL Browser] digita l’elenco a discesa durante la creazione di categorie per i tipi di pubblico.
 
-Se hai tipi di pubblico che eseguono il targeting di iPad o iPhone utilizzando come attributo il [!UICONTROL browser], è necessario modificare queste impostazioni prima del 30 aprile 2024 per garantire che tali tipi di pubblico continuino a funzionare come previsto.
+I tipi di pubblico incorporati, come &quot;Browser: iPad&quot; e &quot;Browser: iPhone&quot;, verranno automaticamente spostati nella nuova definizione di pubblico. Tutti gli script di profilo che utilizzano &quot;user.browserType&quot; *non* essere aggiornato automaticamente: se non li aggiorni manualmente, la qualificazione dell’utente potrebbe non avvenire come previsto.
+
+Se hai tipi di pubblico che eseguono il targeting di iPad o iPhone utilizzando [!UICONTROL Browser] , è necessario modificare queste impostazioni prima del 30 aprile 2024 per garantire che tali tipi di pubblico continuino a funzionare come previsto.
 
 ### Tipi di pubblico creati utilizzando [!DNL Target] UI
 
@@ -171,17 +173,17 @@ In futuro sarà possibile utilizzare le seguenti impostazioni:
 
 ### Tipi di pubblico creati mediante script di profilo
 
-Se usa `user.browserType` nei segmenti JavaScript come spiegato in [Glossario di profili e variabili](/help/main/c-target/c-visitor-profile/variables-profiles-parameters-methods.md), le modifiche devono includere quanto segue:
+Se usa `user.browserType` nei tipi di pubblico che utilizzano gli script di profilo, come spiegato in [Glossario di profili e variabili](/help/main/c-target/c-visitor-profile/variables-profiles-parameters-methods.md), le modifiche devono includere quanto segue:
 
 >[!NOTE]
 >
 >I seguenti profili sono pianificati per essere rilasciati nei prossimi giorni, a partire dal 24 gennaio 2024. Il [note sulla versione corrente](/help/main/r-release-notes/release-notes.md) verranno aggiornati quando questi profili saranno disponibili.
-
-Questi profili consentono le seguenti modifiche:
->>
-* `profile.mobile.isTablet`
->>
-* `profile.mobile.isMobilePhone`
+>
+>Questi profili consentono le seguenti modifiche:
+>
+>* `profile.mobile.isTablet`
+>
+>* `profile.mobile.isMobilePhone`
 
 * **BrowserType è iPhone**:
 
