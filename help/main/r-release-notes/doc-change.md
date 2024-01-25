@@ -30,7 +30,7 @@ Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Targ
 
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
-| 18 gennaio | Note sulla versione (prerelease) di [[!DNL Target] ](/help/main/r-release-notes/target-release-notes.md) | Sono state aggiunte note sulla versione prerelease per il prossimo [!DNL Target Standard/Premium] Versione 24.1.1. |
+| 18 gennaio | Note sulla versione (prerelease) di [[!DNL Target] ](/help/main/r-release-notes/target-release-notes.md) | Sono state aggiunte le note prerelease sulla prossima versione 24.1.1 di [!DNL Target Standard/Premium]. |
 | 13 dicembre | Annunci ed eventi di [[!DNL Adobe Target] ](/help/main/r-release-notes/target-announcements.md) | Sono state aggiunte informazioni sulla serie di webinar sulla maturità della personalizzazione di [!DNL Adobe Target] 2024. |
 |  | [targetGlobalSettings()](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetglobalsettings.html?lang=it){target=_blank} | Sono state aggiunte due nuove impostazioni facoltative: <ul><li>aepSandboxId</li><li>aepSandboxName</li></ul> |
 | 4 dicembre | Annunci ed eventi di [[!DNL Adobe Target] ](/help/main/r-release-notes/target-announcements.md) | Sono state aggiunte informazioni sulla registrazione della sessione Coffee Break di [!DNL Adobe Target Community] su “Reporting e analisi di apprendimento automatico e intelligenza artificiale” di mercoledì 6 dicembre 2023. |

@@ -7,7 +7,7 @@ exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
 source-git-commit: 99152f66217f66174e8b6a5a7319f11b22c74b8e
 workflow-type: tm+mt
 source-wordcount: '463'
-ht-degree: 80%
+ht-degree: 96%
 
 ---
 
@@ -39,11 +39,11 @@ Questa versione è pianificata per i seguenti giorni:
 
 Questa versione include i miglioramenti e le correzioni seguenti:
 
-* [!UICONTROL Analytics for Target] Le attività (A4T) con metriche dell’obiettivo di ricavo non mostravano &quot;Ricavi&quot; come nome della colonna e la metrica Ricavi non veniva visualizzata nel rapporto in formato ($). Si trattava di un problema estetico al quale si è posto rimedio. (TGT-46995)
+* Le attività di[!UICONTROL Analytics for Target] (A4T) con metriche obiettivo di ricavo non visualizzavano “Ricavo” nel nome della colonna e la metrica di ricavo non veniva visualizzata nel formato ($) nel reporting. Si trattava di un problema estetico che è stato risolto. (TGT-46995)
 * È stato risolto un problema che impediva il corretto funzionamento della reportistica degli intervalli di date. (TGT-47396)
 * È stato risolto un problema che causava la visualizzazione dello stato errato nella pagina [!UICONTROL Tutte le attività] dopo che i clienti hanno attivato o disattivato un’attività utilizzando l’icona [!UICONTROL Altre azioni]. (TGT-47367)
-* È stato risolto un problema che causava la [!UICONTROL Attributi importanti] rapporto da non visualizzare per un singolo cliente. (TGT-47272)
-* È stato risolto un problema che causava la visualizzazione di un messaggio di &quot;payload non valido&quot; quando un singolo cliente tentava di abilitare &quot;Richiedi autenticazione&quot;. (TGT-47195)
+* È stato risolto un problema che causava la mancata visualizzazione del rapporto [!UICONTROL Attributi importanti] per un singolo cliente. (TGT-47272)
+* È stato risolto un problema che causava la visualizzazione di un messaggio di “payload non valido” quando un singolo cliente tentava di abilitare “Richiedi autenticazione”. (TGT-47195)
 * Sono state aggiornate diverse stringhe localizzate nell’interfaccia utente di [!DNL Target].
 
 ## Note aggiuntive e dettagli sulla versione
