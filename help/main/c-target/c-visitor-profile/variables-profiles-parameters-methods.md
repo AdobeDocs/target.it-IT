@@ -4,10 +4,10 @@ description: Visualizza un elenco di vari profili, variabili e parametri utili n
 title: Quali profili, variabili e parametri vengono utilizzati in [!DNL Target]?
 feature: Audiences
 exl-id: 96ef9a56-fe76-428e-a164-c01829fdf45d
-source-git-commit: d3c9a5bfa1e0496387103d82dd811f28581ba8bf
+source-git-commit: 8ff786fe55337df2465426c9a87f71002cce3de5
 workflow-type: tm+mt
-source-wordcount: '653'
-ht-degree: 70%
+source-wordcount: '665'
+ht-degree: 68%
 
 ---
 
@@ -48,8 +48,8 @@ Questa pagina elenca i profili, le variabili e i parametri utili negli script de
 | profile.browserTime | Ora locale del browser del visitatore. Per l&#39;ora di sistema, creare un nuovo oggetto di data nello script del profilo |
 | profile.averageDaysBetweenVisits |  |
 | profile.sessionCount |  |
-| profile.mobile.isTablet | Il dispositivo del visitatore è un tablet.<P>Questo profilo sostituisce la precedente versione obsoleta [Il browser è una categoria di pubblico di iPad](/help/main/c-target/c-audiences/c-target-rules/browser.md). |
-| profile.mobile.isMobilePhone | Il dispositivo visitatore è un telefono cellulare.<P>Questo profilo sostituisce la precedente versione obsoleta [Il browser è una categoria di pubblico di iPhone](/help/main/c-target/c-audiences/c-target-rules/browser.md). |
+| profile.mobile.isTablet | Il dispositivo del visitatore è un tablet.<P>**NOTA**: questo profilo sostituisce il precedente browser obsoleto che è la categoria Pubblico di iPad. Consulta [Browser](/help/main/c-target/c-audiences/c-target-rules/browser.md#deprecated) per ulteriori informazioni. |
+| profile.mobile.isMobilePhone | Il dispositivo visitatore è un telefono cellulare.<P>**NOTA**: questo profilo sostituisce il precedente browser obsoleto che è la categoria Pubblico di iPhone. Consulta [Browser](/help/main/c-target/c-audiences/c-target-rules/browser.md#deprecated) per ulteriori informazioni. |
 | parameter= | Termine generico per valori aggiuntivi passati con una mbox, di solito come coppie nome/valore. Non persistente a meno che non sia fatto con `profile.parameter` o `user.parameter`. |
 
 ## Variabili di URL {#section_8F25958273164EBAA6DC659302993FD3}
