@@ -7,9 +7,9 @@ title: Cosa è incluso nella versione corrente?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 source-git-commit: 99152f66217f66174e8b6a5a7319f11b22c74b8e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '575'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ I codici dei problemi tra parentesi sono per uso interno di [!DNL Adobe].
 
 | Rimozione | Dettagli |
 |--- |--- |
-| [!DNL iPad] e [!DNL iPhone] verranno rimossi dall’[attributo di browser](/help/main/c-target/c-audiences/c-target-rules/browser.md) utilizzato durante la creazione di tipi di pubblico.<p>Data di rimozione:<P>30 aprile 2024 | [!DNL Adobe Target] consente di [eseguire il targeting su uno qualsiasi dei vari attributi di categoria](/help/main/c-target/c-audiences/c-target-rules/target-rules.md), inclusi gli utenti che utilizzano [opzioni browser o browser](/help/main/c-target/c-audiences/c-target-rules/browser.md) specifici quando visitano la tua pagina.<P><B>A partire dal 30 aprile 2024, iPad e iPhone verranno rimossi dall’elenco a discesa del tipo di [!UICONTROL browser] durante la creazione di categorie per i tipi di pubblico.</b><P>Se hai tipi di pubblico che eseguono il targeting di iPad o iPhone utilizzando come attributo il [!UICONTROL browser], è necessario modificare queste impostazioni prima del 30 aprile 2024 per garantire che tali tipi di pubblico continuino a funzionare come previsto.<p>Per esempi di impostazioni alternative, consulta [Obsolescenza di iPad e iPhone dall’attributo di pubblico del browser (30 aprile 2024)](/help/main/c-target/c-audiences/c-target-rules/browser.md#deprecation). |
+| [!DNL iPad] e [!DNL iPhone] verranno rimossi dall’[attributo di browser](/help/main/c-target/c-audiences/c-target-rules/browser.md) utilizzato durante la creazione di tipi di pubblico.<p>Data di rimozione:<P>30 aprile 2024 | [!DNL Adobe Target] consente di [eseguire il targeting su uno qualsiasi dei vari attributi di categoria](/help/main/c-target/c-audiences/c-target-rules/target-rules.md), inclusi gli utenti che utilizzano [opzioni browser o browser](/help/main/c-target/c-audiences/c-target-rules/browser.md) specifici quando visitano la tua pagina.<P><B>A partire dal 30 aprile 2024, iPad e iPhone verranno rimossi dall’elenco a discesa del tipo di [!UICONTROL browser] durante la creazione di categorie per i tipi di pubblico.</b><P>Se hai tipi di pubblico che eseguono il targeting di iPad o iPhone utilizzando come attributo il [!UICONTROL browser], è necessario modificare queste impostazioni prima del 30 aprile 2024 per garantire che tali tipi di pubblico continuino a funzionare come previsto.<p>Per esempi di impostazioni alternative, consulta [Rimozione di iPad e iPhone dall’attributo di pubblico Browser (30 aprile 2024)](/help/main/c-target/c-audiences/c-target-rules/browser.md#deprecation). |
 
 ## [!DNL Target] Standard/Premium 24.1.1 (22, 23 e 25 gennaio 2024)
 
@@ -35,11 +35,11 @@ Questa versione è pianificata per i seguenti giorni:
 
 Questa versione include i miglioramenti e le correzioni seguenti:
 
-* [!UICONTROL Analytics for Target] Le attività (A4T) con metriche dell’obiettivo di ricavo non mostravano &quot;Ricavi&quot; come nome della colonna e la metrica Ricavi non veniva visualizzata nel rapporto in formato ($). Si trattava di un problema estetico al quale si è posto rimedio. (TGT-46995)
+* Le attività di[!UICONTROL Analytics for Target] (A4T) con metriche obiettivo di ricavo non visualizzavano “Ricavo” nel nome della colonna e la metrica di ricavo non veniva visualizzata nel formato ($) nel reporting. Si trattava di un problema estetico che è stato risolto. (TGT-46995)
 * È stato risolto un problema che impediva il corretto funzionamento della reportistica degli intervalli di date. (TGT-47396)
 * È stato risolto un problema che causava la visualizzazione dello stato errato nella pagina [!UICONTROL Tutte le attività] dopo che i clienti hanno attivato o disattivato un’attività utilizzando l’icona [!UICONTROL Altre azioni]. (TGT-47367)
-* È stato risolto un problema che causava la [!UICONTROL Attributi importanti] rapporto da non visualizzare per un singolo cliente. (TGT-47272)
-* È stato risolto un problema che causava la visualizzazione di un messaggio di &quot;payload non valido&quot; quando un singolo cliente tentava di abilitare &quot;Richiedi autenticazione&quot;. (TGT-47195)
+* È stato risolto un problema che causava la mancata visualizzazione del rapporto [!UICONTROL Attributi importanti] per un singolo cliente. (TGT-47272)
+* È stato risolto un problema che causava la visualizzazione di un messaggio di “payload non valido” quando un singolo cliente tentava di abilitare “Richiedi autenticazione”. (TGT-47195)
 * Sono state aggiornate diverse stringhe localizzate nell’interfaccia utente di [!DNL Target].
 
 ## Note aggiuntive e dettagli sulla versione
