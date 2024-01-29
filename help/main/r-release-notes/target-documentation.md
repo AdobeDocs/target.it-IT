@@ -5,9 +5,9 @@ title: Dove posso trovare la documentazione e le risorse per  [!DNL Adobe Target
 feature: Release Notes
 exl-id: 8e06c57b-94e6-41e4-a30c-8e10ab4882b5
 source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '408'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -22,13 +22,13 @@ Sono disponibili le seguenti guide e risorse per [!DNL Target]:
 | [Documentazione del prodotto Adobe Target](/help/main/target-home.md)<br>(questa guida) | Informazioni generali, passaggi e schermate relative all’interazione con [!DNL Target] tramite l’interfaccia utente. Questa guida descrive tutte le azioni e le opzioni disponibili, tra cui “gotchas” da evitare. Questa è la risorsa più dettagliata per l’utilizzo dell’interfaccia utente di [!DNL Target]. |
 | [Esercitazioni di Adobe Target](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html?lang=it) | Video ed esercitazioni per imparare a usare i numerosi componenti di [!DNL Target]. |
 | [Libreria di contenuti di Adobe Experience League Target](https://guided.adobe.com/#recommended/solutions/target) | Una raccolta di video ed esercitazioni che evidenziano le funzionalità di [!DNL Target] disponibili nella pagina [!DNL Adobe Target Experience League]. |
-| [Documentazione di Adobe Experience Platform Target](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch.html){target=_blank} | Informazioni sull’implementazione di [!DNL Target] utilizzando i tag in [!DNL Adobe Experience Platform], la piattaforma di gestione dei tag di nuova generazione di [!DNL Adobe]. Questo è il metodo preferito per implementare [!DNL Target]. |
+| [Documentazione di Adobe Experience Platform Target](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch.html?lang=it){target=_blank} | Informazioni sull’implementazione di [!DNL Target] utilizzando i tag in [!DNL Adobe Experience Platform], la piattaforma di gestione dei tag di nuova generazione di [!DNL Adobe]. Questo è il metodo preferito per implementare [!DNL Target]. |
 | [Sessioni “Office Hours” del Servizio clienti di Adobe](/help/main/cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7) | Informazioni su “Office Hours”, un’iniziativa nata dal team di assistenza clienti di Adobe. Queste sessioni sono progettate per informare e aiutare i partecipanti a risolvere problemi e fornire suggerimenti e trucchi utili per le soluzioni [!DNL Adobe Experience Cloud], tra cui [!DNL Target]. |
 | [Serie di webinar sui fondamenti di Target](https://landing.adobe.com/acs/2018/na/adobe-target/registration.html) | Informazioni sulla registrazione e collegamenti alle sessioni precedenti della serie di webinar sui fondamenti di [!DNL Target], una serie di webinar su Customer Success offerta dalla community. |
 | [Guida per gli sviluppatori di Adobe Target](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=it){target=_blank} | Le informazioni sul sito per sviluppatori Adobe Target sono utili per implementare [!DNL Target] su applicazioni lato client, applicazioni lato server, app mobili, IoT e altro ancora. Puoi anche esportare i dati [!DNL Target] in soluzioni di terze parti. |
-| [API Recommendations di Target](https://experienceleague.adobe.com/docs/target-dev/developer/api/recommendations-api/overview.html?lang=it){target=_blank} | Informazioni sulle API [!UICONTROL Recommendations] che consentono di interagire in modo programmatico con i server di consigli [!DNL Target]. Queste API possono essere integrate con una serie di applicazioni per eseguire funzioni che vengono normalmente eseguite mediante l’interfaccia utente [!DNL Target]. |
-| [API di distribuzione lato server](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html){target=_blank} | Informazioni sulle risorse che compongono Adobe Target Delivery API. |
-| [SDK lato server di Target](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/getting-started.html?lang=it){target=_blank} | Spiega come implementare [!DNL Target] lato server utilizzando gli SDK. |
+| [API di Target Recommendations](https://experienceleague.adobe.com/docs/target-dev/developer/api/recommendations-api/overview.html?lang=it){target=_blank} | Informazioni sulle API [!UICONTROL Recommendations] che consentono di interagire in modo programmatico con i server di consigli [!DNL Target]. Queste API possono essere integrate con una serie di applicazioni per eseguire funzioni che vengono normalmente eseguite mediante l’interfaccia utente [!DNL Target]. |
+| [API di consegna lato server](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html?lang=it){target=_blank} | Informazioni sulle risorse che compongono Adobe Target Delivery API. |
+| [SDK per Target lato server](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/getting-started.html?lang=it){target=_blank} | Spiega come implementare [!DNL Target] lato server utilizzando gli SDK. |
 | [SDK di Adobe Experience Platform Mobile](https://experienceleague.adobe.com/docs/mobile.html?lang=it) | Informazioni sull’implementazione di [!DNL Target] nelle app mobili. |
 
 Oltre alle risorse di cui sopra, visita la [Community Target di Adobe Experience League](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community), dove è possibile:
