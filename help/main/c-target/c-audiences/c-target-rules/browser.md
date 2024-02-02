@@ -4,10 +4,10 @@ description: Scopri come creare tipi di pubblico in [!DNL Adobe Target] per eseg
 title: Posso indirizzare i visitatori in base al tipo di browser?
 feature: Audiences
 exl-id: 8420bbe3-b58a-4ddb-89bb-0265dab6b5fc
-source-git-commit: 1313ea7897b811ef5550c3d29cfc5a66f9215c9f
+source-git-commit: aa7bef57c94c0dc996c9e1bd0ed23b48aa199874
 workflow-type: tm+mt
-source-wordcount: '1059'
-ht-degree: 36%
+source-wordcount: '1098'
+ht-degree: 35%
 
 ---
 
@@ -141,6 +141,8 @@ Tipi di pubblico incorporati creati utilizzando [!DNL Target] L’interfaccia ut
 
 Se usa `user.browserType` in qualsiasi script di profilo per verificare se si tratta di un’iPhone o di un iPad (ad esempio, `user.browserType == 'iphone'` o `user.browserType != 'ipad'`), questi script di profilo devono essere modificati come [istruzioni di seguito](#profile-scripts) entro il 30 aprile 2024 per garantire che tali tipi di pubblico continuino a funzionare come previsto.
 
+I tipi di pubblico JavaScript che utilizzano gli script di profilo sono tipi di pubblico legacy che sono stati dichiarati obsoleti con il [!DNL Target Classic] UI. Questi tipi di pubblico possono essere modificati solo tramite API. I clienti devono aggiornare questi tipi di pubblico solo se utilizzano tipi di pubblico legacy nelle attività della nuova [!DNL Target Standard/Premium] UI.
+
 ### Tipi di pubblico creati utilizzando [!DNL Target] UI {#ui}
 
 In futuro sarà possibile utilizzare le seguenti impostazioni:
@@ -173,11 +175,11 @@ In futuro sarà possibile utilizzare le seguenti impostazioni:
 
 ### Tipi di pubblico creati mediante script di profilo {#profile-scripts}
 
-Se usa `user.browserType` nei tipi di pubblico che utilizzano gli script di profilo, come spiegato in [Glossario di profili e variabili](/help/main/c-target/c-visitor-profile/variables-profiles-parameters-methods.md), le modifiche devono includere quanto segue:
+Se usa `user.browserType` in legacy [!DNL Target Classic] tipi di pubblico che utilizzano gli script di profilo, come spiegato in [Glossario di profili e variabili](/help/main/c-target/c-visitor-profile/variables-profiles-parameters-methods.md), le modifiche devono includere quanto segue:
 
 >[!NOTE]
 >
->I seguenti profili sono pianificati per essere rilasciati nei prossimi giorni, a partire dal 24 gennaio 2024. Il [note sulla versione corrente](/help/main/r-release-notes/release-notes.md) verranno aggiornati quando questi profili saranno disponibili.
+>I seguenti profili sono previsti per il rilascio nelle prossime settimane, a partire dal 24 gennaio 2024. Il [note sulla versione corrente](/help/main/r-release-notes/release-notes.md) verranno aggiornati quando questi profili saranno disponibili.
 >
 >Questi profili consentono le seguenti modifiche:
 >
