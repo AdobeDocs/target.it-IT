@@ -4,10 +4,10 @@ description: Risposte alle domande sulla configurazione delle attività quando s
 title: Dove posso trovare domande frequenti sulle impostazioni delle attività con A4T?
 feature: Analytics for Target (A4T)
 exl-id: 8a8cdbb9-89f6-4e4a-a53e-8f33adab4d61
-source-git-commit: 52dd26acfce77da0eea14be572708c069ba5e9ba
+source-git-commit: 981cff428d9e8849b9bbcbf7bef389dad0fbb32a
 workflow-type: tm+mt
-source-wordcount: '571'
-ht-degree: 14%
+source-wordcount: '630'
+ht-degree: 10%
 
 ---
 
@@ -15,9 +15,19 @@ ht-degree: 14%
 
 Questo argomento contiene le risposte alle domande più frequenti sulla configurazione e l’utilizzo delle attività [!DNL Analytics] come origine di reporting per [!DNL Target] (A4T).
 
-## Quali tipi di attività supportano Analytics come origine per la generazione di rapporti (A4T)? {#section_5E4F58CD25A5424E869E6FE0803968EF}
+## Quali tipi di attività sono supportati [!DNL Analytics] come fonte di reporting (A4T)? {#section_5E4F58CD25A5424E869E6FE0803968EF}
 
 +++Risposta Per un elenco completo, vedi &quot;Tipi di attività supportati&quot; in [Adobe Analytics come origine per la generazione di rapporti per Adobe Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE).
+
++++
+
+## È possibile utilizzare lo stesso nome di attività per due attività da aree di lavoro separate quando si utilizza il reporting A4T?
+
++++Risposta
+
+Non utilizzare lo stesso nome attività per due attività di [workspace](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) che utilizzano reporting A4T.
+
+Anche se questo è supportato quando si utilizza [!DNL Target] come origine per la generazione di rapporti, l’utilizzo dello stesso nome di attività per due attività non è supportato quando si utilizza [!UICONTROL Analytics for Target] come origine per la generazione di rapporti.
 
 +++
 
