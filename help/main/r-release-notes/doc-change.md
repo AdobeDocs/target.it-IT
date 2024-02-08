@@ -4,10 +4,10 @@ description: Resta aggiornato sulle importanti aggiunte e modifiche apportate al
 title: Dove posso trovare la documentazione aggiornata per  [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 4c0a74d0ca693ddfa65abbe8800647b59ccfdb93
+source-git-commit: 7d84ce530081c20f7cdcb6e89010baef6f638647
 workflow-type: tm+mt
-source-wordcount: '1343'
-ht-degree: 95%
+source-wordcount: '1361'
+ht-degree: 93%
 
 ---
 
@@ -19,6 +19,7 @@ Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Targ
 
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
+| 8 febbraio | [Preacquisizione](https://experienceleague.adobe.com/docs/target-dev/developer/api/delivery-api/prefetch.html){target=_blank} | È stata aggiunta una nuova sezione: &quot;Preacquisire mbox con metriche clickTrack durante l’utilizzo di Analytics for Target (A4T)&quot; |
 | 5 febbraio | [Creare un’attività che utilizza Analytics come sorgente per la generazione di rapporti](/help/main/c-integrating-target-with-mac/a4t/campaign-creation.md) | È stato aggiunto del testo che specifica che non è possibile utilizzare lo stesso nome di attività per due attività da aree di lavoro separate quando si utilizza [!UICONTROL Analytics for Target] (A4T) come origine per la generazione di rapporti. |
 |  | [Impostazioni delle attività - Domande frequenti su A4T](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-activity-setup.md) | È stato aggiunto del testo che specifica che non è possibile utilizzare lo stesso nome di attività per due attività da aree di lavoro separate quando si utilizza [!UICONTROL Analytics for Target] (A4T) come origine per la generazione di rapporti. |
 |  | Annunci ed eventi di [[!DNL Adobe Target] ](/help/main/r-release-notes/target-announcements.md) | Sono state aggiunte informazioni sulla pausa caffè della community Adobe Target pianificata per il 7 febbraio 2024. |
