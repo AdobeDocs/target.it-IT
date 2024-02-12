@@ -7,9 +7,9 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=it#beta newtab=true" tooltip="Cosa sono le funzioni beta in [!DNL Adobe Target]."
 hide: true
 hidefromtoc: true
-source-git-commit: d93e58540568fb685bd18ee5e39ad2917323bce4
+source-git-commit: e0d1e06f21c9a1e630643ed045c970526bc2a3b6
 workflow-type: tm+mt
-source-wordcount: '603'
+source-wordcount: '606'
 ht-degree: 1%
 
 ---
@@ -46,7 +46,7 @@ Questi sono solo alcuni possibili casi d&#39;uso per l&#39;integrazione [!DNL Ta
 
   In questo scenario, il [!UICONTROL ID visitatore Experience Cloud] (ECID) e il contenuto di ogni [!DNL Target] Il profilo viene utilizzato per generare il consiglio in base all’algoritmo visualizzato di recente.
 
-  Supponiamo ad esempio che un visitatore visiti un sito web per la vendita al dettaglio e visualizzi diversi orologi. Di questo visitatore [!DNL Target] Il profilo viene aggiornato con un elenco degli orologi visualizzati. Utilizzo dell’ECID e del [!DNL Target] profilo, [!DNL Target] invia il consiglio a [!DNL Adobe Journey Optimizer]. [!DNL Adobe Journey Optimizer] invia quindi un messaggio e-mail contenente immagini e collegamenti agli orologi visualizzati dal visitatore utilizzando l’algoritmo visualizzato di recente. Un altro visitatore riceverà un’e-mail personalizzata contenente immagini e collegamenti agli elementi visualizzati. Ogni messaggio e-mail è personalizzato.
+  Supponiamo ad esempio che un visitatore visiti un sito web per la vendita al dettaglio e visualizzi diversi orologi. Di questo visitatore [!DNL Target] Il profilo viene aggiornato con un elenco degli orologi visualizzati. Utilizzo dell’ECID e del [!DNL Target] profilo, [!DNL Target] invia il consiglio a [!DNL Adobe Journey Optimizer]. [!DNL Adobe Journey Optimizer] invia quindi un messaggio e-mail contenente immagini e collegamenti agli orologi visualizzati dal visitatore, utilizzando l’algoritmo visualizzato di recente. Un altro visitatore riceve un’e-mail personalizzata contenente immagini e collegamenti agli elementi visualizzati dal visitatore. Ogni messaggio e-mail è personalizzato per ogni visitatore.
 
 * **[!DNL Adobe Journey Optimizer]invia un’e-mail in blocco ai visitatori qualificati dopo la visita del sito per suggerire gli elementi più popolari**: questo caso d’uso si basa sulla visita di un visitatore a un sito web, ma non sulla visualizzazione di alcun elemento particolare. L’e-mail viene inviata in blocco a tutti coloro che sono idonei per un particolare pubblico, ad esempio:
 
