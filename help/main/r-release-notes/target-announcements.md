@@ -4,10 +4,10 @@ description: Leggi gli annunci e registrati per gli eventi su Adobe  [!DNL Targe
 title: Dove posso trovare annunci ed eventi relativi a  [!DNL Target] ?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: 4c0a74d0ca693ddfa65abbe8800647b59ccfdb93
+source-git-commit: 1afcd6838c8a3fd5186c66fc401ee0e8b4b5feb3
 workflow-type: tm+mt
-source-wordcount: '2476'
-ht-degree: 95%
+source-wordcount: '2353'
+ht-degree: 99%
 
 ---
 
@@ -15,24 +15,24 @@ ht-degree: 95%
 
 Annunci e informazioni sui prossimi eventi di [!DNL Adobe Target], che includono le sessioni Coffee Break su [!DNL Target], le serie di webinar su [!DNL Target], le sessioni Skill Builder dedicate a [!DNL Target], le chat per sviluppatori e altro ancora. Se disponibili, sono inclusi i collegamenti alle registrazioni precedenti.
 
-## Adobe Target Community Q&amp;A Coffee Break
+<!--## Adobe Target Community Q&A Coffee Break
 
-* **Arte delle possibili domande di follow-up del webinar (parte 1 della serie Personalization Maturity)**
-* **giovedì 7 febbraio 2024**
+* **Art of the Possible Webinar Follow-up Questions (Part 1 of Personalization Maturity Series)**
+* **Wednesday, February 7, 2024**
 * **8:00 - 9:00 (PST -8 GMT)**
-* **[Informazioni sulla registrazione](https://shorturl.at/gknVY){target=_blank}**
+* **[Registration information](https://shorturl.at/gknVY){target=_blank}**
 
-+++Dettagli
++++Details
 
-Iscriviti [!DNL Adobe Target] gli esperti Brent Kostak, Ryan Roberts e Drew Burns poiché forniscono risposte in tempo reale alle domande dei clienti relative ai contenuti trattati durante [Parte 1 del [!DNL Adobe Target] Serie di webinar sull’&quot;Arte del Possibile&quot;](#maturity-series),&quot; in cui i nostri esperti hanno trattato i seguenti argomenti:
+Join [!DNL Adobe Target] experts Brent Kostak, Ryan Roberts, and Drew Burns as they provide answers in real-time to customers' questions related to content covered during [Part 1 of the [!DNL Adobe Target] Webinar Series on the "Art of the Possible](#maturity-series)," where our experts covered the following topics:
 
-* Come ciascuno [!DNL Target] La funzionalità riveste un ruolo strategico nell’esecuzione della personalizzazione su larga scala
-* Casi d’uso principali in cui i clienti configurano le funzionalità di intelligenza artificiale per eseguire operazioni su larga scala
-* Come hai il controllo dell’apprendimento automatico per attivare la personalizzazione basata sull’intelligenza artificiale per i tuoi obiettivi specifici
+* How each [!DNL Target] capability plays a strategic role in executing personalization at scale
+* Top use cases that customers are configuring AI capabilities to accomplish at scale
+* How you are in control of machine learning to activate AI-powered Personalization to your specific goals
 
-Se hai saltato il webinar originale, [ascolta la registrazione](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/upcoming-webinar-2024-1-16-24-p1-adobe-target-personalization/td-p/639284){target=_blank}.
+If you missed the original webinar, [listen to the recording](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/upcoming-webinar-2024-1-16-24-p1-adobe-target-personalization/td-p/639284){target=_blank}.
 
-+++
++++-->
 
 ## Serie di webinar sulla maturità della personalizzazione di Adobe Target 2024 {#maturity-series}
 
