@@ -5,10 +5,10 @@ title: Quali indirizzi IP utilizzano i server di elaborazione dei feed della fun
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Vedi cosa è incluso in Target Premium."
 feature: Recommendations
 exl-id: a666cfc4-ed74-44e8-9ff5-212e4fd65c03
-source-git-commit: 558de92e672c276474bc76fad19e5461ae7d4c88
+source-git-commit: be5b3158c758fa08802c1dc0541c9e989a2c7740
 workflow-type: tm+mt
-source-wordcount: '165'
-ht-degree: 49%
+source-wordcount: '175'
+ht-degree: 46%
 
 ---
 
@@ -18,7 +18,7 @@ Elenco di indirizzi IP utilizzati in [!DNL Adobe Target] [!DNL Recommendations] 
 
 >[!IMPORTANT]
 >
->23 febbraio 2023: The [!DNL Target] Il team sta aggiornando gli indirizzi gateway NAT per il download [!DNL Recommendations] feed. Se implementi l’IP, assicurati di inserire nell&#39;elenco Consentiti inserire nell&#39;elenco Consentiti i seguenti nuovi host AWS. In futuro è prevista la disattivazione degli host esistenti. Tutti e nove gli host sono ora operativi.
+>Il [!DNL Target] Il team sta aggiornando gli indirizzi gateway NAT per il download [!DNL Recommendations] feed. Se implementi l’IP, assicurati di inserire nell&#39;elenco Consentiti inserire nell&#39;elenco Consentiti i seguenti nuovi host AWS. La disattivazione degli host esistenti è prevista per il 30 giugno 2024. Per garantire una transizione fluida, inserisce nell&#39;elenco Consentiti tutti e nove gli indirizzi di, in quanto tutti i messaggi sono stati inseriti in un unico file. Non vi è alcuna urgenza di rimuovere gli indirizzi esistenti.
 
 Le attività [!DNL Target] [!UICONTROL Recommendations] (Consigli) utilizzano i seguenti host AWS per accedere ai server FTP dei clienti:
 
