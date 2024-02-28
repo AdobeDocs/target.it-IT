@@ -5,9 +5,9 @@ title: Cosa sono gli attributi del profilo?
 feature: Audiences
 exl-id: 6c689629-bbd3-461e-9a68-5b16d4eb4250
 source-git-commit: 356b04745b58670b4bf39be929e785b8490d78ff
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2465'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -33,8 +33,8 @@ Configurazione degli attributi del profilo:
 
    | Tipo di parametro | Descrizione |
    |--- |--- |
-   | mbox | Passaggio diretto attraverso il codice della pagina quando viene creata la mbox. Consulta [Trasmettere i parametri a una mbox globale](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/global-mbox/pass-parameters-to-global-mbox.html?lang=it){target=_blank} nel *Guida per gli sviluppatori di Target*..<P>**Nota**: [!DNL Target] ha un limite di 50 attributi di profilo univoci per chiamata mbox. Se devi trasmettere più di 50 attributi di profilo a [!DNL Target], passali utilizzando [!UICONTROL API di aggiornamento profilo] metodo. Per ulteriori informazioni, consulta [Aggiornare profili](https://experienceleague.adobe.com/docs/target-dev/developer/api/profile-apis/profile-api-overview.html?lang=it){target=_blank} nel *Guida per gli sviluppatori di Target*. |
-   | Profilo | Definito direttamente con uno snippet di codice JavaScript. Questi snippet possono memorizzare i totali correnti, come il denaro totale speso dal consumatore, e vengono eseguiti su ogni richiesta mbox. Consulta *Attributi degli script di profilo* di seguito. |
+   | mbox | Passaggio diretto attraverso il codice della pagina quando viene creata la mbox. Consulta [Trasmettere i parametri a una mbox globale](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/global-mbox/pass-parameters-to-global-mbox.html?lang=it){target=_blank} nella *Guida per gli sviluppatori di Target*.<P>**Nota**: [!DNL Target] ha un limite di 50 attributi di profilo univoci per chiamata mbox. Se devi trasmettere più di 50 attributi di profilo a [!DNL Target], utilizza il metodo [!UICONTROL API Aggiornamento profilo]. Per ulteriori informazioni, consulta [Aggiornare profili](https://experienceleague.adobe.com/docs/target-dev/developer/api/profile-apis/profile-api-overview.html?lang=it){target=_blank} nella *Guida per gli sviluppatori di Target*. |
+   | Profilo | Definito direttamente con uno snippet di codice JavaScript. Questi snippet possono memorizzare i totali correnti come il denaro totale speso dal consumatore e sono eseguiti dietro ogni richiesta mbox. Consulta *Attributi degli script di profilo* qui di seguito. |
 
 ## Attributi degli script di profilo {#concept_8C07AEAB0A144FECA8B4FEB091AED4D2}
 
