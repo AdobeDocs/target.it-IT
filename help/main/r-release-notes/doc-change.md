@@ -4,10 +4,10 @@ description: Resta aggiornato sulle importanti aggiunte e modifiche apportate al
 title: Dove posso trovare la documentazione aggiornata per  [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 7ae2aa9f95b01653891e9857c1ee5b94f6c809a9
+source-git-commit: b9aebf56ea46c40ca4693e85460358f2e406bbec
 workflow-type: tm+mt
-source-wordcount: '1453'
-ht-degree: 94%
+source-wordcount: '1471'
+ht-degree: 93%
 
 ---
 
@@ -19,6 +19,7 @@ Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Targ
 
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
+| 28 febbraio | Note sulla versione (prerelease) di [[!DNL Target] ](/help/main/r-release-notes/target-release-notes.md) | Sono state aggiunte informazioni su [!DNL Target] Standard/Premium 24.3.1 (4-6 marzo 2024), versione. |
 | 26 febbraio | Annunci ed eventi di [[!DNL Adobe Target] ](/help/main/r-release-notes/target-announcements.md) | Sono state aggiunte informazioni sui prossimi [!UICONTROL Community Adobe Target] Coffee Break (28 febbraio 2024). |
 | 23 febbraio | [Indirizzi IP utilizzati da [!DNL Recommendations] server di elaborazione dei feed](/help/main/c-recommendations/c-recommendations-faq/ip-addresses-marketing-cloud.md) | È stata aggiunta la seguente nota importante e i nuovi indirizzi IP che è necessario inserire nell&#39;elenco Consentiti in fase di.<P>**Importante**: Il [!DNL Target] Il team sta aggiornando gli indirizzi gateway NAT per il download [!DNL Recommendations] feed. Se implementi l’IP, assicurati di inserire nell&#39;elenco Consentiti inserire nell&#39;elenco Consentiti i seguenti nuovi host AWS. La disattivazione degli host esistenti è prevista per il 30 giugno 2024. Per garantire una transizione fluida, inserisce nell&#39;elenco Consentiti tutti e nove gli indirizzi di, in quanto tutti i messaggi sono stati inseriti in un unico file. Non vi è alcuna urgenza di rimuovere gli indirizzi esistenti. |
 | 8 febbraio | [Prelettura](https://experienceleague.adobe.com/docs/target-dev/developer/api/delivery-api/prefetch.html?lang=it){target=_blank} | È stata aggiunta una nuova sezione: “Prelettura di mbox con metriche clickTrack durante l’utilizzo di Analytics for Target (A4T)” |
