@@ -4,14 +4,14 @@ description: Scopri come creare tipi di pubblico in [!DNL Adobe Target] per eseg
 title: Posso indirizzare i visitatori in base al tipo di browser?
 feature: Audiences
 exl-id: 8420bbe3-b58a-4ddb-89bb-0265dab6b5fc
-source-git-commit: 4395caa7e40717c59067eaedff5e53776768eda9
+source-git-commit: 784f41a73941877135a5902f2331972ba9d0e880
 workflow-type: tm+mt
-source-wordcount: '1089'
-ht-degree: 35%
+source-wordcount: '1015'
+ht-degree: 33%
 
 ---
 
-# Browser
+# [!UICONTROL Browser]
 
 Puoi indirizzare l’attività agli utenti che visitano la pagina utilizzando un browser specifico o opzioni specifiche del browser.
 
@@ -28,7 +28,11 @@ Puoi indirizzare l’attività agli utenti che visitano la pagina utilizzando un
 
 >[!IMPORTANT]
 >
->A partire dal 30 aprile 2024, [!DNL iPad] e [!DNL iPhone] verrà rimosso dal [!UICONTROL Browser] digita l’elenco a discesa durante la creazione di categorie per i tipi di pubblico. Per le impostazioni della soluzione alternativa, consulta [Obsolescenza di iPad e iPhone dall’attributo di pubblico del browser (30 aprile 2024)](#deprecation) di seguito.
+>A partire da [!DNL Target] Standard/Premium 24.3.1 (4-6 marzo 2024), tipi di pubblico incorporati creati utilizzando l’interfaccia utente di Target, ad esempio `Browser:iPad` e `Browser:iPhone` sono stati aggiornati per eseguire il targeting corretto per [!DNL iPad] e [!DNL iPhone] utilizzo `profile.mobile.deviceVendor`, `profile.mobile.isMobilePhone`, e `profile.mobile.isTablet`.
+>
+>Questo aggiornamento non richiede alcuna azione da parte dei clienti. Le etichette in [!DNL Target] L’interfaccia utente verrà modificata in futuro e verrà annunciata in [[!DNL Target] note sulla versione (corrente)](/help/main/r-release-notes/release-notes.md) quando vengono apportate queste modifiche.
+>
+>Per le impostazioni della soluzione alternativa, consulta [Aggiornamenti per [!DNL iPad] e [!DNL iPhone] in [!UICONTROL Browser] attributi del pubblico (30 aprile 2024)](#updates) di seguito.
 
 Esistono due modi per indirizzare i browser:
 
@@ -42,20 +46,20 @@ Esistono due modi per indirizzare i browser:
 
 * **Regola pubblico browser personalizzato:** Un pubblico personalizzato consente di rivolgerti a più browser o di impostare regole o esclusioni per specifici browser, versioni o lingue del browser. Questa funzionalità offre una flessibilità significativa quando esegui il targeting di un’attività in base agli attributi del browser.
 
-   1. In [!DNL Target] , fare clic su **[!UICONTROL Tipi di pubblico]** > **[!UICONTROL Crea pubblico]**.
+   1. In [!DNL Target] , fare clic su **[!UICONTROL Audiences]** > **[!UICONTROL Create Audience]**.
    1. Assegna un nome al pubblico e aggiungi una descrizione facoltativa.
    1. Trascina **[!UICONTROL Browser]** in Audience Builder.
 
       ![Rules (Regole) > Browser](assets/target_browser.png)
 
-   1. Fai clic su **[!UICONTROL Seleziona]**, quindi scegli una delle seguenti opzioni:
+   1. Clic **[!UICONTROL Select]**, quindi seleziona una delle seguenti opzioni:
 
       * **Tipo**: Includi o escludi gli utenti che usano un determinato browser. Consulta [Tipo](/help/main/c-target/c-audiences/c-target-rules/browser.md#section_6ADC758F23F145B3A310151546D83D56).
       * **Lingua:** Includi o escludi alcuni browser impostati per una specifica lingua. Consulta [Lingua](/help/main/c-target/c-audiences/c-target-rules/browser.md#section_7520D1AA464A45A6843EABE2D2B431A1).
       * **Versione:** includi o escludi una determinata versione del browser. Consulta [Versione](/help/main/c-target/c-audiences/c-target-rules/browser.md#section_37CC8CE45DA04E8682AE6388321BA6EF).
 
    1. (Facoltativo) Imposta regole aggiuntive per il pubblico.
-   1. Fai clic su **[!UICONTROL Fine]**.
+   1. Clic **[!UICONTROL Done]**.
 
   L’esempio seguente mostra un pubblico che include [!DNL Microsoft Edge] utenti nelle versioni 91 o 92:
 
@@ -69,10 +73,10 @@ Per un’attività, puoi includere o escludere i partecipanti in base al tipo, a
 
 Includi o escludi gli utenti che usano un determinato browser.
 
-Seleziona **[!UICONTROL Tipo]**, poi scegli “è uguale a” o “è diverso da”.
+Seleziona **[!UICONTROL Type]**, quindi scegliere è uguale a o non è uguale a.
 
-* [!UICONTROL Uguale a]: esegui il targeting dei browser selezionati.
-* [!UICONTROL Non è uguale a]: escludi i browser selezionati.
+* [!UICONTROL Equals]: esegui il targeting dei browser selezionati.
+* [!UICONTROL Does not equal]: escludi i browser selezionati.
 
 Seleziona uno o più browser. Le opzioni multiple sono collegate con l’operatore O.
 
@@ -84,10 +88,10 @@ Ad esempio, se un’offerta è disponibile solo in inglese, puoi indirizzarla ai
 
 L’inclusione o l’esclusione in base alla lingua del browser può permetterti di definire meglio i visitatori a cui ti rivolgi rispetto a parametri basati sulla località geografica nei casi in cui la lingua riveste un ruolo più importante della posizione geografica. Ad esempio, se offri un articolo scritto in inglese, puoi destinarlo ai paesi di lingua inglese oppure a chi utilizza browser impostati in lingua inglese. Con il targeting in base al browser, l’articolo sarà disponibile per gli anglofoni che si collegano da paesi in cui l’inglese non è la lingua principale.
 
-Seleziona **[!UICONTROL Lingua]**, quindi scegli “è uguale a” o “è diverso da”.
+Seleziona **[!UICONTROL Language]**, quindi scegliere è uguale a o non è uguale a.
 
-* [!UICONTROL Uguale a]: esegui il targeting delle lingue del browser selezionate.
-* [!UICONTROL Non è uguale a]: esclude le lingue del browser selezionate.
+* [!UICONTROL Equals]: esegui il targeting delle lingue del browser selezionate.
+* [!UICONTROL Does not equal]: esclude le lingue del browser selezionate.
 
 Seleziona una o più lingue. Le opzioni multiple sono collegate con l’operatore O.
 
@@ -109,14 +113,14 @@ Includi o escludi una determinata versione del browser.
 
 Ad esempio, se la pagina non viene visualizzata correttamente in [!DNL Internet Explorer] versione 11 o precedente, puoi creare un pubblico che escluda tali versioni. In tal caso, imposta una regola in cui il tipo di browser è uguale a [!DNL Internet Explorer] e aggiungi una seconda regola in cui la versione è minore o uguale a 11.
 
-Seleziona **[!UICONTROL Versione]**, quindi scegli un operatore:
+Seleziona **[!UICONTROL Version]**, quindi scegli un operatore:
 
-* [!UICONTROL Uguale a]
-* [!UICONTROL Non è uguale a]
-* [!UICONTROL È maggiore di]
+* [!UICONTROL Equals]
+* [!UICONTROL Does not equal]
+* [!UICONTROL Is greater than]
 * È maggiore o uguale a
-* [!UICONTROL È minore di]
-* [!UICONTROL È minore di o uguale a]
+* [!UICONTROL Is less than]
+* [!UICONTROL Is less than or equal to]
 
 Digita il numero di versione. In questo campo di testo è possibile immettere solo le versioni principali. La versione specificata include tutte le eventuali versioni secondarie di tale versione principale. Ad esempio, se specifichi la versione 10, sono inclusi anche i visitatori della versione 10.1.
 
@@ -131,61 +135,51 @@ Questo video contiene informazioni sull&#39;utilizzo delle categorie di pubblico
 
 >[!VIDEO](https://video.tv.adobe.com/v/17392)
 
-## Rimozione di iPad e iPhone dall’attributo di pubblico del browser (30 aprile 2024) {#deprecation}
+## Aggiornamenti per [!DNL iPad] e [!DNL iPhone] in [!UICONTROL Browser] attributi del pubblico (30 aprile 2024) {#updates}
 
 [!DNL Adobe Target] consente di: [esegui il targeting su uno qualsiasi dei vari attributi di categoria](/help/main/c-target/c-audiences/c-target-rules/target-rules.md), inclusi gli utenti che visitano la pagina utilizzando un browser o opzioni di browser specifiche.
 
-A partire dal 30 aprile 2024, iPad e iPhone verranno rimossi dal [!UICONTROL Browser] elenco a discesa tipo nella [!DNL Target] Interfaccia utente durante la creazione di categorie per i tipi di pubblico.
+A partire da [!DNL Target] Standard/Premium 24.3.1 (4-6 marzo 2024), tipi di pubblico incorporati creati utilizzando l’interfaccia utente di Target, ad esempio `Browser:iPad` e `Browser:iPhone` sono stati aggiornati per eseguire il targeting corretto per [!DNL iPad] e [!DNL iPhone] utilizzo `profile.mobile.deviceVendor`, `profile.mobile.isMobilePhone` e `profile.mobile.isTablet`.
 
-Tipi di pubblico incorporati creati utilizzando [!DNL Target] L’interfaccia utente, come &quot;Browser: iPad&quot; e &quot;Browser: iPhone&quot;, verrà automaticamente spostata nella nuova definizione del pubblico. Tuttavia, andando avanti, è necessario utilizzare le impostazioni [descritto di seguito](#ui).
+Tipi di pubblico incorporati creati utilizzando [!DNL Target] Interfaccia utente, ad esempio `Browser:iPad` e `Browser:iPhone`, verrà automaticamente spostato nella nuova definizione di pubblico e non richiede alcuna azione da parte dei clienti. Tuttavia, andando avanti, è necessario utilizzare le impostazioni [descritto di seguito](#ui).
 
-Se usa `user.browserType` in qualsiasi script di profilo per verificare se si tratta di un’iPhone o di un iPad (ad esempio, `user.browserType == 'iphone'` o `user.browserType != 'ipad'`), questi script di profilo devono essere modificati come [istruzioni di seguito](#profile-scripts) entro il 30 aprile 2024 per garantire che tali tipi di pubblico continuino a funzionare come previsto.
+Se usa `user.browserType` in qualsiasi script di profilo per verificare se è un [!DNL iPhone] o [!DNL iPad] (ad esempio, `user.browserType == 'iphone'` o `user.browserType != 'ipad'`), questi script di profilo devono essere modificati come [istruzioni di seguito](#profile-scripts) entro il 30 aprile 2024 per garantire che tali tipi di pubblico continuino a funzionare come previsto.
 
-I tipi di pubblico JavaScript sono tipi di pubblico legacy che utilizzano espressioni Target e che sono state dichiarate obsolete con il [!DNL Target Classic] UI. Questi tipi di pubblico possono essere modificati solo tramite API. I clienti devono aggiornare questi tipi di pubblico solo se continuano a utilizzare i tipi di pubblico precedenti nelle attività.
+I tipi di pubblico JavaScript sono tipi di pubblico legacy che utilizzano [!DNL Target] espressioni dichiarate obsolete con il [!DNL Target Classic] UI. Questi tipi di pubblico possono essere modificati solo tramite API. I clienti devono aggiornare questi tipi di pubblico solo se continuano a utilizzare i tipi di pubblico precedenti nelle attività.
 
 ### Tipi di pubblico creati utilizzando [!DNL Target] UI {#ui}
 
 In futuro sarà possibile utilizzare le seguenti impostazioni:
 
-* **Per corrispondenze browser[!DNL Apple]**: [!UICONTROL Dispositivi mobili] > [!UICONTROL Fornitore dispositivo] [!UICONTROL corrisponde a] [!DNL Apple]
+* **Per corrispondenze browser[!DNL Apple]**: [!UICONTROL Mobile] > [!UICONTROL Device Vendor] [!UICONTROL matches] [!DNL Apple]
 
   ![Apple](/help/main/r-release-notes/assets/apple.png)
 
-* **Per il browser corrisponde al tablet**: [!UICONTROL Dispositivi mobili] > [!UICONTROL è un tablet] > [!UICONTROL true]
+* **Per il browser corrisponde al tablet**: [!UICONTROL Mobile] > [!UICONTROL is Tablet] > [!UICONTROL true]
 
   ![Il dispositivo mobile è un tablet](/help/main/r-release-notes/assets/is-tablet.png)
 
-* **Per il browser corrisponde a iPad**: [!UICONTROL Dispositivi mobili] > [!UICONTROL Nome marketing del dispositivo] [!UICONTROL corrisponde a] [!DNL iPad] con un contenitore And con [!UICONTROL Dispositivi mobili] > [!UICONTROL È un tablet] è [!DNL true]
+* **Per il browser corrisponde a iPad**: [!UICONTROL Mobile] > [!UICONTROL Device Marketing Name] [!UICONTROL matches] [!DNL iPad] con un contenitore And con [!UICONTROL Mobile] > [!UICONTROL Is Tablet] è [!DNL true]
 
   ![iPad](/help/main/r-release-notes/assets/ipad.png)
 
-* **Per il browser corrisponde a iPhone**: [!UICONTROL Dispositivi mobili] > [!UICONTROL Nome marketing del dispositivo] [!UICONTROL corrisponde a] [!DNL iPhone] con un contenitore And con [!UICONTROL Dispositivi mobili] > [!UICONTROL È un telefono cellulare] è [!DNL true]
+* **Per il browser corrisponde a iPhone**: [!UICONTROL Mobile] > [!UICONTROL Device Marketing Name] [!UICONTROL matches] [!DNL iPhone] con un contenitore And con [!UICONTROL Mobile] > [!UICONTROL Is Mobile Phone] è [!DNL true]
 
   ![iPhone](/help/main/r-release-notes/assets/iphone.png)
 
 È possibile utilizzare molte altre impostazioni, ad esempio quando le condizioni vengono negate. Di seguito sono riportati alcuni esempi di condizioni negate:
 
-* **Per il browser non corrisponde a iPhone**: [!UICONTROL Dispositivi mobili] > [!UICONTROL Fornitore dispositivo] [!UICONTROL non corrisponde a] [!UICONTROL Apple] con un contenitore O con [!UICONTROL Dispositivi mobili] > [!UICONTROL È un telefono cellulare] è [!UICONTROL false]
+* **Per il browser non corrisponde a iPhone**: [!UICONTROL Mobile] > [!UICONTROL Device Vendor] [!UICONTROL does not match] [!UICONTROL Apple] con un contenitore O con [!UICONTROL Mobile] > [!UICONTROL Is Mobile Phone] è [!UICONTROL false]
 
   ![Non telefono cellulare](/help/main/r-release-notes/assets/mobile-phone-false.png)
 
-* **Per il browser non corrisponde a iPad**: [!UICONTROL Dispositivi mobili] > [!UICONTROL Fornitore dispositivo] [!UICONTROL non corrisponde a] [!UICONTROL Apple] con un contenitore O con [!UICONTROL Dispositivi mobili] > [!UICONTROL È un tablet] è [!UICONTROL false].
+* **Per il browser non corrisponde a iPad**: [!UICONTROL Mobile] > [!UICONTROL Device Vendor] [!UICONTROL does not match] [!UICONTROL Apple] con un contenitore O con [!UICONTROL Mobile] > [!UICONTROL Is Tablet] è [!UICONTROL false].
 
   ![Non tablet](/help/main/r-release-notes/assets/tablet-false.png)
 
 ### Tipi di pubblico creati mediante script di profilo {#profile-scripts}
 
 Se usa `user.browserType` in legacy [!DNL Target Classic] tipi di pubblico o negli script di profilo, le modifiche devono includere quanto segue:
-
->[!NOTE]
->
->I seguenti profili sono previsti per il rilascio nelle prossime settimane, a partire dal 24 gennaio 2024. Il [note sulla versione corrente](/help/main/r-release-notes/release-notes.md) verranno aggiornati quando questi profili saranno disponibili.
->
->Questi profili consentono le seguenti modifiche:
->
->* `profile.mobile.isTablet`
->
->* `profile.mobile.isMobilePhone`
 
 * **BrowserType è iPhone**:
 
