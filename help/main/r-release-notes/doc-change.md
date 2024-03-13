@@ -4,10 +4,10 @@ description: Resta aggiornato sulle importanti aggiunte e modifiche apportate al
 title: Dove posso trovare la documentazione aggiornata per  [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 784f41a73941877135a5902f2331972ba9d0e880
+source-git-commit: 0e4698935b90cc0236abe6a47a6183c7fd2a7b20
 workflow-type: tm+mt
-source-wordcount: '1490'
-ht-degree: 80%
+source-wordcount: '1507'
+ht-degree: 79%
 
 ---
 
@@ -19,6 +19,7 @@ Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Targ
 
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
+| 13 marzo | [[!UICONTROL Time Frame]](/help/main/c-target/c-audiences/c-target-rules/time-frame.md) | Sono state aggiunte informazioni da notare per salvare di nuovo i tipi di pubblico basati sull’ora per tenere conto dell’ora legale (DST). |
 | 6 marzo | [Browser](/help/main/c-target/c-audiences/c-target-rules/browser.md) | Sono state aggiornate le informazioni nella sezione seguente: &quot;Aggiornamenti per [!DNL iPad] e [!DNL iPhone] in [!UICONTROL Browser] attributi del pubblico (30 aprile 2024)&quot;. |
 |  | [Note sulla versione di Target (corrente)](/help/main/r-release-notes/release-notes.md) | Intera sezione aggiornata: &quot;Aggiornamenti per `Browser:iPad` e `Browser:iPhone` in [!UICONTROL Browser] attributi del pubblico (30 aprile 2024)&quot;. |
 |  | [Note sulla versione di Target (corrente)](/help/main/r-release-notes/release-notes.md) | Sono state aggiunte le note sulla versione 24.1.1 di [!DNL Target Standard/Premium]. |
