@@ -6,7 +6,7 @@ short-description: Scopri le nuove funzioni, i miglioramenti e le correzioni inc
 title: Cosa è incluso nella versione corrente?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 5df9ba6eb249dfc690279177ecb5936aaefa7bdd
+source-git-commit: f9bfe01924660e42b19f922e00ddc6393c5cfdba
 workflow-type: tm+mt
 source-wordcount: '570'
 ht-degree: 58%
@@ -25,7 +25,7 @@ I codici dei problemi tra parentesi sono per uso interno di [!DNL Adobe].
 |--- |--- |
 | [!UICONTROL Browser:iPad] e [!UICONTROL Browser:iPhone] aggiornato in [Attributi del browser](/help/main/c-target/c-audiences/c-target-rules/browser.md) utilizzato durante la creazione di tipi di pubblico. | [!DNL Adobe Target] consente di: [esegui il targeting su uno qualsiasi dei vari attributi di categoria](/help/main/c-target/c-audiences/c-target-rules/target-rules.md), inclusi i visitatori che utilizzano un [opzioni browser o browser](/help/main/c-target/c-audiences/c-target-rules/browser.md) quando visitano la tua pagina.<P>A partire da [!DNL Target] Standard/Premium 24.3.1 (4-6 marzo 2024), tipi di pubblico incorporati creati utilizzando l’interfaccia utente di Target, ad esempio `Browser:iPad` e `Browser:iPhone` verrà aggiornato per eseguire il targeting corretto per [!DNL iPad] e [!DNL iPhone] utilizzo `profile.mobile.deviceVendor`, `profile.mobile.isMobilePhone` e `profile.mobile.isTablet`.<P>Questo aggiornamento non richiede alcuna azione da parte dei clienti.<p><B>Importante</b>: per consentire ai clienti di eseguire il targeting corretto per [!DNL iPad] e [!DNL iPhone] negli script di profilo (e nei segmenti JavaScript), il cliente deve apportare modifiche manuali tramite **30 aprile 2024**. Per esempi di impostazioni alternative che devono essere modificate manualmente, vedere [Aggiornamenti per [!DNL iPad] e [!DNL iPhone] in [!UICONTROL Browser] attributi del pubblico](/help/main/c-target/c-audiences/c-target-rules/browser.md#updates). |
 
-## [!UICONTROL Visual Editing Helper] estensione (14 marzo 2023)
+## [!UICONTROL Visual Editing Helper] estensione (14 marzo 2024)
 
 Questa versione include i miglioramenti e le correzioni seguenti per [[!DNL Adobe Experience Cloud Editing Helper]](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) estensione per [!DNL Google Chrome]:
 
