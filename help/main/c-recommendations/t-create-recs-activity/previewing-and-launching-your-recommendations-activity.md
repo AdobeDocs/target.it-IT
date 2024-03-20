@@ -4,10 +4,10 @@ description: Scopri come visualizzare in anteprima il tuo Adobe [!DNL Target] At
 title: Come posso visualizzare in anteprima e avviare un’attività di Recommendations?
 feature: Recommendations
 exl-id: 60391778-4d48-4c41-a7c5-fedcfabf2530
-source-git-commit: 0d875bfaf8c0670f657046469d2adba0647de4fb
+source-git-commit: 6e15b9b10e6a40c8efec06c45442b0f9894e648e
 workflow-type: tm+mt
-source-wordcount: '1416'
-ht-degree: 15%
+source-wordcount: '1340'
+ht-degree: 16%
 
 ---
 
@@ -93,7 +93,7 @@ Per scaricare i risultati per l’anteprima, fai clic sull’icona del menu nell
 
 Da sinistra a destra è un elenco di articoli consigliati, in questo caso quelli visualizzati più di frequente. I consigli sono separati per ambiente; in questo caso solo l’ambiente di produzione dispone di consigli.
 
-Se un asterisco (*) è il primo valore di una riga, indica gli elementi di backup. Gli elementi di backup vengono visualizzati se non tutti gli slot di una progettazione possono essere riempiti dagli elementi consigliati dell’algoritmo (criteri). Per un algoritmo di popolarità come top sold (più venduto), nel file CSV può essere presente solo una riga con zero o una riga non di backup per ogni ambiente, perché questi tipi di algoritmo non hanno una &quot;chiave&quot;, ad esempio &quot;mostra al cliente i prodotti più popolari, indipendentemente da ciò che sta visualizzando o acquistando&quot;. Pertanto, a differenza di altri algoritmi basati su chiave, ad esempio view-view, il primo valore nella riga NON è la chiave, ma il primo elemento nell’elenco degli elementi consigliati.
+Se un asterisco (*) è il primo valore di una riga, indica [elementi di backup](/help/main/c-recommendations/c-algorithms/backup-recs.md). Gli elementi di backup vengono visualizzati se non tutti gli slot di una progettazione possono essere riempiti dagli elementi consigliati dell’algoritmo (criteri).
 
 Per altri tipi di algoritmo basati su un valore chiave, ad esempio [!UICONTROL People Who Viewed This, Viewed That], i valori chiave (ovvero gli elementi &quot;Questo&quot;) sono elencati nella colonna più a sinistra e gli elementi consigliati (ovvero gli elementi &quot;Che&quot;) sono elencati da sinistra a destra nelle colonne Recommendation_X.
 

@@ -6,10 +6,10 @@ short-description: Scopri le nuove funzioni, i miglioramenti e le correzioni inc
 title: Cosa è incluso nella versione corrente?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: f9bfe01924660e42b19f922e00ddc6393c5cfdba
+source-git-commit: 6e15b9b10e6a40c8efec06c45442b0f9894e648e
 workflow-type: tm+mt
-source-wordcount: '570'
-ht-degree: 58%
+source-wordcount: '552'
+ht-degree: 60%
 
 ---
 
@@ -31,7 +31,6 @@ Questa versione include i miglioramenti e le correzioni seguenti per [[!DNL Adob
 
 * È stato migliorato il meccanismo di caricamento dell’iFrame durante l’authoring nei siti web dei clienti.
 * È stato risolto un problema che causava la duplicazione dei cookie da parte dell’estensione durante l’esecuzione dell’authoring in [!UICONTROL Visual Experience Composer] (VEC).
-* È stata rimossa la dipendenza da scaricare at.js per i clienti che utilizzano [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/aep-web-sdk){target=_blank}.
 
 ## [!DNL Target] Standard/Premium 24.3.1 (4-6 marzo 2024)
 

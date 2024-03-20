@@ -2,25 +2,25 @@
 keywords: consigli;backup;back up
 description: Scopri come utilizzare i consigli di backup in Adobe [!DNL Target] Recommendations. I consigli che non hanno un numero sufficiente di elementi consigliati visualizzano i risultati dell'algoritmo di backup.
 title: Come si utilizza un consiglio di backup in Recommendations?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Vedi cosa è incluso in Target Premium."
 feature: Recommendations
 exl-id: 070aa8ef-5691-4106-b5cf-45eb9f6f334c
-source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
+source-git-commit: 6e15b9b10e6a40c8efec06c45442b0f9894e648e
 workflow-type: tm+mt
-source-wordcount: '518'
-ht-degree: 82%
+source-wordcount: '527'
+ht-degree: 77%
 
 ---
 
 # Utilizzare un consiglio di backup
 
-Se utilizzi la funzione di consigli di backup in Adobe Target, per i consigli privi di un numero sufficiente di elementi consigliati non verrà visualizzato il contenuto predefinito. Al loro posto saranno visualizzati i risultati dell’algoritmo di backup.
+Se utilizzi la funzione di consigli di backup in [!DNL Adobe Target]Tuttavia, per i consigli privi di un numero sufficiente di elementi consigliati, il contenuto predefinito non viene visualizzato. Al loro posto saranno visualizzati i risultati dell’algoritmo di backup.
 
 Se non utilizzi un consiglio di backup e per un consiglio non sono presenti elementi sufficienti a popolare completamente la visualizzazione, nel sistema viene visualizzato il contenuto predefinito per l’utente.
 
 >[!NOTE]
 >
->Ulteriori informazioni sono incluse nel [Sezione contenuto della sezione Creare i criteri](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#content) , inclusa una matrice che spiega i risultati che osserverai quando utilizzi il [!UICONTROL Rendering design parziale] e [!UICONTROL Mostra Recommendations di backup] opzioni insieme o separatamente.
+>Ulteriori informazioni sono incluse nel [Sezione contenuto della sezione Creare i criteri](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#content) , inclusa una matrice che spiega i risultati che osserverai quando utilizzi il [!UICONTROL Partial Design Rendering] e [!UICONTROL Show Backup Recommendations] opzioni insieme o separatamente.
 
 La funzionalità di consiglio di backup utilizza sempre gli elementi più visualizzati sul sito per popolare gli spazi rimanenti dopo l’utilizzo dei dati dell’algoritmo. Ad esempio, supponi che il modello sia configurato per mostrare cinque elementi consigliati e che sia in uso l’algoritmo *Affinità di acquisto*. Se tuttavia i dati sono sufficienti solo per popolare due spazi su cinque, la funzione di consiglio di backup popola gli altri tre con gli elementi più visualizzati.
 
@@ -49,4 +49,4 @@ I duplicati vengono rimossi dai blocchi di consigli.
 
 L’utilizzo dei consigli di backup viene di solito discusso con il team di implementazione durante la configurazione iniziale. Se desideri modificare l’impostazione relativa ai consigli di backup dopo l’implementazione, contatta il tuo Account Manager.
 
-Se l’opzione Abilita rendering design parziale (consulta [Impostazioni contenuto](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#content)) non è abilitata e il modello non viene visualizzato, verrà mostrato invece il consiglio di backup o il contenuto predefinito.
+Se si abilita il rendering design parziale (vedere [Impostazioni contenuto](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#content)) non è abilitata e il modello non viene visualizzato, viene mostrato invece il consiglio di backup o il contenuto predefinito.
