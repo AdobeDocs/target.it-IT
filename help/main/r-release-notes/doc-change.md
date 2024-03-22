@@ -4,10 +4,10 @@ description: Resta aggiornato sulle importanti aggiunte e modifiche apportate al
 title: Dove posso trovare la documentazione aggiornata per  [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 5df9ba6eb249dfc690279177ecb5936aaefa7bdd
+source-git-commit: 324274a9e97fceaa3e559e63b3b0f2e74bbd886f
 workflow-type: tm+mt
-source-wordcount: '1518'
-ht-degree: 79%
+source-wordcount: '1573'
+ht-degree: 77%
 
 ---
 
@@ -19,6 +19,8 @@ Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Targ
 
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
+| 22 marzo | [Inserire nell’elenco consentiti i nodi Edge di Target](https://experienceleague.adobe.com/en/docs/target-dev/developer/implementation/privacy/allowlist-edges){target=_blank} | Rimossi riferimenti ai nodi edge da 31 a 38 perché questi nodi non esistono più. Assicurati che il tuo inserisce nell&#39;elenco Consentiti di sia aggiornato. |
+|  | [Impatto della rimozione dei cookie di terze parti da Target (at.js)](https://experienceleague.adobe.com/docs/target-dev/assets/third_party_cookie_deprecation){target=_blank} | Nuovo post sul blog che descrive cosa significa per il tuo Google la prevista rimozione dei cookie di terze parti [!DNL Adobe Target] Implementazione di at.js. |
 | 14 marzo | Note sulla versione di [[!DNL Target]  (corrente)](/help/main/r-release-notes/release-notes.md) | Sono state aggiunte note sulla versione di [!DNL Adobe Experience Platform Visual Editing Helper] per [!DNL Google Chrome]. |
 | 13 marzo | [[!UICONTROL Time Frame]](/help/main/c-target/c-audiences/c-target-rules/time-frame.md) | Sono state aggiunte informazioni da notare per salvare di nuovo i tipi di pubblico basati sull’ora per tenere conto dell’ora legale (DST). |
 | 6 marzo | [Browser](/help/main/c-target/c-audiences/c-target-rules/browser.md) | Sono state aggiornate le informazioni nella sezione seguente: &quot;Aggiornamenti per [!DNL iPad] e [!DNL iPhone] in [!UICONTROL Browser] attributi del pubblico (30 aprile 2024)&quot;. |
