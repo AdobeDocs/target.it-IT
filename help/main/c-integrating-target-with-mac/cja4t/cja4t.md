@@ -7,7 +7,7 @@ badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.c
 hide: true
 hidefromtoc: true
 exl-id: 67b20bf6-ffbe-4220-9455-cb3886bb9227
-source-git-commit: 1ae3f234ee475e56c6c072ccceb79c417b7ba245
+source-git-commit: f87f6f13ab02c77d298ea9dac0d307852d3e64af
 workflow-type: tm+mt
 source-wordcount: '977'
 ht-degree: 64%
@@ -22,7 +22,7 @@ I vantaggi principali dell’utilizzo di [!DNL Customer Journey Analytics] come 
 
 * Gli addetti al marketing possono applicare dinamicamente le metriche di successo di [!DNL Customer Journey Analytics] ai rapporti delle attività di [!DNL Target] in qualsiasi momento. Non è necessario specificare tutte le impostazioni prima di eseguire l’attività.
 * Gli addetti al marketing possono trarre vantaggio da [!DNL Customer Journey Analytics] funzioni, ad esempio [Pannello Sperimentazione](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/panels/experimentation){target=_blank}, per analizzare ulteriormente la personalizzazione del sito web.
-*Gli addetti al marketing possono disporre di un&#39;unica fonte di reporting per [[!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/reporting/cja-ajo){target=_blank} e [!DNL Target]. Entrambi i prodotti di personalizzazione possono essere collegati a [!DNL Customer Journey Analytics] per una visione più olistica della personalizzazione web.
+* Gli addetti al marketing possono disporre di un’unica fonte di reporting per [[!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/reporting/cja-ajo){target=_blank} e [!DNL Target]. Entrambi i prodotti di personalizzazione possono essere collegati a [!DNL Customer Journey Analytics] per una visione più olistica della personalizzazione web.
 
 ## Considerazioni
 
