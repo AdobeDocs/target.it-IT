@@ -3,9 +3,9 @@ user-guide-title: Guida di Adobe Target per professionisti aziendali
 breadcrumb-title: Guida di Target
 user-guide-description: Scopri come adattare e personalizzare l’esperienza dei clienti per massimizzare le entrate dai siti web e mobili, dalle app, dai social media e da altri canali digitali.
 feature-set: Target
-source-git-commit: 5d14dfd700cb1cec0fa62f66da1400bc8d7fd109
+source-git-commit: 13903e03178a12fe811b540cb7c00d04e4263aed
 workflow-type: tm+mt
-source-wordcount: '1232'
+source-wordcount: '1237'
 ht-degree: 91%
 
 ---
@@ -247,10 +247,11 @@ ht-degree: 91%
    + [Compositore esperienza visivo per app a pagina singola (SPA)](c-experiences/spa-visual-experience-composer.md)
    + Offerte {#offers}
       + [Panoramica sulle offerte](c-experiences/c-manage-content/manage-content.md)
-      + [Panoramica delle offerte - versione beta](/help/main/c-experiences/c-manage-content/manage-content-beta.md) {#offers} {#hidden}
+      + [Panoramica delle offerte - versione beta](/help/main/c-experiences/c-manage-content/manage-content-beta.md) {#manage-offers} {#hidden}
       + [Creare una cartella di offerta](c-experiences/c-manage-content/create-content-folder.md)
-      + [Crea beta cartella di offerta](/help/main/c-experiences/c-manage-content/create-content-folder-beta.md) {#offers} {#hidden}
-      + [Caricamento di contenuto](c-experiences/c-manage-content/assets-upload.md)
+      + [Crea beta cartella di offerta](/help/main/c-experiences/c-manage-content/create-content-folder-beta.md) {#create-offer-folders} {#hidden}
+      + [Caricare contenuto](c-experiences/c-manage-content/assets-upload.md)
+      + [Caricare o eliminare le offerte di immagini](/help/main/c-experiences/c-manage-content/assets-upload-beta.md) {#upload-delete-offers} {#hidden}
       + [Creare offerte di reindirizzamento](c-experiences/c-manage-content/offer-redirect.md)
       + [Creare offerte remote](c-experiences/c-manage-content/about-remote-offers.md)
       + [Creare offerte JSON](c-experiences/c-manage-content/create-json-offer.md)

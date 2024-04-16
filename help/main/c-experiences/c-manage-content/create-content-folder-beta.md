@@ -6,16 +6,20 @@ feature: Experiences and Offers
 badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=it#beta newtab=true" tooltip="Cosa sono le funzioni beta in [!DNL Adobe Target]."
 hide: true
 hidefromtoc: true
-source-git-commit: d3379243f8c64a1a0b56268dd60447375020e11b
+source-git-commit: 13903e03178a12fe811b540cb7c00d04e4263aed
 workflow-type: tm+mt
-source-wordcount: '282'
-ht-degree: 7%
+source-wordcount: '334'
+ht-degree: 6%
 
 ---
 
 # Creare cartelle di offerta
 
 Creare cartelle in [!DNL Adobe Target] [!UICONTROL Offer] libreria per raccogliere offerte basate su codice, offerte basate su immagini e altre cartelle per creare una struttura di sottocartelle.
+
+>[!NOTE]
+>
+>Questo articolo contiene informazioni sugli aggiornamenti di [!DNL Target] che fa attualmente parte di un programma beta. Il [!DNL Adobe Target] team abilita spesso nuove funzioni per determinati clienti a scopo di test e feedback. Al termine del periodo di test, queste funzioni saranno abilitate per tutti i clienti in futuro [!DNL Target Standard/Premium] e annunciate nelle note sulla versione.
 
 Il processo di creazione di cartelle per le offerte basate su codice e le offerte basate su immagini è leggermente diverso. Le sezioni seguenti contengono ulteriori informazioni.
 
