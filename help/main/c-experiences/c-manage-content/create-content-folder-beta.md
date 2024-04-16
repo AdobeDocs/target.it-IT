@@ -3,10 +3,13 @@ keywords: contenuto;crea cartella;risorse;sposta cartella;copia cartella;elimina
 description: Come si creano cartelle in [!UICONTROL Offers] libreria?
 title: Scopri come creare cartelle in [!UICONTROL Offers] libreria per contenere offerte di codice e immagini, nonché altre cartelle.
 feature: Experiences and Offers
-source-git-commit: cd8035d9e2a369b9503763474ce09c4fe2434ae9
+badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=it#beta newtab=true" tooltip="Cosa sono le funzioni beta in [!DNL Adobe Target]."
+hide: true
+hidefromtoc: true
+source-git-commit: 5d14dfd700cb1cec0fa62f66da1400bc8d7fd109
 workflow-type: tm+mt
-source-wordcount: '277'
-ht-degree: 4%
+source-wordcount: '286'
+ht-degree: 7%
 
 ---
 
