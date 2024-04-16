@@ -6,9 +6,9 @@ feature: Experiences and Offers
 badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=it#beta newtab=true" tooltip="Cosa sono le funzioni beta in [!DNL Adobe Target]."
 hide: true
 hidefromtoc: true
-source-git-commit: 5d14dfd700cb1cec0fa62f66da1400bc8d7fd109
+source-git-commit: d3379243f8c64a1a0b56268dd60447375020e11b
 workflow-type: tm+mt
-source-wordcount: '286'
+source-wordcount: '282'
 ht-degree: 7%
 
 ---
@@ -19,7 +19,7 @@ Creare cartelle in [!DNL Adobe Target] [!UICONTROL Offer] libreria per raccoglie
 
 Il processo di creazione di cartelle per le offerte basate su codice e le offerte basate su immagini è leggermente diverso. Le sezioni seguenti contengono ulteriori informazioni.
 
-## Cartelle di offerta codice
+## [!UICONTROL Code Offer] cartelle
 
 1. Clic **[!UICONTROL Offers]** > **[!UICONTROL Code Offers]**.
 
@@ -35,7 +35,7 @@ Il processo di creazione di cartelle per le offerte basate su codice e le offert
 
 Per informazioni sulle attività eseguibili su offerte e cartelle, consulta [Utilizzare i contenuti della libreria di risorse](/help/main/c-experiences/c-manage-content/assets-working.md).
 
-## Cartelle di offerta immagini
+## [!UICONTROL Image Offer] cartelle
 
 1. Clic **[!UICONTROL Offers]** > **[!UICONTROL Image Offers]**.
 
