@@ -4,10 +4,10 @@ description: Scopri perché alcuni siti web potrebbero non aprirsi in modo affid
 title: Come si utilizza [!UICONTROL Visual Experience Composer] Estensione (VEC) Helper?
 feature: Visual Experience Composer (VEC)
 exl-id: 3f38db69-046d-42c9-8c09-eca11d404b12
-source-git-commit: 8edae6a197a3ac82b85fcce4d99c8b0d5f45c712
+source-git-commit: 97b1d78de2d6ba33c1dd72494edcfc97fc3ba7e6
 workflow-type: tm+mt
-source-wordcount: '1088'
-ht-degree: 48%
+source-wordcount: '1043'
+ht-degree: 50%
 
 ---
 
@@ -19,11 +19,9 @@ Il browser VEC Helper è [!DNL Chrome] estensione. Questa estensione non è nece
 
 >[!IMPORTANT]
 >
->L&#39;attuale [!DNL Target] L’estensione VEC Helper documentata in questo articolo è stata creata utilizzando Manifest v2. Google ha recentemente annunciato che non consentirà più la creazione di nuove estensioni tramite Manifest v2 a partire da giugno 2024. Per ulteriori informazioni, vedere [Manifesto annuncio timeline di supporto V2](https://developer.chrome.com/docs/extensions/develop/migrate/mv2-deprecation-timeline){target=_blank} da [!DNL Google] il *Chrome per sviluppatori* sito.
+>La versione precedente [!DNL Target] L’estensione VEC Helper documentata in questo articolo è stata creata utilizzando Manifest V2. [!DNL Google] ha annunciato che non consentirà più le estensioni create utilizzando Manifest V2 a partire da giugno 2024. Per ulteriori informazioni, vedere [Manifesto annuncio timeline di supporto V2](https://developer.chrome.com/docs/extensions/develop/migrate/mv2-deprecation-timeline){target=_blank} da [!DNL Google] il *Chrome per sviluppatori* sito.
 >
->L’estensione esistente funziona ancora in Google Chrome. A partire da giugno 2024, [!DNL Adobe] disabiliterà l’estensione helper documentata in questo argomento e richiederà ai clienti di passare alla più recente [Estensione Helper per editing video](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md).
->
-Quando l’estensione smetterà di funzionare, riceverai una notifica tramite le note sulla versione, un annuncio nel prodotto e il testo di questo articolo. Tuttavia, a causa dei miglioramenti alla sicurezza in Manifest v3, [!DNL Adobe] richiede il download della nuova estensione per continuare a creare visivamente i siti web in [!DNL Target].
+>A partire da giugno 2024, [!DNL Google] inizierà a disabilitare le estensioni create utilizzando Manifest V2, inclusa l’estensione documentata in questo argomento. [!DNL Adobe] consiglia ai clienti di passare a quello più recente [Estensione Helper per editing video](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) non appena possibile.
 
 ## Motivi per cui alcuni siti web potrebbero non aprirsi in modo affidabile nel Compositore esperienza visivo
 

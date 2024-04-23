@@ -4,10 +4,10 @@ description: Resta aggiornato sulle importanti aggiunte e modifiche apportate al
 title: Dove posso trovare la documentazione aggiornata per  [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 45576f31f055a83bcdc106771fb0fa25357d226a
+source-git-commit: 97b1d78de2d6ba33c1dd72494edcfc97fc3ba7e6
 workflow-type: tm+mt
-source-wordcount: '1613'
-ht-degree: 76%
+source-wordcount: '1688'
+ht-degree: 73%
 
 ---
 
@@ -19,6 +19,8 @@ Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Targ
 
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
+| Aprile 23 | Note sulla versione di [[!DNL Target]  (corrente)](/help/main/r-release-notes/release-notes.md) | Sono state aggiunte informazioni che spiegano il piano di Google per iniziare a disabilitare le estensioni create utilizzando Manifest V2. [!DNL Adobe] consiglia ai clienti di passare al nuovo [!UICONTROL Visual Editing Helper] estensione il prima possibile. |
+| Aprile 23 | [[!UICONTROL Visual Experience Composer] estensione helper](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) | È stata aggiornata la nota importante nella parte superiore della pagina che spiega il piano di Google per iniziare a disabilitare le estensioni create utilizzando Manifest V2, che include l’estensione documentata in questo articolo. [!DNL Adobe] consiglia ai clienti di passare al nuovo [!UICONTROL Visual Editing Helper] estensione il prima possibile. |
 | 9 aprile | [Risoluzione dei problemi relativi al [!UICONTROL Visual Experience Composer]](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-visual-experience-composer-vec.md) | È stata aggiornata la seguente sezione:<ul><li>La pagina non viene visualizzata nel Compositore esperienza visivo (solo Compositore esperienza visivo)</li></ul>È stata aggiunta la seguente sezione:<ul><li>Problemi causati da conflitti CSS in [!UICONTROL Visual Experience Composer]</li></ul> |
 |  | [Rapporti Approfondimenti personalizzazione](/help/main/c-reports/c-personalization-insights-reports/personalization-insights-reports.md) | È stata aggiornata la sezione Considerazioni. |
 | 22 marzo | [Inserire nell’elenco consentiti i nodi Edge di Target](https://experienceleague.adobe.com/en/docs/target-dev/developer/implementation/privacy/allowlist-edges){target=_blank} | Rimossi riferimenti ai nodi edge da 31 a 38 perché questi nodi non esistono più. Assicurati che il tuo inserisce nell&#39;elenco Consentiti di sia aggiornato. |
