@@ -3,7 +3,7 @@ user-guide-title: Guida di Adobe Target per professionisti aziendali
 breadcrumb-title: Guida di Target
 user-guide-description: Scopri come adattare e personalizzare l’esperienza dei clienti per massimizzare le entrate dai siti web e mobili, dalle app, dai social media e da altri canali digitali.
 feature-set: Target
-source-git-commit: 98613f43c5f135a6ce61a4b8dcc7f2b372df51e2
+source-git-commit: 36ccf66768d615c3fc8f0b4ae076448073e9f4cd
 workflow-type: tm+mt
 source-wordcount: '1250'
 ht-degree: 90%
@@ -89,7 +89,7 @@ ht-degree: 90%
          + [Condividere metriche, pubblico e rapporti - Domande frequenti su A4T](/help/main/c-target/c-troubleshooting-targets-and-audiences/a4t-faq-sharing-metrics-audiences-reports.md)
          + [Integrazione legacy tra SiteCatalyst e Test&amp;Target - Domande frequenti su A4T](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-old-integration.md)
       + [Varianze di dati previste tra Target e Analytics durante l’utilizzo con e senza A4T](c-integrating-target-with-mac/a4t/understanding-expected-data-variances.md)
-   + Integrare Target con Adobe Customer Journey Analytics {#cja} {#hidden}
+   + Integrare Target con Adobe Customer Journey Analytics {#cja}
       + [Generazione di rapporti di Target in Adobe Customer Journey Analytics](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md)
    + Integrare Target con Adobe Journey Optimizer (AJO) {#ajo}
       + [Utilizzare le decisioni sulle offerte](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md)
