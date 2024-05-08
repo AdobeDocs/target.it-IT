@@ -3,10 +3,10 @@ user-guide-title: Guida di Adobe Target per professionisti aziendali
 breadcrumb-title: Guida di Target
 user-guide-description: Scopri come adattare e personalizzare l’esperienza dei clienti per massimizzare le entrate dai siti web e mobili, dalle app, dai social media e da altri canali digitali.
 feature-set: Target
-source-git-commit: f11f65a9dc88acca53c34cb2a151dffb390cfee7
+source-git-commit: 98613f43c5f135a6ce61a4b8dcc7f2b372df51e2
 workflow-type: tm+mt
-source-wordcount: '1239'
-ht-degree: 91%
+source-wordcount: '1250'
+ht-degree: 90%
 
 ---
 
@@ -257,7 +257,9 @@ ht-degree: 91%
       + [Creare offerte remote](c-experiences/c-manage-content/about-remote-offers.md)
       + [Creare offerte remote beta](/help/main/c-experiences/c-manage-content/about-remote-offers-beta.md) {#remote} {#hidden}
       + [Creare offerte JSON](c-experiences/c-manage-content/create-json-offer.md)
+      + [Creare offerte JSON beta](/help/main/c-experiences/c-manage-content/create-json-offer-beta.md) {#json} {#hidden}
       + [Utilizzare i contenuti della libreria](c-experiences/c-manage-content/assets-working.md)
+      + [Utilizzare i contenuti della versione beta della libreria](/help/main/c-experiences/c-manage-content/assets-working-beta) {#working} {#hidden}
       + [Ricercare contenuto](c-experiences/c-manage-content/filter-and-search-content.md)
       + [Trasmettere i dati dinamici nelle offerte](c-experiences/c-manage-content/passing-profile-attributes-to-the-html-offer.md)
       + [Frammenti di esperienza e contenuti AEM](c-experiences/c-manage-content/aem-experience-fragments.md)

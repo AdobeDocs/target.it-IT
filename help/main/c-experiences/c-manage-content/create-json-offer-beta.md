@@ -3,11 +3,12 @@ keywords: offerta json;creare offerta json
 description: Scopri come creare offerte JSON in per l’utilizzo in [!UICONTROL Form-Based Experience Composer].
 title: Come si creano le offerte JSON?
 feature: Experiences and Offers
-exl-id: 793665a4-4cd6-458f-8225-ba23e503a115
+hide: true
+hidefromtoc: true
 source-git-commit: 98613f43c5f135a6ce61a4b8dcc7f2b372df51e2
 workflow-type: tm+mt
-source-wordcount: '410'
-ht-degree: 29%
+source-wordcount: '426'
+ht-degree: 25%
 
 ---
 
@@ -32,15 +33,17 @@ Quando lavori con le offerte JSON, considera quanto segue:
 
 1. Clic **[!UICONTROL Offers]** > **[!UICONTROL Code Offers]**.
 
-   ![Offerte > scheda Offerte di codice](/help/main/c-experiences/c-manage-content/assets/code-offers-tab.png)
+   ![Offerte > scheda Offerte di codice](/help/main/c-experiences/c-manage-content/assets/code-offers-tab-new.png)
 
-1. Clic **[!UICONTROL Create]** > **[!UICONTROL JSON Offer]**.
+1. Clic **[!UICONTROL Create Offer]** > **[!UICONTROL JSON Offer]**.
 
-   ![immagine offer-json](assets/offer-json.png)
+   ![immagine offer-json](assets/offer-json-new.png)
 
 1. Digita un nome per l’offerta.
+1. (Condizionale) Se disponi di [[!DNL Target] Account Premium](/help/main/c-intro/intro.md#premium), scegli il [workspace](/help/main/administrating-target/c-user-management/property-channel/property-channel.md#workspace).
+1. (Condizionale) Scegli gli attributi di profilo desiderati.
 1. Digita o incolla il codice JSON nel **[!UICONTROL Code]** casella.
-1. Clic **[!UICONTROL Save]**.
+1. Clic **[!UICONTROL Create]**.
 
 ## Esempio JSON {#section_A54F7BB2B55D4B7ABCD5002E0C72D8C9}
 
@@ -60,7 +63,7 @@ adobe.target.getOffer({
 });
 ```
 
-Le azioni passate al callback di successo sono una matrice di oggetti. Supponiamo di avere una singola offerta JSON, con il seguente contenuto:
+Le azioni passate al callback di successo sono una matrice di oggetti. Supponendo di disporre di una singola offerta JSON, con questo contenuto:
 
 ```json
 { 
@@ -139,6 +142,6 @@ Per ulteriori informazioni, consulta [Condividere gli attributi del profilo Real
 
 ## Filtraggio delle offerte per tipo di offerta JSON {#section_52533555BCE6420C8A95EB4EB8907BDE}
 
-Puoi filtrare i [!UICONTROL Offers] libreria in base al tipo di offerta JSON, facendo clic sul pulsante **[!UICONTROL Type]** , quindi selezionando il pulsante **[!UICONTROL JSON]** casella di controllo.
+Puoi filtrare i [!UICONTROL Offers] libreria in base al tipo di offerta JSON, facendo clic sul pulsante **[!UICONTROL Show filters]** , quindi selezionando l&#39;icona **[!UICONTROL JSON]** casella di controllo.
 
-![immagine offer-json-filter](assets/offer-json-filter.png)
+![immagine offer-json-filter](assets/offer-json-filter-new.png)
