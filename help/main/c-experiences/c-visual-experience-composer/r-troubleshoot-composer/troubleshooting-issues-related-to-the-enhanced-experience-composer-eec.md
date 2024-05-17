@@ -4,10 +4,10 @@ description: Scopri come risolvere i problemi che a volte si verificano nell’A
 title: Come posso risolvere i problemi relativi al Compositore esperienza avanzato?
 feature: Visual Experience Composer (VEC)
 exl-id: 7dea7707-5d9f-49c4-9ccd-618eeb7b3568
-source-git-commit: cb16350389e1504c88f1cf97aeda243e1300b65e
+source-git-commit: 7562a1da201b570ee529db9763ef5f4b463f65a8
 workflow-type: tm+mt
-source-wordcount: '414'
-ht-degree: 25%
+source-wordcount: '439'
+ht-degree: 23%
 
 ---
 
@@ -21,6 +21,15 @@ Questo problema può essere risolto inserendo nell&#39;elenco Consentiti seguent
 
 Inserire nell&#39;elenco Consentiti Chiedi al tuo team IT di i seguenti indirizzi IP:
 
+* 34 254 77 200
+* 54 73 207 147
+* 54 229 152 123
+* 3 224 194 242
+* 54 90 51 39
+* 34 228 136 112
+* 54 150 116 11
+* 18 178 142,8
+* 54 199 107 77
 * 99.80.139.221
 * 54 78 56 224
 * 54 247 179 246
@@ -66,7 +75,7 @@ Per controllare la versione TLS sul tuo sito web con Firefox (altri browser hann
 
    ![immagine firefox_more_info_3](assets/firefox_more_info_3.png)
 
-1. Se scopri che il tuo sito web mostra TLS 1.0, consulta [Modifiche alla crittografia di TLS (Transport Layer Security)](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html){target=_blank} for information about Target's TLS support policy. To remedy the situation for now (valid until September 12, 2018){target=_blank}, contatta [Assistenza clienti](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) per la configurazione con la versione di TLS e il dominio.
+1. Se scopri che il tuo sito web mostra TLS 1.0, consulta [Modifiche alla crittografia di TLS (Transport Layer Security)](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html){target=_blank} per informazioni sui criteri di supporto TLS di Target. Per risolvere la situazione (valido fino al 12 settembre 2018){target=_blank}, contatta [Assistenza clienti](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) per la configurazione con la versione di TLS e il dominio.
 
 ## Ricevo errori di timeout o “accesso negato” durante il caricamento di siti con proxy abilitato. (Solo Compositore esperienza avanzato) {#section_60CBB9022DC449F593606C0E6252302D}
 
