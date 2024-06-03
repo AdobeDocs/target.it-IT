@@ -4,10 +4,10 @@ description: Resta aggiornato sulle importanti aggiunte e modifiche apportate al
 title: Dove posso trovare la documentazione aggiornata per  [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 7562a1da201b570ee529db9763ef5f4b463f65a8
+source-git-commit: be6e45ff301f549eb5be24a65b05c4a9c1cd6089
 workflow-type: tm+mt
-source-wordcount: '1741'
-ht-degree: 71%
+source-wordcount: '1783'
+ht-degree: 70%
 
 ---
 
@@ -19,6 +19,7 @@ Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Targ
 
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
+| 3 giugno | [Priorità](/help/main/c-activities/priority.md) | Intero argomento aggiornato, con indicazione del contenuto da più [!UICONTROL Form-Based Experience Composer] e le attività del Compositore esperienza visivo possono offrire. In precedenza, era possibile eseguire una sola attività dal flusso di lavoro basato su moduli. Non esiste più un limite al numero di attività basate su moduli che possono essere consegnate. |
 | 17 maggio | [Risoluzione dei problemi relativi al [!UICONTROL Enhanced Experience Composer]](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md) | Sono stati aggiunti altri indirizzi IP che è possibile inserire nell&#39;elenco Consentiti durante l utilizzo di [!UICONTROL Enhanced Experience Composer]. |
 | 8 maggio | [[!DNL Target] creazione di rapporti in [!DNL Adobe Customer Journey Analytics]](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md) | Nuovo articolo: Sono state aggiunte informazioni sulla funzione [!DNL Target] integrazione con [!DNL Adobe Customer Journey Analytics]. |
 | 30 aprile | [Risoluzione dei problemi relativi al [!UICONTROL Enhanced Experience Composer]](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md) | È stato aggiornato l’elenco degli indirizzi IP per il server di Adobe utilizzato per il proxy CEE da utilizzare per il inserisco nell&#39;elenco Consentiti di. |

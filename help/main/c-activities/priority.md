@@ -4,10 +4,10 @@ description: Scopri come [!DNL Adobe Target] determina in modo diverso l’attiv
 title: In che modo [!DNL Target] Assegnare priorità ad attività diverse?
 feature: Activities
 exl-id: c32f1699-e564-40dd-8ff1-7c75a672c6ef
-source-git-commit: f935b963d8686ca8991544a96720adfc32b1083e
+source-git-commit: be6e45ff301f549eb5be24a65b05c4a9c1cd6089
 workflow-type: tm+mt
-source-wordcount: '1065'
-ht-degree: 33%
+source-wordcount: '907'
+ht-degree: 37%
 
 ---
 
@@ -15,9 +15,9 @@ ht-degree: 33%
 
 [!DNL Adobe Target] determina in modo diverso l’attività o le attività da consegnare a una pagina, a seconda di quale [!DNL Target] e quale funzione di creazione attività ([[!UICONTROL Visual Experience Composer (VEC)]](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) o [Compositore esperienza basato su moduli](/help/main/c-experiences/form-experience-composer.md)) in uso.
 
-## [!DNL Target Standard/Premium] [!UICONTROL Visual Experience Composer] solo o [!UICONTROL Form-Based Experience Composer] utilizzo di un [!DNL Target] solo richiesta {#section_4A0A317DFED345649B58B0CB5B410C8B}
+## [!UICONTROL Visual Experience Composer] solo o [!UICONTROL Form-Based Experience Composer] utilizzo di un [!DNL Target] solo richiesta {#section_4A0A317DFED345649B58B0CB5B410C8B}
 
-Se l’azienda utilizza [!DNL Target Standard/Premium] e esclusivamente nel Compositore esperienza visivo, il contenuto da più attività può essere restituito per la stessa chiamata. Le attività vengono consegnate in base al seguente flusso decisionale:
+Se l’azienda utilizza esclusivamente il Compositore esperienza visivo, è possibile restituire il contenuto di più attività per la stessa chiamata. Le attività vengono consegnate in base al seguente flusso decisionale:
 
 1. Il [!DNL Target] la chiamata al server arriva a [!DNL Target] con informazioni sull’URL.
 1. [!DNL Target] richiama ogni attività in esecuzione su tale URL.
@@ -39,24 +39,20 @@ Se l’azienda utilizza [!DNL Target Standard/Premium] e esclusivamente nel Comp
    * Se il targeting per il pubblico è stato impostato per una sola attività, viene visualizzata tale attività.
    * Se tutti o nessuno ha un targeting, viene visualizzata l’attività approvata per prima.
 
-## [!DNL Target Standard/Premium] [!UICONTROL Form-Based Experience Composer] e [!DNL Target Standard/Premium] [!UICONTROL Visual Experience Composer] {#section_4620253E1CE942DD830724C7822B175F}
-
->[!NOTE]
->
->Queste informazioni si applicano anche alle attività in esecuzione create in [!DNL Target Classic].
+## [!UICONTROL Form-Based Experience Composer] e [!UICONTROL Visual Experience Composer] {#section_4620253E1CE942DD830724C7822B175F}
 
 Se la tua azienda utilizza [!UICONTROL Form-Based Experience Composer] *e* il Compositore esperienza visivo, contenuto da più [!UICONTROL Form-Based Experience Composer] e le attività del Compositore esperienza visivo possono offrire. In precedenza, era possibile eseguire una sola attività dal flusso di lavoro basato su moduli. Non esiste più un limite al numero di attività basate su moduli che possono essere consegnate.
 
 Le attività vengono consegnate in base al seguente flusso decisionale:
 
 1. [!DNL Target] la chiamata al server arriva a [!DNL Target] con informazioni su [!DNL Target] richiesta e URL.
-1. [!DNL Target Standard/Premium] richiama ogni attività in esecuzione in che [!DNL Target] richiesta.
+1. [!DNL Target] richiama ogni attività in esecuzione in che [!DNL Target] richiesta.
 1. [!DNL Target] tenta di associare il visitatore alle attività di.
 
    Se il visitatore si trova già in un [!UICONTROL A/B Test] o [!UICONTROL Multivariate Test] attività, corrispondono a quel test fino a quando non vengono convertiti. Se si trovavano precedentemente in un [!UICONTROL Experience Targeting] attività, devono corrispondere di nuovo in esso. Se soddisfa le regole del pubblico, allora il visitatore rientra in tali attività e in esperienze specifiche.
 
 1. Se un’attività basata su moduli ha la priorità più alta, il contenuto dell’attività viene restituito insieme a tutto il contenuto dell’attività corrispondente dalle attività del Compositore esperienza visivo.
-1. Se un’attività del Compositore esperienza visivo ha la priorità più alta, viene restituito il contenuto di tutte le attività del Compositore esperienza visivo corrispondenti, ma non [!DNL Target Classic] o viene restituito il contenuto dell’attività basata su moduli.
+1. Se un’attività del Compositore esperienza visivo ha la priorità più alta, viene restituito il contenuto di tutte le attività del Compositore esperienza visivo corrispondenti, ma non viene restituito alcun contenuto di attività basato su modulo.
 
    I risultati di tutte le attività eseguite sulla pagina vengono conteggiati e si riflettono nei rapporti.
 
@@ -66,11 +62,7 @@ In presenza di due attività, una con targeting per la parola chiave di ricerca 
 
 Se entrambe le attività di targeting hanno la stessa priorità, viene visualizzata l’attività che è stata vista più di recente. Se si tratta di un visitatore sulla pagina in questione, viene visualizzata l’attività attivata più di recente.
 
-## [!DNL Target Standard/Premium] [!UICONTROL Form-Based Experience Composer] con non globale [!DNL Target] richieste {#section_C3F5F09B0B2D4EF795C5929D5C426A8C}
-
->[!NOTE]
->
->Queste informazioni si applicano anche alle attività in esecuzione create in [!DNL Target Classic].
+## [!UICONTROL Form-Based Experience Composer] con non globale [!DNL Target] richieste {#section_C3F5F09B0B2D4EF795C5929D5C426A8C}
 
 Se l’azienda utilizza [!DNL Target] richieste diverse da quelle globali [!DNL Target] nel compositore basato su modulo, è possibile restituire il contenuto di una sola attività per chiamata. Le attività vengono consegnate in base al seguente flusso decisionale:
 
@@ -91,11 +83,6 @@ Se l’azienda utilizza [!DNL Target] richieste diverse da quelle globali [!DNL 
 >
 >I valori di priorità variano a seconda delle impostazioni. Puoi utilizzare le impostazioni legacy di [!UICONTROL Low], [!UICONTROL Medium], o [!UICONTROL High], oppure puoi abilitare le priorità dettagliate da 0 a 999. Per ulteriori informazioni, consulta [Impostazioni delle attività](/help/main/c-activities/activity-settings.md#task_C6B2FF8374724933BE79A83549B9CD02).
 
-**Due [!DNL Target Classic] le attività utilizzano dati non globali [!DNL Target] richieste**
-
-* Attività 1: homePageHero, offer1, priorità alta
-* Attività 2: homePageHero, offer2, priorità bassa
-
 Risposta: offer1
 
 **Due attività utilizzano solo le offerte create in [!UICONTROL Visual Experience Composer] per selettori diversi**
@@ -111,23 +98,6 @@ Risposta: visualExpCompOffer1, visualExpCompOffer2
 * Attività 2: target-global-mbox, selector1, visualExpCompOffer2, priorità alta
 
 Risposta: visualExpCompOffer1, visualExpCompOffer2
-
->[!NOTE]
->
->Questa è la stessa risposta del secondo caso d’uso precedente perché [!DNL Target Classic] non ha gestito le collisioni del selettore. [!DNL Target Standard/Premium] rileva tale comportamento e altri casi d’uso quando i selettori potrebbero entrare in conflitto sia nel DOM che visivamente (in genere eseguito a livello di editor di esperienze o in modalità di simulazione attività).
-
-**Due attività utilizzano le offerte create in [!UICONTROL Visual Experience Composer] e due [!DNL Target Classic] attività**
-
-* Attività 1: target-global-mbox, selector1, visualExpCompOffer1, media alta
-* Attività 2: target-global-mbox, selector2, visualExpCompOffer2, priorità bassa
-* Attività 1: target-global-mbox, offerta1, priorità alta
-* Attività 2: target-global-mbox, offer2, priorità bassa
-
-Risposta: offer1, visualExpCompOffer2, visualExpCompOffer1
-
->[!NOTE]
->
->L&#39;ordine delle risposte combinate è quello [!DNL Target Classic] il contenuto viene prima di tutto. Solo uno [!DNL Target Classic] la risposta viene elaborata come nel caso d’uso 1, quindi [!UICONTROL Visual Experience Composer] risposte alle offerte ordinate per priorità invertita.
 
 ## Video di formazione: Impostazioni attività (03:02)
 
