@@ -6,7 +6,7 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Recommendations
 hide: true
 hidefromtoc: true
-source-git-commit: c8bd2bb45ee8ef1a849fd9091554caec77effba0
+source-git-commit: b6eaf89ef71ea3448584dcdadc926c45dba77504
 workflow-type: tm+mt
 source-wordcount: '843'
 ht-degree: 29%
@@ -83,7 +83,7 @@ Fai clic su **puntini di sospensione** accanto alla raccolta desiderata nell’e
 
 ![Icone al passaggio del mouse: modifica, copia ed elimina](/help/main/c-recommendations/c-products/assets/hover-icons-new.png)
 
-Puoi copiare una raccolta esistente per crearne una duplicata da modificare. Questo consente di creare un’esclusione simile con meno sforzo.
+Puoi copiare una raccolta esistente per crearne una duplicata da modificare. Questo consente di creare una raccolta simile con meno sforzo.
 
 Tieni presente che le raccolte sono disponibili a livello dell’intero account. Prima di eliminare una raccolta, tienilo in considerazione. Non è possibile recuperare le raccolte eliminate.
 

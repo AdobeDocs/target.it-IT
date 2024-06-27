@@ -3,9 +3,9 @@ user-guide-title: Guida di Adobe Target per professionisti aziendali
 breadcrumb-title: Guida di Target
 user-guide-description: Scopri come adattare e personalizzare l’esperienza dei clienti per massimizzare le entrate dai siti web e mobili, dalle app, dai social media e da altri canali digitali.
 feature-set: Target
-source-git-commit: c8bd2bb45ee8ef1a849fd9091554caec77effba0
+source-git-commit: edb603b6e71edaa673be9ee0954e60f5cb04e195
 workflow-type: tm+mt
-source-wordcount: '1260'
+source-wordcount: '1262'
 ht-degree: 89%
 
 ---
@@ -300,6 +300,7 @@ ht-degree: 89%
       + [Raccolte](c-recommendations/c-products/collections.md)
       + [Raccolte beta](/help/main/c-recommendations/c-products/collections-beta.md)
       + [Esclusioni](c-recommendations/c-products/exclusions.md)
+      + [Esclusioni beta](/help/main/c-recommendations/c-products/exclusions-beta.md)
    + Criteri {#criteria}
       + [Panoramica sui criteri](c-recommendations/c-algorithms/algorithms.md)
       + [Creare criteri](c-recommendations/c-algorithms/create-new-algorithm.md)
