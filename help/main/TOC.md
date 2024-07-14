@@ -3,10 +3,10 @@ user-guide-title: Guida di Adobe Target per professionisti aziendali
 breadcrumb-title: Guida di Target
 user-guide-description: Scopri come adattare e personalizzare l’esperienza dei clienti per massimizzare le entrate dai siti web e mobili, dalle app, dai social media e da altri canali digitali.
 feature-set: Target
-source-git-commit: edb603b6e71edaa673be9ee0954e60f5cb04e195
+source-git-commit: 77bbdd4438aa17f2e8d96e00bd3d37806a474585
 workflow-type: tm+mt
-source-wordcount: '1262'
-ht-degree: 89%
+source-wordcount: '1284'
+ht-degree: 88%
 
 ---
 
@@ -280,7 +280,7 @@ ht-degree: 89%
       + [Panoramica sui rapporti Approfondimenti personalizzazione](c-reports/c-personalization-insights-reports/personalization-insights-reports.md)
       + [Rapporto Segmenti automatizzati](c-reports/c-personalization-insights-reports/automated-segments-report.md)
       + [Rapporto Attributi importanti](c-reports/c-personalization-insights-reports/important-attributes-report.md)
-   + Rapporti sui test multivariati {#multivariate-test-reports}
+   + Report test multivariato {#multivariate-test-reports}
       + [Rapporto Prestazioni Esperienza (MVT)](/help/main/c-reports/multivariate-test-reports/experience-performance-report.md)
       + [Rapporto Contributo Posizione (MVT)](/help/main/c-reports/multivariate-test-reports/location-contribution-report.md)
    + [Reporting di Analytics for Target (A4T)](c-reports/analytics-for-target-a4t-reporting.md)
@@ -303,11 +303,16 @@ ht-degree: 89%
       + [Esclusioni beta](/help/main/c-recommendations/c-products/exclusions-beta.md)
    + Criteri {#criteria}
       + [Panoramica sui criteri](c-recommendations/c-algorithms/algorithms.md)
+      + [Panoramica criteri beta](/help/main/c-recommendations/c-algorithms/algorithms-beta.md)
       + [Creare criteri](c-recommendations/c-algorithms/create-new-algorithm.md)
+      + [Creare criteri beta](/help/main/c-recommendations/c-algorithms/create-new-algorithm-beta.md)
       + [Creare sequenze di criteri](c-recommendations/c-algorithms/create-criteria-sequence.md)
+      + [Creare sequenze di criteri beta](/help/main/c-recommendations/c-algorithms/create-criteria-sequence-beta.md)
       + [Basare il consiglio su una chiave consiglio](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md)
+      + [Basare il consiglio su una chiave beta per i consigli](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key-beta.md)
       + [La scienza alla base degli algoritmi di Recommendations di Target](/help/main/c-recommendations/c-algorithms/recommendations-algorithms.md)
       + [Caricare criteri personalizzati](c-recommendations/c-algorithms/recommendations-csv.md)
+      + [Carica versione beta dei criteri personalizzati](/help/main/c-recommendations/c-algorithms/recommendations-csv-beta.md)
       + Regole di inclusione dinamiche e statiche {#dynamic-static}
          + [Utilizzare regole di inclusione dinamiche e statiche](c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md)
          + [Corrispondenza degli attributi di entità](/help/main/c-recommendations/c-algorithms/entity-attribute-matching.md)
