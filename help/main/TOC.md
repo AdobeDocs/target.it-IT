@@ -3,10 +3,10 @@ user-guide-title: Guida di Adobe Target per professionisti aziendali
 breadcrumb-title: Guida di Target
 user-guide-description: Scopri come adattare e personalizzare l’esperienza dei clienti per massimizzare le entrate dai siti web e mobili, dalle app, dai social media e da altri canali digitali.
 feature-set: Target
-source-git-commit: 2393925a4c8cc6d880278b23551ba33f23268a8e
+source-git-commit: b6a55260fd49e07e2b217f6becfbc778251a5d0d
 workflow-type: tm+mt
-source-wordcount: '1291'
-ht-degree: 87%
+source-wordcount: '1305'
+ht-degree: 86%
 
 ---
 
@@ -317,9 +317,13 @@ ht-degree: 87%
          + [Utilizzare regole di inclusione dinamiche e statiche](c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md)
          + [Utilizzare regole di inclusione dinamiche e statiche beta](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules-beta.md)
          + [Corrispondenza degli attributi di entità](/help/main/c-recommendations/c-algorithms/entity-attribute-matching.md)
+         + [Corrispondenza attributo entità beta](/help/main/c-recommendations/c-algorithms/entity-attribute-matching-beta.md)
          + [Corrispondenza degli attributi di profilo](/help/main/c-recommendations/c-algorithms/profile-attribute-matching.md)
+         + [Corrispondenza attributo profilo beta](/help/main/c-recommendations/c-algorithms/profile-attribute-matching-beta.md)
          + [Corrispondenza dei parametri](/help/main/c-recommendations/c-algorithms/parameter-matching.md)
+         + [Corrispondenza dei parametri beta](/help/main/c-recommendations/c-algorithms/parameter-matching-beta.md)
          + [Filtro statico](/help/main/c-recommendations/c-algorithms/static-value.md)
+         + [Filtro beta statico](/help/main/c-recommendations/c-algorithms/static-value-beta.md)
       + [Utilizzare un consiglio di backup](c-recommendations/c-algorithms/backup-recs.md)
       + [Utilizzo di attributi con più valori](/help/main/c-recommendations/c-algorithms/work-with-multi-value-attributes.md)
       + [Utilizza Adobe Analytics con Recommendations](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md)
