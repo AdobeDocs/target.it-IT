@@ -1,19 +1,19 @@
 ---
 keywords: più tipi di pubblico;versioni esperienza;versioni esperienza target
-description: Scopri come eseguire il targeting delle versioni della stessa esperienza per tipi di pubblico diversi in [!DNL Adobe Target] Attività A/B.
+description: Scopri come eseguire il targeting delle versioni della stessa esperienza per tipi di pubblico diversi in [!DNL Adobe Target] attività A/B.
 title: Posso utilizzare più versioni di esperienza in un'attività A/B?
 feature: A/B Tests
 exl-id: 7afe36f0-ec46-4d63-bfff-45d2c8923a04
 source-git-commit: 3adf1e763e6fabec28aacd63219b8e53e638c1b6
 workflow-type: tm+mt
-source-wordcount: '600'
-ht-degree: 56%
+source-wordcount: '590'
+ht-degree: 53%
 
 ---
 
 # Esperienza con più tipi di pubblico un testo A/B
 
-Puoi indirizzare le versioni della stessa esperienza a tipi di pubblico diversi in [!DNL Adobe Target] Attività A/B. È possibile impostare più tipi di pubblico per un’esperienza in [!UICONTROL Compositore esperienza visivo] (VEC) o nel Compositore esperienza basato su moduli.
+È possibile indirizzare le versioni della stessa esperienza a tipi di pubblico diversi nelle attività A/B di [!DNL Adobe Target]. È possibile impostare più tipi di pubblico per un&#39;esperienza nel [!UICONTROL Visual Experience Composer] (VEC) o nel Compositore esperienza basato su moduli.
 
 I visitatori possono passare da un pubblico all’altro con la modifica del loro profilo. I visitatori non rimangono bloccati nella stessa esperienza per tutta la durata dell’attività.
 
@@ -33,11 +33,11 @@ In questo caso, sono necessarie versioni specifiche per l’area geografica dell
 
    Al momento di configurare l’esperienza che avrà più versioni, seleziona il pubblico per ogni versione, come illustrato nei passaggi seguenti.
 
-1. Seleziona l&#39;esperienza, quindi fai clic su **[!UICONTROL Configura]** > **[!UICONTROL Tipi di pubblico]** > **[!UICONTROL Più tipi di pubblico]**.
+1. Seleziona l&#39;esperienza, quindi fai clic su **[!UICONTROL Configure]** > **[!UICONTROL Audiences]** > **[!UICONTROL Multiple Audiences]**.
 
    ![Opzione Più tipi di pubblico](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/multiple-audiences-new.png)
 
-1. Fai clic su **[!UICONTROL Aggiungi pubblico]** quindi seleziona il primo pubblico a cui desideri rivolgerti. Ripeti per ogni pubblico.
+1. Fai clic su **[!UICONTROL Add Audience]**, quindi seleziona il primo pubblico a cui desideri rivolgerti. Ripeti per ogni pubblico.
 
    ![immagine exp-versions](assets/exp-versions.png)
 
@@ -51,4 +51,4 @@ In questo caso, sono necessarie versioni specifiche per l’area geografica dell
 
 * Scegli tipi di pubblico reciprocamente esclusivi. Se l’attività è stata creata nel Compositore esperienza visivo e un visitatore corrisponde a più di un pubblico, viene restituito il contenuto di ciascun pubblico e il contenuto del pubblico elencato per ultimo viene visualizzato nella pagina.
 * Il pubblico di accesso all&#39;attività definito nel diagramma viene combinato con il pubblico di esperienza utilizzando una condizione E. Per accedere all&#39;attività, un visitatore deve essere idoneo al pubblico di attività e uno dei tipi di pubblico dell&#39;esperienza.
-* Aggiungi gli stessi tipi di pubblico come segmenti per i rapporti. Questo consente di esaminare i risultati del test ai livelli elevati dell’esperienza A rispetto a B e al livello inferiore dell’esperienza A rispetto a B solo per &quot;browser lang ja_JP&quot;. Funziona solo per [!DNL Target]rapporti basati su, non [!DNL Analytics]report basati su.
+* Aggiungi gli stessi tipi di pubblico come segmenti per i rapporti. Questo consente di esaminare i risultati del test ai livelli elevati dell’esperienza A rispetto a B e al livello inferiore dell’esperienza A rispetto a B solo per &quot;browser lang ja_JP&quot;. Funziona solo per i report basati su [!DNL Target], non per i report basati su [!DNL Analytics].

@@ -5,8 +5,8 @@ feature: Overview
 exl-id: 7385844a-1472-409c-aca2-dd9f4bf95534
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
 workflow-type: tm+mt
-source-wordcount: '2493'
-ht-degree: 100%
+source-wordcount: '2480'
+ht-degree: 98%
 
 ---
 
@@ -146,7 +146,7 @@ La misura dell’interesse di un visitatore nei confronti di un sito, in termini
 
 **compositore esperienza avanzato**
 
-Il [!UICONTROL Compositore esperienza avanzato] è un’estensione del [!UICONTROL Compositore esperienza visivo] che consente di modificare un’esperienza per siti non compatibili con iframe o per pagine che non includono ancora l’implementazione di [!DNL Target]. Se hai problemi ad aprire la pagina nel [!UICONTROL Compositore esperienza visivo], prova il [!UICONTROL Compositore esperienza avanzato].
+[!UICONTROL Enhanced Experience Composer] è un&#39;estensione di [!UICONTROL Visual Experience Composer] che consente di modificare un&#39;esperienza per siti non compatibili con iframe o per pagine che non includono ancora l&#39;implementazione di [!DNL Target]. In caso di problemi durante l&#39;apertura della pagina in [!UICONTROL Visual Experience Composer], provare [!UICONTROL Enhanced Experience Composer].
 
 **autorizzazioni per gli utenti Enterprise**
 

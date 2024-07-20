@@ -6,14 +6,14 @@ feature: A/B Tests
 exl-id: 7489f4f5-3655-45f9-a743-651ba1c23c53
 source-git-commit: 4f0ebdd06287a438e519d9bccb677ab1a9093396
 workflow-type: tm+mt
-source-wordcount: '933'
+source-wordcount: '940'
 ht-degree: 1%
 
 ---
 
 # Test A/A
 
-Prima di eseguire un test A/A sul sito utilizzando [!DNL Adobe Target], è importante comprendere cos’è un test A/A, il motivo per cui potrebbe essere utile eseguire un test A/A, la durata di esecuzione del test e come interpretare i risultati.
+Prima di eseguire un test A/A sul sito tramite [!DNL Adobe Target], è importante comprendere cos&#39;è un test A/A, il motivo per cui è consigliabile eseguire un test A/A, la durata dell&#39;esecuzione e l&#39;interpretazione dei risultati.
 
 ## Cos’è il test A/A?
 
@@ -21,7 +21,7 @@ Prima di spiegare il test A/A, è opportuno rivedere il test A/B in modo da pote
 
 In un test A/B standard, il traffico viene allocato a due o più esperienze diverse. Un’esperienza è in genere il &quot;controllo&quot; e le varianti dell’esperienza vengono testate rispetto al controllo per vedere quale esperienza crea il maggior incremento in una data metrica.
 
-Il test A/A, tuttavia, comporta l’allocazione del traffico a due esperienze identiche, di solito con una suddivisione del traffico 50/50. Con un test A/B standard, in genere desideri scoprire un incremento nella conversione. Questo è diverso da un test A/A in cui l&#39;obiettivo è solitamente quello di determinare che c&#39;è *no* differenza di incremento tra le esperienze identiche.
+Il test A/A, tuttavia, comporta l’allocazione del traffico a due esperienze identiche, di solito con una suddivisione del traffico 50/50. Con un test A/B standard, in genere desideri scoprire un incremento nella conversione. Questo differisce da un test A/A in cui l&#39;obiettivo è in genere quello di determinare che c&#39;è *no* differenza di incremento tra le esperienze identiche.
 
 ## Perché vorresti testare due esperienze identiche e quali risultati si ottengono?
 
@@ -41,13 +41,13 @@ Ci sono diversi motivi per cui potresti vedere l’incremento in un’esperienza
 
 Un problema comune nell’esecuzione di qualsiasi tipo di test, incluso un test A/A, consiste nell’esaminare i risultati in modo continuo e nell’interrompere anticipatamente un test quando si rileva una significatività statistica e si dichiara un’esperienza vincente. Gli analisti fanno spesso ciò che viene chiamato &quot;sbirciamento dei dati&quot;. Il peking dei dati comporta l’esame dei dati del test in anticipo e con frequenza, cercando di determinare quale esperienza funziona meglio. Il rischio è quello di interrompere prematuramente il test, il che potrebbe invalidare i risultati.
 
-In un test A/A, il data peking può spesso causare la visualizzazione dell’incremento da parte degli analisti in un’esperienza, quando in realtà non dovrebbe esserci alcuna differenza, perché le due esperienze sono identiche. Infatti, con il peking continuo, i test A/A sono *garantito* mostrare &quot;significatività statistica&quot; (vale a dire, un’affidabilità al di sopra di una certa soglia, come il 95%) ad un certo punto durante il test.
+In un test A/A, il data peking può spesso causare la visualizzazione dell’incremento da parte degli analisti in un’esperienza, quando in realtà non dovrebbe esserci alcuna differenza, perché le due esperienze sono identiche. Infatti, con un peeking continuo, i test A/A sono *garantiti* per mostrare una &quot;significatività statistica&quot; (vale a dire, un&#39;affidabilità al di sopra di una certa soglia, ad esempio il 95%) ad un certo punto durante il test.
 
 Per evitare questo problema, e come con un normale test A/B, è necessario quindi decidere in anticipo quale dimensione campione utilizzare, in base alla dimensione minima dell’effetto (l’incremento minimo al di sotto del quale un effetto non è importante per la tua azienda), alla potenza e ai livelli di significatività che ritieni accettabili.
 
-In un test A/A, l’obiettivo sarebbe quindi quello di *non* vedi un risultato statisticamente significativo dopo che il test ha raggiunto la dimensione di campione desiderata.
+In un test A/A, l&#39;obiettivo sarebbe quindi *non* visualizzare un risultato statisticamente significativo dopo che il test ha raggiunto la dimensione di campione desiderata.
 
-Il [!UICONTROL Calcolatore dimensioni campione Adobe Target] è uno strumento importante per determinare la dimensione del campione da prendere in considerazione e per quanto tempo si deve eseguire il test.
+[!UICONTROL Adobe Target Sample Size Calculator] è uno strumento importante per determinare la dimensione del campione da prendere in considerazione e la durata dell&#39;esecuzione del test.
 
 * [Calcolatore dimensioni Adobe Target](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6)
 
@@ -68,6 +68,6 @@ Supponi di voler raggiungere un livello di affidabilità del 95% con il test A/A
 
 Se ritieni necessario un test A/A nell’organizzazione, tieni presente che le esperienze identiche potrebbero mostrare temporaneamente una differenza rispetto al controllo. Questo può essere normale, a seconda del tempo in cui il test può essere eseguito. La differenza dovrebbe ridursi con l’aumentare del tempo e dei visitatori.
 
-Si consiglia di utilizzare una metodologia di test A/B regolare: decidere la dimensione del campione in anticipo in base a una dimensione minima dell’effetto rilevante, alla potenza desiderata e alla significatività utilizzando [Calcolatore dimensioni Adobe Target](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6).
+Si consiglia di utilizzare una metodologia di test A/B regolare: decidere la dimensione del campione in anticipo in base a una dimensione minima dell&#39;effetto rilevante, alla potenza desiderata e alla rilevanza utilizzando il [calcolatore delle dimensioni di Adobe Target](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6).
 
 Quindi, lascia un tempo adeguato e i visitatori prima di raggiungere qualsiasi conclusione, e ricorda che a seconda del livello di significatività del test, c&#39;è la possibilità che un&#39;esperienza mostri una differenza nell&#39;incremento, e possa anche essere dichiarata vincitrice.

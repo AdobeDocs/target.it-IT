@@ -1,21 +1,21 @@
 ---
 kewords: redirect;redirect url;send to different page
-description: Scopri come utilizzare l’opzione Reindirizza all’URL in Adobe [!DNL Target] quando desideri inviare il visitatore a una pagina diversa anziché mostrare il contenuto nella stessa pagina.
+description: Scopri come utilizzare l’opzione Reindirizza all’URL nell’Adobe  [!DNL Target]  per inviare il visitatore a una pagina diversa anziché mostrare il contenuto nella stessa pagina.
 title: Posso reindirizzare una pagina a un URL diverso?
 feature: Visual Experience Composer (VEC)
 exl-id: bd448482-0079-4689-aa24-65ecbb31b8ae
 source-git-commit: b0bf54d47ac44afc3597f308ea38fd479c54026d
 workflow-type: tm+mt
-source-wordcount: '485'
-ht-degree: 82%
+source-wordcount: '475'
+ht-degree: 68%
 
 ---
 
 # Reindirizzamento a un URL
 
-Utilizza il [!UICONTROL Reindirizza a URL] opzione in [!DNL Adobe Target] quando desideri inviare il visitatore a una pagina diversa anziché mostrare il contenuto nella stessa pagina.
+Utilizzare l&#39;opzione [!UICONTROL Redirect to URL] in [!DNL Adobe Target] per inviare il visitatore a una pagina diversa anziché mostrare il contenuto nella stessa pagina.
 
-Supponi di dover sottoporre a test due pagine completamente diverse, anziché semplici contenuti all&#39;interno di una pagina. In questo caso, il test A/B confronta la pagina A con la pagina B. Configura una campagna di test A/B con due esperienze: una che punta alla pagina predefinita A e l&#39;altra con reindirizza alla pagina B. Nel menu Azione esperienza, che si trova facendo clic sull&#39;etichetta della lettera dell&#39;esperienza, scegli **[!UICONTROL Reindirizza a URL]** e specifica l&#39;URL della pagina B. L&#39;offerta viene configurata per reindirizzare il visitatore a una pagina diversa.
+Supponi di dover sottoporre a test due pagine completamente diverse, anziché semplici contenuti all&#39;interno di una pagina. In questo caso, il test A/B confronta la pagina A con la pagina B. Configura una campagna di test A/B con due esperienze: una che punta alla pagina predefinita A e l&#39;altra con reindirizza alla pagina B. Nel menu Azione esperienza, che si trova facendo clic sull&#39;etichetta della lettera dell&#39;esperienza, scegliere **[!UICONTROL Redirect to URL]** e specificare l&#39;URL della pagina B. L’offerta è configurata per reindirizzare il visitatore a una pagina diversa.
 
 Nell&#39;offerta di reindirizzamento viene eseguito il codice JavaScript per reindirizzare il browser. Tale codice utilizza il metodo `window.location.replace();`, in modo tale che la pagina a cui il visitatore è reindirizzato non venga memorizzata nella cronologia del browser. Questo consente al visitatore di utilizzare il pulsante “Indietro” nel browser.
 
@@ -31,9 +31,9 @@ Le offerte di reindirizzamento implicano alcune limitazioni:
 Per creare un&#39;offerta di reindirizzamento:
 
 1. Crea un&#39;esperienza.
-1. Passa il puntatore del mouse su un&#39;esperienza e fai clic sull&#39;icona Reindirizza all&#39;URL (![icon_redirect_url image](assets/icon_redirect_url.png)).
+1. Passa il puntatore del mouse su un&#39;esperienza con il mouse, quindi fai clic sull&#39;icona Reindirizza all&#39;URL (![icon_redirect_url image](assets/icon_redirect_url.png)).
 
-   ![immagine exp_actions](assets/exp_actions.png)
+   ![immagine azioni_exp](assets/exp_actions.png)
 
 1. Digita l’URL.
 1. Se desiderato, seleziona l&#39;opzione per includere i parametri di query correnti.

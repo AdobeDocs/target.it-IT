@@ -2,12 +2,12 @@
 keywords: regole di inclusione;criteri di inclusione;consigli;promozione;promozioni;filtro dinamico;dinamico;corrispondenza dei parametri
 description: Scopri come filtrare dinamicamente in Adobe [!DNL Target] Recommendations confrontando gli elementi (entità) con un valore nella richiesta (API o mbox).
 title: Come posso filtrare per corrispondenza dei parametri nelle attività di Recommendations?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Vedi cosa è incluso in Target Premium."
 feature: Recommendations
 exl-id: 9ec161b9-1b37-4475-b508-af676126c817
 source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
 workflow-type: tm+mt
-source-wordcount: '329'
+source-wordcount: '337'
 ht-degree: 10%
 
 ---
@@ -30,12 +30,11 @@ Ad esempio, per consigliare solo i contenuti che corrispondono al parametro di p
 >* Utilizza un criterio che non contenga il filtro “Corrispondenza parametro”.
 >* Rimuovi il filtro “Corrispondenza parametro” dai criteri.
 
-
 ## Esempi di corrispondenza dei parametri
 
-[!UICONTROL Corrispondenza parametro] ti consente di consigliare contenuti che corrispondono ai parametri di pagina o ai parametri del visitatore, come le dimensioni del dispositivo o la geolocalizzazione, come nell’esempio seguente:
+[!UICONTROL Parameter Matching] consente di consigliare contenuto che corrisponda ai parametri di pagina o ai parametri del visitatore, come le dimensioni del dispositivo o la geolocalizzazione, come nell&#39;esempio seguente:
 
-[!DNL Recommendations] può corrispondere ai valori dei parametri inviati nel [!DNL Target] chiamare. In questo caso, [!DNL Target] rileva che un visitatore sta utilizzando un dispositivo mobile, in base ai parametri di altezza e larghezza dello schermo inviati nel [!DNL Target] effettua una chiamata e consiglierà solo gli elementi che sono dispositivi mobili.
+[!DNL Recommendations] può corrispondere ai valori dei parametri inviati nella chiamata [!DNL Target]. In questa istanza, [!DNL Target] rileva che un visitatore sta utilizzando un dispositivo mobile, in base ai parametri di altezza e larghezza dello schermo inviati nella chiamata [!DNL Target], e consiglierà solo gli elementi che sono dispositivi mobili.
 
 Prendi in considerazione la seguente chiamata di Target di esempio:
 

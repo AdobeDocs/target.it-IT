@@ -1,13 +1,13 @@
 ---
 keywords: test multivariato;MVT;rapporto prestazioni esperienza
-description: Scopri come utilizzare il rapporto Prestazioni esperienza per Adobe [!DNL Target] Attività di targeting delle esperienze che mostrano le prestazioni di ogni esperienza nell’attività.
+description: Scopri come utilizzare il rapporto Prestazioni esperienza per Adobe [!DNL Target] attività Targeting esperienza che mostrano le prestazioni di ogni esperienza nell'attività.
 title: Come si utilizza il rapporto Prestazioni esperienza per i test multivariati?
 feature: Reports
 exl-id: 83ca691c-4392-42f5-9251-f374bf28cc4b
 source-git-commit: 79d51e39b733ee13270f924912251e45c8597917
 workflow-type: tm+mt
 source-wordcount: '338'
-ht-degree: 88%
+ht-degree: 81%
 
 ---
 
@@ -15,9 +15,9 @@ ht-degree: 88%
 
 Il rapporto Prestazioni esperienza mostra il modo in cui viene eseguita ogni esperienza nell’attività. Questo rapporto include informazioni sul numero di partecipanti, il tasso di conversione, l’incremento e l’affidabilità.
 
-Puoi selezionare una o più esperienze per confrontarle. Per aprire un’esperienza in una scheda del browser, fai clic su di essa e seleziona **[!UICONTROL Anteprima]**.
+Puoi selezionare una o più esperienze per confrontarle. Fai clic su un&#39;esperienza e seleziona **[!UICONTROL Preview]** per aprirla in una scheda del browser.
 
-![Rapporto Prestazioni esperienza in Adobe Target](/help/main/c-reports/assets/experienceperformancetable.png)
+![Rapporto prestazioni esperienza in Adobe Target](/help/main/c-reports/assets/experienceperformancetable.png)
 
 La parte superiore del rapporto mostra la metrica, le date di inizio e fine e il pubblico utilizzato nel rapporto. Puoi modificare ciascuno di questi fattori.
 
@@ -35,7 +35,7 @@ Puoi scegliere di visualizzare le cinque esperienze migliori o peggiori, oppure 
 
 Sotto il grafico, una tabella mostra il numero di partecipanti che hanno visualizzato ogni esperienza, così come altre informazioni rilevanti per la metrica di successo.
 
-## Video di formazione: Creare un test MVT ![Icona Tutorial](/help/main/assets/tutorial.png)
+## Video di formazione: crea un test MVT ![Icona esercitazione](/help/main/assets/tutorial.png)
 
 In questo video viene illustrato come creare un test multivariato utilizzando il flusso di lavoro guidato in tre passaggi di Target. Il rapporto Prestazioni esperienza è descritto a partire dal minuto 8:20.
 

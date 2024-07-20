@@ -13,17 +13,17 @@ ht-degree: 34%
 
 # [!UICONTROL Time Frame]
 
-È possibile aggiungere date e ore di inizio e fine in [!DNL Adobe Target] per eseguire il targeting degli utenti che visitano il sito durante un intervallo di tempo specifico. Puoi anche impostare le opzioni Ripartizione settimanale e giornaliera per creare pattern ricorrenti per il targeting del pubblico.
+Puoi aggiungere date e ore di inizio e fine in [!DNL Adobe Target] per eseguire il targeting degli utenti che visitano il tuo sito durante un intervallo di tempo specifico. Puoi anche impostare le opzioni Ripartizione settimanale e giornaliera per creare pattern ricorrenti per il targeting del pubblico.
 
-Ad esempio, utilizzando [funzione tipi di pubblico combinati ad hoc](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5), puoi indirizzare gli utenti che spendono meno su contenuti specifici nei tre giorni prima del Black Friday e su altri contenuti dopo il Black Friday.
+Ad esempio, utilizzando la [funzione tipi di pubblico combinati ad hoc](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5), puoi indirizzare gli utenti che spendono meno su contenuti specifici nei tre giorni precedenti al Black Friday e su altri contenuti dopo il Black Friday.
 
-1. In [!DNL Target] , fare clic su **[!UICONTROL Audiences]** > **[!UICONTROL Create Audience]**.
+1. Nell&#39;interfaccia [!DNL Target], fare clic su **[!UICONTROL Audiences]** > **[!UICONTROL Create Audience]**.
 1. Assegna un nome al pubblico e aggiungi una descrizione facoltativa.
-1. Trascina **[!UICONTROL Time Frame]** nel riquadro audience builder.
+1. Trascina **[!UICONTROL Time Frame]** nel riquadro Generatore di pubblico.
 
    ![immagine target_timeframe_dialog](assets/target_timeframe_dialog.png)
 
-1. Specifica la [!UICONTROL Start] e [!UICONTROL End] date e ore per il pubblico.
+1. Specifica le date e le ore [!UICONTROL Start] e [!UICONTROL End] per il pubblico.
 
    Lascia la data di inizio vuota per avviare il targeting in base alla pianificazione dellʼattività. Lascia la data di fine vuota per continuare il targeting fino alla data e allʼora di fine dellʼattività.
 
@@ -35,15 +35,15 @@ Ad esempio, utilizzando [funzione tipi di pubblico combinati ad hoc](/help/main/
    >
    >* Il fuso orario per le date di inizio/fine viene visualizzato come GMT +/- NN:NN, dove NN:NN è lo scostamento da GMT e corrisponde al fuso orario dell’account, non a quello del visitatore. Ad esempio, il fuso orario della California verrebbe visualizzato come GMT -08:00.
    >
-   >* [!DNL Target] I tipi di pubblico dell’ora legale non tengono conto delle modifiche dell’ora legale (DST). È necessario salvare nuovamente manualmente i tipi di pubblico per tenere conto delle modifiche dell’ora legale.
+   >* [!DNL Target] tipi di pubblico non prendono in considerazione le modifiche dell&#39;ora legale (DST). È necessario salvare nuovamente manualmente i tipi di pubblico per tenere conto delle modifiche dell’ora legale.
 
-1. (Condizionale) Fai clic su **[!UICONTROL Set frequency]** per impostare pattern ricorrenti, inclusi giorni della settimana e ore.
+1. (Condizionale) Fare clic su **[!UICONTROL Set frequency]** per impostare pattern ricorrenti, inclusi giorni della settimana e ore.
 
    ![Ripartizione settimanale e giornaliera](assets/week_and_day_parting.png)
 
-   È possibile utilizzare [!UICONTROL Frequency] opzioni, ad esempio, per mostrare l’opzione &quot;Chat ora&quot; ai visitatori solo nei giorni e nelle ore in cui il call center dispone di personale.
+   È possibile utilizzare le opzioni [!UICONTROL Frequency], ad esempio, per visualizzare un&#39;opzione &quot;Chat ora&quot; ai visitatori solo durante i giorni e le ore in cui il call center dispone di personale.
 
-   Seleziona uno o più giorni della settimana, quindi imposta gli orari di inizio e fine. Clic **[!UICONTROL Add frequency]** per specificare altri pattern, come desiderato.
+   Seleziona uno o più giorni della settimana, quindi imposta gli orari di inizio e fine. Fare clic su **[!UICONTROL Add frequency]** per specificare altri pattern, come desiderato.
 
    >[!NOTE]
    >
@@ -53,9 +53,9 @@ Ad esempio, utilizzando [funzione tipi di pubblico combinati ad hoc](/help/main/
 
    Se necessario, puoi ripetere il passaggio 5 per ogni regola.
 
-1. Clic **[!UICONTROL Done]**.
+1. Fare clic su **[!UICONTROL Done]**.
 
-## Video di formazione: Creazione di tipi di pubblico ![Badge panoramica](/help/main/assets/overview.png)
+## Video di formazione: Creazione di tipi di pubblico ![Icona panoramica](/help/main/assets/overview.png)
 
 Questo video contiene informazioni sull&#39;utilizzo delle categorie di pubblico.
 

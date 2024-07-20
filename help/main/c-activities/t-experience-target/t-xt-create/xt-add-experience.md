@@ -1,27 +1,27 @@
 ---
 keywords: creare un’esperienza;creazione di esperienza;priorità;pubblico;esperienza;compositore esperienza visivo
-description: Scopri come utilizzare il [!DNL Adobe Target] [!UICONTROL Compositore esperienza visivo] (VEC) per creare e modificare le esperienze sulla pagina in un [!UICONTROL Targeting esperienza] (XT) attività.
-title: Come si creano le esperienze in un [!UICONTROL Targeting esperienza] Attività?
+description: Scopri come utilizzare il  [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC) per creare e modificare le esperienze sulla pagina in un'attività [!UICONTROL Experience Targeting] (XT).
+title: Come si creano le esperienze in un'attività [!UICONTROL Experience Targeting]?
 feature: Experience Targeting
 exl-id: ec3fcd93-5557-4f69-8f9c-4d00569188ad
 source-git-commit: 0dfdd995c00961ed2aed91ec03406e8493292af7
 workflow-type: tm+mt
-source-wordcount: '953'
-ht-degree: 39%
+source-wordcount: '883'
+ht-degree: 35%
 
 ---
 
-# Creare esperienze in [!UICONTROL Targeting esperienza] Attività (XT)
+# Crea esperienza nelle attività [!UICONTROL Experience Targeting] (XT)
 
-Il [!UICONTROL Compositore esperienza visivo] (VEC) in [!DNL Adobe Target] fornisce un’interfaccia visiva per la modifica delle esperienze sulla pagina in un [!UICONTROL Targeting esperienza] (XT) attività.
+Il Compositore esperienza visivo [!UICONTROL Visual Experience Composer] in [!DNL Adobe Target] fornisce un&#39;interfaccia visiva per la modifica delle esperienze sulla pagina in un&#39;attività [!UICONTROL Experience Targeting] (XT).
 
 1. Seleziona gli elementi da modificare e apporta le modifiche desiderate.
 
-   Mentre [creazione di un [!UICONTROL Targeting esperienza] attività](/help/main/c-activities/t-experience-target/t-xt-create/xt-create.md), passaggio 1 del flusso di lavoro guidato in tre parti ([!UICONTROL Esperienze]) visualizza il valore predefinito [!UICONTROL Esperienza A] con un [!UICONTROL Tutti i visitatori] pubblico.
+   Durante la [creazione di un&#39;attività [!UICONTROL Experience Targeting]](/help/main/c-activities/t-experience-target/t-xt-create/xt-create.md), il primo passaggio del flusso di lavoro guidato in tre parti ([!UICONTROL Experiences]) visualizza il [!UICONTROL Experience A] predefinito con un pubblico [!UICONTROL All Visitors].
 
    ![Pubblico Tutti i visitatori](/help/main/c-activities/t-experience-target/t-xt-create/assets/all-visitors.png)
 
-   Eventuali modifiche apportate ora vengono applicate a [!UICONTROL Esperienza A]. In un passaggio successivo, fai clic su **[!UICONTROL Aggiungi targeting esperienza]** per creare altre esperienze.
+   Tutte le modifiche apportate ora vengono applicate a [!UICONTROL Experience A]. In un passaggio successivo, fai clic su **[!UICONTROL Add Experience Targeting]** per creare altre esperienze.
 
    Quando passi il cursore del mouse sugli elementi nella pagina, gli elementi vengono evidenziati. Qualsiasi elemento evidenziato può essere modificato utilizzando il Compositore esperienza visivo. Per un elenco delle azioni che possono essere eseguite su un elemento per modificare l’esperienza, consulta [Opzioni del Compositore esperienza visivo](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md).
 
@@ -29,23 +29,23 @@ Il [!UICONTROL Compositore esperienza visivo] (VEC) in [!DNL Adobe Target] forni
    >
    >Per impostazione predefinita, il Compositore esperienza visivo non consente di modificare gli elementi contenenti JavaScript, ad esempio i banner rotanti. Puoi disattivare JavaScript per modificare tali elementi utilizzando il Compositore esperienza visivo.
 
-1. Per creare altre esperienze, fai clic su **[!UICONTROL Aggiungi targeting esperienza]**.
+1. Per creare altre esperienze, fare clic su **[!UICONTROL Add Experience Targeting]**.
 
    ![Collegamento Aggiungi targeting esperienza](/help/main/c-activities/t-experience-target/t-xt-create/assets/add-experience-targeting.png)
 
-   Il [!UICONTROL Aggiungi pubblico] viene visualizzata. Per indirizzare un’esperienza a un pubblico, selezionalo prima di aggiungerla.
+   Viene visualizzata la finestra di dialogo [!UICONTROL Add Audience]. Per indirizzare un’esperienza a un pubblico, selezionalo prima di aggiungerla.
 
    La libreria del pubblico include tipi di pubblico definiti in precedenza, inclusi alcuni di utilizzo comune già integrati in [!DNL Target]. È possibile selezionare un pubblico dalla libreria o [crearne uno nuovo](/help/main/c-target/c-audiences/audiences.md#concept_65BE870D290E412D8BBF557EEA67C271).
 
    Oltre a selezionare un pubblico esistente, puoi combinare più tipi di pubblico per creare un pubblico combinato ad hoc anziché crearne uno nuovo. Per ulteriori informazioni, consulta [Combinazione di più tipi di pubblico](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5).
 
-   Durante la creazione di un pubblico, puoi selezionare una posizione e specificarne i parametri relativi. Sotto [!UICONTROL Personalizzato] ([!UICONTROL Crea pubblico] > [!UICONTROL Personalizzato]), seleziona la posizione, quindi specifica i parametri desiderati.
+   Durante la creazione di un pubblico, puoi selezionare una posizione e specificarne i parametri relativi. In [!UICONTROL Custom] ([!UICONTROL Create Audience] > [!UICONTROL Custom]), selezionare il percorso, quindi specificare i parametri desiderati.
 
    >[!NOTE]
    >
    >I tipi di pubblico vengono importati automaticamente in background quando apri l’elenco dei tipi di pubblico e i tipi di pubblico importati hanno più di dieci minuti.
 
-1. Seleziona uno o più tipi di pubblico per eseguire il targeting dell’esperienza, quindi fai clic su **[!UICONTROL Fine]**.
+1. Seleziona uno o più tipi di pubblico per eseguire il targeting dell&#39;esperienza, quindi fai clic su **[!UICONTROL Done]**.
 
    ![Esperienza B](/help/main/c-activities/t-experience-target/t-xt-create/assets/experience-b.png)
 
@@ -55,7 +55,7 @@ Il [!UICONTROL Compositore esperienza visivo] (VEC) in [!DNL Adobe Target] forni
 
 1. Ripeti i passaggi precedenti per creare altre esperienze con targeting, in base alle esigenze.
 
-1. Al termine, fai clic su **[!UICONTROL Successivo]**.
+1. Fare clic su **[!UICONTROL Next]** al termine della progettazione delle esperienze.
 
    Il diagramma dell’attività mostra quanto segue:
 
@@ -63,40 +63,40 @@ Il [!UICONTROL Compositore esperienza visivo] (VEC) in [!DNL Adobe Target] forni
 
    >[!NOTE]
    >
-   >Puoi distribuire un’immagine da un’origine diversa dalla pagina principale (ad esempio un’immagine in hosting su `akamai.net` e consegnato il `adobe.com`). Le immagini in hosting altrove non vengono visualizzate nella miniatura della pagina mostrata nel diagramma di flusso.
+   >È possibile consegnare un&#39;immagine da un&#39;origine diversa dalla pagina principale (ad esempio un&#39;immagine ospitata su `akamai.net` e consegnata il `adobe.com`). Le immagini in hosting altrove non vengono visualizzate nella miniatura della pagina mostrata nel diagramma di flusso.
 
-1. (Condizionale) Trascina e rilascia coppie di pubblico ed esperienza durante la creazione o la modifica [!UICONTROL Targeting esperienza] attività per disporre le coppie nell’ordine desiderato.
+1. (Facoltativo) Trascina e rilascia le coppie di pubblico ed esperienza durante la creazione o la modifica di [!UICONTROL Experience Targeting] attività per disporre le coppie nell&#39;ordine desiderato.
 
    I visitatori verranno valutati per le esperienze in ordine, dall’alto verso il basso.
 
    ![Spostare le esperienze](/help/main/c-activities/t-experience-target/t-xt-create/assets/move_experiences-new.png)
 
-   Nel [!UICONTROL targeting delle esperienze] si presuppone che l’ordine sia rilevante. Se un visitatore rientra nella prima coppia di pubblico ed esperienza, viene distribuita la prima esperienza.
+   [!UICONTROL Experience Targeting] presuppone che l&#39;ordine sia importante. Se un visitatore rientra nella prima coppia di pubblico ed esperienza, viene distribuita la prima esperienza.
 
-   Ad esempio, supponiamo che tu non sappia che l&#39;ordine è importante durante la creazione di un [!UICONTROL Targeting esperienza] attività. Successivamente, ti rendi conto durante i test che i visitatori che ritenevi più idonei per le esperienze B o C sono invece qualificati per l&#39;esperienza A. Questo potrebbe essere perché i tipi di pubblico non si escludono a vicenda e non sono nell&#39;ordine corretto (per esempio, esperienza A = Stati Uniti, esperienza B = San Francisco ed esperienza C = California). In questo scenario, tutti gli utenti degli Stati Uniti si qualificano per l&#39;esperienza A, anche se si trovano a San Francisco o altrove in California. Puoi riordinare le coppie di pubblico ed esperienza dalla più restrittiva alla meno restrittiva (San Francisco > California > Stati Uniti) senza ricreare l’intera attività.
+   Si supponga, ad esempio, di non sapere che l&#39;ordine è importante durante la creazione di un&#39;attività [!UICONTROL Experience Targeting]. Successivamente, ti rendi conto durante i test che i visitatori che ritenevi più idonei per le esperienze B o C sono invece qualificati per l&#39;esperienza A. Questo potrebbe essere perché i tipi di pubblico non si escludono a vicenda e non sono nell&#39;ordine corretto (per esempio, esperienza A = Stati Uniti, esperienza B = San Francisco ed esperienza C = California). In questo scenario, tutti gli utenti degli Stati Uniti si qualificano per l&#39;esperienza A, anche se si trovano a San Francisco o altrove in California. Puoi riordinare le coppie di pubblico ed esperienza dalla più restrittiva alla meno restrittiva (San Francisco > California > Stati Uniti) senza ricreare l’intera attività.
 
-   Se hai un pubblico [!UICONTROL Tutti i visitatori], assicurati che questo non sia il primo pubblico nel diagramma. Un’esperienza con targeting &quot;[!UICONTROL Tutti i visitatori]&quot; può essere utilizzato come ultima esperienza nel [!UICONTROL Targeting esperienza] attività per &quot;catturare&quot; i visitatori che non sono rientrati in nessun’altra esperienza.
+   Se hai un pubblico [!UICONTROL All Visitors], assicurati che non sia il primo pubblico nel diagramma. Un&#39;esperienza con targeting &quot;[!UICONTROL All Visitors]&quot; può essere utilizzata come ultima esperienza nell&#39;attività [!UICONTROL Experience Targeting] per &quot;catturare&quot; i visitatori che non sono rientrati in nessun&#39;altra esperienza.
 
 ## Rinominare o modificare un’esperienza
 
-Puoi fare clic su [!UICONTROL Modifica] (puntini di sospensione verticali) in un’esperienza in un’esperienza [!UICONTROL Targeting esperienza] e scegliere tra le seguenti opzioni, a seconda delle necessità:
+Fai clic sull&#39;icona [!UICONTROL Edit] (puntini di sospensione verticali) in un&#39;esperienza in un&#39;attività [!UICONTROL Experience Targeting] e scegli tra le seguenti opzioni, a seconda delle necessità:
 
-* [!UICONTROL Rinomina]
-* [!UICONTROL Modifica]
+* [!UICONTROL Rename]
+* [!UICONTROL Edit]
 
 ![Opzioni Rinomina e Modifica](/help/main/c-activities/t-experience-target/t-xt-create/assets/experience_edit-new.png)
 
 ## Eliminare un’esperienza
 
-Il giorno **[!UICONTROL Esperienze]** (il primo passaggio nel flusso di lavoro guidato in tre passaggi), fai clic sui puntini di sospensione verticali > **[!UICONTROL Elimina]**.
+Nella pagina **[!UICONTROL Experiences]** (il primo passaggio del flusso di lavoro guidato in tre passaggi), fai clic sui puntini di sospensione verticali > **[!UICONTROL Delete]**.
 
 ![Eliminare un’esperienza](/help/main/c-activities/t-experience-target/t-xt-create/assets/delete-experience.png)
 
 ## Duplicare un’esperienza
 
-È possibile copiare un’esperienza in un [!UICONTROL Targeting esperienza] per apportare modifiche minori senza dover ricreare l’intera esperienza.
+È possibile copiare un&#39;esperienza in un&#39;attività [!UICONTROL Experience Targeting] in modo da poter apportare modifiche minori senza dover ricreare l&#39;intera esperienza.
 
-Il giorno **[!UICONTROL Esperienze]** (il primo passaggio nel flusso di lavoro guidato in tre passaggi), fai clic sui puntini di sospensione verticali > **[!UICONTROL Duplica]**.
+Nella pagina **[!UICONTROL Experiences]** (il primo passaggio del flusso di lavoro guidato in tre passaggi), fai clic sui puntini di sospensione verticali > **[!UICONTROL Duplicate]**.
 
 ![Duplicare un’esperienza](/help/main/c-activities/t-experience-target/t-xt-create/assets/duplicate_experience-new.png)
 
@@ -104,11 +104,11 @@ Il giorno **[!UICONTROL Esperienze]** (il primo passaggio nel flusso di lavoro g
 
 I video seguenti contengono ulteriori informazioni sui concetti descritti in questo articolo.
 
-### Da test A/B a [!UICONTROL Targeting esperienza]
+### Da test A/B a [!UICONTROL Experience Targeting]
 
-Questo video descrive come portare il test A/B a un livello successivo con [!UICONTROL Targeting esperienza] (XT)
+Questo video descrive come portare il test A/B al livello successivo con [!UICONTROL Experience Targeting] (XT).
 
-* Descrivi il flusso di lavoro guidato in tre passaggi per configurare una [!UICONTROL Targeting esperienza] attività
+* Descrivi il flusso di lavoro guidato in tre passaggi per configurare un&#39;attività [!UICONTROL Experience Targeting]
 * Descrivi come distribuire contenuti specifici per la posizione a tipi di pubblico in diverse aree geografiche
 * Descrivi come riordinare le esperienze per garantire che il contenuto corretto venga distribuito al pubblico giusto
 
@@ -116,7 +116,7 @@ Questo video descrive come portare il test A/B a un livello successivo con [!UIC
 
 ### Tipi di attività (9:03)
 
-Questo video spiega i tipi di attività disponibili in [!DNL Target]. [!UICONTROL L&#39;esperienza di targeting è trattata a partire dal minuto 5:15.]
+Questo video spiega i tipi di attività disponibili in [!DNL Target]. [!UICONTROL Experience Targeting] è discusso a partire dalle 5:15.
 
 * Descrizione dei tipi di attività inclusi in [!DNL Adobe Target]
 * Selezionare il tipo di attività appropriato per i tuoi obiettivi
@@ -124,9 +124,9 @@ Questo video spiega i tipi di attività disponibili in [!DNL Target]. [!UICONTRO
 
 >[!VIDEO](https://video.tv.adobe.com/v/17386)
 
-### Utilizzo di [!UICONTROL Compositore esperienza visivo]
+### Utilizzo di [!UICONTROL Visual Experience Composer]
 
-Questo video fornisce informazioni sull’utilizzo di [!UICONTROL Targeting esperienza] (VEC).
+Questo video fornisce informazioni sull&#39;utilizzo delle opzioni [!UICONTROL Experience Targeting] (VEC).
 
 * Modificare il contenuto di una pagina
 * Modificare il layout di una pagina

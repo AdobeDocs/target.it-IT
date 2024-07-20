@@ -6,8 +6,8 @@ feature: Overview
 exl-id: bb2cc1ca-8be7-425c-b551-59084b6416c3
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
 workflow-type: tm+mt
-source-wordcount: '91'
-ht-degree: 100%
+source-wordcount: '100'
+ht-degree: 92%
 
 ---
 
@@ -19,7 +19,7 @@ Questo kit di benvenuto contiene i seguenti capitoli:
 
 * [Capitolo 1: Introduzione](/help/main/c-intro/target-welcome-kit-1.md)
 * [Capitolo 2: panoramica di Adobe Target](/help/main/c-intro/target-welcome-kit-2.md)
-* [Capitolo 3: sviluppare i test e le idee di personalizzazione](/help/main/c-intro/target-welcome-kit-3.md)
+* [Capitolo 3: Sviluppare idee di test e personalizzazione](/help/main/c-intro/target-welcome-kit-3.md)
 * [Capitolo 4: Suggerimenti per l’utilizzo di Target](/help/main/c-intro/target-welcome-kit-4.md)
 * [Capitolo 5: ispirazione per attività di test e personalizzazione](/help/main/c-intro/target-welcome-kit-5.md)
 * [Capitolo 6: Problemi facilmente evitabili](/help/main/c-intro/target-welcome-kit-6.md)

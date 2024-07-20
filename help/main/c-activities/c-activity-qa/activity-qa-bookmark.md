@@ -1,19 +1,19 @@
 ---
 keywords: qa;anteprima;bookmarklet;collegamenti di anteprima
-description: Scopri come utilizzare l’Adobe [!DNL Target] Bookmarklet di controllo qualità da forzare [!DNL Target] per uscire dalla modalità di controllo qualità.
+description: Scopri come utilizzare il bookmarklet Adobe [!DNL Target] QA per forzare [!DNL Target] l'uscita dalla modalità di controllo qualità.
 title: Come si utilizza il Bookmarklet di controllo qualità delle attività?
 feature: Activities
 exl-id: dbfe59eb-6853-4909-abf1-e5630e979a98
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
 workflow-type: tm+mt
-source-wordcount: '265'
+source-wordcount: '270'
 ht-degree: 13%
 
 ---
 
 # Bookmarklet di controllo qualità delle attività
 
-Informazioni sull’utilizzo di [!DNL Target] Bookmarklet di controllo qualità da forzare [!DNL Target] per uscire dalla modalità di controllo qualità.
+Informazioni sull&#39;utilizzo del bookmarklet di controllo qualità [!DNL Target] per forzare il rilascio di [!DNL Target] dalla modalità di controllo qualità.
 
 >[!NOTE]
 >
@@ -21,9 +21,9 @@ Informazioni sull’utilizzo di [!DNL Target] Bookmarklet di controllo qualità 
 
 ## Bookmarklet di controllo qualità delle attività per at.js 1.*x*
 
-Perché [Modalità di controllo qualità](/help/main/c-activities/c-activity-qa/activity-qa.md) è permanente, dopo aver navigato su un sito web in modalità di controllo qualità, il tuo [!DNL Target] la sessione deve scadere o [!DNL Target] disattiva la modalità di controllo qualità prima di visualizzare il sito come un normale visitatore. Utilizzare il Controllo qualità [!DNL Target] bookmarklet per uscire dalla modalità di controllo qualità.
+Poiché la modalità [Controllo qualità](/help/main/c-activities/c-activity-qa/activity-qa.md) è persistente, dopo aver navigato in un sito Web in modalità di controllo qualità è necessario che la sessione di [!DNL Target] scada o che [!DNL Target] sia rilasciato dalla modalità di controllo qualità prima di poter visualizzare il sito come un normale visitatore. Utilizza il bookmarklet di controllo qualità [!DNL Target] per uscire dalla modalità di controllo qualità.
 
-Per utilizzare [!DNL Target] Controllo qualità bookmarklet, crea un bookmarklet contenente il seguente codice JavaScript e aggiungilo alla barra dei segnalibri del browser:
+Per utilizzare il bookmarklet di controllo qualità [!DNL Target], creare un bookmarklet contenente il codice JavaScript seguente e aggiungerlo alla barra dei segnalibri del browser:
 
 ```javascript
 javascript:(
@@ -42,7 +42,7 @@ javascript:(
 )();
 ```
 
-Puoi anche forzare manualmente l’uscita dalla modalità di controllo qualità caricando una pagina del sito con il `at_preview_token` con un valore vuoto.
+Puoi anche forzare manualmente l&#39;uscita dalla modalità di controllo qualità caricando una pagina del sito con il parametro `at_preview_token` con un valore vuoto.
 
 Ad esempio:
 
@@ -50,9 +50,9 @@ Ad esempio:
 
 ## Bookmarklet di controllo qualità delle attività per at.js 2.*x*
 
-A differenza di at.js 1.*x*, at.js 2.*x* non supporta i cookie di terze parti e la modalità di controllo qualità è definitiva solo per il dominio di prima parte (tramite un cookie di prima parte impostato da at.js). Pertanto, in at.js 2.*x*, la sessione in modalità QA viene gestita solo sul lato client e nessun cookie in modalità QA viene inviato a Target.
+A differenza di at.js 1.*x*, at.js 2.*x* non supporta i cookie di terze parti e la modalità di controllo qualità è definitiva solo per il dominio di prima parte (tramite un cookie di prima parte impostato da at.js). Pertanto, in at.js 2.*x*, la sessione in modalità di controllo qualità è gestita solo sul lato client e non vengono inviati cookie in modalità di controllo qualità a Target.
 
-Per utilizzare [!DNL Target] Controllo qualità bookmarklet, crea un bookmarklet contenente il seguente codice JavaScript e aggiungilo alla barra dei segnalibri del browser:
+Per utilizzare il bookmarklet di controllo qualità [!DNL Target], creare un bookmarklet contenente il codice JavaScript seguente e aggiungerlo alla barra dei segnalibri del browser:
 
 ```javascript
 javascript:(

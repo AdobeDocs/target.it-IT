@@ -12,10 +12,10 @@ ht-degree: 20%
 
 ---
 
-# Pianificare e implementare [!DNL Recommendations]
+# Pianifica e implementa [!DNL Recommendations]
 
 Prima di iniziare a utilizzare [!DNL Adobe Target Recommendations], è necessario completare diversi passaggi.
 
-Il [Guida per gli sviluppatori di Adobe Target](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=it){target=_blank} contiene informazioni su come implementare [!DNL Recommendations] sul sito e come implementare [!DNL Target].
+La [Guida per gli sviluppatori di Adobe Target](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=it){target=_blank} contiene informazioni su come implementare [!DNL Recommendations] nel sito e su come implementare [!DNL Target].
 
-Per ulteriori informazioni e istruzioni dettagliate, consulta [Pianificare e implementare Recommendations](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} nel *Guida per gli sviluppatori di Adobe Target* portale.
+Per ulteriori informazioni e istruzioni dettagliate, vedere [Pianificare e implementare Recommendations](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} nel portale *Guida per gli sviluppatori di Adobe Target*.

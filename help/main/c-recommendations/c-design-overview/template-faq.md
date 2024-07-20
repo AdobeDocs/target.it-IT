@@ -2,13 +2,13 @@
 keywords: consigli;domande frequenti;FAQ
 description: Rivedi un elenco di domande frequenti (FAQ) e relative risposte sulle progettazioni di Adobe  [!DNL Target]  Recommendations.
 title: Dove posso trovare risposte a domande sulla progettazione per  [!DNL Target]  Recommendations?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Vedi cosa è incluso in Target Premium."
 feature: Recommendations
 exl-id: e970f734-9bc7-43b8-af1b-75e527d6353c
 source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
 workflow-type: tm+mt
-source-wordcount: '455'
-ht-degree: 100%
+source-wordcount: '470'
+ht-degree: 94%
 
 ---
 
@@ -26,9 +26,9 @@ Per risolvere il problema sono disponibili due opzioni:
 
 * Potete trasmettere il prezzo dell’articolo come due attributi di entità distinti. Il primo, `entity.value`, può essere utilizzato per confronti numerici (ad esempio per regole di confronto dei prezzi). Il secondo, può essere un attributo personalizzato, ad esempio `entity.displayValue`, in cui il valore dell’entità viene memorizzato come stringa per consentirne il rendering corretto.
 
-   Ad esempio,
+  Ad esempio,
 
-   `"entity.value" : 35.00, "entity.displayValue" : "$35.00"`
+  `"entity.value" : 35.00, "entity.displayValue" : "$35.00"`
 
 ## Perché la categoria non viene visualizzata nella progettazione? Sto utilizzando `$entity1.categoryId`. {#section_073309B8051049C7953D396A93EA0713}
 
@@ -48,7 +48,7 @@ La versione 1.7 senza l’aggiunta di strumenti o librerie ulteriori. È disponi
 
 ## Come posso sostituire un valore entità esistente con uno vuoto? Ad esempio, per cancellare l&#39;oggetto entity.message di un elemento al termine di una promozione. {#section_B88F2C2925DC4508974B2F8B13F961CB}
 
-Sembrerebbe possibile ottenere questo risultato mediante uno spazio unificatore JavaScript. Chiedi agli sviluppatori di inviare il valore `\u00A0`. Esempio: `entity.message=\u00A0`. Considera l&#39;utilizzo di questo valore come impostazione predefinita se non è presente alcun valore, anziché null.
+Sembrerebbe possibile ottenere questo risultato mediante uno spazio unificatore JavaScript. Chiedi agli sviluppatori di inviare il valore `\u00A0`. Esempio: `entity.message=\u00A0`. Considera l’utilizzo di questo valore come impostazione predefinita se non è presente alcun valore, anziché null.
 
 ## Posso utilizzare uno script di profilo in una progettazione [!DNL Recommendations]? {#section_6BD55203984A4D80A0C6F241AD7806DF}
 

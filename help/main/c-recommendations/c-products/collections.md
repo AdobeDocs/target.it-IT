@@ -28,33 +28,33 @@ Puoi raggruppare gli elementi in cataloghi e quindi creare consigli separati per
 
 I criteri di inclusione consentono di eseguire operazioni simili su una raccolta, ma devono essere impostati ogni volta che si crea una attività. Le raccolte consentono di creare un insieme di elementi e quindi di riutilizzarlo ogni volta che sia opportuno.
 
-Durante la creazione o la modifica di un [!DNL Recommendations] attività, il nome della raccolta viene visualizzato accanto al [!UICONTROL Criteria] sul diagramma dell’attività.
+Quando si crea o si modifica un&#39;attività [!DNL Recommendations], il nome della raccolta viene visualizzato accanto all&#39;etichetta [!UICONTROL Criteria] nel diagramma attività.
 
 >[!NOTE]
 >
->Le raccolte non vengono applicate quando si utilizza [!UICONTROL Recently Viewed Items] chiave di consiglio.
+>Le raccolte non vengono applicate quando si utilizza la chiave di consiglio [!UICONTROL Recently Viewed Items].
 
 ## Creazione di una raccolta {#task_1256DFF6842141FCAADD9E1428EF7F08}
 
 Crea una raccolta per organizzare i prodotti o i contenuti da mostrare nei consigli.
 
-1. Clic **[!UICONTROL Recommendations]** > **[!UICONTROL Collections]** per visualizzare l’elenco delle raccolte esistenti.
+1. Fare clic su **[!UICONTROL Recommendations]** > **[!UICONTROL Collections]** per visualizzare l&#39;elenco delle raccolte esistenti.
 
    ![Elenco Raccolte](assets/collections_list.png)
 
-   Il [!UICONTROL Collections] In questa pagina viene visualizzato un elenco delle raccolte esistenti. Per creare nuove raccolte, fai clic su [!UICONTROL Create Collection] pulsante. Puoi anche modificare, copiare ed eliminare raccolte esistenti passando il cursore sopra la raccolta desiderata e facendo clic sull’icona desiderata.
+   Nella pagina [!UICONTROL Collections] viene visualizzato un elenco delle raccolte esistenti. Per creare nuove raccolte, fare clic sul pulsante [!UICONTROL Create Collection]. Puoi anche modificare, copiare ed eliminare raccolte esistenti passando il cursore sopra la raccolta desiderata e facendo clic sull’icona desiderata.
 
    ![Icone al passaggio del mouse: modifica, copia ed elimina](/help/main/c-recommendations/c-products/assets/hover-icons.png)
 
-   Il &quot;Numero di elementi&quot; segnalato per ogni raccolta sul [!UICONTROL Collections] vista a elenco è il numero di prodotti che corrispondono alle regole per tale raccolta all’interno del Recommendations predefinito configurato [gruppo host](/help/main/administrating-target/hosts.md) (ambiente). Consulta [Impostazioni](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} per modificare il gruppo host predefinito.
+   Il &quot;Numero di elementi&quot; segnalato per ogni raccolta nella visualizzazione elenco [!UICONTROL Collections] è il numero di prodotti che corrispondono alle regole per tale raccolta all&#39;interno del gruppo predefinito di Recommendations [host](/help/main/administrating-target/hosts.md) (ambiente) configurato. Consulta [Impostazioni](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} per modificare il gruppo host predefinito.
 
-1. Clic **[!UICONTROL Create Collection]**.
+1. Fare clic su **[!UICONTROL Create Collection]**.
 
-1. (Condizionale) Scegli un ambiente dalla sezione **[!UICONTROL Environment]** durante la creazione (o l’aggiornamento) di una raccolta per visualizzare in anteprima il contenuto della raccolta in tale ambiente. Per impostazione predefinita, sono visualizzati i risultati del gruppo di host predefinito.
+1. (Facoltativo) Scegliere un ambiente dal filtro **[!UICONTROL Environment]** durante la creazione o l&#39;aggiornamento di una raccolta per visualizzare in anteprima i contenuti della raccolta in tale ambiente. Per impostazione predefinita, sono visualizzati i risultati del gruppo di host predefinito.
 
    ![Creare una raccolta](/help/main/c-recommendations/c-products/assets/CreateCollection.png)
 
-1. Digita un **[!UICONTROL Name]** per la raccolta.
+1. Digitare **[!UICONTROL Name]** per la raccolta.
 
    È inoltre possibile immettere un valore facoltativo **[!UICONTROL Description]**.
 
@@ -64,15 +64,15 @@ Crea una raccolta per organizzare i prodotti o i contenuti da mostrare nei consi
 
    È possibile aggiungere regole per utilizzare più parametri con cui definire una raccolta. Più regole sono unite con un operatore AND. Tutte le regole specificate devono essere soddisfatte perché la raccolta venga applicata.
 
-1. Clic **[!UICONTROL Save]**.
+1. Fare clic su **[!UICONTROL Save]**.
 
 ## Creare una raccolta utilizzando Ricerca avanzata
 
-Puoi anche creare le raccolte utilizzando la Ricerca avanzata nella [Ricerca nel catalogo](/help/main/c-recommendations/c-products/catalog-search.md#save-as) page ([!UICONTROL Recommendations] > [!UICONTROL Catalog Search] > [!UICONTROL Advanced Search]).
+Puoi anche creare raccolte utilizzando la Ricerca avanzata nella pagina [Ricerca nel catalogo](/help/main/c-recommendations/c-products/catalog-search.md#save-as) ([!UICONTROL Recommendations] > [!UICONTROL Catalog Search] > [!UICONTROL Advanced Search]).
 
 ![Finestra di dialogo Salva con nome](/help/main/c-recommendations/c-products/assets/save-as.png)
 
-Dopo aver creato una ricerca utilizzando &quot;id > contiene&quot;, ad esempio, puoi fare clic su [!UICONTROL Save As] > [!UICONTROL Collection].
+Dopo aver creato una ricerca utilizzando &quot;id > contiene&quot;, ad esempio, è possibile fare clic su [!UICONTROL Save As] > [!UICONTROL Collection].
 
 >[!IMPORTANT]
 >
@@ -92,15 +92,15 @@ Tieni presente che le raccolte sono disponibili a livello dell’intero account.
 
 1. Crea una raccolta utilizzando uno dei metodi indicati sopra.
 
-1. Clic **[!UICONTROL Activities]** e [crea un nuovo Recommendations](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md) o modificare un&#39;attività esistente.
+1. Fai clic su **[!UICONTROL Activities]** e [crea una nuova attività Recommendations](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md) o modifica un&#39;attività esistente.
 
-1. Dopo aver selezionato un criterio e una progettazione, [!UICONTROL Options] quando selezioni la raccolta desiderata, viene visualizzata una pagina.
+1. Dopo aver selezionato un criterio e una progettazione, viene visualizzata la pagina [!UICONTROL Options] in cui si seleziona la raccolta desiderata.
 
-   ![Scegli l&#39;opzione di raccolta](/help/main/c-recommendations/c-products/assets/choose-collection.png)
+   ![Scegliere l&#39;opzione di raccolta](/help/main/c-recommendations/c-products/assets/choose-collection.png)
 
-1. (Condizionale) Per modificare un’impostazione di raccolta esistente, nella **[!UICONTROL Experiences]** pagina (passaggio 2 del flusso di lavoro guidato in tre parti), fai clic sul percorso in cui hai inserito i consigli, quindi fai clic su **[!UICONTROL Change Collection]**, quindi seleziona la raccolta desiderata.
+1. (Condizionale) Per modificare un&#39;impostazione di raccolta esistente, nella pagina **[!UICONTROL Experiences]** (passaggio 2 del flusso di lavoro guidato in tre parti) fare clic in un percorso in cui sono stati inseriti i consigli, fare clic su **[!UICONTROL Change Collection]**, quindi selezionare la raccolta desiderata.
 
-   ![Opzione Cambia raccolta](/help/main/c-recommendations/c-products/assets/change-collection.png)
+   ![Modifica opzione raccolta](/help/main/c-recommendations/c-products/assets/change-collection.png)
 
 ## Video di formazione: Creare raccolte ed esclusioni in Recommendations (7:05) ![Icona esercitazione](/help/main/assets/tutorial.png)
 

@@ -7,20 +7,20 @@ feature: Recommendations
 exl-id: a666cfc4-ed74-44e8-9ff5-212e4fd65c03
 source-git-commit: be5b3158c758fa08802c1dc0541c9e989a2c7740
 workflow-type: tm+mt
-source-wordcount: '175'
-ht-degree: 46%
+source-wordcount: '173'
+ht-degree: 35%
 
 ---
 
 # Indirizzi IP utilizzati da [!DNL Recommendations] server di elaborazione dei feed
 
-Elenco di indirizzi IP utilizzati in [!DNL Adobe Target] [!DNL Recommendations] server di elaborazione dei feed per configurare il firewall in modo da autorizzare gli indirizzi IP provenienti da [!DNL Adobe] server.
+Elenco di indirizzi IP utilizzati nei server di elaborazione dei feed [!DNL Recommendations] di [!DNL Adobe Target] per configurare il firewall per l&#39;autorizzazione degli indirizzi IP provenienti dai server [!DNL Adobe].
 
 >[!IMPORTANT]
 >
->Il [!DNL Target] Il team sta aggiornando gli indirizzi gateway NAT per il download [!DNL Recommendations] feed. Se implementi l’IP, assicurati di inserire nell&#39;elenco Consentiti inserire nell&#39;elenco Consentiti i seguenti nuovi host AWS. La disattivazione degli host esistenti è prevista per il 30 giugno 2024. Per garantire una transizione fluida, inserisce nell&#39;elenco Consentiti tutti e nove gli indirizzi di, in quanto tutti i messaggi sono stati inseriti in un unico file. Non vi è alcuna urgenza di rimuovere gli indirizzi esistenti.
+>Il team [!DNL Target] sta aggiornando gli indirizzi gateway NAT per il download di [!DNL Recommendations] feed. Inserire nell&#39;elenco Consentiti inserire nell&#39;elenco Consentiti Se implementi l’IP, assicurati di i seguenti nuovi host AWS. La disattivazione degli host esistenti è prevista per il 30 giugno 2024. Per garantire una transizione fluida, inserisce nell&#39;elenco Consentiti tutti e nove gli indirizzi. Non vi è alcuna urgenza di rimuovere gli indirizzi esistenti.
 
-Le attività [!DNL Target] [!UICONTROL Recommendations] (Consigli) utilizzano i seguenti host AWS per accedere ai server FTP dei clienti:
+Le attività di [!DNL Target] [!UICONTROL Recommendations] utilizzano i seguenti host AWS per accedere ai server FTP dei clienti:
 
 **Nuovi host**:
 

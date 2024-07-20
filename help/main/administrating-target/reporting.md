@@ -1,6 +1,6 @@
 ---
 keywords: report;report;reporting;soluzione experience cloud;fuso orario;fuso orario;valuta;escludere gli IP;incremento stimato dei ricavi;ricavi;incremento dei ricavi;priorità dettagliate;fine-grained
-description: Utilizzare [!DNL Target], [!DNL Adobe Analytics], or [!DNL Adobe Customer Journey Analytics] come origine per la generazione di rapporti, specifica il fuso orario e il formato della valuta predefiniti, aggiungi indirizzi IP da escludere dalla generazione dei rapporti e altro ancora.
+description: Utilizza  [!DNL Target], [!DNL Adobe Analytics], or [!DNL Adobe Customer Journey Analytics] come origine per la generazione di rapporti, specifica il fuso orario e il formato di valuta predefiniti, aggiungi indirizzi IP da escludere dalla generazione di rapporti e altro ancora.
 title: Come si configura il reporting in [!DNL Target]?
 feature: Administration & Configuration
 role: Admin
@@ -12,11 +12,11 @@ ht-degree: 22%
 
 ---
 
-# Configurare il reporting in [!DNL Target]
+# Configura reporting in [!DNL Target]
 
-Configurare le impostazioni generali da utilizzare in [!DNL Adobe Target] generazione di rapporti applicabili all&#39;intero [!DNL Target] account.
+Configurare le impostazioni generali da utilizzare nel reporting di [!DNL Adobe Target] applicabili all&#39;intero account di [!DNL Target].
 
-Per accedere al [!UICONTROL Reporting] nella pagina di configurazione, fai clic su **[!UICONTROL Administration]** > **[!UICONTROL Reporting].**
+Per accedere alla pagina di configurazione [!UICONTROL Reporting], fare clic su **[!UICONTROL Administration]** > **[!UICONTROL Reporting].**
 
 In questa pagina è possibile specificare le impostazioni seguenti:
 
@@ -29,7 +29,7 @@ In questa pagina è possibile specificare le impostazioni seguenti:
 
 >[!NOTE]
 >
->Tieni presente che il fuso orario, la valuta e gli indirizzi IP da escludere si applicano alle attività che utilizzano [!DNL Target] reportistica. Queste impostazioni non si applicano alle attività che utilizzano [Analytics for Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md) o [!DNL Customer Journey Analytics] come origine per la generazione di rapporti.
+>Tenere presente che il fuso orario, la valuta e gli indirizzi IP da escludere si applicano alle attività che utilizzano la generazione rapporti di [!DNL Target]. Queste impostazioni non si applicano alle attività che utilizzano [Analytics for Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md) o [!DNL Customer Journey Analytics] come origine per la generazione di rapporti.
 
 ![Pagina di reporting](/help/main/administrating-target/assets/reporting.png)
 
@@ -37,30 +37,30 @@ In questa pagina è possibile specificare le impostazioni seguenti:
 
 Imposta le opzioni che determinano quali dati vengono utilizzati per i risultati e i rapporti.
 
-Seleziona l&#39;origine per la generazione di rapporti per le attività, [!DNL Target], [!DNL Adobe Analytics], o [!DNL Adobe Customer Journey Analytics]. Puoi anche scegliere di selezionare l’origine per la generazione di rapporti per attività nell’ambito del flusso di lavoro guidato in tre parti durante la creazione dell’attività.
+Selezionare l&#39;origine per la generazione di rapporti per le attività, [!DNL Target], [!DNL Adobe Analytics] o [!DNL Adobe Customer Journey Analytics]. Puoi anche scegliere di selezionare l’origine per la generazione di rapporti per attività nell’ambito del flusso di lavoro guidato in tre parti durante la creazione dell’attività.
 
 Considera le seguenti informazioni nella scelta dell&#39;origine per la generazione di rapporti:
 
-* **[!DNL Adobe Target]**: se l’origine per la generazione di rapporti è impostata su **[!DNL Target]** in questo caso, non ti è consentito creare o attivare un’attività che utilizza [!DNL Analytics] o [!DNL Customer Journey Analytics] come origine per la generazione di rapporti. È necessario modificare l’origine per la generazione di rapporti in **[!UICONTROL Select per activity]**.
-* **[!DNL Adobe Analytics]**: se l’origine per la generazione di rapporti è impostata su **[!DNL Analytics]** in questo caso, non ti è consentito creare o attivare un’attività che utilizza [!DNL Target] o [!DNL Customer Journey Analytics] come origine per la generazione di rapporti. È necessario modificare l’origine per la generazione di rapporti in **[!UICONTROL Select per activity]**.
-* **[!DNL Adobe Customer Journey Analytics]**: se l’origine per la generazione di rapporti è impostata su **[!DNL Customer Journey Analytics]** in questo caso, non ti è consentito creare o attivare un’attività che utilizza [!DNL Target] o [!DNL Analytics] come origine per la generazione di rapporti. È necessario modificare l’origine per la generazione di rapporti in **[!UICONTROL Select per activity]**.
-* **Seleziona per attività**: se l’origine per la generazione di rapporti è impostata su **[!UICONTROL Select per activity]** qui puoi creare e attivare attività supportate dall’origine per la generazione di rapporti selezionata.
+* **[!DNL Adobe Target]**: se l&#39;origine per la generazione di rapporti è impostata su **[!DNL Target]** qui, non è consentito creare o attivare un&#39;attività che utilizza [!DNL Analytics] o [!DNL Customer Journey Analytics] come origine per la generazione di rapporti. È necessario modificare l&#39;origine per la generazione di rapporti in **[!UICONTROL Select per activity]**.
+* **[!DNL Adobe Analytics]**: se l&#39;origine per la generazione di rapporti è impostata su **[!DNL Analytics]** qui, non è consentito creare o attivare un&#39;attività che utilizza [!DNL Target] o [!DNL Customer Journey Analytics] come origine per la generazione di rapporti. È necessario modificare l&#39;origine per la generazione di rapporti in **[!UICONTROL Select per activity]**.
+* **[!DNL Adobe Customer Journey Analytics]**: se l&#39;origine per la generazione di rapporti è impostata su **[!DNL Customer Journey Analytics]** qui, non è consentito creare o attivare un&#39;attività che utilizza [!DNL Target] o [!DNL Analytics] come origine per la generazione di rapporti. È necessario modificare l&#39;origine per la generazione di rapporti in **[!UICONTROL Select per activity]**.
+* **Seleziona per attività**: se l&#39;origine per la generazione di rapporti è impostata su **[!UICONTROL Select per activity]** qui, puoi creare e attivare attività supportate dall&#39;origine per la generazione di rapporti selezionata.
 
 Quando determini l’origine per la generazione di rapporti, considera le seguenti informazioni:
 
-* **[!DNL Analytics]**: per una matrice di attività supportate che utilizza [!DNL Analytics] come origine per la generazione di rapporti (A4T), consulta [Tipi di attività supportati](/help/main/c-integrating-target-with-mac/a4t/a4t.md#section_F487896214BF4803AF78C552EF1669AA) in *Adobe Analytics come origine per la generazione di rapporti per Adobe Target (A4T)*.
+* **[!DNL Analytics]**: per una matrice di attività supportate che utilizzano [!DNL Analytics] come origine per la generazione di rapporti (A4T), vedere [Tipi di attività supportati](/help/main/c-integrating-target-with-mac/a4t/a4t.md#section_F487896214BF4803AF78C552EF1669AA) in *Adobe Analytics come origine per la generazione di rapporti per Adobe Target (A4T)*.
 
-  [!UICONTROL Automated Personalization] (AP) la creazione e l&#39;attivazione di attività sono consentite indipendentemente dall&#39;origine per la generazione di rapporti selezionata. [!UICONTROL Automated Personalization] Le attività non sono supportate quando si sceglie [Adobe Analytics come origine per la generazione di rapporti per Adobe Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md).
+  La creazione e l&#39;attivazione dell&#39;attività [!UICONTROL Automated Personalization] (AP) sono consentite indipendentemente dall&#39;origine per la generazione di rapporti selezionata. Le attività di [!UICONTROL Automated Personalization] non sono supportate quando si sceglie [Adobe Analytics come origine per la generazione di rapporti per Adobe Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md).
 
-  Anche se si specifica [!DNL Analytics] come origine per la generazione di rapporti, [!DNL Target] viene utilizzato come origine di reporting per [!DNL Automated Personalization] attività.
+  Anche se si specifica [!DNL Analytics] come origine per la generazione di rapporti, [!DNL Target] viene utilizzato come origine per la generazione di rapporti per le attività [!DNL Automated Personalization].
 
-* **[!DNL Customer Journey Analytics]**: per una matrice di attività supportate che utilizza [!DNL Target] creazione di rapporti in [!DNL Customer Journey Analytics], vedi [Tipi di attività supportati](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md#supported-activities) in *[!DNL Target]creazione di rapporti in[!DNL Adobe Customer Journey Analytics]*.
+* **[!DNL Customer Journey Analytics]**: per una matrice di attività supportate che utilizzano la generazione di rapporti [!DNL Target] in [!DNL Customer Journey Analytics], vedere [Tipi di attività supportati](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md#supported-activities) in *[!DNL Target]generazione di rapporti in[!DNL Adobe Customer Journey Analytics]*.
 
-  [!UICONTROL Automated Personalization] AP) [!UICONTROL Auto-Allocate], e [!UICONTROL Auto-Target] la creazione e l’attivazione delle attività sono consentite indipendentemente dall’origine per la generazione di rapporti selezionata. Queste attività non sono supportate quando si sceglie [Adobe Customer Journey Analytics come origine per la generazione di rapporti](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md).
+  La creazione e l&#39;attivazione delle attività [!UICONTROL Automated Personalization] (AP), [!UICONTROL Auto-Allocate] e [!UICONTROL Auto-Target] sono consentite indipendentemente dall&#39;origine per la generazione di rapporti selezionata. Queste attività non sono supportate quando si sceglie [Adobe Customer Journey Analytics come origine per la generazione di rapporti](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md).
 
-  Anche se si specifica [!DNL Customer Journey Analytics] come origine per la generazione di rapporti, [!DNL Target] viene utilizzato come origine di reporting per [!DNL Automated Personalization] attività.
+  Anche se si specifica [!DNL Customer Journey Analytics] come origine per la generazione di rapporti, [!DNL Target] viene utilizzato come origine per la generazione di rapporti per le attività [!DNL Automated Personalization].
 
-  Se si specifica [!DNL Customer Journey Analytics] come origine per la generazione di rapporti per [!UICONTROL Auto-Allocate] o [!UICONTROL Auto-Target] attività, [!DNL Target] o [!DNL Analytics] può essere utilizzato come origine per la generazione di rapporti.
+  Se si specifica [!DNL Customer Journey Analytics] come origine per la generazione di rapporti per le attività [!UICONTROL Auto-Allocate] o [!UICONTROL Auto-Target], è possibile utilizzare [!DNL Target] o [!DNL Analytics] come origine per la generazione di rapporti.
 
 ## Fuso orario per il reporting
 
@@ -70,7 +70,7 @@ Specifica il fuso orario da utilizzare per i rapporti.
 
 Specifica la valuta da utilizzare per il reporting.
 
-## IP da escludere [!DNL Target] dati di reporting
+## IP da escludere dai dati di reporting di [!DNL Target]
 
 Specifica eventuali indirizzi IP da escludere dai dati di reporting. Ad esempio, escludere gli indirizzi aziendali interni è un buon modo per garantire che i dati di reporting riflettano le interazioni dei clienti sul sito web.
 
@@ -80,7 +80,7 @@ Inserisci ogni indirizzo IP su una nuova riga.
 
 Se inserisci un valore monetario per l’obiettivo, puoi scegliere di visualizzare l’incremento stimato dei ricavi. Con [!DNL Target] puoi stimare l’incremento dei ricavi potenziali se tutti gli utenti visualizzano l’esperienza vincente. La funzione di stima dell&#39;incremento è disabilitata per impostazione predefinita.
 
-Solo [!DNL Experience Cloud] Gli utenti amministratori possono abilitare o disabilitare questa funzione. Se la stima dell’incremento è disattivata, i campi corrispondenti non vengono visualizzati nell’interfaccia. La disattivazione della funzione non si traduce in una perdita di dati, compresi i dati utilizzati per le stime. Le stime si basano sui dati raccolti indipendentemente dallo stato di attivazione della funzione.
+Solo [!DNL Experience Cloud] utenti amministratori possono abilitare o disabilitare questa funzione. Se la stima dell’incremento è disattivata, i campi corrispondenti non vengono visualizzati nell’interfaccia. La disattivazione della funzione non si traduce in una perdita di dati, compresi i dati utilizzati per le stime. Le stime si basano sui dati raccolti indipendentemente dallo stato di attivazione della funzione.
 
 Per informazioni dettagliate, vedi [Stima dell’incremento dei ricavi](/help/main/administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md).
 

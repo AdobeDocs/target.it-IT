@@ -5,9 +5,9 @@ title: Come abilitare i contenuti misti nel browser
 feature: Visual Experience Composer (VEC)
 exl-id: a2209af6-65e5-427e-b2cb-53b803728ef3
 source-git-commit: c5b43faa2fc55c2c8737e586cfdfaa1444a05880
-workflow-type: ht
-source-wordcount: '560'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '536'
+ht-degree: 87%
 
 ---
 
@@ -17,7 +17,7 @@ I contenuti misti si verificano se la richiesta iniziale è protetta tramite HTT
 
 I browser moderni potrebbero bloccare la visualizzazione di una pagina o visualizzare messaggi di avviso in caso di combinazione di contenuto sicuro e contenuto non sicuro.
 
-Viene visualizzato un messaggio di avviso se il [!UICONTROL Compositore esperienza visivo] (VEC) in [!DNL Adobe Target] tenta di aprire una pagina con contenuti misti. Questo messaggio spiega come disattivare il blocco nel browser. La disattivazione del blocco consente di aprire un sito HTTP o un sito con contenuti misti (HTTPS e HTTP).
+Viene visualizzato un messaggio di avviso se il [!UICONTROL Visual Experience Composer] (VEC) in [!DNL Adobe Target] tenta di aprire una pagina con contenuti misti. Questo messaggio spiega come disattivare il blocco nel browser. La disattivazione del blocco consente di aprire un sito HTTP o un sito con contenuti misti (HTTPS e HTTP).
 
 ![Avviso contenuti misti](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/mixed_content_warning.png)
 
@@ -41,11 +41,11 @@ Consulta “[Gestire avvisi sui siti non sicuri](https://support.google.com/chro
 
 Se utilizzi il Compositore esperienza visivo con la versione più recente di [!DNL Chrome] (versione 79.0.3945.117 o successiva), devi aggiornare le impostazioni del sito. I visitatori del sito non devono completare questi passaggi.
 
-1. Fai clic sull’icona del lucchetto (avviso), quindi fai clic su **[!UICONTROL Impostazioni sito]**.
+1. Fare clic sull&#39;icona del blocco (avviso), quindi fare clic su **[!UICONTROL Site settings]**.
 
    ![Impostazioni sito](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/site-settings.png)
 
-1. Scorri fino a **[!UICONTROL Contenuto non sicuro]**, quindi utilizza l’elenco a discesa per modificare “Blocca (predefinita)” in “Consenti”.
+1. Scorri fino a **[!UICONTROL Insecure content]**, quindi utilizza l&#39;elenco a discesa per modificare &quot;Blocca (predefinita)&quot; in &quot;Consenti&quot;.
 
    ![Contenuto non sicuro](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/insecure-content.png)
 
@@ -78,10 +78,10 @@ Se stai visitando un sito tramite una connessione sicura, [!DNL Edge] verifica c
 
 Se utilizzi il Compositore esperienza visivo con la versione più recente di [!DNL Edge], devi aggiornare le impostazioni del sito. I visitatori del sito non devono completare questi passaggi.
 
-1. In [!DNL Edge], fai clic su **[!DNL Microsoft Edge]** nella barra del menu **[!UICONTROL Impostazioni]**, quindi fai clic su **Cookie e autorizzazioni per il sito**.
+1. In [!DNL Edge], fai clic su **[!DNL Microsoft Edge]** nella barra dei menu, **[!UICONTROL Settings]**, quindi fai clic su **Cookie e autorizzazioni sito**.
 
-1. Scorri fino a **[!UICONTROL Contenuto non protetto]**.
+1. Scorri fino a **[!UICONTROL Insecure content]**.
 
-1. Clicca su **[!UICONTROL Contenuto non protetto]**, quindi fai clic su **[!UICONTROL Aggiungi]** accanto a **[!UICONTROL Consenti]**, aggiungi il sito per il quale intendi consentire contenuti non protetti, quindi fai clic su **[!UICONTROL Aggiungi]**.
+1. Fai clic su **[!UICONTROL Insecure content]**, quindi su **[!UICONTROL Add]** accanto a **[!UICONTROL Allow]**, aggiungi il sito su cui consentire contenuti non sicuri, quindi fai clic su **[!UICONTROL Add]**.
 
 1. Ricarica la pagina del Compositore esperienza visivo.

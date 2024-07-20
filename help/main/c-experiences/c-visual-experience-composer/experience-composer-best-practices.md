@@ -6,14 +6,14 @@ feature: Visual Experience Composer (VEC)
 exl-id: cf51bfec-d7fa-4ec1-a5dc-35edefefd3e4
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
 workflow-type: tm+mt
-source-wordcount: '2395'
-ht-degree: 93%
+source-wordcount: '2402'
+ht-degree: 91%
 
 ---
 
 # Best practice e limitazioni del Compositore esperienza visivo
 
-Le best practice seguenti consentono di ottenere più facilmente il funzionamento previsto per le esperienze. Quando si utilizza il Compositore esperienza visivo in, è inoltre necessario conoscere altri suggerimenti e limitazioni. [!DNL Adobe Target].
+Le best practice seguenti consentono di ottenere più facilmente il funzionamento previsto per le esperienze. Quando si utilizza il Compositore esperienza visivo in [!DNL Adobe Target] è inoltre necessario conoscere altri suggerimenti e limitazioni.
 
 Segui queste best practice per evitare che si verifichino problemi imprevisti con le esperienze che progetti.
 
@@ -25,11 +25,11 @@ Se utilizzi anche il servizio API Visitor, inserisci lo script dell’API visita
 
 **Puoi abilitare il Compositore esperienza avanzato a livello di account (abilitato per tutte le attività create nell’account) o a livello della singola attività.**
 
-Per abilitare il Compositore esperienza avanzato a livello di account, fai clic su [!UICONTROL Amministrazione > Compositore esperienza visivo], quindi attivare l&#39;interruttore.
+Per abilitare il Compositore esperienza avanzato a livello di account, fai clic su [!UICONTROL Administration > Visual Experience Composer], quindi attiva il pulsante.
 
-Per abilitare il Compositore esperienza avanzato a livello di attività durante la creazione di un&#39;attività nel Compositore esperienza visivo, fai clic su [!UICONTROL Configura > URL], quindi attiva il pulsante.
+Per abilitare il Compositore esperienza avanzato a livello di attività durante la creazione di un&#39;attività nel Compositore esperienza visivo, fare clic su [!UICONTROL Configure > URL], quindi attivare il pulsante.
 
-**Inserire nell&#39;elenco Consentiti Se il Compositore esperienza visivo avanzato non viene caricato su pagine protette del sito, puoi alcuni indirizzi IP.**
+inserire nell&#39;elenco Consentiti **Se il Compositore esperienza visivo avanzato non si carica su pagine protette del sito, è possibile alcuni indirizzi IP.**
 
 I problemi relativi al caricamento del Compositore esperienza visivo avanzato possono essere risolti inserendo nell&#39;elenco Consentiti i seguenti indirizzi IP. Si tratta degli indirizzi IP per il server Adobe utilizzato per il proxy del Compositore esperienza avanzato. Sono necessari solo per modificare le attività. I visitatori del tuo sito non hanno bisogno di inserire nell&#39;elenco Consentiti questi indirizzi IP.
 
@@ -217,7 +217,7 @@ Il div esterno non deve essere selezionato in un&#39;esperienza, in quanto la mb
 
 Se utilizzi il Compositore esperienza avanzato su un sito non attivo, ad esempio un ambiente di pre-produzione, è possibile che vengano visualizzati timeout ed errori di accesso negato al blocco dei protocolli RIP da parte del sito.
 
-**All&#39;aggiunta di più pagine, la barra dell&#39;esperienza e della pagina vengono aperte in contemporanea. In questo modo viene ridotta la larghezza del Compositore esperienza visivo per visualizzare il sito per le ottimizzazioni. Di conseguenza, nello spazio ridotto i siti fluidi potrebbero essere visualizzati in modo diverso rispetto a quanto previsto.**
+**All&#39;aggiunta di più pagine, la barra dell&#39;esperienza e della pagina vengono aperte in contemporanea. In questo modo viene ridotta la larghezza del Compositore esperienza visivo per visualizzare il sito per le ottimizzazioni. Di conseguenza, i siti riattivabili potrebbero iniziare a essere visualizzati in modo diverso rispetto a quanto previsto nello spazio ridotto.**
 
 La soluzione consiste nel comprimere la barra dell&#39;esperienza e della pagina facendo clic sulle icone con freccia sinistra nella parte superiore.
 
@@ -229,7 +229,7 @@ Un elemento non può essere spostato all&#39;esterno di un contenitore seguito d
 
 **Sulle mbox sono disponibili solo le offerte di sostituzione.**
 
-Azioni come Modifica classe e Ridisponi non sono consentite all&#39;interno di una mbox.
+Azioni quali Modifica classe e Ridisponi non sono consentite all&#39;interno di una mbox.
 
 **Evitare di ridisporre e spostare lo stesso elemento.**
 

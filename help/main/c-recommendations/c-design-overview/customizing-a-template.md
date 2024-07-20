@@ -2,13 +2,13 @@
 keywords: progettazione personalizzata;velocity;decimale;virgola;personalizzare una progettazione
 description: Scopri come utilizzare il linguaggio di progettazione open-source Velocity per personalizzare le progettazioni dei consigli in Adobe  [!DNL Target]  Recommendations.
 title: Come posso personalizzare una progettazione con Velocity?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Vedi cosa è incluso in Target Premium."
 feature: Recommendations
 exl-id: 035d7988-80d8-4080-bb0d-1d0e9f8856d1
 source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
 workflow-type: tm+mt
-source-wordcount: '1066'
-ht-degree: 76%
+source-wordcount: '1064'
+ht-degree: 72%
 
 ---
 
@@ -22,7 +22,7 @@ Le informazioni su Velocity sono disponibili all’indirizzo [https://velocity.a
 
 La logica, la sintassi e altro di Velocity possono essere utilizzati integralmente per la progettazione di un consiglio. Ciò significa che è possibile creare cicli *for*, istruzioni *If* e altro codice utilizzando Velocity anziché JavaScript.
 
-Attributi di entità inviati a [!DNL Recommendations] nel `productPage` È possibile visualizzare la mbox o il caricamento del file CSV in una progettazione, ad eccezione degli attributi con più valori. È possibile inviare qualsiasi tipo di attributo; tuttavia, [!DNL Target] non passa attributi di tipo &quot;multivalore&quot; come array su cui un modello può iterare (ad esempio `entityN.categoriesList`).
+Gli attributi di entità inviati a [!DNL Recommendations] nella mbox `productPage` o il caricamento del file CSV possono essere visualizzati in una progettazione, ad eccezione degli attributi con più valori. È possibile inviare qualsiasi tipo di attributo; tuttavia, [!DNL Target] non passa attributi di tipo &quot;multivalore&quot; come array su cui un modello può eseguire iterazioni (ad esempio `entityN.categoriesList`).
 
 A questi valori viene fatto riferimento con la seguente sintassi:
 
@@ -30,7 +30,7 @@ A questi valori viene fatto riferimento con la seguente sintassi:
 $entityN.variable
 ```
 
-I nomi degli attributi di entità devono seguire la notazione abbreviata di Velocity, costituita da una *$* seguito da un identificatore VTL (Velocity Template Language). L&#39;identificatore VTL deve iniziare con un carattere alfabetico (a-z o A-Z).
+I nomi degli attributi di entità devono seguire la notazione abbreviata di Velocity, costituita da un carattere iniziale *$* seguito da un identificatore VTL (Velocity Template Language). L&#39;identificatore VTL deve iniziare con un carattere alfabetico (a-z o A-Z).
 
 I nomi degli attributi dell’entità Velocity sono limitati ai seguenti tipi di caratteri:
 
@@ -60,9 +60,9 @@ $entities[0].categoriesList[2]
 #end
 ```
 
-Per ulteriori informazioni sulle variabili Velocity (attributi), consulta [https://velocity.apache.org/engine/releases/velocity-1.7/user-guide.html#variables](https://velocity.apache.org/engine/releases/velocity-1.7/user-guide.html#variables).
+Per ulteriori informazioni sulle variabili Velocity (attributi), vedere [https://velocity.apache.org/engine/releases/velocity-1.7/user-guide.html#variables](https://velocity.apache.org/engine/releases/velocity-1.7/user-guide.html#variables).
 
-Se utilizzi uno script di profilo nella progettazione, il $ che precede il nome dello script deve essere preceduto da un `\` (barra rovesciata). Ad esempio:
+Se utilizzi uno script di profilo nella progettazione, il $ che precede il nome dello script deve essere preceduto da una barra rovesciata (`\`). Ad esempio:
 
 `\${user.script_name}`
 
@@ -125,14 +125,14 @@ sku: $entity3.prodId<br/> Price: $$entity3.value
 >
 >Se si desidera aggiungere testo dopo il valore di un attributo prima di un tag che indica il completamento del nome dell&#39;attributo, è possibile utilizzare la notazione formale per racchiudere il nome dell&#39;attributo. Ad esempio: `${entity1.thumbnailUrl}.gif`.
 
-Puoi anche utilizzare `algorithm.name` e `algorithm.dayCount` come attributi di entità nelle progettazioni, in modo che una progettazione possa essere utilizzata per testare più criteri e il nome dei criteri possa essere visualizzato in modo dinamico nella progettazione. Questo mostra al visitatore che sta guardando “articoli più venduti” o “persone che hanno visto questo hanno acquistato questo.” Puoi anche utilizzare questi attributi per visualizzare `dayCount` (numero di giorni di dati utilizzati nel criterio, come &quot;articoli più venduti negli ultimi 2 giorni&quot; ecc.
+È inoltre possibile utilizzare `algorithm.name` e `algorithm.dayCount` come attributi di entità nelle progettazioni, in modo che una progettazione possa essere utilizzata per testare più criteri e il nome dei criteri possa essere visualizzato dinamicamente nella progettazione. Questo mostra al visitatore che sta guardando “articoli più venduti” o “persone che hanno visto questo hanno acquistato questo.” Puoi anche utilizzare questi attributi per visualizzare `dayCount` (numero di giorni di dati utilizzati nel criterio, come &quot;articoli più venduti negli ultimi 2 giorni&quot; ecc.
 
 ## Utilizzo dei numeri nei modelli Velocity
 
 Per impostazione predefinita, i modelli di Velocity considerano tutti gli attributi di entità come valori stringa. È possibile trattare un attributo di entità come un valore numerico per eseguire un’operazione matematica o confrontarlo con un altro valore numerico. Per trattare un attributo di entità come valore numerico, effettua le seguenti operazioni:
 
 1. Dichiara una variabile fittizia e inizializzala in un valore arbitrario intero (int) o con precisione doppia (double).
-1. Assicurati che l’attributo di entità che desideri utilizzare non sia vuoto (obbligatorio per [!DNL Target Recommendations]&#39; parser di modelli per convalidare e salvare il modello).
+1. Verificare che l&#39;attributo di entità che si desidera utilizzare non sia vuoto (necessario affinché il parser di modelli [!DNL Target Recommendations] possa convalidare e salvare il modello).
 1. Passa l’attributo dell’entità nel metodo `parseInt` o `parseDouble` della variabile fittizia creata nel passaggio 1 per trasformare la stringa in un valore intero o con precisione doppia.
 1. Esegui l’operazione matematica o il confronto sul nuovo valore numerico.
 
@@ -210,7 +210,7 @@ Il risultato è una progettazione come la seguente, dove una colonna mostra l&#3
 
 ![immagine rec_key](assets/rec_key.png)
 
-Quando si crea un’attività [!DNL Recommendations] e l’elemento chiave viene ricavato dal profilo del visitatore, ad esempio “ultimo articolo acquistato”, [!DNL Target] mostra un prodotto casuale nel [!UICONTROL Compositore esperienza visivo]. Questo perché non è disponibile un profilo mentre progetti l&#39;attività. Tuttavia, quando la pagina verrà visualizzata dai visitatori, ogni visitatore vedrà l&#39;elemento chiave previsto.
+Durante la creazione dell&#39;attività [!DNL Recommendations], se l&#39;elemento chiave viene ricavato dal profilo del visitatore, ad esempio &quot;ultimo articolo acquistato&quot;, [!DNL Target] visualizza un prodotto casuale nel [!UICONTROL Visual Experience Composer] (Compositore esperienza visivo). Questo perché non è disponibile un profilo mentre progetti l&#39;attività. Tuttavia, quando la pagina verrà visualizzata dai visitatori, ogni visitatore vedrà l&#39;elemento chiave previsto.
 
 ## Esecuzione di sostituzioni in un valore stringa {#section_01F8C993C79F42978ED00E39956FA8CA}
 
@@ -240,7 +240,7 @@ Il codice seguente è un esempio completo di prezzo di vendita:
 
 ## Personalizzazione delle dimensioni del modello e verifica della presenza di valori vuoti {#default}
 
-Utilizzando uno script Velocity per controllare il ridimensionamento dinamico della visualizzazione dell’entità, il seguente modello gestisce un risultato “da 1 a molti” per evitare che vengano creati elementi HTML vuoti qualora non vi siano sufficienti entità restituite da [!DNL Recommendations]. Questo script è adatto per gli scenari in cui non avrebbe senso utilizzare consigli di backup ed è abilitata l’opzione [!UICONTROL Rendering di modelli parziale].
+Utilizzando uno script Velocity per controllare il ridimensionamento dinamico della visualizzazione dell’entità, il seguente modello gestisce un risultato “da 1 a molti” per evitare che vengano creati elementi HTML vuoti qualora non vi siano sufficienti entità restituite da [!DNL Recommendations]. Questo script è adatto per gli scenari in cui non avrebbe senso utilizzare consigli di backup ed è abilitato [!UICONTROL Partial Template Rendering].
 
 Il seguente snippet HTML sostituisce la porzione HTML esistente nella progettazione predefinita da 4x2 (qui non è stato incluso il CSS per motivi di brevità):
 

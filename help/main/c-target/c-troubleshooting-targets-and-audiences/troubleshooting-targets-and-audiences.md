@@ -1,13 +1,13 @@
 ---
 keywords: risoluzione dei problemi;domande frequenti;FAQ;targeting;tipi di pubblico
-description: Visualizza le domande frequenti sul targeting dell’esperienza e sui tipi di pubblico utilizzati in Adobe [!DNL Target] attività.
+description: Visualizza le domande frequenti sul targeting dell'esperienza e sui tipi di pubblico utilizzati nelle attività Adobe [!DNL Target] .
 title: Dove posso trovare domande e risposte su Target e tipi di pubblico?
 feature: Audiences
 exl-id: f829bd4a-852a-4eb1-85d1-89e74c14b37e
 source-git-commit: 6df7df69e54730d4c63bd17a33c12484e2bbdc92
 workflow-type: tm+mt
-source-wordcount: '962'
-ht-degree: 63%
+source-wordcount: '955'
+ht-degree: 56%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 63%
 
 Elenco delle domande frequenti (FAQ) sul targeting delle esperienze e sui tipi di pubblico.
 
-## In che modo [!DNL Target] valutare gli URL nel targeting? {#url}
+## In che modo [!DNL Target] valuta gli URL nel targeting? {#url}
 
 Target valuta gli URL in modo diverso a seconda che si utilizzi il targeting degli URL di un pubblico durante la creazione di un’attività o che si utilizzi il targeting degli URL durante la creazione di un pubblico.
 
@@ -29,7 +29,7 @@ Per applicare il targeting degli URL del pubblico durante la creazione di un’a
 
 ![URL di consegna pagina](/help/main/c-target/c-troubleshooting-targets-and-audiences/assets/activity-url.png)
 
-Il targeting degli URL del pubblico cerca una corrispondenza URL esatta. Se l’URL corrisponde, Target non considera un’ulteriore logica. Nell’URL precedente, se l’attività è impostata su attiva `www.example.com`, l’URL corrisponde ai seguenti URL perché il targeting degli URL del pubblico è indipendente dalle query:
+Il targeting degli URL del pubblico cerca una corrispondenza URL esatta. Se l’URL corrisponde, Target non considera un’ulteriore logica. Nell&#39;URL precedente, se l&#39;attività è impostata per essere attivata il `www.example.com`, l&#39;URL corrisponde ai seguenti URL perché il targeting degli URL del pubblico è indipendente dalle query:
 
 * `www.example.com?query=something`
 * `www.example.com?query=anything`
@@ -37,11 +37,11 @@ Il targeting degli URL del pubblico cerca una corrispondenza URL esatta. Se l’
 
 Oltre al targeting di pubblico sull’URL, puoi anche specificare valori specifici che possono essere presenti nella query.
 
-Targeting degli URL del pubblico e targeting degli URL aggiunti tramite [!UICONTROL Regole modello] valuta come targeting URL (vedi targeting URL di seguito).
+Il targeting degli URL del pubblico e il targeting degli URL aggiunti tramite [!UICONTROL Template Rules] vengono valutati come targeting degli URL (vedi il targeting degli URL di seguito).
 
 ### Targeting URL {#url-targeting}
 
-Per applicare il targeting URL durante la creazione di un pubblico, fai clic su [!UICONTROL Aggiungi regola], fai clic su [!UICONTROL Pagine del sito], seleziona un&#39;opzione dal primo elenco a discesa ([!UICONTROL Pagina corrente], [!UICONTROL Pagina precedente], o [!UICONTROL Pagina di destinazione]), seleziona [!UICONTROL URL] dal secondo elenco a discesa, specifica un valutatore, quindi specifica l’URL desiderato.
+Per applicare il targeting degli URL durante la creazione di un pubblico, fare clic su [!UICONTROL Add Rule], fare clic su [!UICONTROL Site Pages], selezionare un&#39;opzione dal primo elenco a discesa ([!UICONTROL Current Page], [!UICONTROL Previous Page] o [!UICONTROL Landing Page]), selezionare [!UICONTROL URL] dal secondo elenco a discesa, specificare un valutatore, quindi specificare l&#39;URL desiderato.
 
 ![Pagine del sito > Pagina corrente > URL](/help/main/c-target/c-troubleshooting-targets-and-audiences/assets/site-url.png)
 
@@ -52,7 +52,7 @@ Il targeting degli URL trasforma l’URL in un set di regole per valutare:
 * Percorso = `path1/path2/path3`
 * Query = `queryStringParam1=test123&queryStringParam2=test7`
 
-## Quando si creano stringhe URL complesse, [!DNL Target] valutare l’intero URL?
+## Durante la creazione di stringhe URL complesse, [!DNL Target] valuta l&#39;intero URL?
 
 Se utilizzi lo stesso nome di parametro più volte in una stringa URL, HTTP considera il nome del primo parametro e ignora i parametri successivi con lo stesso nome.
 
@@ -60,13 +60,13 @@ Ad esempio, nella seguente stringa URL:
 
 `https://www.adobe.com/SearchResults.aspx?sc=BM&fi=1&fr=1&ps=0&av=0&Category=C0010438&Category=C000047`
 
-la prima istanza del `Category` viene valutato il parametro e il secondo `Category` viene ignorato.
+la prima istanza del parametro `Category` viene valutata e il secondo parametro `Category` viene ignorato.
 
 Si consiglia di associare più valori a una singola categoria, come illustrato di seguito:
 
 `https://www.adobe.com/SearchResults.aspx?sc=BM&fi=1&fr=1&ps=0&av=0&Category=C0010438,C000047`
 
-## Quando creo un pubblico, perché i tipi di pubblico predefiniti nella [!DNL Target]libreria di   si trovano in altre categorie? {#section_9EBF5B0F9DF94168A15B92B905CCF7E0}
+## Quando si creano tipi di pubblico, perché i tipi di pubblico predefiniti nella libreria [!DNL Target] si trovano in altre categorie? {#section_9EBF5B0F9DF94168A15B92B905CCF7E0}
 
 I tipi di pubblico predefiniti nella categoria Libreria di Target sono tipi di pubblico legacy e sono presenti in altre categorie. Ad esempio, per il pubblico legacy Libreria di Target > Nuovi visitatori, è presente una controparte aggiornata: Profilo visitatore > Nuovo visitatore.
 
@@ -74,17 +74,17 @@ Come best practice, utilizza i tipi di pubblico più recenti, perché offrono pr
 
 ## Come faccio a sapere come verrà suddiviso il traffico tra i tipi di pubblico? {#section_067EEFB956E7465CBF77EC86834470AB}
 
-Per impostazione predefinita, il traffico viene suddiviso in modo uniforme tra le varie esperienze. Tuttavia puoi specificare target basati su percentuali per ogni esperienza. In questo caso, viene generato un numero casuale, utilizzato per scegliere l’esperienza da visualizzare. Le percentuali risultanti potrebbero non corrispondere esattamente ai target specificati. Con l’aumentare del traffico, le esperienze risulteranno tuttavia suddivise in modo più rispondente agli obiettivi.
+Per impostazione predefinita, il traffico viene suddiviso in modo uniforme tra le varie esperienze. Tuttavia, puoi specificare i target percentuali per ogni esperienza. In questo caso, viene generato un numero casuale, utilizzato per scegliere l’esperienza da visualizzare. Le percentuali risultanti potrebbero non corrispondere esattamente ai target specificati. Con l’aumentare del traffico, le esperienze risulteranno tuttavia suddivise in modo più rispondente agli obiettivi.
 
 ## Quale esperienza viene visualizzata se un utente è idoneo per unʼattività che contiene più esperienze con più di un pubblico ideoneo? {#section_94A60B11212D48FD8AB0803C6C7E7253}
 
-Lʼutente diventa idoneo per la prima esperienza/il primo pubblico che viene visualizzato nella pagina [!UICONTROL Destinazioni] dellʼattività.
+L&#39;utente è idoneo per la prima esperienza/pubblico visualizzata sulla pagina [!UICONTROL Target] dell&#39;attività.
 
 Ad esempio, nellʼillustrazione seguente, un utente in California che utilizza un dispositivo Windows è idoneo sia per l’esperienza A (pubblico Windows) che per l’esperienza C (pubblico californiano). A questo utente verrà presentata lʼesperienza A perché è presente nellʼelenco sopra lʼesperienza C nella pagina Destinazioni.
 
 ![immagine audiences_order](assets/audiences_order.png)
 
-## Perché esistono nomi diversi per uno stesso pubblico in [!DNL Target], Adobe Audience Manager (AAM) e nella libreria Pubblico nei servizi di base? {#section_F67E61A607B6444C8DAA4F99C3E95AED}
+## Perché esistono nomi diversi per uno stesso pubblico in [!DNL Target] , Adobe Audience Manager (AAM) e nella Libreria tipi di pubblico nei servizi di base? {#section_F67E61A607B6444C8DAA4F99C3E95AED}
 
 I nomi del pubblico in [!DNL Target] sono univoci. Tuttavia, in [!DNL AAM] e [!DNL Audience Library], è possibile usare lo stesso nome per più tipi di pubblico (se si trovano in cartelle diverse). Quando [!DNL Target] rileva un nome di pubblico che corrisponde a un pubblico [!DNL AAM] o [!DNL Audience Library], [!DNL Target] aggiunge “#&lt;numero>” al nome.
 
@@ -94,15 +94,15 @@ Ad esempio, potresti vedere i seguenti tipi di pubblico: “Utenti PC” (in [!D
 
 Alcuni tipi di pubblico di Target sono predefiniti, ad esempio “Nuovi visitatori” e “Visitatori di ritorno”. Questi non possono essere rinominati dagli utenti.
 
-## Perché non tutti i parametri di profilo sono visualizzati nel [!DNL Target] interfaccia utente? {#section_3CD947D15C984EE9AD19550220E0E8BD}
+## Perché non tutti i parametri di profilo sono visualizzati nell&#39;interfaccia utente [!DNL Target]? {#section_3CD947D15C984EE9AD19550220E0E8BD}
 
-[!DNL Target] ha un limite di 50 attributi di profilo univoci per chiamata mbox. Se devi passare più di 50 attributi di profilo a [!DNL Target], puoi farlo utilizzando il metodo API [!UICONTROL Aggiornamento profilo]. Per ulteriori informazioni, vedi [Aggiornamento profilo](https://developers.adobetarget.com/api/#authentication-tokens) nella documentazione API di Adobe Target.
+[!DNL Target] ha un limite di 50 attributi di profilo univoci per chiamata mbox. Se devi passare più di 50 attributi di profilo a [!DNL Target], puoi farlo utilizzando il metodo API [!UICONTROL Profile Update]. Per ulteriori informazioni, vedi [Aggiornamento profilo](https://developers.adobetarget.com/api/#authentication-tokens) nella documentazione API di Adobe Target.
 
 ## Perché i visitatori vedono esperienze per unʼattività di personalizzazione automatizzata che non dovrebbero vedere? {#section_41CECEAE0881446A8D9F3B016857914B}
 
 Le attività di personalizzazione automatizzata vengono valutate una volta per sessione. Se c’erano delle sessioni attive idonee per una particolare esperienza e ora sono state aggiunte nuove offerte, gli utenti vedranno il nuovo contenuto insieme alle offerte precedentemente mostrate. Poiché in precedenza sono stati considerati idonei per quelle esperienze, continueranno a vederle per tutta la durata della sessione. Per eseguire la valutazione per ogni singola visita, usa il tipo di attività Targeting esperienza (XT).
 
-## Perché le modifiche apportate ai tipi di pubblico creati tramite API non vengono riportate nel [!DNL Target] UI? {#section_6BEB237CAC004A06A290F9644E5BF0FB}
+## Perché le modifiche apportate ai tipi di pubblico creati tramite API non vengono riportate nell&#39;interfaccia utente [!DNL Target]? {#section_6BEB237CAC004A06A290F9644E5BF0FB}
 
 A differenza delle offerte e degli script di profilo, le modifiche apportate da API a tipi di pubblico creati tramite Target Standard non sono attualmente sincronizzate nell&#39;interfaccia utente di Target.
 

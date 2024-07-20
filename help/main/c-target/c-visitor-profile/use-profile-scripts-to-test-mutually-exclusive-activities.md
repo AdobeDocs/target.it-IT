@@ -1,19 +1,19 @@
 ---
 keywords: script di profilo;attributi script di profilo;attività reciprocamente esclusive
-description: Scopri come utilizzare gli attributi del profilo per impostare i test in Adobe [!DNL Target] che confrontano più attività ma non consentono la partecipazione degli stessi visitatori a ciascuna attività.
+description: Scopri come utilizzare gli attributi del profilo per impostare in Adobe [!DNL Target] i test che confrontano più attività ma non consentono la partecipazione degli stessi visitatori a ciascuna attività.
 title: Posso utilizzare gli script di profilo per testare attività reciprocamente esclusive?
 feature: Audiences
 exl-id: b0b23887-3339-411e-9f5c-64f9d1ba778c
 source-git-commit: 34db233e0790f8ef04309c3f4b5acd12b7cdd5ad
 workflow-type: tm+mt
-source-wordcount: '698'
+source-wordcount: '708'
 ht-degree: 74%
 
 ---
 
 # Utilizzare gli script di profilo per testare attività reciprocamente esclusive
 
-È possibile utilizzare gli attributi del profilo in [!DNL Adobe Target] per impostare test che confrontino due o più attività senza consentire la partecipazione degli stessi visitatori a ciascuna attività.
+È possibile utilizzare gli attributi del profilo in [!DNL Adobe Target] per impostare test che confrontino due o più attività ma non consentano la partecipazione degli stessi visitatori a ciascuna attività.
 
 La verifica delle attività reciprocamente esclusive impedisce al visitatore di un’attività di influenzare i risultati del test per le altre attività. Quando un visitatore partecipa a più attività, può essere difficile determinare se l’incremento positivo o negativo deriva dall’esperienza del visitatore con una sola attività o se le interazioni tra più attività ne hanno influenzato i risultati.
 
@@ -45,7 +45,7 @@ if (!user.get('twogroups')) {
 
 * `if (ran_number <= 49)` inizia una routine che determina il gruppo a cui appartiene il visitatore. Se il numero restituito è 0-49, il visitatore viene assegnato a GroupA. Se il numero è 50-100, il visitatore viene assegnato a GroupB. Il gruppo determina l’attività che verrà visualizzata dal visitatore.
 
-Dopo aver creato l’attributo profilo, imposta la prima attività in modo che esegua il targeting della popolazione desiderata richiedendo che il parametro del profilo utente `user.twogroups` corrisponde al valore specificato per GroupA.
+Dopo aver creato l&#39;attributo profile, impostare la prima attività per eseguire il targeting della popolazione desiderata richiedendo che il parametro del profilo utente `user.twogroups` corrisponda al valore specificato per GroupA.
 
 >[!NOTE]
 >

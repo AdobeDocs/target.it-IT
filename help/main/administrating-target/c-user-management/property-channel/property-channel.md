@@ -15,35 +15,35 @@ ht-degree: 48%
 
 # Autorizzazioni per gli utenti Enterprise
 
-Le autorizzazioni per gli utenti Enterprise rappresentano un mezzo per amministrare formalmente l’accesso degli utenti a livello aziendale a [!DNL Adobe Target]. Aggiungi utenti a [!DNL Target], assegna le autorizzazioni in base ai loro ruoli e crea aree di lavoro per i team in base a reparto, posizione globale, canali e altri raggruppamenti logici. Puoi assegnare agli utenti i ruoli di [!UICONTROL Observer], [!UICONTROL Editor], [!UICONTROL Approver], o [!UICONTROL Publisher].
+Le autorizzazioni per gli utenti Enterprise rappresentano un mezzo per amministrare formalmente l&#39;accesso degli utenti a [!DNL Adobe Target] a livello aziendale. Aggiungere utenti a [!DNL Target], assegnare le autorizzazioni in base ai ruoli e creare aree di lavoro per i team in base a reparti, posizioni globali, canali e altri raggruppamenti logici. È possibile assegnare agli utenti i ruoli di [!UICONTROL Observer], [!UICONTROL Editor], [!UICONTROL Approver] o [!UICONTROL Publisher].
 
 ## Determinare se si dispone dell&#39;accesso alle autorizzazioni per gli utenti aziendali
 
 >[!NOTE]
 >
->[!UICONTROL Properties and Permissions] funzionalità è disponibile come parte del [!DNL Target] Soluzione Premium. Non sono disponibili in [!DNL Target] Standard senza una licenza [!DNL Target] Premium.
+>La funzionalità [!UICONTROL Properties and Permissions] è disponibile come parte della soluzione [!DNL Target] Premium. Non sono disponibili in [!DNL Target] Standard senza una licenza [!DNL Target] Premium.
 >
->Il tuo [!DNL Target] L&#39;implementazione può utilizzare qualsiasi versione di at.js oppure [!DNL Adobe Experience Platform Web SDK].
+>L&#39;implementazione di [!DNL Target] può utilizzare qualsiasi versione di at.js o [!DNL Adobe Experience Platform Web SDK].
 
-Per verificare se la tua organizzazione dispone di una licenza Standard o Premium, fai clic sul pulsante [!UICONTROL Administration] collegamento nella parte superiore della sezione [!DNL Target] UI.
+Per verificare se la tua organizzazione dispone di una licenza Standard o Premium, fai clic sul collegamento [!UICONTROL Administration] nella parte superiore dell&#39;interfaccia utente di [!DNL Target].
 
-* **[!DNL Target Standard]Clienti**: se trovi il [!UICONTROL Users] scheda ([!UICONTROL Administration > Users]) (e non il [!UICONTROL Properties] ), la tua organizzazione dispone di un [!DNL Target Standard] licenza. [!DNL Target Standard] I clienti devono seguire le istruzioni riportate in [Utenti](/help/main/administrating-target/c-user-management/c-user-management/user-management.md) per aggiungere utenti e assegnare autorizzazioni in [!DNL Adobe Admin Console].
+* Clienti **[!DNL Target Standard]**: se è presente la scheda [!UICONTROL Users] ([!UICONTROL Administration > Users]) (e non la scheda [!UICONTROL Properties]), la tua organizzazione dispone di una licenza [!DNL Target Standard]. I clienti [!DNL Target Standard] devono seguire le istruzioni in [Utenti](/help/main/administrating-target/c-user-management/c-user-management/user-management.md) per aggiungere utenti e assegnare autorizzazioni in [!DNL Adobe Admin Console].
 
-* **[!DNL Target Premium]Clienti**: se trovi il [!UICONTROL Properties] scheda ([!UICONTROL Administration > Properties]) e [!UICONTROL Users] , la tua organizzazione dispone di un [!DNL Target Premium] licenza. I clienti [!DNL Target Premium] devono seguire le istruzioni contenute in questo articolo e in [Configurare le autorizzazioni Enterprise](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md).
+* Clienti **[!DNL Target Premium]**: se sono presenti la scheda [!UICONTROL Properties] ([!UICONTROL Administration > Properties]) e la scheda [!UICONTROL Users], la tua organizzazione dispone di una licenza [!DNL Target Premium]. I clienti [!DNL Target Premium] devono seguire le istruzioni contenute in questo articolo e in [Configurare le autorizzazioni Enterprise](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md).
 
 ## Prima di iniziare a utilizzare le autorizzazioni Enterprise
 
 >[!IMPORTANT]
 >
->Assicurati di aver letto [Avvertenze](/help/main/administrating-target/c-user-management/property-channel/property-channel.md#section_9714311B1CD9497A86F4910F8AE635E2) prima di procedere con le autorizzazioni Enterprise.
+>Assicurati di aver letto la sezione [Avvertenze](/help/main/administrating-target/c-user-management/property-channel/property-channel.md#section_9714311B1CD9497A86F4910F8AE635E2) di seguito prima di procedere con le autorizzazioni Enterprise.
 
 ## Termini e definizioni utilizzati in questa sezione {#section_F8D229544FEA41C3BC2EFD1F95AA0116}
 
-I termini seguenti vengono utilizzati in questa sezione e potrebbero essere nuovi per gli utenti che desiderano utilizzare la funzionalità Proprietà e Autorizzazioni in [!DNL Target] Premium.
+I termini seguenti vengono utilizzati in questa sezione e potrebbero essere nuovi per gli utenti che desiderano utilizzare la funzionalità Proprietà e autorizzazioni in [!DNL Target] Premium.
 
 ### Proprietà
 
-Le proprietà sono simili per natura alle proprietà all’interno di [!DNL Adobe Experience Platform] in quanto utilizzano uno snippet di codice univoco per differenziarli.
+Le proprietà sono simili per natura alle proprietà all&#39;interno di [!DNL Adobe Experience Platform] in quanto utilizzano uno snippet di codice univoco per differenziarle.
 
 Una proprietà web è una libreria di regole e un codice incorporato. Una proprietà web può essere un raggruppamento di uno o più domini e sottodomini.
 
@@ -55,29 +55,29 @@ Le proprietà appartengono a canali specifici (web, mobile, email o API/altro).
 
 Un’area di lavoro consente a un’azienda di assegnare un gruppo specifico di utenti a un insieme specifico di proprietà. Un’area di lavoro è simile per vari aspetti a una suite di rapporti di [!DNL Adobe Analytics].
 
-Nota: le aree di lavoro sono note come [!UICONTROL Product Profiles] nel [!DNL Adobe Admin Console for Enterprise].
+Nota: le aree di lavoro sono note come [!UICONTROL Product Profiles] in [!DNL Adobe Admin Console for Enterprise].
 
 Se fai parte di un’azienda multinazionale, potresti avere un’area di lavoro per le pagine web, le proprietà o i siti europei e un’altra per le pagine web, le proprietà o i siti americani. Se fai parte di un’azienda multi-brand, potresti avere un’area di lavoro diversa per ciascuno dei marchi.
 
 Gli utenti possono fare parte di più aree di lavoro e possono anche avere ruoli diversi all’interno di ogni area di lavoro.
 
-Gli utenti possono avere diverse visualizzazioni di [!DNL Adobe Target] spostandosi tra le aree di lavoro, in modo simile a come [!DNL Analytics] gli utenti hanno visualizzazioni diverse di [!DNL Analytics] spostandosi tra le diverse suite di rapporti.
+Gli utenti possono avere visualizzazioni diverse di [!DNL Adobe Target] spostandosi tra le aree di lavoro, in modo analogo a come [!DNL Analytics] utenti hanno visualizzazioni diverse di [!DNL Analytics] spostandosi tra le suite di rapporti.
 
 Le aree di lavoro possono includere tipi di pubblico, offerte di codice e attività completamente diversi.
 
-Tutti i tipi di pubblico e le attività creati prima della migrazione del nuovo modello di autorizzazioni Enterprise sono raggruppati nell’&quot;Area di lavoro predefinita&quot;, discussa di seguito.
+Tutti i tipi di pubblico e le attività creati prima della migrazione del nuovo modello di autorizzazioni Enterprise sono raggruppati nel &quot;Workspace predefinito&quot; discusso di seguito.
 
-Tutte le attività create tramite [!DNL Adobe Experience Manager] (AEM) [!DNL Adobe Mobile Services], e [!DNL Adobe Target Classic] fanno parte di &quot;Default Workspace&quot; (Area di lavoro predefinita).
+Tutte le attività create tramite [!DNL Adobe Experience Manager] (AEM), [!DNL Adobe Mobile Services] e [!DNL Adobe Target Classic] fanno parte del &quot;Workspace predefinito&quot;.
 
 ### Area di lavoro predefinita
 
-Tutte le aree di lavoro esistenti (profili prodotto) in [!DNL Admin Console] vengono uniti in un’unica area di lavoro denominata &quot;Area di lavoro predefinita&quot; durante la migrazione dell’organizzazione al nuovo modello di autorizzazioni Enterprise.
+Tutte le aree di lavoro esistenti (profili prodotto) in [!DNL Admin Console] vengono unite in un&#39;unica area di lavoro denominata &quot;Default Workspace&quot; durante la migrazione dell&#39;organizzazione al nuovo modello di autorizzazioni Enterprise.
 
 >[!IMPORTANT]
 >
 >Non eliminare l’area di lavoro predefinita.
 
-Tutti i ruoli utente e accesso a tutti [!DNL Target] Le funzionalità rimanevano invariate rispetto al periodo precedente la migrazione al nuovo modello di autorizzazioni Enterprise.
+Tutti i ruoli utente e l&#39;accesso a tutte le funzionalità di [!DNL Target] rimangono invariati rispetto a prima della migrazione al nuovo modello di autorizzazioni Enterprise.
 
 ### Gruppi di utenti
 
@@ -85,34 +85,34 @@ Puoi creare gruppi di utenti, ad esempio sviluppatori, analisti, addetti al mark
 
 ### Ruoli e autorizzazioni {#roles-permissions}
 
-I ruoli e le autorizzazioni determinano i livelli di accesso che gli utenti devono creare e gestire le attività nel [!DNL Target] implementazione. In entrata [!DNL Target], i ruoli includono quanto segue:
+I ruoli e le autorizzazioni determinano i livelli di accesso che gli utenti devono creare e gestire le attività nell&#39;implementazione di [!DNL Target]. In [!DNL Target] i ruoli includono:
 
 | Ruolo | Descrizione |
 |--- |--- |
 | [!UICONTROL Approver] | Può creare, modificare, attivare o interrompere le attività. |
 | [!UICONTROL Editor] | Può creare e modificare le attività prima che siano in diretta, ma non può approvare l’avvio di un’attività. |
 | [!UICONTROL Observer] | Può visualizzare le attività, ma non può crearle o modificarle. |
-| [!UICONTROL Publisher] | Simile a [!UICONTROL Observer] ruolo (può visualizzare le attività, ma non può crearle o modificarle). Tuttavia, il [!UICONTROL Publisher] Il ruolo dispone dell&#39;autorizzazione aggiuntiva per attivare le attività. |
+| [!UICONTROL Publisher] | Simile al ruolo [!UICONTROL Observer] (può visualizzare le attività, ma non può crearle o modificarle). Tuttavia, il ruolo [!UICONTROL Publisher] dispone dell&#39;autorizzazione aggiuntiva per attivare le attività. |
 
 ### Canale
 
-Il canale si riferisce al tipo di contenuto in cui il [!DNL Target] Le attività vengono distribuite: pagine Web, app mobili, messaggi e-mail e così via.
+Il canale si riferisce al tipo di contenuto in cui vengono consegnate le attività [!DNL Target]: pagine Web, app mobili, messaggi e-mail e così via.
 
 Quando crei un’attività, questa viene creata nell’area di lavoro attualmente selezionata. Nella prima finestra di dialogo sono visualizzate le opzioni di selezione del canale che consentono di scegliere il canale desiderato per l’attività: Web, App mobile, E-mail o Altro/API.
 
 ## Panoramica sulle autorizzazioni {#section_DC2172520DA84605B218A5E9FB6D187A}
 
-Le informazioni seguenti spiegano il modo in cui le autorizzazioni sono state applicate in precedenza in [!DNL Target] e come vengono applicati utilizzando [!UICONTROL Properties] e [!UICONTROL Permissions] funzionalità.
+Le informazioni seguenti spiegano il modo in cui le autorizzazioni sono state applicate in precedenza in [!DNL Target] e come vengono applicate utilizzando le funzionalità [!UICONTROL Properties] e [!UICONTROL Permissions].
 
-Il nuovo [!UICONTROL Permissions] Questa funzionalità consente di creare progetti diversi (denominati &quot;profili di prodotto&quot; nel [!DNL Adobe Admin Console for Enterprise]). I progetti ti consentono di assegnare a un singolo utente diverse autorizzazioni che ne determinano i diritti di accesso per ciascun progetto. Questi progetti distinti possono essere paragonati al modo in cui le suite di rapporti funzionano in [!DNL Adobe Analytics]. In ogni progetto possono essere inclusi utenti specifici con ruoli specifici applicabili a un insieme di proprietà. Di conseguenza, i clienti possono limitare l’accesso alla visualizzazione, alla modifica e all’approvazione ai propri utenti in base all’area geografica, all’ambiente (dev/stage/prod), al canale o ad altri criteri personalizzati, come illustrato di seguito:
+La nuova funzionalità [!UICONTROL Permissions] consente di creare progetti diversi (denominati &quot;profili prodotto&quot; in [!DNL Adobe Admin Console for Enterprise]). I progetti ti consentono di assegnare a un singolo utente diverse autorizzazioni che ne determinano i diritti di accesso per ciascun progetto. Questi progetti distinti possono essere paragonati al modo in cui le suite di rapporti funzionano in [!DNL Adobe Analytics]. In ogni progetto possono essere inclusi utenti specifici con ruoli specifici applicabili a un insieme di proprietà. Di conseguenza, i clienti possono limitare l’accesso alla visualizzazione, alla modifica e all’approvazione ai propri utenti in base all’area geografica, all’ambiente (dev/stage/prod), al canale o ad altri criteri personalizzati, come illustrato di seguito:
 
 ![immagine autorizzazioni](assets/permissions.png)
 
 Ad esempio, un utente specifico potrebbe avere accesso “approvato” ai siti Web americani, ma solo un accesso di “visualizzazione” sull&#39;applicazione mobile europea. Lo stesso utente potrebbe non avere alcun accesso neppure per visualizzare le attività offerte sulle proprietà Web e mobile nella regione APAC.
 
-Il [!DNL Target] [!UICONTROL Permissions] Il modello dispone dei seguenti ruoli di autorizzazione (osservatore, editor, approvatore e osservatore). Il ruolo Osservatore non viene mostrato nelle illustrazioni di questo articolo.
+Il modello [!DNL Target] [!UICONTROL Permissions] dispone dei seguenti ruoli di autorizzazione (osservatore, editor, approvatore e osservatore). Il ruolo Osservatore non viene mostrato nelle illustrazioni di questo articolo.
 
-![immagine permissions_1](assets/permissions_1.png)
+![autorizzazioni_1 immagine](assets/permissions_1.png)
 
 Ogni ruolo dispone di diversi livelli di autorizzazioni:
 
@@ -125,17 +125,17 @@ Ogni ruolo dispone di diversi livelli di autorizzazioni:
 
 È importante notare che il ruolo di ogni utente si applica a ogni pagina, proprietà o sito dell&#39;account che include i tag di [!DNL Target], come illustrato di seguito:
 
-![immagine permissions_2](assets/permissions_2.png)
+![autorizzazioni_2 immagine](assets/permissions_2.png)
 
-Il nuovo [!DNL Target] [!UICONTROL Permissions] Il modello dispone degli stessi tre ruoli di autorizzazione (osservatore, editor e approvatore); è tuttavia possibile assegnare separatamente i ruoli delle autorizzazioni di un utente per singole pagine, proprietà o siti, come illustrato di seguito:
+Il nuovo modello [!DNL Target] [!UICONTROL Permissions] dispone degli stessi tre ruoli di autorizzazione (osservatore, editor e approvatore). È tuttavia possibile assegnare separatamente i ruoli delle autorizzazioni di un utente per singole pagine, proprietà o siti, come illustrato di seguito:
 
-![immagine permissions_3](assets/permissions_3.png)
+![autorizzazioni_3 immagine](assets/permissions_3.png)
 
 In questo esempio, Jan dispone delle autorizzazioni da approvatore per la Homepage e il sito internet degli Stati Uniti e le autorizzazioni da osservatore per il sito francese.
 
-Inoltre, Jan non può visualizzare pagine, proprietà o siti in [!DNL Target] che non è autorizzata a visualizzare, come illustrato di seguito:
+Inoltre Jan non può visualizzare pagine, proprietà o siti di [!DNL Target] per i quali non dispone dell&#39;autorizzazione di visualizzazione, come illustrato di seguito:
 
-![immagine permissions_4](assets/permissions_4.png)
+![autorizzazioni_4 immagine](assets/permissions_4.png)
 
 In questo esempio Jan non può visualizzare le pagine dei prodotti, il sito russo e il sito carriere.
 
@@ -189,34 +189,34 @@ Dopo una riorganizzazione, utilizzando gli utenti tipo nelle illustrazioni di cu
 
 La nuova funzionalità delle autorizzazioni può essere vista in varie posizioni nell&#39;interfaccia utente di [!DNL Target].
 
-* **Elenco a discesa Area di lavoro (profilo prodotto):** L’elenco a discesa Workspace viene visualizzato nella parte superiore della sezione [!UICONTROL Activities], [!UICONTROL Audiences], e [!UICONTROL Offers] pagine. Seleziona l&#39;area di lavoro desiderata per filtrare l&#39;elenco e visualizzare solo gli elementi nell&#39;area di lavoro selezionata.
+* **Elenco a discesa Workspace (profilo prodotto):** L&#39;elenco a discesa Workspace viene visualizzato nella parte superiore delle pagine [!UICONTROL Activities], [!UICONTROL Audiences] e [!UICONTROL Offers]. Seleziona l&#39;area di lavoro desiderata per filtrare l&#39;elenco e visualizzare solo gli elementi nell&#39;area di lavoro selezionata.
 
-  ![immagine a discesa workspace](assets/workspace_drop-down.png)
+  ![immagine dell&#39;area di lavoro](assets/workspace_drop-down.png)
 
-* **Creazione attività:** Quando crei un’attività, questa viene creata nell’area di lavoro attualmente selezionata. Nella prima finestra di dialogo sono visualizzate le opzioni di selezione del canale che consentono di scegliere il canale desiderato per l’attività: Web, App mobile, E-mail o Altro/API.
+* **Creazione attività:** Quando si crea un&#39;attività, questa viene creata nell&#39;area di lavoro attualmente selezionata. Nella prima finestra di dialogo sono visualizzate le opzioni di selezione del canale che consentono di scegliere il canale desiderato per l’attività: Web, App mobile, E-mail o Altro/API.
 
   ![immagine channel_options](assets/channel_options.png)
 
-* **Creazione di pubblico:** Quando crei un pubblico, questo viene creato nell’area di lavoro attualmente selezionata.
-* **Elenco pubblico:** È possibile spostare i tipi di pubblico tra aree di lavoro utilizzando [!UICONTROL More Actions] > [!DNL Move] opzione sul [!UICONTROL Audiences] pagina.
-* **Creazione di offerte:** Quando crei un’offerta, questa viene creata nell’area di lavoro attualmente selezionata.
-* **Pagina Proprietà (Amministrazione > Proprietà):** È possibile utilizzare [!UICONTROL Search] casella per eseguire la ricerca [!UICONTROL Property] elenco.
+* **Creazione pubblico:** Quando si crea un pubblico, questo viene creato nell&#39;area di lavoro attualmente selezionata.
+* **Elenco tipi di pubblico:** È possibile spostare i tipi di pubblico tra aree di lavoro utilizzando l&#39;opzione [!UICONTROL More Actions] > [!DNL Move] nella pagina [!UICONTROL Audiences].
+* **Creazione offerta:** Quando si crea un&#39;offerta, questa viene creata nell&#39;area di lavoro attualmente selezionata.
+* **Pagina delle proprietà (Amministrazione > Proprietà):** È possibile utilizzare la casella [!UICONTROL Search] per eseguire ricerche nell&#39;elenco [!UICONTROL Property].
 
-  ![immagine properties_list](assets/properties_list.png)
+  ![immagine elenco proprietà](assets/properties_list.png)
 
 ## Avvertenze {#section_9714311B1CD9497A86F4910F8AE635E2}
 
-Quando utilizzi o configuri proprietà e autorizzazioni in, tieni presente quanto segue: [!DNL Target] Premium:
+Quando si utilizzano o si configurano proprietà e autorizzazioni in [!DNL Target] Premium, tenere presente quanto segue:
 
 * **Importante**: non eliminare le aree di lavoro con le attività. Se elimini un’area di lavoro con attività, contatta l’Assistenza clienti per ripristinarle.
 * Quando usi la vista Tutte le aree di lavoro:
 
    * Puoi visualizzare le attività, i destinatari e le offerte per tutti gli spazi di lavoro e le autorizzazioni per accedere.
-   * Quando selezioni il [!UICONTROL All My Workspaces] viene aggiunta una nuova colonna alla pagina Attività, Tipi di pubblico e Offerte. In questa colonna sono elencate l&#39;area di lavoro e l&#39;autorizzazione utente associate all&#39;elemento (osservatore, editor o approvatore).
+   * Quando si seleziona la visualizzazione [!UICONTROL All My Workspaces], viene aggiunta una nuova colonna alla pagina Attività, Tipi di pubblico e Offerte. In questa colonna sono elencate l&#39;area di lavoro e l&#39;autorizzazione utente associate all&#39;elemento (osservatore, editor o approvatore).
    * Quando crei un&#39;attività, un pubblico o un&#39;offerta nella vista Tutte le aree di lavoro, devi selezionare l&#39;area di lavoro in cui deve essere creato l&#39;elemento. Possono essere selezionate solamente le aree di lavoro per cui si possiedono le autorizzazioni dell&#39;editor o dell&#39;approvatore.
    * Quando copi un&#39;attività, un pubblico o un&#39;offerta nella vista Tutte le aree di lavoro, devi selezionare l&#39;area di lavoro in cui copiare l&#39;elemento. Possono essere selezionate solamente le aree di lavoro per cui si possiedono le autorizzazioni dell&#39;editor o dell&#39;approvatore.
 
-* Qualsiasi impostazione sui seguenti [!UICONTROL Administration] Le pagine possono essere controllate da qualsiasi [!UICONTROL Approver] in qualsiasi area di lavoro:
+* Qualsiasi impostazione nelle pagine [!UICONTROL Administration] seguenti può essere controllata da qualsiasi [!UICONTROL Approver] in qualsiasi area di lavoro:
 
    * Compositore esperienza visivo
    * Generazione di rapporti
@@ -232,8 +232,8 @@ Quando utilizzi o configuri proprietà e autorizzazioni in, tieni presente quant
 * Quando si visualizzano i tipi di pubblico dalla pagina [!DNL Audiences], questa viene caricata più lentamente del previsto. Se interagite in qualsiasi modo con la barra di ricerca, la pagina dei tipi di pubblico si visualizzerà più velocemente. Questo problema è noto e verrà risolto in un prossimo aggiornamento. Questo problema non influisce sulla selezione dei destinatari durante il flusso di lavoro della creazione di attività.
 * Le risorse seguenti fanno parte del nuovo modello di autorizzazioni Enterprise:
 
-   * Attività, tipi di pubblico e offerta di codice creati in [!DNL Target Standard/Premium] sono disponibili per l’uso dopo che il cliente è stato abilitato per le autorizzazioni. (Nota: i clienti devono avere il diritto di [!DNL Target Premium].)
-   * È possibile aggiungere proprietà alle attività esistenti nell’area di lavoro predefinita; tuttavia, questo approccio è soggetto a modifiche.
+   * Attività, tipi di pubblico e offerte di codice creati in [!DNL Target Standard/Premium] sono disponibili per l&#39;utilizzo dopo l&#39;abilitazione del cliente per le autorizzazioni. (Nota: i clienti devono avere diritto a [!DNL Target Premium].)
+   * Le proprietà possono essere aggiunte alle attività esistenti nel Workspace predefinito; tuttavia, questo approccio è soggetto a modifiche.
    * Solo le nuove risorse (come attività, offerte di codice e tipi di pubblico) create all&#39;interno di Target Premium (dopo l&#39;abilitazione delle autorizzazioni Enterprise) sono disponibili per limitare le autorizzazioni.
    * Le risorse esterne sono disponibili solo per gli utenti nell&#39;area di lavoro predefinita. Il ruolo di un utente nell&#39;area di lavoro predefinita si applica globalmente (a tutte le richieste Target e a tutte le risorse Target).
 
@@ -242,11 +242,11 @@ Quando utilizzi o configuri proprietà e autorizzazioni in, tieni presente quant
    * Offerte immagine
    * Tutte le risorse di Recommendations, inclusi Libreria criteri, Libreria progettazioni, Catalogo, Configurazione Recommendations.
    * Le risorse esistenti (ad esempio attività, offerte di codice e tipi di pubblico) create in Target Premium prima di abilitare le autorizzazioni Enterprise possono essere copiate ma non possono essere spostate in altre aree di lavoro.
-   * Le attività, i tipi di pubblico, le offerte basate su codice, le offerte immagini o qualsiasi altra risorsa creata utilizzando le soluzioni o i metodi seguenti non possono essere controllate dal modello di autorizzazioni Enterprise, ma fanno parte dell’Area di lavoro predefinita: Target Classic, Adobe Experience Manager (AEM), Adobe Mobile Services e le risorse create tramite API. Le risorse create tramite API includono le attività, i tipi di pubblico, le offerte basate su codice e le offerte di immagini.
-   * Offerte di immagini (risorse memorizzate in `https://[tenantName].marketing.adobe.com/content/mac/[tenantName]/target/offers.html#image-library` non può essere attualmente controllato dal modello di autorizzazioni Enterprise.
-   * clickTracking e reindirizzamenti funzionano quando il collegamento di destinazione o la pagina di destinazione fanno parte di una proprietà inclusa nell’attività. Inoltre, clickTracking potrebbe non funzionare quando si utilizza `targetPageParams()` funzione. La funzione suggerita è `targetPageParamsAll()`.
+   * Le attività, i tipi di pubblico, le offerte basate su codice, le offerte immagini o qualsiasi altra risorsa creata utilizzando le soluzioni o i metodi seguenti non possono essere controllate dal modello di autorizzazioni Enterprise, ma fanno parte di Workspace predefinito: Target Classic, Adobe Experience Manager (AEM), Adobe Mobile Services e le risorse create tramite API. Le risorse create tramite API includono le attività, i tipi di pubblico, le offerte basate su codice e le offerte di immagini.
+   * Le offerte di immagini (le risorse archiviate in `https://[tenantName].marketing.adobe.com/content/mac/[tenantName]/target/offers.html#image-library` non possono essere attualmente controllate dal modello di autorizzazioni Enterprise.
+   * clickTracking e reindirizzamenti funzionano quando il collegamento di destinazione o la pagina di destinazione fanno parte di una proprietà inclusa nell’attività. Inoltre, clickTracking potrebbe non funzionare quando si utilizza la funzione `targetPageParams()`. La funzione suggerita è `targetPageParamsAll()`.
 
-  [!DNL Target] attualmente richiede un `at_property` deve essere presente in qualsiasi pagina in cui si verifica il tracciamento. Se il token è (1) non presente, (2) non rilevato al momento della configurazione dell’attività (all’interno del Compositore esperienza visivo), o (3) non passato alla chiamata di destinazione clickTracking tramite il `targetPageParamsAll()` , la metrica non viene incrementata e viene visualizzata come &quot;0&quot;.
+  [!DNL Target] attualmente richiede un token `at_property` per essere presente in qualsiasi pagina in cui si verifica il tracciamento. Se il token è (1) non presente, (2) non rilevato al momento della configurazione dell’attività (all’interno del Compositore esperienza visivo), o (3) non passato alla chiamata di destinazione clickTracking tramite la funzione `targetPageParamsAll()`, la metrica non viene incrementata e viene visualizzata come &quot;0&quot;.
 
   Lo stesso vale per le attività che utilizzano i reindirizzamenti. La pagina di destinazione deve avere un token `at_property` ed essere riconosciuta al momento della configurazione all&#39;interno di Compositore esperienza visivo.
 
@@ -260,7 +260,7 @@ Le domande frequenti sulle autorizzazioni Enterprise includono:
 
 ### Cosa succede se un utente dispone di più ruoli e autorizzazioni? {#multiple-roles}
 
-Se un utente dispone di più ruoli e autorizzazioni, viene applicato il ruolo con le autorizzazioni dell’utente che assume. Ad esempio, se un utente ha [!UICONTROL Observer] e [!UICONTROL Approver] ruoli, il [!UICONTROL Approver] ruolo applicato.
+Se un utente dispone di più ruoli e autorizzazioni, viene applicato il ruolo con le autorizzazioni dell’utente che assume. Ad esempio, se un utente ha [!UICONTROL Observer] e [!UICONTROL Approver] ruoli, viene applicato il ruolo [!UICONTROL Approver].
 
 ### Posso spostare un&#39;attività da un&#39;area di lavoro a un&#39;altra?
 
@@ -270,15 +270,15 @@ Le attività create prima della migrazione continuano a essere eseguite nello st
 
 ### È possibile spostare un pubblico da un’area di lavoro a un’altra? {#move-audience}
 
-Sì, puoi spostare i tipi di pubblico tra aree di lavoro utilizzando [!UICONTROL More Actions] opzione sul [!UICONTROL Audiences] pagina.
+Sì, è possibile spostare i tipi di pubblico tra aree di lavoro utilizzando l&#39;opzione [!UICONTROL More Actions] nella pagina [!UICONTROL Audiences].
 
-1. Fai clic su **[!UICONTROL More Actions]** (i tre puntini di sospensione), quindi fare clic su **[!UICONTROL Move]**.
+1. Fare clic sul pulsante **[!UICONTROL More Actions]** (i tre puntini di sospensione), quindi fare clic su **[!UICONTROL Move]**.
 
    ![Altre azioni > Sposta](/help/main/administrating-target/c-user-management/property-channel/assets/move-audience.png)
 
-1. Seleziona l’area di lavoro desiderata da **[!UICONTROL Workspace]** , quindi fai clic su **[!UICONTROL Move]**.
+1. Selezionare l&#39;area di lavoro desiderata dall&#39;elenco a discesa **[!UICONTROL Workspace]**, quindi fare clic su **[!UICONTROL Move]**.
 
-   ![Seleziona il pubblico desiderato per passare alla nuova area di lavoro](/help/main/administrating-target/c-user-management/property-channel/assets/workspace-move.png)
+   ![Selezionare il pubblico desiderato per passare alla nuova area di lavoro](/help/main/administrating-target/c-user-management/property-channel/assets/workspace-move.png)
 
 >[!NOTE]
 >
@@ -286,7 +286,7 @@ Sì, puoi spostare i tipi di pubblico tra aree di lavoro utilizzando [!UICONTROL
 
 ### Perché viene visualizzato un messaggio di errore a indicare che nessuna proprietà è associata a questa attività, anche se è stata assegnata una proprietà?
 
-Se hai implementato [!DNL Target] con tag in [!DNL Adobe Experience Platform] e riceve un messaggio di errore che indica che non è associata alcuna proprietà all’attività, passa il comando `at_property` parametro con `targetPageParams` funzione.
+Se si implementa [!DNL Target] con i tag in [!DNL Adobe Experience Platform] e si riceve un messaggio di errore che indica che non vi è alcuna proprietà associata all&#39;attività, passare il parametro `at_property` con la funzione `targetPageParams`.
 
 ### Se una pagina reindirizzata e l’URL attività appartengono a proprietà diverse, vengono registrate le conversioni con tracciamento dei clic?
 
@@ -306,7 +306,7 @@ Se la pagina di reindirizzamento e l’URL attività appartengono alla stessa pr
 
 I video seguenti contengono ulteriori informazioni sui concetti descritti in questo articolo.
 
-### Video di formazione: Video sulla formazione sulle autorizzazioni Enterprise ![Badge panoramica](/help/main/assets/overview.png)
+### Video di formazione: Video di formazione sulle autorizzazioni Enterprise ![Icona panoramica](/help/main/assets/overview.png)
 
 Finalità di apprendimento:
 
@@ -316,7 +316,7 @@ Finalità di apprendimento:
 
 >[!VIDEO](https://video.tv.adobe.com/v/19042/)
 
-### Orario ufficio: [!DNL Target] Aree di lavoro Premium
+### Orario ufficio: [!DNL Target] aree di lavoro Premium
 
 Questo video è una registrazione di “Office Hours”, un’iniziativa condotta dal team di assistenza clienti di Adobe.
 
@@ -327,6 +327,6 @@ Questo video è una registrazione di “Office Hours”, un’iniziativa condott
 
 >[!NOTE]
 >
->Il [!DNL Target] [!UICONTROL Administration] interfaccia utente del menu (in precedenza [!UICONTROL Setup]) è stato riprogettato per fornire prestazioni migliori, ridurre il tempo di manutenzione necessario durante il rilascio di nuove funzioni e migliorare l&#39;esperienza utente nel prodotto. Le informazioni contenute nel video seguente sono corrette; tuttavia, le opzioni potrebbero trovarsi in posizioni leggermente diverse.
+>L&#39;interfaccia utente del menu [!DNL Target] [!UICONTROL Administration] (in precedenza [!UICONTROL Setup]) è stata riprogettata per fornire prestazioni migliori, ridurre il tempo di manutenzione necessario per il rilascio di nuove funzionalità e migliorare l&#39;esperienza utente nel prodotto. Le informazioni contenute nel video seguente sono corrette; tuttavia, le opzioni potrebbero trovarsi in posizioni leggermente diverse.
 
 >[!VIDEO](https://video.tv.adobe.com/v/23643/)

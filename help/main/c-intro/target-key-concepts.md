@@ -6,8 +6,8 @@ feature: Overview
 exl-id: c9555d79-d505-41ff-ba4b-ab94793f9efa
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
 workflow-type: tm+mt
-source-wordcount: '1527'
-ht-degree: 100%
+source-wordcount: '1523'
+ht-degree: 97%
 
 ---
 
@@ -55,7 +55,7 @@ Le posizioni vengono combinate con i tipi di pubblico per fornire un numero prat
 
 Un’esperienza, a volte detta “ricetta”, definisce il contenuto visualizzato sulla pagina e altri elementi della pagina stessa, ad esempio i collegamenti.
 
-Un’esperienza determina quale offerta visualizzare in una determinata posizione quando sono soddisfatte specifiche condizioni di targeting. Ad esempio, per i visitatori che ritornano al sito, l’esperienza fa sì che nella parte superiore della pagina venga presentata un’offerta di spedizione rapida. Se invece si tratta della prima visita di un visitatore, l’esperienza fa sì che nella stessa posizione venga presentato uno sconto del 10%.
+Un’esperienza determina quale offerta viene visualizzata in una determinata posizione quando vengono soddisfatte specifiche condizioni di targeting. Ad esempio, per i visitatori che ritornano al sito, l’esperienza fa sì che nella parte superiore della pagina venga presentata un’offerta di spedizione rapida. Se invece si tratta della prima visita di un visitatore, l’esperienza fa sì che nella stessa posizione venga presentato uno sconto del 10%.
 
 Un’esperienza è costituita da offerte, risorse immagine o altri elementi HTML (come i collegamenti) che vengono visualizzati sulla pagina allo scopo di dirigere il visitatore verso il risultato desiderato. [!DNL Target] combina posizioni, offerte ed esperienze per determinare quali contenuti visualizzare sul sito durante uno specifico test.
 
@@ -79,7 +79,7 @@ Un’offerta può contenere diversi tipi di contenuto, inclusi:
 
 Ad esempio, una pagina web può visualizzare una tra due offerte, sulla base di un’eventuale precedente visita sul tuo sito da parte del visitatore.
 
-Un’*esperienza* determina il contenuto visualizzato quando si verificano determinate condizioni.
+Una *esperienza* determina quale contenuto visualizzare quando vengono soddisfatte determinate condizioni.
 
 ## Tipi di pubblico {#section_3F32DA46BDF947878DD79DBB97040D01}
 
@@ -107,7 +107,7 @@ Per informazioni su come il profilo visitatore tiene traccia delle informazioni 
 
 I video seguenti contengono ulteriori informazioni sui concetti descritti in questo articolo.
 
-### Tipi di attività (9:03) ![Icona Panoramica](/help/main/assets/overview.png)
+### Tipi di attività (9:03) ![Icona panoramica](/help/main/assets/overview.png)
 
 Questo video spiega i tipi di attività disponibili in [!DNL Target Standard/Premium].
 

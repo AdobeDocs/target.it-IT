@@ -6,8 +6,8 @@ feature: Overview
 exl-id: 75e29d2a-78e7-40aa-b134-36a7cc8b3ed8
 source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
 workflow-type: tm+mt
-source-wordcount: '2750'
-ht-degree: 98%
+source-wordcount: '2721'
+ht-degree: 94%
 
 ---
 
@@ -33,7 +33,7 @@ Visita il [forum Target Community](/help/main/cmp-resources-and-contact-informat
 
 **Quali browser supporta Target?**
 
-Per maggiori dettagli, consulta la nostra griglia dei [browser supportati](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html). {target=_blank} Si noti che sono disponibili due funzioni: il supporto dell&#39;interfaccia Experience Cloud di Target Standard/Premium e il supporto del browser per gli utenti finali su desktop/dispositivi.
+Per ulteriori dettagli, consulta la nostra matrice [Browser supportati](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html){target=_blank}. Si noti che sono disponibili due funzioni: il supporto dell&#39;interfaccia Experience Cloud di Target Standard/Premium e il supporto del browser per gli utenti finali su desktop/dispositivi.
 
 ## Attività {#section_CB95B3BF9934445DB98E8A7E22FC2CF6}
 
@@ -105,7 +105,7 @@ Puoi farlo semplicemente [inserendo direttamente il passo desiderato dalla pagin
 
 **Posso rimanere in un particolare passaggio, continuare a modificare l&#39;attività (offerta di testo o codice personalizzato, per esempio), e quindi eseguire il QA in un&#39;altra scheda?**
 
-Anche questo è possibile. Utilizza semplicemente [l&#39;opzione Salva disponibile per apportare modifiche incrementali senza uscire dal passaggio](/help/main/c-activities/edit-activity.md#concept_BB064C0D4A194BD1A1AE7CCA1E6BB8F0).
+Anche questo è possibile. È sufficiente [utilizzare l&#39;opzione Salva disponibile per apportare modifiche incrementali senza uscire dal passaggio](/help/main/c-activities/edit-activity.md#concept_BB064C0D4A194BD1A1AE7CCA1E6BB8F0).
 
 **Come posso visualizzare in anteprima ed effettuare il QA di un&#39;attività appena creata?**
 
@@ -168,7 +168,7 @@ Consulta [Regole modello](/help/main/c-experiences/c-visual-experience-composer/
 
 Questo perché il tuo sito ha contenuti misti, è un sito che recupera sia risorse HTTP che HTTPS. Richiedi che il tuo team IT si muova completamente su HTTPS.
 
-In questo caso, segui le istruzioni [Consentire contenuti misti nel browser](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/mixed-content.md#concept_46D022D50280468C9EF6D5DF6EFC911C) per consentire al browser di caricare contenuti misti. Questa è una caratteristica di sicurezza della maggior parte dei browser moderni.
+In questo caso, seguire le istruzioni riportate in [Abilitazione dei contenuti misti nel browser](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/mixed-content.md#concept_46D022D50280468C9EF6D5DF6EFC911C) per consentire al browser di caricare contenuti misti. Questa è una caratteristica di sicurezza della maggior parte dei browser moderni.
 
 **Posso provare il Compositore esperienza visivo sul mio sito anche se la libreria at.js di Target non è ancora stata distribuita?**
 
@@ -180,7 +180,7 @@ Prova le informazioni sulla [risoluzione dei problemi](/help/main/c-experiences/
 
 È anche disponibile un [approccio basato su modulo](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) che può essere d’aiuto.
 
-Leggi inoltre le informazioni su quando e perché il [Compositore esperienza avanzato](/help/main/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) può essere utile. Potrebbe essere necessario contattare il reparto IT per inserire i [anche i proxy server di Adobe nell&#39;elenco Consentiti](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#concept_E284B3F704C04406B174D9050A2528A6).
+Leggi inoltre le informazioni su quando e perché il [Compositore esperienza avanzato](/help/main/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) può essere utile. Potrebbe essere necessario contattare il reparto IT per [inserire nell&#39;elenco Consentiti anche i server proxy di Adobe](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#concept_E284B3F704C04406B174D9050A2528A6).
 
 **Ho un sito reattivo. Durante la creazione di un&#39;attività, come posso essere sicuro che sto prendendo in considerazione i dispositivi chiave?**
 
@@ -218,7 +218,7 @@ Utilizza le funzioni Componi e Sfoglia per passare alla pagina scelta e iniziare
 
 Fai clic sulla miniatura di fronte al nome dell’esperienza al passaggio 2 e si aprirà l&#39;esperienza scelta.
 
-![immagine miniatura_esperienze](assets/thumbnail_experiences.png)
+![immagine miniature](assets/thumbnail_experiences.png)
 
 **Sono un ex utente di Target Classic. Posso sfruttare le mie mbox per alcuni casi di utilizzo?**
 
@@ -283,11 +283,11 @@ Usa le opzioni [Esporta rapporti in formato CSV e Scarica i dettagli dell’ordi
 
 **Posso cambiare l’esperienza di controllo per valutare i rapporti o cambiare la metodologia di conteggio da visitatori a visite?**
 
-Per apportare queste modifiche utilizza le [Impostazioni nella pagina Rapporti](/help/main/c-reports/c-report-settings/report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA). Scopri di più su queste impostazioni per capire come variano i calcoli.
+Apporta queste modifiche utilizzando l&#39;ingranaggio delle [impostazioni nella pagina dei report](/help/main/c-reports/c-report-settings/report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA). Scopri di più su queste impostazioni per capire come variano i calcoli.
 
 **Come devo interpretare i rapporti?**
 
-Abbiamo cercato di rendere i rapporti più intuitivi possibile con caratteristiche come [barre di intervallo di affidabilità, limiti di incremento, significatività/affidabilità e selezioni di più metriche, visualizzazioni a tabella e grafico, medie correnti e altro ancora](/help/main/c-reports/c-report-settings/report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA) per consentire un&#39;analisi dei rapporti potente, ma facile. Ovviamente, se utilizzi [Analytics for Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE) puoi cercare attività per ulteriori analisi sui tipi di pubblico.
+Abbiamo cercato di rendere i rapporti il più intuitivi possibile con funzionalità come [barre di intervallo di affidabilità, limiti di incremento, significatività/affidabilità e selezioni di più metriche, visualizzazioni di tabelle e grafici, medie correnti e altro ancora](/help/main/c-reports/c-report-settings/report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA) per consentire un&#39;analisi dei rapporti potente, ma facile. Ovviamente, se utilizzi [Analytics for Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE) puoi cercare attività per ulteriori analisi sui tipi di pubblico.
 
 ## Token di risposta {#section_C2A7118B4B62482A9D630C2212112A3D}
 
@@ -303,10 +303,10 @@ Utilizza la pagina [Stato del sistema di Adobe](/help/main/r-release-notes/syste
 
 **Avete una guida alla risoluzione dei problemi?**
 
-Siamo spiacenti di sapere che stai avendo dei problemi. Consulta [Risoluzione dei problemi di Target](/help/main/r-troubleshooting-target/troubleshooting-target.md#reference_A9DB82675D044BD8861F6752A4EE6839) per collegamenti verso molti argomenti utili per la risoluzione dei problemi.
+Siamo spiacenti di sapere che stai avendo dei problemi. Consulta [Risoluzione dei problemi di Target](/help/main/r-troubleshooting-target/troubleshooting-target.md#reference_A9DB82675D044BD8861F6752A4EE6839) per i collegamenti a molti argomenti relativi alla risoluzione dei problemi.
 
 ## API di Target {#section_714E85EFF6E3400389EF2E40D538E1DA}
 
 **Dove posso saperne di più sulle API di Target?**
 
-È disponibile una documentazione completa sulle API. Consulta [Documentazione di API di distribuzione, SDK di NodeJS e API Consigli](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html){target=_blank}.
+È disponibile una documentazione completa sulle API. Consulta [Documentazione API di consegna, SDK di NodeJS e API Recommendations](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html?lang=it){target=_blank}.

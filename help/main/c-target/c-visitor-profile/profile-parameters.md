@@ -5,9 +5,9 @@ title: Cosa sono gli attributi del profilo?
 feature: Audiences
 exl-id: 6c689629-bbd3-461e-9a68-5b16d4eb4250
 source-git-commit: 356b04745b58670b4bf39be929e785b8490d78ff
-workflow-type: ht
-source-wordcount: '2465'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '2426'
+ht-degree: 93%
 
 ---
 
@@ -21,11 +21,11 @@ Quando un visitatore naviga nel tuo sito web o ritorna per un’altra sessione, 
 
 Configurazione degli attributi del profilo:
 
-1. Fai clic su **[!UICONTROL Tipi di pubblico]** > **[!UICONTROL Script di profilo.]**
+1. Fai clic su **[!UICONTROL Audiences]** > **[!UICONTROL Profile Scripts.]**
 
    ![Scheda Script di profilo](/help/main/c-target/c-visitor-profile/assets/create-script.png)
 
-1. Fai clic su **[!UICONTROL Crea script]**.
+1. Fare clic su **[!UICONTROL Create Script]**.
 
    ![Finestra di dialogo Crea script profilo](/help/main/c-target/c-visitor-profile/assets/profile-script.png)
 
@@ -33,7 +33,7 @@ Configurazione degli attributi del profilo:
 
    | Tipo di parametro | Descrizione |
    |--- |--- |
-   | mbox | Passaggio diretto attraverso il codice della pagina quando viene creata la mbox. Consulta [Trasmettere i parametri a una mbox globale](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/global-mbox/pass-parameters-to-global-mbox.html?lang=it){target=_blank} nella *Guida per gli sviluppatori di Target*.<P>**Nota**: [!DNL Target] ha un limite di 50 attributi di profilo univoci per chiamata mbox. Se devi trasmettere più di 50 attributi di profilo a [!DNL Target], utilizza il metodo [!UICONTROL API Aggiornamento profilo]. Per ulteriori informazioni, consulta [Aggiornare profili](https://experienceleague.adobe.com/docs/target-dev/developer/api/profile-apis/profile-api-overview.html?lang=it){target=_blank} nella *Guida per gli sviluppatori di Target*. |
+   | mbox | Passaggio diretto attraverso il codice della pagina quando viene creata la mbox. Consulta [Trasmettere i parametri a una mbox globale](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/global-mbox/pass-parameters-to-global-mbox.html?lang=it){target=_blank} nella *Guida per gli sviluppatori di Target*.<P>**Nota**: [!DNL Target] ha un limite di 50 attributi di profilo univoci per chiamata mbox. Se è necessario passare più di 50 attributi di profilo a [!DNL Target], passarli utilizzando il metodo [!UICONTROL Profile Update API]. Per ulteriori informazioni, consulta [Aggiornare profili](https://experienceleague.adobe.com/docs/target-dev/developer/api/profile-apis/profile-api-overview.html?lang=it){target=_blank} nella *Guida per gli sviluppatori di Target*. |
    | Profilo | Definito direttamente con uno snippet di codice JavaScript. Questi snippet possono memorizzare i totali correnti come il denaro totale speso dal consumatore e sono eseguiti dietro ogni richiesta mbox. Consulta *Attributi degli script di profilo* qui di seguito. |
 
 ## Attributi degli script di profilo {#concept_8C07AEAB0A144FECA8B4FEB091AED4D2}
@@ -46,13 +46,13 @@ Gli script di profilo sono diversi dai parametri di profilo. I parametri di prof
 
 ## Creazione di script di profilo {#section_CB02F8B97CAF407DA84F7591A7504810}
 
-Gli script di profilo sono disponibili nella scheda [!UICONTROL Tipi di pubblico] dell’interfaccia di [!DNL Target].
+Gli script di profilo sono disponibili nella scheda [!UICONTROL Audiences] nell&#39;interfaccia [!DNL Target].
 
-Per aggiungere uno script di profilo, fai clic sulla scheda **[!UICONTROL Script di profilo]**, **[!UICONTROL Crea script]**, quindi scrivi lo script.
+Per aggiungere uno script di profilo, fare clic sulla scheda **[!UICONTROL Profile Scripts]**, **[!UICONTROL Create Script]**, quindi scrivere lo script.
 
 Oppure
 
-Per copiare uno script di profilo esistente, dall’elenco [!UICONTROL Script di profilo] fai clic sull&#39;icona dei puntini di sospensione dello script desiderato, quindi fai clic su **[!UICONTROL Duplica]**.
+Per copiare uno script di profilo esistente, dall&#39;elenco [!UICONTROL Profile Scripts], fare clic sull&#39;icona dei puntini di sospensione dello script desiderato, quindi fare clic su **[!UICONTROL Duplicate]**.
 
 Ora puoi modificare il pubblico per crearne uno simile.
 
@@ -85,21 +85,21 @@ Considera le seguenti informazioni:
 
 Puoi visualizzare schede a comparsa di script di profilo simili come schede informative. Queste schede informative sullo script di profilo ti permettono di visualizzare l’elenco delle attività che si riferiscono allo script di profilo selezionato, insieme ad altri metadati utili.
 
-Ad esempio, per accedere alla scheda di informazioni sullo script di profilo seguente fai clic sull’icona [!UICONTROL Informazioni] dello script di profilo desiderato dall’elenco ([!UICONTROL Tipi di pubblico] > [!UICONTROL Script di profilo]).
+Ad esempio, è possibile accedere alla scheda di informazioni sullo script di profilo seguente facendo clic sull&#39;icona [!UICONTROL Info] dello script di profilo desiderato dall&#39;elenco ([!UICONTROL Audiences] > [!UICONTROL Profile Scripts]).
 
-La scheda [!UICONTROL Info script] contiene le seguenti informazioni: nome, descrizione e codice script.
+La scheda [!UICONTROL Script Info] contiene le informazioni seguenti: nome, descrizione e codice script.
 
 ![Scheda di informazioni Script di profilo](assets/profile_script_info_card.png)
 
-Fai clic su **[!UICONTROL Visualizza dettagli completi]** per visualizzare i tipi di pubblico e le attività che si riferiscono allo script di profilo selezionato.
+Fare clic su **[!UICONTROL View full details]** per visualizzare i tipi di pubblico e le attività che fanno riferimento allo script di profilo selezionato.
 
 ![Scheda di informazioni Script di profilo > scheda Utilizzo script](assets/profile_script_info_card_usage_tab.png)
 
 >[!NOTE]
 >
->La scheda [!UICONTROL Utilizzo script] non mostra le attività che fanno riferimento allo script di profilo selezionato nelle situazioni seguenti:
+>Nella scheda [!UICONTROL Script Usage] non vengono visualizzate le attività che fanno riferimento allo script di profilo selezionato nelle situazioni seguenti:
 >
-> * L’attività è nello stato [!UICONTROL Bozza].
+> * L&#39;attività è nello stato [!UICONTROL Draft].
 > * Il contenuto o l’offerta utilizzati nell&#39;attività impiegano variabili di script (un’offerta in linea all’interno dell’attività o un’offerta nella libreria Offerte).
 
 ## Target disabilita gli script di profilo in determinate situazioni {#section_C0FCB702E60D4576AD1174D39FBBE1A7}
@@ -156,7 +156,7 @@ Per eseguire il debug degli script di profilo possono essere utilizzati i seguen
 
 * **Aggiungi script di profilo come token di risposta per eseguire il debug degli script di profilo:**
 
-  In [!DNL Target], fai clic su **[!UICONTROL Amministrazione]**, poi su **[!UICONTROL Token di risposta]**, quindi attiva lo script di profilo su cui vuoi eseguire il debug.
+  In [!DNL Target], fare clic su **[!UICONTROL Administration]**, su **[!UICONTROL Response Tokens]**, quindi abilitare lo script di profilo su cui si desidera eseguire il debug.
 
   Ogni volta che carichi una pagina del sito con [!DNL Target], una parte della risposta di [!DNL Target] contiene il valore dello script di profilo specificato, come illustrato di seguito:
 
@@ -164,7 +164,7 @@ Per eseguire il debug degli script di profilo possono essere utilizzati i seguen
 
 * **Utilizza lo strumento di debug mboxTrace per eseguire il debug degli script di profilo.**
 
-  Questo metodo richiede un token di autorizzazione che può essere generato facendo clic su **[!UICONTROL Target]** > **[!UICONTROL Amministrazione]** > **[!UICONTROL Implementazione]** > **[!UICONTROL Genera token di autorizzazione]** nella sezione [!UICONTROL Strumenti di debug].
+  Questo metodo richiede un token di autorizzazione che può essere generato facendo clic su **[!UICONTROL Target]** > **[!UICONTROL Administration]** > **[!UICONTROL Implementation]** > **[!UICONTROL Generate Authorization Token]** nella sezione [!UICONTROL Debugger tools].
 
   Quindi aggiungi questi due parametri all’URL della tua pagina dopo il “?”: `mboxTrace=window&authorization=YOURTOKEN`.
 

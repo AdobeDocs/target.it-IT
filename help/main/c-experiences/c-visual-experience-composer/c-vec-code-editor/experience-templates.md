@@ -6,14 +6,14 @@ feature: Visual Experience Composer (VEC)
 exl-id: 83bee583-656f-47d4-8892-e41b6629696f
 source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '493'
-ht-degree: 77%
+source-wordcount: '446'
+ht-degree: 75%
 
 ---
 
 # Modelli di esperienza
 
-Informazioni su [!DNL Adobe Target] Modelli di esperienza da utilizzare nel codice personalizzato. [!DNL Target]I modelli di esperienza di sono esempi precodificati con input configurabili da utilizzare per casi di utilizzo ricorrenti per gli addetti al marketing. 
+Informazioni sui modelli di esperienza [!DNL Adobe Target] da utilizzare nel codice personalizzato. I modelli di esperienza [!DNL Target] sono esempi precodificati con input configurabili da utilizzare per eseguire casi comuni di utilizzo di addetti al marketing.
 
 Questi modelli di esperienza sono disponibili gratuitamente per gli sviluppatori e i rivenditori come punto di partenza per eseguire alcuni casi comuni di utilizzo esterno in Adobe Target (tramite il Compositore esperienza visivo o il Compositore esperienza basato su modulo).
 
@@ -41,7 +41,7 @@ Il [modello di esperienza Conto alla rovescia banner](https://github.com/Adobe-M
 
 Il [modello di esperienza Generatore di pulsanti](https://github.com/Adobe-Marketing-Cloud/target-experience-templates/tree/master/button) è un piccolo pulsante con una chiamata all&#39;azione sotto forma di testo. Il pulsante è configurabile e può essere posizionato in qualsiasi punto della pagina per aggiungere una nuova chiamata all&#39;azione o sostituire un pulsante esistente con un&#39;alternativa più configurabile.
 
-![immagine exp-template-button-builder](assets/exp-template-button-builder.png)
+![immagine generatore-pulsanti-exp-template](assets/exp-template-button-builder.png)
 
 ## Lightbox con conto alla rovescia {#section_E1177C52F1294EA5AC48312727CD3DF4}
 
@@ -51,13 +51,13 @@ Il [modello di esperienza Lightbox con conto alla rovescia](https://github.com/A
 
 ## Lightbox con intento di uscita {#section_E624C867E4CD4F2294CFC7917EFAEBD7}
 
-Il [modello di esperienza Lightbox con intento di uscita](https://github.com/Adobe-Marketing-Cloud/target-experience-templates/tree/master/lightbox-exit-intent) è una finestra a comparsa di sovrapposizione lightbox innescata in caso di intento di uscita (spostando il mouse in alto a destra dello schermo) e può essere distribuito su qualsiasi proprietà Web in cui si desidera un’ultima possibilità di catturare l’attenzione.
+Il [modello di esperienza Lightbox con intento di uscita](https://github.com/Adobe-Marketing-Cloud/target-experience-templates/tree/master/lightbox-exit-intent) è una finestra a comparsa di sovrapposizione lightbox innescata in caso di intento di uscita (spostando il mouse in alto a destra dello schermo) e può essere distribuito su qualsiasi proprietà Web in cui si desidera un&#39;ultima possibilità di catturare l&#39;attenzione.
 
 ![immagine exp-template-lightbox-exit](assets/exp-template-lightbox-exit.png)
 
 ## Lightbox {#section_EF4FBA08CE55407CAFB334340C6C1577}
 
-Il[ modello di esperienza Lightbox](https://github.com/Adobe-Marketing-Cloud/target-experience-templates) è una finestra a comparsa di sovrapposizione lightbox con un ritardo integrato, di solito utilizzata nelle pagine principali e nelle pagine di destinazione o in altre pagine di accesso dal volume elevato.
+Il [modello di esperienza Lightbox](https://github.com/Adobe-Marketing-Cloud/target-experience-templates) è una finestra a comparsa di sovrapposizione lightbox con un ritardo integrato, di solito utilizzata nelle pagine principali e nelle pagine di destinazione o in altre pagine di accesso dal volume elevato.
 
 ![immagine exp-template-lightbox](assets/exp-template-lightbox.png)
 
@@ -65,4 +65,4 @@ Il[ modello di esperienza Lightbox](https://github.com/Adobe-Marketing-Cloud/tar
 
 Il [modello di esperienza Barra multifunzione](https://github.com/Adobe-Marketing-Cloud/target-experience-templates/tree/master/ribbon) è una barra multifunzione di larghezza 100% che si inserisce nella parte superiore della pagina Web, tipicamente utilizzato per indicare una vendita flash, spedizione gratuita, evento di sicurezza o meteo o un altro annuncio importante.
 
-![immagine exp-template-ribbon](assets/exp-template-ribbon.png)
+![immagine della barra multifunzione exp-template](assets/exp-template-ribbon.png)

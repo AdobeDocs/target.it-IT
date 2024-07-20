@@ -1,14 +1,14 @@
 ---
 keywords: limite di caratteri;parametri mbox;api di distribuzione in batch;parametri di profilo;limiti;profili incorporati;numero massimo;limite;vincolo;carattere;best practice;orderid;orderTotal;mbox3rdPartyID;categoria;categoryID;risoluzione dei problemi
-description: Visualizzare un elenco dei limiti dei caratteri e altri limiti che influenzano le attività e altri elementi in [!DNL Adobe Target].
-title: Quali sono i vari caratteri, dimensioni e altri limiti in [!DNL Adobe Target]?
+description: Visualizza un elenco di limiti di caratteri e altri limiti che influiscono sulle attività e su altri elementi in [!DNL Adobe Target].
+title: Quali sono i vari caratteri, dimensioni e altri limiti in  [!DNL Adobe Target]?
 feature: Troubleshooting
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
 source-git-commit: 5ab209ae91580403ad9ec63998fcf3077400490f
 workflow-type: tm+mt
-source-wordcount: '1604'
-ht-degree: 81%
+source-wordcount: '1693'
+ht-degree: 77%
 
 ---
 
@@ -78,19 +78,19 @@ Limiti dei caratteri e altri limiti (dimensioni dell’offerta, pubblico, profil
       * at.js:
          * Contenuto predefinito visualizzato
 
-* **Limite**: 50 mbox per [!DNL Target] richiesta mbox batch di consegna del contenuto.
+* **Limite**: 50 mbox per [!DNL Target] richiesta mbox batch di consegna contenuto.
 
-  Oltre 50 mbox per [!DNL Target] la richiesta mbox batch di consegna del contenuto genera un codice di errore di risposta `HTTP 400` con messaggio di errore `size must be between 0 and 50`.
+  Il superamento di 50 mbox per richiesta mbox batch di consegna contenuti [!DNL Target] genera un codice di errore di risposta `HTTP 400` con il messaggio di errore `size must be between 0 and 50`.
 
   Le richieste Batch Mbox vengono elaborate in sequenza, aumentando il tempo di risposta complessivo con ogni iterazione. Più mbox nella richiesta batch, più latenza di risposta è prevista e quindi possibili timeout. Se il rendering dell’esperienza è bloccato su queste richieste batch ad alta latenza, la latenza potrebbe ridurre l’esperienza utente in attesa del rendering delle esperienze.
 
-* **Limite**: dimensione corpo HTTP POST di 60 MB per [!DNL Target] richieste di distribuzione dei contenuti.
+* **Limite**: dimensioni del corpo del POST HTTP di 60 MB per [!DNL Target] richieste di consegna contenuto.
 
-  Superiore a 60 MB sulle dimensioni del corpo HTTP POST di un [!DNL Target] la richiesta di consegna del contenuto genera un codice di errore di risposta `HTTP 413 Request Entity Too Large`.
+  Se si superano i 60 MB sulla dimensione del corpo del POST HTTP di una richiesta di distribuzione di contenuti [!DNL Target], viene restituito un codice di errore di risposta `HTTP 413 Request Entity Too Large`.
 
 * **Limite consigliato**: 50 notifiche per [!DNL Target] richiesta batch di consegna.
 
-  Oltre 50 notifiche per [!DNL Target] è probabile che la richiesta batch di consegna determini un aumento della latenza di risposta e timeout.
+  È probabile che il superamento delle 50 notifiche per richiesta batch di consegna [!DNL Target] determini un aumento della latenza di risposta e timeout.
 
   Le richieste di notifica batch vengono elaborate in sequenza, aumentando il tempo di risposta complessivo con ogni iterazione. Maggiore è il numero di notifiche nella richiesta batch, maggiore è la latenza di risposta prevista e quindi possibili timeout. Alcuni clienti possono accettare una latenza aggiuntiva nelle richieste di notifica in batch, ma tieni presente che i timeout e gli eventuali nuovi tentativi successivi potrebbero causare una latenza ancora maggiore.
 
@@ -116,7 +116,7 @@ Limiti dei caratteri e altri limiti (dimensioni dell’offerta, pubblico, profil
 
 * Il numero massimo di entità a cui puoi fare riferimento in una progettazione, tramite codifica fissa o cicli, è 99.
 * Per prestazioni ottimali, si consiglia di mantenere il catalogo entro il limite di un milione di elementi per ambiente e di dieci milioni di elementi per tutti gli ambienti.
-* Il limite massimo è di dieci milioni di elementi per ambiente e 100 milioni di elementi per tutti gli ambienti. Se hai tra un milione e dieci milioni di elementi per ambiente, le prestazioni dell’interfaccia utente [!UICONTROL Ricerca nel catalogo] ne risentono. Tuttavia, [!DNL Target Recommendations] continua a produrre e a fornire i consigli.
+* Il limite massimo è di dieci milioni di elementi per ambiente e 100 milioni di elementi per tutti gli ambienti. Le prestazioni dell&#39;interfaccia utente [!UICONTROL Catalog Search] sono influenzate da un milione a dieci milioni di elementi per ambiente. Tuttavia, [!DNL Target Recommendations] continua a produrre e a fornire i consigli.
 
 ### Attributi personalizzati entità
 
@@ -155,7 +155,7 @@ Limiti dei caratteri e altri limiti (dimensioni dell’offerta, pubblico, profil
 
 ### Esperienze per attività
 
-* **Limite**: 2.000 esperienze per [!UICONTROL Targeting esperienza] XT [!UICONTROL Test A/B], [!UICONTROL Test multivariato] (MVT), e [!UICONTROL Targeting automatico] attività.
+* **Limite**: 2.000 esperienze per attività [!UICONTROL Experience Targeting] (XT), [!UICONTROL A/B Test], [!UICONTROL Multivariate Test] (MVT) e [!UICONTROL Auto-Target].
 
   30.000 esperienze per attività Automated Personalization.
 
@@ -179,13 +179,13 @@ Limiti dei caratteri e altri limiti (dimensioni dell’offerta, pubblico, profil
 
 * **Limite**: 250 caratteri.
 
-  Per [!DNL Delivery API] (at.js 2.*x*), Batch mbox V2 e [!DNL Adobe Experience Platform Web SDK] Integrazioni (alloy.js), nomi mbox *può* contengono caratteri alfanumerici (A-Z, a-z, 0-9) e uno qualsiasi dei seguenti caratteri:
+  Per [!DNL Delivery API] (at.js 2.*x*), integrazioni Batch Mbox V2 e [!DNL Adobe Experience Platform Web SDK] (alloy.js), nomi Mbox *possono* contenere caratteri alfanumerici (A-Z, a-z, 0-9) e uno dei seguenti caratteri:
 
   ```
   - , . _ / = ` : ; & ! @ # $ % ^ & * ( ) _ + | ? ~ [ ] { }
   ```
 
-  Per at.js 1.*x* integrazioni, nomi mbox *non può* contiene uno dei seguenti caratteri:
+  Per at.js 1.*x* integrazioni, i nomi mbox *non possono* contenere i seguenti caratteri:
 
   ```
   ' " %22 %27 < > %3C %3E 
@@ -199,7 +199,7 @@ Limiti dei caratteri e altri limiti (dimensioni dell’offerta, pubblico, profil
 
    * Parametri mbox: 500 parametri per mbox.
    * Parametri profilo: 500 parametri profilo per mbox.
-   * Altri parametri (URL, URL di riferimento e così via): 50 per mbox, per un altro tipo di parametro.
+   * Altri parametri (URL, URL di riferimento e così via): 50 per mbox per ogni altro tipo di parametro.
 
   Questi limiti possono essere applicati a meno che la richiesta non venga ridotta a causa di limiti del browser web.
 
@@ -297,7 +297,7 @@ I seguenti limiti di dimensione si applicano alle offerte:
 
 * **Limite consigliato**: 2.000 caratteri.
 
-  Dipende dalla dimensione della stringa codificata, che potrebbe essere molto più lunga della stringa non elaborata. Se la stringa è troppo grande, si verifica un errore prima di raggiungere [!DNL Adobe Target].
+  Dipende dalla dimensione della stringa codificata, che potrebbe essere molto più lunga della stringa non elaborata. Se la stringa è troppo grande, non riesce prima di arrivare a [!DNL Adobe Target].
 
 ## Profili script
 
@@ -330,5 +330,5 @@ I seguenti limiti di dimensione si applicano alle offerte:
 ### Regole di targeting {#targeting-rules}
 
 * **Limite consigliato**: 2.500 caratteri per valore della regola di targeting.
-* **Limite consigliato**: 50,000 valori univoci per pubblico in tutte le regole di targeting.
+* **Limite consigliato**: 50.000 valori univoci per pubblico in tutte le regole di targeting.
 * **Limite consigliato**: 100.000 valori di regole di targeting univoci per attività.

@@ -7,18 +7,18 @@ role: Admin
 exl-id: a3c5e20e-f5d5-4b6f-b169-59d5916584ab
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
 workflow-type: tm+mt
-source-wordcount: '525'
-ht-degree: 84%
+source-wordcount: '533'
+ht-degree: 85%
 
 ---
 
 # Stimare l’Incremento dei ricavi
 
-Utilizzare [!DNL Adobe Target] per stimare l’incremento dei ricavi potenziali se tutti gli utenti visualizzano l’esperienza vincente.
+Utilizza [!DNL Adobe Target] per stimare l&#39;incremento dei ricavi potenziali se tutti gli utenti visualizzassero l&#39;esperienza vincente.
 
 >[!NOTE]
 >
->L’incremento stimato non è disponibile per [!UICONTROL Targeting esperienza] (XT) attività in questo momento.
+>L&#39;incremento stimato non è al momento disponibile per le attività [!UICONTROL Experience Targeting] (XT).
 
 La funzione per la stima dell’incremento è disattivata per impostazione predefinita. Può essere attivata nelle preferenze dell’account. Solo gli utenti amministratore di Experience Cloud possono abilitare o disabilitare questa funzione. Se la stima dell’incremento è disattivata, i campi corrispondenti non vengono visualizzati nell’interfaccia. La disattivazione della funzione non si traduce in una perdita di dati, compresi i dati utilizzati per le stime. Le stime si basano sui dati raccolti indipendentemente dallo stato di attivazione della funzione.
 
@@ -30,7 +30,7 @@ La funzione di stima calcola la quantità di incremento conseguito dall’esperi
 
 La stima dell’incremento dei ricavo è calcolata in base al ricavo per visitatore (Revenue per Visit, RPV) ottenuto dalla metrica dell’obiettivo primario.
 
-L&#39;incremento stimato è calcolato con la seguente formula: (&lt;winning experience=&quot;&quot; rpv=&quot;&quot;> - &lt;control experience=&quot;&quot; rpv=&quot;&quot; span=&quot;&quot; id=&quot;0&quot; translate=&quot;no&quot; />&lt;total number=&quot;&quot; of=&quot;&quot; visitors=&quot;&quot; in=&quot;&quot; the=&quot;&quot; activity=&quot;&quot;>&#42;
+L’incremento stimato viene calcolato utilizzando la formula seguente: (&lt;RPV esperienza vincente> - &lt;RPV esperienza di controllo&lt;)&#42;&lt;numero totale di visitatori nell’attività>
 
 Se nella forma condensata è presente solo una cifra prima del decimale, il risultato viene arrotondato al massimo a una cifra decimale. Ad esempio: $ 1,6 M, $ 60 K, $ 900, $ 8,5 K, $ 205 K.
 

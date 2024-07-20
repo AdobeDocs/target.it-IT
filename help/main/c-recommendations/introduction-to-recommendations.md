@@ -105,7 +105,7 @@ Successivamente, devi aggiungere dei tag o sfruttare l’implementazione esisten
 
 È necessario assicurarsi che [!DNL Target] sia a conoscenza degli articoli che gli utenti visualizzano e acquistano. Se l’acquisto non è pertinente al tuo contesto, potrebbe essere utile tenere traccia di un altro tipo di evento di conversione, ad esempio il download di un PDF, il completamento di un sondaggio, l’abbonamento a una newsletter, la visione di un video e così via.
 
-Se utilizzi già [!DNL Target] per eseguire attività Test A/B sul tuo sito, potresti aver già completato questo passaggio. Oppure, se utilizzi già [!DNL Adobe Analytics] per generare rapporti sulle visite al sito e sul comportamento di conversione, puoi usare [!DNL Analytics] come origine dei dati comportamentali. In caso contrario, sarà più semplice impostare questo passaggio utilizzando un gestore di tag, come [[!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch.html){target=_blank}. È anche possibile inviare interazioni offline o in-app a [!DNL Target] tramite API in tempo reale.
+Se utilizzi già [!DNL Target] per eseguire attività Test A/B sul tuo sito, potresti aver già completato questo passaggio. Oppure, se utilizzi già [!DNL Adobe Analytics] per generare rapporti sulle visite al sito e sul comportamento di conversione, puoi usare [!DNL Analytics] come origine dei dati comportamentali. In caso contrario, sarà più semplice impostare questo passaggio utilizzando un gestore di tag come i tag in [[!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch.html?lang=it){target=_blank}. È inoltre possibile inviare interazioni offline o in-app a [!DNL Target] tramite API in tempo reale.
 
 ### Inserire i consigli nel contesto giusto
 
@@ -129,7 +129,7 @@ Un’attività di [!DNL Recommendations] è composta dai seguenti elementi:
 
 ![Illustrazione che mostra gli elementi che compongono un’attività di Consigli: pubblico, criteri e progettazioni](/help/main/c-recommendations/assets/intro-12.png)
 
-Con [!DNL Target] sono già inclusi 14 tipi di pubblico, 42 criteri e 10 modelli di progettazione. Puoi personalizzare ciascuno di questi elementi o aggiungerne altri. Abbiamo avuto precedenti [webinar sulla creazione di tipi di pubblico](https://landing.adobe.com/acs/2018/na/adobe-target/registration.html) in [!DNL Target]. Questa sezione tratta come definire i criteri, i quali a loro volta definiscono quali articoli verranno consigliati.
+Con [!DNL Target] sono già inclusi 14 tipi di pubblico, 42 criteri e 10 modelli di progettazione. Puoi personalizzare ciascuno di questi elementi o aggiungerne altri. Abbiamo già tenuto [webinar sulla creazione di tipi di pubblico](https://landing.adobe.com/acs/2018/na/adobe-target/registration.html) in [!DNL Target]. Questa sezione tratta come definire i criteri, i quali a loro volta definiscono quali articoli verranno consigliati.
 
 Target utilizza il concetto di scheda dei criteri. Una scheda di criteri è come una ricetta per la personalizzazione.
 

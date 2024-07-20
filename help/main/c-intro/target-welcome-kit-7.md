@@ -6,20 +6,20 @@ feature: Overview
 exl-id: 4d07b088-a577-4c82-b35f-18d0be8428d8
 source-git-commit: 4564e0b95bbd19f20c75e5e83d452d12a5403083
 workflow-type: tm+mt
-source-wordcount: '1723'
-ht-degree: 78%
+source-wordcount: '1724'
+ht-degree: 76%
 
 ---
 
 # Capitolo 7: Creare ed eseguire la prima attività [!DNL Target]
 
-Quindi sei pronto a iniziare con la tua prima attività in [!DNL Target]? Eccellente. Cerchiamo di individuare un’attività per il sito web, il sito mobile o l’app mobile non troppo complessa ma che può fornire un ritorno sull’investimento rapido e che può farti entusiasmare per il potenziale di utilizzo di [!DNL Target] per testare e personalizzare. A seconda della tua organizzazione e del suo focus, potresti considerare di seguire uno dei tre percorsi diversi con quella prima attività.
+Sei pronto a iniziare con la tua prima attività in [!DNL Target]? Eccellente. Cerchiamo di individuare un&#39;attività per il sito Web, il sito mobile o l&#39;app mobile non troppo complessa, ma che può fornire un ritorno sull&#39;investimento rapido e farti entusiasmare per il potenziale di utilizzo di [!DNL Target] per testare e personalizzare. A seconda della tua organizzazione e del suo focus, potresti considerare di seguire uno dei tre percorsi diversi con quella prima attività.
 
 La chiave della tua prima attività, tuttavia, è stabilire una linea di base della metrica di business che stai cercando di migliorare: entrate, click-through, invii di moduli, registrazioni completate e così via. In un test A/B, puoi spesso utilizzare l’esperienza o l’offerta corrente come &quot;controllo&quot; e misurare l’impatto di una variante di tale esperienza o offerta su di essa. Tuttavia, per la maggior parte delle attività di personalizzazione, è consigliabile determinare le prestazioni dell’esperienza corrente prima di avviarne una versione personalizzata. Questo ti consentirà di misurare l’impatto della personalizzazione.
 
 ## Percorso 1: Test A/B per tutto il traffico del visitatore
 
-Puoi impostare un’attività di base [Attività test A/B](/help/main/c-activities/t-test-ab/test-ab.md) in cui si testa una variante di un’offerta o esperienza rispetto a una o più altre varianti per vedere quali preferiscono i tuoi visitatori. Se cerchi solo la variante vincente, puoi scegliere di sfruttare l’intelligenza artificiale per ottenere risultati più rapidi selezionando [Allocazione automatica](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) nel secondo passaggio del flusso di lavoro di configurazione del test A/B.
+Puoi impostare un’attività di base [Attività test A/B](/help/main/c-activities/t-test-ab/test-ab.md) in cui si testa una variante di un’offerta o esperienza rispetto a una o più altre varianti per vedere quali preferiscono i tuoi visitatori. Se cerchi solo la variante vincente, puoi scegliere di sfruttare l&#39;intelligenza artificiale per ottenere risultati più rapidi selezionando [Allocazione automatica](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) nel secondo passaggio del flusso di lavoro di configurazione del test A/B.
 
 Esempio: Una società di media verifica la copia corrente per un’offerta di abbonamento di regali sulla sua homepage web o mobile del sito per vedere quale variante porta più visitatori ad acquistare un abbonamento di regali. Se selezioni Allocazione automatica, l’attività sposterà più traffico nella variante vincente durante l’esecuzione del test. In caso contrario, attenderà che invii manualmente l’esperienza vincente in diretta dopo la conclusione del test.
 
@@ -44,14 +44,14 @@ Di seguito sono riportati alcuni modi per scoprire le idee di attività che sono
 * **Usa quello che sai.** Forse già conosci bene i tuoi clienti e hai un buon senso di ciò che risuonerà con loro. Utilizzalo per sviluppare esperienze personalizzate.
 * **Utilizza la tua soluzione di analisi.** Cerca i punti del tuo sito in cui i clienti abbandonano un flusso di acquisto o rimbalzano da una pagina. Rivedi le pagine e ipotizza cosa potrebbe causarne l’uscita prima di intraprendere l’azione desiderata.
 * **Usa la tua capacità di osservazione.** Osserva alcune pagine chiave del tuo sito web e usa il tuo istinto per identificare le cose che hanno bisogno di miglioramenti. Forse la pagina dei dettagli di un prodotto è troppo affollata e difficile, quindi semplificala. Forse un pulsante di acquisto è difficile da trovare, quindi spostarlo in una posizione più visibile.
-* **Osserva i tuoi concorrenti.** Una rapida revisione dei siti web dei tuoi concorrenti potrebbe rivelare progetti, offerte, copie e altri elementi che ritieni altamente efficaci nel promuovere i risultati aziendali. Valuta come provare questi approcci sul tuo sito.
+* **Osserva i tuoi concorrenti.** Una rapida revisione dei siti Web dei tuoi concorrenti potrebbe rivelare progetti, offerte, copie e altri elementi che ritieni altamente efficaci nel promuovere i risultati aziendali. Valuta come provare questi approcci sul tuo sito.
 * **Accedi al feedback del cliente.** I tuoi clienti potrebbero averti dato idee per migliorare la loro esperienza attraverso un sondaggio online o chiamate al servizio clienti. Identifica un punto dolente che molti hanno menzionato ed elabora un’esperienza che potrebbe eliminarlo.
 
 Mentre elabori l’idea da testare, ricorda che dovresti essere in grado di spiegare, idealmente con i dati, perché pensi che questa idea da te proposta possa migliorare l’esperienza del cliente e le metriche che contano per l’azienda.
 
 ## Pianificazione dell’attività con Activity Planner
 
-Abbiamo incluso [Adobe Target Activity Planner](/help/main/assets/activity-planner.pdf) come PDF standalone che puoi salvare e utilizzare più volte. Fai clic sul collegamento per visualizzare il file PDF. Fai clic con il pulsante destro del mouse per scaricare il file PDF.
+Abbiamo incluso [Adobe Target Activity Planner](/help/main/assets/activity-planner.pdf) come PDF autonomo che puoi salvare e utilizzare più volte. Fai clic sul collegamento per visualizzare il file PDF. Fai clic con il pulsante destro del mouse per scaricare il file PDF.
 
 Per eseguire un’attività efficace, è necessario compilare ogni area del planner. Utilizza questo strumento insieme alle altre idee di brainstorm per testare e personalizzare le attività.
 
@@ -91,7 +91,7 @@ Se l’attività richiede l’assistenza di un designer, uno sviluppatore web o 
 
 Per trarre una conclusione statisticamente significativa dal test, è necessario inserire un certo numero di visitatori nella popolazione di test. Pensaci, se solo due persone partecipano al test, sarai sicuro dei risultati?
 
-[!DNL Target] si basa su principi statistici per determinare i risultati di un test, che sono statisticamente validi. Il [!DNL Adobe Target] [Calcolatore dimensioni campione](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6) consente di determinare il periodo di tempo necessario per eseguire un test in base all’affidabilità necessaria nei risultati. Fai clic sul collegamento [!UICONTROL Ulteriori informazioni] in questa casella per aprire e utilizzare il calcolatore.
+[!DNL Target] si basa su principi statistici per determinare i risultati di un test, che sono statisticamente validi. Il [!DNL Adobe Target] [Calcolatore dimensioni campione](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6) consente di determinare il periodo di tempo per l&#39;esecuzione di un test in base all&#39;attendibilità necessaria nei risultati. Fare clic sul collegamento [!UICONTROL Learn More] in questa casella per aprire e utilizzare il calcolatore.
 
 ### Quanto è importante questa attività?
 
@@ -107,4 +107,4 @@ I risultati dell’attività forniscono spesso informazioni approfondite sulle a
 
 ## Aprire [!DNL Target] quindi creare e avviare l’attività
 
-Hai compilato il tuo Activity Planner. Ora è il momento di entrare nella soluzione e creare la tua attività. [!DNL Target] consente di modificare facilmente la pagina web nel [!UICONTROL Compositore esperienza visivo].
+Hai compilato il tuo Activity Planner. Ora è il momento di entrare nella soluzione e creare la tua attività. [!DNL Target] semplifica notevolmente la modifica della pagina Web in [!UICONTROL Visual Experience Composer].

@@ -2,17 +2,17 @@
 keywords: e-mail;ESP;provider di servizi di posta elettronica;rawbox;API di consegna;modello di solo download;modello di posta elettronica;elaborazione batch;e-mail build-time
 description: Scopri come integrare le e-mail con le API di consegna di Adobe [!DNL Target Recommendations], including using the [!DNL Target] , modelli rawbox e modelli di solo download.
 title: Come posso integrare Consigli con l’e-mail?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Vedi cosa è incluso in Target Premium."
 feature: Recommendations
 exl-id: 08fcb507-2c91-444a-b8ac-26165e359f6f
 source-git-commit: 1f505991ea9a0caf0d6d49f6464550243128ffaf
 workflow-type: tm+mt
-source-wordcount: '1715'
+source-wordcount: '1734'
 ht-degree: 96%
 
 ---
 
-# Integrare [!DNL Recommendations] con l’e-mail
+# Integrare [!DNL Recommendations] con l&#39;e-mail
 
 [!DNL Adobe Target] supporta la personalizzazione in fase di invio dei consigli nelle e-mail.
 
@@ -78,7 +78,7 @@ Dove `clientcode` è il codice del client [!DNL Target].
 >
 >Assicurati di fornire un valore univoco per `sessionId` e uno tra `tntId` o `thirdPartyId` per ogni destinatario e-mail (ad esempio, per ogni chiamata API). Se non fornisci valori univoci per questi campi, la risposta API potrebbe risultare lenta o non riuscire a causa del numero elevato di eventi generati in un singolo profilo.
 
-Per ulteriori informazioni, consulta la [documentazione sulle API di consegna](https://experienceleague.adobe.com/docs/target-dev/developer/api/delivery-api/overview.html).{target=_blank}
+Per ulteriori informazioni, consulta la [documentazione sulle API di consegna](https://experienceleague.adobe.com/docs/target-dev/developer/api/delivery-api/overview.html?lang=it){target=_blank}.
 
 ## Metodo 2 - Utilizzare un modello di e-mail rawbox {#rawbox}
 
@@ -103,7 +103,7 @@ Il sistema e-mail utilizzato deve essere in grado di gestire i seguenti scenari:
 
 * In questo caso, il server [!DNL Target] restituisce il seguente contenuto:
 
-   `//ERROR: application server timeout`
+  `//ERROR: application server timeout`
 
 * L&#39;applicazione e-mail deve cercare quel testo ed essere in grado di gestire l&#39;errore. Il provider di posta elettronica dispone di più opzioni per gestire questo caso:
 

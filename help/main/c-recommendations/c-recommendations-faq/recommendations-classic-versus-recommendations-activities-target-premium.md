@@ -2,17 +2,17 @@
 keywords: consigli;algoritmi consigli;attività consigli;recommendations classic
 description: Rivedi le informazioni per comprendere le differenze tra le precedenti attività di Recommendations Classic e le attività Consigli in [!DNL Target] Premium.
 title: Qual è la differenza tra Recommendations Classic e la funzione Consigli in [!DNL Target] Premium?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Vedi cosa è incluso in Target Premium."
 feature: Recommendations
 exl-id: 07548155-9548-4870-b886-6cb4ff37a0bd
 source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
 workflow-type: tm+mt
-source-wordcount: '668'
-ht-degree: 97%
+source-wordcount: '652'
+ht-degree: 88%
 
 ---
 
-# Consigli Attività Classic e Recommendations in [!DNL Target] Premium
+# Confronto tra Recommendations Classic e le attività Recommendations in [!DNL Target] Premium
 
 Informazioni per aiutarti a scegliere tra Recommendations Classic e le attività Consigli di Target Premium.
 
@@ -30,16 +30,16 @@ L’attività di [!DNL Recommendations] in [!DNL Target] migliora [!DNL Recommen
 
 ## Consigli come offerta
 
-Puoi includere i consigli nelle attività di [!UICONTROL test A/B] (tra cui [!UICONTROL Allocazione automatica] e [!UICONTROL Targeting automatico]) e [!UICONTROL targeting delle esperienze] (XT).
+Puoi includere i consigli nelle attività [!UICONTROL A/B Test] (inclusi [!UICONTROL Auto-Allocate] e [!UICONTROL Auto-Target]) e [!UICONTROL Experience Targeting] (XT).
 
 Questo apre a funzionalità tutte nuove, ad esempio:
 
 * Contenuto relativo e non relativo a consigli di test e targeting all’interno della stessa attività.
 * Facile sperimentazione con il posizionamento di consigli sulla pagina, tra cui l’ordine di più consigli.
-* Invio automatico di traffico all&#39;esperienza di consigli con le prestazioni migliori tramite [!UICONTROL Allocazione automatica].
-* Assegnazione dinamica di visitatori a esperienze di consigli su misura in base al loro profilo tramite [!UICONTROL Targeting automatico].
+* Invio automatico di traffico all&#39;esperienza di consigli con le prestazioni migliori tramite [!UICONTROL Auto-Allocate].
+* Assegnazione dinamica di visitatori a esperienze di consigli su misura in base al loro profilo tramite [!UICONTROL Auto-Target].
 
-Per iniziare, crea un’attività [!UICONTROL Test A/B] o [!UICONTROL Targeting delle esperienze] tramite il [!UICONTROL Compositore esperienza visivo] e utilizza l’azione [!UICONTROL Inserisci prima], [!UICONTROL Inserisci dopo] o [!UICONTROL Sostituisci con] per aggiungere consigli a un’esperienza.
+Per iniziare, crea un&#39;attività [!UICONTROL A/B Test] o [!UICONTROL Experience Targeting] utilizzando [!UICONTROL Visual Experience Composer] e utilizza l&#39;azione [!UICONTROL Insert Before], [!UICONTROL Insert After] o [!UICONTROL Replace With] per aggiungere consigli a un&#39;esperienza.
 
 Per ulteriori informazioni, consulta [Consigli come offerta](/help/main/c-recommendations/recommendations-as-an-offer.md).
 
@@ -58,7 +58,7 @@ Per ulteriori informazioni sull’utilizzo e la creazione dei criteri, vedi [Cri
 Il flusso di lavoro di [!DNL Recommendations] è stato semplificato. Anziché compilare moduli complicati, puoi seguire un flusso di lavoro visivo che consente di:
 
 1. Selezionare i criteri.
-1. Selezionare una [progettazione](/help/main/c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14).
+1. Seleziona una [progettazione](/help/main/c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14) preconfigurata.
 1. Visualizzare in anteprima i consigli risultanti.
 
 ## Anteprima visiva {#section_639B9E38C9EC4093BF9023EE0F2A15AC}
@@ -69,10 +69,10 @@ Il flusso di lavoro di [!DNL Recommendations] è stato semplificato. Anziché co
 
 In [!DNL Recommendations Classic] c&#39;erano sei opzioni di targeting. Per le attività di Consigli viene utilizzata l&#39;intera gamma di opzioni di targeting di Target. Definisci un pubblico utilizzando [!DNL Target] o altri gruppi di pubblico di [!DNL Adobe Experience Cloud] (ad esempio [!DNL Audience Manager] e [!DNL Analytics]), quindi seleziona la percentuale di partecipanti all’attività che visualizzano ogni progetto e le percentuali che vedono il controllo.
 
-![immagine overview_targeting](assets/overview_targeting.png)
+![immagine targeting_panoramica](assets/overview_targeting.png)
 
 ## Generazione di rapporti {#section_25C2FCCE4BC1488496C517C0470B5CD6}
 
 In [!DNL Target], [!DNL Recommendations] fornisce una funzione di creazione di rapporti migliorata che sfrutta le funzionalità offerte da [!DNL Target] e [!DNL Experience Cloud]. Anziché mostrare semplicemente l’incremento previsto da [!DNL Recommendations] rispetto ai risultati privi di consigli, puoi visualizzare informazioni complete relative all’attività di [!DNL Recommendations].
 
-![immagine overview_report](assets/overview_report.png)
+![immagine rapporto_panoramica](assets/overview_report.png)

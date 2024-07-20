@@ -6,18 +6,18 @@ feature: Recommendations
 exl-id: 348b1d77-49c9-4a6b-ba85-7ba051713d5b
 source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '200'
-ht-degree: 32%
+source-wordcount: '201'
+ht-degree: 19%
 
 ---
 
 # Panoramica della progettazione
 
-Progettazioni in [!DNL Adobe Target Recommendations] definire la modalità di visualizzazione dei consigli in una pagina. Le progettazioni definiscono il layout e il formato dei consigli per migliorare il coinvolgimento, la conversione e i ricavi dei visitatori.
+Le progettazioni in [!DNL Adobe Target Recommendations] definiscono la modalità di visualizzazione dei consigli in una pagina. Le progettazioni definiscono il layout e il formato dei consigli per migliorare il coinvolgimento, la conversione e i ricavi dei visitatori.
 
 [!DNL Recommendations] viene fornito con diverse progettazioni predefinite (pre-build) o puoi crearne di personalizzate.
 
-[!DNL Target] può fornire una visuale completa dei consigli, come illustrato nella figura seguente. La progettazione può includere HTML, JavaScript e CSS. Questo progetto è denominato progetto 4 x 1: quattro spazi in una riga.
+[!DNL Target] può fornire l&#39;aspetto completo dei consigli, come illustrato nella figura seguente. Il design può includere HTML, JavaScript e CSS. Questo progetto è denominato progetto 4 x 1: quattro spazi in una riga.
 
 ![immagine velocity_example](assets/velocity_example.png)
 

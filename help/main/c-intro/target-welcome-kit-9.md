@@ -6,8 +6,8 @@ feature: Overview
 exl-id: 76bd62e6-07fa-40b9-9d81-529a825500fb
 source-git-commit: 1f505991ea9a0caf0d6d49f6464550243128ffaf
 workflow-type: tm+mt
-source-wordcount: '690'
-ht-degree: 82%
+source-wordcount: '657'
+ht-degree: 78%
 
 ---
 
@@ -17,11 +17,11 @@ Abbiamo trattato le nozioni di base sull’esecuzione della tua prima attività.
 
 In ogni caso, ci sono svariati modi per saperne di più su test, personalizzazione e utilizzo di [!DNL Target]. Rivedi l’elenco delle risorse riportato di seguito e inizia ad approfondire le tue conoscenze. Ascolta i nostri webinar, leggi il blog di Adobe Target, partecipa ad Adobe Summit e partecipa attivamente nella community online di Adobe Target. Non dimenticare che siamo sempre qui per aiutarti a lanciare il tuo programma e a indirizzarlo sulla strada giusta per garantirne il successo. Contattaci in qualsiasi momento.
 
-Abbiamo compilato un elenco organizzato di informazioni importanti per consentirti di acquisire ulteriori conoscenze sull’ottimizzazione e la personalizzazione utilizzando [!DNL Target].
+Abbiamo compilato un elenco organizzato di informazioni importanti per consentirti di acquisire ulteriori conoscenze sull&#39;ottimizzazione e la personalizzazione con [!DNL Target].
 
 ## Collegamenti alle risorse
 
-* **Configurazione di Adobe Target**: informazioni utili per l’amministrazione di [!DNL Adobe Target], incluse le impostazioni di configurazione per il [!UICONTROL Compositore esperienza visivo], il reporting, la configurazione di [!DNL Scene7], l’implementazione, gli host, gli ambienti, i token di risposta e gli utenti. Consulta la [Panoramica sull’amministrazione di Target](/help/main/administrating-target/administrating-target.md).
+* **Configurazione di Adobe Target**: informazioni utili per l&#39;amministrazione di [!DNL Adobe Target], incluse le impostazioni di configurazione per [!UICONTROL Visual Experience Composer] (VEC), il reporting, la configurazione di [!DNL Scene7], l&#39;implementazione, gli host, gli ambienti, i token di risposta e gli utenti. Consulta la [Panoramica sull’amministrazione di Target](/help/main/administrating-target/administrating-target.md).
 * **Documentazione del prodotto Adobe Target**: tutto ciò che devi sapere su Adobe Target. Consulta la [documentazione del prodotto Adobe Target](https://experienceleague.adobe.com/docs/target/using/target-home.html?lang=it).
 * **Documentazione API e SDK di Adobe Target**: scopri come implementare [!DNL Target] su applicazioni lato client, applicazioni lato server, app mobili, IoT e altro ancora. Inoltre, scopri come scambiare i dati di [!DNL Target] con soluzioni di terze parti. Consulta [Panoramica dell’API di Adobe Target](/help/main/api/api-overview.md).
 * **Guida alle attività di Adobe Target**: introduzione alle diverse attività utilizzabili in [!DNL Target]. Consulta [Tipi di attività di Target](/help/main/c-activities/target-activities-guide.md).

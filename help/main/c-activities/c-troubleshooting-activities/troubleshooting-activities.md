@@ -6,8 +6,8 @@ feature: Activities
 exl-id: 6aa0486a-9ca3-4545-ae06-9b02e586d777
 source-git-commit: f1cbc46323f71c2fa091cd2c9a3e49d34676e7a1
 workflow-type: tm+mt
-source-wordcount: '863'
-ht-degree: 50%
+source-wordcount: '846'
+ht-degree: 44%
 
 ---
 
@@ -23,7 +23,7 @@ Nelle sezioni seguenti sono riportati problemi che potresti incontrare con le so
 
 ## Ho creato un’attività utilizzando l’interfaccia utente di [!DNL Target] e non posso aggiornarla tramite API.
 
-Attività create utilizzando [!DNL Target] L’interfaccia utente deve essere aggiornata tramite [!DNL Target] UI. Le attività create tramite API devono essere aggiornate tramite API. Se, ad esempio, crei un’attività utilizzando l’API, ma successivamente la modifichi tramite l’ [!DNL Target] Non tutte le modifiche vengono aggiornate. Tutte le modifiche vengono memorizzate sul backend e possono essere aggiornate effettuando un’altra chiamata API.
+Le attività create utilizzando l&#39;interfaccia utente [!DNL Target] devono essere aggiornate tramite l&#39;interfaccia utente [!DNL Target]. Le attività create tramite API devono essere aggiornate tramite API. Se, ad esempio, crei un&#39;attività utilizzando l&#39;API ma successivamente la modifichi tramite l&#39;interfaccia utente [!DNL Target], non tutte le modifiche vengono aggiornate. Tutte le modifiche vengono memorizzate sul backend e possono essere aggiornate effettuando un’altra chiamata API.
 
 Come best practice, prova ad aggiornare l’attività utilizzando lo stesso metodo (interfaccia utente o API) utilizzato per creare l’attività stessa.
 
@@ -33,7 +33,7 @@ Assicurati che l’attività sia stata completata e attivata.
 
 ## L’attività non è live.
 
-**Convalida:** Vai a [!UICONTROL Panoramica] e verificare se il test è contrassegnato come inattivo o come bozza.
+**Convalida:** Vai alla scheda [!UICONTROL Overview] e controlla se il test è contrassegnato come inattivo o come bozza.
 
 **Opzioni:**
 
@@ -51,11 +51,11 @@ Assicurati che l’attività sia stata completata e attivata.
 
 ## La pagina non è idonea per le condizioni di targeting della pagina.
 
-**Convalida:** Il giorno [!UICONTROL Panoramica] , determinare se la pagina non soddisfa le condizioni di targeting.
+**Convalida:** Nella pagina [!UICONTROL Overview], verifica se la pagina non soddisfa le condizioni di targeting.
 
 **Opzioni:**
 
-* Vai a [!UICONTROL Compositore esperienza visivo], fai clic su URL > Avanzate > pagina corrente.
+* Vai a [!UICONTROL Visual Experience Composer], fai clic su URL > Avanzate > pagina corrente.
 
 ## Viene visualizzata un’esperienza precedente anziché quella nuova.
 
@@ -69,45 +69,45 @@ Assicurati che l’attività sia stata completata e attivata.
 
 ## Sei stato aggiunto di recente a [!DNL Target] ma non puoi creare attività.
 
-**Convalida:**[!UICONTROL  fai clic su Crea attività]. Se l’opzione non è disponibile, è molto probabile che non disponi delle autorizzazioni necessarie per creare un’attività.
+**Convalida:** Fare clic su [!UICONTROL Create Activity]. Se l’opzione non è disponibile, è molto probabile che non disponi delle autorizzazioni necessarie per creare un’attività.
 
 **Opzioni:**
 
-Dopo essere stato aggiunto come utente in [!DNL Target], è necessario disporre di [!UICONTROL Approvatore] per creare attività.
+Dopo essere stato aggiunto come utente in [!DNL Target], è necessario disporre del ruolo [!UICONTROL Approver] per creare attività.
 
 * Chiedi all&#39;amministratore del tuo account di renderti un approvatore.
-* Se sei l’Amministratore, assegnati il [!UICONTROL Approvatore] ruolo da **[!UICONTROL Amministrazione]** > **[!UICONTROL Utenti]** in [!DNL Target].
+* Se sei l&#39;amministratore, assegnati il ruolo [!UICONTROL Approver] da **[!UICONTROL Administration]** > **[!UICONTROL Users]** in [!DNL Target].
 
-   Consulta [Assegnare a se stessi il ruolo di Approvatore](/help/main/administrating-target/start-target.md#task_15CAA437A71444E2932B333D5E66A3C7).
+  Consulta [Assegnare a se stessi il ruolo di Approvatore](/help/main/administrating-target/start-target.md#task_15CAA437A71444E2932B333D5E66A3C7).
 
 ## La struttura della pagina è cambiata dal momento della configurazione dell’attività.
 
-**Convalida:**[!UICONTROL  apri Compositore esperienza visivo per l’attività esistente. ] Ricerca un messaggio di avviso che indica che i selettori (o la struttura) sono cambiati.
+**Convalida:** Vai a [!UICONTROL Visual Experience Composer] per l&#39;attività esistente. Ricerca un messaggio di avviso che indica che i selettori (o la struttura) sono cambiati.
 
 **Opzioni:**
 
 * Ricrea l’attività.
 
-Per ulteriori informazioni sugli effetti delle modifiche apportate alle pagine [!DNL Target]capacità di visualizzazione di, consulta [Scenari di modifica delle pagine](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md#concept_A458A95F65B4401588016683FB1694DB).
+Per ulteriori informazioni su come le modifiche di pagina influiscono sulla capacità di visualizzazione di [!DNL Target], vedere [Scenari di modifica delle pagine](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md#concept_A458A95F65B4401588016683FB1694DB).
 
 ## La struttura della pagina viene modificata durante il caricamento (in fase di esecuzione).
 
 **Convalida:** interpella lo sviluppatore.
 
-**Nota:** Per ottenere [!DNL Target] per riconoscere dove applicare le modifiche all’attività, evita di inserire dinamicamente un elemento con la stessa classe o di modificare dinamicamente la classe di qualsiasi elemento di pari livello.
+**Nota:** affinché [!DNL Target] riconosca dove applicare le modifiche all&#39;attività, evita di inserire dinamicamente un elemento con la stessa classe o di modificare dinamicamente la classe di qualsiasi elemento di pari livello.
 
 **Opzioni:**
 
 * Aggiorna il codice della pagina per identificare in modo univoco ogni elemento testato (utilizzando un ID).
 * Interrompi la modifica dinamica della classe o degli elementi di pari livello come descritto sopra.
 
-Per ulteriori informazioni sugli effetti delle modifiche apportate alle pagine [!DNL Target]capacità di visualizzazione di, consulta [Scenari di modifica delle pagine](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md#concept_A458A95F65B4401588016683FB1694DB).
+Per ulteriori informazioni su come le modifiche di pagina influiscono sulla capacità di visualizzazione di [!DNL Target], vedere [Scenari di modifica delle pagine](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md#concept_A458A95F65B4401588016683FB1694DB).
 
 ## Altre attività sono in esecuzione sulla stessa pagina.
 
-**Convalida:** Utilizza il [!UICONTROL Conflitti] per verificare se sono in esecuzione altre attività.
+**Convalida:** Utilizzare la scheda [!UICONTROL Collisions] per verificare se sono in esecuzione altre attività.
 
-**Nota:**[!UICONTROL  la scheda Conflitti non funziona con il modulo Test modelli.]
+**Nota:** la scheda [!UICONTROL Collisions] non funziona con il modulo Test modello.
 
 **Opzioni:**
 
@@ -117,25 +117,25 @@ Per ulteriori informazioni sugli effetti delle modifiche apportate alle pagine [
 
 ## Quando elimini uno script di profilo, viene visualizzato un messaggio di errore.
 
-**Convalida:**[!DNL Target] se elimini uno script di profilo da , viene visualizzato il messaggio di errore “Impossibile eliminare lo script del profilo”.
+**Convalida:** L&#39;eliminazione di uno script di profilo da [!DNL Target] comporta la visualizzazione del messaggio di errore &quot;Impossibile eliminare lo script di profilo&quot;.
 
 **Opzioni:**
 
 Esegui una delle operazioni seguenti:
 
 * Elimina nuovamente lo script del profilo. Viene visualizzato il messaggio di operazione eseguita correttamente.
-* Attendere circa 10 minuti per [!DNL Target] importazione da eseguire. L’importazione aggiorna l’elenco degli script di profilo.
+* Attendere circa 10 minuti per l&#39;esecuzione dell&#39;importazione [!DNL Target]. L’importazione aggiorna l’elenco degli script di profilo.
 
 ## Alcune chiamate AJAX di [!DNL Target] non funzionano.
 
-**Nota:** AJAX multiplo [!DNL Target] Le chiamate con lo stesso nome ma diversi parametri non funzionano sulla stessa pagina. Viene effettuata solo la prima chiamata.
+**Nota:** più chiamate AJAX [!DNL Target] con lo stesso nome ma diversi parametri non funzionano sulla stessa pagina. Viene effettuata solo la prima chiamata.
 
-## Hai attivato un’attività utilizzando l’API di [!DNL Target], ma l’attività risulta [!UICONTROL inattiva] nell’interfaccia utente di [!DNL Target].
+## Hai attivato un&#39;attività utilizzando l&#39;API [!DNL Target], ma l&#39;attività mostra uno stato di [!UICONTROL Inactive] nell&#39;interfaccia utente [!DNL Target].
 
-Quando esegui determinate azioni, ad esempio l’attivazione di un’attività al di fuori dell’interfaccia utente utilizzando [!DNL Target] API, l&#39;aggiornamento può richiedere fino a dieci minuti per propagarsi all&#39;interfaccia utente.
+Quando si eseguono determinate azioni, ad esempio l&#39;attivazione di un&#39;attività al di fuori dell&#39;interfaccia utente tramite l&#39;API [!DNL Target], l&#39;aggiornamento può richiedere fino a dieci minuti per propagarsi all&#39;interfaccia utente.
 
 ## Dopo la conversione dell’attività, il visitatore non si trova in alcuna esperienza.
 
-In rari casi, se la metrica di conversione dell’attività per qualificarsi per un’esperienza viene inviata nella stessa richiesta di qualificazione dell’attività, il visitatore potrebbe non trovarsi in alcuna esperienza dopo l’invio della richiesta. In questa situazione, il visitatore vede che il contenuto predefinito e l&#39;ID esperienza acquisito tramite i token sarebbe -1. [!DNL Adobe] sconsiglia di inviare qualificazione e conversione dell’attività nello stesso [!DNL Target] richiesta.
+In rari casi, se la metrica di conversione dell’attività per qualificarsi per un’esperienza viene inviata nella stessa richiesta di qualificazione dell’attività, il visitatore potrebbe non trovarsi in alcuna esperienza dopo l’invio della richiesta. In questa situazione, il visitatore vede che il contenuto predefinito e l&#39;ID esperienza acquisito tramite i token sarebbe -1. [!DNL Adobe] non consiglia di inviare qualificazione e conversione attività nella stessa richiesta [!DNL Target].
 
-Se desideri inviare entrambe le metriche nella stessa richiesta, puoi utilizzare [!UICONTROL Impostazioni avanzate] per specificare che il visitatore rimane nella stessa esperienza dopo la conversione.
+Se desideri inviare entrambe le metriche nella stessa richiesta, puoi utilizzare [!UICONTROL Advanced Settings] per specificare che il visitatore rimane nella stessa esperienza dopo la conversione.

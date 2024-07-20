@@ -1,26 +1,26 @@
 ---
 keywords: compositore esperienza visivo;vec;url predefinito;compositore esperienza avanzato;eec;contenuto misto;istantanee esperienza;riquadro di visualizzazione mobile;css;selettori css
-description: Scopri come configurare l’Adobe [!DNL Target] Compositore esperienza visivo specificandone le impostazioni generali, la configurazione del riquadro di visualizzazione mobile e i selettori CSS.
+description: Scopri come configurare il Compositore esperienza visivo di Adobe [!DNL Target] specificandone le impostazioni generali, la configurazione del riquadro di visualizzazione mobile e i selettori CSS.
 title: Come si configura il Compositore esperienza visivo?
 feature: Administration & Configuration
 role: Admin
 exl-id: cf6c9ece-6745-477e-81ac-a3e9a9fddb09
 source-git-commit: fa11f93058b69e5e59e0ee20c65cffa4a1344ca0
 workflow-type: tm+mt
-source-wordcount: '726'
-ht-degree: 57%
+source-wordcount: '690'
+ht-degree: 48%
 
 ---
 
 # Configurare il Compositore esperienza visivo
 
-Configurare [!DNL Adobe Target] [!UICONTROL Compositore esperienza visivo] (VEC) specificando le impostazioni generali, la configurazione del riquadro di visualizzazione mobile e i selettori CSS.
+Configura [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC) specificandone le impostazioni generali, la configurazione del riquadro di visualizzazione mobile e i selettori CSS.
 
-Per accedere al [!UICONTROL Compositore esperienza visivo] nella pagina di configurazione, fai clic su **[!UICONTROL Amministrazione]** > **[!UICONTROL Compositore esperienza visivo].**
+Per accedere alla pagina di configurazione [!UICONTROL Visual Experience Composer], fare clic su **[!UICONTROL Administration]** > **[!UICONTROL Visual Experience Composer].**
 
 >[!NOTE]
 >
->Tieni presente che le impostazioni di questa pagina si applicano all’intero [!DNL Target] account.
+>Tenere presente che le impostazioni di questa pagina si applicano all&#39;intero account [!DNL Target].
 
 ![Pagina di configurazione del Compositore esperienza visivo](/help/main/administrating-target/assets/vec.png)
 
@@ -34,19 +34,19 @@ Sono disponibili le seguenti impostazioni:
 
 ### URL predefinito
 
-Imposta l&#39;URL predefinito utilizzato dal [!UICONTROL Compositore esperienza visivo]. Si tratta della pagina predefinita, ad esempio la pagina principale, utilizzata ogni volta che configuri un’esperienza per ogni nuova attività. Se non imposti un URL predefinito, dovrai immetterne uno ogni volta che crei una nuova attività.
+Impostare l&#39;URL predefinito utilizzato da [!UICONTROL Visual Experience Composer]. Si tratta della pagina predefinita, ad esempio la pagina principale, utilizzata ogni volta che configuri un’esperienza per ogni nuova attività. Se non imposti un URL predefinito, dovrai immetterne uno ogni volta che crei una nuova attività.
 
 ### Abilita Compositore esperienza avanzato {#eec}
 
-Consente la modifica sui siti non compatibili con iFrame e su siti con contenuti misti. Alcuni siti potrebbero non essere compatibili con la versione avanzata. Deseleziona questa opzione per ripristinare l’originale [!UICONTROL Compositore esperienza visivo]. La distribuzione delle attività ai siti non è interessata da questa selezione.
+Consente la modifica sui siti non compatibili con iFrame e su siti con contenuti misti. Alcuni siti potrebbero non essere compatibili con la versione avanzata. Deselezionare questa opzione per ripristinare l&#39;originale [!UICONTROL Visual Experience Composer]. La distribuzione delle attività ai siti non è interessata da questa selezione.
 
-Per ulteriori informazioni, consulta [Risoluzione dei problemi relativi a Compositore esperienza visivo.](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md)
+Per ulteriori informazioni, vedete [Risoluzione dei problemi relativi a Compositore esperienza visivo](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md).
 
-È inoltre possibile abilitare [!UICONTROL Compositore esperienza avanzato] a livello di attività.
+È inoltre possibile abilitare [!UICONTROL Enhanced Experience Composer] a livello di attività.
 
 ### Caricamento contenuto misto
 
-Abilitare i contenuti misti durante l&#39;apertura di un sito Web utilizzando [!UICONTROL Compositore esperienza avanzato] (CEE). L’abilitazione di questa opzione evita un carico aggiuntivo dovuto al caricamento di risorse statiche tramite [!DNL Target] server proxy.
+Abilita i contenuti misti durante l&#39;apertura di un sito Web utilizzando [!UICONTROL Enhanced Experience Composer] (Compositore esperienza avanzato). L&#39;abilitazione di questa opzione evita un carico aggiuntivo dovuto al caricamento di risorse statiche tramite i server proxy [!DNL Target].
 
 Questa opzione è utile se, ad esempio:
 
@@ -61,9 +61,9 @@ L&#39;attivazione delle istantanee esperienza genera miniature per le tue esperi
 
 Puoi aggiungere dispositivi da utilizzare quando visualizzi le esperienze in anteprima. A ogni dispositivo è associato un pubblico.
 
-![Sezione Configurazione riquadro di visualizzazione mobile](/help/main/administrating-target/assets/mobile-viewport-configuration.png)
+![Sezione configurazione riquadro di visualizzazione mobile](/help/main/administrating-target/assets/mobile-viewport-configuration.png)
 
-Clic **[!UICONTROL Aggiungi]**, specifica un nome descrittivo per il riquadro di visualizzazione mobile, specifica la larghezza e l&#39;altezza, seleziona il sistema operativo desiderato, quindi fai clic su [!UICONTROL Salva].
+Fare clic su **[!UICONTROL Add]**, specificare un nome descrittivo per il riquadro di visualizzazione mobile, specificare larghezza e altezza, selezionare il sistema operativo desiderato, quindi fare clic su [!UICONTROL Save].
 
 Per informazioni su come aggiungere un riquadro di visualizzazione mobile, vedi [Configurazione di riquadri di visualizzazione per dispositivi mobili](/help/main/c-experiences/c-visual-experience-composer/mobile-viewports.md).
 
@@ -71,7 +71,7 @@ Per informazioni su come aggiungere un riquadro di visualizzazione mobile, vedi 
 
 Specifica come [!DNL Target] genera selettori CSS.
 
-![Sezione Selettori CSS](/help/main/administrating-target/assets/css-selectors.png)
+![Sezione selettori CSS](/help/main/administrating-target/assets/css-selectors.png)
 
 Queste opzioni permettono a [!DNL Target] di comprendere la struttura del sito per generare selettori CSS in modo più efficace per la distribuzione dei contenuti. Per impostazione predefinita, [!DNL Target] genera selettori in base agli ID degli elementi nella pagina. Utilizzare pochi ID, o duplicare gli ID nella stessa pagina, utilizzando poi le classi, potrebbe essere un&#39;opzione migliore per il tuo sito.
 
@@ -83,19 +83,19 @@ Deseleziona questa opzione se lo stesso ID viene utilizzato per più elementi o 
 
 ### Utilizza classi elemento
 
-Per impostazione predefinita, [!DNL Target] utilizza solo ID elemento. Tuttavia, se la tua pagina è progettata per utilizzare le classi per identificare gli elementi, ad esempio una pagina creata con [!DNL Adobe Experience Manager], dovrai selezionare anche [!UICONTROL Usa classi elemento].
+Per impostazione predefinita, [!DNL Target] utilizza solo ID elemento. Tuttavia, se la pagina è progettata per utilizzare le classi per identificare gli elementi, ad esempio una pagina creata con [!DNL Adobe Experience Manager], è necessario selezionare anche [!UICONTROL Use element classes].
 
 >[!NOTE]
 >
 >Sebbene sia stato fatto tutto il possibile per garantire la precisione, l’utilizzo delle classi può causare errori. Anche non selezionare nessuna opzione influenza la precisione. L&#39;ordine di precisione è ID > classi > nessuna opzione. Testa sempre la pagina per assicurarti che i selettori siano corretti.
 
-Puoi eseguire l&#39;override di questa [!UICONTROL impostazione] per ogni attività (fai clic sull&#39;icona Impostazioni, quindi seleziona [!UICONTROL Selettori CSS]). È particolarmente utile se disponi di più siti configurati in modo diverso.
+È possibile sovrascrivere questa impostazione per ogni attività (fare clic sull&#39;icona a forma di ingranaggio [!UICONTROL Settings], quindi selezionare [!UICONTROL CSS Selectors]). È particolarmente utile se disponi di più siti configurati in modo diverso.
 
 >[!NOTE]
 >
->La possibilità di bypassare l’impostazione per ogni attività non è disponibile in [!UICONTROL Automated Personalization] e [!UICONTROL Multivariate Testing] attività.  Per ulteriori informazioni sui selettori, vedi [Selettori di elementi utilizzati nel Compositore esperienza visivo](/help/main/c-experiences/c-visual-experience-composer/vec-selectors.md).
+>L&#39;override dell&#39;impostazione per ogni attività non è disponibile nelle attività [!UICONTROL Automated Personalization] e [!UICONTROL Multivariate Testing].  Per ulteriori informazioni sui selettori, vedi [Selettori di elementi utilizzati nel Compositore esperienza visivo](/help/main/c-experiences/c-visual-experience-composer/vec-selectors.md).
 
-## Video di formazione: Preferenze account (7:33) ![Badge panoramica](/help/main/assets/overview.png)
+## Video di formazione: Preferenze account (7:33) ![Icona panoramica](/help/main/assets/overview.png)
 
 In questo video trovi informazioni sulle preferenze dell&#39;account.
 
@@ -103,6 +103,6 @@ In questo video trovi informazioni sulle preferenze dell&#39;account.
 
 >[!NOTE]
 >
->L’interfaccia utente di [!DNL Target] del menu [!UICONTROL Amministrazione] (precedentemente [!UICONTROL Configurazione]) è stato riprogettato per fornire prestazioni migliori, ridurre il tempo di manutenzione necessario durante il rilascio di nuove funzioni e migliorare l’esperienza utente nel prodotto. Le informazioni contenute nel video seguente sono generalmente corrette; tuttavia, le opzioni potrebbero trovarsi in punti leggermente diversi. I video aggiornati verranno pubblicati a breve.
+>L&#39;interfaccia utente del menu [!DNL Target] [!UICONTROL Administration] (in precedenza [!UICONTROL Setup]) è stata riprogettata per fornire prestazioni migliori, ridurre il tempo di manutenzione necessario per il rilascio di nuove funzionalità e migliorare l&#39;esperienza utente nel prodotto. Le informazioni contenute nel video seguente sono generalmente corrette; tuttavia, le opzioni potrebbero trovarsi in punti leggermente diversi. I video aggiornati verranno pubblicati a breve.
 
 >[!VIDEO](https://video.tv.adobe.com/v/17379)

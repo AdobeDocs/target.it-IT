@@ -1,19 +1,19 @@
 ---
 keywords: dati dinamici;risorse;dati;offerte;offerte personalizzate;offerte personali;sostituzione token
-description: Scopri come trasmettere dati dinamici in [!DNL Adobe Target] Offerte.
+description: Scopri come passare dati dinamici in [!DNL Adobe Target] Offerte.
 title: Come posso trasmettere i dati dinamici nelle offerte?
 feature: Experiences and Offers
 exl-id: b8f9c6eb-1000-41a2-aa3f-bc42c1ef5669
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
 workflow-type: tm+mt
-source-wordcount: '531'
+source-wordcount: '535'
 ht-degree: 63%
 
 ---
 
 # Trasmettere i dati dinamici nelle offerte
 
-È possibile visualizzare in modo dinamico le informazioni sui visitatori memorizzate in [!DNL Adobe Target] profilo. Analogamente, le informazioni relative all’attività (come il nome dell’attività o dell’esperienza) possono inoltre essere utilizzate per creare una singola offerta in grado di restituire in modo dinamico contenuti personalizzati in base agli interessi del visitatore, al comportamento passato e al profilo complessivo.
+È possibile visualizzare in modo dinamico le informazioni sui visitatori memorizzate nel profilo [!DNL Adobe Target]. Analogamente, le informazioni relative all’attività (come il nome dell’attività o dell’esperienza) possono inoltre essere utilizzate per creare una singola offerta in grado di restituire in modo dinamico contenuti personalizzati in base agli interessi del visitatore, al comportamento passato e al profilo complessivo.
 
 ## Casi aziendali
 
@@ -47,7 +47,7 @@ I seguenti valori possono essere “sostituiti tramite token”:
 
 Registra le informazioni nella console per scopi di debug, come `${campaign.name}`, `${campaign.id}`, `${campaign.recipe.name}`, `${campaign.recipe.id}`, `${offer.name}`, `${offer.id}`, `${campaign.name}`
 
-Per [!DNL Recommendations] progettazioni, vedi ulteriori esempi in [Panoramica della progettazione](/help/main/c-recommendations/c-design-overview/design-overview.md).
+Per [!DNL Recommendations] progettazioni, vedere ulteriori esempi in [Panoramica progettazione](/help/main/c-recommendations/c-design-overview/design-overview.md).
 
 ## Implementazione
 
@@ -59,7 +59,7 @@ Per i parametri di profilo creati in uno script di profilo, utilizza la sintassi
 
 `${user.parameter}`
 
-Quando si utilizzano attributi dinamici in un [!DNL Recommendations] Se necessario, inserisci una barra rovesciata ( \ ) prima del simbolo del dollaro ( $ ) affinché il valore dinamico possa essere visualizzato correttamente:
+Quando si utilizzano attributi dinamici in una progettazione [!DNL Recommendations], è necessario inserire una barra rovesciata ( \ ) prima del simbolo del dollaro ( $ ) affinché il valore dinamico possa essere visualizzato correttamente:
 
 `\${user.endpoint.lastViewedEntity}`
 

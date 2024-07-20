@@ -1,7 +1,7 @@
 ---
 keywords: esclusioni
-description: Scopri come creare esclusioni in [!DNL Target Recommendations] per evitare che prodotti o contenuti vengano consigliati ai visitatori.
-title: Come si utilizzano le esclusioni in [!UICONTROL Recommendations] Attività?
+description: Scopri come creare esclusioni in [!DNL Target Recommendations] per impedire che prodotti o contenuti vengano consigliati ai visitatori.
+title: Come si utilizzano le esclusioni nelle attività [!UICONTROL Recommendations]?
 feature: Recommendations
 hide: true
 hidefromtoc: true
@@ -14,9 +14,9 @@ ht-degree: 18%
 
 # Esclusioni
 
-Creare un’esclusione in [!DNL Adobe Target Recommendations] per evitare che prodotti o contenuti vengano consigliati ai visitatori. Un’esclusione è un sottoinsieme di prodotti o contenuti che non devono essere consigliati ai visitatori.
+Crea un&#39;esclusione in [!DNL Adobe Target Recommendations] per impedire che prodotti o contenuti vengano consigliati ai visitatori. Un’esclusione è un sottoinsieme di prodotti o contenuti che non devono essere consigliati ai visitatori.
 
-Le esclusioni sono disponibili a livello dell&#39;intero account. A differenza delle raccolte, in cui si specifica una raccolta specifica per ogni esperienza durante la creazione di un [!UICONTROL Recommendations] attività, le esclusioni si applicano a tutte le attività nell’account. Non è possibile assegnare un gruppo di esclusione durante la creazione dell’attività.
+Le esclusioni sono disponibili a livello dell&#39;intero account. A differenza delle raccolte, in cui si specifica una raccolta specifica per ogni esperienza durante la creazione di un&#39;attività [!UICONTROL Recommendations], le esclusioni si applicano a tutte le attività dell&#39;account. Non è possibile assegnare un gruppo di esclusione durante la creazione dell’attività.
 
 Alcuni esempi di utilizzo delle esclusioni includono:
 
@@ -28,33 +28,33 @@ Alcuni esempi di utilizzo delle esclusioni includono:
 
 >[!IMPORTANT]
 >
->Le regole di esclusione vengono applicate a livello globale a tutti [ambienti](/help/main/administrating-target/environments.md).
+>Le regole di esclusione vengono applicate globalmente a tutti i [ambienti](/help/main/administrating-target/environments.md).
 >
 >Le regole di esclusione statica e dinamica sono funzioni molto efficaci che possono esserti utili nelle iniziative di marketing. Per informazioni dettagliate, esempi e scenari di utilizzo, consulta [Utilizzare regole di inclusione dinamiche e statiche](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#concept_4CB5C0FA705D4E449BD0B37B3D987F9F).
 
 ## Creare un’esclusione
 
-1. Clic **[!UICONTROL Recommendations]** > **[!UICONTROL Exclusions]** per visualizzare l’elenco delle esclusioni esistenti.
+1. Fai clic su **[!UICONTROL Recommendations]** > **[!UICONTROL Exclusions]** per visualizzare l&#39;elenco delle esclusioni esistenti.
 
-   ![immagine elenco_esclusioni](assets/exclusions-list.png)
+   ![immagine elenco esclusioni](assets/exclusions-list.png)
 
-   Il &quot;Numero di elementi&quot; segnalato per ogni esclusione sulla [!UICONTROL Exclusions] vista a elenco è il numero di prodotti che corrispondono alle regole per tale esclusione all’interno del Recommendations predefinito configurato [gruppo host](/help/main/administrating-target/hosts.md) (ambiente). Consulta [Pianificare e implementare [!DNL Recommendations]](https://experienceleague.adobe.com/en/docs/target-dev/developer/recommendations){target=_blank} nel *Guida per gli sviluppatori di Adobe Target* per informazioni su come modificare il gruppo host predefinito.
+   Il &quot;Numero di elementi&quot; segnalato per ogni esclusione nella visualizzazione elenco [!UICONTROL Exclusions] è il numero di prodotti che corrispondono alle regole per tale esclusione all&#39;interno del gruppo Recommendations [host](/help/main/administrating-target/hosts.md) (ambiente) predefinito configurato. Per informazioni su come modificare il gruppo host predefinito, vedere [Pianificare e implementare [!DNL Recommendations]](https://experienceleague.adobe.com/en/docs/target-dev/developer/recommendations){target=_blank} nella *Guida per gli sviluppatori di Adobe Target*.
 
-1. (Condizionale) Fai clic su [!UICONTROL Filter] , quindi scegli il [ambiente](/help/main/administrating-target/environments.md) dal **[!UICONTROL Environment]** durante la creazione (o l’aggiornamento) di un’esclusione per visualizzare in anteprima i contenuti dell’esclusione in tale ambiente. Per impostazione predefinita, sono visualizzati i risultati del gruppo di host predefinito.
+1. (Facoltativo) Fai clic sull&#39;icona [!UICONTROL Filter], quindi scegli l&#39;[ambiente](/help/main/administrating-target/environments.md) desiderato dall&#39;elenco a discesa **[!UICONTROL Environment]** durante la creazione (o l&#39;aggiornamento) di un&#39;esclusione per visualizzare in anteprima i contenuti dell&#39;esclusione in tale ambiente. Per impostazione predefinita, sono visualizzati i risultati del gruppo di host predefinito.
 
    ![Creare un’esclusione](/help/main/c-recommendations/c-products/assets/choose-environment.png)
 
-1. Clic **[!UICONTROL Create Exclusion]**.
+1. Fare clic su **[!UICONTROL Create Exclusion]**.
 
    ![Finestra di dialogo Crea esclusione](/help/main/c-recommendations/c-products/assets/create-exclusion.png)
 
-1. Digita un’esclusione **[!UICONTROL Name]** e inserisci una descrizione facoltativa.
+1. Digitare un&#39;esclusione **[!UICONTROL Name]** e immettere una descrizione facoltativa.
 
 1. Utilizza il generatore di regole per creare le esclusioni.
 
    Seleziona un parametro nell’elenco delle regole, seleziona un operatore, quindi immetti uno o più valori per identificare i prodotti. Separa i valori con le virgole.
 
-1. Clic **[!UICONTROL Create]**.
+1. Fare clic su **[!UICONTROL Create]**.
 
 <!-- ## Create an exclusion using Advanced Search
 
@@ -70,7 +70,7 @@ After creating a search using "id > contains," for example, you can then click [
 
 ## Modificare, copiare o eliminare un’esclusione
 
-Fai clic su **puntini di sospensione** accanto all’esclusione desiderata nell’elenco, quindi fai clic sull’icona appropriata: modifica, copia o elimina.
+Fai clic sull&#39;icona **puntini di sospensione** accanto all&#39;esclusione desiderata nell&#39;elenco, quindi fai clic sull&#39;icona appropriata: modifica, copia o elimina.
 
 ![Opzioni: modifica, copia ed elimina](/help/main/c-recommendations/c-products/assets/edit-copy-delete.png)
 

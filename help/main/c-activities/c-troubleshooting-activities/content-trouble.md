@@ -6,8 +6,8 @@ feature: Activities
 exl-id: 887b7956-1d61-439a-8339-c150deb9a378
 source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
 workflow-type: tm+mt
-source-wordcount: '1667'
-ht-degree: 95%
+source-wordcount: '1622'
+ht-degree: 87%
 
 ---
 
@@ -27,20 +27,20 @@ Dato che in mboxTrace e mboxDebug è possibile esporre dati sulla campagna e sul
 
 Per generare un token di autenticazione, è necessario disporre di una delle seguenti autorizzazioni utente:
 
-* Almeno il livello di autorizzazione [!UICONTROL Editor] (o [!UICONTROL Approvatore])
+* Almeno [!UICONTROL Editor] autorizzazione (o [!UICONTROL Approver])
 
-   Per ulteriori informazioni per i clienti [!DNL Target Standard], consulta [Specificare ruoli e autorizzazioni](/help/main/administrating-target/c-user-management/c-user-management/user-management.md#roles-permissions) in *Utenti*. Per ulteriori informazioni per i clienti [!DNL Target Premium], consulta [Configurare le autorizzazioni aziendali](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md).
+  Per ulteriori informazioni per i clienti [!DNL Target Standard], consulta [Specificare ruoli e autorizzazioni](/help/main/administrating-target/c-user-management/c-user-management/user-management.md#roles-permissions) in *Utenti*. Per ulteriori informazioni per i clienti [!DNL Target Premium], consulta [Configurare le autorizzazioni aziendali](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md).
 
 * Ruolo amministratore a livello di area di lavoro/profilo di prodotto
 
-   Le aree di lavoro sono disponibili solo per i clienti [!DNL Target Premium]. Per ulteriori informazioni, consulta [Configurare le autorizzazioni aziendali](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md).
+  Le aree di lavoro sono disponibili solo per i clienti [!DNL Target Premium]. Per ulteriori informazioni, consulta [Configurare le autorizzazioni aziendali](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md).
 
 * Diritti di amministrazione (autorizzazione Sysadmin) a livello di prodotto [!DNL Adobe Target]
 
 Per recuperare il token di autorizzazione:
 
-1. Fai clic su **[!UICONTROL Amministrazione]** > **[!UICONTROL Implementazione]**.
-1. Dalla sezione Strumenti di debug, fai clic su **[!UICONTROL Genera nuovo token di autenticazione]**.
+1. Fare clic su **[!UICONTROL Administration]** > **[!UICONTROL Implementation]**.
+1. Dalla sezione Strumenti di debug, fare clic su **[!UICONTROL Generate New Authentication Token]**.
 
    ![Generare un nuovo token di autenticazione](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/assets/debugger-auth-token.png)
 
@@ -83,7 +83,7 @@ Alcune delle informazioni includono ID di destinazione e di segmento associati e
 * Esclusioni e inclusioni applicate
 * Regole di raccolta
 
-Non devi includere `=console`, `=json` o `=window` nel parametro di query. Una volta completati i dettagli mboxTrace, aggiungi `=disable` e premi **[!UICONTROL Invio]** per tornare alla modalità di visualizzazione normale.
+Non è necessario includere `=console`, `=json` o `=window` nel parametro di query. Una volta completati i dettagli mboxTrace, aggiungere `=disable` e premere **[!UICONTROL Enter]** per tornare alla modalità di visualizzazione normale.
 
 mboxTrace non influenza il normale funzionamento e aspetto del tuo sito. I visitatori vedranno la solita struttura dei consigli.
 
@@ -127,7 +127,7 @@ Target non supporta più Internet Explorer 8.
 
 ## Cookie di Target non impostato {#section_77AFEB541C0B495EB67E29A4475DF960}
 
-Se nel sito è presente un sottodominio, ad esempio [!DNL us.domain.com], ma è necessario impostare il cookie di Target su [!DNL domain.com] (anziché [!DNL us.domain.com]), devi sovrascrivere l’impostazione `cookieDomain`. Per ulteriori informazioni, consulta [targetGlobalSettings()](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetglobalsettings.html){target=_blank}.
+Se nel sito è presente un sottodominio, ad esempio [!DNL us.domain.com], ma è necessario impostare il cookie di Target su [!DNL domain.com] (anziché [!DNL us.domain.com]), devi sovrascrivere l’impostazione `cookieDomain`. Per ulteriori informazioni, vedere [targetGlobalSettings()](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetglobalsettings.html?lang=it){target=_blank}.
 
 ## Il contenuto di Target viene visualizzato momentaneamente o non viene visualizzato se un elemento fa anche parte della personalizzazione di Adobe Experience Manager. {#section_9E1DABEB75AB431FB9F09887E6DD07D3}
 
@@ -153,11 +153,11 @@ at.js non attiva le richieste di Target se utilizzi un doctype non valido. at.js
 
 ## Assicurati che le attività di [!DNL Target] gestiscano correttamente gli URL con parametri di stringa di query. {#query-strings}
 
-[!UICONTROL URL attività] determina la pagina che qualifica i visitatori per l’attività ed esegue il rendering delle esperienze di attività per gli utenti. Quando viene richiesto durante la creazione dell’attività, la digitazione dell’URL completo non sempre assicura che il contenuto venga distribuito sulla pagina del sito, in particolare con gli URL che contengono parametri della stringa di query.
+[!UICONTROL Activity URL] determina la pagina che qualifica i visitatori per l&#39;attività ed esegue il rendering delle esperienze di attività per gli utenti. Quando viene richiesto durante la creazione dell’attività, la digitazione dell’URL completo non sempre assicura che il contenuto venga distribuito sulla pagina del sito, in particolare con gli URL che contengono parametri della stringa di query.
 
-Per impostazione predefinita, il [!UICONTROL Compositore esperienza visivo] apre la pagina specificata nelle [Impostazioni del Compositore esperienza visivo](/help/main/administrating-target/visual-experience-composer-set-up.md). È anche possibile specificare una pagina diversa durante la creazione dell’attività.
+Per impostazione predefinita, [!UICONTROL Visual Experience Composer] (VEC) apre la pagina specificata nelle [impostazioni del Compositore esperienza visivo](/help/main/administrating-target/visual-experience-composer-set-up.md). È anche possibile specificare una pagina diversa durante la creazione dell’attività.
 
-Per visualizzare una pagina diversa dopo l’apertura del Compositore esperienza visivo, fai clic su **[!UICONTROL Configura (icona ingranaggio)]** > seleziona **[!UICONTROL Consegna pagina]** > quindi specifica l’URL nel campo [!UICONTROL URL attività].
+Per visualizzare una pagina diversa dopo l&#39;apertura del Compositore esperienza visivo, fai clic su **[!UICONTROL Configure gear icon]** > seleziona **[!UICONTROL Page Delivery]** > quindi specifica l&#39;URL desiderato nel campo [!UICONTROL Activity URL].
 
 ![Configurare l’interfaccia utente delle impostazioni di Consegna pagina](assets/configure-page-delivery.png)
 
@@ -183,13 +183,13 @@ In questo caso, l’URL è `https://shopping.mycart.com?type=Summers%20Offers` e
 
 ### Opzione 3: invece di eseguire il targeting dell’URL completo, sfruttane una parte specifica.
 
-In questo caso, l’URL è `https://shopping.mycart.com?type=Summers%20Offers` e regole di modello aggiuntive specificano una [!UICONTROL Query] con [!UICONTROL tipo] > [!UICONTROL è (distinzione maiuscole/minuscole)] > type=Summers%20Offers, separati da un operatore OR:
+In questo caso, l&#39;URL è `https://shopping.mycart.com?type=Summers%20Offers` e regole di modello aggiuntive specificano [!UICONTROL Query] con [!UICONTROL type] > [!UICONTROL is (case sensitive)] > type=Summers%20Offers, separati da un operatore OR:
 
 ![Regola del modello che sfrutta una parte specifica dell’URL](assets/option3.png)
 
-## Esclusione delle virgolette doppie in [!DNL Target] il valore dell’attributo del profilo non funziona come previsto. {#escape}
+## L&#39;escape delle virgolette doppie nel valore dell&#39;attributo di profilo [!DNL Target] non funziona come previsto. {#escape}
 
-Quando si inviano valori contenenti virgolette doppie in un [!DNL Target] profilo, è necessario eseguire un doppio escape come mostrato di seguito.
+Quando si inviano valori contenenti virgolette doppie in un attributo di profilo [!DNL Target], è necessario eseguire un doppio escape come mostrato di seguito.
 
 ```
 adobe.target.trackEvent({
@@ -204,7 +204,7 @@ adobe.target.trackEvent({
 
 I video seguenti contengono ulteriori informazioni sui concetti descritti in questo articolo.
 
-### Aggiungi estensione ![Icona Tutorial](/help/main/assets/tutorial.png)
+### Aggiungi estensione ![Icona esercitazione](/help/main/assets/tutorial.png)
 
 >[!VIDEO](https://video.tv.adobe.com/v/23114t2/)
 

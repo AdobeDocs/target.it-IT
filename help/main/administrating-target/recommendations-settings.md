@@ -1,6 +1,6 @@
 ---
 keywords: consigli;implementare consigli;codice client;token di autenticazione;settore verticale;filtrare modalità incompatibile;gruppo host predefinito;base miniature;generare token di autenticazione;token di autenticazione;
-description: Scopri come configurare le impostazioni per [!DNL Adobe Target Recommendations].
+description: Scopri come configurare le impostazioni per  [!DNL Adobe Target Recommendations].
 title: Come si configurano le impostazioni per Recommendations?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Vedi cosa è incluso in Target Premium."
 feature: Administration & Configuration
@@ -19,16 +19,16 @@ ht-degree: 0%
 
 Scopri come configurare le impostazioni per [!DNL Adobe Target Recommendations].
 
-Per accedere al [!DNL Recommendations] opzioni di impostazioni, apri [!DNL Target] nel [!DNL Adobe Experience Cloud], quindi fai clic su [!UICONTROL Administration] > [!UICONTROL Recommendations].
+Per accedere alle opzioni delle impostazioni di [!DNL Recommendations], apri [!DNL Target] in [!DNL Adobe Experience Cloud], quindi fai clic su [!UICONTROL Administration] > [!UICONTROL Recommendations].
 
 Puoi configurare le seguenti impostazioni:
 
 * Specifica il codice client
-* Genera un token di autorizzazione per [!DNL Target] API
+* Genera un token di autorizzazione per le API [!DNL Target]
 * Specifica il settore o verticale
 * Filtrare criteri incompatibili
 * Specificare il gruppo host predefinito
 * Specificare l&#39;URL di base della miniatura
 * Configurare le chiavi di attributo personalizzate
 
-Per informazioni dettagliate, consulta [Pianificare e implementare Recommendations](https://experienceleague.adobe.com/en/docs/target-dev/developer/recommendations-beta){target=_blank} nel **[!DNL Adobe Target]Guida per gli sviluppatori**.
+Per informazioni dettagliate, vedere [Pianificare e implementare Recommendations](https://experienceleague.adobe.com/en/docs/target-dev/developer/recommendations-beta){target=_blank} nella **[!DNL Adobe Target]Guida per gli sviluppatori**.

@@ -1,47 +1,47 @@
 ---
 keywords: targeting;a4t;geo;geotargeting;precisione geotargeting;paese;stato;città;codice postale;DMA;gestore telefonia mobile;codici città;codici area geografica;codici paese;codici metropolitana;script profilo;script profilo geotargeting;geotargeting mobile
-description: Scopri come creare tipi di pubblico in [!DNL Adobe Target] per eseguire il targeting degli utenti in base alla loro posizione geografica.
+description: Scopri come creare tipi di pubblico in [!DNL Adobe Target] per indirizzare gli utenti in base alla loro posizione geografica.
 title: Posso indirizzare i visitatori in base alla posizione?
 feature: Audiences
 solution: Target,Analytics
 exl-id: e4a71a4d-e8f3-4f94-a1a7-fd250f4d5095
 source-git-commit: 195028613dec0294c816703b9145e720e3209d74
 workflow-type: tm+mt
-source-wordcount: '1041'
-ht-degree: 46%
+source-wordcount: '1014'
+ht-degree: 41%
 
 ---
 
 # Geo
 
-Utilizzare i tipi di pubblico in [!DNL Adobe Target] per eseguire il targeting degli utenti in base alla loro posizione geografica.
+Utilizza i tipi di pubblico in [!DNL Adobe Target] per eseguire il targeting degli utenti in base alla loro posizione geografica.
 
-I parametri di geolocalizzazione consentono di eseguire il targeting di attività ed esperienze in base alla posizione geografica dei visitatori. Puoi includere o escludere i visitatori in base al relativo paese, Stato/provincia, città, codice postale, latitudine, longitudine, DMA o gestore di telefonia mobile. Questi dati vengono inviati con ciascuno [!DNL Target] e si basa sull’indirizzo IP del visitatore. Seleziona questi parametri come qualsiasi altro valore di targeting.
+I parametri di geolocalizzazione consentono di eseguire il targeting di attività ed esperienze in base alla posizione geografica dei visitatori. Puoi includere o escludere i visitatori in base al relativo paese, Stato/provincia, città, codice postale, latitudine, longitudine, DMA o gestore di telefonia mobile. Questi dati vengono inviati con ogni richiesta [!DNL Target] e si basano sull&#39;indirizzo IP del visitatore. Seleziona questi parametri come qualsiasi altro valore di targeting.
 
 ## Creare un pubblico con il geotargeting {#section_49CBFFAAC8694C4AAD3DE4B2DB7B05DE}
 
-1. Nell’interfaccia di [!DNL Target] fai clic su **[!UICONTROL Pubblico]** > **[!UICONTROL Crea pubblico]**.
+1. Nell&#39;interfaccia [!DNL Target], fare clic su **[!UICONTROL Audiences]** > **[!UICONTROL Create Audience]**.
 1. Assegna un nome al pubblico e aggiungi una descrizione facoltativa.
-1. Trascina **[!UICONTROL Geo]** nel riquadro audience builder.
+1. Trascina **[!UICONTROL Geo]** nel riquadro Generatore di pubblico.
 
-1. Fai clic su **[!UICONTROL Seleziona]**, quindi scegli una delle seguenti opzioni:
+1. Fare clic su **[!UICONTROL Select]**, quindi selezionare una delle opzioni seguenti:
 
-   * [!UICONTROL Paese/Area geografica]
-   * [!UICONTROL Stato]
-   * [!UICONTROL Città]
-   * [!UICONTROL Codice postale]
-   * [!UICONTROL Longitudine]
-   * [!UICONTROL Latitudine]
+   * [!UICONTROL Country/Region]
+   * [!UICONTROL State]
+   * [!UICONTROL City]
+   * [!UICONTROL Zip Code]
+   * [!UICONTROL Longitude]
+   * [!UICONTROL Latitude]
    * [!UICONTROL DMA]
-   * [!UICONTROL Gestore di telefonia mobile]
+   * [!UICONTROL Mobile Carrier]
 
    Le informazioni geografiche di un visitatore sono determinate dall’indirizzo IP di origine di una richiesta di posizione [!DNL Target] (richiesta mbox). La risoluzione IP-to-geo viene eseguita per la prima chiamata di una nuova sessione. Ciò significa che, se l’indirizzo IP di un visitatore cambia durante la sessione di una visita, le informazioni geografiche si basano comunque sull’indirizzo IP della prima chiamata.
 
-   Per [!UICONTROL Operatore di telefonia mobile], [!DNL Target] utilizza i dati di registrazione dell’indirizzo IP (chi possiede il blocco di indirizzi IP) per determinare il gestore di telefonia mobile appropriato utilizzando [Codici nazionali (MCC) e codici di rete mobile (MNC)](https://www.mcc-mnc.com).
+   Per [!UICONTROL Mobile Carrier], [!DNL Target] utilizza i dati di registrazione dell&#39;indirizzo IP (chi possiede il blocco di indirizzi IP) per determinare il gestore di telefonia mobile appropriato utilizzando [codici nazionali (MCC, Mobile Country Code) e codici di rete mobile (MCC, Mobile Network Code)](https://www.mcc-mnc.com).
 
 1. Specifica un operatore e il valore appropriato.
 1. (Facoltativo) Imposta regole aggiuntive per il pubblico.
-1. Fai clic su **[!UICONTROL Fine]**.
+1. Fare clic su **[!UICONTROL Done]**.
 
 L’illustrazione seguente mostra un pubblico che include gli utenti che accedono all’attività da una latitudine superiore a 44° e una longitudine inferiore a 22°.
 
@@ -49,7 +49,7 @@ L’illustrazione seguente mostra un pubblico che include gli utenti che accedon
 
 ## Precisione {#section_D63D5FFCB49C42F9933AFD0BD7C79DF1}
 
-La precisione del geotargeting dipende da diversi fattori. Le connessioni Wi-Fi sono più accurate delle reti cellulari. Quando un visitatore utilizza una connessione dati cellulare, la precisione della ricerca geografica può essere influenzata dalla posizione, dal rapporto dati del provider con [DeviceAtlas](https://deviceatlas.com/device-data/user-agent-tester), e altri fattori. Le connessioni di rete basate su stazioni cellulari possono essere meno precise delle connessioni cablate o Wi-Fi. Inoltre, l’indirizzo IP di un visitatore potrebbe essere mappato sulla posizione dell’ISP del visitatore, che potrebbe non essere la stessa della posizione effettiva del visitatore. Alcuni problemi di geolocalizzazione mobile possono essere risolti utilizzando [API di geolocalizzazione](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API).
+La precisione del geotargeting dipende da diversi fattori. Le connessioni Wi-Fi sono più accurate delle reti cellulari. Quando un visitatore utilizza una connessione dati cellulare, la precisione della ricerca geografica può essere influenzata dalla posizione, dalla relazione dati del provider con [DeviceAtlas](https://deviceatlas.com/device-data/user-agent-tester) e da altri fattori. Le connessioni di rete basate su stazioni cellulari possono essere meno precise delle connessioni cablate o Wi-Fi. Inoltre, l’indirizzo IP di un visitatore potrebbe essere mappato sulla posizione dell’ISP del visitatore, che potrebbe non essere la stessa della posizione effettiva del visitatore. Alcuni problemi di geolocalizzazione mobile possono essere risolti utilizzando [API di geolocalizzazione](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API).
 
 Nella seguente tabella viene mostrata la precisione delle informazioni geografiche basate su IP da [DigitalEnvoy](https://www.digitalelement.com/solutions/) per connessioni internet cablate o Wi-Fi. DigitalEnvoy fornisce i dati più precisi del settore. La precisione globale è superiore al 99,9% a livello di paese e fino al 97% a livello di città. Le informazioni di precisione non si applicano alle reti basate su stazioni cellulari.
 
@@ -88,7 +88,7 @@ Pertanto, è possibile scrivere un&#39;espressione di targeting denominata “Pr
 
 ## Utilizzare i valori di geotargeting come token {#section_E7F7FDF62C3B4934A6565D04B24655F6}
 
-È possibile utilizzare `profile.geolocation` valori direttamente come token in offerte, plug-in e così via.
+È possibile utilizzare i valori `profile.geolocation` direttamente come token in offerte, plug-in e così via.
 
 Ad esempio, utilizza:
 
@@ -108,9 +108,9 @@ Ad esempio, utilizza:
 
 Di seguito sono riportate le domande frequenti sul geotargeting:
 
-### Come posso specificare latitudine e longitudine?
+### Come si specificano latitudine e longitudine?
 
-+++Vedi i dettagli
++++Consulta i dettagli
 * I valori di latitudine e longitudine devono essere un valore numerico espresso in gradi.
 * I valori di latitudine e longitudine possono avere una precisione massima di cinque cifre decimali.
 * Il valore della latitudine deve essere compreso tra -90 e 90.
@@ -120,19 +120,21 @@ Di seguito sono riportate le domande frequenti sul geotargeting:
 
 ### Come funziona il geotargeting per i dispositivi mobili?
 
-+++Vedi i dettagli La maggior parte degli utenti di dispositivi mobili accede ai contenuti tramite WiFi, il che significa [!DNL Target]Il geotargeting basato su IP è accurato come su un desktop. Le connessioni basate su stazioni cellulari possono essere meno precise in quanto l&#39;indirizzo IP del visitatore si basa sulla stazione dalla quale viene prelevato il segnale. Alcuni problemi di geolocalizzazione mobile possono essere risolti utilizzando [API di geolocalizzazione](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API).
++++Vedi i dettagli
+La maggior parte degli utenti di dispositivi mobili accede ai contenuti tramite WiFi, il che significa che il geotargeting basato su IP di [!DNL Target] è accurato come su un desktop. Le connessioni basate su stazioni cellulari possono essere meno precise in quanto l&#39;indirizzo IP del visitatore si basa sulla stazione dalla quale viene prelevato il segnale. Alcuni problemi di geolocalizzazione mobile possono essere risolti utilizzando [API di geolocalizzazione](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API).
 
 +++
 
-### Come vengono gestiti i visitatori provenienti da AOL nella funzione Geo?
+### In che modo la funzione Geo gestisce i visitatori provenienti da AOL?
 
-+++Vedi i dettagli a causa del modo in cui AOL proxy il suo traffico, [!DNL Target] possono essere indirizzati solo a livello nazionale. Ad esempio, una campagna indirizzata alla Francia ha come target gli utenti AOL in Francia. Tuttavia, una campagna indirizzata a Parigi non ha come obiettivo gli utenti AOL a Parigi. Se l&#39;intento è quello di eseguire il targeting specifico degli utenti di AOL, puoi impostare il campo regione su “AOL”. Invero, puoi eseguire il targeting degli utenti di AOL degli Stati Uniti specificando due condizioni di targeting: corrispondenza esatta di paese con “Stati Uniti” e corrispondenza esatta di regione con “AOL”.
++++Vedi i dettagli
+A causa del modo in cui AOL esegue il proxy del traffico, [!DNL Target] può eseguire il targeting solo a livello di paese. Ad esempio, una campagna indirizzata alla Francia ha come target gli utenti AOL in Francia. Tuttavia, una campagna indirizzata a Parigi non ha come obiettivo gli utenti AOL a Parigi. Se l&#39;intento è quello di eseguire il targeting specifico degli utenti di AOL, puoi impostare il campo regione su “AOL”. Invero, puoi eseguire il targeting degli utenti di AOL degli Stati Uniti specificando due condizioni di targeting: corrispondenza esatta di paese con “Stati Uniti” e corrispondenza esatta di regione con “AOL”.
 
 +++
 
 ### Qual è il livello di dettaglio sulla posizione fornito dal geotargeting?
 
-+++Vedi i dettagli
++++Consulta i dettagli
 * Paese: globale
 * Stato/provincia/regione: globale
 * Città: globale
@@ -144,30 +146,32 @@ Di seguito sono riportate le domande frequenti sul geotargeting:
 
 ### Come posso testare le mie attività simulando di essere un utente proveniente da una posizione diversa?
 
++++Consulta i dettagli
+* **at.js 1.*x***: è possibile sostituire l&#39;indirizzo IP con un indirizzo IP di una posizione diversa e utilizzare il parametro `mboxOverride.browserIp url`. Ad esempio, se la tua azienda è nel Regno Unito ma la campagna globale è indirizzata a visitatori di Auckland in Nuova Zelanda, utilizza questo stile di URL supponendo che `60.234.0.39` sia un indirizzo IP di Auckland:
+
+  `https://www.mycompany.com?mboxOverride.browserIp=60.234.0.39`
+
+  Cancella i cookie prima di eseguire il test dell’attività.
+
+  >[!NOTE]
+  >
+  >`mboxOverride.browserIp` è supportato in at.js 1.*x*. Questa funzionalità non è supportata in at.js 2.*x*.
+
+* **Equivalente in at.js 2.*x***: per sostituire il tuo indirizzo IP con at.js 2.*x*, installa un&#39;estensione/plug-in del browser (ad esempio X-Forwarded-For Header per Chrome o Firefox). Questa estensione ti consente di trasmettere l’intestazione x-inoltrato-per nelle richieste della pagina.
+
++++
+
+### In che modo territori, come ad esempio Porto Rico e Hong Kong, vengono mappati nella struttura del geotargeting?
+
 +++Vedi i dettagli
-* **at.js 1.*x***: puoi sovrascrivere l’indirizzo IP con un indirizzo IP di una posizione diversa e utilizzare `mboxOverride.browserIp url` parametro. Ad esempio, se la tua azienda è nel Regno Unito ma la campagna globale è indirizzata a visitatori di Auckland in Nuova Zelanda, utilizza questo stile di URL supponendo che `60.234.0.39` è un indirizzo IP in Auckland:
-
-   `https://www.mycompany.com?mboxOverride.browserIp=60.234.0.39`
-
-   Cancella i cookie prima di eseguire il test dell’attività.
-
-   >[!NOTE]
-   >
-   >`mboxOverride.browserIp` è supportato in at.js 1.*x*. Questa funzionalità non è supportata in at.js 2.*x*.
-
-* **Equivalente in at.js 2.*x***: per modificare l’indirizzo IP con at.js 2.*x*, installa un’estensione/plug-in del browser (ad esempio X-Forwarded-For Header per Chrome o Firefox). Questa estensione ti consente di trasmettere l’intestazione x-inoltrato-per nelle richieste della pagina.
+Porto Rico, Hong Kong e altri territori sono trattati come valori &quot;Paese&quot; separati.
 
 +++
 
-### Come vengono mappati territori come Porto Rico e Hong Kong nella struttura di geotargeting?
+### [!DNL Target] acquisisce (e archivia) informazioni come il codice postale quando l&#39;attività è mirata con funzionalità di targeting di geolocalizzazione?
 
-+++Vedi i dettagli Porto Rico, Hong Kong, e altri territori sono trattati come valori &quot;Paese&quot; separati.
-
-+++
-
-### Does [!DNL Target] acquisire (e archiviare) informazioni come il CAP quando l’attività è mirata con funzionalità di targeting di geolocalizzazione?
-
-+++Vedi dettagli n., [!DNL Target] utilizza i dati geografici solo durante la sessione, quindi i dati vengono scartati.
++++Vedi i dettagli
+No, [!DNL Target] utilizza i dati geografici solo durante la sessione, quindi i dati vengono eliminati.
 
 +++
 

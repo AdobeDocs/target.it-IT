@@ -6,8 +6,8 @@ feature: Integrations
 exl-id: 1c066b62-91a2-4b8c-807a-3cc56fca7778
 source-git-commit: 210e9de954dba813972b0da9a7db5b9383d3e303
 workflow-type: tm+mt
-source-wordcount: '1060'
-ht-degree: 100%
+source-wordcount: '952'
+ht-degree: 85%
 
 ---
 
@@ -22,7 +22,7 @@ Per ulteriori informazioni su RTCDP, consulta la [Panoramica di Real-time Custom
 Le funzioni chiave includono:
 
 * Integrazione diretta con [!DNL Target] tramite Real-Time CDP/[!DNL Adobe Experience Platform] in Edge (rimuovendo la dipendenza da [!DNL Audience Core services] - AAM)
-* [!UICONTROL Scheda destinazioni Edge di Target] con implementazione di governance e criteri
+* [!UICONTROL Target Edge Destinations Card] con governance e applicazione dei criteri
 * Segmenti Real-Time CDP e attributi di profilo condivisi
 
 ## Scenari di implementazione
@@ -42,7 +42,7 @@ Le sezioni seguenti illustrano quale tipo di caso d’uso di personalizzazione (
 | <ul><li>[!DNL RTCDP] (qualsiasi SKU) e [!DNL Target]</li></ul> | <ul><li>Personalizzazione sessione successiva</li><li>Personalizzazione stessa pagina tramite Edge</li><li>Governance applicata durante la condivisione dei segmenti</li></ul> |
 | <ul><li>[!DNL RTCDP] (qualsiasi SKU), [!DNL AAM] e [!DNL Target]</li></ul> | <ul><li>Personalizzazione sessione successiva</li><ul><li>Segmenti [!DNL AAM]</li><li>Segmenti di terze parti tramite [!DNL AAM]</li></ul><li>Personalizzazione stessa pagina tramite Edge</li><ul><li>Segmenti [!DNL RTCDP]</li><li>Governance applicata durante la condivisione dei segmenti</li></ul> |
 
-### Implementazione mista di [!UICONTROL at.js] e [!DNL Platform Web SDK]
+### Combinazione di implementazione [!UICONTROL at.js] e [!DNL Platform Web SDK]
 
 | Soluzioni | Caso d’uso abilitato |
 | --- | --- |
@@ -80,21 +80,21 @@ Gli attributi di profilo Real-Time CDP possono essere condivisi con [!DNL Target
 
 Considera i seguenti aspetti:
 
-* Gli attributi all’interno di una determinata offerta devono provenire dalla stessa sandbox di [!UICONTROL Experience Platform]. (In altre parole, un’offerta non può contenere attributi di diverse sandbox di [!UICONTROL Experience Platform]).
-* Gli attributi all’interno di una data offerta possono provenire da fonti diverse; ad esempio i profili di [!DNL Target] e di [!UICONTROL Experience Platform]. (In altre parole, è possibile combinare gli attributi sia che provengano da [!DNL Target] o dal profilo di [!UICONTROL Experience Platform]).
-* Quando definisci un’offerta, puoi assegnare valori predefiniti per gli [!UICONTROL Attributi di profilo di Real-Time CDP], nel caso in cui l’attributo non abbia un valore esplicito. Ad esempio, se un criterio di consenso o governance blocca l’attributo utilizzato nel servizio di personalizzazione, è possibile utilizzare il valore predefinito.
+* Gli attributi all&#39;interno di una determinata offerta devono appartenere alla stessa sandbox [!UICONTROL Experience Platform]. In altre parole, un&#39;offerta non può contenere attributi di sandbox [!UICONTROL Experience Platform] diverse.
+* Gli attributi all&#39;interno di una determinata offerta possono provenire da origini diverse, ovvero il profilo [!DNL Target] e il profilo [!UICONTROL Experience Platform]. In altre parole, è possibile combinare gli attributi provenienti da [!DNL Target] o dal profilo [!UICONTROL Experience Platform].
+* Quando definisci un&#39;offerta, puoi assegnare valori predefiniti per [!UICONTROL Real-Time CDP Profile Attributes], nel caso in cui l&#39;attributo non abbia un valore esplicito. Ad esempio, se un criterio di consenso o governance blocca l’attributo utilizzato nel servizio di personalizzazione, è possibile utilizzare il valore predefinito.
 
 ### Caso d’uso di esempio JSON
 
-In qualità di addetto marketing online, desideri che AEP/Profilo unificato condivida i valori degli attributi con [!DNL Target] per fornire personalizzazione in tempo reale. Utilizzando gli [!UICONTROL Attributi di profilo Real-Time CDP], puoi visualizzare il valore dell’attributo di [!UICONTROL Experience Platform] in un’offerta [!DNL Target] tramite la sostituzione token. Ad esempio, puoi effettuare una personalizzazione in base al colore preferito di un cliente utilizzando `${aep.profile.favoriteColor}`, o il livello di fidelizzazione e il valore del punto fedeltà utilizzando i token `${aep.loyalty.tier}` e `${aep.loyalty.points}`.
+In qualità di addetto marketing online, desideri che AEP/Profilo unificato condivida i valori degli attributi con [!DNL Target] per fornire personalizzazione in tempo reale. Utilizzando [!UICONTROL Real-Time CDP Profile Attributes], è possibile visualizzare il valore dell&#39;attributo [!UICONTROL Experience Platform] in un&#39;offerta [!DNL Target] utilizzando la sostituzione del token. Ad esempio, puoi effettuare una personalizzazione in base al colore preferito di un cliente utilizzando `${aep.profile.favoriteColor}`, o il livello di fidelizzazione e il valore del punto fedeltà utilizzando i token `${aep.loyalty.tier}` e `${aep.loyalty.points}`.
 
 Per creare un’offerta JSON per condividere gli attributi AEP/Profilo unificato con [!DNL Target]:
 
-1. Durante la [creazione di un’offerta JSON](/help/main/c-experiences/c-manage-content/create-json-offer.md), dall’elenco **[!UICONTROL Seleziona un’origine]**, seleziona **[!UICONTROL Adobe Experience Platform]**.
-1. Dall’elenco **[!UICONTROL Seleziona il nome di una sandbox per il profilo]**, seleziona la sandbox desiderata.
-1. Dall’elenco **[!UICONTROL Seleziona un attributo di profilo]**, seleziona gli attributi desiderati.
-1. (Facoltativo) Dall’elenco **[!UICONTROL Inserisci un valore predefinito]**, seleziona i valori desiderati.
-1. Fai clic su **[!UICONTROL Aggiungi]**.
+1. Durante la [creazione di un&#39;offerta JSON](/help/main/c-experiences/c-manage-content/create-json-offer.md), dall&#39;elenco **[!UICONTROL Select a source]**, selezionare **[!UICONTROL Adobe Experience Platform]**.
+1. Dall&#39;elenco **[!UICONTROL Select a profile sandbox name]**, selezionare la sandbox desiderata.
+1. Dall&#39;elenco **[!UICONTROL Select a profile attribute]**, selezionare gli attributi desiderati.
+1. (Facoltativo) Dall&#39;elenco **[!UICONTROL Insert a default value]**, selezionare i valori desiderati.
+1. Fare clic su **[!UICONTROL Add]**.
 
 L’illustrazione seguente mostra che due attributi di profilo, `loyalty.tier` e `loyalty.points`, sono stati aggiunti all’offerta JSON.
 
@@ -149,4 +149,4 @@ Scopri come utilizzare attributi di profilo [!DNL Adobe Real-Time Customer Data 
 
 ### Blog e video di [!DNL Adobe Target]: Personalizzazione stessa pagina avanzata
 
-[[!DNL Adobe] announces Same-Page Enhanced Personalization with [!DNL Adobe Target]  e  [!DNL Real-time Customer Data Platform]](https://blog.adobe.com/en/publish/2021/10/05/adobe-announces-same-page-enhanced-personalization-with-adobe-target-real-time-customer-data-platform){target=_blank}
+[[!DNL Adobe] annuncia Personalization avanzato a stessa pagina con [!DNL Adobe Target] e [!DNL Real-time Customer Data Platform]](https://blog.adobe.com/en/publish/2021/10/05/adobe-announces-same-page-enhanced-personalization-with-adobe-target-real-time-customer-data-platform){target=_blank}

@@ -7,7 +7,7 @@ exl-id: c72443f0-1ea2-4f81-9bc3-495a8d459083
 source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
 workflow-type: tm+mt
 source-wordcount: '425'
-ht-degree: 95%
+ht-degree: 96%
 
 ---
 
@@ -117,7 +117,7 @@ Nelle seguenti sezioni sono disponibili informazioni sulla risoluzione di proble
 
 ### at.js
 
-* [Domande frequenti su at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-faq.html)
+* [Domande frequenti su at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-faq.html?lang=it)
 * [Debugging di at.js utilizzando il debugger Adobe Experience Cloud](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/target-debugging-atjs.html)
 * [Dettagli sulle versioni di at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=it)
 * Video “Office hours”, un&#39;iniziativa portata avanti dal team di assistenza clienti di Adobe. 

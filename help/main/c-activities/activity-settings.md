@@ -1,32 +1,32 @@
 ---
 keywords: Obiettivo e impostazioni;obiettivo;priorità;durata
-description: Scopri come utilizzare le impostazioni delle attività in Adobe [!DNL Target] gestire l’obiettivo, la priorità e la durata delle attività.
+description: Scopri come utilizzare le impostazioni delle attività in Adobe [!DNL Target] per gestire la finalità, la priorità e la durata delle attività.
 title: Come Si Specificano Le Impostazioni Delle Attività?
 feature: Activities
 exl-id: 7f34080b-d2ed-4fe5-80ff-3aba16961223
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
 workflow-type: tm+mt
 source-wordcount: '415'
-ht-degree: 79%
+ht-degree: 74%
 
 ---
 
 # Impostazioni delle attività
 
-Utilizzare [!UICONTROL Impostazioni delle attività] in [!DNL Adobe Target] gestire l’obiettivo, la priorità e la durata delle attività.
+Utilizza [!UICONTROL Activity Settings] in [!DNL Adobe Target] per gestire l&#39;obiettivo, la priorità e la durata delle attività.
 
 1. Immetti delle note sulla finalità dell&#39;attività.
 
-   Inserisci informazioni sull’attività, utili per te o per gli altri membri del gruppo. Trascina per ridimensionare il campo [!UICONTROL Finalità].
+   Inserisci informazioni sull’attività, utili per te o per gli altri membri del gruppo. Trascinare per ridimensionare il campo [!UICONTROL Objective].
 1. Imposta la durata dell&#39;attività.
 
-   L’interfaccia utente e le opzioni per [!UICONTROL Priorità] variano a seconda delle impostazioni. È possibile utilizzare le impostazioni legacy Bassa, Media o Alta, oppure attivare la priorità precisa da 0 a 999.
+   L&#39;interfaccia utente e le opzioni per [!UICONTROL Priority] variano a seconda delle impostazioni. È possibile utilizzare le impostazioni legacy Bassa, Media o Alta, oppure attivare la priorità precisa da 0 a 999.
 
    La priorità è utilizzata se più attività vengono assegnate alla stessa posizione con lo stesso pubblico. Se due o più attività vengono assegnate alla posizione, viene visualizzata l’attività con priorità maggiore.
 
-   Se questa opzione non è abilitata in [!UICONTROL Amministrazione] > [!UICONTROL Generazione rapporti] (impostazione predefinita), specifica una priorità: Bassa, Media o Alta.
+   Se questa opzione non è abilitata in [!UICONTROL Administration] > [!UICONTROL Reporting] (impostazione predefinita), specificare una priorità: Bassa, Medium o Alta.
 
-   Per abilitare le priorità dettagliate, fai clic su [!UICONTROL Amministrazione] > [!UICONTROL Generazione rapporti], quindi attiva/disattiva [!UICONTROL Abilita priorità precise] nella posizione &quot;On&quot;.
+   Per abilitare le priorità dettagliate, fare clic su [!UICONTROL Administration] > [!UICONTROL Reporting], quindi attivare l&#39;opzione [!UICONTROL Enable Fine-Grained Priorities].
 
    Se questa opzione è abilitata, specifica un valore compreso tra 0 e 999:
 
@@ -45,9 +45,9 @@ Utilizzare [!UICONTROL Impostazioni delle attività] in [!DNL Adobe Target] gest
 
    >[!NOTE]
    >
-   >La pianificazione di un’attività controlla l’intervallo di tempo di consegna dell’attività; tuttavia, l’attività deve essere attivata esplicitamente prima che possa essere recapitata in base alla pianificazione specificata.
+   >La pianificazione di un’attività controlla l’arco temporale di consegna dell’attività; tuttavia, l’attività deve essere attivata esplicitamente prima che possa essere recapitata in base alla pianificazione specificata.
 
-La pagina [!UICONTROL Obiettivi e impostazioni] include impostazioni aggiuntive che variano in base al tipo di attività che si sta creando. Per ulteriori informazioni su queste impostazioni, fai riferimento al tipo di attività:
+La pagina [!UICONTROL Goal & Settings] include impostazioni aggiuntive che variano in base al tipo di attività che si sta creando. Per ulteriori informazioni su queste impostazioni, fai riferimento al tipo di attività:
 
 * [Test A/B](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC)
 * [Personalizzazione automatizzata](/help/main/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9)
@@ -65,4 +65,4 @@ Questo video include informazioni sulle impostazioni delle attività.
 * Aggiungere tipi di pubblico da usare come filtri nella generazione di rapporti
 * Inserire delle note per le attività
 
-   >[!VIDEO](https://video.tv.adobe.com/v/17381)
+  >[!VIDEO](https://video.tv.adobe.com/v/17381)

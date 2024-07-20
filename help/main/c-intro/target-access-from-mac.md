@@ -1,13 +1,13 @@
 ---
 keywords: Experience Cloud;accedi;lingua;lingua predefinita interfaccia;lingua predefinita
-description: Scopri come accedere a [!DNL Target] da Adobe Experience Cloud, impostare la visualizzazione predefinita e modificare la lingua [!DNL Target] Interfaccia utente e documentazione.
+description: Scopri come accedere a [!DNL Target] da Adobe Experience Cloud, impostare la visualizzazione predefinita e modificare la lingua dell'interfaccia utente e della documentazione di [!DNL Target] .
 title: Come posso accedere a  [!DNL Target]  da Adobe Experience Cloud?
 feature: Overview
 exl-id: a5ac8d33-69c3-4e21-9f0f-baab430a6b76
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
 workflow-type: tm+mt
-source-wordcount: '412'
-ht-degree: 94%
+source-wordcount: '399'
+ht-degree: 74%
 
 ---
 
@@ -19,27 +19,27 @@ Informazioni sull’accesso a [!DNL Adobe Target] da [!DNL Adobe Experience Clou
 
 1. Accedi a [Adobe Experience Cloud](https://experience.adobe.com/).
 
-1. Fai clic sull’**[!UICONTROL icona dell’app]** nella barra di navigazione, quindi fai clic su **[!UICONTROL Target]**.
+1. Fai clic su **[!UICONTROL App icon]** nella barra di navigazione, quindi fai clic su **[!UICONTROL Target]**.
 
    Puoi anche fare clic sul pannello [!DNL Target] nella finestra principale per accedere a [!DNL Target] (o a qualsiasi altra soluzione [!DNL Adobe Experience Cloud] a cui hai accesso).
 
    ![Icona dell’applicazione](/help/main/c-intro/assets/appmenu-new.png)
 
-1. (Facoltativo) Per impostare [!DNL Target] come visualizzazione predefinita quando si accede a [!DNL Experience Cloud], fai clic su **[!UICONTROL Modifica profilo]** sotto l&#39;avatar del tuo profilo, quindi imposta la preferenza della pagina di destinazione.
+1. (Facoltativo) Per impostare [!DNL Target] come visualizzazione predefinita al momento dell&#39;accesso a [!DNL Experience Cloud], fai clic su **[!UICONTROL Edit Profile]** nell&#39;avatar del tuo profilo, quindi imposta la preferenza della pagina di destinazione.
 
    ![Pagina di destinazione](/help/main/c-intro/assets/pagepref-new.png)
 
-## Modificare la lingua predefinita per l’interfaccia utente di [!DNL Target]  {#language}
+## Modificare la lingua predefinita per l&#39;interfaccia utente di [!DNL Target] {#language}
 
-1. Dopo aver effettuato l’accesso a [!DNL Adobe Experience Cloud ] o [!DNL Target], fai clic sull’avatar del tuo profilo e poi su **[!UICONTROL Modifica preferenze]**.
+1. Dopo aver effettuato l&#39;accesso a [!DNL Adobe Experience Cloud] o [!DNL Target], fai clic sull&#39;avatar del tuo profilo, quindi su **[!UICONTROL Edit Preferences]**.
 
    ![Modifica profilo](/help/main/c-intro/assets/change-language.png)
 
-1. Fai clic su **[!UICONTROL Account Adobe]** per accedere al tuo profilo [!DNL Adobe].
+1. Fai clic su **[!UICONTROL Adobe Account]** per accedere al tuo profilo [!DNL Adobe].
 
    ![Account Adobe](/help/main/c-intro/assets/adobe-account.png)
 
-1. Fai clic sulla scheda **[!UICONTROL Notifiche]** nella barra dei menu superiore, quindi fai clic sulla scheda **[!UICONTROL Preferenze]** a sinistra.
+1. Fai clic sulla scheda **[!UICONTROL Notifications]** nella barra dei menu superiore, quindi fai clic sulla scheda **[!UICONTROL Preferences]** a sinistra.
 
    ![Lingue preferite](/help/main/c-intro/assets/prefered-language.png)
 
@@ -60,11 +60,11 @@ Informazioni sull’accesso a [!DNL Adobe Target] da [!DNL Adobe Experience Clou
    * Cinese tradizionale
    * Coreano
 
-1. Fai clic su **[!UICONTROL Salva]**.
+1. Fare clic su **[!UICONTROL Save]**.
 
 1. Esci da [!DNL Adobe Experience Cloud] o [!DNL Target], quindi effettua di nuovo l’accesso per rendere attive le modifiche.
 
-## Modificare la lingua per la documentazione di [!DNL Target]  {#doc-lang}
+## Modificare la lingua per la documentazione di [!DNL Target] {#doc-lang}
 
 Le impostazioni del sistema operativo o del browser in uso dovrebbero rilevare la lingua preferita e visualizzare la documentazione nella relativa lingua (se disponibile). La documentazione [!DNL Target] di viene tradotta automaticamente e sincronizzata con la versione inglese entro poche ore dalla modifica della documentazione inglese.
 

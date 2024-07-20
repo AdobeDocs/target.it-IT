@@ -2,19 +2,19 @@
 keywords: regole di inclusione;criteri di inclusione;consigli;promozione;promozioni;filtro dinamico;statico;filtro statico
 description: Scopri come immettere manualmente uno o più valori statici da filtrare utilizzando le regole di inclusione in Adobe [!DNL Target] Recommendations.
 title: Come Posso Filtrare Per Valori Statici Nelle Attività Recommendations?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Vedi cosa è incluso in Target Premium."
 feature: Recommendations
 exl-id: 217e19bf-521f-4913-9b41-099c9af8b393
 source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
 workflow-type: tm+mt
-source-wordcount: '225'
-ht-degree: 47%
+source-wordcount: '238'
+ht-degree: 45%
 
 ---
 
 # Filtro statico
 
-Immetti manualmente uno o più valori statici da filtrare utilizzando le regole di inclusione in [!DNL Adobe Target] [!DNL Recommendations].
+Immettere manualmente uno o più valori statici da filtrare utilizzando le regole di inclusione in [!DNL Adobe Target] [!DNL Recommendations].
 
 Ad esempio, per consigliare solo i contenuti con classificazione Motion Picture Association (MPA) &quot;G&quot; o &quot;PG&quot;.
 
@@ -28,4 +28,4 @@ Ad esempio, per consigliare solo i contenuti con classificazione Motion Picture 
 
 Per creare una regola di inclusione con valori statici per consigliare contenuti con una classificazione MPA di solo &quot;G&quot; o &quot;PG&quot; (escludendo i contenuti &quot;R&quot; e &quot;NC17&quot;), puoi creare le seguenti regole di filtro &quot;classificazione filmato è uguale a g-nominale&quot; e &quot;classificazione filmato è uguale a pg-nominale&quot;, come mostrato di seguito.
 
-![esempio di classificazione di un film](/help/main/c-recommendations/c-algorithms/assets/movies.png)
+![esempio di classificazione dei film](/help/main/c-recommendations/c-algorithms/assets/movies.png)

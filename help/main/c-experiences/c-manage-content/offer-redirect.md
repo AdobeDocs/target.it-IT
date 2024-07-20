@@ -1,32 +1,31 @@
 ---
 keywords: reindirizzare offerta;crea offerta di reindirizzamento;aggiungere offerta HTML;trasmettere tutti i parametri URL nel reindirizzamento;trasmettere mboxSessionId nel reindirizzamento (necessario solo quando si reindirizza a un dominio diverso)
-description: Scopri come creare le offerte di reindirizzamento in Adobe [!DNL Target] affinché un browser venga reindirizzato a una nuova pagina.
+description: Scopri come creare offerte di reindirizzamento in Adobe [!DNL Target] per fare in modo che un browser reindirizzi a una nuova pagina.
 title: Come si creano le offerte di reindirizzamento?
 feature: Experiences and Offers
 exl-id: b7b960cb-5057-455b-8fab-86dd37343a04
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
 workflow-type: tm+mt
-source-wordcount: '1189'
-ht-degree: 48%
+source-wordcount: '1139'
+ht-degree: 45%
 
 ---
 
 # Creare offerte di reindirizzamento
 
-Offerte di reindirizzamento in [!DNL Adobe Target] fare in modo che un browser reindirizzi a una nuova pagina.
+Le offerte di reindirizzamento in [!DNL Adobe Target] causano il reindirizzamento di un browser a una nuova pagina.
 
 Supponi di dover sottoporre a test due pagine completamente diverse, anziché semplici contenuti all&#39;interno di una pagina. In questo caso, il test A/B confronta la pagina A con la pagina B. Configura un’attività Test A/B con due esperienze: una che punta alla pagina predefinita A e l’altra con reindirizza alla pagina B. L’offerta è configurata per reindirizzare il visitatore a una pagina diversa.
 
 >[!NOTE]
 >
-> * Le offerte di reindirizzamento possono essere create su [!UICONTROL Offerte] > [!UICONTROL Offerte di codice] pagina o in [Compositore esperienza basato su Forms](/help/main/c-experiences/form-experience-composer.md). Non è possibile creare o applicare offerte di reindirizzamento nel Compositore esperienza visivo. Il contenuto verrà iniettato nel [!DNL Target] richiedono posizioni, quindi molto probabilmente non sono appropriate per un [!DNL Target] richiesta.
+> * Le offerte di reindirizzamento possono essere create nella pagina [!UICONTROL Offers] > [!UICONTROL Code Offers] o nel [Compositore esperienza basato su Forms](/help/main/c-experiences/form-experience-composer.md). Non è possibile creare o applicare offerte di reindirizzamento nel Compositore esperienza visivo. Il contenuto verrà inserito nei percorsi di richiesta [!DNL Target], pertanto è molto probabile che non siano appropriati per una richiesta globale di [!DNL Target].
 >
->* Non è possibile utilizzare le offerte di reindirizzamento in elementi mbox ajax (`mboxUpdate`).
+>* Impossibile utilizzare le offerte di reindirizzamento in elementi mbox ajax (`mboxUpdate`).
 >
 >* Per le offerte di reindirizzamento nelle attività che utilizzano A4T, l&#39;implementazione deve soddisfare determinati requisiti minimi. Inoltre, è necessario conoscere alcune informazioni importanti. Per ulteriori informazioni, consulta [Offerte di reindirizzamento: domande frequenti su A4T](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#concept_21BF213F10E1414A9DCD4A98AF207905).
 >
 >* Per informazioni sulla configurazione di un’esperienza che effettua un redirect, consulta [Reindirizzare a un URL](/help/main/c-experiences/c-visual-experience-composer/redirect-offer.md#task_9578678D42784F5EB9638F8AC8C911FA).
-
 
 Nell&#39;offerta di reindirizzamento viene eseguito il codice JavaScript per reindirizzare il browser. Tale codice utilizza il metodo `window.location.replace();`, in modo che la pagina a cui il visitatore è reindirizzato non venga memorizzata nella cronologia del browser. Questo consente al visitatore di utilizzare il pulsante “Indietro” nel browser.
 
@@ -36,17 +35,17 @@ Nell&#39;offerta di reindirizzamento viene eseguito il codice JavaScript per rei
 
 ## Creare un’offerta di reindirizzamento dalla pagina Offerte di codice
 
-1. Fai clic su **[!UICONTROL Offerte]**, quindi seleziona la scheda **[!UICONTROL Offerte di codice]**.
+1. Fare clic su **[!UICONTROL Offers]**, quindi selezionare la scheda **[!UICONTROL Code Offers]**.
 
-   ![Scheda Offerte di codice](/help/main/c-experiences/c-manage-content/assets/offers-code-offers.png)
+   ![Scheda Offerte codice](/help/main/c-experiences/c-manage-content/assets/offers-code-offers.png)
 
-1. Fai clic su **[!UICONTROL Crea]** > **[!UICONTROL Offerta di reindirizzamento]**.
+1. Fare clic su **[!UICONTROL Create]** > **[!UICONTROL Redirect Offer]**.
 
    ![Finestra di dialogo Crea offerta di reindirizzamento](/help/main/c-experiences/c-manage-content/assets/create-redirect-offer.png)
 
 1. Inserisci un nome descrittivo per l’offerta.
 
-   Un nome descrittivo è utile per ritrovare rapidamente l’offerta nella libreria Risorse.
+   Un nome descrittivo consente a te e agli altri utenti di trovare rapidamente l’offerta nella libreria di Assets.
 
 1. Inserisci l&#39;URL per il contenuto o la destinazione univoca a cui si desidera reindirizzare. Deve essere un URL assoluto.
 
@@ -56,15 +55,15 @@ Nell&#39;offerta di reindirizzamento viene eseguito il codice JavaScript per rei
 
 1. Seleziona le opzioni desiderate per personalizzare l&#39;offerta di reindirizzamento:
 
-   * **Includi tutti i parametri URL:** Fai scorrere l’interruttore per abilitare questa opzione se desideri che tutti i parametri URL presenti nella pagina precedente vengano propagati alla pagina reindirizzata.
+   * **Includi tutti i parametri URL:** Sposta l&#39;interruttore per attivare questa opzione se desideri che tutti i parametri URL presenti nella pagina precedente vengano propagati alla pagina reindirizzata.
 
-      Ad esempio, si desidera reindirizzare le persone direttamente dalla pagina degli uomini a una pagina di categoria camicie maschili. Si desidera inoltre trasmettere i parametri dinamici nell&#39;URL poiché necessari per monitorare la modalità in cui le persone hanno raggiunto il sito: via e-mail, banner pubblicitario, annuncio di ricerca o naturalmente. Attivando questa opzione, la tua offerta di reindirizzamento alla pagina `https://www.mycompany.com/mens.html?emailId=123` diventerà automaticamente `https://www.mycompany.com/mensShirts.html?emailId=123` quando tutto ciò che hai immesso nella casella URL era `https://www.mycompany.com/mensShirts.html`.
+     Ad esempio, si desidera reindirizzare le persone direttamente dalla pagina degli uomini a una pagina di categoria camicie maschili. Si desidera inoltre trasmettere i parametri dinamici nell&#39;URL poiché necessari per monitorare la modalità in cui le persone hanno raggiunto il sito: via e-mail, banner pubblicitario, annuncio di ricerca o naturalmente. Attivando questa opzione, l&#39;offerta di reindirizzamento a pagina `https://www.mycompany.com/mens.html?emailId=123` diventerà automaticamente `https://www.mycompany.com/mensShirts.html?emailId=123` se nella casella URL è stato immesso solo `https://www.mycompany.com/mensShirts.html`.
 
-   * **Passa ID sessione mbox:** Obbligatorio per il reindirizzamento a un dominio diverso. Sposta l’interruttore per abilitare questa opzione se desideri `sessionId` da includere automaticamente nel reindirizzamento. Questa opzione è necessaria solo quando si esegue un test sui clic da un messaggio e-mail o sui clic da un dominio all’altro. L&#39;`sessionId` corrisponde al cookie del visitatore grazie a cui il visitatore continua a essere monitorato e può visualizzare il contenuto corretto.
+   * **Trasmetti ID sessione mbox:** necessario per reindirizzare a un dominio diverso. Fare scorrere l&#39;interruttore per attivare questa opzione se si desidera includere automaticamente `sessionId` nel reindirizzamento. Questa opzione è necessaria solo quando si esegue un test sui clic da un messaggio e-mail o sui clic da un dominio all’altro. L&#39;`sessionId` corrisponde al cookie del visitatore grazie a cui il visitatore continua a essere monitorato e può visualizzare il contenuto corretto.
 
-      Se utilizzi la configurazione dei cookie di prima parte e di terze parti, non è necessario trasmettere l’ID sessione mbox quando si attraversano i domini. È ripetuto nel cookie di terze parti, quindi non è necessario nell&#39;URL.
+     Se utilizzi la configurazione dei cookie di prima parte e di terze parti, non è necessario trasmettere l’ID sessione mbox quando si attraversano i domini. È ripetuto nel cookie di terze parti, quindi non è necessario nell&#39;URL.
 
-1. Fai clic su **[!UICONTROL Salva]**.
+1. Fare clic su **[!UICONTROL Save]**.
 
 >[!NOTE]
 >
@@ -72,21 +71,21 @@ Nell&#39;offerta di reindirizzamento viene eseguito il codice JavaScript per rei
 
 ## Creare un’offerta di reindirizzamento utilizzando il Compositore esperienza basato su moduli
 
-1. Durante la creazione di un’attività tramite [Compositore esperienza basato su moduli](/help/main/c-experiences/form-experience-composer.md), selezionare la posizione in cui visualizzare **[!UICONTROL Contenuto]** sezione.
+1. Durante la creazione di un&#39;attività tramite [Compositore esperienza basato su moduli](/help/main/c-experiences/form-experience-composer.md), selezionare il percorso in cui visualizzare la sezione **[!UICONTROL Content]**.
 
-   ![Sezione Contenuto nel Compositore esperienza basato su moduli](/help/main/c-experiences/c-manage-content/assets/form-based-content.png)
+   ![Sezione contenuto nel Compositore esperienza basato su moduli](/help/main/c-experiences/c-manage-content/assets/form-based-content.png)
 
-1. Fai clic su **[!UICONTROL Contenuto predefinito]** , quindi fai clic su **[!UICONTROL Cambia offerta di reindirizzamento]**.
+1. Fare clic sull&#39;elenco a discesa **[!UICONTROL Default Content]**, quindi fare clic su **[!UICONTROL Change Redirect Offer]**.
 
-   ![Modifica offerta di reindirizzamento, opzione](/help/main/c-experiences/c-manage-content/assets/change-redirect-offer-option.png)
+   ![Modifica offerta di reindirizzamento](/help/main/c-experiences/c-manage-content/assets/change-redirect-offer-option.png)
 
-1. Fai clic su **[!UICONTROL Crea]** > **[!UICONTROL Offerta di reindirizzamento]**.
+1. Fare clic su **[!UICONTROL Create]** > **[!UICONTROL Redirect Offer]**.
 
    ![Finestra di dialogo Crea offerta di reindirizzamento](/help/main/c-experiences/c-manage-content/assets/create-redirect-offer.png)
 
 1. Inserisci un nome descrittivo per l’offerta.
 
-   Un nome descrittivo è utile per ritrovare rapidamente l’offerta nella libreria Risorse.
+   Un nome descrittivo consente a te e agli altri utenti di trovare rapidamente l’offerta nella libreria di Assets.
 
 1. Inserisci l&#39;URL per il contenuto o la destinazione univoca a cui si desidera reindirizzare. Deve essere un URL assoluto.
 
@@ -96,15 +95,15 @@ Nell&#39;offerta di reindirizzamento viene eseguito il codice JavaScript per rei
 
 1. Seleziona le opzioni desiderate per personalizzare l&#39;offerta di reindirizzamento:
 
-   * **Includi tutti i parametri URL:** Fai scorrere l’interruttore per abilitare questa opzione se desideri che tutti i parametri URL presenti nella pagina precedente vengano propagati alla pagina reindirizzata.
+   * **Includi tutti i parametri URL:** Sposta l&#39;interruttore per attivare questa opzione se desideri che tutti i parametri URL presenti nella pagina precedente vengano propagati alla pagina reindirizzata.
 
-      Ad esempio, si desidera reindirizzare le persone direttamente dalla pagina degli uomini a una pagina di categoria camicie maschili. Si desidera inoltre trasmettere i parametri dinamici nell&#39;URL poiché necessari per monitorare la modalità in cui le persone hanno raggiunto il sito: via e-mail, banner pubblicitario, annuncio di ricerca o naturalmente. Attivando questa opzione, la tua offerta di reindirizzamento alla pagina `https://www.mycompany.com/mens.html?emailId=123` diventerà automaticamente `https://www.mycompany.com/mensShirts.html?emailId=123` quando tutto ciò che hai immesso nella casella URL era `https://www.mycompany.com/mensShirts.html`.
+     Ad esempio, si desidera reindirizzare le persone direttamente dalla pagina degli uomini a una pagina di categoria camicie maschili. Si desidera inoltre trasmettere i parametri dinamici nell&#39;URL poiché necessari per monitorare la modalità in cui le persone hanno raggiunto il sito: via e-mail, banner pubblicitario, annuncio di ricerca o naturalmente. Attivando questa opzione, l&#39;offerta di reindirizzamento a pagina `https://www.mycompany.com/mens.html?emailId=123` diventerà automaticamente `https://www.mycompany.com/mensShirts.html?emailId=123` se nella casella URL è stato immesso solo `https://www.mycompany.com/mensShirts.html`.
 
-   * **Passa ID sessione mbox:** Obbligatorio per il reindirizzamento a un dominio diverso. Sposta l’interruttore per abilitare questa opzione se desideri `sessionId` da includere automaticamente nel reindirizzamento. Questa opzione è necessaria solo quando si esegue un test sui clic da un messaggio e-mail o sui clic da un dominio all’altro. L&#39;`sessionId` corrisponde al cookie del visitatore grazie a cui il visitatore continua a essere monitorato e può visualizzare il contenuto corretto.
+   * **Trasmetti ID sessione mbox:** necessario per reindirizzare a un dominio diverso. Fare scorrere l&#39;interruttore per attivare questa opzione se si desidera includere automaticamente `sessionId` nel reindirizzamento. Questa opzione è necessaria solo quando si esegue un test sui clic da un messaggio e-mail o sui clic da un dominio all’altro. L&#39;`sessionId` corrisponde al cookie del visitatore grazie a cui il visitatore continua a essere monitorato e può visualizzare il contenuto corretto.
 
-      Se utilizzi la configurazione dei cookie di prima parte e di terze parti, non è necessario trasmettere l’ID sessione mbox quando si attraversano i domini. È ripetuto nel cookie di terze parti, quindi non è necessario nell&#39;URL.
+     Se utilizzi la configurazione dei cookie di prima parte e di terze parti, non è necessario trasmettere l’ID sessione mbox quando si attraversano i domini. È ripetuto nel cookie di terze parti, quindi non è necessario nell&#39;URL.
 
-1. Fai clic su **[!UICONTROL Salva]**.
+1. Fare clic su **[!UICONTROL Save]**.
 
 >[!NOTE]
 >
@@ -112,21 +111,21 @@ Nell&#39;offerta di reindirizzamento viene eseguito il codice JavaScript per rei
 
 ## Utilizzare le offerte di reindirizzamento nelle attività
 
-È necessario applicare le offerte di reindirizzamento utilizzando [!UICONTROL Compositore esperienza basato su moduli]. Al momento non è possibile applicare offerte di reindirizzamento utilizzando il Compositore esperienza visivo.
+È necessario applicare le offerte di reindirizzamento utilizzando [!UICONTROL Form-Based Experience Composer]. Al momento non è possibile applicare offerte di reindirizzamento utilizzando il Compositore esperienza visivo.
 
-Il [!DNL Adobe Target] [!UICONTROL Compositore esperienza basato su moduli] è un’interfaccia non visiva per la creazione di esperienze, utile per creare le esperienze da utilizzare in [!UICONTROL Test A/B], [!UICONTROL Targeting esperienza] XT [!UICONTROL Automated Personalization] (AP), e [!UICONTROL Recommendations] attività quando il compositore esperienza visivo non è disponibile o se non risulta pratico. Ad esempio, puoi utilizzare il [!UICONTROL Compositore esperienza basato su moduli] per creare esperienze che utilizzano le offerte di reindirizzamento.
+[!DNL Adobe Target] [!UICONTROL Form-Based Experience Composer] è un&#39;interfaccia non visiva per la creazione di esperienze e offerte, utile per creare le esperienze da utilizzare nelle attività [!UICONTROL A/B Tests], [!UICONTROL Experience Targeting] (XT), [!UICONTROL Automated Personalization] (AP) e [!UICONTROL Recommendations] quando il Compositore esperienza visivo non è disponibile o se non risulta pratico. È ad esempio possibile utilizzare [!UICONTROL Form-Based Experience Composer] per creare esperienze che utilizzano offerte di reindirizzamento.
 
-1. Creare o modificare un’attività in [!UICONTROL Compositore esperienza basato su moduli].
+1. Crea o modifica un&#39;attività in [!UICONTROL Form-Based Experience Composer].
 
-   Consulta [Compositore esperienza basato su moduli](/help/main/c-experiences/form-experience-composer.md) per istruzioni dettagliate.
+   Per istruzioni dettagliate, consulta [Compositore esperienza basato su moduli](/help/main/c-experiences/form-experience-composer.md).
 
 1. Specifica la posizione desiderata e aggiungi eventuali perfezionamenti del pubblico secondo necessità.
 
-1. Fai clic sull’elenco a discesa nella sezione **[!UICONTROL Contenuto]** , quindi fai clic su **[!UICONTROL Cambia offerta di reindirizzamento]**.
+1. Fare clic sull&#39;elenco a discesa nella sezione **[!UICONTROL Content]**, quindi fare clic su **[!UICONTROL Change Redirect Offer]**.
 
-   ![Modifica offerta di reindirizzamento, opzione](/help/main/c-experiences/c-manage-content/assets/change-redirect-offer-option2.png)
+   ![Modifica offerta di reindirizzamento](/help/main/c-experiences/c-manage-content/assets/change-redirect-offer-option2.png)
 
-1. Seleziona l’offerta di reindirizzamento desiderata da [!UICONTROL Seleziona offerta remota] , quindi fare clic su **[!UICONTROL Fine]**.
+1. Selezionare l&#39;offerta di reindirizzamento desiderata dalla finestra di dialogo [!UICONTROL Select Remote Offer], quindi fare clic su **[!UICONTROL Done]**.
 
 1. Termina la configurazione dell’attività.
 

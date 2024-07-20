@@ -1,12 +1,13 @@
 ---
 keywords: contenuto;crea cartella;risorse;sposta cartella;copia cartella;elimina cartella;scarica cartella;cartella
-description: Come si creano cartelle in [!UICONTROL Offers] libreria?
-title: Scopri come creare cartelle in [!UICONTROL Offers] libreria per contenere offerte di codice e immagini, nonché altre cartelle.
+description: Come si creano le cartelle nella libreria [!UICONTROL Offers]?
+title: Scopri come creare cartelle nella libreria [!UICONTROL Offers] per contenere offerte di codice e immagini e altre cartelle.
 feature: Experiences and Offers
 badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=it#beta newtab=true" tooltip="Cosa sono le funzioni beta in [!DNL Adobe Target]."
 hide: true
 hidefromtoc: true
-source-git-commit: 13903e03178a12fe811b540cb7c00d04e4263aed
+exl-id: 3959641b-e436-4890-86ec-72abf173540d
+source-git-commit: 7802e4b84791645193661320b9e8db15e286a250
 workflow-type: tm+mt
 source-wordcount: '334'
 ht-degree: 6%
@@ -15,52 +16,52 @@ ht-degree: 6%
 
 # Creare cartelle di offerta
 
-Creare cartelle in [!DNL Adobe Target] [!UICONTROL Offer] libreria per raccogliere offerte basate su codice, offerte basate su immagini e altre cartelle per creare una struttura di sottocartelle.
+Creare cartelle nella libreria [!DNL Adobe Target] [!UICONTROL Offer] per contenere offerte di codice, offerte di immagini e altre cartelle per creare una struttura di sottocartelle.
 
 >[!NOTE]
 >
->Questo articolo contiene informazioni sugli aggiornamenti di [!DNL Target] che fa attualmente parte di un programma beta. Il [!DNL Adobe Target] team abilita spesso nuove funzioni per determinati clienti a scopo di test e feedback. Al termine del periodo di test, queste funzioni saranno abilitate per tutti i clienti in futuro [!DNL Target Standard/Premium] e annunciate nelle note sulla versione.
+>Questo articolo contiene informazioni sugli aggiornamenti dell&#39;interfaccia utente [!DNL Target] che fa attualmente parte di un programma Beta. Il team [!DNL Adobe Target] spesso abilita nuove funzionalità per determinati clienti a scopo di test e feedback. Al termine del periodo di test, queste funzioni vengono abilitate per tutti i clienti nelle prossime versioni di [!DNL Target Standard/Premium] e annunciate nelle note sulla versione.
 
 Il processo di creazione di cartelle per le offerte basate su codice e le offerte basate su immagini è leggermente diverso. Le sezioni seguenti contengono ulteriori informazioni.
 
 ## [!UICONTROL Code Offer] cartelle
 
-1. Clic **[!UICONTROL Offers]** > **[!UICONTROL Code Offers]**.
+1. Fare clic su **[!UICONTROL Offers]** > **[!UICONTROL Code Offers]**.
 
-   ![Scheda Offerte di codice](/help/main/c-experiences/c-manage-content/assets/code-offers-tab-new.png)
+   ![Scheda Offerte codice](/help/main/c-experiences/c-manage-content/assets/code-offers-tab-new.png)
 
-1. Clic **[!UICONTROL Create]** > **[!UICONTROL Folder]**.
+1. Fare clic su **[!UICONTROL Create]** > **[!UICONTROL Folder]**.
 
 1. Fornisci un nome descrittivo per la cartella.
 
-1. (Condizionale) Se disponi di [Target Premium](/help/main/c-intro/intro.md#premium) account e utilizzo [workspace](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md##section_B82EB409B67C4D9D9D20CE30E48DB1DC), seleziona un&#39;area di lavoro.
+1. (Condizionale) Se hai un account [Target Premium](/help/main/c-intro/intro.md#premium) e utilizzi [aree di lavoro](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md##section_B82EB409B67C4D9D9D20CE30E48DB1DC), seleziona un&#39;area di lavoro.
 
-1. Clic **[!UICONTROL Create]**.
+1. Fare clic su **[!UICONTROL Create]**.
 
-Per informazioni sulle attività eseguibili su offerte e cartelle, consulta [Utilizzare i contenuti della libreria di risorse](/help/main/c-experiences/c-manage-content/assets-working.md).
+Per informazioni sulle attività che è possibile eseguire su offerte e cartelle, vedere [Operazioni con il contenuto della raccolta risorse](/help/main/c-experiences/c-manage-content/assets-working.md).
 
 ## [!UICONTROL Image Offer] cartelle
 
-1. Clic **[!UICONTROL Offers]** > **[!UICONTROL Image Offers]**.
+1. Fare clic su **[!UICONTROL Offers]** > **[!UICONTROL Image Offers]**.
 
    ![Scheda Offerte immagine](/help/main/c-experiences/c-manage-content/assets/image-offers-tab-new.png)
 
-1. Clic **[!UICONTROL Create]** > **[!UICONTROL Folder]**.
-1. Specifica un valore descrittivo **[!UICONTROL Title]** per la cartella.
+1. Fare clic su **[!UICONTROL Create]** > **[!UICONTROL Folder]**.
+1. Specificare un **[!UICONTROL Title]** descrittivo per la cartella.
 
    Ad esempio, puoi includere il tipo di contenuto che contiene.
 
-   Il nome non può contenere i seguenti caratteri: Segno percentuale `%`,Barra `/`,Barra rovesciata `\`, Due punti `:`, Asterisco `*`, punto interrogativo `?`, virgolette doppie `"`, Parentesi quadra `[`, Parentesi quadra `]`, Segno più: `+`, Tubo: `|`, Periodo: `.`, Simbolo numerico: `#`, Parentesi graffa: `{`, Parentesi graffa `}`, cursore `^`, o punto e virgola `;`. È possibile utilizzare un trattino ( `- `) anziché questi caratteri.
+   Il nome non può contenere i seguenti caratteri: segno di percentuale `%`,Barra `/`,Barra rovesciata `\`, Due punti `:`, Asterisco `*`, Punto interrogativo `?`, Virgolette doppie `"`, Parentesi quadra `[`, Parentesi quadra `]`, Segno più: `+`, Barra verticale: `|`, Periodo: `.`, Segno di numero: `#`, Parentesi graffa: `{`, Parentesi graffa `}`, Caret `^` o Punto e Punto e Punto e Virgola `;`. È possibile utilizzare un trattino ( `- `) al posto di questi caratteri.
 
-1. (Facoltativo) Specifica un **[!UICONTROL Name]**.
-1. (Facoltativo) Seleziona la **[!UICONTROL Private]** casella di controllo per specificare che la cartella è privata in modo che solo l&#39;utente possa visualizzarne il contenuto.
+1. (Facoltativo) Specificare un **[!UICONTROL Name]** descrittivo.
+1. (Facoltativo) Selezionare la casella di controllo **[!UICONTROL Private]** per specificare che la cartella è privata in modo che solo l&#39;utente possa visualizzarne il contenuto.
 
-1. (Facoltativo) Seleziona la **[!UICONTROL Reorder-able in List View]** per specificare che è possibile riordinare la posizione della cartella in [!UICONTROL List View].
+1. (Facoltativo) Selezionare la casella di controllo **[!UICONTROL Reorder-able in List View]** per specificare che è possibile riordinare la posizione della cartella in [!UICONTROL List View].
 
-1. Clic **[!UICONTROL Create]**.
+1. Fare clic su **[!UICONTROL Create]**.
 
 >[!NOTE]
 >
->Le offerte di immagini non fanno parte del [Autorizzazioni per gli utenti Enterprise](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) modello.
+>Le offerte di immagini non fanno parte del modello [Autorizzazioni utente Enterprise](/help/main/administrating-target/c-user-management/property-channel/property-channel.md).
 
-Per informazioni sulle attività eseguibili su offerte e cartelle, consulta [Utilizzare i contenuti della libreria di risorse](/help/main/c-experiences/c-manage-content/assets-working.md).
+Per informazioni sulle attività che è possibile eseguire su offerte e cartelle, vedere [Operazioni con il contenuto della raccolta risorse](/help/main/c-experiences/c-manage-content/assets-working.md).

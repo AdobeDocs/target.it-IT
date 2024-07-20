@@ -17,7 +17,7 @@ Con [!DNL Recommendations Classic] vengono visualizzati automaticamente prodotti
 
 >[!IMPORTANT]
 >
->[!DNL Recommendations Classic] è un prodotto legacy e non dispone più della licenza per i nuovi clienti. Per ottenere il meglio [!DNL Recommendations] esperienza, effettua l’aggiornamento a [!DNL Recommendations] attività disponibili in [Adobe Target Premium](/help/main/c-intro/intro.md).
+>[!DNL Recommendations Classic] è un prodotto legacy e non dispone più della licenza per i nuovi clienti. Per una migliore esperienza [!DNL Recommendations], effettua l&#39;aggiornamento alle [!DNL Recommendations] attività disponibili in [Adobe Target Premium](/help/main/c-intro/intro.md).
 
 Con la funzionalità Consigli è possibile indirizzare i clienti verso articoli di cui potrebbero ignorare l’esistenza, incrementando le vendite generate sul sito.
 

@@ -6,8 +6,8 @@ feature: Analytics for Target (A4T)
 exl-id: 7d155cbe-e799-43b5-afc2-1aea43f432ba
 source-git-commit: 0be54d82e25eb919102f6098c1b1db76ab291675
 workflow-type: tm+mt
-source-wordcount: '960'
-ht-degree: 100%
+source-wordcount: '926'
+ht-degree: 88%
 
 ---
 
@@ -21,15 +21,15 @@ Ci sono diversi motivi per cui i dati possono apparire come “non specificati�
 
 * La classificazione in [!DNL Target] non è stata completamente elaborata.
 
-   In genere la classificazione impiega da 24 a 72 ore per classificare i rapporti dopo il primo salvataggio.
+  In genere la classificazione impiega da 24 a 72 ore per classificare i rapporti dopo il primo salvataggio.
 
 * La suite di rapporti non contiene dati, ma [!DNL Target] ha effettuato un tentativo di classificazione dei risultati. [!DNL Target] non può classificare i dati finché non si verifica il primo risultato.
 
-   Assicurati che la suite di rapporti abbia avuto almeno un risultato.
+  Assicurati che la suite di rapporti abbia avuto almeno un risultato.
 
 * La chiamata di classificazione da [!DNL Target] ad [!DNL Analytics] non è riuscita.
 
-   [Contatta l’Assistenza clienti](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C).
+  [Contatta l’Assistenza clienti](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C).
 
 Se suddividi la riga “Non specificata” per la dimensione “Analytics for Target” e non presenta alcun ID attività, significa che tutto è classificato correttamente. Se sono elencati gli ID attività, ciò indica un problema di classificazione.
 
@@ -41,13 +41,13 @@ Se suddividi la riga “Non specificata” per la dimensione “Analytics for Ta
 
 ## I rapporti sulle attività A4T includono una riga con molti eventi “non specificati”. {#added_unspecified_events}
 
-Nel rapporto potrebbe essere visualizzata una riga di eventi con dicitura “[!UICONTROL Non specificata]”, a seconda della metrica con cui visualizzi i dati.
+Nel report potrebbe essere visualizzata una riga di eventi &quot;[!UICONTROL Unspecified]&quot;, a seconda della metrica con cui visualizzi i dati.
 
-Solitamente, questa riga viene visualizzata se si sceglie una metrica comune nel rapporto che non è specifica di [!DNL Target] (ad esempio, [!UICONTROL Visualizzazioni di pagina], [!UICONTROL Visite], [!UICONTROL Visitatori unici] e così via). In questo caso, la riga con dicitura [!UICONTROL “Non specificata”] include tutte le [!UICONTROL Visualizzazioni di pagina], le [!UICONTROL Visite] e i [!UICONTROL Visitatori univoci] non associati ad attività [!DNL Target].
+In genere, questa riga viene visualizzata se si sceglie una metrica comune nel report che non è specifica di [!DNL Target] (ad esempio, [!UICONTROL Page Views], [!UICONTROL Visits], [!UICONTROL Unique Visitors] e così via). In questo caso, la riga [!UICONTROL "Unspecified"] include tutte le attività [!UICONTROL Page Views], [!UICONTROL Visits] e [!UICONTROL Unique Visitors] non associate alle attività [!DNL Target].
 
 Quella riga non includerà alcuna informazione associata a [!DNL Target] (ad esempio, nessun visitatore, visita o impression). Per ulteriori informazioni, consulta [“Non specificato”, “Nessuno,” “Altro,” e “Sconosciuto” nel reporting](https://experienceleague.adobe.com/docs/analytics/technotes/unspecified.html?lang=it) nelle *Note tecniche di Analytics*.
 
-Se scegli una metrica specifica di [!DNL Target] nel rapporto, la riga con dicitura [!UICONTROL “Non specificata”] non viene visualizzata. L’unico modo per evitare di averla nel rapporto è impostare una chiamata [!DNL Target] su ogni richiesta inviata da quella pagina, che non è comune o necessaria.
+Se scegli una metrica specifica per [!DNL Target] nel rapporto, la riga [!UICONTROL "Unspecified"] non viene visualizzata. L’unico modo per evitare di averla nel rapporto è impostare una chiamata [!DNL Target] su ogni richiesta inviata da quella pagina, che non è comune o necessaria.
 
 ## L’incremento stimato nella metrica delle entrate non mostra dati corretti. {#section_35D766E5E4D347C39E15D08AA883FBB0}
 
@@ -55,11 +55,11 @@ I dettagli dell’incremento e dell’affidabilità di Target non sono disponibi
 
 ## Le attività non vengono visualizzate nei rapporti di Analytics. {#section_F7001EB4670F4B3497CC7DA60BBDA6D5}
 
-Le attività A4T richiedono che sia stato specificato un server di tracciamento di Analytics. Consulta [Using an Analytics Tracking Server](/help/main/c-integrating-target-with-mac/a4t/analytics-tracking-server.md#task_72077BA7E93C4A65A715A18F32228823) (Utilizzo di un server di tracciamento di Analytics) per assicurarti che il server di tracciamento di Analytics sia configurato correttamente.
+Le attività A4T richiedono che sia stato specificato un server di tracciamento di Analytics. Consulta [Utilizzo di un server di tracciamento di Analytics](/help/main/c-integrating-target-with-mac/a4t/analytics-tracking-server.md#task_72077BA7E93C4A65A715A18F32228823) per assicurarti che il server di tracciamento di Analytics sia configurato correttamente.
 
 >[!NOTE]
 >
->Se utilizzi la versione 0.9.1 (o successiva) di at.js, non devi specificare un server di tracciamento durante la creazione dell’attività. La libreria at.js invia automaticamente i valori del server di tracciamento a [!DNL Target]. Durante la creazione di attività, puoi lasciare vuoto il campo [!UICONTROL Server di monitoraggio] nella pagina [!UICONTROL Obiettivi e impostazioni].
+>Se utilizzi la versione 0.9.1 (o successiva) di at.js, non devi specificare un server di tracciamento durante la creazione dell’attività. La libreria at.js invia automaticamente i valori del server di tracciamento a [!DNL Target]. Durante la creazione dell&#39;attività, è possibile lasciare vuoto il campo [!UICONTROL Tracking Server] nella pagina [!UICONTROL Goals & Settings].
 
 ## I miei segmenti di Analytics non compaiono in Target. {#section_DEE87F1557834F448E99381D3D02EEEF}
 

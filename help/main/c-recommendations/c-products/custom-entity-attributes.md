@@ -1,6 +1,6 @@
 ---
 keywords: attributi di entità multivalore;attributi di entità personalizzati;JSON valido;valore di attributo di entità;vettore JSON;array JSON;matrice JSON;multivalore;con più valori
-description: Scopri come utilizzare gli attributi di entità personalizzati a valore singolo e multiplo per definire informazioni aggiuntive sugli elementi nell’Adobe [!DNL Target] Catalogo Recommendations.
+description: Scopri come utilizzare attributi di entità personalizzati a valore singolo e multiplo per definire informazioni aggiuntive sugli elementi nel catalogo Recommendations dell'Adobe [!DNL Target] .
 title: Come Si Utilizzano Gli Attributi Di Entità Personalizzati?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Vedi cosa è incluso in Target Premium."
 feature: Recommendations
@@ -15,7 +15,7 @@ ht-degree: 81%
 
 # Attributi di entità personalizzati
 
-Utilizzare attributi di entità personalizzati a valore singolo e più valori in [!DNL Adobe Target Recommendations] per definire informazioni aggiuntive sugli articoli nel catalogo.
+Utilizzare attributi di entità personalizzati a valore singolo e multiplo in [!DNL Adobe Target Recommendations] per definire informazioni aggiuntive sugli elementi del catalogo.
 
 ## Limiti {#limits}
 
@@ -29,7 +29,7 @@ Gli attributi personalizzati delle entità con più valori possono contenere un 
 
 Gli attributi di entità personalizzati possono contenere uno o più valori. I valori degli attributi di entità vengono mostrati nella visualizzazione del prodotto.
 
-![immagine multi-value_product](assets/multi-value_product.png)
+![immagine multivalore_prodotto](assets/multi-value_product.png)
 
 Un attributo di entità personalizzato con un valore singolo è formato come un attributo di entità predefinito a valore singolo:
 
@@ -63,7 +63,7 @@ Dopo che un attributo personalizzato viene inviato come array JSON valido, viene
 
 ## Implementazione di attributi con più valori {#section_80FEFE49E8AF415D99B739AA3CBA2A14}
 
-Quando si utilizzano feed (CSV), sono supportati attributi di entità personalizzati con più valori, `targetPageParams`e l’API di consegna per caricare i prodotti. I nuovi valori sostituiscono quelli correnti; non vengono aggiunti. Array vuoti ( [] ) vengono considerati privi di valori.
+Gli attributi di entità personalizzate con più valori sono supportati quando si utilizzano feed (CSV), `targetPageParams` e l’API di consegna per caricare i prodotti. I nuovi valori sostituiscono quelli correnti; non vengono aggiunti. Gli array vuoti ( [] ) vengono considerati privi di valori.
 
 Le virgolette doppie devono essere precedute dalla sequenza di escape. Ad esempio, `"[""test"", ""value""]"` è un array JSON valido che può essere utilizzato in CSV.
 
@@ -127,18 +127,18 @@ Puoi trasmettere attributi con più valori utilizzando l’API di consegna in un
   }
 ```
 
-Consulta la [Documentazione API di Adobe Recommendations](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} per informazioni sull’utilizzo delle API Consegna e Salva entità.
+Per informazioni sull&#39;utilizzo delle API di recapito e salvataggio di entità, consulta la [documentazione delle API di Adobe Recommendations](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}.
 
 ## Utilizzo di operatori con attributi con più valori {#section_83C2288A805242D9A02EBC4F07DEE945}
 
 Quando applichi gli operatori agli attributi personalizzati con più valori nelle regole di inclusione degli algoritmi, di catalogo e di esclusione, il risultato sarà *vero* se almeno un valore nell’elenco deve essere soddisfatto (booleano *or*).
 
-Nell’esempio seguente, la regola è `message contains abc`.
+Nell&#39;esempio seguente, la regola è `message contains abc`.
 
 * Caso 1: `entity.genre = ["ab", "bc", "de"]`. Il risultato è falso perché nessun valore contiene `abc`.
 * Caso 2: `entity.genre = ["abcde","de","ef"]`. Il risultato è vero perché un valore contiene `abc`.
 
-Per gli operatori negativi, tutti i valori di attributo devono essere soddisfatti (booleano *and*). Ad esempio, se l’operatore è `notEquals`, il risultato sarà *false* se un valore corrisponde a.
+Per gli operatori negativi, tutti i valori di attributo devono essere soddisfatti (booleano *and*). Ad esempio, se l&#39;operatore è `notEquals`, il risultato sarà *false* se viene trovato un valore.
 
 Per informazioni sul comportamento dell’operatore nelle regole di inclusione degli algoritmi, di catalogo e di esclusione, consulta le sezioni seguenti.
 
