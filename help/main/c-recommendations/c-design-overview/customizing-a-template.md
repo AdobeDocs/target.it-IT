@@ -1,26 +1,26 @@
 ---
 keywords: progettazione personalizzata;velocity;decimale;virgola;personalizzare una progettazione
-description: Scopri come utilizzare il linguaggio di progettazione open-source Velocity per personalizzare le progettazioni dei consigli in Adobe  [!DNL Target]  Recommendations.
+description: Scopri come utilizzare il linguaggio di progettazione open-source [!DNL Velocity] per personalizzare le progettazioni dei consigli in [!DNL Target] Recommendations.
 title: Come posso personalizzare una progettazione con Velocity?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Vedi cosa è incluso in Target Premium."
 feature: Recommendations
 exl-id: 035d7988-80d8-4080-bb0d-1d0e9f8856d1
-source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
+source-git-commit: eba9e0b02ce74fea127d2cb2d08d04dcd2da2d76
 workflow-type: tm+mt
-source-wordcount: '1064'
-ht-degree: 72%
+source-wordcount: '1049'
+ht-degree: 61%
 
 ---
 
-# Personalizzare una progettazione con Velocity
+# Personalizzare una progettazione utilizzando [!DNL Velocity]
 
-Utilizza il linguaggio di progettazione open-source Velocity per personalizzare le progettazioni dei consigli in [!DNL Adobe Target Recommendations].
+Utilizzare il linguaggio di progettazione open-source [!DNL Velocity] per personalizzare le progettazioni dei consigli in [!DNL Adobe Target Recommendations].
 
-## Panoramica di Velocity {#section_C431ACA940BC4210954C7AEFF6D03EA5}
+## Panoramica di [!DNL Velocity] {#section_C431ACA940BC4210954C7AEFF6D03EA5}
 
-Le informazioni su Velocity sono disponibili all’indirizzo [https://velocity.apache.org](https://velocity.apache.org).
+Le informazioni su [!DNL Velocity] sono disponibili all&#39;indirizzo [https://velocity.apache.org](https://velocity.apache.org).
 
-La logica, la sintassi e altro di Velocity possono essere utilizzati integralmente per la progettazione di un consiglio. Ciò significa che è possibile creare cicli *for*, istruzioni *If* e altro codice utilizzando Velocity anziché JavaScript.
+Tutta la logica, la sintassi e così via di [!DNL Velocity] può essere utilizzata per la progettazione di un consiglio. Ciò significa che è possibile creare *per* cicli, *istruzioni if* e altro codice utilizzando [!DNL Velocity] anziché JavaScript.
 
 Gli attributi di entità inviati a [!DNL Recommendations] nella mbox `productPage` o il caricamento del file CSV possono essere visualizzati in una progettazione, ad eccezione degli attributi con più valori. È possibile inviare qualsiasi tipo di attributo; tuttavia, [!DNL Target] non passa attributi di tipo &quot;multivalore&quot; come array su cui un modello può eseguire iterazioni (ad esempio `entityN.categoriesList`).
 
@@ -30,7 +30,7 @@ A questi valori viene fatto riferimento con la seguente sintassi:
 $entityN.variable
 ```
 
-I nomi degli attributi di entità devono seguire la notazione abbreviata di Velocity, costituita da un carattere iniziale *$* seguito da un identificatore VTL (Velocity Template Language). L&#39;identificatore VTL deve iniziare con un carattere alfabetico (a-z o A-Z).
+I nomi degli attributi di entità devono seguire la notazione abbreviata [!DNL Velocity], costituita da un carattere iniziale *$*, seguito da un identificatore VTL (Template Language) [!DNL Velocity]. L&#39;identificatore VTL deve iniziare con un carattere alfabetico (a-z o A-Z).
 
 I nomi degli attributi dell’entità Velocity sono limitati ai seguenti tipi di caratteri:
 
@@ -39,7 +39,7 @@ I nomi degli attributi dell’entità Velocity sono limitati ai seguenti tipi di
 * Trattino ( - )
 * Sottolineatura (_)
 
-I seguenti attributi sono disponibili come array Velocity. In quanto tali, possono essere iterati o referenziati tramite index.
+I seguenti attributi sono disponibili come array [!DNL Velocity]. In quanto tali, possono essere iterati o referenziati tramite index.
 
 * `entities`
 * `entityN.categoriesList`
@@ -60,7 +60,7 @@ $entities[0].categoriesList[2]
 #end
 ```
 
-Per ulteriori informazioni sulle variabili Velocity (attributi), vedere [https://velocity.apache.org/engine/releases/velocity-1.7/user-guide.html#variables](https://velocity.apache.org/engine/releases/velocity-1.7/user-guide.html#variables).
+Per ulteriori informazioni sulle variabili (attributi) [!DNL Velocity], vedere [https://velocity.apache.org/engine/releases/velocity-1.7/user-guide.html#variables](https://velocity.apache.org/engine/releases/velocity-1.7/user-guide.html#variables).
 
 Se utilizzi uno script di profilo nella progettazione, il $ che precede il nome dello script deve essere preceduto da una barra rovesciata (`\`). Ad esempio:
 
@@ -127,9 +127,9 @@ sku: $entity3.prodId<br/> Price: $$entity3.value
 
 È inoltre possibile utilizzare `algorithm.name` e `algorithm.dayCount` come attributi di entità nelle progettazioni, in modo che una progettazione possa essere utilizzata per testare più criteri e il nome dei criteri possa essere visualizzato dinamicamente nella progettazione. Questo mostra al visitatore che sta guardando “articoli più venduti” o “persone che hanno visto questo hanno acquistato questo.” Puoi anche utilizzare questi attributi per visualizzare `dayCount` (numero di giorni di dati utilizzati nel criterio, come &quot;articoli più venduti negli ultimi 2 giorni&quot; ecc.
 
-## Utilizzo dei numeri nei modelli Velocity
+## Utilizzo dei numeri nei modelli [!DNL Velocity]
 
-Per impostazione predefinita, i modelli di Velocity considerano tutti gli attributi di entità come valori stringa. È possibile trattare un attributo di entità come un valore numerico per eseguire un’operazione matematica o confrontarlo con un altro valore numerico. Per trattare un attributo di entità come valore numerico, effettua le seguenti operazioni:
+Per impostazione predefinita, [!DNL Velocity] modelli considerano tutti gli attributi di entità come valori stringa. È possibile trattare un attributo di entità come un valore numerico per eseguire un’operazione matematica o confrontarlo con un altro valore numerico. Per trattare un attributo di entità come valore numerico, effettua le seguenti operazioni:
 
 1. Dichiara una variabile fittizia e inizializzala in un valore arbitrario intero (int) o con precisione doppia (double).
 1. Verificare che l&#39;attributo di entità che si desidera utilizzare non sia vuoto (necessario affinché il parser di modelli [!DNL Target Recommendations] possa convalidare e salvare il modello).
@@ -240,7 +240,7 @@ Il codice seguente è un esempio completo di prezzo di vendita:
 
 ## Personalizzazione delle dimensioni del modello e verifica della presenza di valori vuoti {#default}
 
-Utilizzando uno script Velocity per controllare il ridimensionamento dinamico della visualizzazione dell’entità, il seguente modello gestisce un risultato “da 1 a molti” per evitare che vengano creati elementi HTML vuoti qualora non vi siano sufficienti entità restituite da [!DNL Recommendations]. Questo script è adatto per gli scenari in cui non avrebbe senso utilizzare consigli di backup ed è abilitato [!UICONTROL Partial Template Rendering].
+Utilizzando uno script [!DNL Velocity] per controllare il ridimensionamento dinamico della visualizzazione dell&#39;entità, il seguente modello gestisce un risultato &quot;da 1 a molti&quot; per evitare la creazione di elementi HTML vuoti quando non vi sono sufficienti entità restituite da [!DNL Recommendations]. Questo script è adatto per gli scenari in cui non avrebbe senso utilizzare consigli di backup ed è abilitato [!UICONTROL Partial Template Rendering].
 
 Il seguente snippet HTML sostituisce la porzione HTML esistente nella progettazione predefinita da 4x2 (qui non è stato incluso il CSS per motivi di brevità):
 

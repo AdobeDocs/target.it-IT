@@ -1,14 +1,14 @@
 ---
 keywords: consigli;domande frequenti;FAQ
-description: Rivedi un elenco di domande frequenti (FAQ) e relative risposte sulle progettazioni di Adobe  [!DNL Target]  Recommendations.
-title: Dove posso trovare risposte a domande sulla progettazione per  [!DNL Target]  Recommendations?
+description: Domande frequenti e relative risposte su  [!DNL Target Recommendations]  progettazioni.
+title: Dove posso trovare risposte alle domande sulla progettazione per  [!DNL Target Recommendations]?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Vedi cosa è incluso in Target Premium."
 feature: Recommendations
 exl-id: e970f734-9bc7-43b8-af1b-75e527d6353c
-source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
+source-git-commit: eba9e0b02ce74fea127d2cb2d08d04dcd2da2d76
 workflow-type: tm+mt
-source-wordcount: '470'
-ht-degree: 94%
+source-wordcount: '463'
+ht-degree: 81%
 
 ---
 
@@ -32,7 +32,7 @@ Per risolvere il problema sono disponibili due opzioni:
 
 ## Perché la categoria non viene visualizzata nella progettazione? Sto utilizzando `$entity1.categoryId`. {#section_073309B8051049C7953D396A93EA0713}
 
-L&#39;ID categoria non può essere visualizzato nella progettazione. Poiché è possibile archiviare più categorie, il sistema non saprebbe quale categoria visualizzare.
+L&#39;ID categoria non può essere visualizzato nella progettazione. Poiché è possibile memorizzare più categorie, il sistema non sa quale categoria visualizzare.
 
 ## Come posso modificare una progettazione per ottenere un aggiornamento immediato? {#section_28EE35A5B10B47ECA4A332F0E5B2598F}
 
@@ -40,13 +40,13 @@ L&#39;aggiornamento delle modifiche alla progettazione in uso richiede un po&#39
 
 ## Come posso acquisire le informazioni chiave da visualizzare nella progettazione? Esempio: se vogliamo visualizzare la categoria del prodotto chiave, come posso codificare tale valore nel progetto Velocity? {#section_F08043B14BA24BC8815FEF25F4F84C39}
 
-Il parametro `$key. *`value`*` acquisisce la maggior parte delle informazioni relative al prodotto chiave da visualizzare nella progettazione. Esempio: per visualizzare la miniatura del prodotto chiave, puoi utilizzare `$key.thumbnailURL`.
+Il parametro `$key. *`value`*` acquisisce la maggior parte delle informazioni relative al prodotto chiave da visualizzare nella progettazione. Se ad esempio si desidera visualizzare la miniatura del prodotto chiave, utilizzare `$key.thumbnailURL`.
 
 ## Quale versione di Velocity viene utilizzata? {#section_28F00E15A4A54A768782A3F5BB0CDB21}
 
 La versione 1.7 senza l’aggiunta di strumenti o librerie ulteriori. È disponibile la funzionalità di Velocity base.
 
-## Come posso sostituire un valore entità esistente con uno vuoto? Ad esempio, per cancellare l&#39;oggetto entity.message di un elemento al termine di una promozione. {#section_B88F2C2925DC4508974B2F8B13F961CB}
+## Come posso sostituire un valore entità esistente con uno vuoto? Ad esempio, è necessario cancellare `entity.message` di un elemento al termine di una promozione. {#section_B88F2C2925DC4508974B2F8B13F961CB}
 
 Sembrerebbe possibile ottenere questo risultato mediante uno spazio unificatore JavaScript. Chiedi agli sviluppatori di inviare il valore `\u00A0`. Esempio: `entity.message=\u00A0`. Considera l’utilizzo di questo valore come impostazione predefinita se non è presente alcun valore, anziché null.
 
