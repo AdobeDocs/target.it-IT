@@ -1,20 +1,24 @@
 ---
 keywords: risoluzione dei problemi;domande frequenti;FAQ;consigli;caratteri speciali;ponderazione degli attributi;somiglianza contenuti
-description: Visualizza un elenco delle domande e risposte più frequenti sulle attività Consigli di Adobe [!DNL Target] .
-title: Dove posso trovare domande e risposte sulla funzione Consigli di  [!DNL Target] ?
+description: Visualizza un elenco di domande e risposte frequenti sulle  [!DNL Target Recommendations]  attività.
+title: Dove posso trovare domande e risposte su  [!DNL Recommendations]?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Vedi cosa è incluso in Target Premium."
 feature: Recommendations
 exl-id: aaa52923-1c2d-44ae-bd89-671329222077
-source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
+source-git-commit: 25c520eec2983df39c43feb50447b5d6adccdf3f
 workflow-type: tm+mt
-source-wordcount: '3448'
-ht-degree: 86%
+source-wordcount: '3485'
+ht-degree: 84%
 
 ---
 
 # Domande frequenti sui consigli
 
 Elenco delle domande frequenti sulle attività relative alle attività di [!DNL Adobe Target] [!DNL Recommendations].
+
+## Posso gestire le offerte visive create dall&#39;interfaccia utente di [!DNL Target] utilizzando le API di [!DNL Target]?
+
+No. [!DNL Recommendations] attività con offerte visive create nell&#39;interfaccia utente di [!DNL Target] non sono gestibili utilizzando le API di [!DNL Target]. Sebbene queste attività vengano visualizzate nell&#39;elenco [!UICONTROL Activities], non è possibile leggerle o aggiornarle (utilizzando GET/PUT).
 
 ## Perché [!UICONTROL Catalog Search] non mostra i risultati corretti quando eseguo una ricerca su un attributo personalizzato con un valore numerico?
 

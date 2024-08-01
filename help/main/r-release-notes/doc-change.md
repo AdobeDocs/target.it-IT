@@ -4,10 +4,10 @@ description: Resta aggiornato sulle importanti aggiunte e modifiche apportate al
 title: Dove posso trovare la documentazione aggiornata per  [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 69ce4977d766d34367c46cd103ede90dd96c88e4
+source-git-commit: 25c520eec2983df39c43feb50447b5d6adccdf3f
 workflow-type: tm+mt
-source-wordcount: '322'
-ht-degree: 17%
+source-wordcount: '338'
+ht-degree: 16%
 
 ---
 
@@ -18,6 +18,7 @@ Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Targ
 ## Aggiornamenti
 
 |Data|Argomento|Modifiche|
+|1|[Domande frequenti su Recommendations](/help/main/c-recommendations/c-recommendations-faq/recommendations-faq.md)|È stata aggiunta la seguente domanda frequente: &quot;Posso gestire [!DNL Target] offerte visive create dall&#39;interfaccia utente tramite le API [!DNL Target]?&quot;|
 |10 luglio|[Configurazione proxy (Java)](https://experienceleague.adobe.com/en/docs/target-dev/developer/server-side/java/proxy-configuration){target=_blank}|Aggiunta nuova sezione: Decisioning sul dispositivo|
 |3 giugno|[Priorità](/help/main/c-activities/priority.md)|Intero argomento aggiornato, che indica anche che il contenuto di più [!UICONTROL Form-Based Experience Composer] e le attività del Compositore esperienza visivo possono essere consegnati. In precedenza, era possibile eseguire una sola attività dal flusso di lavoro basato su moduli. Non esiste più un limite al numero di attività basate su moduli che possono essere consegnate.|
 |17 maggio|[Risoluzione dei problemi relativi a [!UICONTROL Enhanced Experience Composer]](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md)|Sono stati aggiunti altri indirizzi IP che è possibile inserire nell&#39;elenco Consentiti in modo da poter utilizzare in modo da poter utilizzare in modo da poter utilizzare in modo da poter utilizzare in modo da poter utilizzare in modo da poter utilizzare in modo da poter utilizzare in modo più efficace il servizio [!UICONTROL Enhanced Experience Composer].|
