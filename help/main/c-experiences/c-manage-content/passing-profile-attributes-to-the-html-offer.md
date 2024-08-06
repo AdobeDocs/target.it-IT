@@ -1,13 +1,13 @@
 ---
 keywords: dati dinamici;risorse;dati;offerte;offerte personalizzate;offerte personali;sostituzione token
-description: Scopri come passare dati dinamici in [!DNL Adobe Target] Offerte.
+description: Scopri come passare dati dinamici nelle offerte in [!DNL Adobe Target].
 title: Come posso trasmettere i dati dinamici nelle offerte?
 feature: Experiences and Offers
 exl-id: b8f9c6eb-1000-41a2-aa3f-bc42c1ef5669
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 2e607b92e9d3408c1e91abd4646fe8eb840f2c30
 workflow-type: tm+mt
-source-wordcount: '535'
-ht-degree: 63%
+source-wordcount: '536'
+ht-degree: 55%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 63%
 
 * Promuovere un’offerta scontata per un acquisto relativo all’ultimo prodotto acquistato. Invece di creare un’offerta separata per ogni elemento del catalogo, puoi creare un’offerta con testo dinamico che visualizza “l’ultimo prodotto acquistato” dal profilo insieme a un collegamento nell’offerta.
 * Un visitatore arriva sulla pagina di destinazione con `keyword=world` `cup`. Mostra il termine *World cup* nell&#39;offerta.
-* Personalizza un’etichetta di consigli con informazioni come (1) l’ultimo elemento aggiunto al carrello di un visitatore (Nike Air Max 1000), (2) la preferenza colore del visitatore (nero) e (3) la categoria non relativa alla scarpa preferita dal visitatore (felpe). Esempio: “Abbina a “Nike Air Max 1000” queste fantastiche “felpe” “nere””.
+* Personalizza un’etichetta di consigli con informazioni quali (1) l’ultimo elemento aggiunto al carrello di un visitatore (Nike Air Max 1000), (2) la preferenza colore del visitatore (nero) e (3) la categoria non relativa alla scarpa preferita dal visitatore (felpe). Esempio: “Abbina a “Nike Air Max 1000” queste fantastiche “felpe” “nere””.
 
 ## Vantaggi tecnici
 
@@ -69,7 +69,7 @@ Queste variabili sono sostituite con il valore sul lato server, quindi nessuna v
 
 `${user.testAttribute default="All Items!"}`
 
-Quando `testAttribute` non esiste o è vuoto, verrà scritto è scritto. Se un valore di attributo vuoto è valido e desideri scriverlo anziché visualizzare l&#39;impostazione predefinita, puoi utilizzare:
+Se `testAttribute` non esiste o è vuoto, verrà visualizzato il messaggio &quot;All Items!&quot; è scritto. Se un valore di attributo vuoto è valido e desideri scriverlo anziché visualizzare l&#39;impostazione predefinita, puoi utilizzare:
 
 `${user.testAttribute default="All Items!" show_blank="true"}`
 
