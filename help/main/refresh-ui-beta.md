@@ -6,22 +6,24 @@ badgePremium: label="Beta" type="Informative" url="https://experienceleague.adob
 feature: Release Notes
 hide: true
 hidefromtoc: true
-source-git-commit: 14eb82806c9642c69c204d32d0e51a71d6461b65
+source-git-commit: 46ec133920ada0154e143eed8eb5e020aec3a875
 workflow-type: tm+mt
-source-wordcount: '414'
-ht-degree: 76%
+source-wordcount: '447'
+ht-degree: 71%
 
 ---
 
 # [!DNL Target] [!UICONTROL Activities], [!UICONTROL Offers] e [!UICONTROL Recommendations] UI aggiornamento programma Beta
 
-Utilizzare questi collegamenti in questo articolo per accedere alla documentazione aggiornata come parte del programma Beta per l&#39;aggiornamento dell&#39;interfaccia utente [!DNL Adobe Target] per [!UICONTROL Activities], [!UICONTROL Offers] e [!UICONTROL Recommendations].
+Utilizzare questi collegamenti per accedere alla documentazione aggiornata come parte del programma Beta per l&#39;aggiornamento dell&#39;interfaccia utente [!DNL Adobe Target] per [!UICONTROL Activities], [!UICONTROL Offers] e [!UICONTROL Recommendations].
 
 >[!NOTE]
 >
->Le informazioni contenute in questi articoli vengono spesso aggiornate durante il programma Beta.
+>Il team [!DNL Adobe Target] spesso abilita nuove funzionalità per determinati clienti a scopo di test e feedback. Al termine del periodo di test, queste funzioni vengono abilitate per tutti i clienti nelle prossime versioni di [!DNL Target] e annunciate nelle note sulla versione.
+>
+>Le informazioni contenute in questi articoli vengono spesso aggiornate durante il programma Beta senza preavviso.
 
-+++ Attività (fai clic per espandere)
++++Attività (fai clic per espandere)
 
 + [Panoramica sulle attività](c-activities/activities.md){target=_blank}
 + [Tipi di attività di Target](c-activities/target-activities-guide.md){target=_blank}
@@ -105,7 +107,7 @@ Utilizzare questi collegamenti in questo articolo per accedere alla documentazio
 
 +++
 
-+++ Offerte (fai clic per espandere)
++++Offerte (fai clic per espandere)
 
 + [Panoramica sulle offerte](/help/main/c-experiences/c-manage-content/manage-content-beta.md){target="_blank"}
 + [Creare una cartella di offerta](/help/main/c-experiences/c-manage-content/create-content-folder-beta.md){target="_blank"}
