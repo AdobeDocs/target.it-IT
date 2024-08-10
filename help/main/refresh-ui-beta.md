@@ -6,7 +6,7 @@ badgePremium: label="Beta" type="Informative" url="https://experienceleague.adob
 feature: Release Notes
 hide: true
 hidefromtoc: true
-source-git-commit: 46ec133920ada0154e143eed8eb5e020aec3a875
+source-git-commit: 878ad2a0cce193e5905824fe02d7380c5cff7136
 workflow-type: tm+mt
 source-wordcount: '447'
 ht-degree: 71%
@@ -23,7 +23,9 @@ Utilizzare questi collegamenti per accedere alla documentazione aggiornata come 
 >
 >Le informazioni contenute in questi articoli vengono spesso aggiornate durante il programma Beta senza preavviso.
 
-+++Attività (fai clic per espandere)
+## Attività
+
++++Fare clic per espandere
 
 + [Panoramica sulle attività](c-activities/activities.md){target=_blank}
 + [Tipi di attività di Target](c-activities/target-activities-guide.md){target=_blank}
@@ -107,7 +109,9 @@ Utilizzare questi collegamenti per accedere alla documentazione aggiornata come 
 
 +++
 
-+++Offerte (fai clic per espandere)
+## Offerte
+
++++Fare clic per espandere
 
 + [Panoramica sulle offerte](/help/main/c-experiences/c-manage-content/manage-content-beta.md){target="_blank"}
 + [Creare una cartella di offerta](/help/main/c-experiences/c-manage-content/create-content-folder-beta.md){target="_blank"}
