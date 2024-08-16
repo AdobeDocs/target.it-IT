@@ -6,16 +6,18 @@ badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.c
 feature: Integrations
 hide: true
 hidefromtoc: true
-source-git-commit: bbf56b2d041ea6537116d900278242a7a679dedd
+source-git-commit: 9a9447b3067311ef203e91b186fff506e60bf590
 workflow-type: tm+mt
-source-wordcount: '500'
-ht-degree: 2%
+source-wordcount: '702'
+ht-degree: 1%
 
 ---
 
 # Modifiche al contenuto tramite test A/B in [!DNL Adobe Journey Optimizer]
 
 Questo caso d&#39;uso consente di sbloccare i segreti per testare le modifiche effettive al contenuto A/B in [!DNL Adobe Journey Optimizer].
+
+Questo caso d&#39;uso è progettato per dimostrare come eseguire un&#39;attività familiare in [!DNL Adobe Target], test A/B utilizzando un&#39;attività Test [A/B](/help/main/c-activities/t-test-ab/test-ab.md), ma utilizzando [!DNL Journey Optimizer].
 
 ## Scenario
 
@@ -29,6 +31,10 @@ Una società di abbigliamento ha incrementato le conversioni testando varie imma
 
 ## Istruzioni dettagliate
 
+>[!NOTE]
+>
+>Le istruzioni in questa sezione evidenziano i passaggi necessari per modificare un’immagine e utilizzare gli attributi del profilo per personalizzare i messaggi di testo. Per ulteriori informazioni sulle opzioni disponibili nel Web Designer [!DNL Journey Optimizer], vedere [Modifica contenuto Web](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/web/author-web-pages/edit-web-content){target=_blank} nella *documentazione di Journey Optimizer*.
+
 Per ottimizzare una pagina web sottoponendo a test varie immagini e personalizzando i messaggi con i nomi degli utenti, effettua le seguenti operazioni:
 
 1. In [!DNL Adobe Journey Optimizer], fai clic su **Campagne** nella barra a sinistra per visualizzare la pagina [!UICONTROL Campaigns].
@@ -41,21 +47,27 @@ Per ottimizzare una pagina web sottoponendo a test varie immagini e personalizza
 
    ![Pagina dettagli campagna in Adobe Journey Optimizer](/help/main/c-integrating-target-with-mac/ajo/assets/campaign-details.png)
 
-1. Fornisci un nome descrittivo e una descrizione facoltativa per la campagna.
+1. Nella sezione **[!UICONTROL Properties]**, fornisci un nome descrittivo e una descrizione facoltativa per la campagna.
 
-1. (Condizionale) Fare clic su **[!UICONTROL Select Audience]** e scegliere il pubblico desiderato.
+1. (Condizionale) Nella sezione **[!UICONTROL Audience]**, fai clic su **[!UICONTROL Select Audience]** e scegli il pubblico desiderato.
 
    Per questo caso d’uso, abbiamo scelto di attivare la campagna per tutti i visitatori (impostazione predefinita).
 
-1. Scegliere **[!UICONTROL Web]** dall&#39;elenco a discesa **[!UICONTROL Action]**, quindi selezionare o creare una nuova configurazione Web.
+1. Nella sezione **[!UICONTROL Action]**, scegli **[!UICONTROL Web]** dall&#39;elenco a discesa **[!UICONTROL Action]**, quindi seleziona o crea una nuova configurazione web.
 
    Una configurazione web, o superficie di canale, è una configurazione definita da un amministratore di sistema. La configurazione web contiene tutti i parametri tecnici per l’invio del messaggio, ad esempio il parametro di intestazione, il sottodominio, le app mobili e così via.
 
    Per ulteriori informazioni, vedere [Configurare le superfici di canale](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/configuration/channel-surfaces#set-up-channel-surfaces){target=_blank} nella *documentazione di Journey Optimizer*.
 
-1. Fare clic su **[!UICONTROL Edit Content]** per aprire il sito Web nel Web Designer [!DNL Journey Optimizer].
+1. Nella sezione **[!UICONTROL Action]**, fare clic su **[!UICONTROL Edit Content]** per aprire il sito Web nel Web Designer [!DNL Journey Optimizer].
+
+   Sono necessari due o più esperimenti per il test A/B. Puoi utilizzare la pagina Home esistente come primo esperimento. I passaggi successivi spiegano come impostare un secondo esperimento.
 
    ![Pagina di destinazione dello yoga sul sito Web LUMA](/help/main/c-integrating-target-with-mac/ajo/assets/luma-yoga-landing.png)
+
+1. Per creare un esperimento per verificare quale contenuto funziona meglio, fare clic su **[!UICONTROL Create Experiment]**.
+
+   Gli esperimenti sul contenuto consentono di variare il contenuto del messaggio, l’oggetto o il mittente per definire più trattamenti e determinare la combinazione migliore per il pubblico. Per ulteriori informazioni, consulta [Creare un esperimento sui contenuti](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/content-experiment/content-experiment){target=_blank} nella *documentazione di Journey Optimizer*.
 
 1. Fai clic su **[!UICONTROL Edit Web Page]** nella barra a destra.
 
@@ -73,6 +85,8 @@ Per ottimizzare una pagina web sottoponendo a test varie immagini e personalizza
 
    ![Pulsante Aggiungi Personalization.](/help/main/c-integrating-target-with-mac/ajo/assets/add-personalization-button.png)
 
+   Per ulteriori informazioni sugli attributi del profilo, consulta [Introduzione all&#39;editor di personalizzazione](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/personalization/expression-editor/personalization-build-expressions){target=_blank} nella *documentazione di Journey Optimizer*.
+
 1. Cercare e selezionare l&#39;attributo di profilo &quot;first name&quot;, regolare il testo come desiderato, quindi fare clic su **[!UICONTROL Save]**.
 
    ![Aggiungi attributo profilo per nome](/help/main/c-integrating-target-with-mac/ajo/assets/add-profile-attribute-for-name.png)
@@ -84,6 +98,15 @@ Per ottimizzare una pagina web sottoponendo a test varie immagini e personalizza
    ![Freccia indietro](/help/main/c-integrating-target-with-mac/ajo/assets/back-arrow.png)
 
 1. Fai clic su **[!UICONTROL Review to Activate]**, assicurati che tutto appaia come previsto, quindi fai clic su **Attiva**.
+
+## Visualizzare i rapporti
+
+Fai clic sul pulsante Rapporti, quindi fai clic sul periodo di reporting desiderato:
+
+* [!UICONTROL View all time report]
+* [!UICONTROL View last 24hrs report]
+
+Per ulteriori informazioni, vedere [Introduzione alla nuova interfaccia di reporting](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channel-report/report-gs-cja){target=_blank} nella *documentazione di Journey Optimizer*.
 
 >[!MORELIKETHIS]
 >
