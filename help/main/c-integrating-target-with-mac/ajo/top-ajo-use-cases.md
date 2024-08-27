@@ -6,16 +6,16 @@ badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.c
 feature: Integrations
 hide: true
 hidefromtoc: true
-source-git-commit: 011a47ea8d19387d6ef3c633c2a253e2f82a50d0
+source-git-commit: 7cf9a9425b9fb17c6e9595cedb7395f6610006ec
 workflow-type: tm+mt
-source-wordcount: '154'
+source-wordcount: '159'
 ht-degree: 7%
 
 ---
 
 # Casi d&#39;uso principali per l&#39;ottimizzazione in [!DNL Adobe Journey Optimizer]: canali Web e basati su codice
 
-Scopri come implementare in modo efficace i casi d&#39;uso di ottimizzazione più incisivi in [!DNL Adobe Journey Optimizer].
+Scopri come implementare in modo efficace i casi di utilizzo di ottimizzazione più incisivi in [!DNL Adobe Journey Optimizer] nei canali web e basati su codice.
 
 ## Prerequisiti
 
