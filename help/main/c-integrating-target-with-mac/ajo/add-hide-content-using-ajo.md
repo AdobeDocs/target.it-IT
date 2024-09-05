@@ -6,9 +6,9 @@ badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.c
 feature: Integrations
 hide: true
 hidefromtoc: true
-source-git-commit: 000c41efa783889bcb2af20c84956411f73baf40
+source-git-commit: b68ee55246f46f59bc0117e7702b06589fc1e58c
 workflow-type: tm+mt
-source-wordcount: '550'
+source-wordcount: '588'
 ht-degree: 1%
 
 ---
@@ -69,9 +69,13 @@ Per aggiungere o nascondere componenti nella pagina Web, effettua le seguenti op
 
    ![Pagina di destinazione dello yoga sul sito Web LUMA](/help/main/c-integrating-target-with-mac/ajo/assets/luma-yoga-landing.png)
 
-1. Per aggiungere un pulsante di invito all&#39;azione, fare clic su **[!UICONTROL Edit Web Page]** nella barra a destra.
+1. Per aggiungere un elemento, fare clic su **[!UICONTROL Edit Web Page]** nella barra a destra.
 
-1. Fai clic su
+1. Fare clic sull&#39;elemento che si desidera nascondere, quindi fare clic sul pulsante [!UICONTROL Hide] nella barra a destra.
+
+   Nella barra a destra viene visualizzata l’opzione che è possibile eseguire sull’elemento selezionato. Queste opzioni variano a seconda dell’elemento selezionato.
+
+   ![Nascondi pulsante elemento](/help/main/c-integrating-target-with-mac/ajo/assets/hide-element.png)
 
 1. Fare clic sulla freccia indietro nell&#39;angolo superiore sinistro per tornare al Web Designer.
 
