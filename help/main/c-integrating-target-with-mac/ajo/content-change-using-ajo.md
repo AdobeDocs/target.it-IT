@@ -6,9 +6,9 @@ badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.c
 feature: Integrations
 hide: true
 hidefromtoc: true
-source-git-commit: 7cf9a9425b9fb17c6e9595cedb7395f6610006ec
+source-git-commit: a8d1ad897972edd4263901d411f57b4d22fdd1eb
 workflow-type: tm+mt
-source-wordcount: '743'
+source-wordcount: '841'
 ht-degree: 1%
 
 ---
@@ -17,13 +17,9 @@ ht-degree: 1%
 
 Questo caso d&#39;uso consente di sbloccare i segreti per testare le modifiche effettive al contenuto A/B in [!DNL Adobe Journey Optimizer].
 
-Questo caso d&#39;uso è progettato per dimostrare come eseguire attività familiari in [!DNL Adobe Target], test A/B utilizzando un&#39;attività Test [A/B](/help/main/c-activities/t-test-ab/test-ab.md), ma utilizzando [!DNL Journey Optimizer].
+In questo caso d&#39;uso viene illustrato come eseguire attività familiari, ad esempio test A/B con un&#39;attività Test [A/B](/help/main/c-activities/t-test-ab/test-ab.md), utilizzando [!DNL Journey Optimizer] anziché [!DNL Adobe Target].
 
-## Scenari possibili
-
-* Una società di abbigliamento ha incrementato le conversioni testando varie immagini e personalizzando le pagine di destinazione delle campagne con i nomi degli utenti dai loro attributi di profilo.
-
-* Testando varie descrizioni di prodotti e immagini su una pagina di destinazione della campagna, una società di e-commerce ha scoperto che i suoi membri fidelizzati avevano tassi di conversione più elevati, con conseguente aumento delle vendite.
+Questo caso d&#39;uso è progettato per dimostrare come eseguire attività familiari che potrebbero essere state eseguite utilizzando [!DNL Adobe Target], test A/B utilizzando un&#39;[attività Test A/B](/help/main/c-activities/t-test-ab/test-ab.md), ma utilizzando [!DNL Journey Optimizer].
 
 ## Vantaggi e valore
 
@@ -31,11 +27,19 @@ Questo caso d&#39;uso è progettato per dimostrare come eseguire attività famil
 * **Decisioni basate sui dati**: sfrutta i dati per prendere decisioni informate in tutta la strategia dei contenuti, garantendo il massimo impatto.
 * **Esperienza utente personalizzata**: personalizza il contenuto per soddisfare le preferenze e le esigenze specifiche di tutti i segmenti di pubblico.
 
+## Scenari possibili
+
+* Un’azienda di abbigliamento ha incrementato le conversioni testando varie immagini e personalizzando le pagine di destinazione delle campagne con i nomi degli utenti nel testo dell’invito all’azione.
+
+* Una società di e-commerce ha riscontrato che i suoi membri fidelizzati avevano tassi di conversione più elevati testando varie descrizioni di prodotto e immagini su una pagina di destinazione della campagna, con conseguente aumento delle vendite.
+
 ## Passaggi
 
 >[!NOTE]
 >
->Le istruzioni in questa sezione evidenziano i passaggi necessari per modificare un’immagine e utilizzare gli attributi del profilo per personalizzare i messaggi di testo. Per ulteriori informazioni sulle opzioni disponibili nel Web Designer [!DNL Journey Optimizer], vedere [Modifica contenuto Web](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/web/author-web-pages/edit-web-content){target=_blank} nella *documentazione di Journey Optimizer*. Il video nella parte inferiore della pagina è particolarmente utile.
+>Le istruzioni in questa sezione evidenziano i passaggi necessari per modificare un’immagine e utilizzare gli attributi del profilo per personalizzare i messaggi di testo. Per ulteriori informazioni sulle opzioni disponibili nel Web Designer [!DNL Journey Optimizer], vedere [Modifica contenuto Web](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/web/author-web-pages/edit-web-content){target=_blank} nella *documentazione di Journey Optimizer*.
+>
+>Il video nella parte inferiore della pagina è particolarmente utile.
 
 Per ottimizzare una pagina web sottoponendo a test varie immagini e personalizzando i messaggi con i nomi degli utenti mediante uno script di profilo, effettua le seguenti operazioni:
 
@@ -53,7 +57,7 @@ Per ottimizzare una pagina web sottoponendo a test varie immagini e personalizza
 
 1. (Condizionale) Nella sezione **[!UICONTROL Audience]**, fai clic su **[!UICONTROL Select Audience]** e scegli il pubblico desiderato.
 
-   Per questo caso d&#39;uso, abbiamo scelto di attivare la campagna per [!UICONTROL All Visitors] (impostazione predefinita).
+   Per questo caso d&#39;uso, puoi attivare la campagna per [!UICONTROL All Visitors] (impostazione predefinita).
 
 1. Nella sezione **[!UICONTROL Action]**, scegli **[!UICONTROL Web]** dall&#39;elenco a discesa **[!UICONTROL Action]**, quindi seleziona o crea una nuova configurazione web.
 
@@ -67,9 +71,23 @@ Per ottimizzare una pagina web sottoponendo a test varie immagini e personalizza
 
    ![Pagina di destinazione dello yoga sul sito Web LUMA](/help/main/c-integrating-target-with-mac/ajo/assets/luma-yoga-landing.png)
 
-1. Per creare un esperimento per verificare quale contenuto funziona meglio, fare clic su **[!UICONTROL Create Experiment]**.
+1. Per creare un esperimento per determinare quale contenuto funziona meglio, fare clic su **[!UICONTROL Create Experiment]**.
 
    Gli esperimenti sul contenuto consentono di variare il contenuto del messaggio, l’oggetto o il mittente per definire più trattamenti e determinare la combinazione migliore per il pubblico. Per ulteriori informazioni, consulta [Creare un esperimento sui contenuti](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/content-experiment/content-experiment){target=_blank} nella *documentazione di Journey Optimizer*.
+
+1. Seleziona una metrica di successo e fai clic su azione.
+
+   Fare clic sulle icone della Guida per ulteriori informazioni e collegamenti agli articoli rilevanti.
+
+1. Fare clic su **[!UICONTROL Add Treatment]**, quindi su **[!UICONTROL Create]**.
+
+   Per questo caso d’uso, puoi lasciare la distribuzione al 50% per ogni esperimento.
+
+1. Nella pagina dei dettagli [!UICONTROL Campaign], in **[!UICONTROL Action]**, fare clic su **[!UICONTROL Edit Content]**.
+
+1. Fare clic su Web in Trattamento B
+
+   Per questo caso d&#39;uso, mantieni [!UICONTROL Treatment A] invariato per utilizzare l&#39;esperienza originale come prima esperienza nel test A/B.
 
 1. Fai clic su **[!UICONTROL Edit Web Page]** nella barra a destra.
 
@@ -89,7 +107,7 @@ Per ottimizzare una pagina web sottoponendo a test varie immagini e personalizza
 
    Per ulteriori informazioni sugli attributi del profilo, consulta [Introduzione all&#39;editor di personalizzazione](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/personalization/expression-editor/personalization-build-expressions){target=_blank} nella *documentazione di Journey Optimizer*.
 
-1. Cercare e selezionare l&#39;attributo di profilo &quot;first name&quot;, regolare il testo come desiderato, quindi fare clic su **[!UICONTROL Save]**.
+1. Cercare e fare clic sul segno più per aggiungere l&#39;attributo di profilo &quot;first name&quot;, modificare il testo come desiderato, quindi fare clic su **[!UICONTROL Save]**.
 
    ![Aggiungi attributo profilo per nome](/help/main/c-integrating-target-with-mac/ajo/assets/add-profile-attribute-for-name.png)
 
@@ -103,7 +121,7 @@ Per ottimizzare una pagina web sottoponendo a test varie immagini e personalizza
 
 ## Visualizzare i rapporti
 
-Fai clic sul pulsante Rapporti, quindi fai clic sul periodo di reporting desiderato:
+Fare clic sul pulsante [!UICONTROL Reports], quindi fare clic sul periodo di reporting desiderato:
 
 * [!UICONTROL View all time report]
 * [!UICONTROL View last 24hrs report]
