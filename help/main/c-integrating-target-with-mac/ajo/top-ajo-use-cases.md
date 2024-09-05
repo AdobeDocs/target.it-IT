@@ -6,9 +6,9 @@ badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.c
 feature: Integrations
 hide: true
 hidefromtoc: true
-source-git-commit: 7cf9a9425b9fb17c6e9595cedb7395f6610006ec
+source-git-commit: 000c41efa783889bcb2af20c84956411f73baf40
 workflow-type: tm+mt
-source-wordcount: '159'
+source-wordcount: '167'
 ht-degree: 7%
 
 ---
@@ -31,3 +31,4 @@ I seguenti casi d&#39;uso mostrano come eseguire attività familiari da [!DNL Ta
 Questi casi d’uso riguardano i canali web e basati su codice.
 
 * [Modifiche al contenuto tramite test A/B in [!DNL Adobe Journey Optimizer]](/help/main/c-integrating-target-with-mac/ajo/content-change-using-ajo.md)
+* [Aggiungere o nascondere componenti alla pagina web](/help/main/c-integrating-target-with-mac/ajo/add-hide-content-using-ajo.md)
