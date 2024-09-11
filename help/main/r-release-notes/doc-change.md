@@ -4,10 +4,10 @@ description: Resta aggiornato sulle importanti aggiunte e modifiche apportate al
 title: Dove posso trovare la documentazione aggiornata per  [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 95e6802f5ba5e56962302c37691cc499d79cf68a
+source-git-commit: 6c4d5c5d415a16661a56bb0c4d5b72f295baf30a
 workflow-type: tm+mt
-source-wordcount: '337'
-ht-degree: 23%
+source-wordcount: '384'
+ht-degree: 21%
 
 ---
 
@@ -19,6 +19,7 @@ Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Targ
 
 | Data | Argomento | Modifiche |
 |--- |--- |--- |
+| 11 settembre | [Utenti](/help/main/administrating-target/c-user-management/c-user-management/user-management.md) | È stata aggiunta la seguente nota in Specificare ruoli e autorizzazioni:<P> Per visualizzare le attività in [!DNL Target], gli utenti devono essere assegnati direttamente a un&#39;area di lavoro con almeno il ruolo [!UICONTROL Observer]. L’assegnazione tramite i soli gruppi di utenti non è sufficiente. In genere, si consiglia di concedere agli utenti l’accesso all’area di lavoro predefinita. |
 | 1 agosto | [Domande frequenti sui Recommendations](/help/main/c-recommendations/c-recommendations-faq/recommendations-faq.md) | È stata aggiunta la seguente domanda frequente: &quot;Posso gestire le offerte visive create dall&#39;interfaccia utente di [!DNL Target] utilizzando le API [!DNL Target]?&quot; |
 | 10 Luglio | [Configurazione proxy (Java)](https://experienceleague.adobe.com/en/docs/target-dev/developer/server-side/java/proxy-configuration){target=_blank} | È stata aggiunta una nuova sezione: Decisioning sul dispositivo |
 | 3 giugno | [Priorità](/help/main/c-activities/priority.md) | È stato aggiornato l&#39;intero argomento, indicando anche che il contenuto di più attività di [!UICONTROL Form-Based Experience Composer] e del Compositore esperienza visivo può essere consegnato. In precedenza, era possibile eseguire una sola attività dal flusso di lavoro basato su moduli. Non esiste più un limite al numero di attività basate su moduli che possono essere consegnate. |

@@ -5,10 +5,10 @@ title: Come si aggiungono utenti e si gestiscono le autorizzazioni per un accoun
 feature: Administration & Configuration
 role: Admin
 exl-id: 535c28c7-179d-4edc-b140-880b9dfe1d59
-source-git-commit: d40c25f75103327e749ad864b17df926cb323be0
+source-git-commit: 8560fa828fac91170fd295c9ef9a9b0e6ce1651c
 workflow-type: tm+mt
-source-wordcount: '826'
-ht-degree: 66%
+source-wordcount: '862'
+ht-degree: 63%
 
 ---
 
@@ -79,6 +79,10 @@ Tutte le operazioni di gestione dell’utente devono essere eseguite in [!DNL Ad
 Solo gli amministratori di sistema possono impostare i ruoli utente in [!DNL Target]. Ad esempio, un utente approvatore [!UICONTROL Standard] non può trasformare un osservatore in un approvatore, senza disporre anche dei diritti di amministratore [!DNL Experience Cloud].
 
 Devono essere gli utenti amministratori di sistema ad aggiungere gli utenti al sistema. Gli utenti non vengono aggiunti automaticamente. Vengono invitati via e-mail da [!DNL Experience Cloud] e dovranno confermare i propri indirizzi prima che i relativi account vengano registrati.
+
+>[!NOTE]
+>
+>Per visualizzare le attività in [!DNL Target], gli utenti devono essere assegnati direttamente a un&#39;area di lavoro con almeno il ruolo [!UICONTROL Observer]. L’assegnazione tramite i soli gruppi di utenti non è sufficiente. In genere, si consiglia di concedere agli utenti l’accesso all’area di lavoro predefinita.
 
 1. [Nell&#39;Admin Console](/help/main/administrating-target/c-user-management/c-user-management/user-management.md#section_79796E0227D048F59BAE0AB02E544EBE), fare clic su **[!UICONTROL Products]**, quindi selezionare il nome del prodotto desiderato.
 
