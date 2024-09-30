@@ -4,9 +4,9 @@ description: Visualizza un elenco di funzioni, miglioramenti e correzioni inclus
 title: Quali funzioni sono incluse nelle versioni precedenti?
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: 44445f269a69a3ac3e3bc88bab8abf9fc4d51663
+source-git-commit: 61557ba80f5fb29098d108af6ed3fd864cadcae6
 workflow-type: tm+mt
-source-wordcount: '38147'
+source-wordcount: '38259'
 ht-degree: 84%
 
 ---
@@ -22,6 +22,18 @@ Le note sulla versione vengono ordinate in ordine decrescente per mese e anno di
 >Consulta [Note sulla versione di Target (corrente)](/help/main/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A) per informazioni sulle versioni di Target del mese corrente (piattaforma e Target Standard/Premium).
 
 ## Note sulla versione - 2024
+
+### Generazione rapporti [!DNL Target] in [!DNL Adobe Customer Journey Analytics] (8 maggio 2024)
+
+L&#39;integrazione tra [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/customer-journey-analytics){target=_blank} e [!DNL Target] fornisce potenti strumenti di analisi che consentono di risparmiare tempo per il programma di ottimizzazione.
+
+I vantaggi principali dell’utilizzo di [!DNL Customer Journey Analytics] come origine di reporting per [!DNL Target] sono:
+
+* Gli addetti al marketing possono applicare dinamicamente le metriche di successo di [!DNL Customer Journey Analytics] ai rapporti delle attività di [!DNL Target] in qualsiasi momento. Non è necessario specificare tutte le impostazioni prima di eseguire l’attività.
+* Gli addetti al marketing possono sfruttare le funzionalità di [!DNL Customer Journey Analytics], ad esempio il [pannello Sperimentazione](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/panels/experimentation){target=_blank}, per analizzare ulteriormente la personalizzazione del sito Web.
+* Gli addetti al marketing possono avere un&#39;unica origine per la generazione di rapporti per [[!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/reporting/cja-ajo){target=_blank} e [!DNL Target]. Entrambi i prodotti di personalizzazione possono essere collegati a [!DNL Customer Journey Analytics] per una visione più olistica della personalizzazione web.
+
+Per ulteriori informazioni, consulta [Generazione rapporti di Target in Adobe Customer Journey Analytics](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md).
 
 ### Estensione helper [!UICONTROL Visual Experience Composer] (23 aprile 2024)
 
@@ -1292,7 +1304,7 @@ Questa versione include i miglioramenti, le modifiche e le funzioni seguenti:
 
 | Funzionalità/Miglioramento | Descrizione |
 | --- | --- |
-| Supporto del ![badge Target Premium](/help/main/assets/premium.png)<br/>[!UICONTROL Enterprise Permissions] nelle API [!DNL Target] | [Le API dell’amministratore Adobe Target](https://developers.adobetarget.com/api/#admin-apis) ora sfrutteranno appieno le stesse funzionalità di autorizzazioni Enterprise disponibili nell’interfaccia utente di Target. A partire **dal 21 febbraio 2019**, gli amministratori di sistema potranno accedere ai dati dei rapporti in modo programmatico, nonché creare e gestire attività, offerte e pubblico in qualsiasi area di lavoro. In precedenza, queste azioni erano disponibili solo nell’area di lavoro predefinita. Il supporto per le attività di Automated Personalization (AP) sarà disponibile in una versione futura. |
+| Supporto del ![badge Target Premium](/help/main/assets/premium.png)<br/>[!UICONTROL Enterprise Permissions] in [!DNL Target] API | [Le API dell’amministratore Adobe Target](https://developers.adobetarget.com/api/#admin-apis) ora sfrutteranno appieno le stesse funzionalità di autorizzazioni Enterprise disponibili nell’interfaccia utente di Target. A partire **dal 21 febbraio 2019**, gli amministratori di sistema potranno accedere ai dati dei rapporti in modo programmatico, nonché creare e gestire attività, offerte e pubblico in qualsiasi area di lavoro. In precedenza, queste azioni erano disponibili solo nell’area di lavoro predefinita. Il supporto per le attività di Automated Personalization (AP) sarà disponibile in una versione futura. |
 | ![Badge Target Premium](/help/main/assets/premium.png)<br/>[!UICONTROL Recommendations]: filtrare raccolte ed esclusioni per ambiente (gruppo di host) | È ora possibile visualizzare in anteprima il contenuto di [!UICONTROL Recommendations] raccolte ed esclusioni per un ambiente selezionato (gruppo di host).<br/>In precedenza, quando si visualizzava una raccolta o un&#39;esclusione, gli elementi visualizzati erano risultati per il gruppo di host predefinito (specificato in [!UICONTROL Recommendations > Settings > Default Host Group]).<br/>Ora, quando crei o aggiorni una raccolta o un&#39;esclusione, puoi utilizzare il selettore [!UICONTROL Environment] per scegliere l&#39;ambiente di cui visualizzare i risultati in anteprima. Il nuovo filtro [!UICONTROL Environment] ti consente di risparmiare tempo e fatica, perché non dovrai più passare alla pagina [!UICONTROL Settings] per selezionare il gruppo di host predefinito appropriato prima di creare o modificare raccolte ed esclusioni.<br/>**Nota:** dopo aver modificato l&#39;ambiente selezionato, è necessario fare clic su [!UICONTROL Search] per aggiornare i risultati restituiti.<br/>Il nuovo filtro [!UICONTROL Environment] è disponibile nelle seguenti posizioni nell&#39;interfaccia utente [!DNL Target]:<ul><li>[!UICONTROL Catalog Search] ([!UICONTROL Recommendations > Catalog Search])</li><li>Finestra di dialogo [!UICONTROL Create Collection] ([!UICONTROL Recommendations > Collections > Create New])</li><li>Finestra di dialogo [!UICONTROL Update Collection] ([!UICONTROL Recommendations > Collections > Edit])</li><li>Finestra di dialogo [!UICONTROL Create Exclusion] ([!UICONTROL Recommendations > Exclusions > Create New])</li><li>Finestra di dialogo [!UICONTROL Update Exclusion] ([!UICONTROL Recommendations > Exclusions > Edit])</li></ul><br>Per maggiori informazioni, vedi i seguenti argomenti:<uL><li>[Raccolte](/help/main/c-recommendations/c-products/collections.md)</li><li>[Esclusioni](/help/main/c-recommendations/c-products/exclusions.md)</li><li>[Ricerca nel catalogo](/help/main/c-recommendations/c-products/catalog-search.md)</li><li>[Impostazioni](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}</li><li>[Consigli: filtrare raccolte ed esclusioni per ambiente (gruppo di host)](/help/main/administrating-target/hosts.md)</li></ul>(TGT-20622)</ul> |
 
 **Miglioramenti, correzioni e modifiche**
