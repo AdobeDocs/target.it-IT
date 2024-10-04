@@ -7,9 +7,9 @@ badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.c
 hide: true
 hidefromtoc: true
 exl-id: 3959641b-e436-4890-86ec-72abf173540d
-source-git-commit: 7802e4b84791645193661320b9e8db15e286a250
+source-git-commit: 46c298a8fe73fa06c7f11266090aa1c51f062e65
 workflow-type: tm+mt
-source-wordcount: '334'
+source-wordcount: '325'
 ht-degree: 6%
 
 ---
@@ -30,7 +30,7 @@ Il processo di creazione di cartelle per le offerte basate su codice e le offert
 
    ![Scheda Offerte codice](/help/main/c-experiences/c-manage-content/assets/code-offers-tab-new.png)
 
-1. Fare clic su **[!UICONTROL Create]** > **[!UICONTROL Folder]**.
+1. Fare clic su **[!UICONTROL Create Folder].
 
 1. Fornisci un nome descrittivo per la cartella.
 
@@ -44,9 +44,8 @@ Per informazioni sulle attività che è possibile eseguire su offerte e cartelle
 
 1. Fare clic su **[!UICONTROL Offers]** > **[!UICONTROL Image Offers]**.
 
-   ![Scheda Offerte immagine](/help/main/c-experiences/c-manage-content/assets/image-offers-tab-new.png)
-
 1. Fare clic su **[!UICONTROL Create]** > **[!UICONTROL Folder]**.
+
 1. Specificare un **[!UICONTROL Title]** descrittivo per la cartella.
 
    Ad esempio, puoi includere il tipo di contenuto che contiene.
@@ -54,9 +53,9 @@ Per informazioni sulle attività che è possibile eseguire su offerte e cartelle
    Il nome non può contenere i seguenti caratteri: segno di percentuale `%`,Barra `/`,Barra rovesciata `\`, Due punti `:`, Asterisco `*`, Punto interrogativo `?`, Virgolette doppie `"`, Parentesi quadra `[`, Parentesi quadra `]`, Segno più: `+`, Barra verticale: `|`, Periodo: `.`, Segno di numero: `#`, Parentesi graffa: `{`, Parentesi graffa `}`, Caret `^` o Punto e Punto e Punto e Virgola `;`. È possibile utilizzare un trattino ( `- `) al posto di questi caratteri.
 
 1. (Facoltativo) Specificare un **[!UICONTROL Name]** descrittivo.
-1. (Facoltativo) Selezionare la casella di controllo **[!UICONTROL Private]** per specificare che la cartella è privata in modo che solo l&#39;utente possa visualizzarne il contenuto.
+1. (Facoltativo) Selezionare **[!UICONTROL Private]** per specificare che la cartella è privata in modo che solo l&#39;utente possa visualizzarne il contenuto.
 
-1. (Facoltativo) Selezionare la casella di controllo **[!UICONTROL Reorder-able in List View]** per specificare che è possibile riordinare la posizione della cartella in [!UICONTROL List View].
+1. (Facoltativo) Selezionare **[!UICONTROL Reorder-able in List View]** per specificare che è possibile riordinare la posizione della cartella in [!UICONTROL List View].
 
 1. Fare clic su **[!UICONTROL Create]**.
 
