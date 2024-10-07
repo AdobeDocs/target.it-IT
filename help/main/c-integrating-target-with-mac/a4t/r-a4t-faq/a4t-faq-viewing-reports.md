@@ -4,10 +4,10 @@ description: Trova le risposte alle domande che vengono spesso poste in merito a
 title: Risposte alle domande sulla visualizzazione di rapporti con A4T?
 feature: Analytics for Target (A4T)
 exl-id: a02eeb34-3975-424b-a046-e51f10ae1823
-source-git-commit: 79ae58377c9eea0faca1ade11f2ab53da56b7bc1
+source-git-commit: c747a8a0ed480130f254818e21b98addca16ca41
 workflow-type: tm+mt
-source-wordcount: '2573'
-ht-degree: 24%
+source-wordcount: '2539'
+ht-degree: 23%
 
 ---
 
@@ -33,12 +33,10 @@ Un segmento può anche essere aggiunto a livelli direttamente all’interno dell
 
 +++
 
-## È possibile applicare il modello di Attribution IQ &quot;Same Touch&quot; (Stesso contatto) in [!DNL Analysis Workspace]?
+## Quale modello di Attribution IQ viene utilizzato in [!DNL Analysis Workspace]?
 
 +++Risposta
-Quando si utilizzano le impression e le conversioni dell&#39;attività [!DNL Target] in [!DNL Analysis Workspace], applicare il modello di Attribution IQ &quot;Same Touch&quot; (Stesso contatto) alle metriche per garantire un conteggio accurato. Per applicare un [modello di attribuzione non predefinito](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.html?lang=it), fai clic con il pulsante destro del mouse sulla metrica per **modificare le impostazioni delle colonne > abilitare Usa modello di attribuzione non predefinito > seleziona Stesso modello di contatto**. Senza l’applicazione di questo modello, le metriche vengono sovrascritte.
-
-Tutti i pacchetti [!DNL Adobe Analytics] correnti possono aggiungere questo modello con [!UICONTROL Attribution IQ]. Se non hai accesso a [!UICONTROL Attribution IQ], utilizza i dati A4T in [!UICONTROL Reports & Analytics].
+Quando si utilizzano le impression e le conversioni dell&#39;attività [!DNL Target] in [!DNL Analysis Workspace], il modello di Attribution IQ &quot;Same Touch&quot; (Stesso contatto) è il modello predefinito applicato alle metriche per garantire un conteggio accurato. Questo modello funziona bene nel 99% dei casi. Tuttavia, puoi ignorare questa attribuzione standard in Attribution IQ.
 
 +++
 
