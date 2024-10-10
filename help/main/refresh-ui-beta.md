@@ -6,7 +6,8 @@ badgePremium: label="Beta" type="Informative" url="https://experienceleague.adob
 feature: Release Notes
 hide: true
 hidefromtoc: true
-source-git-commit: 23f6a8bfd198649ea1e234dbd57593eb868fc569
+exl-id: 54834393-9121-41e7-93fb-b00924869d73
+source-git-commit: f44189ee552f153f8b0d08bc427189712e37d636
 workflow-type: tm+mt
 source-wordcount: '597'
 ht-degree: 78%
@@ -30,19 +31,19 @@ Utilizzare questi collegamenti per accedere alla documentazione aggiornata come 
 * [Panoramica sulle attività](c-activities/activities.md){target=_blank}
 * [Tipi di attività di Target](c-activities/target-activities-guide.md){target=_blank}
 * Test A/B {#abtest}
-   * [Panoramica sui test A/B](c-activities/t-test-ab/test-ab.md){target=_blank}
+   * [Panoramica sui test A/B](c-activities/t-test-ab/test-ab-beta.md){target=_blank}
    * [Per quanto tempo si deve eseguire un test A/B?](c-activities/t-test-ab/sample-size-determination.md){target=_blank}
    * [Dieci insidie frequenti per i test A/B e come evitarle](c-activities/t-test-ab/common-ab-testing-pitfalls.md){target=_blank}
    * [Test A/A](/help/main/c-activities/t-test-ab/aa-testing.md){target=_blank}
    * Creare un test A/B {#create}
-      * [Creare un test A/B](c-activities/t-test-ab/t-test-create-ab/test-create-ab.md){target=_blank}
-      * [URL attività](c-activities/t-test-ab/t-test-create-ab/ab-activity-url.md){target=_blank}
-      * [Aggiungi esperienza](c-activities/t-test-ab/t-test-create-ab/ab-add-experience.md){target=_blank}
+      * [Creare un test A/B](c-activities/t-test-ab/t-test-create-ab/test-create-ab-beta.md){target=_blank}
+      * [URL attività](c-activities/t-test-ab/t-test-create-ab/ab-activity-url-beta.md){target=_blank}
+      * [Aggiungi esperienza](c-activities/t-test-ab/t-test-create-ab/ab-add-experience-beta.md){target=_blank}
       * [Selezionare il pubblico](c-activities/t-test-ab/t-test-create-ab/ab-audience.md){target=_blank}
-      * [Obiettivi e impostazioni](c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md){target=_blank}
+      * [Obiettivi e impostazioni](c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings-beta.md){target=_blank}
       * [Utilizzare i dati di Analytics](c-activities/t-test-ab/t-test-create-ab/create-a4t.md){target=_blank}
-      * [Impostare le metriche](c-activities/t-test-ab/t-test-create-ab/ab-set-metrics.md){target=_blank}
-      * [Esperienza con più tipi di pubblico un testo A/B](c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences.md){target=_blank}
+      * [Impostare le metriche](c-activities/t-test-ab/t-test-create-ab/ab-set-metrics-beta.md){target=_blank}
+      * [Esperienza con più tipi di pubblico un testo A/B](c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences-beta.md){target=_blank}
 * Allocazione automatica {#auto-allocate}
    * [Panoramica dell’allocazione automatica](c-activities/automated-traffic-allocation/automated-traffic-allocation.md){target=_blank}
    * [Creare un’attività](/help/main/c-activities/automated-traffic-allocation/create-auto-allocate-activity.md){target=_blank}
@@ -180,4 +181,3 @@ Utilizzare questi collegamenti per accedere alla documentazione aggiornata come 
    * [Documentazione di Recommendations Classic](/help/main/c-recommendations/recommendations-classic-documentaton.md){target="_blank"}
 
 +++
-
