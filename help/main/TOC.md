@@ -3,10 +3,10 @@ user-guide-title: Guida di Adobe Target per professionisti aziendali
 breadcrumb-title: Guida di Target
 user-guide-description: Scopri come adattare e personalizzare l’esperienza dei clienti per massimizzare le entrate dai siti web e mobili, dalle app, dai social media e da altri canali digitali.
 feature-set: Target
-source-git-commit: 6e9d18b8347d8ae68be699640c4cde91bdec762c
+source-git-commit: f4af2527bfed992e6d341b503aa84ae74dc34d89
 workflow-type: tm+mt
-source-wordcount: '1394'
-ht-degree: 81%
+source-wordcount: '1410'
+ht-degree: 80%
 
 ---
 
@@ -129,9 +129,12 @@ ht-degree: 81%
          + [Selezionare il pubblico](c-activities/t-test-ab/t-test-create-ab/ab-audience.md)
          + [Seleziona audience beta](c-activities/t-test-ab/t-test-create-ab/ab-audience-beta.md)
          + [Obiettivi e impostazioni](c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md)
+         + [Obiettivi e impostazioni beta](c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings-beta.md)
          + [Utilizzare i dati di Analytics](c-activities/t-test-ab/t-test-create-ab/create-a4t.md)
          + [Impostare le metriche](c-activities/t-test-ab/t-test-create-ab/ab-set-metrics.md)
+         + [Impostare le metriche beta](c-activities/t-test-ab/t-test-create-ab/ab-set-metrics-beta.md)
          + [Esperienza con più tipi di pubblico un testo A/B](c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences.md)
+         + [Esperienza con più tipi di pubblico in una versione beta di test A/B](c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences-beta.md)
    + Allocazione automatica {#auto-allocate}
       + [Panoramica dell’allocazione automatica](c-activities/automated-traffic-allocation/automated-traffic-allocation.md)
       + [Creare un’attività di allocazione automatico](/help/main/c-activities/automated-traffic-allocation/create-auto-allocate-activity.md)
