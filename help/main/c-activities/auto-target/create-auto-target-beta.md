@@ -1,8 +1,9 @@
 ---
-keywords: Creare test A/B;attività A/B;nuova attività A/B;creare test A/B
-description: Padroneggiare il Compositore esperienza visivo [!UICONTROL Visual Experience Composer] per creare attività Test A/B direttamente su una pagina abilitata  [!DNL Target].
-title: Come si crea un test A/B?
-feature: A/B Tests
+keywords: creare targeting automatico;test A/B;targeting automatico;nuova attività A/B;targeting automatico;targeting automatico per esperienze personalizzate;personalizzato;ottimizzazione
+description: Scopri come utilizzare il [!UICONTROL Visual Experience Composer] (VEC) per creare un'attività Test A/B di [!UICONTROL Auto-Target].
+title: Come si crea un'attività [!UICONTROL Auto-Target]?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."
+feature: Auto-Target
 hide: true
 hidefromtoc: true
 source-git-commit: 5fc18c6d3b493ea0a58048cc20ce3a6c2ffb7d14
@@ -12,17 +13,15 @@ ht-degree: 0%
 
 ---
 
-# Creare un’attività di test A/B
+# Crea un&#39;attività [!UICONTROL Auto-Target]
 
-Sfrutta il Compositore esperienza visivo di [!UICONTROL Visual Experience Composer] in [!DNL Adobe Target] per creare [!UICONTROL A/B Test] attività direttamente su una pagina abilitata per [!DNL Target] e modificare le sezioni della pagina in [!DNL Target].
+Utilizzare il Compositore esperienza visivo [!UICONTROL Visual Experience Composer] in [!DNL Adobe Target] per creare l&#39;attività [!UICONTROL Auto-Target] [!UICONTROL A/B Test] direttamente in una pagina abilitata per [!DNL Target] e modificare parti della pagina in [!DNL Target].
 
 >[!NOTE]
 >
->Oltre all&#39;attività [!UICONTROL Manual] (predefinita) [!UICONTROL A/B Test] (discussa in questo articolo), [!DNL Target] fornisce altri due tipi di attività [!UICONTROL A/B Test]: [!UICONTROL Auto-Allocate] e [!UICONTROL Auto-Target].
->
->Consulta [Tipi di attività test A/B](/help/main/c-activities/t-test-ab/test-ab.md#types) in *Panoramica test A/B*.
+>[!UICONTROL Auto-Target] è disponibile nella soluzione [!DNL Target Premium]. Questa funzione non è disponibile in [!DNL Target Standard] senza una licenza [!DNL Target Premium]. Per ulteriori informazioni sulle funzioni avanzate fornite da questa licenza, consulta [Target Premium](/help/main/c-intro/intro.md).
 
-Per creare un&#39;attività [!UICONTROL A/B Test] manuale:
+Per creare un&#39;attività [!UICONTROL Auto-Target]:
 
 1. Dall&#39;elenco **[!UICONTROL Activities]**, fare clic su **[!UICONTROL Create Activity]** > **[!UICONTROL A/B Test]**.
 
@@ -108,11 +107,11 @@ Per creare un&#39;attività [!UICONTROL A/B Test] manuale:
 
    Ad esempio, puoi limitare l’accesso al 50% di tutti i visitatori o 45% del pubblico “Californians”.
 
-1. Fare clic sul controllo **[!UICONTROL Traffic Allocation]**, quindi scegliere il metodo di allocazione del traffico desiderato nel riquadro di destra, come illustrato di seguito:
+1. Fare clic sul controllo **[!UICONTROL Traffic Allocation]**, quindi scegliere il metodo di allocazione del traffico desiderato nel riquadro di destra. In questo scenario, fare clic su **[!UICONTROL Auto-Taget for personalized experiences]**.
 
    ![Impostazioni del metodo di allocazione traffico](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/traffic-allocation-method-new.png)
 
-   Scegli il metodo desiderato per l’allocazione del traffico:
+   Sono disponibili i seguenti metodi di allocazione del traffico:
 
    * **[!UICONTROL Manual (Default)]**: specifica la percentuale di partecipanti che dovranno visualizzare ogni esperienza. Puoi suddividere le percentuali in modo uniforme tra tutte le esperienze, oppure specificare percentuali maggiori o minori per ogni esperienza. Il totale per tutte le esperienze deve essere uguale al 100%.
 
@@ -125,6 +124,10 @@ Per creare un&#39;attività [!UICONTROL A/B Test] manuale:
 1. Quando si è soddisfatti del pubblico, delle scelte di esperienza e delle scelte di allocazione del traffico, fare clic su **[!UICONTROL Next]** per passare al terzo passaggio del flusso di lavoro guidato in tre passaggi.
 
 1. Specifica [obiettivi e impostazioni](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md) per l’attività.
+
+   >[!NOTE]
+   >
+   >Se desideri utilizzare [Analytics for Target](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T) con questa attività, consulta le informazioni importanti in [Supporto A4T per le attività di allocazione automatica e targeting automatico](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md).
 
 1. Fare clic su **[!UICONTROL Save & Close]** o **[!UICONTROL Save]**.
 

@@ -3,10 +3,10 @@ user-guide-title: Guida di Adobe Target per professionisti aziendali
 breadcrumb-title: Guida di Target
 user-guide-description: Scopri come adattare e personalizzare l’esperienza dei clienti per massimizzare le entrate dai siti web e mobili, dalle app, dai social media e da altri canali digitali.
 feature-set: Target
-source-git-commit: f4af2527bfed992e6d341b503aa84ae74dc34d89
+source-git-commit: 5fc18c6d3b493ea0a58048cc20ce3a6c2ffb7d14
 workflow-type: tm+mt
-source-wordcount: '1410'
-ht-degree: 80%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -138,11 +138,15 @@ ht-degree: 80%
    + Allocazione automatica {#auto-allocate}
       + [Panoramica dell’allocazione automatica](c-activities/automated-traffic-allocation/automated-traffic-allocation.md)
       + [Creare un’attività di allocazione automatico](/help/main/c-activities/automated-traffic-allocation/create-auto-allocate-activity.md)
+      + [Creare un’attività di allocazione automatico](/help/main/c-activities/automated-traffic-allocation/create-auto-allocate-activity-beta.md)
       + [Interpretare i rapporti di allocazione automatica](c-activities/automated-traffic-allocation/determine-winner.md)
+      + [Interpretare i rapporti di allocazione automatica beta](c-activities/automated-traffic-allocation/determine-winner-beta.md)
       + [L’allocazione automatica può fornire risultati di test più rapidi e ricavi più elevati rispetto a un test manuale](/help/main/c-activities/automated-traffic-allocation/faster-results-higher-revenue.md)
    + Targeting automatico {#auto-target}
       + [Panoramica del Targeting automatico](/help/main/c-activities/auto-target/auto-target-to-optimize.md)
+      + [Panoramica del Targeting automatico in versione beta](/help/main/c-activities/auto-target/auto-target-to-optimize-beta.md)
       + [Creare un’attività di Targeting automatico](/help/main/c-activities/auto-target/create-auto-target.md)
+      + [Creare un’attività di Targeting automatico beta](/help/main/c-activities/auto-target/create-auto-target-beta.md)
       + [Domande frequenti sul Targeting automatico e risoluzione dei problemi](/help/main/c-activities/auto-target/auto-target-troubleshooting-faqs.md)
       + [Relazioni e Targeting automatico](/help/main/c-activities/auto-target/reporting-and-auto-target.md)
    + Automated Personalization {#automated-personalization}
