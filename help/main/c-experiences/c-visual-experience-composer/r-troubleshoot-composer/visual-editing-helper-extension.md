@@ -4,10 +4,10 @@ description: Scopri perché alcuni siti web potrebbero non essere aperti in modo
 title: Come si utilizza l'estensione [!UICONTROL Visual Editing Helper]?
 feature: Visual Experience Composer (VEC)
 exl-id: e5aeb8b9-fab5-4ad4-882e-2106d2c9daab
-source-git-commit: 8edae6a197a3ac82b85fcce4d99c8b0d5f45c712
+source-git-commit: 6c702ab7d787c266d90162ef894f780770a69e37
 workflow-type: tm+mt
-source-wordcount: '672'
-ht-degree: 64%
+source-wordcount: '712'
+ht-degree: 60%
 
 ---
 
@@ -17,7 +17,9 @@ L&#39;estensione del browser [!DNL Adobe Experience Cloud] [!UICONTROL Visual Ed
 
 >[!IMPORTANT]
 >
->Questa nuova estensione sostituisce la precedente [Estensione Target VEC Helper per browser](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md). Consulta la nota importante nella parte superiore di tale articolo. A causa dei miglioramenti della sicurezza in Manifest v3, [!DNL Adobe] richiede il download di questa nuova estensione per continuare a creare visivamente i siti Web in [!DNL Target].
+>* Questa nuova estensione sostituisce la precedente [Estensione Target VEC Helper per browser](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md). Consulta la nota importante nella parte superiore di tale articolo. A causa dei miglioramenti della sicurezza in Manifest v3, [!DNL Adobe] richiede il download di questa nuova estensione per continuare a creare visivamente i siti Web in [!DNL Target].
+>
+>* Questa nuova estensione non supporta attualmente i Chrome Web Store privati. Questa funzione sarà supportata entro la fine di gennaio 2025. Per i clienti che utilizzano i Negozi Web Chrome privati per caricare le estensioni, utilizza invece l&#39;estensione helper [legacy [!UICONTROL Visual Experience Composer]](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md).
 
 ## Motivi per cui alcuni siti web potrebbero non aprirsi in modo affidabile nel Compositore esperienza visivo
 
