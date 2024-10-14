@@ -4,10 +4,10 @@ description: Resta aggiornato sulle importanti aggiunte e modifiche apportate al
 title: Dove posso trovare la documentazione aggiornata per  [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: cc7d3b4752c6dba50a8643bfbc475045221d9ca8
+source-git-commit: 78a7f7deb2654b7a1cb25e43beabf82b161205ff
 workflow-type: tm+mt
-source-wordcount: '407'
-ht-degree: 23%
+source-wordcount: '420'
+ht-degree: 26%
 
 ---
 
@@ -19,6 +19,7 @@ Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Targ
 
 | Data | Argomento | Modifiche |
 |--- |--- |--- |
+| 14 ottobre | Note sulla versione (prerelease) di [[!DNL Target] ](/help/main/r-release-notes/target-release-notes.md) | Sono state aggiunte le note sulla versione 24.10.2 di [!DNL Target Standard/Premium]. |
 | 30 settembre | [Limiti](/help/main/r-troubleshooting-target/target-limits.md) | È stato aggiornato il numero di offerte consentite. |
 | 29 settembre | [Dettagli sulle versioni di at.js](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions){target=_blank} | Sono state aggiunte informazioni sulla versione 2.11.6 di at.js. |
 | 11 settembre | [Utenti](/help/main/administrating-target/c-user-management/c-user-management/user-management.md) | È stata aggiunta la seguente nota in Specificare ruoli e autorizzazioni:<P> Per visualizzare le attività in [!DNL Target], gli utenti devono essere assegnati direttamente a un&#39;area di lavoro con almeno il ruolo [!UICONTROL Observer]. L’assegnazione tramite i soli gruppi di utenti non è sufficiente. In genere, si consiglia di concedere agli utenti l’accesso all’area di lavoro predefinita. |
