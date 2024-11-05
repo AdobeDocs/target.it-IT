@@ -7,20 +7,20 @@ badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.c
 hide: true
 hidefromtoc: true
 exl-id: 3959641b-e436-4890-86ec-72abf173540d
-source-git-commit: 46c298a8fe73fa06c7f11266090aa1c51f062e65
+source-git-commit: 4b57712b838906611702db521b51af84077501e6
 workflow-type: tm+mt
-source-wordcount: '325'
+source-wordcount: '322'
 ht-degree: 6%
 
 ---
 
 # Creare cartelle di offerta
 
-Creare cartelle nella libreria [!DNL Adobe Target] [!UICONTROL Offer] per contenere offerte di codice, offerte di immagini e altre cartelle per creare una struttura di sottocartelle.
+Creare cartelle nella libreria [!DNL Adobe Target] [!UICONTROL Offer] per contenere offerte di codice e di immagini. Puoi anche creare cartelle per creare una struttura di sottocartelle.
 
 >[!NOTE]
 >
->Questo articolo contiene informazioni sugli aggiornamenti dell&#39;interfaccia utente [!DNL Target] che fa attualmente parte di un programma Beta. Il team [!DNL Adobe Target] spesso abilita nuove funzionalità per determinati clienti a scopo di test e feedback. Al termine del periodo di test, queste funzioni vengono abilitate per tutti i clienti nelle prossime versioni di [!DNL Target Standard/Premium] e annunciate nelle note sulla versione.
+>Questo articolo contiene informazioni sugli aggiornamenti dell&#39;interfaccia utente [!DNL Target] che fa attualmente parte di un programma Beta. Il team [!DNL Adobe Target] spesso abilita nuove funzionalità per determinati clienti a scopo di test e feedback. Al termine del periodo di test, queste funzionalità verranno abilitate per tutti i clienti nelle prossime versioni di [!DNL Target] e annunciate nelle [note sulla versione](/help/main/r-release-notes/release-notes.md).
 
 Il processo di creazione di cartelle per le offerte basate su codice e le offerte basate su immagini è leggermente diverso. Le sezioni seguenti contengono ulteriori informazioni.
 
@@ -28,9 +28,7 @@ Il processo di creazione di cartelle per le offerte basate su codice e le offert
 
 1. Fare clic su **[!UICONTROL Offers]** > **[!UICONTROL Code Offers]**.
 
-   ![Scheda Offerte codice](/help/main/c-experiences/c-manage-content/assets/code-offers-tab-new.png)
-
-1. Fare clic su **[!UICONTROL Create Folder].
+1. Fare clic su **[!UICONTROL Create Folder]**.
 
 1. Fornisci un nome descrittivo per la cartella.
 
@@ -54,7 +52,6 @@ Per informazioni sulle attività che è possibile eseguire su offerte e cartelle
 
 1. (Facoltativo) Specificare un **[!UICONTROL Name]** descrittivo.
 1. (Facoltativo) Selezionare **[!UICONTROL Private]** per specificare che la cartella è privata in modo che solo l&#39;utente possa visualizzarne il contenuto.
-
 1. (Facoltativo) Selezionare **[!UICONTROL Reorder-able in List View]** per specificare che è possibile riordinare la posizione della cartella in [!UICONTROL List View].
 
 1. Fare clic su **[!UICONTROL Create]**.
