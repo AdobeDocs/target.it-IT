@@ -4,9 +4,9 @@ description: Visualizza un elenco di funzioni, miglioramenti e correzioni inclus
 title: Quali funzioni sono incluse nelle versioni precedenti?
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: 61557ba80f5fb29098d108af6ed3fd864cadcae6
+source-git-commit: d823e9993ff17f1970dc1deac996928781c7e79d
 workflow-type: tm+mt
-source-wordcount: '38259'
+source-wordcount: '38296'
 ht-degree: 84%
 
 ---
@@ -22,6 +22,12 @@ Le note sulla versione vengono ordinate in ordine decrescente per mese e anno di
 >Consulta [Note sulla versione di Target (corrente)](/help/main/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A) per informazioni sulle versioni di Target del mese corrente (piattaforma e Target Standard/Premium).
 
 ## Note sulla versione - 2024
+
+### at.js versione 2.11.6 (29 settembre 2024)
+
+* È stato risolto un problema che impediva a [!DNL Target] di funzionare correttamente con le offerte di reindirizzamento all&#39;interno di [!UICONTROL Visual Experience Composer] (VEC) o [!UICONTROL Form-Based Experience Composer].
+
+Per ulteriori informazioni sulle versioni di at.js, consulta [Dettagli sulla versione di at.js](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions){target=_blank} nella *Guida per gli sviluppatori di Adobe Target*.
 
 ### Generazione rapporti [!DNL Target] in [!DNL Adobe Customer Journey Analytics] (8 maggio 2024)
 
@@ -408,7 +414,7 @@ Questa versione include i miglioramenti e le correzioni seguenti:
 | *Guida per gli sviluppatori di Adobe Target* | La *Guida per gli sviluppatori di Adobe Target* consolida tutti i contenuti per sviluppatori di [!DNL Target] in un’unica pratica guida. La guida include informazioni sull’implementazione di [!DNL Target] e [!DNL Recommendations], sugli SDK di [!DNL Target] e sulle API di [!DNL Target].<br>Per ulteriori informazioni, vedere [Guida per gli sviluppatori di Adobe Target](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=it){target=_blank}. |
 
 * Gli utenti con il ruolo [!UICONTROL Editor] non possono più modificare i tipi di pubblico nelle attività live. (TGT-43582)
-* Viene visualizzato un messaggio di avvertenza se un cliente tenta di salvare un pubblico il cui nome contiene un punto esclamativo ( ! ) come primo carattere (esempio: !Londra). (TGT-43643)
+* Se un cliente tenta di salvare un pubblico con un punto esclamativo ( ! ) come primo carattere del nome del pubblico (ad esempio !Londra). (TGT-43643)
 * È stato risolto un problema a causa del quale alcune schede dei dettagli di definizione del pubblico per alcuni clienti indicavano che un’attività terminata è ancora in esecuzione. (TGT-43527)
 
 ### [!DNL Target Standard/Premium] 22.6.1 (rilascio graduale: 7-9 giugno 2022)
@@ -508,7 +514,7 @@ Questa versione di manutenzione contiene le correzioni e i miglioramenti seguent
 
 | Funzione | Dettagli |
 | --- | --- |
-| Tipi di pubblico [!DNL Adobe Experience Platform] in [!DNL Target] | Ora puoi sfruttare e utilizzare i tipi di pubblico [!DNL Adobe Experience Platform] in [!DNL Target]. Il team [!DNL Target], il team [!DNL Experience Platform] [!DNL Destinations] e il team [!DNL Unified Profile Service] sono lieti di annunciare la disponibilità generale dei casi d&#39;uso &quot;Same Page/Next Page Personalization&quot;.<br>L’utilizzo dei tipi di pubblico creati in [!DNL Adobe Experience Platform] fornisce dati più completi sui clienti, per una personalizzazione più incisiva. Il [Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html?lang=it){target=_blank} (RTCP), basato su [!DNL Adobe Experience Platform], consente alle aziende di unire dati noti e anonimi provenienti da più origini aziendali per creare profili cliente che possono essere utilizzati per fornire ai clienti esperienze personalizzate in tempo reale su tutti i canali e dispositivi.<br>Per ulteriori informazioni, consulta [Utilizzare i tipi di pubblico da Adobe Experience Platform](/help/main/c-target/c-audiences/audiences.md#aep) in *Creare tipi di pubblico*.<br>Leggi il blog dell&#39;Adobe e guarda il video: [[!DNL Adobe] annuncia Same Page Enhanced Personalization with [!DNL Adobe Target] and [!DNL Real-time Customer Data Platform]](https://blog.adobe.com/en/publish/2021/10/05/adobe-announces-same-page-enhanced-personalization-with-adobe-target-real-time-customer-data-platform){target=_blank}. |
+| Tipi di pubblico [!DNL Adobe Experience Platform] in [!DNL Target] | Ora puoi sfruttare e utilizzare i tipi di pubblico [!DNL Adobe Experience Platform] in [!DNL Target]. Il team [!DNL Target], il team [!DNL Experience Platform] [!DNL Destinations] e il team [!DNL Unified Profile Service] sono lieti di annunciare la disponibilità generale dei casi d&#39;uso &quot;Same Page/Next Page Personalization&quot;.<br>L’utilizzo dei tipi di pubblico creati in [!DNL Adobe Experience Platform] fornisce dati più completi sui clienti, per una personalizzazione più incisiva. Il [Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html?lang=it){target=_blank} (RTCP), basato su [!DNL Adobe Experience Platform], consente alle aziende di unire dati noti e anonimi provenienti da più origini aziendali per creare profili cliente che possono essere utilizzati per fornire ai clienti esperienze personalizzate in tempo reale su tutti i canali e dispositivi.<br>Per ulteriori informazioni, consulta [Utilizzare i tipi di pubblico da Adobe Experience Platform](/help/main/c-target/c-audiences/audiences.md#aep) in *Creare tipi di pubblico*.<br>Leggi il blog di Adobe e guarda il video: [[!DNL Adobe] annuncia Same Page Enhanced Personalization with [!DNL Adobe Target] and [!DNL Real-time Customer Data Platform]](https://blog.adobe.com/en/publish/2021/10/05/adobe-announces-same-page-enhanced-personalization-with-adobe-target-real-time-customer-data-platform){target=_blank}. |
 | Aggiornamento dell&#39;interfaccia utente [!UICONTROL Audiences] | Come parte degli sforzi continui del team [!DNL Adobe Target] per migliorare l&#39;esperienza utente per [!DNL Target] utenti, questa versione aggiorna le pagine [!UICONTROL Audiences] e [!UICONTROL Profile Scripts] nell&#39;interfaccia utente [!DNL Target]. Questo aggiornamento unisce e standardizza i disegni di progettazione precedentemente incoerenti, aggiungendo nuovi miglioramenti, ad esempio:<ul><li>Possibilità di selezionare ed eliminare più tipi di pubblico contemporaneamente</li><li>Una [progettazione di audience builder](/help/main/c-target/c-audiences/create-audience.md) rinnovata</li><li>Supporto della regola di esclusione nel generatore di regole di libreria [!UICONTROL Audience]</li><li>Un nuovo filtro &quot;Audience Source&quot; per consentire un rilevamento più rapido del pubblico</li><li>Opzioni di ricerca e filtro persistenti nella sessione</li><li>Possibilità di spostare i tipi di pubblico tra aree di lavoro diverse per i clienti [!DNL Target Premium].</li></ul>Per ulteriori informazioni, consulta [Tipi di pubblico](/help/main/c-target/target.md).<br>**NOTA**: questa funzione verrà implementata gradualmente nelle prossime otto settimane per i clienti in diverse aree geografiche. |
 | Aggiornamento dell&#39;interfaccia utente [!UICONTROL Profile Scripts] | Anche la libreria [!UICONTROL Profile Scripts] è stata aggiornata e include un&#39;interfaccia aggiornata insieme a diversi aggiornamenti di produttività:<ul><li>Possibilità di selezionare ed eliminare contemporaneamente più script di profilo</li><li>Un nuovo editor di codice per gli script di profilo</li><li>Evidenziazione della sintassi e controllo degli errori all’interno dell’editor di codice</li><li>Parametri dei token (mbox o profilo) che si completano automaticamente tramite scelte rapide da tastiera</li></ul>Per ulteriori informazioni, consulta [Profili dei visitatori](/help/main/c-target/c-visitor-profile/visitor-profile.md).<br>**NOTA**: questa funzione verrà implementata gradualmente nelle prossime otto settimane per i clienti in diverse aree geografiche. |
 
@@ -1293,7 +1299,7 @@ Questa versione include i miglioramenti, le modifiche e le funzioni seguenti:
 | Funzionalità/Miglioramento | Descrizione |
 | --- | --- |
 | Targeting<br>25 gennaio 2019 | Apportate modifiche al modo in cui il targeting abbina la funzione confronti “equals” con valori non decimali e decimali restituiti da script di profilo o da qualsiasi altra origine di input, come parametri mbox, parametri di profilo, ecc.<br>Per ulteriori informazioni, consulta [Domande frequenti su Target e tipi di pubblico](/help/main/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md). |
-| Script di profilo<br>17 gennaio 2019 | Per motivi di prestazioni, si consiglia di restituire un valore restituito non superiore ai 256 caratteri.<br>Per un valore di ritorno Stringa, se la dimensione del valore restituito supera i 2048 caratteri, il sistema disabilita lo script.<br>Per un valore di ritorno Array, se la dimensione dei valori concatenati dell’array supera i 2048 caratteri, il sistema disabilita lo script.<br>Per ulteriori informazioni sui limiti dei caratteri e altri limiti (dimensioni dell’offerta, pubblico, profili, valori, parametri, ecc.) che influenzano le attività e altri elementi in Target Consulta [Limiti](/help/main/r-troubleshooting-target/target-limits.md). |
+| Script di profilo<br>17 gennaio 2019 | Per motivi di prestazioni, si consiglia di restituire un valore restituito non superiore ai 256 caratteri.<br>Per un valore di ritorno Stringa, se la dimensione del valore restituito supera i 2048 caratteri, il sistema disabilita lo script.<br>Per un valore di ritorno Array, se la dimensione dei valori concatenati dell’array supera i 2048 caratteri, il sistema disabilita lo script.<br>Per ulteriori informazioni sui limiti dei caratteri e altri limiti (dimensioni dell&#39;offerta, pubblico, profili, valori, parametri, ecc.) che influiscono sulle attività e su altri elementi in Target, vedi [Limiti](/help/main/r-troubleshooting-target/target-limits.md). |
 | at.js<br>16 gennaio 2019 | at.js 1.6.4 è una versione di manutenzione e risolve i seguenti problemi:<ul><li>È stata corretta una situazione di tipo “race condition” critica in Microsoft Internet Explorer 11 che causava l’applicazione di offerte duplicate. (TNT-31374)</li><li>Risolto un problema che comprometteva il tracciamento dei clic in caso di offerta predefinita con un click-token e offerte HTML. (TNT-31493)</li><li>Esteso il cookie mboxEdgeCluster con ogni richiesta di Target. Questa opzione si utilizza solo quando mboxEdgeOverride è attivo. (TNT-31485)</li></ul> |
 
 ### [!DNL Target] Standard/Premium 19.1.1 (22 gennaio 2019) {#release-19-1-1-previous}
@@ -2093,7 +2099,7 @@ Questa versione include i miglioramenti e le funzioni seguenti (i codici tra par
 
 Questa versione di [!DNL Target] include i miglioramenti, le correzioni e le modifiche seguenti per i clienti:
 
-* È possibile eliminare i tipi di pubblico importati (da Target Classic, Experience Cloud ecc.) dalla Libreria di pubblico. Target avverte se si tenta di eliminare il pubblico di un&#39;attività attiva. (TGT-25171)
+* Puoi eliminare i tipi di pubblico importati (Target Classic, Experience Cloud, ecc.) dalla Libreria tipi di pubblico. Target avverte se si tenta di eliminare il pubblico di un&#39;attività attiva. (TGT-25171)
 * I tipi di pubblico importati da Target Classic sono ora etichettati come Adobe Target Classic nella libreria Pubblico. In passato, nell’interfaccia utente non vi era distinzione tra Target Standard/Premium e Target Classic. (TGT-27093)
 * Le Raccolte si applicano ora a tutti i criteri (inclusi gli elementi visualizzati di recente). (TGT-26646)
 * Nella libreria Pubblico e nella Libreria delle offerte è possibile filtrare in base all’Area di lavoro (funzione disponibile per gli utenti Target Premium con autorizzazioni per gli utenti Enterprise). (TGT-26813)
@@ -2368,7 +2374,7 @@ Questa versione di [!DNL Target] include i seguenti miglioramenti e correzioni d
 
   Se durante l&#39;esecuzione di un&#39;azione intermittente in una pagina di [!DNL Target] si verifica un arresto di sessione, l&#39;utente è invitato a eseguire nuovamente l&#39;accesso e viene quindi indirizzato all&#39;ultima pagina da lui modificata nell&#39;interfaccia utente di [!DNL Target].
 
-* È stato risolto un problema che causava la perdita delle modifiche del codice personalizzato se, durante la navigazione, l&#39;utente (in caso di modifica delle esperienze, passaggio a un&#39;altra pagina, cambio di pubblico, clic su Avanti ecc.) si fosse dimenticato di salvare le modifiche. All&#39;utente viene ora richiesto di salvare le modifiche. (TGT-23766)
+* È stato risolto un problema che causava la perdita delle modifiche al codice personalizzato se l’utente si allontanava (cambiava le esperienze, cambiava pagina, cambiava pubblico, faceva clic su Avanti, ecc.) e dimenticava di salvare le modifiche. All&#39;utente viene ora richiesto di salvare le modifiche. (TGT-23766)
 * Quando un&#39;attività viene archiviata, viene visualizzato il messaggio “archiviazione dell&#39;attività” anziché “aggiornamento dell&#39;attività”. (KB-1517)
 * Il selettore a discesa nelle seguenti posizioni all&#39;interno dell&#39;interfaccia utente di Target è stato sostituito con funzionalità di completamento automatico per migliorarne la velocità e le prestazioni: (TGT-22939)
 
@@ -2559,7 +2565,7 @@ Questa versione di [!DNL Target] include i seguenti miglioramenti e correzioni r
 * L&#39;interfaccia utente di [!DNL Target] è stata aggiornata per supportare le offerte di reindirizzamento in attività che utilizzano [!UICONTROL Analytics for Target] (A4T) come origine per la generazione di rapporti. Questa funzionalità richiederà la versione 0.9.6 di [!DNL at.js], che sarà disponibile a breve.
 * L&#39;interfaccia utente di [!DNL Target] è stata aggiornata in alcuni punti:
 
-   * Nei rapporti e nelle attività, alcune opzioni ( [!UICONTROL Edit], [!UICONTROL Share to Feed], [!UICONTROL View Experience URLs], ecc.) sono ora accessibili facendo clic sull&#39;icona [!UICONTROL More Options] ( ![icon_more_options image](assets/icon_more_options.png)
+   * Nei report e nelle attività, è ora possibile accedere ad alcune opzioni ( [!UICONTROL Edit], [!UICONTROL Share to Feed], [!UICONTROL View Experience URLs], ecc.) facendo clic sull&#39;icona [!UICONTROL More Options] ( ![icon_more_options image](assets/icon_more_options.png)
 
       
    * Nella libreria [!UICONTROL Offers], le offerte ora vengono visualizzate in un elenco anziché come schede. Altre modifiche minori dell&#39;interfaccia utente sono state apportate in tutta l&#39;interfaccia utente della libreria [!UICONTROL Offers].

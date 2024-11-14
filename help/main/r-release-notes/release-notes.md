@@ -6,10 +6,10 @@ short-description: Scopri le nuove funzioni, i miglioramenti e le correzioni inc
 title: Cosa è incluso nella versione corrente?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: a708699926bd6cc89adc5c72d88be1ca4f0f0495
+source-git-commit: d823e9993ff17f1970dc1deac996928781c7e79d
 workflow-type: tm+mt
-source-wordcount: '736'
-ht-degree: 37%
+source-wordcount: '699'
+ht-degree: 39%
 
 ---
 
@@ -41,7 +41,7 @@ A seconda dell&#39;implementazione, verifica la presenza di [!DNL Analytics] e l
 
 * **Chiamata singola per la personalizzazione e la misurazione.**
 
-  Inizialmente consigliato, l&#39;approccio a chiamata singola per [!DNL Platform Web SDK] verrà dichiarato obsoleto a favore dell&#39;approccio a chiamata divisa. L’Adobe consiglia a tutte le nuove implementazioni di utilizzare il nuovo approccio di split-call e consiglia ai clienti esistenti di passare anche loro al metodo di split-call.
+  Inizialmente consigliato, l&#39;approccio a chiamata singola per [!DNL Platform Web SDK] verrà dichiarato obsoleto a favore dell&#39;approccio a chiamata divisa. Adobe consiglia a tutte le nuove implementazioni di utilizzare il nuovo approccio di split-call e consiglia ai clienti esistenti di passare anche loro al metodo di split-call.
 
   Se si continua a utilizzare l&#39;approccio a chiamata singola, è possibile che nei report [!DNL Analytics] vengano rilevate le seguenti modifiche impreviste:
 
@@ -52,13 +52,7 @@ A seconda dell&#39;implementazione, verifica la presenza di [!DNL Analytics] e l
 
   Questo tipo di implementazione è il nuovo [approccio di implementazione con chiamata divisa](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/use-cases/top-bottom-page-events){target=_blank} consigliato da [!DNL Adobe]. Con questo approccio, la nuova ottimizzazione non influisce sui rapporti [!DNL Analytics] o A4T.
 
-In caso di domande, contatta [l&#39;Assistenza clienti Adobe](/help/main/cmp-resources-and-contact-information.md##reference_ACA3391A00EF467B87930A450050077C). (KB-2179)
-
-## at.js versione 2.11.6 (29 settembre 2024)
-
-* È stato risolto un problema che impediva a [!DNL Target] di funzionare correttamente con le offerte di reindirizzamento all&#39;interno di [!UICONTROL Visual Experience Composer] (VEC) o [!UICONTROL Form-Based Experience Composer].
-
-Per ulteriori informazioni sulle versioni di at.js, consulta [Dettagli sulla versione di at.js](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions){target=_blank} nella *Guida per gli sviluppatori di Adobe Target*.
+In caso di domande, contatta l&#39;[Assistenza clienti Adobe](/help/main/cmp-resources-and-contact-information.md##reference_ACA3391A00EF467B87930A450050077C). (KB-2179)
 
 ## Note aggiuntive e dettagli sulla versione
 

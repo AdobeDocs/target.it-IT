@@ -4,10 +4,10 @@ description: Scopri le nuove funzioni, i miglioramenti e le correzioni, compresi
 title: Quali nuove funzioni e miglioramenti saranno inclusi nella prossima versione [!DNL Target] ?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: a708699926bd6cc89adc5c72d88be1ca4f0f0495
+source-git-commit: d823e9993ff17f1970dc1deac996928781c7e79d
 workflow-type: tm+mt
-source-wordcount: '646'
-ht-degree: 26%
+source-wordcount: '588'
+ht-degree: 27%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 26%
 
 Questo articolo contiene informazioni prerelease per le prossime versioni di [!DNL Adobe Target], incluse SDK, API e librerie JavaScript.
 
-**Ultimo aggiornamento: mercoledì 22 ottobre 2024**
+**Ultimo aggiornamento: venerdì 14 novembre 2024**
 
 >[!NOTE]
 >
@@ -45,7 +45,7 @@ A seconda dell&#39;implementazione, verifica la presenza di [!DNL Analytics] e l
 
 * **Chiamata singola per la personalizzazione e la misurazione.**
 
-  Inizialmente consigliato, l&#39;approccio a chiamata singola per [!DNL Platform Web SDK] verrà dichiarato obsoleto a favore dell&#39;approccio a chiamata divisa. L’Adobe consiglia a tutte le nuove implementazioni di utilizzare il nuovo approccio di split-call e consiglia ai clienti esistenti di passare anche loro al metodo di split-call.
+  Inizialmente consigliato, l&#39;approccio a chiamata singola per [!DNL Platform Web SDK] verrà dichiarato obsoleto a favore dell&#39;approccio a chiamata divisa. Adobe consiglia a tutte le nuove implementazioni di utilizzare il nuovo approccio di split-call e consiglia ai clienti esistenti di passare anche loro al metodo di split-call.
 
   Se si continua a utilizzare l&#39;approccio a chiamata singola, è possibile che nei report [!DNL Analytics] vengano rilevate le seguenti modifiche impreviste:
 
@@ -56,14 +56,15 @@ A seconda dell&#39;implementazione, verifica la presenza di [!DNL Analytics] e l
 
   Questo tipo di implementazione è il nuovo [approccio di implementazione con chiamata divisa](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/use-cases/top-bottom-page-events){target=_blank} consigliato da [!DNL Adobe]. Con questo approccio, la nuova ottimizzazione non influisce sui rapporti [!DNL Analytics] o A4T.
 
-In caso di domande, contatta [l&#39;Assistenza clienti Adobe](/help/main/cmp-resources-and-contact-information.md##reference_ACA3391A00EF467B87930A450050077C). (KB-2179)
+In caso di domande, contatta l&#39;[Assistenza clienti Adobe](/help/main/cmp-resources-and-contact-information.md##reference_ACA3391A00EF467B87930A450050077C). (KB-2179)
 
-## [!DNL Target Standard/Premium] 24.10.2 (21 ottobre 2024)
+<!-- 
+## [!DNL Target Standard/Premium] 24.10.2 (October 21, 2024)
 
-Questa versione include le seguenti correzioni:
+This release contains the following fixes:
 
-* È stato risolto un problema che impediva il caricamento di [!UICONTROL Recommendations] attività in modalità [!UICONTROL Compose] e [!UICONTROL Browse]. (TGT-50709)
-* È stato risolto un problema con la nuova estensione [[!DNL Google Chrome] [!UICONTROL Visual Editing Helper]](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) che causava un reindirizzamento da [!UICONTROL Visual Experience Composer] (VEC) a [!UICONTROL Activities Library] dopo aver fatto clic su Annulla. Prima di questa correzione, i clienti dovevano aggiornare [!UICONTROL Activities Library] prima di poter creare nuove attività. (TGT-49980)
+* Fixed an issue that prevented [!UICONTROL Recommendations] activities from loading in [!UICONTROL Compose] and [!UICONTROL Browse] modes. (TGT-50709)
+* Fixed an issue with the new [[!DNL Google Chrome] [!UICONTROL Visual Editing Helper] extension](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) that caused a redirect from the [!UICONTROL Visual Experience Composer] (VEC) to the [!UICONTROL Activities Library] after clicking Cancel. Before this fix, customers needed to refresh the [!UICONTROL Activities Library] before being able to create new activities. (TGT-49980)-->
 
 ## Note aggiuntive e dettagli sulla versione
 
