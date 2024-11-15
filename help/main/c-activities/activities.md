@@ -4,10 +4,10 @@ description: Personalizza contenuti e progetti di pagine di prova per tipi di pu
 title: Come posso personalizzare il contenuto e testare le progettazioni di pagine con  [!DNL Target]?
 feature: Activities
 exl-id: 7e61525d-b2db-44f6-a7c2-df5a8d28eca2
-source-git-commit: d7515bab57c5e2973cfd5d2ac75d76c048786646
+source-git-commit: 1e23c1170475869e2798e23551d63575031502b4
 workflow-type: tm+mt
-source-wordcount: '2225'
-ht-degree: 28%
+source-wordcount: '2313'
+ht-degree: 26%
 
 ---
 
@@ -75,7 +75,7 @@ Il menu consente di filtrare le attività in base ai seguenti attributi:
 | Attributo | Dettagli |
 | --- | --- |
 | [!UICONTROL Type] | Filtra per [tipo di attività](#types). |
-| [!UICONTROL Status] | Filtra per stato attività. |
+| [!UICONTROL Status] | Filtra per stato attività.<ul><li>**[!UICONTROL Live]**: l&#39;attività è attualmente in esecuzione.</li><li>**[!UICONTROL Draft]**: la configurazione dell&#39;attività è iniziata, ma l&#39;attività è in [modalità bozza](/help/main/c-activities/edit-activity.md) e non è ancora pronta per l&#39;esecuzione.</li><li>**[!UICONTROL Scheduled]**: l&#39;attività è pronta per essere attivata quando arrivano la data e l&#39;ora di inizio specificate.</li><li>**[!UICONTROL Inactive]**: l&#39;attività è stata sospesa o disattivata.</li><li>**[!UICONTROL Syncing]**: l&#39;attività è stata salvata e viene sincronizzata nella rete di consegna [!DNL Target].</li><li>**[!UICONTROL Ended]**: la data e l&#39;ora di fine specificate dell&#39;attività sono state raggiunte e l&#39;attività non verrà più distribuita.</li><li>**[!UICONTROL Archived]**: attività archiviata. È possibile attivare un&#39;attività archiviata per utilizzarla nuovamente.</li></ul> |
 | [!UICONTROL Reporting Source] | Filtra per origine di reporting.<ul><li>[[!DNL Analytics]](/help/main/c-integrating-target-with-mac/a4t/a4t.md): visualizza le attività che utilizzano [!UICONTROL Analytics for Target] (A4T) come origine per la generazione di rapporti.</li><li>[[!DNL Target]](/help/main/c-reports/reports.md): visualizza le attività che utilizzano [!DNL Target] come origine per la generazione di rapporti.</li><li>[[!DNL Customer Journey Analytics]](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md): visualizza le attività che utilizzano [!DNL Adobe Customer Analytics] come origine per la generazione di rapporti.</li></ul> |
 | [!UICONTROL Experience Composer] | Filtro in base al quale il compositore esperienza è stato utilizzato durante la creazione dell’attività:<ul><li>[Visivo](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md): visualizza le attività create utilizzando [!UICONTROL Visual Experience Composer] (VEC).</li><li>[Basato su modulo](/help/main/c-experiences/form-experience-composer.md): visualizza le attività create utilizzando [!UICONTROL Form-Based Experience Composer].</li></ul> |
 | [!UICONTROL Metrics Type] | Filtro in base al quale [metrica di successo](/help/main/c-activities/r-success-metrics/success-metrics.md) è stata scelta durante la creazione dell&#39;attività.<ul><li>[!UICONTROL Conversion]</li><li>[!UICONTROL Revenue]</li><li>[!UICONTROL Engagement]</li><li>[!UICONTROL Use an Analytics metric]</lI></ul> |
@@ -94,7 +94,7 @@ Sono disponibili le seguenti azioni (a seconda delle autorizzazioni e dello stat
 | [!UICONTROL Edit] | Modifica l&#39;attività. Qualsiasi attività può essere modificata.<P>Per ulteriori informazioni sulle diverse modalità di modifica delle attività, vedere [Modificare un&#39;attività o salvarla come bozza](/help/main/c-activities/edit-activity.md). |
 | [!UICONTROL Deactivate] | Interrompe un&#39;attività in esecuzione o pianificata. Un’attività disattivata può essere riattivata o archiviata.<P>Se disattivi o archivi un’attività e poi la riattivi in un secondo momento, un visitatore continuerà a esserne parte dopo la riattivazione se vi partecipava prima che fosse disattivata o archiviata. Ogni metrica di conversione registrata durante il periodo trascorso tra i due eventi non verrà attribuita a quell’attività. |
 | [!UICONTROL Activate] | Avvia un’attività inattiva o pronta per essere attivata. |
-| [!UICONTROL Archive] | Invia l&#39;attività all&#39;archivio. Per impostazione predefinita, le attività archiviate non vengono più visualizzate nell&#39;elenco [!UICONTROL Activities]. Per includere nell’elenco anche le attività archiviate, devi cambiare il filtro per l&#39;elenco delle attività. È possibile attivare un&#39;attività archiviata per utilizzarla nuovamente.<P>Se disattivi o archivi un’attività e poi la riattivi in un secondo momento, un visitatore continuerà a esserne parte dopo la riattivazione se si trovava in tale attività prima che fosse disattivata o archiviata. Ogni metrica di conversione registrata durante il periodo trascorso tra i due eventi non verrà attribuita a quell’attività. |
+| [!UICONTROL Archive] | Invia l&#39;attività all&#39;archivio. Per impostazione predefinita, le attività archiviate non vengono più visualizzate nell&#39;elenco [!UICONTROL Activities]. Modificare il filtro per l&#39;elenco [!UICONTROL Activities] in modo da includere le attività archiviate per visualizzarle. È possibile attivare un&#39;attività archiviata per utilizzarla nuovamente.<P>Se disattivi o archivi un’attività e poi la riattivi in un secondo momento, un visitatore continuerà a esserne parte dopo la riattivazione se si trovava in tale attività prima che fosse disattivata o archiviata. Ogni metrica di conversione registrata durante il periodo trascorso tra i due eventi non verrà attribuita a quell’attività. |
 | [!UICONTROL Copy] | Copia un&#39;attività. Qualsiasi attività può essere copiata. Quando si copia un&#39;attività viene creata una nuova attività con lo stesso nome e la dicitura “Copia”. Ad esempio, la copia di un test denominato “Offerte browser” sarà denominata “Copia Offerte browser”.<P>Le offerte visive vengono copiate con l&#39;attività. È possibile modificare in modo sicuro le offerte nella copia senza influire sull&#39;attività originale. L&#39;unica eccezione sono le offerte e le immagini salvate nella cartella Contenuto/Risorse. |
 | [!UICONTROL Delete] | Elimina una bozza o un’attività.<P>**NOTA**: non è possibile recuperare le attività eliminate. A meno che tu non sia sicuro che questa attività non sarà mai più necessaria, utilizza l&#39;azione [!UICONTROL Archive]. Se necessario, puoi quindi riattivare l’attività. |
 
@@ -102,7 +102,7 @@ Sono disponibili le seguenti azioni (a seconda delle autorizzazioni e dello stat
 
 Osservare i dettagli seguenti sull&#39;elenco [!UICONTROL Activity]:
 
-* Le attività archiviate e terminate non vengono visualizzate nell&#39;elenco [!UICONTROL Activities]. Per visualizzare queste attività, filtrale utilizzando l&#39;icona [Filtri](#filters) ( ![Mostra icona Filtri](/help/main/assets/icons/Filter.svg) ) nella parte superiore dell&#39;elenco.
+* Le attività [!UICONTROL Archived] e [!UICONTROL Ended] non vengono visualizzate nell&#39;elenco [!UICONTROL Activities]. Per visualizzare queste attività, filtrale utilizzando l&#39;icona [Filtri](#filters) ( ![Mostra icona Filtri](/help/main/assets/icons/Filter.svg) ) nella parte superiore dell&#39;elenco.
 * Quando un&#39;attività originariamente creata in [!DNL Target Classic] viene disattivata o eliminata, viene eliminata da [!DNL Target Standard/Premium]. Le attività eliminate originariamente create in [!DNL Target Classic] non vengono inviate alla cartella [!UICONTROL Archive] in [!DNL Target Standard/Premium]. La funzionalità di cartella archiviata è applicabile solo alle attività create in [!DNL Target Standard/Premium].
 * Tutti i tipi di attività diversi da [!UICONTROL Automated Personalization] (AP), [!UICONTROL Auto-Allocate] e [!UICONTROL Auto-Target] consentono di scegliere se utilizzare [!DNL Target] o [!DNL Adobe Analytics] come origine dati. [!UICONTROL Automated Personalization], [!UICONTROL Auto-Allocate] e [!UICONTROL Auto-Target] *utilizza sempre* dati [!DNL Target].
 * Le attività sono disponibili per diversi canali:
@@ -115,7 +115,7 @@ Osservare i dettagli seguenti sull&#39;elenco [!UICONTROL Activity]:
 
 ## Limitazioni  {#section_049D4684403A4E07B998067EB8E9BE56}
 
-Ogni attività di Target presenta le seguenti limitazioni di contenuto:
+Ogni attività [!DNL Target] presenta le seguenti limitazioni di contenuto:
 
 | Elemento | Limite |
 |--- |--- |
@@ -129,11 +129,11 @@ L’attività non può essere salvata se superi uno di questi limiti.
 
 L&#39;aumento del numero di questi elementi nell&#39;attività aumenta anche il tempo necessario per sincronizzare l&#39;attività in [!DNL Target].
 
-Per ulteriori limiti del Compositore esperienza visivo V[!UICONTROL Visual Experience Composer], vedi [Limitazioni del Compositore esperienza visivo](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#section_F33C2EA27F2E417AA036BC199DD6C721).
+Per ulteriori limiti di [!UICONTROL Visual Experience Composer] (VEC), vedi [Limitazioni del Compositore esperienza visivo](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#section_F33C2EA27F2E417AA036BC199DD6C721).
 
 ## Attributi importati in [!DNL Target] per attività aggiornate al di fuori di [!DNL Target] {#section_802B0D174E6A44E1A96F404CA81AAE44}
 
 Se le attività create in [!DNL Target] vengono aggiornate dall&#39;esterno di [!DNL Target] (ad esempio tramite API), i seguenti attributi di attività vengono importati nuovamente in [!DNL Target]: `thirdpartyId`, `startDate`, `endDate`, `status`, `priority` e `marketingCloudMetadata(remoteModifiedBy)`.
 
-Questo processo di importazione viene eseguito all’apertura della pagina attività, con un ritardo massimo di dieci minuti.
+Questo processo di importazione viene eseguito all&#39;apertura dell&#39;elenco [!UICONTROL Activities], con un ritardo massimo di dieci minuti.
 
