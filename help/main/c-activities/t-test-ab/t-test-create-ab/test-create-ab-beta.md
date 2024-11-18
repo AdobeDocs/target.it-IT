@@ -1,14 +1,15 @@
 ---
 keywords: Creare test A/B;attività A/B;nuova attività A/B;creare test A/B
-description: Padroneggiare il Compositore esperienza visivo [!UICONTROL Visual Experience Composer] per creare attività Test A/B direttamente su una pagina abilitata  [!DNL Target].
+description: Utilizzare il Compositore esperienza visivo [!UICONTROL Visual Experience Composer] per creare attività Test A/B direttamente su una pagina abilitata per  [!DNL Target].
 title: Come si crea un test A/B?
 feature: A/B Tests
 hide: true
 hidefromtoc: true
-source-git-commit: 5fc18c6d3b493ea0a58048cc20ce3a6c2ffb7d14
+exl-id: 35b8d451-289f-4c9d-82ed-c3bdb091c8e3
+source-git-commit: d5bd3b0d7cdf6eb06175a6365da6b8173f76800f
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '885'
+ht-degree: 17%
 
 ---
 
@@ -101,8 +102,8 @@ Per creare un&#39;attività [!UICONTROL A/B Test] manuale:
 
       Se devi creare un nuovo pubblico che non sia già presente in [!UICONTROL Audience Library], fai clic su **Crea pubblico**. Durante il flusso di lavoro [create-audience](/help/main/c-target/c-audiences/audiences.md) puoi scegliere tra le seguenti opzioni:
 
-      * Crea un pubblico on-demand salvato in [!UICONTROL Audience Library] che può essere riutilizzato in altre attività
-      * Crea un pubblico [specifico per l&#39;attività](/help/main/c-target/creating-activity-only-audience.md) che non è salvato in [!UICONTROL Audience Library] e può essere utilizzato solo nell&#39;attività corrente
+      * **[!UICONTROL Audience Library]**: crea un pubblico su richiesta salvato in [!UICONTROL Audience Library] che può essere riutilizzato in altre attività.
+      * **[!UICONTROL This activity only]**: crea un [pubblico specifico per l&#39;attività](/help/main/c-target/creating-activity-only-audience.md) che non è salvato in [!UICONTROL Audience Library] e può essere utilizzato solo nell&#39;attività corrente.
 
    1. Fai clic su **[!UICONTROL Visitor Percentage]** nel frame a destra, quindi scegli la percentuale di visitatori idonei che dovranno accedere all&#39;attività.
 

@@ -1,14 +1,15 @@
 ---
 keywords: pubblico;selezionare il pubblico;scegliere il pubblico;audience;selettori
-description: Definisci i visitatori del sito che partecipano all'attività dell'Adobe [!DNL Target]  in base ai criteri di pubblico.
+description: Definisci i visitatori del sito che partecipano all'attività di Adobe [!DNL Target]  in base ai criteri di pubblico.
 title: Come si seleziona un pubblico in un'attività  [!DNL Target] A/B?
 feature: A/B Tests
 hide: true
 hidefromtoc: true
-source-git-commit: cc823f84fb93cbe2e55d394d0f6f4fe48bbd5293
+exl-id: 117cec36-87ef-4bd5-8a39-fb885b679d95
+source-git-commit: d5bd3b0d7cdf6eb06175a6365da6b8173f76800f
 workflow-type: tm+mt
-source-wordcount: '522'
-ht-degree: 12%
+source-wordcount: '526'
+ht-degree: 8%
 
 ---
 
@@ -40,10 +41,12 @@ Per ulteriori informazioni su tutte le opzioni del diagramma di flusso, vedere [
 
 1. (Facoltativo) Fai clic su **Combina tipi di pubblico** per [creare un pubblico che combini più tipi di pubblico](/help/main/c-target/combining-multiple-audiences.md).
 
-1. (Condizionale) Per creare un nuovo pubblico che non sia già presente in [!UICONTROL Audience Library], fai clic su **Crea pubblico**. Durante il flusso di lavoro [create-audience](/help/main/c-target/c-audiences/audiences.md), puoi scegliere tra le seguenti opzioni:
+1. (Condizionale) Per creare un nuovo pubblico che non è già presente in [!UICONTROL Audience Library], fai clic su **Crea pubblico**, definisci il pubblico, quindi fai clic su **[!UICONTROL Done]**.
 
-   * Crea un pubblico on-demand salvato in [!UICONTROL Audience Library] che può essere riutilizzato in altre attività
-   * Crea un pubblico [specifico per l&#39;attività](/help/main/c-target/creating-activity-only-audience.md) che non è salvato in [!UICONTROL Audience Library] e può essere utilizzato solo nell&#39;attività corrente
+   Durante il flusso di lavoro [create-audience](/help/main/c-target/c-audiences/audiences.md), puoi scegliere tra le seguenti opzioni:
+
+   * **[!UICONTROL Audience Library]**: crea un pubblico su richiesta salvato in [!UICONTROL Audience Library] che può essere riutilizzato in altre attività.
+   * **[!UICONTROL This activity only]**: crea un [pubblico specifico per l&#39;attività](/help/main/c-target/creating-activity-only-audience.md) che non è salvato in [!UICONTROL Audience Library] e può essere utilizzato solo nell&#39;attività corrente.
 
 1. Fai clic su **[!UICONTROL Visitor Percentage]** nel riquadro a destra, quindi specifica la percentuale di visitatori idonei da includere nell&#39;attività.
 
@@ -51,7 +54,7 @@ Per ulteriori informazioni su tutte le opzioni del diagramma di flusso, vedere [
 
 >[!NOTE]
 >
->Quando apri l’elenco dei tipi di pubblico e questi sono stati importati da almeno 10 minuti, vengono importati automaticamente in background.
+>I tipi di pubblico vengono importati automaticamente in background quando si apre l&#39;elenco [!UICONTROL Audience] e i tipi di pubblico importati hanno più di 10 minuti.
 
 ## Visualizzare le informazioni di un pubblico
 
@@ -64,4 +67,3 @@ Per ulteriori informazioni su tutte le opzioni del diagramma di flusso, vedere [
 È possibile modificare o copiare un pubblico facendo clic sull&#39;icona [!UICONTROL More Actions] ( ![Icona Altre azioni](/help/main/assets/icons/More.svg) ) accanto al pubblico desiderato nella finestra di dialogo [!UICONTROL Add Audience], quindi facendo clic su [!UICONTROL Edit] o [!UICONTROL Copy].
 
 È utile copiare un pubblico per crearne uno simile a un pubblico esistente. Puoi effettuare una copia del pubblico, apportarvi le modifiche desiderate, quindi salvarlo come nuovo pubblico.
-

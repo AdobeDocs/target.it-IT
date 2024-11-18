@@ -5,7 +5,8 @@ title: Come si impostano le metriche dell’obiettivo in un’attività A/B?
 feature: A/B Tests
 hide: true
 hidefromtoc: true
-source-git-commit: 22a12d29fb894e916783efc65dfe8dfd698dff83
+exl-id: b7955ed7-61b4-429f-80ff-8efcafc10542
+source-git-commit: d5bd3b0d7cdf6eb06175a6365da6b8173f76800f
 workflow-type: tm+mt
 source-wordcount: '284'
 ht-degree: 58%
@@ -18,7 +19,7 @@ Utilizzare le metriche in un&#39;attività A/B [!DNL Adobe Target] per determina
 
 Per informazioni dettagliate sulle metriche di successo, vedi [Metriche di successo](/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924).
 
-1. Nella sezione **[!UICONTROL Reporting Settings]** della pagina **[!UICONTROL Goals & Settings]**, seleziona una [metrica di successo](/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)
+1. Nella sezione **[!UICONTROL Reporting Settings]** della pagina **[!UICONTROL Goals & Settings]**, selezionare una [metrica di successo](/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924).
 
    L&#39;opzione [!UICONTROL Select Metrics] elenca le metriche di successo che è possibile scegliere per l&#39;attività. Le metriche di successo sono suddivise nelle seguenti categorie:
 

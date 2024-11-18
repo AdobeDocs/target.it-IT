@@ -5,9 +5,10 @@ title: Qual è l’URL attività in un’attività A/B?
 feature: A/B Tests
 hide: true
 hidefromtoc: true
-source-git-commit: 6e9d18b8347d8ae68be699640c4cde91bdec762c
+exl-id: 7f1b8364-790d-4767-bff3-4217ced1a77b
+source-git-commit: d5bd3b0d7cdf6eb06175a6365da6b8173f76800f
 workflow-type: tm+mt
-source-wordcount: '225'
+source-wordcount: '227'
 ht-degree: 40%
 
 ---
@@ -26,7 +27,7 @@ Quando viene richiesto durante la creazione dell’attività, specifica l’URL 
 
 Per impostazione predefinita, [!UICONTROL Visual Experience Composer] apre la pagina specificata nelle [impostazioni del Compositore esperienza visivo](/help/main/administrating-target/visual-experience-composer-set-up.md). È possibile specificare una pagina diversa durante la creazione dell’attività.
 
-1. Per visualizzare una pagina diversa dopo l&#39;apertura di [!UICONTROL Visual Experience Composer], nella pagina **[!UICONTROL Experiences]** fare clic su **[!UICONTROL Configure]** nella parte superiore della pagina, quindi selezionare **[!UICONTROL Page Delivery]**.
+1. (Condizionale) Per visualizzare una pagina diversa dopo l&#39;apertura di [!UICONTROL Visual Experience Composer], nella pagina **[!UICONTROL Experiences]** fare clic su **[!UICONTROL Configure]** nella parte superiore della pagina, quindi selezionare **[!UICONTROL Page Delivery]**.
 
 1. Specificare l&#39;URL nel campo **[!UICONTROL URL]**.
 
@@ -40,6 +41,7 @@ Per impostazione predefinita, [!UICONTROL Visual Experience Composer] apre la pa
    * Frammento hash (#)
    * Query
    * Parametro mbox
+   * Personalizzato
 
    È possibile unire ulteriori regole all’URL attività con AND o OR. Tutte le regole aggiunte vengono valutate tra loro con E.
 

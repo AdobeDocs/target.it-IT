@@ -1,13 +1,14 @@
 ---
 keywords: Targeting;esperienza;aggiungere un’esperienza;aggiunta esperienza
-description: Padroneggiare utilizzando [!UICONTROL Visual Experience Composer] (VEC) per aggiungere esperienze alle attività.
+description: Utilizza [!UICONTROL Visual Experience Composer] (VEC) per aggiungere esperienze alle attività.
 title: Come si aggiungono esperienze in un’attività A/B?
 feature: A/B Tests
 hide: true
 hidefromtoc: true
-source-git-commit: 6e9d18b8347d8ae68be699640c4cde91bdec762c
+exl-id: 4b2d6cc6-f280-4d65-8153-53e9cd61d15a
+source-git-commit: d5bd3b0d7cdf6eb06175a6365da6b8173f76800f
 workflow-type: tm+mt
-source-wordcount: '388'
+source-wordcount: '387'
 ht-degree: 28%
 
 ---
