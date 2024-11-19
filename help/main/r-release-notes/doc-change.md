@@ -4,10 +4,10 @@ description: Resta aggiornato sulle importanti aggiunte e modifiche apportate al
 title: Dove posso trovare la documentazione aggiornata per  [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 9761a1ce4a583b39f7093bf9a3761e5268fe0e9c
+source-git-commit: 3f3f7484145c9fd43bf7ff7356cca0997057ef02
 workflow-type: tm+mt
-source-wordcount: '460'
-ht-degree: 22%
+source-wordcount: '512'
+ht-degree: 21%
 
 ---
 
@@ -19,6 +19,7 @@ Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Targ
 
 | Data | Argomento | Modifiche |
 |--- |--- |--- |
+| 19 novembre | Note sulla versione di [[!DNL Target]  (corrente)](/help/main/r-release-notes/release-notes.md) | È stata aggiunta la seguente nota importante alla sezione &quot;[!DNL Adobe Experience Platform Web SDK] `__view__` ottimizzazione ambito (22 ottobre 2024)&quot;:<ul><li>IMPORTANTE - Se non riesci a completare la revisione dell’implementazione e a risolvere eventuali problemi entro il 3 febbraio 2025, puoi richiedere una proroga una tantum di sei mesi. Assicurati di inviare la richiesta entro il 31 gennaio 2025. Adobe esaminerà e deciderà in merito alla tua richiesta.</li><ul> |
 | 22 ottobre | Note sulla versione di [[!DNL Target]  (corrente)](/help/main/r-release-notes/release-notes.md) | Sono state aggiunte le seguenti informazioni importanti:<ul><li>Ottimizzazione dell&#39;ambito [!DNL Adobe Experience Platform Web SDK] `__view__`</li></ul> |
 | 14 ottobre | Note sulla versione (prerelease) di [[!DNL Target] ](/help/main/r-release-notes/target-release-notes.md) | Sono state aggiunte le note sulla versione 24.10.2 di [!DNL Target Standard/Premium]. |
 |  | Estensione helper [[!UICONTROL Visual Experience Composer]](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) | Sono state aggiunte informazioni importanti sull’utilizzo dell’estensione con Negozi web Chrome privati. |
