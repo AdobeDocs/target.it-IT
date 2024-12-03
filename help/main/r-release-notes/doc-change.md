@@ -4,10 +4,10 @@ description: Resta aggiornato sulle importanti aggiunte e modifiche apportate al
 title: Dove posso trovare la documentazione aggiornata per  [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 5b66b2d209398f8cbc69eac7fb2e2f12844fcc7d
+source-git-commit: 6d18b76da95ad5c5b4d4144c75921a1c42313789
 workflow-type: tm+mt
-source-wordcount: '529'
-ht-degree: 21%
+source-wordcount: '543'
+ht-degree: 22%
 
 ---
 
@@ -19,6 +19,7 @@ Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Targ
 
 | Data | Argomento | Modifiche |
 |--- |--- |--- |
+| 3 dicembre | Note sulla versione (prerelease) di [[!DNL Target] ](/help/main/r-release-notes/target-release-notes.md) | Sono state aggiunte note sulla versione prerelease per il prossimo aggiornamento dell&#39;interfaccia utente [!UICONTROL Offers Library]. |
 | 20 novembre | [Inserire nell’elenco consentiti i nodi Edge di Target](https://experienceleague.adobe.com/en/docs/target-dev/developer/implementation/privacy/allowlist-edges#target-edge-ip-addresses){target=_blank} | È stato aggiornato l’elenco degli indirizzi IP edge di Target da inserire nell&#39;elenco Consentiti in modo da poter eseguire il targeting dei dati. |
 | 19 novembre | Note sulla versione di [[!DNL Target]  (corrente)](/help/main/r-release-notes/release-notes.md) | È stata aggiunta la seguente nota importante alla sezione &quot;[!DNL Adobe Experience Platform Web SDK] `__view__` ottimizzazione ambito (22 ottobre 2024)&quot;:<ul><li>IMPORTANTE - Se non riesci a completare la revisione dell’implementazione e a risolvere eventuali problemi entro il 3 febbraio 2025, puoi richiedere una proroga una tantum di sei mesi. Assicurati di inviare la richiesta entro il 31 gennaio 2025. Adobe esaminerà e deciderà in merito alla tua richiesta.</li><ul> |
 | 22 ottobre | Note sulla versione di [[!DNL Target]  (corrente)](/help/main/r-release-notes/release-notes.md) | Sono state aggiunte le seguenti informazioni importanti:<ul><li>Ottimizzazione dell&#39;ambito [!DNL Adobe Experience Platform Web SDK] `__view__`</li></ul> |

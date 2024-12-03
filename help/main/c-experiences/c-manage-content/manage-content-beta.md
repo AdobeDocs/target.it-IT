@@ -7,9 +7,9 @@ badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.c
 hide: true
 hidefromtoc: true
 exl-id: f64aec3d-5f83-4bd1-8e64-df1779809812
-source-git-commit: 0c86e142b7d459d07af51ec0c3454611564c8e08
+source-git-commit: 6d18b76da95ad5c5b4d4144c75921a1c42313789
 workflow-type: tm+mt
-source-wordcount: '866'
+source-wordcount: '873'
 ht-degree: 8%
 
 ---
@@ -35,7 +35,7 @@ La libreria [!UICONTROL Offers] fornisce una panoramica di tutte le offerte di c
 | Barra di navigazione a sinistra | Passare dalla visualizzazione di [!UICONTROL Code Offers] o [!UICONTROL Image Offers]. |
 | [!UICONTROL Show Folders] / [!UICONTROL Hide Folders]<P>![Icona Mostra/Nascondi filtri](/help/main/assets/icons/RailLeft.svg) | Fai clic sull&#39;icona **[!UICONTROL Show Folders]** o **[!UICONTROL Hide Folders]** per visualizzare o meno la struttura delle cartelle delle offerte.<P>Per ulteriori informazioni, consulta [Creare cartelle di offerta](/help/main/c-experiences/c-manage-content/create-content-folder.md). |
 | Icona [!UICONTROL Show filters]<P>![Icona Mostra filtri](/help/main/assets/icons/Filter.svg) | Fai clic sull&#39;icona **[!UICONTROL Show filters]** per filtrare le offerte in base a [!UICONTROL Type], [!UICONTROL Source] e [!UICONTROL AEM Type].<P>Per ulteriori informazioni, vedere [Applica filtri all&#39;elenco delle offerte](#filters) di seguito. |
-| Cerca campo | Utilizzare i campi **[!UICONTROL Search in]** per trovare rapidamente un&#39;offerta o per ridurre il numero di offerte visualizzate nella libreria [!UICONTROL Offers]. È possibile eseguire ricerche per [!UICONTROL Offer Name], [!UICONTROL AEM Paths] o [!UICONTROL AEM Tags]. |
+| Cerca campo | Utilizzare i campi **[!UICONTROL Search in]** per trovare rapidamente un&#39;offerta o per ridurre il numero di offerte visualizzate nella libreria [!UICONTROL Offers]. È possibile eseguire ricerche per [!UICONTROL Offer Name], [!UICONTROL AEM Paths] o [!UICONTROL AEM Tags]. Le opzioni di ricerca sono persistenti in sessione. |
 | [!UICONTROL Create Folder] | Fare clic su **[!UICONTROL Create Folder]** per creare cartelle nella libreria [!UICONTROL Offer] in modo che contengano offerte di codice, offerte di immagini e altre cartelle per creare una struttura di sottocartelle.<P>Per ulteriori informazioni, consulta [Creare cartelle di offerta](/help/main/c-experiences/c-manage-content/create-content-folder.md). |
 | [!UICONTROL [!UICONTROL Create Offer]] | Fai clic su **[!UICONTROL Create Offer]** per creare un&#39;offerta.<P>Per ulteriori informazioni sulla creazione dei vari tipi di offerta, consulta: <ul><li>Offerta HTML</li><li>[Offerta JSON](/help/main/c-experiences/c-manage-content/create-json-offer.md)</li><li>[Offerta di reindirizzamento](/help/main/c-experiences/c-manage-content/offer-redirect.md)</li><li>[Offerta remota](/help/main/c-experiences/c-manage-content/about-remote-offers.md)</li></ul> |
 | Caselle di controllo per le operazioni in blocco<P>![Icona Operazioni in blocco](/help/main/assets/icons/Rectangle.svg) | Fare clic sulle caselle di controllo [!UICONTROL Bulk Operations] per eseguire operazioni in blocco su tutte le offerte o sulle offerte selezionate.<P>Per un elenco delle azioni disponibili (a seconda delle autorizzazioni e dello stato dell&#39;offerta), consulta [Eseguire azioni rapide](#quick-actions) di seguito. |
@@ -55,6 +55,8 @@ L&#39;icona **[!UICONTROL Show filters]** consente di filtrare le offerte in bas
 * **[!UICONTROL Source]**: [!DNL Adobe Target], [!DNL Adobe Target Classic] e [!DNL Adobe Experience Manager].
 
 * **Tipo AEM**: [Frammenti di contenuto](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md) e [Frammenti di esperienza](/help/main/c-integrating-target-with-mac/aem/experience-fragments-aem.md). Per ulteriori informazioni sui diversi tipi di frammenti, vedere [Panoramica sui frammenti di esperienza AEM e sui frammenti di contenuto](/help/main/c-integrating-target-with-mac/aem/aem-experience-and-content-fragments.md).
+
+I filtri sono persistenti a livello di sessione.
 
 ## Eseguire azioni rapide {#quick-actions}
 

@@ -6,10 +6,10 @@ feature: Experiences and Offers
 hide: true
 hidefromtoc: true
 exl-id: e022c2d1-3326-405b-aead-5bb4ffa309b3
-source-git-commit: 4b57712b838906611702db521b51af84077501e6
+source-git-commit: 6d18b76da95ad5c5b4d4144c75921a1c42313789
 workflow-type: tm+mt
-source-wordcount: '420'
-ht-degree: 25%
+source-wordcount: '425'
+ht-degree: 24%
 
 ---
 
@@ -44,19 +44,9 @@ Quando lavori con le offerte JSON, considera quanto segue:
 
 Le offerte JSON sono supportate solo nelle attività create utilizzando il [Compositore esperienza basato su moduli](/help/main/c-experiences/form-experience-composer.md). Attualmente l’unico modo per poter utilizzare le offerte JSON è tramite chiamate dirette API/SDK.
 
-Di seguito è riportato un esempio:
+Ecco un esempio:
 
-```json
-adobe.target.getOffer({ 
-  mbox: "some-mbox", 
-  success: function(actions) { 
-    console.log('Success', actions); 
-  }, 
-  error: function(status, error) { 
-    console.log('Error', status, error); 
-  } 
-});
-```
+![Finestra di dialogo Crea offerta JSON](/help/main/c-experiences/c-manage-content/assets/json-example.png)
 
 Le azioni passate al callback di successo sono una matrice di oggetti. Supponendo di disporre di una singola offerta JSON, con questo contenuto:
 
