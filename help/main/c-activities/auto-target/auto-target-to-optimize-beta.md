@@ -6,10 +6,11 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Auto-Target
 hide: true
 hidefromtoc: true
-source-git-commit: 5fc18c6d3b493ea0a58048cc20ce3a6c2ffb7d14
+exl-id: 3e55e032-3a70-4023-b705-2e489aa60277
+source-git-commit: 5846e567cffda70ecd75f2975b0891f9a3f423a5
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1828'
+ht-degree: 18%
 
 ---
 
@@ -35,7 +36,7 @@ Continua a leggere per scoprire come utilizzare [!UICONTROL Auto-Target] per aum
 
 Durante la [creazione di un&#39;attività A/B](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md) tramite il flusso di lavoro guidato in tre passaggi, scegliere l&#39;opzione **[!UICONTROL Auto-Target for personalized experiences]** nella pagina **[!UICONTROL Targeting]** (passaggio 2).
 
-![Impostazioni del metodo di allocazione traffico](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/traffic-allocation-method-new.png)
+![Impostazioni del metodo di allocazione traffico](/help/main/c-activities/automated-traffic-allocation/assets/auto-target.png)
 
 L&#39;opzione [!UICONTROL Auto-Target] all&#39;interno del flusso di attività A/B ti consente di sfruttare l&#39;apprendimento automatico per personalizzare in base a una serie di esperienze definite dall&#39;addetto al marketing in un clic. [!UICONTROL Auto-Target] è progettato per fornire la massima ottimizzazione, rispetto ai tradizionali test A/B o [!UICONTROL Auto Allocate], determinando quale esperienza visualizzare per ogni visitatore. A differenza di un&#39;attività A/B in cui l&#39;obiettivo è quello di trovare un singolo vincitore, [!UICONTROL Auto-Target] determina automaticamente la migliore esperienza per un determinato visitatore. La migliore esperienza si basa sul profilo del visitatore e su altre informazioni contestuali, per fornire un’esperienza altamente personalizzata.
 

@@ -5,10 +5,11 @@ title: Come si crea un'attività [!UICONTROL Auto-Allocate]?
 feature: Auto-Allocate
 hide: true
 hidefromtoc: true
-source-git-commit: fb29bd9704d3c2c3cf2c225114b2e52dc5061796
+exl-id: 1bfa311a-cbd9-48be-9b28-840be55b1118
+source-git-commit: 5846e567cffda70ecd75f2975b0891f9a3f423a5
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '898'
+ht-degree: 15%
 
 ---
 
@@ -72,9 +73,9 @@ Per creare un&#39;attività [!UICONTROL Auto-Allocate]:
 
 1. Crea nuove esperienze modificando gli elementi nella pagina.
 
-   [!UICONTROL Visual Experience Composer] visualizza due schede a sinistra dopo aver creato una nuova attività: Esperienza A ed Esperienza B. L&#39;Esperienza A è l&#39;esperienza di controllo. L&#39;attenzione è rivolta alla scheda Esperienza B, che puoi modificare in base alle tue esigenze. L’esperienza B è un’esperienza alternativa che puoi aggiungere al test. È possibile aggiungere più esperienze al test facendo clic sull&#39;icona [!UICONTROL Add] ( ![Icona Aggiungi](/help/main/assets/icons/Add.svg) ) nella parte superiore del riquadro [!UICONTROL Experiences]. È inoltre possibile eliminare l&#39;Esperienza A dall&#39;attività se non si desidera includere un&#39;esperienza di sito predefinita come opzione.
+   [!UICONTROL Visual Experience Composer] visualizza due schede sul lato sinistro dopo la creazione di una nuova attività: [!UICONTROL Experience A] e [!UICONTROL Experience B]. [!UICONTROL Experience A] è l&#39;esperienza di controllo. L&#39;elemento attivo è la scheda [!UICONTROL Experience B], che è possibile modificare in base alle esigenze. [!UICONTROL Experience B] è l&#39;esperienza alternativa che puoi aggiungere al test. È possibile aggiungere più esperienze al test facendo clic sull&#39;icona [!UICONTROL Add] ( ![Icona Aggiungi](/help/main/assets/icons/Add.svg) ) nella parte superiore del riquadro [!UICONTROL Experiences]. È inoltre possibile eliminare l&#39;Esperienza A dall&#39;attività se non si desidera includere un&#39;esperienza di sito predefinita come opzione.
 
-   Per ulteriori informazioni sull&#39;aggiunta e la modifica delle esperienze in [!UICONTROL Visual Experience Composer], vedere [Aggiungi esperienza](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-add-experience.md#task_454646F2895242D3B92DC395A0CE1A00). Per modificare l&#39;Esperienza B, inizia con il passaggio 2.
+   Per ulteriori informazioni sull&#39;aggiunta e la modifica delle esperienze in [!UICONTROL Visual Experience Composer], vedere [Aggiungi esperienza](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-add-experience.md#task_454646F2895242D3B92DC395A0CE1A00). Per modificare [!UICONTROL Experience B], iniziare con il passaggio 2.
 
 1. Fai clic su **[!UICONTROL Targeting]** nella parte superiore di [!UICONTROL Visual Experience Composer] per passare al passaggio successivo nel flusso di lavoro guidato in tre passaggi.
 
@@ -97,8 +98,8 @@ Per creare un&#39;attività [!UICONTROL Auto-Allocate]:
 
       Se devi creare un nuovo pubblico che non sia già presente in [!UICONTROL Audience Library], fai clic su **Crea pubblico**. Durante il flusso di lavoro [create-audience](/help/main/c-target/c-audiences/audiences.md) puoi scegliere tra le seguenti opzioni:
 
-      * Crea un pubblico on-demand salvato in [!UICONTROL Audience Library] che può essere riutilizzato in altre attività
-      * Crea un pubblico [specifico per l&#39;attività](/help/main/c-target/creating-activity-only-audience.md) che non è salvato in [!UICONTROL Audience Library] e può essere utilizzato solo nell&#39;attività corrente
+      * **[!UICONTROL Audience Library]**: crea un pubblico on-demand salvato in [!UICONTROL Audience Library] che può essere riutilizzato in altre attività
+      * **Solo questa attività**: crea un [pubblico specifico per l&#39;attività](/help/main/c-target/creating-activity-only-audience.md) che non è salvato in [!UICONTROL Audience Library] e può essere utilizzato solo nell&#39;attività corrente
 
    1. Fai clic su **[!UICONTROL Visitor Percentage]** nel frame a destra, quindi scegli la percentuale di visitatori idonei che dovranno accedere all&#39;attività.
 
@@ -106,7 +107,7 @@ Per creare un&#39;attività [!UICONTROL Auto-Allocate]:
 
 1. Fare clic sul controllo **[!UICONTROL Traffic Allocation]**, quindi scegliere il metodo di allocazione del traffico desiderato nel riquadro di destra. In questo scenario, fare clic su **[!UICONTROL Auto-Allocate to best experience]**.
 
-   ![Impostazioni del metodo di allocazione traffico](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/traffic-allocation-method-new.png)
+   ![Impostazioni del metodo di allocazione traffico](/help/main/c-activities/automated-traffic-allocation/assets/auto-allocate-to-best-exp.png)
 
    Sono disponibili i seguenti metodi di allocazione del traffico:
 
