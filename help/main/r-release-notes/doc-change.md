@@ -4,10 +4,10 @@ description: Resta aggiornato sulle importanti aggiunte e modifiche apportate al
 title: Dove posso trovare la documentazione aggiornata per  [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 6d18b76da95ad5c5b4d4144c75921a1c42313789
+source-git-commit: 0192f66413cc98e5e91168d0ee558f1eb66e67d8
 workflow-type: tm+mt
-source-wordcount: '543'
-ht-degree: 22%
+source-wordcount: '576'
+ht-degree: 21%
 
 ---
 
@@ -19,6 +19,7 @@ Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Targ
 
 | Data | Argomento | Modifiche |
 |--- |--- |--- |
+| Dicembre 9 | [[!UICONTROL Visual Experience Composer] best practice e limitazioni](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md) | È stata aggiunta la seguente limitazione:<ul><li>Impossibile selezionare l&#39;elemento [!UICONTROL Button] per la ridisposizione.<P>Impossibile selezionare direttamente [!UICONTROL Button] elementi per la ridisposizione. Per abilitare la ridisposizione, posizionare i pulsanti all&#39;interno di un contenitore più grande.</li></ul> |
 | 3 dicembre | Note sulla versione (prerelease) di [[!DNL Target] ](/help/main/r-release-notes/target-release-notes.md) | Sono state aggiunte note sulla versione prerelease per il prossimo aggiornamento dell&#39;interfaccia utente [!UICONTROL Offers Library]. |
 | 20 novembre | [Inserire nell’elenco consentiti i nodi Edge di Target](https://experienceleague.adobe.com/en/docs/target-dev/developer/implementation/privacy/allowlist-edges#target-edge-ip-addresses){target=_blank} | È stato aggiornato l’elenco degli indirizzi IP edge di Target da inserire nell&#39;elenco Consentiti in modo da poter eseguire il targeting dei dati. |
 | 19 novembre | Note sulla versione di [[!DNL Target]  (corrente)](/help/main/r-release-notes/release-notes.md) | È stata aggiunta la seguente nota importante alla sezione &quot;[!DNL Adobe Experience Platform Web SDK] `__view__` ottimizzazione ambito (22 ottobre 2024)&quot;:<ul><li>IMPORTANTE - Se non riesci a completare la revisione dell’implementazione e a risolvere eventuali problemi entro il 3 febbraio 2025, puoi richiedere una proroga una tantum di sei mesi. Assicurati di inviare la richiesta entro il 31 gennaio 2025. Adobe esaminerà e deciderà in merito alla tua richiesta.</li><ul> |
