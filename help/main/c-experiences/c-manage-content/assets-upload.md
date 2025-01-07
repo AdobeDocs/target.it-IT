@@ -1,46 +1,31 @@
 ---
-keywords: contenuto;aggiornare contenuto;risorse;caricare contenuto;caricare risorsa
-description: Scopri come caricare le immagini da utilizzare come offerte di immagini in Adobe Target.
-title: Come si caricano i contenuti nella libreria delle offerte?
+keywords: contenuto;aggiornare contenuto;risorse;caricare contenuto;caricare risorsa;eliminare contenuto;content;update content;assets;upload content;upload asset;delete content;content;upload content;upload asset;delete content;assets;assets;upload content;upload asset;upload asset;delete content
+description: Scopri come caricare o eliminare le immagini utilizzate come offerte di immagini.
+title: Come si caricano o eliminano i contenuti nella libreria [!UICONTROL Offers]?
 feature: Experiences and Offers
 exl-id: c0fb26ca-4b98-4558-81c6-d84cf6841903
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: e8201198dc6ac36e803153d5c6b345a30716204a
 workflow-type: tm+mt
-source-wordcount: '203'
-ht-degree: 19%
+source-wordcount: '174'
+ht-degree: 0%
 
 ---
 
-# Caricare contenuto
+# Caricare o eliminare le offerte di immagini
 
-È possibile caricare immagini nell&#39;elenco [!UICONTROL Image Offers] in [!DNL Adobe Target] da utilizzare come offerte di immagini nelle attività. Puoi anche eliminare le offerte di immagini quando non sono più necessarie nelle attività.
+È possibile caricare immagini nella libreria [!UICONTROL Image Offers] in [!DNL Adobe Target] per utilizzarle come offerte di immagini nelle attività. Puoi anche eliminare le offerte di immagini quando non sono più necessarie nelle attività.
 
 ## Aggiungere offerte di immagini all’elenco
 
 1. Fare clic su **[!UICONTROL Offers]** > **[!UICONTROL Image Offers]**.
-
-   ![Offerte > Offerte immagine](/help/main/c-experiences/c-manage-content/assets/image-offers-tab.png)
-
 1. Fare clic su **[!UICONTROL Create]** > **[!UICONTROL Files]**.
 1. Individuare e selezionare l&#39;elemento da aggiungere, quindi fare clic su **[!UICONTROL Open]**.
 1. Modificare il nome del file dell&#39;elemento, se necessario, quindi fare clic su **[!UICONTROL Upload]**.
 
 ## Eliminare offerte o cartelle di immagini
 
-Per passare da [!UICONTROL Card View] a [!UICONTROL List View], fai clic sull&#39;icona [!UICONTROL Card View] o [!UICONTROL List View] nell&#39;angolo superiore destro della libreria dei contenuti.
+1. (Condizionale) Per passare da [!UICONTROL Card View] a [!UICONTROL List View], fai clic sull&#39;icona [!UICONTROL Card View] ( ![icona della vista a schede](/help/main/assets/icons/ViewCard.svg) ) o sull&#39;icona [!UICONTROL List View] ( ![icona della vista a elenco](/help/main/assets/icons/ViewList.svg) ) nell&#39;angolo superiore destro della libreria dei contenuti.
 
-Da [!UICONTROL Card View], passa il puntatore sull&#39;offerta o sulla cartella di immagine desiderata, fai clic sull&#39;icona **[!UICONTROL Select]** (il segno di spunta), quindi fai clic su **[!UICONTROL Delete]**.
+1. Da [!UICONTROL Card View], passa il cursore del mouse sull&#39;offerta o sulla cartella di immagine desiderata, fai clic sull&#39;icona **[!UICONTROL Select]** ( ![Seleziona icona](/help/main/assets/icons/CheckmarkCircleOutline.svg) ), quindi sull&#39;icona **[!UICONTROL Delete]** ( ![Elimina icona](/help/main/assets/icons/DeleteOutline.svg) ).
 
-Da [!UICONTROL List View], fare clic sull&#39;immagine miniatura sul lato sinistro dell&#39;elenco per selezionare l&#39;offerta immagine o la cartella desiderata, quindi fare clic su **[!UICONTROL Delete]**, come illustrato di seguito:
-
-![Elimina elemento selezionato](/help/main/c-experiences/c-manage-content/assets/delete-image-offer.png)
-
-## Video di formazione: Archivio dei contenuti ![Badge panoramica](/help/main/assets/overview.png)
-
-Questo video include informazioni sulla gestione del contenuto.
-
-* Connessione tra la [libreria delle risorse di Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/assets/creative-cloud.html) e la libreria dei contenuti di Target
-* Offerte HTML personalizzate
-* Offerta HTML personalizzata nel Compositore esperienza visivo
-
->[!VIDEO](https://video.tv.adobe.com/v/17387)
+1. Da [!UICONTROL List View], fai clic sulla miniatura dell&#39;immagine sul lato sinistro dell&#39;elenco per selezionare l&#39;offerta o la cartella di immagine desiderata, quindi fai clic sull&#39;icona **[!UICONTROL Delete]** ( ![icona Elimina](/help/main/assets/icons/DeleteOutline.svg) ).

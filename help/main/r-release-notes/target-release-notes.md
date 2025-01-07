@@ -4,9 +4,9 @@ description: Scopri le nuove funzioni, i miglioramenti e le correzioni, compresi
 title: Quali nuove funzioni e miglioramenti saranno inclusi nella prossima versione [!DNL Target] ?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: cf00d2e43b0d0746e4369fcc7933a79f465c9549
+source-git-commit: f3090ad7ab1c3d15de496039e76bb5ec0b02886f
 workflow-type: tm+mt
-source-wordcount: '744'
+source-wordcount: '757'
 ht-degree: 21%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 21%
 
 Questo articolo contiene informazioni prerelease per le prossime versioni di [!DNL Adobe Target], incluse SDK, API e librerie JavaScript.
 
-**Ultimo aggiornamento: giovedì 11 dicembre 2024**
+**Ultimo aggiornamento: mercoledì 7 gennaio 2025**
 
 >[!NOTE]
 >
@@ -27,7 +27,7 @@ Questo articolo contiene informazioni prerelease per le prossime versioni di [!D
 
 Per migliorare l&#39;esperienza utente per [!DNL Adobe Target] utenti, questa versione aggiorna l&#39;interfaccia utente di [!UICONTROL Offers Library]. Utilizzando il più recente sistema di progettazione [!DNL Adobe Spectrum], questo aggiornamento standardizza i modelli di progettazione incoerenti e introduce nuovi miglioramenti, tra cui i seguenti:
 
-* **Gestione delle offerte in blocco**: seleziona ed elimina più offerte contemporaneamente.
+* **Gestione delle offerte in blocco**: seleziona ed elimina o sposta più offerte contemporaneamente.
 
 * **[!UICONTROL Code Editor]aggiornamenti**: gli editor HTML e JSON sono stati aggiornati con l&#39;evidenziazione della sintassi e la numerazione delle righe.
 
@@ -36,6 +36,8 @@ Per migliorare l&#39;esperienza utente per [!DNL Adobe Target] utenti, questa ve
 * **Ricerca e filtri persistenti**: aggiunge opzioni di ricerca e filtro persistenti nella sessione.
 
 A partire dal 9 gennaio 2025, tutti i clienti [!DNL Target] avranno accesso alla nuova interfaccia utente, con la possibilità di tornare alla versione corrente dell&#39;interfaccia utente, se necessario.
+
+Per ulteriori informazioni, vedere [Offerte](/help/main/c-experiences/c-manage-content/manage-content.md) e i sottoarticoli in questa sezione.
 
 Di seguito un breve video che evidenzia le modifiche apportate a questa versione:
 
