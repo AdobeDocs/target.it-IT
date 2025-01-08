@@ -4,9 +4,9 @@ description: Scopri come gestire in modo efficiente le offerte di codice e immag
 title: Come posso gestire le offerte di codice e immagini?
 feature: Experiences and Offers
 exl-id: d8c24656-64d6-4a4b-a5f2-bcde57180007
-source-git-commit: f3090ad7ab1c3d15de496039e76bb5ec0b02886f
+source-git-commit: f034aba7fe4f54b937dee0846140af140052694c
 workflow-type: tm+mt
-source-wordcount: '833'
+source-wordcount: '812'
 ht-degree: 7%
 
 ---
@@ -18,10 +18,6 @@ Scopri come gestire in modo efficiente le offerte di codice e immagini utilizzan
 Per visualizzare la libreria [!UICONTROL Offers], fare clic sulla scheda **[!UICONTROL Offers]** nella parte superiore dell&#39;interfaccia utente [!DNL Target].
 
 ![Pagina Offerte](/help/main/c-experiences/c-manage-content/assets/offers-page-new.png)
-
->[!NOTE]
->
->Questo articolo documenta l&#39;interfaccia utente aggiornata di [!UICONTROL Offers] rilasciata il 9 gennaio 2025. Se preferisci utilizzare l&#39;interfaccia utente legacy di [!UICONTROL Offers], attiva [!UICONTROL Switch to the Old Experience].
 
 La libreria [!UICONTROL Offers] contiene offerte configurate tramite [!DNL Target Standard/Premium], [!DNL Target Classic], [!DNL Adobe Experience Manager] (AEM), [!DNL Adobe Mobile Services] (AMS) e API. Le offerte create in [!DNL Target Classic] o altre soluzioni sono modificabili in [!DNL Target Standard/Premium].
 
