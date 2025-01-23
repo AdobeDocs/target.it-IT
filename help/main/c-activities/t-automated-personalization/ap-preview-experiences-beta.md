@@ -6,10 +6,11 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Automated Personalization
 hide: true
 hidefromtoc: true
-source-git-commit: 144a0ff89d11f523cba0780f60db942ca5773105
+exl-id: 35f9d20e-923e-4305-9e42-8197b68e8ccf
+source-git-commit: 2c10ec521ceed1901ef8c3f95eb11654a7182590
 workflow-type: tm+mt
-source-wordcount: '223'
-ht-degree: 8%
+source-wordcount: '191'
+ht-degree: 10%
 
 ---
 
@@ -29,6 +30,6 @@ Poiché le attività di [!DNL Adobe Target] [!UICONTROL Automated Personalizatio
 
    Puoi scegliere di escludere un’esperienza che mostra varianti in conflitto tra loro o una esteticamente non equilibrata.
 
-1. (Condizionale) Per escludere più esperienze, seleziona le caselle di controllo per le esperienze desiderate, quindi fai clic sull&#39;icona **[!UICONTROL More Actions]** ( ![Icona Altre azioni](/help/main/assets/icons/MoreSmallList.svg) ) accanto alle esperienze da escludere, quindi fai clic su **[!UICONTROL Exclude]**.
+1. (Condizionale) Per escludere più esperienze, seleziona le caselle di controllo per le esperienze desiderate, quindi fai clic su **[!UICONTROL Exclude]**.
 
-1. (Condizionale) Per includere più esperienze che sono state escluse, seleziona le caselle di controllo per le esperienze desiderate, quindi fai clic sull&#39;icona **[!UICONTROL More Actions]** ( ![Icona Altre azioni](/help/main/assets/icons/MoreSmallList.svg) ) accanto alle esperienze da includere, quindi fai clic su **[!UICONTROL Include]**.
+1. (Condizionale) Per includere più esperienze che sono state escluse, seleziona le caselle di controllo per le esperienze desiderate, quindi fai clic su **[!UICONTROL Include]**.

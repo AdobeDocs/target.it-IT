@@ -7,10 +7,10 @@ feature: Automated Personalization
 hide: true
 hidefromtoc: true
 exl-id: fe6e5130-53a0-4254-8299-b52086c20004
-source-git-commit: 48dcf100228beb160179e5bb7cfe7db36419b832
+source-git-commit: 2c10ec521ceed1901ef8c3f95eb11654a7182590
 workflow-type: tm+mt
-source-wordcount: '1769'
-ht-degree: 27%
+source-wordcount: '1844'
+ht-degree: 23%
 
 ---
 
@@ -76,9 +76,7 @@ Il flusso di lavoro dell&#39;attività [!UICONTROL Automated Personalization] (A
 
 1. Fai clic sull&#39;icona **[!UICONTROL Manage Content]** ( ![icona Gestisci contenuto](/help/main/assets/icons/Experience.svg) ) per configurare le combinazioni disponibili.
 
-   Viene visualizzata una finestra di dialogo con tre opzioni nella parte superiore dello schermo: [!UICONTROL Experiences], [!UICONTROL Offers] e [!UICONTROL Exclusion Groups].
-
-   ![Finestra di dialogo Gestione contenuto](/help/main/c-activities/t-automated-personalization/assets/ap_content-new.png)
+   Viene visualizzata una finestra di dialogo con due opzioni nella parte superiore dello schermo: [!UICONTROL Experiences] e [!UICONTROL Offers].
 
    >[!NOTE]
    >
@@ -86,37 +84,60 @@ Il flusso di lavoro dell&#39;attività [!UICONTROL Automated Personalization] (A
 
    L&#39;elenco [!UICONTROL Experiences] mostra ogni elemento di contenuto selezionato per l&#39;attività e la posizione a cui è assegnato.
 
-   È possibile escludere esperienze specifiche passando sopra l&#39;esperienza desiderata e facendo clic sull&#39;icona [!UICONTROL Exclude].
+   È possibile escludere esperienze specifiche selezionando la casella di controllo accanto all&#39;esperienza desiderata e quindi facendo clic sull&#39;icona [!UICONTROL Exclude].
 
-   ![Icona Escludi per una singola esperienza](/help/main/c-activities/t-automated-personalization/assets/icon-exclude.png)
-
-   Per escludere o includere esperienze in blocco, seleziona la casella di controllo per le esperienze rilevanti e fai clic sull&#39;icona [!UICONTROL Exclude] nell&#39;angolo in alto a destra della finestra di dialogo.
-
-   ![Opzioni di esclusione per più esperienze](/help/main/c-activities/t-automated-personalization/assets/batch-exclude.png)
-
-   Per filtrare questo elenco in modo da visualizzare solo le attività escluse o incluse, fare clic sull&#39;elenco a discesa [!UICONTROL Status].
+   È possibile escludere o includere esperienze in blocco selezionando la casella di controllo per le esperienze rilevanti e quindi facendo clic sull&#39;icona [!UICONTROL Exclude].
 
 1. (Facoltativo) Fai clic su **[!UICONTROL Offers]** per selezionare parti di contenuto e assegnarle a gruppi di reporting o per consentire solo a determinati visitatori di visualizzare alcune offerte con targeting.
 
    Per ulteriori informazioni sui gruppi di reporting, vedi [Gruppi di reporting di offerte in Automated Personalization](/help/main/c-activities/t-automated-personalization/offer-reporting-groups-in-automated-personalization.md).
 
-1. (Condizionale) Fai clic su **[!UICONTROL Exclusion Groups]** per scegliere una combinazione di elementi da escludere dall&#39;attività.
+<!--
+1. (Conditional) Click **[!UICONTROL Exclusion Groups]** to choose any combination of elements that you want to exclude from the activity.
 
-   ![Scheda Gruppi di esclusione della finestra di dialogo Gestione contenuto](/help/main/c-activities/t-automated-personalization/assets/exclusion_groups-new.png)
+   ![Exclusion Groups tab of Manage Content dialog box](/help/main/c-activities/t-automated-personalization/assets/exclusion_groups-new.png)
 
-   Anche se è possibile creare fino a 30.000 esperienze in un test di Personalizzazione automatizzata, l&#39;algoritmo fornisce prestazioni migliori quando si utilizzano meno di 10.000 esperienze. Lo stesso limite viene applicato anche quando l&#39;attività ha abilitato l&#39;opzione [!UICONTROL Disalow Duplicates].
+   Although you can create up to 30,000 experiences in an AP test, the algorithm performs its best when fewer than 10,000 distinct experiences are used. This same limit is applied even when the activity has enabled the [!UICONTROL Disalow Duplicates] option.
 
-   Se nell&#39;attività non sono presenti gruppi di esclusione, fai clic su **Crea gruppo di esclusione**. È possibile filtrare l&#39;attività per creare un elenco che mostra solo le combinazioni che desideri escludere. Assegna un nome al gruppo di esclusione, quindi fai clic su **Salva**.
+   If you do not currently have any exclusion groups included in your activity, click **Create Exclusion Group**. You can filter to create a list that shows only the combinations you want to exclude. Name your exclusion group, then click **Save**.
 
-   Per modificare un gruppo di esclusione esistente, posiziona il puntatore del mouse sul gruppo che desideri modificare, quindi fai clic sull&#39;icona a forma di matita.
+   To edit an existing exclusion group, hover over the group you want to edit, then click the pencil icon.-->
 
 1. Fai clic su **[!UICONTROL Done]** una volta completata la configurazione del contenuto dell&#39;attività.
 
-1. Il passaggio **Targeting** ha un aspetto familiare se sono stati utilizzati altri tipi di attività [!DNL Target]. Qui puoi selezionare un pubblico e specificare la percentuale di visitatori che visualizzano l&#39;esperienza di controllo facendo clic sull&#39;elenco a discesa **[!UICONTROL Custom Allocation]**, quindi fai clic su **Avanti**.
+1. Fai clic su **[!UICONTROL Targeting]** nella parte superiore di [!UICONTROL Visual Experience Composer] per passare al passaggio successivo nel flusso di lavoro guidato in tre passaggi.
 
-   L&#39;elenco a discesa [!UICONTROL Custom Allocation] consente di scegliere tra le opzioni seguenti:
+   Il passaggio **Targeting** ha un aspetto familiare se sono stati utilizzati altri tipi di attività [!DNL Target]. Qui puoi selezionare un pubblico e specificare la percentuale di visitatori che visualizzano ogni esperienza.
 
-   ![Elenco a discesa Obiettivo di allocazione traffico](/help/main/c-activities/t-automated-personalization/assets/traffic-allocation-goal-ap.png)
+   Viene visualizzato il diagramma di flusso.
+
+   ![Passaggio destinazione test AP](/help/main/c-activities/t-automated-personalization/assets/ap-traffic-flow.png)
+
+   Il diagramma di flusso ti guida attraverso i passaggi per assegnare un pubblico e la relativa percentuale di traffico, selezionare il metodo di allocazione del traffico e specificare l’allocazione del traffico per ogni esperienza nell’attività.
+
+1. (Condizionale) Fare clic sul controllo **[!UICONTROL All Visitors]** per selezionare un altro pubblico per l&#39;attività.
+
+   Il pubblico [!UICONTROL All Visitors] è impostato come predefinito. Se selezioni un altro pubblico, il suo nome viene visualizzato nel controllo più a sinistra.
+
+   Viene visualizzato il frame a destra, che consente di aggiungere o eliminare un pubblico e di assegnare la percentuale di visitatori per l’attività.
+
+   1. Per cambiare il pubblico, fai clic sull&#39;icona **[!UICONTROL Replace]** ( ![Icona Sostituisci](/help/main/assets/icons/Retweet.svg) ) nel frame a destra.
+   1. Nella finestra di dialogo [!UICONTROL Add Audience], [seleziona il pubblico desiderato](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-audience.md), quindi fai clic su **[!UICONTROL Assign Audience]**.
+
+      Puoi fare clic su **Combina tipi di pubblico** per [creare un pubblico che combini più tipi di pubblico](/help/main/c-target/combining-multiple-audiences.md).
+
+      Se devi creare un nuovo pubblico che non sia già presente in [!UICONTROL Audience Library], fai clic su **Crea pubblico**. Durante il flusso di lavoro [create-audience](/help/main/c-target/c-audiences/audiences.md) puoi scegliere tra le seguenti opzioni:
+
+      * **[!UICONTROL Audience Library]**: crea un pubblico su richiesta salvato in [!UICONTROL Audience Library] che può essere riutilizzato in altre attività.
+      * **[!UICONTROL This activity only]**: crea un [pubblico specifico per l&#39;attività](/help/main/c-target/creating-activity-only-audience.md) che non è salvato in [!UICONTROL Audience Library] e può essere utilizzato solo nell&#39;attività corrente.
+
+   1. Fai clic su **[!UICONTROL Visitor Percentage]** nel frame a destra, quindi scegli la percentuale di visitatori idonei che dovranno accedere all&#39;attività.
+
+   Ad esempio, puoi limitare l’accesso al 50% di tutti i visitatori o 45% del pubblico “Californians”.
+
+1. Fare clic sul controllo **[!UICONTROL Traffic Allocation]** per scegliere tra le opzioni seguenti:
+
+   ![Opzioni obiettivo di allocazione traffico](/help/main/c-activities/t-automated-personalization/assets/traffic-allocation-goal-ap-new.png)
 
    * **[!UICONTROL Evaluate Personalization Algorithm (50/50)]:** Se l&#39;obiettivo è quello di testare l&#39;algoritmo, utilizzare una suddivisione del 50% dei visitatori tra il controllo e l&#39;algoritmo di destinazione. Questa suddivisione fornisce la stima più accurata dell’incremento. Consigliato per l’utilizzo con &quot;esperienze casuali&quot; come controllo.
    * **[!UICONTROL Maximizing Personalization Traffic (90/10)]:** Se il tuo obiettivo è quello di creare un&#39;attività &quot;sempre attiva&quot;, inserisci il 10% dei visitatori nel controllo. Questa opzione assicura che siano presenti dati sufficienti per consentire agli algoritmi di continuare a imparare nel tempo. In questo caso, il compromesso è che, in cambio della personalizzazione di una proporzione maggiore del traffico, si ha meno precisione in cosa sia l’incremento esatto. Indipendentemente dall’obiettivo, questa opzione rappresenta la suddivisione del traffico consigliata quando si utilizza come controllo un’esperienza specifica.

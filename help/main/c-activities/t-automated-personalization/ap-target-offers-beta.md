@@ -7,10 +7,11 @@ feature: Automated Personalization
 solution: Target,Analytics
 hide: true
 hidefromtoc: true
-source-git-commit: 2eb99fb0c108b600d098fc14036b678c50e689b3
+exl-id: 2897c4d1-116d-483c-8fc0-64857b9cbdaf
+source-git-commit: 2c10ec521ceed1901ef8c3f95eb11654a7182590
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '370'
+ht-degree: 19%
 
 ---
 
@@ -31,7 +32,7 @@ In questo scenario, il visitatore 1 vede l&#39;offerta 1 (perché il visitatore 
 
 ## Impostare le regole di targeting
 
-1. Crea un&#39;[attività Automated Personalization](/help/main/c-activities/t-automated-personalization/create-ap-activity.md) contenente le offerte sulle quali desideri eseguire il targeting.
+1. Crea o modifica un&#39;attività di [Automated Personalization](/help/main/c-activities/t-automated-personalization/create-ap-activity.md) contenente le offerte sulle quali desideri eseguire il targeting.
 1. Dopo aver impostato le offerte per l&#39;attività in [!UICONTROL Visual Experience Composer], fare clic sull&#39;icona **[!UICONTROL Manage Content]** ( ![icona Gestisci contenuto](/help/main/assets/icons/Experience.svg) ).
 
    Viene visualizzata la finestra di dialogo [!UICONTROL Manage Content].
