@@ -4,10 +4,10 @@ description: Scopri perché alcuni siti web potrebbero non essere aperti in modo
 title: Come si utilizza l'estensione helper [!UICONTROL Visual Experience Composer] (VEC)?
 feature: Visual Experience Composer (VEC)
 exl-id: 3f38db69-046d-42c9-8c09-eca11d404b12
-source-git-commit: 6c702ab7d787c266d90162ef894f780770a69e37
+source-git-commit: c41580bcbecf2eb2c14f13ce8e66e854c655d059
 workflow-type: tm+mt
-source-wordcount: '1077'
-ht-degree: 48%
+source-wordcount: '1043'
+ht-degree: 50%
 
 ---
 
@@ -22,8 +22,6 @@ VEC Helper è un&#39;estensione [!DNL Chrome]. Questa estensione non è necessar
 >* L&#39;estensione VEC Helper legacy [!DNL Target] documentata in questo articolo è stata creata utilizzando Manifest V2. [!DNL Google] ha annunciato che non consentirà più le estensioni create utilizzando Manifest V2 a partire da giugno 2024. Per ulteriori informazioni, vedere l&#39;annuncio della sequenza temporale del supporto di [Manifest V2](https://developer.chrome.com/docs/extensions/develop/migrate/mv2-deprecation-timeline){target=_blank} da [!DNL Google] nel sito *Chrome for Developers*.
 >
 >* A partire da giugno 2024, [!DNL Google] inizierà a disabilitare le estensioni create utilizzando Manifest V2, inclusa l&#39;estensione documentata in questo argomento. [!DNL Adobe] consiglia ai clienti di passare al più recente [estensione Helper per editing video](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) non appena possibile.
->
->* I clienti che utilizzano i Chrome Web Store privati devono continuare a utilizzare questa versione dell&#39;estensione fino a quando il supporto per questo caso d&#39;uso non sarà implementato nella [nuova estensione [!UICONTROL Visual Editing Helper]](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) entro la fine di gennaio 2025.
 
 ## Motivi per cui alcuni siti web potrebbero non aprirsi in modo affidabile nel Compositore esperienza visivo
 
@@ -82,7 +80,7 @@ L&#39;estensione VEC Helper per il browser Chrome risolve problemi di caricament
 
 * Il flag [!UICONTROL Inject Target libraries] nell&#39;estensione è disattivato per impostazione predefinita. Abilita questo flag se desideri utilizzare il Compositore esperienza visivo su un sito non ancora implementato per [!DNL Target].
 
-  Questo flag è un&#39;impostazione globale. Il flag viene attivato o disattivato per tutti i siti web aperti nel Compositore esperienza visivo. Quindi, ad esempio, se imposti questo flag su &quot;on&quot; e apri un sito web già implementato con at.js, riceverai un messaggio per informarti che at.js è già caricato. L’Adobe prevede che la maggior parte dei clienti abbia già at.js implementato nelle proprie pagine e utilizzi l’impostazione predefinita &quot;off&quot;.
+  Questo flag è un&#39;impostazione globale. Il flag viene attivato o disattivato per tutti i siti web aperti nel Compositore esperienza visivo. Quindi, ad esempio, se imposti questo flag su &quot;on&quot; e apri un sito web già implementato con at.js, riceverai un messaggio per informarti che at.js è già caricato. Adobe prevede che la maggior parte dei clienti abbia già at.js implementato nelle proprie pagine e utilizzi l’impostazione predefinita &quot;off&quot;.
 
 * L&#39;estensione carica la versione più recente di at.js disponibile da [!DNL Target UI] in [!UICONTROL Administration > Implementation].
 * Quando utilizzi l’estensione per inserire at.js durante la [modalità Controllo qualità](/help/main/c-activities/c-activity-qa/activity-qa.md), apri un’altra scheda Chrome. Questa scheda di Chrome deve essere autenticata nella stessa organizzazione [!DNL Adobe Experience Cloud] in cui è stata creata l’attività.
