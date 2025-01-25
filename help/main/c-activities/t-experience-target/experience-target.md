@@ -4,10 +4,10 @@ description: Scopri come utilizzare le attività [!UICONTROL Experience Targetin
 title: Che cos'è un'attività [!UICONTROL Experience Targeting] (XT)?
 feature: Experience Targeting
 exl-id: 416d8941-d4de-487f-8fd2-27806b73a63c
-source-git-commit: 4faafcef38d02674072d8b20ae03d3e2ef2115d6
+source-git-commit: 269ab2df7538d7e93774e3687bb931c9aaac27b6
 workflow-type: tm+mt
-source-wordcount: '475'
-ht-degree: 45%
+source-wordcount: '432'
+ht-degree: 40%
 
 ---
 
@@ -40,13 +40,3 @@ Questo video descrive come portare il test A/B al livello successivo con [!UICON
 * Descrivi come riordinare le esperienze per garantire che il contenuto corretto venga distribuito al pubblico giusto
 
 >[!VIDEO](https://video.tv.adobe.com/v/22418/)
-
-### Tipi di attività (9:03)
-
-Questo video spiega i tipi di attività disponibili in [!DNL Target]. [!UICONTROL Experience Targeting] è discusso a partire dalle 5:15.
-
-* Descrizione dei tipi di attività inclusi in [!DNL Target]
-* Selezionare il tipo di attività appropriato per i tuoi obiettivi
-* Descrizione del flusso di lavoro guidato in tre passaggi da applicare a tutti i tipi di attività
-
->[!VIDEO](https://video.tv.adobe.com/v/17386)

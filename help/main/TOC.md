@@ -3,10 +3,10 @@ user-guide-title: Guida di Adobe Target per professionisti aziendali
 breadcrumb-title: Guida di Target
 user-guide-description: Scopri come adattare e personalizzare l’esperienza dei clienti per massimizzare le entrate dai siti web e mobili, dalle app, dai social media e da altri canali digitali.
 feature-set: Target
-source-git-commit: 19f70ce944e4db4aa0774da034a0d16be34a4ec8
+source-git-commit: 269ab2df7538d7e93774e3687bb931c9aaac27b6
 workflow-type: tm+mt
-source-wordcount: '1436'
-ht-degree: 79%
+source-wordcount: '1449'
+ht-degree: 78%
 
 ---
 
@@ -175,9 +175,13 @@ ht-degree: 79%
       + [Panoramica su Targeting esperienza](c-activities/t-experience-target/experience-target.md)
       + Creare un’attività Targeting esperienze {#create-targeting}
          + [Crea un’attività](c-activities/t-experience-target/t-xt-create/xt-create.md)
+         + [Creare un’attività-beta](c-activities/t-experience-target/t-xt-create/xt-create-beta.md)
          + [URL attività](c-activities/t-experience-target/t-xt-create/xt-activity-url.md)
+         + [URL attività-beta](c-activities/t-experience-target/t-xt-create/xt-activity-url-beta.md)
          + [Crea un&#39;esperienza](c-activities/t-experience-target/t-xt-create/xt-add-experience.md)
+         + [Creare un’esperienza-beta](c-activities/t-experience-target/t-xt-create/xt-add-experience-beta.md)
          + [Passare ad altre esperienze in Targeting esperienza](c-activities/t-experience-target/t-xt-create/xt-switching-experiences.md)
+         + [Passare ad altre esperienze in Experience Targeting-beta](c-activities/t-experience-target/t-xt-create/xt-switching-experiences-beta.md)
          + [Obiettivi e impostazioni](c-activities/t-experience-target/t-xt-create/xt-goals-and-settings.md)
          + [Impostare le metriche](c-activities/t-experience-target/t-xt-create/xt-set-metrics.md)
    + Test multivariato {#multivariate-test}

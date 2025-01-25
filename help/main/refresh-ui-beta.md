@@ -7,10 +7,10 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 54834393-9121-41e7-93fb-b00924869d73
-source-git-commit: 19f70ce944e4db4aa0774da034a0d16be34a4ec8
+source-git-commit: 269ab2df7538d7e93774e3687bb931c9aaac27b6
 workflow-type: tm+mt
-source-wordcount: '356'
-ht-degree: 58%
+source-wordcount: '372'
+ht-degree: 56%
 
 ---
 
@@ -49,7 +49,12 @@ Utilizzare questi collegamenti per accedere alla documentazione aggiornata come 
    * [Anteprima delle esperienze nelle attività di Automated Personalization nel Compositore esperienza visivo](https://experienceleague.adobe.com/en/docs/target/using/activities/automated-personalization/ap-preview-experiences-beta)
    * [Targeting delle offerte di Automated Personalization](https://experienceleague.adobe.com/en/docs/target/using/activities/automated-personalization/ap-target-offers)
    * [Gruppi di reporting di offerte in Automated Personalization-beta](/help/main/c-activities/t-automated-personalization/offer-reporting-groups-in-automated-personalization-beta.md)
-   * [Seleziona il controllo per l&#39;attività-beta](c-activities/t-automated-personalization/experience-as-control-beta.md) di Automated Personalization o Targeting automatico
+   * [Seleziona il controllo per l’attività-beta di Automated Personalization o Targeting automatico](c-activities/t-automated-personalization/experience-as-control-beta.md)
+* Targeting esperienza (XT) {#xt}
+   * [Creare un’attività-beta](c-activities/t-experience-target/t-xt-create/xt-create-beta.md)
+   * [URL attività-beta](c-activities/t-experience-target/t-xt-create/xt-activity-url-beta.md)
+   * [Creare un’esperienza-beta](c-activities/t-experience-target/t-xt-create/xt-add-experience-beta.md)
+   * [Passare ad altre esperienze in Experience Targeting-beta](c-activities/t-experience-target/t-xt-create/xt-switching-experiences-beta.md)
 +++
 
 <!-- 
