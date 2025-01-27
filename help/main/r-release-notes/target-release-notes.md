@@ -4,7 +4,7 @@ description: Scopri le nuove funzioni, i miglioramenti e le correzioni, compresi
 title: Quali nuove funzioni e miglioramenti saranno inclusi nella prossima versione [!DNL Target] ?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 0c57e47f026e7eb597b92a12fb984596beb4486d
+source-git-commit: e61bc64f70c0624f8f9e241d5f5b82c4c9d6735d
 workflow-type: tm+mt
 source-wordcount: '1105'
 ht-degree: 14%
@@ -43,13 +43,13 @@ In base al sistema di progettazione [!DNL Adobe Spectrum] più recente, l&#39;ag
 
 ![Aggiornamento attività](/help/main/r-release-notes/assets/activities-refresh.png)
 
-## Aggiornamento dell&#39;interfaccia utente di [!DNL Recommendations] (7 febbraio 2025)
+## Aggiornamento dell&#39;interfaccia utente di [!DNL Recommendations] (6 febbraio 2025)
 
 Mentre il tentativo di modernizzazione dell&#39;interfaccia utente [!DNL Adobe Target] continua, è possibile annunciare la disponibilità generale dell&#39;interfaccia utente [!DNL Recommendations] aggiornata.
 
 >[!NOTE]
 >
->A partire da giovedì 7 febbraio, i clienti avranno gradualmente accesso alla nuova interfaccia utente [!UICONTROL Recommendations]. Per garantire un rollout senza soluzione di continuità per tutti i clienti, questa versione verrà implementata in fasi controllate. La prima fase aggiornerà il gruppo iniziale di [!DNL Target] clienti alla nuova interfaccia utente [!UICONTROL Activities]. Le fasi successive aggiorneranno i clienti rimanenti.
+>A partire da mercoledì 6 febbraio, i clienti avranno gradualmente accesso alla nuova interfaccia utente [!UICONTROL Recommendations]. Per garantire un rollout senza soluzione di continuità per tutti i clienti, questa versione verrà implementata in fasi controllate. La prima fase aggiornerà il gruppo iniziale di [!DNL Target] clienti alla nuova interfaccia utente [!UICONTROL Activities]. Le fasi successive aggiorneranno i clienti rimanenti.
 
 In base al sistema di progettazione [!DNL Adobe Spectrum] più recente, l&#39;aggiornamento standardizza i modelli di progettazione precedentemente incoerenti, aggiungendo nuovi miglioramenti, ad esempio:
 
