@@ -7,10 +7,10 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 54834393-9121-41e7-93fb-b00924869d73
-source-git-commit: 269ab2df7538d7e93774e3687bb931c9aaac27b6
+source-git-commit: 438b65368b81f71d684444352035ce73627e698f
 workflow-type: tm+mt
-source-wordcount: '372'
-ht-degree: 56%
+source-wordcount: '407'
+ht-degree: 51%
 
 ---
 
@@ -55,6 +55,14 @@ Utilizzare questi collegamenti per accedere alla documentazione aggiornata come 
    * [URL attività-beta](c-activities/t-experience-target/t-xt-create/xt-activity-url-beta.md)
    * [Creare un’esperienza-beta](c-activities/t-experience-target/t-xt-create/xt-add-experience-beta.md)
    * [Passare ad altre esperienze in Experience Targeting-beta](c-activities/t-experience-target/t-xt-create/xt-switching-experiences-beta.md)
+* Test multivariato (MVT) {#mvt}
+   * [Creare una versione beta di prova](c-activities/c-multivariate-testing/t-create-multivariate-test/create-multivariate-test-beta.md)
+   * [URL attività beta](c-activities/c-multivariate-testing/t-create-multivariate-test/url-beta.md)
+   * [Creare combinazioni beta](c-activities/c-multivariate-testing/t-create-multivariate-test/add-offers-beta.md)
+   * [Visualizzare un’anteprima delle esperienze per una versione beta di test multivariato](c-activities/c-multivariate-testing/t-create-multivariate-test/preview-experiences-beta.md)
+   * [Stimare il traffico necessario per una versione beta di test riuscita](c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator-beta.md)
+   * [Riepilogo del test beta](c-activities/c-multivariate-testing/t-create-multivariate-test/test-summary-beta.md)
+   * [Impostare le metriche beta](c-activities/c-multivariate-testing/t-create-multivariate-test/mvt-set-metrics-beta.md)
 +++
 
 <!-- 
