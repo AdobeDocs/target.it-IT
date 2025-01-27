@@ -4,10 +4,10 @@ description: Scopri le nuove funzioni, i miglioramenti e le correzioni, compresi
 title: Quali nuove funzioni e miglioramenti saranno inclusi nella prossima versione [!DNL Target] ?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: c41580bcbecf2eb2c14f13ce8e66e854c655d059
+source-git-commit: 0c57e47f026e7eb597b92a12fb984596beb4486d
 workflow-type: tm+mt
-source-wordcount: '769'
-ht-degree: 21%
+source-wordcount: '1105'
+ht-degree: 14%
 
 ---
 
@@ -15,13 +15,53 @@ ht-degree: 21%
 
 Questo articolo contiene informazioni prerelease per le prossime versioni di [!DNL Adobe Target], incluse SDK, API e librerie JavaScript.
 
-**Ultimo aggiornamento: mercoledì 7 gennaio 2025**
+**Ultimo aggiornamento: martedì 27 gennaio 2025**
 
 >[!NOTE]
 >
 >Date di rilascio, funzioni e altre informazioni sono soggette a modifica senza preavviso.
 >
 >Per visualizzare informazioni sulla versione corrente, consulta [Note sulla versione di Target](release-notes.md). Le informazioni su queste pagine potrebbero essere uguali, a seconda della tempistica delle release. I codici tra parentesi sono per uso interno di [!DNL Adobe].
+
+## Aggiornamento dell&#39;interfaccia utente di [!UICONTROL Activities] (6 febbraio 2025)
+
+Mentre il tentativo di modernizzazione dell&#39;interfaccia utente [!DNL Adobe Target] continua, è possibile annunciare la disponibilità generale dell&#39;interfaccia utente [!UICONTROL Activities] aggiornata.
+
+>[!NOTE]
+>
+>A partire da mercoledì 6 febbraio, i clienti avranno gradualmente accesso alla nuova interfaccia utente [!UICONTROL Activities]. Per garantire un rollout senza soluzione di continuità per tutti i clienti, questa versione verrà implementata in fasi controllate. La prima fase aggiornerà il gruppo iniziale di [!DNL Target] clienti alla nuova interfaccia utente [!UICONTROL Activities]. Le fasi successive aggiorneranno i clienti rimanenti.
+
+In base al sistema di progettazione [!DNL Adobe Spectrum] più recente, l&#39;aggiornamento standardizza i modelli di progettazione precedentemente incoerenti, aggiungendo nuovi miglioramenti, ad esempio:
+
+* Reporting riprogettato per ottenere informazioni migliori sui risultati delle attività
+* È stata aggiornata la pagina [!UICONTROL Audit], ora è possibile ottenere le informazioni da [!DNL Audit API] per approfondimenti in tempo reale
+* Visualizzazioni elenco personalizzabili per migliorare la flessibilità tra le diverse esigenze del team
+* Sono state migliorate le schermate di informazioni rapide e dettagli per un accesso più semplice alle informazioni
+* Opzioni di ricerca e filtro persistenti nella sessione
+* Completamente ricostruito [!UICONTROL Visual Editing Composer] con il supporto per gli ultimi aggiornamenti di sicurezza da parte dei provider del browser e una moderna interfaccia utente
+* Aggiornamento dell&#39;estensione [!DNL Chrome] che supporta Manifest V3 per una maggiore sicurezza e un migliore supporto per i cookie di prime parti
+
+![Aggiornamento attività](/help/main/r-release-notes/assets/activities-refresh.png)
+
+## Aggiornamento dell&#39;interfaccia utente di [!DNL Recommendations] (7 febbraio 2025)
+
+Mentre il tentativo di modernizzazione dell&#39;interfaccia utente [!DNL Adobe Target] continua, è possibile annunciare la disponibilità generale dell&#39;interfaccia utente [!DNL Recommendations] aggiornata.
+
+>[!NOTE]
+>
+>A partire da giovedì 7 febbraio, i clienti avranno gradualmente accesso alla nuova interfaccia utente [!UICONTROL Recommendations]. Per garantire un rollout senza soluzione di continuità per tutti i clienti, questa versione verrà implementata in fasi controllate. La prima fase aggiornerà il gruppo iniziale di [!DNL Target] clienti alla nuova interfaccia utente [!UICONTROL Activities]. Le fasi successive aggiorneranno i clienti rimanenti.
+
+In base al sistema di progettazione [!DNL Adobe Spectrum] più recente, l&#39;aggiornamento standardizza i modelli di progettazione precedentemente incoerenti, aggiungendo nuovi miglioramenti, ad esempio:
+
+* La ricerca nel catalogo dei prodotti ora dispone di un database aggiornato che consente la sincronizzazione in tempo reale dei prodotti
+* [!UICONTROL Recommendation] oggetti ([!UICONTROL Criteria], [!UICONTROL Designs], [!UICONTROL Collections] e [!UICONTROL Exclusions]) creati tramite API sono ora disponibili nell&#39;interfaccia utente
+* Impostazioni consolidate nella sezione [!UICONTROL Administration]
+* Viste elenco personalizzabili per una maggiore flessibilità tra le diverse esigenze del team
+* Editor di codice HTML e JSON aggiornati con evidenziazione della sintassi e numerazione delle righe
+* Sono state migliorate le schermate di informazioni rapide e dettagli per un accesso più semplice alle informazioni
+* Opzioni di ricerca e filtro persistenti nella sessione
+
+![Aggiornamento interfaccia utente di Recommendations](/help/main/r-release-notes/assets/recs-ui-refresh.png)
 
 ## Aggiornamento dell&#39;interfaccia utente di [!UICONTROL Offers Library] (9 gennaio 2025)
 
