@@ -2,14 +2,15 @@
 keywords: consigli;consigli attività;criteri;algoritmo;chiave consiglio;chiave personalizzata;settore verticale;commercio al dettaglio;eccommerce;generazione lead;b2b;servizi finanziari;media;publishing;recommendations activity;criteria;algorithm;recommendations key;custom key;industry vertical;retail;eccommerce;lead generation;b2b;financial services;media;publishing
 description: Scopri come utilizzare i criteri in Adobe [!DNL Target] [!DNL Recommendations].
 title: Come si utilizzano i criteri in  [!DNL Target] Recommendations?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Vedi cosa è incluso in Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."
 feature: Recommendations
 hide: true
 hidefromtoc: true
-source-git-commit: 9c6ff35269a81aa0c2ea331985c6f5ddd5c8ccb3
+exl-id: 7809984d-259d-4b99-93cd-3073e2fcf8bb
+source-git-commit: b7c7e8d85f7f39024ed5e57177e5c9f628460e9c
 workflow-type: tm+mt
-source-wordcount: '499'
-ht-degree: 6%
+source-wordcount: '496'
+ht-degree: 5%
 
 ---
 
@@ -34,8 +35,6 @@ Altre opzioni di criteri cambiano in base al settore verticale selezionato. È p
 ## Tipo di algoritmo {#section_885B3BB1B43048A88A8926F6B76FC482}
 
 Il tipo di algoritmo selezionato determina quelli disponibili.
-
-![Pagina criteri](assets/criteria-page-new.png)
 
 Nella tabella seguente sono illustrati i vari tipi di algoritmi e i relativi algoritmi.
 
@@ -75,11 +74,9 @@ Si supponga, ad esempio, di voler visualizzare i filmati consigliati in base all
 
 È possibile visualizzare i dettagli dei criteri facendo clic sui criteri desiderati nella colonna [!UICONTROL Name].
 
-![Passaggio del cursore sulla scheda Criteri](/help/main/c-recommendations/c-algorithms/assets/criteria-hover.png)
+Le sezioni **[!UICONTROL Attributes]** e Details consentono di visualizzare informazioni generali sui criteri selezionati, incluse le informazioni relative a [!UICONTROL Name], [!UICONTROL Description], [!UICONTROL Industry Vertical], [!UICONTROL Page Types], [!UICONTROL Recommendation Key], [!UICONTROL Recommendation Logic], [!UICONTROL Algorithm ID] e Ultima modifica (data e autore della modifica dell&#39;algoritmo).
 
-La scheda **[!UICONTROL Algorithm Info]** consente di visualizzare informazioni generali sui criteri selezionati, incluse le informazioni [!UICONTROL Name], [!UICONTROL Description], [!UICONTROL Industry Vertical], [!UICONTROL Page Types], [!UICONTROL Recommendation Key], [!UICONTROL Recommendation Logic], [!UICONTROL Algorithm ID] e Ultima modifica (data e autore della modifica dell&#39;algoritmo).
-
-La sezione **[!UICONTROL Algorithm Usage]** ti consente di visualizzare un elenco di attività che fanno riferimento ai criteri selezionati.
+La sezione **[!UICONTROL Usage]** ti consente di visualizzare un elenco di attività che fanno riferimento ai criteri selezionati.
 
 >[!NOTE]
 >

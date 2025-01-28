@@ -2,15 +2,15 @@
 keywords: catalogo ricerca;catalogo;ricerca;esclusione;raccolta;filtro;consigli;catalog search;search;exclusion;collection;filter;recommendations
 description: Scopri come utilizzare  [!DNL Recommendations] [!UICONTROL Catalog Search] per individuare prodotti o contenuti, rimuovere elementi dal catalogo e altro ancora.
 title: Come si utilizza  [!DNL Recommendations] [!UICONTROL Catalog Search]?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Vedi cosa è incluso in Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."
 feature: Recommendations
 hide: true
 hidefromtoc: true
 exl-id: 6b0175b1-0eee-498d-8a08-513cf6695114
-source-git-commit: 16a7c11e8b9b1a08b1e467519f997d0b05e47529
+source-git-commit: b7c7e8d85f7f39024ed5e57177e5c9f628460e9c
 workflow-type: tm+mt
-source-wordcount: '539'
-ht-degree: 21%
+source-wordcount: '508'
+ht-degree: 22%
 
 ---
 
@@ -22,9 +22,9 @@ I cataloghi si riferiscono all’intero set di prodotti (entità). Il catalogo p
 
 ## Accedi a [!UICONTROL Catalog Search]
 
-Per accedere alla pagina [!UICONTROL Catalog Search], fare clic su **[!UICONTROL Recommendations]** > **[!UICONTROL Catalog Search]**.
+1. Per accedere alla pagina [!UICONTROL Catalog Search], fare clic su **[!UICONTROL Recommendations]** > **[!UICONTROL Catalog Search]**.
 
-![Pagina di ricerca catalogo](/help/main/c-recommendations/c-products/assets/catalog-search-new.png)
+1. (Facoltativo) Per applicare i filtri alla ricerca, fai clic sull&#39;icona **[!UICONTROL Show Filters]** ( ![Mostra icona Filtri](/help/main/assets/icons/Filter.svg) ). È possibile filtrare per [!UICONTROL Environment], [!UICONTROL Collections], [!UICONTROL Category], [!UICONTROL Brand], [!UICONTROL Inventory] e [!UICONTROL Value].
 
 ## Eseguire una ricerca semplice
 
@@ -45,8 +45,6 @@ Per accedere alla pagina [!UICONTROL Catalog Search], fare clic su **[!UICONTROL
    > Quando esegui sul catalogo la ricerca di un attributo personalizzato con un valore numerico, l’attributo personalizzato viene considerato come di tipo stringa anziché come valore numerico.
    >
    >Al momento non è disponibile alcuna funzionalità che consenta di modificare il tipo di un attributo. Per apportare una modifica, [apri un problema cliente](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) facendo riferimento agli attributi che richiedono la modifica del tipo da stringa a numerico.
-
-   Puoi anche utilizzare i filtri per trovare i prodotti desiderati. Ad esempio, facendo clic sull&#39;icona **[!UICONTROL Show Filters]** ( ![icona Mostra filtri](/help/main/c-recommendations/c-products/assets/icon-show-filters.png) ), espandendo il facet [!UICONTROL Collections] e selezionando una o più raccolte, vengono visualizzati tutti i prodotti appartenenti alle raccolte selezionate nel catalogo.
 
 <!-- ### Perform an advanced search {#advanced-search}
 
@@ -110,7 +108,7 @@ You can create [collections](/help/main/c-recommendations/c-products/collections
 
 [Ambienti](/help/main/administrating-target/environments.md) consente di organizzare i siti e gli ambienti di pre-produzione per semplificare la gestione e la creazione di rapporti separati.
 
-1. Fare clic sull&#39;icona Mostra filtri ( ![icona Mostra filtri](/help/main/c-recommendations/c-products/assets/icon-show-filters.png) ).
+1. Fare clic sull&#39;icona Mostra filtri ( ![icona Mostra filtri](/help/main/assets/icons/Filter.svg) ).
 
 1. Selezionare l&#39;ambiente desiderato dall&#39;elenco a discesa **[!UICONTROL Environment]**.
 
@@ -134,10 +132,10 @@ Keep in mind that the additional filter facets are available in the current sess
 
 ## Modifica colonne
 
-È possibile modificare temporaneamente le colonne attive nella pagina [!UICONTROL Catalog Search].
+È possibile modificare le colonne attive nella pagina [!UICONTROL Catalog Search].
 
-1. Fare clic sull&#39;icona **[!UICONTROL Customize Table]** ( ![Icona Personalizza tabella](/help/main/c-recommendations/c-products/assets/icon-customize-table.png) ).
+1. Fare clic sull&#39;icona **[!UICONTROL Customize Table]** ( ![Icona Personalizza tabella](/help/main/assets/icons/ColumnSetting.svg) ).
 
 1. Seleziona o deseleziona le colonne desiderate da visualizzare o nascondere.
 
-Eventuali modifiche apportate vengono applicate solo alla sessione corrente.
+Tutte le modifiche apportate rimangono invariate nelle sessioni.

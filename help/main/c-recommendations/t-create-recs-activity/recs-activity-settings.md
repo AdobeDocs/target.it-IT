@@ -2,13 +2,13 @@
 keywords: Consigli;Impostazioni;nome;finalità;priorità;durata;impostazioni di generazione rapporti;altri metadati
 description: Scopri come configurare le impostazioni utilizzate per descrivere e controllare un’attività Recommendations in Adobe Target.
 title: Come si configurano le impostazioni delle attività di Recommendations?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Vedi cosa è incluso in Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."
 feature: Recommendations
 exl-id: 77bb14fc-342d-41cd-8084-e21067f277af
-source-git-commit: af8291a27e62a588046f66f20f8d3a47c8af0a18
+source-git-commit: b7c7e8d85f7f39024ed5e57177e5c9f628460e9c
 workflow-type: tm+mt
-source-wordcount: '581'
-ht-degree: 48%
+source-wordcount: '588'
+ht-degree: 45%
 
 ---
 
@@ -16,13 +16,11 @@ ht-degree: 48%
 
 Informazioni sulle impostazioni utilizzabili per descrivere e controllare un&#39;attività [!UICONTROL Recommendations] in [!DNL Adobe Target].
 
-![Pagina Obiettivi e impostazioni della funzione Consigli](/help/main/c-recommendations/t-create-recs-activity/assets/recs-settings.png)
-
 Nelle sezioni seguenti vengono descritte le impostazioni disponibili per un&#39;attività [!UICONTROL Recommendations].
 
 ## Nome
 
-Specifica un nome descrittivo che aiuterà te e il tuo team a identificare l’attività.
+Fai clic sull&#39;icona Altre azioni ( ![Icona Altre azioni](/help/main/assets/icons/MoreSmallListVert.svg) ), quindi fai clic su **[!UICONTROL Rename]** per fornire un nome descrittivo che possa aiutare te e il tuo team a identificare l&#39;attività.
 
 I seguenti caratteri non sono consentiti nel nome di un’attività:
 

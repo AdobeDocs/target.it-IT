@@ -2,14 +2,15 @@
 keywords: creazione di criteri personalizzati;algoritmi;criteri;criteri di consigli;csv;ftp;caricamento csv
 description: Scopri come caricare un file CSV per personalizzare i consigli in Adobe [!DNL Target] Recommendations.
 title: Come posso caricare criteri personalizzati in  [!DNL Recommendations]?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Vedi cosa è incluso in Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."
 feature: Recommendations
 hide: true
 hidefromtoc: true
-source-git-commit: 77bbdd4438aa17f2e8d96e00bd3d37806a474585
+exl-id: ce974152-c83e-46cb-b1cd-c5e2d10c5436
+source-git-commit: b7c7e8d85f7f39024ed5e57177e5c9f628460e9c
 workflow-type: tm+mt
-source-wordcount: '594'
-ht-degree: 32%
+source-wordcount: '606'
+ht-degree: 33%
 
 ---
 
@@ -45,15 +46,13 @@ Nei passaggi seguenti si presuppone che si acceda alla schermata [!UICONTROL Cre
 
 1. Nella sezione **[!UICONTROL Upload CSV]**, seleziona **[!UICONTROL Location]** del file CSV.
 
-   <!--The CSV file must be formatted correctly to upload successfully. Click **[!UICONTROL Download the CSV template]** to get a correctly formatted CSV file.-->
+Il file CSV deve essere formattato correttamente per essere caricato con successo. Fare clic su **[!UICONTROL Download the CSV template]** per ottenere un file CSV formattato correttamente.
 
-   Puoi scegliere tra due opzioni di posizione:
+Puoi scegliere tra due opzioni di posizione:
 
-   * **FTP:** Per caricare il file CSV da un server FTP, selezionare **[!UICONTROL FTP]**, quindi immettere le informazioni richieste. Puoi utilizzare SSL, che utilizza il protocollo FTPS per trasferire il file CSV in modo sicuro.
-
-     ![Opzione FTP per caricare il file CSV](/help/main/c-recommendations/c-algorithms/assets/ftp.png)
-
-   * **URL:** Per caricare il file CSV da un URL, seleziona **[!UICONTROL URL]**, quindi immetti un URL di feed.
+    * **FTP:** Per caricare il file CSV da un server FTP, selezionare **[!UICONTROL FTP]**, quindi immettere le informazioni richieste. Puoi utilizzare SSL, che utilizza il protocollo FTPS per trasferire il file CSV in modo sicuro.
+    
+    * **URL:** Per caricare il file CSV da un URL, selezionare **[!UICONTROL URL]**, quindi immettere un URL di feed.
 
 1. Fare clic su **[!UICONTROL Create]**.
 

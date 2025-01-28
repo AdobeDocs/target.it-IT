@@ -2,13 +2,14 @@
 keywords: Progettazione consigli;creare progettazione;copia progettazione
 description: Scopri come creare una progettazione  [!DNL Target Recommendations]  utilizzando una progettazione predefinita o creando una progettazione personalizzata che si adatti al meglio al layout della pagina.
 title: Come si crea una progettazione in Recommendations?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Vedi cosa è incluso in Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."
 feature: Recommendations
 hide: true
 hidefromtoc: true
-source-git-commit: d33fa5b84ccffc20d8db638aafcc0601c060dbcb
+exl-id: d97db163-62ef-4c6b-b0f7-e7e481073cc7
+source-git-commit: b7c7e8d85f7f39024ed5e57177e5c9f628460e9c
 workflow-type: tm+mt
-source-wordcount: '972'
+source-wordcount: '979'
 ht-degree: 19%
 
 ---
@@ -45,13 +46,11 @@ Questa illustrazione mostra una progettazione personalizzata:
 1. Fare clic su **[!UICONTROL Recommendations]** > **[!UICONTROL Designs]** per visualizzare la libreria [!UICONTROL Designs].
 
 
-1. Passa il puntatore del mouse sulla scheda della progettazione che desideri creare, quindi fai clic sull&#39;icona **[!UICONTROL Copy]**.
-
-   ![Immagine Card_CopyDesign](/help/main/c-recommendations/c-design-overview/assets/card-copy-design.png)
+1. Fare clic sull&#39;icona Altre azioni ( ![Icona Altre azioni](/help/main/assets/icons/MoreSmallList.svg) ) per la struttura da creare, quindi fare clic su **[!UICONTROL Copy]**.
 
    Viene visualizzata la finestra di dialogo [!UICONTROL Create Design].
 
-1. Nel pannello **[!UICONTROL Information]**, aggiungi un **[!UICONTROL Content Name]** e un&#39;immagine di anteprima opzionale da visualizzare sulla scheda di progettazione.
+1. Digitare **[!UICONTROL  Name]** e un&#39;immagine di anteprima facoltativa da visualizzare nella scheda progettazione.
 
    Quando si utilizza una progettazione predefinita, il nome della progettazione e la &quot;copia&quot; vengono visualizzati nel campo **[!UICONTROL Content Name]**. È possibile modificare il nome. È inoltre possibile selezionare un&#39;immagine da visualizzare nella scheda di progettazione.
 
@@ -65,7 +64,7 @@ Questa illustrazione mostra una progettazione personalizzata:
    >
    >Il numero massimo di entità a cui è possibile fare riferimento in una progettazione, tramite codifica fissa o cicli, è 99.
 
-1. Fare clic su **[!UICONTROL Save]**.
+1. Fare clic su **[!UICONTROL Create]**.
 
 ### Creare una progettazione personalizzata
 
@@ -73,21 +72,21 @@ Questa illustrazione mostra una progettazione personalizzata:
 
 1. Fare clic su **[!UICONTROL Create Design]**.
 
-   Se desideri basare la nuova progettazione personalizzata su una progettazione esistente, passa il mouse sulla progettazione desiderata, quindi fai clic sull&#39;icona [!UICONTROL Copy]. Puoi quindi modificare la copia per creare una nuova progettazione personalizzata.
+   Se desideri basare la nuova progettazione personalizzata su una progettazione esistente, fai clic sull&#39;icona [!UICONTROL More Actions] ( ![Icona Altre azioni](/help/main/assets/icons/MoreSmallList.svg) ) per la progettazione che desideri creare, quindi fai clic su [!UICONTROL Copy]. Puoi quindi modificare la copia per creare una nuova progettazione personalizzata.
 
-1. Aggiungi un **[!UICONTROL Content Name]** e un&#39;immagine di anteprima facoltativa.
+1. Aggiungi un **[!UICONTROL Name]** e un&#39;immagine di anteprima facoltativa.
 
 1. (Condizionale) Modificare la struttura **[!UICONTROL Code]** come desiderato.
 
    Per ulteriori informazioni, consulta le informazioni nel passaggio 4 precedente.
 
-1. Fare clic su **[!UICONTROL Save]**.
+1. Fare clic su **[!UICONTROL Create]**.
 
 ## Modificare, copiare o eliminare una progettazione
 
 Non è possibile modificare o copiare una progettazione predefinita; è possibile copiare solo le progettazioni predefinite.
 
-Passa il puntatore del mouse sulla struttura desiderata nella libreria [!UICONTROL Design], quindi fai clic sull&#39;icona appropriata: modifica, copia o elimina.
+Fare clic sull&#39;icona [!UICONTROL More Actions] ( ![Icona Altre azioni](/help/main/assets/icons/MoreSmallList.svg) ) per la struttura che si desidera modificare o eliminare, quindi fare clic sull&#39;icona appropriata: [!UICONTROL Edit], [!UICONTROL Copy] o [!UICONTROL Delete].
 
 Potete copiare una progettazione esistente per creare una progettazione duplicata che potete quindi modificare. Questo processo consente di creare un design simile con meno sforzo.
 

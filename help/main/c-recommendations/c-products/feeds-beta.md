@@ -2,15 +2,15 @@
 keywords: feed consigli;feed;feed;SAINT;ftp;csv;classificazioni;classificazioni analytics
 description: Scopri come i feed importano le entità in [!DNL Adobe Target] [!DNL Recommendations] utilizzando file CSV, il formato di feed  [!DNL Google Product Search]  e le classificazioni di prodotto  [!DNL Analytics] .
 title: Come si utilizza [!UICONTROL Feeds] in [!DNL Target Recommendations]?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Vedi cosa è incluso in Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."
 feature: Recommendations
 hide: true
 hidefromtoc: true
 exl-id: 53adc701-c389-4adf-a9c8-ca778aa0a8f3
-source-git-commit: 406076ba986171c29dfb7817a8ef0ef9bd52c458
+source-git-commit: b7c7e8d85f7f39024ed5e57177e5c9f628460e9c
 workflow-type: tm+mt
-source-wordcount: '2423'
-ht-degree: 38%
+source-wordcount: '2417'
+ht-degree: 37%
 
 ---
 
@@ -37,8 +37,6 @@ Le descrizioni degli elementi possono essere trasmesse in [!DNL Target] tramite 
 
 L&#39;elenco [!UICONTROL Feeds] ( **[!UICONTROL Recommendations]** > **[!UICONTROL Feeds]**) fornisce informazioni su eventuali feed creati.
 
-![Pagina Feed](/help/main/c-recommendations/c-products/assets/feeds-page-new.png)
-
 La pagina [!UICONTROL Feeds] contiene le colonne seguenti:
 
 * **Nome**: nome del feed specificato durante la creazione. Per modificare il nome di un feed, dovrai modificare il feed stesso. Quando salvi il feed con il nuovo nome, il feed viene aggiornato.
@@ -48,11 +46,11 @@ La pagina [!UICONTROL Feeds] contiene le colonne seguenti:
 * **Pianificazione**: visualizza la pianificazione di aggiornamento per il feed: [!UICONTROL Daily], [!UICONTROL Weekly], [!DNL Every 2 Weeks] o [!UICONTROL Never].
 * **Ultimo aggiornamento**: visualizza la data e l&#39;ora dell&#39;ultimo aggiornamento del feed e il nome della persona che lo ha eseguito.
 
-Fare clic sull&#39;icona [!UICONTROL Customize Table] ( ![Icona Personalizza tabella](/help/main/c-recommendations/c-products/assets/customize-table-icon.png) ) per selezionare o deselezionare le colonne da visualizzare.
+Fare clic sull&#39;icona [!UICONTROL Customize Table] ( ![Icona Personalizza tabella](/help/main/assets/icons/ColumnSetting.svg) ) per selezionare o deselezionare le colonne da visualizzare.
 
-Fai clic sull&#39;icona [!UICONTROL Information] per visualizzare una scheda con la data dell&#39;ultimo caricamento e l&#39;URL del feed.
+Fai clic sull&#39;icona [!UICONTROL Information] ( ![icona Info](/help/main/assets/icons/InfoOutline.svg) ) per visualizzare una scheda con la data dell&#39;ultimo caricamento e l&#39;URL del feed.
 
-Fare clic sull&#39;icona con i puntini di sospensione per accedere alle azioni seguenti: [!UICONTROL Deactivate], [!DNL Edit], [!UICONTROL Copy] e [!UICONTROL Delete].
+Fare clic sull&#39;icona [!UICONTROL More Actions] ( ![Icona Altre azioni](/help/main/assets/icons/MoreSmallList.svg) ) per accedere alle azioni seguenti: [!UICONTROL Deactivate], [!DNL Edit], [!UICONTROL Copy] e [!UICONTROL Delete].
 
 >[!IMPORTANT]
 >
@@ -233,8 +231,6 @@ Crea un feed per inserire le informazioni sui prodotti o i servizi in [!DNL Reco
 
 1. Dall&#39;interfaccia [!DNL Target], fare clic su **[!UICONTROL Recommendations]** > **[!UICONTROL Feeds]** > **[!UICONTROL Create Feed]**.
 
-   ![Finestra di dialogo Crea feed](assets/CreateFeed.png)
-
 1. Specifica un nome descrittivo per il feed.
 1. Seleziona **[!UICONTROL Source Type]**.
 
@@ -261,8 +257,6 @@ Crea un feed per inserire le informazioni sui prodotti o i servizi in [!DNL Reco
 
 1. Fare clic sulla freccia **[!UICONTROL Next]** per visualizzare le opzioni [!UICONTROL Schedule].
 
-   ![Risultato passaggio](assets/CreateFeedSchedule.png)
-
 1. Seleziona un’opzione di aggiornamento:
 
    * [!UICONTROL Daily]
@@ -275,8 +269,6 @@ Crea un feed per inserire le informazioni sui prodotti o i servizi in [!DNL Reco
    Questa opzione si basa sul fuso orario utilizzato nel browser. Se desideri utilizzare l’orario di un fuso orario diverso, dovrai calcolarlo in base al tuo fuso orario attuale.
 
 1. Fare clic sulla freccia **[!UICONTROL Next]** per visualizzare le opzioni [!UICONTROL Mapping], quindi specificare come si desidera mappare i dati alle definizioni [!DNL Target].
-
-   ![Risultato passaggio](assets/CreatFeedMapping.png)
 
 1. (Facoltativo) Se desideri che il feed appartenga a un ambiente (gruppo di host), seleziona il gruppo di host.
 

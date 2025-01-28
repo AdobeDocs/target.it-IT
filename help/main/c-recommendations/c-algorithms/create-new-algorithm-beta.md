@@ -2,11 +2,12 @@
 keywords: criteri;algoritmo;settore verticale;tipo di pagina;chiave consiglio;logica consiglio;logica consiglio;intervallo dati;intervallo di lookback;comportamento origine dati;progettazione parziale;backup consigli;regole di inclusione;ponderazione attributi;categoria corrente;attributo personalizzato;ultimo articolo acquistato;ultimo articolo visualizzato;ultimo articolo visualizzato;articolo più visualizzato;categoria preferita;popolarità;articolo visualizzato di recente;ultimo articolo acquistato;più visualizzato;preferito;visualizzato di recente
 description: Scopri come creare criteri che controllano il contenuto delle attività di  [!DNL Recommendations]  per visualizzare i consigli più appropriati per l'attività.
 title: Come si crea [!UICONTROL Criteria] in [!DNL Recommendations]?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Vedi cosa è incluso in Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."
 feature: Recommendations
 hide: true
 hidefromtoc: true
-source-git-commit: c8b0e0414603761b1c67b13d74ffa96d745c99e3
+exl-id: 7937e54a-7c10-445d-9d9a-9ddbdaa8086e
+source-git-commit: b7c7e8d85f7f39024ed5e57177e5c9f628460e9c
 workflow-type: tm+mt
 source-wordcount: '2554'
 ht-degree: 47%
@@ -89,6 +90,43 @@ Le altre opzioni di configurazione dell’algoritmo variano a seconda dell’alg
 
 Per ulteriori informazioni sulla scelta di un [!UICONTROL Recommendation Key], vedere [Basare il consiglio su una chiave consiglio](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md).
 
+## [!UICONTROL Backup Content] {#content}
+
+Le regole di [!UICONTROL Backup Content] determinano ciò che accade se il numero di elementi consigliati non riempie la [progettazione dei consigli](/help/main/c-recommendations/c-design-overview/design-overview.md). È possibile che il criterio [!DNL Recommendations] restituisca un numero di consigli inferiore a quello richiesto dalla progettazione. Ad esempio, se la progettazione dispone di slot per quattro elementi, ma in base ai criteri ne vengono consigliati solo due, puoi lasciare vuoti gli slot rimanenti, utilizzare i consigli di backup per riempire gli slot aggiuntivi oppure scegliere di non visualizzare alcun consiglio.
+
+1. (Facoltativo) Far scorrere l&#39;interruttore **[!UICONTROL Partial Design Rendering]** in posizione &quot;on&quot;.
+
+   Il maggior numero possibile di slot verrà riempito, ma il modello di progettazione potrebbe includere uno spazio vuoto per gli slot rimanenti. Se questa opzione è disabilitata e il contenuto non è sufficiente per riempire tutti gli slot disponibili, i consigli non vengono trasmessi e viene visualizzato il contenuto predefinito.
+
+   Abilita questa opzione se desideri che i consigli vengano forniti con slot vuoti. Utilizza i consigli di backup se desideri che gli slot di consigli siano compilati con contenuto basato sui criteri con slot vuoti riempiti con contenuto simile o popolare dal sito, come spiegato nel passaggio successivo.
+
+1. (Facoltativo) Far scorrere l&#39;interruttore **[!UICONTROL Show Backup Content]** in posizione &quot;on&quot;.
+
+   Riempi gli eventuali slot vuoti rimanenti nella progettazione con una selezione casuale dei prodotti più visualizzati dall&#39;intero sito.
+
+   L’utilizzo dei consigli di backup assicura che la progettazione dei consigli riempia tutti gli slot disponibili. Supponiamo di avere un design 4 x 1, come illustrato di seguito:
+
+   ![4 x 1 design](/help/main/c-recommendations/c-design-overview/assets/velocity_example.png)
+
+   Supponiamo che il criterio determini solo due articoli da consigliare. Se si abilita l&#39;opzione [!UICONTROL Partial Design Rendering], i primi due slot vengono riempiti, ma i due slot rimanenti rimangono vuoti. Tuttavia, se si abilita l&#39;opzione [!UICONTROL Show Backup Recommendations], i primi due slot vengono riempiti in base ai criteri specificati e gli altri due vengono riempiti in base ai suggerimenti di backup.
+
+   La matrice seguente mostra il risultato che si osserverà quando si utilizzano le opzioni [!UICONTROL Partial Design Rendering] e [!UICONTROL Backup Content]:
+
+   | Rendering parziale della progettazione | Contenuto di backup | Risultato |
+   |--- |--- |--- |
+   | Disabilitato | Disabilitato | Se vengono restituiti meno consigli rispetto alle richieste di progettazione, la progettazione dei consigli viene sostituita dal contenuto predefinito e non vengono visualizzate indicazioni. |
+   | Abilitato | Disabilitato | La progettazione viene sottoposta a rendering, ma può includere spazio vuoto se vengono restituite meno consigli rispetto al numero richiesto dalla progettazione. |
+   | Abilitato | Abilitato | I consigli di backup riempiranno le “posizioni” disponibili della progettazione, eseguendone il rendering completo.<br>Se l&#39;applicazione di regole di inclusione ai consigli di backup limita il numero di quelle qualificate al punto che la progettazione non può essere riempita, la progettazione viene parzialmente sottoposta a rendering.<br>Se i criteri non restituiscono alcun consiglio e le regole di inclusione limitano i consigli di backup a zero, la progettazione viene sostituita con il contenuto predefinito. |
+   | Disabilitato | Abilitato | I consigli di backup riempiranno le “posizioni” disponibili della progettazione, eseguendone il rendering completo.<br>Se l&#39;applicazione di regole di inclusione limita il numero di consigli di backup qualificate al punto che la progettazione non può essere riempita, la progettazione viene sostituita dal contenuto predefinito e non vengono visualizzati consigli. |
+
+   Per ulteriori informazioni, vedere [Utilizzare un consiglio di backup](/help/main/c-recommendations/c-algorithms/backup-recs.md).
+
+1. (Condizionale) Se hai selezionato **[!UICONTROL Show Backup Content]** nel passaggio precedente, puoi abilitare **[!UICONTROL Apply inclusion rules to backup recommendations]**.
+
+   Le regole di inclusione determinano quali elementi sono inclusi nei consigli. Le opzioni disponibili dipendono dal tuo settore verticale.
+
+   Per ulteriori dettagli, vedere [Specificare le regole di inclusione](#inclusion) di seguito.
+
 ## [!UICONTROL Data Source] {#data-source}
 
 1. Selezionare il **[!UICONTROL Behavioral Data Source]** desiderato: [!UICONTROL Adobe Target] o [!UICONTROL Analytics].
@@ -128,43 +166,6 @@ Per ulteriori informazioni sulla scelta di un [!UICONTROL Recommendation Key], v
    | Due settimane | L’algoritmo viene eseguito ogni 24-48 ore | <ul><li>[!UICONTROL Popularity-Based] algoritmi</li><li>[!UICONTROL Item-Based] algoritmi</li><li>Tutti gli algoritmi [!UICONTROL User-Based]</li><li>[!UICONTROL Cart-Based] algoritmi</li></ul> |
    | Un mese (30 giorni) | L’algoritmo viene eseguito ogni 24-48 ore | <ul><li>[!UICONTROL Popularity-Based] algoritmi</li><li>[!UICONTROL Item-Based] algoritmi</li><li>[!UICONTROL User-Based] algoritmi</li><li>[!UICONTROL Cart-Based] algoritmi</li></ul> |
    | Due mesi (61 giorni) | L’algoritmo viene eseguito ogni 24-48 ore | <ul><li>[!UICONTROL Popularity-Based] algoritmi</li><li>[!UICONTROL Item-Based] algoritmi</li><li>[!UICONTROL User-Based] algoritmi</li><li>[!UICONTROL Cart-Based] algoritmi</li></ul> |
-
-## [!UICONTROL Backup Content] {#content}
-
-Le regole di [!UICONTROL Backup Content] determinano ciò che accade se il numero di elementi consigliati non riempie la [progettazione dei consigli](/help/main/c-recommendations/c-design-overview/design-overview.md). È possibile che il criterio [!DNL Recommendations] restituisca un numero di consigli inferiore a quello richiesto dalla progettazione. Ad esempio, se la progettazione dispone di slot per quattro elementi, ma in base ai criteri ne vengono consigliati solo due, puoi lasciare vuoti gli slot rimanenti, utilizzare i consigli di backup per riempire gli slot aggiuntivi oppure scegliere di non visualizzare alcun consiglio.
-
-1. (Facoltativo) Far scorrere l&#39;interruttore **[!UICONTROL Partial Design Rendering]** in posizione &quot;on&quot;.
-
-   Il maggior numero possibile di slot verrà riempito, ma il modello di progettazione potrebbe includere uno spazio vuoto per gli slot rimanenti. Se questa opzione è disabilitata e il contenuto non è sufficiente per riempire tutti gli slot disponibili, i consigli non vengono trasmessi e viene visualizzato il contenuto predefinito.
-
-   Abilita questa opzione se desideri che i consigli vengano forniti con slot vuoti. Utilizza i consigli di backup se desideri che gli slot di consigli siano compilati con contenuto basato sui criteri con slot vuoti riempiti con contenuto simile o popolare dal sito, come spiegato nel passaggio successivo.
-
-1. (Facoltativo) Far scorrere l&#39;interruttore **[!UICONTROL Show Backup Content]** in posizione &quot;on&quot;.
-
-   Riempi gli eventuali slot vuoti rimanenti nella progettazione con una selezione casuale dei prodotti più visualizzati dall&#39;intero sito.
-
-   L’utilizzo dei consigli di backup assicura che la progettazione dei consigli riempia tutti gli slot disponibili. Supponiamo di avere un design 4 x 1, come illustrato di seguito:
-
-   ![4 x 1 design](/help/main/c-recommendations/c-design-overview/assets/velocity_example.png)
-
-   Supponiamo che il criterio determini solo due articoli da consigliare. Se si abilita l&#39;opzione [!UICONTROL Partial Design Rendering], i primi due slot vengono riempiti, ma i due slot rimanenti rimangono vuoti. Tuttavia, se si abilita l&#39;opzione [!UICONTROL Show Backup Recommendations], i primi due slot vengono riempiti in base ai criteri specificati e gli altri due vengono riempiti in base ai suggerimenti di backup.
-
-   La matrice seguente mostra il risultato che si osserverà quando si utilizzano le opzioni [!UICONTROL Partial Design Rendering] e [!UICONTROL Backup Content]:
-
-   | Rendering parziale della progettazione | Contenuto di backup | Risultato |
-   |--- |--- |--- |
-   | Disabilitato | Disabilitato | Se vengono restituiti meno consigli rispetto alle richieste di progettazione, la progettazione dei consigli viene sostituita dal contenuto predefinito e non vengono visualizzate indicazioni. |
-   | Abilitato | Disabilitato | La progettazione viene sottoposta a rendering, ma può includere spazio vuoto se vengono restituite meno consigli rispetto al numero richiesto dalla progettazione. |
-   | Abilitato | Abilitato | I consigli di backup riempiranno le “posizioni” disponibili della progettazione, eseguendone il rendering completo.<br>Se l&#39;applicazione di regole di inclusione ai consigli di backup limita il numero di quelle qualificate al punto che la progettazione non può essere riempita, la progettazione viene parzialmente sottoposta a rendering.<br>Se i criteri non restituiscono alcun consiglio e le regole di inclusione limitano i consigli di backup a zero, la progettazione viene sostituita con il contenuto predefinito. |
-   | Disabilitato | Abilitato | I consigli di backup riempiranno le “posizioni” disponibili della progettazione, eseguendone il rendering completo.<br>Se l&#39;applicazione di regole di inclusione limita il numero di consigli di backup qualificate al punto che la progettazione non può essere riempita, la progettazione viene sostituita dal contenuto predefinito e non vengono visualizzati consigli. |
-
-   Per ulteriori informazioni, vedere [Utilizzare un consiglio di backup](/help/main/c-recommendations/c-algorithms/backup-recs.md).
-
-1. (Condizionale) Se hai selezionato **[!UICONTROL Show Backup Content]** nel passaggio precedente, puoi abilitare **[!UICONTROL Apply inclusion rules to backup recommendations]**.
-
-   Le regole di inclusione determinano quali elementi sono inclusi nei consigli. Le opzioni disponibili dipendono dal tuo settore verticale.
-
-   Per ulteriori dettagli, vedere [Specificare le regole di inclusione](#inclusion) di seguito.
 
 ## Somiglianza del contenuto {#similarity}
 

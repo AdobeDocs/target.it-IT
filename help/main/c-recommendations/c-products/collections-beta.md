@@ -2,14 +2,15 @@
 keywords: raccolta;Targeting
 description: Scopri come utilizzare le raccolte di prodotti o elementi in [!DNL Target Recommendations].
 title: Come si utilizzano le raccolte nelle attività di Recommendations?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Vedi cosa è incluso in Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."
 feature: Recommendations
 hide: true
 hidefromtoc: true
-source-git-commit: 31cf23a52c331eabad0e5f6423eeeca84df87625
+exl-id: da477e5c-1ce7-4042-b56d-8ae1b50ceb88
+source-git-commit: b7c7e8d85f7f39024ed5e57177e5c9f628460e9c
 workflow-type: tm+mt
-source-wordcount: '707'
-ht-degree: 26%
+source-wordcount: '693'
+ht-degree: 25%
 
 ---
 
@@ -41,15 +42,11 @@ Crea una raccolta per organizzare i prodotti o i contenuti da mostrare nei consi
 
 1. Fare clic su **[!UICONTROL Recommendations]** > **[!UICONTROL Collections]** per visualizzare l&#39;elenco delle raccolte esistenti.
 
-   ![Elenco Raccolte](assets/collections-list.png)
-
-   Nella pagina [!UICONTROL Collections] viene visualizzato un elenco delle raccolte esistenti. Per creare nuove raccolte, fare clic sul pulsante [!UICONTROL Create Collection]. Puoi anche modificare, copiare ed eliminare raccolte esistenti facendo clic sull’icona dei puntini di sospensione accanto alla raccolta desiderata e quindi facendo clic sull’opzione desiderata.
+   Nella pagina [!UICONTROL Collections] viene visualizzato un elenco delle raccolte esistenti. Per creare nuove raccolte, fare clic sul pulsante [!UICONTROL Create Collection]. È inoltre possibile modificare, copiare ed eliminare raccolte esistenti facendo clic sull&#39;icona Altre azioni ( ![Icona Altre azioni](/help/main/assets/icons/MoreSmallList.svg) ) accanto alla raccolta desiderata e quindi facendo clic sull&#39;opzione desiderata.
 
    Il &quot;Numero di elementi&quot; segnalato per ogni raccolta nella visualizzazione elenco [!UICONTROL Collections] è il numero di prodotti che corrispondono alle regole per tale raccolta all&#39;interno del gruppo predefinito di Recommendations [host](/help/main/administrating-target/hosts.md) (ambiente) configurato. Consulta [Impostazioni](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} per modificare il gruppo host predefinito.
 
 1. Fare clic su **[!UICONTROL Create Collection]**.
-
-   ![Creare una raccolta](/help/main/c-recommendations/c-products/assets/create-collection.png)
 
 1. Digitare **[!UICONTROL Name]** per la raccolta.
 
@@ -79,9 +76,7 @@ After creating a search using "id > contains," for example, you can then click [
 
 ## Modificare, copiare o eliminare una raccolta
 
-Fai clic sull&#39;icona **puntini di sospensione** accanto alla raccolta desiderata nell&#39;elenco, quindi fai clic sull&#39;icona appropriata: modifica, copia o elimina.
-
-![Icone al passaggio del mouse: modifica, copia ed elimina](/help/main/c-recommendations/c-products/assets/hover-icons-new.png)
+Fai clic sull&#39;icona ( ![Altre azioni](/help/main/assets/icons/MoreSmallList.svg) ) accanto alla raccolta desiderata nell&#39;elenco, quindi fai clic sull&#39;icona appropriata: [!UICONTROL Edit], [!UICONTROL Copy] o [!DNL Delete].
 
 Puoi copiare una raccolta esistente per crearne una duplicata da modificare. Questo consente di creare una raccolta simile con meno sforzo.
 
@@ -95,8 +90,4 @@ Tieni presente che le raccolte sono disponibili a livello dell’intero account.
 
 1. Dopo aver selezionato un criterio e una progettazione, nella pagina [!UICONTROL Options] viene visualizzato il punto in cui è stata selezionata la raccolta desiderata.
 
-   ![Scegliere l&#39;opzione di raccolta](/help/main/c-recommendations/c-products/assets/choose-collection.png)
-
-1. (Condizionale) Per modificare un&#39;impostazione di raccolta esistente, nella pagina **[!UICONTROL Experiences]** (passaggio 2 del flusso di lavoro guidato in tre parti) fare clic in un percorso in cui sono stati inseriti i consigli, fare clic su **[!UICONTROL Change Collection]**, quindi selezionare la raccolta desiderata.
-
-   ![Modifica opzione raccolta](/help/main/c-recommendations/c-products/assets/change-collection.png)
+1. (Condizionale) Per modificare un&#39;impostazione di raccolta esistente, nella pagina **[!UICONTROL Experiences]** (passaggio 1 del flusso di lavoro guidato in tre parti) fare clic in un percorso in cui sono stati inseriti i consigli, fare clic su **[!UICONTROL Change Collection]**, quindi selezionare la raccolta desiderata.

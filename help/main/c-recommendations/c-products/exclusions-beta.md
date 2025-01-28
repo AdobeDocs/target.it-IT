@@ -5,10 +5,11 @@ title: Come si utilizzano le esclusioni nelle attività [!UICONTROL Recommendati
 feature: Recommendations
 hide: true
 hidefromtoc: true
-source-git-commit: 31cf23a52c331eabad0e5f6423eeeca84df87625
+exl-id: fb3c63b4-08be-4dac-b5a1-c6c1ecd4c4b3
+source-git-commit: b7c7e8d85f7f39024ed5e57177e5c9f628460e9c
 workflow-type: tm+mt
-source-wordcount: '513'
-ht-degree: 18%
+source-wordcount: '503'
+ht-degree: 13%
 
 ---
 
@@ -36,23 +37,17 @@ Alcuni esempi di utilizzo delle esclusioni includono:
 
 1. Fai clic su **[!UICONTROL Recommendations]** > **[!UICONTROL Exclusions]** per visualizzare l&#39;elenco delle esclusioni esistenti.
 
-   ![immagine elenco esclusioni](assets/exclusions-list.png)
-
    Il &quot;Numero di elementi&quot; segnalato per ogni esclusione nella visualizzazione elenco [!UICONTROL Exclusions] è il numero di prodotti che corrispondono alle regole per tale esclusione all&#39;interno del gruppo Recommendations [host](/help/main/administrating-target/hosts.md) (ambiente) predefinito configurato. Per informazioni su come modificare il gruppo host predefinito, vedere [Pianificare e implementare [!DNL Recommendations]](https://experienceleague.adobe.com/en/docs/target-dev/developer/recommendations){target=_blank} nella *Guida per gli sviluppatori di Adobe Target*.
 
-1. (Facoltativo) Fai clic sull&#39;icona [!UICONTROL Filter], quindi scegli l&#39;[ambiente](/help/main/administrating-target/environments.md) desiderato dall&#39;elenco a discesa **[!UICONTROL Environment]** durante la creazione (o l&#39;aggiornamento) di un&#39;esclusione per visualizzare in anteprima i contenuti dell&#39;esclusione in tale ambiente. Per impostazione predefinita, sono visualizzati i risultati del gruppo di host predefinito.
-
-   ![Creare un’esclusione](/help/main/c-recommendations/c-products/assets/choose-environment.png)
+1. (Facoltativo) Fai clic sull&#39;icona **[!UICONTROL Show Filters]** ( ![icona Mostra filtri](/help/main/assets/icons/Filter.svg) ), quindi scegli l&#39;[ambiente](/help/main/administrating-target/environments.md) desiderato dall&#39;elenco a discesa **[!UICONTROL Environment]** durante la creazione (o l&#39;aggiornamento) di un&#39;esclusione per visualizzare in anteprima i contenuti dell&#39;esclusione in tale ambiente. Per impostazione predefinita, sono visualizzati i risultati del gruppo di host predefinito.
 
 1. Fare clic su **[!UICONTROL Create Exclusion]**.
-
-   ![Finestra di dialogo Crea esclusione](/help/main/c-recommendations/c-products/assets/create-exclusion.png)
 
 1. Digitare un&#39;esclusione **[!UICONTROL Name]** e immettere una descrizione facoltativa.
 
 1. Utilizza il generatore di regole per creare le esclusioni.
 
-   Seleziona un parametro nell’elenco delle regole, seleziona un operatore, quindi immetti uno o più valori per identificare i prodotti. Separa i valori con le virgole.
+   Selezionare un parametro nell&#39;elenco [!UICONTROL Rules], selezionare un operatore, quindi immettere uno o più valori per identificare i prodotti. Separa i valori con le virgole.
 
 1. Fare clic su **[!UICONTROL Create]**.
 
@@ -70,9 +65,7 @@ After creating a search using "id > contains," for example, you can then click [
 
 ## Modificare, copiare o eliminare un’esclusione
 
-Fai clic sull&#39;icona **puntini di sospensione** accanto all&#39;esclusione desiderata nell&#39;elenco, quindi fai clic sull&#39;icona appropriata: modifica, copia o elimina.
-
-![Opzioni: modifica, copia ed elimina](/help/main/c-recommendations/c-products/assets/edit-copy-delete.png)
+Fai clic sull&#39;icona Altre azioni ( ![Icona Altre azioni](/help/main/assets/icons/MoreSmallList.svg) ) accanto all&#39;esclusione desiderata nell&#39;elenco, quindi fai clic sull&#39;icona appropriata: [!UICONTROL Edit], [!UICONTROL Copy] o [!UICONTROL Delete].
 
 Puoi copiare un’esclusione esistente per creare un’esclusione duplicata che puoi quindi modificare. Questa opzione consente di creare un’esclusione simile con meno sforzo.
 

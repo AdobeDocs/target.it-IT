@@ -2,13 +2,13 @@
 keywords: creare consigli;attività consigli;nuovi consigli;panoramica consigli
 description: Scopri come utilizzare il Compositore esperienza visivo  [!DNL Target] [!UICONTROL Visual Experience Composer] per creare un'attività  [!DNL Recommendations] .
 title: Come si crea un'attività  [!DNL Recommendations] ?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Vedi cosa è incluso in Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."
 feature: Recommendations
 hide: true
 hidefromtoc: true
-source-git-commit: 77fc3215f20b0d5f6407fc07889748b5734ca9ea
+source-git-commit: b7c7e8d85f7f39024ed5e57177e5c9f628460e9c
 workflow-type: tm+mt
-source-wordcount: '1214'
+source-wordcount: '1176'
 ht-degree: 51%
 
 ---
@@ -21,19 +21,15 @@ Utilizzare il Compositore esperienza visivo [!DNL Target] [!UICONTROL Visual Exp
 
 1. Selezionare **[!UICONTROL Visual]**, se necessario.
 
-   ![Finestra di dialogo Crea attività di Recommendations](/help/main/c-recommendations/t-create-recs-activity/assets/DB_NewRecAct.png)
-
-   Se preferisci utilizzare il Compositore esperienza basato su moduli, seleziona [!UICONTROL Form]. Per ulteriori informazioni, consulta [Compositore esperienza basato su moduli](/help/main/c-experiences/form-experience-composer.md).
+   Se preferisci utilizzare [!UICONTROL Form-Based Experience Composer], seleziona [!UICONTROL Form]. Per ulteriori informazioni, consulta [Compositore esperienza basato su moduli](/help/main/c-experiences/form-experience-composer.md).
 
    >[!NOTE]
    >
    >Oltre al Compositore esperienza visivo e a [!UICONTROL Form-Based Experience Composer], [!DNL Target] offre il Compositore esperienza visivo [!UICONTROL Single Page Application]. Per ulteriori informazioni sui vari moduli di composizione, consulta [Esperienze e offerte](/help/main/c-experiences/experiences.md).
    >
    >Per informazioni sulla risoluzione dei problemi relativi al Compositore esperienza visivo, consulta [Risoluzione dei problemi relativi al Compositore esperienza visivo](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md).
-   >
-   >L&#39;opzione [!UICONTROL [Choose Workplace]](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) nell&#39;illustrazione precedente è una funzionalità di [Target Premium](/help/main/c-intro/intro.md). Se la tua organizzazione dispone di una licenza di [!UICONTROL Target Standard], questa opzione non è disponibile.
 
-1. (Condizionale) Se sei un cliente [Target Premium](/help/main/c-intro/intro.md#premium), scegli un’[area di lavoro](/help/main/administrating-target/c-user-management/property-channel/property-channel.md).
+1. (Condizionale) Scegli un&#39;[area di lavoro](/help/main/administrating-target/c-user-management/property-channel/property-channel.md).
 
 1. Specificare un URL attività, quindi fare clic su **[!UICONTROL Create]**.
 

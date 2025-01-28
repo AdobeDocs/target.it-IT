@@ -3,9 +3,9 @@ user-guide-title: Guida di Adobe Target per professionisti aziendali
 breadcrumb-title: Guida di Target
 user-guide-description: Scopri come adattare e personalizzare l’esperienza dei clienti per massimizzare le entrate dai siti web e mobili, dalle app, dai social media e da altri canali digitali.
 feature-set: Target
-source-git-commit: 484971ab0fcd07205935c0fef3ea1484f40c3e96
+source-git-commit: 3809d98ae58e4832cdf4739d2435a222febaef6d
 workflow-type: tm+mt
-source-wordcount: '1485'
+source-wordcount: '1493'
 ht-degree: 76%
 
 ---
@@ -363,12 +363,14 @@ ht-degree: 76%
    + Progettazione {#recommendations-design}
       + [Panoramica della progettazione](c-recommendations/c-design-overview/design-overview.md)
       + [Creare una progettazione](c-recommendations/c-design-overview/create-design.md)
-      + [Creare una progettazione](/help/main/c-recommendations/c-design-overview/create-design-beta.md)
+      + [Creare un design-beta](/help/main/c-recommendations/c-design-overview/create-design-beta.md)
       + [Domande frequenti sulle progettazioni](c-recommendations/c-design-overview/template-faq.md)
       + [Personalizzare una progettazione con Velocity](c-recommendations/c-design-overview/customizing-a-template.md)
    + Attività {#recommendations-activity}
       + [Creare un’attività Consigli](c-recommendations/t-create-recs-activity/create-recs-activity.md)
+      + [Creare un’attività beta di Recommendations](c-recommendations/t-create-recs-activity/create-recs-activity-beta.md)
       + [Selezionare criteri](c-recommendations/t-create-recs-activity/algo-select-recs.md)
+      + [Seleziona criteri beta](c-recommendations/t-create-recs-activity/algo-select-rec-beta.md)
       + [Aggiungere promozioni](c-recommendations/t-create-recs-activity/adding-promotions.md)
       + [Impostazioni delle attività Consigli](c-recommendations/t-create-recs-activity/recs-activity-settings.md)
       + [Anteprima e avvio di un’attività Consigli](/help/main/c-recommendations/t-create-recs-activity/previewing-and-launching-your-recommendations-activity.md)

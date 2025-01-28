@@ -2,13 +2,13 @@
 keywords: Recommendations;consigli;offerta
 description: Scopri come utilizzare Adobe Recommendations come offerta all’interno di test A/B (tra cui Allocazione automatica e Targeting automatico) e attività di Experience Targeting (XT).
 title: Come si utilizza la funzione Recommendations (Consigli) come offerta in altri tipi di attività?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Vedi cosa è incluso in Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."
 feature: Recommendations
 exl-id: ec520555-b439-46a9-ab2d-f0981532bffb
-source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
+source-git-commit: f848c79cb95009b5810a1707d04e548a57220e12
 workflow-type: tm+mt
-source-wordcount: '516'
-ht-degree: 59%
+source-wordcount: '507'
+ht-degree: 60%
 
 ---
 
@@ -33,11 +33,9 @@ Per iniziare, crea un&#39;attività [!UICONTROL A/B Test] o [!UICONTROL Experien
    >
    >Per i test A/B, ricorda che puoi scegliere l’opzione [Allocazione automatica](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) per inviare automaticamente il traffico ai consigli con prestazioni migliori, oppure l’opzione [Targeting automatico](/help/main/c-activities/auto-target/auto-target-to-optimize.md) per assegnare esperienze di consigli su misura ai visitatori in base ai loro profili.
 
-1. Durante la creazione di un&#39;[esperienza](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md), fai clic sull&#39;elemento a cui desideri aggiungere un consiglio come offerta, seleziona l&#39;azione **[!UICONTROL Insert Before]**, **[!UICONTROL Insert After]** o **[!UICONTROL Replace With]**, quindi seleziona [!UICONTROL Recommendation].
+1. Durante la creazione di una [esperienza](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md), fai clic sull&#39;elemento a cui desideri aggiungere un consiglio come offerta, fai clic su **[!UICONTROL Replace Content]**, quindi seleziona **[!UICONTROL Recommendation]**.
 
-   Nella figura seguente viene illustrata l&#39;opzione [!UICONTROL Insert After > Recommendation].
-
-   ![Inserire un Consiglio come offerta](/help/main/c-recommendations/assets/replace-after-recommendations.png)
+   ![Inserire un Consiglio come offerta](/help/main/c-recommendations/t-create-recs-activity/assets/recs-as-offer.png)
 
 1. Seleziona tra le seguenti opzioni per visualizzare i criteri delle consigli più comuni per tipo di pagina:
 
