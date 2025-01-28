@@ -5,10 +5,10 @@ title: Cosa sono gli host e come li utilizzo?
 feature: Administration & Configuration
 role: Admin
 exl-id: 31c661c0-686d-440e-ad58-864fb853b1c4
-source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
+source-git-commit: 484971ab0fcd07205935c0fef3ea1484f40c3e96
 workflow-type: tm+mt
-source-wordcount: '1029'
-ht-degree: 17%
+source-wordcount: '1027'
+ht-degree: 18%
 
 ---
 
@@ -23,8 +23,6 @@ Un host è qualsiasi dominio da cui viene effettuata una richiesta [!DNL Target]
 Per impostazione predefinita, [!DNL Target] non limita un host in grado di effettuare [!DNL Target] richieste e ricevere [!DNL Target] risposte. Quando nuovi host effettuano richieste, queste funzionano automaticamente. Questo processo consente anche di eseguire test su domini diversi che non conosci o che non puoi prevedere. Se si desidera ignorare questo comportamento predefinito, è possibile impostare un inserisco nell&#39;elenco Consentiti di o di elenco Bloccati per limitare quali host funzionano con [!DNL Target].
 
 Per gestire gli host, scegliere **[!UICONTROL Administration]** > **[!UICONTROL Hosts]**.
-
-![immagine elenco_host](assets/hosts_list.png)
 
 ## Riconoscere gli host {#concept_0D4B43E23AA9408F8B28A57ED754BF65}
 
@@ -97,7 +95,7 @@ Nei casi in cui `mboxHost` viene passato in una chiamata API, la conversione vie
 
 >[!NOTE]
 >
->L&#39;elenco [!UICONTROL Authorized Hosts] viene utilizzato sia per gli host [!DNL Target] che per gli host di reindirizzamento predefiniti. Aggiungi tutti i domini esistenti approvati per l&#39;utilizzo dell&#39;SDK di JavaScript [!DNL Adobe Target] (at.js) *AND* tutti i domini utilizzati negli URL di reindirizzamento predefiniti per la posta in arrivo. Aggiungi eventuali nuovi domini simili al inserisco nell&#39;elenco Consentiti di in futuro.
+>L&#39;elenco [!UICONTROL Authorized Hosts] viene utilizzato sia per gli host [!DNL Target] che per gli host di reindirizzamento predefiniti. Aggiungi tutti i domini esistenti approvati per l&#39;utilizzo di [!DNL Adobe Target] JavaScript SDK (at.js) *AND* tutti i domini utilizzati negli URL di reindirizzamento predefiniti della posta in arrivo. Aggiungi eventuali nuovi domini simili al inserisco nell&#39;elenco Consentiti di in futuro.
 
 ## Eliminare un host {#section_F56355BA4BC54B078A1A8179BC954632}
 

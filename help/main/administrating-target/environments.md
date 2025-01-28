@@ -1,14 +1,14 @@
 ---
 keywords: ambiente;risoluzione dei problemi;best practice;ubox;reindirizzamenti;reindirizzamento;whitelist;blacklist;inserisco nell'elenco Bloccati di;inserisco nell'elenco Consentiti di
-description: Scopri come utilizzare gli ambienti in Adobe [!DNL Target] per organizzare i siti e gli ambienti di pre-produzione per semplificare la gestione e la creazione di rapporti separati.
+description: Scopri come utilizzare gli ambienti in Adobe [!DNL Target] per organizzare i siti e gli ambienti di pre-produzione per semplificare la gestione e creare rapporti separati.
 title: Cosa sono gli ambienti e come li utilizzo?
 feature: Administration & Configuration
 role: Admin
 exl-id: 820a116a-15f9-4ba0-94f3-8e35aa0f90da
-source-git-commit: 516d3969c8a6ed073b9f8d53c842e4d759cee8a2
+source-git-commit: 484971ab0fcd07205935c0fef3ea1484f40c3e96
 workflow-type: tm+mt
-source-wordcount: '646'
-ht-degree: 49%
+source-wordcount: '644'
+ht-degree: 46%
 
 ---
 
@@ -23,8 +23,6 @@ Un ambiente, quello predefinito, è denominato [!UICONTROL Production]. Questo a
 Quando si riceve una richiesta [!DNL Target] da nuovi siti Web o domini, questi nuovi domini vengono sempre visualizzati nell&#39;ambiente [!UICONTROL Production]. Impossibile modificare le impostazioni dell&#39;ambiente [!UICONTROL Production]. Per i siti sconosciuti o nuovi viene garantita la visualizzazione solo del contenuto attivo e pronto. La gestione degli host consente inoltre di garantire facilmente la qualità di nuove attività e contenuti nei test, nella gestione temporanea (staging) e negli ambienti di sviluppo prima di attivare le attività.
 
 Per gestire gli ambienti, fare clic su **[!UICONTROL Administration]** > **[!UICONTROL Environments]**.
-
-![Elenco ambienti](/help/main/administrating-target/assets/environments.png)
 
 ## Aggiungere un ambiente {#section_32097D0993724DF3A202D164D3F18674}
 
@@ -69,7 +67,7 @@ Quando un ambiente non è più necessario, è possibile eliminarlo.
 >
 >Non è possibile eliminare l&#39;ambiente [!UICONTROL Production], ma è possibile rinominarlo.
 
-## [!BADGE Premium]{type=Positive url="/help/main/c-intro/intro.md#premium newtab=true" tooltip="Vedi cosa è incluso in Target Premium."}
+## [!BADGE Premium]{type=Positive url="/help/main/c-intro/intro.md#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."}
 
 Puoi visualizzare in anteprima il contenuto delle raccolte ed esclusioni di Consigli per un ambiente selezionato (gruppo di host).
 

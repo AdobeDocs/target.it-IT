@@ -5,9 +5,9 @@ title: Come si aggiungono utenti e si gestiscono le autorizzazioni per un accoun
 feature: Administration & Configuration
 role: Admin
 exl-id: 535c28c7-179d-4edc-b140-880b9dfe1d59
-source-git-commit: 8560fa828fac91170fd295c9ef9a9b0e6ce1651c
+source-git-commit: 484971ab0fcd07205935c0fef3ea1484f40c3e96
 workflow-type: tm+mt
-source-wordcount: '862'
+source-wordcount: '847'
 ht-degree: 63%
 
 ---
@@ -41,8 +41,6 @@ Gli utenti amministratori sono identificati nell&#39;elenco [!UICONTROL Users]. 
 Puoi visualizzare un elenco degli utenti correnti nell’interfaccia [!DNL Target], inclusi i ruoli per area di lavoro e gli indirizzi e-mail.
 
 Per visualizzare la pagina [!UICONTROL Users], fare clic su **[!UICONTROL Administration]** > **[!UICONTROL Users]**.
-
-![Elenco utenti all’interno di Target](/help/main/administrating-target/c-user-management/c-user-management/assets/user-list-target.png)
 
 >[!NOTE]
 >
@@ -86,19 +84,11 @@ Devono essere gli utenti amministratori di sistema ad aggiungere gli utenti al s
 
 1. [Nell&#39;Admin Console](/help/main/administrating-target/c-user-management/c-user-management/user-management.md#section_79796E0227D048F59BAE0AB02E544EBE), fare clic su **[!UICONTROL Products]**, quindi selezionare il nome del prodotto desiderato.
 
-   ![Scheda Prodotti](/help/main/administrating-target/c-user-management/c-user-management/assets/workspace-publisher.png)
-
 1. Fai clic sull’area di lavoro desiderata, ad esempio Default Workspace (Area di lavoro predefinita).
-
-   ![Default Workspace (Area di lavoro predefinita)](/help/main/administrating-target/c-user-management/c-user-management/assets/default-workspace-new.png)
 
    Nella scheda [!UICONTROL Users] vengono visualizzati tutti gli utenti di quell&#39;area di lavoro.
 
-   ![configurazione degli utenti](/help/main/administrating-target/c-user-management/c-user-management/assets/configuration_users-new-publisher.png)
-
 1. Selezionare il ruolo di autorizzazioni desiderato ([!UICONTROL Approver], [!UICONTROL Editor], [!UICONTROL Observer] o [!UICONTROL Publisher]) utilizzando l&#39;elenco a discesa per ogni utente nella colonna [!UICONTROL Product Role].
-
-   ![Elenco a discesa Product Role (Ruolo prodotto)](/help/main/administrating-target/c-user-management/c-user-management/assets/product-role-new.png)
 
    | Ruolo | Descrizione |
    |--- |--- |

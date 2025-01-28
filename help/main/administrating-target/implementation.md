@@ -5,9 +5,9 @@ title: Come si implementa  [!DNL Target]  nel sito personale?
 feature: Administration & Configuration
 role: Admin
 exl-id: 7cbe95cf-82f7-490f-a3f1-cc882ca489a6
-source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
+source-git-commit: 484971ab0fcd07205935c0fef3ea1484f40c3e96
 workflow-type: tm+mt
-source-wordcount: '149'
+source-wordcount: '147'
 ht-degree: 10%
 
 ---
@@ -25,5 +25,3 @@ Per ulteriori informazioni, vedere i vari argomenti in [Implementare Target](/he
 1. Per accedere alla pagina [!UICONTROL Implementation], fare clic su **[!UICONTROL Administration]** > **[!UICONTROL Implementation]**.
 
 1. Per informazioni applicabili alle impostazioni di questa pagina, consulta [Implementare Target senza un sistema per la gestione dei tag](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-without-a-tag-manager.html){target=_blank}.
-
-![Pagina di implementazione](/help/main/administrating-target/assets/implementation.png)

@@ -7,10 +7,10 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 54834393-9121-41e7-93fb-b00924869d73
-source-git-commit: 438b65368b81f71d684444352035ce73627e698f
+source-git-commit: 484971ab0fcd07205935c0fef3ea1484f40c3e96
 workflow-type: tm+mt
-source-wordcount: '407'
-ht-degree: 51%
+source-wordcount: '415'
+ht-degree: 50%
 
 ---
 
@@ -23,6 +23,13 @@ Utilizzare questi collegamenti per accedere alla documentazione aggiornata come 
 >Il team [!DNL Adobe Target] spesso abilita nuove funzionalità per determinati clienti a scopo di test e feedback. Al termine del periodo di test, queste funzioni vengono abilitate per tutti i clienti nelle prossime versioni di [!DNL Target] e annunciate nelle note sulla versione.
 >
 >Le informazioni contenute in questi articoli vengono spesso aggiornate durante il programma Beta senza preavviso.
+
+## Amministrazione
+
++++Fare clic per espandere
+
+* [Amministrare Target overview beta](administrating-target/administrating-target-beta.md)
++++
 
 ## Attività
 

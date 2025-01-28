@@ -1,14 +1,14 @@
 ---
 keywords: compositore esperienza visivo;vec;url predefinito;compositore esperienza avanzato;eec;contenuto misto;istantanee esperienza;riquadro di visualizzazione mobile;css;selettori css
-description: Scopri come configurare il Compositore esperienza visivo di Adobe [!DNL Target] specificandone le impostazioni generali, la configurazione del riquadro di visualizzazione mobile e i selettori CSS.
+description: Scopri come configurare il Compositore esperienza visivo (VEC) di Adobe [!DNL Target] specificandone le impostazioni generali, la configurazione del riquadro di visualizzazione mobile e i selettori CSS.
 title: Come si configura il Compositore esperienza visivo?
 feature: Administration & Configuration
 role: Admin
 exl-id: cf6c9ece-6745-477e-81ac-a3e9a9fddb09
-source-git-commit: fa11f93058b69e5e59e0ee20c65cffa4a1344ca0
+source-git-commit: 484971ab0fcd07205935c0fef3ea1484f40c3e96
 workflow-type: tm+mt
-source-wordcount: '690'
-ht-degree: 48%
+source-wordcount: '682'
+ht-degree: 49%
 
 ---
 
@@ -22,11 +22,9 @@ Per accedere alla pagina di configurazione [!UICONTROL Visual Experience Compose
 >
 >Tenere presente che le impostazioni di questa pagina si applicano all&#39;intero account [!DNL Target].
 
-![Pagina di configurazione del Compositore esperienza visivo](/help/main/administrating-target/assets/vec.png)
-
 ## Impostazioni generali
 
-Puoi specificare le impostazioni generali per il Compositore esperienza visivo.
+È possibile specificare le impostazioni generali per [!UICONTROL Visual Experience Composer].
 
 ![Sezione Impostazioni generali](/help/main/administrating-target/assets/general-settings.png)
 
@@ -57,7 +55,7 @@ Questa opzione è utile se, ad esempio:
 
 L&#39;attivazione delle istantanee esperienza genera miniature per le tue esperienze nel diagramma del flusso di lavoro dell&#39;attività. La disabilitazione delle istantanee potrebbe determinare prestazioni più veloci per alcuni utenti.
 
-## [!BADGE Premium]{type=Positive url="/help/main/c-intro/intro.md#premium newtab=true" tooltip="Vedi cosa è incluso in Target Premium."}
+## [!BADGE Premium]{type=Positive url="/help/main/c-intro/intro.md#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."}
 
 Puoi aggiungere dispositivi da utilizzare quando visualizzi le esperienze in anteprima. A ogni dispositivo è associato un pubblico.
 

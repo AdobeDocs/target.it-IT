@@ -2,13 +2,13 @@
 keywords: aree di lavoro;gestire proprietà;autorizzazioni;configurazione prodotto;profilo prodotto;ruoli;progetto;osservatore;editor;approvatore;publisher
 description: Scopri come creare aree di lavoro separate (profili di prodotto) e quindi assegnare agli utenti ruoli e autorizzazioni diversi per singole pagine, proprietà o siti web.
 title: Quali sono le autorizzazioni per gli utenti Enterprise e come si utilizzano?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Vedi cosa è incluso in Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."
 feature: Administration & Configuration
 role: Admin
 exl-id: 838abe87-dba7-4274-97b4-31a7905846dc
-source-git-commit: 5e86d3a95dad291f6c876f126568ba685ff32670
+source-git-commit: 484971ab0fcd07205935c0fef3ea1484f40c3e96
 workflow-type: tm+mt
-source-wordcount: '3171'
+source-wordcount: '3165'
 ht-degree: 48%
 
 ---
@@ -81,7 +81,7 @@ Tutti i ruoli utente e l&#39;accesso a tutte le funzionalità di [!DNL Target] r
 
 ### Gruppi di utenti
 
-Puoi creare gruppi di utenti, ad esempio sviluppatori, analisti, addetti al marketing e dirigenti. È quindi possibile assegnare privilegi a più prodotti di Adobe e aree di lavoro. Per assegnare a un nuovo membro del team tutti i privilegi appropriati per i diversi prodotti Adobe, sarà sufficiente aggiungerlo a un gruppo di utenti specifico.
+Puoi creare gruppi di utenti, ad esempio sviluppatori, analisti, addetti al marketing e dirigenti. È quindi possibile assegnare privilegi a più prodotti Adobe e aree di lavoro. Per assegnare a un nuovo membro del team tutti i privilegi appropriati per i diversi prodotti Adobe, sarà sufficiente aggiungerlo a un gruppo di utenti specifico.
 
 ### Ruoli e autorizzazioni {#roles-permissions}
 
@@ -191,18 +191,12 @@ La nuova funzionalità delle autorizzazioni può essere vista in varie posizioni
 
 * **Elenco a discesa Workspace (profilo prodotto):** L&#39;elenco a discesa Workspace viene visualizzato nella parte superiore delle pagine [!UICONTROL Activities], [!UICONTROL Audiences] e [!UICONTROL Offers]. Seleziona l&#39;area di lavoro desiderata per filtrare l&#39;elenco e visualizzare solo gli elementi nell&#39;area di lavoro selezionata.
 
-  ![immagine dell&#39;area di lavoro](assets/workspace_drop-down.png)
-
 * **Creazione attività:** Quando si crea un&#39;attività, questa viene creata nell&#39;area di lavoro attualmente selezionata. Nella prima finestra di dialogo sono visualizzate le opzioni di selezione del canale che consentono di scegliere il canale desiderato per l’attività: Web, App mobile, E-mail o Altro/API.
-
-  ![immagine channel_options](assets/channel_options.png)
 
 * **Creazione pubblico:** Quando si crea un pubblico, questo viene creato nell&#39;area di lavoro attualmente selezionata.
 * **Elenco tipi di pubblico:** È possibile spostare i tipi di pubblico tra aree di lavoro utilizzando l&#39;opzione [!UICONTROL More Actions] > [!DNL Move] nella pagina [!UICONTROL Audiences].
 * **Creazione offerta:** Quando si crea un&#39;offerta, questa viene creata nell&#39;area di lavoro attualmente selezionata.
 * **Pagina delle proprietà (Amministrazione > Proprietà):** È possibile utilizzare la casella [!UICONTROL Search] per eseguire ricerche nell&#39;elenco [!UICONTROL Property].
-
-  ![immagine elenco proprietà](assets/properties_list.png)
 
 ## Avvertenze {#section_9714311B1CD9497A86F4910F8AE635E2}
 
@@ -234,14 +228,14 @@ Quando si utilizzano o si configurano proprietà e autorizzazioni in [!DNL Targe
 
    * Attività, tipi di pubblico e offerte di codice creati in [!DNL Target Standard/Premium] sono disponibili per l&#39;utilizzo dopo l&#39;abilitazione del cliente per le autorizzazioni. (Nota: i clienti devono avere diritto a [!DNL Target Premium].)
    * Le proprietà possono essere aggiunte alle attività esistenti nel Workspace predefinito; tuttavia, questo approccio è soggetto a modifiche.
-   * Solo le nuove risorse (come attività, offerte di codice e tipi di pubblico) create all&#39;interno di Target Premium (dopo l&#39;abilitazione delle autorizzazioni Enterprise) sono disponibili per limitare le autorizzazioni.
+   * Solo le nuove risorse (ad esempio attività, offerte di codice e tipi di pubblico) create all’interno di Target Premium (dopo l’abilitazione delle autorizzazioni Enterprise) sono disponibili per limitare le autorizzazioni.
    * Le risorse esterne sono disponibili solo per gli utenti nell&#39;area di lavoro predefinita. Il ruolo di un utente nell&#39;area di lavoro predefinita si applica globalmente (a tutte le richieste Target e a tutte le risorse Target).
 
 * Le risorse seguenti *non* fanno parte del nuovo modello di autorizzazioni Enterprise:
 
    * Offerte immagine
    * Tutte le risorse di Recommendations, inclusi Libreria criteri, Libreria progettazioni, Catalogo, Configurazione Recommendations.
-   * Le risorse esistenti (ad esempio attività, offerte di codice e tipi di pubblico) create in Target Premium prima di abilitare le autorizzazioni Enterprise possono essere copiate ma non possono essere spostate in altre aree di lavoro.
+   * Le risorse esistenti (ad esempio attività, offerte di codice e tipi di pubblico) create all’interno di Target Premium prima di abilitare le autorizzazioni Enterprise possono essere copiate ma non possono essere spostate in altre aree di lavoro.
    * Le attività, i tipi di pubblico, le offerte basate su codice, le offerte immagini o qualsiasi altra risorsa creata utilizzando le soluzioni o i metodi seguenti non possono essere controllate dal modello di autorizzazioni Enterprise, ma fanno parte di Workspace predefinito: Target Classic, Adobe Experience Manager (AEM), Adobe Mobile Services e le risorse create tramite API. Le risorse create tramite API includono le attività, i tipi di pubblico, le offerte basate su codice e le offerte di immagini.
    * Le offerte di immagini (le risorse archiviate in `https://[tenantName].marketing.adobe.com/content/mac/[tenantName]/target/offers.html#image-library` non possono essere attualmente controllate dal modello di autorizzazioni Enterprise.
    * clickTracking e reindirizzamenti funzionano quando il collegamento di destinazione o la pagina di destinazione fanno parte di una proprietà inclusa nell’attività. Inoltre, clickTracking potrebbe non funzionare quando si utilizza la funzione `targetPageParams()`. La funzione suggerita è `targetPageParamsAll()`.
