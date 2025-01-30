@@ -1,13 +1,13 @@
 ---
 keywords: Recommendations;offerta;anteprima;lancio;stato;criteri;algoritmo
-description: Scopri come visualizzare in anteprima l’attività Adobe [!DNL Target] Recommendations per assicurarti che i risultati siano disponibili prima di avviare l’attività.
+description: Scopri come visualizzare in anteprima la tua attività Adobe [!DNL Target] Recommendations per assicurarti che i risultati siano disponibili prima di avviare l'attività.
 title: Come posso visualizzare in anteprima e avviare un’attività di Recommendations?
 feature: Recommendations
 exl-id: 60391778-4d48-4c41-a7c5-fedcfabf2530
-source-git-commit: 6e15b9b10e6a40c8efec06c45442b0f9894e648e
+source-git-commit: 75ab3bff7064c8f7df14a42422373cb64d96150a
 workflow-type: tm+mt
-source-wordcount: '1340'
-ht-degree: 16%
+source-wordcount: '1316'
+ht-degree: 15%
 
 ---
 
@@ -21,11 +21,7 @@ Dopo aver creato un&#39;attività, [!DNL Recommendations] esegue un algoritmo pe
 
 È possibile verificare se l&#39;esecuzione dell&#39;algoritmo è stata completata nel diagramma di panoramica [!UICONTROL Activity], in cui è elencato lo stato dei criteri. La figura seguente mostra lo stato nel diagramma attività nella pagina [!UICONTROL Overview] di un&#39;attività [!DNL Recommendations]:
 
-![Pagina panoramica attività Recommendations](/help/main/c-recommendations/t-create-recs-activity/assets/recs-overview.png)
-
-Nella figura seguente viene illustrato lo stato della pagina [!UICONTROL Overview] di un&#39;attività [!UICONTROL A/B Test] o XT:
-
-![Pagina Panoramica test A/B](/help/main/c-recommendations/t-create-recs-activity/assets/ab-overview.png)
+![Pagina panoramica attività Recommendations](/help/main/c-recommendations/t-create-recs-activity/assets/recs-overview-new.png)
 
 I risultati dello stato includono quanto segue, come illustrato di seguito:
 
@@ -45,7 +41,7 @@ Quest’ultima influisce maggiormente sul tempo di elaborazione, come segue:
 
 Se come origini dei dati comportamentali sono selezionate delle mbox, i criteri creati vengono eseguiti subito. A seconda della quantità di dati comportamentali utilizzati e delle dimensioni del catalogo, l’esecuzione dell’algoritmo può richiedere fino a 12 ore. L’apporto di modifiche alla configurazione dei criteri comporta solitamente la riesecuzione dei criteri. A seconda della modifica apportata, i consigli calcolati in precedenza potrebbero non essere disponibili fino a quando non viene completata una nuova esecuzione oppure, per modifiche di maggiore entità, fino a quando non viene completata una nuova esecuzione potrebbero essere disponibili solo i contenuti di backup o predefiniti. Se un algoritmo non viene modificato, viene rieseguito automaticamente da [!DNL Target] ogni 12-48 ore, a seconda dell’intervallo di dati selezionato.
 
-### Adobe Analytics
+### [!DNL Adobe Analytics]
 
 Se il criterio utilizza [!DNL Adobe Analytics] come origine dei dati comportamentali, l’eventuale utilizzo della suite di rapporti e dell’intervallo di lookback selezionati per altri criteri incide sul tempo che trascorre prima che il criterio creato diventi disponibile.
 
@@ -59,9 +55,7 @@ Se il criterio utilizza [!DNL Adobe Analytics] come origine dei dati comportamen
 
 ## Utilizzo dei collegamenti di controllo qualità per l’anteprima di Recommendations
 
-Quando i risultati dell&#39;algoritmo sono pronti, è possibile visualizzarli in anteprima utilizzando la funzionalità [Collegamento QA](/help/main/c-activities/c-activity-qa/activity-qa.md) di [!DNL Adobe Target]. I collegamenti di controllo qualità sono disponibili nella sezione [!UICONTROL Activity QA] della pagina Panoramica attività:
-
-![Collegamento Controllo di qualità attività](/help/main/c-recommendations/t-create-recs-activity/assets/qa-link.png)
+Quando i risultati dell&#39;algoritmo sono pronti, è possibile visualizzarli in anteprima utilizzando la funzionalità [Collegamento QA](/help/main/c-activities/c-activity-qa/activity-qa.md) di [!DNL Adobe Target]. I collegamenti di controllo qualità sono disponibili nella sezione [!UICONTROL Activity Location] della pagina di panoramica di [!UICONTROL Activity]:
 
 >[!NOTE]
 >
@@ -103,17 +97,11 @@ Per altri tipi di algoritmo basati su un valore chiave, ad esempio [!UICONTROL P
 
 ## Attivazione dell’attività Recommendations
 
-Dalla scheda [!UICONTROL Activity Overview], fare clic sulla freccia a discesa accanto allo stato, quindi selezionare **[!UICONTROL Activate]**.
+Dalla scheda [!UICONTROL Activity Overview], fare clic sulla freccia a discesa Stato, quindi selezionare **[!UICONTROL Activate]**.
 
-![Attiva opzione](/help/main/c-recommendations/t-create-recs-activity/assets/activate.png)
+Se l&#39;attività [!UICONTROL Recommendations] è attualmente nello stato [!UICONTROL Inactive], l&#39;elenco a discesa è etichettato [!UICONTROL Inactive].
 
-Lo stato diventa [!UICONTROL Activating]:
-
-![Attivazione](/help/main/c-recommendations/t-create-recs-activity/assets/activating.png)
-
-Dopo alcuni secondi o pochi minuti, lo stato passa a [!UICONTROL Live]:
-
-![Live](/help/main/c-recommendations/t-create-recs-activity/assets/live.png)
+Dopo alcuni secondi o pochi minuti, lo stato passa a [!UICONTROL Live].
 
 Puoi anche disattivare o archiviare l’attività utilizzando lo stesso elenco a discesa.
 
