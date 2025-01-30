@@ -1,12 +1,12 @@
 ---
 keywords: qa;modalità qa; qa attività;qa url;qa url;anteprima url;anteprima url
-description: Scopri come utilizzare gli URL Adobe [!DNL Target] QA per eseguire facilmente il controllo qualità delle attività end-to-end con collegamenti di anteprima che restano invariati, targeting facoltativo del pubblico e rapporti di controllo qualità mantenuti segmentati dai dati delle attività live.
+description: Scopri come utilizzare gli URL di controllo qualità di Adobe [!DNL Target] per eseguire in modo semplice e completo il controllo qualità delle attività tramite collegamenti di anteprima che restano invariati, l'eventuale definizione di un pubblico di destinazione e rapporti di controllo qualità mantenuti segmentati dai dati delle attività live.
 title: Come posso eseguire il controllo qualità delle attività?
 feature: Activities
 exl-id: 5c606d61-6d13-4a9b-9a23-4840f1754d3c
-source-git-commit: 4b7c6d82e6988c64ace401d8f749b181b8dc1866
+source-git-commit: 99ea312405e397e97e64e32d2685e8a6966d8928
 workflow-type: tm+mt
-source-wordcount: '1665'
+source-wordcount: '1658'
 ht-degree: 27%
 
 ---
@@ -31,11 +31,7 @@ Gli URL di controllo qualità in [!DNL Adobe Target] consentono di verificare in
 
 1. Dalla pagina [!UICONTROL Overview] di un&#39;attività, fare clic su **[!UICONTROL Activity QA]**.
 
-   ![Collegamento Controllo di qualità attività](assets/qa_link.png)
-
 1. Configura le seguenti impostazioni:
-
-   ![Opzioni di configurazione del collegamento Controllo di qualità attività](assets/qa_link_config.png)
 
    * **[!UICONTROL Match audience rules to see experiences]:** A volte puoi voler verificare che la corrispondenza del pubblico funzioni. Altre volte si desidera controllare l&#39;aspetto dell&#39;attività. Se questa impostazione viene attivata, i soggetti del test devono soddisfare i requisiti di targeting per risultare idonei a visualizzare le esperienze. Per le attività di targeting di esperienza (XT), viene fornito un singolo URL di attività. Se il visitatore soddisfa le regole di targeting, l’esperienza verrà visualizzata.
 
