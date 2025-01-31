@@ -4,10 +4,10 @@ description: Scopri come creare un'attività multipagina in Adobe [!DNL Target] 
 title: Come si crea un’attività multipagina?
 feature: Visual Experience Composer (VEC)
 exl-id: d000cc73-4729-4ce0-ab30-756dd3ca8545
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: f968ec45f015fa0b195007f5790b9efb743c8b65
 workflow-type: tm+mt
-source-wordcount: '375'
-ht-degree: 68%
+source-wordcount: '341'
+ht-degree: 54%
 
 ---
 
@@ -27,21 +27,13 @@ Puoi anche utilizzare un’attività multipagina per definire layout diversi per
 
 Per aggiungere delle pagine a un test:
 
-1. Fare clic sull&#39;icona ingranaggio **[!UICONTROL Configure]**.
+1. Fare clic sull&#39;icona **[!UICONTROL Configure]** ( ![icona Configura](/help/main/assets/icons/Setting.svg) ).
 1. Fare clic su **[!UICONTROL Add Additional Pages]**.
 
-   Sulla sinistra dello schermo appare una barra di navigazione.
+   Nella parte sinistra dello schermo viene visualizzato un riquadro [!UICONTROL Pages].
 
-   ![immagine multipagina](assets/multipage_nav.png)
+1. Specificare le pagine e impostare la pagina predefinita.
 
-1. Questa barra di navigazione permette di specificare le pagine e impostare la pagina predefinita.
+   Fare clic su **[!UICONTROL Add Page]** ( ![Icona Aggiungi](/help/main/assets/icons/Add.svg) ) per aggiungere una pagina, specificare il nome e l&#39;URL della pagina, quindi fare clic su **[!UICONTROL Save]**.
 
-   Fare clic su **[!UICONTROL Add Page]** per aggiungere una pagina.
-
-   Fai clic sull&#39;icona dei tre puntini di sospensione verticali per visualizzare un menu di azione:
-
-   ![immagine menu_multipagina](assets/multipage_menu.png)
-
-   Questo menu permette di rinominare le pagine, eseguire un test di reindirizzamento dall&#39;interno dell&#39;attività multipagina ed eliminare la pagina.
-
-1. Il compositore di esperienza visivo permette di progettare il modo in cui l&#39;offerta appare in ogni pagina.
+1. Utilizza [!UICONTROL Visual Experience Composer] per progettare l&#39;aspetto dell&#39;offerta in ogni pagina.
