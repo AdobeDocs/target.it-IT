@@ -4,10 +4,10 @@ description: Scopri le nuove funzioni, i miglioramenti e le correzioni, compresi
 title: Quali nuove funzioni e miglioramenti saranno inclusi nella prossima versione [!DNL Target] ?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: e61bc64f70c0624f8f9e241d5f5b82c4c9d6735d
+source-git-commit: 266b854f819d358afa464e65245900cbf7281c3e
 workflow-type: tm+mt
-source-wordcount: '1105'
-ht-degree: 14%
+source-wordcount: '1132'
+ht-degree: 15%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 14%
 
 Questo articolo contiene informazioni prerelease per le prossime versioni di [!DNL Adobe Target], incluse SDK, API e librerie JavaScript.
 
-**Ultimo aggiornamento: martedì 27 gennaio 2025**
+**Ultimo aggiornamento: sabato 31 gennaio 2025**
 
 >[!NOTE]
 >
@@ -23,13 +23,20 @@ Questo articolo contiene informazioni prerelease per le prossime versioni di [!D
 >
 >Per visualizzare informazioni sulla versione corrente, consulta [Note sulla versione di Target](release-notes.md). Le informazioni su queste pagine potrebbero essere uguali, a seconda della tempistica delle release. I codici tra parentesi sono per uso interno di [!DNL Adobe].
 
-## Aggiornamento dell&#39;interfaccia utente di [!UICONTROL Activities] (6 febbraio 2025)
+## Target Standard/Premium 25.2.1 (venerdì 6 febbraio 2025)
+
+Questa versione include i seguenti aggiornamenti:
+
+* Aggiornamento dell&#39;interfaccia utente di [!UICONTROL Activities]
+* Aggiornamento dell&#39;interfaccia utente di [!DNL Recommendations]
+
+### Aggiornamento dell&#39;interfaccia utente di [!UICONTROL Activities]
 
 Mentre il tentativo di modernizzazione dell&#39;interfaccia utente [!DNL Adobe Target] continua, è possibile annunciare la disponibilità generale dell&#39;interfaccia utente [!UICONTROL Activities] aggiornata.
 
 >[!NOTE]
 >
->A partire da mercoledì 6 febbraio, i clienti avranno gradualmente accesso alla nuova interfaccia utente [!UICONTROL Activities]. Per garantire un rollout senza soluzione di continuità per tutti i clienti, questa versione verrà implementata in fasi controllate. La prima fase aggiornerà il gruppo iniziale di [!DNL Target] clienti alla nuova interfaccia utente [!UICONTROL Activities]. Le fasi successive aggiorneranno i clienti rimanenti.
+>A partire da giovedì 6 febbraio, i clienti avranno gradualmente accesso alla nuova interfaccia utente [!UICONTROL Activities]. Per garantire un rollout senza soluzione di continuità per tutti i clienti, questa versione verrà implementata in fasi controllate. La prima fase aggiornerà il gruppo iniziale di [!DNL Target] clienti alla nuova interfaccia utente [!UICONTROL Activities]. Le fasi successive aggiorneranno i clienti rimanenti.
 
 In base al sistema di progettazione [!DNL Adobe Spectrum] più recente, l&#39;aggiornamento standardizza i modelli di progettazione precedentemente incoerenti, aggiungendo nuovi miglioramenti, ad esempio:
 
@@ -43,13 +50,13 @@ In base al sistema di progettazione [!DNL Adobe Spectrum] più recente, l&#39;ag
 
 ![Aggiornamento attività](/help/main/r-release-notes/assets/activities-refresh.png)
 
-## Aggiornamento dell&#39;interfaccia utente di [!DNL Recommendations] (6 febbraio 2025)
+### Aggiornamento dell&#39;interfaccia utente di [!DNL Recommendations]
 
 Mentre il tentativo di modernizzazione dell&#39;interfaccia utente [!DNL Adobe Target] continua, è possibile annunciare la disponibilità generale dell&#39;interfaccia utente [!DNL Recommendations] aggiornata.
 
 >[!NOTE]
 >
->A partire da mercoledì 6 febbraio, i clienti avranno gradualmente accesso alla nuova interfaccia utente [!UICONTROL Recommendations]. Per garantire un rollout senza soluzione di continuità per tutti i clienti, questa versione verrà implementata in fasi controllate. La prima fase aggiornerà il gruppo iniziale di [!DNL Target] clienti alla nuova interfaccia utente [!UICONTROL Activities]. Le fasi successive aggiorneranno i clienti rimanenti.
+>A partire da giovedì 6 febbraio, i clienti avranno gradualmente accesso alla nuova interfaccia utente [!UICONTROL Recommendations]. Per garantire un rollout senza soluzione di continuità per tutti i clienti, questa versione verrà implementata in fasi controllate. La prima fase aggiornerà il gruppo iniziale di [!DNL Target] clienti alla nuova interfaccia utente [!UICONTROL Activities]. Le fasi successive aggiorneranno i clienti rimanenti.
 
 In base al sistema di progettazione [!DNL Adobe Spectrum] più recente, l&#39;aggiornamento standardizza i modelli di progettazione precedentemente incoerenti, aggiungendo nuovi miglioramenti, ad esempio:
 
@@ -63,7 +70,11 @@ In base al sistema di progettazione [!DNL Adobe Spectrum] più recente, l&#39;ag
 
 ![Aggiornamento interfaccia utente di Recommendations](/help/main/r-release-notes/assets/recs-ui-refresh.png)
 
-## Aggiornamento dell&#39;interfaccia utente di [!UICONTROL Offers Library] (9 gennaio 2025)
+## Target Standard/Premium 25.1.1 (venerdì 9 gennaio 2025)
+
+Questa versione include i seguenti aggiornamenti:
+
+### Aggiornamento dell&#39;interfaccia utente di [!UICONTROL Offers Library]
 
 Per migliorare l&#39;esperienza utente per [!DNL Adobe Target] utenti, questa versione aggiorna l&#39;interfaccia utente di [!UICONTROL Offers Library].
 
