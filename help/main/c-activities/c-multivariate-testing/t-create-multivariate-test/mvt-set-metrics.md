@@ -4,7 +4,7 @@ description: Scopri come specificare le metriche in un'attività  [!DNL Adobe Ta
 title: Come si impostano le metriche obiettivo in un'attività [!UICONTROL Multivariate Test] (MVT)?
 feature: Multivariate Tests
 exl-id: 8530b3f1-5daa-4a03-a482-93b10eb23208
-source-git-commit: 6c00224e814abb33cdf968a249bd36fb2e5ed2ed
+source-git-commit: 8f9c0ea65197fd639d463628e54db79db993c2da
 workflow-type: tm+mt
 source-wordcount: '322'
 ht-degree: 60%
@@ -20,7 +20,7 @@ Per informazioni dettagliate sulle metriche di successo, vedi [Metriche di succe
 1. Specifica l’obiettivo dell’attività.
 1. Seleziona una [metrica di successo](/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)
 
-   ![Elenco per impostare le metriche](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/mvt_metrics-list.png)
+   ![Elenco per impostare le metriche](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/mvt_metrics-list-new.png)
 
    Nella pagina [!UICONTROL Select Metrics] sono elencate le metriche di successo che è possibile scegliere per l&#39;attività. Le metriche di successo sono suddivise nelle seguenti categorie:
 
@@ -41,7 +41,7 @@ Per informazioni dettagliate sulle metriche di successo, vedi [Metriche di succe
    Per ulteriori informazioni, vedi [Metriche di successo](/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)
 
 1. (Facoltativo) Aggiungi altre metriche.
-1. Fare clic su **[!UICONTROL Continue]** al termine dell&#39;impostazione delle metriche.
+1. Fare clic su **[!UICONTROL Save and Close]** al termine dell&#39;impostazione delle metriche.
 
 Quando denomini o rinomini una metrica, i seguenti caratteri non sono consentiti:
 

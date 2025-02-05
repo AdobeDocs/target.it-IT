@@ -1,20 +1,20 @@
 ---
 keywords: regole di inclusione;criteri di inclusione;consigli;promozione;promozioni;filtro dinamico;dinamico;corrispondenza attributo entità
-description: Scopri come filtrare dinamicamente in Adobe [!DNL Target] Recommendations confrontando un pool di elementi potenziali con un elemento specifico con cui l’utente ha interagito.
+description: Scopri come filtrare dinamicamente in [!DNL Target Recommendations] confrontando un pool di elementi potenziali con un elemento specifico con cui l'utente ha interagito.
 title: Come posso filtrare in base alla corrispondenza degli attributi di entità nelle attività Recommendations?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Vedi cosa è incluso in Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."
 feature: Recommendations
 exl-id: aadd3132-d590-4dc9-b01b-bedf41bc7441
-source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
+source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
 workflow-type: tm+mt
-source-wordcount: '529'
+source-wordcount: '528'
 ht-degree: 0%
 
 ---
 
 # Corrispondenza attributo entità
 
-Filtrare dinamicamente in [!DNL Adobe Target] [!DNL Recommendations] confrontando un pool di potenziali elementi di consigli con un elemento specifico con cui l&#39;utente ha interagito.
+Filtrare dinamicamente in [!DNL Adobe Target Recommendations] confrontando un pool di potenziali elementi di consigli con un elemento specifico con cui l&#39;utente ha interagito.
 
 >[!NOTE]
 >
@@ -22,9 +22,9 @@ Filtrare dinamicamente in [!DNL Adobe Target] [!DNL Recommendations] confrontand
 
 Ad esempio, per consigliare solo gli articoli con lo stesso marchio dell’articolo corrente, come nell’esempio seguente:
 
-Se la mbox su una pagina di destinazione del marchio restituisce `entity.brand=brandA`, in tale pagina vengono restituiti e visualizzati solo i prodotti del marchio A. Analogamente, nella pagina di destinazione del marchio per il Marchio B vengono restituiti solo i prodotti del Marchio B. Con questo tipo di regola di inclusione dinamica, l’utente deve specificare una sola regola di consigli che restituisca risultati di marchio rilevanti in tutte le pagine del marchio, invece di specificare una raccolta o un filtro statico che corrisponda a ciascun nome di marchio.
+Se la mbox su una pagina di destinazione del marchio restituisce `entity.brand=brandA`, in tale pagina vengono restituiti e visualizzati solo i prodotti del marchio A. Analogamente, nella pagina di destinazione del marchio per il Marchio B vengono restituiti solo i prodotti del Marchio B. Con questo tipo di regola di inclusione dinamica, l’utente deve specificare una sola regola di consigli che restituisca risultati di brand rilevanti in tutte le pagine del brand, anziché specificare una raccolta o un filtro statico che corrisponda a ciascun nome di brand.
 
-Tieni presente che per funzionare è necessario consegnare `entity.brand` nella mbox in tali pagine di destinazione.
+Affinché questo processo funzioni, devi consegnare `entity.brand` nella mbox su tali pagine di destinazione.
 
 ## Esempi di corrispondenza attributo entità
 
@@ -58,7 +58,7 @@ Se si visualizza la pagina di un prodotto del Marchio B, il valore `entity.brand
 
 Supponiamo di essere un rivenditore di abbigliamento e di voler incoraggiare gli utenti a considerare articoli più costosi e, quindi, più redditizi. Puoi utilizzare gli operatori &quot;è uguale a&quot; ed &quot;è tra&quot; per promuovere articoli più costosi della stessa categoria e dello stesso marchio. Ad esempio, un rivenditore di calzature può promuovere scarpe da corsa più costose nel tentativo di vendere un visitatore che cerca scarpe da corsa, come nell’esempio seguente:
 
-![Upselling](/help/main/c-recommendations/c-algorithms/assets/upsell.png)
+![Upselling](/help/main/c-recommendations/c-algorithms/assets/upsell-new.png)
 
 ```
 Entity Attribute Matching
@@ -75,7 +75,8 @@ value - is between - 100% and 1000% of - current item's - value
 
 Puoi combinare filtri dinamici e statici per promuovere i prodotti con marchio privato. Ad esempio, un&#39;azienda di forniture per ufficio può promuovere le cartucce di toner del marchio del distributore per promuovere una vendita più redditizia per un visitatore che osserva il toner e promuovere le penne del marchio del distributore per promuovere una vendita più redditizia per un visitatore che osserva le penne, come nel seguente esempio:
 
-![Marchio casa](/help/main/c-recommendations/c-algorithms/assets/housebrand.png)
+![Marchio casa](/help/main/c-recommendations/c-algorithms/assets/housebrand-new.png)
+)
 
 ```
 Entity Attribute Matching

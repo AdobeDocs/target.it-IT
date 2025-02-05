@@ -5,16 +5,16 @@ title: Come posso amministrare Target?
 feature: Administration & Configuration
 role: Admin
 exl-id: 89023213-b109-4d07-af4e-4b8da481806d
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 974746e25724abf0e5edd3884331ec0975e5352e
 workflow-type: tm+mt
-source-wordcount: '92'
-ht-degree: 11%
+source-wordcount: '89'
+ht-degree: 13%
 
 ---
 
 # Panoramica sull&#39;amministrazione di [!DNL Target]
 
-Informazioni su come amministrare [!DNL Adobe Target], incluse le impostazioni di configurazione per il Compositore esperienza visivo, il reporting, la configurazione di Scene7, l&#39;implementazione, gli host, gli ambienti, i token di risposta e gli utenti.
+Informazioni su come amministrare [!DNL Adobe Target], incluse le impostazioni di configurazione per il Compositore esperienza visivo, il reporting, la configurazione di Scene7, l&#39;implementazione, gli host, gli ambienti, i token di risposta, gli utenti e [!DNL Recommendations].
 
 Per accedere alle voci di menu [!UICONTROL Administration], fai clic su **[!UICONTROL Administration]** nella barra dei menu superiore, quindi fai clic sulla scheda desiderata lungo il lato sinistro:
 
@@ -27,5 +27,4 @@ Per accedere alle voci di menu [!UICONTROL Administration], fai clic su **[!UICO
 * [Ambienti](/help/main/administrating-target/environments.md)
 * [Token di risposta](/help/main/administrating-target/response-tokens.md)
 * [Utenti](/help/main/administrating-target/c-user-management/user-management.md)
-
-![Menu Amministrazione di Adobe Target](/help/main/administrating-target/assets/administration.png)
+* [Recommendations](/help/main/administrating-target/recommendations-settings.md)

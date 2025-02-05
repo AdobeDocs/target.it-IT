@@ -1,84 +1,67 @@
 ---
 keywords: pubblico;selezionare il pubblico;scegliere il pubblico;audience;selettori
-description: Il pubblico determina quali visitatori del sito vengono inseriti nell'attività dell'Adobe [!DNL Target] .
+description: Definisci i visitatori del sito che partecipano all'attività di Adobe [!DNL Target]  in base ai criteri di pubblico.
 title: Come si seleziona un pubblico in un'attività  [!DNL Target] A/B?
 feature: A/B Tests
 exl-id: 281ae227-c593-4b71-ad12-865430b332be
-source-git-commit: 676350453268e4ffc04df83dcda0525842ca8b07
+source-git-commit: f6845756f9d4220214b0d9131cd5f27db2ae94a9
 workflow-type: tm+mt
-source-wordcount: '425'
-ht-degree: 64%
+source-wordcount: '526'
+ht-degree: 8%
 
 ---
 
 # Selezionare il pubblico
 
-Il pubblico determina quali visitatori del sito vengono inseriti nell&#39;attività [!DNL Adobe Target].
+Il pubblico determina quali visitatori idonei vengono inseriti nell&#39;attività [!DNL Adobe Target].
 
->[!NOTE]
->
->Oltre a selezionare un pubblico esistente, puoi combinare più tipi di pubblico per creare un pubblico combinato ad hoc anziché crearne uno nuovo. Per ulteriori informazioni, consulta [Combinazione di più tipi di pubblico](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5).
+Il passaggio [!UICONTROL Targeting] del flusso di lavoro guidato in tre parti durante la [creazione di un&#39;attività](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md) visualizza un diagramma di flusso che ti guida attraverso i passaggi per assegnare un pubblico e la relativa percentuale di traffico, selezionare il metodo di allocazione del traffico e specificare l&#39;allocazione del traffico per ogni esperienza nell&#39;attività.
 
-1. Nella casella [!UICONTROL Audience], fai clic sull&#39;icona **[!UICONTROL Edit]** (puntini di sospensione verticali), quindi fai clic su **[!UICONTROL Replace Audience]**.
+![Passaggio Targeting per Test A/B](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/ab_flow-new-ui.png)
 
-   ![Opzione Sostituisci pubblico](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/replace-audience.png)
+Per ulteriori informazioni su tutte le opzioni del diagramma di flusso, vedere [Creare un&#39;attività Test A/B](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md).
 
-   Per impostazione predefinita, il pubblico è composto da tutti i visitatori. Tuttavia, è possibile modificarlo. I tipi di pubblico vengono selezionati dalla libreria del pubblico oppure è possibile creare un pubblico per una sola attività. La libreria del pubblico contiene tipi di pubblico definiti in precedenza, inclusi alcuni di utilizzo comune già integrati in [!DNL Target].
+## Selezionare un pubblico per l’attività
 
-1. Seleziona o crea il pubblico desiderato:
+1. Fare clic sul controllo **[!UICONTROL All Visitors]** per selezionare un altro pubblico per l&#39;attività.
 
-   * Selezionare un pubblico dalla libreria
-   * [Combinare più tipi di pubblico](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5)
-   * [Creare un nuovo pubblico](/help/main/c-target/c-audiences/create-audience.md#task_1D507519D3AD4390B507F188BD294DC1)
-   * [Crea un pubblico per sola attività](/help/main/c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483).
+   Il pubblico [!UICONTROL All Visitors] è impostato come predefinito. Se selezioni un altro pubblico, il suo nome viene visualizzato nel controllo più a sinistra.
 
    Per un test A/B senza targeting di pubblico specifico, scegli il valore predefinito, [!UICONTROL All Visitors].
 
-   È inoltre possibile modificare o copiare un pubblico passando il cursore sopra il pubblico desiderato nella finestra di dialogo [!UICONTROL Add Audience], come illustrato di seguito.
+   Viene visualizzato il frame a destra, che consente di aggiungere o eliminare un pubblico e di assegnare la percentuale di visitatori per l’attività.
 
-   È utile copiare un pubblico per crearne uno simile a un pubblico esistente. Puoi effettuare una copia del pubblico, apportarvi le modifiche desiderate, e quindi salvarlo come un nuovo pubblico. Questa funzionalità esiste anche in altri tipi di attività.
+1. Per cambiare il pubblico, fai clic sull&#39;icona **[!UICONTROL Replace]** ( ![Icona Sostituisci](/help/main/assets/icons/Retweet.svg) ) nel frame a destra.
 
-   ![Pubblico al passaggio del mouse](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/audience_picker_hover-new.png)
+1. Nella finestra di dialogo [!UICONTROL Add Audience], [seleziona il pubblico desiderato](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-audience.md), quindi fai clic su **[!UICONTROL Assign Audience]**.
 
-   Durante la creazione di un pubblico, puoi selezionare una posizione (mbox) e specificarne i parametri. In [!UICONTROL Custom Parameters], seleziona la mbox, quindi specifica i parametri desiderati.
+   Per impostazione predefinita, il pubblico è composto da tutti i visitatori. Tuttavia, è possibile modificarlo. I tipi di pubblico sono selezionati da [!UICONTROL Audience Library] oppure è possibile creare un pubblico per sola attività. [!UICONTROL Audience Library] contiene tipi di pubblico definiti in precedenza, inclusi alcuni di utilizzo comune già integrati in [!DNL Target].
 
-   >[!NOTE]
-   >
-   >Quando apri l’elenco dei tipi di pubblico e questi sono stati importati da almeno 10 minuti, vengono importati automaticamente in background.
+1. (Facoltativo) Fai clic su **Combina tipi di pubblico** per [creare un pubblico che combini più tipi di pubblico](/help/main/c-target/combining-multiple-audiences.md).
 
-1. (Condizionale) Specifica la percentuale di visitatori idonei da includere nell’attività.
+1. (Condizionale) Per creare un nuovo pubblico che non è già presente in [!UICONTROL Audience Library], fai clic su **Crea pubblico**, definisci il pubblico, quindi fai clic su **[!UICONTROL Done]**.
 
-   Ad esempio, puoi scegliere di includere il 50% di tutti i visitatori.
+   Durante il flusso di lavoro [create-audience](/help/main/c-target/c-audiences/audiences.md), puoi scegliere tra le seguenti opzioni:
 
-   ![Percentuale di pubblico](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/audperc-new.png)
+   * **[!UICONTROL Audience Library]**: crea un pubblico su richiesta salvato in [!UICONTROL Audience Library] che può essere riutilizzato in altre attività.
+   * **[!UICONTROL This activity only]**: crea un [pubblico specifico per l&#39;attività](/help/main/c-target/creating-activity-only-audience.md) che non è salvato in [!UICONTROL Audience Library] e può essere utilizzato solo nell&#39;attività corrente.
 
-   Puoi anche scegliere di consentire a Target [di allocare automaticamente il traffico](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4).
+1. Fai clic su **[!UICONTROL Visitor Percentage]** nel riquadro a destra, quindi specifica la percentuale di visitatori idonei da includere nell&#39;attività.
 
-## Video di formazione
+1. Quando si è soddisfatti del pubblico, fare clic su **[!UICONTROL Next]** per passare al terzo passaggio del flusso di lavoro guidato in tre passaggi.
 
-I video seguenti contengono ulteriori informazioni sui concetti descritti in questo articolo.
+>[!NOTE]
+>
+>I tipi di pubblico vengono importati automaticamente in background quando si apre l&#39;elenco [!UICONTROL Audience] e i tipi di pubblico importati hanno più di 10 minuti.
 
-### Utilizzo dei tipi di pubblico in Adobe Target (6:21) ![Icona Panoramica](/help/main/assets/overview.png)
+## Visualizzare le informazioni di un pubblico
 
-Questo video spiega come utilizzare i tipi di pubblico in [!DNL Target Standard/Premium].
+1. Nella finestra di dialogo [!UICONTROL Add Audiences], fai clic sull&#39;icona **[!UICONTROL Information]** ( ![icona Info](/help/main/assets/icons/InfoOutline.svg) ) accanto a un pubblico per visualizzare i dettagli su tale pubblico, inclusi l&#39;origine e gli attributi.
 
-* Spiegazione del termine “pubblico”
-* Spiegazione dei due modi in cui il pubblico viene utilizzato per lʼottimizzazione
-* Trovare un pubblico nellʼelenco Tipi di pubblico
-* Indirizzare unʼattività a un pubblico
-* Utilizzare i tipi di pubblico per la reportistica passiva in un’attività
+1. Fare clic su **[!UICONTROL View Full Details]** per visualizzare ulteriori dettagli sul pubblico. I dettagli includono gli attributi del pubblico, la descrizione, l’area di lavoro, il tipo e l’origine del pubblico e un elenco di attività che fanno riferimento a tale pubblico. Puoi visualizzare informazioni su ogni pubblico, tra cui il nome dell’attività, lo stato, l’area di lavoro, la data dell’ultima modifica apportata al pubblico e chi l’ha effettuata.
 
->[!VIDEO](https://video.tv.adobe.com/v/17398)
+## Modificare o copiare un pubblico
 
-### Flusso di lavoro attività - Targeting (2:14) ![Icona esercitazione](/help/main/assets/tutorial.png)
+È possibile modificare o copiare un pubblico facendo clic sull&#39;icona [!UICONTROL More Actions] ( ![Icona Altre azioni](/help/main/assets/icons/More.svg) ) accanto al pubblico desiderato nella finestra di dialogo [!UICONTROL Add Audience], quindi facendo clic su [!UICONTROL Edit] o [!UICONTROL Copy].
 
-Questo video contiene informazioni su come impostare i tipi di pubblico.
-
-* Assegnare un pubblico all’attività
-* Limitare il traffico verso l’alto o il basso
-* Selezionare il metodo di allocazione del traffico
-* Allocare il traffico tra diverse esperienze
-
->[!VIDEO](https://video.tv.adobe.com/v/17385)
-
-Per informazioni dettagliate, consulta [Tipi di pubblico](/help/main/c-target/c-audiences/audiences.md#concept_65BE870D290E412D8BBF557EEA67C271).
+È utile copiare un pubblico per crearne uno simile a un pubblico esistente. Puoi effettuare una copia del pubblico, apportarvi le modifiche desiderate, quindi salvarlo come nuovo pubblico.

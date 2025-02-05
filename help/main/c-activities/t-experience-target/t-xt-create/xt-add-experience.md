@@ -4,10 +4,10 @@ description: Scopri come utilizzare il  [!DNL Adobe Target] [!UICONTROL Visual E
 title: Come si creano le esperienze in un'attività [!UICONTROL Experience Targeting]?
 feature: Experience Targeting
 exl-id: ec3fcd93-5557-4f69-8f9c-4d00569188ad
-source-git-commit: 0dfdd995c00961ed2aed91ec03406e8493292af7
+source-git-commit: 3a44c05bea24c622292dd0b774f88f0c93be1d88
 workflow-type: tm+mt
-source-wordcount: '883'
-ht-degree: 35%
+source-wordcount: '897'
+ht-degree: 23%
 
 ---
 
@@ -19,7 +19,7 @@ Il Compositore esperienza visivo [!UICONTROL Visual Experience Composer] in [!DN
 
    Durante la [creazione di un&#39;attività [!UICONTROL Experience Targeting]](/help/main/c-activities/t-experience-target/t-xt-create/xt-create.md), il primo passaggio del flusso di lavoro guidato in tre parti ([!UICONTROL Experiences]) visualizza il [!UICONTROL Experience A] predefinito con un pubblico [!UICONTROL All Visitors].
 
-   ![Pubblico Tutti i visitatori](/help/main/c-activities/t-experience-target/t-xt-create/assets/all-visitors.png)
+   ![Pubblico Tutti i visitatori](/help/main/c-activities/t-experience-target/t-xt-create/assets/all-visitors-new.png)
 
    Tutte le modifiche apportate ora vengono applicate a [!UICONTROL Experience A]. In un passaggio successivo, fai clic su **[!UICONTROL Add Experience Targeting]** per creare altre esperienze.
 
@@ -29,15 +29,13 @@ Il Compositore esperienza visivo [!UICONTROL Visual Experience Composer] in [!DN
    >
    >Per impostazione predefinita, il Compositore esperienza visivo non consente di modificare gli elementi contenenti JavaScript, ad esempio i banner rotanti. Puoi disattivare JavaScript per modificare tali elementi utilizzando il Compositore esperienza visivo.
 
-1. Per creare altre esperienze, fare clic su **[!UICONTROL Add Experience Targeting]**.
-
-   ![Collegamento Aggiungi targeting esperienza](/help/main/c-activities/t-experience-target/t-xt-create/assets/add-experience-targeting.png)
+1. Per creare altre esperienze, fai clic su **[!UICONTROL Add]** ( ![Aggiungi pulsante](/help/main/assets/icons/Add.svg) ).
 
    Viene visualizzata la finestra di dialogo [!UICONTROL Add Audience]. Per indirizzare un’esperienza a un pubblico, selezionalo prima di aggiungerla.
 
    La libreria del pubblico include tipi di pubblico definiti in precedenza, inclusi alcuni di utilizzo comune già integrati in [!DNL Target]. È possibile selezionare un pubblico dalla libreria o [crearne uno nuovo](/help/main/c-target/c-audiences/audiences.md#concept_65BE870D290E412D8BBF557EEA67C271).
 
-   Oltre a selezionare un pubblico esistente, puoi combinare più tipi di pubblico per creare un pubblico combinato ad hoc anziché crearne uno nuovo. Per ulteriori informazioni, consulta [Combinazione di più tipi di pubblico](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5).
+   Oltre a selezionare un pubblico esistente, puoi combinare più tipi di pubblico per creare un pubblico combinato su richiesta anziché crearne uno nuovo. Per ulteriori informazioni, consulta [Combinazione di più tipi di pubblico](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5).
 
    Durante la creazione di un pubblico, puoi selezionare una posizione e specificarne i parametri relativi. In [!UICONTROL Custom] ([!UICONTROL Create Audience] > [!UICONTROL Custom]), selezionare il percorso, quindi specificare i parametri desiderati.
 
@@ -45,11 +43,9 @@ Il Compositore esperienza visivo [!UICONTROL Visual Experience Composer] in [!DN
    >
    >I tipi di pubblico vengono importati automaticamente in background quando apri l’elenco dei tipi di pubblico e i tipi di pubblico importati hanno più di dieci minuti.
 
-1. Seleziona uno o più tipi di pubblico per eseguire il targeting dell&#39;esperienza, quindi fai clic su **[!UICONTROL Done]**.
+1. Seleziona uno o più tipi di pubblico per eseguire il targeting dell&#39;esperienza, quindi fai clic su **[!UICONTROL Assign Audience]**.
 
-   ![Esperienza B](/help/main/c-activities/t-experience-target/t-xt-create/assets/experience-b.png)
-
-   L’esperienza B ora viene visualizzata nell’illustrazione precedente ed è destinata al pubblico dei visitatori degli Stati Uniti.
+   L’esperienza B ora viene visualizzata nell’illustrazione precedente ed è destinata al pubblico appropriato.
 
 1. Seleziona gli elementi da modificare per questa esperienza e apporta le modifiche desiderate, come spiegato nel precedente passaggio 1.
 
@@ -59,7 +55,7 @@ Il Compositore esperienza visivo [!UICONTROL Visual Experience Composer] in [!DN
 
    Il diagramma dell’attività mostra quanto segue:
 
-   ![Diagramma di Targeting esperienza](/help/main/c-activities/t-experience-target/t-xt-create/assets/xt_diagram-new.png)
+   ![Diagramma di Targeting esperienza](/help/main/c-activities/t-experience-target/t-xt-create/assets/xt_diagram-refresh.png)
 
    >[!NOTE]
    >
@@ -67,38 +63,28 @@ Il Compositore esperienza visivo [!UICONTROL Visual Experience Composer] in [!DN
 
 1. (Facoltativo) Trascina e rilascia le coppie di pubblico ed esperienza durante la creazione o la modifica di [!UICONTROL Experience Targeting] attività per disporre le coppie nell&#39;ordine desiderato.
 
-   I visitatori verranno valutati per le esperienze in ordine, dall’alto verso il basso.
+   Fai clic sull&#39;icona Riordina ( ![icona Riordina](/help/main/assets/icons/Reorder.svg) ) per visualizzare la colonna [!UICONTROL Experiences] a destra, quindi ridisponi le esperienze come desiderato.
 
-   ![Spostare le esperienze](/help/main/c-activities/t-experience-target/t-xt-create/assets/move_experiences-new.png)
+   I visitatori verranno valutati per le esperienze in ordine, dall’alto verso il basso.
 
    [!UICONTROL Experience Targeting] presuppone che l&#39;ordine sia importante. Se un visitatore rientra nella prima coppia di pubblico ed esperienza, viene distribuita la prima esperienza.
 
-   Si supponga, ad esempio, di non sapere che l&#39;ordine è importante durante la creazione di un&#39;attività [!UICONTROL Experience Targeting]. Successivamente, ti rendi conto durante i test che i visitatori che ritenevi più idonei per le esperienze B o C sono invece qualificati per l&#39;esperienza A. Questo potrebbe essere perché i tipi di pubblico non si escludono a vicenda e non sono nell&#39;ordine corretto (per esempio, esperienza A = Stati Uniti, esperienza B = San Francisco ed esperienza C = California). In questo scenario, tutti gli utenti degli Stati Uniti si qualificano per l&#39;esperienza A, anche se si trovano a San Francisco o altrove in California. Puoi riordinare le coppie di pubblico ed esperienza dalla più restrittiva alla meno restrittiva (San Francisco > California > Stati Uniti) senza ricreare l’intera attività.
+   Si supponga, ad esempio, di non sapere che l&#39;ordine è importante durante la creazione di un&#39;attività [!UICONTROL Experience Targeting]. Successivamente, ti rendi conto durante i test che i visitatori che ritieni debbano qualificarsi per le esperienze B o C sono invece qualificati per l&#39;esperienza A. Questa situazione potrebbe essere dovuta al fatto che i tipi di pubblico non si escludono a vicenda e non sono nell’ordine corretto (ad esempio, esperienza A = Stati Uniti, esperienza B = San Francisco ed esperienza C = California). In questo scenario, tutti gli utenti degli Stati Uniti si qualificano per l&#39;esperienza A, anche se si trovano a San Francisco o altrove in California. Puoi riordinare le coppie di pubblico ed esperienza dalla più restrittiva alla meno restrittiva (San Francisco > California > Stati Uniti) senza ricreare l’intera attività.
 
    Se hai un pubblico [!UICONTROL All Visitors], assicurati che non sia il primo pubblico nel diagramma. Un&#39;esperienza con targeting &quot;[!UICONTROL All Visitors]&quot; può essere utilizzata come ultima esperienza nell&#39;attività [!UICONTROL Experience Targeting] per &quot;catturare&quot; i visitatori che non sono rientrati in nessun&#39;altra esperienza.
 
-## Rinominare o modificare un’esperienza
+## Rinominare, modificare, duplicare o eliminare un’esperienza
 
-Fai clic sull&#39;icona [!UICONTROL Edit] (puntini di sospensione verticali) in un&#39;esperienza in un&#39;attività [!UICONTROL Experience Targeting] e scegli tra le seguenti opzioni, a seconda delle necessità:
+Fare clic su un&#39;esperienza nel diagramma di un&#39;attività [!UICONTROL Experience Targeting] per visualizzare la colonna [!UICONTROL Experiences] sul lato destro.
 
-* [!UICONTROL Rename]
-* [!UICONTROL Edit]
+![Opzioni Rinomina e Modifica](/help/main/c-activities/t-experience-target/t-xt-create/assets/experience_edit-refresh.png)
 
-![Opzioni Rinomina e Modifica](/help/main/c-activities/t-experience-target/t-xt-create/assets/experience_edit-new.png)
+Scegli una delle seguenti opzioni, a seconda delle necessità:
 
-## Eliminare un’esperienza
-
-Nella pagina **[!UICONTROL Experiences]** (il primo passaggio del flusso di lavoro guidato in tre passaggi), fai clic sui puntini di sospensione verticali > **[!UICONTROL Delete]**.
-
-![Eliminare un’esperienza](/help/main/c-activities/t-experience-target/t-xt-create/assets/delete-experience.png)
-
-## Duplicare un’esperienza
-
-È possibile copiare un&#39;esperienza in un&#39;attività [!UICONTROL Experience Targeting] in modo da poter apportare modifiche minori senza dover ricreare l&#39;intera esperienza.
-
-Nella pagina **[!UICONTROL Experiences]** (il primo passaggio del flusso di lavoro guidato in tre passaggi), fai clic sui puntini di sospensione verticali > **[!UICONTROL Duplicate]**.
-
-![Duplicare un’esperienza](/help/main/c-activities/t-experience-target/t-xt-create/assets/duplicate_experience-new.png)
+* **[!UICONTROL Rename]**: digitare il nome desiderato nel campo [!UICONTROL Name].
+* **[!UICONTROL Edit]**: fai clic sull&#39;icona Modifica ( ![icona Modifica](/help/main/assets/icons/Edit.svg) ), quindi apporta le modifiche desiderate.
+* **[!UICONTROL Duplicate]**: copia un&#39;esperienza in un&#39;attività [!UICONTROL Experience Targeting] in modo da poter apportare modifiche minori senza dover ricreare l&#39;intera esperienza. Fai clic sull&#39;icona [!UICONTROL Duplicate] ( ![icona Duplica](/help/main/assets/icons/Duplicate.svg) ), quindi modifica l&#39;esperienza in base alle esigenze.
+* **[!UICONTROL Delete]**: fai clic sull&#39;icona [!UICONTROL Delete] (![icona Elimina](/help/main/assets/icons/Delete.svg) ), quindi conferma l&#39;eliminazione.
 
 ## Video di formazione:
 

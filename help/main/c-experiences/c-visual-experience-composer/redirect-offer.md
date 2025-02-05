@@ -1,13 +1,13 @@
 ---
 kewords: redirect;redirect url;send to different page
-description: Scopri come utilizzare l’opzione Reindirizza all’URL nell’Adobe  [!DNL Target]  per inviare il visitatore a una pagina diversa anziché mostrare il contenuto nella stessa pagina.
+description: Scopri come utilizzare l'opzione Reindirizza all'URL in Adobe [!DNL Target] quando desideri inviare il visitatore a una pagina diversa anziché mostrare il contenuto nella stessa pagina.
 title: Posso reindirizzare una pagina a un URL diverso?
 feature: Visual Experience Composer (VEC)
 exl-id: bd448482-0079-4689-aa24-65ecbb31b8ae
-source-git-commit: b0bf54d47ac44afc3597f308ea38fd479c54026d
+source-git-commit: be9996c4dce0a3135a39fcbf0608b57b6e742ac3
 workflow-type: tm+mt
-source-wordcount: '475'
-ht-degree: 68%
+source-wordcount: '472'
+ht-degree: 66%
 
 ---
 
@@ -31,16 +31,13 @@ Le offerte di reindirizzamento implicano alcune limitazioni:
 Per creare un&#39;offerta di reindirizzamento:
 
 1. Crea un&#39;esperienza.
-1. Passa il puntatore del mouse su un&#39;esperienza con il mouse, quindi fai clic sull&#39;icona Reindirizza all&#39;URL (![icon_redirect_url image](assets/icon_redirect_url.png)).
-
-   ![immagine azioni_exp](assets/exp_actions.png)
-
-1. Digita l’URL.
+1. Dal frame [!UICONTROL Experiences], fare clic sull&#39;icona **[!UICONTROL More Actions]** ( ![Icona Altre azioni](/help/main/assets/icons/MoreSmallList.svg) ) per l&#39;esperienza desiderata.
+1. Fare clic su **[!UICONTROL Redirect to URL]**.
+1. Nella finestra di dialogo Reindirizza all&#39;URL digitare l&#39;URL.
 1. Se desiderato, seleziona l&#39;opzione per includere i parametri di query correnti.
 
    Se questa opzione è selezionata, tutto ciò che segue il carattere ? nell&#39;URL del visitatore viene aggiunto in coda all&#39;URL di reindirizzamento al momento del reindirizzamento.
 
-   Questa opzione è selezionata per impostazione predefinita.
 1. (Facoltativo) Crea regole aggiuntive.
 
    Le regole aggiuntive possono essere basate su uno dei seguenti elementi:

@@ -2,12 +2,12 @@
 keywords: Targeting;rapporto AP;rapporti di personalizzazione automatizzata;targeting automatico;auto targeting;rapporto di targeting automatico;report di targeting automatico;personalizzazione;approfondimenti;FAQ;domande frequenti;attributi importanti
 description: Scopri come utilizzare il rapporto [!UICONTROL Important Attributes] che mostra gli attributi principali che hanno influenzato il modello di personalizzazione e la loro importanza relativa.
 title: Cos’è il rapporto Attributi importanti?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Vedi cosa è incluso in Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."
 feature: Reports
 exl-id: c1069ca7-e221-4865-a82e-6cff5b4c0055
-source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
+source-git-commit: c1a71d1fb6fa9b5c14e22fa3199358a4594bb4a1
 workflow-type: tm+mt
-source-wordcount: '1790'
+source-wordcount: '1773'
 ht-degree: 56%
 
 ---
@@ -36,25 +36,20 @@ Nelle varie attività, i vari attributi possono essere più o meno importanti pe
 
 1. Fai clic su **[!UICONTROL Activities]**, quindi sull&#39;attività [Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) o [Targeting automatico](/help/main/c-activities/auto-target/auto-target-to-optimize.md) desiderata tra quelle elencate.
 
-   Se hai numerose attività, puoi filtrare l&#39;elenco selezionando le opzioni dagli elenchi a discesa [!UICONTROL Type], [!UICONTROL Status], [!UICONTROL Reporting Source], [!UICONTROL Experience Composer], [!UICONTROL Metrics Type] e [!UICONTROL Activity Source].
+   Se hai numerose attività, fai clic sull&#39;icona Filtro ( ![icona Filtro](/help/main/assets/icons/Filter.svg) ) per filtrare l&#39;elenco selezionando le opzioni dagli elenchi a discesa [!UICONTROL Type], [!UICONTROL Status], [!UICONTROL Reporting Source], [!UICONTROL Experience Composer], [!UICONTROL Metrics Type] e [!UICONTROL Activity Source].
 
 1. Fare clic su **[!UICONTROL Reports]**.
 
-   Viene visualizzato il report [Riepilogo Automated Personalization](/help/main/c-reports/personalization-reports/reports-ap.md) o [Riepilogo Targeting automatico](/help/main/c-reports/personalization-reports/auto-target-summary-report.md), che fornisce informazioni sulle prestazioni delle attività, rappresentate dall&#39;icona della prima schermata. Le due icone aggiuntive rappresentano i due report [!UICONTROL Personalization Insights]: [!UICONTROL Automated Segments] e [!UICONTROL Important Attributes].
+   Viene visualizzato il report [Riepilogo Automated Personalization](/help/main/c-reports/personalization-reports/reports-ap.md) o [Riepilogo Targeting automatico](/help/main/c-reports/personalization-reports/auto-target-summary-report.md), che fornisce informazioni sulle prestazioni delle attività, rappresentate dall&#39;icona della prima schermata. Le due icone aggiuntive rappresentano i due rapporti [!UICONTROL Personalization Insights]: **[!UICONTROL Automated Segments]** ( ![Rapporto Segmenti automatizzati](/help/main/assets/icons/AutomatedSegment.svg) ) e **[!UICONTROL Important Attributes]** ( ![Icona Attributi importanti](/help/main/assets/icons/ViewList.svg) ).
 
-   ![Rapporto di riepilogo per l&#39;attività di Automated Personalization](/help/main/c-reports/assets/summary-report-ap.png)
 
    [!UICONTROL Auto-Target] ha un&#39;ulteriore icona di grafico per la visualizzazione grafica del report [!UICONTROL Summary].
-
-   ![Rapporto di riepilogo per l&#39;attività Targeting automatico](/help/main/c-reports/assets/personalization_insights.png)
 
    >[!IMPORTANT]
    >
    >Il report [!UICONTROL Important Attributes] non sarà disponibile per almeno 15 giorni dopo l&#39;attivazione dell&#39;attività. Durante questo periodo iniziale, non potrai accedere a questo report o fare clic sull&#39;icona [!UICONTROL Important Attributes]. Trascorsi 15 giorni, supponendo che la tua attività abbia un traffico personalizzato sufficiente, il rapporto [!UICONTROL Important Attributes] è disponibile.
 
-1. A 15 giorni dall&#39;attivazione dell&#39;attività, fare clic sull&#39;icona **[!UICONTROL Important Attributes]**.
-
-   ![Icona Attributi importanti in un report Adobe Target](/help/main/c-reports/assets/model_attribute_ranking.png)
+1. A 15 giorni dall&#39;attivazione dell&#39;attività, fare clic sull&#39;icona **[!UICONTROL Important Attributes]** ( ![Attributi importanti](/help/main/assets/icons/ViewList.svg) ).
 
 1. Seleziona l&#39;intervallo di date desiderato.
 
@@ -62,17 +57,11 @@ Nelle varie attività, i vari attributi possono essere più o meno importanti pe
 
    Questi intervalli di date fissi consentono a [!UICONTROL Personalization Insights] di utilizzare un intervallo di dati sufficientemente ampio per ridurre la probabilità che si ottengano informazioni da un pattern di breve durata nell&#39;attività. Le due decisioni che puoi prendere per l&#39;intervallo di date sono “Data di fine” e “Durata”. Noterai che “Start” è inattivo. La data di inizio cambia automaticamente in base alla data di fine e alla durata selezionate.
 
-   ![Calendario in un report Adobe Target](/help/main/c-reports/assets/personalization_insights_calendar_1.png)
-
-   È possibile accedere agli intervalli di date fissi disponibili dall&#39;elenco a discesa [!UICONTROL Choose Duration].
-
-   ![Scegli l&#39;elenco a discesa Durata in un report](/help/main/c-reports/assets/personalization_insights_calendar_2.png)
+   È possibile accedere agli intervalli di date fissi disponibili dall&#39;elenco a discesa [!UICONTROL Preset Date Range].
 
 1. Esaminare i dati del report [!UICONTROL Important Attributes].
 
-   ![Rapporto Attributi importanti in Adobe Target](/help/main/c-reports/assets/model_attribute_ranking_report.png)
-
-1. (Facoltativo) [Scarica il rapporto in formato CSV](/help/main/c-reports/c-report-settings/report-settings.md#section_77E65C50BAAF4AB79242DB3A8778ADEF) per l&#39;analisi in Excel e altri programmi.
+1. (Facoltativo) Fai clic sull&#39;icona Scarica ( ![icona Scarica](/help/main/assets/icons/Download.svg) ) per [scaricare il rapporto in formato CSV](/help/main/c-reports/c-report-settings/report-settings.md#section_77E65C50BAAF4AB79242DB3A8778ADEF) per l&#39;analisi in Excel e altri strumenti.
 
    >[!NOTE]
    >
@@ -121,7 +110,7 @@ Il rapporto di Personalization Insights (sia [!UICONTROL Automated Segments] che
 
 ### Come viene creato [!UICONTROL Personalization Insights]?
 
-[!UICONTROL Personalization Insights] viene creato utilizzando una tecnica di Adobe in attesa di brevetto denominata MAGIX (Model Agnostic Globally Interpretable Explanations). Per ulteriori informazioni su MAGIX, consulta il documento pubblicato del team di ricerca di Adobi sul sito Web [arXiv.org](https://arxiv.org/abs/1706.07160).
+[!UICONTROL Personalization Insights] viene creato utilizzando una tecnica in attesa di brevetto Adobe denominata MAGIX (Model Agnostic Globally Interpretable Explanations). Per ulteriori informazioni su MAGIX, consulta il documento pubblicato del team di ricerca Adobe sul sito Web [arXiv.org](https://arxiv.org/abs/1706.07160).
 
 ### [!UICONTROL Personalization Insights] è disponibile per obiettivi di modeling/obiettivi primari basati sui ricavi?
 

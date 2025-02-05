@@ -4,16 +4,16 @@ description: Scopri come creare tipi di pubblico personalizzati e salvarli nella
 title: Come Si Creano I Tipi Di Pubblico?
 feature: Audiences
 exl-id: 59057461-d958-4d38-9725-53aacbe1f7eb
-source-git-commit: a185edee86f6d07b488cf5dd3fe7e5dc3f4e87b3
+source-git-commit: 19d2b14f137fe4dbf95e9f9f9b84f80b93d1e281
 workflow-type: tm+mt
 source-wordcount: '524'
-ht-degree: 55%
+ht-degree: 48%
 
 ---
 
 # Crea tipi di pubblico in [!DNL Target]
 
-È possibile creare tipi di pubblico personalizzati e salvarli nella libreria [!DNL Adobe Target] [!UICONTROL Audiences] per utilizzarli nelle attività. Puoi anche copiare un pubblico esistente da modificare per crearne uno simile e combinare più tipi di pubblico.
+Creare tipi di pubblico personalizzati e salvarli nella libreria [!UICONTROL Audiences] di [!DNL Adobe Target] per utilizzarli nelle attività. Puoi anche copiare un pubblico esistente da modificare per crearne uno simile e combinare più tipi di pubblico.
 
 ## Panoramica sul pubblico
 
@@ -25,13 +25,13 @@ Quando si combinano regole o parametri con OR, qualsiasi membro potenziale del p
 
 È possibile combinare entrambi gli operatori booleani per creare regole complesse. Tuttavia, gli operatori allo stesso livello di regola devono corrispondere. L&#39;interfaccia utente applica automaticamente l&#39;operatore corretto.
 
-Ad esempio, la regola seguente è destinata ai visitatori che utilizzano Chrome *oppure* Firefox su un computer Windows:
+Ad esempio, la regola seguente è destinata ai visitatori che utilizzano [!DNL Chrome] *o* [!DNL Firefox] in un computer [!DNL Windows]:
 
 ![Creare un pubblico](assets/audience_create.png)
 
 >[!NOTE]
 >
->Fai attenzione a evitare la creazione di regole che escludano tutti i potenziali membri del pubblico. Ad esempio, non è possibile che qualcuno visiti una pagina utilizzando contemporaneamente i browser Chrome *e* Firefox.
+>Fai attenzione a evitare la creazione di regole che escludano tutti i potenziali membri del pubblico. Ad esempio, non è possibile che qualcuno visiti una pagina utilizzando [!DNL Chrome] *e* [!DNL Firefox] contemporaneamente.
 
 ## Creare un tipo di pubblico
 
@@ -43,7 +43,7 @@ Ad esempio, la regola seguente è destinata ai visitatori che utilizzano Chrome 
 
    Oppure
 
-   Per copiare un pubblico esistente, dall&#39;elenco [!UICONTROL Audiences], fare clic sull&#39;icona **[!UICONTROL More Actions]** (icona con i puntini di sospensione), quindi fare clic su **[!UICONTROL Duplicate]**. Ora puoi modificare il pubblico per crearne uno simile.
+   Per copiare un pubblico esistente, dall&#39;elenco [!UICONTROL Audiences], fare clic sull&#39;icona **[!UICONTROL More Actions]** ( ![icona Altre azioni](/help/main/assets/icons/MoreSmallListVert.svg) ) per il pubblico da copiare, quindi fare clic su **[!UICONTROL Duplicate]**. Ora puoi modificare il pubblico per crearne uno simile.
 
 1. Digita un nome descrittivo e univoco per il pubblico e una descrizione facoltativa.
 
@@ -55,7 +55,7 @@ Ad esempio, la regola seguente è destinata ai visitatori che utilizzano Chrome 
 
    `;=  ;+  ;-  ;@  ,=  ,+  ,-  ,@  ["  "]  ['  ]'`
 
-1. Trascina e rilascia gli attributi desiderati dall&#39;elenco **[!UICONTROL Attributes]** a destra del riquadro generatore di pubblico.
+1. Trascina e rilascia gli attributi desiderati dall&#39;elenco **[!UICONTROL Attributes]** a sinistra al riquadro generatore di pubblico.
 
    ![Trascina e rilascia gli attributi](assets/drag-attribute.png)
 
@@ -63,7 +63,7 @@ Ad esempio, la regola seguente è destinata ai visitatori che utilizzano Chrome 
 
 1. Definisci i parametri della regola.
 
-   Ad esempio, il pubblico seguente include i visitatori dello Utah che utilizzano il sistema operativo Macintosh.
+   Ad esempio, il pubblico seguente include i visitatori dello Utah che utilizzano il sistema operativo [!DNL Macintosh].
 
    ![Pubblico Utah/Macintosh](assets/adience-builder.png)
 

@@ -2,14 +2,14 @@
 keywords: esperienza;controllo;personalizzazione automatizzata;target automatico
 description: Scopri come selezionare un'esperienza da utilizzare come controllo durante la creazione di un'attività [!UICONTROL Automated Personalization] (AP) o [!UICONTROL Auto-Target] in [!DNL Adobe Target].
 title: Come posso utilizzare un'esperienza specifica come controllo in un'attività [!UICONTROL Automated Personalization]?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Vedi cosa è incluso in Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."
 feature: Automated Personalization, Auto-Target
 solution: Target,Analytics
 exl-id: a0a36ace-3cba-4d8d-9bbd-e35204ff6453
-source-git-commit: 29f8c19e24443e84b8d900f630495d163530f80e
+source-git-commit: 3a44c05bea24c622292dd0b774f88f0c93be1d88
 workflow-type: tm+mt
-source-wordcount: '737'
-ht-degree: 42%
+source-wordcount: '768'
+ht-degree: 39%
 
 ---
 
@@ -30,8 +30,15 @@ Nelle attività [!UICONTROL Automated Personalization] e [!UICONTROL Auto-Target
 ## Specificare come controllo un’esperienza specifica
 
 1. Durante la creazione o la modifica di un&#39;attività [[!UICONTROL Automated Personalization]](/help/main/c-activities/t-automated-personalization/create-ap-activity.md) o [[!UICONTROL Auto-Target]](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-audience.md), configurare le esperienze in base alle proprie esigenze.
-1. Nella pagina [!UICONTROL Targeting] (passaggio 2 del flusso di lavoro guidato in tre parti), selezionare l&#39;esperienza desiderata come controllo.
-1. Specifica la percentuale di traffico da allocare all’esperienza di controllo e alle altre esperienze.
+1. Nella pagina [!UICONTROL Targeting] (passaggio 2 del flusso di lavoro guidato in tre parti), fare clic sull&#39;esperienza di controllo per visualizzare le opzioni [!UICONTROL Control] nel riquadro di destra.
+
+   ![Riquadro di controllo](/help/main/c-activities/t-automated-personalization/assets/control.png)
+
+1. Dall&#39;elenco a discesa [!UICONTROL Control], selezionare [!UICONTROL Random Experience] o selezionare l&#39;esperienza che si desidera utilizzare per il controllo.
+
+1. Fare clic sul controllo [!UICONTROL Traffic Allocation], quindi specificare l&#39;allocazione del traffico desiderata per l&#39;esperienza di controllo e le altre esperienze.
+
+   ![Barra di allocazione traffico](/help/main/c-activities/t-automated-personalization/assets/traffic-allocation.png)
 
    Se usi come controllo una specifica esperienza, i valori consigliati sono dal 10% al 30%.
 

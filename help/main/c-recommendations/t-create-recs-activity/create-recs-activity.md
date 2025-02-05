@@ -1,48 +1,44 @@
 ---
 keywords: creare consigli;attività consigli;nuovi consigli;panoramica consigli
-description: Scopri come utilizzare il Compositore esperienza visivo di Adobe [!DNL Target] per creare un'attività di Recommendations direttamente su una pagina abilitata per  [!DNL Target].
-title: Come si crea un’attività Recommendations?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Vedi cosa è incluso in Target Premium."
+description: Scopri come utilizzare il Compositore esperienza visivo  [!DNL Target] [!UICONTROL Visual Experience Composer] per creare un'attività  [!DNL Recommendations] .
+title: Come si crea un'attività  [!DNL Recommendations] ?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."
 feature: Recommendations
 exl-id: c83073d5-f852-4f09-8343-e4658fbf6f43
-source-git-commit: 3c687b2d28f576a60951c8bb10434250104500b4
+source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
 workflow-type: tm+mt
-source-wordcount: '1249'
-ht-degree: 54%
+source-wordcount: '1176'
+ht-degree: 51%
 
 ---
 
-# Creare un’attività Consigli
+# Crea un&#39;attività [!DNL Recommendations]
 
-Utilizza il Compositore esperienza visivo di Target per creare attività Consigli direttamente su una pagina abilitata per Target e modificare parti della pagina in Target.
+Utilizzare il Compositore esperienza visivo [!DNL Target] [!UICONTROL Visual Experience Composer] per creare un&#39;attività [!DNL Recommendations] direttamente in una pagina abilitata per [!DNL Target] e modificare parti della pagina in [!DNL Target].
 
 1. Fare clic su **[!UICONTROL Activities]** > **[!UICONTROL Create Activity]** > **[!UICONTROL Recommendations]**.
 
-1. Selezionare **[!UICONTROL Visual (Default)]**, se necessario.
+1. Selezionare **[!UICONTROL Visual]**, se necessario.
 
-   ![Finestra di dialogo Crea attività di Recommendations](/help/main/c-recommendations/t-create-recs-activity/assets/DB_NewRecAct.png)
-
-   Se preferisci utilizzare il Compositore esperienza basato su moduli, seleziona [!UICONTROL Form]. Per ulteriori informazioni, consulta [Compositore esperienza basato su moduli](/help/main/c-experiences/form-experience-composer.md).
+   Se preferisci utilizzare [!UICONTROL Form-Based Experience Composer], seleziona [!UICONTROL Form]. Per ulteriori informazioni, consulta [Compositore esperienza basato su moduli](/help/main/c-experiences/form-experience-composer.md).
 
    >[!NOTE]
    >
-   >Oltre al Compositore esperienza visivo e al Compositore esperienza basato su moduli, Target offre anche il Compositore esperienza visivo per applicazione a pagina singola e quello per app mobili. Per ulteriori informazioni sui vari moduli di composizione, consulta [Esperienze e offerte](/help/main/c-experiences/experiences.md).
+   >Oltre al Compositore esperienza visivo e a [!UICONTROL Form-Based Experience Composer], [!DNL Target] offre il Compositore esperienza visivo [!UICONTROL Single Page Application]. Per ulteriori informazioni sui vari moduli di composizione, consulta [Esperienze e offerte](/help/main/c-experiences/experiences.md).
    >
    >Per informazioni sulla risoluzione dei problemi relativi al Compositore esperienza visivo, consulta [Risoluzione dei problemi relativi al Compositore esperienza visivo](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md).
-   >
-   >L&#39;opzione [!UICONTROL [Choose Workplace]](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) nell&#39;illustrazione precedente è una funzionalità di [Target Premium](/help/main/c-intro/intro.md). Se la tua organizzazione dispone di una licenza Target Standard, questa opzione non è disponibile.
 
-1. (Condizionale) Se sei un cliente [Target Premium](/help/main/c-intro/intro.md#premium), scegli un’[area di lavoro](/help/main/administrating-target/c-user-management/property-channel/property-channel.md).
+1. (Condizionale) Scegli un&#39;[area di lavoro](/help/main/administrating-target/c-user-management/property-channel/property-channel.md).
 
-1. Specificare un URL attività, quindi fare clic su **[!UICONTROL Next]**.
+1. Specificare un URL attività, quindi fare clic su **[!UICONTROL Create]**.
 
    >[!NOTE]
    >
    >[!DNL Target] non distingue tra protocolli URL ([!DNL https] e [!DNL http]). Di conseguenza, [!DNL `http://www.adobe.com`] e [!DNL `https://wwww.adobe.com`] corrispondono entrambi.
 
-   L’URL dell’attività è la pagina in cui verranno visualizzati i consigli.
+   L’URL attività è la pagina in cui vengono visualizzati i consigli.
 
-   Quando fai clic su [!UICONTROL Next], viene aperto il Compositore esperienza visivo e viene visualizzata la pagina. Puoi sostituire un elemento corrente con i consigli oppure inserirli.
+   Quando fai clic su [!UICONTROL Create], viene aperto il Compositore esperienza visivo e viene visualizzata la pagina. Puoi sostituire un elemento corrente con i consigli oppure inserirli.
 
 1. Fai clic su un elemento nella pagina; quindi, se i consigli sono disponibili nella posizione in cui si trova l&#39;elemento, fai clic su **[!UICONTROL Replace w/ Recommendations]**, **[!UICONTROL Insert Recommendations Before]** o **[!UICONTROL Insert Recommendations After]**.
 

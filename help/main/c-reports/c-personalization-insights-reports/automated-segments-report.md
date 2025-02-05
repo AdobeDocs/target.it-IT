@@ -2,13 +2,13 @@
 keywords: Targeting;rapporto AP;rapporti di personalizzazione automatizzata;targeting automatico;targeting automatico;rapporto di targeting automatico;report di targeting automatico;personalizzazione;approfondimenti;segmenti automatizzati;FAQ;domande frequenti
 description: Scopri in che modo i diversi segmenti definiti dai modelli di personalizzazione Adobe [!DNL Target] rispondono alle offerte o esperienze dell'attività visualizzando il rapporto Segmenti automatizzati.
 title: Cos’è il rapporto Segmenti automatizzati?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Vedi cosa è incluso in Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."
 feature: Reports
 exl-id: d21517b7-770b-4618-9899-7ac4948c2a8b
-source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
+source-git-commit: c1a71d1fb6fa9b5c14e22fa3199358a4594bb4a1
 workflow-type: tm+mt
-source-wordcount: '2080'
-ht-degree: 60%
+source-wordcount: '2066'
+ht-degree: 59%
 
 ---
 
@@ -18,7 +18,7 @@ Informazioni sul report [!UICONTROL Automated Segments], uno dei due report spec
 
 >[!NOTE]
 >
->Quando si utilizzano i rapporti Approfondimenti Personalization, considera quanto segue:
+>Quando si utilizzano i report [!UICONTROL Personalization Insights], tenere presente quanto segue:
 >
 >* Le attività di AP e AT sono disponibili come parte della soluzione [!DNL Target Premium]. Non sono disponibili in [!DNL Target Standard] senza una licenza di [!DNL Target Premium].
 >
@@ -36,13 +36,11 @@ I vari visitatori rispondono in modo diverso alle offerte/esperienze nell&#39;at
 
 1. Fai clic su **[!UICONTROL Activities]**, quindi sull&#39;attività [Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) o [Targeting automatico](/help/main/c-activities/auto-target/auto-target-to-optimize.md) desiderata tra quelle elencate.
 
-   Se hai numerose attività, puoi filtrare l&#39;elenco selezionando le opzioni dagli elenchi a discesa [!UICONTROL Type], [!UICONTROL Status], [!UICONTROL Property], [!UICONTROL Reporting Source], [!UICONTROL Experience Composer], [!UICONTROL Metrics Type] e [!UICONTROL Activity Source].
+   Se hai numerose attività, fai clic sull&#39;icona Filtro ( ![icona Filtro](/help/main/assets/icons/Filter.svg) ) per filtrare l&#39;elenco selezionando le opzioni dagli elenchi a discesa [!UICONTROL Type], [!UICONTROL Status], [!UICONTROL Reporting Source], [!UICONTROL Experience Composer], [!UICONTROL Metrics Type] e [!UICONTROL Activity Source].
 
 1. Fare clic su **[!UICONTROL Reports]**.
 
-   Viene visualizzato il report [Riepilogo Automated Personalization](/help/main/c-reports/personalization-reports/reports-ap.md) o [Riepilogo Targeting automatico](/help/main/c-reports/personalization-reports/auto-target-summary-report.md), che fornisce informazioni sulle prestazioni delle attività, rappresentate dall&#39;icona della prima schermata. Le altre due icone rappresentano i due rapporti di Registri di personalizzazione: Segmenti automatizzati e Attributi importanti. Il Targeting automatico ha un&#39;icona di grafico aggiuntiva per la visualizzazione grafica del report [!UICONTROL Summary].
-
-   ![Rapporto Approfondimenti Personalization in Adobe Target](/help/main/c-reports/assets/personalization_insights.png)
+   Viene visualizzato il report [Riepilogo Automated Personalization](/help/main/c-reports/personalization-reports/reports-ap.md) o [Riepilogo Targeting automatico](/help/main/c-reports/personalization-reports/auto-target-summary-report.md), che fornisce informazioni sulle prestazioni delle attività, rappresentate dall&#39;icona della prima schermata. Le due icone aggiuntive rappresentano i due rapporti [!UICONTROL Personalization Insights]: **[!UICONTROL Automated Segments]** ( ![Rapporto Segmenti automatizzati](/help/main/assets/icons/AutomatedSegment.svg) ) e **[!UICONTROL Important Attributes]** ( ![Icona Attributi importanti](/help/main/assets/icons/ViewList.svg) ). Il Targeting automatico ha un&#39;icona di grafico aggiuntiva per la visualizzazione grafica del report [!UICONTROL Summary].
 
    >[!IMPORTANT]
    >
@@ -50,23 +48,15 @@ I vari visitatori rispondono in modo diverso alle offerte/esperienze nell&#39;at
 
 1. A 15 giorni dall&#39;attivazione dell&#39;attività, puoi fare clic sull&#39;icona **[!UICONTROL Automated Segments]**.
 
-   ![Icona Segmenti automatizzati](/help/main/c-reports/assets/icon-automated-sements.png)
-
 1. Seleziona l&#39;intervallo di date desiderato.
 
    A differenza del rapporto [!UICONTROL Summary] (rapporto sulle prestazioni), [!UICONTROL Personalization Insights], incluso [!UICONTROL Automated Segments], è disponibile solo per intervalli di date fissi: 15 giorni, 30 giorni e 60 giorni. Questi intervalli di date fissi consentono a [!UICONTROL Personalization Insights] di utilizzare un intervallo di dati sufficientemente ampio per ridurre la probabilità che si ottengano informazioni da un pattern di breve durata nell&#39;attività. Le due decisioni che puoi prendere per l&#39;intervallo di date sono “Data di fine” e “Durata”. Noterai che &quot;Start&quot; è inattivo. La data di inizio cambia automaticamente in base alla data di fine e alla durata selezionate.
 
-   ![Calendario nel report di Adobe Target](/help/main/c-reports/assets/personalization_insights_calendar_1.png)
-
-   È possibile accedere agli intervalli di date fissi disponibili dall&#39;elenco a discesa [!UICONTROL Choose Duration].
-
-   ![Elenco a discesa Durata in Adobe Target](/help/main/c-reports/assets/personalization_insights_calendar_2.png)
+   È possibile accedere agli intervalli di date fissi disponibili dall&#39;elenco a discesa [!UICONTROL Preset Date Range].
 
 1. Esaminare i dati del report [!UICONTROL Automated Segments].
 
-   ![Rapporto Segmenti automatizzati](/help/main/c-reports/assets/automated_segments_report.png)
-
-1. (Facoltativo) [Scarica il rapporto in formato CSV](/help/main/c-reports/c-report-settings/report-settings.md#section_77E65C50BAAF4AB79242DB3A8778ADEF) per l&#39;analisi in Excel e altri programmi.
+1. (Facoltativo) Fai clic sull&#39;icona **[!UICONTROL Download]** ( ![Icona Scarica](/help/main/assets/icons/Download.svg) ) per [scaricare il rapporto in formato CSV](/help/main/c-reports/c-report-settings/report-settings.md#section_77E65C50BAAF4AB79242DB3A8778ADEF) per l&#39;analisi in Excel e altri strumenti.
 
    >[!NOTE]
    >
@@ -106,7 +96,7 @@ Ci sono diversi motivi per cui i report [!UICONTROL Personalization Insights] no
 
 * Non sono trascorsi 15 giorni dall’attivazione dell’attività. I rapporti di Segmenti automatizzati e Attributi importanti non saranno disponibili per almeno 15 giorni dopo l&#39;attivazione dell&#39;attività. Durante questo periodo iniziale, non potrai accedere a questi rapporti o fare clic sulle icone di Segmenti automatizzati e Attributi importanti.
 * L&#39;attività non ha avuto traffico a sufficienza durante l’arco temporale specificato. Trascorsi 15 giorni, supponendo che la tua attività abbia un traffico personalizzato sufficiente, saranno disponibili i rapporti Segmenti automatizzati e Attributi importanti.
-* L&#39;attività ha un obiettivo di ottimizzazione dei profitti. Attualmente, [!UICONTROL Personalization Insights] è disponibile solo per le attività con obiettivo di ottimizzazione della conversione. Ad Adobe, in una versione futura verrà aggiunto il supporto per le attività con obiettivo di ottimizzazione dei ricavi.
+* L&#39;attività ha un obiettivo di ottimizzazione dei profitti. Attualmente, [!UICONTROL Personalization Insights] è disponibile solo per le attività con obiettivo di ottimizzazione della conversione. In una versione futura, Adobe aggiungerà il supporto per le attività con obiettivo di ottimizzazione dei ricavi.
 
 **Cos&#39;è un attributo?**
 
@@ -148,7 +138,7 @@ Il rapporto di Personalization Insights (sia [!UICONTROL Automated Segments] che
 
 **Come viene creato [!UICONTROL Personalization Insights]?**
 
-[!UICONTROL Personalization Insights] viene creato utilizzando una tecnica di Adobe in attesa di brevetto denominata MAGIX (Model Agnostic Globally Interpretable Explanations). Per ulteriori informazioni su MAGIX, consulta il documento pubblicato del team di ricerca di Adobi sul sito Web [arXiv.org](https://arxiv.org/abs/1706.07160).
+[!UICONTROL Personalization Insights] viene creato utilizzando una tecnica in attesa di brevetto Adobe denominata MAGIX (Model Agnostic Globally Interpretable Explanations). Per ulteriori informazioni su MAGIX, consulta il documento pubblicato del team di ricerca Adobe sul sito Web [arXiv.org](https://arxiv.org/abs/1706.07160).
 
 **Perché i dati sul traffico totale dei visitatori nel report [!UICONTROL Automated Segments] non corrispondono al report di riepilogo/prestazioni di Personalizzazione automatizzata (AP) o Targeting automatico (AT)?**
 
@@ -160,7 +150,7 @@ No, c&#39;è una sovrapposizione tra i segmenti automatizzati.
 
 **[!UICONTROL Personalization Insights] è disponibile per obiettivi di modeling/obiettivi primari basati sui ricavi?**
 
-Al momento, [!UICONTROL Personalization Insights] è disponibile solo per le attività con obiettivo di ottimizzazione della conversione. Ad Adobe, in una versione futura verrà aggiunto il supporto per le attività con obiettivo di ottimizzazione dei ricavi.
+Al momento, [!UICONTROL Personalization Insights] è disponibile solo per le attività con obiettivo di ottimizzazione della conversione. In una versione futura, Adobe aggiungerà il supporto per le attività con obiettivo di ottimizzazione dei ricavi.
 
 **Come posso sfruttare le informazioni in Registri di personalizzazione?**
 

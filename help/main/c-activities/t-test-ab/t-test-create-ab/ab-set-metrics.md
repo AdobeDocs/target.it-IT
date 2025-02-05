@@ -1,13 +1,13 @@
 ---
 keywords: A/B;metriche di attività;metriche;configurare metriche;metriche obiettivo;impostazioni attività;metrica successo;conversione;ricavi;impegno
-description: Scopri come specificare le metriche in un'attività  [!DNL Adobe Target] A/B per determinare quando una visita ha esito positivo, ad esempio [!UICONTROL Conversion], [!UICONTROL Revenue] e [!UICONTROL Engagement].
+description: Scopri come impostare le metriche in un’attività A/B per determinare il successo della visita, inclusi [!UICONTROL Conversion], [!UICONTROL Revenue] e [!UICONTROL Engagement].
 title: Come si impostano le metriche dell’obiettivo in un’attività A/B?
 feature: A/B Tests
 exl-id: 9e9e8787-c0cd-4aab-bd2d-0e9591e0a07d
-source-git-commit: 2d5272a852dc879e7307695744b70afe7fee9a38
+source-git-commit: eb7e892a85fa3952ffc22172085d421756d0dfb5
 workflow-type: tm+mt
-source-wordcount: '322'
-ht-degree: 59%
+source-wordcount: '284'
+ht-degree: 58%
 
 ---
 
@@ -17,9 +17,7 @@ Utilizzare le metriche in un&#39;attività A/B [!DNL Adobe Target] per determina
 
 Per informazioni dettagliate sulle metriche di successo, vedi [Metriche di successo](/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924).
 
-1. Nella sezione **[!UICONTROL Reporting Settings]** della pagina **[!UICONTROL Goals & Settings]**, seleziona una [metrica di successo](/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)
-
-   ![Selezionare una metrica di successo](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/ab_metrics-new.png)
+1. Nella sezione **[!UICONTROL Reporting Settings]** della pagina **[!UICONTROL Goals & Settings]**, selezionare una [metrica di successo](/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924).
 
    L&#39;opzione [!UICONTROL Select Metrics] elenca le metriche di successo che è possibile scegliere per l&#39;attività. Le metriche di successo sono suddivise nelle seguenti categorie:
 
@@ -53,13 +51,3 @@ Quando denomini o rinomini una metrica, i seguenti caratteri non sono consentiti
 | + | Più |
 | - | Meno |
 | @ | Chiocciola |
-
-## Video di formazione: Metriche attività (7:43) ![Icona esercitazione](/help/main/assets/tutorial.png)
-
-Questo video contiene informazioni su come utilizzare le metriche di successo.
-
-* Le metriche per “Obiettivo”
-* Concetti e creazione di metriche per conversione, ricavi e coinvolgimento
-* Creazione di una metrica di tracciamento dei clic
-
->[!VIDEO](https://video.tv.adobe.com/v/17380)

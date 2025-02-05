@@ -4,10 +4,10 @@ description: Scopri le metriche di successo in Adobe [!DNL Target] che ti aiutan
 title: Cosa Sono Le Metriche Di Successo?
 feature: Success Metrics
 exl-id: 38d5314d-4950-4106-a058-0d221faf5a24
-source-git-commit: b0bf54d47ac44afc3597f308ea38fd479c54026d
+source-git-commit: 8f9c0ea65197fd639d463628e54db79db993c2da
 workflow-type: tm+mt
-source-wordcount: '1188'
-ht-degree: 43%
+source-wordcount: '1190'
+ht-degree: 41%
 
 ---
 
@@ -57,9 +57,9 @@ Alcune metriche, come [!UICONTROL Custom Scoring] e [!UICONTROL Revenue Per Visi
 
 Con le impostazioni avanzate puoi gestire il modo in cui viene misurato il successo. Le opzioni includono l’aggiunta delle dipendenze, la scelta di mantenere l’utente nell’attività o rimuoverlo e se contare la metrica una volta per partecipante o su ogni impression.
 
-Per accedere alle opzioni [!UICONTROL Advanced Settings], fare clic su **[!UICONTROL vertical ellipses]** > **[!UICONTROL Advanced Settings]**.
+Per accedere alle opzioni [!UICONTROL Advanced Settings], fai clic sull&#39;icona **[!UICONTROL More Actions]** ( ![Icona Altre azioni](/help/main/assets/icons/MoreSmallListVert.svg) ), quindi fai clic su **[!UICONTROL Advanced Settings]**.
 
-![Menu Impostazioni avanzate](/help/main/c-activities/r-success-metrics/assets/advanced-settings.png)
+![Menu Impostazioni avanzate](/help/main/c-activities/r-success-metrics/assets/advanced-settings-refresh.png)
 
 >[!NOTE]
 >
@@ -68,8 +68,6 @@ Per accedere alle opzioni [!UICONTROL Advanced Settings], fare clic su **[!UICON
 ### Aggiungi dipendenza
 
 Puoi utilizzare le impostazioni avanzate per creare metriche di successo dipendenti, incrementando una metrica solo se un visitatore ha già raggiunto un’altra metrica.
-
-![Aggiungi dipendenza](/help/main/c-activities/r-success-metrics/assets/UI_dep_success_metric.png)
 
 Ad esempio, potresti rendere valida una conversione di test solo se un visitatore fa clic sull’offerta o raggiunge una determinata pagina prima della conversione.
 
@@ -83,7 +81,7 @@ La funzionalità di dipendenza *non* è supportata per:
 Le metriche di successo dipendenti non verranno convertite nei seguenti casi:
 
 * Se crei una dipendenza circolare in cui metric1 dipende da metric2 e metric2 dipende da metric1, nessuna delle due metriche viene convertita.
-* Le attività di Personalizzazione automatizzata rilasciano gli utenti e riavviano l’attività una volta raggiunte le metriche di conversione, cosicché eventuali metriche dipendenti sulla conversione non vengono convertite.
+* Le attività [!UICONTROL Automated Personalization] rilasciano gli utenti e riavviano l&#39;attività quando vengono raggiunte le metriche di conversione, pertanto le metriche dipendenti dalla metrica di conversione non verranno convertite.
 
 ### Cosa accade dopo che un utente incontra questa metrica per obiettivo?
 

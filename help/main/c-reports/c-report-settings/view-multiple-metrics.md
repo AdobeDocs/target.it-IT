@@ -4,9 +4,9 @@ description: Scopri come selezionare più metriche da visualizzare in un rapport
 title: Come si visualizzano più metriche in un rapporto?
 feature: Reports
 exl-id: 8d8aedd8-4583-4131-8ae0-df14e071940a
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: c1a71d1fb6fa9b5c14e22fa3199358a4594bb4a1
 workflow-type: tm+mt
-source-wordcount: '399'
+source-wordcount: '391'
 ht-degree: 12%
 
 ---
@@ -27,8 +27,6 @@ Tieni presente le informazioni seguenti quando lavori con più metriche nei rapp
 1. Per visualizzare un report, fare clic su **[!UICONTROL Activities]**, selezionare l&#39;attività desiderata dall&#39;elenco, quindi fare clic sulla scheda **[!UICONTROL Reports]**.
 1. Fare clic sull&#39;elenco a discesa **[!UICONTROL Report Metric]** per visualizzare gli elenchi [!UICONTROL Shown Metrics] e [!UICONTROL Hidden Metrics].
 
-   ![immagine con più_metriche](assets/multiple_metrics.png)
-
    La casella [!UICONTROL Search] consente di trovare rapidamente le metriche disponibili da aggiungere all&#39;elenco [!UICONTROL Shown Metrics].
 
    Si noti che è possibile selezionare più metriche dalle modalità [!UICONTROL Table View] e [!UICONTROL Graph View] del report.
@@ -46,10 +44,6 @@ Tieni presente le informazioni seguenti quando lavori con più metriche nei rapp
 1. Al termine, fare clic su **[!UICONTROL Save]**.
 1. (Condizionale) Quando visualizzi il report in [!UICONTROL Table View], passa il puntatore del mouse sull&#39;intestazione di colonna di una metrica per visualizzare una freccia blu. Fare clic sulla freccia per espandere la tabella e visualizzare [!UICONTROL Lift] e [!UICONTROL Confidence] per la metrica.
 
-   ![immagine tabella_metriche_multiple](assets/multiple_metrics_table.png)
-
    È possibile espandere solo una metrica/colonna alla volta. Fai nuovamente clic sulla freccia per comprimere le colonne.
 
-1. (Condizionale) Quando visualizzi il rapporto nella Vista grafico, puoi selezionare le singole metriche da visualizzare dall’elenco a discesa:
-
-   ![immagine di grafico_metriche_multiple](assets/multiple_metrics_graph.png)
+1. (Condizionale) Quando visualizzi il rapporto in [!UICONTROL Graph View], puoi selezionare singole metriche da visualizzare dall&#39;elenco a discesa.

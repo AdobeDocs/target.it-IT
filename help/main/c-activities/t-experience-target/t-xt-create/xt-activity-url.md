@@ -4,10 +4,10 @@ description: Scopri come specificare [!UICONTROL Activity URL] che determina la 
 title: Cos'è [!UICONTROL Activity URL] in un'attività [!UICONTROL Experience Targeting] (XT)?
 feature: Experience Targeting
 exl-id: 8e3be814-6ad6-4ffa-be8d-68f0cb7857b5
-source-git-commit: 24513d8cb39d38dcfbc74bf40961d5517cc90a4b
+source-git-commit: 3a44c05bea24c622292dd0b774f88f0c93be1d88
 workflow-type: tm+mt
-source-wordcount: '263'
-ht-degree: 39%
+source-wordcount: '259'
+ht-degree: 38%
 
 ---
 
@@ -27,13 +27,11 @@ ht-degree: 39%
 
 1. (Condizionale) Per visualizzare una pagina diversa dopo l’apertura del Compositore esperienza visivo, fai clic su **[!UICONTROL Configure]**, seleziona **[!UICONTROL Page Delivery]**, quindi specifica l’URL nel campo [!UICONTROL URL].
 
-   ![Finestra di dialogo Consegna pagine](/help/main/c-activities/t-experience-target/t-xt-create/assets/url-config-new.png)
-
    >[!NOTE]
    >
    >Se modifichi l’URL dopo aver apportato modifiche a una pagina per una o più esperienze, l’esperienza viene reimpostata utilizzando la nuova pagina e le modifiche apportate andranno perse.
 
-1. (Condizionale) Fare clic su **[!UICONTROL Add Template Rule]** per aggiungere altre pagine o sezioni all&#39;attività.
+1. (Condizionale) Fare clic su **[!UICONTROL Add Rule]** per aggiungere altre pagine o sezioni all&#39;attività.
 
    Le regole aggiuntive possono essere basate su uno dei seguenti elementi:
 

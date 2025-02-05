@@ -1,14 +1,14 @@
 ---
 keywords: deduplicare;consentire duplicati;escludere offerte duplicate;personalizzazione automatizzata;non consentire offerte duplicate;escludere;contenuto predefinito;gruppo di esclusione;
-description: Gestisci esclusioni nelle attività di  [!DNL Adobe Target] [!UICONTROL Automated Personalization] (AP). Crea gruppi di esclusione ed escludi le offerte duplicate, esperienze specifiche e contenuti predefiniti.
+description: Gestire le esclusioni nelle attività di [!UICONTROL Automated Personalization] (AP).
 title: Come posso gestire le esclusioni nelle attività [!UICONTROL Automated Personalization]?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Vedi cosa è incluso in Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."
 feature: Automated Personalization
 solution: Target,Analytics
 exl-id: d9e9f2a2-5914-4b81-acae-eaf388646652
-source-git-commit: b5f06878a6ca8b4c571bfe05a52bfb3f471a697e
+source-git-commit: 3a44c05bea24c622292dd0b774f88f0c93be1d88
 workflow-type: tm+mt
-source-wordcount: '922'
+source-wordcount: '915'
 ht-degree: 41%
 
 ---
@@ -27,9 +27,11 @@ Puoi anche limitare quali tipi di pubblico possono vedere offerte specifiche nel
 
 **Per creare un gruppo di esclusione:**
 
-1. Durante la [creazione o modifica di un&#39;attività di Personalizzazione automatizzata](/help/main/c-activities/t-automated-personalization/create-ap-activity.md), fare clic su **[!UICONTROL Manage Content]** nella barra dell&#39;intestazione.
+1. Durante la [creazione o modifica di un&#39;attività di Personalizzazione automatizzata](/help/main/c-activities/t-automated-personalization/create-ap-activity.md), fare clic sull&#39;icona **[!UICONTROL Manage Content]** ( ![icona Gestione contenuto](/help/main/assets/icons/Experience.svg) ).
 
-   ![Collegamento Gestione contenuto](/help/main/c-activities/t-automated-personalization/assets/manage-content.png)
+   Viene visualizzata la finestra di dialogo [!UICONTROL Manage Content].
+
+1. Fare clic sulla scheda **[!UICONTROL Experiences]**.
 
 1. Nella finestra di dialogo [!UICONTROL Manage Content] fare clic su **[!UICONTROL Exclusion Groups]**.
 

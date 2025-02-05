@@ -1,29 +1,27 @@
 ---
 keywords: test multivariato;MVT;rapporto prestazioni esperienza
-description: Scopri come utilizzare il rapporto Prestazioni esperienza per Adobe [!DNL Target] attività Targeting esperienza che mostrano le prestazioni di ogni esperienza nell'attività.
+description: Scopri come utilizzare il rapporto Prestazioni esperienza per le attività di Targeting esperienza di Adobe [!DNL Target] che mostrano le prestazioni di ogni esperienza nell'attività.
 title: Come si utilizza il rapporto Prestazioni esperienza per i test multivariati?
 feature: Reports
 exl-id: 83ca691c-4392-42f5-9251-f374bf28cc4b
-source-git-commit: 79d51e39b733ee13270f924912251e45c8597917
+source-git-commit: c1a71d1fb6fa9b5c14e22fa3199358a4594bb4a1
 workflow-type: tm+mt
-source-wordcount: '338'
-ht-degree: 81%
+source-wordcount: '326'
+ht-degree: 75%
 
 ---
 
-# Rapporto Prestazioni Esperienza (MVT)
+# Rapporto [!UICONTROL Experience Performance] (MVT)
 
-Il rapporto Prestazioni esperienza mostra il modo in cui viene eseguita ogni esperienza nell’attività. Questo rapporto include informazioni sul numero di partecipanti, il tasso di conversione, l’incremento e l’affidabilità.
+Il report [!UICONTROL Experience Performance] mostra le prestazioni di ogni esperienza nell&#39;attività. Questo rapporto include informazioni sul numero di partecipanti, il tasso di conversione, l’incremento e l’affidabilità.
 
 Puoi selezionare una o più esperienze per confrontarle. Fai clic su un&#39;esperienza e seleziona **[!UICONTROL Preview]** per aprirla in una scheda del browser.
-
-![Rapporto prestazioni esperienza in Adobe Target](/help/main/c-reports/assets/experienceperformancetable.png)
 
 La parte superiore del rapporto mostra la metrica, le date di inizio e fine e il pubblico utilizzato nel rapporto. Puoi modificare ciascuno di questi fattori.
 
 >[!NOTE]
 >
->I selettori di pubblico e metriche sono disponibili solo se si utilizza Analytics come origine per la generazione di rapporti.
+>I selettori di pubblico e metriche sono disponibili solo se [!DNL Analytics] è utilizzato come origine per la generazione di rapporti.
 
 La parte successiva presenta un grafico a linee che fornisce un confronto visivo di ogni esperienza a intervalli di tempo specifici. Questo grafico consente di visualizzare le prestazioni di ogni esperienza e il modo in cui l’ora del giorno incide su di esse.
 

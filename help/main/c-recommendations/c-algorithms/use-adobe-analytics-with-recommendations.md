@@ -1,32 +1,30 @@
 ---
 keywords: origine dati comportamentali;analisi;consigli;criteri;variabili prodotto
-description: Scopri come utilizzare  [!DNL Adobe Analytics] come origine dei dati comportamentali per utilizzare i dati comportamentali basati sulla visualizzazione e/o sull'acquisto di [!DNL Analytics] in [!DNL Target Recommendations].
+description: Scopri come utilizzare  [!DNL Adobe Analytics] come origine dei dati comportamentali in [!DNL Target Recommendations].
 title: Come si utilizza  [!DNL Adobe Analytics] con [!DNL Target Recommendations]?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Vedi cosa è incluso in Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."
 feature: Recommendations
 exl-id: d2b7e840-9546-4a8e-bec4-1ebea5a79672
-source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
+source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
 workflow-type: tm+mt
-source-wordcount: '778'
+source-wordcount: '757'
 ht-degree: 0%
 
 ---
 
 # Usa [!DNL Adobe Analytics] con [!DNL Recommendations]
 
-L&#39;utilizzo di [!DNL Adobe Analytics] come origine dei dati comportamentali consente ai client di utilizzare i dati comportamentali basati sulla visualizzazione e/o sull&#39;acquisto di [!DNL Analytics] nelle attività di [!DNL Adobe Target] [!DNL Recommendations]. Questa funzione è particolarmente utile nelle situazioni in cui la configurazione di [!DNL Target Recommendations] è nuova e [!DNL Analytics] ha molti dati storici da utilizzare.
+L&#39;utilizzo di [!DNL Adobe Analytics] come origine dei dati comportamentali consente ai client di utilizzare i dati comportamentali basati sulla visualizzazione e sull&#39;acquisto di [!DNL Analytics] nelle attività di [!DNL Adobe Target Recommendations]. Questa funzione è particolarmente utile nelle situazioni in cui la configurazione di [!DNL Target Recommendations] è nuova e [!DNL Analytics] contiene molti dati storici da utilizzare.
 
 L&#39;utilizzo di [!DNL Analytics] come origine dei dati comportamentali può rappresentare una fonte completa di informazioni sul comportamento degli utenti. Queste informazioni potrebbero includere dati provenienti da un&#39;origine o un feed di terze parti condiviso solo con [!DNL Analytics].
 
 Durante la creazione di [criteri](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md) in [!DNL Recommendations], sono disponibili due pulsanti di scelta che consentono di scegliere l&#39;origine dati da utilizzare: [!UICONTROL mboxes] o [!UICONTROL Analytics]. Per creare un criterio, fare clic su [!UICONTROL Recommendations] > [!UICONTROL Criteria] > [!UICONTROL Create Criteria] > [!UICONTROL Create Criteria]. Per ulteriori informazioni, vedere [Creare i criteri](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md).
 
-![Pulsanti origine dati comportamentali](assets/behavioral-data-source.png)
-
 >[!NOTE]
 >
 >Se questi due pulsanti non vengono visualizzati nel tuo account, contatta l&#39;[Assistenza clienti](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C).
 
-## Casi d’uso per i dati di Analytics in Target
+## Casi d&#39;uso per i dati [!DNL Analytics] in [!DNL Target]
 
 L&#39;utilizzo di [!DNL Analytics] come origine dei dati comportamentali per i consigli consente inoltre di distribuire casi d&#39;uso specifici senza la necessità di assegnare tag alle pagine delle entità con tutti i parametri delle entità [!DNL Target]. Anche se questo richiede l’esistenza di alcuni prerequisiti, la disponibilità di &quot;Variabili di prodotto&quot; è la cosa più importante per il corretto funzionamento di tale funzionalità. Le eVar e le proprietà regolari non sono sufficienti per consentire l&#39;esecuzione automatica di questo handshake tra [!DNL Analytics] e [!DNL Target].
 
@@ -63,13 +61,9 @@ Ora è il momento di mappare queste variabili sul lato [!DNL Target] per la forn
 
 1. In [!DNL Target], fare clic su **[!UICONTROL Recommendations]**, quindi sulla scheda **[!UICONTROL Feeds]**.
 
-   ![Feed](/help/main/c-recommendations/c-algorithms/assets/feeds-tab.png)
-
 1. Fare clic su **[!UICONTROL Create Feed]**.
 
 1. Seleziona **[!UICONTROL Analytics Classifications]**, quindi specifica la suite di rapporti.
-
-   ![Opzione Classificazioni di Analytics](/help/main/c-recommendations/c-algorithms/assets/analytics-classifications.png)
 
 1. Fare clic su **[!UICONTROL Next]** per passare alle impostazioni di **[!UICONTROL Schedule]** e selezionare un periodo di frequenza per il feed:
 
@@ -81,8 +75,6 @@ Ora è il momento di mappare queste variabili sul lato [!DNL Target] per la forn
    Puoi anche selezionare l’ora del giorno in cui il feed deve essere elaborato.
 
 1. Fai clic su **[!UICONTROL Next]** per passare alle impostazioni di **[!UICONTROL Mapping]**, quindi mappa le intestazioni delle colonne di campo ai nomi di campo [!UICONTROL Recommendations] appropriati.
-
-   ![Sezione mappatura](/help/main/c-recommendations/c-algorithms/assets/mapping.png)
 
 1. Fare clic su **[!UICONTROL Save]**.
 

@@ -2,12 +2,12 @@
 keywords: personalizzazione automatizzata;offerta;reporting;gruppo;gruppo di reporting;ap
 description: Scopri come utilizzare i gruppi di reporting di offerte nelle attività di [!DNL Adobe Target] [!UICONTROL Automated Personalization].
 title: Posso utilizzare i gruppi di reporting di offerte nelle attività [!UICONTROL Automated Personalization]?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Vedi cosa è incluso in Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."
 feature: Reports
 exl-id: 9058a6c5-c651-480f-9b23-d0782a13b042
-source-git-commit: b5f06878a6ca8b4c571bfe05a52bfb3f471a697e
+source-git-commit: 3a44c05bea24c622292dd0b774f88f0c93be1d88
 workflow-type: tm+mt
-source-wordcount: '833'
+source-wordcount: '817'
 ht-degree: 15%
 
 ---
@@ -33,26 +33,17 @@ Questo approccio funziona bene se i visitatori rispondono allo stesso modo a tut
 
 ## Configurare gruppi di reporting
 
-1. Nella pagina **[!UICONTROL Experiences]** di un&#39;attività di Personalizzazione automatizzata, fare clic sull&#39;icona **[!UICONTROL Manage Content]**.
-
-   ![Icona Gestisci contenuto](/help/main/c-reports/assets/ap_manage_content.png)
-
+1. Nella pagina **[!UICONTROL Experiences]** di un&#39;attività di Personalizzazione automatizzata, fare clic sull&#39;icona **[!UICONTROL Manage Content]** ( ![icona Gestione contenuto](/help/main/assets/icons/Experience.svg) )
 1. Fare clic sulla scheda **[!UICONTROL Offers]** nella parte superiore della finestra di dialogo [!UICONTROL Manage Content].
-1. (Facoltativo) Aggiungi esperienze specifiche a un gruppo di reporting passando il mouse sull&#39;offerta desiderata e facendo clic sull&#39;icona della cartella **[!UICONTROL Reporting Group]**.
+1. (Condizionale) Aggiungi esperienze specifiche a un gruppo di reporting facendo clic sull&#39;icona [!UICONTROL More Actions] ( ![icona Altre azioni](/help/main/assets/icons/MoreSmall.svg) ) per l&#39;offerta desiderata e quindi facendo clic su **[!UICONTROL Reporting Group]**.
 
-   ![Icona Gruppo di reporting](/help/main/c-reports/assets/ap_manage_content_2.png)
+1. (Facoltativo) Si possono raccogliere le esperienze in gruppo di reporting selezionando le caselle di controllo relative alle esperienze desiderate e facendo clic su **[!UICONTROL Reporting Group]** nella parte inferiore della finestra di dialogo.
 
-1. (Facoltativo) Si possono raccogliere le esperienze in gruppo di reporting selezionando le caselle di controllo relative alle esperienze desiderate e facendo clic sull&#39;icona della cartella **[!UICONTROL Reporting Group]** nell&#39;angolo in alto a destra della finestra di dialogo.
-
-   ![Icona Gruppo di reporting](/help/main/c-reports/assets/ap_manage_content_3.png)
-
-1. Per assegnare l&#39;offerta selezionata a un gruppo di reporting esistente, selezionare **[!UICONTROL Existing]**, selezionare il gruppo di reporting desiderato dall&#39;elenco a discesa, quindi fare clic su **[!UICONTROL Apply]**.
+1. Per assegnare l&#39;offerta selezionata a un gruppo di reporting esistente, selezionare **[!UICONTROL Existing]**, selezionare il gruppo di reporting desiderato dall&#39;elenco a discesa, quindi fare clic su **[!UICONTROL Confirm]**.
 
    Oppure
 
-   Per creare un gruppo di reporting a cui assegnare l&#39;offerta selezionata, selezionare **[!UICONTROL New]**, assegnare un nome al nuovo gruppo di reporting, quindi fare clic su **[!UICONTROL Apply]**.
-
-   ![Nuova icona per creare un nuovo gruppo di reporting](/help/main/c-reports/assets/ap_reporting_groups.png)
+   Per creare un gruppo di reporting a cui assegnare l&#39;offerta selezionata, selezionare **[!UICONTROL New]**, assegnare un nome al nuovo gruppo di reporting, quindi fare clic su **[!UICONTROL Confirm]**.
 
 È possibile utilizzare l&#39;elenco [!UICONTROL Location] per filtrare le offerte in base alla posizione. Utilizzare l&#39;elenco [!UICONTROL Report Group] per filtrare le offerte in base ai gruppi di reporting. È inoltre possibile utilizzare l&#39;elenco [!UICONTROL Report Group] per filtrare [!UICONTROL Unassigned Offers] in modo da assegnare un gruppo di reporting a un&#39;offerta che non è attualmente assegnata ad alcun gruppo di reporting.
 
@@ -81,5 +72,3 @@ Per informazioni su come indirizzare un&#39;offerta a tipi di pubblico specifici
    ![Gruppi di offerte: controllo e destinazione](/help/main/c-reports/c-report-settings/assets/offer-groups.png)
 
 Per informazioni sull&#39;utilizzo di [!UICONTROL Automated Personalization] report (incluso il report [!UICONTROL Offer Level]), vedere [Report di riepilogo di Automated Personalization](/help/main/c-reports/personalization-reports/reports-ap.md).
-
-

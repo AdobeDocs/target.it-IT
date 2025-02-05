@@ -1,13 +1,13 @@
 ---
 keywords: più tipi di pubblico;versioni esperienza;versioni esperienza target
-description: Scopri come eseguire il targeting delle versioni della stessa esperienza per tipi di pubblico diversi in [!DNL Adobe Target] attività A/B.
+description: Scopri come eseguire il targeting di diversi segmenti di pubblico con versioni della stessa esperienza nelle attività A/B.
 title: Posso utilizzare più versioni di esperienza in un'attività A/B?
 feature: A/B Tests
 exl-id: 7afe36f0-ec46-4d63-bfff-45d2c8923a04
-source-git-commit: 3adf1e763e6fabec28aacd63219b8e53e638c1b6
+source-git-commit: eb7e892a85fa3952ffc22172085d421756d0dfb5
 workflow-type: tm+mt
-source-wordcount: '590'
-ht-degree: 53%
+source-wordcount: '593'
+ht-degree: 52%
 
 ---
 
@@ -33,13 +33,9 @@ In questo caso, sono necessarie versioni specifiche per l’area geografica dell
 
    Al momento di configurare l’esperienza che avrà più versioni, seleziona il pubblico per ogni versione, come illustrato nei passaggi seguenti.
 
-1. Seleziona l&#39;esperienza, quindi fai clic su **[!UICONTROL Configure]** > **[!UICONTROL Audiences]** > **[!UICONTROL Multiple Audiences]**.
+1. Seleziona l&#39;esperienza, quindi fai clic su **[!UICONTROL Configure]** > **[!UICONTROL Multiple Audiences]**.
 
-   ![Opzione Più tipi di pubblico](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/multiple-audiences-new.png)
-
-1. Fai clic su **[!UICONTROL Add Audience]**, quindi seleziona il primo pubblico a cui desideri rivolgerti. Ripeti per ogni pubblico.
-
-   ![immagine exp-versions](assets/exp-versions.png)
+1. Fai clic sull&#39;icona **[!UICONTROL Add Audience]** ( ![Icona Aggiungi](/help/main/assets/icons/Add.svg) ) nel riquadro [!UICONTROL Experience Audiences], quindi seleziona il primo pubblico a cui desideri rivolgerti. Ripeti per ogni pubblico.
 
    Se il pubblico non esiste ancora, fai clic su [Crea pubblico](/help/main/c-target/c-audiences/create-audience.md#task_E18BD77A9A8F4ED0AC50569F94556558) e configuralo.
 

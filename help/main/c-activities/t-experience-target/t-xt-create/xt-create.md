@@ -4,10 +4,10 @@ description: Scopri come utilizzare il [!UICONTROL Visual Experience Composer] (
 title: Come si crea un'attività [!UICONTROL Experience Targeting]?
 feature: Experience Targeting
 exl-id: fc7fc37f-40bf-4947-a4d0-e51fa09b6c56
-source-git-commit: 4faafcef38d02674072d8b20ae03d3e2ef2115d6
+source-git-commit: 3a44c05bea24c622292dd0b774f88f0c93be1d88
 workflow-type: tm+mt
-source-wordcount: '397'
-ht-degree: 38%
+source-wordcount: '389'
+ht-degree: 33%
 
 ---
 
@@ -25,15 +25,13 @@ Per ulteriori informazioni su [!UICONTROL Experience Targeting], uno scenario di
 
 1. Dall&#39;elenco [!UICONTROL Activities], fare clic su **[!UICONTROL Create Activity]** > **[!UICONTROL Experience Targeting]**.
 
-   ![Crea attività > Targeting esperienza](/help/main/c-activities/t-experience-target/t-xt-create/assets/xt_select-1.png)
-
    >[!NOTE]
    >
-   >I tipi di attività disponibili dipendono dall’account [!DNL Target]. Alcuni tipi di attività potrebbero non essere visualizzati nell’elenco. Ad esempio, [!UICONTROL Automated Personalization] è una [funzionalità Target Premium](/help/main/c-intro/intro.md#premium).
+   >I tipi di attività disponibili dipendono dall’account [!DNL Target]. Alcuni tipi di attività potrebbero non essere visualizzati nell’elenco. [!UICONTROL Automated Personalization] è una [funzionalità di Target Premium](/help/main/c-intro/intro.md#premium).
    >
    >Per ulteriori informazioni sui vari tipi di attività disponibili in [!DNL Target] e sulle loro differenze, consulta [Attività](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03). Consulta [Tipi di attività di Target](/help/main/c-activities/target-activities-guide.md) per aiutarti a stabilire il tipo di attività più adatto per le tue esigenze.
 
-1. Selezionare **[!UICONTROL Visual (Default)]**, se necessario.
+1. Selezionare **[!UICONTROL Visual]**, se necessario.
 
    Se preferisci utilizzare il [Compositore esperienza basato su moduli](/help/main/c-experiences/form-experience-composer.md), seleziona [!UICONTROL Form].
 
@@ -53,11 +51,7 @@ Per ulteriori informazioni su [!UICONTROL Experience Targeting], uno scenario di
 
    Viene aperto il Compositore esperienza visivo, con la pagina specificata nell’URL.
 
-   ![Attività Targeting esperienza nel Compositore esperienza visivo](/help/main/c-activities/t-experience-target/t-xt-create/assets/xt-in-vec.png)
-
-1. Digita un nome per l’attività nello spazio fornito.
-
-   ![Campo Nome](/help/main/c-activities/t-experience-target/t-xt-create/assets/xt_name-new.png)
+1. Fare clic sull&#39;icona **[!UICONTROL Rename]** ( ![icona Rinomina](/help/main/assets/icons/MoreSmallListVert.svg) ), fare clic su **[!UICONTROL Rename]**, specificare un nome per l&#39;attività, quindi fare clic su **[!UICONTROL Save]**.
 
    Il nome dell’attività non può iniziare con uno dei seguenti caratteri:
 

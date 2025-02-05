@@ -1,14 +1,14 @@
 ---
 keywords: creazione di criteri personalizzati;algoritmi;criteri;criteri di consigli;csv;ftp;caricamento csv
 description: Scopri come caricare un file CSV per personalizzare i consigli in Adobe [!DNL Target] Recommendations.
-title: Come posso caricare criteri personalizzati in Recommendations?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Vedi cosa è incluso in Target Premium."
+title: Come posso caricare criteri personalizzati in  [!DNL Recommendations]?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."
 feature: Recommendations
 exl-id: 33434121-e0ae-4b82-b1dd-78b9738026cb
-source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
+source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
 workflow-type: tm+mt
-source-wordcount: '646'
-ht-degree: 32%
+source-wordcount: '606'
+ht-degree: 33%
 
 ---
 
@@ -26,17 +26,17 @@ Nei passaggi seguenti si presuppone che si acceda alla schermata [!UICONTROL Cre
 
 1. Fare clic su **[!UICONTROL Recommendations]** > **[!UICONTROL Criteria]**.
 
-1. Fare clic su **[!UICONTROL Create Criteria]**.
+1. Fare clic su **[!UICONTROL Create Criteria]** > **[!UICONTROL Create Criteria]**.
 
 1. Immettere le informazioni nella sezione [Informazioni di base](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#info).
 
-   1. Dall&#39;elenco a discesa Tipo **[!UICONTROL Select Algorithm]**, selezionare **[!UICONTROL Custom Criteria]**.
+1. Dall&#39;elenco a discesa **[!UICONTROL Select Algorithm Type]**, selezionare **[!UICONTROL Custom Criteria]**.
 
-   1. Dall&#39;elenco a discesa **[!UICONTROL Algorithm]**, selezionare **[!UICONTROL Custom Algorithm]**.
+1. Dall&#39;elenco a discesa **[!UICONTROL Algorithm]**, selezionare **[!UICONTROL Custom Algorithm]**.
 
-      >[!NOTE]
-      >
-      >I passaggi precedenti causano la visualizzazione della sezione [!UICONTROL Upload CSV] nella parte inferiore della finestra di dialogo [!UICONTROL Create New Criteria].
+   >[!NOTE]
+   >
+   >I passaggi precedenti causano la visualizzazione della sezione [!UICONTROL Upload CSV] nella parte inferiore della finestra di dialogo [!UICONTROL Create Criteria].
 
 1. (Condizionale) Inserisci le informazioni nella sezione [Contenuto di backup](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#content).
 
@@ -44,16 +44,15 @@ Nei passaggi seguenti si presuppone che si acceda alla schermata [!UICONTROL Cre
 
 1. Nella sezione **[!UICONTROL Upload CSV]**, seleziona **[!UICONTROL Location]** del file CSV.
 
-   ![Carica sezione CSV](assets/upload-csv.png)
+Il file CSV deve essere formattato correttamente per essere caricato con successo. Fare clic su **[!UICONTROL Download the CSV template]** per ottenere un file CSV formattato correttamente.
 
-   Il file CSV deve essere formattato correttamente per essere caricato con successo. Fare clic su **[!UICONTROL Download the CSV template]** per ottenere un file CSV formattato correttamente.
+Puoi scegliere tra due opzioni di posizione:
 
-   Puoi scegliere tra due opzioni di posizione:
+    * **FTP:** Per caricare il file CSV da un server FTP, selezionare **[!UICONTROL FTP]**, quindi immettere le informazioni richieste. Puoi utilizzare SSL, che utilizza il protocollo FTPS per trasferire il file CSV in modo sicuro.
+    
+    * **URL:** Per caricare il file CSV da un URL, selezionare **[!UICONTROL URL]**, quindi immettere un URL di feed.
 
-   * **FTP:** Per caricare il file CSV da un server FTP, selezionare **[!UICONTROL FTP]**, quindi immettere le informazioni richieste. Puoi utilizzare SSL, che utilizza il protocollo FTPS per trasferire il file CSV in modo sicuro.
-   * **URL:** Per caricare il file CSV da un URL, seleziona **[!UICONTROL URL]**, quindi immetti un URL di feed.
-
-1. Fare clic su **[!UICONTROL Save]**.
+1. Fare clic su **[!UICONTROL Create]**.
 
 ## Considerazioni
 
@@ -65,7 +64,7 @@ Nei passaggi seguenti si presuppone che si acceda alla schermata [!UICONTROL Cre
 
 * I criteri personalizzati vengono aggiornati ogni 24 ore.
 
-  Puoi visualizzare lo stato di caricamento e sincronizzazione dei criteri personalizzati caricati nella parte inferiore di ogni scheda criteri nella pagina [!UICONTROL Recommendations] > [!UICONTROL Criteria]. È inoltre possibile visualizzare lo stato nella finestra di dialogo [!UICONTROL Edit] quando si modificano i criteri personalizzati.
+  Puoi visualizzare lo stato di caricamento e sincronizzazione dei criteri personalizzati caricati per ciascun criterio nella pagina [!UICONTROL Recommendations] > [!UICONTROL Criteria]. È inoltre possibile visualizzare lo stato nella finestra di dialogo [!UICONTROL Edit] quando si modificano i criteri personalizzati.
 
 * Il flusso per un caricamento senza errori deve essere [!UICONTROL Scheduled] > [!UICONTROL Downloading Feed File] > [!UICONTROL Importing] > [!UICONTROL Successful].
 
@@ -79,13 +78,3 @@ Nei passaggi seguenti si presuppone che si acceda alla schermata [!UICONTROL Cre
   | Errore di credenziali | Fornisci un nome utente e una password validi per un account attivo sul server. |
   | Directory non trovata | Fornisci una directory esistente sul server. |
   | File non trovato | Fornisci il nome di un file sul server nella directory indicata. |
-
-## Video di formazione: Creare criteri in Recommendations (12:33) ![Icona esercitazione](/help/main/assets/tutorial.png)
-
-Questo video contiene le seguenti informazioni (i dettagli sul caricamento dei criteri personalizzati iniziano alle 11:43):
-
-* Creare criteri
-* Creare sequenze di criteri
-* Caricare criteri personalizzati
-
->[!VIDEO](https://video.tv.adobe.com/v/27694?quality=12)

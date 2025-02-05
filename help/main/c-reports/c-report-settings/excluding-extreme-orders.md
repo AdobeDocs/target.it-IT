@@ -1,13 +1,13 @@
 ---
 keywords: Target;rapporti;impostazioni rapporti;ordini estremi;valori estremi
-description: Scopri come escludere i valori estremi dai rapporti di Adobe [!DNL Target] in modo che alcuni ordini insoliti non influiscano sui risultati dell'attività.
+description: Scopri come escludere i valori estremi dai rapporti in Adobe [!DNL Target] in modo che alcuni ordini insoliti non influiscano sui risultati dell'attività.
 title: Come posso escludere i valori estremi nei rapporti?
 feature: Reports
 exl-id: fd2d0c18-62c0-41e0-800c-b2ae123f0e74
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: c1a71d1fb6fa9b5c14e22fa3199358a4594bb4a1
 workflow-type: tm+mt
 source-wordcount: '318'
-ht-degree: 65%
+ht-degree: 64%
 
 ---
 
@@ -29,10 +29,8 @@ Quando un valore è contrassegnato come estremo, il valore dell&#39;ordine viene
 
 **Per escludere i valori estremi dai rapporti:**
 
-1. Aprire un&#39;attività che include i tipi di metrica di ricavi o coinvolgimento, quindi fare clic sulla scheda **[!UICONTROL Reports]**.
-1. Fare clic sull&#39;icona ingranaggio per visualizzare la finestra di dialogo **[!UICONTROL Settings]**.
-
-   ![Risultato passaggio](assets/exclude_extreme_values.png)
+1. Apri un&#39;attività che include [!UICONTROL Revenue] o [!UICONTROL Engagement] tipi di metrica, quindi fai clic sulla scheda **[!UICONTROL Reports]**.
+1. Fare clic sull&#39;icona Impostazioni report ( ![icona Impostazioni report](/help/main/assets/icons/Setting.svg) ) per visualizzare la finestra di dialogo **[!UICONTROL Settings]**.
 
 1. Far scorrere l&#39;interruttore **[!UICONTROL Exclude Extreme Values]** in posizione &quot;on&quot; o &quot;off&quot;, come desiderato.
 1. Fare clic su **[!UICONTROL Save]**.

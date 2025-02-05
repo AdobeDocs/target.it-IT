@@ -2,13 +2,13 @@
 keywords: Targeting;AP reports;automated personalization reports;activity level report;offer level report;offer detail report;faq
 description: Scopri come interpretare il rapporto di riepilogo di Automated Personalization in Adobe Target. Da questo rapporto puoi passare ai rapporti Segmenti automatizzati e Attributi importanti.
 title: Come si utilizzano i rapporti di riepilogo di Automated Personalization?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Vedi cosa è incluso in Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."
 feature: Reports
 exl-id: 2708eba4-72d5-4e6b-b01b-d27de03463b2
-source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
+source-git-commit: c1a71d1fb6fa9b5c14e22fa3199358a4594bb4a1
 workflow-type: tm+mt
-source-wordcount: '647'
-ht-degree: 12%
+source-wordcount: '641'
+ht-degree: 11%
 
 ---
 
@@ -22,9 +22,9 @@ I report di riepilogo specializzati sono disponibili per gli utenti di [!UICONTR
 
 1. Fare clic su **[!UICONTROL Activities]**, selezionare l&#39;attività [!UICONTROL Automated Personalization] desiderata dall&#39;elenco, quindi fare clic sulla scheda **[!UICONTROL Reports]**.
 
-   Se hai numerose attività, puoi filtrare l&#39;elenco selezionando [!UICONTROL Automated Personalization] dall&#39;elenco a discesa [!UICONTROL Type].
+   Se hai numerose attività, fai clic sull&#39;icona Filtro ( ![icona Filtro](/help/main/assets/icons/Filter.svg) ) per filtrare l&#39;elenco selezionando le opzioni dagli elenchi a discesa [!UICONTROL Type], [!UICONTROL Status], [!UICONTROL Reporting Source], [!UICONTROL Experience Composer], [!UICONTROL Metrics Type] e [!UICONTROL Activity Source].
 
-1. (Facoltativo) Fai clic sull&#39;icona **[!UICONTROL Download]** per scaricare la visualizzazione di riepilogo (ad esempio, confronto tra traffico di controllo e di destinazione) suddivisa per tutte le metriche di successo disponibili.
+1. (Facoltativo) Fai clic sull&#39;icona **[!UICONTROL Download]** ( ![Icona Scarica](/help/main/assets/icons/Download.svg) ) per scaricare la visualizzazione di riepilogo (ad esempio, confronto di traffico di controllo e di destinazione) suddivisa per tutte le metriche di successo disponibili.
 
 [!UICONTROL Automated Personalization] fornisce i seguenti rapporti:
 
@@ -37,8 +37,6 @@ I report di riepilogo specializzati sono disponibili per gli utenti di [!UICONTR
 
 Il report [!UICONTROL Activity Level] confronta le prestazioni aggregate dell&#39;utilizzo di un algoritmo [!UICONTROL Automated Personalization] con il contenuto (controllo) distribuito in modo casuale.
 
-![Rapporto a livello di attività](/help/main/c-reports/assets/box_plot_ap.png)
-
 Si applicano comunque le regole standard di interpretazione dei risultati per il test A/B, tra cui incremento, affidabilità, trend, durata e così via. Per ulteriori informazioni sull&#39;interpretazione dei risultati, vedere [Calcoli statistici nei test A/Bn](/help/main/c-reports/statistical-methodology/statistical-calculations.md).
 
 ## Report Offer Level (Livello di offerta) {#section_CAA6409879E349C6906E2BE8156D87A1}
@@ -46,8 +44,6 @@ Si applicano comunque le regole standard di interpretazione dei risultati per il
 Il rapporto [!UICONTROL Offer Level] per l&#39;esperienza Foresta casuale confronta le prestazioni di ogni offerta applicata dall&#39;algoritmo con la stessa offerta distribuita in modo casuale (Controllo). Pertanto, in questa prospettiva, le offerte non devono essere confrontate tra loro.
 
 Fare clic sull&#39;algoritmo dell&#39;esperienza (Foresta casuale o controllo) per visualizzare il report [!UICONTROL Offer Level].
-
-![Rapporto a livello di offerta in Adobe Target](/help/main/c-reports/assets/ap_OfferLevelRpt.png)
 
 >[!NOTE]
 >
@@ -59,15 +55,11 @@ Le offerte possono essere visualizzate all&#39;interno di [gruppi di reporting](
 
 Fare clic sull&#39;icona [!UICONTROL Automated Segments]. Questo rapporto mostra come i diversi visitatori rispondono in modo diverso alle offerte/esperienze nell&#39;attività di AP/AT. Questo rapporto mostra come i diversi segmenti automatizzati definiti dai modelli di personalizzazione di Target rispondono alle offerte/esperienze dell&#39;attività.
 
-![Icona Segmenti automatizzati](/help/main/c-reports/assets/icon-automated-sements-ap.png)
-
 Per ulteriori informazioni, consulta [Rapporto Segmenti automatizzati](/help/main/c-reports/c-personalization-insights-reports/automated-segments-report.md).
 
 ## Attributi importanti
 
 Fare clic sull&#39;icona [!UICONTROL Important Attributes]. Questo rapporto mostra come, nelle diverse attività, i diversi attributi sono più (o meno) importanti per il modo in cui il modello decide di personalizzare. Questo rapporto mostra gli attributi principali che hanno influenzato il modello e la loro importanza relativa.
-
-![Icona Attributi importanti](/help/main/c-reports/assets/icon-important-attributes-ap.png)
 
 Per ulteriori informazioni, vedere [Rapporto Attributi importanti](/help/main/c-reports/c-personalization-insights-reports/important-attributes-report.md).
 

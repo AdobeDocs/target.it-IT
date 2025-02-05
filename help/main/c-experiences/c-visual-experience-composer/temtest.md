@@ -1,13 +1,13 @@
 ---
 keywords: test modello;modello;stessa esperienza su pagine simili;test template
-description: Scopri come utilizzare il Compositore esperienza visivo di Adobe [!DNL Target] per includere la stessa esperienza in più pagine con struttura simile o contenenti gli stessi elementi modello.
+description: Scopri come utilizzare il Compositore esperienza visivo (VEC) di Adobe [!DNL Target] per includere la stessa esperienza in più pagine con struttura simile o contenenti gli stessi elementi modello.
 title: Posso includere la stessa esperienza in pagine simili?
 feature: Experiences and Offers
 exl-id: 4ea95794-496c-4eff-96ec-8a9d1f732c4a
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: be9996c4dce0a3135a39fcbf0608b57b6e742ac3
 workflow-type: tm+mt
-source-wordcount: '597'
-ht-degree: 33%
+source-wordcount: '517'
+ht-degree: 24%
 
 ---
 
@@ -19,44 +19,42 @@ Per funzionare correttamente, questa funzione deve essere utilizzata su pagine c
 
 >[!IMPORTANT]
 >
->L’utilizzo di questa funzione per modificare gli elementi su pagine dissimili causerà probabilmente risultati imprevisti.
+>L’utilizzo di questa funzione per modificare gli elementi su pagine dissimili può causare risultati imprevisti.
 
 Ad esempio, si può utilizzare per eseguire una delle operazioni seguenti:
 
 * Eseguire un test di una barra di navigazione globale ridisponendo o rimuovendo elementi
 * Rimuovere un elemento da tutte le pagine di prodotto che utilizzano un particolare modello di pagina
 * Aggiungere un banner a tutte le pagine di prodotto
-* Modificare il layout di un modello di elemento
+* Modificare il layout del modello di articolo
 
 Puoi specificare le pagine che includono gli elementi di modifica o applicare la modifica in tutto il sito o dominio.
 
 1. Crea o modifica un&#39;attività come descritto in [Attività](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03).
 
-1. Per specificare le pagine in cui verrà visualizzata l&#39;esperienza, nel [!UICONTROL Visual Experience Composer] (VEC) fai clic sull&#39;icona a forma di ingranaggio, quindi seleziona **[!UICONTROL Page Delivery]**.
+1. Per specificare le pagine in cui viene visualizzata l&#39;esperienza, nel [!UICONTROL Visual Experience Composer] (Compositore esperienza visivo) fai clic sull&#39;icona [!UICONTROL Configure] ( ![icona Configura](/help/main/assets/icons/Setting.svg) ), quindi seleziona **[!UICONTROL Page Delivery]**.
 
-   ![Icona ingranaggio > Consegna pagine](/help/main/c-experiences/c-visual-experience-composer/assets/icon-gear.png)
-
-1. Fai clic su **[!UICONTROL Add Template Rule]**, quindi specifica i criteri per le pagine a cui aggiungere l&#39;esperienza.
+1. Fai clic su **[!UICONTROL Add Rule]**, quindi specifica i criteri per le pagine a cui aggiungere l&#39;esperienza.
 
 1. Specifica l&#39;intervallo di pagine. L&#39;intervallo di pagine può essere uno tra i seguenti:
 
-   * URL (per ulteriori informazioni su come Target valuta gli URL, consulta [Domande frequenti su destinazioni e pubblico](/help/main/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md).)
-   * Dominio
-   * Percorso
-   * Frammento hash (#) (esegue il targeting della parte di un URL che segue il simbolo #).
-   * Query
-   * Parametro
+   * [!UICONTROL URL] (Per ulteriori informazioni sulla valutazione degli URL da parte di [!DNL Target], vedere [Domande frequenti su destinazioni e pubblico](/help/main/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md).)
+   * [!UICONTROL Domain]
+   * [!UICONTROL Path]
+   * [!UICONTROL Hash (#) Fragment] (eseguire il targeting della parte di un URL che segue il simbolo #).
+   * [!UICONTROL Query]
+   * [!UICONTROL Custom]
 
 1. Scegli un operatore.
 
    L&#39;operatore specifica la correlazione tra gli elementi dopo l&#39;operatore e l&#39;intervallo di pagine. Gli operatori disponibili includono:
 
-   * Contiene
-   * Non contiene
-   * è (distinzione maiuscole/minuscole)
-   * Non è
-   * Inizia con
-   * Termina con
+   * [!UICONTROL Contains]
+   * [!UICONTROL Does not contain]
+   * [!UICONTROL Is (case sensitive)]
+   * [!UICONTROL Is not]
+   * [!UICONTROL Starts with]
+   * [!UICONTROL Ends with]
 
 1. Digita le stringhe che definiscono dove viene aggiunta l&#39;esperienza, ad esempio il dominio o le stringhe contenute nel nome della pagina.
 
@@ -68,7 +66,7 @@ Puoi specificare le pagine che includono gli elementi di modifica o applicare la
    >
    >Per gli elementi multipli viene utilizzato l’operatore OR, il che significa che ogni singolo elemento nell’elenco può soddisfare la condizione.
 
-1. Se lo si desidera, immettere criteri aggiuntivi facendo clic su **[!UICONTROL Add Template Rule]** e ripetendo la procedura descritta nei passaggi precedenti.
+1. Se lo si desidera, immettere criteri aggiuntivi facendo clic su **[!UICONTROL Add Rule]** e ripetendo la procedura descritta nei passaggi precedenti.
 
    I criteri multipli sono collegati mediante AND (E). [!DNL Target] aggiunge l&#39;esperienza a tutte le pagine che corrispondono ai criteri specificati.
 
@@ -90,21 +88,8 @@ Puoi considerare l’utilizzo delle regole dei modelli per eseguire il rendering
 
 1. Crea o modifica un&#39;attività come descritto in [Attività](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03).
 
-1. Per specificare il dominio in cui verrà visualizzata l&#39;esperienza, nel Compositore esperienza visivo, fai clic sull&#39;icona a forma di ingranaggio, quindi seleziona **[!UICONTROL Page Delivery]**.
+1. Per specificare il dominio in cui viene visualizzata l&#39;esperienza, in [!UICONTROL Visual Experience Composer] fare clic sull&#39;icona [!UICONTROL Configure] ( ![icona Configura](/help/main/assets/icons/Setting.svg) ), quindi selezionare **[!UICONTROL Page Delivery]**.
 
-1. Fare clic su **[!UICONTROL Add Template Rule]** > **[!UICONTROL Domain]**.
+1. Fare clic su **[!UICONTROL Add Rule]** > **[!UICONTROL Domain]**.
 
 1. Dall&#39;elenco a discesa **[!UICONTROL Choose evaluator]**, selezionare **[!UICONTROL Contains]**, quindi specificare il dominio.
-
-   ![Il dominio contiene](/help/main/c-experiences/c-visual-experience-composer/assets/domain-template-rule.png)
-
-## Video di formazione: Compositore esperienza visivo (2 di 2) (7:29) ![Icona esercitazione](/help/main/assets/tutorial.png)
-
-* Rinominare e duplicare un’esperienza
-* Creare un’esperienza con reindirizzamento
-* Indirizzare un’attività a un singolo URL o a un gruppo di URL
-* Creare un’attività multipagina
-* Creare un’esperienza e visualizzarne l’anteprima per i siti web reattivi
-* Evidenziare tipi di elementi con le sovrapposizioni
-
->[!VIDEO](https://video.tv.adobe.com/v/17401)

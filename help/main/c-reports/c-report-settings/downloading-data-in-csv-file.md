@@ -1,33 +1,31 @@
 ---
 keywords: rapporti;scaricare rapporti;CSV;metriche di successo;dettagli ordine
-description: Scopri come scaricare i dati dalle attività Adobe [!DNL Target]  in formato CVS per l’importazione rapida in Excel, Access o altri programmi di analisi dei dati.
+description: Scopri come scaricare i dati dalle attività di Adobe [!DNL Target]  in formato CVS per l’importazione rapida in Excel, Access o altri programmi di analisi dei dati.
 title: Come posso scaricare i dati del rapporto in un file CSV?
 feature: Reports
 exl-id: b4387184-8730-4367-8bc3-52d8fbe2583e
-source-git-commit: fc1dcc2b6de1248c35191c1ecd7b36aeb891fd3f
+source-git-commit: c1a71d1fb6fa9b5c14e22fa3199358a4594bb4a1
 workflow-type: tm+mt
-source-wordcount: '649'
-ht-degree: 37%
+source-wordcount: '652'
+ht-degree: 34%
 
 ---
 
 # Download di dati in un file CSV
 
-Come scaricare i dati in un formato .csv da importare rapidamente in Excel, Access o altri programmi di analisi dei dati.
+Scarica i dati in formato .csv per l&#39;importazione rapida in [!DNL Excel], [!DNL Access] o altri programmi di analisi dei dati.
 
 Per scaricare i dati in un file CSV:
 
 1. Fai clic su **[!UICONTROL Activities]**, quindi sull’attività desiderata tra quelle elencate.
 
-   Se hai numerose attività, puoi filtrare l&#39;elenco selezionando le opzioni dagli elenchi a discesa [!UICONTROL Type], [!UICONTROL Status], [!UICONTROL Reporting Source], [!UICONTROL Experience Composer], [!UICONTROL Metrics Type] e [!UICONTROL Activity Source].
+   Se hai numerose attività, fai clic sull&#39;icona Filtro ( ![icona Filtro](/help/main/assets/icons/Filter.svg) ) per filtrare l&#39;elenco selezionando le opzioni dagli elenchi a discesa [!UICONTROL Type], [!UICONTROL Status], [!UICONTROL Reporting Source], [!UICONTROL Experience Composer], [!UICONTROL Metrics Type] e [!UICONTROL Activity Source].
 
 1. Fare clic sulla scheda **[!UICONTROL Reports]**.
-1. Fai clic sull&#39;icona **[!UICONTROL Download]**, quindi seleziona un tipo di rapporto da scaricare per l&#39;analisi in Excel e altri strumenti.
+1. Fai clic sull&#39;icona **[!UICONTROL Download]** ( ![icona Scarica](/help/main/assets/icons/Download.svg) ), quindi seleziona un tipo di rapporto da scaricare per l&#39;analisi in Excel e altri strumenti.
 
    * [!UICONTROL Export Reports to CSV]
    * [!UICONTROL Export Order Details to CSV]
-
-   ![Opzioni di download](/help/main/c-reports/assets/download-options.png)
 
 ## [!UICONTROL Export Report to CSV] {#section_38BD9743EB254453B5F4A0A6F2720CD3}
 

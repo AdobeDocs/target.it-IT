@@ -1,14 +1,14 @@
 ---
 keywords: calcolatore di traffico;personalizzazione automatizzata;ap;stima traffico
-description: Utilizzare  [!DNL Adobe Target] [!UICONTROL Traffic Estimator] per determinare se si dispone di traffico sufficiente per il completamento dell'attività [!UICONTROL Automated Personalization].
+description: Utilizzare [!UICONTROL Traffic Estimator] per valutare se si dispone di traffico sufficiente per il completamento di un'attività [!UICONTROL Automated Personalization].
 title: Quanto traffico è necessario per un'attività [!UICONTROL Automated Personalization] completata?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Vedi cosa è incluso in Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."
 feature: Automated Personalization
 exl-id: 11f9e239-700b-45cd-bf77-39f7f8967a2e
-source-git-commit: eacee6f353aa685d17b781ac82d3f79574384dfe
+source-git-commit: 3a44c05bea24c622292dd0b774f88f0c93be1d88
 workflow-type: tm+mt
-source-wordcount: '710'
-ht-degree: 10%
+source-wordcount: '721'
+ht-degree: 9%
 
 ---
 
@@ -24,13 +24,13 @@ Ricorda che [!DNL Target] fornisce le esperienze in modo casuale finché non ven
 
 ## Utilizzare il Calcolatore del traffico
 
-1. Dalla pagina [!UICONTROL Experiences] di [!UICONTROL Visual Experience Composer] in un&#39;attività [!UICONTROL Automated Personalization], fare clic sull&#39;icona **[!UICONTROL Traffic]**.
+1. Dalla pagina [!UICONTROL Experiences] di [!UICONTROL Visual Experience Composer] in un&#39;attività [!UICONTROL Automated Personalization], fare clic sull&#39;icona **[!UICONTROL Traffic]** ( ![icona Calcolatore traffico](/help/main/assets/icons/Gauge2.svg) ) nell&#39;angolo superiore sinistro della pagina [!UICONTROL Experiences].
 
-   ![Icona Traffico](/help/main/c-activities/t-automated-personalization/assets/icon-traffic.png)
+   Verrà aperto [!UICONTROL Traffic Estimator].
 
-   Verrà aperto [!UICONTROL Traffic Estimator]. È possibile fare di nuovo clic su **[!UICONTROL Traffic]** per nascondere [!UICONTROL Traffic Estimator].
+   ![Interfaccia utente Calcolatore traffico](assets/ap-est.png)
 
-   ![Interfaccia utente Calcolatore traffico](assets/ap_est.png)
+   Fare di nuovo clic sull&#39;icona per nascondere [!UICONTROL Traffic Estimator].
 
 1. Specifica il tasso di conversione tipico (o il tasso di conversione previsto per questa attività), le impression di attività stimate al giorno e la durata del test.
 
@@ -45,19 +45,19 @@ Ricorda che [!DNL Target] fornisce le esperienze in modo casuale finché non ven
 
    Nella parte superiore di [!UICONTROL Traffic Estimator], i valori immessi vengono calcolati e vengono visualizzati i risultati.
 
-   ![Stima traffico con valori e risultati visualizzati](assets/ap_est_no.png)
+   ![Stima traffico con valori e risultati visualizzati](assets/ap-est-no.png)
 
    Modificando i valori, si modifica anche la stima. Ad esempio, se si stanno testando molte combinazioni e il tasso di conversione e le impression sono troppo bassi, [!UICONTROL Traffic Estimator] mostra quanto deve durare l&#39;esecuzione del test per avere successo. In alternativa, se il traffico è basso, [!UICONTROL Traffic Estimator] potrebbe suggerire un numero inferiore di combinazioni di offerte, in modo da poter eseguire il test per il numero di giorni desiderato.
 
    Se non disponi di traffico sufficiente, considera quanto segue:
 
-   * È consigliabile utilizzare un&#39;attività [Targeting automatico](/help/main/c-activities/auto-target/auto-target-to-optimize.md) invece di [!UICONTROL Automated Personalization] per creare esperienze con diverse modifiche all&#39;offerta in una variante di esperienza.
+   * È consigliabile utilizzare un&#39;attività [[!UICONTROL Auto-Target]](/help/main/c-activities/auto-target/auto-target-to-optimize.md) invece di [!UICONTROL Automated Personalization] per creare esperienze con diverse modifiche all&#39;offerta in una variante di esperienza.
    * Ridurre il numero di combinazioni di offerte all&#39;interno dell&#39;attività [!UICONTROL Automated Personalization].
    * Aumenta la durata dell&#39;attività.
 
    Regola i numeri finché [!UICONTROL Traffic Estimator] non indica che hai traffico sufficiente, quindi progetta il test di conseguenza.
 
-   ![Il Calcolatore del traffico mostra un messaggio di traffico sufficiente](assets/ap_est_yes.png)
+   ![Il Calcolatore del traffico mostra un messaggio di traffico sufficiente](assets/ap-est-yes.png)
 
    Se il traffico è sufficiente, l&#39;icona [!UICONTROL Traffic] mostra un segno di spunta verde. Se è insufficiente, l&#39;icona mostra un&#39;etichetta di avviso di colore rosso.
 
