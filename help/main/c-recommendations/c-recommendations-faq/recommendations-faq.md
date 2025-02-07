@@ -2,12 +2,12 @@
 keywords: risoluzione dei problemi;domande frequenti;FAQ;consigli;caratteri speciali;ponderazione degli attributi;somiglianza contenuti
 description: Visualizza un elenco di domande e risposte frequenti sulle  [!DNL Target Recommendations]  attività.
 title: Dove posso trovare domande e risposte su  [!DNL Recommendations]?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Vedi cosa è incluso in Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."
 feature: Recommendations
 exl-id: aaa52923-1c2d-44ae-bd89-671329222077
-source-git-commit: 25c520eec2983df39c43feb50447b5d6adccdf3f
+source-git-commit: 25b448ad99618dca8b5aa4b698976a3d9aa76dec
 workflow-type: tm+mt
-source-wordcount: '3485'
+source-wordcount: '3506'
 ht-degree: 84%
 
 ---
@@ -15,6 +15,10 @@ ht-degree: 84%
 # Domande frequenti sui consigli
 
 Elenco delle domande frequenti sulle attività relative alle attività di [!DNL Adobe Target] [!DNL Recommendations].
+
+## [!DNL Recommendations] oggetti creati tramite API vengono visualizzati nell&#39;interfaccia utente di [!DNL Target]?
+
+Sì, [!UICONTROL Recommendations] oggetti ([!UICONTROL Criteria], [!UICONTROL Designs], [!UICONTROL Collections] e [!UICONTROL Exclusions]) creati tramite API sono ora disponibili nell&#39;interfaccia utente.
 
 ## Posso gestire le offerte visive create dall&#39;interfaccia utente di [!DNL Target] utilizzando le API di [!DNL Target]?
 

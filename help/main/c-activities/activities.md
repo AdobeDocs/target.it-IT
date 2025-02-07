@@ -4,9 +4,9 @@ description: Personalizza contenuti e progetti di pagine di prova per tipi di pu
 title: Come posso personalizzare il contenuto e testare le progettazioni di pagine con  [!DNL Target]?
 feature: Activities
 exl-id: 7e61525d-b2db-44f6-a7c2-df5a8d28eca2
-source-git-commit: b7c7e8d85f7f39024ed5e57177e5c9f628460e9c
+source-git-commit: 25b448ad99618dca8b5aa4b698976a3d9aa76dec
 workflow-type: tm+mt
-source-wordcount: '2218'
+source-wordcount: '2237'
 ht-degree: 26%
 
 ---
@@ -31,8 +31,8 @@ La tabella seguente consente di comprendere vari elementi dell&#39;elenco [!UICO
 
 | Elemento | Descrizione |
 |--- |--- |
-| Icona [!UICONTROL Show filters]<P>![Icona Mostra filtri](/help/main/assets/icons/Filter.svg) | Per accedere ai filtri, fai clic sull&#39;icona **[!UICONTROL Show Filters]** nella parte superiore dell&#39;elenco per filtrare le attività in base a [!UICONTROL Type], [!UICONTROL Status], [!UICONTROL Reporting Source], [!UICONTROL Experience Composer], [!UICONTROL Metrics Type], [!UICONTROL Decisioning Source], [!UICONTROL Activity Source] e [!UICONTROL Properties].<P>Per ulteriori informazioni, vedere [Applica filtri all&#39;elenco [!UICONTROL Activities]](#filters) di seguito. |
-| Cerca campo | Trovare rapidamente un&#39;attività o ridurre il numero di attività visualizzate nell&#39;elenco [!UICONTROL Activity]. È possibile eseguire ricerche per [!UICONTROL Activity Name], [!UICONTROL URL] o [!UICONTROL ID] utilizzando il menu a discesa. |
+| Icona [!UICONTROL Show filters]<P>![Icona Mostra filtri](/help/main/assets/icons/Filter.svg) | Per accedere ai filtri, fai clic sull&#39;icona **[!UICONTROL Show Filters]** nella parte superiore dell&#39;elenco per filtrare le attività in base a [!UICONTROL Type], [!UICONTROL Status], [!UICONTROL Reporting Source], [!UICONTROL Experience Composer], [!UICONTROL Metrics Type], [!UICONTROL Decisioning Source], [!UICONTROL Activity Source] e [!UICONTROL Properties].<P>I filtri configurati rimangono invariati nella sessione corrente.<P>Per ulteriori informazioni, vedere [Applica filtri all&#39;elenco [!UICONTROL Activities]](#filters) di seguito. |
+| Cerca campo | Trovare rapidamente un&#39;attività o ridurre il numero di attività visualizzate nell&#39;elenco [!UICONTROL Activity]. È possibile eseguire ricerche per [!UICONTROL Activity Name], [!UICONTROL URL] o [!UICONTROL ID] utilizzando il menu a discesa.<P>Le opzioni di ricerca configurate sono permanenti nella sessione corrente. |
 | [!UICONTROL Create Activity] | Crea un’attività.<P>Per ulteriori informazioni sulla creazione dei vari tipi di attività, consulta: <ul><li>[Crea un&#39;attività [!UICONTROL A/B Test]](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)</li><li>[Crea un&#39;attività [!UICONTROL Auto-Allocate]](/help/main/c-activities/automated-traffic-allocation/create-auto-allocate-activity.md)</li><li>[Crea un&#39;attività [!UICONTROL Auto-Target]](/help/main/c-activities/auto-target/create-auto-target.md)</li><li>[Crea un&#39;attività [!UICONTROL Automated Personalization]](/help/main/c-activities/t-automated-personalization/create-ap-activity.md)</li><li>[Crea un&#39;attività [!UICONTROL Experience Targeting]](/help/main/c-activities/t-experience-target/t-xt-create/xt-create.md)</li><li>[Crea un&#39;attività](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/create-multivariate-test.md)</li><li>[Crea un&#39;attività [!UICONTROL Recommendations]](/help/main/c-recommendations/recommendations.md)</li></ul>Per ulteriori informazioni su ciascun tipo, vedi [Tipi di attività](#types) di seguito. |
 | [!UICONTROL Create mobile preview link]<P>![Menu altre azioni](/help/main/assets/icons/MoreVertical.svg) | Utilizza i [collegamenti di anteprima per dispositivi mobili](https://experienceleague.adobe.com/en/docs/target-dev/developer/mobile-apps/target-mobile-preview) per eseguire un controllo qualità end-to-end semplice per le attività delle app mobili.<P>Fai clic sull&#39;icona **Altre opzioni**, seleziona il **Crea collegamento di anteprima mobile**, quindi scegli le attività da testare su dispositivi mobili. |
 | Personalizza tabella<P>![Icona Personalizza tabella](/help/main/assets/icons/ColumnSetting.svg) | Modificare le colonne visualizzate nell&#39;elenco [!UICONTROL Activity] facendo clic sull&#39;icona **[!UICONTROL Customize Table]** in alto a destra della pagina, quindi selezionando o deselezionando le colonne desiderate.<P>Le modifiche vengono applicate al tuo account e rimangono attive anche dopo la disconnessione da [!DNL Target]. |
