@@ -4,7 +4,7 @@ description: Comprendere le modifiche introdotte nel Compositore esperienza visi
 title: Quali modifiche vengono introdotte nel nuovo Compositore esperienza visivo?
 feature: Visual Experience Composer (VEC)
 exl-id: 4c7a5657-93d9-4355-9d2b-c992b36bcb50
-source-git-commit: 3d6597c869d5959e34c6108d6c8b9bfa750ab6c6
+source-git-commit: 84a73954261c61a48c92b40b879937febaa57f24
 workflow-type: tm+mt
 source-wordcount: '643'
 ht-degree: 0%
@@ -57,7 +57,7 @@ Fai clic sull&#39;icona [!UICONTROL More Options] ( ![Icona Altre azioni](/help/
 
 ### [!UICONTROL Properties] pannello (nuovo)
 
-Il nuovo pannello [!UICONTROL Properties] consente di modificare le proprietà degli elementi selezionati nella pagina, siano essi elementi HTML o oggetti specifici di [!DNL Target], ad esempio consigli o offerte.
+Il nuovo pannello [!UICONTROL Properties] consente di modificare le proprietà degli elementi selezionati nella pagina, siano essi elementi di HTML o oggetti specifici di [!DNL Target], ad esempio consigli o offerte.
 
 ![Pannello Proprietà](/help/main/c-experiences/c-visual-experience-composer/assets/properties-panel.png)
 
