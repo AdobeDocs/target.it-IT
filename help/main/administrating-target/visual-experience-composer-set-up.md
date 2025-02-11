@@ -5,9 +5,9 @@ title: Come si configura il Compositore esperienza visivo?
 feature: Administration & Configuration
 role: Admin
 exl-id: cf6c9ece-6745-477e-81ac-a3e9a9fddb09
-source-git-commit: 484971ab0fcd07205935c0fef3ea1484f40c3e96
+source-git-commit: 457b02cb3cbaeee8ad9b56844891dd7e9f6f2d86
 workflow-type: tm+mt
-source-wordcount: '682'
+source-wordcount: '679'
 ht-degree: 49%
 
 ---
@@ -55,7 +55,12 @@ Questa opzione è utile se, ad esempio:
 
 L&#39;attivazione delle istantanee esperienza genera miniature per le tue esperienze nel diagramma del flusso di lavoro dell&#39;attività. La disabilitazione delle istantanee potrebbe determinare prestazioni più veloci per alcuni utenti.
 
-## [!BADGE Premium]{type=Positive url="/help/main/c-intro/intro.md#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."}
+## Configurazione di riquadri di visualizzazione per dispositivi mobili 
+
+>[!NOTE]
+>
+>Le impostazioni di [!UICONTROL Mobile Viewport Configuration] sono una funzionalità di [Target Premium](/help/main/c-intro/intro.md#premium).
+
 
 Puoi aggiungere dispositivi da utilizzare quando visualizzi le esperienze in anteprima. A ogni dispositivo è associato un pubblico.
 
