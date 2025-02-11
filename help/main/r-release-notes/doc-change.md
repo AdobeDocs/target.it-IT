@@ -4,10 +4,10 @@ description: Resta aggiornato sulle importanti aggiunte e modifiche apportate al
 title: Dove posso trovare la documentazione aggiornata per  [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 0c57e47f026e7eb597b92a12fb984596beb4486d
+source-git-commit: 3d6597c869d5959e34c6108d6c8b9bfa750ab6c6
 workflow-type: tm+mt
-source-wordcount: '119'
-ht-degree: 42%
+source-wordcount: '171'
+ht-degree: 34%
 
 ---
 
@@ -16,6 +16,13 @@ ht-degree: 42%
 Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Target].
 
 ## Aggiornamenti
+
+### [!DNL Target Standard/Premium] 25.2.1 (11 febbraio 2025)
+
+| Data | Argomento | Modifiche |
+|--- |--- |--- |
+| 11 febbraio | [Modifiche al Compositore esperienza visivo](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md) | Nuovo articolo per spiegare le differenze tra la versione precedente e quella aggiornata del Compositore esperienza visivo. |
+|  | Note sulla versione di [[!DNL Target]  (corrente)](/help/main/r-release-notes/release-notes.md) | Sono state aggiunte note sulla versione per l’aggiornamento all’interfaccia utente 25.2.1 di [!DNL Target Standard/Premium] (pianificato per l’11 febbraio 2025). Molti articoli sono stati aggiornati per riflettere le modifiche dell’interfaccia utente. |
 
 ### [!DNL Target Standard/Premium] 25.1.1 (9 gennaio 2025)
 

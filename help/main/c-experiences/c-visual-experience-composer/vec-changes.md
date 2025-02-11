@@ -4,9 +4,9 @@ description: Comprendere le modifiche introdotte nel Compositore esperienza visi
 title: Quali modifiche vengono introdotte nel nuovo Compositore esperienza visivo?
 feature: Visual Experience Composer (VEC)
 exl-id: 4c7a5657-93d9-4355-9d2b-c992b36bcb50
-source-git-commit: 75f44b7ea4c3aff0e33cc2ee54bc39a705deaf2a
+source-git-commit: 3d6597c869d5959e34c6108d6c8b9bfa750ab6c6
 workflow-type: tm+mt
-source-wordcount: '617'
+source-wordcount: '643'
 ht-degree: 0%
 
 ---
@@ -15,11 +15,15 @@ ht-degree: 0%
 
 La versione di [!DNL Adobe Target Standard/Premium] 25.2.1 (11 febbraio 2015) introduce una versione aggiornata di [!UICONTROL Visual Experience Composer] (VEC). Questo articolo spiega le differenze tra la versione precedente e quella aggiornata del Compositore esperienza visivo.
 
+>[!IMPORTANT]
+>
+>L&#39;aggiornamento di [!UICONTROL Visual Editing Composer] richiede l&#39;estensione [!DNL Adobe Experience Cloud] [[!UICONTROL Visual Editing Helper]](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) disponibile in Chrome Web Store.
+
 Il Compositore esperienza visivo viene visualizzato quando crei o modifichi un’attività esistente.
 
 ![Compositore esperienza visivo](/help/main/c-experiences/c-visual-experience-composer/assets/new-vec.png)
 
-## Modifiche principali
+## Modifiche principali al Compositore esperienza visivo
 
 Nelle sezioni seguenti vengono illustrate le principali modifiche apportate al Compositore esperienza visivo aggiornato rispetto alla versione precedente.
 
@@ -99,4 +103,6 @@ Il Compositore esperienza visivo aggiornato consente inoltre di ingrandire o rid
 
 La figura seguente mostra le modifiche di alto livello apportate all’interfaccia utente del Compositore esperienza visivo aggiornato. Nella parte superiore dell’illustrazione viene mostrata l’interfaccia utente del Compositore esperienza visivo aggiornata, mentre nella parte inferiore viene mostrata l’interfaccia utente precedente. Le frecce indicano dove sono stati spostati i vari elementi.
 
-![Confronto VEC-nuovo/i con interfaccia utente precedente](/help/main/c-experiences/c-visual-experience-composer/assets/vec-comparison.png)
+(Fai clic sull’immagine per espanderla fino alla larghezza completa del browser).
+
+![Confronto VEC-nuovo/i con interfaccia utente precedente](/help/main/c-experiences/c-visual-experience-composer/assets/vec-comparison.png){width="600" zoomable="yes"}
