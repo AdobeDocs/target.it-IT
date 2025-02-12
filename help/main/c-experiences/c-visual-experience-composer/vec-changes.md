@@ -4,16 +4,16 @@ description: Comprendere le modifiche introdotte nel Compositore esperienza visi
 title: Quali modifiche vengono introdotte nel nuovo Compositore esperienza visivo?
 feature: Visual Experience Composer (VEC)
 exl-id: 4c7a5657-93d9-4355-9d2b-c992b36bcb50
-source-git-commit: 84a73954261c61a48c92b40b879937febaa57f24
+source-git-commit: 3821d868f45b85d2f6f0e204f9828544b759067b
 workflow-type: tm+mt
-source-wordcount: '643'
+source-wordcount: '648'
 ht-degree: 0%
 
 ---
 
 # [!UICONTROL Visual Experience Composer] modifiche
 
-La versione di [!DNL Adobe Target Standard/Premium] 25.2.1 (11 febbraio 2015) introduce una versione aggiornata di [!UICONTROL Visual Experience Composer] (VEC). Questo articolo spiega le differenze tra la versione precedente e quella aggiornata del Compositore esperienza visivo.
+La versione di [!DNL Adobe Target Standard/Premium] 25.2.1 (12 febbraio 2015) introduce una versione aggiornata di [!UICONTROL Visual Experience Composer] (VEC). Questo articolo spiega le differenze tra la versione precedente e quella aggiornata del Compositore esperienza visivo.
 
 >[!IMPORTANT]
 >
@@ -41,7 +41,7 @@ Come nella versione precedente, il pannello [!UICONTROL Experiences] rimane sul 
 
 ![Pannello Componenti](/help/main/c-experiences/c-visual-experience-composer/assets/components-panel.png)
 
-Per aggiungere un nuovo componente, trascina il componente da inserire su un elemento di pagina esistente nell’area di modifica. Quindi scegli di inserire il componente prima di dopo l’elemento selezionato.
+Per aggiungere un nuovo componente, trascina il componente dal pannello Componenti che desideri inserire su un elemento di pagina esistente nell’area di lavoro Progettazione. Quindi scegli di inserire il componente prima di dopo l’elemento selezionato.
 
 Rispetto alla versione precedente del Compositore esperienza visivo, non puoi sostituire un elemento selezionato con un componente.
 

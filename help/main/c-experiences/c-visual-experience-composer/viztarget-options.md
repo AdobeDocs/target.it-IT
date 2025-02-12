@@ -4,21 +4,134 @@ description: Esplora le opzioni disponibili nel  [!DNL Adobe Target] [!UICONTROL
 title: Come si utilizzano le opzioni [!UICONTROL Visual Experience Composer] (VEC)?
 feature: Visual Experience Composer (VEC)
 exl-id: 50993d6c-5025-488a-8b33-9ed7c142de6e
-source-git-commit: 35699792dac84c93775aab9dde46d62c988e2838
+source-git-commit: 3821d868f45b85d2f6f0e204f9828544b759067b
 workflow-type: tm+mt
-source-wordcount: '1007'
-ht-degree: 14%
+source-wordcount: '1847'
+ht-degree: 9%
 
 ---
 
 # Opzioni del Compositore esperienza visivo
 
-Quando si fa clic su un elemento di pagina nel [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC), un menu mostra le opzioni disponibili per tale tipo di elemento. Inoltre, nella parte inferiore della pagina viene visualizzato un percorso DOM che consente di navigare facilmente nella struttura della pagina
+La versione di [!DNL Adobe Target Standard/Premium] 25.2.1 (12 febbraio 2015) introduce una versione aggiornata di [!UICONTROL Visual Experience Composer] (VEC). Questo articolo spiega l’interfaccia utente aggiornata e le relative opzioni.
+
+>[!IMPORTANT]
+>
+>L&#39;aggiornamento di [!UICONTROL Visual Editing Composer] richiede l&#39;estensione [!DNL Adobe Experience Cloud] [[!UICONTROL Visual Editing Helper]](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) disponibile nel Chrome Web Store.
+
+Il Compositore esperienza visivo viene visualizzato quando crei o modifichi un’attività esistente.
+
+![Compositore esperienza visivo](/help/main/c-experiences/c-visual-experience-composer/assets/new-vec.png)
+
+## Panoramica dell’interfaccia utente del Compositore esperienza visivo
+
+Nelle sezioni seguenti vengono illustrate le opzioni disponibili nel Compositore esperienza visivo aggiornato per un&#39;attività [!UICONTROL A/B Test]. Le opzioni variano a seconda del tipo di attività.
+
+### Pannello [!UICONTROL Experiences]
+
+Il pannello [!UICONTROL Experiences] viene visualizzato nella barra a sinistra del Compositore esperienza visivo.
+
+![Pannello Esperienze](/help/main/c-experiences/c-visual-experience-composer/assets/experiences-panel.png)
+
+È possibile visualizzare, creare, rinominare o rimuovere esperienze utilizzando il pannello [!UICONTROL Experiences].
+
+Nel pannello [!UICONTROL Experiences] sono disponibili le seguenti opzioni:
+
+* **Visualizza un&#39;esperienza**: per visualizzarla, fare clic sull&#39;esperienza desiderata per visualizzarla nell&#39;area di lavoro [!UICONTROL Design].
+* **Aggiungi un&#39;esperienza**: fai clic sull&#39;icona **[!UICONTROL Add]** ( ![Aggiungi icona](/help/main/assets/icons/Add.svg) ) per aggiungere una nuova esperienza. Configura la nuova esperienza come desideri.
+* **Rinominare un&#39;esperienza**: fare clic sull&#39;icona **[!UICONTROL Rename]** ( ![icona Rinomina](/help/main/assets/icons/Rename.svg) ) per visualizzare la finestra di dialogo [!UICONTROL Rename Experience]. Specificare il nuovo nome, quindi fare clic su **[!UICONTROL Save]**.
+* **Duplicare, eliminare o reindirizzare un&#39;esperienza**: fai clic sull&#39;icona **[!UICONTROL More Actions]** ( ![Icona altre azioni](/help/main/assets/icons/MoreSmall.svg) ), quindi scegli **[!UICONTROL Duplicate]**, **[!UICONTROL Delete]** o **[!UICONTROL Redirect to URL]**.
+
+### Impostazioni/configurazione delle attività
+
+Fai clic sull&#39;icona [!UICONTROL Configure] ( ![icona Configura](/help/main/assets/icons/Setting.svg) ) visualizzata sopra l&#39;area di lavoro [!UICONTROL Design] per visualizzare il menu delle proprietà dell&#39;attività.
+
+![Opzioni di configurazione attività](/help/main/c-experiences/c-visual-experience-composer/assets/configure-options.png)
+
+Sono disponibili le seguenti opzioni:
+
+* **[!UICONTROL Properties]**: Assegna proprietà all&#39;attività o rimuovi le proprietà dall&#39;attività. [!UICONTROL Properties] è una funzionalità ([[!DNL Target Premium]](/help/main/c-intro/intro.md#premium)). Per ulteriori informazioni, consulta [Autorizzazioni per gli utenti Enterprise](/help/main/administrating-target/c-user-management/property-channel/property-channel.md).
+* **[!UICONTROL Page Delivery]**: Includi la stessa esperienza in pagine simili del tuo sito. Utilizza un modello di pagina per fornire una struttura alle pagine o, se le pagine contengono elementi simili, per testare le varianti di elementi di pagina con struttura simile o per l’intero dominio. Per ulteriori informazioni, vedere [Includere la stessa esperienza in pagine simili](/help/main/c-experiences/c-visual-experience-composer/temtest.md).
+* **[!UICONTROL Site Preferences]**: Configura le preferenze del sito per specificare come [!DNL Target] genera selettori CSS. Per ulteriori informazioni, vedere _Selettori CSS_ in [Configurare [!UICONTROL Visual Experience Composer]](/help/main/administrating-target/visual-experience-composer-set-up.md).
+* **Aggiungi pagine aggiuntive**: aggiungi ulteriori pagine all&#39;attività per creare un&#39;attività multipagina che ti consenta di creare una storia su più pagine, con una progettazione specifica per ogni pagina. Per ulteriori informazioni, vedere [Attività multipagina](/help/main/c-experiences/c-visual-experience-composer/multipage-activity.md).
+* **Pubblico singolo**: utilizza un solo pubblico per l&#39;attività.
+* **Più tipi di pubblico**: assegna più tipi di pubblico all&#39;attività. Fai clic sull&#39;icona Aggiungi pubblico ( ![icona Aggiungi](/help/main/assets/icons/Add.svg) ), quindi seleziona uno o più tipi di pubblico dall&#39;elenco. È inoltre possibile [combinare tipi di pubblico](/help/main/c-target/combining-multiple-audiences.md) o [creare un nuovo pubblico](/help/main/c-target/c-audiences/create-audience.md) dalla finestra di dialogo [!UICONTROL Add Audiences].
+
+### [!UICONTROL Design]/[!UICONTROL Browse] modalità
+
+Utilizza gli interruttori [!UICONTROL Design]/[!UICONTROL Browse] visualizzati sopra l&#39;area di progettazione per passare dalla modalità progettazione alla modalità navigazione.
+
+![Attiva/disattiva progettazione e navigazione](/help/main/c-experiences/c-visual-experience-composer/assets/design-browse-mode.png)
+
+Utilizza la modalità [!UICONTROL Browse] per navigare nel tuo sito e scegliere la visualizzazione o la pagina che desideri aggiornare. Torna alla modalità [!UICONTROL Design] per aggiungere o modificare le modifiche.
+
+### [!UICONTROL Undo]/[!UICONTROL Redo]
+
+Per annullare le modifiche apportate, fare clic sull&#39;icona [!UICONTROL Undo] ( ![icona Annulla](/help/main/assets/icons/Undo.svg) ).
+
+![Icona Annulla nel Compositore esperienza visivo](/help/main/c-experiences/c-visual-experience-composer/assets/undo.png)
+
+Per ripristinare un&#39;azione, espandere il gruppo di pulsanti Annulla/[!UICONTROL Redo] e scegliere [!UICONTROL Redo].
+
+### Pannello [!UICONTROL Components]
+
+È possibile aggiungere diversi componenti alla pagina Web e modificarli in base alle esigenze utilizzando il nuovo pannello [!UICONTROL Components].
+
+![Pannello Componenti](/help/main/c-experiences/c-visual-experience-composer/assets/components-panel.png)
 
 >[!NOTE]
 >
->La versione di [!DNL Target Standard/Premium] 25.2.1 (12 febbraio 2025) includeva una versione aggiornata del Compositore esperienza visivo. Per informazioni sulle differenze tra il Compositore esperienza visivo aggiornato e la versione precedente, vedi [Modifiche al Compositore esperienza visivo](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md).
+>Se in quest&#39;area è visualizzato il pannello [!UICONTROL Modifications] anziché il pannello [!UICONTROL Components], fare clic sull&#39;icona **[!UICONTROL Show Components]** ( ![icona Mostra componenti](/help/main/assets/icons/Add.svg) ). L&#39;icona [!UICONTROL Show Components] ( ![icona Mostra componenti](/help/main/assets/icons/Add.svg) ) e l&#39;icona [!UICONTROL Show Modifications] ( ![Mostra pannello modifiche](/help/main/assets/icons/History.svg) ) consentono di visualizzare le opzioni appropriate.
 
+Per aggiungere un nuovo componente a un’esperienza:
+
+1. Fai clic sul componente desiderato da aggiungere per evidenziarlo.
+
+   I componenti disponibili sono raggruppati in contenitori logici:
+
+   * [!UICONTROL Basic]
+      * [!UICONTROL Divider]
+      * [!UICONTROL HTML]
+      * [!UICONTROL Image]
+   * [!UICONTROL Text]
+      * [!UICONTROL Heading]
+      * [!UICONTROL Paragraph]
+      * [!UICONTROL Link]
+   * [!UICONTROL Dynamic]
+      * [[!UICONTROL Recommendation]](/help/main/c-recommendations/recommendations-as-an-offer.md)
+      * [[!UICONTROL Experience Fragment]](/help/main/c-integrating-target-with-mac/aem/experience-fragments-aem.md)
+      * [[!UICONTROL HTML Offer]](/help/main/c-experiences/c-manage-content/manage-content.md)
+
+1. Trascinare il componente su un elemento di pagina esistente nell&#39;area di lavoro [!UICONTROL Design].
+1. Scegli di inserire il componente prima di dopo l’elemento selezionato.
+
+   Rispetto alla versione precedente del Compositore esperienza visivo, non puoi sostituire un elemento selezionato con un componente.
+
+### Pannello [!UICONTROL Modifications]
+
+Per aprire il pannello [!UICONTROL Modifications], fai clic sull&#39;icona [!UICONTROL Show Modifications] ( ![Mostra pannello Modifiche](/help/main/assets/icons/History.svg) ) nel pannello [!UICONTROL Components].
+
+![Pannello delle modifiche](/help/main/c-experiences/c-visual-experience-composer/assets/modifications-panel.png)
+
+>[!NOTE]
+>
+>L&#39;icona [!UICONTROL Show Components] ( ![icona Mostra componenti](/help/main/assets/icons/Add.svg) ) e l&#39;icona [!UICONTROL Show Modifications] ( ![Mostra pannello modifiche](/help/main/assets/icons/History.svg) ) consentono di visualizzare le opzioni appropriate.
+
+Il pannello [!UICONTROL Modifications] mostra tutte le modifiche apportate alla pagina nel Compositore esperienza visivo di [!UICONTROL Visual Experience Composer] e consente di apportare ulteriori modifiche (ad esempio selettore CSS, Mbox e codice personalizzato).
+
+Fai clic sull&#39;icona **[!UICONTROL More Options]** ( ![Icona Altre azioni](/help/main/assets/icons/MoreSmall.svg) ) nell&#39;intestazione del pannello per aggiungere una modifica, eliminare tutte le modifiche o eliminare tutte le modifiche non valide. Fare clic su [!UICONTROL Select] per eseguire operazioni in blocco: [!UICONTROL Apply to All Pages] o [!UICONTROL Delete].
+
+Fai clic sull&#39;icona **[!UICONTROL More Options]** ( ![Icona Altre azioni](/help/main/assets/icons/MoreSmall.svg) ) accanto a ciascuna modifica per visualizzarne le informazioni, eliminare la modifica o applicare la modifica a più viste.
+
+### [!UICONTROL Design] area di lavoro
+
+L&#39;area di lavoro [!UICONTROL Design] consente di selezionare i riquadri di visualizzazione, inclusi quelli adatti allo schermo, [!UICONTROL Desktop], [!UICONTROL Tablet], [!UICONTROL Mobile Landscape] e [!UICONTROL Mobile Portrait]. Per impostazione predefinita, l&#39;area di lavoro adatta la pagina allo schermo insieme ai riquadri di visualizzazione definiti nella sezione [Amministrazione](/help/main/administrating-target/visual-experience-composer-set-up.md).
+
+![Opzioni riquadro di visualizzazione](/help/main/c-experiences/c-visual-experience-composer/assets/viewports.png)
+
+È inoltre possibile ingrandire o ridurre facendo clic sull&#39;icona appropriata ( ![icona Zoom avanti](/help/main/assets/icons/ZoomIn.svg) o ![icona Zoom indietro](/help/main/assets/icons/ZoomOut.svg) ).
+
+Quando si fa clic su un elemento di pagina nell&#39;area di lavoro [!UICONTROL Design], un menu mostra le opzioni disponibili per tale tipo di elemento. Inoltre, nella parte inferiore della pagina viene visualizzato un percorso DOM che consente di navigare facilmente nella struttura della pagina.
 
 Le varie azioni di [!UICONTROL Visual Experience Composer] (VEC) sono raggruppate nelle opzioni di menu appropriate per rendere il processo più veloce ed efficiente:
 
@@ -26,15 +139,29 @@ Le varie azioni di [!UICONTROL Visual Experience Composer] (VEC) sono raggruppat
 
 >[!NOTE]
 >
->Le opzioni disponibili dipendono dal tipo di attività e dall’elemento che stai creando o modificando. Le sezioni seguenti contengono informazioni sulle varie opzioni per le immagini e il testo.
+>Le opzioni disponibili dipendono dal tipo di attività e dall’elemento che stai creando o modificando. Per ulteriori informazioni sulla modifica di immagini e offerte in un&#39;attività [!UICONTROL A/B Test], vedere [Modificare elementi utilizzando l&#39;area di lavoro [!UICONTROL Design]](#design) di seguito.
 
-## Opzioni immagine
+### Pannello [!UICONTROL Properties]
+
+Il pannello [!UICONTROL Properties] consente di modificare le proprietà degli elementi selezionati nella pagina, siano essi elementi di HTML o oggetti specifici di [!DNL Target], ad esempio consigli o offerte.
+
+![Pannello Proprietà](/help/main/c-experiences/c-visual-experience-composer/assets/properties-panel.png)
+
+Fai clic sulle icone nella parte superiore del pannello per modificare il codice HTML o eliminare, duplicare o nascondere gli elementi. Le modifiche vengono visualizzate nel pannello [!UICONTROL Modifications].
+
+Il pannello [!UICONTROL Properties] è comprimibile nella barra a destra. Fare clic sull&#39;icona [!UICONTROL Show/Hide Properties] ( ![icona Proprietà](/help/main/assets/icons/Propertie.svg) ) a destra del pannello per comprimere o visualizzare il pannello [!UICONTROL Properties].
+
+## Modifica elementi utilizzando l&#39;area di lavoro [!UICONTROL Design] {#design}
+
+Nelle sezioni seguenti viene illustrato come modificare immagini e testo nell&#39;area di lavoro [!UICONTROL Design]. L’area di lavoro Progettazione, insieme ai pannelli Componenti, Modifiche e Proprietà, ti offre potenti strumenti per creare facilmente esperienze per le tue attività.
+
+### Opzioni immagine
 
 Se si fa clic su un&#39;immagine in un&#39;attività [!UICONTROL A/B Test], il Compositore esperienza visivo sarà simile a quello dell&#39;illustrazione seguente:
 
 ![Compositore esperienza visivo con immagine selezionata](/help/main/c-experiences/c-visual-experience-composer/assets/vec-image.png)
 
-Selezionate i componenti dal frame Componenti (Components) sul lato sinistro per inserire i seguenti elementi:
+Selezionare i componenti dal frame [!UICONTROL Components] sul lato sinistro per inserire i seguenti elementi:
 
 * Base (divisore, HTML, immagine).
 * Testo (intestazione, paragrafo, collegamento).
@@ -47,7 +174,7 @@ Il menu nella parte superiore dell’immagine consente di effettuare le seguenti
 * Aggiungi personalizzazione ( ![Icona Aggiungi Personalization](/help/main/assets/icons/PersonalizationField.svg) ).
 * Elimina l&#39;immagine ( ![Icona Elimina](/help/main/assets/icons/Delete.svg) ).
 
-La cornice a destra consente di configurare ulteriormente le proprietà dell&#39;immagine.
+Il riquadro [!UICONTROL Properties] a destra consente di configurare ulteriormente le proprietà dell&#39;immagine.
 
 Le icone nella parte superiore della cornice consentono di effettuare le seguenti operazioni:
 
@@ -67,7 +194,7 @@ Le opzioni nel riquadro destro consentono di effettuare le seguenti operazioni:
 * Configura gli effetti dell&#39;elemento (opacità). Fare clic su [!UICONTROL Show Advanced Options] per configurare i valori di seppia, scala di grigio, contrasto, luminosità e sfocatura dell&#39;immagine. Potete anche invertire o ruotare l&#39;immagine.
 * Configura gli stili in linea dell’immagine.
 
-## Opzioni testo
+### Opzioni testo
 
 Se fai clic sul testo in un&#39;attività [!UICONTROL A/B Test], il Compositore esperienza visivo si presenta simile all&#39;illustrazione seguente:
 
@@ -88,12 +215,12 @@ Il menu nella parte superiore dell’elemento di testo consente di effettuare le
 * Configurare gli attributi del testo (grassetto, corsivo, sottolineato o barrato) ( ![Icona Attributi testo](/help/main/assets/icons/Text.svg) ).
 * Configurare l&#39;allineamento del testo (a sinistra, al centro, a destra, giustifica) ( ![Icona Allineamento testo](/help/main/assets/icons/TextAlignCenter.svg) ).
 * Inserire un collegamento ( ![Icona Inserisci collegamento](/help/main/assets/icons/Link.svg) ).
-* Sostituisci il contenuto con un&#39;offerta HTML, [Frammento esperienza](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md) o [Consiglio]/help/main/c-recommendations/recommendations-as-an-offer.md).
+* Sostituisci il contenuto con un&#39;offerta HTML, [Frammento esperienza](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md) o [Consiglio](/help/main/c-recommendations/recommendations-as-an-offer.md).
 * Modificare HTML ( ![Icona Inserisci HTML](/help/main/assets/icons/Code.svg) ).
 * Aggiungi personalizzazione ( ![Icona Aggiungi Personalization](/help/main/assets/icons/PersonalizationField.svg) ).
 * Elimina l&#39;immagine ( ![Icona Elimina](/help/main/assets/icons/Delete.svg) ).
 
-La cornice a destra consente di configurare ulteriormente le proprietà del testo.
+Il pannello [!UICONTROL Properties] a destra consente di configurare ulteriormente le proprietà del testo.
 
 Le icone nella parte superiore della cornice consentono di effettuare le seguenti operazioni:
 
@@ -115,7 +242,7 @@ Le opzioni nel riquadro destro consentono di effettuare le seguenti operazioni:
 * Configura gli effetti dell&#39;elemento (opacità). Fare clic su [!UICONTROL Show Advanced Options] per configurare i valori di seppia, scala di grigio, contrasto, luminosità e sfocatura dell&#39;immagine. Potete anche invertire o ruotare il testo.
 * Configura gli stili in linea.
 
-## Edit HTML (Modifica HTML) {#html}
+## Edit HTML (Modifica HTML)
 
 Oltre al codice HTML, puoi modificare e inserire codice JavaScript personalizzato.
 
