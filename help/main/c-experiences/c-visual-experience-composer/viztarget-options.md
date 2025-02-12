@@ -1,10 +1,10 @@
 ---
-keywords: opzioni compositore esperienza visivo;opzioni compositore esperienza;opzioni esperienza;modifica testo;modifica html;modifica testo/html;modifica colore di sfondo;colore di sfondo;inserire elemento;modifica collegamento;collegamento;collegamento;collegamento compositore esperienza visivo;modifica classe css;classe css;sostituire offerta;scambiare immagine;scambiare immagine;rimuovere elemento;rimuovere elemento;elemento rimuovere;nascondere elemento;nascondere elemento;ridisporre;spostare elemento;spostare elemento;ridimensionare elemento;ridimensionare elemento;elemento;espandere la selezione;passare a questo collegamento;passare al collegamento;passare al collegamento;navigare;passare;collegamento;annullare;ripetere;annullare/ripetere;eventi personalizzati;componenti web;decisione offerta;offer decisioning
+keywords: opzioni compositore esperienza visivo;opzioni compositore esperienza;opzioni esperienza;modifica testo;modifica html;modifica testo/html;modifica colore di sfondo;colore di sfondo;inserire elemento;modifica collegamento;collegamento;collegamento;collegamento compositore esperienza visivo;modifica classe css;classe css;sostituire offerta;scambiare offerta;scambiare immagine;sostituire immagine;rimuovere elemento;rimuovere elemento;nascondere elemento;nascondere elemento;nascondere elemento;ridisporre;spostare elemento;spostare elemento;ridimensionare elemento;ridimensionare elemento;elemento;espandere selezione;passare a questo collegamento;passare al collegamento;passare al collegamento;navigare;passare;collegamento;annullare;ripetere;annullare/ripetere;eventi personalizzati;componenti web;decisione offerta;decisione offerta
 description: Esplora le opzioni disponibili nel  [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC).
 title: Come si utilizzano le opzioni [!UICONTROL Visual Experience Composer] (VEC)?
 feature: Visual Experience Composer (VEC)
 exl-id: 50993d6c-5025-488a-8b33-9ed7c142de6e
-source-git-commit: 457b02cb3cbaeee8ad9b56844891dd7e9f6f2d86
+source-git-commit: 35699792dac84c93775aab9dde46d62c988e2838
 workflow-type: tm+mt
 source-wordcount: '1007'
 ht-degree: 14%
@@ -17,7 +17,7 @@ Quando si fa clic su un elemento di pagina nel [!DNL Adobe Target] [!UICONTROL V
 
 >[!NOTE]
 >
->La versione di [!DNL Target Standard/Premium] 25.2.1 (11 febbraio 2025) includeva una versione aggiornata del Compositore esperienza visivo. Per informazioni sulle differenze tra il Compositore esperienza visivo aggiornato e la versione precedente, vedi [Modifiche al Compositore esperienza visivo](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md).
+>La versione di [!DNL Target Standard/Premium] 25.2.1 (12 febbraio 2025) includeva una versione aggiornata del Compositore esperienza visivo. Per informazioni sulle differenze tra il Compositore esperienza visivo aggiornato e la versione precedente, vedi [Modifiche al Compositore esperienza visivo](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md).
 
 
 Le varie azioni di [!UICONTROL Visual Experience Composer] (VEC) sono raggruppate nelle opzioni di menu appropriate per rendere il processo più veloce ed efficiente:
@@ -51,7 +51,7 @@ La cornice a destra consente di configurare ulteriormente le proprietà dell&#39
 
 Le icone nella parte superiore della cornice consentono di effettuare le seguenti operazioni:
 
-* Modificare il HTML ( ![Icona Inserisci HTML](/help/main/assets/icons/Code.svg) ). Per ulteriori informazioni, consulta [Modifica HTML](#html).
+* Modificare HTML ( ![Icona Inserisci HTML](/help/main/assets/icons/Code.svg) ). Per ulteriori informazioni, vedere [Modifica HTML](#html).
 * Duplica l&#39;immagine ( ![Icona Duplica](/help/main/assets/icons/Code.svg) ).
 * Elimina l&#39;immagine ( ![Icona Elimina](/help/main/assets/icons/Delete.svg) ).
 * Nascondi l&#39;immagine ( ![Icona Nascondi](/help/main/assets/icons/VisibilityOff.svg) ).
@@ -88,8 +88,8 @@ Il menu nella parte superiore dell’elemento di testo consente di effettuare le
 * Configurare gli attributi del testo (grassetto, corsivo, sottolineato o barrato) ( ![Icona Attributi testo](/help/main/assets/icons/Text.svg) ).
 * Configurare l&#39;allineamento del testo (a sinistra, al centro, a destra, giustifica) ( ![Icona Allineamento testo](/help/main/assets/icons/TextAlignCenter.svg) ).
 * Inserire un collegamento ( ![Icona Inserisci collegamento](/help/main/assets/icons/Link.svg) ).
-* Sostituisci il contenuto con un&#39;offerta HTML, [Frammento di esperienza](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md) o [Consiglio]/help/main/c-recommendations/recommendations-as-an-offer.md).
-* Modificare il HTML ( ![Icona Inserisci HTML](/help/main/assets/icons/Code.svg) ).
+* Sostituisci il contenuto con un&#39;offerta HTML, [Frammento esperienza](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md) o [Consiglio]/help/main/c-recommendations/recommendations-as-an-offer.md).
+* Modificare HTML ( ![Icona Inserisci HTML](/help/main/assets/icons/Code.svg) ).
 * Aggiungi personalizzazione ( ![Icona Aggiungi Personalization](/help/main/assets/icons/PersonalizationField.svg) ).
 * Elimina l&#39;immagine ( ![Icona Elimina](/help/main/assets/icons/Delete.svg) ).
 
@@ -97,7 +97,7 @@ La cornice a destra consente di configurare ulteriormente le proprietà del test
 
 Le icone nella parte superiore della cornice consentono di effettuare le seguenti operazioni:
 
-* Modificare il HTML ( ![Icona Inserisci HTML](/help/main/assets/icons/Code.svg) ). Per ulteriori informazioni, consulta [Modifica HTML](#html).
+* Modificare HTML ( ![Icona Inserisci HTML](/help/main/assets/icons/Code.svg) ). Per ulteriori informazioni, vedere [Modifica HTML](#html).
 * Testo duplicato ( ![Icona duplicata](/help/main/assets/icons/Code.svg) ).
 * Eliminare il testo ( ![Icona Elimina](/help/main/assets/icons/Delete.svg) ).
 * Nascondi il testo ( ![Icona Nascondi](/help/main/assets/icons/VisibilityOff.svg) ).
@@ -119,7 +119,7 @@ Le opzioni nel riquadro destro consentono di effettuare le seguenti operazioni:
 
 Oltre al codice HTML, puoi modificare e inserire codice JavaScript personalizzato.
 
-Sono disponibili diverse opzioni di formattazione per modificare testo e HTML per le attività [!UICONTROL A/B] e [!UICONTROL Experience Targeting]. Puoi scegliere font e stile, l’allineamento del testo e altre opzioni standard per la formattazione del testo. Quando si modifica HTML, è possibile alternare tra la visualizzazione del codice e la visualizzazione di modifica avanzata di HTML.
+Sono disponibili diverse opzioni di formattazione per modificare il testo e HTML per le attività [!UICONTROL A/B] e [!UICONTROL Experience Targeting]. Puoi scegliere font e stile, l’allineamento del testo e altre opzioni standard per la formattazione del testo. Quando si modifica HTML, è possibile passare dalla vista codice alla vista di modifica avanzata di HTML e viceversa.
 
 I seguenti tag HTML5 possono essere nidificati:
 
