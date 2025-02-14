@@ -4,7 +4,7 @@ description: Resta aggiornato sulle importanti aggiunte e modifiche apportate al
 title: Dove posso trovare la documentazione aggiornata per  [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 3aeac3344c2bbc2a44da80b5a359e55c9419b59b
+source-git-commit: e4263593b9279847c565396c7b11d55c503b5507
 workflow-type: tm+mt
 source-wordcount: '221'
 ht-degree: 30%
@@ -17,7 +17,7 @@ Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Targ
 
 ## Aggiornamenti
 
-### [!DNL Target Standard/Premium] 25.2.1 (12 febbraio 2025)
+### [!DNL Target Standard/Premium] 25.2.1 (17 febbraio 2025)
 
 | Data | Argomento | Modifiche |
 |--- |--- |--- |
