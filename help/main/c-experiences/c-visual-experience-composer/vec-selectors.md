@@ -1,12 +1,12 @@
 ---
 keywords: Targeting delle esperienze;test pagina di destinazione
-description: Un selettore di elementi è un’espressione CSS che può identificare uno o più elementi. Scopri come utilizzare i selettori di elementi nel Compositore esperienza visivo (VEC) di Adobe [!DNL Target] .
+description: Un selettore di elementi è un’espressione CSS che può identificare uno o più elementi. Scopri come utilizzare i selettori di elementi nel Compositore esperienza visivo di Adobe [!DNL Target] .
 title: Posso utilizzare i selettori di elementi nel Compositore esperienza visivo?
 feature: Visual Experience Composer (VEC)
 exl-id: f4ddb30a-f599-4fe5-861c-2deeeb9a70dd
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: 52f11998149cddeb4245a0f07280562d79332a04
 workflow-type: tm+mt
-source-wordcount: '403'
+source-wordcount: '390'
 ht-degree: 85%
 
 ---
@@ -27,7 +27,7 @@ Puoi specificare se utilizzare l’ID o la classe degli elementi nelle preferenz
 
 Per informazioni su quando utilizzare selettori CSS e quando utilizzare ID univoci, consulta [Best practice e limitazioni del Compositore esperienza visivo](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#concept_E284B3F704C04406B174D9050A2528A6).
 
-## Adobe [!DNL Target]: generazione di un selettore per un elemento {#section_D89D954BCBFB486CA081BE183776A475}
+## Come Adobe [!DNL Target] genera un selettore per un elemento {#section_D89D954BCBFB486CA081BE183776A475}
 
 Target utilizza un semplice algoritmo per creare un selettore. Ecco una brevissima spiegazione della logica di generazione:
 
@@ -91,8 +91,6 @@ Target utilizza un semplice algoritmo per creare un selettore. Ecco una brevissi
    ```
 
    Selettore: `#container` > `ul.navigation(0)` > `li:nth-of-type(4)`
-
-   Puoi scoprire di più su [nth-of-type nella pagina web dei trucchi per CSS](https://css-tricks.com/almanac/selectors/n/nth-of-type/).
 
 Nel processo sopra indicato:
 

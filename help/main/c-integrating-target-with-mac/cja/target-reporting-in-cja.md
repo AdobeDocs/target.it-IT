@@ -4,9 +4,9 @@ description: Utilizza  [!DNL Target] creazione di rapporti in [!DNL Adobe Custom
 title: Cos'è il reporting di  [!DNL Target]  in [!DNL Adobe Customer Journey Analytics]?
 feature: Integrations
 exl-id: 67b20bf6-ffbe-4220-9455-cb3886bb9227
-source-git-commit: 5e86d3a95dad291f6c876f126568ba685ff32670
+source-git-commit: 52f11998149cddeb4245a0f07280562d79332a04
 workflow-type: tm+mt
-source-wordcount: '1038'
+source-wordcount: '1037'
 ht-degree: 54%
 
 ---
@@ -19,7 +19,7 @@ I vantaggi principali dell’utilizzo di [!DNL Customer Journey Analytics] come 
 
 * Gli addetti al marketing possono applicare dinamicamente le metriche di successo di [!DNL Customer Journey Analytics] ai rapporti delle attività di [!DNL Target] in qualsiasi momento. Non è necessario specificare tutte le impostazioni prima di eseguire l’attività.
 * Gli addetti al marketing possono sfruttare le funzionalità di [!DNL Customer Journey Analytics], ad esempio il [pannello Sperimentazione](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/panels/experimentation){target=_blank}, per analizzare ulteriormente la personalizzazione del sito Web.
-* Gli addetti al marketing possono avere un&#39;unica origine per la generazione di rapporti per [[!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/reporting/cja-ajo){target=_blank} e [!DNL Target]. Entrambi i prodotti di personalizzazione possono essere collegati a [!DNL Customer Journey Analytics] per una visione più olistica della personalizzazione web.
+* Gli addetti al marketing possono avere un&#39;unica origine per la generazione di rapporti per [!DNL Adobe Journey Optimizer] e [!DNL Target]. Entrambi i prodotti di personalizzazione possono essere collegati a [!DNL Customer Journey Analytics] per una visione più olistica della personalizzazione web.
 
 ## Considerazioni
 
@@ -53,7 +53,7 @@ Prima di utilizzare l&#39;integrazione di [!DNL Customer Journey Analytics] e [!
 
 ## Tipi di attività supportati {#supported-activities}
 
-I seguenti tipi di attività sono supportati quando si utilizza [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/aep-web-sdk){target=_blank} o la libreria JavaScript [at.js](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/overview){target=_blank}:
+I seguenti tipi di attività sono supportati quando si utilizza la libreria JavaScript [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/aep-web-sdk){target=_blank} o [at.js](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/overview){target=_blank}:
 
 | Tipi di attività | Supportate? |
 |--- |--- |

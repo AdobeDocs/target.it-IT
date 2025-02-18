@@ -4,9 +4,9 @@ description: Leggi i suggerimenti del nostro gruppo di esperti sull’utilizzo d
 title: Dove posso trovare suggerimenti per l’utilizzo di Target?
 feature: Overview
 exl-id: 86437ad1-83ea-4670-b503-6c3c1fff0c16
-source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
+source-git-commit: 52f11998149cddeb4245a0f07280562d79332a04
 workflow-type: tm+mt
-source-wordcount: '2890'
+source-wordcount: '2883'
 ht-degree: 72%
 
 ---
@@ -33,7 +33,7 @@ La fusione dei tipi di pubblico che vivono in diverse soluzioni [!DNL Adobe Expe
 
 Per istruzioni dettagliate, consulta [Combinazione di più tipi di pubblico](/help/main/c-target/combining-multiple-audiences.md).
 
-**Buono a sapersi**: [!DNL Adobe Audience Manager] i tipi di pubblico sono disponibili in [!DNL Target] automaticamente. Ma la condivisione del pubblico [!DNL Adobe Analytics] richiede una configurazione manuale. È sufficiente selezionare la casella con l&#39;etichetta &quot;Rendi questo un pubblico di Experience Cloud&quot; durante il processo di creazione del pubblico in [!DNL Analytics]. Quindi, da [!DNL Target], fai clic su &quot;Importa tipi di pubblico di Experience Cloud&quot;.
+**Buono a sapersi**: [!DNL Adobe Audience Manager] i tipi di pubblico sono disponibili in [!DNL Target] automaticamente. Ma la condivisione del pubblico [!DNL Adobe Analytics] richiede una configurazione manuale. È sufficiente selezionare la casella con l&#39;etichetta &quot;Rendi questo un pubblico Experience Cloud&quot; durante il processo di creazione del pubblico in [!DNL Analytics]. Quindi da [!DNL Target], fai clic su &quot;Importa tipi di pubblico di Experience Cloud&quot;.
 
 ## Suggerimento 3: esporta dati da [!DNL Target] da utilizzare con strumenti di terze parti.
 
@@ -79,7 +79,7 @@ Per istruzioni dettagliate, consulta [Attività multipagina](/help/main/c-experi
 
 Con le versioni Experience, puoi eseguire un test con varianti per un numero illimitato di tipi di pubblico. Ad esempio, puoi creare un banner pubblicitario che offre la spedizione gratuita, con immagini e variazioni di valuta per i clienti negli Stati Uniti, nel Regno Unito e negli Emirati Arabi Uniti, senza dover eseguire test per tre tipi di pubblico diversi.
 
-Per istruzioni dettagliate, consulta [Più tipi di pubblico in un test A/B](/help/main/c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences.md) e [Versioni di Experience in Adobe Target](https://helpx.adobe.com/it/target/how-to/experience-versions.html?playlist=/ccx/v1/collection/product/target/seg-%20ment/business-practitioners/explevel/beginner-adls/applaunch/how-to-2/collection.ccx.js?ref=helpx.adobe.com).
+Per istruzioni dettagliate, consulta [Più tipi di pubblico di esperienza in un test A/B](/help/main/c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences.md).
 
 ## Suggerimento 8: risparmia tempo replicando esperienze di attività su pagine simili.
 

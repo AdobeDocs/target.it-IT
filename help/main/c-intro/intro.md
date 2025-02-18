@@ -6,10 +6,10 @@ short-description: Personalizza l’esperienza dei clienti per massimizzare le e
 title: Cos’è Target?
 feature: Overview
 exl-id: 0e729c71-618b-4ab8-93a3-d37e73ec2740
-source-git-commit: 207095a1db483abcc59f7806a67e559ee8694397
+source-git-commit: 52f11998149cddeb4245a0f07280562d79332a04
 workflow-type: tm+mt
-source-wordcount: '1020'
-ht-degree: 73%
+source-wordcount: '1019'
+ht-degree: 72%
 
 ---
 
@@ -67,7 +67,7 @@ Un consiglio determina in che modo un prodotto viene suggerito a un cliente, in 
 
 ### Consigli come offerta
 
-[Recommendations come offerta](/help/main/c-recommendations/recommendations-as-an-offer.md) consente di includere i consigli nelle attività [!UICONTROL A/B Test], [!UICONTROL Auto-Allocate], [!UICONTROL Auto-Target] e [!UICONTROL Experience Targeting] (XT).
+[Consigli come offerta](/help/main/c-recommendations/recommendations-as-an-offer.md) consente di includere consigli all&#39;interno di [!UICONTROL A/B Test], [!UICONTROL Auto-Allocate], [!UICONTROL Auto-Target] e [!UICONTROL Experience Targeting] attività (XT).
 
 Questo apre a funzionalità tutte nuove, ad esempio:
 
@@ -98,11 +98,11 @@ Con [!DNL Recommendations Classic] vengono visualizzati automaticamente prodotti
 
 Per ulteriori informazioni, consulta la [documentazione di Recommendations Classic](/help/main/assets/adobe-recommendations-classic.pdf).
 
-## Experience League: kit di benvenuto Adobe [!DNL Target] {#kit}
+## Experience League: kit di benvenuto per Adobe [!DNL Target] {#kit}
 
 Crea il tuo programma di ottimizzazione e personalizzazione su [!DNL Adobe Target] con questo kit di benvenuto. Il kit di benvenuto include informazioni chiave, strumenti e risorse utili per preparare e avviare la prima attività [!DNL Target]. Il kit include idee per ottenere risultati in breve tempo e strategie di ottimizzazione a lungo termine.
 
-[Kit di benvenuto per Adobe Target](https://expleague.azureedge.net/pdf/Adobe-Target-Welcome-Kit.pdf)
+[Kit di benvenuto Adobe Target](/help/main/c-intro/target-welcome-kit.md)
 
 ## Video di formazione: Tipi di attività (9:03) ![Badge panoramica](/help/main/assets/overview.png)
 
