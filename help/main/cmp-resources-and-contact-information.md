@@ -4,10 +4,10 @@ description: Informazioni sulle risorse aggiuntive per scoprire di più sulle fu
 title: Dove posso trovare risorse e informazioni di contatto per Target?
 feature: Release Notes,Overview
 exl-id: 0433133c-933a-4d30-bab6-589395f0c9d6
-source-git-commit: 6945e762a527f5ca88bb97096aac9e13d042de2c
+source-git-commit: 562eeb4a3c9b27aeb9f606ac5ba8b6802bce0564
 workflow-type: tm+mt
 source-wordcount: '1138'
-ht-degree: 93%
+ht-degree: 92%
 
 ---
 
@@ -25,7 +25,7 @@ La Community consente di:
 * Connettersi con i colleghi e gli esperti di Adobe
 * Votare o inviare un&#39;idea per una futura versione di Target
 
-Visita il [Forum della Community di Target](https://forums.adobe.com/community/experience-cloud/marketing-cloud/target) per iniziare.
+Visita il [Forum della Community di Target](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community) per iniziare.
 
 ## Serie di webinar sui fondamenti di Target {#concept_11902FAC95C64479AABE020557A7EEE4}
 
@@ -124,6 +124,6 @@ Siamo lieti di ricevere qualsiasi suggerimento o commento sulla soluzione. È po
 
 [Condizioni d&#39;uso](https://www.adobe.com/legal/terms.html)
 
-Adobe and the Adobe logo are either registered trademarks or trademarks of Adobe Systems Incorporated in the United States and/or other countries. A trademark symbol (®, ™, etc.) denotes an Adobe trademark.
+Adobe and the Adobe logo are either registered trademarks or trademarks of Adobe Systems Incorporated in the United States and/or other countries. Un simbolo di marchio (®, ™, ecc.) denota un marchio Adobe.
 
 All third-party trademarks are the property of their respective owners. Updated Information/Additional Third Party Code Information available at [https://www.adobe.com/go/thirdparty_it](https://www.adobe.com/it/products/eula/third_party.html).
