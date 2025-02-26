@@ -6,10 +6,10 @@ short-description: Scopri le nuove funzioni, i miglioramenti e le correzioni inc
 title: Cosa è incluso nella versione corrente?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 3aeac3344c2bbc2a44da80b5a359e55c9419b59b
+source-git-commit: b68c3d2e7e884e176a61598d1ab4a423aa1c9088
 workflow-type: tm+mt
-source-wordcount: '1277'
-ht-degree: 22%
+source-wordcount: '1520'
+ht-degree: 20%
 
 ---
 
@@ -18,6 +18,27 @@ ht-degree: 22%
 Queste note sulla versione forniscono informazioni su funzioni, miglioramenti e correzioni per ciascuna versione di [!DNL Adobe Target Standard] e [!DNL Target Premium]. Sono inoltre incluse, ove applicabili, le note sulla versione di API di [!DNL Target], SDK, [!DNL Adobe Experience Platform Web SDK], at.js e altre modifiche alla piattaforma.
 
 I codici dei problemi tra parentesi sono per uso interno di [!DNL Adobe].
+
+## [!DNL Target Standard/Premium] 25.2.3 (26 febbraio 2025)
+
+Questa versione include i seguenti aggiornamenti:
+
+* È stato risolto un problema che impediva aggiornamenti delle attività dopo la versione 25.2.1 di [!DNL Target] per alcune attività. (TGT-51781)
+* È stato risolto un problema che causava la rimozione di tutte le modifiche apportate al pubblico nello stato in seguito all&#39;annullamento del processo di creazione attività (selezione di [!UICONTROL Cancel] invece di [!UICONTROL Add Audience]). (TGT-51769 e TGT-51770)
+* È stato risolto un problema che impediva il caricamento di [!UICONTROL Visual Experience Composer] (VEC) per alcune attività, in particolare quando veniva utilizzato un codice personalizzato.  Il problema ha portato il Compositore esperienza visivo a visualizzare una schermata vuota o a ripristinare la versione precedente dell&#39;interfaccia utente [!DNL Target]. (TGT-51758)
+* È stato risolto un problema a causa del quale le modifiche venivano eliminate dopo la modifica della distribuzione delle pagine per i tipi di pubblico. (TGT-51756)
+* È stato risolto un problema che causava la rimozione dalle attività di tutti i tipi di pubblico non metrici (pubblico di pagina e pubblico di esperienza) in seguito alla modifica di un tipo di metrica nella pagina [!UICONTROL Goals & Settings]. (TGT-51753)
+* È stato risolto un problema per cui facendo clic su [!UICONTROL Cancel] durante la modifica di un&#39;attività, l&#39;interfaccia utente di Target passava a [!UICONTROL Activities List] invece che alla pagina [!UICONTROL Activity Details]. (TGT-51731)
+* È stato risolto un problema che impediva ai clienti di scaricare i report tramite l&#39;opzione [!UICONTROL Export Reports to CSV]. (TGT-51708)
+* È stato risolto un problema nel Compositore esperienza basato su moduli a causa del quale [!DNL Target Standard] clienti venivano erroneamente visualizzati per l&#39;utilizzo di [!UICONTROL Properties], una funzionalità [!DNL Target Premium]. (TGT-51678)
+* È stato risolto un problema che impediva la visualizzazione degli attributi [!DNL Adobe Experience Platform] durante la creazione di nuove offerte. (TGT-51665)
+* Tutti i filtri attivi per l&#39;inventario [!DNL Recommendations] sono stati spostati nella ricerca rapida, allineando l&#39;interfaccia utente con [!UICONTROL Catalog Search] invece della barra [!UICONTROL Filter]. (TGT-50723)
+
+## at.js versione 2.11.7 (26 febbraio 2025)
+
+Questa versione include i seguenti aggiornamenti:
+
+* È stata corretta la registrazione di telemetria quando `localStorage` non è disponibile. La telemetria causava problemi ad alcuni clienti che avevano disabilitato `localStorage` nei loro browser.
 
 ## Target Standard/Premium 25.2.1 (martedì 17 febbraio 2025)
 
