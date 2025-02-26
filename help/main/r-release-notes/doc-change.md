@@ -4,9 +4,9 @@ description: Resta aggiornato sulle importanti aggiunte e modifiche apportate al
 title: Dove posso trovare la documentazione aggiornata per  [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: b68c3d2e7e884e176a61598d1ab4a423aa1c9088
+source-git-commit: 4b5111c00384fdc73eaadbf0eec22ac6c2784a22
 workflow-type: tm+mt
-source-wordcount: '256'
+source-wordcount: '267'
 ht-degree: 29%
 
 ---
@@ -23,6 +23,7 @@ Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Targ
 |--- |--- |--- |
 | 26 febbraio | Note sulla versione di [[!DNL Target]  (corrente)](/help/main/r-release-notes/release-notes.md) | Sono state aggiunte informazioni per le seguenti versioni:<ul><li>[!DNL Target Standard/Premium] 25.2.3 (26 febbraio 2025)</li><li>at.js versione 2.11.7 (26 febbraio 2025)</li></ul> |
 |  | [Dettagli sulle versioni di at.js](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions){target=_blank} | Sono state aggiunte informazioni per la versione 2.11.7 di at.js (26 febbraio 2025). |
+|  | [Bookmarklet di controllo qualità delle attività](/help/main/c-activities/c-activity-qa/activity-qa-bookmark.md) | È stato aggiornato il bookmarklet di controllo qualità dell’attività per at.js 2.x. |
 | 13 febbraio | Note sulla versione di [[!DNL Target]  (corrente)](/help/main/r-release-notes/release-notes.md) | La versione dell&#39;aggiornamento dell&#39;interfaccia utente 25.2.1 di [!DNL Target Standard/Premium] è stata modificata al 17 febbraio 2025. |
 | 12 febbraio | [Opzioni del Compositore esperienza visivo](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md) | Intero argomento aggiornato per spiegare il Compositore esperienza visivo aggiornato introdotto nella versione 25.2.1 di [!DNL Target Standard/Premium] (12 febbraio 2025). |
 |  | [Browser supportati](https://experienceleague.adobe.com/en/docs/target-dev/developer/implementation/supported-browsers){target=_blank} | Sono state aggiunte informazioni sui browser supportati in un&#39;implementazione di Target utilizzando [!DNL Adobe Experience Platform Web SDK]. |
