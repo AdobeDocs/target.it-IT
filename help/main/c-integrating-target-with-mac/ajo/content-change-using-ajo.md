@@ -7,9 +7,9 @@ feature: Integrations
 hide: true
 hidefromtoc: true
 exl-id: e5aed7cd-7701-4133-ac7c-98e528c8a763
-source-git-commit: 52f11998149cddeb4245a0f07280562d79332a04
+source-git-commit: b66abe9649f8c257891c1cd8e5736b7f91501c13
 workflow-type: tm+mt
-source-wordcount: '798'
+source-wordcount: '790'
 ht-degree: 1%
 
 ---
@@ -126,5 +126,4 @@ Per ulteriori informazioni, vedere [Introduzione alla nuova interfaccia di repor
 >[!MORELIKETHIS]
 >
 >[Utilizzare la finestra di progettazione Web](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/web/author-web-pages/web-visual-editor){target=_blank} nella *documentazione di Journey Optimizer*
->[Video](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/web/author-web-pages/edit-web-content#video){target=_blank} nella *documentazione di Journey Optimizer*
 >[Crea una campagna](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/create-campaigns/create-a-campaign){target=_blank} in *Esercitazioni Journey Optimizer*

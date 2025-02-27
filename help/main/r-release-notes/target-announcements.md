@@ -6,9 +6,9 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: 52f11998149cddeb4245a0f07280562d79332a04
+source-git-commit: b66abe9649f8c257891c1cd8e5736b7f91501c13
 workflow-type: tm+mt
-source-wordcount: '2052'
+source-wordcount: '2049'
 ht-degree: 98%
 
 ---
@@ -207,16 +207,14 @@ Il 2022 ha portato alle imprese un ambiente dinamico e in rapida evoluzione. Sco
 
 Scopri come l’intelligenza artificiale continua a ridefinire le aspettative dei consumatori man mano che i modelli di apprendimento automatico e le informazioni sui dati aprono nuove porte per gli esperti di marketing, gli sviluppatori e i proprietari di prodotti, consentendo loro di coinvolgere i consumatori con esperienze personalizzate di alto valore. Lasciati guidare alla scoperta dei flussi di lavoro basati su [!DNL Adobe Analytics] e [!DNL Adobe Target] per la personalizzazione, il targeting e il testing.
 
-* [Collegamento alla registrazione](https://analytics.dxfieldmarketing.adobeevents.com/){target=_blank}
++++Dettagli
 
-  +++Dettagli
+Jordan Ison (Principal Expert Solution Consultant presso [!DNL Adobe]) affronta i seguenti argomenti:
 
-  Jordan Ison (Principal Expert Solution Consultant presso [!DNL Adobe]) affronta i seguenti argomenti:
-
-   * In che modo esperti di marketing, sviluppatori e team di prodotto possono aprire la “scatola nera” dell’intelligenza artificiale per indirizzare le future strategie di testing e personalizzazione
-   * Superare le sfide dell’ottimizzazione per web, app mobili, e-mail, IoT e ogni punto di contatto digitale per incrementare il tasso di conversione e coinvolgimento
-   * Flussi di lavoro basati su [!DNL Adobe Analytics] e [!DNL Target] per la personalizzazione, il targeting e il testing
-   * Casi d’uso principali per individuare gli attributi che consentono di prevedere il comportamento dei visitatori, e quelli più importanti per visualizzazioni chiave e analisi della segmentazione
+* In che modo esperti di marketing, sviluppatori e team di prodotto possono aprire la “scatola nera” dell’intelligenza artificiale per indirizzare le future strategie di testing e personalizzazione
+* Superare le sfide dell’ottimizzazione per web, app mobili, e-mail, IoT e ogni punto di contatto digitale per incrementare il tasso di conversione e coinvolgimento
+* Flussi di lavoro basati su [!DNL Adobe Analytics] e [!DNL Target] per la personalizzazione, il targeting e il testing
+* Casi d’uso principali per individuare gli attributi che consentono di prevedere il comportamento dei visitatori, e quelli più importanti per visualizzazioni chiave e analisi della segmentazione
 
 +++
 
