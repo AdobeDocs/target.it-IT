@@ -6,9 +6,9 @@ short-description: Scopri le nuove funzioni, i miglioramenti e le correzioni inc
 title: Cosa è incluso nella versione corrente?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: b68c3d2e7e884e176a61598d1ab4a423aa1c9088
+source-git-commit: 3b79138f305454c29850a1ce3999aa324f95359f
 workflow-type: tm+mt
-source-wordcount: '1520'
+source-wordcount: '1533'
 ht-degree: 20%
 
 ---
@@ -39,6 +39,8 @@ Questa versione include i seguenti aggiornamenti:
 Questa versione include i seguenti aggiornamenti:
 
 * È stata corretta la registrazione di telemetria quando `localStorage` non è disponibile. La telemetria causava problemi ad alcuni clienti che avevano disabilitato `localStorage` nei loro browser.
+
+Per informazioni su questa versione e sulle versioni precedenti di at.js, consulta [Dettagli sulla versione di at.js](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions){target=_blank}.
 
 ## Target Standard/Premium 25.2.1 (martedì 17 febbraio 2025)
 
