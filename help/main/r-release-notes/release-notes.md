@@ -6,10 +6,10 @@ short-description: Scopri le nuove funzioni, i miglioramenti e le correzioni inc
 title: Cosa è incluso nella versione corrente?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 729b88c3db9e88a5cd428587e34614c5d56542da
+source-git-commit: cd335504f5354aa9052ae7e958cf803cd90a9ae9
 workflow-type: tm+mt
-source-wordcount: '704'
-ht-degree: 45%
+source-wordcount: '837'
+ht-degree: 39%
 
 ---
 
@@ -18,6 +18,18 @@ ht-degree: 45%
 Queste note sulla versione forniscono informazioni su funzioni, miglioramenti e correzioni per ciascuna versione di [!DNL Adobe Target Standard] e [!DNL Target Premium]. Sono inoltre incluse, ove applicabili, le note sulla versione di API di [!DNL Target], SDK, [!DNL Adobe Experience Platform Web SDK], at.js e altre modifiche alla piattaforma.
 
 I codici dei problemi tra parentesi sono per uso interno di [!DNL Adobe].
+
+## [!DNL Target Standard/Premium] 25.3.6 (14 marzo 2025)
+
+Questa versione include le correzioni e gli aggiornamenti seguenti:
+
+* È stato risolto l&#39;errore &quot;Input utente non valido&quot; nelle attività [!UICONTROL Visual Experience Composer] (VEC) con [!UICONTROL Click Tracking] abilitato quando lo stesso selettore [!UICONTROL ClickTrack] viene utilizzato più volte. (TGT-51921)
+* È stato corretto l’errore &quot;Input utente non valido&quot; nelle attività del Compositore esperienza visivo con posizioni condivise (ad esempio, selettore HEAD) e offerte identiche. (TGT-51879)
+* È stato risolto un problema che causava la condivisione delle modifiche dell’esperienza tra i vari tipi di pubblico. (TGT-51815)
+* Sono stati risolti degli errori di convalida durante la creazione di attività a causa di conflitti di ID segmento. Gli errori si sono verificati quando [!DNL Target] ha rilevato attività esistenti utilizzando segmenti anonimi. (TGT-51784)
+* È stato risolto un problema che impediva a [!DNL Target] di salvare attività con regole di esclusione in un pubblico. (TGT-51581)
+* È stato risolto un problema che impediva ai clienti di creare, eliminare o spostare cartelle senza accedere all’area di lavoro predefinita. (TGT-51499)
+* È stato risolto un problema che causava un errore nelle richieste di GET durante il recupero dell&#39;elenco delle metriche [!DNL Analytics]. (TGT-51106)
 
 ## [!DNL Target Standard/Premium] 25.3.5 (11 marzo 2025)
 
