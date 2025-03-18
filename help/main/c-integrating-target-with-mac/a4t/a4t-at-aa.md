@@ -4,9 +4,9 @@ description: Scopri come creare [!UICONTROL Auto-Allocate] e [!UICONTROL Auto-Ta
 title: A4T supporta [!UICONTROL Auto-Allocate] e [!UICONTROL Auto-Target] attività?
 feature: Analytics for Target (A4T)
 exl-id: 3302f26d-c445-4779-8435-be142d5cea8c
-source-git-commit: 99bd509988a7d1545a6a1fe59aa59f35ef0a7d11
+source-git-commit: 80e4741f5f501a48b15b718c6c0bf55a86c4d676
 workflow-type: tm+mt
-source-wordcount: '1133'
+source-wordcount: '1146'
 ht-degree: 0%
 
 ---
@@ -61,6 +61,10 @@ Per iniziare:
 * [!DNL Adobe Target] metriche di conversione
 * [!DNL Adobe Analytics] metriche di conversione
 * [!DNL Adobe Analytics] eventi personalizzati
+
+>[!NOTE]
+>
+>Dopo aver selezionato [!UICONTROL Use an Analytics Metric], selezionare [!UICONTROL Maximize Unique Visitor Conversion Rate] per visualizzare le metriche di conversione [!DNL Adobe Analytics] disponibili e [!UICONTROL Maximize Metric Value per Visitor] per esplorare [!DNL Adobe Analytics] eventi personalizzati.
 
 [!DNL Target] consente di scegliere metriche basate su eventi binomiali o metriche basate su eventi continui quando si utilizza [!UICONTROL A4T] per le attività [!UICONTROL Auto-Allocate] e [!UICONTROL Auto-Target].
 
@@ -131,12 +135,12 @@ Sebbene le funzionalità di analisi avanzate siano disponibili in [!DNL Adobe An
 
 Questo tutorial illustra le modifiche consigliate per l&#39;analisi delle attività di [!UICONTROL Auto-Allocate] in [!DNL Analysis Workspace].
 
-Per ulteriori informazioni, consulta [Come impostare rapporti A4T in Analysis Workspace per attività di allocazione automatica](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-allocate-activities.html?lang=it){target=_blank} in *Tutorials Adobe Target*.
+Per ulteriori informazioni, consulta [Come impostare rapporti A4T in Analysis Workspace per attività di allocazione automatica](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-allocate-activities.html?lang=it){target=_blank} nelle *esercitazioni di Adobe Target*.
 
 ### Configurazione dei rapporti A4T in [!DNL Analysis Workspace] per le attività [!UICONTROL Auto-Target]
 
 Questo tutorial illustra le modifiche consigliate per l&#39;analisi delle attività di [!UICONTROL Auto-Target] in [!DNL Analysis Workspace].
 
-Per ulteriori informazioni, consulta [Come impostare rapporti A4T in Analysis Workspace per attività di Targeting automatico](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html?lang=it){target=_blank} in *Tutorials Adobe Target*.
+Per ulteriori informazioni, consulta [Come impostare rapporti A4T in Analysis Workspace per attività di Targeting automatico](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html?lang=it){target=_blank} nelle *Esercitazioni di Adobe Target*.
 
 
