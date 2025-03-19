@@ -1,12 +1,12 @@
 ---
 keywords: Targeting;eec;compositore esperienza visiva;risoluzione dei problemi compositore esperienza avanzato;risoluzione dei problemi
-description: Scopri come risolvere i problemi che a volte si verificano nell'Adobe  [!DNL Target] Compositore esperienza avanzato in determinate condizioni.
+description: Scopri come risolvere i problemi che a volte si verificano nel Compositore esperienza avanzato di Adobe [!DNL Target] in determinate condizioni.
 title: Come posso risolvere i problemi relativi al Compositore esperienza avanzato?
 feature: Visual Experience Composer (VEC)
 exl-id: 7dea7707-5d9f-49c4-9ccd-618eeb7b3568
-source-git-commit: 7562a1da201b570ee529db9763ef5f4b463f65a8
+source-git-commit: 1908c9ebe94931778e792a75e75eff04076ae5c5
 workflow-type: tm+mt
-source-wordcount: '439'
+source-wordcount: '444'
 ht-degree: 23%
 
 ---
@@ -17,28 +17,111 @@ A volte si verificano problemi di visualizzazione in [!DNL Adobe Target] [!UICON
 
 ## Il Compositore esperienza avanzato non carica un URL di controllo qualità interno che non è accessibile su IP pubblico. {#section_D29E96911D5C401889B5EACE267F13CF}
 
-Questo problema può essere risolto inserendo nell&#39;elenco Consentiti seguenti indirizzi IP. Questi indirizzi IP sono per Adobe il server utilizzato per il proxy EEC. Sono necessari solo per modificare le attività. I visitatori del tuo sito non hanno bisogno di inserire nell&#39;elenco Consentiti questi indirizzi IP.
+Questo problema può essere risolto inserendo nell&#39;elenco Consentiti seguenti indirizzi IP. Questi indirizzi IP sono per il server di Adobe utilizzato per il proxy EEC. Sono necessari solo per modificare le attività. I visitatori del tuo sito non hanno bisogno di inserire nell&#39;elenco Consentiti questi indirizzi IP.
 
 Inserire nell&#39;elenco Consentiti Chiedi al tuo team IT di i seguenti indirizzi IP:
 
-* 34 254 77 200
-* 54 73 207 147
-* 54 229 152 123
-* 3 224 194 242
-* 54 90 51 39
-* 34 228 136 112
-* 54 150 116 11
-* 18 178 142,8
-* 54 199 107 77
-* 99.80.139.221
-* 54 78 56 224
-* 54 247 179 246
-* 54 80 219 243
-* 34 201 235 54
-* 54 196 224 236
-* 35.75.212.45.
-* 52 199 184 130
-* 18 180 161 176
+### Prod va7
+
+40.70.154.136/29
+52.254.106.240/28
+52.254.106.160/28
+52.254.107.16/28
+20.186.185.181
+20.22.83.112
+20.186.185.227
+52.254.106.192/28
+52.254.106.0/28
+52.254.107.128/28
+52.254.107.80/28
+52.254.106.176/28
+52.254.107.32/28
+52.254.105.192/28
+52.254.107.64/28
+52.254.106.208/28
+52.254.107.0/28
+52.254.106.224/28
+20.14.241.153
+20.186.185.239
+4.152.211.251
+52.254.107.144/28
+52.254.106.144/28
+
+### Nld2 di produzione
+
+51.138.17.16/28
+51.138.17.48/28
+51.138.16.128/28
+51.138.17.32/28
+51.138.16.240/28
+51.138.17.112/28
+51.138.16.160/28
+51.138.16.208/28
+51.138.17.80/28
+51.138.17.0/28
+51.138.17.96/28
+51.138.16.144/28
+20.31.145.248
+20.126.189.248
+51.138.16.224/28
+51.138.16.192/28
+51.138.12.94
+51.138.12.11
+51.138.16.176/28
+51.138.12.100
+51.138.17.64/28
+51.138.12.160/28
+
+### Prod aus5
+
+20.43.104.160/28
+20.227.35.177
+20.40.188.227
+20.43.104.112/28
+20.43.104.128/28
+20.43.104.144/28
+20.40.188.166
+20.53.206.128
+20.43.104.80/28
+20.43.104.16/28
+20.43.105.48/28
+20.43.104.96/28
+20.43.104.48/28
+20.40.188.194
+20.43.104.32/28
+20.40.191.224/28
+20.43.105.16/28
+20.40.191.96/28
+20.43.104.176/28
+20.40.191.240/28
+20.43.104.64/28
+20.43.105.32/28
+20.43.104.192/28
+20.43.105.0/28
+20.43.104.0/28
+
+### Indirizzi IP legacy
+
+I seguenti indirizzi IP legacy devono continuare a essere inseriti nell&#39;elenco Consentiti fino a nuovo avviso.
+
+34.254.77.200
+54.73.207.147
+54.229.152.123
+3.224.194.242
+54.90.51.39
+34.228.136.112
+54.150.116.11
+18.178.142.8
+54.199.107.77
+99.80.139.221
+54.78.56.224
+54.247.179.246
+54.80.219.243
+34.201.235.54
+54.196.224.236
+35.75.212.45
+52.199.184.130
+18.180.161.176
 
 È possibile che in [!DNL Target] venga visualizzato il seguente messaggio di errore:
 
