@@ -1,13 +1,13 @@
 ---
 keywords: raccolta;Targeting
 description: Scopri come utilizzare le raccolte di prodotti o elementi in [!DNL Target Recommendations].
-title: Come si utilizzano le raccolte nelle attività di Recommendations?
+title: Come si utilizzano le raccolte nelle attività Consigli?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."
 feature: Recommendations
 exl-id: e62f501b-3521-4456-9ea1-e4b8a2b478c6
-source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
+source-git-commit: be9cb6da17f125c127d64ed8f9002987188fdf3d
 workflow-type: tm+mt
-source-wordcount: '693'
+source-wordcount: '716'
 ht-degree: 25%
 
 ---
@@ -32,7 +32,9 @@ Quando si crea o si modifica un&#39;attività [!DNL Recommendations], il nome de
 
 >[!NOTE]
 >
->Le raccolte non vengono applicate quando si utilizza la chiave di consiglio [!UICONTROL Recently Viewed Items].
+>* Le regole di raccolta si applicano agli elementi di consigli generati dopo l’esecuzione dei criteri. Interessano solo i consigli di entità (ER) nell’output, non la chiave.
+>
+>* Le raccolte non vengono applicate quando si utilizza la chiave di consiglio [!UICONTROL Recently Viewed Items].
 
 ## Creazione di una raccolta {#task_1256DFF6842141FCAADD9E1428EF7F08}
 
@@ -42,7 +44,7 @@ Crea una raccolta per organizzare i prodotti o i contenuti da mostrare nei consi
 
    Nella pagina [!UICONTROL Collections] viene visualizzato un elenco delle raccolte esistenti. Per creare nuove raccolte, fare clic sul pulsante [!UICONTROL Create Collection]. È inoltre possibile modificare, copiare ed eliminare raccolte esistenti facendo clic sull&#39;icona Altre azioni ( ![Icona Altre azioni](/help/main/assets/icons/MoreSmallList.svg) ) accanto alla raccolta desiderata e quindi facendo clic sull&#39;opzione desiderata.
 
-   Il &quot;Numero di elementi&quot; segnalato per ogni raccolta nella visualizzazione elenco [!UICONTROL Collections] è il numero di prodotti che corrispondono alle regole per tale raccolta all&#39;interno del gruppo predefinito di Recommendations [host](/help/main/administrating-target/hosts.md) (ambiente) configurato. Consulta [Impostazioni](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} per modificare il gruppo host predefinito.
+   Il &quot;Numero di elementi&quot; segnalato per ogni raccolta nella visualizzazione elenco [!UICONTROL Collections] è il numero di prodotti che corrispondono alle regole per tale raccolta all&#39;interno del gruppo predefinito di consigli [host](/help/main/administrating-target/hosts.md) (ambiente) configurato. Consulta [Impostazioni](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} per modificare il gruppo host predefinito.
 
 1. Fare clic su **[!UICONTROL Create Collection]**.
 
@@ -84,7 +86,7 @@ Tieni presente che le raccolte sono disponibili a livello dell’intero account.
 
 1. Crea una raccolta utilizzando uno dei metodi indicati sopra.
 
-1. Fai clic su **[!UICONTROL Activities]** e [crea una nuova attività Recommendations](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md) o modifica un&#39;attività esistente.
+1. Fai clic su **[!UICONTROL Activities]** e [crea una nuova attività Consigli](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md) o modifica un&#39;attività esistente.
 
 1. Dopo aver selezionato un criterio e una progettazione, nella pagina [!UICONTROL Options] viene visualizzato il punto in cui è stata selezionata la raccolta desiderata.
 

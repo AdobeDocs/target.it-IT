@@ -4,10 +4,10 @@ description: Resta aggiornato sulle importanti aggiunte e modifiche apportate al
 title: Dove posso trovare la documentazione aggiornata per  [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 18f6c06aa06e9526ee65bd3cc0f9b552c91c10e7
+source-git-commit: be9cb6da17f125c127d64ed8f9002987188fdf3d
 workflow-type: tm+mt
-source-wordcount: '409'
-ht-degree: 41%
+source-wordcount: '436'
+ht-degree: 38%
 
 ---
 
@@ -23,6 +23,7 @@ Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Targ
 |--- |--- |--- |
 | 26 marzo | Note sulla versione di [[!DNL Target]  (corrente)](/help/main/r-release-notes/release-notes.md) | Sono state aggiunte le note sulla versione 25.3.7 di [!DNL Target Standard/Premium]. |
 |  | [Domande frequenti sui Recommendations](/help/main/c-recommendations/c-recommendations-faq/recommendations-faq.md) | Sono state aggiornate le domande frequenti per indicare che [!DNL Recommendations] oggetti creati tramite API sono disponibili nell&#39;interfaccia utente [!DNL Target]. |
+|  | [Raccolte](/help/main/c-recommendations/c-products/collections.md) | È stata aggiunta la seguente nota: le regole di raccolta si applicano agli elementi di consigli generati dopo l’esecuzione dei criteri. Interessano solo i consigli di entità (ER) nell’output, non la chiave. |
 | 19 marzo | [Risoluzione dei problemi relativi a [!UICONTROL Enhanced Experience Composer]](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md) | Gli indirizzi IP sono stati aggiornati per il inserisco nell&#39;elenco Consentiti di. |
 | 18 marzo | [Supporto A4T per [!UICONTROL Auto-Allocate] e [!UICONTROL Auto-Target] attività](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md) | Aggiunta nota alla sezione *Metriche obiettivo supportate*. |
 | 14 marzo | Note sulla versione di [[!DNL Target]  (corrente)](/help/main/r-release-notes/release-notes.md) | Sono state aggiunte le note sulla versione 25.3.6 di [!DNL Target Standard/Premium]. |
