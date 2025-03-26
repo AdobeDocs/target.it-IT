@@ -5,10 +5,10 @@ title: Dove posso trovare domande e risposte su  [!DNL Recommendations]?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."
 feature: Recommendations
 exl-id: aaa52923-1c2d-44ae-bd89-671329222077
-source-git-commit: 25b448ad99618dca8b5aa4b698976a3d9aa76dec
+source-git-commit: 18f6c06aa06e9526ee65bd3cc0f9b552c91c10e7
 workflow-type: tm+mt
-source-wordcount: '3506'
-ht-degree: 84%
+source-wordcount: '3444'
+ht-degree: 83%
 
 ---
 
@@ -18,7 +18,7 @@ Elenco delle domande frequenti sulle attività relative alle attività di [!DNL 
 
 ## [!DNL Recommendations] oggetti creati tramite API vengono visualizzati nell&#39;interfaccia utente di [!DNL Target]?
 
-Sì, [!UICONTROL Recommendations] oggetti ([!UICONTROL Criteria], [!UICONTROL Designs], [!UICONTROL Collections] e [!UICONTROL Exclusions]) creati tramite API sono ora disponibili nell&#39;interfaccia utente.
+Sì, [!UICONTROL Recommendations] oggetti ([!UICONTROL Criteria], [!UICONTROL Designs], [!UICONTROL Collections] e [!UICONTROL Exclusions]) creati tramite API sono disponibili nell&#39;interfaccia utente e possono essere modificati tramite API o interfaccia utente [!DNL Target].
 
 ## Posso gestire le offerte visive create dall&#39;interfaccia utente di [!DNL Target] utilizzando le API di [!DNL Target]?
 
@@ -291,6 +291,5 @@ Di seguito sono riportati i problemi noti relativi alle attività [!UICONTROL Re
 * Quando [!DNL Target] restituisce un’offerta JSON con getOffer(), restituisce con il tipo di JSON. Tuttavia, se restituisci una progettazione de Recommendations JSON, restituisce un tipo HTML.
 * Le entità scadono correttamente una volta trascorsi 60 giorni senza ricevere aggiornamenti tramite feed o API; tuttavia, dopo la scadenza le entità scadute non vengono rimosse dall’indice di ricerca del catalogo. Anche le entità eliminate tramite feed o API al momento non vengono rimosse dall’indice di ricerca nel catalogo. (IRI-857)
 * Le offerte Consigli nelle attività A/B e Targeting esperienza non presentano un’anteprima visiva della barra de Recommendations. (TGT-33426)
-* Raccolte, esclusioni, criteri e progettazioni creati mediante API non sono visibili nell’interfaccia dell’utente Target e possono essere modificati solo tramite API. Allo stesso modo, se crei uno di questi elementi nell’interfaccia utente di Target e successivamente li modifichi tramite API, tali modifiche non vengono riportate nell’interfaccia utente di Target. Gli elementi modificati tramite API devono continuare a essere modificati tramite API per evitare la perdita di eventuali modifiche. (TGT-35777)
 * Le attività Recommendations create tramite API sono visibili nell’interfaccia, ma possono essere modificate solo tramite API.
 * Lo stato del feed dei criteri personalizzati visualizzato nell’elenco (scheda) Criteri viene aggiornato ogni dieci minuti e in alcune rare circostanze potrebbe contenere dati risalenti a oltre dieci minuti prima. Lo stato visualizzato nella vista di modifica dei criteri personalizzati viene recuperato in tempo reale ed è sempre aggiornato. (TGT-35896, TGT-36173)
