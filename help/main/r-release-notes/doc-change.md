@@ -4,10 +4,10 @@ description: Resta aggiornato sulle importanti aggiunte e modifiche apportate al
 title: Dove posso trovare la documentazione aggiornata per  [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: be9cb6da17f125c127d64ed8f9002987188fdf3d
+source-git-commit: 36f269331d992f621d71fc085c85f3a7ad5bdfa6
 workflow-type: tm+mt
-source-wordcount: '436'
-ht-degree: 38%
+source-wordcount: '450'
+ht-degree: 40%
 
 ---
 
@@ -21,6 +21,7 @@ Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Targ
 
 | Data | Argomento | Modifiche |
 |--- |--- |--- |
+| 31 marzo | [Dettagli sulle versioni di at.js](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions){target=_blank} | Sono state aggiunte informazioni sulla versione 2.11.8 di at.js. |
 | 26 marzo | Note sulla versione di [[!DNL Target]  (corrente)](/help/main/r-release-notes/release-notes.md) | Sono state aggiunte le note sulla versione 25.3.7 di [!DNL Target Standard/Premium]. |
 |  | [Domande frequenti sui Recommendations](/help/main/c-recommendations/c-recommendations-faq/recommendations-faq.md) | Sono state aggiornate le domande frequenti per indicare che [!DNL Recommendations] oggetti creati tramite API sono disponibili nell&#39;interfaccia utente [!DNL Target]. |
 |  | [Raccolte](/help/main/c-recommendations/c-products/collections.md) | È stata aggiunta la seguente nota: le regole di raccolta si applicano agli elementi di consigli generati dopo l’esecuzione dei criteri. Interessano solo i consigli di entità (ER) nell’output, non la chiave. |

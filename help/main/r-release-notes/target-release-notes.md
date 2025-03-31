@@ -4,9 +4,9 @@ description: Scopri le nuove funzioni, i miglioramenti e le correzioni, compresi
 title: Quali nuove funzioni e miglioramenti saranno inclusi nella prossima versione [!DNL Target] ?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: bdc2f76af2a1f1554556d56a983748aa2c9caf2c
+source-git-commit: 36f269331d992f621d71fc085c85f3a7ad5bdfa6
 workflow-type: tm+mt
-source-wordcount: '1047'
+source-wordcount: '1070'
 ht-degree: 24%
 
 ---
@@ -15,13 +15,19 @@ ht-degree: 24%
 
 Questo articolo contiene informazioni prerelease per le prossime versioni di [!DNL Adobe Target], incluse SDK, API e librerie JavaScript.
 
-**Ultimo aggiornamento: sabato 14 marzo 2025**
+**Ultimo aggiornamento: lunedì 30 marzo 2025**
 
 >[!NOTE]
 >
 >Date di rilascio, funzioni e altre informazioni sono soggette a modifica senza preavviso.
 >
 >Per visualizzare informazioni sulla versione corrente, consulta [Note sulla versione di Target](release-notes.md). Le informazioni su queste pagine potrebbero essere uguali, a seconda della tempistica delle release. I codici tra parentesi sono per uso interno di [!DNL Adobe].
+
+## [!DNL Target Standard/Premium] 25.3.8 (28 marzo 2025)
+
+Questa versione include le correzioni e gli aggiornamenti seguenti:
+
+* È stato risolto un problema che causava il caricamento lento della pagina [!UICONTROL Activities]. (TGT-51151)
 
 ## [!DNL Target Standard/Premium] 25.3.7 (26 marzo 2025)
 
