@@ -6,10 +6,10 @@ short-description: Scopri le nuove funzioni, i miglioramenti e le correzioni inc
 title: Cosa è incluso nella versione corrente?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: c6799d43ee2f5ebe568f7199ae4ec1deaa164c06
+source-git-commit: 0618d39fc5966c64cceea8f5bcccb625fc243ebb
 workflow-type: tm+mt
-source-wordcount: '572'
-ht-degree: 52%
+source-wordcount: '636'
+ht-degree: 47%
 
 ---
 
@@ -18,6 +18,14 @@ ht-degree: 52%
 Queste note sulla versione forniscono informazioni su funzioni, miglioramenti e correzioni per ciascuna versione di [!DNL Adobe Target Standard] e [!DNL Target Premium]. Sono inoltre incluse, ove applicabili, le note sulla versione di API di [!DNL Target], SDK, [!DNL Adobe Experience Platform Web SDK], at.js e altre modifiche alla piattaforma.
 
 I codici dei problemi tra parentesi sono per uso interno di [!DNL Adobe].
+
+## Aggiornamento delle autorizzazioni di Target (22 aprile 2025)
+
+Questo aggiornamento futuro migliora il controllo dell&#39;organizzazione sulle configurazioni delle istanze [!DNL Target], impedendo aggiornamenti accidentali che potrebbero influire sulla distribuzione delle attività tra i vari team di test e personalizzazione.
+
+A decorrere dal 22 aprile 2025, solo gli amministratori [!UICONTROL Product] e [!UICONTROL Solutions] potranno aggiornare le impostazioni nelle sezioni [!UICONTROL Administration], indipendentemente dai loro ruoli nelle aree di lavoro [!DNL Target]. Gli utenti senza questa autorizzazione avranno accesso in sola lettura alle sezioni [!UICONTROL Administration].
+
+Per ulteriori informazioni, vedere [Amministrare Target](/help/main/administrating-target/start-target.md).
 
 ## [!DNL Target Standard/Premium] 25.4.1 (2 aprile 2025)
 
