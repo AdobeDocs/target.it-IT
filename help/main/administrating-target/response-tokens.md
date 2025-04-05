@@ -5,7 +5,7 @@ title: Cosa sono i token di risposta e come si utilizzano?
 feature: Administration & Configuration
 role: Admin
 exl-id: d0c1e914-3172-466d-9721-fe0690abd30b
-source-git-commit: 484971ab0fcd07205935c0fef3ea1484f40c3e96
+source-git-commit: 12831d6584acc482db415629d7e70a18e39c47c2
 workflow-type: tm+mt
 source-wordcount: '1622'
 ht-degree: 22%
@@ -19,6 +19,8 @@ I token di risposta consentono di inviare automaticamente informazioni specifich
 I token di risposta consentono di scegliere le variabili (in coppie di valori chiave) da utilizzare e quindi di abilitarne l&#39;invio come parte di una risposta [!DNL Target]. Abilitare una variabile utilizzando il parametro e la variabile viene inviata con [!DNL Target] risposte, che possono essere convalidate in chiamate di rete. I token di risposta funzionano anche in modalità [!UICONTROL Preview].
 
 Una differenza chiave tra plug-in e token di risposta è che i plug-in forniscono JavaScript alla pagina che viene eseguita al momento della consegna. I token di risposta, tuttavia, forniscono un oggetto che può quindi essere letto e seguito utilizzando i listener di eventi. L’approccio del token di risposta è più sicuro e consente di sviluppare e mantenere più facilmente le integrazioni di terze parti.
+
+{{permissions-update}}
 
 >[!NOTE]
 >
@@ -46,7 +48,7 @@ Una differenza chiave tra plug-in e token di risposta è che i plug-in forniscon
 
    | Tipo | Parametro | Note |
    |--- |--- |--- |
-   | Profili incorporati | `profile.activeActivities` | Restituisce una matrice dei codici `activityIds` per i quali il visitatore si qualifica. Viene incrementato man mano che gli utenti si qualificano. Ad esempio, in una pagina con due richieste [!DNL Target] che distribuiscono due attività diverse, la seconda richiesta include entrambe le attività. |
+   | Profili incorporati | `profile.activeActivities` | Restituisce un array dei codici `activityIds` per i quali il visitatore si qualifica. Viene incrementato man mano che gli utenti si qualificano. Ad esempio, in una pagina con due richieste [!DNL Target] che distribuiscono due attività diverse, la seconda richiesta include entrambe le attività. |
    |  | `profile.isFirstSession` | Restituisce “vero” o “falso”. |
    |  | `profile.isNewSession` | Restituisce “vero” o “falso”. |
    |  | `profile.daysSinceLastVisit` | Restituisce il numero di giorni dall’ultima visita del visitatore. |
@@ -54,7 +56,7 @@ Una differenza chiave tra plug-in e token di risposta è che i plug-in forniscon
    |  | `profile.marketingCloudVisitorId` | Restituisce l’ID visitatore di Experience Cloud per il visitatore in oggetto. |
    |  | `profile.thirdPartyId` | Restituisce l’ID di terze parti del visitatore. |
    |  | `profile.categoryAffinity` | Restituisce la categoria preferita del visitatore. |
-   |  | `profile.categoryAffinities` | Restituisce una matrice delle 5 categorie principali del visitatore, sotto forma di stringhe. |
+   |  | `profile.categoryAffinities` | Restituisce un array delle 5 categorie principali del visitatore, sotto forma di stringhe. |
    | Attività | `activity.name`<br>`activity.id`<br>`experience.name`<br>`experience.id`<br>`offer.name`<br>`offer.id` | Dettagli dell’attività corrente.<br> I valori dei parametri delle offerte vengono valutati a livello di esperienza. |
    | Geo | `geo.country`<br>`geo.state`<br>`geo.city`<br>`geo.zip`<br>`geo.dma`<br>`geo.domainName`<br>`geo.ispName`<br>`geo.connectionSpeed`<br>`geo.mobileCarrier` | Consulta [Geo](/help/main/c-target/c-audiences/c-target-rules/geo.md) per ulteriori informazioni sull’utilizzo del geotargeting nelle attività. |
    | Metodo di allocazione traffico<br>(si applica solo alle attività [!UICONTROL Auto-Target] e [!UICONTROL Automated Personalization]). | `experience.trafficAllocationId` | Restituisce 0 se un visitatore ha ricevuto un’esperienza dal traffico &quot;di controllo&quot; e 1 se un visitatore ha ricevuto un’esperienza dalla distribuzione del traffico &quot;mirata&quot;. |
@@ -80,11 +82,11 @@ Il processo utilizzato per ascoltare le risposte [!DNL Target] e leggere i token
 
 Utilizzare la classe Handle object, che dispone di un oggetto metadati e un oggetto dati per ascoltare le risposte [!DNL Target] e leggere i token di risposta.
 
-Nell&#39;esempio di risposta seguente viene aggiunto un gestore eventi personalizzato [!DNL Platform Web SDK] direttamente alla pagina HTML (nella tabella vengono illustrati gli oggetti utilizzati nel codice):
+Nell&#39;esempio di risposta seguente viene aggiunto un gestore eventi personalizzato [!DNL Platform Web SDK] direttamente alla pagina HTML (la tabella spiega gli oggetti utilizzati nel codice):
 
 | Oggetto | Informazioni |
 | --- | --- |
-| Tipo: Personalization.decision | Se la decisione è stata presa dal provider di Offer decisioning o [!DNL Target]. |
+| Tipo: Personalization.decision | Se la decisione è stata presa dal provider [!DNL Target] o Offer Decisioning. |
 | DecisionProvider - TGT | TGT-[!DNL Target]. [!DNL Target] fornisce alla pagina i metadati e i valori del token di risposta. |
 | Meta | Metadati passati alla pagina. |
 | Dati | Valori dei metadati passati alla pagina. |
@@ -212,13 +214,13 @@ Come accennato in precedenza, i token di risposta funzionano sulle informazioni 
 
 [!DNL Target] esegue un aggiornamento degli attributi a intervalli regolari. Qualsiasi attributo non attivato viene rimosso durante il successivo aggiornamento. Tuttavia, se l&#39;attributo è stato attivato e rimosso, lo script non viene rimosso dall&#39;elenco degli attributi fino a quando non viene disattivato. Ad esempio, hai rimosso uno script di profilo utilizzato come token. [!DNL Target] rimuove dall&#39;elenco solo gli attributi attivati quando vengono eliminati o rinominati.
 
-## Invia dati a Google Analytics
+## Inviare dati a Google Analytics
 
-Nelle sezioni seguenti viene descritto come inviare dati [!DNL Target] alle Google Analytics 4. I dati inviati dai token di risposta possono essere inviati anche ad altre integrazioni di terze parti.
+Nelle sezioni seguenti viene descritto come inviare dati [!DNL Target] a Google Analytics 4. I dati inviati dai token di risposta possono essere inviati anche ad altre integrazioni di terze parti.
 
-### ![Badge AEP](/help/main/assets/platform.png) Invio di dati a Google Analytics tramite Platform Web SDK
+### ![Badge AEP](/help/main/assets/platform.png) invio di dati a Google Analytics tramite Platform Web SDK
 
-È possibile inviare i dati alle Google Analytics tramite Platform Web SDK versione 2.6.0 (o successiva) aggiungendo il seguente codice nella pagina HTML.
+Google Analytics può essere inviato dati tramite Platform Web SDK versione 2.6.0 (o successiva) aggiungendo il seguente codice nella pagina HTML.
 
 >[!NOTE]
 >
@@ -254,7 +256,7 @@ Nelle sezioni seguenti viene descritto come inviare dati [!DNL Target] alle Goog
 </script>
 ```
 
-### ![Badge at.js](/help/main/assets/atjs.png) invio di dati alle Google Analytics tramite at.js {#section_04AA830826D94D4EBEC741B7C4F86156}
+### ![Badge at.js](/help/main/assets/atjs.png) Invio di dati a Google Analytics tramite at.js {#section_04AA830826D94D4EBEC741B7C4F86156}
 
 Puoi inviare dati a Google Analytics tramite at.js aggiungendo il seguente codice alla pagina HTML:
 
@@ -310,9 +312,9 @@ Puoi inviare dati a Google Analytics tramite at.js aggiungendo il seguente codic
 
 Le sezioni seguenti forniscono informazioni sul debug dei token di risposta:
 
-### ![Google Analytics e debug del badge at.js](/help/main/assets/atjs.png)
+### ![Badge at.js](/help/main/assets/atjs.png) Google Analytics e debug
 
-Il codice seguente consente di eseguire il debug utilizzando le Google Analytics:
+Il codice seguente consente di eseguire il debug utilizzando Google Analytics:
 
 ```javascript
 <script async src="https://www.googletagmanager.com/gtag/js?id=TAG_ID"></script>

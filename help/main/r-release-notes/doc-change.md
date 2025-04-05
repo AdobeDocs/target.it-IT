@@ -4,10 +4,10 @@ description: Resta aggiornato sulle importanti aggiunte e modifiche apportate al
 title: Dove posso trovare la documentazione aggiornata per  [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: c6799d43ee2f5ebe568f7199ae4ec1deaa164c06
+source-git-commit: 12831d6584acc482db415629d7e70a18e39c47c2
 workflow-type: tm+mt
-source-wordcount: '469'
-ht-degree: 42%
+source-wordcount: '530'
+ht-degree: 39%
 
 ---
 
@@ -21,6 +21,10 @@ Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Targ
 
 | Data | Argomento | Modifiche |
 |--- |--- |--- |
+| 4 aprile | Note sulla versione di [[!DNL Target]  (corrente)](/help/main/r-release-notes/release-notes.md) | Sono state aggiornate le note sulla versione per il prossimo aggiornamento delle autorizzazioni [!DNL Target] pianificato per il 22 aprile 2025. |
+|  | Note sulla versione (prerelease) di [[!DNL Target] ](/help/main/r-release-notes/target-release-notes.md) | Sono state aggiornate le note sulla versione prerelease per il prossimo aggiornamento delle autorizzazioni [!DNL Target] pianificato per il 22 aprile 2025. |
+|  | [Primi passaggi per l’amministratore](/help/main/administrating-target/start-target.md#admin-permissions) | È stata aggiunta una nuova sezione: &quot;Autorizzazioni necessarie per modificare le impostazioni di [!UICONTROL Administration]&quot;. |
+|  | [Amministra [!DNL Target] Panoramica](/help/main/administrating-target/administrating-target.md) | Aggiunta nota importante sulle autorizzazioni necessarie per modificare le impostazioni di [!UICONTROL Administration].<P>Aggiunta della stessa nota a tutti gli articoli nella sezione [!UICONTROL Administration]. |
 | Aprile 2 | Note sulla versione di [[!DNL Target]  (corrente)](/help/main/r-release-notes/release-notes.md) | Sono state aggiunte le note sulla versione 25.4.1 di [!DNL Target Standard/Premium]. |
 
 ### [!DNL Target Standard/Premium] 25.3.1 (3 marzo 2025)

@@ -5,7 +5,7 @@ title: Cosa sono gli ambienti e come li utilizzo?
 feature: Administration & Configuration
 role: Admin
 exl-id: 820a116a-15f9-4ba0-94f3-8e35aa0f90da
-source-git-commit: 484971ab0fcd07205935c0fef3ea1484f40c3e96
+source-git-commit: 12831d6584acc482db415629d7e70a18e39c47c2
 workflow-type: tm+mt
 source-wordcount: '644'
 ht-degree: 46%
@@ -21,6 +21,8 @@ Per facilitare la gestione, gli host sono raccolti in ambienti. Ad esempio, si p
 Un ambiente, quello predefinito, è denominato [!UICONTROL Production]. Questo ambiente predefinito non può essere eliminato, anche se lo si rinomina. [!DNL Target] presuppone che è qui che verranno eseguiti attività e test finali e approvati.
 
 Quando si riceve una richiesta [!DNL Target] da nuovi siti Web o domini, questi nuovi domini vengono sempre visualizzati nell&#39;ambiente [!UICONTROL Production]. Impossibile modificare le impostazioni dell&#39;ambiente [!UICONTROL Production]. Per i siti sconosciuti o nuovi viene garantita la visualizzazione solo del contenuto attivo e pronto. La gestione degli host consente inoltre di garantire facilmente la qualità di nuove attività e contenuti nei test, nella gestione temporanea (staging) e negli ambienti di sviluppo prima di attivare le attività.
+
+{{permissions-update}}
 
 Per gestire gli ambienti, fare clic su **[!UICONTROL Administration]** > **[!UICONTROL Environments]**.
 

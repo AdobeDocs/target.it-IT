@@ -1,8 +1,8 @@
 ---
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 12831d6584acc482db415629d7e70a18e39c47c2
 workflow-type: tm+mt
-source-wordcount: '21'
-ht-degree: 100%
+source-wordcount: '64'
+ht-degree: 32%
 
 ---
 # Frammenti
@@ -12,5 +12,11 @@ ht-degree: 100%
 >[!NOTE]
 >
 >Questa funzionalità è disponibile con la licenza [Target Premium](/help/main/c-intro/intro.md#premium). Questa funzionalità non è disponibile in [!DNL Target Standard].
+
+## Aggiornamento delle autorizzazioni di Target {#permissions-update}
+
+>[!IMPORTANT]
+>
+>A decorrere dal 22 aprile 2025, solo gli amministratori [!UICONTROL Product] e [!UICONTROL Solutions] potranno aggiornare le impostazioni nelle sezioni [!UICONTROL Administration], indipendentemente dai loro ruoli nelle aree di lavoro [!DNL Target]. Gli utenti senza questa autorizzazione avranno accesso in sola lettura alle sezioni [!UICONTROL Administration]. Per ulteriori informazioni, vedere [Autorizzazioni necessarie per modificare [!UICONTROL Administration] impostazioni](/help/main/administrating-target/start-target.md#admin-permissions).
 
 

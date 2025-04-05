@@ -6,7 +6,7 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Administration & Configuration
 role: Admin
 exl-id: 838abe87-dba7-4274-97b4-31a7905846dc
-source-git-commit: 484971ab0fcd07205935c0fef3ea1484f40c3e96
+source-git-commit: 12831d6584acc482db415629d7e70a18e39c47c2
 workflow-type: tm+mt
 source-wordcount: '3165'
 ht-degree: 48%
@@ -16,6 +16,8 @@ ht-degree: 48%
 # Autorizzazioni per gli utenti Enterprise
 
 Le autorizzazioni per gli utenti Enterprise rappresentano un mezzo per amministrare formalmente l&#39;accesso degli utenti a [!DNL Adobe Target] a livello aziendale. Aggiungere utenti a [!DNL Target], assegnare le autorizzazioni in base ai ruoli e creare aree di lavoro per i team in base a reparti, posizioni globali, canali e altri raggruppamenti logici. È possibile assegnare agli utenti i ruoli di [!UICONTROL Observer], [!UICONTROL Editor], [!UICONTROL Approver] o [!UICONTROL Publisher].
+
+{{permissions-update}}
 
 ## Determinare se si dispone dell&#39;accesso alle autorizzazioni per gli utenti aziendali
 
@@ -81,7 +83,7 @@ Tutti i ruoli utente e l&#39;accesso a tutte le funzionalità di [!DNL Target] r
 
 ### Gruppi di utenti
 
-Puoi creare gruppi di utenti, ad esempio sviluppatori, analisti, addetti al marketing e dirigenti. È quindi possibile assegnare privilegi a più prodotti Adobe e aree di lavoro. Per assegnare a un nuovo membro del team tutti i privilegi appropriati per i diversi prodotti Adobe, sarà sufficiente aggiungerlo a un gruppo di utenti specifico.
+Puoi creare gruppi di utenti, ad esempio sviluppatori, analisti, addetti al marketing e dirigenti. Puoi quindi assegnare privilegi a più prodotti Adobe e aree di lavoro. Per assegnare a un nuovo membro del team tutti i privilegi appropriati per i diversi prodotti Adobe, sarà sufficiente aggiungerlo a un gruppo di utenti specifico.
 
 ### Ruoli e autorizzazioni {#roles-permissions}
 
