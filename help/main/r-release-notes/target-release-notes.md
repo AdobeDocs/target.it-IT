@@ -4,10 +4,10 @@ description: Scopri le nuove funzioni, i miglioramenti e le correzioni, compresi
 title: Quali nuove funzioni e miglioramenti saranno inclusi nella prossima versione [!DNL Target] ?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: eaba6fe562644874fc800612894218094ca37f1b
+source-git-commit: 21ee4fc1e0d986e6c1852c1bda647f4cb36ec606
 workflow-type: tm+mt
-source-wordcount: '391'
-ht-degree: 44%
+source-wordcount: '380'
+ht-degree: 45%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 44%
 
 Questo articolo contiene informazioni prerelease per le prossime versioni di [!DNL Adobe Target], incluse SDK, API e librerie JavaScript.
 
-**Ultimo aggiornamento: mercoledì 8 aprile 2025**
+**Ultimo aggiornamento: venerdì 10 aprile 2025**
 
 >[!NOTE]
 >
@@ -37,11 +37,6 @@ Questa versione include le correzioni e gli aggiornamenti seguenti:
 
 * È stato risolto un problema che causava il reindirizzamento errato del collegamento [!UICONTROL Activity QA] nella home page di [!UICONTROL Form-Based Experience Composer] alla home page di [!DNL Adobe Experience Cloud]. (TGT-52055)
 * È stato aggiunto un messaggio di errore per guidare gli utenti nella risoluzione delle opzioni duplicate in un’attività. (TGT-51927)
-
-## [!DNL Target Standard/Premium] 25.4.2 (8 aprile 2025)
-
-Questa versione include le correzioni e gli aggiornamenti seguenti:
-
 * È stato risolto un problema che impediva il mantenimento delle pagine aggiuntive aggiunte all&#39;attività [!UICONTROL A/B Test] dopo il salvataggio e la riapertura. (TGT-51994)
 * È stato risolto un problema che impediva ai clienti di eliminare gli stili nella sezione stile in linea. (TGT-52070)
 * È stato ripristinato l&#39;accesso alle [schede di definizione del pubblico](/help/main/c-target/c-audiences/audiences.md#section_11B9C4A777E14D36BA1E925021945780) nella finestra di dialogo [!UICONTROL Activity QA], in modo simile all&#39;interfaccia utente legacy. (TGT-52056)
