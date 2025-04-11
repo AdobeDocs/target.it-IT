@@ -4,7 +4,7 @@ description: Scopri come funziona [!DNL Adobe Target] e informazioni su librerie
 title: Come funziona  [!DNL Target] ?
 feature: Overview
 exl-id: 8a93e061-0be7-4ecc-b511-2210094547f2
-source-git-commit: 09e35c7a70785424bea0b63956d01e5e3944bfa9
+source-git-commit: 673fe3d19ff569d8dd8c659e77a85a7fb74bbae7
 workflow-type: tm+mt
 source-wordcount: '2400'
 ht-degree: 23%
@@ -103,10 +103,10 @@ Consulta [Raccomandazioni](/help/main/c-recommendations/recommendations.md#conce
 
 Le informazioni seguenti sono utili per comprendere la strategia di conteggio utilizzata per [!DNL Target] chiamate al server, come illustrato nella tabella seguente:
 
-* **Count Once**: conta una volta per chiamata API
-* **Contare il numero di mbox**: conta il numero di mbox sotto l&#39;array nel payload di una singola chiamata API
-* **Ignora**: non è conteggiato
-* **Numero di visualizzazioni (una volta)**: conta il numero di visualizzazioni sotto l&#39;array nel payload. In un’implementazione tipica, una notifica di visualizzazione ha una sola visualizzazione nell’array delle notifiche, il che equivale a contare una volta nella maggior parte delle implementazioni
+* **Count Once**: conta una volta per chiamata API.
+* **Contare il numero di mbox**: conta il numero di mbox sotto l&#39;array nel payload di una singola chiamata API.
+* **Ignora**: non è conteggiato.
+* **Numero di visualizzazioni (una volta)**: conta il numero di visualizzazioni sotto l&#39;array nel payload. In un’implementazione tipica, una notifica di visualizzazione ha una sola visualizzazione nell’array delle notifiche, il che equivale a contare una volta nella maggior parte delle implementazioni.
 
 | Endpoint | Tipo di recupero | Opzioni | Strategia di conteggio |
 |--- |--- |--- |-- |
