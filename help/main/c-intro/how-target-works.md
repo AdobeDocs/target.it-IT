@@ -4,10 +4,10 @@ description: Scopri come funziona [!DNL Adobe Target] e informazioni su librerie
 title: Come funziona  [!DNL Target] ?
 feature: Overview
 exl-id: 8a93e061-0be7-4ecc-b511-2210094547f2
-source-git-commit: 70b3dbc7f0521e865de781e72bb1e5ca98df0258
+source-git-commit: 09e35c7a70785424bea0b63956d01e5e3944bfa9
 workflow-type: tm+mt
-source-wordcount: '2306'
-ht-degree: 24%
+source-wordcount: '2400'
+ht-degree: 23%
 
 ---
 
@@ -28,19 +28,19 @@ I punti chiave includono:
 
 Target si integra con i siti Web utilizzando [!DNL Experience Platform Web SDK] o at.js:
 
-* **[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=it)**: questa libreria JavaScript lato client consente a [!DNL Adobe Experience Cloud] clienti di interagire con vari servizi tramite [!DNL Experience Platform Edge Network]. [!DNL Adobe] consiglia ai nuovi clienti [!DNL Target] di implementare [!DNL Experience Platform Web SDK].
-* **[at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/overview.html?lang=it)**: questa libreria di implementazione per [!DNL Target] migliora i tempi di caricamento delle pagine per le implementazioni web e offre opzioni migliori per le applicazioni a pagina singola. Aggiornato spesso con nuove funzionalità, [!DNL Adobe] consiglia a tutti gli utenti di [at.js di eseguire l&#39;aggiornamento alla versione più recente](https://experienceleague-review.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html).
+* **[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=it){target=_blank}**: questa libreria JavaScript lato client consente a [!DNL Adobe Experience Cloud] clienti di interagire con vari servizi tramite [!DNL Experience Platform Edge Network]. [!DNL Adobe] consiglia ai nuovi clienti [!DNL Target] di implementare [!DNL Experience Platform Web SDK].
+* **[at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/overview.html?lang=it){target=_blank}**: questa libreria di implementazione per [!DNL Target] migliora i tempi di caricamento delle pagine per le implementazioni web e offre opzioni migliori per le applicazioni a pagina singola. Aggiornato spesso con nuove funzionalità, [!DNL Adobe] consiglia a tutti gli utenti di [at.js di eseguire l&#39;aggiornamento alla versione più recente](https://experienceleague-review.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}.
 
 >[!NOTE]
 >
 >La libreria mbox.js è un&#39;implementazione legacy per [!DNL Target] e non è più supportata dopo il 31 marzo 2021. Esegui l’aggiornamento a [!UICONTROL Experience Platform Web SDK] (preferito) o alla versione più recente di at.js.
 
-Fai riferimento a [!UICONTROL Experience Platform Web SDK] o at.js in ogni pagina del sito. Ad esempio, aggiungi una di queste librerie all’intestazione globale. In alternativa, utilizzare [tag in Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/tags/home) per implementare [!DNL Target].
+Fai riferimento a [!UICONTROL Experience Platform Web SDK] o at.js in ogni pagina del sito. Ad esempio, aggiungi una di queste librerie all’intestazione globale. In alternativa, utilizzare [tag in Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/tags/home){target=_blank} per implementare [!DNL Target].
 
 Le risorse seguenti contengono informazioni dettagliate utili per implementare [!DNL Experience Platform Web SDK] o at.js:
 
-* [[!DNL Adobe Experience Platform Web SDK] Estensione](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/sdk/overview.html?lang=it)
-* [Implementare [!DNL Target] utilizzando [!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch)
+* [[!DNL Adobe Experience Platform Web SDK] estensione](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/sdk/overview.html?lang=it){target=_blank}
+* [Implementare [!DNL Target] utilizzando [!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch){target=_blank}
 
 Ogni volta che un visitatore richiede una pagina ottimizzata per [!DNL Target], viene inviata una richiesta in tempo reale al sistema di targeting per determinare il contenuto da distribuire. Questa richiesta viene effettuata ed evasa ogni volta che viene caricata una pagina, gestita da attività ed esperienze controllate dagli addetti al marketing. Il contenuto è destinato ai singoli visitatori del sito, ottimizzando i tassi di risposta, i tassi di acquisizione e i ricavi. I contenuti personalizzati garantiscono che i visitatori rispondano, interagiscano o effettuino acquisti.
 
@@ -100,6 +100,13 @@ Consulta [Raccomandazioni](/help/main/c-recommendations/recommendations.md#conce
 ## Come [!DNL Target] conta l&#39;utilizzo delle chiamate al server {#usage}
 
 [!DNL Target] conta solo le chiamate server che forniscono valore ai clienti. Nella tabella seguente viene illustrato il conteggio di [!DNL Target] endpoint, mbox singola, chiamate mbox batch, chiamate execute, prefetch e di notifica.
+
+Le informazioni seguenti sono utili per comprendere la strategia di conteggio utilizzata per [!DNL Target] chiamate al server, come illustrato nella tabella seguente:
+
+* **Count Once**: conta una volta per chiamata API
+* **Contare il numero di mbox**: conta il numero di mbox sotto l&#39;array nel payload di una singola chiamata API
+* **Ignora**: non è conteggiato
+* **Numero di visualizzazioni (una volta)**: conta il numero di visualizzazioni sotto l&#39;array nel payload. In un’implementazione tipica, una notifica di visualizzazione ha una sola visualizzazione nell’array delle notifiche, il che equivale a contare una volta nella maggior parte delle implementazioni
 
 | Endpoint | Tipo di recupero | Opzioni | Strategia di conteggio |
 |--- |--- |--- |-- |
@@ -162,7 +169,7 @@ Il servizio [!DNL Target Recommendations] è ospitato in un data center [!DNL Ad
 >
 >[!DNL Target] non dispone attualmente di un cluster Edge in Cina, limitando le prestazioni dei visitatori per [!DNL Target] clienti nella regione. Il firewall e l’assenza di cluster Edge possono influire sulle esperienze del sito, rallentando i tempi di rendering e caricamento delle pagine. Inoltre, gli addetti al marketing possono riscontrare una latenza durante l&#39;utilizzo dell&#39;interfaccia utente di creazione di [!DNL Target].
 
-Se necessario, puoi inserire nell’elenco Consentiti i cluster di Edge [!DNL Target]. Per ulteriori informazioni, consulta [elenco Consentiti nodi edge di Target](https://experienceleague.adobe.com/en/docs/target-dev/developer/implementation/privacy/allowlist-edges).
+Se necessario, puoi inserire nell’elenco consentiti i cluster edge di [!DNL Target]. Per ulteriori informazioni, consulta [Inserire nell’elenco consentiti i nodi edge di Target](https://experienceleague.adobe.com/en/docs/target-dev/developer/implementation/privacy/allowlist-edges){target=_blank}.
 
 ## Esperienza di utilizzo protetta {#concept_40A5E781D90A41E4955F80EA9E5F8F96}
 

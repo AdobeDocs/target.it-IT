@@ -4,9 +4,9 @@ description: Resta aggiornato sulle importanti aggiunte e modifiche apportate al
 title: Dove posso trovare la documentazione aggiornata per  [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: b9ec7af30fda6e97e3b0372a02a682a177764742
+source-git-commit: 09e35c7a70785424bea0b63956d01e5e3944bfa9
 workflow-type: tm+mt
-source-wordcount: '625'
+source-wordcount: '634'
 ht-degree: 37%
 
 ---
@@ -22,6 +22,7 @@ Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Targ
 | Data | Argomento | Modifiche |
 |--- |--- |--- |
 | 11 aprile | Note sulla versione di [[!DNL Target]  (corrente)](/help/main/r-release-notes/release-notes.md) | Sono state aggiunte le note sulla versione 25.4.3 di [!DNL Target Standard/Premium]. |
+|  | [Come [!DNL Target] funziona](/help/main/c-intro/how-target-works.md#usage) | È stata aggiunta una nuova sezione: &quot;Come [!DNL Target] conta l&#39;utilizzo delle chiamate al server.&quot; |
 | 9 aprile | Note sulla versione (prerelease) di [[!DNL Target] ](/help/main/r-release-notes/target-release-notes.md) | Sono state aggiornate le note sulla versione prerelease relative alla versione 25.4.4. |
 | 8 aprile | [CNAME e Target](https://experienceleague.adobe.com/en/docs/target-dev/developer/implementation/implement-cname-support-in-target){target=_blank} | È stato aggiornato quanto segue:<ul><li>Per impostazione predefinita, tutti i certificati sono RSA SHA-256 e le chiavi sono RSA 2048 bit. Le dimensioni delle chiavi superiori a 2048 bit devono essere richieste esplicitamente tramite l’Assistenza clienti. (In precedenza le dimensioni delle chiavi superiori a 2048 bit non erano supportate).</li><li>È stato aggiornato lo script Bash.</li><li>Snippet di codice di output di convalida aggiornato.</li></ul> |
 | Aprile 7 | Note sulla versione (prerelease) di [[!DNL Target] ](/help/main/r-release-notes/target-release-notes.md) | Sono state aggiunte note sulla versione prerelease relative alla seguente:<UL><li>[!DNL Target Standard/Premium] 25.4.3 (10 aprile 2025)</li></ul> |
