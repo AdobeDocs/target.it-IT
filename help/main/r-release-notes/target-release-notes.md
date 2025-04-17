@@ -4,10 +4,10 @@ description: Scopri le nuove funzioni, i miglioramenti e le correzioni, compresi
 title: Quali nuove funzioni e miglioramenti saranno inclusi nella prossima versione [!DNL Target] ?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 218036d23803643f25e6cf9dd91ea71dd55342ea
+source-git-commit: cd25bda52b7a1b916a73ca5e531a7134ba8cef4e
 workflow-type: tm+mt
-source-wordcount: '336'
-ht-degree: 50%
+source-wordcount: '416'
+ht-degree: 43%
 
 ---
 
@@ -28,10 +28,15 @@ Questo articolo contiene informazioni prerelease per le prossime versioni di [!D
 Questa versione include le correzioni e gli aggiornamenti seguenti:
 
 * È stato aggiunto un messaggio di errore per guidare gli utenti nella risoluzione delle opzioni duplicate in un’attività. (TGT-51927)
-* È stato risolto un problema che impediva la rimozione dei selettori ClickTrack durante l&#39;eliminazione di pagine o esperienze con offerte di reindirizzamento. (TGT-51952)
-* È stato risolto un problema che impediva a [!DNL Target] di rilevare correttamente un carattere &quot;#&quot; nell&#39;URL attività. (TGT-52093)
+* È stato risolto un problema che impediva la rimozione di `ClickTrack` selettori durante l&#39;eliminazione di pagine o esperienze con offerte di reindirizzamento. (TGT-51952)
+* È stato risolto un problema che causava l&#39;autorizzazione di selettori `ClickTrack` vuoti. [!DNL Target] ora richiede che il campo del selettore non sia vuoto. (TGT-52107)
+* È stato risolto un problema che consentiva erroneamente le metriche con nomi duplicati. Le metriche ora richiedono nomi univoci. (TGT-52201)
 * È stato risolto un problema a causa del quale le definizioni dei tipi di pubblico non erano visibili durante la modifica del targeting a livello di offerta nelle attività [!UICONTROL Automated Personalization] (AP). (TGT-52148)
-* È stato risolto un problema a causa del quale i perfezionamenti del pubblico e i tipi di pubblico di targeting delle attività venivano invertiti nell’interfaccia utente. (TGT-52158)
+* È stato risolto un problema che impediva ai clienti con diritti [!UICONTROL Editor] di salvare le attività. (TGT-52227)
+* `OptionLocalIDs` non incrementa più in modo errato quando l&#39;opzione rimane invariata. (TGT-52139)
+* È stato risolto un problema che causava un messaggio &quot;Non valido `optionLocalIds`&quot; durante il tentativo di creare un&#39;attività. (TGT-52154)
+* Sono state corrette le discrepanze tra `OptionLocalIDs` definiti per un&#39;attività e quelli utilizzati per definire le esperienze. (TGT-52215)
+* È stato risolto un problema che causava un errore di convalida durante il tentativo di creazione di un’attività A/B. (TGT-51923)
 
 ## Aggiornamento delle autorizzazioni di Target (22 aprile 2025)
 
