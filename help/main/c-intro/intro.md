@@ -6,46 +6,44 @@ short-description: Personalizza l’esperienza dei clienti per massimizzare le e
 title: Cos’è Target?
 feature: Overview
 exl-id: 0e729c71-618b-4ab8-93a3-d37e73ec2740
-source-git-commit: 52f11998149cddeb4245a0f07280562d79332a04
+source-git-commit: 218036d23803643f25e6cf9dd91ea71dd55342ea
 workflow-type: tm+mt
-source-wordcount: '1019'
-ht-degree: 72%
+source-wordcount: '955'
+ht-degree: 52%
 
 ---
 
-# Introduzione a Target
+# Introduzione a [!DNL Target]
 
-[!DNL Adobe Target] è la [!DNL Adobe Experience Cloud] soluzione che offre tutto il necessario per adattare e personalizzare le esperienze dei clienti. [!DNL Target] consente di massimizzare i ricavi sui siti web e mobili, applicazioni, social media e altri canali digitali.
+[!DNL Adobe Target], parte di [!DNL Adobe Experience Cloud], offre strumenti completi per personalizzare le esperienze dei clienti su siti Web, mobili, app, social media e altri canali digitali.
 
-La soluzione [!DNL Adobe Target] può essere autorizzata come [!DNL Target Standard] o [!DNL Target Premium].
+[!DNL Target] consente di massimizzare i ricavi e può essere concesso in licenza come [!DNL Target Standard] o [!DNL Target Premium].
 
-## Target Standard {#section_ACD5EFF17AAB4E979CBEFA0145CCD905}
+## [!UICONTROL Target Standard] {#section_ACD5EFF17AAB4E979CBEFA0145CCD905}
 
-[!DNL Target Standard] è il front-end per [!DNL Adobe Target] che consente di creare e gestire visivamente test A/B e attività di targeting basate su regole. [!DNL Target Standard] supporta l&#39;inserimento di codice personalizzato sia all&#39;interno che all&#39;esterno del flusso di lavoro [!UICONTROL Visual Experience Composer] (VEC). [!DNL Target Standard] offre una strategia di implementazione semplificata con le tue proprietà digitali. Una singola riga di codice in ogni pagina gestisce tutte le comunicazioni necessarie tra il sito e [!DNL Target].
+[!DNL Target Standard] è il front-end di [!DNL Adobe Target], che consente la creazione e la gestione visiva di test A/B e attività di targeting basate su regole. [!DNL Target] supporta l&#39;inserimento di codice personalizzato all&#39;interno e all&#39;esterno del flusso di lavoro [[!UICONTROL Visual Experience Composer]](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) (VEC). [!DNL Target Standard] offre una strategia di implementazione semplificata per le proprietà digitali, con una sola riga di codice in ogni pagina per gestire tutte le comunicazioni tra il sito e [!DNL Target].
 
-Le best practice di settore sono integrate in [!DNL Target Standard]. [!DNL Target Standard] è progettato per utenti nuovi ed esperti. Puoi condividere dati e risultati e collaborare facilmente con altri membri del gruppo che utilizzano [!DNL Adobe Experience Cloud].
+Le best practice di settore sono integrate in [!DNL Target Standard], rendendolo adatto sia agli utenti nuovi che a quelli esperti. Puoi condividere facilmente dati, risultati e collaborare con i membri del gruppo utilizzando [!DNL Adobe Experience Cloud].
 
-## Target Premium {#premium}
+## [!DNL Target Premium] {#premium}
 
 [!BADGE Premium]{type=Positive}
 
-[!DNL Target Premium] è un’offerta avanzata [!DNL Target] che richiede una licenza per aggiungere funzionalità Premium a [!DNL Target Standard].
-
-Tutti gli articoli di [!DNL Target Premium] nelle guide di [!DNL Target] includono il badge [!UICONTROL Premium] nella parte superiore di ogni pagina o in linea vicino al testo interessato. Il badge [!UICONTROL Premium] è cliccabile e include un collegamento a questa sezione.
+[!DNL Target Premium] è un&#39;offerta avanzata che richiede una licenza per aggiungere funzionalità Premium a [!DNL Target Standard]. Tutti gli articoli di [!DNL Target Premium] nelle guide di [!DNL Target] includono il badge [!UICONTROL Premium] nella parte superiore di ogni pagina o in linea vicino al testo interessato. Il badge [!UICONTROL Premium] è cliccabile e collega a questa sezione.
 
 **[!DNL Target Premium]include le seguenti funzionalità:**
 
-### Automated Personalization
+### [!UICONTROL Automated Personalization]
 
-In [Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) (AP) sono inclusi algoritmi di apprendimento automatico avanzati per distribuire esperienze personalizzate e tassi di conversione migliorati per le esperienze digitali.
+[[!UICONTROL Automated Personalization]](/help/main/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) (AP) utilizza algoritmi avanzati di apprendimento automatico per fornire esperienze personalizzate e migliorare i tassi di conversione per le interazioni digitali.
 
-[!UICONTROL Automated Personalization] registra l&#39;attività del visitatore sul sito, creando un profilo di visitatori in modo che il contenuto possa essere indirizzato a visitatori simili. AP tiene traccia delle risposte ai contenuti, sia per i singoli utenti che per la popolazione nel suo insieme. AP utilizza quindi sofisticati approcci di modellazione per eseguire automaticamente il targeting di ogni singolo utente. AP considera tutto ciò che è noto su ogni visitatore.
+AP registra l’attività dei visitatori e crea profili per eseguire il targeting dei contenuti a visitatori simili. AP tiene traccia delle risposte ai contenuti per i singoli utenti e la popolazione, utilizzando una modellazione sofisticata per eseguire automaticamente il targeting di ogni visitatore in base a tutto ciò che sa su di lui.
 
-[!UICONTROL Automated Personalization] apprende da solo e richiede un&#39;analisi umana minima. Automatizzazione completa, apprendimento continuativo. Il sistema genera modelli e apprende automaticamente per quali prodotti è più elevata la probabilità che un singolo visitatore abbia interesse. Ogni volta che un visitatore interagisce con il sito, le informazioni vengono raccolte e memorizzate nel relativo profilo. Sono disponibili vari algoritmi per fornire il modello ottimale al sistema.
+AP è completamente automatizzato, apprendimento continuo con analisi umane minime. Crea modelli per determinare quali prodotti un visitatore potrebbe essere interessato, raccogliendo e memorizzando le informazioni nei profili dei visitatori. Gli algoritmi multipli garantiscono il modello migliore per il sistema.
 
-### Targeting automatico
+### [!UICONTROL Auto-Target]
 
-[Targeting automatico](/help/main/c-activities/auto-target/auto-target-to-optimize.md) utilizza l’apprendimento automatico avanzato per identificare più esperienze ad alte prestazioni definite dall’addetto al marketing. [!UICONTROL Auto-Target] fornisce quindi l&#39;esperienza più personalizzata a ogni visitatore. La consegna è basata sui profili dei singoli clienti e sul comportamento dei visitatori precedenti con profili simili. [!UICONTROL Auto-Target] consente di personalizzare il contenuto e favorire le conversioni.
+[Targeting automatico](/help/main/c-activities/auto-target/auto-target-to-optimize.md) utilizza l&#39;apprendimento automatico avanzato per identificare esperienze ad alte prestazioni definite dall&#39;addetto al marketing. In seguito, distribuisce a ogni visitatore l’esperienza più personalizzata in base ai profili dei singoli clienti e al comportamento dei visitatori precedenti con profili simili. [!UICONTROL Auto-Target] consente di personalizzare il contenuto e favorire le conversioni.
 
 ### Consigli
 
