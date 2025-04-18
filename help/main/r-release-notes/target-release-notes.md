@@ -4,10 +4,10 @@ description: Scopri le nuove funzioni, i miglioramenti e le correzioni, compresi
 title: Quali nuove funzioni e miglioramenti saranno inclusi nella prossima versione [!DNL Target] ?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 938351d258746031a6e47a935a37e2caccbf6e36
+source-git-commit: 872e56662e04e3fabda7ff38233adfea32efbe48
 workflow-type: tm+mt
-source-wordcount: '239'
-ht-degree: 67%
+source-wordcount: '373'
+ht-degree: 47%
 
 ---
 
@@ -22,6 +22,19 @@ Questo articolo contiene informazioni prerelease per le prossime versioni di [!D
 >Date di rilascio, funzioni e altre informazioni sono soggette a modifica senza preavviso.
 >
 >Per visualizzare informazioni sulla versione corrente, consulta [Note sulla versione di Target](release-notes.md). Le informazioni su queste pagine potrebbero essere uguali, a seconda della tempistica delle release. I codici tra parentesi sono per uso interno di [!DNL Adobe].
+
+## [!DNL Target Standard/Premium] 25.4.5 (24 aprile 2025)
+
+Questa versione include le correzioni e gli aggiornamenti seguenti:
+
+* È stato risolto un problema che causava la visualizzazione di più tipi di pubblico dell’esperienza durante la modifica o il salvataggio di un’attività. (TGT-52134)
+* È stato risolto un problema che impediva la visualizzazione dei consigli sul sito Web del cliente dopo l&#39;attivazione dell&#39;attività [!DNL Recommendations]. (TGT-52164)
+* `OptionLocalIDs` non incrementa più in modo errato quando l&#39;opzione rimane invariata. (TGT-52187)
+* Ora i file di reporting scaricati mostrano correttamente i dati presenti nell’interfaccia utente di reporting. (TGT-52068)
+* È stato risolto un problema che impediva a Target di riconoscere il carattere &quot;#&quot; nell’URL di un sito web. (TGT-52093)
+* Le operazioni batch non hanno più esito negativo dopo l’aggiunta delle regole di consegna della pagina. (TGT-52097)
+* È stato risolto un problema a causa del quale [!DNL Target] eliminava tutti i parametri di query dall&#39;URL del sito Web. (TGT-52100)
+* È stato risolto un problema che causava l’inversione dei perfezionamenti del pubblico e dei tipi di pubblico dell’attività nell’interfaccia utente aggiornata. (TGT-52158)
 
 ## Aggiornamento delle autorizzazioni di Target (22 aprile 2025)
 
