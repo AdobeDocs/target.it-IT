@@ -4,10 +4,10 @@ description: Scopri le nuove funzioni, i miglioramenti e le correzioni, compresi
 title: Quali nuove funzioni e miglioramenti saranno inclusi nella prossima versione [!DNL Target] ?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 872e56662e04e3fabda7ff38233adfea32efbe48
+source-git-commit: ad82d108adc6f5c76b2104f40fb0bb2c66e98a2b
 workflow-type: tm+mt
-source-wordcount: '373'
-ht-degree: 47%
+source-wordcount: '589'
+ht-degree: 33%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 47%
 
 Questo articolo contiene informazioni prerelease per le prossime versioni di [!DNL Adobe Target], incluse SDK, API e librerie JavaScript.
 
-**Ultimo aggiornamento: venerdì 17 aprile 2025**
+**Ultimo aggiornamento: giovedì 23 aprile 2025**
 
 >[!NOTE]
 >
@@ -27,14 +27,25 @@ Questo articolo contiene informazioni prerelease per le prossime versioni di [!D
 
 Questa versione include le correzioni e gli aggiornamenti seguenti:
 
-* È stato risolto un problema che causava la visualizzazione di più tipi di pubblico dell’esperienza durante la modifica o il salvataggio di un’attività. (TGT-52134)
 * È stato risolto un problema che impediva la visualizzazione dei consigli sul sito Web del cliente dopo l&#39;attivazione dell&#39;attività [!DNL Recommendations]. (TGT-52164)
 * `OptionLocalIDs` non incrementa più in modo errato quando l&#39;opzione rimane invariata. (TGT-52187)
 * Ora i file di reporting scaricati mostrano correttamente i dati presenti nell’interfaccia utente di reporting. (TGT-52068)
-* È stato risolto un problema che impediva a Target di riconoscere il carattere &quot;#&quot; nell’URL di un sito web. (TGT-52093)
 * Le operazioni batch non hanno più esito negativo dopo l’aggiunta delle regole di consegna della pagina. (TGT-52097)
 * È stato risolto un problema a causa del quale [!DNL Target] eliminava tutti i parametri di query dall&#39;URL del sito Web. (TGT-52100)
-* È stato risolto un problema che causava l’inversione dei perfezionamenti del pubblico e dei tipi di pubblico dell’attività nell’interfaccia utente aggiornata. (TGT-52158)
+* È stato risolto un errore della console che impediva ai clienti di creare attività sia nell’interfaccia utente di Target legacy che aggiornata. (TGT-52181)
+* È stato risolto un problema che impediva ai clienti di aggiungere nuove pagine, causando un errore di input dell’utente non valido. (TGT-52258)
+* È stato risolto un problema che causava la scomparsa delle modifiche dopo l&#39;aggiunta di ulteriori pagine e il ritorno alla scheda [!UICONTROL Experiences]. (TGT-52264)
+* È stato risolto un problema che impediva ai clienti di modificare il pubblico in un&#39;attività [!UICONTROL Experience Targeting] (XT). (TGT-52191)
+* È stato corretto un errore che impediva la modifica di un’attività XT a causa di una regola dell’interfaccia utente non supportata. (TGT-52273)
+* È stato risolto un problema che impediva la visualizzazione delle modifiche delle attività nell&#39;interfaccia utente [!DNL Target], nonostante il corretto recapito alla pagina Web. (TGT-52192)
+* È stato risolto un problema nel [!UICONTROL Visual Experience Composer] (VEC) aggiornato a causa del quale le breadcrumb non venivano sempre visualizzate nella parte inferiore dell’editor, causando difficoltà nella selezione precisa degli elementi. (TGT-51169)
+* È stato risolto un problema che impediva all&#39;elenco a discesa [!UICONTROL Audience] di visualizzare tutti i tipi di pubblico a causa dell&#39;impaginazione. (TGT-52204)
+* È stato risolto un problema che causava un messaggio di input utente non valido durante l&#39;aggiunta di nuove offerte nelle attività [!UICONTROL Automated Personalization] (AP). (TGT-52210)
+* È stato risolto un problema a causa del quale [!UICONTROL Analytics for Target] (A4T) veniva erroneamente selezionato come origine per la generazione di rapporti, anche se il cliente non aveva accesso ad A4T. (TGT-52226)
+* È stato risolto un problema che impediva il salvataggio di un&#39;attività con la metrica URL [!UICONTROL View a Page]. (TGT-52260)
+* È stato risolto un problema che impediva ai clienti di selezionare aree di lavoro durante la creazione di offerte all’interno di un’attività. (TGT-52289)
+* È stato risolto un problema che causava la visualizzazione errata delle modifiche da un’esperienza quando si passava a un’altra. (TGT-52184)
+* È stato risolto un problema che impediva la corretta visualizzazione dell&#39;offerta predefinita nell&#39;interfaccia utente [!DNL Target] dopo l&#39;apertura dell&#39;attività. (TGT-52198)
 
 ## Aggiornamento delle autorizzazioni di Target (22 aprile 2025)
 
