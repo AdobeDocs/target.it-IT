@@ -4,10 +4,10 @@ description: Resta aggiornato sulle importanti aggiunte e modifiche apportate al
 title: Dove posso trovare la documentazione aggiornata per  [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 872e56662e04e3fabda7ff38233adfea32efbe48
+source-git-commit: 4104b6cb67347205c0143c9dea46dd483a8266ce
 workflow-type: tm+mt
-source-wordcount: '659'
-ht-degree: 38%
+source-wordcount: '700'
+ht-degree: 37%
 
 ---
 
@@ -21,6 +21,7 @@ Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Targ
 
 | Data | Argomento | Modifiche |
 |--- |--- |--- |
+| Aprile 23 | [Integrare con [!DNL Real-Time Customer Data Platform]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#limitations) | Nella sezione *Limitazioni della funzione Attributi del profilo di Real-Time CDP e considerazioni* è stato aggiunto quanto segue: <ul><li>[!DNL Target] supporta solo il tipo di dati &quot;stringa&quot; per gli attributi di profilo [!DNL Adobe Experience Platform] da utilizzare nelle offerte. Gli attributi di tipo &quot;Map&quot; e &quot;Array&quot; non sono ancora supportati.</li></ul> |
 | 17 aprile | Note sulla versione di [[!DNL Target]  (corrente)](/help/main/r-release-notes/release-notes.md) | Sono state aggiunte le note sulla versione 25.4.4 di [!DNL Target Standard/Premium]. |
 |  | Note sulla versione (prerelease) di [[!DNL Target] ](/help/main/r-release-notes/target-release-notes.md) | Sono state aggiunte note sulla versione 25.4.5 di. |
 | 11 aprile | Note sulla versione di [[!DNL Target]  (corrente)](/help/main/r-release-notes/release-notes.md) | Sono state aggiunte le note sulla versione 25.4.3 di [!DNL Target Standard/Premium]. |
