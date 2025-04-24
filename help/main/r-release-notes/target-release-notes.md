@@ -4,10 +4,10 @@ description: Scopri le nuove funzioni, i miglioramenti e le correzioni, compresi
 title: Quali nuove funzioni e miglioramenti saranno inclusi nella prossima versione [!DNL Target] ?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: ad82d108adc6f5c76b2104f40fb0bb2c66e98a2b
+source-git-commit: b09796cd8464b54dcc1945ae1ec00eb914ba218c
 workflow-type: tm+mt
-source-wordcount: '589'
-ht-degree: 33%
+source-wordcount: '642'
+ht-degree: 31%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 33%
 
 Questo articolo contiene informazioni prerelease per le prossime versioni di [!DNL Adobe Target], incluse SDK, API e librerie JavaScript.
 
-**Ultimo aggiornamento: giovedì 23 aprile 2025**
+**Ultimo aggiornamento: venerdì 24 aprile 2025**
 
 >[!NOTE]
 >
@@ -23,14 +23,16 @@ Questo articolo contiene informazioni prerelease per le prossime versioni di [!D
 >
 >Per visualizzare informazioni sulla versione corrente, consulta [Note sulla versione di Target](release-notes.md). Le informazioni su queste pagine potrebbero essere uguali, a seconda della tempistica delle release. I codici tra parentesi sono per uso interno di [!DNL Adobe].
 
-## [!DNL Target Standard/Premium] 25.4.5 (24 aprile 2025)
+## [!DNL Target Standard/Premium] 25.4.5 (25 aprile 2025)
 
 Questa versione include le correzioni e gli aggiornamenti seguenti:
 
+* È stato risolto un problema che causava discrepanze nelle inserzioni del pubblico tra la pagina delle impostazioni [!UICONTROL Activity] e la pagina della panoramica [!UICONTROL Reporting]. (TGT-52203)
+* È stato risolto un problema che impediva l’aggiunta di una nuova pagina a un’attività a causa di un errore di input dell’utente non valido. (TGT-52263)
 * È stato risolto un problema che impediva la visualizzazione dei consigli sul sito Web del cliente dopo l&#39;attivazione dell&#39;attività [!DNL Recommendations]. (TGT-52164)
-* `OptionLocalIDs` non incrementa più in modo errato quando l&#39;opzione rimane invariata. (TGT-52187)
-* Ora i file di reporting scaricati mostrano correttamente i dati presenti nell’interfaccia utente di reporting. (TGT-52068)
-* Le operazioni batch non hanno più esito negativo dopo l’aggiunta delle regole di consegna della pagina. (TGT-52097)
+* È stato risolto un problema che causava l&#39;incremento errato di `OptionLocalIDs` quando l&#39;opzione rimaneva invariata. (TGT-52187)
+* È stato risolto un problema a causa del quale i file di reporting scaricati mostravano correttamente i dati presenti nell’interfaccia utente di reporting. (TGT-52068)
+* È stato risolto un problema che impediva il corretto funzionamento delle operazioni batch dopo l’aggiunta delle regole di consegna della pagina. (TGT-52097)
 * È stato risolto un problema a causa del quale [!DNL Target] eliminava tutti i parametri di query dall&#39;URL del sito Web. (TGT-52100)
 * È stato risolto un errore della console che impediva ai clienti di creare attività sia nell’interfaccia utente di Target legacy che aggiornata. (TGT-52181)
 * È stato risolto un problema che impediva ai clienti di aggiungere nuove pagine, causando un errore di input dell’utente non valido. (TGT-52258)
@@ -45,7 +47,7 @@ Questa versione include le correzioni e gli aggiornamenti seguenti:
 * È stato risolto un problema che impediva il salvataggio di un&#39;attività con la metrica URL [!UICONTROL View a Page]. (TGT-52260)
 * È stato risolto un problema che impediva ai clienti di selezionare aree di lavoro durante la creazione di offerte all’interno di un’attività. (TGT-52289)
 * È stato risolto un problema che causava la visualizzazione errata delle modifiche da un’esperienza quando si passava a un’altra. (TGT-52184)
-* È stato risolto un problema che impediva la corretta visualizzazione dell&#39;offerta predefinita nell&#39;interfaccia utente [!DNL Target] dopo l&#39;apertura dell&#39;attività. (TGT-52198)
+* È stato risolto un problema che impediva la corretta visualizzazione dell&#39;offerta predefinita nell&#39;interfaccia utente [!DNL Target] all&#39;apertura dell&#39;attività. (TGT-52198)
 
 ## Aggiornamento delle autorizzazioni di Target (22 aprile 2025)
 
