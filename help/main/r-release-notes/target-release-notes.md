@@ -4,10 +4,10 @@ description: Scopri le nuove funzioni, i miglioramenti e le correzioni, compresi
 title: Quali nuove funzioni e miglioramenti saranno inclusi nella prossima versione [!DNL Target] ?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 579ebd9bebd3faa724f0d1d542f4d23766adefe3
+source-git-commit: d1b9dfdbf811eee99d4e33a8fcc012c4825c0e6f
 workflow-type: tm+mt
-source-wordcount: '220'
-ht-degree: 75%
+source-wordcount: '250'
+ht-degree: 63%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 75%
 
 Questo articolo contiene informazioni prerelease per le prossime versioni di [!DNL Adobe Target], incluse SDK, API e librerie JavaScript.
 
-**Ultimo aggiornamento: sabato 25 aprile 2025**
+**Ultimo aggiornamento: martedì 28 aprile 2025**
 
 >[!NOTE]
 >
@@ -29,12 +29,13 @@ Questa versione include le correzioni e gli aggiornamenti seguenti:
 
 * È stato risolto un problema che impediva a [!DNL Target] di riconoscere il carattere &quot;#&quot; nell&#39;URL di un sito Web. (TGT-52093)
 * È stato risolto un problema che causava l’inversione dei perfezionamenti del pubblico e dei tipi di pubblico dell’attività nell’interfaccia utente aggiornata. (TGT-52158)
+* È stato risolto un problema che impediva ai clienti di modificare o copiare un&#39;attività a causa di un errore `getAudience`sV3 (&quot;Pubblico non trovato. È possibile che sia stato eliminato da un altro utente.&quot;). (TGT-52223)
 
 ## Note aggiuntive e dettagli sulla versione
 
 | Risorsa | Dettagli |
 |--- |--- |
-| [Note sulla versione: Adobe Target Platform Experience Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=it) | Dettagli sulle modifiche apportate a ogni versione di Platform Web SDK. |
+| [Note sulla versione: Adobe Target Platform Experience Web SDK]&#x200B;(https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=e n) | Dettagli sulle modifiche apportate a ogni versione di Platform Web SDK. |
 | [Dettagli sulle versioni di at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=it){target=_blank} | Dettagli sulle modifiche in ogni versione della libreria JavaScript at.js di [!DNL Adobe Target]. |
 
 ## Informazioni in anteprima {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
