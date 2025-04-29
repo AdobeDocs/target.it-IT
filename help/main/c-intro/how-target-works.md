@@ -4,10 +4,10 @@ description: Scopri come funziona [!DNL Adobe Target] e informazioni su librerie
 title: Come funziona  [!DNL Target] ?
 feature: Overview
 exl-id: 8a93e061-0be7-4ecc-b511-2210094547f2
-source-git-commit: 673fe3d19ff569d8dd8c659e77a85a7fb74bbae7
+source-git-commit: c5cca9b4b95289626ade1654bb508ee9f0bf35f3
 workflow-type: tm+mt
-source-wordcount: '2400'
-ht-degree: 23%
+source-wordcount: '2215'
+ht-degree: 24%
 
 ---
 
@@ -39,7 +39,7 @@ Fai riferimento a [!UICONTROL Experience Platform Web SDK] o at.js in ogni pagin
 
 Le risorse seguenti contengono informazioni dettagliate utili per implementare [!DNL Experience Platform Web SDK] o at.js:
 
-* [[!DNL Adobe Experience Platform Web SDK] estensione](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/sdk/overview.html?lang=it){target=_blank}
+* [[!DNL Adobe Experience Platform Web SDK] Estensione](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/sdk/overview.html?lang=it){target=_blank}
 * [Implementare [!DNL Target] utilizzando [!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch){target=_blank}
 
 Ogni volta che un visitatore richiede una pagina ottimizzata per [!DNL Target], viene inviata una richiesta in tempo reale al sistema di targeting per determinare il contenuto da distribuire. Questa richiesta viene effettuata ed evasa ogni volta che viene caricata una pagina, gestita da attività ed esperienze controllate dagli addetti al marketing. Il contenuto è destinato ai singoli visitatori del sito, ottimizzando i tassi di risposta, i tassi di acquisizione e i ricavi. I contenuti personalizzati garantiscono che i visitatori rispondano, interagiscano o effettuino acquisti.
@@ -97,33 +97,36 @@ Le attività [!UICONTROL Recommendations] visualizzano automaticamente prodotti 
 
 Consulta [Raccomandazioni](/help/main/c-recommendations/recommendations.md#concept_7556C8A4543942F2A77B13A29339C0C0) per ulteriori informazioni.
 
-## Come [!DNL Target] conta l&#39;utilizzo delle chiamate al server {#usage}
+<!--
+## How [!DNL Target] counts server-call usage {#usage}
 
-[!DNL Target] conta solo le chiamate server che forniscono valore ai clienti. Nella tabella seguente viene illustrato il conteggio di [!DNL Target] endpoint, mbox singola, chiamate mbox batch, chiamate execute, prefetch e di notifica.
+[!DNL Target] counts only server calls that provide value to customers. The following table shows how [!DNL Target] counts endpoints, single mbox, batch mbox calls, execute, prefetch, and notification calls.
 
-Le informazioni seguenti sono utili per comprendere la strategia di conteggio utilizzata per [!DNL Target] chiamate al server, come illustrato nella tabella seguente:
+The following information helps you understand the counting strategy used for [!DNL Target] server calls, as shown in the table below:
 
-* **Count Once**: conta una volta per chiamata API.
-* **Contare il numero di mbox**: conta il numero di mbox sotto l&#39;array nel payload di una singola chiamata API.
-* **Ignora**: non è conteggiato.
-* **Numero di visualizzazioni (una volta)**: conta il numero di visualizzazioni sotto l&#39;array nel payload. In un’implementazione tipica, una notifica di visualizzazione ha una sola visualizzazione nell’array delle notifiche, il che equivale a contare una volta nella maggior parte delle implementazioni.
+* **Count Once**: Counts once per API call.
+* **Count the Number of mboxes**: Counts the number of mboxes under the array in the payload of a single API call.
+* **Ignore**: Is not counted at all.
+* **Count the Number of Views (Once)**: Counts the number of views under the array in the payload. In a typical implementation, a view notification has only one view under the notifications array, making this equivalent to counting once in most implementations.
 
-| Endpoint | Tipo di recupero | Opzioni | Strategia di conteggio |
+|Endpoint|Fetch type|Options|Counting strategy|
 |--- |--- |--- |-- |
-| `rest//v1/mbox` | Singolo | [!UICONTROL execute] | Conteggio una volta |
-| `rest/v2/batchmbox` | Batch | [!UICONTROL execute] | Conteggio del numero di mbox |
-|  | Batch | [!UICONTROL prefetch] | Ignora |
-|  | Batch | [!UICONTROL notifications] | Conteggio del numero di mbox |
-| `/ubox/[raw\|image\|page]` | Singolo | [!UICONTROL execute] | Conteggio una volta |
-| `rest/v1/delivery`<p>`/rest/v1/target-upstream` | Singolo | [!UICONTROL execute] > [!UICONTROL pageLoad] | Conteggio una volta |
-|  | Singolo | [!UICONTROL prefetch] > [!UICONTROL pageLoad] | Ignora |
-|  | Singolo | [!UICONTROL prefetch] > [!UICONTROL views] | Ignora |
-|  | Batch | [!UICONTROL execute] > [!UICONTROL mboxes] | Conteggio del numero di mbox |
-|  | Batch | [!UICONTROL prefetch] > [!UICONTROL mboxes] | Ignora |
-|  | Batch | [!UICONTROL notifications] > [!UICONTROL views] | Conteggio del numero di visualizzazioni (una volta) |
-|  | Batch | [!UICONTROL notifications] > [!UICONTROL pageLoad] | Conteggio una volta |
-|  | Batch | [!UICONTROL notifications] > tipo ([!UICONTROL conversions]) | Conteggio una volta |
-|  | Batch | [!UICONTROL notifications] > [!UICONTROL mboxes] | Conteggio del numero di mbox |
+|`rest//v1/mbox`|Single|[!UICONTROL execute]|Count once|
+|`rest/v2/batchmbox`|Batch|[!UICONTROL execute]|Count the number of mboxes|
+||Batch|[!UICONTROL prefetch]|Ignore|
+||Batch|[!UICONTROL notifications]|Count the number of mboxes|
+|`/ubox/[raw\|image\|page]`|Single|[!UICONTROL execute]|Count once|
+|`rest/v1/delivery`<p>`/rest/v1/target-upstream`|Single|[!UICONTROL execute] > [!UICONTROL pageLoad]|Count once|
+||Single|[!UICONTROL prefetch] > [!UICONTROL pageLoad]|Ignore|
+||Single|[!UICONTROL prefetch] > [!UICONTROL views]|Ignore|
+||Batch|[!UICONTROL execute] > [!UICONTROL mboxes]|Count the number of mboxes|
+||Batch|[!UICONTROL prefetch] > [!UICONTROL mboxes]|Ignore|
+||Batch|[!UICONTROL notifications] > [!UICONTROL views]|Count the number of views (once)|
+||Batch|[!UICONTROL notifications] > [!UICONTROL pageLoad]|Count once|
+||Batch|[!UICONTROL notifications] > type ([!UICONTROL conversions])|Count once|
+||Batch|[!UICONTROL notifications] > [!UICONTROL mboxes]|Count the number of mboxes|
+
+-->
 
 ## La rete Edge {#concept_0AE2ED8E9DE64288A8B30FCBF1040934}
 
@@ -169,7 +172,7 @@ Il servizio [!DNL Target Recommendations] è ospitato in un data center [!DNL Ad
 >
 >[!DNL Target] non dispone attualmente di un cluster Edge in Cina, limitando le prestazioni dei visitatori per [!DNL Target] clienti nella regione. Il firewall e l’assenza di cluster Edge possono influire sulle esperienze del sito, rallentando i tempi di rendering e caricamento delle pagine. Inoltre, gli addetti al marketing possono riscontrare una latenza durante l&#39;utilizzo dell&#39;interfaccia utente di creazione di [!DNL Target].
 
-Se necessario, puoi inserire nell’elenco consentiti i cluster edge di [!DNL Target]. Per ulteriori informazioni, consulta [Inserire nell’elenco consentiti i nodi edge di Target](https://experienceleague.adobe.com/en/docs/target-dev/developer/implementation/privacy/allowlist-edges){target=_blank}.
+Se necessario, puoi inserire nell’elenco Consentiti i cluster di Edge [!DNL Target]. Per ulteriori informazioni, consulta [elenco Consentiti nodi edge di Target](https://experienceleague.adobe.com/en/docs/target-dev/developer/implementation/privacy/allowlist-edges){target=_blank}.
 
 ## Esperienza di utilizzo protetta {#concept_40A5E781D90A41E4955F80EA9E5F8F96}
 

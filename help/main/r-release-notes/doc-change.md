@@ -4,9 +4,9 @@ description: Resta aggiornato sulle importanti aggiunte e modifiche apportate al
 title: Dove posso trovare la documentazione aggiornata per  [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 579ebd9bebd3faa724f0d1d542f4d23766adefe3
+source-git-commit: c5cca9b4b95289626ade1654bb508ee9f0bf35f3
 workflow-type: tm+mt
-source-wordcount: '713'
+source-wordcount: '704'
 ht-degree: 38%
 
 ---
@@ -26,7 +26,6 @@ Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Targ
 | 17 aprile | Note sulla versione di [[!DNL Target]  (corrente)](/help/main/r-release-notes/release-notes.md) | Sono state aggiunte le note sulla versione 25.4.4 di [!DNL Target Standard/Premium]. |
 |  | Note sulla versione (prerelease) di [[!DNL Target] ](/help/main/r-release-notes/target-release-notes.md) | Sono state aggiunte note sulla versione 25.4.5 di. |
 | 11 aprile | Note sulla versione di [[!DNL Target]  (corrente)](/help/main/r-release-notes/release-notes.md) | Sono state aggiunte le note sulla versione 25.4.3 di [!DNL Target Standard/Premium]. |
-|  | [Come [!DNL Target] funziona](/help/main/c-intro/how-target-works.md#usage) | È stata aggiunta una nuova sezione: &quot;Come [!DNL Target] conta l&#39;utilizzo delle chiamate al server.&quot; |
 | 9 aprile | Note sulla versione (prerelease) di [[!DNL Target] ](/help/main/r-release-notes/target-release-notes.md) | Sono state aggiornate le note sulla versione prerelease relative alla versione 25.4.4. |
 | 8 aprile | [CNAME e Target](https://experienceleague.adobe.com/en/docs/target-dev/developer/implementation/implement-cname-support-in-target){target=_blank} | È stato aggiornato quanto segue:<ul><li>Per impostazione predefinita, tutti i certificati sono RSA SHA-256 e le chiavi sono RSA 2048 bit. Le dimensioni delle chiavi superiori a 2048 bit devono essere richieste esplicitamente tramite l’Assistenza clienti. (In precedenza le dimensioni delle chiavi superiori a 2048 bit non erano supportate).</li><li>È stato aggiornato lo script Bash.</li><li>Snippet di codice di output di convalida aggiornato.</li></ul> |
 | Aprile 7 | Note sulla versione (prerelease) di [[!DNL Target] ](/help/main/r-release-notes/target-release-notes.md) | Sono state aggiunte note sulla versione prerelease relative alla seguente:<UL><li>[!DNL Target Standard/Premium] 25.4.3 (10 aprile 2025)</li></ul> |
