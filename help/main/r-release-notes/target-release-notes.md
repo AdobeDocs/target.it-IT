@@ -4,10 +4,10 @@ description: Scopri le nuove funzioni, i miglioramenti e le correzioni, compresi
 title: Quali nuove funzioni e miglioramenti saranno inclusi nella prossima versione [!DNL Target] ?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: d1b9dfdbf811eee99d4e33a8fcc012c4825c0e6f
+source-git-commit: 0f96fb2a74a0716542308037d183847c91b1dc04
 workflow-type: tm+mt
-source-wordcount: '250'
-ht-degree: 63%
+source-wordcount: '176'
+ht-degree: 86%
 
 ---
 
@@ -15,21 +15,13 @@ ht-degree: 63%
 
 Questo articolo contiene informazioni prerelease per le prossime versioni di [!DNL Adobe Target], incluse SDK, API e librerie JavaScript.
 
-**Ultimo aggiornamento: martedì 28 aprile 2025**
+**Ultimo aggiornamento: martedì 5 maggio 2025**
 
 >[!NOTE]
 >
 >Date di rilascio, funzioni e altre informazioni sono soggette a modifica senza preavviso.
 >
 >Per visualizzare informazioni sulla versione corrente, consulta [Note sulla versione di Target](release-notes.md). Le informazioni su queste pagine potrebbero essere uguali, a seconda della tempistica delle release. I codici tra parentesi sono per uso interno di [!DNL Adobe].
-
-## [!DNL Target Standard/Premium] 25.4.6 (29 aprile 2025)
-
-Questa versione include le correzioni e gli aggiornamenti seguenti:
-
-* È stato risolto un problema che impediva a [!DNL Target] di riconoscere il carattere &quot;#&quot; nell&#39;URL di un sito Web. (TGT-52093)
-* È stato risolto un problema che causava l’inversione dei perfezionamenti del pubblico e dei tipi di pubblico dell’attività nell’interfaccia utente aggiornata. (TGT-52158)
-* È stato risolto un problema che impediva ai clienti di modificare o copiare un&#39;attività a causa di un errore `getAudience`sV3 (&quot;Pubblico non trovato. È possibile che sia stato eliminato da un altro utente.&quot;). (TGT-52223)
 
 ## Note aggiuntive e dettagli sulla versione
 
