@@ -111,7 +111,7 @@ Il debugger di Adobe Experience Cloud facilita e velocizza la comprensione dell&
 
 Per ulteriori informazioni, vedi i video di formazione seguenti:
 
-Per informazioni più dettagliate, consulta [Eseguire il debug di at.js utilizzando Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/target-debugging-atjs.html){target=_blank}.
+Per informazioni più dettagliate, consulta [Eseguire il debug di at.js utilizzando Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/target-debugging-atjs.html?lang=it){target=_blank}.
 
 ## Gli articoli più venduti non compaiono in Recommendations {#section_3920C857270A406C80BE6CBAC8221ECD}
 

@@ -29,7 +29,7 @@ Il debugger deve essere visualizzato in una pagina in cui l’attività viene co
 
 1. Dalla pagina in cui si sta creando l&#39;attività, aprire [!DNL Adobe Experience Platform Debugger].
 
-   Se non hai installato il debugger, vedi [Panoramica Adobe Experience Platform Debugger](https://experienceleague.adobe.com/docs/platform-learn/data-collection/debugger/overview.html).
+   Se non hai installato il debugger, vedi [Panoramica Adobe Experience Platform Debugger](https://experienceleague.adobe.com/docs/platform-learn/data-collection/debugger/overview.html?lang=it).
 
 1. Fare clic su **[!UICONTROL Analytics]** nel menu di navigazione a sinistra.
 

@@ -2,7 +2,7 @@
 keywords: aggiungi utente;progetto;gruppo utenti;proprietà;area di lavoro;gestisci proprietà;proprietà;at_property;ruoli;autorizzazioni
 description: Scopri come aggiungere utenti ad Adobe Target; creare aree di lavoro, gruppi di utenti e proprietà; aggiornare l’implementazione e specificare ruoli e autorizzazioni.
 title: Come Si Configurano Le Autorizzazioni Enterprise?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Vedi cosa è incluso in Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=it#premium newtab=true" tooltip="Vedi cosa è incluso in Target Premium."
 feature: Administration & Configuration
 role: Admin
 exl-id: 6494fc86-d2d3-4382-9d2e-63be435ba935
@@ -77,7 +77,7 @@ Gli utenti possono fare parte di più aree di lavoro e possono anche avere ruoli
 
    È possibile utilizzare queste aree di lavoro per dividere l&#39;accesso per team diversi per regione, business unit, sezione sito o tramite qualsiasi altro metodo scelto. Gli utenti possono fare parte di più aree di lavoro e possono avere ruoli diversi all&#39;interno di ogni area di lavoro.
 
-1. Segui le istruzioni riportate in [Creare e gestire le configurazioni di prodotto](https://helpx.adobe.com/enterprise/help/manage-products-and-configurations.html) nella *guida utente della versione Enterprise*.
+1. Segui le istruzioni riportate in [Creare e gestire le configurazioni di prodotto](https://helpx.adobe.com/it/enterprise/help/manage-products-and-configurations.html) nella *guida utente della versione Enterprise*.
 
 >[!NOTE]
 >Per ulteriori informazioni sulla configurazione delle aree di lavoro, guarda il video di formazione sottostante.
@@ -96,7 +96,7 @@ Per sfruttare le autorizzazioni Enterprise in [API di Target](https://experience
 È possibile creare gruppi di utenti, ad esempio sviluppatori, analisti, addetti al marketing, dirigenti e così via, e assegnare privilegi a più prodotti Adobe e aree di lavoro. Per assegnare a un nuovo membro del team tutti i privilegi appropriati per i diversi prodotti Adobe, sarà sufficiente aggiungerlo a un gruppo di utenti specifico.
 
 1. Nell&#39;Admin Console, fare clic sulla scheda **[!UICONTROL Users]** nella parte superiore della pagina > **[!UICONTROL User Groups]** per creare nuovi gruppi di utenti o per modificare quelli esistenti.
-1. Segui le istruzioni contenute in [Gestire utenti e gruppi nella configurazione di un prodotto](https://helpx.adobe.com/enterprise/help/manage-products-and-configurations.html) nella *Guida utente Enterprise*.
+1. Segui le istruzioni contenute in [Gestire utenti e gruppi nella configurazione di un prodotto](https://helpx.adobe.com/it/enterprise/help/manage-products-and-configurations.html) nella *Guida utente Enterprise*.
 
 ## Passaggio 4: Creare proprietà {#section_E8F2C92BE0F4466AB87604059C9CF3FD}
 
@@ -145,7 +145,7 @@ Per utilizzare la funzionalità di autorizzazioni utente di [!DNL Target], è ne
 
    * **Tramite un &quot;parametro personalizzato&quot; nei tag all&#39;interno di [!DNL Adobe Experience Platform]:**
 
-     Per ulteriori informazioni, consulta [Aggiungere parametri Mbox](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/target/overview.html?lang=en#add-mbox-params) nella *Panoramica sui tag* documentazione.
+     Per ulteriori informazioni, consulta [Aggiungere parametri Mbox](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/target/overview.html?lang=it#add-mbox-params) nella *Panoramica sui tag* documentazione.
 
    * **Tramite la funzione targetPageParamsAll():** Inserisci il seguente codice nei tag `<head>`, sopra il riferimento at.js.
 
@@ -159,7 +159,7 @@ Per utilizzare la funzionalità di autorizzazioni utente di [!DNL Target], è ne
      </script>
      ```
 
-     Per ulteriori informazioni su come eseguire questa operazione con at.js, consulta [targetPageParamsAll](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetpageparamsall.html?lang=en){target=_blank}.
+     Per ulteriori informazioni su come eseguire questa operazione con at.js, consulta [targetPageParamsAll](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetpageparamsall.html?lang=it){target=_blank}.
 
 ## Passaggio 6: specificare ruoli e autorizzazioni {#section_8C425E43E5DD4111BBFC734A2B7ABC80}
 

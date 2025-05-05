@@ -2,7 +2,7 @@
 keywords: consigli;consigli;consigli;criteri;algoritmo;recommendations activity;criteria;algorithm
 description: Scopri come selezionare i criteri (regole che determinano quali prodotti o contenuti consigliare) da utilizzare nell'attività di Adobe [!DNL Target] Recommendations.
 title: Come Si Selezionano I Criteri Per Un’Attività Di Recommendations?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=it#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."
 feature: Recommendations
 exl-id: 119227ec-88c3-4de9-b2cf-f7d5fa2e98f6
 source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c

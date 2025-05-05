@@ -20,7 +20,7 @@ L’integrazione di A4T consente di:
 * Utilizza la funzionalità multi-armed bandit di [Allocazione automatica](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) per indirizzare il traffico verso esperienze vincenti.
 * Utilizza l&#39;algoritmo di machine learning [Targeting automatico](/help/main/c-activities/auto-target/auto-target-to-optimize.md) per scegliere l&#39;esperienza migliore per ogni visitatore. [!UICONTROL Auto-Target] sceglie l&#39;esperienza migliore in base al profilo, al comportamento e al contesto di ogni utente, il tutto utilizzando una metrica di obiettivo [!DNL Adobe Analytics] e le funzionalità avanzate di reporting e analisi di [!DNL Adobe Analytics].
 
-Assicurati di avere [implementato A4T per l&#39;utilizzo con attività di test A/B ed Experience Targeting](/help/main/c-integrating-target-with-mac/a4t/a4timplementation.md). Se si utilizza `analyticsLogging = client_side`, è necessario passare anche il valore `sessionId` a [!DNL Analytics]. Per ulteriori informazioni, consulta [Generazione rapporti di Analytics for Target (A4T)](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/integration/a4t-reporting.html){target=_blank} nella *Guida per gli sviluppatori di Adobe Target*.
+Assicurati di avere [implementato A4T per l&#39;utilizzo con attività di test A/B ed Experience Targeting](/help/main/c-integrating-target-with-mac/a4t/a4timplementation.md). Se si utilizza `analyticsLogging = client_side`, è necessario passare anche il valore `sessionId` a [!DNL Analytics]. Per ulteriori informazioni, consulta [Generazione rapporti di Analytics for Target (A4T)](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/integration/a4t-reporting.html?lang=it){target=_blank} nella *Guida per gli sviluppatori di Adobe Target*.
 
 Per iniziare:
 
@@ -125,7 +125,7 @@ Alcune limitazioni e note si applicano sia alle attività [!UICONTROL Auto-Alloc
 
 * Quando si utilizza [!DNL Analytics] come origine dati per un&#39;attività [!UICONTROL Auto-Target], le sessioni terminano dopo sei ore. Le conversioni che si verificano dopo sei ore non vengono conteggiate.
 
-Per ulteriori informazioni, consulta [Modelli di attribuzione e intervalli di lookback](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/models.html) nella *Guida agli strumenti di Analytics*.
+Per ulteriori informazioni, consulta [Modelli di attribuzione e intervalli di lookback](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/models.html?lang=it) nella *Guida agli strumenti di Analytics*.
 
 ## Esercitazioni
 

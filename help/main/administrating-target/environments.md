@@ -50,7 +50,7 @@ Per impostare l’ambiente predefinito per la segnalazione:
 >
 >Se gli host passano ad altri gruppi host, gli utenti che usano la funzionalità [!DNL Recommendations] devono rigenerare il database dei comportamenti e quello dei prodotti.
 >
->Se si specifica un [ambiente predefinito in un [!DNL Adobe Experience Platform] flusso di dati](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=en#target){target=_blank}, questa impostazione ha la precedenza su quella in [!DNL Target].
+>Se si specifica un [ambiente predefinito in un [!DNL Adobe Experience Platform] flusso di dati](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=it#target){target=_blank}, questa impostazione ha la precedenza su quella in [!DNL Target].
 
 ## Modificare il nome di un ambiente {#section_9F5F94285F8E495E9CE69810CE94CA08}
 

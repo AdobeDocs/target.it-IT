@@ -17,7 +17,7 @@ Combina al volo più tipi di pubblico (tra cui [!DNL Adobe Experience Cloud], [!
 
 >[!NOTE]
 >
->L&#39;origine [!DNL Adobe Experience Platform] è disponibile per tutti i clienti [!DNL Target] che utilizzano [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=en){target=_blank}. I tipi di pubblico disponibili da [!DNL Adobe Experience Platform] possono essere utilizzati così come sono o combinati con i tipi di pubblico esistenti, come spiegato in questo argomento.
+>L&#39;origine [!DNL Adobe Experience Platform] è disponibile per tutti i clienti [!DNL Target] che utilizzano [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=it){target=_blank}. I tipi di pubblico disponibili da [!DNL Adobe Experience Platform] possono essere utilizzati così come sono o combinati con i tipi di pubblico esistenti, come spiegato in questo argomento.
 >
 >Per ulteriori informazioni, vedere [Utilizzare i tipi di pubblico di Adobe Experience Platform](/help/main/c-target/c-audiences/audiences.md#aep).
 
