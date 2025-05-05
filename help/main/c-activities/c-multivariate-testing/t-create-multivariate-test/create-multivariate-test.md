@@ -39,7 +39,7 @@ L&#39;editor point-and-click di [!DNL Target] consente di scegliere qualsiasi po
 
    Verrà aperto [!UICONTROL Visual Experience Composer].
 
-1. 
+1. &#x200B;
    1. Fare clic sull&#39;icona **[!UICONTROL Rename]** ( ![icona Rinomina](/help/main/assets/icons/MoreSmallListVert.svg) ), fare clic su **[!UICONTROL Rename]**, specificare un nome per l&#39;attività, quindi fare clic su **[!UICONTROL Save]**.
 
    Il nome dell’attività non può iniziare con uno dei seguenti caratteri:

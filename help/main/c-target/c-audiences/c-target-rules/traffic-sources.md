@@ -20,7 +20,7 @@ Ad esempio, puoi rivolgerti a visitatori specifici in base al browser utilizzato
 Puoi combinare più origini di traffico per creare una regola di targeting complessa.
 
 1. Nell&#39;interfaccia [!DNL Target], fare clic su **[!UICONTROL Audiences]** > **[!UICONTROL Create Audience]**.
-1. 
+1. &#x200B;
    1. Assegna un nome al pubblico e aggiungi una descrizione facoltativa.
 1. Trascina **[!UICONTROL Traffic Sources]** nel riquadro Generatore di pubblico.
 

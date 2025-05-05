@@ -48,7 +48,7 @@ Questa illustrazione mostra una progettazione personalizzata:
 
    Viene visualizzata la finestra di dialogo [!UICONTROL Create Design].
 
-1. Digitare **[!UICONTROL  Name]** e un&#39;immagine di anteprima facoltativa da visualizzare nella scheda progettazione.
+1. Digitare **[!UICONTROL &#x200B; Name]** e un&#39;immagine di anteprima facoltativa da visualizzare nella scheda progettazione.
 
    Quando si utilizza una progettazione predefinita, il nome della progettazione e la &quot;copia&quot; vengono visualizzati nel campo **[!UICONTROL Content Name]**. È possibile modificare il nome. È inoltre possibile selezionare un&#39;immagine da visualizzare nella scheda di progettazione.
 
