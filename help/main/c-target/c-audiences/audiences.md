@@ -121,4 +121,4 @@ Questo video include informazioni sull&#39;utilizzo dei tipi di pubblico.
 * Indirizzare unʼattività a un pubblico
 * Utilizzare i tipi di pubblico per la reportistica passiva in un’attività
 
->[!VIDEO](https://video.tv.adobe.com/v/17398)
+>[!VIDEO](https://video.tv.adobe.com/v/36328?captions=ita)

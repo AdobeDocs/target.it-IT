@@ -175,7 +175,7 @@ Per ulteriori informazioni, vedere il seguente post di blog: [AEM 6.5: Rimozione
 
 Nel video seguente viene illustrato come impostare e utilizzare [!UICONTROL Experience Fragments]:
 
->[!VIDEO](https://video.tv.adobe.com/v/22383)
+>[!VIDEO](https://video.tv.adobe.com/v/326989?captions=ita)
 
 >[!NOTE]
 >

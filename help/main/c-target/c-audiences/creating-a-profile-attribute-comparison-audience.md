@@ -65,4 +65,4 @@ Per ulteriori informazioni, vedere [Metodi per immettere dati in Target](https:/
 
 Per ulteriori informazioni e uno scenario in cui potresti utilizzare questa funzione, guarda il seguente video:
 
->[!VIDEO](https://video.tv.adobe.com/v/23218/)
+>[!VIDEO](https://video.tv.adobe.com/v/329907?captions=ita)

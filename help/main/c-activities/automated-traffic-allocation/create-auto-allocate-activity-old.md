@@ -117,4 +117,4 @@ In questo video viene illustrato come creare un test A/B utilizzando il flusso d
 * Crea un&#39;attività [!UICONTROL A/B Test] in [!DNL Adobe Target]
 * Allocare il traffico con suddivisione manuale o automatica del traffico
 
->[!VIDEO](https://video.tv.adobe.com/v/17391)
+>[!VIDEO](https://video.tv.adobe.com/v/36325?captions=ita)

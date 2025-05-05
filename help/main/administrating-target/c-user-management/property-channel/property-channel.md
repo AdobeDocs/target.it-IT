@@ -310,7 +310,7 @@ Finalità di apprendimento:
 * I concetti di Proprietà e Aree di lavoro e come funzionano questi limiti e raggruppamenti per consentire il controllo sui livelli di accesso degli utenti
 * Diversi esempi di Proprietà da considerare per la tua organizzazione
 
->[!VIDEO](https://video.tv.adobe.com/v/19042/)
+>[!VIDEO](https://video.tv.adobe.com/v/3421738?captions=ita)
 
 ### Orario ufficio: [!DNL Target] aree di lavoro Premium
 

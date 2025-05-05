@@ -70,7 +70,7 @@ Questo video spiega i tipi di attività disponibili in [!DNL Target Standard/Pre
 * Selezionare il tipo di attività appropriato per i tuoi obiettivi
 * Descrizione del flusso di lavoro guidato in tre passaggi da applicare a tutti i tipi di attività
 
->[!VIDEO](https://video.tv.adobe.com/v/17386)
+>[!VIDEO](https://video.tv.adobe.com/v/36365?captions=ita)
 
 ## Webinar sulle nozioni di base di Adobe Target: introduzione a Recommendations ![Icona esercitazione](/help/main/assets/tutorial.png) {#intro-to-recs}
 

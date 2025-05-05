@@ -107,7 +107,7 @@ Questo video spiega come usare [!DNL Analytics] come origine per la generazione 
 * Come funziona A4T
 * Prerequisiti necessari prima di utilizzare A4T
 
->[!VIDEO](https://video.tv.adobe.com/v/17384)
+>[!VIDEO](https://video.tv.adobe.com/v/3421726?captions=ita)
 
 ### Integrazione di Analytics e Adobe Target (A4T) (40:33) ![Icona esercitazione](/help/main/assets/tutorial.png)
 

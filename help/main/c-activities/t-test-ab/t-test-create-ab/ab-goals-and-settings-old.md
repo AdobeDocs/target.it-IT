@@ -87,4 +87,4 @@ Questo video mostra le impostazioni di attività nel flusso di lavoro guidato in
 * Creare un’attività A/B in Adobe Target
 * Allocare il traffico con suddivisione manuale o automatica del traffico
 
->[!VIDEO](https://video.tv.adobe.com/v/17391)
+>[!VIDEO](https://video.tv.adobe.com/v/36325?captions=ita)

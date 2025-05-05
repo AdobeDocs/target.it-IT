@@ -98,7 +98,7 @@ Questo video di panoramica spiega i tipi di attività disponibili in [!DNL Targe
 * Selezionare il tipo di attività appropriato per i tuoi obiettivi
 * Descrizione del flusso di lavoro guidato in tre passaggi da applicare a tutti i tipi di attività
 
->[!VIDEO](https://video.tv.adobe.com/v/17386)
+>[!VIDEO](https://video.tv.adobe.com/v/36365?captions=ita)
 
 ### Creazione di test multivariati (9:25) ![Icona esercitazione](/help/main/assets/tutorial.png)
 
@@ -107,4 +107,4 @@ Questo video spiega come comprendere, pianificare e creare un test multivariato 
 * Definizione e progettazione di un test multivariato
 * Creazione di un test multivariato
 
->[!VIDEO](https://video.tv.adobe.com/v/17395)
+>[!VIDEO](https://video.tv.adobe.com/v/36329?captions=ita)

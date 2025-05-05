@@ -206,12 +206,12 @@ I video seguenti contengono ulteriori informazioni sui concetti descritti in que
 
 ### Aggiungi estensione ![Icona esercitazione](/help/main/assets/tutorial.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/23114t2/)
+>[!VIDEO](https://video.tv.adobe.com/v/326674?captions=ita)
 
 ### Debug di base per Adobe Target ![Icona tutorial](/help/main/assets/tutorial.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/23115t2/)
+>[!VIDEO](https://video.tv.adobe.com/v/326675?captions=ita)
 
 ### Mbox Trace ![Icona Tutorial](/help/main/assets/tutorial.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/23113t2/)
+>[!VIDEO](https://video.tv.adobe.com/v/326676?captions=ita)

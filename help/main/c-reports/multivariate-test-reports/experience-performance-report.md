@@ -37,4 +37,4 @@ Sotto il grafico, una tabella mostra il numero di partecipanti che hanno visuali
 
 In questo video viene illustrato come creare un test multivariato utilizzando il flusso di lavoro guidato in tre passaggi di Target. Il rapporto Prestazioni esperienza è descritto a partire dal minuto 8:20.
 
->[!VIDEO](https://video.tv.adobe.com/v/17395)
+>[!VIDEO](https://video.tv.adobe.com/v/36329?captions=ita)

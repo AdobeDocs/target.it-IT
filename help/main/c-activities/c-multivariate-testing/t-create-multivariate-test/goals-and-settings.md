@@ -178,4 +178,4 @@ Questo video illustra come creare un test multivariato utilizzando il flusso di 
 * Definizione e progettazione di un test multivariato
 * Creazione di un test multivariato
 
->[!VIDEO](https://video.tv.adobe.com/v/17395)
+>[!VIDEO](https://video.tv.adobe.com/v/36329?captions=ita)
