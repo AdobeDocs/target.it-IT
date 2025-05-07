@@ -4,30 +4,30 @@ description: Scopri le nozioni di base sull’utilizzo del Compositore esperienz
 title: Come si utilizza il Compositore esperienza visivo?
 feature: Visual Experience Composer (VEC)
 exl-id: 51650f2a-1f24-40c7-8692-77f55656b4f6
-source-git-commit: 3aeac3344c2bbc2a44da80b5a359e55c9419b59b
+source-git-commit: 3f5b198ad08d85caa9c859171e78b710083e44fb
 workflow-type: tm+mt
-source-wordcount: '1130'
-ht-degree: 57%
+source-wordcount: '1132'
+ht-degree: 43%
 
 ---
 
-# Compositore esperienza visivo
+# [!UICONTROL Visual Experience Composer] (VEC)
 
-Informazioni sull&#39;utilizzo di [!UICONTROL Visual Experience Composer] (VEC) in [!DNL Adobe Target].
+Il [!UICONTROL Visual Experience Composer] (VEC) in [!DNL Adobe Target] è un editor di WYSIWYG che consente ai clienti di creare e testare esperienze personalizzate direttamente sui propri siti Web o pagine Web mobili senza dover modificare il codice.
 
 >[!NOTE]
 >
->La versione di [!DNL Target Standard/Premium] 25.2.1 (17 febbraio 2025) includeva una versione aggiornata del Compositore esperienza visivo. Per informazioni sulle differenze tra il Compositore esperienza visivo aggiornato e la versione precedente, vedi [Modifiche al Compositore esperienza visivo](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md).
+>La versione di [!DNL Target Standard/Premium] 25.2.1 (17 febbraio 2025) includeva una versione aggiornata del Compositore esperienza visivo. Per informazioni sulle differenze tra il Compositore esperienza visivo aggiornato e la versione precedente, vedi [Modifiche al Compositore esperienza visivo](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md). Per una panoramica delle varie opzioni del Compositore esperienza visivo aggiornato, vedi [Opzioni del Compositore esperienza visivo](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md).
 
-Il Compositore esperienza visivo è un’interfaccia utente di WYSIWYG che consente di creare e testare offerte ed esperienze personalizzate nel contesto del sito. È possibile creare esperienze e offerte per le attività [!DNL Target] trascinando, scambiando e modificando il layout e il contenuto di una pagina Web (o offerta) o di una pagina Web per dispositivi mobili.
+Il Compositore esperienza visivo consente di creare e testare offerte ed esperienze personalizzate nel contesto del sito. È possibile creare esperienze e offerte per le attività [!DNL Target] trascinando, scambiando e modificando il layout e il contenuto di una pagina Web (o offerta) o di una pagina Web per dispositivi mobili.
 
-Il Compositore esperienza visivo è una delle funzionalità principali di [!DNL Adobe Target]. Il Compositore esperienza visivo consente agli addetti al marketing e ai designer di creare e modificare i contenuti mediante un’interfaccia visiva che permette di operare molte scelte di progettazione senza dover intervenire direttamente sul codice. Il compositore offre anche opzioni per modificare il codice HTML e JavaScript.
+Il Compositore esperienza visivo è una delle funzionalità principali di [!DNL Target]. Il Compositore esperienza visivo consente agli addetti al marketing e ai designer di creare e modificare i contenuti mediante un’interfaccia visiva che permette di operare molte scelte di progettazione senza dover intervenire direttamente sul codice. Il compositore offre anche opzioni per modificare il codice HTML e JavaScript.
 
-Nella scheda Target **[!UICONTROL Administration]** > **[!UICONTROL Visual Experience Composer]**, è possibile immettere l&#39;URL predefinito [!UICONTROL Visual Experience Composer].
+Nella scheda [!DNL Target] **[!UICONTROL Administration]** > **[!UICONTROL Visual Experience Composer]**, è possibile immettere l&#39;URL [!UICONTROL Visual Experience Composer] predefinito.
+
+Questo URL determina la posizione di partenza all’apertura del Compositore esperienza visivo Se non immetti un URL predefinito, puoi iniziare con una pagina vuota quando apri l’editor e quindi specificare un URL.
 
 ![Compositore esperienza visivo evidenziato](/help/main/c-experiences/c-visual-experience-composer/assets/vec-highlight-refresh.png)
-
-Questo URL determina la posizione di partenza all’apertura del Compositore esperienza visivo Se non immetti un URL predefinito, viene inizialmente aperta una pagina vuota e potrai quindi specificare un URL.
 
 >[!NOTE]
 >
@@ -35,11 +35,11 @@ Questo URL determina la posizione di partenza all’apertura del Compositore esp
 
 Il contenuto all’interno di un iframe nella pagina non può essere modificato nel Compositore esperienza visivo. Per modificare il contenuto di un iframe, accertati che il documento iframe sia abilitato per [!DNL Target], quindi carica l’URL dell’iframe nel Compositore esperienza visivo.
 
-È possibile utilizzare le schede nel frame [!UICONTROL Experiences] per visualizzare la pagina così come apparirebbe a tipi di pubblico diversi o con esperienze diverse. Puoi fornire un nome per ogni esperienza. Ad esempio, se stai eseguendo il test della posizione del collegamento Pagina principale nella barra di navigazione, a un’esperienza in cui compare tale collegamento puoi assegnare un nome tipo “Collegamento Pagina principale”, per individuarla più facilmente nell’elenco delle esperienze.
+È possibile utilizzare le schede nella barra [!UICONTROL Experiences] per visualizzare la pagina così come apparirebbe a tipi di pubblico diversi o con esperienze diverse. Puoi fornire un nome per ogni esperienza. Ad esempio, se stai testando la posizione del collegamento Home nella barra di navigazione, puoi denominare un’esperienza dove viene visualizzato per primo il collegamento Home. Ad esempio, &quot;Collegamento Home&quot; per facilitare l’identificazione delle esperienze nell’elenco.
 
 >[!NOTE]
 >
->Le modifiche alla struttura di una pagina che influenzano le posizioni utilizzate in un’attività creata in quella pagina potrebbero causare problemi nella modifica dell’esperienza. Se una posizione è stata modificata all&#39;esterno del Compositore esperienza visivo, [!DNL Target] potrebbe non essere in grado di trovare la posizione in cui è stato modificato il contenuto.
+>Le modifiche alla struttura di una pagina che influiscono sulle posizioni utilizzate in un’attività creata in tale pagina possono causare problemi nella modifica dell’esperienza. Se una posizione è stata modificata all&#39;esterno del Compositore esperienza visivo, [!DNL Target] potrebbe non essere in grado di trovare la posizione in cui è stato modificato il contenuto.
 
 Mentre sposti il mouse sulla pagina, una casella sensibile al contesto segue il cursore ed evidenzia gli elementi nella pagina.
 
@@ -47,7 +47,7 @@ Mentre sposti il mouse sulla pagina, una casella sensibile al contesto segue il 
 
 ![Change Overlay settings](/help/main/c-experiences/c-visual-experience-composer/assets/change-overlay.png)-->
 
-Fare clic su un elemento evidenziato per visualizzare il menu delle opzioni disponibili per il tipo di elemento. Ad esempio, è possibile fare clic su un&#39;immagine e selezionare **[!UICONTROL Change Image]** per modificare l&#39;immagine in un&#39;altra immagine. In alternativa, fare clic su un pulsante e modificare il colore del testo.
+Per visualizzare il menu delle opzioni disponibili per un determinato tipo di elemento, fare clic su un elemento evidenziato. Ad esempio, è possibile fare clic su un&#39;immagine e selezionare **[!UICONTROL Change Image]** per modificarla in un&#39;altra immagine. In alternativa, fare clic su un pulsante e modificare il colore del testo.
 
 È inoltre possibile fare clic su **[!UICONTROL Browse]**, quindi passare a una pagina disponibile dalla pagina principale, ad esempio una pagina di spedizione o un carrello acquisti, ed eseguire il test delle modifiche su tale pagina. Puoi inoltre accedere agli elementi della pagina disponibili, come menu a comparsa e mini-carrelli, passando il puntatore del mouse sopra di essi. Al termine della navigazione alla pagina, fare clic su **[!UICONTROL Design]** per modificare l&#39;esperienza. Ad esempio, puoi modificare la struttura di un elenco a discesa del carrello acquisti o un carosello di immagini.
 
@@ -72,7 +72,7 @@ Alcuni motivi per cui potresti voler accedere o apportare modifiche a una pagina
 * Desideri copiare il codice personalizzato esistente da una pagina non più accessibile
 * Sai che una pagina non può essere caricata nel Compositore esperienza visivo, ma desideri comunque apportare semplici modifiche
 
-Mentre la pagina viene caricata (o dopo il suo mancato caricamento), il pannello [!UICONTROL Experiences], il pannello [!UICONTROL Modifications] e le impostazioni nella parte superiore dell&#39;esperienza (Sovrapposizioni, Modifiche, Configura e così via) sono tutti accessibili.
+Mentre la pagina viene caricata (o dopo il suo mancato caricamento), le opzioni [!UICONTROL Experiences], [!UICONTROL Components] e [!UICONTROL Configure] sono accessibili.
 
 ## Annullare il caricamento di una pagina all’interno del Compositore esperienza visivo {#cancel-loading}
 
@@ -85,10 +85,10 @@ Alcuni motivi per cui potrebbe essere utile annullare il caricamento della pagin
 * Desideri inserire o modificare del codice personalizzato
 * Hai immesso erroneamente l’URL errato per la pagina
 * Desideri abilitare o disabilitare JavaScript prima di caricare la pagina nel Compositore esperienza visivo
-* Desideri aggiungere ulteriori regole di test dei modelli ai criteri di consegna delle pagine
-* Desideri ignorare l’attivazione globale del Compositore esperienza avanzato quando si carica una pagina tramite il Compositore esperienza avanzato oppure soltanto l’iframe, pagina per pagina
+* Aggiungere altre regole di test dei modelli ai criteri [!UICONTROL Page Delivery]
+* Desideri ignorare l’interruttore globale [!UICONTROL Enhanced Experience Composer] (EEC) quando carichi una pagina tramite il Compositore esperienza avanzato o solo iframe
 
-Dopo aver annullato il caricamento della pagina nel Compositore esperienza visivo, puoi passare alle diverse esperienze nell’attività senza attendere che la pagina venga caricata. Per visualizzare di nuovo la pagina nel Compositore esperienza visivo, fai clic sul pulsante **[!UICONTROL Reload]**.
+Se annulli il caricamento della pagina nel Compositore esperienza visivo, puoi passare da un’esperienza all’altra senza attendere che la pagina venga caricata. Per visualizzare di nuovo la pagina nel Compositore esperienza visivo, fai clic sul pulsante **[!UICONTROL Reload]**.
 
 >[!IMPORTANT]
 >
