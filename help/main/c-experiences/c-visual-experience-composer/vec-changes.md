@@ -4,9 +4,9 @@ description: Comprendere le modifiche introdotte nel Compositore esperienza visi
 title: Quali modifiche vengono introdotte nel nuovo Compositore esperienza visivo?
 feature: Visual Experience Composer (VEC)
 exl-id: 4c7a5657-93d9-4355-9d2b-c992b36bcb50
-source-git-commit: 3aeac3344c2bbc2a44da80b5a359e55c9419b59b
+source-git-commit: f9f914c11dbff64d902a3fd8d6bf96237d1f4aae
 workflow-type: tm+mt
-source-wordcount: '648'
+source-wordcount: '650'
 ht-degree: 0%
 
 ---
@@ -17,53 +17,57 @@ La versione di [!DNL Adobe Target Standard/Premium] 25.2.1 (17 febbraio 2015) in
 
 >[!IMPORTANT]
 >
->L&#39;aggiornamento di [!UICONTROL Visual Editing Composer] richiede l&#39;estensione [!DNL Adobe Experience Cloud] [[!UICONTROL Visual Editing Helper]](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) disponibile in Chrome Web Store.
+>Il [!UICONTROL Visual Editing Composer] aggiornato richiede l&#39;estensione [!DNL Adobe Experience Cloud] [[!UICONTROL Visual Editing Helper]](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) disponibile in [!DNL Chrome Web Store].
 
 Il Compositore esperienza visivo viene visualizzato quando crei o modifichi un’attività esistente.
 
-![Compositore esperienza visivo](/help/main/c-experiences/c-visual-experience-composer/assets/new-vec.png)
+![Compositore esperienza visivo](/help/main/c-experiences/c-visual-experience-composer/assets/vec-highlight-refresh.png)
 
 ## Modifiche principali al Compositore esperienza visivo
 
 Nelle sezioni seguenti vengono illustrate le principali modifiche apportate al Compositore esperienza visivo aggiornato rispetto alla versione precedente.
 
-### Pannello [!UICONTROL Experiences]
+### Barra [!UICONTROL Experiences]
 
-Come nella versione precedente, il pannello [!UICONTROL Experiences] rimane sul lato sinistro del Compositore esperienza visivo. Impossibile comprimere il pannello [!UICONTROL Experiences].
+Come nella versione precedente, la barra [!UICONTROL Experiences] rimane sul lato sinistro del Compositore esperienza visivo. Impossibile comprimere la barra [!UICONTROL Experiences].
 
-![Pannello Esperienze](/help/main/c-experiences/c-visual-experience-composer/assets/experiences-panel.png)
+![Barra delle esperienze](/help/main/c-experiences/c-visual-experience-composer/assets/experiences-panel.png)
 
-È possibile creare, rinominare o rimuovere esperienze utilizzando il pannello [!UICONTROL Experiences]. Fai clic sull&#39;icona **[!UICONTROL Add]** ( ![Icona Aggiungi](/help/main/assets/icons/Add.svg) ) per aggiungere una nuova esperienza. Fai clic sull&#39;icona [!UICONTROL More Actions] ( ![Icona Altre azioni](/help/main/assets/icons/MoreSmall.svg) ) per duplicare, eliminare o reindirizzare un&#39;esperienza.
+È possibile creare, rinominare o rimuovere esperienze utilizzando la barra [!UICONTROL Experiences]. Fai clic sull&#39;icona **[!UICONTROL Add]** ( ![Icona Aggiungi](/help/main/assets/icons/Add.svg) ) per aggiungere una nuova esperienza. Fai clic sull&#39;icona [!UICONTROL More Actions] ( ![Icona Altre azioni](/help/main/assets/icons/MoreSmall.svg) ) per duplicare, eliminare o reindirizzare un&#39;esperienza.
 
-### [!UICONTROL Components] pannello (nuovo)
+### [!UICONTROL Components] barra (nuova)
 
-È possibile aggiungere diversi componenti alla pagina Web e modificarli in base alle esigenze utilizzando il nuovo pannello [!UICONTROL Components].
+È possibile aggiungere diversi componenti alla pagina Web e modificarli in base alle esigenze utilizzando la nuova barra [!UICONTROL Components].
 
-![Pannello Componenti](/help/main/c-experiences/c-visual-experience-composer/assets/components-panel.png)
+![Barra dei componenti](/help/main/c-experiences/c-visual-experience-composer/assets/components-panel.png)
 
-Per aggiungere un nuovo componente, trascina il componente dal pannello Componenti che desideri inserire su un elemento di pagina esistente nell’area di lavoro Progettazione. Quindi scegli di inserire il componente prima di dopo l’elemento selezionato.
+Per aggiungere un nuovo componente, trascinare il componente dalla barra [!UICONTROL Components] che si desidera inserire su un elemento di pagina esistente nell&#39;area di lavoro [!UICONTROL Design]. Quindi scegli di inserire il componente prima di dopo l’elemento selezionato.
 
 Rispetto alla versione precedente del Compositore esperienza visivo, non puoi sostituire un elemento selezionato con un componente.
 
-### Pannello [!UICONTROL Modifications]
+### Barra [!UICONTROL Modifications]
 
-Per aprire il pannello [!UICONTROL Modifications], fai clic sull&#39;icona [!UICONTROL Show Modifications] ( ![Mostra pannello Modifiche](/help/main/assets/icons/History.svg) ) nel pannello [!UICONTROL Components]. Il pannello [!UICONTROL Modifications] ha cambiato posizione dal lato destro a quello sinistro dell&#39;area di modifica.
+Per aprire la barra [!UICONTROL Modifications], fai clic sull&#39;icona [!UICONTROL Show Modifications] ( ![Mostra barra delle modifiche](/help/main/assets/icons/History.svg) ) nella barra [!UICONTROL Components]. La barra di [!UICONTROL Modifications] ha cambiato posizione dal lato destro a quello sinistro dell&#39;area di modifica.
 
-![Pannello delle modifiche](/help/main/c-experiences/c-visual-experience-composer/assets/modifications-panel.png)
+![Barra delle modifiche](/help/main/c-experiences/c-visual-experience-composer/assets/modifications-panel.png)
 
-Il pannello [!UICONTROL Modifications] mostra tutte le modifiche apportate alla pagina nel Compositore esperienza visivo di [!UICONTROL Visual Experience Composer] e consente di apportare ulteriori modifiche (ad esempio selettore CSS, Mbox e codice personalizzato).
+La barra [!UICONTROL Modifications] mostra tutte le modifiche apportate alla pagina nel Compositore esperienza visivo e consente di apportare ulteriori modifiche (come selettore CSS, Mbox e codice personalizzato).
 
 Fai clic sull&#39;icona [!UICONTROL More Options] ( ![Icona Altre azioni](/help/main/assets/icons/MoreSmall.svg) ) per aggiungere una modifica, eliminare tutte le modifiche o eliminare tutte le modifiche non valide. Fare clic su [!UICONTROL Select] per eseguire operazioni in blocco: [!UICONTROL Apply to All Pages] o [!UICONTROL Delete].
 
-### [!UICONTROL Properties] pannello (nuovo)
+Per visualizzare di nuovo la barra [!UICONTROL Modifications], fai clic sull&#39;icona [!UICONTROL Hide Modifications] ( ![Mostra barra delle modifiche](/help/main/assets/icons/History.svg) ) nella barra [!UICONTROL Modifications].
 
-Il nuovo pannello [!UICONTROL Properties] consente di modificare le proprietà degli elementi selezionati nella pagina, siano essi elementi di HTML o oggetti specifici di [!DNL Target], ad esempio consigli o offerte.
+### [!UICONTROL Properties] barra (nuova)
 
-![Pannello Proprietà](/help/main/c-experiences/c-visual-experience-composer/assets/properties-panel.png)
+La barra di [!UICONTROL Properties] consente di modificare le proprietà degli elementi selezionati nella pagina, sia che si tratti di elementi di HTML che di oggetti specifici di [!DNL Target], ad esempio consigli o offerte.
 
-Fai clic sulle icone nella parte superiore del pannello per modificare il codice HTML o eliminare, duplicare o nascondere gli elementi. Le modifiche vengono visualizzate nel pannello [!UICONTROL Modifications].
+![Barra delle proprietà](/help/main/c-experiences/c-visual-experience-composer/assets/properties-panel.png)
 
-Il pannello [!UICONTROL Properties] è comprimibile nella barra a destra. Fare clic sull&#39;icona [!UICONTROL Show/Hide Properties] ( ![icona Proprietà](/help/main/assets/icons/Propertie.svg) ) a destra del pannello per comprimere o visualizzare il pannello [!UICONTROL Properties].
+Fai clic sulle icone nella parte superiore della barra per modificare il codice HTML o eliminare, duplicare o nascondere gli elementi. Le modifiche vengono visualizzate nella barra [!UICONTROL Modifications].
+
+![Icone delle proprietà](/help/main/c-experiences/c-visual-experience-composer/assets/options-icons.png)
+
+La barra [!UICONTROL Properties] è comprimibile nella barra a destra. Fai clic sull&#39;icona [!UICONTROL Show/Hide Properties] ( ![icona Proprietà](/help/main/assets/icons/Propertie.svg) ) a destra della barra per comprimere o visualizzare la barra [!UICONTROL Properties].
 
 ### Impostazioni/configurazione delle attività
 
@@ -71,13 +75,13 @@ Fai clic sull&#39;icona [!UICONTROL Configure] ( ![icona Configura](/help/main/a
 
 ![Opzioni di configurazione attività](/help/main/c-experiences/c-visual-experience-composer/assets/configure-options.png)
 
-Le diverse opzioni consentono di abilitare o disabilitare attività con più pagine o tipi di pubblico multipli, assegnare proprietà (funzionalità [[!DNL Target Premium]](/help/main/c-intro/intro.md#premium)) o modificare le regole di consegna delle pagine.
+Le diverse opzioni ti consentono di assegnare proprietà, modificare le regole di consegna delle pagine, specificare le preferenze del sito, aggiungere ulteriori pagine e abilitare o disabilitare attività con più pagine o tipi di pubblico. Assegnare [!UICONTROL Properties] è una funzionalità di [[!DNL Target Premium]](/help/main/c-intro/intro.md#premium).
 
 La posizione e la funzionalità sono simili a quelle della precedente interfaccia utente del Compositore esperienza visivo.
 
 ### [!UICONTROL Design]/[!UICONTROL Browse] modalità
 
-Utilizza gli interruttori [!UICONTROL Design]/[!UICONTROL Browse] visualizzati sopra l&#39;area di progettazione per passare dalla modalità progettazione alla modalità navigazione.
+Utilizza gli interruttori [!UICONTROL Design]/[!UICONTROL Browse] visualizzati sopra la barra di [!UICONTROL Properties] per passare dalla modalità progettazione alla modalità sfoglia.
 
 ![Attiva/disattiva progettazione e navigazione](/help/main/c-experiences/c-visual-experience-composer/assets/design-browse-mode.png)
 
@@ -93,7 +97,7 @@ Per ripristinare un&#39;azione, espandere il gruppo di pulsanti Annulla/[!UICONT
 
 ### [!UICONTROL Design] area di lavoro
 
-L&#39;area di lavoro [!UICONTROL Design] consente di selezionare i riquadri di visualizzazione, inclusi quelli adatti allo schermo, [!UICONTROL Desktop], [!UICONTROL Tablet], [!UICONTROL Mobile Landscape] e [!UICONTROL Mobile Portrait]. Per impostazione predefinita, l&#39;area di lavoro adatta la pagina allo schermo insieme ai riquadri di visualizzazione definiti nella sezione [Amministrazione](/help/main/administrating-target/visual-experience-composer-set-up.md).
+L&#39;area di lavoro [!UICONTROL Design] consente di selezionare i riquadri di visualizzazione, inclusi quelli adatti allo schermo, [!UICONTROL Desktop], [!UICONTROL Tablet], [!UICONTROL Mobile Landscape] e [!UICONTROL Mobile Portrait].
 
 ![Opzioni riquadro di visualizzazione](/help/main/c-experiences/c-visual-experience-composer/assets/viewports.png)
 
