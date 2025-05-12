@@ -1,13 +1,13 @@
 ---
 keywords: Experience Cloud;accedi;lingua;lingua predefinita interfaccia;lingua predefinita
-description: Scopri come accedere a [!DNL Target] da Adobe Experience Cloud, impostare la visualizzazione predefinita e modificare la lingua dell'interfaccia utente e della documentazione di [!DNL Target] .
+description: Scopri come accedere a [!DNL Target] da Adobe Experience Cloud, impostare l'organizzazione predefinita e modificare la lingua dell'interfaccia utente e della documentazione di [!DNL Target] .
 title: Come posso accedere a  [!DNL Target]  da Adobe Experience Cloud?
 feature: Overview
 exl-id: a5ac8d33-69c3-4e21-9f0f-baab430a6b76
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 7dc7f6f053fa935c0166edde3e0fe09d161a7a67
 workflow-type: tm+mt
-source-wordcount: '399'
-ht-degree: 74%
+source-wordcount: '357'
+ht-degree: 50%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 74%
 
 Informazioni sull’accesso a [!DNL Adobe Target] da [!DNL Adobe Experience Cloud], l’impostazione della pagina di destinazione predefinita e la modifica della lingua dell’interfaccia utente di [!DNL Target].
 
-## Accedere ad Adobe [!DNL Target] e impostare la visualizzazione predefinita
+## Accedi ad Adobe [!DNL Target] e imposta l&#39;organizzazione predefinita.
 
 1. Accedi a [Adobe Experience Cloud](https://experience.adobe.com/).
 
@@ -25,25 +25,21 @@ Informazioni sull’accesso a [!DNL Adobe Target] da [!DNL Adobe Experience Clou
 
    ![Icona dell’applicazione](/help/main/c-intro/assets/appmenu-new.png)
 
-1. (Facoltativo) Per impostare [!DNL Target] come visualizzazione predefinita al momento dell&#39;accesso a [!DNL Experience Cloud], fai clic su **[!UICONTROL Edit Profile]** nell&#39;avatar del tuo profilo, quindi imposta la preferenza della pagina di destinazione.
+1. (Facoltativo) Per impostare l&#39;organizzazione predefinita quando si accede a [!DNL Experience Cloud], fare clic su **[!UICONTROL Preferences]** nell&#39;avatar del proprio profilo, quindi impostare l&#39;organizzazione predefinita.
 
    ![Pagina di destinazione](/help/main/c-intro/assets/pagepref-new.png)
 
 ## Modificare la lingua predefinita per l&#39;interfaccia utente di [!DNL Target] {#language}
 
-1. Dopo aver effettuato l&#39;accesso a [!DNL Adobe Experience Cloud] o [!DNL Target], fai clic sull&#39;avatar del tuo profilo, quindi su **[!UICONTROL Edit Preferences]**.
-
-   ![Modifica profilo](/help/main/c-intro/assets/change-language.png)
+1. Dopo aver effettuato l&#39;accesso a [!DNL Adobe Experience Cloud] o [!DNL Target], fai clic sull&#39;avatar del tuo profilo, quindi su **[!UICONTROL Preferences]**.
 
 1. Fai clic su **[!UICONTROL Adobe Account]** per accedere al tuo profilo [!DNL Adobe].
 
    ![Account Adobe](/help/main/c-intro/assets/adobe-account.png)
 
-1. Fai clic sulla scheda **[!UICONTROL Notifications]** nella barra dei menu superiore, quindi fai clic sulla scheda **[!UICONTROL Preferences]** a sinistra.
+1. Nella sezione **[!UICONTROL Preferred languages]** della pagina [!UICONTROL Account], **[!UICONTROL Add]**.
 
-   ![Lingue preferite](/help/main/c-intro/assets/prefered-language.png)
-
-   Il testo indica che si tratta della lingua che desideri venga utilizzate nelle comunicazioni da [!DNL Adobe]. È anche la lingua che verrà utilizzata nell’interfaccia utente di [!DNL Target] e altre soluzioni [!DNL Adobe Experience Cloud]. Puoi scegliere più lingue.
+   Il testo indica che si tratta della lingua che desideri venga utilizzata da [!DNL Adobe] quando Adobe contatta l&#39;utente. Linguaggio utilizzato anche nell&#39;interfaccia utente di [!DNL Target] e altre soluzioni [!DNL Adobe Experience Cloud]. Puoi scegliere più lingue.
 
 1. Seleziona la prima lingua (principale), quindi un’eventuale seconda lingua.
 
@@ -66,15 +62,11 @@ Informazioni sull’accesso a [!DNL Adobe Target] da [!DNL Adobe Experience Clou
 
 ## Modificare la lingua per la documentazione di [!DNL Target] {#doc-lang}
 
-Le impostazioni del sistema operativo o del browser in uso dovrebbero rilevare la lingua preferita e visualizzare la documentazione nella relativa lingua (se disponibile). La documentazione [!DNL Target] di viene tradotta automaticamente e sincronizzata con la versione inglese entro poche ore dalla modifica della documentazione inglese.
+Le impostazioni del sistema operativo o del browser in uso dovrebbero rilevare la lingua preferita e visualizzare la documentazione nella relativa lingua (se disponibile). La documentazione di [!DNL Target] viene tradotta automaticamente ed è sincronizzata con la versione inglese entro poche ore dalla modifica della documentazione inglese.
 
-Per passare rapidamente alla versione originale inglese, fai clic sul collegamento disponibile nell’intestazione della pagina.
+Puoi cambiare rapidamente la lingua passando a una delle lingue supportate facendo clic sull&#39;icona del globo in alto a destra nell&#39;intestazione della pagina ( ![cambio lingua](/help/main/assets/icons/GlobeGrid.svg) ).
 
-![Passare alla lingua originale](/help/main/c-intro/assets/mt-original.png)
-
-Puoi anche cambiare rapidamente la lingua passando a una delle lingue supportate facendo clic sull’ icona Cambia lingua in alto a destra nell’intestazione della pagina (![cambia lingua](/help/main/c-intro/assets/icon-language-switcher.png)).
-
-![cambia lingua](/help/main/c-intro/assets/language-switcher.png)
+![Cambia lingua](/help/main/c-intro/assets/mt-original.png)
 
 La documentazione di [!DNL Target] è ora disponibile nelle seguenti lingue:
 

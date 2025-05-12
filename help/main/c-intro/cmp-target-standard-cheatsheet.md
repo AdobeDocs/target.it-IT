@@ -4,9 +4,9 @@ description: Esplora un elenco di domande frequenti sull’utilizzo delle funzio
 title: Dove posso trovare le risposte alle mie domande su ottimizzazione e personalizzazione?
 feature: Overview
 exl-id: 75e29d2a-78e7-40aa-b134-36a7cc8b3ed8
-source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
+source-git-commit: 7dc7f6f053fa935c0166edde3e0fe09d161a7a67
 workflow-type: tm+mt
-source-wordcount: '2721'
+source-wordcount: '2678'
 ht-degree: 94%
 
 ---
@@ -33,7 +33,7 @@ Visita il [forum Target Community](/help/main/cmp-resources-and-contact-informat
 
 **Quali browser supporta Target?**
 
-Per ulteriori dettagli, consulta la nostra matrice [Browser supportati](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html?lang=it){target=_blank}. Si noti che sono disponibili due funzioni: il supporto dell&#39;interfaccia Experience Cloud di Target Standard/Premium e il supporto del browser per gli utenti finali su desktop/dispositivi.
+Per maggiori dettagli, consulta la nostra griglia dei [browser supportati](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html){target=_blank}. Si noti che sono disponibili due funzioni: il supporto dell&#39;interfaccia Experience Cloud di Target Standard/Premium e il supporto del browser per gli utenti finali su desktop/dispositivi.
 
 ## Attività {#section_CB95B3BF9934445DB98E8A7E22FC2CF6}
 
@@ -155,7 +155,7 @@ Utilizza i controlli di allocazione della percentuale disponibili nel [passaggio
 Dai un&#39;occhiata alle seguenti funzioni del prodotto:
 
 * [Analytics for Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
-* [Attributi del cliente](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html?lang=it)
+* [Attributi del cliente](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html)
 * [Tipi di pubblico](/help/main/c-integrating-target-with-mac/mmp.md)
 
 ## Esperienze {#section_5959536B8D6A4BEA8FAA1273338F3451}
@@ -212,13 +212,7 @@ Un metodo consiste nell’usare l’[Editor di codice personalizzato](/help/main
 
 Utilizza le funzioni Componi e Sfoglia per passare alla pagina scelta e iniziare a creare la tua esperienza.
 
-![immagine vec2](assets/vec2.png)
-
-**Come posso passare all&#39;esperienza scelta dal passaggio 2 del flusso di lavoro guidato in tre parti di Target (pagina targeting)?**
-
-Fai clic sulla miniatura di fronte al nome dell’esperienza al passaggio 2 e si aprirà l&#39;esperienza scelta.
-
-![immagine miniature](assets/thumbnail_experiences.png)
+![Attiva/disattiva progettazione e navigazione](/help/main/c-experiences/c-visual-experience-composer/assets/design-browse-mode.png)
 
 **Sono un ex utente di Target Classic. Posso sfruttare le mie mbox per alcuni casi di utilizzo?**
 
@@ -258,7 +252,7 @@ Dai un&#39;occhiata alle seguenti funzioni del prodotto:
 
 * [Analytics for Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
 
-* [Attributi del cliente](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html?lang=it)
+* [Attributi del cliente](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html)
 
 * [Tipi di pubblico](/help/main/c-integrating-target-with-mac/mmp.md)
 
@@ -309,4 +303,4 @@ Siamo spiacenti di sapere che stai avendo dei problemi. Consulta [Risoluzione de
 
 **Dove posso saperne di più sulle API di Target?**
 
-È disponibile una documentazione completa sulle API. Consulta [Documentazione API di consegna, SDK di NodeJS e API Recommendations](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html?lang=it){target=_blank}.
+È disponibile una documentazione completa sulle API. Consulta [Documentazione di API di distribuzione, SDK di NodeJS e API Consigli](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html?lang=it){target=_blank}.
