@@ -5,10 +5,10 @@ title: Cosa sono gli host e come li utilizzo?
 feature: Administration & Configuration
 role: Admin
 exl-id: 31c661c0-686d-440e-ad58-864fb853b1c4
-source-git-commit: 12831d6584acc482db415629d7e70a18e39c47c2
+source-git-commit: 0ab5b7d7cbfaef86b9a045883f597900dba72416
 workflow-type: tm+mt
-source-wordcount: '1027'
-ht-degree: 18%
+source-wordcount: '1029'
+ht-degree: 17%
 
 ---
 
@@ -51,7 +51,7 @@ Dopo aver aggiunto un host all&#39;elenco [!UICONTROL Host], assicurarsi che l&#
 
    Per impostazione predefinita, un host appena riconosciuto viene inserito nell&#39;ambiente [!UICONTROL Production]. L&#39;ambiente [!UICONTROL Production] è l&#39;ambiente più sicuro perché non consente la visualizzazione delle attività inattive da questi host.
 
-1. (Condizionale) Fai clic sull&#39;icona **[!UICONTROL Move]** ( ![icona Sposta](/help/main/administrating-target/assets/icon-move.png) ) per spostare l&#39;host in [!UICONTROL Development], [!UICONTROL Staging] o in un altro ambiente.
+1. (Condizionale) Fai clic sull&#39;icona **[!UICONTROL Move]** ( ![icona Sposta](/help/main/assets/icons/MoveTo.svg) ) per spostare l&#39;host in [!UICONTROL Development], [!UICONTROL Staging] o in un altro ambiente.
 
 >[!NOTE]
 >
@@ -63,7 +63,7 @@ Per ordinare l&#39;elenco [!UICONTROL Hosts], fare clic su un&#39;intestazione d
 
 Per cercare nell&#39;elenco [!UICONTROL Hosts], digitare un termine di ricerca nella casella [!UICONTROL Search Hosts].
 
-## Inserire nell&#39;elenco Consentiti Creazione di che specificano gli host autorizzati per l&#39;invio di [!DNL Target] richieste a [!DNL Target]. {#allowlist}
+## Inserire nell&#39;elenco Consentiti Creare che specificano gli host autorizzati a inviare [!DNL Target] richieste a [!DNL Target]. {#allowlist}
 
 È possibile creare un inserisco nell&#39;elenco Consentiti di che specifichi gli host (domini) autorizzati a inviare [!DNL Target] richieste a [!DNL Target]. Tutti gli altri host che generano richieste ricevono una risposta di errore di autorizzazione commentata. Per impostazione predefinita, qualsiasi host che contiene una richiesta [!DNL Target] si registra con [!DNL Target] nell&#39;ambiente [!UICONTROL Production] e ha accesso a tutte le attività attive e approvate. Se questo approccio non è desiderato, è invece possibile utilizzare il inserisco nell&#39;elenco Consentiti di per registrare host specifici idonei a effettuare [!DNL Target] richieste e a ricevere il contenuto di [!DNL Target]. Tutti gli host continuano a essere visualizzati nell&#39;elenco [!UICONTROL Hosts] e gli ambienti possono ancora essere utilizzati per raggruppare questi host e assegnare livelli diversi a ciascuno, ad esempio se l&#39;host può visualizzare le attività attive e/o inattive.
 
@@ -85,7 +85,7 @@ Se viene effettuata una richiesta [!DNL Target] su un host non autorizzato, la c
 
 >[!IMPORTANT]
 >
->**Best practice per la sicurezza**: se utilizzi la funzionalità ubox di [!DNL Target], questo inserisco nell&#39;elenco Consentiti controlla anche l&#39;elenco di domini a cui i tuoi [redirector](https://experienceleague.adobe.com/docs/target-dev/developer/implement-email/working-with-redirectors.html?lang=it){target=_blank} possono accedere. Assicurati di aggiungere tutti i domini a cui desideri reindirizzare quando utilizzi ubox come parte dell’implementazione. Se il inserisco nell&#39;elenco Consentiti di viene lasciato non specificato, [!DNL Adobe] non è in grado di verificare gli URL di reindirizzamento e di proteggere da potenziali reindirizzamenti dannosi.
+>**Best practice per la sicurezza**: se utilizzi la funzionalità ubox di [!DNL Target], questo inserisco nell&#39;elenco Consentiti controlla anche l&#39;elenco di domini a cui i tuoi [redirector](https://experienceleague.adobe.com/docs/target-dev/developer/implement-email/working-with-redirectors.html){target=_blank} possono accedere. Assicurati di aggiungere tutti i domini a cui desideri reindirizzare quando utilizzi ubox come parte dell’implementazione. Se il inserisco nell&#39;elenco Consentiti di viene lasciato non specificato, [!DNL Adobe] non è in grado di verificare gli URL di reindirizzamento e di proteggere da potenziali reindirizzamenti dannosi.
 >
 >Il inserisco nell&#39;elenco Consentiti di ha la precedenza sugli ambienti. Cancella tutti gli host prima di utilizzare la funzione di inserisce nell&#39;elenco Consentiti di, quindi nell’elenco degli host vengono visualizzati solo gli host consentiti dal inserisco nell&#39;elenco Consentiti di. A questo punto puoi spostare gli host nell’ambiente desiderato.
 
@@ -103,7 +103,7 @@ Nei casi in cui `mboxHost` viene passato in una chiamata API, la conversione vie
 
 Quando un host non è più necessario, è possibile eliminarlo.
 
-1. Nell&#39;elenco [!UICONTROL Hosts] fare clic sull&#39;icona **[!UICONTROL Delete]**.
+1. Nell&#39;elenco [!UICONTROL Hosts] fare clic sull&#39;icona **[!UICONTROL Delete]** ( ![icona Elimina](/help/main/assets/icons/DeleteOutline.svg) ).
 1. Fare clic su **[!UICONTROL Delete]** per confermare l&#39;eliminazione.
 
 >[!NOTE]

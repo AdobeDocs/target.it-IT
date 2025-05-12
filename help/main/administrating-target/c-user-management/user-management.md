@@ -5,10 +5,10 @@ title: Come posso configurare la gestione degli utenti?
 feature: Administration & Configuration
 role: Admin
 exl-id: 3bf0c23c-7382-43d2-af54-734221063872
-source-git-commit: 12831d6584acc482db415629d7e70a18e39c47c2
+source-git-commit: 0ab5b7d7cbfaef86b9a045883f597900dba72416
 workflow-type: tm+mt
-source-wordcount: '217'
-ht-degree: 61%
+source-wordcount: '208'
+ht-degree: 64%
 
 ---
 
@@ -34,10 +34,10 @@ Per verificare se la tua organizzazione dispone di una licenza Standard o Premiu
 * **Clienti Target Premium:** se la tua organizzazione dispone di una licenza [!DNL Target] Premium, osserverai quanto segue nell’interfaccia utente di Target:
 
    * Verrà visualizzata la scheda [!UICONTROL Properties] ( [!UICONTROL Administration] > [!UICONTROL Properties] )
-   * Vedrai anche la scheda [!UICONTROL Users] ( [!UICONTROL Administration] > [!UICONTROL Users] )
+   * *non* vedrai la scheda [!UICONTROL Users] ( [!UICONTROL Administration] > [!UICONTROL Users] )
 
      I clienti [!DNL Target] Premium devono seguire le istruzioni contenute in [Enterprise User Permissions](/help/main/administrating-target/c-user-management/property-channel/property-channel.md#concept_E396B16FA2024ADBA27BC056138F9838) (Autorizzazioni utente di Enterprise) e [Configure Enterprise Permissions](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md#concept_22F2855DBF0D4754B9460F5D68749C71) (Configurazione delle autorizzazioni Enterprise) per aggiungere utenti e assegnare le autorizzazioni in [!DNL Adobe Admin Console].
 
-Nella figura seguente viene illustrata la pagina [!UICONTROL Administration] per un account Premium [!DNL Target]. Tieni presente che le schede [!UICONTROL Properties] e [!UICONTROL Users] sono entrambe disponibili:
+La figura seguente mostra la pagina [!UICONTROL Administration] per un account [!DNL Target Premium]:
 
 ![Scheda Amministrazione](/help/main/administrating-target/assets/premium.png)
