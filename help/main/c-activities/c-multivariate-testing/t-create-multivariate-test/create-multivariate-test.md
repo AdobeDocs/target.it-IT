@@ -4,9 +4,9 @@ description: Scopri come utilizzare il [!UICONTROL Visual Experience Composer] (
 title: Come si crea [!UICONTROL Multivariate Test]?
 feature: Multivariate Tests
 exl-id: 7712b747-543a-4e19-b689-bea36c44805c
-source-git-commit: be118753eed999ce24d547c90ac9d195cce7e9e9
+source-git-commit: 9cc1eb4c5c95ea51bc0a1fc9e89b245a18c9914b
 workflow-type: tm+mt
-source-wordcount: '724'
+source-wordcount: '731'
 ht-degree: 26%
 
 ---
@@ -39,8 +39,7 @@ L&#39;editor point-and-click di [!DNL Target] consente di scegliere qualsiasi po
 
    Verrà aperto [!UICONTROL Visual Experience Composer].
 
-1. &#x200B;
-   1. Fare clic sull&#39;icona **[!UICONTROL Rename]** ( ![icona Rinomina](/help/main/assets/icons/MoreSmallListVert.svg) ), fare clic su **[!UICONTROL Rename]**, specificare un nome per l&#39;attività, quindi fare clic su **[!UICONTROL Save]**.
+1. Per assegnare un nome all&#39;attività, fare clic sull&#39;icona **[!UICONTROL Edit]** ( ![icona Modifica](/help/main/assets/icons/Edit.svg) ) accanto a &quot;[!UICONTROL Untitled Activity]&quot;, specificare un nome descrittivo per l&#39;attività e quindi fare clic su **[!UICONTROL Save]**.
 
    Il nome dell’attività non può iniziare con uno dei seguenti caratteri:
 
@@ -129,4 +128,4 @@ Questo video illustra come pianificare e creare un test multivariato utilizzando
 * Definizione e progettazione di un test multivariato
 * Creazione di un test multivariato
 
->[!VIDEO](https://video.tv.adobe.com/v/36329?captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/17395)
