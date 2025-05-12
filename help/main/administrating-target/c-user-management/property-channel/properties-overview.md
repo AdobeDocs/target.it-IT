@@ -210,7 +210,7 @@ Questo video spiega come creare aree di lavoro.
 
 * Comprendere le aree di lavoro predefinite
 
->[!VIDEO](https://video.tv.adobe.com/v/19463/)
+>[!VIDEO](https://video.tv.adobe.com/v/3421732?captions=ita)
 
 ### Come creare proprietà in Adobe Target (3:05) ![Icona esercitazione](/help/main/assets/tutorial.png)
 
