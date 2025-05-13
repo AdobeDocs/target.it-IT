@@ -4,10 +4,10 @@ description: Scopri le nuove funzioni, i miglioramenti e le correzioni, compresi
 title: Quali nuove funzioni e miglioramenti saranno inclusi nella prossima versione [!DNL Target] ?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 0f96fb2a74a0716542308037d183847c91b1dc04
+source-git-commit: 3ff1ff8fc09bc1fc4d808d1c5763cf35ad968668
 workflow-type: tm+mt
-source-wordcount: '176'
-ht-degree: 86%
+source-wordcount: '279'
+ht-degree: 54%
 
 ---
 
@@ -15,13 +15,21 @@ ht-degree: 86%
 
 Questo articolo contiene informazioni prerelease per le prossime versioni di [!DNL Adobe Target], incluse SDK, API e librerie JavaScript.
 
-**Ultimo aggiornamento: martedì 5 maggio 2025**
+**Ultimo aggiornamento: mercoledì 13 maggio 2025**
 
 >[!NOTE]
 >
 >Date di rilascio, funzioni e altre informazioni sono soggette a modifica senza preavviso.
 >
 >Per visualizzare informazioni sulla versione corrente, consulta [Note sulla versione di Target](release-notes.md). Le informazioni su queste pagine potrebbero essere uguali, a seconda della tempistica delle release. I codici tra parentesi sono per uso interno di [!DNL Adobe].
+
+## Versione di [!DNL Adobe Target] [!DNL AI Assistant] (20 maggio 2025)
+
+Siamo entusiasti di annunciare il lancio di [!DNL AI Assistant] in [!DNL Adobe Target]. Questa potente funzionalità dell&#39;interfaccia utente è stata progettata per facilitare la navigazione e la comprensione dei concetti di [!DNL Target]. Disponibile in più prodotti in [!DNL Adobe Experience Cloud], tra cui [!DNL Target], [!DNL AI Assistant] è qui per rivoluzionare la tua esperienza.
+
+[!DNL AI Assistant] in [!UICONTROL Target] è uno strumento di conversazione che puoi utilizzare per accelerare i flussi di lavoro con le applicazioni e i servizi [!DNL Experience Platform]. Utilizza [!DNL AI Assistant] per migliorare la tua produttività complessiva e approfondire la tua conoscenza dei prodotti
+
+In [!DNL Target], la prima fase di [!DNL AI Assistant] fornisce informazioni preziose sui prodotti basate sulla documentazione di [!DNL Experience League]. Sono state trattate sia la configurazione di uno script di profilo, la risoluzione di problemi o l&#39;aggiornamento a AEP Web SDK, [!DNL AI Assistant].
 
 ## Note aggiuntive e dettagli sulla versione
 
