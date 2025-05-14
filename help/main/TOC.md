@@ -3,10 +3,10 @@ user-guide-title: Guida di Adobe Target per professionisti aziendali
 breadcrumb-title: Guida di Target
 user-guide-description: Scopri come adattare e personalizzare l’esperienza dei clienti per massimizzare le entrate dai siti web e mobili, dalle app, dai social media e da altri canali digitali.
 feature-set: Target
-source-git-commit: 457b02cb3cbaeee8ad9b56844891dd7e9f6f2d86
+source-git-commit: d1afb007d3cd257a2682c5d3a1833bbc33cad1a8
 workflow-type: tm+mt
-source-wordcount: '1263'
-ht-degree: 89%
+source-wordcount: '1274'
+ht-degree: 85%
 
 ---
 
@@ -27,7 +27,9 @@ ht-degree: 89%
    + [Accedere a Target da Adobe Experience Cloud](c-intro/target-access-from-mac.md)
    + [Concetti chiave di Target](c-intro/target-key-concepts.md)
    + [Descrizione dell’interfaccia utente di Target](/help/main/c-intro/understand-the-target-ui.md)
-   + [Utilizzo dell’Assistente AI](/help/main/c-intro/ai-assistant.md)
+   + Assistente AI di Adobe Target {#ai-assistant}
+      + [Abilita Assistente IA](/help/main/c-intro/ai-assistant.md)
+      + [Utilizzare l’Assistente AI per acquisire conoscenze sul prodotto](/help/main/c-intro/ai-assistant-product-knowledge.md)
    + Kit di benvenuto Adobe Target {#welcome}
       + [Panoramica del kit di benvenuto di Target](/help/main/c-intro/target-welcome-kit.md)
       + [Capitolo 1: Introduzione](/help/main/c-intro/target-welcome-kit-1.md)
@@ -56,7 +58,7 @@ ht-degree: 89%
    + [Host](administrating-target/hosts.md)
    + [Ambienti](/help/main/administrating-target/environments.md)
    + [Token di risposta](administrating-target/response-tokens.md)
-   + Gestire gli utenti {#manage-users}
+   + Gestisci utenti {#manage-users}
       + [Gestione utente](administrating-target/c-user-management/user-management.md)
       + Utenti {#users}
          + [Panoramica sugli utenti](administrating-target/c-user-management/c-user-management/user-management.md)
@@ -69,7 +71,7 @@ ht-degree: 89%
 + Implementare Target {#implement-target}
    + [Panoramica sull’implementazione di Target](c-implementing-target/implementing-target.md)
 + Integrare Target con Experience Cloud {#integrate}
-   + Adobe Analytics come origine per la generazione di rapporti per Adobe Target (A4T) {#a4t}
+   + Adobe Analytics come origine per la generazione di rapporti per Target (A4T) {#a4t}
       + [Panoramica di A4T](c-integrating-target-with-mac/a4t/a4t.md)
       + [Prima dell’implementazione](c-integrating-target-with-mac/a4t/before-implement.md)
       + [Implementazione di Analytics for Target](c-integrating-target-with-mac/a4t/a4timplementation.md)
@@ -96,7 +98,7 @@ ht-degree: 89%
    + Integrare Target con Adobe Journey Optimizer (AJO) {#ajo}
       + [Utilizzare le decisioni sulle offerte](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md)
       + [Integrare [!DNL Adobe Target Recommendations] e [!DNL Adobe Journey Optimizer]](/help/main/c-integrating-target-with-mac/ajo/recs-ajo-integration.md) {#recs-ajo} {#hidden}
-      + Casi di utilizzo di Adobe Journey Optimizer {#use-cases}
+      + Casi d’uso di Adobe Journey Optimizer {#use-cases}
          + [Casi d’uso principali per l’ottimizzazione in Adobe Journey Optimizer: canali web e basati su codice](/help/main/c-integrating-target-with-mac/ajo/top-ajo-use-cases.md)
          + [Modifiche al contenuto tramite test A/B in Adobe Journey Optimizer](/help/main/c-integrating-target-with-mac/ajo/content-change-using-ajo.md)
          + [Aggiungere o nascondere componenti alla pagina web](/help/main/c-integrating-target-with-mac/ajo/add-hide-content-using-ajo.md)
@@ -104,9 +106,9 @@ ht-degree: 89%
    + Integrare Target con Adobe Experience Manager (AEM) {#aem}
       + [Panoramica sull’integrazione di Target con AEM](/help/main/c-integrating-target-with-mac/aem/aem-target-integration.md)
       + Frammenti di esperienza e frammenti di contenuto {#fragments}
-         + [Panoramica sui frammenti di esperienza e sui frammenti di contenuto dell’AEM](/help/main/c-integrating-target-with-mac/aem/aem-experience-and-content-fragments.md)
+         + [Panoramica dei frammenti di esperienza e dei frammenti di contenuto di AEM](/help/main/c-integrating-target-with-mac/aem/aem-experience-and-content-fragments.md)
          + [Frammenti esperienza AEM](/help/main/c-integrating-target-with-mac/aem/experience-fragments-aem.md)
-         + [Frammenti di contenuto AEM](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md)
+         + [Frammenti di contenuto di AEM](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md)
    + [Integrare Target con Adobe Audience Manager (AAM)](/help/main/c-integrating-target-with-mac/audience-manager-target-integration.md)
    + [Integrare con Real-time Customer Data Platform](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md)
    + [Integrare Target con Adobe Campaign](c-integrating-target-with-mac/campaign-and-target.md)
@@ -226,7 +228,7 @@ ht-degree: 89%
       + [Domande frequenti su destinazioni e pubblico](c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md)
 + Esperienze e offerte {#experiences}
    + [Panoramica su esperienze e offerte](c-experiences/experiences.md)
-   + Compositore esperienza visivo (VEC) {#vec}
+   + Compositore esperienza visivo {#vec}
       + [Panoramica sul Compositore esperienza visivo](c-experiences/c-visual-experience-composer/visual-experience-composer.md)
       + [Opzioni del Compositore esperienza visivo](c-experiences/c-visual-experience-composer/viztarget-options.md)
       + [Modifiche al Compositore esperienza visivo](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md)
@@ -262,7 +264,7 @@ ht-degree: 89%
       + [Utilizzare i contenuti della libreria](c-experiences/c-manage-content/assets-working.md)
       + [Cercare e filtrare i contenuti](c-experiences/c-manage-content/filter-and-search-content.md)
       + [Trasmettere i dati dinamici nelle offerte](c-experiences/c-manage-content/passing-profile-attributes-to-the-html-offer.md)
-      + [Frammenti di esperienza e contenuti AEM](c-experiences/c-manage-content/aem-experience-fragments.md)
+      + [Frammenti di esperienza e contenuti di AEM](c-experiences/c-manage-content/aem-experience-fragments.md)
 + Rapporti {#reports}
    + [Panoramica sui rapporti](c-reports/reports.md)
    + Impostazioni dei rapporti {#settings}
@@ -275,16 +277,16 @@ ht-degree: 89%
    + Rapporti di Personalization {#personalization-reports}
       + [Rapporto di riepilogo del Targeting automatico](/help/main/c-reports/personalization-reports/auto-target-summary-report.md)
       + [Rapporto di riepilogo per Automated Personalization](/help/main/c-reports/personalization-reports/reports-ap.md)
-   + Rapporto Approfondimenti personalizzazione {#insights}
+   + Rapporto Approfondimenti Personalization {#insights}
       + [Panoramica sui rapporti Approfondimenti personalizzazione](c-reports/c-personalization-insights-reports/personalization-insights-reports.md)
       + [Rapporto Segmenti automatizzati](c-reports/c-personalization-insights-reports/automated-segments-report.md)
       + [Rapporto Attributi importanti](c-reports/c-personalization-insights-reports/important-attributes-report.md)
-   + Report test multivariato {#multivariate-test-reports}
+   + Rapporti sui test multivariati {#multivariate-test-reports}
       + [Rapporto Prestazioni Esperienza (MVT)](/help/main/c-reports/multivariate-test-reports/experience-performance-report.md)
       + [Rapporto Contributo Posizione (MVT)](/help/main/c-reports/multivariate-test-reports/location-contribution-report.md)
    + [Reporting di Analytics for Target (A4T)](c-reports/analytics-for-target-a4t-reporting.md)
    + [Domande frequenti sulla generazione di rapporti](c-reports/reporting-frequently-asked-questions.md)
-+ Consigli {#recommendations}
++ Recommendations {#recommendations}
    + [Panoramica sulla funzione Consigli](c-recommendations/recommendations.md)
    + [Introduzione alla funzione Consigli](c-recommendations/introduction-to-recommendations.md)
    + [Pianificare e implementare la funzione Consigli](c-recommendations/plan-implement.md)
