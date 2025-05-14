@@ -20,7 +20,7 @@ Informazioni sulle attività preliminari che l&#39;organizzazione deve completar
 
 Per accedere a [!DNL AI Assistant], la tua organizzazione deve prima accettare ulteriori condizioni legali. Contatta quindi il team del tuo account Adobe per ricevere assistenza su questi termini.
 
-Per ulteriori informazioni, vedere [Accesso [!DNL AI Assistant] in [!DNL Experience Platform]](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/access){target=_blank} nella documentazione di *[!DNL Experience Platform]*.
+Per ulteriori informazioni, vedere [Accesso [!DNL AI Assistant] in [!DNL Experience Platform]](https://experienceleague.adobe.com/it/docs/experience-platform/ai-assistant/access){target=_blank} nella documentazione di *[!DNL Experience Platform]*.
 
 ## Abilita autorizzazioni utente per [!UICONTROL AI Assistant]
 
