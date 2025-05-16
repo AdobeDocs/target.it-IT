@@ -1,13 +1,13 @@
 ---
 keywords: assistente ai;assistente di intelligenza artificiale
-description: Scopri come abilitare  [!DNL AI Assistant] in[!DNL &#x200B; Adobe Target].
+description: Scopri come abilitare  [!DNL AI Assistant] in[!DNL  Adobe Target].
 title: Come posso abilitare  [!DNL AI Assistant] in [!DNL Target]?
-badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=it#beta newtab=true" tooltip="Cosa sono le funzioni beta in [!DNL Adobe Target]."
 feature: Overview
-source-git-commit: 84f2e590ee9fb984a3b272240b0373072057ca32
+exl-id: 6897059c-65e2-4e21-b4b5-bef0a04fa6b6
+source-git-commit: 63df83fd7479c7be7e4cd4c08501ab17511a41fb
 workflow-type: tm+mt
-source-wordcount: '214'
-ht-degree: 5%
+source-wordcount: '206'
+ht-degree: 0%
 
 ---
 
@@ -19,7 +19,7 @@ Informazioni sulle attività preliminari che l&#39;organizzazione deve completar
 
 Per accedere a [!DNL AI Assistant], la tua organizzazione deve prima accettare ulteriori condizioni legali. Contatta quindi il team del tuo account Adobe per ricevere assistenza su questi termini.
 
-Per ulteriori informazioni, vedere [Accesso [!DNL AI Assistant] in [!DNL Experience Platform]](https://experienceleague.adobe.com/it/docs/experience-platform/ai-assistant/access){target=_blank} nella documentazione di *[!DNL Experience Platform]*.
+Per ulteriori informazioni, vedere [Accesso [!DNL AI Assistant] in [!DNL Experience Platform]](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/access){target=_blank} nella documentazione di *[!DNL Experience Platform]*.
 
 ## Abilita autorizzazioni utente per [!UICONTROL AI Assistant]
 
@@ -29,7 +29,7 @@ Per utilizzare la funzionalità [!UICONTROL AI Assistant] in [!UICONTROL Target]
 
 1. Passare alla scheda **[!UICONTROL Administration]** in [!DNL Target].
 1. Nel menu a sinistra, selezionare **[!UICONTROL Users]**.
-1. Individuare dall&#39;elenco l&#39;utente che si desidera gestire o utilizzare la barra di ricerca per individuarlo.
+1. Individua dall’elenco l’utente che desideri gestire o utilizza la barra di ricerca per trovarlo.
 1. Passa il puntatore del mouse sulla colonna **[!UICONTROL AI Permissions]** per la persona a cui desideri concedere l&#39;accesso a [!UICONTROL Target AI Assistant].
 
    Viene visualizzata una finestra a comparsa delle autorizzazioni.
