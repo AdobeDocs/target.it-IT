@@ -4,9 +4,9 @@ description: Scopri come acquisire [!DNL Target] conoscenze sul prodotto con [!D
 title: Come si utilizza  [!DNL AI Assistant] in [!DNL Target] per acquisire informazioni sul prodotto?
 feature: Overview
 exl-id: 48a6a9d3-07e8-4858-b15b-48d182161a76
-source-git-commit: 63df83fd7479c7be7e4cd4c08501ab17511a41fb
+source-git-commit: 04e06151e87df0fea7b4eacbe4993dc7fb3702e2
 workflow-type: tm+mt
-source-wordcount: '302'
+source-wordcount: '319'
 ht-degree: 6%
 
 ---
@@ -23,12 +23,18 @@ Le domande relative alla conoscenza del prodotto includono [!DNL Adobe] concetti
 * Si verifica un errore durante il salvataggio dell&#39;attività. Che cosa significa?
 * Devo aggiornare la mia implementazione at.js a AEP Web SDK?
 
-Per accedere a [!DNL AI Assistant]:
+## Accedi a [!DNL AI Assistant]
+
+Per accedere a [!DNL AI Assistant] per informazioni sul prodotto:
 
 1. Assicurati di aver completato le attività preliminari in [Abilitazione [!DNL Adobe Experience Platform] [!DNL AI Assistant] in [!DNL Adobe Target]](/help/main/c-intro/enabling-ai-assistant.md).
 
    * La tua organizzazione deve prima accettare i termini legali. Per ulteriori informazioni, contatta il team del tuo account Adobe.
    * Gli amministratori devono concedere autorizzazioni sufficienti per accedere a [!DNL AI Assistant].
+
+## Utilizzare l’Assistente AI per acquisire conoscenze sul prodotto
+
+Per accedere a [!DNL AI Assistant] per informazioni sul prodotto:
 
 1. Da [!DNL Target], fai clic sull&#39;icona **[!DNL AI Assistant]** nell&#39;angolo in alto a destra dell&#39;interfaccia utente.
 
@@ -60,10 +66,10 @@ Per accedere a [!DNL AI Assistant]:
 
 Informazioni sulle applicazioni [!DNL Adobe Experience Platform] di [!DNL AI Assistant].
 
->[!VIDEO](https://video.tv.adobe.com/v/3441032/?learn=on&#x26;enablevpops&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/3441024/?learn=on&#x26;enablevpops)
 
 ### Convalidare le risposte dall’Assistente AI
 
 Scopri come verificare e convalidare le risposte fornite da [!DNL AI Assistant] in [!DNL Adobe Experience Platform].
 
->[!VIDEO](https://video.tv.adobe.com/v/3441747/?learn=on&#x26;enablevpops&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/3441738/?learn=on&#x26;enablevpops)
