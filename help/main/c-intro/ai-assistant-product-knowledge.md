@@ -4,9 +4,9 @@ description: Scopri come acquisire [!DNL Target] conoscenze sul prodotto con [!D
 title: Come si utilizza  [!DNL AI Assistant] in [!DNL Target] per acquisire informazioni sul prodotto?
 feature: Overview
 exl-id: 48a6a9d3-07e8-4858-b15b-48d182161a76
-source-git-commit: 04e06151e87df0fea7b4eacbe4993dc7fb3702e2
+source-git-commit: 41889716a2793c846085d765d5e6f9db0fc70c30
 workflow-type: tm+mt
-source-wordcount: '319'
+source-wordcount: '316'
 ht-degree: 6%
 
 ---
@@ -54,10 +54,10 @@ Per accedere a [!DNL AI Assistant] per informazioni sul prodotto:
    >
    >Le risposte generate dall’intelligenza artificiale possono essere imprecise o fuorvianti. Verifica le risposte e le fonti.
 
-1. (Facoltativo) Fornisci un feedback all’Assistente AI.
+1. (Facoltativo) Fornire un feedback a [!DNL AI Assistant].
 
-   * Fare clic sull&#39;icona Anteprima ( ![Icona Anteprima](/help/main/assets/icons/ThumbUp.svg) ) per indicare a [!DNL AI Assistant] che la risposta è corretta.
-   * Fare clic sull&#39;icona Anteprima ( ![Icona Anteprima](/help/main/assets/icons/ThumbDown.svg) ) per indicare a [!DNL AI Assistant] che la risposta non è corretta.
+   * Fai clic sull&#39;icona Miniature in alto ( ![Icona Miniature in alto](/help/main/assets/icons/ThumbUp.svg) ) per comunicare a [!DNL AI Assistant] che la risposta è corretta.
+   * Fai clic sull&#39;icona Miniature giù ( ![Icona Miniature giù](/help/main/assets/icons/ThumbDown.svg) ) per avvisare [!DNL AI Assistant] che la risposta non è corretta.
    * Fai clic sull&#39;icona Risultati report ( ![Icona Risultati report](/help/main/assets/icons/Flag.svg) ) per segnalare un problema a [!DNL AI Assistant].
 
 ## Video di formazione
@@ -66,10 +66,10 @@ Per accedere a [!DNL AI Assistant] per informazioni sul prodotto:
 
 Informazioni sulle applicazioni [!DNL Adobe Experience Platform] di [!DNL AI Assistant].
 
->[!VIDEO](https://video.tv.adobe.com/v/3441032/?learn=on&#x26;enablevpops&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/3441024/?learn=on&#x26;enablevpops)
 
 ### Convalidare le risposte dall’Assistente AI
 
 Scopri come verificare e convalidare le risposte fornite da [!DNL AI Assistant] in [!DNL Adobe Experience Platform].
 
->[!VIDEO](https://video.tv.adobe.com/v/3441747/?learn=on&#x26;enablevpops&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/3441738/?learn=on&#x26;enablevpops)
