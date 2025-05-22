@@ -92,4 +92,4 @@ Il prompt e le varianti seguenti mostrano la potenza di [!DNL AI Assistant].
 
 ### Creare contenuti utilizzando l’Assistente AI per la generazione di contenuti
 
->[!VIDEO](https://video.tv.adobe.com/v/3434635/?learn=on">https://video.tv.adobe.com/v/3434635/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3434643/?learn=on&captions=ita">https://video.tv.adobe.com/v/3434643/?learn=on&captions=ita)
