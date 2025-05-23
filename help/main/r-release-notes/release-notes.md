@@ -6,9 +6,9 @@ short-description: Scopri le nuove funzioni, i miglioramenti e le correzioni inc
 title: Cosa è incluso nella versione corrente?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: d8bdd7f00911136f3089cef135928153a86096a9
+source-git-commit: 15aa5cc44cd610dd330b5c1fb4f0a771f71b2f84
 workflow-type: tm+mt
-source-wordcount: '1681'
+source-wordcount: '1670'
 ht-degree: 21%
 
 ---
@@ -31,7 +31,7 @@ A partire dal **22 giugno 2025**, l&#39;interruttore della versione dell&#39;int
 
 ![Attivazione/disattivazione versione interfaccia utente di Target](/help/main/r-release-notes/assets/toggle.png)
 
-Una volta completato il rollout, l’interruttore viene rimosso e tutti gli utenti passano definitivamente all’interfaccia utente aggiornata. Anche se non disponiamo di una data di fine confermata a causa della risoluzione in corso dei problemi, consigliamo di pianificare in anticipo, in quanto questa funzione verrà gradualmente eliminata a breve.
+Una volta completato il rollout, l&#39;interruttore verrà rimosso e tutti gli utenti passeranno definitivamente all&#39;interfaccia utente aggiornata il **22 giugno 2025**. Adobe consiglia di pianificare in anticipo, in quanto questa funzione verrà gradualmente eliminata a breve.
 
 **Limitazioni del comportamento di attivazione/disattivazione dell&#39;interfaccia utente**
 
