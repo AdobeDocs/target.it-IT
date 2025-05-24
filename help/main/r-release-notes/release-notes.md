@@ -6,9 +6,9 @@ short-description: Scopri le nuove funzioni, i miglioramenti e le correzioni inc
 title: Cosa è incluso nella versione corrente?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 53fc39f66ca954c1c9908a12ece6c0beeebed2eb
+source-git-commit: 97fd3be049ffb0f9dd27c89288a82695d86d5302
 workflow-type: tm+mt
-source-wordcount: '1749'
+source-wordcount: '1744'
 ht-degree: 20%
 
 ---
@@ -25,7 +25,7 @@ Il rollout della nuova interfaccia utente [!DNL Target] verrà completato entro 
 
 A partire dal **22 giugno 2025**, l&#39;interruttore della versione dell&#39;interfaccia utente verrà rimosso. Tutti gli utenti passeranno in modo permanente alla nuova interfaccia, senza alcuna opzione per tornare alla versione precedente.
 
-**Informazioni importanti sull&#39;interruttore della versione dell&#39;interfaccia utente**
+### Informazioni importanti sull’interruttore della versione dell’interfaccia utente
 
 È disponibile una funzione temporanea che consente di passare dall&#39;interfaccia utente [!DNL Target] aggiornata alla versione precedente utilizzando un pulsante di attivazione/disattivazione. Questa opzione è disponibile solo durante la fase finale del rollout dell’interfaccia utente.
 
@@ -33,33 +33,23 @@ A partire dal **22 giugno 2025**, l&#39;interruttore della versione dell&#39;int
 
 Una volta completato il rollout, l&#39;interruttore verrà rimosso e tutti gli utenti passeranno definitivamente all&#39;interfaccia utente aggiornata il **22 giugno 2025**. Adobe consiglia di pianificare in anticipo, in quanto questa funzione verrà gradualmente eliminata a breve.
 
-**Limitazioni del comportamento di attivazione/disattivazione dell&#39;interfaccia utente**
+### Limitazioni del comportamento di attivazione/disattivazione dell’interfaccia utente
 
 * **Visibilità delle nuove attività**: le attività create nell&#39;interfaccia utente aggiornata non saranno visibili se si torna all&#39;interfaccia precedente.
 * **Modifica di attività esistenti**: le modifiche apportate alle attività esistenti (originariamente create nell&#39;interfaccia utente legacy) durante l&#39;utilizzo dell&#39;interfaccia utente aggiornata verranno pubblicate nel sito Web. Tuttavia, se passi all’interfaccia precedente, questi aggiornamenti non saranno visibili; verranno visualizzati solo gli ultimi aggiornamenti effettuati dall’interfaccia precedente.
 * **Coerenza dei dettagli dell&#39;attività**: le modifiche più recenti, indipendentemente dall&#39;interfaccia utente utilizzata, verranno applicate al sito Web attivo. Tuttavia, nell’interfaccia utente legacy verranno visualizzate solo le modifiche più recenti apportate all’interno di tale versione. Questo potrebbe causare confusione se le attività modificate nell’interfaccia utente aggiornata hanno un aspetto diverso da quello visualizzato nell’interfaccia utente precedente.
 
-Per ulteriori informazioni sull’interfaccia utente aggiornata, consulta le risorse seguenti:
+### Ulteriori informazioni sull’interfaccia utente aggiornata
 
-* [Note sulla versione di [!DNL Target Standard/Premium] 25.2.1 (17 febbraio 2025)](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-2)
+* [[!DNL Target Standard/Premium] 25.2.1 (17 febbraio 2025) - Note sulla versione](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-2): fornisce un riepilogo delle modifiche principali apportate all&#39;interfaccia utente in [!DNL Target] per [!UICONTROL Activities], [!UICONTROL Recommendations] e [!UICONTROL Visual Experience Composer] (Compositore esperienza visivo).
 
-  Fornisce un riepilogo delle modifiche all&#39;interfaccia utente chiave in [!DNL Target] per [!UICONTROL Activities], [!UICONTROL Recommendations] e [!UICONTROL Visual Experience Composer] (VEC).
+* [[!DNL Target Standard/Premium] 25.1.1 (9 gennaio 2025) - Note sulla versione](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-1): fornisce un riepilogo delle modifiche principali apportate all&#39;interfaccia utente in [!DNL Target] per [!UICONTROL Offers Library].
 
-* [Note sulla versione di [!DNL Target Standard/Premium] 25.1.1 (9 gennaio 2025)](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-1)
+* [Comprendere l&#39;interfaccia utente [!DNL Target] UI](/help/main/c-intro/understand-the-target-ui.md): fornisce una breve panoramica per acquisire familiarità con [!DNL Target] e fornisce collegamenti per informazioni più approfondite e istruzioni dettagliate.
 
-  Fornisce un riepilogo delle modifiche all&#39;interfaccia utente chiave in [!DNL Target] per [!UICONTROL Offers Library].
+* [[!UICONTROL Visual Experience Composer] modifiche](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md): la versione di [!DNL Adobe Target Standard/Premium] 25.2.1 (17 febbraio 2015) introduce una versione aggiornata di [!UICONTROL Visual Experience Composer] (VEC). Questo articolo spiega le differenze tra le versioni legacy e aggiornata del Compositore esperienza visivo.
 
-* [Interfaccia utente di  [!DNL Target] ](/help/main/c-intro/understand-the-target-ui.md)
-
-  Fornisce una breve panoramica per aiutarti a familiarizzare con [!DNL Target] e fornisce collegamenti per ottenere informazioni più approfondite e istruzioni dettagliate.
-
-* [[!UICONTROL Visual Experience Composer] modifiche](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md)
-
-  La versione di [!DNL Adobe Target Standard/Premium] 25.2.1 (17 febbraio 2015) introduce una versione aggiornata di [!UICONTROL Visual Experience Composer] (VEC). Questo articolo spiega le differenze tra le versioni legacy e aggiornata del Compositore esperienza visivo.
-
-* [[!UICONTROL Visual Experience Composer] opzioni](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md)
-
-  Questo articolo spiega l’interfaccia utente del Compositore esperienza visivo aggiornata e le relative opzioni.
+* [[!UICONTROL Visual Experience Composer] opzioni](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md): questo articolo illustra l&#39;interfaccia utente del Compositore esperienza visivo aggiornata e le relative opzioni.
 
 ## [!DNL Target Standard/Premium] 25.5.3 (22 maggio 2025)
 
