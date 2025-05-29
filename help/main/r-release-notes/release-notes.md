@@ -6,10 +6,10 @@ short-description: Scopri le nuove funzioni, i miglioramenti e le correzioni inc
 title: Cosa è incluso nella versione corrente?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 97fd3be049ffb0f9dd27c89288a82695d86d5302
+source-git-commit: bc9a0fe1977629a00eebb2f7aafd30263c8b55af
 workflow-type: tm+mt
-source-wordcount: '1744'
-ht-degree: 20%
+source-wordcount: '2119'
+ht-degree: 18%
 
 ---
 
@@ -18,6 +18,24 @@ ht-degree: 20%
 Queste note sulla versione forniscono informazioni su funzioni, miglioramenti e correzioni per ciascuna versione di [!DNL Adobe Target Standard] e [!DNL Target Premium]. Sono inoltre incluse, ove applicabili, le note sulla versione di API di [!DNL Target], SDK, [!DNL Adobe Experience Platform Web SDK], at.js e altre modifiche alla piattaforma.
 
 I codici dei problemi tra parentesi sono per uso interno di [!DNL Adobe].
+
+## [!DNL Target Standard/Premium] 25.5.4 (29 maggio 2025)
+
+Questa versione include le correzioni e gli aggiornamenti seguenti:
+
+* È stato risolto un problema che impediva l’aggiunta o la modifica di URL in modalità di controllo qualità. (TGT-51941)
+* È stata aggiunta un&#39;impostazione di traffico in modalità Controllo di qualità in [!UICONTROL Reports] > [!UICONTROL Report Settings] ( ![icona Impostazioni report](/help/main/assets/icons/Setting.svg) ) per allinearla alle funzionalità dell&#39;interfaccia utente legacy di [!DNL Target]. (TGT-52228 e TGT-52329)
+* È stato risolto un problema che causava la generazione di collegamenti di controllo qualità errati da parte dell’attività basata su moduli. L’URL/posizione dell’attività includeva un &quot;1&quot; non voluto alla fine, che ora è stato rimosso per garantire un collegamento accurato. (TGT-52355 e TGT-52358)
+* È stato risolto un problema che causava la generazione di collegamenti di controllo qualità errati da parte dell’attività basata su moduli. L&#39;URL attività includeva un `http://pid-ppc` non previsto all&#39;inizio dell&#39;URL, che ora è stato rimosso per garantire un collegamento accurato. (TGT-52557)
+* È stato risolto un problema a causa del quale [!DNL Target] generava collegamenti di controllo qualità non validi per le attività basate su moduli. (TGT-52528 e TGT-52603)
+* È stato risolto un problema che causava l&#39;elaborazione del salvataggio di un&#39;attività modificata, ma mai completata, e nessun messaggio di errore veniva visualizzato in [!DNL Target]. (TGT-52461)
+* È stato risolto un problema che impediva al [!UICONTROL Visual Experience Composer] (VEC) aggiornato di rilevare automaticamente il valore `at_property`. (TGT-52347)
+* È stato risolto un problema che causava la registrazione di due modifiche quando ne era prevista solo una dopo il passaggio tra le modalità [!UICONTROL Browse] e [!UICONTROL Design] nel Compositore esperienza visivo durante l&#39;interazione con un elemento modulo. (TGT-52455)
+* È stato risolto un problema che impediva la selezione dell’impostazione [!UICONTROL Clicked an Element] nel Compositore esperienza visivo aggiornato a causa di un errore che indicava che il selettore non era valido, era già utilizzato o non era visibile. (TGT-52467)
+* È stato risolto un problema che causava la visualizzazione di caselle duplicate (ghost) a causa dell’aggiunta di una casella [!UICONTROL Recommendation Offer] nel Compositore esperienza visivo aggiornato. Il passaggio tra l’Esperienza A e B ha aggiunto ripetutamente più caselle fantasma. (TGT-52505 e TGT-52519)
+* È stato risolto un problema nell&#39;interfaccia utente [!DNL Target] aggiornata a causa del quale le modifiche apportate a un&#39;offerta HTML tramite il menu [!UICONTROL Offer] non venivano riportate nell&#39;attività associata e viceversa. Questo comportamento ora corrisponde all&#39;interfaccia utente legacy, in cui gli aggiornamenti vengono sincronizzati correttamente tra il menu [!UICONTROL Offer] e l&#39;attività. (TGT-52540 e TGT-52541)
+* È stato risolto un problema a causa del quale gli aggiornamenti recenti di [!UICONTROL Experience Fragments] in [!UICONTROL Offers Library] non venivano rispecchiati durante il tentativo di utilizzarli all&#39;interno di un&#39;attività. (TGT-52659)
+* È stato risolto un problema di localizzazione nella traduzione in cinese semplificato di un messaggio di conferma. Nella versione precedente mancavano le virgolette intorno al nome della posizione e utilizzava un linguaggio informale, contrariamente a quanto previsto dalla guida di stile del cliente. La traduzione aggiornata ora utilizza la punteggiatura corretta e un tono formale. (TGT-52364)
 
 ## Deprecazione attivazione versione interfaccia utente di Target (23 maggio 2025) {#toggle}
 
