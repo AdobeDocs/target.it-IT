@@ -55,8 +55,8 @@ L&#39;interfaccia utente è stata progettata per garantire chiarezza ed efficien
 
 Oltre a questa guida, le seguenti guide [!DNL Adobe Target] sono inoltre disponibili:
 
-- [[!UICONTROL Adobe Target Developer Guide]](https://experienceleague.adobe.com/en/docs/target-dev/developer/overview){target=_blank}
-- [[!UICONTROL Adobe Target Tutorials]](https://experienceleague.adobe.com/en/docs/target-learn/tutorials/overview){target=_blank}
+- [[!UICONTROL Adobe Target Developer Guide]](https://experienceleague.adobe.com/it/docs/target-dev/developer/overview){target=_blank}
+- [[!UICONTROL Adobe Target Tutorials]](https://experienceleague.adobe.com/it/docs/target-learn/tutorials/overview){target=_blank}
 
 >[!ENDTABS]
 
