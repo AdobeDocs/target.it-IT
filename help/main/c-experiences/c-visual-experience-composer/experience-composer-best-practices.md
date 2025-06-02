@@ -4,10 +4,10 @@ description: Scopri le best practice per fare in modo che le tue esperienze funz
 title: Quali sono le [!UICONTROL Visual Experience Composer] best practice e limitazioni?
 feature: Visual Experience Composer (VEC)
 exl-id: cf51bfec-d7fa-4ec1-a5dc-35edefefd3e4
-source-git-commit: 0192f66413cc98e5e91168d0ee558f1eb66e67d8
+source-git-commit: 197aa3a0ab060481120abd0d12cdb7b581369929
 workflow-type: tm+mt
-source-wordcount: '2414'
-ht-degree: 85%
+source-wordcount: '2512'
+ht-degree: 81%
 
 ---
 
@@ -33,11 +33,11 @@ Per abilitare il Compositore esperienza avanzato a livello di attività durante 
 
 I problemi relativi al caricamento del Compositore esperienza visivo avanzato possono essere risolti inserendo nell&#39;elenco Consentiti i seguenti indirizzi IP. Si tratta degli indirizzi IP per il server Adobe utilizzato per il proxy del Compositore esperienza avanzato. Sono necessari solo per modificare le attività. I visitatori del tuo sito non hanno bisogno di inserire nell&#39;elenco Consentiti questi indirizzi IP.
 
-Stati Uniti: 52.55.99.45, 54.80.158.92, e 54.204.197.253
+Stati Uniti: 52.55.99.45, 54.80.158.92 e 54.204.197.253
 
-Europa, Medio Oriente e Africa (EMEA): 52.51.238.221, 52.210.199.44, e 54.72.56.50
+Europa, Medio Oriente e Africa (EMEA): 52.51.238.221, 52.210.199.44 e 54.72.56.50
 
-Asia-Pacifico (APAC): 52.193.67.35, 54.199.198.109, e 54.199.241.57
+Asia-Pacifico (APAC): 52.193.67.35, 54.199.198.109 e 54.199.241.57
 
 ### Utilizzare ID univoci per gli elementi di primo livello e per tutti gli altri elementi candidati ad attività di test o targeting.
 
@@ -225,6 +225,18 @@ La soluzione consiste nel comprimere la barra dell&#39;esperienza e della pagina
 
 Quando lavori con il Compositore esperienza visivo, tieni presente le seguenti limitazioni:
 
+### Gestione della compatibilità del Compositore esperienza visivo con le modifiche ai criteri di estensione di Chrome.
+
+A causa dei criteri aggiornati del manifesto [V3 in Google Chrome](https://developer.chrome.com/docs/extensions/develop/migrate/what-is-mv3){target=_blank}, le estensioni non possono più modificare il DOM originale prima che venga analizzato dal browser. Di conseguenza, alcuni script di sicurezza, come le implementazioni non compatibili con iframe, potrebbero bloccare il caricamento delle pagine nel Compositore esperienza visivo.
+
+Per garantire la compatibilità, questi script devono essere disabilitati in modo condizionale quando la pagina viene caricata nell&#39;iframe [!DNL Target]. Questo processo può essere eseguito senza problemi verificando la presenza dell&#39;oggetto `window.adobeVecExtension`, inserito da [!DNL Target] durante il caricamento del Compositore esperienza visivo.
+
+I seguenti snippet di codice sono esempi di codice non compatibile con iframe che possono impedire il caricamento della pagina web nel Compositore esperienza visivo:
+
+`window.top.location = window.self.location;`
+
+`top.location.href = self.location.href;`
+
 ### Non puoi spostare un elemento all’esterno di un contenitore seguito da una proprietà CSS.
 
 Un elemento non può essere spostato all&#39;esterno di un contenitore seguito da una proprietà CSS.
@@ -293,7 +305,7 @@ Lo script viene eseguito all&#39;interno dell&#39;ambito di target.js dopo il ca
 </script>
 ```
 
-### L’inserimento di un’immagine dalla libreria del contenuto (Scene7) e la modifica del HTML causano l’interruzione dell’URL dell’immagine.
+### L&#39;inserimento di un&#39;immagine dalla libreria Contenuto (Scene7) e la modifica del HTML causano l&#39;interruzione dell&#39;URL dell&#39;immagine.
 
 Aggiungi un elemento di ancoraggio all&#39;interno del tag div &#39;customHeaderMessage&#39; con un testo fittizio:
 
