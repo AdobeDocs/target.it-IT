@@ -4,7 +4,7 @@ description: Scopri le best practice per fare in modo che le tue esperienze funz
 title: Quali sono le [!UICONTROL Visual Experience Composer] best practice e limitazioni?
 feature: Visual Experience Composer (VEC)
 exl-id: cf51bfec-d7fa-4ec1-a5dc-35edefefd3e4
-source-git-commit: 197aa3a0ab060481120abd0d12cdb7b581369929
+source-git-commit: 7577a4da162c94b78cceb8618eefa95cde426081
 workflow-type: tm+mt
 source-wordcount: '2512'
 ht-degree: 81%
@@ -225,7 +225,7 @@ La soluzione consiste nel comprimere la barra dell&#39;esperienza e della pagina
 
 Quando lavori con il Compositore esperienza visivo, tieni presente le seguenti limitazioni:
 
-### Gestione della compatibilità del Compositore esperienza visivo con le modifiche ai criteri di estensione di Chrome.
+### Gestione della compatibilità del Compositore esperienza visivo con le modifiche ai criteri di estensione di Chrome. {#ext}
 
 A causa dei criteri aggiornati del manifesto [V3 in Google Chrome](https://developer.chrome.com/docs/extensions/develop/migrate/what-is-mv3){target=_blank}, le estensioni non possono più modificare il DOM originale prima che venga analizzato dal browser. Di conseguenza, alcuni script di sicurezza, come le implementazioni non compatibili con iframe, potrebbero bloccare il caricamento delle pagine nel Compositore esperienza visivo.
 
