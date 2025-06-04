@@ -4,10 +4,10 @@ description: Scopri le best practice per fare in modo che le tue esperienze funz
 title: Quali sono le [!UICONTROL Visual Experience Composer] best practice e limitazioni?
 feature: Visual Experience Composer (VEC)
 exl-id: cf51bfec-d7fa-4ec1-a5dc-35edefefd3e4
-source-git-commit: 7577a4da162c94b78cceb8618eefa95cde426081
+source-git-commit: d94dad7795ef024feb19234c2a20423b074ea768
 workflow-type: tm+mt
-source-wordcount: '2512'
-ht-degree: 81%
+source-wordcount: '2534'
+ht-degree: 80%
 
 ---
 
@@ -236,6 +236,14 @@ I seguenti snippet di codice sono esempi di codice non compatibile con iframe ch
 `window.top.location = window.self.location;`
 
 `top.location.href = self.location.href;`
+
+È possibile utilizzare un semplice controllo per verificare se una pagina Web è incorporata in [!DNL Target]. Un frammento di codice deve essere simile al seguente:
+
+```
+if(!window.adobeVecExtension) {
+    // additional security logic
+}
+```
 
 ### Non puoi spostare un elemento all’esterno di un contenitore seguito da una proprietà CSS.
 
