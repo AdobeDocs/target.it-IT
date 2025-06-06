@@ -4,10 +4,10 @@ description: Scopri come risolvere i problemi in [!UICONTROL Visual Experience C
 title: Come posso risolvere i problemi relativi a [!UICONTROL Visual Experience Composer]?
 feature: Visual Experience Composer (VEC)
 exl-id: ca251025-25e8-4e56-9b59-81310fc763c1
-source-git-commit: 7c0d0154b81fbd3f89a82b31cd18541a7f0ea1a7
+source-git-commit: ef5df0ae37ca1d07c0e51c06ed78739b2d2983fc
 workflow-type: tm+mt
-source-wordcount: '1010'
-ht-degree: 23%
+source-wordcount: '1009'
+ht-degree: 22%
 
 ---
 
@@ -17,14 +17,18 @@ In determinate condizioni si verificano a volte problemi di visualizzazione in [
 
 ## Quando apro il sito Web in [!UICONTROL Visual Experience Composer], le librerie [!DNL Target] non vengono caricate. (Solo Compositore esperienza visivo)  {#section_8A7D3F4AD2CC4C3B823EE9432B97E06F}
 
++++Dettagli
 [!DNL Target] aggiunge due parametri (`mboxEdit=1` e `mboxDisable=1`) mentre apre il sito Web in [!UICONTROL Visual Experience Composer].
 
 Se il sito Web (in particolare le app a pagina singola) taglia i parametri o li rimuove mentre ci si sposta da una pagina all&#39;altra (senza ricaricare la pagina), la funzionalità [!DNL Target] non funziona e le librerie [!DNL Target] non vengono caricate.
 
 Per evitare questo problema, assicurati di non tagliare o rimuovere questi due parametri.
 
++++
+
 ## La pagina non si apre nel Compositore esperienza avanzato, o si carica lentamente. Le attività o le esperienze si caricano lentamente nel Compositore esperienza visivo. (Solo Compositore esperienza visivo)  {#section_71E7601BE9894E3DA3A7FBBB72B6B0C1}
 
++++Dettagli
 Diversi problemi possono influire sulle prestazioni della pagina nei compositori esperienza [!UICONTROL Target]. Alcuni problemi comuni includono:
 
 * Sulla pagina non è oresente una mbox.
@@ -44,7 +48,6 @@ Se né [!UICONTROL Visual Experience Composer] né [!UICONTROL Enhanced Experien
 >[!NOTE]
 >
 >Oltre alle informazioni seguenti, è possibile utilizzare l&#39;estensione [[!DNL Adobe Target] [!UICONTROL Visual Editing Helper]](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) per [!DNL Google Chrome].
-
 
 >[!NOTE]
 >
@@ -105,8 +108,11 @@ Se né [!UICONTROL Visual Experience Composer] né [!UICONTROL Enhanced Experien
 
 Dopo aver configurato un&#39;estensione, aprire [!DNL Target]. Le pagine devono ora essere caricate in [!UICONTROL Visual Experience Composer], anche se [!UICONTROL Enhanced Experience Composer] è disabilitato.
 
++++
+
 ## La pagina non viene visualizzata nel Compositore esperienza visivo (solo Compositore esperienza visivo) {#does-not-load}
 
++++Dettagli
 * La compatibilità con Compositore esperienza visivo è garantita dalla versione più recente dell&#39;estensione: [[!DNL Adobe Experience Cloud] [!UICONTROL Visual Editing Helper extension]](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md).
 
   Per verificare se si sta utilizzando la versione più recente, passare a [!UICONTROL Extensions] > [!UICONTROL Manage Extensions] e fare clic su [!UICONTROL Details].
@@ -117,7 +123,7 @@ Dopo aver configurato un&#39;estensione, aprire [!DNL Target]. Le pagine devono 
 
   Verifica che non siano state aggiunte modifiche non valide alle intestazioni at.js configurate nella sezione [!UICONTROL Administration] > [!UICONTROL Implementation].
 
-* Assicurati che la pagina web non blocchi le richieste obbligatorie da caricare quando è incorporata all’interno di un iFrame. Ciò include l’utilizzo di direttive CSP precedenti ai fotogrammi o di codice JS personalizzato incorporato nel sito web del cliente, tag meta-HTML o intestazione x-frame-options.
+* Assicurati che la pagina web non blocchi le richieste obbligatorie da caricare quando è incorporata all’interno di un iFrame. Ciò include l’utilizzo di direttive CSP precedenti ai fotogrammi o di codice JS personalizzato incorporato nel sito web del cliente, tag meta HTML o intestazione x-frame-options.
 
 * Assicurati che il codice JavaScript della pagina web non interferisca con le librerie di authoring. Non utilizzare o includere file che utilizzano i seguenti nomi riservati:
 
@@ -137,14 +143,22 @@ Dopo aver configurato un&#39;estensione, aprire [!DNL Target]. Le pagine devono 
 * Hai immesso un URL non valido.
 * Se il sito web non viene caricato nel Compositore esperienza visivo o si comporta in modo imprevisto, è possibile che vengano accettati dei cookie sul sito web nel browser prima di tentare di caricare il sito web in [!DNL Target].
 
-## Il Compositore esperienza visivo sembra non funzionare quando uso la modalità Sfoglia. (Solo Compositore esperienza visivo)  {#section_FA2A18E8FD6A4274B2E395DBAA2FB407}
++++
 
-Quando si utilizza la modalità Sfoglia, se si accede a un URL in cui non sono implementate [!DNL Target] librerie ([at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/overview.html?lang=it){target=_blank} o [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=it){target=_blank}) o che contiene un&#39;intestazione frame-buster, il Compositore esperienza visivo risulta interrotto. A causa di problemi di sicurezza del browser, [!DNL Target] non può accedere correttamente all&#39;URL a cui sei passato oppure l&#39;URL del Compositore esperienza visivo non viene aggiornato in modo coerente se la pagina viene caricata.
+## Il Compositore esperienza visivo sembra non funzionare quando utilizzo la modalità [!UICONTROL Browse]. (Solo Compositore esperienza visivo)  {#section_FA2A18E8FD6A4274B2E395DBAA2FB407}
+
++++Dettagli
+Quando si utilizza la modalità [!UICONTROL Browse], se si accede a un URL in cui non sono implementate [!DNL Target] librerie ([at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/overview.html?lang=it){target=_blank} o [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=it){target=_blank}) o che contiene un&#39;intestazione frame-buster, il Compositore esperienza visivo risulta interrotto. A causa di problemi di sicurezza del browser, [!DNL Target] non può accedere correttamente all&#39;URL a cui sei passato oppure l&#39;URL del Compositore esperienza visivo non viene aggiornato in modo coerente se la pagina viene caricata.
 
 Questo problema si verifica perché VEC carica la pagina web in un `<iframe>`. I meccanismi di sicurezza correnti dei browser impediscono all&#39;interfaccia utente [!DNL Target] di accedere agli elementi del frame specificato a causa del criterio di origine uguale. I browser bloccano gli script che tentano di accedere a un frame con un&#39;origine diversa e che include informazioni quali `location.href`.
 
-È necessario utilizzare la nuova estensione [Helper per editing video](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) (consigliata) o la [vecchia estensione](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) per inserire la libreria [!DNL Target] nelle pagine per visualizzarle in modo ottimale.
+È necessario utilizzare la nuova estensione [Helper per editing video](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) per inserire la libreria [!DNL Target] nelle pagine per visualizzarle in modo ottimale.
+
++++
 
 ## Problemi causati da conflitti CSS in [!UICONTROL Visual Experience Composer]
 
++++Dettagli
 Verifica se sono presenti file CSS che potrebbero influire sulla visibilità durante il caricamento della pagina web nell’editor. Ad esempio, l&#39;utilizzo della proprietà `overflow: hidden` nel corpo della pagina potrebbe causare problemi di scorrimento o attivare eventi di clic che potrebbero interferire con il menu per la creazione.
+
++++

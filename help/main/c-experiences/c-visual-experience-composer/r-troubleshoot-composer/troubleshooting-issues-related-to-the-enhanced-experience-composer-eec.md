@@ -1,13 +1,13 @@
 ---
 keywords: Targeting;eec;compositore esperienza visiva;risoluzione dei problemi compositore esperienza avanzato;risoluzione dei problemi
-description: Scopri come risolvere i problemi che a volte si verificano nel Compositore esperienza avanzato di Adobe [!DNL Target] in determinate condizioni.
-title: Come posso risolvere i problemi relativi al Compositore esperienza avanzato?
+description: Scopri come risolvere i problemi che a volte si verificano nel  [!DNL Adobe Target] [!UICONTROL Enhanced Experience Composer] (EEC) in determinate condizioni.
+title: Come posso risolvere i problemi relativi a [!UICONTROL Enhanced Experience Composer]?
 feature: Visual Experience Composer (VEC)
 exl-id: 7dea7707-5d9f-49c4-9ccd-618eeb7b3568
-source-git-commit: 04f8e22361b1e961a88d3e9d28ccfd600fae0218
+source-git-commit: ef5df0ae37ca1d07c0e51c06ed78739b2d2983fc
 workflow-type: tm+mt
-source-wordcount: '443'
-ht-degree: 23%
+source-wordcount: '442'
+ht-degree: 19%
 
 ---
 
@@ -17,7 +17,9 @@ A volte si verificano problemi di visualizzazione in [!DNL Adobe Target] [!UICON
 
 ## Il Compositore esperienza avanzato non carica un URL di controllo qualità interno che non è accessibile su IP pubblico. {#section_D29E96911D5C401889B5EACE267F13CF}
 
-Questo problema può essere risolto inserendo nell&#39;elenco Consentiti seguenti indirizzi IP. Questi indirizzi IP sono per il server di Adobe utilizzato per il proxy EEC. Sono necessari solo per modificare le attività. I visitatori del tuo sito non hanno bisogno di inserire nell&#39;elenco Consentiti questi indirizzi IP.
+
++++Dettagli
+Questo problema può essere risolto inserendo nell&#39;elenco Consentiti i seguenti indirizzi IP di. Questi indirizzi IP sono per il server [!DNL Adobe] utilizzato per il proxy EEC. Questi indirizzi IP sono necessari solo per la modifica delle attività. I visitatori del tuo sito non hanno bisogno di inserire nell&#39;elenco Consentiti questi indirizzi IP.
 
 Inserire nell&#39;elenco Consentiti Chiedi al tuo team IT di i seguenti indirizzi IP:
 
@@ -135,13 +137,16 @@ Di seguito sono riportati possibili cause per questo messaggio di errore e soluz
 
   **Rimedio:** Inserire nell&#39;elenco Consentiti gli indirizzi IP elencati sopra.
 
-* **Problema:** gli indirizzi IP sono inseriti nell&#39;elenco Consentiti ma il sito Web non supporta la versione 1.2 di TLS. [!DNL Target] utilizza attualmente la configurazione predefinita di 1.2. Prima di [!DNL Target] 18.4.1 (25 aprile 2018), la configurazione predefinita supportava TLS 1.0. Per ulteriori informazioni, vedere [Modifiche alla crittografia di TLS](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html?lang=it){target=_blank}.
+* **Problema:** gli indirizzi IP sono inseriti nell&#39;elenco Consentiti ma il sito Web non supporta la versione 1.2 di TLS. [!DNL Target] utilizza attualmente la configurazione predefinita di 1.2. Prima di [!DNL Target] 18.4.1 (25 aprile 2018), la configurazione predefinita supportava TLS 1.0. Per ulteriori informazioni, vedere [Modifiche alla crittografia di TLS (Transport Layer Security)](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html){target=_blank}.
 
   **Soluzione:** Vedi la domanda seguente ([!UICONTROL Enhanced Visual Experience Composer] non verrà caricato su pagine protette del mio sito che utilizzano TLS 1.2).
 
++++
+
 ## Il Compositore esperienza avanzato non viene caricato su pagine protette del mio sito che utilizzano TLS 1.0. (Solo Compositore esperienza avanzato) {#section_C5B31E3D32A844F68E5A8153BD17551F}
 
-È possibile che venga visualizzato il messaggio di errore descritto in precedenza in &quot;Impossibile caricare [!UICONTROL Enhanced Visual Experience Composer] su pagine protette del sito&quot;. se gli indirizzi IP di cui sopra sono inseriti nell&#39;elenco Consentiti ma il tuo sito Web non supporta la versione 1.2 di TLS. [!DNL Target] utilizza attualmente la configurazione predefinita di 1.2. Prima di [!DNL Target] 18.4.1 (25 aprile 2018), la configurazione predefinita supportava TLS 1.0. Per ulteriori informazioni, vedere [Modifiche alla crittografia di TLS](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html?lang=it){target=_blank}.
++++Dettagli
+È possibile che venga visualizzato il messaggio di errore descritto in precedenza in &quot;Impossibile caricare [!UICONTROL Enhanced Visual Experience Composer] su pagine protette del sito&quot;. se gli indirizzi IP di cui sopra sono inseriti nell&#39;elenco Consentiti ma il tuo sito Web non supporta la versione 1.2 di TLS. [!DNL Target] utilizza attualmente la configurazione predefinita di 1.2. Prima di [!DNL Target] 18.4.1 (25 aprile 2018), la configurazione predefinita supportava TLS 1.0. Per ulteriori informazioni, vedere [Modifiche alla crittografia di TLS (Transport Layer Security)](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html){target=_blank}.
 
 Per controllare la versione TLS sul tuo sito web con Firefox (altri browser hanno passaggi simili):
 
@@ -158,8 +163,13 @@ Per controllare la versione TLS sul tuo sito web con Firefox (altri browser hann
 
    ![immagine firefox_more_info_3](assets/firefox_more_info_3.png)
 
-1. Se il sito Web visualizza TLS 1.0, vedere [Modifiche alla crittografia di TLS (Transport Layer Security)](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html?lang=it){target=_blank} per informazioni sui criteri di supporto per TLS di Target. Per risolvere la situazione (valido fino al 12 settembre 2018){target=_blank}, contatta l&#39;[Assistenza clienti](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) per la configurazione con la versione di TLS e il dominio.
+1. Se il sito Web visualizza TLS 1.0, vedere [Modifiche alla crittografia di TLS (Transport Layer Security)](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html){target=_blank} per informazioni sui criteri di supporto per TLS di Target. Per risolvere la situazione (valido fino al 12 settembre 2018){target=_blank}, contatta l&#39;[Assistenza clienti](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) per la configurazione con la versione di TLS e il dominio.
+
++++
 
 ## Ricevo errori di timeout o “accesso negato” durante il caricamento di siti con proxy abilitato. (Solo Compositore esperienza avanzato) {#section_60CBB9022DC449F593606C0E6252302D}
 
-Assicurati che nel tuo ambiente gli IP proxy non siano bloccati.
++++Dettagli
+Assicurati che gli IP proxy non siano bloccati nell’ambiente.
+
++++
