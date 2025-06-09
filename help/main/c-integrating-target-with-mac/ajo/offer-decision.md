@@ -19,7 +19,7 @@ Aggiungi le decisioni sulle offerte create in [!DNL Adobe Journey Optimizer] all
 
 Per ulteriori informazioni su [!DNL Adobe Journey Optimizer] e sulle decisioni sulle offerte, vedi i seguenti argomenti nella documentazione di *[!DNL Journey Optimizer]*:
 
-* [Introduzione a Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/get-started.html)
+* [Introduzione a Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/get-started.html?lang=it)
 
 * [Informazioni sulla gestione delle decisioni](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/get-started-decision/starting-offer-decisioning.html?lang=it)
 
@@ -72,7 +72,7 @@ In [!DNL Adobe Journey Optimizer], è possibile creare un&#39;offerta homepage h
 
 1. Nella barra **[!UICONTROL Add Offer Decision]** sul lato destro del Compositore esperienza visivo, seleziona la sandbox desiderata, quindi fai clic su Seleziona decisione offerta.posizionamento.
 
-   Una [sandbox](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/overview.html){target=_blank} in [!DNL Adobe Experience Platform] consente di suddividere l&#39;istanza in ambienti virtuali. Ad esempio, potresti avere un ambiente di produzione e un ambiente di staging. Un [posizionamento](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/create-components/creating-placements.html){target=_blank} in [!DNL Adobe Journey Optimizer] consente di garantire che il contenuto dell&#39;offerta corretta venga visualizzato nella posizione corretta.
+   Una [sandbox](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/overview.html?lang=it){target=_blank} in [!DNL Adobe Experience Platform] consente di suddividere l&#39;istanza in ambienti virtuali. Ad esempio, potresti avere un ambiente di produzione e un ambiente di staging. Un [posizionamento](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/create-components/creating-placements.html?lang=it){target=_blank} in [!DNL Adobe Journey Optimizer] consente di garantire che il contenuto dell&#39;offerta corretta venga visualizzato nella posizione corretta.
 
    ![Elenchi a discesa Sandbox e Posizionamenti nella finestra di dialogo Aggiungi decisione offerta](/help/main/c-integrating-target-with-mac/ajo/assets/sandbox-placement.png)
 
