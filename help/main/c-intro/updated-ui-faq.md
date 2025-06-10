@@ -5,21 +5,31 @@ title: Dove posso trovare le domande frequenti sull'interfaccia utente  [!DNL Ta
 feature: Overview
 hide: true
 hidefromtoc: true
-source-git-commit: 5f41bcebce4e103fada006f53cd3ccd297769d0d
+source-git-commit: b29614680b27c9c33f11eed85d8ab4feebc28b0d
 workflow-type: tm+mt
-source-wordcount: '770'
+source-wordcount: '901'
 ht-degree: 0%
 
 ---
 
-# Domande frequenti aggiornate sull’interfaccia utente di Target
+# Domande frequenti sull&#39;aggiornamento dell&#39;interfaccia utente [!DNL Target]
 
-Risposte alle domande comuni sulla versione aggiornata dell&#39;interfaccia utente di [!DNL Adobe Target], con suggerimenti utili e collegamenti per ulteriori informazioni.
+Novità del 2025, l&#39;interfaccia utente aggiornata di [!DNL Adobe Target] introduce un&#39;esperienza semplificata e intuitiva progettata per migliorare l&#39;usabilità e l&#39;efficienza in tutti i ruoli. Queste domande frequenti riguardano le domande comuni sulla nuova interfaccia utente [!DNL Target] e sul nuovo Compositore esperienza visivo [!UICONTROL Visual Experience Composer], incluse le modifiche alla navigazione, le posizioni delle funzionalità e la rimozione dell&#39;interruttore di versione temporaneo dell&#39;interfaccia utente. Che tu sia un addetto marketing, uno sviluppatore o un amministratore, queste domande frequenti consentono una transizione fluida e di sfruttare al massimo l’interfaccia utente aggiornata.
 
 ## Dove posso trovare ulteriori informazioni sull&#39;interfaccia utente aggiornata di [!DNL Target]?
 
 +++Dettagli
-{{updated-ui}}
+Le risorse seguenti forniscono informazioni per ulteriori informazioni sull&#39;interfaccia utente [!DNL Target] aggiornata:
+
+* [[!DNL Target Standard/Premium] 25.2.1 (17 febbraio 2025) - Note sulla versione](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-2): fornisce un riepilogo delle modifiche principali apportate all&#39;interfaccia utente in [!DNL Target] per [!UICONTROL Activities], [!UICONTROL Recommendations] e [!UICONTROL Visual Experience Composer] (Compositore esperienza visivo).
+
+* [[!DNL Target Standard/Premium] 25.1.1 (9 gennaio 2025) - Note sulla versione](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-1): fornisce un riepilogo delle modifiche principali apportate all&#39;interfaccia utente in [!DNL Target] per [!UICONTROL Offers Library].
+
+* [Comprendere l&#39;interfaccia utente [!DNL Target] UI](/help/main/c-intro/understand-the-target-ui.md): fornisce una breve panoramica per acquisire familiarità con [!DNL Target] e fornisce collegamenti per informazioni più approfondite e istruzioni dettagliate.
+
+* [[!UICONTROL Visual Experience Composer] modifiche](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md): la versione di [!DNL Adobe Target Standard/Premium] 25.2.1 (17 febbraio 2015) introduce una versione aggiornata di [!UICONTROL Visual Experience Composer] (VEC). Questo articolo spiega le differenze tra le versioni legacy e aggiornata del Compositore esperienza visivo.
+
+* [[!UICONTROL Visual Experience Composer] opzioni](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md): questo articolo illustra l&#39;interfaccia utente del Compositore esperienza visivo aggiornata e le relative opzioni.
 
 +++
 
@@ -50,7 +60,7 @@ L&#39;interruttore della versione dell&#39;interfaccia utente è una funzione te
 
 L’utilizzo dell’interruttore della versione dell’interfaccia utente presenta diverse limitazioni, tra cui la visibilità delle nuove attività, la modifica di quelle esistenti e la coerenza dei dettagli delle attività.
 
-Per ulteriori informazioni sul rollout e sulla rimozione dell&#39;interruttore della versione temporanea dell&#39;interfaccia utente, vedere [Disattivazione dell&#39;interruttore della versione dell&#39;interfaccia utente di Target (23 maggio 2025)](/help/main/r-release-notes/release-notes-for-previous-releases.md#toggle) in *Note sulla versione per le versioni precedenti*.
+Per ulteriori informazioni, consulta [La versione dell&#39;interfaccia utente di Target diventa obsoleta (23 maggio 2025)](/help/main/r-release-notes/release-notes-for-previous-releases.md#toggle) nelle *Note sulla versione per le versioni precedenti*.
 
 ++++
 
@@ -61,7 +71,7 @@ Per ulteriori informazioni sul rollout e sulla rimozione dell&#39;interruttore d
 
 L’utilizzo dell’interruttore della versione dell’interfaccia utente presenta diverse limitazioni, tra cui la visibilità delle nuove attività, la modifica di quelle esistenti e la coerenza dei dettagli delle attività.
 
-Per ulteriori informazioni sul rollout e sulla rimozione dell&#39;interruttore della versione temporanea dell&#39;interfaccia utente, vedere [Disattivazione dell&#39;interruttore della versione dell&#39;interfaccia utente di Target (23 maggio 2025)](/help/main/r-release-notes/release-notes-for-previous-releases.md#toggle) in *Note sulla versione per le versioni precedenti*.
+Per ulteriori informazioni, consulta [La versione dell&#39;interfaccia utente di Target diventa obsoleta (23 maggio 2025)](/help/main/r-release-notes/release-notes-for-previous-releases.md#toggle) nelle *Note sulla versione per le versioni precedenti*.
 
 +++
 
