@@ -5,9 +5,9 @@ title: Dove posso trovare le domande frequenti sull'interfaccia utente  [!DNL Ta
 feature: Overview
 hide: true
 hidefromtoc: true
-source-git-commit: bd39f65366e131fe92061430fd11a47d471851d8
+source-git-commit: 83a649b01adfe503af2bf38c0b47844ee00ecb37
 workflow-type: tm+mt
-source-wordcount: '1012'
+source-wordcount: '989'
 ht-degree: 0%
 
 ---
@@ -117,13 +117,6 @@ Per ulteriori informazioni sugli indirizzi IP che è possibile inserire nell&#39
 
 * **Compositore esperienza avanzato**: vedere [Il Compositore esperienza avanzato non carica un URL di controllo qualità interno che non è accessibile sull&#39;IP pubblico](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md#section_D29E96911D5C401889B5EACE267F13CF) in *Risoluzione dei problemi relativi al Compositore esperienza avanzato*
 * **[!UICONTROL Recommendations]**: vedere [Indirizzi IP utilizzati dai server di elaborazione dei feed Recommendations](/help/main/c-recommendations/c-recommendations-faq/ip-addresses-marketing-cloud.md).
-
-+++
-
-## Si sono verificati problemi con [!UICONTROL Browse] che non funzionava o che ci hanno consentito di sfogliare. [!DNL Adobe] ha osservato un comportamento simile con altri clienti?
-
-+++Dettagli
-Muti, serve aiuto.
 
 +++
 
