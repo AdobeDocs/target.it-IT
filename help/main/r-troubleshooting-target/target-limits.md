@@ -5,16 +5,16 @@ title: Quali sono i vari caratteri, dimensioni e altri limiti in  [!DNL Adobe Ta
 feature: Troubleshooting
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
-source-git-commit: cc7d3b4752c6dba50a8643bfbc475045221d9ca8
+source-git-commit: 09874362863144992c69d4b79a935c9d9a769dc1
 workflow-type: tm+mt
-source-wordcount: '1704'
-ht-degree: 76%
+source-wordcount: '1734'
+ht-degree: 74%
 
 ---
 
 # Limiti
 
-Limiti dei caratteri e altri limiti (dimensioni dell’offerta, pubblico, profili, valori, parametri, ecc.) che influenzano le attività e altri elementi in [!DNL Adobe Target].
+Limiti dei caratteri e altri limiti (dimensioni dell&#39;offerta, pubblico, profili, valori, parametri, ecc.) che influiscono sulle attività e su altri elementi in [!DNL Adobe Target].
 
 >[!NOTE]
 >
@@ -205,7 +205,7 @@ Limiti dei caratteri e altri limiti (dimensioni dell’offerta, pubblico, profil
 
   Se utilizzi l’API di distribuzione in batch, il limite è 50 mbox per richiesta batch.
 
-  Se utilizzi l’API di distribuzione in batch nell’SDK dei Mobile Services, il limite di 50 parametri mbox, 50 parametri del profilo e 50 per altri tipi di parametri sono limitazioni dell’API stessa. Non è possibile inviare una richiesta contenente numeri superiori a questi utilizzando l&#39;API di distribuzione in batch. Se una richiesta supera tali limiti, l’API restituisce il seguente messaggio di errore:
+  Se utilizzi l’API di distribuzione in batch nel SDK di Mobile Services, il limite di 50 parametri mbox, 50 parametri del profilo e 50 per altri tipi di parametri sono limitazioni dell’API stessa. Non è possibile inviare una richiesta contenente numeri superiori a questi utilizzando l&#39;API di distribuzione in batch. Se una richiesta supera tali limiti, l’API restituisce il seguente messaggio di errore:
 
   “Il numero di mboxParameters non può essere superiore a 50”.
 
@@ -294,6 +294,10 @@ I seguenti limiti di dimensione si applicano alle offerte:
 ## Tipi di pubblico/Segmenti di reporting
 
 * **Limite**: 50 tipi di pubblico/segmenti di reporting per attività.
+
+## sessionID
+
+L’ID sessione può essere una stringa stampabile qualsiasi, ad eccezione di uno spazio, un punto interrogativo ( ? ), parentesi graffe ( { } ) o una barra ( / ). La lunghezza deve essere compresa tra 1 e 128 caratteri.
 
 ## Casella di immissione profilo di script nell’interfaccia utente di [!DNL Target]
 
