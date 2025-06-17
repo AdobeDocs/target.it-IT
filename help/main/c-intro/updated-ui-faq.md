@@ -3,9 +3,9 @@ keywords: interfaccia utente di target;interfaccia utente;domande frequenti;faq
 description: Domande e risposte sull'interfaccia utente  [!DNL Target] aggiornata.
 title: Dove posso trovare le domande frequenti sull'interfaccia utente  [!DNL Target]  aggiornata?
 feature: Overview
-source-git-commit: 3dab3c070eecb415136d880ab1a4326dfe8856d8
+source-git-commit: d87f1fbe78512363d4fe30935cbb4f2556b4a06b
 workflow-type: tm+mt
-source-wordcount: '989'
+source-wordcount: '1031'
 ht-degree: 0%
 
 ---
@@ -13,6 +13,13 @@ ht-degree: 0%
 # Domande frequenti sull&#39;aggiornamento dell&#39;interfaccia utente [!DNL Target]
 
 Novità del 2025, l&#39;interfaccia utente aggiornata di [!DNL Adobe Target] introduce un&#39;esperienza semplificata e intuitiva progettata per migliorare l&#39;usabilità e l&#39;efficienza in tutti i ruoli. Queste domande frequenti riguardano le domande comuni sulla nuova interfaccia utente [!DNL Target] e sul nuovo Compositore esperienza visivo [!UICONTROL Visual Experience Composer], incluse le modifiche alla navigazione, le posizioni delle funzionalità e la rimozione dell&#39;interruttore di versione temporaneo dell&#39;interfaccia utente. Che tu sia un addetto marketing, uno sviluppatore o un amministratore, queste domande frequenti consentono una transizione fluida e di sfruttare al massimo l’interfaccia utente aggiornata.
+
+## È stata aggiornata la timeline per rendere obsoleta l’opzione di attivazione/disattivazione della versione dell’interfaccia utente di Target.
+
++++Dettagli
+Sì. Puoi trovare la nuova timeline e le informazioni importanti in [Aggiornato: [!DNL Target] Versione interfaccia utente/Disattivazione (17 giugno 2025)](/help/main/r-release-notes/release-notes.md#revised).
+
++++
 
 ## Dove posso trovare ulteriori informazioni sull&#39;interfaccia utente aggiornata di [!DNL Target]?
 
@@ -60,8 +67,7 @@ L’utilizzo dell’interruttore della versione dell’interfaccia utente presen
 
 >[!NOTE]
 >
->I clienti con casi speciali che devono mantenere l’interruttore dopo il 22 giugno possono contattare l’Assistenza clienti di Adobe.
-
+>I clienti con casi speciali che devono mantenere l’interruttore dopo il 22 giugno possono contattare l’Assistenza clienti di Adobe. Per ulteriori informazioni, vedere [Aggiornato: [!DNL Target] Disattivazione/disattivazione della versione interfaccia utente (17 giugno 2025)](/help/main/r-release-notes/release-notes.md#revised).
 
 Per ulteriori informazioni, consulta [La versione dell&#39;interfaccia utente di Target diventa obsoleta (23 maggio 2025)](/help/main/r-release-notes/release-notes-for-previous-releases.md#toggle) nelle *Note sulla versione per le versioni precedenti*.
 
