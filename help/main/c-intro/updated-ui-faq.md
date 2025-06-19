@@ -3,7 +3,8 @@ keywords: interfaccia utente di target;interfaccia utente;domande frequenti;faq
 description: Domande e risposte sull'interfaccia utente  [!DNL Target] aggiornata.
 title: Dove posso trovare le domande frequenti sull'interfaccia utente  [!DNL Target]  aggiornata?
 feature: Overview
-source-git-commit: d87f1fbe78512363d4fe30935cbb4f2556b4a06b
+exl-id: 75db4791-ca51-472d-99dd-583f7a74b222
+source-git-commit: 05a4358e0115d7bfd13ec715a0e7eb96f1f2265b
 workflow-type: tm+mt
 source-wordcount: '1031'
 ht-degree: 0%
@@ -14,7 +15,7 @@ ht-degree: 0%
 
 Novità del 2025, l&#39;interfaccia utente aggiornata di [!DNL Adobe Target] introduce un&#39;esperienza semplificata e intuitiva progettata per migliorare l&#39;usabilità e l&#39;efficienza in tutti i ruoli. Queste domande frequenti riguardano le domande comuni sulla nuova interfaccia utente [!DNL Target] e sul nuovo Compositore esperienza visivo [!UICONTROL Visual Experience Composer], incluse le modifiche alla navigazione, le posizioni delle funzionalità e la rimozione dell&#39;interruttore di versione temporaneo dell&#39;interfaccia utente. Che tu sia un addetto marketing, uno sviluppatore o un amministratore, queste domande frequenti consentono una transizione fluida e di sfruttare al massimo l’interfaccia utente aggiornata.
 
-## È stata aggiornata la timeline per rendere obsoleta l’opzione di attivazione/disattivazione della versione dell’interfaccia utente di Target.
+## È stata aggiornata la timeline per rendere obsolete le opzioni di attivazione/disattivazione della versione dell’interfaccia utente di Target?
 
 +++Dettagli
 Sì. Puoi trovare la nuova timeline e le informazioni importanti in [Aggiornato: [!DNL Target] Versione interfaccia utente/Disattivazione (17 giugno 2025)](/help/main/r-release-notes/release-notes.md#revised).
@@ -145,7 +146,3 @@ L&#39;integrazione di [!DNL Adobe Analytics] (AA) o [!DNL Customer Journey Analy
 * Convalidare le impostazioni di raccolta dati e attribuzione
 
 +++
-
-
-
-
