@@ -6,9 +6,9 @@ short-description: Scopri le nuove funzioni, i miglioramenti e le correzioni inc
 title: Cosa è incluso nella versione corrente?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 3795350d8466a99c129e7f134533c88c3375b3e3
+source-git-commit: c380a07cb46241e428ad4946643eb2c011638c24
 workflow-type: tm+mt
-source-wordcount: '2330'
+source-wordcount: '2311'
 ht-degree: 17%
 
 ---
@@ -23,7 +23,6 @@ I codici dei problemi tra parentesi sono per uso interno di [!DNL Adobe].
 
 Questa versione include le correzioni e gli aggiornamenti seguenti:
 
-* Opzione [!UICONTROL Rearrange] aggiunta all&#39;interfaccia utente [!UICONTROL Visual Experience Composer] (VEC) aggiornata per allinearla alle funzionalità disponibili nel Compositore esperienza visivo legacy. (TGT-46957)
 * È stato risolto un problema a causa del quale la copia di un’attività da un’area di lavoro a un’altra causava errori quali &quot;non deve essere null&quot; o &quot;Si è verificato un errore&quot;. (TGT-52474)
 * È stato risolto un problema che impediva la generazione di rapporti [!UICONTROL Automated Segments] e [!UICONTROL Important Attributes] per alcune attività. (TGT-52904)
 * È stato risolto un problema nel Compositore esperienza visivo aggiornato a causa del quale la gestione del contenuto predefinito nelle attività di [!UICONTROL Automated Personalization] (AP) non corrispondeva all&#39;interfaccia utente legacy. Il sistema ora aggiunge automaticamente un `optionGroup` predefinito denominato &quot;Contenuto predefinito&quot; con `optionGroupLocalId = 0` quando nessun gruppo viene aggiunto in modo esplicito. Questo gruppo include l&#39;opzione predefinita, ad esempio `optionLocalId: 0`. Se il contenuto predefinito viene rimosso, viene rimosso anche il gruppo di opzioni corrispondente. (TGT-52651)
