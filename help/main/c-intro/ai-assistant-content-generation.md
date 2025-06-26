@@ -1,22 +1,22 @@
 ---
 keywords: assistente ai;assistente intelligenza artificiale;generazione contenuti;acceleratore contenuti;generazione contenuti;generare contenuti
-description: Scopri come generare contenuti con  [!DNL AI Assistant].
-title: Come si utilizza  [!DNL AI Assistant] in [!DNL Target] per generare il contenuto?
+description: Scopri come generare contenuti coinvolgenti con  [!DNL AI Assistant].
+title: Come si utilizza  [!DNL AI Assistant] in [!DNL Target] per generare contenuti coinvolgenti?
 feature: Overview
 badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=it#beta newtab=true" tooltip="Cosa sono le funzioni beta in [!DNL Adobe Target]."
 hide: true
 hidefromtoc: true
 exl-id: eb6f07d8-729e-4f94-ae7a-a054bf54b030
-source-git-commit: 5ad564e43cd6f66e7f31072348f17e52013ed759
+source-git-commit: 37f599913a2b80b4ece1bf69ba3b21f54f44d18a
 workflow-type: tm+mt
-source-wordcount: '750'
+source-wordcount: '762'
 ht-degree: 1%
 
 ---
 
 # Usa [!DNL AI Assistant] in [!DNL Adobe Target] per la generazione di contenuti
 
-Utilizza [!DNL AI Assistant] in [!DNL Adobe Target] per migliorare l&#39;efficacia delle tue attività personalizzando frammenti di testo e scegliendo immagini utilizzando l&#39;intelligenza artificiale (AI) che parlano direttamente al tuo pubblico, aumentando il coinvolgimento e l&#39;interazione.
+Utilizza [!DNL AI Assistant] in [!DNL Adobe Target] per migliorare l&#39;efficacia delle tue attività personalizzando frammenti di testo da utilizzare nelle esperienze utilizzando l&#39;intelligenza artificiale (AI) che parlano direttamente al tuo pubblico, aumentando il coinvolgimento, l&#39;interazione e la conversione.
 
 Utilizza la potenza di [!DNL AI Assistant] in [!DNL Adobe Target] per migliorare il contenuto dell&#39;attività, grazie all&#39;intelligenza artificiale generativa.
 
@@ -29,7 +29,7 @@ Utilizza la potenza di [!DNL AI Assistant] in [!DNL Adobe Target] per migliorare
 
 ## Genera testo
 
-Per generare il testo utilizzando [!DNL AI Assistant]:
+Per generare testo coinvolgente utilizzando [!DNL AI Assistant]:
 
 1. Da [[!DNL Target] [!UICONTROL Visual Experience Composer]](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md) (VEC), fai clic sull&#39;icona **[!UICONTROL Show Content Assistant]** ( ![Mostra icona Assistente contenuto](/help/main/assets/icons/MagicWand.svg) ) nella barra a destra dell&#39;interfaccia utente del Compositore esperienza visivo.
 
@@ -52,8 +52,13 @@ Per generare il testo utilizzando [!DNL AI Assistant]:
 1. Fare clic sull&#39;icona **[!UICONTROL Text Settings]** per specificare il tono e la strategia di comunicazione del testo.
 
    * **Strategia di comunicazione**: scegli lo stile di comunicazione più adatto al testo generato.
+
+     Le opzioni disponibili sono: [!UICONTROL None], [!UICONTROL Urgent], [!UICONTROL FOMO] (paura di perdere spazio), [!UICONTROL Social Proof], [!UICONTROL Scarcity], [!UICONTROL Incentive], [!UICONTROL Exclusivity], [!UICONTROL Gameification], [!UICONTROL Informative] e [!UICONTROL Education & Insights].
+
    * **Lingue**: scegliere la lingua desiderata per il testo. [!DNL AI Assistant] è attualmente disponibile solo in inglese.
    * **Tono**: il tono del testo dovrebbe risuonare con il pubblico. Sia che si desideri utilizzare un suono informativo, emozionante, giocoso o persuasivo, [!DNL AI Assistant] può adattare il messaggio di conseguenza.
+
+     Le opzioni disponibili sono: [!UICONTROL None], [!UICONTROL Professional], [!UICONTROL Empathetic], [!UICONTROL Humorous], [!UICONTROL Exciting], [!UICONTROL Inspirational], [!UICONTROL Persuasive], [!UICONTROL Friendly], [!UICONTROL Formal], [!UICONTROL Apologetic], [!UICONTROL Assertive],[!UICONTROL  Story Telling] e [!UICONTROL Conversational].
 
 1. Utilizzare il dispositivo di scorrimento per scegliere la lunghezza del testo (da [!UICONTROL Shorter Text] a [!UICONTROL Larger Text]).
 
@@ -67,9 +72,9 @@ Per generare il testo utilizzando [!DNL AI Assistant]:
 
    ![Assistente IA con testo generato](/help/main/c-intro/assets/ai-text-done.png)
 
-1. (Condizionale) Fare clic sull&#39;icona Annulla ( ![icona Annulla](/help/main/assets/icons/Undo.svg) ) per annullare le modifiche.
+1. (Condizionale) Fai clic sull&#39;icona [!UICONTROL Undo] ( ![Icona Annulla](/help/main/assets/icons/Undo.svg) ) per annullare le modifiche.
 
-1. (Facoltativo) Fornisci un feedback all’Assistente AI.
+1. (Facoltativo) Fornire un feedback a [!DNL AI Assistant].
 
    * Fai clic sull&#39;icona Miniature in alto ( ![Miniature in alto](/help/main/assets/icons/ThumbUp.svg) ) per comunicare a [!DNL AI Assistant] che la variante ti piace.
    * Fai clic sull&#39;icona Miniature giù ( ![Icona Miniature giù](/help/main/assets/icons/ThumbDown.svg) ) per comunicare a [!DNL AI Assistant] che la variante non ti piace.
@@ -92,4 +97,4 @@ Il prompt e le varianti seguenti mostrano la potenza di [!DNL AI Assistant].
 
 ### Creare contenuti utilizzando l’Assistente AI per la generazione di contenuti
 
->[!VIDEO](https://video.tv.adobe.com/v/3434643/?learn=on&captions=ita">https://video.tv.adobe.com/v/3434643/?learn=on&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/3434635/?learn=on">https://video.tv.adobe.com/v/3434635/?learn=on)
