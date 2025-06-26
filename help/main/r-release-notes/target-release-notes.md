@@ -4,10 +4,10 @@ description: Scopri le nuove funzioni, i miglioramenti e le correzioni, compresi
 title: Quali nuove funzioni e miglioramenti saranno inclusi nella prossima versione [!DNL Target] ?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: c882a5eb6530f3b3fe44484ee580beadeddaae23
+source-git-commit: 926a045e5bcebc8d094ea41a6c1b7c59568a35ab
 workflow-type: tm+mt
-source-wordcount: '512'
-ht-degree: 29%
+source-wordcount: '558'
+ht-degree: 27%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 29%
 
 Questo articolo contiene informazioni prerelease per le prossime versioni di [!DNL Adobe Target], incluse SDK, API e librerie JavaScript.
 
-**Ultimo aggiornamento: 25 giugno 2025**
+**Ultimo aggiornamento: 26 giugno 2025**
 
 >[!NOTE]
 >
@@ -32,9 +32,11 @@ Questa versione include le correzioni e gli aggiornamenti seguenti:
 * Opzione [!UICONTROL Rearrange] aggiunta all&#39;interfaccia utente [!UICONTROL Visual Experience Composer] (VEC) aggiornata per allinearla alle funzionalità disponibili nel Compositore esperienza visivo legacy. (TGT-46957 e TGT-52876)
 * È stato risolto un problema che impediva il mantenimento delle modifiche apportate alle esperienze di varianti (ad esempio, Esperienza B) in un&#39;attività [!UICONTROL A/B Test]. Dopo il passaggio da un’esperienza all’altra, le modifiche apportate alla variante scompaiono. Questo problema non ha influito sull’esperienza di controllo. (TGT-52664)
 * È stato risolto un problema che impediva ad alcuni clienti di creare o salvare attività, mentre altri potevano eseguire le stesse azioni senza alcun problema. Il problema era incoerente tra gli account.(TGT-52842)
+* È stato risolto un problema che impediva agli utenti del Compositore esperienza visivo aggiornato di spostare le modifiche a [!UICONTROL Page Load event], una funzionalità già presente nell&#39;interfaccia utente legacy. (TGT-52617)
+* È stato risolto un problema che impediva la corretta visualizzazione di alcune modifiche dell’attività nel Compositore esperienza visivo aggiornato. (TGT-52818)
 * È stata corretta un&#39;eccezione Null Pointer che si verificava durante il recupero dei dati di reporting per le attività di [!UICONTROL Automated Personalization] (AP). (TGT-52362)
 * È stato risolto un problema che impediva la visualizzazione dei dettagli a livello di offerta nel file .CSV per le attività [!UICONTROL Automated Personalization] (AP). (TGT-52675)
-* Quando si applicano modifiche nel Compositore esperienza visivo aggiornato, le modifiche inizialmente vengono visualizzate correttamente, incluso il [!UICONTROL Experience Fragment] previsto. Tuttavia, quando si passa da un’esperienza all’altra o si apportano ulteriori modifiche, alcune modifiche non vengono applicate a causa di problemi del selettore. (TGT-52679)
+* È stato risolto un problema che si verificava durante l’applicazione di modifiche nel Compositore esperienza visivo aggiornato, a causa del quale le modifiche inizialmente venivano visualizzate correttamente, incluso il [!UICONTROL Experience Fragment] previsto. Tuttavia, quando si passa da un’esperienza all’altra o si apportano ulteriori modifiche, alcune modifiche non vengono applicate a causa di problemi del selettore. (TGT-52679)
 * È stato risolto un problema a causa del quale, quando veniva creata una nuova attività clonandone una esistente, i collegamenti di controllo qualità nell’attività clonata mantenevano erroneamente gli URL della pagina dall’attività originale. (TGT-52775)
 * È stato risolto un problema che impediva involontariamente a [!UICONTROL On-device Decisioning] di essere disponibile nel Compositore esperienza visivo aggiornato. (TGT-52371)
 * È stato risolto un problema che impediva la modifica di un&#39;attività di prodotto [!DNL Recommendations]. Quando si tenta di accedere al Compositore esperienza visivo tramite l’interfaccia utente di Target, nella pagina [!UICONTROL Overview] viene visualizzato un errore che impedisce eventuali modifiche. (TGT-52823)
