@@ -7,18 +7,16 @@ badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.c
 hide: true
 hidefromtoc: true
 exl-id: eb6f07d8-729e-4f94-ae7a-a054bf54b030
-source-git-commit: 37f599913a2b80b4ece1bf69ba3b21f54f44d18a
+source-git-commit: a2441f9bb2ffed981e1541c58a16f11f4f3a3f90
 workflow-type: tm+mt
-source-wordcount: '762'
+source-wordcount: '740'
 ht-degree: 1%
 
 ---
 
 # Usa [!DNL AI Assistant] in [!DNL Adobe Target] per la generazione di contenuti
 
-Utilizza [!DNL AI Assistant] in [!DNL Adobe Target] per migliorare l&#39;efficacia delle tue attività personalizzando frammenti di testo da utilizzare nelle esperienze utilizzando l&#39;intelligenza artificiale (AI) che parlano direttamente al tuo pubblico, aumentando il coinvolgimento, l&#39;interazione e la conversione.
-
-Utilizza la potenza di [!DNL AI Assistant] in [!DNL Adobe Target] per migliorare il contenuto dell&#39;attività, grazie all&#39;intelligenza artificiale generativa.
+Aumento del coinvolgimento e delle conversioni in [!DNL Adobe Target] con [!DNL AI Assistant]. Sfrutta l’intelligenza artificiale generativa per creare testo personalizzato e di forte impatto che rispecchi il tuo pubblico e aumenti i contenuti dell’attività.
 
 ## Prerequisiti
 
@@ -55,10 +53,13 @@ Per generare testo coinvolgente utilizzando [!DNL AI Assistant]:
 
      Le opzioni disponibili sono: [!UICONTROL None], [!UICONTROL Urgent], [!UICONTROL FOMO] (paura di perdere spazio), [!UICONTROL Social Proof], [!UICONTROL Scarcity], [!UICONTROL Incentive], [!UICONTROL Exclusivity], [!UICONTROL Gameification], [!UICONTROL Informative] e [!UICONTROL Education & Insights].
 
-   * **Lingue**: scegliere la lingua desiderata per il testo. [!DNL AI Assistant] è attualmente disponibile solo in inglese.
+   * **Lingue**: scegliere la lingua desiderata per il testo.
+
+     [!DNL AI Assistant] è attualmente disponibile solo in inglese.
+
    * **Tono**: il tono del testo dovrebbe risuonare con il pubblico. Sia che si desideri utilizzare un suono informativo, emozionante, giocoso o persuasivo, [!DNL AI Assistant] può adattare il messaggio di conseguenza.
 
-     Le opzioni disponibili sono: [!UICONTROL None], [!UICONTROL Professional], [!UICONTROL Empathetic], [!UICONTROL Humorous], [!UICONTROL Exciting], [!UICONTROL Inspirational], [!UICONTROL Persuasive], [!UICONTROL Friendly], [!UICONTROL Formal], [!UICONTROL Apologetic], [!UICONTROL Assertive],[!UICONTROL &#x200B; Story Telling] e [!UICONTROL Conversational].
+     Le opzioni disponibili sono: [!UICONTROL None], [!UICONTROL Professional], [!UICONTROL Empathetic], [!UICONTROL Humorous], [!UICONTROL Exciting], [!UICONTROL Inspirational], [!UICONTROL Persuasive], [!UICONTROL Friendly], [!UICONTROL Formal], [!UICONTROL Apologetic], [!UICONTROL Assertive], [!UICONTROL  Story Telling] e [!UICONTROL Conversational].
 
 1. Utilizzare il dispositivo di scorrimento per scegliere la lunghezza del testo (da [!UICONTROL Shorter Text] a [!UICONTROL Larger Text]).
 
@@ -97,4 +98,4 @@ Il prompt e le varianti seguenti mostrano la potenza di [!DNL AI Assistant].
 
 ### Creare contenuti utilizzando l’Assistente AI per la generazione di contenuti
 
->[!VIDEO](https://video.tv.adobe.com/v/3434643/?learn=on&captions=ita">https://video.tv.adobe.com/v/3434643/?learn=on&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/3434635/?learn=on">https://video.tv.adobe.com/v/3434635/?learn=on)
