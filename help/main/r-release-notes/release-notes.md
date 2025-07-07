@@ -6,18 +6,72 @@ short-description: Scopri le nuove funzioni, i miglioramenti e le correzioni inc
 title: Cosa è incluso nella versione corrente?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: f8e91caa133a1addc12ab1834d7e178df7e7a3ce
+source-git-commit: 1163fb68b36b2dbdaa18bdb78f634cc475702fc2
 workflow-type: tm+mt
-source-wordcount: '2725'
-ht-degree: 14%
+source-wordcount: '3112'
+ht-degree: 12%
 
 ---
 
 # Note sulla versione (corrente) di [!DNL Target]
 
-Esplora le funzioni, i miglioramenti e le correzioni più recenti in [!DNL Adobe Target]. Queste note sulla versione descrivono anche gli aggiornamenti alle API [!DNL Target], agli SDK, a A[!DNL dobe Experience Platform Web SDK], at.js e ad altri componenti della piattaforma, se applicabili.
+Esplora le funzioni, i miglioramenti e le correzioni più recenti in [!DNL Adobe Target]. Queste note sulla versione descrivono anche gli aggiornamenti alle API [!DNL Target], agli SDK, a [!DNL Adobe Experience Platform Web SDK], at.js e ad altri componenti della piattaforma, se applicabili.
 
 I codici dei problemi tra parentesi sono per uso interno di [!DNL Adobe].
+
+## Aggiornamenti importanti e sensibili al tempo che è necessario conoscere {#time-sensitive}
+
+Per aggiornamenti sensibili al tempo relativi a [!DNL Adobe Target] e alla tua implementazione, [!DNL Adobe]fornisce note dettagliate sulla versione e documentazione tramite [!UICONTROL Experience League]. Di seguito sono riportati alcuni punti salienti relativi alla tua implementazione:
+
+### La versione dell&#39;interfaccia utente [!DNL Target] è deprecata
+
++++Vedi i dettagli
+Il team [!DNL Target] offre una funzionalità temporanea che consente di passare dall&#39;interfaccia utente [!DNL Target] aggiornata alla versione precedente utilizzando un pulsante di attivazione/disattivazione. Questa opzione è disponibile solo durante la fase finale del rollout dell’interfaccia utente.
+
+![Attivazione/disattivazione versione interfaccia utente di Target](/help/main/r-release-notes/assets/toggle.png)
+
+Una volta completato il rollout, l’interruttore viene rimosso e tutti gli utenti passano definitivamente all’interfaccia utente aggiornata. [!DNL Adobe] consiglia di pianificare in anticipo, in quanto questa funzione verrà gradualmente eliminata a breve.
+
+#### Timeline obsoleto
+
+A causa dei problemi recenti identificati, principalmente correlati a complesse personalizzazioni dei clienti, il team [!DNL Target] ha regolato la timeline di obsolescenza:
+
+* **17 giugno 2025**: tutte le organizzazioni IMS sono state abilitate per l&#39;interfaccia utente [!DNL Target] aggiornata, per utenti specifici o a livello di organizzazione, per iniziare a testare la nuova esperienza.
+
+* **30 giugno 2025**: l&#39;esperienza [aggiornata [!DNL Target] interfaccia utente](/help/main/c-intro/understand-the-target-ui.md) è diventata predefinita per tutte le organizzazioni IMS che hanno attivato l&#39;interruttore della versione dell&#39;interfaccia utente.
+
+   * Per impostazione predefinita, i clienti che attualmente vedono l’interfaccia utente legacy visualizzano ora l’interfaccia utente aggiornata al momento dell’accesso.
+   * L’interruttore della versione dell’interfaccia utente rimane disponibile fino alla fine di luglio e consente agli utenti di tornare indietro se necessario.
+
+  >[!IMPORTANT]
+  >
+  > [!DNL Adobe] consiglia vivamente di utilizzare l&#39;interfaccia utente [!DNL Target] aggiornata. Torna all&#39;interfaccia utente legacy solo se si verifica un problema di blocco, a causa di [limitazioni del comportamento di attivazione/disattivazione](#limitations).
+
+* **dal 15 luglio al 30 luglio 2025**: l&#39;attivazione/disattivazione della versione dell&#39;interfaccia utente verrà disabilitata in modo permanente in più fasi. Le organizzazioni IMS interessate non sono più in grado di ripristinare l’interfaccia utente legacy.
+
+   * Le eccezioni vengono esaminate caso per caso.
+   * I ritardi nell’attivazione/disattivazione dell’impostazione obsoleta vengono concessi solo brevemente (alcuni giorni), mentre i problemi di blocco vengono risolti.
+
+Contatta l&#39;[Assistenza clienti Adobe](/help/main/cmp-resources-and-contact-information.md#/help/main/cmp-resources-and-contact-information.md) per qualsiasi problema o se prevedi problemi durante questa transizione.
+
+#### Limitazioni del comportamento di attivazione/disattivazione dell’interfaccia utente {#limitations}
+
+Le informazioni seguenti descrivono i limiti di cui tenere conto quando si sceglie di utilizzare l’interruttore di versione:
+
+* **Visibilità delle nuove attività**: le attività create nell&#39;interfaccia utente aggiornata non saranno visibili se si torna all&#39;interfaccia precedente.
+* **Modifica di attività esistenti**: le modifiche apportate alle attività esistenti (originariamente create nell&#39;interfaccia utente legacy) durante l&#39;utilizzo dell&#39;interfaccia utente aggiornata verranno pubblicate nel sito Web. Tuttavia, se passi all’interfaccia precedente, questi aggiornamenti non saranno visibili; verranno visualizzati solo gli ultimi aggiornamenti effettuati dall’interfaccia precedente.
+* **Coerenza dei dettagli dell&#39;attività**: le modifiche più recenti, indipendentemente dall&#39;interfaccia utente utilizzata, verranno applicate al sito Web attivo. Tuttavia, nell’interfaccia utente legacy verranno visualizzate solo le modifiche più recenti apportate all’interno di tale versione. Questo potrebbe causare confusione se le attività modificate nell’interfaccia utente aggiornata hanno un aspetto diverso da quello visualizzato nell’interfaccia utente precedente.
+
+#### Altre risorse sull’interfaccia utente aggiornata
+
+* [[!DNL Target] Domande frequenti sull&#39;aggiornamento dell&#39;interfaccia utente](/help/main/c-intro/updated-ui-faq.md): queste domande frequenti riguardano le domande comuni sulla nuova interfaccia utente [!DNL Target] e sul nuovo Compositore esperienza visivo [!UICONTROL Visual Experience Composer], incluse le modifiche alla navigazione, le posizioni delle funzioni e la rimozione dell&#39;opzione di versione temporanea dell&#39;interfaccia utente. Che tu sia un addetto marketing, uno sviluppatore o un amministratore, queste domande frequenti consentono una transizione fluida e di sfruttare al massimo l’interfaccia utente aggiornata.
+* [[!DNL Target Standard/Premium] 25.2.1 (17 febbraio 2025) - Note sulla versione](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-2): fornisce un riepilogo delle modifiche principali apportate all&#39;interfaccia utente in [!DNL Target] per [!UICONTROL Activities], [!UICONTROL Recommendations] e [!UICONTROL Visual Experience Composer] (Compositore esperienza visivo).
+* [[!DNL Target Standard/Premium] 25.1.1 (9 gennaio 2025) - Note sulla versione](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-1): fornisce un riepilogo delle modifiche principali apportate all&#39;interfaccia utente in [!DNL Target] per [!UICONTROL Offers Library].
+* [Comprendere l&#39;interfaccia utente [!DNL Target] UI](/help/main/c-intro/understand-the-target-ui.md): fornisce una breve panoramica per acquisire familiarità con [!DNL Target] e fornisce collegamenti per informazioni più approfondite e istruzioni dettagliate.
+* [[!UICONTROL Visual Experience Composer] modifiche](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md): la versione di [!DNL Adobe Target Standard/Premium] 25.2.1 (17 febbraio 2015) introduce una versione aggiornata di [!UICONTROL Visual Experience Composer] (VEC). Questo articolo spiega le differenze tra le versioni legacy e aggiornata del Compositore esperienza visivo.
+* [[!UICONTROL Visual Experience Composer] opzioni](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md): questo articolo illustra l&#39;interfaccia utente del Compositore esperienza visivo aggiornata e le relative opzioni.
+
++++
 
 ## [!DNL Target Standard/Premium] 25.6.4 (sabato 27 giugno 2025)
 
@@ -58,28 +112,6 @@ Questa versione include le correzioni e gli aggiornamenti seguenti:
 * È stata migliorata la precisione dello stato di avanzamento con un nuovo indicatore &quot;PARTIALLY_IMPORTED&quot;. In precedenza, i feed venivano contrassegnati come &quot;riusciti&quot; anche quando non venivano importate tutte le righe di un file, il che era fuorviante. (TGT-52892)
 * È stato corretto un errore a causa del quale, dopo la migrazione ad AP V2, alcune chiamate API a `/admin/rest/ui/v1/campaigns` restituivano errori lato client (HTTP 4xx). (TGT-52721)
 
-## Aggiornato: [!DNL Target] La versione dell&#39;interfaccia utente è diventata obsoleta (17 giugno 2025) {#revised}
-
-A partire dal 17 giugno 2025, per iniziare a testare la nuova esperienza, tutte le organizzazioni IMS avrebbero dovuto essere abilitate per l’interfaccia utente [!DNL Target] aggiornata, sia per utenti specifici che per l’intera organizzazione.
-
-A causa dei problemi recenti identificati, principalmente correlati a complesse personalizzazioni dei clienti, il team [!DNL Target] ha regolato la timeline di obsolescenza:
-
-* **30 giugno 2025**: l&#39;esperienza [aggiornata [!DNL Target] interfaccia utente](/help/main/c-intro/understand-the-target-ui.md) diventerà predefinita per tutte le organizzazioni IMS che hanno attivato l&#39;interruttore della versione dell&#39;interfaccia utente.
-
-   * Per impostazione predefinita, i clienti che attualmente vedono l’interfaccia utente legacy visualizzeranno ora l’interfaccia utente aggiornata al momento dell’accesso.
-   * L’interruttore della versione dell’interfaccia utente rimarrà disponibile fino alla fine di luglio, consentendo agli utenti di tornare indietro se necessario.
-
-  >[!IMPORTANT]
-  >
-  > [!DNL Adobe] consiglia vivamente di utilizzare l&#39;interfaccia utente [!DNL Target] aggiornata. Torna all’interfaccia utente legacy solo se si verifica un problema di blocco. Per informazioni importanti sull&#39;interruttore, consulta [[!DNL Target] Interruttore di deprecazione versione (23 maggio 2025)](/help/main/r-release-notes/release-notes-for-previous-releases.md#toggle) nelle note sulla versione per le versioni precedenti.
-
-* **dal 15 luglio al 30 luglio 2025**: l&#39;attivazione/disattivazione della versione dell&#39;interfaccia utente verrà disabilitata in modo permanente in più fasi. Le organizzazioni IMS interessate non saranno più in grado di ripristinare l’interfaccia utente legacy.
-
-   * Le eccezioni saranno esaminate caso per caso.
-   * I ritardi nell’attivazione/disattivazione della deprecazione verranno concessi solo brevemente (alcuni giorni) durante la risoluzione dei problemi di blocco.
-
-Contatta l&#39;[Assistenza clienti Adobe](/help/main/cmp-resources-and-contact-information.md#/help/main/cmp-resources-and-contact-information.md) per qualsiasi problema o se prevedi problemi durante questa transizione.
-
 ## [!DNL Target Standard/Premium] 25.6.2 (venerdì 12 giugno 2025)
 
 Questa versione include le correzioni e gli aggiornamenti seguenti:
@@ -88,7 +120,7 @@ Questa versione include le correzioni e gli aggiornamenti seguenti:
 * È stato risolto un problema che impediva il funzionamento della regola &quot;[!UICONTROL URL - does not contain]&quot; in [!UICONTROL Page Delivery], consentendo la visualizzazione del contenuto anche quando avrebbe dovuto essere bloccato. (TGT-52754)
 * È stato risolto un problema che impediva a [!UICONTROL Page Delivery] di visualizzare correttamente il messaggio di errore: &quot;Non sono consentiti URL di pagina duplicati. (TGT-52765)
 * È stato risolto un problema a causa del quale i tipi di pubblico per [!UICONTROL Page Delivery] URL contenenti frammenti di esperienza venivano creati con # erroneamente aggiunto. (TGT-52786)
-* È stato risolto un problema che causava la mancata risposta dell&#39;interfaccia utente di [!DNL Target] a causa della copia di un&#39;attività e della modifica delle impostazioni nella pagina [!UICONTROL Goals and Settings]. (TGT-52797)
+* È stato risolto un problema che causava la mancata risposta dell&#39;interfaccia utente di [!UICONTROL Goals and Settings] a causa della copia di un&#39;attività e della modifica delle impostazioni nella pagina [!DNL Target]. (TGT-52797)
 * È stato risolto un problema nel Compositore esperienza visivo [!UICONTROL Visual Experience Composer] aggiornato che consentiva erroneamente il reindirizzamento di una pagina aggiuntiva in un&#39;attività [!UICONTROL A/B Test] allo stesso URL. (TGT-51838)
 * È stato risolto un problema che impediva il salvataggio delle modifiche alle metriche nella pagina [!UICONTROL Goals and Settings] durante la modifica di un&#39;attività. (TGT-52799)
 * È stato risolto un problema a causa del quale l’aggiunta di una nuova esperienza durante il caricamento dell’editor web causava la duplicazione del contenuto dell’esperienza precedente. (TGT-51397)
