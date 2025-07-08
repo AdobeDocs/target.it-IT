@@ -4,9 +4,9 @@ description: Scopri le nuove funzioni, i miglioramenti e le correzioni, compresi
 title: Quali nuove funzioni e miglioramenti saranno inclusi nella prossima versione [!DNL Target] ?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: dc291b4573e00512edd44b94304be2a25106b234
+source-git-commit: 3bae9b212182cbbe9a801a1e2cdb401162fa1eb6
 workflow-type: tm+mt
-source-wordcount: '1882'
+source-wordcount: '1893'
 ht-degree: 11%
 
 ---
@@ -27,7 +27,7 @@ Questo articolo contiene informazioni prerelease per le prossime versioni di [!D
 
 ## [!DNL Target Standard/Premium] 25.7.1 (mercoledì 8 luglio 2025)
 
-Questa versione include le correzioni e gli aggiornamenti seguenti:
+A causa dei problemi recenti identificati, principalmente correlati a complesse personalizzazioni dei clienti, questa versione include le correzioni e gli aggiornamenti seguenti:
 
 * È stato risolto un problema a causa del quale i perfezionamenti del pubblico per sola attività scomparivano dall’interfaccia utente subito dopo essere stati rimossi da una posizione, anche prima del salvataggio dell’attività. Questo comportamento contraddiceva le funzionalità previste e le linee guida con la descrizione comando, che recita: &quot;Tutti i tipi di pubblico non utilizzati da questa libreria verranno eliminati una volta salvata l’attività&quot;. (TGT-52982)
 * È stato risolto un problema che si verificava durante il tentativo di assegnare un pubblico diverso da [!UICONTROL All Visitors] a un&#39;attività. Al momento del salvataggio, veniva visualizzato il seguente messaggio di errore: &quot;Impossibile completare la richiesta. Se il problema persiste, contatta l’assistenza clienti Adobe.&quot; (TGT-53008)
