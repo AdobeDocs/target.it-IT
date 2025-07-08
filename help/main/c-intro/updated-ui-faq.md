@@ -4,9 +4,9 @@ description: Domande e risposte sull'interfaccia utente  [!DNL Target] aggiornat
 title: Dove posso trovare le domande frequenti sull'interfaccia utente  [!DNL Target]  aggiornata?
 feature: Overview
 exl-id: 75db4791-ca51-472d-99dd-583f7a74b222
-source-git-commit: 05a4358e0115d7bfd13ec715a0e7eb96f1f2265b
+source-git-commit: 107770a27a80943db858729ce1cb3dceeda22dfb
 workflow-type: tm+mt
-source-wordcount: '1031'
+source-wordcount: '953'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Novità del 2025, l&#39;interfaccia utente aggiornata di [!DNL Adobe Target] int
 ## È stata aggiornata la timeline per rendere obsolete le opzioni di attivazione/disattivazione della versione dell’interfaccia utente di Target?
 
 +++Dettagli
-Sì. Puoi trovare la nuova timeline e le informazioni importanti in [Aggiornato: [!DNL Target] Versione interfaccia utente/Disattivazione (17 giugno 2025)](/help/main/r-release-notes/release-notes.md#revised).
+Sì. Puoi trovare la nuova timeline e le informazioni importanti in [Aggiornamenti sensibili al tempo che devi conoscere](/help/main/r-release-notes/release-notes.md#time-sensitive).
 
 +++
 
@@ -44,9 +44,7 @@ Le risorse seguenti forniscono informazioni per ulteriori informazioni sull&#39;
 +++Dettagli
 L&#39;interfaccia utente aggiornata è disponibile per tutti i clienti [!DNL Target], [!UICONTROL Standard] e [!UICONTROL Premium]. Non è richiesta alcuna licenza o SKU aggiornata.
 
-Il rollout della nuova interfaccia utente [!DNL Target] è stato completato il 27 maggio 2025. A questo punto, tutti i clienti hanno accesso all’ultima versione dell’interfaccia utente.
-
-Per ulteriori informazioni sul rollout e sulla rimozione dell&#39;interruttore della versione temporanea dell&#39;interfaccia utente, vedere [Disattivazione dell&#39;interruttore della versione dell&#39;interfaccia utente di Target (23 maggio 2025)](/help/main/r-release-notes/release-notes-for-previous-releases.md#toggle) in *Note sulla versione per le versioni precedenti*.
+Per ulteriori informazioni sul rollout e sulla rimozione dell&#39;interruttore della versione temporanea dell&#39;interfaccia utente, vedere [Aggiornamenti sensibili al tempo che è necessario conoscere](/help/main/r-release-notes/release-notes.md#time-sensitive).
 
 +++
 
@@ -55,22 +53,18 @@ Per ulteriori informazioni sul rollout e sulla rimozione dell&#39;interruttore d
 +++Dettagli
 Il team [!DNL Target] sta affrontando attivamente i problemi relativi al nuovo rollout dell&#39;interfaccia utente. Gli aggiornamenti e i miglioramenti in corso sono descritti in dettaglio nelle note sulla versione.
 
-Per ulteriori informazioni sul rollout e sulla rimozione dell&#39;interruttore della versione temporanea dell&#39;interfaccia utente, vedere [Disattivazione dell&#39;interruttore della versione dell&#39;interfaccia utente di Target (23 maggio 2025)](/help/main/r-release-notes/release-notes-for-previous-releases.md#toggle) in *Note sulla versione per le versioni precedenti*.
+Per ulteriori informazioni sul rollout e sulla rimozione dell&#39;interruttore della versione temporanea dell&#39;interfaccia utente, vedere [Aggiornamenti sensibili al tempo che è necessario conoscere](/help/main/r-release-notes/release-notes.md#time-sensitive).
 
 +++
 
 ## I clienti possono richiedere la versione dell’interfaccia utente per rimanere nei loro account se preferiscono rimanere nell’interfaccia precedente?
 
 +++Dettagli
-L&#39;interruttore della versione dell&#39;interfaccia utente è una funzione temporanea che consente di passare dall&#39;interfaccia aggiornata di [!DNL Target] alla versione precedente utilizzando un pulsante di attivazione/disattivazione. Questa opzione è disponibile solo durante la fase finale del rollout dell’interfaccia utente. Una volta completato il rollout, l’interruttore verrà rimosso e tutti gli utenti passeranno definitivamente all’interfaccia utente aggiornata il 22 giugno 2025.
+L&#39;interruttore della versione dell&#39;interfaccia utente è una funzione temporanea che consente di passare dall&#39;interfaccia aggiornata di [!DNL Target] alla versione precedente utilizzando un pulsante di attivazione/disattivazione. Questa opzione è disponibile solo durante la fase finale del rollout dell’interfaccia utente. Una volta completato il rollout, l’interruttore viene rimosso e tutti gli utenti passano definitivamente all’interfaccia utente aggiornata.
 
 L’utilizzo dell’interruttore della versione dell’interfaccia utente presenta diverse limitazioni, tra cui la visibilità delle nuove attività, la modifica di quelle esistenti e la coerenza dei dettagli delle attività.
 
->[!NOTE]
->
->I clienti con casi speciali che devono mantenere l’interruttore dopo il 22 giugno possono contattare l’Assistenza clienti di Adobe. Per ulteriori informazioni, vedere [Aggiornato: [!DNL Target] Disattivazione/disattivazione della versione interfaccia utente (17 giugno 2025)](/help/main/r-release-notes/release-notes.md#revised).
-
-Per ulteriori informazioni, consulta [La versione dell&#39;interfaccia utente di Target diventa obsoleta (23 maggio 2025)](/help/main/r-release-notes/release-notes-for-previous-releases.md#toggle) nelle *Note sulla versione per le versioni precedenti*.
+Per ulteriori informazioni, consulta [Aggiornamenti sensibili al tempo da conoscere](/help/main/r-release-notes/release-notes.md#time-sensitive).
 
 ++++
 
@@ -81,7 +75,7 @@ Per ulteriori informazioni, consulta [La versione dell&#39;interfaccia utente di
 
 L’utilizzo dell’interruttore della versione dell’interfaccia utente presenta diverse limitazioni, tra cui la visibilità delle nuove attività, la modifica di quelle esistenti e la coerenza dei dettagli delle attività.
 
-Per ulteriori informazioni, consulta [La versione dell&#39;interfaccia utente di Target diventa obsoleta (23 maggio 2025)](/help/main/r-release-notes/release-notes-for-previous-releases.md#toggle) nelle *Note sulla versione per le versioni precedenti*.
+Per ulteriori informazioni, consulta [Aggiornamenti sensibili al tempo da conoscere](/help/main/r-release-notes/release-notes.md#time-sensitive).
 
 +++
 
