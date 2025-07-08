@@ -1,14 +1,14 @@
 ---
-keywords: feed consigli;feed;feed;SAINT;ftp;csv;classificazioni;classificazioni analytics
+keywords: feed consigli;feed;SAINT;ftp;csv;classificazioni;classificazioni analytics
 description: Scopri come i feed importano le entità in [!DNL Adobe Target] [!DNL Recommendations] utilizzando file CSV, il formato di feed  [!DNL Google Product Search]  e le classificazioni di prodotto  [!DNL Analytics] .
 title: Come si utilizza [!UICONTROL Feeds] in [!DNL Target Recommendations]?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=it#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."
 feature: Recommendations
 exl-id: 7b336a9e-23f4-4b09-9c8f-b9cb68162b1b
-source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
+source-git-commit: 5a8b4006a2c43c9cac2d22e7663aa21043f98d9a
 workflow-type: tm+mt
-source-wordcount: '2417'
-ht-degree: 37%
+source-wordcount: '2613'
+ht-degree: 34%
 
 ---
 
@@ -121,7 +121,7 @@ Se disponi di un [!DNL Google Product Feed] esistente, puoi utilizzarlo come fil
 >
 >Non è necessario utilizzare i dati [!DNL Google]. [!DNL Recommendations] utilizza lo stesso formato di [!DNL Google]. Puoi utilizzare questo metodo per caricare qualsiasi dato a tua disposizione e utilizzare le funzioni di pianificazione disponibili. Tuttavia, è necessario mantenere i nomi di attributo predefiniti [!DNL Google] durante la configurazione del file.
 
-La maggior parte dei rivenditori carica i prodotti in [!DNL Google], quindi quando un visitatore utilizza la ricerca del prodotto [!DNL Google], i suoi prodotti vengono visualizzati. [!DNL Recommendations] segue esattamente la specifica [!DNL Google] per i feed di entità. I feed di entità possono essere inviati a [!DNL Recommendations] tramite .xml, .txt o .tsv e possono utilizzare gli [attributi definiti da Google](https://support.google.com/merchants/answer/188494?hl=en&amp;topic=2473824&amp;ctx=topic#US). È possibile cercare i risultati nelle [[!DNL Google] pagine di acquisto](https://www.google.com/prdhp).
+La maggior parte dei rivenditori carica i prodotti in [!DNL Google], quindi quando un visitatore utilizza la ricerca del prodotto [!DNL Google], i suoi prodotti vengono visualizzati. [!DNL Recommendations] segue esattamente la specifica [!DNL Google] per i feed di entità. I feed di entità possono essere inviati a [!DNL Recommendations] tramite .xml, .txt o .tsv e possono utilizzare gli [attributi definiti da Google](https://support.google.com/merchants/answer/188494?hl=en&topic=2473824&ctx=topic#US). È possibile cercare i risultati nelle [[!DNL Google] pagine di acquisto](https://www.google.com/prdhp).
 
 >[!NOTE]
 >
@@ -212,7 +212,7 @@ na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round c
 
 ### [!DNL Analytics] classificazioni prodotto {#section_79E430D2C75443BEBC9AA0916A337E0A}
 
-La classificazione di prodotto [!DNL Adobe Analytics] è l&#39;unica classificazione disponibile per i consigli. Per ulteriori informazioni su questo file di classificazione, vedere [Informazioni sulle classificazioni](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html?lang=it) nella *Guida ai componenti di Analytics*. È possibile che non tutte le informazioni necessarie per i consigli siano disponibili nell’implementazione corrente. Per aggiungere elementi al file delle classificazioni, consulta quindi questa guida utente.
+La classificazione di prodotto [!DNL Adobe Analytics] è l&#39;unica classificazione disponibile per i consigli. Per ulteriori informazioni su questo file di classificazione, vedere [Informazioni sulle classificazioni](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html) nella *Guida ai componenti di Analytics*. È possibile che non tutte le informazioni necessarie per i consigli siano disponibili nell’implementazione corrente. Per aggiungere elementi al file delle classificazioni, consulta quindi questa guida utente.
 
 >[!IMPORTANT]
 >
@@ -298,6 +298,7 @@ Di seguito sono riportati gli stati possibili per un feed:
 | [!UICONTROL Downloading Feed File] | [!DNL Target] sta scaricando il file di feed. |
 | [!UICONTROL Importing Items] | [!DNL Target] sta importando elementi dal file di feed. |
 | Feed importato correttamente alle *ora* | [!DNL Target] ha importato il file di feed nel proprio sistema di distribuzione dei contenuti. Le modifiche apportate agli attributi degli elementi sono state inserite nel sistema di distribuzione dei contenuti e presto saranno applicate ai consigli consegnati. Se non visualizzi le modifiche previste, riprova e aggiorna la pagina contenente i consigli.<br>Note:<ul><li>Se le modifiche apportate agli attributi di un elemento ne determinano l’esclusione dai consigli, tale esclusione viene applicata immediatamente. Se un elemento è stato aggiunto di recente, oppure se a causa delle modifiche apportate agli attributi un elemento non viene più *escluso* dai consigli, questo verrà applicato al successivo aggiornamento dell&#39;algoritmo, che si verifica entro 24 ore.</li><li>Quando viene visualizzato questo stato, è possibile che gli aggiornamenti non siano ancora visibili nell&#39;interfaccia utente di [!UICONTROL Catalog Search]. In [!UICONTROL Catalog Search] è elencato uno stato separato che indica l&#39;ultimo aggiornamento del catalogo ricercabile.</li></ul> |
+| Importazione parziale non riuscita | In precedenza, quando non venivano caricate tutte le righe, il feed veniva comunque contrassegnato come completato. Pertanto, la creazione di una falsa impressione che tutte le righe siano state caricate come feed mostra l’esito positivo.<P>Ecco uno scenario del motivo per cui potresti riscontrare un’importazione di feed parziale:<ul><li>Hai caricato un file di feed per l’ambiente di produzione, ad esempio 100 righe.</li><li>Il feed ha eseguito e caricato 80 di queste righe e ha rilasciato 20 righe a causa di formattazione errata, campo che ha superato i caratteri e così via.</li><li>Il feed è stato contrassegnato come riuscito nell’interfaccia utente, dando l’impressione che tutte le 100 righe siano state caricate.</li><li>Alcuni di questi 20 prodotti sono previsti nella consegna di un’attività, ma non si verifica.</li><li> A questo punto sei perplesso perché hai caricato il feed contenente i dettagli del prodotto per i prodotti in questione. Quando esegui una query tramite l’API di entità, che indica che non si trova nel backend, la query non viene visualizzata.</li></ul>Per eliminare questa confusione, il messaggio viene migliorato per comunicare esattamente cosa è successo con il feed. Invece di contrassegnarlo come operazione riuscita, ora viene contrassegnato come importazione parziale non riuscita. |
 | [!UICONTROL Failed to Index] | L’operazione di indicizzazione non è riuscita. Riprova. |
 | [!UICONTROL Server Not Found] | I percorsi FTP o URL non sono validi o sono irraggiungibili. |
 
@@ -345,7 +346,7 @@ Questo video contiene le seguenti informazioni:
 * Comprendere lo scopo dei feed
 * Comprendere il valore dei feed
 
->[!VIDEO](https://video.tv.adobe.com/v/328597?captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/27695)
 
 ### Crea un feed (6:44) ![Icona esercitazione](/help/main/assets/tutorial.png)
 
@@ -354,4 +355,4 @@ Questo video contiene le seguenti informazioni:
 * Impostare un feed
 * Quale tipo di feed usare
 
->[!VIDEO](https://video.tv.adobe.com/v/328596?captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/27696)
