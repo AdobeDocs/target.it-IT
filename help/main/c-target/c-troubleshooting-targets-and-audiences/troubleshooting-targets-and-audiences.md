@@ -1,13 +1,13 @@
 ---
 keywords: risoluzione dei problemi;domande frequenti;FAQ;targeting;tipi di pubblico
-description: Visualizza le domande frequenti sul targeting dell'esperienza e sui tipi di pubblico utilizzati nelle attività Adobe [!DNL Target] .
+description: Visualizza le domande frequenti sul targeting dell'esperienza e sui tipi di pubblico utilizzati nelle attività di Adobe [!DNL Target] .
 title: Dove posso trovare domande e risposte su Target e tipi di pubblico?
 feature: Audiences
 exl-id: f829bd4a-852a-4eb1-85d1-89e74c14b37e
-source-git-commit: 6df7df69e54730d4c63bd17a33c12484e2bbdc92
+source-git-commit: cf7f18b5fd9647bbecda2e6b6419c3a927708bd6
 workflow-type: tm+mt
-source-wordcount: '955'
-ht-degree: 56%
+source-wordcount: '973'
+ht-degree: 53%
 
 ---
 
@@ -25,7 +25,7 @@ Considera il seguente URL:
 
 ### Targeting degli URL del pubblico
 
-Per applicare il targeting degli URL del pubblico durante la creazione di un’attività, nella pagina Esperienze (passaggio 1 del flusso di lavoro guidato in tre passaggi) fai clic sull’icona a forma di ingranaggio, fai clic su Consegna pagine, quindi specifica l’URL desiderato.
+Per applicare il targeting degli URL del pubblico durante la creazione di un&#39;attività, nella pagina **[!UICONTROL Experiences]** (passaggio 1 del flusso di lavoro guidato in tre passaggi) fai clic sull&#39;icona **[!UICONTROL Configure]** ( ![icona Configura](/help/main/assets/icons/Setting.svg) ), fai clic su **[!UICONTROL Page Delivery]**, quindi specifica l&#39;URL desiderato.
 
 ![URL di consegna pagina](/help/main/c-target/c-troubleshooting-targets-and-audiences/assets/activity-url.png)
 
@@ -41,7 +41,7 @@ Il targeting degli URL del pubblico e il targeting degli URL aggiunti tramite [!
 
 ### Targeting URL {#url-targeting}
 
-Per applicare il targeting degli URL durante la creazione di un pubblico, fare clic su [!UICONTROL Add Rule], fare clic su [!UICONTROL Site Pages], selezionare un&#39;opzione dal primo elenco a discesa ([!UICONTROL Current Page], [!UICONTROL Previous Page] o [!UICONTROL Landing Page]), selezionare [!UICONTROL URL] dal secondo elenco a discesa, specificare un valutatore, quindi specificare l&#39;URL desiderato.
+Per applicare il targeting URL durante la creazione di un pubblico, fare clic su Trascina **[!UICONTROL Site Pages]** e rilasciarlo nel riquadro [!UICONTROL Create Audiences], fare clic su **[!UICONTROL Site Pages]**, selezionare un&#39;opzione dal primo elenco a discesa ([!UICONTROL Current Page], [!UICONTROL Previous Page] o [!UICONTROL Landing Page]), selezionare [!UICONTROL URL] dal secondo elenco a discesa, specificare un valutatore, quindi specificare l&#39;URL desiderato.
 
 ![Pagine del sito > Pagina corrente > URL](/help/main/c-target/c-troubleshooting-targets-and-audiences/assets/site-url.png)
 
@@ -80,9 +80,7 @@ Per impostazione predefinita, il traffico viene suddiviso in modo uniforme tra l
 
 L&#39;utente è idoneo per la prima esperienza/pubblico visualizzata sulla pagina [!UICONTROL Target] dell&#39;attività.
 
-Ad esempio, nellʼillustrazione seguente, un utente in California che utilizza un dispositivo Windows è idoneo sia per l’esperienza A (pubblico Windows) che per l’esperienza C (pubblico californiano). A questo utente verrà presentata lʼesperienza A perché è presente nellʼelenco sopra lʼesperienza C nella pagina Destinazioni.
-
-![immagine audiences_order](assets/audiences_order.png)
+Si supponga, ad esempio, che in Esperienza/pubblico Windows sia elencato come Esperienza A, iOS come Esperienza B e California come Esperienza C. Un utente della California che utilizza un dispositivo Windows è idoneo sia per l’Esperienza A (pubblico Windows) che per l’Esperienza C (pubblico California). A questo utente verrà presentata lʼesperienza A perché è presente nellʼelenco sopra lʼesperienza C nella pagina Destinazioni.
 
 ## Perché esistono nomi diversi per uno stesso pubblico in [!DNL Target] , Adobe Audience Manager (AAM) e nella Libreria tipi di pubblico nei servizi di base? {#section_F67E61A607B6444C8DAA4F99C3E95AED}
 
