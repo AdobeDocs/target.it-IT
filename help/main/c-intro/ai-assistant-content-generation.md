@@ -7,9 +7,9 @@ badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.c
 hide: true
 hidefromtoc: true
 exl-id: eb6f07d8-729e-4f94-ae7a-a054bf54b030
-source-git-commit: f8e91caa133a1addc12ab1834d7e178df7e7a3ce
+source-git-commit: 6b4c3b04abe09cc2e440b24c3ff07cb6875ca816
 workflow-type: tm+mt
-source-wordcount: '756'
+source-wordcount: '762'
 ht-degree: 1%
 
 ---
@@ -59,11 +59,11 @@ Per generare testo coinvolgente utilizzando [!DNL AI Assistant]:
 
    * **Tono**: il tono del testo dovrebbe risuonare con il pubblico. Sia che si desideri utilizzare un suono informativo, emozionante, giocoso o persuasivo, [!DNL AI Assistant] può adattare il messaggio di conseguenza.
 
-     Le opzioni disponibili sono: [!UICONTROL None], [!UICONTROL Professional], [!UICONTROL Empathetic], [!UICONTROL Humorous], [!UICONTROL Exciting], [!UICONTROL Inspirational], [!UICONTROL Persuasive], [!UICONTROL Friendly], [!UICONTROL Formal], [!UICONTROL Apologetic], [!UICONTROL Assertive], [!UICONTROL &#x200B; Story Telling] e [!UICONTROL Conversational].
+     Le opzioni disponibili sono: [!UICONTROL None], [!UICONTROL Professional], [!UICONTROL Empathetic], [!UICONTROL Humorous], [!UICONTROL Exciting], [!UICONTROL Inspirational], [!UICONTROL Persuasive], [!UICONTROL Friendly], [!UICONTROL Formal], [!UICONTROL Apologetic], [!UICONTROL Assertive], [!UICONTROL  Story Telling] e [!UICONTROL Conversational].
 
-1. Utilizzare il dispositivo di scorrimento per scegliere la lunghezza del testo (da [!UICONTROL Shorter Text] a [!UICONTROL Larger Text]).
+1. Utilizzare il dispositivo di scorrimento per scegliere la durata desiderata per il testo, da più breve a più lungo.
 
-1. (Facoltativo) Fai clic su Brand Assets per caricare o attivare/disattivare le risorse dei brand per contenuti aggiuntivi durante la generazione.
+1. (Facoltativo) Fai clic su **[!UICONTROL Brand Assets]** per caricare o attivare/disattivare le risorse del brand per il contesto di contenuto aggiuntivo durante la generazione.
 
 1. Fare clic su **[!UICONTROL Generate]** per creare un elenco di varianti di testo.
 
@@ -100,4 +100,4 @@ Il prompt e le varianti seguenti mostrano la potenza di [!DNL AI Assistant].
 
 ### Creare contenuti utilizzando l’Assistente AI per la generazione di contenuti
 
->[!VIDEO](https://video.tv.adobe.com/v/3434643/?learn=on&captions=ita">https://video.tv.adobe.com/v/3434643/?learn=on&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/3434635/?learn=on">https://video.tv.adobe.com/v/3434635/?learn=on)
