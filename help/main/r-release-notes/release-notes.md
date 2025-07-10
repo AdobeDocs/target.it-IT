@@ -99,7 +99,7 @@ A causa dei problemi recenti identificati, principalmente correlati a complesse 
 
 +++
 
-**[!UICONTROL Analytics for Target](A4T)**
+**[!UICONTROL Analytics for Target] (A4T)**
 
 +++Consulta i dettagli
 * È stato risolto un problema che causava un errore &quot;Input utente non valido&quot; durante la copia di un&#39;attività esistente e la modifica dell&#39;origine per la generazione di rapporti in [!DNL Adobe Analytics] (A4T). L&#39;errore è stato attivato quando alcune azioni di metrica incompatibili con il reporting di [!DNL Analytics], come `restart_same_experience`, `restart_random_experience` e `restart_new_experience`, sono state mantenute dall&#39;attività originale. (TGT-52900)
@@ -156,7 +156,7 @@ A causa dei problemi recenti identificati, principalmente correlati a complesse 
 
 +++
 
-**[!UICONTROL Visual Experience Composer](VEC)**
+**[!UICONTROL Visual Experience Composer] (VEC)**
 
 +++Consulta i dettagli
 * È stato risolto un problema a causa del quale l’applicazione di una modifica a una vista determinava la duplicazione della vista e l’attività restituiva un errore di tipo &quot;Input utente non valido&quot;. Questa correzione assicura che le modifiche della visualizzazione vengano applicate correttamente senza causare errori di duplicazione o convalida. (TGT-52886)
