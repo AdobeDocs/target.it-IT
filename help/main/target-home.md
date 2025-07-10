@@ -4,9 +4,9 @@ title: Guida di Adobe Target per professionisti aziendali
 description: Scopri come utilizzare Adobe  [!DNL Target]  per personalizzare l’esperienza dei clienti al fine di massimizzare i ricavi su siti web e mobili, app e altri canali digitali.
 feature: Overview
 exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
-source-git-commit: 5a8b4006a2c43c9cac2d22e7663aa21043f98d9a
+source-git-commit: 6bb44d984a80007834f9ca4917551e1a2c052798
 workflow-type: tm+mt
-source-wordcount: '669'
+source-wordcount: '670'
 ht-degree: 25%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 25%
 
 [!DNL Adobe Target] è la soluzione di [!DNL Adobe Experience Cloud] che offre tutto il necessario per adattare e personalizzare l’esperienza dei clienti in modo da massimizzare i ricavi sui siti web e mobili, applicazioni, social media e altri canali digitali.
 
-**Ultimo aggiornamento: 8 luglio 2025 ( [scopri cosa è cambiato](r-release-notes/doc-change.md) )**
+**Ultimo aggiornamento: 10 luglio 2025 ( [vedi che cosa è cambiato](r-release-notes/doc-change.md) )**
 
 >[!BEGINTABS]
 
@@ -25,7 +25,7 @@ ht-degree: 25%
 
 Il team [!DNL Target] ha regolato la timeline per l&#39;attivazione/disattivazione della versione dell&#39;interfaccia utente.
 
-[![Icona Ulteriori informazioni](/help/main/assets/learn-more.svg)](/help/main/r-release-notes/release-notes.md#revised)
+[![Icona Ulteriori informazioni](/help/main/assets/learn-more.svg)](/help/main/r-release-notes/release-notes.md)
 
 >[!TAB Novità]
 
@@ -33,9 +33,9 @@ Il team [!DNL Target] ha regolato la timeline per l&#39;attivazione/disattivazio
 
 Il team [!DNL Target] ha regolato la timeline per l&#39;attivazione/disattivazione della versione dell&#39;interfaccia utente.
 
-[![Icona Ulteriori informazioni](/help/main/assets/learn-more.svg)](/help/main/r-release-notes/release-notes.md#revised)
+[![Icona Ulteriori informazioni](/help/main/assets/learn-more.svg)](/help/main/r-release-notes/release-notes.md)
 
-**Target 25.6.4 è live!**
+**Target 25.7.1 è live!**
 
 Questa versione include correzioni e miglioramenti all&#39;interfaccia utente [!DNL Target] e al Compositore esperienza visivo [!UICONTROL Visual Experience Composer] aggiornati.
 
@@ -88,7 +88,7 @@ Esperti di marketing, sviluppatori, amministratori, analisti e addetti al contro
 
 - [[!DNL Target] note sulla versione](r-release-notes/release-notes.md): contiene informazioni sulla versione corrente, informazioni sui problemi noti che interessano [!DNL Target], un elenco di modifiche importanti alla presente documentazione e un archivio delle note sulle versioni passate.
 - [Introduzione a [!DNL Target]](c-intro/intro.md): illustra i concetti fondamentali di [!DNL Target].
-- [Interfaccia utente [!DNL Target] 2&rbrace;: consente di acquisire familiarità con ](/help/main/c-intro/understand-the-target-ui.md) e fornisce collegamenti per ottenere informazioni più approfondite e istruzioni dettagliate.[!DNL Target]
+- [Interfaccia utente [!DNL Target] 2}: consente di acquisire familiarità con ](/help/main/c-intro/understand-the-target-ui.md) e fornisce collegamenti per ottenere informazioni più approfondite e istruzioni dettagliate.[!DNL Target]
 - Panoramica di [[!UICONTROL AI Assistant]](/help/main/c-intro/ai-assistant.md): [!DNL AI Assistant] in A[!DNL dobe Experience Platform] è una funzionalità dell&#39;interfaccia utente che consente di navigare e comprendere i concetti di [!DNL Adobe Target].
 - Integrare [!DNL Target] con [!DNL Adobe Experience Cloud]: illustra come integrare [!DNL Target] con altre soluzioni [!DNL Experience Cloud], tra cui [[!UICONTROL Analytics for Target]](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T), [[!DNL Experience Cloud Audiences]](/help/main/c-integrating-target-with-mac/mmp.md) e [[!DNL Adobe Campaign]](/help/main/c-integrating-target-with-mac/campaign-and-target.md).
 - [[!DNL Adobe Target] Esercitazioni](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html?lang=it): fornisce esercitazioni e video per ottenere il massimo da [!DNL Target].
