@@ -4,61 +4,48 @@ description: Scopri i diversi modi in cui puoi modificare un’attività esisten
 title: Come posso modificare un’attività o salvarla come bozza?
 feature: Activities
 exl-id: 5f2a930a-9950-430e-a898-50af1f917ec1
-source-git-commit: e458793e4d0110d97f3f5124cbe6e54520d3f0e9
+source-git-commit: cdd2a3995ef5b386afd45fed17c490ab9e6864fa
 workflow-type: tm+mt
-source-wordcount: '1169'
-ht-degree: 52%
+source-wordcount: '1011'
+ht-degree: 44%
 
 ---
 
 # Modificare un’attività o salvarla come bozza
 
-Informazioni sui diversi modi in cui è possibile modificare un&#39;attività esistente in [!DNL Adobe Target], incluso il salvataggio di un&#39;attività come bozza.
+Scopri come modificare le attività esistenti in [!DNL Adobe Target], incluso come salvare le modifiche come bozze. Questo articolo descrive i diversi metodi disponibili nell&#39;interfaccia [!DNL Target] per modificare le attività, sia che si stiano aggiornando le esperienze, regolando le regole di targeting o configurando gli obiettivi, garantendo al contempo che le modifiche vengano salvate in modo sicuro prima dell&#39;attivazione.
 
-In Target è possibile modificare le attività esistenti tramite le funzioni disponibili in diverse aree dell’interfaccia utente. La procedura varia a seconda del metodo scelto.
+[!DNL Target] fornisce varie posizioni nell&#39;interfaccia utente in cui è possibile modificare le attività esistenti. La procedura varia a seconda del metodo scelto.
 
 ## Modificare un’attività tramite il pulsante che si attiva al passaggio del mouse nella pagina Attività {#section_29EE2ECA6B88473A8F9AC5600FFBB174}
 
-1. Dalla pagina **[!UICONTROL Activities]**, passa il cursore del mouse sull&#39;attività da modificare, quindi fai clic sull&#39;icona **[!UICONTROL Edit]**.
+1. Dalla pagina **[!UICONTROL Activities]**, fai clic sull&#39;icona **[!UICONTROL More Actions]** ( ![Icona Altre azioni](/help/main/assets/icons/MoreSmall.svg) ) accanto all&#39;attività da modificare, quindi fai clic su [!UICONTROL **Modifica**].
 
-   ![Icona Modifica](/help/main/c-activities/assets/hover_edit.png)
-
-   Target apre l&#39;attività nel Compositore esperienza visivo e viene visualizzata la pagina [!UICONTROL Experiences] (il primo di tre passaggi nel flusso di lavoro guidato).
+   Target apre l&#39;attività nel [!UICONTROL Visual Experience Composer] (VEC) e viene visualizzata la pagina [!UICONTROL Experiences] (il primo di tre passaggi nel flusso di lavoro guidato).
 
 1. Modifica l’attività mediante le opzioni del [Compositore esperienza visivo](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md).
 
-1. Fai clic sul pulsante di menu combinato per avanzare al passaggio successivo o per salvare l’attività.
+1. Fai clic su **[!UICONTROL Next]** per passare al passaggio successivo, quindi apporta le modifiche necessarie.
 
-   ![Pulsante di menu combinato](/help/main/c-activities/assets/edit_split_button_2.png)
+1. Nella pagina **Obiettivi e impostazioni** sono disponibili le opzioni seguenti:
 
-   * **Avanti:** Per modificare un&#39;altra pagina nel flusso di lavoro in tre passaggi, fare clic su **[!UICONTROL Next]** per passare al passaggio desiderato. Ad esempio, nell&#39;illustrazione precedente, facendo clic su [!UICONTROL Next] viene visualizzato il passaggio [!UICONTROL Targeting].
-   * **Salva e chiudi:** Apporta le modifiche desiderate nel passaggio corrente, fai clic sull&#39;elenco a discesa del pulsante di menu combinato, quindi seleziona **[!UICONTROL Save and Close]** per salvare le modifiche e visualizzare la pagina [!UICONTROL Overview] dell&#39;attività.
-   * **Salva:** Apporta le modifiche desiderate in un passaggio, fai clic sull&#39;elenco a discesa del pulsante di menu combinato, quindi seleziona **[!UICONTROL Save]** per salvare le modifiche e rimanere in quel passaggio, per apportare ulteriori modifiche. Attendi il completamento del salvataggio prima di apportare ulteriori modifiche. Al termine del salvataggio, nel Compositore esperienza visivo vengono caricate le modifiche aggiornate.
+   * **[!UICONTROL Save & Close]:** Fai clic su **[!UICONTROL Save and Close]** per salvare le modifiche e visualizzare la pagina [!UICONTROL Overview] dell&#39;attività.
+   * **Salva:** Fai clic sull&#39;icona **[!UICONTROL More Actions]** ( ![Icona Altre azioni](/help/main/assets/icons/MoreSmallListVert.svg) ), quindi seleziona **[!UICONTROL Save]** per salvare le modifiche e rimanere nel Compositore esperienza visivo dove puoi continuare ad apportare modifiche. Attendi il completamento del salvataggio prima di apportare ulteriori modifiche. Al termine del salvataggio, nel Compositore esperienza visivo vengono caricate le modifiche aggiornate.
 
-## Modificare un’attività facendo clic sul suo nome nella pagina Attività per aprirla {#section_176180DAD17E40CEA441903F39E0AA1C}
+## Modificare un&#39;attività facendo clic sul relativo nome nella pagina [!UICONTROL Activities] per aprirla {#section_176180DAD17E40CEA441903F39E0AA1C}
 
-1. Per evitare di dover scorrere il flusso di lavoro, fare clic sull&#39;attività desiderata nella pagina Attività per aprirla, quindi selezionare un&#39;opzione dall&#39;elenco a discesa **[!UICONTROL Edit Activity]**.
+1. Per evitare di dover scorrere il flusso di lavoro, fare clic sull&#39;attività desiderata nella pagina [!UICONTROL Activities] per aprirla, selezionare un&#39;opzione dall&#39;elenco a discesa **[!UICONTROL Edit Activity]**, quindi selezionare l&#39;opzione desiderata.
 
-   ![Elenco a discesa Modifica attività](/help/main/c-activities/assets/edit_activity.png)
+   * **Modifica esperienze:** ti porta direttamente alla pagina [!UICONTROL Experiences] (il primo passaggio nel flusso di lavoro guidato in tre passaggi).
+   * **Modifica destinazione**: consente di accedere direttamente alla pagina [!UICONTROL Targeting] (il secondo passaggio nel flusso di lavoro guidato in tre passaggi).
+   * **[!UICONTROL Goals & Settings]**: consente di accedere direttamente alla pagina [!UICONTROL Goals & Settings] (il terzo passaggio nel flusso di lavoro guidato in tre passaggi).
 
-1. Seleziona l’opzione desiderata:
+1. Apporta le modifiche desiderate, quindi salva l’attività.
 
-   * **Modifica esperienze:** ti porta direttamente alla pagina [!UICONTROL Experiences] (il primo passaggio nel flusso di lavoro guidato). Apporta le modifiche desiderate, quindi utilizza il pulsante di menu combinato (descritto in precedenza) per salvare l’attività.
+   * **[!UICONTROL Save & Close]:** Fai clic su **[!UICONTROL Save and Close]** per salvare le modifiche e visualizzare la pagina [!UICONTROL Overview] dell&#39;attività.
+   * **Salva:** Fai clic sull&#39;icona **[!UICONTROL More Actions]** ( ![Icona Altre azioni](/help/main/assets/icons/MoreSmallListVert.svg) ), quindi seleziona **[!UICONTROL Save]** per salvare le modifiche e rimanere nel Compositore esperienza visivo dove puoi continuare ad apportare modifiche. Attendi il completamento del salvataggio prima di apportare ulteriori modifiche. Al termine del salvataggio, nel Compositore esperienza visivo vengono caricate le modifiche aggiornate.
 
-      * Fai clic su **[!UICONTROL Save & Close]** per salvare le modifiche e visualizzare la pagina Panoramica dell&#39;attività.
-      * Fai clic su **[!UICONTROL Save]** per salvare le modifiche e rimanere nel passaggio corrente, per apportare ulteriori modifiche. Attendi il completamento del salvataggio prima di apportare ulteriori modifiche. Al termine del salvataggio, nel Compositore esperienza visivo vengono caricate le modifiche aggiornate.
-
-   * **Modifica destinazione:** consente di accedere direttamente alla pagina [!UICONTROL Targeting] (il secondo passaggio nel flusso di lavoro guidato). Apporta le modifiche desiderate, quindi utilizza il pulsante di menu combinato (descritto in precedenza) per salvare l’attività.
-
-      * Fai clic su **[!UICONTROL Save & Close]** per salvare le modifiche e visualizzare la pagina Panoramica dell&#39;attività.
-      * Fai clic su **[!UICONTROL Save]** per salvare le modifiche e rimanere nel passaggio corrente, per apportare ulteriori modifiche. Attendi il completamento del salvataggio prima di apportare ulteriori modifiche. Al termine del salvataggio, nel Compositore esperienza visivo vengono caricate le modifiche aggiornate.
-
-   * **Modifica obiettivi e impostazioni:** consente di accedere direttamente alla pagina [!UICONTROL Goals & Settings] (ultimo passaggio nel flusso di lavoro guidato). Apporta le modifiche desiderate, quindi utilizza il pulsante di menu combinato (descritto in precedenza) per salvare l’attività.
-
-      * Fai clic su **[!UICONTROL Save & Close]** per salvare le modifiche e visualizzare la pagina Panoramica dell&#39;attività.
-      * Fai clic su **[!UICONTROL Save]** per salvare le modifiche e rimanere nel passaggio corrente, per apportare ulteriori modifiche. Attendi il completamento del salvataggio prima di apportare ulteriori modifiche. Al termine del salvataggio, nel Compositore esperienza visivo vengono caricate le modifiche aggiornate.
-
-## Utilizzare le attività legacy create in Recommendations Classic {#classic}
+## Utilizzare le attività legacy create in [!DNL Recommendations Classic] {#classic}
 
 Nell&#39;elenco [!UICONTROL Activities] sono visualizzate le attività create in diverse origini, incluso [!DNL Recommendations Classic]. Quando si lavora con attività legacy create in [!DNL Recommendations Classic], sono disponibili le seguenti azioni:
 
@@ -72,7 +59,7 @@ Non è possibile modificare direttamente un’attività [!DNL Recommendations]. 
 
 ## Salvare un’attività come bozza {#section_968CD7A63027432EBD8FAE3A0F7404C3}
 
-Le opzioni Salva bozza vengono visualizzate nel pulsante di menu combinato quando crei una nuova attività che non è ancora stata salvata o modifichi un’attività già salvata come bozza.
+Quando crei una nuova attività che non è ancora stata salvata o modifichi un&#39;attività già salvata come bozza, le opzioni [!UICONTROL Save Draft] vengono visualizzate nel pulsante di menu combinato.
 
 Puoi salvare un’attività in modalità bozza se è stata avviata l’impostazione dell’attività ma quest’ultima non è pronta per l’esecuzione.
 
@@ -97,7 +84,7 @@ Se fai parte di un’azienda multinazionale, potresti avere un’area di lavoro 
 
 Per ulteriori informazioni sulle aree di lavoro e sulla funzionalità Autorizzazioni per gli utenti Enterprise, vedere [Autorizzazioni per gli utenti Enterprise](/help/main/administrating-target/c-user-management/property-channel/property-channel.md#concept_E396B16FA2024ADBA27BC056138F9838).
 
-Se nel tuo ambiente sono state attivate le Autorizzazioni per utenti Enterprise, puoi copiare le attività nella stessa area di lavoro o in una differente. Attualmente non puoi spostare un’attività da un’area di lavoro a un’altra. Per copiare un&#39;attività in un&#39;altra area di lavoro, dalla pagina [!UICONTROL Activities], passa il puntatore del mouse sull&#39;attività da copiare, fai clic sull&#39;icona [!UICONTROL Copy], quindi seleziona l&#39;area di lavoro desiderata dall&#39;elenco a discesa.
+Se nel tuo ambiente sono state attivate le Autorizzazioni per utenti Enterprise, puoi copiare le attività nella stessa area di lavoro o in una differente. Attualmente non puoi spostare un’attività da un’area di lavoro a un’altra. Per copiare un&#39;attività in un&#39;altra area di lavoro, dalla pagina [!UICONTROL Activities] fare clic sull&#39;icona **[!UICONTROL More Actions]** ( ![Icona Altre azioni](/help/main/assets/icons/MoreSmall.svg) ) accanto all&#39;attività da copiare, quindi fare clic su [!UICONTROL **Copia**].
 
 Tieni in considerazione le seguenti informazioni quando utilizzi la funzionalità Copia/Modifica con le aree di lavoro:
 
