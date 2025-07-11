@@ -4,9 +4,9 @@ description: Scopri i diversi modi in cui puoi modificare un’attività esisten
 title: Come posso modificare un’attività o salvarla come bozza?
 feature: Activities
 exl-id: 5f2a930a-9950-430e-a898-50af1f917ec1
-source-git-commit: 9d9caa1d0d17f2126352d60f2ff1c09bfe87125e
+source-git-commit: fd368ba4a59c855fe9fc7c4bada4d93fcda006f0
 workflow-type: tm+mt
-source-wordcount: '1010'
+source-wordcount: '925'
 ht-degree: 39%
 
 ---
@@ -92,11 +92,3 @@ Tieni in considerazione le seguenti informazioni quando utilizzi la funzionalit�
 * Quando copi un’attività in un’area di lavoro diversa, l’attività viene copiata nell’altra area di lavoro senza essere aperta nel flusso di creazione dell’attività. Una volta copiata correttamente l’attività, un messaggio indica che l’attività è stata copiata correttamente e include un collegamento per aprire la nuova attività.
 
 Se l’ambiente in uso non dispone della funzionalità Autorizzazioni per gli utenti Enterprise, tutte le attività vengono aperte in modalità di modifica prima della copia.
-
-## Best practice
-
-* Come best practice, prova ad aggiornare l’attività utilizzando lo stesso metodo (interfaccia utente o API) utilizzato per creare l’attività stessa.
-
-  Le attività create utilizzando l&#39;interfaccia utente [!DNL Target] devono essere aggiornate tramite l&#39;interfaccia utente [!DNL Target]. Le attività create tramite API devono essere aggiornate tramite API. Se, ad esempio, crei un&#39;attività utilizzando l&#39;API ma successivamente la modifichi tramite l&#39;interfaccia utente [!DNL Target], non tutte le modifiche vengono aggiornate. Tutte le modifiche vengono memorizzate sul backend e possono essere aggiornate effettuando un’altra chiamata API.
-
-
