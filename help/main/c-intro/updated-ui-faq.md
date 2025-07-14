@@ -4,9 +4,9 @@ description: Domande e risposte sull'interfaccia utente  [!DNL Target] aggiornat
 title: Dove posso trovare le domande frequenti sull'interfaccia utente  [!DNL Target]  aggiornata?
 feature: Overview
 exl-id: 75db4791-ca51-472d-99dd-583f7a74b222
-source-git-commit: 107770a27a80943db858729ce1cb3dceeda22dfb
+source-git-commit: c445775bc96623f9742f648a82ed9b4e64bd463a
 workflow-type: tm+mt
-source-wordcount: '953'
+source-wordcount: '988'
 ht-degree: 0%
 
 ---
@@ -76,6 +76,15 @@ Per ulteriori informazioni, consulta [Aggiornamenti sensibili al tempo da conosc
 L’utilizzo dell’interruttore della versione dell’interfaccia utente presenta diverse limitazioni, tra cui la visibilità delle nuove attività, la modifica di quelle esistenti e la coerenza dei dettagli delle attività.
 
 Per ulteriori informazioni, consulta [Aggiornamenti sensibili al tempo da conoscere](/help/main/r-release-notes/release-notes.md#time-sensitive).
+
++++
+
+## Gli stati [!UICONTROL Save as Draft] e [!UICONTROL Syncing] sono ancora disponibili?
+
++++Dettagli
+
+
+Con gli ultimi aggiornamenti all&#39;interfaccia utente, gli stati [!UICONTROL Save as Draft] e [!UICONTROL Syncing] non sono più disponibili. Per ulteriori informazioni, vedere Stati in [Applicare filtri all&#39;elenco Attività](/help/main/c-activities/activities.md#filters) in *[!UICONTROL Activities overview]*.
 
 +++
 

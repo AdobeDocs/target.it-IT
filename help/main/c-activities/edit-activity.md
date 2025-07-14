@@ -1,19 +1,19 @@
 ---
-keywords: attività;tipi di attività;modificare attività;modifica; bozza
-description: Scopri i diversi modi in cui puoi modificare un’attività esistente, incluso il salvataggio di un’attività come bozza.
-title: Come posso modificare un’attività o salvarla come bozza?
+keywords: attività;attività;tipi di attività;modificare attività;activity;activity;activity types;edit activity;edit
+description: Scopri i diversi modi in cui puoi modificare un’attività esistente.
+title: Come posso modificare un’attività?
 feature: Activities
 exl-id: 5f2a930a-9950-430e-a898-50af1f917ec1
-source-git-commit: fd368ba4a59c855fe9fc7c4bada4d93fcda006f0
+source-git-commit: c445775bc96623f9742f648a82ed9b4e64bd463a
 workflow-type: tm+mt
-source-wordcount: '925'
-ht-degree: 39%
+source-wordcount: '769'
+ht-degree: 41%
 
 ---
 
-# Modificare un’attività o salvarla come bozza
+# Modificare un’attività
 
-Scopri come modificare le attività esistenti in [!DNL Adobe Target], incluso come salvare le modifiche come bozze. Questo articolo descrive i diversi metodi disponibili nell&#39;interfaccia [!DNL Target] per la modifica delle attività. Sia che si stiano aggiornando le esperienze, regolando le regole di targeting o configurando gli obiettivi, Target garantisce che le modifiche vengano salvate in modo sicuro prima dell&#39;attivazione.
+Scopri come modificare le attività esistenti in [!DNL Adobe Target]. Questo articolo descrive i diversi metodi disponibili nell&#39;interfaccia [!DNL Target] per la modifica delle attività. Sia che si stiano aggiornando le esperienze, regolando le regole di targeting o configurando gli obiettivi, [!DNL Target] garantisce che le modifiche vengano salvate in modo sicuro prima dell&#39;attivazione.
 
 [!DNL Target] fornisce varie posizioni nell&#39;interfaccia utente in cui è possibile modificare le attività esistenti. Il processo varia a seconda del metodo scelto.
 
@@ -59,18 +59,7 @@ Non è possibile modificare direttamente un’attività [!DNL Recommendations]. 
 
 ## Salvare un’attività come bozza {#section_968CD7A63027432EBD8FAE3A0F7404C3}
 
-Quando crei una nuova attività che non è ancora stata salvata o modifichi un&#39;attività già salvata come bozza, le opzioni [!UICONTROL Save Draft] vengono visualizzate nel pulsante di menu combinato.
-
-Puoi salvare un’attività in modalità bozza se è stata avviata l’impostazione dell’attività ma quest’ultima non è pronta per l’esecuzione.
-
-1. Crea una nuova attività o modifica un’attività esistente sotto forma di bozza.
-1. Seleziona l’opzione desiderata dal pulsante di menu combinato:
-
-   ![Salva bozza](/help/main/c-activities/assets/save_draft.png)
-
-   * **Avanti:** Per modificare un&#39;altra pagina nel flusso di lavoro in tre passaggi, fare clic su **[!UICONTROL Next]** per passare al passaggio desiderato.
-   * **Salva bozza e chiudi:** Apporta le modifiche desiderate nel passaggio corrente, fai clic sull&#39;elenco a discesa del pulsante di menu combinato, quindi seleziona **[!UICONTROL Save Draft and Close]** per salvare le modifiche e visualizzare la pagina [!UICONTROL Overview] dell&#39;attività.
-   * **Salva bozza:** Apporta le modifiche desiderate in un passaggio, fai clic sull&#39;elenco a discesa del pulsante di menu combinato, quindi seleziona **[!UICONTROL Save Draft]** per salvare le modifiche e rimanere in tale passaggio.
+La funzione Salva come bozza non è più disponibile. Per ulteriori informazioni, vedere *[!UICONTROL Status]* in [Applica filtri all&#39;elenco Attività](/help/main/c-activities/activities.md#filters).
 
 ## Copiare o modificare un’attività tramite le aree di lavoro {#section_45A92E1DD3934523B07E71EF90C4F8B6}
 
