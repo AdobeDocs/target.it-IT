@@ -1,13 +1,13 @@
 ---
-keywords: attività;attività;tipi di attività;modificare attività;activity;activity;activity types;edit activity;edit
+keywords: attività;attività;tipi di attività;modificare attività;modificare;attività;activity;activity;activity types;edit activity;copy
 description: Scopri i diversi modi in cui puoi modificare un’attività esistente.
 title: Come posso modificare un’attività?
 feature: Activities
 exl-id: 5f2a930a-9950-430e-a898-50af1f917ec1
-source-git-commit: c445775bc96623f9742f648a82ed9b4e64bd463a
+source-git-commit: caf431736f1e59473d3d5e564ab71088545837b7
 workflow-type: tm+mt
-source-wordcount: '769'
-ht-degree: 41%
+source-wordcount: '889'
+ht-degree: 28%
 
 ---
 
@@ -61,7 +61,7 @@ Non è possibile modificare direttamente un’attività [!DNL Recommendations]. 
 
 La funzione Salva come bozza non è più disponibile. Per ulteriori informazioni, vedere *[!UICONTROL Status]* in [Applica filtri all&#39;elenco Attività](/help/main/c-activities/activities.md#filters).
 
-## Copiare o modificare un’attività tramite le aree di lavoro {#section_45A92E1DD3934523B07E71EF90C4F8B6}
+## Copiare o modificare un’attività quando si utilizzano le aree di lavoro {#section_45A92E1DD3934523B07E71EF90C4F8B6}
 
 Un’area di lavoro consente a un’azienda di assegnare un gruppo specifico di utenti a un insieme specifico di proprietà. Un’area di lavoro è simile per vari aspetti a una suite di rapporti di [!DNL Adobe Analytics].
 
@@ -77,7 +77,24 @@ Se nel tuo ambiente sono state attivate le Autorizzazioni per utenti Enterprise,
 
 Tieni in considerazione le seguenti informazioni quando utilizzi la funzionalità Copia/Modifica con le aree di lavoro:
 
-* Quando copi un’attività all’interno della stessa area di lavoro, il primo passaggio del flusso di creazione dell’attività appena copiata si apre in modalità di modifica.
-* Quando copi un’attività in un’area di lavoro diversa, l’attività viene copiata nell’altra area di lavoro senza essere aperta nel flusso di creazione dell’attività. Una volta copiata correttamente l’attività, un messaggio indica che l’attività è stata copiata correttamente e include un collegamento per aprire la nuova attività.
+* Se si copia un&#39;attività all&#39;interno della stessa area di lavoro o dall&#39;area di lavoro predefinita in un&#39;area di lavoro non predefinita, l&#39;Activity Wizard viene aperta automaticamente. Nelle copie tra aree di lavoro diverse, potrebbe essere necessario aggiornare solo le proprietà dell’attività.
+* Quando un&#39;attività viene copiata da un&#39;area di lavoro non predefinita in un&#39;altra area di lavoro (predefinita o non predefinita), viene visualizzata l&#39;Activity Wizard e per completare l&#39;impostazione è necessario un input manuale:
+   * **[!UICONTROL Properties]**: le proprietà potrebbero essere diverse tra le aree di lavoro. Questa situazione potrebbe generare un avviso:
 
-Se l’ambiente in uso non dispone della funzionalità Autorizzazioni per gli utenti Enterprise, tutte le attività vengono aperte in modalità di modifica prima della copia.
+      * In [!UICONTROL Form-Based Experience Composer], gli avvisi vengono visualizzati direttamente all&#39;interno dell&#39;interfaccia utente per una visibilità immediata.
+
+        ![Avviso area di lavoro basata su modulo](/help/main/c-activities/assets/form-based-warning.png)
+
+      * Nel Compositore esperienza visivo, gli avvisi sono visibili quando si fa clic su [!UICONTROL Configure] > [!UICONTROL Properties].
+
+        ![vec-warning](/help/main/c-activities/assets/vec-warning.png)
+
+        Per risolvere il problema, fare clic su [!UICONTROL Add/Remove] in modo che vengano selezionate solo le proprietà disponibili nell&#39;area di lavoro di destinazione.
+
+   * **Tipi di pubblico e offerte**: tutti i tipi di pubblico e le offerte dell&#39;area di lavoro originale devono essere sostituiti. In alternativa, è possibile copiarli dalle pagine [!UICONTROL Audiences] o [!UICONTROL Offers] e quindi selezionare gli elementi appropriati dall&#39;elenco corrispondente all&#39;interno dell&#39;attività.
+
+   * **Modifiche manuali richieste**: tutte le modifiche manuali richieste vengono riepilogate nel passaggio finale ([!UICONTROL Save & Close]). Un pop-up visualizza un elenco di entità che richiedono aggiornamenti, garantendo che vengano effettuate tutte le regolazioni necessarie prima di completare l’impostazione dell’attività.
+
+     ![Avviso di convalida Workspace](/help/main/c-activities/assets/work-space-validation.png)
+
+Se nell&#39;ambiente non è abilitata la funzionalità [!UICONTROL Enterprise User Permissions], tutte le attività vengono aperte in modalità di modifica prima della copia.
