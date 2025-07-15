@@ -4,9 +4,9 @@ description: Scopri i diversi modi in cui puoi modificare un’attività esisten
 title: Come posso modificare un’attività?
 feature: Activities
 exl-id: 5f2a930a-9950-430e-a898-50af1f917ec1
-source-git-commit: caf431736f1e59473d3d5e564ab71088545837b7
+source-git-commit: cf7bc0f9ce72d5a170db76f5a932b196d4e1ddb0
 workflow-type: tm+mt
-source-wordcount: '889'
+source-wordcount: '890'
 ht-degree: 28%
 
 ---
@@ -73,7 +73,7 @@ Se fai parte di un’azienda multinazionale, potresti avere un’area di lavoro 
 
 Per ulteriori informazioni sulle aree di lavoro e sulla funzionalità Autorizzazioni per gli utenti Enterprise, vedere [Autorizzazioni per gli utenti Enterprise](/help/main/administrating-target/c-user-management/property-channel/property-channel.md#concept_E396B16FA2024ADBA27BC056138F9838).
 
-Se nel tuo ambiente sono state attivate le Autorizzazioni per utenti Enterprise, puoi copiare le attività nella stessa area di lavoro o in una differente. Attualmente non puoi spostare un’attività da un’area di lavoro a un’altra. Per copiare un&#39;attività in un&#39;altra area di lavoro, dalla pagina [!UICONTROL Activities] fare clic sull&#39;icona **[!UICONTROL More Actions]** ( ![Icona Altre azioni](/help/main/assets/icons/MoreSmall.svg) ) accanto all&#39;attività da copiare, quindi fare clic su [!UICONTROL **Copia**].
+Se nel tuo ambiente sono state attivate le Autorizzazioni per utenti Enterprise, puoi copiare le attività nella stessa area di lavoro o in una differente. Attualmente non puoi spostare un’attività da un’area di lavoro a un’altra. Per copiare un&#39;attività in un&#39;altra area di lavoro, dalla pagina [!UICONTROL Activities] fare clic sull&#39;icona **[!UICONTROL More Actions]** ( ![Icona Altre azioni](/help/main/assets/icons/MoreSmall.svg) ) accanto all&#39;attività da copiare, quindi fare clic su [!UICONTROL **Copia**] o **[!UICONTROL Edit]**.
 
 Tieni in considerazione le seguenti informazioni quando utilizzi la funzionalità Copia/Modifica con le aree di lavoro:
 
