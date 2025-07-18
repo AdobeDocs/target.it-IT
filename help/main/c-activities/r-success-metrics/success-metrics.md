@@ -4,10 +4,10 @@ description: Scopri le metriche di successo che ti aiutano a determinare il succ
 title: Cosa Sono Le Metriche Di Successo?
 feature: Success Metrics
 exl-id: 38d5314d-4950-4106-a058-0d221faf5a24
-source-git-commit: ad26684d40ccb5239a345da73adfa924a04189ef
+source-git-commit: a34d40bef584bfa941731df718cb402c658f5d28
 workflow-type: tm+mt
-source-wordcount: '1367'
-ht-degree: 21%
+source-wordcount: '1362'
+ht-degree: 22%
 
 ---
 
@@ -33,8 +33,8 @@ Le metriche di successo seguenti possono essere configurate nella sezione [!UICO
 
 | Metrica di successo | Approccio di misurazione | Definizione |
 |--- |--- |--- |
-| [!UICONTROL Con] versione | Basato su conversione | La conversione si verifica quando un visitatore esegue sul tuo sito un’azione da te definita, ad esempio <ul><li>Visualizzazione di una pagina</li><li>Visualizzazione di una mbox</li><li>Clic su un elemento</li></ul>Una conversione può essere conteggiata una volta per visitatore o ogni volta che un visitatore completa una conversione. |
-| [!UICONTROL Revenue] | Basato su conversione | Ricavi generati dalla visita. Puoi scegliere una sola metrica di ricavo:<ul><li>Visualizzazione di una mbox</li></ul>Per ulteriori informazioni sulle modifiche apportate all&#39;interfaccia utente di [!DNL Target] aggiornata per quanto riguarda le metriche di successo per le entrate, vedere [Modifiche all&#39;interfaccia utente relative alle metriche di successo](#changes) di seguito. |
+| [!UICONTROL Conversion] | Basato su conversione | La conversione si verifica quando un visitatore esegue sul tuo sito un’azione da te definita, ad esempio <ul><li>Visualizzazione di una pagina</li><li>Visualizzazione di una mbox</li><li>Clic su un elemento</li></ul>Una conversione può essere conteggiata una volta per visitatore o ogni volta che un visitatore completa una conversione. |
+| [!UICONTROL Revenue] | Basato su conversione | Ricavi generati dalla visita. Puoi scegliere una sola metrica di ricavo:<ul><li>Visualizzazione di una mbox</li></ul>Per ulteriori informazioni sulle modifiche apportate all&#39;interfaccia utente aggiornata di [!DNL Target] in relazione alle metriche di successo per le entrate, vedi [Aggiornato [!DNL Target] Modifiche all&#39;interfaccia utente](#changes) di seguito. |
 | [!UICONTROL Engagement] | Basato su coinvolgimento | Coinvolgimento generato dalla visita. Puoi scegliere una delle metriche di coinvolgimento seguenti:<UL><li>Visualizzazioni di pagina: ogni visita univoca viene conteggiata come conversione.</li><li>[!UICONTROL Custom Scoring]: Punteggio aggregato basato sul valore assegnato alle pagine visitate sul sito, dal momento in cui il visitatore vede per la prima volta la prima richiesta [!DNL Target] di visualizzazione dell&#39;attività.</li>[!DNL Time on Site]: tempo trascorso nella visita (in secondi) dal momento in cui il visitatore vede la prima richiesta di visualizzazione [!DNL Target] dell&#39;attività al caricamento della pagina finale con una richiesta nella sessione.</UL> |
 
 Per le metriche basate sul coinvolgimento (a differenza delle metriche basate sulla conversione e sui ricavi), i visitatori devono riqualificarsi per l’attività in ogni visita per incrementare il conteggio per quella sessione. La metrica associata inizia ad aumentare dopo la riqualificazione e termina alla fine di ogni sessione del visitatore. Una visita termina dopo 30 minuti di inattività. Pertanto, non vedrai immediatamente i risultati durante il test; tuttavia, tutti i risultati di quella sessione sono disponibili entro pochi minuti dalla fine della sessione.
@@ -111,11 +111,11 @@ Scegli il comportamento desiderato:
 
   Quando una metrica di successo è impostata per essere incrementata a ogni impression, [!DNL Target] conta nuovamente il visitatore ogni volta che visita questa metrica di successo. [!DNL Target] reimposta quindi su 0 la metrica di successo &quot;appartenenza&quot; in modo che possa contare di nuovo sull&#39;impression successiva. Pertanto, se un&#39;altra metrica richiede che questa metrica sia stata vista per prima, [!DNL Target] non riconosce mai che l&#39;utente ha visto la prima metrica.
 
-## Modifiche aggiornate all’interfaccia utente di Target
+## [!DNL Target] modifiche all&#39;interfaccia utente aggiornate {#changes}
 
 La versione [[!DNL Target Standard/Premium] 25.2.1](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-2), avviata il 17 febbraio 2015, ha introdotto [!DNL Target] e [!UICONTROL Visual Experience Composer] UI (VEC) aggiornate. Questa sezione illustra le differenze chiave tra l’interfaccia utente legacy e quella aggiornata, in particolare per quanto riguarda la configurazione e la gestione delle metriche di successo.
 
-### Modifiche all&#39;interfaccia utente relative a [!UICONTROL Revenue] metriche di successo {#changes}
+### Modifiche all&#39;interfaccia utente relative a [!UICONTROL Revenue] metriche di successo
 
 Nell&#39;interfaccia [!DNL Target] aggiornata, il menu a discesa [!UICONTROL Default View for Reporting] è stato rimosso. Questo campo era ridondante, in quanto in precedenza salvava la visualizzazione di reporting predefinita in [!DNL Overview] > [!UICONTROL Reports] nell&#39;interfaccia utente legacy.
 
