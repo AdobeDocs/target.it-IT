@@ -4,10 +4,10 @@ description: Domande e risposte sull'interfaccia utente  [!DNL Target] aggiornat
 title: Dove posso trovare le domande frequenti sull'interfaccia utente  [!DNL Target]  aggiornata?
 feature: Overview
 exl-id: 75db4791-ca51-472d-99dd-583f7a74b222
-source-git-commit: c445775bc96623f9742f648a82ed9b4e64bd463a
+source-git-commit: c8cbf4998c304910a63e31acc3ec93a04ac652ae
 workflow-type: tm+mt
-source-wordcount: '988'
-ht-degree: 0%
+source-wordcount: '1084'
+ht-degree: 1%
 
 ---
 
@@ -79,11 +79,29 @@ Per ulteriori informazioni, consulta [Aggiornamenti sensibili al tempo da conosc
 
 +++
 
-## Gli stati [!UICONTROL Save as Draft] e [!UICONTROL Syncing] sono ancora disponibili?
+## È possibile comprimere le barre [!UICONTROL Components] e [!UICONTROL Modifications] per ingrandire il pannello [!UICONTROL Design]? {#collapse}
 
 +++Dettagli
 
+Sì, è possibile comprimere entrambe le barre per espandere l&#39;area di lavoro [!UICONTROL Design] per semplificare la modifica. effettuando le seguenti operazioni:
 
+>[!NOTE]
+>
+>L&#39;icona [!UICONTROL Show Components] ( ![icona Mostra componenti](/help/main/assets/icons/Add.svg) ) e l&#39;icona [!UICONTROL Show Modifications] ( ![Barra delle modifiche](/help/main/assets/icons/History.svg) ) consentono di visualizzare le opzioni appropriate.
+
+**Comprimi la barra [!UICONTROL Components]**
+
+Per comprimere la barra [!UICONTROL Components] e ingrandire l&#39;area di lavoro [!UICONTROL Design] mentre la barra [!UICONTROL Components] è aperta, fare clic sull&#39;icona ( ![icona Mostra componenti](/help/main/assets/icons/Add.svg) ).
+
+**Comprimi la barra [!UICONTROL Modifications]**
+
+Per comprimere la barra [!UICONTROL Modifications] e ingrandire l&#39;area di lavoro [!UICONTROL Design] mentre la barra [!UICONTROL Modifications] è aperta, fare clic sull&#39;icona [!UICONTROL Show Modifications] ( ![Mostra barra Modifiche](/help/main/assets/icons/History.svg) ).
+
++++
+
+## Gli stati [!UICONTROL Save as Draft] e [!UICONTROL Syncing] sono ancora disponibili?
+
++++Dettagli
 Con gli ultimi aggiornamenti all&#39;interfaccia utente, gli stati [!UICONTROL Save as Draft] e [!UICONTROL Syncing] non sono più disponibili. Per ulteriori informazioni, vedere Stati in [Applicare filtri all&#39;elenco Attività](/help/main/c-activities/activities.md#filters) in *[!UICONTROL Activities overview]*.
 
 +++

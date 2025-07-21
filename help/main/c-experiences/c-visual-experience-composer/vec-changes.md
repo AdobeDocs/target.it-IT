@@ -4,9 +4,9 @@ description: Comprendere le modifiche introdotte nel Compositore esperienza visi
 title: Quali modifiche vengono introdotte nel nuovo Compositore esperienza visivo?
 feature: Visual Experience Composer (VEC)
 exl-id: 4c7a5657-93d9-4355-9d2b-c992b36bcb50
-source-git-commit: b1bde455f686c34e7a5184868ce63db0b74e2af7
+source-git-commit: c8cbf4998c304910a63e31acc3ec93a04ac652ae
 workflow-type: tm+mt
-source-wordcount: '781'
+source-wordcount: '876'
 ht-degree: 0%
 
 ---
@@ -43,11 +43,23 @@ Come nella versione precedente, la barra [!UICONTROL Experiences] rimane sul lat
 
 Per aggiungere un nuovo componente, trascinare il componente dalla barra [!UICONTROL Components] che si desidera inserire su un elemento di pagina esistente nell&#39;area di lavoro [!UICONTROL Design]. Quindi scegli di inserire il componente prima di dopo l’elemento selezionato.
 
+>[!NOTE]
+>
+>Se in quest&#39;area è presente la barra [!UICONTROL Modifications] invece della barra [!UICONTROL Components], fare clic sull&#39;icona **[!UICONTROL Show Components]** ( ![icona Mostra componenti](/help/main/assets/icons/Add.svg) ). L&#39;icona [!UICONTROL Show Components] ( ![icona Mostra componenti](/help/main/assets/icons/Add.svg) ) e l&#39;icona [!UICONTROL Show Modifications] ( ![Barra delle modifiche](/help/main/assets/icons/History.svg) ) consentono di visualizzare le opzioni appropriate.
+>
+>Per comprimere la barra [!UICONTROL Components] e ingrandire l&#39;area di lavoro [!UICONTROL Design] mentre la barra [!UICONTROL Components] è aperta, fare clic sull&#39;icona ( ![icona Mostra componenti](/help/main/assets/icons/Add.svg) ).
+
 ### Barra [!UICONTROL Modifications]
 
 Per aprire la barra [!UICONTROL Modifications], fai clic sull&#39;icona [!UICONTROL Show Modifications] ( ![Mostra barra delle modifiche](/help/main/assets/icons/History.svg) ) nella barra [!UICONTROL Components]. La barra di [!UICONTROL Modifications] ha cambiato posizione dal lato destro a quello sinistro dell&#39;area di modifica.
 
 ![Barra delle modifiche](/help/main/c-experiences/c-visual-experience-composer/assets/modifications-panel.png)
+
+>[!NOTE]
+>
+>L&#39;icona [!UICONTROL Show Components] ( ![icona Mostra componenti](/help/main/assets/icons/Add.svg) ) e l&#39;icona [!UICONTROL Show Modifications] ( ![Barra delle modifiche](/help/main/assets/icons/History.svg) ) consentono di visualizzare le opzioni appropriate.
+>
+>Per comprimere la barra [!UICONTROL Modifications] e ingrandire l&#39;area di lavoro [!UICONTROL Design] mentre la barra [!UICONTROL Modifications] è aperta, fare clic sull&#39;icona [!UICONTROL Show Modifications] ( ![Mostra barra Modifiche](/help/main/assets/icons/History.svg) ).
 
 La barra [!UICONTROL Modifications] mostra tutte le modifiche apportate alla pagina nel Compositore esperienza visivo e consente di apportare ulteriori modifiche (come selettore CSS, Mbox e codice personalizzato).
 
