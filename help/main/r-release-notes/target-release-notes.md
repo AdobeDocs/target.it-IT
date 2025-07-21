@@ -4,7 +4,7 @@ description: Scopri le nuove funzioni, i miglioramenti e le correzioni, compresi
 title: Quali nuove funzioni e miglioramenti saranno inclusi nella prossima versione [!DNL Target] ?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: df7e28060a6add53e1aaed928351b4f399b19c17
+source-git-commit: 2812132c2720f54fa7bee2b0a5e16623362fdc33
 workflow-type: tm+mt
 source-wordcount: '466'
 ht-degree: 34%
@@ -33,6 +33,8 @@ A causa dei problemi recenti identificati, principalmente correlati a complesse 
 
 +++Consulta i dettagli
 * È stato risolto un problema a causa del quale il metodo `buildViews` nella classe del generatore impostava erroneamente `viewMaxLocalId` sul numero totale di visualizzazioni, anziché sul numero massimo di `viewLocalId` assegnate. (TGT-53207)
+
++++
 
 **Compositore esperienza basato su moduli**
 
