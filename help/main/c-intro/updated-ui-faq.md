@@ -4,10 +4,10 @@ description: Domande e risposte sull'interfaccia utente  [!DNL Target] aggiornat
 title: Dove posso trovare le domande frequenti sull'interfaccia utente  [!DNL Target]  aggiornata?
 feature: Overview
 exl-id: 75db4791-ca51-472d-99dd-583f7a74b222
-source-git-commit: c8cbf4998c304910a63e31acc3ec93a04ac652ae
+source-git-commit: b91abbd3b7418fd4d1444d96f160c3d9017f3bf8
 workflow-type: tm+mt
-source-wordcount: '1084'
-ht-degree: 1%
+source-wordcount: '1112'
+ht-degree: 0%
 
 ---
 
@@ -79,11 +79,11 @@ Per ulteriori informazioni, consulta [Aggiornamenti sensibili al tempo da conosc
 
 +++
 
-## È possibile comprimere le barre [!UICONTROL Components] e [!UICONTROL Modifications] per ingrandire il pannello [!UICONTROL Design]? {#collapse}
+## È possibile comprimere le barre [!UICONTROL Components], [!UICONTROL Modifications] e [!UICONTROL Properties] in modo da poter ingrandire il pannello [!UICONTROL Design]? {#collapse}
 
 +++Dettagli
 
-Sì, è possibile comprimere entrambe le barre per espandere l&#39;area di lavoro [!UICONTROL Design] per semplificare la modifica. effettuando le seguenti operazioni:
+Sì, è possibile comprimere queste barre per espandere l&#39;area di lavoro [!UICONTROL Design] per semplificare la modifica. effettuando le seguenti operazioni:
 
 >[!NOTE]
 >
@@ -96,6 +96,10 @@ Per comprimere la barra [!UICONTROL Components] e ingrandire l&#39;area di lavor
 **Comprimi la barra [!UICONTROL Modifications]**
 
 Per comprimere la barra [!UICONTROL Modifications] e ingrandire l&#39;area di lavoro [!UICONTROL Design] mentre la barra [!UICONTROL Modifications] è aperta, fare clic sull&#39;icona [!UICONTROL Show Modifications] ( ![Mostra barra Modifiche](/help/main/assets/icons/History.svg) ).
+
+**Comprimi la barra [!UICONTROL Properties]**
+
+Per comprimere la barra [!UICONTROL Properties] e ingrandire l&#39;area di lavoro [!UICONTROL Design], fare clic sull&#39;icona [!UICONTROL Show/Hide Properties] ( ![icona Proprietà](/help/main/assets/icons/Propertie.svg) ) a destra della barra per comprimere o visualizzare la barra [!UICONTROL Properties].
 
 +++
 
