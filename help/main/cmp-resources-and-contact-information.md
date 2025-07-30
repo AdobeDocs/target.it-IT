@@ -4,10 +4,10 @@ description: Informazioni sulle risorse aggiuntive per scoprire di più sulle fu
 title: Dove posso trovare risorse e informazioni di contatto per Target?
 feature: Release Notes,Overview
 exl-id: 0433133c-933a-4d30-bab6-589395f0c9d6
-source-git-commit: 8c60b4c162850142ef3116db29e70a33f93c8e6a
+source-git-commit: 6304cafb00916491cbeab0299f527df56da30ee6
 workflow-type: tm+mt
-source-wordcount: '1135'
-ht-degree: 89%
+source-wordcount: '1177'
+ht-degree: 78%
 
 ---
 
@@ -15,24 +15,28 @@ ht-degree: 89%
 
 Informazioni sulle risorse aggiuntive per scoprire di più sulle funzionalità di Target e su come contattare Adobe in caso di necessità di assistenza con Target.
 
-## Forum della community di Target {#concept_9C203A8AED054DFFA9A504811DB6BA42}
+## [!UICONTROL Target Community Forum] {#concept_9C203A8AED054DFFA9A504811DB6BA42}
 
-La community di Target è l’unico posto per tutto ciò che riguarda Adobe Target.
+Scopri [!UICONTROL Adobe Target Community]: il tuo hub per approfondimenti e collaborazione.
 
-La Community consente di:
+[!UICONTROL Adobe Target Community Forum] è la destinazione di accesso per tutto [!DNL Adobe Targe]. Che tu abbia appena iniziato o sia un professionista esperto, la community offre preziose opportunità per:
 
-* Scoprire di più su ciò che Target ha da offrire
-* Connettersi con i colleghi e gli esperti di Adobe
-* Votare o inviare un&#39;idea per una futura versione di Target
+* **Esplora le funzionalità di [!DNL Target]**: scopri le best practice e i nuovi modi in cui utilizzare [!DNL Target].
+* **Connettiti e collabora**: interagisci con colleghi ed esperti di [!DNL Adobe] per condividere informazioni e risolvere insieme le sfide.
+* **Forma il futuro**: invia idee o vota le richieste di funzionalità per influenzare le prossime versioni di [!DNL Target].
+
+Partecipa alla conversazione, fornisci le tue competenze e ottieni le risposte che ti servono, il tutto in un&#39;unica posizione.
 
 Visita il [Forum della Community di Target](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community) per iniziare.
 
++++
+
 ## Serie di webinar sui fondamenti di Target {#concept_11902FAC95C64479AABE020557A7EEE4}
 
-Le informazioni sulla registrazione e i collegamenti alle sessioni precedenti delle serie di webinar sui fondamenti di Target, una serie Customer Success offerta dalla community.
++++Vedi i dettagli
+Esplora la [[serie di webinar sui fondamenti di Target]](https://landing.adobe.com/acs/2018/na/adobe-target/registration.html){target=_blank}, un&#39;iniziativa di successo del cliente offerta da [!UICONTROL Adobe Target Community]. Accedi ai dettagli di registrazione per le sessioni future e sfoglia le registrazioni di webinar precedenti per approfondire la tua conoscenza delle funzionalità di [!DNL Target], delle best practice e dei casi d&#39;uso reali.
 
-[Fai clic qui per guardare le sessioni precedenti o per ulteriori informazioni sulla registrazione e sulle prossime sessioni](https://landing.adobe.com/acs/2018/na/adobe-target/registration.html).
-
++++
 
 ## Sessioni “Office Hours” del Servizio clienti di Adobe {#concept_58EA30379D3B48C4848BA2A8C464A5B7}
 
@@ -44,7 +48,7 @@ Le attuali sessioni registrate di Target includono:
 
 | Argomento/Esecuzione/Data registrazione | Cosa imparerai |
 |--- |--- |
-| [Suggerimenti e panoramica su at.js](https://helpx.adobe.com/it/customer-care-office-hours/target/at-js-1x-Tips-and-Overview.html)<br>59:12<br>26 giugno 2019 | Contenuti:<ul><li>Vantaggi dell’utilizzo di at.js</li><li>Impostazioni di at.js</li><li>Gestione dello sfarfallio</li><li>Debug di at.js</li><li>Problemi noti</li><li>Domande frequenti</li></ul>Per ulteriori informazioni, consulta [Come funziona at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html?lang=it){target=_blank}. |
+| [Suggerimenti e panoramica su at.js](https://helpx.adobe.com/it/customer-care-office-hours/target/at-js-1x-Tips-and-Overview.html)<br>59:12<br>26 giugno 2019 | Contenuti:<ul><li>Vantaggi dell’utilizzo di at.js</li><li>Impostazioni di at.js</li><li>Gestione dello sfarfallio</li><li>Debug di at.js</li><li>Problemi noti</li><li>Domande frequenti</li></ul>Per ulteriori informazioni, consulta [Come funziona at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html){target=_blank}. |
 | [Aree di lavoro Target Premium](https://helpx.adobe.com/it/customer-care-office-hours/target/premium-workspaces.html)<br>27:49<br>4 settembre 2018 | Contenuti:<ul><li>Creare un’area di lavoro (profilo prodotto)</li><li>Creazione delle proprietà</li><li>Aggiunta di utenti</li><li>Aggiornamento dell’implementazione</li></ul>Per ulteriori informazioni, consulta [Autorizzazioni per gli utenti Enterprise](/help/main/administrating-target/c-user-management/property-channel/property-channel.md). |
 | [Compositore esperienza visivo](https://helpx.adobe.com/it/customer-care-office-hours/target/visual-experience-composer.html)<br>50:23<br>Dicembre 2017 | Contenuti:<ul><li>Funzionamento del Compositore esperienza visivo</li><li>Come evitare i problemi più comuni con Compositore esperienza visivo</li><li>Procedure utili che puoi utilizzare con Compositore esperienza visivo</li></ul>Per ulteriori informazioni in questa guida, vedi [Esperienze](/help/main/c-experiences/experiences.md). |
 | [Adobe Target: integrazione Analytics/Target (A4T)](https://helpx.adobe.com/it/customer-care-office-hours/target/analytics-target-A4T-integration.html)<br> 40:33<br>Gennaio 2018 | Contenuti:<ul><li>Configurare e convalidare il funzionamento dell&#39;integrazione </li><li>Funzionamento dell&#39;integrazione</li><li>Informazioni sui rapporti ideali da utilizzare in Analytics</li><li>Risposte alle domande più frequenti su A4T</li></ul>Per ulteriori informazioni in questa guida, vedere [Adobe Analytics as the Reporting Source for Adobe Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md). |
@@ -68,7 +72,7 @@ Se hai domande, puoi chiedere agli esperti di Adobe Target nella [Community Adob
 
 Per questioni tecniche o per segnalare un bug puoi contattare l&#39;assistenza clienti. Puoi contattare l&#39;assistenza clienti telefonicamente, chiamando il numero 1-800-497-0335. Puoi trovare i numeri verdi da chiamare se vivi al di fuori degli Stati Uniti sulla pagina [Numeri regionali dell’assistenza clienti di Adobe Digital Marketing](https://helpx.adobe.com/it/contact/dma-external/DMACustomeCareRegionalPhoneNumbers.html). Quando ti viene richiesto di selezionare un&#39;opzione per il prodotto, premi 3 per contattare il team di Target.
 
-Contatta [L&#39;Assistenza Clienti Adobe](https://helpx.adobe.com/it/contact.html){target=_blank}.
+Contatta [L&#39;Assistenza Clienti Adobe](https://helpx.adobe.com/contact.html){target=_blank}.
 
 Per consentire una più rapida valutazione del problema, tieni le seguenti informazioni di base a portata di mano:
 
@@ -101,7 +105,7 @@ Informazioni utili su come contattare Adobe e sulle questioni legali riguardanti
 Il team Assistenza clienti di Adobe Experience Cloud è a tua disposizione e può essere contattato in vari modi:
 
 * [Consulta le pagine dell’Aiuto di Experience Cloud per consigli, suggerimenti e domande frequenti](https://helpx.adobe.com/it/marketing-cloud.html)
-* [Apri un ticket per ottenere aiuto dal supporto](https://experienceleague.adobe.com/it?support-solution=Target&lang=it#support)
+* [Apri un ticket per ottenere aiuto dal supporto](https://experienceleague.adobe.com/?support-solution=Target&lang=it#support)
 * [Contatta direttamente il team di Assistenza clienti](https://helpx.adobe.com/it/marketing-cloud/contact-support.html)
 * [Verifica la disponibilità e lo stato delle soluzioni Experience Cloud](https://status.adobe.com/it)
 

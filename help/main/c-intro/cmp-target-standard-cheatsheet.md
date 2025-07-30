@@ -1,39 +1,63 @@
 ---
 keywords: Target Standard;faq;domande frequenti;guida di riferimento rapido;riferimento rapido
-description: Esplora un elenco di domande frequenti sull’utilizzo delle funzionalità di Adobe Target, oltre a informazioni e collegamenti per ulteriori informazioni.
+description: Esplora un elenco di domande frequenti sull'utilizzo delle funzionalità di  [!DNL Target], oltre a informazioni e collegamenti per ulteriori informazioni.
 title: Dove posso trovare le risposte alle mie domande su ottimizzazione e personalizzazione?
 feature: Overview
 exl-id: 75e29d2a-78e7-40aa-b134-36a7cc8b3ed8
-source-git-commit: 21d31fdf145f7c74be717885c15b35c3d1d61ed9
+source-git-commit: 6304cafb00916491cbeab0299f527df56da30ee6
 workflow-type: tm+mt
-source-wordcount: '2623'
-ht-degree: 79%
+source-wordcount: '2693'
+ht-degree: 71%
 
 ---
 
 # Domande frequenti sull’ottimizzazione e la personalizzazione di Target
 
-Un elenco delle domande frequenti sull&#39;utilizzo delle funzionalità di [!DNL Adobe Target], oltre a informazioni e collegamenti per ulteriori informazioni.
+Risposte alle domande frequenti sull&#39;utilizzo delle funzionalità di [!DNL Adobe Target]. Scopri come ottimizzare i tuoi esperimenti, personalizzare le esperienze e accedere a risorse utili con collegamenti diretti per approfondimenti.
 
 ## Informazioni generali {#section_CE5713B5AAC341C9A75586C107797FA3}
 
+**Dove posso trovare informazioni sull&#39;interfaccia utente [!DNL Target] aggiornata e su [!UICONTROL Visual Experience Composer] (Compositore esperienza visivo)?**
+
++++Consulta i dettagli
+
+L’interfaccia utente è strutturata in un formato logico e intuitivo per trarre il massimo da [!DNL Target]. La seguente breve panoramica consente di acquisire familiarità con [!DNL Target] e il Compositore esperienza visivo e fornisce collegamenti per ottenere informazioni più approfondite e istruzioni dettagliate.
+
+Per ulteriori informazioni, consulta [Comprendere l&#39;interfaccia utente [!DNL Target] ](/help/main/c-intro/understand-the-target-ui.md).
+
++++
+
 **Come posso vedere come altri clienti hanno sfruttato [!DNL Target] per ottenere risultati migliori?**
 
-Qui ci sono solo alcune [storie di successo dei nostri clienti](https://www.adobe.com/it/marketing-cloud/target/resources.html#x). Scopri come altri clienti hanno sfruttato Target per migliorare l&#39;ottimizzazione e la personalizzazione per raggiungere gli obiettivi aziendali.
++++Vedi i dettagli
+Esplora le [storie di successo dei clienti](https://www.adobe.com/it/marketing-cloud/target/resources.html#x) reali per scoprire come le organizzazioni utilizzano [!DNL Target] per ottimizzare, personalizzare le esperienze e raggiungere risultati aziendali misurabili.
 
-Si noti che alcuni di questi casi di studio sfruttano le funzionalità di Adobe Target Premium.
++++
 
 **Dove posso scoprire le ultime funzionalità di [!DNL Target]?**
 
-Consulta le [Note sulla versione](/help/main/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A) per controllare i dettagli dell’ultima versione. Sono inoltre disponibili online informazioni su tutte le [versioni precedenti](/help/main/r-release-notes/release-notes-for-previous-releases.md).
++++Vedi i dettagli
+Rimani aggiornato con [!DNL Target] versioni.
+
+* **Ultima versione**: consulta le [[!DNL Target] note sulla versione (corrente)](/help/main/r-release-notes/release-notes.md) per informazioni dettagliate su nuove funzioni, miglioramenti e correzioni di bug.
+* **Prossime versioni**: visita le [[!DNL Target] note sulla versione (prerelease)](/help/main/r-release-notes/target-release-notes.md) per visualizzare un&#39;anteprima delle prossime versioni.
+* **Versioni precedenti**: sfoglia le [note sulla versione per le versioni precedenti](/help/main/r-release-notes/release-notes-for-previous-releases.md) per gli aggiornamenti e le modifiche storiche.
+
++++
 
 **[!DNL Adobe] dispone di una community o un forum in cui è possibile trovare risposte e ulteriori informazioni su [!DNL Target]?**
 
-Visita il [forum Target Community](/help/main/cmp-resources-and-contact-information.md#concept_9C203A8AED054DFFA9A504811DB6BA42), dove aiutiamo i clienti, ma ancora più importante, dove i professionisti di Adobe Target come te si possono aiutare a vicenda. Dopo tutto, il successo di una community e di un forum si basa sulla partecipazione attiva dei suoi membri. Diventa parte della community per contribuire e per cercare le risposte alle tue domande.
++++Vedi i dettagli
+Connettiti con altri professionisti di [!DNL Target] nel [Forum della community di Target](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community){target=_blank}. Condividi le tue competenze, fai domande e collabora con altri utenti che utilizzano [!DNL Target] per promuovere la personalizzazione e la sperimentazione. Una comunità fiorente dipende dalla partecipazione attiva. Le tue conoscenze ed esperienze possono aiutare gli altri a raggiungere il successo. Entra, contribuisci e trova le risposte che ti servono.
+
++++
 
 **Quali browser sono supportati da [!DNL Target]?**
 
-Per maggiori dettagli, consulta la nostra griglia dei [browser supportati](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html?lang=it){target=_blank}. Si noti che sono disponibili due funzioni: il supporto dell&#39;interfaccia Experience Cloud di Target Standard/Premium e il supporto del browser per gli utenti finali su desktop/dispositivi.
++++Vedi i dettagli
+Per ulteriori dettagli, consulta la nostra matrice [Browser supportati](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html){target=_blank}. Si noti che esistono due aspetti: il supporto dell&#39;interfaccia [!DNL Target Standard/Premium] e il supporto del browser per l&#39;utente finale su desktop/dispositivi.
+
++++
 
 ## Attività {#section_CB95B3BF9934445DB98E8A7E22FC2CF6}
 
@@ -43,7 +67,7 @@ Utilizza [Test A/B](/help/main/c-activities/t-test-ab/test-ab.md#task_05E33EB15C
 
 **Come faccio a sapere quando interrompere un&#39;attività?**
 
-Arrestare le attività prematuramente può portare a conclusioni sbagliate. Presta attenzione alle [problematiche comuni e garantire pratiche per evitarle](/help/main/c-activities/t-test-ab/common-ab-testing-pitfalls.md#section_DF01A97275E44CA5859D825E0DE2F49F). Vedi anche: [Per quanto tempo si deve eseguire un test A/B](/help/main/c-activities/t-test-ab/sample-size-determination.md)?
+L’interruzione prematura delle attività può portare a conclusioni sbagliate. Presta attenzione alle [problematiche comuni e garantire pratiche per evitarle](/help/main/c-activities/t-test-ab/common-ab-testing-pitfalls.md#section_DF01A97275E44CA5859D825E0DE2F49F). Vedi anche: [Per quanto tempo si deve eseguire un test A/B](/help/main/c-activities/t-test-ab/sample-size-determination.md)?
 
 **Come posso eseguire un&#39;attività se la finestra temporale è piccola?**
 
@@ -155,7 +179,7 @@ Utilizza i controlli di allocazione della percentuale disponibili nel [passaggio
 Dai un&#39;occhiata alle seguenti funzioni del prodotto:
 
 * [Analytics for Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
-* [Attributi del cliente](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html?lang=it)
+* [Attributi del cliente](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html)
 * [Tipi di pubblico](/help/main/c-integrating-target-with-mac/mmp.md)
 
 ## Esperienze {#section_5959536B8D6A4BEA8FAA1273338F3451}
@@ -194,7 +218,7 @@ Prova la funzione dei [riquadri di visualizzazione per dispositivi mobili](/help
 
 Rivolgiti ad Adobe per [assicurarti di avere l’account configurato per Scene7](/help/main/administrating-target/scene7-settings.md#task_37AD0768EFBA4E588955FE3D5DD670A5). Una volta impostato, sarai in grado di scambiare un&#39;immagine con un&#39;altra immagine in tutta facilità.
 
-**Voglio testare due esperienze diverse, per esempio sconto forfettario e sconto percentuale, ma voglio indirizzare le esperienze correttamente (mostrare diverso testo locale o valuta diversa per le persone provenienti da paesi diversi). Come posso fare?**
+**Voglio testare due esperienze diverse, per esempio sconto forfettario e sconto percentuale, ma voglio indirizzare le esperienze correttamente (mostrare diverso testo in una specifica lingua o con una specifica valuta alle persone provenienti da vari paesi). Come posso fare?**
 
 Puoi farlo semplicemente con la [funzionalità Più versioni di esperienza](/help/main/c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences.md#task_0138112E283A4A5B9F8AB9AAF2FBC2FF). Notare le sfumature di consegna in tali test
 
@@ -252,7 +276,7 @@ Dai un&#39;occhiata alle seguenti funzioni del prodotto:
 
 * [Analytics for Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
 
-* [Attributi del cliente](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html?lang=it)
+* [Attributi del cliente](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html)
 
 * [Tipi di pubblico](/help/main/c-integrating-target-with-mac/mmp.md)
 
