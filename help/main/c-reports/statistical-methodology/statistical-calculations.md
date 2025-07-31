@@ -4,9 +4,9 @@ description: Scopri i calcoli statistici utilizzati nelle attività manuali [!UI
 title: Come posso ottenere informazioni sui calcoli statistici utilizzati nelle attività [!UICONTROL A/B Test]?
 feature: Reports
 exl-id: 5f7377b9-0567-4b6f-8968-4696b2088d0a
-source-git-commit: bb95d160940737e23022d70cbe56567f79cbf255
+source-git-commit: 18f8ccd3edfda635c3f47bd67ff0b7a516748fa8
 workflow-type: tm+mt
-source-wordcount: '1054'
+source-wordcount: '1143'
 ht-degree: 2%
 
 ---
@@ -50,6 +50,8 @@ Qui,
 L’intervallo di confidenza del tasso di conversione è intuitivamente definito come un intervallo di possibili tassi di conversione coerente con i dati sottostanti.
 
 Quando si eseguono esperimenti, il tasso di conversione per una determinata esperienza è una *stima* del tasso di conversione &quot;true&quot;. Per quantificare l&#39;incertezza in questa stima, [!DNL Target] utilizza un intervallo di affidabilità. [!DNL Target] riporta sempre un intervallo di affidabilità del 95%, il che significa che alla fine il 95% degli intervalli di affidabilità calcolati include il tasso di conversione effettivo dell&#39;esperienza.
+
+Viene inoltre riportato un numero di &quot;affidabilità&quot; accanto all’esperienza attualmente leader o vincente. Questa cifra viene segnalata solo fino a quando [!UICONTROL Confidence] dell&#39;esperienza principale non raggiunge almeno il 60%. Se nell’attività sono presenti due esperienze, questo numero rappresenta il livello di affidabilità con cui le prestazioni dell’esperienza sono migliori rispetto all’altra esperienza. Se nell’attività sono presenti più di due esperienze, questo numero rappresenta il livello di affidabilità con cui le prestazioni dell’esperienza sono migliori rispetto all’esperienza di &quot;controllo&quot; definita. Se l’esperienza &quot;Controllo&quot; sta vincendo, non viene segnalato alcun valore &quot;Affidabilità&quot;.
 
 Un intervallo di affidabilità del 95% del tasso di conversione *μ<sub></sub>* è definito come l&#39;intervallo di valori:
 
@@ -115,7 +117,7 @@ Dove *μ<sub>v</sub>* e *μ<sub>v0</sub>* sono le medie rispettivamente di *μ* 
 
 <p style="text-align:center;"><img width="150px" src="img/standard_error_diff.png"></p>
 
-Dove *<sup>2</sup><sub>v</sub>* e *Prodotti finiti<sup>2</sup><sub>v<sub>0</sub></sub>* sono le varianze di due esperienze **&#x200B; e *0</sub>* rispettivamente e *N<sub>v</sub>* e *N<sub>v<sub>0</sub></sub>* sono le dimensioni campione rispettivamente di &#x200B;** e *24&rbrace;0</sub>*.<sub><sub>
+Dove *<sup>2</sup><sub>v</sub>* e *Prodotti finiti<sup>2</sup><sub>v<sub>0</sub></sub>* sono le varianze di due esperienze ** e *0<sub> rispettivamente e</sub>* N *v<sub> e</sub>* N *v<sub>0<sub> sono le dimensioni campione rispettivamente di</sub></sub>**e* 24}0 *.<sub></sub>*
 
 Per il test t di Welch, il grado di libertà è calcolato come segue:
 
