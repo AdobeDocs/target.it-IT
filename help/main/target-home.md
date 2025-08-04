@@ -4,10 +4,10 @@ title: Guida di Adobe Target per professionisti aziendali
 description: Scopri come utilizzare Adobe  [!DNL Target]  per personalizzare l’esperienza dei clienti al fine di massimizzare i ricavi su siti web e mobili, app e altri canali digitali.
 feature: Overview
 exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
-source-git-commit: 91059ceb8cc0fd4e7aa72f347ffd1584999ed264
+source-git-commit: bc5be9a922c5c853c3fb466102cb8fb622e4494e
 workflow-type: tm+mt
-source-wordcount: '670'
-ht-degree: 25%
+source-wordcount: '648'
+ht-degree: 26%
 
 ---
 
@@ -29,23 +29,11 @@ Il team [!DNL Target] ha regolato la timeline per l&#39;attivazione/disattivazio
 
 >[!TAB Novità]
 
-**Sono state aggiornate le informazioni sull&#39;opzione di deprecazione della versione dell&#39;interfaccia utente**
-
-Il team [!DNL Target] ha regolato la timeline per l&#39;attivazione/disattivazione della versione dell&#39;interfaccia utente.
-
-[![Icona Ulteriori informazioni](/help/main/assets/learn-more.svg)](/help/main/r-release-notes/release-notes.md)
-
-**Target 25.7.3 è live!**
+**Target 25.7.4 è live!**
 
 Questa versione include correzioni e miglioramenti all&#39;interfaccia utente [!DNL Target] e al Compositore esperienza visivo [!UICONTROL Visual Experience Composer] aggiornati.
 
 [![Icona Ulteriori informazioni](/help/main/assets/learn-more.svg)](/help/main/r-release-notes/release-notes.md)
-
-Domande frequenti sull&#39;aggiornamento dell&#39;interfaccia utente **[!DNL Target]**
-
-Queste domande frequenti riguardano le domande comuni sulla nuova interfaccia utente [!DNL Target] e sul nuovo Compositore esperienza visivo [!UICONTROL Visual Experience Composer], incluse le modifiche alla navigazione, le posizioni delle funzionalità e la rimozione dell&#39;interruttore di versione temporaneo dell&#39;interfaccia utente. Che tu sia un addetto marketing, uno sviluppatore o un amministratore, queste domande frequenti consentono una transizione fluida e di sfruttare al massimo l’interfaccia utente aggiornata.
-
-[![Icona Ulteriori informazioni](/help/main/assets/learn-more.svg)](/help/main/c-intro/updated-ui-faq.md)
 
 >[!TAB Interfaccia utente di Target aggiornata]
 
@@ -54,6 +42,12 @@ Queste domande frequenti riguardano le domande comuni sulla nuova interfaccia ut
 L&#39;interfaccia utente è stata progettata per garantire chiarezza ed efficienza, consentendo di ottenere il massimo da [!DNL Target]. Esplora le risorse per aiutarti a familiarizzare rapidamente con la soluzione, con collegamenti diretti ad articoli dettagliati e istruzioni dettagliate.
 
 [![Icona Ulteriori informazioni](/help/main/assets/learn-more.svg)](/help/main/c-intro/understand-the-target-ui.md)
+
+*[!DNL *Targe]t Domande frequenti sull&#39;aggiornamento dell&#39;interfaccia utente**
+
+Queste domande frequenti riguardano le domande comuni sulla nuova interfaccia utente [!DNL Target] e sul nuovo Compositore esperienza visivo [!UICONTROL Visual Experience Composer], incluse le modifiche alla navigazione, le posizioni delle funzionalità e la rimozione dell&#39;interruttore di versione temporaneo dell&#39;interfaccia utente. Che tu sia un addetto marketing, uno sviluppatore o un amministratore, queste domande frequenti consentono una transizione fluida e di sfruttare al massimo l’interfaccia utente aggiornata.
+
+[![Icona Ulteriori informazioni](/help/main/assets/learn-more.svg)](/help/main/c-intro/updated-ui-faq.md)
 
 >[!TAB Assistente IA]
 
@@ -88,7 +82,7 @@ Esperti di marketing, sviluppatori, amministratori, analisti e addetti al contro
 
 - [[!DNL Target] note sulla versione](r-release-notes/release-notes.md): contiene informazioni sulla versione corrente, informazioni sui problemi noti che interessano [!DNL Target], un elenco di modifiche importanti alla presente documentazione e un archivio delle note sulle versioni passate.
 - [Introduzione a [!DNL Target]](c-intro/intro.md): illustra i concetti fondamentali di [!DNL Target].
-- [Interfaccia utente [!DNL Target] 2&rbrace;: consente di acquisire familiarità con ](/help/main/c-intro/understand-the-target-ui.md) e fornisce collegamenti per ottenere informazioni più approfondite e istruzioni dettagliate.[!DNL Target]
+- [Interfaccia utente [!DNL Target] 2}: consente di acquisire familiarità con ](/help/main/c-intro/understand-the-target-ui.md) e fornisce collegamenti per ottenere informazioni più approfondite e istruzioni dettagliate.[!DNL Target]
 - Panoramica di [[!UICONTROL AI Assistant]](/help/main/c-intro/ai-assistant.md): [!DNL AI Assistant] in A[!DNL dobe Experience Platform] è una funzionalità dell&#39;interfaccia utente che consente di navigare e comprendere i concetti di [!DNL Adobe Target].
 - Integrare [!DNL Target] con [!DNL Adobe Experience Cloud]: illustra come integrare [!DNL Target] con altre soluzioni [!DNL Experience Cloud], tra cui [[!UICONTROL Analytics for Target]](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T), [[!DNL Experience Cloud Audiences]](/help/main/c-integrating-target-with-mac/mmp.md) e [[!DNL Adobe Campaign]](/help/main/c-integrating-target-with-mac/campaign-and-target.md).
 - [[!DNL Adobe Target] Esercitazioni](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html?lang=it): fornisce esercitazioni e video per ottenere il massimo da [!DNL Target].
