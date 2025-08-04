@@ -1,13 +1,13 @@
 ---
 keywords: note sulla versione;versioni;aggiornamenti;versione futura;miglioramenti;nuove funzioni;correzioni;aggiornamenti;prerelease;early access
-description: Scopri le nuove funzioni, i miglioramenti e le correzioni, compresi SDK, API e librerie JavaScript, inclusi nella prossima versione di [!DNL Adobe Target].
+description: Scopri le nuove funzioni, i miglioramenti e le correzioni, compresi SDK, API e librerie JavaScript, inclusi nella prossima versione di [!DNL Target].
 title: Quali nuove funzioni e miglioramenti saranno inclusi nella prossima versione [!DNL Target] ?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 265108dbb0a459e1b111fda01a35042170f05562
+source-git-commit: f00cec3194863bb7187d4cdc91c39a87b624e9bd
 workflow-type: tm+mt
 source-wordcount: '177'
-ht-degree: 71%
+ht-degree: 69%
 
 ---
 
@@ -25,9 +25,9 @@ Questo articolo contiene informazioni prerelease per le prossime versioni di [!D
 >
 >* I codici tra parentesi sono per uso interno di [!DNL Adobe].
 
-## [!DNL Target Standard/Premium] 25.7.3 (venerdì 24 luglio 2025)
+## [!DNL Target Standard/Premium] 25.7.4 (1 agosto 2025)
 
-La versione 25.7.3 è live. Per informazioni dettagliate, consulta le [[!DNL Target] note sulla versione (corrente)](/help/main/r-release-notes/release-notes.md).
+La versione 25.7.4 è live. Per informazioni dettagliate, consulta le [[!DNL Target] note sulla versione (corrente)](/help/main/r-release-notes/release-notes.md).
 
 ## Note aggiuntive e dettagli sulla versione
 

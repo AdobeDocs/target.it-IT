@@ -2,13 +2,13 @@
 keywords: note sulla versione;nuove funzioni;versioni;aggiornamenti;aggiornamento;versione;miglioramenti;correzioni;correzioni di bug;aggiornamenti;aggiornamenti;aggiornamenti correnti
 description: Scopri le nuove funzioni, i miglioramenti e le correzioni inclusi nella versione corrente di  [!DNL Adobe Target], compresi SDK, API e librerie JavaScript.
 landing-page-description: Scopri le nuove funzioni, i miglioramenti e le correzioni inclusi nella versione corrente di  [!DNL Adobe Target].
-short-description: Scopri le nuove funzioni, i miglioramenti e le correzioni inclusi nella versione corrente di  [!DNL Adobe Target].
+short-description: Scopri le nuove funzioni, i miglioramenti e le correzioni inclusi nella versione corrente di  [!DNL Target].
 title: Cosa è incluso nella versione corrente?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 265108dbb0a459e1b111fda01a35042170f05562
+source-git-commit: f00cec3194863bb7187d4cdc91c39a87b624e9bd
 workflow-type: tm+mt
-source-wordcount: '4383'
+source-wordcount: '4816'
 ht-degree: 11%
 
 ---
@@ -75,6 +75,66 @@ Le informazioni seguenti descrivono i limiti di cui tenere conto quando si scegl
 
 +++
 
+## [!DNL Target Standard/Premium] 25.7.4 (1 agosto 2025)
+
+Questa versione risolve i problemi recenti, causati principalmente da complesse personalizzazioni dei clienti, e include le correzioni e i miglioramenti seguenti:
+
+**Attività**
+
++++Consulta i dettagli
+* È stato risolto un problema a causa del quale un cliente riscontrava un errore di tipo &quot;Input utente non valido&quot; durante il tentativo di salvare un’attività live, anche senza apportare modifiche. La risposta di GraphQL indica un problema LocalId duplicato. (TGT-53329, TGT-53373 e TGT-53195)
+* È stato risolto un problema che impediva la creazione di un’esperienza di reindirizzamento nel Compositore esperienza visivo aggiornato. L’URL di reindirizzamento è stato ignorato ed è stata visualizzata la pagina originale. (TGT-53306)
+
++++
+
+**Localizzazione**
+
++++Consulta i dettagli
+* È stato risolto un problema di localizzazione nel modale [!UICONTROL Create Criteria] a causa del quale, quando si selezionava l&#39;opzione &quot;tra i seguenti valori&quot; nell&#39;elenco a discesa [!UICONTROL Choose Price Rule], la stringa &quot;to&quot; veniva slocalizzata nella sezione [!UICONTROL Inclusion Rules]. (TGT-49754)
+* È stato risolto un problema di localizzazione con la stringa &quot;[!UICONTROL All host groups]&quot; nell&#39;elenco a discesa [!UICONTROL Environment] della procedura guidata di creazione dei feed non localizzata correttamente. (TGT-46737)
+
++++
+
+**QA**
+
++++Consulta i dettagli
+* È stato risolto un problema che impediva all’ambiente di controllo qualità di caricare i dati in più schede, rendendo l’interfaccia inutilizzabile. (TGT-53377)
+* È stato risolto un problema che impediva la creazione di un’attività nell’ambiente di controllo qualità. Il processo è stato reindirizzato alla pagina [!UICONTROL Activities] invece di essere completato correttamente. (TGT-53328)
+
++++
+
+**Raccomandazioni**
+
++++Consulta i dettagli
+* È stato risolto un problema che causava l&#39;arresto anomalo della pagina quando si passava il mouse sull&#39;operando di &quot;apprendimento profondo&quot; durante la creazione di una raccolta in [!DNL Recommendations]. (TGT-53305)
+* È stato risolto un problema a causa del quale i suggerimenti del filtro in [!UICONTROL Catalog Search] nell&#39;interfaccia utente aggiornata non erano accurati. (TGT-52007)
+* È stato risolto un problema nell&#39;interfaccia utente [!DNL Recommendations] a causa del quale veniva visualizzato il filtro Operandi quando si utilizzavano gli operatori &quot;value is present&quot; (valore presente) o &quot;value is not present&quot; (valore non presente), anche se doveva essere nascosto. (TGT-53012)
+
++++
+
+**Compositore esperienza visivo**
+
++++Consulta i dettagli
+* È stato risolto un problema che si verificava quando un utente faceva clic su [!UICONTROL Manage Content] e poi su [!UICONTROL Done] durante la modifica di un&#39;attività di Automated Personalization (AP). La pagina restava vuota e non rispondeva. (TGT-53047 e TGT-52993)
+* È stato risolto un problema che causava l&#39;arresto anomalo della pagina a causa della selezione della metrica di conversione [!UICONTROL Viewed an mbox] in [!UICONTROL Goals & Settings]. (TGT-53346, TGT-53343, TGT-53348)
+* È stato risolto un problema che impediva alla funzionalità [!UICONTROL Redirect to URL] di funzionare come previsto, in quanto non si verificava alcun reindirizzamento anche con URL validi. (TGT-53307)
+
++++
+
+**Aree di lavoro**
+
++++Consulta i dettagli
+* È stato risolto un problema che si verificava durante la copia di attività tra aree di lavoro causava la duplicazione di voci &quot;Copia pubblico&quot; e conflitti di ID. I tipi di pubblico vengono ora copiati con ID univoci, contesto dell’area di lavoro e gestione ricorsiva per i tipi di pubblico combinati (fino a 5 livelli). (TGT-53081)
+* È stato risolto un problema che si verificava se l&#39;area di lavoro era impostata su &quot;[!UICONTROL All Workspaces]&quot;. La copia di un&#39;attività già esistente nell&#39;area di lavoro predefinita generava un errore errato:
+
+  &quot;È necessario includere almeno una proprietà per le aree di lavoro non predefinite.&quot;
+
+  Poiché la copia si trova nell’area di lavoro predefinita, non è richiesta alcuna proprietà. Se si tenta di aggiungere una proprietà e salvare, viene generato un secondo errore:
+
+  &quot;Input utente non valido&quot;
+
++++
+
 ## [!DNL Target Standard/Premium] 25.7.3 (venerdì 24 luglio 2025)
 
 A causa dei problemi recenti identificati, principalmente correlati a complesse personalizzazioni dei clienti, questa versione include le correzioni e gli aggiornamenti seguenti:
@@ -137,7 +197,6 @@ A causa dei problemi recenti identificati, principalmente correlati a complesse 
 **Compositore esperienza visivo**
 
 +++Consulta i dettagli
-
 * È stato risolto un problema nel Compositore esperienza visivo a causa del quale l’applicazione di una modifica a una visualizzazione causava la duplicazione e attivava un errore di tipo &quot;Input utente non valido&quot;. (TGT-52886)
 * È stato risolto un problema con la funzionalità [!UICONTROL Undo] per le opzioni [!UICONTROL Insert Before] e [!UICONTROL Insert After] durante la configurazione delle offerte di immagini nel Compositore esperienza visivo.
 
@@ -191,7 +250,7 @@ A causa dei problemi recenti identificati, principalmente correlati a complesse 
 
 +++
 
-**[!UICONTROL Analytics for Target] (A4T)**
+**[!UICONTROL Analytics for Target](A4T)**
 
 +++Consulta i dettagli
 * È stato risolto un problema che si verificava quando i clienti visualizzavano i rapporti per attività specifiche sulla pagina [!UICONTROL Goals & Settings]. Il collegamento [!UICONTROL View in Analytics] puntava erroneamente all&#39;ambiente di controllo qualità invece che all&#39;ambiente di produzione. (TGT-53163)
@@ -230,7 +289,7 @@ A causa dei problemi recenti identificati, principalmente correlati a complesse 
 
 +++
 
-**[!UICONTROL Visual Experience Composer] (VEC)**
+**[!UICONTROL Visual Experience Composer](VEC)**
 
 +++Consulta i dettagli
 * È stato risolto un problema sulla pagina [!UICONTROL Goals & Settings] a causa del quale i selettori utilizzati in più esperienze non venivano evidenziati in modo coerente come selezionati. (TGT-53062)
@@ -281,7 +340,7 @@ A causa dei problemi recenti identificati, principalmente correlati a complesse 
 
 +++
 
-**[!UICONTROL Analytics for Target] (A4T)**
+**[!UICONTROL Analytics for Target](A4T)**
 
 +++Consulta i dettagli
 * È stato risolto un problema che causava un errore &quot;Input utente non valido&quot; durante la copia di un&#39;attività esistente e la modifica dell&#39;origine per la generazione di rapporti in [!DNL Adobe Analytics] (A4T). L&#39;errore è stato attivato quando alcune azioni di metrica incompatibili con il reporting di [!DNL Analytics], come `restart_same_experience`, `restart_random_experience` e `restart_new_experience`, sono state mantenute dall&#39;attività originale. (TGT-52900)
@@ -338,7 +397,7 @@ A causa dei problemi recenti identificati, principalmente correlati a complesse 
 
 +++
 
-**[!UICONTROL Visual Experience Composer] (VEC)**
+**[!UICONTROL Visual Experience Composer](VEC)**
 
 +++Consulta i dettagli
 * È stato risolto un problema a causa del quale l’applicazione di una modifica a una vista determinava la duplicazione della vista e l’attività restituiva un errore di tipo &quot;Input utente non valido&quot;. Questa correzione assicura che le modifiche della visualizzazione vengano applicate correttamente senza causare errori di duplicazione o convalida. (TGT-52886)
