@@ -4,9 +4,9 @@ description: Domande e risposte sull'interfaccia utente  [!DNL Target] aggiornat
 title: Dove posso trovare le domande frequenti sull'interfaccia utente  [!DNL Target]  aggiornata?
 feature: Overview
 exl-id: 75db4791-ca51-472d-99dd-583f7a74b222
-source-git-commit: b91abbd3b7418fd4d1444d96f160c3d9017f3bf8
+source-git-commit: 91059ceb8cc0fd4e7aa72f347ffd1584999ed264
 workflow-type: tm+mt
-source-wordcount: '1112'
+source-wordcount: '1361'
 ht-degree: 0%
 
 ---
@@ -76,6 +76,35 @@ Per ulteriori informazioni, consulta [Aggiornamenti sensibili al tempo da conosc
 L’utilizzo dell’interruttore della versione dell’interfaccia utente presenta diverse limitazioni, tra cui la visibilità delle nuove attività, la modifica di quelle esistenti e la coerenza dei dettagli delle attività.
 
 Per ulteriori informazioni, consulta [Aggiornamenti sensibili al tempo da conoscere](/help/main/r-release-notes/release-notes.md#time-sensitive).
+
++++
+
+## In che modo il Compositore esperienza visivo aggiornato gestisce le opzioni di ridisposizione, ridimensionamento, spostamento, nascondere e rimozione e in che modo differiscono da quelle del Compositore esperienza visivo legacy? {#options}
+
++++Dettagli
+**[!UICONTROL Rearrange*]*: nel Compositore esperienza visivo legacy, l&#39;opzione Ridisponi utilizzava una sovrapposizione per consentire agli utenti di riposizionare un elemento all&#39;interno del relativo gruppo di pari livello. Il movimento era limitato a modificare l&#39;ordine tra gli elementi di pari livello.
+
+Nel Compositore esperienza visivo aggiornato, questa funzionalità è semplificata dalle azioni Sposta in avanti e Indietro. Questi controlli consentono di regolare la posizione di un elemento nel layout, sia orizzontalmente che verticalmente, spostandolo in avanti o all&#39;indietro nell&#39;ordine di sovrapposizione.
+
+**Ridimensiona**: la funzionalità [!UICONTROL Resize] si trova nel pannello [!UICONTROL Properties] nella sezione [!UICONTROL Size]. Gli utenti possono regolare direttamente la larghezza e l’altezza di un elemento. Le impostazioni avanzate includono:
+
+* Controlli larghezza e altezza min/max
+* Impostazioni del comportamento di overflow.
+* Opzioni di adattamento degli oggetti per gli elementi multimediali
+
+Questi strumenti forniscono un controllo preciso sulle dimensioni degli elementi e sul comportamento del layout.
+
+**Sposta**: l&#39;opzione [!UICONTROL Move] si trova nel pannello [!UICONTROL Properties] nella sezione [!UICONTROL Position]. Questa opzione consente agli utenti di:
+
+* Imposta la posizione dell’elemento (ad esempio assoluto, relativo, fisso)
+* Definire l&#39;indice z per la creazione dei livelli
+* Scegli un tipo di posizionamento
+
+La barra [!UICONTROL Properties] aggiornata supporta anche stili in linea personalizzati, offrendo flessibilità quando le opzioni predefinite non soddisfano le esigenze di layout.
+
+**[!UICONTROL Hide]**: la funzionalità [!UICONTROL Hide] si trova nel pannello [!UICONTROL Properties]. Dopo aver selezionato un elemento, fare clic su [!UICONTROL Hide Element] per rimuoverlo dalla visualizzazione senza eliminarlo. Questa opzione è utile per gestire la visibilità durante la progettazione o l&#39;anteprima.
+
+**[!UICONTROL Remove]**: la funzionalità [!UICONTROL Remove] è accessibile tramite il pannello [!UICONTROL Properties]. Dopo aver selezionato un elemento, fai clic su Rimuovi elemento per eliminarlo dalla pagina. Questa azione rimuove definitivamente l’elemento dal layout.
 
 +++
 
