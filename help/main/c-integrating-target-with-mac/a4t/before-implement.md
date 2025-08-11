@@ -83,7 +83,7 @@ L&#39;aumento della latenza inizia dopo l&#39;implementazione del servizio ID vi
 
 Tutte le chiamate [!DNL Target] utilizzate da un&#39;attività A4T per inviare contenuto o registrare la metrica di obiettivo devono avere un hit [!DNL Analytics] corrispondente che condivida l&#39;ID supplementare affinché A4T funzioni correttamente.
 
-Gli hit che contengono i dati di [!DNL Analytics] e [!DNL Target] contengono un ID dati supplementare. Questo ID è visibile nel [Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html) come parametro `sdid`. Ad esempio: `sdid=2F3C18E511F618CC-45F83E994AEE93A0`. Questo ID viene generato in qualsiasi momento siano presenti i seguenti criteri:
+Gli hit che contengono i dati di [!DNL Analytics] e [!DNL Target] contengono un ID dati supplementare. Questo ID è visibile nel [Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=it) come parametro `sdid`. Ad esempio: `sdid=2F3C18E511F618CC-45F83E994AEE93A0`. Questo ID viene generato in qualsiasi momento siano presenti i seguenti criteri:
 
 * È implementato il servizio ID visitatore
 
