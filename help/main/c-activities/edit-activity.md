@@ -4,9 +4,9 @@ description: Scopri i diversi modi in cui puoi modificare un’attività esisten
 title: Come posso modificare un’attività?
 feature: Activities
 exl-id: 5f2a930a-9950-430e-a898-50af1f917ec1
-source-git-commit: 53bac4b1e778fb760a37e7287e0d8dbbe3a56b47
+source-git-commit: b46ff78a9145e2e837a849d72adc4a7fb8797d00
 workflow-type: tm+mt
-source-wordcount: '956'
+source-wordcount: '962'
 ht-degree: 22%
 
 ---
@@ -75,7 +75,7 @@ Tieni in considerazione le seguenti informazioni quando utilizzi la funzionalit�
 
         Per risolvere il problema, fare clic su [!UICONTROL Add/Remove] in modo che vengano selezionate solo le proprietà disponibili nell&#39;area di lavoro di destinazione.
 
-   * **Tipi di pubblico e offerte**: quando si copia un&#39;attività in una nuova area di lavoro, tutti i tipi di pubblico e le offerte associati dall&#39;area di lavoro originale vengono duplicati utilizzando il formato: `Entity Name Copy <Date>`.
+   * **Tipi di pubblico e offerte**: quando si copia un&#39;attività in una nuova area di lavoro, tutti i tipi di pubblico e le offerte ad hoc associati [!DNL Target] o dall&#39;area di lavoro originale vengono duplicati nel formato `<Entity Name> Copy <Date>` per i tipi di pubblico [!DNL Target] e per le offerte ad hoc `<Entity Name>`.
 
      Dettagli del comportamento:
 
@@ -85,9 +85,9 @@ Tieni in considerazione le seguenti informazioni quando utilizzi la funzionalit�
 
      Questo processo garantisce una duplicazione più fluida delle attività in più aree di lavoro, mantenendo al contempo la flessibilità per la personalizzazione.
 
-     Durante la copia di un’attività, i tipi di pubblico combinati, non di destinazione e le offerte che non vengono salvate nell’area di lavoro corrente o in quella predefinita devono essere sostituiti manualmente.
+     Durante la copia di un’attività, i tipi di pubblico e le offerte non di destinazione che non vengono salvati nell’area di lavoro corrente o in quella predefinita devono essere sostituiti manualmente.
 
-     La sostituzione manuale di questi tipi di pubblico combinati, non di destinazione e offerte garantisce che nell’attività copiata vengano utilizzate solo entità valide e accessibili e impedisce errori durante la modifica o la consegna.
+     Sostituendo manualmente questi tipi di pubblico e le offerte non di destinazione, si garantisce che nell’attività copiata vengano utilizzate solo entità valide e accessibili e si evitano errori durante la modifica o la consegna.
 
      ![Messaggio di avviso](/help/main/c-activities/assets/copy.png)
 
