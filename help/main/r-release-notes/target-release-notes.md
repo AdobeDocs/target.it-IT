@@ -4,7 +4,7 @@ description: Scopri le nuove funzioni, i miglioramenti e le correzioni, compresi
 title: Quali nuove funzioni e miglioramenti saranno inclusi nella prossima versione [!DNL Target] ?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: f00cec3194863bb7187d4cdc91c39a87b624e9bd
+source-git-commit: 33eb2e0e9d9e323a8bec8a3ab147291f3f0a6ca8
 workflow-type: tm+mt
 source-wordcount: '177'
 ht-degree: 69%
@@ -25,9 +25,9 @@ Questo articolo contiene informazioni prerelease per le prossime versioni di [!D
 >
 >* I codici tra parentesi sono per uso interno di [!DNL Adobe].
 
-## [!DNL Target Standard/Premium] 25.7.4 (1 agosto 2025)
+## [!DNL Target Standard/Premium] 25.8.1 (7 agosto 2025)
 
-La versione 25.7.4 è live. Per informazioni dettagliate, consulta le [[!DNL Target] note sulla versione (corrente)](/help/main/r-release-notes/release-notes.md).
+La versione 25.8.1 è live. Per informazioni dettagliate, consulta le [[!DNL Target] note sulla versione (corrente)](/help/main/r-release-notes/release-notes.md).
 
 ## Note aggiuntive e dettagli sulla versione
 
