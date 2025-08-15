@@ -4,10 +4,10 @@ description: Scopri le nuove funzioni, i miglioramenti e le correzioni, compresi
 title: Quali nuove funzioni e miglioramenti saranno inclusi nella prossima versione [!DNL Target] ?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 64bfa3710450ee9609592610e210a950e0403339
+source-git-commit: 1f8fa78c2b88e179f021128a8fd3dac177dfa3dd
 workflow-type: tm+mt
-source-wordcount: '176'
-ht-degree: 69%
+source-wordcount: '340'
+ht-degree: 37%
 
 ---
 
@@ -15,19 +15,34 @@ ht-degree: 69%
 
 Questo articolo contiene informazioni prerelease per le prossime versioni di [!DNL Adobe Target], incluse SDK, API e librerie JavaScript.
 
-**Ultimo aggiornamento: 14 agosto 2025**
+**Ultimo aggiornamento: 15 agosto 2025**
 
 >[!NOTE]
 >
->* Date di rilascio, funzioni e altre informazioni sono soggette a modifica senza preavviso.
+>* Date di rilascio, funzioni e altre informazioni sono soggette a cambiamenti senza preavviso. Le informazioni contenute in questo articolo vengono aggiornate frequentemente, soprattutto prima delle versioni di.
 >
 >* Per visualizzare informazioni sulla versione corrente, consulta [Note sulla versione di Target](release-notes.md).
 >
 >* I codici tra parentesi sono per uso interno di [!DNL Adobe].
 
-## [!DNL Target Standard/Premium] 25.8.2 (14 agosto 2025)
+## [!DNL Target Standard/Premium] 25.8.3 (21 agosto 2025)
 
-[!DNL Target Standard/Premium] 25.8.2 (14 agosto 2025) è live. Per ulteriori informazioni, consulta [[!DNL Target] note sulla versione (corrente)](/help/main/r-release-notes/release-notes.md).
+Questa versione include i seguenti aggiornamenti e correzioni:
+
+**Raccomandazioni**
+
++++Vedi i dettagli
+* **È stato risolto un problema nell&#39;interfaccia utente di Recs a causa del quale il download del file CSV dei criteri personalizzati restituiva l&#39;errore 404**: è stato risolto un problema che impediva ai clienti di scaricare il file CSV dei criteri personalizzati nel processo di creazione delle attività.
+* **È stato corretto il caricamento incoerente delle immagini in[!UICONTROL Catalog Search]**: è stato risolto un problema che impediva il caricamento coerente delle miniature e delle immagini in [!UICONTROL  Catalog Search] nel processo di creazione attività. Le immagini non venivano visualizzate a meno che la colonna &quot;URL miniatura&quot; non fosse visibile e alcune immagini di prodotto venivano caricate parzialmente o non completamente dopo le azioni di navigazione o ricerca. (TGT-52778)
+
++++
+
+**[!UICONTROL Visual Experience Composer](VEC)**
+
++++Vedi i dettagli
+* **È stato risolto un problema nel processo di creazione attività che bloccava la progressione al passaggio [!UICONTROL Targeting] nelle attività di Personalizzazione automatizzata**: è stato risolto un problema nel processo di creazione attività a causa del quale i clienti non potevano procedere al passaggio [!UICONTROL Targeting] nelle attività [!UICONTROL Automated Personalization] (Personalizzazione automatizzata) a meno che non fossero state aggiunte due posizioni. Questo comportamento era diverso dall’esperienza precedente, in cui era sufficiente una singola posizione con più offerte. Il requisito è stato corretto, consentendo ai clienti di continuare a utilizzare le impostazioni per una singola posizione come parte dei flussi di lavoro di Personalizzazione automatizzata. (TGT-53426)
+
++++
 
 ## Note aggiuntive e dettagli sulla versione
 
