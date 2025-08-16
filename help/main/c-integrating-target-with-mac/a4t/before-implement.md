@@ -19,7 +19,7 @@ Prima di decidere di utilizzare questa integrazione, esamina le sezioni seguenti
 
 >[!NOTE]
 >
->Questo articolo si applica solo alle implementazioni di at.js. Per informazioni sull&#39;implementazione di [!UICONTROL Analytics for Target] (A4T) con [!DNL Adobe Experience Platform Web SDK], vedere [Registrazione di Adobe Analytics for Target (A4T) in Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/a4t/overview-a4t.html){target=_blank}.
+>Questo articolo si applica solo alle implementazioni di at.js. Per informazioni sull&#39;implementazione di [!UICONTROL Analytics for Target] (A4T) con [!DNL Adobe Experience Platform Web SDK], vedere [Registrazione di Adobe Analytics for Target (A4T) in Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/a4t/overview-a4t.html?lang=it){target=_blank}.
 
 ## Requisiti di implementazione {#section_A0D2EF18033D4C3997B08A6EBB34C17A}
 
