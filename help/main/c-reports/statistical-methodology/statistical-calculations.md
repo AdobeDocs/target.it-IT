@@ -117,7 +117,7 @@ Dove *μ<sub>v</sub>* e *μ<sub>v0</sub>* sono le medie rispettivamente di *μ* 
 
 <p style="text-align:center;"><img width="150px" src="img/standard_error_diff.png"></p>
 
-Dove *<sup>2</sup><sub>v</sub>* e *Prodotti finiti<sup>2</sup><sub>v<sub>0</sub></sub>* sono le varianze di due esperienze ** e *0<sub> rispettivamente e</sub>* N *v<sub> e</sub>* N *v<sub>0<sub> sono le dimensioni campione rispettivamente di</sub></sub>**e* 24}0 *.<sub></sub>*
+Dove *<sup>2</sup><sub>v</sub>* e *Prodotti finiti<sup>2</sup><sub>v<sub>0</sub></sub>* sono le varianze di due esperienze **&#x200B; e *0<sub> rispettivamente e</sub>* N *v<sub> e</sub>* N *v<sub>0<sub> sono le dimensioni campione rispettivamente di</sub></sub>**&#x200B;e* 24&rbrace;0 *.<sub></sub>*
 
 Per il test t di Welch, il grado di libertà è calcolato come segue:
 

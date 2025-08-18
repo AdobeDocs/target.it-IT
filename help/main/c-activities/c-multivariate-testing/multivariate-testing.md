@@ -102,7 +102,7 @@ Questo video di panoramica spiega i tipi di attività disponibili in [!DNL Targe
 
 ### Creazione di test multivariati (9:25) ![Icona esercitazione](/help/main/assets/tutorial.png)
 
-Questo video spiega come comprendere, pianificare e creare un test multivariato utilizzando il flusso di lavoro guidato in tre passaggi di [!DNL]Target.
+Questo video spiega come comprendere, pianificare e creare un test multivariato utilizzando il flusso di lavoro guidato in tre passaggi di Target.
 
 * Definizione e progettazione di un test multivariato
 * Creazione di un test multivariato

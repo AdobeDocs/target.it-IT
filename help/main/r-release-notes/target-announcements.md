@@ -160,7 +160,7 @@ Le esperienze mobili stanno stimolando l’innovazione nel modo in cui i team di
 
 ### Chef&#39;s Collection: Recipes for Personalization (30 agosto 2022)
 
-Unisciti al team di [!DNL Adobe Target] [!DNL] mentre vengono proposte nuove idee su come sfruttare appieno Target. Basato sul nostro ultimo eBook “Chef’s Collection: Ideas for Personalization”.
+Unisciti al team di [!DNL Adobe Target]  mentre vengono proposte nuove idee su come sfruttare appieno Target. Basato sul nostro ultimo eBook “Chef’s Collection: Ideas for Personalization”.
 
 * [Collegamento alla registrazione](https://video.tv.adobe.com/v/346970/){target=_blank}
 

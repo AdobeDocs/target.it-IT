@@ -83,7 +83,7 @@ L&#39;illustrazione mostra come il traffico assegnato a ogni esperienza progredi
 >
 >Se un&#39;attività ha solo due esperienze, entrambe ottengono la stessa quantità di traffico fino a quando [!DNL Target] trova un&#39;esperienza vincente con il 75% di affidabilità. A quel punto, due terzi del traffico vengono assegnati al vincitore e un terzo al perdente. Successivamente, quando un’esperienza raggiunge il 95% di affidabilità, il 90% del traffico viene assegnato al vincitore e il 10% al perdente. [!DNL Target] invia sempre del traffico all&#39;esperienza &quot;perdente&quot; per evitare falsi positivi alla fine (ovvero, mantieni alcune esplorazioni).
 
-Dopo l&#39;attivazione di un&#39;attività [!UICONTROL Auto-Allocate], le seguenti operazioni dall&#39;interfaccia utente Tar[!DNL]get non sono consentite:
+Dopo l&#39;attivazione di un&#39;attività [!UICONTROL Auto-Allocate], le seguenti operazioni dall&#39;interfaccia utente Target non sono consentite:
 
 * Impostazione della modalità di Allocazione traffico su Manuale
 * Modifica del tipo di metrica obiettivo

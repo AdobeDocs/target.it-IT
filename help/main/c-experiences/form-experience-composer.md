@@ -35,7 +35,7 @@ Se stai creando un&#39;attività [!UICONTROL Recommendations], non ci sono esper
 
    Questa schermata è diversa se si sta creando un&#39;attività [!UICONTROL Recommendations]. Le attività [!UICONTROL Recommendations] non includono esperienze.
 
-1. 
+1. &#x200B;
    1. Fare clic sull&#39;icona **[!UICONTROL Rename]** ( ![icona Rinomina](/help/main/assets/icons/MoreSmallListVert.svg) ), fare clic su **[!UICONTROL Rename]**, specificare un nome per l&#39;attività, quindi fare clic su **[!UICONTROL Save]**.
 
    Il nome dell’attività non può iniziare con uno dei seguenti caratteri:
