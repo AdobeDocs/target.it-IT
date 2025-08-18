@@ -135,7 +135,7 @@ Seleziona l’ambiente (gruppo host) da utilizzare per il rapporto. Per ulterior
 
 >[!NOTE]
 >
->Se l&#39;organizzazione utilizza [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html){target=_blank} (AEP) per inviare i dati delle metriche a [!DNL Target], l&#39;ambiente nello stream di dati di AEP deve corrispondere all&#39;ambiente nelle impostazioni del report [!DNL Target].
+>Se l&#39;organizzazione utilizza [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=it){target=_blank} (AEP) per inviare i dati delle metriche a [!DNL Target], l&#39;ambiente nello stream di dati di AEP deve corrispondere all&#39;ambiente nelle impostazioni del report [!DNL Target].
 
 ### Ripristina dati rapporto
 

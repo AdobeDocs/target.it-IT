@@ -28,13 +28,13 @@ Completa le seguenti attività in [!DNL Adobe Experience Cloud] [Admin Console](
 
 Gli account utente [!DNL Analytics] e [!DNL Target] devono essere collegati al tuo Adobe ID.
 
-Per ulteriori informazioni, vedere [Organizzazioni e collegamento account](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=en).
+Per ulteriori informazioni, vedere [Organizzazioni e collegamento account](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=it).
 
 ### Configurare l’iscrizione al gruppo Experience Cloud
 
 Devi essere membro di uno o più gruppi di [!DNL Experience Cloud] che hanno accesso a [!DNL Analytics] e a [!DNL Target].
 
-Per ulteriori informazioni, consulta [Gestione di utenti e prodotti Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html).
+Per ulteriori informazioni, consulta [Gestione di utenti e prodotti Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=it).
 
 ## Adobe Analytics {#section_8F404FDE9A634534AB0AA4CB3075582B}
 

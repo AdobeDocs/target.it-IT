@@ -2,7 +2,7 @@
 keywords: targeting automatico;targeting;allocazione del traffico;domande frequenti;faq;risoluzione dei problemi;risoluzione dei problemi;segnalazione;report;rapporto riepilogo targeting automatico;rapporto riepilogo;segmenti automatizzati;attributi importanti
 description: Scopri come interpretare i report attività [!UICONTROL Auto-Target] in [!DNL Target].
 title: Come si interpreta un report [!UICONTROL Auto-Target]?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=it#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."
 feature: Auto-Target
 exl-id: df3f2d91-13f8-4acb-ba31-68f91500610b
 source-git-commit: 79fcfe80d8c77d59965e6565a36cf15eb63f8323

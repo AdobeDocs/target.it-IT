@@ -24,4 +24,4 @@ Per ulteriori informazioni, vedere i vari argomenti in [Implementare Target](/he
 
 1. Per accedere alla pagina [!UICONTROL Implementation], fare clic su **[!UICONTROL Administration]** > **[!UICONTROL Implementation]**.
 
-1. Per informazioni applicabili alle impostazioni di questa pagina, consulta [Implementare Target senza un sistema per la gestione dei tag](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-without-a-tag-manager.html){target=_blank}.
+1. Per informazioni applicabili alle impostazioni di questa pagina, consulta [Implementare Target senza un sistema per la gestione dei tag](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-without-a-tag-manager.html?lang=it){target=_blank}.

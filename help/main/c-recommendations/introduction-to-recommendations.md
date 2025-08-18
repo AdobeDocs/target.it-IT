@@ -2,7 +2,7 @@
 keywords: Recommendations;consigli;intro;introduzione;webinar;demo
 description: Scopri le attività Consigli in Adobe [!DNL Target] che consentono di visualizzare automaticamente contenuti che potrebbero interessare ai clienti in base alle precedenti attività dell’utente o ad altri algoritmi.
 title: Quali sono le attività Consigli?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=it#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."
 feature: Recommendations
 exl-id: bc4d9a46-ea21-4687-b8a0-7f2e1dc33ebf
 source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1

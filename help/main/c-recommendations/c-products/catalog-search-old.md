@@ -2,7 +2,7 @@
 keywords: catalogo ricerca;catalogo;ricerca;esclusione;raccolta;filtro
 description: Scopri come utilizzare la funzione Ricerca nel catalogo di Recommendations per individuare prodotti o contenuti, creare raccolte o esclusioni, rimuovere elementi dal catalogo e altro ancora.
 title: Come si utilizza la ricerca nel catalogo di Recommendations?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=it#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."
 feature: Recommendations
 exl-id: 925fea97-e2c5-4883-84e3-fd357a8ee8d9
 source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c

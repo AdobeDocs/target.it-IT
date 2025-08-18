@@ -2,7 +2,7 @@
 keywords: prodotto;collezioni
 description: Scopri le entità in Adobe [!DNL Target] Recommendations. Le entità si riferiscono agli elementi che desideri consigliare utilizzando  [!DNL Target], ad esempio articoli, film o prodotti.
 title: Come si utilizzano le entità?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=it#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."
 feature: Recommendations
 exl-id: ffe23eea-b914-4c86-ad54-c63c1cc1c0d7
 source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3

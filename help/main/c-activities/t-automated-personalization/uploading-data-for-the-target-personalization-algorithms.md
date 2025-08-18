@@ -3,7 +3,7 @@ keywords: Automated Personalization;ap;caricare dati;dati offline;algoritmo di p
 description: Scopri come caricare dati offline durante la creazione di modelli di personalizzazione in  [!DNL Adobe Target] [!UICONTROL Automated Personalization] (AP) e [!UICONTROL Auto-Target] attività.
 title: Come posso caricare dati per gli algoritmi Personalization?
 feature: Automated Personalization, Auto-Target
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=it#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."
 exl-id: c750e0e5-8ebd-49a2-9705-05f593aaf0b9
 source-git-commit: 3f64da1c9a1146e4d2d9389d6d5ce764764d2d9c
 workflow-type: tm+mt

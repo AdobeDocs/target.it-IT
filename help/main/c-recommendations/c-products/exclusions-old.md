@@ -37,7 +37,7 @@ Alcuni esempi di utilizzo delle esclusioni includono:
 
    ![immagine elenco esclusioni](assets/exclusions_list.png)
 
-   Il &quot;Numero di elementi&quot; segnalato per ogni esclusione nella visualizzazione elenco [!UICONTROL Exclusions] è il numero di prodotti che corrispondono alle regole per tale esclusione all&#39;interno del gruppo predefinito di consigli [host](/help/main/administrating-target/hosts.md) (ambiente) configurato. Consulta [Impostazioni](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} per modificare il gruppo host predefinito.
+   Il &quot;Numero di elementi&quot; segnalato per ogni esclusione nella visualizzazione elenco [!UICONTROL Exclusions] è il numero di prodotti che corrispondono alle regole per tale esclusione all&#39;interno del gruppo predefinito di consigli [host](/help/main/administrating-target/hosts.md) (ambiente) configurato. Consulta [Impostazioni](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=it){target=_blank} per modificare il gruppo host predefinito.
 
 1. Fare clic su **[!UICONTROL Create Exclusion]**.
 

@@ -2,7 +2,7 @@
 keywords: raccolta;Targeting
 description: Scopri come utilizzare le raccolte di prodotti o elementi in [!DNL Target Recommendations].
 title: Come si utilizzano le raccolte nelle attività Consigli?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=it#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."
 feature: Recommendations
 exl-id: e62f501b-3521-4456-9ea1-e4b8a2b478c6
 source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
@@ -46,7 +46,7 @@ Crea una raccolta per organizzare i prodotti o i contenuti da mostrare nei consi
 
    ![Icone al passaggio del mouse: modifica, copia ed elimina](/help/main/c-recommendations/c-products/assets/hover-icons.png)
 
-   Il &quot;Numero di elementi&quot; segnalato per ogni raccolta nella visualizzazione elenco [!UICONTROL Collections] è il numero di prodotti che corrispondono alle regole per tale raccolta all&#39;interno del gruppo predefinito di consigli [host](/help/main/administrating-target/hosts.md) (ambiente) configurato. Consulta [Impostazioni](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} per modificare il gruppo host predefinito.
+   Il &quot;Numero di elementi&quot; segnalato per ogni raccolta nella visualizzazione elenco [!UICONTROL Collections] è il numero di prodotti che corrispondono alle regole per tale raccolta all&#39;interno del gruppo predefinito di consigli [host](/help/main/administrating-target/hosts.md) (ambiente) configurato. Consulta [Impostazioni](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=it){target=_blank} per modificare il gruppo host predefinito.
 
 1. Fare clic su **[!UICONTROL Create Collection]**.
 

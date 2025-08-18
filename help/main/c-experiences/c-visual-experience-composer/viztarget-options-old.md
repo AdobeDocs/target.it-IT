@@ -217,7 +217,7 @@ Sono disponibili le seguenti opzioni:
 
 ### [!UICONTROL Offer Decision]
 
-Aggiungi un&#39;offerta [creata in [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html){target=_blank} per presentare ai clienti l&#39;offerta e l&#39;esperienza migliore utilizzando offer decisioning.
+Aggiungi un&#39;offerta [creata in [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html?lang=it){target=_blank} per presentare ai clienti l&#39;offerta e l&#39;esperienza migliore utilizzando offer decisioning.
 
 **Nota:** questa opzione è disponibile solo per la modifica o la creazione di [attività manuali [!UICONTROL A/B Test]](/help/main/c-activities/t-test-ab/test-ab.md#types) o [[!UICONTROL Experience Targeting]](/help/main/c-activities/t-experience-target/experience-target.md) (XT). Questa opzione non è disponibile per altri tipi di attività.
 
@@ -249,7 +249,7 @@ Sono disponibili le seguenti opzioni:
 
 ### [!UICONTROL Offer Decision]
 
-Aggiungi un&#39;offerta [creata in [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html){target=_blank} per presentare ai clienti l&#39;offerta e l&#39;esperienza migliore utilizzando offer decisioning.
+Aggiungi un&#39;offerta [creata in [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html?lang=it){target=_blank} per presentare ai clienti l&#39;offerta e l&#39;esperienza migliore utilizzando offer decisioning.
 
 **Nota:** questa opzione è disponibile solo per la modifica o la creazione di [attività manuali [!UICONTROL A/B Test]](/help/main/c-activities/t-test-ab/test-ab.md#types) o [[!UICONTROL Experience Targeting]](/help/main/c-activities/t-experience-target/experience-target.md) (XT). Questa opzione non è disponibile per altri tipi di attività.
 
@@ -281,7 +281,7 @@ Sono disponibili le seguenti opzioni:
 
 ### [!UICONTROL Offer Decision]
 
-Aggiungi un&#39;offerta [creata in [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html){target=_blank} per presentare ai clienti l&#39;offerta e l&#39;esperienza migliore utilizzando offer decisioning.
+Aggiungi un&#39;offerta [creata in [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html?lang=it){target=_blank} per presentare ai clienti l&#39;offerta e l&#39;esperienza migliore utilizzando offer decisioning.
 
 **Nota:** questa opzione è disponibile solo per la modifica o la creazione di [attività manuali [!UICONTROL A/B Test]](/help/main/c-activities/t-test-ab/test-ab.md#types) o [[!UICONTROL Experience Targeting]](/help/main/c-activities/t-experience-target/experience-target.md) (XT). Questa opzione non è disponibile per altri tipi di attività.
 
@@ -371,7 +371,7 @@ Annulla le modifiche apportate alle attività durante una sessione di modifica. 
 
 ## Considerazioni {#considerations}
 
-* Se un’offerta contiene contenuti HTML, consulta la sezione su come avviene il rendering di contenuti HTML in at.js, in [Funzionamento di at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html){target=_blank}.
+* Se un’offerta contiene contenuti HTML, consulta la sezione su come avviene il rendering di contenuti HTML in at.js, in [Funzionamento di at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html?lang=it){target=_blank}.
 
 ## Supporto per elementi personalizzati {#custom}
 

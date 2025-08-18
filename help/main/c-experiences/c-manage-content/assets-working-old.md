@@ -86,7 +86,7 @@ Nella figura seguente sono illustrate le icone che si trovano al passaggio del m
 
 Questo video include informazioni sulla gestione del contenuto. (4:56)
 
-* Connessione tra la [libreria delle risorse di Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/assets/creative-cloud.html) e la libreria dei contenuti di Target
+* Connessione tra la [libreria delle risorse di Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/assets/creative-cloud.html?lang=it) e la libreria dei contenuti di Target
 * Offerte HTML personalizzate
 * Offerta HTML personalizzata nel Compositore esperienza visivo
 

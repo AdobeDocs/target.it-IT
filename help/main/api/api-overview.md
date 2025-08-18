@@ -33,4 +33,4 @@ Il portale per sviluppatori include informazioni sui seguenti tipi di implementa
 * API di reporting.
 * API per consigli.
 
-Per ulteriori informazioni, consulta [Panoramica API di Target](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/before-implement/considerations-before-you-implement-target.html){target=_blank} nella [Guida per gli sviluppatori di Adobe Target](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=en){target=_blank}.
+Per ulteriori informazioni, consulta [Panoramica API di Target](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/before-implement/considerations-before-you-implement-target.html?lang=it){target=_blank} nella [Guida per gli sviluppatori di Adobe Target](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=it){target=_blank}.

@@ -2,7 +2,7 @@
 keywords: Recommendations;consigli;offerta
 description: Scopri come utilizzare Adobe Recommendations come offerta all’interno di test A/B (tra cui Allocazione automatica e Targeting automatico) e attività di Experience Targeting (XT).
 title: Come si utilizza la funzione Recommendations (Consigli) come offerta in altri tipi di attività?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=it#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."
 feature: Recommendations
 exl-id: ec520555-b439-46a9-ab2d-f0981532bffb
 source-git-commit: f848c79cb95009b5810a1707d04e548a57220e12
