@@ -4,10 +4,10 @@ description: Scopri le nuove funzioni, i miglioramenti e le correzioni, compresi
 title: Quali nuove funzioni e miglioramenti saranno inclusi nella prossima versione [!DNL Target] ?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 1f8fa78c2b88e179f021128a8fd3dac177dfa3dd
+source-git-commit: 8f7cdf94438763679273b3631e45b1b41899cda5
 workflow-type: tm+mt
-source-wordcount: '340'
-ht-degree: 37%
+source-wordcount: '646'
+ht-degree: 21%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 37%
 
 Questo articolo contiene informazioni prerelease per le prossime versioni di [!DNL Adobe Target], incluse SDK, API e librerie JavaScript.
 
-**Ultimo aggiornamento: 15 agosto 2025**
+**Ultimo aggiornamento: 18 agosto 2025**
 
 >[!NOTE]
 >
@@ -32,15 +32,25 @@ Questa versione include i seguenti aggiornamenti e correzioni:
 **Raccomandazioni**
 
 +++Vedi i dettagli
-* **È stato risolto un problema nell&#39;interfaccia utente di Recs a causa del quale il download del file CSV dei criteri personalizzati restituiva l&#39;errore 404**: è stato risolto un problema che impediva ai clienti di scaricare il file CSV dei criteri personalizzati nel processo di creazione delle attività.
-* **È stato corretto il caricamento incoerente delle immagini in[!UICONTROL Catalog Search]**: è stato risolto un problema che impediva il caricamento coerente delle miniature e delle immagini in [!UICONTROL &#x200B; Catalog Search] nel processo di creazione attività. Le immagini non venivano visualizzate a meno che la colonna &quot;URL miniatura&quot; non fosse visibile e alcune immagini di prodotto venivano caricate parzialmente o non completamente dopo le azioni di navigazione o ricerca. (TGT-52778)
-
+* **È stato risolto un problema nell&#39;interfaccia utente di Recs a causa del quale il download del file CSV dei criteri personalizzati restituiva l&#39;errore 404**: è stato risolto un problema che impediva ai clienti di scaricare il file CSV dei criteri personalizzati nel processo di creazione delle attività. (TGT-51966)
+* **È stato corretto il caricamento incoerente delle immagini in[!UICONTROL Catalog Search]**: è stato risolto un problema che impediva il caricamento coerente delle miniature e delle immagini in [!UICONTROL  Catalog Search] nel processo di creazione attività. Le immagini non venivano visualizzate a meno che la colonna &quot;URL miniatura&quot; non fosse visibile e alcune immagini di prodotto venivano caricate parzialmente o non completamente dopo le azioni di navigazione o ricerca. (TGT-52778)
+* **È stato risolto un problema a causa del quale la modifica di un consiglio in un&#39;esperienza duplicata influiva sull&#39;esperienza originale**: i clienti segnalavano che la modifica di un consiglio in un&#39;esperienza duplicata alterava involontariamente l&#39;esperienza originale. In particolare, dopo aver duplicato l’esperienza B nel processo di creazione delle attività e averne modificato la progettazione o i criteri, le stesse modifiche sono state applicate all’esperienza B originale, nonostante fossero entità separate. (TGT-53369)
+* **È stato risolto un problema a causa del quale le modifiche apportate a un&#39;esperienza duplicata influivano involontariamente sull&#39;esperienza originale in un&#39;attività:** I clienti hanno segnalato che durante la duplicazione di un&#39;esperienza all&#39;interno di un&#39;attività e l&#39;assegnazione di un nuovo pubblico, qualsiasi modifica apportata alla progettazione o ai criteri dell&#39;esperienza duplicata si rifletteva anche nell&#39;esperienza originale. Ciò si verificava anche se non venivano apportate modifiche direttamente alla versione originale, con un conseguente impatto sulla possibilità di creare varianti indipendenti all’interno della stessa attività. (TGT-53361)
+* **È stato risolto un problema che impediva in modo intermittente a [!UICONTROL Recommendation Catalog] di visualizzare i dati completi degli attributi del prodotto**: nell&#39;interfaccia utente [!DNL Recommendations] aggiornata, si è verificato un problema a causa del quale alcuni attributi del prodotto, ad esempio il messaggio, non venivano visualizzati in modo coerente nei risultati della ricerca nel catalogo, anche se i dati erano presenti nel feed. Questo problema richiedeva ai clienti di riconfigurare manualmente la visibilità delle colonne per recuperare i valori mancanti. (TGT-52769)
 +++
 
-**[!UICONTROL Visual Experience Composer] (VEC)**
+**[!UICONTROL Visual Experience Composer](VEC)**
 
 +++Vedi i dettagli
 * **È stato risolto un problema nel processo di creazione attività che bloccava la progressione al passaggio [!UICONTROL Targeting] nelle attività di Personalizzazione automatizzata**: è stato risolto un problema nel processo di creazione attività a causa del quale i clienti non potevano procedere al passaggio [!UICONTROL Targeting] nelle attività [!UICONTROL Automated Personalization] (Personalizzazione automatizzata) a meno che non fossero state aggiunte due posizioni. Questo comportamento era diverso dall’esperienza precedente, in cui era sufficiente una singola posizione con più offerte. Il requisito è stato corretto, consentendo ai clienti di continuare a utilizzare le impostazioni per una singola posizione come parte dei flussi di lavoro di Personalizzazione automatizzata. (TGT-53426)
+
++++
+
+**[!UICONTROL Workspaces]**
+
++++Vedi i dettagli
+* **È stato risolto un problema che consentiva a un cliente limitato a una sola area di lavoro di visualizzare le attività di altre aree di lavoro**: i clienti con accesso limitato a una sola area di lavoro potevano visualizzare in modo imprevisto le attività di tutte le aree di lavoro selezionando [!UICONTROL All Workspaces] nel processo di creazione attività. Questa visibilità comportava il rischio di modifiche non intenzionali alle attività live in altre aree di lavoro, con un potenziale impatto sulle prestazioni del sito web. (TGT-53101)
+* **È stato risolto un problema che consentiva a un cliente di visualizzare le attività da [!UICONTROL Default Workspace] senza avere accesso:** Un cliente con accesso limitato all&#39;area di lavoro di staging era in grado di visualizzare le attività da [!UICONTROL Default Workspace] tramite il processo di creazione attività. Ciò si verificava nonostante la corretta configurazione del back-end e i diritti di accesso. (TGT-53297)
 
 +++
 
