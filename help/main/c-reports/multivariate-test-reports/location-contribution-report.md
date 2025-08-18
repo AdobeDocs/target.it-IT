@@ -37,4 +37,4 @@ La seconda tabella fornisce un rapporto a livello di offerta. Mostra tasso di co
 
 Questo video illustra come creare un test multivariato utilizzando il flusso di lavoro guidato in tre passaggi di [!DNL Target]. Il rapporto Contributo posizione è descritto a partire da 8:45.
 
->[!VIDEO](https://video.tv.adobe.com/v/17395)
+>[!VIDEO](https://video.tv.adobe.com/v/36329?captions=ita)

@@ -26,4 +26,4 @@ Questo video spiega come:
 * Esplora il pannello di amministrazione [!DNL Adobe Experience Cloud] (AEC)
 * Elencare i requisiti per l&#39;ID [!DNL Experience Cloud] (ECID)
 
->[!VIDEO](https://video.tv.adobe.com/v/35152)
+>[!VIDEO](https://video.tv.adobe.com/v/3421750?captions=ita)

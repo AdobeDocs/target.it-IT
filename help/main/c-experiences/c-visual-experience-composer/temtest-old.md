@@ -107,4 +107,4 @@ Puoi considerare l’utilizzo delle regole dei modelli per eseguire il rendering
 * Creare un’esperienza e visualizzarne l’anteprima per i siti web reattivi
 * Evidenziare tipi di elementi con le sovrapposizioni
 
->[!VIDEO](https://video.tv.adobe.com/v/17401)
+>[!VIDEO](https://video.tv.adobe.com/v/36327?captions=ita)

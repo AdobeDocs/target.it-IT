@@ -426,4 +426,4 @@ Nel video seguente viene illustrato come utilizzare i token di risposta e gli ev
 >
 >Nel video vengono menzionati `option.name` e `option.id`, che sono stati sostituiti rispettivamente con `offer.name` e `offer.id`.
 
->[!VIDEO](https://video.tv.adobe.com/v/23253/)
+>[!VIDEO](https://video.tv.adobe.com/v/326685?captions=ita)
