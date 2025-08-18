@@ -2,13 +2,13 @@
 keywords: targeting automatico;targeting;allocazione del traffico;domande frequenti;faq;risoluzione dei problemi;risoluzione problemi;traffico
 description: Esplora gli argomenti relativi alla risoluzione dei problemi e le domande frequenti sulle attività [!UICONTROL Auto-Target].
 title: Come posso risolvere i problemi relativi a [!UICONTROL Auto-Target] attività?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=it#premium newtab=true" tooltip="Vedi cosa è incluso in Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."
 feature: Auto-Target
 exl-id: 934f738e-560a-4847-9608-432ecfa2afe7
 source-git-commit: 3e8c2d77f300bf0e2ca83a53d30e7b9eee48894e
 workflow-type: tm+mt
 source-wordcount: '1850'
-ht-degree: 29%
+ht-degree: 32%
 
 ---
 
@@ -37,7 +37,7 @@ Consulta le seguenti domande frequenti e risposte mentre lavori con [!UICONTROL 
 
 ### [!UICONTROL Adobe] consiglia di utilizzare [!UICONTROL Auto Target] con una suddivisione 90(Controllo)/10(Target) fino a quando i modelli non vengono generati?
 
-+++Risposta
++++Risposta 
 La suddivisione ottimale del traffico dipende da cosa desideri eseguire.
 
 Se l’obiettivo è quello di personalizzare il traffico il più possibile, puoi mantenere un’allocazione mirata del 90% e un controllo del 10% per la durata dell’attività. Se l’obiettivo è quello di eseguire un esperimento confrontando il comportamento degli algoritmi personalizzati rispetto al controllo, allora una suddivisione 50/50 è la migliore per la durata dell’attività.
@@ -102,7 +102,7 @@ Altri punti da tenere a mente sulla creazione di modelli di [!UICONTROL Auto-Tar
 ### L’attività contiene un modello generato. Le visite a quell’esperienza sono personalizzate?
 
 +++Risposta
-No, per iniziare la personalizzazione devono essere presenti almeno due modelli generati nell’attività.
+No, per iniziare la personalizzazione occorrono almeno due modelli generati nell’attività.
 
 +++
 
@@ -116,7 +116,7 @@ No, per iniziare la personalizzazione devono essere presenti almeno due modelli 
 ### Posso specificare un’esperienza particolare da usare come controllo?
 
 +++Risposta
-Puoi selezionare un&#39;esperienza da usare come controllo durante la creazione di un&#39;attività [Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md) (AP) o [Targeting automatico](/help/main/c-activities/auto-target/auto-target-to-optimize.md) (AT).
+Puoi selezionare un’esperienza da usare come controllo durante la creazione di un’attività [Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md) oppure [Targeting automatico](/help/main/c-activities/auto-target/auto-target-to-optimize.md).
 
 Questa funzione ti consente di indirizzare l’intero traffico di controllo a un’esperienza specifica, in base alla percentuale di allocazione del traffico configurata nell’attività. Puoi quindi valutare i rapporti sulle prestazioni del traffico personalizzato rispetto al traffico verso l’esperienza di controllo.
 
@@ -127,7 +127,7 @@ Per ulteriori informazioni, consulta [Utilizzare un’esperienza specifica come 
 ### Posso cambiare la metrica obiettivo a metà strada attraverso un&#39;attività [!UICONTROL Auto-Target]? {#change-metric}
 
 +++Risposta
-L’Adobe non consiglia di modificare la metrica obiettivo a metà strada attraverso un’attività. Anche se è possibile modificare la metrica dell’obiettivo durante un’attività utilizzando l’interfaccia utente [!DNL Target], è sempre necessario avviare una nuova attività. Adobe non fornisce alcuna garanzia su ciò che accade se modifichi la metrica obiettivo in un’attività dopo l’esecuzione.
+Adobe consiglia di non modificare la metrica obiettivo a metà strada attraverso un’attività. Anche se è possibile modificare la metrica dell’obiettivo durante un’attività utilizzando l’interfaccia utente [!DNL Target], è sempre necessario avviare una nuova attività. Adobe non fornisce alcuna garanzia su ciò che accade se modifichi la metrica obiettivo in un’attività dopo l’esecuzione.
 
 Questo consiglio si applica alle attività [!UICONTROL Auto-Allocate], [!UICONTROL Auto-Target] e [!UICONTROL Automated Personalization] che utilizzano [!DNL Target] o [!DNL Analytics] (A4T) come origine per la generazione di rapporti.
 
@@ -188,7 +188,7 @@ Quindi, assicurati che le offerte e le posizioni di attività facciano davvero l
 ### Qualsiasi metrica dipendente da una metrica di conversione non consegue mai la conversione.
 
 +++Suggerimenti per la risoluzione dei problemi
-Questo è previsto.
+Si tratta di un comportamento previsto.
 
 In un&#39;attività [!UICONTROL Auto-Target], una volta convertita una metrica di conversione (che si tratti di obiettivo di ottimizzazione o di corrispondenza), l&#39;utente viene rilasciato dall&#39;esperienza e l&#39;attività viene riavviata.
 

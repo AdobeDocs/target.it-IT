@@ -135,7 +135,7 @@ Seleziona l’ambiente (gruppo host) da utilizzare per il rapporto. Per ulterior
 
 >[!NOTE]
 >
->Se l&#39;organizzazione utilizza [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=it){target=_blank} (AEP) per inviare i dati delle metriche a [!DNL Target], l&#39;ambiente nello stream di dati di AEP deve corrispondere all&#39;ambiente nelle impostazioni del report [!DNL Target].
+>Se l&#39;organizzazione utilizza [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html){target=_blank} (AEP) per inviare i dati delle metriche a [!DNL Target], l&#39;ambiente nello stream di dati di AEP deve corrispondere all&#39;ambiente nelle impostazioni del report [!DNL Target].
 
 ### Ripristina dati rapporto
 
@@ -230,9 +230,9 @@ Sono disponibili quattro modalità per le attività [!UICONTROL Auto-Target]: [!
 
 L’ordine predefinito in cui viene tracciato il grafico è il seguente:
 
-* **[!UICONTROL A/B Test] (inclusi [!UICONTROL Auto-Allocate] e [!UICONTROL Automated Personalization])**: Ordine di creazione dell&#39;esperienza, in ordine decrescente.
-* **[!UICONTROL Experience Targeting] (XT)**: ordine delle esperienze nell&#39;attività.
-* **[!UICONTROL Multivariate Test] (MVT)**: alfabetico per nome esperienza.
+* **[!UICONTROL A/B Test](inclusi [!UICONTROL Auto-Allocate] e [!UICONTROL Automated Personalization])**: Ordine di creazione dell&#39;esperienza, in ordine decrescente.
+* **[!UICONTROL Experience Targeting](XT)**: ordine delle esperienze nell&#39;attività.
+* **[!UICONTROL Multivariate Test](MVT)**: alfabetico per nome esperienza.
 * **[!UICONTROL Recommendations]**: ordine di creazione dell&#39;esperienza, in ordine decrescente.
 
 Quando si utilizzano le opzioni [!UICONTROL Counting Methodology], considerare le seguenti avvertenze:
@@ -246,7 +246,7 @@ Se le esperienze di un’attività sono meno di 16, ogni esperienza è rappresen
 
 Se le esperienze sono più di 16, nel grafico vengono tracciate le linee colorate delle prime 16. Le restanti esperienze appaiono in grigio nel riquadro Esperienze a sinistra e le linee corrispondenti non sono incluse nel grafico. In un dato momento è possibile visualizzare le linee corrispondenti a 16 esperienze.
 
-Se passi il cursore del mouse sopra una delle esperienze in grigio, sul grafico viene visualizzata temporaneamente la corrispondente linea grigia. Per visualizzare con un colore la linea di un’esperienza grigia, fai clic sul nome di un’esperienza visualizzata a colori per deselezionarla, quindi fai clic sul nome dell’esperienza grigia desiderata per selezionarla.
+Se passi il puntatore su una delle esperienze in grigio, sul grafico viene visualizzata temporaneamente la corrispondente linea grigia. Per visualizzare con un colore la linea di un’esperienza grigia, fai clic sul nome di un’esperienza visualizzata a colori per deselezionarla, quindi fai clic sul nome dell’esperienza grigia desiderata per selezionarla.
 
 Il grafico mostra le linee delle prime 16 esperienze (alcune si sovrappongono, quindi sembra che siano meno di 16). Il punto colorato nel riquadro Esperienze a sinistra indica il colore associato all’esperienza corrispondente.
 

@@ -1,7 +1,7 @@
 ---
 keywords: aem;experience manager;adobe experience manager;integrare;integrazione;frammenti di esperienza;frammenti di contenuto
 description: Scopri come utilizzare i frammenti di esperienza e di contenuto di [!DNL Adobe Experience Manager] nelle attività [!DNL Adobe Target] .
-title: Come si utilizza  [!DNL Adobe Experience Manager] (AEM) [!UICONTROL Experience Fragments] e [!UICONTROL Content Fragments]?
+title: Come si utilizzano  [!DNL Adobe Experience Manager] (AEM) [!UICONTROL Experience Fragments] e [!UICONTROL Content Fragments]?
 feature: Integrations
 exl-id: 6f1a02da-8f59-4a8b-8e97-c20444ef53c8
 source-git-commit: f39ec80d9804fff2c65fce98ca2be5400d99aad0
@@ -13,7 +13,7 @@ ht-degree: 40%
 
 # Panoramica di AEM [!UICONTROL Experience Fragments] e [!UICONTROL Content Fragments]
 
-Utilizza [!UICONTROL Experience Fragments] (XF) e [!UICONTROL Content Fragments] (CF) creati in [!DNL Adobe Experience Manager] (AEM) nelle attività [!DNL Target] per aiutare l&#39;ottimizzazione e la personalizzazione.
+Utilizza [!UICONTROL Experience Fragments] (XF) e [!UICONTROL Content Fragments] (CF) creati in [!DNL Adobe Experience Manager] (AEM) nelle attività [!DNL Target] per facilitare l&#39;ottimizzazione e la personalizzazione.
 
 L&#39;utilizzo di [!UICONTROL Experience Fragments] e [!UICONTROL Content Fragments] creati in [!DNL AEM] nelle attività di [!DNL Target] consente di combinare la facilità d&#39;uso e la potenza di [!DNL AEM] con le potenti capacità dell&#39;intelligenza artificiale (IA) e dell&#39;apprendimento automatico (ML) in [!DNL Target] per testare e personalizzare le esperienze su larga scala.
 
@@ -25,7 +25,7 @@ L&#39;utilizzo di [!UICONTROL Experience Fragments] e [!UICONTROL Content Fragme
 
 ## Considerazioni
 
-Considerare quanto segue durante l&#39;utilizzo di AEM [!UICONTROL Experience Fragments] e [!UICONTROL Content Fragments] in [!DNL Target]:
+Considera quanto segue mentre lavori con AEM [!UICONTROL Experience Fragments] e [!UICONTROL Content Fragments] in [!DNL Target]:
 * Queste funzionalità sono disponibili solo per chi è cliente [!DNL Adobe Experience Manager] (AEM). Assicurati di soddisfare i requisiti di ogni tipo di frammento: [Frammento di esperienza](/help/main/c-integrating-target-with-mac/aem/experience-fragments-aem.md#requirements) o [Frammento di contenuto](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md#requirements).
 * [!UICONTROL Experience Fragments] e [!UICONTROL Content Fragments] sono disponibili per i seguenti tipi di attività:
 
@@ -47,4 +47,4 @@ Considerare quanto segue durante l&#39;utilizzo di AEM [!UICONTROL Experience Fr
 
 [!DNL Adobe Experience Manager] [!UICONTROL Experience Fragments] e [!UICONTROL Content Fragments] potrebbero sembrare simili in superficie, ma ogni tipo di frammento svolge ruoli chiave in diversi casi d&#39;uso.
 
-Per ulteriori informazioni sulla somiglianza di [!UICONTROL Experience Fragments] e [!UICONTROL Content Fragments], sulle differenze e sulle modalità di utilizzo di entrambi, vedere [Comprendere [!UICONTROL Content Fragments] e [!UICONTROL Experience Fragments]](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/content-fragments/understand-content-fragments-and-experience-fragments.html?lang=it){target=_blank} nella [guida ai video e alle esercitazioni di AEM Sites](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/overview.html?lang=it){target=_blank}.
+Per ulteriori informazioni sulla somiglianza di [!UICONTROL Experience Fragments] e [!UICONTROL Content Fragments], sulle differenze e sulle modalità di utilizzo di entrambi, vedere [Comprendere [!UICONTROL Content Fragments] e [!UICONTROL Experience Fragments]](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/content-fragments/understand-content-fragments-and-experience-fragments.html?lang=it){target=_blank} nella [Guida ai video e alle esercitazioni di AEM Sites](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/overview.html?lang=it){target=_blank}.

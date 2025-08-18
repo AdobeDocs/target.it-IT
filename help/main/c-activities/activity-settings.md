@@ -1,13 +1,13 @@
 ---
 keywords: Obiettivo e impostazioni;obiettivo;priorità;durata
-description: Scopri come utilizzare le impostazioni delle attività in Adobe [!DNL Target] per gestire la finalità, la priorità e la durata delle attività.
+description: Scopri come utilizzare le impostazioni delle attività in Adobe [!DNL Target] per gestire l'obiettivo, la priorità e la durata delle attività.
 title: Come Si Specificano Le Impostazioni Delle Attività?
 feature: Activities
 exl-id: 7f34080b-d2ed-4fe5-80ff-3aba16961223
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
 workflow-type: tm+mt
 source-wordcount: '415'
-ht-degree: 74%
+ht-degree: 71%
 
 ---
 
@@ -41,7 +41,7 @@ Utilizza [!UICONTROL Activity Settings] in [!DNL Adobe Target] per gestire l&#39
 
 1. Imposta la durata dell’attività.
 
-   È possibile attivare e disattivare manualmente l&#39;attività oppure specificare la data e l&#39;ora della sua consegna. Il controllo del tempo usa un orologio di 24 ore, dove 00:00 indica la mezzanotte. Il fuso orario è impostato sul fuso configurato nel browser. Per utilizzare un fuso orario diverso, imposta il browser su un altro fuso orario e riavvia il browser.
+   È possibile attivare e disattivare manualmente l&#39;attività oppure specificare la data e l&#39;ora della sua consegna. Il controllo dell&#39;ora utilizza un orologio di 24 ore, dove 00:00 corrisponde a mezzanotte. Il fuso orario è impostato sul fuso configurato nel browser. Per utilizzare un fuso orario diverso, imposta il browser su un altro fuso orario e riavvia il browser.
 
    >[!NOTE]
    >

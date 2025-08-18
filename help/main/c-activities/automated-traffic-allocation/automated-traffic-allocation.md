@@ -51,7 +51,7 @@ In questi test, la maggior parte dei prodotti, incluso [!DNL Target], utilizza u
 
 I seguenti termini sono utili quando si parla di [!UICONTROL Auto-Allocate]:
 
-**Slot machine:** Un approccio all&#39;ottimizzazione [Slot machine](https://en.wikipedia.org/wiki/Multi-armed_bandit){target=_blank} bilancia l&#39;apprendimento esplorativo e lo sfruttamento di tale apprendimento.
+**Slot machine:** un approccio all’ottimizzazione ti tipo [slot machine](https://en.wikipedia.org/wiki/Multi-armed_bandit){target=_blank} compensa l’apprendimento esplorativo e il suo sfruttamento.
 
 ## Funzionamento dell’algoritmo {#section_ADB69A1C7352462D98849F2918D4FF7B}
 
@@ -70,7 +70,7 @@ L’illustrazione seguente rappresenta il comportamento dell’algoritmo durante
 
 L&#39;illustrazione mostra come il traffico assegnato a ogni esperienza progredisca nell&#39;acro di parecchi turni della durata dell&#39;attività, finché non sia possibile determinare un chiaro vincitore.
 
-| Turno | Descrizione |
+| Arrotondamento | Descrizione |
 |--- |--- |
 | ![Turno di riscaldamento](/help/main/c-activities/automated-traffic-allocation/assets/aa-phase-0.png){width="200" zoomable="yes"} | **Turno di riscaldamento (0)**: durante il turno di riscaldamento, ogni esperienza ottiene pari ripartizione del traffico fino a quando ogni esperienza in attività ha un minimo di 1.000 visitatori e 50 conversioni.<ul><li>Esperienza A=25%</li><li>Esperienza B=25%</li><li>Esperienza C=25%</li><li>Esperienza D=25%</li></ul>Dopo che ogni esperienza ottiene 1.000 visitatori e 50 conversioni, [!DNL Target] avvia l&#39;allocazione automatica del traffico. Tutte le allocazioni avvengono in turni e vengono raccolte due esperienze per ogni turno.<br>Solo due esperienze progrediscono al turno successivo: D e C.<br>Progredire significa che alle due esperienze è assegnato l&#39;80% del traffico equamente. Le altre due esperienze continuano a partecipare, ma vengono gestite solo come parte dell’allocazione casuale del traffico del 20% quando nuovi visitatori accedono all’attività.<br>Tutte le allocazioni vengono aggiornate ogni ora (mostrato in alto per turni lungo l&#39;asse x). Dopo ogni turno, i dati cumulativi vengono confrontati. |
 | ![Turno 1](/help/main/c-activities/automated-traffic-allocation/assets/aa-phase-1.png){width="200" zoomable="yes"} | **Turno 1**: durante questo turno, l’80% di traffico è assegnato alle esperienze C e D (40% ciascuna). Il 20% del traffico viene assegnato in modo casuale alle esperienze A, B, C e D (5% ciascuna). Durante questo turno, l&#39;esperienza A registra buoni risultati.<ul><li>L&#39;algoritmo sceglie l&#39;esperienza D per passare al turno successivo perché ha il più alto tasso di conversione (come indicato dalla scala verticale di ogni attività).</li><li>L&#39;algoritmo sceglie anche l&#39;esperienza A per proseguire perché, tra le esperienze rimanenti, ha il limite superiore più alto dell&#39;intervallo di affidabilità Bernstein al 95%.</li></ul>Le esperienze D e A proseguono. |
@@ -83,7 +83,7 @@ L&#39;illustrazione mostra come il traffico assegnato a ogni esperienza progredi
 >
 >Se un&#39;attività ha solo due esperienze, entrambe ottengono la stessa quantità di traffico fino a quando [!DNL Target] trova un&#39;esperienza vincente con il 75% di affidabilità. A quel punto, due terzi del traffico vengono assegnati al vincitore e un terzo al perdente. Successivamente, quando un’esperienza raggiunge il 95% di affidabilità, il 90% del traffico viene assegnato al vincitore e il 10% al perdente. [!DNL Target] invia sempre del traffico all&#39;esperienza &quot;perdente&quot; per evitare falsi positivi alla fine (ovvero, mantieni alcune esplorazioni).
 
-Dopo l&#39;attivazione di un&#39;attività [!UICONTROL Auto-Allocate], le seguenti operazioni dall&#39;interfaccia utente Target non sono consentite:
+Dopo l&#39;attivazione di un&#39;attività [!UICONTROL Auto-Allocate], le seguenti operazioni dall&#39;interfaccia utente Tar[!DNL]get non sono consentite:
 
 * Impostazione della modalità di Allocazione traffico su Manuale
 * Modifica del tipo di metrica obiettivo
@@ -241,9 +241,9 @@ Questo video include informazioni su come impostare l&#39;allocazione del traffi
 
 ### Creazione di test A/B (8:36) ![Icona esercitazione](/help/main/assets/tutorial.png)
 
-In questo video viene illustrato come creare un test A/A utilizzando il flusso di lavoro guidato in tre passaggi di Target. [!UICONTROL Auto-Allocate] è discusso a partire dal minuto 4:45.
+In questo video viene illustrato come creare un test A/A utilizzando il flusso di lavoro guidato in tre passaggi di Target. [!UICONTROL Auto-Allocate] è discusso a partire dal 4:45.
 
 * Crea un&#39;attività A/B in [!DNL Adobe Target]
 * Allocare il traffico con suddivisione manuale o automatica del traffico
 
->[!VIDEO](https://video.tv.adobe.com/v/36325?captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/17391)

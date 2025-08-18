@@ -29,7 +29,7 @@ L&#39;URL attività determina la pagina utilizzata in [!UICONTROL Multivariate T
 
    Le regole aggiuntive possono essere basate su uno dei seguenti elementi:
 
-   * [!UICONTROL &#x200B; URL]
+   * [!UICONTROL  URL]
    * [!UICONTROL Domain]
    * [!UICONTROL Path]
    * [!UICONTROL Hash (#) Fragment]

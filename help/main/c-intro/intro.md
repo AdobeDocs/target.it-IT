@@ -9,7 +9,7 @@ exl-id: 0e729c71-618b-4ab8-93a3-d37e73ec2740
 source-git-commit: 218036d23803643f25e6cf9dd91ea71dd55342ea
 workflow-type: tm+mt
 source-wordcount: '955'
-ht-degree: 52%
+ht-degree: 51%
 
 ---
 
@@ -102,7 +102,7 @@ Crea il tuo programma di ottimizzazione e personalizzazione su [!DNL Adobe Targe
 
 [Kit di benvenuto Adobe Target](/help/main/c-intro/target-welcome-kit.md)
 
-## Video di formazione: Tipi di attività (9:03) ![Badge panoramica](/help/main/assets/overview.png)
+## Video di formazione: Tipi di attività (9:03) ![Icona panoramica](/help/main/assets/overview.png)
 
 Il seguente video spiega i tipi di attività disponibili in [!DNL Target Standard/Premium] e come raggiungere gli obiettivi del sito con il flusso di lavoro guidato in tre passaggi [!DNL Target].
 
@@ -110,4 +110,4 @@ Il seguente video spiega i tipi di attività disponibili in [!DNL Target Standar
 * Selezionare il tipo di attività appropriato per i tuoi obiettivi
 * Descrizione del flusso di lavoro guidato in tre passaggi da applicare a tutti i tipi di attività
 
->[!VIDEO](https://video.tv.adobe.com/v/36365?captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/17386)

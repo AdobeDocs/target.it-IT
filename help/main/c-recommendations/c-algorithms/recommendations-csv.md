@@ -2,7 +2,7 @@
 keywords: creazione di criteri personalizzati;algoritmi;criteri;criteri di consigli;csv;ftp;caricamento csv
 description: Scopri come caricare un file CSV per personalizzare i consigli in Adobe [!DNL Target] Recommendations.
 title: Come posso caricare criteri personalizzati in  [!DNL Recommendations]?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=it#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."
 feature: Recommendations
 exl-id: 33434121-e0ae-4b82-b1dd-78b9738026cb
 source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
@@ -19,7 +19,7 @@ Carica un file CSV per personalizzare i consigli in [!DNL Adobe Target].
 Sono disponibili diversi modi per raggiungere la schermata [!UICONTROL Create New Criteria]. Alcune opzioni dipendono dal modo in cui si raggiunge la schermata.
 
 * Nella schermata della libreria **[!UICONTROL Recommendations]** > **[!UICONTROL Criteria]**, fare clic su **[!UICONTROL Create Criteria]** > **[!UICONTROL Create Criteria]**. I criteri creati vengono automaticamente resi disponibili per tutte le attività di [!DNL Recommendations].
-* Quando crei un&#39;attività [!DNL Recommendations] utilizzando [!UICONTROL Visual Experience Composer] (VEC), vieni immediatamente reindirizzato alla schermata [!UICONTROL Select Criteria] dopo aver selezionato un elemento nella pagina e aver fatto clic su [!UICONTROL Replace w/ Recommendations], [!UICONTROL Insert Recommendations Before] o [!UICONTROL Insert Recommendations After]. È quindi possibile selezionare un criterio disponibile oppure fare clic su **[!UICONTROL Create Criteria]**. Se si crea un nuovo criterio, è possibile salvarlo per utilizzarlo con altre attività di [!DNL Recommendations]. Per ulteriori informazioni, vedere [Creare un&#39;attività Recommendations](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md).
+* Quando crei un&#39;attività [!DNL Recommendations] utilizzando [!UICONTROL Visual Experience Composer] (VEC), vieni immediatamente reindirizzato alla schermata [!UICONTROL Select Criteria] dopo aver selezionato un elemento nella pagina e aver fatto clic su [!UICONTROL Replace w/ Recommendations], [!UICONTROL Insert Recommendations Before] o [!UICONTROL Insert Recommendations After]. È quindi possibile selezionare un criterio disponibile oppure fare clic su **[!UICONTROL Create Criteria]**. Se si crea un nuovo criterio, è possibile salvarlo per utilizzarlo con altre attività di [!DNL Recommendations]. Per ulteriori informazioni, vedere [Creare un&#39;attività Consigli](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md).
 * Quando modifichi un&#39;attività di [!DNL Recommendations], fai clic su una casella di [!UICONTROL Recommendations Location] nella pagina e seleziona **[!UICONTROL Change Criteria]**. Nella schermata [!UICONTROL Select Criteria], fare clic su **[!UICONTROL Create Criteria]**. È possibile salvare i nuovi criteri da utilizzare con altre attività di [!DNL Recommendations].
 
 Nei passaggi seguenti si presuppone che si acceda alla schermata [!UICONTROL Create New Criteria] utilizzando il primo metodo: la schermata della libreria **[!UICONTROL Recommendations]** > **[!UICONTROL Criteria]**.

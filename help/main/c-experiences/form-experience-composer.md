@@ -23,7 +23,7 @@ Se stai creando un&#39;attività [!UICONTROL Recommendations], non ci sono esper
 
 1. Selezionare **[!UICONTROL Form]** dalla finestra di dialogo [!UICONTROL Create Activity].
 
-1. (Condizionale) Se sei un cliente di [Target Premium](/help/main/c-intro/intro.md#premium), scegli un [area di lavoro](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) dall&#39;elenco a discesa **[!UICONTROL Choose Workspace]**.
+1. (Condizionale) Se sei un cliente di [Target Premium](/help/main/c-intro/intro.md#premium), scegli un **[!UICONTROL Choose Workspace]** area di lavoro[ dall&#39;elenco a discesa ](/help/main/administrating-target/c-user-management/property-channel/property-channel.md).
 
    L&#39;opzione [[!UICONTROL Choose Workplace]](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) è una funzionalità di [Target Premium](/help/main/c-intro/intro.md) e potrebbe non essere visualizzata se la tua organizzazione dispone di una licenza di [!UICONTROL Target Standard].
 
@@ -35,7 +35,7 @@ Se stai creando un&#39;attività [!UICONTROL Recommendations], non ci sono esper
 
    Questa schermata è diversa se si sta creando un&#39;attività [!UICONTROL Recommendations]. Le attività [!UICONTROL Recommendations] non includono esperienze.
 
-1. &#x200B;
+1. 
    1. Fare clic sull&#39;icona **[!UICONTROL Rename]** ( ![icona Rinomina](/help/main/assets/icons/MoreSmallListVert.svg) ), fare clic su **[!UICONTROL Rename]**, specificare un nome per l&#39;attività, quindi fare clic su **[!UICONTROL Save]**.
 
    Il nome dell’attività non può iniziare con uno dei seguenti caratteri:
@@ -116,7 +116,7 @@ Se stai creando un&#39;attività [!UICONTROL Recommendations], non ci sono esper
 
    **Aggiungi consiglio:**
 
-   Per un&#39;attività Recommendations, l&#39;elenco a discesa Contenuto fornisce l&#39;opzione [!UICONTROL Add Recommendation]. Fare clic su **[!UICONTROL Add Recommendation]**, quindi selezionare il tipo di pagina. Quindi segui i passi consueti descritti per [creare un’attività di consigli](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md).
+   Per un&#39;attività Consigli, l&#39;elenco a discesa Contenuto fornisce l&#39;opzione [!UICONTROL Add Recommendation]. Fare clic su **[!UICONTROL Add Recommendation]**, quindi selezionare il tipo di pagina. Quindi segui i passi consueti descritti per [creare un’attività di consigli](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md).
 
    Durante la selezione dei criteri di consigli nel compositore esperienza basato su moduli, è ora disponibile un collegamento diretto alla scheda dei criteri selezionati per poter modificare in modo semplice e veloce i criteri.
 
@@ -124,7 +124,7 @@ Se stai creando un&#39;attività [!UICONTROL Recommendations], non ci sono esper
 
    **Aggiungi decisione di offerta:**
 
-   Aggiungi un&#39;offerta creata in [!DNL Adobe Journey Optimizer] (AJO) a un&#39;attività di [!DNL Adobe Target] per presentare l&#39;offerta e l&#39;esperienza dinamica migliore ai visitatori sul tuo sito Web o sito mobile tramite offer decisioning. Questa opzione è disponibile solo per le attività manuali [!UICONTROL A/B Test] e [!UICONTROL Experience Targeting] (XT).
+   Aggiungi un&#39;offerta creata in [!DNL Adobe Journey Optimizer] (AJO) a un&#39;attività di [!DNL Adobe Target] per presentare l&#39;offerta e l&#39;esperienza dinamica migliore ai visitatori sul tuo sito Web o sito mobile tramite Offer Decisioning. Questa opzione è disponibile solo per le attività manuali [!UICONTROL A/B Test] e [!UICONTROL Experience Targeting] (XT).
 
    Per ulteriori informazioni, consulta [Utilizzare le decisioni sulle offerte](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md).
 

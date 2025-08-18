@@ -1,6 +1,6 @@
 ---
 keywords: qa;lato server;anteprima;collegamenti di anteprima
-description: Scopri come utilizzare gli URL Adobe [!DNL Target] QA con distribuzione lato server per eseguire in modo semplice e completo il controllo qualità delle attività con collegamenti di anteprima che restano invariati, l’eventuale definizione di un pubblico di destinazione e rapporti di controllo qualità mantenuti segmentati dai dati delle attività live.
+description: Scopri come utilizzare gli URL di controllo qualità di Adobe [!DNL Target] con distribuzione lato server per eseguire in modo semplice e completo il controllo qualità delle attività con collegamenti di anteprima che restano invariati, targeting facoltativo del pubblico e rapporti di controllo qualità mantenuti segmentati dai dati delle attività live.
 title: Utilizzare Posso eseguire il controllo qualità delle attività con la distribuzione lato server?
 feature: Activities
 exl-id: eb6965be-92a6-452d-ac01-7ae1533239cc
@@ -58,7 +58,7 @@ Nella tabella seguente vengono illustrati i dettagli di una richiesta lato serve
 
 | Parametro | Tipo | Valore predefinito | Descrizione |
 |--- |--- |--- |--- |
-| token | Token crittografato | Nessuno.<br>Non può essere vuoto. | Un&#39;entità cifrata che contiene l&#39;elenco degli ID delle attività che possono essere eseguite in Controllo qualità delle attività.<br>Regole di convalida: deve essere un token crittografato appartenente al client specificato nella richiesta [!DNL Target]. Tutte le attività specificate nel token devono appartenere al client. |
+| token | Token crittografato | Nessuno.<br>Non può essere vuoto. | Un’entità crittografata che contiene l’elenco degli ID delle attività che possono essere eseguite in Controllo qualità delle attività.<br>Regole di convalida: deve essere un token crittografato appartenente al client specificato nella richiesta [!DNL Target]. Tutte le attività specificate nel token devono appartenere al client. |
 | bypassEntryAudience | Booleano | False | Specifica se gli obiettivi dei passaggi di ingresso per le attività di controllo qualità devono essere valutati o se devono essere considerati come corrispondenti. |
 | listedActivitiesOnly | Booleano | False | Specifica se le attività di controllo qualità devono essere eseguite in isolamento o se devono essere valutate come attività attive per l&#39;ambiente corrente. |
 | evaluateAsTrueAudienceIds | Elenco di ID | Elenco vuoto. | Elenco di ID di pubblico che devono sempre essere valutati come true nell&#39;ambito della richiesta [!DNL Target]. |

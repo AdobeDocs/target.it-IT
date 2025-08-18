@@ -15,7 +15,7 @@ ht-degree: 29%
 
 Crea offerte JSON in [!UICONTROL Offer Library] in [!DNL Adobe Target] da utilizzare in [!UICONTROL Form-Based Experience Composer].
 
-Le offerte JSON possono essere utilizzate in attività basate su moduli per abilitare i casi d&#39;uso in cui è richiesto il decisioning di [!DNL Target] per inviare un&#39;offerta in formato JSON da utilizzare nel framework SPA o nelle integrazioni lato server.
+Le offerte JSON possono essere utilizzate in attività basate su moduli per abilitare i casi d&#39;uso in cui è richiesto il decisioning di [!DNL Target] per inviare un&#39;offerta in formato JSON per l&#39;utilizzo in framework SPA (Single Page App) o integrazioni lato server.
 
 ## Considerazioni JSON
 
@@ -24,9 +24,9 @@ Quando lavori con le offerte JSON, considera quanto segue:
 * Le offerte JSON sono attualmente disponibili solo per [!UICONTROL A/B Test], [!UICONTROL Automated Personalization] (AP) e [!UICONTROL Experience Targeting] (XT) attività.
 * Le offerte JSON possono essere utilizzate solo in [attività basate su moduli](/help/main/c-experiences/form-experience-composer.md).
 * Le offerte JSON possono essere recuperate direttamente quando si utilizzano le [API lato server e Mobile Node.js, Java, .NET e gli SDK Python](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html?lang=it){target=_blank}.
-* Nel browser, le offerte JSON possono essere recuperate solo tramite at.js 1.2.3 (o versione successiva) e utilizzando [getOffer()](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/adobe-target-getoffer.html?lang=it){target=_blank} filtrando le azioni tramite l&#39;azione `setJson`.
+* Nel browser, le offerte JSON possono essere recuperate solo tramite at.js 1.2.3 (o versione successiva) e utilizzando [getOffer()](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/adobe-target-getoffer.html){target=_blank} filtrando le azioni tramite l&#39;azione `setJson`.
 * Le offerte JSON vengono consegnate come oggetti JSON nativi anziché come stringhe. I consumatori di questi oggetti non devono più gestire gli oggetti come stringhe e convertirli in oggetti JSON.
-* Le offerte JSON non vengono applicate automaticamente, a differenza di altre offerte (come le offerte HTML), perché sono offerte non visive. Gli sviluppatori devono scrivere il codice per ottenere esplicitamente l&#39;offerta utilizzando [getOffer()](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/adobe-target-getoffer.html?lang=it){target=_blank}.
+* Le offerte JSON non vengono applicate automaticamente, a differenza di altre offerte (come le offerte HTML), perché sono offerte non visive. Gli sviluppatori devono scrivere il codice per ottenere esplicitamente l&#39;offerta utilizzando [getOffer()](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/adobe-target-getoffer.html){target=_blank}.
 
 ## Creare un’offerta JSON {#section_BB9C72D59DEA4EFB97A906AE7569AD7A}
 
@@ -60,7 +60,7 @@ adobe.target.getOffer({
 });
 ```
 
-Le azioni passate al callback di successo sono una matrice di oggetti. Supponiamo di avere una singola offerta JSON, con il seguente contenuto:
+Le azioni passate al callback di successo sono un array di oggetti. Supponiamo di avere una singola offerta JSON, con il seguente contenuto:
 
 ```json
 { 

@@ -2,7 +2,7 @@
 keywords: foresta casuale;albero decisionale;ap;Automated Personalization
 description: Scopri come [!DNL Adobe Target] utilizza l'algoritmo Foresta casuale nelle attività [!UICONTROL Automated Personalization] (AP) e [!UICONTROL Auto-Target].
 title: In che modo  [!DNL Target]  utilizza l'algoritmo Foresta casuale?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=it#premium newtab=true" tooltip="Vedi cosa è incluso in Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."
 feature: Automated Personalization
 exl-id: 07a89525-4071-4434-ac96-c59a4f4422ad
 source-git-commit: d5b24f298ae405d57c2ba639082cbe99c4e358fd

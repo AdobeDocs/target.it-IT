@@ -7,7 +7,7 @@ exl-id: cf51bfec-d7fa-4ec1-a5dc-35edefefd3e4
 source-git-commit: 8c62a0e976ce075d07e1f80018c7ad7fac240eea
 workflow-type: tm+mt
 source-wordcount: '2435'
-ht-degree: 37%
+ht-degree: 50%
 
 ---
 
@@ -47,7 +47,7 @@ Per ulteriori informazioni, vedere [Il Compositore esperienza avanzato non caric
 ### Utilizzare ID univoci per gli elementi di primo livello e per tutti gli altri elementi candidati ad attività di test o targeting.
 
 +++Dettagli
-Qualsiasi elemento all’interno dell’elemento body deve avere un ID univoco. Nel caso nuovi elementi vengano inseriti nel corpo e il codice cambi posizione, sarà possibile riconoscere con maggiore facilità almeno gli elementi padre.
+Qualsiasi elemento interno all&#39;elemento corpo deve presentare un ID univoco. Nel caso nuovi elementi vengano inseriti nel corpo e il codice cambi posizione, sarà possibile riconoscere con maggiore facilità almeno gli elementi padre.
 
 [!DNL Target] non richiede ID, ma l&#39;utilizzo degli ID aumenta l&#39;affidabilità delle esperienze create con il Compositore esperienza. [!DNL Target] utilizza i selettori CSS per modificare il contenuto quando viene distribuita l&#39;esperienza. Quando si modifica un&#39;esperienza, [!UICONTROL Visual Experience Composer] ancora il selettore al predecessore più vicino con un attributo ID non nullo all&#39;elemento HTML che si sta modificando. Di conseguenza si consiglia di non utilizzare meccanismi, comprese librerie JavaScript, che impostino o modifichino gli attributi ID HTML. Anche se tali ID potrebbero essere disponibili per il Compositore esperienza [!DNL Target] per la creazione di attività, se JavaScript modifica gli ID, l&#39;ID utilizzato al momento della creazione dell&#39;esperienza potrebbe non essere disponibile durante l&#39;esecuzione dell&#39;esperienza. Se l&#39;ID non è disponibile, l&#39;ancoraggio del selettore all&#39;ID avrà esito negativo.
 
@@ -74,7 +74,7 @@ Se la proprietà CSS `!important` è presente, le modifiche apportate da `target
 ### Ridurre al minimo l&#39;utilizzo di iFrame.
 
 +++Dettagli
-È buona prassi ridurre al minimo l’utilizzo di iFrame, semplificare la gestione delle pagine e dei test. Il Compositore esperienza visivo può applicare alcune azioni all’interno di un iFrame, ma alcune, come il ridimensionamento, non funzionano correttamente. Gestire e ridimensionare le pagine che utilizzano più iFrame risulta difficoltoso. Come risultato, il test delle pagine con molti elementi iFrame potrebbe creare problemi.
+Ridurre al minimo l&#39;uso di iFrame è una buona tecnica per semplificare la gestione delle pagine e dei test. Il Compositore esperienza visivo può applicare alcune azioni all’interno di un iFrame, ma alcune, come il ridimensionamento, non funzionano correttamente. Gestire e ridimensionare le pagine che utilizzano più iFrame risulta difficoltoso. Come risultato, il test delle pagine con molti elementi iFrame potrebbe creare problemi.
 
 +++
 
@@ -113,7 +113,7 @@ Il Compositore esperienza visivo manipola il sito web dietro le quinte utilizzan
 ### Modificare l&#39;HTML per manipolare la struttura DOM può interrompere i selettori.
 
 +++Dettagli
-Ad esempio, se hai eseguito due azioni:
+Ad esempio, supponiamo che tu abbia eseguito due azioni:
 
 * Aggiunta di una classe all&#39;elemento 1
 * Modifica del codice HTML dell&#39;elemento 1
@@ -139,14 +139,14 @@ I tag `<strong>` e `<em>` potrebbero causare risultati imprevisti.
 ### Presta attenzione durante la rimozione dei campi modulo.
 
 +++Dettagli
-Alcuni campi del modulo potrebbero essere obbligatori per l’invio. La loro eliminazione potrebbe influenzare gli invii.
+Alcuni campi modulo potrebbero essere obbligatori per l&#39;invio. La loro eliminazione potrebbe influenzare gli invii.
 
 +++
 
 ### Non includere `mboxCreate` all&#39;interno degli script.
 
 +++Dettagli
-Poiché `mboxCreate` utilizza `document.write`, non è consigliabile includere `mboxCreate` negli script. Per tale scopo, utilizza invece `mboxDefine` e `mboxUpdate`.
+Poiché `mboxCreate` utilizza `document.write`, si sconsiglia di includere `mboxCreate` negli script. Per tale scopo, utilizza invece `mboxDefine` e `mboxUpdate`.
 
 +++
 
@@ -177,7 +177,7 @@ Quando si utilizza [!UICONTROL Enhanced Experience Composer], il sito Web viene 
 ### Il testo importante sul sito che può essere utilizzato per il targeting deve essere mantenuto nel codice HTML all&#39;interno di un elemento.
 
 +++Dettagli
-Ad esempio, non puoi eseguire il targeting del testo del carrello nel Compositore esperienza visivo se il tuo codice è simile al seguente:
+Ad esempio, non è possibile indirizzare il testo del carrello acquisti nel Compositore di esperienza visiva se il codice è simile al seguente:
 
 ```html
 <a href="https://www.botanicchoice.com/shop.axd/Cart"> 
@@ -244,14 +244,14 @@ Quando utilizzi [!UICONTROL Visual Experience Composer] per progettare l&#39;att
 ### La funzionalità [!UICONTROL Move] non supporta z-index.
 
 +++Dettagli
-Poiché non è disponibile la funzionalità z-index, l&#39;elemento spostato non può essere spostato sopra un altro elemento. Per ulteriori dettagli, vedi [Limitazioni](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#section_F33C2EA27F2E417AA036BC199DD6C721).
+In assenza della funzionalità z-index, l&#39;elemento spostato non può essere spostato sopra un altro elemento. Per ulteriori dettagli, vedi [Limitazioni](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#section_F33C2EA27F2E417AA036BC199DD6C721).
 
 +++
 
 ### La ridisposizione degli elementi influenza il monitoraggio dei clic.
 
 +++Dettagli
-Se un elemento contrassegnato per il tracciamento dei clic viene ridisposto, i percorsi degli elementi ridisposti vengono modificati. Come risultato, verrà eseguito il monitoraggio dei clic per l&#39;elemento nella posizione in cui si trovava l&#39;elemento originale prima della ridisposizione.
+Se ridisponi un elemento contrassegnato per il rilevamento di clic, i percorsi degli elementi ridisposti vengono modificati. Come risultato, verrà eseguito il monitoraggio dei clic per l&#39;elemento nella posizione in cui si trovava l&#39;elemento originale prima della ridisposizione.
 
 Ciò si verifica perché sia il codice per distribuire il contenuto dell&#39;attività sia il codice per tenere traccia dei clic è incluso in un segmento di codice recapitato alla pagina. Se passi a una pagina diversa e imposti il rilevamento dei clic, il codice del contenuto dell&#39;attività e il codice di monitoraggio dei clic vengono recapitati a tale pagina. Se la pagina di rilevamento dei clic ha una struttura simile alla pagina in cui viene eseguito il test, il contenuto del test può anche essere visualizzato nella pagina di rilevamento dei clic.
 
@@ -267,14 +267,14 @@ Se una mbox contiene un&#39;offerta, l&#39;inserimento di un elemento potrebbe a
 ### Durante la modifica di un elemento padre e figlio, modificare innanzitutto il padre.
 
 +++Dettagli
-Se sostituisci un’azione immagine su un elemento e poi modifichi il testo o il HTML sul relativo elemento padre, possono verificarsi problemi di consegna. Il flusso di lavoro migliore consiste nel modificare l&#39;elemento padre prima di scambiare l&#39;immagine sull&#39;elemento figlio.
+È possibile riscontrare problemi nella distribuzione se scambi un&#39;azione immagine su un elemento e modifichi quindi il testo o l&#39;HTML sul relativo elemento padre. Il flusso di lavoro migliore consiste nel modificare l&#39;elemento padre prima di scambiare l&#39;immagine sull&#39;elemento figlio.
 
 +++
 
 ### Non è possibile selezionare un elemento di pagina che include una mbox come elemento figlio.
 
 +++Dettagli
-Ad esempio, se la pagina contiene:
+Ad esempio, se nella pagina è incluso quanto segue:
 
 ```html
 <div> 
@@ -325,7 +325,7 @@ if(!window.adobeVecExtension) {
 ### Non puoi spostare un elemento all’esterno di un contenitore seguito da una proprietà CSS.
 
 +++Dettagli
-Un elemento non può essere spostato all’esterno di un contenitore seguito da una proprietà CSS.
+Un elemento non può essere spostato all&#39;esterno di un contenitore seguito da una proprietà CSS.
 
 +++
 
@@ -346,7 +346,7 @@ Azioni come [!UICONTROL Edit Class] e [!UICONTROL Rearrange] non sono consentite
 ### Evitare di ridisporre e spostare lo stesso elemento.
 
 +++Dettagli
-Se un elemento è stato spostato in un’altra posizione e si seleziona il contenitore principale e si tenta di ridisporre gli elementi secondari, l’elemento spostato non viene modificato e rimane dov’è. La ridisposizione potrebbe non essere visualizzata nel modo desiderato.
+Se hai spostato un elemento in un&#39;altra posizione e selezioni il contenitore padre cercando di ridisporre gli elementi figlio, l&#39;elemento spostato non viene interessato e rimane dove si trova. La ridisposizione potrebbe non essere visualizzata nel modo desiderato.
 
 +++
 
@@ -362,35 +362,35 @@ La soluzione consiste nel selezionare il contenitore principale e utilizzare l&#
 ### Le immagini non possono essere ridimensionate in una mbox.
 
 +++Dettagli
-Se sostituisci un’immagine in un elemento mbox e tenti quindi di ridimensionarla in base alle dimensioni dell’elemento mbox, il ridimensionamento non è consentito.
+Se sostituisci un&#39;immagine in un elemento mbox e tenti quindi di ridimensionarla in base alle dimensioni dell&#39;elemento mbox, l&#39;azione non sarà consentita.
 
 +++
 
 ### Dopo la sostituzione di un&#39;immagine, non è possibile selezionare l&#39;azione [!UICONTROL Edit].
 
 +++Dettagli
-Dopo la sostituzione dell&#39;immagine, non potete modificare l&#39;URL di Scene7.
+Dopo la sostituzione dell&#39;immagine, non puoi modificare l&#39;URL di Scene7.
 
 +++
 
 ### Non è possibile modificare gli elementi HTML con un’origine esterna.
 
 +++Dettagli
-Ad esempio: video, tag audio, incorporamento, iFrame, frame.
+Ad esempio: video, tag audio, elementi incorporati, iFrame, frame.
 
 +++
 
 ### Il monitoraggio dei clic non funziona per gli elementi di ancoraggio che contengono elementi diversi dai tag di testo normale o immagine.
 
 +++Dettagli
-Ad esempio, il tracciamento dei clic non funziona se l’elemento contiene JavaScript.
+Ad esempio, il monitoraggio dei clic non funziona se l&#39;elemento contiene JavaScript.
 
 +++
 
 ### Affinché il Compositore esperienza visivo funzioni, le pagine devono accettare i parametri URL.
 
 +++Dettagli
-Alcuni siti eliminano i parametri URL dalle loro pagine. Tuttavia, il Compositore esperienza visivo richiede tali parametri.
+Alcuni siti rimuovono tutti i parametri URL per le loro pagine. Tuttavia, il Compositore esperienza visivo richiede tali parametri.
 
 +++
 
@@ -426,7 +426,7 @@ Lo script viene eseguito nell&#39;ambito di `target.js` dopo il caricamento dell
 ### Se si inserisce un&#39;immagine dalla libreria [!UICONTROL Content] (Scene7) e si modifica il HTML, l&#39;URL dell&#39;immagine viene interrotto.
 
 +++Dettagli
-Aggiungi un elemento di ancoraggio all’interno del div &quot;customHeaderMessage&quot; con del testo fittizio:
+Aggiungi un elemento di ancoraggio all&#39;interno del tag div &#39;customHeaderMessage&#39; con un testo fittizio:
 
 ```html
 <a href="#"> 

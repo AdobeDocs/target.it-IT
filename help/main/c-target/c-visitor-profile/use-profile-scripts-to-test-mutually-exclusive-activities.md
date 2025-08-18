@@ -1,6 +1,6 @@
 ---
 keywords: script di profilo;attributi script di profilo;attività reciprocamente esclusive
-description: Scopri come utilizzare gli attributi del profilo per impostare in Adobe [!DNL Target] i test che confrontano più attività ma non consentono la partecipazione degli stessi visitatori a ciascuna attività.
+description: Scopri come utilizzare gli attributi del profilo per impostare in Adobe [!DNL Target] test che confrontano più attività ma non consentono la partecipazione degli stessi visitatori a ciascuna attività.
 title: Posso utilizzare gli script di profilo per testare attività reciprocamente esclusive?
 feature: Audiences
 exl-id: b0b23887-3339-411e-9f5c-64f9d1ba778c

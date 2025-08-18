@@ -21,7 +21,7 @@ Supponi di dover sottoporre a test due pagine completamente diverse, anziché se
 >
 > * Le offerte di reindirizzamento possono essere create nella pagina [!UICONTROL Offers] > [!UICONTROL Code Offers] o nel [Compositore esperienza basato su Forms](/help/main/c-experiences/form-experience-composer.md). Non è possibile creare o applicare offerte di reindirizzamento nel Compositore esperienza visivo [!UICONTROL Visual Experience Composer]. Il contenuto viene inserito nei percorsi di richiesta [!DNL Target], pertanto è molto probabile che questi percorsi non siano appropriati per una richiesta globale di [!DNL Target].
 >
->* Impossibile utilizzare le offerte di reindirizzamento nelle mbox AJAX (`mboxUpdate`).
+>* Non è possibile utilizzare le offerte di reindirizzamento nelle mbox di AJAX (`mboxUpdate`).
 >
 >* Per le offerte di reindirizzamento nelle attività che utilizzano [[!UICONTROL Analytics as the reporting source]](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T), l&#39;implementazione deve soddisfare determinati requisiti minimi. Inoltre, è necessario conoscere alcune informazioni importanti. Vedi [Offerte di reindirizzamento - Domande frequenti su A4T](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#concept_21BF213F10E1414A9DCD4A98AF207905).
 >

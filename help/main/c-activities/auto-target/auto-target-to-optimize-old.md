@@ -2,7 +2,7 @@
 keywords: targeting automatico;targeting;allocazione traffico;domande frequenti;faq;risoluzione dei problemi;risoluzione problemi
 description: Scopri in che modo un'attività [!UICONTROL Auto-Target] in [!DNL Target] fornisce l'esperienza più personalizzata a ogni visitatore in base ai profili cliente e al comportamento di visitatori simili.
 title: Che cos'è un'attività [!UICONTROL Auto-Target]?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=it#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."
 feature: Auto-Target
 exl-id: 59ca30dc-45a0-4129-b832-84e1132d3b69
 source-git-commit: 32a91a41cd182d3a55ded7dea8c1c6ea6f46aa71
@@ -24,7 +24,7 @@ ht-degree: 21%
 
 ## Storia di successo nel mondo reale con l’utilizzo del Targeting automatico {#success}
 
-Un grande rivenditore di abbigliamento ha recentemente utilizzato un&#39;attività [!UICONTROL Auto-Target] con dieci esperienze basate su categorie di prodotti (più controllo randomizzato) per fornire il contenuto giusto a ogni visitatore. &quot;[!UICONTROL Add to Cart]&quot; è stato scelto come metrica di ottimizzazione primaria. Le esperienze mirate hanno avuto un incremento medio del 29,09%. Dopo aver generato i modelli [!UICONTROL Auto-Target], l&#39;attività è stata impostata sul 90% di esperienze personalizzate.
+Un importante retailer di abbigliamento ha recentemente utilizzato un&#39;attività [!UICONTROL Auto-Target] con dieci esperienze basate su categorie di prodotti (più controllo randomizzato) per fornire il contenuto giusto a ogni visitatore. &quot;[!UICONTROL Add to Cart]&quot; è stato scelto come metrica di ottimizzazione primaria. Le esperienze mirate hanno avuto un incremento medio del 29,09%. Dopo aver generato i modelli [!UICONTROL Auto-Target], l&#39;attività è stata impostata sul 90% di esperienze personalizzate.
 
 In soli dieci giorni, è stato raggiunto un incremento di oltre 1.700.000 dollari.
 

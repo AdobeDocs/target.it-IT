@@ -62,14 +62,14 @@ Per le attività da eseguire in [!DNL Adobe Admin Console] , accedi alla console
 
 Tutte le operazioni di gestione dell’utente devono essere eseguite in [!DNL Adobe Admin Console for Enterprise]. Tuttavia, tutti gli utenti esistenti in [!DNL Target] verranno migrati da [!DNL Target] ad [!DNL Admin Console for Enterprise].
 
-1. [Nell&#39;Admin Console](/help/main/administrating-target/c-user-management/c-user-management/user-management.md#section_79796E0227D048F59BAE0AB02E544EBE), fare clic su **[!UICONTROL Users]** > **[!UICONTROL Users]** per creare nuovi utenti o modificare quelli esistenti.
+1. [In Admin Console](/help/main/administrating-target/c-user-management/c-user-management/user-management.md#section_79796E0227D048F59BAE0AB02E544EBE), fare clic su **[!UICONTROL Users]** > **[!UICONTROL Users]** per creare nuovi utenti o modificare quelli esistenti.
 1. Segui le istruzioni contenute in [Gestire utenti e gruppi in Experience Cloud](https://helpx.adobe.com/it/enterprise/using/users.html) nella *guida utente della versione Enterprise*.
 
 ## Creazione di gruppi di utenti {#user-groups}
 
 È possibile creare gruppi di utenti, ad esempio sviluppatori, analisti, addetti al marketing, dirigenti e così via, e assegnare privilegi a più prodotti e aree di lavoro di [!DNL Adobe]. Per assegnare a un nuovo membro del team tutti i privilegi appropriati per i diversi prodotti [!DNL Adobe], sarà sufficiente aggiungerlo a un gruppo di utenti specifico.
 
-1. [Nell&#39;Admin Console](/help/main/administrating-target/c-user-management/c-user-management/user-management.md#section_79796E0227D048F59BAE0AB02E544EBE), fare clic su **[!UICONTROL Users]** > **[!UICONTROL User Groups]** per creare nuovi gruppi di utenti o per modificare quelli esistenti.
+1. [In Admin Console](/help/main/administrating-target/c-user-management/c-user-management/user-management.md#section_79796E0227D048F59BAE0AB02E544EBE), fare clic su **[!UICONTROL Users]** > **[!UICONTROL User Groups]** per creare nuovi gruppi di utenti o per modificare quelli esistenti.
 1. Segui le istruzioni contenute in [Gestire utenti e gruppi in Experience Cloud](https://helpx.adobe.com/it/enterprise/using/users.html) nella *guida utente della versione Enterprise*.
 
 ## Specificare ruoli e autorizzazioni {#roles-permissions}
@@ -82,7 +82,7 @@ Devono essere gli utenti amministratori di sistema ad aggiungere gli utenti al s
 >
 >Per visualizzare le attività in [!DNL Target], gli utenti devono essere assegnati direttamente a un&#39;area di lavoro con almeno il ruolo [!UICONTROL Observer]. L’assegnazione tramite i soli gruppi di utenti non è sufficiente. In genere, si consiglia di concedere agli utenti l’accesso all’area di lavoro predefinita.
 
-1. [Nell&#39;Admin Console](/help/main/administrating-target/c-user-management/c-user-management/user-management.md#section_79796E0227D048F59BAE0AB02E544EBE), fare clic su **[!UICONTROL Products]**, quindi selezionare il nome del prodotto desiderato.
+1. [In Admin Console](/help/main/administrating-target/c-user-management/c-user-management/user-management.md#section_79796E0227D048F59BAE0AB02E544EBE), fare clic su **[!UICONTROL Products]**, quindi selezionare il nome del prodotto desiderato.
 
 1. Fai clic sull’area di lavoro desiderata, ad esempio Default Workspace (Area di lavoro predefinita).
 
@@ -113,4 +113,4 @@ Finalità di apprendimento:
 >
 >L&#39;interfaccia utente del menu [!DNL Target] [!UICONTROL Administration] (in precedenza [!UICONTROL Setup]) è stata riprogettata per fornire prestazioni migliori, ridurre il tempo di manutenzione necessario per il rilascio di nuove funzionalità e migliorare l&#39;esperienza utente nel prodotto. Le informazioni contenute nel video seguente sono generalmente corrette; tuttavia, le opzioni potrebbero trovarsi in punti leggermente diversi. I video aggiornati verranno pubblicati a breve.
 
->[!VIDEO](https://video.tv.adobe.com/v/3421732?captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/19463/)

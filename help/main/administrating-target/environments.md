@@ -7,7 +7,7 @@ role: Admin
 exl-id: 820a116a-15f9-4ba0-94f3-8e35aa0f90da
 source-git-commit: 12831d6584acc482db415629d7e70a18e39c47c2
 workflow-type: tm+mt
-source-wordcount: '644'
+source-wordcount: '653'
 ht-degree: 46%
 
 ---
@@ -50,7 +50,7 @@ Per impostare l’ambiente predefinito per la segnalazione:
 >
 >Se gli host passano ad altri gruppi host, gli utenti che usano la funzionalità [!DNL Recommendations] devono rigenerare il database dei comportamenti e quello dei prodotti.
 >
->Se si specifica un [ambiente predefinito in un [!DNL Adobe Experience Platform] flusso di dati](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=it#target){target=_blank}, questa impostazione ha la precedenza su quella in [!DNL Target].
+>Se si specifica un [ambiente predefinito in un [!DNL Adobe Experience Platform] flusso di dati](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=en#target){target=_blank}, questa impostazione ha la precedenza su quella in [!DNL Target].
 
 ## Modificare il nome di un ambiente {#section_9F5F94285F8E495E9CE69810CE94CA08}
 
@@ -69,7 +69,7 @@ Quando un ambiente non è più necessario, è possibile eliminarlo.
 >
 >Non è possibile eliminare l&#39;ambiente [!UICONTROL Production], ma è possibile rinominarlo.
 
-## [!BADGE Premium]{type=Positive url="/help/main/c-intro/intro.md#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."}
+## [!BADGE Premium]{type=Positive url="/help/main/c-intro/intro.md#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."} Recommendations: filtrare raccolte ed esclusioni per ambiente (gruppo di host)
 
 Puoi visualizzare in anteprima il contenuto delle raccolte ed esclusioni di Consigli per un ambiente selezionato (gruppo di host).
 

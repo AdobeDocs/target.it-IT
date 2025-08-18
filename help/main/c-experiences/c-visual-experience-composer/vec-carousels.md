@@ -1,6 +1,6 @@
 ---
 keywords: Compositore esperienza visivo;VEC;carosello
-description: Scopri come creare un carosello che può essere modificato nell'Adobe  [!DNL Target] Compositore esperienza visivo.
+description: Scopri come creare un carosello che può essere modificato nel Compositore esperienza visivo di Adobe [!DNL Target] .
 title: Come posso creare caroselli di immagini nel Compositore esperienza visivo?
 feature: Visual Experience Composer (VEC)
 exl-id: 50bc11d2-c9fc-4b53-8218-49842b59269a

@@ -1,6 +1,6 @@
 ---
 keywords: test modello;modello;stessa esperienza su pagine simili;test template
-description: Scopri come utilizzare il Compositore esperienza visivo (VEC) di Adobe [!DNL Target] per includere la stessa esperienza in più pagine con struttura simile o contenenti gli stessi elementi modello.
+description: Scopri come utilizzare il Compositore esperienza visivo di Adobe [!DNL Target] per includere la stessa esperienza in più pagine con struttura simile o contenenti gli stessi elementi modello.
 title: Posso includere la stessa esperienza in pagine simili?
 feature: Experiences and Offers
 exl-id: 4ea95794-496c-4eff-96ec-8a9d1f732c4a
@@ -74,7 +74,7 @@ Puoi specificare le pagine che includono gli elementi di modifica o applicare la
 >
 > [!DNL Target] non è in grado di controllare le pagine per verificare che siano visualizzate come previsto, pertanto è sempre consigliabile utilizzare questa funzionalità per testare le pagine interessate prima di renderle pubbliche.
 
-## Casi di utilizzo
+## Casi d’uso
 
 Esamina i seguenti casi d’uso per scoprire come utilizzare le regole dei modelli sul sito:
 

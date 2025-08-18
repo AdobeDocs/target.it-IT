@@ -1,5 +1,5 @@
 ---
-keywords: opzioni compositore esperienza visivo;opzioni compositore esperienza;opzioni esperienza;modifica testo;modifica html;modifica testo/html;modifica colore di sfondo;colore di sfondo;inserire elemento;modifica collegamento;collegamento;collegamento;collegamento compositore esperienza visivo;modifica classe css;classe css;sostituire offerta;scambiare immagine;scambiare immagine;rimuovere elemento;rimuovere elemento;elemento rimuovere;nascondere elemento;nascondere elemento;ridisporre;spostare elemento;spostare elemento;ridimensionare elemento;ridimensionare elemento;elemento;espandere la selezione;passare a questo collegamento;passare al collegamento;passare al collegamento;navigare;passare;collegamento;annullare;ripetere;annullare/ripetere;eventi personalizzati;componenti web;decisione offerta;offer decisioning
+keywords: opzioni compositore esperienza visivo;opzioni compositore esperienza;opzioni esperienza;modifica testo;modifica html;modifica testo/html;modifica colore di sfondo;colore di sfondo;inserire elemento;modifica collegamento;collegamento;collegamento;collegamento compositore esperienza visivo;modifica classe css;classe css;sostituire offerta;scambiare offerta;scambiare immagine;sostituire immagine;rimuovere elemento;rimuovere elemento;nascondere elemento;nascondere elemento;nascondere elemento;ridisporre;spostare elemento;spostare elemento;ridimensionare elemento;ridimensionare elemento;elemento;espandere selezione;passare a questo collegamento;passare al collegamento;passare al collegamento;navigare;passare;collegamento;annullare;ripetere;annullare/ripetere;eventi personalizzati;componenti web;decisione offerta;decisione offerta
 description: Esplora le opzioni disponibili nel  [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC).
 title: Come si utilizzano le opzioni [!UICONTROL Visual Experience Composer] (VEC)?
 feature: Visual Experience Composer (VEC)
@@ -7,7 +7,7 @@ exl-id: 50993d6c-5025-488a-8b33-9ed7c142de6e
 source-git-commit: be9996c4dce0a3135a39fcbf0608b57b6e742ac3
 workflow-type: tm+mt
 source-wordcount: '2667'
-ht-degree: 55%
+ht-degree: 56%
 
 ---
 
@@ -33,7 +33,7 @@ Modifica il codice HTML per l&#39;elemento, ad esempio il testo per un&#39;area 
 
 Oltre al codice HTML, puoi modificare e inserire codice JavaScript personalizzato.
 
-Sono disponibili diverse opzioni di formattazione per modificare testo e HTML per le attività [!UICONTROL A/B] e [!UICONTROL Experience Targeting]. Puoi scegliere font e stile, l’allineamento del testo e altre opzioni standard per la formattazione del testo. Quando modifichi l’HTML, puoi passare dalla visualizzazione del codice alla visualizzazione per modifica Rich Text dell’HTML.
+Sono disponibili diverse opzioni di formattazione per modificare il testo e HTML per le attività [!UICONTROL A/B] e [!UICONTROL Experience Targeting]. Puoi scegliere font e stile, l’allineamento del testo e altre opzioni standard per la formattazione del testo. Quando modifichi l’HTML, puoi passare dalla visualizzazione del codice alla visualizzazione per modifica Rich Text dell’HTML.
 
 I seguenti tag HTML5 possono essere nidificati:
 
@@ -178,7 +178,7 @@ I punti blu nel pannello principale e accanto a ogni opzione nei vari pannelli d
    * [!UICONTROL Blur]
    * [!UICONTROL Opacity]
    * [!UICONTROL Invert]
-*[!UICONTROL &#x200B; Hue-rotate]
+*[!UICONTROL  Hue-rotate]
    * [!UICONTROL Saturate]
 
 * **[!UICONTROL CSS Editor]**
@@ -217,7 +217,7 @@ Sono disponibili le seguenti opzioni:
 
 ### [!UICONTROL Offer Decision]
 
-Aggiungi un&#39;offerta [creata in [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html?lang=it){target=_blank} per presentare ai clienti l&#39;offerta e l&#39;esperienza migliore utilizzando offer decisioning.
+Aggiungi un&#39;offerta [creata in [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html){target=_blank} per presentare ai clienti l&#39;offerta e l&#39;esperienza migliore utilizzando offer decisioning.
 
 **Nota:** questa opzione è disponibile solo per la modifica o la creazione di [attività manuali [!UICONTROL A/B Test]](/help/main/c-activities/t-test-ab/test-ab.md#types) o [[!UICONTROL Experience Targeting]](/help/main/c-activities/t-experience-target/experience-target.md) (XT). Questa opzione non è disponibile per altri tipi di attività.
 
@@ -249,7 +249,7 @@ Sono disponibili le seguenti opzioni:
 
 ### [!UICONTROL Offer Decision]
 
-Aggiungi un&#39;offerta [creata in [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html?lang=it){target=_blank} per presentare ai clienti l&#39;offerta e l&#39;esperienza migliore utilizzando offer decisioning.
+Aggiungi un&#39;offerta [creata in [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html){target=_blank} per presentare ai clienti l&#39;offerta e l&#39;esperienza migliore utilizzando offer decisioning.
 
 **Nota:** questa opzione è disponibile solo per la modifica o la creazione di [attività manuali [!UICONTROL A/B Test]](/help/main/c-activities/t-test-ab/test-ab.md#types) o [[!UICONTROL Experience Targeting]](/help/main/c-activities/t-experience-target/experience-target.md) (XT). Questa opzione non è disponibile per altri tipi di attività.
 
@@ -281,7 +281,7 @@ Sono disponibili le seguenti opzioni:
 
 ### [!UICONTROL Offer Decision]
 
-Aggiungi un&#39;offerta [creata in [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html?lang=it){target=_blank} per presentare ai clienti l&#39;offerta e l&#39;esperienza migliore utilizzando offer decisioning.
+Aggiungi un&#39;offerta [creata in [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html){target=_blank} per presentare ai clienti l&#39;offerta e l&#39;esperienza migliore utilizzando offer decisioning.
 
 **Nota:** questa opzione è disponibile solo per la modifica o la creazione di [attività manuali [!UICONTROL A/B Test]](/help/main/c-activities/t-test-ab/test-ab.md#types) o [[!UICONTROL Experience Targeting]](/help/main/c-activities/t-experience-target/experience-target.md) (XT). Questa opzione non è disponibile per altri tipi di attività.
 
@@ -309,9 +309,9 @@ La funzione Consigli supporta la funzione Sostituisci con nei tag DIV, SECTION e
 
 Selezionare un&#39;offerta diversa da [!UICONTROL Content Library].
 
-**Nota:**&#x200B;[!DNL Target] le offerte HTML sono memorizzate sui server di
+**Nota:**[!DNL Target] le offerte HTML sono memorizzate sui server di
 
-Un’offerta HTML può avere una dimensione massima di 256 KB.
+Un&#39;offerta HTML può essere fino a 256 KB.
 
 ### Consiglio
 
@@ -359,7 +359,7 @@ Rimuovi l’elemento. Lo spazio vuoto dietro l&#39;immagine viene rimosso e lo s
 
 ## [!UICONTROL Expand Section]
 
-Consente di selezionare l’elemento padre in aggiunta all’elemento selezionato originariamente. Quando selezioni un elemento padre, tutti i relativi figli vengono selezionati automaticamente. Puoi espandere la selezione più volte.
+Consente di selezionare l’elemento padre in aggiunta all’elemento selezionato originariamente. Quando selezioni un elemento principale, tutti i relativi elementi secondari vengono selezionati automaticamente. Puoi espandere la selezione più volte.
 
 ## [!UICONTROL Navigate to Link]
 
@@ -371,7 +371,7 @@ Annulla le modifiche apportate alle attività durante una sessione di modifica. 
 
 ## Considerazioni {#considerations}
 
-* Se un&#39;offerta contiene contenuti HTML, consulta la sezione su come avviene il rendering delle offerte con contenuti HTML in [Funzionamento di at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html?lang=it){target=_blank} per ulteriori informazioni.
+* Se un’offerta contiene contenuti HTML, consulta la sezione su come avviene il rendering di contenuti HTML in at.js, in [Funzionamento di at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html){target=_blank}.
 
 ## Supporto per elementi personalizzati {#custom}
 
@@ -407,7 +407,7 @@ Facendo clic su un elemento della pagina, viene visualizzato il menu delle opzio
 
 Puoi utilizzare il percorso DOM per vedere rapidamente le informazioni sull’elemento selezionato (tipo, ID e classe) e spostarti verso l’alto o il basso nel percorso DOM per selezionare l’elemento desiderato.
 
-Quando passi il cursore del mouse sul percorso DOM, una casella blu evidenzia l’elemento corrispondente nel Compositore esperienza visivo. Se fai clic sull’elemento, una casella arancione evidenzia l’elemento e viene visualizzato il menu delle opzioni del Compositore esperienza visivo, come illustrato in precedenza.
+Quando passi il puntatore sul percorso DOM, una casella blu evidenzia l’elemento corrispondente nel Compositore esperienza visivo. Se fai clic sull’elemento, una casella arancione evidenzia l’elemento e viene visualizzato il menu delle opzioni del Compositore esperienza visivo, come illustrato in precedenza.
 
 Utilizzando il percorso DOM, è possibile passare facilmente a qualsiasi elemento principale, di pari livello o secondario all’interno del Compositore esperienza visivo.
 

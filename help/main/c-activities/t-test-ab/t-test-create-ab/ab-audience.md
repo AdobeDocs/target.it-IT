@@ -1,6 +1,6 @@
 ---
 keywords: pubblico;selezionare il pubblico;scegliere il pubblico;audience;selettori
-description: Definisci i visitatori del sito che partecipano all'attività di Adobe [!DNL Target]  in base ai criteri di pubblico.
+description: Definisci i visitatori del sito che partecipano alla tua attività Adobe [!DNL Target]  in base ai criteri di pubblico.
 title: Come si seleziona un pubblico in un'attività  [!DNL Target] A/B?
 feature: A/B Tests
 exl-id: 281ae227-c593-4b71-ad12-865430b332be

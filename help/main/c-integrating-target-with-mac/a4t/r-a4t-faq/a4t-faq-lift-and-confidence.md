@@ -7,7 +7,7 @@ exl-id: 42fd179b-944a-4a0a-b299-85ea4a7ea244
 source-git-commit: aff96eca1380f4274dba0c1567f6e41d42f4b5ab
 workflow-type: tm+mt
 source-wordcount: '541'
-ht-degree: 15%
+ht-degree: 25%
 
 ---
 
@@ -18,14 +18,14 @@ Questo argomento contiene le risposte alle domande che vengono spesso poste in m
 ## Posso eseguire calcoli offline per A4T? {#section_55B5B750E17D414CAECBEECE27B15D81}
 
 +++Risposta
-È possibile eseguire calcoli offline per A4T, ma è necessario un passaggio con esportazioni di dati in [!DNL Analytics]. Per ulteriori informazioni, vedere [Calcoli statistici nei test A/Bn](/help/main/c-reports/statistical-methodology/statistical-calculations.md).
+Puoi eseguire calcoli offline per A4T, ma è necessario un ulteriore passaggio di esportazione dei dati di [!DNL Analytics]. Per ulteriori informazioni, vedere [Calcoli statistici nei test A/Bn](/help/main/c-reports/statistical-methodology/statistical-calculations.md).
 
 +++
 
 ## Come viene calcolato l’incremento? {#section_8CAE788EED5646C4B1D64A0D22070734}
 
 +++Risposta
-Incremento è la differenza percentuale tra i risultati della pagina di controllo e una variante di test riuscita.
+L’incremento è la differenza percentuale tra i risultati della pagina di controllo e una variante di test riuscita.
 
 +++
 
@@ -46,7 +46,7 @@ Gli eventi non calcolati (standard) sono supportati in incremento e affidabilit�
 Esempi di metriche o casi d’uso non supportati includono:
 
 * Valore medio ordine (ricavi/ordine, per visitatore). AOV non è supportato perché il numeratore è una metrica calcolata. Al contrario, si consiglia di considerare le due metriche che influenzano l’AOV: Ricavo per visitatore e Tasso di conversione.
-* Metriche calcolate che corrispondono alla somma degli eventi standard. Ad esempio, puoi tenere traccia di dieci diversi moduli lead in dieci eventi separati, quindi aggiungerli per ottenere l’invio totale di lead. Un metodo consigliato per tenere traccia di questi eventi consiste nell’implementare un singolo evento di invio di lead in Analytics, quindi utilizzare un eVar per raccogliere il tipo di modulo del lead. L’utilizzo di questo metodo richiede meno variabili e garantisce che sia possibile utilizzare la metrica di invio del singolo lead nelle funzioni di incremento e affidabilità.
+* Metriche calcolate che corrispondono alla somma degli eventi standard. Ad esempio, puoi tenere traccia di dieci diversi moduli lead in dieci eventi separati, quindi aggiungerli per ottenere l’invio totale di lead. Un metodo consigliato per tenere traccia di questi eventi consiste nell’implementare un singolo evento di invio di lead in Analytics, quindi utilizzare un’eVar per raccogliere il tipo di modulo del lead. L’utilizzo di questo metodo richiede meno variabili e garantisce che sia possibile utilizzare la metrica di invio del singolo lead nelle funzioni di incremento e affidabilità.
 
 +++
 
@@ -60,5 +60,5 @@ Esempi di metriche o casi d’uso non supportati includono:
 ## L’incremento e l’affidabilità funzionano in Ad Hoc e Report Builder? Se non sono funzioni native, posso intervenire io? {#section_D8BB69AE700B4C5CB5FD28DB51F9A4E9}
 
 +++Risposta
-Incremento e affidabilità non funzionano in Ad Hoc o Report Builder e non possono essere calcolati da soli per variabili continue. È possibile calcolarli manualmente per metriche binarie.
+Incremento e affidabilità non funzionano in Ad Hoc e Report Builder e non puoi calcolarli per variabili continue. È possibile calcolarli manualmente per metriche binarie.
 +++

@@ -8,7 +8,7 @@ exl-id: e4a71a4d-e8f3-4f94-a1a7-fd250f4d5095
 source-git-commit: 195028613dec0294c816703b9145e720e3209d74
 workflow-type: tm+mt
 source-wordcount: '1014'
-ht-degree: 41%
+ht-degree: 42%
 
 ---
 
@@ -110,7 +110,7 @@ Di seguito sono riportate le domande frequenti sul geotargeting:
 
 ### Come si specificano latitudine e longitudine?
 
-+++Consulta i dettagli
++++Vedi i dettagli
 * I valori di latitudine e longitudine devono essere un valore numerico espresso in gradi.
 * I valori di latitudine e longitudine possono avere una precisione massima di cinque cifre decimali.
 * Il valore della latitudine deve essere compreso tra -90 e 90.
@@ -134,7 +134,7 @@ A causa del modo in cui AOL esegue il proxy del traffico, [!DNL Target] può ese
 
 ### Qual è il livello di dettaglio sulla posizione fornito dal geotargeting?
 
-+++Consulta i dettagli
++++Vedi i dettagli
 * Paese: globale
 * Stato/provincia/regione: globale
 * Città: globale
@@ -146,7 +146,7 @@ A causa del modo in cui AOL esegue il proxy del traffico, [!DNL Target] può ese
 
 ### Come posso testare le mie attività simulando di essere un utente proveniente da una posizione diversa?
 
-+++Consulta i dettagli
++++Vedi i dettagli
 * **at.js 1.*x***: è possibile sostituire l&#39;indirizzo IP con un indirizzo IP di una posizione diversa e utilizzare il parametro `mboxOverride.browserIp url`. Ad esempio, se la tua azienda è nel Regno Unito ma la campagna globale è indirizzata a visitatori di Auckland in Nuova Zelanda, utilizza questo stile di URL supponendo che `60.234.0.39` sia un indirizzo IP di Auckland:
 
   `https://www.mycompany.com?mboxOverride.browserIp=60.234.0.39`
@@ -164,7 +164,7 @@ A causa del modo in cui AOL esegue il proxy del traffico, [!DNL Target] può ese
 ### In che modo territori, come ad esempio Porto Rico e Hong Kong, vengono mappati nella struttura del geotargeting?
 
 +++Vedi i dettagli
-Porto Rico, Hong Kong e altri territori sono trattati come valori &quot;Paese&quot; separati.
+Porto Rico, Hong Kong e altri territori vengono considerati valori “Paese” separati.
 
 +++
 

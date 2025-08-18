@@ -6,7 +6,7 @@ feature: Overview
 exl-id: 8a93e061-0be7-4ecc-b511-2210094547f2
 source-git-commit: c5cca9b4b95289626ade1654bb508ee9f0bf35f3
 workflow-type: tm+mt
-source-wordcount: '2215'
+source-wordcount: '2214'
 ht-degree: 24%
 
 ---
@@ -35,12 +35,12 @@ Target si integra con i siti Web utilizzando [!DNL Experience Platform Web SDK] 
 >
 >La libreria mbox.js è un&#39;implementazione legacy per [!DNL Target] e non è più supportata dopo il 31 marzo 2021. Esegui l’aggiornamento a [!UICONTROL Experience Platform Web SDK] (preferito) o alla versione più recente di at.js.
 
-Fai riferimento a [!UICONTROL Experience Platform Web SDK] o at.js in ogni pagina del sito. Ad esempio, aggiungi una di queste librerie all’intestazione globale. In alternativa, utilizzare [tag in Adobe Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/tags/home){target=_blank} per implementare [!DNL Target].
+Fai riferimento a [!UICONTROL Experience Platform Web SDK] o at.js in ogni pagina del sito. Ad esempio, aggiungi una di queste librerie all’intestazione globale. In alternativa, utilizzare [tag in Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/tags/home){target=_blank} per implementare [!DNL Target].
 
 Le risorse seguenti contengono informazioni dettagliate utili per implementare [!DNL Experience Platform Web SDK] o at.js:
 
 * [[!DNL Adobe Experience Platform Web SDK] Estensione](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/sdk/overview.html?lang=it){target=_blank}
-* [Implementare [!DNL Target] utilizzando [!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/it/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch){target=_blank}
+* [Implementare [!DNL Target] utilizzando [!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch){target=_blank}
 
 Ogni volta che un visitatore richiede una pagina ottimizzata per [!DNL Target], viene inviata una richiesta in tempo reale al sistema di targeting per determinare il contenuto da distribuire. Questa richiesta viene effettuata ed evasa ogni volta che viene caricata una pagina, gestita da attività ed esperienze controllate dagli addetti al marketing. Il contenuto è destinato ai singoli visitatori del sito, ottimizzando i tassi di risposta, i tassi di acquisizione e i ricavi. I contenuti personalizzati garantiscono che i visitatori rispondano, interagiscano o effettuino acquisti.
 
@@ -134,7 +134,7 @@ The following information helps you understand the counting strategy used for [!
 
 Per migliorare i tempi di risposta, l’ambiente Edge di [!DNL Target] ospita solo logica di attività, profili memorizzati nella cache e informazioni sulle offerte.
 
-I database di attività e contenuti, i dati di [!DNL Analytics], le API e le interfacce utente per gli addetti al marketing si trovano in [!DNL Adobe] cluster centrali. Gli aggiornamenti vengono inviati a [!DNL Target] Edge, che vengono sincronizzati automaticamente con i cluster centrali per aggiornare continuamente i dati delle attività memorizzati nella cache. Anche la modellazione 1:1 è memorizzata su ogni server Edge di, consentendo l’elaborazione locale di richieste complesse.
+I database di attività e contenuti, i dati di [!DNL Analytics], le API e le interfacce utente per gli addetti al marketing si trovano in [!DNL Adobe] cluster centrali. Gli aggiornamenti vengono inviati a [!DNL Target] Edge, che vengono sincronizzati automaticamente con i cluster centrali per aggiornare continuamente i dati delle attività memorizzati nella cache. Anche la modellazione 1:1 è archiviata in ogni perimetro, consentendo l&#39;elaborazione locale di richieste complesse.
 
 Ogni cluster Edge contiene tutte le informazioni necessarie per rispondere alle richieste di contenuto dei visitatori e tenere traccia dei dati di analisi. Le richieste dei visitatori vengono indirizzate al nodo Edge più vicino.
 
@@ -172,7 +172,7 @@ Il servizio [!DNL Target Recommendations] è ospitato in un data center [!DNL Ad
 >
 >[!DNL Target] non dispone attualmente di un cluster Edge in Cina, limitando le prestazioni dei visitatori per [!DNL Target] clienti nella regione. Il firewall e l’assenza di cluster Edge possono influire sulle esperienze del sito, rallentando i tempi di rendering e caricamento delle pagine. Inoltre, gli addetti al marketing possono riscontrare una latenza durante l&#39;utilizzo dell&#39;interfaccia utente di creazione di [!DNL Target].
 
-Se necessario, puoi inserire nell’elenco Consentiti i cluster di Edge [!DNL Target]. Per ulteriori informazioni, consulta [elenco Consentiti nodi edge di Target](https://experienceleague.adobe.com/it/docs/target-dev/developer/implementation/privacy/allowlist-edges){target=_blank}.
+Se necessario, puoi inserire nell’elenco Consentiti i cluster di Edge [!DNL Target]. Per ulteriori informazioni, consulta [elenco Consentiti nodi edge di Target](https://experienceleague.adobe.com/en/docs/target-dev/developer/implementation/privacy/allowlist-edges){target=_blank}.
 
 ## Esperienza di utilizzo protetta {#concept_40A5E781D90A41E4955F80EA9E5F8F96}
 

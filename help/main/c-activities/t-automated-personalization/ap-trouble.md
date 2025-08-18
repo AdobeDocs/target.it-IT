@@ -2,13 +2,13 @@
 kewords: Automated Personalization;ap;troublshoot;troubleshooting;model;lift
 description: Esplora le potenziali sfide che potresti affrontare durante l'utilizzo delle attività di [!UICONTROL Automated Personalization] (AP) in Adobe Target, insieme alle soluzioni suggerite.
 title: Come posso risolvere i problemi relativi a [!UICONTROL Automated Personalization] attività?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=it#premium newtab=true" tooltip="Vedi cosa è incluso in Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."
 feature: Automated Personalization
 exl-id: bc23e5db-5b65-44be-be45-c972287a64e7
 source-git-commit: 2cb2c2b68f6487d1af41ecc7e73750afa1ad85f9
 workflow-type: tm+mt
 source-wordcount: '726'
-ht-degree: 32%
+ht-degree: 31%
 
 ---
 
@@ -18,7 +18,7 @@ A volte le attività non vanno come previsto. Di seguito sono riportate alcune p
 
 ## La mia attività [!UICONTROL Automated Personalization] sta impiegando troppo tempo per generare i modelli. {#section_20028B204DBB4D77A324BA193434AEE2}
 
-+++Consulta i dettagli
++++Vedi i dettagli
 
 Sono disponibili diverse modifiche dell&#39;impostazione dell&#39;attività che possono ridurre il tempo previsto per la generazione di modelli, tra cui il numero di esperienze nell&#39;attività [!UICONTROL Automated Personalization], il traffico verso il sito e la metrica di successo selezionata.
 
@@ -33,7 +33,7 @@ Sono disponibili diverse modifiche dell&#39;impostazione dell&#39;attività che 
 
 ## La mia attività [!UICONTROL Automated Personalization] non ha generato l&#39;incremento. {#section_8900BC8968474438B8092F7A94C0C6CF}
 
-+++Consulta i dettagli
++++Vedi i dettagli
 
 Ci sono diversi fattori necessari affinché un&#39;attività [!UICONTROL Automated Personalization] generi incremento:
 
@@ -48,7 +48,7 @@ Ci sono diversi fattori necessari affinché un&#39;attività [!UICONTROL Automat
 
 ## L&#39;URL della mia attività [!UICONTROL Automated Personalization] mostra il contenuto delle offerte su pagine errate. {#section_82A224406DBF4107B05204BEFBBE458C}
 
-+++Consulta i dettagli
++++Vedi i dettagli
 
 In [!UICONTROL Automated Personalization], le regole di test di URL e modelli vengono aggiunte al vincolo di immissione della richiesta [!DNL Target] (ad esempio, target-global-mbox), dove vengono valutate una sola volta. Quando un utente si qualifica per un’attività, le regole di targeting a livello di richiesta di Target non vengono rivalutate. Tuttavia, il pubblico di destinazione viene aggiunto alle regole di targeting per la posizione.
 
@@ -58,7 +58,7 @@ In [!UICONTROL Automated Personalization], le regole di test di URL e modelli ve
 
 ## Qualsiasi metrica dipendente da una metrica di conversione non consegue mai la conversione. {#section_076D1F44298C4E4A849AC52F5A33214D}
 
-+++Consulta i dettagli
++++Vedi i dettagli
 
 Si tratta di un comportamento previsto.
 
@@ -70,7 +70,7 @@ Prendiamo ad esempio un’attività con una metrica di conversione (C1) e una me
 
 ## I miei URL di esperienza non funzionano come previsto. {#section_7B08DA1F30AA483E9406336DAF361BA4}
 
-+++Consulta i dettagli
++++Vedi i dettagli
 
 * Se non riesci a visualizzare l’anteprima nella nuova scheda (a causa della cache del browser), prova ad aggiornare due o tre volte. Puoi anche copiare il collegamento e aprirlo in un nuovo browser o in una nuova sessione.
 * Rigenera i collegamenti degli URL di esperienza se hai modificato qualsiasi contenuto e condividi i nuovi collegamenti con i tuoi compagni di team.

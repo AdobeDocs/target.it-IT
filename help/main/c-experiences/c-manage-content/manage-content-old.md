@@ -82,7 +82,7 @@ Sono disponibili le seguenti informazioni:
 
 Fai clic sul collegamento [!UICONTROL View Full Details] per visualizzare il contenuto dell&#39;offerta e le attività che fanno riferimento a un&#39;offerta codice. In questo modo puoi evitare un impatto su altre attività mentre modifichi le offerte. Le informazioni includono [!UICONTROL Live Activities] e [!UICONTROL Inactive Activities].
 
-Le informazioni disponibili su ogni scheda variano a seconda del tipo di offerta: Offerta HTML, [Frammenti esperienza](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md), [Offerta di reindirizzamento](/help/main/c-experiences/c-manage-content/offer-redirect.md), [Offerta remota](/help/main/c-experiences/c-manage-content/about-remote-offers.md) o [Offerte JSON](/help/main/c-experiences/c-manage-content/create-json-offer.md).
+Le informazioni disponibili su ogni scheda variano a seconda del tipo di offerta: Offerta HTML, [Frammenti di esperienza](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md), [Offerta di reindirizzamento](/help/main/c-experiences/c-manage-content/offer-redirect.md), [Offerta remota](/help/main/c-experiences/c-manage-content/about-remote-offers.md) o [Offerte JSON](/help/main/c-experiences/c-manage-content/create-json-offer.md).
 
 La funzionalità dettagli offerta non è applicabile alle offerte di immagini.
 
@@ -92,7 +92,7 @@ La funzionalità dettagli offerta non è applicabile alle offerte di immagini.
 
 This video includes information about managing offers.
 
-* Connection between the [Experience Cloud Asset Library](https://experienceleague.adobe.com/docs/core-services/interface/assets/creative-cloud.html?lang=it) and the Target Content Library 
+* Connection between the [Experience Cloud Asset Library](https://experienceleague.adobe.com/docs/core-services/interface/assets/creative-cloud.html) and the Target Content Library 
 * Custom HTML Offers 
 * Custom HTML Offer in the [!UICONTROL Visual Experience Composer]
 

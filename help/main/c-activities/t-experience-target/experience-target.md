@@ -23,7 +23,7 @@ Quando i visitatori visualizzano il tuo sito, [!UICONTROL Experience Targeting] 
 
 ## Scenario: Targeting esperienza
 
-Supponiamo di avere un sito per attrezzature per attività all’aperto. I rapporti per il test A/B indicano che tre esperienze risuonano con tipi di pubblico diversi. Per applicare questo rilevamento, vuoi visualizzare un’immagine protagonista diversa sulla pagina home per questi diversi tipi di pubblico, a seconda della posizione o degli hobby dei visitatori. In questo scenario, vuoi visualizzare un’immagine di trekking per i visitatori del New Jersey e una di surf per i visitatori delle Hawaii. Un terzo tipo di pubblico è invece interessato al ciclismo. Vuoi quindi presentare a questi visitatori una terza immagine protagonista in linea con il loro interesse.
+Supponiamo di avere un sito per attrezzature per attività all’aperto. I rapporti per il test A/B indicano che tre esperienze risuonano con tipi di pubblico diversi. Per applicare questo rilevamento, vuoi visualizzare un’immagine protagonista diversa sulla pagina home per questi diversi tipi di pubblico, a seconda della posizione o degli hobby dei visitatori. In questo scenario, vuoi visualizzare un’immagine di trekking per i visitatori del New Jersey e una di surf per i visitatori delle Hawaii. Un terzo tipo di pubblico è invece interessato al ciclismo. Vuoi quindi presentare a questi visitatori una terza immagine hero in linea con il loro interesse.
 
 Un&#39;attività di [!UICONTROL Experience Targeting] consente di indirizzare questi tre tipi di pubblico con un&#39;immagine protagonista diversa, adatta a ciascun pubblico. Il video seguente *From A/B Testing to Experience Targeting* (Da test A/B a targeting esperienza) mostra come creare esperienze mirate per i due stati e una terza esperienza per gli appassionati di ciclismo. Il video mostra anche come ordinare le tre esperienze per raggiungere gli obiettivi. Guarda il video, quindi continua con [Creare un’attività Targeting esperienze](/help/main/c-activities/t-experience-target/t-xt-create/xt-create.md).
 
@@ -39,4 +39,4 @@ Questo video descrive come portare il test A/B al livello successivo con [!UICON
 * Descrivi come distribuire contenuti specifici per la posizione a tipi di pubblico in diverse aree geografiche
 * Descrivi come riordinare le esperienze per garantire che il contenuto corretto venga distribuito al pubblico giusto
 
->[!VIDEO](https://video.tv.adobe.com/v/41140?captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/22418/)

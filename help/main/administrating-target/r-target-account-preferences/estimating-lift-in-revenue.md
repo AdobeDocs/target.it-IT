@@ -44,6 +44,6 @@ Il campo della stima dell’incremento dei ricavi è visualizzato come “---”
 * Se il valore stimato della metrica non è stato fornito sulla relativa pagina di configurazione.
 * Se l’esperienza migliore risulta essere quella di controllo.
 
-Quando si impostano gli obiettivi di un’attività, il campo Valore stimato fornisce un valore per l’obiettivo. Questo valore consente a Target di calcolare un incremento stimato dei ricavi. Questo campo è facoltativo; tuttavia, i ricavi incrementali per eventuali metriche non collegate ai ricavi non possono essere calcolate senza di esso. I dati sono di tipo valuta. Questo campo viene visualizzato progressivamente dopo che l’utente indica l’azione intrapresa per soddisfare l’obiettivo.
+Quando si impostano gli obiettivi di un’attività, il campo Valore stimato fornisce un valore per l’obiettivo. Questo valore consente a Target di calcolare un incremento stimato dei ricavi. Questo campo è facoltativo; tuttavia, i ricavi incrementali per eventuali metriche non collegate ai ricavi non possono essere calcolate senza di esso. Il tipo di dati è valuta. Questo campo viene visualizzato progressivamente dopo che l’utente indica l’azione intrapresa per soddisfare l’obiettivo.
 
 Le entrate stimate nel caso in cui il 100% dei visitatori visualizzi l’esperienza vincente, sono riportate nella parte superiore dei rapporti di Target.

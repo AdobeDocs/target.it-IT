@@ -1,6 +1,6 @@
 ---
 keywords: Target;rapporti;impostazioni dei rapporti;ambiente;incremento;limiti di incremento;varianza;affidabilità;controllo
-description: Scopri come interpretare i rapporti Adobe [!DNL Target] che includono punti di dati e rappresentazioni di visualizzazione per comprendere i limiti di incremento e il livello di affidabilità delle attività.
+description: Scopri come interpretare i rapporti di Adobe [!DNL Target] che includono punti di dati e rappresentazioni di visualizzazione per comprendere i limiti di incremento e il livello di affidabilità delle attività.
 title: Come posso visualizzare l’incremento medio, i limiti di incremento e l’intervallo di affidabilità?
 feature: Reports
 exl-id: 0453aec1-cca5-462c-8eed-0d40bb4cf323

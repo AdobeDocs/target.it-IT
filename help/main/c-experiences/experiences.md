@@ -1,6 +1,6 @@
 ---
 keywords: esperienza;compositore esperienza visivo;compositore esperienza avanzato;compositore esperienza basato su moduli;compositore moduli;compositore visivo;compositore esperienza;contenuto misto;iframe;iframe busting;iframe bust;x-frame-options;origini incrociate;problemi di origini incrociate;flusso di lavoro di autenticazione
-description: 'Scopri di più su Compositori esperienza Adobi: Compositore esperienza visivo, Compositore esperienza basato su moduli e Compositore esperienza visivo a pagina singola.'
+description: 'Ulteriori informazioni su Compositori esperienza Adobe: Compositore esperienza visivo, Compositore esperienza basato su moduli e Compositore esperienza visivo a pagina singola.'
 title: Quali Compositori Esperienza Offre  [!DNL Target] ?
 feature: Experiences and Offers
 exl-id: 83daca9f-c154-487e-83cd-e458d50cece2

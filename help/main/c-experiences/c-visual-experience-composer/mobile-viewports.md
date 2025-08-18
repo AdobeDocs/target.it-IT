@@ -7,7 +7,7 @@ exl-id: 1062e7a1-10b4-4746-bce9-67017978578d
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
 workflow-type: tm+mt
 source-wordcount: '1350'
-ht-degree: 95%
+ht-degree: 94%
 
 ---
 
@@ -174,7 +174,7 @@ Il video demo seguente include informazioni sull&#39;utilizzo del Compositore es
 * Creare un’esperienza e visualizzarne l’anteprima per i siti web reattivi
 * Evidenziare tipi di elementi con le sovrapposizioni
 
->[!VIDEO](https://video.tv.adobe.com/v/36327?captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/17401)
 
 ### Preferenze account in Adobe Target ![Icona panoramica](/help/main/assets/overview.png)
 

@@ -1,7 +1,7 @@
 ---
 keywords: progettazione di consigli;modello;creare progettazione;consegna;output
 description: Scopri come utilizzare le progettazioni in Adobe [!DNL Target] Recommendations per definire la modalità di visualizzazione dei consigli in una pagina (1X4, 1X6, 2X2 e così via).
-title: Come si utilizzano i design in Recommendations?
+title: Come si utilizzano le progettazioni in Recommendations?
 feature: Recommendations
 exl-id: 348b1d77-49c9-4a6b-ba85-7ba051713d5b
 source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0

@@ -22,10 +22,10 @@ Scopri come implementare i casi d&#39;uso di ottimizzazione principali in [!DNL 
 
 Per eseguire i seguenti casi d’uso, è necessario quanto segue:
 
-* [Adobe Journey Optimizer](https://experienceleague.adobe.com/it/docs/journey-optimizer/using/get-started/get-started){target=_blank}.
+* [Adobe Journey Optimizer](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/get-started){target=_blank}.
 * Questi casi d&#39;uso non richiedono una licenza [!DNL Adobe Target]. Questi casi d&#39;uso mostrano come eseguire attività familiari in [!DNL Target] utilizzando [!DNL Journey Optimizer], consentendo di esplorare e ottenere gli stessi risultati con [!DNL Journey Optimizer].
 
-## Casi di utilizzo
+## Casi d’uso
 
 I seguenti casi d&#39;uso mostrano come eseguire attività familiari da [!DNL Target] in [!DNL Adobe Journey Optimizer], consentendo di visualizzare le differenze e le analogie nell&#39;esecuzione.
 

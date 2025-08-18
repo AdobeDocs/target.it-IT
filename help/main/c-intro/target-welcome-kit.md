@@ -1,6 +1,6 @@
 ---
 keywords: kit di benvenuto;kit di benvenuto target;intro;introduzione;guida introduttiva
-description: Ti avvicini ora ad Adobe Target? Inizia subito con il kit di benvenuto di Adobe  [!DNL Target]
+description: 'Ti avvicini ora ad Adobe Target? Inizia subito con il kit di benvenuto di Adobe  [!DNL Target] '
 title: Come iniziare a utilizzare Target
 feature: Overview
 exl-id: bb2cc1ca-8be7-425c-b551-59084b6416c3

@@ -1,8 +1,8 @@
 ---
 keywords: algoritmi consigli;formazione modello;server modelli;distribuzione contenuti;basato su elementi;basato su utenti;basato su popolarità;basato su carrello;criteri personalizzati;recommendations algorithms;model training;model serving;content delivery;item-based;user-based;popularity-based;cart-based;custom criteria
 description: Scopri gli algoritmi utilizzati in [!DNL Target Recommendations], inclusi l'apprendimento dei modelli e il model serving.
-title: Dove posso scoprire la scienza alla base degli algoritmi Recommendations di Target?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=it#premium newtab=true" tooltip="Vedi cosa è incluso in Target Premium."
+title: Dove posso scoprire la scienza alla base degli algoritmi di Recommendations di Target?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."
 feature: Recommendations
 mini-toc-levels: 2
 exl-id: c156952b-8eda-491d-a68e-d3d09846f640
@@ -51,7 +51,7 @@ Gli algoritmi per la generazione di consigli con filtro collaborativo elemento-e
 
 Per l’algoritmo &quot;chi ha visualizzato/acquistato questo articolo ha anche visualizzato/acquistato questi articoli&quot;, l’obiettivo è calcolare una somiglianza s(A,B) tra tutte le coppie di articoli. Per un dato articolo A, i consigli principali sono quindi ordinati in base alle somiglianze (A,B).
 
-Un esempio di tale somiglianza è la co-occorrenza tra gli articoli: un conteggio semplice del numero di utenti che hanno acquistato entrambi gli articoli. Anche se intuitiva, tale metrica è ingenua in quanto tende a consigliare articoli popolari. Ad esempio, se presso un rivenditore di alimentari la maggior parte delle persone acquista il pane, il pane avrà un&#39;elevata co-occorrenza con tutti gli articoli, ma non è necessariamente una buona raccomandazione. [!DNL Target] utilizza invece una metrica di somiglianza più sofisticata nota come log likelihood ratio (LLR). Questa quantità è grande quando la probabilità che due articoli, A e B, si verifichino contemporaneamente è molto diversa dalla probabilità che non si verifichino contemporaneamente. Per maggiore concretezza, considera un caso dell&#39;algoritmo [!UICONTROL People Who Viewed This, Bought That]. La somiglianza LLR è grande quando la probabilità che B sia stato acquistato è *non* indipendentemente dal fatto che qualcuno abbia visualizzato A.
+Un esempio di tale somiglianza è la co-occorrenza tra gli articoli: un conteggio semplice del numero di utenti che hanno acquistato entrambi gli articoli. Anche se intuitiva, tale metrica è ingenua in quanto tende a consigliare articoli popolari. Ad esempio, se in un retailer alimentare la maggior parte delle persone acquista il pane, il pane avrà un&#39;elevata co-occorrenza con tutti gli articoli, ma non è necessariamente una buona raccomandazione. [!DNL Target] utilizza invece una metrica di somiglianza più sofisticata nota come log likelihood ratio (LLR). Questa quantità è grande quando la probabilità che due articoli, A e B, si verifichino contemporaneamente è molto diversa dalla probabilità che non si verifichino contemporaneamente. Per maggiore concretezza, considera un caso dell&#39;algoritmo [!UICONTROL People Who Viewed This, Bought That]. La somiglianza LLR è grande quando la probabilità che B sia stato acquistato è *non* indipendentemente dal fatto che qualcuno abbia visualizzato A.
 
 Ad esempio, se
 
@@ -65,7 +65,7 @@ Il flusso logico dell’implementazione effettiva dell’algoritmo è mostrato n
 
 Di seguito sono riportati i dettagli di questi passaggi:
 
-* **Dati di input**: dati comportamentali, sotto forma di visualizzazioni e acquisti di visitatori raccolti quando [implementi Target](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=it){target=_blank} o da [Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md){target=_blank}.
+* **Dati di input**: dati comportamentali, sotto forma di visualizzazioni e acquisti di visitatori raccolti quando [implementi Target](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} o da [Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md){target=_blank}.
 
 * **Apprendimento del modello**:
 
@@ -73,7 +73,7 @@ Di seguito sono riportati i dettagli di questi passaggi:
    * **Calcolo della somiglianza tra elementi**: questo è il passaggio di calcolo principale: calcolo della somiglianza del rapporto di probabilità del registro tra tutte le coppie di elementi candidati e classificazione delle coppie di elementi in base a questo punteggio di somiglianza.
    * **Filtro non in linea**: verranno infine applicati eventuali altri filtri dinamici applicabili (ad esempio, esclusioni di categorie dinamiche). Dopo questo passaggio, i consigli precalcolati vengono memorizzati nella cache a livello globale per essere disponibili per il servizio.
 
-* **Server modelli**: il contenuto Recommendations viene distribuito dalla [rete &quot;Edge&quot; globale](/help/main/c-intro/how-target-works.md#concept_0AE2ED8E9DE64288A8B30FCBF1040934) di [!DNL Target]. Quando vengono effettuate richieste mbox a [!DNL Target] e viene determinato che il contenuto dei consigli deve essere recapitato alla pagina, la richiesta della [chiave elemento](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#keys) appropriata per l&#39;algoritmo dei consigli viene analizzata dalla richiesta o cercata dal profilo utente, e quindi utilizzata per recuperare i consigli calcolati nei passaggi precedenti. Ulteriori filtri dinamici vengono applicati in questo momento, prima che venga eseguito il rendering della [progettazione](/help/main/c-recommendations/c-design-overview/create-design.md) appropriata.
+* **Server modelli**: il contenuto dei consigli viene distribuito dalla [!DNL Target]rete &quot;Edge&quot; globale di [](/help/main/c-intro/how-target-works.md#concept_0AE2ED8E9DE64288A8B30FCBF1040934). Quando vengono effettuate richieste mbox a [!DNL Target] e viene determinato che il contenuto dei consigli deve essere recapitato alla pagina, la richiesta della [chiave elemento](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#keys) appropriata per l&#39;algoritmo dei consigli viene analizzata dalla richiesta o cercata dal profilo utente, e quindi utilizzata per recuperare i consigli calcolati nei passaggi precedenti. Ulteriori filtri dinamici vengono applicati in questo momento, prima che venga eseguito il rendering della [progettazione](/help/main/c-recommendations/c-design-overview/create-design.md) appropriata.
 
 ## Somiglianza dei contenuti
 
@@ -89,7 +89,7 @@ Sebbene gli aspetti relativi alla distribuzione dei modelli e dei contenuti degl
 
 Di seguito sono riportati i dettagli di questi passaggi:
 
-* **Dati di input**: come descritto in precedenza, questo algoritmo si basa esclusivamente sui dati del catalogo (acquisiti in [!DNL Target] tramite un [Feed catalogo, l&#39;API delle entità o dagli aggiornamenti nella pagina](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=it){target=_blank}.
+* **Dati di input**: come descritto in precedenza, questo algoritmo si basa esclusivamente sui dati del catalogo (acquisiti in [!DNL Target] tramite un [Feed catalogo, l&#39;API delle entità o dagli aggiornamenti nella pagina](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}.
 
 * **Apprendimento del modello**:
 
@@ -119,7 +119,7 @@ Gli algoritmi includono:
 
 Le aggiunte più recenti alla suite di algoritmi di consigli [!DNL Target] sono [!UICONTROL Recommended For You] e una serie di algoritmi di consigli basati sul carrello. Entrambi i tipi di algoritmi utilizzano tecniche di filtro collaborativo per formare singoli consigli basati su elementi. Al momento del server, vengono quindi utilizzati più elementi nella cronologia di navigazione dell&#39;utente (per [!UICONTROL Recommended For You]) o nel carrello corrente dell&#39;utente (per i consigli basati su carrello) per recuperare questi consigli basati su elementi, che vengono quindi uniti per formare l&#39;elenco finale dei consigli. Tieni presente che esistono molti aromi di algoritmi di consigli personalizzati. La scelta di un algoritmo multi-chiave significa che i consigli sono immediatamente disponibili dopo che un visitatore ha una cronologia di navigazione e che possono essere aggiornati per rispondere al comportamento del visitatore più recente.
 
-Questi algoritmi si basano sulle tecniche di filtraggio collaborativo fondamentale descritte nella sezione Consigli basati su elementi, ma incorporano anche la regolazione hyperparameter per determinare la metrica di somiglianza ottimale tra gli elementi. L’algoritmo esegue una suddivisione cronologica dei dati comportamentali per ogni utente e forma modelli di consigli sui dati precedenti durante il tentativo di prevedere gli elementi che un utente visualizzerà o acquisterà in un secondo momento. Viene quindi scelta la metrica di somiglianza che produce la [precisione media ottimale](https://en.wikipedia.org/wiki/Evaluation_measures_(information_retrieval)).
+Questi algoritmi si basano sulle tecniche di filtraggio collaborativo fondamentale descritte nella sezione Consigli basati su elementi, ma incorporano anche la regolazione hyperparameter per determinare la metrica di somiglianza ottimale tra gli elementi. L’algoritmo esegue una suddivisione cronologica dei dati comportamentali per ogni utente e forma modelli di consigli sui dati precedenti durante il tentativo di prevedere gli elementi che un utente visualizzerà o acquisterà in un secondo momento. Viene quindi scelta la metrica di somiglianza che produce la [precisione media ottimale]&#x200B;(https://en.wikipedia.org/wiki/Evaluation_measures_(information_retrieval)).
 
 La logica dei passaggi di apprendimento del modello e del punteggio è illustrata nel diagramma seguente:
 
@@ -127,7 +127,7 @@ La logica dei passaggi di apprendimento del modello e del punteggio è illustrat
 
 Di seguito sono riportati i dettagli di questi passaggi:
 
-* **Dati di input**: identico ai metodi di filtro collaborativo elemento-elemento. Gli algoritmi [!UICONTROL Both Recommended For You] e basati su carrello utilizzano dati comportamentali, sotto forma di visualizzazioni e acquisti di utenti raccolti quando [implementi Target](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=it){target=_blank} o da [Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md){target=_blank}.
+* **Dati di input**: identico ai metodi di filtro collaborativo elemento-elemento. Gli algoritmi [!UICONTROL Both Recommended For You] e basati su carrello utilizzano dati comportamentali, sotto forma di visualizzazioni e acquisti di utenti raccolti quando [implementi Target](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} o da [Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md){target=_blank}.
 
 * **Apprendimento del modello**:
 
@@ -139,7 +139,7 @@ Di seguito sono riportati i dettagli di questi passaggi:
 
   ![Formula che mostra il calcolo dell&#39;addestramento](assets/formula4.png)
 
-   * **Valutazione modello similarità elemento**: la valutazione del modello viene eseguita prendendo i consigli generati nel passaggio precedente e facendo previsioni sul set di dati del test. La fase di punteggio online viene imitata ordinando in modo cronologico gli utilizzi degli articoli di ogni utente nel set di dati di test, quindi eseguendo 100 consigli per sottoinsiemi di articoli ordinati nel tentativo di prevedere visualizzazioni e acquisti successivi. Per valutare la qualità di questi consigli, viene utilizzata una metrica di recupero delle informazioni, la [precisione media](https://en.wikipedia.org/wiki/Evaluation_measures_(information_retrieval)). Questa metrica prende in considerazione l’ordine dei consigli e favorisce gli elementi pertinenti più in alto nell’elenco dei consigli, che è una proprietà importante per i sistemi di classificazione.
+   * **Valutazione modello similarità elemento**: la valutazione del modello viene eseguita prendendo i consigli generati nel passaggio precedente e facendo previsioni sul set di dati del test. La fase di punteggio online viene imitata ordinando in modo cronologico gli utilizzi degli articoli di ogni utente nel set di dati di test, quindi eseguendo 100 consigli per sottoinsiemi di articoli ordinati nel tentativo di prevedere visualizzazioni e acquisti successivi. Per valutare la qualità di questi consigli, viene utilizzata una metrica di recupero delle informazioni, la [precisione media]&#x200B;(https://en.wikipedia.org/wiki/Evaluation_measures_(information_retrieval)). Questa metrica prende in considerazione l’ordine dei consigli e favorisce gli elementi pertinenti più in alto nell’elenco dei consigli, che è una proprietà importante per i sistemi di classificazione.
    * **Selezione modello**: dopo la valutazione offline, viene selezionato il modello con la precisione media più elevata e vengono calcolati tutti i singoli suggerimenti elemento-elemento.
    * **Filtro offline**: la fase finale dell&#39;apprendimento del modello è l&#39;applicazione di eventuali filtri dinamici applicabili. Dopo questo passaggio, i consigli precalcolati vengono memorizzati nella cache a livello globale per essere disponibili per il servizio.
 

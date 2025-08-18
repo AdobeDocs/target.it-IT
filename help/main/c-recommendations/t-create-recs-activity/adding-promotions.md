@@ -1,8 +1,8 @@
 ---
 keywords: promozioni;promozioni anteriori;promozioni posteriori;tipo di promozioni;elenco di articoli;promuovere per attributo;promuovere una raccolta
-description: Scopri come aggiungere elementi promossi e controllarne il posizionamento nell'Adobe [!DNL Target] Progettazioni Recommendations. Puoi aggiungere promozioni statiche e dinamiche.
-title: Come si aggiungono promozioni ai progetti Recommendations?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=it#premium newtab=true" tooltip="Vedi cosa è incluso in Target Premium."
+description: Scopri come aggiungere elementi promossi e controllarne il posizionamento nelle progettazioni di Adobe [!DNL Target] Recommendations. Puoi aggiungere promozioni statiche e dinamiche.
+title: Come si aggiungono promozioni alle progettazioni di Consigli?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."
 feature: Recommendations
 exl-id: bd5e5e12-a712-4c4c-9cf8-6b0f4834067b
 source-git-commit: 07062b7df75300bd7558a24da5121df454520e42

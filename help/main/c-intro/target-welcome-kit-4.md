@@ -25,7 +25,7 @@ Per istruzioni dettagliate, consulta [Attributi personalizzati](https://experien
 
 **Buono a sapersi**: poiché [!DNL Target] è una piattaforma aperta e agnostica che funziona bene con tecnologie diverse, puoi aggiungere dati di gestione delle relazioni con i clienti o dati acquistati in modi diversi. Ciò significa che puoi scegliere un metodo che funzioni al meglio per la tua organizzazione.
 
-Per ulteriori informazioni, vedere [Metodi per immettere i dati in Target](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html?lang=it){target=_blank}.
+Per ulteriori informazioni, consulta [Metodi per immettere i dati in Target](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html?lang=it){target=_blank}.
 
 ## Suggerimento 2: personalizza in modo più avanzato, combinando i tipi di pubblico di [!DNL Target] con altri tipi di pubblico di Adobe Experience Cloud.
 
@@ -145,7 +145,7 @@ Un test è inutile se non sai come agire sui dati. Ciò include la conoscenza de
 
 Le organizzazioni di ottimizzazione di successo credono nel concetto di test e comprendono che le loro opinioni professionali su quale esperienza vincerà il test non sempre si dimostrano vere. Determinano il vincitore in base a una solida base di dati e sono desiderosi e disposti a trasmettere in diretta l’esperienza vincente dopo che i risultati sono stati raggiunti, anche se non è in linea con le loro aspettative o sembra illogico.
 
-Ad esempio, un cliente dei servizi sanitari di Adobe ha recentemente dimostrato il valore dei test mostrando come un banner eroe che il team aveva considerato uno slam dunk ha avuto un impatto negativo sulla conversione. Se la tua organizzazione non ha ancora adottato completamente i test, è consigliabile eseguire prima test di ambito più semplici e più piccoli in modo che le modifiche dai risultati dei test possano essere apportate in modo incrementale.
+Ad esempio, un cliente Adobe nel campo dei servizi sanitari ha recentemente dimostrato il valore dei test mostrando come un banner hero che il team aveva considerato assolutamente vincente avesse in realtà avuto un impatto negativo sulla conversione. Se la tua organizzazione non ha ancora adottato completamente i test, è consigliabile eseguire prima test di ambito più semplici e più piccoli in modo che le modifiche dai risultati dei test possano essere apportate in modo incrementale.
 
 ## Suggerimento 19: comunica a tutti che hai avviato un test per evitare problemi quando il sito cambia.
 

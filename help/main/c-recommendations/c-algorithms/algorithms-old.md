@@ -1,8 +1,8 @@
 ---
 keywords: consigli;consigli attività;criteri;algoritmo;chiave consiglio;chiave personalizzata;settore verticale;commercio al dettaglio;eccommerce;generazione lead;b2b;servizi finanziari;media;publishing;recommendations activity;criteria;algorithm;recommendations key;custom key;industry vertical;retail;eccommerce;lead generation;b2b;financial services;media;publishing
 description: Scopri come utilizzare i criteri in Adobe [!DNL Target] [!DNL Recommendations].
-title: Come si utilizzano i criteri in  [!DNL Target] Recommendations?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=it#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."
+title: Come si utilizzano i criteri in [!DNL Target] Consigli?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."
 feature: Recommendations
 exl-id: a6e4c857-f991-4293-9d33-8d7c2ca5dade
 source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
@@ -74,7 +74,7 @@ Si supponga, ad esempio, di voler visualizzare i filmati consigliati in base all
 
 ## Visualizzazione delle informazioni sui criteri {#section_7162DE58E4594FD688A4D7FDB829FD8B}
 
-Per visualizzare i dettagli dei criteri su una scheda a comparsa, passa il mouse su una scheda e fai clic sull&#39;icona Informazioni sulla scheda dei criteri, senza aprirli.
+Per visualizzare i dettagli dei criteri su una scheda a comparsa, passa il puntatore su una scheda e fai clic sull’icona Informazioni sulla scheda dei criteri, senza aprirli.
 
 ![Passaggio del cursore sulla scheda Criteri](/help/main/c-recommendations/c-algorithms/assets/criteria_hover.png)
 
@@ -88,4 +88,4 @@ Fare clic sulla scheda **[!UICONTROL Algorithm Usage]** per visualizzare un elen
 
 >[!NOTE]
 >
->La funzionalità [!UICONTROL Algorithm Usage] è attualmente supportata solo per le attività di Recommendations. Questa funzione non è attualmente supportata per attività di test A/B, allocazione automatica, targeting automatico e targeting delle esperienze (XT) che includono [consigli come offerta](/help/main/c-recommendations/recommendations-as-an-offer.md).
+>La funzione [!UICONTROL Algorithm Usage] è attualmente supportata solo per le attività Consigli. Questa funzione non è attualmente supportata per attività di test A/B, allocazione automatica, targeting automatico e targeting delle esperienze (XT) che includono [consigli come offerta](/help/main/c-recommendations/recommendations-as-an-offer.md).

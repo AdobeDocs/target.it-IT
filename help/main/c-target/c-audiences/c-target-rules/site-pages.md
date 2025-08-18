@@ -104,7 +104,7 @@ Puoi eseguire il targeting dei visitatori utilizzando [!DNL Adobe Target] che ac
 
    Se si sceglie [!UICONTROL Current Page], [!UICONTROL Previous Page] o [!UICONTROL Landing Page], sono disponibili le opzioni [!UICONTROL Domain] e [!UICONTROL Query]. Quando si selezionano queste opzioni, tenere presente quanto segue:
 
-   * **Dominio:** il dominio completo della pagina. Nella specificazione di un dominio, è consigliabile utilizzare “contiene”, Ad esempio, &quot;Dominio uguale a facebook.com&quot; non accetta `m.facebook.com` o `www.facebook.com`. &quot;Il dominio contiene facebook.com&quot; accetta qualsiasi variante di facebook.com.
+   * **Dominio:** il dominio completo della pagina. Nella specificazione di un dominio, è consigliabile utilizzare “contiene”, Ad esempio, &quot;Dominio è uguale a facebook.com&quot; non accetta `m.facebook.com` o `www.facebook.com`. &quot;Il dominio contiene facebook.com&quot; accetta qualsiasi variante di facebook.com.
    * **Query:** il contenuto dell&#39;URL dopo il primo punto interrogativo (?).
 
      `foo.html?e0a72cb2a2c7`

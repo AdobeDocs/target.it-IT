@@ -2,7 +2,7 @@
 keywords: Recommendations;consigli;criteri Recommendations;criteri consigli;algoritmi Recommendations;algoritmi consigli:attività;criteri;recommendations targeting;targeting consigli
 description: Scopri le attività Consigli in Adobe [!DNL Target] che consentono di visualizzare automaticamente contenuti che potrebbero interessare ai clienti in base alle precedenti attività dell’utente o ad altri algoritmi.
 title: Cos’è la funzione Consigli di  [!DNL Target] ?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=it#premium newtab=true" tooltip="Vedi cosa è incluso in Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."
 feature: Recommendations
 exl-id: 0d986e17-bc99-4c08-a963-7f9a6619609a
 source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
@@ -64,15 +64,15 @@ Prima di iniziare a utilizzare [!DNL Recommendations] (Consigli), è utile acqui
 
 ## Video di formazione: Tipi di attività ![Icona Panoramica](/help/main/assets/overview.png)
 
-Questo video spiega i tipi di attività disponibili in [!DNL Target Standard/Premium]. L’argomento di [!DNL Recommendations] è trattato a partire dal minuto 7:20.
+Questo video spiega i tipi di attività disponibili in [!DNL Target Standard/Premium]. [!DNL Recommendations] è discusso a partire dal 7:20.
 
 * Descrizione dei tipi di attività inclusi in [!DNL Adobe Target]
 * Selezionare il tipo di attività appropriato per i tuoi obiettivi
 * Descrizione del flusso di lavoro guidato in tre passaggi da applicare a tutti i tipi di attività
 
->[!VIDEO](https://video.tv.adobe.com/v/36365?captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/17386)
 
-## Webinar sulle nozioni di base di Adobe Target: introduzione a Recommendations ![Icona esercitazione](/help/main/assets/tutorial.png) {#intro-to-recs}
+## Webinar sulle nozioni di base di Adobe Target: introduzione alla funzione Consigli ![Icona esercitazione](/help/main/assets/tutorial.png) {#intro-to-recs}
 
 Il webinar *Introduzione alla funzione Consigli* include una descrizione approfondita di come sfruttare il valore di [!DNL Adobe Target Recommendations]. Scopri in che modo questa attività [!DNL Target] visualizza automaticamente prodotti o contenuti che potrebbero interessare ai clienti ottimizzando i suggerimenti in tempo reale basati sulle visite precedenti. Inoltre, immergiti nell’interfaccia utente [!DNL Target] per una panoramica dettagliata su come creare un’attività [!DNL Recommendations].
 

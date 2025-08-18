@@ -51,7 +51,7 @@ Mentre elabori l’idea da testare, ricorda che dovresti essere in grado di spie
 
 ## Pianificazione dell’attività con Activity Planner
 
-Abbiamo incluso [Adobe Target Activity Planner](/help/main/assets/activity-planner.pdf) come PDF autonomo che puoi salvare e utilizzare più volte. Fai clic sul collegamento per visualizzare il file PDF. Fai clic con il pulsante destro del mouse per scaricare il file PDF.
+Abbiamo incluso [Adobe Target Activity Planner](/help/main/assets/activity-planner.pdf) come PDF standalone che puoi salvare e utilizzare più e più volte. Fai clic sul collegamento per visualizzare il file PDF. Fai clic con il pulsante destro del mouse per scaricare il file PDF.
 
 Per eseguire un’attività efficace, è necessario compilare ogni area del planner. Utilizza questo strumento insieme alle altre idee di brainstorm per testare e personalizzare le attività.
 

@@ -1,8 +1,8 @@
 ---
 keywords: regole di inclusione;criteri di inclusione;consigli;creazione di nuovi criteri;promozione;promozioni;filtro dinamico;dinamico;valori vuoti;ignorare regola di filtro;filtro statico;filtro per valore;corrispondenza attributo entità;corrispondenza attributo profilo;parametro corrispondente;filtro per valore;filtro statico
 description: Scopri come creare regole di inclusione in Adobe [!DNL Target] Recommendations per criteri e promozioni. Per ottenere risultati migliori, aggiungi regole di filtro più dinamiche o statiche.
-title: Come si utilizzano le regole di inclusione dinamiche e statiche in Recommendations?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=it#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."
+title: Come si utilizzano le regole di inclusione dinamiche e statiche nella funzione Consigli?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."
 feature: Recommendations
 mini-toc-levels: 3
 exl-id: 49b20e75-ee55-4239-94a0-6d175e2d4811
@@ -109,7 +109,7 @@ Per selezionare l&#39;azione desiderata, passa il puntatore sull&#39;icona ingra
 
 >[!IMPORTANT]
 >
->Gli attributi di tipi di dati diversi potrebbero non essere compatibili nelle promozioni o nei criteri dinamici in fase di esecuzione con gli operatori “è uguale a” e “è diverso da”. Utilizzare i valori [!UICONTROL Value], [!UICONTROL Margin], [!UICONTROL Inventory] e [!UICONTROL Environment] in modo appropriato sul lato destro se sul lato sinistro sono presenti attributi predefiniti o attributi personalizzati.
+>Gli attributi di tipi di dati diversi potrebbero non essere compatibili nelle promozioni o nei criteri dinamici in fase di esecuzione con gli operatori “è uguale a” e “non è uguale a”. Utilizzare i valori [!UICONTROL Value], [!UICONTROL Margin], [!UICONTROL Inventory] e [!UICONTROL Environment] in modo appropriato sul lato destro se sul lato sinistro sono presenti attributi predefiniti o attributi personalizzati.
 
 ![immagine sinistra_destra](assets/left_right.png)
 

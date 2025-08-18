@@ -6,8 +6,8 @@ feature: Audiences
 exl-id: 814d545d-baee-4f8b-a2ed-ed68fceaeb7f
 source-git-commit: 0e4698935b90cc0236abe6a47a6183c7fd2a7b20
 workflow-type: tm+mt
-source-wordcount: '437'
-ht-degree: 34%
+source-wordcount: '431'
+ht-degree: 24%
 
 ---
 
@@ -33,7 +33,7 @@ Ad esempio, utilizzando la [funzione tipi di pubblico combinati ad hoc](/help/ma
    >
    >Considera i seguenti aspetti:
    >
-   >* Il fuso orario per le date di inizio/fine viene visualizzato come GMT +/- NN:NN, dove NN:NN è lo scostamento da GMT e corrisponde al fuso orario dell’account, non a quello del visitatore. Ad esempio, il fuso orario della California verrebbe visualizzato come GMT -08:00.
+   >* Il fuso orario per le date di inizio/fine viene visualizzato come GMT +/- NN:NN, dove NN:NN è lo scostamento da GMT e riflette il fuso orario a livello di account anziché quello del visitatore. Ad esempio, il fuso orario della California verrebbe visualizzato come GMT -08:00.
    >
    >* [!DNL Target] tipi di pubblico non prendono in considerazione le modifiche dell&#39;ora legale (DST). È necessario salvare nuovamente manualmente i tipi di pubblico per tenere conto delle modifiche dell’ora legale.
 
@@ -47,7 +47,7 @@ Ad esempio, utilizzando la [funzione tipi di pubblico combinati ad hoc](/help/ma
 
    >[!NOTE]
    >
-   >Il fuso orario per [!UICONTROL Week and Day Parting] viene visualizzato come GMT +/- NN:NN, dove NN:NN è lo scostamento da GMT e riflette il fuso orario a livello di account anziché quello del visitatore. Ad esempio, il fuso orario della California per ora legale del Pacifico verrà visualizzato come GMT -07:00.
+   >Il fuso orario per [!UICONTROL Week and Day Parting] viene visualizzato come GMT +/- NN:NN, dove NN:NN è lo scostamento da GMT e riflette il fuso orario a livello di account anziché quello del visitatore. Ad esempio, il fuso orario della California per l&#39;ora legale del Pacifico verrà visualizzato come GMT -07:00.
 
 1. (Facoltativo) Imposta regole aggiuntive per il pubblico.
 

@@ -109,9 +109,9 @@ Per comprendere perché ciò si verifica, è necessario prendere in considerazio
 
 Per evitare questo problema, prima di avviare un test è necessario determinare un periodo di tempo adeguato in cui il test viene eseguito. È bene tenere d’occhio i risultati del test in corso, per assicurarsi che sia implementato correttamente. Tuttavia, non bisogna trarre conclusioni o interrompere il test prima che sia stato raggiunto il numero richiesto di visitatori. In altre parole, niente “sbirciatine”!
 
-## Insidia 6: arrestare anticipatamente i test {#section_DF01A97275E44CA5859D825E0DE2F49F}
+## Insidia 6: interrompere prematuramente i test {#section_DF01A97275E44CA5859D825E0DE2F49F}
 
-Se nei primi giorni del test, una delle offerte ha risultati migliori o peggiori delle altre, si potrebbe essere tentati di interromperlo. Tuttavia, con un numero ridotto di osservazioni, c&#39;è un&#39;alta probabilità che un incremento positivo o negativo sia imputabile unicamente al caso, perché il tasso di conversione è calcolato dalla media di un numero basso di visitatori. Man mano che il test raccoglie più punti di dati, i tassi di conversione convergono verso i loro reali valori a lungo termine.
+Se nei primi giorni del test una delle offerte ha risultati migliori o peggiori delle altre, si potrebbe essere tentati di interromperlo. Tuttavia, con un numero ridotto di osservazioni, c&#39;è un&#39;alta probabilità che un incremento positivo o negativo sia imputabile unicamente al caso, perché il tasso di conversione è calcolato dalla media di un numero basso di visitatori. Man mano che il test raccoglie più punti di dati, i tassi di conversione convergono verso i loro reali valori a lungo termine.
 
 La figura seguente mostra cinque offerte che hanno lo stesso tasso di conversione a lungo termine. L&#39;offerta B ha avuto un tasso di conversione scarso per i primi 2.000 visitatori e ci vuole molto tempo prima che il tasso di conversione stimato corrisponda al reale tasso a lungo termine.
 
@@ -149,13 +149,13 @@ L’effetto novità può anche funzionare al contrario. I visitatori spesso reag
 
 Il periodo preso in esame è il periodo di tempo da quando la soluzione di test A/B presenta un’offerta a un visitatore a quando il visitatore si converte. Ciò può essere importante con le offerte che interessano sostanzialmente il periodo preso in esame, per esempio, un’offerta che implica una scadenza, quale “offerta a tempo limitato. acquista entro questa domenica.”
 
-Tali offerte spingono i visitatori a convertire prima e saranno favorite se il test viene interrotto immediatamente dopo la scadenza dell&#39;offerta, perché l&#39;offerta alternativa potrebbe avere una scadenza più lunga o non averne e quindi avere un periodo di esame più lungo. L&#39;alternativa otterrebbe conversioni nel periodo dopo la fine del test, ma se si interrompe il test alla fine della scadenza, non vengono conteggiate ulteriori conversioni nel tasso di conversione del test.
+Tali offerte spingono i visitatori a convertirsi prima in acquirenti e saranno favorite se il test viene interrotto immediatamente dopo la scadenza dell&#39;offerta, perché l&#39;offerta alternativa potrebbe avere una scadenza più lunga o non averne e quindi avere un periodo di esame più lungo. L&#39;alternativa otterrebbe conversioni nel periodo dopo la fine del test, ma se si interrompe il test alla fine della scadenza, non vengono conteggiate ulteriori conversioni nel tasso di conversione del test.
 
 La figura seguente mostra due offerte che due visitatori diversi vedono allo stesso tempo in una domenica pomeriggio. Il periodo di considerazione per l&#39;offerta a è breve e il visitatore converte più tardi nello stesso giorno. Tuttavia, l&#39;offerta B ha un periodo di esame più lungo e il visitatore che ha visto offerta B riflette sull&#39;offerta per un po&#39; e finisce per convertire il lunedì mattina. Se si interrompe il test domenica notte, la conversione associata all&#39;offerta A viene conteggiata per offrire una metrica di conversione, mentre la conversione associata all&#39;offerta B non viene conteggiata alla metrica di conversione di B. Ciò mette l&#39;offerta B in uno svantaggio significativo.
 
 ![immagine pitfalls5](assets/pitfalls5.png)
 
-Per evitare questa insidia, lascia un certo tempo per i visitatori che sono stati esposti alle offerte di test per la conversione dopo che è stata interrotta una nuova voce nel test. Questo passaggio dà un equo confronto delle offerte.
+Per evitare questa insidia, dopo che è stato interrotto un nuovo ingresso nel test, lascia un certo tempo per la conversione dei visitatori che sono stati esposti alle offerte di test. Questo passaggio dà un equo confronto delle offerte.
 
 ## Insidia 10: utilizzare metriche che non riflettono le finalità aziendali {#section_F0CD6DC7993B4A6F9BEEBB31CD1D9BEE}
 

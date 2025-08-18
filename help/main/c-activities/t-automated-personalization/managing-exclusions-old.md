@@ -2,7 +2,7 @@
 keywords: deduplicare;consentire duplicati;escludere offerte duplicate;personalizzazione automatizzata;non consentire offerte duplicate;escludere;contenuto predefinito;gruppo di esclusione;
 description: Gestisci esclusioni nelle attività di  [!DNL Adobe Target] [!UICONTROL Automated Personalization] (AP). Crea gruppi di esclusione ed escludi le offerte duplicate, esperienze specifiche e contenuti predefiniti.
 title: Come posso gestire le esclusioni nelle attività [!UICONTROL Automated Personalization]?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=it#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."
 feature: Automated Personalization
 solution: Target,Analytics
 exl-id: d9e9f2a2-5914-4b81-acae-eaf388646652
@@ -77,7 +77,7 @@ Potrebbero esserci alcune combinazioni che non funzionano insieme, oppure potres
 
 1. Escludi le esperienze, se lo desideri.
 
-   Per escludere esperienze specifiche, passa il cursore sopra l’esperienza desiderata e fai clic sull’icona Escludi.
+   Per escludere esperienze specifiche, passa il puntatore sull’esperienza desiderata e fai clic sull’icona Escludi.
 
    ![Opzione Escludi esperienza visibile al passaggio del mouse](/help/main/c-activities/t-automated-personalization/assets/exclude_exp_1a.png)
 

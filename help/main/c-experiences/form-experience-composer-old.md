@@ -92,7 +92,7 @@ Se stai creando un&#39;attività [!UICONTROL Recommendations], non ci sono esper
 
    **Aggiungi consiglio:**
 
-   Per un&#39;attività Recommendations, l&#39;elenco a discesa Contenuto fornisce l&#39;opzione [!UICONTROL Add Recommendation]. Fare clic su **[!UICONTROL Add Recommendation]**, quindi selezionare il tipo di pagina. Quindi segui i passi consueti descritti per [creare un’attività di consigli](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md).
+   Per un&#39;attività Consigli, l&#39;elenco a discesa Contenuto fornisce l&#39;opzione [!UICONTROL Add Recommendation]. Fare clic su **[!UICONTROL Add Recommendation]**, quindi selezionare il tipo di pagina. Quindi segui i passi consueti descritti per [creare un’attività di consigli](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md).
 
    Durante la selezione dei criteri di consigli nel compositore esperienza basato su moduli, è ora disponibile un collegamento diretto alla scheda dei criteri selezionati per poter modificare in modo semplice e veloce i criteri.
 
@@ -104,7 +104,7 @@ Se stai creando un&#39;attività [!UICONTROL Recommendations], non ci sono esper
 
    **Aggiungi decisione di offerta:**
 
-   Aggiungi un&#39;offerta creata in [!DNL Adobe Journey Optimizer] (AJO) a un&#39;attività di [!DNL Adobe Target] per presentare l&#39;offerta e l&#39;esperienza dinamica migliore ai visitatori sul tuo sito Web o sito mobile tramite offer decisioning. Questa opzione è disponibile solo per le attività manuali [!UICONTROL A/B Test] e [!UICONTROL Experience Targeting] (XT).
+   Aggiungi un&#39;offerta creata in [!DNL Adobe Journey Optimizer] (AJO) a un&#39;attività di [!DNL Adobe Target] per presentare l&#39;offerta e l&#39;esperienza dinamica migliore ai visitatori sul tuo sito Web o sito mobile tramite Offer Decisioning. Questa opzione è disponibile solo per le attività manuali [!UICONTROL A/B Test] e [!UICONTROL Experience Targeting] (XT).
 
    Per ulteriori informazioni, consulta [Utilizzare le decisioni sulle offerte](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md).
 

@@ -2,7 +2,7 @@
 keywords: aree di lavoro;gestire proprietà;autorizzazioni;configurazione prodotto;profilo prodotto;ruoli;progetto;osservatore;editor;approvatore;publisher
 description: Scopri come creare aree di lavoro separate (profili di prodotto) e quindi assegnare agli utenti ruoli e autorizzazioni diversi per singole pagine, proprietà o siti web.
 title: Quali sono le autorizzazioni per gli utenti Enterprise e come si utilizzano?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=it#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."
 feature: Administration & Configuration
 role: Admin
 exl-id: 838abe87-dba7-4274-97b4-31a7905846dc
@@ -47,7 +47,7 @@ I termini seguenti vengono utilizzati in questa sezione e potrebbero essere nuov
 
 Le proprietà sono simili per natura alle proprietà all&#39;interno di [!DNL Adobe Experience Platform] in quanto utilizzano uno snippet di codice univoco per differenziarle.
 
-Una proprietà web è una libreria di regole e un codice incorporato. Una proprietà web può essere un raggruppamento di uno o più domini e sottodomini.
+Una proprietà web è una libreria di regole e un codice da incorporare. Una proprietà web può essere un raggruppamento di uno o più domini e sottodomini.
 
 Le proprietà vengono abilitate aggiungendo una coppia nome/valore specifica come parametro con qualsiasi chiamata (chiamata Target, chiamata API e così via) a [!DNL Target].
 
@@ -310,7 +310,7 @@ Finalità di apprendimento:
 * I concetti di Proprietà e Aree di lavoro e come funzionano questi limiti e raggruppamenti per consentire il controllo sui livelli di accesso degli utenti
 * Diversi esempi di Proprietà da considerare per la tua organizzazione
 
->[!VIDEO](https://video.tv.adobe.com/v/3421738?captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/19042/)
 
 ### Orario ufficio: [!DNL Target] aree di lavoro Premium
 

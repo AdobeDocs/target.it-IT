@@ -7,7 +7,7 @@ exl-id: 033e90f1-5a05-4fce-a520-68826860a908
 source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
 workflow-type: tm+mt
 source-wordcount: '412'
-ht-degree: 48%
+ht-degree: 51%
 
 ---
 
@@ -30,7 +30,7 @@ Ad esempio, supponiamo che tu lavori per una società di mobili e abbia caricato
 
 Puoi creare un pubblico la cui propensione ad acquistare mobili per la sala da pranzo è maggiore della propensione ad acquistarne per il soggiorno. [!DNL Target] confronta quindi dinamicamente i punteggi di propensione per la sala da pranzo e il soggiorno per un visitatore specifico per determinare se quel visitatore è idoneo per questo pubblico.
 
-Per ulteriori informazioni, vedere [Metodi per immettere dati in Target](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html?lang=it){target=_blank}.
+Per ulteriori informazioni, consulta [Metodi per ottenere dati in Target](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html?lang=it){target=_blank}.
 
 ## Creare un pubblico per il confronto degli attributi di profilo {#section_7A62FD47D5C74C3EBC3417ACDBB85013}
 
@@ -65,4 +65,4 @@ Per ulteriori informazioni, vedere [Metodi per immettere dati in Target](https:/
 
 Per ulteriori informazioni e uno scenario in cui potresti utilizzare questa funzione, guarda il seguente video:
 
->[!VIDEO](https://video.tv.adobe.com/v/329907?captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/23218/)

@@ -163,7 +163,7 @@ Ora parliamo delle schede che si trovano lungo il lato sinistro dell&#39;intesta
 
 L&#39;elenco **[!UICONTROL Activities]** è la visualizzazione predefinita all&#39;apertura di [!DNL Target]. Puoi creare attività da questa pagina e gestire quelle esistenti.
 
-Per informazioni approfondite sui tipi di attività disponibili in [!DNL Target] e per ulteriori informazioni sull&#39;interfaccia utente dell&#39;elenco [!UICONTROL Activity], vedere [Attività](/help/main/c-activities/activities.md).
+Per informazioni approfondite sui tipi di attività disponibili in [ e per ulteriori informazioni sull&#39;interfaccia utente dell&#39;elenco ](/help/main/c-activities/activities.md), vedere [!DNL Target]Attività[!UICONTROL Activity].
 
 ## Tipi di pubblico
 
@@ -179,7 +179,7 @@ Fai clic sulla scheda **[!UICONTROL Offers]** per visualizzare l&#39;elenco [!UI
 
 Un’esperienza può essere un’offerta, un’immagine, un testo, un pulsante, un video, una combinazione di questi vari elementi su una pagina, un’intera pagina web o un set di pagine, ad esempio un percorso di acquisto o altra sequenza logica di pagine. Può essere anche la risposta di un assistente vocale o di uno script di servizio clienti, o addirittura un gusto personalizzato da un distributore di bevande. Puoi testare o personalizzare le esperienze nelle attività di [!DNL Target].
 
-Per informazioni approfondite sui tipi di offerta in [!DNL Target] e per ulteriori informazioni sull&#39;interfaccia utente dell&#39;elenco [!UICONTROL Offer], vedere [Offerte](/help/main/c-experiences/c-manage-content/manage-content.md).
+Per informazioni approfondite sui tipi di offerta in [ e per ulteriori informazioni sull&#39;interfaccia utente dell&#39;elenco ](/help/main/c-experiences/c-manage-content/manage-content.md), vedere [!DNL Target]Offerte[!UICONTROL Offer].
 
 ## Recommendations
 

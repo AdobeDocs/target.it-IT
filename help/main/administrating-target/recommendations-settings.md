@@ -2,7 +2,7 @@
 keywords: consigli;implementare consigli;codice client;token di autenticazione;settore verticale;filtrare modalità incompatibile;gruppo host predefinito;base miniature;generare token di autenticazione;token di autenticazione;
 description: Scopri come configurare le impostazioni per  [!DNL Adobe Target Recommendations].
 title: Come si configurano le impostazioni di Recommendations?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=it#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."
 feature: Administration & Configuration
 role: Admin
 exl-id: 5dbae0d9-897f-4e0a-b013-0e9ad6654150
@@ -31,4 +31,4 @@ Puoi configurare le seguenti impostazioni:
 * Specificare l&#39;URL di base della miniatura
 * Configurare le chiavi di attributo personalizzate
 
-Per informazioni dettagliate, vedere [Pianificare e implementare Recommendations](https://experienceleague.adobe.com/it/docs/target-dev/developer/recommendations){target=_blank} nella **[!DNL Adobe Target]Guida per gli sviluppatori**.
+Per informazioni dettagliate, vedere [Pianificare e implementare Recommendations](https://experienceleague.adobe.com/en/docs/target-dev/developer/recommendations){target=_blank} nella **[!DNL Adobe Target]Guida per gli sviluppatori**.

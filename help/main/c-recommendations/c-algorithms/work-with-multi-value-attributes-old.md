@@ -1,6 +1,6 @@
 ---
 keywords: multivalore;attributi;consigli;multivalore;multivalore;attributi;consigli;multivalore
-description: Scopri come utilizzare un campo con più valori in Adobe [!DNL Target] Recommendations utilizzando operatori speciali con più valori, ad esempio per consigliare film con più attori.
+description: Scopri come utilizzare un campo con più valori in Adobe [!DNL Target] Recommendations utilizzando operatori speciali con più valori, ad esempio per consigliare filmati con più attori.
 title: Posso utilizzare attributi con più valori in Recommendations?
 feature: Recommendations
 exl-id: 82018a9a-0983-458c-9387-3602dab4409b
@@ -118,7 +118,7 @@ Rappresentazione API JSON della regola di inclusione:
 
 ### Esempio: creazione da parte dell’API di criteri che consigliano gli elementi dai preferiti di un utente
 
-I criteri che utilizzano regole di filtro con più valori, come tutti i criteri, possono essere creati tramite API Adobe I/O. Un esempio di chiamata API per creare un criterio in cui l&#39;attributo di entità `id` è contenuto nell&#39;elenco di parametri mbox `favorites` è fornito qui:
+I criteri che utilizzano regole di filtro con più valori, come tutti i criteri, possono essere creati tramite le API di Adobe I/O. Un esempio di chiamata API per creare un criterio in cui l&#39;attributo di entità `id` è contenuto nell&#39;elenco di parametri mbox `favorites` è fornito qui:
 
 ```
 curl -X POST \

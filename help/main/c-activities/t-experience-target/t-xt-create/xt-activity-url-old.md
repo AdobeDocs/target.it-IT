@@ -23,7 +23,7 @@ ht-degree: 39%
    >
    >Per impostazione predefinita, nel Compositore esperienza visivo o nel [Compositore esperienza basato su moduli](/help/main/c-experiences/form-experience-composer.md) viene aperta la pagina specificata nelle [impostazioni del Compositore esperienza visivo](/help/main/administrating-target/visual-experience-composer-set-up.md). È possibile specificare una pagina diversa durante la creazione dell’attività.
    >
-   >Se si specifica un URL per un sito che non include una libreria JavaScript di [[!DNL Target] at.js o  [!DNL Adobe Experience Platform Web SDK]](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/overview.html?lang=it){target=_blank}, non è possibile selezionare elementi di pagina.
+   >Se si specifica un URL per un sito che non include una libreria JavaScript di [[!DNL Target] at.js o  [!DNL Adobe Experience Platform Web SDK]](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/overview.html){target=_blank}, non è possibile selezionare elementi di pagina.
 
 1. (Condizionale) Per visualizzare una pagina diversa dopo l’apertura del Compositore esperienza visivo, fai clic su **[!UICONTROL Configure]**, seleziona **[!UICONTROL Page Delivery]**, quindi specifica l’URL nel campo [!UICONTROL URL].
 

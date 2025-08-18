@@ -1,13 +1,13 @@
 ---
 keywords: esclusioni
 description: Scopri come creare esclusioni in Adobe [!DNL Target] Recommendations per impedire che prodotti o contenuti vengano consigliati ai visitatori.
-title: Come si utilizzano le esclusioni nelle attività di Recommendations?
+title: Come si utilizzano le esclusioni nelle attività Consigli?
 feature: Recommendations
 exl-id: e41487c7-6d47-4958-8e4b-616a2ad56b3c
 source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
 workflow-type: tm+mt
 source-wordcount: '598'
-ht-degree: 27%
+ht-degree: 29%
 
 ---
 
@@ -37,7 +37,7 @@ Alcuni esempi di utilizzo delle esclusioni includono:
 
    ![immagine elenco esclusioni](assets/exclusions_list.png)
 
-   Il &quot;Numero di elementi&quot; segnalato per ogni esclusione nella visualizzazione elenco [!UICONTROL Exclusions] è il numero di prodotti che corrispondono alle regole per tale esclusione all&#39;interno del gruppo Recommendations [host](/help/main/administrating-target/hosts.md) (ambiente) predefinito configurato. Consulta [Impostazioni](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=it){target=_blank} per modificare il gruppo host predefinito.
+   Il &quot;Numero di elementi&quot; segnalato per ogni esclusione nella visualizzazione elenco [!UICONTROL Exclusions] è il numero di prodotti che corrispondono alle regole per tale esclusione all&#39;interno del gruppo predefinito di consigli [host](/help/main/administrating-target/hosts.md) (ambiente) configurato. Consulta [Impostazioni](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} per modificare il gruppo host predefinito.
 
 1. Fare clic su **[!UICONTROL Create Exclusion]**.
 
@@ -75,11 +75,11 @@ Puoi copiare un’esclusione esistente per creare un’esclusione duplicata che 
 
 Tieni presente che le esclusioni sono disponibili in tutto l’account. Prima di eliminare un’esclusione, tieni presente quanto segue. Non è possibile recuperare le esclusioni eliminate.
 
-## Video di formazione: Creare raccolte ed esclusioni in Recommendations (7:05) ![Icona esercitazione](/help/main/assets/tutorial.png)
+## Video di formazione: Crea raccolte ed esclusioni in Recommendations (7:05) ![Icona esercitazione](/help/main/assets/tutorial.png)
 
 Questo video contiene le seguenti informazioni:
 
 * Creare una raccolta
 * Creare un’esclusione
 
->[!VIDEO](https://video.tv.adobe.com/v/328804?captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/27689)

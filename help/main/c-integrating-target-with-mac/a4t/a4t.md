@@ -6,8 +6,8 @@ feature: Analytics for Target (A4T)
 exl-id: 5bb80b03-8209-4932-a838-0e11c5865133
 source-git-commit: f7bb9b5d6e96095a31f50f1976b87d9ee7b7eb51
 workflow-type: tm+mt
-source-wordcount: '1046'
-ht-degree: 81%
+source-wordcount: '1045'
+ht-degree: 80%
 
 ---
 
@@ -29,7 +29,7 @@ Se utilizzi [!DNL Analytics] come origine per la generazione di rapporti per un�
 
 Tutte le metriche di [!DNL Analytics], comprese quelle calcolate, sono disponibili in [!DNL Target] e nel report [!UICONTROL Target Activities] in [!DNL Analytics], con una eccezione. Le metriche calcolate per [!UICONTROL Lift & Confidence] non sono supportate. Allo stesso modo, qualsiasi segmento disponibile in [!DNL Analytics] può essere applicato a entrambe le soluzioni. Puoi applicare la metrica o il pubblico al rapporto in [!DNL Target] dopo che l’attività è iniziata o anche dopo che è stata completata.
 
-Ogni metrica è inclusa, comprese quelle personalizzate o calcolate che sono integrate in [!DNL Analytics].
+Ogni metrica è inclusa, comprese quelle personalizzate o calcolate che sono incorporate in [!DNL Analytics].
 
 Dopo il periodo di classificazione, i dati sono visualizzati in questi rapporti circa un&#39;ora dopo essere stati raccolti dal sito. Tutte le metriche, i segmenti e i valori nei rapporti provengono dalla suite di rapporti selezionata quando si configura l’attività.
 
@@ -99,7 +99,7 @@ Apri l’esercitazione [Analytics e Target: best practice per l&#39;analisi](htt
 
 I video seguenti contengono ulteriori informazioni sui concetti descritti in questo argomento.
 
-### Analytics for Adobe Target (A4T) (4:32) ![Icona panoramica](/help/main/assets/overview.png)
+### Analytics for Adobe Target (A4T) (4:32) ![Badge panoramica](/help/main/assets/overview.png)
 
 Questo video spiega come usare [!DNL Analytics] come origine per la generazione di rapporti in [!DNL Target] per l’analisi del tuo programma di ottimizzazione.
 
@@ -107,7 +107,7 @@ Questo video spiega come usare [!DNL Analytics] come origine per la generazione 
 * Come funziona A4T
 * Prerequisiti necessari prima di utilizzare A4T
 
->[!VIDEO](https://video.tv.adobe.com/v/3421726?captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/17384)
 
 ### Integrazione di Analytics e Adobe Target (A4T) (40:33) ![Icona esercitazione](/help/main/assets/tutorial.png)
 

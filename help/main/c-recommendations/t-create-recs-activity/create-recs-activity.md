@@ -2,7 +2,7 @@
 keywords: creare consigli;attività consigli;nuovi consigli;panoramica consigli
 description: Scopri come utilizzare il Compositore esperienza visivo  [!DNL Target] [!UICONTROL Visual Experience Composer] per creare un'attività  [!DNL Recommendations] .
 title: Come si crea un'attività  [!DNL Recommendations] ?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=it#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."
 feature: Recommendations
 exl-id: c83073d5-f852-4f09-8343-e4658fbf6f43
 source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
@@ -73,7 +73,7 @@ Utilizzare il Compositore esperienza visivo [!DNL Target] [!UICONTROL Visual Exp
 
    >[!NOTE]
    >
-   >Non tutti i criteri vengono eseguiti correttamente su ogni pagina. La pagina o mbox deve passare `entity.id` o `entity.categoryId` per rendere compatibili i consigli per l’elemento o la categoria corrente. In generale, è consigliabile mostrare solo i criteri compatibili. Se tuttavia si desidera rendere disponibili criteri non compatibili per l&#39;attività, deselezionare la casella di controllo **[!UICONTROL Compatible]**. L&#39;opzione [!UICONTROL Compatible] potrebbe non essere visualizzata, a seconda delle impostazioni di Recommendations ( **[!UICONTROL Recommendations]** > **[!UICONTROL Settings]** > **[!UICONTROL Filter Incompatible Criteria]**). Per ulteriori informazioni, vedere [Impostazioni](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=it){target=_blank}.
+   >Non tutti i criteri vengono eseguiti correttamente su ogni pagina. La pagina o mbox deve passare `entity.id` o `entity.categoryId` per rendere compatibili i consigli per l’elemento o la categoria corrente. In generale, è consigliabile mostrare solo i criteri compatibili. Se tuttavia si desidera rendere disponibili criteri non compatibili per l&#39;attività, deselezionare la casella di controllo **[!UICONTROL Compatible]**. L&#39;opzione [!UICONTROL Compatible] potrebbe non essere visualizzata, a seconda delle impostazioni dei consigli ( **[!UICONTROL Recommendations]** > **[!UICONTROL Settings]** > **[!UICONTROL Filter Incompatible Criteria]**). Per ulteriori informazioni, consulta [Impostazioni](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}.
 
    ![Finestra di dialogo Seleziona criteri](/help/main/c-recommendations/t-create-recs-activity/assets/SCRN_SelectCriteria2.png)
 
@@ -144,7 +144,7 @@ Utilizzare il Compositore esperienza visivo [!DNL Target] [!UICONTROL Visual Exp
 1. Al termine, fare clic su **[!UICONTROL Next]**.
 1. Specifica le impostazioni dell’attività.
 
-   Digita, ad esempio, un nome (obbligatorio) e una finalità (facoltativa) per l’attività. Per informazioni sulle impostazioni, vedere [Impostazioni attività Recommendations](/help/main/c-recommendations/t-create-recs-activity/recs-activity-settings.md#reference_3FDA8388CEEC4159949151C1829E2FBB).
+   Digita, ad esempio, un nome (obbligatorio) e una finalità (facoltativa) per l’attività. Per informazioni sulle impostazioni, consulta [Impostazioni delle attività Consigli](/help/main/c-recommendations/t-create-recs-activity/recs-activity-settings.md#reference_3FDA8388CEEC4159949151C1829E2FBB).
 
    >[!NOTE]
    >
@@ -172,6 +172,6 @@ Utilizzare il Compositore esperienza visivo [!DNL Target] [!UICONTROL Visual Exp
 
    I conflitti tra attività si verificano quando più attività sono impostate per consegnare il contenuto sulla stessa pagina e possono causare la visualizzazione di contenuto imprevisto.
 
-## Video di formazione: Crea un&#39;attività Recommendations (7:15) ![Icona esercitazione](/help/main/assets/tutorial.png)
+## Video di formazione: Crea un&#39;attività Consigli (7:15) ![Icona esercitazione](/help/main/assets/tutorial.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/328598?captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/27688)

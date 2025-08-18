@@ -1,13 +1,13 @@
 ---
 keywords: faq;domande frequenti;analytics for target;a4T;metriche;definizioni metriche
-description: Risposte alle domande sulle definizioni delle metriche e sull'utilizzo di Analytics per  [!DNL Target]  (A4T). A4T consente di utilizzare il reporting di Analytics con le attività Adobe [!DNL Target] .
+description: Risposte alle domande sulle definizioni delle metriche e sull'utilizzo di Analytics per  [!DNL Target]  (A4T). A4T consente di utilizzare il reporting di Analytics con le attività di Adobe [!DNL Target] .
 title: Dove posso trovare informazioni sulle definizioni delle metriche con A4T?
 feature: Analytics for Target (A4T)
 exl-id: 97442622-ba6d-46f8-bfac-72638875d889
 source-git-commit: aff96eca1380f4274dba0c1567f6e41d42f4b5ab
 workflow-type: tm+mt
-source-wordcount: '352'
-ht-degree: 31%
+source-wordcount: '351'
+ht-degree: 36%
 
 ---
 
@@ -18,7 +18,7 @@ Questo argomento contiene le risposte alle domande più frequenti sulle definizi
 ## Qual è la scadenza per l’appartenenza all’attività? Per quanto tempo dopo che i visitatori accedono all’attività, le loro azioni vengono conteggiate nell’attività se non la visualizzano nuovamente? {#section_41B4958F33534E4B96DEE0C981227A79}
 
 +++Risposta
-La scadenza predefinita per l’attività è di 90 giorni dopo l’ultima interazione del visitatore con l’attività. Se necessario, questa impostazione può essere regolata dall’assistenza clienti. Tuttavia, questa impostazione è globale per tutte le attività, quindi non deve essere regolata per un solo caso.
+La scadenza predefinita per un’attività è di 90 giorni dopo l’ultima interazione di un visitatore con l’attività. Se necessario, questa impostazione può essere regolata dall’assistenza clienti. Tuttavia, questa impostazione è globale per tutte le attività, quindi non deve essere regolata per un solo caso.
 
 +++
 
@@ -35,7 +35,7 @@ Per le attività non A4T, puoi utilizzare le [opzioni Impostazioni avanzate](/he
 
 +++
 
-## Quali sono le metriche calcolate e come sostituiscono la mbox SiteCatalyst:Event che utilizzo abitualmente? {#section_D59F4719E6B94758A2187427C17F8EF3}
+## Quali sono le metriche calcolate e come sostituiscono la mbox SiteCatalyst:Event che utilizzavo? {#section_D59F4719E6B94758A2187427C17F8EF3}
 
 +++Risposta
 Le metriche calcolate consentono di creare metriche personalizzate derivate da segmenti o calcoli matematici. In passato, potresti aver utilizzato la mbox `SiteCatlayst:Event` dove `evar27=shoes` e l’evento è `purchase` (acquisto). Ora crei un segmento in cui `evar27=shoes` e quindi crei una metrica calcolata in cui l’evento è `purchase` (acquisto) con il segmento applicato. Queste metriche possono essere create in qualsiasi momento, anche dopo che l’attività è in corso. Possono quindi essere utilizzate in qualsiasi rapporto in Analytics.

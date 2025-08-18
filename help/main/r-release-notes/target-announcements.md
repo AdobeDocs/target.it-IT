@@ -9,7 +9,7 @@ exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 source-git-commit: b66abe9649f8c257891c1cd8e5736b7f91501c13
 workflow-type: tm+mt
 source-wordcount: '2049'
-ht-degree: 98%
+ht-degree: 97%
 
 ---
 
@@ -76,7 +76,7 @@ Perché dovresti partecipare:
 
 Fornisci esperienze cliente coinvolgenti per migliorare i tassi di conversione. La tua azienda è pronta per la stagione di picco? Unisciti a noi ora e accedi a suggerimenti di esperti su come ottenere prestazioni ottimali e il massimo Ritorno sull&#39;investimento (ROI).
 
-+++Consulta i dettagli
++++Vedi i dettagli
 
 Unisciti a John Magnusson, Customer Success Manager di Adobe e Katherine Klein, Direttore di MarTech &amp; AdTech Solutions, Macy&#39;s Inc. Unisciti a noi per scoprire le strategie che influiscono in modo significativo sul tuo programma di preparazione alla stagione di picco.
 
@@ -160,7 +160,7 @@ Le esperienze mobili stanno stimolando l’innovazione nel modo in cui i team di
 
 ### Chef&#39;s Collection: Recipes for Personalization (30 agosto 2022)
 
-Unisciti al team di [!DNL Adobe Target]  mentre vengono proposte nuove idee su come sfruttare appieno Target. Basato sul nostro ultimo eBook “Chef’s Collection: Ideas for Personalization”.
+Unisciti al team di [!DNL Adobe Target] [!DNL] mentre vengono proposte nuove idee su come sfruttare appieno Target. Basato sul nostro ultimo eBook “Chef’s Collection: Ideas for Personalization”.
 
 * [Collegamento alla registrazione](https://video.tv.adobe.com/v/346970/){target=_blank}
 

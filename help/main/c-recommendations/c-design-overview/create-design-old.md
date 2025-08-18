@@ -1,8 +1,8 @@
 ---
 keywords: Progettazione consigli;creare progettazione;copia progettazione
-description: Scopri come creare una progettazione Adobe [!DNL Target] Recommendations utilizzando una progettazione predefinita o creando una progettazione personalizzata che si adatti al meglio al layout della pagina.
+description: Scopri come creare una progettazione di Adobe [!DNL Target] Recommendations utilizzando una progettazione predefinita o creando una progettazione personalizzata che si adatti al meglio al layout della pagina.
 title: Come si crea una progettazione in Recommendations?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=it#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."
 feature: Recommendations
 exl-id: 0f10ee9d-7210-4e02-9342-e4f85cf46e8c
 source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
@@ -61,7 +61,7 @@ Puoi creare una progettazione durante il processo di creazione delle attività d
 
    Le progettazioni di consigli utilizzano il linguaggio di progettazione open-source [!DNL Velocity]. Le informazioni su [!DNL Velocity] sono disponibili all&#39;indirizzo [https://velocity.apache.org](https://velocity.apache.org) e in [Personalizzare una progettazione utilizzando [!DNL Velocity]](/help/main/c-recommendations/c-design-overview/customizing-a-template.md).
 
-   Una progettazione può essere HTML o non HTML. Per impostazione predefinita, le progettazioni di HTML sono racchiuse tra un tag `<div>` per consentire il tracciamento dei clic in un ambiente Web. Le progettazioni non HTML sono per ambienti non web in cui non è possibile eseguire il tracciamento dei clic. Fare scorrere l&#39;interruttore [!UICONTROL HTML Design] in posizione &quot;off&quot; per utilizzare codice non HTML.
+   Una progettazione può essere HTML o non HTML. Per impostazione predefinita, le progettazioni di HTML sono racchiuse con un tag `<div>` per consentire il tracciamento dei clic in un ambiente Web. Le progettazioni non HTML sono per ambienti non web in cui non è possibile effettuare il tracciamento dei clic. Fare scorrere l&#39;interruttore [!UICONTROL HTML Design] in posizione &quot;off&quot; per utilizzare codice non HTML.
 
    >[!NOTE]
    >
@@ -101,7 +101,7 @@ Tieni presente che le progettazioni sono disponibili a livello dell’intero acc
 
 L’esempio seguente mostra come le risposte JSON possono essere restituite durante la configurazione di un’attività tramite l’editor basato su moduli.
 
-1. Creare una progettazione dall&#39;interno della libreria Struttura o all&#39;interno del flusso di lavoro basato su moduli. Se tenti di creare una progettazione all&#39;interno del flusso di lavoro [!UICONTROL Visual Experience Composer] (VEC), non puoi creare altro che una progettazione di HTML, che viene racchiusa in un `<div>` a scopo di tracciamento dei clic.
+1. Creare una progettazione dall&#39;interno della libreria Struttura o all&#39;interno del flusso di lavoro basato su moduli. Se si tenta di creare una progettazione all&#39;interno del flusso di lavoro [!UICONTROL Visual Experience Composer] (VEC), non è possibile creare elementi diversi da una progettazione HTML, che viene racchiusa in un `<div>` a scopo di tracciamento dei clic.
 
 1. Assicurati che l&#39;opzione “Progettazione HTML” sia disattivata:
 
@@ -163,8 +163,8 @@ L’esempio seguente mostra come le risposte JSON possono essere restituite dura
 
    | Parametro | Valore |
    |--- |--- |
-   | `[YOUR_CLIENT_CODE]` | Codice client di Target (disponibile in /help/target/products.html#recsSettings > Token API di Recommendations > Codice client). |
-   | `[YOUR_MBOX_NAME]` | Il nome selezionato nella sezione &quot;locations&quot; del Recommendations basato su moduli, in questo caso Sample_Recs_Response. |
+   | `[YOUR_CLIENT_CODE]` | Codice client di Target (disponibile in /help/target/products.html#recsSettings > Token API per i consigli > Codice client). |
+   | `[YOUR_MBOX_NAME]` | Il nome selezionato nella sezione &quot;locations&quot; dei consigli basati su moduli, in questo caso Sample_Recs_Response. |
    | `[ENTITY_ID` | L&#39;`entity.id` di un elemento nel catalogo. |
    | `[AT_PROPERTY_TOKEN]` | (Facoltativo) Aggiungi se hai selezionato una Proprietà (parte delle autorizzazioni dell&#39;azienda) durante l&#39;impostazione dell&#39;attività. |
 
@@ -320,11 +320,11 @@ In alternativa, è possibile inviare ulteriori informazioni nella risposta. Il f
     }  
 ```
 
-## Video di formazione: Creare progettazioni personalizzate in Recommendations (3:20) ![Icona panoramica](/help/main/assets/overview.png)
+## Video di formazione: Creare progettazioni personalizzate in Recommendations (3:20) ![Icona Panoramica](/help/main/assets/overview.png)
 
 Questo video contiene le seguenti informazioni:
 
 * Creare una progettazione personalizzata
 * Come fare riferimento alle variabili di visualizzazione nelle progettazioni
 
->[!VIDEO](https://video.tv.adobe.com/v/328805?captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/27687)

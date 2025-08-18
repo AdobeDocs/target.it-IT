@@ -17,7 +17,7 @@ L&#39;utilizzo di [!DNL Adobe Analytics] come origine per la generazione di rapp
 
 Puoi visualizzare i report per le attività in [!DNL Analytics] e [!DNL Target].
 
-Per le best practice relative al reporting che utilizzano [!DNL Analytics] per [!DNL Target], [visita questo Adobe Spark Page](https://spark.adobe.com/page/Lo3Spm4oBOvwF/).
+Per le best practice sul reporting che utilizzano [!DNL Analytics] per [!DNL Target], [visita questa pagina Adobe Spark](https://spark.adobe.com/page/Lo3Spm4oBOvwF/).
 
 ## Panoramica {#section_035A62D65608423285D8A5A54731E2C5}
 
@@ -79,7 +79,7 @@ Durante la creazione dell&#39;attività, è necessario specificare un obiettivo 
 
 È possibile eseguire calcoli offline per intervalli di affidabilità e affidabilità per A4T utilizzando il file Excel del [!DNL Target] [Calcolatore affidabilità completo](/help/main/assets/complete_confidence_calculator.xlsx), ma è necessario un passaggio con esportazioni di dati in [!DNL Analytics].
 
-Per A4T viene utilizzato un calcolo del test t [Welch](https://en.wikipedia.org/wiki/Welch%27s_t-test){target=_blank} per variabili continue (anziché metriche binarie). In Analytics, un visitatore viene sempre tracciato e ogni azione intrapresa viene conteggiata. Pertanto, se il visitatore effettua più acquisti o visita una metrica di successo più volte, tali hit aggiuntivi vengono conteggiati. Questo rende la metrica una variabile continua. Per eseguire il calcolo del test t di Welch, è necessaria la &quot;somma dei quadrati&quot; per calcolare la varianza, che viene utilizzata nel denominatore della statistica t. [I calcoli statistici nei test A/Bn](/help/main/c-reports/statistical-methodology/statistical-calculations.md) spiegano i dettagli delle formule matematiche utilizzate. La somma dei quadrati può essere recuperata da [!DNL Analytics]. Per ottenere la somma dei quadrati è necessario eseguire un’esportazione a livello del visitatore per la metrica che desideri ottimizzare, per un periodo di tempo campione.
+Per A4T viene utilizzato il calcolo del test t [ di ](https://en.wikipedia.org/wiki/Welch%27s_t-test){target=_blank}Welch per variabili continue (anziché metriche binarie). In Analytics, un visitatore viene sempre tracciato e ogni azione intrapresa viene conteggiata. Pertanto, se il visitatore effettua più acquisti o visita una metrica di successo più volte, tali hit aggiuntivi vengono conteggiati. Questo rende la metrica una variabile continua. Per eseguire il calcolo del test t di Welch, è necessaria la &quot;somma dei quadrati&quot; per calcolare la varianza, che viene utilizzata nel denominatore della statistica t. [I calcoli statistici nei test A/Bn](/help/main/c-reports/statistical-methodology/statistical-calculations.md) spiegano i dettagli delle formule matematiche utilizzate. La somma dei quadrati può essere recuperata da [!DNL Analytics]. Per ottenere la somma dei quadrati è necessario eseguire un’esportazione a livello del visitatore per la metrica che desideri ottimizzare, per un periodo di tempo campione.
 
 Ad esempio, se stai ottimizzando le visualizzazioni di pagina per visitatore, puoi esportare un campione del numero totale di visualizzazioni di pagina per visitatore per un intervallo di tempo specificato, forse un paio di giorni (sono sufficienti poche migliaia di punti dati). Dovresti poi quadrare ogni valore e sommare i totali (è importante eseguire le operazioni in questo ordine). Questo valore di “somma dei quadrati” viene quindi utilizzato nel Calcolatore di affidabilità completo. Per questi valori consulta la sezione “ricavi” del foglio di calcolo.
 
@@ -89,7 +89,7 @@ Ad esempio, se stai ottimizzando le visualizzazioni di pagina per visitatore, pu
 1. Fare clic su **[!UICONTROL Tools]** > **[!UICONTROL Data Warehouse]**.
 1. Nella scheda **[!UICONTROL Data Warehouse Request]**, compila i campi.
 
-   Per ulteriori informazioni su ogni campo, consulta “Descrizioni di Data Warehouse” in [Data Warehouse](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse.html?lang=it).
+   Per ulteriori informazioni su ogni campo, consulta “Descrizioni di Data Warehouse” in [Data Warehouse](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse.html).
 
    | Campo | Istruzioni |
    |--- |--- |
@@ -109,5 +109,5 @@ Ad esempio, se stai ottimizzando le visualizzazioni di pagina per visitatore, pu
 
 Per ulteriori informazioni su [!DNL Data Warehouse], consulta i seguenti collegamenti nella documentazione di [!DNL Analytics]:
 
-* [Crea una richiesta Data Warehouse](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/t-dw-create-request.html?lang=it)
-* [Data Warehouse best practice](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse-bp.html?lang=it)
+* [Crea una richiesta Data Warehouse](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/t-dw-create-request.html)
+* [Best practice per Data Warehouse](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse-bp.html)

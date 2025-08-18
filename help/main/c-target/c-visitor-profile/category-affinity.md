@@ -108,7 +108,7 @@ Le sezioni seguenti contengono informazioni utili per utilizzare un pubblico di 
 
    Oppure
 
-   Per copiare un pubblico esistente, porta il cursore del mouse sul pubblico desiderato nellʼelenco Tipi di pubblico, quindi fai clic sullʼicona Copia. Ora puoi modificare il pubblico per crearne uno simile.
+   Per copiare un pubblico esistente, passa il puntatore sul pubblico desiderato nellʼelenco Tipi di pubblico, quindi fai clic sullʼicona Copia. Ora puoi modificare il pubblico per crearne uno simile.
 
 1. Inserisci un nome descrittivo per il pubblico.
 1. Fare clic su **[!UICONTROL + Add Rule]** > **[!UICONTROL Visitor Profile]**.

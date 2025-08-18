@@ -69,7 +69,7 @@ Target utilizza un semplice algoritmo per creare un selettore. Ecco una brevissi
 
    In questo esempio:
 
-   Selettore: `#container` > `ul.navigation:eq(0)` > `li.item:eq(0)` (“ > ” indica l’elemento figlio diretto).
+   Selettore: `#container` > `ul.navigation:eq(0)` > `li.item:eq(0)` (“ > ” indica l’elemento secondario diretto).
 
    `eq` comunica all’indice che c’è un elemento con &quot;tagName=UL&quot; e che la prima classe è `navigation`. Pertanto, l’`index` è 0. Per ulteriori informazioni, leggi l’articolo sui [selettori](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started/Selectors) in MDN.
 

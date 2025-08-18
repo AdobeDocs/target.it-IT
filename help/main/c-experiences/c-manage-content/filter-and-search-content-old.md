@@ -1,6 +1,6 @@
 ---
 keywords: libreria di contenuti;risorse;ricerca;filtro
-description: Scopri come cercare offerte di codice e immagini nella libreria Adobe [!DNL Target] Offers.
+description: Scopri come cercare offerte di codice e immagini nella libreria Adobe [!DNL Target] Offerte.
 title: Come posso cercare contenuti nella libreria delle offerte?
 feature: Experiences and Offers
 exl-id: 68ff0da5-4556-493e-b6b3-7bcbba320d57

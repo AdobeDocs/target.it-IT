@@ -216,7 +216,7 @@ Parametro specifico del visitatore trasmesso al cookie del visitatore dall&#39;e
 
 **attività pagina di destinazione**
 
-Consente di utilizzare il targeting per visualizzare contenuti diversi nella pagina di destinazione per visite diverse. In caso contrario, nella pagina di destinazione viene visualizzato lo stesso contenuto per ogni visita. Consente di confrontare versioni diverse della pagina in modo da vedere quale produce i risultati più efficaci. Sostituita dal *targeting delle esperienze* in Target Standard.
+Consente di utilizzare il targeting per visualizzare contenuti diversi nella pagina di destinazione per visite diverse. In caso contrario, nella pagina di destinazione viene visualizzato lo stesso contenuto per ogni visita. Consente di confrontare versioni diverse della pagina di destinazione in modo da vedere quale produce i risultati più efficaci. Sostituita dal *targeting delle esperienze* in Target Standard.
 
 **posizione**
 

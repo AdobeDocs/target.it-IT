@@ -1,6 +1,6 @@
 ---
 keywords: selettore css;codice personalizzato;editor di codice;Mobile Web Experience Editor
-description: Scopri come utilizzare il pannello Modifiche nell’Adobe  [!DNL Target]  per visualizzare le modifiche apportate alla pagina e aggiungere ulteriori modifiche (selettore CSS, Mbox e codice personalizzato).
+description: Scopri come utilizzare il pannello Modifiche in Adobe [!DNL Target] per visualizzare le modifiche di pagina e aggiungere ulteriori modifiche (selettore CSS, Mbox e codice personalizzato).
 title: Quali modifiche è possibile apportare alla pagina?
 feature: Visual Experience Composer (VEC)
 exl-id: 23456a4b-9457-4f05-989e-a7c39ce17cc2

@@ -19,7 +19,7 @@ Per ulteriori informazioni sull’utilizzo del Compositore esperienza visivo per
 
 >[!NOTE]
 >
->È possibile fare clic su **[!UICONTROL Expand Selection]** quando si selezionano gli oggetti nella pagina per selezionare l&#39;elemento padre in aggiunta all&#39;elemento selezionato originariamente. Quando selezioni un elemento padre, tutti i relativi figli vengono selezionati automaticamente. Puoi espandere la selezione più volte.
+>È possibile fare clic su **[!UICONTROL Expand Selection]** quando si selezionano gli oggetti nella pagina per selezionare l&#39;elemento padre in aggiunta all&#39;elemento selezionato originariamente. Quando selezioni un elemento principale, tutti i relativi elementi secondari vengono selezionati automaticamente. Puoi espandere la selezione più volte.
 >
 >Per navigare tra gli elementi puoi anche usare il [percorso DOM](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path).
 
@@ -37,7 +37,7 @@ Ogni immagine diventa un&#39;esperienza separata nella posizione in questione.
 
 Sottoponi a test offerte HTML multiple all&#39;interno di una posizione per determinare quale sia più efficace.
 
-1. Fai clic su un&#39;offerta HTML nella pagina e quindi fai clic su **[!UICONTROL Change HTML Offer]**.
+1. Fai clic su un&#39;offerta HTML nella tua pagina, quindi fai clic su **[!UICONTROL Change HTML Offer]**.
 
 1. Fai clic su **[!UICONTROL Create Offer]**, fai clic su **[!UICONTROL HTML Offer]**, assegna un nome all&#39;offerta, digita o incolla il codice per l&#39;offerta HTML, quindi fai clic su **[!UICONTROL Create]**.
 

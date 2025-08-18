@@ -13,7 +13,7 @@ ht-degree: 48%
 
 # Crea tipi di pubblico in [!DNL Target]
 
-Creare tipi di pubblico personalizzati e salvarli nella libreria [!UICONTROL Audiences] di [!DNL Adobe Target] per utilizzarli nelle attività. Puoi anche copiare un pubblico esistente da modificare per crearne uno simile e combinare più tipi di pubblico.
+Creare tipi di pubblico personalizzati e salvarli nella libreria [!DNL Adobe Target] di [!UICONTROL Audiences] per utilizzarli nelle attività. Puoi anche copiare un pubblico esistente da modificare per crearne uno simile e combinare più tipi di pubblico.
 
 ## Panoramica sul pubblico
 

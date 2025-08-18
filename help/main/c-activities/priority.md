@@ -7,7 +7,7 @@ exl-id: c32f1699-e564-40dd-8ff1-7c75a672c6ef
 source-git-commit: be6e45ff301f549eb5be24a65b05c4a9c1cd6089
 workflow-type: tm+mt
 source-wordcount: '907'
-ht-degree: 37%
+ht-degree: 36%
 
 ---
 
@@ -99,7 +99,7 @@ Risposta: visualExpCompOffer1, visualExpCompOffer2
 
 Risposta: visualExpCompOffer1, visualExpCompOffer2
 
-## Video di formazione: Impostazioni attività (03:02)
+## Video di formazione: Impostazioni attività (3:02)
 
 Questo video include informazioni sulle impostazioni delle attività.
 

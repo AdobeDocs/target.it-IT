@@ -1,6 +1,6 @@
 ---
 keywords: punteggio di acquisizione;punteggio
-description: Scopri la metrica di coinvolgimento Punteggio di acquisizione nell'Adobe  [!DNL Target]  che calcola un punteggio aggregato in base al valore assegnato alle pagine visitate sul sito.
+description: Scopri la metrica di coinvolgimento Punteggio di acquisizione in Adobe [!DNL Target] che calcola un punteggio aggregato in base al valore assegnato alle pagine visitate sul sito.
 title: Cos’è la metrica Punteggio di acquisizione?
 feature: Success Metrics
 exl-id: 3446cdef-7ee0-40dd-bf17-27def56668d4

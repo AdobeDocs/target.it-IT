@@ -14,7 +14,7 @@ ht-degree: 27%
 
 # Basare il consiglio su una chiave consiglio
 
-I Recommendations basati su algoritmi utilizzano il contesto del comportamento del visitatore per mostrare risultati rilevanti nelle attività [!DNL Adobe Target] [!DNL Recommendations].
+I consigli basati su algoritmi utilizzano il contesto del comportamento del visitatore per mostrare risultati rilevanti nelle attività [!DNL Adobe Target] [!DNL Recommendations].
 
 Ogni tipo di algoritmo fornisce diversi algoritmi appropriati al proprio tipo, come illustrato nella tabella seguente:
 
@@ -34,7 +34,7 @@ Diversi algoritmi di Recommendations si prestano a essere posizionati su diversi
 
 ## Basato su carrello {#cart-based}
 
-Il tipo di algoritmo [!UICONTROL Cart-Based] consente di consigliare gli elementi in base al contenuto del carrello corrente del visitatore. Le chiavi di consigli sono fornite tramite il parametro [mbox `cartIds`](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=it){target=_blank} in valori separati da virgola. Vengono considerati solo i primi 10 valori.
+Il tipo di algoritmo [!UICONTROL Cart-Based] consente di consigliare gli elementi in base al contenuto del carrello corrente del visitatore. Le chiavi di consigli sono fornite tramite il parametro [`cartIds` di ](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}mbox in valori separati da virgola. Vengono considerati solo i primi 10 valori.
 
 La logica dei consigli basati sul carrello è simile all&#39;algoritmo basato sull&#39;utente &quot;[!UICONTROL Recommended For You]&quot; e agli algoritmi basati sull&#39;elemento &quot;[!UICONTROL People Who Viewed These, Bought Those]&quot; e &quot;[!UICONTROL People Who Bought These, Bought Those]&quot;.
 
@@ -62,7 +62,7 @@ Questa logica restituisce altri prodotti visualizzati dalle persone dopo aver vi
 
 Questa logica consente di creare opportunità di conversione aggiuntive consigliando gli articoli visualizzati anche dagli altri visitatori che hanno visualizzato un articolo. Ad esempio, i visitatori che visualizzano le bici da strada sul sito potrebbero anche guardare caschi, kit per ciclismo, serrature e così via. Utilizzando questa logica, puoi creare un consiglio che suggerisca ad altri prodotti di aiutarti ad aumentare i ricavi.
 
-Se si seleziona questo algoritmo, è possibile selezionare le seguenti chiavi Recommendations:
+Se selezioni questo algoritmo, puoi selezionare le seguenti Chiavi consigli:
 
 * [!UICONTROL Current Item]
 * [!UICONTROL Last Purchased Item]
@@ -77,7 +77,7 @@ Questa logica restituisce altri prodotti che le persone hanno acquistato dopo av
 
 Questa logica consente di aumentare le opportunità di cross-selling visualizzando un consiglio in una pagina di prodotto, ad esempio, in cui vengono visualizzati gli articoli acquistati da altri visitatori. Ad esempio, se il visitatore visualizza un palo da pesca, il consiglio potrebbe mostrare altri elementi acquistati da altri visitatori, come scatole per placcaggi, trampolieri e esche per pesca. Man mano che i visitatori navigano nel tuo sito, fornisci loro ulteriori consigli di acquisto.
 
-Se si seleziona questo algoritmo, è possibile selezionare le seguenti chiavi Recommendations:
+Se selezioni questo algoritmo, puoi selezionare le seguenti Chiavi consigli:
 
 * [!UICONTROL Current Item]
 * [!UICONTROL Last Purchased Item]
@@ -92,7 +92,7 @@ Questa logica restituisce altri prodotti acquistati dopo l’acquisto di questo.
 
 Questa logica ti consente di aumentare le opportunità di cross-selling visualizzando un consiglio in una pagina di riepilogo del carrello, ad esempio, in cui vengono visualizzati gli articoli acquistati anche da altri acquirenti. Ad esempio, se il visitatore acquista un completo, il consiglio potrebbe mostrare altri articoli acquistati da altri visitatori insieme all’indumento, come cravatte, scarpe e gemelli. Man mano che i visitatori esaminano i loro acquisti, fornisci loro ulteriori consigli.
 
-Se si seleziona questo algoritmo, è possibile selezionare le seguenti chiavi Recommendations:
+Se selezioni questo algoritmo, puoi selezionare le seguenti Chiavi consigli:
 
 * [!UICONTROL Current Item]
 * [!UICONTROL Last Purchased Item]
@@ -132,7 +132,7 @@ Ad esempio, visualizzando la categoria A e la categoria B in una sessione si ott
 
 Utilizza questo algoritmo nelle pagine generali, ad esempio home page o pagine di destinazione e annunci offsite.
 
-Se selezioni l’algoritmo Più visualizzato per categoria, puoi selezionare le seguenti chiavi Recommendations:
+Se selezioni l’algoritmo Più visualizzato per categoria, puoi selezionare le seguenti chiavi di consigli:
 
 * [!UICONTROL Current Category]
 * [!UICONTROL Favorite Category]
@@ -446,7 +446,7 @@ Consiglia gli articoli in base alla certezza di una relazione tra articoli diver
 
 Ad esempio, se imposti un’affinità molto forte e il progetto include cinque elementi, tre dei quali soddisfano il livello di soglia di connessione, i due elementi che non soddisfano i requisiti di forza minima non vengono visualizzati nei suggerimenti e vengono sostituiti dagli elementi di backup definiti. Gli elementi con affinità più elevata vengono visualizzati per primi.
 
-Ad esempio, un rivenditore online può consigliare articoli in visite successive che hanno suscitato interesse in un visitatore durante le sessioni precedenti. L’attività per ogni sessione del visitatore viene acquisita per calcolare un’affinità in base a un modello di frequenza e recency. Quando il visitatore ritorna sul sito, l’affinità viene utilizzata per visualizzare i consigli in base alle azioni passate eseguite sul sito.
+Ad esempio, un retailer online può consigliare gli elementi nelle visite successive a cui un visitatore ha mostrato interesse durante le sessioni precedenti. L’attività per ogni sessione del visitatore viene acquisita per calcolare un’affinità in base a un modello di frequenza e recency. Quando il visitatore ritorna sul sito, l’affinità viene utilizzata per visualizzare i consigli in base alle azioni passate eseguite sul sito.
 
 Alcuni clienti con varie raccolte di prodotti e comportamenti diversi sui siti potrebbero ottenere risultati ottimali impostando un’affinità di sito debole.
 

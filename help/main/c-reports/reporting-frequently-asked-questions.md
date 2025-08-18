@@ -1,6 +1,6 @@
 ---
 keywords: risoluzione dei problemi;discrepanze metriche;FAQ;rapporti;nuovo visitatore;nuovi visitatori;visitatore di ritorno;visitatori di ritorno;visita di ritorno;nuova visita
-description: Esplora un elenco delle domande e risposte più frequenti sul reporting Adobe [!DNL Target] .
+description: Esplora un elenco delle domande e risposte più frequenti sul reporting di Adobe [!DNL Target] .
 title: Dove posso trovare le risposte alle domande sul reporting di  [!DNL Target] ?
 feature: Reports
 exl-id: 1a345a67-5050-4bd3-858d-99731d2c1dd3

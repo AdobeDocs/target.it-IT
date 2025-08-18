@@ -7,7 +7,7 @@ exl-id: 73d5c80c-bfa2-4806-8c04-652781b70bf2
 source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
 workflow-type: tm+mt
 source-wordcount: '672'
-ht-degree: 33%
+ht-degree: 35%
 
 ---
 
@@ -33,7 +33,7 @@ Per risolvere questo problema, [!DNL Target] raccoglie dati aggiuntivi per rilev
 
 >[!NOTE]
 >
->I clienti che utilizzano l’SDK di Mobile non devono eseguire alcuna operazione per applicare questa funzionalità. I clienti che utilizzano at.js devono [eseguire l&#39;aggiornamento alla versione 1.5.0](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=it){target=_blank} di at.js (o successiva).
+>I clienti che utilizzano Mobile SDK non devono eseguire alcuna operazione per applicare questa funzionalità. I clienti che utilizzano at.js devono [eseguire l’aggiornamento alla versione 1.5.0 di at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=it){target=_blank} (o successiva).
 
 È possibile scegliere più di una proprietà per i dispositivi mobili. Le selezioni multiple sono collegate da un operatore OR.
 

@@ -7,7 +7,7 @@ exl-id: d829cd63-950f-4bb4-aa58-0247f85de383
 source-git-commit: ef5df0ae37ca1d07c0e51c06ed78739b2d2983fc
 workflow-type: tm+mt
 source-wordcount: '1181'
-ht-degree: 26%
+ht-degree: 32%
 
 ---
 
@@ -114,7 +114,7 @@ Per impostazione predefinita, il Compositore esperienza visivo blocca gli elemen
 ## Alla modifica di un elemento della pagina, vengono modificati più elementi. (Compositore esperienza visivo e Compositore esperienza avanzato)  {#section_309188ACF34942989BE473F63C5710AF}
 
 +++Dettagli
-Se lo stesso ID elemento DOM viene utilizzato su più elementi della pagina, la modifica di uno di questi elementi cambia tutti gli elementi con tale ID. Per evitare il problema, è opportuno utilizzare ciascun ID solo una volta in ogni pagina. Si tratta di una best practice standard di HTML. Per ulteriori informazioni, vedere [Scenari di modifica delle pagine](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md#concept_A458A95F65B4401588016683FB1694DB).
+Se lo stesso ID di elemento DOM è utilizzato in più elementi della pagina, la modifica di uno di questi elementi influenza tutti gli elementi con lo stesso ID. Per evitare il problema, è opportuno utilizzare ciascun ID solo una volta in ogni pagina. Si tratta di una best practice standard di HTML. Per ulteriori informazioni, vedere [Scenari di modifica delle pagine](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md#concept_A458A95F65B4401588016683FB1694DB).
 
 +++
 
@@ -132,7 +132,7 @@ Questo problema può essere risolto abilitando [!UICONTROL Enhanced Experience C
 ## Desidero impostare i test sulle pagine per le quali non è stata ancora completata l&#39;implementazione di mbox/[!DNL Target]. (Compositore esperienza visivo e Compositore esperienza avanzato)  {#section_DE63BCCB5B124E10A71FA579B582A80A}
 
 +++Dettagli
-Consulta &quot;Non posso modificare le esperienze per un sito iFrame-bursting&quot; qui sopra.
+Vedi “Non sono in grado di modificare le esperienze per un sito non compatibile con iFrame” più sopra.
 
 +++
 
@@ -155,6 +155,6 @@ Se vedi questo problema:
 ## Per le attività di personalizzazione automatizzata, lo scambio di immagini nel Compositore esperienza visivo e Compositore esperienza avanzato sembra non funzionare. (Compositore esperienza visivo e Compositore esperienza avanzato)  {#section_88AABFDFE6A3420299B0D508B12A3994}
 
 +++Dettagli
-L’aggiunta di un’offerta di immagine a una posizione assume l’intera dimensione dello spazio immagine originale nel Compositore esperienza visivo o Compositore esperienza avanzato. Alla consegna, l&#39;immagine non viene espansa ed è mostrata così com&#39;è, quindi non c&#39;è impatto sulla consegna.
+L&#39;aggiunta dell&#39;offerta di un immagine a una posizione prende la dimensione totale dello spazio immagine originale nel Compositore esperienza visivo e Compositore esperienza avanzato. Alla consegna, l&#39;immagine non viene espansa ed è mostrata così com&#39;è, quindi non c&#39;è impatto sulla consegna.
 
 +++

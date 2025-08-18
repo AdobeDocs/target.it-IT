@@ -113,7 +113,7 @@ I video seguenti contengono ulteriori informazioni sui concetti descritti in que
 * Modificare il contenuto di una pagina
 * Modificare il layout di una pagina
 
->[!VIDEO](https://video.tv.adobe.com/v/36326?captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/17399)
 
 ### Compositore esperienza visivo (2 di 2) (7:29) ![Icona esercitazione](/help/main/assets/tutorial.png)
 
@@ -124,7 +124,7 @@ I video seguenti contengono ulteriori informazioni sui concetti descritti in que
 * Creare un’esperienza e visualizzarne l’anteprima per i siti web reattivi
 * Evidenziare tipi di elementi con le sovrapposizioni
 
->[!VIDEO](https://video.tv.adobe.com/v/36327?captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/17401)
 
 ### Office Hours: Compositore esperienza visivo ![Icona esercitazione](/help/main/assets/tutorial.png)
 

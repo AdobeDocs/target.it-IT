@@ -37,7 +37,7 @@ Quando si utilizza [!UICONTROL Auto-Allocate], [!DNL Target] mostra un badge nel
 
 Per ulteriori informazioni, vedere [Panoramica dell&#39;allocazione automatica](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md).
 
-## Adobe [!DNL Target] Calcolatore dimensioni campione {#section_6B8725BD704C4AFE939EF2A6B6E834E6}
+## Calcolatore delle dimensioni del campione di Adobe [!DNL Target] {#section_6B8725BD704C4AFE939EF2A6B6E834E6}
 
 Se si sceglie di utilizzare un&#39;attività manuale [!UICONTROL A/B Test] anziché [!UICONTROL Auto-Allocate], il calcolatore delle dimensioni del campione [!DNL Target] consente di determinare le dimensioni del campione necessarie per il successo del test. Un test A/B manuale è un test a orizzonte fisso, quindi la calcolatrice è utile. L&#39;utilizzo del calcolatore per un&#39;attività [!UICONTROL Auto-Allocate] è facoltativo perché [!UICONTROL Auto-Allocate] dichiara un vincitore. La calcolatrice fornisce una stima approssimativa delle dimensioni del campione necessarie. Continua a leggere per ulteriori informazioni su come utilizzare il calcolatore.
 

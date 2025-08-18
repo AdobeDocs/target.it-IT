@@ -55,7 +55,7 @@ Questa opzione è utile se, ad esempio:
 
 ### Generare istantanee delle esperienze nel diagramma del flusso di attività
 
-L&#39;attivazione delle istantanee esperienza genera miniature per le tue esperienze nel diagramma del flusso di lavoro dell&#39;attività. La disabilitazione delle istantanee potrebbe determinare prestazioni più veloci per alcuni utenti.
+Attivando le istantanee delle esperienze, vengono generate miniature per le tue esperienze nel diagramma del flusso di lavoro delle attività. La disabilitazione delle istantanee potrebbe determinare prestazioni più veloci per alcuni utenti.
 
 ## Configurazione di riquadri di visualizzazione per dispositivi mobili 
 

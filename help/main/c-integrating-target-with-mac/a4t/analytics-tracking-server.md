@@ -7,7 +7,7 @@ exl-id: 8066d6a6-661e-428b-9d5c-18537a80fb43
 source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
 workflow-type: tm+mt
 source-wordcount: '638'
-ht-degree: 14%
+ht-degree: 15%
 
 ---
 
@@ -19,7 +19,7 @@ Se utilizzi una versione precedente di at.js, devi specificare un server di trac
 >
 >Se utilizzi la versione 0.9.1 (o successiva) di at.js, non devi specificare un server di tracciamento durante la creazione dell’attività. La libreria at.js invia automaticamente i valori del server di tracciamento a [!DNL Target]. Durante la creazione dell&#39;attività, è possibile lasciare vuoto il campo [!UICONTROL Tracking Server] nella pagina [!UICONTROL Goals & Settings].
 >
->Il team [!DNL Target] supporta sia at.js 1.*x* che in at.js 2.*x*. Esegui l’aggiornamento alla versione più recente di una delle versioni principali di at.js per assicurarti di eseguire una versione supportata. Per ulteriori informazioni, consulta [Dettagli versione at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=it){target=_blank}.
+>Il team [!DNL Target] supporta sia at.js 1.*x* che in at.js 2.*x*. Esegui l’aggiornamento alla versione più recente di una delle versioni principali di at.js per assicurarti di eseguire una versione supportata. Per ulteriori informazioni, consulta [Dettagli della versione at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=it){target=_blank}.
 
 Per garantire che i dati di [!DNL Target] vadano nella posizione corretta in [!DNL Analytics], A4T richiede che un server di tracciamento [!DNL Analytics] sia inviato in tutte le chiamate a Modstats da [!DNL Target]. Per le implementazioni che utilizzano più server di tracciamento, utilizzare [!DNL Adobe Experience Platform Debugger] o i Developer Tools del browser per determinare il server di tracciamento corretto per l&#39;attività.
 
@@ -29,7 +29,7 @@ Il debugger deve essere visualizzato in una pagina in cui l’attività viene co
 
 1. Dalla pagina in cui si sta creando l&#39;attività, aprire [!DNL Adobe Experience Platform Debugger].
 
-   Se non hai installato il debugger, vedi [Panoramica Adobe Experience Platform Debugger](https://experienceleague.adobe.com/docs/platform-learn/data-collection/debugger/overview.html?lang=it).
+   Se non hai installato il debugger, consulta [Panoramica di Adobe Experience Platform Debugger](https://experienceleague.adobe.com/docs/platform-learn/data-collection/debugger/overview.html).
 
 1. Fare clic su **[!UICONTROL Analytics]** nel menu di navigazione a sinistra.
 

@@ -1,7 +1,7 @@
 ---
-keywords: Recommendations;offerta;anteprima;lancio;stato;criteri;algoritmo
+keywords: Consigli;offerta;anteprima;lancio;stato;criteri;algoritmo
 description: Scopri come visualizzare in anteprima la tua attività Adobe [!DNL Target] Recommendations per assicurarti che i risultati siano disponibili prima di avviare l'attività.
-title: Come posso visualizzare in anteprima e avviare un’attività di Recommendations?
+title: Come posso visualizzare in anteprima e avviare un’attività Consigli?
 feature: Recommendations
 exl-id: 60391778-4d48-4c41-a7c5-fedcfabf2530
 source-git-commit: 75ab3bff7064c8f7df14a42422373cb64d96150a
@@ -13,15 +13,15 @@ ht-degree: 15%
 
 # Anteprima e avvio di un’attività Consigli
 
-Dopo aver creato l&#39;attività [!UICONTROL Recommendations], [!UICONTROL A/B Test] o [!UICONTROL Experience Targeting] (XT) contenente [offerte Recommendations](/help/main/c-recommendations/recommendations-as-an-offer.md), è possibile visualizzare in anteprima i consigli per assicurarsi che i risultati siano disponibili prima di avviare l&#39;attività. [!DNL Target Recommendations] offre diversi modi per visualizzare in anteprima i consigli.
+Dopo aver creato l&#39;attività [!UICONTROL Recommendations], [!UICONTROL A/B Test] o [!UICONTROL Experience Targeting] (XT) contenente [offerte Consigli](/help/main/c-recommendations/recommendations-as-an-offer.md), è necessario visualizzare in anteprima i consigli per assicurarsi che i risultati siano disponibili prima di avviare l&#39;attività. [!DNL Target Recommendations] offre diversi modi per visualizzare in anteprima i consigli.
 
 ## Verifica dello stato dell’algoritmo di Recommendations
 
 Dopo aver creato un&#39;attività, [!DNL Recommendations] esegue un algoritmo per generare i consigli. L’esecuzione di questo algoritmo potrebbe richiedere alcune ore.
 
-È possibile verificare se l&#39;esecuzione dell&#39;algoritmo è stata completata nel diagramma di panoramica [!UICONTROL Activity], in cui è elencato lo stato dei criteri. La figura seguente mostra lo stato nel diagramma attività nella pagina [!UICONTROL Overview] di un&#39;attività [!DNL Recommendations]:
+È possibile verificare se l&#39;esecuzione dell&#39;algoritmo è stata completata nel diagramma di panoramica [!UICONTROL Activity], in cui è elencato lo stato dei criteri. La figura seguente mostra lo stato nel diagramma attività nella pagina [!DNL Recommendations] di un&#39;attività [!UICONTROL Overview]:
 
-![Pagina panoramica attività Recommendations](/help/main/c-recommendations/t-create-recs-activity/assets/recs-overview-new.png)
+![Pagina di panoramica dell&#39;attività Consigli](/help/main/c-recommendations/t-create-recs-activity/assets/recs-overview-new.png)
 
 I risultati dello stato includono quanto segue, come illustrato di seguito:
 
@@ -53,7 +53,7 @@ Se il criterio utilizza [!DNL Adobe Analytics] come origine dei dati comportamen
 >
 >[!UICONTROL Recently Viewed Items] non richiede l&#39;esecuzione di algoritmi offline e i risultati sono immediatamente disponibili. Gli algoritmi [!UICONTROL Top Viewed] e [!UICONTROL Top Sellers] basati sui dati mbox producono in genere risultati molto rapidamente grazie al calcolo più semplice richiesto. Queste possono essere buone opzioni quando vuoi visualizzare in anteprima una modifica alla progettazione o confermare che i dati comportamentali vengono raccolti correttamente.
 
-## Utilizzo dei collegamenti di controllo qualità per l’anteprima di Recommendations
+## Utilizzo dei collegamenti di controllo qualità per visualizzare in anteprima i consigli
 
 Quando i risultati dell&#39;algoritmo sono pronti, è possibile visualizzarli in anteprima utilizzando la funzionalità [Collegamento QA](/help/main/c-activities/c-activity-qa/activity-qa.md) di [!DNL Adobe Target]. I collegamenti di controllo qualità sono disponibili nella sezione [!UICONTROL Activity Location] della pagina di panoramica di [!UICONTROL Activity]:
 
@@ -95,7 +95,7 @@ Per altri tipi di algoritmo basati su un valore chiave, ad esempio [!UICONTROL P
 >
 >I download dei risultati non sono disponibili per le attività contenenti un algoritmo [!UICONTROL User-Based Recommendations]. I download dei risultati non sono disponibili per i criteri che utilizzano la logica dei consigli [!UICONTROL Recently-Viewed Items].
 
-## Attivazione dell’attività Recommendations
+## Attivazione dell’attività Consigli
 
 Dalla scheda [!UICONTROL Activity Overview], fare clic sulla freccia a discesa Stato, quindi selezionare **[!UICONTROL Activate]**.
 

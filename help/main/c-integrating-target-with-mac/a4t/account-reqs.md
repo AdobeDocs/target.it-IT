@@ -28,13 +28,13 @@ Completa le seguenti attività in [!DNL Adobe Experience Cloud] [Admin Console](
 
 Gli account utente [!DNL Analytics] e [!DNL Target] devono essere collegati al tuo Adobe ID.
 
-Per ulteriori informazioni, vedere [Organizzazioni e collegamento account](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=it).
+Per ulteriori informazioni, vedere [Organizzazioni e collegamento account](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=en).
 
 ### Configurare l’iscrizione al gruppo Experience Cloud
 
 Devi essere membro di uno o più gruppi di [!DNL Experience Cloud] che hanno accesso a [!DNL Analytics] e a [!DNL Target].
 
-Per ulteriori informazioni, vedere [Gestione di utenti e prodotti Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=it).
+Per ulteriori informazioni, consulta [Gestione di utenti e prodotti Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html).
 
 ## Adobe Analytics {#section_8F404FDE9A634534AB0AA4CB3075582B}
 
@@ -48,7 +48,7 @@ Per utilizzare A4T in una determinata suite di rapporti, è necessario avere acc
 
    L’illustrazione seguente è un esempio di un profilo di prodotto che ha accesso a tutte le suite di rapporti:
 
-   ![Scheda autorizzazione Admin Console](/help/main/c-integrating-target-with-mac/a4t/assets/permissions-tab.png)
+   ![Scheda Autorizzazione Admin Console](/help/main/c-integrating-target-with-mac/a4t/assets/permissions-tab.png)
 
 1. Configurare l&#39;accesso al gruppo [!UICONTROL Web Services Access].
 

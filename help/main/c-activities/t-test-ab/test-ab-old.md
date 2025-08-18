@@ -1,13 +1,13 @@
 ---
 keywords: AB;A/B;AB...n;confrontare esperienze;Targeting;confrontare contenuto;targeting automatico;allocazione automatica
-description: Scopri i diversi tipi di attività di test A/B in Adobe [!DNL Target] - Manual, Auto-Allocate, and Auto-Target. Scegli quello che fa per te.
+description: 'Scopri i diversi tipi di attività di test A/B in Adobe [!DNL Target] : manuale, allocazione automatica e targeting automatico. Scegli quello che fa per te.'
 title: Quale tipo di attività A/B è disponibile in Target?
 feature: A/B Tests
 exl-id: e8ff8994-a0a9-4fc7-8fcb-e3a1b7697604
 source-git-commit: 974746e25724abf0e5edd3884331ec0975e5352e
 workflow-type: tm+mt
 source-wordcount: '755'
-ht-degree: 25%
+ht-degree: 24%
 
 ---
 
@@ -31,7 +31,7 @@ Quando imposti il test A/B, puoi determinare la percentuale di visitatori che vi
 >
 >Per informazioni dettagliate sulla determinazione delle dimensioni ottimali del campione per un test A/B, consulta [Pianificare il test A/B](/help/main/c-activities/t-test-ab/sample-size-determination.md).
 
-Quando il numero di esperienze diverse supera le cinque e si estende su due o più posizioni, è consigliabile prendere in considerazione un [test MVT](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md) prima di eseguire i test A/B. I test multivariati mostrano quali aree della pagina hanno più probabilità di migliorare la conversione. Queste aree sono le posizioni sulle quali un addetto al marketing dovrebbe concentrarsi. Ad esempio, il test MVT potrebbe indicare che l&#39;invito all&#39;azione è la posizione più importante per soddisfare gli obiettivi. Dopo aver determinato le posizioni e il contenuto più utili per raggiungere gli obiettivi, puoi eseguire un test A/B per perfezionare ulteriormente i risultati. Ad esempio, per sottoporre a test reciproco due immagini specifiche o per confrontare il testo o i colori di un invito all’azione. Facendo seguire un test MVT da uno o più test A/B, puoi determinare il contenuto migliore possibile per i risultati desiderati.
+Quando il numero di esperienze diverse supera le cinque e si estende su due o più posizioni, è consigliabile prendere in considerazione un [test MVT](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md) prima di eseguire i test A/B. I test multivariati mostrano quali aree della pagina hanno più probabilità di migliorare la conversione. Queste aree sono le posizioni sulle quali un addetto al marketing dovrebbe concentrarsi. Ad esempio, il test MVT potrebbe indicare che l&#39;invito all&#39;azione è la posizione più importante per soddisfare gli obiettivi. Dopo aver determinato le posizioni e il contenuto più utili per raggiungere gli obiettivi, puoi eseguire un test A/B per perfezionare ulteriormente i risultati. Ad esempio, per sottoporre a test reciproco due immagini specifiche o per confrontare il testo o i colori di un call to action. Facendo seguire un test MVT da uno o più test A/B, puoi determinare il contenuto migliore possibile per i risultati desiderati.
 
 ## Tipi di attività di test A/B {#types}
 
@@ -58,7 +58,7 @@ Puoi includere i consigli nelle attività [!UICONTROL A/B Test], [!UICONTROL Aut
 
 Questa funzionalità richiede una [licenza Target Premium](/help/main/c-intro/intro.md#premium)
 
-## Video di formazione: Tipi di attività (9:03) ![Badge panoramica](/help/main/assets/overview.png)
+## Video di formazione: Tipi di attività (9:03) ![Icona panoramica](/help/main/assets/overview.png)
 
 Questo video spiega i tipi di attività disponibili in [!DNL Target Standard/Premium].
 
@@ -66,4 +66,4 @@ Questo video spiega i tipi di attività disponibili in [!DNL Target Standard/Pre
 * Selezionare il tipo di attività appropriato per i tuoi obiettivi
 * Descrizione del flusso di lavoro guidato in tre passaggi da applicare a tutti i tipi di attività
 
->[!VIDEO](https://video.tv.adobe.com/v/36365?captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/17386)

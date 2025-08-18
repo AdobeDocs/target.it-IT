@@ -17,7 +17,7 @@ Combina al volo più tipi di pubblico (tra cui [!DNL Adobe Experience Cloud], [!
 
 >[!NOTE]
 >
->L&#39;origine [!DNL Adobe Experience Platform] è disponibile per tutti i clienti [!DNL Target] che utilizzano [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=it){target=_blank}. I tipi di pubblico disponibili da [!DNL Adobe Experience Platform] possono essere utilizzati così come sono o combinati con i tipi di pubblico esistenti, come spiegato in questo argomento.
+>L&#39;origine [!DNL Adobe Experience Platform] è disponibile per tutti i clienti [!DNL Target] che utilizzano [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=en){target=_blank}. I tipi di pubblico disponibili da [!DNL Adobe Experience Platform] possono essere utilizzati così come sono o combinati con i tipi di pubblico esistenti, come spiegato in questo argomento.
 >
 >Per ulteriori informazioni, vedere [Utilizzare i tipi di pubblico di Adobe Experience Platform](/help/main/c-target/c-audiences/audiences.md#aep).
 
@@ -61,7 +61,7 @@ Puoi creare un pubblico combinato specifico nella pagina [!UICONTROL Target] del
 
       >[!NOTE]
       >
-      >L’operatore (AND oppure OR) deve rimanere lo stesso quando combini gruppi di pubblico. Non puoi combinare e abbinare gli operatori.
+      >L’operatore (AND oppure OR) deve rimanere lo stesso quando combini gruppi di pubblico. Non puoi combinare operatori diversi.
 
    1. Per aggiungere un&#39;esclusione a una regola, fare clic su **[!UICONTROL Exclude]**.
 

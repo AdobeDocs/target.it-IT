@@ -2,7 +2,7 @@
 keywords: Recommendations;consigli;offerta
 description: Scopri come utilizzare Adobe Recommendations come offerta all’interno di test A/B (tra cui Allocazione automatica e Targeting automatico) e attività di Experience Targeting (XT).
 title: Come si utilizza la funzione Recommendations (Consigli) come offerta in altri tipi di attività?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=it#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."
 feature: Recommendations
 hide: true
 hidefromtoc: true
@@ -55,7 +55,7 @@ Per iniziare, crea un&#39;attività [!UICONTROL A/B Test] o [!UICONTROL Experien
 
 1. Fai clic su **[!UICONTROL Create Criteria]** o seleziona un [criterio](/help/main/c-recommendations/c-algorithms/algorithms.md) esistente, quindi fai clic su **[!UICONTROL Next]** per visualizzare la finestra di dialogo [!UICONTROL Select Design].
 
-1. Fai clic su **[!UICONTROL Create Design]** o seleziona una [progettazione](/help/main/c-recommendations/c-design-overview/design-overview.md) esistente, quindi fai clic su **[!UICONTROL &#x200B; Next]**.
+1. Fai clic su **[!UICONTROL Create Design]** o seleziona una [progettazione](/help/main/c-recommendations/c-design-overview/design-overview.md) esistente, quindi fai clic su **[!UICONTROL  Next]**.
 
 1. Nella finestra di dialogo [!UICONTROL Options], specificare quanto segue:
 

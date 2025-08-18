@@ -1,6 +1,6 @@
 ---
 keywords: A4T;Adobe Analytics;attività basata su Analytics;suite di rapporti di Analytics;suite di rapporti;integrazione di Analytics Target;configurare suite di rapporti;at.js;atjs;adobe experience platform web sdk;aep web sdk;platform web sdk
-description: Segui i passaggi necessari per implementare Analytics for [!DNL Target] (A4T) nel tuo Adobe [!DNL Target] e nelle soluzioni Adobe Analytics.
+description: Segui i passaggi necessari per implementare Analytics for [!DNL Target] (A4T) nelle tue soluzioni Adobe [!DNL Target] e Adobe Analytics.
 title: Come si implementa Analytics per  [!DNL Target] (A4T)?
 feature: Analytics for Target (A4T)
 exl-id: b5269b9e-01ef-449a-bb03-3dcc2cd68af7
@@ -17,7 +17,7 @@ Sono necessari diversi passaggi per implementare [!DNL Adobe Analytics] come ori
 
 ## ![Badge Adobe Experience Platform Web SDK](/help/main/assets/platform.png) Passaggi per l&#39;implementazione di Adobe Experience Platform Web SDK {#platform}
 
-Le sezioni seguenti descrivono i passaggi necessari per distribuire questa integrazione al sito se intendi utilizzare Platform Web SDK:
+Nelle sezioni seguenti vengono descritti i passaggi necessari per distribuire questa integrazione nel sito se si intende utilizzare Platform Web SDK:
 
 ### Passaggio 1: richiesta del provisioning per [!DNL Analytics] e [!DNL Target]
 
@@ -33,7 +33,7 @@ Creare una configurazione di Edge utilizzando [!DNL Adobe Experience Platform] u
 
 ### Passaggio 4: installare e configurare Platform Web SDK
 
-Per iniziare a distribuire [!DNL Target] esperienze e applicare [!DNL Analytics] a scopo di monitoraggio e analisi, [Installa](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=it) e [configura](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html?lang=it) Platform Web SDK nelle pagine del sito.
+Per iniziare a distribuire [!DNL Target] esperienze e applicare [!DNL Analytics] a scopo di monitoraggio e analisi, [Installa](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html) e [configura](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html) Platform Web SDK nelle pagine del sito.
 
 ### Passaggio 5: abilitare le opzioni per l’utilizzo di A4T
 
@@ -56,17 +56,17 @@ I requisiti dell&#39;account utente devono essere soddisfatti prima di creare un
 
 ### Passaggio 3: Implementare il servizio ID visitatore di Experience Cloud
 
-Il servizio ID visitatore consente di identificare gli utenti nelle soluzioni [!DNL Adobe Experience Cloud]. Implementa o esegui la migrazione alla versione richiesta dell’ID visitatore Experience Cloud. Per ulteriori informazioni, consulta “Requisiti di implementazione” in [Prima dell’implementazione](/help/main/c-integrating-target-with-mac/a4t/before-implement.md).
+Il servizio ID visitatore consente di identificare gli utenti nelle soluzioni [!DNL Adobe Experience Cloud]. Implementa o esegui la migrazione alla versione richiesta dell’ID visitatore di Experience Cloud. Per ulteriori informazioni, consulta “Requisiti di implementazione” in [Prima dell’implementazione](/help/main/c-integrating-target-with-mac/a4t/before-implement.md).
 
-Consulta [Implementare il servizio ID Experience Cloud per Target](https://experienceleague.adobe.com/docs/id-service/using/implementation/setup-target.html?lang=it) nella documentazione del *servizio ID visitatore Experience Cloud*.
+Consulta [Implementazione del servizio Experience Cloud ID per Target](https://experienceleague.adobe.com/docs/id-service/using/implementation/setup-target.html) nella documentazione del *servizio ID visitatore di Experience Cloud*.
 
 ### Passaggio 4: Aggiornare AppMeasurement per JavaScript o s_code
 
 Implementa o esegui la migrazione alla versione richiesta di appMeasurement.js. Per ulteriori informazioni, consulta “Requisiti di implementazione” in [Prima dell’implementazione](/help/main/c-integrating-target-with-mac/a4t/before-implement.md).
 
-Per le nuove implementazioni, consulta [Panoramica sull&#39;implementazione di JavaScript](https://experienceleague.adobe.com/docs/analytics/implementation/js/overview.html?lang=it) nella *Guida all&#39;implementazione di Analytics*.
+Per le nuove implementazioni, consulta [Panoramica sull&#39;implementazione di JavaScript](https://experienceleague.adobe.com/docs/analytics/implementation/js/overview.html) nella *Guida all&#39;implementazione di Analytics*.
 
-Per una migrazione, vedere [Migrazione ad AppMeasurement per JavaScript](https://experienceleague.adobe.com/docs/analytics/implementation/js/migrate-from-hcode.html?lang=it) nella *Guida all&#39;implementazione di Analytics*.
+Per una migrazione, vedere [Migrazione ad AppMeasurement per JavaScript](https://experienceleague.adobe.com/docs/analytics/implementation/js/migrate-from-hcode.html) nella *Guida all&#39;implementazione di Analytics*.
 
 ### Passaggio 5: Scaricare e aggiornare at.js
 
@@ -116,9 +116,9 @@ Questa configurazione ha un effetto globale, il che significa che ogni chiamata 
 }
 ```
 
-Il payload può quindi essere inoltrato ad Analytics tramite l&#39;[API di inserimento dati](https://helpx.adobe.com/it/analytics/kb/data-insertion-api-post-method-adobe-analytics.html). Per le attività Allocazione automatica e Targeting automatico, devi anche inoltrare il sessionId. Per ulteriori informazioni, consulta [Generazione rapporti di Analytics for Target (A4T)](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/integration/a4t-reporting.html?lang=it){target=_blank} nella guida *SDK per Adobe Target*.
+Il payload può quindi essere inoltrato ad Analytics tramite l&#39;[API di inserimento dati](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html). Per le attività Allocazione automatica e Targeting automatico, devi anche inoltrare il sessionId. Per ulteriori informazioni, consulta [Generazione rapporti di Analytics for Target (A4T)](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/integration/a4t-reporting.html){target=_blank} nella guida *SDK per Adobe Target*.
 
-Se non desideri usare un&#39;impostazione globale e preferisci un approccio di tipo on-demand, usa la funzione at.js [getOffers()](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/adobe-target-getoffers-atjs-2.html?lang=it){target=_blank} passando **analyticsLogging: &quot;client_side&quot;**. Il payload di Analytics viene restituito solo per questa chiamata e il backend [!DNL Target] non inoltra il payload a [!DNL Analytics]. Seguendo questo approccio, ogni richiesta di at.js [!DNL Target] restituisce il payload per impostazione predefinita, ma solo quando desiderato e specificato.
+Se non desideri usare un&#39;impostazione globale e preferisci un approccio di tipo on-demand, usa la funzione at.js [getOffers()](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/adobe-target-getoffers-atjs-2.html){target=_blank} passando **analyticsLogging: &quot;client_side&quot;**. Il payload di Analytics viene restituito solo per questa chiamata e il backend [!DNL Target] non inoltra il payload a [!DNL Analytics]. Seguendo questo approccio, ogni richiesta di at.js [!DNL Target] restituisce il payload per impostazione predefinita, ma solo quando desiderato e specificato.
 
 Ad esempio:
 
@@ -174,7 +174,7 @@ La risposta si presenta come segue:
 }
 ```
 
-Il payload può quindi essere inoltrato a [!DNL Analytics] tramite l&#39;[API di inserimento dati](https://helpx.adobe.com/it/analytics/kb/data-insertion-api-post-method-adobe-analytics.html).
+Il payload può quindi essere inoltrato a [!DNL Analytics] tramite l&#39;[API di inserimento dati](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html).
 
 ### Passaggio 8: Convalidare l’implementazione {#step8}
 
@@ -188,7 +188,7 @@ Carica le pagine dopo aver aggiornato le librerie JavaScript per confermare che 
 
 ### Passaggio 9: (Facoltativo) Rimuovere il codice di integrazione precedente
 
-L’Adobe consiglia di rimuovere l’integrazione precedente per semplificare l’implementazione ed eliminare la necessità di risolvere eventuali discrepanze tra i sistemi. È possibile rimuovere il codice distribuito da una precedente integrazione tra SC e T&amp;T, incluso `mboxLoadSCPlugin`.
+Adobe consiglia di rimuovere l’integrazione precedente per semplificare l’implementazione ed eliminare la necessità di risolvere eventuali discrepanze tra i sistemi. È possibile rimuovere il codice distribuito da una precedente integrazione tra SC e T&amp;T, incluso `mboxLoadSCPlugin`.
 
 ### Passaggio 10: Abilitare le opzioni per l’utilizzo di Analytics come origine per la creazione di rapporti per Target
 

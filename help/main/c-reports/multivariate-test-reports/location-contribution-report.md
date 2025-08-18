@@ -7,7 +7,7 @@ exl-id: 2fb7d2b3-d981-44fd-9bb2-021903605a09
 source-git-commit: c1a71d1fb6fa9b5c14e22fa3199358a4594bb4a1
 workflow-type: tm+mt
 source-wordcount: '259'
-ht-degree: 38%
+ht-degree: 35%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 38%
 
 Il report [!UICONTROL Location Contribution] mostra le prestazioni di ogni elemento e di ogni offerta.
 
-La parte superiore del rapporto mostra la metrica, le date di inizio e fine e il pubblico utilizzato nel rapporto. Puoi modificare ciascuno di questi fattori.
+La parte superiore del rapporto mostra la metrica, le date di inizio e di fine e il pubblico utilizzato nel rapporto. Puoi modificare ciascuno di questi fattori.
 
 >[!NOTE]
 >
@@ -35,6 +35,6 @@ La seconda tabella fornisce un rapporto a livello di offerta. Mostra tasso di co
 
 ## Video di formazione: Creare un test MVT
 
-Questo video illustra come creare un test multivariato utilizzando il flusso di lavoro guidato in tre passaggi di [!DNL Target]. Il rapporto Contributo posizione è descritto a partire dal minuto 8:45.
+Questo video illustra come creare un test multivariato utilizzando il flusso di lavoro guidato in tre passaggi di [!DNL Target]. Il rapporto Contributo posizione è descritto a partire da 8:45.
 
->[!VIDEO](https://video.tv.adobe.com/v/36329?captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/17395)

@@ -19,7 +19,7 @@ Suggerimenti per migliorare le prestazioni, evitare problemi e correggere proble
 
 * Presta particolare attenzione alle posizioni sulla pagina che produrranno probabilmente risultati significativi.
 
-  Ad esempio, un banner o un’immagine protagonista porterà probabilmente più conversioni di una modifica del piè di pagina. L&#39;inclusione di posizioni meno significative nel test aumenta la quantità di traffico e il tempo necessario per eseguire il test sulle posizioni più importanti della pagina.
+  Ad esempio, un banner o un’immagine hero porterà probabilmente più conversioni di una modifica del piè di pagina. L&#39;inclusione di posizioni meno significative nel test aumenta la quantità di traffico e il tempo necessario per eseguire il test sulle posizioni più importanti della pagina.
 * Prepara anticipatamente le varianti di pagina.
 
   Assicurati di comprendere le differenze di contenuto per ogni offerta e di creare tutte le offerte immagine, testo e HTML che prevedi di utilizzare nel test MVT.
@@ -65,4 +65,4 @@ Suggerimenti per migliorare le prestazioni, evitare problemi e correggere proble
 
 * Facendo seguire un test MVT da uno o più test A/B, puoi determinare il contenuto migliore possibile per i risultati desiderati.
 
-  Una volta determinate le posizioni e il contenuto più utili per raggiungere gli obiettivi, puoi eseguire un test A/B per perfezionare ulteriormente i risultati. Ad esempio, quando sai quali posizioni sono più importanti, testa due immagini specifiche tra loro o confronta il testo o i colori di un invito all’azione.
+  Una volta determinate le posizioni e il contenuto più utili per raggiungere gli obiettivi, puoi eseguire un test A/B per perfezionare ulteriormente i risultati. Ad esempio, quando sai quali posizioni sono più importanti, testa due immagini specifiche tra loro o confronta il testo o i colori di un call to action.

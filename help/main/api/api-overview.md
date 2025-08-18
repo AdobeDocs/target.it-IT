@@ -1,6 +1,6 @@
 ---
 keywords: api;api amministratore;api recapito;api reportistica;api profilo;api profilo
-description: Trova le API Adobe [!DNL Target] , incluse le API Admin, Delivery, Reporting e Profile.
+description: Trova le API di Adobe [!DNL Target] , incluse le API di amministrazione, consegna, reporting e profilo.
 title: Dove posso trovare la documentazione di  [!DNL Target] API e SDK?
 feature: APIs/SDKs
 role: Developer
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 ---
 
-# Adobe [!DNL Target] SDK e API
+# SDK e API di Adobe [!DNL Target]
 
 Prima di iniziare a utilizzare [!DNL Adobe Target], devi implementarlo sul tuo sito.
 
@@ -23,7 +23,7 @@ Il portale per sviluppatori include informazioni sui seguenti tipi di implementa
 * Lato client, incluse informazioni sull&#39;implementazione tramite [!DNL Adobe Experience Platform Web SDK] o [!DNL Target Web SDK] (at.js).
 * Lato server, incluse informazioni sull’implementazione dell’utilizzo degli SDK Node.JS, JAVA, .NET e Python.
 * Ibrido, informazioni utili per l’implementazione se utilizzi una combinazione di implementazioni lato client e lato server.
-* Recommendations, informazioni utili per implementare [!DNL Recommendations], un&#39;offerta [Target Premium](/help/main/c-intro/intro.md#premium).
+* Consigli, informazioni per implementare [!DNL Recommendations], un&#39;offerta [Target Premium](/help/main/c-intro/intro.md#premium).
 * App mobili.
 * E-mail
 
@@ -33,4 +33,4 @@ Il portale per sviluppatori include informazioni sui seguenti tipi di implementa
 * API di reporting.
 * API per consigli.
 
-Per ulteriori informazioni, vedere [Panoramica API di Target](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/before-implement/considerations-before-you-implement-target.html?lang=it){target=_blank} nella [Guida per gli sviluppatori di Adobe Target](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=it){target=_blank}.
+Per ulteriori informazioni, consulta [Panoramica API di Target](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/before-implement/considerations-before-you-implement-target.html){target=_blank} nella [Guida per gli sviluppatori di Adobe Target](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=en){target=_blank}.

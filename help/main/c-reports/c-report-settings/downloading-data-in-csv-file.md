@@ -1,6 +1,6 @@
 ---
 keywords: rapporti;scaricare rapporti;CSV;metriche di successo;dettagli ordine
-description: Scopri come scaricare i dati dalle attività di Adobe [!DNL Target]  in formato CVS per l’importazione rapida in Excel, Access o altri programmi di analisi dei dati.
+description: Scopri come scaricare dati da attività Adobe [!DNL Target] in formato CVS per l’importazione rapida in Excel, Access o altri programmi di analisi dei dati.
 title: Come posso scaricare i dati del rapporto in un file CSV?
 feature: Reports
 exl-id: b4387184-8730-4367-8bc3-52d8fbe2583e

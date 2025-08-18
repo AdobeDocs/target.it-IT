@@ -1,8 +1,8 @@
 ---
 keywords: sequenza criteri;criteri multipli;algoritmi;criteri;criteri consigli;sequenza;numero limite di elementi restituiti;controllo a livello di slot;slot;criteria sequence;multiple criteria;algorithms;criteria;recommendations criteria;sequence;limit number of items returned;slot level control;slot level control;slot
-description: Scopri come impostare sequenze fino a cinque criteri per esercitare un maggiore controllo sugli elementi visualizzati nelle attività di Adobe [!DNL Target] Recommendations.
+description: Scopri come impostare sequenze fino a cinque criteri per esercitare un maggiore controllo sugli elementi visualizzati nelle attività Adobe [!DNL Target] Recommendations.
 title: Come si creano sequenze di criteri in Recommendations?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=it#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."
 feature: Recommendations
 exl-id: 5366c86c-7685-478b-a621-9b3f24296ab7
 source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
@@ -87,7 +87,7 @@ Nei passaggi seguenti si presuppone che si acceda alla schermata [!UICONTROL Cre
 
    Per ulteriori informazioni sulle opzioni di logica per i consigli, consulta [Criteri](/help/main/c-recommendations/c-algorithms/algorithms.md).
 
-## Video di formazione: Creare criteri in Recommendations (12:33) ![Icona esercitazione](/help/main/assets/tutorial.png)
+## Video di formazione: Crea criteri in Recommendations (12:33) ![Icona esercitazione](/help/main/assets/tutorial.png)
 
 Questo video contiene le seguenti informazioni:
 
@@ -95,4 +95,4 @@ Questo video contiene le seguenti informazioni:
 * Creare sequenze di criteri
 * Caricare criteri personalizzati
 
->[!VIDEO](https://video.tv.adobe.com/v/328806?quality=12&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/27694?quality=12)

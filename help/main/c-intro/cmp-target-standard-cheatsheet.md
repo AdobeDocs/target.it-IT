@@ -7,7 +7,7 @@ exl-id: 75e29d2a-78e7-40aa-b134-36a7cc8b3ed8
 source-git-commit: f5fa1d5c1747ed4c1e5e3d35f3c01f49f3f255c3
 workflow-type: tm+mt
 source-wordcount: '2724'
-ht-degree: 37%
+ht-degree: 50%
 
 ---
 
@@ -19,7 +19,7 @@ Risposte alle domande frequenti sull&#39;utilizzo delle funzionalità di [!DNL A
 
 **Dove posso trovare informazioni sull&#39;interfaccia utente [!DNL Target] aggiornata e su [!UICONTROL Visual Experience Composer] (Compositore esperienza visivo)?**
 
-+++Consulta i dettagli
++++Vedi i dettagli
 
 L’interfaccia utente è strutturata in un formato logico e intuitivo per trarre il massimo da [!DNL Target]. La seguente breve panoramica consente di acquisire familiarità con [!DNL Target] e il Compositore esperienza visivo e fornisce collegamenti per ottenere informazioni più approfondite e istruzioni dettagliate.
 
@@ -55,7 +55,7 @@ Connettiti con altri professionisti di [!DNL Target] nel [Forum della community 
 **Quali browser sono supportati da [!DNL Target]?**
 
 +++Vedi i dettagli
-Per ulteriori dettagli, consulta la nostra matrice [Browser supportati](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html?lang=it){target=_blank}. Si noti che esistono due aspetti: il supporto dell&#39;interfaccia [!DNL Target Standard/Premium] e il supporto del browser per l&#39;utente finale su desktop/dispositivi.
+Per maggiori dettagli, consulta la nostra griglia dei [browser supportati](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html){target=_blank}. Si noti che esistono due aspetti: il supporto dell&#39;interfaccia [!DNL Target Standard/Premium] e il supporto del browser per l&#39;utente finale su desktop/dispositivi.
 
 +++
 
@@ -64,14 +64,14 @@ Per ulteriori dettagli, consulta la nostra matrice [Browser supportati](https://
 **È possibile eseguire un&#39;attività statisticamente impegnativa per trovare un&#39;esperienza vincente e perdente mentre si utilizza un&#39;esperienza di controllo?**
 
 +++Vedi i dettagli
-Utilizza [Test A/B](/help/main/c-activities/t-test-ab/test-ab.md#task_05E33EB15C4D4459B5EAFF90A94A7977) (opzione di targeting manuale) insieme al [Calcolatore dimensioni campione](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_286EB6E671184239BB1552F0387DAEB5) per ottenere risultati ottimali.
+Utilizza [Test A/B](/help/main/c-activities/t-test-ab/test-ab.md#task_05E33EB15C4D4459B5EAFF90A94A7977) (opzione di targeting manuale) insieme al [calcolatore delle dimensioni del campione](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_286EB6E671184239BB1552F0387DAEB5) per ottenere risultati migliori.
 
 +++
 
 **Come faccio a sapere quando interrompere un&#39;attività?**
 
 +++Vedi i dettagli
-Arrestare le attività prematuramente può portare a conclusioni sbagliate. Tieni presente le [insidie comuni e come evitarle](/help/main/c-activities/t-test-ab/common-ab-testing-pitfalls.md#section_DF01A97275E44CA5859D825E0DE2F49F). Vedi anche: [Per quanto tempo si deve eseguire un test A/B](/help/main/c-activities/t-test-ab/sample-size-determination.md)?
+L’interruzione prematura delle attività può portare a conclusioni sbagliate. Tieni presente le [insidie comuni e come evitarle](/help/main/c-activities/t-test-ab/common-ab-testing-pitfalls.md#section_DF01A97275E44CA5859D825E0DE2F49F). Vedi anche: [Per quanto tempo si deve eseguire un test A/B](/help/main/c-activities/t-test-ab/sample-size-determination.md)?
 
 +++
 
@@ -101,7 +101,7 @@ Accertati inoltre di prendere in considerazione le [attività Consigli](/help/ma
 **Come faccio a scoprire quali combinazioni di elementi sulla mia pagina contribuiscono al suo successo e il livello di contribuzione di ogni elemento?**
 
 +++Vedi i dettagli
-Consulta le [attività fattoriali complete multivariate (MVT)](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md#concept_628695CDC71B449B8DCC2F5654C11499) con analisi del contributo degli elementi per vedere se soddisfa le tue esigenze.
+Consulta [Attività fattoriali complete multivariate (MVT)](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md#concept_628695CDC71B449B8DCC2F5654C11499) con analisi del contributo degli elementi per vedere se soddisfa le tue esigenze.
 
 Tieni presente che il fabbisogno di traffico aumenta con le attività MVT.
 
@@ -117,7 +117,7 @@ Prova la [funzionalità per attività multipagina](/help/main/c-experiences/c-vi
 **Come posso essere sicuro che, una volta raggiunto un obiettivo (primario o secondario), un utente non entri più nell&#39;attività e veda invece un&#39;attività diversa?**
 
 +++Vedi i dettagli
-Questo è facile da ottenere utilizzando l&#39;opzione [Impostazioni avanzate](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_E2FE441AFB324E498793ABB025ED9974) disponibile con ogni obiettivo. Sono disponibili opzioni per decidere cosa accade dopo che l&#39;utente ha raggiunto l&#39;obiettivo e come si desidera che il conteggio venga incrementato.
+Questo è possibile utilizzando l&#39;opzione [Impostazioni avanzate](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_E2FE441AFB324E498793ABB025ED9974) disponibile per ogni obiettivo. Sono disponibili opzioni per decidere cosa accade dopo che l&#39;utente ha raggiunto l&#39;obiettivo e come si desidera che il conteggio venga incrementato.
 
 Quindi, in questo caso, è possibile scegliere “Incrementa il conteggio, rilascia l&#39;utente e impedisci nuovo accesso” insieme a “Predefinito/Altri contenuti attività” per raggiungere la finalità. Consulta anche le altre opzioni.
 
@@ -133,7 +133,7 @@ Quindi, in questo caso, è possibile scegliere “Incrementa il conteggio, rilas
 **Come posso essere chiaro su come impostare un&#39;attività per raggiungere le mie finalità?**
 
 +++Vedi i dettagli
-Qui entrano in gioco [obiettivi](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC).
+Qui è dove entrano in gioco gli [obiettivi](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC).
 
 Per iniziare è importante sapere cosa si desidera ottimizzare. È [!UICONTROL Revenue], [!UICONTROL Conversion] o [!UICONTROL Engagement]? Ognuna di queste opzioni è disponibile nella sezione obiettivi. Per ogni obiettivo, è possibile definire l&#39;azione intrapresa dall&#39;utente sul tuo sito per il raggiungimento dell&#39;obiettivo.
 
@@ -167,14 +167,14 @@ Questo è possibile. È sufficiente [utilizzare l&#39;opzione [!UICONTROL Save] 
 **Come posso visualizzare in anteprima ed effettuare il QA di un&#39;attività appena creata?**
 
 +++Vedi i dettagli
-Utilizza la [potente funzione di modalità di controllo qualità](/help/main/c-activities/c-activity-qa/activity-qa.md) per eseguire il controllo qualità. Puoi condividere i collegamenti con il tuo team Controllo qualità e testare l&#39;attività end-to-end, compresi i rapporti, per essere sicuri che una volta pubblicata l’attività funzioni come previsto e come testato.
+Utilizza la nostra [potente funzione di modalità di controllo qualità](/help/main/c-activities/c-activity-qa/activity-qa.md) per eseguire le attività di QA. Puoi condividere i collegamenti con il tuo team Controllo qualità e testare l&#39;attività end-to-end, compresi i rapporti, per essere sicuri che una volta pubblicata l’attività funzioni come previsto e come testato.
 
 +++
 
 **Come posso utilizzare il potere decisionale di [!DNL Target] per ricevere un&#39;esperienza/offerta che può essere utilizzata nelle applicazioni a pagina singola (SPA) o nelle integrazioni lato server?**
 
 +++Vedi i dettagli
-Sfrutta la potenza di [attività basate su moduli](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) con [offerte JSON](/help/main/c-experiences/c-manage-content/create-json-offer.md#concept_63C7BEE1F0DB4A7596D997219B7C136D) per raggiungere l&#39;obiettivo.
+Sfrutta l’efficacia delle [attività basate su moduli](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) con [offerte JSON](/help/main/c-experiences/c-manage-content/create-json-offer.md#concept_63C7BEE1F0DB4A7596D997219B7C136D) per raggiungere l’obiettivo.
 
 +++
 
@@ -195,28 +195,28 @@ Sono disponibili due opzioni:
 **È possibile creare un segmento di un pubblico in un&#39;attività specifica dell&#39;attività? Non credo che un tale pubblico debba essere creato in [!UICONTROL Audience Library] perché non esiste un fattore di riutilizzo.**
 
 +++Vedi i dettagli
-Inizia a utilizzare la [funzionalità pubblico per sola attività](/help/main/c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483) per definire i tipi di pubblico per una specifica attività.
+Inizia utilizzando la [funzionalità “pubblico per sola attività”](/help/main/c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483) per definire i tipi di pubblico per una specifica attività.
 
 +++
 
 **Come posso indirizzare gli utenti in base alle loro posizioni?**
 
 +++Vedi i dettagli
-Prova [Pubblico geografico](/help/main/c-target/c-audiences/c-target-rules/geo.md#concept_5B4D99DE685348FB877929EE0F942670). Scopri i livelli di accuratezza di questa funzione.
+Prova la funzione di [geotargeting](/help/main/c-target/c-audiences/c-target-rules/geo.md#concept_5B4D99DE685348FB877929EE0F942670). Scopri i livelli di accuratezza di questa funzione.
 
 +++
 
 **È possibile indirizzare gli utenti sulla base di alcuni degli attributi della pagina nella sessione?**
 
 +++Vedi i dettagli
-Il modo migliore è utilizzare mbox e [tipi di pubblico personalizzati](/help/main/c-target/c-audiences/c-target-rules/custom-parameters.md#concept_C4C6E00D7C5A4BE9B72D471DB2E3027B) per fornire l&#39;esperienza giusta.
+Il modo migliore è utilizzare mbox e [tipi di pubblico personalizzati](/help/main/c-target/c-audiences/c-target-rules/custom-parameters.md#concept_C4C6E00D7C5A4BE9B72D471DB2E3027B) per fornire l’esperienza giusta.
 
 +++
 
 **Posso fornire esperienze basate sugli attributi dei visitatori in più visite? Posso dividere il traffico in modo casuale in due bucket?**
 
 +++Vedi i dettagli
-Prova la funzionalità [Script di profilo](/help/main/c-target/c-visitor-profile/profile-parameters.md#concept_8C07AEAB0A144FECA8B4FEB091AED4D2). È un modo potente per personalizzare le esperienze; anche se, richiede di scrivere codice.
+Prova la [funzione Script di profilo](/help/main/c-target/c-visitor-profile/profile-parameters.md#concept_8C07AEAB0A144FECA8B4FEB091AED4D2). È un modo potente per personalizzare le esperienze; anche se, richiede di scrivere codice.
 
 +++
 
@@ -230,10 +230,10 @@ Utilizza i controlli di allocazione della percentuale disponibili nel [passaggio
 **Ho anche [!DNL Adobe Analytics] e voglio sfruttarlo con [!DNL Target]. Quali funzionalità chiave ottengo integrando le due soluzioni?**
 
 +++ Vedi i dettagli
-Consulta i seguenti aspetti del prodotto:
+Dai un&#39;occhiata alle seguenti funzioni del prodotto:
 
 * [Analytics for Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
-* [Attributi del cliente](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html?lang=it)
+* [Attributi del cliente](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html)
 * [Tipi di pubblico](/help/main/c-integrating-target-with-mac/mmp.md)
 
 +++
@@ -243,7 +243,7 @@ Consulta i seguenti aspetti del prodotto:
 **È possibile eseguire un&#39;attività su più pagine in cui la struttura della pagina è comune?**
 
 +++Vedi i dettagli
-Consulta [Regole modello](/help/main/c-experiences/c-visual-experience-composer/temtest.md#task_2539D51A18044F82B0D9895636546781) per includere molte pagine strutturate simili all&#39;attività durante la creazione dell&#39;esperienza sul singolo URL fornito.
+Consulta [Regole modello](/help/main/c-experiences/c-visual-experience-composer/temtest.md#task_2539D51A18044F82B0D9895636546781) per includere molte pagine strutturate simili per l’attività, durante la creazione di esperienza sul singolo URL fornito.
 
 +++
 
@@ -259,14 +259,14 @@ In questo caso, seguire le istruzioni riportate in [Abilitazione dei contenuti m
 **Posso provare il [!UICONTROL Visual Experience Composer] (VEC) sul mio sito anche se la libreria at.js [!DNL Target] non è ancora stata distribuita?**
 
 +++Vedi i dettagli
-Prova a caricare la pagina con [Compositore esperienza avanzato](/help/main/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D).
+Prova a caricare la pagina con il [Compositore esperienza avanzato](/help/main/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D).
 
 +++
 
 **Perché il mio sito non viene caricato all&#39;interno di [!UICONTROL Visual Experience Composer] (VEC)?**
 
 +++Vedi i dettagli
-Prova le [informazioni sulla risoluzione dei problemi](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md#reference_77743144F10143A3A89D56E116D296E4) descritte nella nostra pagina di aiuto. Contatta il [Supporto Adobe](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) se non funziona nessuno di questi metodi.
+Prova le informazioni sulla [risoluzione dei problemi](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md#reference_77743144F10143A3A89D56E116D296E4) descritte nella nostra pagina di aiuto. Contatta il [Supporto Adobe](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) se non funziona nessuno di questi metodi.
 
 È anche disponibile un [approccio basato su modulo](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) che può essere d’aiuto.
 
@@ -277,7 +277,7 @@ Leggi inoltre le informazioni su quando e perché il [Compositore esperienza ava
 **Ho un sito reattivo. Durante la creazione di un&#39;attività, come posso essere sicuro che sto prendendo in considerazione i dispositivi chiave?**
 
 +++Vedi i dettagli
-Prova la funzione [Riquadri di visualizzazione per dispositivi mobili](/help/main/c-experiences/c-visual-experience-composer/mobile-viewports.md#concept_8E45527C4ABC41D59AA3553BEDC76FA5). Si noti che funziona solo quando [!UICONTROL Enhanced Experience Composer] è abilitato.
+Prova la funzione dei [riquadri di visualizzazione per dispositivi mobili](/help/main/c-experiences/c-visual-experience-composer/mobile-viewports.md#concept_8E45527C4ABC41D59AA3553BEDC76FA5). Si noti che funziona solo quando [!UICONTROL Enhanced Experience Composer] è abilitato.
 
 +++
 
@@ -291,21 +291,21 @@ Prova la funzione [Riquadri di visualizzazione per dispositivi mobili](/help/mai
 **Perché non vedo un&#39;opzione per scambiare le immagini?**
 
 +++Vedi i dettagli
-Rivolgiti ad Adobe per [assicurati che il tuo account sia configurato per Scene7](/help/main/administrating-target/scene7-settings.md#task_37AD0768EFBA4E588955FE3D5DD670A5). Una volta impostato, sarai in grado di scambiare un&#39;immagine con un&#39;altra immagine in tutta facilità.
+Rivolgiti ad Adobe per [assicurarti di avere l’account configurato per Scene7](/help/main/administrating-target/scene7-settings.md#task_37AD0768EFBA4E588955FE3D5DD670A5). Una volta impostato, sarai in grado di scambiare un&#39;immagine con un&#39;altra immagine in tutta facilità.
 
 +++
 
 **Voglio testare due esperienze diverse, per esempio sconto forfettario e sconto percentuale, ma voglio indirizzare le esperienze correttamente (mostrare diverso testo in una specifica lingua o con una specifica valuta alle persone provenienti da vari paesi). Come posso fare?**
 
 +++Vedi i dettagli
-Puoi farlo semplicemente con la funzionalità [Più versioni di esperienza](/help/main/c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences.md#task_0138112E283A4A5B9F8AB9AAF2FBC2FF). In questi test, noterai le sfumature relative alla consegna.
+Puoi farlo semplicemente con la [funzionalità Più versioni di esperienza](/help/main/c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences.md#task_0138112E283A4A5B9F8AB9AAF2FBC2FF). In questi test, noterai le sfumature relative alla consegna.
 
 +++
 
 **Come posso vedere quali modifiche ho apportato in [!UICONTROL Visual Experience Composer] (VEC)?**
 
 +++Vedi i dettagli
-Le modifiche sono sempre visibili nell&#39;[Editor di codice](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md#concept_B3A6E9EE3A60406DB640E205EA1745B5). La scheda [!UICONTROL Modifications] mostra il selettore CSS o la mbox applicata all&#39;offerta.
+Le modifiche sono sempre visibili nell’[Editor di codice](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md#concept_B3A6E9EE3A60406DB640E205EA1745B5). La scheda [!UICONTROL Modifications] mostra il selettore CSS o la mbox applicata all&#39;offerta.
 
 Il selettore CSS è un selettore sizzle. È possibile utilizzare questa sezione per apportare piccole modifiche o eliminare rapidamente alcune offerte.
 
@@ -314,7 +314,7 @@ Il selettore CSS è un selettore sizzle. È possibile utilizzare questa sezione 
 **Voglio consegnare JavaScript come parte dell&#39;esperimento/attività per apportare modifiche rapide ad alcuni elementi dinamici o semplicemente per inviare una chiamata a una soluzione di terze parti. Come posso fare?**
 
 +++Vedi i dettagli
-Uno dei modi consiste nell&#39;utilizzare l&#39;[Editor di codice personalizzato](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md#concept_B3A6E9EE3A60406DB640E205EA1745B5). Devi semplicemente inserire il tuo JavaScript nella sezione e questo verrà consegnato. Hai la possibilità di consegnarlo nella sezione head nella parte superiore della sezione body, a seconda delle tue esigenze.
+Un metodo consiste nell’usare l’[Editor di codice personalizzato](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md#concept_B3A6E9EE3A60406DB640E205EA1745B5). Devi semplicemente inserire il tuo JavaScript nella sezione e questo verrà consegnato. Hai la possibilità di consegnarlo nella sezione head nella parte superiore della sezione body, a seconda delle tue esigenze.
 
 +++
 
@@ -330,7 +330,7 @@ Utilizza le funzionalità [!UICONTROL Compose] e [!UICONTROL Browse] per passare
 **Sono un ex utente [!DNL Target Classic]. Posso sfruttare le mie mbox per alcuni casi di utilizzo?**
 
 +++Vedi i dettagli
-Utilizza l&#39;approccio basato su [moduli](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) per creare attività.
+Utilizza l’[approccio basato su moduli](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) per creare attività.
 
 +++
 
@@ -347,14 +347,14 @@ Utilizza il nostro [debugger](/help/main/c-activities/c-troubleshooting-activiti
 
 
 +++Vedi i dettagli
-È disponibile [la funzionalità URL di reindirizzamento](/help/main/c-experiences/c-manage-content/offer-redirect.md#task_33C80CD722564303B687948261484F94) che consente di reindirizzare gli utenti alla pagina scelta (con o senza i parametri di query correnti).
+È disponibile [la funzione URL di reindirizzamento](/help/main/c-experiences/c-manage-content/offer-redirect.md#task_33C80CD722564303B687948261484F94) che consente di reindirizzare gli utenti alla pagina scelta (con o senza i parametri di query correnti).
 
 +++
 
 **Perché la consegna dei contenuti non avviene nel mio processo QA?**
 
 +++Vedi i dettagli
-È possibile che nel sito siano presenti ID dinamici, ID duplicati o classi dinamiche di elementi. Potrebbe essere necessario valutare le opzioni di preferenza del sito a livello di account (o a livello di attività se il problema è specifico a un dominio o a una pagina). Consulta [Selettori CSS](/help/main/administrating-target/visual-experience-composer-set-up.md#css).
+È possibile che il sito abbia ID dinamici, ID duplicati o classi dinamiche sugli elementi. Potrebbe essere necessario valutare le opzioni di preferenza del sito a livello di account (o a livello di attività se il problema è specifico a un dominio o a una pagina). Consulta [Selettori CSS](/help/main/administrating-target/visual-experience-composer-set-up.md#css).
 
 +++
 
@@ -368,7 +368,7 @@ Utilizza il nostro [debugger](/help/main/c-activities/c-troubleshooting-activiti
 **Posso utilizzare il potere decisionale di [!UICONTROL Target] per ricevere un&#39;esperienza/offerta che può essere utilizzata nelle applicazioni a pagina singola (SPA) o nelle integrazioni lato server?**
 
 +++Vedi i dettagli
-Sfrutta la potenza di [attività basate su moduli](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) con [offerte JSON](/help/main/c-experiences/c-manage-content/create-json-offer.md#concept_63C7BEE1F0DB4A7596D997219B7C136D) per raggiungere l&#39;obiettivo.
+Sfrutta l’efficacia delle [attività basate su moduli](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) con [offerte JSON](/help/main/c-experiences/c-manage-content/create-json-offer.md#concept_63C7BEE1F0DB4A7596D997219B7C136D) per raggiungere l’obiettivo.
 
 +++
 
@@ -377,10 +377,10 @@ Sfrutta la potenza di [attività basate su moduli](/help/main/c-experiences/form
 **Ho anche [!DNL Adobe Analytics] e voglio sfruttarlo con [!DNL Target]. Quali funzionalità chiave ottengo integrando le due soluzioni?**
 
 +++Vedi i dettagli
-Consulta i seguenti aspetti del prodotto:
+Dai un&#39;occhiata alle seguenti funzioni del prodotto:
 
 * [Analytics for Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
-* [Attributi del cliente](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html?lang=it)
+* [Attributi del cliente](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html)
 * [Tipi di pubblico](/help/main/c-integrating-target-with-mac/mmp.md)
 
 +++
@@ -429,7 +429,7 @@ Il team [!DNL Target] ha tentato di rendere i rapporti il più intuitivi possibi
 **È possibile eseguire un&#39;integrazione con un sistema di terze parti, ad esempio [!DNL Google Analytics] o [!DNL ClickTal]e, per passare le informazioni sull&#39;attività consegnate a un utente finale per l&#39;analisi?**
 
 +++Vedi i dettagli
-Abbiamo una soluzione anche per questo con la funzionalità [Token di risposta](/help/main/administrating-target/response-tokens.md#concept_2B21B222F6A344D68CA5929817E836C4).
+Abbiamo una soluzione anche per questo grazie alla [funzionalità Token di risposta](/help/main/administrating-target/response-tokens.md#concept_2B21B222F6A344D68CA5929817E836C4).
 
 +++
 

@@ -15,9 +15,9 @@ ht-degree: 0%
 
 L&#39;integrazione di [!DNL Target]/[!DNL Audience Manager] consente di inviare [!DNL Audience Manager] segmenti a [!DNL Target].
 
-Per ulteriori informazioni, vedere [Integrare [!DNL Audience Manager] con [!DNL Target]](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/aam-target-integration.html?lang=it) nella Guida utente di *[!DNL Audience Manager]*.
+Per ulteriori informazioni, vedere [Integrare [!DNL Audience Manager] con [!DNL Target]](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/aam-target-integration.html) nella Guida utente di *[!DNL Audience Manager]*.
 
 ## Video: Integrare [!DNL Target] con [!DNL Adobe Audience Manager] (3:06)
 
->[!VIDEO](https://video.tv.adobe.com/v/3421744?captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/35151)
 

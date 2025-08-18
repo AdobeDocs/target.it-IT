@@ -8,7 +8,7 @@ exl-id: d0c1e914-3172-466d-9721-fe0690abd30b
 source-git-commit: 12831d6584acc482db415629d7e70a18e39c47c2
 workflow-type: tm+mt
 source-wordcount: '1622'
-ht-degree: 22%
+ht-degree: 24%
 
 ---
 
@@ -28,8 +28,8 @@ Una differenza chiave tra plug-in e token di risposta è che i plug-in forniscon
 
 | SDK di destinazione | Azioni suggerite |
 |--- |--- |
-| [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=it){target=_blank} | Assicurati di utilizzare Platform Web SDK versione 2.6.0 o successiva. Per informazioni sul download della versione più recente di Platform Web SDK, vedere [Installare SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=it){target=_blank} nella *Panoramica di Platform Web SDK*. Per informazioni sulle nuove funzionalità in ogni versione di Platform Web SDK, consulta le [note sulla versione](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=it) nella *panoramica di Platform Web SDK*. |
-| [at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html?lang=it){target=_blank} | Assicurati di utilizzare at.js nella versione 1.1 o successiva. Per informazioni sul download della versione più recente di at.js, consulta [Scarica at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-without-a-tag-manager.html?lang=it){target=_blank}. Per informazioni sulle nuove funzionalità in ogni versione di at.js, consulta [Dettagli sulla versione di at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=it){target=_blank}.<br>I clienti che utilizzano at.js sono incoraggiati a utilizzare i token di risposta e ad abbandonare i plug-in. Alcuni plug-in che si basano su metodi interni esistenti in mbox.js (ora obsoleto), ma non in at.js, vengono consegnati ma non hanno esito positivo. |
+| [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=it){target=_blank} | Assicurati di utilizzare Platform Web SDK versione 2.6.0 o successiva. Per informazioni sul download della versione più recente di Platform Web SDK, vedere [Installare SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html){target=_blank} nella *Panoramica di Platform Web SDK*. Per informazioni sulle nuove funzionalità in ogni versione di Platform Web SDK, consulta le [note sulla versione](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=it) nella *panoramica di Platform Web SDK*. |
+| [at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html){target=_blank} | Assicurati di utilizzare at.js nella versione 1.1 o successiva. Per informazioni su come scaricare l’ultima versione di at.js, consulta [Scaricare at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-without-a-tag-manager.html?lang=en){target=_blank}. Per informazioni sulle nuove funzionalità in ogni versione di at.js, vedi [Dettagli sulla versione di at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=it){target=_blank}.<br>I clienti che utilizzano at.js sono incoraggiati a utilizzare i token di risposta e ad abbandonare i plug-in. Alcuni plug-in che si basano su metodi interni esistenti in mbox.js (ora obsoleto), ma non in at.js, vengono consegnati ma non hanno esito positivo. |
 
 ## Utilizzo dei token di risposta {#section_A9E141DDCBA84308926E68D05FD2AC62}
 
@@ -37,8 +37,8 @@ Una differenza chiave tra plug-in e token di risposta è che i plug-in forniscon
 
    Per ulteriori informazioni:
 
-   * **Platform Web SDK**: vedere [Installare SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=it) nella *Panoramica di Platform Web SDK*.
-   * **at.js**: vedi [Scarica at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-without-a-tag-manager.html?lang=it){target=_blank}.
+   * **Platform Web SDK**: vedere [Installare SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html) nella *Panoramica di Platform Web SDK*.
+   * **at.js**: vedi [Scarica at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-without-a-tag-manager.html){target=_blank}.
 
 1. In [!DNL Target], fare clic su **[!UICONTROL Administration]** > **[!UICONTROL Response Tokens]**.
 
@@ -147,7 +147,7 @@ Nell&#39;esempio di risposta seguente viene aggiunto un gestore eventi personali
 
 ### ![Badge at.js](/help/main/assets/atjs.png) at.js utilizzando eventi personalizzati
 
-Utilizza [eventi personalizzati at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/atjs-custom-events.html?lang=it){target=_blank} per ascoltare la risposta [!DNL Target] e leggere i token di risposta.
+Utilizza [eventi personalizzati at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/atjs-custom-events.html?lang=en){target=_blank} per ascoltare la risposta [!DNL Target] e leggere i token di risposta.
 
 Il codice di esempio seguente aggiunge un gestore di eventi personalizzati di [!DNL at.js] direttamente alla pagina HTML:
 
@@ -426,4 +426,4 @@ Nel video seguente viene illustrato come utilizzare i token di risposta e gli ev
 >
 >Nel video vengono menzionati `option.name` e `option.id`, che sono stati sostituiti rispettivamente con `offer.name` e `offer.id`.
 
->[!VIDEO](https://video.tv.adobe.com/v/326685?captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/23253/)
