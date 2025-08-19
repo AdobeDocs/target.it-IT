@@ -4,10 +4,10 @@ description: Scopri le nuove funzioni, i miglioramenti e le correzioni, compresi
 title: Quali nuove funzioni e miglioramenti saranno inclusi nella prossima versione [!DNL Target] ?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 8f7cdf94438763679273b3631e45b1b41899cda5
+source-git-commit: 3b80ca92a445bbdab6202a28c03130d24920dfd0
 workflow-type: tm+mt
-source-wordcount: '646'
-ht-degree: 21%
+source-wordcount: '893'
+ht-degree: 16%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 21%
 
 Questo articolo contiene informazioni prerelease per le prossime versioni di [!DNL Adobe Target], incluse SDK, API e librerie JavaScript.
 
-**Ultimo aggiornamento: 18 agosto 2025**
+**Ultimo aggiornamento: 19 agosto 2025**
 
 >[!NOTE]
 >
@@ -29,20 +29,30 @@ Questo articolo contiene informazioni prerelease per le prossime versioni di [!D
 
 Questa versione include i seguenti aggiornamenti e correzioni:
 
+**Decisioni di offerta**
+
++++Vedi i dettagli
+* **È stato risolto un problema che impediva ai clienti di modificare le offerte decisionali e di selezionare elementi di pagina specifici nell&#39;interfaccia utente aggiornata**: Nel processo di creazione attività aggiornato, i clienti non potevano modificare le offerte decisionali esistenti o selezionare elementi di pagina specifici nel Compositore esperienza visivo. Le offerte relative alle decisioni non venivano visualizzate correttamente come offerte HTML e le modifiche apportate durante la modifica non venivano salvate. Inoltre, alcuni URL regionali, come il sito Giappone, non venivano caricati correttamente nel Compositore esperienza visivo, bloccando la creazione e gli aggiornamenti dell’attività. (TGT-53425)
+* **È stato risolto un problema che impediva la modifica e la modifica imprevista di [!UICONTROL Offer Decision] selettori dopo il salvataggio**: nel processo di creazione attività aggiornato, i clienti non potevano modificare il selettore [!UICONTROL Offer Decision] come previsto. Tentativi di modifica del selettore non riusciti e il selettore è tornato a un valore errato dopo il salvataggio. Questo causava la scomparsa dell’offerta di decisione dal Compositore esperienza visivo, bloccando ulteriori modifiche. (TGT-53433)
+* **È stato risolto un problema che causava la scomparsa di [!UICONTROL Offer Decisions] dall&#39;attività dopo il salvataggio**: [!UICONTROL Offer Decisions] aggiunti durante il processo di creazione attività non venivano mantenuti dopo il salvataggio e la riapertura dell&#39;attività. Questo problema si verificava durante la modifica del contenuto dinamico e l&#39;inserimento di [!UICONTROL Offer Decisions] con selettori e proprietà specifici. (TGT-53434)
+
++++
+
 **Raccomandazioni**
 
 +++Vedi i dettagli
 * **È stato risolto un problema nell&#39;interfaccia utente di Recs a causa del quale il download del file CSV dei criteri personalizzati restituiva l&#39;errore 404**: è stato risolto un problema che impediva ai clienti di scaricare il file CSV dei criteri personalizzati nel processo di creazione delle attività. (TGT-51966)
-* **È stato corretto il caricamento incoerente delle immagini in[!UICONTROL Catalog Search]**: è stato risolto un problema che impediva il caricamento coerente delle miniature e delle immagini in [!UICONTROL &#x200B; Catalog Search] nel processo di creazione attività. Le immagini non venivano visualizzate a meno che la colonna &quot;URL miniatura&quot; non fosse visibile e alcune immagini di prodotto venivano caricate parzialmente o non completamente dopo le azioni di navigazione o ricerca. (TGT-52778)
+* **È stato corretto il caricamento incoerente delle immagini in[!UICONTROL Catalog Search]**: è stato risolto un problema che impediva il caricamento coerente delle miniature e delle immagini in [!UICONTROL  Catalog Search] nel processo di creazione attività. Le immagini non venivano visualizzate a meno che la colonna &quot;URL miniatura&quot; non fosse visibile e alcune immagini di prodotto venivano caricate parzialmente o non completamente dopo le azioni di navigazione o ricerca. (TGT-52778)
 * **È stato risolto un problema a causa del quale la modifica di un consiglio in un&#39;esperienza duplicata influiva sull&#39;esperienza originale**: i clienti segnalavano che la modifica di un consiglio in un&#39;esperienza duplicata alterava involontariamente l&#39;esperienza originale. In particolare, dopo aver duplicato l’esperienza B nel processo di creazione delle attività e averne modificato la progettazione o i criteri, le stesse modifiche sono state applicate all’esperienza B originale, nonostante fossero entità separate. (TGT-53369)
 * **È stato risolto un problema a causa del quale le modifiche apportate a un&#39;esperienza duplicata influivano involontariamente sull&#39;esperienza originale in un&#39;attività:** I clienti hanno segnalato che durante la duplicazione di un&#39;esperienza all&#39;interno di un&#39;attività e l&#39;assegnazione di un nuovo pubblico, qualsiasi modifica apportata alla progettazione o ai criteri dell&#39;esperienza duplicata si rifletteva anche nell&#39;esperienza originale. Ciò si verificava anche se non venivano apportate modifiche direttamente alla versione originale, con un conseguente impatto sulla possibilità di creare varianti indipendenti all’interno della stessa attività. (TGT-53361)
 * **È stato risolto un problema che impediva in modo intermittente a [!UICONTROL Recommendation Catalog] di visualizzare i dati completi degli attributi del prodotto**: nell&#39;interfaccia utente [!DNL Recommendations] aggiornata, si è verificato un problema a causa del quale alcuni attributi del prodotto, ad esempio il messaggio, non venivano visualizzati in modo coerente nei risultati della ricerca nel catalogo, anche se i dati erano presenti nel feed. Questo problema richiedeva ai clienti di riconfigurare manualmente la visibilità delle colonne per recuperare i valori mancanti. (TGT-52769)
 +++
 
-**[!UICONTROL Visual Experience Composer] (VEC)**
+**[!UICONTROL Visual Experience Composer](VEC)**
 
 +++Vedi i dettagli
 * **È stato risolto un problema nel processo di creazione attività che bloccava la progressione al passaggio [!UICONTROL Targeting] nelle attività di Personalizzazione automatizzata**: è stato risolto un problema nel processo di creazione attività a causa del quale i clienti non potevano procedere al passaggio [!UICONTROL Targeting] nelle attività [!UICONTROL Automated Personalization] (Personalizzazione automatizzata) a meno che non fossero state aggiunte due posizioni. Questo comportamento era diverso dall’esperienza precedente, in cui era sufficiente una singola posizione con più offerte. Il requisito è stato corretto, consentendo ai clienti di continuare a utilizzare le impostazioni per una singola posizione come parte dei flussi di lavoro di Personalizzazione automatizzata. (TGT-53426)
+* **È stato risolto un problema che impediva al nuovo processo di creazione attività di impostare il parametro fmt=png-alpha per le immagini trasparenti**: nell&#39;interfaccia utente aggiornata, le immagini inserite durante il processo di creazione attività non includevano più il parametro `fmt=png-alpha` per impostazione predefinita, con conseguente perdita di trasparenza. Questo comportamento era diverso dalla precedente interfaccia utente, che aggiungeva automaticamente il parametro agli URL delle immagini, mantenendo gli sfondi trasparenti. (TGT-52615)
 
 +++
 
