@@ -1,21 +1,21 @@
 ---
 keywords: Experience Cloud Audiences;pubblico
-description: Scopri come Adobe Experience Cloud Audiences consente alle soluzioni Experience Cloud di comunicare e condividere informazioni sui visitatori del sito web con altre soluzioni Adobe.
+description: Scopri come Adobe Experience Cloud Audiences consente alle applicazioni Experience Cloud di comunicare e condividere informazioni sui visitatori del sito web con altre applicazioni Adobe.
 title: Come si utilizzano i tipi di pubblico di Adobe Experience Cloud in Target?
 feature: Integrations
 exl-id: 4502e77d-1310-41f3-8d14-ba69692df1af
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 7f5f6d7b3804749fce8819697f17cbad74409741
 workflow-type: tm+mt
-source-wordcount: '110'
+source-wordcount: '111'
 ht-degree: 7%
 
 ---
 
 # Experience Cloud Audiences
 
-[!DNL Adobe Experience Cloud Audiences] consente alle soluzioni [!DNL Adobe Experience Cloud] di comunicare e condividere informazioni sui visitatori del sito Web in modo che gli stessi dati possano essere utilizzati da ogni soluzione.
+[!DNL Adobe Experience Cloud audiences] consente alle applicazioni [!DNL Experience Cloud] di comunicare e condividere informazioni sui visitatori del sito Web, in modo che gli stessi dati possano essere utilizzati da ogni applicazione.
 
-Per informazioni dettagliate, consulta [Tipi di pubblico](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=it) nella *Guida utente dei servizi di base*.
+Scopri i tipi di pubblico di [Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=it) (Libreria tipi di pubblico) nella *Guida all&#39;amministrazione e all&#39;interfaccia di Experience Cloud*.
 
 ## Video: Integrare [!DNL Target] con [!DNL Experience Cloud Audiences] (10:48)
 
@@ -26,4 +26,4 @@ Questo video spiega come:
 * Esplora il pannello di amministrazione [!DNL Adobe Experience Cloud] (AEC)
 * Elencare i requisiti per l&#39;ID [!DNL Experience Cloud] (ECID)
 
->[!VIDEO](https://video.tv.adobe.com/v/3421750?captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/35152)
