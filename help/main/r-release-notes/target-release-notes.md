@@ -4,10 +4,10 @@ description: Scopri le nuove funzioni, i miglioramenti e le correzioni, compresi
 title: Quali nuove funzioni e miglioramenti saranno inclusi nella prossima versione [!DNL Target] ?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: b178785b1936cff2b55c85e41fc44f230243f849
+source-git-commit: 45ccd33be239b95d19fc611caea9482f89b02066
 workflow-type: tm+mt
-source-wordcount: '186'
-ht-degree: 66%
+source-wordcount: '231'
+ht-degree: 55%
 
 ---
 
@@ -25,9 +25,16 @@ Questo articolo contiene informazioni prerelease per le prossime versioni di [!D
 >
 >* I codici tra parentesi sono per uso interno di [!DNL Adobe].
 
-## [!DNL Target Standard/Premium] 25.8.3 (21 agosto 2025)
+## [!DNL Target Standard/Premium] 25.8.4 (28 agosto 2025)
 
-Questa versione è ora live. Consulta [[!DNL Target] note sulla versione (corrente)](/help/main/r-release-notes/release-notes.md) per ulteriori dettagli.
+Questa versione include i seguenti aggiornamenti e correzioni:
+
+**Compositore esperienza visivo**
+
++++Vedi i dettagli
+* **È stato risolto un problema che impediva la persistenza della ridenominazione di una posizione in un&#39;attività [!UICONTROL Automated Personalization] (AP) o [!UICONTROL Multivariate Test] (MVT) dopo essere passati al passaggio [!UICONTROL Targeting] e aver restituito.** I clienti ora possono modificare e salvare correttamente i nomi delle posizioni e le modifiche rimangono visibili durante il processo di creazione attività. (TGT-52367)
+
++++
 
 ## Note aggiuntive e dettagli sulla versione
 
