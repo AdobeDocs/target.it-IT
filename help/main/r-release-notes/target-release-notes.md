@@ -4,10 +4,10 @@ description: Scopri le nuove funzioni, i miglioramenti e le correzioni, compresi
 title: Quali nuove funzioni e miglioramenti saranno inclusi nella prossima versione [!DNL Target] ?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 45ccd33be239b95d19fc611caea9482f89b02066
+source-git-commit: 65bc050a189b65af57b1258afeff497a0dafcfb5
 workflow-type: tm+mt
-source-wordcount: '231'
-ht-degree: 55%
+source-wordcount: '282'
+ht-degree: 44%
 
 ---
 
@@ -29,7 +29,14 @@ Questo articolo contiene informazioni prerelease per le prossime versioni di [!D
 
 Questa versione include i seguenti aggiornamenti e correzioni:
 
-**Compositore esperienza visivo**
+**[!DNL Recommendations]**
+
++++Vedi i dettagli
+**L&#39;interfaccia utente è stata aggiornata in modo che il filtro di ricerca avanzato in [!UICONTROL Product Catalog Search] non distingua tra maiuscole e minuscole**: l&#39;interfaccia utente [!UICONTROL Advanced Search] nella pagina [!UICONTROL Product Catalog Search] ha eseguito in precedenza la corrispondenza esatta tra maiuscole e minuscole sui valori restituiti, anche se sia la query di back-end che la query GraphQL non distinguevano tra maiuscole e minuscole. Questa incoerenza ha causato confusione e ridotto l’accuratezza della ricerca. Il filtro [!UICONTROL Advanced Search] non distingue tra maiuscole e minuscole, in quanto si allinea al comportamento del back-end e migliora l&#39;usabilità.
+
++++
+
+**[!UICONTROL Visual Experience Composer (VEC)]**
 
 +++Vedi i dettagli
 * **È stato risolto un problema che impediva la persistenza della ridenominazione di una posizione in un&#39;attività [!UICONTROL Automated Personalization] (AP) o [!UICONTROL Multivariate Test] (MVT) dopo essere passati al passaggio [!UICONTROL Targeting] e aver restituito.** I clienti ora possono modificare e salvare correttamente i nomi delle posizioni e le modifiche rimangono visibili durante il processo di creazione attività. (TGT-52367)
