@@ -25,7 +25,7 @@ Puoi specificare se utilizzare l’ID o la classe degli elementi nelle preferenz
 
 >[!NOTE]
 >
->Le classi di elementi sono disponibili come selettori nelle attività [!UICONTROL A/B Test], [!UICONTROL Automated Personalization] e [!UICONTROL  Multivariate Test].
+>Le classi di elementi sono disponibili come selettori nelle attività [!UICONTROL A/B Test], [!UICONTROL Automated Personalization] e [!UICONTROL &#x200B; Multivariate Test].
 
 Per informazioni su quando utilizzare selettori CSS e quando utilizzare ID univoci, consulta [Best practice e limitazioni del Compositore esperienza visivo](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#concept_E284B3F704C04406B174D9050A2528A6).
 
