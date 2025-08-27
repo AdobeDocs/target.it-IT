@@ -4,10 +4,10 @@ description: Un selettore di elementi è un’espressione CSS che può identific
 title: Posso utilizzare i selettori di elementi nel Compositore esperienza visivo?
 feature: Visual Experience Composer (VEC)
 exl-id: f4ddb30a-f599-4fe5-861c-2deeeb9a70dd
-source-git-commit: 52f11998149cddeb4245a0f07280562d79332a04
+source-git-commit: 51e484d54f4d318ea59fdfdb16d1ed7014abdfdb
 workflow-type: tm+mt
-source-wordcount: '390'
-ht-degree: 85%
+source-wordcount: '427'
+ht-degree: 31%
 
 ---
 
@@ -15,23 +15,25 @@ ht-degree: 85%
 
 Un selettore di elementi è un’espressione CSS che può identificare uno o più elementi.
 
-Puoi trovare informazioni di base sui selettori CSS nel documento sui [selettori](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started/Selectors) in Mozilla Developer Network (MDN).
+Puoi trovare informazioni di base sui selettori CSS nel documento [Selettori](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started/Selectors) in *[!DNL Mozilla Developer Network]* (MDN).
 
 Puoi specificare se utilizzare l’ID o la classe degli elementi nelle preferenze dell’account. Fai clic su **[!UICONTROL Administration > Visual Experience Composer]**, quindi scegli i selettori CSS preferiti.
 
-![immagine css_selectors](assets/css_selectors.png)
+* **Usa ID elemento**: disabilita se lo stesso ID viene utilizzato per più elementi, altrimenti gli ID elemento potrebbero cambiare al caricamento della pagina.
+* **Usa classi elemento**: disabilita se le classi elemento in una pagina potrebbero cambiare.
+* **Usa selettori preferiti**: abilita se desideri utilizzare selettori univoci nel Compositore esperienza visivo per identificare aree chiave del sito Web.
 
 >[!NOTE]
 >
->Le classi di elementi sono disponibili come selettori nelle attività per test A/B, Personalizzazione automatizzata e test multivariati.
+>Le classi di elementi sono disponibili come selettori nelle attività [!UICONTROL A/B Test], [!UICONTROL Automated Personalization] e [!UICONTROL  Multivariate Test].
 
 Per informazioni su quando utilizzare selettori CSS e quando utilizzare ID univoci, consulta [Best practice e limitazioni del Compositore esperienza visivo](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#concept_E284B3F704C04406B174D9050A2528A6).
 
-## Come Adobe [!DNL Target] genera un selettore per un elemento {#section_D89D954BCBFB486CA081BE183776A475}
+## Come [!DNL Target] genera un selettore per un elemento {#section_D89D954BCBFB486CA081BE183776A475}
 
-Target utilizza un semplice algoritmo per creare un selettore. Ecco una brevissima spiegazione della logica di generazione:
+[!DNL Target] utilizza un algoritmo semplice per creare un selettore. Ecco una breve spiegazione della logica di generazione:
 
-1. Se un elemento ha un ID, ad esempio `id="container"`, allora il selettore per l’elemento è `#container`.
+1. Se un elemento ha un ID, ad esempio `id="container"`, il selettore per l&#39;elemento è `#container`.
 
    Ad esempio:
 
@@ -48,9 +50,9 @@ Target utilizza un semplice algoritmo per creare un selettore. Ecco una brevissi
    </div>
    ```
 
-1. Se un elemento contiene un attributo di classe, Target tenta di sfruttare la prima classe di qualsiasi classe presente nell’elemento.
+1. Se un elemento contiene un attributo di classe, [!DNL Target] tenta di sfruttare la prima classe di qualsiasi classe presente nell&#39;elemento.
 
-   Target tenta di analizzare l’elemento padre fino a quando non trova l’elemento `<HTML>` o un elemento con un ID. Ogni volta che un elemento contiene un ID e il selettore viene calcolato sul suo discendente, l’ID di questo elemento contribuisce al selettore.
+   [!DNL Target] tenta di analizzare l&#39;elemento padre finché non trova l&#39;elemento `<HTML>` o un elemento con un ID. Ogni volta che un elemento contiene un ID e il selettore viene calcolato sul relativo figlio discendente, l’ID di questo elemento contribuisce al selettore.
 
    Ad esempio:
 
@@ -73,7 +75,7 @@ Target utilizza un semplice algoritmo per creare un selettore. Ecco una brevissi
 
    `eq` comunica all’indice che c’è un elemento con &quot;tagName=UL&quot; e che la prima classe è `navigation`. Pertanto, l’`index` è 0. Per ulteriori informazioni, leggi l’articolo sui [selettori](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started/Selectors) in MDN.
 
-1. Se un elemento non contiene una classe, Target utilizza `tagName` per l’elemento ed analizza l’elemento padre fino a quando non viene trovato l’elemento `<HTML>` o un elemento con un ID.
+1. Se un elemento non contiene una classe, [!DNL Target] utilizza `tagName` per l&#39;elemento ed analizza l&#39;elemento padre finché non viene trovato l&#39;elemento `<HTML>` o un elemento con un ID.
 
    Ad esempio:
 
@@ -95,5 +97,5 @@ Target utilizza un semplice algoritmo per creare un selettore. Ecco una brevissi
 Nel processo sopra indicato:
 
 * È possibile utilizzare qualsiasi selettore CSS purché identifichi in modo univoco un elemento nel DOM.
-* L’approccio sopra indicato è quello utilizzato da Target. Target non impone di utilizzare questo approccio. È possibile aggiungere qualsiasi selettore purché il punto #1 sia rispettato.
-* È possibile utilizzare qualsiasi attributo nel selettore. Questo documento utilizza solo il nome della classe come esempio.
+* L&#39;approccio sopra riportato è quello utilizzato da [!DNL Target]. [!DNL Target] non richiede l&#39;utilizzo di questo approccio. È possibile aggiungere qualsiasi selettore purché il punto #1 sia rispettato.
+* È possibile utilizzare qualsiasi attributo nel selettore. Questo documento utilizza solo un nome di classe come esempio.
