@@ -54,7 +54,7 @@ Questa versione include i seguenti aggiornamenti e correzioni:
 * **Il cambio di pubblico nella pagina Rapporti ha causato errori nell&#39;interfaccia utente di Target**: i clienti hanno riscontrato errori durante la selezione di alcuni tipi di pubblico nella sezione Reports dell&#39;interfaccia utente di Target aggiornata. Questo problema era causato da una gestione non valida del pubblico nelle chiamate GraphQL back-end, che causava errori imprevisti e dati mancanti. Il problema è stato risolto e i tipi di pubblico desktop ora vengono caricati senza errori, anche quando non sono disponibili dati. (TGT-53370)
 +++
 
-**[!UICONTROL Visual Experience Composer](VEC)**
+**[!UICONTROL Visual Experience Composer] (VEC)**
 
 +++Vedi i dettagli
 * **Impossibile fare clic su &quot;Accetta cookie&quot; con il Compositore esperienza avanzato [!UICONTROL Enhanced Experience Composer] a causa di una funzione mancante**: i clienti hanno segnalato che il tentativo di accettare i cookie tramite il Compositore esperienza avanzato ha restituito un errore della console: `handleclickAcceptAllButton is not defined`. La funzionalità di accettazione dei cookie ora funziona come previsto, garantendo un’esperienza più fluida durante la creazione dell’attività nell’interfaccia utente aggiornata. (TGT-52794)
