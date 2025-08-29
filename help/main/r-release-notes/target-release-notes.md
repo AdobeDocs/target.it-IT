@@ -4,10 +4,10 @@ description: Scopri le nuove funzioni, i miglioramenti e le correzioni, compresi
 title: Quali nuove funzioni e miglioramenti saranno inclusi nella prossima versione [!DNL Target] ?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: cc0bf794e366f304b52db309d4e3a66292d7ea32
+source-git-commit: fda279c909e2bb35e919d1bb4f4b611401a367cf
 workflow-type: tm+mt
-source-wordcount: '673'
-ht-degree: 20%
+source-wordcount: '855'
+ht-degree: 17%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 20%
 
 Questo articolo contiene informazioni prerelease per le prossime versioni di [!DNL Adobe Target], incluse SDK, API e librerie JavaScript.
 
-**Ultimo aggiornamento: 27 agosto 2025**
+**Ultimo aggiornamento: 29 agosto 2025**
 
 >[!NOTE]
 >
@@ -34,6 +34,7 @@ Questa versione include i seguenti aggiornamenti e correzioni:
 +++Vedi i dettagli
 * **I clienti non potevano copiare i nomi di attività o documenti da[!UICONTROL Activity Overview]**: in precedenza, i clienti non potevano copiare il nome di un&#39;attività o l&#39;offerta/documento associato direttamente da [!UICONTROL Activity Overview] nel processo di creazione attività aggiornato. Questa limitazione ha influito sull’usabilità, in particolare sugli schermi più piccoli. I clienti possono ora copiare facilmente sia i nomi delle attività che i nomi dei documenti senza soluzioni alternative. (TGT-51850)
 * **Acquisizione proattiva dei dati dei clienti [!DNL Target] curati durante la creazione dell&#39;attività**: il processo di creazione dell&#39;attività è stato migliorato abilitando la raccolta proattiva di report, contenuti e schermate da [!DNL Target] clienti. Questo miglioramento risolve le lacune nei dati identificate nei casi di utilizzo esistenti e aiuta a garantire informazioni più precise durante la configurazione di attività e esperimenti. (TGT-52415)
+* **Le attività di Personalizzazione automatizzata non hanno recuperato i dati pronti per il modello nella sezione [!UICONTROL Reports]**: i clienti che visualizzavano le attività di Automated Personalization (AP) nella sezione [!UICONTROL Reports] non sono stati in grado di visualizzare gli indicatori pronti per il modello a livello di gruppo di rapporti e di offerta. Questo problema si verificava perché i dati pronti per il modello non venivano recuperati correttamente dal backend. La funzionalità è stata ripristinata e ora vengono visualizzati i dati pronti per il modello come previsto. (TGT-53600 e TGT-53601)
 
 +++
 
@@ -42,6 +43,7 @@ Questa versione include i seguenti aggiornamenti e correzioni:
 +++Vedi i dettagli
 * **Elenco prodotti non visibile nella finestra di dialogo [!UICONTROL View Collection]:** In precedenza, i clienti non potevano visualizzare l&#39;elenco prodotti quando visualizzavano una raccolta nella scheda [!UICONTROL Recommendations]. La finestra di dialogo [!UICONTROL View Collection] visualizza ora correttamente i prodotti associati, migliorando la trasparenza e l&#39;usabilità nell&#39;interfaccia utente Consigli aggiornata. (TGT-50531)
 * **È stato risolto un problema che causava un filtro sensibile a maiuscole e minuscole nella ricerca avanzata di [!UICONTROL Product Catalog Search]**: il filtro della ricerca avanzata nella pagina [!UICONTROL Product Catalog Search] ignora ora correttamente la distinzione tra maiuscole e minuscole, in linea con il comportamento dei servizi di back-end e GraphQL. Questo aggiornamento garantisce risultati coerenti e precisi per i suggerimenti per i clienti indipendentemente dall’involucro di testo. (TGT-53585)
+* **La ricerca avanzata nell&#39;interfaccia utente aggiornata di [!UICONTROL Product Catalog Search] non ha fornito suggerimenti**: i clienti che utilizzano la funzione di ricerca avanzata nell&#39;interfaccia utente aggiornata di [!UICONTROL Product Catalog Search] dovevano immettere valori esatti con l&#39;ortografia corretta, poiché non venivano visualizzati suggerimenti. Ciò rendeva difficile individuare i prodotti in modo efficiente. I suggerimenti vengono ora visualizzati come previsto durante l’input della ricerca avanzata. (TGT-52008)
 
 +++
 
@@ -49,10 +51,10 @@ Questa versione include i seguenti aggiornamenti e correzioni:
 
 +++Vedi i dettagli
 * **Impossibile caricare i report per il pubblico desktop a causa di un errore di nome del pubblico non valido**: si è verificato un errore di GraphQL durante il tentativo di visualizzare i report per il solo pubblico nel processo di creazione attività. Il sistema ha restituito un messaggio di tipo &quot;Nome pubblico non valido: XXXXX&quot; che impediva l’accesso ai dati di reporting. I rapporti ora vengono caricati correttamente per il pubblico del desktop. (TGT-53371)
-
+* **Il cambio di pubblico nella pagina Rapporti ha causato errori nell&#39;interfaccia utente di Target**: i clienti hanno riscontrato errori durante la selezione di alcuni tipi di pubblico nella sezione Reports dell&#39;interfaccia utente di Target aggiornata. Questo problema era causato da una gestione non valida del pubblico nelle chiamate GraphQL back-end, che causava errori imprevisti e dati mancanti. Il problema è stato risolto e i tipi di pubblico desktop ora vengono caricati senza errori, anche quando non sono disponibili dati. (TGT-53370)
 +++
 
-**[!UICONTROL Visual Experience Composer] (VEC)**
+**[!UICONTROL Visual Experience Composer](VEC)**
 
 +++Vedi i dettagli
 * **Impossibile fare clic su &quot;Accetta cookie&quot; con il Compositore esperienza avanzato [!UICONTROL Enhanced Experience Composer] a causa di una funzione mancante**: i clienti hanno segnalato che il tentativo di accettare i cookie tramite il Compositore esperienza avanzato ha restituito un errore della console: `handleclickAcceptAllButton is not defined`. La funzionalità di accettazione dei cookie ora funziona come previsto, garantendo un’esperienza più fluida durante la creazione dell’attività nell’interfaccia utente aggiornata. (TGT-52794)
