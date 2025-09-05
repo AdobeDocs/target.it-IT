@@ -4,10 +4,10 @@ description: Scopri le nuove funzioni, i miglioramenti e le correzioni, compresi
 title: Quali nuove funzioni e miglioramenti saranno inclusi nella prossima versione [!DNL Target] ?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 223a0f62bcd9a52bd9181e0a439e02164abbfec4
+source-git-commit: 6c3236f12d94c6511a53433ca0f71f05488a73c1
 workflow-type: tm+mt
-source-wordcount: '204'
-ht-degree: 60%
+source-wordcount: '186'
+ht-degree: 66%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 60%
 
 Questo articolo contiene informazioni prerelease per le prossime versioni di [!DNL Adobe Target], incluse SDK, API e librerie JavaScript.
 
-**Ultimo aggiornamento: 4 settembre 2025**
+**Ultimo aggiornamento: 5 settembre 2025**
 
 >[!NOTE]
 >
@@ -25,13 +25,9 @@ Questo articolo contiene informazioni prerelease per le prossime versioni di [!D
 >
 >* I codici tra parentesi sono per uso interno di [!DNL Adobe].
 
-## [!DNL Target Standard/Premium] 25.8.4 (1° settembre 2025)
+## [!DNL Target Standard/Premium] 25.9.1 (5 settembre 2025)
 
 Questa versione è ora live. Consulta [[!DNL Target] note sulla versione (corrente)](/help/main/r-release-notes/release-notes.md) per ulteriori dettagli.
-
-## [!DNL Target Standard/Premium] 25.9.1 (4 settembre 2025)
-
-Questa versione è pianificata per il 4 settembre. Questa sezione verrà aggiornata nel corso della settimana.
 
 ## Note aggiuntive e dettagli sulla versione
 
