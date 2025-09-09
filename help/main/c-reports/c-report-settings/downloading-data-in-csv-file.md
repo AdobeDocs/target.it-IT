@@ -4,9 +4,9 @@ description: Scopri come scaricare dati da attività Adobe [!DNL Target] in form
 title: Come posso scaricare i dati del rapporto in un file CSV?
 feature: Reports
 exl-id: b4387184-8730-4367-8bc3-52d8fbe2583e
-source-git-commit: c0342f51d998d27eef9af189c7ebb364095699ed
+source-git-commit: be02c0405133e4fc4e7f668a2b72a61b94070740
 workflow-type: tm+mt
-source-wordcount: '732'
+source-wordcount: '734'
 ht-degree: 30%
 
 ---
@@ -70,19 +70,19 @@ Il report [!UICONTROL Order Details] contiene informazioni sugli ordini, tra cui
 >* I dati del rapporto di ordine includono quattro settimane di dati per l’ambiente predefinito (gruppo host) e due settimane per tutti gli ambienti non predefiniti.
 >* Le metriche dei ricavi impostate su &quot;[!UICONTROL Increment count and keep the user in the activity]&quot; registrano i dettagli solo per il primo ordine effettuato dallo stesso visitatore. Tutti gli ordini successivi aumentano il conteggio delle conversioni, ma non aggiungono ricavi a RPV/AOV/Sales e non sono inclusi nel report [!UICONTROL Order Details].
 
-## Formato di download CSV per popolarità e algoritmi basati su chiavi {#format}
+## Formato di download CSV per algoritmi basati sulla popolarità e su chiavi {#format}
 
 Il file CSV scaricabile riflette in modo coerente i risultati generati dopo l’esecuzione dei criteri di back-end.
 
-**Per gli algoritmi di popolarità (non basati su chiave), il file include:**
+* **Per gli algoritmi basati sulla popolarità (non basati su chiave), il file include:**
 
-* Una riga di consigli di backup con prefisso *
-* Una riga distinta elenca i consigli basati sulle impostazioni dell’algoritmo
+   * Una riga di consigli di backup con prefisso * (un asterisco)
+   * Una riga distinta elenca i consigli basati sulle impostazioni dell’algoritmo
 
-**Per gli algoritmi basati su chiavi, il file include:**
+* **Per gli algoritmi basati su chiavi, il file include:**
 
-* Una riga di backup simile agli algoritmi di popolarità
-* Righe multiple in formato chiave-valore, dove la prima voce è l’ID prodotto della chiave, seguita da ID prodotto separati da virgole che rappresentano i candidati per i consigli
+   * Una riga di backup simile agli algoritmi basati sulla popolarità
+   * Righe multiple in formato chiave-valore, dove la prima voce è l’ID prodotto della chiave, seguita da ID prodotto separati da virgole che rappresentano i candidati per i consigli
 
 ## Best practice
 
