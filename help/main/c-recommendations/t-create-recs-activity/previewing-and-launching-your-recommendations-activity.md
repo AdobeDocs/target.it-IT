@@ -4,9 +4,9 @@ description: Scopri come visualizzare in anteprima la tua attività Adobe [!DNL 
 title: Come posso visualizzare in anteprima e avviare un’attività Consigli?
 feature: Recommendations
 exl-id: 60391778-4d48-4c41-a7c5-fedcfabf2530
-source-git-commit: 75ab3bff7064c8f7df14a42422373cb64d96150a
+source-git-commit: 26b0c5455e82014dab92c925ecc88bddb3947d2f
 workflow-type: tm+mt
-source-wordcount: '1316'
+source-wordcount: '1398'
 ht-degree: 15%
 
 ---
@@ -94,6 +94,20 @@ Per altri tipi di algoritmo basati su un valore chiave, ad esempio [!UICONTROL P
 >[!NOTE]
 >
 >I download dei risultati non sono disponibili per le attività contenenti un algoritmo [!UICONTROL User-Based Recommendations]. I download dei risultati non sono disponibili per i criteri che utilizzano la logica dei consigli [!UICONTROL Recently-Viewed Items].
+
+### Formato di download CSV per algoritmi basati sulla popolarità e su chiavi {#format}
+
+Il file CSV scaricabile riflette in modo coerente i risultati generati dopo l’esecuzione dei criteri di back-end.
+
+* **Per gli algoritmi basati sulla popolarità (non basati su chiave), il file include:**
+
+   * Una riga di consigli di backup con prefisso * (un asterisco)
+   * Una riga distinta elenca i consigli basati sulle impostazioni dell’algoritmo
+
+* **Per gli algoritmi basati su chiavi, il file include:**
+
+   * Una riga di backup simile agli algoritmi basati sulla popolarità
+   * Righe multiple in formato chiave-valore, dove la prima voce è l’ID prodotto della chiave, seguita da ID prodotto separati da virgole che rappresentano i candidati per i consigli
 
 ## Attivazione dell’attività Consigli
 
