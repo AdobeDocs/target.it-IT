@@ -4,9 +4,9 @@ description: Comprendere le modifiche introdotte nel Compositore esperienza visi
 title: Quali modifiche vengono introdotte nel nuovo Compositore esperienza visivo?
 feature: Visual Experience Composer (VEC)
 exl-id: 4c7a5657-93d9-4355-9d2b-c992b36bcb50
-source-git-commit: 51e484d54f4d318ea59fdfdb16d1ed7014abdfdb
+source-git-commit: 2dabda04aabe720b28e31033052e2076e78d1376
 workflow-type: tm+mt
-source-wordcount: '876'
+source-wordcount: '873'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ Come nella versione precedente, la barra [!UICONTROL Experiences] rimane sul lat
 
 ![Barra dei componenti](/help/main/c-experiences/c-visual-experience-composer/assets/components-panel.png)
 
-Per aggiungere un nuovo componente, trascinare il componente dalla barra [!UICONTROL Components] che si desidera inserire su un elemento di pagina esistente nell&#39;area di lavoro [!UICONTROL Design]. Quindi scegli di inserire il componente prima di dopo l’elemento selezionato.
+Per aggiungere un nuovo componente, seleziona il componente desiderato dalla barra [!UICONTROL Components], passa il puntatore del mouse su un elemento esistente nella pagina, quindi scegli di inserire il componente prima di o dopo l&#39;elemento selezionato.
 
 >[!NOTE]
 >
