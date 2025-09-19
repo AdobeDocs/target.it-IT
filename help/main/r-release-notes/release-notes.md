@@ -6,10 +6,10 @@ short-description: Scopri le nuove funzioni, i miglioramenti e le correzioni inc
 title: Cosa è incluso nella versione corrente?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 29ddf23b41531e5fab80fe7d0f6bc913e778d839
+source-git-commit: 098415849152065b734cbebbab8dcf1d0805e202
 workflow-type: tm+mt
-source-wordcount: '1670'
-ht-degree: 15%
+source-wordcount: '1779'
+ht-degree: 14%
 
 ---
 
@@ -74,6 +74,18 @@ Le informazioni seguenti descrivono i limiti di cui tenere conto quando si scegl
 * [[!UICONTROL Visual Experience Composer] opzioni](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md): questo articolo illustra l&#39;interfaccia utente del Compositore esperienza visivo aggiornata e le relative opzioni.
 
 +++
+
+## Aggiornamenti Datastream (19 settembre 2025)
+
+La combinazione di ID e sandbox dello stream di dati deve essere univoca per [!DNL Adobe Target] connessioni di destinazione.
+
+È stata aggiornata la logica di convalida per le connessioni di destinazione [!DNL Target] per fare in modo che la combinazione di ID dello stream di dati e nome della sandbox sia univoca all’interno di un’organizzazione IMS. Ciò significa che:
+
+* Impossibile riutilizzare la stessa coppia ID dello stream di dati + nome sandbox in più connessioni di destinazione [!DNL Target].
+* Lo stesso ID dello stream di dati può essere utilizzato per connessioni diverse solo se sono configurate in sandbox diverse.
+* Questa regola si applica a tutte le selezioni dello stream di dati, anche quando si seleziona &quot;Nessuno&quot;.
+
+Questo aggiornamento garantisce una configurazione coerente e impedisce conflitti tra ambienti con più sandbox. Per ulteriori informazioni, vedere [Connessione Adobe Target](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection){target=_blank} nella *Guida delle destinazioni Experience Platform*.
 
 ## [!DNL Target Standard/Premium] 25.9.1 (5 settembre 2025)
 
