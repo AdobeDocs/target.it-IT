@@ -4,16 +4,16 @@ description: Accedi al registro delle modifiche di un'attività in Adobe [!DNL T
 title: Come posso visualizzare un registro delle modifiche delle attività?
 feature: Activities
 exl-id: 72a901c1-4fba-4044-b72b-393cab56b936
-source-git-commit: 51e484d54f4d318ea59fdfdb16d1ed7014abdfdb
+source-git-commit: f227e09052db168f99dc28f652c4f0ed5d220601
 workflow-type: tm+mt
-source-wordcount: '161'
+source-wordcount: '163'
 ht-degree: 1%
 
 ---
 
 # Registro delle modifiche apportate alle attività
 
-[!DNL Adobe Target] [!UICONTROL Change Log] registra le azioni dell&#39;attività, incluso ciò che è cambiato, chi ha apportato le modifiche e quando si sono verificate. La pagina [!UICONTROL Change Log] è compilata da [[!UICONTROL Audi Query API]](https://experienceleague.adobe.com/it/docs/experience-platform/landing/governance-privacy-security/audit-logs/audit-api/overview){target=_blank} per approfondimenti in tempo reale.
+[!DNL Adobe Target] [!UICONTROL Change Log] registra le azioni dell&#39;attività, incluso ciò che è cambiato, chi ha apportato le modifiche e quando si sono verificate. La pagina [!UICONTROL Change Log] è compilata per gli approfondimenti in tempo reale.
 
 Per accedere alla pagina [!UICONTROL Change Log]:
 
@@ -24,9 +24,10 @@ L’azione eseguita, la data in cui è stata eseguita e l’utente che l’ha es
 
 Aggiorna la pagina per visualizzare le modifiche di stato. È inoltre possibile elencare le azioni eseguite in ordine crescente o decrescente facendo clic sull&#39;intestazione di colonna [!UICONTROL Date].
 
->[!MORELIKETHIS]
->
->* [Ottieni il registro di controllo in base al nome dell&#39;ultimo autore e a una marca temporale modificata dopo](https://developer.adobe.com/target/administer/admin-api/#tag/Revisions){target=_blank}
->
->* [Elenco changelog attività](https://developer.adobe.com/target/administer/admin-api/#tag/Activities/operation/getChangelog){target=_blank}
+## API del registro di controllo di Target
+
+* [Revisioni: ottieni il registro di controllo in base al nome dell&#39;ultimo autore e a una marca temporale modificata dopo](https://developer.adobe.com/target/administer/admin-api/#tag/Revisions){target=_blank}
+* [Elenco changelog attività](https://developer.adobe.com/target/administer/admin-api/#tag/Activities/operation/getChangelog){target=_blank}
+
+
 
