@@ -4,9 +4,9 @@ description: Scopri come sfruttare le offerte remote in [!DNL Target] per ospita
 title: Come si creano le offerte remote?
 feature: Experiences and Offers
 exl-id: 6a5283ee-c1fb-49f7-8e7f-c23ccde26ade
-source-git-commit: e8201198dc6ac36e803153d5c6b345a30716204a
+source-git-commit: 856396264c4a7b7e3370cd268e7f010092e2eae2
 workflow-type: tm+mt
-source-wordcount: '987'
+source-wordcount: '1029'
 ht-degree: 19%
 
 ---
@@ -31,6 +31,17 @@ Alcuni esempi di offerte remote includono:
 ## Best practice per l’utilizzo delle offerte remote {#section_7718512D08E14121B6F6B8C38134F4BC}
 
 Best practice per l’utilizzo delle offerte remote nelle attività:
+
+* Le offerte remote sono supportate in:
+
+   * Attività A/B
+   * Attività di Targeting di esperienza (XT)
+   * Flussi di lavoro basati su moduli
+
+* Le offerte remote non sono supportate in:
+
+   * [Funzionalità Premium](/help/main/c-intro/intro.md#premium) (Automated Personalization (AP), Targeting automatico e Consigli)
+   * Multivariate Testing (MVT), a causa della dipendenza dal Compositore esperienza visivo, che non supporta le offerte remote.
 
 * Se l&#39;offerta si trova nello stesso dominio delle richieste [!DNL Target], l&#39;utilizzo dell&#39;opzione [!UICONTROL Cached] consente di utilizzare URL relativi per descrivere la posizione dell&#39;offerta.
 
