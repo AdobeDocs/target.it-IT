@@ -2,13 +2,13 @@
 keywords: deduplicare;consentire duplicati;escludere offerte duplicate;personalizzazione automatizzata;non consentire offerte duplicate;escludere;contenuto predefinito;
 description: Gestire le esclusioni nelle attività di [!UICONTROL Automated Personalization] (AP).
 title: Come posso gestire le esclusioni nelle attività [!UICONTROL Automated Personalization]?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=it#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."
 feature: Automated Personalization
 solution: Target,Analytics
 exl-id: d9e9f2a2-5914-4b81-acae-eaf388646652
-source-git-commit: a68e7501fbb157a1ac5b0c0cbb3d574abdb747dd
+source-git-commit: 2715e803938ee552e2c6db438ed4dbece4b6220e
 workflow-type: tm+mt
-source-wordcount: '482'
+source-wordcount: '483'
 ht-degree: 21%
 
 ---
@@ -58,7 +58,7 @@ L’esclusione del contenuto predefinito è molto utile per cambiare l’aspetto
    ![Modifica opzioni](/help/main/c-activities/t-automated-personalization/assets/options.png)
 1. Crea il nuovo contenuto.
 
-1. Fai clic sull&#39;icona **[!UICONTROL More Actions]** ( ![Icona Altre azioni](/help/main/assets/icons/Setting.svg) ), quindi fai clic sull&#39;interruttore **Escludi offerta predefinita/Includi predefinita**/ per escludere o includere l&#39;offerta predefinita.
+1. Fai clic sull&#39;icona **[!UICONTROL More Actions]** ( ![Icona Altre azioni](/help/main/assets/icons/Setting.svg) ), quindi fai clic sull&#39;interruttore **Escludi offerta predefinita/Includi offerta predefinita**/ per escludere o includere l&#39;offerta predefinita.
 
    <!-- Depending on the content or offer type, the [!UICONTROL Include] checkbox is in a slightly different place. 
 
