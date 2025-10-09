@@ -6,7 +6,7 @@ short-description: Scopri le nuove funzioni, i miglioramenti e le correzioni inc
 title: Cosa è incluso nella versione corrente?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 6cba2e93d61d3044d1bf7ce2f5bb6cc1f2d71e4a
+source-git-commit: f0536e466d59fc4e3cccd61c25b7fe7f48f03954
 workflow-type: tm+mt
 source-wordcount: '4858'
 ht-degree: 7%
@@ -95,14 +95,14 @@ Questa versione include le seguenti correzioni e miglioramenti:
 
 +++Vedi i dettagli
 * **È stato risolto un problema che impediva la copia delle attività a causa di ID di pubblico non validi.** I clienti che tentavano di copiare le attività nel processo di creazione attività aggiornato hanno riscontrato un errore causato da ID di pubblico non validi (ad esempio, -1752722444307). Questo problema di convalida del back-end impediva la duplicazione delle attività all’interno della stessa area di lavoro. Questo problema è stato risolto e le attività possono essere copiate correttamente senza errori relativi al pubblico. (TGT-53717)
-* **È stato risolto un problema che causava la visualizzazione di errori di input utente non validi per i tipi di pubblico per sola attività nelle attività [!UICONTROL Automated Personalization] e nel modale [!UICONTROL Manage Content].** Clienti hanno riscontrato errori di input utente non validi durante la configurazione dei tipi di pubblico per sola attività nella finestra modale [!UICONTROL &#x200B; Manage Content] per le attività di Personalizzazione automatizzata. Questo problema si verificava nonostante il pubblico fosse stato precedentemente utilizzato correttamente. Le configurazioni del pubblico combinato ora vengono salvate correttamente senza attivare errori di convalida. (TGT-53749)
+* **È stato risolto un problema che causava la visualizzazione di errori di input utente non validi per i tipi di pubblico per sola attività nelle attività [!UICONTROL Automated Personalization] e nel modale [!UICONTROL Manage Content].** Clienti hanno riscontrato errori di input utente non validi durante la configurazione dei tipi di pubblico per sola attività nella finestra modale [!UICONTROL  Manage Content] per le attività di Personalizzazione automatizzata. Questo problema si verificava nonostante il pubblico fosse stato precedentemente utilizzato correttamente. Le configurazioni del pubblico combinato ora vengono salvate correttamente senza attivare errori di convalida. (TGT-53749)
 
 +++
 
 **Documentazione**
 
 +++Vedi i dettagli
-* **Le pagine della documentazione di Web SDK specifiche di Target sono state spostate nell&#39;archivio Adobe Target.** Nell&#39;ambito della ristrutturazione della documentazione di Web SDK, il contenuto specifico di [!DNL Target] è stato migrato dai documenti generali di Web SDK alla [!DNL Adobe Target] [Guida per gli sviluppatori](https://experienceleague.adobe.com/it/docs/target-dev/developer/a4t/overview-a4t?lang=en){target=_blank}. Questa modifica migliora la reperibilità dei contenuti e garantisce che il team di prodotto appropriato mantenga le indicazioni specifiche per la soluzione. (TGT-53374)
+* **Le pagine della documentazione di Web SDK specifiche di Target sono state spostate nell&#39;archivio Adobe Target.** Nell&#39;ambito della ristrutturazione della documentazione di Web SDK, il contenuto specifico di [!DNL Target] è stato migrato dai documenti generali di Web SDK alla [!DNL Adobe Target] [Guida per gli sviluppatori](https://experienceleague.adobe.com/en/docs/target-dev/developer/a4t/overview-a4t?lang=en){target=_blank}. Questa modifica migliora la reperibilità dei contenuti e garantisce che il team di prodotto appropriato mantenga le indicazioni specifiche per la soluzione. (TGT-53374)
 
 +++
 
@@ -123,7 +123,7 @@ Questa versione include le seguenti correzioni e miglioramenti:
 **[!DNL Recommendations]**
 
 +++Vedi i dettagli
-* **Tracciamento dei clic ripristinato per [!UICONTROL Recommendations] attività create nell&#39;interfaccia utente aggiornata.** È stato risolto un problema di tabulazione a causa del quale [!UICONTROL Recommendations] attività create nell&#39;interfaccia utente aggiornata non registravano il tracciamento dei clic, causando nessuna conversione segnalata. Le attività create nell’interfaccia utente legacy hanno tracciato correttamente i clic e segnalato le conversioni come previsto. Questa correzione assicura che le attività Consigli create nell’interfaccia utente aggiornata includano ora gli attributi di tracciamento corretti, il ripristino dei rapporti di conversione e l’allineamento con le metriche A4T. (TGT-53287)
+* **Tracciamento dei clic ripristinato per [!UICONTROL Recommendations] attività create nell&#39;interfaccia utente aggiornata.** È stato risolto un problema che impediva alle attività [!UICONTROL Recommendations] create nell&#39;interfaccia utente aggiornata di registrare il tracciamento dei clic, causando la mancata segnalazione di conversioni. Le attività create nell’interfaccia utente legacy hanno tracciato correttamente i clic e segnalato le conversioni come previsto. Questa correzione assicura che le attività Consigli create nell’interfaccia utente aggiornata includano ora gli attributi di tracciamento corretti, il ripristino dei rapporti di conversione e l’allineamento con le metriche A4T. (TGT-53287)
 * **Tracciamento dei clic ripristinato per le attività Consigli.** È stato risolto un problema che impediva alle attività [!UICONTROL Recommendations] create nell&#39;interfaccia utente aggiornata di registrare il tracciamento dei clic, causando la mancata segnalazione di conversioni. L&#39;interfaccia utente legacy ha applicato correttamente un ID di tracciamento (`at-track-click`) al contenuto [!UICONTROL Recommendations], mentre l&#39;interfaccia utente aggiornata ha inserito erroneamente un segnaposto (`__recsClickTrackIdPlaceholder__`), impedendo il tracciamento del back-end. Questa correzione assicura che il contenuto di [!DNL Recommendations] includa ora l&#39;ID di tracciamento corretto, ripristinando i rapporti di conversione e l&#39;allineamento con le metriche A4T. (TGT-53496)
 * **Arresto anomalo dell&#39;editor della raccolta risolto nell&#39;interfaccia utente aggiornata.** È stato risolto un problema nell&#39;interfaccia utente [!UICONTROL Visual Experience Composer] (VEC) aggiornata a causa del quale l&#39;apertura di una raccolta dal pannello Editor causava l&#39;arresto anomalo della pagina con un errore di tipo: impossibile leggere le proprietà di non definito (lettura di &#39;customLocale&#39;). Questo errore si è verificato in più tipi di attività, inclusi [!UICONTROL Recommendations] e test A/B. (TGT-53703)
 * **Opzione per rimuovere la raccolta selezionata ripristinata nel Compositore esperienza visivo.** È stato risolto un problema nel Compositore esperienza visivo a causa del quale gli utenti potevano sostituire solo una raccolta selezionata in un&#39;attività [!UICONTROL Recommendations], ma non potevano rimuoverla completamente. Questa limitazione bloccava i casi d’uso che richiedevano una rimozione pulita della raccolta senza sostituzione. Questa correzione introduce una chiara opzione per rimuovere la raccolta selezionata, consentendo una maggiore flessibilità nella configurazione delle attività e nell’allineamento con il comportamento precedente dell’interfaccia utente. (TGT-53652)
@@ -178,7 +178,7 @@ La combinazione di ID e sandbox dello stream di dati deve essere univoca per [!D
 * Lo stesso ID dello stream di dati può essere utilizzato per connessioni diverse solo se sono configurate in sandbox diverse.
 * Questa regola si applica a tutte le selezioni dello stream di dati, anche quando si seleziona &quot;Nessuno&quot;.
 
-Questo aggiornamento garantisce una configurazione coerente e impedisce conflitti tra ambienti con più sandbox. Per ulteriori informazioni, vedere [Connessione Adobe Target](https://experienceleague.adobe.com/it/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection){target=_blank} nella *Guida delle destinazioni Experience Platform*.
+Questo aggiornamento garantisce una configurazione coerente e impedisce conflitti tra ambienti con più sandbox. Per ulteriori informazioni, vedere [Connessione Adobe Target](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection){target=_blank} nella *Guida delle destinazioni Experience Platform*.
 
 ## [!DNL Target Standard/Premium] 25.9.1 (5 settembre 2025)
 
