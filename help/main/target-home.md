@@ -4,7 +4,7 @@ title: Guida di Adobe Target per professionisti aziendali
 description: Scopri come utilizzare Adobe  [!DNL Target]  per personalizzare l’esperienza dei clienti al fine di massimizzare i ricavi su siti web e mobili, app e altri canali digitali.
 feature: Overview
 exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
-source-git-commit: 12d5caabd19288982ab43c7ee14ff93d6e16c818
+source-git-commit: a68e7501fbb157a1ac5b0c0cbb3d574abdb747dd
 workflow-type: tm+mt
 source-wordcount: '648'
 ht-degree: 27%
@@ -15,7 +15,7 @@ ht-degree: 27%
 
 [!DNL Adobe Target] è la soluzione di [!DNL Adobe Experience Cloud] che offre tutto il necessario per adattare e personalizzare l’esperienza dei clienti in modo da massimizzare i ricavi sui siti web e mobili, applicazioni, social media e altri canali digitali.
 
-**Ultimo aggiornamento: 7 ottobre 2025 ( [scopri cosa è cambiato](r-release-notes/doc-change.md) )**
+**Ultimo aggiornamento: 9 ottobre 2025 ( [scopri cosa è cambiato](r-release-notes/doc-change.md) )**
 
 >[!BEGINTABS]
 
@@ -82,7 +82,7 @@ Esperti di marketing, sviluppatori, amministratori, analisti e addetti al contro
 
 - [[!DNL Target] note sulla versione](r-release-notes/release-notes.md): contiene informazioni sulla versione corrente, informazioni sui problemi noti che interessano [!DNL Target], un elenco di modifiche importanti alla presente documentazione e un archivio delle note sulle versioni passate.
 - [Introduzione a [!DNL Target]](c-intro/intro.md): illustra i concetti fondamentali di [!DNL Target].
-- [Interfaccia utente [!DNL Target] 2&rbrace;: consente di acquisire familiarità con &#x200B;](/help/main/c-intro/understand-the-target-ui.md) e fornisce collegamenti per ottenere informazioni più approfondite e istruzioni dettagliate.[!DNL Target]
+- [Interfaccia utente [!DNL Target] 2}: consente di acquisire familiarità con ](/help/main/c-intro/understand-the-target-ui.md) e fornisce collegamenti per ottenere informazioni più approfondite e istruzioni dettagliate.[!DNL Target]
 - Panoramica di [[!UICONTROL AI Assistant]](/help/main/c-intro/ai-assistant.md): [!DNL AI Assistant] in A[!DNL dobe Experience Platform] è una funzionalità dell&#39;interfaccia utente che consente di navigare e comprendere i concetti di [!DNL Adobe Target].
 - Integrare [!DNL Target] con [!DNL Adobe Experience Cloud]: illustra come integrare [!DNL Target] con altre soluzioni [!DNL Experience Cloud], tra cui [[!UICONTROL Analytics for Target]](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T), [[!DNL Experience Cloud Audiences]](/help/main/c-integrating-target-with-mac/mmp.md) e [[!DNL Adobe Campaign]](/help/main/c-integrating-target-with-mac/campaign-and-target.md).
 - [[!DNL Adobe Target] Esercitazioni](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html?lang=it): fornisce esercitazioni e video per ottenere il massimo da [!DNL Target].

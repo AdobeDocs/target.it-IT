@@ -2,24 +2,24 @@
 keywords: deduplicare;consentire duplicati;escludere offerte duplicate;personalizzazione automatizzata;non consentire offerte duplicate;escludere;contenuto predefinito;
 description: Gestire le esclusioni nelle attività di [!UICONTROL Automated Personalization] (AP).
 title: Come posso gestire le esclusioni nelle attività [!UICONTROL Automated Personalization]?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=it#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."
 feature: Automated Personalization
 solution: Target,Analytics
 exl-id: d9e9f2a2-5914-4b81-acae-eaf388646652
-source-git-commit: e620cd189e2783ba3abbe93bb9c5000866c41b99
+source-git-commit: a68e7501fbb157a1ac5b0c0cbb3d574abdb747dd
 workflow-type: tm+mt
-source-wordcount: '456'
-ht-degree: 28%
+source-wordcount: '482'
+ht-degree: 21%
 
 ---
 
 # Gestire le esclusioni
 
-Gestisci le esclusioni escludendo le offerte duplicate, esperienze specifiche e contenuti predefiniti nelle attività [!UICONTROL Automated Personalization] (AP) in [!DNL Adobe Target].
+Assumi il controllo della strategia [!UICONTROL Automated Personalization] (AP) masterizzando le esclusioni. Che tu impedisca le offerte duplicate, perfezioni le combinazioni di esperienze o rimuovi il contenuto predefinito, le esclusioni ti consentono di fornire esperienze più chiare e rilevanti, in linea con i tuoi obiettivi e le aspettative del pubblico.
 
 ## Consentire o non consentire le offerte duplicate {#concept_4EF78013F80E48EFA024AE0274C9F037}
 
-Impedisci la duplicazione delle offerte della libreria di offerte quando vengono utilizzate in posizioni diverse nelle attività [!UICONTROL Automated Personalization].
+Impedisci la duplicazione delle offerte della libreria di offerte quando vengono utilizzate in posizioni diverse nelle attività di Personalizzazione automatizzata.
 
 Si potrebbe avere un&#39;attività, ad esempio, con sei percorsi in una pagina con 12 offerte. Esiste la possibilità che la stessa offerta possa essere collocata in uno o più percorsi nell&#39;attività. Questa funzione consente di impedire la visualizzazione simultanea di offerte duplicate in posizioni diverse all’interno della stessa attività.
 
@@ -27,7 +27,7 @@ Si potrebbe avere un&#39;attività, ad esempio, con sei percorsi in una pagina c
 
 ## Escludere esperienze specifiche {#task_C17D36EF58AF4908B17A3D84CA6DE85A}
 
-Escludere esperienze specifiche se si desidera escludere determinate combinazioni di offerte dall&#39;attività [!UICONTROL Automated Personalization].
+Escludi esperienze specifiche se desideri escludere determinate combinazioni di offerte dall’attività di Personalizzazione automatizzata.
 
 Potrebbero esserci alcune combinazioni che non funzionano insieme, oppure potresti limitare il numero di esperienze testate per ridurre i requisiti di traffico per l&#39;attività.
 
@@ -47,7 +47,7 @@ Potrebbero esserci alcune combinazioni che non funzionano insieme, oppure potres
 
 ## Escludi contenuto predefinito {#task_DCB4528989DF4C05A3A4729E5891D18F}
 
-Talvolta potrebbe non essere necessario includere il contenuto predefinito come parte dell&#39;attività [!UICONTROL Automated Personalization]. Puoi utilizzare questo metodo per avere una sola offerta (diversa dal contenuto predefinito) in una posizione come parte dell’attività di personalizzazione automatizzata.
+Talvolta potresti non voler includere il contenuto predefinito come parte dell’attività di Personalizzazione automatizzata. Puoi utilizzare questo metodo per avere una sola offerta (diversa dal contenuto predefinito) in una posizione come parte dell’attività.
 
 L’esclusione del contenuto predefinito è molto utile per cambiare l’aspetto del resto della pagina a seconda delle offerte da testare con l’attività di personalizzazione automatizzata. Ad esempio, si supponga di voler corrispondere alla tavolozza dei colori delle offerte che si stanno testando, di modificare il colore di sfondo della pagina ed escludere il colore di sfondo predefinito.
 
@@ -56,8 +56,9 @@ L’esclusione del contenuto predefinito è molto utile per cambiare l’aspetto
 1. Durante la [creazione o modifica di un&#39;attività di Personalizzazione automatizzata](/help/main/c-activities/t-automated-personalization/create-ap-activity.md), selezionare il contenuto da sostituire e fare clic per accedere a **[!UICONTROL Change Text/HTML]**, **[!UICONTROL Change Image Offer]** o **[!UICONTROL Change Background Color]**. Le opzioni disponibili variano a seconda del tipo di contenuto.
 
    ![Modifica opzioni](/help/main/c-activities/t-automated-personalization/assets/options.png)
+1. Crea il nuovo contenuto.
 
-1. Crea il nuovo contenuto e deseleziona **Includi** a destra del contenuto predefinito (o deseleziona Immagine/video predefinito nella schermata [!UICONTROL Select Content]).
+1. Fai clic sull&#39;icona **[!UICONTROL More Actions]** ( ![Icona Altre azioni](/help/main/assets/icons/Setting.svg) ), quindi fai clic sull&#39;interruttore **Escludi offerta predefinita/Includi predefinita**/ per escludere o includere l&#39;offerta predefinita.
 
    <!-- Depending on the content or offer type, the [!UICONTROL Include] checkbox is in a slightly different place. 
 
