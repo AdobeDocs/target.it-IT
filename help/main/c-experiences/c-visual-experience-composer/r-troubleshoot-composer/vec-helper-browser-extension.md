@@ -4,7 +4,7 @@ description: Scopri perché alcuni siti web potrebbero non essere aperti in modo
 title: Come si utilizza l'estensione helper [!UICONTROL Visual Experience Composer] (VEC)?
 feature: Visual Experience Composer (VEC)
 exl-id: 3f38db69-046d-42c9-8c09-eca11d404b12
-source-git-commit: c41580bcbecf2eb2c14f13ce8e66e854c655d059
+source-git-commit: 6f4fd14a46f06c1366c02cfaf5a0cee5edbb00c4
 workflow-type: tm+mt
 source-wordcount: '1043'
 ht-degree: 50%
@@ -56,7 +56,7 @@ L&#39;estensione VEC Helper per il browser Chrome risolve problemi di caricament
 
 ## Ottenere e installare l’estensione VEC Helper per browser
 
-1. Passa all&#39;estensione [Adobe Target VEC Helper per browser in Chrome Web Store](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak).
+1. Passa all&#39;estensione [Adobe Target VEC Helper per browser in Chrome Web Store](https://chromewebstore.google.com/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca).
 1. Fare clic su **[!UICONTROL Add to Chrome > Add Extension]**.
 1. Apri il Compositore esperienza visivo in [!DNL Target].
 1. Per utilizzare l’estensione, fai clic sull’icona dell’estensione VEC Helper per browser (![icona di VEC Helper](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/vec-help-extension.png)) nella barra degli strumenti del browser Chrome quando sei nel Compositore esperienza visivo o in [Modalità Controllo qualità](/help/main/c-activities/c-activity-qa/activity-qa.md).
@@ -80,7 +80,7 @@ L&#39;estensione VEC Helper per il browser Chrome risolve problemi di caricament
 
 * Il flag [!UICONTROL Inject Target libraries] nell&#39;estensione è disattivato per impostazione predefinita. Abilita questo flag se desideri utilizzare il Compositore esperienza visivo su un sito non ancora implementato per [!DNL Target].
 
-  Questo flag è un&#39;impostazione globale. Il flag viene attivato o disattivato per tutti i siti web aperti nel Compositore esperienza visivo. Quindi, ad esempio, se imposti questo flag su &quot;on&quot; e apri un sito web già implementato con at.js, riceverai un messaggio per informarti che at.js è già caricato. Adobe prevede che la maggior parte dei clienti abbia già at.js implementato nelle proprie pagine e utilizzi l’impostazione predefinita &quot;off&quot;.
+  Questo flag è un&#39;impostazione globale. Il flag viene abilitato o disabilitato per tutti i siti web aperti nel Compositore esperienza visivo. Quindi, ad esempio, se imposti questo flag su &quot;on&quot; e apri un sito web già implementato con at.js, riceverai un messaggio per informarti che at.js è già caricato. Adobe prevede che la maggior parte dei clienti abbia già at.js implementato nelle proprie pagine e utilizzi l’impostazione predefinita &quot;off&quot;.
 
 * L&#39;estensione carica la versione più recente di at.js disponibile da [!DNL Target UI] in [!UICONTROL Administration > Implementation].
 * Quando utilizzi l’estensione per inserire at.js durante la [modalità Controllo qualità](/help/main/c-activities/c-activity-qa/activity-qa.md), apri un’altra scheda Chrome. Questa scheda di Chrome deve essere autenticata nella stessa organizzazione [!DNL Adobe Experience Cloud] in cui è stata creata l’attività.
