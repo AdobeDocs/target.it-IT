@@ -2,13 +2,13 @@
 keywords: Recommendations;consigli;intro;introduzione;webinar;demo
 description: Scopri le attività Consigli in Adobe [!DNL Target] che consentono di visualizzare automaticamente contenuti che potrebbero interessare ai clienti in base alle precedenti attività dell’utente o ad altri algoritmi.
 title: Quali sono le attività Consigli?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=it#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."
 feature: Recommendations
 exl-id: bc4d9a46-ea21-4687-b8a0-7f2e1dc33ebf
-source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
+source-git-commit: fd0ae95b63b924471247ab7155363bf0ba1e617c
 workflow-type: tm+mt
-source-wordcount: '2086'
-ht-degree: 89%
+source-wordcount: '2049'
+ht-degree: 86%
 
 ---
 
@@ -39,11 +39,11 @@ Gli addetti al marketing utilizzano [!DNL Adobe Target] per promuovere esperienz
 * **Editoria**: gli editori web usano [!DNL Target Recommendations] per consigliare altri articoli ai visitatori del sito e incrementare il loro coinvolgimento.
 * **Esercitazioni video**: [!DNL Adobe Creative Cloud] utilizza [!DNL Target] per consigliare specifiche esercitazioni video agli utenti di Photoshop, direttamente nell’applicazione Photoshop.
 * **Giochi**: le aziende di gaming usano [!DNL Target] per consigliare giochi e contenuti pertinenti agli utenti sulle loro console.
-* **Vendite B2B**: [le aziende business-to-business usano Target per consigliare video, white paper e articoli di blog ai potenziali clienti B2B; per fornire download; e per fornire assistenza ai clienti esistenti](https://theblog.adobe.com/testing-shifts-high-gear-intel).
+* **Vendite B2B**: le aziende business-to-business usano Target per consigliare video, white paper e articoli di blog ai potenziali clienti B2B; per fornire download; e per fornire assistenza ai clienti esistenti.
 
 * **Viaggi**: [un sistema di prenotazione di viaggi tedesco utilizza Target per consigliare hotel e altri servizi ai viaggiatori](https://2017.summit.adobe.com/na/sessions/summit-online/online-2017/#17608).
 
-* **Retail**: [un grande rivenditore B2B utilizza Target per consigliare categorie e prodotti di rilievo ai visitatori che ritornano sul suo sito sial dal browser che dalla sua app mobile](https://theblog.adobe.com/optimization-personalization-b2b-powerhouse-grainger/).
+* **Vendita al dettaglio**: uno dei principali retailer B2B utilizza [!DNL Target] per consigliare categorie e prodotti di rilievo ai visitatori che ritornano sul suo sito nel browser e nella sua app mobile.
 
 Questi sono solo alcuni esempi di come i nostri clienti usano Target per distribuire consigli personalizzati.
 
@@ -129,9 +129,9 @@ Un’attività di [!DNL Recommendations] è composta dai seguenti elementi:
 
 ![Illustrazione che mostra gli elementi che compongono un’attività di Consigli: pubblico, criteri e progettazioni](/help/main/c-recommendations/assets/intro-12.png)
 
-Con [!DNL Target] sono già incorporati 14 tipi di pubblico, 42 criteri e 10 modelli di progettazione. Puoi personalizzare ciascuno di questi elementi o aggiungerne altri. Abbiamo già tenuto [webinar sulla creazione di tipi di pubblico](https://landing.adobe.com/acs/2018/na/adobe-target/registration.html) in [!DNL Target]. Questa sezione tratta come definire i criteri, i quali a loro volta definiscono quali articoli verranno consigliati.
+Con [!DNL Target] sono già incorporati 14 tipi di pubblico, 42 criteri e 10 modelli di progettazione. Puoi personalizzare ciascuno di questi elementi o aggiungerne di nuovi.
 
-Target utilizza il concetto di scheda dei criteri. Una scheda di criteri è come una ricetta per la personalizzazione.
+[!DNL Target] utilizza il concetto di scheda dei criteri. Una scheda di criteri è come una ricetta per la personalizzazione.
 
 ![Illustrazione della scheda Criteri](/help/main/c-recommendations/assets/intro-13.png)
 
@@ -194,7 +194,3 @@ Ad esempio, nel contesto dei contenuti, puoi escludere i film che il visitatore 
 ## Demo
 
 Una volta completate le attività illustrate qui sopra nel funnel per la generazione dei consigli, si passa alla fase di creazione finale. Per assistere a una dimostrazione all&#39;interno di [!DNL Target], la demo inizia al 21:00 nel *webinar sulle nozioni di base di Adobe Target*, tramite il collegamento seguente.
-
-## Webinar sulle nozioni di base di Adobe [!DNL Target]: introduzione alla funzione Consigli {#intro-to-recs}
-
-[Introduzione alla funzione Consigli](https://adobecustomersuccess.adobeconnect.com/p8gt31drhs3e/?OWASP_CSRFTOKEN=4bd6cac5d0806167ee0a5449ba93d6300548d09c922bcb751c38973897a5703a)
