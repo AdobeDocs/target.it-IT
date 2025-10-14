@@ -364,7 +364,7 @@ Se desideri utilizzare le attività A/B di targeting automatico, sposta tutte le
 | [Aree di lavoro e proprietà](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) | Sì |
 | [Collegamenti QA](/help/main/c-activities/c-activity-qa/activity-qa.md) | Sì |
 | [Compositore esperienza basato su moduli](/help/main/c-experiences/form-experience-composer.md) | No |
-| [Codice personalizzato ](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md) | Sì |
+| [Codice personalizzato &#x200B;](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md) | Sì |
 | [Opzioni VEC](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md) | Tutte |
 | [Tracciamento dei clic](/help/main/c-activities/r-success-metrics/click-tracking.md) | Sì |
 | [Consegna di più attività](/help/main/c-experiences/c-visual-experience-composer/multipage-activity.md) | Sì |

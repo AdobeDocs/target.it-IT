@@ -23,7 +23,7 @@ Risposte alle domande frequenti sull&#39;utilizzo delle funzionalità di [!DNL A
 
 L’interfaccia utente è strutturata in un formato logico e intuitivo per trarre il massimo da [!DNL Target]. La seguente breve panoramica consente di acquisire familiarità con [!DNL Target] e il Compositore esperienza visivo e fornisce collegamenti per ottenere informazioni più approfondite e istruzioni dettagliate.
 
-Per ulteriori informazioni, consulta [Comprendere l&#39;interfaccia utente [!DNL Target] ](/help/main/c-intro/understand-the-target-ui.md).
+Per ulteriori informazioni, consulta [Comprendere l&#39;interfaccia utente [!DNL Target] &#x200B;](/help/main/c-intro/understand-the-target-ui.md).
 
 +++
 

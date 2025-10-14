@@ -31,7 +31,7 @@ Per creare un&#39;attività [!UICONTROL Auto-Allocate]:
    >
    >Per informazioni sulla risoluzione dei problemi relativi al Compositore esperienza visivo, vedere [Risoluzione dei problemi relativi al Compositore esperienza visivo](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md).
 
-1. (Condizionale) Se sei un cliente di [Target Premium](/help/main/c-intro/intro.md#premium), scegli un **[!UICONTROL Choose Workspace]** area di lavoro[ dall&#39;elenco a discesa ](/help/main/administrating-target/c-user-management/property-channel/property-channel.md).
+1. (Condizionale) Se sei un cliente di [Target Premium](/help/main/c-intro/intro.md#premium), scegli un **[!UICONTROL Choose Workspace]** area di lavoro[&#x200B; dall&#39;elenco a discesa &#x200B;](/help/main/administrating-target/c-user-management/property-channel/property-channel.md).
 
    L&#39;opzione [[!UICONTROL Choose Workplace]](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) è una funzionalità di [Target Premium](/help/main/c-intro/intro.md) e potrebbe non essere visualizzata se la tua organizzazione dispone di una licenza di [!UICONTROL Target Standard].
 

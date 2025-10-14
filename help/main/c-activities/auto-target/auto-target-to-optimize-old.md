@@ -136,7 +136,7 @@ Esistono diversi scenari in cui si preferisce utilizzare [!UICONTROL Auto-Target
 
 ### Gli addetti al marketing possono caricare dati offline, punteggi di propensione o altri dati personalizzati per creare modelli di personalizzazione.
 
-* Ulteriori informazioni sul caricamento di [ dati per [!UICONTROL Auto-Target] e [!UICONTROL Automated Personalization]](/help/main/c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md).
+* Ulteriori informazioni sul caricamento di [&#x200B; dati per [!UICONTROL Auto-Target] e [!UICONTROL Automated Personalization]](/help/main/c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md).
 
 ## Differenze tra [!UICONTROL Auto-Target] e [!UICONTROL Automated Personalization] {#section_BA4D83BE40F14A96BE7CBC7C7CF2A8FB}
 

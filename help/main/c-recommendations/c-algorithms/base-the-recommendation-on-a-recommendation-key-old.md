@@ -34,7 +34,7 @@ Diversi algoritmi di Recommendations si prestano a essere posizionati su diversi
 
 ## Basato su carrello {#cart-based}
 
-Il tipo di algoritmo [!UICONTROL Cart-Based] consente di consigliare gli elementi in base al contenuto del carrello corrente del visitatore. Le chiavi di consigli sono fornite tramite il parametro [`cartIds` di ](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=it){target=_blank}mbox in valori separati da virgola. Vengono considerati solo i primi 10 valori.
+Il tipo di algoritmo [!UICONTROL Cart-Based] consente di consigliare gli elementi in base al contenuto del carrello corrente del visitatore. Le chiavi di consigli sono fornite tramite il parametro [`cartIds` di &#x200B;](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=it){target=_blank}mbox in valori separati da virgola. Vengono considerati solo i primi 10 valori.
 
 La logica dei consigli basati sul carrello è simile all&#39;algoritmo basato sull&#39;utente &quot;[!UICONTROL Recommended For You]&quot; e agli algoritmi basati sull&#39;elemento &quot;[!UICONTROL People Who Viewed These, Bought Those]&quot; e &quot;[!UICONTROL People Who Bought These, Bought Those]&quot;.
 
