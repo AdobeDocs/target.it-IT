@@ -5,7 +5,7 @@ title: Quali sono i vari caratteri, dimensioni e altri limiti in  [!DNL Adobe Ta
 feature: Troubleshooting
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
-source-git-commit: 09874362863144992c69d4b79a935c9d9a769dc1
+source-git-commit: 720f70a97c5c9457f134085696dd79196c7869bc
 workflow-type: tm+mt
 source-wordcount: '1734'
 ht-degree: 74%
@@ -54,7 +54,7 @@ Limiti dei caratteri e altri limiti (dimensioni dell&#39;offerta, pubblico, prof
 
 ### Numero di tipi di pubblico per mbox, metrica ed esperienza
 
-* **Limite**: 50 spettatori
+* **Limite**: 50 tipi di pubblico
 
 ## Parametro categoryId
 
@@ -220,7 +220,7 @@ Limiti dei caratteri e altri limiti (dimensioni dell&#39;offerta, pubblico, prof
    * Parametri del profilo: 50
    * Lunghezza massima del nome del parametro: 128
    * Il valore del parametro di profilo non può essere null
-   * Lunghezza massima valore del parametro del profilo: 5000
+   * Lunghezza massima valore del parametro del profilo: 256
 
   **Endpoint API di consegna**:
 
@@ -231,7 +231,7 @@ Limiti dei caratteri e altri limiti (dimensioni dell&#39;offerta, pubblico, prof
    * Parametri del profilo: 50
    * Lunghezza massima del nome del parametro: 128
    * Il valore del parametro di profilo non può essere null
-   * Lunghezza massima valore del parametro del profilo: 5000
+   * Lunghezza massima valore del parametro del profilo: 256
 
 ### URL richieste mbox
 
