@@ -4,7 +4,7 @@ description: Scopri gli attributi specifici del visitatore che vengono memorizza
 title: Cosa sono gli attributi del profilo?
 feature: Audiences
 exl-id: 6c689629-bbd3-461e-9a68-5b16d4eb4250
-source-git-commit: 356b04745b58670b4bf39be929e785b8490d78ff
+source-git-commit: e45ac15a60c83e35b8b2b2ba29a42727faf746df
 workflow-type: tm+mt
 source-wordcount: '2426'
 ht-degree: 91%
@@ -271,8 +271,8 @@ Tutti gli operatori JavaScript standard sono presenti e utilizzabili. Gli operat
 | `<=` | Come `<` a meno che le variabili non siano uguali, nel qual caso restituisce true. |
 | `>=` | Come `>` a meno che le variabili non siano uguali, nel qual caso restituisce true. |
 | `&&` | Stabilisce una relazione logica di tipo “AND” tra le espressioni alla sua sinistra e alla sua desta: restituisce true solo quando entrambe le parti sono vere (in caso contrario restituisce false). |
-| `||` | Stabilisce una relazione logica di tipo “OR” tra le espressioni alla sua sinistra e alla sua desta: restituisce true solo quando una delle parti è true (in caso contrario restituisce false). |
-| `//` | Controlla se la sorgente contiene tutti gli elementi del formato booleano di destinazione (origine Array, destinazione Array).<br>`//` estrae la sottostringa dalla destinazione (corrispondente a regexp) e la decodifica `Array/*String*/ decode(String encoding, String regexp, String target)`.<br>La funzione supporta anche l’uso di valori stringa costanti, raggruppamenti (`condition1 || condition2) && condition3` ed espressioni regolari `/[^a-z]$/.test(landing.referring.url)`). |
+| `\|\|` | Stabilisce una relazione logica di tipo “OR” tra le espressioni alla sua sinistra e alla sua desta: restituisce true solo quando una delle parti è true (in caso contrario restituisce false). |
+| `//` | Controlla se la sorgente contiene tutti gli elementi del formato booleano di destinazione (origine Array, destinazione Array).<br>`//` estrae la sottostringa dalla destinazione (corrispondente a regexp) e la decodifica `Array/*String*/ decode(String encoding, String regexp, String target)`.<br>La funzionalità supporta inoltre l&#39;utilizzo di valori stringa costanti, raggruppamenti (`condition1 \|\| condition2) && condition3`) ed espressioni regolari (`/[^a-z]$/.test(landing.referring.url)`). |
 
 ## Video di formazione: script di profilo ![Icona esercitazione](/help/main/assets/tutorial.png)
 

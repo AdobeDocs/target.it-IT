@@ -3,7 +3,7 @@ user-guide-title: Guida di Adobe Target per professionisti aziendali
 breadcrumb-title: Guida di Target
 user-guide-description: Scopri come adattare e personalizzare l’esperienza dei clienti per massimizzare le entrate dai siti web e mobili, dalle app, dai social media e da altri canali digitali.
 feature-set: Target
-source-git-commit: c445775bc96623f9742f648a82ed9b4e64bd463a
+source-git-commit: e45ac15a60c83e35b8b2b2ba29a42727faf746df
 workflow-type: tm+mt
 source-wordcount: '1283'
 ht-degree: 84%
@@ -17,7 +17,7 @@ ht-degree: 84%
 + Note sulla versione di Target {#release-notes}
    + [Annunci ed eventi di Target](/help/main/r-release-notes/target-announcements.md)
    + [Note sulla versione di Target (corrente)](r-release-notes/release-notes.md)
-   + [Note sulla versione di Target (prerelease)](r-release-notes/target-release-notes.md)
+   + [Note sulla versione di Target (pre-release)](r-release-notes/target-release-notes.md)
    + [Panoramica della documentazione di Target](/help/main/r-release-notes/target-documentation.md)
    + [Aggiornamenti dello stato del sistema e notifiche proattive](r-release-notes/system-status-updates.md)
    + [Modifiche alla documentazione](r-release-notes/doc-change.md)
@@ -100,7 +100,7 @@ ht-degree: 84%
       + [Generazione di rapporti di Target in Adobe Customer Journey Analytics](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md)
    + Integrare Target con Adobe Journey Optimizer (AJO) {#ajo}
       + [Utilizzare le decisioni sulle offerte](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md)
-      + [Integrare [!DNL Adobe Target Recommendations] e [!DNL Adobe Journey Optimizer]](/help/main/c-integrating-target-with-mac/ajo/recs-ajo-integration.md) {#recs-ajo} {#hidden}
+      + [Integra [!DNL Adobe Target Recommendations] e [!DNL Adobe Journey Optimizer]](/help/main/c-integrating-target-with-mac/ajo/recs-ajo-integration.md)
       + Casi d’uso di Adobe Journey Optimizer {#use-cases}
          + [Casi d’uso principali per l’ottimizzazione in Adobe Journey Optimizer: canali web e basati su codice](/help/main/c-integrating-target-with-mac/ajo/top-ajo-use-cases.md)
          + [Modifiche al contenuto tramite test A/B in Adobe Journey Optimizer](/help/main/c-integrating-target-with-mac/ajo/content-change-using-ajo.md)
@@ -339,4 +339,4 @@ ht-degree: 84%
    + [Limiti](r-troubleshooting-target/target-limits.md)
 + API di Target {#apis}
    + [Panoramica API di Adobe Target](/help/main/api/api-overview.md)
-+ [Risorse e informazioni di contatto &#x200B;](cmp-resources-and-contact-information.md)
++ [Risorse e informazioni di contatto ](cmp-resources-and-contact-information.md)

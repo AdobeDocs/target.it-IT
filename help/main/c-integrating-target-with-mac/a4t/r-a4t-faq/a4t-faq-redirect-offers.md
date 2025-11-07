@@ -4,7 +4,7 @@ description: Risposte alle domande sull'utilizzo delle offerte di reindirizzamen
 title: Dove posso trovare domande frequenti sulle offerte di reindirizzamento con A4T?
 feature: Analytics for Target (A4T)
 exl-id: 4706057f-bd8b-4562-94e0-be22b2e19297
-source-git-commit: bb41de751246a77e71e65c11f020bc39f3105da6
+source-git-commit: e45ac15a60c83e35b8b2b2ba29a42727faf746df
 workflow-type: tm+mt
 source-wordcount: '1431'
 ht-degree: 50%
@@ -110,7 +110,7 @@ I seguenti parametri di stringa di richiesta sono associati alle offerte di rein
 
 | Parametro | Descrizione |
 |--- |--- |
-| `adobe_mc_sdid` | Il parametro `adobe_mc_sdid` passa l&#39;ID di dati supplementari (SDID) e l&#39;ID dell&#39;organizzazione di Experience Cloud dalla pagina predefinita alla nuova pagina. Questi ID consentono a A4T di &quot;unire&quot; la richiesta Target nella pagina predefinita con la richiesta Analytics nella nuova pagina.<br>Il formato previsto per il passaggio di sdid nell&#39;URL (per le app ibride o da un&#39;app al sito Web o da un sito Web a un altro) è `ex. adobe_mc_sdid=SDID=123|MCORGID=123456789@AdobeOrg|TS=1498569322` |
+| `adobe_mc_sdid` | Il parametro `adobe_mc_sdid` passa l&#39;ID di dati supplementari (SDID) e l&#39;ID dell&#39;organizzazione di Experience Cloud dalla pagina predefinita alla nuova pagina. Questi ID consentono a A4T di &quot;unire&quot; la richiesta Target nella pagina predefinita con la richiesta Analytics nella nuova pagina.<br>Il formato previsto per il passaggio di sdid nell&#39;URL (per le app ibride o da un&#39;app al sito Web o da un sito Web a un altro) è `ex. adobe_mc_sdid=SDID=123\|MCORGID=123456789@AdobeOrg\|TS=1498569322` |
 | `adobe_mc_ref` | Il parametro `adobe_mc_ref` passa l’URL di riferimento della pagina predefinita alla nuova pagina. Se utilizzato con AppMeasurement.js versione 2.1 (o successiva), Analytics utilizza questo valore di parametro come URL di riferimento nella nuova pagina. |
 
 Questi parametri vengono aggiunti automaticamente agli URL di reindirizzamento quando si utilizzano le offerte di reindirizzamento incorporate nel Compositore esperienza visivo e nel Compositore esperienza basato su modulo quando il servizio ID visitatore viene implementato nella pagina. Se utilizzi un codice di reindirizzamento personalizzato nel Compositore esperienza visivo o nel Compositore basato su moduli, assicurati di passare questi parametri con il codice personalizzato.
