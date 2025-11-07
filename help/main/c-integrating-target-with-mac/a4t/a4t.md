@@ -48,7 +48,7 @@ Considerazioni importanti per l’utilizzo di A4T:
 
 ## Implementazione di A4T
 
-Per informazioni sull’implementazione di A4T con at.js e [!DNL Adobe Experience Platform Web SDK], consulta [Implementazione di Analytics for  [!DNL Target] ](/help/main/c-integrating-target-with-mac/a4t/a4timplementation.md).
+Per informazioni sull’implementazione di A4T con at.js e [!DNL Adobe Experience Platform Web SDK], consulta [Implementazione di Analytics for  [!DNL Target] &#x200B;](/help/main/c-integrating-target-with-mac/a4t/a4timplementation.md).
 
 ## Tipi di attività supportati {#section_F487896214BF4803AF78C552EF1669AA}
 
@@ -122,7 +122,7 @@ Questo video è una registrazione di “ [Office Hours](/help/main/cmp-resources
 
 >[!MORELIKETHIS]
 >
->* [Implementazione di Analytics for  [!DNL Target] ](/help/main/c-integrating-target-with-mac/a4t/a4timplementation.md): contiene informazioni sull’implementazione per at.js e Platform Web SDK.
+>* [Implementazione di Analytics for  [!DNL Target] &#x200B;](/help/main/c-integrating-target-with-mac/a4t/a4timplementation.md): contiene informazioni sull’implementazione per at.js e Platform Web SDK.
 >* [Offerte di reindirizzamento: domande frequenti su A4T](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md)
 >* [Cos’è Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=it): contiene informazioni generali su Platform Web SDK.
 >* [Panoramica di Target](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/adobe-target/target-overview.html?lang=it): contiene informazioni specifiche di [!DNL Target] e [!DNL Platform Web SDK].
