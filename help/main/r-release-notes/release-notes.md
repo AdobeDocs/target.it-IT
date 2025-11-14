@@ -6,10 +6,10 @@ short-description: Scopri le nuove funzioni, i miglioramenti e le correzioni inc
 title: Cosa è incluso nella versione corrente?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 693b862bc39fc3b1b7d93988bd80cdd51657354b
+source-git-commit: e5bc137ed1f32b07569a4f1a31746da19fb164d3
 workflow-type: tm+mt
-source-wordcount: '1430'
-ht-degree: 19%
+source-wordcount: '1736'
+ht-degree: 17%
 
 ---
 
@@ -28,6 +28,25 @@ Per gli aggiornamenti sensibili al tempo relativi a [!DNL Adobe Target] e alla t
 ### La versione dell&#39;interfaccia utente [!DNL Target] è deprecata
 
 Per ulteriori informazioni, vedere [[!DNL Target] Domande frequenti sull&#39;aggiornamento dell&#39;interfaccia utente](/help/main/c-intro/updated-ui-faq.md).
+
+## [!DNL Target Standard/Premium] 25.11.2 (14 novembre 2025)
+
+**Offerte decisionali**
+
++++Vedi i dettagli
+* **Decisioni di offerta con selettori nascosti o non validi non modificabili nell&#39;interfaccia utente aggiornata.** È stato risolto un problema nell&#39;interfaccia utente aggiornata a causa del quale non era possibile modificare le decisioni sulle offerte associate a selettori nascosti o non validi a meno che l&#39;elemento non fosse visibile nel Compositore esperienza visivo. La modifica è ora supportata direttamente dal pannello, ripristinando le funzionalità disponibili nell’interfaccia utente legacy e garantendo che le decisioni sulle offerte possano essere modificate indipendentemente dalla visibilità del selettore. (TGT-53899)
+
++++
+
+**Raccomandazioni**
+
++++Vedi i dettagli
+* **La modifica dei criteri in un&#39;attività ha causato l&#39;arresto anomalo della pagina.** È stato risolto un problema nell&#39;interfaccia utente aggiornata a causa del quale la modifica dei criteri di attività causava l&#39;arresto anomalo della pagina con errori della console relativi a `useCrudActionsCtx`. L’editor dei criteri ora carica e funziona correttamente, garantendo che le attività possano essere modificate senza interruzioni. (TGT-53971)
+* La colonna **[!UICONTROL Message]non è riuscita a intermittenza a visualizzare i dati del prodotto nell&#39;interfaccia utente aggiornata.** È stato risolto un problema nell&#39;interfaccia utente [!UICONTROL Recommendations] aggiornata a causa del quale la colonna [!UICONTROL Message] in [!UICONTROL Catalog Search] non poteva visualizzare i dati del prodotto in modo intermittente, anche se nel feed erano presenti valori. La colonna ora mostra in modo coerente i valori dei messaggi corretti in tutti i prodotti, garantendo una visibilità affidabile senza richiedere la riconfigurazione manuale delle colonne. (TGT-52777)
+* Il pulsante **[!UICONTROL Download Recommendations Data]non è visibile dopo il salvataggio dell&#39;attività nell&#39;interfaccia utente aggiornata.** È stato risolto un problema nell&#39;interfaccia utente aggiornata a causa del quale il pulsante [!UICONTROL Download Recommendations Data] non veniva visualizzato per alcune attività salvate, anche dopo il nuovo salvataggio. Il pulsante ora viene visualizzato in modo coerente in tutte le attività, garantendo agli utenti di esportare in modo affidabile i dati dei consigli senza dover ricorrere a soluzioni alternative. (TGT-53802)
+* **L&#39;apertura di alcuni prodotti da una raccolta ha restituito &quot;Impossibile trovare la risorsa richiesta&quot; e la finestra modale non conteneva un&#39;opzione di chiusura.** È stato risolto un problema nell&#39;interfaccia utente di Recommendations aggiornata a causa del quale l&#39;apertura di alcuni prodotti da una raccolta causava un errore di tipo &quot;Impossibile trovare la risorsa richiesta&quot; e mostrava un modale vuoto senza un&#39;opzione di chiusura. La finestra modale ora carica correttamente i dettagli del prodotto ed è sempre disponibile un’opzione di chiusura per uscire correttamente. (TGT-53986)
+
++++
 
 ## [!DNL Target Standard/Premium] 25.11.1 (10 novembre 2025)
 
@@ -79,18 +98,18 @@ Per ulteriori informazioni, vedere [[!DNL Target] Domande frequenti sull&#39;agg
 **[!UICONTROL Reports]**
 
 +++Vedi i dettagli
-* Le posizioni di **[!UICONTROL Multivariate Test] (MVT) e il problema di generazione dei rapporti sui grafici hanno impedito la generazione dei rapporti.** È stato risolto un problema che impediva alle attività MVT di generare i report [!UICONTROL Location Contribution] e Graph nell&#39;interfaccia utente di Target, causando la visualizzazione dell&#39;errore &quot;Si è verificato un errore. Non possiamo completare la tua richiesta.&quot; I rapporti ora vengono caricati correttamente nell’interfaccia utente, garantendo piena visibilità. (TGT-53654)
+* Le posizioni di **[!UICONTROL Multivariate Test](MVT) e il problema di generazione dei rapporti sui grafici hanno impedito la generazione dei rapporti.** È stato risolto un problema che impediva alle attività MVT di generare i report [!UICONTROL Location Contribution] e Graph nell&#39;interfaccia utente di Target, causando la visualizzazione dell&#39;errore &quot;Si è verificato un errore. Non possiamo completare la tua richiesta.&quot; I rapporti ora vengono caricati correttamente nell’interfaccia utente, garantendo piena visibilità. (TGT-53654)
 * **Impossibile caricare i report MVT a causa di [!UICONTROL Element] errore di report dei contributi.** È stato risolto un problema che impediva il caricamento dei rapporti attività MVT nell&#39;interfaccia utente di Target, mostrando l&#39;errore &quot;Impossibile recuperare il rapporto sul contributo degli elementi&quot;. I rapporti ora vengono visualizzati correttamente, garantendo la piena visibilità dei contributi degli elementi. (TGT-53691)
 * **Esporta i dettagli dell&#39;ordine in problema CSV per [!UICONTROL Experience Targeting] attività (XT).** È stato risolto un problema che causava la visualizzazione errata dell&#39;opzione [!UICONTROL Export Order Details to CSV] per le attività XT e la restituzione di un file vuoto. L’opzione ora viene visualizzata solo per le attività di Personalizzazione automatizzata, garantendo funzionalità di esportazione accurate e evitando confusione. (TGT-53798)
 
 +++
 
-**[!UICONTROL Visual Experience Composer] (VEC)**
+**[!UICONTROL Visual Experience Composer](VEC)**
 
 +++Vedi i dettagli
 * Il problema del pulsante **[!UICONTROL Delete Modification]ha impedito la rimozione delle modifiche dell&#39;attività.** È stato risolto un problema che impediva il funzionamento del pulsante [!UICONTROL Delete Modification] nell&#39;interfaccia utente di [!DNL Target], impedendo agli utenti di rimuovere le modifiche all&#39;interno delle attività. Il pulsante ora funziona come previsto, consentendo la cancellazione delle modifiche in modo affidabile e senza ritardi. (TGT-53728)
 * **Selettori preferiti non riconosciuti nell&#39;interfaccia utente aggiornata.** È stato risolto un problema nell&#39;interfaccia utente aggiornata a causa del quale i selettori preferiti, ad esempio `data-target-component-id`, non venivano visualizzati nell&#39;elenco dei selettori CSS nel Compositore esperienza visivo. Gli utenti possono ora selezionare in modo affidabile gli attributi preferiti invece dei nomi di classe generati in modo dinamico, garantendo un targeting stabile tra gli aggiornamenti della pagina delle applicazioni a pagina singola. (TGT-53908)
-* **Allineamento posizione attività non corrispondente tra [!UICONTROL Edit] e [!UICONTROL Overview] pagine.** È stato risolto un problema che impediva l&#39;allineamento della numerazione dei percorsi delle attività nella pagina [!UICONTROL Overview] con gli aggiornamenti effettuati nella pagina [!UICONTROL &#x200B; Edit Experience]. Le posizioni ora rimangono coerenti tra le due viste, garantendo un allineamento accurato ed evitando posizioni mancanti o con numeri errati. (TGT-53960 e TGT-53954)
+* **Allineamento posizione attività non corrispondente tra [!UICONTROL Edit] e [!UICONTROL Overview] pagine.** È stato risolto un problema che impediva l&#39;allineamento della numerazione dei percorsi delle attività nella pagina [!UICONTROL Overview] con gli aggiornamenti effettuati nella pagina [!UICONTROL  Edit Experience]. Le posizioni ora rimangono coerenti tra le due viste, garantendo un allineamento accurato ed evitando posizioni mancanti o con numeri errati. (TGT-53960 e TGT-53954)
 * **Impossibile tornare alla modalità [!UICONTROL Design] nel Compositore esperienza visivo aggiornato.** è stato risolto un problema nell&#39;interfaccia utente del Compositore esperienza visivo aggiornata a causa del quale gli utenti non potevano tornare alla modalità [!UICONTROL Design] dopo essere passati a una nuova pagina in modalità [!UICONTROL Browse]. L&#39;interruttore [!UICONTROL Design] ora funziona correttamente e consente di applicare le modifiche in modo semplice su più pagine. (TGT-53988 e TGT-53993)
 * **Parametro query non visualizzato nella panoramica attività.** È stato risolto un problema nell&#39;interfaccia utente aggiornata a causa del quale i parametri di query non venivano visualizzati nella pagina [!UICONTROL Overview] per le attività, causando discrepanze tra [!UICONTROL Overview] e gli URL di consegna della pagina. I parametri di query ora vengono visualizzati correttamente, garantendo che le posizioni delle attività siano completamente rappresentate e coerenti tra le viste. (TGT-53701)
 
