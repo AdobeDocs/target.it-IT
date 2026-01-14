@@ -4,10 +4,10 @@ description: Scopri le nozioni di base di Adobe Target. Questo articolo presenta
 title: Come si utilizza Target?
 feature: Overview
 exl-id: c9555d79-d505-41ff-ba4b-ab94793f9efa
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 122484056e73f8f679312a3e776e623d905701d5
 workflow-type: tm+mt
-source-wordcount: '1523'
-ht-degree: 97%
+source-wordcount: '1524'
+ht-degree: 95%
 
 ---
 
@@ -61,7 +61,7 @@ Un’esperienza è costituita da offerte, risorse immagine o altri elementi HTML
 
 Un’esperienza può essere rappresentata anche da una diversa progettazione di pagina. Ad esempio, è possibile che un’esperienza includa un insieme di collegamenti nella parte superiore della pagina, e un’altra includa collegamenti diversi o gli stessi disposti in un diverso ordine. Potrebbe essere utile verificare se un’immagine fornisce un incremento maggiore di un’altra, o se è più probabile che venga fatto clic su un annuncio nella parte superiore della pagina piuttosto che un’altra posizione.
 
-Con [!DNL Target] è possibile ottimizzare le esperienze per ogni visitatore nei diversi ambienti digitali, sottoponendo a test esperienze diverse per determinare quale avrà maggior successo. Mediante un targeting delle esperienze attentamente pianificato, puoi fare in modo che i visitatori del sito ricevano le offerte più rilevanti nelle posizioni migliori sulla pagina, ottimizzando le probabilità di successo di una visita.
+[!DNL Target] ottimizza le esperienze per ogni visitatore nei tuoi punti di contatto digitali e le sottopone a test per determinare quale avrà maggior successo. Mediante un targeting delle esperienze attentamente pianificato, puoi fare in modo che i visitatori del sito ricevano le offerte più rilevanti nelle posizioni migliori sulla pagina, ottimizzando le probabilità di successo di una visita.
 
 ## Offerte {#section_973D4CC4CEB44711BBB9A21BF74B89E9}
 
@@ -115,7 +115,7 @@ Questo video spiega i tipi di attività disponibili in [!DNL Target Standard/Pre
 * Selezionare il tipo di attività appropriato per i tuoi obiettivi
 * Descrizione del flusso di lavoro guidato in tre passaggi da applicare a tutti i tipi di attività
 
->[!VIDEO](https://video.tv.adobe.com/v/36365?captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/17386)
 
 ### Utilizzo dei tipi di pubblico in Adobe Target (6:21) ![Icona Panoramica](/help/main/assets/overview.png)
 
@@ -127,4 +127,4 @@ Questo video spiega come utilizzare i tipi di pubblico in [!DNL Target Standard/
 * Indirizzare unʼattività a un pubblico
 * Utilizzare i tipi di pubblico per la reportistica passiva in un’attività
 
->[!VIDEO](https://video.tv.adobe.com/v/36328?captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/17398)

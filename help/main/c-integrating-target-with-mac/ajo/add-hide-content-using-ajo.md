@@ -7,9 +7,9 @@ feature: Integrations
 hide: true
 hidefromtoc: true
 exl-id: 8c4fba88-908e-4742-ac4b-bdf7f4c882db
-source-git-commit: 52f11998149cddeb4245a0f07280562d79332a04
+source-git-commit: 122484056e73f8f679312a3e776e623d905701d5
 workflow-type: tm+mt
-source-wordcount: '584'
+source-wordcount: '585'
 ht-degree: 1%
 
 ---
@@ -26,7 +26,7 @@ Questo caso d&#39;uso è progettato per dimostrare come eseguire attività famil
 
 * **Migliora il coinvolgimento degli utenti**: attira l&#39;attenzione degli utenti con una progettazione di pagina ottimizzata che evidenzia informazioni rilevanti, come le promozioni.
 * **Migliore individuabilità**: posizionamento strategico di nuovi componenti o contenuti nelle app Web o mobili per semplificare le azioni e migliorare la navigazione.
-* **Aumenta punti di contatto aggiuntivi**: guida efficacemente gli utenti verso eventi di conversione e obiettivi per accelerare l&#39;impatto aziendale.
+* **Aumento di punti di contatto aggiuntivi**: guida efficacemente gli utenti verso eventi di conversione e obiettivi per accelerare l&#39;impatto aziendale.
 
 ## Scenari possibili
 
@@ -38,7 +38,7 @@ Questo caso d&#39;uso è progettato per dimostrare come eseguire attività famil
 
 >[!NOTE]
 >
->Le istruzioni in questa sezione evidenziano i passaggi necessari per modificare un’immagine e utilizzare gli attributi del profilo per personalizzare i messaggi di testo. Per ulteriori informazioni sulle opzioni disponibili nel Web Designer [!DNL Journey Optimizer], vedere [Utilizzare il Web Designer](https://experienceleague.adobe.com/it/docs/journey-optimizer/using/channels/web/author-web-pages/web-visual-editor){target=_blank} nella *documentazione di Journey Optimizer*.
+>Le istruzioni in questa sezione evidenziano i passaggi necessari per modificare un’immagine e utilizzare gli attributi del profilo per personalizzare i messaggi di testo. Per ulteriori informazioni sulle opzioni disponibili nel Web Designer [!DNL Journey Optimizer], vedere [Utilizzare il Web Designer](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/web/author-web-pages/web-visual-editor){target=_blank} nella *documentazione di Journey Optimizer*.
 >
 >Il video nella parte inferiore della pagina è particolarmente utile.
 
@@ -64,7 +64,7 @@ Per aggiungere o nascondere componenti nella pagina Web, effettua le seguenti op
 
    Una configurazione web, o superficie di canale, è una configurazione definita da un amministratore di sistema. La configurazione web contiene tutti i parametri tecnici per l’invio del messaggio, ad esempio il parametro di intestazione, il sottodominio, le app mobili e così via.
 
-   Per ulteriori informazioni, vedere [Configurare le superfici di canale](https://experienceleague.adobe.com/it/docs/journey-optimizer/using/configuration/channel-surfaces#set-up-channel-surfaces){target=_blank} nella *documentazione di Journey Optimizer*.
+   Per ulteriori informazioni, vedere [Configurare le superfici di canale](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/configuration/channel-surfaces#set-up-channel-surfaces){target=_blank} nella *documentazione di Journey Optimizer*.
 
 1. Nella sezione **[!UICONTROL Action]**, fare clic su **[!UICONTROL Edit Content]** per aprire il sito Web nel Web Designer [!DNL Journey Optimizer].
 
@@ -91,9 +91,9 @@ Fare clic sul pulsante [!UICONTROL Reports], quindi fare clic sul periodo di rep
 * [!UICONTROL View all time report]
 * [!UICONTROL View last 24hrs report]
 
-Per ulteriori informazioni, vedere [Introduzione alla nuova interfaccia di reporting](https://experienceleague.adobe.com/it/docs/journey-optimizer/using/channel-report/report-gs-cja){target=_blank} nella *documentazione di Journey Optimizer*.
+Per ulteriori informazioni, vedere [Introduzione alla nuova interfaccia di reporting](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channel-report/report-gs-cja){target=_blank} nella *documentazione di Journey Optimizer*.
 
 >[!MORELIKETHIS]
 >
->[Utilizzare la finestra di progettazione Web](https://experienceleague.adobe.com/it/docs/journey-optimizer/using/channels/web/author-web-pages/web-visual-editor){target=_blank} nella *documentazione di Journey Optimizer*
->&#x200B;>[Crea una campagna](https://experienceleague.adobe.com/it/docs/journey-optimizer-learn/tutorials/create-campaigns/create-a-campaign){target=_blank} in *Esercitazioni Journey Optimizer*
+>[Utilizzare la finestra di progettazione Web](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/web/author-web-pages/web-visual-editor){target=_blank} nella *documentazione di Journey Optimizer*
+>[Crea una campagna](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/create-campaigns/create-a-campaign){target=_blank} in *Esercitazioni Journey Optimizer*

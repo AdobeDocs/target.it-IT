@@ -4,10 +4,10 @@ description: Avvia il programma di ottimizzazione e personalizzazione con Adobe 
 title: Come si inizia a utilizzare Target?
 feature: Overview
 exl-id: c7943c6d-03c9-439c-9e1a-1ad805c18073
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 122484056e73f8f679312a3e776e623d905701d5
 workflow-type: tm+mt
-source-wordcount: '378'
-ht-degree: 100%
+source-wordcount: '380'
+ht-degree: 91%
 
 ---
 

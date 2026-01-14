@@ -2,13 +2,13 @@
 keywords: aree di lavoro;gestire proprietà;autorizzazioni;configurazione prodotto;profilo prodotto;ruoli;progetto;osservatore;editor;approvatore;publisher
 description: Scopri come creare aree di lavoro separate (profili di prodotto) e quindi assegnare agli utenti ruoli e autorizzazioni diversi per singole pagine, proprietà o siti web.
 title: Quali sono le autorizzazioni per gli utenti Enterprise e come si utilizzano?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=it#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."
 feature: Administration & Configuration
 role: Admin
 exl-id: 838abe87-dba7-4274-97b4-31a7905846dc
-source-git-commit: 12831d6584acc482db415629d7e70a18e39c47c2
+source-git-commit: 122484056e73f8f679312a3e776e623d905701d5
 workflow-type: tm+mt
-source-wordcount: '3165'
+source-wordcount: '3166'
 ht-degree: 48%
 
 ---
@@ -163,7 +163,7 @@ Se fai parte di un’azienda multinazionale, potresti avere un’area di lavoro 
 
   Siccome Ernie non ha un ruolo che richiede la sua visualizzazione del sito Russia, del sito Francia, o del sito carriere, non può vedere le attività per quei siti.
 
-* **Diana**: Diana è ora un’analista per l’organizzazione e le sono stati concessi i permessi di osservatore per la homepage degli Stati Uniti, il sito degli Stati Uniti, le pagine dei prodotti, il sito Russia e il sito di Francia, che le consentono un accesso in sola lettura alle attività. Diana può visualizzare le attività, ma non può crearle o modificarle.
+* **Diana**: Diana è ora un’analista per l’organizzazione e le sono state concesse le autorizzazioni di osservatore per la pagina home degli Stati Uniti, il sito degli Stati Uniti, le pagine dei prodotti, il sito Russia e il sito di Francia. Con queste autorizzazioni può accedere in sola lettura alle attività. Diana può visualizzare le attività, ma non può crearle o modificarle.
 
   Siccome Diana non ha alcun ruolo che richiede la sua visualizzazione del sito carriere, lei non può vedere le attività per quei siti.
 
@@ -236,7 +236,7 @@ Quando si utilizzano o si configurano proprietà e autorizzazioni in [!DNL Targe
 * Le risorse seguenti *non* fanno parte del nuovo modello di autorizzazioni Enterprise:
 
    * Offerte immagine
-   * Tutte le risorse di Recommendations, inclusi Libreria criteri, Libreria progettazioni, Catalogo, Configurazione Recommendations.
+   * Tutte le risorse per la funzione Consigli, inclusi Libreria criteri, Libreria progettazioni, Catalogo, Configurazione consigli.
    * Le risorse esistenti (ad esempio attività, offerte di codice e tipi di pubblico) create all’interno di Target Premium prima di abilitare le autorizzazioni Enterprise possono essere copiate ma non possono essere spostate in altre aree di lavoro.
    * Le attività, i tipi di pubblico, le offerte basate su codice, le offerte immagini o qualsiasi altra risorsa creata utilizzando le soluzioni o i metodi seguenti non possono essere controllate dal modello di autorizzazioni Enterprise, ma fanno parte di Workspace predefinito: Target Classic, Adobe Experience Manager (AEM), Adobe Mobile Services e le risorse create tramite API. Le risorse create tramite API includono le attività, i tipi di pubblico, le offerte basate su codice e le offerte di immagini.
    * Le offerte di immagini (le risorse archiviate in `https://[tenantName].marketing.adobe.com/content/mac/[tenantName]/target/offers.html#image-library` non possono essere attualmente controllate dal modello di autorizzazioni Enterprise.
@@ -310,7 +310,7 @@ Finalità di apprendimento:
 * I concetti di Proprietà e Aree di lavoro e come funzionano questi limiti e raggruppamenti per consentire il controllo sui livelli di accesso degli utenti
 * Diversi esempi di Proprietà da considerare per la tua organizzazione
 
->[!VIDEO](https://video.tv.adobe.com/v/3421738?captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/19042/)
 
 ### Orario ufficio: [!DNL Target] aree di lavoro Premium
 
