@@ -48,7 +48,7 @@ Rimani aggiornato con [!DNL Target] versioni.
 **[!DNL Adobe] dispone di una community o un forum in cui è possibile trovare risposte e ulteriori informazioni su [!DNL Target]?**
 
 +++Vedi i dettagli
-Connettiti con altri professionisti di [!DNL Target] nel [Forum della community di Target](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community){target=_blank}. Condividi le tue competenze, fai domande e collabora con altri utenti che utilizzano [!DNL Target] per promuovere la personalizzazione e la sperimentazione. Una comunità fiorente dipende dalla partecipazione attiva. Le tue conoscenze ed esperienze possono aiutare gli altri a raggiungere il successo. Entra, contribuisci e trova le risposte che ti servono.
+Connettiti con altri professionisti di [!DNL Target] nel [Forum della community di Target](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community?profile.language=it){target=_blank}. Condividi le tue competenze, fai domande e collabora con altri utenti che utilizzano [!DNL Target] per promuovere la personalizzazione e la sperimentazione. Una comunità fiorente dipende dalla partecipazione attiva. Le tue conoscenze ed esperienze possono aiutare gli altri a raggiungere il successo. Entra, contribuisci e trova le risposte che ti servono.
 
 +++
 

@@ -27,7 +27,7 @@ Scopri [!UICONTROL Adobe Target Community]: il tuo hub per approfondimenti e col
 
 Partecipa alla conversazione, fornisci le tue competenze e ottieni le risposte che ti servono, il tutto in un&#39;unica posizione.
 
-Visita il [Forum della Community di Target](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community) per iniziare.
+Visita il [Forum della Community di Target](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community?profile.language=it) per iniziare.
 
 +++
 
@@ -68,7 +68,7 @@ L’Assistenza clienti è a disposizione per aiutarti a risolvere qualsiasi pote
 
 In caso di problemi o domande durante l&#39;uso di Target, sono disponibili varie alternative
 
-Se hai domande, puoi chiedere agli esperti di Adobe Target nella [Community Adobe Target](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community){target=_blank}.
+Se hai domande, puoi chiedere agli esperti di Adobe Target nella [Community Adobe Target](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community?profile.language=it){target=_blank}.
 
 Per questioni tecniche o per segnalare un bug puoi contattare l&#39;assistenza clienti. Puoi contattare l&#39;assistenza clienti telefonicamente, chiamando il numero 1-800-497-0335. Puoi trovare i numeri verdi da chiamare se vivi al di fuori degli Stati Uniti sulla pagina [Numeri regionali dell’assistenza clienti di Adobe Digital Marketing](https://helpx.adobe.com/it/contact/dma-external/DMACustomeCareRegionalPhoneNumbers.html). Quando ti viene richiesto di selezionare un&#39;opzione per il prodotto, premi 3 per contattare il team di Target.
 
@@ -119,7 +119,7 @@ In base alla configurazione della soluzione, alcune opzioni descritte in questa 
 
 ### Feedback {#section_8154D6D712054220A90D85FA8E92933E}
 
-Siamo lieti di ricevere qualsiasi suggerimento o feedback sulla soluzione. È possibile aggiungere idee e suggerimenti migliorativi alla [Community Adobe Target Experience League](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community). Fare clic sulla scheda [!UICONTROL Ideas].
+Siamo lieti di ricevere qualsiasi suggerimento o feedback sulla soluzione. È possibile aggiungere idee e suggerimenti migliorativi alla [Community Adobe Target Experience League](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community?profile.language=it). Fare clic sulla scheda [!UICONTROL Ideas].
 
 ### Note legali {#section_A6E1844D4AC2485CADBF6D05116E3D59}
 

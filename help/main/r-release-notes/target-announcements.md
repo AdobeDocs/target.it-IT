@@ -22,7 +22,7 @@ Annunci e informazioni sui prossimi eventi di [!DNL Adobe Target], che includono
 * **High Performance Recommendations Webinar Follow-up Questions (Part 2 of Personalization Maturity Series)**
 * **Wednesday, February 28, 2024**
 * **8:00 - 9:00 (PST -8 GMT)**
-* **[Registration information](https://experienceleaguecommunities.adobe.com/t5/target-community-events/at-community-q-amp-a-coffee-break-wednesday-2-28-24-8am-pt-high/ec-p/647204/thread-id/123){target=_blank}**
+* **[Registration information](https://experienceleaguecommunities.adobe.com/t5/target-community-events/at-community-q-amp-a-coffee-break-wednesday-2-28-24-8am-pt-high/ec-p/647204/thread-id/123?profile.language=it){target=_blank}**
 
 +++Details
 
@@ -32,9 +32,9 @@ Join [!DNL Adobe Target] experts Cristinel Anastasoaie, Brent Kostak, and Timoth
 * How a non-technical user or marketer is in full control of configuring and managing the algorithms.
 * How to use AI and custom features with recommendations to unlock use cases that have immense impact on reduction in clicks and increasing revenue.
 
-If you missed the original webinar, [listen to the recording](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/upcoming-webinar-2024-1-16-24-p1-adobe-target-personalization/td-p/639284){target=_blank}.
+If you missed the original webinar, [listen to the recording](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/upcoming-webinar-2024-1-16-24-p1-adobe-target-personalization/td-p/639284?profile.language=it){target=_blank}.
 
-Be sure to register for Part 3 of the Webinar Series coming up on 3/12/24, covering "[Unlocking AI Powered Recommendations](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/upcoming-webinar-2024-3-12-24-p3-adobe-target-personalization/m-p/639301/thread-id/3686){target=_blank}."
+Be sure to register for Part 3 of the Webinar Series coming up on 3/12/24, covering "[Unlocking AI Powered Recommendations](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/upcoming-webinar-2024-3-12-24-p3-adobe-target-personalization/m-p/639301/thread-id/3686?profile.language=it){target=_blank}."
 
 +++ -->
 
@@ -58,13 +58,13 @@ Perché dovresti partecipare:
 
   L’intelligenza artificiale e l’apprendimento automatico sono alla base della maturità nella personalizzazione. [!DNL Adobe Target] sfrutta queste tecnologie per comprendere il comportamento degli utenti, prevedere le preferenze e adattare dinamicamente i contenuti. Sfruttando la potenza dell’intelligenza artificiale e dell’apprendimento automatico, potrai scoprire come i brand si stanno muovendo oltre i test A/B statici e la personalizzazione basata su regole per fornire esperienze dinamiche e contestualmente rilevanti.
 
-  [Ascolta la registrazione.](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/upcoming-webinar-2024-1-16-24-p1-adobe-target-personalization/td-p/639284){target=_blank}
+  [Ascolta la registrazione.](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/upcoming-webinar-2024-1-16-24-p1-adobe-target-personalization/td-p/639284?profile.language=it){target=_blank}
 
 * **Consigli per prestazioni elevate**
 
   Scopri come gli algoritmi dei consigli possono cambiare le regole del gioco per le aziende, stimolando coinvolgimento ed entrate. Dai suggerimenti sui prodotti personalizzati ai consigli sui contenuti, la possibilità di guidare gli utenti in modo semplice attraverso il percorso contribuisce direttamente a sbloccare una crescita aziendale significativa.
 
-  [Ascolta la registrazione.](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/webinar-recording-2-13-24-p2-adobe-target-personalization/m-p/639295#M3685){target=_blank}
+  [Ascolta la registrazione.](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/webinar-recording-2-13-24-p2-adobe-target-personalization/m-p/639295?profile.language=it#M3685){target=_blank}
 
 * **Sbloccare la personalizzazione basata sull’intelligenza artificiale**
 

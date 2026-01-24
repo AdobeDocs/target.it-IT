@@ -3989,7 +3989,7 @@ Questa versione di [!DNL Target] include i miglioramenti e le correzioni seguent
   </tr> 
   <tr> 
    <td colname="col1"> <p>Nuova posizione del Forum di Target </p> </td> 
-   <td colname="col2"> <p> Il Forum di Target è stato spostato nella nuova <a href="https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community" format="https" scope="external">Piattaforma di Adobe Community</a>. </p> </td> 
+   <td colname="col2"> <p> Il Forum di Target è stato spostato nella nuova <a href="https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community?profile.language=it" format="https" scope="external">Piattaforma di Adobe Community</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
