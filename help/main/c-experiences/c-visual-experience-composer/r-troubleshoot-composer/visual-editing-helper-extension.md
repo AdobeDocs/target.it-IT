@@ -4,10 +4,10 @@ description: Scopri perché alcuni siti web potrebbero non essere aperti in modo
 title: Come si utilizza l'estensione [!UICONTROL Visual Editing Helper]?
 feature: Visual Experience Composer (VEC)
 exl-id: e5aeb8b9-fab5-4ad4-882e-2106d2c9daab
-source-git-commit: c41580bcbecf2eb2c14f13ce8e66e854c655d059
+source-git-commit: 86139b5971f98091affefd771d9d138e31574727
 workflow-type: tm+mt
-source-wordcount: '672'
-ht-degree: 64%
+source-wordcount: '765'
+ht-degree: 56%
 
 ---
 
@@ -18,6 +18,17 @@ L&#39;estensione del browser [!DNL Adobe Experience Cloud] [!UICONTROL Visual Ed
 >[!IMPORTANT]
 >
 >* Questa nuova estensione sostituisce la precedente [Estensione Target VEC Helper per browser](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md). Consulta la nota importante nella parte superiore di tale articolo. A causa dei miglioramenti della sicurezza in Manifest v3, [!DNL Adobe] richiede il download di questa nuova estensione per continuare a creare visivamente i siti Web in [!DNL Target].
+
+## Modifiche all&#39;estensione [!UICONTROL Visual Editing Helper] (17 gennaio 2026)
+
+### **È stato risolto un problema aggiungendo la nuova funzione sperimentale di pulizia dei cookie di avvio in VEC Helper.**
+
+* È stato risolto un problema aggiungendo una nuova funzione sperimentale di pulizia dei cookie di avvio in VEC Helper.
+* Questo miglioramento migliora le prestazioni e l’affidabilità pulendo i cookie non partizionati una volta per scheda all’inizio dell’authoring, anziché continuamente.
+* La funzione tiene traccia della cronologia delle schede per evitare la pulizia ridondante e cancella la cronologia alla chiusura delle schede, in modo che la pulizia si comporti correttamente quando una scheda viene riaperta.
+* Sono stati aggiunti test di unità completi per garantire un comportamento coerente.
+
+![Nuove opzioni del Compositore esperienza visivo](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper.png)
 
 ## Motivi per cui alcuni siti web potrebbero non aprirsi in modo affidabile nel Compositore esperienza visivo
 
@@ -56,7 +67,7 @@ L&#39;estensione del browser [!DNL Adobe Experience Cloud] [!UICONTROL Visual Ed
 * I messaggi seguenti ti mantengono informato:
 
    * Se il caricamento di un sito web utilizzando il Compositore esperienza visivo non riesce, appare un messaggio per suggerirti di installare l&#39;estensione del browser [!UICONTROL Visual Editing Helper].
-   * Se at.js o alloy.js non è ancora implementato sul sito web, nel Compositore esperienza visivo appare un messaggio per suggerirti di installare l’estensione.
+   * Se at.js o alloy.js non è ancora implementato sul sito web, nel Compositore esperienza visivo viene visualizzato un messaggio per suggerirti di installare l’estensione.
 * Se provi a utilizzare la nuova estensione e poi torni all’[estensione precedente](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) e [!DNL Target] non riesci a caricare il sito web, cancella tutti i dati del browser e disabilita la nuova estensione.
 
 ## Domande frequenti
