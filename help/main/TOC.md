@@ -3,9 +3,9 @@ user-guide-title: Guida di Adobe Target per professionisti aziendali
 breadcrumb-title: Guida di Target
 user-guide-description: Scopri come personalizzare le esperienze dei clienti su siti web, app e canali social per aumentare i ricavi.
 feature-set: Target
-source-git-commit: f06882e99ba67f4c1fb13656b218744f8c0428e1
+source-git-commit: 6b92e823c854996e074716a7b8c4856176710c24
 workflow-type: tm+mt
-source-wordcount: '1275'
+source-wordcount: '1273'
 ht-degree: 83%
 
 ---
@@ -117,7 +117,6 @@ ht-degree: 83%
    + [Integrare Target con Adobe Campaign](c-integrating-target-with-mac/campaign-and-target.md)
 + Attività {#activities}
    + [Panoramica sulle attività](c-activities/activities.md)
-   + [Dashboard approfondimenti](c-activities/insights-dashboard.md)
    + [Tipi di attività di Target](c-activities/target-activities-guide.md)
    + Test A/B {#abtest}
       + [Panoramica sui test A/B](c-activities/t-test-ab/test-ab.md)
@@ -340,4 +339,4 @@ ht-degree: 83%
    + [Limiti](r-troubleshooting-target/target-limits.md)
 + API di Target {#apis}
    + [Panoramica API di Adobe Target](/help/main/api/api-overview.md)
-+ [Risorse e informazioni di contatto &#x200B;](cmp-resources-and-contact-information.md)
++ [Risorse e informazioni di contatto ](cmp-resources-and-contact-information.md)
