@@ -3,9 +3,9 @@ user-guide-title: Guida di Adobe Target per professionisti aziendali
 breadcrumb-title: Guida di Target
 user-guide-description: Scopri come personalizzare le esperienze dei clienti su siti web, app e canali social per aumentare i ricavi.
 feature-set: Target
-source-git-commit: cc827c129da7208ee09d257faafa65ae6e7f4cf7
+source-git-commit: f06882e99ba67f4c1fb13656b218744f8c0428e1
 workflow-type: tm+mt
-source-wordcount: '1273'
+source-wordcount: '1275'
 ht-degree: 83%
 
 ---
@@ -70,7 +70,7 @@ ht-degree: 83%
          + [Autorizzazioni per gli utenti Enterprise](administrating-target/c-user-management/property-channel/property-channel.md)
          + [Configurare le autorizzazioni Enterprise](administrating-target/c-user-management/property-channel/properties-overview.md)
          + [Consentire alle integrazioni Adobe I/O di accedere alle aree di lavoro e assegnare ruoli](administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md)
-   + [Recommendations](/help/main/administrating-target/recommendations-settings.md)
+   + [Consigli](/help/main/administrating-target/recommendations-settings.md)
 + Implementare Target {#implement-target}
    + [Panoramica sull’implementazione di Target](c-implementing-target/implementing-target.md)
 + Integrare Target con Experience Cloud {#integrate}
@@ -117,6 +117,7 @@ ht-degree: 83%
    + [Integrare Target con Adobe Campaign](c-integrating-target-with-mac/campaign-and-target.md)
 + Attività {#activities}
    + [Panoramica sulle attività](c-activities/activities.md)
+   + [Dashboard approfondimenti](c-activities/insights-dashboard.md)
    + [Tipi di attività di Target](c-activities/target-activities-guide.md)
    + Test A/B {#abtest}
       + [Panoramica sui test A/B](c-activities/t-test-ab/test-ab.md)
@@ -289,7 +290,7 @@ ht-degree: 83%
       + [Rapporto Contributo Posizione (MVT)](/help/main/c-reports/multivariate-test-reports/location-contribution-report.md)
    + [Reporting di Analytics for Target (A4T)](c-reports/analytics-for-target-a4t-reporting.md)
    + [Domande frequenti sulla generazione di rapporti](c-reports/reporting-frequently-asked-questions.md)
-+ Recommendations {#recommendations}
++ Consigli {#recommendations}
    + [Panoramica sulla funzione Consigli](c-recommendations/recommendations.md)
    + [Introduzione alla funzione Consigli](c-recommendations/introduction-to-recommendations.md)
    + [Pianificare e implementare la funzione Consigli](c-recommendations/plan-implement.md)
@@ -306,7 +307,7 @@ ht-degree: 83%
       + [Creare criteri](c-recommendations/c-algorithms/create-new-algorithm.md)
       + [Creare sequenze di criteri](c-recommendations/c-algorithms/create-criteria-sequence.md)
       + [Basare il consiglio su una chiave consiglio](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md)
-      + [La scienza alla base degli algoritmi di Recommendations di Target](/help/main/c-recommendations/c-algorithms/recommendations-algorithms.md)
+      + [La scienza alla base degli algoritmi della funzione Consigli di Target](/help/main/c-recommendations/c-algorithms/recommendations-algorithms.md)
       + [Caricare criteri personalizzati](c-recommendations/c-algorithms/recommendations-csv.md)
       + Regole di inclusione dinamiche e statiche {#dynamic-static}
          + [Utilizzare regole di inclusione dinamiche e statiche](c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md)
@@ -316,7 +317,7 @@ ht-degree: 83%
          + [Filtro statico](/help/main/c-recommendations/c-algorithms/static-value.md)
       + [Utilizzare un consiglio di backup](c-recommendations/c-algorithms/backup-recs.md)
       + [Utilizzo di attributi con più valori](/help/main/c-recommendations/c-algorithms/work-with-multi-value-attributes.md)
-      + [Utilizza Adobe Analytics con Recommendations](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md)
+      + [Utilizza Adobe Analytics con la funzione Consigli](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md)
    + Progettazione {#recommendations-design}
       + [Panoramica della progettazione](c-recommendations/c-design-overview/design-overview.md)
       + [Creare una progettazione](c-recommendations/c-design-overview/create-design.md)
@@ -339,4 +340,4 @@ ht-degree: 83%
    + [Limiti](r-troubleshooting-target/target-limits.md)
 + API di Target {#apis}
    + [Panoramica API di Adobe Target](/help/main/api/api-overview.md)
-+ [Risorse e informazioni di contatto &#x200B;](cmp-resources-and-contact-information.md)
++ [Risorse e informazioni di contatto ](cmp-resources-and-contact-information.md)
