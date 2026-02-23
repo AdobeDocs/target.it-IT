@@ -4,7 +4,7 @@ description: Domande e risposte sull'interfaccia utente  [!DNL Target] aggiornat
 title: Dove posso trovare le domande frequenti sull'interfaccia utente  [!DNL Target]  aggiornata?
 feature: Overview
 exl-id: 75db4791-ca51-472d-99dd-583f7a74b222
-source-git-commit: 6cba2e93d61d3044d1bf7ce2f5bb6cc1f2d71e4a
+source-git-commit: ad45af0d0cb1a1ea26571cc985d6574ddd2c4963
 workflow-type: tm+mt
 source-wordcount: '1875'
 ht-degree: 1%
@@ -107,7 +107,7 @@ L’utilizzo dell’interruttore della versione dell’interfaccia utente presen
 
 Per ulteriori informazioni, consulta [Aggiornamenti sensibili al tempo da conoscere](/help/main/r-release-notes/release-notes.md#time-sensitive).
 
-++++
++++
 
 ## [!DNL Adobe] può ritardare la migrazione all&#39;interfaccia utente aggiornata fino al completamento del rollout completo?
 
