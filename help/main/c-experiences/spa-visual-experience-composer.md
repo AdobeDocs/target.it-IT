@@ -437,6 +437,6 @@ Questo messaggio viene visualizzato quando aggiungi la prima azione a una Visual
 
 ## Video di formazione: Utilizzo del Compositore esperienza visivo per le applicazioni a pagina singola in Adobe Target
 
->[!VIDEO](https://video.tv.adobe.com/v/26249)
+>[!VIDEO](https://video.tv.adobe.com/v/328139?captions=ita)
 
 Per ulteriori informazioni, vedere [Utilizzo del Compositore esperienza visivo per le applicazioni a pagina singola in Adobe Target](https://helpx.adobe.com/target/kt/using/visual-experience-composer-for-single-page-applications-feature-video-use.html).
