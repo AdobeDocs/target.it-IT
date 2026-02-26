@@ -4,7 +4,7 @@ description: Scopri le nuove funzioni, i miglioramenti e le correzioni, compresi
 title: Quali nuove funzioni e miglioramenti saranno inclusi nella prossima versione [!DNL Target] ?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: e5bc137ed1f32b07569a4f1a31746da19fb164d3
+source-git-commit: cb53635de421da438c4c0d4b0b368235abe29f00
 workflow-type: tm+mt
 source-wordcount: '185'
 ht-degree: 71%
@@ -41,3 +41,4 @@ Questa versione è ora live. Consulta [[!DNL Target] note sulla versione (corren
 Per ricevere notifiche prioritarie sui prossimi miglioramenti per [!DNL Target] e altre soluzioni [!DNL Adobe Experience Cloud], iscriviti ad [!DNL Adobe Priority Product Update]:
 
 [https://www.adobe.com/subscription/priority-product-update.html](https://www.adobe.com/subscription/priority-product-update.html)
+
