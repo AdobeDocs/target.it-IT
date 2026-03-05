@@ -4,7 +4,8 @@ description: Scopri come impostare [!UICONTROL Activity URL] per definire le pag
 title: Qual è l’URL attività in un’attività A/B?
 feature: A/B Tests
 exl-id: 7f1b8364-790d-4767-bff3-4217ced1a77b
-source-git-commit: 2f86c9ee89b4e1698180f6b3dc9df393733eb780
+reason: republish
+source-git-commit: 8f69c511386cc4c840ea77182dacab0b73c55fd9
 workflow-type: tm+mt
 source-wordcount: '279'
 ht-degree: 32%
