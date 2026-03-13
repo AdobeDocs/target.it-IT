@@ -78,4 +78,4 @@ Questo video contiene le seguenti informazioni:
 * Creare una raccolta
 * Creare un’esclusione
 
->[!VIDEO](https://video.tv.adobe.com/v/27689)
+>[!VIDEO](https://video.tv.adobe.com/v/328804?captions=ita)
