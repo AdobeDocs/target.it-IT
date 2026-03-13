@@ -4,10 +4,10 @@ description: Scopri le nuove funzioni, i miglioramenti e le correzioni, compresi
 title: Quali nuove funzioni e miglioramenti saranno inclusi nella prossima versione [!DNL Target] ?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: cb53635de421da438c4c0d4b0b368235abe29f00
+source-git-commit: 44d9cd4de7ff2064e6005a4d7ece7f37194fbf2f
 workflow-type: tm+mt
-source-wordcount: '185'
-ht-degree: 71%
+source-wordcount: '170'
+ht-degree: 77%
 
 ---
 
@@ -25,9 +25,6 @@ Questo articolo contiene informazioni pre-release per le prossime versioni di [!
 >
 >* I codici tra parentesi sono per uso interno di [!DNL Adobe].
 
-## [!DNL Target Standard/Premium] 25.11.2 (14 novembre 2025)
-
-Questa versione è ora live. Consulta [[!DNL Target] note sulla versione (corrente)](/help/main/r-release-notes/release-notes.md) per ulteriori dettagli.
 
 ## Note aggiuntive e dettagli sulla versione
 
@@ -36,9 +33,8 @@ Questa versione è ora live. Consulta [[!DNL Target] note sulla versione (corren
 | [Note sulla versione: Adobe Target Platform Experience Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=it) | Dettagli sulle modifiche apportate a ogni versione di Platform Web SDK. |
 | [Dettagli sulle versioni di at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=it){target=_blank} | Dettagli sulle modifiche in ogni versione della libreria JavaScript at.js di [!DNL Adobe Target]. |
 
-## Informazioni pre-release {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
+## Informazioni pre-release
 
 Per ricevere notifiche prioritarie sui prossimi miglioramenti per [!DNL Target] e altre soluzioni [!DNL Adobe Experience Cloud], iscriviti ad [!DNL Adobe Priority Product Update]:
 
 [https://www.adobe.com/subscription/priority-product-update.html](https://www.adobe.com/subscription/priority-product-update.html)
-

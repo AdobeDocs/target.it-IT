@@ -6,7 +6,7 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: b66abe9649f8c257891c1cd8e5736b7f91501c13
+source-git-commit: e60820368eb5a83470dace93acf73709b15d2f9d
 workflow-type: tm+mt
 source-wordcount: '2049'
 ht-degree: 97%
@@ -17,12 +17,13 @@ ht-degree: 97%
 
 Annunci e informazioni sui prossimi eventi di [!DNL Adobe Target], che includono le sessioni Coffee Break su [!DNL Target], le serie di webinar su [!DNL Target], le sessioni Skill Builder dedicate a [!DNL Target], le chat per sviluppatori e altro ancora. Se disponibili, sono inclusi i collegamenti alle registrazioni precedenti.
 
-<!-- ## Adobe Target Community Q&A Coffee Break
+<!--
+## Adobe Target Community Q&A Coffee Break
 
 * **High Performance Recommendations Webinar Follow-up Questions (Part 2 of Personalization Maturity Series)**
 * **Wednesday, February 28, 2024**
 * **8:00 - 9:00 (PST -8 GMT)**
-* **[Registration information](https://experienceleaguecommunities.adobe.com/t5/target-community-events/at-community-q-amp-a-coffee-break-wednesday-2-28-24-8am-pt-high/ec-p/647204/thread-id/123?profile.language=it){target=_blank}**
+* **[Registration information](https://experienceleaguecommunities.adobe.com/t5/target-community-events/at-community-q-amp-a-coffee-break-wednesday-2-28-24-8am-pt-high/ec-p/647204/thread-id/123){target=_blank}**
 
 +++Details
 
@@ -32,11 +33,12 @@ Join [!DNL Adobe Target] experts Cristinel Anastasoaie, Brent Kostak, and Timoth
 * How a non-technical user or marketer is in full control of configuring and managing the algorithms.
 * How to use AI and custom features with recommendations to unlock use cases that have immense impact on reduction in clicks and increasing revenue.
 
-If you missed the original webinar, [listen to the recording](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/upcoming-webinar-2024-1-16-24-p1-adobe-target-personalization/td-p/639284?profile.language=it){target=_blank}.
+If you missed the original webinar, [listen to the recording](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/upcoming-webinar-2024-1-16-24-p1-adobe-target-personalization/td-p/639284){target=_blank}.
 
-Be sure to register for Part 3 of the Webinar Series coming up on 3/12/24, covering "[Unlocking AI Powered Recommendations](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/upcoming-webinar-2024-3-12-24-p3-adobe-target-personalization/m-p/639301/thread-id/3686?profile.language=it){target=_blank}."
+Be sure to register for Part 3 of the Webinar Series coming up on 3/12/24, covering "[Unlocking AI Powered Recommendations](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/upcoming-webinar-2024-3-12-24-p3-adobe-target-personalization/m-p/639301/thread-id/3686){target=_blank}."
 
-+++ -->
++++
+-->
 
 ## Registrazioni di sessioni Skill Builder e webinar passati
 
@@ -58,13 +60,13 @@ Perché dovresti partecipare:
 
   L’intelligenza artificiale e l’apprendimento automatico sono alla base della maturità nella personalizzazione. [!DNL Adobe Target] sfrutta queste tecnologie per comprendere il comportamento degli utenti, prevedere le preferenze e adattare dinamicamente i contenuti. Sfruttando la potenza dell’intelligenza artificiale e dell’apprendimento automatico, potrai scoprire come i brand si stanno muovendo oltre i test A/B statici e la personalizzazione basata su regole per fornire esperienze dinamiche e contestualmente rilevanti.
 
-  [Ascolta la registrazione.](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/upcoming-webinar-2024-1-16-24-p1-adobe-target-personalization/td-p/639284?profile.language=it){target=_blank}
+  [Ascolta la registrazione.](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/upcoming-webinar-2024-1-16-24-p1-adobe-target-personalization/td-p/639284){target=_blank}
 
 * **Consigli per prestazioni elevate**
 
   Scopri come gli algoritmi dei consigli possono cambiare le regole del gioco per le aziende, stimolando coinvolgimento ed entrate. Dai suggerimenti sui prodotti personalizzati ai consigli sui contenuti, la possibilità di guidare gli utenti in modo semplice attraverso il percorso contribuisce direttamente a sbloccare una crescita aziendale significativa.
 
-  [Ascolta la registrazione.](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/webinar-recording-2-13-24-p2-adobe-target-personalization/m-p/639295?profile.language=it#M3685){target=_blank}
+  [Ascolta la registrazione.](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/webinar-recording-2-13-24-p2-adobe-target-personalization/m-p/639295#M3685){target=_blank}
 
 * **Sbloccare la personalizzazione basata sull’intelligenza artificiale**
 
@@ -160,7 +162,7 @@ Le esperienze mobili stanno stimolando l’innovazione nel modo in cui i team di
 
 ### Chef&#39;s Collection: Recipes for Personalization (30 agosto 2022)
 
-Unisciti al team di [!DNL Adobe Target]  mentre vengono proposte nuove idee su come sfruttare appieno Target. Basato sul nostro ultimo eBook “Chef’s Collection: Ideas for Personalization”.
+Unisciti al team di [!DNL Adobe Target] [!DNL] mentre vengono proposte nuove idee su come sfruttare appieno Target. Basato sul nostro ultimo eBook “Chef’s Collection: Ideas for Personalization”.
 
 * [Collegamento alla registrazione](https://video.tv.adobe.com/v/346970/){target=_blank}
 
@@ -168,7 +170,7 @@ Unisciti al team di [!DNL Adobe Target]  mentre vengono proposte nuove idee su c
 
   Trova spunti su:
 
-   * Come utilizzare la personalizzazione per fidelizzare i clienti
+   * Come utilizzare la personalizzazione per fidelizzare la clientela
    * Ottimizzazione per ottenere un vantaggio competitivo
    * Creazione di esperienze iper-personalizzate
 
@@ -245,7 +247,7 @@ Scopri come le società di servizi finanziari supportano e informano i clienti m
 
   +++Dettagli
 
-  Partecipa a questa sessione con Christopher Young (Director, Industry Strategy Financial Services) e James Capasso (Target Consultant, Adobe Premier Support) e scopri come i brand rispondono a cambiamenti immediati della domanda e al contempo pongono la personalizzazione al centro delle interazioni con i clienti. Scopri come le società di servizi finanziari supportano e informano i clienti in tutto il mondo preoccupati dai recenti modelli di inflazione e dalle attuali circostanze di investimento.
+  Partecipa a questa sessione con Christopher Young (Director, Industry Strategy Financial Services) e James Capasso (Target Consultant, Adobe Premier Support) e scopri come i brand rispondono a cambiamenti immediati della domanda e al contempo pongono la personalizzazione al centro del coinvolgimento dei clienti. Scopri come le società di servizi finanziari supportano e informano i clienti in tutto il mondo preoccupati dai recenti modelli di inflazione e dalle attuali circostanze di investimento.
 
   +++
 
