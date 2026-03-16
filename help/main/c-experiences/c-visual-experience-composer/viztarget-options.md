@@ -4,7 +4,7 @@ description: Esplora le opzioni disponibili nel  [!DNL Adobe Target] [!UICONTROL
 title: Come si utilizzano le opzioni [!UICONTROL Visual Experience Composer] (VEC)?
 feature: Visual Experience Composer (VEC)
 exl-id: 50993d6c-5025-488a-8b33-9ed7c142de6e
-source-git-commit: c8cbf4998c304910a63e31acc3ec93a04ac652ae
+source-git-commit: f984f2db3ccfb02629ddfd4f3c5f957256bd9f6a
 workflow-type: tm+mt
 source-wordcount: '2047'
 ht-degree: 8%
@@ -273,7 +273,9 @@ Se il percorso DOM non viene visualizzato, fare clic sull&#39;icona [!UICONTROL 
 
 Puoi utilizzare il percorso DOM per vedere rapidamente le informazioni sull’elemento selezionato (tipo, ID e classe) e spostarti verso l’alto o il basso nel percorso DOM per selezionare l’elemento desiderato.
 
-<!--When you hover over the DOM path, a blue box highlights the corresponding element in the VEC. When you click the element, an orange box highlights the element and the VEC options menu displays, as explained above.-->
+<!--
+When you hover over the DOM path, a blue box highlights the corresponding element in the VEC. When you click the element, an orange box highlights the element and the VEC options menu displays, as explained above.
+-->
 
 Utilizzando il percorso DOM, è possibile passare facilmente a qualsiasi elemento principale, di pari livello o secondario all’interno del Compositore esperienza visivo.
 
@@ -293,7 +295,8 @@ La funzione Percorso DOM è disponibile anche quando si imposta il [tracciamento
 
 * [[!DNL Target] Domande frequenti sull&#39;aggiornamento dell&#39;interfaccia utente](/help/main/c-intro/updated-ui-faq.md): queste domande frequenti riguardano le domande comuni sulla nuova interfaccia utente [!DNL Target] e sul nuovo Compositore esperienza visivo [!UICONTROL Visual Experience Composer], incluse le modifiche alla navigazione, le posizioni delle funzioni e la rimozione dell&#39;opzione di versione temporanea dell&#39;interfaccia utente. Che tu sia un addetto marketing, uno sviluppatore o un amministratore, queste domande frequenti consentono una transizione fluida e di sfruttare al massimo l’interfaccia utente aggiornata.
 
-<!--## [!UICONTROL Edit]
+<!--
+## [!UICONTROL Edit]
 
 The following options are available:
 
@@ -667,4 +670,5 @@ The following actions are not available on custom elements:
 The following action is not available inside custom elements:
 
 * [!UICONTROL Layout]
-  * [!UICONTROL Rearrange]-->
+  * [!UICONTROL Rearrange]
+-->

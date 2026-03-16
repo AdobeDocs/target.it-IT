@@ -5,14 +5,14 @@ title: Cos’è la funzione Consigli di  [!DNL Target] ?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=it#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."
 feature: Recommendations
 exl-id: 0d986e17-bc99-4c08-a963-7f9a6619609a
-source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
+source-git-commit: 52025f1128e8c736bd1cb4eff871b65a00ec1c98
 workflow-type: tm+mt
-source-wordcount: '922'
-ht-degree: 97%
+source-wordcount: '855'
+ht-degree: 98%
 
 ---
 
-# Recommendations
+# Consigli
 
 Le attività [!DNL Adobe Target Recommendations] consentono di visualizzare automaticamente prodotti, servizi o contenuti che potrebbero interessare i visitatori in base alle loro attività precedenti, preferenze o ad altri algoritmi. [!DNL Target Recommendations] permette di indirizzare i clienti verso elementi rilevanti di cui potrebbero non essere a conoscenza. [!DNL Recommendations] consente di fornire ai visitatori contenuti pertinenti al momento giusto e nel posto giusto.
 
@@ -72,8 +72,10 @@ Questo video spiega i tipi di attività disponibili in [!DNL Target Standard/Pre
 
 >[!VIDEO](https://video.tv.adobe.com/v/36365?captions=ita)
 
-## Webinar sulle nozioni di base di Adobe Target: introduzione alla funzione Consigli ![Icona esercitazione](/help/main/assets/tutorial.png) {#intro-to-recs}
+<!--
+## Adobe Target Basics Webinar: Introduction to Recommendations ![Tutorial badge](/help/main/assets/tutorial.png) {#intro-to-recs}
 
-Il webinar *Introduzione alla funzione Consigli* include una descrizione approfondita di come sfruttare il valore di [!DNL Adobe Target Recommendations]. Scopri in che modo questa attività [!DNL Target] visualizza automaticamente prodotti o contenuti che potrebbero interessare ai clienti ottimizzando i suggerimenti in tempo reale basati sulle visite precedenti. Inoltre, immergiti nell’interfaccia utente [!DNL Target] per una panoramica dettagliata su come creare un’attività [!DNL Recommendations].
+The *Introduction to Recommendations* webinar includes an in-depth exploration of how to leverage the value of [!DNL Adobe Target Recommendations]. Find out how this [!DNL Target] activity automatically displays products or content that might interest your customers by optimizing real-time suggestions based on previous visits. Further, dive into the [!DNL Target] UI for a step-by-step overview of how to build a [!DNL Recommendations] activity.
 
-[Introduzione alla funzione Consigli](https://adobecustomersuccess.adobeconnect.com/p8gt31drhs3e/?OWASP_CSRFTOKEN=4bd6cac5d0806167ee0a5449ba93d6300548d09c922bcb751c38973897a5703a)
+[Introduction to Recommendations](https://adobecustomersuccess.adobeconnect.com/p8gt31drhs3e/?OWASP_CSRFTOKEN=4bd6cac5d0806167ee0a5449ba93d6300548d09c922bcb751c38973897a5703a)
+-->

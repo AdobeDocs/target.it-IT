@@ -6,7 +6,7 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: b66abe9649f8c257891c1cd8e5736b7f91501c13
+source-git-commit: e60820368eb5a83470dace93acf73709b15d2f9d
 workflow-type: tm+mt
 source-wordcount: '2049'
 ht-degree: 97%
@@ -17,7 +17,8 @@ ht-degree: 97%
 
 Annunci e informazioni sui prossimi eventi di [!DNL Adobe Target], che includono le sessioni Coffee Break su [!DNL Target], le serie di webinar su [!DNL Target], le sessioni Skill Builder dedicate a [!DNL Target], le chat per sviluppatori e altro ancora. Se disponibili, sono inclusi i collegamenti alle registrazioni precedenti.
 
-<!-- ## Adobe Target Community Q&A Coffee Break
+<!--
+## Adobe Target Community Q&A Coffee Break
 
 * **High Performance Recommendations Webinar Follow-up Questions (Part 2 of Personalization Maturity Series)**
 * **Wednesday, February 28, 2024**
@@ -36,7 +37,8 @@ If you missed the original webinar, [listen to the recording](https://experience
 
 Be sure to register for Part 3 of the Webinar Series coming up on 3/12/24, covering "[Unlocking AI Powered Recommendations](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/upcoming-webinar-2024-3-12-24-p3-adobe-target-personalization/m-p/639301/thread-id/3686?profile.language=it){target=_blank}."
 
-+++ -->
++++
+-->
 
 ## Registrazioni di sessioni Skill Builder e webinar passati
 
@@ -168,7 +170,7 @@ Unisciti al team di [!DNL Adobe Target]  mentre vengono proposte nuove idee su c
 
   Trova spunti su:
 
-   * Come utilizzare la personalizzazione per fidelizzare i clienti
+   * Come utilizzare la personalizzazione per fidelizzare la clientela
    * Ottimizzazione per ottenere un vantaggio competitivo
    * Creazione di esperienze iper-personalizzate
 
@@ -245,7 +247,7 @@ Scopri come le società di servizi finanziari supportano e informano i clienti m
 
   +++Dettagli
 
-  Partecipa a questa sessione con Christopher Young (Director, Industry Strategy Financial Services) e James Capasso (Target Consultant, Adobe Premier Support) e scopri come i brand rispondono a cambiamenti immediati della domanda e al contempo pongono la personalizzazione al centro delle interazioni con i clienti. Scopri come le società di servizi finanziari supportano e informano i clienti in tutto il mondo preoccupati dai recenti modelli di inflazione e dalle attuali circostanze di investimento.
+  Partecipa a questa sessione con Christopher Young (Director, Industry Strategy Financial Services) e James Capasso (Target Consultant, Adobe Premier Support) e scopri come i brand rispondono a cambiamenti immediati della domanda e al contempo pongono la personalizzazione al centro del coinvolgimento dei clienti. Scopri come le società di servizi finanziari supportano e informano i clienti in tutto il mondo preoccupati dai recenti modelli di inflazione e dalle attuali circostanze di investimento.
 
   +++
 

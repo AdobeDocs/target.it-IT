@@ -1,10 +1,10 @@
 ---
-keywords: pubblico;regole del pubblico;creare un pubblico;creazione di pubblico;pubblico di destinazione;rapporti sul pubblico;report sul pubblico;segmento;parametri di profilo personalizzati;definizione del pubblico;elenco di tipi di pubblico;audience
+keywords: pubblico;regole del pubblico;creare un pubblico;creazione di pubblico;targeting del pubblico;rapporti sul pubblico;report sul pubblico;segmento;parametri di profilo personalizzati;definizione del pubblico;elenco di tipi di pubblico;audience
 description: Scopri come utilizzare i tipi di pubblico in [!DNL Adobe Target].
 title: Come si utilizza l’elenco del pubblico?
 feature: Audiences
 exl-id: 7af7f101-f550-4fdc-bcd9-90e4107b0415
-source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
+source-git-commit: f984f2db3ccfb02629ddfd4f3c5f957256bd9f6a
 workflow-type: tm+mt
 source-wordcount: '760'
 ht-degree: 22%
@@ -88,7 +88,8 @@ Se un pubblico è [combinato con un altro pubblico](/help/main/c-target/combinin
 
 ![immagine audience_definition_list_usage](assets/audience_definition_list_usage.png)
 
-<!--The following audience definition card is for an audience imported from the Adobe Experience Cloud. In this instance, the audience was imported from Adobe Audience Manager (AAM).
+<!--
+The following audience definition card is for an audience imported from the Adobe Experience Cloud. In this instance, the audience was imported from Adobe Audience Manager (AAM).
 
 ![Usage tab on Audience Definition card](assets/audience_definition_mc.png)
 
@@ -103,7 +104,8 @@ The following details are available for these imported audience types:
 Keep the following points in mind as you work with imported audiences:
 
 * Expression target audiences are no longer supported in Target Standard/Premium. 
-* Target Standard/Premium does not support some deprecated audiences or has improved operators for ease of use. Because of this, the definition of an imported audience, although working as per definition, does not mean that same is now available for creation in the Standard/Premium interface. For example, Social Audiences are visible with their rules but Target Standard/Premium does not allow social audiences to be created.-->
+* Target Standard/Premium does not support some deprecated audiences or has improved operators for ease of use. Because of this, the definition of an imported audience, although working as per definition, does not mean that same is now available for creation in the Standard/Premium interface. For example, Social Audiences are visible with their rules but Target Standard/Premium does not allow social audiences to be created.
+-->
 
 ## Utilizzo dei tipi di pubblico da [!DNL Adobe Experience Platform] {#aep}
 

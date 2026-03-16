@@ -4,10 +4,11 @@ description: Visualizza un elenco di funzioni, miglioramenti e correzioni inclus
 title: Quali funzioni sono incluse nelle versioni precedenti?
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: ab11438723edc8bb9f7e6aff0b10d48723623f3b
+hold: true
+source-git-commit: 44d9cd4de7ff2064e6005a4d7ece7f37194fbf2f
 workflow-type: tm+mt
-source-wordcount: '62551'
-ht-degree: 53%
+source-wordcount: '64670'
+ht-degree: 52%
 
 ---
 
@@ -20,6 +21,160 @@ Le note sulla versione sono elencate in ordine decrescente per mese e anno di ri
 >[!NOTE]
 >
 >Consulta [Note sulla versione di Target (corrente)](/help/main/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A) per informazioni sulle versioni di Target del mese corrente (piattaforma e Target Standard/Premium).
+
+## Note sulla versione - 2026
+
+### [!DNL Target Standard/Premium] 26.3.1 (3 marzo 2026)
+
+**Attività**
+
++++Vedi i dettagli
+
+* **Il codice personalizzato viene perso quando viene applicato ad altre visualizzazioni.** Questa correzione risolve un problema che causava la perdita del codice personalizzato applicato a una visualizzazione durante l&#39;aggiunta e l&#39;applicazione del codice personalizzato a un&#39;altra visualizzazione. In precedenza, quando gli utenti applicavano il codice personalizzato a più viste in un’attività, il codice personalizzato precedentemente applicato scompariva. La correzione assicura che il codice personalizzato venga mantenuto correttamente in tutte le viste quando si applicano modifiche alle viste aggiuntive. (TGT-54230)
+
++++
+
+**Criteri**
+
++++Vedi i dettagli
+
+* **Il parametro di profilo &#39;In Between&#39; non salva nei criteri.** Questa correzione risolve un problema in cui le regole dei criteri che utilizzano l&#39;operatore **In Between** per i parametri del profilo non venivano salvate correttamente. In precedenza, quando gli utenti configuravano una regola con l&#39;operatore **In Between** e immettevano valori di intervallo, i criteri venivano salvati correttamente, ma la regola scompariva alla riapertura o alla modifica dei criteri. La correzione assicura che **In Between** le regole vengano salvate correttamente e che persistano quando i criteri vengono riaperti. (TGT-54498)
+
++++
+
+**Informazioni**
+
++++Vedi i dettagli
+
+* **Modifica la posizione della pagina Approfondimenti dopo tutte le attività.** La posizione della **pagina Approfondimenti** è stata aggiornata in modo da essere visualizzata dopo la pagina **Tutte le attività** nella navigazione. La pagina Tutte le attività è ora la pagina predefinita dell’applicazione Target. (TGT-54672)
+
++++
+
+**Navigazione**
+
++++Vedi i dettagli
+
+* **Comprimi la navigazione a sinistra.** La navigazione a sinistra è ora comprimibile ed espandibile per tutte le schede. Se compresse, le icone vengono visualizzate con le descrizioni. Quando è espansa, vengono visualizzate sia icone che testo. Questo miglioramento offre agli utenti più spazio sullo schermo, se necessario, mantenendo al contempo un accesso rapido alle opzioni di navigazione. (TGT-54608)
+
++++
+
+**[!UICONTROL Visual Experience Composer] (VEC)**
+
++++Vedi i dettagli
+
+* **ExperienceEditorType predefinito su &quot;visual&quot; se il back-end restituisce null.** Questa correzione risolve un problema in cui il valore `experienceEditorType` veniva restituito come nullo in alcuni scenari, causando un comportamento non desiderato nell&#39;interfaccia utente in cui il tipo di editor non veniva inizializzato correttamente. (TGT-54690)
+
++++
+
+### [!DNL Target Standard/Premium] 26.2.2 (16 febbraio 2026)
+
+**[!UICONTROL Visual Experience Composer] (VEC)**
+
++++Vedi i dettagli
+
+* **Impossibile aggiungere immagini alle attività - Errore sconosciuto.** Questa correzione risolve un problema in cui gli utenti hanno riscontrato un &quot;errore sconosciuto&quot; durante il tentativo di aggiungere o sostituire immagini nelle attività. Il problema era relativo a errori di sincronizzazione URL e autenticazione di Scene7. La correzione assicura che le immagini possano essere aggiunte e sostituite correttamente nel Compositore esperienza visivo. (TGT-54137)
+
++++
+
+### [!DNL Target Standard/Premium] 26.2.1 (8 febbraio 2026)
+
+**Proprietà**
+
++++Vedi i dettagli
+
+* **Token di proprietà non aggiunto automaticamente dopo la rimozione.** Questa correzione risolve un problema in cui i token di proprietà deselezionati dagli utenti venivano automaticamente aggiunti nuovamente durante la modifica di un&#39;attività. In precedenza, quando gli utenti rimuovevano una proprietà rilevata automaticamente e passavano da una fase all’altra, il sistema reintroduceva la proprietà rimossa senza alcun avviso o richiesta, consentendo l’attivazione di attività su proprietà impreviste. L’aggiornamento assicura che, una volta rimosso, il token di proprietà rimanga rimosso durante tutte le modifiche e le attività di navigazione successive. (TGT-54040)
+
++++
+
+### [!DNL Target Standard/Premium] 26.1.2 (sabato 30 gennaio 2026)
+
+**Dashboard di Adobe Target Insights**
+
++++Vedi i dettagli
+
+Adobe Target ora include una nuova dashboard di approfondimenti che fornisce una visualizzazione di alto livello del modo in cui la tua organizzazione utilizza Target per la sperimentazione e la personalizzazione. La dashboard mostra metriche chiave quali attività live, attività live e modificate, attività completate, attività pubblicate e attività di test A/B. Utilizza il selettore dell’intervallo di tempo per esplorare le tendenze su diversi periodi, inclusa una visualizzazione di riepilogo per il 2025. Questa dashboard rimane disponibile come metodo continuo per monitorare l’adozione e l’attività nel tempo.
+
+Vedi [Dashboard di Adobe Target Insights](/help/main/c-activities/insights-dashboard.md)
++++
+
+**Amministrazione**
+
++++Vedi i dettagli
+
+* **Funzione di gestione URL Inseriti nell&#39;elenco Consentiti.** Alla sezione [!UICONTROL Administration] è stata aggiunta una nuova funzionalità di gestione degli &quot;URL Inseriti nell&#39;elenco Consentiti&quot; per gestire i modelli di URL di offerta remota consentiti. Questa funzione include la possibilità di visualizzare gli URL inseriti nell&#39;elenco Consentiti in una tabella, cercare e filtrare gli URL, aggiungere nuovi URL tramite la finestra di dialogo modale ed eliminare gli URL con una conferma. Questa funzione consente ai clienti di controllare quali URL possono essere utilizzati per le offerte remote, migliorando la sicurezza e la conformità. (TGT-54486)
+
++++
+
+**Informazioni**
+
++++Vedi i dettagli
+
+* **Supporto per il filtraggio tramite createdAt e modifiedAt in GraphQL.Il supporto di** per filtrare le attività in base a `createdAt` e `modifiedAt` campi data è stato aggiunto all&#39;API GraphQL. Questo miglioramento consente un filtro accurato nell’interfaccia utente di Target, riduce l’elaborazione dei dati lato client ed elimina la necessità di più chiamate API per recuperare i dati filtrati delle attività. (TGT-54499)
+
++++
+
+
+### [!DNL Target Standard/Premium] 26.1.1 (lunedì 18 gennaio 2026)
+
+**Attività**
+
++++Vedi i dettagli
+
+* **Impossibile copiare l&#39;attività. Input utente non valido.** È stato risolto il problema che causava la visualizzazione da parte degli utenti di un errore non utile di &quot;input utente non valido&quot; durante la copia di un&#39;attività. In precedenza, quando un’attività veniva duplicata, le assegnazioni di proprietà specifiche per l’area di lavoro non venivano mantenute, pertanto il backend rifiutava la richiesta di salvataggio perché ABActivity richiedeva almeno una proprietà appartenente a un’area di lavoro non predefinita. Questa mancata corrispondenza ha attivato un errore generico nell’interfaccia utente, lasciando gli utenti senza indicazioni. La correzione assicura che le assegnazioni dell’area di lavoro vengano mantenute correttamente durante le operazioni di copia, consentendo agli utenti di salvare l’attività copiata senza modifiche e impedendo errori di convalida fuorvianti. (TGT-54282)
+* **Abilita la colonna dell&#39;area di lavoro nell&#39;offerta dell&#39;editor Web.** Questo aggiornamento risolve il problema di confusione causato dalle offerte di [!UICONTROL Default Workspace] che appaiono in altre aree di lavoro nell&#39;editor Web. Anche se questo comportamento funziona come previsto, le offerte [!UICONTROL Default Workspace] sono intenzionalmente visibili in tutte le aree di lavoro, i clienti hanno segnalato che l&#39;interfaccia utente non ha chiarito l&#39;origine dell&#39;area di lavoro, soprattutto quando si creano attività in un&#39;area di lavoro non predefinita, ad esempio &quot;Approvatori&quot;. Per migliorare la chiarezza, la colonna [!UICONTROL Workspace] è stata ora abilitata nell&#39;elenco delle offerte dell&#39;editor Web, consentendo agli utenti di distinguere facilmente l&#39;area di lavoro a cui appartiene ogni offerta e impedendo un&#39;interpretazione errata delle offerte aggiuntive visualizzate. (TGT-54138)
+* **I collegamenti con target=&quot;_blank&quot; vengono aperti in una nuova scheda.** Questa correzione risolve un problema in cui i siti Web creati contenenti collegamenti con ~target=&quot;_blank&quot;~ verrebbero aperti in una nuova scheda del browser quando si fa clic su di essi in modalità [!UICONTROL Browse], interrompendo l&#39;esperienza di anteprima nell&#39;editor. Il comportamento si è verificato perché gli attributi di collegamento nativi della pagina creata non venivano intercettati dal JavaScript inserito dall’estensione, a differenza dell’interfaccia utente legacy in cui gli elementi di ancoraggio venivano trasformati e le loro destinazioni sostituite per mantenere la navigazione all’interno dell’editor. L&#39;aggiornamento garantisce che i collegamenti che utilizzano ~target=&quot;_blank&quot;~ siano ora gestiti correttamente nell&#39;editor Web, in modo che non aprano più schede esterne durante l&#39;authoring. (TGT-54134)
+* **Avviso Deseleziona proprietà.** Questo aggiornamento introduce un avviso visivo per informare chiaramente gli utenti quando deselezionano una proprietà rilevata automaticamente nell&#39;Editor attività. In precedenza, la rimozione di una proprietà rilevata automaticamente non forniva alcuna indicazione che la proprietà sarebbe stata eliminata definitivamente, il che poteva causare la perdita accidentale della configurazione di targeting. La correzione aggiunge un’icona di avviso, coerente con il comportamento nell’interfaccia utente legacy, per avvisare gli utenti che deselezionando la proprietà la rimuove dall’attività. (TGT-54121)
+* Il menu a discesa **[!UICONTROL Workspaces]è limitato a 20 nella sezione [!UICONTROL Users].** Questa correzione risolve un problema in cui il menu a discesa [!UICONTROL Workspaces] nella sezione [!UICONTROL Administration] > [!UICONTROL Users] mostrava solo 20 aree di lavoro, anche quando un utente aveva accesso a molte altre. Anche la chiamata GraphQL sottostante per `licenseGroups` era limitata a 20 risultati, pertanto l&#39;interfaccia utente mostrava un elenco incompleto nonostante l&#39;utente avesse accesso a più aree di lavoro nell&#39;organizzazione. L’aggiornamento rimuove questo limite rigido in modo che l’intero set di aree di lavoro disponibili ora venga restituito e visualizzato correttamente. (TGT-53820)
+* **È stato risolto un problema a causa del quale la finestra modale delle offerte non mostrava la colonna dell&#39;area di lavoro.** È stato risolto un problema a causa del quale la finestra modale delle offerte non visualizzava la colonna dell&#39;area di lavoro nell&#39;interfaccia utente aggiornata. Ciò ha causato confusione per i clienti perché le offerte di [!UICONTROL Default Workspace] sono apparse insieme alle offerte dell&#39;area di lavoro selezionata senza alcuna indicazione della loro origine. La colonna dell’area di lavoro è ora abilitata in modo che i clienti possano identificare chiaramente a quale area di lavoro appartiene ogni offerta. (TGT-52320)
+
++++
+
+**Proprietà**
+
++++Vedi i dettagli
+
+* **La modifica dell&#39;attività non deve aggiungere la proprietà rilevata automaticamente se è già stata rimossa.** Questa correzione risolve un problema in cui la modifica di un&#39;attività reintrodurrebbe automaticamente una proprietà rilevata automaticamente che l&#39;utente aveva precedentemente rimosso. Quando si riapre un&#39;attività per la modifica, il sistema ha ripristinato in modo errato la proprietà rimossa, generando un comportamento incoerente e confusione in [!UICONTROL Properties List]. L’aggiornamento assicura che, una volta rimossa, la proprietà rilevata automaticamente rimanga rimossa durante tutte le modifiche successive e non venga nuovamente visualizzata a meno che l’utente non la aggiunga esplicitamente. (TGT-54182)
+* **Non aggiungere proprietà rilevate automaticamente se sono già state rimosse.** Questa correzione assicura che, una volta che un utente rimuove manualmente una proprietà rilevata automaticamente da un&#39;attività, il sistema non la reintroduca più durante la successiva navigazione all&#39;interno dell&#39;editor attività. In precedenza, se un utente deselezionava una proprietà rilevata automaticamente, passava al passaggio [!UICONTROL Targeting] e poi ritornava a [!UICONTROL Experiences], l&#39;editor ripopolava la proprietà rimossa in base all&#39;elenco rilevato automaticamente memorizzato nella sezione di stato dell&#39;Editor attività. La logica aggiornata ora confronta le proprietà rilevate automaticamente con le proprietà correnti nella sezione ~ActivityState~ e impedisce la reaggiunta di eventuali proprietà rilevate automaticamente già rimosse dall&#39;utente. Questo determina un comportamento coerente tra i passaggi e rispetta le intenzioni dell’utente. (TGT-54181)
+* **Aggiungere testo rilevato automaticamente all&#39;elenco delle proprietà.** Questo miglioramento aggiorna [!UICONTROL Properties List] per etichettare chiaramente qualsiasi proprietà rilevata automaticamente dal sistema. Quando una proprietà rilevata automaticamente è presente anche in [!UICONTROL Properties List] visibile all&#39;utente, ora viene visualizzato il testo &quot;(Rilevato automaticamente)&quot; accanto al nome, utilizzando il valore archiviato nello stato ~ActivityEditorSlice~. In questo modo viene rispecchiato il comportamento dell’interfaccia utente legacy e gli utenti possono distinguere facilmente tra le proprietà selezionate manualmente e quelle identificate automaticamente. (TGT-54120)
+* **Aggiungi [!UICONTROL Properties] rilevato automaticamente allo stato.** Questo aggiornamento assicura che lo stato ~ActivityEditorSlice.ExperienceEditor~ mantenga costantemente un elenco aggiornato di tutti gli ID di proprietà rilevati automaticamente passati dall&#39;editor Web alla scheda Attività [!UICONTROL Experiences]. Ogni volta che l&#39;utente passa alla scheda [!UICONTROL Experiences], lo stato viene aggiornato con le nuove proprietà rilevate, evitando duplicati, garantendo un tracciamento accurato e un comportamento a valle affidabile. (TGT-54119)
+
++++
+
+**Funzione Consigli**
+
++++Vedi i dettagli
+
+* Il menu a discesa **[!UICONTROL Environment]mostra solo 100 risultati.** Questa correzione è valida per un limite in base al quale i clienti con più di 100 ambienti possono visualizzare solo le prime 100 voci del menu a discesa [!UICONTROL Environment] in [!UICONTROL Recommendations]. La query GraphQL sottostante (~getEnvironmentsV2~) è stata impaginata con una dimensione di pagina hardcoded pari a 100, causando la visualizzazione nell&#39;interfaccia utente di un elenco parziale anche quando erano disponibili pagine aggiuntive. Per i clienti che hanno più di 100 ambienti, questo problema causava opzioni mancanti e un’esperienza di selezione incompleta. L’aggiornamento aumenta il limite in modo che tutti gli ambienti vengano restituiti e visualizzati, garantendo la visibilità completa indipendentemente dal conteggio degli ambienti. (TGT-53903)
+
++++
+
+**Rapporti**
+
++++Vedi i dettagli
+
+* **È stato risolto un problema a causa del quale la freccia [!UICONTROL Reports] non indicava chiaramente le colonne espandibili.** È stato risolto un problema a causa del quale la tabella di reporting non mostrava chiaramente che era possibile espandere colonne aggiuntive nell&#39;interfaccia utente aggiornata. È stata aggiunta una descrizione comando che scompare alla freccia [!UICONTROL Reports] vicino alle intestazioni di colonna per aiutare i clienti a comprendere che sono disponibili più colonne. (TGT-53479)
+
++++
+
+**Visualizzazioni**
+
++++Vedi i dettagli
+
+* **Impossibile eliminare le modifiche applicate alle visualizzazioni.** Questa correzione risolve un problema che impediva agli utenti di eliminare le modifiche all&#39;interno di un&#39;attività, a meno che la modifica non fosse stata riapplicata ad altre viste. Durante la modifica di un’attività (ad esempio, 302467 ID attività), i tentativi di eliminazione di qualsiasi modifica non hanno avuto alcun effetto, impedendo agli utenti di rimuovere le modifiche indesiderate. Tuttavia, una volta riapplicata una modifica utilizzando &quot;Applica a più visualizzazioni&quot; e assegnata a un evento `Page Load`, l&#39;eliminazione ha improvvisamente funzionato come previsto. (TGT-54088)
+
++++
+
+**[!UICONTROL Visual Experience Composer] (VEC)**
+
++++Vedi i dettagli
+
+* Il nome **[!UICONTROL Experience Fragment]è stato troncato nella nuova interfaccia utente VEC** (TGT-54312)
+* **Impossibile utilizzare [!UICONTROL Advanced Settings] per la metrica [!UICONTROL Revenue].** Questa correzione risolve un problema in cui gli utenti hanno riscontrato un errore 403 &quot;Accesso negato&quot; durante la configurazione di [!UICONTROL Advanced Settings] per la metrica [!UICONTROL Revenue] in [!UICONTROL Goals & Settings]. Il problema si verificava quando si aggiungeva una condizione di dipendenza associata all’obiettivo principale; il backend richiedeva erroneamente il privilegio dell’editor anche per gli utenti che disponevano già di autorizzazioni sufficienti per creare e modificare le attività. Di conseguenza, il salvataggio dell’attività non è riuscito nonostante la configurazione valida. L’aggiornamento corregge il controllo delle autorizzazioni in modo che gli utenti con l’accesso appropriato possano aggiungere correttamente le dipendenze della metrica Ricavi senza attivare un errore di risorsa proibita. (TGT-54092)
+* **È stato risolto un problema che impediva l&#39;applicazione del pulsante Aggiungi alle immagini selezionate.** È stato risolto un problema che impediva ai clienti di aggiungere determinate immagini durante la selezione o l&#39;aggiornamento di un&#39;immagine nel processo di creazione attività. Quando i clienti hanno cercato risorse specifiche, ad esempio immagini restituite durante la ricerca di &quot;ipp&quot;, facendo clic sul pulsante [!UICONTROL Add] non è stata applicata l&#39;immagine selezionata e non è stata creata alcuna modifica. La selezione di altre immagini, ad esempio `Homepage-banner-1-moz.jpg`, ha continuato a funzionare come previsto. Questo aggiornamento garantisce che tutte le immagini valide possano essere applicate in modo coerente nell’interfaccia utente aggiornata. (TGT-53610)
+* **È stato risolto un problema che causava la reimpostazione della configurazione della metrica obiettivo da parte dell&#39;eliminazione di una condizione URL.** È stato risolto un problema che causava la rimozione di una condizione di URL singolo nella metrica [!UICONTROL Goal] e la reimpostazione dell&#39;intera configurazione nell&#39;interfaccia utente aggiornata. Quando i clienti hanno tentato di eliminare una condizione URL salvata in [!UICONTROL Conversion] > [!UICONTROL Viewed a Page], il tipo di obiettivo è passato in modo imprevisto a [!UICONTROL Viewed an Mbox] e tutte le impostazioni configurate in precedenza sono state rimosse. Questo aggiornamento assicura che solo la condizione URL selezionata venga eliminata e che tutte le impostazioni obiettivo rimanenti rimangano intatte. (TGT-53271)
+* **È stato risolto un problema che impediva la ricerca nelle sottocartelle.** È stato risolto un problema che impediva alla ricerca di offerte di restituire i risultati dalle sottocartelle nell&#39;interfaccia utente aggiornata. I clienti potevano trovare un’offerta solo se passavano manualmente alla cartella in cui era memorizzata, rendendo il comportamento di ricerca incoerente con le funzionalità API. La funzione di ricerca ora supporta la ricerca ricorsiva nelle cartelle, in modo che i clienti possano individuare le offerte senza dover aprire ogni cartella singolarmente. (TGT-51954)
+
++++
 
 ## Note sulla versione - 2025
 
@@ -1207,7 +1362,7 @@ Questa versione include le correzioni e gli aggiornamenti seguenti:
 * È stato risolto un problema che causava un errore di inserimento dell’utente durante lo spostamento delle offerte nelle cartelle. (TGT-52296)
 * È stato aggiunto un campo `audienceMetadata` per ogni attività, per assicurarti che venga letto e aggiornato durante la modifica dell&#39;attività. (TGT-51004)
 
-### [!DNL Target Standard/Premium] 25.4.5 (25 aprile 2025)
+### [!DNL Target Standard/Premium] 25.4.5 (sabato 25 aprile 2025)
 
 Questa versione include le correzioni e gli aggiornamenti seguenti:
 
@@ -1243,7 +1398,7 @@ A decorrere dal 22 aprile 2025, solo gli amministratori [!UICONTROL Product] e [
 
 Per ulteriori informazioni, vedere [Amministrare Target](/help/main/administrating-target/start-target.md).
 
-### [!DNL Target Standard/Premium] 25.4.4 (17 aprile 2025)
+### [!DNL Target Standard/Premium] 25.4.4 (venerdì 17 aprile 2025)
 
 Questa versione include le correzioni e gli aggiornamenti seguenti:
 
@@ -1258,7 +1413,7 @@ Questa versione include le correzioni e gli aggiornamenti seguenti:
 * Sono state corrette le discrepanze tra `OptionLocalIDs` definiti per un&#39;attività e quelli utilizzati per definire le esperienze. (TGT-52215)
 * È stato risolto un problema che causava un errore di convalida durante il tentativo di creazione di un’attività A/B. (TGT-51923)
 
-### [!DNL Target Standard/Premium] 25.4.3 (11 aprile 2025)
+### [!DNL Target Standard/Premium] 25.4.3 (sabato 11 aprile 2025)
 
 Questa versione include le correzioni e gli aggiornamenti seguenti:
 
@@ -1285,7 +1440,7 @@ Questa versione include le correzioni e gli aggiornamenti seguenti:
 * È stato ripristinato l&#39;accesso alle [schede di definizione del pubblico](/help/main/c-target/c-audiences/audiences.md#section_11B9C4A777E14D36BA1E925021945780) nella finestra di dialogo [!UICONTROL Activity QA], in modo simile all&#39;interfaccia utente legacy. (TGT-52056)
 * L’interfaccia utente aggiornata non salvava pagine o tipi di pubblico senza modifiche. Se i clienti hanno aggiunto nuove pagine o tipi di pubblico a un&#39;attività ma non vi apportano modifiche, [!DNL Target] ha eliminato i tipi di pubblico non modificati al momento del salvataggio. Le notifiche sono state aggiunte in posizioni rilevanti per informare gli utenti di questo comportamento. (TGT-52104)
 
-### [!DNL Target Standard/Premium] 25.4.1 (2 aprile 2025)
+### [!DNL Target Standard/Premium] 25.4.1 (giovedì 2 aprile 2025)
 
 Questa versione include le correzioni e gli aggiornamenti seguenti:
 
@@ -3325,7 +3480,7 @@ Questa versione include i miglioramenti e le funzioni seguenti:
       <li id="li_E2704294F8BA47FFAABE7572F67FB5C0"> <p>È possibile integrare una richiesta at.js con parametri aggiuntivi provenienti da provider di dati. Aggiungi i provider di dati a <span class="codeph">window.targetGlobalSettings</span> nella <span class="codeph">chiave dataProviders </span>. </p> <p>Per ulteriori informazioni, consulta “Fornitori dati” in <a href="https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/atjs-functions.html?lang=it" format="dita" scope="local">targetGlobalSettings()</a>. </p> </li> 
       <li id="li_02EAFE6DA0D44CF88980184FD14226A5"> <p>Le richieste at.js ora utilizzano GET, ma passeranno a POST quando la dimensione dell’URL supererà i 2048 caratteri. La nuova proprietà <span class="codeph">urlSizeLimit</span> consente di aumentare questo limite, se necessario. Questa modifica consente di allineare Target at.js ad AppMeasurement, che utilizza la stessa tecnica. </p> </li> 
       <li id="li_43363A4F3A764394AA88D2595F93D8C0"> <p>Target ora impone che venga utilizzata la chiave <span class="codeph">mbox</span> nella funzione <span class="codeph">adobe.target.applyOffer(options)</span>. Questa chiave era già richiesta in passato, ma Target ora ne impone l’utilizzo per garantire la corretta convalida di Target e il corretto utilizzo di questa funzione da parte dei clienti. </p> <p>Per ulteriori informazioni, consulta <a href="https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/atjs-functions.html?lang=it" format="dita" scope="local">adobe.target.applyOffer(options)</a>. </p> </li> 
-      <li id="li_7336D8D48A894291A378E0BB212B7F9B"> <p>at.js offre una funzionalità migliorata per il tracciamento di eventi e clic. at.js utilizza <span class="codeph">navigator.sendBeacon()</span> per inviare i dati di tracciamento degli eventi; se <span class="codeph">navigator.sendBeacon()</span> non è supportato, si basa su richieste XHR sincrone. Questa alternativa riguarda principalmente Internet Explorer 10 e 11 e alcune versioni di Safari. Con iOS 11.3, in Safari verrà aggiunto il supporto di <span class="codeph">navigator.sendBeacon()</span>. </p> </li> 
+      <li id="li_7336D8D48A894291A378E0BB212B7F9B"> <p>at.js offre una funzionalità migliorata per il tracciamento di eventi e clic. at.js utilizza <span class="codeph">navigator.sendBeacon()</span> per inviare i dati di tracciamento degli eventi; se <span class="codeph">navigator.sendBeacon()</span> non è supportato, si basa su richieste XHR sincrone. Questo fallback riguarda principalmente Internet Explorer 10 e 11 e alcune versioni di Safari. Con iOS 11.3, in Safari verrà aggiunto il supporto di <span class="codeph">navigator.sendBeacon()</span>. </p> </li> 
       <li id="li_28D7324137B14C75BF6F1EA0B2487C9B"> <p>at.js ora può renderizzare le offerte anche quando una pagina viene aperta nelle schede in background. Alcuni utenti di Target hanno riscontrato problemi quando <span class="codeph">requestAnimationFrame()</span> è stato disattivato a causa del comportamento di limitazione del browser per le schede in background. </p> </li> 
       <li id="li_3278979E1C6C41DEA7E8025AEB337985"> <p>In questa versione sono stati aggiunti svariati miglioramenti a livello di prestazioni, tra cui call stack più brevi durante l’ispezione di un profilo CPU in Chrome. </p> </li> 
       <li id="li_AAA9C0DCC3354DFA8907968C8E6427F6"> <p>at.js 1.3.0 non supporta più la consegna di contenuti in Microsoft Internet Explorer 9. Per un elenco dei browser supportati, vedere <a href="https://experienceleague.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html?lang=it" format="dita" scope="local"> browser supportati </a>. Da adesso in poi, tutte le richieste vengono eseguite tramite <span class="codeph">XMLHttpRequest</span> con supporto CORS, senza richieste JSONP. Questa modifica migliora notevolmente la sicurezza. </p> </li> 

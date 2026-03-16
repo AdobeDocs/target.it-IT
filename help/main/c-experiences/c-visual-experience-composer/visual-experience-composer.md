@@ -4,7 +4,7 @@ description: Scopri le nozioni di base sull’utilizzo del Compositore esperienz
 title: Come si utilizza il Compositore esperienza visivo?
 feature: Visual Experience Composer (VEC)
 exl-id: 51650f2a-1f24-40c7-8692-77f55656b4f6
-source-git-commit: 3f5b198ad08d85caa9c859171e78b710083e44fb
+source-git-commit: f984f2db3ccfb02629ddfd4f3c5f957256bd9f6a
 workflow-type: tm+mt
 source-wordcount: '1132'
 ht-degree: 43%
@@ -43,9 +43,11 @@ Il contenuto all’interno di un iframe nella pagina non può essere modificato 
 
 Mentre sposti il mouse sulla pagina, una casella sensibile al contesto segue il cursore ed evidenzia gli elementi nella pagina.
 
-<!--Click the **[!UICONTROL Overlays]** icon to change the way the highlight displays. For example, you can choose to highlight only images, links, regional mboxes, modifications, or JavaScript. You can change the color of the highlight. You can also specify a highlight color and type of fill used to highlight different element types.
+<!--
+Click the **[!UICONTROL Overlays]** icon to change the way the highlight displays. For example, you can choose to highlight only images, links, regional mboxes, modifications, or JavaScript. You can change the color of the highlight. You can also specify a highlight color and type of fill used to highlight different element types.
 
-![Change Overlay settings](/help/main/c-experiences/c-visual-experience-composer/assets/change-overlay.png)-->
+![Change Overlay settings](/help/main/c-experiences/c-visual-experience-composer/assets/change-overlay.png)
+-->
 
 Per visualizzare il menu delle opzioni disponibili per un determinato tipo di elemento, fare clic su un elemento evidenziato. Ad esempio, è possibile fare clic su un&#39;immagine e selezionare **[!UICONTROL Change Image]** per modificarla in un&#39;altra immagine. In alternativa, fare clic su un pulsante e modificare il colore del testo.
 

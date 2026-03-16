@@ -4,10 +4,10 @@ description: Scopri come creare offerte di reindirizzamento per indirizzare faci
 title: Come si creano le offerte di reindirizzamento?
 feature: Experiences and Offers
 exl-id: b7b960cb-5057-455b-8fab-86dd37343a04
-source-git-commit: e8201198dc6ac36e803153d5c6b345a30716204a
+source-git-commit: e42173fb4fe48e1ba74daaa8bae37da5799f9dc7
 workflow-type: tm+mt
-source-wordcount: '1016'
-ht-degree: 25%
+source-wordcount: '1080'
+ht-degree: 23%
 
 ---
 
@@ -47,7 +47,7 @@ Nell&#39;offerta di reindirizzamento viene eseguito il codice JavaScript per rei
 
    >[!NOTE]
    >
-   >Le offerte di reindirizzamento si traducono in un ciclo infinito se anche l’URL di reindirizzamento rende l’utente idoneo per la stessa attività. Assicurati che l’utente non sia idoneo per l’attività dopo essere stato reindirizzato.
+   >Le offerte di reindirizzamento si traducono in un ciclo infinito se anche l’URL di reindirizzamento rende l’utente idoneo per la stessa attività. Per evitare questo problema, aggiungere un parametro di query all&#39;URL di reindirizzamento, ad esempio `?redirect=true`. Quindi, nel pubblico dell’attività o nella regola del modello, verifica che questo parametro di query non sia presente. In questo modo l’utente non sarà più qualificato per l’attività dopo essere stato reindirizzato.
 
 1. Seleziona le opzioni desiderate per personalizzare l&#39;offerta di reindirizzamento:
 
@@ -78,7 +78,7 @@ Nell&#39;offerta di reindirizzamento viene eseguito il codice JavaScript per rei
 
    >[!NOTE]
    >
-   >Le offerte di reindirizzamento si traducono in un ciclo infinito se anche l’URL di reindirizzamento rende l’utente idoneo per la stessa attività. Assicurati che l’utente non sia idoneo per l’attività dopo essere stato reindirizzato.
+   >Le offerte di reindirizzamento si traducono in un ciclo infinito se anche l’URL di reindirizzamento rende l’utente idoneo per la stessa attività. Per evitare questo problema, aggiungere un parametro di query all&#39;URL di reindirizzamento, ad esempio `?redirect=true`. Quindi, nel pubblico dell’attività o nella regola del modello, verifica che questo parametro di query non sia presente. In questo modo l’utente non sarà più qualificato per l’attività dopo essere stato reindirizzato.
 
 1. Seleziona le opzioni desiderate per personalizzare l&#39;offerta di reindirizzamento:
 
