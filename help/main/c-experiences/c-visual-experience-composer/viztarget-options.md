@@ -33,11 +33,11 @@ Nelle sezioni seguenti vengono illustrate le opzioni disponibili nel Compositore
 
 ### Barra [!UICONTROL Experiences]
 
-La barra [!UICONTROL Experiences] viene visualizzata nella barra sinistra del VEC.
+La barra [!UICONTROL Experiences] viene visualizzata nella barra a sinistra del Compositore esperienza visivo.
 
 ![Barra delle esperienze](/help/main/c-experiences/c-visual-experience-composer/assets/experiences-panel.png)
 
-Puoi visualizzare, creare, rinominare o rimuovere le esperienze utilizzando la barra di [!UICONTROL Experiences].
+È possibile visualizzare, creare, rinominare o rimuovere esperienze utilizzando la barra [!UICONTROL Experiences].
 
 Nella barra [!UICONTROL Experiences] sono disponibili le opzioni seguenti:
 
@@ -55,10 +55,10 @@ Fai clic sull&#39;icona [!UICONTROL Configure] ( ![icona Configura](/help/main/a
 Sono disponibili le seguenti opzioni:
 
 * **[!UICONTROL Properties]**: Assegna proprietà all&#39;attività o rimuovi le proprietà dall&#39;attività. [!UICONTROL Properties] è una funzionalità ([[!DNL Target Premium]](/help/main/c-intro/intro.md#premium)). Per ulteriori informazioni, consulta [Autorizzazioni per gli utenti Enterprise](/help/main/administrating-target/c-user-management/property-channel/property-channel.md).
-* **[!UICONTROL Page Delivery]**: includi la stessa esperienza in pagine simili del tuo sito. Utilizzare un modello di pagina per strutturare le pagine o, se le pagine contengono elementi simili, per testare le variazioni di elementi di pagina strutturati in modo simile o nell&#39;intero dominio. Per ulteriori informazioni, consulta [Includere la stessa esperienza in pagine simili](/help/main/c-experiences/c-visual-experience-composer/temtest.md).
-* **[!UICONTROL Site Preferences]**: configura le preferenze del sito per specificare come [!DNL Target] genera i selettori CSS. Per ulteriori informazioni, vedere _Selettori CSS_ in [Configurare [!UICONTROL Visual Experience Composer]](/help/main/administrating-target/visual-experience-composer-set-up.md).
-* **Aggiungi pagine aggiuntive**: aggiungete pagine aggiuntive all’attività per creare un’attività a più pagine che consenta di creare un brano su più pagine, con una struttura specifica per ogni pagina. Per ulteriori informazioni, vedere [Attività multipagina](/help/main/c-experiences/c-visual-experience-composer/multipage-activity.md).
-* **Singolo gruppo di destinatari**: utilizzare un singolo gruppo di destinatari per l&#39;attività.
+* **[!UICONTROL Page Delivery]**: Includi la stessa esperienza in pagine simili del tuo sito. Utilizza un modello di pagina per fornire una struttura alle pagine o, se le pagine contengono elementi simili, per testare le varianti di elementi di pagina con struttura simile o per l’intero dominio. Per ulteriori informazioni, vedere [Includere la stessa esperienza in pagine simili](/help/main/c-experiences/c-visual-experience-composer/temtest.md).
+* **[!UICONTROL Site Preferences]**: Configura le preferenze del sito per specificare come [!DNL Target] genera selettori CSS. Per ulteriori informazioni, vedere _Selettori CSS_ in [Configurare [!UICONTROL Visual Experience Composer]](/help/main/administrating-target/visual-experience-composer-set-up.md).
+* **Aggiungi pagine aggiuntive**: aggiungi ulteriori pagine all&#39;attività per creare un&#39;attività multipagina che ti consenta di creare una storia su più pagine, con una progettazione specifica per ogni pagina. Per ulteriori informazioni, vedere [Attività multipagina](/help/main/c-experiences/c-visual-experience-composer/multipage-activity.md).
+* **Pubblico singolo**: utilizza un solo pubblico per l&#39;attività.
 * **Più tipi di pubblico**: assegna più tipi di pubblico all&#39;attività. Fai clic sull&#39;icona Aggiungi pubblico ( ![icona Aggiungi](/help/main/assets/icons/Add.svg) ), quindi seleziona uno o più tipi di pubblico dall&#39;elenco. È inoltre possibile [combinare tipi di pubblico](/help/main/c-target/combining-multiple-audiences.md) o [creare un nuovo pubblico](/help/main/c-target/c-audiences/create-audience.md) dalla finestra di dialogo [!UICONTROL Add Audiences].
 
 ### [!UICONTROL Design]/[!UICONTROL Browse] modalità
@@ -67,13 +67,13 @@ Utilizza gli interruttori [!UICONTROL Design]/[!UICONTROL Browse] visualizzati s
 
 ![Attiva/disattiva progettazione e navigazione](/help/main/c-experiences/c-visual-experience-composer/assets/design-browse-mode.png)
 
-Utilizza la modalità [!UICONTROL Browse] per esplorare il sito e scegliere la visualizzazione o la pagina che desideri aggiornare. Per aggiungere o modificare le modifiche, torna alla modalità [!UICONTROL Design].
+Utilizza la modalità [!UICONTROL Browse] per navigare nel tuo sito e scegliere la visualizzazione o la pagina che desideri aggiornare. Torna alla modalità [!UICONTROL Design] per aggiungere o modificare le modifiche.
 
 ### [!UICONTROL Undo]/[!UICONTROL Redo]
 
-È possibile annullare le modifiche apportate facendo clic sull&#39;icona [!UICONTROL Undo] ( ![Icona Annulla](/help/main/assets/icons/Undo.svg) ).
+Per annullare le modifiche apportate, fare clic sull&#39;icona [!UICONTROL Undo] ( ![icona Annulla](/help/main/assets/icons/Undo.svg) ).
 
-![Icona Annulla in VEC](/help/main/c-experiences/c-visual-experience-composer/assets/undo.png)
+![Icona Annulla nel Compositore esperienza visivo](/help/main/c-experiences/c-visual-experience-composer/assets/undo.png)
 
 Per ripristinare un&#39;azione, espandere il gruppo di pulsanti Annulla/[!UICONTROL Redo] e scegliere [!UICONTROL Redo].
 
@@ -85,11 +85,11 @@ Per ripristinare un&#39;azione, espandere il gruppo di pulsanti Annulla/[!UICONT
 
 >[!NOTE]
 >
->Se in quest&#39;area viene visualizzata la barra di [!UICONTROL Modifications] anziché quella di [!UICONTROL Components], fai clic sull&#39;icona **[!UICONTROL Show Components]** ( ![Mostra icona Componenti](/help/main/assets/icons/Add.svg) ). L&#39;icona [!UICONTROL Show Components] ( ![icona Mostra componenti](/help/main/assets/icons/Add.svg) ) e l&#39;icona [!UICONTROL Show Modifications] ( ![Barra delle modifiche](/help/main/assets/icons/History.svg) ) consentono di visualizzare le opzioni appropriate.
+>Se in quest&#39;area è presente la barra [!UICONTROL Modifications] invece della barra [!UICONTROL Components], fare clic sull&#39;icona **[!UICONTROL Show Components]** ( ![icona Mostra componenti](/help/main/assets/icons/Add.svg) ). L&#39;icona [!UICONTROL Show Components] ( ![icona Mostra componenti](/help/main/assets/icons/Add.svg) ) e l&#39;icona [!UICONTROL Show Modifications] ( ![Barra delle modifiche](/help/main/assets/icons/History.svg) ) consentono di visualizzare le opzioni appropriate.
 >
->Per comprimere la barra di [!UICONTROL Components] e ingrandire l&#39;area di lavoro [!UICONTROL Design] mentre la barra di [!UICONTROL Components] è aperta, fare clic sull&#39;icona ( ![Mostra componenti](/help/main/assets/icons/Add.svg) ).
+>Per comprimere la barra [!UICONTROL Components] e ingrandire l&#39;area di lavoro [!UICONTROL Design] mentre la barra [!UICONTROL Components] è aperta, fare clic sull&#39;icona ( ![icona Mostra componenti](/help/main/assets/icons/Add.svg) ).
 
-Per aggiungere un nuovo componente a un&#39;esperienza:
+Per aggiungere un nuovo componente a un’esperienza:
 
 1. Fai clic sul componente desiderato da aggiungere per evidenziarlo.
 
@@ -111,15 +111,15 @@ Per aggiungere un nuovo componente a un&#39;esperienza:
 1. Trascinare il componente su un elemento di pagina esistente nell&#39;area di lavoro [!UICONTROL Design].
 1. Scegli di sostituire l’elemento selezionato o di inserire il componente prima di dopo l’elemento selezionato.
 
-### Barra di [!UICONTROL Modifications]
+### Barra [!UICONTROL Modifications]
 
-Per aprire la barra di [!UICONTROL Modifications], fai clic sull&#39;icona [!UICONTROL Show Modifications] ( ![Mostra barra Modifiche](/help/main/assets/icons/History.svg) ) nella barra di [!UICONTROL Components].
+Per aprire la barra [!UICONTROL Modifications], fai clic sull&#39;icona [!UICONTROL Show Modifications] ( ![Mostra barra delle modifiche](/help/main/assets/icons/History.svg) ) nella barra [!UICONTROL Components].
 
 ![Barra delle modifiche](/help/main/c-experiences/c-visual-experience-composer/assets/modifications-panel.png)
 
 >[!NOTE]
 >
->L&#39;icona [!UICONTROL Show Components] ( ![Mostra icona Componenti](/help/main/assets/icons/Add.svg) ) e l&#39;icona [!UICONTROL Show Modifications] ( ![Mostra barra Modifiche](/help/main/assets/icons/History.svg) ) fungono da interruttori per visualizzare le opzioni appropriate.
+>L&#39;icona [!UICONTROL Show Components] ( ![icona Mostra componenti](/help/main/assets/icons/Add.svg) ) e l&#39;icona [!UICONTROL Show Modifications] ( ![Barra delle modifiche](/help/main/assets/icons/History.svg) ) consentono di visualizzare le opzioni appropriate.
 >
 >Per comprimere la barra [!UICONTROL Modifications] e ingrandire l&#39;area di lavoro [!UICONTROL Design] mentre la barra [!UICONTROL Modifications] è aperta, fare clic sull&#39;icona [!UICONTROL Show Modifications] ( ![Mostra barra Modifiche](/help/main/assets/icons/History.svg) ).
 
@@ -131,7 +131,7 @@ Fai clic sull&#39;icona **[!UICONTROL More Options]** ( ![Icona Altre azioni](/h
 
 ### [!UICONTROL Design] area di lavoro
 
-L&#39;area di lavoro [!UICONTROL Design] consente di selezionare le finestre di visualizzazione, incluse quelle di adattamento allo schermo, [!UICONTROL Desktop], [!UICONTROL Tablet], [!UICONTROL Mobile Landscape] e [!UICONTROL Mobile Portrait]. Per impostazione predefinita, l&#39;area di lavoro adatta la pagina allo schermo insieme ai riquadri di visualizzazione definiti nella sezione [Amministrazione](/help/main/administrating-target/visual-experience-composer-set-up.md).
+L&#39;area di lavoro [!UICONTROL Design] consente di selezionare i riquadri di visualizzazione, inclusi quelli adatti allo schermo, [!UICONTROL Desktop], [!UICONTROL Tablet], [!UICONTROL Mobile Landscape] e [!UICONTROL Mobile Portrait]. Per impostazione predefinita, l&#39;area di lavoro adatta la pagina allo schermo insieme ai riquadri di visualizzazione definiti nella sezione [Amministrazione](/help/main/administrating-target/visual-experience-composer-set-up.md).
 
 ![Opzioni riquadro di visualizzazione](/help/main/c-experiences/c-visual-experience-composer/assets/viewports.png)
 
@@ -149,7 +149,7 @@ Le varie azioni di [!UICONTROL Visual Experience Composer] (VEC) sono raggruppat
 
 ### Barra [!UICONTROL Properties]
 
-La barra di [!UICONTROL Properties] consente di modificare le proprietà degli elementi selezionati nella pagina, indipendentemente dal fatto che si tratti di elementi HTML o di oggetti specifici di [!DNL Target], ad esempio suggerimenti o offerte.
+La barra di [!UICONTROL Properties] consente di modificare le proprietà degli elementi selezionati nella pagina, sia che si tratti di elementi di HTML che di oggetti specifici di [!DNL Target], ad esempio consigli o offerte.
 
 ![Barra delle proprietà](/help/main/c-experiences/c-visual-experience-composer/assets/properties-panel.png)
 
@@ -171,16 +171,16 @@ Selezionare i componenti dal frame [!UICONTROL Components] sul lato sinistro per
 
 * Base (divisore, HTML, immagine).
 * Testo (intestazione, paragrafo, collegamento).
-* Dinamico ([Consiglio](/help/main/c-recommendations/recommendations-as-an-offer.md), [Frammento di esperienza](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md), offerta HTML).
+* Dinamico ([Consiglio](/help/main/c-recommendations/recommendations-as-an-offer.md), [Frammento esperienza](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md), Offerta HTML).
 
 Il menu nella parte superiore dell’immagine consente di effettuare le seguenti operazioni:
 
 * Inserire un collegamento ( ![Icona Inserisci collegamento](/help/main/assets/icons/Link.svg) ).
-* Modifica l&#39;immagine ( ![Scegli icona immagine](/help/main/assets/icons/Images.svg) ).
-* Aggiungi personalizzazione ( ![Icona Aggiungi personalizzazione](/help/main/assets/icons/PersonalizationField.svg) ).
+* Cambia l&#39;immagine ( ![icona Scegli immagine](/help/main/assets/icons/Images.svg) ).
+* Aggiungi personalizzazione ( ![Icona Aggiungi Personalization](/help/main/assets/icons/PersonalizationField.svg) ).
 * Elimina l&#39;immagine ( ![Icona Elimina](/help/main/assets/icons/Delete.svg) ).
 
-Il riquadro [!UICONTROL Properties] sul lato destro consente di configurare ulteriormente le proprietà dell&#39;immagine.
+Il riquadro [!UICONTROL Properties] a destra consente di configurare ulteriormente le proprietà dell&#39;immagine.
 
 Le icone nella parte superiore della cornice consentono di effettuare le seguenti operazioni:
 
@@ -194,11 +194,11 @@ Le opzioni nel riquadro destro consentono di effettuare le seguenti operazioni:
 * Modifica la classe CSS.
 * Configura le proprietà dell’immagine (sorgente, titolo, testo alternativo).
 * Modifica l’URL del collegamento.
-* Configura le dimensioni dell’immagine (altezza e larghezza). Fare clic su [!UICONTROL Show Advanced Options] per configurare le dimensioni minime e massime, la larghezza, l&#39;altezza, l&#39;overflow e l&#39;adattamento dell&#39;oggetto dell&#39;immagine.
-* Configurare la posizione dell&#39;immagine sulla pagina (assoluta, fissa, relativa, statica o permanente).
-* Configurare la spaziatura dell&#39;elemento, inclusi margine e spaziatura interna.
-* Configurare gli effetti dell&#39;elemento (opacità). Fai clic su [!UICONTROL Show Advanced Options] per configurare i valori di seppia, scala di grigio, contrasto, luminosità e sfocatura dell’immagine. Potete anche invertire o ruotare l’immagine.
-* Configura gli stili in linea dell&#39;immagine.
+* Configura le dimensioni dell’immagine (altezza e larghezza). Fare clic su [!UICONTROL Show Advanced Options] per configurare le dimensioni minime e massime, la larghezza, l&#39;altezza, l&#39;overflow e l&#39;adattamento degli oggetti dell&#39;immagine.
+* Configura la posizione dell&#39;immagine sulla pagina (assoluta, fissa, relativa, statica o permanente).
+* Configura la spaziatura dell&#39;elemento, inclusi margine e spaziatura interna.
+* Configura gli effetti dell&#39;elemento (opacità). Fare clic su [!UICONTROL Show Advanced Options] per configurare i valori di seppia, scala di grigio, contrasto, luminosità e sfocatura dell&#39;immagine. Potete anche invertire o ruotare l&#39;immagine.
+* Configura gli stili in linea dell’immagine.
 
 ### Opzioni testo
 
@@ -210,18 +210,18 @@ Selezionare i componenti dal frame [!UICONTROL Components] sul lato sinistro per
 
 * Base (divisore, HTML, immagine).
 * Testo (intestazione, paragrafo, collegamento).
-* Dinamico ([Consiglio](/help/main/c-recommendations/recommendations-as-an-offer.md), [Frammento di esperienza](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md), offerta HTML).
+* Dinamico ([Consiglio](/help/main/c-recommendations/recommendations-as-an-offer.md), [Frammento esperienza](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md), Offerta HTML).
 
 Fai clic sull&#39;icona [!UICONTROL Show Modifications] ( ![Mostra icona Modifiche](/help/main/assets/icons/History.svg) ) per visualizzare le modifiche apportate all&#39;esperienza.
 
 Il menu nella parte superiore dell’elemento di testo consente di effettuare le seguenti operazioni:
 
-* Configurare le proprietà del testo (a livello di intestazione, paragrafo, virgolette o spazio)
+* Configurare le proprietà del testo (livello di intestazione, paragrafo, virgolette o spazio)
 * Selezionare il colore del testo ( ![icona Colore testo](/help/main/assets/icons/TextColor.svg) )
 * Configurare gli attributi del testo (grassetto, corsivo, sottolineato o barrato) ( ![Icona Attributi testo](/help/main/assets/icons/Text.svg) ).
 * Configurare l&#39;allineamento del testo (a sinistra, al centro, a destra, giustifica) ( ![Icona Allineamento testo](/help/main/assets/icons/TextAlignCenter.svg) ).
 * Inserire un collegamento ( ![Icona Inserisci collegamento](/help/main/assets/icons/Link.svg) ).
-* Sostituisci il contenuto con un&#39;offerta HTML, [Frammento di esperienza](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md) o [Consiglio](/help/main/c-recommendations/recommendations-as-an-offer.md).
+* Sostituisci il contenuto con un&#39;offerta HTML, [Frammento esperienza](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md) o [Consiglio](/help/main/c-recommendations/recommendations-as-an-offer.md).
 * Modificare HTML ( ![Icona Inserisci HTML](/help/main/assets/icons/Code.svg) ).
 * Aggiungi personalizzazione ( ![Icona Aggiungi Personalization](/help/main/assets/icons/PersonalizationField.svg) ).
 * Elimina l&#39;immagine ( ![Icona Elimina](/help/main/assets/icons/Delete.svg) ).
@@ -231,9 +231,9 @@ La barra [!UICONTROL Properties] a destra consente di configurare ulteriormente 
 Le icone nella parte superiore della cornice consentono di effettuare le seguenti operazioni:
 
 * Modificare HTML ( ![Icona Inserisci HTML](/help/main/assets/icons/Code.svg) ). Per ulteriori informazioni, vedere [Modifica HTML](#html).
-* Duplica il testo ( ![Icona Duplica](/help/main/assets/icons/Code.svg) ).
-* Elimina il testo ( ![Icona Elimina](/help/main/assets/icons/Delete.svg) ).
-* Nascondere il testo ( ![Icona Nascondi](/help/main/assets/icons/VisibilityOff.svg) ).
+* Testo duplicato ( ![Icona duplicata](/help/main/assets/icons/Code.svg) ).
+* Eliminare il testo ( ![Icona Elimina](/help/main/assets/icons/Delete.svg) ).
+* Nascondi il testo ( ![Icona Nascondi](/help/main/assets/icons/VisibilityOff.svg) ).
 
 Le opzioni nel riquadro destro consentono di effettuare le seguenti operazioni:
 
@@ -243,7 +243,7 @@ Le opzioni nel riquadro destro consentono di effettuare le seguenti operazioni:
 * Configura gli elenchi, inclusi quelli puntati, numerati o A, B, C.
 * Scegliere il colore del bordo.
 * Configurare le dimensioni della casella di testo (altezza e larghezza). Fare clic su [!UICONTROL Show Advanced Options] per configurare le dimensioni minime e massime, la larghezza, l&#39;altezza, l&#39;overflow e l&#39;adattamento degli oggetti della casella di testo.
-* Configurate la posizione della casella di testo sulla pagina (assoluta, fissa, relativa, statica o permanente) e impostate il numero di pixel dall’alto, verso destra, verso il basso e verso sinistra.
+* Configurate la posizione della casella di testo sulla pagina (assoluta, fissa, relativa, statica o fissa) e impostate il numero di pixel dall&#39;alto, da destra, dal basso e da sinistra.
 * Configura la spaziatura dell&#39;elemento, inclusi margine e spaziatura interna.
 * Configura gli effetti dell&#39;elemento (opacità). Fare clic su [!UICONTROL Show Advanced Options] per configurare i valori di seppia, scala di grigio, contrasto, luminosità e sfocatura dell&#39;immagine. Potete anche invertire o ruotare il testo.
 * Configura gli stili in linea.
@@ -252,7 +252,7 @@ Le opzioni nel riquadro destro consentono di effettuare le seguenti operazioni:
 
 Oltre al codice HTML, puoi modificare e inserire codice JavaScript personalizzato.
 
-Diverse opzioni di formattazione RTF sono disponibili durante la modifica di testo e HTML per le attività [!UICONTROL A/B] e [!UICONTROL Experience Targeting]. Puoi scegliere font e stile, l’allineamento del testo e altre opzioni standard per la formattazione del testo. Quando modificate HTML, potete alternare tra la vista Codice e la vista di modifica del HTML.
+Sono disponibili diverse opzioni di formattazione per modificare il testo e HTML per le attività [!UICONTROL A/B] e [!UICONTROL Experience Targeting]. Puoi scegliere font e stile, l’allineamento del testo e altre opzioni standard per la formattazione del testo. Quando si modifica HTML, è possibile passare dalla vista codice alla vista di modifica avanzata di HTML e viceversa.
 
 I seguenti tag HTML5 possono essere nidificati:
 
@@ -281,17 +281,17 @@ Utilizzando il percorso DOM, è possibile passare facilmente a qualsiasi element
 
 La funzione Percorso DOM è disponibile anche quando si imposta il [tracciamento dei clic](/help/main/c-activities/r-success-metrics/click-tracking.md).
 
-## Ulteriori informazioni sull&#39;interfaccia utente aggiornata
+## Ulteriori informazioni sull’interfaccia utente aggiornata
 
-* Note sulla versione di [[!DNL Target Standard/Premium] 25.2.1 (17 febbraio 2025)](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-2): fornisce un riepilogo delle modifiche dell&#39;interfaccia utente chiave in [!DNL Target] per [!UICONTROL Activities], [!UICONTROL Recommendations] e [!UICONTROL Visual Experience Composer] (VEC).
+* [[!DNL Target Standard/Premium] 25.2.1 (17 febbraio 2025) - Note sulla versione](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-2): fornisce un riepilogo delle modifiche principali apportate all&#39;interfaccia utente in [!DNL Target] per [!UICONTROL Activities], [!UICONTROL Recommendations] e [!UICONTROL Visual Experience Composer] (Compositore esperienza visivo).
 
-* Note sulla versione di [[!DNL Target Standard/Premium] 25.1.1 (9 gennaio 2025)](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-1): fornisce un riepilogo delle modifiche dell&#39;interfaccia utente chiave in [!DNL Target] per [!UICONTROL Offers Library].
+* [[!DNL Target Standard/Premium] 25.1.1 (9 gennaio 2025) - Note sulla versione](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-1): fornisce un riepilogo delle modifiche principali apportate all&#39;interfaccia utente in [!DNL Target] per [!UICONTROL Offers Library].
 
-* [Comprendere l&#39;interfaccia utente [!DNL Target] UI](/help/main/c-intro/understand-the-target-ui.md): fornisce una breve panoramica per aiutarti a familiarizzare con [!DNL Target] e fornisce collegamenti per informazioni più dettagliate e istruzioni dettagliate.
+* [Comprendere l&#39;interfaccia utente [!DNL Target] UI](/help/main/c-intro/understand-the-target-ui.md): fornisce una breve panoramica per acquisire familiarità con [!DNL Target] e fornisce collegamenti per informazioni più approfondite e istruzioni dettagliate.
 
-* [[!UICONTROL Visual Experience Composer] modifiche](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md): la versione di [!DNL Adobe Target Standard/Premium] 25.2.1 (17 febbraio 2015) introduce un [!UICONTROL Visual Experience Composer] (VEC) aggiornato. Questo articolo spiega le differenze tra la versione precedente e quella aggiornata di VEC.
+* [[!UICONTROL Visual Experience Composer] modifiche](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md): la versione di [!DNL Adobe Target Standard/Premium] 25.2.1 (17 febbraio 2015) introduce una versione aggiornata di [!UICONTROL Visual Experience Composer] (VEC). Questo articolo spiega le differenze tra le versioni legacy e aggiornata del Compositore esperienza visivo.
 
-* [[!UICONTROL Visual Experience Composer] opzioni](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md): questo articolo spiega l&#39;interfaccia utente VEC aggiornata e le relative opzioni.
+* [[!UICONTROL Visual Experience Composer] opzioni](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md): questo articolo illustra l&#39;interfaccia utente del Compositore esperienza visivo aggiornata e le relative opzioni.
 
 * [[!DNL Target] Domande frequenti sull&#39;aggiornamento dell&#39;interfaccia utente](/help/main/c-intro/updated-ui-faq.md): queste domande frequenti riguardano le domande comuni sulla nuova interfaccia utente [!DNL Target] e sul nuovo Compositore esperienza visivo [!UICONTROL Visual Experience Composer], incluse le modifiche alla navigazione, le posizioni delle funzioni e la rimozione dell&#39;opzione di versione temporanea dell&#39;interfaccia utente. Che tu sia un addetto marketing, uno sviluppatore o un amministratore, queste domande frequenti consentono una transizione fluida e di sfruttare al massimo l’interfaccia utente aggiornata.
 
@@ -490,7 +490,7 @@ The following options are available:
 
 ### [!UICONTROL Offer Decision]
 
-Add an [offer created in [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html?lang=it){target=_blank} to present the best offer and experience to your customers using offer decisioning.
+Add an [offer created in [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html){target=_blank} to present the best offer and experience to your customers using offer decisioning.
 
 **Note:** This option is available when editing or creating [manual [!UICONTROL A/B Test]](/help/main/c-activities/t-test-ab/test-ab.md#types) or [[!UICONTROL Experience Targeting]](/help/main/c-activities/t-experience-target/experience-target.md) (XT) activities only. This option is not available for other activity types.
 
@@ -522,7 +522,7 @@ The following options are available:
 
 ### [!UICONTROL Offer Decision]
 
-Add an [offer created in [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html?lang=it){target=_blank} to present the best offer and experience to your customers using offer decisioning.
+Add an [offer created in [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html){target=_blank} to present the best offer and experience to your customers using offer decisioning.
 
 **Note:** This option is available when editing or creating [manual [!UICONTROL A/B Test]](/help/main/c-activities/t-test-ab/test-ab.md#types) or [[!UICONTROL Experience Targeting]](/help/main/c-activities/t-experience-target/experience-target.md) (XT) activities only. This option is not available for other activity types.
 
@@ -554,7 +554,7 @@ The following options are available:
 
 ### [!UICONTROL Offer Decision]
 
-Add an [offer created in [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html?lang=it){target=_blank} to present the best offer and experience to your customers using offer decisioning.
+Add an [offer created in [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html){target=_blank} to present the best offer and experience to your customers using offer decisioning.
 
 **Note:** This option is available when editing or creating [manual [!UICONTROL A/B Test]](/help/main/c-activities/t-test-ab/test-ab.md#types) or [[!UICONTROL Experience Targeting]](/help/main/c-activities/t-experience-target/experience-target.md) (XT) activities only. This option is not available for other activity types.
 
@@ -644,7 +644,7 @@ Undo changes you make to your activities during an editing session. You can also
 
 ## Considerations {#considerations}
 
-* If an offer contains HTML content, see "How at.js renders offers with HTML content" in [How at.js works](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html?lang=it){target=_blank} for more information.
+* If an offer contains HTML content, see "How at.js renders offers with HTML content" in [How at.js works](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html){target=_blank} for more information.
 
 ## Custom element support {#custom}
 
@@ -652,7 +652,7 @@ The VEC supports [Web Components](https://developer.mozilla.org/en-US/docs/Web/W
 
 >[!NOTE]
 >
->VEC support for custom elements is supported in [at.js version](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=it){target=_blank} 2.7.0 (or later){target=_blank}. Ensure that your website has the required version deployed. If you are using the [Visual Experience Composer helper extension](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md), it must also have the required version of at.js deployed. The VEC options described above are not visible and available for use with non-supported versions of at.js.
+>VEC support for custom elements is supported in [at.js version](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} 2.7.0 (or later){target=_blank}. Ensure that your website has the required version deployed. If you are using the [Visual Experience Composer helper extension](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md), it must also have the required version of at.js deployed. The VEC options described above are not visible and available for use with non-supported versions of at.js.
 >
 >VEC support for custom elements is currently not supported with the [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}.
 
