@@ -6,11 +6,10 @@ short-description: Scopri le nuove funzioni, i miglioramenti e le correzioni inc
 title: Cosa è incluso nella versione corrente?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-hold: true
-source-git-commit: 44d9cd4de7ff2064e6005a4d7ece7f37194fbf2f
+source-git-commit: 62d33419f2cbad93d99b29cef58e99f4d84a98f6
 workflow-type: tm+mt
-source-wordcount: '590'
-ht-degree: 41%
+source-wordcount: '516'
+ht-degree: 47%
 
 ---
 
@@ -56,13 +55,6 @@ Per ulteriori informazioni, vedere [[!DNL Target] Domande frequenti sull&#39;agg
 
 +++
 
-**[!UICONTROL Visual Experience Composer] (VEC)**
-
-+++Vedi i dettagli
-
-* **Le modifiche del Compositore esperienza visivo non vengono applicate ai siti che utilizzano Shadow DOM (Salesforce Lightning Web Components).** Questa correzione risolve un problema in cui le modifiche apportate in Adobe Target (come le modifiche del colore di CTA) non venivano salvate o riportate sul sito attivo per i siti basati su Salesforce che utilizzano Lightning Web Components (LWC). CMS non accettava aggiornamenti dalle attività di Target e questo problema si verificava in modo coerente tra i test A/B e altri tipi di attività. (TGT-54059)
-
-+++
 
 ## Note aggiuntive e dettagli sulla versione
 

@@ -4,8 +4,7 @@ description: Visualizza un elenco di funzioni, miglioramenti e correzioni inclus
 title: Quali funzioni sono incluse nelle versioni precedenti?
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-hold: true
-source-git-commit: 44d9cd4de7ff2064e6005a4d7ece7f37194fbf2f
+source-git-commit: 62d33419f2cbad93d99b29cef58e99f4d84a98f6
 workflow-type: tm+mt
 source-wordcount: '64670'
 ht-degree: 52%
@@ -2091,7 +2090,7 @@ Questa versione include i miglioramenti e le correzioni seguenti:
 | *Guida per gli sviluppatori di Adobe Target* | La *Guida per gli sviluppatori di Adobe Target* consolida tutti i contenuti per sviluppatori di [!DNL Target] in un’unica pratica guida. La guida include informazioni sull’implementazione di [!DNL Target] e [!DNL Recommendations], sugli SDK di [!DNL Target] e sulle API di [!DNL Target].<br>Per ulteriori informazioni, vedere [Guida per gli sviluppatori di Adobe Target](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=it){target=_blank}. |
 
 * Gli utenti con il ruolo [!UICONTROL Editor] non possono più modificare i tipi di pubblico nelle attività live. (TGT-43582)
-* Se un cliente tenta di salvare un pubblico con un punto esclamativo ( ! ) come primo carattere del nome del pubblico (ad esempio !Londra). (TGT-43643)
+* Viene visualizzato un messaggio di avviso se un cliente tenta di salvare un pubblico con un punto esclamativo ( ! ) come primo carattere del nome del pubblico (ad esempio !London). (TGT-43643)
 * È stato risolto un problema a causa del quale alcune schede dei dettagli di definizione del pubblico per alcuni clienti indicavano che un’attività terminata è ancora in esecuzione. (TGT-43527)
 
 ### [!DNL Target Standard/Premium] 22.6.1 (rilascio graduale: 7-9 giugno 2022)
