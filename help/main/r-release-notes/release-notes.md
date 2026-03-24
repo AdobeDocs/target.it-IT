@@ -32,7 +32,7 @@ Per ulteriori informazioni, vedere [[!DNL Target] Domande frequenti sull&#39;agg
 
 ## [!DNL Target Standard/Premium] 26.3.4 (19 marzo 2026)
 
-**[!UICONTROL Visual Experience Composer](VEC)**
+**[!UICONTROL Visual Experience Composer] (VEC)**
 
 +++Vedi i dettagli
 
