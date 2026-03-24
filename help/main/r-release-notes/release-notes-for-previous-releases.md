@@ -4,9 +4,9 @@ description: Visualizza un elenco di funzioni, miglioramenti e correzioni inclus
 title: Quali funzioni sono incluse nelle versioni precedenti?
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: 62d33419f2cbad93d99b29cef58e99f4d84a98f6
+source-git-commit: ebece601c66f1f165d742f2d39af256ea7b7e277
 workflow-type: tm+mt
-source-wordcount: '64670'
+source-wordcount: '64864'
 ht-degree: 52%
 
 ---
@@ -22,6 +22,32 @@ Le note sulla versione sono elencate in ordine decrescente per mese e anno di ri
 >Consulta [Note sulla versione di Target (corrente)](/help/main/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A) per informazioni sulle versioni di Target del mese corrente (piattaforma e Target Standard/Premium).
 
 ## Note sulla versione - 2026
+
+## [!DNL Target Standard/Premium] 26.3.2 (10 marzo 2026)
+
+**Attività**
+
++++Vedi i dettagli
+
+* **Le modifiche dirette delle offerte nell&#39;esperienza non vengono salvate.** Questa correzione risolve un problema per cui le modifiche apportate alle offerte dirette all&#39;interno di un&#39;esperienza di attività non venivano salvate. In precedenza, quando gli utenti aprivano un’offerta diretta, apportavano modifiche e la salvavano, le modifiche apparivano inizialmente riflesse ma andavano perse quando riaprivano l’offerta. La correzione assicura che le modifiche apportate alle offerte dirette vengano salvate correttamente e persistano alla riapertura dell’offerta. (TGT-54653)
+
++++
+
+**Implementazione**
+
++++Vedi i dettagli
+
+* **Aggiungi gestione visualizzazione momentanea di altri contenuti nella schermata Implementazione.** È stato aggiunto un nuovo interruttore alla schermata [!UICONTROL Implementation] per controllare l&#39;abilitazione dell&#39;impostazione di gestione della visualizzazione momentanea di altri contenuti. Questa opzione consente agli amministratori di configurare la gestione della visualizzazione momentanea di altri contenuti direttamente dalla schermata Implementazione. (TGT-52247)
+
++++
+
+**Panoramica**
+
++++Vedi i dettagli
+
+* **Mostra il nome completo del pubblico e dell&#39;esperienza nella pagina Panoramica.** Questo miglioramento aggiorna la pagina [!UICONTROL Overview] per visualizzare il nome completo dei tipi di pubblico e delle esperienze. In precedenza, i nomi lunghi venivano troncati e non erano completamente visibili; per visualizzarli, era necessario fare clic tre volte per selezionare tutto il testo. L’aggiornamento garantisce che siano visibili i nomi completi di pubblico ed esperienza, facilitando l’identificazione e la revisione delle configurazioni delle attività da parte degli utenti. (TGT-53323)
+
++++
 
 ### [!DNL Target Standard/Premium] 26.3.1 (3 marzo 2026)
 

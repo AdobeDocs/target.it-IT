@@ -6,10 +6,11 @@ short-description: Scopri le nuove funzioni, i miglioramenti e le correzioni inc
 title: Cosa è incluso nella versione corrente?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 62d33419f2cbad93d99b29cef58e99f4d84a98f6
+hold: true
+source-git-commit: ebece601c66f1f165d742f2d39af256ea7b7e277
 workflow-type: tm+mt
-source-wordcount: '516'
-ht-degree: 47%
+source-wordcount: '447'
+ht-degree: 53%
 
 ---
 
@@ -29,32 +30,17 @@ Per gli aggiornamenti sensibili al tempo relativi a [!DNL Adobe Target] e alla t
 
 Per ulteriori informazioni, vedere [[!DNL Target] Domande frequenti sull&#39;aggiornamento dell&#39;interfaccia utente](/help/main/c-intro/updated-ui-faq.md).
 
-## [!DNL Target Standard/Premium] 26.3.2 (10 marzo 2026)
+## [!DNL Target Standard/Premium] 26.3.4 (19 marzo 2026)
 
-**Attività**
-
-+++Vedi i dettagli
-
-* **Le modifiche dirette delle offerte nell&#39;esperienza non vengono salvate.** Questa correzione risolve un problema per cui le modifiche apportate alle offerte dirette all&#39;interno di un&#39;esperienza di attività non venivano salvate. In precedenza, quando gli utenti aprivano un’offerta diretta, apportavano modifiche e la salvavano, le modifiche apparivano inizialmente riflesse ma andavano perse quando riaprivano l’offerta. La correzione assicura che le modifiche apportate alle offerte dirette vengano salvate correttamente e persistano alla riapertura dell’offerta. (TGT-54653)
-
-+++
-
-**Implementazione**
+**[!UICONTROL Visual Experience Composer] (VEC)**
 
 +++Vedi i dettagli
 
-* **Aggiungi gestione visualizzazione momentanea di altri contenuti nella schermata Implementazione.** È stato aggiunto un nuovo interruttore alla schermata [!UICONTROL Implementation] per controllare l&#39;abilitazione dell&#39;impostazione di gestione della visualizzazione momentanea di altri contenuti. Questa opzione consente agli amministratori di configurare la gestione della visualizzazione momentanea di altri contenuti direttamente dalla schermata Implementazione. (TGT-52247)
+* **Selezione della modalità progettazione/navigazione visibile nell&#39;editor Web del Compositore esperienza visivo.** Questa correzione risolve un problema in cui il passaggio tra le modalità Progettazione, Sfoglia e Anteprima funzionava correttamente, ma la modalità attiva non era chiaramente indicata nell&#39;interfaccia. La modalità selezionata è ora evidenziata in modo visibile per consentirti di vedere in quale modalità ti trovi. (TGT-54790)
+
+* **URL di rete privati nel Compositore esperienza visivo (Chrome).** Chrome può bloccare le pagine in una rete privata a meno che non sia consentito l&#39;accesso alla rete locale. **[!UICONTROL Visual Experience Composer]** ora richiede tale autorizzazione nell&#39;Experience Cloud di frame, in modo che Chrome possa visualizzare un messaggio di richiesta di autorizzazione invece di generare un errore automaticamente. Dopo aver consentito l’accesso, gli URL interni possono essere caricati nel Compositore esperienza visivo quando l’ambiente lo supporta. (TGT-54346)
 
 +++
-
-**Panoramica**
-
-+++Vedi i dettagli
-
-* **Mostra il nome completo del pubblico e dell&#39;esperienza nella pagina Panoramica.** Questo miglioramento aggiorna la pagina [!UICONTROL Overview] per visualizzare il nome completo dei tipi di pubblico e delle esperienze. In precedenza, i nomi lunghi venivano troncati e non erano completamente visibili; per visualizzarli, era necessario fare clic tre volte per selezionare tutto il testo. L’aggiornamento garantisce che siano visibili i nomi completi di pubblico ed esperienza, facilitando l’identificazione e la revisione delle configurazioni delle attività da parte degli utenti. (TGT-53323)
-
-+++
-
 
 ## Note aggiuntive e dettagli sulla versione
 
