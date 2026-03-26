@@ -6,11 +6,10 @@ short-description: Scopri le nuove funzioni, i miglioramenti e le correzioni inc
 title: Cosa è incluso nella versione corrente?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-hold: true
-source-git-commit: ebece601c66f1f165d742f2d39af256ea7b7e277
+source-git-commit: d1517ad557dc63956346bf36fc2a001c848eb6ce
 workflow-type: tm+mt
-source-wordcount: '447'
-ht-degree: 53%
+source-wordcount: '378'
+ht-degree: 62%
 
 ---
 
@@ -30,15 +29,14 @@ Per gli aggiornamenti sensibili al tempo relativi a [!DNL Adobe Target] e alla t
 
 Per ulteriori informazioni, vedere [[!DNL Target] Domande frequenti sull&#39;aggiornamento dell&#39;interfaccia utente](/help/main/c-intro/updated-ui-faq.md).
 
-## [!DNL Target Standard/Premium] 26.3.4 (19 marzo 2026)
 
-**[!UICONTROL Visual Experience Composer] (VEC)**
+## [!DNL Target Standard/Premium] 26.3.7 (26 marzo 2026)
+
+**Tipi di pubblico**
 
 +++Vedi i dettagli
 
-* **Selezione della modalità progettazione/navigazione visibile nell&#39;editor Web del Compositore esperienza visivo.** Questa correzione risolve un problema in cui il passaggio tra le modalità Progettazione, Sfoglia e Anteprima funzionava correttamente, ma la modalità attiva non era chiaramente indicata nell&#39;interfaccia. La modalità selezionata è ora evidenziata in modo visibile per consentirti di vedere in quale modalità ti trovi. (TGT-54790)
-
-* **URL di rete privati nel Compositore esperienza visivo (Chrome).** Chrome può bloccare le pagine in una rete privata a meno che non sia consentito l&#39;accesso alla rete locale. **[!UICONTROL Visual Experience Composer]** ora richiede tale autorizzazione nell&#39;Experience Cloud di frame, in modo che Chrome possa visualizzare un messaggio di richiesta di autorizzazione invece di generare un errore automaticamente. Dopo aver consentito l’accesso, gli URL interni possono essere caricati nel Compositore esperienza visivo quando l’ambiente lo supporta. (TGT-54346)
+* **Precisione dell&#39;etichetta dell&#39;origine del pubblico nell&#39;interfaccia Tipi di pubblico.** È stato risolto un problema che causava la visualizzazione dei tipi di pubblico provenienti dalla destinazione Adobe Target v2 in Adobe Experience Platform con **Adobe Experience Cloud** come origine invece di **Adobe Experience Platform**. Questo aggiornamento migliora la coerenza dell’etichetta sorgente durante il filtraggio e la revisione dei tipi di pubblico. (TGT-54802)
 
 +++
 
