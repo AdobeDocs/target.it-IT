@@ -4,10 +4,10 @@ description: Visualizza un elenco di funzioni, miglioramenti e correzioni inclus
 title: Quali funzioni sono incluse nelle versioni precedenti?
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: 45225233e9eb2441d657402fe6309d927329aa5a
+source-git-commit: 23e5513879ec15922af78ca6696f94ed4d0ae9b5
 workflow-type: tm+mt
-source-wordcount: '64938'
-ht-degree: 52%
+source-wordcount: '65113'
+ht-degree: 51%
 
 ---
 
@@ -22,6 +22,28 @@ Le note sulla versione sono elencate in ordine decrescente per mese e anno di ri
 >Consulta [Note sulla versione di Target (corrente)](/help/main/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A) per informazioni sulle versioni di Target del mese corrente (piattaforma e Target Standard/Premium).
 
 ## Note sulla versione - 2026
+
+## [!DNL Target Standard/Premium] 26.3.6 (23 marzo 2026)
+
+**[!UICONTROL Visual Experience Composer] (VEC)**
+
++++Vedi i dettagli
+
+* **Schermata grigia intermittente dopo l&#39;autenticazione nella nuova interfaccia utente del Compositore esperienza visivo.** È stato risolto un problema che causava la visualizzazione intermittente di una schermata grigia dopo l&#39;accesso al nuovo Compositore esperienza visivo, impedendo ulteriori modifiche. Questo aggiornamento migliora l’affidabilità del caricamento dopo l’autenticazione. (TGT-54626)
+
++++
+
+## [!DNL Target Standard/Premium] 26.3.4 (19 marzo 2026)
+
+**[!UICONTROL Visual Experience Composer] (VEC)**
+
++++Vedi i dettagli
+
+* **Selezione della modalità progettazione/navigazione visibile nell&#39;editor Web del Compositore esperienza visivo.** Questa correzione risolve un problema in cui il passaggio tra le modalità Progettazione, Sfoglia e Anteprima funzionava correttamente, ma la modalità attiva non era chiaramente indicata nell&#39;interfaccia. La modalità selezionata è ora evidenziata in modo visibile per consentirti di vedere in quale modalità ti trovi. (TGT-54790)
+
+* **URL di rete privati nel Compositore esperienza visivo (Chrome).** Chrome può bloccare le pagine in una rete privata a meno che non sia consentito l&#39;accesso alla rete locale. **[!UICONTROL Visual Experience Composer]** ora richiede tale autorizzazione nell&#39;Experience Cloud di frame, in modo che Chrome possa visualizzare un messaggio di richiesta di autorizzazione invece di generare un errore automaticamente. Dopo aver consentito l’accesso, gli URL interni possono essere caricati nel Compositore esperienza visivo quando l’ambiente lo supporta. (TGT-54346)
+
++++
 
 ## [!DNL Target Standard/Premium] 26.3.2 (10 marzo 2026)
 
@@ -1705,7 +1727,7 @@ Questa ottimizzazione verrà abilitata per tutti i nuovi clienti di [!DNL Adobe 
 >
 >Se non riesci a completare la revisione dell’implementazione e risolvere eventuali problemi entro il 3 febbraio 2025, puoi richiedere una proroga una tantum di sei mesi. Assicurati di inviare la richiesta entro il 31 gennaio 2025. Adobe rivedrà e deciderà sulla tua richiesta.
 
-Per beneficiare di questa ottimizzazione in caso di rendering manuale della proposta, controlla [[!DNL Platform Web SDK implementation]](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/aep-web-sdk){target=_blank} per assicurarti di inviare le notifiche dopo il rendering manuale delle esperienze o quando utilizzi il metodo `applyPropositions` (o l&#39;azione [!DNL Launch] corrispondente come helper) per eseguire il rendering delle esperienze.
+Per beneficiare di questa ottimizzazione in caso di rendering manuale della proposta, controlla [[!DNL Platform Web SDK implementation]](https://experienceleague.adobe.com/it/docs/target-dev/developer/client-side/aep/aep-web-sdk-overview){target=_blank} per assicurarti di inviare le notifiche dopo il rendering manuale delle esperienze o quando utilizzi il metodo `applyPropositions` (o l&#39;azione [!DNL Launch] corrispondente come helper) per eseguire il rendering delle esperienze.
 
 Gli scenari più comuni in cui viene eseguito manualmente il rendering delle esperienze includono:
 
