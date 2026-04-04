@@ -377,7 +377,7 @@ Per accedere alle opzioni [!UICONTROL Page Delivery] nel flusso di lavoro guidat
 
 ![Finestra di dialogo delle opzioni di Consegna pagine](/help/main/c-experiences/assets/page-delivery.png)
 
-Ad esempio, come definito dalle impostazioni di [!UICONTROL Page Delivery] riportate qui sopra, un&#39;attività di Target si qualifica come idonea e viene eseguita quando un visitatore arriva direttamente su `https://www.adobe.com` *o* quando un visitatore arriva a un URL che contiene `https://www.adobe.com/products`. Questo funziona molto bene per qualsiasi applicazione multipagina in cui ogni interazione con la pagina richiama un ricaricamento della stessa, per il quale at.js recupera le attività che si qualificano come idonee per l’URL a cui passa l’utente.
+Ad esempio, come definito dalle impostazioni di [!UICONTROL Page Delivery] riportate qui sopra, un&#39;attività di Target si qualifica come idonea e viene eseguita quando un visitatore arriva direttamente su `https://www.adobe.com` *o* quando un visitatore arriva a un URL che contiene `https://www.adobe.com/it/products`. Questo funziona molto bene per qualsiasi applicazione multipagina in cui ogni interazione con la pagina richiama un ricaricamento della stessa, per il quale at.js recupera le attività che si qualificano come idonee per l’URL a cui passa l’utente.
 
 Tuttavia, poiché le applicazioni a pagina singola funzionano diversamente, le impostazioni [!UICONTROL Page Delivery] devono essere configurate in modo da consentire che tutte le azioni vengano applicate alle visualizzazioni definite nell&#39;attività del Compositore esperienza visivo per applicazioni a pagina singola.
 
