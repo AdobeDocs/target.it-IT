@@ -84,7 +84,7 @@ Per ulteriori informazioni, vedere [[!DNL Target] Domande frequenti sull&#39;agg
 
 +++
 
-**[!UICONTROL Visual Experience Composer](VEC)**
+**[!UICONTROL Visual Experience Composer] (VEC)**
 
 +++Vedi i dettagli
 
