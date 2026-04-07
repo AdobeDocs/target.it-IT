@@ -87,7 +87,7 @@ Per problemi di distribuzione dei contenuti, consulta [Risoluzione dei problemi 
 
 ### In caso si verifichi un’interruzione {#section_2CB3BC53E4C641F38D50949E2E7A2886}
 
-Se pensi che vi sia un&#39;interruzione, controlla innanzitutto la [pagina di Stato del sistema di Experience Cloud](https://status.adobe.com/it) ([!DNL https://status.adobe.com]): troverai un registro di tutte le interruzioni, degli incidenti e della manutenzione per le soluzioni Experience Cloud, incluso Target, e gli ultimi aggiornamenti dal nostro team Tech Ops. Se è necessaria ulteriore assistenza, quando contatti l&#39;assistenza clienti assicurati di avere a disposizione i dati seguenti, in aggiunta alle informazioni citate sopra:
+Se pensi che vi sia un&#39;interruzione, controlla innanzitutto la [pagina di Stato del sistema di Experience Cloud](https://status.adobe.com/it) ([!DNL https://status.adobe.com/it-it]): troverai un registro di tutte le interruzioni, degli incidenti e della manutenzione per le soluzioni Experience Cloud, incluso Target, e gli ultimi aggiornamenti dal nostro team Tech Ops. Se è necessaria ulteriore assistenza, quando contatti l&#39;assistenza clienti assicurati di avere a disposizione i dati seguenti, in aggiunta alle informazioni citate sopra:
 
 * Ora di inizio dell&#39;interruzione
 * Spiegazione di ciò che sta accadendo

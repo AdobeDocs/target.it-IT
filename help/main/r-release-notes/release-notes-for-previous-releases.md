@@ -4,9 +4,9 @@ description: Visualizza un elenco di funzioni, miglioramenti e correzioni inclus
 title: Quali funzioni sono incluse nelle versioni precedenti?
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: 23e5513879ec15922af78ca6696f94ed4d0ae9b5
+source-git-commit: 3a0f3a8a7cdf20cfc92b663bb148a334853350e1
 workflow-type: tm+mt
-source-wordcount: '65113'
+source-wordcount: '65169'
 ht-degree: 51%
 
 ---
@@ -22,6 +22,16 @@ Le note sulla versione sono elencate in ordine decrescente per mese e anno di ri
 >Consulta [Note sulla versione di Target (corrente)](/help/main/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A) per informazioni sulle versioni di Target del mese corrente (piattaforma e Target Standard/Premium).
 
 ## Note sulla versione - 2026
+
+## [!DNL Target Standard/Premium] 26.3.7 (26 marzo 2026)
+
+**Tipi di pubblico**
+
++++Vedi i dettagli
+
+* **Precisione dell&#39;etichetta dell&#39;origine del pubblico nell&#39;interfaccia Tipi di pubblico.** È stato risolto un problema che causava la visualizzazione dei tipi di pubblico provenienti dalla destinazione Adobe Target v2 in Adobe Experience Platform con **Adobe Experience Cloud** come origine invece di **Adobe Experience Platform**. Questo aggiornamento migliora la coerenza dell’etichetta sorgente durante il filtraggio e la revisione dei tipi di pubblico. (TGT-54802)
+
++++
 
 ## [!DNL Target Standard/Premium] 26.3.6 (23 marzo 2026)
 
