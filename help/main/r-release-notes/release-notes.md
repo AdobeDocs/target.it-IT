@@ -6,10 +6,11 @@ short-description: Scopri le nuove funzioni, i miglioramenti e le correzioni inc
 title: Cosa è incluso nella versione corrente?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: d1517ad557dc63956346bf36fc2a001c848eb6ce
+hold: true
+source-git-commit: cad8c365028b28bd9349d2d283370e2c8a750180
 workflow-type: tm+mt
-source-wordcount: '378'
-ht-degree: 62%
+source-wordcount: '749'
+ht-degree: 35%
 
 ---
 
@@ -29,6 +30,58 @@ Per gli aggiornamenti sensibili al tempo relativi a [!DNL Adobe Target] e alla t
 
 Per ulteriori informazioni, vedere [[!DNL Target] Domande frequenti sull&#39;aggiornamento dell&#39;interfaccia utente](/help/main/c-intro/updated-ui-faq.md).
 
+
+## [!DNL Target Standard/Premium] 26.4.1 (venerdì 2 aprile 2026)
+
+**Attività**
+
++++Vedi i dettagli
+
+* **Attributi del pubblico visibili nella vista Attività.** È stato risolto un problema a causa del quale i dettagli della regola del pubblico visualizzati da un **[!UICONTROL Activity]** non mostravano alcuni attributi visualizzati quando si apriva lo stesso pubblico dalla sezione **[!UICONTROL Audiences]**. (TGT-54742)
+
+* **Il codice personalizzato viene mantenuto se applicato ad altre visualizzazioni.** È stato risolto un problema che consentiva la rimozione del codice personalizzato applicato a un **[!UICONTROL View]** durante l&#39;aggiunta o il salvataggio del codice personalizzato per un altro **[!UICONTROL View]** nello stesso **[!UICONTROL Activity]**. (TGT-53933)
+
+* **Esporta file CSV nelle pagine di elenco Attività e Tipi di pubblico.** Aggiunta azione **[!UICONTROL Export CSV]** per esportare gli elenchi di attività dall&#39;interfaccia utente, anche quando vengono applicati i filtri, senza affidarsi esclusivamente alle API per le esportazioni di routine. (TGT-51466)
+
+* **Modifiche dell&#39;esperienza contrassegnate quando i selettori non vengono trovati.** Le modifiche all&#39;esperienza ora eseguono un controllo di esistenza del selettore; quando un selettore non viene trovato nella pagina, la modifica viene contrassegnata come non valida. (TGT-54815)
+
+* **[!UICONTROL Automated personalization]attività.** Sono stati risolti i problemi relativi all&#39;interfaccia e al caricamento delle attività che impedivano agli utenti di creare, modificare o gestire in modo affidabile le attività di Personalizzazione automatizzata, bloccando la configurazione della campagna e ritardando i casi di utilizzo della personalizzazione. (TGT-54421)
+
++++
+
+**Tipi di pubblico**
+
++++Vedi i dettagli
+
+* **Nome e descrizione del pubblico visibili durante la creazione di tipi di pubblico da un&#39;attività.** È stato risolto un problema che impediva ai campi del pubblico **[!UICONTROL Name]** e **[!UICONTROL Description]** di emergere chiaramente durante la creazione o la modifica di un pubblico dal flusso di attività, rispetto alla creazione del pubblico direttamente in **[!UICONTROL Audiences]**. (TGT-54837)
+
++++
+
+**Informazioni**
+
++++Vedi i dettagli
+
+* **[!UICONTROL Live Activities]contano su Insights.** È stato risolto un problema a causa del quale la metrica **[!UICONTROL Live Activities]** nel dashboard Approfondimenti poteva riportare un totale maggiore del numero di attività visualizzate come attive in **[!UICONTROL All Activities]**. (TGT-54788)
+
++++
+
+**Funzione Consigli**
+
++++Vedi i dettagli
+
+* **Elenchi ID lunghi in [!UICONTROL Global Exclusions].** È stato risolto un problema che causava il troncamento dell&#39;operazione Incolla o Inserimento di un lungo elenco di ID in **[!UICONTROL Global Exclusions]** nell&#39;interfaccia aggiornata rispetto alla versione precedente, causando un elenco di esclusione incompleto. (TGT-54422)
+
++++
+
+**[!UICONTROL Visual Experience Composer](VEC)**
+
++++Vedi i dettagli
+
+* **Indicatore di stato Compositore esperienza avanzato in [!UICONTROL Visual Experience Composer].** L&#39;indicatore EEC indica se il Compositore esperienza avanzato è abilitato. La sua presentazione è stata rivista in modo che non assomigli più a un interruttore interattivo, in quanto funge solo da visualizzazione di stato non interattivo. (TGT-54828)
+
+* **Barra a sinistra comprimibile in [!UICONTROL Visual Experience Composer].** È ora possibile comprimere la barra a sinistra mentre un&#39;attività è aperta per la modifica. Ciò migliora l&#39;accesso a **[!UICONTROL Components]** e **[!UICONTROL Properties]** per le attività che includono più tipi di pubblico e pagine, anche su schermi più piccoli. (TGT-54269)
+
++++
 
 ## [!DNL Target Standard/Premium] 26.3.7 (26 marzo 2026)
 
