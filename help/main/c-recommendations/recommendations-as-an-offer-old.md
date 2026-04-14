@@ -55,7 +55,7 @@ Per iniziare, crea un&#39;attività [!UICONTROL A/B Test] o [!UICONTROL Experien
 
 1. Fai clic su **[!UICONTROL Create Criteria]** o seleziona un [criterio](/help/main/c-recommendations/c-algorithms/algorithms.md) esistente, quindi fai clic su **[!UICONTROL Next]** per visualizzare la finestra di dialogo [!UICONTROL Select Design].
 
-1. Fai clic su **[!UICONTROL Create Design]** o seleziona una [progettazione](/help/main/c-recommendations/c-design-overview/design-overview.md) esistente, quindi fai clic su **[!UICONTROL  Next]**.
+1. Fai clic su **[!UICONTROL Create Design]** o seleziona una [progettazione](/help/main/c-recommendations/c-design-overview/design-overview.md) esistente, quindi fai clic su **[!UICONTROL &#x200B; Next]**.
 
 1. Nella finestra di dialogo [!UICONTROL Options], specificare quanto segue:
 
