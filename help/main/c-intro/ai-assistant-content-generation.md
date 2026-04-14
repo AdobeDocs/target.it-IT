@@ -7,7 +7,7 @@ badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.c
 hide: true
 hidefromtoc: true
 exl-id: eb6f07d8-729e-4f94-ae7a-a054bf54b030
-source-git-commit: 6b4c3b04abe09cc2e440b24c3ff07cb6875ca816
+source-git-commit: f6034e83564a9a386e21e4e57279c66cc3c94537
 workflow-type: tm+mt
 source-wordcount: '762'
 ht-degree: 1%
@@ -100,4 +100,4 @@ Il prompt e le varianti seguenti mostrano la potenza di [!DNL AI Assistant].
 
 ### Creare contenuti utilizzando l’Assistente AI per la generazione di contenuti
 
->[!VIDEO](https://video.tv.adobe.com/v/3434643/?learn=on&captions=ita">https://video.tv.adobe.com/v/3434643/?learn=on&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/3434643/?captions=ita&learn=on">https://video.tv.adobe.com/v/3434643/?captions=ita&learn=on)
