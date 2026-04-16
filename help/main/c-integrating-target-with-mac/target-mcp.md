@@ -9,14 +9,24 @@ badge: label="Beta" type="Informative"
 role: User, Developer
 level: Beginner, Intermediate
 hide: true
-source-git-commit: 214a359b7ab0f6f03355241353e8c3fb6d8bb479
+source-git-commit: 75f0dddcf65e9708aa564335974de1b6c3fd58ca
 workflow-type: tm+mt
-source-wordcount: '1902'
+source-wordcount: '2267'
 ht-degree: 1%
 
 ---
 
 # Utilizzo dei client MCP {#target-mcp}
+
+>[!BEGINSHADEBOX]
+
+Sommario:
+
+* **[Operazioni con i client MCP](target-mcp.md)**
+* [Riferimento strumenti server MCP](target-mcp-tools-reference.md)
+* [Hosting autonomo del server MCP](target-mcp-self-hosted.md)
+
+>[!ENDSHADEBOX]
 
 >[!AVAILABILITY]
 >
@@ -174,6 +184,73 @@ Gli esempi seguenti mostrano come interagire con il server MCP [!DNL Adobe Targe
 | **Audit dell&#39;implementazione** | &quot;Quale versione di at.js è configurata e quali token di risposta sono attualmente attivi?&quot; |
 | **Modifica controllo** | &quot;Mostra tutte le modifiche apportate alle 98765 attività negli ultimi 30 giorni e chi le ha apportate&quot;. |
 
+## Procedure dettagliate sui casi d’uso {#mcp-use-case-walkthroughs}
+
+Nelle procedure dettagliate seguenti viene illustrato come completare le attività comuni utilizzando prompt in linguaggio naturale con il server MCP [!DNL Adobe Target].
+
++++Creazione di un test A/B
+
+**Prompt:**
+> &quot;Crea un test A/B denominato &quot;Homepage Hero Image Test&quot; con due esperienze: &quot;Control&quot; che mostra l’eroe corrente e &quot;Variant&quot; che mostra una nuova immagine protagonista a tema estivo. Eseguire il targeting della mbox della pagina home.&quot;
+
+L&#39;assistente AI utilizza lo strumento `create_ab_activity` per creare l&#39;attività con la configurazione descritta. Lo strumento restituisce il nuovo ID attività e una conferma delle esperienze create.
+
++++
+
++++Verifica delle prestazioni dell’attività
+
+**Prompt:**
+> &quot;Mostra le metriche delle prestazioni per l&#39;attività &#39;Ottimizzazione del flusso di cassa&#39; negli ultimi 30 giorni.&quot;
+
+L&#39;assistente AI utilizza `get_ab_performance_report` o `get_xt_performance_report` (a seconda del tipo di attività) per recuperare i tassi di conversione, i conteggi dei visitatori e altre metriche per l&#39;intervallo di tempo specificato.
+
++++
+
++++Gestione delle offerte
+
+**Prompt:**
+> &quot;Crea un&#39;offerta HTML denominata &#39;Banner sulla vendita estiva&#39; con un banner promozionale che riporta &#39;Sconto del 20% su tutti gli articoli estivi&#39;.&quot;
+
+L&#39;assistente AI utilizza lo strumento `create_target_offer` per creare l&#39;offerta con il contenuto HTML specificato e restituisce una conferma con il nuovo ID offerta.
+
++++
+
++++Creazione di un pubblico
+
+**Prompt:**
+> &quot;Crea un pubblico denominato &quot;Mobile Visitors from California&quot; (Visitatori mobili dalla California) che esegue il targeting degli utenti su dispositivi mobili situati in California.&quot;
+
+L&#39;assistente AI utilizza lo strumento `create_target_audience` con le regole di targeting appropriate derivate dalla descrizione.
+
++++
+
++++Generazione di collegamenti di anteprima Controllo di qualità
+
+**Prompt:**
+> &quot;Genera URL di anteprima per 12345 attività in modo da poter testare ogni esperienza.&quot;
+
+L&#39;assistente AI utilizza lo strumento `preview_activity` per generare URL cliccabili che ignorano il targeting del pubblico, consentendo di visualizzare ogni esperienza direttamente nel browser.
+
++++
+
++++Creazione di un’attività Targeting esperienze
+
+**Prompt:**
+> &quot;Crea un’attività Targeting esperienze denominata &quot;Geo Personalization&quot; che mostra diversi banner principali ai visitatori provenienti da aree geografiche diverse.&quot;
+
+L&#39;assistente AI utilizza `create_xt_activity` per creare l&#39;attività con la mappatura dell&#39;esperienza basata sul pubblico in base alle aree che descrivi.
+
++++
+
++++Pianificazione di un’attività
+
+**Prompt:**
+> &quot;Aggiornare la pianificazione delle 12345 di attività che inizieranno il 1° maggio e termineranno il 31 maggio.&quot;
+
+L&#39;assistente AI utilizza lo strumento `update_activity_schedule` per applicare le nuove date di inizio e fine all&#39;attività.
+
++++
+
 ## Prerequisiti {#mcp-prerequisites}
 
 Prima di collegare il server MCP [!DNL Adobe Target] al client MCP, verificare quanto segue:
@@ -322,3 +399,11 @@ Come minimo, il ruolo **Osservatore** consente l&#39;accesso a tutti gli strumen
 
 Il server MCP esegue le operazioni nell’organizzazione associata alle credenziali Adobe IMS autenticate. Se hai accesso a più proprietà all&#39;interno di tale organizzazione, puoi eseguire query per proprietà utilizzando lo strumento `list_target_properties` e filtrare di conseguenza le richieste successive.
 +++
+
+## Risorse correlate {#mcp-related}
+
+* [Riferimento strumenti server MCP](target-mcp-tools-reference.md)
+* [Hosting autonomo del server  [!DNL Adobe Target] MCP](target-mcp-self-hosted.md)
+* [Documentazione di Model Context Protocol](https://modelcontextprotocol.io/introduction){target="_blank"}
+* [[!DNL Adobe Target] Riferimento API amministratore](https://developers.adobe.com/target/administer/admin-api/){target="_blank"}
+* [Documentazione del cursore](https://docs.cursor.com/){target="_blank"}
