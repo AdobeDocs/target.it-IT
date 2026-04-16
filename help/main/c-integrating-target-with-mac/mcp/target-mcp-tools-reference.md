@@ -9,7 +9,7 @@ badge: label="Beta" type="Informative"
 role: Developer, User
 level: Intermediate, Experienced
 hide: true
-source-git-commit: 782256b734068075795d5e9c1f3f552ca48918e6
+source-git-commit: d24958d17ff62e957a8d3d6602abfcc8dfd67e46
 workflow-type: tm+mt
 source-wordcount: '2688'
 ht-degree: 15%
@@ -36,7 +36,7 @@ Questa pagina è un riferimento completo per tutti gli strumenti pubblici espost
 
 ## Strumenti di attività {#tools-activities}
 
-### list_target_activities
++++list_target_activities
 
 Elencare [!DNL Adobe Target] attività con filtro e ordinamento lato server.
 
@@ -67,7 +67,9 @@ Recupera un elenco impaginato di attività. Tutti i filtri vengono applicati lat
 
 **Prompt di esempio:** &quot;Elenca tutti i test A/B attivi ordinati in base all&#39;ultima modifica.&quot;
 
-### get_ab_activity
++++
+
++++get_ab_activity
 
 Ottieni informazioni dettagliate su un’attività A/B.
 
@@ -81,7 +83,9 @@ Recupera la configurazione completa di un test A/B specifico, incluse esperienze
 
 **Prompt di esempio:** &quot;Ottieni dettagli per 12345 attività A/B&quot;.
 
-### get_xt_activity
++++
+
++++get_xt_activity
 
 Ottieni informazioni dettagliate su un’attività Targeting esperienza.
 
@@ -95,7 +99,9 @@ Recupera la configurazione completa di una specifica attività XT, incluse le ma
 
 **Prompt di esempio:** &quot;Ottieni dettagli per 12345 attività Targeting esperienza.&quot;
 
-### get_abt_activity
++++
+
++++get_abt_activity
 
 Ottieni informazioni dettagliate su un’attività di Automated Personalization (AP).
 
@@ -107,7 +113,9 @@ Ottieni informazioni dettagliate su un’attività di Automated Personalization 
 
 **Prompt di esempio:** &quot;Ottieni dettagli per 12345 attività di Auto-Personalization&quot;.
 
-### create_ab_activity
++++
+
++++create_ab_activity
 
 Crea una nuova attività di test A/B.
 
@@ -130,7 +138,9 @@ Crea un nuovo test A/B con la configurazione specificata, incluse esperienze, of
 
 **Esempio di prompt:** &quot;Crea un test A/B denominato &#39;Test Hero della homepage&#39; con due esperienze che testano diverse immagini hero sulla mbox homepage-hero.&quot;
 
-### create_xt_activity
++++
+
++++create_xt_activity
 
 Crea una nuova attività Targeting esperienza.
 
@@ -152,7 +162,9 @@ Crea un’attività Targeting esperienza che fornisce esperienze diverse a tipi 
 
 **Esempio di richiesta:** &quot;Crea un&#39;attività Targeting esperienze denominata &#39;Geo Personalization&#39; che mostra contenuti diversi a visitatori da aree geografiche diverse.&quot;
 
-### update_ab_activity
++++
+
++++update_ab_activity
 
 Aggiornare un’attività A/B esistente.
 
@@ -167,7 +179,9 @@ Utilizza un pattern di lettura-modifica-scrittura: recupera lo stato corrente, u
 
 **Prompt di esempio:** &quot;12345 attività di aggiornamento per modificare l&#39;allocazione del traffico in 70/30&quot;.
 
-### update_xt_activity
++++
+
++++update_xt_activity
 
 Aggiorna un&#39;attività Targeting esperienza esistente.
 
@@ -182,7 +196,9 @@ Utilizza un pattern di lettura-modifica-scrittura.
 
 **Prompt di esempio:** &quot;Aggiorna l&#39;attività Targeting esperienza 12345 aggiungere una nuova esperienza per i visitatori di dispositivi mobili.&quot;
 
-### update_abt_activity
++++
+
++++update_abt_activity
 
 Aggiorna un’attività Automated Personalization esistente.
 
@@ -197,7 +213,9 @@ Utilizza un pattern di lettura-modifica-scrittura.
 
 **Prompt di esempio:** &quot;Aggiorna 12345 attività di Auto-Personalization per modificare l&#39;obiettivo di ottimizzazione.&quot;
 
-### update_activity_schedule
++++
+
++++update_activity_schedule
 
 Aggiorna le date di inizio e fine dell’attività.
 
@@ -214,7 +232,9 @@ Aggiorna la pianificazione di un&#39;attività senza modificare altre impostazio
 
 **Prompt di esempio:** &quot;Aggiornare la pianificazione dell&#39;attività A/B 12345 eseguire dal 1° maggio al 31 maggio.&quot;
 
-### update_activity_state
++++
+
++++update_activity_state
 
 Modifica lo stato dell’attività (attivazione, disattivazione o pausa).
 
@@ -227,7 +247,9 @@ Modifica lo stato dell’attività (attivazione, disattivazione o pausa).
 
 **Prompt di esempio:** &quot;Attiva 12345 attività&quot; o &quot;Sospendi test principale homepage&quot;.
 
-### update_activity_name
++++
+
++++update_activity_name
 
 Rinominare un’attività.
 
@@ -242,7 +264,9 @@ Aggiorna solo il nome senza modificare la configurazione completa.
 
 **Prompt di esempio:** &quot;Rinominare l&#39;attività 12345 a &#39;Test eroe della campagna estiva&#39;.&quot;
 
-### update_activity_priority
++++
+
++++update_activity_priority
 
 Modifica la priorità dell’attività.
 
@@ -257,7 +281,9 @@ Le attività con priorità più alta hanno la precedenza quando più attività s
 
 **Prompt di esempio:** &quot;Imposta la priorità dell&#39;attività 12345 su 100&quot;.
 
-### add_activity_variant
++++
+
++++add_activity_variant
 
 Aggiungi una nuova esperienza/variante a un’attività.
 
@@ -278,7 +304,9 @@ Gestisce tutto il coordinamento strutturale, inclusa la creazione di opzioni, la
 
 **Prompt di esempio:** &quot;Aggiungere una nuova variante denominata &quot;Tema festività&quot; all&#39;attività A/B 12345 utilizzando il 67890 di offerta.&quot;
 
-### update_traffic_split
++++
+
++++update_traffic_split
 
 Aggiorna l’allocazione del traffico tra le varianti.
 
@@ -294,7 +322,9 @@ La somma delle percentuali deve essere esattamente 100.
 
 **Prompt di esempio:** &quot;Cambia la suddivisione del traffico per il 12345 attività in Controllo al 70% e Variante A al 30%.&quot;
 
-### update_variant_offer
++++
+
++++update_variant_offer
 
 Modifica l’offerta per una variante specifica.
 
@@ -313,7 +343,9 @@ Funziona sia per le attività basate su moduli (utilizzando `offer_id`) che per 
 
 **Prompt di esempio:** &quot;Aggiornare l&#39;esperienza &#39;Variante A&#39; in 12345 attività per utilizzare il 99999 delle offerte.&quot;
 
-### remove_activity_variant
++++
+
++++remove_activity_variant
 
 Rimuovi un’esperienza/variante da un’attività.
 
@@ -329,9 +361,11 @@ Rimuove l’esperienza, ripulisce le opzioni orfane e riequilibra il traffico in
 
 **Prompt di esempio:** &quot;Rimuovere l&#39;esperienza &#39;Variante test&#39; dal 12345 attività A/B.&quot;
 
++++
+
 ## Strumenti di offerta {#tools-offers}
 
-### list_target_offers
++++list_target_offers
 
 Elencare tutte le offerte nel tenant [!DNL Target].
 
@@ -348,7 +382,9 @@ Recupera un elenco impaginato di offerte di contenuti con filtro opzionale.
 
 **Prompt di esempio:** &quot;Elenca tutte le offerte JSON&quot;.
 
-### get_target_offer
++++
+
++++get_target_offer
 
 Informazioni dettagliate su un’offerta specifica.
 
@@ -360,7 +396,9 @@ Informazioni dettagliate su un’offerta specifica.
 
 **Prompt di esempio:** &quot;Ottieni dettagli per 67890 offerte&quot;.
 
-### create_target_offer
++++
+
++++create_target_offer
 
 Crea una nuova offerta di contenuti HTML.
 
@@ -374,7 +412,9 @@ Crea una nuova offerta di contenuti HTML.
 
 **Prompt di esempio:** &quot;Creare un&#39;offerta HTML denominata &#39;Banner di vendita estivo&#39; con un banner promozionale.&quot;
 
-### create_target_json_offer
++++
+
++++create_target_json_offer
 
 Crea una nuova offerta JSON per la distribuzione di dati strutturati.
 
@@ -388,7 +428,9 @@ Crea una nuova offerta JSON per la distribuzione di dati strutturati.
 
 **Prompt di esempio:** &quot;Creare un&#39;offerta JSON denominata &#39;Configurazione flag di funzionalità&#39; con le impostazioni di attivazione/disattivazione della funzionalità.&quot;
 
-### update_target_offer
++++
+
++++update_target_offer
 
 Aggiornare un’offerta esistente.
 
@@ -402,9 +444,11 @@ Aggiornare un’offerta esistente.
 
 **Prompt di esempio:** &quot;Aggiorna 67890 di offerta con nuovi contenuti promozionali&quot;.
 
++++
+
 ## Strumenti per il pubblico {#tools-audiences}
 
-### list_target_audiences
++++list_target_audiences
 
 Elenca tutti i tipi di pubblico nel tenant [!DNL Target].
 
@@ -417,7 +461,9 @@ Elenca tutti i tipi di pubblico nel tenant [!DNL Target].
 
 **Esempio di prompt:** &quot;Elenca tutti i tipi di pubblico&quot;.
 
-### create_target_audience
++++
+
++++create_target_audience
 
 Crea un nuovo pubblico con regole di targeting.
 
@@ -432,9 +478,11 @@ Crea un nuovo pubblico con regole di targeting.
 
 **Esempio di prompt:** &quot;Crea un pubblico denominato &quot;Visitatori mobili dalla California&quot; destinato agli utenti mobili in CA.&quot;
 
++++
+
 ## Strumenti Mbox {#tools-mboxes}
 
-### list_target_mboxes
++++list_target_mboxes
 
 Elencare tutte le mbox nel tenant [!DNL Target].
 
@@ -449,7 +497,9 @@ Elencare tutte le mbox nel tenant [!DNL Target].
 
 **Prompt di esempio:** &quot;Elenca tutte le mbox contenenti &#39;homepage&#39;.&quot;
 
-### get_target_mbox
++++
+
++++get_target_mbox
 
 Ottieni informazioni dettagliate su una mbox specifica.
 
@@ -461,7 +511,9 @@ Ottieni informazioni dettagliate su una mbox specifica.
 
 **Prompt di esempio:** &quot;Ottieni dettagli per mbox &#39;homepage-hero&#39;.&quot;
 
-### list_target_mbox_profile_attributes
++++
+
++++list_target_mbox_profile_attributes
 
 Elenca tutti gli attributi di profilo mbox disponibili per il targeting.
 
@@ -471,9 +523,11 @@ Nessun parametro richiesto.
 
 **Esempio di prompt:** &quot;Quali attributi di profilo sono disponibili per il targeting?&quot;
 
++++
+
 ## Strumenti proprietà {#tools-properties}
 
-### list_target_properties
++++list_target_properties
 
 Elenca tutte le proprietà nel tenant [!DNL Target].
 
@@ -485,9 +539,11 @@ Nessun parametro richiesto.
 
 **Prompt di esempio:** &quot;Elenca tutte le proprietà di Target&quot;.
 
++++
+
 ## Strumenti di reporting {#tools-reporting}
 
-### get_ab_performance_report
++++get_ab_performance_report
 
 Ottieni un rapporto sulle prestazioni per un’attività A/B.
 
@@ -502,7 +558,9 @@ Recupera i tassi di conversione, l’incremento e i livelli di affidabilità.
 
 **Prompt di esempio:** &quot;Visualizza il report delle prestazioni per i 12345 di test A/B negli ultimi 30 giorni.&quot;
 
-### get_ab_orders_report
++++
+
++++get_ab_orders_report
 
 Ottieni un rapporto ordini/ricavi per un’attività A/B.
 
@@ -515,7 +573,9 @@ Ottieni un rapporto ordini/ricavi per un’attività A/B.
 
 **Prompt di esempio:** &quot;Ottieni il report ordini per 12345 attività&quot;.
 
-### get_xt_performance_report
++++
+
++++get_xt_performance_report
 
 Ottieni un rapporto sulle prestazioni per un’attività Targeting esperienza.
 
@@ -528,7 +588,9 @@ Ottieni un rapporto sulle prestazioni per un’attività Targeting esperienza.
 
 **Prompt di esempio:** &quot;Mostra le prestazioni per la mia 54321 di attività Targeting esperienze.&quot;
 
-### get_xt_orders_report
++++
+
++++get_xt_orders_report
 
 Ottieni un rapporto ordini/ricavi per un’attività Targeting esperienza.
 
@@ -541,7 +603,9 @@ Ottieni un rapporto ordini/ricavi per un’attività Targeting esperienza.
 
 **Prompt di esempio:** &quot;Ottieni dati di ordini per 54321 attività XT&quot;.
 
-### get_activity_report_by_name
++++
+
++++get_activity_report_by_name
 
 Cerca un’attività per nome e ottieni il relativo rapporto sulle prestazioni.
 
@@ -556,9 +620,11 @@ Utile quando conosci il nome dell’attività ma non il relativo ID.
 
 **Prompt di esempio:** &quot;Ottieni il report sulle prestazioni per l&#39;attività &#39;Homepage Hero Test&#39;.&quot;
 
++++
+
 ## Strumenti di anteprima {#tools-preview}
 
-### preview_activity
++++preview_activity
 
 Genera URL di anteprima Controllo di qualità del browser per un&#39;attività [!DNL Target].
 
@@ -574,9 +640,11 @@ Crea collegamenti di anteprima cliccabili che forzano la visualizzazione di espe
 
 **Esempio di prompt:** &quot;Genera URL di anteprima per 12345 attività in modo che sia possibile testare ogni esperienza nel browser.&quot;
 
++++
+
 ## Strumenti token di risposta {#tools-response-tokens}
 
-### list_target_response_tokens
++++list_target_response_tokens
 
 Elenca tutti i token di risposta nel tenant [!DNL Target].
 
@@ -588,7 +656,9 @@ Nessun parametro richiesto.
 
 **Prompt di esempio:** &quot;Elenca tutti i token di risposta.&quot;
 
-### create_target_response_token
++++
+
++++create_target_response_token
 
 Crea un nuovo token di risposta personalizzato per la raccolta di dati aggiuntivi nelle risposte [!DNL Target].
 
@@ -601,9 +671,11 @@ Crea un nuovo token di risposta personalizzato per la raccolta di dati aggiuntiv
 
 **Esempio di prompt:** &quot;Creare un token di risposta personalizzato denominato &#39;campaign_id&#39; di tipo ACTIVITY.&quot;
 
++++
+
 ## Strumenti di revisione {#tools-revisions}
 
-### get_target_revisions
++++get_target_revisions
 
 Ottiene il registro di controllo per un tipo di risorsa.
 
@@ -620,7 +692,9 @@ Recupera le modifiche apportate alle risorse [!DNL Target] con filtro facoltativ
 
 **Prompt di esempio:** &quot;Visualizza il registro di controllo per le modifiche delle attività&quot;.
 
-### get_target_entity_revisions
++++
+
++++get_target_entity_revisions
 
 Ottieni tutte le revisioni di un’entità specifica per ID.
 
@@ -633,9 +707,11 @@ Ottieni tutte le revisioni di un’entità specifica per ID.
 
 **Prompt di esempio:** &quot;Mostra tutte le modifiche apportate al 12345 attività&quot;.
 
++++
+
 ## Strumenti modello {#tools-templates}
 
-### list_target_templates
++++list_target_templates
 
 Elencare le risorse MCP disponibili e i modelli per la creazione di attività e offerte.
 
@@ -644,6 +720,8 @@ Nessun parametro richiesto.
 **Restituisce:** oggetto JSON in cui sono elencati i modelli e le risorse disponibili.
 
 **Esempio di prompt:** &quot;Quali modelli sono disponibili per la creazione di attività?&quot;
+
++++
 
 ## Riepilogo strumenti {#tools-summary}
 
