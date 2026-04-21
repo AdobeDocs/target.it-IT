@@ -9,9 +9,9 @@ badge: label="Beta" type="Informative"
 role: User, Developer
 level: Beginner, Intermediate
 hide: true
-source-git-commit: a0fbca3156a7d2a1c582ce591112a18b4a122a64
+source-git-commit: 6e7fa766f3da76f3e9d1f4527bfe50b9e703db4e
 workflow-type: tm+mt
-source-wordcount: '2267'
+source-wordcount: '2376'
 ht-degree: 1%
 
 ---
@@ -24,15 +24,22 @@ Sommario:
 
 * **[Operazioni con i client MCP](target-mcp.md)**
 * [Riferimento strumenti server MCP](target-mcp-tools-reference.md)
-* [Hosting autonomo del server MCP](target-mcp-self-hosted.md)
 
 >[!ENDSHADEBOX]
 
 >[!AVAILABILITY]
 >
->Il server MCP [!DNL Adobe Target] è attualmente disponibile in **Claude Web**, **Claude Desktop**, **Claude Code** e **Cursor**. Il supporto per ulteriori applicazioni compatibili con MCP verrà aggiunto nelle prossime versioni.
+>Il server MCP [!DNL Adobe Target] è attualmente disponibile in **Claude Web**, **Claude Desktop**, **Claude Code**, **Cursor** e **ChatGPT**. Il supporto per ulteriori applicazioni compatibili con MCP verrà aggiunto nelle prossime versioni.
 
 L&#39;integrazione MCP [!DNL Adobe Target] ti consente di ispezionare, analizzare e gestire test A/B, attività di personalizzazione e criteri di Recommendations direttamente dall&#39;assistente AI. Trasforma le API di lettura e scrittura di [!DNL Target] in flussi di lavoro in linguaggio semplice: controlla il tuo portfolio di esperimenti, rivedi i rapporti sulle prestazioni, gestisci tipi di pubblico e offerte e intraprendi azioni regolamentate senza navigare nell&#39;interfaccia utente o scrivere chiamate API. Questa pagina spiega come funziona l’integrazione, cosa puoi farci e come iniziare.
+
+>[!IMPORTANT]
+>
+>Il Model Context Protocol (MCP) è uno standard open source emergente e può presentare rischi per la sicurezza o l&#39;affidabilità. Le integrazioni server MCP di Adobe e la relativa documentazione vengono fornite &quot;così come sono&quot;, senza garanzie di alcun tipo.
+>
+>La connessione di client o server MCP ai prodotti Adobe è una configurazione scelta dal cliente e i clienti sono responsabili della valutazione della sicurezza e dell’idoneità di qualsiasi integrazione MCP. Adobe non è responsabile dei problemi derivanti da configurazione errata, utilizzo errato di MCP, vulnerabilità in implementazioni di terze parti o azioni non intenzionali eseguite tramite flussi di lavoro abilitati per MCP.
+>
+>Per ridurre i rischi, Adobe incoraggia a testare le integrazioni in un ambiente sandbox prima di utilizzarle in modo produttivo e a rivedere e convalidare attentamente tutte le azioni e le risposte avviate da MCP prima di confermarle o di fare affidamento su di esse.
 
 ## Che cos&#39;è Model Context Protocol? {#mcp-overview}
 
@@ -256,7 +263,7 @@ L&#39;assistente AI utilizza lo strumento `update_activity_schedule` per applica
 Prima di collegare il server MCP [!DNL Adobe Target] al client MCP, verificare quanto segue:
 
 * Hai una licenza [!DNL Adobe Target] attiva (abbonamento Adobe Experience Cloud) con un&#39;organizzazione Adobe Experience Platform.
-* Hai un’applicazione compatibile con MCP supportata (attualmente Claude Web, Claude Desktop, Claude Code o Cursor).
+* Hai un’applicazione compatibile con MCP supportata (attualmente Claude Web, Claude Desktop, Claude Code, Cursor o ChatGPT).
 * Hai [!DNL Adobe Target] autorizzazioni configurate in Adobe Admin Console:
    * **Ruolo osservatore**: strumenti di sola lettura
    * Ruolo **Editor**: lettura e creazione di strumenti
@@ -362,7 +369,7 @@ I token OAuth vengono convalidati su Adobe IMS a ogni richiesta, non vengono mem
 
 +++Quali client MCP sono supportati?
 
-Il server MCP [!DNL Adobe Target] è attualmente disponibile per **Claude Web**, **Claude Desktop**, **Claude Code** e **Cursor**. Il supporto per ulteriori applicazioni compatibili con MCP potrà essere aggiunto nelle prossime versioni.
+Il server MCP [!DNL Adobe Target] è attualmente disponibile per **Claude Web**, **Claude Desktop**, **Claude Code**, **Cursor** e **ChatGPT**. Il supporto per ulteriori applicazioni compatibili con MCP potrà essere aggiunto nelle prossime versioni.
 +++
 
 +++A quali [!DNL Adobe Target] oggetti posso accedere tramite MCP?
@@ -403,7 +410,6 @@ Il server MCP esegue le operazioni nell’organizzazione associata alle credenzi
 ## Risorse correlate {#mcp-related}
 
 * [Riferimento strumenti server MCP](target-mcp-tools-reference.md)
-* [Hosting autonomo del server  [!DNL Adobe Target] MCP](target-mcp-self-hosted.md)
 * [Documentazione di Model Context Protocol](https://modelcontextprotocol.io/introduction){target="_blank"}
 * [[!DNL Adobe Target] Riferimento API amministratore](https://developers.adobe.com/target/administer/admin-api/){target="_blank"}
 * [Documentazione del cursore](https://docs.cursor.com/){target="_blank"}

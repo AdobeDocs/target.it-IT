@@ -9,10 +9,10 @@ badge: label="Beta" type="Informative"
 role: Developer, User
 level: Intermediate, Experienced
 hide: true
-source-git-commit: d24958d17ff62e957a8d3d6602abfcc8dfd67e46
+source-git-commit: 6e7fa766f3da76f3e9d1f4527bfe50b9e703db4e
 workflow-type: tm+mt
-source-wordcount: '2688'
-ht-degree: 15%
+source-wordcount: '2782'
+ht-degree: 14%
 
 ---
 
@@ -24,7 +24,6 @@ Sommario:
 
 * [Utilizzo dei client MCP](target-mcp.md)
 * **[Riferimento strumenti server MCP](target-mcp-tools-reference.md)**
-* [Hosting autonomo del server MCP](target-mcp-self-hosted.md)
 
 >[!ENDSHADEBOX]
 
@@ -32,7 +31,15 @@ Questa pagina è un riferimento completo per tutti gli strumenti pubblici espost
 
 >[!NOTE]
 >
->Solo gli strumenti pubblici sono documentati qui. Sono esclusi gli strumenti interni e quelli di solo agente. Gli strumenti di lettura sono disponibili per tutti gli utenti connessi con il ruolo **Osservatore** o superiore; gli strumenti di scrittura richiedono il ruolo **Editor** o **Approvatore**.
+>Gli strumenti di lettura sono disponibili per tutti gli utenti connessi con il ruolo **Osservatore** o superiore; gli strumenti di scrittura richiedono il ruolo **Editor** o **Approvatore**.
+
+>[!IMPORTANT]
+>
+>Il Model Context Protocol (MCP) è uno standard open source emergente e può presentare rischi per la sicurezza o l&#39;affidabilità. Le integrazioni server MCP di Adobe e la relativa documentazione vengono fornite &quot;così come sono&quot;, senza garanzie di alcun tipo.
+>
+>La connessione di client o server MCP ai prodotti Adobe è una configurazione scelta dal cliente e i clienti sono responsabili della valutazione della sicurezza e dell’idoneità di qualsiasi integrazione MCP. Adobe non è responsabile dei problemi derivanti da configurazione errata, utilizzo errato di MCP, vulnerabilità in implementazioni di terze parti o azioni non intenzionali eseguite tramite flussi di lavoro abilitati per MCP.
+>
+>Per ridurre i rischi, Adobe incoraggia a testare le integrazioni in un ambiente sandbox prima di utilizzarle in modo produttivo e a rivedere e convalidare attentamente tutte le azioni e le risposte avviate da MCP prima di confermarle o di fare affidamento su di esse.
 
 ## Strumenti di attività {#tools-activities}
 
@@ -742,5 +749,4 @@ Nessun parametro richiesto.
 ## Risorse correlate {#tools-related}
 
 * [Utilizzo dei client MCP](target-mcp.md)
-* [Hosting autonomo del server  [!DNL Adobe Target] MCP](target-mcp-self-hosted.md)
 * [[!DNL Adobe Target] Riferimento API amministratore](https://developers.adobe.com/target/administer/admin-api/){target="_blank"}
