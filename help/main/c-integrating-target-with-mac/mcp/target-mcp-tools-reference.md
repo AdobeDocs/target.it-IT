@@ -9,9 +9,9 @@ badge: label="Beta" type="Informative"
 role: Developer, User
 level: Intermediate, Experienced
 hide: true
-source-git-commit: 6e7fa766f3da76f3e9d1f4527bfe50b9e703db4e
+source-git-commit: 79cce28b604c667b1339675a6846027477e5e3e2
 workflow-type: tm+mt
-source-wordcount: '2782'
+source-wordcount: '2941'
 ht-degree: 14%
 
 ---
@@ -43,7 +43,9 @@ Questa pagina è un riferimento completo per tutti gli strumenti pubblici espost
 
 ## Strumenti di attività {#tools-activities}
 
-+++list_target_activities
++++Elencare attività
+
+**Strumento:** `list_target_activities`
 
 Elencare [!DNL Adobe Target] attività con filtro e ordinamento lato server.
 
@@ -76,7 +78,9 @@ Recupera un elenco impaginato di attività. Tutti i filtri vengono applicati lat
 
 +++
 
-+++get_ab_activity
++++Ottenere un’attività A/B
+
+**Strumento:** `get_ab_activity`
 
 Ottieni informazioni dettagliate su un’attività A/B.
 
@@ -92,7 +96,9 @@ Recupera la configurazione completa di un test A/B specifico, incluse esperienze
 
 +++
 
-+++get_xt_activity
++++Ottenere un’attività Targeting esperienze
+
+**Strumento:** `get_xt_activity`
 
 Ottieni informazioni dettagliate su un’attività Targeting esperienza.
 
@@ -108,7 +114,9 @@ Recupera la configurazione completa di una specifica attività XT, incluse le ma
 
 +++
 
-+++get_abt_activity
++++Ottenere un’attività Automated Personalization
+
+**Strumento:** `get_abt_activity`
 
 Ottieni informazioni dettagliate su un’attività di Automated Personalization (AP).
 
@@ -122,7 +130,9 @@ Ottieni informazioni dettagliate su un’attività di Automated Personalization 
 
 +++
 
-+++create_ab_activity
++++Creare un’attività A/B
+
+**Strumento:** `create_ab_activity`
 
 Crea una nuova attività di test A/B.
 
@@ -147,7 +157,9 @@ Crea un nuovo test A/B con la configurazione specificata, incluse esperienze, of
 
 +++
 
-+++create_xt_activity
++++Creare un’attività Targeting esperienze
+
+**Strumento:** `create_xt_activity`
 
 Crea una nuova attività Targeting esperienza.
 
@@ -171,7 +183,9 @@ Crea un’attività Targeting esperienza che fornisce esperienze diverse a tipi 
 
 +++
 
-+++update_ab_activity
++++Aggiornare un’attività A/B
+
+**Strumento:** `update_ab_activity`
 
 Aggiornare un’attività A/B esistente.
 
@@ -188,7 +202,9 @@ Utilizza un pattern di lettura-modifica-scrittura: recupera lo stato corrente, u
 
 +++
 
-+++update_xt_activity
++++Aggiornare un’attività Targeting esperienze
+
+**Strumento:** `update_xt_activity`
 
 Aggiorna un&#39;attività Targeting esperienza esistente.
 
@@ -205,7 +221,9 @@ Utilizza un pattern di lettura-modifica-scrittura.
 
 +++
 
-+++update_abt_activity
++++Aggiornare un’attività di Automated Personalization
+
+**Strumento:** `update_abt_activity`
 
 Aggiorna un’attività Automated Personalization esistente.
 
@@ -222,7 +240,9 @@ Utilizza un pattern di lettura-modifica-scrittura.
 
 +++
 
-+++update_activity_schedule
++++Aggiorna pianificazione attività
+
+**Strumento:** `update_activity_schedule`
 
 Aggiorna le date di inizio e fine dell’attività.
 
@@ -241,7 +261,9 @@ Aggiorna la pianificazione di un&#39;attività senza modificare altre impostazio
 
 +++
 
-+++update_activity_state
++++Cambia stato attività
+
+**Strumento:** `update_activity_state`
 
 Modifica lo stato dell’attività (attivazione, disattivazione o pausa).
 
@@ -256,7 +278,9 @@ Modifica lo stato dell’attività (attivazione, disattivazione o pausa).
 
 +++
 
-+++update_activity_name
++++Rinominare un’attività
+
+**Strumento:** `update_activity_name`
 
 Rinominare un’attività.
 
@@ -273,7 +297,9 @@ Aggiorna solo il nome senza modificare la configurazione completa.
 
 +++
 
-+++update_activity_priority
++++Cambia priorità attività
+
+**Strumento:** `update_activity_priority`
 
 Modifica la priorità dell’attività.
 
@@ -290,7 +316,9 @@ Le attività con priorità più alta hanno la precedenza quando più attività s
 
 +++
 
-+++add_activity_variant
++++Aggiungere una variante a un’attività
+
+**Strumento:** `add_activity_variant`
 
 Aggiungi una nuova esperienza/variante a un’attività.
 
@@ -313,7 +341,9 @@ Gestisce tutto il coordinamento strutturale, inclusa la creazione di opzioni, la
 
 +++
 
-+++update_traffic_split
++++Aggiorna suddivisione traffico
+
+**Strumento:** `update_traffic_split`
 
 Aggiorna l’allocazione del traffico tra le varianti.
 
@@ -331,7 +361,9 @@ La somma delle percentuali deve essere esattamente 100.
 
 +++
 
-+++update_variant_offer
++++Modificare l’offerta di una variante
+
+**Strumento:** `update_variant_offer`
 
 Modifica l’offerta per una variante specifica.
 
@@ -352,7 +384,9 @@ Funziona sia per le attività basate su moduli (utilizzando `offer_id`) che per 
 
 +++
 
-+++remove_activity_variant
++++Rimuovere una variante da un’attività
+
+**Strumento:** `remove_activity_variant`
 
 Rimuovi un’esperienza/variante da un’attività.
 
@@ -372,7 +406,9 @@ Rimuove l’esperienza, ripulisce le opzioni orfane e riequilibra il traffico in
 
 ## Strumenti di offerta {#tools-offers}
 
-+++list_target_offers
++++Elencare offerte
+
+**Strumento:** `list_target_offers`
 
 Elencare tutte le offerte nel tenant [!DNL Target].
 
@@ -391,7 +427,9 @@ Recupera un elenco impaginato di offerte di contenuti con filtro opzionale.
 
 +++
 
-+++get_target_offer
++++Ottieni un’offerta
+
+**Strumento:** `get_target_offer`
 
 Informazioni dettagliate su un’offerta specifica.
 
@@ -405,7 +443,9 @@ Informazioni dettagliate su un’offerta specifica.
 
 +++
 
-+++create_target_offer
++++Creare un’offerta HTML
+
+**Strumento:** `create_target_offer`
 
 Crea una nuova offerta di contenuti HTML.
 
@@ -421,7 +461,9 @@ Crea una nuova offerta di contenuti HTML.
 
 +++
 
-+++create_target_json_offer
++++Creare un’offerta JSON
+
+**Strumento:** `create_target_json_offer`
 
 Crea una nuova offerta JSON per la distribuzione di dati strutturati.
 
@@ -437,7 +479,9 @@ Crea una nuova offerta JSON per la distribuzione di dati strutturati.
 
 +++
 
-+++update_target_offer
++++Aggiornare un’offerta
+
+**Strumento:** `update_target_offer`
 
 Aggiornare un’offerta esistente.
 
@@ -455,7 +499,9 @@ Aggiornare un’offerta esistente.
 
 ## Strumenti per il pubblico {#tools-audiences}
 
-+++list_target_audiences
++++Elencare tipi di pubblico
+
+**Strumento:** `list_target_audiences`
 
 Elenca tutti i tipi di pubblico nel tenant [!DNL Target].
 
@@ -470,7 +516,9 @@ Elenca tutti i tipi di pubblico nel tenant [!DNL Target].
 
 +++
 
-+++create_target_audience
++++Creare un tipo di pubblico
+
+**Strumento:** `create_target_audience`
 
 Crea un nuovo pubblico con regole di targeting.
 
@@ -489,7 +537,9 @@ Crea un nuovo pubblico con regole di targeting.
 
 ## Strumenti Mbox {#tools-mboxes}
 
-+++list_target_mboxes
++++Mbox di elenco
+
+**Strumento:** `list_target_mboxes`
 
 Elencare tutte le mbox nel tenant [!DNL Target].
 
@@ -506,7 +556,9 @@ Elencare tutte le mbox nel tenant [!DNL Target].
 
 +++
 
-+++get_target_mbox
++++Ottieni una mbox
+
+**Strumento:** `get_target_mbox`
 
 Ottieni informazioni dettagliate su una mbox specifica.
 
@@ -520,7 +572,9 @@ Ottieni informazioni dettagliate su una mbox specifica.
 
 +++
 
-+++list_target_mbox_profile_attributes
++++Attributi di profilo della mbox di elenco
+
+**Strumento:** `list_target_mbox_profile_attributes`
 
 Elenca tutti gli attributi di profilo mbox disponibili per il targeting.
 
@@ -534,7 +588,9 @@ Nessun parametro richiesto.
 
 ## Strumenti proprietà {#tools-properties}
 
-+++list_target_properties
++++Proprietà elenco
+
+**Strumento:** `list_target_properties`
 
 Elenca tutte le proprietà nel tenant [!DNL Target].
 
@@ -550,7 +606,9 @@ Nessun parametro richiesto.
 
 ## Strumenti di reporting {#tools-reporting}
 
-+++get_ab_performance_report
++++Ottieni un rapporto sulle prestazioni A/B
+
+**Strumento:** `get_ab_performance_report`
 
 Ottieni un rapporto sulle prestazioni per un’attività A/B.
 
@@ -567,7 +625,9 @@ Recupera i tassi di conversione, l’incremento e i livelli di affidabilità.
 
 +++
 
-+++get_ab_orders_report
++++Ottieni un rapporto ordini A/B
+
+**Strumento:** `get_ab_orders_report`
 
 Ottieni un rapporto ordini/ricavi per un’attività A/B.
 
@@ -582,7 +642,9 @@ Ottieni un rapporto ordini/ricavi per un’attività A/B.
 
 +++
 
-+++get_xt_performance_report
++++Ottieni un rapporto sulle prestazioni di Targeting esperienza
+
+**Strumento:** `get_xt_performance_report`
 
 Ottieni un rapporto sulle prestazioni per un’attività Targeting esperienza.
 
@@ -597,7 +659,9 @@ Ottieni un rapporto sulle prestazioni per un’attività Targeting esperienza.
 
 +++
 
-+++get_xt_orders_report
++++Ottieni un rapporto sugli ordini di targeting esperienza
+
+**Strumento:** `get_xt_orders_report`
 
 Ottieni un rapporto ordini/ricavi per un’attività Targeting esperienza.
 
@@ -612,7 +676,9 @@ Ottieni un rapporto ordini/ricavi per un’attività Targeting esperienza.
 
 +++
 
-+++get_activity_report_by_name
++++Ottieni un rapporto sulle prestazioni per nome attività
+
+**Strumento:** `get_activity_report_by_name`
 
 Cerca un’attività per nome e ottieni il relativo rapporto sulle prestazioni.
 
@@ -631,7 +697,9 @@ Utile quando conosci il nome dell’attività ma non il relativo ID.
 
 ## Strumenti di anteprima {#tools-preview}
 
-+++preview_activity
++++Visualizzare l’anteprima di un’attività
+
+**Strumento:** `preview_activity`
 
 Genera URL di anteprima Controllo di qualità del browser per un&#39;attività [!DNL Target].
 
@@ -651,7 +719,9 @@ Crea collegamenti di anteprima cliccabili che forzano la visualizzazione di espe
 
 ## Strumenti token di risposta {#tools-response-tokens}
 
-+++list_target_response_tokens
++++Elencare i token di risposta
+
+**Strumento:** `list_target_response_tokens`
 
 Elenca tutti i token di risposta nel tenant [!DNL Target].
 
@@ -665,7 +735,9 @@ Nessun parametro richiesto.
 
 +++
 
-+++create_target_response_token
++++Creare un token di risposta
+
+**Strumento:** `create_target_response_token`
 
 Crea un nuovo token di risposta personalizzato per la raccolta di dati aggiuntivi nelle risposte [!DNL Target].
 
@@ -682,7 +754,9 @@ Crea un nuovo token di risposta personalizzato per la raccolta di dati aggiuntiv
 
 ## Strumenti di revisione {#tools-revisions}
 
-+++get_target_revisions
++++Ottieni il registro di audit
+
+**Strumento:** `get_target_revisions`
 
 Ottiene il registro di controllo per un tipo di risorsa.
 
@@ -701,7 +775,9 @@ Recupera le modifiche apportate alle risorse [!DNL Target] con filtro facoltativ
 
 +++
 
-+++get_target_entity_revisions
++++Ottieni revisioni per un’entità specifica
+
+**Strumento:** `get_target_entity_revisions`
 
 Ottieni tutte le revisioni di un’entità specifica per ID.
 
@@ -718,7 +794,9 @@ Ottieni tutte le revisioni di un’entità specifica per ID.
 
 ## Strumenti modello {#tools-templates}
 
-+++list_target_templates
++++Elencare i modelli disponibili
+
+**Strumento:** `list_target_templates`
 
 Elencare le risorse MCP disponibili e i modelli per la creazione di attività e offerte.
 
