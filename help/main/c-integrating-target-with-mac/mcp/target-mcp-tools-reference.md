@@ -9,9 +9,9 @@ badge: label="Beta" type="Informative"
 role: Developer, User
 level: Intermediate, Experienced
 hide: true
-source-git-commit: 79cce28b604c667b1339675a6846027477e5e3e2
+source-git-commit: ecb51d828807735b990b8f3a52102feb005bc61b
 workflow-type: tm+mt
-source-wordcount: '2941'
+source-wordcount: '2972'
 ht-degree: 14%
 
 ---
@@ -22,16 +22,14 @@ ht-degree: 14%
 
 Sommario:
 
-* [Utilizzo dei client MCP](target-mcp.md)
+* [Panoramica](target-mcp.md)
+* [Introduzione](target-mcp-get-started.md)
+* [Casi d’uso e procedure dettagliate](target-mcp-use-cases.md)
 * **[Riferimento strumenti server MCP](target-mcp-tools-reference.md)**
 
 >[!ENDSHADEBOX]
 
-Questa pagina è un riferimento completo per tutti gli strumenti pubblici esposti dal server MCP [!DNL Adobe Target]. Per ogni strumento troverai una descrizione, i dettagli dei parametri, il valore restituito e un esempio di prompt in linguaggio naturale. Per istruzioni di configurazione e casi di utilizzo, vedere [Operazioni con i client MCP](target-mcp.md).
-
->[!NOTE]
->
->Gli strumenti di lettura sono disponibili per tutti gli utenti connessi con il ruolo **Osservatore** o superiore; gli strumenti di scrittura richiedono il ruolo **Editor** o **Approvatore**.
+Questa pagina è un riferimento completo per tutti gli strumenti pubblici esposti dal server MCP [!DNL Adobe Target]. Per ogni strumento troverai una descrizione, i dettagli dei parametri, il valore restituito e un esempio di prompt in linguaggio naturale. Per le istruzioni di installazione e i casi di utilizzo, vedere [Introduzione](target-mcp-get-started.md) e [Casi di utilizzo e procedure dettagliate](target-mcp-use-cases.md).
 
 >[!IMPORTANT]
 >
@@ -40,6 +38,16 @@ Questa pagina è un riferimento completo per tutti gli strumenti pubblici espost
 >La connessione di client o server MCP ai prodotti Adobe è una configurazione scelta dal cliente e i clienti sono responsabili della valutazione della sicurezza e dell’idoneità di qualsiasi integrazione MCP. Adobe non è responsabile dei problemi derivanti da configurazione errata, utilizzo errato di MCP, vulnerabilità in implementazioni di terze parti o azioni non intenzionali eseguite tramite flussi di lavoro abilitati per MCP.
 >
 >Per ridurre i rischi, Adobe incoraggia a testare le integrazioni in un ambiente sandbox prima di utilizzarle in modo produttivo e a rivedere e convalidare attentamente tutte le azioni e le risposte avviate da MCP prima di confermarle o di fare affidamento su di esse.
+
+## Prerequisiti {#tools-prerequisites}
+
+Il tuo ruolo [!DNL Adobe Target] determina quali strumenti sono disponibili:
+
+* **Ruolo osservatore** o superiore: accesso a tutti gli strumenti di lettura
+* Ruolo **Editor**: accesso agli strumenti di lettura e scrittura (creazione)
+* Ruolo **Approvatore**: accesso agli strumenti di lettura, scrittura e attivazione/disattivazione
+
+Per istruzioni complete sull&#39;installazione, vedere [Introduzione](target-mcp-get-started.md).
 
 ## Strumenti di attività {#tools-activities}
 
