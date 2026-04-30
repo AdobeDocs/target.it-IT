@@ -6,10 +6,10 @@ short-description: Scopri le nuove funzioni, i miglioramenti e le correzioni inc
 title: Cosa è incluso nella versione corrente?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: e2230782005110914dbf108a865463d1faaa62cc
+source-git-commit: 7976d43e43baeabdb68509373f1b0b72bbe723b3
 workflow-type: tm+mt
-source-wordcount: '441'
-ht-degree: 56%
+source-wordcount: '548'
+ht-degree: 49%
 
 ---
 
@@ -29,19 +29,52 @@ Per gli aggiornamenti sensibili al tempo relativi a [!DNL Adobe Target] e alla t
 
 Per ulteriori informazioni, vedere [[!DNL Target] Domande frequenti sull&#39;aggiornamento dell&#39;interfaccia utente](/help/main/c-intro/updated-ui-faq.md).
 
-## [!DNL Target Standard/Premium] 26.4.3 (venerdì 9 aprile 2026)
+## [!DNL Target Standard/Premium] 26.4.4 (28 aprile 2026)
 
 **Attività**
 
 +++Vedi i dettagli
 
-* **Posizione mancante in alcune attività.** È stato risolto un problema a causa del quale **[!UICONTROL Location]** non era presente in alcune attività. (TGT-54951)
+* **Errore con il filtro del pubblico nei report.** È stato risolto un problema che causava un errore nella sezione Reporting dell&#39;interfaccia utente [!DNL Target] in seguito alla modifica del filtro del pubblico in **[!UICONTROL Goals & Settings]**. (TGT-55006)
 
-* **Ordine delle colonne delle metriche di reporting.** L&#39;interfaccia aggiornata di [!DNL Target] consente di riordinare le metriche di reporting senza cancellare la selezione completa e aggiungere di nuovo le metriche in sequenza. In precedenza, gli utenti dovevano deselezionare tutte le metriche e selezionarle nuovamente nell’ordine desiderato, operazione che richiedeva tempo quando molte metriche erano abilitate e quando si regolava la posizione delle colonne per limitare lo scorrimento orizzontale. (TGT-53044)
+* **Ordina le attività per priorità.** È stato aggiunto l’ordinamento per priorità nell’elenco delle attività utilizzando l’intestazione di colonna **[!UICONTROL Priority]**, con ordine crescente e decrescente coerente con le altre colonne ordinabili. (TGT-54948)
+
+* **Proprietà aggiuntive dell&#39;attività non mantenute dopo il salvataggio.** È stato risolto un problema che impediva la persistenza di alcune selezioni di **[!UICONTROL Properties]** dopo il salvataggio e la riapertura di un&#39;attività. (TGT-53889)
+
++++
+
+**Localizzazione**
+
++++Vedi i dettagli
+
+* **Etichette giapponesi per [!UICONTROL Page Delivery] operatori di regole.** Sono state corrette le stringhe illeggibili o danneggiate per le etichette degli operatori delle regole di consegna pagina nell’interfaccia utente giapponese. (TGT-53097)
+
++++
+
+**API**
+
++++Vedi i dettagli
+
+* **Reporting del supporto API [!DNL GraphQL] per `segmentId`.** Aggiunto `segmentId` all&#39;API [!DNL GraphQL] per la generazione di rapporti. (TGT-55021)
+
++++
+
+**[!UICONTROL Visual Experience Composer](VEC)**
+
++++Vedi i dettagli
+
+* **Modifiche visualizzate nell&#39;esperienza errata nell&#39;editor.** È stato risolto un problema che causava la visualizzazione di un&#39;eliminazione o altra modifica nell&#39;esperienza errata dopo il passaggio tra le esperienze in [!UICONTROL Visual Experience Composer]. (TGT-54955)
+
+* **Modifiche rimosse durante l&#39;eliminazione di Inserisci HTML.** È stato risolto un problema a causa del quale l&#39;eliminazione del blocco **[!UICONTROL HTML]** aggiuntivo aggiunto con **[!UICONTROL Insert before]** o **[!UICONTROL Insert after]** rimuoveva anche una modifica collegata priva di selettore CSS. (TGT-54530)
 
 +++
 
 <!--
+* **Blank page or CORS errors with Enhanced Experience Composer.** Fixed an issue where the [!UICONTROL Visual Experience Composer] could fail to load when Enhanced Experience Composer (EEC) was enabled. (TGT-54576)
+
+
+
+
 **[!UICONTROL Visual Experience Composer] (VEC)**
 
 +++See details
@@ -51,21 +84,12 @@ Per ulteriori informazioni, vedere [[!DNL Target] Domande frequenti sull&#39;agg
 +++
 -->
 
-## [!DNL Target Standard/Premium] 26.4.2 (mercoledì 7 aprile 2026)
-
-**Attività**
-
-+++Vedi i dettagli
-
-* **Il codice personalizzato viene mantenuto se applicato ad altre visualizzazioni.** È stato risolto un problema che consentiva la rimozione del codice personalizzato applicato a un **[!UICONTROL View]** durante l&#39;aggiunta o il salvataggio del codice personalizzato per un altro **[!UICONTROL View]** nello stesso **[!UICONTROL Activity]**. (TGT-53933)
-+++
-
 ## Note aggiuntive e dettagli sulla versione
 
 | Risorsa | Dettagli |
 |--- |--- |
 | [Note sulla versione: Adobe Target Platform Experience Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=it) | Dettagli sulle modifiche apportate a ogni versione di Platform Web SDK. |
-| [Dettagli sulle versioni di at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=it){target=_blank} | Dettagli sulle modifiche in ogni versione della libreria JavaScript at.js [!DNL Adobe Target]. |
+| [Dettagli sulle versioni di at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=it){target=_blank} | Dettagli sulle modifiche in ogni versione della libreria JavaScript at.js di [!DNL Adobe Target]. |
 
 ## Modifiche alla documentazione, precedenti note sulla versione e note sulla versione di Experience Cloud
 
