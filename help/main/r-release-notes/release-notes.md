@@ -6,10 +6,10 @@ short-description: Scopri le nuove funzioni, i miglioramenti e le correzioni inc
 title: Cosa è incluso nella versione corrente?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: e3a22ef34bc78b03b71c75968d2271b9a634a0cd
+source-git-commit: 860dd22fc4ec261a62869cb656d72bd49f2bd91c
 workflow-type: tm+mt
-source-wordcount: '582'
-ht-degree: 46%
+source-wordcount: '531'
+ht-degree: 51%
 
 ---
 
@@ -39,33 +39,27 @@ Per ulteriori informazioni, vedere [[!DNL Target] Domande frequenti sull&#39;agg
 
 +++
 
-## [!DNL Target Standard/Premium] 26.4.4 (28 aprile 2026)
-
 **Attività**
 
 +++Vedi i dettagli
 
-* **Errore con il filtro del pubblico nei report.** È stato risolto un problema che causava un errore nella sezione Reporting dell&#39;interfaccia utente [!DNL Target] in seguito alla modifica del filtro del pubblico in **[!UICONTROL Goals & Settings]**. (TGT-55006)
-
-* **Ordina le attività per priorità.** È stato aggiunto l’ordinamento per priorità nell’elenco delle attività utilizzando l’intestazione di colonna **[!UICONTROL Priority]**, con ordine crescente e decrescente coerente con le altre colonne ordinabili. (TGT-54948)
-
-* **Proprietà aggiuntive dell&#39;attività non mantenute dopo il salvataggio.** È stato risolto un problema che impediva la persistenza di alcune selezioni di **[!UICONTROL Properties]** dopo il salvataggio e la riapertura di un&#39;attività. (TGT-53889)
+* **[!UICONTROL Graph View]non sincronizzati con la tabella e il download.** È stato risolto un problema che causava la visualizzazione di metriche mancanti o pari a zero in **[!UICONTROL Graph View]** per alcuni intervalli di date anche se **[!UICONTROL Table View]** e il report scaricato mostravano ancora i valori corretti. (TGT-54998)
 
 +++
 
-**Localizzazione**
+**[!UICONTROL Audiences]**
 
 +++Vedi i dettagli
 
-* **Etichette giapponesi per [!UICONTROL Page Delivery] operatori di regole.** Sono state corrette le stringhe illeggibili o danneggiate per le etichette degli operatori delle regole di consegna pagina nell’interfaccia utente giapponese. (TGT-53097)
+* **Elenco di utilizzo del pubblico non completamente sottoposto a rendering.** È stato risolto un problema a causa del quale la sezione **[!UICONTROL Usage]** nei dettagli del pubblico poteva visualizzare solo un sottoinsieme di attività mappate anche quando a quel pubblico erano associate attività aggiuntive. (TGT-55094)
 
 +++
 
-**API**
+**[!UICONTROL Administration]**
 
 +++Vedi i dettagli
 
-* **Reporting del supporto API [!DNL GraphQL] per `segmentId`.** Aggiunto `segmentId` all&#39;API [!DNL GraphQL] per la generazione di rapporti. (TGT-55021)
+* **Conferma più chiara per l&#39;offuscamento dell&#39;IP dell&#39;ultimo ottetto.** Quando modifichi **[!UICONTROL Obfuscate Visitor IP addresses]** in **[!UICONTROL Last octet]** il **[!UICONTROL Administration]** > **[!UICONTROL Implementation]**, nella finestra di dialogo di conferma viene ora spiegato che [!DNL Target] nasconde l&#39;ultimo ottetto dell&#39;indirizzo IP del visitatore. (TGT-44821)
 
 +++
 
@@ -73,11 +67,10 @@ Per ulteriori informazioni, vedere [[!DNL Target] Domande frequenti sull&#39;agg
 
 +++Vedi i dettagli
 
-* **Modifiche visualizzate nell&#39;esperienza errata nell&#39;editor.** È stato risolto un problema che causava la visualizzazione di un&#39;eliminazione o altra modifica nell&#39;esperienza errata dopo il passaggio tra le esperienze in [!UICONTROL Visual Experience Composer]. (TGT-54955)
-
-* **Modifiche rimosse durante l&#39;eliminazione di Inserisci HTML.** È stato risolto un problema a causa del quale l&#39;eliminazione del blocco **[!UICONTROL HTML]** aggiuntivo aggiunto con **[!UICONTROL Insert before]** o **[!UICONTROL Insert after]** rimuoveva anche una modifica collegata priva di selettore CSS. (TGT-54530)
+* **Pagina vuota o incompleta con Compositore esperienza avanzato.** È stato risolto un problema che impediva a [!UICONTROL Visual Experience Composer] di caricare il sito nell&#39;editor quando **[!UICONTROL Enhanced Experience Composer]** era abilitato. (TGT-54576)
 
 +++
+
 
 <!--
 * **Blank page or CORS errors with Enhanced Experience Composer.** Fixed an issue where the [!UICONTROL Visual Experience Composer] could fail to load when Enhanced Experience Composer (EEC) was enabled. (TGT-54576)
