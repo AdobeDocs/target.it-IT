@@ -3,7 +3,7 @@ user-guide-title: Guida di Adobe Target per professionisti aziendali
 breadcrumb-title: Guida di Target
 user-guide-description: Scopri come personalizzare le esperienze dei clienti su siti web, app e canali social per incrementare le entrate.
 feature-set: Target
-source-git-commit: dadf2cf174019c01a205487ccdb9bdf6639d5a9f
+source-git-commit: 6bea471b0dcf99a77d3b2350a89bcc069062de19
 workflow-type: tm+mt
 source-wordcount: '1317'
 ht-degree: 83%
@@ -73,6 +73,11 @@ ht-degree: 83%
    + [Consigli](/help/main/administrating-target/recommendations-settings.md)
 + Implementare Target {#implement-target}
    + [Panoramica sull’implementazione di Target](c-implementing-target/implementing-target.md)
++ Server MCP di Adobe Target {#mcp}
+   + [Panoramica](c-integrating-target-with-mac/mcp/target-mcp.md)
+   + [Introduzione](c-integrating-target-with-mac/mcp/target-mcp-get-started.md)
+   + [Casi d’uso e procedure dettagliate](c-integrating-target-with-mac/mcp/target-mcp-use-cases.md)
+   + [Riferimento strumenti server MCP](c-integrating-target-with-mac/mcp/target-mcp-tools-reference.md)
 + Integrare Target con Experience Cloud {#integrate}
    + Adobe Analytics come origine per la generazione di rapporti per Target (A4T) {#a4t}
       + [Panoramica di A4T](c-integrating-target-with-mac/a4t/a4t.md)
@@ -107,11 +112,6 @@ ht-degree: 83%
          + {hide-from-toc}[Aggiungi o nascondi i componenti nella pagina Web](/help/main/c-integrating-target-with-mac/ajo/add-hide-content-using-ajo.md)
    + [Integrare Target con Experimentation Accelerator](/help/main/c-integrating-target-with-mac/experimentation-accelerator.md)
    + [Experience Cloud Audiences](/help/main/c-integrating-target-with-mac/mmp.md)
-   + Server MCP di Adobe Target {#mcp}
-      + {hide-from-toc}[Panoramica](c-integrating-target-with-mac/mcp/target-mcp.md)
-      + {hide-from-toc}[Introduzione](c-integrating-target-with-mac/mcp/target-mcp-get-started.md)
-      + {hide-from-toc}[Casi d&#39;uso e procedure dettagliate](c-integrating-target-with-mac/mcp/target-mcp-use-cases.md)
-      + {hide-from-toc}[Riferimento strumenti server MCP](c-integrating-target-with-mac/mcp/target-mcp-tools-reference.md)
    + Integrare Target con Adobe Experience Manager (AEM) {#aem}
       + [Panoramica sull’integrazione di Target con AEM](/help/main/c-integrating-target-with-mac/aem/aem-target-integration.md)
       + Frammenti di esperienza e frammenti di contenuto {#fragments}
@@ -346,4 +346,4 @@ ht-degree: 83%
    + [Limiti](r-troubleshooting-target/target-limits.md)
 + API di Target {#apis}
    + [Panoramica API di Adobe Target](/help/main/api/api-overview.md)
-+ [Risorse e informazioni di contatto &#x200B;](cmp-resources-and-contact-information.md)
++ [Risorse e informazioni di contatto ](cmp-resources-and-contact-information.md)
