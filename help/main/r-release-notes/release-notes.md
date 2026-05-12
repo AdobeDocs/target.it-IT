@@ -18,7 +18,7 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 7b0c8b18abe2db4e07e3ef979d6d194f4c4c81d6
+source-git-commit: f2220f2f01c0bddc96dd7720ff207e1256c13b55
 workflow-type: tm+mt
 source-wordcount: 633
 ht-degree: 42%
@@ -30,16 +30,6 @@ ht-degree: 42%
 Esplora le funzioni, i miglioramenti e le correzioni più recenti in [!DNL Adobe Target]. Queste note sulla versione descrivono anche gli aggiornamenti alle API [!DNL Target], agli SDK, a [!DNL Adobe Experience Platform Web SDK], at.js e ad altri componenti della piattaforma, se applicabili.
 
 I codici dei problemi tra parentesi sono per uso interno di [!DNL Adobe].
-
-## Aggiornamenti urgenti da conoscere {#time-sensitive}
-
-[!BADGE Importante]{type=Informative}
-
-Per gli aggiornamenti sensibili al tempo relativi a [!DNL Adobe Target] e alla tua implementazione, [!DNL Adobe] fornisce note dettagliate sulla versione e documentazione tramite [!UICONTROL Experience League]. Di seguito sono riportate alcune caratteristiche principali relative all’implementazione:
-
-### La versione dell&#39;interfaccia utente [!DNL Target] è deprecata
-
-Per ulteriori informazioni, vedere [[!DNL Target] Domande frequenti sull&#39;aggiornamento dell&#39;interfaccia utente](/help/main/c-intro/updated-ui-faq.md).
 
 
 ## Ultimi aggiornamenti - 12 maggio 2026
@@ -110,6 +100,16 @@ Per ulteriori informazioni, vedere [[!DNL Adobe Target] Server MCP](../c-integra
 
 +++
 -->
+
+## Aggiornamenti urgenti da conoscere {#time-sensitive}
+
+[!BADGE Importante]{type=Informative}
+
+Per gli aggiornamenti sensibili al tempo relativi a [!DNL Adobe Target] e alla tua implementazione, [!DNL Adobe] fornisce note dettagliate sulla versione e documentazione tramite [!UICONTROL Experience League]. Di seguito sono riportate alcune caratteristiche principali relative all’implementazione:
+
+### La versione dell&#39;interfaccia utente [!DNL Target] è deprecata
+
+Per ulteriori informazioni, vedere [[!DNL Target] Domande frequenti sull&#39;aggiornamento dell&#39;interfaccia utente](/help/main/c-intro/updated-ui-faq.md).
 
 ## Note aggiuntive e dettagli sulla versione
 

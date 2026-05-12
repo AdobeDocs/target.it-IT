@@ -4,10 +4,21 @@ title: Guida di Adobe Target per professionisti aziendali
 description: Scopri come utilizzare Adobe  [!DNL Target]  per personalizzare l’esperienza dei clienti al fine di massimizzare i ricavi su siti web e mobili, app e altri canali digitali.
 feature: Overview
 exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
-source-git-commit: 41d3acff6b1fc95b409aecda92eb84e6f066b32b
+TQID: https://experienceleague.adobe.com/FZseZZEVSfBXtgdDTjo08FJoJ1OesGwoxcMiCxrkegM
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: f2220f2f01c0bddc96dd7720ff207e1256c13b55
 workflow-type: tm+mt
-source-wordcount: '649'
-ht-degree: 26%
+source-wordcount: 703
+ht-degree: 32%
 
 ---
 
@@ -15,25 +26,17 @@ ht-degree: 26%
 
 [!DNL Adobe Target] è la soluzione di [!DNL Adobe Experience Cloud] che offre tutto il necessario per adattare e personalizzare l’esperienza dei clienti in modo da massimizzare i ricavi sui siti web e mobili, applicazioni, social media e altri canali digitali.
 
-**Ultimo aggiornamento: 26 gennaio 2026 ( [vedi che cosa è cambiato](r-release-notes/doc-change.md) )**
+**Ultimo aggiornamento: 12 maggio 2026 ( [vedi che cosa è cambiato](r-release-notes/doc-change.md) )**
 
 >[!BEGINTABS]
 
->[!TAB Attenzione!]
-
-**Aggiornato: [!DNL Target] La versione dell&#39;interfaccia utente è diventata obsoleta (17 giugno 2025)**
-
-Il team [!DNL Target] ha regolato la timeline per l&#39;attivazione/disattivazione della versione dell&#39;interfaccia utente.
-
-[![Icona Ulteriori informazioni](/help/main/assets/learn-more.svg)](/help/main/c-intro/updated-ui-faq.md)
-
 >[!TAB Novità]
 
-**Target 26.1.1 è live!**
+Server MCP **[!DNL Adobe Target] (Beta pubblico)**
 
-Questa versione include correzioni e miglioramenti all&#39;interfaccia utente [!DNL Target] e al Compositore esperienza visivo [!UICONTROL Visual Experience Composer] aggiornati.
+[!DNL Adobe Target] fornisce ora un server MCP (Model Context Protocol) che esegue operazioni di sperimentazione, personalizzazione e reporting direttamente all&#39;interno di qualsiasi applicazione compatibile con MCP, inclusi Claude, Cursor e ChatGPT.
 
-[![Icona Ulteriori informazioni](/help/main/assets/learn-more.svg)](/help/main/r-release-notes/release-notes.md)
+[![Icona Ulteriori informazioni](/help/main/assets/learn-more.svg)](/help/main/c-integrating-target-with-mac/mcp/target-mcp.md)
 
 >[!TAB Interfaccia utente di Target aggiornata]
 
@@ -82,7 +85,7 @@ Esperti di marketing, sviluppatori, amministratori, analisti e addetti al contro
 
 - [[!DNL Target] note sulla versione](r-release-notes/release-notes.md): contiene informazioni sulla versione corrente, informazioni sui problemi noti che interessano [!DNL Target], un elenco di modifiche importanti alla presente documentazione e un archivio delle note sulle versioni passate.
 - [Introduzione a [!DNL Target]](c-intro/intro.md): illustra i concetti fondamentali di [!DNL Target].
-- [Interfaccia utente [!DNL Target] 2&rbrace;: consente di acquisire familiarità con &#x200B;](/help/main/c-intro/understand-the-target-ui.md) e fornisce collegamenti per ottenere informazioni più approfondite e istruzioni dettagliate.[!DNL Target]
+- [Interfaccia utente [!DNL Target] 2&rbrace;: consente di acquisire familiarità con [!DNL Target] e fornisce collegamenti per ottenere informazioni più approfondite e istruzioni dettagliate.](/help/main/c-intro/understand-the-target-ui.md)
 - Panoramica di [[!UICONTROL AI Assistant]](/help/main/c-intro/ai-assistant.md): [!DNL AI Assistant] in A[!DNL dobe Experience Platform] è una funzionalità dell&#39;interfaccia utente che consente di navigare e comprendere i concetti di [!DNL Adobe Target].
 - Integrare [!DNL Target] con [!DNL Adobe Experience Cloud]: illustra come integrare [!DNL Target] con altre soluzioni [!DNL Experience Cloud], tra cui [[!UICONTROL Analytics for Target]](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T), [[!DNL Experience Cloud Audiences]](/help/main/c-integrating-target-with-mac/mmp.md) e [[!DNL Adobe Campaign]](/help/main/c-integrating-target-with-mac/campaign-and-target.md).
 - [[!DNL Adobe Target] Esercitazioni](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html?lang=it): fornisce esercitazioni e video per ottenere il massimo da [!DNL Target].

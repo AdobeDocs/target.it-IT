@@ -4,10 +4,28 @@ description: Resta aggiornato sulle importanti aggiunte e modifiche apportate al
 title: Dove posso trovare la documentazione aggiornata per  [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 41d3acff6b1fc95b409aecda92eb84e6f066b32b
+TQID: https://experienceleague.adobe.com/8EcK9hck9HDIrY94Pr7bmoGIWNz54B-odkfHlQwpuv4
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+subfeature_v2:
+  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: f2220f2f01c0bddc96dd7720ff207e1256c13b55
 workflow-type: tm+mt
-source-wordcount: '2121'
-ht-degree: 37%
+source-wordcount: 2503
+ht-degree: 31%
 
 ---
 
@@ -16,6 +34,19 @@ ht-degree: 37%
 Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Target].
 
 ## Aggiornamenti
+
+### [!DNL Target Standard/Premium] 26.5.1 (7 maggio 2026)
+
+| Data | Argomento | Modifiche |
+|--- |--- |--- |
+| Maggio 12 | [[!DNL Adobe Target] Guida per professionisti aziendali](/help/main/target-home.md) | La home page è stata aggiornata per includere l&#39;annuncio del server MCP [!DNL Adobe Target] (Beta pubblico) e sono stati rimossi gli annunci obsoleti del 2025. |
+|  | Note sulla versione di [[!DNL Target]  (corrente)](/help/main/r-release-notes/release-notes.md) | Sono state aggiunte note sulla versione per l&#39;aggiornamento della funzionalità del server MCP [!DNL Adobe Target] (Beta pubblico). |
+|  | [[!DNL Adobe Target] Panoramica del server MCP](/help/main/c-integrating-target-with-mac/mcp/target-mcp.md) | Nuovo articolo. Scopri cos&#39;è il server MCP [!DNL Adobe Target], le sue funzionalità chiave e come si connette all&#39;assistente AI. |
+|  | [Introduzione al server  [!DNL Adobe Target] MCP](/help/main/c-integrating-target-with-mac/mcp/target-mcp-get-started.md) | Nuovo articolo. Scopri come connettere il server MCP [!DNL Adobe Target] all&#39;assistente AI, inclusi i prerequisiti, la configurazione client e la risoluzione dei problemi. |
+|  | [[!DNL Adobe Target] Server MCP: casi d&#39;uso e procedure dettagliate](/help/main/c-integrating-target-with-mac/mcp/target-mcp-use-cases.md) | Nuovo articolo. Esplora i casi d&#39;uso comuni e le procedure dettagliate relative ai prompt per il server MCP [!DNL Adobe Target]. |
+|  | [[!DNL Adobe Target] Riferimento strumenti server MCP](/help/main/c-integrating-target-with-mac/mcp/target-mcp-tools-reference.md) | Nuovo articolo. Riferimento parametro completo per tutti gli strumenti di sola lettura esposti dal server MCP [!DNL Adobe Target]. |
+|  | [Self-host del server  [!DNL Adobe Target] MCP](/help/main/c-integrating-target-with-mac/mcp/target-mcp-self-hosted.md) | Nuovo articolo. Scopri come eseguire la tua istanza del server MCP [!DNL Adobe Target] utilizzando Python, Docker o un ambiente di sviluppo locale. |
+| Maggio 7 | Note sulla versione di [[!DNL Target]  (corrente)](/help/main/r-release-notes/release-notes.md) | Sono state aggiunte note sulla versione 26.5.1 di [!DNL Target Standard/Premium]. |
 
 ### [!DNL Target Standard/Premium] 26.1.1 (18 gennaio 2026)
 
@@ -38,7 +69,7 @@ Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Targ
 | Data | Argomento | Modifiche |
 |--- |--- |--- |
 | 5 novembre | [[!DNL Adobe Targe]t [!DNL Bulk Profile Update API]](https://experienceleague.adobe.com/it/docs/target-dev/developer/api/profile-apis/profile-bulk-api#empty){target=_blank} | È stata aggiunta una nuova sezione: Gestione dei valori vuoti in [!DNL Bulk Profile Update API]. |
-| 28 ottobre | inserire nell&#39;elenco Consentiti [Nodi di protezione [!DNL Target] perimetrali](https://experienceleague.adobe.com/it/docs/target-dev/developer/implementation/privacy/allowlist-edges){target=_blank} | È possibile inserire nell&#39;elenco Consentiti indirizzi IP aggiornati |
+| 28 ottobre | [Nodi di protezione [!DNL Target] Inseriti nell&#39;elenco Consentiti](https://experienceleague.adobe.com/it/docs/target-dev/developer/implementation/privacy/allowlist-edges){target=_blank} | Gli indirizzi IP che puoi inserire nell&#39;elenco Consentiti sono stati aggiornati |
 | 27 ottobre | [Limiti](/help/main/r-troubleshooting-target/target-limits.md) | Sono stati corretti i limiti per la lunghezza massima del valore del parametro di profilo in *Batch mbox v2* e *Delivery API endpoint*. |
 | 22 ottobre | Note sulla versione di [[!DNL Target]  (corrente)](/help/main/r-release-notes/release-notes.md) | Sono state aggiunte le note sulla versione 25.10.1 di [!DNL Target Standard/Premium]. |
 
@@ -150,7 +181,7 @@ Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Targ
 
 | Data | Argomento | Modifiche |
 |--- |--- |--- |
-| 31 marzo | [Dettagli sulle versioni di at.js](https://experienceleague.adobe.com/it/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions){target=_blank} | Sono state aggiunte informazioni sulla versione 2.11.8 di at.js. |
+| 31 marzo | [Dettagli sulle versioni di at.js](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions){target=_blank} | Sono state aggiunte informazioni sulla versione 2.11.8 di at.js. |
 | 26 marzo | Note sulla versione di [[!DNL Target]  (corrente)](/help/main/r-release-notes/release-notes.md) | Sono state aggiunte le note sulla versione 25.3.7 di [!DNL Target Standard/Premium]. |
 |  | [Domande frequenti sulla funzione Consigli](/help/main/c-recommendations/c-recommendations-faq/recommendations-faq.md) | Sono state aggiornate le domande frequenti per indicare che [!DNL Recommendations] oggetti creati tramite API sono disponibili nell&#39;interfaccia utente [!DNL Target]. |
 |  | [Raccolte](/help/main/c-recommendations/c-products/collections.md) | È stata aggiunta la seguente nota: le regole di raccolta si applicano agli elementi di consigli generati dopo l’esecuzione dei criteri. Interessano solo i consigli di entità (ER) nell’output, non la chiave. |
@@ -169,7 +200,7 @@ Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Targ
 | Data | Argomento | Modifiche |
 |--- |--- |--- |
 | 26 febbraio | Note sulla versione di [[!DNL Target]  (corrente)](/help/main/r-release-notes/release-notes.md) | Sono state aggiunte informazioni per le seguenti versioni:<ul><li>[!DNL Target Standard/Premium] 25.2.3 (26 febbraio 2025)</li><li>at.js versione 2.11.7 (26 febbraio 2025)</li></ul> |
-|  | [Dettagli sulle versioni di at.js](https://experienceleague.adobe.com/it/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions){target=_blank} | Sono state aggiunte informazioni per la versione 2.11.7 di at.js (26 febbraio 2025). |
+|  | [Dettagli sulle versioni di at.js](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions){target=_blank} | Sono state aggiunte informazioni per la versione 2.11.7 di at.js (26 febbraio 2025). |
 |  | [Bookmarklet di controllo qualità delle attività](/help/main/c-activities/c-activity-qa/activity-qa-bookmark.md) | È stato aggiornato il bookmarklet di controllo qualità dell’attività per at.js 2.x. |
 | 13 febbraio | Note sulla versione di [[!DNL Target]  (corrente)](/help/main/r-release-notes/release-notes.md) | La versione dell&#39;aggiornamento dell&#39;interfaccia utente 25.2.1 di [!DNL Target Standard/Premium] è stata modificata al 17 febbraio 2025. |
 | 12 febbraio | [Opzioni del Compositore esperienza visivo](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md) | Intero argomento aggiornato per spiegare il Compositore esperienza visivo aggiornato introdotto nella versione 25.2.1 di [!DNL Target Standard/Premium] (12 febbraio 2025). |
