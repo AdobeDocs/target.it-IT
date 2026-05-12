@@ -18,10 +18,10 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: f2220f2f01c0bddc96dd7720ff207e1256c13b55
+source-git-commit: d5d7a57ce6a3188f02e680c24849d773cb53457a
 workflow-type: tm+mt
-source-wordcount: 633
-ht-degree: 42%
+source-wordcount: 630
+ht-degree: 43%
 
 ---
 
@@ -36,7 +36,7 @@ I codici dei problemi tra parentesi sono per uso interno di [!DNL Adobe].
 
 Server MCP **[!DNL Adobe Target] (Beta pubblico)**
 
-[!DNL Adobe Target] fornisce ora un server MCP (Model Context Protocol) che esegue operazioni di sperimentazione, personalizzazione e reporting direttamente all&#39;interno di qualsiasi applicazione compatibile con MCP. Grazie a questa integrazione, gli utenti tecnici e di marketing possono esaminare i test A/B, analizzare i rapporti sulle prestazioni, gestire tipi di pubblico e offerte e intraprendere azioni regolamentate, il tutto utilizzando prompt in linguaggio naturale anziché navigare in più schermate dell&#39;interfaccia utente o scrivere query sull&#39;API REST [!DNL Adobe Target]. Questa funzionalità è attualmente disponibile in **Claude Web**, **Claude Desktop**, **Claude Code**, **Cursor** e **ChatGPT**.
+[!DNL Adobe Target] fornisce ora un server MCP (Model Context Protocol) che esegue operazioni di sperimentazione, personalizzazione e reporting direttamente all&#39;interno di qualsiasi applicazione compatibile con MCP. Con questa integrazione, gli utenti tecnici e di marketing possono esaminare i test A/B, analizzare i rapporti sulle prestazioni ed esplorare tipi di pubblico e offerte, il tutto utilizzando prompt in linguaggio naturale anziché navigare su più schermate dell&#39;interfaccia utente o scrivere query rispetto all&#39;API REST [!DNL Adobe Target]. Questa funzionalità è attualmente disponibile in **Claude Web**, **Claude Desktop**, **Claude Code**, **Cursor** e **ChatGPT**.
 
 Questa funzionalità è disponibile per tutti i clienti di Public Beta.
 
