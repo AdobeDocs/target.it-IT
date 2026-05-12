@@ -8,10 +8,10 @@ topic: Experimentation, Personalization, Artificial Intelligence
 badge: label="Beta" type="Informative"
 role: User, Developer
 level: Beginner, Intermediate
-source-git-commit: 216b1103f501a3fcf955523d4bcc8254a8ea418d
+source-git-commit: d5d7a57ce6a3188f02e680c24849d773cb53457a
 workflow-type: tm+mt
-source-wordcount: '775'
-ht-degree: 0%
+source-wordcount: '534'
+ht-degree: 1%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 0%
 >
 >Il server MCP [!DNL Adobe Target] è disponibile per tutti i clienti in **Beta pubblico**. Attualmente è supportato in **Claude Web**, **Claude Desktop**, **Claude Code**, **Cursor** e **ChatGPT**.
 
-In questa pagina vengono illustrate le operazioni che è possibile eseguire con il server MCP [!DNL Adobe Target] utilizzando prompt in linguaggio naturale, dalle ricerche rapide alle attività di gestione attività in più passaggi.
+In questa pagina sono illustrate le operazioni che è possibile eseguire con il server MCP [!DNL Adobe Target] utilizzando prompt in linguaggio naturale, dalle ricerche rapide alle attività di analisi e reporting in più passaggi.
 
 >[!IMPORTANT]
 >
@@ -41,7 +41,6 @@ Gli esempi seguenti mostrano come interagire con il server MCP [!DNL Adobe Targe
 | **Valutazione delle prestazioni** | &quot;Mostrami tutti i test attivi che hanno raggiunto una rilevanza statistica — quali esperienze sono vincenti?&quot; |
 | **Analisi ricavi** | &quot;Ottieni il rapporto sugli ordini e sui ricavi per l’attività AT4821 e riepiloga quale esperienza genera il maggior numero di ricavi per visitatore.&quot; |
 | **Generazione rapporti A4T** | &quot;Estrai il rapporto A4T per il test di ottimizzazione del pagamento e riepiloga i dati di conversione lato Analytics.&quot; |
-| **Gestione attività** | &quot;Sospendi la 98765 dell’attività e aggiorna la priorità dell’attività 11111 a 200.&quot; |
 | **Informazioni sull&#39;attività** | &quot;Ottieni informazioni sul test &#39;Banner per la vendita estiva&#39;: come sono le prestazioni e ci sono anomalie?&quot; |
 | **Gestione dell&#39;audience** | &quot;Elenca tutti i tipi di pubblico destinati agli utenti di dispositivi mobili e mostra a quali attività sono associati.&quot; |
 | **Controllo qualità e anteprima** | &quot;Genera URL di anteprima Controllo di qualità per le 12345 di attività in modo da poter esaminare tutte le varianti prima dell’attivazione.&quot; |
@@ -53,14 +52,16 @@ Gli esempi seguenti mostrano come interagire con il server MCP [!DNL Adobe Targe
 
 Nelle procedure dettagliate seguenti viene illustrato come completare le attività comuni utilizzando prompt in linguaggio naturale con il server MCP [!DNL Adobe Target].
 
-+++Creazione di un test A/B
+<!--
++++Creating an A/B test
 
-**Richiesta:**
-&quot;Crea un test A/B denominato &quot;Homepage Hero Image Test&quot; con due esperienze: &quot;Control&quot; che mostra l’eroe corrente e &quot;Variant&quot; che mostra una nuova immagine protagonista a tema estivo. Eseguire il targeting della mbox della pagina home.&quot;
+**Prompt:**
+"Create an A/B test called 'Homepage Hero Image Test' with two experiences: 'Control' showing the current hero and 'Variant' showing a new summer-themed hero image. Target the homepage mbox."
 
-L&#39;assistente AI utilizza lo strumento `create_ab_activity` per creare l&#39;attività con la configurazione descritta. Lo strumento restituisce il nuovo ID attività e una conferma delle esperienze create.
+The AI assistant uses the `create_ab_activity` tool to create the activity with the configuration you described. The tool returns the new activity ID and a confirmation of the created experiences.
 
 +++
+-->
 
 +++Verifica delle prestazioni dell’attività
 
@@ -71,23 +72,25 @@ L&#39;assistente AI utilizza `get_ab_performance_report` o `get_xt_performance_r
 
 +++
 
-+++Gestione delle offerte
+<!--
++++Managing offers
 
-**Richiesta:**
-&quot;Crea un&#39;offerta HTML denominata &#39;Banner sulla vendita estiva&#39; con un banner promozionale che riporta &#39;Sconto del 20% su tutti gli articoli estivi&#39;.&quot;
+**Prompt:**
+"Create an HTML offer called 'Summer Sale Banner' with a promotional banner that says '20% off all summer items'."
 
-L&#39;assistente AI utilizza lo strumento `create_target_offer` per creare l&#39;offerta con il contenuto HTML specificato e restituisce una conferma con il nuovo ID offerta.
-
-+++
-
-+++Creazione di un pubblico
-
-**Richiesta:**
-&quot;Crea un pubblico denominato &quot;Mobile Visitors from California&quot; (Visitatori mobili dalla California) che esegue il targeting degli utenti su dispositivi mobili situati in California.&quot;
-
-L&#39;assistente AI utilizza lo strumento `create_target_audience` con le regole di targeting appropriate derivate dalla descrizione.
+The AI assistant uses the `create_target_offer` tool to create the offer with your specified HTML content and returns a confirmation with the new offer ID.
 
 +++
+
++++Building an audience
+
+**Prompt:**
+"Create an audience called 'Mobile Visitors from California' that targets users on mobile devices located in California."
+
+The AI assistant uses the `create_target_audience` tool with the appropriate targeting rules derived from your description.
+
++++
+-->
 
 +++Generazione di collegamenti di anteprima Controllo di qualità
 
@@ -98,23 +101,25 @@ L&#39;assistente AI utilizza lo strumento `preview_activity` per generare URL cl
 
 +++
 
-+++Creazione di un’attività Targeting esperienze
+<!--
++++Creating an Experience Targeting activity
 
-**Richiesta:**
-&quot;Crea un’attività Targeting esperienze denominata &quot;Geo Personalization&quot; che mostra diversi banner principali ai visitatori provenienti da aree geografiche diverse.&quot;
+**Prompt:**
+"Create an Experience Targeting activity called 'Geo Personalization' that shows different hero banners to visitors from different regions."
 
-L&#39;assistente AI utilizza `create_xt_activity` per creare l&#39;attività con la mappatura dell&#39;esperienza basata sul pubblico in base alle aree che descrivi.
-
-+++
-
-+++Pianificazione di un’attività
-
-**Richiesta:**
-&quot;Aggiornare la pianificazione delle 12345 di attività che inizieranno il 1° maggio e termineranno il 31 maggio.&quot;
-
-L&#39;assistente AI utilizza lo strumento `update_activity_schedule` per applicare le nuove date di inizio e fine all&#39;attività.
+The AI assistant uses `create_xt_activity` to build the activity with audience-based experience mapping according to the regions you describe.
 
 +++
+
++++Scheduling an activity
+
+**Prompt:**
+"Update the schedule for activity 12345 to start on May 1st and end on May 31st."
+
+The AI assistant uses the `update_activity_schedule` tool to apply the new start and end dates to the activity.
+
++++
+-->
 
 ## Risorse correlate {#mcp-use-cases-related}
 
