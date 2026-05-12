@@ -8,31 +8,27 @@ topic: Experimentation, Personalization, Artificial Intelligence
 badge: label="Beta" type="Informative"
 role: Developer
 level: Experienced
-hide: true
-source-git-commit: 782256b734068075795d5e9c1f3f552ca48918e6
+source-git-commit: 7b0c8b18abe2db4e07e3ef979d6d194f4c4c81d6
 workflow-type: tm+mt
-source-wordcount: '481'
+source-wordcount: '508'
 ht-degree: 2%
 
 ---
 
 # Hosting autonomo del server MCP [!DNL Adobe Target] {#target-mcp-self-hosted}
 
->[!BEGINSHADEBOX]
 
-Sommario:
+>[!AVAILABILITY]
+>
+>Il server MCP [!DNL Adobe Target] è disponibile per tutti i clienti in **Beta pubblico**. Attualmente è supportato in **Claude Web**, **Claude Desktop**, **Claude Code**, **Cursor** e **ChatGPT**.
 
-* [Utilizzo dei client MCP](target-mcp.md)
-* [Riferimento strumenti server MCP](target-mcp-tools-reference.md)
-* **[Hosting autonomo del server MCP](target-mcp-self-hosted.md)**
-
->[!ENDSHADEBOX]
+In questa pagina viene illustrato come clonare, configurare ed eseguire un&#39;istanza personalizzata del server MCP [!DNL Adobe Target]. L&#39;hosting autonomo è utile quando hai bisogno di un ambiente di sviluppo locale, di una configurazione di rete personalizzata o desideri contribuire alla base di codice del server.
 
 >[!AVAILABILITY]
 >
 >La distribuzione self-hosted è destinata agli sviluppatori e agli utenti avanzati che richiedono il controllo completo del runtime del server MCP [!DNL Adobe Target]. Per la maggior parte degli utenti, si consiglia l&#39;endpoint ospitato (`https://targetmcp.adobe.io/mcp`). Vedi [Operazioni con i client MCP](target-mcp.md).
 
-In questa pagina viene illustrato come clonare, configurare ed eseguire un&#39;istanza personalizzata del server MCP [!DNL Adobe Target]. L&#39;hosting autonomo è utile quando hai bisogno di un ambiente di sviluppo locale, di una configurazione di rete personalizzata o desideri contribuire alla base di codice del server.
+
 
 ## Prerequisiti {#self-hosted-prereqs}
 
@@ -193,4 +189,4 @@ curl http://localhost:8080/health
 
 * [Operazioni con i client MCP](target-mcp.md): configurazione dell&#39;endpoint ospitato e riferimento allo strumento
 * [Documentazione di Model Context Protocol](https://modelcontextprotocol.io/introduction){target="_blank"}
-* [[!DNL Adobe Target] Riferimento API amministratore](https://developers.adobe.com/target/administer/admin-api/){target="_blank"}
+* [Riferimento API amministratore [!DNL Adobe Target]](https://developers.adobe.com/target/administer/admin-api/){target="_blank"}
