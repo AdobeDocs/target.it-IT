@@ -2,13 +2,16 @@
 keywords: e-mail;ESP;provider di servizi di posta elettronica;rawbox;API di consegna;modello di solo download;modello di posta elettronica;elaborazione batch;e-mail build-time
 description: Scopri come integrare le e-mail con le API di consegna di Adobe [!DNL Target Recommendations], including using the [!DNL Target] , modelli rawbox e modelli di solo download.
 title: Come posso integrare Consigli con l’e-mail?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=it#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."
 feature: Recommendations
 exl-id: 08fcb507-2c91-444a-b8ac-26165e359f6f
-source-git-commit: 1f505991ea9a0caf0d6d49f6464550243128ffaf
+TQID: https://experienceleague.adobe.com/ZyeOl6ysM03a0mMiNgHuicOLPfgpXnrdqXJE1gHRRvE
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d095671a-1355-40aa-8b5f-06c33c68080bid: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '1734'
-ht-degree: 96%
+source-wordcount: 1768
+ht-degree: 87%
 
 ---
 
@@ -43,7 +46,7 @@ La personalizzazione dei consigli in base all’ora di apertura non è supportat
 
 L&#39;API di consegna è una richiesta POST che funziona con e-mail di build-time. Questa opzione è il metodo preferito per l&#39;e-mail di build-time.
 
-La maggior parte dei client di posta elettronica non consentono richieste POST. Questa API non è quindi consigliata per i casi di utilizzo a tempo aperto. Alcuni client di posta elettronica, come ad esempio Gmail o Outlook, potrebbero memorizzare nella cache il contenuto o bloccare l’immagine e richiedere al destinatario di consentire all’immagine di eseguire il rendering in modo attivo.
+La maggior parte dei client e-mail non consente richieste POST. Pertanto, questa API non è consigliata per i casi di utilizzo a tempo aperto. Alcuni client di posta elettronica, come ad esempio Gmail o Outlook, potrebbero memorizzare nella cache il contenuto o bloccare l’immagine e richiedere al destinatario di consentire all’immagine di eseguire il rendering in modo attivo.
 
 Non è possibile restituire il contenuto predefinito utilizzando l&#39;API di consegna.
 
@@ -126,20 +129,20 @@ https://client_code.tt.omtrdc.net/m2/client_code/ubox/raw?mbox=mbox_name&mboxSes
 | Parametro | Valore | Descrizione | Convalida |
 |--- |--- |--- |--- |
 | `client_code` | *client_code* | Il codice del client utilizzato in Recommendations. Il tuo consulente Adobe può fornire questo valore. |  |
-| `mbox` | *mboxName* | Il nome mbox che viene utilizzato per il targeting. | Stessa convalida come per tutte le chiamate mbox.<br>Limite di 250 caratteri.<br>Non può contenere i seguenti caratteri: `', ", %22, %27, <, >, %3C, %3E` |
+| `mbox` | *mboxName* | Il nome mbox che viene utilizzato per il targeting. | Stessa convalida di tutte le chiamate mbox.<br>Limite di 250 caratteri.<br>Non può contenere i seguenti caratteri: `', ", %22, %27, <, >, %3C, %3E` |
 | `mboxXDomain` | disabilitato | Impedisce che la risposta imposti un cookie in ambienti non Web. |  |
 | `entity.id`<br>(Richiesto per determinati tipi di criteri: view/view, view/bought, bought/bought) | *entity_id* | Il productId sul quale il consiglio è basato, come ad esempio un prodotto abbandonato nel carrello o un acquisto precedente.<br>Se richiesto dai criteri, la chiamata rawbox deve includere `entity.id`. |  |
 | `entity.event.detailsOnly` | true | Se viene passato `entity.id`, è consigliabile passare anche questo parametro per impedire che la richiesta incrementi il numero di visualizzazioni di pagina conteggiate per un elemento, in modo da non alterare gli algoritmi basati sulla visualizzazione del prodotto. |  |
 | `entity.categoryId`<br>(Richiesto per determinati tipi di criteri: più visti per categoria e più venduti per categoria) | *category_id* | La categoria su cui si basa il consiglio, ad esempio i più venduti in una categoria.<br>Se richiesto dai criteri, la chiamata rawbox deve includere `entity.categoryId`. |  |
-| `mboxDefault` | *`https://www.default.com`* | Se il parametro `mboxNoRedirect` non è presente, `mboxDefault` deve essere un URL assoluto che restituirà il contenuto predefinito se non è disponibile alcun consiglio. Può trattarsi di un’immagine o di un altro contenuto statico.<br>Se il parametro `mboxNoRedirect` è presente, `mboxDefault` può essere qualsiasi testo che indichi che non vi sono consigli, ad esempio `no_content`.<br>Il provider e-mail dovrà gestire il caso in cui questo valore venga restituito e inserire nell’e-mail il contenuto HTML predefinito. <br> **Best practice sulla sicurezza**: se il dominio utilizzato nell’URL `mboxDefault` non è inserito nell’elenco Consentiti, puoi essere esposto a un rischio di vulnerabilità di reindirizzamento aperto. Per evitare l’uso non autorizzato dei collegamenti redirector o di `mboxDefault` da terze parti, Adobe consiglia di utilizzare “host autorizzati” per inserire nell’elenco Consentiti i domini URL di reindirizzamento predefiniti. Target utilizza gli host per inserire nell&#39;elenco Consentiti i domini a cui desideri consentire i reindirizzamenti. Per ulteriori informazioni, consulta [Creare elenchi Consentiti che specificano gli host autorizzati per l’invio di chiamate mbox a  [!DNL Target]](/help/main/administrating-target/hosts.md#allowlist) in *Host*. |  |
+| `mboxDefault` | *`https://www.default.com`* | Se il parametro `mboxNoRedirect` non è presente, `mboxDefault` deve essere un URL assoluto che restituirà il contenuto predefinito se non è disponibile alcun consiglio. Può trattarsi di un’immagine o di un altro contenuto statico.<br>Se il parametro `mboxNoRedirect` è presente, `mboxDefault` può essere qualsiasi testo che indichi che non sono presenti consigli, ad esempio `no_content`.<br>Il provider di posta elettronica deve gestire il caso in cui questo valore viene restituito e inserire HTML predefinito nell&#39;e-mail. <br> **Best practice sulla sicurezza**: se il dominio utilizzato nell’URL `mboxDefault` non è inserito nell’elenco Consentiti, puoi essere esposto a un rischio di vulnerabilità di reindirizzamento aperto. Per evitare l’uso non autorizzato dei collegamenti redirector o di `mboxDefault` da terze parti, Adobe consiglia di utilizzare “host autorizzati” per inserire nell’elenco Consentiti i domini URL di reindirizzamento predefiniti. Target utilizza gli host per inserire nell&#39;elenco Consentiti i domini a cui desideri consentire i reindirizzamenti. Per ulteriori informazioni, consulta [Creare elenchi Consentiti che specificano gli host autorizzati per l’invio di chiamate mbox a  [!DNL Target]](/help/main/administrating-target/hosts.md#allowlist) in *Host*. |  |
 | `mboxHost` | *mbox_host* | Si tratta del dominio che viene aggiunto all&#39;ambiente predefinito (gruppo di host) quando la chiamata viene attivata. |  |
-| `mboxPC` | Vuoto | (Richiesto per i consigli che utilizzano il profilo di un visitatore.)<br>Se non è stato fornito alcun &quot;thirdPartyId&quot;, viene generato un nuovo tntId e viene restituito come parte della risposta. Altrimenti rimane vuoto.<br>**Nota**: assicurati di fornire un valore univoco di `mboxSession` e `mboxPC` per ciascun destinatario e-mail (ad esempio, per ogni chiamata API). Se non fornisci valori univoci per questi campi, la risposta API potrebbe risultare lenta o non riuscire a causa del numero elevato di eventi generati in un singolo profilo. | 1 &lt; Lunghezza &lt; 128<br>Non può contenere più di un singolo “.” (punto).<br>L&#39;unico punto consentito è per il suffisso di posizione del profilo. |
+| `mboxPC` | Vuoto | (Obbligatorio per i consigli che utilizzano il profilo di un visitatore.)<br>Se non è stato fornito alcun &quot;thirdPartyId&quot;, viene generato un nuovo tntId e viene restituito come parte della risposta. Altrimenti rimane vuoto.<br>**Nota**: assicurati di fornire un valore univoco di `mboxSession` e `mboxPC` per ogni destinatario e-mail (ad esempio, per ogni chiamata API). Se non fornisci valori univoci per questi campi, la risposta API potrebbe risultare lenta o non riuscire a causa del numero elevato di eventi generati in un singolo profilo. | 1 &lt; Lunghezza &lt; 128<br>Non può contenere più di un singolo “.” (punto).<br>L&#39;unico punto consentito è per il suffisso di posizione del profilo. |
 
 ### Parametri opzionali
 
 | Parametro | Valore | Descrizione | Convalida |
 |--- |--- |--- |--- |
-| `mboxPC`<br>(Facoltativo) | *mboxPCId* | ID visitatore di Target. Utilizza questo valore se desideri monitorare un utente in modo completo sul sito nell&#39;arco di più visite o quando utilizzi un parametro di profilo utente.<br>Questo valore deve essere l’effettivo PCID di [!DNL Adobe Target] per l’utente, che verrebbe esportato dal sito Web al CRM. Il provider di posta elettronica recupererà questo ID dal CRM o dal Data Warehouse e lo utilizzerà come valore di questo parametro.<br>Il valore `mboxPC` è utile anche per monitorare il comportamento dei visitatori sul sito nell&#39;arco di più visite per il tracciamento delle metriche quando un consiglio fa parte di un&#39;attività A/B.<br>**Nota**: assicurati di fornire un valore univoco di `mboxSession` e `mboxPC` per ciascun destinatario e-mail (ad esempio, per ogni chiamata API). Se non fornisci valori univoci per questi campi, la risposta API potrebbe risultare lenta o non riuscire a causa del numero elevato di eventi generati in un singolo profilo. | 1 &lt; Lunghezza &lt; 128<br>Non può contenere più di un singolo “.” (punto).<br>L&#39;unico punto consentito è per il suffisso di posizione del profilo. |
+| `mboxPC`<br>(Facoltativo) | *mboxPCId* | ID visitatore di Target. Utilizza questo valore se desideri monitorare un utente in modo completo sul sito nell&#39;arco di più visite o quando utilizzi un parametro di profilo utente.<br>Questo valore deve essere l’effettivo PCID di [!DNL Adobe Target] per l’utente, che verrebbe esportato dal sito Web al CRM. Il provider di posta elettronica recupererà questo ID dal CRM o dal Data Warehouse e lo utilizzerà come valore di questo parametro.<br>Il valore `mboxPC` è utile anche per monitorare il comportamento dei visitatori sul sito in più visite per il tracciamento delle metriche quando un consiglio fa parte di un&#39;attività A/B.<br>**Nota**: assicurati di fornire un valore univoco di `mboxSession` e `mboxPC` per ogni destinatario e-mail (ad esempio, per ogni chiamata API). Se non fornisci valori univoci per questi campi, la risposta API potrebbe risultare lenta o non riuscire a causa del numero elevato di eventi generati in un singolo profilo. | 1 &lt; Lunghezza &lt; 128<br>Non può contenere più di un singolo “.” (punto).<br>L&#39;unico punto consentito è per il suffisso di posizione del profilo. |
 | `mboxNoRedirect`<br>(Facoltativo) | 1 | Per impostazione predefinita, il chiamante viene reindirizzato quando non viene trovato alcun contenuto finale. Utilizzalo per disabilitare il comportamento predefinito. |  |
 | `mbox3rdPartyId` | *xxx* | Utilizza questa opzione se disponi di un ID visitatore personalizzato da utilizzare per il targeting di profilo. |  |
 
@@ -154,7 +157,7 @@ https://client_code.tt.omtrdc.net/m2/client_code/ubox/raw?mbox=mbox_name&mboxSes
 | `Invalid mbox name:= MBOX_NAME` | Indica che il parametro `mbox` contiene caratteri non validi. |
 | `Mbox name [MBOX_NAME] is too long` | Indica che il parametro `mbox` è più lungo di 250 caratteri. |
 
-## Metodo 3: Utilizzare Recommendations Download API {#download-api}
+## Metodo 3: Utilizzare l’API Download per la funzione Consigli {#download-api}
 
 Configura un consiglio come al solito, ma scegli **solo download** nella sezione di presentazione, anziché una combinazione di modello e mbox. Quindi, in ESP, indica al sistema l&#39;ID del consiglio creato. ESP accede ai dati del consiglio tramite API. Questi dati mostrano quali elementi devono essere consigliati per una particolare categoria o elemento chiave, come ad esempio gli elementi in un carrello abbandonato. ESP memorizza questi dati, li collega all&#39;aspetto e alle caratteristiche relativi, visualizza le informazioni su ciascun elemento e le distribuisce nelle e-mail.
 

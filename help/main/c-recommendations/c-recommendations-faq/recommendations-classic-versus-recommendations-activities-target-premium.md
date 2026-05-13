@@ -2,13 +2,17 @@
 keywords: consigli;algoritmi consigli;attività consigli;recommendations classic
 description: Rivedi le informazioni per comprendere le differenze tra le precedenti attività di Recommendations Classic e le attività Consigli in [!DNL Target] Premium.
 title: Qual è la differenza tra Recommendations Classic e la funzione Consigli in [!DNL Target] Premium?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=it#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."
 feature: Recommendations
 exl-id: 07548155-9548-4870-b886-6cb4ff37a0bd
-source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
+TQID: https://experienceleague.adobe.com/EoTkyY0kOwRKT52WIwOuTCoUziIJOnNtTo6llsTNpsM
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eebid: c93393a4-e558-47e1-992e-c91ed4d480ce
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '652'
-ht-degree: 88%
+source-wordcount: 665
+ht-degree: 86%
 
 ---
 
@@ -49,7 +53,7 @@ Per ulteriori informazioni, consulta [Consigli come offerta](/help/main/c-recomm
 
 ![immagine overview_criteria](assets/overview_criteria.png)
 
-I criteri sono preconfigurati e ordinati per settori verticali, tipi di pagina e implementazione. Ad esempio, puoi cercare i criteri che si applicano al settore verticale, per l&#39;utilizzo in una pagina del prodotto, mostrando prodotti all&#39;interno di una determinata categoria (come definito dal parametro `entity.categoryID`).
+I criteri sono preconfigurati e ordinati per settori verticali, tipi di pagina e implementazione. Ad esempio, puoi cercare i criteri che si applicano al settore verticale, da utilizzare in una pagina di prodotto, in modo da mostrare i prodotti di una determinata categoria (come definito dal parametro `entity.categoryID`).
 
 Per ulteriori informazioni sull’utilizzo e la creazione dei criteri, vedi [Criteri](/help/main/c-recommendations/c-algorithms/algorithms.md).
 

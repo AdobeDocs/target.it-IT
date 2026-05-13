@@ -2,13 +2,16 @@
 keywords: progettazione personalizzata;velocity;decimale;virgola;personalizzare una progettazione
 description: Scopri come utilizzare il linguaggio di progettazione open-source [!DNL Velocity] per personalizzare le progettazioni dei consigli in [!DNL Target] Recommendations.
 title: Come posso personalizzare una progettazione con Velocity?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=it#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."
 feature: Recommendations
 exl-id: 035d7988-80d8-4080-bb0d-1d0e9f8856d1
-source-git-commit: eba9e0b02ce74fea127d2cb2d08d04dcd2da2d76
+TQID: https://experienceleague.adobe.com/cccBRfwqqn-eL2hraSDAoJHPYSCkcA9tVne3OWDXxEU
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '1049'
-ht-degree: 61%
+source-wordcount: 1083
+ht-degree: 60%
 
 ---
 
@@ -246,7 +249,7 @@ Il seguente snippet HTML sostituisce la porzione HTML esistente nella progettazi
 
 * Se esiste una quinta entità, lo script inserisce un div di chiusura e apre una nuova riga con `<div class="at-table-row">`.
 * Per il formato 4x2, il numero massimo di risultati visualizzati sarà otto, ma questo può essere ridotto o aumentato modificando `$count <=8`.
-* Tieni presente che la logica non bilancia le entità su più righe. Ad esempio, se devono essere visualizzate cinque o sei entità, queste non verranno disposte in modo dinamico tre in alto e due in basso (o tre in alto e tre in basso). Nella riga superiore verranno inseriti comunque quattro articoli prima di creare una seconda riga.
+* Tieni presente che la logica non bilancia le entità su più righe. Ad esempio, se devono essere visualizzate cinque o sei entità, queste non verranno disposte in modo dinamico tre in alto e due in basso (o tre in alto e tre in basso). Nella riga superiore verranno visualizzati comunque quattro articoli prima di creare una seconda riga.
 
 ```
 <div class="at-table">

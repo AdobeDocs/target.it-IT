@@ -4,9 +4,12 @@ description: Scopri come specificare le metriche in un'attività  [!DNL Adobe Ta
 title: Come si impostano le metriche obiettivo in un'attività [!UICONTROL Experience Targeting]?
 feature: Experience Targeting
 exl-id: 16249930-8b9c-441c-bd14-5f32332556d2
-source-git-commit: d7c1bbbbc8d1dcc45ac09a09f6b3be01f7542384
+TQID: https://experienceleague.adobe.com/DRFhQ7plSdYqXdzodxFe8h22fSz9xZs9ATt5Ri2s6AA
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '323'
+source-wordcount: 325
 ht-degree: 56%
 
 ---

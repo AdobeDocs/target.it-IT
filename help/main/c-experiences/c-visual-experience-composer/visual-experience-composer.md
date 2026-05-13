@@ -4,10 +4,14 @@ description: Scopri le nozioni di base sull’utilizzo del Compositore esperienz
 title: Come si utilizza il Compositore esperienza visivo?
 feature: Visual Experience Composer (VEC)
 exl-id: 51650f2a-1f24-40c7-8692-77f55656b4f6
-source-git-commit: f984f2db3ccfb02629ddfd4f3c5f957256bd9f6a
+TQID: https://experienceleague.adobe.com/X4nfYuOtD3TVusnVIIEZhXwUdCZ-dMvbZeJlrkmI9Hs
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 16fb7a1902ea76cab56a93fa141a32a3c6bc4467
 workflow-type: tm+mt
-source-wordcount: '1132'
-ht-degree: 43%
+source-wordcount: 1138
+ht-degree: 46%
 
 ---
 
@@ -19,7 +23,7 @@ Il [!UICONTROL Visual Experience Composer] (VEC) in [!DNL Adobe Target] è un ed
 >
 >La versione di [!DNL Target Standard/Premium] 25.2.1 (17 febbraio 2025) includeva una versione aggiornata del Compositore esperienza visivo. Per informazioni sulle differenze tra il Compositore esperienza visivo aggiornato e la versione precedente, vedi [Modifiche al Compositore esperienza visivo](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md). Per una panoramica delle varie opzioni del Compositore esperienza visivo aggiornato, vedi [Opzioni del Compositore esperienza visivo](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md).
 
-Il Compositore esperienza visivo consente di creare e testare offerte ed esperienze personalizzate nel contesto del sito. È possibile creare esperienze e offerte per le attività [!DNL Target] trascinando, scambiando e modificando il layout e il contenuto di una pagina Web (o offerta) o di una pagina Web per dispositivi mobili.
+Il Compositore esperienza visivo consente di creare e testare offerte ed esperienze personalizzate nel contesto del sito. Puoi creare esperienze e offerte per le attività di [!DNL Target] trascinando, scambiando e modificando il layout e il contenuto di una pagina web (o offerta) oppure di una pagina web per dispositivi mobili.
 
 Il Compositore esperienza visivo è una delle funzionalità principali di [!DNL Target]. Il Compositore esperienza visivo consente agli addetti al marketing e ai designer di creare e modificare i contenuti mediante un’interfaccia visiva che permette di operare molte scelte di progettazione senza dover intervenire direttamente sul codice. Il compositore offre anche opzioni per modificare il codice HTML e JavaScript.
 

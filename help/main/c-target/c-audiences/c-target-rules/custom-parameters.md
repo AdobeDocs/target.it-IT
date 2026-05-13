@@ -4,10 +4,14 @@ description: Scopri come trasmettere parametri personalizzati a  [!DNL Adobe Tar
 title: Posso indirizzare i visitatori in base a parametri personalizzati?
 feature: Audiences
 exl-id: f0669888-6b9e-4738-9ed4-0418ea56fffa
-source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
+TQID: https://experienceleague.adobe.com/IiMsTLXIYWfd8vXInIfyQtFZ4RDNTe28bPfvqFgi77U
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '481'
-ht-degree: 37%
+source-wordcount: 497
+ht-degree: 39%
 
 ---
 

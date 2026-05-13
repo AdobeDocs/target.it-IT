@@ -3,12 +3,17 @@ keywords: Automated Personalization;ap;caricare dati;dati offline;algoritmo di p
 description: Scopri come caricare dati offline durante la creazione di modelli di personalizzazione in  [!DNL Adobe Target] [!UICONTROL Automated Personalization] (AP) e [!UICONTROL Auto-Target] attività.
 title: Come posso caricare dati per gli algoritmi Personalization?
 feature: Automated Personalization, Auto-Target
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=it#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."
 exl-id: c750e0e5-8ebd-49a2-9705-05f593aaf0b9
-source-git-commit: 3f64da1c9a1146e4d2d9389d6d5ce764764d2d9c
+TQID: https://experienceleague.adobe.com/B1vwWrii4DfQzXftwcmgzbhBkDAZFo5mDRn3a7dULj0
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eebid: c93393a4-e558-47e1-992e-c91ed4d480ce
+subfeature_v2: id: fff07a91-d479-45f4-ae95-9762e79b1b7c
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d3cdead0-685a-4489-9250-4bb709942f66id: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '277'
-ht-degree: 10%
+source-wordcount: 302
+ht-degree: 13%
 
 ---
 
@@ -16,7 +21,7 @@ ht-degree: 10%
 
 I dati offline, ad esempio le informazioni CRM o i punteggi di propensione di abbandono dei clienti, possono essere estremamente utili per la creazione di modelli di personalizzazione nelle attività [!DNL Adobe Target] [!UICONTROL Automated Personalization] (AP) e [!UICONTROL Auto-Target].
 
-Esistono diversi modi per immettere dati in algoritmi di personalizzazione [!UICONTROL Automated Personalization] (AP) e [!UICONTROL Auto-Target]. Oltre ai metodi in [Metodi per ottenere dati in Target](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html?lang=it){target=_blank}, negli algoritmi [!DNL Experience Cloud] vengono utilizzati anche tipi di pubblico condivisi ([!UICONTROL Adobe Analytics], [!DNL Audience Manager]) e tipi di pubblico di reporting all&#39;interno delle attività.[!DNL Target]
+Esistono diversi modi per immettere dati in algoritmi di personalizzazione [!UICONTROL Automated Personalization] (AP) e [!UICONTROL Auto-Target]. Oltre ai metodi in [Metodi per ottenere dati in Target](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html?lang=it){target=_blank}, negli algoritmi [!DNL Target] vengono utilizzati anche tipi di pubblico condivisi ([!UICONTROL Adobe Analytics], [!DNL Audience Manager]) e tipi di pubblico di reporting all&#39;interno delle attività.[!DNL Experience Cloud]
 
 Per informazioni sui dati raccolti e utilizzati automaticamente dagli algoritmi di personalizzazione [!UICONTROL Automated Personalization] e [!UICONTROL Auto-Target], vedere [Raccolta dati di Automated Personalization](/help/main/c-activities/t-automated-personalization/ap-data.md).
 

@@ -4,10 +4,15 @@ description: Scopri come creare [!UICONTROL Auto-Allocate] e [!UICONTROL Auto-Ta
 title: A4T supporta [!UICONTROL Auto-Allocate] e [!UICONTROL Auto-Target] attività?
 feature: Analytics for Target (A4T)
 exl-id: 3302f26d-c445-4779-8435-be142d5cea8c
-source-git-commit: ddced04c730519dae74e70a60bed26462825ad23
+TQID: https://experienceleague.adobe.com/VVbjMp7jYDyslZ8ubn8ntPufLK8nKGI9k3ZGh1DLWWs
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: c93393a4-e558-47e1-992e-c91ed4d480ceid: f7c7de77-382f-4f48-8b36-61a170f06d3d
+subfeature_v2: id: df62f171-ac37-440f-8f0f-f41a72ebdd34
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eb30f47f-d87a-400f-8f78-63ce7979ff56id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '1276'
-ht-degree: 4%
+source-wordcount: 1352
+ht-degree: 6%
 
 ---
 
@@ -20,7 +25,7 @@ L’integrazione di A4T consente di:
 * Utilizza la funzionalità multi-armed bandit di [Allocazione automatica](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) per indirizzare il traffico verso esperienze vincenti.
 * Utilizza l&#39;algoritmo di machine learning [Targeting automatico](/help/main/c-activities/auto-target/auto-target-to-optimize.md) per scegliere l&#39;esperienza migliore per ogni visitatore. [!UICONTROL Auto-Target] sceglie l&#39;esperienza migliore in base al profilo, al comportamento e al contesto di ogni utente, il tutto utilizzando una metrica di obiettivo [!DNL Adobe Analytics] e le funzionalità avanzate di reporting e analisi di [!DNL Adobe Analytics].
 
-Assicurati di avere [implementato A4T per l&#39;utilizzo con attività di test A/B ed Experience Targeting](/help/main/c-integrating-target-with-mac/a4t/a4timplementation.md). Se si utilizza `analyticsLogging = client_side`, è necessario passare anche il valore `sessionId` a [!DNL Analytics]. Per ulteriori informazioni, consulta [Generazione rapporti di Analytics for Target (A4T)](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/integration/a4t-reporting.html?lang=it){target=_blank} nella *Guida per gli sviluppatori di Adobe Target*.
+Assicurati di avere [implementato A4T per l&#39;utilizzo con attività di test A/B ed Experience Targeting](/help/main/c-integrating-target-with-mac/a4t/a4timplementation.md). Se si utilizza `analyticsLogging = client_side`, è necessario passare anche il valore `sessionId` a [!DNL Analytics]. Per ulteriori informazioni, consulta [Generazione rapporti di Analytics for Target (A4T)](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/integration/a4t-reporting.html){target=_blank} nella *Guida per gli sviluppatori di Adobe Target*.
 
 Per iniziare:
 
@@ -85,7 +90,7 @@ Per iniziare:
 
 ### Impatto su [!UICONTROL Auto-Allocate] attività
 
-| Nome della metrica | Non più supportato in: |
+| Nome metrica | Non più supportato in: |
 | --- | --- |
 | [!UICONTROL averagepagedepth] | Tasso di conversione, massimizzare il valore della metrica |
 | [!UICONTROL averagetimespentonsite] | Tasso di conversione, massimizzare il valore della metrica |
@@ -100,7 +105,7 @@ Per iniziare:
 
 ### Impatto su [!UICONTROL Auto-Target] attività
 
-| Nome della metrica | Non più supportato in: |
+| Nome metrica | Non più supportato in: |
 | --- | --- |
 | [!UICONTROL cartremovals] | Massimizzare il valore della metrica |
 | [!UICONTROL pageviews] | Massimizzare il valore della metrica |
@@ -120,7 +125,7 @@ Alcune limitazioni e note si applicano sia alle attività [!UICONTROL Auto-Alloc
 ### Allocazione automatica {#aa}
 
 * **Frequenza di formazione**: [!UICONTROL Auto-Allocate] modelli continuano ad allenarsi ogni ora, come al solito.
-* **Modelli di attribuzione**: [!DNL Target] utilizza il modello di attribuzione predefinito [!DNL Adobe Analytics] per[!UICONTROL &#x200B; Auto-Allocate] attività che utilizzano A4T.
+* **Modelli di attribuzione**: [!DNL Target] utilizza il modello di attribuzione predefinito [!DNL Adobe Analytics] per[!UICONTROL  Auto-Allocate] attività che utilizzano A4T.
 * **Affidabilità**: la formula di affidabilità utilizzata dalle attività [!UICONTROL Auto-Allocate] è diversa dalla formula visualizzata per impostazione predefinita nel pannello [!DNL Adobe Analytics] [!UICONTROL A4T]. [Come descritto](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md), [!UICONTROL Auto-Allocate] utilizza intervalli di attendibilità più conservativi rispetto alle normali attività [!UICONTROL A/B Test]. Questi livelli di affidabilità conservativi compensano le valutazioni ripetute (peeks) ai dati. Di conseguenza, il report predefinito in [!DNL Adobe Analytics] mostra intervalli di attendibilità più limitati rispetto a quelli utilizzati dall&#39;algoritmo [!UICONTROL Auto-Allocate]. Tuttavia, puoi determinare quale esperienza è preferita dagli algoritmi in base all’esperienza con più visitatori univoci inviati.
 * **Stato vincitore**: al momento i badge [&quot;Ancora nessun vincitore&quot; e &quot;Vincitore&quot;](/help/main/c-activities/automated-traffic-allocation/determine-winner.md) non sono disponibili nel pannello [!UICONTROL A4T] in [!DNL Analysis Workspace]. Questi badge non sono disponibili neanche se lo stesso report viene visualizzato in [!DNL Target]. Un badge vincitore &quot;star&quot; visualizzato in un report [!DNL Target] per un&#39;attività [!UICONTROL Auto-Allocate] tramite A4T deve essere ignorato. Questo badge riflette i normali calcoli di affidabilità e non i calcoli utilizzati da [!UICONTROL Auto-Allocate].
 
@@ -132,7 +137,7 @@ Alcune limitazioni e note si applicano sia alle attività [!UICONTROL Auto-Alloc
 
 * Quando si utilizza [!DNL Analytics] come origine dati per un&#39;attività [!UICONTROL Auto-Target], le sessioni terminano dopo sei ore. Le conversioni che si verificano dopo sei ore non vengono conteggiate.
 
-Per ulteriori informazioni, consulta [Modelli di attribuzione e intervalli di lookback](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/models.html?lang=it) nella *Guida agli strumenti di Analytics*.
+Per ulteriori informazioni, consulta [Modelli di attribuzione e intervalli di lookback](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/models.html) nella *Guida agli strumenti di Analytics*.
 
 ## Esercitazioni
 

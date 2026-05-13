@@ -4,9 +4,13 @@ description: Scopri come utilizzare un [!UICONTROL Multivariate Test] (MVT) in [
 title: Cos'è un [!UICONTROL Multivariate Test]?
 feature: Multivariate Tests
 exl-id: c8b60011-cb3a-4e28-b84f-06910687b14b
-source-git-commit: 0d73a062f70080057c3323f5150af067e3a2e27e
+TQID: https://experienceleague.adobe.com/JKmjIHJuRxAXlhvUOrrmLMVLnJFhA3T4xkahgH-ozHE
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: c93393a4-e558-47e1-992e-c91ed4d480ce
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '1438'
+source-wordcount: 1453
 ht-degree: 46%
 
 ---
@@ -57,7 +61,7 @@ Puoi usare i test multivariati insieme ai test A/B per ottimizzare la pagina. Al
 
   Quando il numero di esperienze diverse supera le cinque e si estende su due o più elementi, è consigliabile prendere in considerazione l’idea di effettuare un test MVT prima di eseguire i test A/B. I test multivariati mostrano quali aree della pagina hanno più probabilità di migliorare la conversione. Questi sono gli elementi sui quali un addetto al marketing dovrebbe concentrarsi. Ad esempio, il test MVT potrebbe indicare che l’invito all’azione è l’elemento più importante per soddisfare gli obiettivi. Una volta stabiliti gli elementi e il contenuto più utili per raggiungere gli obiettivi, puoi eseguire un test A/B per perfezionare ulteriormente i risultati. Ad esempio, puoi sottoporre a test reciproco due immagini specifiche, oppure confrontare il testo o i colori di un call to action. Facendo seguire un test MVT da uno o più test A/B, puoi determinare il contenuto migliore possibile per i risultati desiderati.
 
-## Considerazioni  {#section_979FE3F398654C1EA1C86E7DBC9A8DAD}
+## Considerazioni {#section_979FE3F398654C1EA1C86E7DBC9A8DAD}
 
 * Utilizza un test MVT quando disponi di almeno tre elementi. Se il numero è inferiore, esegui una serie di test A/B.
 * Seleziona gli elementi della pagina che ritieni abbiano il maggiore impatto sui risultati.
@@ -67,7 +71,7 @@ Puoi usare i test multivariati insieme ai test A/B per ottimizzare la pagina. Al
 
   Ad esempio, non testare il layout e il contenuto nello stesso test.
 
-* Pianifica tempo aggiuntivo per il controllo qualità a causa dell’aumento del numero di esperienze. Puoi inoltre utilizzare i test fattoriali parziali per ridurre la quantità di traffico necessario per un test multivariato. Per ulteriori informazioni, consulta Test fattoriali parziali di seguito:
+* Pianifica un tempo aggiuntivo per l’attività di QA, a causa dell’aumento del numero di esperienze. Puoi inoltre utilizzare i test fattoriali parziali per ridurre la quantità di traffico necessario per un test multivariato. Per ulteriori informazioni, consulta Test fattoriali parziali di seguito:
 
 ## Test fattoriali parziali
 
@@ -98,13 +102,13 @@ Questo video di panoramica spiega i tipi di attività disponibili in [!DNL Targe
 * Selezionare il tipo di attività appropriato per i tuoi obiettivi
 * Descrizione del flusso di lavoro guidato in tre passaggi da applicare a tutti i tipi di attività
 
->[!VIDEO](https://video.tv.adobe.com/v/36365?captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/17386)
 
 ### Creazione di test multivariati (9:25) ![Icona esercitazione](/help/main/assets/tutorial.png)
 
-Questo video spiega come comprendere, pianificare e creare un test multivariato utilizzando il flusso di lavoro guidato in tre passaggi di Target.
+Questo video spiega come comprendere, pianificare e creare un test multivariato utilizzando il flusso di lavoro guidato in tre passaggi di [!DNL]Target.
 
 * Definizione e progettazione di un test multivariato
 * Creazione di un test multivariato
 
->[!VIDEO](https://video.tv.adobe.com/v/36329?captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/17395)

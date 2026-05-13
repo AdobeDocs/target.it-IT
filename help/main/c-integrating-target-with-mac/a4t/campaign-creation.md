@@ -4,9 +4,13 @@ description: Scopri come configurare un'attività in Adobe [!DNL Target] che uti
 title: Come si crea un’attività che utilizza A4T?
 feature: Analytics for Target (A4T)
 exl-id: 6a09764a-8bf1-4f69-b871-fb23136f933e
-source-git-commit: 981cff428d9e8849b9bbcbf7bef389dad0fbb32a
+TQID: https://experienceleague.adobe.com/7fdf22c0HzpPYQbKgGjHEy23oJQsjQTJpfqy93mG1kI
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '646'
+source-wordcount: 652
 ht-degree: 29%
 
 ---

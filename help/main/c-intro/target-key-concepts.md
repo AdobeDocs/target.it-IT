@@ -4,10 +4,15 @@ description: Scopri le nozioni di base di Adobe Target. Questo articolo presenta
 title: Come si utilizza Target?
 feature: Overview
 exl-id: c9555d79-d505-41ff-ba4b-ab94793f9efa
-source-git-commit: 122484056e73f8f679312a3e776e623d905701d5
+TQID: https://experienceleague.adobe.com/l4bZ9esCTiZNakTrNp89n5mAeFci5dp0HCLZYV-GleA
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eebid: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+subfeature_v2: id: b077c1f1-7e5f-4dbf-a193-70e9fe784bb2id: b6f5758b-84f7-4943-8b05-1297a046943cid: c2923fce-066f-4e68-bc28-ac56b57ccb5cid: ca2e0bf6-f9f8-4b6b-a630-a3c4b1455817id: db15a02f-03cd-46fe-a53e-02064cdeadfaid: e73b329c-f712-4a22-abe7-bfbf3be6d0f9id: ed58f4a1-16eb-4c8c-b505-be9da766a9ecid: f0055dd2-93f3-4ac8-9abc-d69d4ed2d977id: f2d0aafb-18af-41a0-a32e-2788eafacc2b
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '1524'
-ht-degree: 95%
+source-wordcount: 1538
+ht-degree: 82%
 
 ---
 
@@ -27,14 +32,14 @@ Target include diversi tipi di attività. La tabella seguente fornisce una panor
 
 | Tipo di attività | Descrizione |
 |--- |--- |
-| [Test A/B](/help/main/c-activities/t-test-ab/test-ab.md) | Il test A/B confronta due o più versioni del contenuto del sito web per vedere quale versione migliora maggiormente le conversioni durante un dato periodo di test.<br>**Nota:** ora puoi includere i [consigli nelle attività di test A/B](/help/main/c-recommendations/recommendations-as-an-offer.md). Questa funzionalità richiede una [licenza di Target Premium](/help/main/c-intro/intro.md#premium). |
-| [Allocazione automatica](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | L’allocazione automatica identifica un vincitore tra due o più esperienze e, di conseguenza, ridistribuisce automaticamente più traffico per aumentare le conversioni, mentre il test continua a essere eseguito e ad apprendere.<br>**Nota:** ora puoi includere i [consigli nelle attività di allocazione automatica](/help/main/c-recommendations/recommendations-as-an-offer.md). Questa funzionalità richiede una [licenza di Target Premium](/help/main/c-intro/intro.md#premium). |
-| [Targeting automatico](/help/main/c-activities/auto-target/auto-target-to-optimize.md)<br>![Target Premium](/help/main/assets/premium.png) | La funzione Targeting automatico utilizza l’apprendimento automatico avanzato per identificare più esperienze ad alte prestazioni definite dall’addetto al marketing. Le attività di Targeting automatico forniscono a ogni visitatore l’esperienza più personalizzata in base al suo profilo cliente individuale e al comportamento dei visitatori precedenti con profili simili, al fine di personalizzare i contenuti e favorire le conversioni.<br>**Nota:** ora puoi includere i [consigli nelle attività di targeting automatico](/help/main/c-recommendations/recommendations-as-an-offer.md). Questa funzionalità richiede una [licenza di Target Premium](/help/main/c-intro/intro.md#premium). |
+| [Test A/B](/help/main/c-activities/t-test-ab/test-ab.md) | Il test A/B confronta due o più versioni del contenuto del sito Web per vedere quale versione migliora meglio le conversioni durante un periodo di test predefinito.<br>**Nota:** Ora puoi includere [consigli nelle attività di test A/B](/help/main/c-recommendations/recommendations-as-an-offer.md). Questa funzionalità richiede una [licenza di Target Premium](/help/main/c-intro/intro.md#premium). |
+| [Allocazione automatica](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | L&#39;allocazione automatica identifica un vincitore tra due o più esperienze e, di conseguenza, ridistribuisce automaticamente più traffico per aumentare le conversioni, mentre il test continua a essere eseguito e ad apprendere.<br>**Nota:** Ora puoi includere [consigli nelle attività di allocazione automatica](/help/main/c-recommendations/recommendations-as-an-offer.md). Questa funzionalità richiede una [licenza di Target Premium](/help/main/c-intro/intro.md#premium). |
+| [Targeting automatico](/help/main/c-activities/auto-target/auto-target-to-optimize.md)<br>![Target Premium](/help/main/assets/premium.png) | La funzione Targeting automatico utilizza l’apprendimento automatico avanzato per identificare più esperienze ad alte prestazioni definite dall’addetto al marketing. Le attività di Targeting automatico forniscono a ogni visitatore l&#39;esperienza più personalizzata in base al suo profilo cliente individuale e al comportamento dei visitatori precedenti con profili simili, al fine di personalizzare i contenuti e favorire le conversioni.<br>**Nota:** ora puoi includere [consigli nelle attività di Targeting automatico](/help/main/c-recommendations/recommendations-as-an-offer.md). Questa funzionalità richiede una [licenza di Target Premium](/help/main/c-intro/intro.md#premium). |
 | [Utilizzo dei dati di Analytics](/help/main/c-activities/t-test-ab/t-test-create-ab/create-a4t.md) (A4T) | Puoi configurare un&#39;attività per utilizzare [!DNL Adobe Analytics] come origine per i rapporti. Questo tipo di attività richiede di collegare il tuo account [!DNL Adobe Experience Cloud] sia con [!DNL Analytics] sia con [!DNL Target]. |
 | [Test multivariato](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md) | Il test multivariato (Multivariate Testing, MVT) confronta le combinazioni di offerte negli elementi di una pagina per determinare quale combinazione funziona al meglio per un pubblico specifico e identifica quale elemento influisce maggiormente sul successo dell’attività. |
-| [Targeting esperienza](/help/main/c-activities/t-experience-target/experience-target.md) | La funzione Targeting esperienza (XT) fornisce contenuti a un pubblico specifico basato su una serie di regole e criteri definiti dagli addetti al marketing.<br>**Nota:** ora puoi includere i [consigli nelle attività di targeting delle esperienze](/help/main/c-recommendations/recommendations-as-an-offer.md). Questa funzionalità richiede una [licenza di Target Premium](/help/main/c-intro/intro.md#premium). |
+| [Targeting esperienza](/help/main/c-activities/t-experience-target/experience-target.md) | La funzione Targeting esperienza (XT) fornisce contenuti a un pubblico specifico in base a una serie di regole e criteri definiti dall&#39;addetto al marketing.<br>**Nota:** ora puoi includere [consigli nelle attività di Targeting esperienza](/help/main/c-recommendations/recommendations-as-an-offer.md). Questa funzionalità richiede una [licenza di Target Premium](/help/main/c-intro/intro.md#premium). |
 | [Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md)<br>![Target Premium](/help/main/assets/premium.png) | Automated Personalization (AP) combina offerte o messaggi e utilizza l’apprendimento automatico avanzato per abbinare diverse varianti a ciascun visitatore in base al suo profilo cliente, per personalizzare i contenuti e promuovere le conversioni. |
-| [Consigli](/help/main/c-recommendations/recommendations.md)<br>![Target Premium](/help/main/assets/premium.png) | Un consiglio determina il modo in cui un prodotto viene suggerito a un utente del sito web, a seconda delle attività dell&#39;utente sul sito.<br>Ad esempio, potrebbe essere utile incoraggiare l&#39;acquirente di uno zaino a considerare l&#39;acquisto di scarpe e bastoncini da trekking. Puoi creare un consiglio che mostra gli elementi spesso acquistati insieme con l&#39;algoritmo “Chi ha acquistato questo ha acquistato anche”. Oppure, potrebbe essere utile incoraggiare i visitatori a trascorrere più tempo sul sito multimediale, consigliando un video simile a quello che stanno visualizzando, mediante l&#39;algoritmo “Chi ha visualizzato questo ha visualizzato anche”.<br>**Nota:** ora puoi includere i consigli nelle attività di test A/B (tra cui Allocazione automatica e Targeting automatico) e targeting delle esperienze (XT). Consulta [Consigli come offerta](/help/main/c-recommendations/recommendations-as-an-offer.md). |
+| [Consigli](/help/main/c-recommendations/recommendations.md)<br>![Target Premium](/help/main/assets/premium.png) | Un consiglio determina il modo in cui un prodotto viene suggerito a un utente del sito web, a seconda delle attività dell&#39;utente sul sito.<br>Ad esempio, potrebbe essere utile incoraggiare l&#39;acquirente di uno zaino a considerare l&#39;acquisto di scarpe e bastoncini da trekking. Puoi creare un consiglio che mostra gli elementi spesso acquistati insieme con l&#39;algoritmo “Chi ha acquistato questo ha acquistato anche”. In alternativa, potrebbe essere utile incoraggiare i visitatori a dedicare più tempo al sito multimediale consigliando un video simile a quello che stanno guardando, utilizzando l&#39;algoritmo &quot;Persone che hanno visualizzato questo hanno visto quello&quot;.<br>**Nota:** Ora puoi includere i consigli nelle attività di test A/B (tra cui Allocazione automatica e Targeting automatico) e targeting delle esperienze (XT). Consulta [Consigli come offerta](/help/main/c-recommendations/recommendations-as-an-offer.md). |
 
 ## Posizioni {#section_F18FBF1ED23340ED9F39C51971A4E874}
 
@@ -115,7 +120,7 @@ Questo video spiega i tipi di attività disponibili in [!DNL Target Standard/Pre
 * Selezionare il tipo di attività appropriato per i tuoi obiettivi
 * Descrizione del flusso di lavoro guidato in tre passaggi da applicare a tutti i tipi di attività
 
->[!VIDEO](https://video.tv.adobe.com/v/36365?captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/17386)
 
 ### Utilizzo dei tipi di pubblico in Adobe Target (6:21) ![Icona Panoramica](/help/main/assets/overview.png)
 
@@ -127,4 +132,4 @@ Questo video spiega come utilizzare i tipi di pubblico in [!DNL Target Standard/
 * Indirizzare unʼattività a un pubblico
 * Utilizzare i tipi di pubblico per la reportistica passiva in un’attività
 
->[!VIDEO](https://video.tv.adobe.com/v/36328?captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/17398)

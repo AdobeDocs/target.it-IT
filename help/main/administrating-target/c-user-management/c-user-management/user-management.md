@@ -5,10 +5,16 @@ title: Come si aggiungono utenti e si gestiscono le autorizzazioni per un accoun
 feature: Administration & Configuration
 role: Admin
 exl-id: 535c28c7-179d-4edc-b140-880b9dfe1d59
-source-git-commit: 484971ab0fcd07205935c0fef3ea1484f40c3e96
+TQID: https://experienceleague.adobe.com/DdNQ81TpmyIRuPkmy4OIOq43CXwaMtm-uH2HtPjdx10
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+subfeature_v2: id: c011fe9c-b94b-4a88-93d8-f2acece55112id: cd7b6938-5837-4ee0-9790-5840997133d9id: cf6b8469-14d0-4c0e-90ee-fb54066a035eid: faed1c89-faf7-4df1-910d-a88263e03b15id: fc9c2184-9102-403f-bd6c-0055021e4bea
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '847'
-ht-degree: 63%
+source-wordcount: 873
+ht-degree: 61%
 
 ---
 
@@ -22,9 +28,9 @@ Aggiungere utenti e gestirne le autorizzazioni in [!DNL Adobe Admin Console] per
 >
 >Per verificare se la tua organizzazione dispone di una licenza di [!UICONTROL Standard] o [!UICONTROL Premium], fai clic sul collegamento [!UICONTROL Administration] nella parte superiore dell&#39;interfaccia utente di [!DNL Target].
 >
->* **[!DNL Target]&#x200B;[!UICONTROL Standard] Clienti**: se è presente la scheda [!UICONTROL Users] ([!UICONTROL Administration > Users]) (e non la scheda **[!UICONTROL Properties]**), la tua organizzazione dispone di una licenza [!DNL Target] [!UICONTROL Standard]. I clienti [!DNL Target] [!UICONTROL Standard] devono seguire le istruzioni riportate in questo articolo per aggiungere utenti e assegnare autorizzazioni in [!DNL Adobe Admin Console].
+>* **[!DNL Target][!UICONTROL Standard] Clienti**: se è presente la scheda [!UICONTROL Users] ([!UICONTROL Administration > Users]) (e non la scheda **[!UICONTROL Properties]**), la tua organizzazione dispone di una licenza [!DNL Target] [!UICONTROL Standard]. I clienti [!DNL Target] [!UICONTROL Standard] devono seguire le istruzioni riportate in questo articolo per aggiungere utenti e assegnare autorizzazioni in [!DNL Adobe Admin Console].
 >
->* Clienti Premium **[!DNL Target]**: se sono presenti le schede [!UICONTROL Users] e [!UICONTROL Properties] ([!UICONTROL Administration > Properties]), la tua organizzazione dispone di una licenza Premium [!DNL Target]. I clienti [!DNL Target] Premium devono seguire le istruzioni contenute in [Enterprise User Permissions](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) (Autorizzazioni utente di Enterprise) e [Configure enterprise permissions](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md) (Configurazione delle autorizzazioni Enterprise) per aggiungere utenti e assegnare le autorizzazioni in [!DNL Adobe Admin Console].
+>* Clienti Premium **[!DNL Target]**: se sono presenti le schede [!UICONTROL Users] e [!UICONTROL Properties] ([!UICONTROL Administration > Properties]), la tua organizzazione dispone di una licenza Premium [!DNL Target]. [!DNL Target] I clienti Premium devono seguire le istruzioni contenute in [Autorizzazioni utente Enterprise](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) e [Configurare le autorizzazioni Enterprise](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md) per aggiungere utenti e assegnare le autorizzazioni in [!DNL Adobe Admin Console].
 >
 >Per informazioni dettagliate su come gestire utenti e autorizzazioni, consulta [Gestione di prodotti e profili di prodotto](https://helpx.adobe.com/it/enterprise/using/manage-products-and-profiles.html) nella *guida utente di Enterprise &amp; Teams*.
 
@@ -113,4 +119,4 @@ Finalità di apprendimento:
 >
 >L&#39;interfaccia utente del menu [!DNL Target] [!UICONTROL Administration] (in precedenza [!UICONTROL Setup]) è stata riprogettata per fornire prestazioni migliori, ridurre il tempo di manutenzione necessario per il rilascio di nuove funzionalità e migliorare l&#39;esperienza utente nel prodotto. Le informazioni contenute nel video seguente sono generalmente corrette; tuttavia, le opzioni potrebbero trovarsi in punti leggermente diversi. I video aggiornati verranno pubblicati a breve.
 
->[!VIDEO](https://video.tv.adobe.com/v/3421732?captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/19463/)

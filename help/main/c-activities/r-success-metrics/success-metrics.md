@@ -4,9 +4,13 @@ description: Scopri le metriche di successo che ti aiutano a determinare il succ
 title: Cosa Sono Le Metriche Di Successo?
 feature: Success Metrics
 exl-id: 38d5314d-4950-4106-a058-0d221faf5a24
-source-git-commit: a34d40bef584bfa941731df718cb402c658f5d28
+TQID: https://experienceleague.adobe.com/utsuikYtBrKHv0bbdIu1KmlFyjXMgoC-2yaOP3-QJr8
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: c93393a4-e558-47e1-992e-c91ed4d480ce
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5520579-b31f-4df7-9281-f0d9f91e2edcid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '1362'
+source-wordcount: 1374
 ht-degree: 22%
 
 ---
@@ -51,7 +55,7 @@ Le metriche di successo scelte per l’attività sono disponibili nelle impostaz
 
 Alcune metriche, come [!UICONTROL Custom Scoring] e [!UICONTROL Revenue Per Visitor], richiedono un&#39;implementazione personalizzata che trasmette informazioni, come i totali degli ordini e gli ID degli ordini.
 
-## Impostazioni avanzate  {#section_7CE95A2FA8F5438E936C365A6D43BC5B}
+## Impostazioni avanzate {#section_7CE95A2FA8F5438E936C365A6D43BC5B}
 
 Con le impostazioni avanzate puoi gestire il modo in cui viene misurato il successo. Le opzioni includono l’aggiunta delle dipendenze, la scelta di mantenere l’utente nell’attività o rimuoverlo e se contare la metrica una volta per partecipante o su ogni impression.
 

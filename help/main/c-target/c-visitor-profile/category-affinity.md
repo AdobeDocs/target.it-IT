@@ -4,9 +4,13 @@ description: Scopri l'affinità tra categorie in [!DNL Adobe Target] che acquisi
 title: Che Cos’È L’Affinità Tra Categorie?
 feature: Audiences
 exl-id: 9478a7fb-e4b5-46d9-be73-b72cb99c3e5e
-source-git-commit: 80481a149d436f13bd510c4c4287d447799afbb4
+TQID: https://experienceleague.adobe.com/B5H-MhD005gmDbRErDOmfifwk-WIsOubWUYpQagRKgU
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '865'
+source-wordcount: 867
 ht-degree: 56%
 
 ---

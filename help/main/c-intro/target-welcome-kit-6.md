@@ -4,9 +4,12 @@ description: Impara dagli errori commessi da altri utenti, in modo da non ripete
 title: Quali sono gli errori più comuni quando si utilizza  [!DNL Target]  e come evitarli?
 feature: Overview
 exl-id: 17f379bd-81d7-4f4e-b08d-aee42fe5e81f
-source-git-commit: 4564e0b95bbd19f20c75e5e83d452d12a5403083
+TQID: https://experienceleague.adobe.com/AKPsKnKLbro9zbfYTwUXvSq9MJ0ObQoWWHkPH6PYGos
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '399'
+source-wordcount: 400
 ht-degree: 89%
 
 ---

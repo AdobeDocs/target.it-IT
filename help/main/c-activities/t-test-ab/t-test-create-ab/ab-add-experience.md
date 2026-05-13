@@ -4,10 +4,13 @@ description: Utilizza [!UICONTROL Visual Experience Composer] (VEC) per aggiunge
 title: Come si aggiungono esperienze in un’attività A/B?
 feature: A/B Tests
 exl-id: c0f1b5a7-07b0-46c2-97f3-95dcc0fcbe3d
-source-git-commit: eb7e892a85fa3952ffc22172085d421756d0dfb5
+TQID: https://experienceleague.adobe.com/7qEiUXkfMbPmtB2eMio0LztOYM3naHxG-WRQZOyMmlU
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '387'
-ht-degree: 28%
+source-wordcount: 387
+ht-degree: 33%
 
 ---
 
@@ -19,7 +22,7 @@ Per ulteriori dettagli sulle esperienze, vedi [Esperienze](/help/main/c-experien
 
 1. Dalla pagina **[!UICONTROL Experiences]** nel Compositore esperienza visivo, fai clic sull&#39;icona [!UICONTROL Add] ( ![icona Aggiungi](/help/main/assets/icons/Add.svg) ) nella parte superiore del riquadro [!UICONTROL Experiences].
 
-   Dopo aver creato una nuova attività, il Compositore esperienza visivo visualizza due schede a sinistra: Esperienza A e Esperienza B. L’esperienza A è l’esperienza di controllo. Puoi aggiungere più esperienze al test.
+   Dopo aver creato una nuova attività, il Compositore esperienza visivo visualizza due schede a sinistra: Esperienza A e Esperienza B. L’esperienza A è l’esperienza di controllo. È possibile aggiungere più esperienze al test.
 
 1. Seleziona gli elementi da modificare e apporta le modifiche desiderate.
 

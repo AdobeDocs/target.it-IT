@@ -4,9 +4,12 @@ description: Comprendere le modifiche introdotte nel Compositore esperienza visi
 title: Quali modifiche vengono introdotte nel nuovo Compositore esperienza visivo?
 feature: Visual Experience Composer (VEC)
 exl-id: 4c7a5657-93d9-4355-9d2b-c992b36bcb50
-source-git-commit: 2dabda04aabe720b28e31033052e2076e78d1376
+TQID: https://experienceleague.adobe.com/PZaKHKs1-GPnR1U-E0d3YQVNWhinmt9ctjOSnIbNrE0
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '873'
+source-wordcount: 884
 ht-degree: 0%
 
 ---

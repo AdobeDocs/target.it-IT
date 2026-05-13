@@ -4,10 +4,13 @@ description: Accedi al registro delle modifiche di un'attività in Adobe [!DNL T
 title: Come posso visualizzare un registro delle modifiche delle attività?
 feature: Activities
 exl-id: 72a901c1-4fba-4044-b72b-393cab56b936
-source-git-commit: f227e09052db168f99dc28f652c4f0ed5d220601
+TQID: https://experienceleague.adobe.com/YmadzVwbj4Hy1bk3Q7a0hp9oZ7-lSgl12ImQaEsiDwU
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '163'
-ht-degree: 1%
+source-wordcount: 180
+ht-degree: 12%
 
 ---
 
@@ -20,14 +23,14 @@ Per accedere alla pagina [!UICONTROL Change Log]:
 1. Fare clic su **[!UICONTROL Activities]** > selezionare l&#39;attività desiderata dall&#39;elenco.
 1. Fai clic su **[!UICONTROL Change Log]** nella barra a sinistra.
 
-L’azione eseguita, la data in cui è stata eseguita e l’utente che l’ha eseguita vengono elencati ogni volta che un’attività viene creata, aggiornata, attivata o disattivata. Sono elencate anche le modifiche alle destinazioni personalizzate e alle offerte utilizzate nell’attività.
+L’azione eseguita, la data in cui è stata eseguita e l’utente che l’ha eseguita vengono elencati ogni volta che un’attività viene creata, aggiornata, attivata o disattivata. Vengono inoltre elencate le modifiche apportate alle destinazioni e alle offerte personalizzate utilizzate nell&#39;attività.
 
-Aggiorna la pagina per visualizzare le modifiche di stato. È inoltre possibile elencare le azioni eseguite in ordine crescente o decrescente facendo clic sull&#39;intestazione di colonna [!UICONTROL Date].
+Aggiorna la pagina per visualizzare le modifiche dello stato. È inoltre possibile elencare le azioni eseguite in ordine crescente o decrescente facendo clic sull&#39;intestazione di colonna [!UICONTROL Date].
 
 ## API del registro di controllo di Target
 
-* [Revisioni: ottieni il registro di controllo in base al nome dell&#39;ultimo autore e a una marca temporale modificata dopo](https://developer.adobe.com/target/administer/admin-api/#tag/Revisions){target=_blank}
-* [Elenco changelog attività](https://developer.adobe.com/target/administer/admin-api/#tag/Activities/operation/getChangelog){target=_blank}
+* [Revisioni: ottiene il registro di controllo in base al nome dell’ultimo autore e a un timestamp dopo modificato](https://developer.adobe.com/target/administer/admin-api/#tag/Revisions){target=_blank}
+* [Registro modifiche attività elenco](https://developer.adobe.com/target/administer/admin-api/#tag/Activities/operation/getChangelog){target=_blank}
 
 
 

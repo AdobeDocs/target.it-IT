@@ -2,13 +2,16 @@
 keywords: Targeting;AP reports;automated personalization reports;activity level report;offer level report;offer detail report;faq
 description: Scopri come interpretare il rapporto di riepilogo di Automated Personalization in Adobe Target. Da questo rapporto puoi passare ai rapporti Segmenti automatizzati e Attributi importanti.
 title: Come si utilizzano i rapporti di riepilogo di Automated Personalization?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=it#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."
 feature: Reports
 exl-id: 2708eba4-72d5-4e6b-b01b-d27de03463b2
-source-git-commit: c1a71d1fb6fa9b5c14e22fa3199358a4594bb4a1
+TQID: https://experienceleague.adobe.com/Gj9Jo0NHnSxGE4BpvFbd0SudYjbkP4yrV3GFHWHNPjw
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '641'
-ht-degree: 11%
+source-wordcount: 653
+ht-degree: 13%
 
 ---
 
@@ -41,7 +44,7 @@ Si applicano comunque le regole standard di interpretazione dei risultati per il
 
 ## Report Offer Level (Livello di offerta) {#section_CAA6409879E349C6906E2BE8156D87A1}
 
-Il rapporto [!UICONTROL Offer Level] per l&#39;esperienza Foresta casuale confronta le prestazioni di ogni offerta applicata dall&#39;algoritmo con la stessa offerta distribuita in modo casuale (Controllo). Pertanto, in questa prospettiva, le offerte non devono essere confrontate tra loro.
+Il rapporto [!UICONTROL Offer Level] per l&#39;esperienza Foresta casuale confronta le prestazioni di ogni offerta applicata dall&#39;algoritmo con la stessa offerta distribuita in modo casuale (Controllo). Pertanto, non devi confrontare le offerte tra loro in questa visualizzazione.
 
 Fare clic sull&#39;algoritmo dell&#39;esperienza (Foresta casuale o controllo) per visualizzare il report [!UICONTROL Offer Level].
 

@@ -4,10 +4,15 @@ description: Scopri come funziona [!DNL Adobe Target] e informazioni su librerie
 title: Come funziona  [!DNL Target] ?
 feature: Overview
 exl-id: 8a93e061-0be7-4ecc-b511-2210094547f2
-source-git-commit: 85edad5c3adb3a7b01ee6d1eaf2c30c7596d5f92
+TQID: https://experienceleague.adobe.com/KZR3HivCPj0FVhB7fmt-WEjsniUsupTK1-52UqwtbKE
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eebid: c93393a4-e558-47e1-992e-c91ed4d480ce
+subfeature_v2: id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2: id: a09a5a04-e30b-4d55-b031-38e6f5ec86dbid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d095671a-1355-40aa-8b5f-06c33c68080bid: d3cdead0-685a-4489-9250-4bb709942f66id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eb30f47f-d87a-400f-8f78-63ce7979ff56id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '2214'
-ht-degree: 24%
+source-wordcount: 2363
+ht-degree: 25%
 
 ---
 
@@ -28,19 +33,19 @@ I punti chiave includono:
 
 Target si integra con i siti Web utilizzando [!DNL Experience Platform Web SDK] o at.js:
 
-* **[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/it/docs/target-dev/developer/client-side/aep/aep-web-sdk-overview){target=_blank}**: questa libreria JavaScript lato client consente a [!DNL Adobe Experience Cloud] clienti di interagire con vari servizi tramite [!DNL Experience Platform Edge Network]. [!DNL Adobe] consiglia ai nuovi clienti [!DNL Target] di implementare [!DNL Experience Platform Web SDK].
-* **[at.js](https://experienceleague.adobe.com/it/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/how-to-deployatjs){target=_blank}**: questa libreria di implementazione per [!DNL Target] migliora i tempi di caricamento delle pagine per le implementazioni web e offre opzioni migliori per le applicazioni a pagina singola. Aggiornato spesso con nuove funzionalità, [!DNL Adobe] consiglia a tutti gli utenti di [at.js di eseguire l&#39;aggiornamento alla versione più recente](https://experienceleague-review.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}.
+* **[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/aep/aep-web-sdk-overview){target=_blank}**: questa libreria JavaScript lato client consente a [!DNL Adobe Experience Cloud] clienti di interagire con vari servizi tramite [!DNL Experience Platform Edge Network]. [!DNL Adobe] consiglia ai nuovi clienti [!DNL Target] di implementare [!DNL Experience Platform Web SDK].
+* **[at.js](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/how-to-deployatjs){target=_blank}**: questa libreria di implementazione per [!DNL Target] migliora i tempi di caricamento delle pagine per le implementazioni web e offre opzioni migliori per le applicazioni a pagina singola. Aggiornato spesso con nuove funzionalità, [!DNL Adobe] consiglia a tutti gli utenti di [at.js di eseguire l&#39;aggiornamento alla versione più recente](https://experienceleague-review.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}.
 
 >[!NOTE]
 >
 >La libreria mbox.js è un&#39;implementazione legacy per [!DNL Target] e non è più supportata dopo il 31 marzo 2021. Esegui l’aggiornamento a [!UICONTROL Experience Platform Web SDK] (preferito) o alla versione più recente di at.js.
 
-Fai riferimento a [!UICONTROL Experience Platform Web SDK] o at.js in ogni pagina del sito. Ad esempio, aggiungi una di queste librerie all’intestazione globale. In alternativa, utilizzare [tag in Adobe Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/tags/home){target=_blank} per implementare [!DNL Target].
+Fai riferimento a [!UICONTROL Experience Platform Web SDK] o at.js in ogni pagina del sito. Ad esempio, aggiungi una di queste librerie all’intestazione globale. In alternativa, utilizzare [tag in Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/tags/home){target=_blank} per implementare [!DNL Target].
 
 Le risorse seguenti contengono informazioni dettagliate utili per implementare [!DNL Experience Platform Web SDK] o at.js:
 
-* [[!DNL Adobe Experience Platform Web SDK] Estensione](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/sdk/overview.html?lang=it){target=_blank}
-* [Implementare [!DNL Target] utilizzando [!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/it/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch){target=_blank}
+* [Estensione [!DNL Adobe Experience Platform Web SDK]](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/sdk/overview.html?lang=it){target=_blank}
+* [Implementa [!DNL Target] utilizzo [!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch){target=_blank}
 
 Ogni volta che un visitatore richiede una pagina ottimizzata per [!DNL Target], viene inviata una richiesta in tempo reale al sistema di targeting per determinare il contenuto da distribuire. Questa richiesta viene effettuata ed evasa ogni volta che viene caricata una pagina, gestita da attività ed esperienze controllate dagli addetti al marketing. Il contenuto è destinato ai singoli visitatori del sito, ottimizzando i tassi di risposta, i tassi di acquisizione e i ricavi. I contenuti personalizzati garantiscono che i visitatori rispondano, interagiscano o effettuino acquisti.
 
@@ -95,7 +100,7 @@ Per ulteriori informazioni, consulta [Test multivariato](/help/main/c-activities
 
 Le attività [!UICONTROL Recommendations] visualizzano automaticamente prodotti o contenuti che potrebbero interessare i clienti in base alla loro attività precedente o ad altri algoritmi. I consigli aiutano a indirizzare i clienti verso elementi rilevanti che altrimenti potrebbero non scoprire.
 
-Consulta [Raccomandazioni](/help/main/c-recommendations/recommendations.md#concept_7556C8A4543942F2A77B13A29339C0C0) per ulteriori informazioni.
+Consulta [Funzione Consigli](/help/main/c-recommendations/recommendations.md#concept_7556C8A4543942F2A77B13A29339C0C0) per ulteriori informazioni.
 
 <!--
 ## How [!DNL Target] counts server-call usage {#usage}
@@ -140,7 +145,7 @@ Ogni cluster Edge contiene tutte le informazioni necessarie per rispondere alle 
 
 Per ulteriori informazioni, consulta il white paper [Adobe Target Security Overview](https://www.adobe.com/content/dam/cc/it/security/pdfs/AdobeTargetSecurityOverview.pdf) (Panoramica sulla sicurezza di Adobe Target).
 
-[!DNL Target] è ospitato su data center di Adobe Adobe (propri o noleggiati) in tutto il mondo.
+[!DNL Target] è ospitato su data center di Adobe (propri o noleggiati) in tutto il mondo.
 
 Le posizioni del cluster centrale ospitano sia centri di raccolta dati che centri di elaborazione dati. Le posizioni del cluster Edge contengono solo centri di raccolta dati. Ogni suite di rapporti viene assegnata a un centro di elaborazione dati specifico.
 
@@ -172,7 +177,7 @@ Il servizio [!DNL Target Recommendations] è ospitato in un data center [!DNL Ad
 >
 >[!DNL Target] non dispone attualmente di un cluster Edge in Cina, limitando le prestazioni dei visitatori per [!DNL Target] clienti nella regione. Il firewall e l’assenza di cluster Edge possono influire sulle esperienze del sito, rallentando i tempi di rendering e caricamento delle pagine. Inoltre, gli addetti al marketing possono riscontrare una latenza durante l&#39;utilizzo dell&#39;interfaccia utente di creazione di [!DNL Target].
 
-Se necessario, puoi inserire nell’elenco Consentiti i cluster di Edge [!DNL Target]. Per ulteriori informazioni, consulta [elenco Consentiti nodi edge di Target](https://experienceleague.adobe.com/it/docs/target-dev/developer/implementation/privacy/allowlist-edges){target=_blank}.
+Se necessario, puoi inserire nell’elenco Consentiti i cluster di Edge [!DNL Target]. Per ulteriori informazioni, consulta [elenco Consentiti nodi edge di Target](https://experienceleague.adobe.com/en/docs/target-dev/developer/implementation/privacy/allowlist-edges){target=_blank}.
 
 ## Esperienza di utilizzo protetta {#concept_40A5E781D90A41E4955F80EA9E5F8F96}
 
@@ -191,14 +196,14 @@ Non vengono apportate modifiche alla pagina se il browser del visitatore non rie
 
 ## Test di usabilità per l’ottimizzazione per i motori di ricerca (SEO) {#concept_C0C865663CAB4251B66A1F250FD25E6A}
 
-[!DNL Adobe Target] si allinea alle linee guida dei motori di ricerca per i test. [!DNL Google] incoraggia i test degli utenti e afferma che A/B e [!UICONTROL Multivariate Testing] non danneggiano la classificazione dei motori di ricerca organica se vengono seguite determinate linee guida.
+Le funzionalità di test di [!DNL Adobe Target] sono conformi alle linee guida dei motori di ricerca. [!DNL Google] incoraggia i test degli utenti e afferma che A/B e [!UICONTROL Multivariate Testing] non danneggiano la classificazione dei motori di ricerca organica se vengono seguite determinate linee guida.
 
 Le funzionalità di test di [!DNL Adobe Target] sono conformi alle linee guida dei motori di ricerca.
 
 Per ulteriori informazioni, consulta le seguenti risorse di Google:
 
 * [Website testing and Google Search (Test di sito web e ricerca Google)](https://webmasters.googleblog.com/2012/08/website-testing-google-search.html)
-* [Esperimenti e cloaking](https://support.google.com/analytics/answer/12979939?hl)
+* [Esperimenti e Cloaking](https://support.google.com/analytics/answer/12979939?hl)
 
 
 Le linee guida sono state pubblicate su [Google Webmaster Central Blog](https://webmasters.googleblog.com/2012/08/website-testing-google-search.html). Anche se il post risale al 2012, rimane la dichiarazione più recente di [!DNL Google] sull&#39;argomento, e le linee guida sono ancora rilevanti.

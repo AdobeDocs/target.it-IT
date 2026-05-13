@@ -4,9 +4,13 @@ description: Acquisisci familiarità con l'interfaccia utente e trova collegamen
 title: Come si utilizza l’interfaccia di [!DNL Target] ?
 feature: Overview
 exl-id: ce4c72b2-b635-406b-9830-650816445a64
-source-git-commit: 3f7c81654d4f7982acf166b314cc332822cc87a6
+TQID: https://experienceleague.adobe.com/oO4N94r8-ZP3Et-P0b-31zl3apkEhqlJLJUUOQmFGAg
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eebid: c93393a4-e558-47e1-992e-c91ed4d480ce
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '1355'
+source-wordcount: 1373
 ht-degree: 23%
 
 ---
@@ -113,7 +117,7 @@ Per contrassegnare le singole notifiche come lette, passa il puntatore del mouse
 
 Le notifiche proattive ti avvisano in caso di interruzioni del servizio o interventi di manutenzione.
 
-Ulteriori informazioni sono disponibili nella pagina [Stato Adobe](https://status.adobe.com/it).
+Ulteriori informazioni sono disponibili nella pagina [Adobe Status](https://status.adobe.com/it).
 
 ### Configurare notifiche e annunci
 
@@ -163,7 +167,7 @@ Ora parliamo delle schede che si trovano lungo il lato sinistro dell&#39;intesta
 
 L&#39;elenco **[!UICONTROL Activities]** è la visualizzazione predefinita all&#39;apertura di [!DNL Target]. Puoi creare attività da questa pagina e gestire quelle esistenti.
 
-Per informazioni approfondite sui tipi di attività disponibili in [&#x200B; e per ulteriori informazioni sull&#39;interfaccia utente dell&#39;elenco &#x200B;](/help/main/c-activities/activities.md), vedere [!DNL Target]Attività[!UICONTROL Activity].
+Per informazioni approfondite sui tipi di attività disponibili in [!DNL Target] e per ulteriori informazioni sull&#39;interfaccia utente dell&#39;elenco [!UICONTROL Activity], vedere [Attività](/help/main/c-activities/activities.md).
 
 ## Tipi di pubblico
 
@@ -179,9 +183,9 @@ Fai clic sulla scheda **[!UICONTROL Offers]** per visualizzare l&#39;elenco [!UI
 
 Un’esperienza può essere un’offerta, un’immagine, un testo, un pulsante, un video, una combinazione di questi vari elementi su una pagina, un’intera pagina web o un set di pagine, ad esempio un percorso di acquisto o altra sequenza logica di pagine. Può essere anche la risposta di un assistente vocale o di uno script di servizio clienti, o addirittura un gusto personalizzato da un distributore di bevande. Puoi testare o personalizzare le esperienze nelle attività di [!DNL Target].
 
-Per informazioni approfondite sui tipi di offerta in [&#x200B; e per ulteriori informazioni sull&#39;interfaccia utente dell&#39;elenco &#x200B;](/help/main/c-experiences/c-manage-content/manage-content.md), vedere [!DNL Target]Offerte[!UICONTROL Offer].
+Per informazioni approfondite sui tipi di offerta in [!DNL Target] e per ulteriori informazioni sull&#39;interfaccia utente dell&#39;elenco [!UICONTROL Offer], vedere [Offerte](/help/main/c-experiences/c-manage-content/manage-content.md).
 
-## Recommendations
+## Consigli
 
 Fare clic sulla scheda **[!UICONTROL Recommendations]** per accedere a [!DNL Target Recommendations].
 
@@ -189,7 +193,7 @@ Fare clic sulla scheda **[!UICONTROL Recommendations]** per accedere a [!DNL Tar
 >
 >Le attività di [!UICONTROL Recommendations] sono disponibili come parte della soluzione [!DNL Target Premium]. [!UICONTROL Recommendations] attività non sono disponibili in [!DNL Target Standard] senza una licenza [!DNL Target Premium]. Per ulteriori informazioni, consulta [Target Premium](/help/main/c-intro/intro.md#premium) in *Introduzione a Target*.
 
-Le attività di [!UICONTROL Recommendations] visualizzano automaticamente prodotti o contenuti che potrebbero interessare i clienti in base alle loro attività precedenti o ad altri algoritmi. Le raccomandazioni aiutano a indirizzare i clienti verso elementi rilevanti di cui potrebbero non essere a conoscenza.
+Le attività di [!UICONTROL Recommendations] visualizzano automaticamente prodotti o contenuti che potrebbero interessare i clienti in base alle loro attività precedenti o ad altri algoritmi. I Consigli aiutano a indirizzare i clienti verso elementi rilevanti di cui potrebbero non essere a conoscenza.
 
 Consulta [Recommendations](/help/main/c-recommendations/recommendations.md) per informazioni approfondite su [!UICONTROL Recommendations] in [!DNL Target] e per ulteriori informazioni sull&#39;interfaccia utente di [!UICONTROL Recommendations].
 

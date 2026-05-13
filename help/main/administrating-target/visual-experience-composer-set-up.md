@@ -5,9 +5,15 @@ title: Come si configura il Compositore esperienza visivo?
 feature: Administration & Configuration
 role: Admin
 exl-id: cf6c9ece-6745-477e-81ac-a3e9a9fddb09
-source-git-commit: 12831d6584acc482db415629d7e70a18e39c47c2
+TQID: https://experienceleague.adobe.com/E1ck4-aG4txqaFLs3t3-8bN-BQIoY8stRASTRJfhZMY
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+subfeature_v2: id: b1d5cd6a-4ed3-43f6-9a52-2721acea1129id: c011fe9c-b94b-4a88-93d8-f2acece55112id: fc9c2184-9102-403f-bd6c-0055021e4bea
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: d095671a-1355-40aa-8b5f-06c33c68080bid: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '676'
+source-wordcount: 676
 ht-degree: 49%
 
 ---
@@ -55,9 +61,9 @@ Questa opzione è utile se, ad esempio:
 
 ### Generare istantanee delle esperienze nel diagramma del flusso di attività
 
-Attivando le istantanee delle esperienze, vengono generate miniature per le tue esperienze nel diagramma del flusso di lavoro delle attività. La disabilitazione delle istantanee potrebbe determinare prestazioni più veloci per alcuni utenti.
+Abilitando le istantanee delle esperienze, vengono generate miniature per le tue esperienze nel diagramma del flusso di lavoro delle attività. La disabilitazione delle istantanee potrebbe determinare prestazioni più veloci per alcuni utenti.
 
-## Configurazione di riquadri di visualizzazione per dispositivi mobili 
+## Configurazione di riquadri di visualizzazione per dispositivi mobili
 
 >[!NOTE]
 >

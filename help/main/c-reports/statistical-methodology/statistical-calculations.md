@@ -4,9 +4,12 @@ description: Scopri i calcoli statistici utilizzati nelle attività manuali [!UI
 title: Come posso ottenere informazioni sui calcoli statistici utilizzati nelle attività [!UICONTROL A/B Test]?
 feature: Reports
 exl-id: 5f7377b9-0567-4b6f-8968-4696b2088d0a
-source-git-commit: 18f8ccd3edfda635c3f47bd67ff0b7a516748fa8
+TQID: https://experienceleague.adobe.com/LEFFg6KjhxYM0jMRGOPcHwLzZ07SOBh-Faf3JK3Pfn4
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '1143'
+source-wordcount: 1137
 ht-degree: 2%
 
 ---
@@ -117,7 +120,7 @@ Dove *μ<sub>v</sub>* e *μ<sub>v0</sub>* sono le medie rispettivamente di *μ* 
 
 <p style="text-align:center;"><img width="150px" src="img/standard_error_diff.png"></p>
 
-Dove *<sup>2</sup><sub>v</sub>* e *Prodotti finiti<sup>2</sup><sub>v<sub>0</sub></sub>* sono le varianze di due esperienze **&#x200B; e *0<sub> rispettivamente e</sub>* N *v<sub> e</sub>* N *v<sub>0<sub> sono le dimensioni campione rispettivamente di</sub></sub>**&#x200B;e* 24&rbrace;0 *.<sub></sub>*
+Dove *<sup>2</sup><sub>v</sub>* e *Prodotti finiti<sup>2</sup><sub>v<sub>0</sub></sub>* sono le varianze di due esperienze ** e *0</sub>* rispettivamente e *N<sub>v</sub>* e *N<sub>v<sub>0</sub></sub>* sono le dimensioni campione rispettivamente di ** e *24}0</sub>*.<sub><sub>
 
 Per il test t di Welch, il grado di libertà è calcolato come segue:
 

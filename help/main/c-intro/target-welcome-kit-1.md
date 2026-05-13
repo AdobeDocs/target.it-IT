@@ -4,9 +4,12 @@ description: Avvia il programma di ottimizzazione e personalizzazione con Adobe 
 title: Come si inizia a utilizzare Target?
 feature: Overview
 exl-id: c7943c6d-03c9-439c-9e1a-1ad805c18073
-source-git-commit: 122484056e73f8f679312a3e776e623d905701d5
+TQID: https://experienceleague.adobe.com/trqV5-1-Fi8MRkvcnjDJPCgWnYXKP48JzzMpW8IpF44
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '380'
+source-wordcount: 380
 ht-degree: 91%
 
 ---

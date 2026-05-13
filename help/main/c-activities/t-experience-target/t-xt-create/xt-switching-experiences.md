@@ -4,10 +4,14 @@ description: Scopri come i visitatori possono passare da un’esperienza all’a
 title: I visitatori possono cambiare esperienze in un'attività [!UICONTROL Experience Targeting]?
 feature: Experience Targeting
 exl-id: 8d931764-8ba7-4eac-99db-60659086b8be
-source-git-commit: 3a44c05bea24c622292dd0b774f88f0c93be1d88
+TQID: https://experienceleague.adobe.com/4bBukCristluFUClhewMcSsNMTPjLjXEqM1QyyropKU
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '720'
-ht-degree: 43%
+source-wordcount: 723
+ht-degree: 41%
 
 ---
 
@@ -26,7 +30,7 @@ L’elenco seguente presenta solo alcuni scenari in cui i profili dei visitatori
 
 Per utilizzare queste funzionalità in [!DNL Target], è importante comprendere le seguenti informazioni mentre si lavora con [!UICONTROL Experience Targeting] attività:
 
-* **La priorità è controllata dall’ordine delle esperienze, dall’alto verso il basso.** Se un visitatore è idoneo per più di due tipi di pubblico, riceve contenuti dall&#39;esperienza con priorità più elevata.
+* **La priorità è controllata dall&#39;ordine delle esperienze, dall&#39;alto verso il basso.** Se un visitatore è idoneo per più di due tipi di pubblico, riceve contenuti dall’esperienza con priorità più elevata.
 * **I visitatori passano da un&#39;esperienza all&#39;altra in un&#39;attività [!UICONTROL Experience Targeting] se iniziano a qualificarsi per il pubblico di un&#39;esperienza a priorità più alta.**
 
   Ad esempio, nella seguente configurazione attività, un visitatore ha visitato il tuo sito web dagli Stati Uniti e poi si è recato in Germania, dove ha visitato il tuo sito web una seconda volta. Durante la prima visita, questo visitatore si è qualificato per l’Esperienza A (visitatori negli Stati Uniti). Dopo aver visitato il tuo sito web dalla Germania, lo stesso visitatore è passato all’Esperienza B (visitatore dalla Germania).

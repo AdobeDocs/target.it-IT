@@ -4,16 +4,20 @@ description: Scopri come creare tipi di pubblico personalizzati e salvarli nella
 title: Come Si Creano I Tipi Di Pubblico?
 feature: Audiences
 exl-id: 59057461-d958-4d38-9725-53aacbe1f7eb
-source-git-commit: 19d2b14f137fe4dbf95e9f9f9b84f80b93d1e281
+TQID: https://experienceleague.adobe.com/-t5UqbGCl2EwCyScCq1B8X9bWxQQYWSd0e7RBoUoYQg
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '524'
+source-wordcount: 525
 ht-degree: 48%
 
 ---
 
 # Crea tipi di pubblico in [!DNL Target]
 
-Creare tipi di pubblico personalizzati e salvarli nella libreria [!DNL Adobe Target] di [!UICONTROL Audiences] per utilizzarli nelle attività. Puoi anche copiare un pubblico esistente da modificare per crearne uno simile e combinare più tipi di pubblico.
+Creare tipi di pubblico personalizzati e salvarli nella libreria [!UICONTROL Audiences] di [!DNL Adobe Target] per utilizzarli nelle attività. Puoi anche copiare un pubblico esistente da modificare per crearne uno simile e combinare più tipi di pubblico.
 
 ## Panoramica sul pubblico
 

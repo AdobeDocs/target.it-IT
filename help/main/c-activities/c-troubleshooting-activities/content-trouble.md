@@ -4,10 +4,15 @@ description: Trova suggerimenti per risolvere eventuali problemi se nella pagina
 title: Come posso risolvere i problemi relativi alla distribuzione dei contenuti?
 feature: Activities
 exl-id: 887b7956-1d61-439a-8339-c150deb9a378
-source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
+TQID: https://experienceleague.adobe.com/nkaoqcuoqMm67AnEjSg6dCnFDy-jvlwvD1a6YeXTkwk
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: c93393a4-e558-47e1-992e-c91ed4d480ce
+subfeature_v2: id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '1622'
-ht-degree: 89%
+source-wordcount: 1663
+ht-degree: 86%
 
 ---
 
@@ -65,7 +70,7 @@ Sono disponibili i seguenti parametri:
 
 `https://www.mysite.com/page.html?mboxTrace=window&authorization=f543abf-0111-4061-9619-d41d665c59a6`
 
-L’output mostra informazioni dettagliate sul contenuto. mboxTrace mostra i dettagli della campagna o attività e sul profilo. Inoltre, fornisce un’istantanea del profilo prima dell’esecuzione e una di ciò che è stato modificato dopo l’esecuzione. In aggiunta, mostra quali campagne o attività sono state valutate per ogni posizione.
+L’output mostra informazioni dettagliate sul contenuto. mboxTrace mostra i dettagli della campagna o dell’attività e del profilo. Inoltre, fornisce un’istantanea del profilo prima dell’esecuzione e di ciò che è cambiato dopo l’esecuzione. In aggiunta, mostra quali campagne o attività sono state valutate per ogni posizione.
 
 Alcune delle informazioni includono ID di destinazione e di segmento associati e non associati:
 
@@ -74,7 +79,7 @@ Alcune delle informazioni includono ID di destinazione e di segmento associati e
 * **Unmatched** (nessuna corrispondenza): in questa chiamata la richiesta non era qualificata per i segmenti o le destinazioni specificati.
 * **Matched** (con corrispondenza): la richiesta era qualificata per i segmenti o le destinazioni specificati.
 
-**Utilizzo di mboxTrace su le pagine di consigli**: l’aggiunta di mboxTrace come parametro di richiesta nelle pagine con i consigli sostituisce la progettazione dei consigli nella pagina con una finestra dei dettagli mboxTrace, che visualizza informazioni approfondite sui consigli, tra cui:
+**Utilizzo di mboxTrace su le pagine di consigli**: l’aggiunta di mboxTrace come parametro di query nelle pagine con i consigli sostituisce la progettazione dei consigli nella pagina con una finestra dei dettagli mboxTrace, che visualizza informazioni approfondite sui consigli, tra cui:
 
 * Consigli restituiti e consigli richiesti
 * Chiave utilizzata, e se sta generando consigli
@@ -107,13 +112,13 @@ Per utilizzare mboxDebug, aggiungi un parametro mboxDebug alla fine dell’URL. 
 
 ## Adobe Experience Cloud Debugger {#section_A2798ED3A431409690A4BE08A1BFCF17}
 
-Il debugger di Adobe Experience Cloud facilita e velocizza la comprensione dell&#39;implementazione di Target. Puoi visualizzare rapidamente la configurazione della libreria, esaminare le richieste per verificare che i parametri personalizzati vengano passati correttamente, attivare la registrazione della console e disattivare tutte le richieste Target. Autenticati in Experience Cloud per utilizzare lo strumento MboxTrace ed esaminare le tue attività, i requisiti del pubblico e il profilo visitatore.
+Il debugger di Adobe Experience Cloud facilita e velocizza la comprensione dell&#39;implementazione di Target. Puoi visualizzare rapidamente la configurazione della libreria, esaminare le richieste per verificare che i parametri personalizzati vengano passati correttamente, attivare la registrazione della console e disattivare tutte le richieste Target. Autenticati in Experience Cloud per utilizzare lo strumento MboxTrace ed esaminare le tue attività, le qualificazioni del pubblico e il profilo visitatore.
 
 Per ulteriori informazioni, vedi i video di formazione seguenti:
 
-Per informazioni più dettagliate, consulta [Eseguire il debug di at.js utilizzando Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/target-debugging-atjs.html?lang=it){target=_blank}.
+Per informazioni più dettagliate, consulta [Eseguire il debug di at.js utilizzando Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/target-debugging-atjs.html){target=_blank}.
 
-## Gli articoli più venduti non compaiono in Recommendations {#section_3920C857270A406C80BE6CBAC8221ECD}
+## Gli articoli più venduti non compaiono nei consigli {#section_3920C857270A406C80BE6CBAC8221ECD}
 
 La chiamata *`SiteCatalyst: purchase`* non può essere utilizzata per i dati del traffico dell’algoritmo di acquisto. Utilizza al suo posto la chiamata *`orderConfirmPage`*.
 
@@ -206,12 +211,12 @@ I video seguenti contengono ulteriori informazioni sui concetti descritti in que
 
 ### Aggiungi estensione ![Icona esercitazione](/help/main/assets/tutorial.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/326674?captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/23114t2/)
 
 ### Debug di base per Adobe Target ![Icona tutorial](/help/main/assets/tutorial.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/326675?captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/23115t2/)
 
 ### Mbox Trace ![Icona Tutorial](/help/main/assets/tutorial.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/326676?captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/23113t2/)

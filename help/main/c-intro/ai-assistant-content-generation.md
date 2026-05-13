@@ -7,10 +7,13 @@ badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.c
 hide: true
 hidefromtoc: true
 exl-id: eb6f07d8-729e-4f94-ae7a-a054bf54b030
-source-git-commit: f6034e83564a9a386e21e4e57279c66cc3c94537
+TQID: https://experienceleague.adobe.com/a6sdpItjPqp-YDDfYFU0dBj-uAX1fNZ5cGPrc8wylx0
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2: id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 16fb7a1902ea76cab56a93fa141a32a3c6bc4467
 workflow-type: tm+mt
-source-wordcount: '762'
-ht-degree: 1%
+source-wordcount: 777
+ht-degree: 2%
 
 ---
 
@@ -59,7 +62,7 @@ Per generare testo coinvolgente utilizzando [!DNL AI Assistant]:
 
    * **Tono**: il tono del testo dovrebbe risuonare con il pubblico. Sia che si desideri utilizzare un suono informativo, emozionante, giocoso o persuasivo, [!DNL AI Assistant] può adattare il messaggio di conseguenza.
 
-     Le opzioni disponibili sono: [!UICONTROL None], [!UICONTROL Professional], [!UICONTROL Empathetic], [!UICONTROL Humorous], [!UICONTROL Exciting], [!UICONTROL Inspirational], [!UICONTROL Persuasive], [!UICONTROL Friendly], [!UICONTROL Formal], [!UICONTROL Apologetic], [!UICONTROL Assertive], [!UICONTROL &#x200B; Story Telling] e [!UICONTROL Conversational].
+     Le opzioni disponibili sono: [!UICONTROL None], [!UICONTROL Professional], [!UICONTROL Empathetic], [!UICONTROL Humorous], [!UICONTROL Exciting], [!UICONTROL Inspirational], [!UICONTROL Persuasive], [!UICONTROL Friendly], [!UICONTROL Formal], [!UICONTROL Apologetic], [!UICONTROL Assertive], [!UICONTROL  Story Telling] e [!UICONTROL Conversational].
 
 1. Utilizzare il dispositivo di scorrimento per scegliere la durata desiderata per il testo, da più breve a più lungo.
 
@@ -100,4 +103,4 @@ Il prompt e le varianti seguenti mostrano la potenza di [!DNL AI Assistant].
 
 ### Creare contenuti utilizzando l’Assistente AI per la generazione di contenuti
 
->[!VIDEO](https://video.tv.adobe.com/v/3434643/?captions=ita&learn=on">https://video.tv.adobe.com/v/3434643/?captions=ita&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3434635/?learn=on">https://video.tv.adobe.com/v/3434635/?learn=on)

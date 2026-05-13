@@ -4,10 +4,13 @@ description: Come si creano le cartelle nella libreria [!UICONTROL Offers]?
 title: Scopri come creare cartelle nella libreria [!UICONTROL Offers] per contenere offerte di codice e immagini e altre cartelle.
 feature: Experiences and Offers
 exl-id: 64d1a24a-5ce1-4f64-9ff2-1c2f13a112bb
-source-git-commit: e8201198dc6ac36e803153d5c6b345a30716204a
+TQID: https://experienceleague.adobe.com/Z-iggfiOB-GEAhHr-J-IpK6qD9T-TGoASkVwcVMP3oY
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '261'
-ht-degree: 4%
+source-wordcount: 262
+ht-degree: 7%
 
 ---
 
@@ -15,7 +18,7 @@ ht-degree: 4%
 
 Creare cartelle nella libreria [!DNL Adobe Target] [!UICONTROL Offer] per contenere offerte di codice e di immagini. Puoi anche creare cartelle per creare una struttura di sottocartelle.
 
-Il processo di creazione di cartelle per le offerte basate su codice e le offerte basate su immagini è leggermente diverso. Le sezioni seguenti contengono ulteriori informazioni.
+Il processo di creazione di cartelle per le offerte basate su codice e le offerte basate su immagini è leggermente diverso. Le sezioni che seguono contengono ulteriori informazioni.
 
 ## [!UICONTROL Code Offer] cartelle
 

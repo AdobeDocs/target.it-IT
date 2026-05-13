@@ -1,14 +1,19 @@
 ---
 keywords: entità;attributi di entità;passare informazioni a Recommendations;dati comportamentali;contatore dati;definire URL relativo;visualizzare livello di inventario;definire prezzo;definire margine di profitto;attributi personalizzati
 description: Scopri come utilizzare gli attributi di entità per trasmettere informazioni su prodotti o contenuti a  [!DNL Target] Recommendations.
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=it#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."
 title: Come si utilizzano gli attributi di entità?
 feature: Recommendations
 exl-id: 4ed5fad3-b8b6-4675-a741-9f85cf73fcf1
-source-git-commit: b6697eee5925cb8fa3b2fa2e107af0c617d30f94
+TQID: https://experienceleague.adobe.com/GXQOxQxTV0vTYsWy9Ky9wPNEqoRSAhIA5zlBd4Cr4Ec
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: c93393a4-e558-47e1-992e-c91ed4d480ce
+subfeature_v2: id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '1078'
-ht-degree: 48%
+source-wordcount: 1122
+ht-degree: 47%
 
 ---
 
@@ -27,11 +32,11 @@ Considera i seguenti aspetti:
 
 La maggior parte dei parametri predefiniti accetta un solo valore, con i nuovi valori che sovrascrivono i vecchi valori. Il parametro `categoryId` può accettare un elenco di valori delimitato da virgole per ogni categoria contenente quel prodotto. I nuovi valori `categoryId` non sovrascrivono quelli esistenti ma vengono aggiunti durante l’aggiornamento dell’entità (limite di 250 caratteri).
 
-In generale, se utilizzi at.js 1, la mbox delle informazioni di visualizzazione si presenta come l’esempio seguente.*x* con `mboxCreate`. Tutti gli attributi dei parametri di entità fanno distinzione tra maiuscole e minuscole.
+In generale, la mbox delle informazioni di visualizzazione è simile al seguente esempio se utilizzi at.js 1.*x* con `mboxCreate`. Tutti gli attributi dei parametri di entità fanno distinzione tra maiuscole e minuscole.
 
 >[!NOTE]
 >
->Se utilizzi at.js 2.*x*, `mboxCreate` (come utilizzato nell&#39;esempio seguente) non è più supportato. Per passare informazioni su prodotti o contenuti a [!DNL Recommendations] utilizzando at.js 2.*x*, utilizza [targetPageParams](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetpageparams.html?lang=it){target=_blank}. Ad esempio, consulta [Pianificare e implementare Recommendations](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=it){target=_blank}.
+>Se utilizzi at.js 2.*x*, `mboxCreate` (come utilizzato nell&#39;esempio seguente) non è più supportato. Per passare informazioni sul prodotto o sul contenuto a [!DNL Recommendations] utilizzando at.js 2.*x*, utilizza [targetPageParams](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetpageparams.html){target=_blank}. Ad esempio, consulta [Pianificare e implementare Recommendations](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}.
 
 ```javascript
 <div class="mboxDefault"></div><script language="JavaScript1.2"> 
@@ -183,7 +188,7 @@ Il margine di profitto o altro valore dell&#39;elemento.
 
 Esempio: `'entity.margin=1.00'`
 
-### entità.*personalizzato*
+### entità.*personalizzata*
 
 Supporta più valori (array JSON).
 

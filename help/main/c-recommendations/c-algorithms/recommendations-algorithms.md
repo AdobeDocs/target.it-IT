@@ -2,18 +2,22 @@
 keywords: algoritmi consigli;formazione modello;server modelli;distribuzione contenuti;basato su elementi;basato su utenti;basato su popolarità;basato su carrello;criteri personalizzati;recommendations algorithms;model training;model serving;content delivery;item-based;user-based;popularity-based;cart-based;custom criteria
 description: Scopri gli algoritmi utilizzati in [!DNL Target Recommendations], inclusi l'apprendimento dei modelli e il model serving.
 title: Dove posso scoprire la scienza alla base degli algoritmi di Recommendations di Target?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=it#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."
 feature: Recommendations
 mini-toc-levels: 2
 exl-id: c156952b-8eda-491d-a68e-d3d09846f640
-source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
+TQID: https://experienceleague.adobe.com/goYsorjFUweT4Aw0XvzQSeiqON7orDcLntZaJliqGl4
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eebid: c93393a4-e558-47e1-992e-c91ed4d480ce
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c4147b6e-073b-4d3c-9ab1-d60f2f4434efid: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '2739'
+source-wordcount: 2850
 ht-degree: 0%
 
 ---
 
-# La scienza alla base degli algoritmi di Recommendations di Target
+# La scienza alla base degli algoritmi della funzione Consigli di Target
 
 Descrizione dettagliata degli algoritmi utilizzati in [!DNL Adobe Target Recommendations], inclusi i dettagli logici e matematici dell&#39;apprendimento dei modelli e del processo di modellazione.
 
@@ -65,7 +69,7 @@ Il flusso logico dell’implementazione effettiva dell’algoritmo è mostrato n
 
 Di seguito sono riportati i dettagli di questi passaggi:
 
-* **Dati di input**: dati comportamentali, sotto forma di visualizzazioni e acquisti di visitatori raccolti quando [implementi Target](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=it){target=_blank} o da [Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md){target=_blank}.
+* **Dati di input**: dati comportamentali, sotto forma di visualizzazioni e acquisti di visitatori raccolti quando [implementi Target](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} o da [Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md){target=_blank}.
 
 * **Apprendimento del modello**:
 
@@ -73,7 +77,7 @@ Di seguito sono riportati i dettagli di questi passaggi:
    * **Calcolo della somiglianza tra elementi**: questo è il passaggio di calcolo principale: calcolo della somiglianza del rapporto di probabilità del registro tra tutte le coppie di elementi candidati e classificazione delle coppie di elementi in base a questo punteggio di somiglianza.
    * **Filtro non in linea**: verranno infine applicati eventuali altri filtri dinamici applicabili (ad esempio, esclusioni di categorie dinamiche). Dopo questo passaggio, i consigli precalcolati vengono memorizzati nella cache a livello globale per essere disponibili per il servizio.
 
-* **Server modelli**: il contenuto dei consigli viene distribuito dalla [!DNL Target]rete &quot;Edge&quot; globale di [&#128279;](/help/main/c-intro/how-target-works.md#concept_0AE2ED8E9DE64288A8B30FCBF1040934). Quando vengono effettuate richieste mbox a [!DNL Target] e viene determinato che il contenuto dei consigli deve essere recapitato alla pagina, la richiesta della [chiave elemento](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#keys) appropriata per l&#39;algoritmo dei consigli viene analizzata dalla richiesta o cercata dal profilo utente, e quindi utilizzata per recuperare i consigli calcolati nei passaggi precedenti. Ulteriori filtri dinamici vengono applicati in questo momento, prima che venga eseguito il rendering della [progettazione](/help/main/c-recommendations/c-design-overview/create-design.md) appropriata.
+* **Server modelli**: il contenuto dei consigli viene distribuito dalla [rete &quot;Edge&quot; globale di [!DNL Target]](/help/main/c-intro/how-target-works.md#concept_0AE2ED8E9DE64288A8B30FCBF1040934). Quando vengono effettuate richieste mbox a [!DNL Target] e viene determinato che il contenuto dei consigli deve essere recapitato alla pagina, la richiesta della [chiave elemento](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#keys) appropriata per l&#39;algoritmo dei consigli viene analizzata dalla richiesta o cercata dal profilo utente, e quindi utilizzata per recuperare i consigli calcolati nei passaggi precedenti. Ulteriori filtri dinamici vengono applicati in questo momento, prima che venga eseguito il rendering della [progettazione](/help/main/c-recommendations/c-design-overview/create-design.md) appropriata.
 
 ## Somiglianza dei contenuti
 
@@ -89,14 +93,14 @@ Sebbene gli aspetti relativi alla distribuzione dei modelli e dei contenuti degl
 
 Di seguito sono riportati i dettagli di questi passaggi:
 
-* **Dati di input**: come descritto in precedenza, questo algoritmo si basa esclusivamente sui dati del catalogo (acquisiti in [!DNL Target] tramite un [Feed catalogo, l&#39;API delle entità o dagli aggiornamenti nella pagina](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=it){target=_blank}.
+* **Dati di input**: come descritto in precedenza, questo algoritmo si basa esclusivamente sui dati del catalogo (acquisiti in [!DNL Target] tramite un [Feed catalogo, l&#39;API delle entità o dagli aggiornamenti nella pagina](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}.
 
 * **Apprendimento del modello**:
 
    * **Estrazione attributo**: dopo l&#39;applicazione di normali filtri statici, regole di catalogo ed esclusioni globali, questo algoritmo estrae i campi testuali pertinenti dallo schema di entità. [!DNL Target] utilizza automaticamente i campi nome, messaggio e categoria dagli attributi di entità e tenta di estrarre qualsiasi campo stringa dagli [attributi di entità](/help/main/c-recommendations/c-products/entity-attributes.md) personalizzati. Questo processo viene eseguito assicurandosi che la maggior parte dei valori per quel campo non sia analizzabile come numero, data o booleano.
    * **Rimozione stemming e stop-word**: per una corrispondenza più precisa della somiglianza del testo, è prudente rimuovere le parole &quot;stop&quot; molto comuni che non alterano in modo significativo il significato di un elemento (ad esempio, &quot;was&quot;, &quot;is&quot;, &quot;and&quot; e così via). Allo stesso modo, il termine stemming si riferisce al processo di riduzione delle parole con suffissi diversi alla loro parola principale, che ha un significato identico (ad esempio, &quot;connect&quot;, &quot;connect&quot; e &quot;connection&quot; hanno tutti la stessa parola principale: &quot;connect&quot;). [!DNL Target] utilizza lo stemmer Snowball. [!DNL Target] esegue prima il rilevamento automatico della lingua e può interrompere la rimozione delle parole per un massimo di 50 lingue e la creazione di stemming per 18 lingue.
    * Creazione di **n grammi**: dopo i passaggi precedenti, ogni parola viene considerata come un token. Il processo di combinazione di sequenze contigue di token in un singolo token è definito creazione di n grammi. Gli algoritmi di [!DNL Target] considerano fino a 2 grammi.
-   * **calcolo tf-idf**: il passaggio successivo prevede la creazione di vettori tf-idf per riflettere l&#39;importanza relativa dei token nella descrizione dell&#39;elemento. Per ogni token/termine t in un elemento i, in un catalogo D con D| elementi, il termine frequenza TF(t, i) viene calcolato per primo (il numero di volte in cui il termine appare nell&#39;elemento i), nonché la frequenza del documento DF(t, D). In sostanza, il numero di elementi in cui esiste il token. La misura tf-idf è quindi
+   * **calcolo tf-idf**: il passaggio successivo prevede la creazione di vettori tf-idf per riflettere l&#39;importanza relativa dei token nella descrizione dell&#39;elemento. Per ogni token/termine t in un elemento i, in un catalogo D con |D| elementi, il termine frequenza TF(t, i) viene calcolato per primo (il numero di volte che il termine appare nella voce i), nonché la frequenza del documento DF(t, D). In sostanza, il numero di elementi in cui esiste il token. La misura tf-idf è quindi
 
      ![Formula che mostra la misura tf-idf](assets/formula2.png)
 
@@ -127,7 +131,7 @@ La logica dei passaggi di apprendimento del modello e del punteggio è illustrat
 
 Di seguito sono riportati i dettagli di questi passaggi:
 
-* **Dati di input**: identico ai metodi di filtro collaborativo elemento-elemento. Gli algoritmi [!UICONTROL Both Recommended For You] e basati su carrello utilizzano dati comportamentali, sotto forma di visualizzazioni e acquisti di utenti raccolti quando [implementi Target](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=it){target=_blank} o da [Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md){target=_blank}.
+* **Dati di input**: identico ai metodi di filtro collaborativo elemento-elemento. Gli algoritmi [!UICONTROL Both Recommended For You] e basati su carrello utilizzano dati comportamentali, sotto forma di visualizzazioni e acquisti di utenti raccolti quando [implementi Target](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} o da [Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md){target=_blank}.
 
 * **Apprendimento del modello**:
 

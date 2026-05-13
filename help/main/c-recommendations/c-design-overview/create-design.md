@@ -2,13 +2,16 @@
 keywords: Progettazione consigli;creare progettazione;copia progettazione
 description: Scopri come creare una progettazione  [!DNL Target Recommendations]  utilizzando una progettazione predefinita o creando una progettazione personalizzata che si adatti al meglio al layout della pagina.
 title: Come si crea una progettazione in Recommendations?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=it#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."
 feature: Recommendations
 exl-id: 0f10ee9d-7210-4e02-9342-e4f85cf46e8c
-source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
+TQID: https://experienceleague.adobe.com/GLWcKaQGl6TmL9i7LYUiYepg6SkAjBtL-78-zlaWCTk
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '979'
-ht-degree: 19%
+source-wordcount: 1006
+ht-degree: 22%
 
 ---
 
@@ -48,7 +51,7 @@ Questa illustrazione mostra una progettazione personalizzata:
 
    Viene visualizzata la finestra di dialogo [!UICONTROL Create Design].
 
-1. Digitare **[!UICONTROL &#x200B; Name]** e un&#39;immagine di anteprima facoltativa da visualizzare nella scheda progettazione.
+1. Digitare **[!UICONTROL  Name]** e un&#39;immagine di anteprima facoltativa da visualizzare nella scheda progettazione.
 
    Quando si utilizza una progettazione predefinita, il nome della progettazione e la &quot;copia&quot; vengono visualizzati nel campo **[!UICONTROL Content Name]**. È possibile modificare il nome. È inoltre possibile selezionare un&#39;immagine da visualizzare nella scheda di progettazione.
 
@@ -56,11 +59,11 @@ Questa illustrazione mostra una progettazione personalizzata:
 
    Le progettazioni per consigli utilizzano il linguaggio di progettazione open-source Velocity. Le informazioni su Velocity sono disponibili all&#39;indirizzo [https://velocity.apache.org](https://velocity.apache.org) e in [Personalizzare una progettazione utilizzando Velocity](/help/main/c-recommendations/c-design-overview/customizing-a-template.md).
 
-   Una progettazione può essere HTML o non HTML. Per impostazione predefinita, le progettazioni di HTML sono racchiuse con un tag `<div>` per consentire il tracciamento dei clic in un ambiente Web. Le progettazioni non HTML sono per ambienti non web in cui non è possibile effettuare il tracciamento dei clic. Fare scorrere l&#39;interruttore [!UICONTROL HTML Design] in posizione &quot;off&quot; per utilizzare codice non HTML.
+   Una progettazione può essere HTML o non HTML. Per impostazione predefinita, le progettazioni di HTML sono racchiuse con un tag `<div>` per consentire il tracciamento dei clic in un ambiente Web. Le progettazioni non HTML sono per ambienti non web in cui non è possibile effettuare il monitoraggio dei clic. Fare scorrere l&#39;interruttore [!UICONTROL HTML Design] in posizione &quot;off&quot; per utilizzare codice non HTML.
 
    >[!NOTE]
    >
-   >Il numero massimo di entità a cui è possibile fare riferimento in una progettazione, tramite codifica fissa o cicli, è 99.
+   >Il numero massimo di entità a cui puoi fare riferimento in una progettazione, tramite codifica fissa o cicli, è 99.
 
 1. Fare clic su **[!UICONTROL Create]**.
 
@@ -320,4 +323,4 @@ Questo video contiene le seguenti informazioni:
 * Creare una progettazione personalizzata
 * Come fare riferimento alle variabili di visualizzazione nelle progettazioni
 
->[!VIDEO](https://video.tv.adobe.com/v/328805?captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/27687)

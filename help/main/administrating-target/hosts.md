@@ -1,13 +1,19 @@
 ---
-keywords: host;host;gruppo host;risoluzione dei problemi;best practice;ubox;reindirizzamenti;reindirizzare;whitelist;inserire nell'elenco Consentiti la blacklist;inserire nell'elenco Bloccati la blacklist;
+keywords: host;host;gruppo host;risoluzione dei problemi;best practice;ubox;reindirizzamenti;reindirizzare;whitelist;inserire nell'elenco Consentiti;blacklist;inserire nell'elenco Bloccati;host;hosts;host group;problem eshooting;best practice;ubox;redirect;whitelist;whitelist;;blacklist;
 description: Scopri come organizzare i siti web e gli ambienti di preproduzione per gestirli facilmente e per creare rapporti separati all’interno di Adobe Target.
 title: Cosa sono gli host e come li utilizzo?
 feature: Administration & Configuration
 role: Admin
 exl-id: 31c661c0-686d-440e-ad58-864fb853b1c4
-source-git-commit: 0ab5b7d7cbfaef86b9a045883f597900dba72416
+TQID: https://experienceleague.adobe.com/xgqNVseu3l-0JjsJuUp74zkyYDAs3klz1YllL64vHWo
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: c93393a4-e558-47e1-992e-c91ed4d480ceid: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+subfeature_v2: id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '1029'
+source-wordcount: 1043
 ht-degree: 17%
 
 ---
@@ -20,7 +26,7 @@ L’obiettivo principale della gestione host è quello di garantire che nessun c
 
 Un host è qualsiasi dominio da cui viene effettuata una richiesta [!DNL Target]. In un sito Web è in genere la proprietà `location.hostname` dell&#39;URL che effettua la richiesta [!DNL Target].
 
-Per impostazione predefinita, [!DNL Target] non limita un host in grado di effettuare [!DNL Target] richieste e ricevere [!DNL Target] risposte. Quando nuovi host effettuano richieste, queste funzionano automaticamente. Questo processo consente anche di eseguire test su domini diversi che non conosci o che non puoi prevedere. Se si desidera ignorare questo comportamento predefinito, è possibile impostare un inserisco nell&#39;elenco Consentiti di o di elenco Bloccati per limitare quali host funzionano con [!DNL Target].
+Per impostazione predefinita, [!DNL Target] non limita un host in grado di effettuare [!DNL Target] richieste e ricevere [!DNL Target] risposte. Quando nuovi host effettuano richieste, queste funzionano automaticamente. Questo processo consente anche di eseguire test su domini diversi che non conosci o che non puoi prevedere. Se si desidera ignorare questo comportamento predefinito, è possibile impostare un inserisco nell&#39;elenco Consentiti di o di per limitare gli host che funzionano con [!DNL Target].
 
 {{permissions-update}}
 
@@ -63,9 +69,9 @@ Per ordinare l&#39;elenco [!UICONTROL Hosts], fare clic su un&#39;intestazione d
 
 Per cercare nell&#39;elenco [!UICONTROL Hosts], digitare un termine di ricerca nella casella [!UICONTROL Search Hosts].
 
-## Inserire nell&#39;elenco Consentiti Creare che specificano gli host autorizzati a inviare [!DNL Target] richieste a [!DNL Target]. {#allowlist}
+## Creare che specificano gli host autorizzati per l&#39;invio di [!DNL Target] richieste a [!DNL Target]. {#allowlist}
 
-È possibile creare un inserisco nell&#39;elenco Consentiti di che specifichi gli host (domini) autorizzati a inviare [!DNL Target] richieste a [!DNL Target]. Tutti gli altri host che generano richieste ricevono una risposta di errore di autorizzazione commentata. Per impostazione predefinita, qualsiasi host che contiene una richiesta [!DNL Target] si registra con [!DNL Target] nell&#39;ambiente [!UICONTROL Production] e ha accesso a tutte le attività attive e approvate. Se questo approccio non è desiderato, è invece possibile utilizzare il inserisco nell&#39;elenco Consentiti di per registrare host specifici idonei a effettuare [!DNL Target] richieste e a ricevere il contenuto di [!DNL Target]. Tutti gli host continuano a essere visualizzati nell&#39;elenco [!UICONTROL Hosts] e gli ambienti possono ancora essere utilizzati per raggruppare questi host e assegnare livelli diversi a ciascuno, ad esempio se l&#39;host può visualizzare le attività attive e/o inattive.
+È possibile creare un elenco Consentiti di che specifichi gli host (domini) autorizzati a inviare [!DNL Target] richieste a [!DNL Target]. Tutti gli altri host che generano richieste ricevono una risposta di errore di autorizzazione commentata. Per impostazione predefinita, qualsiasi host che contiene una richiesta [!DNL Target] si registra con [!DNL Target] nell&#39;ambiente [!UICONTROL Production] e ha accesso a tutte le attività attive e approvate. Se questo approccio non è desiderato, è invece possibile utilizzare il inserisco nell&#39;elenco Consentiti di per registrare host specifici idonei a effettuare [!DNL Target] richieste e a ricevere il contenuto di [!DNL Target]. Tutti gli host continuano a essere visualizzati nell&#39;elenco [!UICONTROL Hosts] e gli ambienti possono ancora essere utilizzati per raggruppare questi host e assegnare livelli diversi a ciascuno, ad esempio se l&#39;host può visualizzare le attività attive e/o inattive.
 
 Per creare un inserisco nell&#39;elenco Consentiti di:
 
@@ -85,7 +91,7 @@ Se viene effettuata una richiesta [!DNL Target] su un host non autorizzato, la c
 
 >[!IMPORTANT]
 >
->**Best practice per la sicurezza**: se utilizzi la funzionalità ubox di [!DNL Target], questo inserisco nell&#39;elenco Consentiti controlla anche l&#39;elenco di domini a cui i tuoi [redirector](https://experienceleague.adobe.com/docs/target-dev/developer/implement-email/working-with-redirectors.html?lang=it){target=_blank} possono accedere. Assicurati di aggiungere tutti i domini a cui desideri reindirizzare quando utilizzi ubox come parte dell’implementazione. Se il inserisco nell&#39;elenco Consentiti di viene lasciato non specificato, [!DNL Adobe] non è in grado di verificare gli URL di reindirizzamento e di proteggere da potenziali reindirizzamenti dannosi.
+>**Best practice per la sicurezza**: se utilizzi la funzionalità ubox di [!DNL Target], questo inserisco nell&#39;elenco Consentiti di protezione controlla anche l&#39;elenco dei domini a cui i tuoi [redirector](https://experienceleague.adobe.com/docs/target-dev/developer/implement-email/working-with-redirectors.html){target=_blank} possono accedere. Assicurati di aggiungere tutti i domini a cui desideri reindirizzare quando utilizzi ubox come parte dell’implementazione. Se il inserisco nell&#39;elenco Consentiti di viene lasciato non specificato, [!DNL Adobe] non è in grado di verificare gli URL di reindirizzamento e di proteggere da potenziali reindirizzamenti dannosi.
 >
 >Il inserisco nell&#39;elenco Consentiti di ha la precedenza sugli ambienti. Cancella tutti gli host prima di utilizzare la funzione di inserisce nell&#39;elenco Consentiti di, quindi nell’elenco degli host vengono visualizzati solo gli host consentiti dal inserisco nell&#39;elenco Consentiti di. A questo punto puoi spostare gli host nell’ambiente desiderato.
 

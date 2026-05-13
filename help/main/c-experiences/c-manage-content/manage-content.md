@@ -4,9 +4,12 @@ description: Scopri come gestire in modo efficiente le offerte di codice e immag
 title: Come posso gestire le offerte di codice e immagini?
 feature: Experiences and Offers
 exl-id: d8c24656-64d6-4a4b-a5f2-bcde57180007
-source-git-commit: f034aba7fe4f54b937dee0846140af140052694c
+TQID: https://experienceleague.adobe.com/A8ZLHW-FrWHGPJR7P-mhl2pO6SPoDc--LWpFEjtQzBY
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '812'
+source-wordcount: 820
 ht-degree: 7%
 
 ---
@@ -28,7 +31,7 @@ La libreria [!UICONTROL Offers] fornisce una panoramica di tutte le offerte di c
 | Barra di navigazione a sinistra | Passare dalla visualizzazione di [!UICONTROL Code Offers] o [!UICONTROL Image Offers]. |
 | [!UICONTROL Show Folders] / [!UICONTROL Hide Folders]<P>![Icona Mostra/Nascondi filtri](/help/main/assets/icons/RailLeft.svg) | Fai clic sull&#39;icona **[!UICONTROL Show Folders]** o **[!UICONTROL Hide Folders]** per visualizzare o meno la struttura delle cartelle delle offerte.<P>Per ulteriori informazioni, consulta [Creare cartelle di offerta](/help/main/c-experiences/c-manage-content/create-content-folder.md). |
 | Icona [!UICONTROL Show filters]<P>![Icona Mostra filtri](/help/main/assets/icons/Filter.svg) | Fai clic sull&#39;icona **[!UICONTROL Show filters]** per filtrare le offerte in base a [!UICONTROL Type], [!UICONTROL Source] e [!UICONTROL AEM Type].<P>Per ulteriori informazioni, vedere [Applica filtri all&#39;elenco delle offerte](#filters) di seguito. |
-| Cerca campo | Utilizzare i campi **[!UICONTROL Search in]** per trovare rapidamente un&#39;offerta o per ridurre il numero di offerte visualizzate nella libreria [!UICONTROL Offers]. È possibile eseguire ricerche per [!UICONTROL Offer Name], [!UICONTROL AEM Paths] o [!UICONTROL AEM Tags]. Le opzioni di ricerca sono persistenti in sessione. |
+| Cerca campi | Utilizzare i campi **[!UICONTROL Search in]** per trovare rapidamente un&#39;offerta o per ridurre il numero di offerte visualizzate nella libreria [!UICONTROL Offers]. È possibile eseguire ricerche per [!UICONTROL Offer Name], [!UICONTROL AEM Paths] o [!UICONTROL AEM Tags]. Le opzioni di ricerca sono persistenti in sessione. |
 | [!UICONTROL Create Folder] | Fare clic su **[!UICONTROL Create Folder]** per creare cartelle nella libreria [!UICONTROL Offer] in modo che contengano offerte di codice, offerte di immagini e altre cartelle per creare una struttura di sottocartelle.<P>Per ulteriori informazioni, consulta [Creare cartelle di offerta](/help/main/c-experiences/c-manage-content/create-content-folder.md). |
 | [!UICONTROL [!UICONTROL Create Offer]] | Fai clic su **[!UICONTROL Create Offer]** per creare un&#39;offerta.<P>Per ulteriori informazioni sulla creazione dei vari tipi di offerta, consulta: <ul><li>Offerta HTML</li><li>[Offerta JSON](/help/main/c-experiences/c-manage-content/create-json-offer.md)</li><li>[Offerta di reindirizzamento](/help/main/c-experiences/c-manage-content/offer-redirect.md)</li><li>[Offerta remota](/help/main/c-experiences/c-manage-content/about-remote-offers.md)</li></ul> |
 | Caselle di controllo per le operazioni in blocco<P>![Icona Operazioni in blocco](/help/main/assets/icons/Rectangle.svg) | Fare clic sulle caselle di controllo [!UICONTROL Bulk Operations] per eseguire operazioni in blocco su tutte le offerte o sulle offerte selezionate.<P>Per un elenco delle azioni disponibili (a seconda delle autorizzazioni e dello stato dell&#39;offerta), consulta [Eseguire azioni rapide](#quick-actions) di seguito. |

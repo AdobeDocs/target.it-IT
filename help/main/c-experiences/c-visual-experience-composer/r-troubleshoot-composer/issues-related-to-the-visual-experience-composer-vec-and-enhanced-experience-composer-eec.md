@@ -1,12 +1,17 @@
 ---
-keywords: Targeting;compositore esperienza visivo;whitelist;whitelist;lista bianca;inserisco nell'elenco Consentiti esperienza visivo;elenco consentiti;compositore esperienza visivo avanzato;vec;risoluzione dei problemi compositore esperienza visivo;risoluzione dei problemi;compositore esperienza avanzato;tls;tls 1.2
+keywords: Targeting;compositore esperienza visivo;whitelist;whitelist;compositore;elenco consentiti;compositore esperienza visivo avanzato;vec;risoluzione dei problemi compositore esperienza visivo;risoluzione dei problemi;eec;esperienza avanzata;tls;tls 1.2
 description: Scopri come risolvere i problemi che a volte si verificano nel  [!DNL Target] [!UICONTROL Visual Experience Composer] (VEC) e nel [!UICONTROL Enhanced Experience Composer] (EEC) in determinate condizioni.
 title: Come posso risolvere i problemi relativi a [!UICONTROL Visual Experience Composer] e [!UICONTROL Enhanced Experience Composer]?
 feature: Visual Experience Composer (VEC)
 exl-id: d829cd63-950f-4bb4-aa58-0247f85de383
-source-git-commit: ef5df0ae37ca1d07c0e51c06ed78739b2d2983fc
+TQID: https://experienceleague.adobe.com/4v7Qe-Yzjke-GceUSRDO2SMZGkxvrkdsSXQt8TR-bic
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: c93393a4-e558-47e1-992e-c91ed4d480ce
+subfeature_v2: id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: d095671a-1355-40aa-8b5f-06c33c68080bid: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '1181'
+source-wordcount: 1202
 ht-degree: 32%
 
 ---
@@ -65,14 +70,14 @@ Come soluzione alternativa, puoi aggiungere all’esperienza una pagina con l’
 
 +++
 
-## Quando si tenta di modificare una pagina, compare solo un’icona che ruota anziché la pagina. (Compositore esperienza visivo e Compositore esperienza avanzato)  {#section_313001039F79446DB28C70D932AF5F58}
+## Quando si tenta di modificare una pagina, compare solo un’icona che ruota anziché la pagina. (Compositore esperienza visivo e Compositore esperienza avanzato) {#section_313001039F79446DB28C70D932AF5F58}
 
 +++Dettagli
 Questa situazione può verificarsi se l’URL contiene un carattere #. Per risolvere il problema, passa alla modalità [!UICONTROL Browse] nel Compositore esperienza visivo o Compositore esperienza avanzato, quindi torna alla modalità [!UICONTROL Compose]. L’icona che ruota scompare e la pagina viene caricata correttamente.
 
 +++
 
-## Le intestazioni Content Security Policy (CSP) bloccano le librerie [!DNL Target] nel sito Web. (Compositore esperienza visivo e Compositore esperienza avanzato)  {#section_89A30C7A213D43BFA0822E66B482B803}
+## Le intestazioni Content Security Policy (CSP) bloccano le librerie [!DNL Target] nel sito Web. (Compositore esperienza visivo e Compositore esperienza avanzato) {#section_89A30C7A213D43BFA0822E66B482B803}
 
 
 +++Dettagli
@@ -97,28 +102,28 @@ Per [!DNL Requestly], ogni volta che è necessario rimuovere le intestazioni, es
 
 +++
 
-## Il Compositore esperienza visivo o Compositore esperienza avanzato sembra non funzionare o non viene inizializzato quando si vuole modificare un&#39;attività già salvata. (Compositore esperienza visivo e Compositore esperienza avanzato)  {#section_5AC3BA8F8FBB451EA814F298D0645E54}
+## Il Compositore esperienza visivo o Compositore esperienza avanzato sembra non funzionare o non viene inizializzato quando si vuole modificare un&#39;attività già salvata. (Compositore esperienza visivo e Compositore esperienza avanzato) {#section_5AC3BA8F8FBB451EA814F298D0645E54}
 
 +++Dettagli
 Se il sito web è stato modificato all’esterno del Compositore esperienza visivo dopo la definizione dell’esperienza, i selettori sui quali sono state eseguite le azioni in precedenza non vengono trovati quando l’attività viene aperta per la modifica. La pagina apparentemente non funziona, senza che venga visualizzato alcun avviso.
 
 +++
 
-## Il Compositore esperienza visivo o Compositore esperienza avanzato non mostra i miei banner rotanti e altri contenuti che contengono JavaScript. (Compositore esperienza visivo e Compositore esperienza avanzato)  {#section_8B5BE6EB050B42D6A14A054724C41330}
+## Il Compositore esperienza visivo o Compositore esperienza avanzato non mostra i miei banner rotanti e altri contenuti che contengono JavaScript. (Compositore esperienza visivo e Compositore esperienza avanzato) {#section_8B5BE6EB050B42D6A14A054724C41330}
 
 +++Dettagli
 Per impostazione predefinita, il Compositore esperienza visivo blocca gli elementi di JavaScript. Se disattivi JavaScript, puoi utilizzare questi elementi. In base alla configurazione del sito, alcuni elementi potrebbero continuare a essere visualizzati in modo non corretto o rimanere non disponibili.
 
 +++
 
-## Alla modifica di un elemento della pagina, vengono modificati più elementi. (Compositore esperienza visivo e Compositore esperienza avanzato)  {#section_309188ACF34942989BE473F63C5710AF}
+## Alla modifica di un elemento della pagina, vengono modificati più elementi. (Compositore esperienza visivo e Compositore esperienza avanzato) {#section_309188ACF34942989BE473F63C5710AF}
 
 +++Dettagli
 Se lo stesso ID di elemento DOM è utilizzato in più elementi della pagina, la modifica di uno di questi elementi influenza tutti gli elementi con lo stesso ID. Per evitare il problema, è opportuno utilizzare ciascun ID solo una volta in ogni pagina. Si tratta di una best practice standard di HTML. Per ulteriori informazioni, vedere [Scenari di modifica delle pagine](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md#concept_A458A95F65B4401588016683FB1694DB).
 
 +++
 
-## Non sono in grado di modificare le esperienze per un sito non compatibile con iFrame. (Compositore esperienza visivo e Compositore esperienza avanzato)  {#section_9FE266B964314F2EB75604B4D7047200}
+## Non sono in grado di modificare le esperienze per un sito non compatibile con iFrame. (Compositore esperienza visivo e Compositore esperienza avanzato) {#section_9FE266B964314F2EB75604B4D7047200}
 
 +++Dettagli
 Questo problema può essere risolto abilitando [!UICONTROL Enhanced Experience Composer] (EEC). Fare clic su **[!UICONTROL Administation]** > **[!UICONTROL Visual Experience Composer]**, quindi selezionare la casella di controllo che abilita [!UICONTROL Enhanced Experience Composer]. Il Compositore esperienza avanzato utilizza un proxy gestito da [!DNL Adobe] per caricare la pagina per la modifica. Questo proxy consente la modifica su siti non compatibili con iFrame e la modifica su siti e pagine in cui non è stato ancora aggiunto il codice [!DNL Adobe Target]. Le attività non vengono fornite al sito fino all&#39;aggiunta del codice. Alcuni siti potrebbero non essere caricati tramite il Compositore esperienza avanzato. In questo caso, deseleziona questa opzione per caricare il Compositore esperienza avanzato tramite un iFrame.
@@ -129,14 +134,14 @@ Questo problema può essere risolto abilitando [!UICONTROL Enhanced Experience C
 
 +++
 
-## Desidero impostare i test sulle pagine per le quali non è stata ancora completata l&#39;implementazione di mbox/[!DNL Target]. (Compositore esperienza visivo e Compositore esperienza avanzato)  {#section_DE63BCCB5B124E10A71FA579B582A80A}
+## Desidero impostare i test sulle pagine per le quali non è stata ancora completata l&#39;implementazione di mbox/[!DNL Target]. (Compositore esperienza visivo e Compositore esperienza avanzato) {#section_DE63BCCB5B124E10A71FA579B582A80A}
 
 +++Dettagli
 Vedi “Non sono in grado di modificare le esperienze per un sito non compatibile con iFrame” più sopra.
 
 +++
 
-## Gli stili di testo grassetto e corsivo con [!UICONTROL Edit Text]/[!UICONTROL Edit HTML] o [!UICONTROL Change Text]/[!DNL Change HTML] non vengono visualizzati nella pagina. A volte il testo scompare dopo l&#39;applicazione di queste modifiche. (Compositore esperienza visivo e Compositore esperienza avanzato)  {#section_7A71D6DF41084C58B34C18701E8774E5}
+## Gli stili di testo grassetto e corsivo con [!UICONTROL Edit Text]/[!UICONTROL Edit HTML] o [!UICONTROL Change Text]/[!DNL Change HTML] non vengono visualizzati nella pagina. A volte il testo scompare dopo l&#39;applicazione di queste modifiche. (Compositore esperienza visivo e Compositore esperienza avanzato) {#section_7A71D6DF41084C58B34C18701E8774E5}
 
 +++Dettagli
 Se utilizzi **[!UICONTROL Edit Text]/[!UICONTROL Edit HTML]** nel Compositore esperienza visivo per [!UICONTROL A/B Test] o [!UICONTROL Experience Targeting] attività o **[!UICONTROL Change Text]/[!UICONTROL Change HTML]** per [!UICONTROL Automated Personalization] o [!UICONTROL Multivariate Test] attività per rendere il testo in grassetto o corsivo, questi stili potrebbero non essere applicati nella pagina o il testo potrebbe scomparire dalla pagina nel Compositore esperienza visivo. Ciò si verifica a causa del modo in cui l’editor Rich Text applica questi stili potrebbero interferire con il markup del sito web.
@@ -152,7 +157,7 @@ Se vedi questo problema:
 
 +++
 
-## Per le attività di personalizzazione automatizzata, lo scambio di immagini nel Compositore esperienza visivo e Compositore esperienza avanzato sembra non funzionare. (Compositore esperienza visivo e Compositore esperienza avanzato)  {#section_88AABFDFE6A3420299B0D508B12A3994}
+## Per le attività di personalizzazione automatizzata, lo scambio di immagini nel Compositore esperienza visivo e Compositore esperienza avanzato sembra non funzionare. (Compositore esperienza visivo e Compositore esperienza avanzato) {#section_88AABFDFE6A3420299B0D508B12A3994}
 
 +++Dettagli
 L&#39;aggiunta dell&#39;offerta di un immagine a una posizione prende la dimensione totale dello spazio immagine originale nel Compositore esperienza visivo e Compositore esperienza avanzato. Alla consegna, l&#39;immagine non viene espansa ed è mostrata così com&#39;è, quindi non c&#39;è impatto sulla consegna.

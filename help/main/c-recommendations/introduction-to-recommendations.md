@@ -2,13 +2,17 @@
 keywords: Recommendations;consigli;intro;introduzione;webinar;demo
 description: Scopri le attività Consigli in Adobe [!DNL Target] che consentono di visualizzare automaticamente contenuti che potrebbero interessare ai clienti in base alle precedenti attività dell’utente o ad altri algoritmi.
 title: Quali sono le attività Consigli?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=it#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."
 feature: Recommendations
 exl-id: bc4d9a46-ea21-4687-b8a0-7f2e1dc33ebf
-source-git-commit: fd0ae95b63b924471247ab7155363bf0ba1e617c
+TQID: https://experienceleague.adobe.com/6jmXI9CsdCnyyQrQXKzq5WF8OQPQSCbE2Zb8AnpUvks
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eebid: c93393a4-e558-47e1-992e-c91ed4d480ce
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c4147b6e-073b-4d3c-9ab1-d60f2f4434efid: e0eb8757-182f-49f3-94a4-1587d16f5094id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '2049'
-ht-degree: 86%
+source-wordcount: 2109
+ht-degree: 83%
 
 ---
 
@@ -63,7 +67,7 @@ Inizia con una strategia.
 
 ![Illustrazione che mostra la strategia per i consigli](/help/main/c-recommendations/assets/intro-5.png)
 
-* **Quali articoli vuoi consigliare?** Innanzitutto, pensa a quali articoli vorresti consigliare ai tuoi utenti. Potrebbe trattarsi di prodotti, video o contenuti.
+* **Quali elementi vuoi consigliare?** Innanzitutto, pensa a quali articoli vorresti consigliare a te. Potrebbe trattarsi di prodotti, video o contenuti.
 * **Dove vuoi mostrare i consigli?** Quindi, pensa a dove dovranno essere visibili i consigli. In linea generale, su quali canali (web, dispositivi mobili, negozio, chiosco e così via). In quali aree del percorso del cliente verranno inseriti i consigli? Su quali pagine del sito?
 * **Come determinare se i consigli sono efficaci?** Supponiamo di avere un’esperienza senza consigli e una con, oppure due tipi diversi di consigli. Come puoi determinare quale esperienza si è rivelata migliore per i clienti? Alcune metriche potrebbero essere più difficili di altre da misurare. Ad esempio, spesso è difficile risalire all’impatto dei consigli sul valore del ciclo di vita del cliente. Quindi è più facile ottenere una metrica meno astratta e più concreta, ad esempio ricavo per visita, valore medio dell’ordine o numero di clic. In alcuni casi, potresti essere interessato a ridurre una specifica metrica, ad esempio il numero di chiamate di assistenza.
 

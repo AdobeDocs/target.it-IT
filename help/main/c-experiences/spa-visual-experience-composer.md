@@ -4,10 +4,15 @@ description: Scopri come utilizzare il Compositore esperienza visivo per applica
 title: Come si utilizza il Compositore esperienza visivo per app a pagina singola?
 feature: Visual Experience Composer (VEC)
 exl-id: fd3dcfaa-e5c6-45a1-8229-9c206562e5b0
-source-git-commit: 5cd8cd0d25dea28f1dd46a59fdcaa4cfc48d9969
+TQID: https://experienceleague.adobe.com/SilMhoqEp7o5GvyO2vzBt83e8EmiULUvo14Y-E-PcJA
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eebid: c93393a4-e558-47e1-992e-c91ed4d480ceid: f7c7de77-382f-4f48-8b36-61a170f06d3d
+subfeature_v2: id: df62f171-ac37-440f-8f0f-f41a72ebdd34id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c18d9e03-ac7d-4811-9c92-3e92ddc70adeid: d3cdead0-685a-4489-9250-4bb709942f66id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 16fb7a1902ea76cab56a93fa141a32a3c6bc4467
 workflow-type: tm+mt
-source-wordcount: '3569'
-ht-degree: 64%
+source-wordcount: 3904
+ht-degree: 56%
 
 ---
 
@@ -25,17 +30,17 @@ Il Compositore esperienza visivo di Adobe Target per applicazioni a pagina singo
 
 Per spiegare ulteriormente cosa sono le visualizzazioni, navighiamo in questo ipotetico sito di e-commerce online implementato in React ed esploriamo alcune visualizzazioni di esempio. Fai clic sui collegamenti di seguito per aprire il sito in una nuova scheda del browser.
 
-**Collegamento: [Sito principale](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=it#/)**
+**Collegamento: [Sito principale](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/)**
 
 ![home page](/help/main/c-experiences/assets/home.png)
 
 Quando entriamo nella pagina home, notiamo subito un’immagine hero che promuove un’offerta di Pasqua e gli ultimi prodotti venduti sul sito. In questo caso, si può definire una visualizzazione come l’intera home page. Questo è utile da sapere, ma torneremo sull’argomento più avanti, nella sezione Implementazione delle visualizzazioni di Adobe Target.
 
-**Collegamento: [Sito Prodotti](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=it#/products)**
+**Collegamento: [Sito Prodotti](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products)**
 
 ![sito del prodotto](/help/main/c-experiences/assets/product-site.png)
 
-Interessati ai prodotti, decidiamo di fare clic sul collegamento Prodotti. Come con la home page, l’intero sito dei prodotti può essere definito come visualizzazione. Possiamo denominare questa visualizzazione &quot;products&quot; come nel nome del percorso `https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=it#/products`.
+Interessati ai prodotti, decidiamo di fare clic sul collegamento Prodotti. Come con la home page, l’intero sito dei prodotti può essere definito come visualizzazione. Possiamo denominare questa visualizzazione &quot;products&quot; come nel nome del percorso `https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products`.
 
 ![sito del prodotto 2](/help/main/c-experiences/assets/product-site-2.png)
 
@@ -45,7 +50,7 @@ All&#39;inizio di questa sezione, abbiamo definito visualizzazioni come l&#39;in
 
 Decidiamo di fare clic sul pulsante Carica altro per esplorare altri prodotti sul sito. In questo caso, l’URL del sito web non cambia. Tuttavia, una visualizzazione qui può rappresentare solo la seconda riga di prodotti visibili qui sopra. Possiamo chiamare questa visualizzazione “Pagina prodotti 2”.
 
-**Collegamento: [Estrazione](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=it#/checkout)**
+**Collegamento: [Estrazione](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/checkout)**
 
 ![pagina di checkout](/help/main/c-experiences/assets/checkout.png)
 
@@ -67,7 +72,7 @@ Ora che abbiamo capito cosa sono le visualizzazioni di Adobe Target, possiamo sf
 
    Scarica at.js 2.x tramite l&#39;interfaccia utente di Adobe Target disponibile in [!UICONTROL Administration > Implementation]. at.js 2.x può essere distribuito anche tramite tag in [Adobe Experience Platform](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch.html?lang=it){target=_blank}. Tuttavia, le estensioni Adobe Target non sono aggiornate e supportate al momento.
 
-1. Implementa la funzione più recente di at.js 2.x: [triggerView()](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/adobe-target-triggerview-atjs-2.html?lang=it){target=_blank} sui siti.
+1. Implementa la funzione più recente di at.js 2.x: [triggerView()](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/adobe-target-triggerview-atjs-2.html){target=_blank} sui siti.
 
    Dopo aver definito le visualizzazioni dell’applicazione a pagina singola in cui desideri eseguire un test A/B o XT, implementa la funzione `triggerView()` di at.js 2.x con le visualizzazioni passate come parametro. Questo consente agli esperti di marketing di utilizzare il Compositore esperienza visivo per progettare ed eseguire i test A/B e XT per queste visualizzazioni definite. Se la funzione `triggerView()` non è definita per tali visualizzazioni, il Compositore esperienza visivo non le rileva e, pertanto, gli addetti al marketing non possono utilizzarlo per progettare ed eseguire test A/B e XT.
 
@@ -75,13 +80,13 @@ Ora che abbiamo capito cosa sono le visualizzazioni di Adobe Target, possiamo sf
 
    | Parametro | Tipo | Obbligatorio | Convalida | Descrizione |
    | --- | --- | --- | --- | --- |
-   | viewName | Stringa | Sì | &#x200B;1. Senza spazi finali.<br>2. Non può essere vuoto.<br>3. Il nome della visualizzazione deve essere univoco per tutte le pagine.<br>4. **Avviso**: il nome della visualizzazione non deve iniziare o finire con &quot;`/`&quot;. Questo perché il cliente in genere estrae il nome della visualizzazione dal percorso URL. Per noi, &quot;home&quot; e &quot;`/home`&quot; sono diversi.<br>5. **Avviso**: non attivare la stessa visualizzazione in sequenza più volte con l&#39;opzione `{page: true}`. | Passa un nome qualsiasi come tipo di stringa che desideri rappresenti la tua visualizzazione. Questo nome della visualizzazione appare nel pannello [!UICONTROL Modifications] del Compositore esperienza visivo per consentire agli addetti al marketing di creare azioni ed eseguire le attività A/B e XT. |
+   | viewName | Stringa | Sì | &#x200B;1. Nessuno spazio finale.<br>2. Non può essere vuoto.<br>3. Il nome della visualizzazione deve essere univoco per tutte le pagine.<br>4. **Avviso**: il nome della visualizzazione non deve iniziare o finire con &quot;`/`&quot;. Questo perché il cliente in genere estrae il nome della visualizzazione dal percorso URL. Per noi, &quot;home&quot; e &quot;`/home`&quot; sono diversi.<br>5. **Avviso**: non attivare la stessa visualizzazione in sequenza più volte con l&#39;opzione `{page: true}`. | Passa un nome qualsiasi come tipo di stringa che desideri rappresenti la tua visualizzazione. Questo nome della visualizzazione appare nel pannello [!UICONTROL Modifications] del Compositore esperienza visivo per consentire agli addetti al marketing di creare azioni ed eseguire le attività A/B e XT. |
    | options | Oggetto | No |  |  |
-   | options > page | Booleano | No |  | **TRUE**: il valore predefinito della pagina è vero. Con `page=true`, si inviano notifiche ai server perimetrali per incrementare il conteggio delle impression.<br>**FALSE**: con `page=false`, non verranno inviate notifiche per incrementare il conteggio delle impression. Da utilizzare solo per eseguire nuovamente il rendering di un componente su una pagina con un’offerta. |
+   | options > page | Booleano | No |  | **TRUE**: il valore predefinito della pagina è vero. Con `page=true`, verranno inviate notifiche ai server Edge per incrementare il conteggio delle impression.<br>**FALSE**: con `page=false`, non verranno inviate notifiche per incrementare il conteggio delle impression. Da utilizzare solo per eseguire nuovamente il rendering di un componente su una pagina con un’offerta. |
 
    Passiamo ora ad alcuni esempi d&#39;uso su come richiamare la funzione `triggerView()` in React per la nostra ipotetica applicazione a pagina singola per e-commerce:
 
-   **Collegamento: [Sito principale](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=it#/)**
+   **Collegamento: [Sito principale](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/)**
 
    ![home-react-1](/help/main/c-experiences/assets/react1.png)
 
@@ -112,7 +117,7 @@ Ora che abbiamo capito cosa sono le visualizzazioni di Adobe Target, possiamo sf
    <Router history={hashHistory} onUpdate={targetView} >
    ```
 
-   **Collegamento: [Sito Prodotti](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=it#/products)**
+   **Collegamento: [Sito Prodotti](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products)**
 
    Ora vediamo un esempio un po&#39; più complicato. Diciamo che, in qualità di esperti di marketing, vorremmo personalizzare la seconda riga dei prodotti cambiando il colore dell’etichetta del prezzo in rosso dopo che un utente ha fatto clic sul pulsante Carica altro.
 
@@ -141,7 +146,7 @@ Ora che abbiamo capito cosa sono le visualizzazioni di Adobe Target, possiamo sf
    }
    ```
 
-   **Collegamento: [Estrazione](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=it#/checkout)**
+   **Collegamento: [Estrazione](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/checkout)**
 
    ![react checkout](/help/main/c-experiences/assets/react6.png)
 
@@ -206,8 +211,8 @@ Nella tabella seguente viene descritta ogni azione:
 | --- | --- |
 | Informazioni | Visualizza i dettagli dell’azione. |
 | Modifica | Ti consente di modificare direttamente le proprietà dell’azione. |
-| Clona | Clonare l&#39;azione in una o più visualizzazioni esistenti nel pannello [!UICONTROL Modifications] o in una o più visualizzazioni a cui si è passati nel Compositore esperienza visivo. L&#39;azione non deve necessariamente essere presente nel pannello [!UICONTROL Modifications].<br>**Nota**: dopo un&#39;operazione di clonazione, passa alla visualizzazione nel Compositore esperienza visivo tramite [!UICONTROL Browse] per verificare se l&#39;azione clonata è un&#39;operazione valida. Se non può essere applicata alla visualizzazione, viene visualizzato un errore. |
-| Sposta | Sposta l’azione in un evento di caricamento pagina o in un’altra visualizzazione già esistente nel pannello delle modifiche.<br>[!UICONTROL Page Load Event] - tutte le azioni corrispondenti all&#39;evento di caricamento pagina vengono applicate al caricamento iniziale della pagina dell&#39;applicazione Web.<br>**Nota** dopo un&#39;operazione di spostamento, passa alla visualizzazione nel Compositore esperienza visivo tramite Sfoglia per verificare che lo spostamento sia un&#39;operazione valida. Se non può essere applicata alla visualizzazione, viene visualizzato un errore. |
+| Clona | Clonare l&#39;azione in una o più visualizzazioni esistenti nel pannello [!UICONTROL Modifications] o in una o più visualizzazioni a cui si è passati nel Compositore esperienza visivo. L&#39;azione non deve necessariamente essere presente nel pannello [!UICONTROL Modifications].<br>**Nota**: dopo un&#39;operazione di clonazione, passare alla visualizzazione nel Compositore esperienza visivo tramite [!UICONTROL Browse] per verificare se l&#39;azione clonata è un&#39;operazione valida. Se non può essere applicata alla visualizzazione, viene visualizzato un errore. |
+| Sposta | Sposta l&#39;azione in un evento di caricamento pagina o in un&#39;altra visualizzazione già esistente nel pannello delle modifiche.<br>[!UICONTROL Page Load Event] : tutte le azioni corrispondenti all’evento di caricamento pagina vengono applicate al caricamento iniziale della pagina dell’applicazione web.<br>**Nota** dopo un&#39;operazione di spostamento, passa alla visualizzazione nel Compositore esperienza visivo tramite Sfoglia per verificare che lo spostamento sia un&#39;operazione valida. Se non può essere applicata alla visualizzazione, viene visualizzato un errore. |
 | Elimina | Elimina l’azione. |
 
 >[!NOTE]
@@ -260,7 +265,7 @@ Infine, come indicato precedentemente, le visualizzazioni si possono definire a 
 
 Il flusso di lavoro tipico di at.js 2.x è il caricamento del sito e tutte le viste e le azioni sono memorizzate nella cache in modo che le azioni degli utenti successivi sul sito non attivino le chiamate al server per recuperare le offerte. Se desideri recuperare le visualizzazioni in base ai dati di profilo più aggiornati, i quali potrebbero essere stati aggiornati a seconda delle azioni degli utenti successivi, richiama `getOffers()` e `applyOffers()` con gli utenti del pubblico o i dati di profilo passati più di recente.
 
-Ad esempio, immagina di essere una società di telefonia e di disporre di una applicazione a pagina singola che utilizza at.js 2.x. Come azienda, vuoi raggiungere i seguenti obiettivi:
+Ad esempio, immagina di essere una società di telefonia e di disporre di un’applicazione a pagina singola che utilizza at.js 2.x. In qualità di azienda, desideri raggiungere i seguenti obiettivi:
 
 * Per un utente disconnesso o anonimo, mostrare la promozione più recente dell&#39;azienda, ad esempio mostrare un&#39;offerta &quot;Primo mese gratis&quot; come immagine protagonista su `http://www.telecom.com/home`.
 * Per un utente connesso, mostrare un’offerta promozionale di aggiornamento per gli utenti i cui contratti sono in arrivo, ad esempio &quot;Potresti avere un telefono gratis!&quot; su `http://www.telecom.com/loggedIn/home`.
@@ -354,7 +359,7 @@ Se desideri utilizzare le attività A/B di targeting automatico, sposta tutte le
 | --- | --- |
 | [Analytics for Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md) | Sì |
 | [Experience Cloud Audiences](/help/main/c-integrating-target-with-mac/mmp.md) | Sì |
-| [Attributi del cliente](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html?lang=it){target=_blank} | Sì |
+| [Attributi del cliente](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html){target=_blank} | Sì |
 | [Frammenti esperienza AEM](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md) | Sì |
 
 ## Funzioni supportate {#supported-features}
@@ -364,7 +369,7 @@ Se desideri utilizzare le attività A/B di targeting automatico, sposta tutte le
 | [Aree di lavoro e proprietà](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) | Sì |
 | [Collegamenti QA](/help/main/c-activities/c-activity-qa/activity-qa.md) | Sì |
 | [Compositore esperienza basato su moduli](/help/main/c-experiences/form-experience-composer.md) | No |
-| [Codice personalizzato &#x200B;](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md) | Sì |
+| [Codice personalizzato ](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md) | Sì |
 | [Opzioni VEC](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md) | Tutte |
 | [Tracciamento dei clic](/help/main/c-activities/r-success-metrics/click-tracking.md) | Sì |
 | [Consegna di più attività](/help/main/c-experiences/c-visual-experience-composer/multipage-activity.md) | Sì |
@@ -377,7 +382,7 @@ Per accedere alle opzioni [!UICONTROL Page Delivery] nel flusso di lavoro guidat
 
 ![Finestra di dialogo delle opzioni di Consegna pagine](/help/main/c-experiences/assets/page-delivery.png)
 
-Ad esempio, come definito dalle impostazioni di [!UICONTROL Page Delivery] riportate qui sopra, un&#39;attività di Target si qualifica come idonea e viene eseguita quando un visitatore arriva direttamente su `https://www.adobe.com` *o* quando un visitatore arriva a un URL che contiene `https://www.adobe.com/it/products`. Questo funziona molto bene per qualsiasi applicazione multipagina in cui ogni interazione con la pagina richiama un ricaricamento della stessa, per il quale at.js recupera le attività che si qualificano come idonee per l’URL a cui passa l’utente.
+Ad esempio, come definito dalle impostazioni di [!UICONTROL Page Delivery] riportate qui sopra, un&#39;attività di Target si qualifica come idonea e viene eseguita quando un visitatore arriva direttamente su `https://www.adobe.com` *o* quando un visitatore arriva a un URL che contiene `https://www.adobe.com/products`. Questo funziona molto bene per qualsiasi applicazione multipagina in cui ogni interazione con la pagina richiama un ricaricamento della stessa, per il quale at.js recupera le attività che si qualificano come idonee per l’URL a cui passa l’utente.
 
 Tuttavia, poiché le applicazioni a pagina singola funzionano diversamente, le impostazioni [!UICONTROL Page Delivery] devono essere configurate in modo da consentire che tutte le azioni vengano applicate alle visualizzazioni definite nell&#39;attività del Compositore esperienza visivo per applicazioni a pagina singola.
 
@@ -389,35 +394,35 @@ Considera questo esempio di utilizzo:
 
 Sono state apportate le seguenti modifiche:
 
-* È stato cambiato il colore di sfondo nella visualizzazione Home, che si trova nell&#39;URL: [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=it#/](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=it#/).
-* È stato cambiato il colore del pulsante nella visualizzazione Prodotti, che si trova nell&#39;URL: [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=it#/products](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=it#/products).
+* È stato cambiato il colore di sfondo nella visualizzazione Home, che si trova nell&#39;URL: [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/).
+* È stato cambiato il colore del pulsante nella visualizzazione Prodotti, che si trova nell&#39;URL: [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products).
 
-Per questo esempio, cosa accade se si configurano le impostazioni di [!UICONTROL Page Delivery] per includere solo: [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=it#/](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=it#/) in un&#39;applicazione a pagina singola con at.js 2.*x*?
+Tenendo presente l&#39;esempio precedente, cosa accade se si configurano le impostazioni di [!UICONTROL Page Delivery] in modo che includano solo: [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/) in un&#39;applicazione a pagina singola con at.js 2.*x*?
 
 ![Finestra di dialogo Consegna pagine](/help/main/c-experiences/assets/spa-page-delivery.png)
 
-L’illustrazione seguente mostrata la richiesta Flusso di Target - Caricamento pagina in at.js 2.*x*:
+La figura seguente mostra la richiesta Flusso di Target - Caricamento pagina in at.js 2.*x*:
 
 ![Flusso di Target: richiesta di caricamento pagina in at.js 2.0](/help/main/c-experiences/assets/page-load-request.png)
 
 **Percorso utente 1**
 
-* Un utente passa direttamente a [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=it#/](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=it#/).
-* at.js 2.*x* invia una query ad Edge per verificare se è necessario eseguire un&#39;attività per l&#39;URL: [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=it#/](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=it#/).
+* Un utente passa direttamente a [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/).
+* at.js 2.*x* invia una query ad Edge per verificare se è necessario eseguire un&#39;attività per l&#39;URL: [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/).
 * Nel passaggio 6, il server Edge di Target restituisce le azioni per le visualizzazioni Home e Prodotti in modo che vengano memorizzate nella cache del browser.
 
-**Risultato**: l’utente vede la pagina Home con sfondo verde. Quando l&#39;utente passa a [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=it#/products](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=it#/products), viene visualizzato il colore di sfondo blu del pulsante perché l&#39;azione è memorizzata nella cache nel browser nella visualizzazione Prodotti.
+**Risultato**: l’utente vede la pagina Home con sfondo verde. Quando l&#39;utente passa a [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products), viene visualizzato il colore di sfondo blu del pulsante perché l&#39;azione è memorizzata nella cache nel browser nella visualizzazione Prodotti.
 
-Nota: l&#39;utente che è passato a [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=it#/products](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=it#/products) non ha attivato alcun caricamento di pagina.
+Nota: l&#39;utente che è passato a [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products) non ha attivato alcun caricamento di pagina.
 
 **Percorso utente 2**
 
-* Un utente passa direttamente a [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=it#/products](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=it#/products).
-* at.js 2.*x* invia una query ad Edge per verificare se è necessario eseguire un&#39;attività per l&#39;URL: [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=it#/products](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=it#/products).
-* Nessuna attività qualificata per [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=it#/products](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=it#/products).
-* Poiché non vi sono attività qualificate come idonee, nessuna azione né visualizzazione deve essere memorizzata nella cache per l’attivazione di at.js 2.*x*.
+* Un utente passa direttamente a [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products).
+* at.js 2.*x* invia una query ad Edge per verificare se è necessario eseguire un&#39;attività per l&#39;URL: [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products).
+* Nessuna attività qualificata per [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products).
+* Poiché non vi sono attività qualificate come idonee, nessuna azione né visualizzazione deve essere memorizzata nella cache affinché at.js 2.*x* possa essere attivato da.
 
-**Risultato**: anche se hai definito `triggerView()` per la visualizzazione Prodotti e impostato un&#39;azione per la visualizzazione Prodotti tramite il Compositore esperienza visivo per applicazioni a pagina singola, l&#39;azione prevista non verrà visualizzata perché non hai creato una regola che includa [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=it#/products](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=it#/products) nelle impostazioni Consegna pagine.
+**Risultato**: anche se hai definito `triggerView()` per la visualizzazione Prodotti e impostato un&#39;azione per la visualizzazione Prodotti tramite il Compositore esperienza visivo per applicazioni a pagina singola, l&#39;azione prevista non verrà visualizzata perché non hai creato una regola che includa [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products) nelle impostazioni Consegna pagine.
 
 ### Best practice
 
@@ -437,7 +442,7 @@ Questo messaggio viene visualizzato quando aggiungi la prima azione a una Visual
 
 ## Video di formazione: Utilizzo del Compositore esperienza visivo per le applicazioni a pagina singola in Adobe Target
 
->[!VIDEO](https://video.tv.adobe.com/v/328139?captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/26249)
 
 Per ulteriori informazioni, vedere [Utilizzo del Compositore esperienza visivo per le applicazioni a pagina singola in Adobe Target](https://helpx.adobe.com/target/kt/using/visual-experience-composer-for-single-page-applications-feature-video-use.html).
 

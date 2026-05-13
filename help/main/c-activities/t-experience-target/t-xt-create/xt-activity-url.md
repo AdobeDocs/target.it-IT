@@ -4,10 +4,13 @@ description: Scopri come specificare [!UICONTROL Activity URL] che determina la 
 title: Cos'è [!UICONTROL Activity URL] in un'attività [!UICONTROL Experience Targeting] (XT)?
 feature: Experience Targeting
 exl-id: 8e3be814-6ad6-4ffa-be8d-68f0cb7857b5
-source-git-commit: 3a44c05bea24c622292dd0b774f88f0c93be1d88
+TQID: https://experienceleague.adobe.com/igvyk-2atEe7JdYuFj3IXlXyE1CzVkLuwv50DSmSxuY
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '259'
-ht-degree: 38%
+source-wordcount: 268
+ht-degree: 37%
 
 ---
 
@@ -23,7 +26,7 @@ ht-degree: 38%
    >
    >Per impostazione predefinita, nel Compositore esperienza visivo o nel [Compositore esperienza basato su moduli](/help/main/c-experiences/form-experience-composer.md) viene aperta la pagina specificata nelle [impostazioni del Compositore esperienza visivo](/help/main/administrating-target/visual-experience-composer-set-up.md). È possibile specificare una pagina diversa durante la creazione dell’attività.
    >
-   >Se si specifica un URL per un sito che non include una libreria JavaScript di [[!DNL Target] at.js o  [!DNL Adobe Experience Platform Web SDK]](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/overview.html?lang=it){target=_blank}, non è possibile selezionare elementi di pagina.
+   >Se si specifica un URL per un sito che non include una libreria JavaScript di [[!DNL Target] at.js o  [!DNL Adobe Experience Platform Web SDK]](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/overview.html){target=_blank}, non è possibile selezionare elementi di pagina.
 
 1. (Condizionale) Per visualizzare una pagina diversa dopo l’apertura del Compositore esperienza visivo, fai clic su **[!UICONTROL Configure]**, seleziona **[!UICONTROL Page Delivery]**, quindi specifica l’URL nel campo [!UICONTROL URL].
 

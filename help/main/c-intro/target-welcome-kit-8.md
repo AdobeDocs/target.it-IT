@@ -4,9 +4,12 @@ description: Utilizza il modello Risultati di riepilogo esecutivo per comunicare
 title: Come posso condividere i risultati delle attività di  [!DNL Target]  con la mia organizzazione?
 feature: Overview
 exl-id: 35dd83d6-30fd-4568-a59e-b5748b192eb9
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+TQID: https://experienceleague.adobe.com/mO9F-HaF2IvFvB4m9uILZOondvs-POKUUGeb6Oq24EQ
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '218'
+source-wordcount: 216
 ht-degree: 100%
 
 ---

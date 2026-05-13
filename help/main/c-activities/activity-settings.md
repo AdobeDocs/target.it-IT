@@ -4,9 +4,13 @@ description: Scopri come utilizzare le impostazioni delle attività in Adobe [!D
 title: Come Si Specificano Le Impostazioni Delle Attività?
 feature: Activities
 exl-id: 7f34080b-d2ed-4fe5-80ff-3aba16961223
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+TQID: https://experienceleague.adobe.com/tCKQJJOfsU1XkeHwFHNF33XP4tYvxlE0Hv01u0CBr7o
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '415'
+source-wordcount: 418
 ht-degree: 71%
 
 ---
@@ -20,7 +24,7 @@ Utilizza [!UICONTROL Activity Settings] in [!DNL Adobe Target] per gestire l&#39
    Inserisci informazioni sull’attività, utili per te o per gli altri membri del gruppo. Trascinare per ridimensionare il campo [!UICONTROL Objective].
 1. Imposta la durata dell&#39;attività.
 
-   L&#39;interfaccia utente e le opzioni per [!UICONTROL Priority] variano a seconda delle impostazioni. È possibile utilizzare le impostazioni legacy Bassa, Media o Alta, oppure attivare la priorità precisa da 0 a 999.
+   L&#39;interfaccia utente e le opzioni per [!UICONTROL Priority] variano a seconda delle impostazioni. È possibile utilizzare le impostazioni legacy Bassa, Media o Alta, oppure abilitare la priorità granulare da 0 a 999.
 
    La priorità è utilizzata se più attività vengono assegnate alla stessa posizione con lo stesso pubblico. Se due o più attività vengono assegnate alla posizione, viene visualizzata l’attività con priorità maggiore.
 
@@ -53,7 +57,7 @@ La pagina [!UICONTROL Goal & Settings] include impostazioni aggiuntive che varia
 * [Personalizzazione automatizzata](/help/main/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9)
 * [Targeting esperienza](/help/main/c-activities/t-experience-target/t-xt-create/xt-goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC)
 * [Test multivariato](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC)
-* [Recommendations](/help/main/c-recommendations/t-create-recs-activity/recs-activity-settings.md#reference_3FDA8388CEEC4159949151C1829E2FBB)
+* [Consigli](/help/main/c-recommendations/t-create-recs-activity/recs-activity-settings.md#reference_3FDA8388CEEC4159949151C1829E2FBB)
 
 ## Video di formazione: Impostazioni attività ![Icona esercitazione](/help/main/assets/tutorial.png)
 

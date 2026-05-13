@@ -4,9 +4,14 @@ description: Scopri come utilizzare gli URL di controllo qualità di Adobe [!DNL
 title: Come posso eseguire il controllo qualità delle attività?
 feature: Activities
 exl-id: 5c606d61-6d13-4a9b-9a23-4840f1754d3c
-source-git-commit: 99ea312405e397e97e64e32d2685e8a6966d8928
+TQID: https://experienceleague.adobe.com/glE1Kx2xhqagq9v-SgSkdwr6lYwpioe4DlSkLRFQ0jI
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eebid: c93393a4-e558-47e1-992e-c91ed4d480ce
+subfeature_v2: id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '1658'
+source-wordcount: 1735
 ht-degree: 27%
 
 ---
@@ -25,7 +30,7 @@ Gli URL di controllo qualità in [!DNL Adobe Target] consentono di verificare in
 
   >[!NOTE]
   >
-  >Questa funzionalità è vera per le implementazioni at.js con versione 2.*x* o versione successiva. Per at.js 1.*x* implementazioni, questa funzionalità è true solo se il browser del visitatore non blocca i cookie di terze parti.
+  >Questa funzionalità è valida per le implementazioni di at.js con versione 2.*x* o successiva. Per le implementazioni di at.js 1.*x*, questa funzionalità è true solo se il browser del visitatore non blocca i cookie di terze parti.
 
 ## Accesso e condivisione di un URL di controllo qualità {#section_1C59BAA247B247BDB125D1BE8EAD4547}
 
@@ -49,9 +54,9 @@ Gli URL di controllo qualità in [!DNL Adobe Target] consentono di verificare in
 
    I collegamenti alle attività non scadono mai e non è necessario inviarli di nuovo se qualcuno cambia un’attività o un’esperienza. Tuttavia, se applichi un pubblico diverso da [!UICONTROL Audience Library], anziché semplicemente modificare l&#39;attività, viene generato un nuovo collegamento che devi condividere di nuovo.
 
-   Ogni URL di collegamento di attività (per Esperienza A, Esperienza B e così via) consente di avviare il percorso di utenti dall’esperienza corrispondente. Fai clic sull’URL generato per un’esperienza, quindi procedi alla normale navigazione del sito per visualizzare le esperienze su più pagine (se esistono più pagine). Viene generato un solo URL per esperienza, anche se questa si estende su più pagine (test di modelli o test multipagina).
+   Ogni URL di collegamento di attività (per Esperienza A, Esperienza B e così via) consente di avviare il percorso di utenti dall’esperienza corrispondente. Fai clic sull’URL generato per un’esperienza, quindi procedi alla normale navigazione del sito per visualizzare le esperienze su più pagine (se esistono più pagine). Per ogni esperienza viene generato un solo URL, anche se l’esperienza si estende su più pagine (test di modelli o test multipagina).
 
-   È possibile spostarsi nel sito per visualizzare le altre pagine perché la modalità [!UICONTROL Activity QA] è permanente. Questa situazione si verifica per le implementazioni at.js con versione 2.*x* o versione successiva. Per at.js 1.*x* implementazioni. Questa situazione si verifica solo se il browser del visitatore non blocca i cookie di terze parti.
+   È possibile spostarsi nel sito per visualizzare le altre pagine perché la modalità [!UICONTROL Activity QA] è permanente. Questa situazione si verifica per le implementazioni di at.js con versione 2.*x* o successiva. Per le implementazioni di at.js 1.*x*, questa situazione si verifica solo se il browser del visitatore non blocca i cookie di terze parti.
 
 1. Per visualizzare i report generati dagli URL di collegamento dell&#39;attività, fai clic sulla pagina **[!UICONTROL Reports]** dell&#39;attività, fai clic sull&#39;icona **[!UICONTROL Settings]** ( ![icon_gear image](assets/icon_gear.png) ), quindi seleziona **[!UICONTROL QA Mode Traffic]** dall&#39;elenco a discesa **[!UICONTROL Environment]**.
 
@@ -61,11 +66,11 @@ Gli URL di controllo qualità in [!DNL Adobe Target] consentono di verificare in
 
 ### at.js 2.*x*
 
-Se il tuo sito dispone di at.js 2.*x* distribuito, utilizza il [bookmarklet di controllo qualità di Target](/help/main/c-activities/c-activity-qa/activity-qa-bookmark.md#concept_A8A3551A4B5342079AFEED5ECF93E879) per uscire da [!UICONTROL Activity QA]. Il caricamento di una pagina del sito con un valore vuoto, come descritto nel punto successivo, *non* rimuove il cookie di controllo qualità dal browser quando si esegue at.js 2.*x* è implementato.
+Se nel tuo sito è stato implementato at.js 2.*x*, utilizza il [bookmarklet di controllo qualità di Target](/help/main/c-activities/c-activity-qa/activity-qa-bookmark.md#concept_A8A3551A4B5342079AFEED5ECF93E879) per uscire forzatamente da [!UICONTROL Activity QA]. Il caricamento di una pagina del sito con un valore vuoto, come descritto nel punto successivo, *non* rimuove il cookie di controllo qualità dal browser quando viene distribuito at.js 2.*x*.
 
-### Mappatura payload dei parametri at.js 1.*x*
+### at.js 1.*x*
 
-Se il tuo sito dispone di at.js 1.*x* distribuito, oltre a utilizzare il [bookmarklet di controllo qualità di Target](/help/main/c-activities/c-activity-qa/activity-qa-bookmark.md#concept_A8A3551A4B5342079AFEED5ECF93E879), puoi anche forzare manualmente l&#39;uscita dalla modalità di controllo qualità caricando una pagina del sito con il parametro `at_preview_token` con un valore vuoto. Ad esempio,
+Se nel tuo sito è stato implementato at.js 1.*x*, oltre a utilizzare il [bookmarklet di controllo qualità di Target](/help/main/c-activities/c-activity-qa/activity-qa-bookmark.md#concept_A8A3551A4B5342079AFEED5ECF93E879), puoi anche forzare manualmente la chiusura caricando una pagina del tuo sito con il parametro `at_preview_token` con un valore vuoto. Ad esempio,
 
 `https://www.mysite.com/?at_preview_token=`
 
@@ -84,7 +89,7 @@ Se nel tuo sito è implementato [[!UICONTROL Platform Web SDK]](https://experien
 * Le attività importate in [!DNL Target Standard/Premium] (ad esempio da [!DNL Target Classic]) non supportano gli URL di controllo qualità.
 * Nelle attività [!UICONTROL Auto-Allocate] e [!UICONTROL Recommendations], il modello non è interessato dalle visite acquisite in [!UICONTROL Activity QA].
 * Se hai specificato un URL durante la creazione dell&#39;attività [perfezionamenti nel Compositore basato su modulo](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) o [opzioni di consegna pagine nel Compositore esperienza visivo](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81), l&#39;URL del controllo qualità non funziona perché [!UICONTROL Activity QA] aggiunge parametri URL. Per risolvere questo problema, fai clic su URL di controllo qualità per passare al sito, rimuovi dall’URL i parametri aggiunti, quindi carica il nuovo l’URL.
-* Se hai at.js 1.La modalità *x*, [!UICONTROL Activity QA] non è definitiva se si utilizza Safari o un altro browser che blocca i cookie di terze parti. In questi casi, devi aggiungere i parametri di anteprima a ogni URL a cui vai. Lo stesso vale se hai implementato [CNAME](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/implement-cname-support-in-target.html?lang=it){target=_blank}.
+* Se si dispone di at.js 1.*x*, la modalità [!UICONTROL Activity QA] non è definitiva se si utilizza Safari o un altro browser che blocca i cookie di terze parti. In questi casi, devi aggiungere i parametri di anteprima a ogni URL a cui vai. Lo stesso vale se hai implementato [CNAME](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/implement-cname-support-in-target.html){target=_blank}.
 * Se un’attività utilizza più tipi di pubblico per le esperienze (ad esempio, se nella stessa attività sono inclusi un sito britannico e uno statunitense), i collegamenti di controllo qualità non vengono generati per le quattro combinazioni (Esperienza A/sito US, Esperienza A/sito UK, Esperienza B/sito US, Esperienza B/sito UK). Vengono creati solo due collegamenti di controllo qualità (Esperienza A ed Esperienza B) e la pagina verrà visualizzata dagli utenti che risultano idonei per il pubblico appropriato. Una persona che effettua il controllo qualità nel Regno Unito non può visualizzare il sito degli Stati Uniti.
 * Tutti i parametri e i valori `at_preview` sono già codificati nell’URL. Nella maggior parte dei casi, tutto funziona come previsto. Tuttavia, alcuni clienti devono caricare bilanciatori o server Web che tentano di codificare nuovamente i parametri della stringa di query.
 
@@ -111,8 +116,8 @@ Se nel tuo sito è implementato [[!UICONTROL Platform Web SDK]](https://experien
 
 [!DNL Target] supporta le seguenti librerie JavaScript:
 
-* [at.js 1.x](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html?lang=it)
-* [at.js 2.x](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html?lang=it)
+* [at.js 1.x](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html)
+* [at.js 2.x](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html)
 * [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=it)
 
 Nella tabella seguente sono elencati i vari tipi di attività e viene indicato se la modalità [!UICONTROL Activity QA] è supportata per ogni libreria:
