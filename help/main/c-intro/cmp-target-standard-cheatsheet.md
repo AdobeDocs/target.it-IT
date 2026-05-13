@@ -69,14 +69,14 @@ Rimani aggiornato con [!DNL Target] versioni.
 **[!DNL Adobe] dispone di una community o un forum in cui è possibile trovare risposte e ulteriori informazioni su [!DNL Target]?**
 
 +++Vedi i dettagli
-Connettiti con altri professionisti di [!DNL Target] nel [Forum della community di Target](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community){target=_blank}. Condividi le tue competenze, fai domande e collabora con altri utenti che utilizzano [!DNL Target] per promuovere la personalizzazione e la sperimentazione. Una comunità fiorente dipende dalla partecipazione attiva. Le tue conoscenze ed esperienze possono aiutare gli altri a raggiungere il successo. Entra, contribuisci e trova le risposte che ti servono.
+Connettiti con altri professionisti di [!DNL Target] nel [Forum della community di Target](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community?profile.language=it){target=_blank}. Condividi le tue competenze, fai domande e collabora con altri utenti che utilizzano [!DNL Target] per promuovere la personalizzazione e la sperimentazione. Una comunità fiorente dipende dalla partecipazione attiva. Le tue conoscenze ed esperienze possono aiutare gli altri a raggiungere il successo. Entra, contribuisci e trova le risposte che ti servono.
 
 +++
 
 **Quali browser sono supportati da [!DNL Target]?**
 
 +++Vedi i dettagli
-Per maggiori dettagli, consulta la nostra griglia dei [browser supportati](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html){target=_blank}. Si noti che esistono due aspetti: il supporto dell&#39;interfaccia [!DNL Target Standard/Premium] e il supporto del browser per l&#39;utente finale su desktop/dispositivi.
+Per maggiori dettagli, consulta la nostra griglia dei [browser supportati](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html?lang=it){target=_blank}. Si noti che esistono due aspetti: il supporto dell&#39;interfaccia [!DNL Target Standard/Premium] e il supporto del browser per l&#39;utente finale su desktop/dispositivi.
 
 +++
 
@@ -254,7 +254,7 @@ Utilizza i controlli di allocazione della percentuale disponibili nel [passaggio
 Dai un&#39;occhiata alle seguenti funzioni del prodotto:
 
 * [Analytics for Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
-* [Attributi del cliente](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html)
+* [Attributi del cliente](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html?lang=it)
 * [Tipi di pubblico](/help/main/c-integrating-target-with-mac/mmp.md)
 
 +++
@@ -401,7 +401,7 @@ Sfrutta l’efficacia delle [attività basate su moduli](/help/main/c-experience
 Dai un&#39;occhiata alle seguenti funzioni del prodotto:
 
 * [Analytics for Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
-* [Attributi del cliente](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html)
+* [Attributi del cliente](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html?lang=it)
 * [Tipi di pubblico](/help/main/c-integrating-target-with-mac/mmp.md)
 
 +++

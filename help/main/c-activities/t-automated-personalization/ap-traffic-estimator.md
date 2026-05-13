@@ -2,7 +2,7 @@
 keywords: calcolatore di traffico;personalizzazione automatizzata;ap;stima traffico
 description: Utilizzare [!UICONTROL Traffic Estimator] per valutare se si dispone di traffico sufficiente per il completamento di un'attività [!UICONTROL Automated Personalization].
 title: Quanto traffico è necessario per un'attività [!UICONTROL Automated Personalization] completata?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=it#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."
 feature: Automated Personalization
 exl-id: 11f9e239-700b-45cd-bf77-39f7f8967a2e
 TQID: https://experienceleague.adobe.com/rLjNgDlAWK-r9Zv7083vo-PdWTPy3aHGS4fXEGeTdnY
