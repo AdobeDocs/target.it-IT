@@ -5,9 +5,25 @@ title: Che cos'è un'attività [!UICONTROL Auto-Target]?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=it#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."
 feature: Auto-Target
 exl-id: 59ca30dc-45a0-4129-b832-84e1132d3b69
-source-git-commit: 5cd8cd0d25dea28f1dd46a59fdcaa4cfc48d9969
+TQID: https://experienceleague.adobe.com/uKmfIlOcT-tZgOjuvERXuif-Y5-2Jw3prtPbuBjv1is
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+subfeature_v2:
+  - id: fff07a91-d479-45f4-ae95-9762e79b1b7c
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+source-git-commit: 16fb7a1902ea76cab56a93fa141a32a3c6bc4467
 workflow-type: tm+mt
-source-wordcount: '1828'
+source-wordcount: 1882
 ht-degree: 18%
 
 ---
@@ -56,7 +72,7 @@ Ci sono alcune considerazioni importanti da tenere a mente quando si utilizza [!
 
 * Utilizza almeno due esperienze.
 
-## Terminologia  {#section_A309B7E0B258467789A5CACDC1D923F3}
+## Terminologia {#section_A309B7E0B258467789A5CACDC1D923F3}
 
 I seguenti termini sono utili quando si parla di [!UICONTROL Auto-Target]:
 
@@ -64,7 +80,7 @@ I seguenti termini sono utili quando si parla di [!UICONTROL Auto-Target]:
 |---|---|
 | [Slot machine](https://en.wikipedia.org/wiki/Multi-armed_bandit){target=_blank} | Un approccio slot machine per l&#39;ottimizzazione equilibra l&#39;apprendimento esplorativo e lo sfruttamento di tale apprendimento. |
 | [Foresta casuale](/help/main/c-activities/t-automated-personalization/algo-random-forest.md) | Foresta casuale è uno dei principali metodi di apprendimento automatico. Nel linguaggio della scienza dei dati, si tratta di una classificazione di gruppo, o metodo di regressione, che funziona costruendo molti alberi decisionali basati su visitatori e attributi di visita. In [!DNL Target], Foresta casuale viene utilizzato per determinare quale esperienza dovrebbe avere la più alta probabilità di conversione (o il più alto ricavo per visita) per ogni visitatore specifico. |
-| [Campionamento Thompson](https://en.wikipedia.org/wiki/Thompson_sampling){target=_blank} | L’obiettivo del campionamento di Thompson è determinare quale esperienza è la migliore complessivamente (non personalizzata), riducendo al minimo il &quot;costo&quot; della ricerca di tale esperienza. Il campionamento di Thompson sceglie sempre un vincitore, anche se non c’è differenza statistica tra due esperienze. |
+| [Campionamento Thompson](https://en.wikipedia.org/wiki/Thompson_sampling){target=_blank} | L’obiettivo del campionamento di Thompson è determinare quale esperienza è la migliore complessivamente (non personalizzata), riducendo al minimo il &quot;costo&quot; della ricerca di tale esperienza. Il campionamento di Thompson sceglie sempre un vincitore, anche in assenza di differenza statistica tra due esperienze. |
 
 ## Come funziona [!UICONTROL Auto-Target] {#section_77240E2DEB7D4CD89F52BE0A85E20136}
 

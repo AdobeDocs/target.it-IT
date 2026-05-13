@@ -4,9 +4,14 @@ description: Scopri in che modo un'attività [!UICONTROL Auto Allocate] in [!DNL
 title: Le attività [!UICONTROL Auto-Allocate] possono ottenere risultati più rapidi e ricavi più elevati?
 feature: Auto-Allocate
 exl-id: 104ad88f-044b-4c2f-bdaf-f023fd1787a5
-source-git-commit: e9976135c46f6658030b07fce384364f0c9ff0ed
+TQID: https://experienceleague.adobe.com/aSxZ0Zp3cm0x-fVBXHWW4OiXd3Riz-tuhBiw0f8m4lk
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '521'
+source-wordcount: 531
 ht-degree: 0%
 
 ---

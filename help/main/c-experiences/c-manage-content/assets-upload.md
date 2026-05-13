@@ -4,9 +4,14 @@ description: Scopri come caricare o eliminare le immagini utilizzate come offert
 title: Come si caricano o eliminano i contenuti nella libreria [!UICONTROL Offers]?
 feature: Experiences and Offers
 exl-id: c0fb26ca-4b98-4558-81c6-d84cf6841903
-source-git-commit: e8201198dc6ac36e803153d5c6b345a30716204a
+TQID: https://experienceleague.adobe.com/3bsdqJBJekyAbxUUe1bbWEcxRFzYWMcVKLlQ4Lqe4Ns
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '174'
+source-wordcount: 174
 ht-degree: 0%
 
 ---

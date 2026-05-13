@@ -1,13 +1,23 @@
 ---
-keywords: Target;report;impostazioni dei report;preimpostazione;predefinito;preimpostazione target;predefinito target;metrica;destinatari;intervallo di date;impostazioni;download;visualizzazione tabella;visualizzazione grafico;incremento medio;incremento;contributo posizione;media corrente;metodologia di conteggio
+keywords: Target;report;impostazioni dei report;preimpostazione;predefinito;preimpostazione target;predefinito target;metrica;pubblico;intervallo di date;impostazioni;download;visualizzazione tabella;visualizzazione grafico;incremento medio;incremento;contributo posizione;media corrente;metodologia di conteggio
 description: Scopri come configurare le impostazioni dei rapporti in Adobe Target, compresi metriche, tipi di pubblico, intervalli di date e altro ancora.
 title: Come si configurano le impostazioni dei rapporti?
 feature: Reports
 exl-id: 337579d1-c678-43b6-9e80-b5abe159c2d3
-source-git-commit: c1a71d1fb6fa9b5c14e22fa3199358a4594bb4a1
+TQID: https://experienceleague.adobe.com/Nz7EFST7BeVE2FqfFkbWnp-hRJug7HPlOodak73H-Uo
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '1778'
-ht-degree: 48%
+source-wordcount: 1795
+ht-degree: 47%
 
 ---
 
@@ -24,9 +34,9 @@ Per visualizzare un rapporto:
 
 ## Preimpostazione Target {#section_51F67341465045BEB4F1A2FB638A8EB1}
 
-Puoi salvare fino a dieci diversi predefiniti del rapporto di una singola attività dopo averlo configurato come desiderato (metriche, destinatari, impostazioni avanzate e così via). Tutti gli utenti di [!DNL Target] possono visualizzare, modificare ed eliminare i vari predefiniti, indipendentemente da chi li ha creati.
+Puoi salvare fino a dieci diversi predefiniti del rapporto di una singola attività dopo averlo configurato come desiderato (metriche, pubblico, impostazioni avanzate e così via). Tutti gli utenti di [!DNL Target] possono visualizzare, modificare ed eliminare i vari predefiniti, indipendentemente da chi li ha creati.
 
-Puoi anche configurare il rapporto di una singola attività come desiderato e salvare la configurazione come predefinito di default/preferito. Questa è la vista che compare quando vedi che il rapporto dell&#39;attività sta avanzando.
+Puoi anche configurare il rapporto di una singola attività come desiderato e salvare la configurazione come predefinito di default/preferito. Questa è la vista che viene visualizzata quando vedi che il rapporto dell&#39;attività sta avanzando.
 
 ### Creare un predefinito o un predefinito predefinito predefinito
 
@@ -51,7 +61,7 @@ Selezionare il predefinito desiderato dall&#39;elenco a discesa **[!UICONTROL Ta
 ### Modificare un predefinito
 
 1. Seleziona il predefinito da modificare.
-1. Modifica la configurazione del rapporto come preferisci (metriche, intervalli di date, destinatari, impostazioni avanzate e così via).
+1. Modifica la configurazione del rapporto come preferisci (metriche, intervalli di date, pubblico, impostazioni avanzate e così via).
 
    Dopo aver fatto clic su [!UICONTROL Save] dopo aver modificato la configurazione del report, viene visualizzato un asterisco ( &#42; ) dopo il nome del predefinito per indicare che è stato modificato.
 
@@ -66,11 +76,11 @@ Selezionare il predefinito desiderato dall&#39;elenco a discesa **[!UICONTROL Ta
 
 ### Gestione degli errori nei predefiniti
 
-Gli avvisi e i messaggi all&#39;interno dei rapporti ti consentono di sapere se un predefinito non è più valido. L&#39;avviso o il messaggio indica di scegliere dei destinatari, una metrica, un gruppo di host o un&#39;esperienza differenti per rendere valido il predefinito.
+Gli avvisi e i messaggi all&#39;interno dei rapporti ti consentono di sapere se un predefinito non è più valido. L’avviso o il messaggio indica di scegliere un pubblico, una metrica, un gruppo di host o un&#39;esperienza differenti per creare un predefinito valido.
 
 Nell&#39;elenco seguente sono descritte alcune delle situazioni che potrebbero provocare la mancata validità di un predefinito:
 
-* Un gruppo di destinatari di reporting è stato rimosso dall&#39;attività ma è riportato nella definizione del predefinito.
+* Un pubblico di reporting è stato rimosso dall’attività ma è riportato nella definizione del predefinito.
 * Una metrica (o più) è stata eliminata ma è riportata nella definizione del predefinito. Ad esempio, potresti eliminare una o più metriche dall&#39;attività e aggiungerne di nuove.
 * Un gruppo di host (o più) non esiste ma è riportato nella definizione del predefinito.
 * Un&#39;esperienza (o più) è stata eliminata dopo la creazione del predefinito, ma è riportata nella definizione del predefinito.
@@ -244,7 +254,7 @@ Quando si utilizzano le opzioni [!UICONTROL Counting Methodology], considerare l
 
 Se le esperienze di un’attività sono meno di 16, ogni esperienza è rappresentata da un colore diverso nel grafico.
 
-Se le esperienze sono più di 16, nel grafico vengono tracciate le linee colorate delle prime 16. Le restanti esperienze appaiono in grigio nel riquadro Esperienze a sinistra e le linee corrispondenti non sono incluse nel grafico. In un dato momento è possibile visualizzare le linee corrispondenti a 16 esperienze.
+Se le esperienze sono più di 16, nel grafico vengono tracciate le linee colorate delle prime 16. Le restanti esperienze sono visualizzate in grigio nel riquadro Esperienze a sinistra e le linee corrispondenti non sono incluse nel grafico. In un dato momento è possibile visualizzare le linee corrispondenti a 16 esperienze.
 
 Se passi il puntatore su una delle esperienze in grigio, sul grafico viene visualizzata temporaneamente la corrispondente linea grigia. Per visualizzare con un colore la linea di un’esperienza grigia, fai clic sul nome di un’esperienza visualizzata a colori per deselezionarla, quindi fai clic sul nome dell’esperienza grigia desiderata per selezionarla.
 

@@ -4,10 +4,21 @@ description: Scopri gli attributi specifici del visitatore che vengono memorizza
 title: Cosa sono gli attributi del profilo?
 feature: Audiences
 exl-id: 6c689629-bbd3-461e-9a68-5b16d4eb4250
-source-git-commit: e45ac15a60c83e35b8b2b2ba29a42727faf746df
+TQID: https://experienceleague.adobe.com/jW4BCxf12N2GRN4ZsxNR1xBd0upkEc-FjuTEQ4KvKis
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '2426'
-ht-degree: 91%
+source-wordcount: 2481
+ht-degree: 90%
 
 ---
 
@@ -83,7 +94,7 @@ Considera le seguenti informazioni:
 
 ## Visualizzazione delle schede di informazioni sugli script di profilo {#section_18EA3B919A8E49BBB09AA9215E1E3F17}
 
-Puoi visualizzare schede a comparsa di script di profilo simili come schede informative. Queste schede informative sullo script di profilo ti permettono di visualizzare l’elenco delle attività che si riferiscono allo script di profilo selezionato, insieme ad altri metadati utili.
+Puoi visualizzare schede a comparsa di script di profilo simili come schede informative. Queste schede informative sullo script di profilo ti permettono di visualizzare l&#39;elenco delle attività che si riferiscono allo script di profilo selezionato, insieme ad altri metadati utili.
 
 Ad esempio, è possibile accedere alla scheda di informazioni sullo script di profilo seguente facendo clic sull&#39;icona [!UICONTROL Info] dello script di profilo desiderato dall&#39;elenco ([!UICONTROL Audiences] > [!UICONTROL Profile Scripts]).
 
@@ -180,7 +191,8 @@ Gli script di profilo non sono in grado di leggere la pagina direttamente poich�
 
 ## Riferimento JavaScript per i parametri del profilo di script
 
-È necessaria una conoscenza base di JavaScript per utilizzare in modo efficace i parametri del profilo di script. Questa sezione serve come riferimento rapido per consentirti di utilizzare questa funzionalità in pochi minuti.
+È necessaria una conoscenza semplice di JavaScript per utilizzare in modo efficace il profilo di script
+parametri. Questa sezione serve come riferimento rapido per consentirti di utilizzare questa funzionalità in pochi minuti.
 
 I parametri del profilo di script si trovano nella scheda mbox/profiles. È possibile scrivere programmi JavaScript che restituiscono qualsiasi tipo di valore JavaScript (stringa, numero intero, array e così via).
 
@@ -272,7 +284,7 @@ Tutti gli operatori JavaScript standard sono presenti e utilizzabili. Gli operat
 | `>=` | Come `>` a meno che le variabili non siano uguali, nel qual caso restituisce true. |
 | `&&` | Stabilisce una relazione logica di tipo “AND” tra le espressioni alla sua sinistra e alla sua desta: restituisce true solo quando entrambe le parti sono vere (in caso contrario restituisce false). |
 | `\|\|` | Stabilisce una relazione logica di tipo “OR” tra le espressioni alla sua sinistra e alla sua desta: restituisce true solo quando una delle parti è true (in caso contrario restituisce false). |
-| `//` | Controlla se la sorgente contiene tutti gli elementi del formato booleano di destinazione (origine Array, destinazione Array).<br>`//` estrae la sottostringa dalla destinazione (corrispondente a regexp) e la decodifica `Array/*String*/ decode(String encoding, String regexp, String target)`.<br>La funzionalità supporta inoltre l&#39;utilizzo di valori stringa costanti, raggruppamenti (`condition1 \|\| condition2) && condition3`) ed espressioni regolari (`/[^a-z]$/.test(landing.referring.url)`). |
+| `//` | Controlla se l&#39;origine contiene tutti gli elementi del formato booleano di destinazione (origine array, destinazione array).<br>`//` estrae la sottostringa dalla destinazione (corrispondente a regexp) e la decodifica `Array/*String*/ decode(String encoding, String regexp, String target)`.<br>La caratteristica supporta anche l&#39;uso di valori stringa costanti, raggruppamenti (`condition1 \|\| condition2) && condition3`) ed espressioni regolari (`/[^a-z]$/.test(landing.referring.url)`). |
 
 ## Video di formazione: script di profilo ![Icona esercitazione](/help/main/assets/tutorial.png)
 

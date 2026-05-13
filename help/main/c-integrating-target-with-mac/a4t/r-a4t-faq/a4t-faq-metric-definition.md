@@ -4,9 +4,15 @@ description: Risposte alle domande sulle definizioni delle metriche e sull'utili
 title: Dove posso trovare informazioni sulle definizioni delle metriche con A4T?
 feature: Analytics for Target (A4T)
 exl-id: 97442622-ba6d-46f8-bfac-72638875d889
-source-git-commit: aff96eca1380f4274dba0c1567f6e41d42f4b5ab
+TQID: https://experienceleague.adobe.com/CLUm25T-5PCOzdXVL94kCgvqM-OL3dZzWXkG1qmN8IE
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '351'
+source-wordcount: 352
 ht-degree: 36%
 
 ---
@@ -15,7 +21,7 @@ ht-degree: 36%
 
 Questo argomento contiene le risposte alle domande più frequenti sulle definizioni delle metriche e sull&#39;utilizzo di [!DNL Adobe Analytics] come origine per la generazione di rapporti per [!DNL Adobe Target] (A4T).
 
-## Qual è la scadenza per l’appartenenza all’attività? Per quanto tempo dopo che i visitatori accedono all’attività, le loro azioni vengono conteggiate nell’attività se non la visualizzano nuovamente? {#section_41B4958F33534E4B96DEE0C981227A79}
+## Qual è la scadenza per l’iscrizione ad attività? Per quanto tempo dopo che i visitatori accedono all’attività, le loro azioni vengono conteggiate nell’attività se non la visualizzano nuovamente? {#section_41B4958F33534E4B96DEE0C981227A79}
 
 +++Risposta
 La scadenza predefinita per un’attività è di 90 giorni dopo l’ultima interazione di un visitatore con l’attività. Se necessario, questa impostazione può essere regolata dall’assistenza clienti. Tuttavia, questa impostazione è globale per tutte le attività, quindi non deve essere regolata per un solo caso.

@@ -4,9 +4,14 @@ description: Scopri come specificare l'URL attività che determina la pagina uti
 title: Qual è l'URL attività in un'attività [!UICONTROL Multivariate Test] (MVT)?
 feature: Multivariate Tests
 exl-id: 336169ae-7c8b-4fd5-9b1c-0bd3e9524425
-source-git-commit: 8f9c0ea65197fd639d463628e54db79db993c2da
+TQID: https://experienceleague.adobe.com/oQKwrlZ95XKEKSJIUiWqXXo9AJJzCb20gfS1rtwGImM
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '269'
+source-wordcount: 269
 ht-degree: 31%
 
 ---

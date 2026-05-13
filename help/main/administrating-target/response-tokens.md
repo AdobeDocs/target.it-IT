@@ -5,10 +5,32 @@ title: Cosa sono i token di risposta e come si utilizzano?
 feature: Administration & Configuration
 role: Admin
 exl-id: d0c1e914-3172-466d-9721-fe0690abd30b
-source-git-commit: a1617f64f0633a87ea4c1f8e5104a1d177df04e2
+TQID: https://experienceleague.adobe.com/Fm2VW0HmAPjf0ZCDawI-s1nPl3c-wjU-evhq-tSAKqA
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+  - id: f7c7de77-382f-4f48-8b36-61a170f06d3d
+subfeature_v2:
+  - id: c011fe9c-b94b-4a88-93d8-f2acece55112
+  - id: c5abb976-5170-45d6-bcac-66d15d10a4d4
+  - id: faed1c89-faf7-4df1-910d-a88263e03b15
+  - id: fc9c2184-9102-403f-bd6c-0055021e4bea
+  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '1622'
-ht-degree: 24%
+source-wordcount: 1749
+ht-degree: 22%
 
 ---
 
@@ -29,7 +51,7 @@ Una differenza chiave tra plug-in e token di risposta è che i plug-in forniscon
 | SDK di destinazione | Azioni suggerite |
 |--- |--- |
 | [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=it){target=_blank} | Assicurati di utilizzare Platform Web SDK versione 2.6.0 o successiva. Per informazioni sul download della versione più recente di Platform Web SDK, vedere [Installare SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=it){target=_blank} nella *Panoramica di Platform Web SDK*. Per informazioni sulle nuove funzionalità in ogni versione di Platform Web SDK, consulta le [note sulla versione](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=it) nella *panoramica di Platform Web SDK*. |
-| [at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html?lang=it){target=_blank} | Assicurati di utilizzare at.js nella versione 1.1 o successiva. Per informazioni su come scaricare l’ultima versione di at.js, consulta [Scaricare at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-without-a-tag-manager.html?lang=it){target=_blank}. Per informazioni sulle nuove funzionalità in ogni versione di at.js, vedi [Dettagli sulla versione di at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=it){target=_blank}.<br>I clienti che utilizzano at.js sono incoraggiati a utilizzare i token di risposta e ad abbandonare i plug-in. Alcuni plug-in che si basano su metodi interni esistenti in mbox.js (ora obsoleto), ma non in at.js, vengono consegnati ma non hanno esito positivo. |
+| [at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html?lang=it){target=_blank} | Assicurati di utilizzare at.js nella versione 1.1 o successiva. Per informazioni su come scaricare l’ultima versione di at.js, consulta [Scaricare at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-without-a-tag-manager.html?lang=en){target=_blank}. Per informazioni sulle nuove funzionalità in ogni versione di at.js, consulta [Dettagli sulla versione di at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=it){target=_blank}.<br>I clienti che utilizzano at.js sono invitati a utilizzare i token di risposta e ad abbandonare i plug-in. Alcuni plug-in che si basano su metodi interni esistenti in mbox.js (ora obsoleto), ma non in at.js, vengono consegnati ma non hanno esito positivo. |
 
 ## Utilizzo dei token di risposta {#section_A9E141DDCBA84308926E68D05FD2AC62}
 
@@ -38,7 +60,7 @@ Una differenza chiave tra plug-in e token di risposta è che i plug-in forniscon
    Per ulteriori informazioni:
 
    * **Platform Web SDK**: vedere [Installare SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=it) nella *Panoramica di Platform Web SDK*.
-   * **at.js**: vedi [Scarica at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-without-a-tag-manager.html?lang=it){target=_blank}.
+   * **at.js**: vedi [Scarica at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-without-a-tag-manager.html){target=_blank}.
 
 1. In [!DNL Target], fare clic su **[!UICONTROL Administration]** > **[!UICONTROL Response Tokens]**.
 
@@ -57,7 +79,7 @@ Una differenza chiave tra plug-in e token di risposta è che i plug-in forniscon
    |  | `profile.thirdPartyId` | Restituisce l’ID di terze parti del visitatore. |
    |  | `profile.categoryAffinity` | Restituisce la categoria preferita del visitatore. |
    |  | `profile.categoryAffinities` | Restituisce un array delle 5 categorie principali del visitatore, sotto forma di stringhe. |
-   | Attività | `activity.name`<br>`activity.id`<br>`experience.name`<br>`experience.id`<br>`offer.name`<br>`offer.id` | Dettagli dell’attività corrente.<br> I valori dei parametri delle offerte vengono valutati a livello di esperienza. |
+   | Attività | `activity.name`<br>`activity.id`<br>`experience.name`<br>`experience.id`<br>`offer.name`<br>`offer.id` | Dettagli dell&#39;attività corrente.<br> I valori dei parametri dell’offerta vengono valutati a livello di esperienza. |
    | Geo | `geo.country`<br>`geo.countryCode`<br>`geo.state`<br>`geo.city`<br>`geo.zip`<br>`geo.dma`<br>`geo.domainName`<br>`geo.ispName`<br>`geo.connectionSpeed`<br>`geo.mobileCarrier` | Consulta [Geo](/help/main/c-target/c-audiences/c-target-rules/geo.md) per ulteriori informazioni sull’utilizzo del geotargeting nelle attività. |
    | Metodo di allocazione traffico<br>(si applica solo alle attività [!UICONTROL Auto-Target] e [!UICONTROL Automated Personalization]). | `experience.trafficAllocationId` | Restituisce 0 se un visitatore ha ricevuto un’esperienza dal traffico &quot;di controllo&quot; e 1 se un visitatore ha ricevuto un’esperienza dalla distribuzione del traffico &quot;mirata&quot;. |
    |  | `experience.trafficAllocationType` | Restituire &quot;di controllo&quot; o &quot;mirato&quot;. |
@@ -147,7 +169,7 @@ Nell&#39;esempio di risposta seguente viene aggiunto un gestore eventi personali
 
 ### ![Badge at.js](/help/main/assets/atjs.png) at.js utilizzando eventi personalizzati
 
-Utilizza [eventi personalizzati at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/atjs-custom-events.html?lang=it){target=_blank} per ascoltare la risposta [!DNL Target] e leggere i token di risposta.
+Utilizza [eventi personalizzati at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/atjs-custom-events.html?lang=en){target=_blank} per ascoltare la risposta [!DNL Target] e leggere i token di risposta.
 
 Il codice di esempio seguente aggiunge un gestore di eventi personalizzati di [!DNL at.js] direttamente alla pagina HTML:
 

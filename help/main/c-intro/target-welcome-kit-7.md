@@ -4,10 +4,20 @@ description: Iniziamo con la tua prima attività in Adobe  [!DNL Target]  in mod
 title: Devo creare la mia prima attività in Target. Dove inizio?
 feature: Overview
 exl-id: 4d07b088-a577-4c82-b35f-18d0be8428d8
-source-git-commit: 4564e0b95bbd19f20c75e5e83d452d12a5403083
+TQID: https://experienceleague.adobe.com/q9wWzcT6SV-CjcPBnxGmf4Nqwh8hIFBclxBo5O8nQ-M
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+  - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '1724'
-ht-degree: 76%
+source-wordcount: 1737
+ht-degree: 71%
 
 ---
 
@@ -41,10 +51,10 @@ Puoi eseguire il test di modifica del colore del pulsante di base o della copia,
 
 Di seguito sono riportati alcuni modi per scoprire le idee di attività che sono facili da implementare ma possono avere un grande impatto aziendale:
 
-* **Usa quello che sai.** Forse già conosci bene i tuoi clienti e hai un buon senso di ciò che risuonerà con loro. Utilizzalo per sviluppare esperienze personalizzate.
+* **Utilizza quello che sai.** Forse già conosci bene i tuoi clienti e hai un buon senso di ciò che risuonerà con loro. Utilizzalo per sviluppare esperienze personalizzate.
 * **Utilizza la tua soluzione di analisi.** Cerca i punti del tuo sito in cui i clienti abbandonano un flusso di acquisto o rimbalzano da una pagina. Rivedi le pagine e ipotizza cosa potrebbe causarne l’uscita prima di intraprendere l’azione desiderata.
-* **Usa la tua capacità di osservazione.** Osserva alcune pagine chiave del tuo sito web e usa il tuo istinto per identificare le cose che hanno bisogno di miglioramenti. Forse la pagina dei dettagli di un prodotto è troppo affollata e difficile, quindi semplificala. Forse un pulsante di acquisto è difficile da trovare, quindi spostarlo in una posizione più visibile.
-* **Osserva i tuoi concorrenti.** Una rapida revisione dei siti Web dei tuoi concorrenti potrebbe rivelare progetti, offerte, copie e altri elementi che ritieni altamente efficaci nel promuovere i risultati aziendali. Valuta come provare questi approcci sul tuo sito.
+* **Usa i tuoi poteri di osservazione.** Osserva alcune pagine chiave del tuo sito web e usa il tuo istinto per identificare le cose che hanno bisogno di miglioramenti. Forse la pagina dei dettagli di un prodotto è troppo affollata e difficile, quindi semplificala. Forse un pulsante di acquisto è difficile da trovare, quindi spostarlo in una posizione più visibile.
+* **Guarda i tuoi concorrenti.** Una rapida revisione dei siti web dei tuoi concorrenti potrebbe rivelare progetti, offerte, copie e altri elementi che ritieni altamente efficaci nel promuovere i risultati aziendali. Valuta come provare questi approcci sul tuo sito.
 * **Accedi al feedback del cliente.** I tuoi clienti potrebbero averti dato idee per migliorare la loro esperienza attraverso un sondaggio online o chiamate al servizio clienti. Identifica un punto dolente che molti hanno menzionato ed elabora un’esperienza che potrebbe eliminarlo.
 
 Mentre elabori l’idea da testare, ricorda che dovresti essere in grado di spiegare, idealmente con i dati, perché pensi che questa idea da te proposta possa migliorare l’esperienza del cliente e le metriche che contano per l’azienda.

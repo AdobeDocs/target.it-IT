@@ -4,14 +4,27 @@ description: Informazioni sulle risorse aggiuntive per scoprire di più sulle fu
 title: Dove posso trovare risorse e informazioni di contatto per Target?
 feature: Release Notes,Overview
 exl-id: 0433133c-933a-4d30-bab6-589395f0c9d6
-source-git-commit: ad45af0d0cb1a1ea26571cc985d6574ddd2c4963
+TQID: https://experienceleague.adobe.com/wwItoNoGUkLkNZED9frN7e5FE7O-iozDzMd2ekDdgfM
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+subfeature_v2:
+  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '1177'
-ht-degree: 78%
+source-wordcount: 1313
+ht-degree: 79%
 
 ---
 
-# Risorse e informazioni di contatto 
+# Risorse e informazioni di contatto
 
 Informazioni sulle risorse aggiuntive per scoprire di più sulle funzionalità di Target e su come contattare Adobe in caso di necessità di assistenza con Target.
 
@@ -124,9 +137,9 @@ Siamo lieti di ricevere qualsiasi suggerimento o feedback sulla soluzione. È po
 * © 2023 Adobe Systems Incorporated. All Rights Reserved.
 * Published by Adobe Systems Incorporated.
 
-[Condizioni d&#39;uso](https://www.adobe.com/legal/terms.html)
+[Condizioni d’uso](https://www.adobe.com/legal/terms.html)
 
-Adobe and the Adobe logo are either registered trademarks or trademarks of Adobe Systems Incorporated in the United States and/or other countries. Un simbolo di marchio (®, ™, ecc.) denota un marchio Adobe.
+Adobe and the Adobe logo are either registered trademarks or trademarks of Adobe Systems Incorporated in the United States and/or other countries. A trademark symbol (®, ™, etc.) denotes an Adobe trademark.
 
 All third-party trademarks are the property of their respective owners. Updated Information/Additional Third Party Code Information available at [https://www.adobe.com/go/thirdparty_it](https://www.adobe.com/it/products/eula/third_party.html).
 

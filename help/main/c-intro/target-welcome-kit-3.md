@@ -4,9 +4,21 @@ description: Scopri i sei passaggi di un processo collaudato per migliorare le i
 title: Come posso sviluppare le mie idee di test e personalizzazione?
 feature: Overview
 exl-id: 1f1af086-70bf-43ab-80aa-36d98d8d8d8f
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+TQID: https://experienceleague.adobe.com/jjs7B9nDwYBr7b6TYl2mG3f7wfO1pmgJSfV8NY5-UfU
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2:
+  - id: a09a5a04-e30b-4d55-b031-38e6f5ec86db
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '715'
+source-wordcount: 723
 ht-degree: 100%
 
 ---

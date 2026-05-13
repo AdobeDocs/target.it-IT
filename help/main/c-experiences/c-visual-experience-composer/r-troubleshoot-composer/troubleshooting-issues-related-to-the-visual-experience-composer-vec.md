@@ -4,10 +4,23 @@ description: Scopri come risolvere i problemi in [!UICONTROL Visual Experience C
 title: Come posso risolvere i problemi relativi a [!UICONTROL Visual Experience Composer]?
 feature: Visual Experience Composer (VEC)
 exl-id: ca251025-25e8-4e56-9b59-81310fc763c1
-source-git-commit: ef5df0ae37ca1d07c0e51c06ed78739b2d2983fc
+TQID: https://experienceleague.adobe.com/VNkydzzU-WRRAL0pqQPOs-sKrY8a6DS5Go764UGh0Hs
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+subfeature_v2:
+  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '1009'
-ht-degree: 23%
+source-wordcount: 1042
+ht-degree: 25%
 
 ---
 
@@ -15,7 +28,7 @@ ht-degree: 23%
 
 In determinate condizioni si verificano a volte problemi di visualizzazione in [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC).
 
-## Quando apro il sito Web in [!UICONTROL Visual Experience Composer], le librerie [!DNL Target] non vengono caricate. (Solo Compositore esperienza visivo)  {#section_8A7D3F4AD2CC4C3B823EE9432B97E06F}
+## Quando apro il sito Web in [!UICONTROL Visual Experience Composer], le librerie [!DNL Target] non vengono caricate. (Solo Compositore esperienza visivo) {#section_8A7D3F4AD2CC4C3B823EE9432B97E06F}
 
 +++Dettagli
 [!DNL Target] aggiunge due parametri (`mboxEdit=1` e `mboxDisable=1`) mentre apre il sito Web in [!UICONTROL Visual Experience Composer].
@@ -26,7 +39,7 @@ Per evitare questo problema, assicurati di non tagliare o rimuovere questi due p
 
 +++
 
-## La pagina non si apre nel Compositore esperienza avanzato, o si carica lentamente. Le attività o le esperienze si caricano lentamente nel Compositore esperienza visivo. (Solo Compositore esperienza visivo)  {#section_71E7601BE9894E3DA3A7FBBB72B6B0C1}
+## La pagina non si apre nel Compositore esperienza avanzato, o si carica lentamente. Le attività o le esperienze si caricano lentamente nel Compositore esperienza visivo. (Solo Compositore esperienza visivo) {#section_71E7601BE9894E3DA3A7FBBB72B6B0C1}
 
 +++Dettagli
 Diversi problemi possono influire sulle prestazioni della pagina nei compositori esperienza [!UICONTROL Target]. Alcuni problemi comuni includono:
@@ -145,7 +158,7 @@ Dopo aver configurato un&#39;estensione, aprire [!DNL Target]. Le pagine devono 
 
 +++
 
-## Il Compositore esperienza visivo sembra non funzionare quando utilizzo la modalità [!UICONTROL Browse]. (Solo Compositore esperienza visivo)  {#section_FA2A18E8FD6A4274B2E395DBAA2FB407}
+## Il Compositore esperienza visivo sembra non funzionare quando utilizzo la modalità [!UICONTROL Browse]. (Solo Compositore esperienza visivo) {#section_FA2A18E8FD6A4274B2E395DBAA2FB407}
 
 +++Dettagli
 Quando si utilizza la modalità [!UICONTROL Browse], se si accede a un URL in cui non sono implementate [!DNL Target] librerie ([at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/overview.html?lang=it){target=_blank} o [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=it){target=_blank}) o che contiene un&#39;intestazione frame-buster, il Compositore esperienza visivo risulta interrotto. A causa di problemi di sicurezza del browser, [!DNL Target] non può accedere correttamente all&#39;URL a cui sei passato oppure l&#39;URL del Compositore esperienza visivo non viene aggiornato in modo coerente se la pagina viene caricata.

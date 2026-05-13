@@ -5,10 +5,24 @@ title: Come si utilizzano i rapporti Approfondimenti Personalization?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=it#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."
 feature: Reports
 exl-id: 89295d95-f179-4277-ae63-453350e1bba8
-source-git-commit: 6c8f042acb257fc908349c679bf745e477f94af4
+TQID: https://experienceleague.adobe.com/qDaIhyfV-m3oHJArqg8TKMAe-k5QwjEUjGzhZrPSTEI
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+subfeature_v2:
+  - id: fff07a91-d479-45f4-ae95-9762e79b1b7c
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '877'
-ht-degree: 28%
+source-wordcount: 948
+ht-degree: 26%
 
 ---
 
@@ -90,7 +104,7 @@ Elenco delle domande frequenti sui report [!UICONTROL Automated Personalization]
 
 I modelli [!UICONTROL Automated Personalization] (AP) e [!UICONTROL Auto-Target] sono stati addestrati negli ultimi 45 giorni di comportamento dell&#39;utente (profili utente, eventi di impression ed eventi di conversione) per l&#39;attività.
 
-I modelli [!UICONTROL Automated Personalization] (AP) e [!UICONTROL Auto-Target] conservano il comportamento dell&#39;utente, i record di formazione e i dati di decisione del modello per 90 giorni per produrre [!UICONTROL Insights] report. Dopo 90 giorni, i documenti relativi alla formazione e i modelli decisi vengono eliminati. Anche i modelli [!UICONTROL Automated Personalization] (AP) e [!UICONTROL Auto-Target] conservano dati aggregati di impression e conversione a livello di esperienza/offerta a scopo di reporting per due anni. Questi dati sono solo dati a livello aggregato e non contengono dati di profilo a livello individuale.
+I modelli [!UICONTROL Automated Personalization] (AP) e [!UICONTROL Auto-Target] conservano il comportamento dell&#39;utente, i record di formazione e i dati di decisione del modello per 90 giorni per produrre [!UICONTROL Insights] report. Dopo 90 giorni, i documenti relativi alla formazione e i modelli decisi vengono eliminati. [!UICONTROL Automated Personalization] Anche i modelli (AP) e [!UICONTROL Auto-Target] conservano dati di impression e conversione aggregati a livello di esperienza/offerta a scopo di reporting per due anni. Questi dati sono solo dati a livello aggregato e non contengono dati di profilo a livello individuale.
 
 ## Video di formazione: Utilizzo dei rapporti Approfondimenti Personalization ![Icona esercitazione](/help/main/assets/tutorial.png)
 

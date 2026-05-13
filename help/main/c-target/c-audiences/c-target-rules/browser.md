@@ -4,9 +4,16 @@ description: Scopri come creare tipi di pubblico in [!DNL Adobe Target] per eseg
 title: Posso indirizzare i visitatori in base al tipo di browser?
 feature: Audiences
 exl-id: 8420bbe3-b58a-4ddb-89bb-0265dab6b5fc
-source-git-commit: 784f41a73941877135a5902f2331972ba9d0e880
+TQID: https://experienceleague.adobe.com/D7cLw1OVT61u8SgkjpzEvWylcX1uz14Ia4rf8jAJyXs
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '1015'
+source-wordcount: 1024
 ht-degree: 33%
 
 ---
@@ -122,7 +129,7 @@ Seleziona **[!UICONTROL Version]**, quindi scegli un operatore:
 * [!UICONTROL Is less than]
 * [!UICONTROL Is less than or equal to]
 
-Digita il numero di versione. In questo campo di testo è possibile immettere solo le versioni principali. La versione specificata include tutte le eventuali versioni secondarie di tale versione principale. Ad esempio, se specifichi la versione 10, sono inclusi anche i visitatori della versione 10.1.
+Digita il numero della versione. In questo campo di testo è possibile immettere solo le versioni principali. La versione specificata include tutte le eventuali versioni secondarie di tale versione principale. Ad esempio, se specifichi la versione 10, sono inclusi anche i visitatori della versione 10.1.
 
 Le opzioni multiple sono collegate con l’operatore O.
 

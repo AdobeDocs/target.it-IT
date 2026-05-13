@@ -5,10 +5,21 @@ title: Come si crea un'attività [!UICONTROL Auto-Target]?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=it#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."
 feature: Auto-Target
 exl-id: 5521740c-eee2-4ba2-8931-cf56d56a4561
-source-git-commit: 32a91a41cd182d3a55ded7dea8c1c6ea6f46aa71
+TQID: https://experienceleague.adobe.com/qbt-h-4C4uVz6r6xmwKmSeU-RuBdWikmtDQq40dBq9k
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '905'
-ht-degree: 19%
+source-wordcount: 930
+ht-degree: 18%
 
 ---
 
@@ -34,7 +45,7 @@ Per creare un&#39;attività [!UICONTROL Auto-Target]:
    >
    >Per informazioni sulla risoluzione dei problemi relativi al Compositore esperienza visivo, vedere [Risoluzione dei problemi relativi al Compositore esperienza visivo](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md).
 
-1. (Condizionale) Se sei un cliente di [Target Premium](/help/main/c-intro/intro.md#premium), scegli un **[!UICONTROL Choose Workspace]** area di lavoro[&#x200B; dall&#39;elenco a discesa &#x200B;](/help/main/administrating-target/c-user-management/property-channel/property-channel.md).
+1. (Condizionale) Se sei un cliente di [Target Premium](/help/main/c-intro/intro.md#premium), scegli un [area di lavoro](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) dall&#39;elenco a discesa **[!UICONTROL Choose Workspace]**.
 
    L&#39;opzione [[!UICONTROL Choose Workplace]](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) è una funzionalità di [Target Premium](/help/main/c-intro/intro.md) e potrebbe non essere visualizzata se la tua organizzazione dispone di una licenza di [!UICONTROL Target Standard].
 

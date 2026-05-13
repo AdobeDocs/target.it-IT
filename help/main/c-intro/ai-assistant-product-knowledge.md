@@ -4,10 +4,21 @@ description: Scopri come acquisire [!DNL Target] conoscenze sul prodotto con [!D
 title: Come si utilizza  [!DNL AI Assistant] in [!DNL Target] per acquisire informazioni sul prodotto?
 feature: Overview
 exl-id: 48a6a9d3-07e8-4858-b15b-48d182161a76
-source-git-commit: 1615dcf80643a1391a3b1fbad8e8378ff2785fd3
+TQID: https://experienceleague.adobe.com/C4O-4iorggYJHyg0MMtEb-n-v0-DtetiMtcDp-GWDWQ
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+subfeature_v2:
+  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '316'
-ht-degree: 6%
+source-wordcount: 315
+ht-degree: 1%
 
 ---
 
@@ -52,7 +63,7 @@ Per accedere a [!DNL AI Assistant] per informazioni sul prodotto:
 
    >[!IMPORTANT]
    >
-   >Le risposte generate dall’intelligenza artificiale possono essere imprecise o fuorvianti. Verifica le risposte e le fonti.
+   >Le risposte generate dall’intelligenza artificiale possono essere imprecise o fuorvianti. Assicurati di ricontrollare risposte e origini.
 
 1. (Facoltativo) Fornire un feedback a [!DNL AI Assistant].
 
@@ -66,10 +77,10 @@ Per accedere a [!DNL AI Assistant] per informazioni sul prodotto:
 
 Informazioni sulle applicazioni [!DNL Adobe Experience Platform] di [!DNL AI Assistant].
 
->[!VIDEO](https://video.tv.adobe.com/v/3441032/?learn=on&#x26;enablevpops&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/3441032/?captions=ita&learn=on&#x26;enablevpops)
 
 ### Convalidare le risposte dall’Assistente AI
 
 Scopri come verificare e convalidare le risposte fornite da [!DNL AI Assistant] in [!DNL Adobe Experience Platform].
 
->[!VIDEO](https://video.tv.adobe.com/v/3441747/?learn=on&#x26;enablevpops&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/3441747/?captions=ita&learn=on&#x26;enablevpops)

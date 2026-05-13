@@ -5,9 +5,17 @@ title: Come si crea un'attività  [!DNL Recommendations] ?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=it#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."
 feature: Recommendations
 exl-id: c83073d5-f852-4f09-8343-e4658fbf6f43
-source-git-commit: 32b3a93b30c6ca6f7576be5dbb25b476167b33b7
+TQID: https://experienceleague.adobe.com/rb9any1dsbk-E-ELV56A2D6X5f0z0cTziscrajmbYDA
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '1201'
+source-wordcount: 1218
 ht-degree: 50%
 
 ---
@@ -123,7 +131,7 @@ Utilizzare il Compositore esperienza visivo [!DNL Target] [!UICONTROL Visual Exp
 
 1. Rivedi l’attività di [!DNL Recommendations] nel diagramma di flusso e apporta le eventuali modifiche necessarie.
 
-   ![Diagramma di flusso di Recommendations](/help/main/c-recommendations/t-create-recs-activity/assets/SCRN_Workflow.png)
+   ![Diagramma di flusso di Consigli](/help/main/c-recommendations/t-create-recs-activity/assets/SCRN_Workflow.png)
 
    Il diagramma di flusso ti guida attraverso le fasi di selezione del pubblico per l’attività, configurazione delle esperienze e specifica delle metriche di successo.
 

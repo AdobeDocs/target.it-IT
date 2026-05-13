@@ -4,10 +4,15 @@ description: Scopri la metrica di coinvolgimento Punteggio di acquisizione in Ad
 title: Cos’è la metrica Punteggio di acquisizione?
 feature: Success Metrics
 exl-id: 3446cdef-7ee0-40dd-bf17-27def56668d4
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+TQID: https://experienceleague.adobe.com/iqCPEY9x7Lg9TlAhxn8e-B1XOnUfNgUWFdOf8Bw2F3w
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '778'
-ht-degree: 48%
+source-wordcount: 777
+ht-degree: 44%
 
 ---
 
@@ -21,7 +26,7 @@ Nell&#39;esempio seguente viene illustrato come viene calcolato il coinvolgiment
 
 In questo esempio, il primo visitatore sperimenta l&#39;esperienza del gatto. Si supponga che una richiesta [!DNL Target] globale passi in un punteggio di pagina basato sul valore della pagina. Se l&#39;addetto al marketing ha raccolto il coinvolgimento del conteggio delle pagine su una metrica di successo associata a `**any Target request**`, il punteggio di visita si accumula per qualsiasi richiesta visualizzata dopo la richiesta di visualizzazione intorno all&#39;immagine del gatto.
 
-La prima pagina aggiunge 1 al punteggio, la seconda pagina 0,25, la terza 0,10 e la quarta 0,10 per un totale di 1,45. Questo potrebbe essere interpretato come valuta o punti. In una visita diversa, un visitatore sperimenta l&#39;esperienza del cane e anche se il visitatore vede meno pagine, il punteggio è 2,10, quindi maggiore di altre visite, perché il visitatore ha visualizzato pagine con maggiore valore.
+La prima pagina aggiunge 1 al punteggio, la seconda pagina 0,25, la terza 0,10 e la quarta 0,10 per un totale di 1,45. Questo può essere interpretato come valuta o punti. In una visita diversa, un visitatore sperimenta l&#39;esperienza del cane e anche se il visitatore vede meno pagine, il punteggio è 2,10, quindi maggiore di altre visite, perché il visitatore ha visualizzato pagine con maggiore valore.
 
 Prendi in considerazione i costi di acquisizione e i ricavi del collegamento di affiliazione passando adbox e reindirizzamenti, come descritto nel seguente flusso di pagina. In questo esempio, entrambe le richieste [!DNL Target] nella pagina dell&#39;articolo superano un punteggio, probabilmente rappresentando un CPM noto.
 

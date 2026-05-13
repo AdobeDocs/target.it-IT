@@ -4,10 +4,21 @@ description: Trova le risposte alle domande che vengono spesso poste in merito a
 title: Risposte alle domande sulla visualizzazione di rapporti con A4T?
 feature: Analytics for Target (A4T)
 exl-id: a02eeb34-3975-424b-a046-e51f10ae1823
-source-git-commit: c747a8a0ed480130f254818e21b98addca16ca41
+TQID: https://experienceleague.adobe.com/H1hpX9csogL5grp85Zn1HZleM9GF85W5LU-y-k9MSyc
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+  - id: f7c7de77-382f-4f48-8b36-61a170f06d3d
+subfeature_v2:
+  - id: df62f171-ac37-440f-8f0f-f41a72ebdd34
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '2539'
-ht-degree: 26%
+source-wordcount: 2624
+ht-degree: 27%
 
 ---
 
@@ -49,7 +60,7 @@ Quando si segmenta un&#39;attività affinché sia presente in un hit, si ottengo
 
 +++
 
-## Perché non posso accedere a [!UICONTROL Goal Metrics] durante la configurazione di [!UICONTROL Advanced Settings]?
+## Perché non posso accedere a [!UICONTROL Advanced Settings] durante la configurazione di [!UICONTROL Goal Metrics]?
 
 +++Risposta
 Per le attività che utilizzano [!DNL Analytics] come origine per la generazione di rapporti (A4T), la metrica di obiettivo utilizza le impostazioni &quot;[!UICONTROL Increment Count & Keep User in Activity]&quot; e &quot;[!UICONTROL On Every Impression]&quot;. Queste impostazioni sono *non* configurabili.
@@ -61,7 +72,7 @@ Per ulteriori informazioni, consulta &quot;Perché non posso accedere alle opzio
 ## Devo utilizzare visitatori, visite o impression di attività come metrica di normalizzazione (cioè come metodologia di conteggio)? {#metrics}
 
 +++Risposta
-Esistono diverse opzioni per normalizzare le metriche nel reporting di A4T. Questa metrica, detta anche metodologia di conteggio, diventa il denominatore del calcolo dell’incremento. Inoltre, influisce sul modo in cui i dati vengono aggregati prima dell’applicazione del calcolo dell’affidabilità.
+Esistono diverse opzioni per normalizzare le metriche nel reporting di A4T. Questa metrica, detta anche metodologia di conteggio, diventa il denominatore del calcolo dell’incremento. Inoltre, influisce sul modo in cui i dati vengono aggregati prima dell’applicazione del calcolo del valore di affidabilità.
 
 * ***Visitatori univoci*** incrementano una volta quando un utente si qualifica per la prima volta per un&#39;attività.
 * Incremento di ***Visite*** per ogni sessione una volta che un utente (Visitatore univoco) entra in un&#39;attività, anche se l&#39;attività non viene visualizzata nelle visite successive.

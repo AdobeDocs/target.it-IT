@@ -5,10 +5,19 @@ title: Posso indirizzare i visitatori in base alla posizione?
 feature: Audiences
 solution: Target,Analytics
 exl-id: e4a71a4d-e8f3-4f94-a1a7-fd250f4d5095
-source-git-commit: 195028613dec0294c816703b9145e720e3209d74
+TQID: https://experienceleague.adobe.com/1ksd0-jtTMia-wqAfr6SxPqGVgd9t17dKSEyYrfYp1U
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '1014'
-ht-degree: 42%
+source-wordcount: 1059
+ht-degree: 40%
 
 ---
 
@@ -147,7 +156,7 @@ A causa del modo in cui AOL esegue il proxy del traffico, [!DNL Target] può ese
 ### Come posso testare le mie attività simulando di essere un utente proveniente da una posizione diversa?
 
 +++Vedi i dettagli
-* **at.js 1.*x***: è possibile sostituire l&#39;indirizzo IP con un indirizzo IP di una posizione diversa e utilizzare il parametro `mboxOverride.browserIp url`. Ad esempio, se la tua azienda è nel Regno Unito ma la campagna globale è indirizzata a visitatori di Auckland in Nuova Zelanda, utilizza questo stile di URL supponendo che `60.234.0.39` sia un indirizzo IP di Auckland:
+* **at.js 1.*x***: è possibile sovrascrivere l&#39;indirizzo IP con un indirizzo IP di una posizione diversa e utilizzare il parametro `mboxOverride.browserIp url`. Ad esempio, se la tua azienda è nel Regno Unito ma la campagna globale è indirizzata a visitatori di Auckland in Nuova Zelanda, utilizza questo stile di URL supponendo che `60.234.0.39` sia un indirizzo IP di Auckland:
 
   `https://www.mycompany.com?mboxOverride.browserIp=60.234.0.39`
 
@@ -155,9 +164,9 @@ A causa del modo in cui AOL esegue il proxy del traffico, [!DNL Target] può ese
 
   >[!NOTE]
   >
-  >`mboxOverride.browserIp` è supportato in at.js 1.*x*. Questa funzionalità non è supportata in at.js 2.*x*.
+  >`mboxOverride.browserIp` è supportato solo in at.js 1.*x*. Questa funzionalità non è supportata in at.js 2.*x*.
 
-* **Equivalente in at.js 2.*x***: per sostituire il tuo indirizzo IP con at.js 2.*x*, installa un&#39;estensione/plug-in del browser (ad esempio X-Forwarded-For Header per Chrome o Firefox). Questa estensione ti consente di trasmettere l’intestazione x-inoltrato-per nelle richieste della pagina.
+* **at.js 2.*x***: per ignorare l&#39;indirizzo IP con at.js 2.*x*, installa un&#39;estensione del browser o un plug-in (ad esempio X-Forwarded-For Header for Chrome o Firefox). Questa estensione ti consente di trasmettere l’intestazione x-inoltrato-per nelle richieste della pagina.
 
 +++
 

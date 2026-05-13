@@ -4,9 +4,15 @@ description: Scopri come interpretare i risultati delle attività A/B di [!UICON
 title: Come posso interpretare [!UICONTROL Auto-Allocate] report?
 feature: Auto-Allocate
 exl-id: 4ed00eee-8939-4958-9be6-b45a8c08afbc
-source-git-commit: 32a91a41cd182d3a55ded7dea8c1c6ea6f46aa71
+TQID: https://experienceleague.adobe.com/o4mFGMk-M5QUvJ57kYnfjMPvVZL8l6YegJQSJyHjAxc
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '1163'
+source-wordcount: 1190
 ht-degree: 20%
 
 ---

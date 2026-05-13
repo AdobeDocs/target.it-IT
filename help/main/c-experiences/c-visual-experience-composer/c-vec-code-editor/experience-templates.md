@@ -4,16 +4,21 @@ description: Scopri come utilizzare i modelli di esperienza, ovvero esempi preco
 title: Quali modelli di esperienza sono disponibili in Target?
 feature: Visual Experience Composer (VEC)
 exl-id: 83bee583-656f-47d4-8892-e41b6629696f
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+TQID: https://experienceleague.adobe.com/0FXZ1swtrMyiz9mT8tvb9VIQxIIXsBrW0HelZ3sygm8
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '446'
-ht-degree: 75%
+source-wordcount: 573
+ht-degree: 60%
 
 ---
 
 # Modelli di esperienza
 
-Informazioni sui modelli di esperienza [!DNL Adobe Target] da utilizzare nel codice personalizzato. I modelli di esperienza [!DNL Target] sono esempi precodificati con input configurabili da utilizzare per eseguire casi comuni di utilizzo di addetti al marketing.
+Informazioni sui modelli di esperienza [!DNL Adobe Target] da utilizzare nel codice personalizzato. [!DNL Target] I modelli di esperienza sono esempi precodificati con input configurabili da utilizzare per casi di utilizzo comuni per gli addetti al marketing.
 
 Questi modelli di esperienza sono disponibili gratuitamente per gli sviluppatori e i rivenditori come punto di partenza per eseguire alcuni casi comuni di utilizzo esterno in Adobe Target (tramite il Compositore esperienza visivo o il Compositore esperienza basato su modulo).
 

@@ -4,10 +4,15 @@ description: Scopri come specificare [!UICONTROL Activity URL] che determina la 
 title: Cos'è [!UICONTROL Activity URL] in un'attività [!UICONTROL Experience Targeting] (XT)?
 feature: Experience Targeting
 exl-id: 8e3be814-6ad6-4ffa-be8d-68f0cb7857b5
-source-git-commit: 3a44c05bea24c622292dd0b774f88f0c93be1d88
+TQID: https://experienceleague.adobe.com/igvyk-2atEe7JdYuFj3IXlXyE1CzVkLuwv50DSmSxuY
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '259'
-ht-degree: 38%
+source-wordcount: 268
+ht-degree: 37%
 
 ---
 

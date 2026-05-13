@@ -4,9 +4,19 @@ description: Dove posso trovare idee e ispirazioni per le mie attività di test 
 title: Dove posso trovare ispirazione per i miei tentativi di test e personalizzazione?
 feature: Overview
 exl-id: ac4eb710-3f8b-417f-ad8a-ebe48771170d
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+TQID: https://experienceleague.adobe.com/8pCTZy1NR9Pt-TEWZFDinlS66fxhlYybFe69QrpMyT4
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c18d9e03-ac7d-4811-9c92-3e92ddc70ade
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '1066'
+source-wordcount: 1073
 ht-degree: 100%
 
 ---

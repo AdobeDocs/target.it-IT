@@ -4,10 +4,18 @@ description: Scopri come eseguire il targeting dei visitatori che utilizzano  [!
 title: Posso indirizzare i visitatori in base alle pagine del sito?
 feature: Audiences
 exl-id: 4c770b7b-775f-4483-aced-43f18a9a68c1
-source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
+TQID: https://experienceleague.adobe.com/ROMKabnbH3yE-W61IQk9CtNpKMg7zA6-qdxu272EVOI
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '800'
-ht-degree: 18%
+source-wordcount: 822
+ht-degree: 20%
 
 ---
 

@@ -4,10 +4,19 @@ description: Scopri come  [!DNL Adobe Target]  consente di tenere traccia dei cl
 title: Cos’è il tracciamento dei clic?
 feature: Success Metrics
 exl-id: 9181424b-179e-49fc-b760-b764a0c3458a
-source-git-commit: 43d2484e57b1e2d292cf65c041fb9f5f49b2084c
+TQID: https://experienceleague.adobe.com/Nk1MANDrtYMHmUQfcJi-gT-HoW1j--sikurxSloM2LU
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '858'
-ht-degree: 75%
+source-wordcount: 866
+ht-degree: 76%
 
 ---
 
@@ -71,7 +80,7 @@ Ci sono diversi fattori da considerare quando si selezionano gli elementi:
 
   | Carattere | Descrizione |
   |---|---|
-  | N. | Cancelletto o hash |
+  | # | Cancelletto o hash |
   | : | Due punti |
   | . | Punto |
   | $ | Simbolo del dollaro |

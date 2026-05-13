@@ -1,13 +1,31 @@
 ---
-keywords: Recommendations
+keywords: Consigli
 description: Scopri i requisiti di implementazione per Analytics per  [!DNL Target]  (A4T) e cosa considerare prima di implementare questa integrazione.
 title: Cosa Devo Sapere Prima Di Implementare A4T?
 feature: Analytics for Target (A4T)
 exl-id: 1c98b20b-4dd1-4011-b0cd-5096471af095
-source-git-commit: 656f728ba890f1f5afc0404e22f6acb1a2565fe6
+TQID: https://experienceleague.adobe.com/KtHxPpwI1XiyK-Wz8BegBgsBfdPpcW8f9v08jCgVv0k
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+  - id: f7c7de77-382f-4f48-8b36-61a170f06d3d
+subfeature_v2:
+  - id: df62f171-ac37-440f-8f0f-f41a72ebdd34
+  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+  - id: fff07a91-d479-45f4-ae95-9762e79b1b7c
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '957'
-ht-degree: 23%
+source-wordcount: 1014
+ht-degree: 26%
 
 ---
 

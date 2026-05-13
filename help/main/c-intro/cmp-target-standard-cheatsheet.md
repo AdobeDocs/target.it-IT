@@ -4,9 +4,30 @@ description: Esplora un elenco di domande frequenti sull'utilizzo delle funziona
 title: Dove posso trovare le risposte alle mie domande su ottimizzazione e personalizzazione?
 feature: Overview
 exl-id: 75e29d2a-78e7-40aa-b134-36a7cc8b3ed8
-source-git-commit: f5fa1d5c1747ed4c1e5e3d35f3c01f49f3f255c3
+TQID: https://experienceleague.adobe.com/ZLjNWdMjyDhOM4i7SzNGKZ5izqeusWmDLLNWG1HBaFg
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+  - id: f7c7de77-382f-4f48-8b36-61a170f06d3d
+subfeature_v2:
+  - id: df62f171-ac37-440f-8f0f-f41a72ebdd34
+  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '2724'
+source-wordcount: 2806
 ht-degree: 50%
 
 ---
@@ -107,7 +128,7 @@ Tieni presente che il fabbisogno di traffico aumenta con le attività MVT.
 
 +++
 
-**È possibile eseguire un&#39;attività che si estende su più pagine in cui la struttura della pagina è diversa? È possibile applicare offerte in posizioni diverse (ad esempio, funnel di checkout)?**
+**È possibile eseguire un&#39;attività che si estende su più pagine in cui la struttura della pagina è diversa? È possibile applicare offerte in posizioni diverse (ad esempio, funnel di pagamento)?**
 
 +++Vedi i dettagli
 Prova la [funzionalità per attività multipagina](/help/main/c-experiences/c-visual-experience-composer/multipage-activity.md#concept_277E096063E14813AC5D8EDFA1D2ED48) che consente di utilizzare più pagine all&#39;interno di esperienze.
@@ -123,7 +144,7 @@ Quindi, in questo caso, è possibile scegliere “Incrementa il conteggio, rilas
 
 +++
 
-**Ho creato più obiettivi nella mia attività. Posso creare una catena di obiettivi come funnel per scopi di reporting e analisi? Ad esempio, voglio considerare l&#39;obiettivo B quando l&#39;utente ha raggiunto l&#39;obiettivo A in modo che io possa tracciare i numeri per un funnel specifico.**
+**Ho creato più obiettivi nella mia attività. Posso creare una catena di obiettivi come funnel per scopi di reporting e analisi? Si supponga, ad esempio, di voler considerare l&#39;obiettivo B quando l&#39;utente ha raggiunto l&#39;obiettivo A in modo che sia possibile tenere traccia dei numeri per un determinato funnel.**
 
 +++Vedi i dettagli
 [!DNL Target] dispone di un metodo affidabile per ottenere questo risultato con la funzionalità [!UICONTROL Metrics Dependency]. È sufficiente [aggiungere dipendenze su altre metriche di successo](/help/main/c-activities/r-success-metrics/success-metrics.md#section_7CE95A2FA8F5438E936C365A6D43BC5B). Sono disponibili opzioni quali “Raggiunto” e “Non raggiunto”, insieme alla capacità di combinare metriche in più modi per creare qualsiasi combinazione desiderata.

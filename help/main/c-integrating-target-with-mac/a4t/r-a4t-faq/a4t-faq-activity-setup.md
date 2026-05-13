@@ -4,9 +4,16 @@ description: Risposte alle domande sulla configurazione delle attività durante 
 title: Dove posso trovare domande frequenti sulle impostazioni delle attività con A4T?
 feature: Analytics for Target (A4T)
 exl-id: 8a8cdbb9-89f6-4e4a-a53e-8f33adab4d61
-source-git-commit: 981cff428d9e8849b9bbcbf7bef389dad0fbb32a
+TQID: https://experienceleague.adobe.com/y4pSMxqYoXPMyrkG7ZW9XuJP-R2iVaH2OqhcXn02Vs8
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '596'
+source-wordcount: 606
 ht-degree: 10%
 
 ---

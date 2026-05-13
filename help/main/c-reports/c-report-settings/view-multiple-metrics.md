@@ -4,9 +4,14 @@ description: Scopri come selezionare più metriche da visualizzare in un rapport
 title: Come si visualizzano più metriche in un rapporto?
 feature: Reports
 exl-id: 8d8aedd8-4583-4131-8ae0-df14e071940a
-source-git-commit: c1a71d1fb6fa9b5c14e22fa3199358a4594bb4a1
+TQID: https://experienceleague.adobe.com/mXLlrS1wwfISfxWxq2c-sMDJP1vqxQjbqM-DsLJK9bY
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '391'
+source-wordcount: 397
 ht-degree: 12%
 
 ---

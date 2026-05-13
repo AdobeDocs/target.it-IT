@@ -5,9 +5,19 @@ title: Come si basa [!UICONTROL Recommendation] su [!UICONTROL Recommendation Ke
 feature: Recommendations
 mini-toc-levels: 2
 exl-id: 49764f18-88fb-41be-b2a0-e7ced9de742c
-source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
+TQID: https://experienceleague.adobe.com/1gI3rMMf9s5ogc4BvBz4fMUqxed1Nqad0XoaR8SlU58
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: f7c7de77-382f-4f48-8b36-61a170f06d3d
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '3463'
+source-wordcount: 3510
 ht-degree: 27%
 
 ---
@@ -34,7 +44,7 @@ Diversi algoritmi di Recommendations si prestano a essere posizionati su diversi
 
 ## Basato su carrello {#cart-based}
 
-Il tipo di algoritmo [!UICONTROL Cart-Based] consente di consigliare gli elementi in base al contenuto del carrello corrente del visitatore. Le chiavi di consigli sono fornite tramite il parametro [`cartIds` di &#x200B;](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=it){target=_blank}mbox in valori separati da virgola. Vengono considerati solo i primi 10 valori.
+Il tipo di algoritmo [!UICONTROL Cart-Based] consente di consigliare gli elementi in base al contenuto del carrello corrente del visitatore. Le chiavi di consigli sono fornite tramite il parametro `cartIds`[&#128279;](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=it){target=_blank} di mbox in valori separati da virgola. Vengono considerati solo i primi 10 valori.
 
 La logica dei consigli basati sul carrello è simile all&#39;algoritmo basato sull&#39;utente &quot;[!UICONTROL Recommended For You]&quot; e agli algoritmi basati sull&#39;elemento &quot;[!UICONTROL People Who Viewed These, Bought Those]&quot; e &quot;[!UICONTROL People Who Bought These, Bought Those]&quot;.
 
@@ -295,7 +305,7 @@ Se si seleziona questo algoritmo, è possibile selezionare le seguenti chiavi di
 
 Il tipo di algoritmo [!UICONTROL Custom Criteria] ti consente di formulare raccomandazioni in base a un file personalizzato caricato.
 
-Il consiglio è determinato da un elemento memorizzato nel profilo di un visitatore, utilizzando uno degli utenti.*x* o profilo.Attributi *x*.
+Il consiglio è determinato da un elemento memorizzato nel profilo di un visitatore, utilizzando gli attributi utente.*x* o profilo.*x*.
 
 Quando questa opzione è selezionata, il valore `entity.id` deve essere presente nell&#39;attributo profilo.
 

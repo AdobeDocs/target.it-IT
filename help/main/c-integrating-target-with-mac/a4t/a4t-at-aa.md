@@ -4,10 +4,27 @@ description: Scopri come creare [!UICONTROL Auto-Allocate] e [!UICONTROL Auto-Ta
 title: A4T supporta [!UICONTROL Auto-Allocate] e [!UICONTROL Auto-Target] attività?
 feature: Analytics for Target (A4T)
 exl-id: 3302f26d-c445-4779-8435-be142d5cea8c
-source-git-commit: ddced04c730519dae74e70a60bed26462825ad23
+TQID: https://experienceleague.adobe.com/VVbjMp7jYDyslZ8ubn8ntPufLK8nKGI9k3ZGh1DLWWs
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+  - id: f7c7de77-382f-4f48-8b36-61a170f06d3d
+subfeature_v2:
+  - id: df62f171-ac37-440f-8f0f-f41a72ebdd34
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '1276'
-ht-degree: 4%
+source-wordcount: 1352
+ht-degree: 6%
 
 ---
 
@@ -85,7 +102,7 @@ Per iniziare:
 
 ### Impatto su [!UICONTROL Auto-Allocate] attività
 
-| Nome della metrica | Non più supportato in: |
+| Nome metrica | Non più supportato in: |
 | --- | --- |
 | [!UICONTROL averagepagedepth] | Tasso di conversione, massimizzare il valore della metrica |
 | [!UICONTROL averagetimespentonsite] | Tasso di conversione, massimizzare il valore della metrica |
@@ -100,7 +117,7 @@ Per iniziare:
 
 ### Impatto su [!UICONTROL Auto-Target] attività
 
-| Nome della metrica | Non più supportato in: |
+| Nome metrica | Non più supportato in: |
 | --- | --- |
 | [!UICONTROL cartremovals] | Massimizzare il valore della metrica |
 | [!UICONTROL pageviews] | Massimizzare il valore della metrica |

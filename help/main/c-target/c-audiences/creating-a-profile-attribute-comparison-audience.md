@@ -4,10 +4,19 @@ description: Scopri come definire un pubblico per confrontare due attributi di p
 title: È possibile confrontare due attributi di profilo da utilizzare nei tipi di pubblico?
 feature: Audiences
 exl-id: 033e90f1-5a05-4fce-a520-68826860a908
-source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
+TQID: https://experienceleague.adobe.com/ri17ME4xHa-HoBjcwOg4fnG7QwIoy2r9Pa3-tB-ECJ8
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '412'
-ht-degree: 51%
+source-wordcount: 428
+ht-degree: 52%
 
 ---
 

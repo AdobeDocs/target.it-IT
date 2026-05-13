@@ -3,10 +3,35 @@ description: Cosa significano i vari termini utilizzati in Adobe  [!DNL Target] 
 title: Dove posso trovare termini e definizioni utilizzati in Target?
 feature: Overview
 exl-id: 7385844a-1472-409c-aca2-dd9f4bf95534
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+TQID: https://experienceleague.adobe.com/3NVue96KdaSn9GJq8xVn-3wijCZofXzQzV4NYn8uDPQ
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+subfeature_v2:
+  - id: b6f5758b-84f7-4943-8b05-1297a046943c
+  - id: e73b329c-f712-4a22-abe7-bfbf3be6d0f9
+  - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
+  - id: f0055dd2-93f3-4ac8-9abc-d69d4ed2d977
+  - id: f2d0aafb-18af-41a0-a32e-2788eafacc2b
+  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+  - id: e9001ce2-5245-4a8e-8601-dd958009072f
+  - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '2480'
-ht-degree: 98%
+source-wordcount: 2514
+ht-degree: 97%
 
 ---
 
@@ -50,7 +75,7 @@ La libreria [!DNL at.js] è una nuova libreria di implementazione per [!DNL Adob
 
 **pubblico**
 
-Un gruppo di partecipanti a un’attività con caratteristiche simili, che visualizzeranno un’attività con targeting. Gruppo di persone con le stesse caratteristiche, ad esempio nuovi visitatori, visitatori di ritorno o visitatori provenienti da una specifica area geografica. La funzione Pubblico consente di indirizzare contenuti ed esperienze diversi a tipi di pubblico specifici per ottimizzare le attività di marketing digitale presentando al momento giusto i messaggi più appropriati ai vari visitatori. Se un visitatore viene identificato come parte di un pubblico, Target determina quale esperienza mostrare, in base ai criteri stabiliti durante la creazione dell’attività.
+Un gruppo di partecipanti a un’attività con caratteristiche simili, che visualizzeranno un’attività con targeting.  Gruppo di persone con le stesse caratteristiche, ad esempio nuovi visitatori, visitatori di ritorno o visitatori provenienti da una specifica area geografica. La funzione Pubblico consente di indirizzare contenuti ed esperienze diversi a tipi di pubblico specifici per ottimizzare le attività di marketing digitale presentando al momento giusto i messaggi più appropriati ai vari visitatori. Se un visitatore viene identificato come parte di un pubblico, Target determina quale esperienza mostrare, in base ai criteri stabiliti durante la creazione dell’attività.
 
 **Allocazione automatica**
 
@@ -250,7 +275,7 @@ Un visitatore viene incluso nel segmento Nuovi visitatori se viene soddisfatta u
 * È la prima volta che visita il sito dopo aver cancellato i cookie.
 * È la prima volta che visita il sito da quando la [Durata del profilo del visitatore](/help/main/c-target/c-visitor-profile/visitor-profile-lifetime.md) è scaduta.
 
-Per ulteriori informazioni, consulta [Come vengono conteggiate le metriche Nuovi visitatori e Visitatori di ritorno?](/help/main/c-reports/reporting-frequently-asked-questions.md#methodology) in “Domande frequenti sulla generazione di rapporti”. Confronta con “Visitatore di ritorno”, di seguito.
+Per ulteriori informazioni, consulta [Come vengono conteggiate le metriche Nuovi visitatori e Visitatori di ritorno?](/help/main/c-reports/reporting-frequently-asked-questions.md#methodology) in Domande frequenti sulla generazione di rapporti. Confronta con &quot;Visitatore di ritorno&quot;, qui sotto.
 
 ## O {#section_A2C1A057EC87445CBDB535E80C371105}
 

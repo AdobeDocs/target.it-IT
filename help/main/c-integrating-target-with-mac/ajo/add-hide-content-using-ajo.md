@@ -7,10 +7,20 @@ feature: Integrations
 hide: true
 hidefromtoc: true
 exl-id: 8c4fba88-908e-4742-ac4b-bdf7f4c882db
-source-git-commit: f6034e83564a9a386e21e4e57279c66cc3c94537
+TQID: https://experienceleague.adobe.com/sTvR771HCE-lkk9Fg7wXkP2p2ORPYehO23d76hVCOZU
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: f7c7de77-382f-4f48-8b36-61a170f06d3d
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 16fb7a1902ea76cab56a93fa141a32a3c6bc4467
 workflow-type: tm+mt
-source-wordcount: '585'
-ht-degree: 1%
+source-wordcount: 659
+ht-degree: 2%
 
 ---
 

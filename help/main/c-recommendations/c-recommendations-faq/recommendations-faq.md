@@ -5,10 +5,16 @@ title: Dove posso trovare domande e risposte su  [!DNL Recommendations]?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=it#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."
 feature: Recommendations
 exl-id: aaa52923-1c2d-44ae-bd89-671329222077
-source-git-commit: 18f6c06aa06e9526ee65bd3cc0f9b552c91c10e7
+TQID: https://experienceleague.adobe.com/Hz37Dp21q-25Pj6mmbiaGqONY14eImVB9Ebz8VH9hMA
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '3444'
-ht-degree: 84%
+source-wordcount: 3467
+ht-degree: 82%
 
 ---
 
@@ -48,7 +54,7 @@ Dopo aver importato un file di feed, o ricevuto aggiornamenti di entità tramite
 
   Questa situazione si verifica perché [!DNL Target] applica le esclusioni sia online che offline. Quando un elemento viene escluso di recente, l’esclusione online viene applicata rapidamente. Quando un elemento è stato incluso di recente, l’esclusione online viene applicata rapidamente mentre quella offline viene applicata solo alla successiva esecuzione dell’algoritmo.
 
-* Se un elemento è stato incluso in precedenza ma ora deve essere escluso, l’elemento viene escluso secondo la tempistica “Attributi elemento aggiornati…” di cui sopra a seconda della sorgente dei feed (15 minuti tramite mbox/API o 12-24 ore tramite feed).
+* Se un elemento è stato incluso in precedenza ma ora deve essere escluso, l’elemento viene escluso in base agli &quot;Attributi elemento aggiornati...&quot; la linea temporale di cui sopra dipende dalla sorgente dei feed (15 minuti tramite mbox/API o 12-24 ore tramite feed).
 
 Le modifiche seguenti vengono applicate solo dopo l’esecuzione dell’algoritmo successivo (entro 12-24 ore):
 
@@ -146,7 +152,7 @@ Considera le seguenti informazioni se noti che una raccolta, che in precedenza n
 
 La ponderazione degli attributi esiste in due forme: “ponderazione attributi standard” e “ponderazione attributi per somiglianza di contenuti”.
 
-La “ponderazione attributi standard” si applica, se non a tutti, alla maggior parte di tipi di criteri (non solo alla Somiglianza contenuti). Questo tipo di ponderazione dà più peso a determinati valori di attributo. Nell’esempio seguente, i prodotti Nike ottengono un aumento dei consigli in uscita.
+La &quot;ponderazione degli attributi standard&quot; si applica alla maggior parte dei tipi di criteri, se non a tutti (non solo alla Somiglianza dei contenuti). Questo tipo di ponderazione dà più peso a determinati valori di attributo. Nell’esempio seguente, i prodotti Nike ottengono un aumento dei consigli in uscita.
 
 ![immagine di esempio_ponderazione_attributo](assets/attribute_weighting_example.png)
 
@@ -198,13 +204,13 @@ Assicurati che il pubblico abbia un nome univoco. Se hai assegnato al pubblico l
 
 ## Qual è la dimensione massima di un file CSV per un caricamento del feed? {#section_20F1AF4839A447B9889B246D6E873538}
 
-Non vi è alcun limite stabilito sul numero di righe o sulle dimensioni del file per il caricamento del file CSV di un feed. Tuttavia, come best practice, Adobe consiglia di limitare le dimensioni del file CSV a 1 GB per evitare errori durante il processo di caricamento dei file. Se le dimensioni del file superano 1 GB, idealmente può essere suddiviso in più file di feed. Il numero massimo di colonne di attributi personalizzati è 100 e gli attributi personalizzati sono limitati a 4096 caratteri. Nella pagina Limitazioni di [[!DNL Target]  sono disponibili altri limiti per la lunghezza delle colonne richieste](/help/main/r-troubleshooting-target/target-limits.md#reference_BEFE60C3AAA442FF94D4EBFB9D3CC9B1). 
+Non vi è alcun limite stabilito sul numero di righe o sulle dimensioni del file per il caricamento del file CSV di un feed. Tuttavia, come best practice, Adobe consiglia di limitare le dimensioni del file CSV a 1 GB per evitare errori durante il processo di caricamento dei file. Se le dimensioni del file superano 1 GB, idealmente può essere suddiviso in più file di feed. Il numero massimo di colonne di attributi personalizzati è 100 e gli attributi personalizzati sono limitati a 4096 caratteri. Nella pagina Limitazioni di [[!DNL Target]  sono disponibili altri limiti per la lunghezza delle colonne richieste](/help/main/r-troubleshooting-target/target-limits.md#reference_BEFE60C3AAA442FF94D4EBFB9D3CC9B1).
 
 ## È possibile escludere un’entità in modo dinamico? {#exclude}
 
 Nella stringa di query, puoi trasmettere gli ID per le entità da escludere dai consigli. Ad esempio, puoi escludere gli articoli già presenti nel carrello.
 
-Per abilitare la funzionalità di esclusione, utilizzate il parametro mbox `excludedIds`. Questo parametro punta a un elenco di ID di entità separati da virgola. Ad esempio, `mboxCreate(..., "excludedIds=1,2,3,4,5")`. Il valore viene inviato al momento della richiesta delle raccomandazioni.
+Per abilitare la funzionalità di esclusione, utilizzate il parametro mbox `excludedIds`. Questo parametro punta a un elenco di ID di entità separati da virgola. Ad esempio, `mboxCreate(..., "excludedIds=1,2,3,4,5")`. Il valore viene inviato al momento della richiesta dei consigli.
 
 L’esclusione viene eseguita solo per la chiamata [!DNL Target] corrente; gli elementi non vengono esclusi nelle chiamate [!DNL Target] successive a meno che il valore `excludedIds` non venga nuovamente trasmesso. Per escludere gli elementi nel carrello dai consigli su ogni pagina, continua a trasmettere il valore `excludedIds` su ogni pagina.
 
@@ -214,9 +220,9 @@ L’esclusione viene eseguita solo per la chiamata [!DNL Target] corrente; gli e
 
 Per escludere `entityIds` aggiungi in coda il token `&excludes=${mbox.excludedIds}` per l’URL di contenuto dell’offerta. Quando l&#39;URL di contenuto viene estratto, i parametri necessari vengono sostituiti mediante i parametri di richiesta mbox correnti.
 
-Per impostazione predefinita, questa funzione è attiva per i consigli appena creati. I consigli esistenti devono essere salvati per supportare le entità a esclusione dinamica.
+Per impostazione predefinita, questa funzione è abilitata per i consigli appena creati. I consigli esistenti devono essere salvati per supportare le entità a esclusione dinamica.
 
-## Cosa significa la risposta NO_CONTENT a volte restituita nella traccia di contenuto di Recommendations?
+## Cosa significa la risposta NO_CONTENT a volte restituita nella traccia di contenuto della funzione Consigli?
 
 NO_CONTENT viene restituito quando i consigli non sono disponibili per la combinazione di algoritmo e chiave richiesta. In generale, questa situazione si verifica quando i backup vengono disabilitati per l’algoritmo e si verifica anche una o più delle seguenti situazioni:
 
@@ -230,7 +236,7 @@ NO_CONTENT viene restituito quando i consigli non sono disponibili per la combin
 
 * I risultati sono pronti, ma non disponibili per il valore chiave fornito.
 
-  Questa situazione si verifica in genere quando si richiedono raccomandazioni per un elemento aggiunto al catalogo dopo l’esecuzione dell’algoritmo più recente e si risolve da solo dopo l’esecuzione dell’algoritmo successivo.
+  Questa situazione si verifica in genere quando si richiedono consigli per un elemento aggiunto al catalogo dopo l’esecuzione più recente dell’algoritmo e si risolve da solo dopo l’esecuzione successiva dell’algoritmo.
 
 * Il rendering parziale del modello è disabilitato e non sono disponibili risultati sufficienti per riempire il modello.
 
@@ -288,8 +294,8 @@ Alcuni clienti dei settori comunicazione ed editoria desiderano assicurarsi che 
 
 Di seguito sono riportati i problemi noti relativi alle attività [!UICONTROL Recommendations]:
 
-* Quando [!DNL Target] restituisce un’offerta JSON con getOffer(), restituisce con il tipo di JSON. Tuttavia, se restituisci una progettazione de Recommendations JSON, restituisce un tipo HTML.
+* Quando [!DNL Target] restituisce un’offerta JSON con getOffer(), restituisce con il tipo di JSON. Tuttavia, se restituisci una progettazione di consigli JSON, restituisce un tipo HTML.
 * Le entità scadono correttamente una volta trascorsi 60 giorni senza ricevere aggiornamenti tramite feed o API; tuttavia, dopo la scadenza le entità scadute non vengono rimosse dall’indice di ricerca del catalogo. Anche le entità eliminate tramite feed o API al momento non vengono rimosse dall’indice di ricerca nel catalogo. (IRI-857)
 * Le offerte Consigli nelle attività A/B e Targeting esperienza non presentano un’anteprima visiva della barra de Recommendations. (TGT-33426)
-* Le attività Recommendations create tramite API sono visibili nell’interfaccia, ma possono essere modificate solo tramite API.
+* Le attività Consigli create tramite API sono visibili nell’interfaccia, ma possono essere modificate solo tramite API.
 * Lo stato del feed dei criteri personalizzati visualizzato nell’elenco (scheda) Criteri viene aggiornato ogni dieci minuti e in alcune rare circostanze potrebbe contenere dati risalenti a oltre dieci minuti prima. Lo stato visualizzato nella vista di modifica dei criteri personalizzati viene recuperato in tempo reale ed è sempre aggiornato. (TGT-35896, TGT-36173)

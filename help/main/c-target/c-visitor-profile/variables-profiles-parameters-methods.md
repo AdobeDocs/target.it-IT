@@ -4,10 +4,23 @@ description: Visualizza un elenco di vari profili, variabili e parametri utili n
 title: Quali profili, variabili e parametri vengono utilizzati in  [!DNL Target]?
 feature: Audiences
 exl-id: 96ef9a56-fe76-428e-a164-c01829fdf45d
-source-git-commit: e45ac15a60c83e35b8b2b2ba29a42727faf746df
+TQID: https://experienceleague.adobe.com/YMF4eXnu758kloK--c2mBzP-rwLBNRO2jLoV6s-P5JM
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+subfeature_v2:
+  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '677'
-ht-degree: 67%
+source-wordcount: 699
+ht-degree: 59%
 
 ---
 
@@ -30,7 +43,7 @@ Questa pagina elenca i profili, le variabili e i parametri utili negli script de
 | User.browser | Agente utente |
 | user.browserType | Restituisce il tipo di browser, ad esempio safari, chrome e così via. |
 | User.header | Tutti i profili `user.header` sono incorporati dai dati di intestazione di richiesta mbox |
-| user.header(&#39;x-forwarded-for&#39;) | L&#39;indirizzo IP pubblico della connessione di rete che in cui si trova il visitatore.<br>È possibile ottenerlo in diversi modi, ad esempio [whatismyip.com](https://www.whatismyip.com/). L&#39;indirizzo IP non è l&#39;indirizzo NAT (indirizzo interno), che inizia con 10., 192,168., o 172.<br>Nota: user.header(&#39;x-cluster-client-ip&#39;) è stato dichiarato obsoleto. |
+| user.header(&#39;x-forwarded-for&#39;) | L&#39;indirizzo IP pubblico della connessione di rete che in cui si trova il visitatore.<br>È possibile ottenerlo in diversi modi, ad esempio [whatismyip.com](https://www.whatismyip.com/). L&#39;indirizzo IP non è l&#39;indirizzo NAT (indirizzo interno), che inizia con 10., 192.168. o 172.<br>Nota: user.header(&#39;x-cluster-client-ip&#39;) è stato dichiarato obsoleto. |
 | user.header(&#39;host&#39;) | Hostname del sito web |
 | user.header(&#39;cookie&#39;) | Dati cookie del visitatore |
 | user.header(&#39;user-agent&#39;) | Agente utente del browser del visitatore |
@@ -88,7 +101,7 @@ Questa pagina elenca i profili, le variabili e i parametri utili negli script de
 | mbox3rdPartyId | Parametro mbox per sincronizzare un ID cliente per mboxPCID di Target. Un ID cliente è un ID utilizzato dalla società per tenere traccia dei visitatori, ad esempio un ID CRM, un ID di appartenenza o qualcosa di simile. Questo ID può quindi essere utilizzato per aggiungere informazioni tramite le API di profilo e [Attributi del cliente](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html?lang=it){target=_blank}. |
 | mboxPageValue | In ogni mbox chiamata alla pagina viene assegnato un valore. |
 | mboxDebug | Utilizzato solo per informazioni di debug. Aggiunto all’URL della pagina in cui lo cerca at.js. |
-| mboxOverride.browserIp | Imposta un geo diverso rispetto alla posizione effettiva in modo da poter testare come qualcosa apparirebbe in un&#39;altra posizione.<br>**Nota:** l&#39;utilizzo dei parametri mboxOverride deve essere utilizzato solo durante il test dell&#39;attività e non in produzione. L’utilizzo di eventuali parametri  mboxOverride  può causare discrepanze nella creazione di rapporti quando si utilizza [Analytics for Target](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T). Utilizza la [modalità di controllo qualità delle attività](/help/main/c-activities/c-activity-qa/activity-qa.md) durante il test per garantire che l’attività funzioni come previsto prima di pubblicarla nell’ambiente live. |
+| mboxOverride.browserIp | Imposta un geo diverso rispetto alla posizione effettiva in modo da poter testare come qualcosa apparirebbe in un&#39;altra posizione.<br>**Nota:** L&#39;utilizzo dei parametri mboxOverride deve essere utilizzato solo durante il test dell&#39;attività e non in produzione. L’utilizzo di eventuali parametri  mboxOverride  può causare discrepanze nella creazione di rapporti quando si utilizza [Analytics for Target](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T). Utilizza la [modalità di controllo qualità delle attività](/help/main/c-activities/c-activity-qa/activity-qa.md) durante il test per garantire che l’attività funzioni come previsto prima di pubblicarla nell’ambiente live. |
 
 ## Attributi del cliente {#section_62B4821EB6564FF4A14159A837AD4EDB}
 

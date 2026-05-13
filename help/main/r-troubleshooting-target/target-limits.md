@@ -5,16 +5,31 @@ title: Quali sono i vari caratteri, dimensioni e altri limiti in  [!DNL Adobe Ta
 feature: Troubleshooting
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
-source-git-commit: 720f70a97c5c9457f134085696dd79196c7869bc
+TQID: https://experienceleague.adobe.com/C9NXf7sgqNPwX-vH5VmU-GhJApj-tHzQcf7t7w-P8i4
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+  - id: f7c7de77-382f-4f48-8b36-61a170f06d3d
+subfeature_v2:
+  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '1734'
+source-wordcount: 1761
 ht-degree: 74%
 
 ---
 
 # Limiti
 
-Limiti dei caratteri e altri limiti (dimensioni dell&#39;offerta, pubblico, profili, valori, parametri, ecc.) che influiscono sulle attività e su altri elementi in [!DNL Adobe Target].
+Limiti dei caratteri e altri limiti (dimensioni dell’offerta, pubblico, profili, valori, parametri, ecc.) che influenzano le attività e altri elementi in [!DNL Adobe Target].
 
 >[!NOTE]
 >
@@ -169,7 +184,7 @@ Limiti dei caratteri e altri limiti (dimensioni dell&#39;offerta, pubblico, prof
 
 * **Limite**: 256 caratteri.
 
-  I valori con più di 256 caratteri vengono troncati quando si utilizza at.js 1.*x*. Ricevi un messaggio di errore quando invii valori con più di 256 caratteri quando utilizzi at.js 2.*x* o [!DNL Adobe Experience Platform Web SDK]. I valori non vengono troncati automaticamente.
+  I valori con più di 256 caratteri vengono troncati quando si utilizza at.js 1.*x*. Viene visualizzato un messaggio di errore quando si inviano valori con più di 256 caratteri quando si utilizza at.js 2.*x* o [!DNL Adobe Experience Platform Web SDK]. I valori non vengono troncati automaticamente.
 
 ### Nomi di profilo In-mbox
 
@@ -179,13 +194,13 @@ Limiti dei caratteri e altri limiti (dimensioni dell&#39;offerta, pubblico, prof
 
 * **Limite**: 250 caratteri.
 
-  Per [!DNL Delivery API] (at.js 2.*x*), integrazioni Batch Mbox V2 e [!DNL Adobe Experience Platform Web SDK] (alloy.js), nomi Mbox *possono* contenere caratteri alfanumerici (A-Z, a-z, 0-9) e uno dei seguenti caratteri:
+  Per le integrazioni [!DNL Delivery API] (at.js 2.*x*), Batch mbox V2 e [!DNL Adobe Experience Platform Web SDK] (alloy.js), i nomi mbox *possono* contenere caratteri alfanumerici (A-Z, a-z, 0-9) e uno dei seguenti caratteri:
 
   ```
   - , . _ / = ` : ; & ! @ # $ % ^ & * ( ) _ + | ? ~ [ ] { }
   ```
 
-  Per at.js 1.*x* integrazioni, i nomi mbox *non possono* contenere i seguenti caratteri:
+  Per le integrazioni at.js 1.*x*, i nomi mbox *non possono* contenere i seguenti caratteri:
 
   ```
   ' " %22 %27 < > %3C %3E 
@@ -199,7 +214,7 @@ Limiti dei caratteri e altri limiti (dimensioni dell&#39;offerta, pubblico, prof
 
    * Parametri mbox: 500 parametri per mbox.
    * Parametri profilo: 500 parametri profilo per mbox.
-   * Altri parametri (URL, URL di riferimento e così via): 50 per mbox per ogni altro tipo di parametro.
+   * Altri parametri (URL, URL di riferimento, ecc.): 50 per mbox per ciascun altro tipo di parametro.
 
   Questi limiti possono essere applicati a meno che la richiesta non venga ridotta a causa di limiti del browser web.
 
@@ -285,7 +300,7 @@ I seguenti limiti di dimensione si applicano alle offerte:
 
 * **Limite consigliato di script di profilo totali per account**: 2.000
 
-* **Raccomandazioni per limitare la complessità degli script di profilo**: gli script di profilo possono eseguire un numero limitato di istruzioni. Per ulteriori informazioni, consulta [Best practice](/help/main/c-target/c-visitor-profile/profile-parameters.md#best) in *Attributi del profilo*.
+* **Consigli per limitare la complessità degli script di profilo**: gli script di profilo possono eseguire un numero limitato di istruzioni. Per ulteriori informazioni, consulta [Best practice](/help/main/c-target/c-visitor-profile/profile-parameters.md#best) in *Attributi del profilo*.
 
 ## Proprietà
 

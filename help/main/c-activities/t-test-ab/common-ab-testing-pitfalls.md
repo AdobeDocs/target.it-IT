@@ -4,9 +4,16 @@ description: Scopri come evitare le insidie e gli errori più comuni commessi da
 title: Come posso evitare gli errori comuni relativi ai test A/B?
 feature: A/B Tests
 exl-id: db085819-1a85-4936-bdc9-7501cf9b26ce
-source-git-commit: 271d5bd8730830dd58be33f88793f2bef2b8d211
+TQID: https://experienceleague.adobe.com/w5ICZthuuhm1Czd2-xKv6Ud4CZR9rhSKNPCBgchB-QQ
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '3933'
+source-wordcount: 3983
 ht-degree: 100%
 
 ---

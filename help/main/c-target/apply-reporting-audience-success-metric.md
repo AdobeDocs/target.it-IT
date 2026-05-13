@@ -4,10 +4,18 @@ description: Scopri come scegliere una metrica di successo in [!DNL Adobe Target
 title: Posso applicare un pubblico di reportistica a una metrica di successo?
 feature: Success Metrics
 exl-id: 6b2f6669-6178-4da4-850d-8b1ce796a50d
-source-git-commit: bcbb6dec9d6add07c109b07bf125c1356ad2a8b9
+TQID: https://experienceleague.adobe.com/n3iyCzlY5oDOrCEqvo6nO51PvknlySPCMasQZ0JfIEM
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '393'
-ht-degree: 33%
+source-wordcount: 396
+ht-degree: 32%
 
 ---
 

@@ -4,9 +4,20 @@ description: Scopri come utilizzare un'attività [!UICONTROL Auto-Allocate] in [
 title: Cos'è un'attività [!UICONTROL Auto-Allocate]?
 feature: Auto-Allocate
 exl-id: 2d1ddd71-2ca6-4f00-9d0c-eb25ede8fdb8
-source-git-commit: 1b1b2271738d12f8da4e695900b70e280f50d8cf
+TQID: https://experienceleague.adobe.com/V5ZS2vBGVilH0-4bacB4x7iQi8M6qroLe3R9LNMoVEc
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '3502'
+source-wordcount: 3572
 ht-degree: 35%
 
 ---
@@ -47,7 +58,7 @@ In questi test, la maggior parte dei prodotti, incluso [!DNL Target], utilizza u
 * Trova un vincitore statisticamente significativo più velocemente rispetto a un test A/B manuale.
 * Fornisce un maggiore incremento medio della campagna rispetto a un test A/B manuale.
 
-## Terminologia  {#section_670F8785BA894745B43B6D4BFF953188}
+## Terminologia {#section_670F8785BA894745B43B6D4BFF953188}
 
 I seguenti termini sono utili quando si parla di [!UICONTROL Auto-Allocate]:
 
@@ -115,7 +126,7 @@ Se desideri produrre una differenziazione statisticamente significativa tra tutt
 
 ### I tassi di conversione correlati al tempo (o contestualmente variabili) possono distorcere le quantità di allocazione.
 
-Alcuni fattori che possono essere ignorati durante un test A/B standard perché influiscono ugualmente su tutte le esperienze non possono essere ignorati in un&#39;attività [!UICONTROL Auto-Allocate]. L’algoritmo è sensibile ai tassi di conversione osservati.
+Alcuni fattori che possono essere ignorati durante un test A/B standard perché influiscono ugualmente su tutte le esperienze non possono essere ignorati in un&#39;attività [!UICONTROL Auto-Allocate]. L&#39;algoritmo è sensibile ai tassi di conversione osservati.
 
 Di seguito sono riportati alcuni esempi di fattori che possono influenzare le prestazioni dell&#39;esperienza in modo disuguale:
 
@@ -133,7 +144,7 @@ Di seguito sono riportati alcuni esempi di fattori che possono influenzare le pr
 
   Ad esempio, “i saldi al 30% finiscono oggi” incita il visitatore ad eseguire oggi stesso la conversione, mentre “50% di sconto sul primo acquisto” non crea lo stesso senso di urgenza.
 
-## Domande frequenti  {#section_0E72C1D72DE74F589F965D4B1763E5C3}
+## Domande frequenti {#section_0E72C1D72DE74F589F965D4B1763E5C3}
 
 Consulta le seguenti domande frequenti e risposte mentre lavori con [!UICONTROL Auto-Allocate] attività:
 

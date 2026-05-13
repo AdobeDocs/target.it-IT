@@ -4,9 +4,18 @@ description: Scopri come risolvere i problemi che talvolta si verificano nel Com
 title: Come posso risolvere i problemi relativi al Compositore esperienza visivo e al Compositore esperienza avanzato?
 feature: Visual Experience Composer (VEC)
 exl-id: a971627c-662e-487b-bf0c-f73d196e3e71
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+TQID: https://experienceleague.adobe.com/Dlh0ovXPkgDgeMvcWi2GChACuDmYWKuFRH7Kx4VPrYw
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '243'
+source-wordcount: 244
 ht-degree: 67%
 
 ---

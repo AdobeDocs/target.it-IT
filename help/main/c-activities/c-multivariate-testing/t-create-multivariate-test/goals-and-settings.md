@@ -4,9 +4,19 @@ description: Scopri come utilizzare la pagina [!UICONTROL Goals & Settings] in [
 title: Come è possibile specificare obiettivi e impostazioni in un'attività [!UICONTROL Multivariate Test] (MVT)?
 feature: Multivariate Tests
 exl-id: 823a1435-ccb9-4357-9c33-a0968d704b7a
-source-git-commit: af8291a27e62a588046f66f20f8d3a47c8af0a18
+TQID: https://experienceleague.adobe.com/FKRQnliVYaVby-SiFunkRWX7iFMi76JAP3D3TKUdMXE
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '1164'
+source-wordcount: 1170
 ht-degree: 38%
 
 ---
@@ -104,7 +114,7 @@ Questa impostazione non è disponibile se la soluzione di reporting è impostata
 
 Per impostazione predefinita, nei rapporti sono mostrati i risultati per tutti i visitatori idonei. È possibile aggiungere tipi di pubblico per i rapporti per visualizzare solo le informazioni su tipi di pubblico specifici.
 
-### Impostazioni avanzate  {#section_E2FE441AFB324E498793ABB025ED9974}
+### Impostazioni avanzate {#section_E2FE441AFB324E498793ABB025ED9974}
 
 Le impostazioni avanzate sono disponibili per [!UICONTROL Multivariate Test] metriche obiettivo.
 

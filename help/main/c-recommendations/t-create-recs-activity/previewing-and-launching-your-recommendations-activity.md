@@ -4,9 +4,16 @@ description: Scopri come visualizzare in anteprima la tua attività Adobe [!DNL 
 title: Come posso visualizzare in anteprima e avviare un’attività Consigli?
 feature: Recommendations
 exl-id: 60391778-4d48-4c41-a7c5-fedcfabf2530
-source-git-commit: 26b0c5455e82014dab92c925ecc88bddb3947d2f
+TQID: https://experienceleague.adobe.com/21swhpZie0QN09m0LB7VwVO-9U6GWxQ0kbthPlnns18
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '1398'
+source-wordcount: 1424
 ht-degree: 15%
 
 ---
@@ -19,7 +26,7 @@ Dopo aver creato l&#39;attività [!UICONTROL Recommendations], [!UICONTROL A/B T
 
 Dopo aver creato un&#39;attività, [!DNL Recommendations] esegue un algoritmo per generare i consigli. L’esecuzione di questo algoritmo potrebbe richiedere alcune ore.
 
-È possibile verificare se l&#39;esecuzione dell&#39;algoritmo è stata completata nel diagramma di panoramica [!UICONTROL Activity], in cui è elencato lo stato dei criteri. La figura seguente mostra lo stato nel diagramma attività nella pagina [!DNL Recommendations] di un&#39;attività [!UICONTROL Overview]:
+È possibile verificare se l&#39;esecuzione dell&#39;algoritmo è stata completata nel diagramma di panoramica [!UICONTROL Activity], in cui è elencato lo stato dei criteri. La figura seguente mostra lo stato nel diagramma attività nella pagina [!UICONTROL Overview] di un&#39;attività [!DNL Recommendations]:
 
 ![Pagina di panoramica dell&#39;attività Consigli](/help/main/c-recommendations/t-create-recs-activity/assets/recs-overview-new.png)
 
