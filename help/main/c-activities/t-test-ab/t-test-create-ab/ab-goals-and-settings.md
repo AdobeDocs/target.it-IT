@@ -5,9 +5,15 @@ title: Come posso specificare obiettivi e impostazioni in un'attività A/B di  [
 feature: A/B Tests
 exl-id: 6c970289-a897-46bc-a8d2-ba8c045abe12
 TQID: https://experienceleague.adobe.com/X3JDvfXDHM2rAOodEY5N9TVO-tBpz4vNDUvhOpC0XZ4
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
 source-wordcount: 1138
@@ -56,7 +62,7 @@ Sono disponibili le seguenti opzioni:
 
 | Impostazione | Descrizione |
 |--- |--- |
-| [!UICONTROL Which success metric must be reached before incrementing this metric?] | Utilizza questa opzione per contare solo chi raggiunge la metrica di successo se in precedenza aveva raggiunto una metrica di successo diversa. Ad esempio, una conversione di attività potrebbe essere valida solo se il visitatore fa clic sull’offerta o raggiunge una pagina particolare prima della conversione. È possibile fornire la dipendenza su più metriche insieme alla flessibilità necessaria, per scegliere se la metrica debba essere raggiunta o meno per incrementare il conteggio. Definisci entrambe le metriche (o più metriche) di successo prima di renderle interdipendenti tra loro. L&#39;opzione [!UICONTROL Add Dependency] consente di incrementare la metrica di successo nel caso in cui un&#39;altra metrica di successo venga raggiunta o meno. Per aggiungere una dipendenza:<ul><li>Dopo aver aggiunto ulteriori metriche, fare clic su [!UICONTROL Advanced Settings].</li><li>Fare clic sull&#39;opzione [!UICONTROL Add Dependency]:</li><li>Trascina e rilascia le metriche desiderate dal riquadro di sinistra a quello di destra, quindi fai clic su [!UICONTROL Reached] per scegliere tra [!UICONTROL Reached] e [!UICONTROL  Not Reached].</li><li>È possibile modificare o rimuovere le dipendenze dopo averle aggiunte.</li></ul> |
+| [!UICONTROL Which success metric must be reached before incrementing this metric?] | Utilizza questa opzione per contare solo chi raggiunge la metrica di successo se in precedenza aveva raggiunto una metrica di successo diversa. Ad esempio, una conversione di attività potrebbe essere valida solo se il visitatore fa clic sull’offerta o raggiunge una pagina particolare prima della conversione. È possibile fornire la dipendenza su più metriche insieme alla flessibilità necessaria, per scegliere se la metrica debba essere raggiunta o meno per incrementare il conteggio. Definisci entrambe le metriche (o più metriche) di successo prima di renderle interdipendenti tra loro. L&#39;opzione [!UICONTROL Add Dependency] consente di incrementare la metrica di successo nel caso in cui un&#39;altra metrica di successo venga raggiunta o meno. Per aggiungere una dipendenza:<ul><li>Dopo aver aggiunto ulteriori metriche, fare clic su [!UICONTROL Advanced Settings].</li><li>Fare clic sull&#39;opzione [!UICONTROL Add Dependency]:</li><li>Trascina e rilascia le metriche desiderate dal riquadro di sinistra a quello di destra, quindi fai clic su [!UICONTROL Reached] per scegliere tra [!UICONTROL Reached] e [!UICONTROL &#x200B; Not Reached].</li><li>È possibile modificare o rimuovere le dipendenze dopo averle aggiunte.</li></ul> |
 | [!UICONTROL What will happen after a user encounters this goal metric?] | Dopo che un visitatore raggiunge la metrica obiettivo, sono disponibili tre opzioni:<ul><li>Selezionare **[!UICONTROL Increment Count & Keep User in Activity]** per specificare la modalità di incremento del conteggio.</li><li>Seleziona **[!UICONTROL Increment Count, Release User & Allow Reentry]** per specificare l&#39;esperienza che l&#39;utente vedrà se accede nuovamente all&#39;attività.</li><li>Seleziona **[!UICONTROL Increment Count, Release User & Bar from Reentry]** per specificare cosa vedrà l&#39;utente al posto del contenuto dell&#39;attività.</li></ul> |
 | [!UICONTROL How will the count be incremented?] | Sono disponibili tre opzioni per l’incremento del conteggio:<ul><li>[!UICONTROL Once per Entrant]</li><li>[!UICONTROL On Every Impression (Excluding page refreshes)]</li><li>[!UICONTROL On Every Impression]</li></ul> |
 
