@@ -3,9 +3,9 @@ user-guide-title: Guida di Adobe Target per professionisti aziendali
 breadcrumb-title: Guida di Target
 user-guide-description: Scopri come personalizzare le esperienze dei clienti su siti web, app e canali social per incrementare le entrate.
 feature-set: Target
-source-git-commit: 6bea471b0dcf99a77d3b2350a89bcc069062de19
+source-git-commit: dfda53d7efb93ab4cbd980d27b47c0b67ee3e561
 workflow-type: tm+mt
-source-wordcount: '1317'
+source-wordcount: '1320'
 ht-degree: 83%
 
 ---
@@ -58,6 +58,7 @@ ht-degree: 83%
       + [Stima dell’incremento delle entrate](/help/main/administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md)
    + [Configurazione Scene7](administrating-target/scene7-settings.md)
    + [Implementazione](/help/main/administrating-target/implementation.md)
+   + {hide-from-toc}[Contenuto pre-hiding](administrating-target/content-pre-hiding.md)
    + [Host](administrating-target/hosts.md)
    + [Ambienti](/help/main/administrating-target/environments.md)
    + [Token di risposta](administrating-target/response-tokens.md)
@@ -346,4 +347,4 @@ ht-degree: 83%
    + [Limiti](r-troubleshooting-target/target-limits.md)
 + API di Target {#apis}
    + [Panoramica API di Adobe Target](/help/main/api/api-overview.md)
-+ [Risorse e informazioni di contatto &#x200B;](cmp-resources-and-contact-information.md)
++ [Risorse e informazioni di contatto ](cmp-resources-and-contact-information.md)
