@@ -8,9 +8,9 @@ topic: Experimentation, Personalization, Artificial Intelligence
 badge: label="Beta" type="Informative"
 role: User, Developer
 level: Beginner, Intermediate
-source-git-commit: d5d7a57ce6a3188f02e680c24849d773cb53457a
+source-git-commit: 53dc7056ca62339a682756fe1b39e6af349f3ae6
 workflow-type: tm+mt
-source-wordcount: '534'
+source-wordcount: '517'
 ht-degree: 1%
 
 ---
@@ -44,9 +44,9 @@ Gli esempi seguenti mostrano come interagire con il server MCP [!DNL Adobe Targe
 | **Informazioni sull&#39;attività** | &quot;Ottieni informazioni sul test &#39;Banner per la vendita estiva&#39;: come sono le prestazioni e ci sono anomalie?&quot; |
 | **Gestione dell&#39;audience** | &quot;Elenca tutti i tipi di pubblico destinati agli utenti di dispositivi mobili e mostra a quali attività sono associati.&quot; |
 | **Controllo qualità e anteprima** | &quot;Genera URL di anteprima Controllo di qualità per le 12345 di attività in modo da poter esaminare tutte le varianti prima dell’attivazione.&quot; |
-| **Revisione consigli** | &quot;Elenca tutti i criteri di Recommendations configurati in questo account e riepiloga i tipi di algoritmo in uso.&quot; |
+<!-- | **Recommendations review** | "List all Recommendations criteria configured in this account and summarize the algorithm types in use." | -->
 | **Audit dell&#39;implementazione** | &quot;Quale versione di at.js è configurata e quali token di risposta sono attualmente attivi?&quot; |
-| **Modifica controllo** | &quot;Mostra tutte le modifiche apportate alle 98765 attività negli ultimi 30 giorni e chi le ha apportate&quot;. |
+| **Modifica controllo** | &quot;Mostra tutte le modifiche apportate alle 98765 di attività negli ultimi 30 giorni e chi le ha apportate.&quot; |
 
 ## Procedure dettagliate sui casi d’uso {#mcp-use-case-walkthroughs}
 

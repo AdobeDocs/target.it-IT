@@ -8,16 +8,16 @@ topic: Experimentation, Personalization, Artificial Intelligence
 badge: label="Beta" type="Informative"
 role: User, Developer
 level: Beginner, Intermediate
-source-git-commit: d5d7a57ce6a3188f02e680c24849d773cb53457a
+source-git-commit: 53dc7056ca62339a682756fe1b39e6af349f3ae6
 workflow-type: tm+mt
-source-wordcount: '1002'
+source-wordcount: '985'
 ht-degree: 0%
 
 ---
 
 # Server MCP [!DNL Adobe Target] {#target-mcp}
 
-L&#39;integrazione MCP [!DNL Adobe Target] ti consente di esaminare e analizzare test A/B, attività di personalizzazione e criteri di Recommendations direttamente dall&#39;assistente AI. Trasforma i dati di sperimentazione e personalizzazione di [!DNL Target] in flussi di lavoro in linguaggio semplice: controlla il tuo portfolio di esperimenti, rivedi i rapporti sulle prestazioni ed esplora tipi di pubblico e offerte senza navigare nell&#39;interfaccia utente o scrivere chiamate API.
+L&#39;integrazione MCP [!DNL Adobe Target] consente di esaminare e analizzare test A/B e attività di personalizzazione direttamente dall&#39;assistente AI. Trasforma i dati di sperimentazione e personalizzazione di [!DNL Target] in flussi di lavoro in linguaggio semplice: controlla il tuo portfolio di esperimenti, rivedi i rapporti sulle prestazioni ed esplora tipi di pubblico e offerte senza navigare nell&#39;interfaccia utente o scrivere chiamate API.
 
 >[!AVAILABILITY]
 >
@@ -28,7 +28,7 @@ L&#39;integrazione MCP [!DNL Adobe Target] ti consente di esaminare e analizzare
 
 I team di marketing e ottimizzazione si affidano sempre più alle applicazioni basate su chat e agli strumenti per sviluppatori, come Anthropic Claude, OpenAI ChatGPT, Cursor e Microsoft Copilot Studio, per semplificare il loro lavoro quotidiano. Queste applicazioni supportano **Model Context Protocol (MCP)**, uno standard aperto che consente alle applicazioni di esporre gli strumenti back-end a modelli LLM (Large Language Model) in modo uniforme.
 
-[!DNL Adobe Target] fornisce ora un server MCP che esegue operazioni di sperimentazione, personalizzazione e consigli direttamente all&#39;interno di qualsiasi applicazione compatibile con MCP. [!DNL Adobe Target] funge da livello di decisione ed esecuzione mentre l&#39;assistente AI gestisce il ragionamento e la spiegazione, consentendo ai team di accedere più rapidamente alle informazioni sull&#39;ottimizzazione senza navigare in più schermate di prodotto o scrivere query sull&#39;API REST [!DNL Adobe Target].
+[!DNL Adobe Target] fornisce ora un server MCP che affianca le operazioni di sperimentazione e personalizzazione direttamente all&#39;interno di qualsiasi applicazione compatibile con MCP. [!DNL Adobe Target] funge da livello di decisione ed esecuzione mentre l&#39;assistente AI gestisce il ragionamento e la spiegazione, consentendo ai team di accedere più rapidamente alle informazioni sull&#39;ottimizzazione senza navigare in più schermate di prodotto o scrivere query sull&#39;API REST [!DNL Adobe Target].
 
 
 >[!IMPORTANT]
@@ -41,13 +41,13 @@ I team di marketing e ottimizzazione si affidano sempre più alle applicazioni b
 
 ## Funzionalità principali {#mcp-capabilities}
 
-Il server MCP [!DNL Adobe Target] fornisce accesso in lettura ad attività, tipi di pubblico, offerte, consigli e configurazione dell&#39;implementazione. Con l’integrazione di, puoi:
+Il server MCP [!DNL Adobe Target] fornisce accesso in lettura ad attività, tipi di pubblico, offerte e configurazione dell&#39;implementazione. Con l’integrazione di, puoi:
 
 * **Esperimenti di ispezione e controllo** - Ottieni i collegamenti di stato, prestazioni, cronologia modifiche e anteprima Controllo di qualità per qualsiasi attività senza navigare nell&#39;interfaccia utente.
 * **Analizza risultati** - Recupera i rapporti su prestazioni, ricavi e A4T per le attività A/B, XT, AP e Targeting automatico.
 * **Esplora le attività** - Elenca, esamina e analizza le attività A/B e XT.
 * **Esplora tipi di pubblico e offerte** - Elenca e analizza tipi di pubblico, offerte HTML e offerte JSON.
-* **Esplora i criteri di Recommendations**: elenca e controlla i criteri e gli algoritmi basati sul carrello.
+<!-- * **Explore Recommendations criteria** - List and inspect criteria and cart-based algorithms. -->
 * **Implementazione dell&#39;audit** - Rivedi le impostazioni at.js, i token di risposta e la cronologia delle revisioni per entità.
 
 >[!NOTE]
@@ -69,7 +69,7 @@ Il server MCP [!DNL Adobe Target] è attualmente disponibile per **Claude Web**,
 
 +++A quali [!DNL Adobe Target] oggetti posso accedere tramite MCP?
 
-Puoi accedere alle attività (A/B, XT, AP), ai tipi di pubblico, alle offerte, alle proprietà, alle mbox, ai criteri di Recommendations, ai token di risposta, alla configurazione at.js, ai rapporti A4T e alla cronologia delle revisioni delle entità. Tutti i 23 strumenti attualmente disponibili sono di sola lettura.
+Puoi accedere alle attività (A/B, XT, AP), ai tipi di pubblico, alle offerte, alle proprietà, alle mbox, ai token di risposta, alla configurazione at.js, ai rapporti A4T e alla cronologia delle revisioni delle entità. Tutti i 23 strumenti attualmente disponibili sono di sola lettura.
 +++
 
 +++Il server MCP può creare o modificare le attività?
