@@ -6,9 +6,9 @@ feature: Administration & Configuration
 role: Admin
 badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=it#beta newtab=true" tooltip="Cosa sono le funzioni beta in [!DNL Adobe Target]."
 hide: true
-source-git-commit: dfda53d7efb93ab4cbd980d27b47c0b67ee3e561
+source-git-commit: 77741253fdfb007d0eda0c57fe293df2f9c638a2
 workflow-type: tm+mt
-source-wordcount: '556'
+source-wordcount: '576'
 ht-degree: 3%
 
 ---
@@ -55,7 +55,7 @@ Il pre-hiding del contenuto è disattivato per la tua istanza fino a quando non 
 
 1. Fare clic su **[!UICONTROL Save]**. Questo applicherà le impostazioni di gestione della visualizzazione momentanea di altri contenuti all’istanza.
 
-1. Una volta attivato, fare clic su **[!UICONTROL Download]**, quindi aggiungere il file alla pagina `<head>` in modo che venga caricato prima di [!DNL at.js] o di [!DNL Web SDK].
+1. Una volta attivato, fare clic su **[!UICONTROL Download]**, quindi aggiungere il file alla pagina `<head>` in modo che venga caricato prima di [!DNL at.js] o di [!DNL Web SDK]. Per istruzioni complete sull&#39;implementazione, vedere [Contenuto che nasconde preventivamente SDK](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/prehide-sdk).
 
    ![](assets/content-pre-hiding-2.png)
 
