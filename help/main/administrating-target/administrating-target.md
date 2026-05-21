@@ -19,16 +19,16 @@ topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+source-git-commit: 8aac18f48275c8611b69d1e8af3cf599b7e8cea1
 workflow-type: tm+mt
-source-wordcount: 90
-ht-degree: 13%
+source-wordcount: 94
+ht-degree: 12%
 
 ---
 
 # Panoramica sull&#39;amministrazione di [!DNL Target]
 
-Informazioni su come amministrare [!DNL Adobe Target], incluse le impostazioni di configurazione per il Compositore esperienza visivo, il reporting, la configurazione di Scene7, l&#39;implementazione, gli host, gli ambienti, i token di risposta, gli utenti e [!DNL Recommendations].
+Informazioni su come amministrare [!DNL Adobe Target], incluse le impostazioni di configurazione per il Compositore esperienza visivo, il reporting, la configurazione di Scene7, l&#39;implementazione, gli host, gli ambienti, gli URL inseriti nell&#39;elenco Consentiti, i token di risposta, gli utenti e [!DNL Recommendations].
 
 {{permissions-update}}
 
@@ -41,6 +41,7 @@ Per accedere alle voci di menu [!UICONTROL Administration], fai clic su **[!UICO
 * [Proprietà](/help/main/administrating-target/c-user-management/property-channel/property-channel.md)
 * [Host](/help/main/administrating-target/hosts.md)
 * [Ambienti](/help/main/administrating-target/environments.md)
+* [URL INSERITI NELL&#39;ELENCO CONSENTITI](/help/main/administrating-target/allowlisted-urls.md)
 * [Token di risposta](/help/main/administrating-target/response-tokens.md)
 * [Utenti](/help/main/administrating-target/c-user-management/user-management.md)
 * [Consigli](/help/main/administrating-target/recommendations-settings.md)
