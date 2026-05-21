@@ -5,9 +5,9 @@ title: Come posso visualizzare in anteprima e avviare un’attività Consigli?
 feature: Recommendations
 hide: true
 hidefromtoc: true
-source-git-commit: f6034e83564a9a386e21e4e57279c66cc3c94537
+source-git-commit: 1be09adbab3db2c0cf4447b8abba06ca26cf5571
 workflow-type: tm+mt
-source-wordcount: '1316'
+source-wordcount: '1371'
 ht-degree: 15%
 
 ---
@@ -20,7 +20,7 @@ Dopo aver creato l&#39;attività [!UICONTROL Recommendations], [!UICONTROL A/B T
 
 Dopo aver creato un&#39;attività, [!DNL Recommendations] esegue un algoritmo per generare i consigli. L’esecuzione di questo algoritmo potrebbe richiedere alcune ore.
 
-È possibile verificare se l&#39;esecuzione dell&#39;algoritmo è stata completata nel diagramma di panoramica [!UICONTROL Activity], in cui è elencato lo stato dei criteri. La figura seguente mostra lo stato nel diagramma attività nella pagina [!DNL Recommendations] di un&#39;attività [!UICONTROL Overview]:
+È possibile verificare se l&#39;esecuzione dell&#39;algoritmo è stata completata nel diagramma di panoramica [!UICONTROL Activity], in cui è elencato lo stato dei criteri. La figura seguente mostra lo stato nel diagramma attività nella pagina [!UICONTROL Overview] di un&#39;attività [!DNL Recommendations]:
 
 ![Pagina di panoramica dell&#39;attività Consigli](/help/main/c-recommendations/t-create-recs-activity/assets/recs-overview-new.png)
 
@@ -91,6 +91,8 @@ Da sinistra a destra è un elenco di articoli consigliati, in questo caso quelli
 Se un asterisco (*) è il primo valore di una riga, indica [elementi di backup](/help/main/c-recommendations/c-algorithms/backup-recs.md). Gli elementi di backup vengono visualizzati se non tutti gli slot di una progettazione possono essere riempiti dagli elementi consigliati dell’algoritmo (criteri).
 
 Per altri tipi di algoritmo basati su un valore chiave, ad esempio [!UICONTROL People Who Viewed This, Viewed That], i valori chiave (ovvero gli elementi &quot;This&quot;) sono elencati nella colonna più a sinistra e gli elementi consigliati (ovvero gli elementi &quot;That&quot;) sono elencati da sinistra a destra nelle colonne Recommendation_X.
+
+Si noti che per le attività con set di risultati molto grandi, l&#39;opzione **[!UICONTROL Download data]** potrebbe non riuscire con l&#39;errore `Error while fetching recommendation data file.`. Ciò si verifica quando il CSV generato supera la dimensione della risposta che può essere restituita tramite l&#39;interfaccia utente in un singolo download.
 
 >[!NOTE]
 >

@@ -5,16 +5,12 @@ title: Come posso visualizzare in anteprima e avviare un’attività Consigli?
 feature: Recommendations
 exl-id: 60391778-4d48-4c41-a7c5-fedcfabf2530
 TQID: https://experienceleague.adobe.com/21swhpZie0QN09m0LB7VwVO-9U6GWxQ0kbthPlnns18
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
+source-git-commit: 1be09adbab3db2c0cf4447b8abba06ca26cf5571
 workflow-type: tm+mt
-source-wordcount: 1424
-ht-degree: 15%
+source-wordcount: 1462
+ht-degree: 14%
 
 ---
 
@@ -97,6 +93,8 @@ Da sinistra a destra è un elenco di articoli consigliati, in questo caso quelli
 Se un asterisco (*) è il primo valore di una riga, indica [elementi di backup](/help/main/c-recommendations/c-algorithms/backup-recs.md). Gli elementi di backup vengono visualizzati se non tutti gli slot di una progettazione possono essere riempiti dagli elementi consigliati dell’algoritmo (criteri).
 
 Per altri tipi di algoritmo basati su un valore chiave, ad esempio [!UICONTROL People Who Viewed This, Viewed That], i valori chiave (ovvero gli elementi &quot;This&quot;) sono elencati nella colonna più a sinistra e gli elementi consigliati (ovvero gli elementi &quot;That&quot;) sono elencati da sinistra a destra nelle colonne Recommendation_X.
+
+Si noti che per le attività con set di risultati molto grandi, l&#39;opzione **[!UICONTROL Download data]** potrebbe non riuscire con l&#39;errore `Error while fetching recommendation data file.`. Ciò si verifica quando il CSV generato supera la dimensione della risposta che può essere restituita tramite l&#39;interfaccia utente in un singolo download.
 
 >[!NOTE]
 >
