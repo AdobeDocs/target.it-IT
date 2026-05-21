@@ -11,10 +11,10 @@ product_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+source-git-commit: 1be09adbab3db2c0cf4447b8abba06ca26cf5571
 workflow-type: tm+mt
-source-wordcount: 3467
-ht-degree: 82%
+source-wordcount: 3543
+ht-degree: 80%
 
 ---
 
@@ -205,6 +205,12 @@ Assicurati che il pubblico abbia un nome univoco. Se hai assegnato al pubblico l
 ## Qual è la dimensione massima di un file CSV per un caricamento del feed? {#section_20F1AF4839A447B9889B246D6E873538}
 
 Non vi è alcun limite stabilito sul numero di righe o sulle dimensioni del file per il caricamento del file CSV di un feed. Tuttavia, come best practice, Adobe consiglia di limitare le dimensioni del file CSV a 1 GB per evitare errori durante il processo di caricamento dei file. Se le dimensioni del file superano 1 GB, idealmente può essere suddiviso in più file di feed. Il numero massimo di colonne di attributi personalizzati è 100 e gli attributi personalizzati sono limitati a 4096 caratteri. Nella pagina Limitazioni di [[!DNL Target]  sono disponibili altri limiti per la lunghezza delle colonne richieste](/help/main/r-troubleshooting-target/target-limits.md#reference_BEFE60C3AAA442FF94D4EBFB9D3CC9B1).
+
+## Perché l&#39;azione [!UICONTROL Download data] non riesce in un&#39;attività [!DNL Recommendations]? {#download-data-error}
+
+Quando si fa clic su **[!UICONTROL Download data]** nella pagina [!UICONTROL Activity Overview] di un&#39;attività [!DNL Recommendations], l&#39;interfaccia utente [!DNL Target] potrebbe visualizzare l&#39;errore `Error while fetching recommendation data file.`
+
+Ciò si verifica in genere quando l’attività ha un set di risultati molto grande: il CSV generato supera la dimensione di risposta che può essere restituita tramite l’interfaccia utente in un singolo download. I dati dei consigli sono intatti, solo il percorso di download nel browser non è in grado di fornire un file di tali dimensioni.
 
 ## È possibile escludere un’entità in modo dinamico? {#exclude}
 
