@@ -2,24 +2,16 @@
 keywords: personalizzazione automatizzata;ap
 description: Scopri come creare un'attività [!UICONTROL Automated Personalization] (AP) utilizzando [!UICONTROL Visual Experience Composer].
 title: Come si crea un'attività [!UICONTROL Automated Personalization]?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=it#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."
 feature: Automated Personalization
 exl-id: eadc2bbc-310b-479f-b75b-253e8d7aa812
 TQID: https://experienceleague.adobe.com/5eUFwob4BekIJP4SM2lrSDQam4h1AXIByJjM7-1RNL8
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 8d0c691fdbeee92b36105db9175475507e5fcfce
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: c467f629596b37c334276d6f095f19b639a8518d
 workflow-type: tm+mt
-source-wordcount: 1856
+source-wordcount: 1854
 ht-degree: 22%
 
 ---
@@ -100,7 +92,7 @@ Definire il pool di varianti di contenuto che [!UICONTROL Automated Personalizat
 
    >[!IMPORTANT]
    >
-   >**Best practice:** per prestazioni ottimali, limita le attività [!UICONTROL Automated Personalization] e [!UICONTROL Auto-Target] a 4-6 posizioni con 4-6 offerte per posizione. Il numero totale di esperienze cresce dalla combinazione cartesiana di posizioni e offerte. Configurazioni più grandi possono rallentare il caricamento o la modifica in [!UICONTROL Visual Experience Composer]. Mantenere il totale sotto le 5.000 esperienze per ottenere risultati migliori; il limite massimo è di 30.000 (lo stesso limite si applica quando l&#39;opzione [!UICONTROL Disallow Duplicates] è abilitata).
+   >Per prestazioni ottimali, limita [!UICONTROL Automated Personalization] e [!UICONTROL Auto-Target] attività a 4-6 posizioni con 4-6 offerte per posizione. Il numero totale di esperienze cresce dalla combinazione cartesiana di posizioni e offerte. Configurazioni più grandi possono rallentare il caricamento o la modifica in [!UICONTROL Visual Experience Composer]. Mantenere il totale sotto le 5.000 esperienze per ottenere risultati migliori; il limite massimo è di 30.000 (lo stesso limite si applica quando l&#39;opzione [!UICONTROL Disallow Duplicates] è abilitata).
 
 1. (Facoltativo) Fai clic su **[!UICONTROL Offers]** per selezionare parti di contenuto e assegnarle a gruppi di reporting o per consentire solo a determinati visitatori di visualizzare alcune offerte con targeting.
 
@@ -111,7 +103,7 @@ Definire il pool di varianti di contenuto che [!UICONTROL Automated Personalizat
 
    ![Exclusion Groups tab of Manage Content dialog box](/help/main/c-activities/t-automated-personalization/assets/exclusion_groups-new.png)
 
-   Although you can create up to 30,000 experiences in an AP test, the algorithm performs its best when fewer than 10,000 distinct experiences are used. This same limit is applied even when the activity has enabled the [!UICONTROL Disalow Duplicates] option.
+   Although you can create up to 30,000 experiences in an AP test, the algorithm performs its best when fewer than 10,000 distinct experiences are used. This same limit is applied even when the activity has enabled the [!UICONTROL Disallow Duplicates] option.
 
    If you do not currently have any exclusion groups included in your activity, click **Create Exclusion Group**. You can filter to create a list that shows only the combinations you want to exclude. Name your exclusion group, then click **Save**.
 
