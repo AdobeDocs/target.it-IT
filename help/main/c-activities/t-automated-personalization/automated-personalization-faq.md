@@ -17,10 +17,10 @@ topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+source-git-commit: 8d0c691fdbeee92b36105db9175475507e5fcfce
 workflow-type: tm+mt
-source-wordcount: 1967
-ht-degree: 21%
+source-wordcount: 2032
+ht-degree: 20%
 
 ---
 
@@ -52,6 +52,7 @@ Non è disponibile un&#39;opzione chiavi in mano per confrontare [!UICONTROL Aut
 
 +++Vedi i dettagli
 
+* Limita le attività [!UICONTROL Automated Personalization] e [!UICONTROL Auto-Target] a 4-6 posizioni con 4-6 offerte per posizione. Configurazioni più grandi possono rallentare il caricamento o la modifica in [!UICONTROL Visual Experience Composer].
 * Se desideri personalizzare una pagina a traffico ridotto o apportare modifiche strutturali all&#39;esperienza che stai personalizzando, puoi utilizzare un&#39;attività [!UICONTROL Auto-Target] invece di [!UICONTROL Automated Personalization]. Vedi [Targeting automatico](/help/main/c-activities/auto-target/auto-target-to-optimize.md).
 * Prendere in considerazione il completamento di un&#39;attività [!UICONTROL A/B Test] tra le offerte e le posizioni che si prevede di utilizzare nell&#39;attività [!UICONTROL Automated Personalization] per assicurarsi che la posizione e le offerte abbiano un impatto sull&#39;obiettivo di ottimizzazione. Se un&#39;attività [!UICONTROL A/B Test] non riesce a dimostrare una differenza significativa, è probabile che anche [!UICONTROL Automated Personalization] non riesca a generare un incremento.
 
@@ -91,6 +92,8 @@ Non è disponibile un&#39;opzione chiavi in mano per confrontare [!UICONTROL Aut
 [!DNL Target] ha un limite massimo di 30.000 esperienze, ma funziona al meglio quando vengono create meno di 10.000 esperienze.
 
 Lo stesso limite viene applicato anche quando l&#39;attività ha abilitato l&#39;opzione [!UICONTROL Disalow Duplicates].
+
+Per prestazioni ottimali, limita [!UICONTROL Automated Personalization] e [!UICONTROL Auto-Target] attività a 4-6 posizioni con 4-6 offerte per posizione. Poiché il numero totale di esperienze aumenta dalla combinazione di posizioni e offerte, configurazioni più grandi possono rallentare il caricamento o la modifica in [!UICONTROL Visual Experience Composer].
 
 Per ulteriori informazioni sui limiti dei caratteri e altri limiti (dimensioni dell&#39;offerta, pubblico, profili, valori, parametri e così via) che influiscono sulle attività e su altri elementi in [!DNL Target], vedere [Limiti](/help/main/r-troubleshooting-target/target-limits.md).
 
