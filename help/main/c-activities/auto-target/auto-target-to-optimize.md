@@ -21,9 +21,9 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 8d0c691fdbeee92b36105db9175475507e5fcfce
+source-git-commit: c467f629596b37c334276d6f095f19b639a8518d
 workflow-type: tm+mt
-source-wordcount: 1920
+source-wordcount: 1962
 ht-degree: 18%
 
 ---
@@ -62,7 +62,10 @@ A differenza di un&#39;attività A/B in cui l&#39;allocazione dell&#39;esperienz
 
 Ci sono alcune considerazioni importanti da tenere a mente quando si utilizza [!UICONTROL Auto-Target]:
 
-* Limita le attività [!UICONTROL Auto-Target] e [!UICONTROL Automated Personalization] a 4-6 posizioni con 4-6 offerte per posizione. Poiché il numero totale di esperienze aumenta dalla combinazione di posizioni e offerte, configurazioni più grandi possono rallentare il caricamento o la modifica in [!UICONTROL Visual Experience Composer].
+* Presta attenzione alla forma dell’attività. Le prestazioni dipendono più dal numero di posizioni × offerte che dal conteggio delle esperienze non elaborate. Le grandi combinazioni cartesiane possono rallentare il caricamento e la modifica in [!UICONTROL Visual Experience Composer], anche al di sotto dei limiti di esperienza documentati.
+
+  Come best practice, mantieni [!UICONTROL Auto-Target] e [!UICONTROL Automated Personalization] attività in 4-6 posizioni con 4-6 offerte per posizione. Configurazioni più grandi non sono consigliate. Poiché queste attività vengono create direttamente nel passaggio [!UICONTROL Experiences], l&#39;interfaccia utente [!DNL Target] potrebbe visualizzare avvisi in linea o bloccare il salvataggio quando la configurazione supera le soglie supportate.
+
 * Impossibile passare un&#39;attività specifica da [!UICONTROL Auto-Target] a [!UICONTROL Automated Personalization] e viceversa.
 * Non è possibile passare dall&#39;allocazione del traffico [!UICONTROL Manual] (tradizionale [!UICONTROL A/B Test]) a [!UICONTROL Auto-Target] e viceversa dopo il salvataggio come bozza di un&#39;attività.
 * Un modello è progettato per identificare le prestazioni della strategia personalizzata rispetto al traffico servito in modo casuale rispetto all’invio di tutto il traffico all’esperienza vincente complessiva. Questo modello considera gli hit e le conversioni solo nell’ambiente predefinito.

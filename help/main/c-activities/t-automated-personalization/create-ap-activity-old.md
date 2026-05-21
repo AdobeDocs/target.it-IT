@@ -5,10 +5,10 @@ title: Come si crea un'attività [!UICONTROL Automated Personalization]?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=it#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."
 feature: Automated Personalization
 exl-id: eadc2bbc-310b-479f-b75b-253e8d7aa812
-source-git-commit: 3a44c05bea24c622292dd0b774f88f0c93be1d88
+source-git-commit: c467f629596b37c334276d6f095f19b639a8518d
 workflow-type: tm+mt
-source-wordcount: '1743'
-ht-degree: 27%
+source-wordcount: '1765'
+ht-degree: 29%
 
 ---
 
@@ -84,7 +84,7 @@ Il flusso di lavoro dell&#39;attività [!UICONTROL Automated Personalization] (A
 
    >[!NOTE]
    >
-   >Anche se è possibile creare fino a 30.000 esperienze in un’attività Personalizzazione automatizzata, l’attività fornisce prestazioni migliori quando si utilizzano meno di 5.000 esperienze. Lo stesso limite viene applicato anche quando l&#39;attività ha abilitato l&#39;opzione [!UICONTROL Disalow Duplicates].
+   >Anche se è possibile creare fino a 30.000 esperienze in un’attività Personalizzazione automatizzata, l’attività fornisce prestazioni migliori quando si utilizzano meno di 5.000 esperienze. Lo stesso limite viene applicato anche quando l&#39;attività ha abilitato l&#39;opzione [!UICONTROL Disallow Duplicates].
 
    L&#39;elenco [!UICONTROL Experiences] mostra ogni elemento di contenuto selezionato per l&#39;attività e la posizione a cui è assegnato.
 
@@ -106,7 +106,7 @@ Il flusso di lavoro dell&#39;attività [!UICONTROL Automated Personalization] (A
 
    ![Scheda Gruppi di esclusione della finestra di dialogo Gestione contenuto](/help/main/c-activities/t-automated-personalization/assets/exclusion_groups-new.png)
 
-   Anche se è possibile creare fino a 30.000 esperienze in un test di Personalizzazione automatizzata, l&#39;algoritmo fornisce prestazioni migliori quando si utilizzano meno di 10.000 esperienze. Lo stesso limite viene applicato anche quando l&#39;attività ha abilitato l&#39;opzione [!UICONTROL Disalow Duplicates].
+   Anche se è possibile creare fino a 30.000 esperienze in un test AP, l&#39;algoritmo fornisce prestazioni migliori quando si utilizzano meno di 10.000 esperienze. Lo stesso limite viene applicato anche quando l&#39;attività ha abilitato l&#39;opzione [!UICONTROL Disallow Duplicates].
 
    Se nell&#39;attività non sono presenti gruppi di esclusione, fai clic su **Crea gruppo di esclusione**. È possibile filtrare l&#39;attività per creare un elenco che mostra solo le combinazioni che desideri escludere. Assegna un nome al gruppo di esclusione, quindi fai clic su **Salva**.
 
@@ -142,7 +142,7 @@ Il flusso di lavoro dell&#39;attività [!UICONTROL Automated Personalization] (A
    | [!UICONTROL Name] | Assegna un nome all’attività. Assegnare all&#39;attività un nome sufficientemente descrittivo da consentire ai membri del team di riconoscerla nell&#39;elenco [!UICONTROL Activities]. Consultate la tabella qui sopra per vedere quali caratteri non sono consentiti nel nome di un’attività. |
    | [!UICONTROL Objective] | (Facoltativo) Inserire la finalità del test. La finalità aiuta a ricordare lo scopo dell&#39;attività. |
    | [!UICONTROL Priority] | A seconda delle impostazioni, l&#39;interfaccia utente di [!DNL Target] e le opzioni per [!UICONTROL Priority] variano. È possibile utilizzare le impostazioni legacy di [!UICONTROL Low], [!UICONTROL Medium] o [!UICONTROL High] oppure abilitare le priorità precise da 0 a 999.<P>La priorità è utilizzata se più attività vengono assegnate alla stessa posizione con lo stesso pubblico. Se due o più attività vengono assegnate alla posizione, viene visualizzata l’attività con priorità maggiore.<P>Se questa opzione non è abilitata in [!UICONTROL Administration] > [!UICONTROL Reporting] (impostazione predefinita), specificare una priorità: [!UICONTROL Low], [!UICONTROL Medium] o [!UICONTROL High].<P>Per abilitare le priorità dettagliate, fare clic su [!UICONTROL Administration] > [!UICONTROL Reporting], quindi attivare l&#39;opzione [!UICONTROL Enable Fine-Grained Priorities].<P>Se questa opzione è abilitata, specifica un valore compreso tra 0 e 999:<ul><li>0 = Bassa</li><li>999 = Alta</li></ul>Per le attività create con le versioni precedenti di [!DNL Target Standard/Premium], la priorità [!UICONTROL Low] viene convertita in 0, la priorità [!UICONTROL Medium] in 5 e la priorità [!UICONTROL High] in 10. Se necessario, è possibile modificare questi valori.<P>**Nota**: prima di poter disabilitare questa opzione dopo aver utilizzato le priorità precise, tutte le priorità devono essere impostate su 0, 5 o 10. |
-   | [!UICONTROL Duration] | Imposta le date di inizio e di fine dell’attività. È possibile selezionare [!UICONTROL When Activated] oppure specificare una data e un&#39;ora specifiche. |
+   | [!UICONTROL Duration] | Imposta le date di inizio e di fine dell&#39;attività. È possibile selezionare [!UICONTROL When Activated] oppure specificare una data e un&#39;ora specifiche. |
    | [!UICONTROL Optimization Goal] | Specifica l&#39;obiettivo di ottimizzazione, costituito da due parametri:<ul><li>Ciò che desideri misurare con l&#39;attività</li><li>L&#39;azione intrapresa da un partecipante a un&#39;attività che dimostra che l&#39;obiettivo è stato raggiunto.</li></ul>È possibile scegliere di denominare l&#39;obiettivo di ottimizzazione selezionando i tre punti a destra di [!UICONTROL My Primary Goal]. [!UICONTROL Automated Personalization] attività possono misurare [!UICONTROL Conversion] o [!UICONTROL Revenue]. La conversione può essere ottenuta visualizzando una pagina o una mbox. È possibile inoltre il tracciamento dei clic.<P>L’obiettivo principale diventa anche la metrica di modellazione utilizzata dal sistema di modellazione per calcolare il successo dell’esperienza.<P>I visitatori possono essere mantenuti nell&#39;attività per scopi di tracciamento, dopo aver raggiunto l&#39;obiettivo di modellazione. Ad esempio, spesso viene utilizzata un&#39;attività [!UICONTROL Automated Personalization] per migliorare i click-rate e questa viene impostata come obiettivo di modellazione. Tuttavia è importante capire in che modo un maggior numero di clic porti alla conversione finale, perciò è essenziale effettuare il tracciamento fino alla conversione finale.<P>È possibile fornire la dipendenza su più metriche insieme alla flessibilità necessaria, per scegliere se la metrica debba essere raggiunta o meno per incrementare il conteggio.<P>È necessario definire entrambe le metriche (o più metriche) di successo prima di renderle interdipendenti tra loro.<P>L&#39;opzione [!UICONTROL Add Dependency] consente di incrementare la metrica di successo nel caso in cui un&#39;altra metrica di successo venga raggiunta o meno.<P>Per aggiungere una dipendenza:<ol><li>Dopo aver aggiunto ulteriori metriche, fai clic su **[!UICONTROL Advanced Settings]** nel menu a tre punti a destra di [!UICONTROL Additional Goal].</li><li>Fare clic sull&#39;opzione **[!UICONTROL Add Dependency]** nella parte inferiore della sezione [!UICONTROL Reporting Settings].</li><li>Trascina e rilascia le metriche desiderate dal riquadro di sinistra a quello di destra, quindi fai clic su [!UICONTROL Reached] per scegliere tra [!UICONTROL Reached] e [!UICONTROL Not Reached].</li></ol>È possibile modificare o rimuovere le dipendenze dopo averle aggiunte. |
    | [!UICONTROL Conversion Metric] | Per impostazione predefinita, la metrica di conversione è la stessa della metrica dell’obiettivo di ottimizzazione. Tuttavia, è possibile definire una metrica di conversione separata deselezionando l&#39;opzione [!UICONTROL Same as Optimization Goal]. |
    | [!UICONTROL Additional Metrics] | Aggiungi eventuali metriche di reporting aggiuntive da utilizzare. Puoi aggiungere metriche di conversione o ricavi.<P>**Nota**: la metrica [!UICONTROL Engagement] non è supportata come metrica aggiuntiva. L&#39;interfaccia utente di [!DNL Target] potrebbe consentire di selezionare la metrica [!UICONTROL Engagement], ma i dati non vengono visualizzati con precisione nei rapporti. |
