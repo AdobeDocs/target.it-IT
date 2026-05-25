@@ -1,123 +1,114 @@
 ---
 keywords: attività;attività;dashboard approfondimenti
-description: '[!UICONTROL Adobe Target Dashboard] fornisce una panoramica generale dell''utilizzo di Target da parte dell''organizzazione nel tempo. Aiuta i team a comprendere a colpo d’occhio l’adozione, il volume delle attività e l’utilizzo della sperimentazione.'
+description: '[!UICONTROL Adobe Target Dashboard] offre una panoramica generale di come la tua organizzazione utilizza  [!DNL Target]  nel tempo, dando uno sguardo all''adozione, al volume di attività e all''utilizzo della sperimentazione.'
 title: Dashboard di Adobe Target Insights
 feature: Activities
-source-git-commit: 4e6941914a840267ac115d68ea317bc987bf8a83
+exl-id: 042befcd-025b-4592-a6b2-5dc0b952b031
+source-git-commit: 346b54882d4082f14bbc16ede350758a362ee418
 workflow-type: tm+mt
-source-wordcount: '712'
-ht-degree: 1%
+source-wordcount: '772'
+ht-degree: 0%
 
 ---
 
 # Dashboard di Adobe Target Insights
 
-[!UICONTROL Adobe Target Dashboard] fornisce una panoramica generale dell&#39;utilizzo di Target da parte dell&#39;organizzazione nel tempo. Aiuta i team a comprendere a colpo d’occhio l’adozione, il volume delle attività e l’utilizzo della sperimentazione.
+[!UICONTROL Adobe Target Dashboard] offre una panoramica generale dell&#39;utilizzo di [!DNL Adobe Target] da parte dell&#39;organizzazione nel tempo. Aiuta i team a comprendere a colpo d’occhio l’adozione, il volume delle attività e l’utilizzo della sperimentazione.
 
-Questa pagina è progettata sia per i professionisti che per le parti interessate che desiderano una rapida visibilità sull’utilizzo di Target senza dover analizzare singoli rapporti.
-
-## Callout intestazione: Experimentation Accelerator
-
-Nella parte superiore della pagina, il dashboard include un breve messaggio di intestazione che fa riferimento a [!UICONTROL **Experimentation Accelerator**]. Questo callout ha lo scopo di rendere i clienti consapevoli di funzionalità aggiuntive che aiutano a semplificare i flussi di lavoro di sperimentazione. Il messaggio funge da punto di ingresso leggero per i clienti che desiderano esplorare gli strumenti progettati per semplificare la configurazione degli esperimenti, l’analisi e il processo decisionale.
-
-## Selezione intervallo di tempo
-
-Nella parte superiore della pagina è possibile selezionare un intervallo di tempo, ad esempio l&#39;ultima settimana, l&#39;ultimo anno o tutto il tempo.
-
-L’intervallo di tempo selezionato viene applicato in modo coerente a tutte le metriche e i grafici della pagina.
-
-**Importante:**
-
-* Alcune metriche riflettono attività live in qualsiasi momento durante l’intervallo di tempo.
-* Altri riflettono le attività create, pubblicate o completate entro l’intervallo di tempo.
-* Di conseguenza, i totali nelle metriche potrebbero non corrispondere sempre esattamente. Ad esempio, molte attività avrebbero potuto essere avviate e completate nello stesso intervallo di tempo.
-
-## Metriche di riepilogo
-
-Le metriche di riepilogo nella parte superiore della pagina forniscono un’istantanea rapida dell’attività entro l’intervallo di tempo selezionato.
-
-### Totale attività live
-
-Questa metrica mostra il numero di attività live in qualsiasi momento durante l’intervallo di tempo selezionato.
-
-Un’attività viene considerata live se era in servizio attivo sul traffico, anche se è iniziata prima o terminata dopo il periodo selezionato.
-
-**Usa questa metrica per:**
-
-* Comprendere come è stato utilizzato attivamente Target durante il periodo di tempo
-* Valutazione della scala complessiva delle attività di personalizzazione e test
-
-### Attività live o modificate
-
-Il numero totale di attività dell’organizzazione che sono state live, create o modificate nell’intervallo di tempo selezionato.
-
-**Usa questa metrica per:**
-
-* Comprendere le dimensioni complessive della libreria di attività di Target e quante attività sono in uso
-* Monitorare la crescita a lungo termine dei programmi di sperimentazione e personalizzazione
-
-### Attività completate
-
-Questa metrica mostra il numero di attività che hanno raggiunto una data di completamento o di interruzione durante l’intervallo di tempo selezionato.
-
-**Usa questa metrica per:**
-
-* Comprendere quante attività sono state concluse durante il periodo di tempo
-* Tracciare il volume di completamento nel tempo
-
-### Attività pubblicate
-
-Questa metrica mostra il numero di attività pubblicate durante l’intervallo di tempo selezionato.
-
-Un’attività viene considerata pubblicata quando viene pubblicata per la prima volta. Se un’attività è stata resa live, interrotta e quindi ripresa live, in questa metrica verrà conteggiata solo la prima occorrenza.
-
-**Usa questa metrica per:**
-
-* Misura quante nuove attività sono state avviate
-* Comprendere la velocità di creazione e pubblicazione delle attività
-
-## Raggruppamento tipo di attività
-
-Il grafico Tipo di attività mostra la distribuzione delle attività live per tipo, ad esempio:
-
-* Test A/B
-* Targeting esperienza (XT)
-* Automated Personalization (AP)
-* Test multivariato (MVT)
-
-Il grafico mostra le attività totali durante l’intervallo di tempo selezionato.
-
-**Utilizzare questa sezione per:**
-
-* Scopri le funzionalità di Target più comunemente utilizzate
-
-## Metriche test A/B
-
-Questa sezione evidenzia l’utilizzo correlato in modo specifico al test A/B.
-
-### Totale attività test A/B live
-
-Mostra il numero di attività del test A/B che erano live in un qualsiasi punto durante l’intervallo di tempo selezionato.
-
-### Totale test A/B pubblicati
-
-Mostra il numero di attività del test A/B pubblicate durante l’intervallo di tempo selezionato.
-
-**Utilizzare queste metriche per:**
-
-* Comprendere la frequenza con cui viene utilizzato il test A/B
-* Tracciare il volume di sperimentazione e l’adozione
-
-## Interpretazione dei dati
+Il dashboard è progettato per professionisti e stakeholder che desiderano una rapida visibilità sull&#39;utilizzo di [!DNL Target] senza dover esaminare singoli report di attività.
 
 Quando rivedi questa dashboard, tieni presente quanto segue:
 
 * Le metriche possono includere attività avviate prima o terminate dopo l’intervallo di tempo selezionato.
 * Un’attività può essere conteggiata in più metriche a seconda del suo ciclo di vita (ad esempio, pubblicata e completata).
-* Questa dashboard si concentra sull’utilizzo e l’adozione, non sui risultati delle prestazioni.
+* La dashboard si concentra sull’utilizzo e l’adozione, non sui risultati delle prestazioni.
 
-Per risultati dettagliati, incrementi o prestazioni statistiche, consulta i singoli rapporti di attività all’interno di Adobe Target.
+Per risultati dettagliati, incremento o prestazioni statistiche, consulta i [singoli rapporti di attività](../c-reports/reports.md) in [!DNL Adobe Target].
 
-## Uso previsto
+![](assets/insights-1.png)
 
-Questa dashboard è ideale per monitorare le tendenze di adozione e utilizzo di Target. Non intende sostituire l’analisi dettagliata a livello di attività.
+## [!UICONTROL Experimentation Accelerator]
+
+Il banner sul dashboard fornisce accesso diretto a **[!UICONTROL Experimentation Accelerator]**, un punto di ingresso leggero agli strumenti che semplificano i flussi di lavoro di sperimentazione e semplificano la configurazione, l&#39;analisi e il processo decisionale degli esperimenti.
+
+## Selezione intervallo di tempo
+
+Per definire l’ambito dei dati visualizzati nel dashboard, seleziona un intervallo di tempo, ad esempio l’ultima settimana, l’ultimo anno o tutto il tempo. L’intervallo di tempo selezionato si applica in modo coerente a tutte le metriche e i grafici del dashboard.
+
+![](assets/insights-2.png)
+
+Tieni presente quanto segue durante l’interpretazione delle metriche nell’intervallo di tempo selezionato:
+
+* Alcune metriche riflettono attività live in qualsiasi momento durante l’intervallo di tempo.
+
+* Altri riflettono le attività create, pubblicate o completate entro l’intervallo di tempo.
+
+* Di conseguenza, i totali nelle metriche potrebbero non corrispondere esattamente. Ad esempio, è possibile avviare e completare molte attività nello stesso intervallo di tempo.
+
+È inoltre possibile esportare un&#39;istantanea del dashboard selezionando **[!UICONTROL Download as PNG]** dal menu avanzato.
+
+![](assets/insights-3.png)
+
+## Metriche
+
+La dashboard organizza le metriche in quattro visualizzazioni complementari, ognuna delle quali risponde a una domanda diversa sull&#39;utilizzo di [!DNL Target]: [KPI](#kpis) fornisce un riepilogo immediato dei conteggi delle attività, [Suddivisione tipo di attività](#activity-type-breakdown) mostra le funzionalità su cui si fa maggiormente affidamento, [Metriche test A/B](#ab-testing-metrics) esegue lo zoom avanti sull&#39;utilizzo della sperimentazione e [Attività nel tempo](#activities-over-time) rivela le tendenze nell&#39;intervallo di tempo selezionato.
+
+### KPI
+
+Le schede KPI nella parte superiore della pagina riepilogano rapidamente i conteggi delle attività chiave per l’intervallo di tempo selezionato. Ogni scheda si concentra su una diversa fase del ciclo di vita dell’attività, live, modificata, terminata o pubblicata, in modo da poter valutare rapidamente l’utilizzo complessivo e lo slancio.
+
+![](assets/insights-4.png)
+
+La metrica **Attività live totali** descrive il numero di attività che sono state live in qualsiasi momento durante l&#39;intervallo di tempo selezionato. Un’attività viene considerata live se era in servizio attivo sul traffico, anche se è iniziata prima o terminata dopo il periodo selezionato. Utilizza questa metrica per:
+
+* Comprendere come è stato utilizzato attivamente [!DNL Target] durante il periodo di tempo.
+* Misura la scala complessiva delle tue attività di personalizzazione e test.
+
+La metrica **Attività live o modificate** rappresenta il numero totale di attività nell&#39;organizzazione che sono state live, create o modificate nell&#39;intervallo di tempo selezionato. Utilizza questa metrica per:
+
+* Comprendere le dimensioni complessive della libreria di attività [!DNL Target] e il numero di attività in uso.
+
+* Monitora la crescita a lungo termine dei programmi di sperimentazione e personalizzazione.
+
+La metrica **Attività terminate** rappresenta il numero di attività che hanno raggiunto una data di completamento o di interruzione durante l&#39;intervallo di tempo selezionato. Utilizza questa metrica per:
+
+* Scopri quante attività sono state concluse durante il periodo di tempo.
+* Monitora il volume di completamento nel tempo.
+
+La metrica **Attività pubblicate** descrive il numero di attività pubblicate durante l&#39;intervallo di tempo selezionato. Un’attività viene considerata pubblicata quando viene pubblicata per la prima volta. Se un’attività viene resa live, interrotta e quindi riprodotta live, in questa metrica viene conteggiata solo la prima occorrenza. Utilizza questa metrica per:
+
+* Misura quante nuove attività sono state avviate.
+* Comprendere la velocità di creazione e pubblicazione delle attività.
+
+### Raggruppamento per tipo di attività
+
+![](assets/insights-5.png)
+
+Il grafico [!UICONTROL Activity Type] mostra la distribuzione delle attività live per tipo durante l&#39;intervallo di tempo selezionato, tra cui:
+
+* [!UICONTROL A/B Test]
+* [!UICONTROL Experience Targeting]
+* [!UICONTROL Recommendations]
+* [!UICONTROL Automated Personalization]
+* [!UICONTROL Multivariate Test]
+
+Utilizzare questo grafico per identificare le funzionalità di [!DNL Target] su cui l&#39;organizzazione si basa maggiormente e per individuare le opportunità per ampliare la combinazione di tipi di attività eseguiti.
+
+### Metriche di test A/B
+
+![](assets/insights-6.png){align="center"}
+
+In questa sezione viene evidenziato l&#39;utilizzo correlato in modo specifico alle attività **[!UICONTROL A/B Test]**.
+
+La metrica **[!UICONTROL Total live A/B Test activities]** mostra il numero di attività **[!UICONTROL A/B Test]** che erano attive in qualsiasi momento durante l&#39;intervallo di tempo selezionato.
+
+**[!UICONTROL Total A/B Tests published]** mostra il numero di **[!UICONTROL A/B Test]** attività pubblicate durante l&#39;intervallo di tempo selezionato.
+
+Utilizza queste metriche per comprendere con quale frequenza viene utilizzato il test A/B e per monitorare il volume di sperimentazione e l’adozione nel tempo.
+
+### Attività nel tempo
+
+![](assets/insights-7.png){align="center"}
+
+Il grafico **[!UICONTROL Activities Over Time]** tiene traccia del numero di attività create, modificate e pubblicate nell&#39;intervallo di tempo selezionato, semplificando l&#39;individuazione di tendenze, picchi o periodi tranquilli nel programma di sperimentazione.
+

@@ -39,9 +39,9 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 78ebcd007f58c2d2b3b4e959ac16b1753f30ff84
+source-git-commit: 3dc08e77ad2b737e19c2a099028fc0a69dc5a266
 workflow-type: tm+mt
-source-wordcount: 68360
+source-wordcount: 68506
 ht-degree: 50%
 
 ---
@@ -57,6 +57,36 @@ Le note sulla versione sono elencate in ordine decrescente per mese e anno di ri
 >Consulta [Note sulla versione di Target (corrente)](/help/main/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A) per informazioni sulle versioni di Target del mese corrente (piattaforma e Target Standard/Premium).
 
 ## Note sulla versione - 2026
+
+## [!DNL Target Standard/Premium] 26.5.2 (14 maggio 2026)
+
+**Amministrazione**
+
++++Vedi i dettagli
+
+* **Convalida Regex per gli URL consentiti.** È stato risolto un problema che impediva l&#39;immissione di espressioni regolari non valide nel campo **[!UICONTROL Allowed URLs]** senza la corretta convalida. (TGT-55095)
+
++++
+
+**Tipi di pubblico**
+
++++Vedi i dettagli
+
+* **Pulsanti nella finestra di dialogo [!UICONTROL Edit Audience].** È stato risolto un problema che impediva il rendering corretto dei pulsanti nella finestra di dialogo **[!UICONTROL Edit Audience]**. (TGT-54638)
+
++++
+
+Server MCP **[!DNL Adobe Target] (Beta pubblico)**
+
++++Vedi i dettagli
+
+[!DNL Adobe Target] fornisce ora un server MCP (Model Context Protocol) che esegue operazioni di sperimentazione, personalizzazione e reporting direttamente all&#39;interno di qualsiasi applicazione compatibile con MCP. Con questa integrazione, gli utenti tecnici e di marketing possono esaminare i test A/B, analizzare i rapporti sulle prestazioni ed esplorare tipi di pubblico e offerte, il tutto utilizzando prompt in linguaggio naturale anziché navigare su più schermate dell&#39;interfaccia utente o scrivere query rispetto all&#39;API REST [!DNL Adobe Target]. Questa funzionalità è attualmente disponibile in **Claude Web**, **Claude Desktop**, **Claude Code**, **Cursor** e **ChatGPT**.
+
+Questa funzionalità è disponibile per tutti i clienti di Public Beta.
+
+Per ulteriori informazioni, vedere [[!DNL Adobe Target] Server MCP](../c-integrating-target-with-mac/mcp/target-mcp.md).
+
++++
 
 ## [!DNL Target Standard/Premium] 26.5.1 (7 maggio 2026)
 
@@ -1849,7 +1879,7 @@ Questa versione include le correzioni e gli aggiornamenti seguenti:
 * Sono stati risolti degli errori di convalida durante la creazione di attività a causa di conflitti di ID segmento. Gli errori si sono verificati quando [!DNL Target] ha rilevato attività esistenti utilizzando segmenti anonimi. (TGT-51784)
 * È stato risolto un problema che impediva a [!DNL Target] di salvare attività con regole di esclusione in un pubblico. (TGT-51581)
 * È stato risolto un problema che impediva ai clienti di creare, eliminare o spostare cartelle senza accedere all’area di lavoro predefinita. (TGT-51499)
-* È stato risolto un problema che causava un errore nelle richieste di GET durante il recupero dell&#39;elenco delle metriche [!DNL Analytics]. (TGT-51106)
+* È stato risolto un problema che causava un errore nelle richieste GET durante il recupero dell&#39;elenco delle metriche [!DNL Analytics]. (TGT-51106)
 
 ### [!DNL Target Standard/Premium] 25.3.5 (11 marzo 2025)
 
