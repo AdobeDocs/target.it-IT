@@ -39,9 +39,9 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 3dc08e77ad2b737e19c2a099028fc0a69dc5a266
+source-git-commit: 74f3658c059fce7534f974d25fa5536ff3d52129
 workflow-type: tm+mt
-source-wordcount: 68506
+source-wordcount: 68339
 ht-degree: 50%
 
 ---
@@ -89,14 +89,6 @@ Per ulteriori informazioni, vedere [[!DNL Adobe Target] Server MCP](../c-integra
 +++
 
 ## [!DNL Target Standard/Premium] 26.5.1 (7 maggio 2026)
-
-**Integrazioni**
-
-+++Vedi i dettagli
-
-* Gestione di **[!DNL Adobe Target]in Experimentation Accelerator.** È stato aggiunto il supporto per l&#39;assegnazione di [!DNL Target] aree di lavoro alle sandbox di Experimentation Accelerator in modo che i team possano visualizzare gli esperimenti di [!DNL Adobe Target] in Experimentation Accelerator in un&#39;unica posizione. [Ulteriori informazioni](../c-integrating-target-with-mac/experimentation-accelerator.md)
-
-+++
 
 **Attività**
 
@@ -634,7 +626,7 @@ Questa versione include i seguenti aggiornamenti e correzioni:
 * **Modifica ripristinata per le attività salvate nell&#39;interfaccia utente di creazione attività.** È stato risolto un problema che impediva agli utenti di modificare le attività dopo il salvataggio delle modifiche. Le attività interessate sono rimaste bloccate in &quot;[!UICONTROL Applying initial modifications]&quot;, bloccando ulteriori aggiornamenti e nascondendo il pulsante [!UICONTROL Cancel]. (TGT-53631)
 * **Il Compositore esperienza visivo non si blocca più su &quot;[!UICONTROL Applying initial modifications].&quot;** È stato risolto un problema di prestazioni nel Compositore esperienza visivo che causava lunghi ritardi durante il caricamento di esperienze con un numero elevato di modifiche. Gli utenti interessati hanno visto l&#39;interfaccia utente bloccata su &quot;[!UICONTROL Applying initial modifications]&quot; per alcuni minuti, in particolare negli scenari dell&#39;esperienza B. (TGT-53727)
 * **Il Compositore esperienza visivo carica le modifiche senza elementi radice.**
-È stato risolto un problema nel Compositore esperienza visivo che causava l&#39;arresto delle esperienze durante il caricamento di modifiche prive di un elemento principale chiaro. Queste modifiche in precedenza causavano il blocco indefinito dell&#39;interfaccia utente su &quot;A[!UICONTROL pplying initial modifications]&quot;. (TGT-53799)
+È stato risolto un problema nel Compositore esperienza visivo che causava l&#39;arresto delle esperienze durante il caricamento di modifiche prive di un elemento principale chiaro. Queste modifiche in precedenza causavano il blocco indefinito dell&#39;interfaccia utente di &quot;A[!UICONTROL pplying initial modifications]&quot;. (TGT-53799)
 * **Il salvataggio delle modifiche nelle attività ora funziona come previsto.** È stato risolto un problema relativo alle autorizzazioni nella nuova interfaccia utente di creazione che impediva agli utenti di salvare le modifiche durante la modifica degli obiettivi e delle impostazioni avanzate nelle attività. Gli utenti interessati hanno visualizzato una barra multifunzione di errore rossa e un messaggio &quot;Forbidden.Resource&quot;, pur disponendo dell’accesso appropriato. (TGT-53816)
 * **L&#39;interfaccia utente del Compositore esperienza visivo mantiene le modifiche dell&#39;esperienza in tutte le visualizzazioni.** Sono stati risolti diversi problemi nel Compositore esperienza visivo aggiornato che hanno interessato lo sviluppo dell’esperienza. Le modifiche non persistevano correttamente, soprattutto quando si utilizzavano le offerte HTML o si passava da una visualizzazione all’altra. (TGT-53825)
 * **Tutte le visualizzazioni ora vengono visualizzate correttamente quando una modifica si estende su più esperienze.** È stato risolto un problema nell&#39;interfaccia utente di Creazione attività a causa del quale veniva visualizzata una sola visualizzazione quando veniva applicata una modifica tra più visualizzazioni. La descrizione del passaggio del mouse non elencava tutte le viste associate, anche se la modifica era stata applicata correttamente. (TGT-53827)
@@ -663,7 +655,7 @@ Questa versione include i miglioramenti e le correzioni seguenti.
 
 +++Localizzazione
 
-* **È stata risolta un&#39;incoerenza terminologica nella traduzione in cinese semplificato della visualizzazione Dettagli completi.**
+* **È stata risolta un&#39;incoerenza terminologica nella traduzione in cinese semplificato della visualizzazione dei dettagli completi.**
 In precedenza, il termine &quot;Dettagli&quot; veniva erroneamente tradotto come &quot;详情&quot; nella lingua cinese semplificato (zh_CN), violando le linee guida terminologiche stabilite. Questo è stato corretto in &quot;详细信息&quot; per garantire la coerenza con il database terminologico. (TGT-53741)
 
 +++
@@ -681,7 +673,7 @@ In precedenza, il termine &quot;Dettagli&quot; veniva erroneamente tradotto come
 
 * **La generazione di offerte ad hoc nelle attività A[!UICONTROL utomated Personalization] ha causato incongruenze nei rapporti.** L&#39;utilizzo della funzione Genera offerte ad hoc nelle attività di [!UICONTROL Automated Personalization] (AP) ha portato a rapporti non accurati. In particolare, gli ID offerta venivano riutilizzati tra le posizioni, causando l’erronea attribuzione o la sovrascrittura dei dati di reporting. Le offerte ad hoc ora vengono generate con identificatori distinti per posizione, garantendo un tracciamento e un reporting accurati per tutte le esperienze configurate. (TGT-53757)
 * **Impossibile caricare i report attività a causa di un errore di JavaScript.** I clienti hanno riscontrato un messaggio di errore durante l&#39;accesso alla scheda [!UICONTROL Reports] per alcune attività. L&#39;errore è stato causato da un&#39;eccezione JavaScript: impossibile leggere le proprietà di non definito (lettura di &#39;indexOf&#39;), attivato durante la chiamata GraphQL `getAnalyticsReportSummary`. I rapporti ora vengono caricati correttamente e la gestione degli errori è stata migliorata per evitare errori simili nel flusso di lavoro aggiornato per la creazione di attività. (TGT-53797)
-* **Si è verificato un arresto anomalo dei report dopo l&#39;interazione con la barra di scorrimento.** Facendo clic sulla barra di scorrimento nella scheda [!UICONTROL Reports] si è verificato un arresto anomalo della pagina, accompagnato da un errore di JavaScript:
+* **Si è verificato un arresto anomalo dei report dopo l&#39;interazione con la barra di scorrimento.** Se si fa clic sulla barra di scorrimento nella scheda [!UICONTROL Reports], la pagina si è bloccata e si è verificato un errore JavaScript:
   `SyntaxError: Failed to execute 'querySelector' on 'Element': '[data-key="a-currentcopy"hiretalent""]' is not a valid selector.` I report ora vengono caricati e scorrono correttamente senza generare errori o arresti anomali. (TGT-53828)
 * **Nei report non è stata visualizzata la metrica principale.** La metrica principale, configurata come metrica di conversione utilizzando una mbox, era mancante nei rapporti delle attività. La ricerca per nome metrica o nome mbox non ha prodotto risultati, impedendo la visibilità nei dati delle prestazioni chiave. Le metriche primarie ora vengono visualizzate correttamente nella scheda [!UICONTROL Reports], garantendo un tracciamento e un&#39;analisi accurati delle prestazioni della campagna. (TGT-53773)
 * **La scheda [!UICONTROL Reports] nell&#39;interfaccia utente aggiornata si è bloccata durante l&#39;interazione con la barra di scorrimento orizzontale.** Si è verificato un arresto anomalo intermittente della visualizzazione [!UICONTROL Reports] con un errore &quot;Si è verificato un errore&quot; quando si utilizza la barra di scorrimento orizzontale per accedere alle metriche fuori visualizzazione. La barra di scorrimento ora funziona in modo affidabile, consentendo ai clienti di visualizzare e analizzare tutte le metriche senza necessità di soluzioni quali ingrandire o utilizzare lo scorrimento con spostamento. (TGT-53824)
@@ -1716,7 +1708,7 @@ Questa versione include le correzioni e gli aggiornamenti seguenti:
 * È stato risolto un problema che impediva ai gruppi di reporting di persistere nelle attività [!UICONTROL Automated Personalization] (AP). (TGT-52368)
 * È stato risolto un problema che impediva il salvataggio di attività che includevano offer decisioning. (TGT-52390)
 * È stato risolto un problema che causava la selezione dell&#39;offerta predefinita ma la visualizzazione di altri contenuti dell&#39;offerta nelle attività [!UICONTROL Automated Personalization] (AP) e [!UICONTROL Multivariate Test] (MVT). (TGT-52372)
-* È stata corretta la logica delle autorizzazioni di GET per verificare con OR tra accesso completo all’organizzazione e accesso specifico per organizzazione + utente. (TGT-52374)
+* È stata corretta la logica delle autorizzazioni GET per verificare con OR tra l’accesso completo all’organizzazione e l’accesso specifico per organizzazione + utente. (TGT-52374)
 * È stato risolto un problema che impediva la visualizzazione dei nomi del pubblico dopo la selezione di un pubblico per [!UICONTROL Managed Content] e [!UICONTROL Reporting Audiences], anche se [!UICONTROL Show Only Selected] era abilitato. (TGT-52393)
 
 ### [!DNL Target Standard/Premium] 25.5.1 (5 maggio 2025)
@@ -5624,7 +5616,7 @@ Questa versione include i miglioramenti e le funzioni seguenti:
  <tbody> 
   <tr> 
    <td colname="col1"> Creazione e modifica degli script di profilo </td> 
-   <td colname="col2"> <p>Gli script di profilo eseguono dei “catcher” per acquisire attributi di profilo per ogni richiesta di mbox. Quando viene ricevuta una richiesta di mbox, Target esegue gli script di profilo pertinenti, determina quale attività deve essere eseguita e visualizza il contenuto appropriato per l’attività e l’esperienza, quindi tiene traccia del successo dell’attività. Questo consente di tenere traccia di informazioni sulla visita: la posizione del visitatore, l’ora del giorno, quante volte ha visitato il sito, se ha effettuato acquisti in passato e così via. Queste informazioni vengono poi aggiunte al profilo del visitatore, in modo da poter monitorare meglio la sua attività sul sito. </p> <p>Vedere <a href="/help/main/c-target/c-visitor-profile/profile-parameters.md#concept_01A30B4762D64CD5946B3AA38DC8A201" format="dita" scope="local"> Attributi di profilo </a>. 
+   <td colname="col2"> <p>Gli script di profilo eseguono dei “catcher” per acquisire attributi di profilo per ogni richiesta di mbox. Quando viene ricevuta una richiesta di mbox, Target esegue gli script di profilo pertinenti, determina quale attività deve essere eseguita e visualizza il contenuto appropriato per l’attività e l’esperienza, quindi tiene traccia del successo dell’attività. Questo consente di tenere traccia di informazioni sulla visita: la posizione del visitatore, l’ora del giorno, quante volte ha visitato il sito, se ha effettuato acquisti in passato e così via. Queste informazioni vengono poi aggiunte al profilo del visitatore, in modo da poter monitorare meglio la sua attività sul sito. </p> <p>Consulta <a href="/help/main/c-target/c-visitor-profile/profile-parameters.md#concept_01A30B4762D64CD5946B3AA38DC8A201" format="dita" scope="local">Attributi del profilo </a>. 
      <!--(Copy help from Classic)--> </p> </td> 
   </tr> 
   <tr> 
