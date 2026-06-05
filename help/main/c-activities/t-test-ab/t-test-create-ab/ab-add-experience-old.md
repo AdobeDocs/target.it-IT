@@ -104,4 +104,4 @@ Il video seguente fornisce informazioni sull&#39;utilizzo delle opzioni [!UICONT
 * Modificare il contenuto di una pagina
 * Modificare il layout di una pagina
 
->[!VIDEO](https://video.tv.adobe.com/v/17399)
+>[!VIDEO](https://video.tv.adobe.com/v/36326?captions=ita)

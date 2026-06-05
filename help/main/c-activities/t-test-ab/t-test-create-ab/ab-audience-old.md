@@ -68,7 +68,7 @@ Questo video spiega come utilizzare i tipi di pubblico in [!DNL Target Standard/
 * Indirizzare unʼattività a un pubblico
 * Utilizzare i tipi di pubblico per la reportistica passiva in un’attività
 
->[!VIDEO](https://video.tv.adobe.com/v/17398)
+>[!VIDEO](https://video.tv.adobe.com/v/36328?captions=ita)
 
 ### Flusso di lavoro attività - Targeting (2:14) ![Icona esercitazione](/help/main/assets/tutorial.png)
 

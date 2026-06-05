@@ -178,4 +178,4 @@ Utilizza il Compositore esperienza visivo di Target per creare attività Consigl
 
 ## Video di formazione: Crea un&#39;attività Consigli (7:15) ![Icona esercitazione](/help/main/assets/tutorial.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/27688)
+>[!VIDEO](https://video.tv.adobe.com/v/328598?captions=ita)

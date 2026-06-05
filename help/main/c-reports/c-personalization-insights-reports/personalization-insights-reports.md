@@ -108,7 +108,7 @@ I modelli [!UICONTROL Automated Personalization] (AP) e [!UICONTROL Targeting au
 
 ## Video di formazione: Utilizzo dei rapporti Approfondimenti Personalization ![Icona esercitazione](/help/main/assets/tutorial.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/25601/)
+>[!VIDEO](https://video.tv.adobe.com/v/329906?captions=ita)
 
 Per ulteriori informazioni, vedere [Utilizzo dei rapporti Approfondimenti Personalization in Adobe Target](https://helpx.adobe.com/target/kt/using/personalization-insights-report-feature-video-use.html).
 

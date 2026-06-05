@@ -181,7 +181,7 @@ Per ulteriori informazioni, consulta il seguente post sul blog: [AEM 6.5: Removi
 
 Il video seguente illustra come impostare e utilizzare [!UICONTROL Frammenti esperienza]:
 
->[!VIDEO](https://video.tv.adobe.com/v/22383)
+>[!VIDEO](https://video.tv.adobe.com/v/326989?captions=ita)
 
 >[!NOTE]
 >

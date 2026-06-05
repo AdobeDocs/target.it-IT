@@ -17,15 +17,15 @@ Debug di [!DNL Adobe Target] utilizzando [!DNL Adobe Experience Cloud Debugger].
 
 ## Aggiungi estensione
 
->[!VIDEO](https://video.tv.adobe.com/v/23114/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/326674/?captions=ita&quality=12)
 
 ## Debug di base di [!DNL Target]
 
->[!VIDEO](https://video.tv.adobe.com/v/23115/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/326675/?captions=ita&quality=12)
 
 ## Mbox Trace
 
->[!VIDEO](https://video.tv.adobe.com/v/23113/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/326676/?captions=ita&quality=12)
 
 ## Risorse aggiuntive
 
