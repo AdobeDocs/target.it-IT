@@ -2,7 +2,7 @@
 keywords: catalogo ricerca;catalogo;ricerca;esclusione;raccolta;filtro;consigli;catalog search;search;exclusion;collection;filter;recommendations
 description: Scopri come utilizzare la  [!DNL Recommendations] [!UICONTROL Ricerca nel catalogo] per individuare prodotti o contenuti, rimuovere elementi dal catalogo e altro ancora.
 title: Come si utilizza  [!DNL Recommendations] [!UICONTROL Ricerca nel catalogo]?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=it#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."
 feature: Recommendations
 exl-id: 925fea97-e2c5-4883-84e3-fd357a8ee8d9
 TQID: https://experienceleague.adobe.com/en3hkFsDjEE86Tc-3vPSiZFy0K47SftZMN6RW0INNic

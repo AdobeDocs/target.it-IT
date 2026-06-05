@@ -94,7 +94,7 @@ Per ulteriori informazioni, consulta [Come impostare rapporti A4T in Analysis Wo
 +++Risposta
 [!DNL Reports & Analytics] applica un modello di attribuzione di stesso contatto alle &quot;impression attività&quot; e alle &quot;conversioni attività&quot;, mentre [!DNL Analysis Workspace] visualizza le metriche non elaborate, che possono apparire gonfiate a causa della persistenza della dimensione [!DNL Target].
 
-Per valutare metriche precise di [!UICONTROL Impression attività] e [!UICONTROL Conversioni attività] in [!DNL Analysis Workspace], assicurati che a entrambe siano applicati [!UICONTROL Modelli di attribuzione Same Touch]. Per applicare i modelli, fai clic sull&#39;icona delle impostazioni della colonna, abilita [!UICONTROL Modelli di attribuzione non predefiniti], quindi seleziona [!UICONTROL Stesso contatto]. Per ulteriori informazioni sull&#39;attribuzione, consulta la [panoramica su Attributes IQ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/attribution.html) nella *Guida agli strumenti di Analytics*.
+Per valutare metriche precise di [!UICONTROL Impression attività] e [!UICONTROL Conversioni attività] in [!DNL Analysis Workspace], assicurati che a entrambe siano applicati [!UICONTROL Modelli di attribuzione Same Touch]. Per applicare i modelli, fai clic sull&#39;icona delle impostazioni della colonna, abilita [!UICONTROL Modelli di attribuzione non predefiniti], quindi seleziona [!UICONTROL Stesso contatto]. Per ulteriori informazioni sull&#39;attribuzione, consulta la [panoramica su Attributes IQ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/attribution.html?lang=it) nella *Guida agli strumenti di Analytics*.
 
 +++
 
@@ -160,7 +160,7 @@ L’utente poi torna il 1° aprile, visualizza altre cinque pagine ed effettua u
 
 Poiché entrambe le esperienze sono state viste prima della conversione, entrambe ricevono il &quot;merito&quot; per l’ordine. Tuttavia, nel sistema è stato effettuato un solo ordine e il totale riflette questa situazione. Per il reporting di [!DNL Target], poiché non stai confrontando un&#39;attività di [!DNL Target] con un&#39;altra attività per vedere quale ha più successo, non importa che tutte le attività che l&#39;utente ha visto abbiano ottenuto credito. Stai confrontando i risultati di due elementi all’interno della singola attività. Non è possibile per un utente vedere diverse esperienze nella stessa attività, quindi non devi preoccuparti della contaminazione incrociata del credito dell’ordine.
 
-Per ulteriori informazioni, vedere [Variabili di conversione (eVar](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/conversion-var-admin.html)) nella *Guida dell&#39;amministratore di Analytics*.
+Per ulteriori informazioni, vedere [Variabili di conversione (eVar](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/conversion-var-admin.html?lang=it)) nella *Guida dell&#39;amministratore di Analytics*.
 
 +++
 
@@ -232,7 +232,7 @@ Di seguito sono riportati alcuni punti da tenere presenti quando si visualizzano
 Per visualizzare le impression dell&#39;attività in [!DNL Analysis Workspace]:
 
 1. Nell&#39;interfaccia utente di [!DNL Target], fare clic su **[!UICONTROL Visualizza in Analytics]**.
-1. Aggiungere la colonna **[!UICONTROL Impression attività]** al report [[!DNL Analytics Workspace]](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html){target=_blank}.
+1. Aggiungere la colonna **[!UICONTROL Impression attività]** al report [[!DNL Analytics Workspace]](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=it){target=_blank}.
 1. Nella colonna **[!UICONTROL Impression attività]** fare clic sull&#39;icona [!UICONTROL Ingranaggio].
 1. Fare clic su **[!UICONTROL Usa modello di attribuzione non predefinito]**.
 1. Seleziona **[!UICONTROL Stesso modello di contatto]** > **[!UICONTROL Applica]**.

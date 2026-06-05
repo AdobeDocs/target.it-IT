@@ -2,7 +2,7 @@
 keywords: integrazione;ruoli;autorizzazioni utente;admin console
 description: Scopri come consentire alle integrazioni Adobe I/O esistenti di accedere a tutte le aree di lavoro con il ruolo desiderato in Adobe Target.
 title: Come posso concedere l’accesso Adobe I/O alle aree di lavoro e assegnare ruoli?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=it#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."
 feature: Administration & Configuration
 role: Admin
 exl-id: 62f6399f-c590-470c-ac3b-e0c84db63112

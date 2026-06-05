@@ -2,7 +2,7 @@
 keywords: creare consigli;attività consigli;nuovi consigli;panoramica consigli
 description: Scopri come utilizzare il Compositore esperienza visivo  [!DNL Target] [!UICONTROL Compositore esperienza visivo] (VEC) per creare un'attività  [!DNL Recommendations] .
 title: Come si crea un'attività  [!DNL Recommendations] ?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=it#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."
 feature: Recommendations
 exl-id: c83073d5-f852-4f09-8343-e4658fbf6f43
 TQID: https://experienceleague.adobe.com/rb9any1dsbk-E-ELV56A2D6X5f0z0cTziscrajmbYDA
@@ -85,7 +85,7 @@ Utilizzare il [!DNL Target] [!UICONTROL Compositore esperienza visivo] per crear
 
    >[!NOTE]
    >
-   >Non tutti i criteri vengono eseguiti correttamente su ogni pagina. La pagina o mbox deve passare `entity.id` o `entity.categoryId` per rendere compatibili i consigli per l’elemento o la categoria corrente. In generale, è consigliabile mostrare solo i criteri compatibili. Tuttavia, se desideri che i criteri non compatibili siano disponibili per l’attività, deseleziona la casella di controllo **[!UICONTROL Compatibile]**. L&#39;opzione [!UICONTROL Compatibile] potrebbe non essere visualizzata, a seconda delle impostazioni dei consigli ( **[!UICONTROL Consigli]** > **[!UICONTROL Impostazioni]** > **[!UICONTROL Filtra criteri incompatibili]**). Per ulteriori informazioni, consulta [Impostazioni](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}.
+   >Non tutti i criteri vengono eseguiti correttamente su ogni pagina. La pagina o mbox deve passare `entity.id` o `entity.categoryId` per rendere compatibili i consigli per l’elemento o la categoria corrente. In generale, è consigliabile mostrare solo i criteri compatibili. Tuttavia, se desideri che i criteri non compatibili siano disponibili per l’attività, deseleziona la casella di controllo **[!UICONTROL Compatibile]**. L&#39;opzione [!UICONTROL Compatibile] potrebbe non essere visualizzata, a seconda delle impostazioni dei consigli ( **[!UICONTROL Consigli]** > **[!UICONTROL Impostazioni]** > **[!UICONTROL Filtra criteri incompatibili]**). Per ulteriori informazioni, consulta [Impostazioni](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=it){target=_blank}.
 
    ![Finestra di dialogo Seleziona criteri](/help/main/c-recommendations/t-create-recs-activity/assets/SCRN_SelectCriteria2.png)
 

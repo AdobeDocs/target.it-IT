@@ -2,7 +2,7 @@
 keywords: Automated Personalization;app;anteprima;esperienza di esclusione;app;preview;exclude experience
 description: Scopri come visualizzare in anteprima ogni esperienza in un'attività [!UICONTROL Automated Personalization] (AP) utilizzando il [!UICONTROL Compositore esperienza visivo] (VEC).
 title: Come posso visualizzare in anteprima [!UICONTROL le esperienze Automated Personalization] nel Compositore esperienza visivo?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=it#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."
 feature: Automated Personalization
 exl-id: b346e9cb-f4db-4777-8671-cf714bed465a
 TQID: https://experienceleague.adobe.com/wkD1Z3b72D9Wm31yKFvSKJDNUeyHjKL0tzkeah7teQQ

@@ -98,7 +98,7 @@ Ad esempio, se stai ottimizzando le visualizzazioni di pagina per visitatore, pu
 1. Fai clic su **[!UICONTROL Strumenti]** > **[!UICONTROL Data Warehouse]**.
 1. Compila i campi nella scheda di **[!UICONTROL Richiesta Data Warehouse]**.
 
-   Per ulteriori informazioni su ogni campo, consulta “Descrizioni di Data Warehouse” in [Data Warehouse](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse.html).
+   Per ulteriori informazioni su ogni campo, consulta “Descrizioni di Data Warehouse” in [Data Warehouse](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse.html?lang=it).
 
    | Campo | Istruzioni |
    |--- |--- |
@@ -118,5 +118,5 @@ Ad esempio, se stai ottimizzando le visualizzazioni di pagina per visitatore, pu
 
 Per ulteriori informazioni su [!DNL Data Warehouse], consulta i seguenti collegamenti nella documentazione di [!DNL Analytics]:
 
-* [Crea una richiesta Data Warehouse](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/t-dw-create-request.html)
-* [Best practice per Data Warehouse](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse-bp.html)
+* [Crea una richiesta Data Warehouse](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/t-dw-create-request.html?lang=it)
+* [Best practice per Data Warehouse](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse-bp.html?lang=it)
