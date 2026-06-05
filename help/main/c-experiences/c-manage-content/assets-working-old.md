@@ -6,8 +6,8 @@ feature: Experiences and Offers
 exl-id: 2668ba68-29c8-4c3f-bebc-ba62760a8a61
 source-git-commit: e8201198dc6ac36e803153d5c6b345a30716204a
 workflow-type: tm+mt
-source-wordcount: '727'
-ht-degree: 32%
+source-wordcount: '771'
+ht-degree: 31%
 
 ---
 
@@ -15,15 +15,15 @@ ht-degree: 32%
 
 Informazioni sulle attività che è possibile eseguire su una risorsa della Libreria dei contenuti di [!DNL Adobe Target], tra cui annotazione, copia, eliminazione, download, modifica, condivisione e visualizzazione delle proprietà.
 
-1. Fare clic su **[!UICONTROL Offers]** > **[!UICONTROL Code Offers]** o **[!UICONTROL Image Offers]**.
+1. Fai clic su **[!UICONTROL Offerte]** > **[!UICONTROL Offerte codice]** o **[!UICONTROL Offerte immagine]**.
 
    ![Schede Offerte codice e Offerte immagine](/help/main/c-experiences/c-manage-content/assets/offers-both.png)
 
    Per ulteriori informazioni sulla ricerca nella Libreria offerte e sulla creazione di Smart Collection, consulta [Filtrare e cercare contenuti](/help/main/c-experiences/c-manage-content/filter-and-search-content.md#concept_3B59B8F025BF4CEA82ECC5199D365276).
 
-1. (Facoltativo) Passare da [!UICONTROL Card View] a [!UICONTROL List View] e fare clic sull&#39;icona [!UICONTROL Card View] o [!UICONTROL List View] nell&#39;angolo superiore destro della raccolta di contenuti. È inoltre possibile utilizzare [!UICONTROL View Settings] per configurare ulteriormente le colonne durante la visualizzazione di [!UICONTROL List View].
+1. (Facoltativo) Passa da [!UICONTROL Vista a schede] a [!UICONTROL Vista a elenco] e fai clic sull&#39;icona [!UICONTROL Vista a schede] o [!UICONTROL Vista a elenco] nell&#39;angolo superiore destro della libreria dei contenuti. È inoltre possibile utilizzare [!UICONTROL Impostazioni visualizzazione] per configurare ulteriormente le colonne durante la visualizzazione della [!UICONTROL Visualizzazione elenco].
 
-   Nella figura seguente sono illustrate le opzioni disponibili durante la visualizzazione di [!UICONTROL List View]:
+   Nella figura seguente sono illustrate le opzioni disponibili durante la visualizzazione della [!UICONTROL Vista a elenco]:
 
    ![Opzioni visualizzazione elenco](/help/main/c-experiences/c-manage-content/assets/view-settings-options.png)
 
@@ -31,25 +31,25 @@ Informazioni sulle attività che è possibile eseguire su una risorsa della Libr
 
 ## Opzioni Offerte codice
 
-Quando si visualizza la pagina [!UICONTROL Code Offers], è possibile eseguire le azioni seguenti su un elemento passando con il mouse sopra un&#39;offerta o una cartella e selezionando l&#39;icona appropriata.
+Quando si visualizza la pagina [!UICONTROL Offerte codice], è possibile eseguire le azioni seguenti su un elemento passando con il mouse sopra un&#39;offerta o una cartella e selezionando l&#39;icona appropriata.
 
 ![Icone al passaggio del mouse nella scheda Offerte di codice](/help/main/c-experiences/c-manage-content/assets/code-offers-hover-icons.png)
 
 * **Informazioni**: visualizza le informazioni dell&#39;offerta.
 * **Modifica**: modifica cartella o offerta.
 * **Copia**: copia l&#39;offerta. Copiare e quindi modificare l’offerta ti consente di creare facilmente una nuova offerta simile.
-* **Sposta**: fare clic sull&#39;icona Sposta, passare alla posizione in cui si desidera spostare l&#39;offerta o la cartella, quindi fare clic sull&#39;icona **[!UICONTROL Drop]**. Ad esempio, puoi spostare una o più cartelle in un’altra per creare sottocartelle. Fare clic su [!UICONTROL Clear Selection] per deselezionare le offerte o le cartelle selezionate.
+* **Sposta**: fare clic sull&#39;icona Sposta, passare alla posizione in cui si desidera spostare l&#39;offerta o la cartella, quindi fare clic sull&#39;icona **[!UICONTROL Rilascia]**. Ad esempio, puoi spostare una o più cartelle in un’altra per creare sottocartelle. Fai clic su [!UICONTROL Cancella selezione] per deselezionare le offerte o le cartelle selezionate.
 * **Elimina**: elimina l&#39;offerta o la cartella. Consulta [Considerazioni durante l&#39;eliminazione degli elementi](#delete).
 
 ## Opzioni Offerte immagine
 
-Quando si visualizza la pagina [!UICONTROL Image Offers], è possibile eseguire le azioni seguenti su un elemento passando con il mouse sopra un&#39;offerta o una cartella e selezionando l&#39;icona appropriata.
+Quando si visualizza la pagina [!UICONTROL Offerte immagine], è possibile eseguire le azioni seguenti su un elemento passando con il mouse sopra un&#39;offerta o una cartella e selezionando l&#39;icona appropriata.
 
-Nella figura seguente sono illustrate le icone che si trovano al passaggio del mouse durante la visualizzazione di [!UICONTROL Card View].
+Nella figura seguente sono illustrate le icone al passaggio del mouse durante la visualizzazione della [!UICONTROL Vista a schede].
 
 ![Icone attivate al passaggio del mouse nella scheda Offerte immagine in Vista a schede](/help/main/c-experiences/c-manage-content/assets/image-offers-hover-icons.png)
 
-Nella figura seguente sono illustrate le icone che si trovano al passaggio del mouse durante la visualizzazione di [!UICONTROL List View]. Per visualizzare le icone, fare clic su una voce dell&#39;elenco.
+Nella figura seguente sono illustrate le icone che si trovano al passaggio del mouse durante la visualizzazione della [!UICONTROL Vista a elenco]. Per visualizzare le icone, fare clic su una voce dell&#39;elenco.
 
 ![Icone selezionate nella scheda Offerte immagine nella vista a elenco](/help/main/c-experiences/c-manage-content/assets/list-view-hover.png)
 
@@ -70,8 +70,8 @@ Nella figura seguente sono illustrate le icone che si trovano al passaggio del m
    * Sposta
 
 * **Scarica**: scarica l&#39;offerta immagine o la cartella e il relativo contenuto.
-* **Visualizza proprietà**: visualizza le proprietà dell&#39;elemento. Fare clic sulle schede [!UICONTROL Basic] e [!UICONTROL Advanced] per visualizzare tutte le informazioni disponibili. Fai clic sull&#39;icona a forma di matita nella pagina delle proprietà per modificare le proprietà e aggiungere altre informazioni. Puoi aggiungere informazioni su metadati, stato di pubblicazione e dati sulla licenza.
-* **Altre azioni**: visualizza opzioni aggiuntive tra [!UICONTROL Card View].
+* **Visualizza proprietà**: visualizza le proprietà dell&#39;elemento. Fare clic sulle schede [!UICONTROL Base] e [!UICONTROL Avanzate] per visualizzare tutte le informazioni disponibili. Fai clic sull&#39;icona a forma di matita nella pagina delle proprietà per modificare le proprietà e aggiungere altre informazioni. Puoi aggiungere informazioni su metadati, stato di pubblicazione e dati sulla licenza.
+* **Altre azioni**: visualizza opzioni aggiuntive in [!UICONTROL Vista a schede].
 * **Modifica**: modifica cartella o offerta.
 * **Annota**: aggiungi una nota alla risorsa. Fai clic sulla risorsa, quindi seleziona l&#39;area da annotare e digita la nota.
 * **Copia**: copia l&#39;offerta. Copiare e quindi modificare l’offerta ti consente di creare facilmente una nuova offerta simile.

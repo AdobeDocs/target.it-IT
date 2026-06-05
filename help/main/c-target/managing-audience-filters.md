@@ -21,7 +21,7 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 477
+source-wordcount: 478
 ht-degree: 57%
 
 ---
@@ -41,7 +41,7 @@ Quando si pianifica di utilizzare i filtri di pubblico per un&#39;attività, occ
 * **Inizia con due o quattro tipi di pubblico.** Concentrati sulle informazioni di base, ad esempio l’origine del traffico.
 * **Rinomina i tipi di pubblico in base alle esigenze.** È possibile rinominare un pubblico senza influire sui dati per rendere il nome del pubblico più significativo per i risultati raccolti, anche se l’attività è attiva.
 * **Immettere valori precisi.** I valori dei filtri dei tipi di pubblico sono sensibili all’uso di maiuscole e minuscole. Ad esempio, se si utilizza un pubblico che filtra sulle città, è necessario utilizzare una condizione “OR” per includere possibili variazioni di ortografia e maiuscolo, ad esempio “Vienna”, “vienna”, “wien” e “Wien”.
-* **I tipi di pubblico creati dall&#39;elenco [!UICONTROL Audiences] possono essere riutilizzati.** I tipi di pubblico creati come parte di un&#39;attività non possono essere riutilizzati.
+* **I tipi di pubblico creati dall&#39;elenco [!UICONTROL Tipi di pubblico] possono essere riutilizzati.** I tipi di pubblico creati come parte di un&#39;attività non possono essere riutilizzati.
 
 Nelle sezioni seguenti vengono fornite ulteriori informazioni sull&#39;impostazione e la creazione di rapporti sui tipi di pubblico:
 

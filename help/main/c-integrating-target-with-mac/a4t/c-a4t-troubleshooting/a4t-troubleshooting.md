@@ -18,7 +18,7 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 948
+source-wordcount: 965
 ht-degree: 89%
 
 ---
@@ -53,13 +53,13 @@ Se suddividi la riga “Non specificata” per la dimensione “Analytics for Ta
 
 ## I rapporti sulle attività A4T includono una riga con molti eventi “non specificati”. {#added_unspecified_events}
 
-Nel report potrebbe essere visualizzata una riga di eventi &quot;[!UICONTROL Unspecified]&quot;, a seconda della metrica con cui visualizzi i dati.
+Nel report potrebbe essere visualizzata una riga di eventi &quot;[!UICONTROL Non specificato]&quot;, a seconda della metrica con cui visualizzi i dati.
 
-In genere, questa riga viene visualizzata se si sceglie una metrica comune nel report che non è specifica di [!DNL Target] (ad esempio, [!UICONTROL Page Views], [!UICONTROL Visits], [!UICONTROL Unique Visitors] e così via). In questo caso, la riga [!UICONTROL "Unspecified"] include tutte le attività [!UICONTROL Page Views], [!UICONTROL Visits] e [!UICONTROL Unique Visitors] non associate alle attività [!DNL Target].
+In genere, questa riga viene visualizzata se si sceglie una metrica comune nel report che non è specifica di [!DNL Target] (ad esempio, [!UICONTROL Visualizzazioni pagina], [!UICONTROL Visite], [!UICONTROL Visitatori univoci] e così via). In questo caso, la riga [!UICONTROL &quot;Non specificato&quot;] include tutte le [!UICONTROL Visualizzazioni pagina], [!UICONTROL Visite] e [!UICONTROL Visitatori univoci] non associati alle [!DNL Target] attività.
 
 Quella riga non includerà alcuna informazione associata a [!DNL Target] (ad esempio, nessun visitatore, visita o impression). Per ulteriori informazioni, consulta [“Non specificato”, “Nessuno,” “Altro,” e “Sconosciuto” nel reporting](https://experienceleague.adobe.com/docs/analytics/technotes/unspecified.html?lang=it) nelle *Note tecniche di Analytics*.
 
-Se scegli una metrica specifica per [!DNL Target] nel rapporto, la riga [!UICONTROL "Unspecified"] non viene visualizzata. L’unico modo per evitare di averla nel rapporto è impostare una chiamata [!DNL Target] su ogni richiesta inviata da quella pagina, che non è comune o necessaria.
+Se scegli una metrica specifica per [!DNL Target] nel report, la riga [!UICONTROL &quot;Non specificato&quot;] non viene visualizzata. L’unico modo per evitare di averla nel rapporto è impostare una chiamata [!DNL Target] su ogni richiesta inviata da quella pagina, che non è comune o necessaria.
 
 ## L’incremento stimato nella metrica delle entrate non mostra dati corretti. {#section_35D766E5E4D347C39E15D08AA883FBB0}
 
@@ -71,7 +71,7 @@ Le attività A4T richiedono che sia stato specificato un server di tracciamento 
 
 >[!NOTE]
 >
->Se utilizzi la versione 0.9.1 (o successiva) di at.js, non devi specificare un server di tracciamento durante la creazione dell’attività. La libreria at.js invia automaticamente i valori del server di tracciamento a [!DNL Target]. Durante la creazione dell&#39;attività, è possibile lasciare vuoto il campo [!UICONTROL Tracking Server] nella pagina [!UICONTROL Goals & Settings].
+>Se utilizzi la versione 0.9.1 (o successiva) di at.js, non devi specificare un server di tracciamento durante la creazione dell’attività. La libreria at.js invia automaticamente i valori del server di tracciamento a [!DNL Target]. Durante la creazione di attività, puoi lasciare vuoto il campo [!UICONTROL Server di tracciamento] nella pagina [!UICONTROL Obiettivi e impostazioni].
 
 ## I miei segmenti di Analytics non compaiono in Target. {#section_DEE87F1557834F448E99381D3D02EEEF}
 

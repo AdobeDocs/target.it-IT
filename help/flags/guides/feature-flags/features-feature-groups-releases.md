@@ -5,7 +5,7 @@ hide: true
 exl-id: 852aa777-6f8a-47c9-bf54-e645a5ee2f3e
 source-git-commit: fea4d9e87ad8417de9d820ee3556796fba112dc1
 workflow-type: tm+mt
-source-wordcount: '185'
+source-wordcount: '186'
 ht-degree: 2%
 
 ---
@@ -36,7 +36,7 @@ Raccolta di flag di funzionalità appartenenti allo stesso team. Consente di ges
 
 ## Quando utilizzarli {#when-to-use}
 
-| Scenario | Usa la |
+| Scenario | Utilizzo |
 |---|---|
 | Test o rollout di una singola funzione per un&#39;applicazione | **Flag di funzionalità** |
 | Coordinamento di più funzionalità nello stesso team, pubblicazione simultanea | **Gruppo di caratteristiche** |

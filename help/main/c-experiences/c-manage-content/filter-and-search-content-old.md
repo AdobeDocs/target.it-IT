@@ -6,39 +6,39 @@ feature: Experiences and Offers
 exl-id: 68ff0da5-4556-493e-b6b3-7bcbba320d57
 source-git-commit: e8201198dc6ac36e803153d5c6b345a30716204a
 workflow-type: tm+mt
-source-wordcount: '235'
-ht-degree: 7%
+source-wordcount: '264'
+ht-degree: 12%
 
 ---
 
 # Cercare e filtrare i contenuti
 
-Cercare le risorse per parole chiave nella libreria [!UICONTROL Offers] in [!DNL Adobe Target].
+Cerca le risorse per parole chiave nella libreria [!UICONTROL Offerte] in [!DNL Adobe Target].
 
 ## Cerca offerte di codice per parola chiave
 
-1. Fare clic su **[!UICONTROL Offers]** > **[!UICONTROL Code Offers]**.
-1. Digitare le parole chiave desiderate nella casella [!UICONTROL Search].
+1. Fai clic su **[!UICONTROL Offerte]** > **[!UICONTROL Offerte codice]**.
+1. Digitare le parole chiave desiderate nella casella [!UICONTROL Ricerca].
 
-   È inoltre possibile filtrare utilizzando gli elenchi a discesa [!UICONTROL Type] e [!UICONTROL Source] per perfezionare ulteriormente la ricerca.
+   Puoi anche filtrare utilizzando gli elenchi a discesa [!UICONTROL Tipo] e [!UICONTROL Source] per perfezionare ulteriormente la ricerca.
 
 ## Cerca offerte di immagini per parola chiave {#section_2465A71BC95942588F586B1EC8B9E5DB}
 
-1. Fare clic su **[!UICONTROL Offers]** > **[!UICONTROL Image Offers]**.
+1. Fai clic su **[!UICONTROL Offerte]** > **[!UICONTROL Offerte immagine]**.
 
-1. (Facoltativo) Passare da [!UICONTROL Card View] a [!UICONTROL List View] e fare clic sull&#39;icona [!UICONTROL Card View] o [!UICONTROL List View] nell&#39;angolo superiore destro della raccolta di contenuti. È inoltre possibile utilizzare [!UICONTROL View Settings] per configurare ulteriormente le colonne durante la visualizzazione di [!UICONTROL List View].
+1. (Facoltativo) Passa da [!UICONTROL Vista a schede] a [!UICONTROL Vista a elenco] e fai clic sull&#39;icona [!UICONTROL Vista a schede] o [!UICONTROL Vista a elenco] nell&#39;angolo superiore destro della libreria dei contenuti. È inoltre possibile utilizzare [!UICONTROL Impostazioni visualizzazione] per configurare ulteriormente le colonne durante la visualizzazione della [!UICONTROL Visualizzazione elenco].
 
-   Nella figura seguente sono illustrate le opzioni disponibili durante la visualizzazione di [!UICONTROL List View]:
+   Nella figura seguente sono illustrate le opzioni disponibili durante la visualizzazione della [!UICONTROL Vista a elenco]:
 
    ![Opzioni visualizzazione elenco](/help/main/c-experiences/c-manage-content/assets/view-settings-options.png)
 
-1. Fare clic sull&#39;icona **[!UICONTROL Content Only]** nell&#39;angolo superiore sinistro per visualizzare la casella di ricerca.
+1. Per visualizzare la casella di ricerca, fai clic sull&#39;icona **[!UICONTROL Solo contenuto]** nell&#39;angolo superiore sinistro.
 
    ![Opzione Solo contenuto](/help/main/c-experiences/c-manage-content/assets/content-only.png)
 
 1. Nella casella di ricerca, digita una parola chiave per le risorse che desideri individuare, quindi premi Invio.
 
-1. (Facoltativo) usa il riquadro **[!UICONTROL Filters and Options]** per perfezionare ulteriormente la ricerca.
+1. (Facoltativo) usa il riquadro **[!UICONTROL Filtri e opzioni]** per perfezionare ulteriormente la ricerca.
 
    ![Riquadro Filtro e opzioni](/help/main/c-experiences/c-manage-content/assets/filter-and-options.png)
 

@@ -20,20 +20,20 @@ topic_v2:
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 1986
+source-wordcount: 2009
 ht-degree: 50%
 
 ---
 
 # Dati utilizzati da [!DNL Target] algoritmi di apprendimento automatico
 
-[!DNL Adobe Target] raccoglie e utilizza automaticamente vari dati per generare gli algoritmi di personalizzazione nelle attività [!UICONTROL Automated Personalization] (AP) e [!UICONTROL Auto-Target] (AT). Quando un visitatore accede a un&#39;attività [!UICONTROL Automated Personalization] o [!UICONTROL Auto-Target], viene passata un&#39;istantanea di informazioni a un set di &quot;record di formazione&quot; (i dati del visitatore su cui gli algoritmi di personalizzazione apprendono qualcosa).
+[!DNL Adobe Target] raccoglie e utilizza automaticamente vari dati per generare gli algoritmi di personalizzazione nelle attività [!UICONTROL Automated Personalization] (AP) e [!UICONTROL Targeting automatico] (AT). Quando un visitatore accede a un&#39;attività di [!UICONTROL Automated Personalization] o [!UICONTROL Targeting automatico], viene passata un&#39;istantanea di informazioni a un set di &quot;record di formazione&quot; (i dati del visitatore su cui gli algoritmi di personalizzazione apprendono qualcosa).
 
 Per ulteriori informazioni sugli algoritmi di personalizzazione [!DNL Target], vedere [Algoritmo Foresta casuale](/help/main/c-activities/t-automated-personalization/algo-random-forest.md).
 
 ## Categorie di attributi [!DNL Target] predefinite
 
-Nella tabella seguente sono riportati i dati raccolti dalle attività [!UICONTROL Automated Personalization] e [!UICONTROL Auto-Target] per impostazione predefinita, senza alcuna configurazione di [!DNL Target] o altre soluzioni [!DNL Adobe]. La tabella include anche la convenzione di denominazione utilizzata per indicare questi attributi nei [rapporti Personalization Insights](/help/main/c-reports/c-personalization-insights-reports/personalization-insights-reports.md#concept_A897070E1EDC403EB84CFB7A6ECAD767). Puoi aumentare il set di dati di input in qualsiasi momento. Per ulteriori informazioni su come caricare dati aggiuntivi, consulta [Caricamento dei dati per gli  [!DNL Target] algoritmi di personalizzazione](/help/main/c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md).
+Nella tabella seguente sono riportati i dati raccolti dalle attività [!UICONTROL Automated Personalization] e [!UICONTROL Targeting automatico] per impostazione predefinita, senza alcuna configurazione di [!DNL Target] o altre soluzioni [!DNL Adobe]. La tabella include anche la convenzione di denominazione utilizzata per indicare questi attributi nei [rapporti Personalization Insights](/help/main/c-reports/c-personalization-insights-reports/personalization-insights-reports.md#concept_A897070E1EDC403EB84CFB7A6ECAD767). Puoi aumentare il set di dati di input in qualsiasi momento. Per ulteriori informazioni su come caricare dati aggiuntivi, consulta [Caricamento dei dati per gli  [!DNL Target] algoritmi di personalizzazione](/help/main/c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md).
 
 | Categoria di dati | Prefisso di sistema | Descrizione | Nome visualizzato nei report [!UICONTROL Insights] |
 | --- | --- | --- | --- |
@@ -45,7 +45,7 @@ Nella tabella seguente sono riportati i dati raccolti dalle attività [!UICONTRO
 
 ## Categorie di attributi [!DNL Target] personalizzate
 
-La tabella seguente mostra i dati forniti dal cliente raccolti dalle attività [!UICONTROL Automated Personalization] e [!UICONTROL Auto-Target]. Questi dati vengono raccolti solo se forniti dall&#39;utente. Nomi di attributi specifici e valori di esempio sono specifici per la configurazione del sistema.
+La tabella seguente mostra i dati forniti dal cliente raccolti dalle attività [!UICONTROL Automated Personalization] e [!UICONTROL Targeting automatico]. Questi dati vengono raccolti solo se forniti dall&#39;utente. Nomi di attributi specifici e valori di esempio sono specifici per la configurazione del sistema.
 
 | Categoria di dati | Prefisso di sistema | Descrizione | Nome visualizzato nei report [!UICONTROL Insights] |
 | --- | --- | --- | --- |
@@ -55,12 +55,12 @@ La tabella seguente mostra i dati forniti dal cliente raccolti dalle attività [
 | Parametri URL | URL | URL ed eventuali parametri URL per la pagina visualizzata. | Personalizzato - Parametro URL - [Parametro URL] |
 | URL di riferimento | RIF | URL di riferimento ed eventuali parametri URL per l’URL di riferimento. | Personalizzato - [Parametro URL di riferimento] - [Valore parametro] |
 | [!DNL Adobe Experience Cloud] tipi di pubblico condivisi | AAM | Tutti i tipi di pubblico condivisi con [!DNL Target] da altre soluzioni [!DNL Adobe Experience Cloud] (ad esempio, [!DNL Adobe Audience Manager] e [!DNL Adobe Analytics], tramite [[!DNL Experience Cloud Audience Library]](https://experienceleague.adobe.com/docs/core-services/interface/services/audiences/audience-library.html?lang=it){target=_blank}). | Personalizzato - Pubblico Experience Cloud - [Nome pubblico] |
-| [!DNL Adobe Experience Platform Real-time CDP] tipi di pubblico | UPS | Pubblico di Platform Real-time CDP condiviso con [!DNL Target] tramite [!UICONTROL Destinations]. |  |
+| [!DNL Adobe Experience Platform Real-time CDP] tipi di pubblico | UPS | Pubblico di Platform Real-time CDP condiviso con [!DNL Target] tramite [!UICONTROL Destinazioni]. |  |
 
 
 ## Blocco delle funzionalità da [!DNL Target] algoritmi di apprendimento automatico
 
-Le funzionalità possono essere bloccate da [!DNL Target] algoritmi di apprendimento automatico, impedendo che vengano utilizzate in qualsiasi modello o attività [!UICONTROL Automated Personalization] o [!UICONTROL Auto-Target].
+Le funzionalità possono essere bloccate da [!DNL Target] algoritmi di apprendimento automatico, impedendo che vengano utilizzate in qualsiasi modello o attività di [!UICONTROL Automated Personalization] o [!UICONTROL Targeting automatico].
 
 Per ulteriori informazioni, vedere [Panoramica di Models API (Inserisce nell&#39;elenco Bloccati di modelli) (Guida per gli sviluppatori di *[!DNL Adobe Target]](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api.html?lang=it){target=_blank}) (in lingua inglese).*
 

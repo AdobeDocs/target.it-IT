@@ -7,7 +7,7 @@ role: Admin
 exl-id: 89023213-b109-4d07-af4e-4b8da481806d
 source-git-commit: 974746e25724abf0e5edd3884331ec0975e5352e
 workflow-type: tm+mt
-source-wordcount: '92'
+source-wordcount: '95'
 ht-degree: 11%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 11%
 
 Informazioni su come amministrare [!DNL Adobe Target], incluse le impostazioni di configurazione per il Compositore esperienza visivo, il reporting, la configurazione di Scene7, l&#39;implementazione, gli host, gli ambienti, i token di risposta e gli utenti.
 
-Per accedere alle voci di menu [!UICONTROL Administration], fai clic su **[!UICONTROL Administration]** nella barra dei menu superiore, quindi fai clic sulla scheda desiderata lungo il lato sinistro:
+Per accedere alle voci di menu [!UICONTROL Amministrazione], fai clic su **[!UICONTROL Amministrazione]** nella barra dei menu superiore, quindi fai clic sulla scheda desiderata lungo il lato sinistro:
 
 * [Compositore esperienza visivo](/help/main/administrating-target/visual-experience-composer-set-up.md)
 * [Generazione di rapporti](/help/main/administrating-target/reporting.md)

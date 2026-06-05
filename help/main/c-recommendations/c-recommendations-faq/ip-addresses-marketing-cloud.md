@@ -12,8 +12,8 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 187
-ht-degree: 33%
+source-wordcount: 189
+ht-degree: 32%
 
 ---
 
@@ -25,7 +25,7 @@ Elenco di indirizzi IP utilizzati nei server di elaborazione dei feed [!DNL Reco
 >
 >Il team [!DNL Target] sta aggiornando gli indirizzi gateway NAT per il download di [!DNL Recommendations] feed. Se implementi la inserisce nell&#39;elenco Consentiti di IP, accertati di inserire nell&#39;elenco Consentiti i seguenti nuovi host AWS. La disattivazione degli host esistenti è prevista per il 30 giugno 2024. Per garantire una transizione fluida, inserisce nell&#39;elenco Consentiti tutti e nove gli indirizzi di, in quanto tutti i messaggi sono stati inseriti in un unico file. Non vi è alcuna urgenza di rimuovere gli indirizzi esistenti.
 
-Le attività di [!DNL Target] [!UICONTROL Recommendations] utilizzano i seguenti host AWS per accedere ai server FTP dei clienti:
+[!DNL Target] [!UICONTROL Le attività Recommendations] utilizzano i seguenti host AWS per accedere ai server FTP dei clienti:
 
 **Nuovi host**:
 

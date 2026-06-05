@@ -1,6 +1,6 @@
 ---
 keywords: Targeting;rapporto AP;rapporti di personalizzazione automatizzata;targeting automatico;auto targeting;rapporto di targeting automatico;report di targeting automatico;personalizzazione;approfondimenti;FAQ;domande frequenti;attributi importanti
-description: Scopri come utilizzare il rapporto [!UICONTROL Important Attributes] che mostra gli attributi principali che hanno influenzato il modello di personalizzazione e la loro importanza relativa.
+description: Scopri come utilizzare il rapporto [!UICONTROL Attributi importanti] che mostra gli attributi principali che hanno influenzato il modello di personalizzazione e la loro importanza relativa.
 title: Cos’è il rapporto Attributi importanti?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=it#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."
 feature: Reports
@@ -22,59 +22,59 @@ topic_v2:
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 1835
-ht-degree: 56%
+source-wordcount: 1937
+ht-degree: 61%
 
 ---
 
 # Rapporto Attributi importanti
 
-Informazioni sul report [!UICONTROL Important Attributes], uno dei due report specializzati disponibili per gli utenti di [!UICONTROL Automated Personalization] (AP) e [!UICONTROL Auto-Target] (AT) attività.
+Informazioni sul report [!UICONTROL Attributi importanti], uno dei due report specializzati disponibili per gli utenti di [!UICONTROL attività di Automated Personalization] (AP) e [!UICONTROL Targeting automatico] (AT).
 
 >[!NOTE]
 >
->Quando si utilizzano i report [!UICONTROL Personalization Insights], tenere presente quanto segue:
+>Quando si utilizzano i report [!UICONTROL Personalization Insights], considera quanto segue:
 >
 >* Le attività di AP e AT sono disponibili come parte della soluzione [!DNL Target Premium]. Non sono disponibili in [!DNL Target Standard] senza una licenza di [!DNL Target Premium].
 >
 >* I report [!UICONTROL Personalization Insights] sono disponibili solo per le attività di AP e AT che utilizzano un obiettivo di ottimizzazione della conversione. Anche le attività in cui l&#39;obiettivo di ottimizzazione è stato modificato in conversione da ricavi dopo che l&#39;attività era già attiva non sono supportate.
 >
->* I report [!UICONTROL Personalization Insights] sono disponibili solo se [!UICONTROL Primary Goal] è selezionato dall&#39;elenco a discesa [!UICONTROL Report Metric].
+>* I report [!UICONTROL Personalization Insights] sono disponibili solo se l&#39;obiettivo principale  è selezionato dall&#39;elenco a discesa [!UICONTROL Metrica report].
 >
->* [!UICONTROL Personalization Insights] report sono supportati solo nell&#39;[ambiente predefinito](/help/main/administrating-target/hosts.md).
+>* I rapporti di [!UICONTROL Personalization Insights] sono supportati solo nell&#39;[ambiente predefinito](/help/main/administrating-target/hosts.md).
 >
 >* I report [!UICONTROL Personalization Insights] vengono generati solo per le attività che si trovano nello stato [!UICONTROL Live] e che sono state attivate e ricevono traffico per almeno 15 giorni.
 
 Nelle varie attività, i vari attributi possono essere più o meno importanti per il modo in cui il modello decide di personalizzare. Questo rapporto mostra gli attributi principali che hanno influenzato il modello e la loro importanza relativa.
 
-## Accedi al report [!UICONTROL Important Attributes] {#section_8E8F997AAAF44A1B9EE06EB6FB652801}
+## Accedi al report [!UICONTROL Attributi importanti] {#section_8E8F997AAAF44A1B9EE06EB6FB652801}
 
-1. Fai clic su **[!UICONTROL Activities]**, quindi sull&#39;attività [Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) o [Targeting automatico](/help/main/c-activities/auto-target/auto-target-to-optimize.md) desiderata tra quelle elencate.
+1. Fai clic su **[!UICONTROL Attività]**, quindi sull&#39;attività [Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) o [Targeting automatico](/help/main/c-activities/auto-target/auto-target-to-optimize.md) desiderata tra quelle elencate.
 
-   Se hai numerose attività, fai clic sull&#39;icona Filtro ( ![icona Filtro](/help/main/assets/icons/Filter.svg) ) per filtrare l&#39;elenco selezionando le opzioni dagli elenchi a discesa [!UICONTROL Type], [!UICONTROL Status], [!UICONTROL Reporting Source], [!UICONTROL Experience Composer], [!UICONTROL Metrics Type] e [!UICONTROL Activity Source].
+   Se hai numerose attività, fai clic sull&#39;icona Filtro ( ![icona Filtro](/help/main/assets/icons/Filter.svg) ) per filtrare l&#39;elenco selezionando le opzioni dagli elenchi a discesa [!UICONTROL Tipo], [!UICONTROL Stato], [!UICONTROL Source per la generazione di rapporti], [!UICONTROL Compositore esperienza], [!UICONTROL Tipo di metrica] e [!UICONTROL Source attività].
 
-1. Fare clic su **[!UICONTROL Reports]**.
+1. Fai clic su **[!UICONTROL Report]**.
 
-   Viene visualizzato il report [Riepilogo Automated Personalization](/help/main/c-reports/personalization-reports/reports-ap.md) o [Riepilogo Targeting automatico](/help/main/c-reports/personalization-reports/auto-target-summary-report.md), che fornisce informazioni sulle prestazioni delle attività, rappresentate dall&#39;icona della prima schermata. Le due icone aggiuntive rappresentano i due rapporti [!UICONTROL Personalization Insights]: **[!UICONTROL Automated Segments]** ( ![Rapporto Segmenti automatizzati](/help/main/assets/icons/AutomatedSegment.svg) ) e **[!UICONTROL Important Attributes]** ( ![Icona Attributi importanti](/help/main/assets/icons/ViewList.svg) ).
+   Viene visualizzato il report [Riepilogo Automated Personalization](/help/main/c-reports/personalization-reports/reports-ap.md) o [Riepilogo Targeting automatico](/help/main/c-reports/personalization-reports/auto-target-summary-report.md), che fornisce informazioni sulle prestazioni delle attività, rappresentate dall&#39;icona della prima schermata. Le due icone aggiuntive rappresentano i due rapporti [!UICONTROL Personalization Insights]: **[!UICONTROL Segmenti automatizzati]** ( ![Rapporto Segmenti automatizzati](/help/main/assets/icons/AutomatedSegment.svg) ) e **[!UICONTROL Attributi importanti]** ( ![Icona Attributi importanti](/help/main/assets/icons/ViewList.svg) ).
 
 
-   [!UICONTROL Auto-Target] ha un&#39;ulteriore icona di grafico per la visualizzazione grafica del report [!UICONTROL Summary].
+   [!UICONTROL Targeting automatico] ha un&#39;ulteriore icona di grafico per la visualizzazione grafica del report [!UICONTROL Riepilogo].
 
    >[!IMPORTANT]
    >
-   >Il report [!UICONTROL Important Attributes] non sarà disponibile per almeno 15 giorni dopo l&#39;attivazione dell&#39;attività. Durante questo periodo iniziale, non potrai accedere a questo report o fare clic sull&#39;icona [!UICONTROL Important Attributes]. Trascorsi 15 giorni, supponendo che la tua attività abbia un traffico personalizzato sufficiente, il rapporto [!UICONTROL Important Attributes] è disponibile.
+   >Il report [!UICONTROL Attributi importanti] non sarà disponibile per almeno 15 giorni dopo l&#39;attivazione dell&#39;attività. Durante questo periodo iniziale, non potrai accedere a questo report o fare clic sull’icona di [!UICONTROL Attributi importanti]. Trascorsi 15 giorni, supponendo che la tua attività abbia un traffico personalizzato sufficiente, il rapporto [!UICONTROL Attributi importanti] è disponibile.
 
-1. A 15 giorni dall&#39;attivazione dell&#39;attività, fare clic sull&#39;icona **[!UICONTROL Important Attributes]** ( ![Attributi importanti](/help/main/assets/icons/ViewList.svg) ).
+1. A 15 giorni dall&#39;attivazione dell&#39;attività, fai clic sull&#39;icona **[!UICONTROL Attributi importanti]** ( ![Icona Attributi importanti](/help/main/assets/icons/ViewList.svg) ).
 
 1. Seleziona l&#39;intervallo di date desiderato.
 
-   A differenza del rapporto [!UICONTROL Summary] (rapporto sulle prestazioni), [!UICONTROL Personalization Insights], incluso [!UICONTROL Important Attributes], è disponibile solo per intervalli di date fissi: 15 giorni, 30 giorni e 60 giorni.
+   A differenza del rapporto [!UICONTROL Riepilogo] (rapporto sulle prestazioni), [!UICONTROL Personalization Insights], incluso [!UICONTROL Attributi importanti], è disponibile solo per intervalli di date fissi: 15 giorni, 30 giorni e 60 giorni.
 
-   Questi intervalli di date fissi consentono a [!UICONTROL Personalization Insights] di utilizzare un intervallo di dati sufficientemente ampio per ridurre la probabilità che si ottengano informazioni da un pattern di breve durata nell&#39;attività. Le due decisioni che puoi prendere per l&#39;intervallo di date sono “Data di fine” e “Durata”. Noterai che “Start” è inattivo. La data di inizio cambia automaticamente in base alla data di fine e alla durata selezionate.
+   Questi intervalli di date fissi consentono a [!UICONTROL Registri di personalizzazione] di utilizzare una gamma di dati abbastanza ampia da ridurre la probabilità di trarre informazioni da un modello di breve durata all&#39;interno dell&#39;attività. Le due decisioni che puoi prendere per l&#39;intervallo di date sono “Data di fine” e “Durata”. Noterai che “Start” è inattivo. La data di inizio cambia automaticamente in base alla data di fine e alla durata selezionate.
 
-   È possibile accedere agli intervalli di date fissi disponibili dall&#39;elenco a discesa [!UICONTROL Preset Date Range].
+   Puoi accedere agli intervalli di date fissi disponibili dall&#39;elenco a discesa [!UICONTROL Intervallo date predefinito].
 
-1. Esaminare i dati del report [!UICONTROL Important Attributes].
+1. Esamina i dati del rapporto [!UICONTROL Attributi importanti].
 
 1. (Facoltativo) Fai clic sull&#39;icona Scarica ( ![icona Scarica](/help/main/assets/icons/Download.svg) ) per [scaricare il rapporto in formato CSV](/help/main/c-reports/c-report-settings/report-settings.md#section_77E65C50BAAF4AB79242DB3A8778ADEF) per l&#39;analisi in Excel e altri strumenti.
 
@@ -93,15 +93,15 @@ La tabella seguente spiega come interpretare il rapporto e ne descrive gli eleme
 
 ## Domande frequenti sugli attributi importanti {#section_740910A52FA646B4AC9452F98C2F5719}
 
-Per le risposte alle domande più frequenti sull&#39;utilizzo del report [!UICONTROL Important Attributes], vedere le domande frequenti seguenti.
+Consulta le seguenti domande frequenti per le risposte alle domande più frequenti sull&#39;utilizzo del report [!UICONTROL Attributi importanti].
 
 ### I rapporti Approfondimenti Personalization non sono ancora disponibili per la mia attività. Perché?
 
-Ci sono diversi motivi per cui i report [!UICONTROL Personalization Insights] potrebbero non essere ancora disponibili per l&#39;attività:
+Ci sono diversi motivi per cui i rapporti di [!UICONTROL Personalization Insights] potrebbero non essere ancora disponibili per la tua attività:
 
 * non sono trascorsi 15 giorni dall&#39;attivazione dell&#39;attività. I rapporti di Segmenti automatizzati e Attributi importanti non saranno disponibili per almeno 15 giorni dopo l&#39;attivazione dell&#39;attività. Durante questo periodo iniziale, non potrai accedere a questi rapporti o fare clic sulle icone di Segmenti automatizzati e Attributi importanti.
 * L&#39;attività non ha avuto traffico a sufficienza durante l’arco temporale specificato. Trascorsi 15 giorni, supponendo che la tua attività abbia un [traffico personalizzato sufficiente](/help/main/c-activities/auto-target/auto-target-to-optimize.md#section_BA4D83BE40F14A96BE7CBC7C7CF2A8FB), saranno disponibili i rapporti Segmenti automatizzati e Attributi importanti.
-* L&#39;attività ha un obiettivo di ottimizzazione dei profitti. Al momento, [!UICONTROL Personalization Insights] è disponibile solo per le attività con obiettivo di ottimizzazione della conversione. Il supporto per le attività di ottimizzazione dei profitti verrà aggiunto in una versione futura.
+* L&#39;attività ha un obiettivo di ottimizzazione dei profitti. Attualmente, [!UICONTROL Registri di personalizzazione] è disponibile solo per le attività con obiettivo di ottimizzazione della conversione. Il supporto per le attività di ottimizzazione dei profitti verrà aggiunto in una versione futura.
 
 ### Che cos’è un attributo?
 
@@ -111,25 +111,25 @@ Per ulteriori informazioni sugli attributi utilizzati da [!DNL Target] nei model
 
 ### Visualizzo uno o più attributi che non desidero che il modello utilizzi per la formazione. Posso rimuovere questi attributi dal modello di formazione? {#models-api}
 
-L&#39;API [!UICONTROL Models API], denominata anche API di Inserisce nell&#39;elenco Bloccati di, consente agli utenti di visualizzare e gestire l&#39;elenco di attributi (denominati anche funzionalità) utilizzati nei modelli di apprendimento automatico per le attività [!UICONTROL Automated Personalization] (AP) e [!UICONTROL Auto-Target] (AT). Se vuoi escludere uno o più attributi dall&#39;utilizzo da parte dei modelli per attività di AP o AT, puoi utilizzare l&#39;API dei modelli per aggiungere tali attributi al &quot;inserisco nell&#39;elenco Bloccati di&quot;.
+L&#39;API [!UICONTROL Models], denominata anche API di Inserisce nell&#39;elenco Bloccati di Automated Personalization, consente agli utenti di visualizzare e gestire l&#39;elenco di attributi (o funzionalità) utilizzati nei modelli di apprendimento automatico per le attività  (AP) e [!UICONTROL Targeting automatico] (AT). Se vuoi escludere uno o più attributi dall&#39;utilizzo da parte dei modelli per attività di AP o AT, puoi utilizzare l&#39;API dei modelli per aggiungere tali attributi al &quot;inserisco nell&#39;elenco Bloccati di&quot;.
 
 Per informazioni dettagliate, consulta [Panoramica di Models API](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api.html?lang=it){target=_blank} nella *Guida per gli sviluppatori di Adobe Target*. Per utilizzare l&#39;API per bloccare gli attributi, vedere [Models API](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api-overview.html?lang=it){target=_blank}.
 
-### Le informazioni nei report [!UICONTROL Automated Segments] e [!UICONTROL Important Attributes] sono le stesse del file CSV scaricabile?
+### Le informazioni nei rapporti [!UICONTROL Segmenti automatizzati] e [!UICONTROL Attributi importanti] sono le stesse del file CSV scaricabile?
 
 No, il rapporto dell&#39;interfaccia utente contiene specifiche informazioni. Il file CSV scaricabile contiene ulteriori dettagli. Il download del rapporto di Registri di segmento automatizzato comprende altri Segmenti automatizzati oltre ai segmenti principali inclusi nell&#39;interfaccia utente, così come le prestazioni di quei segmenti rispetto alle offerte o esperienze. Il rapporto di Attributi importanti include i principali 100 attributi dei visitatori e l&#39;importanza relativa, mentre l&#39;interfaccia utente include solo i 10 attributi principali.
 
 ### Posso visualizzare Personalization Insights per un intervallo di date personalizzato?
 
-Il rapporto di Personalization Insights (sia [!UICONTROL Automated Segments] che [!UICONTROL Important Attributes]) è disponibile solo per intervalli di date fissi: 15 giorni, 30 giorni, 45 giorni, 60 giorni e 90 giorni. Questi intervalli di date fissi consentono a [!UICONTROL Personalization Insights] di utilizzare un intervallo di dati sufficientemente ampio per ridurre la probabilità che si ottengano informazioni da un pattern di breve durata nell&#39;attività. Puoi selezionare queste durate per qualsiasi data di fine (laddove vi siano dati a sufficienza per soddisfare la durata).
+Il report di Registri di personalizzazione (sia per [!UICONTROL Segmenti automatizzati] sia per [!UICONTROL Attributi importanti]) è disponibile solo per intervalli di date fissi: 15 giorni, 30 giorni, 45 giorni, 60 giorni e 90 giorni. Questi intervalli di date fissi consentono a [!UICONTROL Registri di personalizzazione] di utilizzare una gamma di dati abbastanza ampia da ridurre la probabilità di trarre informazioni da un modello di breve durata all&#39;interno dell&#39;attività. Puoi selezionare queste durate per qualsiasi data di fine (laddove vi siano dati a sufficienza per soddisfare la durata).
 
 ### Come viene creato [!UICONTROL Personalization Insights]?
 
-[!UICONTROL Personalization Insights] viene creato utilizzando una tecnica Adobe in attesa di licenza denominata MAGIX (Model Agnostic Globally Interpretable Explanations). Per ulteriori informazioni su MAGIX, consulta il documento pubblicato del team di ricerca Adobe sul [arXiv.org sito Web](https://arxiv.org/abs/1706.07160).
+[!UICONTROL Registri di personalizzazione viene creato tramite una tecnica di Adobe in attesa di licenza denominata MAGIX (Model Agnostic Globally Interpretable Explanations).] Per ulteriori informazioni su MAGIX, consulta il documento pubblicato del team di ricerca Adobe sul [arXiv.org sito Web](https://arxiv.org/abs/1706.07160).
 
-### [!UICONTROL Personalization Insights] è disponibile per obiettivi di modeling/obiettivi primari basati sui ricavi?
+### Sono disponibili [!UICONTROL Personalization Insights] per obiettivi di modeling/obiettivi primari basati sui ricavi?
 
-Al momento, [!UICONTROL Personalization Insights] è disponibile solo per le attività con obiettivo di ottimizzazione della conversione. Il supporto per le attività di ottimizzazione dei profitti verrà aggiunto in una versione futura.
+Attualmente, [!UICONTROL Registri di personalizzazione] è disponibile solo per le attività con obiettivo di ottimizzazione della conversione. Il supporto per le attività di ottimizzazione dei profitti verrà aggiunto in una versione futura.
 
 ### Qual è il punteggio di importanza dell&#39;attributo nel rapporto Attributi importanti?
 
@@ -161,4 +161,4 @@ Vi sono vari motivi per cui potresti vedere più visite per un’offerta o esper
 
 Il seguente problema è attualmente in fase di analisi da parte del team di progettazione [!DNL Target].
 
-* I nomi dei segmenti [!DNL Adobe Experience Platform] non vengono visualizzati nel report [!UICONTROL Important Attributes] per le attività [!UICONTROL Automated Personalization] (AP) e [!UICONTROL Auto-Target] (AT). (TOP-3813)
+* I nomi dei segmenti [!DNL Adobe Experience Platform] non vengono visualizzati nel report [!UICONTROL Attributi importanti] per le attività [!UICONTROL Automated Personalization] (AP) e [!UICONTROL Targeting automatico] (AT). (TOP-3813)

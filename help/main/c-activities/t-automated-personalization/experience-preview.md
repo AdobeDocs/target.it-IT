@@ -7,8 +7,8 @@ feature: Automated Personalization
 exl-id: 9f329b8a-5f86-4cae-a3be-eed24fa0a9cd
 source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
 workflow-type: tm+mt
-source-wordcount: '715'
-ht-degree: 49%
+source-wordcount: '743'
+ht-degree: 48%
 
 ---
 
@@ -26,18 +26,18 @@ Utilizza gli URL di anteprima dell’esperienza per condividere le esperienze co
 
    L&#39;attività non deve essere live per visualizzare un&#39;anteprima dell&#39;esperienza.
 
-1. Nella pagina Panoramica attività, fai clic sui tre punti verticali, quindi su **[!UICONTROL View Experience URLs]**.
+1. Nella pagina Panoramica attività, fai clic sui tre punti verticali, quindi fai clic su **[!UICONTROL Visualizza URL esperienza]**.
 
 1. Rivedi e/o definisci gli URL.
 
-   * Se utilizzi il [!UICONTROL Visual Experience Composer] (VEC), l&#39;URL predefinito specificato per l&#39;attività viene inserito automaticamente e viene generato un collegamento per ogni esperienza nell&#39;attività. Se lo desideri, puoi modificare questo URL e aggiungerne altri.
-   * Se si utilizza [!UICONTROL Form-Based Experience Composer], non verrà immesso automaticamente alcun URL predefinito. Se non hai creato in precedenza gli URL di anteprima dell&#39;esperienza, fai clic su **Aggiungi nuovo URL**. Devi specificare tutti gli URL che desideri visualizzare in anteprima e un nome per ognuno.
+   * Se si utilizza il [!UICONTROL Compositore esperienza visivo], l&#39;URL predefinito specificato per l&#39;attività viene immesso automaticamente e viene generato un collegamento per ogni esperienza dell&#39;attività. Se lo desideri, puoi modificare questo URL e aggiungerne altri.
+   * Se si utilizza il [!UICONTROL Compositore esperienza basato su moduli], non verrà immesso automaticamente alcun URL predefinito. Se non hai creato in precedenza gli URL di anteprima dell&#39;esperienza, fai clic su **Aggiungi nuovo URL**. Devi specificare tutti gli URL che desideri visualizzare in anteprima e un nome per ognuno.
 
    Puoi aggiungere più URL, tale opzione è utile quando esegui un test a più pagine o un test modello e desideri visualizzare in anteprima l&#39;attività su più di una pagina.
 
    Una finestra modale visualizza i collegamenti alle esperienze sul sito per ottenere una &quot;anteprima fedele&quot; al di fuori del Compositore esperienza visivo [!DNL Target]. Per condividere l’anteprima, è necessario condividere i collegamenti dal messaggio. Non è possibile fare clic su un collegamento e poi copiare l&#39;URL risultante direttamente dalla pagina, perché l&#39;URL contiene un parametro che visualizza la pagina correttamente solo quando si accede alla pagina dal collegamento nel messaggio. Invece, copia il testo nella finestra modale e invialo all&#39;intero team.
 
-1. Fai clic su **[!UICONTROL Generate All]**, quindi su ogni esperienza per visualizzarne l&#39;anteprima.
+1. Fai clic su **[!UICONTROL Genera tutto]**, quindi su ogni esperienza per visualizzarne l&#39;anteprima.
 
    Se in seguito apporti modifiche all&#39;esperienza, assicurati di generare nuovi collegamenti di anteprima per il tuo team tornando alla finestra modale e facendo clic su **Rinnova collegamenti** per ottenere nuovi collegamenti.
 
@@ -49,7 +49,7 @@ Utilizza gli URL di anteprima dell’esperienza per condividere le esperienze co
 
    L’attività viene visualizzata nella pagina.
 
-1. Fare clic su **[!UICONTROL Done]** per tornare al riepilogo attività.
+1. Fai clic su **[!UICONTROL Fine]** per tornare al riepilogo attività.
 
 ## Considerazioni {#example_9F2B333BC63143FF99AE331F57E8BA4C}
 
@@ -71,7 +71,7 @@ Utilizza gli URL di anteprima dell’esperienza per condividere le esperienze co
 
 * L’anteprima funziona per qualsiasi attività salvata, purché la pagina non venga modificata.
 * L’URL di anteprima dell’esperienza è disponibile indipendentemente dal fatto che l’attività sia attiva o inattiva.
-* Impossibile visualizzare in anteprima un&#39;esperienza con stato [!UICONTROL Draft].
+* Impossibile visualizzare in anteprima un&#39;esperienza con stato [!UICONTROL Bozza].
 * La visualizzazione degli URL di anteprima dell’esperienza non influisce sul reporting.
 
 **Risoluzione dei problemi relativi agli URL di anteprima esperienza**

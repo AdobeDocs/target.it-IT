@@ -7,8 +7,8 @@ feature: Recommendations
 exl-id: 217e19bf-521f-4913-9b41-099c9af8b393
 source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
 workflow-type: tm+mt
-source-wordcount: '238'
-ht-degree: 45%
+source-wordcount: '250'
+ht-degree: 42%
 
 ---
 

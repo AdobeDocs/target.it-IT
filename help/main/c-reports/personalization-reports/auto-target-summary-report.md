@@ -15,35 +15,35 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 628
-ht-degree: 36%
+source-wordcount: 666
+ht-degree: 35%
 
 ---
 
-# [!UICONTROL Auto-Target Summary report]
+# [!UICONTROL Rapporto di riepilogo del Targeting automatico]
 
-Informazioni su come interpretare i report [!UICONTROL Auto-Target Summary] in [!DNL Adobe Target].
+Informazioni su come interpretare i report [!UICONTROL Riepilogo targeting automatico] in [!DNL Adobe Target].
 
 >[!NOTE]
 >
->[!UICONTROL Auto-Target] è disponibile nella soluzione [!DNL Target Premium]. Non è disponibile in [!DNL Target Standard] senza una [licenza Target Premium](/help/main/c-intro/intro.md#premium).
+>[!UICONTROL Targeting automatico] è disponibile come parte della soluzione [!DNL Target Premium]. Non è disponibile in [!DNL Target Standard] senza una [licenza Target Premium](/help/main/c-intro/intro.md#premium).
 
-Per visualizzare i report [!UICONTROL Auto-Target Summary]:
+Per visualizzare i report [!UICONTROL Riepilogo targeting automatico]:
 
-1. Dalla pagina [!UICONTROL Activities], fare clic sull&#39;attività [!UICONTROL Auto-Target] desiderata.
+1. Dalla pagina [!UICONTROL Attività], fai clic sull&#39;attività [!UICONTROL Targeting automatico] desiderata.
 
-   Se hai numerose attività, fai clic sull&#39;icona Filtro ( ![icona Filtro](/help/main/assets/icons/Filter.svg) ) per filtrare l&#39;elenco selezionando le opzioni dagli elenchi a discesa [!UICONTROL Type], [!UICONTROL Status], [!UICONTROL Reporting Source], [!UICONTROL Experience Composer], [!UICONTROL Metrics Type] e [!UICONTROL Activity Source].
+   Se hai numerose attività, fai clic sull&#39;icona Filtro ( ![icona Filtro](/help/main/assets/icons/Filter.svg) ) per filtrare l&#39;elenco selezionando le opzioni dagli elenchi a discesa [!UICONTROL Tipo], [!UICONTROL Stato], [!UICONTROL Source per la generazione di rapporti], [!UICONTROL Compositore esperienza], [!UICONTROL Tipo di metrica] e [!UICONTROL Source attività].
 
-1. Fare clic sulla scheda **[!UICONTROL Reports]**, quindi fare clic sull&#39;icona desiderata:
+1. Fai clic sulla scheda **[!UICONTROL Rapporti]**, quindi fai clic sull&#39;icona desiderata:
 
-   * **[!UICONTROL Table View]** ( ![Icona Vista tabella](/help/main/assets/icons/Table.svg) )
-   * **[!UICONTROL Graph View]** ( ![Icona Vista grafico](/help/main/assets/icons/GraphTrend.svg) )
-   * **[!UICONTROL Automated Segments]** ( ![Rapporto Segmenti automatizzati](/help/main/assets/icons/AutomatedSegment.svg) )
-   * [!UICONTROL Important Attributes]** ( ![Icona Attributi importanti](/help/main/assets/icons/ViewList.svg) )
+   * **[!UICONTROL Vista tabella]** ( ![Icona Vista tabella](/help/main/assets/icons/Table.svg) )
+   * **[!UICONTROL Vista grafico]** ( ![Icona Vista grafico](/help/main/assets/icons/GraphTrend.svg) )
+   * **[!UICONTROL Segmenti automatizzati]** ( ![Rapporto Segmenti automatizzati](/help/main/assets/icons/AutomatedSegment.svg) )
+   * [!UICONTROL Attributi importanti]** ( ![Icona Attributi importanti](/help/main/assets/icons/ViewList.svg) )
 
 ## Vista tabella
 
-Alcuni suggerimenti e considerazioni sull&#39;interpretazione dei report [!UICONTROL Auto-Target]:
+Alcuni suggerimenti e considerazioni sull&#39;interpretazione dei report [!UICONTROL Targeting automatico]:
 
 * Le varie righe della tabella consentono di comprendere le prestazioni dell’attività.
 
@@ -56,7 +56,7 @@ Alcuni suggerimenti e considerazioni sull&#39;interpretazione dei report [!UICON
    * In questo caso, per aumentare la velocità dell&#39;attività con modelli generati per tutte le esperienze, il traffico aggiuntivo viene inviato a esperienze con modelli non generati.
    * Affinché la personalizzazione possa iniziare, devono essere presenti almeno due esperienze con modelli generati (segno di spunta verde).
 
-* Confrontare il tasso di conversione dell&#39;esperienza A con quello dell&#39;esperienza B non è il confronto corretto in [!UICONTROL Auto-Target]. La domanda è se l&#39;esperienza A funziona meglio quando viene fornita in modo intelligente rispetto a un modo casuale (in altre parole, rispetto al controllo). Gli addetti al marketing dovrebbero anche usare cautela nell&#39;interpretazione degli incrementi di esperienze individuali, perché l&#39;algoritmo di personalizzazione tenta di ottimizzare secondo la metrica di successo su tutta l&#39;attività, non su ogni singola esperienza.
+* Confrontare il tasso di conversione dell&#39;esperienza A con quello dell&#39;esperienza B non è il confronto corretto in [!UICONTROL Targeting automatico]. La domanda è se l&#39;esperienza A funziona meglio quando viene fornita in modo intelligente rispetto a un modo casuale (in altre parole, rispetto al controllo). Gli addetti al marketing dovrebbero anche usare cautela nell&#39;interpretazione degli incrementi di esperienze individuali, perché l&#39;algoritmo di personalizzazione tenta di ottimizzare secondo la metrica di successo su tutta l&#39;attività, non su ogni singola esperienza.
 * Le esperienze con l&#39;incremento maggiore possono essere considerate come quelle che presentano la più alta differenziazione all&#39;interno della popolazione. In altre parole, l&#39;algoritmo ha trovato il segmento che più piace a quella particolare esperienza.
 * Le varie colonne della tabella mostrano il numero di visite, il tasso di conversione, l’incremento medio e il livello di affidabilità e l’affidabilità. Per ulteriori informazioni, vedere [Calcoli statistici nei test A/B](/help/main/c-reports/statistical-methodology/statistical-calculations.md).
 

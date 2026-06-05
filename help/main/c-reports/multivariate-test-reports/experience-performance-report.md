@@ -13,16 +13,16 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 326
-ht-degree: 72%
+source-wordcount: 331
+ht-degree: 71%
 
 ---
 
-# Rapporto [!UICONTROL Experience Performance] (MVT)
+# [!UICONTROL Rapporto Prestazioni Esperienza] (MVT)
 
-Il report [!UICONTROL Experience Performance] mostra le prestazioni di ogni esperienza nell&#39;attività. Questo rapporto include informazioni sul numero di partecipanti, il tasso di conversione, l’incremento e l’affidabilità.
+Il report [!UICONTROL Prestazioni esperienza] mostra le prestazioni di ogni esperienza nell&#39;attività. Questo rapporto include informazioni sul numero di partecipanti, il tasso di conversione, l’incremento e l’affidabilità.
 
-Puoi selezionare una o più esperienze per confrontarle. Fai clic su un&#39;esperienza e seleziona **[!UICONTROL Preview]** per aprirla in una scheda del browser.
+Puoi selezionare una o più esperienze per confrontarle. Fai clic su un&#39;esperienza e seleziona **[!UICONTROL Anteprima]** per aprirla in una scheda del browser.
 
 La parte superiore del rapporto mostra la metrica, le date di inizio e di fine e il pubblico utilizzato nel rapporto. Puoi modificare ciascuno di questi fattori.
 

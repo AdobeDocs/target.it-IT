@@ -1,7 +1,7 @@
 ---
 keywords: test multivariato;mvt;fattoriale completo;mvt o a/b;multivariato a/b;calcolatore del traffico;quando utilizzare mvt;considerazioni mvt;multivariato;fattoriale parziale;fattoriale parziale;fattoriale completo
-description: Scopri come utilizzare un [!UICONTROL Multivariate Test] (MVT) in [!DNL Adobe Target] per confrontare combinazioni di offerte negli elementi di una pagina per determinare quale combinazione funziona meglio.
-title: Cos'è un [!UICONTROL Multivariate Test]?
+description: Scopri come utilizzare un [!UICONTROL test multivariato] (MVT) in [!DNL Adobe Target] per confrontare combinazioni di offerte negli elementi di una pagina per determinare quale combinazione funziona meglio.
+title: Cos'è un [!UICONTROL test multivariato]?
 feature: Multivariate Tests
 exl-id: c8b60011-cb3a-4e28-b84f-06910687b14b
 TQID: https://experienceleague.adobe.com/JKmjIHJuRxAXlhvUOrrmLMVLnJFhA3T4xkahgH-ozHE
@@ -14,28 +14,28 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 1453
+source-wordcount: 1473
 ht-degree: 46%
 
 ---
 
-# Panoramica di [!UICONTROL Multivariate Test]
+# Panoramica di [!UICONTROL Test multivariato]
 
-Un&#39;attività [!UICONTROL Multivariate Test] (MVT) in [!DNL Adobe Target] confronta le combinazioni di offerte negli elementi di una pagina per determinare quale combinazione funziona meglio per un pubblico specifico. Un&#39;attività [!UICONTROL Multivariate Test] consente inoltre di identificare quale elemento influisce maggiormente sul successo dell&#39;attività.
+Un&#39;attività [!UICONTROL Test multivariato] (MVT) in [!DNL Adobe Target] confronta le combinazioni di offerte negli elementi di una pagina per determinare quale combinazione funziona meglio per un pubblico specifico. Un&#39;attività [!UICONTROL Test multivariato] consente inoltre di identificare quale elemento influisce maggiormente sul successo dell&#39;attività.
 
 I test multivariati consentono di scoprire l’influenza relativa di elementi specifici sulla conversione rispetto ad altri elementi della pagina. I test multivariati possono anche aiutarti a perfezionare una combinazione di elementi che si sono dimostrati efficaci.
 
-Uno dei vantaggi offerti da [!UICONTROL Multivariate Test] rispetto a un test A/B è la capacità di mostrare quali elementi sulla pagina hanno la maggiore influenza sulla conversione. Questo vantaggio è anche noto come &quot;effetto principale&quot;. Queste informazioni sono utili, ad esempio, per determinare dove posizionare il contenuto a cui si desidera prestare maggiore attenzione.
+Uno dei vantaggi offerti da un [!UICONTROL test multivariato] rispetto a un test A/B è la capacità di mostrare quali elementi sulla pagina hanno la maggiore influenza sulla conversione. Questo vantaggio è anche noto come &quot;effetto principale&quot;. Queste informazioni sono utili, ad esempio, per determinare dove posizionare il contenuto a cui si desidera prestare maggiore attenzione.
 
-Le attività di [!UICONTROL Multivariate Test] consentono inoltre di trovare effetti composti tra due o più elementi di una pagina. Ad esempio, un particolare annuncio potrebbe produrre più conversioni quando viene combinato con un determinato banner o immagine protagonista. Questo è anche noto come “effetto di interazione”.
+Le attività di [!UICONTROL Test multivariato] consentono inoltre di trovare effetti composti tra due o più elementi di una pagina. Ad esempio, un particolare annuncio potrebbe produrre più conversioni quando viene combinato con un determinato banner o immagine protagonista. Questo è anche noto come “effetto di interazione”.
 
 In [!DNL Target] vengono utilizzati test multivariati fattoriali completi per facilitare l’ottimizzazione del contenuto. Un test multivariato fattoriale completo esamina tutte le possibili combinazioni di contenuto con uguale probabilità. Ad esempio, in presenza di due elementi di pagina con tre offerte ciascuno, le possibili combinazioni sono nove (3x3). Tre elementi, due dei quali includono tre offerte possibili e uno due offerte, offrono 18 opzioni (3x3x2).
 
-In [!DNL Target], ogni combinazione è un&#39;esperienza. [!UICONTROL Multivariate Test] confronta ogni esperienza in modo da individuare le combinazioni più efficaci. Al contempo, vengono raccolti e analizzati dati per comprendere in che modo le singole posizioni e le offerte influenzano la metrica di successo.
+In [!DNL Target], ogni combinazione è un&#39;esperienza. Il [!UICONTROL test multivariato] confronta ogni esperienza in modo da individuare le combinazioni più efficaci. Al contempo, vengono raccolti e analizzati dati per comprendere in che modo le singole posizioni e le offerte influenzano la metrica di successo.
 
 ![immagine multivariata](assets/multivariate.png)
 
-A causa del numero di combinazioni che è possibile generare, un [!UICONTROL Multivariate Test] richiede più tempo e traffico di un test A/B. La pagina deve ricevere abbastanza traffico per produrre risultati statisticamente significativi per ogni esperienza. Per ottenere risultati utili, è necessario comprendere la quantità di traffico ricevuto dalla pagina e verificare il numero ottimale di combinazioni per il periodo di tempo corretto per ottenere i risultati richiesti.
+A causa del numero di combinazioni che possono essere generate, un [!UICONTROL test multivariato] richiede più tempo e traffico di un test A/B. La pagina deve ricevere abbastanza traffico per produrre risultati statisticamente significativi per ogni esperienza. Per ottenere risultati utili, è necessario comprendere la quantità di traffico ricevuto dalla pagina e verificare il numero ottimale di combinazioni per il periodo di tempo corretto per ottenere i risultati richiesti.
 
 Il [Calcolatore traffico](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator.md#task_71AA6922AFD447EA8C5E610A78ABA714) di Target può aiutarti a progettare un test che funzioni con il tuo traffico. Prima di utilizzare il Calcolatore di traffico, devi disporre di statistiche valide che mostrino il numero di impression e di conversioni ricevute normalmente dal sito. Considera i livelli di traffico giornalieri. Più esperienze sono incluse in un’attività, più traffico deve includere l’attività o più a lungo l’attività deve essere eseguita. Se la quantità di traffico non è elevata, devi testare alcune combinazioni; in caso contrario, la quantità di tempo necessaria per produrre risultati di test significativi potrebbe essere troppo lunga per essere utile.
 
@@ -53,7 +53,7 @@ In questo settore esistono più termini utilizzati in modi diversi. Questa sezio
 
 **Posizione:** area di contenuto specifica in una pagina, spesso contenuta in un singolo elemento DOM. Nella metodologia MVT, una posizione è a volte indicata come *fattore*. Un testo multivariato fattoriale completo mette a confronto tutte le possibili combinazioni di offerte nelle posizioni.
 
-## Quando utilizzare [!UICONTROL Multivariate Test] rispetto a A/B {#section_3D2B966B6671406C861A1843EA41D28C}
+## Quando utilizzare [!UICONTROL Test multivariato] rispetto a A/B {#section_3D2B966B6671406C861A1843EA41D28C}
 
 Puoi usare i test multivariati insieme ai test A/B per ottimizzare la pagina. Alcuni esempi di situazioni in cui può essere utile utilizzarli insieme:
 

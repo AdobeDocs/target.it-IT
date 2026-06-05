@@ -17,8 +17,8 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: f2220f2f01c0bddc96dd7720ff207e1256c13b55
 workflow-type: tm+mt
-source-wordcount: 703
-ht-degree: 32%
+source-wordcount: 723
+ht-degree: 31%
 
 ---
 
@@ -48,7 +48,7 @@ L&#39;interfaccia utente è stata progettata per garantire chiarezza ed efficien
 
 *[!DNL *Targe]t Domande frequenti sull&#39;aggiornamento dell&#39;interfaccia utente**
 
-Queste domande frequenti riguardano le domande comuni sulla nuova interfaccia utente [!DNL Target] e sul nuovo Compositore esperienza visivo [!UICONTROL Visual Experience Composer], incluse le modifiche alla navigazione, le posizioni delle funzionalità e la rimozione dell&#39;interruttore di versione temporaneo dell&#39;interfaccia utente. Che tu sia un addetto marketing, uno sviluppatore o un amministratore, queste domande frequenti consentono una transizione fluida e di sfruttare al massimo l’interfaccia utente aggiornata.
+Queste domande frequenti riguardano le domande comuni sulla nuova interfaccia utente [!DNL Target] e sul Compositore esperienza visivo [!UICONTROL Compositore esperienza visivo], incluse le modifiche alla navigazione, le posizioni delle funzionalità e l&#39;attivazione/disattivazione della versione temporanea dell&#39;interfaccia utente. Che tu sia un addetto marketing, uno sviluppatore o un amministratore, queste domande frequenti consentono una transizione fluida e di sfruttare al massimo l’interfaccia utente aggiornata.
 
 [![Icona Ulteriori informazioni](/help/main/assets/learn-more.svg)](/help/main/c-intro/updated-ui-faq.md)
 
@@ -86,7 +86,7 @@ Esperti di marketing, sviluppatori, amministratori, analisti e addetti al contro
 - [[!DNL Target] note sulla versione](r-release-notes/release-notes.md): contiene informazioni sulla versione corrente, informazioni sui problemi noti che interessano [!DNL Target], un elenco di modifiche importanti alla presente documentazione e un archivio delle note sulle versioni passate.
 - [Introduzione a [!DNL Target]](c-intro/intro.md): illustra i concetti fondamentali di [!DNL Target].
 - [Interfaccia utente [!DNL Target] 2&rbrace;: consente di acquisire familiarità con [!DNL Target] e fornisce collegamenti per ottenere informazioni più approfondite e istruzioni dettagliate.](/help/main/c-intro/understand-the-target-ui.md)
-- Panoramica di [[!UICONTROL AI Assistant]](/help/main/c-intro/ai-assistant.md): [!DNL AI Assistant] in A[!DNL dobe Experience Platform] è una funzionalità dell&#39;interfaccia utente che consente di navigare e comprendere i concetti di [!DNL Adobe Target].
+- [[!UICONTROL Panoramica dell&#39;Assistente AI]](/help/main/c-intro/ai-assistant.md): [!DNL AI Assistant] in A[!DNL dobe Experience Platform] è una funzionalità dell&#39;interfaccia utente che consente di esplorare e comprendere i concetti di [!DNL Adobe Target].
 - Integrare [!DNL Target] con [!DNL Adobe Experience Cloud]: illustra come integrare [!DNL Target] con altre soluzioni [!DNL Experience Cloud], tra cui [[!UICONTROL Analytics for Target]](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T), [[!DNL Experience Cloud Audiences]](/help/main/c-integrating-target-with-mac/mmp.md) e [[!DNL Adobe Campaign]](/help/main/c-integrating-target-with-mac/campaign-and-target.md).
 - [[!DNL Adobe Target] Esercitazioni](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html?lang=it): fornisce esercitazioni e video per ottenere il massimo da [!DNL Target].
 - [Risoluzione dei problemi [!DNL Target]](r-troubleshooting-target/troubleshooting-target.md): fornisce collegamenti alle informazioni sulla risoluzione dei problemi contenute in questa guida, incluse informazioni sui limiti dei caratteri e altri limiti (dimensioni dell&#39;offerta, pubblico, profili, valori, parametri e così via) che influiscono sulle attività e su altri elementi in [!DNL Target].
@@ -95,14 +95,14 @@ Esperti di marketing, sviluppatori, amministratori, analisti e addetti al contro
 
 ## Esperti di marketing {#marketers}
 
-- [[!UICONTROL Activities]](c-activities/activities.md): illustra come impostare, gestire e verificare il controllo qualità di [!DNL Target] attività.
-- [[!UICONTROL Audiences]](c-target/target.md): illustra come determinare chi visualizzerà i contenuti e le esperienze in attività mirate.
+- [[!UICONTROL Attività]](c-activities/activities.md): illustra come impostare, gestire e eseguire il controllo qualità di [!DNL Target] attività.
+- [[!UICONTROL Tipi di pubblico]](c-target/target.md): illustra come determinare chi visualizzerà i contenuti e le esperienze in attività mirate.
 - [Esperienze e offerte](c-experiences/experiences.md): illustra come specificare quale contenuto visualizzare quando un visitatore soddisfa i criteri di pubblico per un’attività.
 - [[!DNL Recommendations]](c-recommendations/recommendations.md): illustra come le attività di [!DNL Recommendations] visualizzano automaticamente prodotti o contenuti che potrebbero interessare ai clienti in base all&#39;attività dell&#39;utente precedente o ad altri algoritmi.
 
 ## Sviluppatori {#developers}
 
-- [[!UICONTROL Adobe Target Developer Guide]](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=it){target=_blank}: questa guida fornisce risorse e guide per gli sviluppatori [!DNL Adobe Target], inclusa la documentazione API e SDK per implementare [!DNL Target].
+- [[!UICONTROL Guida per gli sviluppatori di Adobe Target]](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=it){target=_blank}: questa guida fornisce risorse e guide per gli sviluppatori di [!DNL Adobe Target], inclusa la documentazione di API e SDK per implementare [!DNL Target].
 
 ## [!DNL Target] e [!DNL Adobe Experience Cloud] amministratori {#admins}
 
@@ -110,15 +110,15 @@ Esperti di marketing, sviluppatori, amministratori, analisti e addetti al contro
 
 ## Analisti {#analysts}
 
-- [[!UICONTROL Audiences]](c-target/target.md): illustra come determinare chi visualizzerà i contenuti e le esperienze in attività mirate.
-- [[!UICONTROL Reports]](c-reports/reports.md): illustra come interpretare le prestazioni delle attività.
+- [[!UICONTROL Tipi di pubblico]](c-target/target.md): illustra come determinare chi visualizzerà i contenuti e le esperienze in attività mirate.
+- [[!UICONTROL Rapporti]](c-reports/reports.md): illustra come interpretare le prestazioni delle attività.
 
 ## Addetti al controllo qualità {#qa}
 
-- [[!UICONTROL Activities]](c-activities/activities.md): illustra come impostare, gestire e verificare il controllo qualità di [!DNL Target] attività.
+- [[!UICONTROL Attività]](c-activities/activities.md): illustra come impostare, gestire e eseguire il controllo qualità di [!DNL Target] attività.
 
 ## Risorse aggiuntive {#additional}
 
 | Assistenza per soluzioni di Adobe [!DNL Target] | Risorse di [!DNL Adobe Experience Cloud] |
 |--- |--- |
-| <ul><li>[[!DNL Adobe Target] Informazioni e supporto](https://helpx.adobe.com/it/support/target.html)</li><li>[Premium [!DNL Recommendations]](c-recommendations/recommendations.md)</li><li>[[!DNL Adobe Recommendations Classic]](/help/main/assets/adobe-recommendations-classic.pdf)</li><li>[[!DNL Target] Documentazione API](https://experienceleague.adobe.com/docs/target-dev/developer/api/target-api-overview.html?lang=it){target=_blank}</li></ul> | <ul><li>[[!UICONTROL Target Community Forum]](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community?profile.language=it)</li><li>[[!DNL Experience Cloud] Note sulla versione](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=it)</li><li>[[!DNL Experience Cloud] Home dell&#39;Aiuto](https://helpx.adobe.com/it/support/experience-cloud.html)</li><li>[[!DNL Adobe] Formazione e tutorial](https://helpx.adobe.com/it/learning.html?promoid=KAUDK)</li></ul> |
+| <ul><li>[[!DNL Adobe Target] Informazioni e supporto](https://helpx.adobe.com/it/support/target.html)</li><li>[Premium [!DNL Recommendations]](c-recommendations/recommendations.md)</li><li>[[!DNL Adobe Recommendations Classic]](/help/main/assets/adobe-recommendations-classic.pdf)</li><li>[[!DNL Target] Documentazione API](https://experienceleague.adobe.com/docs/target-dev/developer/api/target-api-overview.html?lang=it){target=_blank}</li></ul> | <ul><li>[[!UICONTROL Forum della community di destinazione]](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community)</li><li>[[!DNL Experience Cloud] Note sulla versione](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=it)</li><li>[[!DNL Experience Cloud] Home dell&#39;Aiuto](https://helpx.adobe.com/it/support/experience-cloud.html)</li><li>[[!DNL Adobe] Formazione e tutorial](https://helpx.adobe.com/it/learning.html?promoid=KAUDK)</li></ul> |

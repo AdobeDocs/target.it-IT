@@ -15,14 +15,14 @@ topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 3150
+source-wordcount: 3184
 ht-degree: 47%
 
 ---
 
 # Per quanto tempo si deve eseguire un test A/B?
 
-Un&#39;attività [!UICONTROL A/B Test] completata in [!DNL Adobe Target] richiede un numero di visitatori (dimensione campione) sufficiente per migliorare il tasso di conversione. Come sai per quanto tempo eseguire un test A/B? Questo articolo contiene informazioni sulle attività di [!UICONTROL Auto-Allocate] e sul calcolatore delle dimensioni del campione di [!UICONTROL Adobe Target] per garantire che l&#39;attività abbia un numero di visitatori sufficiente per raggiungere gli obiettivi.
+Un&#39;attività [!UICONTROL A/B Test] riuscita in [!DNL Adobe Target] richiede un numero di visitatori (dimensione campione) sufficiente per migliorare il tasso di conversione. Come sai per quanto tempo eseguire un test A/B? Questo articolo contiene informazioni sulle attività [!UICONTROL Allocazione automatica] e sul calcolatore delle dimensioni del campione [!UICONTROL Adobe Target] per assicurarti che l&#39;attività abbia un numero di visitatori sufficiente per raggiungere gli obiettivi.
 
 Si è tentati di interrompere un’attività se nei primi giorni di attività una delle offerte ha prestazioni migliori o peggiori delle altre. Tuttavia, con un numero ridotto di osservazioni, c&#39;è un&#39;alta probabilità che un incremento positivo o negativo sia imputabile al caso, perché il tasso di conversione è calcolato dalla media di un numero basso di visitatori. Man mano che l’attività raccoglie più punti di dati, i tassi di conversione convergono verso i loro reali valori a lungo termine.
 
@@ -34,21 +34,21 @@ Si è tentati di interrompere un’attività se nei primi giorni di attività un
 
 ## Allocazione automatica {#auto-allocate}
 
-Un&#39;attività [Allocazione automatica](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) è un tipo di test A/B che identifica un vincitore tra due o più esperienze. Un test [!UICONTROL Auto-Allocate] ridistribuisce automaticamente più traffico per aumentare le conversioni, mentre il test continua a essere eseguito e ad apprendere.
+Un&#39;attività [Allocazione automatica](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) è un tipo di test A/B che identifica un vincitore tra due o più esperienze. Un test di [!UICONTROL Allocazione automatica] ridistribuisce automaticamente più traffico per aumentare le conversioni, mentre il test continua a essere eseguito e ad apprendere.
 
 I test A/B standard hanno un costo intrinseco. Devi investire del traffico per misurare le prestazioni di ogni esperienza e capire quale sia l’esperienza vincente attraverso l’analisi. La distribuzione del traffico rimane fissa anche dopo aver compreso che alcune esperienze hanno prestazioni migliori di altre. Inoltre, è complicato calcolare la dimensione necessaria del campione, e l’attività deve essere eseguita completamente prima di poter intervenire in base al vincitore. E c&#39;è ancora una possibilità che il vincitore identificato non sia un vero vincitore.
 
-La soluzione è [!UICONTROL Auto-Allocate]. [!UICONTROL Auto-Allocate] riduce il costo e il sovraccarico associati alla determinazione di un&#39;esperienza vincente. [!UICONTROL Auto-Allocate] monitora le prestazioni della metrica obiettivo di tutte le esperienze e invia in modo proporzionale un numero maggiore di nuovi partecipanti alle esperienze con prestazioni migliori. Per l’esplorazione delle altre esperienze viene riservata una quantità adeguata di traffico. Puoi vedere i vantaggi dell’attività sui tuoi risultati, anche mentre l’attività è ancora in esecuzione: l’ottimizzazione si verifica in parallelo con l’apprendimento.
+La soluzione è [!UICONTROL Allocazione automatica]. [!UICONTROL Allocazione automatica] riduce il costo e il sovraccarico associati alla determinazione di un&#39;esperienza vincente. [!UICONTROL Allocazione automatica] monitora le prestazioni della metrica obiettivo di tutte le esperienze e invia in modo proporzionale un numero maggiore di nuovi partecipanti alle esperienze con prestazioni migliori. Per l’esplorazione delle altre esperienze viene riservata una quantità adeguata di traffico. Puoi vedere i vantaggi dell’attività sui tuoi risultati, anche mentre l’attività è ancora in esecuzione: l’ottimizzazione si verifica in parallelo con l’apprendimento.
 
-[!UICONTROL Auto-Allocate] sposta gradualmente i visitatori verso esperienze vincenti, invece di richiedere di attendere che un&#39;attività finisca per determinare un vincitore. Puoi beneficiare di incrementi più rapidi perché potenziali esperienze vincenti vengono mostrate a partecipanti che sarebbero altrimenti stati destinati a esperienze di minor successo.
+[!UICONTROL L&#39;allocazione automatica] sposta gradualmente i visitatori verso esperienze vincenti, invece di richiedere di attendere la fine di un&#39;attività per determinare un vincitore. Puoi beneficiare di incrementi più rapidi perché potenziali esperienze vincenti vengono mostrate a partecipanti che sarebbero altrimenti stati destinati a esperienze di minor successo.
 
-Quando si utilizza [!UICONTROL Auto-Allocate], [!DNL Target] mostra un badge nella parte superiore della pagina dell&#39;attività che indica &quot;Ancora nessun vincitore&quot; finché l&#39;attività non raggiunge il numero minimo di conversioni con sufficiente affidabilità. [!DNL Target] dichiara quindi l&#39;esperienza vincente visualizzando un badge nella parte superiore della pagina dell&#39;attività.
+Quando si utilizza [!UICONTROL Allocazione automatica], [!DNL Target] visualizza un badge nella parte superiore della pagina dell&#39;attività che indica &quot;Ancora nessun vincitore&quot; finché l&#39;attività non raggiunge il numero minimo di conversioni con sufficiente affidabilità. [!DNL Target] dichiara quindi l&#39;esperienza vincente visualizzando un badge nella parte superiore della pagina dell&#39;attività.
 
 Per ulteriori informazioni, vedere [Panoramica dell&#39;allocazione automatica](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md).
 
 ## Calcolatore delle dimensioni del campione di Adobe [!DNL Target] {#section_6B8725BD704C4AFE939EF2A6B6E834E6}
 
-Se si sceglie di utilizzare un&#39;attività manuale [!UICONTROL A/B Test] anziché [!UICONTROL Auto-Allocate], il calcolatore delle dimensioni del campione [!DNL Target] consente di determinare le dimensioni del campione necessarie per il successo del test. Un test A/B manuale è un test a orizzonte fisso, quindi la calcolatrice è utile. L&#39;utilizzo del calcolatore per un&#39;attività [!UICONTROL Auto-Allocate] è facoltativo perché [!UICONTROL Auto-Allocate] dichiara un vincitore. La calcolatrice fornisce una stima approssimativa delle dimensioni del campione necessarie. Continua a leggere per ulteriori informazioni su come utilizzare il calcolatore.
+Se si sceglie di utilizzare un&#39;attività [!UICONTROL Test A/B] manuale anziché [!UICONTROL Allocazione automatica], il calcolatore delle dimensioni del campione [!DNL Target] consente di determinare le dimensioni del campione necessarie per il successo del test. Un test A/B manuale è un test a orizzonte fisso, quindi la calcolatrice è utile. L&#39;utilizzo del calcolatore per un&#39;attività di [!UICONTROL Allocazione automatica] è facoltativo perché [!UICONTROL Allocazione automatica] dichiara un vincitore. La calcolatrice fornisce una stima approssimativa delle dimensioni del campione necessarie. Continua a leggere per ulteriori informazioni su come utilizzare il calcolatore.
 
 Prima di configurare il test A/B, accedi al [!DNL Adobe Target] [Calcolatore dimensioni campione](https://experienceleague.adobe.com/tools/calculator/testcalculator.html?lang=it).
 
@@ -154,7 +154,7 @@ In questo esempio, potresti decidere che la capacità di rilevare un incremento 
 
 Quando si utilizza Ricavo per visita (RPV) come metrica, viene aggiunta un&#39;ulteriore fonte di varianza perché RPV è il prodotto dei ricavi per ordine e tasso di conversione (RPV = Ricavo / #visitors = (Ricavo per ordine &#42; #orders) / # visitatori = Ricavo per ordine &#42; (#visitors &#42; CTR) / #visitors = Ricavo per ordine &#42; CTR), ciascuno con la propria varianza. La varianza del tasso di conversione può essere stimata direttamente utilizzando un modello matematico, ma la varianza dei ricavi per ordine è specifica per l’attività. Pertanto, utilizza la conoscenza di questa varianza dalle attività passate o esegui il test A/B per alcuni giorni per stimare la varianza nei ricavi. La varianza è calcolata in base ai valori di Somma delle vendite, Somma delle vendite al quadrato e Numero di visitatori che si trovano nel file CSV scaricabile. Una volta stabilito questo valore, utilizzare il foglio di calcolo per calcolare il tempo necessario per completare il test.
 
-Con il Calcolatore dimensione campione (disponibile dal collegamento fornito in precedenza) puoi configurare più facilmente la metrica RPV. Quando apri il calcolatore, viene visualizzata una scheda con etichetta [!UICONTROL RPV Metric]. Per usare la versione RPV del calcolatore, ti serviranno le seguenti informazioni:
+Con il Calcolatore dimensione campione (disponibile dal collegamento fornito in precedenza) puoi configurare più facilmente la metrica RPV. Quando apri il calcolatore, viene visualizzata una scheda con l&#39;etichetta [!UICONTROL Metrica RPV]. Per usare la versione RPV del calcolatore, ti serviranno le seguenti informazioni:
 
 * Numero di visitatori dell’offerta di controllo
 * Ricavi totali dell’offerta di controllo
@@ -173,6 +173,6 @@ Ogni volta che confronti due offerte, la possibilità di ottenere un falso posit
 
 ## Conclusione {#section_AEA2427B90AE4E9395C7FF4F9C5CA066}
 
-Utilizzando un&#39;attività [!UICONTROL Auto-Allocate], [!DNL Target] identifica un vincitore tra due o più esperienze e ridistribuisce automaticamente più traffico per aumentare le conversioni, mentre il test continua a essere eseguito e ad apprendere. [!UICONTROL Auto-Allocate] consente di raggiungere facilmente gli obiettivi di conversione rimuovendo il lavoro di stima.
+Utilizzando un&#39;attività [!UICONTROL Allocazione automatica], [!DNL Target] identifica un vincitore tra due o più esperienze e ridistribuisce automaticamente più traffico per aumentare le conversioni mentre il test continua a essere eseguito e ad apprendere. [!UICONTROL Allocazione automatica] semplifica il raggiungimento degli obiettivi di conversione rimuovendo il lavoro di stima.
 
 Utilizzando il Calcolatore dimensione campione (disponibile dal collegamento fornito in precedenza) illustrato in questo articolo e consentendo l’esecuzione del test per il periodo di tempo suggerito, puoi essere certo di eseguire sempre test A/B di alta qualità conformi ai tassi di falsi positivi e falsi negativi stabiliti come adeguati per il test specifico. Questo assicura che i test siano coerenti e in grado di rilevare in modo affidabile l’incremento ricercato.

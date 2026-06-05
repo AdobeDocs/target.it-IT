@@ -24,14 +24,14 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 16fb7a1902ea76cab56a93fa141a32a3c6bc4467
 workflow-type: tm+mt
-source-wordcount: 3904
+source-wordcount: 3948
 ht-degree: 56%
 
 ---
 
 # Compositore esperienza visivo per app a pagina singola (SPA)
 
-In [!DNL Adobe Target], il [!UICONTROL Visual Experience Composer] (VEC) offre agli addetti al marketing una funzionalità autonoma per creare attività e personalizzare esperienze da distribuire in modo dinamico sulle applicazioni a più pagine tradizionali tramite la mbox globale di Adobe Target. Tuttavia, questo fa affidamento sul recupero delle offerte al caricamento delle pagine o alle successive chiamate al server, il che provoca latenza, come illustrato nel diagramma seguente. Questo approccio non funziona al meglio con le applicazioni a pagina singola (SPA) perché rallenta l’esperienza utente e le prestazioni dell’applicazione.
+In [!DNL Adobe Target], il [!UICONTROL Compositore esperienza visivo] offre agli addetti al marketing una funzionalità autonoma per creare attività e personalizzare esperienze da distribuire in modo dinamico sulle applicazioni a più pagine tradizionali tramite la mbox globale di Adobe Target. Tuttavia, questo fa affidamento sul recupero delle offerte al caricamento delle pagine o alle successive chiamate al server, il che provoca latenza, come illustrato nel diagramma seguente. Questo approccio non funziona al meglio con le applicazioni a pagina singola (SPA) perché rallenta l’esperienza utente e le prestazioni dell’applicazione.
 
 ![Ciclo di vita tradizionale rispetto al ciclo di vita di un’applicazione a pagina singola](/help/main/c-experiences/assets/trad-vs-spa.png)
 
@@ -83,7 +83,7 @@ Ora che abbiamo capito cosa sono le visualizzazioni di Adobe Target, possiamo sf
 
    ![Finestra di dialogo dei dettagli dell&#39;implementazione](/help/main/c-experiences/assets/imp-200.png)
 
-   Scarica at.js 2.x tramite l&#39;interfaccia utente di Adobe Target disponibile in [!UICONTROL Administration > Implementation]. at.js 2.x può essere distribuito anche tramite tag in [Adobe Experience Platform](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch.html?lang=it){target=_blank}. Tuttavia, le estensioni Adobe Target non sono aggiornate e supportate al momento.
+   Scarica at.js 2.x tramite l&#39;interfaccia utente di Adobe Target disponibile in [!UICONTROL Amministrazione > Implementazione]. at.js 2.x può essere distribuito anche tramite tag in [Adobe Experience Platform](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch.html?lang=it){target=_blank}. Tuttavia, le estensioni Adobe Target non sono aggiornate e supportate al momento.
 
 1. Implementa la funzione più recente di at.js 2.x: [triggerView()](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/adobe-target-triggerview-atjs-2.html){target=_blank} sui siti.
 
@@ -93,7 +93,7 @@ Ora che abbiamo capito cosa sono le visualizzazioni di Adobe Target, possiamo sf
 
    | Parametro | Tipo | Obbligatorio | Convalida | Descrizione |
    | --- | --- | --- | --- | --- |
-   | viewName | Stringa | Sì | &#x200B;1. Nessuno spazio finale.<br>2. Non può essere vuoto.<br>3. Il nome della visualizzazione deve essere univoco per tutte le pagine.<br>4. **Avviso**: il nome della visualizzazione non deve iniziare o finire con &quot;`/`&quot;. Questo perché il cliente in genere estrae il nome della visualizzazione dal percorso URL. Per noi, &quot;home&quot; e &quot;`/home`&quot; sono diversi.<br>5. **Avviso**: non attivare la stessa visualizzazione in sequenza più volte con l&#39;opzione `{page: true}`. | Passa un nome qualsiasi come tipo di stringa che desideri rappresenti la tua visualizzazione. Questo nome della visualizzazione appare nel pannello [!UICONTROL Modifications] del Compositore esperienza visivo per consentire agli addetti al marketing di creare azioni ed eseguire le attività A/B e XT. |
+   | viewName | Stringa | Sì | &#x200B;1. Nessuno spazio finale.<br>2. Non può essere vuoto.<br>3. Il nome della visualizzazione deve essere univoco per tutte le pagine.<br>4. **Avviso**: il nome della visualizzazione non deve iniziare o finire con &quot;`/`&quot;. Questo perché il cliente in genere estrae il nome della visualizzazione dal percorso URL. Per noi, &quot;home&quot; e &quot;`/home`&quot; sono diversi.<br>5. **Avviso**: non attivare la stessa visualizzazione in sequenza più volte con l&#39;opzione `{page: true}`. | Passa un nome qualsiasi come tipo di stringa che desideri rappresenti la tua visualizzazione. Questo nome della visualizzazione appare nel pannello [!UICONTROL Modifiche] del Compositore esperienza visivo per consentire agli addetti al marketing di creare azioni ed eseguire le attività A/B e XT. |
    | options | Oggetto | No |  |  |
    | options > page | Booleano | No |  | **TRUE**: il valore predefinito della pagina è vero. Con `page=true`, verranno inviate notifiche ai server Edge per incrementare il conteggio delle impression.<br>**FALSE**: con `page=false`, non verranno inviate notifiche per incrementare il conteggio delle impression. Da utilizzare solo per eseguire nuovamente il rendering di un componente su una pagina con un’offerta. |
 
@@ -210,7 +210,7 @@ I due principali miglioramenti al pannello [Modifiche](/help/main/c-experiences/
 
 **Pannello delle modifiche**
 
-Il pannello [!UICONTROL Modifications], come mostrato di seguito, acquisisce le azioni create per una visualizzazione specifica. Tutte le azioni per una visualizzazione sono raggruppate sotto di essa.
+Il pannello [!UICONTROL Modifiche], come mostrato di seguito, acquisisce le azioni create per una visualizzazione specifica. Tutte le azioni per una visualizzazione sono raggruppate sotto di essa.
 
 **Azioni**
 
@@ -224,8 +224,8 @@ Nella tabella seguente viene descritta ogni azione:
 | --- | --- |
 | Informazioni | Visualizza i dettagli dell’azione. |
 | Modifica | Ti consente di modificare direttamente le proprietà dell’azione. |
-| Clona | Clonare l&#39;azione in una o più visualizzazioni esistenti nel pannello [!UICONTROL Modifications] o in una o più visualizzazioni a cui si è passati nel Compositore esperienza visivo. L&#39;azione non deve necessariamente essere presente nel pannello [!UICONTROL Modifications].<br>**Nota**: dopo un&#39;operazione di clonazione, passare alla visualizzazione nel Compositore esperienza visivo tramite [!UICONTROL Browse] per verificare se l&#39;azione clonata è un&#39;operazione valida. Se non può essere applicata alla visualizzazione, viene visualizzato un errore. |
-| Sposta | Sposta l&#39;azione in un evento di caricamento pagina o in un&#39;altra visualizzazione già esistente nel pannello delle modifiche.<br>[!UICONTROL Page Load Event] : tutte le azioni corrispondenti all’evento di caricamento pagina vengono applicate al caricamento iniziale della pagina dell’applicazione web.<br>**Nota** dopo un&#39;operazione di spostamento, passa alla visualizzazione nel Compositore esperienza visivo tramite Sfoglia per verificare che lo spostamento sia un&#39;operazione valida. Se non può essere applicata alla visualizzazione, viene visualizzato un errore. |
+| Clona | Clona l&#39;azione in una o più visualizzazioni presenti nel pannello [!UICONTROL Modifiche] o in una o più visualizzazioni a cui sei passato nel Compositore esperienza visivo. L&#39;azione non deve necessariamente essere presente nel pannello [!UICONTROL Modifiche].<br>**Nota**: dopo un&#39;operazione di clonazione, passa alla visualizzazione nel Compositore esperienza visivo tramite [!UICONTROL Sfoglia] per verificare che l&#39;azione clonata sia un&#39;operazione valida. Se non può essere applicata alla visualizzazione, viene visualizzato un errore. |
+| Sposta | Sposta l’azione in un evento di caricamento pagina o in un’altra visualizzazione già esistente nel pannello delle modifiche.<br>[!UICONTROL Evento di caricamento pagina] - tutte le azioni corrispondenti all&#39;evento di caricamento pagina vengono applicate al caricamento iniziale della pagina dell&#39;applicazione Web.<br>**Nota** dopo un&#39;operazione di spostamento, passa alla visualizzazione nel Compositore esperienza visivo tramite Sfoglia per verificare che lo spostamento sia un&#39;operazione valida. Se non può essere applicata alla visualizzazione, viene visualizzato un errore. |
 | Elimina | Elimina l’azione. |
 
 >[!NOTE]
@@ -239,7 +239,7 @@ Facciamo riferimento all’esempio precedente, quando abbiamo creato la visualiz
 1. Cambiare il pulsante Aggiungi al carrello e il pulsante “Mi piace” in un colore blu più chiaro. Questo deve avvenire in un &quot;Caricamento pagina&quot; perché stiamo modificando i componenti dell’intestazione.
 1. Modificare l’etichetta “Ultimi prodotti del 2019” in “Migliori prodotto del 2019” con il colore del testo cambiato in viola.
 
-Per eseguire questi obiettivi, nel Compositore esperienza visivo fai clic su [!UICONTROL Compose] e applica le modifiche nella visualizzazione Home.
+Per eseguire questi obiettivi, nel Compositore esperienza visivo fai clic su [!UICONTROL Componi] e applica le modifiche nella visualizzazione Home.
 
 ![Esempio 1](/help/main/c-experiences/assets/example1.png)
 
@@ -247,9 +247,9 @@ Per eseguire questi obiettivi, nel Compositore esperienza visivo fai clic su [!U
 
 Facciamo riferimento all’esempio precedente, quando abbiamo creato la visualizzazione Pagina prodotti 2. L’obiettivo è quello di cambiare l’etichetta “Prezzo” in “Prezzo di vendita” con l’etichetta di colore rosso.
 
-1. Fai clic su [!UICONTROL Browse], quindi sul collegamento [!UICONTROL Products] nell&#39;intestazione.
-1. Fare clic una volta su [!UICONTROL Load More] per passare alla seconda riga di prodotti.
-1. Fare clic su [!UICONTROL Compose].
+1. Fai clic su [!UICONTROL Sfoglia], quindi fai clic sul collegamento [!UICONTROL Prodotti] nell&#39;intestazione.
+1. Fai clic su [!UICONTROL Carica altro] una volta per passare alla seconda riga di prodotti.
+1. Fare clic su [!UICONTROL Componi].
 1. Applica le azioni per modificare l’etichetta di testo in “Prezzo di vendita” e il colore in rosso.
 
 ![Esempio 2](/help/main/c-experiences/assets/example2.png)
@@ -258,12 +258,12 @@ Facciamo riferimento all’esempio precedente, quando abbiamo creato la visualiz
 
 Infine, come indicato precedentemente, le visualizzazioni si possono definire a livello granulare. Le visualizzazioni possono essere uno stato o anche un pulsante di opzione. In precedenza abbiamo creato le visualizzazioni Consegna express e Consegna normale. L’obiettivo è quello di cambiare il colore del pulsante in rosso per la visualizzazione Consegna express.
 
-1. Fare clic su [!UICONTROL Browse].
+1. Fare clic su [!UICONTROL Sfoglia].
 1. Aggiungi un paio di prodotti al carrello.
 1. Fai clic sull’icona del carrello nell’angolo in alto a destra.
 1. Fai clic su Concludi ordine.
 1. Fai clic sul pulsante di opzione Consegna express.
-1. Fare clic su [!UICONTROL Compose].
+1. Fare clic su [!UICONTROL Componi].
 1. Modifica il testo del pulsante “Paga” in “Completa l’ordine” e cambia il colore in rosso.
 
 ![Esempio 3](/help/main/c-experiences/assets/example3.png)
@@ -364,7 +364,7 @@ Sì, at.js 2.x supporta A4T per applicazioni a pagina singola tramite la funzion
 
 **Se abbiamo installato at.js 2.x e implementato `triggerView()` sui nostri siti, come eseguiamo le attività A/B di targeting automatico, dato che non è supportato dal Compositore esperienza visivo per applicazioni a pagina singola?**
 
-Se desideri utilizzare le attività A/B di targeting automatico, sposta tutte le azioni da eseguire sull’evento caricamento pagina nel Compositore esperienza visivo. Passa il puntatore del mouse su ogni azione e fai clic sul pulsante [!UICONTROL Move to Page Load Event]. Dopodiché, nel passaggio successivo, seleziona il targeting automatico come metodo di allocazione del traffico.
+Se desideri utilizzare le attività A/B di targeting automatico, sposta tutte le azioni da eseguire sull’evento caricamento pagina nel Compositore esperienza visivo. Passa il puntatore del mouse su ogni azione e fai clic sul pulsante [!UICONTROL Sposta su evento caricamento pagina]. Dopodiché, nel passaggio successivo, seleziona il targeting automatico come metodo di allocazione del traffico.
 
 ## Integrazioni supportate
 
@@ -389,15 +389,15 @@ Se desideri utilizzare le attività A/B di targeting automatico, sposta tutte le
 
 ## Impostazioni Consegna pagine per Compositore esperienza visivo per applicazioni a pagina singola {#page-delivery-settings}
 
-Le impostazioni di [!UICONTROL Page Delivery] consentono di configurare le regole per determinare quando un&#39;attività di Target deve essere idonea e eseguita per un pubblico.
+Le impostazioni di [!UICONTROL Consegna pagine] consentono di configurare le regole per determinare quando un&#39;attività di Target si qualifica come idonea e viene eseguita per un pubblico.
 
-Per accedere alle opzioni [!UICONTROL Page Delivery] nel flusso di lavoro guidato in tre parti del Compositore esperienza visivo per la creazione delle attività, dal passaggio **[!UICONTROL Experiences]** fai clic su **[!UICONTROL Configure]** (icona a forma di ingranaggio) > **[!UICONTROL Page Delivery]**.
+Per accedere alle opzioni di [!UICONTROL Consegna pagine] nel flusso di lavoro guidato in tre parti del Compositore esperienza visivo per la creazione delle attività, dal passaggio **[!UICONTROL Esperienze]** fai clic su **[!UICONTROL Configura]** (icona a forma di ingranaggio) > **[!UICONTROL Consegna pagine]**.
 
 ![Finestra di dialogo delle opzioni di Consegna pagine](/help/main/c-experiences/assets/page-delivery.png)
 
-Ad esempio, come definito dalle impostazioni di [!UICONTROL Page Delivery] riportate qui sopra, un&#39;attività di Target si qualifica come idonea e viene eseguita quando un visitatore arriva direttamente su `https://www.adobe.com` *o* quando un visitatore arriva a un URL che contiene `https://www.adobe.com/it/products`. Questo funziona molto bene per qualsiasi applicazione multipagina in cui ogni interazione con la pagina richiama un ricaricamento della stessa, per il quale at.js recupera le attività che si qualificano come idonee per l’URL a cui passa l’utente.
+Ad esempio, come definito dalle impostazioni di [!UICONTROL Consegna pagine] riportate qui sopra, un&#39;attività Target si qualifica come idonea e viene eseguita quando un visitatore arriva direttamente a `https://www.adobe.com` *o* quando un visitatore arriva a un URL che contiene `https://www.adobe.com/it/products`. Questo funziona molto bene per qualsiasi applicazione multipagina in cui ogni interazione con la pagina richiama un ricaricamento della stessa, per il quale at.js recupera le attività che si qualificano come idonee per l’URL a cui passa l’utente.
 
-Tuttavia, poiché le applicazioni a pagina singola funzionano diversamente, le impostazioni [!UICONTROL Page Delivery] devono essere configurate in modo da consentire che tutte le azioni vengano applicate alle visualizzazioni definite nell&#39;attività del Compositore esperienza visivo per applicazioni a pagina singola.
+Tuttavia, poiché le applicazioni a pagina singola funzionano diversamente, le impostazioni di [!UICONTROL Consegna pagine] devono essere configurate in modo da consentire che tutte le azioni vengano applicate alle visualizzazioni definite nell&#39;attività del Compositore esperienza visivo per applicazioni a pagina singola.
 
 ### Esempio di utilizzo
 
@@ -410,7 +410,7 @@ Sono state apportate le seguenti modifiche:
 * È stato cambiato il colore di sfondo nella visualizzazione Home, che si trova nell&#39;URL: [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=it#/](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=it#/).
 * È stato cambiato il colore del pulsante nella visualizzazione Prodotti, che si trova nell&#39;URL: [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=it#/products](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=it#/products).
 
-Tenendo presente l&#39;esempio precedente, cosa accade se si configurano le impostazioni di [!UICONTROL Page Delivery] in modo che includano solo: [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=it#/](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=it#/) in un&#39;applicazione a pagina singola con at.js 2.*x*?
+Per questo esempio, cosa accade se si configurano le impostazioni di [!UICONTROL Consegna pagine] per includere solo: [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=it#/](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=it#/) in un&#39;applicazione a pagina singola con at.js 2.*x*?
 
 ![Finestra di dialogo Consegna pagine](/help/main/c-experiences/assets/spa-page-delivery.png)
 
@@ -447,11 +447,11 @@ Ad esempio, per risolvere il problema di cui sopra, possiamo specificare così l
 
 Così facendo, ogni volta che un visitatore arriva all’applicazione a pagina singola e passa alla pagina Home o alla visualizzazione Pagina, vengono visualizzate le azioni applicate.
 
-Ora, ogni volta che aggiungi un&#39;azione a una visualizzazione nel Compositore esperienza visivo per applicazione a pagina singola, il seguente messaggio a comparsa ti ricorda di considerare le regole [!UICONTROL Page Delivery].
+Ora, ogni volta che aggiungi un&#39;azione a una visualizzazione nel Compositore esperienza visivo per applicazione a pagina singola, il seguente messaggio a comparsa ti ricorda di considerare le [!UICONTROL regole di Consegna pagine].
 
 ![Messaggio Impostazioni di consegna pagina](/help/main/c-experiences/assets/pop-up-message.png)
 
-Questo messaggio viene visualizzato quando aggiungi la prima azione a una Visualizzazione per ogni nuova attività creata. Questo messaggio consente a tutti gli utenti dell&#39;organizzazione di imparare ad applicare correttamente queste regole di [!UICONTROL Page Delivery].
+Questo messaggio viene visualizzato quando aggiungi la prima azione a una Visualizzazione per ogni nuova attività creata. Questo messaggio consente a tutti gli utenti della tua organizzazione di imparare ad applicare correttamente queste regole di [!UICONTROL Consegna pagine].
 
 ## Video di formazione: Utilizzo del Compositore esperienza visivo per le applicazioni a pagina singola in Adobe Target
 

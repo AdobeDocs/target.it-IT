@@ -5,7 +5,7 @@ hide: true
 exl-id: ede24236-de19-4008-893c-e67bd82e23e3
 source-git-commit: fea4d9e87ad8417de9d820ee3556796fba112dc1
 workflow-type: tm+mt
-source-wordcount: '242'
+source-wordcount: '244'
 ht-degree: 2%
 
 ---
@@ -19,7 +19,7 @@ Il rollout graduale di una nuova funzione viene introdotto in produzione in modo
 **Rete di sicurezza**
 Rilasciando prima il materiale a un pubblico ridotto, puoi tenere traccia del feedback e monitorare il comportamento in produzione prima di espanderlo. In caso di problemi, l’impatto è limitato e la funzione può essere disattivata immediatamente, senza che venga apportata una modifica al codice o una ridistribuzione.
 
-**Gestione del carico di back-end**
+**Gestione del carico back-end**
 L’apertura di una funzione a tutti gli utenti simultaneamente può causare picchi improvvisi nel caricamento del server. Un rollout graduale distribuisce l’aumento del traffico nel tempo, consentendo una scalabilità fluida dell’infrastruttura.
 
 **Feedback in tempo reale**

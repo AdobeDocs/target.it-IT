@@ -12,7 +12,7 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 1083
+source-wordcount: 1089
 ht-degree: 60%
 
 ---
@@ -215,7 +215,7 @@ Il risultato è una progettazione come la seguente, dove una colonna mostra l&#3
 
 ![immagine rec_key](assets/rec_key.png)
 
-Durante la creazione dell&#39;attività [!DNL Recommendations], se l&#39;elemento chiave viene ricavato dal profilo del visitatore, ad esempio &quot;ultimo articolo acquistato&quot;, [!DNL Target] visualizza un prodotto casuale nel [!UICONTROL Visual Experience Composer] (Compositore esperienza visivo). Questo perché non è disponibile un profilo mentre progetti l&#39;attività. Tuttavia, quando la pagina verrà visualizzata dai visitatori, ogni visitatore vedrà l&#39;elemento chiave previsto.
+Durante la creazione dell&#39;attività [!DNL Recommendations], se l&#39;elemento chiave viene ricavato dal profilo del visitatore, ad esempio &quot;ultimo articolo acquistato&quot;, [!DNL Target] visualizza un prodotto casuale nel [!UICONTROL Compositore esperienza visivo]. Questo perché non è disponibile un profilo mentre progetti l&#39;attività. Tuttavia, quando la pagina verrà visualizzata dai visitatori, ogni visitatore vedrà l&#39;elemento chiave previsto.
 
 ## Esecuzione di sostituzioni in un valore stringa {#section_01F8C993C79F42978ED00E39956FA8CA}
 
@@ -245,7 +245,7 @@ Il codice seguente è un esempio completo di prezzo di vendita:
 
 ## Personalizzazione delle dimensioni del modello e verifica della presenza di valori vuoti {#default}
 
-Utilizzando uno script [!DNL Velocity] per controllare il ridimensionamento dinamico della visualizzazione dell&#39;entità, il seguente modello gestisce un risultato &quot;da 1 a molti&quot; per evitare la creazione di elementi HTML vuoti quando non vi sono sufficienti entità restituite da [!DNL Recommendations]. Questo script è adatto per gli scenari in cui non avrebbe senso utilizzare consigli di backup ed è abilitato [!UICONTROL Partial Template Rendering].
+Utilizzando uno script [!DNL Velocity] per controllare il ridimensionamento dinamico della visualizzazione dell&#39;entità, il seguente modello gestisce un risultato &quot;da 1 a molti&quot; per evitare la creazione di elementi HTML vuoti quando non vi sono sufficienti entità restituite da [!DNL Recommendations]. Questo script è adatto per gli scenari in cui non avrebbe senso utilizzare consigli di backup ed è abilitato [!UICONTROL Rendering modello parziale].
 
 Il seguente snippet HTML sostituisce la porzione HTML esistente nella progettazione predefinita da 4x2 (qui non è stato incluso il CSS per motivi di brevità):
 

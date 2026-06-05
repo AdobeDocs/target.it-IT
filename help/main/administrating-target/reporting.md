@@ -17,7 +17,7 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 766
+source-wordcount: 795
 ht-degree: 22%
 
 ---
@@ -28,7 +28,7 @@ Configurare le impostazioni generali da utilizzare nel reporting di [!DNL Adobe 
 
 {{permissions-update}}
 
-Per accedere alla pagina di configurazione [!UICONTROL Reporting], fare clic su **[!UICONTROL Administration]** > **[!UICONTROL Reporting].**
+Per accedere alla pagina di configurazione [!UICONTROL Reporting], fare clic su **[!UICONTROL Amministrazione]** > **[!UICONTROL Reporting].**
 
 In questa pagina è possibile specificare le impostazioni seguenti:
 
@@ -53,26 +53,26 @@ Selezionare l&#39;origine per la generazione di rapporti per le attività, [!DNL
 
 Considera le seguenti informazioni nella scelta dell&#39;origine per la generazione di rapporti:
 
-* **[!DNL Adobe Target]**: se l&#39;origine per la generazione di rapporti è impostata su **[!DNL Target]** qui, non è consentito creare o attivare un&#39;attività che utilizza [!DNL Analytics] o [!DNL Customer Journey Analytics] come origine per la generazione di rapporti. È necessario modificare l&#39;origine per la generazione di rapporti in **[!UICONTROL Select per activity]**.
-* **[!DNL Adobe Analytics]**: se l&#39;origine per la generazione di rapporti è impostata su **[!DNL Analytics]** qui, non è consentito creare o attivare un&#39;attività che utilizza [!DNL Target] o [!DNL Customer Journey Analytics] come origine per la generazione di rapporti. È necessario modificare l&#39;origine per la generazione di rapporti in **[!UICONTROL Select per activity]**.
-* **[!DNL Adobe Customer Journey Analytics]**: se l&#39;origine per la generazione di rapporti è impostata su **[!DNL Customer Journey Analytics]** qui, non è consentito creare o attivare un&#39;attività che utilizza [!DNL Target] o [!DNL Analytics] come origine per la generazione di rapporti. È necessario modificare l&#39;origine per la generazione di rapporti in **[!UICONTROL Select per activity]**.
-* **Seleziona per attività**: se l&#39;origine per la generazione di rapporti è impostata su **[!UICONTROL Select per activity]** qui, puoi creare e attivare attività supportate dall&#39;origine per la generazione di rapporti selezionata.
+* **[!DNL Adobe Target]**: se l&#39;origine per la generazione di rapporti è impostata su **[!DNL Target]** qui, non è consentito creare o attivare un&#39;attività che utilizza [!DNL Analytics] o [!DNL Customer Journey Analytics] come origine per la generazione di rapporti. È necessario modificare l&#39;origine per la generazione di rapporti in **[!UICONTROL Seleziona per attività]**.
+* **[!DNL Adobe Analytics]**: se l&#39;origine per la generazione di rapporti è impostata su **[!DNL Analytics]** qui, non è consentito creare o attivare un&#39;attività che utilizza [!DNL Target] o [!DNL Customer Journey Analytics] come origine per la generazione di rapporti. È necessario modificare l&#39;origine per la generazione di rapporti in **[!UICONTROL Seleziona per attività]**.
+* **[!DNL Adobe Customer Journey Analytics]**: se l&#39;origine per la generazione di rapporti è impostata su **[!DNL Customer Journey Analytics]** qui, non è consentito creare o attivare un&#39;attività che utilizza [!DNL Target] o [!DNL Analytics] come origine per la generazione di rapporti. È necessario modificare l&#39;origine per la generazione di rapporti in **[!UICONTROL Seleziona per attività]**.
+* **Seleziona per attività**: se l&#39;origine per la generazione di rapporti è impostata su **[!UICONTROL Seleziona per attività]** qui, puoi creare e attivare attività supportate dall&#39;origine per la generazione di rapporti selezionata.
 
 Quando determini l’origine per la generazione di rapporti, considera le seguenti informazioni:
 
 * **[!DNL Analytics]**: per una matrice di attività supportate che utilizzano [!DNL Analytics] come origine per la generazione di rapporti (A4T), vedere [Tipi di attività supportati](/help/main/c-integrating-target-with-mac/a4t/a4t.md#section_F487896214BF4803AF78C552EF1669AA) in *Adobe Analytics come origine per la generazione di rapporti per Adobe Target (A4T)*.
 
-  La creazione e l&#39;attivazione dell&#39;attività [!UICONTROL Automated Personalization] (AP) sono consentite indipendentemente dall&#39;origine per la generazione di rapporti selezionata. Le attività di [!UICONTROL Automated Personalization] non sono supportate quando si sceglie [Adobe Analytics come origine per la generazione di rapporti per Adobe Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md).
+  La creazione e l&#39;attivazione delle attività di [!UICONTROL Automated Personalization] (AP) sono consentite indipendentemente dall&#39;origine per la generazione di rapporti selezionata. Le attività di [!UICONTROL Automated Personalization] non sono supportate quando si sceglie [Adobe Analytics come origine per la generazione di rapporti per Adobe Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md).
 
   Anche se si specifica [!DNL Analytics] come origine per la generazione di rapporti, [!DNL Target] viene utilizzato come origine per la generazione di rapporti per le attività [!DNL Automated Personalization].
 
 * **[!DNL Customer Journey Analytics]**: per una matrice di attività supportate che utilizzano la generazione di rapporti [!DNL Target] in [!DNL Customer Journey Analytics], vedere [Tipi di attività supportati](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md#supported-activities) in *[!DNL Target]generazione di rapporti in[!DNL Adobe Customer Journey Analytics]*.
 
-  La creazione e l&#39;attivazione delle attività [!UICONTROL Automated Personalization] (AP), [!UICONTROL Auto-Allocate] e [!UICONTROL Auto-Target] sono consentite indipendentemente dall&#39;origine per la generazione di rapporti selezionata. Queste attività non sono supportate quando si sceglie [Adobe Customer Journey Analytics come origine per la generazione di rapporti](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md).
+  La creazione e l&#39;attivazione delle attività [!UICONTROL Automated Personalization] (AP), [!UICONTROL Allocazione automatica] e [!UICONTROL Targeting automatico] sono consentite indipendentemente dall&#39;origine per la generazione di rapporti selezionata. Queste attività non sono supportate quando si sceglie [Adobe Customer Journey Analytics come origine per la generazione di rapporti](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md).
 
   Anche se si specifica [!DNL Customer Journey Analytics] come origine per la generazione di rapporti, [!DNL Target] viene utilizzato come origine per la generazione di rapporti per le attività [!DNL Automated Personalization].
 
-  Se si specifica [!DNL Customer Journey Analytics] come origine per la generazione di rapporti per le attività [!UICONTROL Auto-Allocate] o [!UICONTROL Auto-Target], è possibile utilizzare [!DNL Target] o [!DNL Analytics] come origine per la generazione di rapporti.
+  Se si specifica [!DNL Customer Journey Analytics] come origine per la generazione di rapporti per le attività [!UICONTROL Allocazione automatica] o [!UICONTROL Targeting automatico], è possibile utilizzare [!DNL Target] o [!DNL Analytics] come origine per la generazione di rapporti.
 
 ## Fuso orario per il reporting
 

@@ -13,8 +13,8 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 500
-ht-degree: 68%
+source-wordcount: 507
+ht-degree: 69%
 
 ---
 
@@ -22,10 +22,10 @@ ht-degree: 68%
 
 È possibile creare tipi di pubblico in [!DNL Adobe Target] in base a dettagli di rete quali ISP, nome di dominio e velocità di connessione.
 
-1. Nell&#39;interfaccia [!DNL Target], fare clic su **[!UICONTROL Audiences]** > **[!UICONTROL Create Audience]**.
+1. Nell&#39;interfaccia [!DNL Target], fare clic su **[!UICONTROL Tipi di pubblico]** > **[!UICONTROL Crea pubblico]**.
 1. Assegna un nome al pubblico e aggiungi una descrizione facoltativa.
-1. Trascina **[!UICONTROL Network]** nel riquadro Generatore di pubblico.
-1. Fare clic su **[!UICONTROL Select]**, quindi selezionare una delle opzioni seguenti:
+1. Trascina **[!UICONTROL Rete]** nel riquadro generatore di pubblico.
+1. Fai clic su **[!UICONTROL Seleziona]**, quindi scegli una delle seguenti opzioni:
 
    * **ISP:** un ISP è un’organizzazione che fornisce accesso a Internet ai suoi abbonati, di solito ad una tariffa mensile o annuale. Molti ISP forniscono servizi aggiuntivi, come web hosting o e-mail. Il campo ISP è un ISP commerciale o un&#39;altra entità come un business o un istituto scolastico.
 
@@ -59,7 +59,7 @@ ht-degree: 68%
      Questo campo si basa sul tipo di connessione e non sulla velocità effettiva. [!DNL Target] non può determinare la velocità di connessione esatta. Il tipo di connessione a banda larga viene utilizzato quando non è presente alcuna indicazione di altri tipi di connessione e quindi non è possibile scegliere un tipo specifico.
 
 1. (Facoltativo) Imposta regole aggiuntive per il pubblico.
-1. Fare clic su **[!UICONTROL Done]**.
+1. Fai clic su **[!UICONTROL Fine]**.
 
 La figura seguente mostra un pubblico che include i visitatori con una connessione AT&amp;T e velocità di connessione di [!UICONTROL Mobile].
 

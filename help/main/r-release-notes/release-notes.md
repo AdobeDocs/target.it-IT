@@ -20,8 +20,8 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 50db5431370825e46cb1bcb68c9a3ad27ce25079
 workflow-type: tm+mt
-source-wordcount: 446
-ht-degree: 60%
+source-wordcount: 459
+ht-degree: 58%
 
 ---
 
@@ -33,11 +33,11 @@ I codici dei problemi tra parentesi sono per uso interno di [!DNL Adobe].
 
 ## [!DNL Target Standard/Premium] 26.5.3 (21 maggio 2026)
 
-**[!UICONTROL What's new]pagina**
+**[!UICONTROL Novità] pagina**
 
 +++Vedi i dettagli
 
-* **Nuova pagina [!UICONTROL What's new].** È stata aggiunta una nuova pagina **[!UICONTROL What's new]** nell&#39;interfaccia utente di [!DNL Adobe Target] che consente di individuare le funzioni, i miglioramenti e gli aggiornamenti più recenti senza uscire dal prodotto. (TGT-55137)
+* **Nuova [!UICONTROL Novità] pagina.** È stata aggiunta una nuova pagina **[!UICONTROL Novità]** nell&#39;interfaccia utente [!DNL Adobe Target] per consentire di individuare le funzionalità, i miglioramenti e gli aggiornamenti più recenti senza uscire dal prodotto. (TGT-55137)
 
 +++
 
@@ -45,7 +45,7 @@ I codici dei problemi tra parentesi sono per uso interno di [!DNL Adobe].
 
 +++Vedi i dettagli
 
-* **Esperienza errata selezionata durante la modifica del targeting in [!UICONTROL Automated Personalization] attività.** È stato risolto un problema che causava la selezione dell&#39;esperienza errata durante la modifica del passaggio **[!UICONTROL Targeting]** in un&#39;attività [!UICONTROL Automated Personalization] (AP). (TGT-55176)
+* **Esperienza errata selezionata durante la modifica del targeting in [!UICONTROL attività Automated Personalization].** È stato risolto un problema che causava la selezione dell&#39;esperienza errata durante la modifica del passaggio **[!UICONTROL Targeting]** in un&#39;attività [!UICONTROL Automated Personalization] (AP). (TGT-55176)
 
 * **Data precedente alla chiusura di un&#39;attività pianificata.** È stato risolto un problema che impediva la selezione di una data precedente per la chiusura di un’attività pianificata. (TGT-55163)
 

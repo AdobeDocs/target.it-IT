@@ -12,7 +12,7 @@ topic_v2:
   - id: c18d9e03-ac7d-4811-9c92-3e92ddc70ade
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 342
+source-wordcount: 353
 ht-degree: 54%
 
 ---
@@ -33,13 +33,13 @@ Puoi anche utilizzare un’attività multipagina per definire layout diversi per
 
 Per aggiungere delle pagine a un test:
 
-1. Fare clic sull&#39;icona **[!UICONTROL Configure]** ( ![icona Configura](/help/main/assets/icons/Setting.svg) ).
-1. Fare clic su **[!UICONTROL Add Additional Pages]**.
+1. Fai clic sull&#39;icona **[!UICONTROL Configura]** ( ![Configura icona](/help/main/assets/icons/Setting.svg) ).
+1. Fai clic su **[!UICONTROL Aggiungi pagine supplementari]**.
 
-   Nella parte sinistra dello schermo viene visualizzato un riquadro [!UICONTROL Pages].
+   Nella parte sinistra dello schermo viene visualizzato un riquadro di [!UICONTROL Pagine].
 
 1. Specificare le pagine e impostare la pagina predefinita.
 
-   Fare clic su **[!UICONTROL Add Page]** ( ![Icona Aggiungi](/help/main/assets/icons/Add.svg) ) per aggiungere una pagina, specificare il nome e l&#39;URL della pagina, quindi fare clic su **[!UICONTROL Save]**.
+   Fai clic su **[!UICONTROL Aggiungi pagina]** ( ![Aggiungi icona](/help/main/assets/icons/Add.svg) ) per aggiungere una pagina, specifica il nome e l&#39;URL della pagina, quindi fai clic su **[!UICONTROL Salva]**.
 
-1. Utilizza [!UICONTROL Visual Experience Composer] per progettare l&#39;aspetto dell&#39;offerta in ogni pagina.
+1. Utilizza il [!UICONTROL Compositore esperienza visivo] per progettare l&#39;aspetto dell&#39;offerta in ogni pagina.

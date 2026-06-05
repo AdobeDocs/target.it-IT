@@ -15,8 +15,8 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 428
-ht-degree: 52%
+source-wordcount: 444
+ht-degree: 55%
 
 ---
 
@@ -26,11 +26,11 @@ Definisci un pubblico in [!DNL Adobe Target] per confrontare due attributi di pr
 
 >[!NOTE]
 >
->Questa funzionalità è disponibile solo per la categoria [[!UICONTROL Visitor Profile]](/help/main/c-target/c-audiences/c-target-rules/visitor-profile.md#concept_E972690B9A4C4372A34229FA37EDA38E).
+>Questa funzionalità è disponibile solo per la categoria [[!UICONTROL Profilo visitatore]](/help/main/c-target/c-audiences/c-target-rules/visitor-profile.md#concept_E972690B9A4C4372A34229FA37EDA38E).
 
 ## Panoramica {#section_303CBC78194D49A2A004945D425441E1}
 
-I tipi di pubblico sono definiti da regole che determinano chi è incluso o escluso da un&#39;attività di [!DNL Target]. Una definizione di pubblico può includere più regole e ogni regola può includere più parametri. Se una delle regole incluse utilizza la categoria [!UICONTROL Visitor Profile], puoi definire una regola in base al valore specifico di un attributo del profilo visitatore o confrontare il valore di tale attributo con un altro attributo del profilo visitatore.
+I tipi di pubblico sono definiti da regole che determinano chi è incluso o escluso da un&#39;attività di [!DNL Target]. Una definizione di pubblico può includere più regole e ogni regola può includere più parametri. Se una delle regole incluse utilizza la categoria [!UICONTROL Profilo visitatore], puoi definire una regola in base al valore specifico di un attributo del profilo visitatore o confrontare il valore di tale attributo con un altro attributo del profilo visitatore.
 
 Ad esempio, supponiamo che tu lavori per una società di mobili e abbia caricato due punteggi di tendenza del cliente in [!DNL Target]:
 
@@ -43,10 +43,10 @@ Per ulteriori informazioni, consulta [Metodi per ottenere dati in Target](https:
 
 ## Creare un pubblico per il confronto degli attributi di profilo {#section_7A62FD47D5C74C3EBC3417ACDBB85013}
 
-1. Fare clic su **[!UICONTROL Audiences]** > **[!UICONTROL Create Audience]**.
+1. Fai clic su **[!UICONTROL Tipi di pubblico]** > **[!UICONTROL Crea pubblico]**.
 1. Assegna un nome al pubblico e aggiungi una descrizione facoltativa.
-1. Trascina **[!UICONTROL Visitor Profile]** nel riquadro Generatore di pubblico.
-1. Dall&#39;elenco a discesa **[!UICONTROL Visitor Profile]**, scegliere un attributo:
+1. Trascina e rilascia **[!UICONTROL Profilo visitatore]** nel riquadro generatore di pubblico.
+1. Nell&#39;elenco a discesa **[!UICONTROL Profilo visitatore]**, seleziona un attributo:
 
    ![Punteggio tendenza 1](assets/propensity_score_1.png)
 
@@ -54,7 +54,7 @@ Per ulteriori informazioni, consulta [Metodi per ottenere dati in Target](https:
 
    ![Punteggio tendenza 2](assets/propensity_score_2.png)
 
-1. Dall&#39;elenco a discesa **[!UICONTROL Choose Comparison Type]**, scegliere **[!UICONTROL Attribute]**.
+1. Dall&#39;elenco a discesa **[!UICONTROL Scegli il tipo di confronto]**, scegli **[!UICONTROL Attributo]**.
 
    Il tipo di confronto &quot;valore statico&quot; consente di confrontare l’attributo del profilo del visitatore con valori specifici.
 
@@ -68,7 +68,7 @@ Per ulteriori informazioni, consulta [Metodi per ottenere dati in Target](https:
 
    ![immagine propensity_score_4](assets/propensity_score_4.png)
 
-1. Fare clic su **[!UICONTROL Done]**.
+1. Fai clic su **[!UICONTROL Fine]**.
 
 ## Video di formazione ![Icona Panoramica](/help/main/assets/overview.png) {#section_3BB8DBF3418F4520B3E274B6F40AF8F3}
 

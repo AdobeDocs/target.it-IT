@@ -1,25 +1,25 @@
 ---
 keywords: mvt;test multivariato;offerte;combinazioni
-description: Scopri come utilizzare il [!UICONTROL Visual Experience Composer] (VEC) in Adobe [!DNL Target] per creare le offerte da includere nel tuo [!UICONTROL Multivariate Test] (MVT).
-title: Come si creano le combinazioni in un [!UICONTROL Multivariate Test] (MVT)?
+description: Scopri come utilizzare il [!UICONTROL Compositore esperienza visivo] (VEC) in Adobe [!DNL Target] per creare le offerte da includere nel [!UICONTROL test multivariato] (MVT).
+title: Come si creano combinazioni in un [!UICONTROL test multivariato] (MVT)?
 feature: Multivariate Tests
 exl-id: 8b5883de-de76-403d-ae20-c933a8665555
 source-git-commit: 8f9c0ea65197fd639d463628e54db79db993c2da
 workflow-type: tm+mt
-source-wordcount: '485'
-ht-degree: 56%
+source-wordcount: '509'
+ht-degree: 60%
 
 ---
 
 # Creare combinazioni
 
-Utilizzare il Compositore esperienza visivo [!UICONTROL Visual Experience Composer] in [!DNL Adobe Target] per creare le offerte da includere nel [!UICONTROL Multivariate Test] (MVT).
+Utilizza il [!UICONTROL Compositore esperienza visivo] (VEC) in [!DNL Adobe Target] per creare le offerte da includere nel [!UICONTROL Test multivariato] (MVT).
 
 Per ulteriori informazioni sull’utilizzo del Compositore esperienza visivo per creare e modificare le offerte, consulta [Opzioni del Compositore esperienza visivo](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md).
 
 >[!NOTE]
 >
->È possibile fare clic su **[!UICONTROL Expand Selection]** quando si selezionano gli oggetti nella pagina per selezionare l&#39;elemento padre in aggiunta all&#39;elemento selezionato originariamente. Quando selezioni un elemento principale, tutti i relativi elementi secondari vengono selezionati automaticamente. Puoi espandere la selezione più volte.
+>È possibile fare clic su **[!UICONTROL Espandi selezione]** quando si selezionano oggetti nella pagina per selezionare l&#39;elemento padre in aggiunta all&#39;elemento selezionato originariamente. Quando selezioni un elemento principale, tutti i relativi elementi secondari vengono selezionati automaticamente. Puoi espandere la selezione più volte.
 >
 >Per navigare tra gli elementi puoi anche usare il [percorso DOM](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path).
 
@@ -27,11 +27,11 @@ Per ulteriori informazioni sull’utilizzo del Compositore esperienza visivo per
 
 Sottoponi a test offerte di immagini multiple all’interno di una posizione per determinare quale immagine ha più successo.
 
-1. Fare clic su un&#39;immagine nella pagina e quindi selezionare **[!UICONTROL Change Image]**.
+1. Fa clic su un&#39;immagine nella pagina e quindi seleziona **[!UICONTROL Cambia immagine]**.
 
    ![Opzione Cambia immagine](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/changeimage.png)
 
-1. Selezionare tutte le immagini da includere nel test, quindi fare clic su **[!UICONTROL Save]**.
+1. Seleziona tutte le immagini da includere nel test, quindi fai clic su **[!UICONTROL Salva]**.
 
    ![Finestra di dialogo Seleziona contenuto per aggiungere immagini](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/addimage.png)
 
@@ -41,17 +41,17 @@ Ogni immagine diventa un&#39;esperienza separata nella posizione in questione.
 
 Sottoponi a test offerte in formato testo/HTML multiple all’interno di una posizione per determinare quale sia la più efficace.
 
-1. Fai clic su un&#39;offerta Text/HTML nella pagina e quindi fai clic su **[!UICONTROL Change Text/HTML]**.
+1. Fai clic su un&#39;offerta in formato testo/HTML nella pagina e quindi fai clic su **[!UICONTROL Cambia testo/HTML]**.
 
    ![Cambia testo/HTML](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/changehtml.png)
 
-1. Fare clic su **[!UICONTROL Add Text/HTML Offer]**, assegnare un nome all&#39;offerta, quindi digitare o incollare il codice per l&#39;offerta Text/HTML.
+1. Fai clic su **[!UICONTROL Aggiungi offerta testo/HTML]**, assegna un nome all&#39;offerta, quindi digita o incolla il codice per l&#39;offerta testo/HTML.
 
    ![Modificare le offerte](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/editoffers.png)
 
    Ripeti l’operazione per eventuali altre offerte in formato testo/HTML da includere.
 
-1. Fare clic su **[!UICONTROL Save]**.
+1. Fai clic su **[!UICONTROL Salva]**.
 
 Ogni offerta in formato testo/HTML diventa un’esperienza separata nella posizione in questione.
 

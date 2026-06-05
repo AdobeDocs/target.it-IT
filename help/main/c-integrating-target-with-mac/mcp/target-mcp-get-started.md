@@ -47,7 +47,7 @@ Prima di collegare il server MCP [!DNL Adobe Target] al client MCP, verificare q
 
 >[!NOTE]
 >
->Il server MCP [!DNL Adobe Target] utilizza OAuth 2.0 per l&#39;autenticazione. Quando utilizzi uno strumento MCP di Target per la prima volta, vieni reindirizzato a Adobe Experience Cloud per accedere, selezionare la tua organizzazione e concedere le autorizzazioni richieste. Non sono richieste credenziali statiche.
+>Il server MCP [!DNL Adobe Target] utilizza OAuth 2.0 per l&#39;autenticazione. Quando utilizzi uno strumento MCP di Target per la prima volta, vieni reindirizzato ad Adobe Experience Cloud per effettuare l’accesso, selezionare la tua organizzazione e concedere le autorizzazioni richieste. Non sono richieste credenziali statiche.
 
 **Per connettersi da Claude Desktop o Claude Web:**
 
@@ -92,13 +92,13 @@ Quando richiesto al primo utilizzo, completa il flusso del browser OAuth.
 
 >[!TIP]
 >
->Se vengono visualizzate attività o dati dell’organizzazione errata, disconnetti completamente Adobe Experience Cloud, ricollega il server MCP e seleziona con attenzione l’organizzazione corretta durante la riautenticazione.
+>Se vengono visualizzate attività o dati dell’organizzazione errata, esci completamente da Adobe Experience Cloud, ricollega il server MCP e seleziona con attenzione l’organizzazione corretta durante la riautenticazione.
 
 ## Risoluzione dei problemi relativi al {#mcp-troubleshooting}
 
 +++Il flusso OAuth non riesce o viene reindirizzato in modo errato
 
-1. Disconnettersi completamente da Adobe Experience Cloud.
+1. Esci completamente da Adobe Experience Cloud.
 1. Cancella i cookie del browser per i domini adobe.com.
 1. Riprovare il flusso di autenticazione.
 1. Quando richiesto, assicurati di selezionare l’organizzazione corretta.
@@ -106,7 +106,7 @@ Quando richiesto al primo utilizzo, completa il flusso del browser OAuth.
 
 +++Vengono visualizzate le attività o i dati dell’organizzazione errata
 
-1. Disconnettersi completamente da Adobe Experience Cloud.
+1. Esci completamente da Adobe Experience Cloud.
 1. Disconnettere e riconnettere il server MCP nelle impostazioni client.
 1. Selezionare con attenzione l&#39;organizzazione corretta durante la riautenticazione.
 +++

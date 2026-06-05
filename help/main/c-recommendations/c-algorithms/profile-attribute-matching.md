@@ -12,7 +12,7 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 483
+source-wordcount: 495
 ht-degree: 0%
 
 ---
@@ -21,24 +21,24 @@ ht-degree: 0%
 
 Filtra dinamicamente in [!DNL Adobe Target Recommendations] confrontando gli elementi (entità) con un valore nel profilo dell&#39;utente.
 
-Utilizza [!UICONTROL Profile Attribute Matching] per mostrare consigli che corrispondono a un valore memorizzato nel profilo del visitatore, ad esempio le dimensioni o il marchio preferito.
+Utilizza [!UICONTROL Corrispondenza attributo profilo] per mostrare i consigli che corrispondono a un valore memorizzato nel profilo del visitatore, ad esempio le dimensioni o il marchio preferito.
 
 >[!NOTE]
 >
 >Il processo [di creazione e utilizzo delle regole di inclusione](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md) per criteri e promozioni è simile, così come i casi d&#39;uso e gli esempi.
 
-Gli scenari seguenti mostrano come utilizzare [!UICONTROL Profile Attribute Matching]:
+Gli scenari seguenti mostrano come utilizzare [!UICONTROL Corrispondenza attributo profilo]:
 
 * Un&#39;azienda che vende occhiali memorizza il colore preferito del frame del visitatore come &quot;noce&quot;. Per quel visitatore specifico, i consigli sono impostati per restituire solo fotogrammi di occhiali che corrispondono a &quot;noce&quot; a colori.
 * È possibile definire un parametro di profilo per la dimensione dell’abbigliamento (ad esempio Piccolo, Medium o Grande) di un visitatore durante la navigazione nel sito web della tua azienda. È possibile impostare un consiglio che corrisponda a tale parametro di profilo e che restituisca prodotti specifici solo in base alla dimensione di abbigliamento preferita dall’utente.
 
 ## Esempi di corrispondenza degli attributi del profilo {#section_9873E2F22E094E479569D05AD5BB1D40}
 
-[!UICONTROL Profile Attribute Matching] consente di consigliare solo gli elementi che corrispondono a un attributo del profilo del visitatore, come negli esempi seguenti.
+[!UICONTROL Corrispondenza attributo profilo] consente di consigliare solo gli elementi che corrispondono a un attributo del profilo del visitatore, come negli esempi seguenti.
 
 ### Articoli consigliati dalla marca preferita dell’utente
 
-Ad esempio, è possibile utilizzare l&#39;opzione [!UICONTROL Profile Attribute Matching] per creare una regola che consigli solo gli elementi il cui brand è uguale al valore o al testo archiviato in `profile.favoritebrand`. Con tale regola, se un visitatore cerca dei pantaloncini da corsa di una data marca, vengono visualizzati solo i consigli che corrispondono alla marca preferita dell&#39;utente (il valore memorizzato in `profile.favoritebrand` nel profilo del visitatore).
+Ad esempio, puoi utilizzare l&#39;opzione [!UICONTROL Corrispondenza attributo profilo] per creare una regola che consigli solo gli elementi in cui il brand è uguale al valore o al testo archiviato in `profile.favoritebrand`. Con tale regola, se un visitatore cerca dei pantaloncini da corsa di una data marca, vengono visualizzati solo i consigli che corrispondono alla marca preferita dell&#39;utente (il valore memorizzato in `profile.favoritebrand` nel profilo del visitatore).
 
 ![Marchio preferito](/help/main/c-recommendations/c-algorithms/assets/favorite-brand-new.png)
 

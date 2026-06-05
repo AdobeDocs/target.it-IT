@@ -27,7 +27,7 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 2806
+source-wordcount: 2871
 ht-degree: 50%
 
 ---
@@ -38,7 +38,7 @@ Risposte alle domande frequenti sull&#39;utilizzo delle funzionalità di [!DNL A
 
 ## Informazioni generali {#section_CE5713B5AAC341C9A75586C107797FA3}
 
-**Dove posso trovare informazioni sull&#39;interfaccia utente [!DNL Target] aggiornata e su [!UICONTROL Visual Experience Composer] (Compositore esperienza visivo)?**
+**Dove si trovano informazioni sull&#39;interfaccia utente [!DNL Target] aggiornata e sul [!UICONTROL Compositore esperienza visivo]?**
 
 +++Vedi i dettagli
 
@@ -69,7 +69,7 @@ Rimani aggiornato con [!DNL Target] versioni.
 **[!DNL Adobe] dispone di una community o un forum in cui è possibile trovare risposte e ulteriori informazioni su [!DNL Target]?**
 
 +++Vedi i dettagli
-Connettiti con altri professionisti di [!DNL Target] nel [Forum della community di Target](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community?profile.language=it){target=_blank}. Condividi le tue competenze, fai domande e collabora con altri utenti che utilizzano [!DNL Target] per promuovere la personalizzazione e la sperimentazione. Una comunità fiorente dipende dalla partecipazione attiva. Le tue conoscenze ed esperienze possono aiutare gli altri a raggiungere il successo. Entra, contribuisci e trova le risposte che ti servono.
+Connettiti con altri professionisti di [!DNL Target] nel [Forum della community di Target](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community){target=_blank}. Condividi le tue competenze, fai domande e collabora con altri utenti che utilizzano [!DNL Target] per promuovere la personalizzazione e la sperimentazione. Una comunità fiorente dipende dalla partecipazione attiva. Le tue conoscenze ed esperienze possono aiutare gli altri a raggiungere il successo. Entra, contribuisci e trova le risposte che ti servono.
 
 +++
 
@@ -147,7 +147,7 @@ Quindi, in questo caso, è possibile scegliere “Incrementa il conteggio, rilas
 **Ho creato più obiettivi nella mia attività. Posso creare una catena di obiettivi come funnel per scopi di reporting e analisi? Si supponga, ad esempio, di voler considerare l&#39;obiettivo B quando l&#39;utente ha raggiunto l&#39;obiettivo A in modo che sia possibile tenere traccia dei numeri per un determinato funnel.**
 
 +++Vedi i dettagli
-[!DNL Target] dispone di un metodo affidabile per ottenere questo risultato con la funzionalità [!UICONTROL Metrics Dependency]. È sufficiente [aggiungere dipendenze su altre metriche di successo](/help/main/c-activities/r-success-metrics/success-metrics.md#section_7CE95A2FA8F5438E936C365A6D43BC5B). Sono disponibili opzioni quali “Raggiunto” e “Non raggiunto”, insieme alla capacità di combinare metriche in più modi per creare qualsiasi combinazione desiderata.
+[!DNL Target] dispone di un metodo affidabile per ottenere questo risultato con la funzionalità [!UICONTROL Dipendenza metrica]. È sufficiente [aggiungere dipendenze su altre metriche di successo](/help/main/c-activities/r-success-metrics/success-metrics.md#section_7CE95A2FA8F5438E936C365A6D43BC5B). Sono disponibili opzioni quali “Raggiunto” e “Non raggiunto”, insieme alla capacità di combinare metriche in più modi per creare qualsiasi combinazione desiderata.
 
 +++
 
@@ -156,32 +156,32 @@ Quindi, in questo caso, è possibile scegliere “Incrementa il conteggio, rilas
 +++Vedi i dettagli
 Qui è dove entrano in gioco gli [obiettivi](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC).
 
-Per iniziare è importante sapere cosa si desidera ottimizzare. È [!UICONTROL Revenue], [!UICONTROL Conversion] o [!UICONTROL Engagement]? Ognuna di queste opzioni è disponibile nella sezione obiettivi. Per ogni obiettivo, è possibile definire l&#39;azione intrapresa dall&#39;utente sul tuo sito per il raggiungimento dell&#39;obiettivo.
+Per iniziare è importante sapere cosa si desidera ottimizzare. È [!UICONTROL Ricavo], [!UICONTROL Conversione] o [!UICONTROL Coinvolgimento]? Ognuna di queste opzioni è disponibile nella sezione obiettivi. Per ogni obiettivo, è possibile definire l&#39;azione intrapresa dall&#39;utente sul tuo sito per il raggiungimento dell&#39;obiettivo.
 
-Ciò è reso possibile dall&#39;impostazione [!UICONTROL Primary Goal] nel passaggio 3 del flusso di lavoro guidato in tre parti. Puoi anche aggiungere altri obiettivi, che possono aiutarti a migliorare la generazione di rapporti.
+Ciò è reso possibile dall&#39;impostazione [!UICONTROL Obiettivo primario] nel passaggio 3 del flusso di lavoro guidato in tre parti. Puoi anche aggiungere altri obiettivi, che possono aiutarti a migliorare la generazione di rapporti.
 
 +++
 
 **È possibile programmare l&#39;inizio e la fine di un&#39;attività a un orario fisso?**
 
 +++Vedi i dettagli
-Utilizza la funzione di [pianificazione nel passaggio [!UICONTROL Goals & Settings]](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_DCBDC354261F420EBD4B43EA34947BAC) del flusso di lavoro di attività in tre parti specificando le date di inizio e di fine.
+Utilizza la funzione di [pianificazione nel passaggio [!UICONTROL Obiettivi e impostazioni]](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_DCBDC354261F420EBD4B43EA34947BAC) del flusso di lavoro di attività in tre parti specificando le date di inizio e di fine.
 
-Ricordati di attivare l’attività. Solo le attività live aderiscono alla pianificazione specificata. Una volta raggiunta la data di fine, l&#39;attività passa allo stato [!UICONTROL Ended].
+Ricordati di attivare l’attività. Solo le attività live aderiscono alla pianificazione specificata. Una volta raggiunta la data di fine, l&#39;attività passa allo stato [!UICONTROL Terminato].
 
 +++
 
-**È possibile apportare una modifica solo al passaggio [!UICONTROL Targeting] e non passare attraverso l&#39;intero flusso di lavoro guidato in tre passaggi per la modifica?**
+**Posso apportare una modifica solo al passaggio [!UICONTROL Targeting] e non passare attraverso l&#39;intero flusso di lavoro guidato in tre passaggi per la modifica?**
 
 +++Vedi i dettagli
-Puoi farlo semplicemente [inserendo direttamente il passaggio desiderato dalla pagina [!UICONTROL Activity Overview]](/help/main/c-activities/edit-activity.md#concept_BB064C0D4A194BD1A1AE7CCA1E6BB8F0) e uscendo da quel passaggio utilizzando l&#39;opzione [!UICONTROL Save and Close].
+Puoi farlo semplicemente [inserendo direttamente il passaggio desiderato dalla pagina [!UICONTROL Panoramica attività]](/help/main/c-activities/edit-activity.md#concept_BB064C0D4A194BD1A1AE7CCA1E6BB8F0) e uscendo da tale passaggio utilizzando l&#39;opzione [!UICONTROL Salva e chiudi].
 
 +++
 
 **Posso rimanere in un particolare passaggio, continuare a modificare l&#39;attività (offerta di testo o codice personalizzato, per esempio), e quindi eseguire il QA in un&#39;altra scheda?**
 
 +++Vedi i dettagli
-Questo è possibile. È sufficiente [utilizzare l&#39;opzione [!UICONTROL Save] disponibile per apportare modifiche incrementali senza uscire dal passaggio](/help/main/c-activities/edit-activity.md#concept_BB064C0D4A194BD1A1AE7CCA1E6BB8F0).
+Questo è possibile. È sufficiente [utilizzare l&#39;opzione [!UICONTROL Salva] per apportare modifiche incrementali senza uscire dal passaggio](/help/main/c-activities/edit-activity.md#concept_BB064C0D4A194BD1A1AE7CCA1E6BB8F0).
 
 +++
 
@@ -202,18 +202,18 @@ Sfrutta l’efficacia delle [attività basate su moduli](/help/main/c-experience
 **Posso impostare l&#39;ordine prioritario di alcune attività?**
 
 +++Vedi i dettagli
-Utilizza l&#39;impostazione [!UICONTROL Priority] disponibile nel passaggio 3 del flusso di lavoro guidato in tre parti [!DNL Target] (pagina Obiettivi e impostazioni) per [definire la priorità delle attività](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_DCBDC354261F420EBD4B43EA34947BAC).
+Utilizza l&#39;impostazione [!UICONTROL Priorità] disponibile nel passaggio 3 del flusso di lavoro guidato in tre parti di [!DNL Target] (pagina Obiettivi e impostazioni) per [definire la priorità delle attività](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_DCBDC354261F420EBD4B43EA34947BAC).
 
 Sono disponibili due opzioni:
 
 * Predefinita, con tre livelli (Bassa/Media/Alta)
-* Personalizzata, da 0 a 999. Per Personalizzato, abilitare la funzionalità [!UICONTROL Fine-Grained Priorities] ([!UICONTROL Administration] > [!UICONTROL Visual Experience Composer]).
+* Personalizzata, da 0 a 999. Per Personalizzato, abilita la funzionalità [!UICONTROL Priorità precise] ([!UICONTROL Amministrazione] > [!UICONTROL Compositore esperienza visivo]).
 
 +++
 
 ## Tipi di pubblico {#section_FA6314777ABC46D8B198D6F388051460}
 
-**È possibile creare un segmento di un pubblico in un&#39;attività specifica dell&#39;attività? Non credo che un tale pubblico debba essere creato in [!UICONTROL Audience Library] perché non esiste un fattore di riutilizzo.**
+**È possibile creare un segmento di un pubblico in un&#39;attività specifica dell&#39;attività? Non credo che un tale pubblico debba essere creato nella [!UICONTROL Libreria tipi di pubblico] perché non esiste un fattore di riutilizzo.**
 
 +++Vedi i dettagli
 Inizia utilizzando la [funzionalità “pubblico per sola attività”](/help/main/c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483) per definire i tipi di pubblico per una specifica attività.
@@ -268,7 +268,7 @@ Consulta [Regole modello](/help/main/c-experiences/c-visual-experience-composer/
 
 +++
 
-**Sono stanco del messaggio &quot;Consenti al browser di caricare script&quot; quando si tenta di caricare la pagina nel [!UICONTROL Visual Experience Composer] (VEC). Come posso evitarlo?**
+**Sono stanco del messaggio &quot;Consenti al browser di caricare script&quot; quando si tenta di caricare la pagina nel [!UICONTROL Compositore esperienza visivo]. Come posso evitarlo?**
 
 +++Vedi i dettagli
 Questo perché il tuo sito ha contenuti misti, è un sito che recupera sia risorse HTTP che HTTPS. Richiedi che il tuo team IT si muova completamente su HTTPS.
@@ -277,14 +277,14 @@ In questo caso, seguire le istruzioni riportate in [Abilitazione dei contenuti m
 
 +++
 
-**Posso provare il [!UICONTROL Visual Experience Composer] (VEC) sul mio sito anche se la libreria at.js [!DNL Target] non è ancora stata distribuita?**
+**Posso provare il [!UICONTROL Compositore esperienza visivo] sul mio sito anche se la libreria at.js [!DNL Target] non è ancora stata distribuita?**
 
 +++Vedi i dettagli
 Prova a caricare la pagina con il [Compositore esperienza avanzato](/help/main/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D).
 
 +++
 
-**Perché il mio sito non viene caricato all&#39;interno di [!UICONTROL Visual Experience Composer] (VEC)?**
+**Perché il mio sito non viene caricato nel [!UICONTROL Compositore esperienza visivo]?**
 
 +++Vedi i dettagli
 Prova le informazioni sulla [risoluzione dei problemi](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md#reference_77743144F10143A3A89D56E116D296E4) descritte nella nostra pagina di aiuto. Contatta il [Supporto Adobe](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) se non funziona nessuno di questi metodi.
@@ -298,14 +298,14 @@ Leggi inoltre le informazioni su quando e perché il [Compositore esperienza ava
 **Ho un sito reattivo. Durante la creazione di un&#39;attività, come posso essere sicuro che sto prendendo in considerazione i dispositivi chiave?**
 
 +++Vedi i dettagli
-Prova la funzione dei [riquadri di visualizzazione per dispositivi mobili](/help/main/c-experiences/c-visual-experience-composer/mobile-viewports.md#concept_8E45527C4ABC41D59AA3553BEDC76FA5). Si noti che funziona solo quando [!UICONTROL Enhanced Experience Composer] è abilitato.
+Prova la funzione dei [riquadri di visualizzazione per dispositivi mobili](/help/main/c-experiences/c-visual-experience-composer/mobile-viewports.md#concept_8E45527C4ABC41D59AA3553BEDC76FA5). Si noti che funziona solo quando [!UICONTROL Compositore esperienza avanzato] è abilitato.
 
 +++
 
-**Ho più domini. Per uno dei domini è necessario che [!UICONTROL Enhanced Experience Composer] sia abilitato, mentre per altri è necessario che sia disabilitato. Come posso fare?**
+**Ho più domini. Uno dei domini richiede che [!UICONTROL Compositore esperienza avanzato] sia abilitato, mentre altri richiedono che sia disabilitato. Come posso fare?**
 
 +++Vedi i dettagli
-È sempre possibile utilizzare l&#39;opzione [Compositore esperienza avanzato a livello di attività](/help/main/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) per ignorare l&#39;impostazione predefinita ([!UICONTROL Administration] > [!UICONTROL Visual Experience Composer]).
+È sempre possibile utilizzare l&#39;opzione [Compositore esperienza avanzato a livello di attività](/help/main/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) per ignorare l&#39;impostazione predefinita ([!UICONTROL Amministrazione] > [!UICONTROL Compositore esperienza visivo]).
 
 +++
 
@@ -323,10 +323,10 @@ Puoi farlo semplicemente con la [funzionalità Più versioni di esperienza](/hel
 
 +++
 
-**Come posso vedere quali modifiche ho apportato in [!UICONTROL Visual Experience Composer] (VEC)?**
+**Come posso vedere quali modifiche ho apportato in [!UICONTROL Compositore esperienza visivo]?**
 
 +++Vedi i dettagli
-Le modifiche sono sempre visibili nell’[Editor di codice](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md#concept_B3A6E9EE3A60406DB640E205EA1745B5). La scheda [!UICONTROL Modifications] mostra il selettore CSS o la mbox applicata all&#39;offerta.
+Le modifiche sono sempre visibili nell’[Editor di codice](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md#concept_B3A6E9EE3A60406DB640E205EA1745B5). La scheda [!UICONTROL Modifiche] mostra il selettore CSS o la mbox applicata all&#39;offerta.
 
 Il selettore CSS è un selettore sizzle. È possibile utilizzare questa sezione per apportare piccole modifiche o eliminare rapidamente alcune offerte.
 
@@ -339,10 +339,10 @@ Un metodo consiste nell’usare l’[Editor di codice personalizzato](/help/main
 
 +++
 
-**Perché non posso andare oltre la pagina di accesso in [!UICONTROL Visual Experience Composer] (VEC) o a una pagina nascosta per la quale non ho un URL specifico?**
+**Perché non posso andare oltre la pagina di accesso nel [!UICONTROL Compositore esperienza visivo] o a una pagina nascosta per la quale non ho un URL specifico?**
 
 +++Vedi i dettagli
-Utilizza le funzionalità [!UICONTROL Compose] e [!UICONTROL Browse] per passare alla pagina scelta e iniziare a creare la tua esperienza.
+Utilizza le funzioni [!UICONTROL Componi] e [!UICONTROL Sfoglia] per passare alla pagina scelta e iniziare a creare la tua esperienza.
 
 ![Attiva/disattiva progettazione e navigazione](/help/main/c-experiences/c-visual-experience-composer/assets/design-browse-mode.png)
 
@@ -409,9 +409,9 @@ Dai un&#39;occhiata alle seguenti funzioni del prodotto:
 **Posso suddividere il reporting per più segmenti di utenti?**
 
 +++Vedi i dettagli
-Qui entra in gioco la funzione [Tipi di pubblico per i rapporti](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_13119392051044FBA6387D9B3B1C43CF) disponibile nella pagina [!UICONTROL Goals & Settings] nel passaggio 3 del flusso di lavoro guidato in tre parti.
+Qui entra in gioco la funzione [Tipi di pubblico per i rapporti](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_13119392051044FBA6387D9B3B1C43CF) disponibile nella pagina [!UICONTROL Obiettivi e impostazioni] nel passaggio 3 del flusso di lavoro guidato in tre parti.
 
-È possibile aggiungere 50 segmenti e il punto di applicazione ([!UICONTROL Activity Entry] o una metrica specifica) per poter suddividere i segmenti in base alle proprie esigenze.
+È possibile aggiungere 50 segmenti e il punto di applicazione ([!UICONTROL Voce attività] o una metrica specifica) per poter suddividere i segmenti in base alle proprie esigenze.
 
 Tieni presente che [!DNL Target] raccoglie i dati in questo ambito dal momento in cui aggiungi questi tipi di pubblico, quindi se non aggiungi i segmenti prima di eseguire il test, non sei fortunato.
 
@@ -427,11 +427,11 @@ Tieni presente che [!DNL Target] raccoglie i dati in questo ambito dal momento i
 **È possibile eseguire calcoli di reporting offline?**
 
 +++Vedi i dettagli
-Utilizza [Esporta rapporti in formato CSV e Scarica i dettagli dell&#39;ordine in formato CSV](/help/main/c-reports/c-report-settings/downloading-data-in-csv-file.md) nella pagina [!UICONTROL Reports] per scaricare i dati di reporting desiderati.
+Utilizza [Esporta rapporti in formato CSV e Scarica i dettagli dell&#39;ordine in formato CSV](/help/main/c-reports/c-report-settings/downloading-data-in-csv-file.md) nella pagina [!UICONTROL Rapporti] per scaricare i dati di reporting desiderati.
 
 +++
 
-**Posso cambiare l&#39;esperienza di controllo per valutare i report o cambiare la metodologia di conteggio da [!UICONTROL Visitors] a [!UICONTROL Visits]?**
+**Posso cambiare l&#39;esperienza di controllo per valutare i rapporti o cambiare la metodologia di conteggio da [!UICONTROL Visitatori] a [!UICONTROL Visite]?**
 
 +++Vedi i dettagli
 Apporta queste modifiche utilizzando l&#39;ingranaggio delle [impostazioni nella pagina dei report](/help/main/c-reports/c-report-settings/report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA). Scopri di più su queste impostazioni per capire come variano i calcoli.

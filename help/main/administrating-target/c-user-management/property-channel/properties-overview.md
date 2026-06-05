@@ -28,7 +28,7 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 1476
+source-wordcount: 1509
 ht-degree: 55%
 
 ---
@@ -54,7 +54,7 @@ Nella tabella seguente sono elencate le attività da eseguire per creare proprie
 
 Per le attività eseguite in [!DNL Adobe Admin Console for Enterprise], accedere alla console eseguendo la procedura seguente:
 
-1. In Adobe Target, fare clic su **[!UICONTROL Administration]** > **[!UICONTROL Properties]** > **[!UICONTROL Assign Properties to Workspaces]**.
+1. In Adobe Target, fai clic su **[!UICONTROL Amministrazione]** > **[!UICONTROL Proprietà]** > **[!UICONTROL Assegna proprietà alle aree di lavoro]**.
 
    Oppure
 
@@ -65,9 +65,9 @@ Per le attività eseguite in [!DNL Adobe Admin Console for Enterprise], accedere
 
 ## Passaggio 1: Aggiungi utenti (facoltativo) {#section_A92AF0F921B743FEB9E9033433BD816A}
 
-Quando si inizia a utilizzare la nuova funzionalità [!UICONTROL Properties], tutte le operazioni di gestione degli utenti devono essere eseguite in [!DNL Adobe Admin Console for Enterprise]. Tuttavia, tutti gli utenti esistenti in [!DNL Target] verranno migrati da [!DNL Target] ad [!DNL Admin Console for Enterprise].
+Quando si inizia a utilizzare la nuova funzionalità [!UICONTROL Proprietà], tutte le operazioni di gestione degli utenti devono essere eseguite in [!DNL Adobe Admin Console for Enterprise]. Tuttavia, tutti gli utenti esistenti in [!DNL Target] verranno migrati da [!DNL Target] ad [!DNL Admin Console for Enterprise].
 
-1. [In Admin Console](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md#section_79796E0227D048F59BAE0AB02E544EBE), fare clic sulla scheda **[!UICONTROL Users]** nella parte superiore della pagina > **[!UICONTROL Add Users]** per creare nuovi utenti o modificare quelli esistenti.
+1. [In Admin Console](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md#section_79796E0227D048F59BAE0AB02E544EBE), fai clic sulla scheda **[!UICONTROL Utenti]** nella parte superiore della pagina > **[!UICONTROL Aggiungi utenti]** per creare nuovi utenti o modificare quelli esistenti.
 1. Segui le istruzioni contenute in [Gestire utenti e gruppi in Experience Cloud](https://helpx.adobe.com/it/enterprise/using/users.html) nella *guida utente della versione Enterprise*.
 
 ## Passaggio 2: Creare un’area di lavoro (profilo prodotto) {#section_B82EB409B67C4D9D9D20CE30E48DB1DC}
@@ -80,7 +80,7 @@ I clienti possono utilizzare queste aree di lavoro per separare l’accesso ai d
 
 Gli utenti possono fare parte di più aree di lavoro e possono anche avere ruoli diversi all’interno di ogni area di lavoro.
 
-1. In [!DNL Admin Console], fare clic su **[!UICONTROL Products]**, quindi selezionare il nome del prodotto desiderato.
+1. In [!DNL Admin Console], fai clic su **[!UICONTROL Prodotti]**, quindi seleziona il nome del prodotto desiderato.
 
    ![workspace](/help/main/administrating-target/c-user-management/c-user-management/assets/workspace-new.png)
 
@@ -106,7 +106,7 @@ Gli utenti possono fare parte di più aree di lavoro e possono anche avere ruoli
 
 Per sfruttare le autorizzazioni Enterprise nelle [API di Target](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html?lang=it){target=_blank} devi passare l’ID workspace.
 
-1. In [Adobe Admin Console](https://adminconsole.adobe.com), fare clic sulla scheda [!UICONTROL Products], quindi sul prodotto nel menu a sinistra per visualizzare l&#39;elenco di PLC(workspace).
+1. In [Adobe Admin Console](https://adminconsole.adobe.com), fare clic sulla scheda [!UICONTROL Prodotti], quindi fare clic sul prodotto nel menu a sinistra per visualizzare l&#39;elenco di PLC(workspace).
 1. Fai clic sulla voce PLC(workspace) desiderata, quindi individua l’ID “profiles” nell’URL, come mostrato di seguito.
 
    ![workspaceID](/help/main/administrating-target/c-user-management/property-channel/assets/workspace-id-newest.png)
@@ -115,7 +115,7 @@ Per sfruttare le autorizzazioni Enterprise nelle [API di Target](https://experie
 
 È possibile creare gruppi di utenti, ad esempio sviluppatori, analisti, addetti al marketing, dirigenti e così via, e assegnare privilegi a più prodotti Adobe e aree di lavoro. Per assegnare a un nuovo membro del team tutti i privilegi appropriati per i diversi prodotti Adobe, sarà sufficiente aggiungerlo a un gruppo di utenti specifico.
 
-1. In Admin Console, fai clic sulla scheda **[!UICONTROL Users]** nella parte superiore della pagina > **[!UICONTROL User Groups]** per creare nuovi gruppi di utenti o per modificare quelli esistenti.
+1. In Admin Console, fai clic sulla scheda **[!UICONTROL Utenti]** nella parte superiore della pagina > **[!UICONTROL Gruppi di utenti]** per creare nuovi gruppi di utenti o per modificare quelli esistenti.
 1. Segui le istruzioni contenute in [Gestire utenti e gruppi nella configurazione di un prodotto](https://helpx.adobe.com/it/enterprise/help/manage-products-and-configurations.html) nella *Guida utente Enterprise*.
 
 ## Passaggio 4: Creare proprietà {#section_E8F2C92BE0F4466AB87604059C9CF3FD}
@@ -126,7 +126,7 @@ Le proprietà appartengono a canali specifici (Web, mobile, e-mail e API/altro).
 
 **Suggerimento**: per ulteriori informazioni su come creare le proprietà, guarda il video di formazione sottostante.
 
-1. In [!DNL Target], fare clic su **[!UICONTROL Administration]** > **[!UICONTROL Properties]** per visualizzare l&#39;elenco [!UICONTROL Properties].
+1. In [!DNL Target], fare clic su **[!UICONTROL Amministrazione]** > **[!UICONTROL Proprietà]** per visualizzare l&#39;elenco [!UICONTROL Proprietà].
 1. Fai clic su **Crea proprietà**.
 
    Compila i campi:
@@ -135,8 +135,8 @@ Le proprietà appartengono a canali specifici (Web, mobile, e-mail e API/altro).
    * **Descrizione:** specifica una descrizione facoltativa per la proprietà.
    * **Canale:** seleziona il canale desiderato per la proprietà: Web, App mobile, E-mail o Altro/API (per esempio un set-top box o una console PlayStation).
 
-1. Fai clic su **[!UICONTROL Copy]** per copiare negli Appunti il codice da utilizzare durante l&#39;esecuzione dei passaggi in [5: Aggiornare l&#39;implementazione per includere il parametro at_property](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md#section_9B17A59807A94712BE642942442EBBC8).
-1. Al termine, fai clic su **[!UICONTROL Save]**.
+1. Fai clic su **[!UICONTROL Copia]** per copiare il codice negli Appunti che utilizzerai durante l&#39;esecuzione dei passaggi in [5: Aggiornare l&#39;implementazione per includere il parametro at_property](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md#section_9B17A59807A94712BE642942442EBBC8).
+1. Fai clic su **[!UICONTROL Salva]** una volta eseguito.
 
 >[!NOTE]
 >Per ulteriori informazioni sulla creazione di proprietà, guarda il video di formazione sottostante.
@@ -151,9 +151,9 @@ Per utilizzare la funzionalità di autorizzazioni utente di [!DNL Target], è ne
 
    Oppure
 
-   In [!DNL Target], fare clic su **[!UICONTROL Administration]** > **[!UICONTROL Properties]** per visualizzare l&#39;elenco [!UICONTROL Properties].
+   In [!DNL Target], fare clic su **[!UICONTROL Amministrazione]** > **[!UICONTROL Proprietà]** per visualizzare l&#39;elenco [!UICONTROL Proprietà].
 
-   1. Passa il puntatore del mouse sulla colonna [!UICONTROL Last Updated] per visualizzare la proprietà desiderata e fai clic sull&#39;icona [!UICONTROL Code] ( ![icona codice](/help/main/assets/icons/Code.svg) ).
+   1. Passa il puntatore del mouse sulla colonna [!UICONTROL Ultimo aggiornamento] per visualizzare la proprietà desiderata e fai clic sull&#39;icona [!UICONTROL Codice] ( ![Icona codice](/help/main/assets/icons/Code.svg) ).
 
       ![Codice proprietà visualizzato al passaggio del mouse](/help/main/administrating-target/c-user-management/property-channel/assets/code_property_new.png)
 
@@ -183,7 +183,7 @@ Per utilizzare la funzionalità di autorizzazioni utente di [!DNL Target], è ne
 
 ## Passaggio 6: specificare ruoli e autorizzazioni {#section_8C425E43E5DD4111BBFC734A2B7ABC80}
 
-1. In Admin Console, fai clic su **[!UICONTROL Products]**, quindi seleziona il nome del prodotto desiderato.
+1. In Admin Console, fai clic su **[!UICONTROL Prodotti]**, quindi seleziona il nome del prodotto desiderato.
 
    ![Workspace](/help/main/administrating-target/c-user-management/c-user-management/assets/workspace-publisher.png)
 
@@ -191,13 +191,13 @@ Per utilizzare la funzionalità di autorizzazioni utente di [!DNL Target], è ne
 
    ![Default Workspace (Area di lavoro predefinita)](/help/main/administrating-target/c-user-management/c-user-management/assets/default-workspace-new.png)
 
-1. Fare clic su **[!UICONTROL Users]**.
+1. Fai clic su **[!UICONTROL Utenti]**.
 
-   Nella scheda [!UICONTROL Users] vengono visualizzati tutti gli utenti di quell&#39;area di lavoro.
+   Nella scheda [!UICONTROL Utenti] sono visualizzati tutti gli utenti di quell&#39;area di lavoro.
 
    ![configurazione degli utenti](/help/main/administrating-target/c-user-management/c-user-management/assets/configuration_users-new-publisher.png)
 
-1. Selezionare il ruolo di autorizzazioni desiderato (Responsabile approvazione, Editor, Osservatore o Editore) utilizzando l&#39;elenco a discesa per ogni utente nella colonna [!UICONTROL Product Role].
+1. Seleziona il ruolo di autorizzazioni desiderato (Responsabile approvazione, Editor, Osservatore o Editore) dall&#39;elenco a discesa per ogni utente nella colonna [!UICONTROL Ruolo prodotto].
 
    ![Elenco a discesa Product Role (Ruolo prodotto)](/help/main/administrating-target/c-user-management/c-user-management/assets/product-role-new.png)
 
@@ -216,7 +216,7 @@ I video seguenti contengono ulteriori informazioni sui concetti descritti in que
 
 >[!NOTE]
 >
->L&#39;interfaccia utente del menu [!DNL Target] [!UICONTROL Administration] (in precedenza [!UICONTROL Setup]) è stata riprogettata per fornire prestazioni migliori, ridurre il tempo di manutenzione necessario per il rilascio di nuove funzionalità e migliorare l&#39;esperienza utente nel prodotto. Le informazioni contenute nei video seguenti sono generalmente corrette; tuttavia, le opzioni potrebbero trovarsi in posizioni leggermente diverse. I video aggiornati verranno pubblicati a breve.
+>L&#39;interfaccia utente del menu [!DNL Target] [!UICONTROL Amministrazione] (in precedenza [!UICONTROL Configurazione]) è stata riprogettata per fornire prestazioni migliori, ridurre il tempo di manutenzione necessario per il rilascio di nuove funzionalità e migliorare l&#39;esperienza utente nel prodotto. Le informazioni contenute nei video seguenti sono generalmente corrette; tuttavia, le opzioni potrebbero trovarsi in posizioni leggermente diverse. I video aggiornati verranno pubblicati a breve.
 
 ### Come configurare le aree di lavoro di Adobe Target (6:55) ![Icona esercitazione](/help/main/assets/tutorial.png)
 

@@ -14,8 +14,8 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 372
-ht-degree: 32%
+source-wordcount: 379
+ht-degree: 35%
 
 ---
 
@@ -68,7 +68,7 @@ Avvia l&#39;attività in [!DNL Target] prima di configurare la parte [!DNL Campa
 ## Includi un&#39;offerta [!DNL Target] in un&#39;e-mail [!DNL Adobe Campaign] {#section_B201BBE27A704E18AF0D553F35695837}
 
 1. Crea un&#39;e-mail in [!DNL Adobe Campaign].
-1. Nelle proprietà e-mail, fai clic su **[!UICONTROL Include]** > **[!UICONTROL Dynamic image served by Adobe Target]**.
+1. In proprietà e-mail, fai clic su **[!UICONTROL Includi]** > **[!UICONTROL Immagine dinamica fornita da Adobe Target]**.
 1. Seleziona l’immagine predefinita dalle risorse condivise.
 1. Specifica la posizione (rawbox).
 1. Aggiungi qualsiasi altro parametro decisionale, ad esempio il genere del destinatario.

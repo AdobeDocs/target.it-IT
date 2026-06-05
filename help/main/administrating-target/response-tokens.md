@@ -29,7 +29,7 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 1749
+source-wordcount: 1767
 ht-degree: 22%
 
 ---
@@ -38,7 +38,7 @@ ht-degree: 22%
 
 I token di risposta consentono di inviare automaticamente informazioni specifiche di [!DNL Adobe Target] alla pagina Web del tuo marchio. Queste informazioni possono includere dettagli sull’attività, l’offerta, l’esperienza, il profilo utente, le informazioni geografiche e altro ancora. Questi dettagli forniscono dati di risposta aggiuntivi da condividere con strumenti interni o di terze parti o da utilizzare per il debug.
 
-I token di risposta consentono di scegliere le variabili (in coppie di valori chiave) da utilizzare e quindi di abilitarne l&#39;invio come parte di una risposta [!DNL Target]. Abilitare una variabile utilizzando il parametro e la variabile viene inviata con [!DNL Target] risposte, che possono essere convalidate in chiamate di rete. I token di risposta funzionano anche in modalità [!UICONTROL Preview].
+I token di risposta consentono di scegliere le variabili (in coppie di valori chiave) da utilizzare e quindi di abilitarne l&#39;invio come parte di una risposta [!DNL Target]. Abilitare una variabile utilizzando il parametro e la variabile viene inviata con [!DNL Target] risposte, che possono essere convalidate in chiamate di rete. I token di risposta funzionano anche in modalità [!UICONTROL Anteprima].
 
 Una differenza chiave tra plug-in e token di risposta è che i plug-in forniscono JavaScript alla pagina che viene eseguita al momento della consegna. I token di risposta, tuttavia, forniscono un oggetto che può quindi essere letto e seguito utilizzando i listener di eventi. L’approccio del token di risposta è più sicuro e consente di sviluppare e mantenere più facilmente le integrazioni di terze parti.
 
@@ -62,7 +62,7 @@ Una differenza chiave tra plug-in e token di risposta è che i plug-in forniscon
    * **Platform Web SDK**: vedere [Installare SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=it) nella *Panoramica di Platform Web SDK*.
    * **at.js**: vedi [Scarica at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-without-a-tag-manager.html){target=_blank}.
 
-1. In [!DNL Target], fare clic su **[!UICONTROL Administration]** > **[!UICONTROL Response Tokens]**.
+1. In [!DNL Target], fare clic su **[!UICONTROL Amministrazione]** > **[!UICONTROL Token di risposta]**.
 
 1. Attiva i token di risposta desiderati, ad esempio `activity.id` e `offer.id`.
 
@@ -81,7 +81,7 @@ Una differenza chiave tra plug-in e token di risposta è che i plug-in forniscon
    |  | `profile.categoryAffinities` | Restituisce un array delle 5 categorie principali del visitatore, sotto forma di stringhe. |
    | Attività | `activity.name`<br>`activity.id`<br>`experience.name`<br>`experience.id`<br>`offer.name`<br>`offer.id` | Dettagli dell&#39;attività corrente.<br> I valori dei parametri dell’offerta vengono valutati a livello di esperienza. |
    | Geo | `geo.country`<br>`geo.countryCode`<br>`geo.state`<br>`geo.city`<br>`geo.zip`<br>`geo.dma`<br>`geo.domainName`<br>`geo.ispName`<br>`geo.connectionSpeed`<br>`geo.mobileCarrier` | Consulta [Geo](/help/main/c-target/c-audiences/c-target-rules/geo.md) per ulteriori informazioni sull’utilizzo del geotargeting nelle attività. |
-   | Metodo di allocazione traffico<br>(si applica solo alle attività [!UICONTROL Auto-Target] e [!UICONTROL Automated Personalization]). | `experience.trafficAllocationId` | Restituisce 0 se un visitatore ha ricevuto un’esperienza dal traffico &quot;di controllo&quot; e 1 se un visitatore ha ricevuto un’esperienza dalla distribuzione del traffico &quot;mirata&quot;. |
+   | Metodo di allocazione traffico<br>(si applica solo alle attività [!UICONTROL Targeting automatico] e [!UICONTROL Automated Personalization].) | `experience.trafficAllocationId` | Restituisce 0 se un visitatore ha ricevuto un’esperienza dal traffico &quot;di controllo&quot; e 1 se un visitatore ha ricevuto un’esperienza dalla distribuzione del traffico &quot;mirata&quot;. |
    |  | `experience.trafficAllocationType` | Restituire &quot;di controllo&quot; o &quot;mirato&quot;. |
 
    Nell’elenco vengono visualizzati anche gli attributi del profilo utente e gli attributi del cliente.
@@ -90,9 +90,9 @@ Una differenza chiave tra plug-in e token di risposta è che i plug-in forniscon
    >
    >I parametri con caratteri speciali non vengono visualizzati nell’elenco. Sono supportati solo caratteri alfanumerici e il trattino basso.
 
-1. (Condizionale) Per utilizzare un parametro di profilo come token di risposta, ma il parametro non è stato trasmesso tramite una richiesta [!DNL Target] e, pertanto, non è stato caricato nell&#39;interfaccia utente [!DNL Target], è possibile utilizzare il pulsante [!UICONTROL Add Response Token] per aggiungere il profilo all&#39;interfaccia utente.
+1. (Condizionale) Per utilizzare un parametro di profilo come token di risposta, ma il parametro non è stato passato tramite una richiesta [!DNL Target] e, pertanto, non è stato caricato nell&#39;interfaccia utente [!DNL Target], è possibile utilizzare il pulsante [!UICONTROL Aggiungi token di risposta] per aggiungere il profilo all&#39;interfaccia utente.
 
-   Fare clic su **[!UICONTROL Add Response Token]**, fornire il nome del token, quindi fare clic su **[!UICONTROL Activate]**.
+   Fai clic su **[!UICONTROL Aggiungi token di risposta]**, fornisci il nome del token, quindi fai clic su **[!UICONTROL Attiva]**.
 
 1. Crea un’attività.
 
@@ -194,7 +194,7 @@ Il codice di esempio seguente aggiunge un gestore di eventi personalizzati di [!
 
 **Quale ruolo è autorizzato ad attivare o disattivare i token di risposta?**
 
-I token di risposta possono essere attivati o disattivati solo dagli utenti con il ruolo [!DNL Target] [!UICONTROL Administrator].
+I token di risposta possono essere attivati o disattivati solo dagli utenti con il ruolo [!DNL Target] [!UICONTROL Amministratore].
 
 **Cosa succede se eseguo [!DNL Platform Web SDK] 2.6.0 (o versione precedente)?**
 
@@ -444,7 +444,7 @@ Nel video seguente viene illustrato come utilizzare i token di risposta e gli ev
 
 >[!NOTE]
 >
->L&#39;interfaccia utente del menu [!DNL Target] [!UICONTROL Administration] (in precedenza [!UICONTROL Setup]) è stata riprogettata per fornire prestazioni migliori, ridurre il tempo di manutenzione necessario per il rilascio di nuove funzionalità e migliorare l&#39;esperienza utente nel prodotto. Le informazioni contenute nel video seguente sono corrette; tuttavia, le opzioni si trovano in posizioni leggermente diverse.
+>L&#39;interfaccia utente del menu [!DNL Target] [!UICONTROL Amministrazione] (in precedenza [!UICONTROL Configurazione]) è stata riprogettata per fornire prestazioni migliori, ridurre il tempo di manutenzione necessario per il rilascio di nuove funzionalità e migliorare l&#39;esperienza utente nel prodotto. Le informazioni contenute nel video seguente sono corrette; tuttavia, le opzioni si trovano in posizioni leggermente diverse.
 >
 >Nel video vengono menzionati `option.name` e `option.id`, che sono stati sostituiti rispettivamente con `offer.name` e `offer.id`.
 

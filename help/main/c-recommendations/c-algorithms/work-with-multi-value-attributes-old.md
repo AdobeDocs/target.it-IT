@@ -6,8 +6,8 @@ feature: Recommendations
 exl-id: 82018a9a-0983-458c-9387-3602dab4409b
 source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
 workflow-type: tm+mt
-source-wordcount: '454'
-ht-degree: 9%
+source-wordcount: '483'
+ht-degree: 8%
 
 ---
 
@@ -63,8 +63,8 @@ Quando un attributo di entità, un attributo di profilo o un parametro mbox vien
 
 I seguenti operatori sono disponibili per l’utilizzo con attributi di entità, profili e mbox con più valori:
 
-* [!UICONTROL is contained in list]
-* [!UICONTROL is not contained in list]
+* [!UICONTROL è contenuto nell&#39;elenco]
+* [!UICONTROL non è contenuto nell&#39;elenco]
 
 ## Utilizzo di attributi con più valori nelle regole di inclusione
 

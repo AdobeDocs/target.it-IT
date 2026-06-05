@@ -1,7 +1,7 @@
 ---
 keywords: Targeting;compositore esperienza visivo;whitelist;whitelist;compositore;elenco consentiti;compositore esperienza visivo avanzato;vec;risoluzione dei problemi compositore esperienza visivo;risoluzione dei problemi;eec;esperienza avanzata;tls;tls 1.2
-description: Scopri come risolvere i problemi che a volte si verificano nel  [!DNL Target] [!UICONTROL Visual Experience Composer] (VEC) e nel [!UICONTROL Enhanced Experience Composer] (EEC) in determinate condizioni.
-title: Come posso risolvere i problemi relativi a [!UICONTROL Visual Experience Composer] e [!UICONTROL Enhanced Experience Composer]?
+description: Scopri come risolvere i problemi che a volte si verificano nel  [!DNL Target] [!UICONTROL Compositore esperienza visivo] (VEC) e nel [!UICONTROL Compositore esperienza avanzato] (EEC) in determinate condizioni.
+title: Come posso risolvere i problemi relativi al [!UICONTROL Compositore esperienza visivo] e al [!UICONTROL Compositore esperienza avanzato]?
 feature: Visual Experience Composer (VEC)
 exl-id: d829cd63-950f-4bb4-aa58-0247f85de383
 TQID: https://experienceleague.adobe.com/4v7Qe-Yzjke-GceUSRDO2SMZGkxvrkdsSXQt8TR-bic
@@ -19,14 +19,14 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 1202
-ht-degree: 32%
+source-wordcount: 1271
+ht-degree: 31%
 
 ---
 
-# Risoluzione dei problemi relativi a [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] e [!UICONTROL Enhanced Experience Composer]
+# Risoluzione dei problemi relativi a [!DNL Adobe Target] [!UICONTROL Compositore esperienza visivo] e [!UICONTROL Compositore esperienza avanzato]
 
-A volte si verificano problemi di visualizzazione e altri problemi in [!DNL Target] [!UICONTROL Visual Experience Composer] (VEC) e [!UICONTROL Enhanced Experience Composer] (EEC) in determinate condizioni.
+In determinate condizioni si verificano problemi di visualizzazione e altri problemi nel [!DNL Target] [!UICONTROL Compositore esperienza visivo] e nel [!UICONTROL Compositore esperienza avanzato].
 
 ## In che modo i criteri di implementazione dei cookie SameSite di Google Chrome influiscono sul Compositore esperienza visivo e sul Compositore esperienza avanzato? {#samesite}
 
@@ -37,7 +37,7 @@ Tieni presente le modifiche che interessano il Compositore esperienza visivo e i
 >
 >La seguente modifica interessa tutti e tre gli aggiornamenti descritti di seguito:
 >
-> * *non* potrà utilizzare il Compositore esperienza visivo senza l&#39;estensione [VEC Helper](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) installata e abilitata per le pagine protette da password dei tuoi siti. I cookie di accesso al sito sono considerati cookie di terze parti e non vengono inviati con richieste di accesso nell&#39;editor del Compositore esperienza visivo in modalità [!UICONTROL Browse]. L&#39;unica eccezione si verifica quando i cookie di accesso al sito dispongono già degli attributi `SameSite=None` e `Secure` impostati.
+> * *non* potrà utilizzare il Compositore esperienza visivo senza l&#39;estensione [VEC Helper](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) installata e abilitata per le pagine protette da password dei tuoi siti. I cookie di accesso al sito sono considerati cookie di terze parti e non vengono inviati con richieste di accesso nell&#39;editor del Compositore esperienza visivo in modalità [!UICONTROL Sfoglia]. L&#39;unica eccezione si verifica quando i cookie di accesso al sito dispongono già degli attributi `SameSite=None` e `Secure` impostati.
 
 **Chrome 94 (21 settembre 2021)**: con le modifiche imminenti pianificate per la versione di Chrome 94 (21 settembre 2021), la seguente modifica interessa tutti gli utenti con le versioni del browser Chrome 94+:
 
@@ -60,12 +60,12 @@ Tieni presente le modifiche che interessano il Compositore esperienza visivo e i
 +++Dettagli
 Per determinare quali cookie sono bloccati a causa dei criteri di imposizione dei cookie SameSite, utilizzare [!DNL Developer Tools] in [!DNL Chrome].
 
-1. Per accedere a [!DNL Developer Tools], durante la visualizzazione del Compositore esperienza visivo in [!DNL Chrome], fai clic sull&#39;icona **[!UICONTROL ellipsis]** in alto a destra di Chrome > **[!UICONTROL More Tools]** > **[!UICONTROL Developer Tools]**.
-1. Fai clic sulla scheda **[!UICONTROL Network]** > quindi cerca i cookie bloccati.
+1. Per accedere a [!DNL Developer Tools], durante la visualizzazione del Compositore esperienza visivo in [!DNL Chrome], fai clic sull&#39;icona **[!UICONTROL puntini di sospensione]** nell&#39;angolo superiore destro di Chrome > **[!UICONTROL Altri strumenti]** > **[!UICONTROL Strumenti per sviluppatori]**.
+1. Fai clic sulla scheda **[!UICONTROL Rete]**, quindi cerca i cookie bloccati.
 
    >[!NOTE]
    >
-   >Utilizza la casella di controllo **[!UICONTROL Has blocked cookies]** per facilitare la ricerca dei cookie bloccati.
+   >Utilizza la casella di controllo **[!UICONTROL Contiene cookie bloccati]** per semplificare la ricerca dei cookie bloccati.
 
 +++
 
@@ -81,7 +81,7 @@ Come soluzione alternativa, puoi aggiungere all’esperienza una pagina con l’
 ## Quando si tenta di modificare una pagina, compare solo un’icona che ruota anziché la pagina. (Compositore esperienza visivo e Compositore esperienza avanzato) {#section_313001039F79446DB28C70D932AF5F58}
 
 +++Dettagli
-Questa situazione può verificarsi se l’URL contiene un carattere #. Per risolvere il problema, passa alla modalità [!UICONTROL Browse] nel Compositore esperienza visivo o Compositore esperienza avanzato, quindi torna alla modalità [!UICONTROL Compose]. L’icona che ruota scompare e la pagina viene caricata correttamente.
+Questa situazione può verificarsi se l’URL contiene un carattere #. Per risolvere il problema, passa alla modalità [!UICONTROL Sfoglia] nel Compositore esperienza visivo o Compositore esperienza avanzato, quindi torna alla modalità [!UICONTROL Componi]. L’icona che ruota scompare e la pagina viene caricata correttamente.
 
 +++
 
@@ -134,7 +134,7 @@ Se lo stesso ID di elemento DOM è utilizzato in più elementi della pagina, la 
 ## Non sono in grado di modificare le esperienze per un sito non compatibile con iFrame. (Compositore esperienza visivo e Compositore esperienza avanzato) {#section_9FE266B964314F2EB75604B4D7047200}
 
 +++Dettagli
-Questo problema può essere risolto abilitando [!UICONTROL Enhanced Experience Composer] (EEC). Fare clic su **[!UICONTROL Administation]** > **[!UICONTROL Visual Experience Composer]**, quindi selezionare la casella di controllo che abilita [!UICONTROL Enhanced Experience Composer]. Il Compositore esperienza avanzato utilizza un proxy gestito da [!DNL Adobe] per caricare la pagina per la modifica. Questo proxy consente la modifica su siti non compatibili con iFrame e la modifica su siti e pagine in cui non è stato ancora aggiunto il codice [!DNL Adobe Target]. Le attività non vengono fornite al sito fino all&#39;aggiunta del codice. Alcuni siti potrebbero non essere caricati tramite il Compositore esperienza avanzato. In questo caso, deseleziona questa opzione per caricare il Compositore esperienza avanzato tramite un iFrame.
+Questo problema può essere risolto abilitando [!UICONTROL Compositore esperienza avanzato] (EEC). Fai clic su **[!UICONTROL Amministrazione]** > **[!UICONTROL Compositore esperienza visivo]**, quindi seleziona la casella di controllo che abilita il [!UICONTROL Compositore esperienza avanzato]. Il Compositore esperienza avanzato utilizza un proxy gestito da [!DNL Adobe] per caricare la pagina per la modifica. Questo proxy consente la modifica su siti non compatibili con iFrame e la modifica su siti e pagine in cui non è stato ancora aggiunto il codice [!DNL Adobe Target]. Le attività non vengono fornite al sito fino all&#39;aggiunta del codice. Alcuni siti potrebbero non essere caricati tramite il Compositore esperienza avanzato. In questo caso, deseleziona questa opzione per caricare il Compositore esperienza avanzato tramite un iFrame.
 
 >[!NOTE]
 >
@@ -149,14 +149,14 @@ Vedi “Non sono in grado di modificare le esperienze per un sito non compatibil
 
 +++
 
-## Gli stili di testo grassetto e corsivo con [!UICONTROL Edit Text]/[!UICONTROL Edit HTML] o [!UICONTROL Change Text]/[!DNL Change HTML] non vengono visualizzati nella pagina. A volte il testo scompare dopo l&#39;applicazione di queste modifiche. (Compositore esperienza visivo e Compositore esperienza avanzato) {#section_7A71D6DF41084C58B34C18701E8774E5}
+## Gli stili di testo in grassetto e corsivo con [!UICONTROL Modifica testo]/[!UICONTROL Modifica HTML] o [!UICONTROL Modifica testo]/[!DNL Change HTML] non vengono visualizzati nella pagina. A volte il testo scompare dopo l&#39;applicazione di queste modifiche. (Compositore esperienza visivo e Compositore esperienza avanzato) {#section_7A71D6DF41084C58B34C18701E8774E5}
 
 +++Dettagli
-Se utilizzi **[!UICONTROL Edit Text]/[!UICONTROL Edit HTML]** nel Compositore esperienza visivo per [!UICONTROL A/B Test] o [!UICONTROL Experience Targeting] attività o **[!UICONTROL Change Text]/[!UICONTROL Change HTML]** per [!UICONTROL Automated Personalization] o [!UICONTROL Multivariate Test] attività per rendere il testo in grassetto o corsivo, questi stili potrebbero non essere applicati nella pagina o il testo potrebbe scomparire dalla pagina nel Compositore esperienza visivo. Ciò si verifica a causa del modo in cui l’editor Rich Text applica questi stili potrebbero interferire con il markup del sito web.
+Se si utilizza **[!UICONTROL Modifica testo]/[!UICONTROL Modifica HTML]** nel Compositore esperienza visivo per [!UICONTROL Test A/B] o [!UICONTROL Attività Targeting esperienza] o **[!UICONTROL Modifica testo]/[!UICONTROL Modifica HTML]** per [!UICONTROL Attività Automated Personalization] o [!UICONTROL Test multivariato] per rendere il testo in grassetto o corsivo, è possibile che tali stili non vengano applicati nella pagina o che il testo scompaia dalla pagina nel Compositore esperienza visivo. Ciò si verifica a causa del modo in cui l’editor Rich Text applica questi stili potrebbero interferire con il markup del sito web.
 
 Se vedi questo problema:
 
-1. Fare clic sul pulsante **[!UICONTROL HTML]** nell&#39;editor Rich Text per accedere alla modalità di modifica della sorgente.
+1. Fai clic sul pulsante **[!UICONTROL HTML]** nell&#39;editor rich-text per accedere alla modalità di modifica della sorgente.
 1. Trova gli elementi di stile di testo.
 
    * Per il testo in grassetto, modifica gli elementi `<strong>` in `<b>`.

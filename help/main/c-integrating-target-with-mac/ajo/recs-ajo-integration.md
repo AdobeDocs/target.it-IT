@@ -18,7 +18,7 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
 source-git-commit: 16fb7a1902ea76cab56a93fa141a32a3c6bc4467
 workflow-type: tm+mt
-source-wordcount: 633
+source-wordcount: 637
 ht-degree: 2%
 
 ---
@@ -53,7 +53,7 @@ Questi casi d&#39;uso sono solo alcuni possibili casi d&#39;uso per l&#39;integr
 
   Dopo un periodo specificato, un&#39;azione personalizzata in [!DNL Journey Optimizer] effettua una chiamata a [!DNL Target Recommendations] per determinare gli elementi visualizzati da ogni visitatore, utilizzando il [!DNL Adobe Experience Cloud Identifier] (EDID) di ogni visitatore, il profilo [!DNL Target] del visitatore e un algoritmo [basato sull&#39;utente](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md). [!DNL Adobe Journey Optimizer] invia quindi a ogni membro del pubblico qualificato un&#39;e-mail personalizzata con immagini e collegamenti agli elementi visualizzati di ogni visitatore, in modo da invitare il visitatore a tornare e a effettuare un acquisto.
 
-  In questo scenario, l&#39;identificatore [!UICONTROL Experience Cloud Visitor ID] (ECID) e il contenuto del profilo [!DNL Target] di ciascun visitatore vengono utilizzati per generare il consiglio in base all&#39;algoritmo visualizzato di recente.
+  In questo scenario, l&#39;[!UICONTROL ID visitatore di Experience Cloud] (ECID) e il contenuto del profilo [!DNL Target] di ciascun visitatore vengono utilizzati per generare il consiglio in base all&#39;algoritmo visualizzato di recente.
 
   Supponiamo ad esempio che un visitatore visiti un sito web per la vendita al dettaglio e visualizzi diversi orologi. Il profilo [!DNL Target] del visitatore è stato aggiornato con un elenco degli orologi visualizzati. Utilizzando ECID e il profilo [!DNL Target] del visitatore, [!DNL Target] invia il consiglio a [!DNL Journey Optimizer]. [!DNL Journey Optimizer] invia quindi un messaggio e-mail contenente immagini e collegamenti agli orologi visualizzati dal visitatore, utilizzando l&#39;algoritmo visualizzato di recente. Un altro visitatore riceve un’e-mail personalizzata contenente immagini e collegamenti agli elementi visualizzati dal visitatore. Ogni messaggio e-mail è personalizzato per ogni visitatore.
 

@@ -11,14 +11,14 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 146
-ht-degree: 58%
+source-wordcount: 152
+ht-degree: 71%
 
 ---
 
 # Creazione di caroselli di immagini adatti al Compositore esperienza visivo
 
-In questo argomento viene illustrato come creare un carosello modificabile nel [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC).
+In questo argomento viene illustrato come creare un carosello che possa essere modificato nel [!DNL Adobe Target] [!UICONTROL Compositore esperienza visivo] (VEC).
 
 Quando esegui i passaggi seguenti, [!DNL Target] saprà sempre che la diapositiva selezionata avrà il “selettore” per la diapositiva corretta, anche se viene modificato nel Compositore esperienza visivo dopo pochi secondi.
 
@@ -38,7 +38,7 @@ Quando esegui i passaggi seguenti, [!DNL Target] saprà sempre che la diapositiv
 
    >[!NOTE]
    >
-   >L&#39;opzione [!UICONTROL Render Using JavaScript] non è attualmente supportata se viene utilizzata insieme al codice personalizzato nel Compositore esperienza visivo.
+   >L’opzione [!UICONTROL Rendering con JavaScript] non è attualmente supportata se viene utilizzata con codice personalizzato nel Compositore esperienza visivo.
 
 1. Aggiorna i valori classNames solo per nascondere le altre slide e mostrare quella successiva con timer/animazione.
 

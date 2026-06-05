@@ -1,6 +1,6 @@
 ---
 keywords: AB;A/B;AB...n;confrontare esperienze;Targeting;confrontare contenuto;targeting automatico;allocazione automatica
-description: Esplora le attività di test A/B in  [!DNL Target] - [!UICONTROL Manual], [!UICONTROL Auto-Allocate] e [!UICONTROL Auto-Target].
+description: Esplora le attività di test A/B in [!DNL Target] - [!UICONTROL Manuale], [!UICONTROL Allocazione automatica] e [!UICONTROL Targeting automatico].
 title: Scopri le attività di test A/B disponibili in [!DNL Target].
 feature: A/B Tests
 exl-id: e8ff8994-a0a9-4fc7-8fcb-e3a1b7697604
@@ -13,18 +13,18 @@ topic_v2:
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 680
-ht-degree: 21%
+source-wordcount: 757
+ht-degree: 19%
 
 ---
 
 # Panoramica sui test A/B
 
-Un&#39;attività [!UICONTROL A/B Test] manuale (a volte definita test A/B...N) confronta due o più versioni del contenuto del sito Web per vedere quale versione meglio solleva le conversioni, le vendite o altre metriche identificate. Un test A/B permette di confrontare le modifiche apportate alla pagina rispetto alla struttura di pagina predefinita, per determinare quale esperienza produce i risultati migliori.
+Un&#39;attività [!UICONTROL Test A/B] manuale (a volte definita test A/B...N) confronta due o più versioni del contenuto del sito Web per vedere quale versione meglio solleva le conversioni, le vendite o altre metriche identificate. Un test A/B permette di confrontare le modifiche apportate alla pagina rispetto alla struttura di pagina predefinita, per determinare quale esperienza produce i risultati migliori.
 
 >[!TIP]
 >
->Oltre all&#39;attività [!UICONTROL Manual] (predefinita) [!UICONTROL A/B Test] (discussa in questo articolo), [!DNL Target] fornisce altri due tipi di attività [!UICONTROL A/B Test]: [!UICONTROL Auto-Allocate] e [!UICONTROL Auto-Target]. Per ulteriori informazioni, consulta [Tipi di attività di test A/B](#types) di seguito.
+>Oltre all&#39;attività [!UICONTROL Manuale] (predefinita) [!UICONTROL Test A/B] (discussa in questo articolo), [!DNL Target] fornisce due tipi aggiuntivi di attività [!UICONTROL Test A/B]: [!UICONTROL Allocazione automatica] e [!UICONTROL Targeting automatico]. Per ulteriori informazioni, consulta [Tipi di attività di test A/B](#types) di seguito.
 
 I test A/B manuali sono utili quando si dispone di un’ipotesi chiara di modi per migliorare le prestazioni della pagina in base a metriche di successo o alla distribuzione di contenuti alternativi.
 
@@ -40,28 +40,28 @@ Quando il numero di esperienze diverse supera le cinque e si estende su due o pi
 
 ## Tipi di attività di test A/B {#types}
 
-Oltre all&#39;attività manuale [!UICONTROL A/B Test], [!DNL Target] fornisce altri due tipi di attività [!UICONTROL A/B Testing]: [!UICONTROL Auto-Allocate] e [!UICONTROL Auto-Target].
+Oltre all&#39;attività manuale [!UICONTROL Test A/B], [!DNL Target] fornisce altri due tipi di attività [!UICONTROL Test A/B]: [!UICONTROL Allocazione automatica] e [!UICONTROL Targeting automatico].
 
 | Tipo di attività | Descrizione |
 | --- | --- |
-| [!UICONTROL Manual A/B Test] | Confronta due o più esperienze per vedere quale migliora in modo più efficace le conversioni durante un periodo di test pre-specificato.<P>In questa sezione viene descritto come impostare un&#39;attività [!UICONTROL A/B Test] manuale, ma i passaggi per gli altri tipi di attività [!UICONTROL A/B Test] sono simili. |
-| [!UICONTROL Auto-Allocate] | Identifica un vincitore tra due o più esperienze, quindi reindirizza il traffico verso il vincitore, aumentando la conversione mentre il test viene eseguito e appreso.<P>Per informazioni sui vantaggi dell&#39;utilizzo di un&#39;attività [!UICONTROL Auto-Allocate], vedere [Allocazione automatica](/help/main/c-activities/t-test-ab/sample-size-determination.md#auto-allocate) in *Per quanto tempo si deve eseguire un test A/B* e [Panoramica dell&#39;allocazione automatica](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md). |
-| ![Badge Premium](/help/main/assets/premium.png) [!UICONTROL Auto-Target] | Utilizza l’apprendimento automatico avanzato per personalizzare i contenuti e favorire le conversioni identificando più esperienze ad alte prestazioni definite dall’addetto al marketing. L’esperienza più personalizzata viene quindi fornita ai visitatori in base ai loro profili cliente individuali e ai comportamenti passati di visitatori simili.<P>Per ulteriori informazioni, vedere [Targeting automatico](/help/main/c-activities/auto-target/auto-target-to-optimize.md). |
+| [!UICONTROL Test A/B manuale] | Confronta due o più esperienze per vedere quale migliora in modo più efficace le conversioni durante un periodo di test pre-specificato.<P>In questa sezione viene descritto come impostare un&#39;attività [!UICONTROL Test A/B] manuale, ma i passaggi per gli altri tipi di attività [!UICONTROL Test A/B] sono simili. |
+| [!UICONTROL Allocazione automatica] | Identifica un vincitore tra due o più esperienze, quindi reindirizza il traffico verso il vincitore, aumentando la conversione mentre il test viene eseguito e appreso.<P>Per informazioni sui vantaggi dell&#39;utilizzo di un&#39;attività [!UICONTROL Allocazione automatica], vedere [Allocazione automatica](/help/main/c-activities/t-test-ab/sample-size-determination.md#auto-allocate) in *Per quanto tempo si deve eseguire un test A/B* e [Panoramica dell&#39;allocazione automatica](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md). |
+| ![Badge Premium](/help/main/assets/premium.png) [!UICONTROL Targeting automatico] | Utilizza l’apprendimento automatico avanzato per personalizzare i contenuti e favorire le conversioni identificando più esperienze ad alte prestazioni definite dall’addetto al marketing. L’esperienza più personalizzata viene quindi fornita ai visitatori in base ai loro profili cliente individuali e ai comportamenti passati di visitatori simili.<P>Per ulteriori informazioni, vedere [Targeting automatico](/help/main/c-activities/auto-target/auto-target-to-optimize.md). |
 
-Per ulteriori informazioni sulle attività di [!UICONTROL A/B Test] più adatte all&#39;utente, vedere la [Guida delle attività di Adobe Target PDF](/help/main/c-activities/target-activities-guide.md) interattiva.
+Per ulteriori informazioni su quali di queste [!UICONTROL attività Test A/B] sono più adatte alle tue esigenze, consulta la [Guida delle attività di Adobe Target PDF](/help/main/c-activities/target-activities-guide.md) interattiva.
 
-I passaggi per la creazione dei tre tipi di attività [!UICONTROL A/B Test] sono simili. Per creare un&#39;attività [!UICONTROL Auto-Allocate] o [!UICONTROL Auto-Target]:
+I passaggi per la creazione dei tre tipi di attività [!UICONTROL Test A/B] sono simili. Per creare un&#39;attività [!UICONTROL Allocazione automatica] o [!UICONTROL Targeting automatico]:
 
 1. Iniziare [creando un&#39;attività Test A/B](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md).
-1. Quando si arriva alla pagina [!UICONTROL Targeting], fare clic sul controllo [!UICONTROL Traffic Allocation], quindi scegliere il metodo di allocazione del traffico desiderato nel riquadro di destra, come illustrato di seguito:
+1. Quando si accede alla pagina [!UICONTROL Targeting], fare clic sul controllo [!UICONTROL Allocazione traffico], quindi scegliere il metodo di allocazione del traffico desiderato nel riquadro di destra, come illustrato di seguito:
 
-   * [!UICONTROL Auto-Allocate to best experience]
-   * [!UICONTROL Auto-Target for personalized experience]
+   * [!UICONTROL Allocazione automatica all&#39;esperienza migliore]
+   * [!UICONTROL Targeting automatico per esperienza personalizzata]
 
    ![Impostazioni del metodo di allocazione traffico](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/traffic-allocation-method-new.png)
 
 ## Includere consigli nelle attività A/B
 
-Puoi includere i consigli nelle attività [!UICONTROL A/B Test], [!UICONTROL Auto-Allocate] e [!UICONTROL Auto-Target] (e [!UICONTROL Experience Targeting] (XT)). Per ulteriori informazioni, consulta [Consigli come offerta](/help/main/c-recommendations/recommendations-as-an-offer.md).
+Puoi includere i consigli nelle attività [!UICONTROL Test A/B], [!UICONTROL Allocazione automatica] e [!UICONTROL Targeting automatico] (e [!UICONTROL Targeting esperienza] (XT). Per ulteriori informazioni, consulta [Consigli come offerta](/help/main/c-recommendations/recommendations-as-an-offer.md).
 
 Questa funzionalità richiede una [licenza di Target Premium](/help/main/c-intro/intro.md#premium).

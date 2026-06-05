@@ -16,14 +16,14 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 506
-ht-degree: 9%
+source-wordcount: 657
+ht-degree: 7%
 
 ---
 
-# [!UICONTROL Criteria]
+# [!UICONTROL Criteri]
 
-[!UICONTROL Criteria] in [!DNL Adobe Target] [!DNL Recommendations] sono regole che determinano quali prodotti o contenuti consigliare in base a un set predeterminato di comportamenti dei visitatori. I criteri possono essere basati sulle tendenze popolari, sui comportamenti attuali e passati di un visitatore o su prodotti e contenuti simili. È possibile sottoporre e test più tipi di consigli tra loro aggiungendo più criteri.
+[!UICONTROL I criteri] in [!DNL Adobe Target] [!DNL Recommendations] sono regole che determinano quali prodotti o contenuti consigliare in base a un set predeterminato di comportamenti dei visitatori. I criteri possono essere basati sulle tendenze popolari, sui comportamenti attuali e passati di un visitatore o su prodotti e contenuti simili. È possibile sottoporre e test più tipi di consigli tra loro aggiungendo più criteri.
 
 Nelle sezioni seguenti vengono fornite ulteriori informazioni sulle chiavi di criteri e sulla logica per i consigli che è possibile utilizzare per ogni chiave. Fai clic sui collegamenti per ulteriori informazioni.
 
@@ -33,11 +33,11 @@ Durante la creazione di un criterio, selezioni un settore verticale in base agli
 
 | Settore verticale | Obiettivo |
 |--- |--- |
-| [!UICONTROL Retail/Ecommerce] | Conversione con conseguente acquisto |
-| [!UICONTROL Lead Generation/B2B/Financial Services] | Conversione senza acquisto |
-| [!UICONTROL Media/Publishing] | Coinvolgimento |
+| [!UICONTROL Vendita al dettaglio/e-commerce] | Conversione con conseguente acquisto |
+| [!UICONTROL Generazione lead/B2B/Servizi finanziari] | Conversione senza acquisto |
+| [!UICONTROL File multimediali/Pubblicazione] | Coinvolgimento |
 
-Altre opzioni di criteri cambiano in base al settore verticale selezionato. È possibile impostare il settore verticale predefinito nella pagina **[!UICONTROL Administration]>[!UICONTROL Recommendations]** oppure specificare il settore verticale per ciascun criterio.
+Altre opzioni di criteri cambiano in base al settore verticale selezionato. Puoi impostare il settore verticale predefinito nella pagina **[!UICONTROL Amministrazione] > [!UICONTROL Consigli]** oppure specificare il settore verticale per ciascun criterio.
 
 ## Tipo di algoritmo {#section_885B3BB1B43048A88A8926F6B76FC482}
 
@@ -47,11 +47,11 @@ Nella tabella seguente sono illustrati i vari tipi di algoritmi e i relativi alg
 
 | Tipo di algoritmo | Quando utilizzare | Algoritmi disponibili |
 | --- | --- | --- |
-| [!UICONTROL Cart-Based] | Creare consigli in base al contenuto del carrello dell’utente. | <ul><li>[!UICONTROL People Who Viewed These, Also Viewed]</li><li>[!UICONTROL People Who Viewed These, Also Bought]</li><li>[!UICONTROL People Who Bought These, Also Bought]</li></ul>Per ulteriori informazioni, vedi [In base al carrello](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#cart-based) in *Basare il consiglio su una chiave consiglio*. |
-| [!UICONTROL Popularity-Based] | Puoi formulare raccomandazioni in base alla popolarità complessiva di un elemento nel tuo sito o in base alla popolarità degli elementi nella categoria, nel brand, nel genere e così via preferiti o più visualizzati di un utente. | <ul><li>[!UICONTROL Most Viewed Across the Site]</li><li>[!UICONTROL Most Viewed by Category]</li><li>[!UICONTROL Most Viewed by Item Attribute]</li><li>[!UICONTROL Top Sellers Across the Site]</li><li>[!UICONTROL Top Sellers by Category]</li><li>[!UICONTROL Top Sellers by Item Attribute]</li><li>[!UICONTROL Top by Analytics Metric]</li></ul> |
-| [!UICONTROL Item-Based] | Creare consigli in base alla ricerca di elementi simili a quelli di un elemento attualmente visualizzato dall’utente o che è stato recentemente visualizzato. | <ul><li>[!UICONTROL People Who Viewed This, Viewed That]</li><li>[!UICONTROL People Who Viewed This, Bought That]</li><li>[!UICONTROL People Who Bought This, Bought That]</li><li>[!UICONTROL Items with Similar Attributes]</li></ul> |
-| [!UICONTROL User-Based] | Creare consigli in base al comportamento dell’utente. | <ul><li>[!UICONTROL Recently Viewed Items]</li><li>[!UICONTROL Recommended for You]</li></ul> |
-| [!UICONTROL Custom Criteria] | Formulare raccomandazioni in base a un file personalizzato caricato. | <ul><li>Algoritmo personalizzato</li></ul> |
+| [!UICONTROL Basato su carrello] | Creare consigli in base al contenuto del carrello dell’utente. | <ul><li>[!UICONTROL Persone Che Hanno Visualizzato Questi, Hanno Visualizzato Anche]</li><li>[!UICONTROL Chi ha visualizzato questi elementi ha acquistato anche]</li><li>[!UICONTROL Chi ha acquistato questi, ha acquistato anche]</li></ul>Per ulteriori informazioni, vedi [In base al carrello](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#cart-based) in *Basare il consiglio su una chiave consiglio*. |
+| [!UICONTROL Basato Sulla Popolarità] | Puoi formulare raccomandazioni in base alla popolarità complessiva di un elemento nel tuo sito o in base alla popolarità degli elementi nella categoria, nel brand, nel genere e così via preferiti o più visualizzati di un utente. | <ul><li>[!UICONTROL Più visualizzati nel sito]</li><li>[!UICONTROL Più visualizzati per categoria]</li><li>[!UICONTROL Più visualizzati per attributo elemento]</li><li>[!UICONTROL Più venduti nel sito]</li><li>[!UICONTROL Più venduti per categoria]</li><li>[!UICONTROL Più venduti per attributo articolo]</li><li>[!UICONTROL Primi per metrica di Analytics]</li></ul> |
+| [!UICONTROL Basato su elemento] | Creare consigli in base alla ricerca di elementi simili a quelli di un elemento attualmente visualizzato dall’utente o che è stato recentemente visualizzato. | <ul><li>[!UICONTROL Chi ha visualizzato questo ha visualizzato anche quello]</li><li>[!UICONTROL Chi ha visualizzato questo ha acquistato anche quello]</li><li>[!UICONTROL Chi ha acquistato questo ha acquistato anche quello]</li><li>[!UICONTROL Elementi con attributi simili]</li></ul> |
+| [!UICONTROL Basato su utente] | Creare consigli in base al comportamento dell’utente. | <ul><li>[!UICONTROL Elementi visualizzati di recente]</li><li>[!UICONTROL Consigliato per te]</li></ul> |
+| [!UICONTROL Criteri personalizzati] | Formulare raccomandazioni in base a un file personalizzato caricato. | <ul><li>Algoritmo personalizzato</li></ul> |
 
 Per ulteriori informazioni su ciascun algoritmo, vedere [Basare il consiglio su una chiave di consiglio](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md).
 
@@ -65,26 +65,26 @@ Puoi anche basare i consigli sul valore di un attributo di profilo personalizzat
 
 Si supponga, ad esempio, di voler visualizzare i filmati consigliati in base all&#39;ultimo filmato aggiunto alla coda da un utente.
 
-1. Fare clic su **[!UICONTROL Recommendations]** > **[!UICONTROL Criteria]**.
+1. Fai clic su **[!UICONTROL Consigli]** > **[!UICONTROL Criteri]**.
 
-1. Fare clic su **[!UICONTROL Create Criteria]** > **[!UICONTROL Create Criteria]**.
+1. Fai clic su **[!UICONTROL Crea criterio]** > **[!UICONTROL Crea criterio]**.
 
 1. Compila le informazioni nella [sezione Informazioni di base](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#info).
 
-1. Nella sezione [Algoritmo consigliato](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#rec-algo), selezionare **[!UICONTROL Item Based]** dall&#39;elenco **[!UICONTROL Algorithm Type]**.
+1. Nella sezione [Algoritmo consigliato](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#rec-algo), seleziona **[!UICONTROL Basato su elemento]** dall&#39;elenco **[!UICONTROL Tipo di algoritmo]**.
 
-1. Selezionare **[!UICONTROL People Who Viewed This, Viewed That]** dall&#39;elenco **[!UICONTROL Algorithm]**.
+1. Seleziona **[!UICONTROL Persone che hanno visualizzato questo/a, che hanno visualizzato]** dall&#39;elenco **[!UICONTROL Algoritmo]**.
 
-1. Selezionare l&#39;attributo di profilo personalizzato dall&#39;elenco **[!UICONTROL Recommendation Key]** (ad esempio, [!UICONTROL Last Show Added to Watchlist]).
+1. Seleziona l&#39;attributo di profilo personalizzato dall&#39;elenco **[!UICONTROL Chiave consiglio]** (ad esempio, [!UICONTROL Ultimo filmato aggiunto alla watchlist]).
 
 ## Visualizzazione delle informazioni sui criteri {#section_7162DE58E4594FD688A4D7FDB829FD8B}
 
-È possibile visualizzare i dettagli dei criteri facendo clic sui criteri desiderati nella colonna [!UICONTROL Name].
+Puoi visualizzare i dettagli dei criteri facendo clic sui criteri desiderati nella colonna [!UICONTROL Nome].
 
-Le sezioni **[!UICONTROL Attributes]** e Details consentono di visualizzare informazioni generali sui criteri selezionati, incluse le informazioni relative a [!UICONTROL Name], [!UICONTROL Description], [!UICONTROL Industry Vertical], [!UICONTROL Page Types], [!UICONTROL Recommendation Key], [!UICONTROL Recommendation Logic], [!UICONTROL Algorithm ID] e Ultima modifica (data e autore della modifica dell&#39;algoritmo).
+Le sezioni **[!UICONTROL Attributi]** e Dettagli consentono di visualizzare informazioni generali sui criteri selezionati, tra cui [!UICONTROL Nome], [!UICONTROL Descrizione], [!UICONTROL Settore verticale], [!UICONTROL Tipi di pagina], [!UICONTROL Chiave consiglio], [!UICONTROL Logica consiglio], [!UICONTROL ID algoritmo] e Informazioni ultima modifica (data e chi ha modificato l&#39;algoritmo).
 
-La sezione **[!UICONTROL Usage]** ti consente di visualizzare un elenco di attività che fanno riferimento ai criteri selezionati.
+La sezione **[!UICONTROL Utilizzo]** ti consente di visualizzare un elenco di attività che fanno riferimento ai criteri selezionati.
 
 >[!NOTE]
 >
->La funzionalità [!UICONTROL Algorithm Usage] è attualmente supportata solo per le attività [!DNL Recommendations]. Questa funzionalità non è attualmente supportata per le attività [!UICONTROL A/B Test], [!UICONTROL Auto-Allocate], [!UICONTROL Auto-Target] e [!UICONTROL Experience Targeting] (XT) che includono [consigli come offerta](/help/main/c-recommendations/recommendations-as-an-offer.md).
+>La funzionalità [!UICONTROL Utilizzo algoritmo] è attualmente supportata solo per [!DNL Recommendations] attività. Questa funzionalità non è attualmente supportata per [!UICONTROL Test A/B], [!UICONTROL Allocazione automatica], [!UICONTROL Targeting automatico] e [!UICONTROL Attività di Targeting esperienza] (XT) che includono [consigli come offerta](/help/main/c-recommendations/recommendations-as-an-offer.md).

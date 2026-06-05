@@ -7,7 +7,7 @@ feature: Recommendations
 exl-id: 9ec161b9-1b37-4475-b508-af676126c817
 source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
 workflow-type: tm+mt
-source-wordcount: '337'
+source-wordcount: '353'
 ht-degree: 10%
 
 ---
@@ -32,7 +32,7 @@ Ad esempio, per consigliare solo i contenuti che corrispondono al parametro di p
 
 ## Esempi di corrispondenza dei parametri
 
-[!UICONTROL Parameter Matching] consente di consigliare contenuto che corrisponda ai parametri di pagina o ai parametri del visitatore, come le dimensioni del dispositivo o la geolocalizzazione, come nell&#39;esempio seguente:
+[!UICONTROL Corrispondenza parametro] consente di consigliare il contenuto che corrisponde ai parametri di pagina o ai parametri del visitatore, ad esempio le dimensioni del dispositivo o la geolocalizzazione, come nell&#39;esempio seguente:
 
 [!DNL Recommendations] può corrispondere ai valori dei parametri inviati nella chiamata [!DNL Target]. In questa istanza, [!DNL Target] rileva che un visitatore sta utilizzando un dispositivo mobile, in base ai parametri di altezza e larghezza dello schermo inviati nella chiamata [!DNL Target], e consiglierà solo gli elementi che sono dispositivi mobili.
 

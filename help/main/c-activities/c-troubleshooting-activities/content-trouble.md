@@ -20,8 +20,8 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 1663
-ht-degree: 86%
+source-wordcount: 1689
+ht-degree: 85%
 
 ---
 
@@ -41,7 +41,7 @@ Dato che in mboxTrace e mboxDebug è possibile esporre dati sulla campagna e sul
 
 Per generare un token di autenticazione, è necessario disporre di una delle seguenti autorizzazioni utente:
 
-* Almeno [!UICONTROL Editor] autorizzazione (o [!UICONTROL Approver])
+* Almeno [!UICONTROL autorizzazione Editor] (o [!UICONTROL Approvatore])
 
   Per ulteriori informazioni per i clienti [!DNL Target Standard], consulta [Specificare ruoli e autorizzazioni](/help/main/administrating-target/c-user-management/c-user-management/user-management.md#roles-permissions) in *Utenti*. Per ulteriori informazioni per i clienti [!DNL Target Premium], consulta [Configurare le autorizzazioni aziendali](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md).
 
@@ -53,8 +53,8 @@ Per generare un token di autenticazione, è necessario disporre di una delle seg
 
 Per recuperare il token di autorizzazione:
 
-1. Fare clic su **[!UICONTROL Administration]** > **[!UICONTROL Implementation]**.
-1. Dalla sezione Strumenti di debug, fare clic su **[!UICONTROL Generate New Authentication Token]**.
+1. Fare clic su **[!UICONTROL Amministrazione]** > **[!UICONTROL Implementazione]**.
+1. Dalla sezione Strumenti di debug, fare clic su **[!UICONTROL Genera nuovo token di autenticazione]**.
 
    ![Generare un nuovo token di autenticazione](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/assets/debugger-auth-token.png)
 
@@ -97,7 +97,7 @@ Alcune delle informazioni includono ID di destinazione e di segmento associati e
 * Esclusioni e inclusioni applicate
 * Regole di raccolta
 
-Non è necessario includere `=console`, `=json` o `=window` nel parametro di query. Una volta completati i dettagli mboxTrace, aggiungere `=disable` e premere **[!UICONTROL Enter]** per tornare alla modalità di visualizzazione normale.
+Non è necessario includere `=console`, `=json` o `=window` nel parametro di query. Una volta completati i dettagli mboxTrace, aggiungere `=disable` e premere **[!UICONTROL Invio]** per tornare alla modalità di visualizzazione normale.
 
 mboxTrace non influenza il normale funzionamento e aspetto del tuo sito. I visitatori vedranno la solita struttura dei consigli.
 
@@ -167,11 +167,11 @@ at.js non attiva le richieste di Target se utilizzi un doctype non valido. at.js
 
 ## Assicurati che le attività di [!DNL Target] gestiscano correttamente gli URL con parametri di stringa di query. {#query-strings}
 
-[!UICONTROL Activity URL] determina la pagina che qualifica i visitatori per l&#39;attività ed esegue il rendering delle esperienze di attività per gli utenti. Quando viene richiesto durante la creazione dell’attività, la digitazione dell’URL completo non sempre assicura che il contenuto venga distribuito sulla pagina del sito, in particolare con gli URL che contengono parametri della stringa di query.
+L&#39;[!UICONTROL URL attività] determina la pagina che qualifica i visitatori per l&#39;attività ed esegue il rendering delle esperienze di attività per gli utenti. Quando viene richiesto durante la creazione dell’attività, la digitazione dell’URL completo non sempre assicura che il contenuto venga distribuito sulla pagina del sito, in particolare con gli URL che contengono parametri della stringa di query.
 
-Per impostazione predefinita, [!UICONTROL Visual Experience Composer] (VEC) apre la pagina specificata nelle [impostazioni del Compositore esperienza visivo](/help/main/administrating-target/visual-experience-composer-set-up.md). È anche possibile specificare una pagina diversa durante la creazione dell’attività.
+Per impostazione predefinita, il [!UICONTROL Compositore esperienza visivo] (VEC) apre la pagina specificata nelle [impostazioni del Compositore esperienza visivo](/help/main/administrating-target/visual-experience-composer-set-up.md). È anche possibile specificare una pagina diversa durante la creazione dell’attività.
 
-Per visualizzare una pagina diversa dopo l&#39;apertura del Compositore esperienza visivo, fai clic su **[!UICONTROL Configure gear icon]** > seleziona **[!UICONTROL Page Delivery]** > quindi specifica l&#39;URL desiderato nel campo [!UICONTROL Activity URL].
+Per visualizzare una pagina diversa dopo l&#39;apertura del Compositore esperienza visivo, fai clic su **[!UICONTROL Configura icona ingranaggio]** > seleziona **[!UICONTROL Consegna pagine]** > quindi specifica l&#39;URL desiderato nel campo [!UICONTROL URL attività].
 
 ![Configurare l’interfaccia utente delle impostazioni di Consegna pagina](assets/configure-page-delivery.png)
 
@@ -197,7 +197,7 @@ In questo caso, l’URL è `https://shopping.mycart.com?type=Summers%20Offers` e
 
 ### Opzione 3: invece di eseguire il targeting dell’URL completo, sfruttane una parte specifica.
 
-In questo caso, l&#39;URL è `https://shopping.mycart.com?type=Summers%20Offers` e regole di modello aggiuntive specificano [!UICONTROL Query] con [!UICONTROL type] > [!UICONTROL is (case sensitive)] > type=Summers%20Offers, separati da un operatore OR:
+In questo caso, l&#39;URL è `https://shopping.mycart.com?type=Summers%20Offers` e regole di modello aggiuntive specificano una [!UICONTROL Query] con [!UICONTROL type] > [!UICONTROL is (distinzione maiuscole/minuscole)] > type=Summers%20Offers, separati da un operatore OR:
 
 ![Regola del modello che sfrutta una parte specifica dell’URL](assets/option3.png)
 

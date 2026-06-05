@@ -1,7 +1,7 @@
 ---
 keywords: Targeting esperienza;xt;creare
-description: Scopri come utilizzare il [!UICONTROL Visual Experience Composer] (VEC) in [!DNL Adobe Target] per creare un'attività [!UICONTROL Experience Targeting] (XT).
-title: Come si crea un'attività [!UICONTROL Experience Targeting]?
+description: Scopri come utilizzare il [!UICONTROL Compositore esperienza visivo] (VEC) in [!DNL Adobe Target] per creare un'attività [!UICONTROL Targeting esperienza] (XT).
+title: Come si crea un'attività [!UICONTROL Targeting esperienza]?
 feature: Experience Targeting
 exl-id: fc7fc37f-40bf-4947-a4d0-e51fa09b6c56
 TQID: https://experienceleague.adobe.com/RKSF7zTO3lb4hs1VaJuTUR9v8AnOlCjHkp-whqBIcKo
@@ -15,52 +15,52 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 401
-ht-degree: 33%
+source-wordcount: 443
+ht-degree: 30%
 
 ---
 
-# Crea un&#39;attività [!UICONTROL Experience Targeting] (XT)
+# Crea un&#39;attività [!UICONTROL Targeting esperienze] (XT)
 
-Utilizzare il Compositore esperienza visivo [!UICONTROL Visual Experience Composer] per creare un&#39;attività [!UICONTROL Experience Targeting] (XT) in una pagina abilitata per [!DNL Target] e modificare parti della pagina in [!DNL Adobe Target].
+Utilizza il [!UICONTROL Compositore esperienza visivo] (VEC) per creare un&#39;attività [!UICONTROL Targeting esperienza] (XT) su una pagina abilitata per [!DNL Target] e modificare parti della pagina in [!DNL Adobe Target].
 
-[!UICONTROL Experience Targeting] (XT) fornisce contenuti a un pubblico specifico in base a una serie di regole e criteri definiti dall&#39;addetto al marketing.
+[!UICONTROL La funzione Targeting esperienza] (XT) fornisce contenuti a un pubblico specifico in base a una serie di regole e criteri definiti dall&#39;addetto al marketing.
 
-[!UICONTROL Experience Targeting], incluso [il geotargeting](/help/main/c-target/c-audiences/c-target-rules/geo.md), è utile per definire regole che rivolgono un&#39;esperienza o un contenuto specifico a un determinato pubblico. È possibile definire diverse regole in un’attività per fornire diverse varianti di contenuto a tipi di pubblico diversi.
+[!UICONTROL Targeting esperienza], incluso [geotargeting](/help/main/c-target/c-audiences/c-target-rules/geo.md), è utile per definire regole che rivolgono un&#39;esperienza o un contenuto specifico a un determinato pubblico. È possibile definire diverse regole in un’attività per fornire diverse varianti di contenuto a tipi di pubblico diversi.
 
-Per ulteriori informazioni su [!UICONTROL Experience Targeting], uno scenario di utilizzo e video di formazione, vedere [Targeting esperienza](/help/main/c-activities/t-experience-target/experience-target.md).
+Per ulteriori informazioni su [!UICONTROL Targeting esperienza], uno scenario di utilizzo e video di formazione, consulta [Targeting esperienza](/help/main/c-activities/t-experience-target/experience-target.md).
 
-**Per creare un&#39;attività [!UICONTROL Experience Targeting]:**
+**Per creare un&#39;attività [!UICONTROL Targeting esperienze]:**
 
-1. Dall&#39;elenco [!UICONTROL Activities], fare clic su **[!UICONTROL Create Activity]** > **[!UICONTROL Experience Targeting]**.
+1. Dall&#39;elenco [!UICONTROL Attività], fai clic su **[!UICONTROL Crea attività]** > **[!UICONTROL Targeting esperienza]**.
 
    >[!NOTE]
    >
-   >I tipi di attività disponibili dipendono dall’account [!DNL Target]. Alcuni tipi di attività potrebbero non essere visualizzati nell’elenco. [!UICONTROL Automated Personalization] è una [funzionalità di Target Premium](/help/main/c-intro/intro.md#premium).
+   >I tipi di attività disponibili dipendono dall’account [!DNL Target]. Alcuni tipi di attività potrebbero non essere visualizzati nell’elenco. [!UICONTROL Automated Personalization] è ad esempio una [funzionalità di Target Premium](/help/main/c-intro/intro.md#premium).
    >
    >Per ulteriori informazioni sui vari tipi di attività disponibili in [!DNL Target] e sulle loro differenze, consulta [Attività](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03). Consulta [Tipi di attività di Target](/help/main/c-activities/target-activities-guide.md) per aiutarti a stabilire il tipo di attività più adatto per le tue esigenze.
 
 1. Selezionare **[!UICONTROL Visual]**, se necessario.
 
-   Se preferisci utilizzare il [Compositore esperienza basato su moduli](/help/main/c-experiences/form-experience-composer.md), seleziona [!UICONTROL Form].
+   Se preferisci utilizzare il [Compositore esperienza basato su moduli](/help/main/c-experiences/form-experience-composer.md), seleziona [!UICONTROL Modulo].
 
    >[!NOTE]
    >
-   >Oltre al Compositore esperienza visivo e a [!UICONTROL Form-Based Experience Composer], [!DNL Target] offre anche il Compositore esperienza visivo per applicazione a pagina singola. Per ulteriori informazioni sui vari moduli di composizione, consulta [Esperienze e offerte](/help/main/c-experiences/experiences.md).
+   >Oltre al Compositore esperienza visivo e al Compositore esperienza basato su moduli [!UICONTROL 1&rbrace;, [!DNL Target] offre anche il Compositore esperienza visivo per applicazione a pagina singola. &#x200B;]Per ulteriori informazioni sui vari moduli di composizione, consulta [Esperienze e offerte](/help/main/c-experiences/experiences.md).
    >
    >Per informazioni sulla risoluzione dei problemi relativi al Compositore esperienza visivo, vedere [Risoluzione dei problemi relativi al Compositore esperienza visivo](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md).
 
 1. (Condizionale) Se sei un cliente di [!DNL Target Premium], [scegli un&#39;area di lavoro](/help/main/administrating-target/c-user-management/property-channel/property-channel.md).
 
-   L&#39;opzione [!UICONTROL Choose Workplace] è una funzionalità di [Target Premium](/help/main/c-intro/intro.md). Se la tua organizzazione dispone di una licenza di [!DNL Target Standard], questa opzione non è disponibile.
+   L&#39;opzione [!UICONTROL Scegli area di lavoro] è una funzionalità di [Target Premium](/help/main/c-intro/intro.md). Se la tua organizzazione dispone di una licenza di [!DNL Target Standard], questa opzione non è disponibile.
 
-1. Specifica l&#39;[URL attività](/help/main/c-activities/t-experience-target/t-xt-create/xt-activity-url.md#concept_D28549AAA0A14E3BB5F05F32BE8ABC90), quindi fai clic su **[!UICONTROL Create]**.
+1. Specifica l&#39;[URL attività](/help/main/c-activities/t-experience-target/t-xt-create/xt-activity-url.md#concept_D28549AAA0A14E3BB5F05F32BE8ABC90), quindi fai clic su **[!UICONTROL Crea]**.
 
    Se l’account è [configurato con un URL predefinito](/help/main/administrating-target/visual-experience-composer-set-up.md), questo verrà visualizzato come impostazione predefinita. Se necessario, è possibile passare dall’URL predefinito a un altro.
 
    Viene aperto il Compositore esperienza visivo, con la pagina specificata nell’URL.
 
-1. Per assegnare un nome all&#39;attività, fare clic sull&#39;icona **[!UICONTROL Edit]** ( ![icona Modifica](/help/main/assets/icons/Edit.svg) ) accanto a &quot;[!UICONTROL Untitled Activity]&quot;, specificare un nome descrittivo per l&#39;attività e quindi fare clic su **[!UICONTROL Save]**.
+1. Per assegnare un nome all&#39;attività, fare clic sull&#39;icona **[!UICONTROL Modifica]** ( ![Icona Modifica](/help/main/assets/icons/Edit.svg) ) accanto a &quot;[!UICONTROL Attività senza titolo]&quot;, specificare un nome descrittivo per l&#39;attività, quindi fare clic su **[!UICONTROL Salva]**.
 
    Il nome dell’attività non può iniziare con uno dei seguenti caratteri:
 

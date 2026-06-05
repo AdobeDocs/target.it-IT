@@ -14,8 +14,8 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 318
-ht-degree: 27%
+source-wordcount: 336
+ht-degree: 25%
 
 ---
 
@@ -23,26 +23,26 @@ ht-degree: 27%
 
 Questo argomento contiene le risposte alle domande più frequenti sulle classificazioni e sull&#39;utilizzo di [!DNL Analytics] come origine per la generazione di rapporti per [!DNL Target] (A4T).
 
-## Dopo aver utilizzato [!UICONTROL Classifications Importer] per scaricare le classificazioni, come associo un nome di attività al valore post-tnt-action? {#section_6045DAC488B248418F430E663C38D001}
+## Dopo aver utilizzato la [!UICONTROL funzione di importazione classificazioni] per scaricare le classificazioni, come associo un nome di attività al valore post-tnt-action? {#section_6045DAC488B248418F430E663C38D001}
 
 +++Risposta
 È possibile scaricare le classificazioni per la stringa A4T/TNT dalla funzione di [importazione classificazioni](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/c-working-with-saint.html?lang=it) degli Strumenti di amministrazione. La variabile è denominata &quot;TNT&quot; nell’elenco di esportazione. I dati scaricati includono i nomi descrittivi per attività, esperienze e così via.
 
 Questo file di ricerca è utile per i clienti che ricevono il feed di dati clickstream di [!DNL Adobe]. Il file fornisce nomi descrittivi per le colonne `post_tnt` e `post_tnt_action`.
 
-Per le attività standard [!UICONTROL A/B Test] e [!UICONTROL Experience Targeting] (XT), il formato della stringa TNT è:
+Per le attività [!UICONTROL Test A/B] e [!UICONTROL Targeting esperienza] (XT) standard, il formato della stringa TNT è:
 
 ```
 activityID:experienceID:targettype|event
 ```
 
-Per le attività [!UICONTROL Auto-Allocate] e [!UICONTROL Auto-Target], il formato della stringa TNT è:
+Per le attività [!UICONTROL Allocazione automatica] e [!UICONTROL Targeting automatico], il formato della stringa TNT è:
 
 ```
 activityId:experienceId:targettype:algorithmId|event
 ```
 
-* `targettype` = `targettype` e `algorithmId` sono identificatori interni utilizzati da [!UICONTROL Auto-Allocate] e [!UICONTROL Auto-Target] attività.
+* `targettype` = `targettype` e `algorithmId` sono identificatori interni utilizzati dalle attività [!UICONTROL Allocazione automatica] e [!UICONTROL Targeting automatico].
 * Event = 0 rappresenta l’entrata di un’esperienza.
 * Event = 1 rappresenta una visita all’esperienza.
 * Event = 2 rappresenta l’impression di un’attività.

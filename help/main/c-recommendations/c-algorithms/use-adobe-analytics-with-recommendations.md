@@ -16,7 +16,7 @@ topic_v2:
   - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 778
+source-wordcount: 804
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ L&#39;utilizzo di [!DNL Adobe Analytics] come origine dei dati comportamentali c
 
 L&#39;utilizzo di [!DNL Analytics] come origine dei dati comportamentali può rappresentare una fonte completa di informazioni sul comportamento degli utenti. Queste informazioni potrebbero includere dati provenienti da un&#39;origine o un feed di terze parti condiviso solo con [!DNL Analytics].
 
-Durante la creazione di [criteri](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md) in [!DNL Recommendations], sono disponibili due pulsanti di scelta che consentono di scegliere l&#39;origine dati da utilizzare: [!UICONTROL mboxes] o [!UICONTROL Analytics]. Per creare un criterio, fare clic su [!UICONTROL Recommendations] > [!UICONTROL Criteria] > [!UICONTROL Create Criteria] > [!UICONTROL Create Criteria]. Per ulteriori informazioni, vedere [Creare i criteri](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md).
+Durante la [creazione dei criteri](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md) in [!DNL Recommendations], sono disponibili due pulsanti di scelta che consentono di scegliere l&#39;origine dati da utilizzare: [!UICONTROL mbox] o [!UICONTROL Analytics]. Per creare un criterio, fai clic su [!UICONTROL Consigli] > [!UICONTROL Criteri] > [!UICONTROL Crea criterio] > [!UICONTROL Crea criterio]. Per ulteriori informazioni, vedere [Creare i criteri](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md).
 
 >[!NOTE]
 >
@@ -68,24 +68,24 @@ Ora è il momento di mappare queste variabili sul lato [!DNL Target] per la forn
 
 ## Implementare in [!DNL Target]
 
-1. In [!DNL Target], fare clic su **[!UICONTROL Recommendations]**, quindi sulla scheda **[!UICONTROL Feeds]**.
+1. In [!DNL Target], fai clic su **[!UICONTROL Consigli]**, quindi fai clic sulla scheda **[!UICONTROL Feed]**.
 
-1. Fare clic su **[!UICONTROL Create Feed]**.
+1. Fare clic su **[!UICONTROL Crea feed]**.
 
-1. Seleziona **[!UICONTROL Analytics Classifications]**, quindi specifica la suite di rapporti.
+1. Seleziona **[!UICONTROL Classificazioni Analytics]**, quindi specifica la suite di rapporti.
 
-1. Fare clic su **[!UICONTROL Next]** per passare alle impostazioni di **[!UICONTROL Schedule]** e selezionare un periodo di frequenza per il feed:
+1. Fai clic su **[!UICONTROL Avanti]** per passare alle impostazioni **[!UICONTROL Pianifica]**, quindi seleziona un periodo di frequenza per il feed:
 
-   * [!UICONTROL Daily]
-   * [!UICONTROL Weekly]
-   * [!UICONTROL Every 2 weeks]
-   * [!UICONTROL Never]
+   * [!UICONTROL Giornaliero]
+   * [!UICONTROL Settimanale]
+   * [!UICONTROL Ogni 2 settimane]
+   * [!UICONTROL Mai]
 
    Puoi anche selezionare l’ora del giorno in cui il feed deve essere elaborato.
 
-1. Fai clic su **[!UICONTROL Next]** per passare alle impostazioni di **[!UICONTROL Mapping]**, quindi mappa le intestazioni delle colonne di campo ai nomi di campo [!UICONTROL Recommendations] appropriati.
+1. Fai clic su **[!UICONTROL Avanti]** per passare alle impostazioni di **[!UICONTROL Mappatura]**, quindi mappa le intestazioni delle colonne di campo ai nomi di campo [!UICONTROL Consigli] appropriati.
 
-1. Fare clic su **[!UICONTROL Save]**.
+1. Fai clic su **[!UICONTROL Salva]**.
 
 ## Domande frequenti
 

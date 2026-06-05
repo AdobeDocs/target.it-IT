@@ -1,5 +1,5 @@
 ---
-title: Applicazioni mobili
+title: App mobili
 description: Scopri come integrare i flag in un’app mobile utilizzando il SDK per dispositivi mobili.
 hide: true
 exl-id: 27a43994-25e7-4a2c-b01c-ae98d089413d

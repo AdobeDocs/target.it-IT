@@ -6,8 +6,8 @@ feature: A/B Tests
 exl-id: 281ae227-c593-4b71-ad12-865430b332be
 source-git-commit: eb7e892a85fa3952ffc22172085d421756d0dfb5
 workflow-type: tm+mt
-source-wordcount: '425'
-ht-degree: 62%
+source-wordcount: '436'
+ht-degree: 66%
 
 ---
 
@@ -19,11 +19,11 @@ Il pubblico determina quali visitatori del sito vengono inseriti nell&#39;attivi
 >
 >Oltre a selezionare un pubblico esistente, puoi combinare più tipi di pubblico per creare un pubblico combinato ad hoc anziché crearne uno nuovo. Per ulteriori informazioni, consulta [Combinazione di più tipi di pubblico](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5).
 
-1. Nella casella [!UICONTROL Audience], fai clic sull&#39;icona **[!UICONTROL Edit]** (puntini di sospensione verticali), quindi fai clic su **[!UICONTROL Replace Audience]**.
+1. Nella casella [!UICONTROL Pubblico], fai clic sull&#39;icona **[!UICONTROL Modifica]** (puntini di sospensione verticali), quindi fai clic su **[!UICONTROL Sostituisci pubblico]**.
 
    ![Opzione Sostituisci pubblico](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/replace-audience.png)
 
-   Per impostazione predefinita, il pubblico è composto da tutti i visitatori. Tuttavia, è possibile modificarlo. I tipi di pubblico vengono selezionati dalla libreria del pubblico oppure è possibile creare un pubblico per una sola attività. La libreria del pubblico contiene tipi di pubblico definiti in precedenza, inclusi alcuni di utilizzo comune già integrati in [!DNL Target].
+   Per impostazione predefinita, il pubblico è composto da tutti i visitatori. Tuttavia, è possibile modificarlo. I tipi di pubblico vengono selezionati dalla libreria del pubblico oppure è possibile creare un pubblico per una sola attività. La libreria del pubblico include tipi di pubblico definiti in precedenza, inclusi alcuni di utilizzo comune già integrati in [!DNL Target].
 
 1. Seleziona o crea il pubblico desiderato:
 
@@ -32,15 +32,15 @@ Il pubblico determina quali visitatori del sito vengono inseriti nell&#39;attivi
    * [Creare un nuovo pubblico](/help/main/c-target/c-audiences/create-audience.md#task_1D507519D3AD4390B507F188BD294DC1)
    * [Crea un pubblico per sola attività](/help/main/c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483).
 
-   Per un test A/B senza targeting di pubblico specifico, scegli il valore predefinito, [!UICONTROL All Visitors].
+   Per un test A/B senza targeting di pubblico specifico, scegli il valore predefinito, [!UICONTROL Tutti i visitatori].
 
-   È inoltre possibile modificare o copiare un pubblico passando il cursore sopra il pubblico desiderato nella finestra di dialogo [!UICONTROL Add Audience], come illustrato di seguito.
+   Puoi anche modificare o copiare un pubblico passando il cursore sopra il pubblico desiderato nella finestra di dialogo [!UICONTROL Aggiungi pubblico], come illustrato di seguito.
 
    È utile copiare un pubblico per crearne uno simile a un pubblico esistente. Puoi effettuare una copia del pubblico, apportarvi le modifiche desiderate, e quindi salvarlo come un nuovo pubblico. Questa funzionalità esiste anche in altri tipi di attività.
 
    ![Pubblico al passaggio del mouse](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/audience_picker_hover-new.png)
 
-   Durante la creazione di un pubblico, puoi selezionare una posizione (mbox) e specificarne i parametri. In [!UICONTROL Custom Parameters], seleziona la mbox, quindi specifica i parametri desiderati.
+   Durante la creazione di un pubblico, puoi selezionare una posizione (mbox) e specificarne i parametri. In [!UICONTROL Parametri personalizzati], seleziona la mbox, quindi specifica i parametri desiderati.
 
    >[!NOTE]
    >

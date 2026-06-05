@@ -15,14 +15,14 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 244
-ht-degree: 67%
+source-wordcount: 250
+ht-degree: 66%
 
 ---
 
 # Risoluzione dei problemi relativi al Compositore esperienza visivo e Compositore esperienza avanzato
 
-In determinate condizioni si verificano a volte problemi di visualizzazione in [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC) e [!UICONTROL Enhanced Experience Composer] (EEC).
+In determinate condizioni, in [!DNL Adobe Target] [!UICONTROL Compositore esperienza visivo] e Compositore esperienza avanzato [!UICONTROL si verificano problemi di visualizzazione.]
 
 Il Compositore esperienza visivo è una delle funzionalità principali di [!DNL Adobe Target]. Il Compositore esperienza visivo è un editor che consente agli addetti al marketing e ai designer di creare e modificare il contenuto mediante un’interfaccia visiva, che permette di operare molte scelte di progettazione senza dover intervenire direttamente sul codice. Il compositore offre anche opzioni per modificare il codice HTML e JavaScript.
 

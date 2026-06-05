@@ -14,8 +14,8 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 822
-ht-degree: 20%
+source-wordcount: 929
+ht-degree: 18%
 
 ---
 
@@ -23,76 +23,76 @@ ht-degree: 20%
 
 Puoi eseguire il targeting dei visitatori utilizzando [!DNL Adobe Target] che accedono a una pagina specifica del tuo sito.
 
-1. Nell&#39;interfaccia [!DNL Target], fare clic su **[!UICONTROL Audiences]** > **[!UICONTROL Create Audience]**.
+1. Nell&#39;interfaccia [!DNL Target], fare clic su **[!UICONTROL Tipi di pubblico]** > **[!UICONTROL Crea pubblico]**.
 1. Assegna un nome al pubblico e aggiungi una descrizione facoltativa.
-1. Trascina **[!UICONTROL Site Pages]** nel riquadro Generatore di pubblico.
+1. Trascina e rilascia **[!UICONTROL Pagine del sito]** nel riquadro generatore di pubblico.
 
    ![Pubblico per pagine del sito](assets/target_site_pages.png)
 
-1. Fai clic sull&#39;elenco a discesa **[!UICONTROL Select]**, seleziona una delle seguenti opzioni, quindi configura la regola come desiderato.
+1. Fai clic sull&#39;elenco a discesa **[!UICONTROL Seleziona]**, seleziona una delle seguenti opzioni, quindi configura la regola come desiderato.
 
-   Le opzioni e i valutatori disponibili nei successivi elenchi a discesa nella regola variano a seconda dell’opzione scelta. Nella figura seguente sono illustrate le opzioni disponibili se si sceglie [!UICONTROL Current Page]:
+   Le opzioni e i valutatori disponibili nei successivi elenchi a discesa nella regola variano a seconda dell’opzione scelta. Nella figura seguente sono illustrate le opzioni disponibili se si sceglie [!UICONTROL Pagina corrente]:
 
    ![Pagina corrente](assets/current-page.png)
 
-   Le opzioni seguenti sono disponibili nell&#39;elenco a discesa iniziale quando si sceglie [!UICONTROL Select].
+   Le seguenti opzioni sono disponibili nell&#39;elenco a discesa iniziale quando si sceglie [!UICONTROL Seleziona].
 
-   * **[!UICONTROL Current Page]:** Pagina visualizzata dall&#39;utente.
-
-     Se si sceglie questa opzione, nel secondo elenco a discesa sono disponibili le seguenti opzioni:
-
-      * [!UICONTROL URL] (Per ulteriori informazioni sulla valutazione degli URL da parte di [!DNL Target], vedere [Domande frequenti su destinazioni e pubblico](/help/main/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md).)
-      * [!UICONTROL Domain]
-      * [!UICONTROL Query]
-      * [!UICONTROL Subdomain]
-      * [!UICONTROL Top-Level Domain]
-      * [!UICONTROL Path]
-      * [!UICONTROL Hash (#) fragment]
-
-   * **[!UICONTROL Previous Page]:** Pagina visualizzata dall&#39;utente prima di fare clic sulla pagina corrente. Per tenere traccia della pagina, l’utente deve fare clic sulla pagina precedente per passare alla pagina corrente. La pagina precedente non viene tracciata se l’utente digita un nuovo URL nel browser. Il contenuto effettivo di questa pagina dipende dalla progettazione del sito. Ad esempio, se nella pagina corrente sono visualizzate informazioni su un prodotto specifico, la pagina precedente potrebbe essere una pagina categoria in cui il visitatore seleziona l’elemento specifico. Ad esempio, una pagina che mostra diverse fotocamere di un certo tipo, oppure potrebbe essere la home page che porta alla pagina finale.
+   * **[!UICONTROL Pagina corrente]:** Pagina visualizzata dall&#39;utente.
 
      Se si sceglie questa opzione, nel secondo elenco a discesa sono disponibili le seguenti opzioni:
 
-      * [!UICONTROL URL] (Per ulteriori informazioni su come Target valuta gli URL, consulta [Domande frequenti su destinazioni e pubblico](/help/main/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md).)
-      * [!UICONTROL Domain]
+      * [!UICONTROL URL] (per ulteriori informazioni su come [!DNL Target] valuta gli URL, consulta [Domande frequenti su destinazioni e pubblico](/help/main/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md).)
+      * [!UICONTROL Dominio]
       * [!UICONTROL Query]
-      * [!UICONTROL Subdomain]
-      * [!UICONTROL Top-Level Domain]
-      * [!UICONTROL Path]
+      * [!UICONTROL Sottodominio]
+      * [!UICONTROL Dominio di primo livello]
+      * [!UICONTROL Percorso]
+      * [!UICONTROL Frammento hash (#)]
 
-   * **[!UICONTROL Landing Page]:** La pagina di destinazione è la prima che il visitatore vede quando accede al tuo sito. Ad esempio, se il visitatore fa clic su un collegamento su Google che porta a una pagina di categoria, la pagina di categoria è la pagina di destinazione. Se il collegamento rimanda alla pagina principale, quest’ultima corrisponde alla pagina di destinazione. La pagina di destinazione viene memorizzata per la sessione del visitatore. Puoi eseguire un targeting più approfondito nel sito in base alla pagina di destinazione del visitatore nella sessione.
+   * **[!UICONTROL Pagina precedente]:** Pagina visualizzata dall&#39;utente prima di fare clic sulla pagina corrente. Per tenere traccia della pagina, l’utente deve fare clic sulla pagina precedente per passare alla pagina corrente. La pagina precedente non viene tracciata se l’utente digita un nuovo URL nel browser. Il contenuto effettivo di questa pagina dipende dalla progettazione del sito. Ad esempio, se nella pagina corrente sono visualizzate informazioni su un prodotto specifico, la pagina precedente potrebbe essere una pagina categoria in cui il visitatore seleziona l’elemento specifico. Ad esempio, una pagina che mostra diverse fotocamere di un certo tipo, oppure potrebbe essere la home page che porta alla pagina finale.
 
      Se si sceglie questa opzione, nel secondo elenco a discesa sono disponibili le seguenti opzioni:
 
-      * [!UICONTROL URL] (Per ulteriori informazioni su come Target valuta gli URL, consulta [Domande frequenti su destinazioni e pubblico](/help/main/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md).)
-      * [!UICONTROL Domain]
+      * [!UICONTROL URL] (per ulteriori informazioni su come Target valuta gli URL, consulta [Domande frequenti su destinazioni e pubblico](/help/main/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md).)
+      * [!UICONTROL Dominio]
       * [!UICONTROL Query]
-      * [!UICONTROL Subdomain]
-      * [!UICONTROL Top-Level Domain]
-      * [!UICONTROL Path]
-      * [!UICONTROL Hash (#) fragment]
+      * [!UICONTROL Sottodominio]
+      * [!UICONTROL Dominio di primo livello]
+      * [!UICONTROL Percorso]
+
+   * **[!UICONTROL Pagina di destinazione]:** La pagina di destinazione è la prima che il visitatore vede quando accede al tuo sito. Ad esempio, se il visitatore fa clic su un collegamento su Google che porta a una pagina di categoria, la pagina di categoria è la pagina di destinazione. Se il collegamento rimanda alla pagina principale, quest’ultima corrisponde alla pagina di destinazione. La pagina di destinazione viene memorizzata per la sessione del visitatore. Puoi eseguire un targeting più approfondito nel sito in base alla pagina di destinazione del visitatore nella sessione.
+
+     Se si sceglie questa opzione, nel secondo elenco a discesa sono disponibili le seguenti opzioni:
+
+      * [!UICONTROL URL] (per ulteriori informazioni su come Target valuta gli URL, consulta [Domande frequenti su destinazioni e pubblico](/help/main/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md).)
+      * [!UICONTROL Dominio]
+      * [!UICONTROL Query]
+      * [!UICONTROL Sottodominio]
+      * [!UICONTROL Dominio di primo livello]
+      * [!UICONTROL Percorso]
+      * [!UICONTROL Frammento hash (#)]
 
      >[!NOTE]
      >
      >L’oggetto `landing.url` viene reimpostato in caso di modifica del sottodominio o di sostituzione diretta dell’URL.
 
-   * **[!UICONTROL HTTP Header]:** Questa opzione valuta le informazioni nell&#39;intestazione HTTP della richiesta [!DNL Target]. Ad esempio, se l&#39;intestazione HTTP contiene informazioni sulla lingua, puoi creare una regola contenente la condizione `Accept-Language: es` per eseguire il targeting dei visitatori che accedono alla pagina in spagnolo.
+   * **[!UICONTROL Intestazione HTTP]:** Questa opzione valuta le informazioni nell&#39;intestazione HTTP della richiesta [!DNL Target]. Ad esempio, se l&#39;intestazione HTTP contiene informazioni sulla lingua, puoi creare una regola contenente la condizione `Accept-Language: es` per eseguire il targeting dei visitatori che accedono alla pagina in spagnolo.
 
      Se si sceglie questa opzione, nel secondo elenco a discesa sono disponibili le seguenti opzioni:
 
-      * [!UICONTROL Accept]
+      * [!UICONTROL Accetta]
       * [!UICONTROL Accept-Charset]
-      * [!UICONTROL Accept-Encoding]
-      * [!UICONTROL Accept-Language]
-      * [!UICONTROL Authorization]
-      * [!UICONTROL Cache-Control]
-      * [!UICONTROL Connection]
-      * [!UICONTROL Content-Length]
+      * [!UICONTROL Accetta-Codifica]
+      * [!UICONTROL Accetta-Lingua]
+      * [!UICONTROL Autorizzazione]
+      * [!UICONTROL Controllo cache]
+      * [!UICONTROL Connessione]
+      * [!UICONTROL Lunghezza-Contenuto]
       * [!UICONTROL Content-MDS]
-      * [!UICONTROL Content-Type]
+      * [!UICONTROL Tipo di contenuto]
       * [!UICONTROL Date]
-      * [!UICONTROL Expect]
-      * [!UICONTROL From]
+      * [!UICONTROL Previsto]
+      * [!UICONTROL Da]
       * [!UICONTROL Host]
       * [!UICONTROL If-Match]
       * [!UICONTROL If-Modified-Since]
@@ -101,16 +101,16 @@ Puoi eseguire il targeting dei visitatori utilizzando [!DNL Adobe Target] che ac
       * [!UICONTROL If-Unmodified-Since]
       * [!UICONTROL Max-Forwards]
       * [!UICONTROL Pragma]
-      * [!UICONTROL Proxy-Authorization]
-      * [!UICONTROL Range]
+      * [!UICONTROL Autorizzazione-Proxy]
+      * [!UICONTROL Intervallo]
       * [!UICONTROL Referrer]
       * [!UICONTROL TE]
-      * [!UICONTROL Upgrade]
-      * [!UICONTROL User-Agent]
+      * [!UICONTROL Aggiorna]
+      * [!UICONTROL Agente utente]
       * [!UICONTROL Via]
-      * [!UICONTROL Warning]
+      * [!UICONTROL Avviso]
 
-   Se si sceglie [!UICONTROL Current Page], [!UICONTROL Previous Page] o [!UICONTROL Landing Page], sono disponibili le opzioni [!UICONTROL Domain] e [!UICONTROL Query]. Quando si selezionano queste opzioni, tenere presente quanto segue:
+   Se hai scelto [!UICONTROL Pagina corrente], [!UICONTROL Pagina precedente] o [!UICONTROL Pagina di destinazione], le opzioni [!UICONTROL Dominio] e [!UICONTROL Query] sono disponibili. Quando si selezionano queste opzioni, tenere presente quanto segue:
 
    * **Dominio:** il dominio completo della pagina. Nella specificazione di un dominio, è consigliabile utilizzare “contiene”, Ad esempio, &quot;Dominio è uguale a facebook.com&quot; non accetta `m.facebook.com` o `www.facebook.com`. &quot;Il dominio contiene facebook.com&quot; accetta qualsiasi variante di facebook.com.
    * **Query:** il contenuto dell&#39;URL dopo il primo punto interrogativo (?).
@@ -118,13 +118,13 @@ Puoi eseguire il targeting dei visitatori utilizzando [!DNL Adobe Target] che ac
      `foo.html?e0a72cb2a2c7`
 
 1. (Facoltativo) Imposta regole aggiuntive per il pubblico.
-1. Fare clic su **[!UICONTROL Done]**.
+1. Fai clic su **[!UICONTROL Fine]**.
 
 Puoi anche creare un pubblico per le pagine del sito utilizzando un “parametro di query definito dall’utente” o una “intestazione definita dall’utente”.
 
 Utilizza:
 
-* Parametro di query se la regola selezionata dall&#39;utente è [!UICONTROL Current Page], [!UICONTROL Landing Page] o [!UICONTROL Previous Page]
+* Parametro di query se la regola selezionata dall&#39;utente è [!UICONTROL Pagina corrente], [!UICONTROL Pagina di destinazione] o [!UICONTROL Pagina precedente]
 * Intestazione se la regola selezionata dall’utente è un’intestazione HTTP
 
 ## Risoluzione dei problemi relativi al {#ts}

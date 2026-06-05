@@ -24,7 +24,7 @@ ht-degree: 13%
 
 [!DNL Adobe Experience Cloud audiences] consente alle applicazioni [!DNL Experience Cloud] di comunicare e condividere informazioni sui visitatori del sito Web, in modo che gli stessi dati possano essere utilizzati da ogni applicazione.
 
-Scopri i tipi di pubblico di [Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=it) (Libreria tipi di pubblico) nella *Guida all&#39;amministrazione e all&#39;interfaccia di Experience Cloud*.
+Scopri di più sui [tipi di pubblico di Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=it) (libreria Pubblico) nella *Guida all&#39;amministrazione e all&#39;interfaccia di Experience Cloud*.
 
 ## Video: Integrare [!DNL Target] con [!DNL Experience Cloud Audiences] (10:48)
 

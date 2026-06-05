@@ -12,8 +12,8 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 1361
-ht-degree: 94%
+source-wordcount: 1379
+ht-degree: 93%
 
 ---
 
@@ -103,14 +103,14 @@ Se il sito non è reattivo, puoi comunque utilizzare il compositore web per disp
 
 Configura i riquadri di visualizzazione mobili che desideri rendere disponibili quando crei le tue esperienze.
 
-1. Fare clic su **[!UICONTROL Administration]** > **[!UICONTROL Visual Experience Composer]**.
-1. Nella sezione **[!UICONTROL Mobile viewports configuration]**, fare clic su **[!UICONTROL Add]**.
+1. Fai clic su **[!UICONTROL Amministrazione]** > **[!UICONTROL Compositore esperienza visivo]**.
+1. Nella sezione **[!UICONTROL Configurazione riquadri di visualizzazione mobili]**, fai clic su **[!UICONTROL Aggiungi]**.
 
    ![Aggiunta di un riquadro di visualizzazione](/help/main/c-experiences/c-visual-experience-composer/assets/viewpoert_add.png)
 
    Oppure
 
-   Per modificare la configurazione di un riquadro di visualizzazione mobile esistente, selezionare tale riquadro, quindi fare clic sull&#39;icona [!UICONTROL Edit] (matita).
+   Per modificare la configurazione di un riquadro di visualizzazione mobile esistente, selezionare tale riquadro, quindi fare clic sull&#39;icona [!UICONTROL Modifica] (matita).
 
 1. Inserisci un nome per il riquadro di visualizzazione mobile.
 
@@ -132,7 +132,7 @@ Configura i riquadri di visualizzazione mobili che desideri rendere disponibili 
 
    Se utilizzi il [Compositore esperienza avanzato](/help/main/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) e scegli un sistema operativo, [!DNL Target] emulerà tale dispositivo quando visualizzerai la pagina. Ad esempio, se il sito reattivo si presenta in modo diverso su Android e iOS, [!DNL Target] imita quel comportamento.
 
-1. Fare clic su **[!UICONTROL Save]**.
+1. Fai clic su **[!UICONTROL Salva]**.
 
 >[!NOTE]
 >
@@ -143,11 +143,11 @@ Configura i riquadri di visualizzazione mobili che desideri rendere disponibili 
 Aggiungi i riquadri di visualizzazione mobili alle attività di [!DNL Target] per creare esperienze reattive per gli schermi dei cellulari.
 
 1. Crea l’[attività desiderata](/help/main/c-activities/activities.md).
-1. Nel [!UICONTROL Visual Experience Composer] (VEC), fai clic sull&#39;icona a forma di ingranaggio **[!UICONTROL Settings]**, quindi seleziona **[!UICONTROL Add Mobile Viewports]**.
+1. Nel [!UICONTROL Compositore esperienza visivo] (VEC), fai clic sull&#39;icona a forma di ingranaggio **[!UICONTROL Impostazioni]**, quindi seleziona **[!UICONTROL Aggiungi riquadri di visualizzazione mobili]**.
 
    ![Opzione Aggiungi riquadri di visualizzazione mobili](/help/main/c-experiences/c-visual-experience-composer/assets/add-mobile-viewports.png)
 
-1. Fai clic sull&#39;icona **[!UICONTROL Devices]**, quindi attiva tutti i dispositivi che devono avere un riquadro di visualizzazione per dispositivi mobili.
+1. Fai clic sull&#39;icona **[!UICONTROL Dispositivi]**, quindi attiva tutti i dispositivi che devono avere un riquadro di visualizzazione per dispositivi mobili.
 
    ![Abilitazione di riquadri di visualizzazione mobili](/help/main/c-experiences/c-visual-experience-composer/assets/mobileviewports.png)
 

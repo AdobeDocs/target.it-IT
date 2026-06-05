@@ -14,8 +14,8 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 396
-ht-degree: 32%
+source-wordcount: 406
+ht-degree: 40%
 
 ---
 
@@ -23,13 +23,13 @@ ht-degree: 32%
 
 Scegliere una metrica di successo che qualifichi l&#39;utente per il pubblico di reportistica in [!DNL Adobe Target].
 
-Per tutte le attività, l&#39;elenco a discesa [!UICONTROL Applied At] consente di applicare un pubblico a una metrica di successo in modo da poter visualizzare i numeri di reporting dopo che la metrica è stata raggiunta e per le azioni successive.
+Per tutte le attività, l’elenco a discesa [!UICONTROL Applicato a] consente di applicare un pubblico a una metrica di successo in modo da poter visualizzare i numeri per i rapporti una volta conseguita tale metrica e per le azioni successive.
 
 ![immagine di successo](assets/success_metric.png)
 
 Ad esempio, supponi di aver creato un’attività per tutti i visitatori che accedono all’attività dalla pagina principale e arrivano alla pagina di conversione; inoltre, desideri approfondire l’analisi per i visitatori che hanno aggiunto al carrello articoli per un valore superiore ai 50 $ prima della conversione.
 
-L&#39;elenco a discesa [!UICONTROL Applied At] fornisce potenzialmente tre categorie:
+L&#39;elenco a discesa [!UICONTROL Applicato alle] fornisce potenzialmente tre categorie:
 
 * Qualsiasi visitatore dell’attività
 * Solo i visitatori che raggiungono un determinato passaggio nell’attività
@@ -39,7 +39,7 @@ Oppure, per formularlo in altro modo, è possibile specificare che un visitatore
 
 >[!NOTE]
 >
->[Le metriche di successo](/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924) sono disponibili solo se sono state configurate per l’attività. Se non sono state definite metriche di successo, verranno visualizzate solo due opzioni dall&#39;elenco a discesa: [!UICONTROL Campaign Entry] e [!UICONTROL Conversion].
+>[Le metriche di successo](/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924) sono disponibili solo se sono state configurate per l’attività. Se non hai definito le metriche di successo, visualizzerai solo due opzioni dall&#39;elenco a discesa: [!UICONTROL Voce campagna] e [!UICONTROL Conversione].
 
 
 ## Considerazioni
@@ -48,11 +48,11 @@ Considera le seguenti informazioni quando applichi un pubblico per la reportisti
 
 * Solo le metriche di successo che iniziano da quella a cui viene applicato il pubblico mostreranno i dati di reporting segmentati dal pubblico
 * Le metriche di successo che precedono quelle a cui è applicato il pubblico non verranno segmentate dal pubblico e mostreranno tutti i dati dei visitatori
-* Le metriche vengono considerate in base al loro ordine nella definizione dell&#39;attività, con [!UICONTROL Primary Goal] come ultimo.
+* Le metriche vengono considerate in base al loro ordine nella definizione dell&#39;attività, con l&#39;[!UICONTROL Obiettivo primario] che è l&#39;ultimo.
 
 ## Visualizzare la segmentazione nel reporting
 
-Per visualizzare la segmentazione nel reporting, seleziona il pubblico desiderato dall&#39;elenco a discesa [!UICONTROL Audience] nel rapporto dell&#39;attività.
+Per visualizzare la segmentazione nel reporting, seleziona il pubblico desiderato dall&#39;elenco a discesa [!UICONTROL Pubblico] nel rapporto dell&#39;attività.
 
 ![immagine a discesa reporting_audience](assets/reporting_audience_dropdown.png)
 

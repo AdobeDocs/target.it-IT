@@ -20,8 +20,8 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 181
-ht-degree: 30%
+source-wordcount: 184
+ht-degree: 29%
 
 ---
 
@@ -35,6 +35,6 @@ Per ulteriori informazioni, vedere i vari argomenti in [Implementare Target](/he
 >
 >I tag in [!DNL Adobe Experience Platform] sono il metodo preferito per implementare [!DNL Target]. I tag in [!DNL Adobe Experience Platform] rappresentano la nuova generazione di funzionalità [!DNL Adobe] per la gestione dei tag. I tag offrono ai clienti un modo semplice di implementare e gestire i tag di analisi, marketing e annunci pubblicitari necessari per fornire ai clienti esperienze personalizzate. Per ulteriori informazioni, vedere [Implementare [!DNL Target] utilizzando [!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch.html?lang=it){target=_blank}.
 
-1. Per accedere alla pagina [!UICONTROL Implementation], fare clic su **[!UICONTROL Administration]** > **[!UICONTROL Implementation]**.
+1. Per accedere alla pagina [!UICONTROL Implementazione], fare clic su **[!UICONTROL Amministrazione]** > **[!UICONTROL Implementazione]**.
 
 1. Per informazioni applicabili alle impostazioni di questa pagina, consulta [Implementare Target senza un sistema per la gestione dei tag](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-without-a-tag-manager.html){target=_blank}.

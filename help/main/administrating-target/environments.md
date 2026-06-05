@@ -21,7 +21,7 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 658
+source-wordcount: 709
 ht-degree: 46%
 
 ---
@@ -30,35 +30,35 @@ ht-degree: 46%
 
 Organizza siti e ambienti di preproduzione per gestirli facilmente e per generare rapporti separati.
 
-Per facilitare la gestione, gli host sono raccolti in ambienti. Ad esempio, si potrebbero avere decine di host raggruppati in due o tre ambienti. Gli ambienti predefiniti includono [!UICONTROL Production], [!UICONTROL Staging] e [!UICONTROL Development]. È anche possibile aggiungere nuovi ambienti e rinominare gli ambienti.
+Per facilitare la gestione, gli host sono raccolti in ambienti. Ad esempio, si potrebbero avere decine di host raggruppati in due o tre ambienti. Gli ambienti predefiniti includono [!UICONTROL Produzione], [!UICONTROL Gestione temporanea] e [!UICONTROL Sviluppo]. È anche possibile aggiungere nuovi ambienti e rinominare gli ambienti.
 
-Un ambiente, quello predefinito, è denominato [!UICONTROL Production]. Questo ambiente predefinito non può essere eliminato, anche se lo si rinomina. [!DNL Target] presuppone che è qui che verranno eseguiti attività e test finali e approvati.
+Un ambiente, quello predefinito, è denominato [!UICONTROL Produzione]. Questo ambiente predefinito non può essere eliminato, anche se lo si rinomina. [!DNL Target] presuppone che è qui che verranno eseguiti attività e test finali e approvati.
 
-Quando si riceve una richiesta [!DNL Target] da nuovi siti Web o domini, questi nuovi domini vengono sempre visualizzati nell&#39;ambiente [!UICONTROL Production]. Impossibile modificare le impostazioni dell&#39;ambiente [!UICONTROL Production]. Per i siti sconosciuti o nuovi viene garantita la visualizzazione solo del contenuto attivo e pronto. La gestione degli host consente inoltre di garantire facilmente la qualità di nuove attività e contenuti nei test, nella gestione temporanea (staging) e negli ambienti di sviluppo prima di attivare le attività.
+Quando si riceve una richiesta [!DNL Target] da nuovi siti Web o domini, questi nuovi domini vengono sempre visualizzati nell&#39;ambiente [!UICONTROL Produzione]. L&#39;ambiente [!UICONTROL Produzione] non può avere le impostazioni modificate, pertanto i siti sconosciuti o nuovi sono certi di visualizzare solo il contenuto attivo e pronto. La gestione degli host consente inoltre di garantire facilmente la qualità di nuove attività e contenuti nei test, nella gestione temporanea (staging) e negli ambienti di sviluppo prima di attivare le attività.
 
 {{permissions-update}}
 
-Per gestire gli ambienti, fare clic su **[!UICONTROL Administration]** > **[!UICONTROL Environments]**.
+Per gestire gli ambienti, fare clic su **[!UICONTROL Amministrazione]** > **[!UICONTROL Ambienti]**.
 
 ## Aggiungere un ambiente {#section_32097D0993724DF3A202D164D3F18674}
 
-1. Dall&#39;elenco [!UICONTROL Environments], fare clic su **[!UICONTROL Add Environment]**.
+1. Nell&#39;elenco [!UICONTROL Ambienti] fare clic su **[!UICONTROL Aggiungi ambiente]**.
 1. Specifica un nome descrittivo per l’ambiente.
-1. Specificare la modalità attiva desiderata per l&#39;ambiente: [!UICONTROL Active Activities] o [!UICONTROL Active and Inactive Activities].
+1. Specifica la modalità attiva desiderata per l’ambiente: [!UICONTROL Attività attive] o [!UICONTROL Attività attive e inattive].
 
-   Se si specifica [!UICONTROL Active and Inactive Activities], gli host di questo ambiente visualizzano anche le attività inattive.
+   Se si specifica [!UICONTROL Attività attive e inattive], gli host di questo ambiente visualizzano anche le attività inattive.
 
-1. Fare clic su **[!UICONTROL Save]**.
+1. Fai clic su **[!UICONTROL Salva]**.
 
 ## Impostare l’ambiente predefinito per il reporting {#section_4F8539B07C0C45E886E8525C344D5FB0}
 
 È possibile selezionare l’ambiente che si desidera utilizzare come impostazione predefinita per tutti i rapporti di attività.
 
-Se utilizzi [!UICONTROL Production] come impostazione predefinita, tutti gli host sconosciuti vengono aggiunti automaticamente qui e i dati del rapporto da essi provenienti vengono inclusi nella visualizzazione del rapporto predefinita. Invece, la creazione di un ambiente “pulito” assicura che siano inclusi solo i siti e domini principali.
+Se utilizzi [!UICONTROL Produzione] come impostazione predefinita, tutti gli host sconosciuti vengono aggiunti automaticamente qui e i dati del report da essi provenienti vengono inclusi nella visualizzazione del report predefinita. Invece, la creazione di un ambiente “pulito” assicura che siano inclusi solo i siti e domini principali.
 
 Per impostare l’ambiente predefinito per la segnalazione:
 
-1. Nell&#39;elenco [!UICONTROL Environments] fare clic sull&#39;icona Stella
+1. Nell&#39;elenco [!UICONTROL Ambienti] fare clic sull&#39;icona a forma di stella
 
 >[!NOTE]
 >
@@ -68,20 +68,20 @@ Per impostare l’ambiente predefinito per la segnalazione:
 
 ## Modificare il nome di un ambiente {#section_9F5F94285F8E495E9CE69810CE94CA08}
 
-1. Nell&#39;elenco [!UICONTROL Environment] fare clic sull&#39;icona **[!UICONTROL Edit]**.
+1. Nell&#39;elenco [!UICONTROL Ambiente] fare clic sull&#39;icona **[!UICONTROL Modifica]**.
 1. Modifica il nome dell’ambiente.
-1. Fare clic su **[!UICONTROL Save]**.
+1. Fai clic su **[!UICONTROL Salva]**.
 
 ## Eliminare un ambiente {#section_737F8869612047868D03FC755B1223D3}
 
 Quando un ambiente non è più necessario, è possibile eliminarlo.
 
-1. Nell&#39;elenco [!UICONTROL Environment] fare clic sull&#39;icona **[!UICONTROL Delete]**.
-1. Fare clic su **[!UICONTROL Delete]** per confermare l&#39;eliminazione.
+1. Nell&#39;elenco [!UICONTROL Ambiente] fare clic sull&#39;icona **[!UICONTROL Elimina]**.
+1. Fai clic su **[!UICONTROL Elimina]** per confermare l’eliminazione.
 
 >[!NOTE]
 >
->Non è possibile eliminare l&#39;ambiente [!UICONTROL Production], ma è possibile rinominarlo.
+>Non è possibile eliminare l&#39;ambiente [!UICONTROL Produzione], ma è possibile rinominarlo.
 
 ## [!BADGE Premium]{type=Positive url="/help/main/c-intro/intro.md#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."} Recommendations: filtrare raccolte ed esclusioni per ambiente (gruppo di host)
 
@@ -89,7 +89,7 @@ Puoi visualizzare in anteprima il contenuto delle raccolte ed esclusioni di Cons
 
 {{premium-note}}
 
-È possibile utilizzare un ambiente per separare gli elementi disponibili nel catalogo per usi diversi. È ad esempio possibile utilizzare gruppi di host per ambienti [!UICONTROL Development] e [!UICONTROL Production], marchi diversi o aree geografiche diverse. Per impostazione predefinita, i risultati dell&#39;anteprima in Ricerca nel catalogo, Raccolte ed Esclusioni si basano sul gruppo di host predefinito. Puoi anche selezionare un gruppo di host diverso per visualizzare in anteprima i risultati, utilizzando il filtro Ambiente. Per impostazione predefinita, gli elementi appena aggiunti sono disponibili in tutti i gruppi di host, a meno che non venga specificato un ID ambiente al momento della creazione o dell’aggiornamento dell’elemento.
+È possibile utilizzare un ambiente per separare gli elementi disponibili nel catalogo per usi diversi. Ad esempio, puoi utilizzare i gruppi di host per gli ambienti [!UICONTROL Sviluppo] e [!UICONTROL Produzione], per marchi diversi o per aree geografiche diverse. Per impostazione predefinita, i risultati dell&#39;anteprima in Ricerca nel catalogo, Raccolte ed Esclusioni si basano sul gruppo di host predefinito. Puoi anche selezionare un gruppo di host diverso per visualizzare in anteprima i risultati, utilizzando il filtro Ambiente. Per impostazione predefinita, gli elementi appena aggiunti sono disponibili in tutti i gruppi di host, a meno che non venga specificato un ID ambiente al momento della creazione o dell’aggiornamento dell’elemento.
 
 >[!NOTE]
 >
@@ -101,10 +101,10 @@ Se i prodotti non vengono visualizzati, assicurati di utilizzare il gruppo host 
 >[!NOTE]
 >Dopo aver modificato l’ambiente selezionato, fai clic su Cerca per aggiornare i risultati restituiti.
 
-Il filtro [!UICONTROL Environment] è disponibile nelle seguenti posizioni nell&#39;interfaccia utente di Target:
+Il filtro [!UICONTROL Ambiente] è disponibile nelle seguenti posizioni nell&#39;interfaccia utente di Target:
 
-* Ricerca nel catalogo ([!UICONTROL Recommendations > Catalog Search])
-* Finestra di dialogo Crea raccolta ([!UICONTROL Recommendations > Collections > Create New])
-* Finestra di dialogo Aggiorna raccolta ([!UICONTROL Recommendations > Collections > Edit])
-* Finestra di dialogo Crea esclusione ([!UICONTROL Recommendations > Exclusions > Create New])
-* Finestra di dialogo Aggiorna esclusione ([!UICONTROL Recommendations > Exclusions > Edit])
+* Ricerca nel catalogo ([!UICONTROL Consigli > Ricerca nel catalogo])
+* Finestra di dialogo Crea raccolta ([!UICONTROL Recommendations > Raccolte > Crea nuova])
+* Finestra di dialogo Aggiorna raccolta ([!UICONTROL Recommendations > Raccolte > Modifica])
+* Finestra di dialogo Crea esclusione ([!UICONTROL Recommendations > Esclusioni > Crea nuova])
+* Finestra di dialogo Aggiorna esclusione ([!UICONTROL Recommendations > Esclusioni > Modifica])

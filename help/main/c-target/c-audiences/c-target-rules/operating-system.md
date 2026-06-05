@@ -13,8 +13,8 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 131
-ht-degree: 35%
+source-wordcount: 138
+ht-degree: 41%
 
 ---
 
@@ -22,17 +22,17 @@ ht-degree: 35%
 
 Puoi eseguire il targeting dei visitatori utilizzando [!DNL Adobe Target] che utilizzano un determinato sistema operativo.
 
-1. Nell&#39;interfaccia [!DNL Target], fare clic su **[!UICONTROL Audiences]** > **[!UICONTROL Create Audience]**.
+1. Nell&#39;interfaccia [!DNL Target], fare clic su **[!UICONTROL Tipi di pubblico]** > **[!UICONTROL Crea pubblico]**.
 1. Assegna un nome al pubblico e aggiungi una descrizione facoltativa.
-1. Trascina **[!UICONTROL Operating System]** nel riquadro Generatore di pubblico.
-1. Fare clic su **[!UICONTROL Select]**, quindi selezionare una delle opzioni seguenti:
+1. Trascina e rilascia **[!UICONTROL Sistema operativo]** nel riquadro generatore di pubblico.
+1. Fai clic su **[!UICONTROL Seleziona]**, quindi scegli una delle seguenti opzioni:
 
    * Linux
    * Macintosh
    * Windows
 
 1. (Facoltativo) Imposta regole aggiuntive per il pubblico.
-1. Fare clic su **[!UICONTROL Done]**.
+1. Fai clic su **[!UICONTROL Fine]**.
 
 L’illustrazione seguente mostra un pubblico che include i visitatori che utilizzano un sistema operativo Macintosh.
 

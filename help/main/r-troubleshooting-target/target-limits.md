@@ -22,8 +22,8 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 1761
-ht-degree: 74%
+source-wordcount: 1772
+ht-degree: 73%
 
 ---
 
@@ -131,7 +131,7 @@ Limiti dei caratteri e altri limiti (dimensioni dell’offerta, pubblico, profil
 
 * Il numero massimo di entità a cui puoi fare riferimento in una progettazione, tramite codifica fissa o cicli, è 99.
 * Per prestazioni ottimali, si consiglia di mantenere il catalogo entro il limite di un milione di elementi per ambiente e di dieci milioni di elementi per tutti gli ambienti.
-* Il limite massimo è di dieci milioni di elementi per ambiente e 100 milioni di elementi per tutti gli ambienti. Le prestazioni dell&#39;interfaccia utente [!UICONTROL Catalog Search] sono influenzate da un milione a dieci milioni di elementi per ambiente. Tuttavia, [!DNL Target Recommendations] continua a produrre e a fornire i consigli.
+* Il limite massimo è di dieci milioni di elementi per ambiente e 100 milioni di elementi per tutti gli ambienti. Se hai tra un milione e dieci milioni di elementi per ambiente, le prestazioni dell&#39;interfaccia utente di [!UICONTROL Ricerca nel catalogo] ne risentono. Tuttavia, [!DNL Target Recommendations] continua a produrre e a fornire i consigli.
 
 ### Attributi personalizzati entità
 
@@ -170,7 +170,7 @@ Limiti dei caratteri e altri limiti (dimensioni dell’offerta, pubblico, profil
 
 ### Esperienze per attività
 
-* **Limite**: 2.000 esperienze per attività [!UICONTROL Experience Targeting] (XT), [!UICONTROL A/B Test], [!UICONTROL Multivariate Test] (MVT) e [!UICONTROL Auto-Target].
+* **Limite**: 2.000 esperienze per [!UICONTROL Targeting esperienza] (XT), [!UICONTROL Test A/B], [!UICONTROL Test multivariato] (MVT) e [!UICONTROL Attività Targeting automatico].
 
   30.000 esperienze per attività Automated Personalization.
 

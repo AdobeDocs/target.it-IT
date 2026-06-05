@@ -23,13 +23,13 @@ I flag in Adobe Target consentono ai team di prodotto di distribuire le nuove fu
 
 **Controllo che visualizza nuove funzionalità.** Versioni di Target per utenti, organizzazioni, aree geografiche o attributi personalizzati specifici. Inizia con un piccolo gruppo, convalida l&#39;esperienza, quindi espandi, il tutto dalla console, senza modifiche al codice.
 
-**Eseguire esperimenti A/B.** Distribuisci varianti diverse a segmenti diversi del pubblico e misura le prestazioni migliori. Utilizza i risultati per prendere decisioni informate sui prodotti prima di una versione completa.
+**Esegui esperimenti A/B.** Distribuisci diverse varianti a diversi segmenti del pubblico e misura le prestazioni migliori. Utilizza i risultati per prendere decisioni informate sui prodotti prima di una versione completa.
 
-**Riduzione dei rischi di rilascio.** Suddividi le modifiche di grandi dimensioni in rollout più piccoli e controllati. Se viene visualizzato un bug o un problema di prestazioni, disattivare solo la funzione interessata, mantenendo stabile il resto dell&#39;applicazione.
+**Riduci i rischi di rilascio.** Dividi le modifiche di grandi dimensioni in rollout più piccoli e controllati. Se viene visualizzato un bug o un problema di prestazioni, disattivare solo la funzione interessata, mantenendo stabile il resto dell&#39;applicazione.
 
-**Coordinamento tra le applicazioni.I gruppi di funzioni** consentono di gestire più flag di funzionalità insieme, condividendo un pubblico di rollout comune tra le applicazioni.
+**Coordinamento tra le applicazioni.** I gruppi di funzioni consentono di gestire più flag di funzione insieme, condividendo un pubblico di rollout comune tra le applicazioni.
 
-**Esporta i dati.** Esporta i dati dei flag nell&#39;ambiente di reporting preferito per l&#39;analisi e la misurazione insieme agli altri dati di Adobe.
+**Esporta i dati.** Esporta i dati dei flag nell’ambiente di reporting preferito per l’analisi e la misurazione insieme agli altri dati di Adobe.
 
 ## Aggiungi il primo flag
 

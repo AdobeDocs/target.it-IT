@@ -1,7 +1,7 @@
 ---
 keywords: deduplicare;consentire duplicati;escludere offerte duplicate;personalizzazione automatizzata;non consentire offerte duplicate;escludere;contenuto predefinito;
 description: Gestire le esclusioni nelle attività di [!UICONTROL Automated Personalization] (AP).
-title: Come posso gestire le esclusioni nelle attività [!UICONTROL Automated Personalization]?
+title: Come posso gestire le esclusioni nelle [!UICONTROL attività Automated Personalization]?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=it#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."
 feature: Automated Personalization
 solution: Target,Analytics
@@ -16,8 +16,8 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 16fb7a1902ea76cab56a93fa141a32a3c6bc4467
 workflow-type: tm+mt
-source-wordcount: 492
-ht-degree: 21%
+source-wordcount: 521
+ht-degree: 23%
 
 ---
 
@@ -31,7 +31,7 @@ Impedisci la duplicazione delle offerte della libreria di offerte quando vengono
 
 Si potrebbe avere un&#39;attività, ad esempio, con sei percorsi in una pagina con 12 offerte. Esiste la possibilità che la stessa offerta possa essere collocata in uno o più percorsi nell&#39;attività. Questa funzione consente di impedire la visualizzazione simultanea di offerte duplicate in posizioni diverse all’interno della stessa attività.
 
-1. Durante la [creazione o modifica di un&#39;attività di Personalizzazione automatizzata](/help/main/c-activities/t-automated-personalization/create-ap-activity.md), fare clic sull&#39;icona **[!UICONTROL Configure]** ( ![icona Configura](/help/main/assets/icons/Setting.svg) ) > fare clic su **[!UICONTROL Allow Duplicate Offers]** per attivare e disattivare questa funzione, a seconda delle esigenze.
+1. Durante la [creazione o modifica di un&#39;attività di Personalizzazione automatizzata](/help/main/c-activities/t-automated-personalization/create-ap-activity.md), fare clic sull&#39;icona **[!UICONTROL Configura]** ( ![Configura icona](/help/main/assets/icons/Setting.svg) ) > fare clic su **[!UICONTROL Consenti offerte duplicate]** per attivare e disattivare questa funzione, a seconda delle esigenze.
 
 ## Escludere esperienze specifiche {#task_C17D36EF58AF4908B17A3D84CA6DE85A}
 
@@ -41,17 +41,17 @@ Potrebbero esserci alcune combinazioni che non funzionano insieme, oppure potres
 
 1. Durante la [creazione o modifica di un&#39;attività di Personalizzazione automatizzata](/help/main/c-activities/t-automated-personalization/create-ap-activity.md), fare clic sull&#39;icona **Gestione contenuto** ( ![Icona Gestione contenuto](/help/main/assets/icons/Experience.svg) ).
 
-   L&#39;elenco [!UICONTROL Experiences] mostra ogni esperienza generata dalle permutazioni di tutte le opzioni di contenuto e percorso.
+   L&#39;elenco [!UICONTROL Esperienze] mostra ogni esperienza generata dalle permutazioni di tutte le opzioni di contenuto e percorso.
 
 1. Escludi le esperienze, se lo desideri.
 
    Per escludere esperienze specifiche, fai clic sull&#39;icona [!UICONTROL **Altre azioni**] ( ![Altre azioni](/help/main/assets/icons/MoreSmall.svg) ), quindi fai clic su [!UICONTROL **Escludi**].
 
-   Oppure è possibile escludere esperienze in blocco selezionando la casella di spunta per le esperienze rilevanti e quindi facendo clic su **[!UICONTROL Exclude]**. L&#39;icona [!UICONTROL Exclude] viene visualizzata quando si verificano una o più esperienze.
+   Oppure è possibile escludere esperienze in blocco selezionando la casella di controllo per le esperienze rilevanti e quindi facendo clic su **[!UICONTROL Escludi]**. L&#39;icona [!UICONTROL Escludi] viene visualizzata quando si verificano una o più esperienze.
 
    ![Esclusione di più esperienze](/help/main/c-activities/t-automated-personalization/assets/exclude1.png)
 
-   Le esperienze sono ora escluse dall&#39;attività e i relativi [!UICONTROL Status] vengono visualizzati come [!UICONTROL Excluded].
+   Le esperienze sono ora escluse dall&#39;attività e il loro [!UICONTROL Stato] viene visualizzato come [!UICONTROL Escluso].
 
 ## Escludi contenuto predefinito {#task_DCB4528989DF4C05A3A4729E5891D18F}
 
@@ -59,14 +59,14 @@ Talvolta potresti non voler includere il contenuto predefinito come parte dell�
 
 L’esclusione del contenuto predefinito è molto utile per cambiare l’aspetto del resto della pagina a seconda delle offerte da testare con l’attività di personalizzazione automatizzata. Ad esempio, si supponga di voler corrispondere alla tavolozza dei colori delle offerte che si stanno testando, di modificare il colore di sfondo della pagina ed escludere il colore di sfondo predefinito.
 
-**Per escludere il contenuto predefinito utilizzando [!UICONTROL Visual Experience Composer] (VEC):**
+**Per escludere il contenuto predefinito tramite il [!UICONTROL Compositore esperienza visivo]:**
 
-1. Durante la [creazione o modifica di un&#39;attività di Personalizzazione automatizzata](/help/main/c-activities/t-automated-personalization/create-ap-activity.md), selezionare il contenuto da sostituire e fare clic per accedere a **[!UICONTROL Change Text/HTML]**, **[!UICONTROL Change Image Offer]** o **[!UICONTROL Change Background Color]**. Le opzioni disponibili variano a seconda del tipo di contenuto.
+1. Durante la [creazione o modifica di un&#39;attività di Personalizzazione automatizzata](/help/main/c-activities/t-automated-personalization/create-ap-activity.md), selezionare il contenuto che si desidera sostituire e fare clic per accedere a **[!UICONTROL Cambia testo/HTML]**, **[!UICONTROL Cambia offerta immagine]** o **[!UICONTROL Cambia colore di sfondo]**. Le opzioni disponibili variano a seconda del tipo di contenuto.
 
    ![Modifica opzioni](/help/main/c-activities/t-automated-personalization/assets/options.png)
 1. Crea il nuovo contenuto.
 
-1. Fai clic sull&#39;icona **[!UICONTROL More Actions]** ( ![Icona Altre azioni](/help/main/assets/icons/Setting.svg) ), quindi fai clic sull&#39;interruttore **Escludi offerta predefinita/Includi offerta predefinita**/ per escludere o includere l&#39;offerta predefinita.
+1. Fai clic sull&#39;icona **[!UICONTROL Altre azioni]** ( ![Altre azioni](/help/main/assets/icons/Setting.svg) ), quindi fai clic sull&#39;interruttore **Escludi offerta predefinita/Includi offerta predefinita**/ per escludere o includere l&#39;offerta predefinita.
 
    <!--
    Depending on the content or offer type, the [!UICONTROL Include] checkbox is in a slightly different place. 

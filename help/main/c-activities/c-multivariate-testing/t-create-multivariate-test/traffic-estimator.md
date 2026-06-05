@@ -1,7 +1,7 @@
 ---
 keyword: traffic estimate;traffic estimator;estimate;traffic;confidence;statistical power;lift;bonferroni;conversion rate;visitors per day;duration
-description: Scopri come utilizzare il Calcolatore del traffico che ti consente di sapere se disponi di traffico sufficiente per il completamento dell'attività  [!DNL Adobe Target] [!UICONTROL Multivariate Test].
-title: Quanto traffico è necessario per un'attività [!UICONTROL Multivariate Test] (MVT)?
+description: Scopri come utilizzare il Calcolatore del traffico che ti consente di sapere se disponi di traffico sufficiente per il completamento dell'attività  [!DNL Adobe Target] [!UICONTROL Test multivariato].
+title: Quanto traffico è necessario per un'attività [!UICONTROL Test multivariato] (MVT)?
 feature: Multivariate Tests
 exl-id: 2b32f4a7-b9b4-40bf-a17b-88225bc88787
 TQID: https://experienceleague.adobe.com/XHBXV7Jtvp87ve4NTd-016E2dFkHTbPu-8-nY8GE-VM
@@ -12,16 +12,16 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 485
-ht-degree: 21%
+source-wordcount: 530
+ht-degree: 19%
 
 ---
 
-# Stimare il traffico necessario per un&#39;attività [!UICONTROL Multivariate Test] completata
+# Stimare il traffico necessario per un&#39;attività [!UICONTROL Test multivariato] completata
 
-Dato che in un test multivariato vengono messe a confronto più esperienze, è importante sapere quanto traffico è necessario per generare risultati significativi. [!UICONTROL Traffic Estimator] utilizza le statistiche sulla pagina e sul numero di esperienze testate per stimare la quantità di traffico e la durata del test necessari per il successo del test.
+Dato che in un test multivariato vengono messe a confronto più esperienze, è importante sapere quanto traffico è necessario per generare risultati significativi. Il [!UICONTROL Calcolatore del traffico] utilizza le statistiche sulla pagina e sul numero di esperienze testate per stimare la quantità di traffico e la durata del test necessari per il successo del test.
 
-[!UICONTROL Traffic Estimator] prevede la dimensione del campione necessaria per garantire quanto segue:
+Il [!UICONTROL Calcolatore del traffico] prevede la dimensione del campione necessaria per garantire quanto segue:
 
 * 95% di affidabilità. Questa statistica significa che la probabilità di segnalare un falso positivo in assenza di un incremento reale è del 5% (livello di affidabilità del 100%).
 * 80% di potenza statistica. Questa statistica significa che il test ha una probabilità dell’80% di individuare un incremento reale pari o superiore al 25%.
@@ -29,32 +29,32 @@ Dato che in un test multivariato vengono messe a confronto più esperienze, è i
 
 Il test utilizza la correzione di Bonferroni in caso di confronti multipli. Questo metodo è noto per essere di tipo conservativo, il che risulta controbilanciato dall&#39;imposizione di un incremento rilevabile con affidabilità minima relativamente ampio.
 
-[!UICONTROL Traffic Estimator] fornisce anche un feedback che ti consente di sapere se disponi di traffico sufficiente per il test che hai progettato per avere successo.
+Il [!UICONTROL Calcolatore del traffico] fornisce anche un feedback che consente di sapere se disponi di traffico sufficiente per il test progettato per avere esito positivo.
 
-1. Dalla pagina [!UICONTROL Experiences] di [!UICONTROL Visual Experience Composer] in un&#39;attività [!UICONTROL Multivariate], fare clic sull&#39;icona **[!UICONTROL Traffic]** ( ![icona Calcolatore traffico](/help/main/assets/icons/Gauge2.svg) ) nell&#39;angolo superiore sinistro della pagina [!UICONTROL Experiences].
+1. Dalla pagina [!UICONTROL Esperienze] del [!UICONTROL Compositore esperienza visivo] in un&#39;attività [!UICONTROL Multivariato], fai clic sull&#39;icona **[!UICONTROL Traffico]** ( ![Icona Calcolatore traffico](/help/main/assets/icons/Gauge2.svg) ) nell&#39;angolo in alto a sinistra della pagina [!UICONTROL Esperienze].
 
-   Verrà aperto [!UICONTROL Traffic Estimator].
+   Verrà aperto [!UICONTROL Calcolatore traffico].
 
    ![Interfaccia utente Calcolatore traffico](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/mvt-est.png)
 
-   Fare di nuovo clic sull&#39;icona per nascondere [!UICONTROL Traffic Estimator].
+   Fai di nuovo clic sull&#39;icona per nascondere il [!UICONTROL Calcolatore del traffico].
 
-   Nella parte superiore di [!UICONTROL Traffic Estimator], i valori immessi vengono calcolati e vengono visualizzati i risultati.
+   Nella parte superiore del [!UICONTROL Calcolatore traffico], vengono calcolati i valori immessi e visualizzati i risultati.
 
 1. (Condizionale) Fornisci il tasso di conversione tipico, i visitatori stimati al giorno e la durata del test.
 
-   * **[!UICONTROL Number of Content Combinations]**: calcolato automaticamente in base al numero di esperienze create come parte dell&#39;attività, dopo eventuali esclusioni.
-   * **[!UICONTROL Typical Conversion Rate]**: il tasso di conversione è espresso in percentuale, in base alla stima o ai dati passati derivati dal sistema di analisi.
-   * **[!UICONTROL Estimated Visitors Per Day]**: è il numero di visitatori che probabilmente visualizzeranno la pagina in base ai criteri di targeting. Può essere basato sui dati di analisi.
-   * **[!UICONTROL Test Duration]**: il numero di giorni desiderati per l&#39;esecuzione dell&#39;attività.
+   * **[!UICONTROL Numero di combinazioni di contenuto]**: calcolato automaticamente in base al numero di esperienze create come parte dell&#39;attività, dopo eventuali esclusioni.
+   * **[!UICONTROL Tasso di conversione tipico]**: il tasso di conversione è espresso in percentuale, in base alla stima o ai dati passati derivati dal sistema di analisi.
+   * **[!UICONTROL Visitatori stimati al giorno]**: è il numero di visitatori che probabilmente visualizzeranno la pagina in base ai criteri di targeting. Può essere basato sui dati di analisi.
+   * **[!UICONTROL Durata test]**: il numero di giorni desiderati per l&#39;esecuzione dell&#39;attività.
 
-   [!UICONTROL Traffic Estimator] utilizza queste statistiche per determinare le regolazioni necessarie per eseguire un test di successo.
+   Il [!UICONTROL Calcolatore del traffico] utilizza queste statistiche per determinare le regolazioni necessarie per eseguire un test di successo.
 
-   Modificando i valori, si modifica anche la stima. Ad esempio, se stai sottoponendo a test molte esperienze e il tasso di conversione e le impression sono troppo bassi, [!UICONTROL Traffic Estimator] mostra quanto deve durare l&#39;esecuzione del test per avere successo. In alternativa, se il tuo traffico è basso, [!UICONTROL Traffic Estimator] potrebbe suggerire un numero inferiore di esperienze in modo da poter eseguire il test per il numero di giorni desiderato.
+   Modificando i valori, si modifica anche la stima. Ad esempio, se stai sottoponendo a test molte esperienze e il tasso di conversione e le impression sono troppo bassi, il [!UICONTROL Calcolatore del traffico] mostra quanto deve durare l&#39;esecuzione del test per avere successo. In alternativa, se il traffico è basso, il [!UICONTROL Calcolatore del traffico] potrebbe suggerire un numero inferiore di esperienze, in modo da poter eseguire il test per il numero di giorni desiderato.
 
    Se il traffico non è sufficiente, puoi eseguire una o entrambe le operazioni seguenti:
 
    * Ridurre il numero di combinazioni di offerte e il numero di posizioni.
    * Impostare la durata del test.
 
-   Regola i numeri finché [!UICONTROL Traffic Estimator] non indica che hai traffico sufficiente, quindi progetta il test di conseguenza.
+   Regola i numeri finché il [!UICONTROL Calcolatore traffico] non indica che hai traffico sufficiente, quindi progetta il test di conseguenza.

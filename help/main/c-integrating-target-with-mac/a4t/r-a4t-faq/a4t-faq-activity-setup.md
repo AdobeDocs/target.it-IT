@@ -13,8 +13,8 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 606
-ht-degree: 10%
+source-wordcount: 642
+ht-degree: 14%
 
 ---
 
@@ -35,14 +35,14 @@ Per un elenco completo, consulta “Tipi di attività supportati” in [Adobe An
 
 Non utilizzare lo stesso nome attività per due attività di [aree di lavoro](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) separate che utilizzano la generazione di rapporti A4T.
 
-Sebbene questo sia supportato quando si utilizza [!DNL Target] come origine per la generazione di rapporti, l&#39;utilizzo dello stesso nome di attività per due attività non è supportato quando si utilizza [!UICONTROL Analytics for Target] come origine per la generazione di rapporti.
+Anche se questo è supportato quando si utilizza [!DNL Target] come origine per la generazione di rapporti, l&#39;utilizzo dello stesso nome di attività per due attività non è supportato quando si utilizza [!UICONTROL Analytics for Target] come origine per la generazione di rapporti.
 
 +++
 
 ## Perché non posso accedere alle impostazioni avanzate durante la configurazione delle metriche obiettivo?
 
 +++Risposta
-Per le attività che utilizzano [!DNL Analytics] come origine per la generazione di rapporti (A4T), la metrica di obiettivo utilizza le impostazioni &quot;[!UICONTROL Increment Count & Keep User in Activity]&quot; e &quot;[!UICONTROL On Every Impression]&quot;. Queste impostazioni sono *non* configurabili.
+Per le attività che utilizzano [!DNL Analytics] come origine per la generazione di rapporti (A4T), la metrica di obiettivo utilizza le impostazioni &quot;[!UICONTROL Incrementa il conteggio e mantieni l&#39;utente nell&#39;attività]&quot; e &quot;[!UICONTROL Su ogni impression]&quot;. Queste impostazioni sono *non* configurabili.
 
 Per ulteriori informazioni, consulta &quot;Perché non posso accedere alle opzioni Impostazioni avanzate durante la configurazione delle metriche dell’obiettivo?&quot; in [Definizioni delle metriche - Domande frequenti su A4T](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-metric-definition.md).
 
@@ -59,16 +59,16 @@ Quando viene creata un&#39;attività, [!DNL Target] invia un file di classificaz
 ## Perché non è possibile selezionare Analytics come origine per la generazione di rapporti quando si crea un&#39;attività? {#section_9F4F69C3085F4C2480AF439127EB27CD}
 
 +++Risposta
-È possibile modificare le opzioni di [!UICONTROL Reporting Settings] in [!UICONTROL Administration].
+È possibile modificare le [!UICONTROL Impostazioni report] opzioni in [!UICONTROL Amministrazione].
 
-1. In [!DNL Target], fare clic su **[!UICONTROL Administration]**.
-1. Nell&#39;elenco a discesa **[!UICONTROL Experience Cloud solution used for reporting]** fare clic su **[!UICONTROL Select per Activity]**.
+1. In [!DNL Target], fare clic su **[!UICONTROL Amministrazione]**.
+1. Nell’elenco a discesa **[!UICONTROL Soluzione Experience Cloud utilizzata per i rapporti]**, fai clic su **[!UICONTROL Seleziona per attività]**.
 
 ![immagine di selezione per attività](assets/select-per-activity.png)
 
-L&#39;elenco a discesa **[!UICONTROL Reporting Source]** è abilitato nella schermata **[!UICONTROL Goal & Settings]** per la creazione e la modifica delle attività.
+L’elenco a discesa **[!UICONTROL Origine per i rapporti]** è abilitato nella schermata **[!UICONTROL Obiettivi e impostazioni]** per la creazione e la modifica delle attività.
 
-Per utilizzare sempre [!DNL Analytics] come origine per la generazione di rapporti, selezionare **[!UICONTROL Adobe Analytics]** dall&#39;elenco a discesa in [!UICONTROL Administration].
+Per utilizzare sempre [!DNL Analytics] come origine per la generazione di rapporti, selezionare **[!UICONTROL Adobe Analytics]** dall&#39;elenco a discesa in [!UICONTROL Amministrazione].
 
 +++
 
@@ -86,9 +86,9 @@ Se le percentuali non vengono modificate nel corso dell’attività intermedia, 
 
 +++
 
-## È possibile utilizzare una metrica binomiale [!DNL Analytics] con un segmento applicato come obiettivo di ottimizzazione in un&#39;attività [!UICONTROL Auto-Allocate]? {#binomial}
+## È possibile utilizzare una metrica binomiale [!DNL Analytics] con un segmento applicato come obiettivo di ottimizzazione in un&#39;attività [!UICONTROL Allocazione automatica]? {#binomial}
 
 +++Risposta
-Impossibile utilizzare una metrica [!DNL Analytics] con un segmento applicato come obiettivo di ottimizzazione in un&#39;attività [!UICONTROL Auto-Allocate]. Come soluzione alternativa puoi definire un evento personalizzato che raggiunge lo stesso obiettivo e utilizzarlo come metrica di obiettivo di ottimizzazione.
+Impossibile utilizzare una metrica [!DNL Analytics] con un segmento applicato come obiettivo di ottimizzazione in un&#39;attività [!UICONTROL Allocazione automatica]. Come soluzione alternativa puoi definire un evento personalizzato che raggiunge lo stesso obiettivo e utilizzarlo come metrica di obiettivo di ottimizzazione.
 
 +++

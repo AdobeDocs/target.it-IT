@@ -16,8 +16,8 @@ topic_v2:
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 1737
-ht-degree: 71%
+source-wordcount: 1742
+ht-degree: 70%
 
 ---
 
@@ -101,7 +101,7 @@ Se l’attività richiede l’assistenza di un designer, uno sviluppatore web o 
 
 Per trarre una conclusione statisticamente significativa dal test, è necessario inserire un certo numero di visitatori nella popolazione di test. Pensaci, se solo due persone partecipano al test, sarai sicuro dei risultati?
 
-[!DNL Target] si basa su principi statistici per determinare i risultati di un test, che sono statisticamente validi. Il [!DNL Adobe Target] [Calcolatore dimensioni campione](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6) consente di determinare il periodo di tempo per l&#39;esecuzione di un test in base all&#39;attendibilità necessaria nei risultati. Fare clic sul collegamento [!UICONTROL Learn More] in questa casella per aprire e utilizzare il calcolatore.
+[!DNL Target] si basa su principi statistici per determinare i risultati di un test, che sono statisticamente validi. Il [!DNL Adobe Target] [Calcolatore dimensioni campione](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6) consente di determinare il periodo di tempo per l&#39;esecuzione di un test in base all&#39;attendibilità necessaria nei risultati. Fare clic sul collegamento [!UICONTROL Ulteriori informazioni] in questa casella per aprire e utilizzare il calcolatore.
 
 ### Quanto è importante questa attività?
 
@@ -117,4 +117,4 @@ I risultati dell’attività forniscono spesso informazioni approfondite sulle a
 
 ## Aprire [!DNL Target] quindi creare e avviare l’attività
 
-Hai compilato il tuo Activity Planner. Ora è il momento di entrare nella soluzione e creare la tua attività. [!DNL Target] semplifica notevolmente la modifica della pagina Web in [!UICONTROL Visual Experience Composer].
+Hai compilato il tuo Activity Planner. Ora è il momento di entrare nella soluzione e creare la tua attività. [!DNL Target] semplifica notevolmente la modifica della pagina Web nel [!UICONTROL Compositore esperienza visivo].

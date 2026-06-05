@@ -12,7 +12,7 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 540
+source-wordcount: 543
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ Affinché questo processo funzioni, devi consegnare `entity.brand` nella mbox su
 
 ## Esempi di corrispondenza attributo entità
 
-[!UICONTROL Entity Attribute Matching] consente di consigliare solo gli elementi corrispondenti, ad esempio:
+[!UICONTROL Corrispondenza attributo entità] consente di consigliare solo gli elementi corrispondenti, ad esempio:
 
 * Attributo dell&#39;elemento attualmente visualizzato dall&#39;utente
 * L’ultimo elemento visualizzato dall’utente

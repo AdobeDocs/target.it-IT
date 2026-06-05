@@ -1,7 +1,7 @@
 ---
 keywords: Targeting esperienza;xt;URL attività;url
-description: Scopri come specificare [!UICONTROL Activity URL] che determina la pagina utilizzata nel test e che viene visualizzata quando l'attività [!UICONTROL Experience Targeting] è progettata utilizzando  [!DNL Adobe Target].
-title: Cos'è [!UICONTROL Activity URL] in un'attività [!UICONTROL Experience Targeting] (XT)?
+description: Scopri come specificare l'[!UICONTROL URL attività] che determina la pagina utilizzata nel test e che viene visualizzata quando l'attività [!UICONTROL Targeting esperienza] è progettata utilizzando [!DNL Adobe Target].
+title: Qual è l'[!UICONTROL URL attività] in un'attività [!UICONTROL Targeting esperienza] (XT)?
 feature: Experience Targeting
 exl-id: 8e3be814-6ad6-4ffa-be8d-68f0cb7857b5
 TQID: https://experienceleague.adobe.com/igvyk-2atEe7JdYuFj3IXlXyE1CzVkLuwv50DSmSxuY
@@ -11,16 +11,16 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 268
-ht-degree: 37%
+source-wordcount: 298
+ht-degree: 35%
 
 ---
 
-# URL attività nelle attività [!UICONTROL Experience Targeting] (XT)
+# URL attività nelle attività [!UICONTROL Targeting esperienza] (XT)
 
-[!UICONTROL Activity URL] determina la pagina utilizzata in un&#39;attività [!DNL Adobe Target] [!UICONTROL Experience Targeting] (XT). Questa è la pagina che si apre nel [!UICONTROL Visual Experience Composer] (VEC) o [!UICONTROL Form-Based Experience Composer] quando l&#39;attività è progettata.
+L&#39;[!UICONTROL URL attività] determina la pagina utilizzata in un&#39;attività [!DNL Adobe Target] [!UICONTROL Targeting esperienza] (XT). Questa è la pagina che si apre nel [!UICONTROL Compositore esperienza visivo] (VEC) o nel [!UICONTROL Compositore esperienza basato su moduli] quando l&#39;attività è progettata.
 
-1. Quando viene richiesto durante la [creazione di un’attività Targeting esperienza](/help/main/c-activities/t-experience-target/t-xt-create/xt-create.md), specifica l’URL dell’attività. Digitare l&#39;URL completo (incluso `https://`), quindi fare clic su **[!UICONTROL Create Activity]**.
+1. Quando viene richiesto durante la [creazione di un’attività Targeting esperienza](/help/main/c-activities/t-experience-target/t-xt-create/xt-create.md), specifica l’URL dell’attività. Digita l&#39;URL completo (incluso `https://`), quindi fai clic su **[!UICONTROL Crea attività]**.
 
    >[!NOTE]
    >
@@ -30,13 +30,13 @@ ht-degree: 37%
    >
    >Se si specifica un URL per un sito che non include una libreria JavaScript di [[!DNL Target] at.js o  [!DNL Adobe Experience Platform Web SDK]](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/overview.html?lang=it){target=_blank}, non è possibile selezionare elementi di pagina.
 
-1. (Condizionale) Per visualizzare una pagina diversa dopo l’apertura del Compositore esperienza visivo, fai clic su **[!UICONTROL Configure]**, seleziona **[!UICONTROL Page Delivery]**, quindi specifica l’URL nel campo [!UICONTROL URL].
+1. (Condizionale) Per visualizzare una pagina diversa dopo l&#39;apertura del Compositore esperienza visivo, fai clic su **[!UICONTROL Configura]**, seleziona **[!UICONTROL Consegna pagine]**, quindi specifica l&#39;URL nel campo [!UICONTROL URL].
 
    >[!NOTE]
    >
    >Se modifichi l’URL dopo aver apportato modifiche a una pagina per una o più esperienze, l’esperienza viene reimpostata utilizzando la nuova pagina e le modifiche apportate andranno perse.
 
-1. (Condizionale) Fare clic su **[!UICONTROL Add Rule]** per aggiungere altre pagine o sezioni all&#39;attività.
+1. (Condizionale) Fai clic su **[!UICONTROL Aggiungi regola]** per aggiungere più pagine o sezioni all&#39;attività.
 
    Le regole aggiuntive possono essere basate su uno dei seguenti elementi:
 
@@ -49,4 +49,4 @@ ht-degree: 37%
 
    È possibile aggiungere altre regole all’URL attività mediante l’operatore E oppure O. Tutte le regole aggiunte vengono valutate tra loro con E.
 
-1. Al termine, fare clic su **[!UICONTROL Save]**.
+1. Al termine, fai clic su **[!UICONTROL Salva]**.

@@ -13,8 +13,8 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 1024
-ht-degree: 33%
+source-wordcount: 1116
+ht-degree: 34%
 
 ---
 
@@ -39,7 +39,7 @@ Puoi indirizzare l’attività agli utenti che visitano la pagina utilizzando un
 >
 >Questo aggiornamento non richiede alcuna azione da parte dei clienti. Le etichette nell&#39;interfaccia utente di [!DNL Target] verranno modificate in futuro e saranno annunciate nelle [[!DNL Target] note sulla versione (corrente)](/help/main/r-release-notes/release-notes.md) quando verranno apportate queste modifiche.
 >
->Per le impostazioni della soluzione alternativa, vedere [Aggiornamenti per [!DNL iPad] e [!DNL iPhone] negli attributi del pubblico [!UICONTROL Browser] (30 aprile 2024)](#updates) di seguito.
+>Per le impostazioni di soluzione alternativa, vedere [Aggiornamenti per [!DNL iPad] e [!DNL iPhone] negli attributi del pubblico [!UICONTROL Browser] (30 aprile 2024)](#updates) di seguito.
 
 Esistono due modi per indirizzare i browser:
 
@@ -53,20 +53,20 @@ Esistono due modi per indirizzare i browser:
 
 * **Regola di pubblico personalizzato per browser:** un pubblico personalizzato consente di rivolgerti a più browser o di impostare regole o esclusioni per specifici browser, versioni o lingue del browser. Questa funzionalità offre una flessibilità significativa quando esegui il targeting di un’attività in base agli attributi del browser.
 
-   1. Nell&#39;interfaccia [!DNL Target], fare clic su **[!UICONTROL Audiences]** > **[!UICONTROL Create Audience]**.
+   1. Nell&#39;interfaccia [!DNL Target], fare clic su **[!UICONTROL Tipi di pubblico]** > **[!UICONTROL Crea pubblico]**.
    1. Assegna un nome al pubblico e aggiungi una descrizione facoltativa.
-   1. Trascina **[!UICONTROL Browser]** nel generatore di pubblico.
+   1. Trascina e rilascia **[!UICONTROL Browser]** nel generatore di pubblico.
 
       ![Regole > Browser](assets/target_browser.png)
 
-   1. Fare clic su **[!UICONTROL Select]**, quindi selezionare una delle opzioni seguenti:
+   1. Fai clic su **[!UICONTROL Seleziona]**, quindi scegli una delle seguenti opzioni:
 
       * **Tipo**: Includi o escludi gli utenti che usano un determinato browser. Consulta [Tipo](/help/main/c-target/c-audiences/c-target-rules/browser.md#section_6ADC758F23F145B3A310151546D83D56).
       * **Lingua:** Includi o escludi alcuni browser impostati per l&#39;utilizzo di lingue specifiche. Consulta [Lingua](/help/main/c-target/c-audiences/c-target-rules/browser.md#section_7520D1AA464A45A6843EABE2D2B431A1).
       * **Versione:** includi o escludi una determinata versione del browser. Consulta [Versione](/help/main/c-target/c-audiences/c-target-rules/browser.md#section_37CC8CE45DA04E8682AE6388321BA6EF).
 
    1. (Facoltativo) Imposta regole aggiuntive per il pubblico.
-   1. Fare clic su **[!UICONTROL Done]**.
+   1. Fai clic su **[!UICONTROL Fine]**.
 
   L&#39;esempio seguente mostra un pubblico che include [!DNL Microsoft Edge] utenti nelle versioni 91 o 92:
 
@@ -80,10 +80,10 @@ Per un’attività, puoi includere o escludere i partecipanti in base al tipo, a
 
 Includi o escludi gli utenti che usano un determinato browser.
 
-Seleziona **[!UICONTROL Type]**, quindi scegli &quot;è uguale a&quot; o &quot;è diverso da&quot;.
+Seleziona **[!UICONTROL Tipo]**, poi scegli “è uguale a” o “è diverso da”.
 
-* [!UICONTROL Equals]: esegui il targeting dei browser selezionati.
-* [!UICONTROL Does not equal]: escludere i browser selezionati.
+* [!UICONTROL È uguale a]: esegui il targeting dei browser selezionati.
+* [!UICONTROL È diverso da]: escludere i browser selezionati.
 
 Seleziona uno o più browser. Le opzioni multiple sono collegate con l’operatore O.
 
@@ -95,10 +95,10 @@ Ad esempio, se un’offerta è disponibile solo in inglese, puoi indirizzarla ai
 
 L’inclusione o l’esclusione in base alla lingua del browser può permetterti di definire meglio i visitatori a cui ti rivolgi rispetto a parametri basati sulla località geografica nei casi in cui la lingua riveste un ruolo più importante della posizione geografica. Ad esempio, se offri un articolo scritto in inglese, puoi destinarlo ai paesi di lingua inglese oppure a chi utilizza browser impostati in lingua inglese. Con il targeting in base al browser, l’articolo sarà disponibile per gli anglofoni che si collegano da paesi in cui l’inglese non è la lingua principale.
 
-Seleziona **[!UICONTROL Language]**, quindi scegli &quot;è uguale a&quot; o &quot;è diverso da&quot;.
+Seleziona **[!UICONTROL Lingua]**, quindi scegli “è uguale a” o “è diverso da”.
 
-* [!UICONTROL Equals]: Eseguire il targeting delle lingue del browser selezionate.
-* [!UICONTROL Does not equal]: Escludi le lingue del browser selezionate.
+* [!UICONTROL È uguale a]: esegui il targeting delle lingue del browser selezionate.
+* [!UICONTROL Non è uguale a]: escludi le lingue del browser selezionate.
 
 Seleziona una o più lingue. Le opzioni multiple sono collegate con l’operatore O.
 
@@ -120,14 +120,14 @@ Includi o escludi una determinata versione del browser.
 
 Ad esempio, se la pagina non viene visualizzata correttamente in [!DNL Internet Explorer] versione 11 o precedente, è possibile creare un pubblico che escluda tali versioni. In tal caso, puoi impostare una regola in cui il tipo di browser è uguale a [!DNL Internet Explorer] e aggiungere una seconda regola in cui la versione è minore o uguale a 11.
 
-Seleziona **[!UICONTROL Version]**, quindi scegli un operatore:
+Seleziona **[!UICONTROL Versione]**, quindi scegli un operatore:
 
-* [!UICONTROL Equals]
-* [!UICONTROL Does not equal]
-* [!UICONTROL Is greater than]
+* [!UICONTROL Uguale a]
+* [!UICONTROL Non è uguale a]
+* [!UICONTROL È maggiore di]
 * È maggiore o uguale a
-* [!UICONTROL Is less than]
-* [!UICONTROL Is less than or equal to]
+* [!UICONTROL È minore di]
+* [!UICONTROL È minore di o uguale a]
 
 Digita il numero della versione. In questo campo di testo è possibile immettere solo le versioni principali. La versione specificata include tutte le eventuali versioni secondarie di tale versione principale. Ad esempio, se specifichi la versione 10, sono inclusi anche i visitatori della versione 10.1.
 
@@ -142,7 +142,7 @@ Questo video contiene informazioni sull&#39;utilizzo delle categorie di pubblico
 
 >[!VIDEO](https://video.tv.adobe.com/v/17392)
 
-## Aggiornamenti per [!DNL iPad] e [!DNL iPhone] negli attributi del pubblico [!UICONTROL Browser] (30 aprile 2024) {#updates}
+## Aggiornamenti per [!DNL iPad] e [!DNL iPhone] in [!UICONTROL Browser] attributi pubblico (30 aprile 2024) {#updates}
 
 [!DNL Adobe Target] consente di [eseguire il targeting per uno qualsiasi degli attributi di categoria](/help/main/c-target/c-audiences/c-target-rules/target-rules.md), inclusi gli utenti che utilizzano un browser o opzioni di browser specifiche quando visitano la pagina.
 
@@ -166,21 +166,21 @@ In futuro sarà possibile utilizzare le seguenti impostazioni:
 
   ![Il dispositivo mobile è un tablet](/help/main/r-release-notes/assets/is-tablet.png)
 
-* **Per le corrispondenze del browser con iPad**: [!UICONTROL Mobile] > [!UICONTROL Device Marketing Name] [!UICONTROL matches] [!DNL iPad] con un contenitore And con [!UICONTROL Mobile] > [!UICONTROL Is Tablet] è [!DNL true]
+* **Per il browser corrisponde a iPad**: [!UICONTROL Mobile] > [!UICONTROL Device Marketing Name] [!UICONTROL corrisponde] [!DNL iPad] con un contenitore And con [!UICONTROL Mobile] > [!UICONTROL Is Tablet] is [!DNL true]
 
   ![iPad](/help/main/r-release-notes/assets/ipad.png)
 
-* **Per le corrispondenze del browser con iPhone**: [!UICONTROL Mobile] > [!UICONTROL Device Marketing Name] [!UICONTROL matches] [!DNL iPhone] con un contenitore And con [!UICONTROL Mobile] > [!UICONTROL Is Mobile Phone] è [!DNL true]
+* **Per il browser corrisponde a iPhone**: [!UICONTROL Mobile] > [!UICONTROL Device Marketing Name] [!UICONTROL corrisponde] [!DNL iPhone] con un contenitore And con [!UICONTROL Mobile] > [!UICONTROL Is Mobile Phone] is [!DNL true]
 
   ![iPhone](/help/main/r-release-notes/assets/iphone.png)
 
 È possibile utilizzare molte altre impostazioni, ad esempio quando le condizioni vengono negate. Di seguito sono riportati alcuni esempi di condizioni negate:
 
-* **Per il browser non corrisponde ad iPhone**: [!UICONTROL Mobile] > [!UICONTROL Device Vendor] [!UICONTROL does not match] [!UICONTROL Apple] con un contenitore Or con [!UICONTROL Mobile] > [!UICONTROL Is Mobile Phone] è [!UICONTROL false]
+* **Per il browser non corrisponde a iPhone**: [!UICONTROL Mobile] > [!UICONTROL Device Vendor] [!UICONTROL non corrisponde] [!UICONTROL Apple] con un contenitore Or con [!UICONTROL Mobile] > [!UICONTROL Is Mobile Phone] is [!UICONTROL false]
 
   ![Non telefono cellulare](/help/main/r-release-notes/assets/mobile-phone-false.png)
 
-* **Per il browser non corrisponde ad iPad**: [!UICONTROL Mobile] > [!UICONTROL Device Vendor] [!UICONTROL does not match] [!UICONTROL Apple] con un contenitore Or con [!UICONTROL Mobile] > [!UICONTROL Is Tablet] è [!UICONTROL false].
+* **Per il browser non corrisponde a iPad**: [!UICONTROL Mobile] > [!UICONTROL Device Vendor] [!UICONTROL non corrisponde] [!UICONTROL Apple] con un contenitore Or con [!UICONTROL Mobile] > [!UICONTROL Is Tablet] è [!UICONTROL false].
 
   ![Non tablet](/help/main/r-release-notes/assets/tablet-false.png)
 

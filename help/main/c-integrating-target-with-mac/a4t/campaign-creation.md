@@ -14,7 +14,7 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 652
+source-wordcount: 662
 ht-degree: 29%
 
 ---
@@ -29,7 +29,7 @@ Prima di impostare un&#39;attività che utilizza [!DNL Analytics] come origine p
 
 La creazione di un&#39;attività [!DNL Target] che utilizza [!DNL Analytics] come origine per la generazione di rapporti è simile alla configurazione di un&#39;attività [!DNL Target] regolare, con alcune importanti differenze. Ad esempio, non è possibile selezionare un segmento per il reporting durante la creazione dell&#39;attività perché tutti i segmenti disponibili in [!DNL Analytics] possono essere applicati durante la visualizzazione di un report.
 
-1. Fare clic su **[!UICONTROL Create Activity]**.
+1. Fai clic su **[!UICONTROL Crea attività]**.
 
    >[!NOTE]
    >
@@ -39,9 +39,9 @@ La creazione di un&#39;attività [!DNL Target] che utilizza [!DNL Analytics] com
 
 1. Seleziona il tipo di attività e inizia a impostarla.
 
-   Se desideri creare un&#39;attività [!UICONTROL Auto-Allocate] o [!UICONTROL Auto-Target], consulta [Supporto A4T per attività di allocazione automatica e targeting automatico](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md) per ulteriori informazioni.
+   Se desideri creare un&#39;attività [!UICONTROL Allocazione automatica] o [!UICONTROL Targeting automatico], consulta [Supporto A4T per attività di allocazione automatica e targeting automatico](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md) per ulteriori informazioni.
 
-1. Una volta raggiunta la parte **[!UICONTROL Settings]** del flusso di creazione dell&#39;attività, scegli **[!UICONTROL Adobe Analytics]** e specifica la tua società.
+1. Quando accedi alla sezione **[!UICONTROL Impostazioni]** del flusso di creazione attività, scegli **[!UICONTROL Adobe Analytics]** e specifica la tua società.
 1. Seleziona una suite di rapporti.
 
    Puoi scegliere qualsiasi suite di rapporti disponibile in [!DNL Analytics]. La suite di rapporti definisce dove sono disponibili i dati raccolti. Le suite di rapporti virtuali non sono incluse nell&#39;elenco suite di rapporti.
@@ -79,7 +79,7 @@ La creazione di un&#39;attività [!DNL Target] che utilizza [!DNL Analytics] com
    >
    >Durante l&#39;impostazione di un&#39;attività dopo aver impostato [!DNL Analytics] come origine per la generazione di rapporti, non è possibile impostare tipi di pubblico per la generazione dei rapporti. [!DNL Analytics] segmenti sono disponibili nel rapporto Attività [!DNL Target].
 
-1. Fare clic su **[!UICONTROL Save]**.
+1. Fai clic su **[!UICONTROL Salva]**.
 
 ## Attività A4T e di allocazione automatica e targeting automatico
 

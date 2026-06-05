@@ -13,14 +13,14 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 602
+source-wordcount: 612
 ht-degree: 51%
 
 ---
 
 # Esperienza con più tipi di pubblico un testo A/B
 
-È possibile indirizzare le versioni della stessa esperienza a tipi di pubblico diversi nelle attività A/B di [!DNL Adobe Target]. È possibile impostare più tipi di pubblico per un&#39;esperienza nel [!UICONTROL Visual Experience Composer] (VEC) o nel Compositore esperienza basato su moduli.
+È possibile indirizzare le versioni della stessa esperienza a tipi di pubblico diversi nelle attività A/B di [!DNL Adobe Target]. È possibile impostare più tipi di pubblico per un&#39;esperienza nel [!UICONTROL Compositore esperienza visivo] o nel Compositore esperienza basato su moduli.
 
 I visitatori possono passare da un pubblico all’altro con la modifica del loro profilo. I visitatori non rimangono bloccati nella stessa esperienza per tutta la durata dell’attività.
 
@@ -40,9 +40,9 @@ In questo caso, sono necessarie versioni specifiche per l’area geografica dell
 
    Al momento di configurare l’esperienza che avrà più versioni, seleziona il pubblico per ogni versione, come illustrato nei passaggi seguenti.
 
-1. Seleziona l&#39;esperienza, quindi fai clic su **[!UICONTROL Configure]** > **[!UICONTROL Multiple Audiences]**.
+1. Seleziona l&#39;esperienza, quindi fai clic su **[!UICONTROL Configura]** > **[!UICONTROL Più tipi di pubblico]**.
 
-1. Fai clic sull&#39;icona **[!UICONTROL Add Audience]** ( ![Icona Aggiungi](/help/main/assets/icons/Add.svg) ) nel riquadro [!UICONTROL Experience Audiences], quindi seleziona il primo pubblico a cui desideri rivolgerti. Ripeti per ogni pubblico.
+1. Fai clic sull&#39;icona **[!UICONTROL Aggiungi pubblico]** ( ![Icona Aggiungi](/help/main/assets/icons/Add.svg) ) nel riquadro [!UICONTROL Tipi di pubblico esperienza], quindi seleziona il primo pubblico a cui desideri rivolgerti. Ripeti per ogni pubblico.
 
    Se il pubblico non esiste ancora, fai clic su [Crea pubblico](/help/main/c-target/c-audiences/create-audience.md#task_E18BD77A9A8F4ED0AC50569F94556558) e configuralo.
 

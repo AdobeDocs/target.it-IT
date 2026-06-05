@@ -20,8 +20,8 @@ topic_v2:
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 963
-ht-degree: 51%
+source-wordcount: 995
+ht-degree: 50%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 51%
 
 ## [!UICONTROL Target Standard] {#section_ACD5EFF17AAB4E979CBEFA0145CCD905}
 
-[!DNL Target Standard] è il front-end di [!DNL Adobe Target], che consente la creazione e la gestione visiva di test A/B e attività di targeting basate su regole. [!DNL Target] supporta l&#39;inserimento di codice personalizzato all&#39;interno e all&#39;esterno del flusso di lavoro [[!UICONTROL Visual Experience Composer]](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) (VEC). [!DNL Target Standard] offre una strategia di implementazione semplificata per le proprietà digitali, con una sola riga di codice in ogni pagina per gestire tutte le comunicazioni tra il sito e [!DNL Target].
+[!DNL Target Standard] è il front-end di [!DNL Adobe Target], che consente la creazione e la gestione visiva di test A/B e attività di targeting basate su regole. [!DNL Target] supporta l&#39;inserimento di codice personalizzato all&#39;interno e all&#39;esterno del flusso di lavoro [[!UICONTROL Compositore esperienza visivo]](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md). [!DNL Target Standard] offre una strategia di implementazione semplificata per le proprietà digitali, con una sola riga di codice in ogni pagina per gestire tutte le comunicazioni tra il sito e [!DNL Target].
 
 Le best practice di settore sono integrate in [!DNL Target Standard], rendendolo adatto sia agli utenti nuovi che a quelli esperti. Puoi condividere facilmente dati, risultati e collaborare con i membri del gruppo utilizzando [!DNL Adobe Experience Cloud].
 
@@ -41,11 +41,11 @@ Le best practice di settore sono integrate in [!DNL Target Standard], rendendolo
 
 [!BADGE Premium]{type=Positive}
 
-[!DNL Target Premium] è un&#39;offerta avanzata che richiede una licenza per aggiungere funzionalità Premium a [!DNL Target Standard]. Tutti gli articoli di [!DNL Target Premium] nelle guide di [!DNL Target] includono il badge [!UICONTROL Premium] nella parte superiore di ogni pagina o in linea vicino al testo interessato. Il badge [!UICONTROL Premium] è cliccabile e collega a questa sezione.
+[!DNL Target Premium] è un&#39;offerta avanzata che richiede una licenza per aggiungere funzionalità Premium a [!DNL Target Standard]. Tutti gli articoli [!DNL Target Premium] nelle guide di [!DNL Target] includono il contrassegno [!UICONTROL Premium] nella parte superiore di ogni pagina o in linea vicino al testo interessato. È possibile fare clic sul badge [!UICONTROL Premium] e creare collegamenti a questa sezione.
 
 **[!DNL Target Premium]include le seguenti funzionalità:**
 
-### [!UICONTROL Automated Personalization]
+### [!UICONTROL Personalizzazione automatizzata]
 
 [[!UICONTROL Automated Personalization]](/help/main/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) (AP) utilizza algoritmi avanzati di apprendimento automatico per fornire esperienze personalizzate e migliorare i tassi di conversione per le interazioni digitali.
 
@@ -53,13 +53,13 @@ AP registra l’attività dei visitatori e crea profili per eseguire il targetin
 
 AP è completamente automatizzato, apprendimento continuo con analisi umane minime. Crea modelli per determinare quali prodotti un visitatore potrebbe essere interessato, raccogliendo e memorizzando le informazioni nei profili dei visitatori. Gli algoritmi multipli garantiscono il modello migliore per il sistema.
 
-### [!UICONTROL Auto-Target]
+### [!UICONTROL Targeting automatico]
 
-[Targeting automatico](/help/main/c-activities/auto-target/auto-target-to-optimize.md) utilizza l&#39;apprendimento automatico avanzato per identificare esperienze ad alte prestazioni definite dall&#39;addetto al marketing. In seguito, distribuisce a ogni visitatore l’esperienza più personalizzata in base ai profili dei singoli clienti e al comportamento dei visitatori precedenti con profili simili. [!UICONTROL Auto-Target] consente di personalizzare il contenuto e favorire le conversioni.
+[Targeting automatico](/help/main/c-activities/auto-target/auto-target-to-optimize.md) utilizza l&#39;apprendimento automatico avanzato per identificare esperienze ad alte prestazioni definite dall&#39;addetto al marketing. In seguito, distribuisce a ogni visitatore l’esperienza più personalizzata in base ai profili dei singoli clienti e al comportamento dei visitatori precedenti con profili simili. [!UICONTROL Targeting automatico] consente di personalizzare il contenuto e favorire le conversioni.
 
 ### Consigli
 
-Mediante le attività [Consigli](/help/main/c-recommendations/recommendations.md#concept_7556C8A4543942F2A77B13A29339C0C0) vengono visualizzati automaticamente prodotti o contenuti che potrebbero interessare ai clienti sulla base delle loro precedenti attività. [!UICONTROL Recommendations] consente di indirizzare i clienti verso elementi rilevanti di cui potrebbero non essere a conoscenza.
+Mediante le attività [Consigli](/help/main/c-recommendations/recommendations.md#concept_7556C8A4543942F2A77B13A29339C0C0) vengono visualizzati automaticamente prodotti o contenuti che potrebbero interessare ai clienti sulla base delle loro precedenti attività. [!UICONTROL Consigli] aiutano a indirizzare i clienti verso elementi rilevanti di cui potrebbero non essere a conoscenza.
 
 Un consiglio determina in che modo un prodotto viene suggerito a un cliente, in base alle sue attività sul sito. Ad esempio:
 
@@ -77,18 +77,18 @@ Un consiglio determina in che modo un prodotto viene suggerito a un cliente, in 
 
 ### Consigli come offerta
 
-[Consigli come offerta](/help/main/c-recommendations/recommendations-as-an-offer.md) consente di includere consigli all&#39;interno di [!UICONTROL A/B Test], [!UICONTROL Auto-Allocate], [!UICONTROL Auto-Target] e [!UICONTROL Experience Targeting] attività (XT).
+[Consigli come offerta](/help/main/c-recommendations/recommendations-as-an-offer.md) consente di includere i consigli nelle attività [!UICONTROL Test A/B], [!UICONTROL Allocazione automatica], [!UICONTROL Targeting automatico] e [!UICONTROL Targeting esperienza] (XT).
 
 Questo apre a funzionalità tutte nuove, ad esempio:
 
 * Contenuto relativo e non relativo a consigli di test e targeting all’interno della stessa attività.
 * Facile sperimentazione con il posizionamento di consigli sulla pagina, tra cui l’ordine di più consigli.
-* Invio automatico di traffico all&#39;esperienza di consigli con le prestazioni migliori tramite [!UICONTROL Auto-Allocate].
-* Assegnazione dinamica di visitatori a esperienze di consigli su misura in base ai singoli profili tramite [!UICONTROL Auto-Target].
+* Invio automatico di traffico all&#39;esperienza di consigli con le prestazioni migliori tramite [!UICONTROL Allocazione automatica].
+* Assegnazione dinamica di visitatori a esperienze di consigli su misura in base ai singoli profili tramite [!UICONTROL Targeting automatico].
 
 ### Autorizzazioni per gli utenti Enterprise
 
-La funzionalità [Autorizzazioni per gli utenti aziendali](/help/main/administrating-target/c-user-management/property-channel/property-channel.md#concept_E396B16FA2024ADBA27BC056138F9838) consente di creare progetti diversi (denominati “profili di prodotto” in [!DNL Adobe Admin Console for Enterprise]). [!UICONTROL Enterprise User Permissions] ti consente di assegnare a un singolo utente diverse autorizzazioni che ne determinano i diritti di accesso per ciascun progetto. Questi progetti distinti possono essere paragonati al modo in cui le suite di rapporti funzionano in [!DNL Adobe Analytics]. In ogni progetto possono essere inclusi utenti specifici con ruoli specifici applicabili a un insieme di proprietà. Il risultato è che i clienti possono limitare l’accesso alla visualizzazione, alla modifica, all’approvazione e alla pubblicazione ai propri utenti. È possibile limitare gli utenti in base all’area geografica, all’ambiente (dev/stage/prod), al canale o ad altri criteri personalizzati.
+La funzionalità [Autorizzazioni per gli utenti aziendali](/help/main/administrating-target/c-user-management/property-channel/property-channel.md#concept_E396B16FA2024ADBA27BC056138F9838) consente di creare progetti diversi (denominati “profili di prodotto” in [!DNL Adobe Admin Console for Enterprise]). [!UICONTROL Autorizzazioni per gli utenti aziendali] ti consente di assegnare a un singolo utente diverse autorizzazioni che ne determinano i diritti di accesso per ciascun progetto. Questi progetti distinti possono essere paragonati al modo in cui le suite di rapporti funzionano in [!DNL Adobe Analytics]. In ogni progetto possono essere inclusi utenti specifici con ruoli specifici applicabili a un insieme di proprietà. Il risultato è che i clienti possono limitare l’accesso alla visualizzazione, alla modifica, all’approvazione e alla pubblicazione ai propri utenti. È possibile limitare gli utenti in base all’area geografica, all’ambiente (dev/stage/prod), al canale o ad altri criteri personalizzati.
 
 ## Funzioni di Beta {#beta}
 

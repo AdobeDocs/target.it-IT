@@ -23,7 +23,7 @@ topic_v2:
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 2960
+source-wordcount: 2891
 ht-degree: 73%
 
 ---
@@ -169,7 +169,7 @@ Ad esempio, un cliente Adobe nel campo dei servizi sanitari ha recentemente dimo
 Uno dei vantaggi della configurazione delle attività per l’utilizzo dei parametri di controllo qualità è la possibilità di condividere tali collegamenti con tutti gli utenti del team. Fai in modo che più persone siano consapevoli dell’attività e assicurati che non credano che il sito non funzioni correttamente quando raggiungono una variante di test.
 
 Dopo aver completato i test, comunicare i lanci delle campagne, i risultati dei test e in particolare le lezioni apprese ti aiuta a sensibilizzare l’utente sui risultati dei test e a renderli più interessati. Condividere i risultati con tutti nell’organizzazione evita anche di ripetere un’ipotesi, educa tutti su ciò che funziona e li aiuta fondamentalmente a sfidare le proprie idee su ciò che funziona in base a ciò che hai trovato. È consigliabile preparare un modello da utilizzare ogni volta per condividere i risultati e gli insegnamenti chiave.
-Quindi prendi in considerazione la creazione di un libro condivisibile o un deck Microsoft PowerPoint che acquisisce cumulativamente questi insegnamenti.
+Quindi prendi in considerazione la creazione di un libro condivisibile o un deck Microsoft PowerPoint che acquisisca cumulativamente questi insegnamenti.
 
 ## Suggerimento 20: utilizza la funzionalità mobile per creare attività mobili più innovative.
 

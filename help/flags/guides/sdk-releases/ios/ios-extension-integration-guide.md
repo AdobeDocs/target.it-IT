@@ -4,8 +4,8 @@ description: Scopri come integrare l’estensione Experience Rollout con Adobe E
 hide: true
 source-git-commit: fea4d9e87ad8417de9d820ee3556796fba112dc1
 workflow-type: tm+mt
-source-wordcount: '893'
-ht-degree: 6%
+source-wordcount: '929'
+ht-degree: 7%
 
 ---
 
@@ -63,7 +63,7 @@ Assicurati che queste estensioni siano installate nella proprietà mobile di Dat
 
 ## Aggiungere l’estensione Experience Rollout all’app {#add-to-app}
 
-### Aggiungere dipendenze {#add-dependencies}
+### Aggiungi dipendenze {#add-dependencies}
 
 Aggiungi le dipendenze di Mobile SDK al progetto. L&#39;estensione Experience Rollout richiede Mobile Core e le estensioni relative ad Edge elencate di seguito.
 

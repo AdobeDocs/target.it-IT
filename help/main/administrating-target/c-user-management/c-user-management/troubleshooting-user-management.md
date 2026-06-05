@@ -16,8 +16,8 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 83
-ht-degree: 65%
+source-wordcount: 84
+ht-degree: 64%
 
 ---
 
@@ -27,4 +27,4 @@ Risoluzione dei problemi di gestione degli utenti in Adobe Target.
 
 ## Ho invitato un utente a Target, ma il suo nome non viene visualizzato nellʼelenco Utenti (Amministrazione > Utenti). {#section_13A1A9697BA44537BA569C81CF136160}
 
-Il nuovo utente verrà visualizzato nella pagina [!UICONTROL Users] solo dopo che avrà effettuato l&#39;accesso con il proprio account Adobe Experience Cloud e quindi a [!DNL Target Standard/Premium].
+Il nuovo utente verrà visualizzato nella pagina [!UICONTROL Utenti] solo dopo che avrà effettuato l&#39;accesso con il proprio account Adobe Experience Cloud e quindi a [!DNL Target Standard/Premium].

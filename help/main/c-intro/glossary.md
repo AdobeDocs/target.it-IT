@@ -30,7 +30,7 @@ topic_v2:
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 2514
+source-wordcount: 2526
 ht-degree: 97%
 
 ---
@@ -171,7 +171,7 @@ La misura dell’interesse di un visitatore nei confronti di un sito, in termini
 
 **compositore esperienza avanzato**
 
-[!UICONTROL Enhanced Experience Composer] è un&#39;estensione di [!UICONTROL Visual Experience Composer] che consente di modificare un&#39;esperienza per siti non compatibili con iframe o per pagine che non includono ancora l&#39;implementazione di [!DNL Target]. In caso di problemi durante l&#39;apertura della pagina in [!UICONTROL Visual Experience Composer], provare [!UICONTROL Enhanced Experience Composer].
+Il [!UICONTROL Compositore esperienza avanzato] è un&#39;estensione del [!UICONTROL Compositore esperienza visivo] che consente di modificare un&#39;esperienza per siti non compatibili con iframe o per pagine che non includono ancora l&#39;implementazione di [!DNL Target]. Se hai problemi ad aprire la pagina nel [!UICONTROL Compositore esperienza visivo], prova il [!UICONTROL Compositore esperienza avanzato].
 
 **autorizzazioni per gli utenti Enterprise**
 
