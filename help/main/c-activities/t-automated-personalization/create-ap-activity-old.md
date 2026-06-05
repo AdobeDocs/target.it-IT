@@ -28,7 +28,7 @@ Il flusso di lavoro dell&#39;attività [!UICONTROL Automated Personalization] (A
 
    >[!NOTE]
    >
-   >Oltre al Compositore esperienza visivo e al Compositore esperienza basato su moduli [!UICONTROL 1}, [!DNL Target] offre il [!UICONTROL Compositore esperienza visivo per applicazione a pagina singola]. ]Per ulteriori informazioni sui vari moduli di composizione, consulta [Esperienze e offerte](/help/main/c-experiences/experiences.md).
+   >Oltre al Compositore esperienza visivo e al Compositore esperienza basato su moduli [!UICONTROL 1&rbrace;, [!DNL Target] offre il [!UICONTROL Compositore esperienza visivo per applicazione a pagina singola]. &#x200B;]Per ulteriori informazioni sui vari moduli di composizione, consulta [Esperienze e offerte](/help/main/c-experiences/experiences.md).
    >
    >Per informazioni sulla risoluzione dei problemi relativi al Compositore esperienza visivo, vedere [Risoluzione dei problemi relativi al Compositore esperienza visivo](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md).
 

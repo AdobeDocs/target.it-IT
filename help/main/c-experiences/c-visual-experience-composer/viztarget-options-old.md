@@ -178,7 +178,7 @@ I punti blu nel pannello principale e accanto a ogni opzione nei vari pannelli d
    * [!UICONTROL Sfocatura]
    * [!UICONTROL Opacità]
    * [!UICONTROL Inverti]
-*[!UICONTROL  rotazione tonalità]
+*[!UICONTROL &#x200B; rotazione tonalità]
    * [!UICONTROL Saturazione]
 
 * **[!UICONTROL Editor CSS]**
@@ -309,7 +309,7 @@ La funzione Consigli supporta la funzione Sostituisci con nei tag DIV, SECTION e
 
 Seleziona un&#39;offerta diversa dalla [!UICONTROL Libreria contenuti].
 
-**Nota:**[!DNL Target] le offerte HTML sono memorizzate sui server di
+**Nota:**&#x200B;[!DNL Target] le offerte HTML sono memorizzate sui server di
 
 Un&#39;offerta HTML può essere fino a 256 KB.
 

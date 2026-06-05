@@ -5,9 +5,16 @@ title: Cos'è un'attività [!UICONTROL Allocazione automatica]?
 feature: Auto-Allocate
 exl-id: 2d1ddd71-2ca6-4f00-9d0c-eb25ede8fdb8
 TQID: https://experienceleague.adobe.com/V5ZS2vBGVilH0-4bacB4x7iQi8M6qroLe3R9LNMoVEc
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
 source-wordcount: 3756
@@ -87,7 +94,7 @@ L&#39;illustrazione mostra come il traffico assegnato a ogni esperienza progredi
 >
 >Se un&#39;attività ha solo due esperienze, entrambe ottengono la stessa quantità di traffico fino a quando [!DNL Target] trova un&#39;esperienza vincente con il 75% di affidabilità. A quel punto, due terzi del traffico vengono assegnati al vincitore e un terzo al perdente. Successivamente, quando un’esperienza raggiunge il 95% di affidabilità, il 90% del traffico viene assegnato al vincitore e il 10% al perdente. [!DNL Target] invia sempre del traffico all&#39;esperienza &quot;perdente&quot; per evitare falsi positivi alla fine (ovvero, mantieni alcune esplorazioni).
 
-Dopo l&#39;attivazione di un&#39;attività [!UICONTROL Allocazione automatica], le operazioni seguenti dell&#39;interfaccia utente Tar[!DNL]get non sono consentite:
+Dopo l&#39;attivazione di un&#39;attività [!UICONTROL Allocazione automatica], le operazioni seguenti dell&#39;interfaccia utente Target non sono consentite:
 
 * Impostazione della modalità di Allocazione traffico su Manuale
 * Modifica del tipo di metrica obiettivo

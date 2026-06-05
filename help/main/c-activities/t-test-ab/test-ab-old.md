@@ -17,7 +17,7 @@ Un&#39;attività [!UICONTROL Test A/B] manuale confronta due o più versioni del
 
 >[!NOTE]
 >
->Oltre all&#39;attività [!UICONTROL Test A/B ] manuale (impostazione predefinita) (discussa in questa sezione), [!DNL Target] fornisce altri due tipi di attività [!UICONTROL Test A/B]: [!UICONTROL Allocazione automatica] e [!UICONTROL Targeting automatico]. Per ulteriori informazioni, consulta [Tipi di attività di test A/B](#types) di seguito.
+>Oltre all&#39;attività [!UICONTROL Test A/B &#x200B;] manuale (impostazione predefinita) (discussa in questa sezione), [!DNL Target] fornisce altri due tipi di attività [!UICONTROL Test A/B]: [!UICONTROL Allocazione automatica] e [!UICONTROL Targeting automatico]. Per ulteriori informazioni, consulta [Tipi di attività di test A/B](#types) di seguito.
 
 Un&#39;attività [!UICONTROL Test A/B] manuale (a volte definita test A/B...N) confronta due o più versioni del contenuto del sito Web per vedere quale versione meglio solleva le conversioni, le vendite o altre metriche identificate. Un test A/B permette di confrontare le modifiche apportate alla pagina rispetto alla struttura di pagina predefinita, per determinare quale esperienza produce i risultati migliori.
 
