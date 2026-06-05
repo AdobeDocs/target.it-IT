@@ -6,17 +6,12 @@ feature: Audiences
 solution: Target,Analytics
 exl-id: e4a71a4d-e8f3-4f94-a1a7-fd250f4d5095
 TQID: https://experienceleague.adobe.com/1ksd0-jtTMia-wqAfr6SxPqGVgd9t17dKSEyYrfYp1U
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
-  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3aid: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eebid: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 1059
+source-wordcount: 1078
 ht-degree: 40%
 
 ---
@@ -29,28 +24,28 @@ I parametri di geolocalizzazione consentono di eseguire il targeting di attivit�
 
 ## Creare un pubblico con il geotargeting {#section_49CBFFAAC8694C4AAD3DE4B2DB7B05DE}
 
-1. Nell&#39;interfaccia [!DNL Target], fare clic su **[!UICONTROL Audiences]** > **[!UICONTROL Create Audience]**.
+1. Nell&#39;interfaccia [!DNL Target], fare clic su **[!UICONTROL Tipi di pubblico]** > **[!UICONTROL Crea pubblico]**.
 1. Assegna un nome al pubblico e aggiungi una descrizione facoltativa.
-1. Trascina **[!UICONTROL Geo]** nel riquadro Generatore di pubblico.
+1. Trascina e rilascia **[!UICONTROL Geo]** nel riquadro generatore di pubblico.
 
-1. Fare clic su **[!UICONTROL Select]**, quindi selezionare una delle opzioni seguenti:
+1. Fai clic su **[!UICONTROL Seleziona]**, quindi scegli una delle seguenti opzioni:
 
-   * [!UICONTROL Country/Region]
-   * [!UICONTROL State]
-   * [!UICONTROL City]
-   * [!UICONTROL Zip Code]
-   * [!UICONTROL Longitude]
-   * [!UICONTROL Latitude]
+   * [!UICONTROL Paese]
+   * [!UICONTROL Stato]
+   * [!UICONTROL Città]
+   * [!UICONTROL Codice postale]
+   * [!UICONTROL Longitudine]
+   * [!UICONTROL Latitudine]
    * [!UICONTROL DMA]
-   * [!UICONTROL Mobile Carrier]
+   * [!UICONTROL Gestore di telefonia mobile]
 
    Le informazioni geografiche di un visitatore sono determinate dall’indirizzo IP di origine di una richiesta di posizione [!DNL Target] (richiesta mbox). La risoluzione IP-to-geo viene eseguita per la prima chiamata di una nuova sessione. Ciò significa che, se l’indirizzo IP di un visitatore cambia durante la sessione di una visita, le informazioni geografiche si basano comunque sull’indirizzo IP della prima chiamata.
 
-   Per [!UICONTROL Mobile Carrier], [!DNL Target] utilizza i dati di registrazione dell&#39;indirizzo IP (chi possiede il blocco di indirizzi IP) per determinare il gestore di telefonia mobile appropriato utilizzando [codici nazionali (MCC, Mobile Country Code) e codici di rete mobile (MCC, Mobile Network Code)](https://www.mcc-mnc.com).
+   Per [!UICONTROL Operatore mobile], [!DNL Target] utilizza i dati di registrazione dell&#39;indirizzo IP (proprietario del blocco di indirizzi IP) per determinare il gestore telefonico appropriato utilizzando [i codici nazionali (MCC) e i codici di rete mobile (MCC)](https://www.mcc-mnc.com).
 
 1. Specifica un operatore e il valore appropriato.
 1. (Facoltativo) Imposta regole aggiuntive per il pubblico.
-1. Fare clic su **[!UICONTROL Done]**.
+1. Fai clic su **[!UICONTROL Fine]**.
 
 L’illustrazione seguente mostra un pubblico che include gli utenti che accedono all’attività da una latitudine superiore a 44° e una longitudine inferiore a 22°.
 

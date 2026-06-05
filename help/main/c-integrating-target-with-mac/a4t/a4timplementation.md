@@ -5,21 +5,13 @@ title: Come si implementa Analytics per  [!DNL Target] (A4T)?
 feature: Analytics for Target (A4T)
 exl-id: b5269b9e-01ef-449a-bb03-3dcc2cd68af7
 TQID: https://experienceleague.adobe.com/1e51ngQ1R8qogTPpEQ-mNo601s7zq2DGgKi62VhnfYA
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
-subfeature_v2:
-  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: c93393a4-e558-47e1-992e-c91ed4d480ce
+subfeature_v2: id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 1168
+source-wordcount: 1194
 ht-degree: 17%
 
 ---
@@ -46,13 +38,13 @@ Creare una configurazione di Edge utilizzando [!DNL Adobe Experience Platform] u
 
 ### Passaggio 4: installare e configurare Platform Web SDK
 
-Per iniziare a distribuire [!DNL Target] esperienze e applicare [!DNL Analytics] a scopo di monitoraggio e analisi, [Installa](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=it) e [configura](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html?lang=it) Platform Web SDK nelle pagine del sito.
+Per iniziare a distribuire [!DNL Target] esperienze e applicare [!DNL Analytics] a scopo di monitoraggio e analisi, [Installa](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html) e [configura](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html) Platform Web SDK nelle pagine del sito.
 
 ### Passaggio 5: abilitare le opzioni per l’utilizzo di A4T
 
-Nell&#39;interfaccia utente di [!DNL Target], fare clic su **[!UICONTROL Administration]** > **[!UICONTROL Visual Experience Composer]**, quindi scegliere **[!UICONTROL Select per activity]** o **[!UICONTROL Adobe Analytics]**.
+Nell&#39;interfaccia utente di [!DNL Target], fare clic su **[!UICONTROL Amministrazione]** > **[!UICONTROL Compositore esperienza visivo]**, quindi scegliere **[!UICONTROL Seleziona per attività]** o **[!UICONTROL Adobe Analytics]**.
 
-* **[!UICONTROL Select per activity]** consente di scegliere tra [!DNL Target] e [!DNL Analytics] durante la creazione di ogni attività.
+* **[!UICONTROL Seleziona per attività]** consente di scegliere tra [!DNL Target] e [!DNL Analytics] durante la creazione di ogni attività.
 * **[!UICONTROL Adobe Analytics]** imposta [!DNL Analytics] come origine per la generazione di rapporti per tutte le attività create.
 
 ## ![Badge at.js](/help/main/assets/atjs.png) Passaggi per l&#39;implementazione di at.js{#section_73961BAD5BB4430A95E073DE5C026277}
@@ -69,17 +61,17 @@ I requisiti dell&#39;account utente devono essere soddisfatti prima di creare un
 
 ### Passaggio 3: Implementare il servizio ID visitatore di Experience Cloud
 
-Il servizio ID visitatore consente di identificare gli utenti nelle soluzioni [!DNL Adobe Experience Cloud]. Implementa o esegui la migrazione alla versione richiesta dell’ID visitatore di Experience Cloud. Per ulteriori informazioni, consulta “Requisiti di implementazione” in [Prima dell’implementazione](/help/main/c-integrating-target-with-mac/a4t/before-implement.md).
+Il servizio ID visitatore consente di identificare gli utenti nelle soluzioni [!DNL Adobe Experience Cloud]. Implementa o esegui la migrazione alla versione richiesta del servizio ID visitatore di Experience Cloud. Per ulteriori informazioni, consulta “Requisiti di implementazione” in [Prima dell’implementazione](/help/main/c-integrating-target-with-mac/a4t/before-implement.md).
 
-Consulta [Implementazione del servizio Experience Cloud ID per Target](https://experienceleague.adobe.com/docs/id-service/using/implementation/setup-target.html?lang=it) nella documentazione del *servizio ID visitatore di Experience Cloud*.
+Consulta [Implementazione del servizio Experience Cloud ID per Target](https://experienceleague.adobe.com/docs/id-service/using/implementation/setup-target.html) nella documentazione del *servizio ID visitatore di Experience Cloud*.
 
 ### Passaggio 4: Aggiornare AppMeasurement per JavaScript o s_code
 
 Implementa o esegui la migrazione alla versione richiesta di appMeasurement.js. Per ulteriori informazioni, consulta “Requisiti di implementazione” in [Prima dell’implementazione](/help/main/c-integrating-target-with-mac/a4t/before-implement.md).
 
-Per le nuove implementazioni, consulta [Panoramica sull&#39;implementazione di JavaScript](https://experienceleague.adobe.com/docs/analytics/implementation/js/overview.html?lang=it) nella *Guida all&#39;implementazione di Analytics*.
+Per le nuove implementazioni, consulta [Panoramica sull&#39;implementazione di JavaScript](https://experienceleague.adobe.com/docs/analytics/implementation/js/overview.html) nella *Guida all&#39;implementazione di Analytics*.
 
-Per una migrazione, vedere [Migrazione ad AppMeasurement per JavaScript](https://experienceleague.adobe.com/docs/analytics/implementation/js/migrate-from-hcode.html?lang=it) nella *Guida all&#39;implementazione di Analytics*.
+Per una migrazione, vedere [Migrazione ad AppMeasurement per JavaScript](https://experienceleague.adobe.com/docs/analytics/implementation/js/migrate-from-hcode.html) nella *Guida all&#39;implementazione di Analytics*.
 
 ### Passaggio 5: Scaricare e aggiornare at.js
 
@@ -129,7 +121,7 @@ Questa configurazione ha un effetto globale, il che significa che ogni chiamata 
 }
 ```
 
-Il payload può quindi essere inoltrato ad Analytics tramite l&#39;[API di inserimento dati](https://helpx.adobe.com/it/analytics/kb/data-insertion-api-post-method-adobe-analytics.html). Per le attività Allocazione automatica e Targeting automatico, devi anche inoltrare il sessionId. Per ulteriori informazioni, consulta [Generazione rapporti di Analytics for Target (A4T)](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/integration/a4t-reporting.html?lang=it){target=_blank} nella guida *SDK per Adobe Target*.
+Il payload può quindi essere inoltrato ad Analytics tramite l&#39;[API di inserimento dati](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html). Per le attività Allocazione automatica e Targeting automatico, devi anche inoltrare il sessionId. Per ulteriori informazioni, consulta [Generazione rapporti di Analytics for Target (A4T)](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/integration/a4t-reporting.html){target=_blank} nella guida *SDK per Adobe Target*.
 
 Se non desideri usare un&#39;impostazione globale e preferisci un approccio di tipo on-demand, usa la funzione at.js [getOffers()](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/adobe-target-getoffers-atjs-2.html){target=_blank} passando **analyticsLogging: &quot;client_side&quot;**. Il payload di Analytics viene restituito solo per questa chiamata e il backend [!DNL Target] non inoltra il payload a [!DNL Analytics]. Seguendo questo approccio, ogni richiesta di at.js [!DNL Target] restituisce il payload per impostazione predefinita, ma solo quando desiderato e specificato.
 
@@ -187,7 +179,7 @@ La risposta si presenta come segue:
 }
 ```
 
-Il payload può quindi essere inoltrato a [!DNL Analytics] tramite l&#39;[API di inserimento dati](https://helpx.adobe.com/it/analytics/kb/data-insertion-api-post-method-adobe-analytics.html).
+Il payload può quindi essere inoltrato a [!DNL Analytics] tramite l&#39;[API di inserimento dati](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html).
 
 ### Passaggio 8: Convalidare l’implementazione {#step8}
 
@@ -205,9 +197,9 @@ Adobe consiglia di rimuovere l’integrazione precedente per semplificare l’im
 
 ### Passaggio 10: Abilitare le opzioni per l’utilizzo di Analytics come origine per la creazione di rapporti per Target
 
-In [!DNL Target], fare clic su **[!UICONTROL Administration > Reporting]** e scegliere **[!UICONTROL Select per activity]** o **[!UICONTROL Adobe Analytics]** per abilitare le opzioni.
+In [!DNL Target], fai clic su **[!UICONTROL Amministrazione > Generazione rapporti]** e scegli **[!UICONTROL Seleziona per attività]** o **[!UICONTROL Adobe Analytics]** per abilitare le opzioni.
 
-* **[!UICONTROL Select per activity]** consente di scegliere tra [!DNL Target] e [!DNL Analytics] durante la creazione di ogni attività.
+* **[!UICONTROL Seleziona per attività]** consente di scegliere tra [!DNL Target] e [!DNL Analytics] durante la creazione di ogni attività.
 * **[!UICONTROL Adobe Analytics]** imposta [!DNL Analytics] come origine per la generazione di rapporti per tutte le attività create.
 
 

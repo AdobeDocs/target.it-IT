@@ -2,15 +2,13 @@
 keywords: attributi di entità multivalore;attributi di entità personalizzati;JSON valido;valore di attributo di entità;vettore JSON;array JSON;matrice JSON;multivalore;con più valori
 description: Scopri come utilizzare attributi di entità personalizzati a valore singolo e multiplo per definire informazioni aggiuntive sugli elementi nel catalogo Adobe [!DNL Target] Recommendations.
 title: Come Si Utilizzano Gli Attributi Di Entità Personalizzati?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=it#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."
 feature: Recommendations
 mini-toc-levels: 3
 exl-id: d7d0b04a-0f50-4d30-9cbe-c0347a3d3715
 TQID: https://experienceleague.adobe.com/eFeg78-PswBCwtpzMR7j5c8FJ03MyQVcSdzo6ctZt3Q
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
 source-wordcount: 1504
@@ -132,7 +130,7 @@ Puoi trasmettere attributi con più valori utilizzando l’API di consegna in un
   }
 ```
 
-Per informazioni sull&#39;utilizzo delle API di recapito e salvataggio di entità, consulta la [documentazione delle API di Adobe Recommendations](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=it){target=_blank}.
+Per informazioni sull&#39;utilizzo delle API di recapito e salvataggio di entità, consulta la [documentazione delle API di Adobe Recommendations](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}.
 
 ## Utilizzo di operatori con attributi con più valori {#section_83C2288A805242D9A02EBC4F07DEE945}
 

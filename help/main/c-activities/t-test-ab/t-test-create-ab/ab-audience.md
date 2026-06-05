@@ -5,16 +5,13 @@ title: Come si seleziona un pubblico in un'attività  [!DNL Target] A/B?
 feature: A/B Tests
 exl-id: 281ae227-c593-4b71-ad12-865430b332be
 TQID: https://experienceleague.adobe.com/7W8BrRxk4mKlYlgGb-GSOuc0kRMRWBvSochz9STYrTs
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 531
-ht-degree: 11%
+source-wordcount: 575
+ht-degree: 10%
 
 ---
 
@@ -30,45 +27,45 @@ Per ulteriori informazioni su tutte le opzioni del diagramma di flusso, vedere [
 
 ## Selezionare un pubblico per l’attività
 
-1. Fare clic sul controllo **[!UICONTROL All Visitors]** per selezionare un altro pubblico per l&#39;attività.
+1. Fare clic sul controllo **[!UICONTROL Tutti i visitatori]** per selezionare un altro pubblico per l&#39;attività.
 
-   Il pubblico [!UICONTROL All Visitors] è impostato come predefinito. Se selezioni un altro pubblico, il suo nome viene visualizzato nel controllo più a sinistra.
+   Il pubblico [!UICONTROL Tutti i visitatori] è impostato come predefinito. Se selezioni un altro pubblico, il suo nome viene visualizzato nel controllo più a sinistra.
 
-   Per un test A/B senza targeting di pubblico specifico, scegli il valore predefinito, [!UICONTROL All Visitors].
+   Per un test A/B senza targeting di pubblico specifico, scegli il valore predefinito, [!UICONTROL Tutti i visitatori].
 
    Viene visualizzato il frame a destra, che consente di aggiungere o eliminare un pubblico e di assegnare la percentuale di visitatori per l’attività.
 
-1. Per cambiare il pubblico, fai clic sull&#39;icona **[!UICONTROL Replace]** ( ![Icona Sostituisci](/help/main/assets/icons/Retweet.svg) ) nel frame a destra.
+1. Per cambiare il pubblico, fai clic sull&#39;icona **[!UICONTROL Sostituisci]** ( ![Sostituisci icona](/help/main/assets/icons/Retweet.svg) ) nel riquadro a destra.
 
-1. Nella finestra di dialogo [!UICONTROL Add Audience], [seleziona il pubblico desiderato](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-audience.md), quindi fai clic su **[!UICONTROL Assign Audience]**.
+1. Nella finestra di dialogo [!UICONTROL Aggiungi pubblico], [seleziona il pubblico desiderato](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-audience.md), quindi fai clic su **[!UICONTROL Assegna pubblico]**.
 
-   Per impostazione predefinita, il pubblico è composto da tutti i visitatori. Tuttavia, è possibile modificarlo. I tipi di pubblico sono selezionati da [!UICONTROL Audience Library] oppure è possibile creare un pubblico per sola attività. [!UICONTROL Audience Library] contiene tipi di pubblico definiti in precedenza, inclusi alcuni di utilizzo comune già integrati in [!DNL Target].
+   Per impostazione predefinita, il pubblico è composto da tutti i visitatori. Tuttavia, è possibile modificarlo. I tipi di pubblico sono selezionati dalla [!UICONTROL Libreria tipi di pubblico] oppure è possibile creare un pubblico per sola attività. La [!UICONTROL Libreria tipi di pubblico] contiene tipi di pubblico definiti in precedenza, inclusi alcuni tipi di pubblico comuni predefiniti come parte di [!DNL Target].
 
 1. (Facoltativo) Fai clic su **Combina tipi di pubblico** per [creare un pubblico che combini più tipi di pubblico](/help/main/c-target/combining-multiple-audiences.md).
 
-1. (Condizionale) Per creare un nuovo pubblico che non è già presente in [!UICONTROL Audience Library], fai clic su **Crea pubblico**, definisci il pubblico, quindi fai clic su **[!UICONTROL Done]**.
+1. (Condizionale) Per creare un nuovo pubblico che non sia già presente nella [!UICONTROL Libreria pubblico], fai clic su **Crea pubblico**, definisci il pubblico, quindi fai clic su **[!UICONTROL Fine]**.
 
    Durante il flusso di lavoro [create-audience](/help/main/c-target/c-audiences/audiences.md), puoi scegliere tra le seguenti opzioni:
 
-   * **[!UICONTROL Audience Library]**: crea un pubblico su richiesta salvato in [!UICONTROL Audience Library] che può essere riutilizzato in altre attività.
-   * **[!UICONTROL This activity only]**: crea un [pubblico specifico per l&#39;attività](/help/main/c-target/creating-activity-only-audience.md) che non è salvato in [!UICONTROL Audience Library] e può essere utilizzato solo nell&#39;attività corrente.
+   * **[!UICONTROL Libreria tipi di pubblico]**: crea un pubblico on-demand salvato nella [!UICONTROL Libreria tipi di pubblico] che può essere riutilizzato in altre attività.
+   * **[!UICONTROL Solo per questa attività]**: crea un [pubblico specifico per l&#39;attività](/help/main/c-target/creating-activity-only-audience.md) che non viene salvato nella [!UICONTROL Libreria tipi di pubblico] e che può essere utilizzato solo nell&#39;attività corrente.
 
-1. Fai clic su **[!UICONTROL Visitor Percentage]** nel riquadro a destra, quindi specifica la percentuale di visitatori idonei da includere nell&#39;attività.
+1. Fai clic su **[!UICONTROL Percentuale visitatori]** nel riquadro a destra, quindi specifica la percentuale di visitatori idonei da includere nell&#39;attività.
 
-1. Quando si è soddisfatti del pubblico, fare clic su **[!UICONTROL Next]** per passare al terzo passaggio del flusso di lavoro guidato in tre passaggi.
+1. Quando sei soddisfatto del pubblico, fai clic su **[!UICONTROL Avanti]** per passare al terzo passaggio del flusso di lavoro guidato in tre passaggi.
 
 >[!NOTE]
 >
->I tipi di pubblico vengono importati automaticamente in background quando si apre l&#39;elenco [!UICONTROL Audience] e i tipi di pubblico importati hanno più di 10 minuti.
+>I tipi di pubblico vengono importati automaticamente in background quando si apre l&#39;elenco [!UICONTROL Tipi di pubblico] e i tipi di pubblico importati hanno più di 10 minuti.
 
 ## Visualizzare le informazioni di un pubblico
 
-1. Nella finestra di dialogo [!UICONTROL Add Audiences], fai clic sull&#39;icona **[!UICONTROL Information]** ( ![icona Info](/help/main/assets/icons/InfoOutline.svg) ) accanto a un pubblico per visualizzare i dettagli su tale pubblico, inclusi l&#39;origine e gli attributi.
+1. Nella finestra di dialogo [!UICONTROL Aggiungi pubblico], fai clic sull&#39;icona **[!UICONTROL Informazioni]** ( ![Icona Informazioni](/help/main/assets/icons/InfoOutline.svg) ) accanto a un pubblico per visualizzare i dettagli su tale pubblico, inclusi la sua origine e i suoi attributi.
 
-1. Fare clic su **[!UICONTROL View Full Details]** per visualizzare ulteriori dettagli sul pubblico. I dettagli includono gli attributi del pubblico, la descrizione, l’area di lavoro, il tipo e l’origine del pubblico e un elenco di attività che fanno riferimento a tale pubblico. Puoi visualizzare informazioni su ogni pubblico, tra cui il nome dell’attività, lo stato, l’area di lavoro, la data dell’ultima modifica apportata al pubblico e chi l’ha effettuata.
+1. Fai clic su **[!UICONTROL Visualizza dettagli completi]** per visualizzare ulteriori dettagli sul pubblico. I dettagli includono gli attributi del pubblico, la descrizione, l’area di lavoro, il tipo e l’origine del pubblico e un elenco di attività che fanno riferimento a tale pubblico. Puoi visualizzare informazioni su ogni pubblico, tra cui il nome dell’attività, lo stato, l’area di lavoro, la data dell’ultima modifica apportata al pubblico e chi l’ha effettuata.
 
 ## Modificare o copiare un pubblico
 
-È possibile modificare o copiare un pubblico facendo clic sull&#39;icona [!UICONTROL More Actions] ( ![Icona Altre azioni](/help/main/assets/icons/More.svg) ) accanto al pubblico desiderato nella finestra di dialogo [!UICONTROL Add Audience], quindi facendo clic su [!UICONTROL Edit] o [!UICONTROL Copy].
+Puoi modificare o copiare un pubblico facendo clic sull&#39;icona [!UICONTROL Altre azioni] ( ![Altre azioni](/help/main/assets/icons/More.svg) ) accanto al pubblico desiderato nella finestra di dialogo [!UICONTROL Aggiungi pubblico], quindi facendo clic su [!UICONTROL Modifica] o [!UICONTROL Copia].
 
 È utile copiare un pubblico per crearne uno simile a un pubblico esistente. Puoi effettuare una copia del pubblico, apportarvi le modifiche desiderate, e quindi salvarlo come un nuovo pubblico.

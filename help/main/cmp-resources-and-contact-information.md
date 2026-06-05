@@ -5,22 +5,14 @@ title: Dove posso trovare risorse e informazioni di contatto per Target?
 feature: Release Notes,Overview
 exl-id: 0433133c-933a-4d30-bab6-589395f0c9d6
 TQID: https://experienceleague.adobe.com/wwItoNoGUkLkNZED9frN7e5FE7O-iozDzMd2ekDdgfM
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
-subfeature_v2:
-  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: c93393a4-e558-47e1-992e-c91ed4d480ce
+subfeature_v2: id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 1313
-ht-degree: 79%
+source-wordcount: 1326
+ht-degree: 78%
 
 ---
 
@@ -28,11 +20,11 @@ ht-degree: 79%
 
 Informazioni sulle risorse aggiuntive per scoprire di più sulle funzionalità di Target e su come contattare Adobe in caso di necessità di assistenza con Target.
 
-## [!UICONTROL Target Community Forum] {#concept_9C203A8AED054DFFA9A504811DB6BA42}
+## [!UICONTROL Forum della community di Target] {#concept_9C203A8AED054DFFA9A504811DB6BA42}
 
-Scopri [!UICONTROL Adobe Target Community]: il tuo hub per approfondimenti e collaborazione.
+Scopri la [!UICONTROL community di Adobe Target]: il tuo hub per approfondimenti e collaborazione.
 
-[!UICONTROL Adobe Target Community Forum] è la destinazione di accesso per tutto [!DNL Adobe Targe]. Che tu abbia appena iniziato o sia un professionista esperto, la community offre preziose opportunità per:
+Il [!UICONTROL forum della community Adobe Target]è la destinazione di accesso per tutto [!DNL Adobe Targe]t. Che tu abbia appena iniziato o sia un professionista esperto, la community offre preziose opportunità per:
 
 * **Esplora le funzionalità di [!DNL Target]**: scopri le best practice e i nuovi modi in cui utilizzare [!DNL Target].
 * **Connettiti e collabora**: interagisci con colleghi ed esperti di [!DNL Adobe] per condividere informazioni e risolvere insieme le sfide.
@@ -40,12 +32,12 @@ Scopri [!UICONTROL Adobe Target Community]: il tuo hub per approfondimenti e col
 
 Partecipa alla conversazione, fornisci le tue competenze e ottieni le risposte che ti servono, il tutto in un&#39;unica posizione.
 
-Visita il [Forum della Community di Target](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community?profile.language=it) per iniziare.
+Visita il [Forum della Community di Target](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community) per iniziare.
 
 ## Serie di webinar sui fondamenti di Target {#concept_11902FAC95C64479AABE020557A7EEE4}
 
 +++Vedi i dettagli
-Esplora la [[serie di webinar sui fondamenti di Target]](https://landing.adobe.com/acs/2018/na/adobe-target/registration.html){target=_blank}, un&#39;iniziativa di successo del cliente offerta da [!UICONTROL Adobe Target Community]. Accedi ai dettagli di registrazione per le sessioni future e sfoglia le registrazioni di webinar precedenti per approfondire la tua conoscenza delle funzionalità di [!DNL Target], delle best practice e dei casi d&#39;uso reali.
+Esplora la [[serie di webinar sui fondamenti di Target]](https://landing.adobe.com/acs/2018/na/adobe-target/registration.html){target=_blank}, un&#39;iniziativa per il successo del cliente offerta dalla [!UICONTROL community Adobe Target]. Accedi ai dettagli di registrazione per le sessioni future e sfoglia le registrazioni di webinar precedenti per approfondire la tua conoscenza delle funzionalità di [!DNL Target], delle best practice e dei casi d&#39;uso reali.
 
 +++
 
@@ -59,7 +51,7 @@ Le attuali sessioni registrate di Target includono:
 
 | Argomento/Esecuzione/Data registrazione | Cosa imparerai |
 |--- |--- |
-| [Suggerimenti e panoramica su at.js](https://helpx.adobe.com/it/customer-care-office-hours/target/at-js-1x-Tips-and-Overview.html)<br>59:12<br>26 giugno 2019 | Contenuti:<ul><li>Vantaggi dell’utilizzo di at.js</li><li>Impostazioni di at.js</li><li>Gestione dello sfarfallio</li><li>Debug di at.js</li><li>Problemi noti</li><li>Domande frequenti</li></ul>Per ulteriori informazioni, consulta [Come funziona at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html?lang=it){target=_blank}. |
+| [Suggerimenti e panoramica su at.js](https://helpx.adobe.com/it/customer-care-office-hours/target/at-js-1x-Tips-and-Overview.html)<br>59:12<br>26 giugno 2019 | Contenuti:<ul><li>Vantaggi dell’utilizzo di at.js</li><li>Impostazioni di at.js</li><li>Gestione dello sfarfallio</li><li>Debug di at.js</li><li>Problemi noti</li><li>Domande frequenti</li></ul>Per ulteriori informazioni, consulta [Come funziona at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html){target=_blank}. |
 | [Aree di lavoro Target Premium](https://helpx.adobe.com/it/customer-care-office-hours/target/premium-workspaces.html)<br>27:49<br>4 settembre 2018 | Contenuti:<ul><li>Creare un’area di lavoro (profilo prodotto)</li><li>Creazione delle proprietà</li><li>Aggiunta di utenti</li><li>Aggiornamento dell’implementazione</li></ul>Per ulteriori informazioni, consulta [Autorizzazioni per gli utenti Enterprise](/help/main/administrating-target/c-user-management/property-channel/property-channel.md). |
 | [Compositore esperienza visivo](https://helpx.adobe.com/it/customer-care-office-hours/target/visual-experience-composer.html)<br>50:23<br>Dicembre 2017 | Contenuti:<ul><li>Funzionamento del Compositore esperienza visivo</li><li>Come evitare i problemi più comuni con Compositore esperienza visivo</li><li>Procedure utili che puoi utilizzare con Compositore esperienza visivo</li></ul>Per ulteriori informazioni in questa guida, vedi [Esperienze](/help/main/c-experiences/experiences.md). |
 | [Adobe Target: integrazione Analytics/Target (A4T)](https://helpx.adobe.com/it/customer-care-office-hours/target/analytics-target-A4T-integration.html)<br> 40:33<br>Gennaio 2018 | Contenuti:<ul><li>Configurare e convalidare il funzionamento dell&#39;integrazione </li><li>Funzionamento dell&#39;integrazione</li><li>Informazioni sui rapporti ideali da utilizzare in Analytics</li><li>Risposte alle domande più frequenti su A4T</li></ul>Per ulteriori informazioni in questa guida, vedere [Adobe Analytics as the Reporting Source for Adobe Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md). |
@@ -79,11 +71,11 @@ L’Assistenza clienti è a disposizione per aiutarti a risolvere qualsiasi pote
 
 In caso di problemi o domande durante l&#39;uso di Target, sono disponibili varie alternative
 
-Se hai domande, puoi chiedere agli esperti di Adobe Target nella [Community Adobe Target](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community?profile.language=it){target=_blank}.
+Se hai domande, puoi chiedere agli esperti di Adobe Target nella [Community Adobe Target](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community){target=_blank}.
 
 Per questioni tecniche o per segnalare un bug puoi contattare l&#39;assistenza clienti. Puoi contattare l&#39;assistenza clienti telefonicamente, chiamando il numero 1-800-497-0335. Puoi trovare i numeri verdi da chiamare se vivi al di fuori degli Stati Uniti sulla pagina [Numeri regionali dell’assistenza clienti di Adobe Digital Marketing](https://helpx.adobe.com/it/contact/dma-external/DMACustomeCareRegionalPhoneNumbers.html). Quando ti viene richiesto di selezionare un&#39;opzione per il prodotto, premi 3 per contattare il team di Target.
 
-Contatta [L&#39;Assistenza Clienti Adobe](https://helpx.adobe.com/it/contact.html){target=_blank}.
+Contatta [L&#39;Assistenza Clienti Adobe](https://helpx.adobe.com/contact.html){target=_blank}.
 
 Per consentire una più rapida valutazione del problema, tieni le seguenti informazioni di base a portata di mano:
 
@@ -100,7 +92,7 @@ Per problemi di distribuzione dei contenuti, consulta [Risoluzione dei problemi 
 
 ### In caso si verifichi un’interruzione {#section_2CB3BC53E4C641F38D50949E2E7A2886}
 
-Se pensi che vi sia un&#39;interruzione, controlla innanzitutto la [pagina di Stato del sistema di Experience Cloud](https://status.adobe.com/it) ([!DNL https://status.adobe.com/it-it]): troverai un registro di tutte le interruzioni, degli incidenti e della manutenzione per le soluzioni Experience Cloud, incluso Target, e gli ultimi aggiornamenti dal nostro team Tech Ops. Se è necessaria ulteriore assistenza, quando contatti l&#39;assistenza clienti assicurati di avere a disposizione i dati seguenti, in aggiunta alle informazioni citate sopra:
+Se pensi che vi sia un&#39;interruzione, controlla innanzitutto la [pagina di Stato del sistema di Experience Cloud](https://status.adobe.com/it) ([!DNL https://status.adobe.com]): troverai un registro di tutte le interruzioni, degli incidenti e della manutenzione per le soluzioni Experience Cloud, incluso Target, e gli ultimi aggiornamenti dal nostro team Tech Ops. Se è necessaria ulteriore assistenza, quando contatti l&#39;assistenza clienti assicurati di avere a disposizione i dati seguenti, in aggiunta alle informazioni citate sopra:
 
 * Ora di inizio dell&#39;interruzione
 * Spiegazione di ciò che sta accadendo
@@ -116,7 +108,7 @@ Informazioni utili su come contattare Adobe e sulle questioni legali riguardanti
 Il team Assistenza clienti di Adobe Experience Cloud è a tua disposizione e può essere contattato in vari modi:
 
 * [Consulta le pagine dell’Aiuto di Experience Cloud per consigli, suggerimenti e domande frequenti](https://helpx.adobe.com/it/marketing-cloud.html)
-* [Apri un ticket per ottenere aiuto dal supporto](https://experienceleague.adobe.com/it?support-solution=Target&lang=it#support)
+* [Apri un ticket per ottenere aiuto dal supporto](https://experienceleague.adobe.com/?support-solution=Target&lang=it#support)
 * [Contatta direttamente il team di Assistenza clienti](https://helpx.adobe.com/it/marketing-cloud/contact-support.html)
 * [Verifica la disponibilità e lo stato delle soluzioni Experience Cloud](https://status.adobe.com/it)
 
@@ -130,7 +122,7 @@ In base alla configurazione della soluzione, alcune opzioni descritte in questa 
 
 ### Feedback {#section_8154D6D712054220A90D85FA8E92933E}
 
-Siamo lieti di ricevere qualsiasi suggerimento o feedback sulla soluzione. È possibile aggiungere idee e suggerimenti migliorativi alla [Community Adobe Target Experience League](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community?profile.language=it). Fare clic sulla scheda [!UICONTROL Ideas].
+Siamo lieti di ricevere qualsiasi suggerimento o feedback sulla soluzione. È possibile aggiungere idee e suggerimenti migliorativi alla [Community Adobe Target Experience League](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community). Fai clic sulla scheda [!UICONTROL Ideas].
 
 ### Note legali {#section_A6E1844D4AC2485CADBF6D05116E3D59}
 

@@ -1,42 +1,39 @@
 ---
 keywords: MVT;test multivariato;creare test multivariato;creazione test multivariato;creare MVT;creazione MVT;come MVT;come test multivariato
-description: Scopri come utilizzare il [!UICONTROL Visual Experience Composer] (VEC) in [!DNL Adobe Target] per creare un [!UICONTROL Multivariate Test] (MVT).
-title: Come si crea [!UICONTROL Multivariate Test]?
+description: Scopri come utilizzare il [!UICONTROL Compositore esperienza visivo] (VEC) in [!DNL Adobe Target] per creare un [!UICONTROL test multivariato] (MVT).
+title: Come si crea un [!UICONTROL test multivariato]?
 feature: Multivariate Tests
 exl-id: 7712b747-543a-4e19-b689-bea36c44805c
 TQID: https://experienceleague.adobe.com/gxrnY43A7OWsiW48Rlq1Orp7ZxBswdAPZEAbRQrCDZA
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 737
-ht-degree: 26%
+source-wordcount: 809
+ht-degree: 23%
 
 ---
 
 # Creazione di un test multivariato
 
-Il [!UICONTROL Visual Experience Composer] (VEC) in [!DNL Adobe Target] semplifica la creazione di un [!UICONTROL Multivariate Test] e la modifica di parti della pagina in [!DNL Target].
+Il [!UICONTROL Compositore esperienza visivo] (VEC) in [!DNL Adobe Target] semplifica la creazione di un [!UICONTROL test multivariato] e la modifica di parti della pagina in [!DNL Target].
 
 L&#39;editor point-and-click di [!DNL Target] consente di scegliere qualsiasi posizione e di aggiungere più offerte.
 
-[!UICONTROL Multivariate Test] (MVT) accetta un rapporto di tipo &quot;page-first&quot;. In altre parole, il test viene eseguito su un URL specifico, con l’esperienza progettata per tale pagina.
+Il [!UICONTROL test multivariato] (MVT) accetta un report di tipo &quot;page-first&quot;. In altre parole, il test viene eseguito su un URL specifico, con l’esperienza progettata per tale pagina.
 
-1. Fare clic su **[!UICONTROL Create Activity]** > **[!UICONTROL Multivariate Test]**.
+1. Fai clic su **[!UICONTROL Crea attività]** > **[!UICONTROL Test multivariato]**.
 
    >[!NOTE]
    >
    >Per ulteriori informazioni sui vari tipi di attività disponibili in [!DNL Target] e sulle loro differenze, consulta [Attività](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03). Consulta [Tipi di attività di Target](/help/main/c-activities/target-activities-guide.md) per aiutarti a stabilire il tipo di attività più adatto per le tue esigenze.
 
-1. (Condizionale) Scegliere il tipo di consegna: [!UICONTROL Web], [!UICONTROL Mobile], [!UICONTROL Email] o [!UICONTROL Other/API].
+1. (Condizionale) Scegli il tipo di consegna: [!UICONTROL Web], [!UICONTROL Mobile], [!UICONTROL E-mail] o [!UICONTROL Altro/API].
 
 1. (Condizionale) Se sei un cliente di [Target Premium](/help/main/c-intro/intro.md#premium), [scegli un&#39;area di lavoro](/help/main/administrating-target/c-user-management/property-channel/property-channel.md).
 
-1. [Specificare l&#39;URL](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/url.md#concept_C12E4A85FF3B4E518E3110F6CF1AF9C0) per la pagina da verificare, quindi fare clic su **[!UICONTROL Create]**.
+1. [Specificare l&#39;URL](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/url.md#concept_C12E4A85FF3B4E518E3110F6CF1AF9C0) per la pagina da verificare, quindi fare clic su **[!UICONTROL Crea]**.
 
    >[!NOTE]
    >
@@ -44,9 +41,9 @@ L&#39;editor point-and-click di [!DNL Target] consente di scegliere qualsiasi po
 
    Se viene visualizzato un messaggio che richiede di abilitare i contenuti misti nel browser, segui le istruzioni incluse nel messaggio. Dopo aver abilitato i contenuti misti nel browser, riparti dal passaggio 1.
 
-   Verrà aperto [!UICONTROL Visual Experience Composer].
+   Verrà aperto il [!UICONTROL Compositore esperienza visivo].
 
-1. Per assegnare un nome all&#39;attività, fare clic sull&#39;icona **[!UICONTROL Edit]** ( ![icona Modifica](/help/main/assets/icons/Edit.svg) ) accanto a &quot;[!UICONTROL Untitled Activity]&quot;, specificare un nome descrittivo per l&#39;attività e quindi fare clic su **[!UICONTROL Save]**.
+1. Per assegnare un nome all&#39;attività, fare clic sull&#39;icona **[!UICONTROL Modifica]** ( ![Icona Modifica](/help/main/assets/icons/Edit.svg) ) accanto a &quot;[!UICONTROL Attività senza titolo]&quot;, specificare un nome descrittivo per l&#39;attività, quindi fare clic su **[!UICONTROL Salva]**.
 
    Il nome dell’attività non può iniziare con uno dei seguenti caratteri:
 
@@ -80,53 +77,53 @@ L&#39;editor point-and-click di [!DNL Target] consente di scegliere qualsiasi po
    * Immagine
    * Testo
 
-1. Fai clic su **[!UICONTROL Preview]** per [visualizzare l&#39;anteprima delle esperienze](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/preview-experiences.md).
+1. Fai clic su **[!UICONTROL Anteprima]** per [visualizzare l&#39;anteprima delle esperienze](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/preview-experiences.md).
 
-1. Fai clic sull&#39;icona **[!UICONTROL Show Experiences]** ( ![icona Mostra esperienze](/help/main/assets/icons/WebPages.svg) ) per visualizzare l&#39;elenco di tutte le esperienze nel frame a sinistra.
+1. Fai clic sull&#39;icona **[!UICONTROL Mostra esperienze]** ( ![Mostra esperienze](/help/main/assets/icons/WebPages.svg) ) per visualizzare l&#39;elenco di tutte le esperienze nel frame a sinistra.
 
 1. Fai clic su un’esperienza specifica nell’elenco per visualizzarla.
 
-1. (Condizionale) Per escludere una o più esperienze dall&#39;attività, fare clic sull&#39;icona **[!UICONTROL Manage Content]** ( ![icona Gestisci esperienze](/help/main/assets/icons/Experience.svg) ) per visualizzare la finestra di dialogo [!UICONTROL Manage Experiences].
+1. (Condizionale) Per escludere una o più esperienze dall&#39;attività, fai clic sull&#39;icona **[!UICONTROL Gestisci contenuto]** ( ![Icona Gestisci esperienze](/help/main/assets/icons/Experience.svg) ) per visualizzare la finestra di dialogo [!UICONTROL Gestisci esperienze].
 
-1. (Condizionale) Nella finestra di dialogo [!UICONTROL Manage Experiences], fai clic sull&#39;icona **[!UICONTROL More Actions]** ( ![Icona Altre azioni](/help/main/assets/icons/MoreSmallList.svg) ) accanto all&#39;esperienza da escludere, quindi fai clic su **[!UICONTROL Exclude]**.
+1. (Condizionale) Nella finestra di dialogo [!UICONTROL Gestisci esperienze], fai clic sull&#39;icona **[!UICONTROL Altre azioni]** ( ![Altre azioni](/help/main/assets/icons/MoreSmallList.svg) ) accanto all&#39;esperienza da escludere, quindi fai clic su **[!UICONTROL Escludi]**.
 
    Puoi scegliere di escludere un’esperienza che mostra varianti in conflitto tra loro o una esteticamente non equilibrata.
 
-1. (Condizionale) Per escludere più esperienze, seleziona le caselle di controllo per le esperienze desiderate, quindi fai clic su **[!UICONTROL Exclude]**.
+1. (Condizionale) Per escludere più esperienze, seleziona la casella di controllo di ciascuna esperienza e fai clic su **[!UICONTROL Escludi]**.
 
 1. [Utilizza Il Calcolatore del traffico](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator.md#task_71AA6922AFD447EA8C5E610A78ABA714) per verificare la fattibilità del piano di test.
 
-1. Fare clic su **[!UICONTROL Next]** per passare alla pagina [!UICONTROL Targeting].
+1. Fai clic su **[!UICONTROL Avanti]** per passare alla pagina [!UICONTROL Targeting].
 
    Il passaggio **Targeting** ha un aspetto familiare se sono stati utilizzati altri tipi di attività [!DNL Target]. Qui puoi selezionare un pubblico e specificare la percentuale di visitatori che visualizzano ogni esperienza.
 
    Il diagramma di flusso ti guida attraverso i passaggi per assegnare un pubblico e la relativa percentuale di traffico, selezionare il metodo di allocazione del traffico e specificare l’allocazione del traffico per ogni esperienza nell’attività.
 
-1. (Condizionale) Fare clic sul controllo **[!UICONTROL All Visitors]** per selezionare un altro pubblico per l&#39;attività.
+1. (Condizionale) Fai clic sul controllo **[!UICONTROL Tutti i visitatori]** per selezionare un altro pubblico per l&#39;attività.
 
-   Il pubblico [!UICONTROL All Visitors] è impostato come predefinito. Se selezioni un altro pubblico, il suo nome viene visualizzato nel controllo più a sinistra.
+   Il pubblico [!UICONTROL Tutti i visitatori] è impostato come predefinito. Se selezioni un altro pubblico, il suo nome viene visualizzato nel controllo più a sinistra.
 
    Viene visualizzato il frame a destra, che consente di aggiungere o eliminare un pubblico e di assegnare la percentuale di visitatori per l’attività.
 
-   1. Per cambiare il pubblico, fai clic sull&#39;icona **[!UICONTROL Replace]** ( ![Icona Sostituisci](/help/main/assets/icons/Retweet.svg) ) nel frame a destra.
-   1. Nella finestra di dialogo [!UICONTROL Add Audience], [seleziona il pubblico desiderato](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-audience.md), quindi fai clic su **[!UICONTROL Assign Audience]**.
+   1. Per cambiare il pubblico, fai clic sull&#39;icona **[!UICONTROL Sostituisci]** ( ![Sostituisci icona](/help/main/assets/icons/Retweet.svg) ) nel riquadro a destra.
+   1. Nella finestra di dialogo [!UICONTROL Aggiungi pubblico], [seleziona il pubblico desiderato](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-audience.md), quindi fai clic su **[!UICONTROL Assegna pubblico]**.
 
       Puoi fare clic su **Combina tipi di pubblico** per [creare un pubblico che combini più tipi di pubblico](/help/main/c-target/combining-multiple-audiences.md).
 
-      Se devi creare un nuovo pubblico che non sia già presente in [!UICONTROL Audience Library], fai clic su **Crea pubblico**. Durante il flusso di lavoro [create-audience](/help/main/c-target/c-audiences/audiences.md) puoi scegliere tra le seguenti opzioni:
+      Se devi creare un nuovo pubblico che non sia già presente nella [!UICONTROL Libreria pubblico], fai clic su **Crea pubblico**. Durante il flusso di lavoro [create-audience](/help/main/c-target/c-audiences/audiences.md) puoi scegliere tra le seguenti opzioni:
 
-      * **[!UICONTROL Audience Library]**: crea un pubblico su richiesta salvato in [!UICONTROL Audience Library] che può essere riutilizzato in altre attività.
-      * **[!UICONTROL This activity only]**: crea un [pubblico specifico per l&#39;attività](/help/main/c-target/creating-activity-only-audience.md) che non è salvato in [!UICONTROL Audience Library] e può essere utilizzato solo nell&#39;attività corrente.
+      * **[!UICONTROL Libreria tipi di pubblico]**: crea un pubblico on-demand salvato nella [!UICONTROL Libreria tipi di pubblico] che può essere riutilizzato in altre attività.
+      * **[!UICONTROL Solo per questa attività]**: crea un [pubblico specifico per l&#39;attività](/help/main/c-target/creating-activity-only-audience.md) che non viene salvato nella [!UICONTROL Libreria tipi di pubblico] e che può essere utilizzato solo nell&#39;attività corrente.
 
-   1. Fai clic su **[!UICONTROL Visitor Percentage]** nel frame a destra, quindi scegli la percentuale di visitatori idonei che dovranno accedere all&#39;attività.
+   1. Fai clic su **[!UICONTROL Percentuale visitatori]** nel frame a destra, quindi scegli la percentuale di visitatori idonei che desideri inserire nell&#39;attività.
 
    Ad esempio, puoi limitare l’accesso al 50% di tutti i visitatori o 45% del pubblico “Californians”.
 
-1. [Rivedere il riepilogo del test](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/test-summary.md#reference_971AB225963A4DC18EEB5B0E20F0A4A7) e apportare le modifiche desiderate, quindi fare clic su **[!UICONTROL Next]**.
+1. [Rivedi il riepilogo del test](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/test-summary.md#reference_971AB225963A4DC18EEB5B0E20F0A4A7) e apporta le modifiche desiderate, quindi fai clic su **[!UICONTROL Avanti]**.
 
 1. [Specifica obiettivi e impostazioni](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC) per il test.
 
-1. Fare clic su **[!UICONTROL Save and Close]** per creare l&#39;attività.
+1. Fai clic su **[!UICONTROL Salva e chiudi]** per creare l&#39;attività.
 
 ## Video di formazione: Creazione di test multivariati (9:25) ![Icona esercitazione](/help/main/assets/tutorial.png)
 
@@ -135,4 +132,4 @@ Questo video illustra come pianificare e creare un test multivariato utilizzando
 * Definizione e progettazione di un test multivariato
 * Creazione di un test multivariato
 
->[!VIDEO](https://video.tv.adobe.com/v/36329?captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/17395)

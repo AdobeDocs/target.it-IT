@@ -5,16 +5,13 @@ title: Quali sono le categorie di pubblico?
 feature: Audiences
 exl-id: 37d6435d-4139-47c5-a871-6595e089d052
 TQID: https://experienceleague.adobe.com/gdwPSImsbXfvaX2Z4bL9-hGyLwo0b0q-At0fokUfYN8
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 374
-ht-degree: 47%
+source-wordcount: 385
+ht-degree: 50%
 
 ---
 
@@ -26,17 +23,17 @@ ht-degree: 47%
 
 Quando viene selezionata una particolare categoria, puoi applicare una o più condizioni di targeting. Ad esempio, nella categoria Geo, puoi definire una regola come Città=San Francisco. Lʼaggiunta di più valori consente di creare una condizione O. Per soddisfare la condizione di targeting, il visitatore deve corrispondere solo a uno dei valori. Per condizioni E sullo stesso parametro, crea un target con espressione personalizzato.
 
-Dopo aver creato una regola, fare clic su **[!UICONTROL Done]**. Un riepilogo della regola viene visualizzato accanto al collegamento di targeting per il livello oggetto del targeting.
+Dopo aver creato una regola, fate clic su **[!UICONTROL Done (Fine)]**. Un riepilogo della regola viene visualizzato accanto al collegamento di targeting per il livello oggetto del targeting.
 
-Puoi perfezionare ulteriormente una regola aggiungendo più condizioni o creando regole aggiuntive in altre categorie. Ad esempio, puoi eseguire il targeting solo degli utenti Firefox di San Francisco che accedono al tuo sito da Google. Impostare la categoria [!UICONTROL Geo] per il targeting degli utenti di San Francisco, la categoria [!UICONTROL Browser] per il targeting degli utenti che utilizzano Firefox e la categoria [!UICONTROL Traffic Sources] per il targeting degli utenti provenienti da [!UICONTROL From Google]. Le regole create tra le categorie vengono combinate con l’operatore AND.
+Puoi perfezionare ulteriormente una regola aggiungendo più condizioni o creando regole aggiuntive in altre categorie. Ad esempio, puoi eseguire il targeting solo degli utenti Firefox di San Francisco che accedono al tuo sito da Google. Imposta la categoria [!UICONTROL Geo] per il targeting degli utenti di San Francisco, la categoria [!UICONTROL Browser] per il targeting degli utenti che utilizzano Firefox e la categoria [!UICONTROL Origini traffico] per il targeting degli utenti provenienti da [!UICONTROL Da Google]. Le regole create tra le categorie vengono combinate con l’operatore AND.
 
 Per creare regole di targeting complesse che includono operazioni OR tra le categorie, crea un target di espressione.
 
-Puoi inoltre eseguire il targeting di parametri di profilo personalizzati e parametri `user.`. Quando aggiungi un pubblico, trascina e rilascia **[!UICONTROL Visitor Profile]**, quindi scegli il parametro da utilizzare per eseguire il targeting dell&#39;attività. Se il parametro desiderato non viene visualizzato, significa che non è stato attivato da una mbox.
+Puoi inoltre eseguire il targeting di parametri di profilo personalizzati e parametri `user.`. Quando aggiungi un pubblico, trascina e rilascia **[!UICONTROL Profilo visitatore]**, quindi scegli il parametro da utilizzare per eseguire il targeting dell&#39;attività. Se il parametro desiderato non viene visualizzato, significa che non è stato attivato da una mbox.
 
-Utilizzare la casella di ricerca per eseguire ricerche nell&#39;elenco [!UICONTROL Audiences]. Puoi cercare qualsiasi parte del nome di un pubblico, oppure racchiudere tra virgolette una stringa specifica.
+Utilizza la casella di ricerca per cercare nellʼelenco [!UICONTROL Tipi di pubblico]. Puoi cercare qualsiasi parte del nome di un pubblico, oppure racchiudere tra virgolette una stringa specifica.
 
-È possibile ordinare l&#39;elenco [!UICONTROL Audience] in base al nome del pubblico o alla data dell&#39;ultima modifica. Per ordinare in base al nome o alla data, fai clic sull’intestazione di colonna, quindi seleziona la visualizzazione dei tipi di pubblico in ordine crescente o decrescente.
+Puoi ordinare l&#39;elenco [!UICONTROL Pubblico] in base al nome del pubblico o alla data dell&#39;ultima modifica. Per ordinare in base al nome o alla data, fai clic sull’intestazione di colonna, quindi seleziona la visualizzazione dei tipi di pubblico in ordine crescente o decrescente.
 
 ## Video di formazione: Creazione di tipi di pubblico ![Icona esercitazione](/help/main/assets/tutorial.png)
 

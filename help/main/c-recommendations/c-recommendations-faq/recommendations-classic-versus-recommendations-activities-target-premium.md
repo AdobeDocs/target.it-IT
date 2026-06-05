@@ -2,24 +2,17 @@
 keywords: consigli;algoritmi consigli;attività consigli;recommendations classic
 description: Rivedi le informazioni per comprendere le differenze tra le precedenti attività di Recommendations Classic e le attività Consigli in [!DNL Target] Premium.
 title: Qual è la differenza tra Recommendations Classic e la funzione Consigli in [!DNL Target] Premium?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=it#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."
 feature: Recommendations
 exl-id: 07548155-9548-4870-b886-6cb4ff37a0bd
 TQID: https://experienceleague.adobe.com/EoTkyY0kOwRKT52WIwOuTCoUziIJOnNtTo6llsTNpsM
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
-  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eebid: c93393a4-e558-47e1-992e-c91ed4d480ce
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d3cdead0-685a-4489-9250-4bb709942f66
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 665
-ht-degree: 86%
+source-wordcount: 692
+ht-degree: 83%
 
 ---
 
@@ -41,16 +34,16 @@ L’attività di [!DNL Recommendations] in [!DNL Target] migliora [!DNL Recommen
 
 ## Consigli come offerta
 
-Puoi includere i consigli nelle attività [!UICONTROL A/B Test] (inclusi [!UICONTROL Auto-Allocate] e [!UICONTROL Auto-Target]) e [!UICONTROL Experience Targeting] (XT).
+Puoi includere i consigli nelle attività [!UICONTROL Test A/B] (tra cui [!UICONTROL Allocazione automatica] e [!UICONTROL Targeting automatico]) e [!UICONTROL Targeting esperienza] (XT).
 
 Questo apre a funzionalità tutte nuove, ad esempio:
 
 * Contenuto relativo e non relativo a consigli di test e targeting all’interno della stessa attività.
 * Facile sperimentazione con il posizionamento di consigli sulla pagina, tra cui l’ordine di più consigli.
-* Invio automatico di traffico all&#39;esperienza di consigli con le prestazioni migliori tramite [!UICONTROL Auto-Allocate].
-* Assegnazione dinamica di visitatori a esperienze di consigli su misura in base al loro profilo tramite [!UICONTROL Auto-Target].
+* Invio automatico di traffico all&#39;esperienza di consigli con le prestazioni migliori tramite [!UICONTROL Allocazione automatica].
+* Assegnazione dinamica di visitatori a esperienze di consigli su misura in base al loro profilo tramite [!UICONTROL Targeting automatico].
 
-Per iniziare, crea un&#39;attività [!UICONTROL A/B Test] o [!UICONTROL Experience Targeting] utilizzando [!UICONTROL Visual Experience Composer] e utilizza l&#39;azione [!UICONTROL Insert Before], [!UICONTROL Insert After] o [!UICONTROL Replace With] per aggiungere consigli a un&#39;esperienza.
+Per iniziare, crea un&#39;attività [!UICONTROL Test A/B] o [!UICONTROL Targeting esperienza] utilizzando [!UICONTROL Compositore esperienza visivo] e utilizza l&#39;azione [!UICONTROL Inserisci prima], [!UICONTROL Inserisci dopo] o [!UICONTROL Sostituisci con] per aggiungere consigli a un&#39;esperienza.
 
 Per ulteriori informazioni, consulta [Consigli come offerta](/help/main/c-recommendations/recommendations-as-an-offer.md).
 

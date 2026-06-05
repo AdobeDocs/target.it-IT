@@ -5,23 +5,14 @@ title: Dove posso trovare le risposte alle domande sul reporting di  [!DNL Targe
 feature: Reports
 exl-id: 1a345a67-5050-4bd3-858d-99731d2c1dd3
 TQID: https://experienceleague.adobe.com/Gy7-jh5QTTwq8xAkwkQKSkZ0rCnEef92NfnjeAQxnDM
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
-  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
-subfeature_v2:
-  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eebid: c93393a4-e558-47e1-992e-c91ed4d480ce
+subfeature_v2: id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 1384
-ht-degree: 20%
+source-wordcount: 1324
+ht-degree: 24%
 
 ---
 
@@ -75,9 +66,9 @@ Diversi nuovi visitatori visitano il tuo sito e sono qualificati per un’attivi
 
 Alcuni visitatori hanno raggiunto la metrica di conversione, configurata come &quot;Incrementa il conteggio e mantieni l’utente in attività&quot;. Supponiamo che alcuni di questi utenti raggiungano più volte la metrica di conversione, la metrica di conversione non aumenta. Dato che la configurazione, tuttavia, alcuni utenti potrebbero raggiungere la metrica di conversione e quindi tornare alla home page, qualificandosi di nuovo nell’attività per registrare una nuova visita.
 
-## Perché i miei report [!UICONTROL Experience Targeting] (XT) contengono metriche per le esperienze di controllo?
+## Perché i miei report [!UICONTROL Targeting esperienze] (XT) contengono metriche per le esperienze di controllo?
 
-Nelle attività Targeting esperienze (XT) deve essere sempre presente un’esperienza di controllo. Se si utilizza un&#39;attività XT in modo simile a un&#39;attività [!UICONTROL A/B Test], come spesso avviene, i dati sull&#39;esperienza di controllo sono utili. Se ritieni che non siano utili nei tuoi rapporti, puoi semplicemente ignorarli.
+Nelle attività Targeting esperienze (XT) deve essere sempre presente un’esperienza di controllo. Se utilizzi un&#39;attività XT in modo simile a un&#39;attività [!UICONTROL A/B Test], come spesso avviene, i dati sull&#39;esperienza di controllo sono utili. Se ritieni che non siano utili nei tuoi rapporti, puoi semplicemente ignorarli.
 
 ## Perché il numero di visite in [!DNL Target] è inferiore rispetto ad altre soluzioni [!DNL Adobe Experience Cloud]? {#section_7E626FDB417E41B8B58BBF30FB207409}
 
@@ -101,16 +92,16 @@ Se il contenuto di un’attività è stato recapitato correttamente agli utenti 
 
 Per modificare l’ambiente per il rapporto di un’attività:
 
-1. Fare clic su **[!UICONTROL Activities]**, selezionare l&#39;attività desiderata dall&#39;elenco, quindi fare clic sulla scheda **[!UICONTROL Reports]**.
+1. Fai clic su **[!UICONTROL Attività]**, scegli l’attività desiderata dall’elenco, quindi fai clic sulla scheda **[!UICONTROL Rapporti]**.
 1. Fai clic sull’icona a forma di ruota dentata per configurare le impostazioni dei rapporti.
 
    ![Finestra di dialogo Impostazioni A/B](/help/main/c-reports/c-report-settings/assets/ab_settings_dialog.png)
 
-1. Dall&#39;elenco a discesa **[!UICONTROL Environment]**, selezionare **[!UICONTROL Production]**.
+1. Dall’elenco a discesa **[!UICONTROL Ambiente]**, seleziona **[!UICONTROL Produzione]**.
 
    I dati del rapporto potrebbero non essere disponibili se hai selezionato un ambiente di sviluppo.
 
-1. Fare clic su **[!UICONTROL Save]**.
+1. Fai clic su **[!UICONTROL Salva]**.
 
 Per ulteriori informazioni sugli ambienti, vedi [Host](/help/main/administrating-target/hosts.md#concept_516BB01EBFBD4449AB03940D31AEB66E).
 
@@ -118,16 +109,16 @@ Per ulteriori informazioni sugli ambienti, vedi [Host](/help/main/administrating
 
 Se il contenuto di un’attività è stato recapitato correttamente agli utenti ma il relativo rapporto non contiene dati, assicurati di utilizzare un’esperienza con il traffico come esperienza di controllo.
 
-1. Fare clic su **[!UICONTROL Activities]**, selezionare l&#39;attività desiderata dall&#39;elenco, quindi fare clic sulla scheda **[!UICONTROL Reports]**.
+1. Fai clic su **[!UICONTROL Attività]**, scegli l’attività desiderata dall’elenco, quindi fai clic sulla scheda **[!UICONTROL Rapporti]**.
 1. Fai clic sull’icona a forma di ruota dentata per configurare le impostazioni dei rapporti.
 
-1. Dall&#39;elenco a discesa **[!UICONTROL Control]**, seleziona un&#39;esperienza che riceve traffico.
+1. Dall&#39;elenco a discesa **[!UICONTROL Controllo]**, seleziona un&#39;esperienza che riceve traffico.
 
-1. Fare clic su **[!UICONTROL Save]**.
+1. Fai clic su **[!UICONTROL Salva]**.
 
 >[!NOTE]
 >
->Per ulteriori informazioni su come aggiornare un&#39;attività di [!UICONTROL Automated Personalization] (AP) e modificare l&#39;esperienza di controllo in un&#39;esperienza che riceve il traffico, vedere [Selezionare il controllo per l&#39;attività di Automated Personalization o Targeting automatico](/help/main/c-activities/t-automated-personalization/experience-as-control.md).
+>Per ulteriori informazioni su come aggiornare un&#39;attività [!UICONTROL Automated Personalization] (AP) e modificare l&#39;esperienza di controllo in un&#39;esperienza che riceve il traffico, vedere [Selezionare il controllo per l&#39;attività Automated Personalization o Targeting automatico](/help/main/c-activities/t-automated-personalization/experience-as-control.md).
 
 
 ## Perché la suddivisione del traffico tra le mie esperienze è irregolare nella mia attività A/B o MVT? {#uneven}
@@ -135,7 +126,7 @@ Se il contenuto di un’attività è stato recapitato correttamente agli utenti 
 Ad esempio, ho impostato la suddivisione del traffico su 50/50 o 25/25/25/25 ma vedo una distribuzione molto diversa tra le esperienze nel reporting. Ci sono diversi motivi spiegabili per i conteggi irregolari dei visitatori nel reporting di [!DNL Target]:
 
 * Quando viene avviata un&#39;attività [!DNL Target], la distribuzione del traffico può essere irregolare a causa dell&#39;architettura dei nodi perimetrali utilizzata da [!DNL Target] per ottimizzare la distribuzione delle esperienze. La best practice prevede che un’attività disponga di un certo tempo per raccogliere più dati, in modo che la distribuzione si normalizzi. Per ulteriori informazioni sull&#39;architettura di [!DNL Adobe Target] e sui nodi di Edge, vedere [Come funziona Adobe Target](/help/main/c-intro/how-target-works.md).
-* Se ti trovi in [!DNL Target] o [!DNL Analytics] e utilizzi la metrica **[!UICONTROL Visits]**, ricorda che [!DNL Target] è un sistema basato su visitatore e che la distribuzione del traffico per un test A/B o MVT è assegnata a livello di visitatore. Pertanto, se esamini i risultati dell&#39;attività utilizzando la metrica **[!UICONTROL Visits]**, la distribuzione del traffico potrebbe apparire irregolare perché alcuni visitatori potrebbero avere più visite. Visitatori è la metrica di normalizzazione standard durante la valutazione delle prestazioni dell’attività.
+* Se ti trovi in [!DNL Target] o [!DNL Analytics] e utilizzi la metrica **[!UICONTROL Visite]**, ricorda che [!DNL Target] è un sistema basato su visitatore e che la distribuzione del traffico per un test A/B o MVT è assegnata a livello di visitatore. Pertanto, se esamini i risultati dell&#39;attività utilizzando la metrica **[!UICONTROL Visite]**, la distribuzione del traffico potrebbe apparire irregolare perché alcuni visitatori potrebbero avere più visite. Visitatori è la metrica di normalizzazione standard durante la valutazione delle prestazioni dell’attività.
 * La best practice per i test A/B e MVT consiste nel mantenere uniformi le suddivisioni del traffico. Cambiare la distribuzione del traffico tra le esperienze (ad esempio da 90/10 a 50/50) durante un test può portare a visitatori irregolari tra le esperienze. L’esperienza con traffico ridotto potrebbe non &quot;recuperare&quot; mai.
 * Se segui le best practice di cui sopra e la suddivisione del traffico non si normalizza nel tempo, controlla quanto segue:
 

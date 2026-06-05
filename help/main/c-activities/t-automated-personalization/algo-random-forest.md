@@ -1,30 +1,27 @@
 ---
 keywords: foresta casuale;albero decisionale;ap;Automated Personalization
-description: Scopri come [!DNL Adobe Target] utilizza l'algoritmo Foresta casuale nelle attività [!UICONTROL Automated Personalization] (AP) e [!UICONTROL Auto-Target].
+description: Scopri come [!DNL Adobe Target] utilizza l'algoritmo Foresta casuale nelle attività [!UICONTROL Automated Personalization] (AP) e [!UICONTROL Targeting automatico].
 title: In che modo  [!DNL Target]  utilizza l'algoritmo Foresta casuale?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=it#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."
 feature: Automated Personalization
 exl-id: 07a89525-4071-4434-ac96-c59a4f4422ad
 TQID: https://experienceleague.adobe.com/Ui8E8CkiiJSdqim9fzIgPDdsKG1MMtuu3EUuAqgmm0M
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 1438
+source-wordcount: 1458
 ht-degree: 40%
 
 ---
 
 # Algoritmo Foresta casuale
 
-L&#39;algoritmo di personalizzazione principale utilizzato in entrambe le attività (AP) e [!DNL Auto-Target] è Foresta casuale. I metodi di raggruppamento, come Foresta casuale, utilizzano più algoritmi di apprendimento per ottenere prestazioni predittive migliori rispetto a quelle ottenibili da uno qualsiasi degli algoritmi di apprendimento costituenti. L&#39;algoritmo Foresta casuale in [!UICONTROL Automated Personalization] e [!UICONTROL Auto-Target] è un metodo di classificazione o di regressione che funziona costruendo una moltitudine di alberi decisionali quando viene addestrato.
+L&#39;algoritmo di personalizzazione principale utilizzato in entrambe le attività (AP) e [!DNL Auto-Target] è Foresta casuale. I metodi di raggruppamento, come Foresta casuale, utilizzano più algoritmi di apprendimento per ottenere prestazioni predittive migliori rispetto a quelle ottenibili da uno qualsiasi degli algoritmi di apprendimento costituenti. L&#39;algoritmo Foresta casuale in [!UICONTROL Automated Personalization] e [!UICONTROL Targeting automatico] è un metodo di classificazione o regressione che funziona costruendo una moltitudine di alberi decisionali quando viene addestrato.
 
 Quando si pensa alle statistiche, si potrebbe pensare a un unico modello di regressione utilizzato per prevedere un risultato. L&#39;ultima ricerca sui dati scientifici suggerisce che i “metodi di raggruppamento”, in cui vengono creati più modelli dallo stesso insieme di dati e quindi combinati in modo intelligente, producono risultati migliori di quanto prevedano in base a un solo modello.
 
-L&#39;algoritmo Foresta casuale è l&#39;algoritmo chiave di personalizzazione sottostante utilizzato nelle attività [!UICONTROL Automated Personalization] e [!UICONTROL Auto-Target]. Foresta casuale combina centinaia di alberi decisionali per ottenere una previsione migliore di quanto un singolo albero possa fare da solo.
+L&#39;algoritmo Foresta casuale è l&#39;algoritmo chiave di personalizzazione sottostante utilizzato nelle attività [!UICONTROL Automated Personalization] e [!UICONTROL Targeting automatico]. Foresta casuale combina centinaia di alberi decisionali per ottenere una previsione migliore di quanto un singolo albero possa fare da solo.
 
 ## Che cos&#39;è un albero decisionale? {#section_7F5865D8064447F4856FED426243FDAC}
 
@@ -57,7 +54,7 @@ Gli alberi decisionali possono essere un potente strumento statistico. Tuttavia,
 
 ### Come vengono generati i modelli
 
-Il diagramma seguente riepiloga il modo in cui i modelli vengono generati per le attività [!UICONTROL Auto-Target] e [!UICONTROL Automated Personalization]:
+Il diagramma seguente riepiloga il modo in cui i modelli vengono generati per le attività [!UICONTROL Targeting automatico] e [!UICONTROL Automated Personalization]:
 
 ![immagine flusso_foresta_casuale](assets/random_forest_flow.png){width="650" zoomable="yes"}
 
@@ -67,7 +64,7 @@ Il diagramma seguente riepiloga il modo in cui i modelli vengono generati per le
 1. [!DNL Target] verifica se il modello soddisfa un punteggio di qualità di soglia
 1. [!DNL Target] invia il modello in produzione per personalizzare il traffico futuro
 
-[!DNL Target] utilizza i dati raccolti automaticamente e i dati personalizzati forniti dall&#39;utente per creare gli algoritmi di personalizzazione. Questi modelli prevedono la migliore esperienza o offerta da mostrare ai visitatori. In genere, un modello viene generato per esperienza (se un&#39;attività [!UICONTROL Auto-Target]) o per offerta (se un&#39;attività [!UICONTROL Automated Personalization]). [!DNL Target] visualizza quindi l&#39;esperienza o l&#39;offerta che produce la metrica di successo più alta prevista (ad esempio, il tasso di conversione). Questi modelli devono essere appresi su visite fornite casualmente prima di poter essere utilizzati per la previsione. Di conseguenza, quando un&#39;attività inizia prima, anche ai visitatori che si trovano nel gruppo personalizzato vengono mostrate casualmente diverse esperienze o offerte fino a quando gli algoritmi di personalizzazione sono pronti.
+[!DNL Target] utilizza i dati raccolti automaticamente e i dati personalizzati forniti dall&#39;utente per creare gli algoritmi di personalizzazione. Questi modelli prevedono la migliore esperienza o offerta da mostrare ai visitatori. In genere, un modello viene generato per esperienza (se un&#39;attività [!UICONTROL Targeting automatico]) o per offerta (se un&#39;attività [!UICONTROL Automated Personalization]). [!DNL Target] visualizza quindi l&#39;esperienza o l&#39;offerta che produce la metrica di successo più alta prevista (ad esempio, il tasso di conversione). Questi modelli devono essere appresi su visite fornite casualmente prima di poter essere utilizzati per la previsione. Di conseguenza, quando un&#39;attività inizia prima, anche ai visitatori che si trovano nel gruppo personalizzato vengono mostrate casualmente diverse esperienze o offerte fino a quando gli algoritmi di personalizzazione sono pronti.
 
 Ogni modello deve essere convalidato per garantire che sia in grado di prevedere il comportamento dei visitatori prima che venga utilizzato nell’attività. I modelli vengono convalidati in base alla rispettiva area sotto la curva (AUC). A causa della necessità di convalida, il momento esatto in cui un modello inizia a fornire esperienze personalizzate dipende dai dettagli dei dati. In pratica, per scopi di pianificazione del traffico, di solito richiede più del numero minimo di conversioni prima che ogni modello sia valido.
 

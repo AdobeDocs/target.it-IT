@@ -2,21 +2,16 @@
 keywords: origine dati comportamentali;analisi;consigli;criteri;variabili prodotto
 description: Scopri come utilizzare  [!DNL Adobe Analytics] come origine dei dati comportamentali in [!DNL Target Recommendations].
 title: Come si utilizza  [!DNL Adobe Analytics] con [!DNL Target Recommendations]?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=it#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."
 feature: Recommendations
 exl-id: d2b7e840-9546-4a8e-bec4-1ebea5a79672
 TQID: https://experienceleague.adobe.com/2ryixOT-YoKjDlMbqs8g2DJElNVmlCUFhbdZzpfSnNs
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: c93393a4-e558-47e1-992e-c91ed4d480ce
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 778
+source-wordcount: 804
 ht-degree: 0%
 
 ---
@@ -27,7 +22,7 @@ L&#39;utilizzo di [!DNL Adobe Analytics] come origine dei dati comportamentali c
 
 L&#39;utilizzo di [!DNL Analytics] come origine dei dati comportamentali può rappresentare una fonte completa di informazioni sul comportamento degli utenti. Queste informazioni potrebbero includere dati provenienti da un&#39;origine o un feed di terze parti condiviso solo con [!DNL Analytics].
 
-Durante la creazione di [criteri](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md) in [!DNL Recommendations], sono disponibili due pulsanti di scelta che consentono di scegliere l&#39;origine dati da utilizzare: [!UICONTROL mboxes] o [!UICONTROL Analytics]. Per creare un criterio, fare clic su [!UICONTROL Recommendations] > [!UICONTROL Criteria] > [!UICONTROL Create Criteria] > [!UICONTROL Create Criteria]. Per ulteriori informazioni, vedere [Creare i criteri](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md).
+Durante la [creazione dei criteri](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md) in [!DNL Recommendations], sono disponibili due pulsanti di scelta che consentono di scegliere l&#39;origine dati da utilizzare: [!UICONTROL mbox] o [!UICONTROL Analytics]. Per creare un criterio, fai clic su [!UICONTROL Consigli] > [!UICONTROL Criteri] > [!UICONTROL Crea criterio] > [!UICONTROL Crea criterio]. Per ulteriori informazioni, vedere [Creare i criteri](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md).
 
 >[!NOTE]
 >
@@ -56,7 +51,7 @@ Un formato di feed di esempio [!DNL Target Recommendations] funge da guida su cu
 >
 >Se si tratta di un sito di contenuti, le rispettive parti di contenuto devono essere trattate come &quot;prodotti&quot; e gli attributi associati a tale contenuto devono essere passati come attributi. Tali attributi possono includere il nome dell’autore, la data di pubblicazione, il titolo del contenuto, il mese di rilascio e così via. La granularità del livello di categoria, o dei tipi di categoria, deve essere decisa dall’azienda in base ai requisiti del caso d’uso.
 
-Per ulteriori dettagli sulla configurazione delle variabili di prodotto, vedi [products](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/products.html?lang=it) nella *Guida all&#39;implementazione di Adobe Analytics*. Alcune delle note in tale documentazione richiedono discrezione da parte del team che la sta distribuendo (ad esempio: Categoria). È sempre consigliabile consultare [!DNL Adobe] prima di eseguire questa attività.
+Per ulteriori dettagli sulla configurazione delle variabili di prodotto, vedi [products](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/products.html) nella *Guida all&#39;implementazione di Adobe Analytics*. Alcune delle note in tale documentazione richiedono discrezione da parte del team che la sta distribuendo (ad esempio: Categoria). È sempre consigliabile consultare [!DNL Adobe] prima di eseguire questa attività.
 
 ### Considerazioni
 
@@ -68,24 +63,24 @@ Ora è il momento di mappare queste variabili sul lato [!DNL Target] per la forn
 
 ## Implementare in [!DNL Target]
 
-1. In [!DNL Target], fare clic su **[!UICONTROL Recommendations]**, quindi sulla scheda **[!UICONTROL Feeds]**.
+1. In [!DNL Target], fai clic su **[!UICONTROL Consigli]**, quindi fai clic sulla scheda **[!UICONTROL Feed]**.
 
-1. Fare clic su **[!UICONTROL Create Feed]**.
+1. Fare clic su **[!UICONTROL Crea feed]**.
 
-1. Seleziona **[!UICONTROL Analytics Classifications]**, quindi specifica la suite di rapporti.
+1. Seleziona **[!UICONTROL Classificazioni Analytics]**, quindi specifica la suite di rapporti.
 
-1. Fare clic su **[!UICONTROL Next]** per passare alle impostazioni di **[!UICONTROL Schedule]** e selezionare un periodo di frequenza per il feed:
+1. Fai clic su **[!UICONTROL Avanti]** per passare alle impostazioni **[!UICONTROL Pianifica]**, quindi seleziona un periodo di frequenza per il feed:
 
-   * [!UICONTROL Daily]
-   * [!UICONTROL Weekly]
-   * [!UICONTROL Every 2 weeks]
-   * [!UICONTROL Never]
+   * [!UICONTROL Giornaliero]
+   * [!UICONTROL Settimanale]
+   * [!UICONTROL Ogni 2 settimane]
+   * [!UICONTROL Mai]
 
    Puoi anche selezionare l’ora del giorno in cui il feed deve essere elaborato.
 
-1. Fai clic su **[!UICONTROL Next]** per passare alle impostazioni di **[!UICONTROL Mapping]**, quindi mappa le intestazioni delle colonne di campo ai nomi di campo [!UICONTROL Recommendations] appropriati.
+1. Fai clic su **[!UICONTROL Avanti]** per passare alle impostazioni di **[!UICONTROL Mappatura]**, quindi mappa le intestazioni delle colonne di campo ai nomi di campo [!UICONTROL Consigli] appropriati.
 
-1. Fare clic su **[!UICONTROL Save]**.
+1. Fai clic su **[!UICONTROL Salva]**.
 
 ## Domande frequenti
 

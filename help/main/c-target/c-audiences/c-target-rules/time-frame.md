@@ -5,32 +5,29 @@ title: Posso indirizzare l’attività a visitatori che visitano il mio sito in 
 feature: Audiences
 exl-id: 814d545d-baee-4f8b-a2ed-ed68fceaeb7f
 TQID: https://experienceleague.adobe.com/EilEXJtLuzmytW8OmhGbhOTfsVxx4WuTKfT6zgmFYdc
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 435
+source-wordcount: 454
 ht-degree: 24%
 
 ---
 
-# [!UICONTROL Time Frame]
+# [!UICONTROL Arco temporale]
 
 Puoi aggiungere date e ore di inizio e fine in [!DNL Adobe Target] per eseguire il targeting degli utenti che visitano il tuo sito durante un intervallo di tempo specifico. Puoi anche impostare le opzioni Ripartizione settimanale e giornaliera per creare pattern ricorrenti per il targeting del pubblico.
 
 Ad esempio, utilizzando la [funzione tipi di pubblico combinati ad hoc](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5), puoi indirizzare gli utenti che spendono meno su contenuti specifici nei tre giorni precedenti al Black Friday e su altri contenuti dopo il Black Friday.
 
-1. Nell&#39;interfaccia [!DNL Target], fare clic su **[!UICONTROL Audiences]** > **[!UICONTROL Create Audience]**.
+1. Nell&#39;interfaccia [!DNL Target], fare clic su **[!UICONTROL Tipi di pubblico]** > **[!UICONTROL Crea pubblico]**.
 1. Assegna un nome al pubblico e aggiungi una descrizione facoltativa.
-1. Trascina **[!UICONTROL Time Frame]** nel riquadro Generatore di pubblico.
+1. Trascina e rilascia **[!UICONTROL Intervallo di tempo]** nel riquadro generatore di pubblico.
 
    ![immagine target_timeframe_dialog](assets/target_timeframe_dialog.png)
 
-1. Specifica le date e le ore [!UICONTROL Start] e [!UICONTROL End] per il pubblico.
+1. Specifica le date e le ore [!UICONTROL Inizio] e [!UICONTROL Fine] per il pubblico.
 
    Lascia la data di inizio vuota per avviare il targeting in base alla pianificazione dellʼattività. Lascia la data di fine vuota per continuare il targeting fino alla data e allʼora di fine dellʼattività.
 
@@ -44,23 +41,23 @@ Ad esempio, utilizzando la [funzione tipi di pubblico combinati ad hoc](/help/ma
    >
    >* [!DNL Target] tipi di pubblico non prendono in considerazione le modifiche dell&#39;ora legale (DST). È necessario salvare nuovamente manualmente i tipi di pubblico per tenere conto delle modifiche dell’ora legale.
 
-1. (Condizionale) Fare clic su **[!UICONTROL Set frequency]** per impostare pattern ricorrenti, inclusi giorni della settimana e ore.
+1. (Condizionale) Fai clic su **[!UICONTROL Imposta frequenza]** per impostare pattern ricorrenti, inclusi giorni della settimana e ore.
 
    ![Ripartizione settimanale e giornaliera](assets/week_and_day_parting.png)
 
-   È possibile utilizzare le opzioni [!UICONTROL Frequency], ad esempio, per visualizzare un&#39;opzione &quot;Chat ora&quot; ai visitatori solo durante i giorni e le ore in cui il call center dispone di personale.
+   Puoi usare le opzioni [!UICONTROL Frequenza], ad esempio, per visualizzare un&#39;opzione &quot;Chat ora&quot; ai visitatori solo nei giorni e nelle ore in cui il call center dispone di personale.
 
-   Seleziona uno o più giorni della settimana, quindi imposta gli orari di inizio e fine. Fare clic su **[!UICONTROL Add frequency]** per specificare altri pattern, come desiderato.
+   Seleziona uno o più giorni della settimana, quindi imposta gli orari di inizio e fine. Fare clic su **[!UICONTROL Aggiungi frequenza]** per specificare altri pattern, come desiderato.
 
    >[!NOTE]
    >
-   >Il fuso orario per [!UICONTROL Week and Day Parting] viene visualizzato come GMT +/- NN:NN, dove NN:NN è lo scostamento da GMT e riflette il fuso orario a livello di account anziché quello del visitatore. Ad esempio, il fuso orario della California per l&#39;ora legale del Pacifico verrà visualizzato come GMT -07:00.
+   >Il fuso orario per [!UICONTROL Ripartizione settimanale e giornaliera] viene visualizzato come GMT +/- NN:NN, dove NN:NN è lo scostamento da GMT e riflette il fuso orario a livello di account anziché quello del visitatore. Ad esempio, il fuso orario della California per l&#39;ora legale del Pacifico verrà visualizzato come GMT -07:00.
 
 1. (Facoltativo) Imposta regole aggiuntive per il pubblico.
 
    Se necessario, puoi ripetere il passaggio 5 per ogni regola.
 
-1. Fare clic su **[!UICONTROL Done]**.
+1. Fai clic su **[!UICONTROL Fine]**.
 
 ## Video di formazione: Creazione di tipi di pubblico ![Icona panoramica](/help/main/assets/overview.png)
 

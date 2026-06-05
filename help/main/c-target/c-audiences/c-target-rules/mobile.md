@@ -5,20 +5,14 @@ title: Posso indirizzare i visitatori in base alle opzioni mobile?
 feature: Audiences
 exl-id: 73d5c80c-bfa2-4806-8c04-652781b70bf2
 TQID: https://experienceleague.adobe.com/oCyCtd21XayR3G4ClrQwyqcrgyxS4nmUONE-iIwavOY
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
-  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
-subfeature_v2:
-  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eebid: c93393a4-e558-47e1-992e-c91ed4d480ce
+subfeature_v2: id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 692
-ht-degree: 38%
+source-wordcount: 707
+ht-degree: 39%
 
 ---
 
@@ -50,10 +44,10 @@ Per risolvere questo problema, [!DNL Target] raccoglie dati aggiuntivi per rilev
 
 I clienti che utilizzano un&#39;integrazione personalizzata (non con at.js o l&#39;SDK mobile) possono raccogliere questi parametri e trasmetterli come parametri mbox.
 
-1. Nell&#39;interfaccia [!DNL Target], fare clic su **[!UICONTROL Audiences]** > **[!UICONTROL Create Audience]**.
+1. Nell&#39;interfaccia [!DNL Target], fare clic su **[!UICONTROL Tipi di pubblico]** > **[!UICONTROL Crea pubblico]**.
 1. Assegna un nome al pubblico e aggiungi una descrizione facoltativa.
-1. Trascina **[!UICONTROL Mobile]** nel riquadro Generatore di pubblico.
-1. Fare clic su **[!UICONTROL Select]**, quindi selezionare una delle opzioni seguenti:
+1. Trascina e rilascia **[!UICONTROL Mobile]** nel riquadro generatore di pubblico.
+1. Fai clic su **[!UICONTROL Seleziona]**, quindi scegli una delle seguenti opzioni:
 
    * Nome marketing del dispositivo
    * Modello dispositivo
@@ -70,7 +64,7 @@ I clienti che utilizzano un&#39;integrazione personalizzata (non con at.js o l&#
    >Puoi eseguire il targeting per gestore di telefonia mobile utilizzando le [impostazioni Geo](/help/main/c-target/c-audiences/c-target-rules/geo.md#concept_5B4D99DE685348FB877929EE0F942670).
 
 1. (Facoltativo) Imposta regole aggiuntive per il pubblico.
-1. Fare clic su **[!UICONTROL Done]**.
+1. Fai clic su **[!UICONTROL Fine]**.
 
 L’illustrazione seguente mostra un pubblico che include i visitatori che utilizzano dispositivi mobili prodotti da Google.
 
@@ -82,7 +76,7 @@ Quando esegui il targeting di dispositivi mobili, considera le seguenti informaz
 
 ### Targeting di dispositivi con iOS 12.2 o versione successiva
 
-A causa delle nuove modifiche introdotte in iOS 12.2, la creazione di un pubblico con regole definite da [!UICONTROL Device Marketing Name] e [!UICONTROL Device Model] che specificano modelli iPhone è interessata. [!DNL Target] non può più eseguire il targeting di utenti che dispongono di iPhone con iOS 12.2 (o versione successiva) installato su di essi. Tuttavia, se tali utenti non dispongono di iOS 12.2 (o versioni successive), il targeting del modello iPhone continua a funzionare correttamente.
+A causa delle nuove modifiche introdotte in iOS 12.2, la creazione di un pubblico con regole definite da [!UICONTROL Nome marketing dispositivo] e [!UICONTROL Modello dispositivo] che specificano modelli iPhone è interessata. [!DNL Target] non può più eseguire il targeting di utenti che dispongono di iPhone con iOS 12.2 (o versione successiva) installato su di essi. Tuttavia, se tali utenti non dispongono di iOS 12.2 (o versioni successive), il targeting del modello iPhone continua a funzionare correttamente.
 
 L’aggiornamento iOS 12.2 (o versioni successive) non influisce sull’identificazione dei seguenti modelli, poiché questi non supportano l’aggiornamento a iOS 12.2: iPhone, iPhone 3G, iPhone 3GS, iPhone 4, iPhone 4s, iPhone 5, iPhone 5c, iPad, iPad 2, display iPad/Retina, iPad Retina (4a generazione), iPod Touch 4 e iPod Touch 5.
 

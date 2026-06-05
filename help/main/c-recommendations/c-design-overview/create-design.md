@@ -2,18 +2,16 @@
 keywords: Progettazione consigli;creare progettazione;copia progettazione
 description: Scopri come creare una progettazione  [!DNL Target Recommendations]  utilizzando una progettazione predefinita o creando una progettazione personalizzata che si adatti al meglio al layout della pagina.
 title: Come si crea una progettazione in Recommendations?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=it#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."
 feature: Recommendations
 exl-id: 0f10ee9d-7210-4e02-9342-e4f85cf46e8c
 TQID: https://experienceleague.adobe.com/GLWcKaQGl6TmL9i7LYUiYepg6SkAjBtL-78-zlaWCTk
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 1006
-ht-degree: 22%
+source-wordcount: 1065
+ht-degree: 25%
 
 ---
 
@@ -21,7 +19,7 @@ ht-degree: 22%
 
 Una progettazione definisce come i consigli verranno visualizzati su una pagina.
 
-È possibile creare una progettazione [!UICONTROL Recommendations] utilizzando una progettazione predefinita o creando una progettazione personalizzata. Nella schermata **[!UICONTROL Recommendations > Designs]** vengono visualizzate le schede di progettazione predefinite e le progettazioni create nel tuo account.
+È possibile creare una progettazione [!UICONTROL Consigli] utilizzando una progettazione predefinita o creandone una personalizzata. Nella schermata **[!UICONTROL Consigli > Progettazioni]** vengono visualizzate le schede di progettazione predefinite e le progettazioni create nel tuo account.
 
 Quando si lavora con le progettazioni, tenere presenti le seguenti informazioni:
 
@@ -38,7 +36,7 @@ Questa illustrazione mostra una progettazione personalizzata:
 
 ![Progettazione personalizzata](/help/main/c-recommendations/c-design-overview/assets/custom-design.png)
 
-È possibile creare una progettazione durante il processo di creazione delle attività dall&#39;interno di [!UICONTROL Visual Experience Composer] (VEC) o dalla libreria di progettazione al di fuori della creazione delle attività. Le sezioni seguenti presuppongono la creazione di progetti dalla libreria, ma i passaggi sono simili.
+È possibile creare una progettazione durante il processo di creazione delle attività dall&#39;interno del [!UICONTROL Compositore esperienza visivo] o dalla libreria di progettazione all&#39;esterno della creazione delle attività. Le sezioni seguenti presuppongono la creazione di progetti dalla libreria, ma i passaggi sono simili.
 
 ## Creare progettazioni
 
@@ -46,50 +44,50 @@ Questa illustrazione mostra una progettazione personalizzata:
 
 ### Creare una progettazione basata su una progettazione predefinita
 
-1. Fare clic su **[!UICONTROL Recommendations]** > **[!UICONTROL Designs]** per visualizzare la libreria [!UICONTROL Designs].
+1. Fai clic su **[!UICONTROL Consigli]** > **[!UICONTROL Progettazioni]** per visualizzare la libreria [!UICONTROL Progettazioni].
 
 
-1. Fare clic sull&#39;icona Altre azioni ( ![Icona Altre azioni](/help/main/assets/icons/MoreSmallList.svg) ) per la struttura da creare, quindi fare clic su **[!UICONTROL Copy]**.
+1. Fai clic sull&#39;icona Altre azioni ( ![Icona Altre azioni](/help/main/assets/icons/MoreSmallList.svg) ) per la struttura da creare, quindi fai clic su **[!UICONTROL Copia]**.
 
-   Viene visualizzata la finestra di dialogo [!UICONTROL Create Design].
+   Viene visualizzata la finestra di dialogo [!UICONTROL Crea design].
 
-1. Digitare **[!UICONTROL &#x200B; Name]** e un&#39;immagine di anteprima facoltativa da visualizzare nella scheda progettazione.
+1. Digitare un nome **** e un&#39;immagine di anteprima facoltativa da visualizzare sulla scheda progettazione.
 
-   Quando si utilizza una progettazione predefinita, il nome della progettazione e la &quot;copia&quot; vengono visualizzati nel campo **[!UICONTROL Content Name]**. È possibile modificare il nome. È inoltre possibile selezionare un&#39;immagine da visualizzare nella scheda di progettazione.
+   Quando si utilizza una progettazione predefinita, il nome della progettazione e la &quot;copia&quot; vengono visualizzati nel campo **[!UICONTROL Nome contenuto]**. È possibile modificare il nome. È inoltre possibile selezionare un&#39;immagine da visualizzare nella scheda di progettazione.
 
-1. (Condizionale) Modificare la struttura **[!UICONTROL Code]** come desiderato.
+1. (Condizionale) Modificare la struttura **[!UICONTROL Codice]** come desiderato.
 
    Le progettazioni per consigli utilizzano il linguaggio di progettazione open-source Velocity. Le informazioni su Velocity sono disponibili all&#39;indirizzo [https://velocity.apache.org](https://velocity.apache.org) e in [Personalizzare una progettazione utilizzando Velocity](/help/main/c-recommendations/c-design-overview/customizing-a-template.md).
 
-   Una progettazione può essere HTML o non HTML. Per impostazione predefinita, le progettazioni di HTML sono racchiuse con un tag `<div>` per consentire il tracciamento dei clic in un ambiente Web. Le progettazioni non HTML sono per ambienti non web in cui non è possibile effettuare il monitoraggio dei clic. Fare scorrere l&#39;interruttore [!UICONTROL HTML Design] in posizione &quot;off&quot; per utilizzare codice non HTML.
+   Una progettazione può essere HTML o non HTML. Per impostazione predefinita, le progettazioni di HTML sono racchiuse con un tag `<div>` per consentire il tracciamento dei clic in un ambiente Web. Le progettazioni non HTML sono per ambienti non web in cui non è possibile effettuare il monitoraggio dei clic. Far scorrere l&#39;interruttore [!UICONTROL HTML Design] in posizione &quot;off&quot; per utilizzare codice non HTML.
 
    >[!NOTE]
    >
    >Il numero massimo di entità a cui puoi fare riferimento in una progettazione, tramite codifica fissa o cicli, è 99.
 
-1. Fare clic su **[!UICONTROL Create]**.
+1. Fai clic su **[!UICONTROL Crea]**.
 
 ### Creare una progettazione personalizzata
 
-1. Fare clic su **[!UICONTROL Recommendations]** > **[!UICONTROL Designs]** per visualizzare la libreria [!UICONTROL Designs].
+1. Fai clic su **[!UICONTROL Consigli]** > **[!UICONTROL Progettazioni]** per visualizzare la libreria [!UICONTROL Progettazioni].
 
-1. Fare clic su **[!UICONTROL Create Design]**.
+1. Fare clic su **[!UICONTROL Crea progettazione]**.
 
-   Se desideri basare la nuova progettazione personalizzata su una progettazione esistente, fai clic sull&#39;icona [!UICONTROL More Actions] ( ![Icona Altre azioni](/help/main/assets/icons/MoreSmallList.svg) ) per la progettazione che desideri creare, quindi fai clic su [!UICONTROL Copy]. Puoi quindi modificare la copia per creare una nuova progettazione personalizzata.
+   Se desideri basare la nuova progettazione personalizzata su una progettazione esistente, fai clic sull&#39;icona [!UICONTROL Altre azioni] ( ![Altre azioni](/help/main/assets/icons/MoreSmallList.svg) ) per la progettazione che desideri creare, quindi fai clic su [!UICONTROL Copia]. Puoi quindi modificare la copia per creare una nuova progettazione personalizzata.
 
-1. Aggiungi un **[!UICONTROL Name]** e un&#39;immagine di anteprima facoltativa.
+1. Aggiungi un **[!UICONTROL Nome]** e un&#39;anteprima facoltativa.
 
-1. (Condizionale) Modificare la struttura **[!UICONTROL Code]** come desiderato.
+1. (Condizionale) Modificare la struttura **[!UICONTROL Codice]** come desiderato.
 
    Per ulteriori informazioni, consulta le informazioni nel passaggio 4 precedente.
 
-1. Fare clic su **[!UICONTROL Create]**.
+1. Fai clic su **[!UICONTROL Crea]**.
 
 ## Modificare, copiare o eliminare una progettazione
 
 Non è possibile modificare o copiare una progettazione predefinita; è possibile copiare solo le progettazioni predefinite.
 
-Fare clic sull&#39;icona [!UICONTROL More Actions] ( ![Icona Altre azioni](/help/main/assets/icons/MoreSmallList.svg) ) per la struttura che si desidera modificare o eliminare, quindi fare clic sull&#39;icona appropriata: [!UICONTROL Edit], [!UICONTROL Copy] o [!UICONTROL Delete].
+Fai clic sull&#39;icona [!UICONTROL Altre azioni] ( ![Icona Altre azioni](/help/main/assets/icons/MoreSmallList.svg) ) per la struttura da modificare o eliminare, quindi fai clic sull&#39;icona appropriata: [!UICONTROL Modifica], [!UICONTROL Copia] o [!UICONTROL Elimina].
 
 Potete copiare una progettazione esistente per creare una progettazione duplicata che potete quindi modificare. Questo processo consente di creare un design simile con meno sforzo.
 
@@ -99,7 +97,7 @@ Tieni presente che le progettazioni sono disponibili a livello dell’intero acc
 
 L&#39;esempio seguente mostra come è possibile restituire le risposte JSON durante la configurazione di un&#39;attività tramite l&#39;[editor basato su moduli](/help/main/c-experiences/form-experience-composer.md).
 
-1. Creare una progettazione dall&#39;interno di [!UICONTROL Design library] o all&#39;interno del flusso di lavoro basato su moduli. Se si tenta di creare una progettazione all&#39;interno del flusso di lavoro [!UICONTROL Visual Experience Composer] (VEC), non è possibile creare nulla di diverso da una progettazione HTML, che viene racchiusa in un `<div>` a scopo di tracciamento dei clic.
+1. Crea una progettazione dall&#39;interno della [!UICONTROL Libreria di progettazione] o all&#39;interno del flusso di lavoro basato su moduli. Se si tenta di creare una progettazione all&#39;interno del flusso di lavoro del [!UICONTROL Compositore esperienza visivo], non sarà possibile creare elementi diversi da una progettazione di HTML, che viene racchiusa in un `<div>` a scopo di tracciamento dei clic.
 
 1. Assicurati che l&#39;opzione “Progettazione HTML” sia disattivata:
 
@@ -136,16 +134,16 @@ L&#39;esempio seguente mostra come è possibile restituire le risposte JSON dura
 
 1. Configurare un&#39;attività [!DNL Recommendations] basata su modulo che utilizza questa struttura.
 
-   1. Passare alla pagina **[!UICONTROL Activities]**.
-   1. Fare clic su **[!UICONTROL Create Activity]** > **[!UICONTROL Recommendations]**.
-   1. In **[!UICONTROL Choose Experience Composer]**, selezionare **[!UICONTROL Form]**, quindi fare clic su **[!UICONTROL Next]**.
+   1. Passa alla pagina **[!UICONTROL Attività]**.
+   1. Fai clic su **[!UICONTROL Crea attività]** > **[!UICONTROL Consigli]**.
+   1. In **[!UICONTROL Scegli Compositore esperienza]**, seleziona **[!UICONTROL Modulo]**, quindi fai clic su **[!UICONTROL Successivo]**.
    1. In posizione, immetti il testo: “Sample_Recs_Response”
-   1. In **[!UICONTROL Default Content]** fare clic sulla freccia giù, quindi su **[!UICONTROL Add Recommendation]**.
+   1. In **[!UICONTROL Contenuto predefinito]** fai clic sulla freccia giù, poi su **[!UICONTROL Aggiungi consiglio]**.
    1. Scegli un Tipo di pagina. Questo determina il filtraggio iniziale della schermata successiva.
-   1. Selezionare una scheda Criteri, quindi fare clic su **[!UICONTROL Next]**.
-   1. Selezionare la struttura creata nel passaggio precedente, quindi fare clic su **[!UICONTROL Next]**.
+   1. Seleziona una scheda Criteri, poi fai clic su **[!UICONTROL Avanti]**.
+   1. Seleziona la struttura creata nel passaggio precedente, quindi fai clic su **[!UICONTROL Successivo]**.
    1. Completa il processo di impostazione.
-   1. Fare clic sulla freccia destra accanto a **[!UICONTROL Inactive]**, quindi selezionare **[!UICONTROL Activate]**.
+   1. Fai clic sulla freccia destra accanto a **[!UICONTROL Inattivo]**, poi seleziona **[!UICONTROL Attiva]**.
 
 1. Dopo aver impostato e attivato l&#39;attività, è possibile impostare una richiesta di esempio per ottenere la risposta JSON pulita.
 
@@ -178,7 +176,7 @@ Puoi anche restituire un semplice elenco di elementi delimitato da virgole impos
 entity1.id, $entity2.id, $entity3.id, $entity4.id, $entity5.id, 
 ```
 
-In alternativa, è possibile inviare ulteriori informazioni nella risposta. Il file di codice seguente è un esempio più complesso che restituisce molto di più degli ID di entità con gli spazi associati (ordine). In questo esempio di progettazione vengono inoltre restituiti i dettagli dell&#39;attività, [!UICONTROL Target Profile] i dettagli applicabili e altri `entity.attributes` associati agli elementi restituiti.
+In alternativa, è possibile inviare ulteriori informazioni nella risposta. Il file di codice seguente è un esempio più complesso che restituisce molto di più degli ID di entità con gli spazi associati (ordine). In questo esempio di progettazione vengono inoltre restituiti i dettagli dell&#39;attività, [!UICONTROL Profilo di destinazione] (come applicabile) e altri `entity.attributes` associati agli elementi restituiti.
 
 ```javascript
     {   
@@ -325,4 +323,4 @@ Questo video contiene le seguenti informazioni:
 * Creare una progettazione personalizzata
 * Come fare riferimento alle variabili di visualizzazione nelle progettazioni
 
->[!VIDEO](https://video.tv.adobe.com/v/328805?captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/27687)

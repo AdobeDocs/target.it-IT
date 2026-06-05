@@ -1,28 +1,23 @@
 ---
 keywords: personalizzazione automatizzata;offerte;target;pubblico;regole targeting;targeting;automated personalization;offers;target;audience;targeting rules;targeting rules;targeting rules;targeting
 description: Scopri come indirizzare singole offerte a tipi di pubblico specifici utilizzando le attività di [!UICONTROL Automated Personalization] (AP).
-title: Come Posso Eseguire Il Targeting Di [!UICONTROL Automated Personalization] Offerte?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=it#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."
+title: Come posso indirizzare le [!UICONTROL offerte Automated Personalization]?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."
 feature: Automated Personalization
 solution: Target,Analytics
 exl-id: 633308dd-437b-4525-a7f8-69656c7d89be
 TQID: https://experienceleague.adobe.com/AVqyD-Von-gzuVXC09N9qHY5hEe1QLQwSavCE0mp7Ok
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3aid: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 380
-ht-degree: 19%
+source-wordcount: 409
+ht-degree: 18%
 
 ---
 
-# Targeting delle offerte [!UICONTROL Automated Personalization]
+# Offerte [!UICONTROL Automated Personalization] di destinazione
 
 In un&#39;attività [!DNL Adobe Target] [!DNL Automated Personalization] (AP) è possibile indirizzare le offerte a tipi di pubblico specifici.
 
@@ -40,25 +35,25 @@ In questo scenario, il visitatore 1 vede l&#39;offerta 1 (perché il visitatore 
 ## Impostare le regole di targeting
 
 1. Crea o modifica un&#39;attività di [Automated Personalization](/help/main/c-activities/t-automated-personalization/create-ap-activity.md) contenente le offerte sulle quali desideri eseguire il targeting.
-1. Dopo aver impostato le offerte per l&#39;attività in [!UICONTROL Visual Experience Composer], fare clic sull&#39;icona **[!UICONTROL Manage Content]** ( ![icona Gestisci contenuto](/help/main/assets/icons/Experience.svg) ).
+1. Dopo aver impostato le offerte per l&#39;attività nel [!UICONTROL Compositore esperienza visivo], fai clic sull&#39;icona **[!UICONTROL Gestisci contenuto]** ( ![icona Gestisci contenuto](/help/main/assets/icons/Experience.svg) ).
 
-   Viene visualizzata la finestra di dialogo [!UICONTROL Manage Content].
+   Viene visualizzata la finestra di dialogo [!UICONTROL Gestione contenuto].
 
-1. Fare clic sulla scheda **[!UICONTROL Offers]**.
+1. Fai clic sulla scheda **[!UICONTROL Offerte]**.
 
 1. Seleziona le offerte desiderate, quindi scegli il pubblico a cui desideri indirizzare l’offerta.
 
-   Per impostare il targeting per una singola offerta, fai clic sull&#39;icona Ulteriori informazioni ( ![Icona Ulteriori informazioni](/help/main/assets/icons/MoreSmallList.svg) ) accanto all&#39;offerta desiderata, quindi fai clic su **[!UICONTROL Target Audience]** per visualizzare la finestra di dialogo [!UICONTROL Add Audiences].
+   Per impostare il targeting per una singola offerta, fai clic sull&#39;icona Ulteriori informazioni ( ![Icona Ulteriori informazioni](/help/main/assets/icons/MoreSmallList.svg) ) accanto all&#39;offerta desiderata, quindi fai clic su **[!UICONTROL Pubblico di destinazione]** per visualizzare la finestra di dialogo [!UICONTROL Aggiungi pubblico].
 
-   Per impostare il targeting per più offerte, seleziona le caselle di controllo per le offerte desiderate, quindi fai clic sul collegamento **[!UICONTROL Target Audience]** che viene visualizzato in fondo all&#39;elenco.
+   Per impostare il targeting per più offerte, seleziona la casella di controllo di ciascuna offerta e fai clic sul collegamento **[!UICONTROL Pubblico di destinazione]** che viene visualizzato in fondo all&#39;elenco.
 
-1. Nella finestra di dialogo [!UICONTROL Add Audiences], seleziona il pubblico desiderato per le offerte, quindi fai clic su **[!UICONTROL Assign Audience]** per tornare alla finestra di dialogo [!UICONTROL Manage Content].
+1. Nella finestra di dialogo [!UICONTROL Aggiungi pubblico], seleziona il pubblico desiderato per le offerte, quindi fai clic su **[!UICONTROL Assegna pubblico]** per tornare alla finestra di dialogo [!UICONTROL Gestisci contenuto].
 
    >[!NOTE]
    >
    >Oltre a selezionare un pubblico esistente, puoi combinare più tipi di pubblico per creare un pubblico combinato su richiesta anziché crearne uno nuovo. Per ulteriori informazioni, consulta [Combinazione di più tipi di pubblico](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5).
 
-1. Fare clic su **[!UICONTROL Done]**.
+1. Fai clic su **[!UICONTROL Fine]**.
 
 >[!NOTE]
 >

@@ -6,7 +6,7 @@ hide: true
 source-git-commit: fea4d9e87ad8417de9d820ee3556796fba112dc1
 workflow-type: tm+mt
 source-wordcount: '170'
-ht-degree: 7%
+ht-degree: 8%
 
 ---
 
@@ -39,7 +39,7 @@ ht-degree: 7%
    + [Servizi Web](guides/integrate/web-services.md)
    + [SDK](guides/integrate/sdks.md)
    + [Passaggi dell’integrazione](guides/integrate/integration-steps.md)
-+ Contrassegni di funzioni {#feature-flags}
++ Flag di funzioni {#feature-flags}
    + [Funzioni e gruppi di funzioni](guides/feature-flags/features-feature-groups-releases.md)
    + [Creare il primo flag di funzione](guides/feature-flags/create-your-first-feature-flag.md)
    + [Impostare una funzione per il rollout graduale](guides/feature-flags/set-feature-gradual-rollout.md)

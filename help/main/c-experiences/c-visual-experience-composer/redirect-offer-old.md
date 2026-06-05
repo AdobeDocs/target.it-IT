@@ -6,16 +6,16 @@ feature: Visual Experience Composer (VEC)
 exl-id: bd448482-0079-4689-aa24-65ecbb31b8ae
 source-git-commit: be9996c4dce0a3135a39fcbf0608b57b6e742ac3
 workflow-type: tm+mt
-source-wordcount: '475'
-ht-degree: 68%
+source-wordcount: '482'
+ht-degree: 82%
 
 ---
 
 # Reindirizzamento a un URL
 
-Utilizzare l&#39;opzione [!UICONTROL Redirect to URL] in [!DNL Adobe Target] per inviare il visitatore a una pagina diversa anziché mostrare il contenuto nella stessa pagina.
+Utilizzare l&#39;opzione [!UICONTROL Reindirizza all&#39;URL] in [!DNL Adobe Target] per inviare il visitatore a una pagina diversa anziché mostrare il contenuto nella stessa pagina.
 
-Supponi di dover sottoporre a test due pagine completamente diverse, anziché semplici contenuti all&#39;interno di una pagina. In questo caso, il test A/B confronta la pagina A con la pagina B. Configura una campagna di test A/B con due esperienze: una che punta alla pagina predefinita A e l&#39;altra con reindirizza alla pagina B. Nel menu Azione esperienza, che si trova facendo clic sull&#39;etichetta della lettera dell&#39;esperienza, scegliere **[!UICONTROL Redirect to URL]** e specificare l&#39;URL della pagina B. L’offerta è configurata per reindirizzare il visitatore a una pagina diversa.
+Supponi di dover sottoporre a test due pagine completamente diverse, anziché semplici contenuti all&#39;interno di una pagina. In questo caso, il test A/B confronta la pagina A con la pagina B. Configura una campagna di test A/B con due esperienze: una che punta alla pagina predefinita A e l&#39;altra con reindirizza alla pagina B. Nel menu Azione esperienza, che si trova facendo clic sull&#39;etichetta della lettera dell&#39;esperienza, scegli **[!UICONTROL Reindirizza a URL]** e specifica l&#39;URL della pagina B. L&#39;offerta viene configurata per reindirizzare il visitatore a una pagina diversa.
 
 Nell&#39;offerta di reindirizzamento viene eseguito il codice JavaScript per reindirizzare il browser. Tale codice utilizza il metodo `window.location.replace();`, in modo tale che la pagina a cui il visitatore è reindirizzato non venga memorizzata nella cronologia del browser. Questo consente al visitatore di utilizzare il pulsante “Indietro” nel browser.
 

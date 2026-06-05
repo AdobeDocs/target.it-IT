@@ -6,20 +6,13 @@ feature: Analytics for Target (A4T)
 solution: Target,Analytics
 exl-id: f56fc525-92da-4814-86c1-18b3a2765f37
 TQID: https://experienceleague.adobe.com/SGNIoARqe3yN4WvKF4JPIp0t0JCMiSgj--zrjt-ZXJQ
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3aid: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: c93393a4-e558-47e1-992e-c91ed4d480ce
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 298
-ht-degree: 32%
+source-wordcount: 307
+ht-degree: 31%
 
 ---
 
@@ -39,19 +32,19 @@ Completa le seguenti attività in [!DNL Adobe Experience Cloud] [Admin Console](
 
 Gli account utente [!DNL Analytics] e [!DNL Target] devono essere collegati al tuo Adobe ID.
 
-Per ulteriori informazioni, vedere [Organizzazioni e collegamento account](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=it).
+Per ulteriori informazioni, vedere [Organizzazioni e collegamento account](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=en).
 
 ### Configurare l’iscrizione al gruppo Experience Cloud
 
 Devi essere membro di uno o più gruppi di [!DNL Experience Cloud] che hanno accesso a [!DNL Analytics] e a [!DNL Target].
 
-Per ulteriori informazioni, consulta [Gestione di utenti e prodotti Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=it).
+Per ulteriori informazioni, consulta [Gestione di utenti e prodotti Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html).
 
 ## Adobe Analytics {#section_8F404FDE9A634534AB0AA4CB3075582B}
 
 Per utilizzare A4T in una determinata suite di rapporti, è necessario avere accesso a tale suite di rapporti e concedere l&#39;accesso al gruppo [!DNL Web Services Access].
 
-1. In **[!UICONTROL Admin Console]**, fare clic su un profilo di prodotto [!DNL Analytics], quindi sulla scheda **[!UICONTROL Permissions]**.
+1. In **[!UICONTROL Admin Console]**, fai clic su un profilo di prodotto [!DNL Analytics], quindi sulla scheda **[!UICONTROL Autorizzazioni]**.
 
    Puoi quindi vedere a quali suite di rapporti il profilo ha accesso.
 
@@ -61,9 +54,9 @@ Per utilizzare A4T in una determinata suite di rapporti, è necessario avere acc
 
    ![Scheda Autorizzazione Admin Console](/help/main/c-integrating-target-with-mac/a4t/assets/permissions-tab.png)
 
-1. Configurare l&#39;accesso al gruppo [!UICONTROL Web Services Access].
+1. Configura l&#39;accesso al gruppo [!UICONTROL Accesso ai servizi Web].
 
-   È necessario accedere al gruppo [!UICONTROL Web Services Access] in [!DNL Analytics] per poter utilizzare [!DNL Analytics] come origine per la generazione di rapporti per [!DNL Target].
+   Per poter utilizzare [!DNL Analytics] come origine per la generazione di rapporti per [!DNL Target], è necessario accedere al gruppo [!UICONTROL Accesso ai servizi Web] in [!DNL Analytics].
 
 
 ## Adobe [!DNL Target] {#section_26BA212D8D40443E9EE2AB327091425C}

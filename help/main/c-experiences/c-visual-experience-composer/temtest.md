@@ -5,17 +5,13 @@ title: Posso includere la stessa esperienza in pagine simili?
 feature: Experiences and Offers
 exl-id: 4ea95794-496c-4eff-96ec-8a9d1f732c4a
 TQID: https://experienceleague.adobe.com/zk7U6g7gk7XkpWsEFQbwuCm7xbpIb1lCaZefxjn-39g
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 518
-ht-degree: 24%
+source-wordcount: 564
+ht-degree: 22%
 
 ---
 
@@ -40,33 +36,33 @@ Puoi specificare le pagine che includono gli elementi di modifica o applicare la
 
 1. Crea o modifica un&#39;attività come descritto in [Attività](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03).
 
-1. Per specificare le pagine in cui viene visualizzata l&#39;esperienza, nel [!UICONTROL Visual Experience Composer] (Compositore esperienza visivo) fai clic sull&#39;icona [!UICONTROL Configure] ( ![icona Configura](/help/main/assets/icons/Setting.svg) ), quindi seleziona **[!UICONTROL Page Delivery]**.
+1. Per specificare le pagine in cui viene visualizzata l&#39;esperienza, nel [!UICONTROL Compositore esperienza visivo] (VEC) fai clic sull&#39;icona [!UICONTROL Configura] ( ![icona Configura](/help/main/assets/icons/Setting.svg) ), quindi seleziona **[!UICONTROL Consegna pagine]**.
 
-1. Fai clic su **[!UICONTROL Add Rule]**, quindi specifica i criteri per le pagine a cui aggiungere l&#39;esperienza.
+1. Fai clic su **[!UICONTROL Aggiungi regola]**, quindi specifica i criteri per le pagine a cui aggiungere l&#39;esperienza.
 
 1. Specifica l&#39;intervallo di pagine. L&#39;intervallo di pagine può essere uno tra i seguenti:
 
-   * [!UICONTROL URL] (Per ulteriori informazioni sulla valutazione degli URL da parte di [!DNL Target], vedere [Domande frequenti su destinazioni e pubblico](/help/main/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md).)
-   * [!UICONTROL Domain]
-   * [!UICONTROL Path]
-   * [!UICONTROL Hash (#) Fragment] (eseguire il targeting della parte di un URL che segue il simbolo #).
+   * [!UICONTROL URL] (per ulteriori informazioni su come [!DNL Target] valuta gli URL, consulta [Domande frequenti su destinazioni e pubblico](/help/main/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md).)
+   * [!UICONTROL Dominio]
+   * [!UICONTROL Percorso]
+   * [!UICONTROL Frammento hash (#)] (eseguire il targeting della parte di un URL che segue il simbolo #).
    * [!UICONTROL Query]
-   * [!UICONTROL Custom]
+   * [!UICONTROL Personalizzato]
 
 1. Scegli un operatore.
 
    L&#39;operatore specifica la correlazione tra gli elementi dopo l&#39;operatore e l&#39;intervallo di pagine. Gli operatori disponibili includono:
 
-   * [!UICONTROL Contains]
-   * [!UICONTROL Does not contain]
-   * [!UICONTROL Is (case sensitive)]
-   * [!UICONTROL Is not]
-   * [!UICONTROL Starts with]
-   * [!UICONTROL Ends with]
+   * [!UICONTROL Contiene]
+   * [!UICONTROL Non contiene]
+   * [!UICONTROL È (distinzione maiuscole/minuscole)]
+   * [!UICONTROL Non è]
+   * [!UICONTROL Inizia con]
+   * [!UICONTROL Termina con]
 
 1. Digita le stringhe che definiscono dove viene aggiunta l&#39;esperienza, ad esempio il dominio o le stringhe contenute nel nome della pagina.
 
-   Ad esempio, se selezioni **[!UICONTROL Domain]** e **[!UICONTROL Is (case sensitive)]**, digita il dominio in cui desideri aggiungere l&#39;esperienza in tutte le pagine.
+   Ad esempio, se selezioni **[!UICONTROL Dominio]** e **[!UICONTROL È (distinzione maiuscole/minuscole)]**, digita il dominio in cui desideri aggiungere l&#39;esperienza in tutte le pagine.
 
    È possibile includere più elementi.
 
@@ -74,7 +70,7 @@ Puoi specificare le pagine che includono gli elementi di modifica o applicare la
    >
    >Per gli elementi multipli viene utilizzato l’operatore OR, il che significa che ogni singolo elemento nell’elenco può soddisfare la condizione.
 
-1. Se lo si desidera, immettere criteri aggiuntivi facendo clic su **[!UICONTROL Add Rule]** e ripetendo la procedura descritta nei passaggi precedenti.
+1. Se lo desideri, inserisci criteri aggiuntivi facendo clic su **[!UICONTROL Aggiungi regola]** e ripetendo la procedura di cui ai passaggi precedenti.
 
    I criteri multipli sono collegati mediante AND (E). [!DNL Target] aggiunge l&#39;esperienza a tutte le pagine che corrispondono ai criteri specificati.
 
@@ -96,8 +92,8 @@ Puoi considerare l’utilizzo delle regole dei modelli per eseguire il rendering
 
 1. Crea o modifica un&#39;attività come descritto in [Attività](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03).
 
-1. Per specificare il dominio in cui viene visualizzata l&#39;esperienza, in [!UICONTROL Visual Experience Composer] fare clic sull&#39;icona [!UICONTROL Configure] ( ![icona Configura](/help/main/assets/icons/Setting.svg) ), quindi selezionare **[!UICONTROL Page Delivery]**.
+1. Per specificare il dominio in cui viene visualizzata l&#39;esperienza, nel [!UICONTROL Compositore esperienza visivo] fai clic sull&#39;icona [!UICONTROL Configura] ( ![icona Configura](/help/main/assets/icons/Setting.svg) ), quindi seleziona **[!UICONTROL Consegna pagine]**.
 
-1. Fare clic su **[!UICONTROL Add Rule]** > **[!UICONTROL Domain]**.
+1. Fai clic su **[!UICONTROL Aggiungi regola]** > **[!UICONTROL Dominio]**.
 
-1. Dall&#39;elenco a discesa **[!UICONTROL Choose evaluator]**, selezionare **[!UICONTROL Contains]**, quindi specificare il dominio.
+1. Dall&#39;elenco a discesa **[!UICONTROL Scegli valutatore]**, seleziona **[!UICONTROL Contiene]**, quindi specifica il dominio.

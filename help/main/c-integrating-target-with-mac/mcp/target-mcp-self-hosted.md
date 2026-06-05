@@ -41,7 +41,7 @@ Prima di iniziare, assicurati di avere i seguenti elementi:
   curl -LsSf https://astral.sh/uv/install.sh | sh
   ```
 
-* Una licenza [!DNL Adobe Target] attiva con accesso a Adobe Experience Cloud
+* Una licenza di [!DNL Adobe Target] attiva con accesso ad Adobe Experience Cloud
 * **Credenziali artifactory** (solo per utenti interni Adobe): necessarie per installare dipendenze interne
 
 ## Installazione {#self-hosted-install}

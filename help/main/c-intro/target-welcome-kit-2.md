@@ -5,32 +5,14 @@ title: Dove posso trovare un’introduzione ad alto livello per Target?
 feature: Overview
 exl-id: 19238d4c-b7e1-418d-96e5-c46a3769f7bf
 TQID: https://experienceleague.adobe.com/nPXW07lMjkfeUeuElqoTVYd7-JG7N7uVVZ-m9cOKE8w
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
-  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
-  - id: f599e456-545c-47e5-8e50-b7dfe3579517
-  - id: f7c7de77-382f-4f48-8b36-61a170f06d3d
-subfeature_v2:
-  - id: a94ced60-8199-4549-b453-ede2acb4101e
-  - id: b06652e6-189f-46a9-90c5-677f6d9cc699
-  - id: df62f171-ac37-440f-8f0f-f41a72ebdd34
-topic_v2:
-  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eebid: c93393a4-e558-47e1-992e-c91ed4d480ceid: f599e456-545c-47e5-8e50-b7dfe3579517id: f7c7de77-382f-4f48-8b36-61a170f06d3d
+subfeature_v2: id: a94ced60-8199-4549-b453-ede2acb4101eid: b06652e6-189f-46a9-90c5-677f6d9cc699id: df62f171-ac37-440f-8f0f-f41a72ebdd34
+topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bbbea26f-9621-49eb-9ab8-e06fb3bbce8cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d095671a-1355-40aa-8b5f-06c33c68080bid: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: eb30f47f-d87a-400f-8f78-63ce7979ff56
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 2558
-ht-degree: 73%
+source-wordcount: 2606
+ht-degree: 72%
 
 ---
 
@@ -54,7 +36,7 @@ Per informazioni più approfondite su quando e come utilizzare ciascuna funziona
 | Allocazione automatica | Tra due o più esperienze, identifica quella che porta i migliori risultati e, di conseguenza, ridistribuisci il traffico verso la più efficace per aumentare le conversioni, mentre il test continua a essere eseguito e ad apprendere. Utilizza l’intelligenza artificiale fornita da [!DNL Adobe Adobe AI]. [Per saperne di più](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md). |
 | Targeting automatico<br>(Premium) | Sfrutta Adobe AI in [!DNL Target] per determinare e fornire la migliore esperienza per diversi visitatori in base al loro profilo cliente individuale e al comportamento dei visitatori precedenti con profili simili. Il Targeting automatico consente la personalizzazione su larga scala. [Per saperne di più](/help/main/c-activities/auto-target/auto-target-to-optimize.md). |
 | Automated Personalization<br>(Premium) | Utilizza algoritmi di machine learning avanzati e automazione basati su [!DNL Adobe Adobe AI] per rivedere diverse combinazioni di immagini, testi e altri elementi in un’offerta e fornire la migliore combinazione a ogni visitatore in base al migliore raggiungimento degli obiettivi aziendali, come un aumento delle conversioni o dei ricavi per visitatore. [Per saperne di più](/help/main/c-activities/t-automated-personalization/automated-personalization.md). |
-| Targeting esperienza (XT) | Fornisci contenuti a un pubblico specifico sulla base di una serie di regole e criteri definiti dagli utenti. **[!UICONTROL Experience Targeting]** è utile per indirizzare un&#39;esperienza o un contenuto specifico a un determinato pubblico quando si capisce che un pubblico è prezioso e si ha una buona sensazione delle ripercussioni dell&#39;esperienza su di esso. [Per saperne di più](/help/main/c-activities/t-experience-target/experience-target.md). |
+| Targeting esperienza (XT) | Fornisci contenuti a un pubblico specifico sulla base di una serie di regole e criteri definiti dagli utenti. **[!UICONTROL Targeting esperienza]** è utile per indirizzare un&#39;esperienza o un contenuto specifico a un determinato pubblico quando si capisce che un pubblico è prezioso e si ha una buona sensazione delle ripercussioni dell&#39;esperienza su di esso. [Per saperne di più](/help/main/c-activities/t-experience-target/experience-target.md). |
 | Multivariate Testing (MVT) | Confronta tutte le possibili combinazioni di varianti di elementi sulla pagina o esperienza digitale, ad esempio tre diverse immagini di sfondo, due varianti di testo e due diversi colori di pulsante. MVT determina quale combinazione funziona al meglio per un pubblico specifico e quali elementi influiscono maggiormente sui risultati. [Per saperne di più](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md). |
 | Consigli<br>(Premium) | Utilizza Adobe AI per suggerire automaticamente prodotti o contenuti che potrebbero interessare ai clienti in base alla loro attività precedente e a quella di altri clienti. [Per saperne di più](/help/main/c-recommendations/recommendations.md). |
 
@@ -75,7 +57,7 @@ Molti di voi potrebbero voler utilizzare [!DNL Target] per testare e personalizz
 
 | Tipo di implementazione | Dettagli |
 | --- | --- |
-| Lato client | In un’implementazione lato client di [!DNL Target], [!DNL Target] distribuisce le esperienze associate a un’attività direttamente al browser client. Il browser determina quale esperienza visualizzare e la visualizza. Con un&#39;interfaccia lato client, è possibile utilizzare un editor di WYSIWYG, **[!UICONTROL Visual Experience Composer]** (VEC) o un&#39;interfaccia non visiva, **[!UICONTROL Form-based Experience Composer]**, per creare esperienze di test e personalizzazione. [Per saperne di più](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html?lang=it){target=_blank}. |
+| Lato client | In un’implementazione lato client di [!DNL Target], [!DNL Target] distribuisce le esperienze associate a un’attività direttamente al browser client. Il browser determina quale esperienza visualizzare e la visualizza. Con un&#39;esperienza lato client, puoi utilizzare un editor di WYSIWYG, il **[!UICONTROL Compositore esperienza visivo]**, o un&#39;interfaccia non visiva, il **[!UICONTROL Compositore esperienza basato su moduli]**, per creare esperienze di test e personalizzazione. [Per saperne di più](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html){target=_blank}. |
 | Lato server | In questo tipo di implementazione di [!DNL Target], un dispositivo client richiede un’esperienza tramite il server, il server invia la richiesta a [!DNL Target], [!DNL Target] invia nuovamente la risposta al server e il server decide quale esperienza distribuire al dispositivo client affinché esegua il rendering. L’esperienza non deve necessariamente essere visualizzata in un browser; può essere visualizzata in un’e-mail o un chiosco, tramite un assistente vocale oppure tramite altre esperienze non visive o su un dispositivo non basato su browser. Poiché il server risiede tra il client e [!DNL Target], questo tipo di implementazione è ideale anche se hai bisogno di maggiore controllo e sicurezza oppure in presenza di processi di backend complessi che devono essere eseguiti sul server. [Per saperne di più](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html?lang=it){target=_blank}. |
 | Implementazione ibrida | In questa implementazione, scegli l’approccio di implementazione più adatto per un dato caso d’uso. Ad esempio, puoi utilizzare un’implementazione lato client per eseguire test A/B su un’offerta in un hero banner hero sulla pagina home, ma anche un’implementazione lato server per determinare i risultati della ricerca interna da visualizzare su un browser client, un’esperienza da visualizzare su una dashboard smart car o una risposta vocale da consegnare tramite assistente vocale. |
 
@@ -93,23 +75,23 @@ In [!DNL Target] puoi creare un’attività di personalizzazione, un’attività
 
 ## Strumenti per la creazione di attività
 
-[!DNL Target] offre tre modi principali per configurare le attività di test e personalizzazione: [!UICONTROL Visual Experience Composer] (VEC), [!UICONTROL Form-based Experience Composer] e [!UICONTROL Single Page Application (SPA) Visual Experience Composer]. Entrambi ti guidano attraverso il processo di configurazione dell’attività in tre passaggi: definire le esperienze, selezionare o definire i tipi di pubblico e selezionare le metriche di successo primarie e secondarie in base alle quali misurare i risultati dell’attività.
+[!DNL Target] offre tre modi principali per configurare le attività di test e personalizzazione, il [!UICONTROL Compositore esperienza visivo], il [!UICONTROL Compositore esperienza basato su moduli] e il [!UICONTROL Compositore esperienza visivo per applicazione a pagina singola]. Entrambi ti guidano attraverso il processo di configurazione dell’attività in tre passaggi: definire le esperienze, selezionare o definire i tipi di pubblico e selezionare le metriche di successo primarie e secondarie in base alle quali misurare i risultati dell’attività.
 
 | Strumento | Dettagli |
 | --- | --- |
-| [!UICONTROL Visual Experience Composer] (VEC) | Interfaccia utente WYSIWYG che consente di creare e testare offerte ed esperienze personalizzate nel contesto del sito. Puoi creare esperienze e offerte per le attività di [!DNL Target] trascinando, scambiando e modificando il layout e il contenuto di una pagina web (o offerta) oppure di una pagina web per dispositivi mobili. [Per saperne di più](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md). |
-| [!UICONTROL Form-based Experience Composer] | Interfaccia non visiva per la creazione di esperienze, utile per creare le esperienze da utilizzare nelle attività di Test A/B, Targeting esperienza, Automated Personalization e Consigli quando il Compositore esperienza visivo non è disponibile o se non risulta pratico. Ad esempio, puoi utilizzare il compositore basato su moduli per creare esperienze e offerte da distribuire tramite e-mail, chioschi e assistenti vocali. [Per saperne di più](/help/main/c-experiences/form-experience-composer.md). |
-| [!UICONTROL Single Page Application (SPA) Visual Experience Composer] | Il Compositore esperienza visivo per le applicazioni a pagina singola consente agli addetti al marketing di creare test e di personalizzare contenuti nelle SPA in modalità fai-da-te senza dover dipendere sempre dagli sviluppatori. Il Compositore esperienza visivo può essere utile per creare test A/B e attività di Targeting delle esperienze (XT) sui framework più diffusi, come React e Angular. [Per saperne di più](/help/main/c-experiences/spa-visual-experience-composer.md). |
+| [!UICONTROL Compositore esperienza visivo] (VEC) | Interfaccia utente WYSIWYG che consente di creare e testare offerte ed esperienze personalizzate nel contesto del sito. Puoi creare esperienze e offerte per le attività di [!DNL Target] trascinando, scambiando e modificando il layout e il contenuto di una pagina web (o offerta) oppure di una pagina web per dispositivi mobili. [Per saperne di più](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md). |
+| [!UICONTROL Compositore esperienza basato su moduli] | Interfaccia non visiva per la creazione di esperienze, utile per creare le esperienze da utilizzare nelle attività di Test A/B, Targeting esperienza, Automated Personalization e Consigli quando il Compositore esperienza visivo non è disponibile o se non risulta pratico. Ad esempio, puoi utilizzare il compositore basato su moduli per creare esperienze e offerte da distribuire tramite e-mail, chioschi e assistenti vocali. [Per saperne di più](/help/main/c-experiences/form-experience-composer.md). |
+| [!UICONTROL Compositore esperienza visivo per applicazione a pagina singola] | Il Compositore esperienza visivo per le applicazioni a pagina singola consente agli addetti al marketing di creare test e di personalizzare contenuti nelle SPA in modalità fai-da-te senza dover dipendere sempre dagli sviluppatori. Il Compositore esperienza visivo può essere utile per creare test A/B e attività di Targeting delle esperienze (XT) sui framework più diffusi, come React e Angular. [Per saperne di più](/help/main/c-experiences/spa-visual-experience-composer.md). |
 
 ## Governance e controllo
 
-Per garantire alle persone giuste i ruoli appropriati e i livelli associati di accesso e autorizzazioni a [!DNL Target], disponiamo di una console amministrativa. Per [!UICONTROL Target Premium] utenti, offriamo governance e controllo più dettagliati
-con [!UICONTROL Enterprise Permissions].
+Per garantire alle persone giuste i ruoli appropriati e i livelli associati di accesso e autorizzazioni a [!DNL Target], disponiamo di una console amministrativa. Per [!UICONTROL utenti Target Premium], offriamo governance e controllo più dettagliati
+con [!UICONTROL autorizzazioni Enterprise].
 
 | Strumento | Dettagli |
 | --- | --- |
-| [!UICONTROL Adobe Admin Console for Enterprise] | Aggiungi utenti ad Adobe Target e assegna le autorizzazioni da Adobe Admin Console. [Per saperne di più](/help/main/administrating-target/c-user-management/c-user-management/user-management.md). |
-| [!UICONTROL Enterprise Permission]s<br>(Premium) | Un mezzo per l’amministrazione formale dell’accesso degli utenti a livello aziendale a [!DNL Target]. Puoi aggiungere utenti a [!DNL Target], assegnare le autorizzazioni in base ai ruoli e creare workspace per i team in base a reparto, posizione globale, canale e altri raggruppamenti logici. Puoi assegnare agli utenti i ruoli di Osservatore, Editor, Editore o Approvatore. [Per saperne di più](/help/main/administrating-target/c-user-management/property-channel/property-channel.md). |
+| [!UICONTROL Adobe Admin Console per Enterprise] | Aggiungi utenti ad Adobe Target e assegna le autorizzazioni da Adobe Admin Console. [Per saperne di più](/help/main/administrating-target/c-user-management/c-user-management/user-management.md). |
+| [!UICONTROL Autorizzazione Enterprise]s<br>(Premium) | Un mezzo per l’amministrazione formale dell’accesso degli utenti a livello aziendale a [!DNL Target]. Puoi aggiungere utenti a [!DNL Target], assegnare le autorizzazioni in base ai ruoli e creare workspace per i team in base a reparto, posizione globale, canale e altri raggruppamenti logici. Puoi assegnare agli utenti i ruoli di Osservatore, Editor, Editore o Approvatore. [Per saperne di più](/help/main/administrating-target/c-user-management/property-channel/property-channel.md). |
 
 ## Integrazioni
 
@@ -119,7 +101,7 @@ le integrazioni possono essere utili per consentirti di accedere ai dati dei vis
 | Integrazione | Dettagli |
 | --- | --- |
 | Adobe Experience Cloud | [!DNL Target] dispone di funzionalità incorporate con altre soluzioni [!DNL Adobe Experience Cloud] per personalizzare le esperienze su larga scala. Sfrutta la potenza di [!DNL Target] insieme a [Adobe Analytics](/help/main/c-integrating-target-with-mac/a4t/a4t.md), [Experience Cloud Audiences](/help/main/c-integrating-target-with-mac/mmp.md), [Adobe Campaign](/help/main/c-integrating-target-with-mac/campaign-and-target.md), [Adobe Audience Manager](/help/main/c-integrating-target-with-mac/audience-manager-target-integration.md) (AAM) e [Adobe Experience Manager](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md) (AEM). |
-| API di Target (Premium) | [!UICONTROL Target] offre più di 40 API che è possibile utilizzare per integrare Adobe Target con sistemi di prime, seconde e terze parti. [Per saperne di più](/help/main/api/api-overview.md). |
+| API di Target (Premium) | [!UICONTROL Target] offre più di 40 API che puoi utilizzare per integrare Adobe Target con sistemi di prime, seconde e terze parti. [Per saperne di più](/help/main/api/api-overview.md). |
 
 ## Nota bene
 

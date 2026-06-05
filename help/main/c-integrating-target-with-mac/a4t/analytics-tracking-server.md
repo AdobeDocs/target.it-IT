@@ -1,24 +1,18 @@
 ---
-keywords: server di tracciamento di analytics;A4T;Adobe Experience Cloud debugger;Adobe Experience Platform debugger;origine per la generazione di rapporti;strumenti per sviluppatori
+keywords: server di tracciamento di analytics;A4T;debugger di Adobe Experience Cloud;debugger di Adobe Experience Platform;origine per la generazione di rapporti;strumenti per sviluppatori
 description: Scopri come specificare un server di tracciamento di Analytics per le attività che utilizzano Analytics for [!DNL Target] (A4T) se utilizzi una versione precedente di at.js.
 title: Come si utilizza un server di tracciamento di Analytics?
 feature: Analytics for Target (A4T)
 exl-id: 8066d6a6-661e-428b-9d5c-18537a80fb43
 TQID: https://experienceleague.adobe.com/mJM5kZPQfnWodzwQ3qDKxu1e1Oq2Y53fA2LpSB4SVSc
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
-subfeature_v2:
-  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: c93393a4-e558-47e1-992e-c91ed4d480ce
+subfeature_v2: id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 675
-ht-degree: 15%
+source-wordcount: 708
+ht-degree: 17%
 
 ---
 
@@ -28,7 +22,7 @@ Se utilizzi una versione precedente di at.js, devi specificare un server di trac
 
 >[!NOTE]
 >
->Se utilizzi la versione 0.9.1 (o successiva) di at.js, non devi specificare un server di tracciamento durante la creazione dell’attività. La libreria at.js invia automaticamente i valori del server di tracciamento a [!DNL Target]. Durante la creazione dell&#39;attività, è possibile lasciare vuoto il campo [!UICONTROL Tracking Server] nella pagina [!UICONTROL Goals & Settings].
+>Se utilizzi la versione 0.9.1 (o successiva) di at.js, non devi specificare un server di tracciamento durante la creazione dell’attività. La libreria at.js invia automaticamente i valori del server di tracciamento a [!DNL Target]. Durante la creazione di attività, puoi lasciare vuoto il campo [!UICONTROL Server di tracciamento] nella pagina [!UICONTROL Obiettivi e impostazioni].
 >
 >Il team [!DNL Target] supporta sia at.js 1.*x* che at.js 2.*x*. Esegui l’aggiornamento alla versione più recente di una delle versioni principali di at.js per assicurarti di eseguire una versione supportata. Per ulteriori informazioni, consulta [Dettagli della versione at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=it){target=_blank}.
 
@@ -40,9 +34,9 @@ Il debugger deve essere visualizzato in una pagina in cui l’attività viene co
 
 1. Dalla pagina in cui si sta creando l&#39;attività, aprire [!DNL Adobe Experience Platform Debugger].
 
-   Se non hai installato il debugger, consulta [Panoramica di Adobe Experience Platform Debugger](https://experienceleague.adobe.com/docs/platform-learn/data-collection/debugger/overview.html?lang=it).
+   Se non hai installato il debugger, consulta [Panoramica di Adobe Experience Platform Debugger](https://experienceleague.adobe.com/docs/platform-learn/data-collection/debugger/overview.html).
 
-1. Fare clic su **[!UICONTROL Analytics]** nel menu di navigazione a sinistra.
+1. Fai clic su **[!UICONTROL Analytics]** nel menu di navigazione a sinistra.
 
    ![Immagine Screen_DebuggerTrackServ](assets/Screen_DebuggerTrackServ.png)
 
@@ -54,11 +48,11 @@ Il debugger deve essere visualizzato in una pagina in cui l’attività viene co
 
 1. Copiare l&#39;intero contenuto del campo.
 
-1. Nella sezione **[!UICONTROL Reporting Settings]** della schermata **[!UICONTROL Goal & Settings]** dell&#39;attività, incollare le informazioni sul server di tracciamento nel campo **[!UICONTROL Tracking Server]**.
+1. Nella sezione **[!UICONTROL Impostazioni reporting]** della schermata **[!UICONTROL Obiettivo e impostazioni]** dell&#39;attività, incolla le informazioni sul server di tracciamento nel campo **[!UICONTROL Server tracciamento]**.
 
    >[!NOTE]
    >
-   >Seleziona [!UICONTROL Analytics as the Reporting Source] per la tua attività affinché il campo [!UICONTROL Tracking Server] sia disponibile.
+   >Seleziona [!UICONTROL Analytics come Source per la generazione di rapporti] per l&#39;attività affinché il campo [!UICONTROL Server di tracciamento] sia disponibile.
 
 ## Ottieni il server di monitoraggio [!DNL Analytics] utilizzando gli strumenti per sviluppatori del browser
 
@@ -68,7 +62,7 @@ Per essere certi di selezionare il server di tracciamento corretto, gli Strument
 
    ![Strumenti per sviluppatori Chrome](/help/main/c-integrating-target-with-mac/a4t/assets/chrome-dev-tools.png)
 
-1. Fare clic sulla scheda **[!UICONTROL Network]**.
+1. Fare clic sulla scheda **[!UICONTROL Rete]**.
 
 1. Filtra per `/ss,` per visualizzare le richieste [!DNL Analytics].
 
@@ -82,8 +76,8 @@ Per essere certi di selezionare il server di tracciamento corretto, gli Strument
 
 1. Copiare l&#39;intero contenuto del campo.
 
-1. Nella sezione **[!UICONTROL Reporting Settings]** della schermata **[!UICONTROL Goal & Settings]** dell&#39;attività, incollare le informazioni sul server di tracciamento nel campo **[!UICONTROL Tracking Server]**.
+1. Nella sezione **[!UICONTROL Impostazioni reporting]** della schermata **[!UICONTROL Obiettivo e impostazioni]** dell&#39;attività, incolla le informazioni sul server di tracciamento nel campo **[!UICONTROL Server tracciamento]**.
 
    >[!NOTE]
    >
-   >Seleziona [!UICONTROL Analytics as the Reporting Source] per la tua attività affinché il campo [!UICONTROL Tracking Server] sia disponibile.
+   >Seleziona [!UICONTROL Analytics come Source per la generazione di rapporti] per l&#39;attività affinché il campo [!UICONTROL Server di tracciamento] sia disponibile.

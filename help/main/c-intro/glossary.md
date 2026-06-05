@@ -4,33 +4,13 @@ title: Dove posso trovare termini e definizioni utilizzati in Target?
 feature: Overview
 exl-id: 7385844a-1472-409c-aca2-dd9f4bf95534
 TQID: https://experienceleague.adobe.com/3NVue96KdaSn9GJq8xVn-3wijCZofXzQzV4NYn8uDPQ
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
-  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
-  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
-subfeature_v2:
-  - id: b6f5758b-84f7-4943-8b05-1297a046943c
-  - id: e73b329c-f712-4a22-abe7-bfbf3be6d0f9
-  - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
-  - id: f0055dd2-93f3-4ac8-9abc-d69d4ed2d977
-  - id: f2d0aafb-18af-41a0-a32e-2788eafacc2b
-  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: e9001ce2-5245-4a8e-8601-dd958009072f
-  - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eebid: c93393a4-e558-47e1-992e-c91ed4d480ceid: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+subfeature_v2: id: b6f5758b-84f7-4943-8b05-1297a046943cid: e73b329c-f712-4a22-abe7-bfbf3be6d0f9id: ed58f4a1-16eb-4c8c-b505-be9da766a9ecid: f0055dd2-93f3-4ac8-9abc-d69d4ed2d977id: f2d0aafb-18af-41a0-a32e-2788eafacc2bid: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5520579-b31f-4df7-9281-f0d9f91e2edcid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d095671a-1355-40aa-8b5f-06c33c68080bid: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: e9001ce2-5245-4a8e-8601-dd958009072fid: eb30f47f-d87a-400f-8f78-63ce7979ff56
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 2514
+source-wordcount: 2526
 ht-degree: 97%
 
 ---
@@ -171,7 +151,7 @@ La misura dell’interesse di un visitatore nei confronti di un sito, in termini
 
 **compositore esperienza avanzato**
 
-[!UICONTROL Enhanced Experience Composer] è un&#39;estensione di [!UICONTROL Visual Experience Composer] che consente di modificare un&#39;esperienza per siti non compatibili con iframe o per pagine che non includono ancora l&#39;implementazione di [!DNL Target]. In caso di problemi durante l&#39;apertura della pagina in [!UICONTROL Visual Experience Composer], provare [!UICONTROL Enhanced Experience Composer].
+Il [!UICONTROL Compositore esperienza avanzato] è un&#39;estensione del [!UICONTROL Compositore esperienza visivo] che consente di modificare un&#39;esperienza per siti non compatibili con iframe o per pagine che non includono ancora l&#39;implementazione di [!DNL Target]. Se hai problemi ad aprire la pagina nel [!UICONTROL Compositore esperienza visivo], prova il [!UICONTROL Compositore esperienza avanzato].
 
 **autorizzazioni per gli utenti Enterprise**
 

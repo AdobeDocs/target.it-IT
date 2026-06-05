@@ -5,18 +5,13 @@ title: Dove posso trovare domande e risposte su Target e tipi di pubblico?
 feature: Audiences
 exl-id: f829bd4a-852a-4eb1-85d1-89e74c14b37e
 TQID: https://experienceleague.adobe.com/WI8A9wqYpjiCCUABg5cBxJ92WwFLYN7qM-0DeYkrxOk
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 982
-ht-degree: 52%
+source-wordcount: 1004
+ht-degree: 53%
 
 ---
 
@@ -34,7 +29,7 @@ Considera il seguente URL:
 
 ### Targeting degli URL del pubblico
 
-Per applicare il targeting degli URL del pubblico durante la creazione di un&#39;attività, nella pagina **[!UICONTROL Experiences]** (passaggio 1 del flusso di lavoro guidato in tre passaggi) fai clic sull&#39;icona **[!UICONTROL Configure]** ( ![icona Configura](/help/main/assets/icons/Setting.svg) ), fai clic su **[!UICONTROL Page Delivery]**, quindi specifica l&#39;URL desiderato.
+Per applicare il targeting dell&#39;URL del pubblico durante la creazione di un&#39;attività, nella pagina **[!UICONTROL Esperienze]** (passaggio 1 del flusso di lavoro guidato in tre passaggi) fai clic sull&#39;icona **[!UICONTROL Configura]** ( ![icona Configura](/help/main/assets/icons/Setting.svg) ), fai clic su **[!UICONTROL Consegna pagine]**, quindi specifica l&#39;URL desiderato.
 
 ![URL di consegna pagina](/help/main/c-target/c-troubleshooting-targets-and-audiences/assets/activity-url.png)
 
@@ -46,11 +41,11 @@ Il targeting degli URL del pubblico cerca una corrispondenza URL esatta. Se l’
 
 Oltre al targeting di pubblico sull’URL, puoi anche specificare valori specifici che possono essere presenti nella query.
 
-Il targeting degli URL del pubblico e il targeting degli URL aggiunti tramite [!UICONTROL Template Rules] vengono valutati come targeting degli URL (vedi il targeting degli URL di seguito).
+Il targeting degli URL del pubblico e il targeting degli URL aggiunti tramite [!UICONTROL Regole modello] vengono valutati come targeting degli URL (vedi il targeting degli URL di seguito).
 
 ### Targeting URL {#url-targeting}
 
-Per applicare il targeting URL durante la creazione di un pubblico, fare clic su Trascina **[!UICONTROL Site Pages]** e rilasciarlo nel riquadro [!UICONTROL Create Audiences], fare clic su **[!UICONTROL Site Pages]**, selezionare un&#39;opzione dal primo elenco a discesa ([!UICONTROL Current Page], [!UICONTROL Previous Page] o [!UICONTROL Landing Page]), selezionare [!UICONTROL URL] dal secondo elenco a discesa, specificare un valutatore, quindi specificare l&#39;URL desiderato.
+Per applicare il targeting degli URL durante la creazione di un pubblico, fai clic su trascina **[!UICONTROL Pagine del sito]** e rilascialo nel riquadro [!UICONTROL Crea pubblico], fai clic su **[!UICONTROL Pagine del sito]**, seleziona un&#39;opzione dal primo elenco a discesa ([!UICONTROL Pagina corrente], [!UICONTROL Pagina precedente] o [!UICONTROL Pagina di destinazione]), seleziona [!UICONTROL URL] dal secondo elenco a discesa, specifica un valutatore, quindi specifica l&#39;URL desiderato.
 
 ![Pagine del sito > Pagina corrente > URL](/help/main/c-target/c-troubleshooting-targets-and-audiences/assets/site-url.png)
 
@@ -87,7 +82,7 @@ Per impostazione predefinita, il traffico viene suddiviso in modo uniforme tra l
 
 ## Quale esperienza viene visualizzata se un utente è idoneo per unʼattività che contiene più esperienze con più di un pubblico ideoneo? {#section_94A60B11212D48FD8AB0803C6C7E7253}
 
-L&#39;utente è idoneo per la prima esperienza/pubblico visualizzata sulla pagina [!UICONTROL Target] dell&#39;attività.
+Lʼutente diventa idoneo per la prima esperienza/il primo pubblico che viene visualizzato nella pagina [!UICONTROL Destinazioni] dellʼattività.
 
 Si supponga, ad esempio, che in Esperienza/pubblico Windows sia elencato come Esperienza A, iOS come Esperienza B e California come Esperienza C. Un utente della California che utilizza un dispositivo Windows è idoneo sia per l’Esperienza A (pubblico Windows) che per l’Esperienza C (pubblico California). A questo utente verrà presentata lʼesperienza A perché è presente nellʼelenco sopra lʼesperienza C nella pagina Destinazioni.
 
@@ -103,7 +98,7 @@ Alcuni tipi di pubblico di Target sono predefiniti, ad esempio “Nuovi visitato
 
 ## Perché non tutti i parametri di profilo sono visualizzati nell&#39;interfaccia utente [!DNL Target]? {#section_3CD947D15C984EE9AD19550220E0E8BD}
 
-[!DNL Target] ha un limite di 50 attributi di profilo univoci per chiamata mbox. Se devi passare più di 50 attributi di profilo a [!DNL Target], puoi farlo utilizzando il metodo API [!UICONTROL Profile Update]. Per ulteriori informazioni, vedi [Aggiornamento profilo](https://developers.adobetarget.com/api/#authentication-tokens) nella documentazione API di Adobe Target.
+[!DNL Target] ha un limite di 50 attributi di profilo univoci per chiamata mbox. Se devi passare più di 50 attributi di profilo a [!DNL Target], puoi farlo utilizzando il metodo API [!UICONTROL Aggiornamento profilo]. Per ulteriori informazioni, vedi [Aggiornamento profilo](https://developers.adobetarget.com/api/#authentication-tokens) nella documentazione API di Adobe Target.
 
 ## Perché i visitatori vedono esperienze per unʼattività di personalizzazione automatizzata che non dovrebbero vedere? {#section_41CECEAE0881446A8D9F3B016857914B}
 

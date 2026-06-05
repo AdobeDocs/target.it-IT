@@ -5,15 +5,12 @@ title: Dove posso trovare informazioni sulle definizioni delle metriche con A4T?
 feature: Analytics for Target (A4T)
 exl-id: 97442622-ba6d-46f8-bfac-72638875d889
 TQID: https://experienceleague.adobe.com/CLUm25T-5PCOzdXVL94kCgvqM-OL3dZzWXkG1qmN8IE
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 352
-ht-degree: 36%
+source-wordcount: 367
+ht-degree: 35%
 
 ---
 
@@ -31,11 +28,11 @@ La scadenza predefinita per un’attività è di 90 giorni dopo l’ultima inter
 ## Perché non posso accedere alle opzioni Impostazioni avanzate durante la configurazione delle metriche dell’obiettivo? {#adv-settings}
 
 +++Risposta
-Le opzioni [!UICONTROL Advanced Settings] non sono disponibili per le attività che utilizzano [!DNL Analytics] come origine per la generazione di rapporti (A4T).
+Le opzioni [!UICONTROL Impostazioni avanzate] non sono disponibili per le attività che utilizzano [!DNL Analytics] come origine per la generazione di rapporti (A4T).
 
-Per le attività che utilizzano A4T, la metrica di obiettivo utilizza sempre le impostazioni &quot;[!UICONTROL Increment Count & Keep User in Activity]&quot; e &quot;[!UICONTROL On Every Impression]&quot;. Queste impostazioni sono *non* configurabili.
+Per le attività che utilizzano A4T, la metrica di obiettivo utilizza sempre le impostazioni &quot;[!UICONTROL Incrementa il conteggio e mantieni l&#39;utente nell&#39;attività]&quot; e &quot;[!UICONTROL Su ogni impression]&quot;. Queste impostazioni sono *non* configurabili.
 
-Per le attività non A4T, puoi utilizzare le [opzioni Impostazioni avanzate](/help/main/c-activities/r-success-metrics/success-metrics.md#section_7CE95A2FA8F5438E936C365A6D43BC5B) per gestire la modalità di misurazione del successo. Le opzioni includono l’aggiunta delle dipendenze, la scelta di mantenere l’utente nell’attività o rimuoverlo e se contare la metrica una volta per partecipante o su ogni impression. Per accedere alle opzioni [!UICONTROL Advanced Settings] in un&#39;attività non A4T, fai clic sui puntini di sospensione verticali > [!UICONTROL Advanced Settings], come illustrato di seguito:
+Per le attività non A4T, puoi utilizzare le [opzioni Impostazioni avanzate](/help/main/c-activities/r-success-metrics/success-metrics.md#section_7CE95A2FA8F5438E936C365A6D43BC5B) per gestire la modalità di misurazione del successo. Le opzioni includono l’aggiunta delle dipendenze, la scelta di mantenere l’utente nell’attività o rimuoverlo e se contare la metrica una volta per partecipante o su ogni impression. Accedi alle opzioni [!UICONTROL Impostazioni avanzate] in un&#39;attività non A4T facendo clic sui puntini di sospensione verticali > [!UICONTROL Impostazioni avanzate], come illustrato di seguito:
 
 ![Impostazioni avanzate](/help/main/c-activities/r-success-metrics/assets/advanced-settings.png)
 

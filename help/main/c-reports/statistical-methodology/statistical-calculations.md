@@ -5,27 +5,24 @@ title: Come posso ottenere informazioni sui calcoli statistici utilizzati nelle 
 feature: Reports
 exl-id: 5f7377b9-0567-4b6f-8968-4696b2088d0a
 TQID: https://experienceleague.adobe.com/LEFFg6KjhxYM0jMRGOPcHwLzZ07SOBh-Faf3JK3Pfn4
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 1137
+source-wordcount: 1202
 ht-degree: 2%
 
 ---
 
 # Calcoli statistici nei test A/Bn
 
-Questo articolo documenta i calcoli statistici dettagliati utilizzati nei test A/Bn manuali in [!DNL Adobe Target]. Definizioni fornite per [!UICONTROL Conversion Rate], [!UICONTROL Confidence Interval of Conversion Rate], [!UICONTROL Lift], [!UICONTROL Confidence Interval for Lift] e [!UICONTROL Confidence].
+Questo articolo documenta i calcoli statistici dettagliati utilizzati nei test A/Bn manuali in [!DNL Adobe Target]. Le definizioni vengono fornite per [!UICONTROL Tasso di conversione], [!UICONTROL Intervallo di affidabilità del tasso di conversione], [!UICONTROL Incremento], [!UICONTROL Intervallo di affidabilità per Incremento] e [!UICONTROL Affidabilità].
 
 >[!NOTE]
 >
 >Le informazioni contenute in questo articolo sostituiscono il file pdf *Calcoli di Adobe Target per test A/B* precedentemente disponibile per il download su questo sito.
 
-![Report di destinazione che mostra [!UICONTROL Conversion Rate], [!UICONTROL Average Lift and Confidence Interval] e [!UICONTROL Confidence] di un&#39;attività Test A/B.](/help/main/c-reports/statistical-methodology/img/target_report.png)
+![Report di destinazione che mostra il [!UICONTROL Tasso di conversione], [!UICONTROL Incremento medio e intervallo di affidabilità] e [!UICONTROL Affidabilità] di un&#39;attività Test A/B.](/help/main/c-reports/statistical-methodology/img/target_report.png)
 
 ## Prestazioni medie
 
@@ -33,7 +30,7 @@ Nella sezione seguente vengono illustrati i calcoli utilizzati nell&#39;illustra
 
 ### Campagne RPV (tasso di conversione e ricavo per visitatore)
 
-Nella figura seguente sono illustrati [!UICONTROL Conversion Rate], [!UICONTROL Confidence Interval of Conversion Rate] e il numero di [!UICONTROL Conversions] in un report [!DNL Target]. Ad esempio, la prima riga mostra che per l&#39;Esperienza A: [!UICONTROL Conversion Rate] è 25,81% con una [!UICONTROL Confidence Interval] di ±7,7% e sono state registrate 32 conversioni. Dato che l’esperienza è stata vista da 124 visitatori, questo equivale a 32/124 = 25,81%.
+La figura seguente mostra [!UICONTROL Tasso di conversione], [!UICONTROL Intervallo di affidabilità del tasso di conversione] e il numero di [!UICONTROL Conversioni] in un report [!DNL Target]. Ad esempio, la prima riga mostra che per l&#39;Esperienza A: il [!UICONTROL Tasso di conversione] è 25,81% con un [!UICONTROL Intervallo di affidabilità] di ±7,7% e sono state registrate 32 conversioni. Dato che l’esperienza è stata vista da 124 visitatori, questo equivale a 32/124 = 25,81%.
 
 <p style="text-align:center;"><img width="25%" src="img/conv_rate.png"></p>
 
@@ -47,17 +44,17 @@ Qui,
 
 * La somma delle unità *i* dipende dalla scelta della metodologia di conteggio.
 
-   * Se *[!UICONTROL Visitors]* viene utilizzato come metodologia di conteggio, ogni unità è un visitatore univoco definito come partecipante univoco all&#39;attività per tutta la durata dell&#39;attività.
-   * Se si utilizza *[!UICONTROL Visits]* come metodologia di conteggio, ogni unità è una visita univoca definita come partecipante univoco a un&#39;esperienza durante una sessione di [!DNL Target] (con un `sessionId` univoco). Quando `sessionId` cambia o il visitatore raggiunge il passaggio di conversione, viene conteggiata una nuova visita.
-   * Se *[!UICONTROL Activity Impressions]* viene utilizzato come metodologia di conteggio, ogni unità è un&#39;impression univoca definita come ogni volta che un visitatore carica una pagina dell&#39;attività.
+   * Se si utilizza *[!UICONTROL Visitatori]* come metodologia di conteggio, ogni unità è un visitatore univoco definito come partecipante univoco all&#39;attività per tutta la durata dell&#39;attività.
+   * Se si utilizza *[!UICONTROL Visite]* come metodologia di conteggio, ogni unità è una visita univoca definita come partecipante univoco a un&#39;esperienza durante una sessione di [!DNL Target] (con un `sessionId` univoco). Quando `sessionId` cambia o il visitatore raggiunge il passaggio di conversione, viene conteggiata una nuova visita.
+   * Se si utilizza *[!UICONTROL Impression attività]* come metodologia di conteggio, ogni unità è un&#39;impression univoca definita come ogni volta che un visitatore carica una pagina dell&#39;attività.
 
-## [!UICONTROL Confidence Interval of Mean]/[!UICONTROL Conversion Rate]
+## [!UICONTROL Intervallo di affidabilità della media]/[!UICONTROL Tasso di conversione]
 
 L’intervallo di confidenza del tasso di conversione è intuitivamente definito come un intervallo di possibili tassi di conversione coerente con i dati sottostanti.
 
 Quando si eseguono esperimenti, il tasso di conversione per una determinata esperienza è una *stima* del tasso di conversione &quot;true&quot;. Per quantificare l&#39;incertezza in questa stima, [!DNL Target] utilizza un intervallo di affidabilità. [!DNL Target] riporta sempre un intervallo di affidabilità del 95%, il che significa che alla fine il 95% degli intervalli di affidabilità calcolati include il tasso di conversione effettivo dell&#39;esperienza.
 
-Viene inoltre riportato un numero di &quot;affidabilità&quot; accanto all’esperienza attualmente leader o vincente. Questa cifra viene segnalata solo fino a quando [!UICONTROL Confidence] dell&#39;esperienza principale non raggiunge almeno il 60%. Se nell’attività sono presenti due esperienze, questo numero rappresenta il livello di affidabilità con cui le prestazioni dell’esperienza sono migliori rispetto all’altra esperienza. Se nell’attività sono presenti più di due esperienze, questo numero rappresenta il livello di affidabilità con cui le prestazioni dell’esperienza sono migliori rispetto all’esperienza di &quot;controllo&quot; definita. Se l’esperienza &quot;Controllo&quot; sta vincendo, non viene segnalato alcun valore &quot;Affidabilità&quot;.
+Viene inoltre riportato un numero di &quot;affidabilità&quot; accanto all’esperienza attualmente leader o vincente. Questa cifra viene segnalata solo finché l&#39;[!UICONTROL affidabilità] dell&#39;esperienza principale non raggiunge almeno il 60%. Se nell’attività sono presenti due esperienze, questo numero rappresenta il livello di affidabilità con cui le prestazioni dell’esperienza sono migliori rispetto all’altra esperienza. Se nell’attività sono presenti più di due esperienze, questo numero rappresenta il livello di affidabilità con cui le prestazioni dell’esperienza sono migliori rispetto all’esperienza di &quot;controllo&quot; definita. Se l’esperienza &quot;Controllo&quot; sta vincendo, non viene segnalato alcun valore &quot;Affidabilità&quot;.
 
 Un intervallo di affidabilità del 95% del tasso di conversione *μ<sub></sub>* è definito come l&#39;intervallo di valori:
 
@@ -77,7 +74,7 @@ Quando la campagna è basata su un tasso di conversione (ad esempio, la metrica 
 
 ## Incremento
 
-La figura seguente mostra [!UICONTROL Lift] e [!UICONTROL Confidence Interval of Lift] in un report [!DNL Target]. Il numero rappresenta la media dell&#39;intervallo dei limiti di incremento e la freccia indica se l&#39;incremento è positivo o negativo. La freccia viene visualizzata in grigio fino a quando l’affidabilità non supera il 95%. Una volta superata la soglia di affidabilità, la freccia diventa verde o rossa in base a un incremento positivo o negativo.
+La figura seguente mostra [!UICONTROL Incremento] e [!UICONTROL Intervallo di affidabilità dell&#39;Incremento] in un report [!DNL Target]. Il numero rappresenta la media dell&#39;intervallo dei limiti di incremento e la freccia indica se l&#39;incremento è positivo o negativo. La freccia viene visualizzata in grigio fino a quando l’affidabilità non supera il 95%. Una volta superata la soglia di affidabilità, la freccia diventa verde o rossa in base a un incremento positivo o negativo.
 
 <p style="text-align:center;"><img width="35%" src="img/lift.png"></p>
 
@@ -95,7 +92,7 @@ Se il tasso di conversione dell&#39;esperienza di controllo *<sub>0</sub>* è 0,
 
 ## [!DNL Confidence Interval of Lift]
 
-Il grafico boxplot nella colonna [!UICONTROL Average Lift and Confidence Interval] rappresenta il valore medio e il 95% [!UICONTROL Confidence Interval of Lift]. Il grafico a caselle è grigio quando vi è una sovrapposizione tra l’intervallo di affidabilità di una determinata esperienza non di controllo e l’intervallo di affidabilità dell’esperienza di controllo. Il grafico a caselle è verde o rosso quando l’intervallo di affidabilità dell’esperienza fornita è superiore o inferiore all’intervallo di affidabilità dell’esperienza di controllo.
+Il grafico boxplot nella colonna [!UICONTROL Incremento medio e intervallo di affidabilità] rappresenta il valore medio e l&#39;intervallo di affidabilità del 95% [!UICONTROL Incremento]. Il grafico a caselle è grigio quando vi è una sovrapposizione tra l’intervallo di affidabilità di una determinata esperienza non di controllo e l’intervallo di affidabilità dell’esperienza di controllo. Il grafico a caselle è verde o rosso quando l’intervallo di affidabilità dell’esperienza fornita è superiore o inferiore all’intervallo di affidabilità dell’esperienza di controllo.
 
 L&#39;errore standard dell&#39;incremento tra un&#39;esperienza ** e l&#39;esperienza di controllo *<sub>0</sub>* è definito come:
 
@@ -107,7 +104,7 @@ Quindi l’intervallo di affidabilità del 95% dell’incremento è:
 
 Questo calcolo utilizza il metodo &quot;Delta&quot; ed è descritto [più dettagliatamente in questo documento](/help/main/assets/confidence_interval_lift.pdf)
 
-## [!UICONTROL Confidence]
+## [!UICONTROL Affidabilità]
 
 L&#39;ultima colonna mostra l&#39;affidabilità in un report [!DNL Target]. L’affidabilità di un’esperienza è una probabilità (espressa in percentuale) di ottenere un risultato estremo quanto quello osservato, data l’ipotesi nulla è vera. In termini di valori p, l&#39;affidabilità visualizzata è *1 - valore p*. Intuitivamente, una maggiore affidabilità significa che è meno probabile che l’esperienza di controllo e quella di non controllo abbiano tassi di conversione uguali.
 
@@ -123,7 +120,7 @@ Dove *μ<sub>v</sub>* e *μ<sub>v0</sub>* sono le medie rispettivamente di *μ* 
 
 <p style="text-align:center;"><img width="150px" src="img/standard_error_diff.png"></p>
 
-Dove *<sup>2</sup><sub>v</sub>* e *Prodotti finiti<sup>2</sup><sub>v<sub>0</sub></sub>* sono le varianze di due esperienze **&#x200B; e *0</sub>* rispettivamente e *N<sub>v</sub>* e *N<sub>v<sub>0</sub></sub>* sono le dimensioni campione rispettivamente di &#x200B;** e *24&rbrace;0</sub>*.<sub><sub>
+Dove *<sup>2</sup><sub>v</sub>* e *Prodotti finiti<sup>2</sup><sub>v<sub>0</sub></sub>* sono le varianze di due esperienze ** e *0</sub>* rispettivamente e *N<sub>v</sub>* e *N<sub>v<sub>0</sub></sub>* sono le dimensioni campione rispettivamente di ** e *24}0</sub>*.<sub><sub>
 
 Per il test t di Welch, il grado di libertà è calcolato come segue:
 

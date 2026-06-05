@@ -2,17 +2,15 @@
 keywords: progettazione personalizzata;velocity;decimale;virgola;personalizzare una progettazione
 description: Scopri come utilizzare il linguaggio di progettazione open-source [!DNL Velocity] per personalizzare le progettazioni dei consigli in [!DNL Target] Recommendations.
 title: Come posso personalizzare una progettazione con Velocity?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=it#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."
 feature: Recommendations
 exl-id: 035d7988-80d8-4080-bb0d-1d0e9f8856d1
 TQID: https://experienceleague.adobe.com/cccBRfwqqn-eL2hraSDAoJHPYSCkcA9tVne3OWDXxEU
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 1083
+source-wordcount: 1089
 ht-degree: 60%
 
 ---
@@ -215,7 +213,7 @@ Il risultato è una progettazione come la seguente, dove una colonna mostra l&#3
 
 ![immagine rec_key](assets/rec_key.png)
 
-Durante la creazione dell&#39;attività [!DNL Recommendations], se l&#39;elemento chiave viene ricavato dal profilo del visitatore, ad esempio &quot;ultimo articolo acquistato&quot;, [!DNL Target] visualizza un prodotto casuale nel [!UICONTROL Visual Experience Composer] (Compositore esperienza visivo). Questo perché non è disponibile un profilo mentre progetti l&#39;attività. Tuttavia, quando la pagina verrà visualizzata dai visitatori, ogni visitatore vedrà l&#39;elemento chiave previsto.
+Durante la creazione dell&#39;attività [!DNL Recommendations], se l&#39;elemento chiave viene ricavato dal profilo del visitatore, ad esempio &quot;ultimo articolo acquistato&quot;, [!DNL Target] visualizza un prodotto casuale nel [!UICONTROL Compositore esperienza visivo]. Questo perché non è disponibile un profilo mentre progetti l&#39;attività. Tuttavia, quando la pagina verrà visualizzata dai visitatori, ogni visitatore vedrà l&#39;elemento chiave previsto.
 
 ## Esecuzione di sostituzioni in un valore stringa {#section_01F8C993C79F42978ED00E39956FA8CA}
 
@@ -245,7 +243,7 @@ Il codice seguente è un esempio completo di prezzo di vendita:
 
 ## Personalizzazione delle dimensioni del modello e verifica della presenza di valori vuoti {#default}
 
-Utilizzando uno script [!DNL Velocity] per controllare il ridimensionamento dinamico della visualizzazione dell&#39;entità, il seguente modello gestisce un risultato &quot;da 1 a molti&quot; per evitare la creazione di elementi HTML vuoti quando non vi sono sufficienti entità restituite da [!DNL Recommendations]. Questo script è adatto per gli scenari in cui non avrebbe senso utilizzare consigli di backup ed è abilitato [!UICONTROL Partial Template Rendering].
+Utilizzando uno script [!DNL Velocity] per controllare il ridimensionamento dinamico della visualizzazione dell&#39;entità, il seguente modello gestisce un risultato &quot;da 1 a molti&quot; per evitare la creazione di elementi HTML vuoti quando non vi sono sufficienti entità restituite da [!DNL Recommendations]. Questo script è adatto per gli scenari in cui non avrebbe senso utilizzare consigli di backup ed è abilitato [!UICONTROL Rendering modello parziale].
 
 Il seguente snippet HTML sostituisce la porzione HTML esistente nella progettazione predefinita da 4x2 (qui non è stato incluso il CSS per motivi di brevità):
 

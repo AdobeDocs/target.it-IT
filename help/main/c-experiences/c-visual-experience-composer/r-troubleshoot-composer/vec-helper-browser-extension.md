@@ -1,33 +1,24 @@
 ---
 keywords: vec;compositore esperienza visivo; vec;iframe;estensione;browser
-description: Scopri perché alcuni siti web potrebbero non essere aperti in modo affidabile nel [!UICONTROL Visual Experience Composer] (VEC). L’estensione VEC Helper per browser consente di caricare i siti web in modo affidabile nel Compositore esperienza visivo.
-title: Come si utilizza l'estensione helper [!UICONTROL Visual Experience Composer] (VEC)?
+description: Scopri perché alcuni siti web potrebbero non essere aperti in modo affidabile nel [!UICONTROL Compositore esperienza visivo]. L’estensione VEC Helper per browser consente di caricare i siti web in modo affidabile nel Compositore esperienza visivo.
+title: Come si utilizza l'estensione Helper [!UICONTROL Compositore esperienza visivo]?
 feature: Visual Experience Composer (VEC)
 exl-id: 3f38db69-046d-42c9-8c09-eca11d404b12
 TQID: https://experienceleague.adobe.com/lqZGGWG1NVtKDzNGPq5k2bDPzxDfNWqPtJ-bYfLCr3Q
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
-subfeature_v2:
-  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: e9001ce2-5245-4a8e-8601-dd958009072f
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: c93393a4-e558-47e1-992e-c91ed4d480ce
+subfeature_v2: id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: d095671a-1355-40aa-8b5f-06c33c68080bid: e9001ce2-5245-4a8e-8601-dd958009072fid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 1079
-ht-degree: 50%
+source-wordcount: 1111
+ht-degree: 48%
 
 ---
 
-# Estensione helper [!UICONTROL Visual Experience Composer]
+# Estensione helper [!UICONTROL Compositore esperienza visivo]
 
-L&#39;estensione [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC) Helper per il browser [!DNL Google Chrome] consente di caricare i siti Web in modo affidabile nel Compositore esperienza visivo per creare e verificare rapidamente le esperienze Web.
+L&#39;estensione del browser Helper [!DNL Adobe Target] [!UICONTROL Compositore esperienza visivo] (VEC) per [!DNL Google Chrome] consente di caricare i siti Web in modo affidabile nel Compositore esperienza visivo per creare e verificare rapidamente le esperienze Web.
 
 VEC Helper è un&#39;estensione [!DNL Chrome]. Questa estensione non è necessaria quando si utilizza [!DNL Mozilla Firefox].
 
@@ -64,19 +55,19 @@ L&#39;estensione VEC Helper per il browser Chrome risolve problemi di caricament
 
   Tieni presente che utilizzando il Compositore esperienza avanzato, l’estensione non inserisce at.js, ma la funzionalità per cookie SameSite è ancora presente. Per inserire at.js nella pagina web, disattiva il Compositore esperienza avanzato.
 
-* [I riquadri di visualizzazione per dispositivi mobili](/help/main/c-experiences/c-visual-experience-composer/mobile-viewports.md) sono supportati anche senza il [!UICONTROL Enhanced Experience Composer] (EEC).
+* [I riquadri di visualizzazione per dispositivi mobili](/help/main/c-experiences/c-visual-experience-composer/mobile-viewports.md) sono supportati anche senza il [!UICONTROL Compositore esperienza avanzato] (EEC).
 * I clienti non ancora pratici di [!DNL Target] possono utilizzare l’estensione per fare prove con [!DNL Target] anche se i loro sviluppatori IT non hanno ancora implementato [!DNL Target] sui loro siti web.
 * I partner che gestiscono siti web e account [!DNL Target] di più clienti ora hanno a disposizione un meccanismo semplice per supportare il caricamento del Compositore esperienza visivo, anziché gestire più regole in strumenti di terze parti.
 
 ## Ottenere e installare l’estensione VEC Helper per browser
 
 1. Passa all&#39;estensione [Adobe Target VEC Helper per browser in Chrome Web Store](https://chromewebstore.google.com/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca).
-1. Fare clic su **[!UICONTROL Add to Chrome > Add Extension]**.
+1. Fai clic su **[!UICONTROL Aggiungi a Chrome > Aggiungi estensione]**.
 1. Apri il Compositore esperienza visivo in [!DNL Target].
 1. Per utilizzare l’estensione, fai clic sull’icona dell’estensione VEC Helper per browser (![icona di VEC Helper](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/vec-help-extension.png)) nella barra degli strumenti del browser Chrome quando sei nel Compositore esperienza visivo o in [Modalità Controllo qualità](/help/main/c-activities/c-activity-qa/activity-qa.md).
-1. (Facoltativo) Fai scorrere l&#39;opzione **[!UICONTROL Inject Target Libraries]** per attivare la pagina Web se non contiene ancora la libreria JavaScript at.js di [!DNL Target].
+1. (Facoltativo) Fai scorrere **[!UICONTROL Inserisci librerie di Target]** per attivare la posizione se la pagina Web non contiene ancora la libreria JavaScript at.js [!DNL Target].
 
-   Nella figura seguente viene illustrato VEC Helper con l&#39;impostazione [!UICONTROL Inject Target Libraries] abilitata:
+   La figura seguente mostra VEC Helper con l&#39;impostazione [!UICONTROL Inserisci librerie di destinazione] abilitata:
 
    ![VEC Helper 1](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/vec-help-extension-1.png)
 
@@ -84,7 +75,7 @@ L&#39;estensione VEC Helper per il browser Chrome risolve problemi di caricament
 
    ![VEC Helper 2](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/vec-helper.png)
 
-1. (Condizionale) Far scorrere l&#39;interruttore **[!UICONTROL Cookies]** fino alla posizione &quot;on&quot; per aggiungere automaticamente la correzione dell&#39;attributo del browser `SameSite=None`.
+1. (Facoltativo) Fai scorrere l&#39;opzione **[!UICONTROL Cookie]** su &quot;on&quot; per aggiungere automaticamente la correzione dell&#39;attributo del browser `SameSite=None`.
 
    ![Attivazione/disattivazione dei cookie nell&#39;estensione VEC Helper](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/cookies-vec-helper.png)
 
@@ -92,11 +83,11 @@ L&#39;estensione VEC Helper per il browser Chrome risolve problemi di caricament
 
 ## Note
 
-* Il flag [!UICONTROL Inject Target libraries] nell&#39;estensione è disattivato per impostazione predefinita. Abilita questo flag se desideri utilizzare il Compositore esperienza visivo su un sito non ancora implementato per [!DNL Target].
+* Il flag [!UICONTROL Inserisci librerie di Target] nell&#39;estensione è disattivato per impostazione predefinita. Abilita questo flag se desideri utilizzare il Compositore esperienza visivo su un sito non ancora implementato per [!DNL Target].
 
   Questo flag è un&#39;impostazione globale. Il flag viene abilitato o disabilitato per tutti i siti web aperti nel Compositore esperienza visivo. Quindi, ad esempio, se imposti questo flag su &quot;on&quot; e apri un sito web già implementato con at.js, riceverai un messaggio per informarti che at.js è già caricato. Adobe prevede che la maggior parte dei clienti abbia già at.js implementato nelle proprie pagine e utilizzi l’impostazione predefinita &quot;off&quot;.
 
-* L&#39;estensione carica la versione più recente di at.js disponibile da [!DNL Target UI] in [!UICONTROL Administration > Implementation].
+* L&#39;estensione carica la versione più recente di at.js disponibile da [!DNL Target UI] in [!UICONTROL Amministrazione > Implementazione].
 * Quando utilizzi l’estensione per inserire at.js durante la [modalità Controllo qualità](/help/main/c-activities/c-activity-qa/activity-qa.md), apri un’altra scheda Chrome. Questa scheda di Chrome deve essere autenticata nella stessa organizzazione [!DNL Adobe Experience Cloud] in cui è stata creata l’attività.
 * I messaggi seguenti ti mantengono informato:
 

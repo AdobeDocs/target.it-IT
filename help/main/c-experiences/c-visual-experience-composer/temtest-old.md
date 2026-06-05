@@ -6,8 +6,8 @@ feature: Experiences and Offers
 exl-id: 4ea95794-496c-4eff-96ec-8a9d1f732c4a
 source-git-commit: be9996c4dce0a3135a39fcbf0608b57b6e742ac3
 workflow-type: tm+mt
-source-wordcount: '597'
-ht-degree: 33%
+source-wordcount: '623'
+ht-degree: 32%
 
 ---
 
@@ -32,11 +32,11 @@ Puoi specificare le pagine che includono gli elementi di modifica o applicare la
 
 1. Crea o modifica un&#39;attività come descritto in [Attività](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03).
 
-1. Per specificare le pagine in cui verrà visualizzata l&#39;esperienza, nel [!UICONTROL Visual Experience Composer] (VEC) fai clic sull&#39;icona a forma di ingranaggio, quindi seleziona **[!UICONTROL Page Delivery]**.
+1. Per specificare le pagine in cui verrà visualizzata l&#39;esperienza, nel [!UICONTROL Compositore esperienza visivo] (VEC) fai clic sull&#39;icona a forma di ingranaggio, quindi seleziona **[!UICONTROL Consegna pagine]**.
 
    ![Icona ingranaggio > Consegna pagine](/help/main/c-experiences/c-visual-experience-composer/assets/icon-gear.png)
 
-1. Fai clic su **[!UICONTROL Add Template Rule]**, quindi specifica i criteri per le pagine a cui aggiungere l&#39;esperienza.
+1. Fai clic su **[!UICONTROL Aggiungi regola modello]**, quindi specifica i criteri per le pagine a cui aggiungere l&#39;esperienza.
 
 1. Specifica l&#39;intervallo di pagine. L&#39;intervallo di pagine può essere uno tra i seguenti:
 
@@ -60,7 +60,7 @@ Puoi specificare le pagine che includono gli elementi di modifica o applicare la
 
 1. Digita le stringhe che definiscono dove viene aggiunta l&#39;esperienza, ad esempio il dominio o le stringhe contenute nel nome della pagina.
 
-   Ad esempio, se selezioni **[!UICONTROL Domain]** e **[!UICONTROL Is (case sensitive)]**, digita il dominio in cui desideri aggiungere l&#39;esperienza in tutte le pagine.
+   Ad esempio, se selezioni **[!UICONTROL Dominio]** e **[!UICONTROL È (distinzione maiuscole/minuscole)]**, digita il dominio in cui desideri aggiungere l&#39;esperienza in tutte le pagine.
 
    È possibile includere più elementi.
 
@@ -68,7 +68,7 @@ Puoi specificare le pagine che includono gli elementi di modifica o applicare la
    >
    >Per gli elementi multipli viene utilizzato l’operatore OR, il che significa che ogni singolo elemento nell’elenco può soddisfare la condizione.
 
-1. Se lo si desidera, immettere criteri aggiuntivi facendo clic su **[!UICONTROL Add Template Rule]** e ripetendo la procedura descritta nei passaggi precedenti.
+1. Se lo desideri, inserisci criteri aggiuntivi facendo clic su **[!UICONTROL Aggiungi regola modello]** e ripetendo la procedura di cui ai passaggi precedenti.
 
    I criteri multipli sono collegati mediante AND (E). [!DNL Target] aggiunge l&#39;esperienza a tutte le pagine che corrispondono ai criteri specificati.
 
@@ -90,11 +90,11 @@ Puoi considerare l’utilizzo delle regole dei modelli per eseguire il rendering
 
 1. Crea o modifica un&#39;attività come descritto in [Attività](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03).
 
-1. Per specificare il dominio in cui verrà visualizzata l&#39;esperienza, nel Compositore esperienza visivo, fai clic sull&#39;icona a forma di ingranaggio, quindi seleziona **[!UICONTROL Page Delivery]**.
+1. Per specificare il dominio in cui verrà visualizzata l&#39;esperienza, nel Compositore esperienza visivo, fai clic sull&#39;icona a forma di ingranaggio, quindi seleziona **[!UICONTROL Consegna pagine]**.
 
-1. Fare clic su **[!UICONTROL Add Template Rule]** > **[!UICONTROL Domain]**.
+1. Fai clic su **[!UICONTROL Aggiungi regola modello]** > **[!UICONTROL Dominio]**.
 
-1. Dall&#39;elenco a discesa **[!UICONTROL Choose evaluator]**, selezionare **[!UICONTROL Contains]**, quindi specificare il dominio.
+1. Dal menu a discesa **[!UICONTROL Scegli valutatore]**, seleziona **[!UICONTROL Contiene]**, quindi specifica il dominio.
 
    ![Il dominio contiene](/help/main/c-experiences/c-visual-experience-composer/assets/domain-template-rule.png)
 
@@ -107,4 +107,4 @@ Puoi considerare l’utilizzo delle regole dei modelli per eseguire il rendering
 * Creare un’esperienza e visualizzarne l’anteprima per i siti web reattivi
 * Evidenziare tipi di elementi con le sovrapposizioni
 
->[!VIDEO](https://video.tv.adobe.com/v/36327?captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/17401)

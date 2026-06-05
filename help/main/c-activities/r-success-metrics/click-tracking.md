@@ -5,18 +5,13 @@ title: Cos’è il tracciamento dei clic?
 feature: Success Metrics
 exl-id: 9181424b-179e-49fc-b760-b764a0c3458a
 TQID: https://experienceleague.adobe.com/Nk1MANDrtYMHmUQfcJi-gT-HoW1j--sikurxSloM2LU
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 866
-ht-degree: 76%
+source-wordcount: 903
+ht-degree: 77%
 
 ---
 
@@ -30,36 +25,36 @@ ht-degree: 76%
 
 ## Configurare il tracciamento dei clic {#section_5540C5A533114E57BAE022A600B02E72}
 
-1. Quando imposterai gli obiettivi dell&#39;attività nella pagina [!UICONTROL Goals & Settings], seleziona la metrica di successo **[!UICONTROL Conversion]**.
-1. Per eseguire l&#39;azione, selezionare **[!UICONTROL Clicked an element]**, quindi fare clic su **[!UICONTROL Select elements]**.
+1. Quando imposterai gli obiettivi dell&#39;attività nella pagina [!UICONTROL Obiettivi e impostazioni], seleziona la metrica di successo **[!UICONTROL Conversione]**.
+1. Per eseguire tale azione, selezionare **[!UICONTROL Scegli un elemento]**, quindi fare clic su **[!UICONTROL Seleziona elementi]**.
 
-   La pagina verrà aperta in [!UICONTROL Visual Experience Composer] (VEC).
+   La pagina viene visualizzata nel [!UICONTROL Compositore esperienza visivo].
 
 1. Seleziona gli elementi di cui desideri tenere traccia.
 
    Per suggerimenti sulla selezione degli elementi, consulta la sezione *Considerazioni* di seguito.
 
-1. Fai clic su **[!UICONTROL Done]** nella parte superiore della schermata per salvare le selezioni.
+1. Fai clic su **[!UICONTROL Fine]** nella parte superiore della schermata per salvare le selezioni.
 
 Quando un partecipante all’attività fa clic su un elemento selezionato, tale clic viene conteggiato come conversione.
 
 ## Pannello Elementi selezionati {#selected-elements}
 
-Per le attività [!UICONTROL A/B Test], [!UICONTROL Experience Targeting] (XT), [!UICONTROL Automated Personalization] (AP) e [!UICONTROL Multivariate Test] (MVT), un pannello [!UICONTROL Selected Elements] elenca gli elementi selezionati per il tracciamento dei clic sul lato sinistro.
+Per le attività [!UICONTROL Test A/B], [!UICONTROL Targeting esperienza] (XT), [!UICONTROL Automated Personalization] (AP) e [!UICONTROL Test multivariato] (MVT), nel pannello [!UICONTROL Elementi selezionati] sono elencati a sinistra gli elementi selezionati per il tracciamento dei clic.
 
 ![Pannello Elementi selezionati](/help/main/c-activities/r-success-metrics/assets/selected-elements.png)
 
-Quando si fa clic su un elemento nel pannello [!UICONTROL Tracked Components] è possibile applicare diverse azioni. La tabella seguente descrive ogni azione che è possibile eseguire su un elemento:
+Quando fai clic su un elemento nel pannello [!UICONTROL Componenti tracciati] puoi applicare diverse azioni. La tabella seguente descrive ogni azione che è possibile eseguire su un elemento:
 
 | Azione | Descrizione |
 | --- | --- |
-| [!UICONTROL Tracked actions] | Visualizza l&#39;azione elemento. |
-| [!UICONTROL CSS selector] | Consente di modificare il selettore CSS. |
+| [!UICONTROL Azioni tracciate] | Visualizza l&#39;azione elemento. |
+| [!UICONTROL Selettore CSS] | Consente di modificare il selettore CSS. |
 | [!DNL Delete] | Elimina l’elemento. |
 
 ### Aggiungi elemento
 
-Se conosci già il percorso DOM del selettore, puoi aggiungerlo manualmente facendo clic sull&#39;icona [!UICONTROL Add Component] nella parte superiore del pannello.
+Se conosci già il percorso DOM del selettore, puoi aggiungerlo manualmente facendo clic sull&#39;icona [!UICONTROL Aggiungi componente] nella parte superiore del pannello.
 
 ## Considerazioni {#considerations}
 
@@ -75,7 +70,7 @@ Ci sono diversi fattori da considerare quando si selezionano gli elementi:
 * Se selezioni più di un elemento, quando un partecipante fa clic su uno qualsiasi degli elementi scelti, il clic viene conteggiato. Per contare ogni elemento separatamente, imposta le metriche di successo individuali per ogni elemento. Per contare un elemento facendo clic su più elementi in una pagina, modifica il selettore degli elementi CSS in modo che corrisponda a più elementi.
 * Assicurati di selezionare il livello di elemento di cui desideri tenere traccia. Ad esempio, quando definisci un pulsante, assicurati di selezionare il collegamento e non il testo del pulsante.
 * Gli eventi clic vengono inviati a [!DNL Target] nella stessa pagina del clic.
-* Se la metrica di tracciamento dei clic è la metrica obiettivo di un&#39;attività [!UICONTROL Analytics for Target] (A4T), affinché possa essere tracciata il visitatore deve fare clic su tale elemento entro 60 secondi dal caricamento della pagina.
+* Se la metrica di tracciamento dei clic è la metrica obiettivo di un&#39;attività [!UICONTROL Analytics for Target] (A4T), affinché possa essere tracciata il visitatore deve fare clic su questo elemento entro 60 secondi dal caricamento della pagina.
 * Il tracciamento dei clic non funziona su elementi che includono caratteri di escape nei rispettivi selettori, inclusi i seguenti:
 
   | Carattere | Descrizione |
@@ -116,7 +111,7 @@ Ci sono diversi fattori da considerare quando si selezionano gli elementi:
 Questo video include informazioni sulla creazione di metriche di successo per il tracciamento dei clic.
 
 * Le metriche per “Obiettivo”
-* Comprendere e generare metriche [!UICONTROL Conversion], [!UICONTROL Revenue] e [!UICONTROL Engagement]
+* Comprendere e generare le metriche [!UICONTROL Conversione], [!UICONTROL Ricavi] e [!UICONTROL Coinvolgimento]
 * Creazione di una metrica di tracciamento dei clic
 
 >[!VIDEO](https://video.tv.adobe.com/v/17380)

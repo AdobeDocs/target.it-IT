@@ -6,7 +6,7 @@ feature: Analytics for Target (A4T)
 exl-id: 308711f7-e630-4f6b-8a6d-a1f36ed7902d
 source-git-commit: 122484056e73f8f679312a3e776e623d905701d5
 workflow-type: tm+mt
-source-wordcount: '1321'
+source-wordcount: '1362'
 ht-degree: 97%
 
 ---
@@ -94,6 +94,6 @@ Quando si crea la suite di rapporti virtuale, specificare la seguente configuraz
 
 Per ridurre al minimo i risultati orfani, è possibile creare una [suite di rapporti virtuale](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html?lang=it) che escluda tali risultati, come spiegato in precedenza.
 
-## Che cosa significa questo per i rapporti di [!DNL Target]?  {#section_AAD354C722BE46D4875507F0FCBA5E36}
+## Che cosa significa questo per i rapporti di [!DNL Target]? {#section_AAD354C722BE46D4875507F0FCBA5E36}
 
 Con questo cambiamento, potresti notare una diminuzione dei nuovi visitatori e delle visite ai test live perché [!DNL Adobe] non elabora i dati parziali in entrata. Le conversioni e i risultati di altre metriche [!DNL Analytics] non cambieranno.

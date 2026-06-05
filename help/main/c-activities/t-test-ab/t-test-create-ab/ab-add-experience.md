@@ -1,28 +1,26 @@
 ---
 keywords: Targeting;esperienza;aggiungere un’esperienza;aggiunta esperienza
-description: Utilizza [!UICONTROL Visual Experience Composer] (VEC) per aggiungere esperienze alle attività.
+description: Utilizza il [!UICONTROL Compositore esperienza visivo] (VEC) per aggiungere esperienze alle attività.
 title: Come si aggiungono esperienze in un’attività A/B?
 feature: A/B Tests
 exl-id: c0f1b5a7-07b0-46c2-97f3-95dcc0fcbe3d
 TQID: https://experienceleague.adobe.com/7qEiUXkfMbPmtB2eMio0LztOYM3naHxG-WRQZOyMmlU
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 387
-ht-degree: 33%
+source-wordcount: 420
+ht-degree: 30%
 
 ---
 
 # Aggiungi esperienza
 
-Il [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC) fornisce un&#39;interfaccia visiva per l&#39;aggiunta e la modifica delle esperienze sulla pagina.
+Il [!DNL Adobe Target] [!UICONTROL Compositore esperienza visivo] (VEC) fornisce un&#39;interfaccia visiva per l&#39;aggiunta e la modifica delle esperienze sulla pagina.
 
 Per ulteriori dettagli sulle esperienze, vedi [Esperienze](/help/main/c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D).
 
-1. Dalla pagina **[!UICONTROL Experiences]** nel Compositore esperienza visivo, fai clic sull&#39;icona [!UICONTROL Add] ( ![icona Aggiungi](/help/main/assets/icons/Add.svg) ) nella parte superiore del riquadro [!UICONTROL Experiences].
+1. Dalla pagina **[!UICONTROL Esperienze]** nel Compositore esperienza visivo, fai clic sull&#39;icona [!UICONTROL Aggiungi] ( ![Aggiungi icona](/help/main/assets/icons/Add.svg) ) nella parte superiore del riquadro [!UICONTROL Esperienze].
 
    Dopo aver creato una nuova attività, il Compositore esperienza visivo visualizza due schede a sinistra: Esperienza A e Esperienza B. L’esperienza A è l’esperienza di controllo. È possibile aggiungere più esperienze al test.
 
@@ -38,13 +36,13 @@ Per ulteriori dettagli sulle esperienze, vedi [Esperienze](/help/main/c-experien
    >
    >Se distribuisci un’immagine da un’origine che non corrisponde alla pagina principale (ad esempio un’immagine in hosting su `akamai.net` e distribuita su `example.com`), l’immagine non viene visualizzata nella miniatura della pagina mostrata nel diagramma di flusso.
 
-1. Fare clic su **[!UICONTROL Next]** al termine della progettazione dell&#39;esperienza.
+1. Fai clic su **[!UICONTROL Avanti]** al termine della progettazione dell&#39;esperienza.
 
 ## Rinominare un’esperienza
 
-1. Fai clic sull&#39;icona **[!UICONTROL Rename Experience]** ( ![Icona Rinomina](/help/main/assets/icons/Rename.svg) ) accanto a un&#39;esperienza per assegnarle un nuovo nome.
+1. Fai clic sull&#39;icona **[!UICONTROL Rinomina esperienza]** ( ![Icona Rinomina](/help/main/assets/icons/Rename.svg) ) accanto a un&#39;esperienza per assegnarle un nuovo nome.
 
-2. Specificare un nuovo nome, quindi fare clic su **[!UICONTROL Save]**.
+2. Specifica un nuovo nome, quindi fai clic su **[!UICONTROL Salva]**.
 
    Quando denomini o rinomini un’esperienza, i seguenti caratteri non sono consentiti:
 
@@ -61,22 +59,22 @@ Per ulteriori dettagli sulle esperienze, vedi [Esperienze](/help/main/c-experien
 
 ## Reindirizzare verso un URL
 
-1. Nel riquadro **[!UICONTROL Experiences]** fare clic sull&#39;icona **[!UICONTROL More]** ( ![Icona Altro](/help/main/assets/icons/MoreSmall.svg) ) accanto a un&#39;esperienza, quindi fare clic su **[!UICONTROL Redirect to URL]**.
+1. Nel riquadro **[!UICONTROL Esperienze]**, fai clic sull&#39;icona **[!UICONTROL Altro]** ( ![Icona Altro](/help/main/assets/icons/MoreSmall.svg) ) accanto a un&#39;esperienza, quindi fai clic su **[!UICONTROL Reindirizza all&#39;URL]**.
 
    Per ulteriori informazioni, consulta [Reindirizzare verso un URL](/help/main/c-experiences/c-visual-experience-composer/redirect-offer.md).
 
 1. Specifica l&#39;URL a cui reindirizzare l&#39;esperienza.
 
-1. (Condizionale) Selezionare la casella di controllo **[!UICONTROL Include Current Query Parameters]**.
+1. (Condizionale) Selezionare la casella di controllo **[!UICONTROL Includi parametri query correnti]**.
 
-1. Fare clic su **[!UICONTROL Save]**.
+1. Fai clic su **[!UICONTROL Salva]**.
 
 ## Duplicare un’esperienza
 
-È possibile copiare un&#39;esperienza in un [!UICONTROL A/B Test] in modo da poter apportare modifiche minori senza dover ricreare l&#39;esperienza.
+È possibile copiare un&#39;esperienza in un [!UICONTROL Test A/B] in modo da poter apportare modifiche minori senza dover ricreare l&#39;esperienza.
 
-1. Nel riquadro **[!UICONTROL Experiences]** fare clic sull&#39;icona **[!UICONTROL More]** ( ![Icona Altro](/help/main/assets/icons/MoreSmall.svg) ) accanto a un&#39;esperienza, quindi fare clic su **[!UICONTROL Duplicate]**.
+1. Nel riquadro **[!UICONTROL Esperienze]**, fai clic sull&#39;icona **[!UICONTROL Altro]** ( ![Altro](/help/main/assets/icons/MoreSmall.svg) ) accanto a un&#39;esperienza, quindi fai clic su **[!UICONTROL Duplica]**.
 
 ## Eliminare un’esperienza
 
-1. Nel riquadro **[!UICONTROL Experiences]** fare clic sull&#39;icona **[!UICONTROL More]** ( ![Icona Altro](/help/main/assets/icons/MoreSmall.svg) ) accanto a un&#39;esperienza, fare clic su **[!UICONTROL Delete]**, quindi fare clic su **[!UICONTROL Delete]** per confermare l&#39;azione.
+1. Nel riquadro **[!UICONTROL Esperienze]**, fai clic sull&#39;icona **[!UICONTROL Altro]** ( ![Icona Altro](/help/main/assets/icons/MoreSmall.svg) ) accanto a un&#39;esperienza, fai clic su **[!UICONTROL Elimina]**, quindi su **[!UICONTROL Elimina]** per confermare l&#39;azione.

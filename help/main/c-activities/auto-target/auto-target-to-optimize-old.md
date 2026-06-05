@@ -1,53 +1,53 @@
 ---
 keywords: targeting automatico;targeting;allocazione traffico;domande frequenti;faq;risoluzione dei problemi;risoluzione problemi
-description: Scopri in che modo un'attività [!UICONTROL Auto-Target] in [!DNL Target] fornisce l'esperienza più personalizzata a ogni visitatore in base ai profili cliente e al comportamento di visitatori simili.
-title: Che cos'è un'attività [!UICONTROL Auto-Target]?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=it#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."
+description: Scopri in che modo un'attività di [!UICONTROL Targeting automatico] in [!DNL Target] fornisce l'esperienza più personalizzata a ogni visitatore in base ai profili cliente e al comportamento di visitatori simili.
+title: Cos'è un'attività di [!UICONTROL Targeting automatico]?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."
 feature: Auto-Target
 exl-id: 59ca30dc-45a0-4129-b832-84e1132d3b69
 source-git-commit: 32a91a41cd182d3a55ded7dea8c1c6ea6f46aa71
 workflow-type: tm+mt
-source-wordcount: '1864'
-ht-degree: 21%
+source-wordcount: '2100'
+ht-degree: 20%
 
 ---
 
-# Panoramica di [!UICONTROL Auto-Target]
+# Panoramica di [!UICONTROL Targeting automatico]
 
-[!UICONTROL Auto-Target] attività in [!DNL Adobe Target] utilizzano l&#39;apprendimento automatico avanzato per scegliere tra più esperienze ad alte prestazioni definite dall&#39;addetto al marketing per personalizzare il contenuto e favorire le conversioni. [!UICONTROL Auto-Target] fornisce l&#39;esperienza più personalizzata a ogni visitatore in base al suo profilo cliente individuale e al comportamento dei visitatori precedenti con profili simili.
+Le attività di [!UICONTROL Targeting automatico] in [!DNL Adobe Target] utilizzano l&#39;apprendimento automatico avanzato per scegliere tra più esperienze ad alte prestazioni definite dall&#39;addetto al marketing per personalizzare i contenuti e favorire le conversioni. [!UICONTROL Targeting automatico] fornisce l&#39;esperienza più personalizzata a ogni visitatore in base al suo profilo cliente individuale e al comportamento dei visitatori precedenti con profili simili.
 
 >[!NOTE]
 >
->* [!UICONTROL Auto-Target] è disponibile nella soluzione [!DNL Target Premium]. Questa funzione non è disponibile in [!DNL Target Standard] senza una licenza [!DNL Target Premium]. Per ulteriori informazioni sulle funzioni avanzate fornite da questa licenza, consulta [Target Premium](/help/main/c-intro/intro.md).
+>* [!UICONTROL Targeting automatico] è disponibile come parte della soluzione [!DNL Target Premium]. Questa funzione non è disponibile in [!DNL Target Standard] senza una licenza [!DNL Target Premium]. Per ulteriori informazioni sulle funzioni avanzate fornite da questa licenza, consulta [Target Premium](/help/main/c-intro/intro.md).
 >
->* [!UICONTROL Analytics for Target] (A4T) supporta [!UICONTROL Auto-Target] attività. Per ulteriori informazioni, consulta [Supporto A4T per attività di allocazione automatica e targeting automatico](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md).
+>* [!UICONTROL Analytics for Target] (A4T) supporta [!UICONTROL le attività Targeting automatico]. Per ulteriori informazioni, consulta [Supporto A4T per attività di allocazione automatica e targeting automatico](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md).
 
 ## Storia di successo nel mondo reale con l’utilizzo del Targeting automatico {#success}
 
-Un importante retailer di abbigliamento ha recentemente utilizzato un&#39;attività [!UICONTROL Auto-Target] con dieci esperienze basate su categorie di prodotti (più controllo randomizzato) per fornire il contenuto giusto a ogni visitatore. &quot;[!UICONTROL Add to Cart]&quot; è stato scelto come metrica di ottimizzazione primaria. Le esperienze mirate hanno avuto un incremento medio del 29,09%. Dopo aver generato i modelli [!UICONTROL Auto-Target], l&#39;attività è stata impostata sul 90% di esperienze personalizzate.
+Un importante retailer di abbigliamento ha recentemente utilizzato un&#39;attività [!UICONTROL Targeting automatico] con dieci esperienze basate su categorie di prodotti (più controllo randomizzato) per fornire il contenuto giusto a ogni visitatore. &quot;[!UICONTROL Aggiungi al carrello]&quot; è stato scelto come metrica di ottimizzazione primaria. Le esperienze mirate hanno avuto un incremento medio del 29,09%. Dopo aver generato i modelli [!UICONTROL Targeting automatico], l&#39;attività è stata impostata sul 90% di esperienze personalizzate.
 
 In soli dieci giorni, è stato raggiunto un incremento di oltre 1.700.000 dollari.
 
-Continua a leggere per scoprire come utilizzare [!UICONTROL Auto-Target] per aumentare l&#39;incremento e i ricavi per la tua organizzazione.
+Continua a leggere per scoprire come utilizzare [!UICONTROL Targeting automatico] per aumentare gli incrementi e i ricavi per la tua organizzazione.
 
 ## Panoramica {#section_972257739A2648AFA7E7556B693079C9}
 
-Durante la [creazione di un&#39;attività A/B](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md) tramite il flusso di lavoro guidato in tre passaggi, scegliere l&#39;opzione **[!UICONTROL Auto-Target for personalized experiences]** nella pagina **[!UICONTROL Targeting]** (passaggio 2).
+Durante la [creazione di un&#39;attività A/B](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md) tramite il flusso di lavoro guidato in tre passaggi, scegli l&#39;opzione **[!UICONTROL Targeting automatico per esperienze personalizzate]** nella pagina **[!UICONTROL Targeting]** (passaggio 2).
 
 ![Opzione Targeting automatico per esperienze personalizzate](/help/main/c-activities/assets/auto-target-ui-new.png)
 
-L&#39;opzione [!UICONTROL Auto-Target] all&#39;interno del flusso di attività A/B ti consente di sfruttare l&#39;apprendimento automatico per personalizzare in base a una serie di esperienze definite dall&#39;addetto al marketing in un clic. [!UICONTROL Auto-Target] è progettato per fornire la massima ottimizzazione, rispetto ai tradizionali test A/B o [!UICONTROL Auto Allocate], determinando quale esperienza visualizzare per ogni visitatore. A differenza di un&#39;attività A/B in cui l&#39;obiettivo è quello di trovare un singolo vincitore, [!UICONTROL Auto-Target] determina automaticamente la migliore esperienza per un determinato visitatore. La migliore esperienza si basa sul profilo del visitatore e su altre informazioni contestuali, per fornire un’esperienza altamente personalizzata.
+L&#39;opzione [!UICONTROL Targeting automatico] all&#39;interno del flusso di attività A/B ti consente di sfruttare l&#39;apprendimento automatico per personalizzare in base a una serie di esperienze definite dall&#39;addetto al marketing in un clic. [!UICONTROL Targeting automatico] è progettato per fornire la massima ottimizzazione, rispetto ai tradizionali test A/B o [!UICONTROL Allocazione automatica], determinando quale esperienza visualizzare per ogni visitatore. A differenza di un&#39;attività A/B in cui l&#39;obiettivo è quello di trovare un singolo vincitore, [!UICONTROL Targeting automatico] determina automaticamente la migliore esperienza per un visitatore specifico. La migliore esperienza si basa sul profilo del visitatore e su altre informazioni contestuali, per fornire un’esperienza altamente personalizzata.
 
-Analogamente a [!UICONTROL Automated Personalization], [!UICONTROL Auto-Target] utilizza un [algoritmo Foresta casuale](/help/main/c-activities/t-automated-personalization/algo-random-forest.md), uno dei principali metodi di raccolta di dati scientifici, per determinare l&#39;esperienza migliore da mostrare a un visitatore. Poiché [!UICONTROL Auto-Target] può adattarsi ai cambiamenti nel comportamento del visitatore, può essere eseguito perennemente per fornire un incremento. Questo metodo è talvolta indicato come modalità &quot;sempre attiva&quot;.
+Analogamente a [!UICONTROL Automated Personalization], [!UICONTROL Targeting automatico] utilizza un algoritmo [Foresta casuale](/help/main/c-activities/t-automated-personalization/algo-random-forest.md), uno dei principali metodi di raccolta di dati scientifici, per determinare l&#39;esperienza migliore da mostrare a un visitatore. Poiché [!UICONTROL Targeting automatico] può adattarsi ai cambiamenti nel comportamento del visitatore, può essere eseguito perennemente per fornire un incremento. Questo metodo è talvolta indicato come modalità &quot;sempre attiva&quot;.
 
-A differenza di un&#39;attività A/B in cui l&#39;allocazione dell&#39;esperienza per un determinato visitatore è definitiva, [!UICONTROL Auto-Target] ottimizza l&#39;obiettivo di business specificato su ogni visita. Come in [!UICONTROL Auto Personalization], [!UICONTROL Auto-Target], per impostazione predefinita, riserva parte del traffico dell&#39;attività come gruppo di controllo per misurare l&#39;incremento. Ai visitatori del gruppo di controllo viene messa a disposizione un&#39;esperienza casuale nell&#39;attività.
+A differenza di un&#39;attività A/B in cui l&#39;allocazione dell&#39;esperienza per un dato visitatore è definitiva, [!UICONTROL Targeting automatico] ottimizza l&#39;obiettivo di business specificato su ogni visita. Come in [!UICONTROL Auto Personalization], [!UICONTROL Targeting automatico], per impostazione predefinita, riserva parte del traffico dell&#39;attività come gruppo di controllo per misurare l&#39;incremento. Ai visitatori del gruppo di controllo viene messa a disposizione un&#39;esperienza casuale nell&#39;attività.
 
 ## Considerazioni
 
-Ci sono alcune considerazioni importanti da tenere a mente quando si utilizza [!UICONTROL Auto-Target]:
+Ci sono alcune considerazioni importanti da tenere a mente quando si utilizza [!UICONTROL Targeting automatico]:
 
-* Impossibile passare un&#39;attività specifica da [!UICONTROL Auto-Target] a [!UICONTROL Automated Personalization] e viceversa.
-* Non è possibile passare dall&#39;allocazione del traffico [!UICONTROL Manual] (tradizionale [!UICONTROL A/B Test]) a [!UICONTROL Auto-Target] e viceversa dopo il salvataggio come bozza di un&#39;attività.
+* Non puoi cambiare un&#39;attività specifica da [!UICONTROL Targeting automatico] a [!UICONTROL Automated Personalization] e viceversa.
+* Non puoi passare dall&#39;allocazione del traffico [!UICONTROL Manuale] (test [!UICONTROL A/B tradizionale]) a [!UICONTROL Targeting automatico] e viceversa dopo che un&#39;attività è stata salvata come bozza.
 * Un modello è progettato per identificare le prestazioni della strategia personalizzata rispetto al traffico servito in modo casuale rispetto all’invio di tutto il traffico all’esperienza vincente complessiva. Questo modello considera gli hit e le conversioni solo nell’ambiente predefinito.
 
   Il traffico proveniente da un secondo set di modelli viene generato per ciascun gruppo di modellazione (AP) o esperienza (AT). Per ciascuno di questi modelli, vengono considerati gli hit e le conversioni in tutti gli ambienti.
@@ -56,35 +56,35 @@ Ci sono alcune considerazioni importanti da tenere a mente quando si utilizza [!
 
 * Utilizza almeno due esperienze.
 
-## Terminologia  {#section_A309B7E0B258467789A5CACDC1D923F3}
+## Terminologia {#section_A309B7E0B258467789A5CACDC1D923F3}
 
-I seguenti termini sono utili quando si parla di [!UICONTROL Auto-Target]:
+I seguenti termini sono utili quando si parla di [!UICONTROL Targeting automatico]:
 
 | Termine | Definizione |
 |---|---|
 | [Slot machine](https://en.wikipedia.org/wiki/Multi-armed_bandit){target=_blank} | Un approccio slot machine per l&#39;ottimizzazione equilibra l&#39;apprendimento esplorativo e lo sfruttamento di tale apprendimento. |
 | [Foresta casuale](/help/main/c-activities/t-automated-personalization/algo-random-forest.md) | Foresta casuale è uno dei principali metodi di apprendimento automatico. Nel linguaggio della scienza dei dati, si tratta di una classificazione di gruppo, o metodo di regressione, che funziona costruendo molti alberi decisionali basati su visitatori e attributi di visita. In [!DNL Target], Foresta casuale viene utilizzato per determinare quale esperienza dovrebbe avere la più alta probabilità di conversione (o il più alto ricavo per visita) per ogni visitatore specifico. |
-| [Campionamento Thompson](https://en.wikipedia.org/wiki/Thompson_sampling){target=_blank} | L’obiettivo del campionamento di Thompson è determinare quale esperienza è la migliore complessivamente (non personalizzata), riducendo al minimo il &quot;costo&quot; della ricerca di tale esperienza. Il campionamento di Thompson sceglie sempre un vincitore, anche se non c’è differenza statistica tra due esperienze. |
+| [Campionamento Thompson](https://en.wikipedia.org/wiki/Thompson_sampling){target=_blank} | L’obiettivo del campionamento di Thompson è determinare quale esperienza è la migliore complessivamente (non personalizzata), riducendo al minimo il &quot;costo&quot; della ricerca di tale esperienza. Il campionamento di Thompson sceglie sempre un vincitore, anche in assenza di differenza statistica tra due esperienze. |
 
-## Come funziona [!UICONTROL Auto-Target] {#section_77240E2DEB7D4CD89F52BE0A85E20136}
+## Funzionamento di [!UICONTROL Targeting automatico] {#section_77240E2DEB7D4CD89F52BE0A85E20136}
 
-Per ulteriori informazioni sui dati e gli algoritmi sottostanti a [!UICONTROL Auto-Target] e [!UICONTROL Automated Personalization], visitare i collegamenti seguenti:
+Ulteriori informazioni sui dati e gli algoritmi sottostanti [!UICONTROL Targeting automatico] e [!UICONTROL Automated Personalization] sono disponibili ai collegamenti seguenti:
 
 | Termine | Dettagli |
 |--- |--- |
-| [Algoritmo Foresta casuale](/help/main/c-activities/t-automated-personalization/algo-random-forest.md) | L&#39;algoritmo di personalizzazione principale di [!DNL Target] utilizzato in [!UICONTROL Auto-Target] e [!UICONTROL Automated Personalization] è Foresta casuale. I metodi di raggruppamento, come Foresta casuale, utilizzano più algoritmi di apprendimento per ottenere prestazioni predittive migliori rispetto a quelle ottenibili da uno qualsiasi degli algoritmi di apprendimento costituenti. L&#39;algoritmo Foresta casuale nelle attività [!UICONTROL Automated Personalization] e [!UICONTROL Auto-Target] è una classificazione, o metodo di regressione, che funziona costruendo una moltitudine di alberi decisionali al momento dell&#39;addestramento. |
-| [Caricamento dei dati per gli algoritmi Personalization di [!DNL Target]](/help/main/c-activities/t-automated-personalization/algo-random-forest.md) | Esistono diversi modi per immettere i dati per i modelli [!UICONTROL Auto-Target] e [!UICONTROL Automated Personalization]. |
+| [Algoritmo Foresta casuale](/help/main/c-activities/t-automated-personalization/algo-random-forest.md) | L&#39;algoritmo di personalizzazione principale di [!DNL Target] utilizzato in [!UICONTROL Targeting automatico] e [!UICONTROL Automated Personalization] è Foresta casuale. I metodi di raggruppamento, come Foresta casuale, utilizzano più algoritmi di apprendimento per ottenere prestazioni predittive migliori rispetto a quelle ottenibili da uno qualsiasi degli algoritmi di apprendimento costituenti. L&#39;algoritmo Foresta casuale nelle attività [!UICONTROL Automated Personalization] e [!UICONTROL Targeting automatico] è una classificazione, o metodo di regressione, che funziona costruendo una moltitudine di alberi decisionali al momento della formazione. |
+| [Caricamento dei dati per gli algoritmi Personalization di [!DNL Target]](/help/main/c-activities/t-automated-personalization/algo-random-forest.md) | Esistono diversi modi per immettere dati per i modelli [!UICONTROL Targeting automatico] e [!UICONTROL Automated Personalization]. |
 | [Raccolta di dati per gli algoritmi Personalization di [!DNL Target]](/help/main/c-activities/t-automated-personalization/ap-data.md) | Gli algoritmi di personalizzazione di [!DNL Target] raccolgono automaticamente vari dati. |
 
 ## Determinazione dell’allocazione del traffico {#section_AB3656F71D2D4C67A55A24B38092958F}
 
 A seconda dell&#39;obiettivo dell&#39;attività, puoi scegliere una diversa allocaizone del traffico tra il controllo e le esperienze personalizzate. Una buona pratica è di determinare questo obiettivo prima di attivare l&#39;attività.
 
-L&#39;elenco a discesa [!UICONTROL Custom Allocation] consente di scegliere tra le opzioni seguenti:
+L’elenco a discesa [!UICONTROL Personalizza allocazione] consente di scegliere tra le seguenti opzioni:
 
-* [!UICONTROL Evaluate Personalization Algorithm]
-* [!UICONTROL Maximize Personalization Traffic]
-* [!UICONTROL Custom Allocation]
+* [!UICONTROL Valuta algoritmo Personalization]
+* [!UICONTROL Massimizza traffico Personalization]
+* [!UICONTROL Personalizza allocazione]
 
 ![Elenco a discesa Obiettivo di allocazione](/help/main/c-activities/assets/split-new.png)
 
@@ -94,21 +94,21 @@ L&#39;elenco a discesa [!UICONTROL Custom Allocation] consente di scegliere tra 
 | **Massimizza traffico Personalization (90/10)**: se il tuo obiettivo è invece quello di creare un&#39;attività &quot;sempre attiva&quot;, inserisci il 10% dei visitatori nel controllo affinché ci siano abbastanza dati per consentire agli algoritmi di continuare a imparare nel tempo. In questo caso, il compromesso è che, in cambio della personalizzazione di una proporzione maggiore del traffico, si ha meno precisione in cosa sia l’incremento esatto. Indipendentemente dall’obiettivo, questa è la suddivisione del traffico consigliata quando si utilizza come controllo un’esperienza specifica. | Una buona pratica è quella di allocare 10%-30% al controllo / 70%-90% all’esperienza personalizzata | <ul><li>Massimizza il numero di visitatori che ricevono un&#39;esperienza personalizzata</li><li>Massimizza l&#39;incremento</li><li>Meno precisione nel determinare l&#39;incremento per l&#39;attività</li></ul> |
 | **Personalizza allocazione** | Suddividi manualmente la percentuale come desiderato. | <ul><li>Potresti non ottenere i risultati desiderati. Se non sei sicuro, segui i suggerimenti per una delle opzioni precedenti</li></ul> |
 
-Per regolare la percentuale di [!UICONTROL Control], fare clic sulle icone nella colonna [!UICONTROL Allocation]. Non è possibile ridurre il gruppo di controllo sotto il 10%.
+Per regolare la percentuale di [!UICONTROL Controllo], fare clic sulle icone nella colonna [!UICONTROL Allocazione]. Non è possibile ridurre il gruppo di controllo sotto il 10%.
 
 ![Cambiare l’allocazione del traffico per Targeting automatico](/help/main/c-activities/assets/auto-target-control.png)
 
 Puoi [selezionare un’esperienza specifica da usare come controllo](/help/main/c-activities/t-automated-personalization/experience-as-control.md) oppure utilizzare l’opzione Esperienza casuale.
 
-## Quando scegliere [!UICONTROL Auto-Target] rispetto a [!UICONTROL Automated Personalization]? {#section_BBC4871C87944DD7A8B925811A30C633}
+## Quando scegliere [!UICONTROL Targeting automatico] rispetto a [!UICONTROL Automated Personalization]? {#section_BBC4871C87944DD7A8B925811A30C633}
 
-Esistono diversi scenari in cui si preferisce utilizzare [!UICONTROL Auto-Target] rispetto a [!UICONTROL Automated Personalization]:
+Esistono diversi scenari in cui si preferisce utilizzare [!UICONTROL Targeting automatico] rispetto a [!UICONTROL Automated Personalization]:
 
 * Se vuoi definire l’intera esperienza anziché singole offerte che vengono combinate automaticamente per formare un’esperienza.
-* Se desideri utilizzare il set completo di funzionalità [!UICONTROL Visual Experience Composer] (VEC) non supportate da [!UICONTROL Auto Personalization]: l&#39;editor di codice personalizzato, più tipi di pubblico e altro ancora.
-* Se desideri apportare modifiche strutturali alla pagina in diverse esperienze. Se ad esempio si desidera ridisporre gli elementi nella home page, [!UICONTROL Auto-Target] è più appropriato da utilizzare rispetto a [!UICONTROL Automated Personalization].
+* Se si desidera utilizzare il set completo di [!UICONTROL funzionalità del Compositore esperienza visivo] non supportate da [!UICONTROL Auto Personalization]: l&#39;editor di codice personalizzato, più tipi di pubblico e altro ancora.
+* Se desideri apportare modifiche strutturali alla pagina in diverse esperienze. Ad esempio, se desideri ridisporre gli elementi nella home page, [!UICONTROL Targeting automatico] è più appropriato da utilizzare di [!UICONTROL Automated Personalization].
 
-## Cosa ha in comune [!UICONTROL Auto-Target] con [!UICONTROL Automated Personalization]? {#section_2A601F482F9A44E38D4B694668711319}
+## Cosa hanno in comune [!UICONTROL Targeting automatico] con [!UICONTROL Automated Personalization]? {#section_2A601F482F9A44E38D4B694668711319}
 
 ### L’algoritmo ottimizza per ottenere un risultato favorevole per ogni visita.
 
@@ -124,11 +124,11 @@ Esistono diversi scenari in cui si preferisce utilizzare [!UICONTROL Auto-Target
 
 ### L’algoritmo viene continuamente ottimizzato per una singola metrica di obiettivo.
 
-* Questa metrica potrebbe essere basata sulla conversione o sui ricavi (nello specifico [!UICONTROL Revenue per Visit]).
+* Questa metrica potrebbe essere basata sulla conversione o sui ricavi (nello specifico [!UICONTROL Ricavo per visita]).
 
 ### [!DNL Target] raccoglie automaticamente informazioni sui visitatori per generare i modelli di personalizzazione.
 
-* Per ulteriori informazioni sui parametri utilizzati in [!UICONTROL Auto-Target] e [!UICONTROL Automated Personalization], vedere [Raccolta dati di Automated Personalization](/help/main/c-activities/t-automated-personalization/ap-data.md).
+* Per ulteriori informazioni sui parametri utilizzati in [!UICONTROL Targeting automatico] e [!UICONTROL Automated Personalization], vedi [Raccolta dati di Automated Personalization](/help/main/c-activities/t-automated-personalization/ap-data.md).
 
 ### [!DNL Target] utilizza automaticamente tutti i [!DNL Adobe Experience Cloud] tipi di pubblico condivisi per generare i modelli di personalizzazione.
 
@@ -136,42 +136,42 @@ Esistono diversi scenari in cui si preferisce utilizzare [!UICONTROL Auto-Target
 
 ### Gli addetti al marketing possono caricare dati offline, punteggi di propensione o altri dati personalizzati per creare modelli di personalizzazione.
 
-* Ulteriori informazioni sul caricamento di [&#x200B; dati per [!UICONTROL Auto-Target] e [!UICONTROL Automated Personalization]](/help/main/c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md).
+* Ulteriori informazioni sul [caricamento dei dati per [!UICONTROL Targeting automatico] e [!UICONTROL Automated Personalization]](/help/main/c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md).
 
-## Differenze tra [!UICONTROL Auto-Target] e [!UICONTROL Automated Personalization] {#section_BA4D83BE40F14A96BE7CBC7C7CF2A8FB}
+## Differenze tra [!UICONTROL Targeting automatico] e [!UICONTROL Automated Personalization] {#section_BA4D83BE40F14A96BE7CBC7C7CF2A8FB}
 
-### [!UICONTROL Auto-Target] richiede spesso meno traffico di [!UICONTROL Automated Personalization] per generare un modello personalizzato.
+### [!UICONTROL Il Targeting automatico] richiede spesso meno traffico di [!UICONTROL Automated Personalization] per generare un modello personalizzato.
 
-Anche se la quantità di traffico *per esperienza* richiesta per la generazione dei modelli [!UICONTROL Auto-Target] o [!UICONTROL Auto Personalization] è la stessa, in genere sono presenti più esperienze in un&#39;attività [!UICONTROL Automated Personalization] rispetto a un&#39;attività [!UICONTROL Auto-Target].
+Anche se la quantità di traffico *per esperienza* richiesta per [!UICONTROL Targeting automatico] o [!UICONTROL Modelli Personalization] automatici da compilare è la stessa, ci sono in genere più esperienze in un&#39;attività [!UICONTROL Automated Personalization] rispetto a un&#39;attività [!UICONTROL Targeting automatico].
 
-Ad esempio, se disponessi di un&#39;attività [!UICONTROL Auto Personalization] in cui sono state create due offerte per posizione con due posizioni, ci sarebbero quattro (2 = 4) esperienze totali incluse nell&#39;attività (senza esclusioni). Utilizzando [!UICONTROL Auto-Target], puoi impostare l&#39;esperienza 1 per includere l&#39;offerta 1 in posizione 1 e l&#39;offerta 2 in posizione 2 e l&#39;esperienza 2 per includere l&#39;offerta 1 in posizione 1 e l&#39;offerta 2 in posizione 2. Poiché [!UICONTROL Auto-Target] consente di avere più modifiche all&#39;interno di un&#39;esperienza, puoi ridurre il numero di esperienze totali nell&#39;attività.
+Se, ad esempio, si disponesse di un&#39;attività [!UICONTROL Auto Personalization] in cui sono state create due offerte per posizione con due posizioni, l&#39;attività includerebbe quattro (2 = 4) esperienze totali (senza esclusioni). Utilizzando [!UICONTROL Targeting automatico], puoi impostare l&#39;esperienza 1 per includere l&#39;offerta 1 in posizione 1 e l&#39;offerta 2 in posizione 2 e l&#39;esperienza 2 per includere l&#39;offerta 1 in posizione 1 e l&#39;offerta 2 in posizione 2. Poiché [!UICONTROL Targeting automatico] consente di avere più modifiche all&#39;interno di un&#39;esperienza, puoi ridurre il numero di esperienze totali nell&#39;attività.
 
-Per [!UICONTROL Auto-Target] è possibile utilizzare semplici regole generali per comprendere i requisiti del traffico:
+Per [!UICONTROL Targeting automatico] è possibile utilizzare semplici regole generali per comprendere i requisiti del traffico:
 
-* **Quando [!UICONTROL Conversion] è la metrica di successo:** 1.000 visite e almeno 50 conversioni al giorno per esperienza e inoltre l&#39;attività deve avere almeno 7.000 visite e 350 conversioni.
-* **Quando [!UICONTROL Revenue per Visit] è la metrica di successo:** 1.000 visite e almeno 50 conversioni al giorno per esperienza e inoltre l&#39;attività deve avere almeno 1.000 conversioni per esperienza. RPV di solito richiede più dati per costruire modelli a causa della varianza più elevata dei dati che esiste in genere nei ricavi di visita rispetto al tasso di conversione.
+* **Quando [!UICONTROL Conversione] è la metrica di successo:** 1.000 visite e almeno 50 conversioni al giorno per esperienza e inoltre l&#39;attività deve avere almeno 7.000 visite e 350 conversioni.
+* **Quando [!UICONTROL Ricavo per visita] è la metrica di successo:** 1.000 visite e almeno 50 conversioni al giorno per esperienza e in più l&#39;attività deve avere almeno 1.000 conversioni per esperienza. RPV di solito richiede più dati per costruire modelli a causa della varianza più elevata dei dati che esiste in genere nei ricavi di visita rispetto al tasso di conversione.
 
-### [!UICONTROL Auto-Target] ha una funzionalità di installazione completa.
+### [!UICONTROL Targeting automatico] dispone di funzionalità di installazione complete.
 
-* Poiché [!UICONTROL Auto-Target] è incorporato nel flusso di lavoro di attività A/B, [!UICONTROL Auto-Target] beneficia di [!UICONTROL Visual Experience Composer] (VEC) più maturo e completo. È inoltre possibile utilizzare [collegamenti di controllo qualità](/help/main/c-activities/c-activity-qa/activity-qa.md) con [!UICONTROL Auto-Target].
+* Poiché [!UICONTROL Targeting automatico] è incorporato nel flusso di lavoro di attività A/B, [!UICONTROL Targeting automatico] beneficia del [!UICONTROL Compositore esperienza visivo] (VEC) più maturo e completo. Puoi anche utilizzare [collegamenti di controllo qualità](/help/main/c-activities/c-activity-qa/activity-qa.md) con [!UICONTROL Targeting automatico].
 
-### [!UICONTROL Auto-Target] fornisce un ampio framework di test online.
+### [!UICONTROL Targeting automatico] fornisce un ampio framework di test online.
 
 * La slot machine fa parte di un framework di test online più ampio che consente a [!DNL Adobe] data scientist e ricercatori di comprendere i vantaggi dei continui miglioramenti delle condizioni reali.
 * In futuro, questo banco di prova ci consentirà di aprire [!DNL Adobe] piattaforma di machine learning a client esperti in materia di dati in modo che possano importare i propri modelli per incrementare i modelli [!DNL Target].
 
-## Reporting e [!UICONTROL Auto-Target] {#section_42EE7F5E65E84F89A872FE9921917F76}
+## Reporting e [!UICONTROL Targeting automatico] {#section_42EE7F5E65E84F89A872FE9921917F76}
 
 Per ulteriori informazioni, vedere [Reporting and Auto-Target](/help/main/c-activities/auto-target/reporting-and-auto-target.md).
 
 ## Video di formazione: Informazioni sulle attività di Targeting automatico
 
-Questo video spiega come impostare un&#39;attività A/B di [!UICONTROL Auto-Target].
+Questo video spiega come impostare un&#39;attività A/B di [!UICONTROL Targeting automatico].
 
 Dopo aver completato questo training, sarai in grado di:
 
-* Definisci test [!UICONTROL Auto-Target]
-* Confronta e contrasta [!UICONTROL Auto-Target] con [!UICONTROL Automated Personalization]
-* Crea [!UICONTROL Auto-Target] attività
+* Definisci [!UICONTROL Targeting automatico] test
+* Confronta e contrasta [!UICONTROL Targeting automatico] con [!UICONTROL Automated Personalization]
+* Crea [!UICONTROL attività Targeting automatico]
 
 >[!VIDEO](https://video.tv.adobe.com/v/18558)

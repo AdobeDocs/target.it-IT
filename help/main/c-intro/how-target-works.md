@@ -5,30 +5,13 @@ title: Come funziona  [!DNL Target] ?
 feature: Overview
 exl-id: 8a93e061-0be7-4ecc-b511-2210094547f2
 TQID: https://experienceleague.adobe.com/KZR3HivCPj0FVhB7fmt-WEjsniUsupTK1-52UqwtbKE
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
-  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
-subfeature_v2:
-  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
-topic_v2:
-  - id: a09a5a04-e30b-4d55-b031-38e6f5ec86db
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eebid: c93393a4-e558-47e1-992e-c91ed4d480ce
+subfeature_v2: id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2: id: a09a5a04-e30b-4d55-b031-38e6f5ec86dbid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d095671a-1355-40aa-8b5f-06c33c68080bid: d3cdead0-685a-4489-9250-4bb709942f66id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eb30f47f-d87a-400f-8f78-63ce7979ff56id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 2363
+source-wordcount: 2421
 ht-degree: 25%
 
 ---
@@ -50,14 +33,14 @@ I punti chiave includono:
 
 Target si integra con i siti Web utilizzando [!DNL Experience Platform Web SDK] o at.js:
 
-* **[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/it/docs/target-dev/developer/client-side/aep/aep-web-sdk-overview){target=_blank}**: questa libreria JavaScript lato client consente a [!DNL Adobe Experience Cloud] clienti di interagire con vari servizi tramite [!DNL Experience Platform Edge Network]. [!DNL Adobe] consiglia ai nuovi clienti [!DNL Target] di implementare [!DNL Experience Platform Web SDK].
+* **[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/aep/aep-web-sdk-overview){target=_blank}**: questa libreria JavaScript lato client consente a [!DNL Adobe Experience Cloud] clienti di interagire con vari servizi tramite [!DNL Experience Platform Edge Network]. [!DNL Adobe] consiglia ai nuovi clienti [!DNL Target] di implementare [!DNL Experience Platform Web SDK].
 * **[at.js](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/how-to-deployatjs){target=_blank}**: questa libreria di implementazione per [!DNL Target] migliora i tempi di caricamento delle pagine per le implementazioni web e offre opzioni migliori per le applicazioni a pagina singola. Aggiornato spesso con nuove funzionalità, [!DNL Adobe] consiglia a tutti gli utenti di [at.js di eseguire l&#39;aggiornamento alla versione più recente](https://experienceleague-review.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}.
 
 >[!NOTE]
 >
->La libreria mbox.js è un&#39;implementazione legacy per [!DNL Target] e non è più supportata dopo il 31 marzo 2021. Esegui l’aggiornamento a [!UICONTROL Experience Platform Web SDK] (preferito) o alla versione più recente di at.js.
+>La libreria mbox.js è un&#39;implementazione legacy per [!DNL Target] e non è più supportata dopo il 31 marzo 2021. Esegui l&#39;aggiornamento a [!UICONTROL Experience Platform Web SDK] (preferito) o alla versione più recente di at.js.
 
-Fai riferimento a [!UICONTROL Experience Platform Web SDK] o at.js in ogni pagina del sito. Ad esempio, aggiungi una di queste librerie all’intestazione globale. In alternativa, utilizzare [tag in Adobe Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/tags/home){target=_blank} per implementare [!DNL Target].
+Fai riferimento a [!UICONTROL Experience Platform Web SDK] o at.js in ogni pagina del sito. Ad esempio, aggiungi una di queste librerie all’intestazione globale. In alternativa, utilizzare [tag in Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/tags/home){target=_blank} per implementare [!DNL Target].
 
 Le risorse seguenti contengono informazioni dettagliate utili per implementare [!DNL Experience Platform Web SDK] o at.js:
 
@@ -70,7 +53,7 @@ In [!DNL Target], ogni elemento sulla pagina è parte di una singola esperienza,
 
 Il contenuto visualizzato dipende dal tipo di attività creata:
 
-### [!UICONTROL A/B Test]
+### [!UICONTROL Test A/B]
 
 In un test A/B di base, il contenuto viene scelto in modo casuale tra le esperienze assegnate. Puoi impostare le percentuali di allocazione del traffico per ogni esperienza. Inizialmente, il traffico potrebbe essere distribuito in modo non uniforme a causa della suddivisione casuale, ma si equalizza con l’aumento del traffico. Ad esempio, con due esperienze, l’esperienza iniziale viene scelta in modo casuale. Un traffico ridotto può distorcere le percentuali di visitatori verso un’esperienza, ma questa situazione si compensa con un traffico maggiore.
 
@@ -83,15 +66,15 @@ Specifica i target percentuali per ogni esperienza. Viene generato un numero cas
 
 Consulta [Creare un test A/B](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md) per ulteriori informazioni.
 
-### [!UICONTROL Auto-Allocate]
+### [!UICONTROL Allocazione automatica]
 
-[!UICONTROL Auto-Allocate] identifica l&#39;esperienza vincente tra due o più opzioni. Quindi ridistribuisce automaticamente più traffico per il vincitore, aumentando le conversioni mentre il test continua a essere eseguito e ad apprendere.
+[!UICONTROL Allocazione automatica] identifica l&#39;esperienza vincente tra due o più opzioni. Quindi ridistribuisce automaticamente più traffico per il vincitore, aumentando le conversioni mentre il test continua a essere eseguito e ad apprendere.
 
-Per ulteriori informazioni, vedere [[!UICONTROL Auto-Allocate]](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4).
+Per ulteriori informazioni, vedere [[!UICONTROL Allocazione automatica]](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4).
 
-### [!UICONTROL Auto-Target] (AT)
+### [!UICONTROL Targeting automatico] (AT)
 
-[!UICONTROL Auto-Target] sfrutta l&#39;apprendimento automatico avanzato per scegliere tra più esperienze ad alte prestazioni definite dall&#39;addetto marketing. [!UICONTROL Auto-Target] offre l&#39;esperienza più personalizzata a ogni visitatore in base ai profili dei singoli clienti e al comportamento dei visitatori precedenti con profili simili. Utilizza [!UICONTROL Auto-Target] per personalizzare il contenuto e favorire le conversioni.
+[!UICONTROL Targeting automatico] sfrutta l&#39;apprendimento automatico avanzato per scegliere tra più esperienze ad alte prestazioni definite dall&#39;addetto al marketing. [!UICONTROL Targeting automatico] offre l&#39;esperienza più personalizzata a ogni visitatore in base ai profili dei singoli clienti e al comportamento dei visitatori precedenti con profili simili. Utilizza [!UICONTROL Targeting automatico] per personalizzare il contenuto e favorire le conversioni.
 
 Per ulteriori informazioni, consulta [Targeting automatico](/help/main/c-activities/auto-target/auto-target-to-optimize.md).
 
@@ -101,21 +84,21 @@ Per ulteriori informazioni, consulta [Targeting automatico](/help/main/c-activit
 
 Per ulteriori informazioni, consulta [Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9).
 
-### [!UICONTROL Experience Targeting] (XT)
+### [!UICONTROL Targeting dell’esperienza] (XT)
 
-[!UICONTROL Experience Targeting] (XT) fornisce contenuti a tipi di pubblico specifici in base a regole e criteri definiti dall&#39;addetto al marketing. Incluso il geotargeting, XT è utile per definire regole che rivolgono esperienze o contenuti specifici a tipi di pubblico particolari. È possibile impostare più regole in un’attività per fornire diverse varianti di contenuto a tipi di pubblico diversi. Quando i visitatori visualizzano il tuo sito, XT li valuta per determinare se soddisfano i criteri. Se si qualificano, accedono all’attività e visualizzano l’esperienza progettata per loro. Puoi creare esperienze per più tipi di pubblico all&#39;interno di una singola attività.
+[!UICONTROL La funzione Targeting esperienza] (XT) fornisce contenuti a tipi di pubblico specifici in base a regole e criteri definiti dall&#39;addetto al marketing. Incluso il geotargeting, XT è utile per definire regole che rivolgono esperienze o contenuti specifici a tipi di pubblico particolari. È possibile impostare più regole in un’attività per fornire diverse varianti di contenuto a tipi di pubblico diversi. Quando i visitatori visualizzano il tuo sito, XT li valuta per determinare se soddisfano i criteri. Se si qualificano, accedono all’attività e visualizzano l’esperienza progettata per loro. Puoi creare esperienze per più tipi di pubblico all&#39;interno di una singola attività.
 
 Per ulteriori informazioni, consulta [Targeting esperienza](/help/main/c-activities/t-experience-target/experience-target.md#task_A53DF336CB9F4D7BB87EF2106099EFC4).
 
-### [!UICONTROL Multivariate Test] (MVT)
+### [!UICONTROL Test multivariato] (MVT)
 
-[!UICONTROL Multivariate Testing] (MVT) confronta le combinazioni di offerte negli elementi di pagina per determinare quale combinazione funziona meglio per un pubblico specifico. MVT consente di identificare quale elemento influisce maggiormente sul successo dell’attività.
+[!UICONTROL Multivariate Testing] (MVT) confronta le combinazioni di offerte negli elementi della pagina per determinare quale combinazione funziona meglio per un pubblico specifico. MVT consente di identificare quale elemento influisce maggiormente sul successo dell’attività.
 
 Per ulteriori informazioni, consulta [Test multivariato](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md#concept_628695CDC71B449B8DCC2F5654C11499).
 
-### [!UICONTROL Recommendations]
+### [!UICONTROL Funzione Consigli]
 
-Le attività [!UICONTROL Recommendations] visualizzano automaticamente prodotti o contenuti che potrebbero interessare i clienti in base alla loro attività precedente o ad altri algoritmi. I consigli aiutano a indirizzare i clienti verso elementi rilevanti che altrimenti potrebbero non scoprire.
+Le attività di [!UICONTROL Consigli] visualizzano automaticamente prodotti o contenuti che potrebbero interessare ai clienti in base alla loro attività precedente o ad altri algoritmi. I consigli aiutano a indirizzare i clienti verso elementi rilevanti che altrimenti potrebbero non scoprire.
 
 Consulta [Funzione Consigli](/help/main/c-recommendations/recommendations.md#concept_7556C8A4543942F2A77B13A29339C0C0) per ulteriori informazioni.
 
@@ -194,7 +177,7 @@ Il servizio [!DNL Target Recommendations] è ospitato in un data center [!DNL Ad
 >
 >[!DNL Target] non dispone attualmente di un cluster Edge in Cina, limitando le prestazioni dei visitatori per [!DNL Target] clienti nella regione. Il firewall e l’assenza di cluster Edge possono influire sulle esperienze del sito, rallentando i tempi di rendering e caricamento delle pagine. Inoltre, gli addetti al marketing possono riscontrare una latenza durante l&#39;utilizzo dell&#39;interfaccia utente di creazione di [!DNL Target].
 
-Se necessario, puoi inserire nell’elenco Consentiti i cluster di Edge [!DNL Target]. Per ulteriori informazioni, consulta [elenco Consentiti nodi edge di Target](https://experienceleague.adobe.com/it/docs/target-dev/developer/implementation/privacy/allowlist-edges){target=_blank}.
+Se necessario, puoi inserire nell’elenco Consentiti i cluster di Edge [!DNL Target]. Per ulteriori informazioni, consulta [elenco Consentiti nodi edge di Target](https://experienceleague.adobe.com/en/docs/target-dev/developer/implementation/privacy/allowlist-edges){target=_blank}.
 
 ## Esperienza di utilizzo protetta {#concept_40A5E781D90A41E4955F80EA9E5F8F96}
 
@@ -206,7 +189,7 @@ Non vengono apportate modifiche alla pagina se il browser del visitatore non rie
 
 [!DNL Adobe] tutela l’esperienza utente attraverso l’ottimizzazione e la salvaguardia delle prestazioni.
 
-* [!DNL Adobe] garantisce i benchmark delle prestazioni basati sugli standard di settore, garantiti da [!UICONTROL Adobe Service Level Agreement].
+* [!DNL Adobe] garantisce i benchmark prestazionali basati sugli standard di settore, garantiti dal [!UICONTROL Contratto sul livello di servizio Adobe].
 * La rete Edge assicura una distribuzione tempestiva dei dati.
 * [!UICONTROL Adobe] utilizza un approccio multilivello per proteggere le applicazioni, fornendo il massimo livello di disponibilità e affidabilità ai clienti.
 * [!DNL Target] Consulting offre assistenza nell’implementazione e supporto continuo per il prodotto.
@@ -255,7 +238,7 @@ Oltre a queste linee guida, Google fornisce anche una guida in più nella docume
 
 Google dichiara, a titolo di esempio, che “se la pagina originale di un sito presenta parole chiave non correlate alle combinazioni mostrate agli utenti, possiamo rimuovere il sito dal nostro indice”.
 
-[!UICONTROL Adobe] ritiene che sarebbe difficile modificare involontariamente il significato del contenuto originale all&#39;interno delle varianti di test. Tuttavia, [!UICONTROL Adobe] consiglia di essere a conoscenza dei temi delle parole chiave in una pagina e di mantenere tali temi. Le modifiche al contenuto di una pagina, in particolare l’aggiunta o l’eliminazione di parole chiave rilevanti, possono influenzare la classificazione dell’URL nella ricerca organica. [!DNL Adobe] consiglia di coinvolgere il tuo partner SEO (Search Engine Optimization) come parte del protocollo di test.
+[!UICONTROL Adobe] ritiene che sarebbe difficile modificare involontariamente il significato del contenuto originale all&#39;interno delle varianti di test. Tuttavia, [!UICONTROL Adobe] consiglia di essere consapevoli dei temi delle parole chiave in una pagina e di mantenere tali temi. Le modifiche al contenuto di una pagina, in particolare l’aggiunta o l’eliminazione di parole chiave rilevanti, possono influenzare la classificazione dell’URL nella ricerca organica. [!DNL Adobe] consiglia di coinvolgere il tuo partner SEO (Search Engine Optimization) come parte del protocollo di test.
 
 ## Bot {#bots}
 
@@ -272,7 +255,7 @@ Per il traffico noto proveniente da bot, [!DNL Target]:
 * non crea né recupera un profilo visitatore;
 * Registra gli attributi del profilo o esegui gli script di profilo
 * non consulta i segmenti di [!DNL Adobe Audience Manager] (AAM) (se applicabile);
-* Utilizza il traffico da bot per modellare o trasmettere contenuti personalizzati per [!UICONTROL Recommendations], [!UICONTROL Auto-Target], [!UICONTROL Automated Personalization] o [!UICONTROL Auto-Allocate] attività
+* Utilizza il traffico da bot per modellare o trasmettere contenuti personalizzati per [!UICONTROL le attività Consigli], [!UICONTROL Targeting automatico], [!UICONTROL Automated Personalization] o [!UICONTROL Allocazione automatica]
 * non registra a fini di reporting una visita all’attività;
 * Registra i dati da inviare alla piattaforma [!DNL Adobe Experience Cloud]
 

@@ -5,16 +5,13 @@ title: Che Cos’È L’Affinità Tra Categorie?
 feature: Audiences
 exl-id: 9478a7fb-e4b5-46d9-be73-b72cb99c3e5e
 TQID: https://experienceleague.adobe.com/B5H-MhD005gmDbRErDOmfifwk-WIsOubWUYpQagRKgU
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 867
-ht-degree: 56%
+source-wordcount: 880
+ht-degree: 57%
 
 ---
 
@@ -111,15 +108,15 @@ Le sezioni seguenti contengono informazioni utili per utilizzare un pubblico di 
 
 ### Creare un pubblico da utilizzare per Affinità tra categorie {#section_A27C600BBA664FE7A74F8FE076B78F40}
 
-1. Dall&#39;elenco **[!UICONTROL Audiences]**, fare clic su **[!UICONTROL Create Audience]**.
+1. Nell&#39;elenco **[!UICONTROL Tipi di pubblico]** fare clic su **[!UICONTROL Crea pubblico]**.
 
    Oppure
 
    Per copiare un pubblico esistente, passa il puntatore sul pubblico desiderato nellʼelenco Tipi di pubblico, quindi fai clic sullʼicona Copia. Ora puoi modificare il pubblico per crearne uno simile.
 
 1. Inserisci un nome descrittivo per il pubblico.
-1. Fare clic su **[!UICONTROL + Add Rule]** > **[!UICONTROL Visitor Profile]**.
-1. Dall&#39;elenco a discesa **[!UICONTROL Visitor Profile]**, selezionare **[!UICONTROL Category Affinity]**.
+1. Fai clic su **[!UICONTROL + Aggiungi regola]** > **[!UICONTROL Profilo visitatore]**.
+1. Nellʼelenco a discesa **[!UICONTROL Profilo visitatore]**, seleziona **[!UICONTROL Affinità tra categorie]**.
 
    ![Profilo visitatore > Affinità tra categorie](assets/affinity.png)
 
@@ -145,8 +142,8 @@ Le sezioni seguenti contengono informazioni utili per utilizzare un pubblico di 
    * È uguale a
 
 1. Specifica ogni nuovo valore in una riga separata (ad esempio “Scarpe”).
-1. Fare clic su **[!UICONTROL Save]**.
+1. Fai clic su **[!UICONTROL Salva]**.
 
 ### Utilizzare il pubblico di affinità tra categorie in un’attività {#section_91526B942D1B4AEBB8FCDF4EBFF931CF}
 
-Puoi utilizzare i tipi di pubblico di affinità tra categorie in qualsiasi attività. Durante il flusso di lavoro guidato in tre passaggi, nel passaggio [!UICONTROL Target], scegli il pubblico desiderato.
+Puoi utilizzare i tipi di pubblico di affinità tra categorie in qualsiasi attività. Durante il flusso di lavoro guidato in tre passaggi, scegli il pubblico desiderato nel passaggio [!UICONTROL Target].

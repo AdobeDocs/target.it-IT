@@ -2,13 +2,13 @@
 keywords: regole di inclusione;criteri di inclusione;consigli;promozione;promozioni;filtro dinamico;dinamico;corrispondenza attributo profilo
 description: Scopri come filtrare dinamicamente in Adobe [!DNL Target] Recommendations confrontando gli elementi (entità) con un valore nel profilo dell'utente.
 title: Come posso filtrare per corrispondenza degli attributi di profilo nelle attività Consigli?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=it#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."
 feature: Recommendations
 exl-id: d4b837af-771b-41b4-982b-f9f08e4753f2
 source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
 workflow-type: tm+mt
-source-wordcount: '483'
-ht-degree: 7%
+source-wordcount: '503'
+ht-degree: 6%
 
 ---
 
@@ -16,24 +16,24 @@ ht-degree: 7%
 
 Filtrare dinamicamente in [!DNL Adobe Target] [!DNL Recommendations] confrontando gli elementi (entità) con un valore nel profilo dell&#39;utente.
 
-Utilizza [!UICONTROL Profile Attribute Matching] per mostrare consigli che corrispondono a un valore memorizzato nel profilo del visitatore, ad esempio le dimensioni o il marchio preferito.
+Utilizza [!UICONTROL Corrispondenza attributo profilo] per mostrare i consigli che corrispondono a un valore memorizzato nel profilo del visitatore, ad esempio le dimensioni o il marchio preferito.
 
 >[!NOTE]
 >
 >Il processo [di creazione e utilizzo delle regole di inclusione](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md) per criteri e promozioni è simile, così come i casi d&#39;uso e gli esempi.
 
-Gli scenari seguenti mostrano come utilizzare [!UICONTROL Profile Attribute Matching]:
+Gli scenari seguenti mostrano come utilizzare [!UICONTROL Corrispondenza attributo profilo]:
 
 * Un&#39;azienda che vende occhiali memorizza il colore preferito del frame del visitatore come &quot;noce&quot;. Per quel visitatore specifico, i consigli sono impostati per restituire solo cornici di occhiali che corrispondono a &quot;noce&quot; a colori.
 * Un parametro di profilo può essere definito per la dimensione dell’abbigliamento (ad esempio Piccolo, Medium o Grande) di un visitatore durante la navigazione nel sito web della tua azienda. È possibile impostare un consiglio che corrisponda a tale parametro di profilo e che restituisca prodotti specifici solo in base alla dimensione di abbigliamento preferita dall’utente.
 
 ## Esempi di corrispondenza degli attributi del profilo {#section_9873E2F22E094E479569D05AD5BB1D40}
 
-[!UICONTROL Profile Attribute Matching] consente di consigliare solo gli elementi che corrispondono a un attributo del profilo del visitatore, come negli esempi seguenti.
+[!UICONTROL Corrispondenza attributo profilo] consente di consigliare solo gli elementi che corrispondono a un attributo del profilo del visitatore, come negli esempi seguenti.
 
 ### Articoli consigliati dalla marca preferita dell’utente
 
-Ad esempio, è possibile utilizzare l&#39;opzione [!UICONTROL Profile Attribute Matching] per creare una regola che consigli solo gli elementi il cui brand è uguale al valore o al testo archiviato in `profile.favoritebrand`. Con tale regola, se un visitatore cerca dei pantaloncini da corsa di una data marca, i consigli che verranno visualizzati proporranno articoli della marca preferita dell’utente (in base al valore memorizzato in `profile.favoritebrand` nel profilo del visitatore).
+Ad esempio, puoi utilizzare l&#39;opzione [!UICONTROL Corrispondenza attributo profilo] per creare una regola che consigli solo gli elementi in cui il brand è uguale al valore o al testo archiviato in `profile.favoritebrand`. Con tale regola, se un visitatore cerca dei pantaloncini da corsa di una data marca, i consigli che verranno visualizzati proporranno articoli della marca preferita dell’utente (in base al valore memorizzato in `profile.favoritebrand` nel profilo del visitatore).
 
 ![Marchio preferito](/help/main/c-recommendations/c-algorithms/assets/favorite-brand.png)
 

@@ -1,26 +1,23 @@
 ---
 keywords: pubblico;regole del pubblico;creare pubblico;creazione pubblico
-description: Scopri come creare tipi di pubblico personalizzati e salvarli nella libreria  [!DNL Adobe Target] [!UICONTROL Audiences] per utilizzarli nelle attività.
+description: Scopri come creare tipi di pubblico personalizzati e salvarli nella libreria  [!DNL Adobe Target] [!UICONTROL Tipi di pubblico] per utilizzarli nelle attività.
 title: Come Si Creano I Tipi Di Pubblico?
 feature: Audiences
 exl-id: 59057461-d958-4d38-9725-53aacbe1f7eb
 TQID: https://experienceleague.adobe.com/-t5UqbGCl2EwCyScCq1B8X9bWxQQYWSd0e7RBoUoYQg
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 525
-ht-degree: 48%
+source-wordcount: 538
+ht-degree: 47%
 
 ---
 
 # Crea tipi di pubblico in [!DNL Target]
 
-Creare tipi di pubblico personalizzati e salvarli nella libreria [!UICONTROL Audiences] di [!DNL Adobe Target] per utilizzarli nelle attività. Puoi anche copiare un pubblico esistente da modificare per crearne uno simile e combinare più tipi di pubblico.
+Crea tipi di pubblico personalizzati e salvali nella libreria [!DNL Adobe Target] [!UICONTROL Tipi di pubblico] per utilizzarli nelle attività. Puoi anche copiare un pubblico esistente da modificare per crearne uno simile e combinare più tipi di pubblico.
 
 ## Panoramica sul pubblico
 
@@ -42,15 +39,15 @@ Ad esempio, la regola seguente è destinata ai visitatori che utilizzano [!DNL C
 
 ## Creare un tipo di pubblico
 
-1. Fare clic su **[!UICONTROL Audiences]** nella barra dei menu superiore.
+1. Fai clic su **[!UICONTROL Tipi di pubblico]** nella barra dei menu superiore.
 
    ![immagine dell&#39;elenco dei tipi di pubblico](assets/audiences_list.png)
 
-1. Dall&#39;elenco [!UICONTROL Audiences], fare clic su **[!UICONTROL Create Audience]**.
+1. Nell&#39;elenco [!UICONTROL Tipi di pubblico] fare clic su **[!UICONTROL Crea pubblico]**.
 
    Oppure
 
-   Per copiare un pubblico esistente, dall&#39;elenco [!UICONTROL Audiences], fare clic sull&#39;icona **[!UICONTROL More Actions]** ( ![icona Altre azioni](/help/main/assets/icons/MoreSmallListVert.svg) ) per il pubblico da copiare, quindi fare clic su **[!UICONTROL Duplicate]**. Ora puoi modificare il pubblico per crearne uno simile.
+   Per copiare un pubblico esistente, dall&#39;elenco [!UICONTROL Tipi di pubblico] fare clic sull&#39;icona **[!UICONTROL Altre azioni]** ( ![Altre azioni](/help/main/assets/icons/MoreSmallListVert.svg) ) per il pubblico da copiare, quindi fare clic su **[!UICONTROL Duplica]**. Ora puoi modificare il pubblico per crearne uno simile.
 
 1. Digita un nome descrittivo e univoco per il pubblico e una descrizione facoltativa.
 
@@ -62,7 +59,7 @@ Ad esempio, la regola seguente è destinata ai visitatori che utilizzano [!DNL C
 
    `;=  ;+  ;-  ;@  ,=  ,+  ,-  ,@  ["  "]  ['  ]'`
 
-1. Trascina e rilascia gli attributi desiderati dall&#39;elenco **[!UICONTROL Attributes]** a sinistra al riquadro generatore di pubblico.
+1. Trascina e rilascia gli attributi desiderati dall&#39;elenco **[!UICONTROL Attributi]** a sinistra nel riquadro generatore di pubblico.
 
    ![Trascina e rilascia gli attributi](assets/drag-attribute.png)
 
@@ -76,9 +73,9 @@ Ad esempio, la regola seguente è destinata ai visitatori che utilizzano [!DNL C
 
 1. (Condizionale) Continua ad aggiungere e definire gli attributi desiderati.
 
-   Per creare un altro contenitore, fare clic su **[!UICONTROL Add container]** o trascinare un altro attributo nel riquadro Audience Builder. È quindi possibile regolare l’operatore (AND o OR) utilizzando l’elenco a discesa.
+   Per creare un altro contenitore, fai clic su **[!UICONTROL Aggiungi contenitore]** o trascina semplicemente un altro attributo nel riquadro Audience Builder. È quindi possibile regolare l’operatore (AND o OR) utilizzando l’elenco a discesa.
 
-1. Fare clic su **[!UICONTROL Done]**.
+1. Fai clic su **[!UICONTROL Fine]**.
 
    Il pubblico appena creato viene visualizzato nell&#39;elenco dopo alcuni secondi di ritardo dovuti all&#39;elaborazione. Se il pubblico non viene visualizzato immediatamente nell&#39;elenco, prova a cercarlo o ad aggiornare l&#39;elenco.
 

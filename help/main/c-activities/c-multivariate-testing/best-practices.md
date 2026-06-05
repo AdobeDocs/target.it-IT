@@ -1,24 +1,22 @@
 ---
 keywords: mvt;test multivariato;best practice per test multivariato;procedure consigliate mvt;combinazioni mvt;rapporti mvt
-description: Scopri come migliorare le prestazioni, evitare problemi e correggere problemi noti che potrebbero verificarsi durante la creazione ed esecuzione di [!UICONTROL Multivariate Test] attività in [!DNL Adobe Target].
-title: Quali sono le best practice per un'attività [!UICONTROL Multivariate Test]?
+description: Scopri come migliorare le prestazioni, evitare problemi e correggere problemi noti che potrebbero verificarsi durante la creazione ed esecuzione di [!UICONTROL attività Test multivariato] in [!DNL Adobe Target].
+title: Quali sono le best practice per un'attività [!UICONTROL Test multivariato]?
 feature: Multivariate Tests
 exl-id: bcd15517-1b5f-4425-9404-1d7dd0689e28
 TQID: https://experienceleague.adobe.com/nQEf5GZ8-zVZakygPtMAYWk-xoJPdcycFbzCNKTqJ-k
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 611
-ht-degree: 57%
+source-wordcount: 625
+ht-degree: 55%
 
 ---
 
-# [!UICONTROL Multivariate Test] best practice
+# [!UICONTROL Best practice per il test multivariato]
 
-Suggerimenti per migliorare le prestazioni, evitare problemi e correggere problemi noti che potrebbero verificarsi durante la creazione ed esecuzione di attività [!UICONTROL Multivariate Test] (MVT) in [!DNL Adobe Target].
+Suggerimenti per migliorare le prestazioni, evitare problemi e correggere problemi noti che potrebbero verificarsi durante la creazione ed esecuzione di [!UICONTROL attività Test multivariato] (MVT) in [!DNL Adobe Target].
 
 ## Pianificare {#section_4D4A1F6226F042379BF48DB753608579}
 
@@ -52,9 +50,9 @@ Suggerimenti per migliorare le prestazioni, evitare problemi e correggere proble
 ## Analizzare {#section_9A2118CF1039451681C13D9AE79A58AB}
 
 * Utilizza spesso il [rapporto Contributo posizione](/help/main/c-reports/multivariate-test-reports/location-contribution-report.md) per monitorare le prestazioni di ogni posizione e offerta.
-* Nel [rapporto Prestazioni esperienza](/help/main/c-reports/multivariate-test-reports/experience-performance-report.md), basa le tue decisioni sui dati visualizzati utilizzando i filtri [!UICONTROL Best 5] e [!UICONTROL Worst 5].
+* Nel [rapporto Prestazioni esperienza](/help/main/c-reports/multivariate-test-reports/experience-performance-report.md), basa le tue decisioni sui dati mostrati utilizzando i filtri [!UICONTROL Migliori 5] e [!UICONTROL Peggiori 5].
 
-  Il filtro [!UICONTROL All] rende difficile estrarre le informazioni desiderate ed è possibile che nel grafico non vengano visualizzate tutte le esperienze. Utilizza il filtro [!UICONTROL All] per trovare un&#39;esperienza specifica che non rientri tra le cinque migliori o peggiori.
+  Il filtro [!UICONTROL All] rende difficile estrarre le informazioni desiderate ed è possibile che nel grafico non vengano visualizzate tutte le esperienze. Utilizza il filtro [!UICONTROL Tutti] per trovare un&#39;esperienza specifica che non rientri tra le cinque migliori o peggiori.
 
 ## Eseguire il followup {#section_1C44A767F6AB4441A3EAA8AC995F46B0}
 

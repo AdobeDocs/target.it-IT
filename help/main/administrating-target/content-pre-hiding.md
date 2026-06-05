@@ -8,7 +8,7 @@ badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.c
 hide: true
 source-git-commit: 77741253fdfb007d0eda0c57fe293df2f9c638a2
 workflow-type: tm+mt
-source-wordcount: '576'
+source-wordcount: '624'
 ht-degree: 3%
 
 ---
@@ -29,13 +29,13 @@ Ecco come funziona il pre-hiding del contenuto, dall’impostazione predefinita 
 
 1. Aggiungi la libreria per nascondere contenuti a `<head>` di tutte le pagine in cui esegui attività di personalizzazione.
 
-1. [!DNL Target] crea un set di regole dalle attività live [!UICONTROL Visual Experience Composer] e [!UICONTROL Enhanced Experience Composer]. Il set di regole elenca i selettori e le aree che la consegna può modificare.
+1. [!DNL Target] crea un set di regole dalle attività live di [!UICONTROL Compositore esperienza visivo] e [!UICONTROL Compositore esperienza avanzato]. Il set di regole elenca i selettori e le aree che la consegna può modificare.
 
-   [!UICONTROL Form-Based Composer] attività non sono supportate.
+   [!UICONTROL Le attività del Compositore basato su moduli] non sono supportate.
 
 1. La libreria recupera tale set di regole dalla rete CDN di Adobe e nasconde preventivamente gli elementi corrispondenti solo durante il caricamento del contenuto personalizzato.
 
-1. In **[!UICONTROL Goals & Settings]**, è possibile disabilitare **[!UICONTROL Content pre-hiding]** per le singole attività, ma solo se è abilitato a livello di account. [Ulteriori informazioni](#content-pre-hiding-activity)
+1. In **[!UICONTROL Obiettivi e impostazioni]**, puoi disabilitare **[!UICONTROL Contenuto pre-hiding]** per singole attività, ma solo se è abilitato a livello di account. [Ulteriori informazioni](#content-pre-hiding-activity)
 
 ## Abilita pre-hiding del contenuto per l’istanza {#content-pre-hiding-enable-account}
 
@@ -43,19 +43,19 @@ Ecco come funziona il pre-hiding del contenuto, dall’impostazione predefinita 
 >
 >Per abilitare il contenuto per l&#39;istanza, è necessario essere un **amministratore**.
 
-Il pre-hiding del contenuto è disattivato per la tua istanza fino a quando non lo abiliti. Utilizza **[!UICONTROL Administration]** > **[!UICONTROL Implementation]** per attivare la funzione, impostare le impostazioni predefinite e accedere al download per il team di implementazione.
+Il pre-hiding del contenuto è disattivato per la tua istanza fino a quando non lo abiliti. Utilizza **[!UICONTROL Amministrazione]** > **[!UICONTROL Implementazione]** per attivare la funzione, impostare le impostazioni predefinite e accedere al download per il team di implementazione.
 
-1. In [!DNL Target], fare clic su **[!UICONTROL Administration]** > **[!UICONTROL Implementation]**.
+1. In [!DNL Target], fare clic su **[!UICONTROL Amministrazione]** > **[!UICONTROL Implementazione]**.
 
-1. Dal menu **[!UICONTROL Content pre-hiding]**, abilita l&#39;opzione di pre-hiding del contenuto.
+1. Dal menu **[!UICONTROL Contenuto pre-hiding]**, abilita opzione di pre-hiding del contenuto.
 
    ![](assets/content-pre-hiding-1.png)
 
-1. Se necessario, aggiornare **[!UICONTROL Pre-hiding timeout]** in secondi.
+1. Se necessario, aggiorna **[!UICONTROL Timeout per nascondere anticipatamente]** in secondi.
 
-1. Fare clic su **[!UICONTROL Save]**. Questo applicherà le impostazioni di gestione della visualizzazione momentanea di altri contenuti all’istanza.
+1. Fai clic su **[!UICONTROL Salva]**. Questo applicherà le impostazioni di gestione della visualizzazione momentanea di altri contenuti all’istanza.
 
-1. Una volta attivato, fare clic su **[!UICONTROL Download]**, quindi aggiungere il file alla pagina `<head>` in modo che venga caricato prima di [!DNL at.js] o di [!DNL Web SDK]. Per istruzioni complete sull&#39;implementazione, vedere [Contenuto che nasconde preventivamente SDK](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/prehide-sdk).
+1. Una volta attivato, fare clic su **[!UICONTROL Scarica]**, quindi aggiungere il file alla pagina `<head>` in modo che venga caricato prima di [!DNL at.js] o di [!DNL Web SDK]. Per istruzioni complete sull&#39;implementazione, vedere [Contenuto che nasconde preventivamente SDK](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/prehide-sdk).
 
    ![](assets/content-pre-hiding-2.png)
 
@@ -63,23 +63,23 @@ La tua istanza ora utilizza le impostazioni predefinite per il pre-hiding e il t
 
 ## Abilita pre-hiding dei contenuti per l&#39;attività {#content-pre-hiding-activity}
 
-Con il pre-hiding abilitato per la tua istanza, scegli se ogni attività lo utilizza in **[!UICONTROL Goals & Settings]**. Le attività per le quali si abilita il pre-hiding sono incluse nel comportamento di destinazione quando sono live.
+Con il pre-hiding abilitato per la tua istanza, scegli se ciascuna attività lo utilizza in **[!UICONTROL Obiettivi e impostazioni]**. Le attività per le quali si abilita il pre-hiding sono incluse nel comportamento di destinazione quando sono live.
 
-[!DNL Target] crea quindi un set di regole leggere dalle attività live create in [!UICONTROL Visual Experience Composer] (VEC) e [!UICONTROL Form-Based Composer], descrivendo i selettori e le aree che la consegna può modificare.
+[!DNL Target] crea quindi un set di regole leggere dalle attività live create nel [!UICONTROL Compositore esperienza visivo] (VEC) e nel [!UICONTROL Compositore basato su moduli], descrivendo i selettori e le aree che la consegna può modificare.
 
 Quando crei o modifichi un’attività:
 
 1. Accedi all’attività per abilitare l’opzione di pre-hiding.
 
-1. Accedere al menu a discesa **[!UICONTROL Edit activity]** e selezionare **[!UICONTROL Edit Goals & Settings]**.
+1. Accedi al menu a discesa **[!UICONTROL Modifica attività]** e seleziona **[!UICONTROL Modifica obiettivi e impostazioni]**.
 
    ![](assets/content-pre-hiding-3.png)
 
-1. Dal menu **[!UICONTROL Content pre-hiding]**, attiva l&#39;opzione **[!UICONTROL Enable content pre-hiding]** per attivare o disattivare il pre-hiding per questa attività.
+1. Dal menu **[!UICONTROL Contenuto pre-hiding]**, attiva l&#39;opzione **[!UICONTROL Abilita pre-hiding del contenuto]** per attivare o disattivare questa attività di pre-hiding.
 
    ![](assets/content-pre-hiding-4.png)
 
-1. Al termine, fare clic su **[!UICONTROL Save & Close]**.
+1. Al termine, fai clic su **[!UICONTROL Salva e chiudi]**.
 
 Dopo il salvataggio e quando le attività vengono pubblicate o disattivate, il set di regole viene aggiornato in modo che il pre-hiding rimanga allineato con ciò che viene effettivamente consegnato, senza modifiche al codice della pagina per ogni lancio.
 

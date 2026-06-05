@@ -5,26 +5,17 @@ title: Cosa Sono Le Metriche Di Successo?
 feature: Success Metrics
 exl-id: 38d5314d-4950-4106-a058-0d221faf5a24
 TQID: https://experienceleague.adobe.com/utsuikYtBrKHv0bbdIu1KmlFyjXMgoC-2yaOP3-QJr8
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: c93393a4-e558-47e1-992e-c91ed4d480ce
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5520579-b31f-4df7-9281-f0d9f91e2edcid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 1374
-ht-degree: 22%
+source-wordcount: 1502
+ht-degree: 20%
 
 ---
 
-# [!UICONTROL Success metrics]
+# [!UICONTROL Metriche di successo]
 
 Le metriche di successo in [!DNL Adobe Target] sono indicatori chiave che consentono di misurare le prestazioni delle attività. Queste metriche acquisiscono risultati di business importanti, come conversioni, ricavi per visitatore e coinvolgimento dei clienti, consentendoti di valutare l’impatto di esperienze o offerte specifiche.
 
@@ -34,21 +25,21 @@ Ad esempio, puoi tenere traccia se una nuova promozione aumenta i ricavi per vis
 
 In [!DNL Target], le metriche di successo sono preconfigurate con le impostazioni consigliate per garantire un reporting accurato e un tracciamento efficace.
 
-Per impostazione predefinita, gli eventi di conversione utilizzano l&#39;impostazione **[!UICONTROL Increment count & keep user in activity].** Questa impostazione significa che ogni visitatore viene conteggiato come conversione una sola volta. Non vengono conteggiate conversioni ripetute. Questi visitatori continuano a visualizzare il contenuto dell’attività per tutta la sessione.
+Per impostazione predefinita, gli eventi di conversione utilizzano l&#39;impostazione **[!UICONTROL Incrementa il conteggio e mantieni l&#39;utente nell&#39;attività].** Questa impostazione significa che ogni visitatore viene conteggiato come conversione una sola volta. Non vengono conteggiate conversioni ripetute. Questi visitatori continuano a visualizzare il contenuto dell’attività per tutta la sessione.
 
-Per le metriche dei ricavi che utilizzano la stessa impostazione, solo il primo ordine di un visitatore registra i dettagli dell’ordine. Anche se gli ordini successivi aumentano il conteggio delle conversioni, non contribuiscono alle metriche basate sui ricavi come [!UICONTROL Revenue per Visitor (RPV)], [!UICONTROL Average Order Value (AOV)] o [!DNL Total Sales]. Anche questi ordini aggiuntivi sono esclusi dal report [!UICONTROL Order Details].
+Per le metriche dei ricavi che utilizzano la stessa impostazione, solo il primo ordine di un visitatore registra i dettagli dell’ordine. Anche se gli ordini successivi aumentano il conteggio delle conversioni, non contribuiscono a metriche basate sui ricavi come [!UICONTROL Ricavo per visitatore (RPV)], [!UICONTROL Valore medio dell&#39;ordine (AOV)] o [!DNL Total Sales]. Anche questi ordini aggiuntivi sono esclusi dal report [!UICONTROL Dettagli ordine].
 
 >[!NOTE]
 >
->Per le attività che utilizzano [Analytics come origine per la generazione di rapporti](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T), la metrica di obiettivo utilizza sempre le impostazioni &quot;[!UICONTROL Increment Count & Keep User in Activity]&quot; e &quot;[!UICONTROL On Every Impression]&quot;. Queste impostazioni sono *non* configurabili.
+>Per le attività che utilizzano [Analytics come origine per la generazione di rapporti](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T), la metrica di obiettivo utilizza sempre le impostazioni &quot;[!UICONTROL Incrementa il conteggio e mantieni l&#39;utente nell&#39;attività]&quot; e &quot;[!UICONTROL Su ogni impression]&quot;. Queste impostazioni sono *non* configurabili.
 
-Le metriche di successo seguenti possono essere configurate nella sezione [!UICONTROL Reporting Settings] di [!UICONTROL Activity Settings page], nel passaggio [!UICONTROL Goals & Settings]:
+Le metriche di successo seguenti possono essere configurate nella sezione [!UICONTROL Impostazioni reporting] della [!UICONTROL pagina Impostazioni attività], nel passaggio [!UICONTROL Obiettivi e impostazioni]:
 
 | Metrica di successo | Approccio di misurazione | Definizione |
 |--- |--- |--- |
-| [!UICONTROL Conversion] | Basato su conversione | La conversione si verifica quando un visitatore esegue sul tuo sito un’azione da te definita, ad esempio <ul><li>Visualizzazione di una pagina</li><li>Visualizzazione di una mbox</li><li>Clic su un elemento</li></ul>Una conversione può essere conteggiata una volta per visitatore o ogni volta che un visitatore completa una conversione. |
-| [!UICONTROL Revenue] | Basato su conversione | Ricavi generati dalla visita. Puoi scegliere una sola metrica di ricavo:<ul><li>Visualizzazione di una mbox</li></ul>Per ulteriori informazioni sulle modifiche apportate all&#39;interfaccia utente aggiornata di [!DNL Target] in relazione alle metriche di successo per le entrate, vedi [Aggiornato [!DNL Target] Modifiche all&#39;interfaccia utente](#changes) di seguito. |
-| [!UICONTROL Engagement] | Basato su coinvolgimento | Coinvolgimento generato dalla visita. Puoi scegliere una delle metriche di coinvolgimento seguenti:<UL><li>Visualizzazioni di pagina: ogni visita univoca viene conteggiata come conversione.</li><li>[!UICONTROL Custom Scoring]: Punteggio aggregato basato sul valore assegnato alle pagine visitate sul sito, dal momento in cui il visitatore vede per la prima volta la prima richiesta [!DNL Target] di visualizzazione dell&#39;attività.</li>[!DNL Time on Site]: tempo trascorso nella visita (in secondi) dal momento in cui il visitatore vede la prima richiesta di visualizzazione [!DNL Target] dell&#39;attività al caricamento della pagina finale con una richiesta nella sessione.</UL> |
+| [!UICONTROL Conversione] | Basato su conversione | La conversione si verifica quando un visitatore esegue sul tuo sito un’azione da te definita, ad esempio <ul><li>Visualizzazione di una pagina</li><li>Visualizzazione di una mbox</li><li>Clic su un elemento</li></ul>Una conversione può essere conteggiata una volta per visitatore o ogni volta che un visitatore completa una conversione. |
+| [!UICONTROL Ricavi] | Basato su conversione | Ricavi generati dalla visita. Puoi scegliere una sola metrica di ricavo:<ul><li>Visualizzazione di una mbox</li></ul>Per ulteriori informazioni sulle modifiche apportate all&#39;interfaccia utente aggiornata di [!DNL Target] in relazione alle metriche di successo per le entrate, vedi [Aggiornato [!DNL Target] Modifiche all&#39;interfaccia utente](#changes) di seguito. |
+| [!UICONTROL Coinvolgimento] | Basato su coinvolgimento | Coinvolgimento generato dalla visita. Puoi scegliere una delle metriche di coinvolgimento seguenti:<UL><li>Visualizzazioni di pagina: ogni visita univoca viene conteggiata come conversione.</li><li>[!UICONTROL Punteggio personalizzato]: Punteggio aggregato basato sul valore assegnato alle pagine visitate sul sito, dal momento in cui il visitatore vede per la prima volta la prima richiesta [!DNL Target] di visualizzazione dell&#39;attività.</li>[!DNL Time on Site]: tempo trascorso nella visita (in secondi) dal momento in cui il visitatore vede la prima richiesta di visualizzazione [!DNL Target] dell&#39;attività al caricamento della pagina finale con una richiesta nella sessione.</UL> |
 
 Per le metriche basate sul coinvolgimento (a differenza delle metriche basate sulla conversione e sui ricavi), i visitatori devono riqualificarsi per l’attività in ogni visita per incrementare il conteggio per quella sessione. La metrica associata inizia ad aumentare dopo la riqualificazione e termina alla fine di ogni sessione del visitatore. Una visita termina dopo 30 minuti di inattività. Pertanto, non vedrai immediatamente i risultati durante il test; tuttavia, tutti i risultati di quella sessione sono disponibili entro pochi minuti dalla fine della sessione.
 
@@ -56,27 +47,27 @@ Per le metriche basate sul coinvolgimento (a differenza delle metriche basate su
 
 Inoltre puoi creare metriche di successo personalizzate.
 
-Dopo aver selezionato la metrica di successo, seleziona l’azione eseguita da un visitatore per raggiungere l’obiettivo. Ad esempio, scegli una metrica [!UICONTROL Conversion], impostala per essere conteggiata una volta per visitatore, quindi imposta se viene raggiunto il successo quando un visitatore visualizza una determinata pagina (o set di pagine), visualizza una richiesta [!DNL Target] specifica o fa clic su un collegamento specifico.
+Dopo aver selezionato la metrica di successo, seleziona l’azione eseguita da un visitatore per raggiungere l’obiettivo. Ad esempio, scegli una metrica di [!UICONTROL conversione], impostala per essere conteggiata una volta per visitatore e imposta se il risultato viene raggiunto quando un visitatore visualizza una determinata pagina (o set di pagine), visualizza una richiesta [!DNL Target] specifica o fa clic su un collegamento specifico.
 
-Se attivato, il campo [!UICONTROL Estimated Value of one conversion] (non disponibile per le metriche [!UICONTROL Page Score]) fornisce un valore per l&#39;obiettivo, ma non per altre metriche. Questo valore consente a [!DNL Target] di calcolare un incremento stimato dei ricavi. Questo campo è facoltativo; tuttavia, i ricavi incrementali per eventuali metriche non collegate ai ricavi non possono essere calcolate senza di esso. Per tutte le metriche ricavi ([!UICONTROL Revenue per Visitor], [!UICONTROL Average Order Value], [!UICONTROL Total Sales] e [!UICONTROL Orders]), la stima utilizza [!UICONTROL Revenue per Visitor]. Il tipo di dati è valuta. Consulta [Stima dell’incremento dei ricavi](/help/main/administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md) per maggiori informazioni.
+Se attivato, il campo [!UICONTROL Valore stimato di una conversione] (non disponibile per le metriche [!UICONTROL Punteggio di pagina]) fornisce un valore per l&#39;obiettivo, ma non per altre metriche. Questo valore consente a [!DNL Target] di calcolare un incremento stimato dei ricavi. Questo campo è facoltativo; tuttavia, i ricavi incrementali per eventuali metriche non collegate ai ricavi non possono essere calcolate senza di esso. Per tutte le metriche relative ai ricavi ([!UICONTROL Ricavi per visitatore], [!UICONTROL Valore medio ordine], [!UICONTROL Vendite totali] e [!UICONTROL Ordini]), la stima utilizza [!UICONTROL Ricavi per visitatore]. Il tipo di dati è valuta. Consulta [Stima dell’incremento dei ricavi](/help/main/administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md) per maggiori informazioni.
 
 Le metriche di successo scelte per l’attività sono disponibili nelle impostazioni del rapporto quando si visualizza un rapporto per l’attività.
 
-Alcune metriche, come [!UICONTROL Custom Scoring] e [!UICONTROL Revenue Per Visitor], richiedono un&#39;implementazione personalizzata che trasmette informazioni, come i totali degli ordini e gli ID degli ordini.
+Alcune metriche, come [!UICONTROL Punteggio personalizzato] e [!UICONTROL Ricavo per visitatore], richiedono un&#39;implementazione personalizzata che trasmette le informazioni, ad esempio i totali degli ordini e gli ID degli ordini.
 
 ## Impostazioni avanzate {#section_7CE95A2FA8F5438E936C365A6D43BC5B}
 
 Con le impostazioni avanzate puoi gestire il modo in cui viene misurato il successo. Le opzioni includono l’aggiunta delle dipendenze, la scelta di mantenere l’utente nell’attività o rimuoverlo e se contare la metrica una volta per partecipante o su ogni impression.
 
-Per accedere alle opzioni [!UICONTROL Advanced Settings], fai clic sull&#39;icona **[!UICONTROL More Actions]** ( ![Icona Altre azioni](/help/main/assets/icons/MoreSmallListVert.svg) ), quindi fai clic su **[!UICONTROL Advanced Settings]**.
+Per accedere alle opzioni [!UICONTROL Impostazioni avanzate], fai clic sull&#39;icona **[!UICONTROL Altre azioni]** (![Altre azioni](/help/main/assets/icons/MoreSmallListVert.svg) ), quindi fai clic su **[!UICONTROL Impostazioni avanzate]**.
 
 ![Menu Impostazioni avanzate](/help/main/c-activities/r-success-metrics/assets/advanced-settings-refresh.png)
 
-Per ulteriori informazioni sulle opzioni [!UICONTROL Advanced Settings] (&quot;[!UICONTROL What will happen after a user encounters this goal]&quot; e &quot;[!UICONTROL How will the count be incremented]&quot;) vedere [Cosa succede dopo che un utente rileva questa metrica obiettivo](#what-happens)?
+Per ulteriori informazioni sulle opzioni [!UICONTROL Impostazioni avanzate] (&quot;[!UICONTROL Cosa succederà dopo che un utente avrà raggiunto questo obiettivo]&quot; e &quot;[!UICONTROL Come verrà incrementato il conteggio]&quot;) vedi [Cosa succede dopo che un utente ha trovato questa metrica di obiettivo](#what-happens)?
 
 >[!NOTE]
 >
->Se utilizzi [!DNL Adobe Analytics] come origine per la generazione dei rapporti, le impostazioni vengono gestite dal server [!DNL Analytics]. Opzione [!UICONTROL Advanced Settings] non disponibile. Per ulteriori informazioni, vedere [Adobe Analytics come origine per la generazione di rapporti per Adobe Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md).
+>Se utilizzi [!DNL Adobe Analytics] come origine per la generazione dei rapporti, le impostazioni vengono gestite dal server [!DNL Analytics]. Opzione [!UICONTROL Impostazioni avanzate] non disponibile. Per ulteriori informazioni, vedere [Adobe Analytics come origine per la generazione di rapporti per Adobe Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md).
 
 ### Aggiungi dipendenza
 
@@ -86,7 +77,7 @@ Ad esempio, potresti rendere valida una conversione di test solo se un visitator
 
 La funzionalità di dipendenza *non* è supportata per:
 
-* [!UICONTROL Recommendations] attività. Questa funzionalità è supportata da tutti gli altri tipi di attività.
+* [!UICONTROL Attività Recommendations]. Questa funzionalità è supportata da tutti gli altri tipi di attività.
 * Se utilizzi [Analytics come origine per la generazione di rapporti](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T).
 * Il tipo di metrica &quot;Visualizzazione di una pagina&quot;.
 * Il tipo di metrica &quot;Clic su un elemento&quot; per le attività del Compositore esperienza visivo.
@@ -94,7 +85,7 @@ La funzionalità di dipendenza *non* è supportata per:
 Le metriche di successo dipendenti non vengono convertite nei casi seguenti:
 
 * Se crei una dipendenza circolare in cui metric1 dipende da metric2 e metric2 dipende da metric1, nessuna delle due metriche viene convertita.
-* Le attività [!UICONTROL Automated Personalization] rilasciano gli utenti e riavviano l&#39;attività quando vengono raggiunte le metriche di conversione, pertanto le metriche dipendenti dalla metrica di conversione non vengono convertite.
+* Le attività di [!UICONTROL Automated Personalization] rilasciano gli utenti e riavviano l&#39;attività quando vengono raggiunte le metriche di conversione, pertanto le metriche dipendenti dalla metrica di conversione non vengono convertite.
 
 ### Cosa accade dopo che un utente incontra questa metrica per obiettivo? {#what-happens}
 
@@ -102,13 +93,13 @@ Utilizza le impostazioni avanzate per determinare cosa succede dopo che un utent
 
 | Quando un utente raggiunge la metrica obiettivo | Opzioni |
 |--- |--- |
-| [!UICONTROL Increment Count & Keep User in Activity] | Specifica come viene incrementato il conteggio:<ul><li>Una volta per partecipante (impostazione predefinita)</li><li>A ogni impression, escluso l’aggiornamento della pagina</li><li>A ogni impression</li></ul> |
-| [!UICONTROL Increment Count, Release user, & Allow Reentry] | Seleziona l’esperienza che il visitatore vede se accede nuovamente all’attività:<ul><li>Stessa esperienza (impostazione predefinita)</li><li>Esperienza casuale</li><li>Esperienza non visualizzata</li></ul> |
-| [!UICONTROL Increment Count, Release User, & Bar from Reentry] | Determina ciò che l’utente vede al posto del contenuto dell’attività:<ul><li>Stessa esperienza, senza tracciamento (impostazione predefinita)</li><li>Contenuto predefinito o contenuto di altra attività</li></ul> |
+| [!UICONTROL Incrementa il conteggio e mantieni utente attivo] | Specifica come viene incrementato il conteggio:<ul><li>Una volta per partecipante (impostazione predefinita)</li><li>A ogni impression, escluso l’aggiornamento della pagina</li><li>A ogni impression</li></ul> |
+| [!UICONTROL Incrementa il conteggio, rilascia l&#39;utente e consenti nuovo accesso] | Seleziona l’esperienza che il visitatore vede se accede nuovamente all’attività:<ul><li>Stessa esperienza (impostazione predefinita)</li><li>Esperienza casuale</li><li>Esperienza non visualizzata</li></ul> |
+| [!UICONTROL Incrementa il conteggio, rilascia l&#39;utente e impedisci nuovo accesso] | Determina ciò che l’utente vede al posto del contenuto dell’attività:<ul><li>Stessa esperienza, senza tracciamento (impostazione predefinita)</li><li>Contenuto predefinito o contenuto di altra attività</li></ul> |
 
 >[!NOTE]
 >
->Se configuri una metrica in una delle opzioni [!UICONTROL Increment Count] (menzionate sopra), il conteggio delle metriche viene incrementato correttamente una volta per partecipante solo a livello di visitatore. Il conteggio delle metriche incrementa una volta per visita per ogni nuova sessione a livello di visita.
+>Se configuri una metrica in una delle opzioni [!UICONTROL Conteggio incrementi] (menzionato sopra), il conteggio della metrica incrementa correttamente una volta per partecipante solo a livello di visitatore. Il conteggio delle metriche incrementa una volta per visita per ogni nuova sessione a livello di visita.
 
 ### Come viene incrementato il conteggio:
 
@@ -126,12 +117,12 @@ Scegli il comportamento desiderato:
 
 ## [!DNL Target] modifiche all&#39;interfaccia utente aggiornate {#changes}
 
-La versione [[!DNL Target Standard/Premium] 25.2.1](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-2), avviata il 17 febbraio 2015, ha introdotto [!DNL Target] e [!UICONTROL Visual Experience Composer] UI (VEC) aggiornate. Questa sezione illustra le differenze chiave tra l’interfaccia utente legacy e quella aggiornata, in particolare per quanto riguarda la configurazione e la gestione delle metriche di successo.
+La versione [[!DNL Target Standard/Premium] 25.2.1](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-2), avviata il 17 febbraio 2015, ha introdotto [!DNL Target] e [!UICONTROL Interfaccia utente del Compositore esperienza visivo] aggiornate. Questa sezione illustra le differenze chiave tra l’interfaccia utente legacy e quella aggiornata, in particolare per quanto riguarda la configurazione e la gestione delle metriche di successo.
 
-### Modifiche all&#39;interfaccia utente relative a [!UICONTROL Revenue] metriche di successo
+### Modifiche all&#39;interfaccia utente relative alle metriche di successo [!UICONTROL Ricavi]
 
-Nell&#39;interfaccia [!DNL Target] aggiornata, il menu a discesa [!UICONTROL Default View for Reporting] è stato rimosso. Questo campo era ridondante, in quanto in precedenza salvava la visualizzazione di reporting predefinita in [!DNL Overview] > [!UICONTROL Reports] nell&#39;interfaccia utente legacy.
+Nell&#39;interfaccia aggiornata di [!DNL Target], l&#39;elenco a discesa [!UICONTROL Visualizzazione predefinita per i report] è stato rimosso. Questo campo era ridondante in quanto in precedenza aveva salvato la visualizzazione di reporting predefinita in [!DNL Overview] > [!UICONTROL Rapporti] nell&#39;interfaccia utente legacy.
 
-Con l&#39;interfaccia utente aggiornata, la metrica di reporting predefinita ora è sempre impostata su [!UICONTROL Revenue per Visitor (RPV)]. È comunque possibile personalizzare la visualizzazione nella sezione [!UICONTROL Reports] per visualizzare le metriche più rilevanti per l&#39;analisi.
+Con l&#39;interfaccia utente aggiornata, la metrica di reporting predefinita ora è sempre impostata su [!UICONTROL Ricavo per visitatore (RPV)]. Puoi comunque personalizzare la visualizzazione nella sezione [!UICONTROL Rapporti] per visualizzare le metriche più rilevanti per l&#39;analisi.
 
-Questa modifica non influisce sulle metriche di consegna. Questa modifica influisce solo sul filtro predefinito visualizzato nella visualizzazione di reporting. Poiché RPV è la metrica più comunemente utilizzata dai clienti, questa impostazione predefinita è stata selezionata per semplificare i flussi di lavoro di reporting. È possibile passare ad altre metriche in qualsiasi momento nella sezione [!UICONTROL Reports].
+Questa modifica non influisce sulle metriche di consegna. Questa modifica influisce solo sul filtro predefinito visualizzato nella visualizzazione di reporting. Poiché RPV è la metrica più comunemente utilizzata dai clienti, questa impostazione predefinita è stata selezionata per semplificare i flussi di lavoro di reporting. Puoi passare ad altre metriche in qualsiasi momento nella sezione [!UICONTROL Rapporti].

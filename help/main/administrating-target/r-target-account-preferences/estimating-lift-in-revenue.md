@@ -6,18 +6,13 @@ feature: Administration & Configuration
 role: Admin
 exl-id: a3c5e20e-f5d5-4b6f-b169-59d5916584ab
 TQID: https://experienceleague.adobe.com/eWWLgz5vRvlFKz5k52nASWHGRx4uzbxbPqcWD8sSzBE
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 534
-ht-degree: 85%
+source-wordcount: 536
+ht-degree: 84%
 
 ---
 
@@ -27,7 +22,7 @@ Utilizza [!DNL Adobe Target] per stimare l&#39;incremento dei ricavi potenziali 
 
 >[!NOTE]
 >
->L&#39;incremento stimato non è al momento disponibile per le attività [!UICONTROL Experience Targeting] (XT).
+>L&#39;incremento stimato non è al momento disponibile per le attività [!UICONTROL Targeting esperienza] (XT).
 
 La funzione per la stima dell’incremento è disattivata per impostazione predefinita. Può essere attivata nelle preferenze dell’account. Solo gli utenti amministratore di Experience Cloud possono abilitare o disabilitare questa funzione. Se la stima dell’incremento è disattivata, i campi corrispondenti non vengono visualizzati nell’interfaccia. La disattivazione della funzione non si traduce in una perdita di dati, compresi i dati utilizzati per le stime. Le stime si basano sui dati raccolti indipendentemente dallo stato di attivazione della funzione.
 

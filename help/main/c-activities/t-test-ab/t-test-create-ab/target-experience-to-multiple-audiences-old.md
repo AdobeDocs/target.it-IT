@@ -6,14 +6,14 @@ feature: A/B Tests
 exl-id: 7afe36f0-ec46-4d63-bfff-45d2c8923a04
 source-git-commit: eb7e892a85fa3952ffc22172085d421756d0dfb5
 workflow-type: tm+mt
-source-wordcount: '590'
-ht-degree: 53%
+source-wordcount: '608'
+ht-degree: 51%
 
 ---
 
 # Esperienza con più tipi di pubblico un testo A/B
 
-È possibile indirizzare le versioni della stessa esperienza a tipi di pubblico diversi nelle attività A/B di [!DNL Adobe Target]. È possibile impostare più tipi di pubblico per un&#39;esperienza nel [!UICONTROL Visual Experience Composer] (VEC) o nel Compositore esperienza basato su moduli.
+È possibile indirizzare le versioni della stessa esperienza a tipi di pubblico diversi nelle attività A/B di [!DNL Adobe Target]. È possibile impostare più tipi di pubblico per un&#39;esperienza nel [!UICONTROL Compositore esperienza visivo] o nel Compositore esperienza basato su moduli.
 
 I visitatori possono passare da un pubblico all’altro con la modifica del loro profilo. I visitatori non rimangono bloccati nella stessa esperienza per tutta la durata dell’attività.
 
@@ -33,11 +33,11 @@ In questo caso, sono necessarie versioni specifiche per l’area geografica dell
 
    Al momento di configurare l’esperienza che avrà più versioni, seleziona il pubblico per ogni versione, come illustrato nei passaggi seguenti.
 
-1. Seleziona l&#39;esperienza, quindi fai clic su **[!UICONTROL Configure]** > **[!UICONTROL Audiences]** > **[!UICONTROL Multiple Audiences]**.
+1. Seleziona l&#39;esperienza, quindi fai clic su **[!UICONTROL Configura]** > **[!UICONTROL Tipi di pubblico]** > **[!UICONTROL Più tipi di pubblico]**.
 
    ![Opzione Più tipi di pubblico](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/multiple-audiences-new.png)
 
-1. Fai clic su **[!UICONTROL Add Audience]**, quindi seleziona il primo pubblico a cui desideri rivolgerti. Ripeti per ogni pubblico.
+1. Fai clic su **[!UICONTROL Aggiungi pubblico]**, quindi seleziona il primo pubblico a cui desideri rivolgerti. Ripeti per ogni pubblico.
 
    ![immagine exp-versions](assets/exp-versions.png)
 

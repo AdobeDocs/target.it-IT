@@ -5,15 +5,11 @@ title: Posso utilizzare i selettori di elementi nel Compositore esperienza visiv
 feature: Visual Experience Composer (VEC)
 exl-id: f4ddb30a-f599-4fe5-861c-2deeeb9a70dd
 TQID: https://experienceleague.adobe.com/sqvUyLFddt7HPHH62jwpOZmwTIMSg-hyLIUr8w-x7vg
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 444
+source-wordcount: 455
 ht-degree: 29%
 
 ---
@@ -24,7 +20,7 @@ Un selettore di elementi è un’espressione CSS che può identificare uno o pi�
 
 Puoi trovare informazioni di base sui selettori CSS nel documento [Selettori](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started/Selectors) in *[!DNL Mozilla Developer Network]* (MDN).
 
-Puoi specificare se utilizzare l’ID o la classe degli elementi nelle preferenze dell’account. Fai clic su **[!UICONTROL Administration > Visual Experience Composer]**, quindi scegli i selettori CSS preferiti.
+Puoi specificare se utilizzare l’ID o la classe degli elementi nelle preferenze dell’account. Fai clic su **[!UICONTROL Amministrazione > Compositore esperienza visivo]**, quindi scegli i selettori CSS preferiti.
 
 * **Usa ID elemento**: disabilita se lo stesso ID viene utilizzato per più elementi, altrimenti gli ID elemento potrebbero cambiare al caricamento della pagina.
 * **Usa classi elemento**: disabilita se le classi elemento in una pagina potrebbero cambiare.
@@ -32,7 +28,7 @@ Puoi specificare se utilizzare l’ID o la classe degli elementi nelle preferenz
 
 >[!NOTE]
 >
->Le classi di elementi sono disponibili come selettori nelle attività [!UICONTROL A/B Test], [!UICONTROL Automated Personalization] e [!UICONTROL &#x200B; Multivariate Test].
+>Le classi di elementi sono disponibili come selettori nelle attività [!UICONTROL Test A/B], [!UICONTROL Automated Personalization] e[!UICONTROL  Test multivariato].
 
 Per informazioni su quando utilizzare selettori CSS e quando utilizzare ID univoci, consulta [Best practice e limitazioni del Compositore esperienza visivo](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#concept_E284B3F704C04406B174D9050A2528A6).
 

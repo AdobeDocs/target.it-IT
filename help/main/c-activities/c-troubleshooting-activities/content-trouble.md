@@ -5,23 +5,14 @@ title: Come posso risolvere i problemi relativi alla distribuzione dei contenuti
 feature: Activities
 exl-id: 887b7956-1d61-439a-8339-c150deb9a378
 TQID: https://experienceleague.adobe.com/nkaoqcuoqMm67AnEjSg6dCnFDy-jvlwvD1a6YeXTkwk
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
-subfeature_v2:
-  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: c93393a4-e558-47e1-992e-c91ed4d480ce
+subfeature_v2: id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 1663
-ht-degree: 86%
+source-wordcount: 1689
+ht-degree: 85%
 
 ---
 
@@ -41,7 +32,7 @@ Dato che in mboxTrace e mboxDebug è possibile esporre dati sulla campagna e sul
 
 Per generare un token di autenticazione, è necessario disporre di una delle seguenti autorizzazioni utente:
 
-* Almeno [!UICONTROL Editor] autorizzazione (o [!UICONTROL Approver])
+* Almeno [!UICONTROL autorizzazione Editor] (o [!UICONTROL Approvatore])
 
   Per ulteriori informazioni per i clienti [!DNL Target Standard], consulta [Specificare ruoli e autorizzazioni](/help/main/administrating-target/c-user-management/c-user-management/user-management.md#roles-permissions) in *Utenti*. Per ulteriori informazioni per i clienti [!DNL Target Premium], consulta [Configurare le autorizzazioni aziendali](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md).
 
@@ -53,8 +44,8 @@ Per generare un token di autenticazione, è necessario disporre di una delle seg
 
 Per recuperare il token di autorizzazione:
 
-1. Fare clic su **[!UICONTROL Administration]** > **[!UICONTROL Implementation]**.
-1. Dalla sezione Strumenti di debug, fare clic su **[!UICONTROL Generate New Authentication Token]**.
+1. Fare clic su **[!UICONTROL Amministrazione]** > **[!UICONTROL Implementazione]**.
+1. Dalla sezione Strumenti di debug, fare clic su **[!UICONTROL Genera nuovo token di autenticazione]**.
 
    ![Generare un nuovo token di autenticazione](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/assets/debugger-auth-token.png)
 
@@ -97,7 +88,7 @@ Alcune delle informazioni includono ID di destinazione e di segmento associati e
 * Esclusioni e inclusioni applicate
 * Regole di raccolta
 
-Non è necessario includere `=console`, `=json` o `=window` nel parametro di query. Una volta completati i dettagli mboxTrace, aggiungere `=disable` e premere **[!UICONTROL Enter]** per tornare alla modalità di visualizzazione normale.
+Non è necessario includere `=console`, `=json` o `=window` nel parametro di query. Una volta completati i dettagli mboxTrace, aggiungere `=disable` e premere **[!UICONTROL Invio]** per tornare alla modalità di visualizzazione normale.
 
 mboxTrace non influenza il normale funzionamento e aspetto del tuo sito. I visitatori vedranno la solita struttura dei consigli.
 
@@ -167,11 +158,11 @@ at.js non attiva le richieste di Target se utilizzi un doctype non valido. at.js
 
 ## Assicurati che le attività di [!DNL Target] gestiscano correttamente gli URL con parametri di stringa di query. {#query-strings}
 
-[!UICONTROL Activity URL] determina la pagina che qualifica i visitatori per l&#39;attività ed esegue il rendering delle esperienze di attività per gli utenti. Quando viene richiesto durante la creazione dell’attività, la digitazione dell’URL completo non sempre assicura che il contenuto venga distribuito sulla pagina del sito, in particolare con gli URL che contengono parametri della stringa di query.
+L&#39;[!UICONTROL URL attività] determina la pagina che qualifica i visitatori per l&#39;attività ed esegue il rendering delle esperienze di attività per gli utenti. Quando viene richiesto durante la creazione dell’attività, la digitazione dell’URL completo non sempre assicura che il contenuto venga distribuito sulla pagina del sito, in particolare con gli URL che contengono parametri della stringa di query.
 
-Per impostazione predefinita, [!UICONTROL Visual Experience Composer] (VEC) apre la pagina specificata nelle [impostazioni del Compositore esperienza visivo](/help/main/administrating-target/visual-experience-composer-set-up.md). È anche possibile specificare una pagina diversa durante la creazione dell’attività.
+Per impostazione predefinita, il [!UICONTROL Compositore esperienza visivo] (VEC) apre la pagina specificata nelle [impostazioni del Compositore esperienza visivo](/help/main/administrating-target/visual-experience-composer-set-up.md). È anche possibile specificare una pagina diversa durante la creazione dell’attività.
 
-Per visualizzare una pagina diversa dopo l&#39;apertura del Compositore esperienza visivo, fai clic su **[!UICONTROL Configure gear icon]** > seleziona **[!UICONTROL Page Delivery]** > quindi specifica l&#39;URL desiderato nel campo [!UICONTROL Activity URL].
+Per visualizzare una pagina diversa dopo l&#39;apertura del Compositore esperienza visivo, fai clic su **[!UICONTROL Configura icona ingranaggio]** > seleziona **[!UICONTROL Consegna pagine]** > quindi specifica l&#39;URL desiderato nel campo [!UICONTROL URL attività].
 
 ![Configurare l’interfaccia utente delle impostazioni di Consegna pagina](assets/configure-page-delivery.png)
 
@@ -197,7 +188,7 @@ In questo caso, l’URL è `https://shopping.mycart.com?type=Summers%20Offers` e
 
 ### Opzione 3: invece di eseguire il targeting dell’URL completo, sfruttane una parte specifica.
 
-In questo caso, l&#39;URL è `https://shopping.mycart.com?type=Summers%20Offers` e regole di modello aggiuntive specificano [!UICONTROL Query] con [!UICONTROL type] > [!UICONTROL is (case sensitive)] > type=Summers%20Offers, separati da un operatore OR:
+In questo caso, l&#39;URL è `https://shopping.mycart.com?type=Summers%20Offers` e regole di modello aggiuntive specificano una [!UICONTROL Query] con [!UICONTROL type] > [!UICONTROL is (distinzione maiuscole/minuscole)] > type=Summers%20Offers, separati da un operatore OR:
 
 ![Regola del modello che sfrutta una parte specifica dell’URL](assets/option3.png)
 
@@ -220,12 +211,12 @@ I video seguenti contengono ulteriori informazioni sui concetti descritti in que
 
 ### Aggiungi estensione ![Icona esercitazione](/help/main/assets/tutorial.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/326674?captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/23114t2/)
 
 ### Debug di base per Adobe Target ![Icona tutorial](/help/main/assets/tutorial.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/326675?captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/23115t2/)
 
 ### Mbox Trace ![Icona Tutorial](/help/main/assets/tutorial.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/326676?captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/23113t2/)

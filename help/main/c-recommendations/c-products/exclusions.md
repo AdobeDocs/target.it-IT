@@ -1,18 +1,15 @@
 ---
 keywords: esclusioni
 description: Scopri come creare esclusioni in [!DNL Target Recommendations] per impedire che prodotti o contenuti vengano consigliati ai visitatori.
-title: Come si utilizzano le esclusioni nelle attività [!UICONTROL Recommendations]?
+title: Come si utilizzano le esclusioni nelle attività [!UICONTROL Consigli]?
 feature: Recommendations
 exl-id: e41487c7-6d47-4958-8e4b-616a2ad56b3c
 TQID: https://experienceleague.adobe.com/6-PWkqq5eXAwyLcGGbSqSZmFdJa85yU3x7FPNEt8-2o
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 16fb7a1902ea76cab56a93fa141a32a3c6bc4467
 workflow-type: tm+mt
-source-wordcount: 511
+source-wordcount: 527
 ht-degree: 13%
 
 ---
@@ -21,7 +18,7 @@ ht-degree: 13%
 
 Crea un&#39;esclusione in [!DNL Adobe Target Recommendations] per impedire che prodotti o contenuti vengano consigliati ai visitatori. Un’esclusione è un sottoinsieme di prodotti o contenuti che non devono essere consigliati ai visitatori.
 
-Le esclusioni sono disponibili a livello dell&#39;intero account. A differenza delle raccolte, in cui si specifica una raccolta specifica per ogni esperienza durante la creazione di un&#39;attività [!UICONTROL Recommendations], le esclusioni si applicano a tutte le attività dell&#39;account. Non è possibile assegnare un gruppo di esclusione durante la creazione dell’attività.
+Le esclusioni sono disponibili a livello dell&#39;intero account. A differenza delle raccolte, in cui si specifica una raccolta specifica per ogni esperienza durante la creazione di un&#39;attività [!UICONTROL Consigli], le esclusioni si applicano a tutte le attività nell&#39;account. Non è possibile assegnare un gruppo di esclusione durante la creazione dell’attività.
 
 Alcuni esempi di utilizzo delle esclusioni includono:
 
@@ -39,21 +36,21 @@ Alcuni esempi di utilizzo delle esclusioni includono:
 
 ## Creare un’esclusione
 
-1. Fai clic su **[!UICONTROL Recommendations]** > **[!UICONTROL Exclusions]** per visualizzare l&#39;elenco delle esclusioni esistenti.
+1. Fai clic su **[!UICONTROL Consigli]** > **[!UICONTROL Esclusioni]** per visualizzare l&#39;elenco delle esclusioni esistenti.
 
-   Il &quot;Numero di elementi&quot; segnalato per ogni esclusione nella visualizzazione elenco [!UICONTROL Exclusions] è il numero di prodotti che corrispondono alle regole per tale esclusione all&#39;interno del gruppo predefinito di consigli [host](/help/main/administrating-target/hosts.md) (ambiente) configurato. Per informazioni su come modificare il gruppo host predefinito, vedere [Pianificare e implementare [!DNL Recommendations]](https://experienceleague.adobe.com/it/docs/target-dev/developer/recommendations){target=_blank} nella *Guida per gli sviluppatori di Adobe Target*.
+   Il &quot;Numero di elementi&quot; segnalato per ogni esclusione nella visualizzazione elenco [!UICONTROL Esclusioni] è il numero di prodotti che corrispondono alle regole per tale esclusione all&#39;interno del gruppo predefinito di consigli [host](/help/main/administrating-target/hosts.md) (ambiente) configurato. Per informazioni su come modificare il gruppo host predefinito, vedere [Pianificare e implementare [!DNL Recommendations]](https://experienceleague.adobe.com/en/docs/target-dev/developer/recommendations){target=_blank} nella *Guida per gli sviluppatori di Adobe Target*.
 
-1. (Facoltativo) Fai clic sull&#39;icona **[!UICONTROL Show Filters]** ( ![icona Mostra filtri](/help/main/assets/icons/Filter.svg) ), quindi scegli l&#39;[ambiente](/help/main/administrating-target/environments.md) desiderato dall&#39;elenco a discesa **[!UICONTROL Environment]** durante la creazione (o l&#39;aggiornamento) di un&#39;esclusione per visualizzare in anteprima i contenuti dell&#39;esclusione in tale ambiente. Per impostazione predefinita, sono visualizzati i risultati del gruppo di host predefinito.
+1. (Condizionale) Fai clic sull&#39;icona **[!UICONTROL Mostra filtri]** ( ![Mostra icona filtri](/help/main/assets/icons/Filter.svg) ), quindi scegli l&#39;[ambiente](/help/main/administrating-target/environments.md) desiderato dall&#39;elenco a discesa **[!UICONTROL Ambiente]** durante la creazione (o l&#39;aggiornamento) di un&#39;esclusione per visualizzare in anteprima il contenuto dell&#39;esclusione in tale ambiente. Per impostazione predefinita, sono visualizzati i risultati del gruppo di host predefinito.
 
-1. Fare clic su **[!UICONTROL Create Exclusion]**.
+1. Fai clic su **[!UICONTROL Crea esclusione]**.
 
-1. Digitare un&#39;esclusione **[!UICONTROL Name]** e immettere una descrizione facoltativa.
+1. Digitare un nome di esclusione **[!UICONTROL Name]** e immettere una descrizione facoltativa.
 
 1. Utilizza il generatore di regole per creare le esclusioni.
 
-   Selezionare un parametro nell&#39;elenco [!UICONTROL Rules], selezionare un operatore, quindi immettere uno o più valori per identificare i prodotti. Separa i valori con le virgole.
+   Selezionare un parametro nell&#39;elenco [!UICONTROL Regole], selezionare un operatore, quindi immettere uno o più valori per identificare i prodotti. Separa i valori con le virgole.
 
-1. Fare clic su **[!UICONTROL Create]**.
+1. Fai clic su **[!UICONTROL Crea]**.
 
 <!--
 ## Create an exclusion using Advanced Search
@@ -71,7 +68,7 @@ After creating a search using "id > contains," for example, you can then click [
 
 ## Modificare, copiare o eliminare un’esclusione
 
-Fai clic sull&#39;icona Altre azioni ( ![Icona Altre azioni](/help/main/assets/icons/MoreSmallList.svg) ) accanto all&#39;esclusione desiderata nell&#39;elenco, quindi fai clic sull&#39;icona appropriata: [!UICONTROL Edit], [!UICONTROL Copy] o [!UICONTROL Delete].
+Fai clic sull&#39;icona Altre azioni ( ![Icona Altre azioni](/help/main/assets/icons/MoreSmallList.svg) ) accanto all&#39;esclusione desiderata nell&#39;elenco, quindi fai clic sull&#39;icona appropriata: [!UICONTROL Modifica], [!UICONTROL Copia] o [!UICONTROL Elimina].
 
 Puoi copiare un’esclusione esistente per creare un’esclusione duplicata che puoi quindi modificare. Questa opzione consente di creare un’esclusione simile con meno sforzo.
 
@@ -84,4 +81,4 @@ Questo video contiene le seguenti informazioni:
 * Creare una raccolta
 * Creare un’esclusione
 
->[!VIDEO](https://video.tv.adobe.com/v/328804?captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/27689)

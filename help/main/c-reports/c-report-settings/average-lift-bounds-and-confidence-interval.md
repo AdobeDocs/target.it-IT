@@ -6,8 +6,8 @@ feature: Reports
 exl-id: 0453aec1-cca5-462c-8eed-0d40bb4cf323
 source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '894'
-ht-degree: 60%
+source-wordcount: '913'
+ht-degree: 59%
 
 ---
 
@@ -17,11 +17,11 @@ I report includono diversi punti dati e rappresentazioni di visualizzazione che 
 
 >[!NOTE]
 >
->Questa funzionalità è disponibile solo quando si visualizzano i report nella visualizzazione [!UICONTROL Table]. Questa funzionalità non è disponibile per le attività che utilizzano [Analytics come origine per la generazione di rapporti (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE).
+>Questa funzionalità è disponibile solo quando si visualizzano i report nella visualizzazione [!UICONTROL Tabella]. Questa funzionalità non è disponibile per le attività che utilizzano [Analytics come origine per la generazione di rapporti (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE).
 
 ## Interpretare i dati {#section_62C0D7E76F3D49A7B3C371C82AEF27D5}
 
-Nella figura seguente sono illustrate le informazioni di [!UICONTROL Lift Bounds and Confidence Level]:
+Nella figura seguente sono illustrate [!UICONTROL informazioni sui limiti di incremento e sul livello di affidabilità]:
 
 ![Rapporto di incremento medio e livello di affidabilità](/help/main/c-reports/c-report-settings/assets/lift-screenshot-new.png)
 
@@ -61,7 +61,7 @@ I limiti di incremento vengono calcolati con la seguente formula:
 
 Vi sono dei calcoli aggiuntivi per ottenere l’input per i limiti di incremento:
 
-* **t-value:** Il dato statistico critico per il livello di affidabilità al 95% è 1,96. Ulteriori informazioni su [t-values](https://en.wikipedia.org/wiki/T-statistic).
+* **t-value:** Il dato statistico critico per il livello di affidabilità al 95% è 1,96. Ulteriori informazioni sui [valori-t sono disponibili qui](https://en.wikipedia.org/wiki/T-statistic).
 * **Varianza dell’incremento:** l’errore standard della metrica di successo dell’esperienza N e l’errore standard della metrica di successo dell’esperienza di controllo sono necessari per determinare la varianza dell’incremento, la quale è calcolata con la seguente formula (illustrata per un caso in cui la metrica di successo è la conversione).
 
   ![immagine lift_variance](assets/lift_variance.png)
@@ -116,4 +116,4 @@ Pertanto, i limiti di incremento per l’esperienza B saranno:
 In alcuni casi, [!DNL Target] non visualizza i limiti di incremento:
 
 * Per qualsiasi attività, quando il numero totale di visite o visitatori è inferiore a 30.
-* Per le attività [!UICONTROL Auto-Allocate], non vengono visualizzati limiti di incremento finché un&#39;esperienza non raggiunge il 60% di affidabilità.
+* Per le attività [!UICONTROL Allocazione automatica], non vengono visualizzati limiti di incremento fino a quando un&#39;esperienza non raggiunge il 60% di affidabilità.

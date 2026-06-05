@@ -5,38 +5,32 @@ title: Come Si Specificano Le Impostazioni Delle Attività?
 feature: Activities
 exl-id: 7f34080b-d2ed-4fe5-80ff-3aba16961223
 TQID: https://experienceleague.adobe.com/tCKQJJOfsU1XkeHwFHNF33XP4tYvxlE0Hv01u0CBr7o
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 418
-ht-degree: 71%
+source-wordcount: 432
+ht-degree: 77%
 
 ---
 
 # Impostazioni delle attività
 
-Utilizza [!UICONTROL Activity Settings] in [!DNL Adobe Target] per gestire l&#39;obiettivo, la priorità e la durata delle attività.
+Utilizza [!UICONTROL Impostazioni attività] in [!DNL Adobe Target] per gestire la finalità, la priorità e la durata delle attività.
 
 1. Immetti delle note sulla finalità dell&#39;attività.
 
-   Inserisci informazioni sull’attività, utili per te o per gli altri membri del gruppo. Trascinare per ridimensionare il campo [!UICONTROL Objective].
+   Inserisci informazioni sull’attività, utili per te o per gli altri membri del gruppo. Trascinare per ridimensionare il campo [!UICONTROL Finalità].
 1. Imposta la durata dell&#39;attività.
 
-   L&#39;interfaccia utente e le opzioni per [!UICONTROL Priority] variano a seconda delle impostazioni. È possibile utilizzare le impostazioni legacy Bassa, Media o Alta, oppure abilitare la priorità granulare da 0 a 999.
+   L’interfaccia utente e le opzioni per [!UICONTROL Priorità] variano a seconda delle impostazioni. È possibile utilizzare le impostazioni legacy Bassa, Media o Alta, oppure attivare la priorità granulare da 0 a 999.
 
    La priorità è utilizzata se più attività vengono assegnate alla stessa posizione con lo stesso pubblico. Se due o più attività vengono assegnate alla posizione, viene visualizzata l’attività con priorità maggiore.
 
-   Se questa opzione non è abilitata in [!UICONTROL Administration] > [!UICONTROL Reporting] (impostazione predefinita), specificare una priorità: Bassa, Medium o Alta.
+   Se questa opzione non è abilitata in [!UICONTROL Amministrazione] > [!UICONTROL Generazione rapporti] (impostazione predefinita), specificare una priorità: Bassa, Medium o Alta.
 
-   Per abilitare le priorità dettagliate, fare clic su [!UICONTROL Administration] > [!UICONTROL Reporting], quindi attivare l&#39;opzione [!UICONTROL Enable Fine-Grained Priorities].
+   Per abilitare le priorità dettagliate, fai clic su [!UICONTROL Amministrazione] > [!UICONTROL Generazione rapporti], quindi attiva l&#39;opzione [!UICONTROL Abilita priorità precise].
 
    Se questa opzione è abilitata, specifica un valore compreso tra 0 e 999:
 
@@ -57,7 +51,7 @@ Utilizza [!UICONTROL Activity Settings] in [!DNL Adobe Target] per gestire l&#39
    >
    >La pianificazione di un’attività controlla l’arco temporale di consegna dell’attività; tuttavia, l’attività deve essere attivata esplicitamente prima che possa essere recapitata in base alla pianificazione specificata.
 
-La pagina [!UICONTROL Goal & Settings] include impostazioni aggiuntive che variano in base al tipo di attività che si sta creando. Per ulteriori informazioni su queste impostazioni, fai riferimento al tipo di attività:
+La pagina [!UICONTROL Obiettivi e impostazioni] include impostazioni aggiuntive che variano in base al tipo di attività che si sta creando. Per ulteriori informazioni su queste impostazioni, fai riferimento al tipo di attività:
 
 * [Test A/B](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC)
 * [Personalizzazione automatizzata](/help/main/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9)

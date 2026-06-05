@@ -8,15 +8,11 @@ hide: true
 hidefromtoc: true
 exl-id: eb6f07d8-729e-4f94-ae7a-a054bf54b030
 TQID: https://experienceleague.adobe.com/a6sdpItjPqp-YDDfYFU0dBj-uAX1fNZ5cGPrc8wylx0
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-topic_v2:
-  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2: id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 16fb7a1902ea76cab56a93fa141a32a3c6bc4467
 workflow-type: tm+mt
-source-wordcount: 777
+source-wordcount: 825
 ht-degree: 2%
 
 ---
@@ -36,7 +32,7 @@ Aumento del coinvolgimento e delle conversioni in [!DNL Adobe Target] con [!DNL 
 
 Per generare testo coinvolgente utilizzando [!DNL AI Assistant]:
 
-1. Da [[!DNL Target] [!UICONTROL Visual Experience Composer]](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md) (VEC), fai clic sull&#39;icona **[!UICONTROL Show Content Assistant]** ( ![Mostra icona Assistente contenuto](/help/main/assets/icons/MagicWand.svg) ) nella barra a destra dell&#39;interfaccia utente del Compositore esperienza visivo.
+1. Da [[!DNL Target] [!UICONTROL Compositore esperienza visivo]](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md) (VEC), fai clic sull&#39;icona **[!UICONTROL Mostra Assistente contenuto]** ( ![Mostra icona Assistente contenuto](/help/main/assets/icons/MagicWand.svg) ) nella barra a destra dell&#39;interfaccia utente del Compositore esperienza visivo.
 
    ![Mostra icona Assistente contenuto](/help/main/c-intro/assets/ai-assistant-conntet-generation-icon.png)
 
@@ -54,11 +50,11 @@ Per generare testo coinvolgente utilizzando [!DNL AI Assistant]:
 
    Consulta [Esempi di varianti](#variations) di seguito per vedere come [!DNL AI Assistant] trasforma un semplice prompt in una copia accattivante e in formato più lungo per un&#39;emozionante avventura NYC.
 
-1. Fare clic sull&#39;icona **[!UICONTROL Text Settings]** per specificare il tono e la strategia di comunicazione del testo.
+1. Fai clic sull&#39;icona **[!UICONTROL Impostazioni testo]** per specificare il tono del testo e la strategia di comunicazione.
 
    * **Strategia di comunicazione**: scegli lo stile di comunicazione più adatto al testo generato.
 
-     Le opzioni disponibili sono: [!UICONTROL None], [!UICONTROL Urgent], [!UICONTROL FOMO] (paura di perdere spazio), [!UICONTROL Social Proof], [!UICONTROL Scarcity], [!UICONTROL Incentive], [!UICONTROL Exclusivity], [!UICONTROL Gameification], [!UICONTROL Informative] e [!UICONTROL Education & Insights].
+     Le opzioni disponibili sono: [!UICONTROL Nessuna], [!UICONTROL Urgente], [!UICONTROL FOMO] (paura di perdere esperienze), [!UICONTROL Prova social], [!UICONTROL Scarsità], [!UICONTROL Incentivo], [!UICONTROL Esclusività], [!UICONTROL Gameificazione], [!UICONTROL Informativo] e [!UICONTROL Istruzione e approfondimenti].
 
    * **Lingue**: scegliere la lingua desiderata per il testo.
 
@@ -66,29 +62,29 @@ Per generare testo coinvolgente utilizzando [!DNL AI Assistant]:
 
    * **Tono**: il tono del testo dovrebbe risuonare con il pubblico. Sia che si desideri utilizzare un suono informativo, emozionante, giocoso o persuasivo, [!DNL AI Assistant] può adattare il messaggio di conseguenza.
 
-     Le opzioni disponibili sono: [!UICONTROL None], [!UICONTROL Professional], [!UICONTROL Empathetic], [!UICONTROL Humorous], [!UICONTROL Exciting], [!UICONTROL Inspirational], [!UICONTROL Persuasive], [!UICONTROL Friendly], [!UICONTROL Formal], [!UICONTROL Apologetic], [!UICONTROL Assertive], [!UICONTROL &#x200B; Story Telling] e [!UICONTROL Conversational].
+     Le opzioni includono: [!UICONTROL Nessuna], [!UICONTROL Professionale], [!UICONTROL Empatico], [!UICONTROL Umoristico], [!UICONTROL Eccitante], [!UICONTROL Ispirativo], [!UICONTROL Persuasivo], [!UICONTROL Amichevole], [!UICONTROL Formale], [!UICONTROL Apologetico], [!UICONTROL Assertivo], [!UICONTROL  Racconto e], [!UICONTROL Conversazione].
 
 1. Utilizzare il dispositivo di scorrimento per scegliere la durata desiderata per il testo, da più breve a più lungo.
 
-1. (Facoltativo) Fai clic su **[!UICONTROL Brand Assets]** per caricare o attivare/disattivare le risorse del brand per il contesto di contenuto aggiuntivo durante la generazione.
+1. (Facoltativo) Fai clic su **[!UICONTROL Brand Assets]** per caricare o attivare/disattivare le risorse del brand per contenuto aggiuntivo durante la generazione.
 
-1. Fare clic su **[!UICONTROL Generate]** per creare un elenco di varianti di testo.
+1. Fai clic su **[!UICONTROL Genera]** per creare un elenco di varianti di testo.
 
    ![Varianti di testo dell&#39;Assistente AI](/help/main/c-intro/assets/ai-variations-text.png)
 
-1. Fare clic su **[!UICONTROL Apply]** per selezionare la variante di testo desiderata.
+1. Fai clic su **[!UICONTROL Applica]** per selezionare la variante di testo desiderata.
 
-   Puoi anche fare clic su **[!UICONTROL Preview]** per visualizzare diverse varianti. Fare clic sulla variante desiderata, quindi su **[!UICONTROL Select]**.
+   Puoi anche fare clic su **[!UICONTROL Anteprima]** per visualizzare diverse varianti. Fai clic sulla variante desiderata, quindi fai clic su **[!UICONTROL Seleziona]**.
 
    ![Assistente IA con testo generato](/help/main/c-intro/assets/ai-text-done.png)
 
-1. (Condizionale) Fai clic sull&#39;icona [!UICONTROL Undo] ( ![Icona Annulla](/help/main/assets/icons/Undo.svg) ) per annullare le modifiche.
+1. (Condizionale) Fai clic sull&#39;icona [!UICONTROL Annulla] ( ![Annulla icona](/help/main/assets/icons/Undo.svg) ) per annullare le modifiche.
 
 1. (Facoltativo) Fornire un feedback a [!DNL AI Assistant].
 
    * Fai clic sull&#39;icona Miniature in alto ( ![Miniature in alto](/help/main/assets/icons/ThumbUp.svg) ) per comunicare a [!DNL AI Assistant] che la variante ti piace.
    * Fai clic sull&#39;icona Miniature giù ( ![Icona Miniature giù](/help/main/assets/icons/ThumbDown.svg) ) per comunicare a [!DNL AI Assistant] che la variante non ti piace.
-   * Fai clic sull&#39;icona [!UICONTROL Report Results] ( ![Icona risultati report](/help/main/assets/icons/Flag.svg) ) per segnalare un problema a [!DNL AI Assistant].
+   * Fai clic sull&#39;icona [!UICONTROL Risultati report] ( ![Icona risultati report](/help/main/assets/icons/Flag.svg) ) per segnalare un problema a [!DNL AI Assistant].
 
 ## Varianti di esempio {#variations}
 
@@ -96,15 +92,15 @@ Cambiare il testo protagonista è solo l&#39;inizio. Con [!DNL AI Assistant] in 
 
 Il prompt e le varianti seguenti mostrano la potenza di [!DNL AI Assistant].
 
-**[!UICONTROL Prompt]**: Scrivi un annuncio coinvolgente per un viaggio di tre giorni a New York per visitare le destinazioni principali.
-**[!UICONTROL Text Settings]**: FOMO, inglese, persuasivo, lunghezza Medium.
-* **[!UICONTROL Variation 1]**: Scopri la magia di New York con il nostro esclusivo viaggio di tre giorni! Immergiti in luoghi simbolo come Times Square, Central Park e la Statua della Libertà. Unisciti ad innumerevoli altri che hanno già sperimentato il brivido e la bellezza della città che non dorme mai. Non perderti ricordi indimenticabili. Prenota la tua avventura oggi e partecipa all&#39;emozione! Posti limitati disponibili!
-* **[!UICONTROL Variation 2]**: Scoprite la magia di New York con la nostra esclusiva fuga di tre giorni! Visita luoghi di interesse come Times Square e Central Park, e immergiti nella cucina e nell&#39;intrattenimento di prima classe. Non perdetevi questa avventura indimenticabile. Gli spazi sono limitati e tutti sono entusiasti delle loro esperienze incredibili. Prenota ora e partecipa all&#39;entusiasmo di viaggiatori accattivanti in tutto il mondo!
-* **[!UICONTROL Variation 3]**: Imbarcarsi in un&#39;emozionante fuga di tre giorni a New York, dove attendono punti di riferimento iconici! Scoprite l&#39;atmosfera elettrica di Times Square, assaporate le delizie culinarie a Manhattan e acquisite viste mozzafiato dall&#39;Empire State Building. Agisci ora e unisciti a innumerevoli avventurieri che vivono il loro sogno. Non perdetevi la creazione di ricordi indimenticabili nella città che non dorme mai. Posti limitati disponibili. Prenota la tua avventura oggi stesso!
-* **[!UICONTROL Variation 4]**: Prenota subito la tua avventura di tre giorni a New York e scopri la magia della città come mai prima d&#39;ora! Dalle viste iconiche alle gemme nascoste, ogni angolo del Big Apple contiene qualcosa di emozionante. Non perdetevi i momenti indimenticabili che gli altri stanno già godendo. Siate parte del fermento. Proteggete il vostro posto oggi stesso e create memorie che dureranno una vita. Sbrigati, gli spazi si stanno riempiendo rapidamente!
+**[!UICONTROL Prompt]**: scrivi un annuncio coinvolgente per un viaggio di tre giorni a New York per visitare le destinazioni principali.
+**[!UICONTROL Impostazioni testo]**: FOMO, inglese, persuasivo, lunghezza Medium.
+* **[!UICONTROL Variante 1]**: scopri la magia di New York con il nostro esclusivo viaggio di tre giorni! Immergiti in luoghi simbolo come Times Square, Central Park e la Statua della Libertà. Unisciti ad innumerevoli altri che hanno già sperimentato il brivido e la bellezza della città che non dorme mai. Non perderti ricordi indimenticabili. Prenota la tua avventura oggi e partecipa all&#39;emozione! Posti limitati disponibili!
+* **[!UICONTROL Variante 2]**: scopri la magia di New York con la nostra esclusiva fuga di tre giorni! Visita luoghi di interesse come Times Square e Central Park, e immergiti nella cucina e nell&#39;intrattenimento di prima classe. Non perdetevi questa avventura indimenticabile. Gli spazi sono limitati e tutti sono entusiasti delle loro esperienze incredibili. Prenota ora e partecipa all&#39;entusiasmo di viaggiatori accattivanti in tutto il mondo!
+* **[!UICONTROL Variante 3]**: Imbarcarsi in un&#39;emozionante fuga di tre giorni a New York, dove attendono punti di riferimento iconici! Scoprite l&#39;atmosfera elettrica di Times Square, assaporate le delizie culinarie a Manhattan e acquisite viste mozzafiato dall&#39;Empire State Building. Agisci ora e unisciti a innumerevoli avventurieri che vivono il loro sogno. Non perdetevi la creazione di ricordi indimenticabili nella città che non dorme mai. Posti limitati disponibili. Prenota la tua avventura oggi stesso!
+* **[!UICONTROL Variante 4]**: Prenota la tua avventura di tre giorni a New York e scopri la magia della città come mai prima d&#39;ora! Dalle viste iconiche alle gemme nascoste, ogni angolo del Big Apple contiene qualcosa di emozionante. Non perdetevi i momenti indimenticabili che gli altri stanno già godendo. Siate parte del fermento. Proteggete il vostro posto oggi stesso e create memorie che dureranno una vita. Sbrigati, gli spazi si stanno riempiendo rapidamente!
 
 ## Video di formazione
 
 ### Creare contenuti utilizzando l’Assistente AI per la generazione di contenuti
 
->[!VIDEO](https://video.tv.adobe.com/v/3434643/?captions=ita&learn=on">https://video.tv.adobe.com/v/3434643/?captions=ita&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3434635/?learn=on">https://video.tv.adobe.com/v/3434635/?learn=on)

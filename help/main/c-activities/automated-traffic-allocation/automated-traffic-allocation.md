@@ -1,58 +1,51 @@
 ---
 keywords: allocazione automatica del traffico;targeting;Incrementa il conteggio e mantieni l'utente nell'attività;allocazione automatica;allocazione automatica
-description: Scopri come utilizzare un'attività [!UICONTROL Auto-Allocate] in [!DNL Adobe Target] che identifica un vincitore tra due o più esperienze e ridistribuisce automaticamente più traffico per il vincitore.
-title: Cos'è un'attività [!UICONTROL Auto-Allocate]?
+description: Scopri come utilizzare un'attività [!UICONTROL Allocazione automatica] in [!DNL Adobe Target] che identifica un vincitore tra due o più esperienze e ridistribuisce automaticamente più traffico per il vincitore.
+title: Cos'è un'attività [!UICONTROL Allocazione automatica]?
 feature: Auto-Allocate
 exl-id: 2d1ddd71-2ca6-4f00-9d0c-eb25ede8fdb8
 TQID: https://experienceleague.adobe.com/V5ZS2vBGVilH0-4bacB4x7iQi8M6qroLe3R9LNMoVEc
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 3572
-ht-degree: 35%
+source-wordcount: 3756
+ht-degree: 34%
 
 ---
 
-# Panoramica di [!UICONTROL Auto-Allocate]
+# Panoramica di [!UICONTROL Allocazione automatica]
 
-Un&#39;attività [!UICONTROL Auto-Allocate] in [!DNL Adobe Target] identifica un vincitore tra due o più esperienze e ridistribuisce automaticamente più traffico per aumentare le conversioni, mentre il test continua a essere eseguito e ad apprendere.
+Un&#39;attività di [!UICONTROL Allocazione automatica] in [!DNL Adobe Target] identifica un vincitore tra due o più esperienze e ridistribuisce automaticamente più traffico per aumentare le conversioni, mentre il test continua a essere eseguito e ad apprendere.
 
-Durante la [creazione di un&#39;attività A/B](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md) tramite il flusso di lavoro guidato in tre passaggi, scegliere l&#39;opzione **[!UICONTROL Auto-Allocate to best experience]** nella pagina **[!UICONTROL Targeting]** (passaggio 2).
+Durante la [creazione di un&#39;attività A/B](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md) tramite il flusso di lavoro guidato in tre passaggi, scegli l&#39;opzione **[!UICONTROL Allocazione automatica all&#39;esperienza migliore]** nella pagina **[!UICONTROL Targeting]** (passaggio 2).
 
 ## La sfida {#section_85D5A03637204BACA75E19646162ACFF}
 
 I test A/B standard hanno un costo intrinseco. Devi investire del traffico per misurare le prestazioni di ogni esperienza e capire quale sia l’esperienza vincente attraverso l’analisi. La distribuzione del traffico rimane fissa anche dopo aver compreso che alcune esperienze hanno prestazioni migliori di altre. Inoltre, è complicato calcolare la dimensione necessaria del campione, e l’attività deve essere eseguita completamente prima di poter intervenire in base al vincitore. E c&#39;è ancora la possibilità che il vincitore identificato non sia un vero vincitore.
 
-## Soluzione: [!UICONTROL Auto-Allocate] {#section_98388996F0584E15BF3A99C57EEB7629}
+## Soluzione: [!UICONTROL Allocazione automatica] {#section_98388996F0584E15BF3A99C57EEB7629}
 
-Un&#39;attività [!UICONTROL Auto-Allocate] riduce il costo e il sovraccarico associati alla determinazione di un&#39;esperienza vincente. [!UICONTROL Auto-Allocate] monitora le prestazioni della metrica obiettivo di tutte le esperienze e invia in modo proporzionale un numero maggiore di nuovi partecipanti alle esperienze con prestazioni migliori. Per l’esplorazione delle altre esperienze viene riservata una quantità adeguata di traffico. È possibile vedere i vantaggi del test nei risultati, anche se l’attività è ancora in esecuzione: l’ottimizzazione si verifica in parallelo all’apprendimento.
+Un&#39;attività di [!UICONTROL allocazione automatica] riduce il costo e il sovraccarico associati alla determinazione di un&#39;esperienza vincente. [!UICONTROL Allocazione automatica] monitora le prestazioni della metrica obiettivo di tutte le esperienze e invia in modo proporzionale un numero maggiore di nuovi partecipanti alle esperienze con prestazioni migliori. Per l’esplorazione delle altre esperienze viene riservata una quantità adeguata di traffico. È possibile vedere i vantaggi del test nei risultati, anche se l’attività è ancora in esecuzione: l’ottimizzazione si verifica in parallelo all’apprendimento.
 
-[!UICONTROL Auto-Allocate] sposta gradualmente i visitatori verso esperienze vincenti, invece di richiedere di attendere che un&#39;attività finisca per determinare un vincitore. Puoi beneficiare di incrementi più rapidi perché potenziali esperienze vincenti vengono mostrate a partecipanti che sarebbero altrimenti stati destinati a esperienze di minor successo.
+[!UICONTROL L&#39;allocazione automatica] sposta gradualmente i visitatori verso esperienze vincenti, invece di richiedere di attendere la fine di un&#39;attività per determinare un vincitore. Puoi beneficiare di incrementi più rapidi perché potenziali esperienze vincenti vengono mostrate a partecipanti che sarebbero altrimenti stati destinati a esperienze di minor successo.
 
 Un normale test A/B in [!DNL Target] mostra solo confronti a coppie di sfidanti con il controllo. Ad esempio, se un&#39;attività ha esperienze: A, B, C e D dove A è il controllo, un normale test A/B [!DNL Target] confronterebbe A con B, A con C e A con D.
 
 In questi test, la maggior parte dei prodotti, incluso [!DNL Target], utilizza un test t di [Welch](https://en.wikipedia.org/wiki/Welch%27s_t-test){target=_blank} per produrre un&#39;affidabilità basata sul valore p. Questo valore di affidabilità viene quindi utilizzato per determinare se lo sfidante è sufficientemente diverso dal controllo. Tuttavia, [!DNL Target] non esegue automaticamente i confronti impliciti (B con C, B con D e C con D) necessari per trovare l&#39;esperienza &quot;migliore&quot;. Di conseguenza, l’addetto al marketing deve analizzare manualmente i risultati per determinare l’esperienza “migliore”.
 
-[!UICONTROL Auto-Allocate] esegue tutti i confronti impliciti tra le esperienze e produce un vincitore &quot;vero&quot;. Non vi è alcuna nozione di esperienza di “controllo” nel test.
+[!UICONTROL L&#39;allocazione automatica] esegue tutti i confronti impliciti tra le esperienze e produce un vincitore &quot;vero&quot;. Non vi è alcuna nozione di esperienza di “controllo” nel test.
 
-[!UICONTROL Auto-Allocate] alloca in modo intelligente nuovi visitatori alle esperienze finché l&#39;intervallo di affidabilità della migliore esperienza non si sovrappone all&#39;intervallo di affidabilità di qualsiasi altra esperienza. Normalmente questo processo potrebbe produrre falsi positivi, ma [!UICONTROL Auto-Allocate] utilizza intervalli di affidabilità in base alla [disuguaglianza di Bernstein](https://en.wikipedia.org/wiki/Bernstein_inequalities_%28probability_theory%29){target=_blank} che compensa le valutazioni ripetute. A questo punto, c&#39;è un vero vincitore. Quando [!UICONTROL Auto-Allocate] si arresta, purché non vi sia una dipendenza sostanziale dal tempo per i visitatori che arrivano alla pagina, c&#39;è almeno un 95% di probabilità che [!UICONTROL Auto-Allocate] restituisca un&#39;esperienza la cui vera risposta non sia peggiore dell&#39;1% (relativo) inferiore alla vera risposta dell&#39;esperienza vincente.
+[!UICONTROL Allocazione automatica] alloca in modo intelligente nuovi visitatori alle esperienze fino a quando l&#39;intervallo di affidabilità della migliore esperienza non si sovrappone all&#39;intervallo di affidabilità di qualsiasi altra esperienza. Normalmente questo processo potrebbe produrre falsi positivi, ma [!UICONTROL Allocazione automatica] utilizza intervalli di affidabilità basati sulla [disuguaglianza di Bernstein](https://en.wikipedia.org/wiki/Bernstein_inequalities_%28probability_theory%29){target=_blank} che compensa le valutazioni ripetute. A questo punto, c&#39;è un vero vincitore. Quando [!UICONTROL Allocazione automatica] si arresta, purché non vi sia una dipendenza sostanziale dal tempo per i visitatori che arrivano alla pagina, esiste almeno un 95% di possibilità che [!UICONTROL Allocazione automatica] restituisca un&#39;esperienza la cui vera risposta non sia peggiore dell&#39;1% (relativo) inferiore alla vera risposta dell&#39;esperienza vincente.
 
-## Quando utilizzare [!UICONTROL Auto-Allocate] rispetto a [!UICONTROL A/B Test] o [!UICONTROL Automated Personalization] attività {#section_3F73B0818A634E4AAAA60A37B502BFF9}
+## Quando utilizzare [!UICONTROL Allocazione automatica] rispetto a [!UICONTROL Attività A/B Test] o [!UICONTROL Attività Automated Personalization] {#section_3F73B0818A634E4AAAA60A37B502BFF9}
 
-* Utilizza **[!UICONTROL Auto-Allocate]** per ottimizzare l&#39;attività fin dall&#39;inizio e identificare le esperienze vincenti il più rapidamente possibile. Rendendo più frequenti le esperienze ad alte prestazioni, le prestazioni complessive dell’attività aumentano.
-* Utilizza un **[test A/B](/help/main/c-activities/t-test-ab/test-ab.md#task_05E33EB15C4D4459B5EAFF90A94A7977)** standard quando vuoi caratterizzare le prestazioni di tutte le esperienze prima di ottimizzare il sito. Un test A/B consente di classificare tutte le esperienze, mentre [!UICONTROL Auto-Allocate] trova le migliori prestazioni ma non garantisce la differenziazione tra le prestazioni più basse.
-* Utilizza [Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) quando desideri algoritmi di ottimizzazione della complessità più elevata, ad esempio modelli di apprendimento automatico che generano previsioni basate su attributi di profilo individuali. [!UICONTROL Auto-Allocate] esamina il comportamento aggregato delle esperienze (proprio come i test A/B standard) e non distingue tra visitatori.
+* Utilizza l&#39;**[!UICONTROL Allocazione automatica]** quando vuoi ottimizzare l&#39;attività fin dall&#39;inizio e identificare le esperienze vincenti il più rapidamente possibile. Rendendo più frequenti le esperienze ad alte prestazioni, le prestazioni complessive dell’attività aumentano.
+* Utilizza un **[test A/B](/help/main/c-activities/t-test-ab/test-ab.md#task_05E33EB15C4D4459B5EAFF90A94A7977)** standard quando vuoi caratterizzare le prestazioni di tutte le esperienze prima di ottimizzare il sito. Un test A/B consente di classificare tutte le esperienze, mentre l&#39;[!UICONTROL allocazione automatica] trova le prestazioni migliori ma non garantisce la differenziazione tra le prestazioni più basse.
+* Utilizza [Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) quando desideri algoritmi di ottimizzazione della complessità più elevata, ad esempio modelli di apprendimento automatico che generano previsioni basate su attributi di profilo individuali. [!UICONTROL Allocazione automatica] esamina il comportamento aggregato delle esperienze (proprio come i test A/B standard) e non distingue tra i visitatori.
 
-## Vantaggi chiave di [!UICONTROL Auto-Allocate] {#section_0913BF06F73C4794862561388BBDDFF0}
+## Vantaggi principali di [!UICONTROL Allocazione automatica] {#section_0913BF06F73C4794862561388BBDDFF0}
 
 * Mantiene la rigorosità di un test A/B
 * Trova un vincitore statisticamente significativo più velocemente rispetto a un test A/B manuale.
@@ -60,13 +53,13 @@ In questi test, la maggior parte dei prodotti, incluso [!DNL Target], utilizza u
 
 ## Terminologia {#section_670F8785BA894745B43B6D4BFF953188}
 
-I seguenti termini sono utili quando si parla di [!UICONTROL Auto-Allocate]:
+I seguenti termini sono utili quando si parla di [!UICONTROL Allocazione automatica]:
 
 **Slot machine:** un approccio all’ottimizzazione ti tipo [slot machine](https://en.wikipedia.org/wiki/Multi-armed_bandit){target=_blank} compensa l’apprendimento esplorativo e il suo sfruttamento.
 
 ## Funzionamento dell’algoritmo {#section_ADB69A1C7352462D98849F2918D4FF7B}
 
-La logica complessiva alla base di [!UICONTROL Auto-Allocate] include sia le prestazioni misurate (come il tasso di conversione) che gli intervalli di affidabilità dei dati cumulativi. A differenza di un test A/B standard in cui il traffico viene suddiviso in modo uniforme tra le esperienze, [!UICONTROL Auto-Allocate] modifica l&#39;allocazione del traffico tra le esperienze.
+La logica complessiva alla base di [!UICONTROL Allocazione automatica] incorpora sia le prestazioni misurate (come il tasso di conversione) che gli intervalli di affidabilità dei dati cumulativi. A differenza di un test A/B standard in cui il traffico viene suddiviso in modo uniforme tra le esperienze, [!UICONTROL L&#39;allocazione automatica] modifica l&#39;allocazione del traffico tra le esperienze.
 
 * L&#39;80% dei visitatori è assegnato utilizzando la logica intelligente descritta di seguito.
 * Il 20% dei visitatori viene assegnato in modo casuale in tutte le esperienze per adattarsi al cambiamento del comportamento del visitatore.
@@ -88,17 +81,17 @@ L&#39;illustrazione mostra come il traffico assegnato a ogni esperienza progredi
 | ![Turno 2](/help/main/c-activities/automated-traffic-allocation/assets/aa-phase-2.png){width="200" zoomable="yes"} | **Turno 2**: durante questo turno, l’80% del traffico è assegnato alle esperienze A e D (40% ciascuna). Il 20% del traffico è allocato in modo casuale, quindi A, B, C e D ricevono rispettivamente il 5% del traffico. Durante questo turno, l’esperienza B registra buoni risultati.<ul><li>L&#39;algoritmo sceglie l&#39;esperienza D per passare al turno successivo perché ha il più alto tasso di conversione (come indicato dalla scala verticale di ogni attività).</li><li>L&#39;algoritmo sceglie anche l&#39;esperienza B per proseguire perché, tra le esperienze rimanenti, ha il limite superiore più alto dell&#39;intervallo di affidabilità Bernstein al 95%.</li></ul>Le esperienze D e B proseguono. |
 | ![Turno 3](/help/main/c-activities/automated-traffic-allocation/assets/aa-phase-3.png){width="200" zoomable="yes"} | **Turno 3**: durante questo turno, l’80% di traffico è assegnato alle esperienze B e D (40% ciascuna). Il 20% del traffico è allocato in modo casuale, quindi A, B, C e D ricevono rispettivamente il 5% del traffico. Durante questo turno, l&#39;esperienza D continua a fornire buoni risultati, così come l&#39;esperienza C.<ul><li>L&#39;algoritmo sceglie l&#39;esperienza D per passare al turno successivo perché ha il più alto tasso di conversione (come indicato dalla scala verticale di ogni attività).</li><li>L&#39;algoritmo sceglie anche l&#39;esperienza C per proseguire perché, tra le esperienze rimanenti, ha il limite superiore più alto dell&#39;intervallo di affidabilità Bernstein al 95%.</li></ul>Le esperienze D e C proseguono. |
 | ![Turno 4](/help/main/c-activities/automated-traffic-allocation/assets/aa-phase-4.png){width="200" zoomable="yes"} | **Turno 4**: durante questo turno, l’80% di traffico è assegnato alle esperienze C e D (40% ciascuna). Il 20% del traffico è allocato in modo casuale, quindi A, B, C e D ricevono rispettivamente il 5% del traffico. Durante questo turno, l&#39;esperienza C risulta avere buone prestazioni.<ul><li>L&#39;algoritmo sceglie l&#39;esperienza C per passare al turno successivo perché ha il più alto tasso di conversione (come indicato dalla scala verticale di ogni attività).</li><li>L&#39;algoritmo sceglie anche l&#39;esperienza D per proseguire perché, tra le esperienze rimanenti, ha il limite superiore più alto dell&#39;intervallo di affidabilità Bernstein al 95%.</li></ul>Le esperienze C e D proseguono. |
-| ![Turno n](/help/main/c-activities/automated-traffic-allocation/assets/aa-phase-n.png){width="200" zoomable="yes"} | **Turno *n***: mentre l&#39;attività progredisce, inizia a emergere un&#39;esperienza con prestazioni elevate e il processo continua fino a quando non si verifica un&#39;esperienza vincente. Quando l’intervallo di affidabilità dell’esperienza con il tasso di conversione più alto non si sovrappone all’intervallo di affidabilità di qualsiasi altra esperienza, viene etichettato come vincitore. Un distintivo [&#x200B; viene visualizzato nella pagina dell&#39;attività vincente](/help/main/c-activities/automated-traffic-allocation/determine-winner.md) e nell&#39;elenco [!UICONTROL Activity].<ul><li>L&#39;algoritmo sceglie l’esperienza C come chiaro vincitore.</li></ul>A questo punto l&#39;algoritmo indirizza l’80% del traffico all’esperienza C, mentre il 20% del traffico continua a essere indirizzato casualmente a tutte le esperienze (A, B, C e D). In totale, C ottiene l’85% del traffico. Nel caso improbabile che l’intervallo di affidabilità del vincitore inizi a sovrapporsi di nuovo cpn quello di un’altra esperienza, l’algoritmo ritorna al comportamento del turno 4 di cui sopra.<P>**Importante**: se hai scelto manualmente un vincitore in una fase precedente del processo, sarebbe stato facile scegliere l&#39;esperienza sbagliata. Per questo motivo, è consigliabile attendere che l’algoritmo determini l’esperienza vincente. |
+| ![Turno n](/help/main/c-activities/automated-traffic-allocation/assets/aa-phase-n.png){width="200" zoomable="yes"} | **Turno *n***: mentre l&#39;attività progredisce, inizia a emergere un&#39;esperienza con prestazioni elevate e il processo continua fino a quando non si verifica un&#39;esperienza vincente. Quando l’intervallo di affidabilità dell’esperienza con il tasso di conversione più alto non si sovrappone all’intervallo di affidabilità di qualsiasi altra esperienza, viene etichettato come vincitore. Un distintivo [viene visualizzato nella pagina dell&#39;attività vincente](/help/main/c-activities/automated-traffic-allocation/determine-winner.md) e nell&#39;elenco [!UICONTROL Attività].<ul><li>L&#39;algoritmo sceglie l’esperienza C come chiaro vincitore.</li></ul>A questo punto l&#39;algoritmo indirizza l’80% del traffico all’esperienza C, mentre il 20% del traffico continua a essere indirizzato casualmente a tutte le esperienze (A, B, C e D). In totale, C ottiene l’85% del traffico. Nel caso improbabile che l’intervallo di affidabilità del vincitore inizi a sovrapporsi di nuovo cpn quello di un’altra esperienza, l’algoritmo ritorna al comportamento del turno 4 di cui sopra.<P>**Importante**: se hai scelto manualmente un vincitore in una fase precedente del processo, sarebbe stato facile scegliere l&#39;esperienza sbagliata. Per questo motivo, è consigliabile attendere che l’algoritmo determini l’esperienza vincente. |
 
 >[!NOTE]
 >
 >Se un&#39;attività ha solo due esperienze, entrambe ottengono la stessa quantità di traffico fino a quando [!DNL Target] trova un&#39;esperienza vincente con il 75% di affidabilità. A quel punto, due terzi del traffico vengono assegnati al vincitore e un terzo al perdente. Successivamente, quando un’esperienza raggiunge il 95% di affidabilità, il 90% del traffico viene assegnato al vincitore e il 10% al perdente. [!DNL Target] invia sempre del traffico all&#39;esperienza &quot;perdente&quot; per evitare falsi positivi alla fine (ovvero, mantieni alcune esplorazioni).
 
-Dopo l&#39;attivazione di un&#39;attività [!UICONTROL Auto-Allocate], le seguenti operazioni dall&#39;interfaccia utente Target non sono consentite:
+Dopo l&#39;attivazione di un&#39;attività [!UICONTROL Allocazione automatica], le operazioni seguenti dell&#39;interfaccia utente Tar[!DNL]get non sono consentite:
 
 * Impostazione della modalità di Allocazione traffico su Manuale
 * Modifica del tipo di metrica obiettivo
-* Modifica delle opzioni nel pannello &quot;[!UICONTROL Advanced Settings]&quot;
+* Modifica delle opzioni nel pannello &quot;[!UICONTROL Impostazioni avanzate]&quot;
 
 ## Scopri come funziona l’allocazione automatica
 
@@ -106,11 +99,11 @@ Per ulteriori informazioni, vedere [L&#39;allocazione automatica può fornire ri
 
 ## Avvertenze {#section_5C83F89F85C14FD181930AA420435E1D}
 
-Considera le seguenti informazioni mentre lavori con [!UICONTROL Auto-Allocate]:
+Considera le seguenti informazioni mentre lavori con [!UICONTROL Allocazione automatica]:
 
-### La funzionalità [!UICONTROL Auto-Allocate] funziona con una sola impostazione metrica avanzata: [!UICONTROL Increment Count and Keep User in Activity]
+### La funzionalità [!UICONTROL Allocazione automatica] funziona con una sola impostazione di metrica avanzata: [!UICONTROL Incrementa il conteggio e mantieni l&#39;utente in attività]
 
-Le impostazioni di metrica avanzate seguenti non sono supportate: [!UICONTROL Increment Count], [!UICONTROL Release User], [!UICONTROL Allow Reentry and Increment Count] e [!UICONTROL Release User and Bar from Reentry].
+Le seguenti impostazioni di metrica avanzate non sono supportate: [!UICONTROL Incrementa il conteggio], [!UICONTROL Rilascia l&#39;utente], [!UICONTROL Consenti il reinserimento e incrementa il conteggio] e [!UICONTROL Rilascia l&#39;utente e impedisci il reinserimento].
 
 ### I visitatori di ritorno frequenti possono gonfiare i tassi di conversione dell’esperienza.
 
@@ -120,13 +113,13 @@ Se i visitatori di ritorno sono distribuiti in modo casuale, è più probabile c
 
 ### Differenzia tra i migliori e non tra i peggiori.
 
-[!UICONTROL Auto-Allocate] è in grado di distinguere tra esperienze dalle prestazioni migliori (e trovare un vincitore). Ci potrebbero essere momenti in cui non vi è abbastanza differenziazione tra le esperienze con prestazioni inferiori.
+[!UICONTROL Allocazione automatica] è in grado di distinguere tra esperienze dalle prestazioni migliori (e trovare un vincitore). Ci potrebbero essere momenti in cui non vi è abbastanza differenziazione tra le esperienze con prestazioni inferiori.
 
 Se desideri produrre una differenziazione statisticamente significativa tra tutte le esperienze, puoi utilizzare la modalità di allocazione manuale del traffico.
 
 ### I tassi di conversione correlati al tempo (o contestualmente variabili) possono distorcere le quantità di allocazione.
 
-Alcuni fattori che possono essere ignorati durante un test A/B standard perché influiscono ugualmente su tutte le esperienze non possono essere ignorati in un&#39;attività [!UICONTROL Auto-Allocate]. L&#39;algoritmo è sensibile ai tassi di conversione osservati.
+Alcuni fattori che possono essere ignorati durante un test A/B standard perché influiscono ugualmente su tutte le esperienze non possono essere ignorati in un&#39;attività [!UICONTROL Allocazione automatica]. L&#39;algoritmo è sensibile ai tassi di conversione osservati.
 
 Di seguito sono riportati alcuni esempi di fattori che possono influenzare le prestazioni dell&#39;esperienza in modo disuguale:
 
@@ -138,7 +131,7 @@ Di seguito sono riportati alcuni esempi di fattori che possono influenzare le pr
    * &quot;Jump-start your Monday&quot; ha una conversione più alta il lunedì.
    * &quot;Prepararsi per un inverno della costa orientale&quot; fornisce una maggiore conversione nelle zone della costa orientale o in quelle afflitte dall&#39;inverno.
 
-  L&#39;utilizzo di esperienze con rilevanza contestuale variabile può distorcere i risultati in un test [!UICONTROL Auto-Allocate] più che in un test A/B perché il test A/B analizza i risultati su un periodo più lungo.
+  L&#39;utilizzo di esperienze con rilevanza contestuale variabile può distorcere i risultati in un test [!UICONTROL Allocazione automatica] più che in un test A/B perché il test A/B analizza i risultati su un periodo più lungo.
 
 * Esperienze con ritardi diversi nella conversione possono essere dovute all’urgenza del messaggio.
 
@@ -146,9 +139,9 @@ Di seguito sono riportati alcuni esempi di fattori che possono influenzare le pr
 
 ## Domande frequenti {#section_0E72C1D72DE74F589F965D4B1763E5C3}
 
-Consulta le seguenti domande frequenti e risposte mentre lavori con [!UICONTROL Auto-Allocate] attività:
+Consulta le seguenti domande frequenti e risposte mentre lavori con [!UICONTROL attività Allocazione automatica]:
 
-### [!UICONTROL Analytics for Target] (A4T) supporta [!UICONTROL Auto-Allocate] attività?
+### [!UICONTROL Analytics for Target] (A4T) supporta [!UICONTROL le attività Allocazione automatica]?
 
 Sì. Per ulteriori informazioni, consulta [Supporto A4T per attività di allocazione automatica e targeting automatico](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md).
 
@@ -160,13 +153,13 @@ No. Solo i nuovi visitatori vengono allocati automaticamente. I visitatori di ri
 
 L’algoritmo garantisce un&#39;affidabilità del 95% o un tasso di falsa positività del 5% se si attende che appaia il badge del vincitore.
 
-### Quando [!UICONTROL Auto-Allocate] inizia ad allocare il traffico?
+### Quando [!UICONTROL Allocazione automatica] inizia ad allocare il traffico?
 
 L’algoritmo inizia a funzionare dopo che tutte le esperienze nell’attività hanno un minimo di 1.000 visitatori e 50 conversioni.
 
 ### Quanto aggressivamente viene applicato l’algoritmo?
 
-L&#39;80% del traffico viene servito con [!UICONTROL Auto-Allocate] e il 20% del traffico viene servito in modo casuale. Quando viene identificato un vincitore, l&#39;80% del traffico viene indirizzato a tale vincitore, mentre tutte le esperienze continuano a ricevere una parte del traffico come parte del 20%, inclusa l&#39;esperienza vincente.
+L&#39;80% del traffico viene gestito con [!UICONTROL Allocazione automatica] e il 20% del traffico viene gestito in modo casuale. Quando viene identificato un vincitore, l&#39;80% del traffico viene indirizzato a tale vincitore, mentre tutte le esperienze continuano a ricevere una parte del traffico come parte del 20%, inclusa l&#39;esperienza vincente.
 
 ### Le esperienze perdenti vengono mostrate?
 
@@ -176,64 +169,64 @@ Sì. Con un approccio di tipo slot machine, almeno il 20% del traffico è riserv
 
 Finché tutte le esperienze ottimizzate avranno ritardi simili, il comportamento sarà lo stesso di un’attività con un ciclo di conversione più veloce. Tuttavia, il raggiungimento della soglia di conversione di 50 richiede più tempo prima dell’inizio del processo di allocazione del traffico.
 
-### Differenze tra [!UICONTROL Auto-Allocate] e [!UICONTROL Automated Personalization]
+### Differenze tra [!UICONTROL Allocazione automatica] e [!UICONTROL Automated Personalization]
 
 [!UICONTROL Automated Personalization] utilizza gli attributi del profilo di ogni visitatore per determinare l&#39;esperienza migliore. In tal modo, non solo ottimizza, ma personalizza anche l’attività per quell’utente.
 
-[!UICONTROL Auto-Allocate] è invece un test A/B che produce un vincitore aggregato (l&#39;esperienza più popolare, ma non necessariamente quella più efficace per ogni visitatore).
+[!UICONTROL Allocazione automatica], invece, è un test A/B che produce un vincitore aggregato (l&#39;esperienza più popolare, ma non necessariamente la più efficace per ogni visitatore).
 
 ### I visitatori di ritorno gonfiano il tasso di conversione sulla metrica di successo?
 
 Attualmente, la logica favorisce i visitatori che si convertono rapidamente o che effettuano visite più frequenti, perché tali visitatori aumentano temporaneamente il tasso di conversione complessivo dell’esperienza a cui appartengono. L’algoritmo si regola frequentemente, quindi l’aumento del tasso di conversione viene amplificato in ogni istantanea. Se il sito riceve numerosi visitatori di ritorno, le loro conversioni possono potenzialmente aumentare il tasso di conversione complessivo per l’esperienza a cui appartengono. C&#39;è una buona probabilità che i visitatori di ritorno siano distribuiti in modo casuale, nel qual caso l’effetto aggregato (aumento dell’incremento) è mitigato. Per attenuare questo effetto, è consigliabile modificare il metodo di conteggio della metrica di sucesso per conteggiare ogni partecipante una sola volta.
 
-### Posso utilizzare il Calcolatore dimensione campione quando utilizzo [!UICONTROL Auto-Allocate] per stimare il tempo necessario all&#39;attività per identificare il vincitore?
+### Posso usare il Calcolatore dimensione campione quando utilizzo [!UICONTROL Allocazione automatica] per stimare il tempo necessario all&#39;attività per identificare il vincitore?
 
-È possibile utilizzare il [!DNL Adobe Target] [Calcolatore dimensioni campione](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6) esistente per ottenere una stima della durata di esecuzione del test. (Come con i tradizionali test A/B, applica la correzione Bonferroni se stai sottoponendo a test più di due offerte o più di una metrica/ipotesi di conversione.) Questo calcolatore è progettato per il tradizionale test A/B a orizzonte fisso e fornisce solo una stima. L&#39;utilizzo del calcolatore per un&#39;attività [!UICONTROL Auto-Allocate] è facoltativo perché [!UICONTROL Auto-Allocate] dichiara un vincitore. Non è necessario scegliere un punto fisso nel tempo per esaminare i risultati del test. I valori forniti sono sempre statisticamente validi.
+È possibile utilizzare il [!DNL Adobe Target] [Calcolatore dimensioni campione](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6) esistente per ottenere una stima della durata di esecuzione del test. (Come con i tradizionali test A/B, applica la correzione Bonferroni se stai sottoponendo a test più di due offerte o più di una metrica/ipotesi di conversione.) Questo calcolatore è progettato per il tradizionale test A/B a orizzonte fisso e fornisce solo una stima. L&#39;utilizzo del calcolatore per un&#39;attività di [!UICONTROL Allocazione automatica] è facoltativo perché [!UICONTROL Allocazione automatica] dichiara un vincitore. Non è necessario scegliere un punto fisso nel tempo per esaminare i risultati del test. I valori forniti sono sempre statisticamente validi.
 
 [!DNL Adobe] esperimenti interni hanno rilevato quanto segue:
 
-* Quando esegue il test esattamente di due esperienze, [!UICONTROL Auto-Allocate] trova un vincitore più rapidamente del test a orizzonte fisso (ovvero l&#39;intervallo di tempo suggerito dal calcolatore delle dimensioni del campione) quando la differenza di prestazioni tra le esperienze è grande. Tuttavia, [!UICONTROL Auto-Allocate] potrebbe richiedere più tempo per identificare un vincitore quando la differenza di prestazioni tra le esperienze è ridotta. In questi casi, i test a orizzonte fisso si sarebbero in genere conclusi senza un risultato statisticamente significativo.
-* Quando si sottopongono a test più di due esperienze, [!UICONTROL Auto-Allocate] trova un vincitore più rapidamente del test a orizzonte fisso (ovvero l&#39;intervallo di tempo suggerito dal calcolatore delle dimensioni del campione) quando una singola esperienza supera nettamente tutte le altre esperienze. Quando due o più esperienze sono entrambe &quot;vincenti&quot; rispetto ad altre ma strettamente correlate tra loro, [!UICONTROL Auto-Allocate] potrebbe richiedere più tempo per determinare quale sia superiore. In questi casi, i test a orizzonte fisso in genere si sarebbero conclusi concludendo che le esperienze &quot;vincenti&quot; erano migliori rispetto a quelle con prestazioni inferiori, ma non avevano identificato quale era superiore.
+* Quando si esegue il test esattamente di due esperienze, [!UICONTROL Allocazione automatica] trova un vincitore più rapidamente del test a orizzonte fisso (ovvero, l&#39;intervallo di tempo suggerito dal calcolatore delle dimensioni del campione) quando la differenza di prestazioni tra le esperienze è grande. Tuttavia, [!UICONTROL Allocazione automatica] potrebbe richiedere più tempo per identificare un vincitore quando la differenza di prestazioni tra le esperienze è ridotta. In questi casi, i test a orizzonte fisso si sarebbero in genere conclusi senza un risultato statisticamente significativo.
+* Quando si sottopongono a test più di due esperienze, [!UICONTROL Allocazione automatica] trova un vincitore più rapidamente del test a orizzonte fisso (ovvero, l&#39;intervallo di tempo suggerito dal calcolatore delle dimensioni del campione) quando una singola esperienza supera nettamente tutte le altre esperienze. Quando due o più esperienze sono entrambe &quot;vincenti&quot; rispetto ad altre ma molto simili tra loro, [!UICONTROL Allocazione automatica] potrebbe richiedere più tempo per determinare quale sia superiore. In questi casi, i test a orizzonte fisso in genere si sarebbero conclusi concludendo che le esperienze &quot;vincenti&quot; erano migliori rispetto a quelle con prestazioni inferiori, ma non avevano identificato quale era superiore.
 
-### È necessario rimuovere un&#39;esperienza insoddisfacente da un&#39;attività [!UICONTROL Auto-Allocate] per velocizzare il processo di determinazione di un vincitore?
+### È necessario rimuovere un&#39;esperienza insoddisfacente da un&#39;attività [!UICONTROL Allocazione automatica] per velocizzare il processo di determinazione di un vincitore?
 
-Non c’è motivo di rimuovere un’esperienza insoddisfacente. [!UICONTROL Auto-Allocate] fornisce automaticamente esperienze con prestazioni elevate più spesso e fornisce esperienze con prestazioni inferiori con minore frequenza. Lasciare un’esperienza insoddisfacente nell’attività non influisce in modo significativo sulla velocità per determinare un vincitore.
+Non c’è motivo di rimuovere un’esperienza insoddisfacente. [!UICONTROL Allocazione automatica] fornisce automaticamente esperienze con prestazioni elevate più spesso e fornisce esperienze con prestazioni inferiori meno spesso. Lasciare un’esperienza insoddisfacente nell’attività non influisce in modo significativo sulla velocità per determinare un vincitore.
 
 Il 20% dei visitatori viene assegnato in modo casuale attraverso tutte le esperienze. La quantità di traffico utilizzata per un’esperienza insoddisfacente è minima (20% diviso per il numero di esperienze).
 
-### Posso cambiare la metrica obiettivo a metà strada attraverso un&#39;attività [!UICONTROL Auto-Allocate]? {#change-metric}
+### Posso cambiare la metrica obiettivo a metà strada attraverso un&#39;attività [!UICONTROL Allocazione automatica]? {#change-metric}
 
 [!DNL Adobe] non consiglia di modificare la metrica obiettivo a metà strada in un&#39;attività. Anche se è possibile modificare la metrica dell’obiettivo durante un’attività utilizzando l’interfaccia utente [!DNL Target], è sempre necessario avviare una nuova attività. [!DNL Adobe] non garantisce ciò che accade se si modifica la metrica obiettivo in un&#39;attività dopo che è in esecuzione.
 
-Questo consiglio si applica alle attività [!UICONTROL Auto-Allocate], [!UICONTROL Auto-Target] e [!UICONTROL Automated Personalization] che utilizzano [!DNL Target] o [!DNL Analytics] (A4T) come origine per la generazione di rapporti.
+Questo consiglio si applica alle attività [!UICONTROL Allocazione automatica], [!UICONTROL Targeting automatico] e [!UICONTROL Automated Personalization] che utilizzano [!DNL Target] o [!DNL Analytics] (A4T) come origine per la generazione di rapporti.
 
-### Posso cambiare l&#39;origine per la generazione di rapporti nel corso di un&#39;attività [!UICONTROL Auto-Allocate]? {#change-reporting}
+### Posso cambiare l&#39;origine per la generazione di rapporti nel corso di un&#39;attività [!UICONTROL Allocazione automatica]? {#change-reporting}
 
 [!DNL Adobe] non consiglia di cambiare l&#39;origine per la generazione di rapporti a metà strada attraverso un&#39;attività. Anche se è possibile modificare l&#39;origine per la generazione di rapporti (da [!DNL Target] a A4T o in modo opposto) durante un&#39;attività utilizzando l&#39;interfaccia utente di [!DNL Target], è sempre necessario avviare una nuova attività. [!DNL Adobe] non garantisce ciò che accade se si modifica l&#39;origine per la generazione di rapporti in un&#39;attività dopo che è in esecuzione.
 
-Questo consiglio si applica alle attività [!UICONTROL Auto-Allocate], [!UICONTROL Auto-Target] e [!UICONTROL Automated Personalization] che utilizzano [!DNL Target] o [!DNL Analytics] (A4T) come origine per la generazione di rapporti.
+Questo consiglio si applica alle attività [!UICONTROL Allocazione automatica], [!UICONTROL Targeting automatico] e [!UICONTROL Automated Personalization] che utilizzano [!DNL Target] o [!DNL Analytics] (A4T) come origine per la generazione di rapporti.
 
-### È possibile utilizzare l&#39;opzione [!UICONTROL Reset Report Data] durante l&#39;esecuzione di un&#39;attività [!UICONTROL Auto-Allocate]?
+### È possibile utilizzare l&#39;opzione [!UICONTROL Ripristina dati report] durante l&#39;esecuzione di un&#39;attività [!UICONTROL Allocazione automatica]?
 
-L&#39;utilizzo dell&#39;opzione [!UICONTROL Reset Report Data] per le attività [!UICONTROL Auto-Allocate] non è consigliato. Anche se rimuove i dati di reporting visibili, questa opzione non rimuove tutti i record di formazione dal modello [!UICONTROL Auto-Allocate]. Invece di utilizzare l&#39;opzione [!UICONTROL Reset Report Data] per le attività [!UICONTROL Auto-Allocate], crea una nuova attività e disattiva l&#39;attività originale. Questa guida si applica anche alle attività [!UICONTROL Auto-Target] e [!UICONTROL Automated Personalization].
+L&#39;utilizzo dell&#39;opzione [!UICONTROL Ripristina dati report] per le attività [!UICONTROL Allocazione automatica] non è consigliato. Anche se rimuove i dati di reporting visibili, questa opzione non rimuove tutti i record di formazione dal modello [!UICONTROL Allocazione automatica]. Invece di utilizzare l&#39;opzione [!UICONTROL Ripristina dati report] per le attività [!UICONTROL Allocazione automatica], crea una nuova attività e disattiva l&#39;attività originale. Questa guida si applica anche alle attività [!UICONTROL Targeting automatico] e [!UICONTROL Automated Personalization].
 
-### In che modo [!UICONTROL Auto-Allocate] genera i modelli rispetto agli ambienti?
+### In che modo [!UICONTROL Allocazione automatica] genera modelli in relazione agli ambienti?
 
-[!UICONTROL Auto-Allocate] crea modelli in base al comportamento di traffico e conversione registrato solo nell&#39;ambiente predefinito. Per impostazione predefinita, [!UICONTROL Production] è l&#39;ambiente predefinito, ma l&#39;ambiente predefinito può essere modificato in [!DNL Target] ([Amministrazione > Ambienti](/help/main/administrating-target/environments.md)).
+[!UICONTROL Allocazione automatica] crea modelli in base al comportamento di traffico e conversione registrato solo nell&#39;ambiente predefinito. Per impostazione predefinita, [!UICONTROL Produzione] è l&#39;ambiente predefinito, ma l&#39;ambiente predefinito può essere modificato in [!DNL Target] ([Amministrazione > Ambienti](/help/main/administrating-target/environments.md)).
 
-Se un hit si verifica in un altro ambiente (non predefinito), il traffico viene distribuito in base al comportamento di conversione osservato nell’ambiente predefinito. Il risultato di tale hit (conversione o non conversione) viene registrato a scopo di reporting ma non considerato nel modello [!UICONTROL Auto-Allocate].
+Se un hit si verifica in un altro ambiente (non predefinito), il traffico viene distribuito in base al comportamento di conversione osservato nell’ambiente predefinito. Il risultato di tale hit (conversione o non conversione) viene registrato a scopo di reporting ma non considerato nel modello [!UICONTROL Allocazione automatica].
 
 Quando selezioni un altro ambiente, il rapporto mostra il traffico e le conversioni per tale ambiente. L’ambiente selezionato predefinito per un rapporto è l’ambiente predefinito a livello di account selezionato. L’ambiente predefinito non può essere impostato in base alle singole attività.
 
-### Un&#39;attività [!UICONTROL Auto-Allocate] può modificare l&#39;intervallo di lookback nel corso di un test per considerare la possibilità di modificare le tendenze nel tempo?
+### Un&#39;attività [!UICONTROL Allocazione automatica] può modificare l&#39;intervallo di lookback nel corso di un test per considerare la possibilità di modificare le tendenze nel tempo?
 
 Ad esempio, l’attività può considerare il mese di dicembre per decidere come allocare il traffico, anziché esaminare i dati dei visitatori di settembre (quando è iniziato il test)?
 
-No, [!UICONTROL Auto-Allocate] considera le prestazioni dell&#39;intera attività.
+No, [!UICONTROL Allocazione automatica] considera le prestazioni dell&#39;intera attività.
 
-### [!UICONTROL Auto-Allocate] mostra un&#39;esperienza vincente a un visitatore che ritorna, se l&#39;esperienza vincente è diversa da quella che ha visto quando si è qualificato per l&#39;attività?
+### [!UICONTROL Allocazione automatica] mostra un&#39;esperienza vincente a un visitatore che ritorna, se l&#39;esperienza vincente è diversa da quella che ha visto quando si è qualificato per l&#39;attività?
 
-[!UICONTROL Auto-Allocate] utilizza le decisioni permanenti per gli stessi motivi per cui le attività [!UICONTROL A/B Test] sono permanenti. L’allocazione del traffico funziona solo per i nuovi visitatori.
+[!UICONTROL Allocazione automatica] utilizza le decisioni permanenti per gli stessi motivi per cui le attività [!UICONTROL Test A/B] sono permanenti. L’allocazione del traffico funziona solo per i nuovi visitatori.
 
 ## Video di formazione {#section_893E5B36DC4A415C9B1D287F51FCCB83}
 
@@ -252,9 +245,9 @@ Questo video include informazioni su come impostare l&#39;allocazione del traffi
 
 ### Creazione di test A/B (8:36) ![Icona esercitazione](/help/main/assets/tutorial.png)
 
-In questo video viene illustrato come creare un test A/A utilizzando il flusso di lavoro guidato in tre passaggi di Target. [!UICONTROL Auto-Allocate] è discusso a partire dal 4:45.
+In questo video viene illustrato come creare un test A/A utilizzando il flusso di lavoro guidato in tre passaggi di Target. [!UICONTROL Allocazione automatica] è discusso a partire da 4:45.
 
 * Crea un&#39;attività A/B in [!DNL Adobe Target]
 * Allocare il traffico con suddivisione manuale o automatica del traffico
 
->[!VIDEO](https://video.tv.adobe.com/v/36325?captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/17391)

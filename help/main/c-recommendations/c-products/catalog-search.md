@@ -1,40 +1,37 @@
 ---
 keywords: catalogo ricerca;catalogo;ricerca;esclusione;raccolta;filtro;consigli;catalog search;search;exclusion;collection;filter;recommendations
-description: Scopri come utilizzare  [!DNL Recommendations] [!UICONTROL Catalog Search] per individuare prodotti o contenuti, rimuovere elementi dal catalogo e altro ancora.
-title: Come si utilizza  [!DNL Recommendations] [!UICONTROL Catalog Search]?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=it#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."
+description: Scopri come utilizzare la  [!DNL Recommendations] [!UICONTROL Ricerca nel catalogo] per individuare prodotti o contenuti, rimuovere elementi dal catalogo e altro ancora.
+title: Come si utilizza  [!DNL Recommendations] [!UICONTROL Ricerca nel catalogo]?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."
 feature: Recommendations
 exl-id: 925fea97-e2c5-4883-84e3-fd357a8ee8d9
 TQID: https://experienceleague.adobe.com/en3hkFsDjEE86Tc-3vPSiZFy0K47SftZMN6RW0INNic
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 16fb7a1902ea76cab56a93fa141a32a3c6bc4467
 workflow-type: tm+mt
-source-wordcount: 519
+source-wordcount: 552
 ht-degree: 21%
 
 ---
 
-# [!UICONTROL Catalog Search]
+# [!UICONTROL Ricerca nel catalogo]
 
-La pagina [!UICONTROL Catalog Search] in [!DNL Adobe Recommendations] consente di individuare prodotti o contenuti nel catalogo. L&#39;operazione di base che è possibile eseguire in questa pagina è la ricerca di un elemento. Inoltre, puoi modificare l’ambiente, filtrare i facet, modificare le colonne della tabella, aggiungere nuovi facet di ricerca e altro ancora.
+La pagina [!UICONTROL Ricerca nel catalogo] in [!DNL Adobe Recommendations] consente di individuare i prodotti o il contenuto nel catalogo. L&#39;operazione di base che è possibile eseguire in questa pagina è la ricerca di un elemento. Inoltre, puoi modificare l’ambiente, filtrare i facet, modificare le colonne della tabella, aggiungere nuovi facet di ricerca e altro ancora.
 
 I cataloghi si riferiscono all’intero set di prodotti (entità). Il catalogo può contenere molte raccolte, un modo per organizzare i prodotti in contenitori logici.
 
-## Accedi a [!UICONTROL Catalog Search]
+## Accedi a [!UICONTROL Ricerca nel catalogo]
 
-1. Per accedere alla pagina [!UICONTROL Catalog Search], fare clic su **[!UICONTROL Recommendations]** > **[!UICONTROL Catalog Search]**.
+1. Per accedere alla pagina [!UICONTROL Ricerca nel catalogo], fai clic su **[!UICONTROL Consigli]** > **[!UICONTROL Ricerca nel catalogo]**.
 
-1. (Facoltativo) Per applicare i filtri alla ricerca, fai clic sull&#39;icona **[!UICONTROL Show Filters]** ( ![Mostra icona Filtri](/help/main/assets/icons/Filter.svg) ). È possibile filtrare per [!UICONTROL Environment], [!UICONTROL Collections], [!UICONTROL Category], [!UICONTROL Brand], [!UICONTROL Inventory] e [!UICONTROL Value].
+1. (Facoltativo) Per applicare i filtri alla ricerca, fai clic sull&#39;icona **[!UICONTROL Mostra filtri]** ( ![Mostra icona filtri](/help/main/assets/icons/Filter.svg) ). Puoi filtrare per [!UICONTROL Ambiente], [!UICONTROL Raccolte], [!UICONTROL Categoria], [!UICONTROL Marchio], [!UICONTROL Inventario] e [!UICONTROL Valore].
 
 ## Eseguire una ricerca semplice
 
-1. Digitare un termine nel campo **[!UICONTROL Search In]**.
+1. Digitare un termine di ricerca nel campo **[!UICONTROL Cerca in]**.
 
-1. (Facoltativo) È possibile perfezionare la ricerca selezionando un&#39;opzione di ricerca dal menu delle opzioni visualizzato quando si fa clic sulla freccia rivolta verso il basso nel campo [!UICONTROL Search In].
+1. (Facoltativo) Puoi perfezionare la ricerca selezionando un&#39;opzione di ricerca dal menu delle opzioni visualizzato quando fai clic sulla freccia rivolta verso il basso nel campo [!UICONTROL Cerca in].
 
    Le opzioni di ricerca includono:
 
@@ -84,7 +81,7 @@ Puoi visualizzare i dettagli di un singolo elemento, tra cui ID, nome, messaggio
 
 1. Fare clic su un elemento nei risultati della ricerca per visualizzarne i dettagli.
 
-1. Fare clic su **[!UICONTROL Remove from Catalog]**.
+1. Fare clic su **[!UICONTROL Rimuovi dal catalogo]**.
 
 1. Confermare la rimozione dell&#39;elemento.
 
@@ -118,7 +115,7 @@ You can create [collections](/help/main/c-recommendations/c-products/collections
 
 1. Fare clic sull&#39;icona Mostra filtri ( ![icona Mostra filtri](/help/main/assets/icons/Filter.svg) ).
 
-1. Selezionare l&#39;ambiente desiderato dall&#39;elenco a discesa **[!UICONTROL Environment]**.
+1. Selezionare l&#39;ambiente desiderato dall&#39;elenco a discesa **[!UICONTROL Ambiente]**.
 
 <!--
 ## Modify the Catalog Search page (filters and columns)
@@ -142,9 +139,9 @@ Keep in mind that the additional filter facets are available in the current sess
 
 ## Modifica colonne
 
-È possibile modificare le colonne attive nella pagina [!UICONTROL Catalog Search].
+Puoi modificare le colonne attive nella pagina [!UICONTROL Ricerca nel catalogo].
 
-1. Fare clic sull&#39;icona **[!UICONTROL Customize Table]** ( ![Icona Personalizza tabella](/help/main/assets/icons/ColumnSetting.svg) ).
+1. Fai clic sull&#39;icona **[!UICONTROL Personalizza tabella]** ( ![Personalizza tabella icona](/help/main/assets/icons/ColumnSetting.svg) ).
 
 1. Seleziona o deseleziona le colonne desiderate da visualizzare o nascondere.
 

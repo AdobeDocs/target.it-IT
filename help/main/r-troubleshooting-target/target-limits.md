@@ -6,24 +6,14 @@ feature: Troubleshooting
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
 TQID: https://experienceleague.adobe.com/C9NXf7sgqNPwX-vH5VmU-GhJApj-tHzQcf7t7w-P8i4
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
-  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
-  - id: f7c7de77-382f-4f48-8b36-61a170f06d3d
-subfeature_v2:
-  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eebid: c93393a4-e558-47e1-992e-c91ed4d480ceid: f7c7de77-382f-4f48-8b36-61a170f06d3d
+subfeature_v2: id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 1761
-ht-degree: 74%
+source-wordcount: 1772
+ht-degree: 73%
 
 ---
 
@@ -131,7 +121,7 @@ Limiti dei caratteri e altri limiti (dimensioni dell’offerta, pubblico, profil
 
 * Il numero massimo di entità a cui puoi fare riferimento in una progettazione, tramite codifica fissa o cicli, è 99.
 * Per prestazioni ottimali, si consiglia di mantenere il catalogo entro il limite di un milione di elementi per ambiente e di dieci milioni di elementi per tutti gli ambienti.
-* Il limite massimo è di dieci milioni di elementi per ambiente e 100 milioni di elementi per tutti gli ambienti. Le prestazioni dell&#39;interfaccia utente [!UICONTROL Catalog Search] sono influenzate da un milione a dieci milioni di elementi per ambiente. Tuttavia, [!DNL Target Recommendations] continua a produrre e a fornire i consigli.
+* Il limite massimo è di dieci milioni di elementi per ambiente e 100 milioni di elementi per tutti gli ambienti. Se hai tra un milione e dieci milioni di elementi per ambiente, le prestazioni dell&#39;interfaccia utente di [!UICONTROL Ricerca nel catalogo] ne risentono. Tuttavia, [!DNL Target Recommendations] continua a produrre e a fornire i consigli.
 
 ### Attributi personalizzati entità
 
@@ -170,7 +160,7 @@ Limiti dei caratteri e altri limiti (dimensioni dell’offerta, pubblico, profil
 
 ### Esperienze per attività
 
-* **Limite**: 2.000 esperienze per attività [!UICONTROL Experience Targeting] (XT), [!UICONTROL A/B Test], [!UICONTROL Multivariate Test] (MVT) e [!UICONTROL Auto-Target].
+* **Limite**: 2.000 esperienze per [!UICONTROL Targeting esperienza] (XT), [!UICONTROL Test A/B], [!UICONTROL Test multivariato] (MVT) e [!UICONTROL Attività Targeting automatico].
 
   30.000 esperienze per attività Automated Personalization.
 

@@ -5,8 +5,8 @@ hide: true
 exl-id: 0fdfa429-d9bd-4990-8f96-cd9deb273aa0
 source-git-commit: fea4d9e87ad8417de9d820ee3556796fba112dc1
 workflow-type: tm+mt
-source-wordcount: '390'
-ht-degree: 3%
+source-wordcount: '411'
+ht-degree: 2%
 
 ---
 
@@ -36,7 +36,7 @@ Utilizza il targeting a livello di utente quando desideri:
 * Distribuire gradualmente una funzione in base alla percentuale di utenti
 * Ottimizza l’esperienza in base agli attributi dei singoli utenti (come il dominio e-mail o i dati del profilo)
 
-### Limitazioni  {#user-level-limitations}
+### Limitazioni {#user-level-limitations}
 
 Il targeting a livello di utente non è progettato per i seguenti scenari:
 
@@ -60,7 +60,7 @@ Utilizza il targeting a livello di organizzazione quando desideri:
 * Eseguire un rollout regionale
 * Funzioni gate basate sul livello di adesione o abbonamento
 
-### Limitazioni  {#org-level-limitations}
+### Limitazioni {#org-level-limitations}
 
 Il targeting a livello di organizzazione e di ambiente non è progettato per i seguenti scenari:
 
@@ -80,7 +80,7 @@ Il targeting a livello di organizzazione e di ambiente non è progettato per i s
 
 ## Scelta della modalità corretta {#choosing}
 
-* Se la domanda è *&quot;Quali utenti dovrebbero visualizzare questa funzione?&quot;* → utilizzare **targeting a livello di utente**
-* Se la domanda è *&quot;Quali organizzazioni o ambienti dovrebbero disporre di questa funzione?&quot;* → utilizzare **org e il targeting a livello di ambiente**
+* Se la domanda è *&quot;Quali utenti dovrebbero visualizzare questa funzionalità?&quot;* → Usa **targeting a livello di utente**
+* Se la domanda è *&quot;Quali organizzazioni o ambienti dovrebbero avere questa funzione?&quot;* → Utilizzare **org e il targeting a livello di ambiente**
 
 <!-- -->

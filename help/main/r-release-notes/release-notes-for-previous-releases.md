@@ -5,44 +5,14 @@ title: Quali funzioni sono incluse nelle versioni precedenti?
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
 TQID: https://experienceleague.adobe.com/cjheajZKokzwCNspfQckh6PHh5ecetdj7vZrrq9IqXw
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
-  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
-  - id: f7c7de77-382f-4f48-8b36-61a170f06d3d
-subfeature_v2:
-  - id: df62f171-ac37-440f-8f0f-f41a72ebdd34
-  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
-  - id: fff07a91-d479-45f4-ae95-9762e79b1b7c
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: c18d9e03-ac7d-4811-9c92-3e92ddc70ade
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: e6ff21d3-dec6-4298-8590-7c749fffaf78
-  - id: e9001ce2-5245-4a8e-8601-dd958009072f
-  - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eebid: c93393a4-e558-47e1-992e-c91ed4d480ceid: f7c7de77-382f-4f48-8b36-61a170f06d3d
+subfeature_v2: id: df62f171-ac37-440f-8f0f-f41a72ebdd34id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0aid: fff07a91-d479-45f4-ae95-9762e79b1b7c
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bbbea26f-9621-49eb-9ab8-e06fb3bbce8cid: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: c18d9e03-ac7d-4811-9c92-3e92ddc70adeid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: c4147b6e-073b-4d3c-9ab1-d60f2f4434efid: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d095671a-1355-40aa-8b5f-06c33c68080bid: d3cdead0-685a-4489-9250-4bb709942f66id: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: e6ff21d3-dec6-4298-8590-7c749fffaf78id: e9001ce2-5245-4a8e-8601-dd958009072fid: eb30f47f-d87a-400f-8f78-63ce7979ff56id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
 source-git-commit: 74f3658c059fce7534f974d25fa5536ff3d52129
 workflow-type: tm+mt
-source-wordcount: 68339
-ht-degree: 50%
+source-wordcount: 70383
+ht-degree: 49%
 
 ---
 
@@ -64,7 +34,7 @@ Le note sulla versione sono elencate in ordine decrescente per mese e anno di ri
 
 +++Vedi i dettagli
 
-* **Convalida Regex per gli URL consentiti.** È stato risolto un problema che impediva l&#39;immissione di espressioni regolari non valide nel campo **[!UICONTROL Allowed URLs]** senza la corretta convalida. (TGT-55095)
+* **Convalida Regex per gli URL consentiti.** È stato risolto un problema che impediva l&#39;immissione di espressioni regolari non valide nel campo **[!UICONTROL URL consentiti]** senza la convalida corretta. (TGT-55095)
 
 +++
 
@@ -72,11 +42,11 @@ Le note sulla versione sono elencate in ordine decrescente per mese e anno di ri
 
 +++Vedi i dettagli
 
-* **Pulsanti nella finestra di dialogo [!UICONTROL Edit Audience].** È stato risolto un problema che impediva il rendering corretto dei pulsanti nella finestra di dialogo **[!UICONTROL Edit Audience]**. (TGT-54638)
+* **Pulsanti nella [!UICONTROL finestra di dialogo Modifica pubblico].** È stato risolto un problema a causa del quale il rendering dei pulsanti nella finestra di dialogo **[!UICONTROL Modifica pubblico]** non veniva più eseguito correttamente. (TGT-54638)
 
 +++
 
-Server MCP **[!DNL Adobe Target] (Beta pubblico)**
+Server MCP **[!DNL Adobe Target](Beta pubblico)**
 
 +++Vedi i dettagli
 
@@ -94,31 +64,31 @@ Per ulteriori informazioni, vedere [[!DNL Adobe Target] Server MCP](../c-integra
 
 +++Vedi i dettagli
 
-* **[!UICONTROL Graph View]non sincronizzati con la tabella e il download.** È stato risolto un problema che causava la visualizzazione di metriche mancanti o pari a zero in **[!UICONTROL Graph View]** per alcuni intervalli di date anche se **[!UICONTROL Table View]** e il report scaricato mostravano ancora i valori corretti. (TGT-54998)
+* **[!UICONTROL Visualizzazione grafico] non sincronizzata con la tabella e il download.** È stato risolto un problema che causava la visualizzazione di metriche mancanti o pari a zero in **[!UICONTROL Vista grafico]** per alcuni intervalli di date anche se **[!UICONTROL Vista tabella]** e il rapporto scaricato mostravano ancora i valori corretti. (TGT-54998)
 
 +++
 
-**[!UICONTROL Audiences]**
+**[!UICONTROL Tipi di pubblico]**
 
 +++Vedi i dettagli
 
-* **Elenco di utilizzo del pubblico non completamente sottoposto a rendering.** È stato risolto un problema a causa del quale la sezione **[!UICONTROL Usage]** nei dettagli del pubblico poteva visualizzare solo un sottoinsieme di attività mappate anche quando a quel pubblico erano associate attività aggiuntive. (TGT-55094)
+* **Elenco di utilizzo del pubblico non completamente sottoposto a rendering.** È stato risolto un problema a causa del quale la sezione **[!UICONTROL Utilizzo]** nei dettagli del pubblico poteva visualizzare solo un sottoinsieme di attività mappate, anche quando a quel pubblico erano associate attività aggiuntive. (TGT-55094)
 
 +++
 
-**[!UICONTROL Administration]**
+**[!UICONTROL Amministrazione]**
 
 +++Vedi i dettagli
 
-* **Conferma più chiara per l&#39;offuscamento dell&#39;IP dell&#39;ultimo ottetto.** Quando modifichi **[!UICONTROL Obfuscate Visitor IP addresses]** in **[!UICONTROL Last octet]** il **[!UICONTROL Administration]** > **[!UICONTROL Implementation]**, nella finestra di dialogo di conferma viene ora spiegato che [!DNL Target] nasconde l&#39;ultimo ottetto dell&#39;indirizzo IP del visitatore. (TGT-44821)
+* **Conferma più chiara per l&#39;offuscamento dell&#39;IP dell&#39;ultimo ottetto.** Quando modifichi **[!UICONTROL Offusca indirizzi IP visitatore]** in **[!UICONTROL Ultimo ottetto]** in **[!UICONTROL Amministrazione]** > **[!UICONTROL Implementazione]**, la finestra di dialogo di conferma ora spiega che [!DNL Target] nasconde l&#39;ultimo ottetto dell&#39;indirizzo IP del visitatore. (TGT-44821)
 
 +++
 
-**[!UICONTROL Visual Experience Composer] (VEC)**
+**[!UICONTROL Compositore esperienza visivo] (VEC)**
 
 +++Vedi i dettagli
 
-* **Pagina vuota o incompleta con Compositore esperienza avanzato.** È stato risolto un problema che impediva a [!UICONTROL Visual Experience Composer] di caricare il sito nell&#39;editor quando **[!UICONTROL Enhanced Experience Composer]** era abilitato. (TGT-54576)
+* **Pagina vuota o incompleta con Compositore esperienza avanzato.** È stato risolto un problema che impediva al [!UICONTROL Compositore esperienza visivo] di caricare il sito nell&#39;editor quando **[!UICONTROL Compositore esperienza avanzato]** era abilitato. (TGT-54576)
 
 +++
 
@@ -128,11 +98,11 @@ Per ulteriori informazioni, vedere [[!DNL Adobe Target] Server MCP](../c-integra
 
 +++Vedi i dettagli
 
-* **Errore con il filtro del pubblico nei report.** È stato risolto un problema che causava un errore nella sezione Reporting dell&#39;interfaccia utente [!DNL Target] in seguito alla modifica del filtro del pubblico in **[!UICONTROL Goals & Settings]**. (TGT-55006)
+* **Errore con il filtro del pubblico nei report.** È stato risolto un problema che causava un errore nella sezione Reporting dell&#39;interfaccia utente [!DNL Target] a causa della modifica del filtro del pubblico in **[!UICONTROL Obiettivi e impostazioni]**. (TGT-55006)
 
-* **Ordina le attività per priorità.** È stato aggiunto l’ordinamento per priorità nell’elenco delle attività utilizzando l’intestazione di colonna **[!UICONTROL Priority]**, con ordine crescente e decrescente coerente con le altre colonne ordinabili. (TGT-54948)
+* **Ordina le attività per priorità.** È stato aggiunto l&#39;ordinamento per priorità nell&#39;elenco delle attività utilizzando l&#39;intestazione di colonna **[!UICONTROL Priorità]**, con ordine crescente e decrescente coerente con le altre colonne ordinabili. (TGT-54948)
 
-* **Proprietà aggiuntive dell&#39;attività non mantenute dopo il salvataggio.** È stato risolto un problema che impediva la persistenza di alcune selezioni di **[!UICONTROL Properties]** dopo il salvataggio e la riapertura di un&#39;attività. (TGT-53889)
+* **Proprietà aggiuntive dell&#39;attività non mantenute dopo il salvataggio.** È stato risolto un problema che impediva la persistenza di alcune selezioni di **[!UICONTROL Proprietà]** dopo il salvataggio e la riapertura di un&#39;attività. (TGT-53889)
 
 +++
 
@@ -140,7 +110,7 @@ Per ulteriori informazioni, vedere [[!DNL Adobe Target] Server MCP](../c-integra
 
 +++Vedi i dettagli
 
-* **Etichette giapponesi per [!UICONTROL Page Delivery] operatori di regole.** Sono state corrette le stringhe illeggibili o danneggiate per le etichette degli operatori delle regole di consegna pagina nell’interfaccia utente giapponese. (TGT-53097)
+* **Etichette giapponesi per [!UICONTROL Operatori regola di consegna pagine].** Sono state corrette le stringhe illeggibili o danneggiate per le etichette degli operatori delle regole di consegna pagina nell’interfaccia utente giapponese. (TGT-53097)
 
 +++
 
@@ -152,13 +122,13 @@ Per ulteriori informazioni, vedere [[!DNL Adobe Target] Server MCP](../c-integra
 
 +++
 
-**[!UICONTROL Visual Experience Composer] (VEC)**
+**[!UICONTROL Compositore esperienza visivo] (VEC)**
 
 +++Vedi i dettagli
 
-* **Modifiche visualizzate nell&#39;esperienza errata nell&#39;editor.** È stato risolto un problema che causava la visualizzazione di un&#39;eliminazione o altra modifica nell&#39;esperienza errata dopo il passaggio tra le esperienze in [!UICONTROL Visual Experience Composer]. (TGT-54955)
+* **Modifiche visualizzate nell&#39;esperienza errata nell&#39;editor.** È stato risolto un problema che causava la visualizzazione di un&#39;eliminazione o di un&#39;altra modifica nell&#39;esperienza errata dopo il passaggio tra le esperienze nel [!UICONTROL Compositore esperienza visivo]. (TGT-54955)
 
-* **Modifiche rimosse durante l&#39;eliminazione di Inserisci HTML.** È stato risolto un problema a causa del quale l&#39;eliminazione del blocco **[!UICONTROL HTML]** aggiuntivo aggiunto con **[!UICONTROL Insert before]** o **[!UICONTROL Insert after]** rimuoveva anche una modifica collegata priva di selettore CSS. (TGT-54530)
+* **Modifiche rimosse durante l&#39;eliminazione di Inserisci HTML.** È stato risolto un problema a causa del quale l&#39;eliminazione del blocco **[!UICONTROL HTML]** aggiuntivo aggiunto con **[!UICONTROL Inserisci prima]** o **[!UICONTROL Inserisci dopo]** rimuoveva anche una modifica collegata priva di selettore CSS. (TGT-54530)
 
 +++
 
@@ -190,7 +160,7 @@ Per ulteriori informazioni, vedere [[!DNL Adobe Target] Server MCP](../c-integra
 
 +++Vedi i dettagli
 
-* **Il codice personalizzato viene mantenuto quando applicato ad altre visualizzazioni.** È stato risolto un problema che consentiva la rimozione del codice personalizzato applicato a un **[!UICONTROL View]** durante l&#39;aggiunta o il salvataggio del codice personalizzato per un altro **[!UICONTROL View]** nello stesso **[!UICONTROL Activity]**. (TGT-53933)
+* **Il codice personalizzato viene mantenuto quando applicato ad altre visualizzazioni.** È stato risolto un problema che causava la rimozione del codice personalizzato applicato a una **[!UICONTROL Visualizzazione]** durante l&#39;aggiunta o il salvataggio del codice personalizzato per un&#39;altra **[!UICONTROL Visualizzazione]** nella stessa **[!UICONTROL Attività]**. (TGT-53933)
 +++
 
 ## [!DNL Target Standard/Premium] 26.4.1 (2 aprile 2026)
@@ -199,13 +169,13 @@ Per ulteriori informazioni, vedere [[!DNL Adobe Target] Server MCP](../c-integra
 
 +++Vedi i dettagli
 
-* **Attributi del pubblico visibili nella visualizzazione Attività.** È stato risolto un problema a causa del quale i dettagli della regola del pubblico visualizzati da un **[!UICONTROL Activity]** non mostravano alcuni attributi visualizzati all&#39;apertura dello stesso pubblico dalla sezione **[!UICONTROL Audiences]**. (TGT-54742)
+* **Attributi del pubblico visibili nella visualizzazione Attività.** È stato risolto un problema a causa del quale i dettagli della regola del pubblico visualizzati da una **[!UICONTROL attività]** non mostravano alcuni attributi visualizzati all&#39;apertura dello stesso pubblico dalla sezione **[!UICONTROL Tipi di pubblico]**. (TGT-54742)
 
-* **Esporta file CSV nella pagina dell&#39;elenco Attività.** È stata aggiunta un&#39;azione **[!UICONTROL Export CSV]** che consente di esportare gli elenchi di attività dall&#39;interfaccia utente, anche quando vengono applicati i filtri, senza affidarsi esclusivamente alle API per le esportazioni di routine. (TGT-51466)
+* **Esporta file CSV nella pagina dell&#39;elenco Attività.** È stata aggiunta un&#39;azione **[!UICONTROL Esporta CSV]** per esportare gli elenchi di attività dall&#39;interfaccia utente, anche quando vengono applicati i filtri, senza affidarsi esclusivamente alle API per le esportazioni di routine. (TGT-51466)
 
 * **Modifiche dell&#39;esperienza contrassegnate quando i selettori non vengono trovati.** Le modifiche apportate all’esperienza ora eseguono un controllo di esistenza del selettore; quando un selettore non viene trovato nella pagina, la modifica viene contrassegnata come non valida. (TGT-54815)
 
-* **[!UICONTROL Automated personalization]attività.** Sono stati risolti i problemi relativi all’interfaccia e al caricamento delle attività, che impedivano agli utenti di creare, modificare o gestire in modo affidabile le attività di Personalizzazione automatizzata, bloccando la configurazione della campagna e ritardando i casi di utilizzo della personalizzazione. (TGT-54421)
+* **[!UICONTROL Personalizzazione automatizzata] attività.** Sono stati risolti i problemi relativi all’interfaccia e al caricamento delle attività, che impedivano agli utenti di creare, modificare o gestire in modo affidabile le attività di Personalizzazione automatizzata, bloccando la configurazione della campagna e ritardando i casi di utilizzo della personalizzazione. (TGT-54421)
 
 +++
 
@@ -213,7 +183,7 @@ Per ulteriori informazioni, vedere [[!DNL Adobe Target] Server MCP](../c-integra
 
 +++Vedi i dettagli
 
-* **Nome e descrizione del pubblico visibili durante la creazione di tipi di pubblico da un&#39;attività.** È stato risolto un problema che impediva ai campi del pubblico **[!UICONTROL Name]** e **[!UICONTROL Description]** di emergere chiaramente durante la creazione o la modifica di un pubblico dal flusso di attività, rispetto alla creazione del pubblico direttamente in **[!UICONTROL Audiences]**. (TGT-54837)
+* **Nome e descrizione del pubblico visibili durante la creazione di tipi di pubblico da un&#39;attività.** È stato risolto un problema a causa del quale i campi **[!UICONTROL Nome]** e **[!UICONTROL Descrizione]** del pubblico non emergevano chiaramente durante la creazione o la modifica di un pubblico dal flusso di attività, rispetto alla creazione del pubblico direttamente in **[!UICONTROL Tipi di pubblico]**. (TGT-54837)
 
 +++
 
@@ -221,7 +191,7 @@ Per ulteriori informazioni, vedere [[!DNL Adobe Target] Server MCP](../c-integra
 
 +++Vedi i dettagli
 
-* Conteggio di **[!UICONTROL Live Activities]su Insights.** È stato risolto un problema a causa del quale la metrica **[!UICONTROL Live Activities]** nel dashboard Approfondimenti poteva riportare un totale superiore al numero di attività visualizzate come live in **[!UICONTROL All Activities]**. (TGT-54788)
+* **[!UICONTROL Le attività live] sono conteggiate in Insights.** È stato risolto un problema a causa del quale la metrica **[!UICONTROL Attività live]** nel dashboard Approfondimenti poteva riportare un totale superiore al numero di attività visualizzate come live in **[!UICONTROL Tutte le attività]**. (TGT-54788)
 
 +++
 
@@ -229,17 +199,17 @@ Per ulteriori informazioni, vedere [[!DNL Adobe Target] Server MCP](../c-integra
 
 +++Vedi i dettagli
 
-* **Elenchi ID lunghi in [!UICONTROL Global Exclusions].** È stato risolto un problema che causava il troncamento dell&#39;operazione Incolla o Immissione di un lungo elenco di ID in **[!UICONTROL Global Exclusions]** nell&#39;interfaccia aggiornata rispetto alla versione precedente, causando un elenco di esclusione incompleto. (TGT-54422)
+* **Elenchi ID lunghi in [!UICONTROL Esclusioni globali].** È stato risolto un problema a causa del quale incollare o inserire un lungo elenco di ID in **[!UICONTROL Esclusioni globali]** poteva essere troncato nell&#39;interfaccia aggiornata rispetto alla versione precedente, causando un elenco di esclusione incompleto. (TGT-54422)
 
 +++
 
-**[!UICONTROL Visual Experience Composer] (VEC)**
+**[!UICONTROL Compositore esperienza visivo] (VEC)**
 
 +++Vedi i dettagli
 
-* **Indicatore di stato del Compositore esperienza avanzato in [!UICONTROL Visual Experience Composer].** L’indicatore EEC indica se è abilitato il Compositore esperienza avanzato. La sua presentazione è stata rivista in modo che non assomigli più a un interruttore interattivo, in quanto funge solo da visualizzazione di stato non interattivo. (TGT-54828)
+* **Indicatore di stato del Compositore esperienza avanzato nel [!UICONTROL Compositore esperienza visivo].** L’indicatore EEC indica se è abilitato il Compositore esperienza avanzato. La sua presentazione è stata rivista in modo che non assomigli più a un interruttore interattivo, in quanto funge solo da visualizzazione di stato non interattivo. (TGT-54828)
 
-* **Barra a sinistra comprimibile in [!UICONTROL Visual Experience Composer].** È ora possibile comprimere la barra a sinistra mentre un’attività è aperta per la modifica. Ciò migliora l&#39;accesso a **[!UICONTROL Components]** e **[!UICONTROL Properties]** per le attività che includono più tipi di pubblico e pagine, anche su schermi più piccoli. (TGT-54269)
+* **Barra a sinistra comprimibile nel [!UICONTROL Compositore esperienza visivo].** È ora possibile comprimere la barra a sinistra mentre un’attività è aperta per la modifica. Ciò migliora l&#39;accesso a **[!UICONTROL Componenti]** e **[!UICONTROL Proprietà]** per le attività che includono più tipi di pubblico e pagine, anche su schermi più piccoli. (TGT-54269)
 
 +++
 
@@ -255,7 +225,7 @@ Per ulteriori informazioni, vedere [[!DNL Adobe Target] Server MCP](../c-integra
 
 ## [!DNL Target Standard/Premium] 26.3.6 (23 marzo 2026)
 
-**[!UICONTROL Visual Experience Composer] (VEC)**
+**[!UICONTROL Compositore esperienza visivo] (VEC)**
 
 +++Vedi i dettagli
 
@@ -265,13 +235,13 @@ Per ulteriori informazioni, vedere [[!DNL Adobe Target] Server MCP](../c-integra
 
 ## [!DNL Target Standard/Premium] 26.3.4 (19 marzo 2026)
 
-**[!UICONTROL Visual Experience Composer] (VEC)**
+**[!UICONTROL Compositore esperienza visivo] (VEC)**
 
 +++Vedi i dettagli
 
 * **Selezione della modalità Progettazione/Sfoglia visibile nell&#39;editor Web del Compositore esperienza visivo.** Questa correzione risolve un problema in cui il passaggio tra le modalità Progettazione, Sfoglia e Anteprima funzionava correttamente, ma la modalità attiva non era chiaramente indicata nell’interfaccia. La modalità selezionata è ora evidenziata in modo visibile per consentirti di vedere in quale modalità ti trovi. (TGT-54790)
 
-* **URL di rete privati nel Compositore esperienza visivo (Chrome).** Chrome può bloccare le pagine di una rete privata a meno che non sia consentito l&#39;accesso alla rete locale. **[!UICONTROL Visual Experience Composer]** ora richiede tale autorizzazione nell&#39;Experience Cloud di frame, in modo che Chrome possa visualizzare un messaggio di richiesta di autorizzazione invece di generare un errore automaticamente. Dopo aver consentito l’accesso, gli URL interni possono essere caricati nel Compositore esperienza visivo quando l’ambiente lo supporta. (TGT-54346)
+* **URL di rete privati nel Compositore esperienza visivo (Chrome).** Chrome può bloccare le pagine di una rete privata a meno che non sia consentito l&#39;accesso alla rete locale. Il **[!UICONTROL Compositore esperienza visivo]** ora richiede tale autorizzazione nel frame utilizzato da Experience Cloud, in modo che Chrome possa mostrare un prompt di autorizzazione invece di generare un errore in modo invisibile all&#39;utente. Dopo aver consentito l’accesso, gli URL interni possono essere caricati nel Compositore esperienza visivo quando l’ambiente lo supporta. (TGT-54346)
 
 +++
 
@@ -289,7 +259,7 @@ Per ulteriori informazioni, vedere [[!DNL Adobe Target] Server MCP](../c-integra
 
 +++Vedi i dettagli
 
-* **Aggiungi gestione visualizzazione momentanea di altri contenuti nella schermata Implementazione.** È stato aggiunto un nuovo interruttore alla schermata [!UICONTROL Implementation] per controllare l&#39;abilitazione dell&#39;impostazione di gestione dello sfarfallio. Questa opzione consente agli amministratori di configurare la gestione della visualizzazione momentanea di altri contenuti direttamente dalla schermata Implementazione. (TGT-52247)
+* **Aggiungi gestione visualizzazione momentanea di altri contenuti nella schermata Implementazione.** È stato aggiunto un nuovo interruttore alla schermata [!UICONTROL Implementazione] per controllare l&#39;abilitazione dell&#39;impostazione di gestione dello sfarfallio. Questa opzione consente agli amministratori di configurare la gestione della visualizzazione momentanea di altri contenuti direttamente dalla schermata Implementazione. (TGT-52247)
 
 +++
 
@@ -297,11 +267,11 @@ Per ulteriori informazioni, vedere [[!DNL Adobe Target] Server MCP](../c-integra
 
 +++Vedi i dettagli
 
-* **Mostra il nome completo del pubblico e dell&#39;esperienza nella pagina Panoramica.** Questo miglioramento aggiorna la pagina [!UICONTROL Overview] per visualizzare il nome completo dei tipi di pubblico e delle esperienze. In precedenza, i nomi lunghi venivano troncati e non erano completamente visibili; per visualizzarli, era necessario fare clic tre volte per selezionare tutto il testo. L’aggiornamento garantisce che siano visibili i nomi completi di pubblico ed esperienza, facilitando l’identificazione e la revisione delle configurazioni delle attività da parte degli utenti. (TGT-53323)
+* **Mostra il nome completo del pubblico e dell&#39;esperienza nella pagina Panoramica.** Questo miglioramento aggiorna la pagina [!UICONTROL Panoramica] per visualizzare il nome completo dei tipi di pubblico e delle esperienze. In precedenza, i nomi lunghi venivano troncati e non erano completamente visibili; per visualizzarli, era necessario fare clic tre volte per selezionare tutto il testo. L’aggiornamento garantisce che siano visibili i nomi completi di pubblico ed esperienza, facilitando l’identificazione e la revisione delle configurazioni delle attività da parte degli utenti. (TGT-53323)
 
 +++
 
-**[!UICONTROL Visual Experience Composer] (VEC)**
+**[!UICONTROL Compositore esperienza visivo] (VEC)**
 
 +++Vedi i dettagli
 
@@ -343,7 +313,7 @@ Per ulteriori informazioni, vedere [[!DNL Adobe Target] Server MCP](../c-integra
 
 +++
 
-**[!UICONTROL Visual Experience Composer] (VEC)**
+**[!UICONTROL Compositore esperienza visivo] (VEC)**
 
 +++Vedi i dettagli
 
@@ -353,7 +323,7 @@ Per ulteriori informazioni, vedere [[!DNL Adobe Target] Server MCP](../c-integra
 
 ### [!DNL Target Standard/Premium] 26.2.2 (16 febbraio 2026)
 
-**[!UICONTROL Visual Experience Composer] (VEC)**
+**[!UICONTROL Compositore esperienza visivo] (VEC)**
 
 +++Vedi i dettagli
 
@@ -386,7 +356,7 @@ Vedi [Dashboard di Adobe Target Insights](/help/main/c-activities/insights-dashb
 
 +++Vedi i dettagli
 
-* **Funzionalità di gestione URL Inseriti nell&#39;elenco Consentiti.** Nella sezione [!UICONTROL Administration] è stata aggiunta una nuova funzione di gestione degli &quot;URL Inseriti nell&#39;elenco Consentiti&quot; per gestire i pattern degli URL di offerta remota consentiti. Questa funzione include la possibilità di visualizzare gli URL inseriti nell&#39;elenco Consentiti in una tabella, cercare e filtrare gli URL, aggiungere nuovi URL tramite la finestra di dialogo modale ed eliminare gli URL con una conferma. Questa funzione consente ai clienti di controllare quali URL possono essere utilizzati per le offerte remote, migliorando la sicurezza e la conformità. (TGT-54486)
+* **Funzionalità di gestione URL Inseriti nell&#39;elenco Consentiti.** Nella sezione [!UICONTROL Amministrazione] è stata aggiunta una nuova funzionalità di gestione &quot;URL Inseriti nell&#39;elenco Consentiti&quot; per gestire i modelli di URL di offerta remota consentiti. Questa funzione include la possibilità di visualizzare gli URL inseriti nell&#39;elenco Consentiti in una tabella, cercare e filtrare gli URL, aggiungere nuovi URL tramite la finestra di dialogo modale ed eliminare gli URL con una conferma. Questa funzione consente ai clienti di controllare quali URL possono essere utilizzati per le offerte remote, migliorando la sicurezza e la conformità. (TGT-54486)
 
 +++
 
@@ -406,11 +376,11 @@ Vedi [Dashboard di Adobe Target Insights](/help/main/c-activities/insights-dashb
 +++Vedi i dettagli
 
 * **Impossibile copiare l&#39;attività. Input utente non valido.** È stato risolto il problema che causava la visualizzazione da parte degli utenti di un errore non utile di &quot;input utente non valido&quot; durante la copia di un’attività. In precedenza, quando un’attività veniva duplicata, le assegnazioni di proprietà specifiche per l’area di lavoro non venivano mantenute, pertanto il backend rifiutava la richiesta di salvataggio perché ABActivity richiedeva almeno una proprietà appartenente a un’area di lavoro non predefinita. Questa mancata corrispondenza ha attivato un errore generico nell’interfaccia utente, lasciando gli utenti senza indicazioni. La correzione assicura che le assegnazioni dell’area di lavoro vengano mantenute correttamente durante le operazioni di copia, consentendo agli utenti di salvare l’attività copiata senza modifiche e impedendo errori di convalida fuorvianti. (TGT-54282)
-* **Abilita la colonna dell&#39;area di lavoro nell&#39;offerta dell&#39;editor Web.** Questo aggiornamento risolve il problema causato dalla confusione dei clienti causato dalle offerte di [!UICONTROL Default Workspace] visualizzate in altre aree di lavoro all&#39;interno dell&#39;editor Web. Anche se questo comportamento funziona come previsto, le offerte [!UICONTROL Default Workspace] sono intenzionalmente visibili in tutte le aree di lavoro, i clienti hanno segnalato che l&#39;interfaccia utente non ha chiarito l&#39;origine dell&#39;area di lavoro, soprattutto quando si creano attività in un&#39;area di lavoro non predefinita, ad esempio &quot;Approvatori&quot;. Per migliorare la chiarezza, la colonna [!UICONTROL Workspace] è stata ora abilitata nell&#39;elenco delle offerte dell&#39;editor Web, consentendo agli utenti di distinguere facilmente l&#39;area di lavoro a cui appartiene ogni offerta e impedendo un&#39;interpretazione errata delle offerte aggiuntive visualizzate. (TGT-54138)
-* **I collegamenti con target=&quot;_blank&quot; vengono aperti in una nuova scheda.** Questa correzione risolve un problema in cui i siti Web creati contenenti collegamenti con ~target=&quot;_blank&quot;~ verrebbero aperti in una nuova scheda del browser quando si fa clic su di essi in modalità [!UICONTROL Browse], interrompendo l&#39;esperienza di anteprima nell&#39;editor. Il comportamento si è verificato perché gli attributi di collegamento nativi della pagina creata non venivano intercettati dal JavaScript inserito dall’estensione, a differenza dell’interfaccia utente legacy in cui gli elementi di ancoraggio venivano trasformati e le loro destinazioni sostituite per mantenere la navigazione all’interno dell’editor. L&#39;aggiornamento garantisce che i collegamenti che utilizzano ~target=&quot;_blank&quot;~ siano ora gestiti correttamente nell&#39;editor Web, in modo che non aprano più schede esterne durante l&#39;authoring. (TGT-54134)
+* **Abilita la colonna dell&#39;area di lavoro nell&#39;offerta dell&#39;editor Web.** Questo aggiornamento risolve il problema causato dalla confusione dei clienti causata dalle offerte di [!UICONTROL Workspace predefinito] visualizzate in altre aree di lavoro all&#39;interno dell&#39;editor Web. Anche se questo comportamento funziona come previsto, le offerte di [!UICONTROL Workspace] predefinite sono intenzionalmente visibili in tutte le aree di lavoro, i clienti hanno segnalato che l&#39;interfaccia utente non ha chiarito l&#39;origine dell&#39;area di lavoro, in particolare durante la creazione di attività in un&#39;area di lavoro non predefinita, ad esempio &quot;Approvatori&quot;. Per migliorare la chiarezza, la colonna [!UICONTROL Workspace] è stata ora abilitata nell&#39;elenco delle offerte dell&#39;editor Web, consentendo agli utenti di distinguere facilmente l&#39;area di lavoro a cui appartiene ogni offerta ed evitando interpretazioni errate delle offerte aggiuntive visualizzate. (TGT-54138)
+* **I collegamenti con target=&quot;_blank&quot; vengono aperti in una nuova scheda.** Questa correzione risolve un problema per cui i siti Web creati contenenti collegamenti con ~target=&quot;_blank&quot;~ verrebbero aperti in una nuova scheda del browser quando si fa clic su di essi in modalità [!UICONTROL Sfoglia], interrompendo l&#39;esperienza di anteprima nell&#39;editor. Il comportamento si è verificato perché gli attributi di collegamento nativi della pagina creata non venivano intercettati dal JavaScript inserito dall’estensione, a differenza dell’interfaccia utente legacy in cui gli elementi di ancoraggio venivano trasformati e le loro destinazioni sostituite per mantenere la navigazione all’interno dell’editor. L&#39;aggiornamento garantisce che i collegamenti che utilizzano ~target=&quot;_blank&quot;~ siano ora gestiti correttamente nell&#39;editor Web, in modo che non aprano più schede esterne durante l&#39;authoring. (TGT-54134)
 * **Avviso Deseleziona proprietà.** Questo aggiornamento introduce un avviso visivo per informare chiaramente gli utenti quando deselezionano una proprietà rilevata automaticamente nell’Editor attività. In precedenza, la rimozione di una proprietà rilevata automaticamente non forniva alcuna indicazione che la proprietà sarebbe stata eliminata definitivamente, il che poteva causare la perdita accidentale della configurazione di targeting. La correzione aggiunge un’icona di avviso, coerente con il comportamento nell’interfaccia utente legacy, per avvisare gli utenti che deselezionando la proprietà la rimuove dall’attività. (TGT-54121)
-* Il menu a discesa **[!UICONTROL Workspaces]è limitato a 20 nella sezione [!UICONTROL Users].** Questa correzione risolve un problema in cui il menu a discesa [!UICONTROL Workspaces] nella sezione [!UICONTROL Administration] > [!UICONTROL Users] mostrava solo 20 aree di lavoro, anche quando un utente aveva accesso a molte altre. Anche la chiamata GraphQL sottostante per `licenseGroups` era limitata a 20 risultati, pertanto l&#39;interfaccia utente mostrava un elenco incompleto nonostante l&#39;utente avesse accesso a più aree di lavoro nell&#39;organizzazione. L’aggiornamento rimuove questo limite rigido in modo che l’intero set di aree di lavoro disponibili ora venga restituito e visualizzato correttamente. (TGT-53820)
-* **È stato risolto un problema a causa del quale la finestra modale delle offerte non mostrava la colonna dell&#39;area di lavoro.** È stato risolto un problema a causa del quale la finestra modale delle offerte non visualizzava la colonna dell’area di lavoro nell’interfaccia utente aggiornata. Ciò ha causato confusione per i clienti perché le offerte di [!UICONTROL Default Workspace] sono apparse insieme alle offerte dell&#39;area di lavoro selezionata senza alcuna indicazione della loro origine. La colonna dell’area di lavoro è ora abilitata in modo che i clienti possano identificare chiaramente a quale area di lavoro appartiene ogni offerta. (TGT-52320)
+* Il menu a discesa **[!UICONTROL Aree di lavoro] è limitato a 20 nella sezione [!UICONTROL Utenti].** Questa correzione risolve un problema in cui il menu a discesa [!UICONTROL Aree di lavoro] nella sezione [!UICONTROL Amministrazione] > [!UICONTROL Utenti] mostrava solo 20 aree di lavoro, anche quando un utente aveva accesso a molte altre. Anche la chiamata GraphQL sottostante per `licenseGroups` era limitata a 20 risultati, pertanto l&#39;interfaccia utente mostrava un elenco incompleto nonostante l&#39;utente avesse accesso a più aree di lavoro nell&#39;organizzazione. L’aggiornamento rimuove questo limite rigido in modo che l’intero set di aree di lavoro disponibili ora venga restituito e visualizzato correttamente. (TGT-53820)
+* **È stato risolto un problema a causa del quale la finestra modale delle offerte non mostrava la colonna dell&#39;area di lavoro.** È stato risolto un problema a causa del quale la finestra modale delle offerte non visualizzava la colonna dell’area di lavoro nell’interfaccia utente aggiornata. Ciò ha causato confusione per i clienti perché le offerte del [!UICONTROL Workspace predefinito] sono state visualizzate insieme alle offerte dell&#39;area di lavoro selezionata senza alcuna indicazione della loro origine. La colonna dell’area di lavoro è ora abilitata in modo che i clienti possano identificare chiaramente a quale area di lavoro appartiene ogni offerta. (TGT-52320)
 
 +++
 
@@ -418,10 +388,10 @@ Vedi [Dashboard di Adobe Target Insights](/help/main/c-activities/insights-dashb
 
 +++Vedi i dettagli
 
-* **La modifica dell&#39;attività non deve aggiungere la proprietà rilevata automaticamente se è già stata rimossa.** Questa correzione risolve un problema in cui la modifica di un’attività reintroduceva automaticamente una proprietà rilevata automaticamente che l’utente aveva precedentemente rimosso. Quando si riapre un&#39;attività per la modifica, il sistema ha ripristinato in modo errato la proprietà rimossa, generando un comportamento incoerente e confusione in [!UICONTROL Properties List]. L’aggiornamento assicura che, una volta rimossa, la proprietà rilevata automaticamente rimanga rimossa durante tutte le modifiche successive e non venga nuovamente visualizzata a meno che l’utente non la aggiunga esplicitamente. (TGT-54182)
-* **Non aggiungere proprietà rilevate automaticamente se sono già state rimosse.** Questa correzione assicura che, una volta che un utente rimuove manualmente una proprietà rilevata automaticamente da un’attività, il sistema non la reintroduca più durante la navigazione successiva all’interno dell’editor attività. In precedenza, se un utente deselezionava una proprietà rilevata automaticamente, passava al passaggio [!UICONTROL Targeting] e poi ritornava a [!UICONTROL Experiences], l&#39;editor ripopolava la proprietà rimossa in base all&#39;elenco rilevato automaticamente memorizzato nella sezione di stato dell&#39;Editor attività. La logica aggiornata ora confronta le proprietà rilevate automaticamente con le proprietà correnti nella sezione ~ActivityState~ e impedisce la reaggiunta di eventuali proprietà rilevate automaticamente già rimosse dall&#39;utente. Questo determina un comportamento coerente tra i passaggi e rispetta le intenzioni dell’utente. (TGT-54181)
-* **Aggiungi testo rilevato automaticamente all&#39;elenco delle proprietà.** Questo miglioramento aggiorna [!UICONTROL Properties List] per etichettare chiaramente qualsiasi proprietà rilevata automaticamente dal sistema. Quando una proprietà rilevata automaticamente è presente anche in [!UICONTROL Properties List] visibile all&#39;utente, ora viene visualizzato il testo &quot;(Rilevato automaticamente)&quot; accanto al nome, utilizzando il valore archiviato nello stato ~ActivityEditorSlice~. In questo modo viene rispecchiato il comportamento dell’interfaccia utente legacy e gli utenti possono distinguere facilmente tra le proprietà selezionate manualmente e quelle identificate automaticamente. (TGT-54120)
-* **Aggiungi [!UICONTROL Properties] rilevato automaticamente allo stato.** Questo aggiornamento assicura che lo stato ~ActivityEditorSlice.ExperienceEditor~ mantenga costantemente un elenco aggiornato di tutti gli ID di proprietà rilevati automaticamente passati dall&#39;editor Web alla scheda Attività [!UICONTROL Experiences]. Ogni volta che l&#39;utente passa alla scheda [!UICONTROL Experiences], lo stato viene aggiornato con le nuove proprietà rilevate, evitando duplicati, garantendo un tracciamento accurato e un comportamento a valle affidabile. (TGT-54119)
+* **La modifica dell&#39;attività non deve aggiungere la proprietà rilevata automaticamente se è già stata rimossa.** Questa correzione risolve un problema in cui la modifica di un’attività reintroduceva automaticamente una proprietà rilevata automaticamente che l’utente aveva precedentemente rimosso. Quando si riapre un&#39;attività per la modifica, il sistema ha ripristinato in modo errato la proprietà rimossa, causando comportamenti incoerenti e confusione nell&#39;[!UICONTROL Elenco proprietà]. L’aggiornamento assicura che, una volta rimossa, la proprietà rilevata automaticamente rimanga rimossa durante tutte le modifiche successive e non venga nuovamente visualizzata a meno che l’utente non la aggiunga esplicitamente. (TGT-54182)
+* **Non aggiungere proprietà rilevate automaticamente se sono già state rimosse.** Questa correzione assicura che, una volta che un utente rimuove manualmente una proprietà rilevata automaticamente da un’attività, il sistema non la reintroduca più durante la navigazione successiva all’interno dell’editor attività. In precedenza, se un utente deselezionava una proprietà rilevata automaticamente, passava al passaggio [!UICONTROL Targeting] e poi ritornava a [!UICONTROL Esperienze], l&#39;editor ripopolava la proprietà rimossa in base all&#39;elenco rilevato automaticamente archiviato nella sezione di stato dell&#39;Editor attività. La logica aggiornata ora confronta le proprietà rilevate automaticamente con le proprietà correnti nella sezione ~ActivityState~ e impedisce la reaggiunta di eventuali proprietà rilevate automaticamente già rimosse dall&#39;utente. Questo determina un comportamento coerente tra i passaggi e rispetta le intenzioni dell’utente. (TGT-54181)
+* **Aggiungi testo rilevato automaticamente all&#39;elenco delle proprietà.** Questo miglioramento aggiorna l&#39;[!UICONTROL Elenco proprietà] per etichettare chiaramente qualsiasi proprietà rilevata automaticamente dal sistema. Quando una proprietà rilevata automaticamente è presente anche nell&#39;[!UICONTROL Elenco proprietà] visibile all&#39;utente, ora viene visualizzato il testo &quot;(Rilevato automaticamente)&quot; accanto al nome, utilizzando il valore archiviato nello stato ~ActivityEditorSlice~. In questo modo viene rispecchiato il comportamento dell’interfaccia utente legacy e gli utenti possono distinguere facilmente tra le proprietà selezionate manualmente e quelle identificate automaticamente. (TGT-54120)
+* **Aggiungi [!UICONTROL Proprietà] rilevate automaticamente allo stato.** Questo aggiornamento assicura che lo stato ~ActivityEditorSlice.ExperienceEditor~ mantenga costantemente un elenco aggiornato di tutti gli ID di proprietà rilevati automaticamente passati dall&#39;editor Web alla scheda Attività [!UICONTROL Esperienze]. Ogni volta che l&#39;utente passa alla scheda [!UICONTROL Esperienze], lo stato viene aggiornato con le nuove proprietà rilevate, evitando duplicati, garantendo un tracciamento accurato e un comportamento downstream affidabile. (TGT-54119)
 
 +++
 
@@ -429,7 +399,7 @@ Vedi [Dashboard di Adobe Target Insights](/help/main/c-activities/insights-dashb
 
 +++Vedi i dettagli
 
-* Il menu a discesa **[!UICONTROL Environment]mostra solo 100 risultati.** Questa correzione consente di risolvere un limite in base al quale i clienti con più di 100 ambienti possono visualizzare solo le prime 100 voci del menu a discesa [!UICONTROL Environment] in [!UICONTROL Recommendations]. La query GraphQL sottostante (~getEnvironmentsV2~) è stata impaginata con una dimensione di pagina hardcoded pari a 100, causando la visualizzazione nell&#39;interfaccia utente di un elenco parziale anche quando erano disponibili pagine aggiuntive. Per i clienti che hanno più di 100 ambienti, questo problema causava opzioni mancanti e un’esperienza di selezione incompleta. L’aggiornamento aumenta il limite in modo che tutti gli ambienti vengano restituiti e visualizzati, garantendo la visibilità completa indipendentemente dal conteggio degli ambienti. (TGT-53903)
+* Il menu a discesa **[!UICONTROL Ambiente] mostra solo 100 risultati.** Questa correzione risolve un limite per cui i clienti con più di 100 ambienti potevano visualizzare solo le prime 100 voci nel menu a discesa [!UICONTROL Ambiente] all&#39;interno di [!UICONTROL Consigli]. La query GraphQL sottostante (~getEnvironmentsV2~) è stata impaginata con una dimensione di pagina hardcoded pari a 100, causando la visualizzazione nell&#39;interfaccia utente di un elenco parziale anche quando erano disponibili pagine aggiuntive. Per i clienti che hanno più di 100 ambienti, questo problema causava opzioni mancanti e un’esperienza di selezione incompleta. L’aggiornamento aumenta il limite in modo che tutti gli ambienti vengano restituiti e visualizzati, garantendo la visibilità completa indipendentemente dal conteggio degli ambienti. (TGT-53903)
 
 +++
 
@@ -437,7 +407,7 @@ Vedi [Dashboard di Adobe Target Insights](/help/main/c-activities/insights-dashb
 
 +++Vedi i dettagli
 
-* **È stato risolto un problema a causa del quale la freccia [!UICONTROL Reports] non indicava chiaramente le colonne espandibili.** È stato risolto un problema a causa del quale la tabella di reporting non mostrava chiaramente che era possibile espandere colonne aggiuntive nell’interfaccia utente aggiornata. È stata aggiunta una descrizione comando che scompare alla freccia [!UICONTROL Reports] vicino alle intestazioni di colonna per aiutare i clienti a comprendere che sono disponibili più colonne. (TGT-53479)
+* **È stato risolto un problema a causa del quale la freccia [!UICONTROL Report] non indicava chiaramente le colonne espandibili.** È stato risolto un problema a causa del quale la tabella di reporting non mostrava chiaramente che era possibile espandere colonne aggiuntive nell’interfaccia utente aggiornata. È stata aggiunta una descrizione comando che scompare alla freccia [!UICONTROL Rapporti] vicino alle intestazioni di colonna per aiutare i clienti a comprendere che sono disponibili più colonne. (TGT-53479)
 
 +++
 
@@ -449,14 +419,14 @@ Vedi [Dashboard di Adobe Target Insights](/help/main/c-activities/insights-dashb
 
 +++
 
-**[!UICONTROL Visual Experience Composer] (VEC)**
+**[!UICONTROL Compositore esperienza visivo] (VEC)**
 
 +++Vedi i dettagli
 
-* Il nome **[!UICONTROL Experience Fragment]è stato troncato nella nuova interfaccia utente VEC** (TGT-54312)
-* **Impossibile utilizzare [!UICONTROL Advanced Settings] per la metrica [!UICONTROL Revenue].** Questa correzione risolve un problema in cui gli utenti riscontravano un errore 403 &quot;Accesso negato&quot; durante la configurazione di [!UICONTROL Advanced Settings] per la metrica [!UICONTROL Revenue] in [!UICONTROL Goals & Settings]. Il problema si verificava quando si aggiungeva una condizione di dipendenza associata all’obiettivo principale; il backend richiedeva erroneamente il privilegio dell’editor anche per gli utenti che disponevano già di autorizzazioni sufficienti per creare e modificare le attività. Di conseguenza, il salvataggio dell’attività non è riuscito nonostante la configurazione valida. L’aggiornamento corregge il controllo delle autorizzazioni in modo che gli utenti con l’accesso appropriato possano aggiungere correttamente le dipendenze della metrica Ricavi senza attivare un errore di risorsa proibita. (TGT-54092)
-* **È stato risolto un problema che impediva l&#39;applicazione del pulsante Aggiungi alle immagini selezionate.** È stato risolto un problema che impediva ai clienti di aggiungere determinate immagini durante la selezione o l’aggiornamento di un’immagine nel processo di creazione di attività. Quando i clienti hanno cercato risorse specifiche, ad esempio immagini restituite durante la ricerca di &quot;ipp&quot;, facendo clic sul pulsante [!UICONTROL Add] non è stata applicata l&#39;immagine selezionata e non è stata creata alcuna modifica. La selezione di altre immagini, ad esempio `Homepage-banner-1-moz.jpg`, ha continuato a funzionare come previsto. Questo aggiornamento garantisce che tutte le immagini valide possano essere applicate in modo coerente nell’interfaccia utente aggiornata. (TGT-53610)
-* **È stato risolto un problema che causava la reimpostazione della configurazione della metrica obiettivo da parte dell&#39;eliminazione di una condizione URL.** È stato risolto un problema che causava la reimpostazione dell&#39;intera configurazione nell&#39;interfaccia utente aggiornata a causa della rimozione di una condizione di URL singolo nella metrica [!UICONTROL Goal]. Quando i clienti hanno tentato di eliminare una condizione URL salvata in [!UICONTROL Conversion] > [!UICONTROL Viewed a Page], il tipo di obiettivo è passato in modo imprevisto a [!UICONTROL Viewed an Mbox] e tutte le impostazioni configurate in precedenza sono state rimosse. Questo aggiornamento assicura che solo la condizione URL selezionata venga eliminata e che tutte le impostazioni obiettivo rimanenti rimangano intatte. (TGT-53271)
+* Il nome del **[!UICONTROL frammento di esperienza] è stato troncato nella nuova interfaccia utente del Compositore esperienza visivo** (TGT-54312)
+* **Impossibile utilizzare [!UICONTROL Impostazioni avanzate] per la metrica [!UICONTROL Ricavi].** Questa correzione risolve un problema in cui gli utenti riscontravano un errore 403 &quot;Accesso negato&quot; durante la configurazione di [!UICONTROL Impostazioni avanzate] per la metrica [!UICONTROL Entrate] in [!UICONTROL Obiettivi e impostazioni]. Il problema si verificava quando si aggiungeva una condizione di dipendenza associata all’obiettivo principale; il backend richiedeva erroneamente il privilegio dell’editor anche per gli utenti che disponevano già di autorizzazioni sufficienti per creare e modificare le attività. Di conseguenza, il salvataggio dell’attività non è riuscito nonostante la configurazione valida. L’aggiornamento corregge il controllo delle autorizzazioni in modo che gli utenti con l’accesso appropriato possano aggiungere correttamente le dipendenze della metrica Ricavi senza attivare un errore di risorsa proibita. (TGT-54092)
+* **È stato risolto un problema che impediva l&#39;applicazione del pulsante Aggiungi alle immagini selezionate.** È stato risolto un problema che impediva ai clienti di aggiungere determinate immagini durante la selezione o l’aggiornamento di un’immagine nel processo di creazione di attività. Quando i clienti hanno cercato risorse specifiche, ad esempio immagini restituite durante la ricerca di &quot;ipp&quot;, facendo clic sul pulsante [!UICONTROL Aggiungi] non è stata applicata l&#39;immagine selezionata e non è stata creata alcuna modifica. La selezione di altre immagini, ad esempio `Homepage-banner-1-moz.jpg`, ha continuato a funzionare come previsto. Questo aggiornamento garantisce che tutte le immagini valide possano essere applicate in modo coerente nell’interfaccia utente aggiornata. (TGT-53610)
+* **È stato risolto un problema che causava la reimpostazione della configurazione della metrica obiettivo da parte dell&#39;eliminazione di una condizione URL.** È stato risolto un problema a causa del quale la rimozione di una condizione di URL singolo nella metrica [!UICONTROL Obiettivo] causava il ripristino dell&#39;intera configurazione nell&#39;interfaccia utente aggiornata. Quando i clienti hanno tentato di eliminare una condizione URL salvata in [!UICONTROL Conversione] > [!UICONTROL Visualizzazione di una pagina], il tipo di obiettivo è passato in modo imprevisto a [!UICONTROL Visualizzazione di una mbox] e tutte le impostazioni configurate in precedenza sono state rimosse. Questo aggiornamento assicura che solo la condizione URL selezionata venga eliminata e che tutte le impostazioni obiettivo rimanenti rimangano intatte. (TGT-53271)
 * **È stato risolto un problema che impediva la ricerca nelle sottocartelle.** È stato risolto un problema che impediva alla ricerca di offerte di restituire i risultati dalle sottocartelle nell’interfaccia utente aggiornata. I clienti potevano trovare un’offerta solo se passavano manualmente alla cartella in cui era memorizzata, rendendo il comportamento di ricerca incoerente con le funzionalità API. La funzione di ricerca ora supporta la ricerca ricorsiva nelle cartelle, in modo che i clienti possano individuare le offerte senza dover aprire ogni cartella singolarmente. (TGT-51954)
 
 +++
@@ -478,8 +448,8 @@ Vedi [Dashboard di Adobe Target Insights](/help/main/c-activities/insights-dashb
 +++Vedi i dettagli
 
 * **La modifica dei criteri in un&#39;attività ha causato l&#39;arresto anomalo della pagina.** È stato risolto un problema nell&#39;interfaccia utente aggiornata a causa del quale la modifica dei criteri delle attività causava l&#39;arresto anomalo della pagina con errori della console relativi a `useCrudActionsCtx`. L’editor dei criteri ora carica e funziona correttamente, garantendo che le attività possano essere modificate senza interruzioni. (TGT-53971)
-* La colonna **[!UICONTROL Message]non è riuscita a intermittenza a visualizzare i dati dei prodotti nell&#39;interfaccia utente aggiornata.** È stato risolto un problema nell&#39;interfaccia utente aggiornata di [!UICONTROL Recommendations] a causa del quale la colonna [!UICONTROL Message] in [!UICONTROL Catalog Search] non poteva visualizzare in modo intermittente i dati del prodotto, anche se i valori erano presenti nel feed. La colonna ora mostra in modo coerente i valori dei messaggi corretti in tutti i prodotti, garantendo una visibilità affidabile senza richiedere la riconfigurazione manuale delle colonne. (TGT-52777)
-* Pulsante **[!UICONTROL Download Recommendations Data]non visibile dopo il salvataggio dell&#39;attività nell&#39;interfaccia utente aggiornata.** È stato risolto un problema nell&#39;interfaccia utente aggiornata a causa del quale il pulsante [!UICONTROL Download Recommendations Data] non veniva visualizzato per alcune attività salvate, anche dopo il nuovo salvataggio. Il pulsante ora viene visualizzato in modo coerente in tutte le attività, garantendo agli utenti di esportare in modo affidabile i dati dei consigli senza dover ricorrere a soluzioni alternative. (TGT-53802)
+* La colonna **[!UICONTROL Messaggio] non è riuscita a intermittenza a visualizzare i dati dei prodotti nell&#39;interfaccia utente aggiornata.** È stato risolto un problema nell&#39;interfaccia utente aggiornata di [!UICONTROL Recommendations] a causa del quale la colonna [!UICONTROL Message] in [!UICONTROL Ricerca nel catalogo] non visualizzava in modo intermittente i dati del prodotto, anche se nel feed erano presenti valori. La colonna ora mostra in modo coerente i valori dei messaggi corretti in tutti i prodotti, garantendo una visibilità affidabile senza richiedere la riconfigurazione manuale delle colonne. (TGT-52777)
+* **[!UICONTROL Il pulsante Scarica dati consigli] non è visibile dopo il salvataggio dell&#39;attività nell&#39;interfaccia utente aggiornata.** È stato risolto un problema nell&#39;interfaccia utente aggiornata a causa del quale il pulsante [!UICONTROL Scarica dati consigli] non veniva visualizzato per alcune attività salvate, anche dopo il nuovo salvataggio. Il pulsante ora viene visualizzato in modo coerente in tutte le attività, garantendo agli utenti di esportare in modo affidabile i dati dei consigli senza dover ricorrere a soluzioni alternative. (TGT-53802)
 * **L&#39;apertura di alcuni prodotti da una raccolta ha restituito &quot;Impossibile trovare la risorsa richiesta&quot; e la finestra modale non aveva un&#39;opzione di chiusura.** È stato risolto un problema nell’interfaccia utente Recommendations aggiornata a causa del quale l’apertura di alcuni prodotti da una raccolta causava un errore di tipo &quot;Impossibile trovare la risorsa richiesta&quot; e mostrava un modale vuoto senza un’opzione di chiusura. La finestra modale ora carica correttamente i dettagli del prodotto ed è sempre disponibile un’opzione di chiusura per uscire correttamente. (TGT-53986)
 
 +++
@@ -491,7 +461,7 @@ Vedi [Dashboard di Adobe Target Insights](/help/main/c-activities/insights-dashb
 
 +++Vedi i dettagli
 
-* **[!UICONTROL Goals & Settings]messaggio di errore quando si utilizza [!DNL Adobe Analytics] come origine per la generazione di rapporti nell&#39;interfaccia utente aggiornata.** È stato risolto un problema nell&#39;interfaccia utente [!UICONTROL Overview] aggiornata a causa del quale nella sezione Obiettivi veniva visualizzato l&#39;errore &quot;Si è verificato un errore. Impossibile completare la richiesta. Contattare [!DNL Adobe Client Care] se il problema persiste&quot; quando [!DNL Adobe Analytics] (A4T) è stato selezionato come origine per la generazione di rapporti. Gli obiettivi ora vengono visualizzati correttamente con [!UICONTROL Adobe Analytics] metriche, garantendo una visibilità coerente tra le origini di reporting. (TGT-54021)
+* **[!UICONTROL Messaggio di errore Obiettivi e impostazioni] quando si utilizza [!DNL Adobe Analytics] come origine per la generazione di rapporti nell&#39;interfaccia utente aggiornata.** È stato risolto un problema nell&#39;interfaccia utente aggiornata di [!UICONTROL Panoramica] a causa del quale nella sezione Obiettivi veniva visualizzato l&#39;errore &quot;Si è verificato un errore. Impossibile completare la richiesta. Contattare [!DNL Adobe Client Care] se il problema persiste&quot; quando [!DNL Adobe Analytics] (A4T) è stato selezionato come origine per la generazione di rapporti. Gli obiettivi ora vengono visualizzati correttamente con le metriche [!UICONTROL Adobe Analytics], garantendo una visibilità coerente tra le origini di reporting. (TGT-54021)
 
 +++
 
@@ -507,7 +477,7 @@ Vedi [Dashboard di Adobe Target Insights](/help/main/c-activities/insights-dashb
 
 +++Vedi i dettagli
 
-* **Impossibile modificare o sostituire le offerte di decisioning nell&#39;interfaccia utente aggiornata.** È stato risolto un problema nell&#39;interfaccia utente aggiornata a causa del quale non era possibile modificare o sostituire le offerte di decisioning tramite il pannello [!UICONTROL Modifications] e i nomi delle offerte apparivano vuoti. Le offerte Decisioning sono ora completamente accessibili e modificabili, ripristinando la parità con l’interfaccia utente legacy e garantendo che i clienti possano gestirle direttamente all’interno delle attività. (TGT-53884)
+* **Impossibile modificare o sostituire le offerte di decisioning nell&#39;interfaccia utente aggiornata.** È stato risolto un problema nell&#39;interfaccia utente aggiornata a causa del quale non era possibile modificare o sostituire le offerte di decisioning tramite il pannello [!UICONTROL Modifiche] e i nomi delle offerte venivano visualizzati vuoti. Le offerte Decisioning sono ora completamente accessibili e modificabili, ripristinando la parità con l’interfaccia utente legacy e garantendo che i clienti possano gestirle direttamente all’interno delle attività. (TGT-53884)
 
 +++
 
@@ -519,42 +489,42 @@ Vedi [Dashboard di Adobe Target Insights](/help/main/c-activities/insights-dashb
 
 +++
 
-**[!UICONTROL Recommendations]**
+**[!UICONTROL Funzione Consigli]**
 
 +++Vedi i dettagli
 
-* **La promozione per attributo con corrispondenza attributo entità non è riuscita a caricare la chiave dei consigli dopo il salvataggio dell&#39;attività.** È stato risolto un problema a causa del quale le promozioni di tipo [!UICONTROL Promotion by Attribute] con tipo di regola [!UICONTROL Entity Attribute Matching] non caricavano la chiave di consigli quando venivano modificate dopo il salvataggio di un&#39;attività. Il problema è stato causato dalla mancata richiesta di `customKeyId` tramite GraphQL. Le chiavi di consiglio ora vengono caricate correttamente durante le modifiche di promozione. (TGT-53117)
+* **La promozione per attributo con corrispondenza attributo entità non è riuscita a caricare la chiave dei consigli dopo il salvataggio dell&#39;attività.** È stato risolto un problema a causa del quale le promozioni di tipo [!UICONTROL Promozione per attributo] con tipo di regola [!UICONTROL Corrispondenza attributo entità] non caricavano la chiave di consiglio quando veniva modificata dopo il salvataggio di un&#39;attività. Il problema è stato causato dalla mancata richiesta di `customKeyId` tramite GraphQL. Le chiavi di consiglio ora vengono caricate correttamente durante le modifiche di promozione. (TGT-53117)
 * **Il consiglio persiste visivamente quando si passa da ExpB a ExpA.** È stato risolto un problema a causa del quale l’inserimento di un consiglio nell’Esperienza B e il successivo passaggio all’Esperienza A lasciavano visibile la casella delle offerte di consigli. Questa era solo un’incoerenza visiva; le modifiche ora vengono riprodotte correttamente quando si passa da un’esperienza all’altra, garantendo un comportamento accurato dell’interfaccia utente. (TGT-53911)
-* **Chiave consiglio non caricata per [!UICONTROL Promotion by Attribute] con [!UICONTROL Entity Attribute] corrispondente.** È stato risolto un problema a causa del quale le promozioni di tipo [!UICONTROL Promotion by Attribute] con tipo di regola [!UICONTROL Entity Attribute Matching] non caricavano la chiave di consiglio durante la modifica dopo il salvataggio di un&#39;attività. La chiave dei consigli ora viene recuperata correttamente tramite GraphQL, garantendo così la visualizzazione delle promozioni e il funzionamento previsto. (TGT-53917)
-* **La modifica di consigli su elementi HTML nascosti non funziona nell&#39;interfaccia utente aggiornata.** È stato risolto un problema nell&#39;interfaccia utente di [!UICONTROL New Create] e del Compositore esperienza visivo a causa del quale non era possibile modificare le attività Consigli applicate agli elementi HTML nascosti. Questa funzionalità ora funziona come previsto, ripristinando la parità con l’interfaccia utente legacy e garantendo che i consigli possano essere modificati indipendentemente dalla visibilità degli elementi. (TGT-53953)
+* **Chiave consiglio non caricata per [!UICONTROL Promozione per attributo] con [!UICONTROL Corrispondenza attributo entità].** È stato risolto un problema a causa del quale le promozioni di tipo [!UICONTROL Promozione per attributo] con tipo di regola [!UICONTROL Corrispondenza attributo entità] non caricavano la chiave di consiglio quando veniva modificata dopo il salvataggio di un&#39;attività. La chiave dei consigli ora viene recuperata correttamente tramite GraphQL, garantendo così la visualizzazione delle promozioni e il funzionamento previsto. (TGT-53917)
+* **La modifica di consigli su elementi HTML nascosti non funziona nell&#39;interfaccia utente aggiornata.** È stato risolto un problema in [!UICONTROL Nuova creazione] e nell&#39;interfaccia utente del Compositore esperienza visivo a causa del quale non era possibile modificare le attività Consigli applicate agli elementi HTML nascosti. Questa funzionalità ora funziona come previsto, ripristinando la parità con l’interfaccia utente legacy e garantendo che i consigli possano essere modificati indipendentemente dalla visibilità degli elementi. (TGT-53953)
 * **Impossibile modificare le attività di consigli sugli elementi HTML nascosti nell&#39;interfaccia utente aggiornata.** È stato risolto un problema nell’interfaccia utente aggiornata a causa del quale non era possibile modificare le attività Consigli applicate agli elementi HTML nascosti. Questa funzionalità ora funziona come previsto, ripristinando la parità con l’interfaccia utente legacy e garantendo che i consigli possano essere modificati indipendentemente dalla visibilità degli elementi. (TGT-53951)
-* **Nel catalogo dei consigli mancano a intermittenza valori di attributi nell&#39;interfaccia utente aggiornata.** È stato risolto un problema nell&#39;interfaccia utente aggiornata di [!UICONTROL Recommendations] a causa del quale le inserzioni di ricerca nel catalogo non riuscivano a visualizzare in modo intermittente alcuni valori di attributo (ad esempio, un messaggio) anche se presenti nel feed del prodotto. I valori degli attributi ora vengono caricati in modo coerente nei risultati di ricerca senza richiedere la riconfigurazione delle colonne, migliorando l’affidabilità e l’efficienza per la gestione del catalogo. (TGT-52769)
-* Pulsante **[!UICONTROL Download Recommendations]mancante per le attività [!DNL Recommendations] nell&#39;interfaccia utente aggiornata.** È stato risolto un problema nell&#39;interfaccia utente [!DNL Recommendations] aggiornata a causa del quale il pulsante [!UICONTROL Download Recommendations] non era visibile per le attività A/B che utilizzavano i consigli. Il pulsante ora viene visualizzato correttamente, consentendo agli utenti di esportare i dati dei consigli come previsto, in linea con le funzionalità nell’interfaccia utente legacy. (TGT-53768)
-* Pulsante **[!UICONTROL Download Recommendation Data]mancante nell&#39;interfaccia utente Panoramica aggiornata.** È stato risolto un problema nell&#39;interfaccia utente [!UICONTROL Overview] aggiornata a causa del quale il pulsante [!UICONTROL Download Recommendation Data] non era visibile per le attività che contenevano consigli. Il pulsante ora viene visualizzato correttamente, garantendo che gli utenti possano esportare direttamente i dati dei consigli senza dover tornare all’interfaccia utente legacy. (TGT-53772)
-* **La modifica dei criteri di attività a volte causava la visualizzazione di una schermata vuota nell&#39;interfaccia utente aggiornata.** È stato risolto un problema nell&#39;interfaccia utente aggiornata a causa del quale, se si faceva clic su [!UICONTROL Edit Criteria in Experiences], veniva occasionalmente visualizzata una schermata vuota per alcune attività. L’editor dei criteri ora viene caricato in modo affidabile in tutte le attività, garantendo agli utenti la possibilità di modificare senza interruzioni. (TGT-53961)
-* **Impossibile modificare i criteri di sequenza nell&#39;interfaccia utente aggiornata.** È stato risolto un problema nell&#39;interfaccia utente aggiornata a causa del quale il tentativo di modificare [!UICONTROL Sequence Criteria] causava il blocco della finestra a comparsa dei criteri durante il caricamento, con la conseguente visualizzazione di una schermata vuota. L’editor dei criteri ora viene caricato correttamente, consentendo agli utenti di modificare e aggiornare i criteri della sequenza senza interruzioni. (TGT-53985)
+* **Nel catalogo dei consigli mancano a intermittenza valori di attributi nell&#39;interfaccia utente aggiornata.** È stato risolto un problema nell&#39;interfaccia utente aggiornata di [!UICONTROL Recommendations] a causa del quale gli elenchi di ricerca nel catalogo non riuscivano a intermittenza a visualizzare alcuni valori di attributi (ad esempio, un messaggio) anche quando sono presenti nel feed del prodotto. I valori degli attributi ora vengono caricati in modo coerente nei risultati di ricerca senza richiedere la riconfigurazione delle colonne, migliorando l’affidabilità e l’efficienza per la gestione del catalogo. (TGT-52769)
+* **[!UICONTROL Pulsante Scarica consigli] mancante per le attività [!DNL Recommendations] nell&#39;interfaccia utente aggiornata.** È stato risolto un problema nell&#39;interfaccia utente [!DNL Recommendations] aggiornata a causa del quale il pulsante [!UICONTROL Scarica consigli] non era visibile per le attività A/B che utilizzavano i consigli. Il pulsante ora viene visualizzato correttamente, consentendo agli utenti di esportare i dati dei consigli come previsto, in linea con le funzionalità nell’interfaccia utente legacy. (TGT-53768)
+* **[!UICONTROL Pulsante Scarica dati consigli] mancante nell&#39;interfaccia utente della panoramica aggiornata.** È stato risolto un problema nell&#39;interfaccia utente aggiornata di [!UICONTROL Panoramica] a causa del quale il pulsante [!UICONTROL Scarica dati consigli] non era visibile per le attività contenenti consigli. Il pulsante ora viene visualizzato correttamente, garantendo che gli utenti possano esportare direttamente i dati dei consigli senza dover tornare all’interfaccia utente legacy. (TGT-53772)
+* **La modifica dei criteri di attività a volte causava la visualizzazione di una schermata vuota nell&#39;interfaccia utente aggiornata.** È stato risolto un problema nell&#39;interfaccia utente aggiornata a causa del quale, se si faceva clic su [!UICONTROL Modifica criteri in esperienze], veniva occasionalmente visualizzata una schermata vuota per alcune attività. L’editor dei criteri ora viene caricato in modo affidabile in tutte le attività, garantendo agli utenti la possibilità di modificare senza interruzioni. (TGT-53961)
+* **Impossibile modificare i criteri di sequenza nell&#39;interfaccia utente aggiornata.** È stato risolto un problema nell&#39;interfaccia utente aggiornata a causa del quale il tentativo di modificare [!UICONTROL i criteri di sequenza] causava il blocco della finestra a comparsa dei criteri durante il caricamento e la visualizzazione di una schermata vuota. L’editor dei criteri ora viene caricato correttamente, consentendo agli utenti di modificare e aggiornare i criteri della sequenza senza interruzioni. (TGT-53985)
 
 +++
 
-**[!UICONTROL Reports]**
+**[!UICONTROL Rapporti]**
 
 +++Vedi i dettagli
 
-* Le posizioni di **[!UICONTROL Multivariate Test] (MVT) e il problema di generazione dei rapporti sui grafici hanno impedito la generazione dei rapporti.** È stato risolto un problema che impediva alle attività MVT di generare i rapporti [!UICONTROL Location Contribution] e Graph nell&#39;interfaccia utente di Target, causando la visualizzazione dell&#39;errore &quot;Si è verificato un errore. Non possiamo completare la tua richiesta.&quot; I rapporti ora vengono caricati correttamente nell’interfaccia utente, garantendo piena visibilità. (TGT-53654)
-* **Impossibile caricare i report MVT a causa di [!UICONTROL Element] errore del report contributi.** È stato risolto un problema che impediva il caricamento dei rapporti attività MVT nell’interfaccia utente di Target, causando la visualizzazione dell’errore &quot;Impossibile recuperare il rapporto sul contributo degli elementi&quot;. I rapporti ora vengono visualizzati correttamente, garantendo la piena visibilità dei contributi degli elementi. (TGT-53691)
-* **Esporta i dettagli dell&#39;ordine in problema CSV per [!UICONTROL Experience Targeting] attività (XT).** È stato risolto un problema che impediva la corretta visualizzazione dell&#39;opzione [!UICONTROL Export Order Details to CSV] per le attività XT e restituiva un file vuoto. L’opzione ora viene visualizzata solo per le attività di Personalizzazione automatizzata, garantendo funzionalità di esportazione accurate e evitando confusione. (TGT-53798)
+* **[!UICONTROL Le posizioni di Test multivariato] (MVT) e il problema di reporting del grafico hanno impedito la generazione del rapporto.** È stato risolto un problema che impediva alle attività MVT di generare i rapporti [!UICONTROL Contributo posizione] e Grafico nell&#39;interfaccia utente di Target, causando la visualizzazione dell&#39;errore &quot;Si è verificato un errore. Non possiamo completare la tua richiesta.&quot; I rapporti ora vengono caricati correttamente nell’interfaccia utente, garantendo piena visibilità. (TGT-53654)
+* **Impossibile caricare i report MVT a causa di un errore del report [!UICONTROL Elemento].** È stato risolto un problema che impediva il caricamento dei rapporti attività MVT nell’interfaccia utente di Target, causando la visualizzazione dell’errore &quot;Impossibile recuperare il rapporto sul contributo degli elementi&quot;. I rapporti ora vengono visualizzati correttamente, garantendo la piena visibilità dei contributi degli elementi. (TGT-53691)
+* **Esporta i dettagli dell&#39;ordine in problema CSV per [!UICONTROL attività Targeting esperienza] (XT).** È stato risolto un problema a causa del quale l&#39;opzione [!UICONTROL Esporta dettagli ordine in CSV] non veniva visualizzata correttamente per le attività XT e restituiva un file vuoto. L’opzione ora viene visualizzata solo per le attività di Personalizzazione automatizzata, garantendo funzionalità di esportazione accurate e evitando confusione. (TGT-53798)
 
 +++
 
-**[!UICONTROL Visual Experience Composer] (VEC)**
+**[!UICONTROL Compositore esperienza visivo] (VEC)**
 
 +++Vedi i dettagli
 
-* Il problema del pulsante **[!UICONTROL Delete Modification]ha impedito la rimozione delle modifiche dell&#39;attività.** È stato risolto un problema che impediva il funzionamento del pulsante [!UICONTROL Delete Modification] nell&#39;interfaccia utente [!DNL Target] e la rimozione delle modifiche all&#39;interno delle attività. Il pulsante ora funziona come previsto, consentendo la cancellazione delle modifiche in modo affidabile e senza ritardi. (TGT-53728)
+* **[!UICONTROL Il problema del pulsante Elimina modifica] ha impedito la rimozione delle modifiche dell&#39;attività.** È stato risolto un problema a causa del quale il pulsante [!UICONTROL Elimina modifica] nell&#39;interfaccia utente [!DNL Target] non funzionava, impedendo agli utenti di rimuovere le modifiche all&#39;interno delle attività. Il pulsante ora funziona come previsto, consentendo la cancellazione delle modifiche in modo affidabile e senza ritardi. (TGT-53728)
 * **I selettori preferiti non sono riconosciuti nell&#39;interfaccia utente aggiornata.** È stato risolto un problema nell&#39;interfaccia utente aggiornata a causa del quale i selettori preferiti, ad esempio `data-target-component-id`, non venivano visualizzati nell&#39;elenco dei selettori CSS nel Compositore esperienza visivo. Gli utenti possono ora selezionare in modo affidabile gli attributi preferiti invece dei nomi di classe generati in modo dinamico, garantendo un targeting stabile tra gli aggiornamenti della pagina delle applicazioni a pagina singola. (TGT-53908)
-* **Allineamento posizione attività non corrispondente tra [!UICONTROL Edit] e [!UICONTROL Overview] pagine.** È stato risolto un problema che impediva l&#39;allineamento della numerazione dei percorsi delle attività nella pagina [!UICONTROL Overview] con gli aggiornamenti effettuati nella pagina [!UICONTROL &#x200B; Edit Experience]. Le posizioni ora rimangono coerenti tra le due viste, garantendo un allineamento accurato ed evitando posizioni mancanti o con numeri errati. (TGT-53960 e TGT-53954)
-* **Impossibile tornare alla modalità [!UICONTROL Design] nel Compositore esperienza visivo aggiornato** È stato risolto un problema nell&#39;interfaccia utente del Compositore esperienza visivo aggiornata a causa del quale gli utenti non potevano tornare alla modalità [!UICONTROL Design] dopo essere passati a una nuova pagina in modalità [!UICONTROL Browse]. L&#39;interruttore [!UICONTROL Design] ora funziona correttamente e consente di applicare le modifiche in modo semplice su più pagine. (TGT-53988 e TGT-53993)
-* **Parametro query non visualizzato nella panoramica attività.** È stato risolto un problema nell&#39;interfaccia utente aggiornata a causa del quale i parametri di query non venivano visualizzati nella pagina [!UICONTROL Overview] per le attività, causando discrepanze tra [!UICONTROL Overview] e gli URL di consegna della pagina. I parametri di query ora vengono visualizzati correttamente, garantendo che le posizioni delle attività siano completamente rappresentate e coerenti tra le viste. (TGT-53701)
+* **Allineamento posizione attività non corrispondente tra [!UICONTROL Modifica] e [!UICONTROL Panoramica] pagine.** È stato risolto un problema che impediva l&#39;allineamento della numerazione dei percorsi delle attività nella pagina [!UICONTROL Panoramica] con gli aggiornamenti apportati nella pagina[!UICONTROL  Modifica esperienza]. Le posizioni ora rimangono coerenti tra le due viste, garantendo un allineamento accurato ed evitando posizioni mancanti o con numeri errati. (TGT-53960 e TGT-53954)
+* **Impossibile tornare alla modalità [!UICONTROL Progettazione] nel Compositore esperienza visivo aggiornato** È stato risolto un problema nell&#39;interfaccia utente del Compositore esperienza visivo aggiornata a causa del quale gli utenti non potevano tornare alla modalità [!UICONTROL Progettazione] dopo essere passati a una nuova pagina in modalità [!UICONTROL Sfoglia]. L&#39;interruttore [!UICONTROL Progettazione] ora funziona correttamente, consentendo l&#39;applicazione delle modifiche direttamente tra le pagine. (TGT-53988 e TGT-53993)
+* **Parametro query non visualizzato nella panoramica attività.** È stato risolto un problema nell&#39;interfaccia utente aggiornata a causa del quale i parametri di query non venivano visualizzati nella pagina [!UICONTROL Panoramica] per le attività, causando discrepanze tra la [!UICONTROL Panoramica] e gli URL di consegna della pagina. I parametri di query ora vengono visualizzati correttamente, garantendo che le posizioni delle attività siano completamente rappresentate e coerenti tra le viste. (TGT-53701)
 
 +++
 
@@ -565,9 +535,9 @@ Questa versione include i seguenti aggiornamenti e correzioni:
 **Attività**
 
 +++ Vedi i dettagli
-* **È stato risolto un problema di usabilità nell&#39;interfaccia utente aggiornata**. [!UICONTROL Observers] può ora visualizzare in anteprima le attività utilizzando l&#39;opzione [!UICONTROL View Activity], proprio come nell&#39;interfaccia utente legacy. (TGT-51741)
-* **[!UICONTROL Observer]utenti possono ora visualizzare il contenuto delle attività nell&#39;interfaccia utente aggiornata.** È stata ripristinata la visibilità per gli utenti del ruolo Osservatore nell’interfaccia utente aggiornata dell’attività. In precedenza, gli osservatori non erano in grado di visualizzare modifiche, offerte e modifiche al contenuto, funzionalità disponibile nell’interfaccia utente legacy. (TGT-53785)
-* **[!UICONTROL Approver]utenti possono ora modificare gli obiettivi dell&#39;attività senza l&#39;errore di privilegio dell&#39;editor.** È stato risolto un problema di autorizzazioni nell&#39;interfaccia utente di Creazione attività che impediva agli utenti a livello di Approvatore di salvare le modifiche alle impostazioni avanzate dell&#39;obiettivo. Gli utenti interessati hanno ricevuto un errore `403 Forbidden.Resource` che richiede i privilegi dell&#39;editor, pur disponendo di un accesso sufficiente. (TGT-53819)
+* **È stato risolto un problema di usabilità nell&#39;interfaccia utente aggiornata**. [!UICONTROL Gli osservatori] ora possono visualizzare in anteprima le attività utilizzando l&#39;opzione [!UICONTROL Visualizza attività], proprio come nell&#39;interfaccia utente legacy. (TGT-51741)
+* **[!UICONTROL Gli utenti dell&#39;osservatore] possono ora visualizzare il contenuto delle attività nell&#39;interfaccia utente aggiornata.** È stata ripristinata la visibilità per gli utenti del ruolo Osservatore nell’interfaccia utente aggiornata dell’attività. In precedenza, gli osservatori non erano in grado di visualizzare modifiche, offerte e modifiche al contenuto, funzionalità disponibile nell’interfaccia utente legacy. (TGT-53785)
+* **[!UICONTROL L&#39;approvatore] ora gli utenti possono modificare gli obiettivi dell&#39;attività senza l&#39;errore di privilegio dell&#39;editor.** È stato risolto un problema di autorizzazioni nell&#39;interfaccia utente di Creazione attività che impediva agli utenti a livello di Approvatore di salvare le modifiche alle impostazioni avanzate dell&#39;obiettivo. Gli utenti interessati hanno ricevuto un errore `403 Forbidden.Resource` che richiede i privilegi dell&#39;editor, pur disponendo di un accesso sufficiente. (TGT-53819)
 
 +++
 
@@ -575,9 +545,9 @@ Questa versione include i seguenti aggiornamenti e correzioni:
 
 +++Vedi i dettagli
 
-* **Selezione di più tipi di pubblico ripristinata nel reporting &quot;Solo questa attività&quot;.** È stato risolto un problema nell&#39;interfaccia utente di Creazione attività che impediva agli utenti di selezionare più tipi di pubblico nella sezione [!UICONTROL This activity only] in [!UICONTROL Goals & Settings]. (TGT-53283)
-* **I grafici di reporting basati sul pubblico ora visualizzano correttamente i dati di conversione.** È stato risolto un problema nella scheda [!UICONTROL Reports] che causava errori nei grafici durante la selezione di tipi di pubblico non predefiniti. Anche se i dati e le metriche di affidabilità erano disponibili, il grafico visivo mostrava solo una linea continua, rendendo l’analisi difficile. (TGT-53769)
-* **L&#39;interfaccia utente di [!UICONTROL Targeting] ora indica chiaramente le regole del pubblico escluse.** È stato risolto un problema nella sezione [!UICONTROL Targeting] dell&#39;interfaccia utente di creazione attività a causa del quale le regole del pubblico impostate su [!UICONTROL Exclude] non venivano visualizzate chiaramente. Ciò ha portato a confusione durante la revisione della logica di targeting, in particolare per i tipi di pubblico che escludevano URL specifici. (TGT-53809)
+* **Selezione di più tipi di pubblico ripristinata nel reporting &quot;Solo questa attività&quot;.** È stato risolto un problema nell&#39;interfaccia utente di creazione attività che impediva agli utenti di selezionare più tipi di pubblico nella sezione [!UICONTROL Solo questa attività] in [!UICONTROL Obiettivi e impostazioni]. (TGT-53283)
+* **I grafici di reporting basati sul pubblico ora visualizzano correttamente i dati di conversione.** È stato risolto un problema nella scheda [!UICONTROL Rapporti] che causava errori nei grafici durante la selezione di tipi di pubblico non predefiniti. Anche se i dati e le metriche di affidabilità erano disponibili, il grafico visivo mostrava solo una linea continua, rendendo l’analisi difficile. (TGT-53769)
+* **L&#39;interfaccia utente [!UICONTROL Targeting] indica chiaramente le regole del pubblico escluse.** È stato risolto un problema nella sezione [!UICONTROL Targeting] dell&#39;interfaccia utente di creazione attività in cui le regole del pubblico impostate su [!UICONTROL Escludi] non venivano visualizzate chiaramente. Ciò ha portato a confusione durante la revisione della logica di targeting, in particolare per i tipi di pubblico che escludevano URL specifici. (TGT-53809)
 * **I valori di definizione del pubblico ora sono selezionabili e copiabili nella scheda [!UICONTROL Targeting].** È stato risolto un problema nell&#39;interfaccia di Creazione attività che impediva agli utenti di selezionare e copiare i valori delle regole del pubblico nella scheda [!UICONTROL Targeting]. Questa funzionalità era disponibile nell’interfaccia utente legacy ma non nell’interfaccia utente aggiornata. (TGT-53856)
 
 +++
@@ -598,7 +568,7 @@ Questa versione include i seguenti aggiornamenti e correzioni:
 +++Vedi i dettagli
 
 * **Le modifiche del selettore CSS per i consigli ora vengono salvate correttamente.** È stato risolto un problema nell’interfaccia utente di Creazione attività che impediva agli utenti di aggiornare il selettore CSS per i posizionamenti dei consigli. Le modifiche sono state ripristinate dopo il salvataggio, bloccando gli aggiornamenti ai contenitori di targeting. (TGT-53835)
-* **La selezione dell&#39;evento di caricamento pagina ora persiste nelle modifiche dei consigli.** È stato risolto un problema nell&#39;interfaccia utente di creazione attività che impediva agli utenti di salvare le modifiche quando cambiavano il tipo di evento di un consiglio da [!UICONTROL View] a [!UICONTROL Page Load]. Anche se la selezione sembrava riuscita, è tornata dopo essere uscita, bloccando la pubblicazione dell’attività. (TGT-53957)
+* **La selezione dell&#39;evento di caricamento pagina ora persiste nelle modifiche dei consigli.** È stato risolto un problema nell&#39;interfaccia utente di creazione attività che impediva agli utenti di salvare le modifiche quando cambiavano il tipo di evento di un consiglio da [!UICONTROL Visualizza] a [!UICONTROL Caricamento pagina]. Anche se la selezione sembrava riuscita, è tornata dopo essere uscita, bloccando la pubblicazione dell’attività. (TGT-53957)
 
 +++
 
@@ -606,7 +576,7 @@ Questa versione include i seguenti aggiornamenti e correzioni:
 
 +++Vedi i dettagli
 
-* **&quot;[!UICONTROL Export order details to CSV]&quot; ora scarica i dati completi.** È stato risolto un problema nell&#39;interfaccia utente [!UICONTROL Overview] aggiornata che causava il download di file vuoti da parte dell&#39;opzione &quot;[!UICONTROL Export Order details to CSV]&quot;, anche quando erano presenti dati di report validi. (TGT-53787)
+* **&quot;[!UICONTROL Esporta i dettagli dell&#39;ordine in CSV]&quot; ora scarica i dati completi.** È stato risolto un problema nell&#39;interfaccia utente aggiornata di [!UICONTROL Panoramica] a causa del quale l&#39;opzione &quot;[!UICONTROL Esporta dettagli ordine in CSV]&quot; scaricava file vuoti, anche quando erano presenti dati di report validi. (TGT-53787)
 
 +++
 
@@ -623,20 +593,20 @@ Questa versione include i seguenti aggiornamenti e correzioni:
 +++Vedi i dettagli
 
 * **Stabilità di authoring ripristinata nell&#39;interfaccia utente di creazione attività.** È stato risolto un problema intermittente nell’interfaccia utente del Compositore esperienza visivo che impediva l’authoring e rendeva i collegamenti selezionabili in modo imprevisto, con reindirizzamento degli utenti fuori dalla pagina. (TGT-53153)
-* **Modifica ripristinata per le attività salvate nell&#39;interfaccia utente di creazione attività.** È stato risolto un problema che impediva agli utenti di modificare le attività dopo il salvataggio delle modifiche. Le attività interessate sono rimaste bloccate in &quot;[!UICONTROL Applying initial modifications]&quot;, bloccando ulteriori aggiornamenti e nascondendo il pulsante [!UICONTROL Cancel]. (TGT-53631)
-* **Il Compositore esperienza visivo non si blocca più su &quot;[!UICONTROL Applying initial modifications].&quot;** È stato risolto un problema di prestazioni nel Compositore esperienza visivo che causava lunghi ritardi durante il caricamento di esperienze con un numero elevato di modifiche. Gli utenti interessati hanno visto l&#39;interfaccia utente bloccata su &quot;[!UICONTROL Applying initial modifications]&quot; per alcuni minuti, in particolare negli scenari dell&#39;esperienza B. (TGT-53727)
+* **Modifica ripristinata per le attività salvate nell&#39;interfaccia utente di creazione attività.** È stato risolto un problema che impediva agli utenti di modificare le attività dopo il salvataggio delle modifiche. Le attività interessate sono rimaste bloccate in &quot;[!UICONTROL Applicazione delle modifiche iniziali]&quot;, bloccando ulteriori aggiornamenti e nascondendo il pulsante [!UICONTROL Annulla]. (TGT-53631)
+* **Il Compositore esperienza visivo non si blocca più su &quot;[!UICONTROL Applicazione delle modifiche iniziali].&quot;** È stato risolto un problema di prestazioni nel Compositore esperienza visivo che causava lunghi ritardi durante il caricamento di esperienze con un numero elevato di modifiche. Gli utenti interessati hanno visto l&#39;interfaccia utente bloccata in &quot;[!UICONTROL Applicazione delle modifiche iniziali]&quot; per alcuni minuti, soprattutto negli scenari dell&#39;esperienza B. (TGT-53727)
 * **Il Compositore esperienza visivo carica le modifiche senza elementi radice.**
-È stato risolto un problema nel Compositore esperienza visivo che causava l&#39;arresto delle esperienze durante il caricamento di modifiche prive di un elemento principale chiaro. Queste modifiche in precedenza causavano il blocco indefinito dell&#39;interfaccia utente di &quot;A[!UICONTROL pplying initial modifications]&quot;. (TGT-53799)
+È stato risolto un problema nel Compositore esperienza visivo che causava l&#39;arresto delle esperienze durante il caricamento di modifiche prive di un elemento principale chiaro. Queste modifiche in precedenza causavano il blocco indefinito dell&#39;interfaccia utente di &quot;A[!UICONTROL applicazione delle modifiche iniziali]&quot;. (TGT-53799)
 * **Il salvataggio delle modifiche nelle attività ora funziona come previsto.** È stato risolto un problema relativo alle autorizzazioni nella nuova interfaccia utente di creazione che impediva agli utenti di salvare le modifiche durante la modifica degli obiettivi e delle impostazioni avanzate nelle attività. Gli utenti interessati hanno visualizzato una barra multifunzione di errore rossa e un messaggio &quot;Forbidden.Resource&quot;, pur disponendo dell’accesso appropriato. (TGT-53816)
 * **L&#39;interfaccia utente del Compositore esperienza visivo mantiene le modifiche dell&#39;esperienza in tutte le visualizzazioni.** Sono stati risolti diversi problemi nel Compositore esperienza visivo aggiornato che hanno interessato lo sviluppo dell’esperienza. Le modifiche non persistevano correttamente, soprattutto quando si utilizzavano le offerte HTML o si passava da una visualizzazione all’altra. (TGT-53825)
 * **Tutte le visualizzazioni ora vengono visualizzate correttamente quando una modifica si estende su più esperienze.** È stato risolto un problema nell&#39;interfaccia utente di Creazione attività a causa del quale veniva visualizzata una sola visualizzazione quando veniva applicata una modifica tra più visualizzazioni. La descrizione del passaggio del mouse non elencava tutte le viste associate, anche se la modifica era stata applicata correttamente. (TGT-53827)
-* **Il Compositore esperienza visivo non si arresta più in modo intermittente su &quot;[!UICONTROL Applying initial modifications].&quot;** È stato risolto un problema intermittente nel Compositore esperienza visivo a causa del quale le esperienze non venivano caricate correttamente e rimanevano bloccate su &quot;[!UICONTROL Applying initial modifications]&quot;. Questo comportamento era incoerente e talvolta attivava loop di reindirizzamento o richiedeva la cancellazione manuale della cache. (TGT-53916)
-* **Impossibile riprodurre il problema di caricamento del Compositore esperienza visivo.** Abbiamo esaminato un problema segnalato in cui il Compositore esperienza visivo rimaneva bloccato su &quot;[!UICONTROL Applying initial modifications]&quot; durante la modifica di attività esistenti. Si sospettava che il comportamento fosse correlato al contenuto HTML privo di un elemento principale. Continueremo a monitorare la ricorrenza e consiglieremo di utilizzare contenitori strutturati per le offerte HTML per garantire la stabilità. (TGT-53972)
-* La modalità **[!UICONTROL Design]nel Compositore esperienza visivo non si comporta più come la modalità [!UICONTROL Browse] in modo intermittente.** È stato risolto un problema nell&#39;interfaccia utente a causa del quale la modalità [!UICONTROL Design] si comportava in modo intermittente come la modalità [!UICONTROL Browse], consentendo collegamenti `<a>` cliccabili e impedendo la selezione di elementi. Questo causava la scomparsa della casella di passaggio del mouse e bloccava i flussi di lavoro di modifica. (TGT-53136)
-* **I clic del pulsante in modalità [!UICONTROL Composer] non attivano più il reindirizzamento delle pagine.** È stato risolto un problema nell&#39;interfaccia utente del Compositore esperienza visivo aggiornata per cui quando si faceva clic su un pulsante in modalità [!UICONTROL Composer] veniva generato un reindirizzamento imprevisto all&#39;URL di destinazione del pulsante. Questo impediva agli utenti di modificare elementi di call-to-action (CTA) e interrompeva il flusso di lavoro di authoring. (TGT-53137)
-* **Gli aggiornamenti del codice offerta nelle attività di personalizzazione automatizzata ora vengono salvati senza errori.** È stato risolto un problema nella nuova interfaccia utente di creazione che causava un errore &quot;[!UICONTROL Invalid user input]&quot; durante l&#39;aggiornamento del codice offerta nelle attività [!UICONTROL Automated Personalization]. L’errore ha impedito agli utenti di salvare le modifiche, anche quando l’input era valido. (TGT-53586)
-* La modalità **[!UICONTROL Design]nel Compositore esperienza visivo ora blocca la navigazione dei collegamenti per i componenti modificabili.** È stato risolto un problema nel Compositore esperienza visivo aggiornato a causa del quale gli elementi selezionabili, come pulsanti e collegamenti, attivavano il reindirizzamento delle pagine anche in modalità [!UICONTROL Design]. Questo comportamento imita la modalità [!UICONTROL Browse] e impedisce agli utenti di modificare i componenti chiave. (TGT-53696)
-* La metrica **&quot;[!UICONTROL Clicked an element]&quot; ora funziona senza reindirizzamento o errore.** È stato risolto un problema nella nuova interfaccia utente di creazione che causava reindirizzamenti imprevisti e schermate vuote durante la selezione della metrica di conversione &quot;[!UICONTROL Clicked an element]&quot;. Facendo clic su un pulsante durante l&#39;installazione è stata attivata la navigazione invece di registrare l&#39;elemento, causando un errore &quot;[!UICONTROL element not found]&quot;. (TGT-53817)
+* **Il Compositore esperienza visivo non si arresta più in modo intermittente su &quot;[!UICONTROL Applicazione delle modifiche iniziali].&quot;** È stato risolto un problema intermittente nel Compositore esperienza visivo a causa del quale le esperienze non venivano caricate correttamente e rimanevano bloccate in &quot;[!UICONTROL Applicazione delle modifiche iniziali].&quot; Questo comportamento era incoerente e talvolta attivava loop di reindirizzamento o richiedeva la cancellazione manuale della cache. (TGT-53916)
+* **Impossibile riprodurre il problema di caricamento del Compositore esperienza visivo.** Abbiamo esaminato un problema segnalato in cui il Compositore esperienza visivo rimaneva bloccato su &quot;[!UICONTROL Applicazione delle modifiche iniziali]&quot; durante la modifica di attività esistenti. Si sospettava che il comportamento fosse correlato al contenuto HTML privo di un elemento principale. Continueremo a monitorare la ricorrenza e consiglieremo di utilizzare contenitori strutturati per le offerte HTML per garantire la stabilità. (TGT-53972)
+* La modalità **[!UICONTROL Progettazione] nel Compositore esperienza visivo non si comporta più come la modalità [!UICONTROL Sfoglia] in modo intermittente.** È stato risolto un problema nell&#39;interfaccia utente a causa del quale la modalità [!UICONTROL Progettazione] si comportava in modo intermittente come la modalità [!UICONTROL Sfoglia], consentendo collegamenti `<a>` cliccabili e impedendo la selezione di elementi. Questo causava la scomparsa della casella di passaggio del mouse e bloccava i flussi di lavoro di modifica. (TGT-53136)
+* **I clic dei pulsanti in modalità [!UICONTROL Compositore] non attivano più il reindirizzamento delle pagine.** È stato risolto un problema nell&#39;interfaccia utente del Compositore esperienza visivo aggiornata a causa del quale facendo clic su un pulsante in modalità [!UICONTROL Compositore] si verificava un reindirizzamento imprevisto all&#39;URL di destinazione del pulsante. Questo impediva agli utenti di modificare elementi di call-to-action (CTA) e interrompeva il flusso di lavoro di authoring. (TGT-53137)
+* **Gli aggiornamenti del codice offerta nelle attività di personalizzazione automatizzata ora vengono salvati senza errori.** È stato risolto un problema nella nuova interfaccia utente di creazione che causava un errore &quot;[!UICONTROL Input utente non valido]&quot; durante l&#39;aggiornamento del codice offerta nelle attività [!UICONTROL Automated Personalization]. L’errore ha impedito agli utenti di salvare le modifiche, anche quando l’input era valido. (TGT-53586)
+* La modalità **[!UICONTROL Progettazione] nel Compositore esperienza visivo ora blocca la navigazione dei collegamenti per i componenti modificabili.** È stato risolto un problema nel Compositore esperienza visivo aggiornato a causa del quale gli elementi selezionabili, come pulsanti e collegamenti, attivavano il reindirizzamento delle pagine anche in modalità [!UICONTROL Progettazione]. Questo comportamento simula la modalità [!UICONTROL Sfoglia] e impedisce agli utenti di modificare i componenti chiave. (TGT-53696)
+* La metrica **&quot;[!UICONTROL Selezionata da un elemento]&quot; ora funziona senza reindirizzamento o errore.** È stato risolto un problema nella nuova interfaccia utente di creazione che causava reindirizzamenti imprevisti e schermate vuote durante la selezione della metrica di conversione &quot;[!UICONTROL Clic su un elemento]&quot;. Facendo clic su un pulsante durante l&#39;installazione è stata attivata la navigazione invece di registrare l&#39;elemento, con conseguente errore &quot;[!UICONTROL elemento non trovato]&quot;. (TGT-53817)
 * **Le attività esistenti non si bloccano più in un ciclo di caricamento infinito durante la modifica.** È stato risolto un problema nella nuova interfaccia utente di creazione a causa del quale la modifica di un’attività esistente nel Compositore esperienza visivo rimaneva bloccata in un ciclo di caricamento infinito. Questo problema non ha interessato le attività appena create ed è stato attivato da modifiche preesistenti sulla pagina. (TGT-53913)
 * **Le pagine di attività esistenti con modifiche ora vengono caricate correttamente nel Compositore esperienza visivo** È stato risolto un problema nel Compositore esperienza visivo aggiornato che causava il blocco delle pagine nella fase di caricamento durante la modifica di un’attività esistente con modifiche salvate. Nuove attività caricate senza problema, ma il rendering delle attività configurate in precedenza non è riuscito. (TGT-53967)
 
@@ -646,10 +616,10 @@ Questa versione include i seguenti aggiornamenti e correzioni:
 
 Questa versione include i miglioramenti e le correzioni seguenti.
 
-+++[!UICONTROL Audiences]
++++[!UICONTROL Tipi di pubblico]
 
 * **Le regole di esclusione del pubblico non sono state visualizzate correttamente come inclusione nell&#39;interfaccia utente di [!DNL Target].** I tipi di pubblico configurati con regole di esclusione venivano visualizzati come inclusi durante la modifica del targeting all’interno di un’attività. Anche se la logica di esclusione è stata applicata correttamente durante l’esecuzione, l’interfaccia utente non è riuscita a riflettere la regola in modo preciso, omettendo l’etichetta &quot;esclusione&quot;. L&#39;interfaccia utente di [!DNL Target] visualizza ora correttamente le regole di esclusione sia nella configurazione del pubblico che nei flussi di lavoro di targeting, garantendo chiarezza e coerenza per la configurazione della campagna. (TGT-53808)
-* **La sezione [!UICONTROL Targeting] non indica che una regola di pubblico è stata impostata per l&#39;esclusione.** I tipi di pubblico configurati con logica di esclusione non venivano visualizzati correttamente come inclusi nella sezione [!UICONTROL Targeting] dell&#39;interfaccia utente per la creazione di attività. Sebbene il backend abbia applicato correttamente la regola di esclusione, l’interfaccia utente non è riuscita a rappresentarla visivamente, omettendo l’etichetta &quot;Escludi&quot; e creando confusione durante la configurazione della campagna. Nella sezione [!UICONTROL Targeting] sono ora visualizzate chiaramente le regole di esclusione, garantendo la coerenza tra la configurazione del pubblico e la visualizzazione del targeting. (TGT-53809)
+* **La sezione [!UICONTROL Targeting] non indica che una regola di pubblico è stata impostata per l&#39;esclusione.** I tipi di pubblico configurati con logica di esclusione non venivano visualizzati correttamente come inclusione nella sezione [!UICONTROL Targeting] dell&#39;interfaccia utente per la creazione di attività. Sebbene il backend abbia applicato correttamente la regola di esclusione, l’interfaccia utente non è riuscita a rappresentarla visivamente, omettendo l’etichetta &quot;Escludi&quot; e creando confusione durante la configurazione della campagna. Nella sezione [!UICONTROL Targeting] sono ora visualizzate chiaramente le regole di esclusione, garantendo la coerenza tra la configurazione del pubblico e la visualizzazione del targeting. (TGT-53809)
 
 +++
 
@@ -660,27 +630,27 @@ In precedenza, il termine &quot;Dettagli&quot; veniva erroneamente tradotto come
 
 +++
 
-+++[!UICONTROL Recommendations]
++++[!UICONTROL Funzione Consigli]
 
 * **Impossibile individuare e selezionare le caselle dei consigli nel Compositore esperienza visivo** Dopo aver aggiunto un’offerta di consigli nel (VEC), facendo clic sulla modifica nel pannello a sinistra non veniva evidenziata né scorreva la casella corrispondente dei consigli nella pagina. Questo rendeva difficile individuare e modificare l’offerta, soprattutto se nascosta sotto i selettori o con uno stile minimo. Facendo clic su una modifica dei consigli, ora viene evidenziato e scorre correttamente l’elemento associato, migliorando l’usabilità e l’efficienza nella modifica del processo aggiornato di creazione delle attività. (TGT-52571)
 * **I selettori di consigli non sono stati riscritti correttamente dopo il salvataggio di un&#39;attività.** Quando si aggiungeva un consiglio a un elemento nel Compositore esperienza visivo, il selettore era inizialmente corretto, ma dopo aver salvato e riaperto l’attività è diventato un selettore generico. I tentativi di ripristinare manualmente il selettore originale hanno generato errori di convalida. I selettori per consigli ora persistono accuratamente dopo il salvataggio, garantendo un targeting e una modificabilità affidabili nel processo aggiornato di creazione delle attività. (TGT-53709)
-* **Impossibile modificare il contenuto dei criteri durante la modifica di un&#39;attività esistente.** Durante la modifica di un&#39;attività, la sezione del contenuto [!UICONTROL Criteria] è risultata disabilitata, con i pulsanti disattivati e che non rispondevano. Questo problema è stato risolto assicurandosi che [!UICONTROL Criteria] configurazioni siano completamente modificabili durante gli aggiornamenti dell&#39;attività. I clienti possono ora modificare il contenuto di [!UICONTROL Criteria] senza dover cambiare le selezioni o utilizzare soluzioni alternative, migliorando la flessibilità e l&#39;usabilità nel processo aggiornato di creazione delle attività. (TGT-53812)
-* **Impossibile modificare i criteri all&#39;interno di un&#39;attività.** Le opzioni [!UICONTROL Edit Criteria] e [!UICONTROL Remove Criteria] sono state disabilitate durante l&#39;accesso ai criteri dall&#39;interno di un&#39;attività. Tuttavia, è possibile modificare gli stessi criteri tramite la scheda [!UICONTROL Recommendations]. I criteri sono ora completamente modificabili sia dal flusso di lavoro di modifica delle attività che dalla scheda [!UICONTROL Recommendations], garantendo un&#39;esperienza di modifica coerente ed efficiente. (TGT-53814)
+* **Impossibile modificare il contenuto dei criteri durante la modifica di un&#39;attività esistente.** Durante la modifica di un&#39;attività, la sezione del contenuto [!UICONTROL Criteri] è apparsa disabilitata, con i pulsanti disattivati e non rispondenti. Questo problema è stato risolto assicurandosi che le configurazioni di [!UICONTROL Criteri] siano completamente modificabili durante gli aggiornamenti dell&#39;attività. I clienti possono ora modificare il contenuto di [!UICONTROL Criteri] senza dover cambiare le selezioni o utilizzare soluzioni alternative, migliorando la flessibilità e l&#39;usabilità nel processo di creazione attività aggiornato. (TGT-53812)
+* **Impossibile modificare i criteri all&#39;interno di un&#39;attività.** Le opzioni [!UICONTROL Modifica criterio]e [!UICONTROL Rimuovi criterio] sono state disabilitate durante l&#39;accesso ai criteri da un&#39;attività. Tuttavia, è possibile modificare gli stessi criteri tramite la scheda [!UICONTROL Recommendations]. I criteri sono ora completamente modificabili sia dal flusso di lavoro di modifica delle attività che dalla scheda [!UICONTROL Consigli], garantendo un&#39;esperienza di modifica coerente ed efficiente. (TGT-53814)
 
 +++
 
-+++[!UICONTROL Reports]
++++[!UICONTROL Rapporti]
 
-* **La generazione di offerte ad hoc nelle attività A[!UICONTROL utomated Personalization] ha causato incongruenze nei rapporti.** L&#39;utilizzo della funzione Genera offerte ad hoc nelle attività di [!UICONTROL Automated Personalization] (AP) ha portato a rapporti non accurati. In particolare, gli ID offerta venivano riutilizzati tra le posizioni, causando l’erronea attribuzione o la sovrascrittura dei dati di reporting. Le offerte ad hoc ora vengono generate con identificatori distinti per posizione, garantendo un tracciamento e un reporting accurati per tutte le esperienze configurate. (TGT-53757)
-* **Impossibile caricare i report attività a causa di un errore di JavaScript.** I clienti hanno riscontrato un messaggio di errore durante l&#39;accesso alla scheda [!UICONTROL Reports] per alcune attività. L&#39;errore è stato causato da un&#39;eccezione JavaScript: impossibile leggere le proprietà di non definito (lettura di &#39;indexOf&#39;), attivato durante la chiamata GraphQL `getAnalyticsReportSummary`. I rapporti ora vengono caricati correttamente e la gestione degli errori è stata migliorata per evitare errori simili nel flusso di lavoro aggiornato per la creazione di attività. (TGT-53797)
-* **Si è verificato un arresto anomalo dei report dopo l&#39;interazione con la barra di scorrimento.** Se si fa clic sulla barra di scorrimento nella scheda [!UICONTROL Reports], la pagina si è bloccata e si è verificato un errore JavaScript:
+* **La generazione di offerte ad hoc nelle attività A[!UICONTROL automatizzate di Personalization] ha causato incongruenze nei rapporti.** L&#39;utilizzo della funzionalità Genera offerte ad hoc nelle attività di [!UICONTROL Automated Personalization] (AP) ha portato a rapporti non accurati. In particolare, gli ID offerta venivano riutilizzati tra le posizioni, causando l’erronea attribuzione o la sovrascrittura dei dati di reporting. Le offerte ad hoc ora vengono generate con identificatori distinti per posizione, garantendo un tracciamento e un reporting accurati per tutte le esperienze configurate. (TGT-53757)
+* **Impossibile caricare i report attività a causa di un errore di JavaScript.** I clienti hanno riscontrato un messaggio di errore durante l&#39;accesso alla scheda [!UICONTROL Report] per alcune attività. L&#39;errore è stato causato da un&#39;eccezione JavaScript: impossibile leggere le proprietà di non definito (lettura di &#39;indexOf&#39;), attivato durante la chiamata GraphQL `getAnalyticsReportSummary`. I rapporti ora vengono caricati correttamente e la gestione degli errori è stata migliorata per evitare errori simili nel flusso di lavoro aggiornato per la creazione di attività. (TGT-53797)
+* **Si è verificato un arresto anomalo dei report dopo l&#39;interazione con la barra di scorrimento.** Fare clic sulla barra di scorrimento nella scheda [!UICONTROL Report] ha causato l&#39;arresto anomalo della pagina, accompagnato da un errore di JavaScript:
   `SyntaxError: Failed to execute 'querySelector' on 'Element': '[data-key="a-currentcopy"hiretalent""]' is not a valid selector.` I report ora vengono caricati e scorrono correttamente senza generare errori o arresti anomali. (TGT-53828)
-* **Nei report non è stata visualizzata la metrica principale.** La metrica principale, configurata come metrica di conversione utilizzando una mbox, era mancante nei rapporti delle attività. La ricerca per nome metrica o nome mbox non ha prodotto risultati, impedendo la visibilità nei dati delle prestazioni chiave. Le metriche primarie ora vengono visualizzate correttamente nella scheda [!UICONTROL Reports], garantendo un tracciamento e un&#39;analisi accurati delle prestazioni della campagna. (TGT-53773)
-* **La scheda [!UICONTROL Reports] nell&#39;interfaccia utente aggiornata si è bloccata durante l&#39;interazione con la barra di scorrimento orizzontale.** Si è verificato un arresto anomalo intermittente della visualizzazione [!UICONTROL Reports] con un errore &quot;Si è verificato un errore&quot; quando si utilizza la barra di scorrimento orizzontale per accedere alle metriche fuori visualizzazione. La barra di scorrimento ora funziona in modo affidabile, consentendo ai clienti di visualizzare e analizzare tutte le metriche senza necessità di soluzioni quali ingrandire o utilizzare lo scorrimento con spostamento. (TGT-53824)
+* **Nei report non è stata visualizzata la metrica principale.** La metrica principale, configurata come metrica di conversione utilizzando una mbox, era mancante nei rapporti delle attività. La ricerca per nome metrica o nome mbox non ha prodotto risultati, impedendo la visibilità nei dati delle prestazioni chiave. Le metriche primarie ora vengono visualizzate correttamente nella scheda [!UICONTROL Rapporti], garantendo un tracciamento e un&#39;analisi accurati delle prestazioni della campagna. (TGT-53773)
+* **La scheda [!UICONTROL Rapporti] nell&#39;interfaccia utente aggiornata si è bloccata durante l&#39;interazione con la barra di scorrimento orizzontale.** Si è verificato un arresto anomalo della visualizzazione [!UICONTROL Report] a intermittenza con un errore &quot;Si è verificato un errore&quot; quando si utilizza la barra di scorrimento orizzontale per accedere alle metriche fuori visualizzazione. La barra di scorrimento ora funziona in modo affidabile, consentendo ai clienti di visualizzare e analizzare tutte le metriche senza necessità di soluzioni quali ingrandire o utilizzare lo scorrimento con spostamento. (TGT-53824)
 
 +++
 
-+++[!UICONTROL Visual Experience Composer] (VEC)
++++[!UICONTROL Compositore esperienza visivo] (VEC)
 
 * **Se si fa clic su breadcrumb nel Compositore esperienza visivo, il menu Modifica non veniva visualizzato in modo coerente.**
 Quando si selezionano gli elementi di HTML tramite le breadcrumb nel Compositore esperienza visivo, il menu Modifica a intermittenza non viene visualizzato o scompare rapidamente, rendendo la selezione degli elementi inaffidabile. Il menu Modifica ora viene visualizzato in modo coerente quando si naviga tramite breadcrumb, migliorando il flusso di lavoro di selezione degli elementi nel processo aggiornato di creazione delle attività. (TGT-52873)
@@ -694,7 +664,7 @@ Quando si selezionano gli elementi di HTML tramite le breadcrumb nel Compositore
 
 +++
 
-+++[!UICONTROL Workspaces]
++++[!UICONTROL Aree di lavoro]
 
 * **La clonazione di un&#39;attività in un&#39;area di lavoro diversa ha generato un errore di tipo &quot;Input utente non valido&quot;.** Errore durante il tentativo di clonare un&#39;attività da un&#39;area di lavoro a un&#39;altra: &quot;InvalidProperty.Json - Nome di proprietà non riconosciuto &#39;content&#39;.&quot; Questo problema è stato causato da una gestione non corretta dei metadati dell’attività durante il processo di clonazione. È ora possibile clonare correttamente le attività in più aree di lavoro senza attivare errori di convalida, garantendo flussi di lavoro di distribuzione delle attività più fluidi. (TGT-53731 e TGT-53736)
 
@@ -704,12 +674,12 @@ Quando si selezionano gli elementi di HTML tramite le breadcrumb nel Compositore
 
 Questa versione include le seguenti correzioni e miglioramenti:
 
-**[!UICONTROL Audiences]**
+**[!UICONTROL Tipi di pubblico]**
 
 +++Vedi i dettagli
 
 * **È stato risolto un problema che impediva la copia delle attività a causa di ID di pubblico non validi.** I clienti che tentavano di copiare le attività nel processo di creazione attività aggiornato hanno riscontrato un errore causato da ID di pubblico non validi (ad esempio, -1752722444307). Questo problema di convalida del back-end impediva la duplicazione delle attività all’interno della stessa area di lavoro. Questo problema è stato risolto e le attività possono essere copiate correttamente senza errori relativi al pubblico. (TGT-53717)
-* **È stato risolto un problema che causava la visualizzazione di errori di input dell&#39;utente non validi per i tipi di pubblico per sola attività nelle attività [!UICONTROL Automated Personalization] e nel modale [!UICONTROL Manage Content].** I clienti hanno riscontrato errori di input utente non validi durante la configurazione dei tipi di pubblico per sola attività nella finestra modale [!UICONTROL &#x200B; Manage Content] per le attività di Personalizzazione automatizzata. Questo problema si verificava nonostante il pubblico fosse stato precedentemente utilizzato correttamente. Le configurazioni del pubblico combinato ora vengono salvate correttamente senza attivare errori di convalida. (TGT-53749)
+* **È stato risolto un problema che causava la visualizzazione di errori di input utente non validi per i tipi di pubblico per sola attività nelle attività [!UICONTROL Automated Personalization] e nel modale [!UICONTROL Gestisci contenuto].** I clienti hanno riscontrato errori di input utente non validi durante la configurazione dei tipi di pubblico per sola attività nella finestra modale Gestione contenuto] di [!UICONTROL  per le attività di Personalizzazione automatizzata. Questo problema si verificava nonostante il pubblico fosse stato precedentemente utilizzato correttamente. Le configurazioni del pubblico combinato ora vengono salvate correttamente senza attivare errori di convalida. (TGT-53749)
 
 +++
 
@@ -717,19 +687,19 @@ Questa versione include le seguenti correzioni e miglioramenti:
 
 +++Vedi i dettagli
 
-* **Le pagine della documentazione di Web SDK specifiche di Target sono state spostate nell&#39;archivio Adobe Target.** Nell&#39;ambito della ristrutturazione della documentazione di Web SDK, è stata effettuata la migrazione del contenuto specifico di [!DNL Target] dai documenti generali di Web SDK alla [!DNL Adobe Target] [Guida per gli sviluppatori](https://experienceleague.adobe.com/it/docs/target-dev/developer/a4t/overview-a4t?lang=en){target=_blank}. Questa modifica migliora la reperibilità dei contenuti e garantisce che il team di prodotto appropriato mantenga le indicazioni specifiche per la soluzione. (TGT-53374)
+* **Le pagine della documentazione di Web SDK specifiche di Target sono state spostate nell&#39;archivio Adobe Target.** Nell&#39;ambito della ristrutturazione della documentazione di Web SDK, è stata effettuata la migrazione del contenuto specifico di [!DNL Target] dai documenti generali di Web SDK alla [!DNL Adobe Target] [Guida per gli sviluppatori](https://experienceleague.adobe.com/en/docs/target-dev/developer/a4t/overview-a4t?lang=en){target=_blank}. Questa modifica migliora la reperibilità dei contenuti e garantisce che il team di prodotto appropriato mantenga le indicazioni specifiche per la soluzione. (TGT-53374)
 
 +++
 
-**[!UICONTROL Offer Decisions]**
+**[!UICONTROL Decisioni Di Offerta]**
 
 +++Vedi i dettagli
 
-* **L&#39;opzione Decisione offerta è ora visibile in modo coerente durante la creazione dell&#39;attività iniziale.** È stato risolto un problema nell&#39;interfaccia utente aggiornata a causa del quale l&#39;opzione [!UICONTROL Offer Decision] non veniva visualizzata durante il primo flusso di creazione per le attività A/B, in particolare quando si accedeva in modalità in incognito ai tenant con Decisioni di offerta abilitati. L&#39;opzione è stata visualizzata solo dopo essere passati al passaggio [!UICONTROL Targeting] e essere tornati a [!UICONTROL Experiences]. Questa correzione assicura che l&#39;opzione [!UICONTROL Offer Decision] sia immediatamente disponibile durante la configurazione iniziale, migliorando l&#39;usabilità e riducendo la confusione. (TGT-51888)
+* **L&#39;opzione Decisione offerta è ora visibile in modo coerente durante la creazione dell&#39;attività iniziale.** È stato risolto un problema nell&#39;interfaccia utente aggiornata a causa del quale l&#39;opzione [!UICONTROL Decisione offerta] non veniva visualizzata durante il primo flusso di creazione per le attività A/B, in particolare quando si accedeva in modalità in incognito ai tenant con Decisioni di offerta abilitati. L&#39;opzione è stata visualizzata solo dopo essere passati al passaggio [!UICONTROL Targeting] e essere tornati a [!UICONTROL Esperienze]. Questa correzione assicura che l&#39;opzione [!UICONTROL Decisione offerta] sia immediatamente disponibile durante la configurazione iniziale, migliorando l&#39;usabilità e riducendo la confusione. (TGT-51888)
 
 +++
 
-**[!UICONTROL Offers]**
+**[!UICONTROL Offerte]**
 
 +++Vedi i dettagli
 
@@ -741,18 +711,18 @@ Questa versione include le seguenti correzioni e miglioramenti:
 
 +++Vedi i dettagli
 
-* **Tracciamento dei clic ripristinato per [!UICONTROL Recommendations] attività create nell&#39;interfaccia utente aggiornata.** È stato risolto un problema che impediva alle attività [!UICONTROL Recommendations] create nell&#39;interfaccia utente aggiornata di registrare il tracciamento dei clic, causando nessuna conversione segnalata. Le attività create nell’interfaccia utente legacy hanno tracciato correttamente i clic e segnalato le conversioni come previsto. Questa correzione assicura che le attività Consigli create nell’interfaccia utente aggiornata includano ora gli attributi di tracciamento corretti, il ripristino dei rapporti di conversione e l’allineamento con le metriche A4T. (TGT-53287)
-* **Tracciamento dei clic ripristinato per le attività Consigli.** È stato risolto un problema che impediva alle attività [!UICONTROL Recommendations] create nell&#39;interfaccia utente aggiornata di registrare il tracciamento dei clic, causando nessuna conversione segnalata. L&#39;interfaccia utente legacy ha applicato correttamente un ID di tracciamento (`at-track-click`) al contenuto [!UICONTROL Recommendations], mentre l&#39;interfaccia utente aggiornata ha inserito erroneamente un segnaposto (`__recsClickTrackIdPlaceholder__`), impedendo il tracciamento del back-end. Questa correzione assicura che il contenuto di [!DNL Recommendations] includa ora l&#39;ID di tracciamento corretto, ripristinando i rapporti di conversione e l&#39;allineamento con le metriche A4T. (TGT-53496)
-* **Arresto anomalo dell&#39;editor della raccolta risolto nell&#39;interfaccia utente aggiornata.** È stato risolto un problema nell&#39;interfaccia utente [!UICONTROL Visual Experience Composer] (VEC) aggiornata a causa del quale l&#39;apertura di una raccolta dal pannello Editor causava l&#39;arresto anomalo della pagina con TypeError: impossibile leggere le proprietà di undefined (lettura di &quot;customLocale&quot;). Questo errore si è verificato in più tipi di attività, inclusi [!UICONTROL Recommendations] e test A/B. (TGT-53703)
+* **Tracciamento dei clic ripristinato per le attività [!UICONTROL Recommendations] create nell&#39;interfaccia utente aggiornata.** È stato risolto un problema che impediva alle attività [!UICONTROL Recommendations] create nell&#39;interfaccia utente aggiornata di registrare il tracciamento dei clic, causando la mancata segnalazione di conversioni. Le attività create nell’interfaccia utente legacy hanno tracciato correttamente i clic e segnalato le conversioni come previsto. Questa correzione assicura che le attività Consigli create nell’interfaccia utente aggiornata includano ora gli attributi di tracciamento corretti, il ripristino dei rapporti di conversione e l’allineamento con le metriche A4T. (TGT-53287)
+* **Tracciamento dei clic ripristinato per le attività Consigli.** È stato risolto un problema che impediva alle attività [!UICONTROL Recommendations] create nell&#39;interfaccia utente aggiornata di registrare il tracciamento dei clic, causando la mancata segnalazione di conversioni. L&#39;interfaccia utente legacy ha applicato correttamente un ID di tracciamento (`at-track-click`) al contenuto di [!UICONTROL Recommendations], mentre l&#39;interfaccia utente aggiornata ha inserito erroneamente un segnaposto (`__recsClickTrackIdPlaceholder__`), impedendo il tracciamento del back-end. Questa correzione assicura che il contenuto di [!DNL Recommendations] includa ora l&#39;ID di tracciamento corretto, ripristinando i rapporti di conversione e l&#39;allineamento con le metriche A4T. (TGT-53496)
+* **Arresto anomalo dell&#39;editor della raccolta risolto nell&#39;interfaccia utente aggiornata.** È stato risolto un problema nell&#39;interfaccia utente aggiornata del [!UICONTROL Compositore esperienza visivo] a causa del quale l&#39;apertura di una raccolta dal pannello Editor causava l&#39;arresto anomalo della pagina con un errore di tipo: impossibile leggere le proprietà di non definito (lettura di &#39;customLocale&#39;). Questo errore si è verificato in più tipi di attività, inclusi [!UICONTROL Recommendations] e test A/B. (TGT-53703)
 * **Opzione per rimuovere la raccolta selezionata ripristinata nel Compositore esperienza visivo** È stato risolto un problema nel Compositore esperienza visivo a causa del quale gli utenti potevano sostituire solo una raccolta selezionata in un&#39;attività [!UICONTROL Recommendations], ma non potevano rimuoverla completamente. Questa limitazione bloccava i casi d’uso che richiedevano una rimozione pulita della raccolta senza sostituzione. Questa correzione introduce una chiara opzione per rimuovere la raccolta selezionata, consentendo una maggiore flessibilità nella configurazione delle attività e nell’allineamento con il comportamento precedente dell’interfaccia utente. (TGT-53652)
-* **Le raccolte di criteri personalizzati ora vengono visualizzate correttamente nell&#39;interfaccia utente [!UICONTROL Recommendations].** È stato risolto un problema nell’interfaccia Recommendations (Consigli) a causa del quale le raccolte create utilizzando criteri personalizzati non visualizzavano i risultati del prodotto. Mentre le raccolte standard basate su attributi funzionavano come previsto, quelle che utilizzavano filtri personalizzati restituivano &quot;Nessun risultato trovato&quot; nonostante corrispondenze di catalogo valide. Questa correzione assicura che le raccolte che utilizzano attributi personalizzati ora vengano compilate correttamente nella scheda [!UICONTROL Product], ripristinando la funzionalità completa per i flussi di lavoro di consigli personalizzati. (TGT-53653)
-* **È stato risolto un problema a causa del quale le raccolte non visualizzavano i prodotti alla prima apertura della pagina [!UICONTROL Products].** I clienti che accedono alle raccolte nella sezione [!UICONTROL Recommendations] hanno riscontrato risultati di prodotto vuoti alla prima apertura della pagina [!UICONTROL Products]. Questo problema è stato causato da un errore di back-end nella query GraphQL, che non è riuscito a caricare i dati di prodotto per le raccolte con criteri personalizzati. Il problema è stato risolto e i prodotti ora vengono visualizzati correttamente senza la necessità di cambiare ambiente. (TGT-53694)
-* **È stato risolto un problema che impediva la rimozione delle raccolte nelle attività [!UICONTROL Recommendations] basate su moduli.** I clienti che hanno creato [!UICONTROL Recommendations] attività utilizzando [!UICONTROL Form-Based Experience Composer] non sono stati in grado di deselezionare una raccolta scelta in precedenza. L’interfaccia utente richiedeva la selezione di una raccolta prima del salvataggio, impedendo agli utenti di ripristinare &quot;Tutte le raccolte&quot;. Questo comportamento è stato aggiornato per corrispondere alla funzionalità del Compositore esperienza visivo, consentendo ai clienti di salvare senza una raccolta selezionata e di impostare come predefinito &quot;Tutte le raccolte&quot;, come previsto. (TGT-53708)
+* **Le raccolte di criteri personalizzati ora vengono visualizzate correttamente nell&#39;interfaccia utente di [!UICONTROL Recommendations].** È stato risolto un problema nell’interfaccia Recommendations (Consigli) a causa del quale le raccolte create utilizzando criteri personalizzati non visualizzavano i risultati del prodotto. Mentre le raccolte standard basate su attributi funzionavano come previsto, quelle che utilizzavano filtri personalizzati restituivano &quot;Nessun risultato trovato&quot; nonostante corrispondenze di catalogo valide. Questa correzione assicura che le raccolte che utilizzano attributi personalizzati ora vengano compilate correttamente nella scheda [!UICONTROL Prodotto], ripristinando la funzionalità completa per i flussi di lavoro di consigli personalizzati. (TGT-53653)
+* **È stato risolto un problema a causa del quale le raccolte non visualizzavano i prodotti alla prima apertura della pagina [!UICONTROL Prodotti].** I clienti che accedono alle raccolte nella sezione [!UICONTROL Recommendations] hanno riscontrato risultati di prodotto vuoti alla prima apertura della pagina [!UICONTROL Products]. Questo problema è stato causato da un errore di back-end nella query GraphQL, che non è riuscito a caricare i dati di prodotto per le raccolte con criteri personalizzati. Il problema è stato risolto e i prodotti ora vengono visualizzati correttamente senza la necessità di cambiare ambiente. (TGT-53694)
+* **È stato risolto un problema che impediva la rimozione delle raccolte nelle attività [!UICONTROL Recommendations] basate su moduli.** I clienti che hanno creato [!UICONTROL attività Consigli] utilizzando [!UICONTROL Compositore esperienza basato su moduli] non sono stati in grado di deselezionare una raccolta scelta in precedenza. L’interfaccia utente richiedeva la selezione di una raccolta prima del salvataggio, impedendo agli utenti di ripristinare &quot;Tutte le raccolte&quot;. Questo comportamento è stato aggiornato per corrispondere alla funzionalità del Compositore esperienza visivo, consentendo ai clienti di salvare senza una raccolta selezionata e di impostare come predefinito &quot;Tutte le raccolte&quot;, come previsto. (TGT-53708)
 * **È stato risolto un problema che impediva l&#39;impostazione delle promozioni per attributo a causa di valori di raccolta o di regole di filtro mancanti.** I clienti che configurano le promozioni per attributo nel processo di creazione attività hanno riscontrato un errore che indica che in una promozione manca un ID raccolta o valori di regole di filtro. Questo problema di convalida bloccava la progressione anche quando la configurazione sembrava completa. Le promozioni possono ora essere salvate correttamente se configurate per attributo. (TGT-53750)
 * **È stato risolto un problema che impediva il salvataggio delle attività a causa di nomi di esperienza duplicati.** I clienti hanno riscontrato un errore di input utente non valido durante il salvataggio di attività che includevano combinazioni specifiche di criteri e progettazioni. L’errore è stato attivato da nomi di esperienza duplicati, anche quando la configurazione sembrava valida. È ora possibile salvare le attività con configurazioni distinte senza conflitti di denominazione. (TGT-53805)
-* **È stato risolto un problema a causa del quale la convalida rimaneva non valida per le promozioni configurate dall&#39;attributo.** I clienti hanno riscontrato errori di convalida persistenti durante la configurazione di promozioni per attributo nel processo di creazione dell’attività, anche quando tutti i campi obbligatori erano compilati correttamente. Il problema è stato causato da una logica di convalida non corretta nel flusso di lavoro [!UICONTROL Recommendations]. Le promozioni basate su attributi ora vengono convalidate e salvate come previsto. (TGT-53811)
-* **È stato risolto un problema a causa del quale l&#39;applicazione di una promozione a un&#39;attività di [!UICONTROL Recommendations] attiva generava un errore.** I clienti hanno riscontrato l&#39;errore &quot;A Promotion is missing an Collection ID or filtering rule values&quot; (&quot;A Promotion non dispone di un ID raccolta o di valori di regole di filtro&quot;) durante il tentativo di applicare una promozione iniziale a un&#39;attività [!UICONTROL Recommendations] attiva, anche dopo aver fornito dettagli di configurazione validi. È ora possibile applicare le promozioni alle attività live senza attivare gli errori di convalida, garantendo un’esperienza più fluida nell’interfaccia utente aggiornata per la creazione delle attività. (TGT-53738)
-* **È stato risolto un problema che impediva la visualizzazione dei prodotti nelle raccolte nell&#39;interfaccia utente di [!UICONTROL Recommendations].** I clienti di un singolo tenant hanno segnalato che non è stato possibile caricare gli elenchi di prodotti durante la visualizzazione di alcune raccolte nella sezione [!UICONTROL Recommendations] della nuova interfaccia utente. Il problema è stato temporaneamente risolto cambiando gli ambienti, ma questa soluzione alternativa ha portato a una scarsa esperienza utente. Le entità prodotto ora vengono caricate in modo coerente senza richiedere l’attivazione dell’ambiente. (TGT-53783)
+* **È stato risolto un problema a causa del quale la convalida rimaneva non valida per le promozioni configurate dall&#39;attributo.** I clienti hanno riscontrato errori di convalida persistenti durante la configurazione di promozioni per attributo nel processo di creazione dell’attività, anche quando tutti i campi obbligatori erano compilati correttamente. Il problema è stato causato da una logica di convalida errata nel flusso di lavoro [!UICONTROL Recommendations]. Le promozioni basate su attributi ora vengono convalidate e salvate come previsto. (TGT-53811)
+* **È stato risolto un problema a causa del quale l&#39;applicazione di una promozione a un&#39;attività [!UICONTROL Recommendations] attiva generava un errore.** I clienti hanno riscontrato l&#39;errore &quot;A Promotion is missing an Collection ID or filtering rule values&quot; (&quot;A Promotion non dispone di un ID raccolta o di valori di regole di filtro&quot;) durante il tentativo di applicare una promozione iniziale a un&#39;attività [!UICONTROL Recommendations] attiva, anche dopo aver fornito dettagli di configurazione validi. È ora possibile applicare le promozioni alle attività live senza attivare gli errori di convalida, garantendo un’esperienza più fluida nell’interfaccia utente aggiornata per la creazione delle attività. (TGT-53738)
+* **È stato risolto un problema a causa del quale i prodotti non erano visibili nelle raccolte all&#39;interno dell&#39;interfaccia utente di [!UICONTROL Recommendations].** I clienti di un singolo tenant hanno segnalato che non è stato possibile caricare gli elenchi di prodotti durante la visualizzazione di alcune raccolte nella sezione [!UICONTROL Recommendations] della nuova interfaccia utente. Il problema è stato temporaneamente risolto cambiando gli ambienti, ma questa soluzione alternativa ha portato a una scarsa esperienza utente. Le entità prodotto ora vengono caricate in modo coerente senza richiedere l’attivazione dell’ambiente. (TGT-53783)
 * **È stato risolto un problema che impediva la visualizzazione di criteri e progettazioni in una riga dell&#39;interfaccia utente per la creazione di attività.** In precedenza, i criteri e le progettazioni nel processo di creazione delle attività venivano mostrati in un formato compresso, rendendo difficile per i clienti visualizzare e gestire i singoli elementi. Ogni criterio e progettazione viene ora visualizzato sulla propria riga, migliorando la leggibilità e l’usabilità nell’interfaccia utente aggiornata. (TGT-53818)
 
 +++
@@ -761,12 +731,12 @@ Questa versione include le seguenti correzioni e miglioramenti:
 
 +++Vedi i dettagli
 
-* La metrica **[!UICONTROL Total Revenue]è ora inclusa nelle esportazioni CSV dai rapporti attività.** È stato risolto un problema nell&#39;interfaccia utente aggiornata di [!UICONTROL Overview] a causa del quale i ricavi totali venivano visualizzati correttamente nella visualizzazione dei rapporti attività, ma non nell&#39;esportazione CSV, visualizzati come $0. Questa discrepanza ha impedito agli utenti di fare affidamento sui dati esportati per l’analisi e il reporting offline. (TGT-53325)
-* La metrica **[!UICONTROL Total Sales]è ora inclusa nelle esportazioni CSV dai rapporti attività.** È stato risolto un problema nell&#39;interfaccia utente aggiornata a causa del quale la metrica [!UICONTROL Total Sales] veniva visualizzata correttamente nella vista dei rapporti attività ma non nell&#39;esportazione CSV. Questa discrepanza impediva agli utenti di accedere a dati completi sulle prestazioni nei rapporti scaricati. Questa correzione assicura che i valori [!UICONTROL Total Sales] vengano ora inclusi con precisione nelle esportazioni CSV, ripristinando la coerenza tra reporting in-app e analisi offline. (TGT-53330)
-* **Messaggi di errore migliorati per [!UICONTROL Graph View] quando le metriche non sono abilitate.** È stato risolto un problema nel Compositore esperienza visivo a causa del quale [!UICONTROL Graph View] visualizzava un messaggio generico di tipo &quot;Si è verificato un errore&quot; quando una metrica richiesta non era abilitata nella suite di rapporti [!DNL Analytics] associata. Questo problema è stato attivato da un errore `not_enabled_metric` nella risposta GraphQL back-end. Questa correzione sostituisce il vago errore con un messaggio più informativo che aiuta gli utenti a identificare i problemi di configurazione in [!DNL Analytics], riducendo confusione e inutili escalation di supporto. (TGT-53577)
-* **È stato risolto un problema a causa del quale la durata del report superava il limite supportato di 90 giorni.** I clienti che utilizzano il filtro &quot;[!UICONTROL Last X Days]&quot; nella sezione [!UICONTROL Reports] hanno potuto selezionare durate superiori a 90 giorni, il che poteva causare problemi di prestazioni e dati incompleti. Il filtro è stato aggiornato per applicare un intervallo massimo di 90 giorni, garantendo una generazione di rapporti coerente e affidabile. (TGT-53795)
+* La metrica **[!UICONTROL Ricavi totali] è ora inclusa nelle esportazioni CSV dai rapporti attività.** È stato risolto un problema nell&#39;interfaccia utente aggiornata di [!UICONTROL Panoramica] a causa del quale i ricavi totali venivano visualizzati correttamente nella visualizzazione dei rapporti attività, ma non nell&#39;esportazione CSV, visualizzati come $0. Questa discrepanza ha impedito agli utenti di fare affidamento sui dati esportati per l’analisi e il reporting offline. (TGT-53325)
+* La metrica **[!UICONTROL Vendite totali] è ora inclusa nelle esportazioni CSV dai rapporti attività.** È stato risolto un problema nell&#39;interfaccia utente aggiornata a causa del quale la metrica [!UICONTROL Vendite totali] veniva visualizzata correttamente nella vista dei rapporti attività ma non era presente nell&#39;esportazione CSV. Questa discrepanza impediva agli utenti di accedere a dati completi sulle prestazioni nei rapporti scaricati. Questa correzione assicura che i valori [!UICONTROL Vendite totali] siano ora inclusi con precisione nelle esportazioni CSV, ripristinando la coerenza tra reporting in-app e analisi offline. (TGT-53330)
+* **Messaggi di errore migliorati per [!UICONTROL Visualizzazione grafico] quando le metriche non sono abilitate.** È stato risolto un problema nel Compositore esperienza visivo a causa del quale la [!UICONTROL Visualizzazione grafico] visualizzava un messaggio generico di tipo &quot;Si è verificato un errore&quot; quando una metrica richiesta non era abilitata nella suite di rapporti [!DNL Analytics] associata. Questo problema è stato attivato da un errore `not_enabled_metric` nella risposta GraphQL back-end. Questa correzione sostituisce il vago errore con un messaggio più informativo che aiuta gli utenti a identificare i problemi di configurazione in [!DNL Analytics], riducendo confusione e inutili escalation di supporto. (TGT-53577)
+* **È stato risolto un problema a causa del quale la durata del report superava il limite supportato di 90 giorni.** I clienti che utilizzano il filtro &quot;[!UICONTROL Ultimi X giorni]&quot; nella sezione [!UICONTROL Rapporti] hanno potuto selezionare durate superiori a 90 giorni, il che poteva causare problemi di prestazioni e dati incompleti. Il filtro è stato aggiornato per applicare un intervallo massimo di 90 giorni, garantendo una generazione di rapporti coerente e affidabile. (TGT-53795)
 * **È stato risolto un problema per cui i rapporti CSV delle prestazioni venivano generati utilizzando l&#39;ambiente predefinito invece di quello selezionato.** In precedenza, quando i clienti modificavano l’ambiente nelle impostazioni dei rapporti e generavano un rapporto sulle prestazioni, il CSV risultante conteneva dati provenienti dall’ambiente predefinito anziché da quello selezionato.  L&#39;interfaccia utente ora passa correttamente il parametro `environmentId`, assicurandosi che il rapporto rifletta l&#39;ambiente scelto. Inoltre, è stata migliorata la gestione degli errori. Se si verificano errori GraphQL durante la generazione del file CSV, l’interfaccia utente visualizza ora un messaggio di errore chiaro invece di produrre un file CSV vuoto. (TGT-53064)
-* **È stato risolto un problema che impediva la visualizzazione dei dati in [!UICONTROL Graph View] da parte del reporting di Analytics for Target (A4T).** I clienti che utilizzano [!DNL Target] con integrazione A4T hanno riscontrato un errore di tipo &quot;Si è verificato un errore&quot; quando si è passati alla visualizzazione grafico nella scheda Reporting delle attività di test A/B. Anche se [!UICONTROL Table View] è stato caricato correttamente, [!UICONTROL Graph View] non è riuscito a eseguire il rendering delle tendenze della metrica nell&#39;intervallo di tempo selezionato. [!UICONTROL Graph View] visualizza ora i dati sulle prestazioni come previsto per tutte le metriche supportate, migliorando la visibilità e la precisione di reporting nell&#39;interfaccia utente aggiornata. (TGT-53573)
+* **È stato risolto un problema che impediva la visualizzazione dei dati nella [!UICONTROL Vista grafico] da parte del reporting di Analytics for Target (A4T).** I clienti che utilizzano [!DNL Target] con integrazione A4T hanno riscontrato un errore di tipo &quot;Si è verificato un errore&quot; quando si è passati alla visualizzazione grafico nella scheda Reporting delle attività di test A/B. Anche se la [!UICONTROL Vista tabella] è stata caricata correttamente, la [!UICONTROL Vista grafico] non è riuscita a eseguire il rendering delle tendenze delle metriche nell&#39;intervallo di tempo selezionato. [!UICONTROL Vista grafico] ora visualizza i dati sulle prestazioni come previsto per tutte le metriche supportate, migliorando la visibilità e la precisione di reporting nell&#39;interfaccia utente aggiornata. (TGT-53573)
 
 +++
 
@@ -775,14 +745,14 @@ Questa versione include le seguenti correzioni e miglioramenti:
 +++Vedi i dettagli
 
 * **I metadati degli elementi sono ora visibili al passaggio del mouse nel menu delle breadcrumb.** È stato migliorato il menu delle breadcrumb nel Compositore esperienza visivo per visualizzare ulteriori dettagli dell’elemento come ID, classe e nome quando si passa il puntatore su un elemento. Questo miglioramento consente agli utenti di identificare e differenziare gli elementi più facilmente durante la configurazione dell’attività. (TGT-53409)
-* **Il passaggio del cursore Breadcrumb evidenzia l&#39;elemento corrispondente nel Compositore esperienza visivo** È stato migliorato [!UICONTROL Visual Experience Composer] per evidenziare l&#39;elemento corrispondente nell&#39;editor quando si passa il mouse sugli elementi nel menu delle breadcrumb. Viene visualizzato anche il tipo di elemento, ad esempio contenitore, testo in grassetto o pulsante. Questo comportamento si applica agli elementi di pari livello ed esclude i tipi non supportati come SVG, in base all’elenco di convalida. (TGT-53411)
+* **Il passaggio del cursore Breadcrumb evidenzia l&#39;elemento corrispondente nel Compositore esperienza visivo** È stato migliorato il [!UICONTROL Compositore esperienza visivo] per evidenziare l&#39;elemento corrispondente nell&#39;editor quando si passa il puntatore sugli elementi nel menu delle breadcrumb. Viene visualizzato anche il tipo di elemento, ad esempio contenitore, testo in grassetto o pulsante. Questo comportamento si applica agli elementi di pari livello ed esclude i tipi non supportati come SVG, in base all’elenco di convalida. (TGT-53411)
 * **È stato ripristinato l&#39;avviso di modifiche non salvate nei flussi di lavoro di modifica del Compositore esperienza visivo.** È stato risolto un problema nel Compositore esperienza visivo a causa del quale gli utenti non venivano più informati in merito alle modifiche del codice personalizzato non salvate. A differenza dell’interfaccia utente legacy, nella nuova esperienza non sono presenti prompt quando si esce o si chiude l’editor di personalizzazione, con conseguente perdita accidentale di avanzamento. Con questa correzione vengono ripristinati gli avvisi per tutti i tipi di modifica, incluso il codice personalizzato, e viene garantito che gli utenti vengano avvisati prima di uscire senza salvare. (TGT-53435).
 * **Le modifiche al codice personalizzato ora persistono durante l&#39;aggiornamento della pagina nel Compositore esperienza visivo** È stato risolto un problema nel Compositore esperienza visivo a causa del quale le modifiche al codice personalizzato andavano perse durante gli aggiornamenti del sito web. Questo problema si verificava su pagine con più ricaricamenti, causando la reimpostazione e il ripristino delle modifiche non salvate da parte dell’editor. La correzione assicura che le modifiche del codice personalizzato rimangano intatte anche se la pagina viene ricaricata durante la modifica, evitando la perdita accidentale di avanzamento. (TTGT-53501)
 * **Problema di accesso risolto per l&#39;accesso al sito nel Compositore esperienza visivo** È stato risolto un problema che impediva agli utenti di accedere al loro sito durante l’accesso tramite il Compositore esperienza visivo. Il flusso di accesso reindirizzava ripetutamente gli utenti alla pagina di accesso, impedendo la configurazione e l’anteprima dell’attività. Questa correzione assicura che il Compositore esperienza visivo non interferisca più con il comportamento di accesso, ripristinando l’accesso previsto per gli utenti autenticati. (TGT-53524)
 * **Problema di duplicazione dei cookie risolto nell&#39;estensione VEC Helper.** È stato risolto un problema a causa del quale l&#39;estensione [!UICONTROL Adobe Experience Cloud Visual Editing Helper] duplicava il cookie `at_qa_mode` durante il controllo qualità tramite collegamenti di anteprima. Quando si cambiavano manualmente gli indici di anteprima, venivano creati più cookie con valori in conflitto tra i domini, impedendo ai tester di cambiare in modo affidabile le varianti. Questo comportamento è stato osservato anche al di fuori dell’interfaccia utente di Target e ha interessato sia gli account interni che quelli client. Questa correzione assicura una gestione coerente dei cookie impedendo le voci duplicate e allineando l’ambito del dominio, consentendo un passaggio continuo delle varianti senza richiedere la pulizia manuale dei cookie. (TGT-53579)
 * **È stato risolto un problema che causava perdite di memoria a causa del clic sugli elementi in una determinata home page.** I clienti che creano attività in questa home page hanno riscontrato perdite di memoria durante l’interazione con gli elementi della pagina. Il problema era legato a un numero eccessivo di avvisi nella console e a un utilizzo crescente della memoria nei sottoframe, in particolare a causa di attributi di srcset non corretti. L’utilizzo della memoria rimane ora stabile durante l’interazione. (TGT-53761)
 * **È stato risolto un problema che causava l&#39;arresto anomalo del Compositore esperienza visivo e la visualizzazione di una schermata vuota durante il caricamento di alcune attività.** I clienti di un tenant specifico hanno segnalato che l’editor non è riuscito a caricare attività specifiche. Il Compositore esperienza visivo rimaneva bloccato su &quot;Applicazione delle modifiche iniziali&quot; prima dell’arresto anomalo e della visualizzazione di una schermata vuota. Il Compositore esperienza visivo ora carica le attività interessate senza errori nel processo aggiornato di creazione delle attività. (TGT-52932)
-* **È stato risolto un problema che causava la visualizzazione di etichette di posizione incoerenti nella barra [!UICONTROL Manage Content] nelle attività [!UICONTROL Automated Personalization].** I clienti hanno segnalato che la barra [!UICONTROL Manage Content] mostrava numeri di posizione non corrispondenti nelle schede [!UICONTROL Experiences] e [!UICONTROL Offers]. (ad esempio, Posizione 2 e Posizione 4 in Esperienze e Posizione 1 e Posizione 2 in Offerta) anche quando erano configurate solo due posizioni. Le etichette di posizione ora sono coerenti e mappate con precisione alle modifiche, migliorando la chiarezza e l’usabilità nel processo di creazione delle attività. (TGT-52934)
+* **È stato risolto un problema che causava la visualizzazione di etichette di posizione incoerenti nella barra [!UICONTROL Gestione contenuto] delle attività [!UICONTROL Automated Personalization].** I clienti hanno segnalato che la barra [!UICONTROL Gestione contenuto] mostrava numeri di posizione non corrispondenti nelle schede [!UICONTROL Esperienze] e [!UICONTROL Offerte]. (ad esempio, Posizione 2 e Posizione 4 in Esperienze e Posizione 1 e Posizione 2 in Offerta) anche quando erano configurate solo due posizioni. Le etichette di posizione ora sono coerenti e mappate con precisione alle modifiche, migliorando la chiarezza e l’usabilità nel processo di creazione delle attività. (TGT-52934)
 * **È stato risolto un problema che causava la perdita di modifiche nel Compositore esperienza visivo dopo il salvataggio.** I clienti hanno segnalato che dopo aver salvato una modifica nel Compositore esperienza visivo, la pagina veniva aggiornata e la modifica veniva ripristinata alla versione precedente. Questo problema causava la perdita degli aggiornamenti più recenti a meno che l’intera attività non venisse salvata immediatamente. Le modifiche ora persistono correttamente dopo il salvataggio e l’editor non ripristina più le modifiche in modo imprevisto, garantendo un’esperienza affidabile nel flusso di lavoro per la creazione di attività. (TGT-53500)
 * **È stata migliorata la selezione degli elementi nel Compositore esperienza visivo tramite la visualizzazione del tipo di elemento al passaggio del mouse e nella selezione.** Per migliorare l’usabilità durante la creazione di attività, il Compositore esperienza visivo ora decora gli elementi HTML con il loro tipo quando vengono passati con il mouse sopra di essi o selezionati. Questo miglioramento consente ai clienti di identificare e selezionare più facilmente gli elementi corretti. Gli elementi selezionati vengono evidenziati con un colore distinto e gli elementi al passaggio del mouse sono evidenziati in blu. Viene visualizzato anche il tipo di elemento, che fornisce un contesto più chiaro durante la modifica. (TGT-53502)
 
@@ -798,17 +768,17 @@ La combinazione di ID e sandbox dello stream di dati deve essere univoca per [!D
 * Lo stesso ID dello stream di dati può essere utilizzato per connessioni diverse solo se sono configurate in sandbox diverse.
 * Questa regola si applica a tutte le selezioni dello stream di dati, anche quando si seleziona &quot;Nessuno&quot;.
 
-Questo aggiornamento garantisce una configurazione coerente e impedisce conflitti tra ambienti con più sandbox. Per ulteriori informazioni, vedere [Connessione Adobe Target](https://experienceleague.adobe.com/it/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection){target=_blank} nella *Guida delle destinazioni Experience Platform*.
+Questo aggiornamento garantisce una configurazione coerente e impedisce conflitti tra ambienti con più sandbox. Per ulteriori informazioni, vedere [Connessione Adobe Target](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection){target=_blank} nella *Guida delle destinazioni Experience Platform*.
 
 ### [!DNL Target Standard/Premium] 25.9.1 (5 settembre 2025)
 
 Questa versione include i seguenti aggiornamenti e correzioni:
 
-**[!UICONTROL Experience Fragments]**
+**[!UICONTROL Frammenti esperienza]**
 
 +++Vedi i dettagli
 
-* **Attribuzione utente migliorata per [!UICONTROL AEM Experience Fragment] offerte.** È stato risolto un problema nel Compositore esperienza visivo a causa del quale il campo &quot;[!UICONTROL Last updated]&quot; per le offerte [!UICONTROL AEM Experience Fragment] (XF) mostrava in modo errato un ID di codice invece del nome utente. Questa discrepanza si è verificata durante la selezione delle offerte nell’interfaccia utente aggiornata, creando un’incoerenza con l’interfaccia utente legacy e le offerte HTML, in cui veniva visualizzato correttamente il nome dell’ultimo editor. Questa correzione garantisce un’attribuzione utente coerente tra i tipi di offerta, migliorando la trasparenza e l’allineamento al comportamento previsto. (TGT-52880 e TGT-52898)
+* **Attribuzione utente migliorata per [!UICONTROL Offerte di Frammenti esperienza AEM].** È stato risolto un problema nel Compositore esperienza visivo a causa del quale il campo &quot;[!UICONTROL Ultimo aggiornamento]&quot; per le offerte del [!UICONTROL Frammento esperienza AEM] (XF) mostrava erroneamente un ID codice invece del nome utente. Questa discrepanza si è verificata durante la selezione delle offerte nell’interfaccia utente aggiornata, creando un’incoerenza con l’interfaccia utente legacy e le offerte HTML, in cui veniva visualizzato correttamente il nome dell’ultimo editor. Questa correzione garantisce un’attribuzione utente coerente tra i tipi di offerta, migliorando la trasparenza e l’allineamento al comportamento previsto. (TGT-52880 e TGT-52898)
 
 +++
 
@@ -825,26 +795,26 @@ Questa versione include i seguenti aggiornamenti e correzioni:
 
 +++Vedi i dettagli
 
-* **Opzione di download ripristinata nella sezione dei report dell&#39;interfaccia utente aggiornata per la panoramica dei report.** È stato risolto un problema nella nuova interfaccia utente della panoramica a causa del quale il pulsante [!UICONTROL Download] non era presente nella sezione Rapporti, impedendo agli utenti di esportare i punteggi di importanza degli attributi. Questo aggiornamento ripristina la funzionalità di esportazione completa, consentendo un accesso semplificato ai dati scaricabili a scopo di analisi e reporting. (TGT-53222)
-* Pulsante **[!UICONTROL Download full CSV report]ripristinato nella visualizzazione [!UICONTROL Important attributes].** È stato risolto un problema nell&#39;interfaccia utente aggiornata per la creazione di attività a causa del quale il pulsante [!UICONTROL Download full CSV report] non era presente nella sezione [!UICONTROL Important Attributes] della visualizzazione Report. Questa correzione consente di ripristinare l’accesso alle informazioni scaricabili, garantendo funzionalità coerenti sia nell’interfaccia utente aggiornata che in quella legacy. (TGT-53238)
-* **Sono stati risolti dei problemi relativi alla generazione di rapporti per [!UICONTROL Auto Target] nell&#39;interfaccia utente aggiornata della panoramica.** Sono stati risolti diversi problemi relativi all&#39;interfaccia utente nell&#39;interfaccia di panoramica aggiornata che interessavano il reporting delle attività di [!UICONTROL Auto Target]. Queste correzioni includono:
+* **Opzione di download ripristinata nella sezione dei report dell&#39;interfaccia utente aggiornata per la panoramica dei report.** È stato risolto un problema nella nuova interfaccia utente della panoramica a causa del quale il pulsante [!UICONTROL Scarica] non era presente nella sezione Rapporti, impedendo agli utenti di esportare i punteggi di importanza degli attributi. Questo aggiornamento ripristina la funzionalità di esportazione completa, consentendo un accesso semplificato ai dati scaricabili a scopo di analisi e reporting. (TGT-53222)
+* **[!UICONTROL Il pulsante Scarica rapporto CSV completo] è stato ripristinato nella visualizzazione [!UICONTROL Attributi importanti].** È stato risolto un problema nell&#39;interfaccia utente di creazione attività aggiornata a causa del quale il pulsante [!UICONTROL Scarica rapporto CSV completo] non era presente nella sezione [!UICONTROL Attributi importanti] della visualizzazione dei rapporti. Questa correzione consente di ripristinare l’accesso alle informazioni scaricabili, garantendo funzionalità coerenti sia nell’interfaccia utente aggiornata che in quella legacy. (TGT-53238)
+* **Sono stati risolti dei problemi relativi alla generazione di rapporti per [!UICONTROL Targeting automatico] nell&#39;interfaccia utente della panoramica aggiornata.** Sono stati risolti diversi problemi di interfaccia utente nell&#39;interfaccia di panoramica aggiornata che interessavano la generazione di rapporti sulle attività di [!UICONTROL Targeting automatico]. Queste correzioni includono:
 
    * Metriche di incremento e affidabilità mancanti nei rapporti di riepilogo
    * Indicatore di colore errato per la casella di controllo &quot;Modelli generati&quot;
    * Rapporto grafico non funzionale nonostante la varianza dei dati in [!DNL Analytics]
-   * Collegamento di download mancante per i report [!UICONTROL Automated Segments] e [!UICONTROL Important Attributes]
-   * Visualizzazione report [!UICONTROL Automated Segments] interrotto
+   * Collegamento di download mancante per i report [!UICONTROL Segmenti automatizzati] e [!UICONTROL Attributi importanti]
+   * Visualizzazione report [!UICONTROL Segmenti automatizzati] interrotti
 
-  Queste correzioni ripristinano il comportamento di reporting previsto e migliorano la visibilità delle prestazioni di [!UICONTROL Auto Target] nell&#39;interfaccia utente aggiornata. (TGT-53484)
+  Queste correzioni ripristinano il comportamento di reporting previsto e migliorano la visibilità delle prestazioni di [!UICONTROL Targeting automatico] nell&#39;interfaccia utente aggiornata. (TGT-53484)
 
 +++
 
-**[!UICONTROL Visual Experience Composer]**
+**[!UICONTROL Compositore esperienza visivo]**
 
 +++Vedi i dettagli
 
-* **Convalida del modulo corretta per le condizioni di presenza dei parametri nell&#39;interfaccia utente aggiornata.** È stato risolto un problema nell&#39;interfaccia utente aggiornata a causa del quale la selezione di &quot;[!UICONTROL Custom mbox parameter value is present]&quot; o &quot;[!UICONTROL Parameter is present]&quot; richiedeva erroneamente ai clienti di immettere un valore. Questo comportamento è in conflitto con la logica prevista, che si limita a verificare l’esistenza di un parametro indipendentemente dal suo valore. La correzione allinea la convalida del modulo al comportamento previsto, consentendo una configurazione dell’attività più fluida e supportando l’adozione completa dell’interfaccia utente aggiornata. (TGT-53638)
-* **Logica del modulo corretta per le regole di presenza dei parametri nella consegna delle pagine.&quot;** È stato risolto un problema nell&#39;interfaccia utente aggiornata a causa del quale la selezione delle regole di consegna pagine come &quot;[!UICONTROL Parameter is present]&quot;, &quot;[!UICONTROL Parameter is not present]&quot;, &quot;[!UICONTROL Parameter value is present]&quot; o &quot;[!UICONTROL Parameter value is not present]&quot; richiedeva erroneamente agli utenti di immettere un valore di parametro aggiuntivo. Questo comportamento non era coerente con l’interfaccia utente legacy e contraddiceva la logica prevista di rilevamento della presenza di parametri senza specificare un valore. Questa correzione ripristina il comportamento di configurazione previsto delle regole, semplificando la configurazione delle attività e migliorando l’usabilità. (TGT-53640)
+* **Convalida del modulo corretta per le condizioni di presenza dei parametri nell&#39;interfaccia utente aggiornata.** È stato risolto un problema nell&#39;interfaccia utente aggiornata a causa del quale la selezione di &quot;[!UICONTROL Valore del parametro mbox personalizzato è presente]&quot; o &quot;[!UICONTROL Parametro è presente]&quot; richiedeva erroneamente ai clienti di immettere un valore. Questo comportamento è in conflitto con la logica prevista, che si limita a verificare l’esistenza di un parametro indipendentemente dal suo valore. La correzione allinea la convalida del modulo al comportamento previsto, consentendo una configurazione dell’attività più fluida e supportando l’adozione completa dell’interfaccia utente aggiornata. (TGT-53638)
+* **Logica del modulo corretta per le regole di presenza dei parametri nella consegna delle pagine.&quot;** È stato risolto un problema nell&#39;interfaccia utente aggiornata a causa del quale la selezione delle regole di consegna pagine, ad esempio &quot;[!UICONTROL Parametro presente]&quot;, &quot;[!UICONTROL Parametro non presente]&quot;[!UICONTROL Valore parametro presente]&quot; o &quot;[!UICONTROL Valore parametro non presente]&quot;, richiedeva erroneamente agli utenti di immettere un valore parametro aggiuntivo. Questo comportamento non era coerente con l’interfaccia utente legacy e contraddiceva la logica prevista di rilevamento della presenza di parametri senza specificare un valore. Questa correzione ripristina il comportamento di configurazione previsto delle regole, semplificando la configurazione delle attività e migliorando l’usabilità. (TGT-53640)
 * **Logica di convalida migliorata per il generatore di regole con più pagine nell&#39;interfaccia utente aggiornata.** Sono stati risolti diversi problemi di convalida nel generatore di regole per più pagine nell’interfaccia utente aggiornata. Queste correzioni includono:
 
    * Impedire la creazione di regole quando il parametro mbox è vuoto
@@ -853,9 +823,9 @@ Questa versione include i seguenti aggiornamenti e correzioni:
    * Abilitazione delle regole dei frammenti hash con operatori unari ripristinando la funzionalità di salvataggio
 
   Questi aggiornamenti garantiscono una configurazione precisa delle regole e migliorano l’usabilità in scenari di consegna pagine complessi. (TGT-53722)
-* **Il problema di ridenominazione della posizione è stato risolto nelle attività A/B e MVT.** È stato corretto un bug nell&#39;interfaccia utente aggiornata a causa del quale la ridenominazione di una posizione in un&#39;attività [!UICONTROL A/B Test] o [!UICONTROL Multivariate Test] (MVT) non persisteva dopo la navigazione tra l&#39;elenco delle posizioni, il targeting e il back. Questo aggiornamento garantisce che le modifiche al nome della posizione vengano salvate e applicate in modo coerente in tutto il flusso di lavoro dell’attività. (TGT-52367)
-* **Persistenza nome posizione corretta per le attività MVT e AP nell&#39;interfaccia utente aggiornata.** È stato risolto un problema nell&#39;interfaccia utente aggiornata a causa del quale i nomi di posizione modificati nelle attività [!UICONTROL Multivariate Test] (MVT) e [!UICONTROL Automated Personalization] (AP) non venivano salvati correttamente. Dopo aver rinominato una posizione, lo spostamento tra le schede, ad esempio [!UICONTROL Targeting] e [!UICONTROL Experiences], ha ripristinato lo stato precedente dei nomi. Questa correzione assicura una denominazione della posizione coerente tra le schede e migliora l’affidabilità durante la configurazione dell’attività. (TGT-52927)
-* **L&#39;etichettatura della posizione è stata corretta nel pannello di gestione esperienze per le attività MVT.** È stato risolto un problema nell&#39;interfaccia utente aggiornata a causa del quale il pannello [!UICONTROL Manage Experiences] nelle attività [!UICONTROL Multivariate Test] (MVT) mostrava una numerazione delle posizioni incoerente. Questa correzione assicura che le etichette di posizione siano sequenziali e correttamente allineate con le modifiche definite dall’utente, migliorando la chiarezza e l’usabilità durante la configurazione dell’esperienza. (TGT-52929)
+* **Il problema di ridenominazione della posizione è stato risolto nelle attività A/B e MVT.** È stato corretto un bug nell&#39;interfaccia utente aggiornata a causa del quale la ridenominazione di una posizione in un&#39;attività [!UICONTROL Test A/B] o [!UICONTROL Test multivariato] (MVT) non persisteva dopo la navigazione tra l&#39;elenco delle posizioni, il targeting e il back. Questo aggiornamento garantisce che le modifiche al nome della posizione vengano salvate e applicate in modo coerente in tutto il flusso di lavoro dell’attività. (TGT-52367)
+* **Persistenza nome posizione corretta per le attività MVT e AP nell&#39;interfaccia utente aggiornata.** È stato risolto un problema nell&#39;interfaccia utente aggiornata a causa del quale i nomi delle posizioni modificati in [!UICONTROL Test multivariato] (MVT) e [!UICONTROL Automated Personalization] (AP) non venivano salvati correttamente. Dopo aver rinominato una posizione, lo spostamento tra le schede, ad esempio [!UICONTROL Targeting] e [!UICONTROL Esperienze], ha causato il ripristino dello stato precedente dei nomi. Questa correzione assicura una denominazione della posizione coerente tra le schede e migliora l’affidabilità durante la configurazione dell’attività. (TGT-52927)
+* **L&#39;etichettatura della posizione è stata corretta nel pannello di gestione esperienze per le attività MVT.** È stato risolto un problema nell&#39;interfaccia utente aggiornata a causa del quale il pannello [!UICONTROL Gestione esperienze] in [!UICONTROL Attività test multivariato] (MVT) mostrava una numerazione delle posizioni incoerente. Questa correzione assicura che le etichette di posizione siano sequenziali e correttamente allineate con le modifiche definite dall’utente, migliorando la chiarezza e l’usabilità durante la configurazione dell’esperienza. (TGT-52929)
 
 +++
 
@@ -863,52 +833,52 @@ Questa versione include i seguenti aggiornamenti e correzioni:
 
 Questa versione include i seguenti aggiornamenti e correzioni:
 
-**[!UICONTROL Activities]**
+**[!UICONTROL Attività]**
 
 +++Vedi i dettagli
 
-* **I clienti non potevano copiare i nomi di attività o documenti da[!UICONTROL Activity Overview]**: in precedenza, i clienti non potevano copiare il nome di un&#39;attività o l&#39;offerta/documento associato direttamente da [!UICONTROL Activity overview] nel processo di creazione attività aggiornato. Questa limitazione ha influito sull’usabilità, in particolare sugli schermi più piccoli. I clienti possono ora copiare facilmente sia i nomi delle attività che i nomi dei documenti senza soluzioni alternative. (TGT-51850)
+* **I clienti non potevano copiare i nomi di attività o documenti dalla [!UICONTROL Panoramica attività]**: in precedenza, i clienti non potevano copiare il nome di un&#39;attività o dell&#39;offerta/documento associato direttamente dalla [!UICONTROL Panoramica attività] nel processo aggiornato di creazione attività. Questa limitazione ha influito sull’usabilità, in particolare sugli schermi più piccoli. I clienti possono ora copiare facilmente sia i nomi delle attività che i nomi dei documenti senza soluzioni alternative. (TGT-51850)
 * **Acquisizione proattiva dei dati dei clienti [!DNL Target] curati durante la creazione dell&#39;attività**: il processo di creazione dell&#39;attività è stato migliorato abilitando la raccolta proattiva di report, contenuti e schermate da [!DNL Target] clienti. Questo miglioramento risolve le lacune nei dati identificate nei casi di utilizzo esistenti e aiuta a garantire informazioni più precise durante la configurazione di attività e esperimenti. (TGT-52415)
-* **Le attività di Personalizzazione automatizzata non hanno recuperato i dati pronti per il modello nella sezione [!UICONTROL Reports]**: i clienti che visualizzavano le attività di Automated Personalization (AP) nella sezione [!UICONTROL Reports] non sono stati in grado di visualizzare gli indicatori pronti per il modello a livello di gruppo di rapporti e di offerta. Questo problema si verificava perché i dati pronti per il modello non venivano recuperati correttamente dal backend. La funzionalità è stata ripristinata e ora vengono visualizzati i dati pronti per il modello come previsto. (TGT-53600 e TGT-53601)
-* **Le attività pianificate per il futuro mostravano erroneamente lo stato &quot;[!UICONTROL Live]&quot; nella panoramica di [!UICONTROL Activity]**: i clienti hanno osservato che le attività pianificate per essere avviate in futuro erano erroneamente contrassegnate come &quot;[!UICONTROL Live]&quot; nella panoramica di [!UICONTROL Activity]. Questa mancata corrispondenza di stato è stata risolta e le attività pianificate ora vengono visualizzate correttamente come &quot;[!UICONTROL Scheduled]&quot; senza richiedere un aggiornamento della pagina. (TGT-52835)
+* **Le attività di Personalizzazione automatizzata non hanno recuperato i dati pronti per il modello nella sezione [!UICONTROL Rapporti]**: i clienti che visualizzavano le attività di Automated Personalization (AP) nella sezione [!UICONTROL Rapporti] non sono stati in grado di visualizzare gli indicatori pronti per il modello a livello di gruppo di rapporti e di offerta. Questo problema si verificava perché i dati pronti per il modello non venivano recuperati correttamente dal backend. La funzionalità è stata ripristinata e ora vengono visualizzati i dati pronti per il modello come previsto. (TGT-53600 e TGT-53601)
+* **Le attività pianificate per il futuro visualizzavano erroneamente lo stato &quot;[!UICONTROL Live]&quot; nella [!UICONTROL Panoramica attività]**: i clienti hanno rilevato che le attività pianificate per iniziare in futuro non erano contrassegnate correttamente come &quot;[!UICONTROL Live]&quot; nella panoramica [!UICONTROL Attività]. Questa mancata corrispondenza di stato è stata risolta e le attività pianificate ora vengono visualizzate correttamente come &quot;[!UICONTROL Pianificate]&quot; senza richiedere un aggiornamento della pagina. (TGT-52835)
 
 +++
 
-**[!UICONTROL Recommendations]**
+**[!UICONTROL Funzione Consigli]**
 
 +++Vedi i dettagli
 
-* **Elenco prodotti non visibile nella finestra di dialogo [!UICONTROL View Collection]:** In precedenza, i clienti non potevano visualizzare l&#39;elenco prodotti quando visualizzavano una raccolta nella scheda [!UICONTROL Recommendations]. La finestra di dialogo [!UICONTROL View Collection] visualizza ora correttamente i prodotti associati, migliorando la trasparenza e l&#39;usabilità nell&#39;interfaccia utente [!UICONTROL Recommendations] aggiornata. (TGT-50531)
-* **È stato risolto un problema che causava un filtro sensibile a maiuscole e minuscole nella ricerca avanzata di [!UICONTROL Product Catalog Search]**: il filtro della ricerca avanzata nella pagina [!UICONTROL Product Catalog Search] ignora ora correttamente la distinzione tra maiuscole e minuscole, in linea con il comportamento dei servizi di back-end e GraphQL. Questo aggiornamento garantisce risultati coerenti e precisi per i suggerimenti per i clienti indipendentemente dall’involucro di testo. (TGT-53585)
-* **La ricerca avanzata nell&#39;interfaccia utente aggiornata di [!UICONTROL Product Catalog Search] non ha fornito suggerimenti**: i clienti che utilizzano la funzione di ricerca avanzata nell&#39;interfaccia utente aggiornata di [!UICONTROL Product Catalog Search] dovevano immettere valori esatti con l&#39;ortografia corretta, poiché non venivano visualizzati suggerimenti. Questo problema rendeva difficile individuare i prodotti in modo efficiente. I suggerimenti vengono ora visualizzati come previsto durante l’input della ricerca avanzata. (TGT-52008)
-* **Alcuni approvatori non sono stati in grado di visualizzare i prodotti in[!UICONTROL Product Catalog Search]**: i clienti con autorizzazioni [!UICONTROL Approver] non sono stati in grado di visualizzare alcun prodotto in [!UICONTROL Product Catalog Search], nonostante altri utenti con ruoli identici abbiano accesso. Questo problema era causato da un’incoerenza delle autorizzazioni che influiva sulla visibilità del catalogo. Tutti gli approvatori ora possono visualizzare i prodotti nella sezione [!UICONTROL Recommendations] come previsto. (TGT-53617)
+* **Elenco prodotti non visibile nella finestra di dialogo [!UICONTROL Visualizza raccolta]:** In precedenza, i clienti non potevano visualizzare l&#39;elenco prodotti quando visualizzavano una raccolta nella scheda [!UICONTROL Consigli]. La finestra di dialogo [!UICONTROL Visualizza raccolta] visualizza correttamente i prodotti associati, migliorando la trasparenza e l&#39;usabilità nell&#39;interfaccia utente [!UICONTROL Recommendations] aggiornata. (TGT-50531)
+* **È stato risolto un problema che causava un filtro con distinzione tra maiuscole e minuscole in [!UICONTROL Ricerca nel catalogo prodotti] ricerca avanzata**: il filtro di ricerca avanzata nella pagina [!UICONTROL Ricerca nel catalogo prodotti] ora ignora correttamente la distinzione tra maiuscole e minuscole, in linea con il comportamento dei servizi back-end e GraphQL. Questo aggiornamento garantisce risultati coerenti e precisi per i suggerimenti per i clienti indipendentemente dall’involucro di testo. (TGT-53585)
+* **La ricerca avanzata nell&#39;interfaccia utente aggiornata di [!UICONTROL Ricerca nel catalogo prodotti] non ha fornito suggerimenti**: i clienti che utilizzano la funzionalità di ricerca avanzata nell&#39;interfaccia utente aggiornata di [!UICONTROL Ricerca nel catalogo prodotti] dovevano immettere valori esatti con l&#39;ortografia corretta, poiché non venivano visualizzati suggerimenti. Questo problema rendeva difficile individuare i prodotti in modo efficiente. I suggerimenti vengono ora visualizzati come previsto durante l’input della ricerca avanzata. (TGT-52008)
+* **Alcuni approvatori non sono stati in grado di visualizzare i prodotti in [!UICONTROL Ricerca nel catalogo prodotti]**: i clienti con autorizzazioni [!UICONTROL Approvatore] non sono stati in grado di visualizzare alcun prodotto in [!UICONTROL Ricerca nel catalogo prodotti], nonostante altri utenti con ruoli identici abbiano accesso. Questo problema era causato da un’incoerenza delle autorizzazioni che influiva sulla visibilità del catalogo. Tutti gli approvatori ora possono visualizzare i prodotti nella sezione [!UICONTROL Recommendations] come previsto. (TGT-53617)
 
 +++
 
-**[!UICONTROL Reports]**
+**[!UICONTROL Rapporti]**
 
 +++Vedi i dettagli
 
 * **Impossibile caricare i report per il pubblico desktop a causa di un errore di nome del pubblico non valido**: si è verificato un errore di GraphQL durante il tentativo di visualizzare i report per il solo pubblico nel processo di creazione attività. Il sistema ha restituito un messaggio di tipo &quot;Nome pubblico non valido: XXXXX&quot; che impediva l’accesso ai dati di reporting. I rapporti ora vengono caricati correttamente per il pubblico del desktop. (TGT-53371)
-* **Il passaggio a un altro pubblico nella pagina Rapporti ha causato errori nell&#39;interfaccia utente di Target**: si sono verificati errori durante la selezione di alcuni tipi di pubblico nella sezione [!UICONTROL Reports]. Questo problema era causato da una gestione non valida del pubblico nelle chiamate GraphQL back-end, che causava errori imprevisti e dati mancanti. Il problema è stato risolto e i tipi di pubblico desktop ora vengono caricati senza errori, anche quando non sono disponibili dati. (TGT-53370)
-* **[!UICONTROL Graph view]nella sezione [!UICONTROL Reports] non ha visualizzato i valori di[!DNL Analytics]**: i clienti che accedono a [!UICONTROL Graph view] nella sezione Reports hanno rilevato dati mancanti, con tutti i valori visualizzati come zero. Il problema è stato causato da un recupero dati non corretto da [!UICONTROL Analytics]. [!UICONTROL Graph view] visualizza ora i valori accurati come previsto. (TGT-52792)
+* **Il passaggio a un altro pubblico nella pagina Rapporti ha causato errori nell&#39;interfaccia utente di Target**: si sono verificati errori durante la selezione di alcuni tipi di pubblico nella sezione [!UICONTROL Rapporti]. Questo problema era causato da una gestione non valida del pubblico nelle chiamate GraphQL back-end, che causava errori imprevisti e dati mancanti. Il problema è stato risolto e i tipi di pubblico desktop ora vengono caricati senza errori, anche quando non sono disponibili dati. (TGT-53370)
+* **[!UICONTROL La vista Grafico] nella sezione [!UICONTROL Rapporti] non ha visualizzato i valori di[!DNL Analytics]**: i clienti che accedono alla [!UICONTROL vista Grafico] nella sezione Reporte hanno rilevato dati mancanti, con tutti i valori visualizzati come zero. Il problema è stato causato da un recupero di dati errato da [!UICONTROL Analytics]. [!UICONTROL Nella visualizzazione Grafico] sono ora visualizzati valori precisi come previsto. (TGT-52792)
 +++
 
-**[!UICONTROL Visual Experience Composer] (VEC)**
+**[!UICONTROL Compositore esperienza visivo] (VEC)**
 
 +++Vedi i dettagli
 
-* **Impossibile fare clic su &quot;Accetta cookie&quot; con il Compositore esperienza avanzato [!UICONTROL Enhanced Experience Composer] a causa di una funzione mancante**: i clienti hanno segnalato che il tentativo di accettare i cookie tramite il Compositore esperienza avanzato ha restituito un errore della console: `handleclickAcceptAllButton is not defined`. La funzionalità di accettazione dei cookie ora funziona come previsto, garantendo un’esperienza più fluida durante la creazione dell’attività nell’interfaccia utente aggiornata. (TGT-52794)
+* **Impossibile fare clic su &quot;Accetta cookie&quot; con il [!UICONTROL Compositore esperienza avanzato] (EEC) a causa di una funzione mancante**: i clienti hanno segnalato che il tentativo di accettare i cookie tramite il EEC ha restituito un errore della console: `handleclickAcceptAllButton is not defined`. La funzionalità di accettazione dei cookie ora funziona come previsto, garantendo un’esperienza più fluida durante la creazione dell’attività nell’interfaccia utente aggiornata. (TGT-52794)
 * **La nuova interfaccia utente Compositore esperienza avanzato non è riuscita a caricare alcune pagine precedentemente supportate nell&#39;interfaccia utente legacy**: i clienti hanno segnalato che il nuovo Compositore esperienza avanzato non poteva caricare alcune pagine accessibili nell&#39;interfaccia utente legacy nonostante il codice non compatibile con iframe presente sul sito. Il processo aggiornato di creazione delle attività ora supporta il caricamento di queste pagine, ripristinando la compatibilità per i flussi di lavoro di creazione delle attività. (TGT-53061)
 * **Il Compositore esperienza visivo mostrava una schermata bianca vuota durante la modifica delle esperienze**: i clienti di un determinato tenant segnalavano che la schermata del Compositore esperienza visivo era vuota quando si tentava di modificare le esperienze nel Compositore esperienza visivo aggiornato. Questo problema interessava sia le attività nuove che quelle precedenti, impedendo la continuità del flusso di lavoro. Il Compositore esperienza visivo ora si carica correttamente, consentendo ai clienti di modificare le esperienze senza interruzioni. (TGT-53547)
 * **Il Compositore esperienza visivo si è verificato un arresto anomalo ed è stata visualizzata una schermata vuota durante il caricamento di alcune attività**: i clienti di un determinato tenant hanno segnalato che il Compositore esperienza visivo non è riuscito a caricare attività specifiche. L’editor esperienze rimaneva bloccato su &quot;Applicazione delle modifiche iniziali&quot; prima dell’arresto anomalo e della visualizzazione di una schermata vuota. Gli errori della console indicano un errore durante la lettura delle proprietà non definite. L’editor ora carica le attività interessate senza errori nel Compositore esperienza visivo aggiornato. (TGT-53548)
-* **La cancellazione di tutti i valori di data tramite Backspace ha causato l&#39;arresto anomalo della pagina**: le attività di pianificazione dei clienti nella sezione [!UICONTROL Goals & Settings] hanno subito un arresto anomalo durante l&#39;utilizzo di Backspace per cancellare tutti i valori dai campi &quot;[!UICONTROL Specified Date & Time]&quot;. Questo problema è stato causato da un errore di riferimento null nella logica di gestione delle date. La pagina ora gestisce gli input di date vuoti senza arresti anomali. (TGT-53624)
-* **Nessun prodotto è stato visualizzato in [!UICONTROL Product Catalog Search] a causa di un payload non valido**: i clienti che accedono alla sezione [!UICONTROL Recommendations] in [!UICONTROL Product Catalog Search] hanno riscontrato risultati vuoti a causa di un payload di GraphQL non valido. Questo errore di back-end ha impedito il caricamento corretto dei dati del prodotto. I prodotti ora vengono visualizzati come previsto nell’interfaccia utente aggiornata. (TGT-53630)
-* **[!DNL Scene7]immagini sono state salvate con una risoluzione inferiore nel Compositore esperienza visivo aggiornato**: i clienti che modificano le esperienze nel Compositore esperienza visivo aggiornato hanno notato che [!UICONTROL Scene7] URL di immagini sono stati salvati senza parametri di risoluzione, con conseguente consegna di immagini di qualità inferiore (400×400 invece del previsto 800×800). Gli URL delle immagini ora mantengono i parametri corretti per garantire la risoluzione corretta. (TGT-52631)
+* **La cancellazione di tutti i valori di data con Backspace ha causato l&#39;arresto anomalo della pagina**: le attività di pianificazione dei clienti nella sezione [!UICONTROL Obiettivi e impostazioni] hanno subito un arresto anomalo durante l&#39;utilizzo di Backspace per cancellare tutti i valori dai campi &quot;[!UICONTROL Data e ora specificata]&quot;. Questo problema è stato causato da un errore di riferimento null nella logica di gestione delle date. La pagina ora gestisce gli input di date vuoti senza arresti anomali. (TGT-53624)
+* **Nessun prodotto è stato visualizzato in [!UICONTROL Ricerca nel catalogo prodotti] a causa di un payload non valido**: i clienti che accedono alla sezione [!UICONTROL Consigli] in [!UICONTROL Ricerca nel catalogo prodotti] hanno rilevato risultati vuoti a causa di un payload di GraphQL non valido. Questo errore di back-end ha impedito il caricamento corretto dei dati del prodotto. I prodotti ora vengono visualizzati come previsto nell’interfaccia utente aggiornata. (TGT-53630)
+* **[!DNL Scene7]immagini sono state salvate con una risoluzione inferiore nel Compositore esperienza visivo aggiornato**: i clienti che modificano le esperienze nel Compositore esperienza visivo aggiornato hanno notato che [!UICONTROL gli URL immagine Scene7] sono stati salvati senza parametri di risoluzione, con conseguente consegna di immagini di qualità inferiore (400×400 invece del previsto 800×800). Gli URL delle immagini ora mantengono i parametri corretti per garantire la risoluzione corretta. (TGT-52631)
 * **le attività live potevano ancora essere modificate nel Compositore esperienza visivo**: i clienti potevano accedere alle opzioni di modifica per le attività live nel Compositore esperienza visivo aggiornato, il che poteva causare modifiche non desiderate. Questo problema è stato risolto disabilitando la funzionalità di modifica per le attività live. I pulsanti di modifica ora sono nascosti nell’elenco delle attività e nella panoramica per gli editor, mentre gli approvatori e gli altri ruoli rimangono invariati. (TGT-53055)
-* **Disattivazione della sezione delle attività [!UICONTROL Failed] e [!UICONTROL Draft] nel Compositore esperienza visivo aggiornato**: le opzioni delle attività [!UICONTROL Failed] e [!UICONTROL Draft] sono state rimosse dal Compositore esperienza visivo aggiornato. La nuova interfaccia utente non supporta più gli stati di bozza e le campagne con errori non vengono memorizzate nel backend. Queste opzioni non sono più rilevanti. Anche i filtri correlati e i campi back-end (ad esempio, `uiSyncFailed`, `errorMessage`) sono stati rimossi per semplificare la gestione delle attività. (TGT-53150)
+* **Disattivazione della sezione delle attività [!UICONTROL Non riuscito] e [!UICONTROL Bozza] nel Compositore esperienza visivo aggiornato**: le opzioni delle attività [!UICONTROL Non riuscito] e [!UICONTROL Bozza] sono state rimosse dal Compositore esperienza visivo aggiornato. La nuova interfaccia utente non supporta più gli stati di bozza e le campagne con errori non vengono memorizzate nel backend. Queste opzioni non sono più rilevanti. Anche i filtri correlati e i campi back-end (ad esempio, `uiSyncFailed`, `errorMessage`) sono stati rimossi per semplificare la gestione delle attività. (TGT-53150)
 * **Impossibile accedere al Compositore esperienza visivo per un&#39;attività**: i clienti che hanno tentato di accedere al proprio sito tramite il Compositore esperienza visivo sono stati ripetutamente reindirizzati alla pagina di accesso, impedendo l&#39;accesso alla modifica dell&#39;attività. Questo problema non era riproducibile internamente e potrebbe essere correlato alla gestione delle sessioni lato sito. Il flusso di accesso è stato stabilizzato e i clienti possono ora accedere al Compositore esperienza visivo senza errori di reindirizzamento. (TGT-53524)
-* **La pressione del pulsante Indietro due volte in modalità [!UICONTROL Browse] ha causato l&#39;arresto anomalo del Compositore esperienza visivo**: durante la navigazione in modalità [!UICONTROL Browse] nel Compositore esperienza visivo si sono verificati arresti anomali quando si preme due volte il pulsante Indietro del browser. Questo problema causava il blocco dell’editor e richiedeva un aggiornamento della pagina. L’editor ora gestisce la navigazione posteriore in modo affidabile senza arresti anomali. (GT-53568)
+* **Se si preme due volte il pulsante Indietro nella modalità [!UICONTROL Sfoglia], si è verificato un arresto anomalo del Compositore esperienza visivo**: se si preme due volte il pulsante Indietro del browser, si sono verificati arresti anomali durante la navigazione nella modalità [!UICONTROL Sfoglia] nel Compositore esperienza visivo. Questo problema causava il blocco dell’editor e richiedeva un aggiornamento della pagina. L’editor ora gestisce la navigazione posteriore in modo affidabile senza arresti anomali. (GT-53568)
 * **Impossibile modificare le attività a causa di mappature di posizione non definite**: si è verificato un errore durante il tentativo di modifica delle attività, causato da ID di posizione non definiti nella logica `LocationMapping.behaviorTargetedActivity`. Questo problema causava un errore 400 e bloccava gli aggiornamenti delle attività. È ora possibile modificare le attività senza errori di convalida relativi alla posizione. (TGT-53607)
 * **Il salvataggio delle attività ha provocato un errore di input utente non valido**: si è verificato un errore di input utente non valido durante il tentativo di salvare le attività dopo aver apportato modifiche minori nel Compositore esperienza visivo aggiornato. L’errore è stato causato da mappature di posizione non corrispondenti nella logica di convalida back-end. Ora è possibile salvare le attività senza attivare errori relativi alla posizione. (TGT-53603)
 
@@ -918,25 +888,25 @@ Questa versione include i seguenti aggiornamenti e correzioni:
 
 Questa versione include i seguenti aggiornamenti e correzioni:
 
-**[!UICONTROL Activities]**
+**[!UICONTROL Attività]**
 
 +++Vedi i dettagli
 
 * **È stato risolto un problema a causa del quale il salvataggio delle attività causava un errore di input dell&#39;utente non valido a causa di dati di proprietà non validi**: si è verificato un errore critico durante il tentativo di salvare le attività esistenti. Il messaggio di errore indica un input utente non valido, in particolare un riferimento a un contenuto di nome proprietà non riconosciuto nel payload JSON. In particolare, le nuove attività che utilizzano la stessa proprietà sono state salvate correttamente, suggerendo che il problema fosse isolato nei dati delle attività legacy. Il processo di creazione delle attività ora gestisce correttamente le configurazioni delle proprietà legacy, evitando errori di input non validi e garantendo un comportamento di salvataggio coerente tra le attività nuove ed esistenti. (TGT-53507)
 * **È stato risolto un problema che impediva ai clienti di salvare un&#39;attività a causa di un errore InvalidProperty.Json**: si è verificato un errore durante il tentativo di salvare un&#39;attività nell&#39;interfaccia utente aggiornata, anche senza apportare modifiche. Il messaggio di errore indica una struttura JSON non valida: &quot;Json non valido. Nome di proprietà &#39;content&#39; non riconosciuto. Posizione: riga - 1, colonna - 432.&quot; Questo problema era causato da una proprietà non riconosciuta nel payload della richiesta ed è stato ora risolto. I clienti possono salvare le attività senza riscontrare questo errore. (TGT-53513)
-* **È stato risolto un problema che causava la visualizzazione errata dello stato [!UICONTROL Live] da parte delle attività pianificate fino all&#39;aggiornamento della pagina**: I clienti osservavano che quando si pianificava l&#39;attivazione di un&#39;attività in una data e un&#39;ora future, lo stato appariva immediatamente come [!UICONTROL Live] invece di [!UICONTROL Scheduled]. Ciò causava confusione, anche se il messaggio di conferma indicava correttamente che l’attività era pianificata. L&#39;aggiornamento della pagina ha corretto la visualizzazione dello stato. Questo problema è stato risolto e le attività pianificate mostrano correttamente lo stato Pianificato senza richiedere un aggiornamento. (TGT-52937)
+* **È stato risolto un problema che impediva alle attività pianificate di visualizzare in modo errato lo stato [!UICONTROL Live] fino all&#39;aggiornamento della pagina**: i clienti hanno osservato che quando si pianificava un&#39;attività per andare live in una data e un&#39;ora future, lo stato appariva immediatamente come [!UICONTROL Live] invece di [!UICONTROL Scheduled]. Ciò causava confusione, anche se il messaggio di conferma indicava correttamente che l’attività era pianificata. L&#39;aggiornamento della pagina ha corretto la visualizzazione dello stato. Questo problema è stato risolto e le attività pianificate mostrano correttamente lo stato Pianificato senza richiedere un aggiornamento. (TGT-52937)
 
 +++
 
-**[!UICONTROL Analytics for Target] (A4T)**
+**[!UICONTROL Analytics per Target] (A4T)**
 
 +++Vedi i dettagli
 
-* **È stato risolto un problema che impediva ai clienti di digitare i nomi delle suite di rapporti durante il processo di creazione attività**: i clienti che utilizzavano [!DNL Adobe Analytics] come origine per la generazione di rapporti durante il processo di creazione attività non potevano digitare nell&#39;elenco a discesa [!UICONTROL Report Suite] per cercare suite di rapporti specifiche. Questo ha interessato i flussi di lavoro delle organizzazioni con un numero elevato di suite di rapporti, in cui lo scorrimento manuale ha ritardato notevolmente la configurazione. L’elenco a discesa non era ordinato alfabeticamente e non rispondeva in modo coerente all’input digitato, rendendo difficile individuare suite di rapporti come &quot;Office + Store - Web - Prod&quot;. Questo problema è stato risolto e i clienti possono ora eseguire ricerche in modo efficiente digitando i nomi delle suite di rapporti. (TGT-53345)
+* **È stato risolto un problema che impediva ai clienti di digitare i nomi delle suite di rapporti durante il processo di creazione attività**: i clienti che utilizzavano [!DNL Adobe Analytics] come origine per la generazione di rapporti durante il processo di creazione attività non potevano digitare nell&#39;elenco a discesa [!UICONTROL Suite di rapporti] per cercare suite di rapporti specifiche. Questo ha interessato i flussi di lavoro delle organizzazioni con un numero elevato di suite di rapporti, in cui lo scorrimento manuale ha ritardato notevolmente la configurazione. L’elenco a discesa non era ordinato alfabeticamente e non rispondeva in modo coerente all’input digitato, rendendo difficile individuare suite di rapporti come &quot;Office + Store - Web - Prod&quot;. Questo problema è stato risolto e i clienti possono ora eseguire ricerche in modo efficiente digitando i nomi delle suite di rapporti. (TGT-53345)
 
 +++
 
-**[!UICONTROL Audiences]**
+**[!UICONTROL Tipi di pubblico]**
 
 +++Vedi i dettagli
 
@@ -944,21 +914,21 @@ Questa versione include i seguenti aggiornamenti e correzioni:
 
 +++
 
-**[!UICONTROL Experience Fragment]s**
+**[!UICONTROL Frammento esperienza]s**
 
 +++Vedi i dettagli
 
-* **È stato risolto un problema che impediva ai clienti di inserire frammenti di esperienza utilizzando [!UICONTROL Insert Before] o [!UICONTROL Insert After] nell&#39;interfaccia utente**. I clienti hanno riscontrato un errore durante il tentativo di inserire [!UICONTROL Experience Fragments] in un&#39;attività utilizzando le opzioni &quot;Inserisci prima&quot; o &quot;Inserisci dopo&quot; nell&#39;interfaccia utente aggiornata. Il messaggio di errore visualizzato era: &quot;Il contenuto dell’offerta deve contenere esattamente un elemento HTML&quot;. Questo problema era specifico dell’interfaccia utente aggiornata e non si verificava nella versione precedente. Il problema è stato risolto e i clienti possono inserire [!UICONTROL Experience Fragments] senza incontrare questo errore. (TGT-53442)
+* **È stato risolto un problema che impediva ai clienti di inserire frammenti di esperienza tramite [!UICONTROL Inserisci prima] o [!UICONTROL Inserisci dopo] nell&#39;interfaccia utente**. Si è verificato un errore durante il tentativo di inserire [!UICONTROL frammenti di esperienza] in un&#39;attività tramite le opzioni &quot;Inserisci prima&quot; o &quot;Inserisci dopo&quot; nell&#39;interfaccia utente aggiornata. Il messaggio di errore visualizzato era: &quot;Il contenuto dell’offerta deve contenere esattamente un elemento HTML&quot;. Questo problema era specifico dell’interfaccia utente aggiornata e non si verificava nella versione precedente. Il problema è stato risolto e i clienti possono inserire [!UICONTROL Frammenti esperienza] senza incontrare questo errore. (TGT-53442)
 
 +++
 
-**[!UICONTROL Offer decisions]**
+**[!UICONTROL Decisioni di offerta]**
 
 +++Vedi i dettagli
 
 * **È stato risolto un problema che impediva ai clienti di modificare le offerte decisionali e di selezionare elementi di pagina specifici nell&#39;interfaccia utente aggiornata**: Nel processo di creazione attività aggiornato, i clienti non potevano modificare le offerte decisionali esistenti o selezionare elementi di pagina specifici nel Compositore esperienza visivo. Le offerte relative alle decisioni non venivano visualizzate correttamente come offerte HTML e le modifiche apportate durante la modifica non venivano salvate. Inoltre, alcuni URL regionali, come il sito Giappone, non venivano caricati correttamente nel Compositore esperienza visivo, bloccando la creazione e gli aggiornamenti dell’attività. Le offerte decisionali ora vengono visualizzate correttamente, gli elementi di pagina sono selezionabili come previsto e gli URL regionali vengono caricati correttamente nel Compositore esperienza visivo, ripristinando la funzionalità di modifica completa. (TGT-53425)
-* **È stato risolto un problema che impediva la modifica e la modifica imprevista di [!UICONTROL Offer Decision] selettori dopo il salvataggio**: nel processo di creazione attività aggiornato, i clienti non potevano modificare il selettore [!UICONTROL Offer Decision] come previsto. Tentativi di modifica del selettore non riusciti e il selettore è tornato a un valore errato dopo il salvataggio. Questo comportamento ha causato la scomparsa dell’offerta decisionale dal Compositore esperienza visivo, bloccando ulteriori modifiche. Le modifiche del selettore ora vengono mantenute correttamente e le offerte di decisione rimangono visibili e modificabili nel Compositore esperienza visivo dopo il salvataggio. (TGT-53433)
-* **È stato risolto un problema che causava la scomparsa di [!UICONTROL Offer Decisions] dall&#39;attività dopo il salvataggio**: [!UICONTROL Offer Decisions] aggiunti durante il processo di creazione attività non venivano mantenuti dopo il salvataggio e la riapertura dell&#39;attività. Questo problema si verificava durante la modifica del contenuto dinamico e l&#39;inserimento di [!UICONTROL Offer Decisions] con selettori e proprietà specifici. [!UICONTROL Offer Decisions] persiste correttamente dopo il salvataggio e i selettori rimangono intatti, garantendo un comportamento di targeting e modifica coerente. (TGT-53434)
+* **È stato risolto un problema che impediva la modifica imprevista dei selettori [!UICONTROL Decisione offerta] dopo il salvataggio**: nel processo di creazione attività aggiornato, i clienti non potevano modificare il selettore [!UICONTROL Decisione offerta] come previsto. Tentativi di modifica del selettore non riusciti e il selettore è tornato a un valore errato dopo il salvataggio. Questo comportamento ha causato la scomparsa dell’offerta decisionale dal Compositore esperienza visivo, bloccando ulteriori modifiche. Le modifiche del selettore ora vengono mantenute correttamente e le offerte di decisione rimangono visibili e modificabili nel Compositore esperienza visivo dopo il salvataggio. (TGT-53433)
+* **È stato risolto un problema che causava la scomparsa di [!UICONTROL Decisioni di offerta] dall&#39;attività dopo il salvataggio**: [!UICONTROL Le decisioni di offerta] aggiunte durante il processo di creazione dell&#39;attività non venivano mantenute dopo il salvataggio e la riapertura dell&#39;attività. Questo problema si verificava durante la modifica del contenuto dinamico e l&#39;inserimento di [!UICONTROL Decisioni di offerta]con selettori e proprietà specifici. [!UICONTROL Le decisioni sulle offerte] ora persistono correttamente dopo il salvataggio e i selettori rimangono intatti, garantendo un comportamento di targeting e modifica coerente. (TGT-53434)
 
 +++
 
@@ -967,20 +937,20 @@ Questa versione include i seguenti aggiornamenti e correzioni:
 +++Vedi i dettagli
 
 * **È stato risolto un problema nell&#39;interfaccia utente di [!DNL Recommendations] a causa del quale il download del file CSV dei criteri personalizzati restituiva l&#39;errore 404**: è stato risolto un problema che impediva ai clienti di scaricare il file CSV dei criteri personalizzati nel processo di creazione delle attività. Il collegamento per il download ora funziona correttamente, consentendo ai clienti di esportare i criteri personalizzati come previsto. (TGT-51966)
-* **È stato corretto il caricamento incoerente delle immagini in[!UICONTROL Catalog Search]**: è stato risolto un problema che impediva il caricamento coerente delle miniature e delle immagini in [!UICONTROL &#x200B; Catalog Search] nel processo di creazione attività. Le immagini non venivano visualizzate a meno che la colonna &quot;URL miniatura&quot; non fosse visibile e alcune immagini di prodotto venivano caricate parzialmente o non completamente dopo le azioni di navigazione o ricerca. Il comportamento di caricamento delle immagini è stato stabilizzato e le miniature ora vengono visualizzate in modo affidabile, indipendentemente dalla visibilità delle colonne o dalle azioni di navigazione. (TGT-52778)
+* **È stato corretto il caricamento incoerente delle immagini in [!UICONTROL Ricerca nel catalogo]**: è stato risolto un problema che impediva il caricamento coerente di miniature e immagini in[!UICONTROL  Ricerca nel catalogo] nel processo di creazione attività. Le immagini non venivano visualizzate a meno che la colonna &quot;URL miniatura&quot; non fosse visibile e alcune immagini di prodotto venivano caricate parzialmente o non completamente dopo le azioni di navigazione o ricerca. Il comportamento di caricamento delle immagini è stato stabilizzato e le miniature ora vengono visualizzate in modo affidabile, indipendentemente dalla visibilità delle colonne o dalle azioni di navigazione. (TGT-52778)
 * **È stato risolto un problema a causa del quale la modifica di un consiglio in un&#39;esperienza duplicata influiva sull&#39;esperienza originale**: i clienti segnalavano che la modifica di un consiglio in un&#39;esperienza duplicata alterava involontariamente l&#39;esperienza originale. In particolare, dopo aver duplicato l’esperienza B nel processo di creazione delle attività e averne modificato la progettazione o i criteri, le stesse modifiche sono state applicate all’esperienza B originale, nonostante fossero entità separate. Le esperienze duplicate ora mantengono configurazioni separate, garantendo che le modifiche apportate a un’esperienza non influiscano sull’originale. (TGT-53369)
 * **È stato risolto un problema a causa del quale le modifiche apportate a un&#39;esperienza duplicata influivano involontariamente sull&#39;esperienza originale in un&#39;attività**: i clienti hanno segnalato che quando si duplicava un&#39;esperienza all&#39;interno di un&#39;attività e si assegnava un nuovo pubblico, qualsiasi modifica apportata alla progettazione o ai criteri dell&#39;esperienza duplicata veniva riportata anche nell&#39;esperienza originale. Questo problema si verificava anche se non venivano apportate modifiche direttamente alla versione originale, con conseguente impatto sulla possibilità di creare varianti indipendenti all’interno della stessa attività. Il processo di creazione attività ora isola correttamente le esperienze duplicate, garantendo che le modifiche apportate a un’esperienza non influiscano sull’originale. (TGT-53361)
-* **È stato risolto un problema che impediva a intermittenza a [!UICONTROL Recommendation Catalog] di visualizzare i dati completi degli attributi del prodotto**: nell&#39;interfaccia utente [!DNL Recommendations] aggiornata, si è verificato un problema a causa del quale alcuni attributi del prodotto, ad esempio il messaggio, non venivano visualizzati in modo coerente nei risultati [!UICONTROL Catalog Search], anche se i dati erano presenti nel feed. Questo problema richiedeva ai clienti di riconfigurare manualmente la visibilità delle colonne per recuperare i valori mancanti. [!UICONTROL Catalog Search] visualizza ora in modo affidabile tutti gli attributi configurati, eliminando la necessità di reimpostare manualmente le colonne. (TGT-52769)
-* **È stato risolto un problema che impediva la disabilitazione di [!UICONTROL Front Promotion] in un&#39;attività live**: i tentativi di disabilitare [!UICONTROL Front Promotion] in un&#39;attività live non venivano salvati. Dopo aver selezionato [!UICONTROL Change Promotion] e averlo disabilitato, la promozione è rimasta attiva durante la modifica dell&#39;attività, impedendo gli aggiornamenti alle configurazioni dei consigli. Le impostazioni della promozione ora vengono salvate correttamente, consentendo ai clienti di disabilitare o modificare le promozioni nelle attività live come previsto. (TGT-53231)
-* **È stato risolto un problema che causava l&#39;attivazione di [!DNL Recommendations] [!UICONTROL Promotion] senza dati e causava un messaggio di errore non chiaro**: se si abilitava [!UICONTROL Front] o [!UICONTROL Back Promotion] in un&#39;attività [!DNL Recommendations] senza specificare i valori richiesti, veniva visualizzato un messaggio generico di errore di input non valido. Il problema di base era un campo di configurazione mancante, ma il messaggio di errore non indicava chiaramente la causa, rendendo difficile la risoluzione dei problemi. Il processo di creazione attività fornisce ora un messaggio di errore chiaro e actionable quando mancano campi obbligatori, come `collectionId` o regole, che consente ai clienti di identificare e risolvere rapidamente i problemi di configurazione. (TGT-52616)
-* **È stato risolto un problema che impediva la visualizzazione dell&#39;elenco [!UICONTROL Product] nella finestra modale [!UICONTROL Edit] nella scheda [!UICONTROL Recommendations]**: i clienti non potevano visualizzare l&#39;elenco di prodotti filtrato durante la modifica di un [!UICONTROL collection] o [!UICONTROL exclusion] nella scheda [!UICONTROL Recommendations]. L’elenco doveva essere aggiornato in tempo reale in base alle regole applicate, ma non veniva visualizzato come previsto. Questo problema è stato risolto e l’elenco dei prodotti ora viene visualizzato correttamente e viene aggiornato in modo dinamico man mano che le regole vengono modificate. (TGT-53481)
+* **È stato risolto un problema che impediva a intermittenza al [!UICONTROL Catalogo consigli] di visualizzare i dati completi degli attributi del prodotto**: nell&#39;interfaccia utente [!DNL Recommendations] aggiornata, si è verificato un problema a causa del quale alcuni attributi del prodotto, ad esempio il messaggio, non venivano visualizzati in modo coerente nei risultati della [!UICONTROL Ricerca nel catalogo], anche se i dati erano presenti nel feed. Questo problema richiedeva ai clienti di riconfigurare manualmente la visibilità delle colonne per recuperare i valori mancanti. [!UICONTROL Ricerca nel catalogo] visualizza ora in modo affidabile tutti gli attributi configurati, eliminando la necessità di reimpostare manualmente le colonne. (TGT-52769)
+* **È stato risolto un problema che impediva la disabilitazione di una [!UICONTROL promozione prima] in un&#39;attività live**: i tentativi di disabilitare una [!UICONTROL promozione prima] in un&#39;attività live non sono stati salvati. Dopo aver selezionato [!UICONTROL Modifica promozione] e averla disabilitata, la promozione è rimasta attiva durante la modifica dell&#39;attività, impedendo gli aggiornamenti alle configurazioni dei consigli. Le impostazioni della promozione ora vengono salvate correttamente, consentendo ai clienti di disabilitare o modificare le promozioni nelle attività live come previsto. (TGT-53231)
+* **È stato risolto un problema che causava l&#39;attivazione di [!DNL Recommendations] [!UICONTROL Promozione] senza dati causando un messaggio di errore non chiaro**: l&#39;attivazione di [!UICONTROL Promozione prima] o [!UICONTROL Promozione dopo] in un&#39;attività [!DNL Recommendations] senza specificare i valori richiesti generava un messaggio generico di errore di input non valido. Il problema di base era un campo di configurazione mancante, ma il messaggio di errore non indicava chiaramente la causa, rendendo difficile la risoluzione dei problemi. Il processo di creazione attività fornisce ora un messaggio di errore chiaro e actionable quando mancano campi obbligatori, come `collectionId` o regole, che consente ai clienti di identificare e risolvere rapidamente i problemi di configurazione. (TGT-52616)
+* **È stato risolto un problema che impediva la visualizzazione dell&#39;elenco [!UICONTROL Prodotto] nella finestra modale [!UICONTROL Modifica] all&#39;interno della scheda [!UICONTROL Consigli]**: i clienti non potevano visualizzare l&#39;elenco di prodotti filtrato durante la modifica di una [!UICONTROL raccolta] o [!UICONTROL esclusione] nella scheda [!UICONTROL Consigli]. L’elenco doveva essere aggiornato in tempo reale in base alle regole applicate, ma non veniva visualizzato come previsto. Questo problema è stato risolto e l’elenco dei prodotti ora viene visualizzato correttamente e viene aggiornato in modo dinamico man mano che le regole vengono modificate. (TGT-53481)
 * **È stato risolto un problema con il layout della finestra di dialogo Visualizza dettagli nell&#39;interfaccia utente aggiornata**: il layout della finestra modale Visualizza dettagli nell&#39;interfaccia utente aggiornata è stato modificato per migliorarne la chiarezza e l&#39;usabilità. La finestra di dialogo ora include due schede:
-   * Scheda [!UICONTROL Details]: visualizza tutte le informazioni rilevanti per l&#39;elemento selezionato.
-   * Scheda [!UICONTROL Inventory]: mostra tutti i prodotti filtrati in base alle regole di raccolta ed esclusione correnti.
+   * [!UICONTROL Dettagli] scheda: visualizza tutte le informazioni rilevanti per l&#39;elemento selezionato.
+   * Scheda [!UICONTROL Inventario]: mostra tutti i prodotti filtrati in base alle regole di raccolta ed esclusione correnti.
 
   Questo miglioramento consente ai clienti di navigare e comprendere più facilmente i dati specifici degli articoli e il contesto dell’inventario all’interno del processo di creazione delle attività. (TGT-53503)
 
-   * **È stato risolto un problema che causava la ricomparsa delle promozioni rimosse nelle attività di consigli dopo il salvataggio**: i clienti hanno segnalato che quando [!UICONTROL front] o [!UICONTROL back] promozioni sono state rimosse dalle attività [!DNL Recommendations] e l&#39;attività è stata salvata, le promozioni continuavano a essere visualizzate alla riapertura. Questo problema si verificava sia negli ambienti di staging che in quelli di produzione e interessava il processo aggiornato di creazione delle attività. Il problema è stato risolto. Le promozioni rimosse da un&#39;attività ora persistono correttamente dopo il salvataggio. (TGT-53490)
+   * **È stato risolto un problema che causava la ricomparsa delle promozioni rimosse nelle attività di consigli dopo il salvataggio**: i clienti segnalavano che quando le promozioni [!UICONTROL front] o [!UICONTROL back] venivano rimosse dalle attività [!DNL Recommendations] e l&#39;attività veniva salvata, le promozioni continuavano a essere visualizzate alla riapertura. Questo problema si verificava sia negli ambienti di staging che in quelli di produzione e interessava il processo aggiornato di creazione delle attività. Il problema è stato risolto. Le promozioni rimosse da un&#39;attività ora persistono correttamente dopo il salvataggio. (TGT-53490)
 
 +++
 
@@ -988,7 +958,7 @@ Questa versione include i seguenti aggiornamenti e correzioni:
 
 +++Vedi i dettagli
 
-* **È stato risolto un problema che causava la visualizzazione di valori di pubblico nulli da parte del report [!UICONTROL Automated Segments]**: i clienti hanno segnalato che [!UICONTROL Automated Segments] nei report di attività mostravano valori nulli per i dati di pubblico, impedendo un&#39;analisi accurata delle prestazioni dei segmenti. Questo problema si verificava quando si accedeva alla sezione [!UICONTROL Reports] e si selezionava [!UICONTROL Automated Segments], anche se erano previsti dati di pubblico validi. [!UICONTROL Automated Segments] ora visualizza correttamente i valori del pubblico, garantendo report affidabili e informazioni sulla segmentazione. (TGT-52793)
+* **È stato risolto un problema che causava la visualizzazione di valori di pubblico nulli da parte del report [!UICONTROL Segmenti automatizzati]**: i clienti hanno segnalato che [!UICONTROL Segmenti automatizzati] nei report attività mostravano valori nulli per i dati di pubblico, impedendo un&#39;analisi accurata delle prestazioni dei segmenti. Questo problema si verificava quando si accedeva alla sezione [!UICONTROL Rapporti] e si selezionavano [!UICONTROL Segmenti automatizzati], anche se erano previsti dati di pubblico validi. [!UICONTROL Segmenti automatizzati] ora visualizza correttamente i valori del pubblico, garantendo reporting affidabile e informazioni sulla segmentazione. (TGT-52793)
 
 +++
 
@@ -996,26 +966,26 @@ Questa versione include i seguenti aggiornamenti e correzioni:
 
 +++Vedi i dettagli
 
-* **È stato risolto un problema che causava la reimpostazione dello stato dell&#39;applicazione a pagina singola nell&#39;interfaccia utente aggiornata** quando si passava dalla modalità [!UICONTROL Browse] alla modalità [!UICONTROL Design]: i clienti hanno segnalato che il passaggio dalla modalità [!UICONTROL Browse] alla modalità [!UICONTROL Design] nell&#39;interfaccia utente aggiornata causava il ricaricamento dell&#39;editor Web, reimpostando lo stato delle applicazioni a pagina singola. Questo problema ha interrotto i flussi di lavoro e ha richiesto ai clienti di inserire nuovamente le informazioni. Il problema è stato risolto. Lo stato di un’applicazione a pagina singola viene ora mantenuto quando si passa da una modalità all’altra, garantendo un’esperienza più fluida e coerente durante la creazione di attività. (TGT-53074)
+* **È stato risolto un problema che causava il passaggio tra le modalità [!UICONTROL Sfoglia] e [!UICONTROL Progettazione] e la reimpostazione dello stato dell&#39;applicazione a pagina singola nell&#39;interfaccia utente aggiornata**: i clienti hanno segnalato che il passaggio tra le modalità [!UICONTROL Sfoglia] e [!UICONTROL Progettazione] nell&#39;interfaccia utente aggiornata causava il ricaricamento dell&#39;editor Web e il ripristino dello stato dell&#39;applicazione a pagina singola. Questo problema ha interrotto i flussi di lavoro e ha richiesto ai clienti di inserire nuovamente le informazioni. Il problema è stato risolto. Lo stato di un’applicazione a pagina singola viene ora mantenuto quando si passa da una modalità all’altra, garantendo un’esperienza più fluida e coerente durante la creazione di attività. (TGT-53074)
 
 +++
 
-**[!UICONTROL Visual Experience Composer] (VEC)**
+**[!UICONTROL Compositore esperienza visivo] (VEC)**
 
 +++Vedi i dettagli
 
 * **È stato risolto un problema nel processo di creazione attività che bloccava la progressione al passaggio [!UICONTROL Targeting] nelle attività di Personalizzazione automatizzata**: è stato risolto un problema nel processo di creazione attività a causa del quale i clienti non potevano procedere al passaggio [!UICONTROL Targeting] nelle attività [!UICONTROL Automated Personalization] (Personalizzazione automatizzata) a meno che non fossero state aggiunte due posizioni. Questo comportamento era diverso dall’esperienza precedente, in cui era sufficiente una singola posizione con più offerte. Il requisito è stato corretto, consentendo ai clienti di continuare a utilizzare le impostazioni per una singola posizione come parte dei flussi di lavoro di Personalizzazione automatizzata. (TGT-53426)
 * **È stato risolto un problema che impediva al nuovo processo di creazione attività di impostare il parametro fmt=png-alpha per le immagini trasparenti**: nell&#39;interfaccia utente aggiornata, le immagini inserite durante il processo di creazione attività non includevano più il parametro `fmt=png-alpha` per impostazione predefinita, con conseguente perdita di trasparenza. Questo comportamento era diverso dalla precedente interfaccia utente, che aggiungeva automaticamente il parametro agli URL delle immagini, mantenendo gli sfondi trasparenti. Il processo di creazione attività ora applica correttamente il parametro `fmt=png-alpha` agli URL immagine quando è richiesta la trasparenza, garantendo il rendering coerente delle risorse trasparenti. (TGT-52615)
-* **È stato risolto un problema che impediva ai clienti di cercare le suite di rapporti nell&#39;interfaccia utente aggiornata**: nell&#39;interfaccia utente aggiornata, l&#39;elenco a discesa [!UICONTROL Report Suites] nella sezione [!UICONTROL Goals & Settings] non consentiva ai clienti di digitare e cercare, rendendo difficile individuare suite di rapporti specifiche, in particolare per i tenant con un numero elevato di voci. A differenza dell’interfaccia utente precedente, l’elenco non era ordinato e mancava di filtri basati sugli input. Questo problema è stato risolto. Ora i clienti possono digitare per cercare e filtrare le suite di rapporti, ripristinando le funzionalità disponibili nell’interfaccia utente legacy. (TGT-53514)
+* **È stato risolto un problema che impediva ai clienti di cercare le suite di rapporti nell&#39;interfaccia utente aggiornata**: nell&#39;interfaccia utente aggiornata, l&#39;elenco a discesa [!UICONTROL Suite di rapporti] nella sezione [!UICONTROL Obiettivi e impostazioni] non consentiva ai clienti di digitare e cercare, rendendo difficile individuare suite di rapporti specifiche, in particolare per i tenant con un numero elevato di voci. A differenza dell’interfaccia utente precedente, l’elenco non era ordinato e mancava di filtri basati sugli input. Questo problema è stato risolto. Ora i clienti possono digitare per cercare e filtrare le suite di rapporti, ripristinando le funzionalità disponibili nell’interfaccia utente legacy. (TGT-53514)
 
 +++
 
-**[!UICONTROL Workspaces]**
+**[!UICONTROL Aree di lavoro]**
 
 +++Vedi i dettagli
 
-* **È stato risolto un problema che consentiva a un cliente limitato a una sola area di lavoro di visualizzare le attività di altre aree di lavoro**: i clienti con accesso limitato a una sola area di lavoro potevano visualizzare in modo imprevisto le attività di tutte le aree di lavoro selezionando [!UICONTROL All Workspaces] nel processo di creazione attività. Questa visibilità comportava il rischio di modifiche non intenzionali alle attività live in altre aree di lavoro, con un potenziale impatto sulle prestazioni del sito web. I controlli di accesso a Workspace sono stati rafforzati per garantire che i clienti possano visualizzare e interagire solo con le attività all’interno dell’area di lavoro assegnata. (TGT-53101)
-* **È stato risolto un problema che consentiva a un cliente di visualizzare le attività da [!UICONTROL Default Workspace] senza avere accesso:** Un cliente con accesso limitato all&#39;area di lavoro di staging era in grado di visualizzare le attività da [!UICONTROL Default Workspace] tramite il processo di creazione attività. Questo comportamento si è verificato nonostante la configurazione di back-end e i diritti di accesso corretti. I controlli di accesso a Workspace sono stati rafforzati per garantire che i clienti possano visualizzare le attività solo all’interno dell’area di lavoro assegnata.(TGT-53297)
+* **È stato risolto un problema che consentiva a un cliente limitato a una sola area di lavoro di visualizzare le attività da altre aree di lavoro**: i clienti con accesso limitato a una sola area di lavoro potevano visualizzare in modo imprevisto le attività in tutte le aree di lavoro selezionando [!UICONTROL Tutte le aree di lavoro] nel processo di creazione attività. Questa visibilità comportava il rischio di modifiche non intenzionali alle attività live in altre aree di lavoro, con un potenziale impatto sulle prestazioni del sito web. I controlli di accesso a Workspace sono stati rafforzati per garantire che i clienti possano visualizzare e interagire solo con le attività all’interno dell’area di lavoro assegnata. (TGT-53101)
+* **È stato risolto un problema che consentiva a un cliente di visualizzare le attività da [!UICONTROL Workspace predefinito] senza avere accesso:** Un cliente con accesso limitato all&#39;area di lavoro di gestione temporanea poteva visualizzare le attività da [!UICONTROL Workspace predefinito] tramite il processo di creazione attività. Questo comportamento si è verificato nonostante la configurazione di back-end e i diritti di accesso corretti. I controlli di accesso a Workspace sono stati rafforzati per garantire che i clienti possano visualizzare le attività solo all’interno dell’area di lavoro assegnata.(TGT-53297)
 
 +++
 
@@ -1023,7 +993,7 @@ Questa versione include i seguenti aggiornamenti e correzioni:
 
 Questa versione include le correzioni e gli aggiornamenti seguenti:
 
-**[!UICONTROL Activities]**
+**[!UICONTROL Attività]**
 
 +++Vedi i dettagli
 
@@ -1032,9 +1002,9 @@ Questa versione include le correzioni e gli aggiornamenti seguenti:
 * **È stato corretto un arresto anomalo nel processo di creazione attività causato da riferimenti di opzione non validi durante il passaggio da una pagina all&#39;altra**: è stato risolto un problema nel processo di creazione attività che causava l&#39;arresto anomalo dell&#39;interfaccia utente dopo il passaggio da una pagina all&#39;altra tre volte durante la modifica. L&#39;arresto anomalo è stato attivato da riferimenti di opzione non validi, causando errori della console quali &quot;Impossibile trovare l&#39;opzione con localId &#39;7&#39;.&quot; Con questo aggiornamento, i clienti possono passare da una pagina all’altra e applicare le modifiche senza incontrare errori o interruzioni del sistema. (TGT-53295)
 * **È stato corretto un errore di salvataggio nel processo di creazione attività causato da un input utente non valido durante la modifica delle esperienze**: è stato risolto un problema nel processo di creazione attività a causa del quale i clienti non potevano salvare le modifiche apportate a un&#39;attività a causa di un errore di input utente non valido. L’errore si è verificato durante la modifica delle esperienze nell’interfaccia utente aggiornata, impedendo il commit degli aggiornamenti. L’attività ora può essere salvata correttamente, consentendo ai clienti di modificarla e pubblicarla senza interruzioni. (TGT-53267)
 * **È stato risolto un problema di caricamento nel processo di creazione attività che impediva la modifica nell&#39;interfaccia utente aggiornata**: è stato risolto un problema nel processo di creazione attività a causa del quale i clienti non potevano modificare le attività nell&#39;interfaccia utente aggiornata a causa di una schermata di caricamento continuo. Ora i clienti possono aprire e modificare le attività senza riscontrare errori di caricamento. (TGT-53415)
-* **È stato risolto un problema relativo ai requisiti di esperienza nel processo di creazione attività per le attività di Personalizzazione automatizzata nell&#39;interfaccia utente aggiornata**: è stato risolto un problema nel processo di creazione attività in cui le attività di [!UICONTROL Automated Personalization] (Personalizzazione automatizzata) richiedevano due posizioni invece di due esperienze nell&#39;interfaccia utente aggiornata. Questo comportamento ha bloccato i casi di utilizzo in cui i clienti configuravano una singola posizione con più offerte, precedentemente supportate. Il requisito è stato corretto per corrispondere alla funzionalità originale, consentendo ai clienti di procedere con le attività di Personalizzazione automatizzata utilizzando due esperienze indipendentemente dal conteggio delle posizioni. (TGT-53429)
-* **È stato corretto il comportamento del campo degli elementi tracciati in modalità Traccia clic per evitare input non salvati e migliorare la chiarezza**: è stato risolto un problema nel processo di creazione attività a causa del quale il campo [!UICONTROL Tracked Element] in modalità [!DNL Click Track] era modificabile ma non manteneva il nome immesso, generando confusione per i clienti. Il campo è ora disabilitato per evitare input non salvati e la denominazione degli elementi selezionati è stata chiarita per migliorare la configurazione dell&#39;obiettivo e la precisione del tracciamento.** (TGT-53458)
-* **È stato risolto un problema nel processo di creazione attività che impediva la denominazione dei componenti tracciati in modalità [!UICONTROL Click Track]**: è stato risolto un problema nel processo di creazione attività a causa del quale i clienti non potevano assegnare un nome ai componenti tracciati in modalità [!UICONTROL Click Track]. Dopo aver immesso un nome, il campo appariva modificabile ma non manteneva l’input; in modalità di modifica venivano utilizzate per impostazione predefinita etichette generiche come &quot;OBIETTIVO PRIMARIO 0&quot;. Il campo degli elementi tracciati è ora disabilitato e il comportamento di denominazione è stato chiarito per migliorare la configurazione degli obiettivi e la precisione del tracciamento. (TGT-51396)
+* **È stato risolto un problema relativo ai requisiti di esperienza nel processo di creazione attività per le attività di Personalizzazione automatizzata nell&#39;interfaccia utente aggiornata**: è stato risolto un problema nel processo di creazione attività in cui [!UICONTROL le attività di Automated Personalization] (Personalizzazione automatizzata) richiedevano due posizioni invece di due esperienze nell&#39;interfaccia utente aggiornata. Questo comportamento ha bloccato i casi di utilizzo in cui i clienti configuravano una singola posizione con più offerte, precedentemente supportate. Il requisito è stato corretto per corrispondere alla funzionalità originale, consentendo ai clienti di procedere con le attività di Personalizzazione automatizzata utilizzando due esperienze indipendentemente dal conteggio delle posizioni. (TGT-53429)
+* **È stato corretto il comportamento del campo degli elementi tracciati in modalità Traccia clic per evitare input non salvati e migliorare la chiarezza**: è stato risolto un problema nel processo di creazione attività in cui il campo [!UICONTROL Elemento tracciato] in modalità [!DNL Click Track] era modificabile ma non manteneva il nome immesso, generando confusione per i clienti. Il campo è ora disabilitato per evitare input non salvati e la denominazione degli elementi selezionati è stata chiarita per migliorare la configurazione dell&#39;obiettivo e la precisione del tracciamento.** (TGT-53458)
+* **È stato risolto un problema nel processo di creazione attività che bloccava la denominazione dei componenti tracciati in modalità [!UICONTROL ClickTrack]**: è stato risolto un problema nel processo di creazione attività a causa del quale i clienti non potevano assegnare un nome ai componenti tracciati in modalità [!UICONTROL ClickTrack]. Dopo aver immesso un nome, il campo appariva modificabile ma non manteneva l’input; in modalità di modifica venivano utilizzate per impostazione predefinita etichette generiche come &quot;OBIETTIVO PRIMARIO 0&quot;. Il campo degli elementi tracciati è ora disabilitato e il comportamento di denominazione è stato chiarito per migliorare la configurazione degli obiettivi e la precisione del tracciamento. (TGT-51396)
 
 +++
 
@@ -1055,17 +1025,17 @@ Questa versione include le correzioni e gli aggiornamenti seguenti:
 
 +++
 
-**[!UICONTROL Recommendations]**
+**[!UICONTROL Funzione Consigli]**
 
 +++Vedi i dettagli
 
-* **È stato risolto un problema nell&#39;interfaccia utente di ricerca del catalogo a causa del quale la ricerca avanzata non riusciva a fornire suggerimenti**: è stato risolto un problema nella nuova interfaccia utente di [!UICONTROL Catalog Search] a causa del quale la funzionalità [!UICONTROL Advanced Search] non riusciva a fornire suggerimenti. Gli utenti dovevano immettere valori esatti con un’ortografia precisa, rendendo l’esperienza di ricerca complicata e soggetta a errori. Con questa correzione, [!UICONTROL Advanced Search] offre ora suggerimenti rilevanti per la digitazione degli utenti, migliorando l&#39;usabilità e riducendo l&#39;attrito nella ricerca dei prodotti. (TGT-52008)
+* **È stato risolto un problema nell&#39;interfaccia utente di ricerca del catalogo a causa del quale la ricerca avanzata non riusciva a fornire suggerimenti**: è stato risolto un problema nella nuova interfaccia utente di [!UICONTROL Ricerca nel catalogo] a causa del quale la funzionalità di [!UICONTROL Ricerca avanzata] non riusciva a fornire suggerimenti. Gli utenti dovevano immettere valori esatti con un’ortografia precisa, rendendo l’esperienza di ricerca complicata e soggetta a errori. Con questa correzione, [!UICONTROL Ricerca avanzata] offre ora suggerimenti rilevanti per la digitazione degli utenti, migliorando l&#39;usabilità e riducendo l&#39;attrito nella ricerca dei prodotti. (TGT-52008)
 * **Sono stati risolti diversi problemi relativi all&#39;interfaccia utente e ai filtri per migliorare la reattività e l&#39;interazione dell&#39;entità**: sono stati risolti diversi problemi, tra cui la scarsa reattività dei dettagli dei criteri su dispositivi con schermo ridotto, la mancanza di risultati durante la selezione di &quot;Tutti i gruppi host&quot; nel filtro Ambiente e l&#39;impossibilità di interagire con entità senza nome. Queste correzioni migliorano l’usabilità tra le dimensioni dello schermo, garantiscono un filtraggio accurato e consentono la piena interazione con tutte le entità prodotto, migliorando l’esperienza complessiva per gli utenti. (TGT-52992)
 * **Sono stati corretti gli ID di prodotto mancanti nella visualizzazione dei dettagli dei consigli durante la creazione dell&#39;attività**: è stato risolto un problema nel processo di creazione delle attività [!DNL Recommendations] a causa del quale gli ID di prodotto mancavano dalla schermata dei dettagli del prodotto, rendendo difficile per i clienti copiare o fare riferimento agli ID di prodotto durante i flussi di lavoro. Gli ID prodotto vengono ora visualizzati chiaramente nella visualizzazione dettagliata, migliorando la visibilità e supportando una gestione più efficiente dei prodotti per i clienti. (TGT-51964)
-* **È stato risolto un problema nel processo di creazione attività a causa del quale i messaggi di prodotto non venivano visualizzati nella visualizzazione consigli**: è stato risolto un problema nel processo di creazione attività a causa del quale la colonna [!UICONTROL Message] nella visualizzazione [!DNL Recommendations] non visualizzava i dati di prodotto, anche se i messaggi erano presenti. I clienti hanno dovuto rimuovere manualmente e aggiungere nuovamente la colonna per visualizzare temporaneamente il contenuto, che spesso scompariva nuovamente durante lo scorrimento o la ricerca. Questo aggiornamento ripristina una visibilità coerente dei messaggi dei prodotti, migliorando la navigazione del catalogo e i flussi di lavoro di revisione. (TGT-52777)
+* **È stato risolto un problema nel processo di creazione attività a causa del quale i messaggi di prodotto non venivano visualizzati nella visualizzazione Consigli**: è stato risolto un problema nel processo di creazione attività a causa del quale la colonna [!UICONTROL Messaggio] nella visualizzazione [!DNL Recommendations] non visualizzava i dati di prodotto, anche se i messaggi erano presenti. I clienti hanno dovuto rimuovere manualmente e aggiungere nuovamente la colonna per visualizzare temporaneamente il contenuto, che spesso scompariva nuovamente durante lo scorrimento o la ricerca. Questo aggiornamento ripristina una visibilità coerente dei messaggi dei prodotti, migliorando la navigazione del catalogo e i flussi di lavoro di revisione. (TGT-52777)
 * **È stato risolto un problema nel processo di creazione attività a causa del quale la selezione di &#39;Tutti i gruppi di host&#39; non restituiva alcun risultato nella visualizzazione Consigli**: è stato risolto un problema nel processo di creazione attività a causa del quale la selezione dell&#39;ambiente &quot;Tutti i gruppi di host&quot; nella visualizzazione [!DNL Recommendations] non restituiva alcun risultato. Ora i clienti possono visualizzare i dati dei prodotti in tutti i gruppi di host come previsto, migliorando la visibilità e la precisione dei filtri durante la configurazione dell’attività. (TGT-53006)
 * **È stato risolto un problema nel processo di creazione attività a causa del quale l&#39;attivazione/disattivazione della promozione iniziale non persisteva dopo il salvataggio**: è stato risolto un problema nel processo di creazione attività a causa del quale la disattivazione dell&#39;attivazione/disattivazione della promozione iniziale nelle impostazioni attività non persisteva dopo il salvataggio. I clienti che tentavano di rimuovere la promozione iniziale hanno riscontrato che l’interruttore era stato riattivato al momento della revisione dell’attività, impedendo la corretta personalizzazione. Questo aggiornamento consente di salvare le modifiche in modo affidabile, offrendo ai clienti pieno controllo sulle impostazioni di promozione. (TGT-53215)
-* **È stato corretto un ordinamento incoerente in base alla colonna [!UICONTROL Last Updated]:** È stato risolto un problema nel processo di creazione attività a causa del quale l&#39;ordinamento del catalogo in base alla colonna [!UICONTROL Last updated] generava risultati incoerenti. I clienti non erano in grado di organizzare in modo affidabile i dati dei prodotti in base alle marche temporali degli aggiornamenti, rendendo più difficile la revisione e la gestione del catalogo. L’ordinamento ora funziona come previsto, migliorando precisione e usabilità nell’interfaccia utente aggiornata. (TGT-53116)
+* **È stato corretto un ordinamento incoerente in base a [!UICONTROL Ultimo aggiornamento] colonna:** È stato risolto un problema nel processo di creazione attività a causa del quale l&#39;ordinamento del catalogo in base alla colonna [!UICONTROL Ultimo aggiornamento] generava risultati incoerenti. I clienti non erano in grado di organizzare in modo affidabile i dati dei prodotti in base alle marche temporali degli aggiornamenti, rendendo più difficile la revisione e la gestione del catalogo. L’ordinamento ora funziona come previsto, migliorando precisione e usabilità nell’interfaccia utente aggiornata. (TGT-53116)
 
 +++
 
@@ -1073,10 +1043,10 @@ Questa versione include le correzioni e gli aggiornamenti seguenti:
 
 +++Vedi i dettagli
 
-* **Sono stati risolti i problemi relativi al caricamento dell&#39;attività e al pulsante [!UICONTROL Cancel] nel processo di creazione attività**: è stato risolto un problema nel processo di creazione attività a causa del quale alcune attività non venivano caricate, impedendo ai clienti di accedere alle modifiche. Inoltre, il pulsante [!UICONTROL Cancel] non rispondeva, impedendo ai clienti di arrestare il processo di caricamento o uscire dalla visualizzazione di modifica. Questa correzione assicura che le attività ora vengano caricate in modo affidabile e che il pulsante [!UICONTROL Cancel] funzioni come previsto, migliorando la stabilità complessiva e l&#39;esperienza utente nel Compositore esperienza visivo. (VEC)(TGT-53218)
-* **È stato risolto un problema di cambio di esperienza nell&#39;interfaccia utente del Compositore esperienza visivo aggiornata che impediva la modifica e disabilitava il pulsante [!UICONTROL Cancel]**: è stato risolto un problema nell&#39;interfaccia utente del Compositore esperienza visivo aggiornata in cui non veniva possibile caricare le modifiche quando si passava da un&#39;esperienza all&#39;altra in un&#39;attività Targeting esperienza. I clienti non sono stati in grado di modificare le esperienze oltre a quella inizialmente immessa e il pulsante [!UICONTROL Cancel] risulta mancante o non risponde. Questa correzione assicura che le modifiche ora vengano caricate correttamente in tutte le esperienze e che il pulsante [!UICONTROL Cancel] funzioni in modo affidabile, anche senza l&#39;estensione Helper, migliorando i flussi di lavoro di modifica e riducendo la frustrazione. (TGT-53256)
+* **Sono stati risolti i problemi relativi al caricamento dell&#39;attività e al pulsante [!UICONTROL Annulla] nel processo di creazione attività**: è stato risolto un problema nel processo di creazione attività a causa del quale alcune attività non venivano caricate, impedendo ai clienti di accedere alle modifiche. Inoltre, il pulsante [!UICONTROL Annulla] non rispondeva, impedendo ai clienti di interrompere il processo di caricamento o uscire dalla visualizzazione di modifica. Questa correzione assicura che le attività ora vengano caricate in modo affidabile e che il pulsante [!UICONTROL Annulla] funzioni come previsto, migliorando la stabilità complessiva e l&#39;esperienza utente nel Compositore esperienza visivo. (VEC)(TGT-53218)
+* **È stato risolto un problema di cambio di esperienza nell&#39;interfaccia utente del Compositore esperienza visivo aggiornata che impediva la modifica e disabilitava il pulsante [!UICONTROL Annulla]**: è stato risolto un problema nell&#39;interfaccia utente del Compositore esperienza visivo aggiornata in cui non veniva possibile caricare le modifiche quando si passava da un&#39;esperienza all&#39;altra in un&#39;attività Targeting esperienza. I clienti non sono stati in grado di modificare le esperienze oltre a quella immessa inizialmente e il pulsante [!UICONTROL Annulla] risulta mancante o non risponde. Questa correzione assicura che le modifiche ora vengano caricate correttamente in tutte le esperienze e che il pulsante [!UICONTROL Annulla] funzioni in modo affidabile, anche senza l&#39;estensione Helper, migliorando i flussi di lavoro di modifica e riducendo la frustrazione. (TGT-53256)
 * **È stato risolto un problema relativo alla schermata bianca durante il passaggio tra più esperienze nel processo di creazione attività**: è stato risolto un problema che causava la visualizzazione di una schermata bianca durante il passaggio tra più esperienze. È stato inoltre risolto un problema nel processo di creazione delle attività a causa del quale i clienti riscontravano una schermata bianca durante il tentativo di modificare più esperienze all’interno di un’attività. Questo problema si verificava dopo aver applicato le modifiche a due esperienze e aver selezionato una terza esperienza, impedendo ulteriori modifiche. L’aggiornamento garantisce una transizione fluida tra le esperienze, consentendo ai clienti di apportare modifiche senza interruzioni. (TGT-53266)
-* **È stato risolto un problema nel Compositore esperienza visivo a causa del quale le modifiche al codice personalizzato non venivano salvate in modo affidabile nelle sessioni di modifica**: è stato risolto un problema a causa del quale le modifiche al codice personalizzato apportate nel Compositore esperienza visivo non venivano salvate in modo affidabile in un singolo tentativo. I clienti hanno segnalato che le modifiche, come gli aggiornamenti degli stili o le modifiche di HTML, mancavano in modo intermittente dagli URL del sito Web e del controllo qualità, anche dopo aver utilizzato sia il pulsante [!UICONTROL Edit Content] che il pulsante [!UICONTROL Save] finale. Questa regressione è stata risolta, garantendo che tutte le modifiche al codice personalizzato persistano come previsto tra le sessioni di modifica.** (TGT-53418)
+* **È stato risolto un problema nel Compositore esperienza visivo a causa del quale le modifiche al codice personalizzato non venivano salvate in modo affidabile nelle sessioni di modifica**: è stato risolto un problema a causa del quale le modifiche al codice personalizzato apportate nel Compositore esperienza visivo non venivano salvate in modo affidabile in un singolo tentativo. I clienti hanno segnalato che le modifiche, come gli aggiornamenti degli stili o le modifiche di HTML, mancavano in modo intermittente dal sito Web e dagli URL di controllo qualità, anche dopo aver utilizzato sia il pulsante [!UICONTROL Modifica contenuto] che il pulsante [!UICONTROL Salva] finale. Questa regressione è stata risolta, garantendo che tutte le modifiche al codice personalizzato persistano come previsto tra le sessioni di modifica.** (TGT-53418)
 * **Correzione di `triggerViews` mancante nell&#39;interfaccia utente aggiornata durante la creazione dell&#39;attività**: è stato risolto un problema nel processo di creazione dell&#39;attività a causa del quale `triggerViews` non venivano visualizzati nell&#39;interfaccia utente aggiornata, anche se erano stati implementati correttamente nella pagina. Questo problema ha interessato più clienti e ha reso difficile convalidare i trigger basati sulla visualizzazione durante la configurazione dell’attività. `TriggerViews` ora viene visualizzato come previsto, consentendo ai clienti di completare e testare le proprie configurazioni in modo affidabile. (TGT-53239)
 * **È stato risolto un problema nel caricamento delle visualizzazioni nel processo di creazione attività per pagine Web specifiche nell&#39;interfaccia utente aggiornata**: è stato risolto un problema nel processo di creazione attività a causa del quale le visualizzazioni non venivano caricate nell&#39;interfaccia utente aggiornata per pagine Web specifiche, nonostante fossero correttamente implementate e visibili nelle chiamate di consegna o di interazione. Questo problema interessava più clienti e rendeva difficile convalidare il targeting basato sulla visualizzazione. Le visualizzazioni ora si compilano in modo coerente tra le pagine supportate, migliorando l’affidabilità durante la configurazione dell’attività. (TGT-53246)
 * **È stato risolto un problema relativo al caricamento intermittente delle visualizzazioni nel processo di creazione attività nell&#39;interfaccia utente aggiornata**: è stato risolto un problema nel processo di creazione attività a causa del quale le visualizzazioni non venivano visualizzate in modo intermittente nell&#39;interfaccia utente aggiornata durante la modifica delle attività. Anche se il nome della visualizzazione corretto era presente nel payload di rete, non veniva riconosciuto in modo coerente nell’interfaccia, influendo sulla capacità dei clienti di configurare la personalizzazione basata sulla visualizzazione. Le visualizzazioni ora vengono visualizzate in modo affidabile, supportando una configurazione e flussi di lavoro di convalida più fluidi. (TGT-53223)
@@ -1093,8 +1063,8 @@ Questa versione di include i miglioramenti e le correzioni seguenti:
 +++Vedi i dettagli
 
 * Sono stati risolti diversi problemi relativi all’interfaccia utente aggiornata, tra cui errori durante l’eliminazione dei tipi di pagina a causa della spaziatura nei valori di input, della copia di attività inaffidabile tra aree di lavoro e del malfunzionamento delle regole di consegna pagine negli ambienti di controllo qualità. (TGT-52703)
-* È stato risolto un problema nell&#39;interfaccia utente [!DNL Target] aggiornata a causa del quale gli utenti con il ruolo [!UICONTROL Editor] potevano accedere e tentare di modificare le attività live, che dovevano essere limitate. Le schermate elenco attività e panoramica mostravano erroneamente le opzioni di modifica per le attività live, con possibili modifiche non desiderate. (TGT-53055)
-* È stato risolto un problema nell&#39;interfaccia utente [!UICONTROL Advanced Search] a causa del quale la selezione degli operatori &quot;il valore è presente&quot; o &quot;il valore non è presente&quot; richiedeva agli utenti di immettere un operando, che non dovrebbe essere richiesto per queste condizioni. (TGT-51961)
+* È stato risolto un problema nell&#39;interfaccia utente [!DNL Target] aggiornata a causa del quale gli utenti con ruolo [!UICONTROL Editor] potevano accedere e tentare di modificare le attività live, che dovevano essere limitate. Le schermate elenco attività e panoramica mostravano erroneamente le opzioni di modifica per le attività live, con possibili modifiche non desiderate. (TGT-53055)
+* È stato risolto un problema nell&#39;interfaccia utente di [!UICONTROL Ricerca avanzata] a causa del quale la selezione di &quot;valore presente&quot; o &quot;valore non presente&quot; richiedeva agli utenti di immettere un operando, che non dovrebbe essere richiesto per queste condizioni. (TGT-51961)
 * È stato risolto un problema nell’interfaccia utente aggiornata a causa del quale i tentativi di copiare le attività dall’area di lavoro di staging all’area di lavoro di produzione continuavano a non riuscire, anche negli ambienti sandbox. I clienti hanno riscontrato diversi messaggi di errore, tra cui &quot;Pubblico anonimo già utilizzato dall’attività&quot; e &quot;ID pubblico non valido&quot;, nonostante l’utilizzo di configurazioni valide e l’esistenza di autorizzazioni Workspace appropriate. (TGT-52394)
 
 +++
@@ -1103,7 +1073,7 @@ Questa versione di include i miglioramenti e le correzioni seguenti:
 
 +++Vedi i dettagli
 
-* È stato risolto un problema che impediva il rendering del contenuto del frammento di esperienza (XF) nell&#39;anteprima [!UICONTROL Visual Experience Composer] (VEC), nonostante il funzionamento corretto nella distribuzione dei contenuti. (TGT-53318)
+* È stato risolto un problema che impediva il rendering del contenuto del frammento di esperienza (XF) nell&#39;anteprima del [!UICONTROL Compositore esperienza visivo], nonostante il corretto funzionamento nella distribuzione dei contenuti. (TGT-53318)
 
 +++
 
@@ -1120,9 +1090,9 @@ Questa versione di include i miglioramenti e le correzioni seguenti:
 +++Vedi i dettagli
 
 * È stato risolto un problema a causa del quale la modifica di un’offerta HTML esistente tramite il Compositore esperienza visivo causava la rimozione di tutte le modifiche dalla distribuzione del contenuto. Le modifiche vengono visualizzate in grigio nella scheda delle modifiche e non vengono riportate nelle anteprime di controllo qualità, anche se vengono applicate correttamente nell’interfaccia utente precedente. (TGT-52863)
-* È stato risolto un problema nell&#39;interfaccia utente [!DNL Target] aggiornata a causa del quale le modifiche apportate alle offerte HTML nel [!UICONTROL Visual Experience Composer] (Compositore esperienza visivo) non persistevano dopo essere tornate dalla scheda [!UICONTROL Targeting] a [!UICONTROL Experiences]. (TGT-52874)
-* È stato risolto un problema nell&#39;interfaccia utente [!DNL Target] aggiornata a causa del quale l&#39;inserimento di un&#39;offerta HTML prima e un&#39;offerta dopo lo stesso selettore causava una generazione errata della posizione. Quando i clienti sono tornati dalla scheda [!UICONTROL Targeting] alla scheda [!UICONTROL Experience], è stato mantenuto un solo selettore, con conseguente perdita di modifiche e consegna di contenuto interrotta. Questo comportamento è diverso dall’interfaccia utente legacy, che mantiene correttamente entrambe le modifiche con identificatori di posizione distinti. (TGT-52891)
-* È stato risolto un problema nell&#39;interfaccia utente [!DNL Target] aggiornata a causa del quale facendo clic su un&#39;offerta aggiunta nella barra [!UICONTROL Modifications] il pannello [!UICONTROL Configuration] di destra veniva visualizzato e scompariva in modo intermittente, rendendo difficile l&#39;interazione con le impostazioni dell&#39;offerta. (TGT-53288)
+* È stato risolto un problema nell&#39;interfaccia utente [!DNL Target] aggiornata a causa del quale le modifiche apportate alle offerte HTML nel [!UICONTROL Compositore esperienza visivo] non persistevano dopo essere tornate dalla scheda [!UICONTROL Targeting] a [!UICONTROL Esperienze]. (TGT-52874)
+* È stato risolto un problema nell&#39;interfaccia utente [!DNL Target] aggiornata a causa del quale l&#39;inserimento di un&#39;offerta HTML prima e un&#39;offerta dopo lo stesso selettore causava una generazione errata della posizione. Quando i clienti sono tornati dalla scheda [!UICONTROL Targeting] alla scheda [!UICONTROL Esperienza], è stato mantenuto un solo selettore, con conseguente perdita di modifiche e mancata distribuzione dei contenuti. Questo comportamento è diverso dall’interfaccia utente legacy, che mantiene correttamente entrambe le modifiche con identificatori di posizione distinti. (TGT-52891)
+* È stato risolto un problema nell&#39;interfaccia utente [!DNL Target] aggiornata a causa del quale facendo clic su un&#39;offerta aggiunta nella barra [!UICONTROL Modifiche] il pannello [!UICONTROL Configurazione] di destra veniva visualizzato e scompariva in modo intermittente, rendendo difficile l&#39;interazione con le impostazioni dell&#39;offerta. (TGT-53288)
 * È stato risolto un problema a causa del quale le offerte HTML aggiunte alle varianti specifiche per il pubblico all’interno di un’attività non venivano salvate o visualizzate in modo coerente nella sezione delle modifiche. Dopo il passaggio da un pubblico all’altro durante la modifica, le offerte applicate in precedenza a volte scomparivano o non venivano riprodotte, interrompendo la convalida e ritardando la preparazione dell’attività. (TGT-53440)
 * È stato risolto un problema che causava la creazione di offerte duplicate nella nuova attività durante la copia di un’attività che includeva offerte. Questo comportamento ha causato confusione e confusione inutili, in particolare durante lo spostamento di attività tra aree di lavoro. La correzione assicura che le offerte [!DNL Target] vengano ora copiate correttamente nell&#39;area di lavoro di destinazione senza duplicazioni, semplificando la gestione delle attività e migliorando l&#39;efficienza del flusso di lavoro. (TGT-53454)
 
@@ -1132,7 +1102,7 @@ Questa versione di include i miglioramenti e le correzioni seguenti:
 
 +++Vedi i dettagli
 
-* È stato risolto un problema nel Compositore esperienza visivo aggiornato che impediva ai clienti di applicare modifiche alle visualizzazioni [!UICONTROL Single Page Application] (SPA). Le attività create nella vecchia interfaccia supportavano il targeting specifico della vista, ma la nuova interfaccia non riusciva a rilevare o consentire modifiche a tali viste, con i controlli per il cambio di vista disabilitati. (TGT-52556)
+* È stato risolto un problema nel Compositore esperienza visivo aggiornato che impediva ai clienti di applicare modifiche alle [!UICONTROL visualizzazioni delle applicazioni a pagina singola] (SPA). Le attività create nella vecchia interfaccia supportavano il targeting specifico della vista, ma la nuova interfaccia non riusciva a rilevare o consentire modifiche a tali viste, con i controlli per il cambio di vista disabilitati. (TGT-52556)
 
 +++
 
@@ -1140,10 +1110,10 @@ Questa versione di include i miglioramenti e le correzioni seguenti:
 
 +++Vedi i dettagli
 
-* È stato risolto un problema a causa del quale le modifiche apportate alle esperienze all&#39;interno di [!UICONTROL Visual Experience Composer] non erano visibili o venivano visualizzate in modo incoerente nell&#39;interfaccia utente. (TGT-TGT-53381)
-* È stato risolto un problema nel Compositore esperienza visivo aggiornato a causa del quale nella sezione [!UICONTROL Manage Content] non veniva visualizzato il testo alternativo per le miniature delle esperienze. Questo problema rendeva difficile per gli utenti identificare i documenti, soprattutto quando i nomi dei file erano lunghi o troncati. (TGT-52291)
-* È stato corretto un errore a causa del quale i clienti riscontravano errori di convalida non corretti durante la configurazione di [!UICONTROL page delivery] regole nelle attività del Compositore esperienza visivo. In particolare, operatori come &quot;è uguale a&quot; e &quot;è diverso da&quot; hanno attivato &quot;Input non valido per il tipo di operatore&quot; durante l’immissione di valori di testo, anche se il testo dovrebbe essere supportato. (TGT-52629)
-* Sono stati risolti diversi problemi che causavano un comportamento incoerente nel pannello [!UICONTROL Modifications] dell&#39;interfaccia utente aggiornata quando si selezionavano le offerte utilizzando il pulsante &quot;Seleziona un&#39;offerta&quot;. Invece di sostituire l&#39;offerta esistente, l&#39;interfaccia utente ha aggiunto un duplicato e ha tentato di interagire con una delle offerte causando errori della console come `selectorNotFound`. Inoltre, alcune offerte non visualizzano il pulsante &quot;Seleziona un’offerta&quot;, che mostra solo le proprietà modificabili. (TGT-53321)
+* È stato risolto un problema a causa del quale le modifiche apportate alle esperienze all&#39;interno del [!UICONTROL Compositore esperienza visivo] non erano visibili o risultavano incoerenti nell&#39;interfaccia utente. (TGT-TGT-53381)
+* È stato risolto un problema nel Compositore esperienza visivo aggiornato a causa del quale nella sezione [!UICONTROL Gestione contenuto] non veniva visualizzato il testo alternativo per le miniature dell&#39;esperienza. Questo problema rendeva difficile per gli utenti identificare i documenti, soprattutto quando i nomi dei file erano lunghi o troncati. (TGT-52291)
+* È stato corretto un errore a causa del quale i clienti riscontravano errori di convalida non corretti durante la configurazione delle regole di [!UICONTROL consegna pagine] nelle attività del Compositore esperienza visivo. In particolare, operatori come &quot;è uguale a&quot; e &quot;è diverso da&quot; hanno attivato &quot;Input non valido per il tipo di operatore&quot; durante l’immissione di valori di testo, anche se il testo dovrebbe essere supportato. (TGT-52629)
+* Sono stati risolti diversi problemi che causavano un comportamento incoerente nel pannello [!UICONTROL Modifiche] dell&#39;interfaccia utente aggiornata durante la selezione delle offerte tramite il pulsante &quot;Seleziona un&#39;offerta&quot;. Invece di sostituire l&#39;offerta esistente, l&#39;interfaccia utente ha aggiunto un duplicato e ha tentato di interagire con una delle offerte causando errori della console come `selectorNotFound`. Inoltre, alcune offerte non visualizzano il pulsante &quot;Seleziona un’offerta&quot;, che mostra solo le proprietà modificabili. (TGT-53321)
 * È stato risolto un problema nell&#39;interfaccia utente [!DNL Target] aggiornata a causa del quale le modifiche al codice HTML apportate durante la configurazione dell&#39;attività non persistevano nelle pagine delle varianti, anche se venivano salvate correttamente per i gruppi di controllo. Nonostante diversi tentativi di ricreare i test senza raggruppamenti di pagine, le pagine delle varianti non sono riuscite a mantenere le modifiche, con un conseguente impatto sulla distribuzione dei contenuti e sulla convalida del controllo qualità. (TGT-53436)
 * È stato risolto un problema nel Compositore esperienza visivo aggiornato a causa del quale l’operatore &quot;è uguale a qualsiasi di&quot; nelle regole di consegna pagina non accettava i valori di input. Durante la configurazione dei parametri del cliente in tutte le mbox, la selezione di questo operatore causava un errore di &quot;Input non valido&quot;, impedendo la creazione della regola. (TGT-52623)
 
@@ -1156,7 +1126,7 @@ Questa versione di include i miglioramenti e le correzioni seguenti:
 * È stato migliorato il flusso di lavoro durante la copia delle attività tra aree di lavoro. Le attività di copia tra aree di lavoro prima causavano errori di sincronizzazione a causa di tipi di pubblico mancanti e proprietà non assegnate. Questo aggiornamento introduce un flusso di lavoro più intelligente e intuitivo che garantisce che le attività copiate siano configurate correttamente e pronte per la pubblicazione. (TGT-47094)
 * È stato risolto un problema che impediva ai clienti di copiare le attività tra aree di lavoro a causa di un errore nella mutazione `copyActivityBatchOperations`. I tentativi di duplicare le attività hanno restituito un errore del server (500) e un payload di risposta nullo. (TGT-52405)
 * È stato risolto un problema che impediva la sincronizzazione delle attività quando le offerte a cui si faceva riferimento nella configurazione non erano accessibili all’interno dell’area di lavoro selezionata. Ciò causava errori di pubblicazione e lasciava le attività in uno stato di errore. (TGT-52535)
-* Sono stati risolti diversi problemi che si verificavano durante la copia di attività tra aree di lavoro nell&#39;interfaccia utente [!DNL Target] aggiornata. I clienti hanno riscontrato errori relativi all&#39;accesso ai tipi di pubblico, in particolare con le attività live, e una convalida dei privilegi non corretta, anche quando l&#39;utente aveva &quot;[!UICONTROL Approver]&quot; ruoli nelle aree di lavoro di origine e di destinazione. (TGT-53002)
+* Sono stati risolti diversi problemi che si verificavano durante la copia di attività tra aree di lavoro nell&#39;interfaccia utente [!DNL Target] aggiornata. I clienti hanno riscontrato errori relativi all&#39;accesso ai tipi di pubblico, in particolare con le attività live, e una convalida dei privilegi non corretta, anche quando l&#39;utente aveva &quot;[!UICONTROL Approvatore]&quot; ruoli nelle aree di lavoro di origine e di destinazione. (TGT-53002)
 * È stato risolto un problema nell’interfaccia utente aggiornata a causa del quale la copia delle attività all’interno della stessa area di lavoro duplicava inutilmente le offerte e i tipi di pubblico associati. (TGT-53457)
 * È stato risolto un problema per risolvere i casi in cui i tipi di pubblico ad hoc (anonimi) non venivano copiati correttamente tra aree di lavoro non predefinite o da aree di lavoro non predefinite a predefinite. Anche se gli aggiornamenti precedenti garantivano la duplicazione corretta per gli scenari predefiniti-non-predefiniti e same-Workspace, questo miglioramento si concentra sul mantenimento di configurazioni di pubblico combinate che si estendono su più aree di lavoro. La correzione garantisce un comportamento coerente del pubblico e un targeting accurato in tutte le transizioni dell’area di lavoro. (TGT-53268)
 
@@ -1179,8 +1149,8 @@ Questa versione risolve i problemi recenti, causati principalmente da complesse 
 
 +++Vedi i dettagli
 
-* È stato risolto un problema di localizzazione nel modale [!UICONTROL Create Criteria] a causa del quale, quando si selezionava l&#39;opzione &quot;tra i seguenti valori&quot; nell&#39;elenco a discesa [!UICONTROL Choose Price Rule], la stringa &quot;to&quot; veniva slocalizzata nella sezione [!UICONTROL Inclusion Rules]. (TGT-49754)
-* È stato risolto un problema di localizzazione con la stringa &quot;[!UICONTROL All host groups]&quot; nell&#39;elenco a discesa [!UICONTROL Environment] della procedura guidata di creazione dei feed non localizzata correttamente. (TGT-46737)
+* È stato risolto un problema di localizzazione nella finestra modale [!UICONTROL Crea criterio] quando si selezionava l&#39;opzione &quot;tra i seguenti valori&quot; nell&#39;elenco a discesa [!UICONTROL Scegli regola prezzo], la stringa &quot;a&quot; veniva slocalizzata nella sezione [!UICONTROL Regole di inclusione]. (TGT-49754)
+* È stato risolto un problema di localizzazione con la stringa &quot;[!UICONTROL Tutti i gruppi di host]&quot; nell&#39;elenco a discesa [!UICONTROL Ambiente] della procedura guidata di creazione dei feed non localizzati correttamente. (TGT-46737)
 
 +++
 
@@ -1189,7 +1159,7 @@ Questa versione risolve i problemi recenti, causati principalmente da complesse 
 +++Vedi i dettagli
 
 * È stato risolto un problema che impediva all’ambiente di controllo qualità di caricare i dati in più schede, rendendo l’interfaccia inutilizzabile. (TGT-53377)
-* È stato risolto un problema che impediva la creazione di un’attività nell’ambiente di controllo qualità. Il processo è stato reindirizzato alla pagina [!UICONTROL Activities] invece di essere completato correttamente. (TGT-53328)
+* È stato risolto un problema che impediva la creazione di un’attività nell’ambiente di controllo qualità. Il processo è stato reindirizzato alla pagina [!UICONTROL Attività] invece di essere completato correttamente. (TGT-53328)
 
 +++
 
@@ -1198,7 +1168,7 @@ Questa versione risolve i problemi recenti, causati principalmente da complesse 
 +++Vedi i dettagli
 
 * È stato risolto un problema che causava l&#39;arresto anomalo della pagina quando si passava il mouse sull&#39;operando di &quot;apprendimento profondo&quot; durante la creazione di una raccolta in [!DNL Recommendations]. (TGT-53305)
-* È stato risolto un problema a causa del quale i suggerimenti del filtro in [!UICONTROL Catalog Search] nell&#39;interfaccia utente aggiornata non erano accurati. (TGT-52007)
+* È stato risolto un problema a causa del quale i suggerimenti del filtro in [!UICONTROL Ricerca nel catalogo] nell&#39;interfaccia utente aggiornata non erano accurati. (TGT-52007)
 * È stato risolto un problema nell&#39;interfaccia utente [!DNL Recommendations] a causa del quale veniva visualizzato il filtro Operandi quando si utilizzavano gli operatori &quot;value is present&quot; (valore presente) o &quot;value is not present&quot; (valore non presente), anche se doveva essere nascosto. (TGT-53012)
 
 +++
@@ -1207,9 +1177,9 @@ Questa versione risolve i problemi recenti, causati principalmente da complesse 
 
 +++Vedi i dettagli
 
-* È stato risolto un problema che si verificava quando un utente faceva clic su [!UICONTROL Manage Content] e poi su [!UICONTROL Done] durante la modifica di un&#39;attività di Automated Personalization (AP). La pagina restava vuota e non rispondeva. (TGT-53047 e TGT-52993)
-* È stato risolto un problema che causava l&#39;arresto anomalo della pagina a causa della selezione della metrica di conversione [!UICONTROL Viewed an mbox] in [!UICONTROL Goals & Settings]. (TGT-53346, TGT-53343, TGT-53348)
-* È stato risolto un problema che impediva alla funzionalità [!UICONTROL Redirect to URL] di funzionare come previsto, in quanto non si verificava alcun reindirizzamento anche con URL validi. (TGT-53307)
+* È stato risolto un problema che si verificava quando un utente faceva clic su [!UICONTROL Gestisci contenuto] e poi su [!UICONTROL Fine] durante la modifica di un&#39;attività di Automated Personalization (AP), la pagina restava vuota e non rispondeva. (TGT-53047 e TGT-52993)
+* È stato risolto un problema che causava l&#39;arresto anomalo della pagina a causa della selezione della metrica di conversione [!UICONTROL Visualizzazione di una mbox] in [!UICONTROL Obiettivi e impostazioni]. (TGT-53346, TGT-53343, TGT-53348)
+* È stato risolto un problema che impediva il funzionamento previsto della funzione [!UICONTROL Reindirizza all&#39;URL]. Il reindirizzamento non viene eseguito anche con URL validi. (TGT-53307)
 
 +++
 
@@ -1218,7 +1188,7 @@ Questa versione risolve i problemi recenti, causati principalmente da complesse 
 +++Vedi i dettagli
 
 * È stato risolto un problema che si verificava durante la copia di attività tra aree di lavoro causava la duplicazione di voci &quot;Copia pubblico&quot; e conflitti di ID. I tipi di pubblico vengono ora copiati con ID univoci, contesto dell’area di lavoro e gestione ricorsiva per i tipi di pubblico combinati (fino a 5 livelli). (TGT-53081)
-* È stato risolto un problema che si verificava se l&#39;area di lavoro era impostata su &quot;[!UICONTROL All Workspaces]&quot;. La copia di un&#39;attività già esistente nell&#39;area di lavoro predefinita generava un errore errato:
+* È stato risolto un problema che si verificava se l&#39;area di lavoro era impostata su &quot;[!UICONTROL Tutte le aree di lavoro]&quot;. La copia di un&#39;attività già esistente nell&#39;area di lavoro predefinita generava un errore errato:
 
   &quot;È necessario includere almeno una proprietà per le aree di lavoro non predefinite.&quot;
 
@@ -1240,7 +1210,7 @@ A causa dei problemi recenti identificati, principalmente correlati a complesse 
 * È stato risolto un problema nell&#39;interfaccia utente [!DNL Target] aggiornata a causa del quale le offerte eliminate nelle attività [!UICONTROL Automated Personalization] (AP) venivano visualizzate come `Deleted option with ID: X` invece dei nomi originali (ad esempio, `Offer Name [Deleted]` come mostrato nell&#39;interfaccia utente legacy). Questa correzione ripristina un’etichettatura significativa per le offerte eliminate, migliorando la chiarezza e rendendo il reporting più preciso e intuitivo. (TGT-52921)
 * È stato risolto un problema a causa del quale alcune attività migrate dal front-end [!DNL Target] a [!DNL Target] Central presentavano configurazioni di metriche incoerenti a causa di un bug di sincronizzazione precedentemente corretto. In particolare, le attività che originariamente utilizzavano una metrica di conversione e successivamente venivano aggiornate a una metrica basata su Analytics mantenevano valori obsoleti nei campi `primaryMetricType` e `successCriteria`. (TGT-52643)
 * È stato risolto un problema che rendeva modificabile l&#39;intero contenuto di una pagina di anteprima Controllo di qualità a causa dell&#39;inclusione involontaria dell&#39;attributo `contentEditable` nelle modifiche di HTML. Questo consentiva agli utenti di fare clic e modificare qualsiasi testo nella pagina, causando potenzialmente problemi di layout e confusione durante il controllo qualità. (TGT-53247)
-* È stato risolto un problema che causava la duplicazione della modifica spostando una modifica da [!DNL Page Load] a [!UICONTROL View], rimanendo in [!UICONTROL Page Load] e visualizzando anche in [!UICONTROL View]. Inoltre, la rimozione della modifica da [!UICONTROL View] la rimuoverebbe erroneamente anche da [!UICONTROL Page Load]. (TGT-53270)
+* È stato risolto un problema a causa del quale lo spostamento di una modifica da [!DNL Page Load] a [!UICONTROL Visualizzazione] causava la duplicazione della modifica, che rimaneva in [!UICONTROL Caricamento pagina] pur comparendo in [!UICONTROL Visualizzazione]. Inoltre, se si rimuove la modifica dalla [!UICONTROL Visualizzazione], questa verrà rimossa erroneamente anche dal [!UICONTROL Caricamento pagina]. (TGT-53270)
 
 +++
 
@@ -1259,7 +1229,7 @@ A causa dei problemi recenti identificati, principalmente correlati a complesse 
 
 +++Vedi i dettagli
 
-* È stato risolto un problema in [!UICONTROL Form-Based Experience Composer] che causava l&#39;arresto anomalo dell&#39;editor dopo aver fatto clic sull&#39;icona **[!UICONTROL Manage Content]** ( ![icona Gestisci contenuto](/help/main/assets/icons/Experience.svg) ) durante la creazione o la modifica di un&#39;attività [!UICONTROL Automated Personalization] (AP). (TGT-53047)
+* È stato risolto un problema in [!UICONTROL Compositore esperienza basato su moduli] che causava l&#39;arresto anomalo dell&#39;editor dopo aver fatto clic sull&#39;icona **[!UICONTROL Gestisci contenuto]** ( ![icona Gestisci contenuto](/help/main/assets/icons/Experience.svg) ) durante la creazione o la modifica di un&#39;attività [!UICONTROL Automated Personalization] (AP). (TGT-53047)
 
 +++
 
@@ -1267,11 +1237,11 @@ A causa dei problemi recenti identificati, principalmente correlati a complesse 
 
 +++Vedi i dettagli
 
-* È stato risolto un problema che impediva a [!UICONTROL Catalog Search] di caricare risultati aggiuntivi durante lo scorrimento alla fine dell&#39;elenco, ripristinando un comportamento coerente con l&#39;interfaccia utente legacy. (TGT-53088)
-* È stato risolto un problema che impediva l&#39;eliminazione di elementi dalla finestra di dialogo [!UICONTROL Criteria Details]. (TGT-53245)
+* È stato risolto un problema che impediva a [!UICONTROL Ricerca nel catalogo] di caricare risultati aggiuntivi durante lo scorrimento alla fine dell&#39;elenco, ripristinando un comportamento coerente con l&#39;interfaccia utente legacy. (TGT-53088)
+* È stato risolto un problema che impediva l&#39;eliminazione di elementi dalla finestra di dialogo [!UICONTROL Dettagli criteri]. (TGT-53245)
 * È stato risolto un problema che impediva l’apertura o l’interazione con prodotti senza nome. Questo problema si verificava durante la selezione di ambienti che restituivano risultati senza nome, impedendo l’accesso ai dettagli del prodotto. (TGT-53007)
-* È stato risolto un problema che causava l&#39;arresto anomalo della pagina [!UICONTROL Catalog Search] e la visualizzazione di una schermata vuota durante la selezione di alcuni prodotti. (TGT-53087)
-* È stato risolto un problema che impediva agli utenti di modificare l&#39;attività site_cart_z1 [!DNL Recommendation] nell&#39;interfaccia utente [!DNL Target]. Il tentativo di aprire l&#39;attività ha generato un errore nella pagina [!UICONTROL Overview], bloccando l&#39;accesso all&#39;editor. (TGT-53221)
+* È stato risolto un problema che causava l&#39;arresto anomalo della pagina [!UICONTROL Ricerca nel catalogo] e la visualizzazione di una schermata vuota durante la selezione di alcuni prodotti. (TGT-53087)
+* È stato risolto un problema che impediva agli utenti di modificare l&#39;attività site_cart_z1 [!DNL Recommendation] nell&#39;interfaccia utente [!DNL Target]. Il tentativo di aprire l&#39;attività ha generato un errore nella pagina [!UICONTROL Panoramica], bloccando l&#39;accesso all&#39;editor. (TGT-53221)
 
 +++
 
@@ -1297,9 +1267,9 @@ A causa dei problemi recenti identificati, principalmente correlati a complesse 
 +++Vedi i dettagli
 
 * È stato risolto un problema nel Compositore esperienza visivo a causa del quale l’applicazione di una modifica a una visualizzazione causava la duplicazione e attivava un errore di tipo &quot;Input utente non valido&quot;. (TGT-52886)
-* È stato risolto un problema con la funzionalità [!UICONTROL Undo] per le opzioni [!UICONTROL Insert Before] e [!UICONTROL Insert After] durante la configurazione delle offerte di immagini nel Compositore esperienza visivo.
+* È stato risolto un problema relativo alla funzionalità [!UICONTROL Annulla] per le opzioni [!UICONTROL Inserisci prima] e [!UICONTROL Inserisci dopo] durante la configurazione delle offerte di immagini nel Compositore esperienza visivo.
 
-  In precedenza, l&#39;annullamento di un&#39;azione [!UICONTROL Insert Before] o [!UICONTROL Insert After] sulle offerte di immagini causava un comportamento incoerente o il mancato ripristino corretto della modifica, in particolare nelle attività create nell&#39;interfaccia utente legacy di [!DNL Target]. Questo problema è stato risolto per garantire che le azioni di annullamento ora funzionino in modo affidabile per queste modifiche. (TGT-52809)
+  In precedenza, l&#39;annullamento di un&#39;azione [!UICONTROL Inserisci prima] o [!UICONTROL Inserisci dopo] sulle offerte di immagini causava un comportamento incoerente o il mancato ripristino corretto della modifica, in particolare nelle attività create nell&#39;interfaccia utente legacy di [!DNL Target]. Questo problema è stato risolto per garantire che le azioni di annullamento ora funzionino in modo affidabile per queste modifiche. (TGT-52809)
 
 * È stato risolto un problema che causava l&#39;impostazione involontaria dell&#39;attributo `contentEditable` su true e persisteva nel contenuto HTML salvato. Questo aggiornamento garantisce un output HTML più pulito e atteso senza un comportamento di modifica non intenzionale. (TGT-52319)
 * Per evitare la perdita permanente delle opzioni eliminate e garantire un comportamento coerente tra i servizi, è stata implementata la funzionalità di eliminazione temporanea per le opzioni nell’interfaccia utente e nei microservizi correlati.
@@ -1340,7 +1310,7 @@ A causa dei problemi recenti identificati, principalmente correlati a complesse 
 +++Vedi i dettagli
 
 * È stato aggiunto un ulteriore avviso di conferma durante l’annullamento delle modifiche dell’attività con modifiche non salvate: &quot;Desideri salvare questa attività? Se non esegui il salvataggio, tutte le modifiche andranno perse.&quot; Questo messaggio consente di evitare la perdita accidentale di dati. (TGT-52865)
-* È stata ripristinata la funzionalità legacy nel cursore [!UICONTROL Priority] in [!UICONTROL Goals & Settings], consentendo ai clienti di immettere direttamente un valore numerico, come supportato nell&#39;interfaccia utente legacy. (TGT-53185 e TGT-53219)
+* È stata ripristinata la funzionalità legacy nel cursore [!UICONTROL Priority] in [!UICONTROL Obiettivi e impostazioni], consentendo ai clienti di immettere direttamente un valore numerico, come supportato nell&#39;interfaccia utente legacy. (TGT-53185 e TGT-53219)
 
 +++
 
@@ -1352,21 +1322,21 @@ A causa dei problemi recenti identificati, principalmente correlati a complesse 
 
 +++
 
-**[!UICONTROL Analytics for Target] (A4T)**
+**[!UICONTROL Analytics per Target] (A4T)**
 
 +++Vedi i dettagli
 
-* È stato risolto un problema che si verificava quando i clienti visualizzavano i rapporti per attività specifiche sulla pagina [!UICONTROL Goals & Settings]. Il collegamento [!UICONTROL View in Analytics] puntava erroneamente all&#39;ambiente di controllo qualità invece che all&#39;ambiente di produzione. (TGT-53163)
+* È stato risolto un problema che si verificava quando i clienti visualizzavano i rapporti per attività specifiche nella pagina [!UICONTROL Obiettivi e impostazioni]. Il collegamento [!UICONTROL Visualizza in Analytics] puntava erroneamente all&#39;ambiente di controllo qualità invece che all&#39;ambiente di produzione. (TGT-53163)
 
 +++
 
-**[!UICONTROL Experiences]e[!UICONTROL Offers]**
+**[!UICONTROL Esperienze] e [!UICONTROL Offerte]**
 
 +++Vedi i dettagli
 
 * È stato risolto un problema che causava un ciclo infinito quando si richiamava `triggerView` tramite codice personalizzato. (TGT-52885)
 * È stato risolto un problema che causava incongruenze tra `LocalIds` definiti per le attività e `LocalIds` utilizzati nelle definizioni delle esperienze. (TGT-52669)
-* È stato risolto un problema a causa del quale nella pagina dell&#39;attività [!UICONTROL Overview] mancavano i nomi delle metriche, visualizzando solo &quot;Offerta&quot; invece del nome della metrica corretto. (TGT-53054)
+* È stato risolto un problema a causa del quale nella pagina dell&#39;attività [!UICONTROL Panoramica] mancavano dei nomi delle metriche. Veniva visualizzato solo &quot;Offerta&quot; invece del nome della metrica corretto. (TGT-53054)
 
 +++
 
@@ -1374,7 +1344,7 @@ A causa dei problemi recenti identificati, principalmente correlati a complesse 
 
 +++Vedi i dettagli
 
-* È stato risolto un problema in [!UICONTROL Form-Based Experience Composer] che impediva il salvataggio dell&#39;attività e attivava il messaggio di errore: &quot;Impossibile leggere le proprietà di non definito (lettura di &#39;map&#39;)&quot;. (TGT-53145)
+* È stato risolto un problema in [!UICONTROL Compositore esperienza basato su moduli] che impediva il salvataggio delle attività e attivava il messaggio di errore: &quot;Impossibile leggere le proprietà di non definito (lettura di &#39;map&#39;)&quot;. (TGT-53145)
 
 +++
 
@@ -1382,8 +1352,8 @@ A causa dei problemi recenti identificati, principalmente correlati a complesse 
 
 +++Vedi i dettagli
 
-* È stato risolto un problema che causava la visualizzazione dell&#39;errore &#39;Impossibile recuperare i dettagli del prodotto&#39; in seguito a un clic su un prodotto da [!UICONTROL Catalog Search], con l&#39;apertura di un modale senza un&#39;opzione di chiusura. (TGT-53082)
-* È stato risolto un problema che impediva l&#39;aggiornamento corretto di [consigli come offerte](/help/main/c-recommendations/recommendations-as-an-offer.md) nelle attività [!UICONTROL A/B Test] durante la modifica di raccolte o promozioni. (TGT-52884)
+* È stato risolto un problema che causava la visualizzazione dell&#39;errore &quot;Impossibile recuperare i dettagli del prodotto&quot; in seguito a un clic su un prodotto da [!UICONTROL Ricerca nel catalogo] e l&#39;apertura di un modale senza un&#39;opzione di chiusura. (TGT-53082)
+* È stato risolto un problema che impediva l&#39;aggiornamento corretto di [consigli come offerte](/help/main/c-recommendations/recommendations-as-an-offer.md) nelle attività [!UICONTROL Test A/B] durante la modifica di raccolte o promozioni. (TGT-52884)
 * È stato risolto un problema nell’ambiente di produzione a causa del quale, facendo clic su un’entità nell’interfaccia utente aggiornata, veniva visualizzato l’errore: &quot;Impossibile recuperare i dettagli del prodotto. Se il problema persiste, contattare [!DNL Adobe Client Care].&quot; (TGT-53071)
 
 +++
@@ -1396,11 +1366,11 @@ A causa dei problemi recenti identificati, principalmente correlati a complesse 
 
 +++
 
-**[!UICONTROL Visual Experience Composer] (VEC)**
+**[!UICONTROL Compositore esperienza visivo] (VEC)**
 
 +++Vedi i dettagli
 
-* È stato risolto un problema sulla pagina [!UICONTROL Goals & Settings] a causa del quale i selettori utilizzati in più esperienze non venivano evidenziati in modo coerente come selezionati. (TGT-53062)
+* È stato risolto un problema nella pagina [!UICONTROL Obiettivi e impostazioni] a causa del quale i selettori utilizzati in più esperienze non venivano evidenziati in modo coerente come selezionati. (TGT-53062)
 * È stato risolto un problema che impediva la modifica dell’attività e attivava il messaggio di errore: &quot;Impossibile leggere le proprietà di non definito (lettura di &quot;map&quot;)&quot;. (TGT-53161)
 
 +++
@@ -1415,9 +1385,9 @@ A causa dei problemi recenti identificati, principalmente correlati a complesse 
 * È stato risolto un problema che impediva ai clienti di [copiare attività tra aree di lavoro diverse](/help/main/c-activities/edit-activity.md#section_45A92E1DD3934523B07E71EF90C4F8B6). (TGT-52753 e TGT-47094)
 * È stato risolto un problema che si verificava durante la modifica delle proprietà tra le aree di lavoro.
    * Quando si passa dall&#39;area di lavoro predefinita a un&#39;area di lavoro non predefinita, se la proprietà corrente esiste nell&#39;area di lavoro di destinazione, la proprietà viene mantenuta.
-   * Se nell&#39;elenco [!UICONTROL Properties] viene visualizzato un avviso (è probabile che alcune proprietà non siano compatibili) e il cliente fa clic su [!UICONTROL Add] o [!UICONTROL Remove] e quindi fa clic su [!UICONTROL Save], tutte le proprietà non presenti nell&#39;area di lavoro di destinazione verranno rimosse. Se il cliente fa clic su [!UICONTROL Cancel], tutte le proprietà rimangono, anche se non esistono nell&#39;area di lavoro di destinazione. (TGT-47094)
+   * Se nell&#39;elenco [!UICONTROL Proprietà] viene visualizzato un avviso (è probabile che alcune proprietà non siano compatibili) e il cliente fa clic su [!UICONTROL Aggiungi] o [!UICONTROL Rimuovi] e quindi fa clic su [!UICONTROL Salva], tutte le proprietà non presenti nell&#39;area di lavoro di destinazione verranno rimosse. Se il cliente fa clic su [!UICONTROL Annulla], tutte le proprietà rimangono, anche se non esistono nell&#39;area di lavoro di destinazione. (TGT-47094)
    * Se rimani nella stessa area di lavoro o passi da un’area di lavoro non predefinita a quella predefinita o a un’altra, tutto rimane invariato. (TGT-53078)
-* È stata aggiornata la logica di convalida dell’entità in modo da rispettare il contesto dell’area di lavoro originale dell’attività. Entità come [!UICONTROL Experience Fragments] (XFs) ora vengono convalidate in base all&#39;area di lavoro in cui è stata originariamente creata l&#39;attività. Ad esempio, se nel workspace di default esiste un file XF e l&#39;attività viene copiata dal workspace X al workspace Y, la convalida viene comunque eseguita finché il file XF è valido nel workspace originale (predefinito). (TGT-53196)
+* È stata aggiornata la logica di convalida dell’entità in modo da rispettare il contesto dell’area di lavoro originale dell’attività. Entità come [!UICONTROL Frammenti di esperienza] (XFs) ora vengono convalidate in base all&#39;area di lavoro in cui è stata creata l&#39;attività. Ad esempio, se nel workspace di default esiste un file XF e l&#39;attività viene copiata dal workspace X al workspace Y, la convalida viene comunque eseguita finché il file XF è valido nel workspace originale (predefinito). (TGT-53196)
 * Supporto migliorato per la copia di tipi di pubblico ad hoc durante la duplicazione delle attività.
    * I tipi di pubblico ad hoc, tra cui metriche, rapporti, pagine e tipi di sola attività, vengono ora copiati automaticamente nei seguenti scenari:
       * Quando si copia un’attività dall’area di lavoro predefinita a un’area di lavoro non predefinita.
@@ -1433,9 +1403,9 @@ A causa dei problemi recenti identificati, principalmente correlati a complesse 
 
 +++Vedi i dettagli
 
-* È stato risolto un problema a causa del quale l&#39;URL [!UICONTROL Activity QA] includeva un parametro di query non necessario: `at_preview_evaluate_as_true_audience_ids`. (TGT-52907)
+* È stato risolto un problema a causa del quale l&#39;URL [!UICONTROL Controllo qualità attività] includeva un parametro di query non necessario: `at_preview_evaluate_as_true_audience_ids`. (TGT-52907)
 * È stato risolto un problema a causa del quale gli URL di anteprima includevano erroneamente tipi di pubblico aggiuntivi oltre a quello esplicitamente digitato dall’utente. Questo comportamento è stato corretto per garantire che solo il pubblico specificato venga applicato durante la generazione di un collegamento di controllo qualità o di anteprima. (TGT-52912)
-* È stato risolto un problema che impediva agli utenti di creare attività [!UICONTROL Auto-Target] (AT) se [!UICONTROL Auto-Allocate] (AA) era selezionato per primo durante la configurazione dell&#39;allocazione del traffico. Questo problema causava un errore di convalida del back-end e impediva il salvataggio dell’attività. (TGT-53096)
+* È stato risolto un problema che impediva agli utenti di creare [!UICONTROL attività Targeting automatico] (AT) se [!UICONTROL Allocazione automatica] (AA) era selezionato per primo durante la configurazione dell&#39;allocazione del traffico. Questo problema causava un errore di convalida del back-end e impediva il salvataggio dell’attività. (TGT-53096)
 
 +++
 
@@ -1443,34 +1413,34 @@ A causa dei problemi recenti identificati, principalmente correlati a complesse 
 
 +++Vedi i dettagli
 
-* È stato risolto un problema che impediva agli utenti con il ruolo [!UICONTROL Approver] di aggiungere o salvare perfezionamenti del pubblico per sola attività. Il tentativo di eseguire questa operazione ha generato un errore 403 Forbidden, che indica che il privilegio &quot;[editor]&quot; è obbligatorio, anche se l&#39;utente dispone di autorizzazioni sufficienti per approvare e gestire le attività. (TGT-52984)
-* È stato risolto un problema che si verificava quando un pubblico specifico per l&#39;attività veniva rimosso utilizzando l&#39;opzione [!UICONTROL Remove Audience Refinement] e il pubblico non veniva più visualizzato nell&#39;elenco dei tipi di pubblico per essere riselezionato all&#39;interno della stessa attività. Questo comportamento impediva agli utenti di aggiungere nuovamente lo stesso pubblico, a meno che non venga ricreato da zero. (TGT-52979)
+* È stato risolto un problema che impediva agli utenti con il ruolo [!UICONTROL Approvatore] di aggiungere o salvare perfezionamenti del pubblico per sola attività. Il tentativo di eseguire questa operazione ha generato un errore 403 Forbidden, che indica che il privilegio &quot;[editor]&quot; è obbligatorio, anche se l&#39;utente dispone di autorizzazioni sufficienti per approvare e gestire le attività. (TGT-52984)
+* È stato risolto un problema che si verificava quando un pubblico specifico per l&#39;attività veniva rimosso utilizzando l&#39;opzione [!UICONTROL Rimuovi perfezionamento pubblico] e il pubblico non veniva più visualizzato nell&#39;elenco dei tipi di pubblico per essere riselezionato all&#39;interno della stessa attività. Questo comportamento impediva agli utenti di aggiungere nuovamente lo stesso pubblico, a meno che non venga ricreato da zero. (TGT-52979)
 * È stato risolto un problema a causa del quale i perfezionamenti del pubblico per sola attività scomparivano dall’interfaccia utente subito dopo essere stati rimossi da una posizione, anche prima del salvataggio dell’attività. Questo comportamento contraddiceva le funzionalità previste e le linee guida con la descrizione comando, che recita: &quot;Tutti i tipi di pubblico non utilizzati da questa libreria verranno eliminati una volta salvata l’attività&quot;. (TGT-52982)
-* È stato risolto un problema che si verificava durante il tentativo di assegnare un pubblico diverso da [!UICONTROL All Visitors] a un&#39;attività. Al momento del salvataggio, veniva visualizzato il seguente messaggio di errore: &quot;Impossibile completare la richiesta. Se il problema persiste, contatta [!UICONTROL Adobe Client Care].&quot; (TGT-53008)
-* È stato risolto un problema che impediva il salvataggio di un’attività dopo la creazione e l’assegnazione di un nuovo pubblico all’interno dell’editor attività. Il messaggio di errore visualizzato era: &quot;Impossibile completare la richiesta. Se il problema persiste, contattare [!UICONTROL Adobe Client Care].&quot; (TGT-52977)
+* È stato risolto un problema che si verificava durante il tentativo di assegnare un pubblico diverso da [!UICONTROL Tutti i visitatori] a un&#39;attività. Al momento del salvataggio, veniva visualizzato il seguente messaggio di errore: &quot;Impossibile completare la richiesta. Se il problema persiste, contatta l&#39;[!UICONTROL Assistenza clienti Adobe].&quot; (TGT-53008)
+* È stato risolto un problema che impediva il salvataggio di un’attività dopo la creazione e l’assegnazione di un nuovo pubblico all’interno dell’editor attività. Il messaggio di errore visualizzato era: &quot;Impossibile completare la richiesta. Se il problema persiste, contatta l&#39;[!UICONTROL Assistenza clienti Adobe].&quot; (TGT-52977)
 
 +++
 
-**[!UICONTROL Analytics for Target] (A4T)**
+**[!UICONTROL Analytics per Target] (A4T)**
 
 +++Vedi i dettagli
 
 * È stato risolto un problema che causava un errore &quot;Input utente non valido&quot; durante la copia di un&#39;attività esistente e la modifica dell&#39;origine per la generazione di rapporti in [!DNL Adobe Analytics] (A4T). L&#39;errore è stato attivato quando alcune azioni di metrica incompatibili con il reporting di [!DNL Analytics], come `restart_same_experience`, `restart_random_experience` e `restart_new_experience`, sono state mantenute dall&#39;attività originale. (TGT-52900)
-* È stato risolto un problema che impediva ai clienti di creare o salvare un&#39;attività selezionando [!DNL Adobe Analytics] (A4T) come origine per la generazione di rapporti nel passaggio [!UICONTROL Goals & Settings]. Il problema si è verificato in modo specifico quando si selezionava una metrica [!UICONTROL Custom Event] (ad esempio, &quot;Evento personalizzato 16&quot;), causando il seguente errore: &quot;Input utente non valido&quot;. (TGT-52910)
-* È stato risolto un problema a causa del quale facendo clic sul collegamento &quot;[!UICONTROL View in Analytics]&quot; gli utenti venivano reindirizzati alla home page invece del dashboard [!DNL Analytics] desiderato. (TGT-53092 e TGT-53093)
+* È stato risolto un problema che impediva ai clienti di creare o salvare un&#39;attività selezionando [!DNL Adobe Analytics] (A4T) come origine per la generazione di rapporti nel passaggio [!UICONTROL Obiettivi e impostazioni]. Il problema si è verificato in modo specifico durante la selezione di una metrica [!UICONTROL Evento personalizzato] (ad esempio, &quot;Evento personalizzato 16&quot;), causando il seguente errore: &quot;Input utente non valido&quot;. (TGT-52910)
+* È stato risolto un problema a causa del quale facendo clic sul collegamento &quot;[!UICONTROL Visualizza in Analytics]&quot; gli utenti venivano reindirizzati alla home page anziché alla dashboard [!DNL Analytics] prevista. (TGT-53092 e TGT-53093)
   <!-- * Fixed an issue when cloning an existing activity and changing the reporting source from [!DNL Target] to [!DNL Adobe Analytics], users encounter a "400 - Invalid User Input" error, preventing the activity from being saved. (TGT-52875)-->
-* È stato risolto un problema che si verificava durante la visualizzazione di un&#39;attività [!DNL Recommendations] nell&#39;interfaccia utente [!UICONTROL Overview] aggiornata. Impossibile caricare la sezione [!UICONTROL Goals & Settings] se [!DNL Adobe Analytics] (A4T) è selezionato come origine per la generazione di rapporti. Veniva visualizzato il seguente messaggio di errore: &quot;Si è verificato un errore. Impossibile completare la richiesta. Se il problema persiste, contatta l’Assistenza clienti Adobe.” (TGT-52999)
+* È stato risolto un problema che si verificava durante la visualizzazione di un&#39;attività [!DNL Recommendations] nell&#39;interfaccia utente [!UICONTROL Panoramica] aggiornata. Impossibile caricare la sezione [!UICONTROL Obiettivi e impostazioni] se [!DNL Adobe Analytics] (A4T) è selezionato come origine per la generazione di rapporti. Veniva visualizzato il seguente messaggio di errore: &quot;Si è verificato un errore. Impossibile completare la richiesta. Se il problema persiste, contatta l’Assistenza clienti Adobe.” (TGT-52999)
 
 +++
 
-**[!UICONTROL Experiences]e[!UICONTROL Offers]**
+**[!UICONTROL Esperienze] e [!UICONTROL Offerte]**
 
 +++Vedi i dettagli
 <!-- * Fixed an issue where using the [!UICONTROL Manage Content] feature in [!UICONTROL Automated Personalization] (AP) activities caused the page to crash and remain blank. This issue occurred after clicking [!UICONTROL Done] in the content manager, particularly in activities created or edited in the updated UI. (TGT-53047)-->
-* È stato risolto un problema che impediva alla funzionalità [!UICONTROL Manage Content] di convalidare correttamente lo stato di una posizione dopo la rimozione di tutte le opzioni di contenuto. Questo problema poteva causare un comportamento incoerente o errori durante il tentativo di salvare o procedere con la configurazione dell’attività. (TGT-52801)
+* È stato risolto un problema che impediva alla funzionalità [!UICONTROL Gestione contenuto] di convalidare correttamente lo stato di una posizione dopo la rimozione di tutte le opzioni di contenuto. Questo problema poteva causare un comportamento incoerente o errori durante il tentativo di salvare o procedere con la configurazione dell’attività. (TGT-52801)
 * È stato risolto un problema che causava la visualizzazione di un errore di tipo &quot;Input non valido&quot; durante l’aggiunta di una nuova pagina e l’eliminazione di elementi specifici in diverse esperienze. L&#39;errore viene attivato dalla generazione del duplicato `LocalIds` durante la manipolazione dell&#39;elemento, in particolare quando si passa da un&#39;esperienza all&#39;altra e si modificano le strutture di pagina condivise. (TGT-52720)
-* È stato risolto un problema che causava la visualizzazione di posizioni non definite nel pannello [!UICONTROL Manage Content] da parte dell&#39;utilizzo della funzione [!UICONTROL Generate Adhoc Offer]. (TGT-53076 e TGT-53070)
-* È stato chiarito il comportamento del cliente in cui le modifiche apportate utilizzando un&#39;offerta HTML potrebbero sembrare mancanti quando si torna dal passaggio [!UICONTROL Targeting] a [!UICONTROL Experiences]. Per questo cliente, il sito web interessato ha generato in modo dinamico più selettori DOM modificati a ogni caricamento di pagina. Di conseguenza, il selettore originariamente utilizzato per la modifica non viene trovato quando l’editor viene riaperto, causando la visualizzazione della modifica come mancante o non valida. Questo scenario funziona come previsto. Per garantire che le modifiche persistano visivamente nell’editor, si consiglia ai client di utilizzare selettori stabili e coerenti che non cambiano tra i ricaricamenti delle pagine. (TGT-52874)
+* È stato risolto un problema che causava la visualizzazione di posizioni non definite nel pannello [!UICONTROL Gestione contenuto] in seguito all&#39;utilizzo della funzione [!UICONTROL Genera offerta ad hoc]. (TGT-53076 e TGT-53070)
+* È stato chiarito il comportamento del cliente in cui le modifiche apportate utilizzando un&#39;offerta HTML potrebbero sembrare mancanti quando si passa dal passaggio [!UICONTROL Targeting] a [!UICONTROL Esperienze]. Per questo cliente, il sito web interessato ha generato in modo dinamico più selettori DOM modificati a ogni caricamento di pagina. Di conseguenza, il selettore originariamente utilizzato per la modifica non viene trovato quando l’editor viene riaperto, causando la visualizzazione della modifica come mancante o non valida. Questo scenario funziona come previsto. Per garantire che le modifiche persistano visivamente nell’editor, si consiglia ai client di utilizzare selettori stabili e coerenti che non cambiano tra i ricaricamenti delle pagine. (TGT-52874)
 * È stato risolto un problema a causa del quale il tentativo di eliminare o disattivare un’offerta che faceva parte di un’esperienza esclusa generava un errore di tipo &quot;Input utente non valido&quot;. Questo problema si verificava anche se l’offerta non veniva utilizzata attivamente nelle esperienze incluse. (TGT-52917)
 
 +++
@@ -1495,12 +1465,12 @@ A causa dei problemi recenti identificati, principalmente correlati a complesse 
 
 +++Vedi i dettagli
 
-* È stato aggiunto un nuovo feed [!DNL Recommendations] [status](/help/main/c-recommendations/c-products/feeds.md#status): [!UICONTROL Partial Import Failed]. (KB-2215)
-* È stato risolto un problema che interessava il flusso di lavoro di creazione attività durante l&#39;aggiunta di [!DNL Recommendations] con [!UICONTROL promotions]. Quando gli utenti hanno selezionato &quot;[!UICONTROL Promote by Attribute]&quot; e aggiunto una regola di filtro (ad esempio, [!UICONTROL Parameter Matching]), il tipo di regola e i valori dell&#39;operando selezionati non sono stati mantenuti dopo il salvataggio e la modifica dell&#39;attività. Alla riapertura, il tipo di regola di filtro cambiava in modo imprevisto e mancavano i valori dell’operando. (TGT-53059)
+* È stato aggiunto un nuovo feed [!DNL Recommendations] [status](/help/main/c-recommendations/c-products/feeds.md#status): [!UICONTROL Importazione parziale non riuscita]. (KB-2215)
+* È stato risolto un problema che interessava il flusso di lavoro di creazione attività durante l&#39;aggiunta di [!DNL Recommendations] con [!UICONTROL promozioni]. Quando gli utenti hanno selezionato &quot;[!UICONTROL Promuovi per attributo]&quot; e aggiunto una regola di filtro (ad esempio, [!UICONTROL Corrispondenza parametro]), il tipo di regola e i valori dell&#39;operando selezionati non sono stati mantenuti dopo il salvataggio e la modifica dell&#39;attività. Alla riapertura, il tipo di regola di filtro cambiava in modo imprevisto e mancavano i valori dell’operando. (TGT-53059)
 * È stato risolto un problema nell&#39;interfaccia utente [!DNL Recommendations] a causa del quale qualsiasi promozione creata con una singola regola veniva erroneamente interpretata e visualizzata come un tipo di promozione &quot;Elenco di elementi&quot;, indipendentemente dalla logica della regola. (TGT-53063)
-* È stato risolto un problema che si verificava durante l&#39;utilizzo dell&#39;interfaccia utente [!UICONTROL Overview] aggiornata. Il pulsante &quot;[!UICONTROL Download Recommendations Data]&quot; era mancante per le attività [!UICONTROL Experience Targeting] (XT) che includono [!DNL Recommendations]. (TGT-52730 e TGT-52756)
+* È stato risolto un problema che si verificava durante l&#39;utilizzo dell&#39;interfaccia utente [!UICONTROL Panoramica]aggiornata. Il pulsante &quot;[!UICONTROL Scarica dati consigli]&quot; era mancante per le attività [!UICONTROL Targeting esperienza] (XT) che includono [!DNL Recommendations]. (TGT-52730 e TGT-52756)
 * In precedenza, nell’interfaccia utente Consigli veniva visualizzato solo il numero di entità importate correttamente da un feed. Tuttavia, il formato del messaggio di back-end include sia il numero di entità importate che il numero totale di entità nel formato: `# of entities imported / # of total entities`. A causa di questa discrepanza, gli utenti visualizzavano solo il primo valore (conteggio importato) nell’interfaccia utente, creando confusione. Ora l’interfaccia utente visualizza entrambi i numeri. (TGT-53073)
-* È stato risolto un problema che impediva ai clienti di salvare una regola di filtro durante la configurazione di una promozione &quot;[!UICONTROL Promote by attribute]&quot; in un&#39;attività A/B basata su modulo con consigli. Dopo il salvataggio e la riapertura dell’attività, la regola di filtro risultava mancante e l’attività non poteva essere salvata correttamente. (TGT-53057)
+* È stato risolto un problema che impediva ai clienti di salvare una regola di filtro durante la configurazione di una promozione &quot;[!UICONTROL Promuovi per attributo]&quot; in un&#39;attività A/B basata su modulo con consigli. Dopo il salvataggio e la riapertura dell’attività, la regola di filtro risultava mancante e l’attività non poteva essere salvata correttamente. (TGT-53057)
 
   +++
 
@@ -1508,12 +1478,12 @@ A causa dei problemi recenti identificati, principalmente correlati a complesse 
 
 +++Vedi i dettagli
 
-* È stato risolto un problema che causava il download di un file vuoto durante la selezione di &quot;[!UICONTROL Export order details to CSV]&quot; dalla pagina [!UICONTROL Reports]. Questo problema si verificava anche quando nell’attività erano presenti dati di ordine validi. (TGT-52225)
+* È stato risolto un problema che causava il download di un file vuoto durante la selezione di &quot;[!UICONTROL Esporta dettagli ordine in CSV]&quot; dalla pagina [!UICONTROL Rapporti]. Questo problema si verificava anche quando nell’attività erano presenti dati di ordine validi. (TGT-52225)
 * È stato risolto un problema che si verificava durante il tentativo di salvare un’attività dopo la creazione e l’assegnazione di un nuovo pubblico di reportistica. Il messaggio di errore restituito era: &quot;Accesso negato. Per eseguire questa operazione, sono necessari tutti i privilegi seguenti: [editor].&quot; Questo problema si verificava nonostante l’utente avesse accesso a livello di approvatore. (TGT-53103)
 
 +++
 
-**[!UICONTROL Visual Experience Composer] (VEC)**
+**[!UICONTROL Compositore esperienza visivo] (VEC)**
 
 +++Vedi i dettagli
 
@@ -1525,20 +1495,20 @@ A causa dei problemi recenti identificati, principalmente correlati a complesse 
    * In alcuni casi, non è stato possibile eliminare le modifiche a meno che l’attività non sia stata chiusa e riaperta.
    * Come soluzione alternativa, gli utenti dovevano copiare il codice, eliminare la modifica e ricrearla manualmente con il contenuto aggiornato. (TGT-53072)
 
-* È stato risolto un problema che causava la mancata risposta del pannello [!UICONTROL Modifications] a causa della modifica e del salvataggio del codice personalizzato. (TGT-53075)
-* È stato risolto un problema a causa del quale le modifiche apportate al codice personalizzato nelle esperienze di varianti venivano applicate involontariamente all&#39;esperienza [!UICONTROL Control]. Questo causava modifiche non intenzionali nel comportamento di consegna. L&#39;esperienza [!UICONTROL Control] ora rimane isolata dalle modifiche al codice personalizzato apportate ad altre esperienze. (TGT-52413)
+* È stato risolto un problema che causava la mancata risposta del pannello [!UICONTROL Modifiche] a causa della modifica e del salvataggio del codice personalizzato. (TGT-53075)
+* È stato risolto un problema a causa del quale le modifiche apportate al codice personalizzato nelle esperienze di varianti venivano applicate involontariamente all&#39;esperienza [!UICONTROL Controllo]. Questo causava modifiche non intenzionali nel comportamento di consegna. L&#39;esperienza [!UICONTROL Controllo] ora rimane isolata dalle modifiche al codice personalizzato apportate ad altre esperienze. (TGT-52413)
 * È stato risolto un problema a causa del quale le modifiche apportate a un’esperienza (ad esempio, Esperienza B) venivano duplicate involontariamente a un’altra esperienza (Esperienza A) se l’utente faceva clic sulla seconda esperienza prima del caricamento completo dell’editor. Questo comportamento potrebbe anche causare la perdita di modifiche se l’esperienza selezionata inizialmente non avesse subito modifiche. (TGT-52597)
-* È stato risolto un problema per cui le modifiche apportate nel passaggio [!UICONTROL Modifications] della creazione dell&#39;attività non venivano salvate in modo coerente. In alcuni casi, dopo aver completato tutti i passaggi e aver fatto clic su [!UICONTROL Save], lo script personalizzato aggiunto nella sezione [!UICONTROL Modifications] non si rifletterebbe sul sito live, nonostante nessun errore visibile durante il processo di salvataggio. (TGT-52661)
+* È stato risolto un problema a causa del quale le modifiche apportate nel passaggio [!UICONTROL Modifiche] della creazione dell&#39;attività non venivano salvate in modo coerente. In alcuni casi, dopo aver completato tutti i passaggi e aver fatto clic su [!UICONTROL Salva], lo script personalizzato aggiunto nella sezione [!UICONTROL Modifiche] non si rifletterebbe sul sito attivo, nonostante nessun errore visibile durante il processo di salvataggio. (TGT-52661)
 * È stato risolto un problema a causa del quale le modifiche al codice personalizzato non venivano salvate correttamente e venivano involontariamente applicate a più esperienze all’interno della stessa attività. Inoltre, si sono verificati problemi di accesso all’apertura o all’aggiornamento di alcune attività, con la conseguente visualizzazione di schermate vuote. Questi problemi sono stati risolti per garantire una modifica stabile delle attività e un isolamento accurato delle esperienze. (TGT-52594)
-* È stato risolto un problema che impediva agli utenti di passare a un URL diverso in [!UICONTROL Browse Mode]. Ciò impediva ai tester e agli editor di convalidare o visualizzare in anteprima pagine alternative all’interno della stessa sessione di attività. (TGT-53052)
-* È stato risolto un problema che causava l&#39;apertura simultanea di più istanze di [!UICONTROL Visual Experience Composer] (VEC) durante la creazione dell&#39;attività. Questo problema si verificava quando gli utenti disabilitavano [!UICONTROL Enhanced Experience Composer] (EEC) e rimuovevano la barra finale dall&#39;URL del sito Web nel passaggio [!UICONTROL Page Delivery]. (TGT-52782)
-* È stato risolto un problema a causa del quale il menu a discesa della metrica [!UICONTROL Revenue] nel passaggio [!UICONTROL Goals & Settings] impostava erroneamente il valore predefinito [!UICONTROL Revenue per Visit] (RPVISIT), anche dopo che l&#39;utente aveva selezionato una metrica diversa.  Il problema si verificava durante la compressione e la nuova espansione del pannello di configurazione della metrica, causando il ripristino del valore selezionato in precedenza. (TGT-52811 e TGT-52878)
-* Sono stati risolti diversi problemi nel flusso di lavoro di creazione attività relativi alla denominazione delle offerte e alla traduzione dei contenuti in [!UICONTROL Automated Personalization] (AP) e [!UICONTROL Multivariate Testing] (MVT) attività:
+* È stato risolto un problema che impediva agli utenti di passare a un URL diverso in [!UICONTROL Modalità Sfoglia]. Ciò impediva ai tester e agli editor di convalidare o visualizzare in anteprima pagine alternative all’interno della stessa sessione di attività. (TGT-53052)
+* È stato risolto un problema che causava l&#39;apertura simultanea di più istanze del [!UICONTROL Compositore esperienza visivo] durante la creazione dell&#39;attività. Questo problema si verificava quando gli utenti disabilitavano il [!UICONTROL Compositore esperienza avanzato] e rimuovevano la barra finale dall&#39;URL del sito Web nel passaggio [!UICONTROL Consegna pagine]. (TGT-52782)
+* È stato risolto un problema a causa del quale il menu a discesa della metrica [!UICONTROL Ricavi] nel passaggio [!UICONTROL Obiettivi e impostazioni] impostava erroneamente il valore predefinito [!UICONTROL Ricavi per visita] (RPVISIT), anche dopo che l&#39;utente aveva selezionato una metrica diversa.  Il problema si verificava durante la compressione e la nuova espansione del pannello di configurazione della metrica, causando il ripristino del valore selezionato in precedenza. (TGT-52811 e TGT-52878)
+* Sono stati risolti diversi problemi nel flusso di lavoro di creazione attività relativi alla denominazione delle offerte e alla traduzione del contenuto in [!UICONTROL Automated Personalization] (AP) e [!UICONTROL Multivariate Testing] (MVT) attività:
 
   Problemi chiave risolti:
 
    * La creazione di più offerte HTML con lo stesso nome (ad esempio, &quot;Esperienza&quot;) ha attivato l’errore &quot;I nomi di offerta duplicati non sono consentiti&quot;, ma l’interfaccia utente non indicava chiaramente quali offerte causavano il conflitto.
-   * La ridenominazione delle offerte tramite il pannello di destra ha aggiornato il nome nell&#39;interfaccia utente, ma la modifica non è stata riportata nella scheda [!UICONTROL Manage Content] o nella scheda [!UICONTROL Offers], causando errori di convalida persistenti.
+   * La ridenominazione delle offerte tramite il pannello di destra ha aggiornato il nome nell&#39;interfaccia utente, ma la modifica non si è riflessa nella scheda [!UICONTROL Gestisci contenuto] o nella scheda [!UICONTROL Offerte], causando errori di convalida persistenti.
    * Nelle attività MVT, anche se l’errore di nome duplicato non persisteva dopo la ridenominazione, l’interfaccia utente non riusciva ancora a riflettere i nomi delle offerte aggiornati in modo coerente tra le schede. (TGT-52933)
 
   +++
@@ -1547,38 +1517,38 @@ A causa dei problemi recenti identificati, principalmente correlati a complesse 
 
 Questa versione include le correzioni e gli aggiornamenti seguenti:
 
-* Opzione [!UICONTROL Rearrange] aggiunta all&#39;interfaccia utente [!UICONTROL Visual Experience Composer] (VEC) aggiornata per allinearla alle funzionalità disponibili nel Compositore esperienza visivo legacy. (TGT-46957 e TGT-52876)
-* È stato risolto un problema che impediva il mantenimento delle modifiche apportate alle esperienze di varianti (ad esempio, Esperienza B) in un&#39;attività [!UICONTROL A/B Test]. Dopo il passaggio da un’esperienza all’altra, le modifiche apportate alla variante scompaiono. Questo problema non ha influito sull’esperienza di controllo. (TGT-52664)
+* È stata aggiunta l&#39;opzione [!UICONTROL Ridisponi] all&#39;interfaccia utente aggiornata del [!UICONTROL Compositore esperienza visivo] per allinearla alle funzionalità disponibili nel Compositore esperienza visivo legacy. (TGT-46957 e TGT-52876)
+* È stato risolto un problema che impediva il mantenimento delle modifiche apportate alle esperienze delle varianti (ad esempio, Esperienza B) in un&#39;attività [!UICONTROL A/B Test]. Dopo il passaggio da un’esperienza all’altra, le modifiche apportate alla variante scompaiono. Questo problema non ha influito sull’esperienza di controllo. (TGT-52664)
 * È stato risolto un problema che impediva ad alcuni clienti di creare o salvare attività, mentre altri potevano eseguire le stesse azioni senza alcun problema. Il problema era incoerente tra gli account.(TGT-52842)
-* È stato risolto un problema che impediva agli utenti del Compositore esperienza visivo aggiornato di spostare le modifiche a [!UICONTROL Page Load event], una funzionalità già presente nell&#39;interfaccia utente legacy. (TGT-52617)
-* È stato risolto un problema nell&#39;interfaccia utente aggiornata a causa del quale gli eventi [!UICONTROL page load] non erano visibili in [!DNL Target] durante la creazione delle modifiche; gli aggiornamenti sono stati applicati solo alle visualizzazioni. (TGT-52604)
+* È stato risolto un problema che impediva agli utenti del Compositore esperienza visivo aggiornato di spostare le modifiche all&#39;[!UICONTROL evento Caricamento pagina], una funzionalità già presente nell&#39;interfaccia utente legacy. (TGT-52617)
+* È stato risolto un problema nell&#39;interfaccia utente aggiornata a causa del quale [!UICONTROL gli eventi di caricamento pagina] non erano visibili in [!DNL Target] durante la creazione di modifiche; gli aggiornamenti sono stati applicati solo alle visualizzazioni. (TGT-52604)
 * È stato risolto un problema che impediva la corretta visualizzazione di alcune modifiche dell’attività nel Compositore esperienza visivo aggiornato. (TGT-52818)
 * È stata corretta un&#39;eccezione Null Pointer che si verificava durante il recupero dei dati di reporting per le attività di [!UICONTROL Automated Personalization] (AP). (TGT-52362)
-* È stato risolto un problema che impediva la visualizzazione dei dettagli a livello di offerta nel file .CSV per le attività [!UICONTROL Automated Personalization] (AP). (TGT-52675)
-* È stato risolto un problema che si verificava durante l’applicazione di modifiche nel Compositore esperienza visivo aggiornato, a causa del quale le modifiche inizialmente venivano visualizzate correttamente, incluso il [!UICONTROL Experience Fragment] previsto. Tuttavia, quando si passa da un’esperienza all’altra o si apportano ulteriori modifiche, alcune modifiche non vengono applicate a causa di problemi del selettore. (TGT-52679)
+* È stato risolto un problema che impediva la visualizzazione dei dettagli a livello di offerta nel file .CSV per [!UICONTROL attività Automated Personalization] (AP). (TGT-52675)
+* È stato risolto un problema che si verificava durante l&#39;applicazione di modifiche nel Compositore esperienza visivo aggiornato, a causa del quale le modifiche inizialmente venivano visualizzate correttamente, incluso il [!UICONTROL frammento di esperienza] previsto. Tuttavia, quando si passa da un’esperienza all’altra o si apportano ulteriori modifiche, alcune modifiche non vengono applicate a causa di problemi del selettore. (TGT-52679)
 * È stato risolto un problema a causa del quale, quando veniva creata una nuova attività clonandone una esistente, i collegamenti di controllo qualità nell’attività clonata mantenevano erroneamente gli URL della pagina dall’attività originale. (TGT-52775)
-* È stato risolto un problema che impediva involontariamente a [!UICONTROL On-device Decisioning] di essere disponibile nel Compositore esperienza visivo aggiornato. (TGT-52371)
-* È stato risolto un problema che impediva la modifica di un&#39;attività di prodotto [!DNL Recommendations]. Quando si tenta di accedere al Compositore esperienza visivo tramite l’interfaccia utente di Target, nella pagina [!UICONTROL Overview] viene visualizzato un errore che impedisce eventuali modifiche. (TGT-52823)
+* È stato risolto un problema che impediva involontariamente a [!UICONTROL Decisioning sul dispositivo] di essere disponibile nel Compositore esperienza visivo aggiornato. (TGT-52371)
+* È stato risolto un problema che impediva la modifica di un&#39;attività di prodotto [!DNL Recommendations]. Quando si tenta di accedere al Compositore esperienza visivo tramite l&#39;interfaccia utente di Target, nella pagina [!UICONTROL Panoramica] viene visualizzato un errore che impedisce qualsiasi modifica. (TGT-52823)
 * È stato risolto un problema che impediva il salvataggio di un&#39;attività [!DNL Recommendations] quando i nomi delle esperienze superavano i 50 caratteri. (TGT-52619)
 * È stato risolto un problema che impediva ai clienti di salvare un’attività Consigli dopo la modifica dei criteri nella nuova interfaccia utente. Il problema sembra essere relativo alle autorizzazioni e non influisce su tutti gli utenti con ruoli simili. (TGT-52816)
-* È stato risolto un problema che impediva agli utenti con la mansione [!UICONTROL Editor] di modificare un&#39;attività [!DNL Recommendations]. Il tentativo di modificare la progettazione e salvare l&#39;attività ha restituito un errore 403 Forbidden, che indica che il privilegio &quot;[editor]&quot; era obbligatorio, anche se l&#39;utente aveva già quel ruolo nell&#39;area di lavoro pertinente. (TGT-52836)
+* È stato risolto un problema che impediva agli utenti con il ruolo [!UICONTROL Editor] di modificare un&#39;attività [!DNL Recommendations]. Il tentativo di modificare la progettazione e salvare l&#39;attività ha restituito un errore 403 Forbidden, che indica che il privilegio &quot;[editor]&quot; era obbligatorio, anche se l&#39;utente aveva già quel ruolo nell&#39;area di lavoro pertinente. (TGT-52836)
 
 ### [!DNL Target Standard/Premium] 25.6.3 (sabato 20 giugno 2025)
 
 Questa versione include le correzioni e gli aggiornamenti seguenti:
 
 * È stato risolto un problema a causa del quale la copia di un’attività da un’area di lavoro a un’altra causava errori quali &quot;non deve essere null&quot; o &quot;Si è verificato un errore&quot;. (TGT-52474)
-* È stato risolto un problema che impediva la generazione di rapporti [!UICONTROL Automated Segments] e [!UICONTROL Important Attributes] per alcune attività. (TGT-52904)
-* È stato risolto un problema nel Compositore esperienza visivo aggiornato a causa del quale la gestione del contenuto predefinito nelle attività di [!UICONTROL Automated Personalization] (AP) non corrispondeva all&#39;interfaccia utente legacy. Il sistema ora aggiunge automaticamente un `optionGroup` predefinito denominato &quot;Contenuto predefinito&quot; con `optionGroupLocalId = 0` quando nessun gruppo viene aggiunto in modo esplicito. Questo gruppo include l&#39;opzione predefinita, ad esempio `optionLocalId: 0`. Se il contenuto predefinito viene rimosso, viene rimosso anche il gruppo di opzioni corrispondente. (TGT-52651)
-* È stato risolto un problema nelle attività [!UICONTROL Multivariate Test] (MVT) a causa del quale il riutilizzo di un `experienceLocalId` da esperienze precedentemente rimosse non era consentito correttamente. (TGT-52672)
+* È stato risolto un problema che impediva la generazione di rapporti [!UICONTROL Segmenti automatizzati] e [!UICONTROL Attributi importanti] per alcune attività. (TGT-52904)
+* È stato risolto un problema nel Compositore esperienza visivo aggiornato a causa del quale la gestione del contenuto predefinito nelle attività [!UICONTROL Automated Personalization] (AP) non corrispondeva all&#39;interfaccia utente legacy. Il sistema ora aggiunge automaticamente un `optionGroup` predefinito denominato &quot;Contenuto predefinito&quot; con `optionGroupLocalId = 0` quando nessun gruppo viene aggiunto in modo esplicito. Questo gruppo include l&#39;opzione predefinita, ad esempio `optionLocalId: 0`. Se il contenuto predefinito viene rimosso, viene rimosso anche il gruppo di opzioni corrispondente. (TGT-52651)
+* È stato risolto un problema nelle attività [!UICONTROL Test multivariato] (MVT) a causa del quale il riutilizzo di un `experienceLocalId` da esperienze precedentemente rimosse non era consentito correttamente. (TGT-52672)
 * È stato risolto un problema che impediva la copia o la modifica delle attività contenenti un frammento di esperienza. Questo ha attivato l&#39;errore: `Enum "AemOfferType" cannot represent value: "html"`. (TGT-52635)
 * È stato risolto un problema che impediva agli URL nei percorsi di attività di visualizzare i parametri di query a causa di caratteri non validi, ad esempio barre (/). (TNT52845)
 * È stato migliorato il messaggio di errore di convalida per gli aggiornamenti dell&#39;attività [!DNL A/B Test] tramite l&#39;API di back-end. Quando sono presenti nomi di posizione duplicati, il messaggio ora indica chiaramente: &quot;I nomi duplicati non sono consentiti&quot; per `locations.selectors`. (TGT-52589)
-* È stato corretto un errore che si verificava durante l&#39;aggiornamento di un&#39;attività live [!UICONTROL Recommendations] a causa di una proprietà non riconosciuta nel payload della richiesta. Il sistema ora gestisce correttamente il codice JSON &quot;Non valido&quot;. Errore &quot;Nome proprietà non riconosciuto&quot;. (TGT-52723)
-* È stato risolto un problema che impediva la creazione di una progettazione [!DNL Recommendations]. Facendo clic su [!UICONTROL Create] è stato attivato il messaggio: &quot;Deve essere utilizzata almeno 1 variabile di entità nello script&quot;. (TGT-52395 e TGT-52899)
+* È stato corretto un errore che si verificava durante l&#39;aggiornamento di un&#39;attività [!UICONTROL Recommendations] attiva a causa di una proprietà non riconosciuta nel payload della richiesta. Il sistema ora gestisce correttamente il codice JSON &quot;Non valido&quot;. Errore &quot;Nome proprietà non riconosciuto&quot;. (TGT-52723)
+* È stato risolto un problema che impediva la creazione di una progettazione [!DNL Recommendations]. Facendo clic su [!UICONTROL Crea] è stato attivato il messaggio: &quot;Deve essere utilizzata almeno 1 variabile di entità nello script.&quot; (TGT-52395 e TGT-52899)
 * È stato risolto un problema che impediva il salvataggio di una progettazione [!DNL Recommendations] senza modifiche. (TGT-52879)
-* È stato corretto un errore di convalida del back-end che causava un errore &quot;400 Bad Request&quot; durante il salvataggio di un&#39;attività [!UICONTROL Recommendations]. (TGT-52716)
-* È stato risolto un problema in [!UICONTROL Form-Based Experience Composer] a causa del quale il passaggio del mouse su una mbox con caratteri speciali nel menu a discesa [!UICONTROL Location] causava la visualizzazione di un valore vuoto dell&#39;editor e causava l&#39;attivazione di un messaggio di tipo &quot;Impossibile eseguire &#39;querySelector&#39; su &#39;Element&#39;.&quot; errore. (TGT-52717)
+* È stato corretto un errore di convalida del back-end che causava un errore &quot;400 Richiesta non valida&quot; durante il salvataggio di un&#39;attività [!UICONTROL Recommendations]. (TGT-52716)
+* È stato risolto un problema in [!UICONTROL Compositore esperienza basato su moduli] a causa del quale, passando il puntatore del mouse su una mbox con caratteri speciali nell&#39;elenco a discesa [!UICONTROL Posizione], l&#39;editor diventava vuoto e si attivava un messaggio di tipo &quot;Impossibile eseguire &#39;querySelector&#39; su &#39;Elemento&#39;.&quot; errore. (TGT-52717)
 * È stata migliorata la precisione dello stato di avanzamento con un nuovo indicatore &quot;PARTIALLY_IMPORTED&quot;. In precedenza, i feed venivano contrassegnati come &quot;riusciti&quot; anche quando non venivano importate tutte le righe di un file, il che era fuorviante. (TGT-52892)
 * È stato corretto un errore a causa del quale, dopo la migrazione ad AP V2, alcune chiamate API a `/admin/rest/ui/v1/campaigns` restituivano errori lato client (HTTP 4xx). (TGT-52721)
 
@@ -1586,31 +1556,31 @@ Questa versione include le correzioni e gli aggiornamenti seguenti:
 
 Questa versione include le correzioni e gli aggiornamenti seguenti:
 
-* È stato aggiunto un [nuovo articolo di domande frequenti](/help/main/c-intro/updated-ui-faq.md) per risolvere le domande comuni sull&#39;interfaccia utente [!DNL Target] e sul Compositore esperienza visivo aggiornati di [!UICONTROL Visual Experience Composer].
-* È stato risolto un problema che impediva il funzionamento della regola &quot;[!UICONTROL URL - does not contain]&quot; in [!UICONTROL Page Delivery], consentendo la visualizzazione del contenuto anche quando avrebbe dovuto essere bloccato. (TGT-52754)
-* È stato risolto un problema che impediva a [!UICONTROL Page Delivery] di visualizzare correttamente il messaggio di errore: &quot;Non sono consentiti URL di pagina duplicati. (TGT-52765)
-* È stato risolto un problema a causa del quale i tipi di pubblico per [!UICONTROL Page Delivery] URL contenenti frammenti di esperienza venivano creati con # erroneamente aggiunto. (TGT-52786)
-* È stato risolto un problema che causava la mancata risposta dell&#39;interfaccia utente di [!DNL Target] a causa della copia di un&#39;attività e della modifica delle impostazioni nella pagina [!UICONTROL Goals and Settings]. (TGT-52797)
-* È stato risolto un problema nel Compositore esperienza visivo [!UICONTROL Visual Experience Composer] aggiornato che consentiva erroneamente il reindirizzamento di una pagina aggiuntiva in un&#39;attività [!UICONTROL A/B Test] allo stesso URL. (TGT-51838)
-* È stato risolto un problema che impediva il salvataggio delle modifiche alle metriche nella pagina [!UICONTROL Goals and Settings] durante la modifica di un&#39;attività. (TGT-52799)
+* È stato aggiunto un [nuovo articolo di domande frequenti](/help/main/c-intro/updated-ui-faq.md) per risolvere le domande comuni sull&#39;interfaccia utente [!DNL Target] e sul [!UICONTROL Compositore esperienza visivo] aggiornati.
+* È stato risolto un problema che impediva il funzionamento della regola &quot;[!UICONTROL URL - does not contain]&quot; in [!UICONTROL Consegna pagine], consentendo la visualizzazione del contenuto anche quando avrebbe dovuto essere bloccato. (TGT-52754)
+* È stato risolto un problema che impediva la corretta visualizzazione del messaggio di errore [!UICONTROL Consegna pagine]: &quot;Non sono consentiti URL di pagina duplicati. (TGT-52765)
+* È stato risolto un problema che causava la creazione di tipi di pubblico per [!UICONTROL URL di consegna pagine] contenenti frammenti di esperienza, con # che veniva erroneamente aggiunto. (TGT-52786)
+* È stato risolto un problema che causava la mancata risposta dell&#39;interfaccia utente di [!DNL Target] a causa della copia di un&#39;attività e della modifica delle impostazioni nella pagina [!UICONTROL Obiettivi e impostazioni]. (TGT-52797)
+* È stato risolto un problema nel [!UICONTROL Compositore esperienza visivo] (VEC) aggiornato che consentiva erroneamente il reindirizzamento di una pagina aggiuntiva in un&#39;attività [!UICONTROL A/B Test] allo stesso URL. (TGT-51838)
+* È stato risolto un problema che impediva il salvataggio delle modifiche alle metriche nella pagina [!UICONTROL Obiettivi e impostazioni] durante la modifica di un&#39;attività. (TGT-52799)
 * È stato risolto un problema a causa del quale l’aggiunta di una nuova esperienza durante il caricamento dell’editor web causava la duplicazione del contenuto dell’esperienza precedente. (TGT-51397)
 * È stata ripristinata la possibilità di utilizzare codice personalizzato all&#39;esterno del tag `<head>`, una funzione precedentemente disponibile nell&#39;interfaccia utente di Target precedente. (TGT-52304 e TGT-52300)
 * È stata rimossa la convalida non necessaria durante la selezione dell’area di lavoro predefinita durante la creazione dell’attività. La convalida obbligatoria delle proprietà non si applica più all’area di lavoro predefinita, ma rimane attiva per le aree di lavoro non predefinite. (TGT-52449)
-* È stato risolto un problema nel Compositore esperienza visivo [!UICONTROL Visual Experience Composer] aggiornato a causa del quale non venivano rilevate `triggerView()` chiamate. (TGT-52575)
-* È stato risolto un problema nel Compositore esperienza visivo [!UICONTROL Visual Experience Composer] aggiornato che impediva agli utenti di aggiungere modifiche alle visualizzazioni di [!UICONTROL Single Page Application] (SPA). (TGT-52556)
+* È stato risolto un problema nel [!UICONTROL Compositore esperienza visivo] (VEC) aggiornato a causa del quale non venivano rilevate `triggerView()` chiamate. (TGT-52575)
+* È stato risolto un problema nel [!UICONTROL Compositore esperienza visivo] (VEC) aggiornato che impediva agli utenti di aggiungere modifiche alle [!UICONTROL visualizzazioni delle applicazioni a pagina singola] (SPA). (TGT-52556)
 * È stato risolto un problema nell&#39;interfaccia utente [!DNL Target] aggiornata che impediva ai clienti di visualizzare i dettagli delle offerte. (TGT-52607)
-* È stato risolto un problema che impediva agli aggiornamenti apportati alle offerte in [!UICONTROL Offers Library] di trovarsi nel [!UICONTROL Visual Experience Composer] (Compositore esperienza visivo) aggiornato. (TGT-52637)
+* È stato risolto un problema a causa del quale gli aggiornamenti apportati alle offerte nella [!UICONTROL Libreria offerte] non venivano inclusi nel [!UICONTROL Compositore esperienza visivo] (VEC) aggiornato. (TGT-52637)
 * È stato risolto un problema che impediva la corretta visualizzazione della sezione Offerte durante la creazione di un’attività. (TGT-52773)
 * È stata aggiunta la convalida per garantire che tutti i `optionLocalIds` a cui si fa riferimento in `optionGroups` siano presenti nell&#39;array delle opzioni. I riferimenti non validi vengono rimossi automaticamente durante la creazione dell’attività. (TGT-52687)
 * È stato risolto un problema a causa del quale i gruppi di reporting e le esclusioni non venivano mantenuti dopo l’aggiunta di una nuova offerta. (TGT-52728)
-* È stato risolto un problema che causava la visualizzazione di un selettore di opzioni vuoto nelle attività senza un pulsante [!UICONTROL Activity QA]. (TGT-52733)
+* È stato risolto un problema che causava la visualizzazione di un selettore di opzioni vuoto nelle attività senza un pulsante di controllo qualità [!UICONTROL Attività]. (TGT-52733)
 * È stato risolto un problema che impediva il corretto rendering del contenuto dei collegamenti di controllo qualità. (TGT-52718)
 * È stato risolto un problema a causa del quale la sostituzione di un elemento con un frammento di esperienza non rifletteva correttamente le modifiche nell’ambiente di controllo qualità. (TGT-52762)
-* È stato risolto un problema nel Compositore esperienza visivo [!UICONTROL Visual Experience Composer] aggiornato che causava un errore di tipo &quot;Input non valido&quot; quando gli utenti tentavano di aggiungere frammenti di esperienza. (TGT-52701)
-* È stato risolto un problema che causava la visualizzazione del modale &quot;Modifica pubblico&quot; vuoto durante la modifica del targeting del pubblico nel [!UICONTROL Visual Experience Composer] (VEC) aggiornato. (TGT-52749)
+* È stato risolto un problema nel [!UICONTROL Compositore esperienza visivo] (VEC) aggiornato che causava un errore &quot;Input non valido&quot; quando gli utenti tentavano di aggiungere frammenti esperienza. (TGT-52701)
+* È stato risolto un problema che causava la visualizzazione del modale &quot;Modifica pubblico&quot; vuoto durante la modifica del targeting del pubblico nel [!UICONTROL Compositore esperienza visivo] (VEC) aggiornato. (TGT-52749)
 * È stato aggiunto un messaggio per informare gli utenti quando un’entità non è accessibile nell’area di lavoro selezionata. (TGT-52767)
-* È stato risolto un problema che impediva all’interfaccia utente di consentire l’assegnazione manuale di un ID ambiente a un criterio. Viene invece utilizzato l&#39;ID predefinito per il gruppo host [!UICONTROL Product Catalog Search]. Questa correzione assicura che le modifiche ai criteri vengano ora applicate in tutti gli ambienti, non solo a quello predefinito. (TGT-52817)
-* È stato risolto un problema che causava l&#39;assenza dell&#39;opzione &quot;[!UICONTROL Download Recommendations data]&quot; per le attività [!UICONTROL Experience Targeting] (XT) con consigli. (TGT-52730 e TGT-52756)
+* È stato risolto un problema che impediva all’interfaccia utente di consentire l’assegnazione manuale di un ID ambiente a un criterio. Viene invece impostato automaticamente sull&#39;ID per il gruppo host [!UICONTROL Ricerca nel catalogo prodotti]. Questa correzione assicura che le modifiche ai criteri vengano ora applicate in tutti gli ambienti, non solo a quello predefinito. (TGT-52817)
+* È stato risolto un problema che causava l&#39;assenza dell&#39;opzione &quot;[!UICONTROL Scarica dati Consigli]&quot; per [!UICONTROL attività Targeting esperienza] (XT) con consigli. (TGT-52730 e TGT-52756)
 
 ### [!DNL Target Standard/Premium] 25.6.1 (sabato 6 giugno 2025)
 
@@ -1621,19 +1591,19 @@ Questa versione include le correzioni e gli aggiornamenti seguenti:
 * È stato risolto un problema per garantire che le esperienze vengano consegnate solo quando le condizioni URL di consegna pagina configurate vengono soddisfatte con precisione. (TGT-52696)
 * È stato risolto un problema che impediva ai clienti di creare un modello struttura [!DNL Recommendations]. Il tentativo di creare un modello ha attivato l’errore: &quot;Deve essere utilizzata almeno 1 variabile di entità nello script&quot;. (TGT-52395)
 * È stato risolto un problema che impediva il salvataggio delle progettazioni di [!DNL Recommendations] tramite gli array Velocity. Il messaggio di errore &quot;Deve essere utilizzata almeno 1 variabile di entità nello script&quot; è stato attivato in modo errato. (TGT-52734)
-* È stato risolto un problema che impediva l&#39;accesso alle modifiche nel [!UICONTROL Visual Experience Composer] (VEC) quando non era possibile caricare la pagina per le pagine Web interne. (TGT-52488 &amp;TGT-52470)
-* È stato risolto un problema che impediva la visualizzazione del pannello [!UICONTROL Modifications] nel Compositore esperienza visivo con schermi di dimensioni inferiori. (TGT-52470)
-* È stato risolto un problema nel Compositore esperienza visivo aggiornato a causa del quale il passaggio dalla modalità [!UICONTROL Browse] alla modalità [!UICONTROL Design] causava un errore della console e impediva ulteriori interazioni. (TGT-52532)
+* È stato risolto un problema che impediva l&#39;accesso alle modifiche nel [!UICONTROL Compositore esperienza visivo] (VEC) quando non era possibile caricare la pagina per le pagine Web interne. (TGT-52488 &amp;TGT-52470)
+* È stato risolto un problema che impediva la visualizzazione del pannello [!UICONTROL Modifiche] nel Compositore esperienza visivo su schermi di dimensioni inferiori. (TGT-52470)
+* È stato risolto un problema nel Compositore esperienza visivo aggiornato a causa del quale il passaggio dalla modalità [!UICONTROL Sfoglia] alla modalità [!UICONTROL Progettazione] causava un errore della console e impediva ulteriori interazioni. (TGT-52532)
 * È stato risolto un problema nel Compositore esperienza visivo a causa del quale, facendo clic su alcuni elementi, le dimensioni venivano involontariamente estese. (TGT-52497)
 * È stato risolto un problema che impediva il caricamento o il riconoscimento di alcuni elementi di pagina nel Compositore esperienza visivo, impedendo interazioni quali la selezione di pulsanti o banner e l’interruzione del tracciamento accurato degli eventi nelle attività. (TGT-52663)
 * È stato risolto un problema che impediva ai clienti di eliminare o rimuovere le offerte nelle attività [!UICONTROL Automated Personalization] (AP). (TGT-52690)
 * È stato risolto un problema che causava un comportamento incoerente di qualificazione delle attività nelle attività multipagina. (TGT-52694)
-* È stato risolto un problema che causava la visualizzazione di un URL non valido per la pagina [!UICONTROL Overview] dell&#39;attività. [!UICONTROL Activity Location]&#x200B;(TGT-52695)
+* È stato risolto un problema che causava la visualizzazione di un URL non valido per la [!UICONTROL Posizione attività] nella pagina [!UICONTROL Panoramica] dell&#39;attività. (TGT-52695)
 * È stato risolto un problema nell&#39;interfaccia utente [!DNL Target] aggiornata che causava la visualizzazione di voci duplicate per i percorsi attività. (TGT-52693)
 * È stato risolto un problema che attivava un errore `getAudiencesV3`, impedendo ai clienti di modificare o copiare le attività. (TGT-52709)
-* È stato risolto un problema che causava un errore di payload non valido durante l&#39;aggiunta di [!UICONTROL Experience Fragments] o offerte HTML a un&#39;attività. (TGT-52779 e TGT-52773)
-* È stato risolto un problema nell&#39;interfaccia utente [!DNL Target] aggiornata a causa del quale E[!UICONTROL xperience Fragments] non veniva visualizzato correttamente a causa di un errore di input non valido. (TGT-52701)
-* È stato risolto un problema che impediva ai clienti di modificare le attività in [!UICONTROL Form-based Experience Composer] a causa di un errore utente non valido. (TGT-52470)
+* È stato risolto un problema che causava un errore di payload non valido durante l&#39;aggiunta di [!UICONTROL Frammenti di esperienza] o offerte HTML a un&#39;attività. (TGT-52779 e TGT-52773)
+* È stato risolto un problema nell&#39;interfaccia utente [!DNL Target] aggiornata a causa del quale E[!UICONTROL Frammenti esperienza] non venivano visualizzati correttamente a causa di un errore di input non valido. (TGT-52701)
+* È stato risolto un problema che impediva ai clienti di modificare le attività nel [!UICONTROL Compositore esperienza basato su moduli] a causa di un errore utente non valido. (TGT-52470)
 * È stato risolto un problema di localizzazione nella lingua coreana a causa del quale le traduzioni precedenti utilizzavano caratteri al di fuori del piano multilingue di base. La traduzione aggiornata utilizza caratteri appropriati che trasmettono con precisione il significato previsto. (TGT-52508 e TGT-52509)
 * È stato risolto un problema di localizzazione nella lingua coreana a causa del quale la traduzione di &quot;date&quot; risultava incoerente quando si selezionavano le date di inizio e di fine per un’attività. (TGT-52510)
 
@@ -1642,29 +1612,29 @@ Questa versione include le correzioni e gli aggiornamenti seguenti:
 Questa versione include le correzioni e gli aggiornamenti seguenti:
 
 * È stato risolto un problema che impediva l’aggiunta o la modifica di URL in modalità di controllo qualità. (TGT-51941)
-* È stata aggiunta un&#39;impostazione di traffico in modalità Controllo di qualità in [!UICONTROL Reports] > [!UICONTROL Report Settings] ( ![icona Impostazioni report](/help/main/assets/icons/Setting.svg) ) per allinearla alle funzionalità dell&#39;interfaccia utente legacy di [!DNL Target]. (TGT-52228 e TGT-52329)
+* È stata aggiunta un&#39;impostazione di traffico in modalità Controllo di qualità in [!UICONTROL Report] > [!UICONTROL Impostazioni report] ( ![Icona Impostazioni report](/help/main/assets/icons/Setting.svg) ) per allinearla alle funzionalità dell&#39;interfaccia utente legacy di [!DNL Target]. (TGT-52228 e TGT-52329)
 * È stato risolto un problema che causava la generazione di collegamenti di controllo qualità errati da parte dell’attività basata su moduli. L’URL/posizione dell’attività includeva un &quot;1&quot; non voluto alla fine, che ora è stato rimosso per garantire un collegamento accurato. (TGT-52355 e TGT-52358)
 * È stato risolto un problema che causava la generazione di collegamenti di controllo qualità errati da parte dell’attività basata su moduli. L&#39;URL attività includeva un `http://pid-ppc` non previsto all&#39;inizio dell&#39;URL, che ora è stato rimosso per garantire un collegamento accurato. (TGT-52557)
 * È stato risolto un problema a causa del quale [!DNL Target] generava collegamenti di controllo qualità non validi per le attività basate su moduli. (TGT-52528 e TGT-52603)
 * È stato risolto un problema che causava l&#39;elaborazione del salvataggio di un&#39;attività modificata, ma mai completata, e nessun messaggio di errore veniva visualizzato in [!DNL Target]. (TGT-52461)
-* È stato risolto un problema che impediva al [!UICONTROL Visual Experience Composer] (VEC) aggiornato di rilevare automaticamente il valore `at_property`. (TGT-52347)
-* È stato risolto un problema che causava la registrazione di due modifiche quando ne era prevista solo una dopo il passaggio tra le modalità [!UICONTROL Browse] e [!UICONTROL Design] nel Compositore esperienza visivo durante l&#39;interazione con un elemento modulo. (TGT-52455)
-* È stato risolto un problema che impediva la selezione dell’impostazione [!UICONTROL Clicked an Element] nel Compositore esperienza visivo aggiornato a causa di un errore che indicava che il selettore non era valido, era già utilizzato o non era visibile. (TGT-52467)
-* È stato risolto un problema che causava la visualizzazione di caselle duplicate (ghost) a causa dell’aggiunta di una casella [!UICONTROL Recommendation Offer] nel Compositore esperienza visivo aggiornato. Il passaggio tra l’Esperienza A e B ha aggiunto ripetutamente più caselle fantasma. (TGT-52505 e TGT-52519)
-* È stato risolto un problema nell&#39;interfaccia utente [!DNL Target] aggiornata a causa del quale le modifiche apportate a un&#39;offerta HTML tramite il menu [!UICONTROL Offer] non venivano riportate nell&#39;attività associata e viceversa. Questo comportamento ora corrisponde all&#39;interfaccia utente legacy, in cui gli aggiornamenti vengono sincronizzati correttamente tra il menu [!UICONTROL Offer] e l&#39;attività. (TGT-52540 e TGT-52541)
-* È stato risolto un problema a causa del quale gli aggiornamenti recenti di [!UICONTROL Experience Fragments] in [!UICONTROL Offers Library] non venivano rispecchiati durante il tentativo di utilizzarli all&#39;interno di un&#39;attività. (TGT-52659)
+* È stato risolto un problema che impediva al [!UICONTROL Compositore esperienza visivo] (VEC) aggiornato di rilevare automaticamente il valore `at_property`. (TGT-52347)
+* È stato risolto un problema che causava la registrazione di due modifiche quando ne era prevista solo una dopo il passaggio dalle modalità [!UICONTROL Sfoglia] alle modalità [!UICONTROL Progettazione] nel Compositore esperienza visivo durante l&#39;interazione con un elemento modulo. (TGT-52455)
+* È stato risolto un problema che impediva la selezione dell&#39;impostazione [!UICONTROL Clic su un elemento] nel Compositore esperienza visivo aggiornato a causa di un errore che indicava che il selettore non era valido, era già in uso o non era visibile. (TGT-52467)
+* È stato risolto un problema che causava la visualizzazione di caselle duplicate (ghost) a causa dell&#39;aggiunta di una casella [!UICONTROL Offerta consigli] nel Compositore esperienza visivo aggiornato. Il passaggio tra l’Esperienza A e B ha aggiunto ripetutamente più caselle fantasma. (TGT-52505 e TGT-52519)
+* È stato risolto un problema nell&#39;interfaccia utente [!DNL Target] aggiornata a causa del quale le modifiche apportate a un&#39;offerta HTML tramite il menu [!UICONTROL Offerta] non venivano riportate nell&#39;attività associata e viceversa. Questo comportamento ora corrisponde all&#39;interfaccia utente legacy, in cui gli aggiornamenti vengono sincronizzati correttamente tra il menu [!UICONTROL Offerta] e l&#39;attività. (TGT-52540 e TGT-52541)
+* È stato risolto un problema a causa del quale gli aggiornamenti recenti di [!UICONTROL Frammenti di esperienza] nella [!UICONTROL Libreria offerte] non venivano riflessi durante il tentativo di utilizzarli all&#39;interno di un&#39;attività. (TGT-52659)
 * È stato risolto un problema di localizzazione nella traduzione in cinese semplificato di un messaggio di conferma. Nella versione precedente mancavano le virgolette intorno al nome della posizione e utilizzava un linguaggio informale, contrariamente a quanto previsto dalla guida di stile del cliente. La traduzione aggiornata ora utilizza la punteggiatura corretta e un tono formale. (TGT-52364)
 
 ### [!DNL Target Standard/Premium] 25.5.3 (22 maggio 2025)
 
 Questa versione include le correzioni e gli aggiornamenti seguenti:
 
-* È stato risolto un problema che impediva il corretto funzionamento della funzione di ricerca per nome nell&#39;elenco [!UICONTROL Activities] con query con più parole. (TGT-52529)
+* È stato risolto un problema che impediva il corretto funzionamento della funzione di ricerca per nome nell&#39;elenco [!UICONTROL Attività] con query con più parole. (TGT-52529)
 * È stato risolto un problema che impediva l&#39;esclusione delle esperienze dalle attività [!UICONTROL Automated Personalization] (AP). (TGT-52383)
-* È stato risolto un problema che causava l&#39;assenza dell&#39;opzione &quot;[!UICONTROL Contains]&quot; da [!UICONTROL Filter Rules] durante la gestione del contenuto nelle attività di Personalizzazione automatizzata. (TGT-52384)
-* È stata risolta un&#39;incoerenza di reporting nelle attività di [!UICONTROL Automated Personalization] (AP), in particolare per quanto riguarda il modo in cui le offerte predefinite vengono tracciate e segnalate utilizzando i valori `optionLocalId` del sistema interno di [!DNL Target].
+* È stato risolto un problema che causava l&#39;assenza dell&#39;opzione &quot;[!UICONTROL Contains]&quot; nelle [!UICONTROL Regole filtro] durante la gestione del contenuto nelle attività di Personalizzazione automatizzata. (TGT-52384)
+* È stata risolta un&#39;incoerenza nei rapporti nelle attività [!UICONTROL Automated Personalization] (AP), in particolare per quanto riguarda il modo in cui vengono tracciate e segnalate le offerte predefinite utilizzando i valori `optionLocalId` del sistema interno di [!DNL Target].
 * È stato risolto un problema che impediva ai collegamenti di controllo qualità di fornire l’esperienza di attività desiderata. (TGT-52163)
-* È stato risolto un problema che impediva agli utenti con autorizzazioni [!UICONTROL Approver] di modificare le attività live in modo errato, ricevendo un messaggio di errore &quot;Accesso negato&quot;. (TGT-52416)
+* È stato risolto un problema che impediva agli utenti con autorizzazioni [!UICONTROL Approvatore] di modificare le attività live in modo errato, ricevendo un messaggio di errore &quot;Accesso negato&quot;. (TGT-52416)
 * È stato risolto un problema che impediva la visualizzazione dei perfezionamenti del pubblico per alcune attività nell&#39;interfaccia utente [!DNL Target] aggiornata. (TGT-52057)
 * È stato risolto un problema che causava l’inversione dei perfezionamenti del pubblico e dei tipi di pubblico dell’attività nell’interfaccia utente aggiornata. (TGT-52158)
 * È stato risolto un problema a causa del quale la generazione di offerte ad hoc generava offerte duplicate. (TGT-51938)
@@ -1674,7 +1644,7 @@ Questa versione include le correzioni e gli aggiornamenti seguenti:
 * È stato risolto un problema che impediva a [!DNL Target] di riconoscere il carattere &quot;#&quot; nell&#39;URL di un sito Web. (TGT-52093)
 * È stato risolto un problema che impediva la modifica delle attività [!DNL Recommendations] per aggiungere o aggiornare promozioni, causando errori di salvataggio e promozioni duplicate. (TGT-52343)
 * È stato risolto un problema che impediva la modifica di criteri o progettazioni nelle attività [!DNL Recommendations], causando un errore &quot;JSON non valido: nome proprietà non riconosciuto&quot;. (TGT-52375)
-* È stato risolto un problema che impediva la corretta visualizzazione dei criteri di sequenza nel Compositore esperienza visivo [!UICONTROL Visual Experience Composer] per le attività [!DNL Recommendations]. (TGT-52435)
+* È stato risolto un problema che impediva la corretta visualizzazione dei criteri di sequenza nel [!UICONTROL Compositore esperienza visivo] (VEC) per le attività [!DNL Recommendations]. (TGT-52435)
 * È stato risolto un problema che impediva la corretta identificazione delle visualizzazioni nelle pagine di applicazioni a pagina singola quando si utilizzava [!DNL Adobe Experience Platform Web SDK]. (TGT-52106)
 * È stato risolto un problema a causa del quale i dettagli di On-Device Decisioning (ODS) non venivano salvati correttamente, nonostante fossero inclusi nel payload dell’operazione batch. (TGT-52406)
 * Alle attività è stato aggiunto un campo `audienceMetadata` che consente di leggerlo e aggiornarlo durante la modifica. (TGT-51004)
@@ -1695,21 +1665,21 @@ Per ulteriori informazioni, vedere [Panoramica dell&#39;Assistente di Adobe Expe
 
 Questa versione include le correzioni e gli aggiornamenti seguenti:
 
-* [!DNL Target] utenti con diritti [!UICONTROL Product Administrator] e [!UICONTROL System Administrator] possono ora modificare tutte le impostazioni nelle pagine [!UICONTROL Administration], indipendentemente dal loro ruolo in [!DNL Target]. Gli utenti senza queste autorizzazioni dispongono di accesso in sola lettura a queste impostazioni. Questo aggiornamento garantisce un controllo dell&#39;accesso più rigoroso sulle [impostazioni di amministrazione](/help/main/administrating-target/administrating-target.md). (TGT-48179)
+* [!DNL Target] utenti con i diritti di [!UICONTROL Amministratore di prodotto] e [!UICONTROL Amministratore di sistema] possono ora modificare tutte le impostazioni nelle pagine [!UICONTROL Amministrazione], indipendentemente dal loro ruolo in [!DNL Target]. Gli utenti senza queste autorizzazioni dispongono di accesso in sola lettura a queste impostazioni. Questo aggiornamento garantisce un controllo dell&#39;accesso più rigoroso sulle [impostazioni di amministrazione](/help/main/administrating-target/administrating-target.md). (TGT-48179)
 * È stato risolto un problema di caching che impediva il salvataggio dell&#39;attività [Preferenze sito](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#settings). (TGT-52213)
-* È stato risolto un problema che impediva ai clienti di abilitare la selezione per ID e classe nella sezione [!UICONTROL Site Preferences] dopo il caricamento del sito nel Compositore esperienza visivo. L&#39;impostazione [!UICONTROL Site Preferences] è stata automaticamente disabilitata anche dopo l&#39;abilitazione. (TGT-52207)
-* È stato risolto un problema che impediva a [!UICONTROL Visual Experience Composer] (VEC) di visualizzare la pagina corretta quando [gli URL di consegna della pagina](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#settings) terminavano con una barra (/). (TGT-52237)
+* È stato risolto un problema che impediva ai clienti di abilitare la selezione per ID e classe nella sezione [!UICONTROL Preferenze sito] dopo il caricamento del sito nel Compositore esperienza visivo. L&#39;impostazione [!UICONTROL Preferenze sito] è stata automaticamente disabilitata anche dopo l&#39;abilitazione. (TGT-52207)
+* È stato risolto un problema che impediva al [!UICONTROL Compositore esperienza visivo] (VEC) di visualizzare la pagina corretta quando [URL di consegna pagine](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#settings) terminavano con una barra (/). (TGT-52237)
 * È stato risolto un problema che impediva la rimozione delle modifiche al codice personalizzato durante la modifica delle esperienze. (TGT-52240)
 * È stato risolto un problema a causa del quale le modifiche HTML nel Compositore esperienza visivo sovrapponevano gli elementi di pagina esistenti. (TGT-52265)
 * È stato risolto un problema che impediva la modifica del codice personalizzato nel Compositore esperienza visivo aggiornato a causa del fatto che il codice personalizzato esistente non era visibile nell’editor. (TGT-52272)
 * È stato risolto un problema che causava il messaggio di errore &quot;I nomi duplicati non sono consentiti&quot; durante il salvataggio di un’attività Consigli. (TGT-52318)
 * È stato risolto un problema nel Compositore esperienza visivo aggiornato che impediva ai clienti di modificare elementi di testo o rimuovere oggetti contenitore. (TGT-52348)
-* È stato risolto un problema che impediva la corretta visualizzazione di [!DNL Customer Journey Analytics] in una pagina attività [!UICONTROL Overview]. (TGT-52359)
-* È stato risolto un problema che impediva ai gruppi di reporting di persistere nelle attività [!UICONTROL Automated Personalization] (AP). (TGT-52368)
+* È stato risolto un problema che impediva la corretta visualizzazione di [!DNL Customer Journey Analytics] in una pagina attività [!UICONTROL Panoramica]. (TGT-52359)
+* È stato risolto un problema che impediva la persistenza dei gruppi di reporting nelle attività [!UICONTROL Automated Personalization] (AP). (TGT-52368)
 * È stato risolto un problema che impediva il salvataggio di attività che includevano offer decisioning. (TGT-52390)
-* È stato risolto un problema che causava la selezione dell&#39;offerta predefinita ma la visualizzazione di altri contenuti dell&#39;offerta nelle attività [!UICONTROL Automated Personalization] (AP) e [!UICONTROL Multivariate Test] (MVT). (TGT-52372)
-* È stata corretta la logica delle autorizzazioni GET per verificare con OR tra l’accesso completo all’organizzazione e l’accesso specifico per organizzazione + utente. (TGT-52374)
-* È stato risolto un problema che impediva la visualizzazione dei nomi del pubblico dopo la selezione di un pubblico per [!UICONTROL Managed Content] e [!UICONTROL Reporting Audiences], anche se [!UICONTROL Show Only Selected] era abilitato. (TGT-52393)
+* È stato risolto un problema che causava la selezione dell&#39;offerta predefinita ma la visualizzazione di altri contenuti dell&#39;offerta nelle attività [!UICONTROL Automated Personalization] (AP) e [!UICONTROL Test multivariato] (MVT). (TGT-52372)
+* È stata corretta la logica delle autorizzazioni di GET per verificare con OR tra accesso completo all’organizzazione e accesso specifico per organizzazione + utente. (TGT-52374)
+* È stato risolto un problema che impediva la visualizzazione dei nomi dei tipi di pubblico dopo la selezione di un pubblico per [!UICONTROL Contenuto gestito] e [!UICONTROL Tipi di pubblico per reportistica], anche se l&#39;opzione [!UICONTROL Mostra solo selezionati] era abilitata. (TGT-52393)
 
 ### [!DNL Target Standard/Premium] 25.5.1 (5 maggio 2025)
 
@@ -1733,25 +1703,25 @@ Questa versione include le correzioni e gli aggiornamenti seguenti:
 
 Questa versione include le correzioni e gli aggiornamenti seguenti:
 
-* È stato risolto un problema che causava discrepanze nelle inserzioni del pubblico tra la pagina delle impostazioni [!UICONTROL Activity] e la pagina della panoramica [!UICONTROL Reporting]. (TGT-52203)
+* È stato risolto un problema che causava discrepanze nelle inserzioni del pubblico tra la pagina delle impostazioni [!UICONTROL Attività] e la pagina della panoramica [!UICONTROL Reporting]. (TGT-52203)
 * È stato risolto un problema che impediva l’aggiunta di una nuova pagina a un’attività a causa di un errore di input dell’utente non valido. (TGT-52263)
 * È stato risolto un problema che causava l&#39;incremento errato di `OptionLocalIDs` quando l&#39;opzione rimaneva invariata. (TGT-52187)
 * È stato risolto un problema che causava l&#39;incremento errato di `location` e `OptionLocalIDs` quando l&#39;opzione rimaneva invariata. (TGT-52188)
-* È stato risolto un problema che causava un errore nella posizione della pagina [!UICONTROL Overview] dell&#39;attività. (TGT-52182)
+* È stato risolto un problema che causava un errore nella posizione della pagina [!UICONTROL Panoramica] dell&#39;attività. (TGT-52182)
 * È stato risolto un problema che impediva la visualizzazione di un avviso di selezione non valido per una posizione non valida. (TGT-52110)
 * È stato risolto un problema a causa del quale i file di reporting scaricati mostravano correttamente i dati presenti nell’interfaccia utente di reporting. (TGT-52068)
 * È stato risolto un problema che impediva il corretto funzionamento delle operazioni batch dopo l’aggiunta delle regole di consegna della pagina. (TGT-52097)
 * È stato risolto un problema a causa del quale [!DNL Target] eliminava tutti i parametri di query dall&#39;URL del sito Web. (TGT-52100)
 * È stato risolto un errore della console che impediva ai clienti di creare attività nell&#39;interfaccia utente [!DNL Target] legacy e aggiornata. (TGT-52181)
 * È stato risolto un problema che impediva ai clienti di aggiungere nuove pagine, causando un errore di input dell’utente non valido. (TGT-52258)
-* È stato risolto un problema che causava la scomparsa delle modifiche dopo l&#39;aggiunta di ulteriori pagine e il ritorno alla scheda [!UICONTROL Experiences]. (TGT-52264)
-* È stato risolto un problema che impediva ai clienti di modificare il pubblico in un&#39;attività [!UICONTROL Experience Targeting] (XT). (TGT-52191)
+* È stato risolto un problema che causava la scomparsa delle modifiche dopo l&#39;aggiunta di ulteriori pagine e il ritorno alla scheda [!UICONTROL Esperienze]. (TGT-52264)
+* È stato risolto un problema che impediva ai clienti di modificare il pubblico in un&#39;attività [!UICONTROL Targeting esperienza] (XT). (TGT-52191)
 * È stato corretto un errore che impediva la modifica di un’attività XT a causa di una regola dell’interfaccia utente non supportata. (TGT-52273)
-* È stato risolto un problema nel [!UICONTROL Visual Experience Composer] (VEC) aggiornato a causa del quale le breadcrumb non venivano sempre visualizzate nella parte inferiore dell’editor, causando difficoltà nella selezione precisa degli elementi. (TGT-52169)
-* È stato risolto un problema che impediva all&#39;elenco a discesa [!UICONTROL Audience] di visualizzare tutti i tipi di pubblico a causa dell&#39;impaginazione. (TGT-52204)
+* È stato risolto un problema nel [!UICONTROL Compositore esperienza visivo] (VEC) aggiornato a causa del quale le breadcrumb non venivano sempre visualizzate nella parte inferiore dell&#39;editor, causando difficoltà nella selezione precisa degli elementi. (TGT-52169)
+* È stato risolto un problema che impediva all&#39;elenco a discesa [!UICONTROL Pubblico] di visualizzare tutti i tipi di pubblico a causa dell&#39;impaginazione. (TGT-52204)
 * È stato risolto un problema che causava un messaggio di input utente non valido durante l&#39;aggiunta di nuove offerte nelle attività [!UICONTROL Automated Personalization] (AP). (TGT-52210)
 * È stato risolto un problema a causa del quale [!UICONTROL Analytics for Target] (A4T) veniva erroneamente selezionato come origine per la generazione di rapporti, anche se il cliente non aveva accesso ad A4T. (TGT-52226)
-* È stato risolto un problema che impediva il salvataggio di un&#39;attività con la metrica URL [!UICONTROL View a Page]. (TGT-52260)
+* È stato risolto un problema che impediva il salvataggio di un&#39;attività con la metrica URL [!UICONTROL Visualizza una pagina]. (TGT-52260)
 * È stato risolto un problema che impediva ai clienti di selezionare aree di lavoro durante la creazione di offerte all’interno di un’attività. (TGT-52289)
 * È stato risolto un problema che impediva ai clienti di creare attività in tutte le aree di lavoro. (Tgt-52218)
 * È stato risolto un problema che causava la visualizzazione errata delle modifiche da un’esperienza quando si passava a un’altra. (TGT-52184)
@@ -1761,7 +1731,7 @@ Questa versione include le correzioni e gli aggiornamenti seguenti:
 
 Questo aggiornamento futuro migliora il controllo dell&#39;organizzazione sulle configurazioni delle istanze [!DNL Target], impedendo aggiornamenti accidentali che potrebbero influire sulla distribuzione delle attività tra i vari team di test e personalizzazione.
 
-A decorrere dal 22 aprile 2025, solo gli amministratori [!UICONTROL Product] e [!UICONTROL Solutions] potranno aggiornare le impostazioni nelle sezioni [!UICONTROL Administration], indipendentemente dai loro ruoli nelle aree di lavoro [!DNL Target]. Gli utenti senza questa autorizzazione avranno accesso in sola lettura alle sezioni [!UICONTROL Administration].
+A decorrere dal 22 aprile 2025, solo gli amministratori di [!UICONTROL Prodotto] e [!UICONTROL Soluzioni] potranno aggiornare le impostazioni nelle sezioni [!UICONTROL Amministrazione], indipendentemente dai ruoli che ricoprono nelle [!DNL Target] aree di lavoro. Gli utenti senza questa autorizzazione avranno accesso in sola lettura alle sezioni [!UICONTROL Amministrazione].
 
 Per ulteriori informazioni, vedere [Amministrare Target](/help/main/administrating-target/start-target.md).
 
@@ -1774,7 +1744,7 @@ Questa versione include le correzioni e gli aggiornamenti seguenti:
 * È stato risolto un problema che causava l&#39;autorizzazione di selettori `ClickTrack` vuoti. [!DNL Target] ora richiede che il campo del selettore non sia vuoto. (TGT-52107)
 * È stato risolto un problema che consentiva erroneamente le metriche con nomi duplicati. Le metriche ora richiedono nomi univoci. (TGT-52201)
 * È stato risolto un problema a causa del quale le definizioni dei tipi di pubblico non erano visibili durante la modifica del targeting a livello di offerta nelle attività [!UICONTROL Automated Personalization] (AP). (TGT-52148)
-* È stato risolto un problema che impediva ai clienti con diritti [!UICONTROL Editor] di salvare le attività. (TGT-52227)
+* È stato risolto un problema che impediva ai clienti con diritti di [!UICONTROL Editor] di salvare le attività. (TGT-52227)
 * `OptionLocalIDs` non incrementa più in modo errato quando l&#39;opzione rimane invariata. (TGT-52139)
 * È stato risolto un problema che causava un messaggio &quot;Non valido `optionLocalIds`&quot; durante il tentativo di creare un&#39;attività. (TGT-52154)
 * Sono state corrette le discrepanze tra `OptionLocalIDs` definiti per un&#39;attività e quelli utilizzati per definire le esperienze. (TGT-52215)
@@ -1784,27 +1754,27 @@ Questa versione include le correzioni e gli aggiornamenti seguenti:
 
 Questa versione include le correzioni e gli aggiornamenti seguenti:
 
-* È stato corretto un errore che impediva ai clienti di aprire il pop-up di informazioni sul pubblico per alcune attività [!UICONTROL Experience Targeting] (XT). (TGT-52049)
-* È stato risolto un problema che causava il ripristino dell&#39;impostazione del pubblico su &quot;[!UICONTROL All Visitors]&quot; a seguito delle modifiche apportate in [!UICONTROL Visual Experience Composer] (VEC). (TGT-52132)
+* È stato corretto un errore che impediva ai clienti di aprire il pop-up di informazioni sul pubblico per alcune attività [!UICONTROL Targeting esperienza] (XT). (TGT-52049)
+* È stato risolto un problema che causava il ripristino dell&#39;impostazione relativa al pubblico su &quot;[!UICONTROL Tutti i visitatori]&quot; in seguito alle modifiche apportate nel [!UICONTROL Compositore esperienza visivo]. (TGT-52132)
 * È stato risolto un problema che impediva la visualizzazione di perfezionamenti del pubblico per attività specifiche (TGT-52057)
-* È stato risolto un problema che impediva ai clienti di inserire un [!UICONTROL Experience Fragment] nell&#39;area di lavoro predefinita. (TGT-52073)
-* È stato risolto un problema che causava la visualizzazione di un&#39;offerta come &quot;Contenuto non trovato&quot; e non sulla pagina [!UICONTROL Offers] per un&#39;attività [!UICONTROL Automated Personalization] (AP). (TGT-52150)
+* È stato risolto un problema che impediva ai clienti di inserire un [!UICONTROL frammento di esperienza] nell&#39;area di lavoro predefinita. (TGT-52073)
+* È stato risolto un problema che causava la visualizzazione di un&#39;offerta come &quot;Contenuto non trovato&quot; e non nella pagina [!UICONTROL Offerte] per un&#39;attività [!UICONTROL Automated Personalization] (AP). (TGT-52150)
 * È stata aggiunta la possibilità di consentire la duplicazione dei tipi di pubblico all’interno di un’attività. (TGT-51200)
-* È stato risolto un problema che causava la visualizzazione del nome mbox errato nella pagina [!UICONTROL Goals & Settings] per un&#39;attività XT dopo la modifica. (TGT-52026)
+* È stato risolto un problema che causava la visualizzazione del nome mbox errato nella pagina [!UICONTROL Obiettivi e impostazioni] per un&#39;attività XT dopo la modifica. (TGT-52026)
 * È stato risolto un problema che causava la visualizzazione di `defaultContent` nelle opzioni nonostante non fosse in `experiences/optionLocations`. (TGT-52036)
 * È stato risolto un problema per garantire che le stringhe vuote non vengano convertite in valori Null. (TGT-52037)
-* È stato risolto un problema che richiedeva ai clienti di riconfigurare [!UICONTROL Optimization Goal] in [!UICONTROL Reporting Settings] nella pagina [!UICONTROL Goals & Settings] dopo le modifiche. (TGT-52071)
-* È stato risolto un problema a causa del quale un&#39;attività senza regole di consegna pagina visualizzava più regole sulla pagina [!UICONTROL Overview]. (TGT-52084)
+* È stato risolto un problema che richiedeva ai clienti di riconfigurare l&#39;[!UICONTROL Obiettivo di ottimizzazione] in [!UICONTROL Impostazioni reporting] nella pagina [!UICONTROL Obiettivi e impostazioni] dopo le modifiche. (TGT-52071)
+* È stato risolto un problema a causa del quale un&#39;attività senza regole di consegna pagine visualizzava più regole nella pagina [!UICONTROL Panoramica]. (TGT-52084)
 * È stato aggiunto un messaggio di errore per gli utenti che tentano di salvare un’offerta con caratteri al di fuori del piano multilingue di base, ad esempio emoji. (TGT-52105)
 * È stato risolto un problema a causa del quale l’apertura di un’attività attivava il messaggio di errore: &quot;Questa attività utilizza uno o più tipi di pubblico eliminati alla sorgente&quot;. (TGT-52120)
-* È stato risolto un problema che impediva la visualizzazione delle metriche ClickTrack nel Compositore esperienza visivo [!UICONTROL Visual Experience Composer] aggiornato durante la modifica. (TGT-52152)
-* È stato risolto un problema a causa del quale un URL con un parametro di query come posizione dell&#39;attività non visualizzava il parametro di query nella pagina [!UICONTROL Overview] dell&#39;attività. (TGT-51635)
-* È stato risolto un problema che impediva la visualizzazione dell&#39;intero URL dell&#39;esperienza in [!UICONTROL Browse mode] all&#39;interno del [!UICONTROL Visual Experience Composer] (VEC). (TGT-52101)
+* È stato risolto un problema che impediva la visualizzazione delle metriche ClickTrack nel [!UICONTROL Compositore esperienza visivo] (VEC) aggiornato durante la modifica. (TGT-52152)
+* È stato risolto un problema a causa del quale un URL con un parametro di query come percorso dell&#39;attività non visualizzava il parametro di query nella pagina [!UICONTROL Panoramica] dell&#39;attività. (TGT-51635)
+* È stato risolto un problema che impediva la visualizzazione dell&#39;intero URL dell&#39;esperienza in [!UICONTROL modalità Sfoglia] nel [!UICONTROL Compositore esperienza visivo]. (TGT-52101)
 * È stato risolto un problema a causa del quale la modifica di un’attività causava l’aggiunta di &quot;/&quot; alla fine dell’URL da parte della consegna della pagina, che ne causava l’invalidità. (TGT-52114)
-* È stato risolto un problema che causava il reindirizzamento errato del collegamento [!UICONTROL Activity QA] nella home page di [!UICONTROL Form-Based Experience Composer] alla home page di [!DNL Adobe Experience Cloud]. (TGT-52055)
-* È stato risolto un problema che impediva il mantenimento delle pagine aggiuntive aggiunte all&#39;attività [!UICONTROL A/B Test] dopo il salvataggio e la riapertura. (TGT-51994)
+* È stato risolto un problema che causava il reindirizzamento errato del collegamento [!UICONTROL Controllo di qualità attività] in [!UICONTROL Compositore esperienza basato su moduli] alla home page di [!DNL Adobe Experience Cloud]. (TGT-52055)
+* È stato risolto un problema che impediva il mantenimento delle pagine aggiuntive aggiunte all&#39;attività [!UICONTROL Test A/B] dopo il salvataggio e la riapertura. (TGT-51994)
 * È stato risolto un problema che impediva ai clienti di eliminare gli stili nella sezione stile in linea. (TGT-52070)
-* È stato ripristinato l&#39;accesso alle [schede di definizione del pubblico](/help/main/c-target/c-audiences/audiences.md#section_11B9C4A777E14D36BA1E925021945780) nella finestra di dialogo [!UICONTROL Activity QA], in modo simile all&#39;interfaccia utente legacy. (TGT-52056)
+* È stato ripristinato l&#39;accesso alle [schede di definizione del pubblico](/help/main/c-target/c-audiences/audiences.md#section_11B9C4A777E14D36BA1E925021945780) nella finestra di dialogo [!UICONTROL Controllo qualità attività], in modo simile all&#39;interfaccia utente legacy. (TGT-52056)
 * L’interfaccia utente aggiornata non salvava pagine o tipi di pubblico senza modifiche. Se i clienti hanno aggiunto nuove pagine o tipi di pubblico a un&#39;attività ma non vi apportano modifiche, [!DNL Target] ha eliminato i tipi di pubblico non modificati al momento del salvataggio. Le notifiche sono state aggiunte in posizioni rilevanti per informare gli utenti di questo comportamento. (TGT-52104)
 
 ### [!DNL Target Standard/Premium] 25.4.1 (2 aprile 2025)
@@ -1814,16 +1784,16 @@ Questa versione include le correzioni e gli aggiornamenti seguenti:
 * È stato risolto un problema che causava la scomparsa dei tipi di pubblico dell’esperienza dalle attività di. (TGT-52003)
 * È stato risolto un problema che causava elementi imprevisti durante la consegna. (TGT-52011)
 * È stato risolto un problema che impediva ai clienti di visualizzare il pubblico nel grafico di targeting nella pagina Ove[!UICONTROL r]view e durante la modifica dell&#39;attività. (TGT-52050)
-* È stato risolto un problema che impediva ai clienti di riordinare le esperienze in ordine di priorità nelle attività [!UICONTROL Experience Targeting] (XT). (TGT-52054)
+* È stato risolto un problema che impediva ai clienti di riordinare le esperienze in ordine di priorità nelle attività [!UICONTROL Targeting esperienza] (XT). (TGT-52054)
 * È stato risolto un problema che causava un rendering errato quando si annullavano le modifiche allo stile del testo. (TGT-51876)
-* È stato risolto un problema a causa del quale durante la modifica di un&#39;offerta di reindirizzamento, [!DNL Target] rimuove anche i selettori [!UICONTROL ClickTrack] associati a tale offerta. (TGT-51936)
+* È stato risolto un problema a causa del quale durante la modifica di un&#39;offerta di reindirizzamento, [!DNL Target] rimuove anche i selettori [!UICONTROL ClickTrack] associati all&#39;offerta. (TGT-51936)
 * È stato risolto un problema che causava il salvataggio errato del selettore da parte di [!DNL Target] durante l&#39;annullamento di [!UICONTROL ClickTrack]. (TGT-51937)
-* È stato risolto un problema che causava un errore di nome non valido dopo l&#39;apertura e la chiusura del selettore mbox sulla pagina [!UICONTROL Goals & Settings] senza apportare modifiche. (TGT-51983)
+* È stato risolto un problema che causava un errore di nome non valido dopo l&#39;apertura e la chiusura del selettore mbox nella pagina [!UICONTROL Obiettivi e impostazioni] senza apportare modifiche. (TGT-51983)
 * È stato risolto un problema che impediva la modifica delle offerte ad hoc create nell&#39;interfaccia utente legacy di [!DNL Target]. (TGT-51984)
 * È stato risolto un problema che bloccava le attività di modifica con offerte ad hoc contenenti codice personalizzato. (TGT-51995)
 * È stato risolto un problema che causava la visualizzazione delle regole di esclusione come regole di inclusione durante la modifica delle definizioni di pubblico combinato. (TGT-51999)
 * È stato risolto un problema che impediva la corretta visualizzazione del codice personalizzato durante la modifica dell’esperienza. (TGT-52005)
-* È stato risolto un problema che rendeva l&#39;opzione [!UICONTROL Insert Before] non disponibile per l&#39;inserimento di contenuto prima della barra di navigazione. (TGT-52031)
+* È stato risolto un problema che rendeva l&#39;opzione [!UICONTROL Inserisci prima] non disponibile per l&#39;inserimento di contenuto prima della barra di navigazione. (TGT-52031)
 * È stato risolto un problema che impediva la corretta evidenziazione dell’esperienza predefinita nel reporting. (TGT-51716)
 * È stato risolto un problema che attivava un messaggio `default message [Invalid optionLocalIds: xx]]` durante la creazione di un&#39;attività. (TGT-52038)
 
@@ -1835,7 +1805,7 @@ Questa versione include le correzioni e gli aggiornamenti seguenti:
 
 Questa versione include le correzioni e gli aggiornamenti seguenti:
 
-* È stato risolto un problema che causava il caricamento lento della pagina [!UICONTROL Activities]. (TGT-51151)
+* È stato risolto un problema che causava il caricamento lento della pagina [!UICONTROL Attività]. (TGT-51151)
 
 ### [!DNL Target Standard/Premium] 25.3.7 (26 marzo 2025)
 
@@ -1844,28 +1814,28 @@ Questa versione include le correzioni e gli aggiornamenti seguenti:
 * È stato risolto un problema che impediva il salvataggio di attività multipagina se una pagina veniva eliminata dopo le modifiche. (TGT-51988)
 * È stato risolto un errore che si verificava durante la modifica di un&#39;attività: `default message [Invalid optionLocalIds: xx]]`. (TGT-51985)
 * È stato risolto un problema a causa del quale l’aggiunta di nuove modifiche a un’attività rimuoveva le modifiche esistenti. (TGT-51981)
-* È stato risolto un problema a causa del quale la sostituzione di un pubblico con &quot;[!UICONTROL All visitors]&quot; durante la creazione o la modifica dell&#39;attività causava un errore &quot;I tipi di pubblico duplicati non sono consentiti&quot;. (TGT-51978)
-* È stato risolto un problema che causava un errore &quot;Input utente non valido&quot; durante il salvataggio di un&#39;attività [!UICONTROL A/B Test]. (TGT-51976)
-* È stato risolto un problema che impediva la corretta visualizzazione delle metriche calcolate sulla pagina [!UICONTROL Goals & Settings]. (TGT-51975)
+* È stato risolto un problema a causa del quale la sostituzione di un pubblico con &quot;[!UICONTROL Tutti i visitatori]&quot; durante la creazione o la modifica dell&#39;attività causava un errore &quot;I tipi di pubblico duplicati non sono consentiti&quot;. (TGT-51978)
+* È stato risolto un problema che causava un errore &quot;Input utente non valido&quot; durante il salvataggio di un&#39;attività [!UICONTROL Test A/B]. (TGT-51976)
+* È stato risolto un problema che impediva la corretta visualizzazione delle metriche calcolate nella pagina [!UICONTROL Obiettivi e impostazioni]. (TGT-51975)
 * È stato risolto un problema che impediva la corrispondenza tra `companyName` e `reportSuite` nella configurazione [!DNL Analytics] per la metrica `pageviews`. (TGT-51965)
 * È stato risolto un problema che causava la rimozione delle modifiche dal passaggio a un’esperienza in un’attività. (TGT-51945)
-* È stato risolto un problema a causa del quale la rimozione di un pubblico di pagina causava la rimozione anche di [!UICONTROL ClickTrack] selettori. (TGT-51935)
-* È stato risolto un problema che impediva la modifica di un&#39;attività dopo l&#39;apertura della relativa pagina [!UICONTROL Overview]. (TGT-51931)
+* È stato risolto un problema a causa del quale la rimozione di un pubblico di pagina causava anche la rimozione di [!UICONTROL selettori ClickTrack]. (TGT-51935)
+* È stato risolto un problema che impediva la modifica di un&#39;attività dopo l&#39;apertura della relativa pagina [!UICONTROL Panoramica]. (TGT-51931)
 * È stato risolto un problema che causava un errore `[Unused optionLocalIds: 0]]` durante la creazione dell&#39;attività. (TGT-51920)
 * È stato risolto un problema a causa del quale alcune modifiche non venivano tradotte correttamente dopo la rimozione delle modifiche allo stile del testo. (TGT-51876)
-* È stato risolto un problema che impediva il corretto aggiornamento dei tipi di pubblico di destinazione in [!UICONTROL Form-Based Experience Composer]. (TGT-51845)
-* È stato risolto un problema che impediva l&#39;aggiornamento corretto dell&#39;URL in [!UICONTROL Visual Experience Composer] durante la navigazione dell&#39;attività. (TGT-51832)
-* È stato risolto un problema che impediva la visualizzazione delle offerte nell&#39;interfaccia utente [!UICONTROL Offers], nonostante la corretta visualizzazione durante la creazione di un&#39;attività e l&#39;aggiunta di offerte. (TGT-51805)
+* È stato risolto un problema che impediva il corretto aggiornamento dei tipi di pubblico di destinazione nel [!UICONTROL Compositore esperienza basato su moduli]. (TGT-51845)
+* È stato risolto un problema che impediva l&#39;aggiornamento corretto dell&#39;URL nel [!UICONTROL Compositore esperienza visivo] durante la navigazione dell&#39;attività. (TGT-51832)
+* È stato risolto un problema che impediva la visualizzazione delle offerte nell&#39;interfaccia utente [!UICONTROL Offerte], nonostante la corretta visualizzazione durante la creazione di un&#39;attività e l&#39;aggiunta di offerte. (TGT-51805)
 * È stato risolto un problema a causa del quale alcune attività non disponevano di una schermata di fallback per visualizzare il contenuto predefinito quando non era possibile distribuire contenuto personalizzato o mirato. (TGT-51638)
-* È stato risolto un problema che impediva la corretta visualizzazione delle offerte live e di alcune cartelle nell&#39;interfaccia utente [!UICONTROL Offers]. (TGT-51628)
+* È stato risolto un problema che impediva la corretta visualizzazione delle offerte live e di alcune cartelle nell&#39;interfaccia utente [!UICONTROL Offerte]. (TGT-51628)
 * È stato risolto un problema che impediva la corretta localizzazione di alcune stringhe URL e goURL. (TGT-35741)
-* È stato risolto un problema che impediva la corretta localizzazione dei ruoli ([!UICONTROL Approver], [!UICONTROL Editor] e [!UICONTROL Observer]) nell&#39;interfaccia utente [!DNL Target]. (TGT-29925)
+* È stato risolto un problema che impediva la corretta localizzazione dei ruoli ([!UICONTROL Approvatore], [!UICONTROL Editor] e [!UICONTROL Osservatore]) nell&#39;interfaccia utente [!DNL Target]. (TGT-29925)
 
 ### [!DNL Target Standard/Premium] 25.3.6 (14 marzo 2025)
 
 Questa versione include le correzioni e gli aggiornamenti seguenti:
 
-* È stato risolto l&#39;errore &quot;Input utente non valido&quot; nelle attività [!UICONTROL Visual Experience Composer] (VEC) con [!UICONTROL Click Tracking] abilitato quando lo stesso selettore [!UICONTROL ClickTrack] viene utilizzato più volte. (TGT-51921)
+* È stato risolto l&#39;errore &quot;Input utente non valido&quot; nelle attività del [!UICONTROL Compositore esperienza visivo] con [!UICONTROL Tracciamento dei clic] abilitato quando lo stesso selettore [!UICONTROL ClickTrack] viene utilizzato più volte. (TGT-51921)
 * È stato corretto l’errore &quot;Input utente non valido&quot; nelle attività del Compositore esperienza visivo con posizioni condivise (ad esempio, selettore HEAD) e offerte identiche. (TGT-51879)
 * È stato risolto un problema che causava la condivisione delle modifiche dell’esperienza tra i vari tipi di pubblico. (TGT-51815)
 * Sono stati risolti degli errori di convalida durante la creazione di attività a causa di conflitti di ID segmento. Gli errori si sono verificati quando [!DNL Target] ha rilevato attività esistenti utilizzando segmenti anonimi. (TGT-51784)
@@ -1877,16 +1847,16 @@ Questa versione include le correzioni e gli aggiornamenti seguenti:
 
 Questa versione include le correzioni e gli aggiornamenti seguenti:
 
-* È stato risolto un problema che impediva agli utenti di modificare le offerte nel pannello [!UICONTROL Modifications]. (TGT-51800)
-* È stato risolto un problema che impediva la corretta visualizzazione delle azioni nel pannello sinistro per esperienze e tipi di pubblico, incluso in modalità [!UICONTROL ClickTrack]. (TGT-51895)
-* È stato risolto un problema a causa del quale i selettori [!UICONTROL ClickTrack] non venivano applicati alla pagina corretta del pubblico. (TGT-51871)
+* È stato risolto un problema che impediva agli utenti di modificare le offerte nel pannello [!UICONTROL Modifiche]. (TGT-51800)
+* È stato risolto un problema che impediva la corretta visualizzazione delle azioni nel pannello sinistro per esperienze e tipi di pubblico, incluso nella modalità [!UICONTROL ClickTrack]. (TGT-51895)
+* È stato risolto un problema a causa del quale i selettori [!UICONTROL ClickTrack] non venivano applicati alla pagina del pubblico corretta. (TGT-51871)
 
 ### [!DNL Target Standard/Premium] 25.3.4 (7 marzo 2025)
 
 Questa versione include le correzioni e gli aggiornamenti seguenti:
 
-* È stato risolto un problema che impediva la modifica o il riutilizzo dei tipi di pubblico per sola attività nel pannello [!UICONTROL Audiences]. (TGT-51860)
-* È stato risolto un problema che impediva ai clienti [!DNL Target Standard] di creare attività utilizzando reporting di [!UICONTROL Analytics for Target] (A4T). (TGT-51854)
+* È stato risolto un problema che impediva la modifica o il riutilizzo dei tipi di pubblico per sola attività nel pannello [!UICONTROL Tipi di pubblico]. (TGT-51860)
+* È stato risolto un problema che impediva ai clienti [!DNL Target Standard] di creare attività utilizzando il reporting di [!UICONTROL Analytics for Target] (A4T). (TGT-51854)
 * È stato risolto un problema che escludeva i contatori degli ID locali dal payload durante le operazioni di creazione e modifica in batch. (TGT-51867)
 
 ### [!DNL Target Standard/Premium] 25.3.2 (6 marzo 2025)
@@ -1894,11 +1864,11 @@ Questa versione include le correzioni e gli aggiornamenti seguenti:
 Questa versione include le correzioni e gli aggiornamenti seguenti:
 
 * È stato risolto un problema che impediva la creazione di una nuova attività in seguito alla copia di un’attività con un pubblico per sola attività, utilizzando erroneamente il pubblico dell’attività originale. (TGT-51855)
-* È stato risolto un problema che impediva la modifica delle attività [!UICONTROL Experience Targeting] (XT) con tipi di pubblico per sola attività. (TGT-51846)
-* È stato risolto un problema che impediva al Compositore esperienza visivo di applicare correttamente le modifiche a un&#39;esperienza alla prima modifica. [!UICONTROL Visual Experience Composer]&#x200B;(TGT-51843)
+* È stato risolto un problema che impediva la modifica di [!UICONTROL attività Targeting esperienza] (XT) con tipi di pubblico per sola attività. (TGT-51846)
+* È stato risolto un problema che impediva al [!UICONTROL Compositore esperienza visivo] di applicare correttamente le modifiche a un&#39;esperienza alla prima modifica. (TGT-51843)
 * È stato risolto un problema che attivava un errore &quot;ID&quot; quando si faceva clic su alcuni elementi all’interno del Compositore esperienza visivo. (TGT-51814)
 * È stata aggiornata la gestione degli errori nel Compositore esperienza visivo durante la creazione dell’attività. (TGT-51759)
-* È stato risolto un problema che causava un errore di &quot;input utente non valido&quot; durante il salvataggio dell&#39;attività a causa di una visualizzazione mancante nel pannello [!UICONTROL Modifications]. (TGT-51827)
+* È stato risolto un problema che causava un errore di &quot;input utente non valido&quot; durante il salvataggio dell&#39;attività a causa di una visualizzazione mancante nel pannello [!UICONTROL Modifiche]. (TGT-51827)
 * È stato risolto un problema che impediva la creazione di criteri per i consigli. (TGT-51834)
 * È stato aggiunto un messaggio di conferma prima del reindirizzamento a un URL diverso. (TGT-51703)
 * Sono stati risolti dei problemi relativi ai test di integrazione di GraphQL in offerte e cartelle. (TGT-51839)
@@ -1907,12 +1877,12 @@ Questa versione include le correzioni e gli aggiornamenti seguenti:
 
 Questa versione include le correzioni e gli aggiornamenti seguenti:
 
-* Un pubblico combinato può includere sottogruppi, ciascuno contenente più tipi di pubblico. Questa versione ha risolto un problema che impediva la visualizzazione dei tipi di pubblico dei sottogruppi nella finestra di dialogo [!UICONTROL Rules]. (TGT-51813)
-* È stato risolto un problema che causava la sostituzione di alcuni tipi di pubblico di esperienza con [!UICONTROL All Visitors] durante l&#39;apertura di attività precedenti. (TGT-51812)
+* Un pubblico combinato può includere sottogruppi, ciascuno contenente più tipi di pubblico. Questa versione ha risolto un problema che impediva la visualizzazione dei tipi di pubblico dei sottogruppi nella finestra di dialogo [!UICONTROL Regole]. (TGT-51813)
+* È stato risolto un problema a causa del quale alcuni tipi di pubblico di esperienza venivano sostituiti con [!UICONTROL Tutti i visitatori] all&#39;apertura di attività precedenti. (TGT-51812)
 * È stato risolto un problema che impediva la modifica di attività con tipi di pubblico per sola attività. (TGT-51807)
 * È stato risolto un problema che impediva la modifica delle modifiche dell&#39;intestazione della pagina nell&#39;interfaccia utente [!DNL Target] aggiornata. (TGT-51797)
 * È stato risolto un errore Null che si verificava durante la duplicazione di un’esperienza, l’eliminazione di un’altra esperienza e il tentativo di salvare l’attività. (TGT-51796)
-* È stato risolto un problema che impediva la visualizzazione delle regole di esclusione del pubblico nel pannello informazioni del pubblico durante il passaggio [!UICONTROL Targeting] della creazione delle attività. (TGT-51579)
+* È stato risolto un problema che impediva la visualizzazione delle regole di esclusione del pubblico nel pannello informazioni del pubblico durante il passaggio [!UICONTROL Targeting] della creazione di attività. (TGT-51579)
 * Aggiornati messaggi di errore localizzati in coreano. (TGT-51701 e TGT-51699)
 
 ### [!DNL Target Standard/Premium] 25.2.3 (26 febbraio 2025)
@@ -1920,15 +1890,15 @@ Questa versione include le correzioni e gli aggiornamenti seguenti:
 Questa versione include i seguenti aggiornamenti:
 
 * È stato risolto un problema che impediva aggiornamenti delle attività dopo la versione 25.2.1 di [!DNL Target] per alcune attività. (TGT-51781)
-* È stato risolto un problema che causava la rimozione di tutte le modifiche apportate al pubblico nello stato in seguito all&#39;annullamento del processo di creazione attività (selezione di [!UICONTROL Cancel] invece di [!UICONTROL Add Audience]). (TGT-51769 e TGT-51770)
-* È stato risolto un problema che impediva il caricamento di [!UICONTROL Visual Experience Composer] (VEC) per alcune attività, in particolare quando veniva utilizzato un codice personalizzato.  Il problema ha portato il Compositore esperienza visivo a visualizzare una schermata vuota o a ripristinare la versione precedente dell&#39;interfaccia utente [!DNL Target]. (TGT-51758)
+* È stato risolto un problema che causava la rimozione di tutte le modifiche apportate al pubblico nello stato in seguito all&#39;annullamento del processo di creazione attività (selezionando [!UICONTROL Annulla] invece di [!UICONTROL Aggiungi pubblico]). (TGT-51769 e TGT-51770)
+* È stato risolto un problema che impediva il caricamento del [!UICONTROL Compositore esperienza visivo] per alcune attività, in particolare quando è stato utilizzato un codice personalizzato.  Il problema ha portato il Compositore esperienza visivo a visualizzare una schermata vuota o a ripristinare la versione precedente dell&#39;interfaccia utente [!DNL Target]. (TGT-51758)
 * È stato risolto un problema a causa del quale le modifiche venivano eliminate dopo la modifica della distribuzione delle pagine per i tipi di pubblico. (TGT-51756)
-* È stato risolto un problema che causava la rimozione dalle attività di tutti i tipi di pubblico non metrici (pubblico di pagina e pubblico di esperienza) in seguito alla modifica di un tipo di metrica nella pagina [!UICONTROL Goals & Settings]. (TGT-51753)
-* È stato risolto un problema per cui facendo clic su [!UICONTROL Cancel] durante la modifica di un&#39;attività, l&#39;interfaccia utente di Target passava a [!UICONTROL Activities List] invece che alla pagina [!UICONTROL Activity Details]. (TGT-51731)
-* È stato risolto un problema che impediva ai clienti di scaricare i report tramite l&#39;opzione [!UICONTROL Export Reports to CSV]. (TGT-51708)
-* È stato risolto un problema nel Compositore esperienza basato su moduli a causa del quale [!DNL Target Standard] clienti venivano erroneamente visualizzati per l&#39;utilizzo di [!UICONTROL Properties], una funzionalità [!DNL Target Premium]. (TGT-51678)
+* È stato risolto un problema che causava la rimozione di tutti i tipi di pubblico non metrici (pubblico pagina e pubblico esperienza) dalle attività in seguito alla modifica di un tipo di metrica nella pagina [!UICONTROL Obiettivi e impostazioni]. (TGT-51753)
+* È stato risolto un problema per cui facendo clic su [!UICONTROL Annulla] durante la modifica di un&#39;attività l&#39;interfaccia utente di Target passava all&#39;[!UICONTROL Elenco attività] invece della pagina [!UICONTROL Dettagli attività]. (TGT-51731)
+* È stato risolto un problema che impediva ai clienti di scaricare i rapporti tramite l&#39;opzione [!UICONTROL Esporta rapporti in CSV]. (TGT-51708)
+* È stato risolto un problema nel Compositore esperienza basato su moduli a causa del quale [!DNL Target Standard] clienti venivano erroneamente visualizzati per l&#39;utilizzo di [!UICONTROL Proprietà], una funzionalità di [!DNL Target Premium]. (TGT-51678)
 * È stato risolto un problema che impediva la visualizzazione degli attributi [!DNL Adobe Experience Platform] durante la creazione di nuove offerte. (TGT-51665)
-* Tutti i filtri attivi per l&#39;inventario [!DNL Recommendations] sono stati spostati nella ricerca rapida, allineando l&#39;interfaccia utente con [!UICONTROL Catalog Search] invece della barra [!UICONTROL Filter]. (TGT-50723)
+* Tutti i filtri attivi per l&#39;inventario [!DNL Recommendations] sono stati spostati nella ricerca rapida, allineando l&#39;interfaccia utente con [!UICONTROL Ricerca nel catalogo] invece della barra [!UICONTROL Filtro]. (TGT-50723)
 
 ### at.js versione 2.11.7 (26 febbraio 2025)
 
@@ -1942,16 +1912,16 @@ Per informazioni su questa versione e sulle versioni precedenti di at.js, consul
 
 Questa versione include i seguenti aggiornamenti:
 
-* Aggiornamento dell&#39;interfaccia utente di [!UICONTROL Activities]
+* [!UICONTROL Attività] aggiornamento interfaccia utente
 * Aggiornamento dell&#39;interfaccia utente di [!DNL Recommendations]
 
-#### Aggiornamento dell&#39;interfaccia utente di [!UICONTROL Activities]
+#### [!UICONTROL Attività] aggiornamento interfaccia utente
 
-Mentre il tentativo di modernizzazione dell&#39;interfaccia utente [!DNL Adobe Target] continua, è possibile annunciare la disponibilità generale dell&#39;interfaccia utente [!UICONTROL Activities] aggiornata.
+Mentre il tentativo di modernizzazione dell&#39;interfaccia utente di [!DNL Adobe Target] continua, siamo lieti di annunciare la disponibilità generale dell&#39;interfaccia utente aggiornata di [!UICONTROL Attività].
 
 >[!NOTE]
 >
->A partire dal 17 febbraio, i clienti avranno gradualmente accesso alla nuova interfaccia utente [!UICONTROL Activities]. Per garantire un rollout senza soluzione di continuità per tutti i clienti, questa versione verrà implementata in fasi controllate. La prima fase aggiornerà il gruppo iniziale di [!DNL Target] clienti alla nuova interfaccia utente [!UICONTROL Activities]. Le fasi successive aggiorneranno i clienti rimanenti.
+>A partire dal 17 febbraio, i clienti avranno gradualmente accesso alla nuova interfaccia utente [!UICONTROL Attività]. Per garantire un rollout senza soluzione di continuità per tutti i clienti, questa versione verrà implementata in fasi controllate. La prima fase aggiornerà il gruppo iniziale di [!DNL Target] clienti alla nuova interfaccia utente [!UICONTROL Attività]. Le fasi successive aggiorneranno i clienti rimanenti.
 
 >[!IMPORTANT]
 >
@@ -1960,11 +1930,11 @@ Mentre il tentativo di modernizzazione dell&#39;interfaccia utente [!DNL Adobe T
 In base al sistema di progettazione [!DNL Adobe Spectrum] più recente, l&#39;aggiornamento standardizza i modelli di progettazione precedentemente incoerenti, aggiungendo nuovi miglioramenti, ad esempio:
 
 * [Generazione rapporti riprogettata](/help/main/administrating-target/reporting.md) per ottenere informazioni più approfondite sui risultati delle attività.
-* [[!UICONTROL Updated Change Log]](/help/main/c-activities/change-log.md) pagina, sta ottenendo le informazioni da [[!DNL Audit Query API]](https://experienceleague.adobe.com/it/docs/experience-platform/landing/governance-privacy-security/audit-logs/audit-api/overview){target=_blank} per approfondimenti in tempo reale.
+* [[!UICONTROL È stata aggiornata la pagina del log delle modifiche]](/help/main/c-activities/change-log.md), che ora riceve le informazioni da [[!DNL Audit Query API]](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/audit-logs/audit-api/overview){target=_blank} per approfondimenti in tempo reale.
 * [Viste elenco personalizzabili](/help/main/c-activities/activities.md) per una maggiore flessibilità tra le diverse esigenze del team.
 * [Sono state migliorate le schermate di informazioni rapide e dettagli](/help/main/c-activities/activities.md) per un accesso più semplice alle informazioni.
 * [Opzioni di ricerca e filtro persistenti alla sessione](/help/main/c-activities/activities.md).
-* Completamente [&#x200B; ha ricostruito [!UICONTROL Visual Editing Composer]](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) con il supporto per gli ultimi aggiornamenti di sicurezza dai provider del browser e una moderna interfaccia utente.
+* Completamente [ricompilato [!UICONTROL Visual Editing Composer]](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) con il supporto per gli ultimi aggiornamenti di sicurezza dai provider del browser e una moderna interfaccia utente.
 
   Per informazioni sulle differenze tra il Compositore esperienza visivo aggiornato e la versione precedente, vedi:
 
@@ -1981,13 +1951,13 @@ Mentre il tentativo di modernizzazione dell&#39;interfaccia utente [!DNL Adobe T
 
 >[!NOTE]
 >
->A partire dal 17 febbraio, i clienti avranno gradualmente accesso alla nuova interfaccia utente [!UICONTROL Recommendations]. Per garantire un rollout senza soluzione di continuità per tutti i clienti, questa versione verrà implementata in fasi controllate. La prima fase aggiornerà il gruppo iniziale di [!DNL Target] clienti alla nuova interfaccia utente [!UICONTROL Activities]. Le fasi successive aggiorneranno i clienti rimanenti.
+>A partire dal 17 febbraio, i clienti avranno gradualmente accesso alla nuova interfaccia utente [!UICONTROL Consigli]. Per garantire un rollout senza soluzione di continuità per tutti i clienti, questa versione verrà implementata in fasi controllate. La prima fase aggiornerà il gruppo iniziale di [!DNL Target] clienti alla nuova interfaccia utente [!UICONTROL Attività]. Le fasi successive aggiorneranno i clienti rimanenti.
 
 In base al sistema di progettazione [!DNL Adobe Spectrum] più recente, l&#39;aggiornamento standardizza i modelli di progettazione precedentemente incoerenti, aggiungendo nuovi miglioramenti, ad esempio:
 
 * La [ricerca nel catalogo prodotti](/help/main/c-recommendations/c-products/catalog-search.md) ora include un database aggiornato che consente la sincronizzazione in tempo reale dei prodotti.
-* [!UICONTROL Recommendations] oggetti ([!UICONTROL Criteria], [!UICONTROL Designs], [!UICONTROL Collections] e [!UICONTROL Exclusions]) [creati tramite API sono ora disponibili nell&#39;interfaccia utente](/help/main/c-recommendations/c-recommendations-faq/recommendations-faq.md).
-* [Le impostazioni dei consigli](/help/main/administrating-target/recommendations-settings.md) sono state consolidate nella sezione [!UICONTROL Administration].
+* Gli oggetti [!UICONTROL Recommendations] ([!UICONTROL Criteri], [!UICONTROL Progettazioni], [!UICONTROL Raccolte] e [!UICONTROL Esclusioni]) [creati tramite API sono ora disponibili nell&#39;interfaccia utente](/help/main/c-recommendations/c-recommendations-faq/recommendations-faq.md).
+* [Le impostazioni dei consigli](/help/main/administrating-target/recommendations-settings.md) sono state consolidate nella sezione [!UICONTROL Amministrazione].
 * Visualizzazioni elenco personalizzabili per una maggiore flessibilità tra le diverse esigenze del team.
 * Aggiornati editor di codice HTML e JSON con [evidenziazione della sintassi e numerazione delle righe](/help/main/c-experiences/c-manage-content/create-json-offer.md).
 * Sono state migliorate le schermate di informazioni rapide e dettagli per un accesso più semplice alle informazioni.
@@ -1999,9 +1969,9 @@ In base al sistema di progettazione [!DNL Adobe Spectrum] più recente, l&#39;ag
 
 Questa versione include i seguenti aggiornamenti:
 
-#### Aggiornamento dell&#39;interfaccia utente di [!UICONTROL Offers Library]
+#### Aggiornamento dell&#39;interfaccia utente della [!UICONTROL Libreria offerte]
 
-Per migliorare l&#39;esperienza utente per [!DNL Adobe Target] utenti, questa versione aggiorna l&#39;interfaccia utente di [!UICONTROL Offers Library].
+Per migliorare l&#39;esperienza utente per [!DNL Adobe Target] utenti, questa versione aggiorna l&#39;interfaccia utente della [!UICONTROL Libreria offerte].
 
 >[!NOTE]
 >
@@ -2015,7 +1985,7 @@ Utilizzando il più recente sistema di progettazione [!DNL Adobe Spectrum], ques
 
 * **Gestione delle offerte in blocco**: seleziona ed elimina o sposta più offerte contemporaneamente.
 
-* **[!UICONTROL Code Editor]aggiornamenti**: gli editor HTML e JSON sono stati aggiornati con l&#39;evidenziazione della sintassi e la numerazione delle righe.
+* **[!UICONTROL L&#39;editor di codice] aggiorna**: gli editor HTML e JSON sono stati aggiornati con l&#39;evidenziazione della sintassi e la numerazione delle righe.
 
 * **Schede offerte migliorate**: informazioni rapide e schede dettagli migliorate per un accesso più semplice alle informazioni.
 
@@ -2039,15 +2009,15 @@ Questa ottimizzazione verrà abilitata per tutti i nuovi clienti di [!DNL Adobe 
 >
 >Se non riesci a completare la revisione dell’implementazione e risolvere eventuali problemi entro il 3 febbraio 2025, puoi richiedere una proroga una tantum di sei mesi. Assicurati di inviare la richiesta entro il 31 gennaio 2025. Adobe rivedrà e deciderà sulla tua richiesta.
 
-Per beneficiare di questa ottimizzazione in caso di rendering manuale della proposta, controlla [[!DNL Platform Web SDK implementation]](https://experienceleague.adobe.com/it/docs/target-dev/developer/client-side/aep/aep-web-sdk-overview){target=_blank} per assicurarti di inviare le notifiche dopo il rendering manuale delle esperienze o quando utilizzi il metodo `applyPropositions` (o l&#39;azione [!DNL Launch] corrispondente come helper) per eseguire il rendering delle esperienze.
+Per beneficiare di questa ottimizzazione in caso di rendering manuale della proposta, controlla [[!DNL Platform Web SDK implementation]](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/aep/aep-web-sdk-overview){target=_blank} per assicurarti di inviare le notifiche dopo il rendering manuale delle esperienze o quando utilizzi il metodo `applyPropositions` (o l&#39;azione [!DNL Launch] corrispondente come helper) per eseguire il rendering delle esperienze.
 
 Gli scenari più comuni in cui viene eseguito manualmente il rendering delle esperienze includono:
 
 * Utilizzo delle offerte JSON
-* Utilizzo di un ambito di decisione personalizzato in un&#39;attività creata in [[!UICONTROL Form-Based Experience Composer]](/help/main/c-experiences/form-experience-composer.md)
-* Non utilizzare `renderDecisions: true` durante il recupero di un&#39;attività creata utilizzando [!UICONTROL Form-Based Experience Composer] che utilizza l&#39;ambito `__view__` globale
+* Utilizzo di un ambito di decisione personalizzato in un&#39;attività creata nel [[!UICONTROL Compositore esperienza basato su moduli]](/help/main/c-experiences/form-experience-composer.md)
+* Non utilizzare `renderDecisions: true` durante il recupero di un&#39;attività creata con il Compositore esperienza basato su moduli  che utilizza l&#39;ambito `__view__` globale
 
-Se le notifiche non sono implementate come documentato in [Rendering del contenuto personalizzato](https://experienceleague.adobe.com/it/docs/experience-platform/web-sdk/personalization/rendering-personalization-content){target=_blank} nella guida *Raccolta dati*, i dati di reporting potrebbero essere mancanti in [!DNL Target] e in [Analytics for Target reporting](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T). In alcuni scenari, potresti notare una suddivisione del traffico errata perché i dati di reporting non vengono acquisiti. Oppure, in altri scenari, riportare ripetutamente lo stesso evento.
+Se le notifiche non sono implementate come documentato in [Rendering del contenuto personalizzato](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/personalization/rendering-personalization-content){target=_blank} nella guida *Raccolta dati*, i dati di reporting potrebbero essere mancanti in [!DNL Target] e in [Analytics for Target reporting](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T). In alcuni scenari, potresti notare una suddivisione del traffico errata perché i dati di reporting non vengono acquisiti. Oppure, in altri scenari, riportare ripetutamente lo stesso evento.
 
 A seconda dell&#39;implementazione, verifica la presenza di [!DNL Analytics] e l&#39;impatto dei rapporti A4T.
 
@@ -2060,49 +2030,49 @@ A seconda dell&#39;implementazione, verifica la presenza di [!DNL Analytics] e l
   Se si continua a utilizzare l&#39;approccio a chiamata singola, è possibile che nei report [!DNL Analytics] vengano rilevate le seguenti modifiche impreviste:
 
    * Un tuffo nei mancati recapiti.
-   * Gli hit A4T e [!UICONTROL Page View] non sono uniti tra loro, rendendo difficile eseguire determinati raggruppamenti e correlazioni dei rapporti A4T utilizzando [!DNL Analytics] eVar ed eventi.
+   * Gli hit A4T e [!UICONTROL Visualizzazione pagina] non sono uniti tra loro, rendendo difficile eseguire determinati raggruppamenti e correlazioni dei rapporti A4T utilizzando [!DNL Analytics] eVar ed eventi.
 
 * **Chiamate divise (note anche come eventi di inizio e fine pagina).**
 
-  Questo tipo di implementazione è il nuovo [approccio di implementazione con chiamata divisa](https://experienceleague.adobe.com/it/docs/experience-platform/web-sdk/use-cases/top-bottom-page-events){target=_blank} consigliato da [!DNL Adobe]. Con questo approccio, la nuova ottimizzazione non influisce sui rapporti [!DNL Analytics] o A4T.
+  Questo tipo di implementazione è il nuovo [approccio di implementazione con chiamata divisa](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/use-cases/top-bottom-page-events){target=_blank} consigliato da [!DNL Adobe]. Con questo approccio, la nuova ottimizzazione non influisce sui rapporti [!DNL Analytics] o A4T.
 
 In caso di domande, contatta l&#39;[Assistenza clienti Adobe](/help/main/cmp-resources-and-contact-information.md##reference_ACA3391A00EF467B87930A450050077C). (KB-2179)
 
 ### at.js versione 2.11.6 (29 settembre 2024)
 
-* È stato risolto un problema che impediva a [!DNL Target] di funzionare correttamente con le offerte di reindirizzamento all&#39;interno di [!UICONTROL Visual Experience Composer] (VEC) o [!UICONTROL Form-Based Experience Composer].
+* È stato risolto un problema che impediva a [!DNL Target] di funzionare correttamente con le offerte di reindirizzamento all&#39;interno del [!UICONTROL Compositore esperienza visivo] (VEC) o del [!UICONTROL Compositore esperienza basato su moduli].
 
 Per ulteriori informazioni sulle versioni di at.js, consulta [Dettagli sulla versione di at.js](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions){target=_blank} nella *Guida per gli sviluppatori di Adobe Target*.
 
 ### Generazione rapporti [!DNL Target] in [!DNL Adobe Customer Journey Analytics] (8 maggio 2024)
 
-L&#39;integrazione tra [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/it/docs/customer-journey-analytics){target=_blank} e [!DNL Target] offre potenti strumenti di analisi che consentono di risparmiare tempo per il programma di ottimizzazione.
+L&#39;integrazione tra [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/customer-journey-analytics){target=_blank} e [!DNL Target] offre potenti strumenti di analisi che consentono di risparmiare tempo per il programma di ottimizzazione.
 
 I vantaggi principali dell’utilizzo di [!DNL Customer Journey Analytics] come origine di reporting per [!DNL Target] sono:
 
 * Gli addetti al marketing possono applicare dinamicamente le metriche di successo di [!DNL Customer Journey Analytics] ai rapporti delle attività di [!DNL Target] in qualsiasi momento. Non è necessario specificare tutte le impostazioni prima di eseguire l’attività.
-* Gli addetti al marketing possono sfruttare le funzionalità di [!DNL Customer Journey Analytics], ad esempio il [pannello Sperimentazione](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-workspace/panels/experimentation){target=_blank}, per analizzare ulteriormente la personalizzazione del sito Web.
+* Gli addetti al marketing possono sfruttare le funzionalità di [!DNL Customer Journey Analytics], ad esempio il [pannello Sperimentazione](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/panels/experimentation){target=_blank}, per analizzare ulteriormente la personalizzazione del sito Web.
 
 Per ulteriori informazioni, consulta [Generazione rapporti di Target in Adobe Customer Journey Analytics](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md).
 
-### Estensione helper [!UICONTROL Visual Experience Composer] (23 aprile 2024)
+### [!UICONTROL Estensione helper per Compositore esperienza visivo] (23 aprile 2024)
 
-L&#39;estensione legacy [!DNL Target] Helper per il Compositore esperienza visivo è stata creata con Manifest V2. [!DNL Google] ha annunciato che non consentirà più le estensioni create utilizzando Manifest V2 a partire da giugno 2024. Per ulteriori informazioni, vedere [[!UICONTROL Visual Experience Composer] estensione helper](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md).
+L&#39;estensione legacy [!DNL Target] Helper per il Compositore esperienza visivo è stata creata con Manifest V2. [!DNL Google] ha annunciato che non consentirà più le estensioni create utilizzando Manifest V2 a partire da giugno 2024. Per ulteriori informazioni, vedere [[!UICONTROL Estensione helper del Compositore esperienza visivo]](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md).
 
 [!DNL Adobe] consiglia ai clienti di passare al più recente [estensione Helper per editing video](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) non appena possibile.
 
-### Aggiornamenti per `Browser:iPad` e `Browser:iPhone` negli attributi del pubblico [!UICONTROL Browser] (30 aprile 2024)
+### Aggiornamenti per `Browser:iPad` e `Browser:iPhone` in [!UICONTROL Browser] attributi pubblico (30 aprile 2024)
 
 | Aggiornamenti | Dettagli |
 |--- |--- |
-| [!UICONTROL Browser:iPad] e [!UICONTROL Browser:iPhone] aggiornati in [Attributi browser](/help/main/c-target/c-audiences/c-target-rules/browser.md) utilizzati durante la creazione di tipi di pubblico. | [!DNL Adobe Target] consente di [eseguire il targeting per uno qualsiasi degli attributi di categoria](/help/main/c-target/c-audiences/c-target-rules/target-rules.md), inclusi i visitatori che visitano la pagina utilizzando [opzioni browser o browser](/help/main/c-target/c-audiences/c-target-rules/browser.md) specifiche.<P>A partire da [!DNL Target] Standard/Premium 24.3.1 (4-6 marzo 2024), i tipi di pubblico incorporati creati utilizzando l&#39;interfaccia utente di Target, come `Browser:iPad` e `Browser:iPhone`, verranno aggiornati per eseguire il targeting corretto per [!DNL iPad] e [!DNL iPhone] utilizzando `profile.mobile.deviceVendor`, `profile.mobile.isMobilePhone` e `profile.mobile.isTablet`.<P>Questo aggiornamento non richiede alcuna azione da parte dei clienti.<p><B>Importante</b>: per consentire ai clienti di eseguire il targeting corretto per [!DNL iPad] e [!DNL iPhone] negli script di profilo (e nei segmenti JavaScript), il cliente deve apportare modifiche manuali entro il **30 aprile 2024**. Per esempi di impostazioni alternative che devono essere modificate manualmente, vedere [Aggiornamenti per [!DNL iPad] e [!DNL iPhone] in [!UICONTROL Browser] attributi pubblico](/help/main/c-target/c-audiences/c-target-rules/browser.md#updates). |
+| [!UICONTROL Browser:iPad] e [!UICONTROL Browser:iPhone] aggiornati in [Attributi browser](/help/main/c-target/c-audiences/c-target-rules/browser.md) utilizzati per la creazione di tipi di pubblico. | [!DNL Adobe Target] consente di [eseguire il targeting per uno qualsiasi degli attributi di categoria](/help/main/c-target/c-audiences/c-target-rules/target-rules.md), inclusi i visitatori che visitano la pagina utilizzando [opzioni browser o browser](/help/main/c-target/c-audiences/c-target-rules/browser.md) specifiche.<P>A partire da [!DNL Target] Standard/Premium 24.3.1 (4-6 marzo 2024), i tipi di pubblico incorporati creati utilizzando l&#39;interfaccia utente di Target, come `Browser:iPad` e `Browser:iPhone`, verranno aggiornati per eseguire il targeting corretto per [!DNL iPad] e [!DNL iPhone] utilizzando `profile.mobile.deviceVendor`, `profile.mobile.isMobilePhone` e `profile.mobile.isTablet`.<P>Questo aggiornamento non richiede alcuna azione da parte dei clienti.<p><B>Importante</b>: per consentire ai clienti di eseguire il targeting corretto per [!DNL iPad] e [!DNL iPhone] negli script di profilo (e nei segmenti JavaScript), il cliente deve apportare modifiche manuali entro il **30 aprile 2024**. Per esempi di impostazioni alternative che devono essere modificate manualmente, vedere [Aggiornamenti per [!DNL iPad] e [!DNL iPhone] in [!UICONTROL Browser] attributi di pubblico](/help/main/c-target/c-audiences/c-target-rules/browser.md#updates). |
 
-### Estensione [!UICONTROL Visual Editing Helper] (14 marzo 2024)
+### [!UICONTROL Estensione Helper per editing video] (14 marzo 2024)
 
 Questa versione contiene i miglioramenti e le correzioni seguenti per l&#39;estensione [[!DNL Adobe Experience Cloud Editing Helper]](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) per [!DNL Google Chrome]:
 
 * È stato migliorato il meccanismo di caricamento dell’iFrame durante l’authoring nei siti web dei clienti.
-* È stato risolto un problema che causava la duplicazione dei cookie da parte dell&#39;estensione durante l&#39;esecuzione dell&#39;authoring nel Compositore esperienza visivo [!UICONTROL Visual Experience Composer].
+* È stato risolto un problema che causava la duplicazione dei cookie da parte dell&#39;estensione durante l&#39;esecuzione dell&#39;authoring nel [!UICONTROL Compositore esperienza visivo].
 
 ### [!DNL Target] Standard/Premium 24.3.1 (4-6 marzo 2024)
 
@@ -2117,10 +2087,10 @@ Questa versione include i miglioramenti e le correzioni seguenti:
 
 Questa versione include i miglioramenti e le correzioni seguenti:
 
-* Nelle attività [!UICONTROL Analytics for Target] (A4T) con metriche dell&#39;obiettivo di ricavo non veniva visualizzato &quot;Ricavi&quot; come nome della colonna e la metrica Ricavi non veniva visualizzata nel formato ($) nei rapporti. Si trattava di un problema estetico che è stato risolto. (TGT-46995)
+* [!UICONTROL Le attività di Analytics for Target] (A4T) con metriche dell&#39;obiettivo di ricavo non mostravano &quot;Ricavi&quot; come nome della colonna e la metrica Ricavi non veniva visualizzata nel formato ($) nei rapporti. Si trattava di un problema estetico che è stato risolto. (TGT-46995)
 * È stato risolto un problema che impediva il corretto funzionamento della reportistica degli intervalli di date. (TGT-47396)
-* È stato risolto un problema che causava la visualizzazione dello stato errato sulla pagina [!UICONTROL All Activities] dopo che i clienti avevano attivato o disattivato un&#39;attività utilizzando l&#39;icona [!UICONTROL More Actions]. (TGT-47367)
-* È stato risolto un problema che impediva la visualizzazione del report [!UICONTROL Important Attributes] per un singolo cliente. (TGT-47272)
+* È stato risolto un problema che causava la visualizzazione dello stato errato nella pagina [!UICONTROL Tutte le attività] dopo che i clienti avevano attivato o disattivato un&#39;attività utilizzando l&#39;icona [!UICONTROL Altre azioni]. (TGT-47367)
+* È stato risolto un problema che impediva la visualizzazione del report [!UICONTROL Attributi importanti] per un singolo cliente. (TGT-47272)
 * È stato risolto un problema che causava la visualizzazione di un messaggio di “payload non valido” quando un singolo cliente tentava di abilitare “Richiedi autenticazione”. (TGT-47195)
 * Sono state aggiornate diverse stringhe localizzate nell’interfaccia utente di [!DNL Target].
 
@@ -2136,17 +2106,17 @@ Questa versione è pianificata per i seguenti giorni:
 
 Questa versione include i miglioramenti e le correzioni seguenti:
 
-* Miglioramento della funzionalità di controllo qualità [Attività](/help/main/c-activities/c-activity-qa/activity-qa.md) per supportare [offerte duplicate](/help/main/c-activities/t-automated-personalization/managing-exclusions.md) per esperienze in [!UICONTROL Automated Personalization] attività. (TGT-46627)
+* Miglioramento della funzionalità di controllo qualità delle [attività](/help/main/c-activities/c-activity-qa/activity-qa.md) per supportare [offerte duplicate](/help/main/c-activities/t-automated-personalization/managing-exclusions.md) per esperienze in [!UICONTROL attività Automated Personalization]. (TGT-46627)
 * È stata aggiunta una descrizione nell’interfaccia utente di [!DNL Target] per aiutare la clientela a comprendere il motivo per cui potrebbero non essere disponibili dati nei rapporti sulle attività, se non viene allocato traffico all’esperienza di controllo. Nella descrizione comando è incluso un collegamento a ulteriori informazioni: [Perché non sono disponibili dati per il report della mia attività?](/help/main/c-reports/reporting-frequently-asked-questions.md#section_E4722F6445884130951DF79981C8289B). (TGT-46610)
-* È stato risolto un problema che impediva la corretta visualizzazione delle attività nella pagina [!UICONTROL Activities] per alcuni clienti. (TGT-46830)
+* È stato risolto un problema che impediva la corretta visualizzazione delle attività nella pagina [!UICONTROL Attività] per alcuni clienti. (TGT-46830)
 * Sono stati risolti i seguenti problemi che interessavano le attività che utilizzano [[!UICONTROL Analytics for Target]](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T) come origine per la generazione di rapporti:
    * È stato risolto un problema che impediva ad alcuni clienti di visualizzare i dati di reporting. (TGT-46557)
-   * È stato risolto un problema che a volte impediva il corretto funzionamento del collegamento [!UICONTROL View in Analytics] nelle pagine di reporting delle attività. (TGT-46731)
-   * È stato risolto un problema che impediva la corretta visualizzazione dei dati per [!UICONTROL Lift] e [!UICONTROL Confidence] nell&#39;interfaccia utente di [!DNL Target]. (TGT-46592, TGT-46554, TGT-46586)
+   * È stato risolto un problema che a volte impediva il corretto funzionamento del collegamento [!UICONTROL Visualizza in Analytics] nelle pagine di reporting delle attività. (TGT-46731)
+   * È stato risolto un problema che impediva la corretta visualizzazione dei dati per [!UICONTROL Lift] e [!UICONTROL Confidence] nell&#39;interfaccia utente [!DNL Target]. (TGT-46592, TGT-46554, TGT-46586)
 
-### Aggiornamento dell&#39;interfaccia utente della pagina [!UICONTROL Activities] (25 ottobre 2023)
+### [!UICONTROL Attività] aggiornamento dell&#39;interfaccia utente della pagina (25 ottobre 2023)
 
-Come parte degli sforzi continui del team [!DNL Adobe Target] per migliorare l&#39;esperienza utente per [!DNL Target] utenti, questa versione aggiorna la pagina [!UICONTROL Activities] nell&#39;interfaccia utente [!DNL Target]. Questo aggiornamento unisce e standardizza i modelli di progettazione precedentemente incoerenti, aggiungendo allo stesso tempo nuovi miglioramenti.
+Come parte degli sforzi continui del team [!DNL Adobe Target] per migliorare l&#39;esperienza utente per [!DNL Target] utenti, questa versione aggiorna la pagina [!UICONTROL Attività] nell&#39;interfaccia utente [!DNL Target]. Questo aggiornamento unisce e standardizza i modelli di progettazione precedentemente incoerenti, aggiungendo allo stesso tempo nuovi miglioramenti.
 
 A partire da mercoledì 25 ottobre, una percentuale di clienti avrà accesso alla nuova interfaccia utente e altri clienti potranno accedervi nei giorni successivi.
 
@@ -2156,10 +2126,10 @@ Per ulteriori informazioni, consulta [Attività](/help/main/c-activities/activit
 
 Questa versione include i miglioramenti e le correzioni seguenti:
 
-* È stata migliorata la nuova interfaccia utente [!UICONTROL Activities] in modo che [!UICONTROL Visual Experience Composer] (VEC) si apra con le impostazioni predefinite per `selectorCriteria` durante la creazione di una nuova attività. (TGT-46586)
-* È stato risolto un problema che impediva ad alcuni clienti di modificare elementi in modalità [!UICONTROL Composer] durante l&#39;utilizzo del Compositore esperienza visivo. (TGT-46470)
+* È stata migliorata la nuova interfaccia utente di [!UICONTROL Attività] in modo che il [!UICONTROL Compositore esperienza visivo] (VEC) si apra con le impostazioni predefinite per `selectorCriteria` durante la creazione di una nuova attività. (TGT-46586)
+* È stato risolto un problema che impediva ad alcuni clienti di modificare elementi in modalità [!UICONTROL Compositore] quando si utilizzava il Compositore esperienza visivo. (TGT-46470)
 * È stata aggiunta la possibilità di specificare un selettore preferito generico quando si utilizzano attributi personalizzati. (TGT-46545)
-* È stato risolto un problema che a volte impediva la visualizzazione di un report [!UICONTROL Auto-Target] che utilizza [!UICONTROL Analytics for Target] (A4T) nell&#39;interfaccia utente [!DNL Target], anche se il report veniva visualizzato correttamente in [!DNL Adobe Analysis Workspace]. (TGT-46494)
+* È stato risolto un problema che a volte impediva la visualizzazione di un report [!UICONTROL Targeting automatico] che utilizza [!UICONTROL Analytics for Target] (A4T) nell&#39;interfaccia utente [!DNL Target], anche se il report veniva visualizzato correttamente in [!DNL Adobe Analysis Workspace]. (TGT-46494)
 * Sono state aggiornate diverse stringhe localizzate nell’interfaccia utente di Target. (TGT-18899)
 
 ### [!DNL Target] Standard/Premium 23.9.4 (4-6 ottobre 2023)
@@ -2170,17 +2140,17 @@ Questa versione include i miglioramenti e le correzioni seguenti:
 | --- | --- |
 | Pattern di implementazione di [!DNL Recommendations] | Gli articoli *Pattern di implementazione della funzione Consigli tramite at.js* sono utili per a comprendere e creare l’implementazione di [!DNL Adobe Target Recommendations] quando si utilizza la libreria JavaScript at.js.<P>Per ulteriori informazioni, consulta [Schema di implementazione di Recommendations utilizzando la panoramica di at.js](https://experienceleague.adobe.com/docs/target-dev/developer/implementation-patterns/atjs/recs-implementation-pattern-atjs.html?lang=it){target=_blank} nella *Guida per gli sviluppatori di Adobe Target*. |
 
-* Sono stati aggiunti [!UICONTROL Visual Experience Composer] miglioramenti (VEC) per i framework dinamici. (TGT-44064)
+* Sono stati aggiunti [!UICONTROL miglioramenti al Compositore esperienza visivo] (VEC) per i framework dinamici. (TGT-44064)
 * È stato risolto un problema che causava un aggiornamento non corretto alla data selezionata nella richiesta `getViewInAnalyticsId`. Questa correzione consente di ricalcolare il collegamento di [!DNL Analytics] nel reporting quando vengono modificate le impostazioni dei rapporti relativi alle metriche e agli intervalli di date. (TGT-46246)
 
 ### [!DNL Target] Standard/Premium 23.9.3 (18 settembre 2023)
 
 Questa versione include i miglioramenti e le correzioni seguenti:
 
-* Miglioramento di [!UICONTROL Visual Experience Composer] (VEC) per il supporto di Lightning Web Components (Light DOM). (TGT-45422)
-* È stato risolto un problema che causava l’applicazione delle azioni VEC in un ordine errato. In alcuni casi, il Compositore esperienza visivo ha applicato alcune modifiche in modo asincrono e l’aggiunta di modifiche aggiuntive a un elemento ha causato errori se tale elemento viene visualizzato dopo un’azione [!UICONTROL Insert]. Corregge anche l’URL del VEC, che ora si aggiorna quando si clicca sui collegamenti di ancoraggio. (TGT-45983)
-* È stato risolto un problema relativo alla funzione VEC [!UICONTROL Overlay], che ora supporta gli elementi nei DOM shadow. (TGT-45202 e TGT-45262)
-* È stato risolto un problema che si verificava all’apertura di una pagina Applicazione a pagina singola nel Compositore esperienza visivo, quando si passava alla modalità [!UICONTROL Browse], causava il malfunzionamento delle frecce Indietro e Avanti. (TGT-45956)
+* È stato migliorato il [!UICONTROL Compositore esperienza visivo] (VEC) per supportare i componenti Web Lightning (DOM chiaro). (TGT-45422)
+* È stato risolto un problema che causava l’applicazione delle azioni VEC in un ordine errato. In alcuni casi, il Compositore esperienza visivo ha applicato alcune modifiche in modo asincrono e l&#39;aggiunta di ulteriori modifiche a un elemento ha causato errori se tale elemento viene visualizzato dopo un&#39;azione [!UICONTROL Inserisci]. Corregge anche l’URL del VEC, che ora si aggiorna quando si clicca sui collegamenti di ancoraggio. (TGT-45983)
+* È stato risolto un problema relativo alla funzione [!UICONTROL Sovrapposizione] del Compositore esperienza visivo, che ora supporta gli elementi nei DOM shadow. (TGT-45202 e TGT-45262)
+* È stato risolto un problema che si verificava all&#39;apertura di una pagina Applicazione a pagina singola nel Compositore esperienza visivo, quando si passava alla modalità [!UICONTROL Sfoglia], causava il malfunzionamento delle frecce Indietro e Avanti. (TGT-45956)
 * È stato risolto un problema che impediva il caricamento di alcune pagine web nel VEC. (TGT-45983)
 
 ### [!DNL Target] Standard/Premium 23.9.2 (12-14 settembre 2023)
@@ -2188,13 +2158,13 @@ Questa versione include i miglioramenti e le correzioni seguenti:
 Questa versione include i miglioramenti e le correzioni seguenti:
 
 * È stata modificata l’API di [!DNL Analytics] per la nuova versione 2.0 API di [!DNL Analytics]. (TGT-45345)
-* Sono stati risolti i problemi che hanno interessato le attività di [!UICONTROL Automated Personalization] (AP) per alcuni clienti, inclusa la sincronizzazione tempestiva dell&#39;attività nel backend di [!DNL Target] e la distribuzione dell&#39;esperienza prevista nei collegamenti di anteprima. (TGT-46202)
+* Sono stati risolti i problemi che hanno interessato [!UICONTROL le attività di Automated Personalization] (AP) per alcuni clienti, inclusa la sincronizzazione tempestiva dell&#39;attività nel backend di [!DNL Target] e la distribuzione dell&#39;esperienza prevista nei collegamenti di anteprima. (TGT-46202)
 
 ### [!DNL Target] Standard/Premium 23.9.1 (6-11 settembre 2023)
 
 Questa versione include i miglioramenti e le correzioni seguenti:
 
-* È stato risolto un problema che causava dati di reporting incoerenti nell&#39;interfaccia utente [!DNL Target] e nell&#39;interfaccia utente [!DNL Adobe Analytics] per le attività [!UICONTROL Auto-Allocate] che utilizzano [!UICONTROL Analytics for Target] (A4T) come origine per la generazione di rapporti. (TGT-46112)
+* È stato risolto un problema che causava dati di reporting incoerenti nell&#39;interfaccia utente [!DNL Target] e nell&#39;interfaccia utente [!DNL Adobe Analytics] per le attività [!UICONTROL Allocazione automatica] che utilizzano [!UICONTROL Analytics for Target] (A4T) come origine per la generazione di rapporti. (TGT-46112)
 * Il timeout per le chiamate PUT all’API di consegna di Target è stato aumentato a 15 secondi, per evitare errori di timeout. (TGT-46091)
 * È stato corretto un problema che impediva l’aggiornamento costante dell’URL durante la navigazione nel sito web di un’applicazione a pagina singola (SPA). (TGT-45417)
 
@@ -2208,17 +2178,17 @@ Per ulteriori informazioni, vedere [Inserire nell&#39;elenco Consentiti i nodi e
 
 Questa versione include i miglioramenti e le correzioni seguenti:
 
-* È stato risolto un problema che a volte impediva la corretta sincronizzazione delle attività, come mostrato nella colonna &quot;[!UICONTROL Status]&quot; nella pagina dell&#39;elenco [!UICONTROL Activity]. (TGT-46010 e TGT-44831)
-* È stato risolto un problema che a volte impediva la visualizzazione del collegamento &quot;[!UICONTROL View in Analytics]&quot; nella pagina [!UICONTROL Reports] delle attività che utilizzano [!UICONTROL Analytics for Target] (A4T) come origine per la generazione di rapporti. (TGT-45808)
+* È stato risolto un problema che a volte impediva la corretta sincronizzazione delle attività, come mostrato nella colonna &quot;[!UICONTROL Stato]&quot; nella pagina dell&#39;elenco [!UICONTROL Attività]. (TGT-46010 e TGT-44831)
+* È stato risolto un problema che a volte impediva la visualizzazione del collegamento &quot;[!UICONTROL Visualizza in Analytics]&quot; nella pagina [!UICONTROL Rapporti] delle attività che utilizzano [!UICONTROL Analytics for Target] (A4T) come origine per la generazione di rapporti. (TGT-45808)
 * È stata corretta la presentazione di valori in tabelle, in modo da visualizzarli come percentuali anziché come numeri con decimali. Ad esempio, 8% invece di 0,08. (TGT-45548)
-* È stato risolto un problema che impediva ai clienti di utilizzare lo stato attivo sulla tastiera per passare all&#39;elemento successivo nella pagina [!UICONTROL Goals & Settings] per le attività [!UICONTROL Experience Targeting] (XT). (TGT-44526)
-* È stato risolto un problema che causava la perdita dello stato attivo della tastiera dopo l&#39;apertura della finestra di dialogo &quot;[!UICONTROL Add audiences]&quot; durante la creazione di un&#39;attività. (TGT-44525)
+* È stato risolto un problema che impediva ai clienti di utilizzare l&#39;attivazione della tastiera per passare all&#39;elemento successivo nella pagina [!UICONTROL Obiettivi e impostazioni] per le [!UICONTROL attività Targeting esperienza] (XT). (TGT-44526)
+* È stato risolto un problema che causava la perdita dello stato attivo della tastiera dopo l&#39;apertura della finestra di dialogo &quot;[!UICONTROL Aggiungi pubblico]&quot; durante la creazione di un&#39;attività. (TGT-44525)
 
 ### [!DNL Target] Standard/Premium 23.7.1 (24-26 luglio)
 
 Questa versione include i miglioramenti e le correzioni seguenti:
 
-* È stata migliorata la ricerca durante l&#39;esplorazione di [elementi utilizzando il percorso DOM](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path) nel [!UICONTROL Visual Experience Composer] (Compositore esperienza visivo) per includere elementi DOM shadow. (TGT-45262)
+* È stata migliorata la ricerca durante l&#39;esplorazione degli elementi utilizzando il percorso DOM](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path) nel [!UICONTROL Compositore esperienza visivo] per includere gli elementi DOM shadow. [(TGT-45262)
 * È stato risolto un problema che impediva il corretto funzionamento delle impostazioni [Cambia sovrapposizione](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md). (TGT-45202)
 * È stato risolto un problema a causa del quale alcuni clienti ricevevano il messaggio di errore “L’utente non è autorizzato ad accedere al rapporto” e non potevano scaricare i rapporti delle attività. (TGT-45724 e TGT-45747)
 
@@ -2228,32 +2198,32 @@ Questo rilascio contiene i seguenti miglioramenti:
 
 | Funzione | Dettagli |
 |--- |--- |
-| [!UICONTROL QA mode] per [!UICONTROL Automated Personalization] attività | [!DNL Adobe Target] [!UICONTROL QA mode] è ora disponibile per le attività [!UICONTROL Automated Personalization], sostituendo la funzionalità [!UICONTROL Preview links].<P>Per ulteriori informazioni, consulta [Controllo qualità delle attività](/help/main/c-activities/c-activity-qa/activity-qa.md). |
+| [!UICONTROL Modalità Controllo di qualità] per [!UICONTROL attività Automated Personalization] | [!DNL Adobe Target] [!UICONTROL Modalità Controllo di qualità] è ora disponibile per [!UICONTROL attività Automated Personalization], sostituendo la funzionalità [!UICONTROL Collegamenti di anteprima].<P>Per ulteriori informazioni, consulta [Controllo qualità delle attività](/help/main/c-activities/c-activity-qa/activity-qa.md). |
 
-* Miglioramenti delle prestazioni per non consentire la funzionalità di duplicazione (inclusa la riduzione del tempo di caricamento) durante la [gestione delle esclusioni](/help/main/c-activities/t-automated-personalization/managing-exclusions.md#concept_4EF78013F80E48EFA024AE0274C9F037) in [!UICONTROL Automated Personalization] attività.
+* Miglioramenti delle prestazioni per non consentire la funzionalità di duplicazione (inclusa la riduzione del tempo di caricamento) durante la [gestione delle esclusioni](/help/main/c-activities/t-automated-personalization/managing-exclusions.md#concept_4EF78013F80E48EFA024AE0274C9F037) in [!UICONTROL attività Automated Personalization].
 
 ### [!DNL Target] Standard/Premium 23.5.2 (31 maggio 2023)
 
 Questa versione include i miglioramenti e le correzioni seguenti:
 
 * È stato risolto un problema che causava la visualizzazione di una pagina vuota durante la generazione di un token di autorizzazione di un profilo API. (TGT-45387 e TGT-45423)
-* È stato risolto un problema che impediva la visualizzazione di un&#39;immagine nel pannello [!UICONTROL Create Design] se il nome dell&#39;immagine conteneva GB 18030 caratteri. (TGT-44614)
+* È stato risolto un problema che impediva la visualizzazione di un&#39;immagine nel pannello [!UICONTROL Crea design] se il nome dell&#39;immagine contiene caratteri GB 18030. (TGT-44614)
 * È stato risolto un problema a causa del quale in alcuni caratteri dei simboli GB 18030 veniva erroneamente applicato l’escape nel testo/HTML nelle esperienze. (TGT-44600)
-* È stato risolto un problema che causava il blocco dei report per [!UICONTROL Auto Personalization] attività durante l&#39;analisi. (TGT-44820)
-* È stato risolto un problema che impediva la ricerca di un&#39;attività nella pagina [!UICONTROL Activity] se il nome dell&#39;attività conteneva una parentesi quadra ( [or] ). (TGT-44777)
+* È stato risolto un problema che causava il blocco dei report per le attività [!UICONTROL Auto Personalization] durante l&#39;analisi. (TGT-44820)
+* È stato risolto un problema che impediva la ricerca di un&#39;attività nella pagina [!UICONTROL Attività] se il nome dell&#39;attività conteneva una parentesi quadra ( [or] ). (TGT-44777)
 * È stato risolto un problema che impediva la sincronizzazione di un’attività se il relativo obiettivo conteneva caratteri speciali. (TGT-44982)
 * È stato risolto un problema che impediva ad alcuni clienti la visualizzazione delle attività nell’interfaccia utente di [!DNL Target] per l’area di lavoro predefinita. (TGT-45286)
 * È stato aggiornato il comportamento del flag “Disabilita duplicati”. I flag di esclusione offerte ripetute sono stati aggiornati per consentire tali offerte in caso di offerta di contenuto predefinita (per API v3 e v4) e per consentire le opzioni duplicate se tali opzioni fanno riferimento all’offerta di contenuto predefinita e non hanno modelli definiti. (TNT-46617)
-* È stato risolto un problema a causa del quale un parametro di query veniva aggiunto a un URL e non consentiva il caricamento della pagina nel Compositore esperienza visivo [!UICONTROL Visual Experience Composer]. (TGT-44873)
+* È stato risolto un problema che impediva il caricamento della pagina nel [!UICONTROL Compositore esperienza visivo] (VEC) a causa del quale veniva aggiunto un parametro di query a un URL. (TGT-44873)
 * Sono state apportate diverse correzioni di localizzazione in tutta l’interfaccia utente di [!DNL Target].
 
-### Attributi del profilo di Real-Time CDP condivisi con [!DNL Target] [!UICONTROL Real-Time CDP Profile Attributes] (13 giugno 2023)
+### Attributi del profilo di Real-Time CDP condivisi con [!DNL Target] [!UICONTROL Attributi del profilo di Real-Time CDP] (13 giugno 2023)
 
 Questa versione contiene i seguenti miglioramenti:
 
 | Funzione | Dettagli |
 |--- |--- |
-| Attributi di profilo Real-Time CDP condivisi con [!DNL Target] | [!UICONTROL Real-Time CDP Profile Attributes] può essere condiviso con [!DNL Target] per l&#39;utilizzo in offerte HTML e JSON.<P>Per ulteriori informazioni, consulta [Condividere gli attributi di profilo Real-Time CDP con [!DNL Target]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#rtcdp-profile-attributes). |
+| Attributi di profilo Real-Time CDP condivisi con [!DNL Target] | [!UICONTROL Gli attributi del profilo di Real-Time CDP] possono essere condivisi con [!DNL Target] per l&#39;utilizzo nelle offerte HTML e JSON.<P>Per ulteriori informazioni, consulta [Condividere gli attributi di profilo Real-Time CDP con [!DNL Target]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#rtcdp-profile-attributes). |
 
 ### [!DNL Target] Standard/Premium 23.5.1 (23-25 maggio 2023)
 
@@ -2269,8 +2239,8 @@ Questa versione contiene aggiornamenti di sicurezza e le seguenti nuove funzioni
 
 | Funzione | Dettagli |
 |--- |--- |
-| AEM [!UICONTROL Content Fragments] per personalizzazione e sperimentazione headless | Utilizza [!DNL Adobe Experience Manager] (AEM) [!UICONTROL Content Fragments] in [!DNL Target] attività. Combina la facilità d’uso e la potenza di AEM con le potenti capacità dell’intelligenza artificiale (IA) e dell’apprendimento automatico (ML) in [!DNL Target] per facilitare la personalizzazione e la sperimentazione headless.<P>Per ulteriori informazioni, vedere [AEM [!UICONTROL Content Fragments]](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md). |
-| [*Guida per gli sviluppatori di Adobe Target*](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=it){target=_blank} | La *Guida per gli sviluppatori di Adobe Target* è stata trasferita in *[!UICONTROL Adobe Experience League]*. Il passaggio a *[!UICONTROL Experience League]* facilita la localizzazione del testo in altre lingue, unifica la ricerca in *Experience League* per estendere e offrire i risultati di ricerca sia da *[!UICONTROL Adobe Target Business Practitioner Guide]* che da *[!UICONTROL Adobe Target Developer Guide]* e offre ulteriori vantaggi.<P>Verrai reindirizzato automaticamente dal percorso precedente a *[!UICONTROL Experience League]*. Aggiorna i segnalibri secondo necessità. |
+| AEM [!UICONTROL Frammenti di contenuto] per personalizzazione e sperimentazione headless | Utilizza [!DNL Adobe Experience Manager] (AEM) [!UICONTROL Frammenti di contenuto] nelle attività [!DNL Target]. Combina la facilità d’uso e la potenza di AEM con le potenti capacità dell’intelligenza artificiale (IA) e dell’apprendimento automatico (ML) in [!DNL Target] per facilitare la personalizzazione e la sperimentazione headless.<P>Per ulteriori informazioni, vedere [AEM [!UICONTROL Frammenti di contenuto]](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md). |
+| [*Guida per gli sviluppatori di Adobe Target*](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=it){target=_blank} | La *Guida per gli sviluppatori di Adobe Target* è stata trasferita in *[!UICONTROL Adobe Experience League]*. Il passaggio a *[!UICONTROL Experience League]* facilita la localizzazione del testo in altre lingue, unifica la ricerca in *Experience League* per estendere e offrire i risultati della ricerca sia dalla *[!UICONTROL Guida di Adobe Target Business Practitioner]* che dalla *[!UICONTROL Guida per gli sviluppatori di Adobe Target]* e offre ulteriori vantaggi.<P>Verrai reindirizzato automaticamente dal percorso precedente a *[!UICONTROL Experience League]*. Aggiorna i segnalibri secondo necessità. |
 
 ### [!DNL Target] Standard/Premium 23.3.1 (28-30 marzo 2023)
 
@@ -2278,18 +2248,18 @@ Questa versione include le nuove funzioni, i miglioramenti e le correzioni segue
 
 | Funzione | Dettagli |
 |--- |--- |
-| Metriche A4T ottimizzate per [!UICONTROL Auto-Allocate] e [!UICONTROL Auto-Target]<p>(Data di rilascio: 30 marzo 2023) | [!DNL Target] consente di scegliere metriche basate su eventi binomiali o metriche basate su eventi continui quando si utilizza [!UICONTROL A4T] per le attività [!UICONTROL Auto-Allocate] e [!UICONTROL Auto-Target].<P>In particolare, tieni conto delle seguenti modifiche nelle metriche supportate:<ul><li>[!DNL Target] ha mantenuto il comportamento precedente per le attività esistenti fino al 9 settembre 2023. Dopo tale data, le attività che utilizzando le metriche non supportate verranno interrotte e sarà necessario effettuarne la migrazione ai nuovi comportamenti.</li></ul>Per ulteriori informazioni, vedere &quot;Metriche obiettivo supportate&quot; in [Supporto A4T per [!UICONTROL Auto-Allocate] e [!UICONTROL Auto-Target] attività](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md#supported).<br>Con questa funzione sono stati aggiornati i seguenti tutorial:<ul><li>[Configurazione dei rapporti A4T in [!DNL Analysis Workspace] per [!UICONTROL Auto-Allocate] attività](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-allocate-activities.html?lang=it){target=_blank}</li><li>[Configurazione dei rapporti A4T in [!DNL Analysis Workspace] per [!UICONTROL Auto-Target] attività](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html?lang=it){target=_blank}</li></ul> |
+| Metriche A4T ottimizzate per [!UICONTROL Allocazione automatica] e [!UICONTROL Targeting automatico]<p>(Data di rilascio: 30 marzo 2023) | [!DNL Target] consente di scegliere metriche basate su eventi binomiali o metriche basate su eventi continui quando si utilizzano [!UICONTROL A4T] per attività [!UICONTROL Allocazione automatica] e [!UICONTROL Targeting automatico].<P>In particolare, tieni conto delle seguenti modifiche nelle metriche supportate:<ul><li>[!DNL Target] ha mantenuto il comportamento precedente per le attività esistenti fino al 9 settembre 2023. Dopo tale data, le attività che utilizzando le metriche non supportate verranno interrotte e sarà necessario effettuarne la migrazione ai nuovi comportamenti.</li></ul>Per ulteriori informazioni, vedi &quot;Metriche obiettivo supportate&quot; in [Supporto A4T per [!UICONTROL Attività di allocazione automatica] e [!UICONTROL Targeting automatico]](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md#supported).<br>Con questa funzione sono stati aggiornati i seguenti tutorial:<ul><li>[Configurazione dei rapporti A4T in [!DNL Analysis Workspace] per [!UICONTROL attività di allocazione automatica]](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-allocate-activities.html?lang=it){target=_blank}</li><li>[Configurazione dei rapporti A4T in [!DNL Analysis Workspace] per [!UICONTROL attività Targeting automatico]](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html?lang=it){target=_blank}</li></ul> |
 
 * Miglioramento della sincronizzazione del pubblico e delle attività in modo che gli elementi creati in [!DNL Adobe Experience Platform] e [!DNL Adobe Audience Manager] siano disponibili più rapidamente nell’interfaccia di [!DNL Target]. (TGT-44568)
-* Interfaccia utente migliorata per consentire agli utenti di rimuovere [!UICONTROL Default URL] in [!UICONTROL Administration] > [!UICONTROL Visual Experience Composer] > [!UICONTROL Default URL]. Questa modifica consente ai clienti di impostare di nuovo l’URL predefinito su una stringa vuota, cosa che in precedenza non era possibile dopo la configurazione iniziale. (TGT-44577)
+* Interfaccia utente migliorata per consentire agli utenti di rimuovere l&#39;[!UICONTROL URL predefinito] in [!UICONTROL Amministrazione] > [!UICONTROL Compositore esperienza visivo] > [!UICONTROL URL predefinito]. Questa modifica consente ai clienti di impostare di nuovo l’URL predefinito su una stringa vuota, cosa che in precedenza non era possibile dopo la configurazione iniziale. (TGT-44577)
 * Sono state rimosse le restrizioni che impedivano di modificare o eliminare i tipi di pubblico predefiniti (tipi di pubblico con nomi riservati). (TGT-44655)
-* Disabilitata l&#39;opzione &quot;[!UICONTROL Done]&quot; durante il caricamento degli spinner, era visibile nell&#39;interfaccia utente [!DNL Target] durante la creazione di [tipi di pubblico combinati](/help/main/c-target/combining-multiple-audiences.md). (TGT-44079)
-* È stato corretto il collegamento [!UICONTROL Language] nella parte inferiore della pagina [!UICONTROL Audiences] in modo che si colleghi correttamente alla pagina &quot;[!UICONTROL Account communication preferences]&quot;. (TGT-43562)
-* È stato risolto un problema che a volte impediva ai clienti di creare [!UICONTROL A/B Test] attività dopo aver selezionato l&#39;opzione [!UICONTROL Adobe Analytics] in [!UICONTROL Administration] > [!UICONTROL Reporting] > [!UICONTROL Reporting Experience Cloud Solution]. (TGT-44844)
-* È stato risolto un problema che impediva ai clienti di visualizzare l&#39;ultima esperienza in un&#39;attività [!UICONTROL Multivariate Test] con molte esperienze all&#39;interno del [!UICONTROL Visual Experience Composer] (VEC). Il [percorso DOM](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path) nella parte inferiore del Compositore esperienza visivo a volte impediva ai clienti di visualizzare l’ultima esperienza. (TGT-44578)
+* Disabilitata l&#39;opzione &quot;[!UICONTROL Fine]&quot; durante il caricamento degli spinner, era visibile nell&#39;interfaccia utente [!DNL Target] durante la creazione di [tipi di pubblico combinati](/help/main/c-target/combining-multiple-audiences.md). (TGT-44079)
+* È stato corretto il collegamento [!UICONTROL Lingua] nella parte inferiore della pagina [!UICONTROL Tipi di pubblico], in modo che venga collegato correttamente alla pagina &quot;[!UICONTROL Preferenze di comunicazione account]&quot;. (TGT-43562)
+* È stato risolto un problema che a volte impediva ai clienti di creare [!UICONTROL attività Test A/B] dopo aver selezionato l&#39;opzione [!UICONTROL Adobe Analytics] in [!UICONTROL Amministrazione] > [!UICONTROL Generazione rapporti] > [!UICONTROL Soluzione Reporting Experience Cloud]. (TGT-44844)
+* È stato risolto un problema che impediva ai clienti di visualizzare l&#39;ultima esperienza in un&#39;attività [!UICONTROL Test multivariato] con molte esperienze all&#39;interno del [!UICONTROL Compositore esperienza visivo]. Il [percorso DOM](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path) nella parte inferiore del Compositore esperienza visivo a volte impediva ai clienti di visualizzare l’ultima esperienza. (TGT-44578)
 * È stato risolto un problema a causa del quale l’URL di navigazione nel Compositore esperienza visivo non rifletteva la pagina corrente visibile in una normale sessione del browser se la pagina richiedeva un’autorizzazione o richiamava reindirizzamenti. (TGT-44350)
-* È stato risolto un problema che impediva ai clienti di modificare l&#39;impostazione [!UICONTROL Filter Incompatible Criteria] in [!UICONTROL Recommendations] > [!UICONTROL Settings]. (TGT-44398)
-* È stato risolto un problema che impediva la creazione di feed [!DNL Recommendations] da parte di richieste POST durante l&#39;utilizzo di [!UICONTROL Analytics Classifications] con suite di rapporti il cui nome conteneva punti. (TGT-44598)
+* È stato risolto un problema che impediva ai clienti di modificare l&#39;impostazione [!UICONTROL Filtra criteri incompatibili] in [!UICONTROL Recommendations] > [!UICONTROL Settings]. (TGT-44398)
+* È stato risolto un problema che causava il mancato funzionamento delle richieste POST di creazione di [!DNL Recommendations] feed durante l&#39;utilizzo di [!UICONTROL Classificazioni di Analytics] con suite di rapporti il cui nome conteneva punti. (TGT-44598)
 * I collegamenti nell’interfaccia di [!DNL Target] sono stati aggiornati per puntare alla nuova [estensione Visual Editing Helper](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md). (TGT-44459)
 * Protezione avanzata per impedire tentativi di falsificazione di richieste lato server (SSRF) nei feed di [!DNL Recommendations]. (TGT-43769)
 * Sono state apportate diverse correzioni di localizzazione in tutta l’interfaccia utente di [!DNL Target].
@@ -2310,7 +2280,7 @@ Questa versione sarà disponibile in base al seguente programma scaglionato:
 
 Questa versione include le seguenti correzioni:
 
-* Aggiornamenti per la creazione di componenti Web personalizzati con [!UICONTROL Visual Experience Composer] (VEC):
+* Aggiornamenti per la creazione di componenti Web personalizzati con [!UICONTROL Compositore esperienza visivo]:
 
    * È stata corretta la selezione di elementi shadow DOM nel Compositore esperienza visivo, ottimizzando il processo di authoring in modo che non vi sia alcuna dipendenza dal tipo di implementazione di [!DNL Target] durante la creazione della radice shadow. Ora, la selezione di elementi shadow DOM nel Compositore esperienza visivo dovrebbe funzionare per qualsiasi sito web.
    * È stato risolto un problema che impediva il caricamento di elementi HTML utilizzando #Shadow DOM nel Compositore esperienza visivo. (TGT-35801)
@@ -2364,13 +2334,13 @@ Questa versione include le nuove funzioni, i miglioramenti e le correzioni segue
 | [Offerta JSON](/help/main/c-experiences/c-manage-content/create-json-offer.md) per il supporto in Automated Personalization (AP) | È stato aggiunto il supporto per le offerte JSON nelle attività [!UICONTROL Automated Personalization] (AP) tramite il Compositore esperienza basato su moduli. (TGT-41460) |
 | [Frammenti di esperienza AEM](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md) | È stata aggiunta la possibilità di distinguere tra tipi di frammento di [!DNL Adobe Experience Manager] (AEM XF) esportati in [!DNL Target]. Invece dell’opzione “Frammento esperienza”, [!DNL Target] ora consente di filtrare e cercare i dati utilizzando “HTML XF” e “JSON XF”. (TGT-44132) |
 
-* È stato risolto un problema che causava un &quot;errore 500&quot; nelle attività [!UICONTROL A/B Test] e [!UICONTROL Experience Targeting] (XT) che contenevano consigli. Questo problema si verificava quando [!DNL Target] non riusciva a eliminare correttamente gli oggetti di criteri dall’interfaccia utente di [!DNL Target] e dal back-end di [!DNL Recommendations] non più in uso. (TGT-44383)
-* Rimozione della posizione dal nome dell&#39;offerta visualizzato nel report [!UICONTROL Offer Level] per le attività [!UICONTROL Automated Personalization]. Questa modifica rende il rapporto più leggibile. (TGT-44294)
-* Sono state rimosse le opzioni del calendario di 45 giorni e 90 giorni da AP e dai report [!UICONTROL Auto-Target] [!UICONTROL Personalization Insights] e [!UICONTROL Important Attributes] nell&#39;interfaccia utente [!DNL Target]. A causa dei pattern di utilizzo e nel tentativo di migliorare le prestazioni, questi intervalli di date sono stati dichiarati obsoleti. L’interfaccia utente è stata aggiornata per riflettere gli intervalli attualmente consentiti: 15, 30 e 60 giorni. (TGT-39357)
-* Impossibile modificare l&#39;impostazione [!UICONTROL Same as Optimization Goal] nella pagina [!UICONTROL Goals & Settings] dopo che l&#39;attività è in esecuzione. (TGT-43923)
+* È stato risolto un problema che causava un &quot;errore 500&quot; nelle attività [!UICONTROL Test A/B] e [!UICONTROL Targeting esperienza] (XT) che contengono consigli. Questo problema si verificava quando [!DNL Target] non riusciva a eliminare correttamente gli oggetti di criteri dall’interfaccia utente di [!DNL Target] e dal back-end di [!DNL Recommendations] non più in uso. (TGT-44383)
+* È stata rimossa la posizione dal nome dell&#39;offerta visualizzato nel report [!UICONTROL Livello offerta] per le [!UICONTROL attività Automated Personalization]. Questa modifica rende il rapporto più leggibile. (TGT-44294)
+* Sono state rimosse le opzioni del calendario di 45 giorni e 90 giorni da AP e [!UICONTROL Targeting automatico] [!UICONTROL Personalization Insights] e [!UICONTROL Attributi importanti] report nell&#39;interfaccia utente [!DNL Target]. A causa dei pattern di utilizzo e nel tentativo di migliorare le prestazioni, questi intervalli di date sono stati dichiarati obsoleti. L’interfaccia utente è stata aggiornata per riflettere gli intervalli attualmente consentiti: 15, 30 e 60 giorni. (TGT-39357)
+* Non è consentito modificare l&#39;impostazione [!UICONTROL Uguale all&#39;obiettivo di ottimizzazione] nella pagina [!UICONTROL Obiettivi e impostazioni] dopo che l&#39;attività è in esecuzione. (TGT-43923)
 * È stato risolto un problema che causava errori con l’ambiente di lavoro predefinito nel back-end di [!DNL Target] in caso di aggiornamento da [!DNL Target Standard] a [!DNL Target Premium]. (TGT-44081 e TGT-44306)
 * È stata apportata una modifica per consentire le suite di rapporti di [!DNL Analytics] che contengono il carattere punto “.” nei nomi da utilizzare nell’interfaccia utente di [!DNL Target] per creare feed di classificazione in [!DNL Analytics].
-* È stato modificato il collegamento nella pagina [!UICONTROL Implementation] ([!UICONTROL Administration] > [!UICONTROL Implementation]) per &quot;Metodi di implementazione con decisioning sul dispositivo&quot; in modo che faccia riferimento alla pagina che spiega come utilizzare il decisioning sul dispositivo per tutti gli SDK supportati: Node.js, Java, .NET e Python. Per ulteriori informazioni, consulta [Guida introduttiva agli SDK di Target](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/getting-started.html?lang=it){target=_blank} nella [Guida per gli sviluppatori di Adobe Target](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=it){target=_blank}.
+* È stato modificato il collegamento nella pagina [!UICONTROL Implementazione] ([!UICONTROL Amministrazione] > [!UICONTROL Implementazione]) per &quot;Metodi di implementazione con decisioning sul dispositivo&quot;, in modo che faccia riferimento alla pagina che spiega come utilizzare il decisioning sul dispositivo per tutti gli SDK supportati: Node.js, Java, .NET e Python. Per ulteriori informazioni, consulta [Guida introduttiva agli SDK di Target](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/getting-started.html?lang=it){target=_blank} nella [Guida per gli sviluppatori di Adobe Target](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=it){target=_blank}.
 * È stato risolto un problema che causava errori durante il caricamento dei file utilizzando [!DNL Scene7] e [!DNL Target].
 * È stata migliorata l’accessibilità dell’interfaccia utente di [!DNL Target] per le persone con disabilità utilizzando i risultati di una verifica interna in termini di usabilità. I miglioramenti dell’accessibilità includono l’accesso a funzioni che in precedenza non erano raggiungibili tramite la tastiera, miglioramenti al testo alternativo, la possibilità di eseguire lo zoom di parti dell’interfaccia utente per renderle più utilizzabili, l’attivazione della tastiera migliorata e molto altro ancora.   (TGT-42759)
 * Sono state apportate diverse correzioni di localizzazione in tutta l’interfaccia utente di [!DNL Target].
@@ -2379,9 +2349,9 @@ Questa versione include le nuove funzioni, i miglioramenti e le correzioni segue
 
 ### Rilascio di Models API (23 novembre 2022)
 
-Le nuove Models API di [!DNL Adobe Target], dette anche API di Inserisce nell&#39;elenco Bloccati di di, consentono agli utenti di visualizzare e gestire l&#39;elenco delle funzionalità utilizzate nei modelli di apprendimento automatico per le attività [!UICONTROL Automated Personalization] (AP) e [!UICONTROL Auto-Target] (AT).
+Le nuove Models API di [!DNL Adobe Target], dette anche API di Inserisce nell&#39;elenco Bloccati di Automated Personalization, consentono agli utenti di visualizzare e gestire l&#39;elenco delle funzionalità utilizzate nei modelli di apprendimento automatico per le attività di  (AP) e [!UICONTROL Targeting automatico] (AT).
 
-Per ulteriori informazioni, vedere [Panoramica di Models API](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api.html?lang=it){target=_blank} nella *Guida per gli sviluppatori di Adobe Target*.
+Per ulteriori informazioni, vedere [Panoramica di Models API](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api.html){target=_blank} nella *Guida per gli sviluppatori di Adobe Target*.
 
 ### [!DNL Target] Standard/Premium 22.10.3 (rilascio scaglionato dal 25 al 27 ottobre 2022)
 
@@ -2392,7 +2362,7 @@ Questa versione include le seguenti correzioni:
 
   Con questa versione le metriche `averagetimespentonsite`, `bouncerate` e `entries` nelle attività di [!DNL Target] diventeranno obsolete per le nuove attività. Le attività esistenti possono continuare a utilizzare tali metriche fino a maggio 2023.
 
-* È stata aggiunta una descrizione comando nell&#39;interfaccia utente [!DNL Target] per consentire ai clienti di selezionare un criterio di ottimizzazione durante la creazione o la modifica di un&#39;attività [!UICONTROL Auto-Target] che utilizza A4T.
+* È stata aggiunta una descrizione comando nell&#39;interfaccia utente [!DNL Target] per consentire ai clienti di selezionare un criterio di ottimizzazione durante la creazione o la modifica di un&#39;attività [!UICONTROL Targeting automatico] che utilizza A4T.
 
 ### [!DNL Target] Standard/Premium 22.10.1 (rilascio scaglionato dal 10 al 13 ottobre 2022)
 
@@ -2400,13 +2370,13 @@ Questa versione include le nuove funzioni, i miglioramenti e le correzioni segue
 
 | Funzione | Dettagli |
 | --- | --- |
-| [!DNL Adobe Experience Manager] Frammenti esperienza (AEM) | Gli aggiornamenti relativi alla funzionalità dei frammenti di esperienza AEM includono:<ul><li>È stata aggiunta la possibilità di filtrare i Frammenti di esperienza di AEM per tipo (HTML o JSON) nell&#39;elenco [!UICONTROL Offers]. (TGT-43121)</li><li>È stato risolto un problema che consentiva ai clienti di inserire offerte JSON [!UICONTROL Experience Fragment] utilizzando il Compositore esperienza visivo (VEC), azione che non è supportata. Le offerte JSON possono essere inserite solo utilizzando il compositore [!UICONTROL Form-Based Experience]. (TGT-43846)</li></ul>Per ulteriori informazioni, consulta i [Frammenti esperienza AEM](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md). |
-| Nuova estensione [!UICONTROL Visual Experience Composer] per Google Chrome | Una nuova estensione [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC) per Chrome è disponibile in Chrome Web Store.<br>A partire da gennaio 2023, l&#39;attuale estensione VEC Helper [!DNL Target] smetterà di funzionare in Google Chrome perché Google non consentirà l&#39;utilizzo di estensioni basate su Manifest V2. Scarica la nuova estensione per continuare a creare visivamente i tuoi siti web in [!DNL Target] a partire dal nuovo anno.<br>I seguenti collegamenti mostrano le due estensioni nel Chrome Web Store:<ul><li>[Nuova estensione](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca){target=_blank}</li><li>[Estensione precedente](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak){target=_blank}</li></ul>Per ulteriori informazioni, consulta [Estensione Helper per editing video](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md). |
+| [!DNL Adobe Experience Manager] Frammenti esperienza (AEM) | Gli aggiornamenti relativi alla funzionalità dei frammenti di esperienza AEM includono:<ul><li>È stata aggiunta la possibilità di filtrare i Frammenti di esperienza di AEM per tipo (HTML o JSON) nell&#39;elenco [!UICONTROL Offerte]. (TGT-43121)</li><li>È stato risolto un problema che consentiva ai clienti di inserire offerte JSON [!UICONTROL Frammento di esperienza] utilizzando il Compositore esperienza visivo (VEC), azione non supportata. Le offerte JSON possono essere inserite solo utilizzando il Compositore esperienza [!UICONTROL basato su moduli]. (TGT-43846)</li></ul>Per ulteriori informazioni, consulta i [Frammenti esperienza AEM](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md). |
+| Nuova estensione [!UICONTROL Compositore esperienza visivo] per Google Chrome | Una nuova estensione [!DNL Adobe Target] [!UICONTROL Compositore esperienza visivo] (VEC) per Chrome è disponibile in Chrome Web Store.<br>A partire da gennaio 2023, l&#39;attuale estensione [!DNL Target] VEC Helper cesserà di funzionare in Google Chrome perché Google non consentirà l&#39;utilizzo di estensioni basate su Manifest V2. Scarica la nuova estensione per continuare a creare visivamente i tuoi siti web in [!DNL Target] a partire dal nuovo anno.<br>I seguenti collegamenti mostrano le due estensioni nel Chrome Web Store:<ul><li>[Nuova estensione](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca){target=_blank}</li><li>[Estensione precedente](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak){target=_blank}</li></ul>Per ulteriori informazioni, consulta [Estensione Helper per editing video](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md). |
 
-* È stato risolto un problema che impediva la corretta visualizzazione delle informazioni sulle regole del pubblico nella finestra delle informazioni di [!UICONTROL Audiences Refinements]. (TGT-43917)
+* È stato risolto un problema che impediva la corretta visualizzazione delle informazioni sulle regole del pubblico nella finestra di informazioni [!UICONTROL Audiences Refinements]. (TGT-43917)
 * Sono state migliorate le prestazioni dell’interfaccia utente di [!DNL Target] durante il caricamento dei tipi di pubblico che si avvicinano al [limite consigliato per le regole di targeting](/help/main/r-troubleshooting-target/target-limits.md#targeting-rules). (TGT-43675)
-* È stato risolto un problema che impediva la corretta visualizzazione di alcuni componenti nel pannello [!UICONTROL Modifications] della pagina [!UICONTROL Experiences] durante la creazione o la modifica di attività nel Compositore esperienza visivo dopo il passaggio dalla modalità [!UICONTROL Compose] alla modalità [!UICONTROL Browse]. (TGT-43300)
-* È stato risolto un problema che impediva ad alcuni clienti di archiviare [!UICONTROL A/B Test] attività che utilizzano [!UICONTROL Auto-Target]. (TGT-40978)
+* È stato risolto un problema che impediva la corretta visualizzazione di alcuni componenti nel pannello [!UICONTROL Modifiche] della pagina [!UICONTROL Esperienze] durante la creazione o la modifica di attività nel Compositore esperienza visivo dopo il passaggio dalla modalità [!UICONTROL Componi] alla modalità [!UICONTROL Sfoglia]. (TGT-43300)
+* È stato risolto un problema che impediva ad alcuni clienti di archiviare [!UICONTROL attività Test A/B] che utilizzano [!UICONTROL Targeting automatico]. (TGT-40978)
 * È stata aggiunta la possibilità di utilizzare automaticamente un’unica offerta in più posizioni all’interno di un singolo gruppo di reporting. (TGT-40689)
 
 ### [!DNL Target] Standard/Premium 22.9.1 (rilascio scaglionato dal 13 all’15 settembre 2022)
@@ -2419,21 +2389,21 @@ Questa versione sarà disponibile in base al seguente programma scaglionato:
 
 Questa versione include i miglioramenti e le correzioni seguenti:
 
-* È stata aggiunta l’opzione [!UICONTROL Cross-Domain] per il download di at.js 2.10.0 (e versioni successive) per consentire o disabilitare l’impostazione di cookie di terze parti. (TGT-43674)
+* È stata aggiunta l&#39;opzione [!UICONTROL Tra domini diversi] per il download di at.js 2.10.0 (e versioni successive) per consentire o disabilitare l&#39;impostazione di cookie di terze parti. (TGT-43674)
 * Sono state aggiornate le notifiche nell’interfaccia utente di [!DNL Target] per informare i clienti nel caso in cui l’importazione di feed [!DNL Recommendations] non riesca. (TGT-35811)
-* È stato risolto un problema che impediva il corretto funzionamento di [!UICONTROL Decision Offers] all&#39;interno di [!UICONTROL Visual Experience Composer] (VEC). (TGT-43866)
-* È stato risolto un problema che causava la visualizzazione di un messaggio di errore durante la selezione dell&#39;obiettivo di conversione [!UICONTROL Clicked an Element] durante la creazione di un&#39;attività [!UICONTROL Multivariate Testing] (MVT). (TGT-43842)
-* È stato risolto un problema che impediva la visualizzazione della colonna [!UICONTROL Impressions] nel file di rapporto CSV scaricato per le attività [!UICONTROL Automated Personalization] (AP). (TGT-43780)
-* È stato risolto un problema che impediva ai clienti di modificare le offerte HTML/JSON dopo la duplicazione delle esperienze durante l&#39;utilizzo di [!UICONTROL Form-Based Experience Composer]. (TGT-43633)
-* È stato risolto un problema che impediva ai clienti di copiare un&#39;attività [!UICONTROL A/B Test] da un&#39;area di lavoro non predefinita a un&#39;altra area di lavoro non predefinita. (TGT-41910)
-* È stato risolto un problema che impediva ai clienti di visualizzare correttamente gli utilizzi di [!DNL Recommendations] oggetti (progettazioni, criteri, raccolte e così via) nelle attività [!UICONTROL A/B Test] e [!UICONTROL Experience Targeting] (XT) che contengono consigli, nonché di eliminare gli oggetti criteri non più in uso dall&#39;interfaccia utente [!DNL Target] e dal back-end [!DNL Recommendations]. (TGT-42331)
+* È stato risolto un problema che impediva il corretto funzionamento di [!UICONTROL Offerte decisionali] all&#39;interno del [!UICONTROL Compositore esperienza visivo] (VEC). (TGT-43866)
+* È stato risolto un problema che causava la visualizzazione di un messaggio di errore durante la selezione dell&#39;obiettivo di conversione [!UICONTROL Scegli un elemento] durante la creazione di un&#39;attività [!UICONTROL Multivariate Testing] (MVT). (TGT-43842)
+* È stato risolto un problema che impediva la visualizzazione della colonna [!UICONTROL Impression] nel file di rapporto CSV scaricato per [!UICONTROL attività Automated Personalization] (AP). (TGT-43780)
+* È stato risolto un problema che impediva ai clienti di modificare le offerte HTML/JSON dopo la duplicazione delle esperienze durante l&#39;utilizzo del [!UICONTROL Compositore esperienza basato su moduli]. (TGT-43633)
+* È stato risolto un problema che impediva ai clienti di copiare un&#39;attività [!UICONTROL Test A/B] da un&#39;area di lavoro non predefinita a un&#39;altra area di lavoro non predefinita. (TGT-41910)
+* È stato risolto un problema che impediva ai clienti di visualizzare correttamente gli utilizzi di [!DNL Recommendations] oggetti (progettazioni, criteri, raccolte e così via) in [!UICONTROL Test A/B] e [!UICONTROL Attività Targeting esperienza] (XT) che contengono consigli ed eliminano inoltre gli oggetti criteri non più in uso dall&#39;interfaccia utente [!DNL Target] e dal back-end [!DNL Recommendations]. (TGT-42331)
 * È stato risolto un problema che causava la visualizzazione di un avviso di timeout di rete nell’[!DNL Target] Interfaccia utente per il recupero dei parametri. (TGT-43737)
 * Sono stati apportati aggiornamenti all’interfaccia utente per garantire che alcune azioni di trascinamento della selezione siano accessibili da tastiera. (TGT-42969)
 * Sono stati apportati aggiornamenti all’interfaccia utente per garantire che le stringhe di testo siano localizzate correttamente.
 
 ### at.js versione 2.10.0 (13 settembre 2022)
 
-* È stata aggiunta l’opzione [!UICONTROL Cross-Domain] per il download di at.js 2.10.0 (e versioni successive) per consentire o disabilitare l’impostazione di cookie di terze parti. (TGT-43674)
+* È stata aggiunta l&#39;opzione [!UICONTROL Tra domini diversi] per il download di at.js 2.10.0 (e versioni successive) per consentire o disabilitare l&#39;impostazione di cookie di terze parti. (TGT-43674)
 
 ### [!DNL Target Standard/Premium] 22.8.1 (rilascio graduale 17-18 agosto 2022)
 
@@ -2471,19 +2441,19 @@ Questa versione sarà disponibile in base al seguente programma scaglionato:
 
 Questa versione include i miglioramenti e le correzioni seguenti:
 
-* È stato introdotto un miglioramento per la nuova pagina [!UICONTROL Audiences] per evitare uno stato incoerente tra il vecchio database, in cui erano precedentemente archiviati i tipi di pubblico, e la nuova architettura, che recupera le informazioni direttamente dal back-end. (TGT-43552)
+* È stato introdotto un miglioramento per la nuova pagina [!UICONTROL Tipi di pubblico] per evitare uno stato incoerente tra il vecchio database, in cui erano precedentemente archiviati i tipi di pubblico, e la nuova architettura, che recupera le informazioni direttamente dal back-end. (TGT-43552)
 * È stato risolto un problema che impediva ad alcuni clienti di salvare i tipi di pubblico combinati a causa dell’interfaccia di Target che creava contenitori “vuoti”. (TGT-43588)
 
 ### Versione della piattaforma Target (25 maggio 2022)
 
 Questa versione include i miglioramenti e le correzioni seguenti:
 
-* È stato aggiunto il supporto [per i User Agent Client Hints](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/user-agent-and-client-hints.html?lang=it){target=_blank}.
-* È stato risolto un problema che causava timeout in modo intermittente durante il rendering di [!UICONTROL Offer Decisions] nelle attività [!UICONTROL Experience Targeting] (XT). (TNT-44611)
+* È stato aggiunto il supporto [per i User Agent Client Hints](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/user-agent-and-client-hints.html){target=_blank}.
+* È stato risolto un problema che causava timeout in modo intermittente durante il rendering di [!UICONTROL Decisioni di offerta] nelle attività [!UICONTROL Targeting esperienza] (XT). (TNT-44611)
 
 ### at.js versione 2.9.0 (27 maggio 2022)
 
-* È stato aggiunto il supporto [per i User Agent Client Hints](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/user-agent-and-client-hints.html?lang=it){target=_blank}.
+* È stato aggiunto il supporto [per i User Agent Client Hints](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/user-agent-and-client-hints.html){target=_blank}.
 * È stato corretto un errore per cui più richieste di mbox sulla stessa pagina avevano ID di impression diversi.
 
 ### [!DNL Target Standard/Premium] 22.5.1 (rilascio scaglionato; 11-13 maggio 2022)
@@ -2499,10 +2469,10 @@ Questa versione include i miglioramenti e le correzioni seguenti:
 * È stato risolto un problema che causava un errore di JavaScript e impediva ad alcuni clienti di accedere ai dettagli di alcune attività di [!UICONTROL Automated Personalization] (AP). (TGT-43526)
 * È stato risolto un problema che impediva ad alcuni clienti di aggiungere (o modificare) un’offerta specifica a un’attività AP. (TGT-43503)
 * È stato risolto un problema nell’interfaccia utente di [!DNL Target] a causa del quale veniva visualizzato il seguente messaggio di errore: “La mbox globale potrebbe non essere sincronizzata. Prova a salvarla di nuovo.” Questo problema era relativo alla sola interfaccia utente e non aveva alcun impatto sulle implementazioni dei clienti. (TGT-43475)
-* È stato risolto un problema che impediva a un cliente di modificare perfezionamenti e tipi di pubblico a livello di esperienza per un&#39;attività, se questi erano stati creati prima dell&#39;implementazione della nuova interfaccia utente [!UICONTROL Audiences]. (TGT-43433)
+* È stato risolto un problema che impediva a un cliente di modificare perfezionamenti e tipi di pubblico a livello di esperienza per un&#39;attività, se questi erano stati creati prima dell&#39;implementazione della nuova interfaccia utente [!UICONTROL Tipi di pubblico]. (TGT-43433)
 * È stato risolto un problema a causa del quale i clienti potevano selezionare tipi di pubblico [!DNL Adobe Audience Manager] (AAM) duplicati durante la modifica dei tipi di pubblico di reporting per un’attività. (TGT-43430)
 * È stato risolto un problema che impediva ai clienti di creare tipi di pubblico duplicati, ma in aree di lavoro diverse. (TGT-43423)
-* È stato risolto un problema che impediva ai clienti di eliminare le posizioni con offerte ad hoc nelle attività create in [!UICONTROL Form-Based Experience Composer]. (TGT-43315)
+* È stato risolto un problema che impediva ai clienti di eliminare le posizioni con offerte ad hoc nelle attività create nel [!UICONTROL Compositore esperienza basato su moduli]. (TGT-43315)
 * È stato risolto un problema che impediva ai clienti di accedere alle offerte con codice dopo aver fatto clic su offerte con immagini e aver quindi aggiornato l’interfaccia utente. (TGT-43566)
 * È stato risolto un problema che causava il ripristino dello script originale non modificato dopo che uno script di profilo veniva modificato, attivato e quindi disattivato. Ora vengono mantenute le modifiche applicate allo script di profilo. (TGT-43249)
 * È stato risolto un problema che generava il seguente errore se si tentava di spostare un pubblico in un’altra area di lavoro: “Impossibile completare la richiesta. Se il problema persiste, contatta l’Assistenza clienti di Adobe.” (TGT-43212)
@@ -2514,7 +2484,7 @@ Questa versione include i miglioramenti e le correzioni seguenti:
 Questa versione include la seguente correzione:
 
 * È stato risolto un problema a causa del quale tre algoritmi basati su carrello utilizzavano la stessa condizione Acquisto/Acquisto sul backend di [!DNL Target]. (TGT-43456)
-* È stato abilitato l&#39;aggiornamento del token dell&#39;interfaccia utente [!DNL Target] per le organizzazioni abilitate con [account Business ID](https://helpx.adobe.com/it/enterprise/using/identity.html){target=_blank} e autenticazione basata su criteri (PBA). (TGT-42590)
+* È stato abilitato l&#39;aggiornamento del token dell&#39;interfaccia utente [!DNL Target] per le organizzazioni abilitate con [account Business ID](https://helpx.adobe.com/enterprise/using/identity.html){target=_blank} e autenticazione basata su criteri (PBA). (TGT-42590)
 
 ### Versione della piattaforma [!DNL Target] (giovedì 27 aprile 2022)
 
@@ -2532,25 +2502,25 @@ Questa versione contiene i seguenti miglioramenti:
 
 Questa versione contiene i seguenti aggiornamenti:
 
-* La nuova interfaccia utente [!UICONTROL Audiences] verrà abilitata per tutti i clienti [!DNL Target Standard].
+* La nuova interfaccia utente [!UICONTROL Tipi di pubblico] verrà abilitata per tutti i [!DNL Target Standard] clienti.
 
 ### Correzioni tecniche per clienti Target Standard/Premium (22 marzo 2022)
 
 Questa versione di manutenzione include i seguenti miglioramenti:
 
-* È stata aggiunta la funzionalità per restituire dati di payload [!DNL Analytics] per visualizzazioni `prefetch` e metriche di clic `pageLoad` quando si utilizza [!UICONTROL Delivery API] con attività che utilizzano [!UICONTROL Analytics as the reporting source] (A4T). (TNT-43198)
+* È stata aggiunta la funzionalità per restituire dati del payload [!DNL Analytics] per visualizzazioni `prefetch` e metriche di clic `pageLoad` quando si utilizza l&#39;[!UICONTROL API di consegna] con attività che utilizzano [!UICONTROL Analytics come origine per la generazione di rapporti] (A4T). (TNT-43198)
 * L’elenco degli agenti utente che filtrano i bot è stato aggiornato per consentire l’utilizzo di un tipo di browser comunemente utilizzato in Giappone. (TNT-43867)
 
 ### Target Standard/Premium 22.2.1 (1° febbraio 2022)
 
-Questa versione di manutenzione contiene le correzioni e i miglioramenti seguenti relativi alla nuova interfaccia utente [!UICONTROL Audiences], annunciata in Target Standard/Premium versione 22.1.2, che nelle prossime sei settimane verrà gradualmente implementata per i clienti in tutte le aree geografiche. Le correzioni apportate allineano le funzionalità dei tipi di pubblico creati in [!DNL Adobe Target Standard/Premium].
+Questa versione di manutenzione contiene le correzioni e i miglioramenti seguenti relativi alla nuova interfaccia utente [!UICONTROL Tipi di pubblico], annunciata in Target Standard/Premium versione 22.1.2, che nelle prossime sei settimane verrà gradualmente implementata per i clienti in tutte le aree geografiche. Le correzioni apportate allineano le funzionalità dei tipi di pubblico creati in [!DNL Adobe Target Standard/Premium].
 
 * È stato risolto un problema che impediva ai tipi di pubblico importati da [!DNL Adobe Experience Platform], [!DNL Adobe Experience Cloud] e [!DNL Adobe Target Classic] di essere assegnati come tipi di pubblico nella generazione dei rapporti. (TGT-43140)
-* È stata aggiunta l&#39;opzione [!UICONTROL Delete] nell&#39;elenco [!UICONTROL Audiences] per i tipi di pubblico importati da [!DNL Adobe Experience Platform], [!DNL Adobe Experience Cloud] e [!DNL Adobe Target Classic]. È stata aggiunta anche la funzionalità di eliminazione in blocco. (TGT-42914)
+* Aggiunta dell&#39;opzione [!UICONTROL Elimina] nell&#39;elenco [!UICONTROL Tipi di pubblico] per i tipi di pubblico importati da [!DNL Adobe Experience Platform], [!DNL Adobe Experience Cloud] e [!DNL Adobe Target Classic]. È stata aggiunta anche la funzionalità di eliminazione in blocco. (TGT-42914)
 
 ### at.js versione 2.8.1 (28 gennaio 2022)
 
-* È stato corretto un problema che impediva la mappatura di `pageLoad` su target-global-mbox nella modalità di esecuzione ibrida [!UICONTROL On Device Decisioning] (ODD).
+* È stato corretto un problema che impediva la mappatura di `pageLoad` su target-global-mbox nella modalità di esecuzione ibrida [!UICONTROL In Device Decisioning] (ODD).
 * È stato risolto un problema relativo ai dettagli di analisi per richieste mbox.
 * Sono state aggiornate le dipendenze di sviluppo per correggere alcune vulnerabilità di sicurezza.
 
@@ -2559,8 +2529,8 @@ Questa versione di manutenzione contiene le correzioni e i miglioramenti seguent
 | Funzione | Dettagli |
 | --- | --- |
 | Tipi di pubblico [!DNL Adobe Experience Platform] in [!DNL Target] | Ora puoi sfruttare e utilizzare i tipi di pubblico [!DNL Adobe Experience Platform] in [!DNL Target]. Il team [!DNL Target], il team [!DNL Experience Platform] [!DNL Destinations] e il team [!DNL Unified Profile Service] sono lieti di annunciare la disponibilità generale dei casi d&#39;uso &quot;Same Page/Next Page Personalization&quot;.<br>L’utilizzo dei tipi di pubblico creati in [!DNL Adobe Experience Platform] fornisce dati più completi sui clienti, per una personalizzazione più incisiva. [Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html?lang=it){target=_blank} (RTCP), basato su [!DNL Adobe Experience Platform], consente alle aziende di unire dati noti e anonimi provenienti da più origini aziendali per creare profili cliente da utilizzare per fornire ai clienti esperienze personalizzate in tempo reale su tutti i canali e dispositivi.<br>Per ulteriori informazioni, consulta [Utilizzare i tipi di pubblico da Adobe Experience Platform](/help/main/c-target/c-audiences/audiences.md#aep) in *Creare tipi di pubblico*.<br>Leggi il blog di Adobe e guarda il video: [[!DNL Adobe] annuncia Same Page Enhanced Personalization with [!DNL Adobe Target] and [!DNL Real-time Customer Data Platform]](https://blog.adobe.com/en/publish/2021/10/05/adobe-announces-same-page-enhanced-personalization-with-adobe-target-real-time-customer-data-platform){target=_blank}. |
-| Aggiornamento dell&#39;interfaccia utente [!UICONTROL Audiences] | Come parte degli sforzi continui del team [!DNL Adobe Target] per migliorare l&#39;esperienza utente per [!DNL Target] utenti, questa versione aggiorna le pagine [!UICONTROL Audiences] e [!UICONTROL Profile Scripts] nell&#39;interfaccia utente [!DNL Target]. Questo aggiornamento unisce e standardizza i disegni di progettazione precedentemente incoerenti, aggiungendo nuovi miglioramenti, ad esempio:<ul><li>Possibilità di selezionare ed eliminare più tipi di pubblico contemporaneamente</li><li>Design rinnovato del [generatore di pubblico](/help/main/c-target/c-audiences/create-audience.md)</li><li>Supporto della regola di esclusione nel generatore di regole di libreria [!UICONTROL Audience]</li><li>Un nuovo filtro &quot;Audience Source&quot; per consentire un rilevamento più rapido del pubblico</li><li>Opzioni di ricerca e filtro persistenti nella sessione</li><li>Possibilità di spostare i tipi di pubblico tra aree di lavoro diverse per i clienti [!DNL Target Premium].</li></ul>Per ulteriori informazioni, consulta [Tipi di pubblico](/help/main/c-target/target.md).<br>**NOTA**: questa funzione verrà implementata per i clienti in diverse aree geografiche nelle prossime otto settimane. |
-| Aggiornamento dell&#39;interfaccia utente [!UICONTROL Profile Scripts] | Anche la libreria [!UICONTROL Profile Scripts] è stata aggiornata e include un&#39;interfaccia aggiornata insieme a diversi aggiornamenti di produttività:<ul><li>Possibilità di selezionare ed eliminare contemporaneamente più script di profilo</li><li>Un nuovo editor di codice per gli script di profilo</li><li>Evidenziazione della sintassi e controllo degli errori all’interno dell’editor di codice</li><li>Parametri dei token (mbox o profilo) che si completano automaticamente tramite scelte rapide da tastiera</li></ul>Per ulteriori informazioni, consulta [Profili visitatore](/help/main/c-target/c-visitor-profile/visitor-profile.md).<br>**NOTA**: questa funzione verrà implementata per i clienti in diverse aree geografiche nelle prossime otto settimane. |
+| [!UICONTROL Tipi di pubblico] aggiornamento interfaccia utente | Come parte degli sforzi continui del team [!DNL Adobe Target] per migliorare l&#39;esperienza utente per [!DNL Target] utenti, questa versione aggiorna le pagine [!UICONTROL Tipi di pubblico] e [!UICONTROL Script di profilo] nell&#39;interfaccia utente [!DNL Target]. Questo aggiornamento unisce e standardizza i disegni di progettazione precedentemente incoerenti, aggiungendo nuovi miglioramenti, ad esempio:<ul><li>Possibilità di selezionare ed eliminare più tipi di pubblico contemporaneamente</li><li>Design rinnovato del [generatore di pubblico](/help/main/c-target/c-audiences/create-audience.md)</li><li>Supporto della regola di esclusione nel generatore di regole della libreria [!UICONTROL Audience]</li><li>Un nuovo filtro &quot;Audience Source&quot; per consentire un rilevamento più rapido del pubblico</li><li>Opzioni di ricerca e filtro persistenti nella sessione</li><li>Possibilità di spostare i tipi di pubblico tra aree di lavoro diverse per i clienti [!DNL Target Premium].</li></ul>Per ulteriori informazioni, consulta [Tipi di pubblico](/help/main/c-target/target.md).<br>**NOTA**: questa funzione verrà implementata per i clienti in diverse aree geografiche nelle prossime otto settimane. |
+| [!UICONTROL Aggiornamento dell&#39;interfaccia utente degli script di profilo] | Anche la libreria [!UICONTROL Script di profilo] è stata aggiornata e include un&#39;interfaccia aggiornata insieme a diversi aggiornamenti di produttività:<ul><li>Possibilità di selezionare ed eliminare contemporaneamente più script di profilo</li><li>Un nuovo editor di codice per gli script di profilo</li><li>Evidenziazione della sintassi e controllo degli errori all’interno dell’editor di codice</li><li>Parametri dei token (mbox o profilo) che si completano automaticamente tramite scelte rapide da tastiera</li></ul>Per ulteriori informazioni, consulta [Profili visitatore](/help/main/c-target/c-visitor-profile/visitor-profile.md).<br>**NOTA**: questa funzione verrà implementata per i clienti in diverse aree geografiche nelle prossime otto settimane. |
 
 ### [!DNL Target Standard/Premium] 22.1.1 (12 gennaio 2022)
 
@@ -2576,11 +2546,11 @@ Questa versione contiene i seguenti aggiornamenti:
 
 Questa versione contiene le modifiche e i miglioramenti seguenti:
 
-* È stato risolto un problema che causava la disabilitazione delle opzioni [!UICONTROL Include] e [!UICONTROL Exclude] per i tipi di pubblico combinati durante la modifica di un&#39;attività. (TGT-43422)
+* È stato risolto un problema che causava la disabilitazione delle opzioni [!UICONTROL Includi] e [!UICONTROL Escludi] per i tipi di pubblico combinati durante la modifica di un&#39;attività. (TGT-43422)
 * È stato risolto un problema che impediva ad alcuni clienti di visualizzare l’elenco dei tipi di pubblico disponibili durante la modifica di un’attività. (TGT-43404)
-* È stato risolto un problema che impediva ad alcuni clienti di eliminare un indirizzo IP dall&#39;elenco &quot;[!UICONTROL IPs to exclude from [!DNL Target] reporting data]&quot; in [!UICONTROL Administration] > [!UICONTROL Reporting]. (TGT-43384)
+* È stato risolto un problema che impediva ad alcuni clienti di eliminare un indirizzo IP dall&#39;elenco &quot;[!UICONTROL IPs to exclude from [!DNL Target] reporting data]&quot; in [!UICONTROL Amministrazione] > [!UICONTROL Reporting]. (TGT-43384)
 * È stato risolto un problema che impediva l’uso di numeri negativi nel criterio di pubblico che verifica se una variabile è “maggiore di”, “maggiore o uguale a”, “minore di”; o “minore o uguale a”. (TGT-43367)
-* È stato risolto un problema che impediva ai clienti di visualizzare la scheda [!UICONTROL Audience Details] durante la creazione di tipi di pubblico combinati. (TGT-43303)
+* È stato risolto un problema che impediva ai clienti di visualizzare la scheda [!UICONTROL Dettagli pubblico] durante la creazione di tipi di pubblico combinati. (TGT-43303)
 
 ### at.js versione 2.8.0 (7 gennaio 2022)
 
@@ -2600,7 +2570,7 @@ Questa versione di manutenzione include i seguenti miglioramenti:
 
 | Funzione | Dettagli |
 | --- | --- |
-| [!UICONTROL Visual Experience Composer] (VEC) | È stato aggiunto il supporto per [Componenti web](https://developer.mozilla.org/en-US/docs/Web/Web_Components). È possibile creare e testare esperienze e offerte personalizzate su elementi personalizzati e su elementi al loro interno.<br>Per ulteriori informazioni, consulta la sezione sulle [opzioni del Compositore esperienza visivo](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#custom). |
+| [!UICONTROL Compositore esperienza visivo] (VEC) | È stato aggiunto il supporto per [Componenti web](https://developer.mozilla.org/en-US/docs/Web/Web_Components). È possibile creare e testare esperienze e offerte personalizzate su elementi personalizzati e su elementi al loro interno.<br>Per ulteriori informazioni, consulta la sezione sulle [opzioni del Compositore esperienza visivo](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#custom). |
 
 ### [!DNL Target Standard/Premium] 21.10.4 (21 ottobre 2021)
 
@@ -2608,49 +2578,49 @@ Questa versione di manutenzione include i seguenti miglioramenti:
 
 | Funzione | Dettagli |
 | --- | --- |
-| Consigli in base al carrello | È stata aggiunta una nuova famiglia di algoritmi per distribuire consigli in base al contenuto del carrello del visitatore.<br>Per ulteriori informazioni, consulta la sezione &quot;In base al carrello&quot; in [Creare criteri](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md), le sezioni &quot;Aggiunte al carrello, visualizzazioni carrello e pagine dipagamento&quot; ed &quot;Escludi elementi già presenti nel carrello del visitatore&quot; in [Pianificare e implementare le attività Consigli](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=it){target=_blank} e la sezione &quot;In base al carrello&quot; in [Basare i consigli su una chiave di consigli](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md). |
+| Consigli in base al carrello | È stata aggiunta una nuova famiglia di algoritmi per distribuire consigli in base al contenuto del carrello del visitatore.<br>Per ulteriori informazioni, consulta la sezione &quot;In base al carrello&quot; in [Creare criteri](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md), le sezioni &quot;Aggiunte al carrello, visualizzazioni carrello e pagine dipagamento&quot; ed &quot;Escludi elementi già presenti nel carrello del visitatore&quot; in [Pianificare e implementare le attività Consigli](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} e la sezione &quot;In base al carrello&quot; in [Basare i consigli su una chiave di consigli](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md). |
 
 ### [!DNL Target Standard/Premium] 21.10.3 (19 ottobre 2021)
 
 Questa versione di manutenzione include i seguenti miglioramenti, correzioni e modifiche:
 
-* Sono stati risolti i problemi che impedivano ai clienti di aprire il pannello [!UICONTROL A4T] in [!DNL Analysis Workspace] facendo clic sul pulsante [!UICONTROL View in Analytics] nel reporting attività di [!DNL Target]. (TGT-42099, TGT-42100)
-* È stato risolto un problema che impediva la visualizzazione del pulsante [!UICONTROL Edit Design] durante la modifica delle attività [!UICONTROL A/B Test] e [!UICONTROL Experience Targeting] (XT) utilizzando [!UICONTROL Form-Based Experience Composer]. (TGT-41980)
+* Sono stati risolti i problemi che impedivano ai clienti di aprire il pannello [!UICONTROL A4T] in [!DNL Analysis Workspace] facendo clic sul pulsante [!UICONTROL Visualizza in Analytics] nel reporting attività di [!DNL Target]. (TGT-42099, TGT-42100)
+* È stato risolto un problema che impediva la visualizzazione del pulsante [!UICONTROL Modifica progettazione] durante la modifica delle attività [!UICONTROL Test A/B] e [!UICONTROL Targeting esperienza] (XT) tramite il [!UICONTROL Compositore esperienza basato su moduli]. (TGT-41980)
 * È stato risolto un problema che impediva la visualizzazione della casella di controllo [!UICONTROL Compatible] nella selezione dei criteri durante la creazione di una nuova attività [!UICONTROL Recommendations]. (TGT-42053)
 * È stato corretto un messaggio di errore errato visualizzato quando non era possibile selezionare [!DNL Analytics] come origine per la generazione di rapporti (A4T) per mancanza di autorizzazioni [!DNL Analytics]. (TGT-41954)
 * Sono state implementate più correzioni di accessibilità per migliorare la navigazione da tastiera in tutte le aree dell’interfaccia utente di [!DNL Target].
 
 ### [!DNL Target Standard/Premium] 21.10.2 (13 ottobre 2021)
 
-Sono stati aggiunti i seguenti miglioramenti quando si utilizza [!DNL Target] [!UICONTROL Audiences] con [!DNL Adobe Experience Platform Web SDK]:
+Sono stati aggiunti i seguenti miglioramenti quando si utilizzano [!DNL Target] [!UICONTROL Tipi di pubblico] con [!DNL Adobe Experience Platform Web SDK]:
 
 * Sono state aggiunte icone di avviso, finestre a comparsa e messaggi in diverse aree dell’interfaccia utente [!DNL Target] per indicare che il pubblico è stato eliminato alla sorgente e non è più disponibile per l’utilizzo in attività [!DNL Target].
 
   Le illustrazioni seguenti mostrano alcuni punti in cui vengono visualizzate le icone, le finestre a comparsa e i messaggi:
 
-   * Pagina elenco [!UICONTROL Activity]
+   * Pagina elenco [!UICONTROL Attività]
 
      ![Messaggio di pubblico eliminato alla sorgente nella pagina dell’elenco Attività](assets/deleted-at-source-audiences-list.png)
 
-   * Attività [!UICONTROL Overview] pagine:
+   * Pagine dell&#39;attività [!UICONTROL Panoramica]:
 
      ![Messaggio di pubblico eliminato alla sorgente nella pagina della panoramica](assets/deleted-at-source-overview.png)
 
-   * Passaggio [!UICONTROL Experiences] del flusso di lavoro per la creazione di attività:
+   * Passaggio [!UICONTROL Esperienze] del flusso di lavoro per la creazione di attività:
 
-     ![Messaggio di pubblico eliminato alla sorgente nella pagina [!UICONTROL Experiences]](assets/deleted-at-source-experiences.png)
+     ![Messaggio di pubblico eliminato alla sorgente in [!UICONTROL Esperienze] pagina](assets/deleted-at-source-experiences.png)
 
-   * Passaggio [!UICONTROL Targeting] del flusso di lavoro per la creazione di attività:
+   * [!UICONTROL Passaggio Targeting] del flusso di lavoro per la creazione di attività:
 
-     ![Messaggio di pubblico eliminato alla sorgente nella pagina [!UICONTROL Targeting]](assets/deleted-at-source-targeting.png)
+     ![Messaggio di pubblico eliminato alla sorgente in [!UICONTROL Pagina di targeting]](assets/deleted-at-source-targeting.png)
 
-   * Passaggio [!UICONTROL Goals & Settings] del flusso di lavoro per la creazione di attività:
+   * [!UICONTROL Obiettivi e impostazioni] passaggio del flusso di lavoro per la creazione di attività:
 
-     ![Messaggio di pubblico eliminato alla sorgente nella pagina [!UICONTROL Goals & Settings]](assets/deleted-at-source-goals-settings.png)
+     ![Messaggio di pubblico eliminato alla sorgente nella pagina [!UICONTROL Obiettivi e impostazioni]](assets/deleted-at-source-goals-settings.png)
 
-   * Ottimizzazioni del pubblico ([!UICONTROL Replace Audience] nel passaggio [!UICONTROL Targeting] del flusso di lavoro per la creazione di attività):
+   * Ottimizzazioni del pubblico ([!UICONTROL Sostituisci pubblico] nel passaggio [!UICONTROL Targeting] del flusso di lavoro per la creazione di attività):
 
-* Se tenti di utilizzare la funzione Combina pubblico e uno dei tipi di pubblico è stato eliminato alla sorgente, [!UICONTROL Save] è disabilitato.
+* Se tenti di utilizzare la funzione Combina pubblico e uno dei tipi di pubblico è stato eliminato all&#39;origine, [!UICONTROL Salva] è disabilitato.
 
 ### [!DNL Target Standard/Premium] 21.10.1 (6 ottobre 2021)
 
@@ -2658,27 +2628,27 @@ Questa versione include le seguenti nuove funzionalità:
 
 | Funzione | Dettagli |
 | --- | --- |
-| Aggiornamento dell&#39;interfaccia utente [!UICONTROL Audiences] | Come parte degli sforzi continui del team [!DNL Adobe Target] per migliorare l&#39;esperienza utente per [!DNL Target] utenti, questa versione aggiorna le pagine [!UICONTROL Audiences] e [!UICONTROL Profile Scripts] nell&#39;interfaccia utente [!DNL Target]. Questo aggiornamento unisce e standardizza i disegni di progettazione precedentemente incoerenti, aggiungendo nuovi miglioramenti, ad esempio:<ul><li>Possibilità di selezionare ed eliminare più tipi di pubblico contemporaneamente</li><li>Design rinnovato del [generatore di pubblico](/help/main/c-target/c-audiences/create-audience.md)</li><li>Supporto della regola di esclusione nel generatore di regole di libreria [!UICONTROL Audience]</li><li>Un nuovo filtro &quot;Audience Source&quot; per consentire un rilevamento più rapido del pubblico</li><li>Opzioni di ricerca e filtro persistenti nella sessione</li></ul>Per ulteriori informazioni, consulta [Tipi di pubblico](/help/main/c-target/target.md). |
-| Aggiornamento dell&#39;interfaccia utente [!UICONTROL Profile Scripts] | Anche la libreria [!UICONTROL Profile Scripts] è stata aggiornata e include un&#39;interfaccia aggiornata insieme a diversi aggiornamenti di produttività:<ul><li>Possibilità di selezionare ed eliminare contemporaneamente più script di profilo</li><li>Un nuovo editor di codice per gli script di profilo</li><li>Evidenziazione della sintassi e controllo degli errori all’interno dell’editor di codice</li><li>Parametri dei token (mbox o profilo) che si completano automaticamente tramite scelte rapide da tastiera</li></ul>Per ulteriori informazioni, consulta [Profili dei visitatori](/help/main/c-target/c-visitor-profile/visitor-profile.md). |
-| Creazione e modifica dei criteri per i consigli [!BADGE Premium]{type=Positive url="/help/main/c-intro/intro.md#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."} | Il flusso di lavoro di creazione e modifica di [!UICONTROL Recommendations Criteria] è stato razionalizzato per semplificare la scelta dell&#39;algoritmo e delle impostazioni consigliate per raggiungere gli obiettivi.<br>Per ulteriori informazioni, consulta [Creare i criteri](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md). |
+| [!UICONTROL Tipi di pubblico] aggiornamento interfaccia utente | Come parte degli sforzi continui del team [!DNL Adobe Target] per migliorare l&#39;esperienza utente per [!DNL Target] utenti, questa versione aggiorna le pagine [!UICONTROL Tipi di pubblico] e [!UICONTROL Script di profilo] nell&#39;interfaccia utente [!DNL Target]. Questo aggiornamento unisce e standardizza i disegni di progettazione precedentemente incoerenti, aggiungendo nuovi miglioramenti, ad esempio:<ul><li>Possibilità di selezionare ed eliminare più tipi di pubblico contemporaneamente</li><li>Design rinnovato del [generatore di pubblico](/help/main/c-target/c-audiences/create-audience.md)</li><li>Supporto della regola di esclusione nel generatore di regole della libreria [!UICONTROL Audience]</li><li>Un nuovo filtro &quot;Audience Source&quot; per consentire un rilevamento più rapido del pubblico</li><li>Opzioni di ricerca e filtro persistenti nella sessione</li></ul>Per ulteriori informazioni, consulta [Tipi di pubblico](/help/main/c-target/target.md). |
+| [!UICONTROL Aggiornamento dell&#39;interfaccia utente degli script di profilo] | Anche la libreria [!UICONTROL Script di profilo] è stata aggiornata e include un&#39;interfaccia aggiornata insieme a diversi aggiornamenti di produttività:<ul><li>Possibilità di selezionare ed eliminare contemporaneamente più script di profilo</li><li>Un nuovo editor di codice per gli script di profilo</li><li>Evidenziazione della sintassi e controllo degli errori all’interno dell’editor di codice</li><li>Parametri dei token (mbox o profilo) che si completano automaticamente tramite scelte rapide da tastiera</li></ul>Per ulteriori informazioni, consulta [Profili dei visitatori](/help/main/c-target/c-visitor-profile/visitor-profile.md). |
+| Creazione e modifica dei criteri per i consigli [!BADGE Premium]{type=Positive url="/help/main/c-intro/intro.md#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."} | Il flusso di lavoro di creazione e modifica dei [!UICONTROL Criteri di Recommendations] è stato razionalizzato per semplificare la scelta dell&#39;algoritmo e delle impostazioni consigliate per raggiungere gli obiettivi.<br>Per ulteriori informazioni, consulta [Creare i criteri](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md). |
 | ![Badge Premium](/help/main/assets/premium.png) Miglioramenti della frequenza di aggiornamento dell’intervallo di lookback e dell’algoritmo della funzione Consigli | È ora possibile eseguire gli algoritmi “Più visualizzati” e “Più venduti” con un intervallo di lookback di sei ore per acquisire il contenuto con tendenze più recenti. Quando l’intervallo di lookback di sei ore è selezionato, i risultati dei consigli vengono aggiornati ogni 3-6 ore nel corso della giornata.<br>Per ulteriori informazioni, consulta [Origine dati](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#data-source) in *Creare i criteri*. |
 
 ### [!DNL Target Standard/Premium] 21.9.1 (14 settembre 2021)
 
 Questa versione di manutenzione include i seguenti miglioramenti, correzioni e modifiche.
 
-* Sono stati risolti dei problemi che impedivano ai clienti di accedere al [!UICONTROL Visual Experience Composer] (VEC) a causa di nuovi criteri di sicurezza per i cookie di terze parti in alcuni browser Web. Questo problema è stato discusso in “Pagine non caricate nel Compositore esperienza visivo o Compositore esperienza avanzato quando si utilizza Google Chrome versione 80+” in [Risoluzione dei problemi relativi al Compositore esperienza visivo e al Compositore esperienza avanzato](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md).
+* Sono stati risolti dei problemi che, in alcuni browser Web, impedivano ai clienti di accedere al [!UICONTROL Compositore esperienza visivo] a causa di nuovi criteri di sicurezza per i cookie di terze parti. Questo problema è stato discusso in “Pagine non caricate nel Compositore esperienza visivo o Compositore esperienza avanzato quando si utilizza Google Chrome versione 80+” in [Risoluzione dei problemi relativi al Compositore esperienza visivo e al Compositore esperienza avanzato](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md).
 * È stato risolto un problema a causa del quale i nomi delle offerte nel Compositore esperienza visivo mostravano il percorso dell’offerta invece del nome descrittivo. (TGT-41300)
 * I nomi delle esperienze ora si riflettono in [!DNL Analysis Workspace] per le attività A4T. (TGT-38674)
 * È stato risolto un problema in [!DNL Recommendations] a causa del quale le modifiche di ID entità in una promozione in un’attività duplicata venivano erroneamente applicate all’attività originale. (TGT-41482)
-* È stato risolto un problema che impediva la corretta visualizzazione del pulsante &quot;Modifica criteri&quot; nella pagina [!UICONTROL Experiences] per le attività [!DNL Recommendations] nel Compositore esperienza visivo. (TGT-39512)
+* È stato risolto un problema che impediva la corretta visualizzazione del pulsante &quot;Modifica criteri&quot; nella pagina [!UICONTROL Esperienze] per le attività [!DNL Recommendations] nel Compositore esperienza visivo. (TGT-39512)
 * È stato risolto un problema che impediva la sincronizzazione delle attività quando venivano duplicate e copiate in un’area di lavoro di test. (TGT-40686)
-* È stato risolto un problema che impediva la modifica di un selettore con [frammenti di esperienza](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md) durante l&#39;utilizzo di &quot;[!UICONTROL Insert After]&quot; nel Compositore esperienza visivo. (TGT-41802)
+* È stato risolto un problema che impediva la modifica di un selettore con [frammenti di esperienza](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md) quando si utilizzava &quot;[!UICONTROL Inserisci dopo]&quot; nel Compositore esperienza visivo. (TGT-41802)
 * È stato risolto un problema che impediva l’invio al backend di contenuto JSON vuoto in un’offerta. [!DNL Target] ora invia l’oggetto JSON anche se è vuoto. (TGT-41555)
-* È stato risolto un problema che causava l&#39;apertura del report legacy [!DNL Analytics] invece di [!DNL Analysis Workspace] quando i clienti facevano clic su &quot;[!UICONTROL View in Analytics]&quot; durante la visualizzazione di un report. (TGT-41867)
-* Sono stati aggiunti ulteriori chiarimenti al messaggio visualizzato nell&#39;interfaccia utente quando un cliente tenta di selezionare [!DNL Analytics] come origine per la generazione di rapporti (A4T) per un&#39;attività [!UICONTROL Automated Personalization]. Il messaggio indica che &quot;[!DNL Target] è l&#39;unica origine supportata per le attività [!UICONTROL Automated Personalization].&quot; (TGT-41954)
+* È stato risolto un problema che causava l&#39;apertura del report legacy [!DNL Analytics] invece di [!DNL Analysis Workspace] quando i clienti facevano clic su &quot;[!UICONTROL Visualizza in Analytics]&quot; durante la visualizzazione di un report. (TGT-41867)
+* Sono stati aggiunti ulteriori chiarimenti al messaggio visualizzato nell&#39;interfaccia utente quando un cliente tenta di selezionare [!DNL Analytics] come origine per la generazione di rapporti (A4T) per un&#39;attività [!UICONTROL Automated Personalization]. Il messaggio indica che &quot;[!DNL Target] è l&#39;unica origine supportata per le attività di [!UICONTROL Automated Personalization].&quot; (TGT-41954)
 * È stato aggiunto un ulteriore chiarimento al messaggio di errore visualizzato quando i clienti tentano di separare gli host con “nuova riga” invece delle virgole. (TGT-40671)
-* È stato risolto un problema che causava discrepanze nelle date di alcune attività &quot;[!UICONTROL Last Updated]&quot; rispetto all&#39;interfaccia utente inglese per i clienti spagnoli e giapponesi (quando si visualizzava l&#39;interfaccia utente in spagnolo e giapponese). (TGT-38980)
+* È stato risolto un problema che causava discrepanze nelle date di &quot;[!UICONTROL Ultimo aggiornamento]&quot; in alcune attività, nell&#39;interfaccia utente in spagnolo e giapponese rispetto a quella in inglese. (TGT-38980)
 
 ### at.js 2.6.1 (16 agosto 2021)
 
@@ -2695,7 +2665,7 @@ Per ulteriori informazioni su questa versione e sulle versioni precedenti, consu
 
 Questa versione di manutenzione contiene molti miglioramenti al back-end, tra cui la seguente modifica visualizzata dal cliente:
 
-* È stato risolto un problema a causa del quale i rapporti per le attività [!UICONTROL Auto Personalization] create in [!UICONTROL Form-Based Experience Composer] facevano riferimento a offerte eliminate nei rapporti. Questo problema causava la visualizzazione di un messaggio di errore di tipo: “Si sono verificati dei problemi nel recupero dei dati per questo rapporto. Se il problema persiste, contatta l’Assistenza clienti Adobe.” (TGT-41028)
+* È stato risolto un problema a causa del quale i rapporti per le attività [!UICONTROL Auto Personalization] create nel [!UICONTROL Compositore esperienza basato su moduli] facevano riferimento a offerte eliminate nei rapporti. Questo problema causava la visualizzazione di un messaggio di errore di tipo: “Si sono verificati dei problemi nel recupero dei dati per questo rapporto. Se il problema persiste, contatta l’Assistenza clienti Adobe.” (TGT-41028)
 
 ### API di consegna di Target (3 agosto 2021)
 
@@ -2717,13 +2687,13 @@ Questa versione contiene le nuove funzioni e i miglioramenti seguenti. I codici 
 
 | Funzione | Dettagli |
 | --- | --- |
-| [!UICONTROL Analytics for Target] (A4T) | Facendo clic sul collegamento &quot;[!UICONTROL View in Analytics]&quot; sulla pagina [!UICONTROL Reports] da un&#39;attività che utilizza [!DNL Analytics] come origine per la generazione di rapporti (A4T), ora viene aperto [!DNL Analysis Workspace]. In precedenza, il collegamento apriva la funzione di generazione rapporti di [!DNL Analytics]. (TGT-36959) |
+| [!UICONTROL Analytics for Target] (A4T) | Facendo clic sul collegamento &quot;[!UICONTROL Visualizza in Analytics]&quot; nella pagina [!UICONTROL Rapporti] da un&#39;attività che utilizza [!DNL Analytics] come origine per la generazione di rapporti (A4T), ora viene aperto [!DNL Analysis Workspace]. In precedenza, il collegamento apriva la funzione di generazione rapporti di [!DNL Analytics]. (TGT-36959) |
 
 ### Python SDK 1.0.0 (16 giugno 2021)
 
 È ora disponibile il nuovo SDK Python [!DNL Adobe Target] con funzionalità di decisioning sul dispositivo. Questa nuova aggiunta rafforza la suite di SDK lato server per [!DNL Target]. Questi SDK facilitano l’integrazione con [!DNL Target] e velocizzano il time to value, nel linguaggio che preferisci. Le integrazioni lato server stanno diventando una scelta popolare dato che il mercato si sta spostando verso un mondo senza cookie in cui i dati di prime parti sono preziosi. Gli SDK di Target sono disponibili nei linguaggi di programmazione più diffusi sul mercato (Python, Java, JavaScript, C# / .Net).
 
-Per ulteriori informazioni, consulta la [documentazione di Python SDK](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/python/overview.html?lang=it){target=_blank} nella [Guida per gli sviluppatori di Adobe Target](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=it){target=_blank}.
+Per ulteriori informazioni, consulta la [documentazione di Python SDK](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/python/overview.html){target=_blank} nella [Guida per gli sviluppatori di Adobe Target](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=it){target=_blank}.
 
 ### Target Standard/Premium 21.5.1 (7 giugno 2021)
 
@@ -2731,12 +2701,12 @@ Questa versione include i seguenti miglioramenti:
 
 | Funzione | Dettagli |
 | --- | --- |
-| ![Badge Premium](/help/main/assets/premium.png) [!DNL Recommendations] [!UICONTROL Catalog Search] API | Cerca nel catalogo di prodotti e contenuti [!DNL Recommendations] a livello di programmazione tramite API per identificare gli elementi che corrispondono a un criterio di ricerca e semplificare l’amministrazione del catalogo.<br>**Limitazioni e note**:<ul><li>La ricerca nel catalogo tramite API non è supportata per gli ambienti con più di 2.000.000 elementi.</li><li>I risultati della ricerca nel catalogo tramite API vengono aggiornati più rapidamente dei risultati della ricerca nel catalogo tramite l’interfaccia utente di [!DNL Target]. La ricerca nel catalogo nell’interfaccia utente di [!DNL Target] può richiedere tempo aggiuntivo per riflettere i risultati più recenti.</li></ul>Per ulteriori informazioni, consulta [Ricerca di entità](https://developers.adobetarget.com/api/recommendations/#tag/Searching-Entities) nella guida delle API di *[!DNL Adobe Target]&#x200B;[!DNL Recommendations]*. |
+| ![Badge Premium](/help/main/assets/premium.png) [!DNL Recommendations] [!UICONTROL API di ricerca catalogo] | Cerca nel catalogo di prodotti e contenuti [!DNL Recommendations] a livello di programmazione tramite API per identificare gli elementi che corrispondono a un criterio di ricerca e semplificare l’amministrazione del catalogo.<br>**Limitazioni e note**:<ul><li>La ricerca nel catalogo tramite API non è supportata per gli ambienti con più di 2.000.000 elementi.</li><li>I risultati della ricerca nel catalogo tramite API vengono aggiornati più rapidamente dei risultati della ricerca nel catalogo tramite l’interfaccia utente di [!DNL Target]. La ricerca nel catalogo nell’interfaccia utente di [!DNL Target] può richiedere tempo aggiuntivo per riflettere i risultati più recenti.</li></ul>Per ulteriori informazioni, consulta [Ricerca di entità](https://developers.adobetarget.com/api/recommendations/#tag/Searching-Entities) nella guida delle API di *[!DNL Adobe Target][!DNL Recommendations]*. |
 
 Questa versione di manutenzione include le seguenti correzioni.
 
-* È stato risolto un problema che causava la modifica dell&#39;area di lavoro predefinita in un&#39;altra area di lavoro durante l&#39;aggiornamento della pagina [!UICONTROL Audiences]. (TGT-38871)
-* È stato risolto un problema in [!UICONTROL Administration] > [!UICONTROL Implementation] che a volte causava un messaggio di errore di tipo: &quot;La mbox globale potrebbe non essere sincronizzata. Prova a salvarla di nuovo.”
+* È stato risolto un problema che causava la modifica dell&#39;area di lavoro predefinita in un&#39;altra area di lavoro durante l&#39;aggiornamento della pagina [!UICONTROL Tipi di pubblico]. (TGT-38871)
+* È stato risolto un problema in [!UICONTROL Amministrazione] > [!UICONTROL Implementazione] che a volte causava un messaggio di errore che indicava: &quot;La mbox globale potrebbe non essere sincronizzata. Prova a salvarla di nuovo.”
 
 ### ![Badge Adobe Experience Platform Web SDK](/help/main/assets/platform.png) [!DNL Adobe Experience Platform Web SDK] versione 2.5.0 (1° giugno 2021)
 
@@ -2766,9 +2736,9 @@ Questa versione contiene le nuove funzioni e i miglioramenti seguenti. I codici 
 
 Questa versione include le seguenti correzioni.
 
-* È stato risolto un problema che impediva la sincronizzazione di un&#39;attività dopo la modifica del pubblico in [!UICONTROL All Visitors]. (TGT-40259)
-* È stato risolto un problema che impediva la duplicazione delle offerte quando vengono utilizzate in posizioni diverse nelle attività [!UICONTROL Automated Personalization] anche se l&#39;opzione [!UICONTROL Disallow Duplicates] è abilitata. (TGT-39567)
-* È stato risolto un problema che impediva il caricamento corretto della pagina [!UICONTROL Administration] > [!UICONTROL Scene7 configuration]. (TGT-39918)
+* È stato risolto un problema che impediva la sincronizzazione di un&#39;attività dopo la modifica del pubblico in [!UICONTROL Tutti i visitatori]. (TGT-40259)
+* È stato risolto un problema che impediva la duplicazione delle offerte se venivano utilizzate in posizioni diverse nelle attività [!UICONTROL Automated Personalization] anche se l&#39;opzione [!UICONTROL Non consentire duplicati] è abilitata. (TGT-39567)
+* È stato risolto un problema che impediva il caricamento corretto della pagina [!UICONTROL Amministrazione] > [!UICONTROL Configurazione Scene7]. (TGT-39918)
 * È stato risolto un problema che causava il mapping delle proprietà sull’area di lavoro errata. (TGT-39869)
 * È stato risolto un problema che causava un caricamento infinito se la richiesta non riusciva dopo la modifica dell’ambiente durante la creazione di un’esclusione di consigli. (TGT-39948)
 
@@ -2797,9 +2767,9 @@ I codici tra parentesi sono per uso interno di [!DNL Adobe].
   | Offerte visive dall’interfaccia utente di Target | 64 KB | 1024 KB per ogni esperienza |
   | Tramite API | 512 KB | 1024 KB |
 
-* I report [!UICONTROL Personalization Insights] per le attività [!UICONTROL Auto-Target] (AT) e [!UICONTROL Automated Personalization] (AP) ora vengono prodotti ogni giorno. È possibile scegliere un report che fornisce [!UICONTROL Automated Segments] o [!UICONTROL Important Attributes] per gli ultimi 15, 30 e 60 giorni. Le opzioni di 45 giorni e 90 giorni sono state rimosse per consentire l’esecuzione giornaliera delle altre impostazioni dell’intervallo di lookback. (TGT-39472)
-* È stato risolto un problema che impediva la visualizzazione della dipendenza corrente quando i clienti facevano clic su [!UICONTROL Edit Dependency] nella pagina [!UICONTROL Goals & Settings] di un&#39;attività. (TGT-39340)
-* È stato risolto un problema che si verificava durante l&#39;aggiornamento di [!UICONTROL Audience Library] di un&#39;area di lavoro. Prima dell’aggiornamento, vengono visualizzati i tipi di pubblico per l’area di lavoro attualmente selezionata. Dopo l&#39;aggiornamento, [!UICONTROL Default Workspace] e i relativi tipi di pubblico vengono visualizzati. L’area di lavoro corrente e i relativi tipi di pubblico ora persistono dopo l’aggiornamento. (TGT-38871)
+* I rapporti [!UICONTROL Personalization Insights] per le attività [!UICONTROL Targeting automatico] (AT) e [!UICONTROL Automated Personalization] (AP) ora vengono prodotti ogni giorno. Puoi scegliere un report che fornisce [!UICONTROL Segmenti automatizzati] o [!UICONTROL Attributi importanti] per gli ultimi 15, 30 e 60 giorni. Le opzioni di 45 giorni e 90 giorni sono state rimosse per consentire l’esecuzione giornaliera delle altre impostazioni dell’intervallo di lookback. (TGT-39472)
+* È stato risolto un problema che impediva la visualizzazione della dipendenza corrente al clic del cliente su [!UICONTROL Modifica dipendenza] nella pagina [!UICONTROL Obiettivi e impostazioni] di un&#39;attività. (TGT-39340)
+* È stato risolto un problema che si verificava durante l&#39;aggiornamento della [!UICONTROL Libreria pubblico] di un&#39;area di lavoro. Prima dell’aggiornamento, vengono visualizzati i tipi di pubblico per l’area di lavoro attualmente selezionata. Dopo l&#39;aggiornamento, vengono visualizzati il [!UICONTROL Workspace predefinito] e i relativi tipi di pubblico. L’area di lavoro corrente e i relativi tipi di pubblico ora persistono dopo l’aggiornamento. (TGT-38871)
 * È stato risolto un problema che si verificava durante la copia di un&#39;attività [!UICONTROL Recommendations] e in seguito modificando l&#39;attività originale con la variazione della sequenza di criteri. La modifica nella sequenza di criteri nell’attività originale veniva erroneamente applicata anche all’attività copiata. (TGT-39155)
 * È stato risolto un problema che causava la visualizzazione di un numero errato di prodotti per [!UICONTROL Recommendations] esclusioni. (TGT-39599)
 
@@ -2809,16 +2779,16 @@ Questa versione di manutenzione include i seguenti miglioramenti, correzioni e m
 
 I codici tra parentesi sono per uso interno di [!DNL Adobe].
 
-* È stato aggiunto un avviso durante la selezione di una metrica [!DNL Adobe Analytics] quando si utilizza [!UICONTROL Analytics as the reporting source] (A4T) in un&#39;attività [!UICONTROL Auto-Target]. I modelli [!UICONTROL Auto-Target] sono ottimizzati per funzionare con metriche binarie (basate sulla conversione). La selezione di una metrica continua, ad esempio i ricavi, potrebbe avere risultati non ottimali e i report [!UICONTROL Personalization Insights] potrebbero non essere accurati. (TGT-38926)
-* È stata aggiunta un&#39;icona di stato nel rapporto [!UICONTROL Auto-Target Summary] per le attività [!UICONTROL Auto-Target] che utilizzano A4T. L&#39;icona di controllo verde accanto a ogni esperienza nel rapporto indica che per quell&#39;esperienza è stato generato un modello di apprendimento automatico personalizzato. L&#39;icona dell&#39;orologio indica che non è stato fornito abbastanza traffico per generare il modello. (TGT-38925)
-* I rapporti [!UICONTROL Automated Segments] e [!UICONTROL Important Attributes] per le attività [!UICONTROL Auto-Target] che utilizzano metriche di conversione A4T e [!DNL Analytics] vengono generati e hanno lo stesso aspetto di quando si utilizza [!DNL Target] come origine per la generazione di rapporti. (TGT-38931)
-* Opzione di filtro dell&#39;ambiente aggiunta all&#39;elenco [!UICONTROL Recommendations] [!UICONTROL Collections]. (TGT-38353)
+* È stato aggiunto un avviso durante la selezione di una metrica [!DNL Adobe Analytics] quando si utilizza [!UICONTROL Analytics come origine per la generazione di rapporti] (A4T) in un&#39;attività [!UICONTROL Targeting automatico]. I modelli [!UICONTROL Targeting automatico] sono ottimizzati per funzionare con metriche binarie (basate sulla conversione). La selezione di una metrica continua, come i ricavi, potrebbe avere risultati non ottimali e i rapporti [!UICONTROL Personalization Insights] potrebbero non essere accurati. (TGT-38926)
+* È stata aggiunta un&#39;icona di stato nel report [!UICONTROL Riepilogo targeting automatico] per le attività [!UICONTROL Targeting automatico] che utilizzano A4T. L&#39;icona di controllo verde accanto a ogni esperienza nel rapporto indica che per quell&#39;esperienza è stato generato un modello di apprendimento automatico personalizzato. L&#39;icona dell&#39;orologio indica che non è stato fornito abbastanza traffico per generare il modello. (TGT-38925)
+* I rapporti [!UICONTROL Segmenti automatizzati] e [!UICONTROL Attributi importanti] per le attività [!UICONTROL Targeting automatico] che utilizzano A4T e le metriche di conversione [!DNL Analytics] vengono generati e hanno lo stesso aspetto di quando si utilizza [!DNL Target] come origine per la generazione di rapporti. (TGT-38931)
+* È stata aggiunta un&#39;opzione di filtro dell&#39;ambiente all&#39;elenco [!UICONTROL Recommendations] [!UICONTROL Collections]. (TGT-38353)
 * È stato risolto un problema che causava la visualizzazione del conteggio dei prodotti errato nelle raccolte [!UICONTROL Recommendations]. (TGT-39162)
-* È stato aggiunto un filtro [!UICONTROL Last Updated] a [!UICONTROL Recommendations] [!UICONTROL Catalog Search]. (TGT-38340)
-* È stato risolto un problema in [!UICONTROL Recommendations] che causava il blocco della pagina [!UICONTROL Create Sequence] dopo la modifica del settore verticale. (TGT-38160)
+* È stato aggiunto il filtro [!UICONTROL Ultimo aggiornamento] alla [!UICONTROL Recommendations] [!UICONTROL Ricerca nel catalogo]. (TGT-38340)
+* È stato risolto un problema in [!UICONTROL Recommendations] che causava il blocco della pagina [!UICONTROL Crea sequenza] dopo la modifica del settore verticale. (TGT-38160)
 * È stato risolto un problema che impediva agli utenti di rimuovere un pubblico da un&#39;offerta in un&#39;attività [!UICONTROL Automated Personalization] (AP). (TGT-39058)
-* È stato risolto un problema che causava la visualizzazione errata dell&#39;intervallo di tempo (date di inizio e di fine) nelle schede [!UICONTROL Audience Info] per alcuni clienti. (TGT-39150)
-* È stato risolto un problema che impediva ad alcuni clienti di visualizzare l&#39;elenco delle attività in [!UICONTROL Default Workspace]. (TGT-38526)
+* È stato risolto un problema che causava la visualizzazione errata dell&#39;intervallo di tempo (date di inizio e di fine) nelle schede [!UICONTROL Informazioni pubblico] per alcuni clienti. (TGT-39150)
+* È stato risolto un problema che impediva ad alcuni clienti di visualizzare l&#39;elenco delle attività in [!UICONTROL Workspace predefinito]. (TGT-38526)
 
 ### at.js 2.4.0 (14 gennaio 2021)
 
@@ -2839,9 +2809,9 @@ Questa versione include le seguenti nuove funzionalità:
 
 Questa versione include i miglioramenti, le correzioni e le modifiche seguenti:
 
-* È stato risolto un problema che impediva la visualizzazione di [!UICONTROL Average Lift Confidence Interval] e [!UICONTROL Confidence] nel reporting [!DNL Auto-Target] per la riga [!UICONTROL Total]. Le misurazioni vengono visualizzate correttamente per tutte le singole esperienze. (TGT-37301)
-* È stato risolto un problema che ha interessato la generazione di rapporti [!UICONTROL Auto-Target] per [!DNL Adobe Target Premium] utenti dal 15 settembre alle 2:30 (PDT) al 6 ottobre alle 9:25 (PDT). Quando si visualizzano i rapporti per le metriche di conversione interessate (configurate utilizzando l&#39;opzione &quot;[!UICONTROL Viewed a page]&quot; o &quot;[!UICONTROL Clicked on mbox]&quot;), i tassi di conversione non vengono riportati correttamente. Al momento non è presente alcun problema di consegna noto.
-* È stata aggiunta una colonna [!UICONTROL Last Updated At] selezionabile nella tabella [!UICONTROL Catalog Search] e un filtro [!UICONTROL Last Updated At]. Questo miglioramento consente di risparmiare tempo e lavoro: non è più necessario aprire ogni singolo elemento per vedere quando è stato aggiornato per l’ultima volta, ed è possibile filtrare in base alla data dell’ultimo aggiornamento degli elementi.
+* È stato risolto un problema che impediva la visualizzazione di [!UICONTROL Incremento medio intervallo di affidabilità] e [!UICONTROL Affidabilità] nel reporting [!DNL Auto-Target] per la riga [!UICONTROL Totale]. Le misurazioni vengono visualizzate correttamente per tutte le singole esperienze. (TGT-37301)
+* È stato risolto un problema che ha interessato la generazione rapporti [!UICONTROL Targeting automatico] di [!DNL Adobe Target Premium] utenti dal 15 settembre alle 2:30 p.m. (PDT) al 6 ottobre alle 9:25 a.m. (PDT). Quando si visualizzano i rapporti per le metriche di conversione interessate (configurate utilizzando l&#39;opzione &quot;[!UICONTROL Visualizzazione di una pagina]&quot; o &quot;[!UICONTROL Clic su una mbox]&quot;), i tassi di conversione non vengono riportati correttamente. Al momento non è presente alcun problema di consegna noto.
+* È stata aggiunta una colonna selezionabile [!UICONTROL Ultimo aggiornamento alle] nella tabella [!UICONTROL Ricerca nel catalogo] e un filtro [!UICONTROL Ultimo aggiornamento alle]. Questo miglioramento consente di risparmiare tempo e lavoro: non è più necessario aprire ogni singolo elemento per vedere quando è stato aggiornato per l’ultima volta, ed è possibile filtrare in base alla data dell’ultimo aggiornamento degli elementi.
 
   ![Illustrazione della colonna e del filtro Ultimo aggiornamento](/help/main/r-release-notes/assets/column-and-filter.png)
 
@@ -2862,7 +2832,7 @@ Questa versione di manutenzione include i seguenti miglioramenti, correzioni e m
 
 | Funzione | Dettagli |
 | --- | --- |
-| ![Icona Premium](/help/main/assets/premium.png) Supporto di Analytics for Target (A4T) per le attività di Targeting automatico | [!UICONTROL Auto-Target] attività ora supportano [Analytics for Target](/help/main/c-integrating-target-with-mac/a4t/a4t.md).<br>Questa integrazione consente di utilizzare l&#39;algoritmo di machine learning [!UICONTROL Auto-Target] per scegliere l&#39;esperienza migliore per ogni visitatore in base a profilo, comportamento e contesto.<br>Se hai già implementato [A4T](/help/main/c-integrating-target-with-mac/a4t/a4timplementation.md) per l&#39;utilizzo con attività di test A/B ed Experience Targeting, è tutto pronto!<br>Per ulteriori informazioni, consulta [Supporto A4T per attività di allocazione automatica e targeting automatico](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md). |
+| ![Icona Premium](/help/main/assets/premium.png) Supporto di Analytics for Target (A4T) per le attività di Targeting automatico | Le attività di [!UICONTROL Targeting automatico] ora supportano [Analytics for Target](/help/main/c-integrating-target-with-mac/a4t/a4t.md).<br>Questa integrazione consente di utilizzare l&#39;algoritmo di machine learning [!UICONTROL Targeting automatico] per scegliere l&#39;esperienza migliore per ogni visitatore in base a profilo, comportamento e contesto.<br>Se hai già implementato [A4T](/help/main/c-integrating-target-with-mac/a4t/a4timplementation.md) per l&#39;utilizzo con attività di test A/B ed Experience Targeting, è tutto pronto!<br>Per ulteriori informazioni, consulta [Supporto A4T per attività di allocazione automatica e targeting automatico](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md). |
 
 ### Target Standard/Premium 20.8.2 (10 settembre 2020)
 
@@ -2874,21 +2844,21 @@ Questa versione di manutenzione include i seguenti miglioramenti, correzioni e m
 
 Questa versione include i miglioramenti, le correzioni e le modifiche seguenti:
 
-* È stato risolto un problema che causava la visualizzazione di errori durante il caricamento delle nuove pagine [!UICONTROL Administration] dopo il cambio di organizzazione. (TGT-37730)
-* È stato risolto un problema che causava la visualizzazione del codice client errato nella pagina [!UICONTROL Administration > Implementation]. (TGT-37849)
-* È stato risolto un problema che a volte impediva agli utenti di utilizzare le funzioni di modifica nel Compositore esperienza visivo [!UICONTROL Visual Experience Composer] dopo il suo corretto caricamento. (TGT-37162)
+* È stato risolto un problema che causava la visualizzazione di errori durante il caricamento delle nuove pagine [!UICONTROL Amministrazione] dopo il cambio di organizzazione. (TGT-37730)
+* È stato risolto un problema che causava la visualizzazione del codice client errato nella pagina [!UICONTROL Amministrazione > Implementazione]. (TGT-37849)
+* È stato risolto un problema che a volte impediva agli utenti di utilizzare le funzioni di modifica nel [!UICONTROL Compositore esperienza visivo] dopo il suo corretto caricamento. (TGT-37162)
 * È stato risolto un problema che impediva il caricamento delle pagine in Compositore esperienza visivo e Compositore esperienza avanzato anche se l’estensione VEC Helper era installata. Questo era dovuto a cambiamenti in Google Chrome 80+. Scarica l’[estensione VEC Helper aggiornata](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md). (TGT-37893)
-* È stato risolto un problema che a volte impediva agli utenti di scaricare at.js dalla pagina [!UICONTROL Administration > Implementation] dopo il cambio di organizzazione. (TGT-37668)
+* È stato risolto un problema che a volte impediva agli utenti di scaricare at.js dalla pagina [!UICONTROL Amministrazione > Implementazione] dopo il cambio di organizzazione. (TGT-37668)
 * Il pulsante di download di at.js ora è disattivato durante il caricamento per impedire a [!DNL Target] di inviare più richieste se gli utenti fanno clic più volte. (TGT-37633)
-* È stato risolto un problema nelle attività [!UICONTROL Experience Targeting] (XT) a causa del quale le esperienze visualizzavano il messaggio &quot;recupero risultati&quot; per un periodo di tempo prolungato. (TGT-37684)
+* È stato risolto un problema nelle attività [!UICONTROL Targeting esperienza] (XT) a causa del quale le esperienze visualizzavano il messaggio &quot;recupero risultati&quot; per un periodo di tempo prolungato. (TGT-37684)
 * Sono state migliorate la navigazione e la funzionalità per gli utenti che utilizzano solo la tastiera. (TGT-34479 e TGT-34473)
 * Sono state aggiunte etichette nell’interfaccia utente per aiutare gli utenti che utilizzano tecnologie per l’accessibilità. (TGT-34480)
 * È stato migliorato il messaggio di errore visualizzato quando si elimina un riquadro di visualizzazione mobile attualmente utilizzato in un’attività. Il messaggio di errore ora recita: “Questo riquadro di visualizzazione è attualmente associato a una o più attività. Per eliminarlo, rimuovilo da tali attività.” (TGT-37030)
 * Nel Compositore esperienza visivo è stato aggiunto il supporto necessario per consentire il tracciamento dei clic su un selettore css che corrisponde a più di un elemento nella pagina. (TGT-37323)
-* È stato risolto un problema che impediva ad alcuni utenti di visualizzare l&#39;elenco [!UICONTROL Activity]. Veniva visualizzato il seguente messaggio di errore: “Impossibile recuperare i suggerimenti URL.” L’errore si verificava per gli utenti che utilizzano un ritorno a capo in FirstName (FirstName/r/n) nel sistema di back-end Adobe. (TGT-37330)
-* È stato risolto un problema che impediva agli utenti di visualizzare la pagina [!UICONTROL Activity] se il nome dell&#39;area di lavoro (specificato in [!UICONTROL Adobe Admin Console for Enterprise]) contiene un apostrofo. (TGT-37709)
-* È stato risolto un problema nelle attività [!UICONTROL Auto-Allocate] durante la selezione delle metriche di ottimizzazione e conversione, a causa del quale un messaggio di errore chiedeva agli utenti di selezionare una suite di rapporti, anche se ne era già stata specificata una. (TGT-37689)
-* È stato risolto un problema che a volte causava la visualizzazione di metriche vuote sulla pagina [!UICONTROL Goals and Settings] dopo l&#39;accesso alla pagina [!UICONTROL Targeting] e il suo ritorno. (TGT-37691)
+* È stato risolto un problema che impediva ad alcuni utenti di visualizzare l&#39;elenco [!UICONTROL Attività]. Veniva visualizzato il seguente messaggio di errore: “Impossibile recuperare i suggerimenti URL.” L’errore si verificava per gli utenti che utilizzano un ritorno a capo in FirstName (FirstName/r/n) nel sistema di back-end Adobe. (TGT-37330)
+* È stato risolto un problema che impediva agli utenti di visualizzare la pagina [!UICONTROL Attività] se il nome dell&#39;area di lavoro (specificato in [!UICONTROL Adobe Admin Console for Enterprise]) contiene un apostrofo. (TGT-37709)
+* È stato risolto un problema nelle attività [!UICONTROL Allocazione automatica] durante la selezione delle metriche di ottimizzazione e conversione, a causa del quale un messaggio di errore chiedeva agli utenti di selezionare una suite di rapporti, anche se ne era già stata specificata una. (TGT-37689)
+* È stato risolto un problema che a volte causava la visualizzazione di una pagina di metriche vuota in [!UICONTROL Obiettivi e impostazioni] dopo l&#39;accesso alla pagina [!UICONTROL Targeting] e il suo ritorno. (TGT-37691)
 * È stato risolto un problema che causava un valore errato dell’ultima modifica per i criteri [!DNL Recommendations]. (TGT-37666)
 * È stato risolto un problema che causava la visualizzazione degli ID mbox nell’elenco a discesa mbox, invece dei nomi mbox. (TGT-37739)
 
@@ -2902,18 +2872,18 @@ Questa versione di at.js è una versione di manutenzione e include la correzione
 
 Questa versione include le seguenti modifiche:
 
-#### Aggiornamento dell&#39;interfaccia utente della sezione [!UICONTROL Administration]
+#### [!UICONTROL Amministrazione] aggiornamento interfaccia utente sezione
 
 Stiamo gradualmente riscrivendo l’intera interfaccia utente di [!DNL Target] utilizzando un nuovo stack tecnologico per poter offrire prestazioni migliori, ridurre il tempo di manutenzione necessario per il rilascio di nuove funzioni e migliorare l’esperienza di utilizzo in tutto il prodotto. La prima sezione aggiornata è la sezione [!UICONTROL Setup], rinominata [!UICONTROL Administration].
 
-Come parte di questo aggiornamento, potrai eseguire facilmente molte azioni utilizzando le pagine della sezione [!UICONTROL Administration], ad esempio:
+Come parte di questo aggiornamento, potrai eseguire facilmente molte azioni utilizzando le pagine della sezione [!UICONTROL Amministrazione], ad esempio:
 
-* Scarica l&#39;ultimo file at.js dalla scheda [!UICONTROL Implementation] (**[!UICONTROL Administration]** > **[!UICONTROL Implementation]**).
-* Personalizza le impostazioni at.js e verifica facilmente le modifiche (**[!UICONTROL Administration]** > **[!UICONTROL Implementation]**).
-* Modifica le impostazioni di reporting avanzate, ad esempio la valuta e il fuso orario predefiniti, gli indirizzi IP da escludere dai rapporti, ecc. (**[!UICONTROL Administration]** > **[!UICONTROL Reporting]**)
-* Offusca gli indirizzi IP dei visitatori per motivi di privacy (**[!UICONTROL Administration]** > **[!UICONTROL Implementation]**)
-* Visualizza l&#39;elenco esistente di utenti per area di lavoro e i relativi ruoli, prima di gestirli in Adobe Admin Console (**[!UICONTROL Administration]** > **[!UICONTROL Users]**).
-* Cerca e filtra tutte le tabelle nella sezione [!UICONTROL Administration].
+* Scarica l&#39;ultimo file at.js dalla scheda [!UICONTROL Implementazione] (**[!UICONTROL Amministrazione]** > **[!UICONTROL Implementazione]**).
+* Personalizza le impostazioni at.js e verifica facilmente le modifiche (**[!UICONTROL Amministrazione]** > **[!UICONTROL Implementazione]**).
+* Modifica le impostazioni di reporting avanzate, ad esempio la valuta e il fuso orario predefiniti, gli indirizzi IP da escludere dai rapporti, ecc. (**[!UICONTROL Amministrazione]** > **[!UICONTROL Generazione rapporti]**)
+* Offusca gli indirizzi IP dei visitatori per motivi di privacy (**[!UICONTROL Amministrazione]** > **[!UICONTROL Implementazione]**)
+* Visualizza l&#39;elenco esistente di utenti per area di lavoro e i relativi ruoli, prima di gestirli in Adobe Admin Console (**[!UICONTROL Amministrazione]** > **[!UICONTROL Utenti]**).
+* Cerca e filtra tutte le tabelle nella sezione [!UICONTROL Amministrazione].
 
 Per ulteriori informazioni, consulta [Panoramica sull’amministrazione di Target](/help/main/administrating-target/administrating-target.md).
 
@@ -2922,23 +2892,23 @@ Per ulteriori informazioni, consulta [Panoramica sull’amministrazione di Targe
 Questa versione include i miglioramenti, le correzioni e le modifiche seguenti:
 
 * È stato risolto un problema a causa del quale le preferenze del sito non venivano mantenute dopo l’aggiornamento. (TGT-37239)
-* È stato risolto un problema che impediva il corretto funzionamento di [!UICONTROL Insert After] > [!UICONTROL Image] con immagini SVG (Scalable Vector Graphics). (TGT-37242)
-* È stato risolto un problema per gli utenti con il ruolo [!UICONTROL Publisher] che impediva l&#39;eliminazione delle bozze di attività. (TGT-37358)
-* È stato risolto un problema che impediva agli utenti di modificare un&#39;attività quando è selezionato [!UICONTROL All My Workspaces]. (TGT-37276)
+* È stato risolto un problema che impediva a [!UICONTROL Inserisci dopo] > [!UICONTROL Immagine] di funzionare correttamente con immagini SVG (Scalable Vector Graphics). (TGT-37242)
+* È stato risolto un problema a causa del quale gli utenti con il ruolo [!UICONTROL Editore] non potevano eliminare le bozze di attività. (TGT-37358)
+* È stato risolto un problema che impediva agli utenti di modificare un&#39;attività quando si selezionava [!UICONTROL Tutte le mie aree di lavoro]. (TGT-37276)
 
 ### Target Standard/Premium 20.5.1 (17 giugno 2020)
 
 | Funzionalità/Miglioramento | Descrizione |
 | --- | --- |
-| Supporto di Analytics for Target (A4T) per le attività [!UICONTROL Auto-Allocate] | [!UICONTROL Auto-Allocate] attività ora supportano [Analytics for Target](/help/main/c-integrating-target-with-mac/a4t/a4t.md).<br>Questa integrazione consente di utilizzare la funzionalità multi-armed bandit di [!UICONTROL Auto-Allocate] per indirizzare il traffico verso esperienze vincenti, utilizzando al contempo una metrica di obiettivo [!UICONTROL Adobe Analytics] e/o funzionalità di reporting e analisi di [!UICONTROL Adobe Analytics].<br>Se hai già implementato [A4T](/help/main/c-integrating-target-with-mac/a4t/a4timplementation.md) per l&#39;utilizzo con attività di test A/B ed Experience Targeting, è tutto pronto!<br>Per ulteriori informazioni, consulta [Supporto A4T per attività di allocazione automatica e targeting automatico](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md). |
-| Token di risposta per il metodo di allocazione del traffico per le attività di Targeting automatico e Automated Personalization | Sono stati aggiunti due [token di risposta](/help/main/administrating-target/response-tokens.md) alle attività [!UICONTROL Auto-Target] e [!UICONTROL Automated Personalization] per consentire di determinare se un visitatore ha ricevuto una particolare esperienza a seguito dell&#39;assegnazione al traffico &quot;di controllo&quot; o &quot;mirato&quot;.<ul><li>`experience.trafficAllocationId` restituirà 0 se un visitatore ha ricevuto un&#39;esperienza dal traffico &quot;di controllo&quot; e 1 se un visitatore ha ricevuto un&#39;esperienza dalla distribuzione del traffico &quot;mirata&quot;.</li><li>`experience.trafficAllocationType` restituirà &quot;controllo&quot; o &quot;destinazione&quot;.</li></ul>Per ulteriori informazioni sul controllo rispetto al traffico di destinazione, consulta [Selezionare il controllo per un’attività Automated Personalization o Targeting automatico](/help/main/c-activities/t-automated-personalization/experience-as-control.md). |
-| Ruolo [!UICONTROL Publisher] | Questo nuovo ruolo è simile al ruolo [!UICONTROL Observer] corrente (può visualizzare le attività, ma non può crearle o modificarle). Tuttavia, il ruolo [!UICONTROL Publisher] dispone dell&#39;autorizzazione aggiuntiva per attivare le attività.<br>Per ulteriori informazioni, vedi: <ul><li>**Utenti di Target Standard**: [Specificare ruoli e autorizzazioni](/help/main/administrating-target/c-user-management/c-user-management/user-management.md#roles-permissions) in *Utenti*.</li><li>**Utenti di Target Premium**: [Passaggio 6: Specificare ruoli e autorizzazioni](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md#section_8C425E43E5DD4111BBFC734A2B7ABC80) in *Configurare le autorizzazioni Enterprise*.</li></ul> |
-| Supporto di A4T in [!DNL Analysis Workspace]<br>25 giugno 2020 | [!UICONTROL Anaytics for Target] (A4T) è ora supportato in [!DNL Analysis Workspace]. [!UICONTROL Analytics for Target (A4T) panel] consente di analizzare le attività e le esperienze [!DNL Adobe Target] in [!DNL Analysis Workspace].<br>Per ulteriori informazioni, vedere [Rapporti in Analytics](/help/main/c-integrating-target-with-mac/a4t/reporting.md) in *Generazione rapporti A4T* e [Pannello Analytics for Target (A4T)](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/a4t-panel.html?lang=it) nella *Guida agli strumenti di Analytics*. |
+| Supporto di Analytics for Target (A4T) per [!UICONTROL attività di allocazione automatica] | Le attività [!UICONTROL Allocazione automatica] ora supportano [Analytics for Target](/help/main/c-integrating-target-with-mac/a4t/a4t.md).<br>Questa integrazione consente di utilizzare la funzionalità slot machine [!UICONTROL Allocazione automatica] per indirizzare il traffico verso esperienze vincenti, utilizzando una metrica di obiettivo [!UICONTROL Adobe Analytics] e/o funzionalità di reporting e analisi di [!UICONTROL Adobe Analytics].<br>Se hai già implementato [A4T](/help/main/c-integrating-target-with-mac/a4t/a4timplementation.md) per l&#39;utilizzo con attività di test A/B ed Experience Targeting, è tutto pronto!<br>Per ulteriori informazioni, consulta [Supporto A4T per attività di allocazione automatica e targeting automatico](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md). |
+| Token di risposta per il metodo di allocazione del traffico per le attività di Targeting automatico e Automated Personalization | Sono stati aggiunti due [token di risposta](/help/main/administrating-target/response-tokens.md) alle attività [!UICONTROL Targeting automatico] e [!UICONTROL Automated Personalization] per consentire di determinare se un visitatore ha ricevuto una particolare esperienza a seguito dell&#39;assegnazione al traffico &quot;di controllo&quot; o &quot;mirato&quot;.<ul><li>`experience.trafficAllocationId` restituirà 0 se un visitatore ha ricevuto un&#39;esperienza dal traffico &quot;di controllo&quot; e 1 se un visitatore ha ricevuto un&#39;esperienza dalla distribuzione del traffico &quot;mirata&quot;.</li><li>`experience.trafficAllocationType` restituirà &quot;controllo&quot; o &quot;destinazione&quot;.</li></ul>Per ulteriori informazioni sul controllo rispetto al traffico di destinazione, consulta [Selezionare il controllo per un’attività Automated Personalization o Targeting automatico](/help/main/c-activities/t-automated-personalization/experience-as-control.md). |
+| Ruolo [!UICONTROL Editore] | Questo nuovo ruolo è simile al ruolo [!UICONTROL Osservatore] corrente (può visualizzare le attività, ma non può crearle o modificarle). Tuttavia, il ruolo [!UICONTROL Editore] dispone dell&#39;autorizzazione aggiuntiva per attivare le attività.<br>Per ulteriori informazioni, vedi: <ul><li>**Utenti di Target Standard**: [Specificare ruoli e autorizzazioni](/help/main/administrating-target/c-user-management/c-user-management/user-management.md#roles-permissions) in *Utenti*.</li><li>**Utenti di Target Premium**: [Passaggio 6: Specificare ruoli e autorizzazioni](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md#section_8C425E43E5DD4111BBFC734A2B7ABC80) in *Configurare le autorizzazioni Enterprise*.</li></ul> |
+| Supporto di A4T in [!DNL Analysis Workspace]<br>25 giugno 2020 | [!UICONTROL Analytics for Target] (A4T) è ora supportato in [!DNL Analysis Workspace]. Il pannello [!UICONTROL Analytics for Target (A4T)] consente di analizzare le attività e le esperienze [!DNL Adobe Target] in [!DNL Analysis Workspace].<br>Per ulteriori informazioni, consulta [Rapporti in Analytics](/help/main/c-integrating-target-with-mac/a4t/reporting.md) in *Rapporti A4T* e [Pannello Analytics for Target (A4T)](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/a4t-panel.html?lang=it) nella *Guida agli strumenti di Analytics*. |
 
 **Miglioramenti, correzioni e modifiche**
 
 * È stato risolto un problema a causa del quale, nella definizione dell’attività, veniva memorizzata la metrica “visitors” invece di “UniqueVisitors”. (TGT-37098)
-* È stato risolto un problema nell&#39;interfaccia utente di [!DNL Target] che causava il malfunzionamento della barra di scorrimento verticale nella pagina [!UICONTROL Audiences]. (TGT-36968)
+* È stato risolto un problema nell&#39;interfaccia utente [!DNL Target] che causava il malfunzionamento della barra di scorrimento verticale nella pagina [!UICONTROL Tipi di pubblico]. (TGT-36968)
 
 ### Versioni di at.js 1.8.2 e at.js 2.3.1 (15 giugno 2020)
 
@@ -3073,11 +3043,11 @@ Questa versione include i miglioramenti, le correzioni e le modifiche seguenti:
 * Quando accedi ad [!DNL Adobe Experience Cloud], trovi la nuova navigazione dell’intestazione. Assomiglia molto alla navigazione precedente, con la barra nera nella parte superiore, ma offre i seguenti miglioramenti:
 
    * Passaggio più semplice tra le diverse organizzazioni [!DNL Identity Management System] (IMS) o verso una soluzione diversa.
-   * Guida utente migliorata: i risultati della ricerca includono i risultati provenienti dalla documentazione di [!DNL Target], dai forum della community e nuovi contenuti video, che consentono di accedere più facilmente a più risorse per ottenere il massimo da [!DNL Target]. Abbiamo inoltre aggiunto un meccanismo di feedback direttamente nel menu [!UICONTROL Help] per facilitare la segnalazione dei problemi o la condivisione delle tue idee.
+   * Guida utente migliorata: i risultati della ricerca includono i risultati provenienti dalla documentazione di [!DNL Target], dai forum della community e nuovi contenuti video, che consentono di accedere più facilmente a più risorse per ottenere il massimo da [!DNL Target]. Abbiamo inoltre aggiunto un meccanismo di feedback direttamente nel menu [!UICONTROL Aiuto] per facilitare la segnalazione dei problemi o la condivisione delle tue idee.
 
    * È stata migliorata la funzionalità di feedback NPS (Net Promoter Score), in modo che la modalità di sondaggio non disturbi il flusso di lavoro.
 
-   * Le notifiche per [!DNL Target] non sono attualmente disponibili nel menu a discesa [!UICONTROL Notifications] nell&#39;intestazione.
+   * Le notifiche per [!DNL Target] non sono attualmente disponibili nel menu a discesa [!UICONTROL Notifiche] nell&#39;intestazione.
 
   >[!NOTE]
   >
@@ -3125,11 +3095,11 @@ Il seguente problema è stato risolto nella versione 1.0.1:
 * Quando accedi ad [!DNL Adobe Experience Cloud], trovi la nuova navigazione dell’intestazione. Assomiglia molto alla navigazione precedente, con la barra nera nella parte superiore, ma offre i seguenti miglioramenti:
 
    * Passaggio più semplice tra le diverse organizzazioni [!DNL Identity Management System] (IMS) o verso una soluzione diversa.
-   * Guida utente migliorata: i risultati della ricerca includono i risultati provenienti dalla documentazione di [!DNL Target], dai forum della community e nuovi contenuti video, che consentono di accedere più facilmente a più risorse per ottenere il massimo da [!DNL Target]. Abbiamo inoltre aggiunto un meccanismo di feedback direttamente nel menu [!UICONTROL Help] per facilitare la segnalazione dei problemi o la condivisione delle tue idee.
+   * Guida utente migliorata: i risultati della ricerca includono i risultati provenienti dalla documentazione di [!DNL Target], dai forum della community e nuovi contenuti video, che consentono di accedere più facilmente a più risorse per ottenere il massimo da [!DNL Target]. Abbiamo inoltre aggiunto un meccanismo di feedback direttamente nel menu [!UICONTROL Aiuto] per facilitare la segnalazione dei problemi o la condivisione delle tue idee.
 
    * È stata migliorata la funzionalità di feedback NPS (Net Promoter Score), in modo che la modalità di sondaggio non disturbi il flusso di lavoro.
 
-   * Le notifiche per [!DNL Target] non sono attualmente disponibili nel menu a discesa [!UICONTROL Notifications] nell&#39;intestazione.
+   * Le notifiche per [!DNL Target] non sono attualmente disponibili nel menu a discesa [!UICONTROL Notifiche] nell&#39;intestazione.
 
   >[!NOTE]
   >
@@ -3147,7 +3117,7 @@ Il seguente problema è stato risolto nella versione 1.0.1:
 
 | Funzionalità/Miglioramento | Descrizione |
 | --- | --- |
-| SDK di Node.js versione 1.0 | SDK di Node.js di Target consente di implementare Target lato server.<br>Questo SDK di Node.js consente di integrare facilmente Target con altre soluzioni Experience Cloud, come Adobe Experience Cloud Identity Service, Adobe Analytics e Adobe Audience Manager.<br>Il SDK di Node.js introduce alcune best practice e semplifica l’integrazione con Adobe Target tramite la nostra API di consegna, in modo che i team tecnici possano concentrarsi sulla logica di business. Di seguito sono riportate le funzioni principali introdotte nell’ultima versione:<ul><li>Supporto per preacquisizione e notifiche che consentono di ottimizzare le prestazioni tramite la memorizzazione in cache.</li><li>Supporto per l’ottimizzazione delle prestazioni in caso di integrazione ibrida di Target sia sulle pagine web che sul lato server. Stiamo introducendo l’impostazione `serverState` che verrà compilata da esperienze recuperate tramite il lato server, in modo che at.js 2.2 non effettuerà più una chiamata aggiuntiva al server per recuperare le esperienze. Questo approccio ottimizza le prestazioni di caricamento delle pagine.</li><li> Supporto per il recupero di attività create dal Compositore esperienza visivo tramite SDK di Node.js, reso possibile dalla nuova API di consegna.</li><li>Open source, in modo che i tuoi sviluppatori possano contribuire all’SDK di Node.js.</li></ul> |
+| SDK di Node.js versione 1.0 | Il SDK Node.js di Target consente di implementare Target lato server.<br>Questo SDK Node.js consente di integrare facilmente Target con altre soluzioni Experience Cloud, come il servizio Adobe Experience Cloud Identity, Adobe Analytics e Adobe Audience Manager.<br>Il SDK Node.js introduce alcune best practice e semplifica l’integrazione con Adobe Target tramite la nostra API di consegna, in modo che i team di progettazione possano concentrarsi sulla logica di business. Di seguito sono riportate le funzioni principali introdotte nell’ultima versione:<ul><li>Supporto per preacquisizione e notifiche che consentono di ottimizzare le prestazioni tramite la memorizzazione in cache.</li><li>Supporto per l’ottimizzazione delle prestazioni in caso di integrazione ibrida di Target sia sulle pagine web che sul lato server. Stiamo introducendo l’impostazione `serverState` che verrà compilata da esperienze recuperate tramite il lato server, in modo che at.js 2.2 non effettuerà più una chiamata aggiuntiva al server per recuperare le esperienze. Questo approccio ottimizza le prestazioni di caricamento delle pagine.</li><li> Supporto per il recupero di attività create dal Compositore esperienza visivo tramite SDK di Node.js, reso possibile dalla nuova API di consegna.</li><li>Open source, in modo che i tuoi sviluppatori possano contribuire all’SDK di Node.js.</li></ul> |
 | API di consegna | È disponibile in produzione un endpoint API di consegna completamente nuovo (/v1/delivery). Le funzioni principali sono:<ul><li>Un endpoint per il recupero di esperienze per una o più mbox</li><li>Recupero delle attività create dal Compositore esperienza visivo tramite l’API</li><li>Supporto per il nuovo oggetto Viste, utilizzato per applicazioni a pagina singola e applicazioni mobili</li></ul> |
 
 ### Target Standard/Premium 19.9.2 (30 settembre 2019)
@@ -3172,9 +3142,9 @@ Questa versione include le seguenti nuove funzionalità e miglioramenti:
 
 | Funzionalità/Miglioramento | Descrizione |
 | --- | --- |
-| ![Badge Premium &#x200B;](/help/main/assets/premium.png)<br>Consigli in attività di Test A/B e Targeting esperienza | Lo stato di un’offerta (algoritmo) di tipo Consigli viene visualizzato nella pagina Panoramica per le attività Test A/B e Targeting esperienza che contengono offerte di tipo Consigli. Gli stati includono: Risultati pronti, Risultati non pronti ed Errore di feed. (TGT-33649)<br>Visualizza [Consigli come offerta](/help/main/c-recommendations/recommendations-as-an-offer.md#status). |
+| ![Badge Premium ](/help/main/assets/premium.png)<br>Consigli in attività di Test A/B e Targeting esperienza | Lo stato di un’offerta (algoritmo) di tipo Consigli viene visualizzato nella pagina Panoramica per le attività Test A/B e Targeting esperienza che contengono offerte di tipo Consigli. Gli stati includono: Risultati pronti, Risultati non pronti ed Errore di feed. (TGT-33649)<br>Visualizza [Consigli come offerta](/help/main/c-recommendations/recommendations-as-an-offer.md#status). |
 | Supporto per il tracciamento tra domini diversi per at.js 2.0+ tramite la libreria Experience Cloud ID (ECID) | In precedenza, il tracciamento tra domini diversi non era supportato in at.js 2.*x*. Con questa versione, i clienti che usano at.js 2.0 o versioni successive possono utilizzare il tracciamento tra domini diversi tramite la libreria ECID. Per il corretto funzionamento del tracciamento tra domini diversi, la libreria ECID deve essere installata sulla pagina insieme at.js 2.0 o versione successiva. È necessario utilizzare la [libreria Experience Cloud ID 4.3.0+](https://experienceleague.adobe.com/docs/id-service/using/release-notes/release-notes.html?lang=it).<br>Consulta [Supporto del tracciamento tra più domini in at.js 2.x](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=it){target=_blank}. |
-| Supporto di Target per Apple ITP 2.1 e ITP 2.2 tramite la libreria Experience Cloud ID (ECID) 4.3 | Oggi, i clienti di Target possono mitigare Apple ITP 2.1 e ITP 2.2 sfruttando il programma di certificazione CNAME di Adobe.<br>Con questa versione, Target introduce un&#39;integrazione diretta con la libreria ECID 4.3, che sfrutta un cookie lato server per mitigare ITP 2.1 e ITP 2.2. Si consiglia vivamente ai clienti di Target di implementare la [libreria ECID 4.3+](https://experienceleague.adobe.com/docs/id-service/using/release-notes/release-notes.html?lang=it) insieme alla libreria JavaScript di Target per mitigare eventuali versioni future di ITP. La libreria ECID continuerà a essere migliorata per offrire una soluzione solida per i criteri dei cookie in continua evoluzione introdotti dai browser.<br>Consulta [Apple Intelligent Tracking Prevention (ITP) 2.x](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/apple-itp-2x.html?lang=it){target=_blank}. |
+| Supporto di Target per Apple ITP 2.1 e ITP 2.2 tramite la libreria Experience Cloud ID (ECID) 4.3 | Oggi, i clienti di Target possono mitigare Apple ITP 2.1 e ITP 2.2 sfruttando il programma di certificazione CNAME di Adobe.<br>Con questa versione, Target introduce un&#39;integrazione diretta con la libreria ECID 4.3, che sfrutta un cookie lato server per mitigare ITP 2.1 e ITP 2.2. Si consiglia vivamente ai clienti di Target di implementare la [libreria ECID 4.3+](https://experienceleague.adobe.com/docs/id-service/using/release-notes/release-notes.html?lang=it) insieme alla libreria JavaScript di Target per mitigare eventuali versioni future di ITP. La libreria ECID continuerà a essere migliorata per offrire una soluzione solida per i criteri dei cookie in continua evoluzione introdotti dai browser.<br>Consulta [Apple Intelligent Tracking Prevention (ITP) 2.x](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/apple-itp-2x.html){target=_blank}. |
 
 **Miglioramenti, correzioni e modifiche**
 
@@ -3210,11 +3180,11 @@ Questa versione include le seguenti nuove funzionalità e miglioramenti:
 
 | Funzionalità/Miglioramento | Descrizione |
 | --- | --- |
-| Compositore esperienza visivo | **Nuove opzioni del menu del compositore esperienza visivo**: quando fai clic su un elemento di pagina nel Compositore esperienza visivo, un menu mostra le opzioni disponibili per tale tipo di elemento.<ul><li>È ora possibile utilizzare l&#39;opzione [!UICONTROL Styles > Background] per modificare l&#39;immagine e il colore di sfondo per l&#39;elemento selezionato. (TGT-15001)</li></ul>Vedi *Stili* in [Opzioni esperienza visive](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#styles).<br>**Miglioramenti al tracciamento dei clic**: è stata migliorata la procedura per configurare il tracciamento dei clic nel Compositore esperienza visivo e Compositore esperienza visivo per applicazione a pagina singola.<ul><li>Quando selezioni gli elementi da usare nel tracciamento dei clic, i nomi di tutti gli elementi disponibili vengono visualizzati nel pannello Modifiche a destra, rendendo più facile e veloce la selezione degli elementi desiderati.</li><li>Nella pagina [!UICONTROL Goals & Settings] del flusso di lavoro guidato in tre parti per le attività viene visualizzato il numero di elementi selezionati per il tracciamento dei clic. Se passi il puntatore su questo numero vengono visualizzati i nomi di tutti gli elementi selezionati. (TGT-33878)</li></ul>Consulta [Tracciamento dei clic](/help/main/c-activities/r-success-metrics/click-tracking.md). |
+| Compositore esperienza visivo | **Nuove opzioni del menu del compositore esperienza visivo**: quando fai clic su un elemento di pagina nel Compositore esperienza visivo, un menu mostra le opzioni disponibili per tale tipo di elemento.<ul><li>È ora possibile utilizzare l&#39;opzione [!UICONTROL Stili > Sfondo] per modificare l&#39;immagine e il colore di sfondo per l&#39;elemento selezionato. (TGT-15001)</li></ul>Vedi *Stili* in [Opzioni esperienza visive](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#styles).<br>**Miglioramenti al tracciamento dei clic**: è stata migliorata la procedura per configurare il tracciamento dei clic nel Compositore esperienza visivo e Compositore esperienza visivo per applicazione a pagina singola.<ul><li>Quando selezioni gli elementi da usare nel tracciamento dei clic, i nomi di tutti gli elementi disponibili vengono visualizzati nel pannello Modifiche a destra, rendendo più facile e veloce la selezione degli elementi desiderati.</li><li>Nella pagina [!UICONTROL Obiettivi e impostazioni] del flusso di lavoro guidato in tre parti per le attività viene visualizzato il numero di elementi selezionati per il tracciamento dei clic. Se passi il puntatore su questo numero vengono visualizzati i nomi di tutti gli elementi selezionati. (TGT-33878)</li></ul>Consulta [Tracciamento dei clic](/help/main/c-activities/r-success-metrics/click-tracking.md). |
 | Compositore di esperienze visive su una singola pagina (SPA VEC) | **Flusso di lavoro guidato**: un nuovo flusso di lavoro guidato consente di comprendere in che modo configurare le impostazioni delle regole di consegna pagina per eseguire correttamente un’attività per l’app a pagina singola. (TGT-33718)<br> Consulta [Compositore esperienza visivo per app a pagina singola](/help/main/c-experiences/spa-visual-experience-composer.md#page-delivery-settings).<br>**Modifiche clone**: ora puoi definire una modifica utilizzando il Compositore esperienza visivo per app a pagina singola e quindi clonarla per utilizzarla in altre viste nell&#39;app a pagina singola. (TGT-33882)<br>Consulta [Compositore esperienza visivo per app a pagina singola](/help/main/c-experiences/spa-visual-experience-composer.md). |
 | ![Badge Premium](/help/main/assets/premium.png) Automated Personalization e Targeting automatico | **Specificare come controllo un’esperienza specifica**: è possibile selezionare un’esperienza da utilizzare come controllo durante la creazione di un’attività AP e Targeting automatico. Questa funzione ti permette di indirizzare tutto il traffico di controllo a una specifica esperienza, in base alla percentuale di allocazione del traffico configurata nell’attività. Puoi quindi valutare i rapporti sulle prestazioni del traffico personalizzato rispetto al traffico verso l’esperienza di controllo. L’opzione di controllo corrente (esperienza distribuita in modo casuale) continuerà a essere disponibile. (TGT-32801, TGT-26572 e TGT-26571)<br>Consulta [Seleziona il controllo per un&#39;attività Automated Personalization o Targeting automatico](/help/main/c-activities/t-automated-personalization/experience-as-control.md).<br>**Rapporti di Personalization Insights**: la denominazione intuitiva degli attributi quando un visitatore visualizza contenuti specifici in una posizione specifica fornisce informazioni più significative. (TGT-33421 e TGT-34957)<br>Consulta [Raccolta di dati per gli algoritmi di personalizzazione Target](/help/main/c-activities/t-automated-personalization/ap-data.md). |
 | ![Badge Premium](/help/main/assets/premium.png) Consigli | È possibile utilizzare il pulsante di attivazione Consiglia articoli acquistati in precedenza durante la creazione della logica Articoli visualizzati di recente. (TGT-34030)<br>Per ulteriori informazioni, consulta [Articoli visualizzati di recente](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#previously-purchased) in “Creare criteri”. |
-| Criteri per cookie SameSite di Google Chrome | Google ha recentemente annunciato che, a partire da Chrome 76, il cui rilascio è previsto per il 30 luglio 2019, gli sviluppatori devono specificare esplicitamente quali cookie possono funzionare tra siti web diversi e quali cookie possono tracciare gli utenti.<br>Nel settore si fanno grandi progressi nella creazione di un web più sicuro per i consumatori, e Target conferma il suo impegno costante nel distribuire esperienze personalizzate rispettando e superando le aspettative dei visitatori sulla privacy.<br>Consulta [Criteri per cookie SameSite di Google Chrome](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/google-chrome-samesite-cookie-policies.html?lang=it){target=_blank}. |
+| Criteri per cookie SameSite di Google Chrome | Google ha recentemente annunciato che, a partire da Chrome 76, il cui rilascio è previsto per il 30 luglio 2019, gli sviluppatori devono specificare esplicitamente quali cookie possono funzionare tra siti web diversi e quali cookie possono tracciare gli utenti.<br>Nel settore si fanno grandi progressi nella creazione di un web più sicuro per i consumatori, e Target conferma il suo impegno costante nel distribuire esperienze personalizzate rispettando e superando le aspettative dei visitatori sulla privacy.<br>Consulta [Criteri per cookie SameSite di Google Chrome](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/google-chrome-samesite-cookie-policies.html){target=_blank}. |
 
 ### at.js versione 2.1.0 (3 giugno 2019) {#atjs-210}
 
@@ -3222,7 +3192,7 @@ Siamo felici di annunciare le seguenti funzionalità in at.js 2.1.0:
 
 | Funzionalità/Miglioramento | Descrizione |
 | --- | --- |
-| Supporto di Adobe Opt-in | Adobe Opt-in è un metodo per semplificare le integrazioni delle soluzioni Adobe con le piattaforme di gestione del consenso.<br>Per ulteriori informazioni su Adobe Opt-in, consulta [Privacy e Regolamento generale sulla protezione dei dati (GDPR)](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/cmp-privacy-and-general-data-protection-regulation.html?lang=it){target=_blank}. |
+| Supporto di Adobe Opt-in | Adobe Opt-in è un metodo per semplificare le integrazioni delle soluzioni Adobe con le piattaforme di gestione del consenso.<br>Per ulteriori informazioni su Adobe Opt-in, consulta [Privacy e Regolamento generale sulla protezione dei dati (GDPR)](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/cmp-privacy-and-general-data-protection-regulation.html){target=_blank}. |
 | Conformità allo standard di settore CSP | at.js non utilizza più eval() per eseguire JavaScript. |
 | Registrazione Analytics lato client | Offre ai clienti pieno controllo su come desiderano inviare dati analitici ad Adobe Analytics, lato client o lato server.<br>Per ulteriori informazioni, consulta [Registrazione Analytics lato client](/help/main/c-integrating-target-with-mac/a4t/before-implement.md#client-side) in *Prima dell&#39;implementazione*. |
 | Invio di notifiche | Consente agli sviluppatori di inviare notifiche quando un&#39;esperienza viene riprodotto dal codice anziché utilizzando `applyOffer()` o `applyOffers()`.<br>Per ulteriori informazioni, consulta [adobe.target.sendNotifications(options)](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/adobe-target-sendnotifications-atjs-21.html){target=_blank}. |
@@ -3253,14 +3223,14 @@ Questa versione include i miglioramenti, le modifiche e le funzioni seguenti:
 
 | Funzionalità/Miglioramento | Descrizione |
 | --- | --- |
-| [!UICONTROL Visual Experience Composer] | I seguenti miglioramenti introdotti nel Compositore esperienza visivo di [!UICONTROL Visual Experience Composer] permettono di lavorare in modo più rapido ed efficiente:<ul><li>La funzione percorso DOM è ora disponibile quando si imposta il tracciamento dei clic.<br>Per ulteriori informazioni, consulta [Tracciamento dei clic](/help/main/c-activities/r-success-metrics/click-tracking.md#considerations).</li><li>Il pannello Stili consente di visualizzare o modificare il valore degli stili esistenti per l’elemento selezionato. Inoltre, è possibile aggiungere ulteriore formattazione.<br>Per accedere al pannello Stili, fai clic su un elemento di pagina nel Compositore esperienza visivo, quindi fai clic su [!UICONTROL Edit] > [!UICONTROL Styles].<br>Il pannello Stili viene visualizzato sul lato destro del Compositore esperienza visivo. Il pannello contiene un elenco di stili che consente di modificare o aggiungere formattazione all’elemento selezionato. Se hai familiarità con l’utilizzo di Cascading Style Sheet (CSS) o se ricevi del codice dallo sviluppatore, un editor CSS in tempo reale consente di visualizzare le modifiche e aggiungere stili.<br>Per ulteriori informazioni, vedi [Stili](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#styles) in *Opzioni del Compositore esperienza visivo*.</li><li>L&#39;Editor Rich Text ora supporta gli elementi HTML5 nidificati.<br>Le specifiche di HTML5 consentono nuove combinazioni di tag per la nidificazione. La versione precedente dell’editor Rich Text non supportava la nuova nidificazione di tag consentita dalle specifiche HTML5. Di conseguenza, tutti gli elementi nidificati selezionati nel Compositore esperienza visivo non venivano gestiti correttamente, generando modifiche HTML indesiderate. (TGT-33618)<br>Per ulteriori informazioni, consulta [Modifica testo/HTML](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#edit-text-html) nelle *opzioni del Compositore esperienza visivo*.</li> |
+| [!UICONTROL Compositore esperienza visivo] | I seguenti miglioramenti introdotti nel [!UICONTROL Compositore esperienza visivo] permettono di lavorare in modo più rapido ed efficiente:<ul><li>La funzione percorso DOM è ora disponibile quando si imposta il tracciamento dei clic.<br>Per ulteriori informazioni, consulta [Tracciamento dei clic](/help/main/c-activities/r-success-metrics/click-tracking.md#considerations).</li><li>Il pannello Stili consente di visualizzare o modificare il valore degli stili esistenti per l’elemento selezionato. Inoltre, è possibile aggiungere ulteriore formattazione.<br>Per accedere al pannello Stili, fai clic su un elemento di pagina nel Compositore esperienza visivo, quindi fai clic su [!UICONTROL Modifica] > [!UICONTROL Stili].<br>Il pannello Stili viene visualizzato sul lato destro del Compositore esperienza visivo. Il pannello contiene un elenco di stili che consente di modificare o aggiungere formattazione all’elemento selezionato. Se hai familiarità con l’utilizzo di Cascading Style Sheet (CSS) o se ricevi del codice dallo sviluppatore, un editor CSS in tempo reale consente di visualizzare le modifiche e aggiungere stili.<br>Per ulteriori informazioni, vedi [Stili](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#styles) in *Opzioni del Compositore esperienza visivo*.</li><li>L&#39;Editor Rich Text ora supporta gli elementi HTML5 nidificati.<br>Le specifiche di HTML5 consentono nuove combinazioni di tag per la nidificazione. La versione precedente dell’editor Rich Text non supportava la nuova nidificazione di tag consentita dalle specifiche HTML5. Di conseguenza, tutti gli elementi nidificati selezionati nel Compositore esperienza visivo non venivano gestiti correttamente, generando modifiche HTML indesiderate. (TGT-33618)<br>Per ulteriori informazioni, consulta [Modifica testo/HTML](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#edit-text-html) nelle *opzioni del Compositore esperienza visivo*.</li> |
 
 #### Miglioramenti, correzioni e modifiche
 
-* È stato migliorato il flusso di lavoro quando si eliminano le risorse nel Compositore esperienza visivo. Le risorse eliminate vengono rimosse da [!UICONTROL Offers library] e da [!DNL Scene7] (se applicabile). Le risorse eliminate non vengono più visualizzate nei risultati di ricerca. (TGT-31981)
+* È stato migliorato il flusso di lavoro quando si eliminano le risorse nel Compositore esperienza visivo. Le risorse eliminate vengono rimosse dalla [!UICONTROL Libreria offerte] e da [!DNL Scene7] (se applicabile). Le risorse eliminate non vengono più visualizzate nei risultati di ricerca. (TGT-31981)
 * Adesso puoi eliminare le cartelle delle risorse anche se contengono immagini (cartelle non vuote). (TGT-33265)
 
-  In precedenza, non era possibile eliminare una cartella non vuota dalla libreria delle offerte immagini di Target ([!UICONTROL Offers] > [!UICONTROL Image Offers]). Riceverai una &quot;Cartella non è vuota!&quot; se avessi tentato di eliminare la cartella dall’interfaccia utente.  Con questa funzione, stiamo aggiungendo la funzionalità di eliminazione della cartella per rimuovere un’intera cartella contenente un numero qualsiasi di risorse e sottocartelle. Questa funzione è disponibile anche nell’interfaccia di Target e di Adobe Experience Cloud Assets.
+  In precedenza, non era possibile eliminare una cartella non vuota dalla libreria delle offerte immagini di Target ([!UICONTROL Offerte] > [!UICONTROL Offerte immagini]). Riceverai una &quot;Cartella non è vuota!&quot; se avessi tentato di eliminare la cartella dall’interfaccia utente.  Con questa funzione, stiamo aggiungendo la funzionalità di eliminazione della cartella per rimuovere un’intera cartella contenente un numero qualsiasi di risorse e sottocartelle. Questa funzione è disponibile anche nell’interfaccia di Target e di Adobe Experience Cloud Assets.
 
    * Le cartelle non vuote nella libreria Offerta immagini possono essere eliminate. Se le immagini contenute nella cartella non sono indicate in nessuna attività, l’intera cartella e il relativo contenuto vengono eliminati. Se in un’attività vi sono riferimenti ad alcune immagini, vengono eliminate tutte le immagini senza riferimenti, mentre vengono mantenute quelle con riferimenti e le cartelle che le contengono.
    * Il rendering delle offerte immagini nel selettore delle risorse immagine risulta più rapido ed efficiente.
@@ -3269,7 +3239,7 @@ Questa versione include i miglioramenti, le modifiche e le funzioni seguenti:
 
 * Abbiamo migliorato il rendering delle offerte immagini nel selettore di Assets. La visualizzazione e la selezione delle offerte immagini sono ora più veloci ed efficienti. (TGT-32897)
 * Abbiamo migliorato la gestione dei reindirizzamenti agli URL quando si annulla il caricamento di una pagina nel Compositore esperienza visivo. (TGT-33815)
-* Dopo aver selezionato una raccolta [!UICONTROL Recommendations] dal selettore delle raccolte, è necessario fare clic sul pulsante [!UICONTROL Save]. Questo flusso di lavoro è in linea con gli altri flussi di lavoro all’interno di [!DNL Target]. (TGT-33205)
+* Dopo aver selezionato una raccolta di [!UICONTROL Consigli] dal selettore delle raccolte, ora è necessario fare clic sul pulsante [!UICONTROL Salva]. Questo flusso di lavoro è in linea con gli altri flussi di lavoro all’interno di [!DNL Target]. (TGT-33205)
 * È stato risolto un problema a causa del quale una piccola serie di rapporti Approfondimenti restituiva tassi di conversione dello 0% invece dei tassi di conversione effettivi. (TNT-32125)
 
 ### [!DNL Target] Standard/Premium 19.4.1 (15 aprile 2019) {#release-19-4-1}
@@ -3318,8 +3288,8 @@ Questa è una versione di manutenzione e include la seguente correzione:
 
 | Funzionalità/Miglioramento | Descrizione |
 | --- | --- |
-| at.js versione 2.0.0<br>19 febbraio 2019 | at.js 2.x è ora disponibile.<br>La versione più recente di at.js offre set di funzioni avanzati che consentono all’azienda di eseguire personalizzazioni su tecnologie lato client di nuova generazione. Questa nuova versione si concentra sull&#39;aggiornamento di at.js per garantire interazioni in sintonia con le applicazioni a pagina singola.<br>Di seguito sono riportati alcuni vantaggi dell&#39;utilizzo di at.js 2.x che non sono disponibili nelle versioni precedenti:<ul><li>La capacità di memorizzare nella cache tutte le offerte al caricamento di pagina per ridurre più chiamate al server a una singola chiamata al server.</li><li>Migliora enormemente le esperienze degli utenti finali sul sito, in quanto le offerte appaiono immediatamente tramite la cache senza l’implementazione di chiamate al server tradizionali.</li><li>Una semplice riga di codice e una configurazione per sviluppatori una tantum per consentire agli esperti di marketing di creare ed eseguire attività A/B e di esperienza (XT) tramite il Compositore esperienza visivo sulle applicazioni a pagina singola.</li></ul>at.js 2.x introduce le seguenti nuove funzioni:<ul><li>getOffers()</li><li>applyOffers()</li><li>triggerView()</li></ul>Le seguenti funzioni sono state rese obsolete con l’introduzione di at.js 2.x:<ul><li>mboxCreate()</li><li>mboxDefine</li><li>registerExtension()</li></ul>Per ulteriori informazioni, consulta [Aggiornamento da at.js 1.x a at.js 2.x](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=it){target=_blank} e [funzioni di at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=it){target=_blank}.<br>**Nota**: se hai bisogno del supporto di Adobe Opt-in per il [Regolamento generale sulla protezione dei dati](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/cmp-privacy-and-general-data-protection-regulation.html?lang=it){target=_blank} (RGPD){target=_blank}, al momento devi utilizzare at.js 1.7.0. Il supporto per Opt-in non è disponibile in at.js 2.x. |
-| at.js versione 1.7.0<br>14 febbraio 2019 | È disponibile at.js 1.7.0.<br>Questa versione include il supporto di Adobe Opt-in. Adobe Opt-in è un metodo per semplificare le integrazioni delle soluzioni Adobe con le piattaforme di gestione del consenso.<br>Per ulteriori informazioni su Adobe Opt-in, consulta [Privacy e Regolamento generale sulla protezione dei dati](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/cmp-privacy-and-general-data-protection-regulation.html?lang=it){target=_blank} (RGPD){target=_blank}.<br>Questa versione risolve anche un problema in cui Target potrebbe sostituire i parametri degli URL reindirizzati con parametri provenienti dall&#39;URL di reindirizzamento.<br>**Nota**: se hai bisogno del supporto di Adobe Opt-in per il RGPD, al momento devi utilizzare at.js 1.7.0. Il supporto per Opt-in non è disponibile in at.js 2.x.<br>Per un elenco di tutte le versioni, consulta [Dettagli sulle versioni di at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=it){target=_blank}. |
+| at.js versione 2.0.0<br>19 febbraio 2019 | at.js 2.x è ora disponibile.<br>La versione più recente di at.js offre set di funzioni avanzati che consentono all’azienda di eseguire personalizzazioni su tecnologie lato client di nuova generazione. Questa nuova versione si concentra sull&#39;aggiornamento di at.js per garantire interazioni in sintonia con le applicazioni a pagina singola.<br>Di seguito sono riportati alcuni vantaggi dell&#39;utilizzo di at.js 2.x che non sono disponibili nelle versioni precedenti:<ul><li>La capacità di memorizzare nella cache tutte le offerte al caricamento di pagina per ridurre più chiamate al server a una singola chiamata al server.</li><li>Migliora enormemente le esperienze degli utenti finali sul sito, in quanto le offerte appaiono immediatamente tramite la cache senza l’implementazione di chiamate al server tradizionali.</li><li>Una semplice riga di codice e una configurazione per sviluppatori una tantum per consentire agli esperti di marketing di creare ed eseguire attività A/B e di esperienza (XT) tramite il Compositore esperienza visivo sulle applicazioni a pagina singola.</li></ul>at.js 2.x introduce le seguenti nuove funzioni:<ul><li>getOffers()</li><li>applyOffers()</li><li>triggerView()</li></ul>Le seguenti funzioni sono state rese obsolete con l’introduzione di at.js 2.x:<ul><li>mboxCreate()</li><li>mboxDefine</li><li>registerExtension()</li></ul>Per ulteriori informazioni, consulta [Aggiornamento da at.js 1.x a at.js 2.x](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=it){target=_blank} e [funzioni di at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=it){target=_blank}.<br>**Nota**: se hai bisogno del supporto di Adobe Opt-in per il [Regolamento generale sulla protezione dei dati](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/cmp-privacy-and-general-data-protection-regulation.html){target=_blank} (RGPD){target=_blank}, al momento devi utilizzare at.js 1.7.0. Il supporto per Opt-in non è disponibile in at.js 2.x. |
+| at.js versione 1.7.0<br>14 febbraio 2019 | È disponibile at.js 1.7.0.<br>Questa versione include il supporto di Adobe Opt-in. Adobe Opt-in è un metodo per semplificare le integrazioni delle soluzioni Adobe con le piattaforme di gestione del consenso.<br>Per ulteriori informazioni su Adobe Opt-in, consulta [Privacy e Regolamento generale sulla protezione dei dati](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/cmp-privacy-and-general-data-protection-regulation.html){target=_blank} (RGPD){target=_blank}.<br>Questa versione risolve anche un problema in cui Target potrebbe sostituire i parametri degli URL reindirizzati con parametri provenienti dall&#39;URL di reindirizzamento.<br>**Nota**: se hai bisogno del supporto di Adobe Opt-in per il RGPD, al momento devi utilizzare at.js 1.7.0. Il supporto per Opt-in non è disponibile in at.js 2.x.<br>Per un elenco di tutte le versioni, consulta [Dettagli sulle versioni di at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=it){target=_blank}. |
 
 ### [!DNL Target] Standard/Premium 19.2.1 (19 febbraio 2019) {#target-19-2-1}
 
@@ -3331,8 +3301,8 @@ Questa versione include i miglioramenti, le modifiche e le funzioni seguenti:
 | --- | --- |
 | Compositore esperienza visivo per app a pagina singola | Il compositore esperienza visivo (VEC) per app a pagina singola (SPA) consente agli addetti al marketing di creare test e di personalizzare contenuti nelle SPA in modalità fai-da-te senza dover dipendere sempre dagli sviluppatori. Il Compositore esperienza visivo può essere utilizzato per creare attività nei framework più popolari, come ad esempio React e Angular. (TGT-27916)<br>Per ulteriori informazioni, consulta [Compositore esperienza visivo per app a pagina singola](/help/main/c-experiences/spa-visual-experience-composer.md) e [Integrazione delle applicazioni a pagina singola](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/target-atjs-single-page-application.html?lang=it){target=_blank}.<br>Oltre all’articolo precedente, sono presenti molti argomenti relativi ad applicazioni a pagina singola e at.js che trattano di questa funzione e come implementarla. Per ulteriori informazioni, consulta [Modifiche alla documentazione](/help/main/r-release-notes/doc-change.md). |
 | Compositore esperienza visivo | I seguenti miglioramenti introdotti nel Compositore esperienza visivo permettono di lavorare in modo più rapido ed efficiente:<ul><li>Sono ora disponibili le opzioni Inserisci prima e Inserisci dopo nel Compositore esperienza visivo durante l’inserimento dei [frammenti esperienza AEM](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md). Consulta [Opzioni del Compositore esperienza visivo](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md). (TGT-32385)</li><li>L’estensione [!DNL Adobe Target] VEC Helper per il browser Google Chrome consente di caricare i siti web in modo affidabile nel Compositore esperienza visivo (VEC), per creare e verificare rapidamente le esperienze web. Consulta [Estensione VEC  Helper](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md). (TGT-32746)</li></ul> |
-| ![Badge Premium](/help/main/assets/premium.png)<br>Consigli in [!UICONTROL A/B Test] e [!UICONTROL Experience Targeting] attività | È ora possibile includere i consigli nelle attività [!UICONTROL A/B Test] (inclusi [!UICONTROL Auto-Allocate] e [!UICONTROL Auto-Target]) e [!UICONTROL Experience Targeting] (XT). Questo apre a funzionalità tutte nuove, ad esempio:<ul><li>Contenuto relativo e non relativo a consigli di test e targeting all’interno della stessa attività.</li><li>Facile sperimentazione con il posizionamento di consigli sulla pagina, tra cui l’ordine di più consigli.</li><li>Invio automatico di traffico all&#39;esperienza di consigli con le prestazioni migliori tramite [!UICONTROL Auto-Allocate].</li><li>Assegnazione dinamica di visitatori a esperienze di consigli su misura in base ai singoli profili tramite [!UICONTROL Auto-Target].</li></ul>Per iniziare, crea un&#39;attività [!UICONTROL A/B Test] o [!UICONTROL Experience Targeting] tramite il Compositore esperienza visivo e utilizza l&#39;azione [!UICONTROL Insert Before], [!UICONTROL Insert After] o [!UICONTROL Replace With] per aggiungere consigli a un&#39;esperienza. (RECS-6166)<br>Per ulteriori informazioni, consulta [Consigli come offerta](/help/main/c-recommendations/recommendations-as-an-offer.md). |
-| ![Badge Premium &#x200B;](/help/main/assets/premium.png)<br> Supporto di autorizzazioni Enterprise nelle API di Target | [Le API dell’amministratore Adobe Target](https://developers.adobetarget.com/api/#admin-apis) ora sfrutteranno appieno le stesse funzionalità di autorizzazioni Enterprise disponibili nell’interfaccia utente di Target. Dal **21 febbraio 2019**, gli amministratori di sistema possono accedere ai dati dei rapporti in modo programmatico, nonché creare e gestire attività, offerte e pubblico in qualsiasi area di lavoro. In precedenza, queste azioni erano disponibili solo nell’area di lavoro predefinita. Il supporto per le attività di Personalizzazione automatizzata (AP) sarà disponibile in una versione futura. |
+| ![Badge Premium](/help/main/assets/premium.png)<br>Consigli nelle attività [!UICONTROL Test A/B] e [!UICONTROL Targeting esperienza] | Ora puoi includere consigli all&#39;interno di [!UICONTROL Test A/B] (tra cui [!UICONTROL Allocazione automatica] e [!UICONTROL Targeting automatico]) e [!UICONTROL Attività Targeting esperienza] (XT). Questo apre a funzionalità tutte nuove, ad esempio:<ul><li>Contenuto relativo e non relativo a consigli di test e targeting all’interno della stessa attività.</li><li>Facile sperimentazione con il posizionamento di consigli sulla pagina, tra cui l’ordine di più consigli.</li><li>Invio automatico di traffico all&#39;esperienza di consigli con le prestazioni migliori tramite [!UICONTROL Allocazione automatica].</li><li>Assegnazione dinamica di visitatori a esperienze di consigli su misura in base ai singoli profili tramite [!UICONTROL Targeting automatico].</li></ul>Per iniziare, crea un&#39;attività [!UICONTROL Test A/B] o [!UICONTROL Targeting esperienza] tramite il Compositore esperienza visivo e utilizza l&#39;azione [!UICONTROL Inserisci prima], [!UICONTROL Inserisci dopo] o [!UICONTROL Sostituisci con] per aggiungere consigli a un&#39;esperienza. (RECS-6166)<br>Per ulteriori informazioni, consulta [Consigli come offerta](/help/main/c-recommendations/recommendations-as-an-offer.md). |
+| ![Badge Premium ](/help/main/assets/premium.png)<br> Supporto di autorizzazioni Enterprise nelle API di Target | [Le API dell’amministratore Adobe Target](https://developers.adobetarget.com/api/#admin-apis) ora sfrutteranno appieno le stesse funzionalità di autorizzazioni Enterprise disponibili nell’interfaccia utente di Target. Dal **21 febbraio 2019**, gli amministratori di sistema possono accedere ai dati dei rapporti in modo programmatico, nonché creare e gestire attività, offerte e pubblico in qualsiasi area di lavoro. In precedenza, queste azioni erano disponibili solo nell’area di lavoro predefinita. Il supporto per le attività di Personalizzazione automatizzata (AP) sarà disponibile in una versione futura. |
 
 **Miglioramenti, correzioni e modifiche**
 
@@ -3354,8 +3324,8 @@ Questa versione include i miglioramenti, le modifiche e le funzioni seguenti:
 
 | Funzionalità/Miglioramento | Descrizione |
 | --- | --- |
-| Supporto del ![badge Target Premium](/help/main/assets/premium.png)<br/>[!UICONTROL Enterprise Permissions] in [!DNL Target] API | [Le API dell’amministratore Adobe Target](https://developers.adobetarget.com/api/#admin-apis) ora sfrutteranno appieno le stesse funzionalità di autorizzazioni Enterprise disponibili nell’interfaccia utente di Target. A partire **dal 21 febbraio 2019**, gli amministratori di sistema potranno accedere ai dati dei rapporti in modo programmatico, nonché creare e gestire attività, offerte e pubblico in qualsiasi area di lavoro. In precedenza, queste azioni erano disponibili solo nell’area di lavoro predefinita. Il supporto per le attività di Personalizzazione automatizzata (AP) sarà disponibile in una versione futura. |
-| ![Badge Target Premium](/help/main/assets/premium.png)<br/>[!UICONTROL Recommendations]: filtrare raccolte ed esclusioni per ambiente (gruppo di host) | È ora possibile visualizzare in anteprima il contenuto di [!UICONTROL Recommendations] raccolte ed esclusioni per un ambiente selezionato (gruppo host).<br/>In precedenza, quando si visualizzava una raccolta o un&#39;esclusione, gli elementi visualizzati erano risultati per il gruppo host predefinito (specificato in [!UICONTROL Recommendations > Settings > Default Host Group]).<br/>Ora, quando si crea o si aggiorna una raccolta o un&#39;esclusione, è possibile utilizzare il selettore [!UICONTROL Environment] per scegliere l&#39;ambiente per il quale visualizzare in anteprima i risultati. Il nuovo filtro [!UICONTROL Environment] ti consente di risparmiare tempo e fatica perché non dovrai più passare alla pagina [!UICONTROL Settings] per selezionare il gruppo di host predefinito appropriato prima di creare o modificare raccolte ed esclusioni.<br/>**Nota:** Dopo aver modificato l&#39;ambiente selezionato, devi fare clic su [!UICONTROL Search] per aggiornare i risultati restituiti.<br/>Il nuovo filtro [!UICONTROL Environment] è disponibile nelle seguenti posizioni nell&#39;interfaccia utente [!DNL Target]:<ul><li>[!UICONTROL Catalog Search] ([!UICONTROL Recommendations > Catalog Search])</li><li>Finestra di dialogo [!UICONTROL Create Collection] ([!UICONTROL Recommendations > Collections > Create New])</li><li>Finestra di dialogo [!UICONTROL Update Collection] ([!UICONTROL Recommendations > Collections > Edit])</li><li>Finestra di dialogo [!UICONTROL Create Exclusion] ([!UICONTROL Recommendations > Exclusions > Create New])</li><li>Finestra di dialogo [!UICONTROL Update Exclusion] ([!UICONTROL Recommendations > Exclusions > Edit])</li></ul><br>Per maggiori informazioni, vedi i seguenti argomenti:<uL><li>[Raccolte](/help/main/c-recommendations/c-products/collections.md)</li><li>[Esclusioni](/help/main/c-recommendations/c-products/exclusions.md)</li><li>[Ricerca nel catalogo](/help/main/c-recommendations/c-products/catalog-search.md)</li><li>[Impostazioni](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=it){target=_blank}</li><li>[Consigli: filtrare raccolte ed esclusioni per ambiente (gruppo di host)](/help/main/administrating-target/hosts.md)</li></ul>(TGT-20622)</ul> |
+| ![Badge Target Premium](/help/main/assets/premium.png)<br/>[!UICONTROL Autorizzazioni Enterprise] supporto in [!DNL Target] API | [Le API dell’amministratore Adobe Target](https://developers.adobetarget.com/api/#admin-apis) ora sfrutteranno appieno le stesse funzionalità di autorizzazioni Enterprise disponibili nell’interfaccia utente di Target. A partire **dal 21 febbraio 2019**, gli amministratori di sistema potranno accedere ai dati dei rapporti in modo programmatico, nonché creare e gestire attività, offerte e pubblico in qualsiasi area di lavoro. In precedenza, queste azioni erano disponibili solo nell’area di lavoro predefinita. Il supporto per le attività di Personalizzazione automatizzata (AP) sarà disponibile in una versione futura. |
+| ![Badge Target Premium](/help/main/assets/premium.png)<br/>[!UICONTROL Recommendations]: filtrare raccolte ed esclusioni per ambiente (gruppo di host) | È ora possibile visualizzare in anteprima il contenuto di [!UICONTROL Raccomandazioni] raccolte ed esclusioni per un ambiente selezionato (gruppo host).<br/>In precedenza, quando si visualizzava una raccolta o un&#39;esclusione, gli elementi visualizzati erano risultati per il gruppo host predefinito (specificato in [!UICONTROL Consigli > Impostazioni > Gruppo host predefinito]).<br/>Ora, quando si crea o si aggiorna una raccolta o un&#39;esclusione, è possibile utilizzare il selettore [!UICONTROL Ambiente] per scegliere l&#39;ambiente per cui visualizzare in anteprima i risultati. Il nuovo filtro [!UICONTROL Ambiente] ti consente di risparmiare tempo e fatica perché non dovrai più passare alla pagina [!UICONTROL Impostazioni] per selezionare il gruppo host predefinito appropriato prima di creare o modificare raccolte ed esclusioni.<br/>**Nota:** Dopo aver modificato l&#39;ambiente selezionato, fai clic su [!UICONTROL Cerca] per aggiornare i risultati restituiti.<br/>Il nuovo filtro [!UICONTROL Ambiente] è disponibile nelle seguenti posizioni nell&#39;interfaccia utente [!DNL Target]:<ul><li>[!UICONTROL Ricerca nel catalogo] ([!UICONTROL Consigli > Ricerca nel catalogo])</li><li>Finestra di dialogo [!UICONTROL Crea raccolta] ([!UICONTROL Consigli > Raccolte > Crea nuova])</li><li>[!UICONTROL Finestra di dialogo Aggiorna raccolta] ([!UICONTROL Consigli > Raccolte > Modifica])</li><li>[!UICONTROL Finestra di dialogo Crea esclusione] ([!UICONTROL Consigli > Esclusioni > Crea nuova])</li><li>[!UICONTROL Finestra di dialogo Aggiorna esclusione] ([!UICONTROL Consigli > Esclusioni > Modifica])</li></ul><br>Per maggiori informazioni, vedi i seguenti argomenti:<uL><li>[Raccolte](/help/main/c-recommendations/c-products/collections.md)</li><li>[Esclusioni](/help/main/c-recommendations/c-products/exclusions.md)</li><li>[Ricerca nel catalogo](/help/main/c-recommendations/c-products/catalog-search.md)</li><li>[Impostazioni](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}</li><li>[Consigli: filtrare raccolte ed esclusioni per ambiente (gruppo di host)](/help/main/administrating-target/hosts.md)</li></ul>(TGT-20622)</ul> |
 
 **Miglioramenti, correzioni e modifiche**
 
@@ -3388,7 +3358,7 @@ Questa versione include i miglioramenti, le modifiche e le funzioni seguenti:
 
 ### Target Standard/Premium 18.11.1 (12 novembre 2018) {#section_6BBA8B1EE9D241C28E12856A375E97F6}
 
-La versione di [!DNL Target] Standard/Premium del 12 novembre include miglioramenti di back-end, correzioni e modifiche. I report [!UICONTROL Personalization Insights] saranno disponibili il 14 novembre.
+La versione di [!DNL Target] Standard/Premium del 12 novembre include miglioramenti di back-end, correzioni e modifiche. I rapporti di [!UICONTROL Approfondimenti personalizzazione] saranno disponibili il 14 novembre.
 
 <table id="table_EF529199D1C741F7BDBC9C41A37B7D26"> 
  <thead> 
@@ -3444,12 +3414,12 @@ Questa versione di [!DNL Target] include i seguenti miglioramenti, correzioni e 
 
 * Migliorata la gestione dei tipi di pubblico eliminati in Adobe Audience Manager (AAM) a cui si fa riferimento nelle attività di Target. (TGT-23338)
 
-   * Se un pubblico è stato eliminato in AAM, viene visualizzata un&#39;icona di avviso sia nell&#39;elenco [!UICONTROL Audience] che nel selettore del pubblico. Un suggerimento nell&#39;interfaccia utente indica inoltre che il pubblico è stato eliminato in AAM.
+   * Se un pubblico è stato eliminato in AAM, viene visualizzata un&#39;icona di avviso sia nell&#39;elenco [!UICONTROL Tipi di pubblico] sia nel selettore dei tipi di pubblico. Un suggerimento nell&#39;interfaccia utente indica inoltre che il pubblico è stato eliminato in AAM.
    * Se si tenta di combinare più tipi di pubblico con un pubblico eliminato o se si tenta di salvare un&#39;attività che fa riferimento a un pubblico eliminato, viene visualizzato un messaggio di avviso.
 
   Consulta [Informazioni sui tipi di pubblico](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/audiences.html?lang=it).
 
-* È stato risolto un problema che impediva agli utenti in determinate situazioni di creare un&#39;attività quando Adobe Analytics era selezionato come origine per la generazione di rapporti nella pagina [!UICONTROL Administration]. Gli utenti visualizzavano il messaggio “Seleziona una suite di rapporti” anche se non veniva data la possibilità di selezionarla. (TGT-31968)
+* È stato risolto un problema che impediva agli utenti in determinate situazioni di creare un&#39;attività quando Adobe Analytics era selezionato come origine per la generazione di rapporti nella pagina [!UICONTROL Amministrazione]. Gli utenti visualizzavano il messaggio “Seleziona una suite di rapporti” anche se non veniva data la possibilità di selezionarla. (TGT-31968)
 
 ### Piattaforma (19 ottobre 2018)
 
@@ -3674,7 +3644,7 @@ Questa versione include i miglioramenti e le funzioni seguenti:
   </tr> 
   <tr> 
    <td colname="col1"> <p>Browser supportati </p> </td> 
-   <td colname="col2"> <p>È stato aggiunto Microsoft Edge come browser supportato per l'interfaccia utente di Target e per la distribuzione dei contenuti. </p> <p>Per ulteriori informazioni, consulta . <a href="https://experienceleague.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html?lang=it" format="dita" scope="local"> Browser supportati </a> (TGT-14102) </p> </td> 
+   <td colname="col2"> <p>È stato aggiunto Microsoft Edge come browser supportato per l'interfaccia utente di Target e per la distribuzione dei contenuti. </p> <p>Per ulteriori informazioni, consulta . <a href="https://experienceleague.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html" format="dita" scope="local"> Browser supportati </a> (TGT-14102) </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> <p>Consigli </p> </td> 
@@ -3783,7 +3753,7 @@ Questa versione include i miglioramenti e le funzioni seguenti:
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Frammenti di esperienza di Adobe Experience Manager (AEM) </p> </td> 
-   <td colname="col2"> <p>I frammenti di esperienza creati in AEM possono essere utilizzati nelle attività di Target per combinare la facilità d’uso e l’efficienza di AEM con le potenti capacità di intelligenza automatizzata (AI) e apprendimento automatico (ML) di Target per testare e personalizzare le esperienze su larga scala.&nbsp;&nbsp; </p> <p>AEM riunisce tutti i contenuti e le risorse in una posizione centrale per alimentare la tua strategia di personalizzazione. AEM consente di creare facilmente contenuti per desktop, tablet e dispositivi mobili in un'unica posizione senza scrivere codice. Non è necessario creare pagine per ogni dispositivo: AEM regola automaticamente ogni esperienza utilizzando i contenuti. </p> <p> Target ti consente di fornire esperienze personalizzate in scala su una combinazione di approcci di apprendimento automatico basati sulle regole e guidati da intelligenze automatizzate che incorporano variabili comportamentali, contestuali e offline.&nbsp; Con Target puoi facilmente impostare ed eseguire attività A/B e multivariate per determinare le offerte, i contenuti e le esperienze migliori. </p> <p>La funzione Frammenti esperienza rappresenta un enorme passo avanti per la collaborazione tra i creatori e i manager di contenuti ed esperienze, e i professionisti di personalizzazione e ottimizzazione che usano Target per conseguire risultati di business. </p> <p>Per ulteriori informazioni, consulta <a href="/help/main/c-experiences/c-manage-content/aem-experience-fragments.md#topic_1E1E4EA01F074349B2CF8785387B5FE8" format="dita" scope="local">Frammenti esperienza AEM</a>. </p> </td> 
+   <td colname="col2"> <p>I frammenti di esperienza creati in AEM possono essere utilizzati nelle attività di Target per combinare la facilità d’uso e l’efficienza di AEM con le potenti capacità di intelligenza automatizzata (AI) e apprendimento automatico (ML) di Target per testare e personalizzare le esperienze su larga scala.&amp;nbsp;&amp;nbsp; </p> <p>AEM riunisce tutti i contenuti e le risorse in una posizione centrale per alimentare la tua strategia di personalizzazione. AEM consente di creare facilmente contenuti per desktop, tablet e dispositivi mobili in un'unica posizione senza scrivere codice. Non è necessario creare pagine per ogni dispositivo: AEM regola automaticamente ogni esperienza utilizzando i contenuti. </p> <p> Target ti consente di fornire esperienze personalizzate in scala su una combinazione di approcci di apprendimento automatico basati sulle regole e guidati da intelligenze automatizzate che incorporano variabili comportamentali, contestuali e offline.&amp;nbsp; Con Target puoi facilmente impostare ed eseguire attività A/B e multivariate per determinare le offerte, i contenuti e le esperienze migliori. </p> <p>La funzione Frammenti esperienza rappresenta un enorme passo avanti per la collaborazione tra i creatori e i manager di contenuti ed esperienze, e i professionisti di personalizzazione e ottimizzazione che usano Target per conseguire risultati di business. </p> <p>Per ulteriori informazioni, consulta <a href="/help/main/c-experiences/c-manage-content/aem-experience-fragments.md#topic_1E1E4EA01F074349B2CF8785387B5FE8" format="dita" scope="local">Frammenti esperienza AEM</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Rapporti </p> </td> 
@@ -3817,7 +3787,7 @@ Questa versione include i miglioramenti e le funzioni seguenti:
 
 Questa versione di [!DNL Target] include i seguenti miglioramenti, correzioni e modifiche:
 
-* Transport Layer Security (TLS) è tra i protocolli di sicurezza distribuiti più ampiamente ed è oggi utilizzato per i browser web e per altre applicazioni dove i dati devono essere scambiati in modo sicuro all’interno di una rete. Adobe possiede degli standard di sicurezza e conformità che richiedono la chiusura dei protocolli più vecchi e l’utilizzo di TLS 1.2 per poter avere la versione in uso più aggiornata e più sicura. A partire dalla versione 18.4.1 di Target (25 aprile 2018), Adobe Target farà dei passi avanti per avvicinarsi alla crittografia TLS 1.2 ed eliminare completamente il supporto per la crittografia TLS 1.0 entro il 12 settembre 2018. È importante che esamini a fondo le specifiche e pianifichi le modifiche per una transizione senza problemi. Per ulteriori informazioni, consulta [Modifiche alla crittografia TLS](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html?lang=it){target=_blank}.
+* Transport Layer Security (TLS) è tra i protocolli di sicurezza distribuiti più ampiamente ed è oggi utilizzato per i browser web e per altre applicazioni dove i dati devono essere scambiati in modo sicuro all’interno di una rete. Adobe possiede degli standard di sicurezza e conformità che richiedono la chiusura dei protocolli più vecchi e l’utilizzo di TLS 1.2 per poter avere la versione in uso più aggiornata e più sicura. A partire dalla versione 18.4.1 di Target (25 aprile 2018), Adobe Target farà dei passi avanti per avvicinarsi alla crittografia TLS 1.2 ed eliminare completamente il supporto per la crittografia TLS 1.0 entro il 12 settembre 2018. È importante che esamini a fondo le specifiche e pianifichi le modifiche per una transizione senza problemi. Per ulteriori informazioni, consulta [Modifiche alla crittografia TLS](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html){target=_blank}.
 * L’interfaccia utente per le schede Criteri dei consigli è stata migliorata per un’ottima fruibilità. (TGT-27829)
 
 ### at.js (3 aprile 2018) {#section_932DF1004F4648668FE4984BFAF2EC49}
@@ -3850,7 +3820,7 @@ Questa versione include i miglioramenti e le funzioni seguenti:
       <li id="li_7336D8D48A894291A378E0BB212B7F9B"> <p>at.js offre una funzionalità migliorata per il tracciamento di eventi e clic. at.js utilizza <span class="codeph">navigator.sendBeacon()</span> per inviare i dati di tracciamento degli eventi; se <span class="codeph">navigator.sendBeacon()</span> non è supportato, si basa su richieste XHR sincrone. Questo fallback riguarda principalmente Internet Explorer 10 e 11 e alcune versioni di Safari. Con iOS 11.3, in Safari verrà aggiunto il supporto di <span class="codeph">navigator.sendBeacon()</span>. </p> </li> 
       <li id="li_28D7324137B14C75BF6F1EA0B2487C9B"> <p>at.js ora può renderizzare le offerte anche quando una pagina viene aperta nelle schede in background. Alcuni utenti di Target hanno riscontrato problemi quando <span class="codeph">requestAnimationFrame()</span> è stato disattivato a causa del comportamento di limitazione del browser per le schede in background. </p> </li> 
       <li id="li_3278979E1C6C41DEA7E8025AEB337985"> <p>In questa versione sono stati aggiunti svariati miglioramenti a livello di prestazioni, tra cui call stack più brevi durante l’ispezione di un profilo CPU in Chrome. </p> </li> 
-      <li id="li_AAA9C0DCC3354DFA8907968C8E6427F6"> <p>at.js 1.3.0 non supporta più la consegna di contenuti in Microsoft Internet Explorer 9. Per un elenco dei browser supportati, vedere <a href="https://experienceleague.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html?lang=it" format="dita" scope="local"> browser supportati </a>. Da adesso in poi, tutte le richieste vengono eseguite tramite <span class="codeph">XMLHttpRequest</span> con supporto CORS, senza richieste JSONP. Questa modifica migliora notevolmente la sicurezza. </p> </li> 
+      <li id="li_AAA9C0DCC3354DFA8907968C8E6427F6"> <p>at.js 1.3.0 non supporta più la consegna di contenuti in Microsoft Internet Explorer 9. Per un elenco dei browser supportati, vedere <a href="https://experienceleague.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html" format="dita" scope="local"> browser supportati </a>. Da adesso in poi, tutte le richieste vengono eseguite tramite <span class="codeph">XMLHttpRequest</span> con supporto CORS, senza richieste JSONP. Questa modifica migliora notevolmente la sicurezza. </p> </li> 
      </ul> </p> </td> 
   </tr> 
  </tbody> 
@@ -4187,7 +4157,7 @@ Questa versione include i miglioramenti e le funzioni seguenti (i codici tra par
   </tr> 
   <tr> 
    <td colname="col1"> <p>Consegna a dispositivi mobili con funzioni batch e preacquisizione </p> </td> 
-   <td colname="col2"> <p><b>Aggiornamento: 12 ottobre 2017</b> </p> <p> Il contenuto di più mbox può essere pre-acquisito in una singola chiamata e memorizzato nella cache locale del dispositivo senza preoccuparsi di come, quando e se l'utente finale vedrà il contenuto. </p> <p>Per eseguirla, è necessario scaricare e installare la versione 4.14 (o successiva) appropriata di Adobe Mobile SDK. </p> <p>Per ulteriori informazioni, vedere <a href="https://experienceleague.adobe.com/docs/target-dev/developer/mobile-apps/version-4/prefetch-offer-content.html?lang=it" format="dita" scope="local"> Preacquisizione del contenuto dell'offerta </a>. </p> </td> 
+   <td colname="col2"> <p><b>Aggiornamento: 12 ottobre 2017</b> </p> <p> Il contenuto di più mbox può essere pre-acquisito in una singola chiamata e memorizzato nella cache locale del dispositivo senza preoccuparsi di come, quando e se l'utente finale vedrà il contenuto. </p> <p>Per eseguirla, è necessario scaricare e installare la versione 4.14 (o successiva) appropriata di Adobe Mobile SDK. </p> <p>Per ulteriori informazioni, vedere <a href="https://experienceleague.adobe.com/docs/target-dev/developer/mobile-apps/version-4/prefetch-offer-content.html" format="dita" scope="local"> Preacquisizione del contenuto dell'offerta </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Attività </p> </td> 
@@ -4235,7 +4205,7 @@ Questa versione di [!DNL Target] include i miglioramenti, le correzioni e le mod
 
 * Gli utenti con autorizzazioni di Approvatore possono ora generare e attivare token di autenticazione API di profilo. (TGT-24074)
 
-  Per ulteriori informazioni, consulta [Impostazioni API di profilo](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/profile-api-settings.html?lang=it){target=_blank}.
+  Per ulteriori informazioni, consulta [Impostazioni API di profilo](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/profile-api-settings.html){target=_blank}.
 
 * Quando, durante la creazione di un’attività in Compositore esperienza visivo, l’utente ricarica la pagina, l’URL dell’attività e le proprietà associate vengono mantenuti nell’interfaccia utente. La necessità di ricaricare può verificarsi nel caso in cui l&#39;attività utilizzi un contenuto misto (contenuto protetto e non protetto) o nel caso siano presenti problemi di autorizzazione. (TGT-28230)
 * È stata migliorata la messaggistica quando un&#39;attività utilizza contenuto misto (contenuto protetto e non protetto). Il messaggio fornisce informazioni per consentire agli utenti di eseguire i passaggi necessari per aprire un sito HTTP o un sito con chiamate miste (HTTPS e HTTP). (TGT-26271)
@@ -4413,7 +4383,7 @@ Questa versione di [!DNL Target] include i miglioramenti, le correzioni e le mod
 
 Questa versione di [!DNL Target] include i seguenti miglioramenti e correzioni di problemi rivolti al cliente: (i codici tra parentesi sono per uso interno di Adobe):
 
-* È stato migliorato il flusso di lavoro nel caso in cui, durante la creazione o la modifica di un&#39;attività o di un&#39;offerta da parte dell&#39;utente, la sessione di [!DNL Target] risulti scaduta. Quando l&#39;utente fa clic su [!UICONTROL Save], viene visualizzato il messaggio di sessione scaduta, ma dopo aver effettuato di nuovo il log in, una finestra di dialogo informa l&#39;utente che l&#39;accesso è andato a buon fine e l&#39;interfaccia utente rimane nella stessa pagina in [!DNL Target] senza perdita di dati.
+* È stato migliorato il flusso di lavoro nel caso in cui, durante la creazione o la modifica di un&#39;attività o di un&#39;offerta da parte dell&#39;utente, la sessione di [!DNL Target] risulti scaduta. Quando l&#39;utente fa clic su [!UICONTROL Salva], viene visualizzato il messaggio di sessione scaduta, ma dopo aver effettuato di nuovo il log in, una finestra di dialogo informa l&#39;utente che l&#39;accesso è andato a buon fine e l&#39;interfaccia utente rimane nella stessa pagina in [!DNL Target] senza perdita di dati.
 
   Se durante l’esecuzione di un’azione intermittente in una pagina di [!DNL Target] si verifica un’interruzione della sessione per timeout, l’utente è invitato a eseguire nuovamente l’accesso e viene quindi indirizzato all’ultima pagina da lui modificata nell’interfaccia utente di [!DNL Target].
 
@@ -4511,7 +4481,7 @@ Questa versione di [!DNL Target] include i miglioramenti e le correzioni seguent
   </tr> 
   <tr> 
    <td colname="col1"> <p>Nuova posizione del Forum di Target </p> </td> 
-   <td colname="col2"> <p> Il Forum di Target è stato spostato nella nuova <a href="https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community?profile.language=it" format="https" scope="external">Piattaforma di Adobe Community</a>. </p> </td> 
+   <td colname="col2"> <p> Il Forum di Target è stato spostato nella nuova <a href="https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community" format="https" scope="external">Piattaforma di Adobe Community</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -4605,47 +4575,47 @@ Questa versione include i miglioramenti e le funzioni seguenti:
 
 Questa versione di [!DNL Target] include i seguenti miglioramenti e correzioni rivolti al cliente:
 
-* L&#39;interfaccia utente di [!DNL Target] è stata aggiornata per supportare le offerte di reindirizzamento in attività che utilizzano [!UICONTROL Analytics for Target] (A4T) come origine per la generazione di rapporti. Questa funzionalità richiederà la versione 0.9.6 di [!DNL at.js], che sarà disponibile a breve.
+* L&#39;interfaccia utente [!DNL Target] è stata aggiornata per supportare le offerte di reindirizzamento in attività che utilizzano [!UICONTROL Analytics for Target] (A4T) come origine per la generazione di rapporti. Questa funzionalità richiederà la versione 0.9.6 di [!DNL at.js], che sarà disponibile a breve.
 * L&#39;interfaccia utente di [!DNL Target] è stata aggiornata in alcuni punti:
 
-   * Nei rapporti e nelle attività, alcune opzioni ( [!UICONTROL Edit], [!UICONTROL Share to Feed], [!UICONTROL View Experience URLs], ecc.) sono ora accessibili facendo clic sull&#39;icona [!UICONTROL More Options] ( ![icon_more_options image](assets/icon_more_options.png)
+   * Nei rapporti e nelle attività, alcune opzioni ( [!UICONTROL Modifica], [!UICONTROL Condividi per feed], [!UICONTROL Visualizza URL esperienza], ecc.) sono ora accessibili facendo clic sull&#39;icona [!UICONTROL Altre opzioni] ( ![icona_altre_opzioni immagine](assets/icon_more_options.png)
 
-      
-   * Nella libreria [!UICONTROL Offers], le offerte ora vengono visualizzate in un elenco anziché come schede. Altre modifiche minori dell&#39;interfaccia utente sono state apportate in tutta l&#39;interfaccia utente della libreria [!UICONTROL Offers].
+     ).
+   * Nella Libreria [!UICONTROL offerte], le offerte ora sono visualizzate come un elenco piuttosto che come schede. Altre modifiche minori dell&#39;interfaccia utente sono state effettuate in tutta l&#39;interfaccia utente della Libreria [!UICONTROL offerte].
 
-* Prestazioni significativamente migliorate negli elenchi [!UICONTROL Activity] e [!UICONTROL Audience]. Inoltre, i tempi di caricamento dei risultati di ricerca saranno di nuovo molto più veloci.
-* &quot;Visualizzazioni&quot; è ora &quot;Visite&quot; in [!UICONTROL Offer Level Report] per [!UICONTROL Automated Personalization] rapporti.
-* [!DNL Target] ora supporta il passaggio da un ambiente a un altro (gruppi host) per le attività [!UICONTROL Automated Personalization].
-* [!UICONTROL Automated Personalization] attività ora supportano i gruppi host.
+* Le prestazioni sulle attività degli elenchi di [!UICONTROL Attività] e [!UICONTROL Audience] sono significativamente migliorate. Inoltre, i tempi di caricamento dei risultati di ricerca saranno di nuovo molto più veloci.
+* Nel [!UICONTROL Rapporto del livello di offerta] per i rapporti di [!UICONTROL Personalizzazione automatizzata], ora “Visualizzazioni” è diventato “Visite”.
+* [!DNL Target] ora supporta il passaggio da un ambiente a un altro (gruppi host) per [!UICONTROL attività Automated Personalization].
+* Le attività di [!UICONTROL Personalizzazione automatizzata] supportano ora i gruppi host.
 
 ### Target Standard/Premium 17.2.1 (21 febbraio 2017) {#section_FC6412353DE64E848FFD5E8EFF72C7C7}
 
 >[!NOTE]
 >
->[!DNL Adobe Experience Manager] 6.2 con FP-11577 (o versioni successive) ora supporta [!DNL at.js] implementazioni con la relativa integrazione [!UICONTROL Adobe Target Cloud Services]. Per ulteriori informazioni, consulta [Pacchetti di funzionalità](https://experienceleague.adobe.com/docs/?lang=it) e [Integrazione con Adobe Target](https://experienceleague.adobe.com/docs/?lang=it) nella documentazione di *Adobe Experience Manager 6.2*.
+>[!DNL Adobe Experience Manager] 6.2 con FP-11577 (o versioni successive) ora supporta [!DNL at.js] implementazioni con la relativa integrazione di [!UICONTROL Adobe Target Cloud Services]. Per ulteriori informazioni, consulta [Pacchetti di funzionalità](https://experienceleague.adobe.com/docs/?lang=it) e [Integrazione con Adobe Target](https://experienceleague.adobe.com/docs/?lang=it) nella documentazione di *Adobe Experience Manager 6.2*.
 
 Questa versione di [!DNL Target] è incentrata sulla fruibilità e sui miglioramenti delle prestazioni, e include i seguenti miglioramenti e correzioni (i codici tra parentesi sono per uso interno di Adobe):
 
 * Sono stati aggiunti ulteriori elementi al menu della guida, a cui è possibile accedere dall&#39;angolo superiore destro dell&#39;interfaccia utente di [!DNL Target]. Le nuove opzioni includono: “Blog” e “Video”. L&#39;opzione “Adobe Experience Cloud Status” è ora “Adobe Target Standard/Premium Status”. (TGT-22629)
-* Quando si elimina un pubblico,[!DNL Target] visualizza un elenco di attività che fanno riferimento a quel pubblico. Gli utenti possono fare clic su ogni attività nell&#39;elenco per visualizzare la relativa pagina [!UICONTROL Overview]. (TGT-17997)
+* Quando si elimina un pubblico,[!DNL Target] visualizza un elenco di attività che fanno riferimento a quel pubblico. Ora gli utenti possono fare clic su ogni attività nell&#39;elenco per visualizzare la pagina di [!UICONTROL Riepilogo]. (TGT-17997)
 * È stata migliorata la funzione `user.activeCampaigns`, che restituisce l&#39;ID della campagna per tutte le campagne/attività a cui l&#39;utente è iscritto, anche se non ha interagito con la campagna/attività nella sessione corrente. (TNT-26237)
-* Il pulsante [!UICONTROL Create Activity] nella pagina [!UICONTROL Activities] è ora attivo prima che tutti i nomi di attività vengano caricati nell&#39;elenco. Questo miglioramento consente agli utenti di creare nuove attività più velocemente, soprattutto quando l&#39;account ha molte attività configurate. (TGT-21470)
+* Il pulsante [!UICONTROL Crea attività] nella pagina [!UICONTROL Attività] viene ora attivato prima che tutti i nomi delle attività vengano caricati nell&#39;elenco. Questo miglioramento consente agli utenti di creare nuove attività più velocemente, soprattutto quando l&#39;account ha molte attività configurate. (TGT-21470)
 * È stato implementato il Compositore esperienza avanzato per migliorare il tempo di caricamento dei siti Web che eseguono HTTPS con accesso tramite proxy. Target non recupera più risorse statiche tramite proxy. (TGT-21793)
-* Sono stati apportati miglioramenti alle prestazioni sulla pagina [!UICONTROL Goals & Settings], in particolare al tempo di caricamento quando sono definite molte metriche per un&#39;attività. (TGT-21654)
-* Aggiunta una descrizione comandi nella pagina [!UICONTROL Goals & Settings] di tutte le attività che utilizzano [!UICONTROL Analytics for Target] (A4T), per informare gli utenti che non è necessario un server di tracciamento se nelle pagine dell&#39;attività è caricato at.js (versione 0.9.1 o successiva). (TGT-22607)
-* I nomi delle metriche ora vengono visualizzati nella pagina [!UICONTROL Goals & Settings] senza che sia necessario espandere ogni metrica per visualizzare l&#39;intero nome della metrica. Questo miglioramento consente agli utenti di modificare le metriche più rapidamente e in modo più efficiente. (TGT-21276)
+* Sono state migliorate le prestazioni sulla pagina [!UICONTROL Obiettivi e impostazioni], in particolare per il tempo di caricamento nel caso in cui vengano definite metriche multiple per un&#39;attività. (TGT-21654)
+* Aggiunta una descrizione comandi nella pagina [!UICONTROL Obiettivi e impostazioni] di tutte le attività che utilizzano [!UICONTROL Analytics for Target] (A4T), per informare gli utenti che non è necessario un server di tracciamento se nelle pagine dell&#39;attività è caricato at.js (versione 0.9.1 o successiva). (TGT-22607)
+* I nomi delle metriche vengono ora visualizzati nella pagina [!UICONTROL Obiettivi e impostazioni] senza che gli utenti debbano espandere ogni singola metrica per visualizzarne il nome per intero. Questo miglioramento consente agli utenti di modificare le metriche più rapidamente e in modo più efficiente. (TGT-21276)
 * È ora possibile applicare le regole di inclusione di [!DNL Recommendations] ai criteri personalizzati (aggiornamento tramite CSV), come per qualsiasi altro criterio. (TGT-21896)
-* È stata migliorata l&#39;interfaccia utente e la facilità d&#39;uso della pagina [!UICONTROL Offers], in particolare durante la creazione o la gestione di cartelle e la creazione di offerte. (TGT-22509 e TGT-22187)
-* È stata migliorata l&#39;esperienza utente nel Compositore esperienza visivo di [!UICONTROL Visual Experience Composer] quando si selezionano gli elementi da nascondere.
+* È stata migliorata l&#39;interfaccia utente e la fruibilità della pagina [!UICONTROL Offerte], specialmente quando si creano o gestiscono cartelle e si creano offerte. (TGT-22509 e TGT-22187)
+* È stata migliorata l&#39;esperienza utente nel [!UICONTROL Compositore esperienza visivo] (VEC) durante la selezione degli elementi da nascondere.
 (TGT-22224)
-* È stata migliorata l&#39;esperienza utente durante la creazione di attività utilizzando [!UICONTROL Form-Based Experience Composer]. Quando si sceglie un percorso mbox, il bordo di convalida rimane evidenziato dopo aver fatto clic su [!UICONTROL Next]. (TGT-22221)
+* È stata migliorata l&#39;esperienza dell&#39;utente durante la creazione di attività utilizzando il [!UICONTROL Compositore esperienza basato su moduli]. Quando si sceglie una posizione mbox, il bordo di convalida rimane evidenziato dopo aver fatto clic su [!UICONTROL Avanti]. (TGT-22221)
 * Sono stati ottimizzati i rapporti scaricati per distinguere tra le offerte attive ed eliminate. (TGT-22449)
 * È stato risolto un problema che impediva la visualizzazione di risorse obsolete nell&#39;elenco a scorrimento infinito all&#39;interno dell&#39;interfaccia utente del servizio principale delle Risorse di Experience Cloud. (TGT-19733)
 * È stato risolto un problema a causa del quale nei rapporti CSV scaricati non veniva rispettata l&#39;impostazione dell&#39;ordine estremo. (TGT-21871)
-* È stato risolto un problema a causa del quale gli ordini estremi non venivano contrassegnati correttamente nel rapporto CSV [!UICONTROL Order Details] scaricato. (TGT-22500)
-* È stato risolto un problema che causava la visualizzazione dell&#39;ora dell&#39;ordine errata nel rapporto CSV scaricato di [!UICONTROL Campaign Audit], anche se nel rapporto veniva visualizzata la data dell&#39;ordine corretta. (TNT-26469)
-* È stato risolto un problema che impediva il corretto funzionamento dell&#39;opzione [!UICONTROL Disable JavaScript] nelle attività multipagina. (TGT-15130)
-* Se utilizzi il Compositore esperienza basato su moduli con una mbox diversa da quella globale creata automaticamente (`target-global-mbox`) e selezioni una metrica di coinvolgimento come metrica di successo, potrai visualizzare gli incrementi di metrica solo sulle pagine che hanno la mbox utilizzata nell&#39;attività. Ad esempio, se la mbox è `homepage_mbox`, la metrica [!UICONTROL Pages Per Visit] è il numero di hit per `homepage_mbox` durante quella visita.
+* È stato risolto un problema a causa del quale gli ordini estremi non venivano contrassegnati correttamente nel rapporto CSV scaricato [!UICONTROL Dettagli ordine]. (TGT-22500)
+* È stato corretto un problema che causava l&#39;errata visualizzazione dell&#39;ora ordine nel rapporto CSV scaricato di [!UICONTROL Campagna audit], anche se il rapporto mostrava la data di ordine esatta. (TNT-26469)
+* È stato risolto un problema che impediva all&#39;opzione [!UICONTROL Disabilita JavaScript] di funzionare correttamente nelle attività multipagina. (TGT-15130)
+* Se utilizzi il Compositore esperienza basato su moduli con una mbox diversa da quella globale creata automaticamente (`target-global-mbox`) e selezioni una metrica di coinvolgimento come metrica di successo, potrai visualizzare gli incrementi di metrica solo sulle pagine che hanno la mbox utilizzata nell&#39;attività. Ad esempio, se la mbox è `homepage_mbox`, la metrica [!UICONTROL Pagine per visita] corrisponde al numero di hit per `homepage_mbox` durante quella visita.
 
   È comunque possibile aggiungere un’altra posizione all’attività e assegnare la mbox globale a tale posizione, con il contenuto predefinito. Così facendo l’oggetto mbox globale viene collegato all’attività e Target può contare la metrica per la generazione di rapporti.
 
@@ -4859,7 +4829,7 @@ Questa versione include i seguenti miglioramenti:
 
 **Problemi noti**
 
-* L&#39;opzione [!UICONTROL Render Using JavaScript] non è attualmente supportata se viene utilizzata insieme al codice personalizzato nel Compositore esperienza visivo.
+* L&#39;opzione [!UICONTROL Renderizza con JavaScript] non è attualmente supportata se utilizzata insieme al codice personalizzato nel Compositore esperienza visivo.
 
 ### Modifiche alla piattaforma Target (settembre 2016) {#section_1955146045A247D393DB824669A2A916}
 
@@ -4924,7 +4894,7 @@ Questa versione include i seguenti miglioramenti:
 
 **Problemi noti**
 
-* L&#39;opzione [!UICONTROL Render Using JavaScript] non è attualmente supportata se viene utilizzata insieme al codice personalizzato nel Compositore esperienza visivo.
+* L’opzione [!UICONTROL Rendering con JavaScript] non è attualmente supportata se viene utilizzata con codice personalizzato nel Compositore esperienza visivo.
 
 ### Adobe [!DNL Target] Standard/Premium 16.8.1 (23 agosto 2016) {#section_A8854D4EDF014AEBB81F49EB104D4A20}
 
@@ -4978,7 +4948,7 @@ Questa versione include i seguenti miglioramenti:
 
 Sono stati segnalati i seguenti problemi:
 
-* Parte del testo dell&#39;interfaccia utente per la funzionalità [!UICONTROL Category Affinity] viene visualizzato solo in inglese. Il testo in altre lingue sarà disponibile nella versione di [!DNL Target] di settembre.
+* Parte del testo dell&#39;interfaccia utente per la funzione [!UICONTROL Affinità tra categorie] appare solo in inglese. Il testo in altre lingue sarà disponibile nella versione di [!DNL Target] di settembre.
 
 ### Modifiche alla piattaforma Target (luglio 2016) {#section_09C18773707B4059852A41C764F817E4}
 
@@ -5077,7 +5047,7 @@ Questa versione include le seguenti correzioni:
 Sono stati segnalati i seguenti problemi:
 
 * Quando si seleziona “Disabilita JavaScript” per la pagina A in un&#39;attività multipagina, JavaScript viene disabilitato ovunque, anche se “Disabilita JavaScript” non viene selezionato in altre pagine.
-* Problema con gli URL di anteprima delle esperienze con reindirizzamento. Come soluzione alternativa, nel Compositore esperienza, fai clic su **[!UICONTROL Configure]**, scegli **[!UICONTROL Multiple Audiences]** e aggiungi **[!UICONTROL All visitors]** come unico pubblico. Continua a salvare l&#39;attività. Questo non cambia la distribuzione dell&#39;attività, ma consente il funzionamento dell&#39;anteprima. Questo problema verrà risolto nella versione di luglio di Adobe Target.
+* Problema con gli URL di anteprima delle esperienze con reindirizzamento. Come soluzione alternativa, fai clic su **[!UICONTROL Configura]** nel Compositore esperienza, scegli **[!UICONTROL Più tipi di pubblico]** e aggiungi **[!UICONTROL Tutti i visitatori]** come unico pubblico. Continua a salvare l&#39;attività. Questo non cambia la distribuzione dell&#39;attività, ma consente il funzionamento dell&#39;anteprima. Questo problema verrà risolto nella versione di luglio di Adobe Target.
 
 * Nella documentazione viene illustrato il comportamento previsto per la casella di controllo Reindirizza URL. Tuttavia, a causa di un bug, la casella di controllo non appare selezionata come impostazione predefinita. Questo difetto verrà corretto al più presto.
 
@@ -5145,7 +5115,7 @@ La versione 16.5.1 di Adobe Target Standard/Premium (19 maggio 2016) prevede le 
    <td colname="col1" class="premium"> File CSV scaricabile di Consigli </td> 
    <td colname="col2"> <p>I file CSV scaricabili dispongono ora di una riga per tutti gli ambienti, inclusi quelli che non hanno consigli sulle entità (ad esempio: 
      <code>
-       &#x200B;# environment: 1724 
+       # environment: 1724 
      </code>). </p> </td> 
   </tr> 
  </tbody> 
@@ -5160,7 +5130,7 @@ Miglioramento al processo di provisioning di A4T.
 Sono stati segnalati i seguenti problemi:
 
 * Quando si seleziona “Disabilita JavaScript” per la pagina A in un&#39;attività multipagina, JavaScript viene disabilitato ovunque, anche se “Disabilita JavaScript” non viene selezionato in altre pagine.
-* Problema con gli URL di anteprima delle esperienze con reindirizzamento. Come soluzione alternativa, nel Compositore esperienza, fai clic su **[!UICONTROL Configure]**, scegli **[!UICONTROL Multiple Audiences]** e aggiungi **[!UICONTROL All visitors]** come unico pubblico. Continua a salvare l&#39;attività. Questo non cambia la distribuzione dell&#39;attività, ma consente il funzionamento dell&#39;anteprima. Questo problema verrà risolto nella versione di luglio di Adobe Target.
+* Problema con gli URL di anteprima delle esperienze con reindirizzamento. Come soluzione alternativa, fai clic su **[!UICONTROL Configura]** nel Compositore esperienza, scegli **[!UICONTROL Più tipi di pubblico]** e aggiungi **[!UICONTROL Tutti i visitatori]** come unico pubblico. Continua a salvare l&#39;attività. Questo non cambia la distribuzione dell&#39;attività, ma consente il funzionamento dell&#39;anteprima. Questo problema verrà risolto nella versione di luglio di Adobe Target.
 
 ### Nuova libreria di implementazione di [!DNL Target], at.js 0.8.0 (5 maggio 2016) {#section_6A44C277E82D409AB6DCD0901F43794A}
 
@@ -5310,7 +5280,7 @@ Sono stati segnalati i seguenti problemi:
 * L&#39;aggiornamento della versione 48 di Chrome ha generato un problema di malfunzionamento del Compositore esperienza visivo su Chrome. Google sta lavorando alla soluzione. Per informazioni, fai riferimento a [https://code.google.com/p/chromium/issues/detail?id=582603](https://code.google.com/p/chromium/issues/detail?id=582603). Per aggirare questo problema:
 
    * Utilizza Firefox o Internet Explorer.
-   * Abilita il Compositore esperienza avanzato, che può essere configurato dalla scheda **[!UICONTROL Administration]** > **[!UICONTROL Visual Experience Composer]**.
+   * Abilita il Compositore esperienza avanzato, che può essere configurato dalla scheda **[!UICONTROL Amministrazione]** > **[!UICONTROL Compositore esperienza visivo]**.
 
 ### Adobe [!DNL Target] Standard/Premium 16.2.1 (18 febbraio 2016) {#section_47E5CEE2EED24CB3B71D7457673F3200}
 
@@ -5332,7 +5302,7 @@ Sono stati segnalati i seguenti problemi:
 * L&#39;aggiornamento della versione 48 di Chrome ha generato un problema di malfunzionamento del Compositore esperienza visivo su Chrome. Google sta lavorando alla soluzione. Per informazioni, fai riferimento a [https://code.google.com/p/chromium/issues/detail?id=582603](https://code.google.com/p/chromium/issues/detail?id=582603). Per aggirare questo problema:
 
    * Utilizza Firefox o Internet Explorer.
-   * Abilita il Compositore esperienza avanzato, che può essere configurato dalla scheda **[!UICONTROL Administration]** > **[!UICONTROL Visual Experience Composer]**.
+   * Abilita il Compositore esperienza avanzato, che può essere configurato dalla scheda **[!UICONTROL Amministrazione]** > **[!UICONTROL Compositore esperienza visivo]**.
 
 ### Adobe [!DNL Target] Standard/Premium 16.1.1 (28 gennaio 2016) {#section_8BF7705B452C449F961AEFC568A0778C}
 
@@ -5360,7 +5330,7 @@ Questa versione include i miglioramenti e le funzioni seguenti:
   </tr> 
   <tr> 
    <td colname="col1"> Supporto di Internet Explorer 11 </td> 
-   <td colname="col2"> <p>Da oggi, Internet Explorer 11 è supportato dall'interfaccia di Target. </p> <p>Vedi <a href="https://experienceleague.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html?lang=it" format="dita" scope="local"> browser supportati </a>. </p> </td> 
+   <td colname="col2"> <p>Da oggi, Internet Explorer 11 è supportato dall'interfaccia di Target. </p> <p>Vedi <a href="https://experienceleague.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html" format="dita" scope="local"> browser supportati </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Visualizzare l'intervallo di affidabilità nei rapporti di Target per variabili continue </td> 
@@ -5410,7 +5380,7 @@ Sono stati segnalati i seguenti problemi:
 * L&#39;aggiornamento della versione 48 di Chrome ha generato un problema di malfunzionamento del Compositore esperienza visivo su Chrome. Google sta lavorando alla soluzione. Per informazioni, fai riferimento a [https://code.google.com/p/chromium/issues/detail?id=582603](https://code.google.com/p/chromium/issues/detail?id=582603). Per aggirare questo problema:
 
    * Utilizza Firefox o Internet Explorer.
-   * Abilita il Compositore esperienza avanzato, che può essere configurato dalla scheda **[!UICONTROL Administration]** > **[!UICONTROL Visual Experience Composer]**.
+   * Abilita il Compositore esperienza avanzato, che può essere configurato dalla scheda **[!UICONTROL Amministrazione]** > **[!UICONTROL Compositore esperienza visivo]**.
 
 ## Versione 2015 {#reference_8E940F500A374F9FBCD68CDE9E7E1A00}
 
@@ -6033,8 +6003,8 @@ Questa versione include i miglioramenti e le funzioni seguenti:
 
 | Funzionalità/Miglioramento | Descrizione |
 |---|---|
-| Consentire l&#39;inserimento e la modifica di JavaScript | Aggiunta della possibilità di modificare e inserire JavaScript personalizzati nell&#39;editor esperienze quando si sceglie **[!UICONTROL Edit HTML]** dal menu azioni. |
-| Importazione automatica dei tipi di pubblico | Quando un utente apre l&#39;elenco dei tipi di pubblico e i tipi di pubblico hanno una durata superiore a 10 minuti, questi vengono automaticamente importati in background. |
+| Consentire l&#39;inserimento e la modifica di JavaScript | Aggiunta della possibilità di modificare e inserire JavaScript personalizzati nell&#39;editor esperienze quando si seleziona **[!UICONTROL Modifica HTML]** nel menu azioni. |
+| Importazione automatica delle audience | Quando un utente apre l&#39;elenco dei tipi di pubblico e i tipi di pubblico hanno una durata superiore a 10 minuti, questi vengono automaticamente importati in background. |
 | Incremento della dimensione delle offerte in HTML rispetto a quelle sincronizzabili con [!DNL Target Classic] | Limite precedente incrementato da 64 KB a 256 KB. |
 
 Questa versione include le seguenti correzioni:
@@ -6056,9 +6026,9 @@ Questa versione include le seguenti nuove funzionalità e miglioramenti:
 **Correzioni**
 
 * Risoluzione di un problema che impediva la generazione del grafico di rapporto durante la navigazione tra attività.
-* È stato risolto un problema a causa del quale i collegamenti selezionati non venivano contrassegnati come selezionati quando gli utenti facevano clic su **[!UICONTROL Select Link]** nella pagina [!UICONTROL Goals and Settings].
+* È stato risolto un problema a causa del quale i collegamenti selezionati non venivano contrassegnati come selezionati quando gli utenti facevano clic su **[!UICONTROL Seleziona collegamento]** nella pagina [!UICONTROL Obiettivi e impostazioni].
 
-* È stato corretto un errore che impediva la visualizzazione di una nuova attività in [!UICONTROL Activity List] dopo l&#39;attivazione nella pagina [!UICONTROL Overview].
+* Risoluzione di un problema che impediva a una nuova attività di apparire in [!UICONTROL Elenco delle attività] dopo essere stata attivata nella pagina [!UICONTROL Panoramica].
 
 * Risoluzione di un problema che impediva ai clienti di selezionare un collegamento per il tracciamento dei clic.
 * Risoluzione di un problema che consentiva a offerte duplicate di apparire nel rapporto livello dell&#39;offerta.
@@ -6106,8 +6076,8 @@ Questa versione include le seguenti nuove funzionalità:
 
 **Problemi risolti**
 
-* È stato risolto un problema a causa del quale alcuni tipi di pubblico condivisi ed eliminati venivano comunque visualizzati nell&#39;elenco [!UICONTROL Audiences].
-* È stato corretto un errore che causava la visualizzazione di una finestra di dialogo [!UICONTROL Save] imprevista in Internet Explorer 10.
+* Risoluzione di un problema per cui alcune audience condivise e eliminate venivano comunque visualizzate nell&#39;elenco [!UICONTROL Audience].
+* Risoluzione di un errore per cui una imprevista finestra di dialogo [!UICONTROL Salva] veniva visualizzata in Internet Explorer 10.
 * Correzione di un errore di sincronizzazione durante il salvataggio di una campagna.
 * Risoluzione di un problema per cui il pubblico per un&#39;esperienza non veniva visualizzato nei rapporti.
 * Risoluzione di un problema che impediva la corrispondenza tra elenchi delle metriche in [!DNL Target] e [!DNL Analytics].
@@ -6306,8 +6276,8 @@ Questa versione include i seguenti problemi noti. Questi problemi verranno risol
 
 * Se i tipi di pubblico Geo vengono creati in Target Standard quando la geolocalizzazione è disabilitata in Target Advanced, si verifica un errore di sincronizzazione.
 * Non è possibile scambiare un&#39;immagine quando all&#39;immagine viene fatto riferimento in CSS.
-* Il tracciamento dei clic non funziona sugli elementi che sono stati ridisposti con il Compositore esperienza visivo. Evita di configurare il tracciamento dei clic su elementi ridisposti fino alla correzione di questo bug.
-* Gli utenti non possono selezionare l&#39;azione **[!UICONTROL Remove]** per il contenuto incluso in una mbox.
+* Il tracciamento dei clic non funziona sugli elementi che sono stati ridisposti con il Compositore esperienza visivo. Evitare di configurare il tracciamento dei clic su elementi ridisposti fino alla correzione di questo bug.
+* Gli utenti non possono selezionare l&#39;azione **[!UICONTROL Rimuovi]** per il contenuto incluso in una mbox.
 
 ### Adobe [!DNL Target] Standard 1.2 (31 ottobre 2013) {#section_420B5E910D7341AA8DB059C8E1071D53}
 
