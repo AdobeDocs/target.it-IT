@@ -18,10 +18,10 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 50db5431370825e46cb1bcb68c9a3ad27ce25079
+source-git-commit: 391653c7a45a48c311c6a6cff358bd077f8c47b7
 workflow-type: tm+mt
-source-wordcount: 459
-ht-degree: 58%
+source-wordcount: 652
+ht-degree: 41%
 
 ---
 
@@ -31,23 +31,51 @@ Esplora le funzioni, i miglioramenti e le correzioni più recenti in [!DNL Adobe
 
 I codici dei problemi tra parentesi sono per uso interno di [!DNL Adobe].
 
-## [!DNL Target Standard/Premium] 26.5.3 (21 maggio 2026)
-
-**[!UICONTROL Novità] pagina**
-
-+++Vedi i dettagli
-
-* **Nuova [!UICONTROL Novità] pagina.** È stata aggiunta una nuova pagina **[!UICONTROL Novità]** nell&#39;interfaccia utente [!DNL Adobe Target] per consentire di individuare le funzionalità, i miglioramenti e gli aggiornamenti più recenti senza uscire dal prodotto. (TGT-55137)
-
-+++
+## [!DNL Target Standard/Premium] 26.6.1 (4 giugno 2026)
 
 **Attività**
 
 +++Vedi i dettagli
 
-* **Esperienza errata selezionata durante la modifica del targeting in [!UICONTROL attività Automated Personalization].** È stato risolto un problema che causava la selezione dell&#39;esperienza errata durante la modifica del passaggio **[!UICONTROL Targeting]** in un&#39;attività [!UICONTROL Automated Personalization] (AP). (TGT-55176)
+* **URL attività incompleto in [!UICONTROL Panoramica attività].** È stato risolto un problema che impediva alla [!UICONTROL Panoramica attività] di visualizzare l&#39;URL completo di un&#39;attività. (TGT-54029)
 
-* **Data precedente alla chiusura di un&#39;attività pianificata.** È stato risolto un problema che impediva la selezione di una data precedente per la chiusura di un’attività pianificata. (TGT-55163)
+* **Formato data non localizzato nei report attività.** È stato risolto un problema a causa del quale il formato della data non era localizzato nella scheda **[!UICONTROL Rapporti]** quando si è scelta l&#39;opzione **Ultimi X giorni** dall&#39;elenco a discesa **[!UICONTROL Intervallo date predefinito]**. (TGT-51637)
+
+* **Impossibile salvare l&#39;attività basata su modulo con alcuni caratteri GB18030 in [!UICONTROL Posizione].** È stato risolto un problema che impediva il salvataggio di un&#39;attività basata su modulo se il campo **[!UICONTROL Posizione]** conteneva caratteri GB18030 specifici. (TGT-46980)
+
++++
+
+**[!UICONTROL Tipi di pubblico]**
+
++++Vedi i dettagli
+
+* **Calendario non localizzato nel flusso Crea pubblico per cinese semplificato e tradizionale.** È stato risolto un problema che impediva la localizzazione del calendario nei campi **[!UICONTROL Inizio]** e **[!UICONTROL Fine]** degli attributi **[!UICONTROL Intervallo di tempo]** nelle lingue cinese semplificato (CHS) e cinese tradizionale (CHT) durante il flusso Crea pubblico. (TGT-50619)
+
++++
+
+**[!UICONTROL Compositore esperienza visivo] (VEC)**
+
++++Vedi i dettagli
+
+* **Descrizioni comandi non localizzate nel generatore attività aggiornato.** Sono stati risolti dei problemi di localizzazione a causa dei quali le descrizioni comandi per le informazioni su **[!UICONTROL Perfezionamenti]** e **[!UICONTROL Contenuto]** non erano localizzate nel generatore di attività [!UICONTROL Compositore esperienza visivo] aggiornato. (TGT-53721)
+
+* **[!UICONTROL Tutti i visitatori] non localizzati in [!UICONTROL Tipi di pubblico esperienza].** È stato risolto un problema che impediva la localizzazione della stringa **[!UICONTROL Tutti i visitatori]** in **[!UICONTROL Tipi di pubblico esperienza]** nella barra a sinistra in [!UICONTROL Compositore esperienza visivo]. (TGT-50086)
+
++++
+
+**[!UICONTROL Rapporti]**
+
++++Vedi i dettagli
+
+* **Formato data non localizzato nella finestra [!UICONTROL Crea predefinito].** È stato risolto un problema che impediva la localizzazione del formato della data nel campo **[!UICONTROL Intervallo date]** della finestra **[!UICONTROL Crea predefinito]**. (TGT-49239)
+
++++
+
+**Localizzazione**
+
++++Vedi i dettagli
+
+* **GB18030 di visualizzazione caratteri in più aree.** Sono stati risolti dei problemi a causa dei quali alcuni caratteri dell&#39;area uso privato non venivano visualizzati correttamente come lettere nell&#39;interfaccia utente **[!UICONTROL Pubblico]**, **[!UICONTROL Amministrazione]** > **[!UICONTROL Proprietà]**, nella configurazione del riquadro di visualizzazione mobile e nelle notifiche popup. (TGT-49622, TGT-49623, TGT-49624 e TGT-49625)
 
 +++
 
