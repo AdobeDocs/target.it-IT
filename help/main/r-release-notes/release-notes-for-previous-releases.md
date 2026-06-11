@@ -39,9 +39,9 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 391653c7a45a48c311c6a6cff358bd077f8c47b7
+source-git-commit: 9104d531d8ae561460210a96fb1f4d9946ea2ab6
 workflow-type: tm+mt
-source-wordcount: 70482
+source-wordcount: 70774
 ht-degree: 49%
 
 ---
@@ -57,6 +57,54 @@ Le note sulla versione sono elencate in ordine decrescente per mese e anno di ri
 >Consulta [Note sulla versione di Target (corrente)](/help/main/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A) per informazioni sulle versioni di Target del mese corrente (piattaforma e Target Standard/Premium).
 
 ## Note sulla versione - 2026
+
+## [!DNL Target Standard/Premium] 26.6.1 (4 giugno 2026)
+
+**Attività**
+
++++Vedi i dettagli
+
+* **URL attività incompleto in [!UICONTROL Panoramica attività].** È stato risolto un problema che impediva alla [!UICONTROL Panoramica attività] di visualizzare l&#39;URL completo di un&#39;attività. (TGT-54029)
+
+* **Formato data non localizzato nei report attività.** È stato risolto un problema a causa del quale il formato della data non era localizzato nella scheda **[!UICONTROL Rapporti]** quando si è scelta l&#39;opzione **Ultimi X giorni** dall&#39;elenco a discesa **[!UICONTROL Intervallo date predefinito]**. (TGT-51637)
+
+* **Impossibile salvare l&#39;attività basata su modulo con alcuni caratteri GB18030 in [!UICONTROL Posizione].** È stato risolto un problema che impediva il salvataggio di un&#39;attività basata su modulo se il campo **[!UICONTROL Posizione]** conteneva caratteri GB18030 specifici. (TGT-46980)
+
++++
+
+**[!UICONTROL Tipi di pubblico]**
+
++++Vedi i dettagli
+
+* **Calendario non localizzato nel flusso Crea pubblico per cinese semplificato e tradizionale.** È stato risolto un problema che impediva la localizzazione del calendario nei campi **[!UICONTROL Inizio]** e **[!UICONTROL Fine]** degli attributi **[!UICONTROL Intervallo di tempo]** nelle lingue cinese semplificato (CHS) e cinese tradizionale (CHT) durante il flusso Crea pubblico. (TGT-50619)
+
++++
+
+**[!UICONTROL Compositore esperienza visivo] (VEC)**
+
++++Vedi i dettagli
+
+* **Descrizioni comandi non localizzate nel generatore attività aggiornato.** Sono stati risolti dei problemi di localizzazione a causa dei quali le descrizioni comandi per le informazioni su **[!UICONTROL Perfezionamenti]** e **[!UICONTROL Contenuto]** non erano localizzate nel generatore di attività [!UICONTROL Compositore esperienza visivo] aggiornato. (TGT-53721)
+
+* **[!UICONTROL Tutti i visitatori] non localizzati in [!UICONTROL Tipi di pubblico esperienza].** È stato risolto un problema che impediva la localizzazione della stringa **[!UICONTROL Tutti i visitatori]** in **[!UICONTROL Tipi di pubblico esperienza]** nella barra a sinistra in [!UICONTROL Compositore esperienza visivo]. (TGT-50086)
+
++++
+
+**[!UICONTROL Rapporti]**
+
++++Vedi i dettagli
+
+* **Formato data non localizzato nella finestra [!UICONTROL Crea predefinito].** È stato risolto un problema che impediva la localizzazione del formato della data nel campo **[!UICONTROL Intervallo date]** della finestra **[!UICONTROL Crea predefinito]**. (TGT-49239)
+
++++
+
+**Localizzazione**
+
++++Vedi i dettagli
+
+* **GB18030 di visualizzazione caratteri in più aree.** Sono stati risolti dei problemi a causa dei quali alcuni caratteri dell&#39;area uso privato non venivano visualizzati correttamente come lettere nell&#39;interfaccia utente **[!UICONTROL Pubblico]**, **[!UICONTROL Amministrazione]** > **[!UICONTROL Proprietà]**, nella configurazione del riquadro di visualizzazione mobile e nelle notifiche popup. (TGT-49622, TGT-49623, TGT-49624 e TGT-49625)
+
++++
 
 ## [!DNL Target Standard/Premium] 26.5.2 (14 maggio 2026)
 
@@ -915,7 +963,7 @@ Questa versione include i seguenti aggiornamenti e correzioni:
 * **La ricerca avanzata nell&#39;interfaccia utente aggiornata di [!UICONTROL Ricerca nel catalogo prodotti] non ha fornito suggerimenti**: i clienti che utilizzano la funzionalità di ricerca avanzata nell&#39;interfaccia utente aggiornata di [!UICONTROL Ricerca nel catalogo prodotti] dovevano immettere valori esatti con l&#39;ortografia corretta, poiché non venivano visualizzati suggerimenti. Questo problema rendeva difficile individuare i prodotti in modo efficiente. I suggerimenti vengono ora visualizzati come previsto durante l’input della ricerca avanzata. (TGT-52008)
 * **Alcuni approvatori non sono stati in grado di visualizzare i prodotti in [!UICONTROL Ricerca nel catalogo prodotti]**: i clienti con autorizzazioni [!UICONTROL Approvatore] non sono stati in grado di visualizzare alcun prodotto in [!UICONTROL Ricerca nel catalogo prodotti], nonostante altri utenti con ruoli identici abbiano accesso. Questo problema era causato da un’incoerenza delle autorizzazioni che influiva sulla visibilità del catalogo. Tutti gli approvatori ora possono visualizzare i prodotti nella sezione [!UICONTROL Recommendations] come previsto. (TGT-53617)
 
-+++
++++ 
 
 **[!UICONTROL Rapporti]**
 
@@ -3179,7 +3227,7 @@ Il seguente problema è stato risolto nella versione 1.0.1:
 
 | Funzionalità/Miglioramento | Descrizione |
 | --- | --- |
-| SDK di Node.js versione 1.0 | SDK di Node.js di Target consente di implementare Target lato server.<br>Questo SDK di Node.js consente di integrare facilmente Target con altre soluzioni Experience Cloud, come Adobe Experience Cloud Identity Service, Adobe Analytics e Adobe Audience Manager.<br>Il SDK di Node.js introduce alcune best practice e semplifica l’integrazione con Adobe Target tramite la nostra API di consegna, in modo che i team tecnici possano concentrarsi sulla logica di business. Di seguito sono riportate le funzioni principali introdotte nell’ultima versione:<ul><li>Supporto per preacquisizione e notifiche che consentono di ottimizzare le prestazioni tramite la memorizzazione in cache.</li><li>Supporto per l’ottimizzazione delle prestazioni in caso di integrazione ibrida di Target sia sulle pagine web che sul lato server. Stiamo introducendo l’impostazione `serverState` che verrà compilata da esperienze recuperate tramite il lato server, in modo che at.js 2.2 non effettuerà più una chiamata aggiuntiva al server per recuperare le esperienze. Questo approccio ottimizza le prestazioni di caricamento delle pagine.</li><li> Supporto per il recupero di attività create dal Compositore esperienza visivo tramite SDK di Node.js, reso possibile dalla nuova API di consegna.</li><li>Open source, in modo che i tuoi sviluppatori possano contribuire all’SDK di Node.js.</li></ul> |
+| SDK di Node.js versione 1.0 | Il SDK Node.js di Target consente di implementare Target lato server.<br>Questo SDK Node.js consente di integrare facilmente Target con altre soluzioni Experience Cloud, come il servizio Adobe Experience Cloud Identity, Adobe Analytics e Adobe Audience Manager.<br>Il SDK Node.js introduce alcune best practice e semplifica l’integrazione con Adobe Target tramite la nostra API di consegna, in modo che i team di progettazione possano concentrarsi sulla logica di business. Di seguito sono riportate le funzioni principali introdotte nell’ultima versione:<ul><li>Supporto per preacquisizione e notifiche che consentono di ottimizzare le prestazioni tramite la memorizzazione in cache.</li><li>Supporto per l’ottimizzazione delle prestazioni in caso di integrazione ibrida di Target sia sulle pagine web che sul lato server. Stiamo introducendo l’impostazione `serverState` che verrà compilata da esperienze recuperate tramite il lato server, in modo che at.js 2.2 non effettuerà più una chiamata aggiuntiva al server per recuperare le esperienze. Questo approccio ottimizza le prestazioni di caricamento delle pagine.</li><li> Supporto per il recupero di attività create dal Compositore esperienza visivo tramite SDK di Node.js, reso possibile dalla nuova API di consegna.</li><li>Open source, in modo che i tuoi sviluppatori possano contribuire all’SDK di Node.js.</li></ul> |
 | API di consegna | È disponibile in produzione un endpoint API di consegna completamente nuovo (/v1/delivery). Le funzioni principali sono:<ul><li>Un endpoint per il recupero di esperienze per una o più mbox</li><li>Recupero delle attività create dal Compositore esperienza visivo tramite l’API</li><li>Supporto per il nuovo oggetto Viste, utilizzato per applicazioni a pagina singola e applicazioni mobili</li></ul> |
 
 ### Target Standard/Premium 19.9.2 (30 settembre 2019)
