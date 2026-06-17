@@ -39,9 +39,9 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 9104d531d8ae561460210a96fb1f4d9946ea2ab6
+source-git-commit: 73ba5f706fc160c2cec1be31502edf5b05b0636d
 workflow-type: tm+mt
-source-wordcount: 70774
+source-wordcount: 70951
 ht-degree: 49%
 
 ---
@@ -57,6 +57,20 @@ Le note sulla versione sono elencate in ordine decrescente per mese e anno di ri
 >Consulta [Note sulla versione di Target (corrente)](/help/main/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A) per informazioni sulle versioni di Target del mese corrente (piattaforma e Target Standard/Premium).
 
 ## Note sulla versione - 2026
+
+## [!DNL Target Standard/Premium] 26.6.3 (11 giugno 2026)
+
+**Localizzazione**
+
++++Vedi i dettagli
+
+* **Primo giorno della settimana non localizzato nei moduli del calendario del pubblico durante la creazione dell&#39;attività.** È stato risolto un problema che impediva la localizzazione del primo giorno della settimana nel calendario dei moduli **[!UICONTROL Crea]**, **[!UICONTROL Modifica]** e **[!UICONTROL Duplica pubblico]** durante la creazione dell&#39;attività. (TGT-50510)
+
+* **Formato percentuale non localizzato nei report di panoramica attività.** È stato risolto un problema che impediva la localizzazione del formato percentuale in una tabella della scheda **[!UICONTROL Rapporti]** della pagina **[!UICONTROL Panoramica attività]**. (TGT-50094)
+
+* **Formato numero non localizzato nella finestra di dialogo [!UICONTROL Crea criterio].** È stato risolto un problema che impediva la localizzazione del formato numero nella finestra di dialogo **[!UICONTROL Crea criterio]** in **[!UICONTROL Consigli]**. (TGT-52250)
+
++++
 
 ## [!DNL Target Standard/Premium] 26.6.1 (4 giugno 2026)
 
@@ -3227,7 +3241,7 @@ Il seguente problema è stato risolto nella versione 1.0.1:
 
 | Funzionalità/Miglioramento | Descrizione |
 | --- | --- |
-| SDK di Node.js versione 1.0 | Il SDK Node.js di Target consente di implementare Target lato server.<br>Questo SDK Node.js consente di integrare facilmente Target con altre soluzioni Experience Cloud, come il servizio Adobe Experience Cloud Identity, Adobe Analytics e Adobe Audience Manager.<br>Il SDK Node.js introduce alcune best practice e semplifica l’integrazione con Adobe Target tramite la nostra API di consegna, in modo che i team di progettazione possano concentrarsi sulla logica di business. Di seguito sono riportate le funzioni principali introdotte nell’ultima versione:<ul><li>Supporto per preacquisizione e notifiche che consentono di ottimizzare le prestazioni tramite la memorizzazione in cache.</li><li>Supporto per l’ottimizzazione delle prestazioni in caso di integrazione ibrida di Target sia sulle pagine web che sul lato server. Stiamo introducendo l’impostazione `serverState` che verrà compilata da esperienze recuperate tramite il lato server, in modo che at.js 2.2 non effettuerà più una chiamata aggiuntiva al server per recuperare le esperienze. Questo approccio ottimizza le prestazioni di caricamento delle pagine.</li><li> Supporto per il recupero di attività create dal Compositore esperienza visivo tramite SDK di Node.js, reso possibile dalla nuova API di consegna.</li><li>Open source, in modo che i tuoi sviluppatori possano contribuire all’SDK di Node.js.</li></ul> |
+| SDK di Node.js versione 1.0 | SDK di Node.js di Target consente di implementare Target lato server.<br>Questo SDK di Node.js consente di integrare facilmente Target con altre soluzioni Experience Cloud, come Adobe Experience Cloud Identity Service, Adobe Analytics e Adobe Audience Manager.<br>Il SDK di Node.js introduce alcune best practice e semplifica l’integrazione con Adobe Target tramite la nostra API di consegna, in modo che i team tecnici possano concentrarsi sulla logica di business. Di seguito sono riportate le funzioni principali introdotte nell’ultima versione:<ul><li>Supporto per preacquisizione e notifiche che consentono di ottimizzare le prestazioni tramite la memorizzazione in cache.</li><li>Supporto per l’ottimizzazione delle prestazioni in caso di integrazione ibrida di Target sia sulle pagine web che sul lato server. Stiamo introducendo l’impostazione `serverState` che verrà compilata da esperienze recuperate tramite il lato server, in modo che at.js 2.2 non effettuerà più una chiamata aggiuntiva al server per recuperare le esperienze. Questo approccio ottimizza le prestazioni di caricamento delle pagine.</li><li> Supporto per il recupero di attività create dal Compositore esperienza visivo tramite SDK di Node.js, reso possibile dalla nuova API di consegna.</li><li>Open source, in modo che i tuoi sviluppatori possano contribuire all’SDK di Node.js.</li></ul> |
 | API di consegna | È disponibile in produzione un endpoint API di consegna completamente nuovo (/v1/delivery). Le funzioni principali sono:<ul><li>Un endpoint per il recupero di esperienze per una o più mbox</li><li>Recupero delle attività create dal Compositore esperienza visivo tramite l’API</li><li>Supporto per il nuovo oggetto Viste, utilizzato per applicazioni a pagina singola e applicazioni mobili</li></ul> |
 
 ### Target Standard/Premium 19.9.2 (30 settembre 2019)

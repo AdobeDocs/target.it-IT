@@ -18,10 +18,10 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9104d531d8ae561460210a96fb1f4d9946ea2ab6
+source-git-commit: d27429b3a9db223c7aca394c98e67969db399db1
 workflow-type: tm+mt
-source-wordcount: 467
-ht-degree: 57%
+source-wordcount: 546
+ht-degree: 49%
 
 ---
 
@@ -31,17 +31,35 @@ Esplora le funzioni, i miglioramenti e le correzioni più recenti in [!DNL Adobe
 
 I codici dei problemi tra parentesi sono per uso interno di [!DNL Adobe].
 
-## [!DNL Target Standard/Premium] 26.6.3 (11 giugno 2026)
+## [!DNL Target Standard/Premium] 26.6.4 (16 giugno 2026)
+
+**Attività**
+
++++Vedi i dettagli
+
+* **[!UICONTROL Salva e chiudi] nell&#39;interfaccia utente [!DNL Target] aggiornata.** È stata ripristinata l&#39;opzione **[!UICONTROL Salva e chiudi]** nell&#39;interfaccia utente [!DNL Target] aggiornata. (TGT-55152)
+
+* **URL di controllo qualità nell&#39;interfaccia utente [!DNL Target] aggiornata.** È stato risolto un problema che impediva il corretto funzionamento degli URL di controllo qualità nell&#39;interfaccia utente [!DNL Target] aggiornata. ([TGT-55110](https://jira.corp.adobe.com/browse/TGT-55110))
+
++++
 
 **Localizzazione**
 
 +++Vedi i dettagli
 
-* **Primo giorno della settimana non localizzato nei moduli del calendario del pubblico durante la creazione dell&#39;attività.** È stato risolto un problema che impediva la localizzazione del primo giorno della settimana nel calendario dei moduli **[!UICONTROL Crea]**, **[!UICONTROL Modifica]** e **[!UICONTROL Duplica pubblico]** durante la creazione dell&#39;attività. (TGT-50510)
+* **Formato percentuale non localizzato nei report grafico panoramica attività.** È stato risolto un problema che impediva la localizzazione del formato percentuale nel grafico in **[!UICONTROL Vista grafico]** nella scheda **[!UICONTROL Rapporti]** della pagina **[!UICONTROL Panoramica attività]**. (TGT-50100)
 
-* **Formato percentuale non localizzato nei report di panoramica attività.** È stato risolto un problema che impediva la localizzazione del formato percentuale in una tabella della scheda **[!UICONTROL Rapporti]** della pagina **[!UICONTROL Panoramica attività]**. (TGT-50094)
+* **Caratteri giapponesi nell&#39;URL attività.** È stato risolto un problema che causava il danneggiamento dei caratteri giapponesi nell&#39;URL attività nella pagina **[!UICONTROL Panoramica attività]** e nell&#39;elenco attività dopo il salvataggio di un&#39;attività. (TGT-53459)
 
-* **Formato numero non localizzato nella finestra di dialogo [!UICONTROL Crea criterio].** È stato risolto un problema che impediva la localizzazione del formato numero nella finestra di dialogo **[!UICONTROL Crea criterio]** in **[!UICONTROL Consigli]**. (TGT-52250)
+* **Timestamp non localizzato nel nome attività predefinito.** È stato risolto un problema a causa del quale la marca temporale non veniva localizzata nel titolo dell’attività quando veniva mantenuto il nome attività predefinito durante la creazione dell’attività. (TGT-53273)
+
++++
+
+**[!UICONTROL Funzione Consigli]**
+
++++Vedi i dettagli
+
+* **Caratteri multibyte nell&#39;URL dopo la creazione dei feed.** È stato risolto un problema che causava il danneggiamento dei caratteri multibyte nell’URL dopo la creazione dei feed. (TGT-54793)
 
 +++
 
