@@ -7,21 +7,14 @@ title: Cosa è incluso nella versione corrente?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 TQID: https://experienceleague.adobe.com/-Unx6cVsw3wch2LJgPtvBYPe-10rdpiJ4v9F7tMSP08
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
-subfeature_v2:
-  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9104d531d8ae561460210a96fb1f4d9946ea2ab6
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: c93393a4-e558-47e1-992e-c91ed4d480ce
+subfeature_v2: id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: d27429b3a9db223c7aca394c98e67969db399db1
 workflow-type: tm+mt
-source-wordcount: 467
-ht-degree: 57%
+source-wordcount: 546
+ht-degree: 49%
 
 ---
 
@@ -31,17 +24,35 @@ Esplora le funzioni, i miglioramenti e le correzioni più recenti in [!DNL Adobe
 
 I codici dei problemi tra parentesi sono per uso interno di [!DNL Adobe].
 
-## [!DNL Target Standard/Premium] 26.6.3 (11 giugno 2026)
+## [!DNL Target Standard/Premium] 26.6.4 (16 giugno 2026)
+
+**Attività**
+
++++Vedi i dettagli
+
+* **[!UICONTROL Salva e chiudi] nell&#39;interfaccia utente [!DNL Target] aggiornata.** È stata ripristinata l&#39;opzione **[!UICONTROL Salva e chiudi]** nell&#39;interfaccia utente [!DNL Target] aggiornata. (TGT-55152)
+
+* **URL di controllo qualità nell&#39;interfaccia utente [!DNL Target] aggiornata.** È stato risolto un problema che impediva il corretto funzionamento degli URL di controllo qualità nell&#39;interfaccia utente [!DNL Target] aggiornata. ([TGT-55110](https://jira.corp.adobe.com/browse/TGT-55110))
+
++++
 
 **Localizzazione**
 
 +++Vedi i dettagli
 
-* **Primo giorno della settimana non localizzato nei moduli del calendario del pubblico durante la creazione dell&#39;attività.** È stato risolto un problema che impediva la localizzazione del primo giorno della settimana nel calendario dei moduli **[!UICONTROL Crea]**, **[!UICONTROL Modifica]** e **[!UICONTROL Duplica pubblico]** durante la creazione dell&#39;attività. (TGT-50510)
+* **Formato percentuale non localizzato nei report grafico panoramica attività.** È stato risolto un problema che impediva la localizzazione del formato percentuale nel grafico in **[!UICONTROL Vista grafico]** nella scheda **[!UICONTROL Rapporti]** della pagina **[!UICONTROL Panoramica attività]**. (TGT-50100)
 
-* **Formato percentuale non localizzato nei report di panoramica attività.** È stato risolto un problema che impediva la localizzazione del formato percentuale in una tabella della scheda **[!UICONTROL Rapporti]** della pagina **[!UICONTROL Panoramica attività]**. (TGT-50094)
+* **Caratteri giapponesi nell&#39;URL attività.** È stato risolto un problema che causava il danneggiamento dei caratteri giapponesi nell&#39;URL attività nella pagina **[!UICONTROL Panoramica attività]** e nell&#39;elenco attività dopo il salvataggio di un&#39;attività. (TGT-53459)
 
-* **Formato numero non localizzato nella finestra di dialogo [!UICONTROL Crea criterio].** È stato risolto un problema che impediva la localizzazione del formato numero nella finestra di dialogo **[!UICONTROL Crea criterio]** in **[!UICONTROL Consigli]**. (TGT-52250)
+* **Timestamp non localizzato nel nome attività predefinito.** È stato risolto un problema a causa del quale la marca temporale non veniva localizzata nel titolo dell’attività quando veniva mantenuto il nome attività predefinito durante la creazione dell’attività. (TGT-53273)
+
++++
+
+**[!UICONTROL Funzione Consigli]**
+
++++Vedi i dettagli
+
+* **Caratteri multibyte nell&#39;URL dopo la creazione dei feed.** È stato risolto un problema che causava il danneggiamento dei caratteri multibyte nell’URL dopo la creazione dei feed. (TGT-54793)
 
 +++
 
