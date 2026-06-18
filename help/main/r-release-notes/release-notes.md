@@ -7,21 +7,14 @@ title: Cosa è incluso nella versione corrente?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 TQID: https://experienceleague.adobe.com/-Unx6cVsw3wch2LJgPtvBYPe-10rdpiJ4v9F7tMSP08
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
-subfeature_v2:
-  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: d27429b3a9db223c7aca394c98e67969db399db1
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: c93393a4-e558-47e1-992e-c91ed4d480ce
+subfeature_v2: id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 3fc6930bcff97685e6f3f6dab1a32db05fbfed8a
 workflow-type: tm+mt
-source-wordcount: 546
-ht-degree: 49%
+source-wordcount: 612
+ht-degree: 44%
 
 ---
 
@@ -30,6 +23,24 @@ ht-degree: 49%
 Esplora le funzioni, i miglioramenti e le correzioni più recenti in [!DNL Adobe Target]. Queste note sulla versione descrivono anche gli aggiornamenti alle API [!DNL Target], agli SDK, a [!DNL Adobe Experience Platform Web SDK], at.js e ad altri componenti della piattaforma, se applicabili.
 
 I codici dei problemi tra parentesi sono per uso interno di [!DNL Adobe].
+
+## [!DNL Target Standard/Premium] 26.6.5 (17 giugno 2026)
+
+**Attività**
+
++++Vedi i dettagli
+
+* **Errore durante l&#39;utilizzo da parte di un&#39;attività di tipi di pubblico eliminati all&#39;origine.** È stato risolto un problema che causava la visualizzazione di un errore a indicare che un’attività utilizzava uno o più tipi di pubblico eliminati alla sorgente. (TGT-55272)
+
++++
+
+**[!UICONTROL Analytics per Target] (A4T)**
+
++++Vedi i dettagli
+
+* **Rapporti A4T non visibili.** È stato risolto un problema che impediva la visualizzazione dei report [!UICONTROL Analytics for Target] (A4T). (TGT-55432)
+
++++
 
 ## [!DNL Target Standard/Premium] 26.6.4 (16 giugno 2026)
 
