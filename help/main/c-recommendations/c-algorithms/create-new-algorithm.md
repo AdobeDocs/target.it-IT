@@ -18,7 +18,7 @@ topic_v2:
 source-git-commit: 6c2f1426564d1d242ec4473b1b7c155bf1be5cf5
 workflow-type: tm+mt
 source-wordcount: 2900
-ht-degree: 45%
+ht-degree: 46%
 
 ---
 
@@ -74,12 +74,12 @@ La procedura seguente presuppone che tu acceda alla schermata [!UICONTROL Crea n
 
    Insieme, i tipi di pagina e verticali del settore consentono di categorizzare i criteri salvati, semplificandone il riutilizzo per altre attività di [!DNL Recommendations].
 
-## [!UICONTROL Algoritmo Consigli] {#rec-algo}
+## [!UICONTROL Algoritmo consigli] {#rec-algo}
 
 >[!CONTEXTUALHELP]
 >id="target_recommendations_profile_attribute"
->title="Attributo profilo"
->abstract="Puoi creare un attributo di profilo utilizzando gli script di profilo."
+>title="Attributo del profilo"
+>abstract="Puoi creare un attributo del profilo utilizzando gli script di profilo."
 
 1. Seleziona un **[!UICONTROL Tipo di algoritmo]** e **[!UICONTROL Algoritmo]**:
 
