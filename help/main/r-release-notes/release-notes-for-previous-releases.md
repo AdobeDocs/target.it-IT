@@ -39,10 +39,10 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 73ba5f706fc160c2cec1be31502edf5b05b0636d
+source-git-commit: 7c0425e7e8b3fd71f87b36da74af16d64da32bfa
 workflow-type: tm+mt
-source-wordcount: 70951
-ht-degree: 49%
+source-wordcount: 71133
+ht-degree: 48%
 
 ---
 
@@ -57,6 +57,68 @@ Le note sulla versione sono elencate in ordine decrescente per mese e anno di ri
 >Consulta [Note sulla versione di Target (corrente)](/help/main/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A) per informazioni sulle versioni di Target del mese corrente (piattaforma e Target Standard/Premium).
 
 ## Note sulla versione - 2026
+
+## [!DNL Target Standard/Premium] 26.6.5 (17 giugno 2026)
+
+**Attività**
+
++++Vedi i dettagli
+
+* **Errore durante l&#39;utilizzo da parte di un&#39;attività di tipi di pubblico eliminati all&#39;origine.** È stato risolto un problema che causava la visualizzazione di un errore a indicare che un’attività utilizzava uno o più tipi di pubblico eliminati alla sorgente. (TGT-55272)
+
++++
+
+**[!UICONTROL Analytics per Target] (A4T)**
+
++++Vedi i dettagli
+
+* **Rapporti A4T non visibili.** È stato risolto un problema che impediva la visualizzazione dei report [!UICONTROL Analytics for Target] (A4T). (TGT-55432)
+
++++ 
+
+## [!DNL Target Standard/Premium] 26.6.4 (16 giugno 2026)
+
+**Attività**
+
++++Vedi i dettagli
+
+* **[!UICONTROL Salva e chiudi] nell&#39;interfaccia utente [!DNL Target] aggiornata.** È stata ripristinata l&#39;opzione **[!UICONTROL Salva e chiudi]** nell&#39;interfaccia utente [!DNL Target] aggiornata. (TGT-55152)
+
+* **URL di controllo qualità nell&#39;interfaccia utente [!DNL Target] aggiornata.** È stato risolto un problema che impediva il corretto funzionamento degli URL di controllo qualità nell&#39;interfaccia utente [!DNL Target] aggiornata. ([TGT-55110](https://jira.corp.adobe.com/browse/TGT-55110))
+
++++
+
+**Localizzazione**
+
++++Vedi i dettagli
+
+* **Formato percentuale non localizzato nei report grafico panoramica attività.** È stato risolto un problema che impediva la localizzazione del formato percentuale nel grafico in **[!UICONTROL Vista grafico]** nella scheda **[!UICONTROL Rapporti]** della pagina **[!UICONTROL Panoramica attività]**. (TGT-50100)
+
+* **Caratteri giapponesi nell&#39;URL attività.** È stato risolto un problema che causava il danneggiamento dei caratteri giapponesi nell&#39;URL attività nella pagina **[!UICONTROL Panoramica attività]** e nell&#39;elenco attività dopo il salvataggio di un&#39;attività. (TGT-53459)
+
+* **Timestamp non localizzato nel nome attività predefinito.** È stato risolto un problema a causa del quale la marca temporale non veniva localizzata nel titolo dell’attività quando veniva mantenuto il nome attività predefinito durante la creazione dell’attività. (TGT-53273)
+
++++
+
+**[!UICONTROL Funzione Consigli]**
+
++++Vedi i dettagli
+
+* **Caratteri multibyte nell&#39;URL dopo la creazione dei feed.** È stato risolto un problema che causava il danneggiamento dei caratteri multibyte nell’URL dopo la creazione dei feed. (TGT-54793)
+
++++
+
+<!--
+* **Blank page or CORS errors with Enhanced Experience Composer.** Fixed an issue where the [!UICONTROL Visual Experience Composer] could fail to load when Enhanced Experience Composer (EEC) was enabled. (TGT-54576)
+
+**[!UICONTROL Visual Experience Composer] (VEC)**
+
++++See details
+
+* **Click tracking for Experience B.** Fixed an issue where click tracking was not saved for **[!UICONTROL Experience B]** in the [!UICONTROL Visual Experience Composer]. (TGT-54843)
+
++++
+-->
 
 ## [!DNL Target Standard/Premium] 26.6.3 (11 giugno 2026)
 
@@ -1802,7 +1864,7 @@ Questa versione include le correzioni e gli aggiornamenti seguenti:
 * È stato risolto un problema che impediva la persistenza dei gruppi di reporting nelle attività [!UICONTROL Automated Personalization] (AP). (TGT-52368)
 * È stato risolto un problema che impediva il salvataggio di attività che includevano offer decisioning. (TGT-52390)
 * È stato risolto un problema che causava la selezione dell&#39;offerta predefinita ma la visualizzazione di altri contenuti dell&#39;offerta nelle attività [!UICONTROL Automated Personalization] (AP) e [!UICONTROL Test multivariato] (MVT). (TGT-52372)
-* È stata corretta la logica delle autorizzazioni di GET per verificare con OR tra accesso completo all’organizzazione e accesso specifico per organizzazione + utente. (TGT-52374)
+* È stata corretta la logica delle autorizzazioni GET per verificare con OR tra l’accesso completo all’organizzazione e l’accesso specifico per organizzazione + utente. (TGT-52374)
 * È stato risolto un problema che impediva la visualizzazione dei nomi dei tipi di pubblico dopo la selezione di un pubblico per [!UICONTROL Contenuto gestito] e [!UICONTROL Tipi di pubblico per reportistica], anche se l&#39;opzione [!UICONTROL Mostra solo selezionati] era abilitata. (TGT-52393)
 
 ### [!DNL Target Standard/Premium] 25.5.1 (5 maggio 2025)
@@ -3241,7 +3303,7 @@ Il seguente problema è stato risolto nella versione 1.0.1:
 
 | Funzionalità/Miglioramento | Descrizione |
 | --- | --- |
-| SDK di Node.js versione 1.0 | SDK di Node.js di Target consente di implementare Target lato server.<br>Questo SDK di Node.js consente di integrare facilmente Target con altre soluzioni Experience Cloud, come Adobe Experience Cloud Identity Service, Adobe Analytics e Adobe Audience Manager.<br>Il SDK di Node.js introduce alcune best practice e semplifica l’integrazione con Adobe Target tramite la nostra API di consegna, in modo che i team tecnici possano concentrarsi sulla logica di business. Di seguito sono riportate le funzioni principali introdotte nell’ultima versione:<ul><li>Supporto per preacquisizione e notifiche che consentono di ottimizzare le prestazioni tramite la memorizzazione in cache.</li><li>Supporto per l’ottimizzazione delle prestazioni in caso di integrazione ibrida di Target sia sulle pagine web che sul lato server. Stiamo introducendo l’impostazione `serverState` che verrà compilata da esperienze recuperate tramite il lato server, in modo che at.js 2.2 non effettuerà più una chiamata aggiuntiva al server per recuperare le esperienze. Questo approccio ottimizza le prestazioni di caricamento delle pagine.</li><li> Supporto per il recupero di attività create dal Compositore esperienza visivo tramite SDK di Node.js, reso possibile dalla nuova API di consegna.</li><li>Open source, in modo che i tuoi sviluppatori possano contribuire all’SDK di Node.js.</li></ul> |
+| SDK di Node.js versione 1.0 | Il SDK Node.js di Target consente di implementare Target lato server.<br>Questo SDK Node.js consente di integrare facilmente Target con altre soluzioni Experience Cloud, come il servizio Adobe Experience Cloud Identity, Adobe Analytics e Adobe Audience Manager.<br>Il SDK Node.js introduce alcune best practice e semplifica l’integrazione con Adobe Target tramite la nostra API di consegna, in modo che i team di progettazione possano concentrarsi sulla logica di business. Di seguito sono riportate le funzioni principali introdotte nell’ultima versione:<ul><li>Supporto per preacquisizione e notifiche che consentono di ottimizzare le prestazioni tramite la memorizzazione in cache.</li><li>Supporto per l’ottimizzazione delle prestazioni in caso di integrazione ibrida di Target sia sulle pagine web che sul lato server. Stiamo introducendo l’impostazione `serverState` che verrà compilata da esperienze recuperate tramite il lato server, in modo che at.js 2.2 non effettuerà più una chiamata aggiuntiva al server per recuperare le esperienze. Questo approccio ottimizza le prestazioni di caricamento delle pagine.</li><li> Supporto per il recupero di attività create dal Compositore esperienza visivo tramite SDK di Node.js, reso possibile dalla nuova API di consegna.</li><li>Open source, in modo che i tuoi sviluppatori possano contribuire all’SDK di Node.js.</li></ul> |
 | API di consegna | È disponibile in produzione un endpoint API di consegna completamente nuovo (/v1/delivery). Le funzioni principali sono:<ul><li>Un endpoint per il recupero di esperienze per una o più mbox</li><li>Recupero delle attività create dal Compositore esperienza visivo tramite l’API</li><li>Supporto per il nuovo oggetto Viste, utilizzato per applicazioni a pagina singola e applicazioni mobili</li></ul> |
 
 ### Target Standard/Premium 19.9.2 (30 settembre 2019)
