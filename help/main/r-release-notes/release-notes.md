@@ -7,21 +7,14 @@ title: Cosa è incluso nella versione corrente?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 TQID: https://experienceleague.adobe.com/-Unx6cVsw3wch2LJgPtvBYPe-10rdpiJ4v9F7tMSP08
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
-subfeature_v2:
-  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 3fc6930bcff97685e6f3f6dab1a32db05fbfed8a
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: c93393a4-e558-47e1-992e-c91ed4d480ce
+subfeature_v2: id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: aab659046a6583aeedaf8ec34803b0751bebe3c6
 workflow-type: tm+mt
-source-wordcount: 612
-ht-degree: 44%
+source-wordcount: 546
+ht-degree: 49%
 
 ---
 
@@ -31,33 +24,15 @@ Esplora le funzioni, i miglioramenti e le correzioni più recenti in [!DNL Adobe
 
 I codici dei problemi tra parentesi sono per uso interno di [!DNL Adobe].
 
-## [!DNL Target Standard/Premium] 26.6.5 (17 giugno 2026)
+## [!DNL Target Standard/Premium] 26.6.8 (24 giugno 2026)
 
 **Attività**
 
 +++Vedi i dettagli
 
-* **Errore durante l&#39;utilizzo da parte di un&#39;attività di tipi di pubblico eliminati all&#39;origine.** È stato risolto un problema che causava la visualizzazione di un errore a indicare che un’attività utilizzava uno o più tipi di pubblico eliminati alla sorgente. (TGT-55272)
+* **Il filtro Source per le risorse API e MCP è stato creato.** È stato risolto un problema che impediva il funzionamento del filtro per [!UICONTROL API Adobe Target] o [!UICONTROL MCP Adobe Target] sulle pagine di elenco di attività, tipi di pubblico e offerte. (TGT-55236)
 
-+++
-
-**[!UICONTROL Analytics per Target] (A4T)**
-
-+++Vedi i dettagli
-
-* **Rapporti A4T non visibili.** È stato risolto un problema che impediva la visualizzazione dei report [!UICONTROL Analytics for Target] (A4T). (TGT-55432)
-
-+++
-
-## [!DNL Target Standard/Premium] 26.6.4 (16 giugno 2026)
-
-**Attività**
-
-+++Vedi i dettagli
-
-* **[!UICONTROL Salva e chiudi] nell&#39;interfaccia utente [!DNL Target] aggiornata.** È stata ripristinata l&#39;opzione **[!UICONTROL Salva e chiudi]** nell&#39;interfaccia utente [!DNL Target] aggiornata. (TGT-55152)
-
-* **URL di controllo qualità nell&#39;interfaccia utente [!DNL Target] aggiornata.** È stato risolto un problema che impediva il corretto funzionamento degli URL di controllo qualità nell&#39;interfaccia utente [!DNL Target] aggiornata. ([TGT-55110](https://jira.corp.adobe.com/browse/TGT-55110))
+* **Valori filtro origine attività.** È stato risolto un problema che impediva al filtro di origine [!UICONTROL Adobe Target API] o [!UICONTROL Adobe Target MCP] di visualizzare i tipi di pubblico appena creati dall&#39;API. (TGT-55237)
 
 +++
 
@@ -65,33 +40,15 @@ I codici dei problemi tra parentesi sono per uso interno di [!DNL Adobe].
 
 +++Vedi i dettagli
 
-* **Formato percentuale non localizzato nei report grafico panoramica attività.** È stato risolto un problema che impediva la localizzazione del formato percentuale nel grafico in **[!UICONTROL Vista grafico]** nella scheda **[!UICONTROL Rapporti]** della pagina **[!UICONTROL Panoramica attività]**. (TGT-50100)
+* **Stringhe non localizzate nella finestra modale [!UICONTROL Crea offerta JSON].** È stato risolto un problema a causa del quale le stringhe nella finestra modale [!UICONTROL Crea offerta JSON], inclusi [!UICONTROL Nome] e [!UICONTROL Workspace], non venivano localizzate durante la creazione dell&#39;attività. (TGT-50084)
 
-* **Caratteri giapponesi nell&#39;URL attività.** È stato risolto un problema che causava il danneggiamento dei caratteri giapponesi nell&#39;URL attività nella pagina **[!UICONTROL Panoramica attività]** e nell&#39;elenco attività dopo il salvataggio di un&#39;attività. (TGT-53459)
+* **Messaggio popup non localizzato in un&#39;attività [!UICONTROL Consigli].** È stato risolto un problema che causava la visualizzazione di un messaggio popup non localizzato durante l&#39;aggiunta di consigli in un&#39;attività [!UICONTROL Recommendations] basata su modulo. (TGT-50463)
 
-* **Timestamp non localizzato nel nome attività predefinito.** È stato risolto un problema a causa del quale la marca temporale non veniva localizzata nel titolo dell’attività quando veniva mantenuto il nome attività predefinito durante la creazione dell’attività. (TGT-53273)
+* **Stringa non localizzata nelle finestre di dialogo [!UICONTROL Raccolte] e [!UICONTROL Esclusioni].** È stato risolto un problema che impediva la localizzazione della stringa &quot;Payload elemento&quot; nelle finestre di dialogo [!UICONTROL Raccolte] e [!UICONTROL Esclusioni] in [!UICONTROL Consigli]. (TGT-51542)
 
-+++
-
-**[!UICONTROL Funzione Consigli]**
-
-+++Vedi i dettagli
-
-* **Caratteri multibyte nell&#39;URL dopo la creazione dei feed.** È stato risolto un problema che causava il danneggiamento dei caratteri multibyte nell’URL dopo la creazione dei feed. (TGT-54793)
+* **Stringa &quot;Approvatore&quot; non localizzata nella scheda [!UICONTROL Tipi di pubblico].** È stato risolto un problema che impediva la localizzazione della stringa &quot;Approvatore&quot; nella colonna [!UICONTROL Workspace] della pagina [!UICONTROL Libreria pubblico]. (TGT-51751)
 
 +++
-
-<!--
-* **Blank page or CORS errors with Enhanced Experience Composer.** Fixed an issue where the [!UICONTROL Visual Experience Composer] could fail to load when Enhanced Experience Composer (EEC) was enabled. (TGT-54576)
-
-**[!UICONTROL Visual Experience Composer] (VEC)**
-
-+++See details
-
-* **Click tracking for Experience B.** Fixed an issue where click tracking was not saved for **[!UICONTROL Experience B]** in the [!UICONTROL Visual Experience Composer]. (TGT-54843)
-
-+++
--->
 
 ## Aggiornamenti urgenti da conoscere {#time-sensitive}
 
