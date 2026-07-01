@@ -5,18 +5,13 @@ title: Cos’è il tracciamento dei clic?
 feature: Success Metrics
 exl-id: 9181424b-179e-49fc-b760-b764a0c3458a
 TQID: https://experienceleague.adobe.com/Nk1MANDrtYMHmUQfcJi-gT-HoW1j--sikurxSloM2LU
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 69d580451d5d25ec6642fd2035a5537c9096541c
 workflow-type: tm+mt
-source-wordcount: 903
-ht-degree: 77%
+source-wordcount: 942
+ht-degree: 73%
 
 ---
 
@@ -110,6 +105,8 @@ Ci sono diversi fattori da considerare quando si selezionano gli elementi:
 * Utilizza i tipi di pubblico se è necessario limitare l’ambito delle metriche di tracciamento dei clic.
 
 * Più attività possono definire una metrica di tracciamento dei clic per lo stesso selettore. In tal caso, quando un visitatore è idoneo a una di queste attività e fa clic sul selettore, la metrica di tracciamento dei clic aumenta per tutte le attività associate per le quali il visitatore è qualificato.
+
+* Per le attività di [!UICONTROL Automated Personalization] (AP) e Targeting automatico nelle applicazioni a pagina singola (SPA), è possibile selezionare gli elementi per il tracciamento dei clic che appartengono a una visualizzazione [!DNL Target] specifica. Per ulteriori informazioni sulle visualizzazioni, vedere [Visualizzazioni di Adobe Target e applicazioni a pagina singola](/help/main/c-experiences/spa-visual-experience-composer.md).
 
 ## Video di formazione {#section_36607204DAE146E3B8E2C609D244EDB1}
 
