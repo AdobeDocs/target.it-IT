@@ -18,10 +18,10 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 327891a5a9112dfacfca1c049adaef54b218676e
+source-git-commit: 062337cc6563f52ce505cc3085cc2af5ec4457b6
 workflow-type: tm+mt
-source-wordcount: 719
-ht-degree: 37%
+source-wordcount: 465
+ht-degree: 58%
 
 ---
 
@@ -31,62 +31,31 @@ Esplora le funzioni, i miglioramenti e le correzioni più recenti in [!DNL Adobe
 
 I codici dei problemi tra parentesi sono per uso interno di [!DNL Adobe].
 
-## [!DNL Target Standard/Premium] 26.6.8 (24 giugno 2026)
+## [!DNL Target Standard/Premium] 26.7.1 (9 luglio 2026)
 
 **Attività**
 
 +++Vedi i dettagli
 
-* **Il filtro Source per le risorse API e MCP è stato creato.** È stato risolto un problema che impediva il funzionamento del filtro per [!UICONTROL API Adobe Target] o [!UICONTROL MCP Adobe Target] sulle pagine di elenco di attività, tipi di pubblico e offerte. (TGT-55236)
+* **Visualizzazione origine incoerente nelle [!UICONTROL Attività], [!UICONTROL Tipi di pubblico] e [!UICONTROL Offerte] pagine.** È stato risolto un problema che causava la visualizzazione incoerente dell&#39;origine tra le pagine [!UICONTROL Attività], [!UICONTROL Tipi di pubblico] e [!UICONTROL Offerte]. (TGT-55247)
+
+* **Modifiche all&#39;origine dell&#39;attività durante la modifica tramite l&#39;interfaccia utente.** È stato risolto un problema a causa del quale la modifica di un’attività tramite l’interfaccia utente modificava l’origine dell’attività originale. (TGT-55248)
 
 +++
 
-**[!UICONTROL Analytics per Target] (A4T)**
+**Tipi di pubblico**
 
 +++Vedi i dettagli
 
-* **Rapporti A4T non visibili.** È stato risolto un problema che impediva la visualizzazione dei report [!UICONTROL Analytics for Target] (A4T). (TGT-55432)
+* **Area di lavoro predefinita non corretta durante la modifica di un pubblico.** È stato risolto un problema a causa del quale l’area di lavoro predefinita non era corretta dopo aver modificato un pubblico. (TGT-55510)
 
 +++
 
-Server MCP **[!DNL Adobe Target]**
+**Generazione di rapporti**
 
 +++Vedi i dettagli
 
-* **Strumenti attività consolidati.** Gli strumenti di attività del server MCP [!DNL Adobe Target] sono stati consolidati per ridurre il sovraccarico di selezione degli strumenti ed estendere la copertura di lettura e report a tutti i tipi di attività. Sei strumenti per tipo sono stati sostituiti da quattro strumenti unificati:
-
-   * `get_activity` sostituisce `get_ab_activity`, `get_xt_activity` e `get_abt_activity`. Recupera i dettagli completi dell’attività per tutti i tipi: Test A/B, Targeting esperienza, Automated Personalization, Allocazione automatica, Test multivariato (MVT) e Consigli. Il tipo di attività viene rilevato automaticamente dall’ID.
-   * `update_activity` sostituisce `update_ab_activity`, `update_xt_activity` e `update_abt_activity`. Supporta le attività Test A/B, Targeting esperienza e Automated Personalization; le attività Allocazione automatica, MVT e Consigli sono di sola lettura.
-   * `get_activity_performance_report` sostituisce `get_ab_performance_report` e `get_xt_performance_report`. Recupera le metriche di conversione, incremento e affidabilità per tutti i tipi di attività.
-   * `get_activity_orders_report` sostituisce `get_ab_orders_report` e `get_xt_orders_report`. Recupera le metriche degli ordini e dei ricavi per tutti i tipi di attività.
-
-  Per ulteriori informazioni, vedere [[!DNL Adobe Target] Riferimento strumenti server MCP](../c-integrating-target-with-mac/mcp/target-mcp-tools-reference.md).
-
-+++
-
-## [!DNL Target Standard/Premium] 26.6.4 (16 giugno 2026)
-
-**Attività**
-
-+++Vedi i dettagli
-
-* **[!UICONTROL Salva e chiudi] nell&#39;interfaccia utente [!DNL Target] aggiornata.** È stata ripristinata l&#39;opzione **[!UICONTROL Salva e chiudi]** nell&#39;interfaccia utente [!DNL Target] aggiornata. (TGT-55152)
-
-* **URL di controllo qualità nell&#39;interfaccia utente [!DNL Target] aggiornata.** È stato risolto un problema che impediva il corretto funzionamento degli URL di controllo qualità nell&#39;interfaccia utente [!DNL Target] aggiornata. ([TGT-55110](https://jira.corp.adobe.com/browse/TGT-55110))
-
-+++
-
-**Localizzazione**
-
-+++Vedi i dettagli
-
-* **Stringhe non localizzate nella finestra modale [!UICONTROL Crea offerta JSON].** È stato risolto un problema a causa del quale le stringhe nella finestra modale [!UICONTROL Crea offerta JSON], inclusi [!UICONTROL Nome] e [!UICONTROL Workspace], non venivano localizzate durante la creazione dell&#39;attività. (TGT-50084)
-
-* **Messaggio popup non localizzato in un&#39;attività [!UICONTROL Consigli].** È stato risolto un problema che causava la visualizzazione di un messaggio popup non localizzato durante l&#39;aggiunta di consigli in un&#39;attività [!UICONTROL Recommendations] basata su modulo. (TGT-50463)
-
-* **Stringa non localizzata nelle finestre di dialogo [!UICONTROL Raccolte] e [!UICONTROL Esclusioni].** È stato risolto un problema che impediva la localizzazione della stringa &quot;Payload elemento&quot; nelle finestre di dialogo [!UICONTROL Raccolte] e [!UICONTROL Esclusioni] in [!UICONTROL Consigli]. (TGT-51542)
-
-* **Stringa &quot;Approvatore&quot; non localizzata nella scheda [!UICONTROL Tipi di pubblico].** È stato risolto un problema che impediva la localizzazione della stringa &quot;Approvatore&quot; nella colonna [!UICONTROL Workspace] della pagina [!UICONTROL Libreria pubblico]. (TGT-51751)
+* **Errore di download CSV per i report di maggio.** È stato risolto un problema che impediva il download di un rapporto CSV di maggio. (TGT-55524)
 
 +++
 

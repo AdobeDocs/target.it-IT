@@ -39,9 +39,9 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 7c0425e7e8b3fd71f87b36da74af16d64da32bfa
+source-git-commit: 1175d9840a6607f7fea5e5ac6f768d12cdf52c8d
 workflow-type: tm+mt
-source-wordcount: 71133
+source-wordcount: 71521
 ht-degree: 48%
 
 ---
@@ -57,6 +57,32 @@ Le note sulla versione sono elencate in ordine decrescente per mese e anno di ri
 >Consulta [Note sulla versione di Target (corrente)](/help/main/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A) per informazioni sulle versioni di Target del mese corrente (piattaforma e Target Standard/Premium).
 
 ## Note sulla versione - 2026
+
+## [!DNL Target Standard/Premium] 26.6.8 (24 giugno 2026)
+
+**Attività**
+
++++Vedi i dettagli
+
+* **Il filtro Source per le risorse API e MCP è stato creato.** È stato risolto un problema che impediva il funzionamento del filtro per [!UICONTROL API Adobe Target] o [!UICONTROL MCP Adobe Target] sulle pagine di elenco di attività, tipi di pubblico e offerte. (TGT-55236)
+
+* **Valori filtro origine attività.** È stato risolto un problema che impediva al filtro di origine [!UICONTROL Adobe Target API] o [!UICONTROL Adobe Target MCP] di visualizzare i tipi di pubblico appena creati dall&#39;API. (TGT-55237)
+
++++
+
+**Localizzazione**
+
++++Vedi i dettagli
+
+* **Stringhe non localizzate nella finestra modale [!UICONTROL Crea offerta JSON].** È stato risolto un problema a causa del quale le stringhe nella finestra modale [!UICONTROL Crea offerta JSON], inclusi [!UICONTROL Nome] e [!UICONTROL Workspace], non venivano localizzate durante la creazione dell&#39;attività. (TGT-50084)
+
+* **Messaggio popup non localizzato in un&#39;attività [!UICONTROL Consigli].** È stato risolto un problema che causava la visualizzazione di un messaggio popup non localizzato durante l&#39;aggiunta di consigli in un&#39;attività [!UICONTROL Recommendations] basata su modulo. (TGT-50463)
+
+* **Stringa non localizzata nelle finestre di dialogo [!UICONTROL Raccolte] e [!UICONTROL Esclusioni].** È stato risolto un problema che impediva la localizzazione della stringa &quot;Payload elemento&quot; nelle finestre di dialogo [!UICONTROL Raccolte] e [!UICONTROL Esclusioni] in [!UICONTROL Consigli]. (TGT-51542)
+
+* **Stringa &quot;Approvatore&quot; non localizzata nella scheda [!UICONTROL Tipi di pubblico].** È stato risolto un problema che impediva la localizzazione della stringa &quot;Approvatore&quot; nella colonna [!UICONTROL Workspace] della pagina [!UICONTROL Libreria pubblico]. (TGT-51751)
+
++++
 
 ## [!DNL Target Standard/Premium] 26.6.5 (17 giugno 2026)
 
@@ -781,8 +807,7 @@ Questa versione include i seguenti aggiornamenti e correzioni:
 * **Stabilità di authoring ripristinata nell&#39;interfaccia utente di creazione attività.** È stato risolto un problema intermittente nell’interfaccia utente del Compositore esperienza visivo che impediva l’authoring e rendeva i collegamenti selezionabili in modo imprevisto, con reindirizzamento degli utenti fuori dalla pagina. (TGT-53153)
 * **Modifica ripristinata per le attività salvate nell&#39;interfaccia utente di creazione attività.** È stato risolto un problema che impediva agli utenti di modificare le attività dopo il salvataggio delle modifiche. Le attività interessate sono rimaste bloccate in &quot;[!UICONTROL Applicazione delle modifiche iniziali]&quot;, bloccando ulteriori aggiornamenti e nascondendo il pulsante [!UICONTROL Annulla]. (TGT-53631)
 * **Il Compositore esperienza visivo non si blocca più su &quot;[!UICONTROL Applicazione delle modifiche iniziali].&quot;** È stato risolto un problema di prestazioni nel Compositore esperienza visivo che causava lunghi ritardi durante il caricamento di esperienze con un numero elevato di modifiche. Gli utenti interessati hanno visto l&#39;interfaccia utente bloccata in &quot;[!UICONTROL Applicazione delle modifiche iniziali]&quot; per alcuni minuti, soprattutto negli scenari dell&#39;esperienza B. (TGT-53727)
-* **Il Compositore esperienza visivo carica le modifiche senza elementi radice.**
-È stato risolto un problema nel Compositore esperienza visivo che causava l&#39;arresto delle esperienze durante il caricamento di modifiche prive di un elemento principale chiaro. Queste modifiche in precedenza causavano il blocco indefinito dell&#39;interfaccia utente di &quot;A[!UICONTROL applicazione delle modifiche iniziali]&quot;. (TGT-53799)
+* **Il Compositore esperienza visivo carica le modifiche senza elementi radice.È stato risolto un problema nel Compositore esperienza visivo che causava l&#39;arresto delle esperienze durante il caricamento di modifiche prive di un elemento principale chiaro. In precedenza, a causa di queste modifiche, l&#39;interfaccia utente si bloccava indefinitamente su &quot;A[!UICONTROL applicazione delle modifiche iniziali]&quot;. (TGT-53799)
 * **Il salvataggio delle modifiche nelle attività ora funziona come previsto.** È stato risolto un problema relativo alle autorizzazioni nella nuova interfaccia utente di creazione che impediva agli utenti di salvare le modifiche durante la modifica degli obiettivi e delle impostazioni avanzate nelle attività. Gli utenti interessati hanno visualizzato una barra multifunzione di errore rossa e un messaggio &quot;Forbidden.Resource&quot;, pur disponendo dell’accesso appropriato. (TGT-53816)
 * **L&#39;interfaccia utente del Compositore esperienza visivo mantiene le modifiche dell&#39;esperienza in tutte le visualizzazioni.** Sono stati risolti diversi problemi nel Compositore esperienza visivo aggiornato che hanno interessato lo sviluppo dell’esperienza. Le modifiche non persistevano correttamente, soprattutto quando si utilizzavano le offerte HTML o si passava da una visualizzazione all’altra. (TGT-53825)
 * **Tutte le visualizzazioni ora vengono visualizzate correttamente quando una modifica si estende su più esperienze.** È stato risolto un problema nell&#39;interfaccia utente di Creazione attività a causa del quale veniva visualizzata una sola visualizzazione quando veniva applicata una modifica tra più visualizzazioni. La descrizione del passaggio del mouse non elencava tutte le viste associate, anche se la modifica era stata applicata correttamente. (TGT-53827)
@@ -811,8 +836,7 @@ Questa versione include i miglioramenti e le correzioni seguenti.
 
 +++Localizzazione
 
-* **È stata risolta un&#39;incoerenza terminologica nella traduzione in cinese semplificato della visualizzazione dei dettagli completi.**
-In precedenza, il termine &quot;Dettagli&quot; veniva erroneamente tradotto come &quot;详情&quot; nella lingua cinese semplificato (zh_CN), violando le linee guida terminologiche stabilite. Questo è stato corretto in &quot;详细信息&quot; per garantire la coerenza con il database terminologico. (TGT-53741)
+* **È stata risolta un&#39;incoerenza terminologica nella traduzione in cinese semplificato della visualizzazione Dettagli completi.In precedenza, il termine &quot;Dettagli&quot; veniva erroneamente tradotto come &quot;详情&quot; nella lingua cinese semplificato (zh_CN), violando le linee guida terminologiche stabilite. Questo è stato corretto in &quot;详细信息&quot; per garantire la coerenza con il database terminologico. (TGT-53741)
 
 +++
 
@@ -829,8 +853,7 @@ In precedenza, il termine &quot;Dettagli&quot; veniva erroneamente tradotto come
 
 * **La generazione di offerte ad hoc nelle attività A[!UICONTROL automatizzate di Personalization] ha causato incongruenze nei rapporti.** L&#39;utilizzo della funzionalità Genera offerte ad hoc nelle attività di [!UICONTROL Automated Personalization] (AP) ha portato a rapporti non accurati. In particolare, gli ID offerta venivano riutilizzati tra le posizioni, causando l’erronea attribuzione o la sovrascrittura dei dati di reporting. Le offerte ad hoc ora vengono generate con identificatori distinti per posizione, garantendo un tracciamento e un reporting accurati per tutte le esperienze configurate. (TGT-53757)
 * **Impossibile caricare i report attività a causa di un errore di JavaScript.** I clienti hanno riscontrato un messaggio di errore durante l&#39;accesso alla scheda [!UICONTROL Report] per alcune attività. L&#39;errore è stato causato da un&#39;eccezione JavaScript: impossibile leggere le proprietà di non definito (lettura di &#39;indexOf&#39;), attivato durante la chiamata GraphQL `getAnalyticsReportSummary`. I rapporti ora vengono caricati correttamente e la gestione degli errori è stata migliorata per evitare errori simili nel flusso di lavoro aggiornato per la creazione di attività. (TGT-53797)
-* **Si è verificato un arresto anomalo dei report dopo l&#39;interazione con la barra di scorrimento.** Fare clic sulla barra di scorrimento nella scheda [!UICONTROL Report] ha causato l&#39;arresto anomalo della pagina, accompagnato da un errore di JavaScript:
-  `SyntaxError: Failed to execute 'querySelector' on 'Element': '[data-key="a-currentcopy"hiretalent""]' is not a valid selector.` I report ora vengono caricati e scorrono correttamente senza generare errori o arresti anomali. (TGT-53828)
+* **Si è verificato un arresto anomalo dei report dopo l&#39;interazione con la barra di scorrimento.** Facendo clic sulla barra di scorrimento nella scheda [!UICONTROL Rapporti] si è verificato un arresto anomalo della pagina, accompagnato da un errore di JavaScript:  `SyntaxError: Failed to execute 'querySelector' on 'Element': '[data-key="a-currentcopy"hiretalent""]' is not a valid selector.` I report ora vengono caricati e scorrono correttamente senza generare errori o arresti anomali. (TGT-53828)
 * **Nei report non è stata visualizzata la metrica principale.** La metrica principale, configurata come metrica di conversione utilizzando una mbox, era mancante nei rapporti delle attività. La ricerca per nome metrica o nome mbox non ha prodotto risultati, impedendo la visibilità nei dati delle prestazioni chiave. Le metriche primarie ora vengono visualizzate correttamente nella scheda [!UICONTROL Rapporti], garantendo un tracciamento e un&#39;analisi accurati delle prestazioni della campagna. (TGT-53773)
 * **La scheda [!UICONTROL Rapporti] nell&#39;interfaccia utente aggiornata si è bloccata durante l&#39;interazione con la barra di scorrimento orizzontale.** Si è verificato un arresto anomalo della visualizzazione [!UICONTROL Report] a intermittenza con un errore &quot;Si è verificato un errore&quot; quando si utilizza la barra di scorrimento orizzontale per accedere alle metriche fuori visualizzazione. La barra di scorrimento ora funziona in modo affidabile, consentendo ai clienti di visualizzare e analizzare tutte le metriche senza necessità di soluzioni quali ingrandire o utilizzare lo scorrimento con spostamento. (TGT-53824)
 
@@ -838,8 +861,7 @@ In precedenza, il termine &quot;Dettagli&quot; veniva erroneamente tradotto come
 
 +++[!UICONTROL Compositore esperienza visivo] (VEC)
 
-* **Se si fa clic su breadcrumb nel Compositore esperienza visivo, il menu Modifica non veniva visualizzato in modo coerente.**
-Quando si selezionano gli elementi di HTML tramite le breadcrumb nel Compositore esperienza visivo, il menu Modifica a intermittenza non viene visualizzato o scompare rapidamente, rendendo la selezione degli elementi inaffidabile. Il menu Modifica ora viene visualizzato in modo coerente quando si naviga tramite breadcrumb, migliorando il flusso di lavoro di selezione degli elementi nel processo aggiornato di creazione delle attività. (TGT-52873)
+* **Se si fa clic su breadcrumb nel Compositore esperienza visivo, il menu Modifica non veniva visualizzato in modo coerente.Quando si selezionano gli elementi di HTML tramite le breadcrumb nel Compositore esperienza visivo, il menu Modifica a intermittenza non viene visualizzato o scompare rapidamente, rendendo la selezione degli elementi inaffidabile. Il menu Modifica ora viene visualizzato in modo coerente quando si naviga tramite breadcrumb, migliorando il flusso di lavoro di selezione degli elementi nel processo aggiornato di creazione delle attività. (TGT-52873)
 * **Impossibile visualizzare in modo intermittente il menu di scelta rapida nel Compositore esperienza visivo** Il menu di scelta rapida nell’interfaccia utente del Compositore esperienza visivo aggiornata non veniva visualizzato in modo coerente quando si faceva clic sugli elementi, rendendo difficile l’accesso alle opzioni di modifica. Il menu di scelta rapida ora viene visualizzato in modo affidabile sulla selezione degli elementi, migliorando il flusso di lavoro di modifica e l’usabilità complessiva nel processo aggiornato di creazione delle attività. (TGT-53015)
 * **Impossibile visualizzare il menu di scelta rapida per alcuni elementi nel Compositore esperienza visivo** Il menu di scelta rapida non veniva visualizzato quando si selezionavano elementi specifici nel Compositore esperienza visivo aggiornato, rendendo difficile l’applicazione delle modifiche. Il menu di scelta rapida ora viene visualizzato in modo coerente per tutti gli elementi supportati, migliorando l’affidabilità e la facilità d’uso dell’esperienza di modifica nel flusso di lavoro aggiornato per la creazione di attività. (TGT-53248)
 * **Il menu di scelta rapida è scomparso al primo clic quando si utilizzano breadcrumb nel Compositore esperienza visivo** Selezionando un elemento padre tramite le breadcrumb nel Compositore esperienza visivo, il menu di scelta rapida veniva visualizzato brevemente e poi scompariva, rendendo difficile l’accesso alle opzioni di modifica. Il menu di scelta rapida ora rimane visibile e funzionale durante la navigazione degli elementi attraverso le breadcrumb, migliorando l’affidabilità del flusso di lavoro di selezione degli elementi nel processo aggiornato di creazione delle attività. (TGT-53424)
@@ -1613,8 +1635,7 @@ A causa dei problemi recenti identificati, principalmente correlati a complesse 
 
 * È stato risolto un problema che causava un errore &quot;Input utente non valido&quot; durante la copia di un&#39;attività esistente e la modifica dell&#39;origine per la generazione di rapporti in [!DNL Adobe Analytics] (A4T). L&#39;errore è stato attivato quando alcune azioni di metrica incompatibili con il reporting di [!DNL Analytics], come `restart_same_experience`, `restart_random_experience` e `restart_new_experience`, sono state mantenute dall&#39;attività originale. (TGT-52900)
 * È stato risolto un problema che impediva ai clienti di creare o salvare un&#39;attività selezionando [!DNL Adobe Analytics] (A4T) come origine per la generazione di rapporti nel passaggio [!UICONTROL Obiettivi e impostazioni]. Il problema si è verificato in modo specifico durante la selezione di una metrica [!UICONTROL Evento personalizzato] (ad esempio, &quot;Evento personalizzato 16&quot;), causando il seguente errore: &quot;Input utente non valido&quot;. (TGT-52910)
-* È stato risolto un problema a causa del quale facendo clic sul collegamento &quot;[!UICONTROL Visualizza in Analytics]&quot; gli utenti venivano reindirizzati alla home page anziché alla dashboard [!DNL Analytics] prevista. (TGT-53092 e TGT-53093)
-  <!-- * Fixed an issue when cloning an existing activity and changing the reporting source from [!DNL Target] to [!DNL Adobe Analytics], users encounter a "400 - Invalid User Input" error, preventing the activity from being saved. (TGT-52875)-->
+* È stato risolto un problema a causa del quale facendo clic sul collegamento &quot;[!UICONTROL Visualizza in Analytics]&quot; gli utenti venivano reindirizzati alla home page anziché alla dashboard [!DNL Analytics] prevista. (TGT-53092 e TGT-53093)  <!-- * Fixed an issue when cloning an existing activity and changing the reporting source from [!DNL Target] to [!DNL Adobe Analytics], users encounter a "400 - Invalid User Input" error, preventing the activity from being saved. (TGT-52875)-->
 * È stato risolto un problema che si verificava durante la visualizzazione di un&#39;attività [!DNL Recommendations] nell&#39;interfaccia utente [!UICONTROL Panoramica] aggiornata. Impossibile caricare la sezione [!UICONTROL Obiettivi e impostazioni] se [!DNL Adobe Analytics] (A4T) è selezionato come origine per la generazione di rapporti. Veniva visualizzato il seguente messaggio di errore: &quot;Si è verificato un errore. Impossibile completare la richiesta. Se il problema persiste, contatta l’Assistenza clienti Adobe.” (TGT-52999)
 
 +++
@@ -1864,7 +1885,7 @@ Questa versione include le correzioni e gli aggiornamenti seguenti:
 * È stato risolto un problema che impediva la persistenza dei gruppi di reporting nelle attività [!UICONTROL Automated Personalization] (AP). (TGT-52368)
 * È stato risolto un problema che impediva il salvataggio di attività che includevano offer decisioning. (TGT-52390)
 * È stato risolto un problema che causava la selezione dell&#39;offerta predefinita ma la visualizzazione di altri contenuti dell&#39;offerta nelle attività [!UICONTROL Automated Personalization] (AP) e [!UICONTROL Test multivariato] (MVT). (TGT-52372)
-* È stata corretta la logica delle autorizzazioni GET per verificare con OR tra l’accesso completo all’organizzazione e l’accesso specifico per organizzazione + utente. (TGT-52374)
+* È stata corretta la logica delle autorizzazioni di GET per verificare con OR tra accesso completo all’organizzazione e accesso specifico per organizzazione + utente. (TGT-52374)
 * È stato risolto un problema che impediva la visualizzazione dei nomi dei tipi di pubblico dopo la selezione di un pubblico per [!UICONTROL Contenuto gestito] e [!UICONTROL Tipi di pubblico per reportistica], anche se l&#39;opzione [!UICONTROL Mostra solo selezionati] era abilitata. (TGT-52393)
 
 ### [!DNL Target Standard/Premium] 25.5.1 (5 maggio 2025)
@@ -2022,7 +2043,7 @@ Questa versione include le correzioni e gli aggiornamenti seguenti:
 Questa versione include le correzioni e gli aggiornamenti seguenti:
 
 * È stato risolto l&#39;errore &quot;Input utente non valido&quot; nelle attività del [!UICONTROL Compositore esperienza visivo] con [!UICONTROL Tracciamento dei clic] abilitato quando lo stesso selettore [!UICONTROL ClickTrack] viene utilizzato più volte. (TGT-51921)
-* È stato corretto l’errore &quot;Input utente non valido&quot; nelle attività del Compositore esperienza visivo con posizioni condivise (ad esempio, selettore HEAD) e offerte identiche. (TGT-51879)
+* È stato corretto l’errore &quot;Input utente non valido&quot; nelle attività del Compositore esperienza visivo con posizioni condivise (ad esempio, il selettore HEAD) e offerte identiche. (TGT-51879)
 * È stato risolto un problema che causava la condivisione delle modifiche dell’esperienza tra i vari tipi di pubblico. (TGT-51815)
 * Sono stati risolti degli errori di convalida durante la creazione di attività a causa di conflitti di ID segmento. Gli errori si sono verificati quando [!DNL Target] ha rilevato attività esistenti utilizzando segmenti anonimi. (TGT-51784)
 * È stato risolto un problema che impediva a [!DNL Target] di salvare attività con regole di esclusione in un pubblico. (TGT-51581)
@@ -4792,8 +4813,7 @@ Questa versione di [!DNL Target] è incentrata sulla fruibilità e sui miglioram
 * I nomi delle metriche vengono ora visualizzati nella pagina [!UICONTROL Obiettivi e impostazioni] senza che gli utenti debbano espandere ogni singola metrica per visualizzarne il nome per intero. Questo miglioramento consente agli utenti di modificare le metriche più rapidamente e in modo più efficiente. (TGT-21276)
 * È ora possibile applicare le regole di inclusione di [!DNL Recommendations] ai criteri personalizzati (aggiornamento tramite CSV), come per qualsiasi altro criterio. (TGT-21896)
 * È stata migliorata l&#39;interfaccia utente e la fruibilità della pagina [!UICONTROL Offerte], specialmente quando si creano o gestiscono cartelle e si creano offerte. (TGT-22509 e TGT-22187)
-* È stata migliorata l&#39;esperienza utente nel [!UICONTROL Compositore esperienza visivo] (VEC) durante la selezione degli elementi da nascondere.
-(TGT-22224)
+* È stata migliorata l&#39;esperienza dell&#39;utente nel [!UICONTROL Compositore esperienza visivo], quando si selezionano gli elementi da nascondere.(TGT-22224)
 * È stata migliorata l&#39;esperienza dell&#39;utente durante la creazione di attività utilizzando il [!UICONTROL Compositore esperienza basato su moduli]. Quando si sceglie una posizione mbox, il bordo di convalida rimane evidenziato dopo aver fatto clic su [!UICONTROL Avanti]. (TGT-22221)
 * Sono stati ottimizzati i rapporti scaricati per distinguere tra le offerte attive ed eliminate. (TGT-22449)
 * È stato risolto un problema che impediva la visualizzazione di risorse obsolete nell&#39;elenco a scorrimento infinito all&#39;interno dell&#39;interfaccia utente del servizio principale delle Risorse di Experience Cloud. (TGT-19733)
@@ -5772,8 +5792,8 @@ Questa versione include i miglioramenti e le funzioni seguenti:
  <tbody> 
   <tr> 
    <td colname="col1"> Creazione e modifica degli script di profilo </td> 
-   <td colname="col2"> <p>Gli script di profilo eseguono dei “catcher” per acquisire attributi di profilo per ogni richiesta di mbox. Quando viene ricevuta una richiesta di mbox, Target esegue gli script di profilo pertinenti, determina quale attività deve essere eseguita e visualizza il contenuto appropriato per l’attività e l’esperienza, quindi tiene traccia del successo dell’attività. Questo consente di tenere traccia di informazioni sulla visita: la posizione del visitatore, l’ora del giorno, quante volte ha visitato il sito, se ha effettuato acquisti in passato e così via. Queste informazioni vengono poi aggiunte al profilo del visitatore, in modo da poter monitorare meglio la sua attività sul sito. </p> <p>Consulta <a href="/help/main/c-target/c-visitor-profile/profile-parameters.md#concept_01A30B4762D64CD5946B3AA38DC8A201" format="dita" scope="local">Attributi del profilo </a>. 
-     <!--(Copy help from Classic)--> </p> </td> 
+   <td colname="col2"> <p>Gli script di profilo eseguono dei “catcher” per acquisire attributi di profilo per ogni richiesta di mbox. Quando viene ricevuta una richiesta di mbox, Target esegue gli script di profilo pertinenti, determina quale attività deve essere eseguita e visualizza il contenuto appropriato per l’attività e l’esperienza, quindi tiene traccia del successo dell’attività. Questo consente di tenere traccia di informazioni sulla visita: la posizione del visitatore, l’ora del giorno, quante volte ha visitato il sito, se ha effettuato acquisti in passato e così via. Queste informazioni vengono poi aggiunte al profilo del visitatore, in modo da poter monitorare meglio la sua attività sul sito. </p> <p>Vedere <a href="/help/main/c-target/c-visitor-profile/profile-parameters.md#concept_01A30B4762D64CD5946B3AA38DC8A201" format="dita" scope="local"> Attributi di profilo </a>. 
+      </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Intervallo di affidabilità per metriche binarie </td> 
