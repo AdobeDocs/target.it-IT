@@ -8,10 +8,10 @@ topic: Experimentation, Personalization, Artificial Intelligence
 badge: label="Beta" type="Informative"
 role: Developer, User
 level: Intermediate, Experienced
-source-git-commit: 40e87a3a70d51ccda99f046609ba9633719ea540
+source-git-commit: aa7a47b00b86a47c97996b667ee0d73db52650aa
 workflow-type: tm+mt
-source-wordcount: '3195'
-ht-degree: 13%
+source-wordcount: '3046'
+ht-degree: 14%
 
 ---
 
@@ -43,6 +43,21 @@ Per istruzioni complete sull&#39;installazione, vedere [Introduzione](target-mcp
 
 ## Strumenti di attività {#tools-activities}
 
+>[!NOTE]
+>
+>Le operazioni di lettura e scrittura hanno un ambito diverso. `get_activity` recupera attività di tutti i tipi (test A/B, Targeting esperienza, Automated Personalization, Allocazione automatica, Test multivariato, Consigli). `update_activity` supporta test A/B, Targeting esperienza e Automated Personalization; le attività Allocazione automatica, Test multivariato e Consigli sono di sola lettura tramite il server MCP.
+
+| Funzionalità | Test A/B | Targeting esperienza | Automated Personalization | Allocazione automatica | Test multivariato | Consigli |
+|---|---|---|---|---|---|---|
+| `get_activity` | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
+| `list_target_activities` | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
+| `get_activity_performance_report` | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
+| `get_activity_orders_report` | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
+| `update_activity` | ✓ | ✓ | ✓ | — | — | — |
+| Modifiche del ciclo di vita (stato, priorità, nome, pianificazione) | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
+| Modifiche a varianti e traffico | ✓ | ✓ | ✓ | — | — | — |
+| Crea | ✓ | ✓ | — | — | — | — |
+
 +++Elencare attività
 
 **Strumento:** `list_target_activities`
@@ -57,7 +72,7 @@ Recupera un elenco impaginato di attività. Tutti i filtri vengono applicati lat
 | `offset` | numero intero | No | Numero di attività da saltare per l’impaginazione |
 | `sort_by` | stringa | No | Campo in base al quale eseguire l&#39;ordinamento. Prefisso con `-` per ordine decrescente (ad esempio, `-modifiedAt`). Opzioni: `id`, `name`, `state`, `priority`, `startsAt`, `endsAt`, `lifetimeStart`, `lifetimeEnd`, `createdAt`, `createdBy`, `modifiedAt`, `modifiedBy`, `type`, `thirdPartyId` |
 | `state` | stringa | No | Filtra per stato attività: `approved` (live/active), `deactivated` (inactive), `paused`, `saved` (draft) |
-| `activity_type` | stringa | No | Filtra per tipo: `ab` (test A/B), `xt` (targeting esperienza), `abt` (Automated Personalization) |
+| `activity_type` | stringa | No | Filtra per tipo: `ab` (test A/B), `xt` (targeting esperienza), `abt` (Automated Personalization), `auto_allocate` (allocazione automatica), `mvt` (test multivariato), `recs` (consigli) |
 | `name_contains` | stringa | No | Filtra le attività il cui nome contiene questa stringa (senza distinzione maiuscole/minuscole) |
 | `starts_after` | stringa | No | Data ISO 8601 — attività che iniziano dopo tale data |
 | `starts_before` | stringa | No | Data ISO 8601 — attività che hanno inizio prima di tale data |
@@ -78,55 +93,21 @@ Recupera un elenco impaginato di attività. Tutti i filtri vengono applicati lat
 
 +++
 
-+++Ottenere un’attività A/B
++++Ottenere un’attività
 
-**Strumento:** `get_ab_activity`
+**Strumento:** `get_activity`
 
-Ottieni informazioni dettagliate su un’attività A/B.
+Ottieni informazioni dettagliate su un’attività di qualsiasi tipo.
 
-Recupera la configurazione completa di un test A/B specifico, incluse esperienze, posizioni, metriche e regole di targeting.
+Recupera la configurazione completa di un’attività specifica, rilevando automaticamente il tipo di attività. Supporta le attività Test A/B, Targeting esperienza, Automated Personalization, Allocazione automatica, Test multivariato e Consigli.
 
 | Parametro | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| `activity_id` | numero intero | Sì | Identificatore univoco dell’attività A/B |
+| `activity_id` | numero intero | Sì | Identificatore univoco dell’attività |
 
 **Restituisce:** Dettagli completi dell&#39;attività, inclusi metadati (nome, stato, priorità, date), esperienze, posizioni e offerte, obiettivi e metriche e regole di targeting.
 
-**Prompt di esempio:** &quot;Ottieni dettagli per 12345 attività A/B&quot;.
-
-+++
-
-+++Ottenere un’attività Targeting esperienze
-
-**Strumento:** `get_xt_activity`
-
-Ottieni informazioni dettagliate su un’attività Targeting esperienza.
-
-Recupera la configurazione completa di una specifica attività XT, incluse le mappature esperienza-pubblico, le posizioni e le metriche.
-
-| Parametro | Tipo | Obbligatorio | Descrizione |
-|---|---|---|---|
-| `activity_id` | numero intero | Sì | Identificatore univoco dell’attività XT |
-
-**Restituisce:** dettagli completi sull&#39;attività, inclusi metadati, esperienze con mappature di pubblico, posizioni e offerte, obiettivi e metriche.
-
-**Prompt di esempio:** &quot;Ottieni dettagli per 12345 attività Targeting esperienza.&quot;
-
-+++
-
-+++Ottenere un’attività Automated Personalization
-
-**Strumento:** `get_abt_activity`
-
-Ottieni informazioni dettagliate su un’attività di Automated Personalization (AP).
-
-| Parametro | Tipo | Obbligatorio | Descrizione |
-|---|---|---|---|
-| `activity_id` | numero intero | Sì | Identificatore univoco dell&#39;attività di Personalizzazione automatizzata |
-
-**Restituisce:** Dettagli completi dell&#39;attività, inclusi metadati, esperienze, posizioni e impostazioni algoritmiche.
-
-**Prompt di esempio:** &quot;Ottieni dettagli per 12345 attività di Auto-Personalization&quot;.
+**Prompt di esempio:** &quot;Ottieni dettagli per 12345 attività&quot;.
 
 +++
 
@@ -183,13 +164,13 @@ Crea un’attività Targeting esperienza che fornisce esperienze diverse a tipi 
 
 +++
 
-+++Aggiornare un’attività A/B
++++Aggiornare un’attività
 
-**Strumento:** `update_ab_activity`
+**Strumento:** `update_activity`
 
-Aggiornare un’attività A/B esistente.
+Aggiorna un test A/B, un targeting delle esperienze o un’attività Automated Personalization esistente.
 
-Utilizza un pattern di lettura-modifica-scrittura: recupera lo stato corrente, unisce le modifiche, convalida e invia l’aggiornamento.
+Utilizza un pattern di lettura-modifica-scrittura: recupera lo stato corrente, unisce le modifiche, convalida e invia l’aggiornamento. Supporta le attività Test A/B, Targeting esperienza e Automated Personalization; le attività Allocazione automatica, Test multivariato e Consigli sono di sola lettura. I parametri strutturati `goal`, `audience_ids` e `additional_metrics` sono supportati solo per test A/B e Targeting esperienza; le attività di Automated Personalization accettano semplici aggiornamenti di unione campi.
 
 | Parametro | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
@@ -199,44 +180,6 @@ Utilizza un pattern di lettura-modifica-scrittura: recupera lo stato corrente, u
 **Restituisce:** l&#39;oggetto attività aggiornato.
 
 **Prompt di esempio:** &quot;12345 attività di aggiornamento per modificare l&#39;allocazione del traffico in 70/30&quot;.
-
-+++
-
-+++Aggiornare un’attività Targeting esperienze
-
-**Strumento:** `update_xt_activity`
-
-Aggiorna un&#39;attività Targeting esperienza esistente.
-
-Utilizza un pattern di lettura-modifica-scrittura.
-
-| Parametro | Tipo | Obbligatorio | Descrizione |
-|---|---|---|---|
-| `activity_id` | numero intero | Sì | Identificatore univoco dell’attività XT da aggiornare |
-| `activity` | oggetto | Sì | Campi da aggiornare |
-
-**Restituisce:** l&#39;oggetto attività aggiornato.
-
-**Prompt di esempio:** &quot;Aggiorna l&#39;attività Targeting esperienza 12345 aggiungere una nuova esperienza per i visitatori di dispositivi mobili.&quot;
-
-+++
-
-+++Aggiornare un’attività di Automated Personalization
-
-**Strumento:** `update_abt_activity`
-
-Aggiorna un’attività Automated Personalization esistente.
-
-Utilizza un pattern di lettura-modifica-scrittura.
-
-| Parametro | Tipo | Obbligatorio | Descrizione |
-|---|---|---|---|
-| `activity_id` | numero intero | Sì | Identificatore univoco dell&#39;attività AP da aggiornare |
-| `activity` | oggetto | Sì | Campi da aggiornare |
-
-**Restituisce:** l&#39;oggetto attività aggiornato.
-
-**Prompt di esempio:** &quot;Aggiorna 12345 attività di Auto-Personalization per modificare l&#39;obiettivo di ottimizzazione.&quot;
 
 +++
 
@@ -251,7 +194,6 @@ Aggiorna la pianificazione di un&#39;attività senza modificare altre impostazio
 | Parametro | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
 | `activity_id` | numero intero | Sì | Identificatore univoco dell’attività |
-| `activity_type` | stringa | Sì | Tipo di attività: `ab`, `xt` o `abt` |
 | `starts_at` | stringa | No | Nuova data di inizio (ISO 8601) |
 | `ends_at` | stringa | No | Nuova data di fine (ISO 8601) |
 
@@ -624,73 +566,41 @@ Nessun parametro richiesto.
 
 ## Strumenti di reporting {#tools-reporting}
 
-+++Ottieni un rapporto sulle prestazioni A/B
++++Ottieni un rapporto sulle prestazioni dell’attività
 
-**Strumento:** `get_ab_performance_report`
+**Strumento:** `get_activity_performance_report`
 
-Ottieni un rapporto sulle prestazioni per un’attività A/B.
+Ottieni un rapporto sulle prestazioni per un’attività di qualsiasi tipo.
 
-Recupera i tassi di conversione, l’incremento e i livelli di affidabilità.
+Recupera i tassi di conversione, l’incremento e i livelli di affidabilità. Supporta le attività Test A/B, Targeting esperienza, Automated Personalization, Allocazione automatica, Test multivariato e Consigli.
 
 | Parametro | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| `activity_id` | numero intero | Sì | Identificatore univoco dell’attività A/B |
+| `activity_id` | numero intero | Sì | Identificatore univoco dell’attività |
 | `report_interval` | stringa | No | Periodo di tempo per il report (ad esempio `last7days`, `last30days` o un intervallo di date personalizzato) |
 
 **Restituisce:** metriche a livello di esperienza (visitatori, conversioni, tasso di conversione), calcoli di incremento, livelli di affidabilità statistica e metriche dei ricavi (se configurate).
 
-**Prompt di esempio:** &quot;Visualizza il report delle prestazioni per i 12345 di test A/B negli ultimi 30 giorni.&quot;
+**Prompt di esempio:** &quot;Visualizza il report delle prestazioni per le 12345 dell&#39;attività negli ultimi 30 giorni.&quot;
 
 +++
 
-+++Ottieni un rapporto ordini A/B
++++Ottenere un rapporto sugli ordini di attività
 
-**Strumento:** `get_ab_orders_report`
+**Strumento:** `get_activity_orders_report`
 
-Ottieni un rapporto ordini/ricavi per un’attività A/B.
+Ottieni un rapporto ordini/ricavi per un’attività di qualsiasi tipo.
+
+Supporta le attività Test A/B, Targeting esperienza, Automated Personalization, Allocazione automatica, Test multivariato e Consigli.
 
 | Parametro | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| `activity_id` | numero intero | Sì | Identificatore univoco dell’attività A/B |
+| `activity_id` | numero intero | Sì | Identificatore univoco dell’attività |
 | `report_interval` | stringa | No | Periodo di tempo per il rapporto |
 
 **Restituisce:** i conteggi, le entrate e il valore medio dell&#39;ordine in base all&#39;esperienza.
 
 **Prompt di esempio:** &quot;Ottieni il report ordini per 12345 attività&quot;.
-
-+++
-
-+++Ottieni un rapporto sulle prestazioni di Targeting esperienza
-
-**Strumento:** `get_xt_performance_report`
-
-Ottieni un rapporto sulle prestazioni per un’attività Targeting esperienza.
-
-| Parametro | Tipo | Obbligatorio | Descrizione |
-|---|---|---|---|
-| `activity_id` | numero intero | Sì | Identificatore univoco dell’attività XT |
-| `report_interval` | stringa | No | Periodo di tempo per il rapporto |
-
-**Restituisce:** metriche delle prestazioni a livello di esperienza.
-
-**Prompt di esempio:** &quot;Mostra le prestazioni per la mia 54321 di attività Targeting esperienze.&quot;
-
-+++
-
-+++Ottieni un rapporto sugli ordini di targeting esperienza
-
-**Strumento:** `get_xt_orders_report`
-
-Ottieni un rapporto ordini/ricavi per un’attività Targeting esperienza.
-
-| Parametro | Tipo | Obbligatorio | Descrizione |
-|---|---|---|---|
-| `activity_id` | numero intero | Sì | Identificatore univoco dell’attività XT |
-| `report_interval` | stringa | No | Periodo di tempo per il rapporto |
-
-**Restituisce:** Ordina le metriche in base all&#39;esperienza.
-
-**Prompt di esempio:** &quot;Ottieni dati di ordini per 54321 attività XT&quot;.
 
 +++
 
@@ -849,17 +759,18 @@ Nessun parametro richiesto.
 
 | Categoria | Conteggio | Strumenti |
 |---|---|---|
-| Attività | 17 | `list_target_activities`, `get_ab_activity`, `get_xt_activity`, `get_abt_activity`, `create_ab_activity`, `create_xt_activity`, `update_ab_activity`, `update_xt_activity`, `update_abt_activity`, `update_activity_schedule`, `update_activity_state`, `update_activity_name`, `update_activity_priority`, `add_activity_variant`, `update_traffic_split`, `update_variant_offer`, `remove_activity_variant` |
+| Attività | 13 | `list_target_activities`, `get_activity`, `create_ab_activity`, `create_xt_activity`, `update_activity`, `update_activity_schedule`, `update_activity_state`, `update_activity_name`, `update_activity_priority`, `add_activity_variant`, `update_traffic_split`, `update_variant_offer`, `remove_activity_variant` |
 | Offerta | 5 | `list_target_offers`, `get_target_offer`, `create_target_offer`, `create_target_json_offer`, `update_target_offer` |
-| Pubblico | 3 | `list_target_audiences`, `get_target_audience`, `create_target_audience` |
+| Pubblico | 4 | `list_target_audiences`, `get_target_audience`, `create_target_audience`, `update_target_audience` |
 | Mbox | 3 | `list_target_mboxes`, `get_target_mbox`, `list_target_mbox_profile_attributes` |
 | Proprietà | 1 | `list_target_properties` |
-| Generazione di rapporti | 6 | `get_ab_performance_report`, `get_ab_orders_report`, `get_xt_performance_report`, `get_xt_orders_report`, `get_activity_report_by_name`, `get_a4t_report` |
+| Generazione di rapporti | 4 | `get_activity_performance_report`, `get_activity_orders_report`, `get_activity_report_by_name`, `get_a4t_report` |
 | Anteprima | 1 | `preview_activity` |
 | Token di risposta | 2 | `list_target_response_tokens`, `create_target_response_token` |
 | Revisione | 2 | `get_target_revisions`, `get_target_entity_revisions` |
+| AT.js | 2 | `get_atjs_settings`, `get_atjs_versions` |
 | Modello | 1 | `list_target_templates` |
-| **Totale** | **41** | |
+| **Totale** | **38** | |
 
 ## Risorse correlate {#tools-related}
 

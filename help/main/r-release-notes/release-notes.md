@@ -7,21 +7,14 @@ title: Cosa è incluso nella versione corrente?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 TQID: https://experienceleague.adobe.com/-Unx6cVsw3wch2LJgPtvBYPe-10rdpiJ4v9F7tMSP08
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
-subfeature_v2:
-  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: aab659046a6583aeedaf8ec34803b0751bebe3c6
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: c93393a4-e558-47e1-992e-c91ed4d480ce
+subfeature_v2: id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 327891a5a9112dfacfca1c049adaef54b218676e
 workflow-type: tm+mt
-source-wordcount: 546
-ht-degree: 49%
+source-wordcount: 719
+ht-degree: 37%
 
 ---
 
@@ -39,7 +32,40 @@ I codici dei problemi tra parentesi sono per uso interno di [!DNL Adobe].
 
 * **Il filtro Source per le risorse API e MCP è stato creato.** È stato risolto un problema che impediva il funzionamento del filtro per [!UICONTROL API Adobe Target] o [!UICONTROL MCP Adobe Target] sulle pagine di elenco di attività, tipi di pubblico e offerte. (TGT-55236)
 
-* **Valori filtro origine attività.** È stato risolto un problema che impediva al filtro di origine [!UICONTROL Adobe Target API] o [!UICONTROL Adobe Target MCP] di visualizzare i tipi di pubblico appena creati dall&#39;API. (TGT-55237)
++++
+
+**[!UICONTROL Analytics per Target] (A4T)**
+
++++Vedi i dettagli
+
+* **Rapporti A4T non visibili.** È stato risolto un problema che impediva la visualizzazione dei report [!UICONTROL Analytics for Target] (A4T). (TGT-55432)
+
++++
+
+Server MCP **[!DNL Adobe Target]**
+
++++Vedi i dettagli
+
+* **Strumenti attività consolidati.** Gli strumenti di attività del server MCP [!DNL Adobe Target] sono stati consolidati per ridurre il sovraccarico di selezione degli strumenti ed estendere la copertura di lettura e report a tutti i tipi di attività. Sei strumenti per tipo sono stati sostituiti da quattro strumenti unificati:
+
+   * `get_activity` sostituisce `get_ab_activity`, `get_xt_activity` e `get_abt_activity`. Recupera i dettagli completi dell’attività per tutti i tipi: Test A/B, Targeting esperienza, Automated Personalization, Allocazione automatica, Test multivariato (MVT) e Consigli. Il tipo di attività viene rilevato automaticamente dall’ID.
+   * `update_activity` sostituisce `update_ab_activity`, `update_xt_activity` e `update_abt_activity`. Supporta le attività Test A/B, Targeting esperienza e Automated Personalization; le attività Allocazione automatica, MVT e Consigli sono di sola lettura.
+   * `get_activity_performance_report` sostituisce `get_ab_performance_report` e `get_xt_performance_report`. Recupera le metriche di conversione, incremento e affidabilità per tutti i tipi di attività.
+   * `get_activity_orders_report` sostituisce `get_ab_orders_report` e `get_xt_orders_report`. Recupera le metriche degli ordini e dei ricavi per tutti i tipi di attività.
+
+  Per ulteriori informazioni, vedere [[!DNL Adobe Target] Riferimento strumenti server MCP](../c-integrating-target-with-mac/mcp/target-mcp-tools-reference.md).
+
++++
+
+## [!DNL Target Standard/Premium] 26.6.4 (16 giugno 2026)
+
+**Attività**
+
++++Vedi i dettagli
+
+* **[!UICONTROL Salva e chiudi] nell&#39;interfaccia utente [!DNL Target] aggiornata.** È stata ripristinata l&#39;opzione **[!UICONTROL Salva e chiudi]** nell&#39;interfaccia utente [!DNL Target] aggiornata. (TGT-55152)
+
+* **URL di controllo qualità nell&#39;interfaccia utente [!DNL Target] aggiornata.** È stato risolto un problema che impediva il corretto funzionamento degli URL di controllo qualità nell&#39;interfaccia utente [!DNL Target] aggiornata. ([TGT-55110](https://jira.corp.adobe.com/browse/TGT-55110))
 
 +++
 
