@@ -3,9 +3,9 @@ title: Guida all’avvio
 description: Per integrare l’applicazione con i flag, dalla richiesta di accesso alla creazione del primo flag di funzione, segui la procedura riportata di seguito.
 hide: true
 exl-id: 7aa09535-45fa-4ddf-9e3f-a23f8a8ee666
-source-git-commit: fea4d9e87ad8417de9d820ee3556796fba112dc1
+source-git-commit: 35fa45d2a5374dcc47a02bb737f28f24847d7fc6
 workflow-type: tm+mt
-source-wordcount: '278'
+source-wordcount: '436'
 ht-degree: 1%
 
 ---
@@ -32,15 +32,33 @@ Prima dell’onboarding, prepara quanto segue:
 
 ## Passaggio 3: ottieni le credenziali {#step-3-credentials}
 
-Se esegui l’integrazione tramite un SDK lato server, è necessario un ID client del token di servizio. Per inserire nell&#39;elenco Consentiti l’ID client prima di poter effettuare chiamate API da SDK, contatta il supporto dei flag.
+Le credenziali necessarie dipendono dal percorso di integrazione:
+
+* **Web e dispositivi mobili (basati su tag):** Utilizza l&#39;ID **file di ambiente** dalla proprietà tag pubblicata. Per informazioni su come ottenere questo risultato, vedere il passaggio 4a.
+* **SDK lato server:** Richiedi un **ID client token di servizio** e fai in modo che i flag lo supportino, prima di poter effettuare chiamate API da SDK. Prima di eseguire chiamate API, devi inserire nell&#39;elenco Consentiti l&#39;ID client del token di servizio.
+* **Desktop:** È possibile utilizzare un codice prodotto e una versione del prodotto al posto di un ID client.
 
 ## Passaggio 4: integrare utilizzando un SDK {#step-4-integrate}
 
 Segui i [passaggi di integrazione](integration-steps.md) per il tipo di applicazione. Scegli il percorso adatto al tuo stack:
 
 * **Servizi Web** → Java SDK o Node.js SDK
-* **App Web e per dispositivi mobili** → Web SDK o Mobile SDK (disponibile a breve)
+* **App Web e per dispositivi mobili** → AEP Mobile SDK. Vedere [Android](../sdk-releases/android/android-extension-integration-guide.md) e [iOS](../sdk-releases/ios/ios-extension-integration-guide.md) guide
 * **App desktop** → SDK (disponibile a breve)
+
+## Passaggio 4a: configurare la raccolta dati e pubblicare la configurazione {#step-4a-data-collection}
+
+Se esegui l’integrazione tramite un approccio basato su tag (web o mobile), configura la proprietà tag prima di inizializzare SDK:
+
+1. In [Raccolta dati Adobe Experience Platform](https://experience.adobe.com/#/data-collection), apri la tua proprietà mobile o web.
+1. Installa l&#39;estensione **Edge Network**, quindi l&#39;estensione **Experience Rollout** (nell&#39;ordine indicato).
+1. Seleziona il **flusso di dati** (deve includere il set di dati di Customer Journey Analytics) e il dominio Edge.
+1. Pubblica la configurazione tramite **Dev → Staging → Produzione**.
+1. Copiare l&#39;ID **file di ambiente** dalla scheda **Ambienti**. Verrà utilizzato per inizializzare SDK.
+
+>[!IMPORTANT]
+>
+>Nell&#39;ambiente **staging**, aggiungere all&#39;ID del file di ambiente il prefisso `staging/`, ovvero utilizzare `staging/<environmentId>`. In **production**, utilizza direttamente l&#39;ID file dell&#39;ambiente.
 
 ## Passaggio 5: creare e verificare il primo flag di funzione {#step-5-feature-flag}
 

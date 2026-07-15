@@ -3,10 +3,10 @@ title: Test A/B con flag di funzione
 description: Scopri come eseguire i test A/B utilizzando i gruppi di funzioni in Flag configurando più varianti per un set di flag di funzione.
 hide: true
 exl-id: bb849049-229c-40ff-bbfe-7996f868bcc3
-source-git-commit: fea4d9e87ad8417de9d820ee3556796fba112dc1
+source-git-commit: 35fa45d2a5374dcc47a02bb737f28f24847d7fc6
 workflow-type: tm+mt
-source-wordcount: '364'
-ht-degree: 1%
+source-wordcount: '420'
+ht-degree: 0%
 
 ---
 
@@ -24,10 +24,14 @@ I test A/B nei flag vengono eseguiti utilizzando **gruppi di funzionalità**. Co
 ## Passaggio 1: creare un gruppo di funzioni con più varianti {#create}
 
 1. Passa a **Test delle funzionalità > Gruppi di funzionalità** e seleziona **Nuovo gruppo di funzionalità**.
-2. In **Dettagli di base**, fornisci titolo, chiave e descrizione.
-3. Imposta un rollout di **percentuale** per definire la percentuale di partecipazione del pubblico al test.
-4. Imposta **Varianti** su un valore maggiore di uno (ad esempio, due varianti per un test A/B classico).
-5. Consulta [Impostare un gruppo di funzioni per il rollout graduale](set-feature-group-gradual-rollout.md) per capire come la percentuale di esposizione viene distribuita tra le varianti.
+1. In **Dettagli di base**, fornisci titolo, chiave e descrizione.
+1. Imposta un rollout di **percentuale** per definire la percentuale di partecipazione del pubblico al test.
+1. Imposta **Varianti** su un valore maggiore di uno (ad esempio, due varianti per un test A/B classico). Puoi definire fino a **3 varianti più un gruppo di controllo**.
+1. Consulta [Impostare un gruppo di funzioni per il rollout graduale](set-feature-group-gradual-rollout.md) per capire come la percentuale di esposizione viene distribuita tra le varianti.
+
+>[!NOTE]
+>
+>L&#39;esposizione è divisa **equamente** tra le varianti, ad esempio 50/50 per due varianti. Le suddivisioni personalizzate come 60/40 non sono supportate. Un singolo flag di funzione può essere aggiunto a **più di una variante**. Il pubblico è impostato **una volta per gruppo di funzionalità**, non per variante.
 
 ## Passaggio 2: impostare il pubblico {#audience}
 
@@ -53,6 +57,6 @@ Salvate le impostazioni del gruppo di feature. Quando siete pronti per iniziare 
 
 * [Creare un gruppo di funzioni](create-a-feature-group.md)
 * [Impostare un gruppo di funzioni per il rollout graduale](set-feature-group-gradual-rollout.md)
-* [Analytics](analytics.md)
+* [Reporting](analytics.md)
 
 <!-- -->

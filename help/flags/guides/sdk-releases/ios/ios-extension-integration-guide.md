@@ -2,10 +2,10 @@
 title: Guida all’integrazione dell’estensione Experience Rollout per iOS
 description: Scopri come integrare l’estensione Experience Rollout con Adobe Experience Platform Mobile SDK su iOS.
 hide: true
-source-git-commit: fea4d9e87ad8417de9d820ee3556796fba112dc1
+source-git-commit: 35fa45d2a5374dcc47a02bb737f28f24847d7fc6
 workflow-type: tm+mt
-source-wordcount: '929'
-ht-degree: 7%
+source-wordcount: '1116'
+ht-degree: 6%
 
 ---
 
@@ -53,13 +53,17 @@ Assicurati che queste estensioni siano installate nella proprietà mobile di Dat
    | ID set di dati | ID del set di dati di Adobe Experience Platform per i dati dell’evento di analisi |
 
 1. Seleziona **Salva**.
-1. Segui il [processo di pubblicazione](https://experienceleague.adobe.com/it/docs/experience-platform/tags/publish/overview) per aggiornare la configurazione.
+1. Segui il [processo di pubblicazione](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/overview) per aggiornare la configurazione.
 
 ### Ottieni l’ID del file di ambiente {#environment-file-id}
 
 1. Nella tua proprietà mobile, passa a **Ambienti**.
 1. Seleziona l&#39;icona della casella nella colonna **Installa** dell&#39;ambiente.
 1. Nella finestra di dialogo **Istruzioni di installazione per dispositivi mobili**, copia **ID file ambiente**.
+
+>[!IMPORTANT]
+>
+>Nell&#39;ambiente **staging**, aggiungere all&#39;ID del file di ambiente il prefisso `staging/`, ovvero utilizzare `staging/<environmentId>`. In **production**, utilizza direttamente l&#39;ID file dell&#39;ambiente.
 
 ## Aggiungere l’estensione Experience Rollout all’app {#add-to-app}
 
@@ -231,6 +235,15 @@ AEPFeatureEvaluationContext *ctx = [[[AEPFeatureEvaluationContextBuilder builder
 | `platform` | Identificatore della piattaforma | `["IOS"]` |
 | `appVersion` | Versione applicazione | `["3.0.0"]` |
 | `deviceType` | Tipo di dispositivo | `["phone"]`, `["tablet"]` |
+
+## Concetti chiave per la valutazione delle feature {#key-concepts}
+
+Tieni presente quanto segue durante l’implementazione dei gate delle funzioni nell’app:
+
+* **Passare i valori degli attributi, non le etichette di visualizzazione.** I valori degli attributi di contesto sono **con distinzione tra maiuscole e minuscole**. Passa il valore non elaborato inviato dall&#39;app o dal sito Web (ad esempio `"en_US"` o `"IOS"`), non l&#39;etichetta visualizzata nella console.
+* **Valuta a livello di funzionalità (flag).** Anche quando un flag appartiene a un gruppo di funzionalità, chiama sempre l&#39;API con la singola **chiave di funzionalità**. Non esiste alcuna valutazione a livello di gruppo. La risposta restituisce la variante in cui si trovava l’utente.
+* **Non è necessario collegare l&#39;identità a un profilo.** La valutazione viene eseguita in fase di runtime. L’evento di valutazione viene inviato a Customer Journey Analytics indipendentemente dal fatto che l’identità sia collegata a un profilo noto.
+* **Ogni nuovo flag richiede una modifica del codice.** Aggiungi un gate per ogni chiave del flag nel codice. Utilizzare `isFeatureEnabled()` per verificare uno stato di attivazione/disattivazione booleano oppure `getFeature()` per recuperare il payload completo delle funzionalità, inclusa la variante.
 
 ## Documentazione sulle API {#api-reference}
 
