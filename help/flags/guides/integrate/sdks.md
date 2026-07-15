@@ -3,9 +3,9 @@ title: SDK
 description: Scopri l’architettura di SDK in Flags e le estensioni disponibili per AEP Web SDK e AEP Mobile SDK.
 hide: true
 exl-id: 110a440d-b52a-4e1e-a94f-86f9741a223a
-source-git-commit: fea4d9e87ad8417de9d820ee3556796fba112dc1
+source-git-commit: 35fa45d2a5374dcc47a02bb737f28f24847d7fc6
 workflow-type: tm+mt
-source-wordcount: '193'
+source-wordcount: '200'
 ht-degree: 3%
 
 ---
@@ -20,14 +20,18 @@ Tutti gli SDK dei flag condividono la stessa architettura di base:
 
 * **Inizializzazione** - SDK è configurato all&#39;avvio e si registra con il servizio Flags.
 * **Recupero funzionalità**: SDK recupera i dati dei flag di funzionalità e valuta i flag localmente.
-* **Memorizzazione in cache**: SDK memorizza nella cache i dati dei flag di funzionalità e li aggiorna in base a un intervallo di polling configurabile (TTL).
+* **Memorizzazione in cache**: SDK memorizza nella cache i dati dei flag di funzionalità e li aggiorna in base a un intervallo di polling configurabile.
 * **Gestione errori** - Se il servizio non è disponibile, SDK continua a fornire valutazioni dei flag di funzionalità dalla cache locale.
 
 ## SDK disponibili {#available-sdks}
 
 ### AEP Web SDK {#web-sdk}
 
-L’estensione Flags per web si integra con Adobe Experience Platform Web SDK, consentendo la valutazione dei flag nelle applicazioni web.
+L’estensione Flags per web si integra con Adobe Experience Platform Web SDK.
+
+>[!NOTE]
+>
+>Il supporto per Web SDK sarà presto disponibile. Contatta il tuo rappresentante Adobe per ricevere assistenza all’accesso anticipato.
 
 ### Estensione Android {#android-extension}
 

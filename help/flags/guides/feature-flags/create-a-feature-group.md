@@ -3,9 +3,9 @@ title: Creare un gruppo di funzioni
 description: Scopri come creare un gruppo di funzioni in Flag per gestire più flag di funzioni tra le applicazioni del team come una singola unità.
 hide: true
 exl-id: 58148df1-84ee-4a78-a4b4-71f74cd8ce0a
-source-git-commit: fea4d9e87ad8417de9d820ee3556796fba112dc1
+source-git-commit: 35fa45d2a5374dcc47a02bb737f28f24847d7fc6
 workflow-type: tm+mt
-source-wordcount: '438'
+source-wordcount: '520'
 ht-degree: 0%
 
 ---
@@ -60,6 +60,12 @@ Assegna i flag di funzione che saranno controllati da questo gruppo:
 >[!IMPORTANT]
 >
 >Un flag di funzione può essere gestito solo tramite un metodo, direttamente come flag di funzione, attraverso un gruppo di funzioni o attraverso una release. Quando aggiungi un flag di funzione a un gruppo di funzioni, tutti i tipi di pubblico e le percentuali di rollout impostati su tale flag vengono rimossi. I flag di funzioni già assegnati a un’altra versione o a un altro gruppo di funzioni non verranno visualizzati nell’elenco.
+
+>[!IMPORTANT]
+>
+>Quando **rimuovi** un flag di funzionalità da un gruppo di funzionalità, il flag torna allo stato **disabilitato** e il relativo pubblico è **non** ripristinato. Consideralo come un nuovo flag. Un flag **disabled** all&#39;interno di un gruppo valuta sempre `false`. L&#39;abilitazione di un gruppo di funzionalità **non** abilita i relativi flag membro; abilita ogni flag in modo esplicito.
+>
+>I gruppi di funzionalità sono un **livello di gestione**. In fase di runtime si valuta sempre al livello **feature (flag)**, mai a livello di gruppo; la risposta include la variante in cui si trovava l&#39;utente.
 
 ## Passaggio 5: pianificazione (facoltativo) {#schedule}
 

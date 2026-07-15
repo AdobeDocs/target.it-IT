@@ -3,10 +3,10 @@ title: Impostare un gruppo di funzioni per il rollout graduale
 description: Scopri come configurare un rollout graduale basato su percentuali per un gruppo di funzioni in Flag.
 hide: true
 exl-id: fcf187f1-2f33-4e3a-b740-985d5bc0bcdc
-source-git-commit: fea4d9e87ad8417de9d820ee3556796fba112dc1
+source-git-commit: 35fa45d2a5374dcc47a02bb737f28f24847d7fc6
 workflow-type: tm+mt
-source-wordcount: '164'
-ht-degree: 3%
+source-wordcount: '190'
+ht-degree: 2%
 
 ---
 
@@ -16,7 +16,7 @@ Il rollout percentuale per un gruppo di funzionalità è configurato nella sched
 
 ## Come funziona {#how-it-works}
 
-Quando imposti un rollout percentuale (ad esempio, 60%), tale percentuale del pubblico definito viene esposta al gruppo di funzioni. Il restante 40% viene inserito nel **gruppo di controllo**, che riceve il comportamento predefinito.
+Quando imposti un rollout percentuale (ad esempio, 60%), tale percentuale del pubblico definito viene esposta al gruppo di funzioni. Il rollout percentuale è **obbligatorio** e il valore predefinito è **100%** (il gruppo di funzionalità viene distribuito all&#39;intero pubblico corrispondente). Puoi regolarlo in **1% incrementi**. La percentuale rimanente viene inserita nel **gruppo di controllo**, che riceve il comportamento predefinito.
 
 Se hai configurato più varianti (per il test A/B), la percentuale di esposizione viene distribuita equamente tra le varianti. Ad esempio, un’esposizione del 60% con tre varianti risulta del 20% per variante, con il 40% nel gruppo di controllo.
 

@@ -3,10 +3,10 @@ audience: user
 user-guide-title: Flag
 user-guide-description: Scopri come utilizzare i flag in Adobe Target per gestire i flag di funzioni, i rollout controllati e le versioni mirate nelle applicazioni.
 hide: true
-source-git-commit: fea4d9e87ad8417de9d820ee3556796fba112dc1
+source-git-commit: 35fa45d2a5374dcc47a02bb737f28f24847d7fc6
 workflow-type: tm+mt
-source-wordcount: '170'
-ht-degree: 8%
+source-wordcount: '169'
+ht-degree: 9%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 8%
    + [Rollout graduale](concepts/gradual-rollout.md)
 + Guida introduttiva alla console {#console}
    + [Accedi ai flag](guides/console/log-in-to-the-console.md)
-   + [Seleziona la sandbox](guides/console/environments-overview.md)
+   + [Panoramica sugli ambienti](guides/console/environments-overview.md)
    + [Richiedi accesso](guides/console/request-access.md)
 + Applicazioni {#applications}
    + [Gestire le applicazioni](guides/applications/manage-applications.md)
@@ -46,7 +46,7 @@ ht-degree: 8%
    + [Creare un gruppo di funzioni](guides/feature-flags/create-a-feature-group.md)
    + [Impostare un gruppo di funzioni per il rollout graduale](guides/feature-flags/set-feature-group-gradual-rollout.md)
    + [Test A/B con flag di funzione](guides/feature-flags/a-b-testing.md)
-   + [Analytics](guides/feature-flags/analytics.md)
+   + [Generazione di rapporti](guides/feature-flags/analytics.md)
 + Criteri di pubblico {#audience}
    + [Pubblico nei flag di funzione e nei gruppi di funzioni](guides/audience/audience-in-feature-flags-and-feature-groups.md)
    + [Usa contesto nelle regole del pubblico](guides/audience/using-context-in-audience-rules.md)

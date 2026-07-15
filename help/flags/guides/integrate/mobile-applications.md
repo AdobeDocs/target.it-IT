@@ -1,30 +1,29 @@
 ---
 title: App mobili
-description: Scopri come integrare i flag in un’app mobile utilizzando il SDK per dispositivi mobili.
+description: Scopri come integrare i flag in un’app mobile utilizzando le estensioni AEP Mobile SDK per Android e iOS.
 hide: true
 exl-id: 27a43994-25e7-4a2c-b01c-ae98d089413d
-source-git-commit: fea4d9e87ad8417de9d820ee3556796fba112dc1
+source-git-commit: 045bd3321fd4041fe7f723ce300a400102ed7274
 workflow-type: tm+mt
-source-wordcount: '65'
-ht-degree: 9%
+source-wordcount: '59'
+ht-degree: 11%
 
 ---
 
 # Applicazioni mobili {#mobile-applications}
 
-Le applicazioni mobili si integrano con Flags tramite il SDK mobile.
+Le applicazioni mobili si integrano con Flags tramite le estensioni AEP Mobile SDK per Android e iOS.
 
->[!NOTE]
->
->La documentazione di Mobile SDK è in fase di preparazione e sarà disponibile a breve. Contatta il tuo rappresentante Adobe per ricevere assistenza all’accesso anticipato.
+## Guide all’integrazione {#integration-guides}
 
-## Passaggi dell’integrazione {#integration-steps}
+Segui la guida per la tua piattaforma:
 
-Per informazioni dettagliate sul processo di integrazione, vedere [Passaggi di integrazione](integration-steps.md).
+* [guida all’integrazione delle estensioni Android](../sdk-releases/android/android-extension-integration-guide.md)
+* [guida all’integrazione delle estensioni iOS](../sdk-releases/ios/ios-extension-integration-guide.md)
 
 ## Vedi anche {#see-also}
 
-* [Passaggi dell’integrazione](integration-steps.md)
 * [Guida all’avvio](startup-guide.md)
+* [SDK](sdks.md)
 
 <!-- -->

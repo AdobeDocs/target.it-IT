@@ -1,42 +1,47 @@
 ---
-title: Analytics
-description: Scopri come abilitare e utilizzare la dashboard di analisi integrata in Flag per monitorare le prestazioni dei flag di funzione e misurare l’impatto del rollout.
+title: Reporting
+description: Scopri come visualizzare il reporting dei flag di funzione in Flag utilizzando Customer Journey Analytics.
 hide: true
 exl-id: edddca99-f263-461b-a16f-b46ee7c15f6c
-source-git-commit: fea4d9e87ad8417de9d820ee3556796fba112dc1
+source-git-commit: 35fa45d2a5374dcc47a02bb737f28f24847d7fc6
 workflow-type: tm+mt
-source-wordcount: '311'
+source-wordcount: '269'
 ht-degree: 1%
 
 ---
 
-# Analytics {#analytics}
+# Generazione di rapporti {#reporting}
 
-Flag fornisce analisi integrate per flag di funzione, gruppi di funzioni, gruppi di funzioni incrociati e versioni. Utilizza il dashboard di Analytics per comprendere quanti utenti partecipano al rollout e come si confrontano le varianti e i gruppi di controllo. Puoi anche esportare i dati dei flag nell’ambiente di reporting preferito per l’analisi insieme agli altri dati di Adobe.
+I flag consentono la generazione di rapporti tramite **Customer Journey Analytics (CJA)**. Non è presente alcuna scheda Risultati o Report nella console. Un pulsante **Report** su ogni flag di funzionalità o gruppo di funzionalità apre un dashboard CJA con ambito per l&#39;elemento.
 
-## Abilita analisi {#enable}
+## Prerequisiti {#prerequisites}
 
-Analytics deve essere abilitato a due livelli:
+Prima di poter visualizzare i rapporti, assicurati che:
 
-1. **Livello applicazione** - Supporto dei flag di contatto per abilitare l&#39;analisi per l&#39;applicazione.
-2. **Livello flag di funzionalità**: una volta che Analytics è abilitato per l&#39;applicazione, selezionare la casella di controllo **Abilita analisi** nella scheda **Dettagli di base** di ogni flag di funzionalità che si desidera monitorare.
+1. La creazione di report è impostata per l&#39;applicazione. Vedere [Configurare la creazione di report con Customer Journey Analytics](#setup).
+1. Il flag di funzione o il gruppo di funzioni è attivo e contiene dati accumulati.
 
->[!NOTE]
->
->Per impostazione predefinita, Analytics può essere abilitato per un massimo di 20 flag di funzione per applicazione. Se devi aumentare questo limite, contatta l’assistenza.
+## Visualizzare un rapporto {#view-report}
 
-## Visualizzare la dashboard di Analytics {#dashboard}
+Per aprire un report per un flag di funzione o un gruppo di funzioni:
 
-Una volta abilitata l’analisi, tutti i flag di funzione, i gruppi di funzioni e le versioni dell’applicazione avvieranno il tracciamento dei dati. Accedi al dashboard selezionando **Risultati** sul flag di funzionalità, sul gruppo di funzionalità o sulla versione che desideri analizzare.
+1. Passa al flag di funzione o al gruppo di funzioni nella console.
+1. Seleziona **Report**.
 
-Il dashboard visualizza:
+Viene visualizzato un dashboard di Customer Journey Analytics con ambito, in cui vengono visualizzati i dati per tale flag o gruppo di funzioni. Il dashboard include:
 
 * **Partecipanti** — Numero totale di utenti qualificati per la funzionalità (combinazione variante + gruppo di controllo)
 * **Gruppo di controllo** — Numero di utenti assegnati al gruppo di controllo (utenti che hanno ricevuto l&#39;esperienza predefinita)
-* **Grafico a livello di giorno**: grafici a linee giornalieri che mostrano l&#39;iscrizione alla variante e al gruppo di controllo nel tempo; gli indicatori indicano quando la configurazione del flag di funzione è stata aggiornata
-* **Analisi a livello di variante** — Conteggio cumulativo degli utenti iscritti al gruppo di controllo e a ogni variante
+* **Suddivisione variante** — Numero cumulativo di utenti iscritti a ogni variante e al gruppo di controllo
+* **Iscrizione giornaliera**: grafici a livello di giorno che mostrano l&#39;iscrizione in ogni variante e nel tempo nel gruppo di controllo
 
-Per gruppi di funzioni e versioni, seleziona l&#39;elenco a discesa **Risultati** per scegliere un&#39;applicazione e visualizzare le analisi per tale applicazione. Analytics è disponibile solo per le applicazioni per le quali è abilitato.
+## Configurare la generazione di rapporti con Customer Journey Analytics {#setup}
+
+Il reporting richiede un set di dati Customer Journey Analytics connesso all’applicazione Flags. Per abilitare il reporting per la tua applicazione, contatta il supporto dei flag o il tuo rappresentante Adobe.
+
+>[!NOTE]
+>
+>L’identità passata nella richiesta di funzione non deve essere collegata a un profilo. La valutazione viene eseguita in fase di runtime e l’evento viene inviato a Customer Journey Analytics.
 
 ## Vedi anche {#see-also}
 

@@ -3,10 +3,10 @@ title: Passaggi dell’integrazione
 description: Segui i passaggi di integrazione per il tipo di applicazione per collegare i flag al servizio web, all’app web o mobile o all’applicazione desktop utilizzando gli SDK disponibili.
 hide: true
 exl-id: d584bdf4-9031-40e7-a7f0-807c619bbba1
-source-git-commit: fea4d9e87ad8417de9d820ee3556796fba112dc1
+source-git-commit: 35fa45d2a5374dcc47a02bb737f28f24847d7fc6
 workflow-type: tm+mt
-source-wordcount: '160'
-ht-degree: 4%
+source-wordcount: '167'
+ht-degree: 6%
 
 ---
 
@@ -22,13 +22,20 @@ I servizi back-end si integrano utilizzando un SDK lato server. Supporto dei con
 >
 >La documentazione SDK lato server è in fase di preparazione e sarà presto disponibile. Contatta il tuo rappresentante Adobe per ricevere assistenza all’accesso anticipato.
 
-## Applicazioni web e mobili {#web-mobile}
+## Applicazioni mobili {#mobile}
 
-Le applicazioni web e mobili si integrano rispettivamente tramite web SDK e mobile SDK.
+Le applicazioni mobili si integrano tramite le estensioni AEP Mobile SDK:
+
+* [guida all’integrazione delle estensioni Android](../sdk-releases/android/android-extension-integration-guide.md)
+* [guida all’integrazione delle estensioni iOS](../sdk-releases/ios/ios-extension-integration-guide.md)
+
+## Applicazioni web {#web}
+
+Il supporto per le applicazioni web sarà presto disponibile.
 
 >[!NOTE]
 >
->La documentazione relativa al SDK web e al SDK mobile è in fase di preparazione e sarà presto disponibile. Contatta il tuo rappresentante Adobe per ricevere assistenza all’accesso anticipato.
+>La documentazione di Web SDK è in fase di preparazione e sarà presto disponibile. Contatta il tuo rappresentante Adobe per ricevere assistenza all’accesso anticipato.
 
 ## Applicazioni desktop {#desktop}
 
