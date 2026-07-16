@@ -18,10 +18,10 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 062337cc6563f52ce505cc3085cc2af5ec4457b6
+source-git-commit: 65b4878ba8858b105cbebe536b55a9e1775478d3
 workflow-type: tm+mt
-source-wordcount: 465
-ht-degree: 58%
+source-wordcount: 573
+ht-degree: 47%
 
 ---
 
@@ -30,6 +30,34 @@ ht-degree: 58%
 Esplora le funzioni, i miglioramenti e le correzioni più recenti in [!DNL Adobe Target]. Queste note sulla versione descrivono anche gli aggiornamenti alle API [!DNL Target], agli SDK, a [!DNL Adobe Experience Platform Web SDK], at.js e ad altri componenti della piattaforma, se applicabili.
 
 I codici dei problemi tra parentesi sono per uso interno di [!DNL Adobe].
+
+## [!DNL Target Standard/Premium] 26.7.2 (16 luglio 2026)
+
+**Attività**
+
++++Vedi i dettagli
+
+* **Informazioni obiettivo errate nella pagina [!UICONTROL Panoramica attività].** È stato risolto un problema a causa del quale la pagina [!UICONTROL Panoramica attività] per [!DNL Automated Personalization] attività mostrava obiettivi aggiuntivi invece dell&#39;obiettivo di ottimizzazione. (TGT-55553)
+
+* **Schermata non reattiva durante la navigazione nelle pagine in modalità [!UICONTROL Sfoglia].** È stato risolto un problema che causava la mancata risposta della schermata durante la navigazione tra le pagine in modalità [!UICONTROL Sfoglia]. (TGT-55565)
+
++++
+
+**Home page**
+
++++Vedi i dettagli
+
+* **Modifica dell&#39;interfaccia utente per [!UICONTROL Principali esecutori] e [!UICONTROL Salvataggi].** È stata aggiornata l&#39;interfaccia utente per i migliori esecutori e consente di salvare l&#39;esperienza. (TGT-54975)
+
++++
+
+**Tipi di pubblico**
+
++++Vedi i dettagli
+
+* **Stringhe non localizzate nella finestra di dialogo [!UICONTROL Crea script di profilo].** È stato risolto un problema che impediva la localizzazione delle stringhe nella finestra di dialogo [!UICONTROL Crea script profilo]. (TGT-51527)
+
++++
 
 ## [!DNL Target Standard/Premium] 26.7.1 (9 luglio 2026)
 
