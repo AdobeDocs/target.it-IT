@@ -3,9 +3,9 @@ title: Creare un gruppo di funzioni
 description: Scopri come creare un gruppo di funzioni in Flag per gestire più flag di funzioni tra le applicazioni del team come una singola unità.
 hide: true
 exl-id: 58148df1-84ee-4a78-a4b4-71f74cd8ce0a
-source-git-commit: 35fa45d2a5374dcc47a02bb737f28f24847d7fc6
+source-git-commit: eeba7af62ab101e687852ce993a001832ce4a83b
 workflow-type: tm+mt
-source-wordcount: '520'
+source-wordcount: '464'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Prima di creare un gruppo di feature, effettuate le seguenti operazioni:
 
 * Si dispone dell&#39;accesso alla console Flag. Vedere [Accedere alla console](../console/log-in-to-the-console.md)
 * L&#39;applicazione è stata integrata. Vedere [Eseguire l&#39;installazione dell&#39;applicazione](../applications/onboard-your-application.md)
-* Hai il ruolo **Sviluppatore** o **Proprietario versione prodotto**
+* Hai il ruolo **Proprietario versione prodotto**
 * Sono stati creati i flag di funzionalità che si desidera aggiungere al gruppo. Vedere [Creare il primo flag di funzionalità](create-your-first-feature-flag.md)
 
 Per un&#39;introduzione ai gruppi di funzionalità, vedere [Gruppi di funzionalità per controllare più funzionalità](../../concepts/feature-groups-to-control-multiple-features.md).
@@ -27,7 +27,7 @@ Per un&#39;introduzione ai gruppi di funzionalità, vedere [Gruppi di funzionali
 
 Apri la console e inizia un nuovo gruppo di funzioni:
 
-1. Accedi alla console Flag e passa a **Test delle funzionalità > Gruppi di funzionalità**.
+1. Accedi alla **console Flag**, vai al pannello a sinistra e seleziona **Gruppi di funzioni**.
 2. Selezionare **Nuovo gruppo di caratteristiche**.
 
 ## Passaggio 2: dettagli di base {#basic-details}
@@ -44,10 +44,6 @@ Definisci chi riceverà le funzionalità di questo gruppo:
 
 1. Nella scheda **Pubblico**, aggiungi i criteri di pubblico per definire quali utenti ricevono la funzione.
 2. In **Applicazioni**, aggiungi una o più applicazioni dal tuo team. I gruppi di funzioni possono estendersi su più applicazioni a condizione che appartengano tutti allo stesso team.
-
->[!NOTE]
->
->Il ruolo **Sviluppatore** è in modalità sandbox. Aggiungi il tuo ID utente in **Pubblico > Profilo > ID utente** per testarlo privatamente. Per eseguire il targeting degli utenti esterni, è necessario il ruolo **Proprietario versione prodotto**.
 
 ## Passaggio 4: Caratteristiche {#features}
 
@@ -66,10 +62,6 @@ Assegna i flag di funzione che saranno controllati da questo gruppo:
 >Quando **rimuovi** un flag di funzionalità da un gruppo di funzionalità, il flag torna allo stato **disabilitato** e il relativo pubblico è **non** ripristinato. Consideralo come un nuovo flag. Un flag **disabled** all&#39;interno di un gruppo valuta sempre `false`. L&#39;abilitazione di un gruppo di funzionalità **non** abilita i relativi flag membro; abilita ogni flag in modo esplicito.
 >
 >I gruppi di funzionalità sono un **livello di gestione**. In fase di runtime si valuta sempre al livello **feature (flag)**, mai a livello di gruppo; la risposta include la variante in cui si trovava l&#39;utente.
-
-## Passaggio 5: pianificazione (facoltativo) {#schedule}
-
-È possibile pianificare l&#39;attivazione del gruppo di funzionalità in una data e un&#39;ora future utilizzando l&#39;opzione **Pianifica** nelle impostazioni del gruppo di funzionalità.
 
 ## Vedi anche {#see-also}
 

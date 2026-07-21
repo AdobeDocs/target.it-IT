@@ -3,9 +3,9 @@ title: Richiedi rilascio
 description: Scopri come richiedere una nuova versione coordinata in Flag e quali informazioni fornire.
 hide: true
 exl-id: 8eee84b2-fbd5-4713-90ac-92fd7b74c163
-source-git-commit: fea4d9e87ad8417de9d820ee3556796fba112dc1
+source-git-commit: eeba7af62ab101e687852ce993a001832ce4a83b
 workflow-type: tm+mt
-source-wordcount: '252'
+source-wordcount: '251'
 ht-degree: 2%
 
 ---
@@ -14,12 +14,12 @@ ht-degree: 2%
 
 ## Prerequisiti {#prerequisites}
 
-* Hai il ruolo di **Release Manager** - vedi <!-- broken link[User roles](../teams/user-roles.md) -->
+* Hai il ruolo **Responsabile della versione**
 * L&#39;applicazione è stata integrata. Vedere [Eseguire l&#39;installazione dell&#39;applicazione](../applications/onboard-your-application.md)
 
 >[!TIP]
 >
->Prima di richiedere una versione, rivedere <!--[Releases and cross-team feature groups](releases-and-cross-team-feature-groups.md)-->. Un gruppo di funzioni cross-team può soddisfare le tue esigenze con meno costi comuni: è self-service e supporta un targeting più ricco del pubblico.
+>Prima di richiedere una versione, considera se un gruppo di funzioni cross-team soddisfa le tue esigenze con meno costi comuni: è self-service e supporta un targeting più ricco del pubblico.
 
 ## Inviare una richiesta di supporto {#submit}
 

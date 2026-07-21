@@ -3,9 +3,9 @@ title: Perché utilizzare i flag
 description: Scopri i casi d’uso principali per i flag in Adobe Target, dal test selettivo delle funzioni alle versioni coordinate con più applicazioni.
 hide: true
 exl-id: c39c6b34-2024-4c38-b2f2-a9b58f5eff63
-source-git-commit: fea4d9e87ad8417de9d820ee3556796fba112dc1
+source-git-commit: eeba7af62ab101e687852ce993a001832ce4a83b
 workflow-type: tm+mt
-source-wordcount: '254'
+source-wordcount: '252'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ Apri progressivamente una nuova funzione: 1%, 10%, 50%, quindi 100% degli utenti
 Effettua un rollout in modo incrementale per evitare picchi di traffico improvvisi sui servizi back-end, anziché esporre tutti gli utenti a una nuova funzione contemporaneamente.
 
 **Rilasci coordinati di più applicazioni**
-Abilita una funzione contemporaneamente in più applicazioni e team per un set specifico di utenti. I flag garantiscono coerenza sull’intera superficie di rilascio.
+Abilita una funzione contemporaneamente in più applicazioni per un set specifico di utenti. I flag garantiscono coerenza sull’intera superficie di rilascio.
 
 **Versioni differite**
 Distribuisci il codice in produzione in anticipo, quindi attiva la funzione in un momento preciso, ad esempio all’inizio di un evento di avvio del prodotto, senza alcuna modifica del codice dell’ultimo minuto.

@@ -3,10 +3,10 @@ title: Applicazioni web
 description: Scopri come integrare i flag in un’applicazione web utilizzando il web SDK.
 hide: true
 exl-id: 9b5d744a-263d-4b10-8745-2891f111519f
-source-git-commit: fea4d9e87ad8417de9d820ee3556796fba112dc1
+source-git-commit: eeba7af62ab101e687852ce993a001832ce4a83b
 workflow-type: tm+mt
-source-wordcount: '65'
-ht-degree: 9%
+source-wordcount: '41'
+ht-degree: 14%
 
 ---
 
@@ -14,17 +14,14 @@ ht-degree: 9%
 
 Le applicazioni web si integrano con i flag tramite il web SDK.
 
->[!NOTE]
->
->La documentazione di Web SDK è in fase di preparazione e sarà presto disponibile. Contatta il tuo rappresentante Adobe per ricevere assistenza all’accesso anticipato.
+## Guida all’integrazione {#integration-steps}
 
-## Passaggi dell’integrazione {#integration-steps}
+Segui la guida per il web:
 
-Per informazioni dettagliate sul processo di integrazione, vedere [Passaggi di integrazione](integration-steps.md).
+* [Guida all’integrazione delle estensioni web](../sdk-releases/web/web-extension-integration-guide.md)
 
 ## Vedi anche {#see-also}
 
-* [Passaggi dell’integrazione](integration-steps.md)
 * [Guida all’avvio](startup-guide.md)
 
 <!-- -->

@@ -3,9 +3,9 @@ title: Introduzione ai flag
 description: Scopri come i flag in Adobe Target forniscono un sistema di rilascio controllato per distribuire progressivamente le funzioni a tipi di pubblico mirati.
 hide: true
 exl-id: befe7899-096d-4f74-a5a2-35b1fc3cbc58
-source-git-commit: fea4d9e87ad8417de9d820ee3556796fba112dc1
+source-git-commit: eeba7af62ab101e687852ce993a001832ce4a83b
 workflow-type: tm+mt
-source-wordcount: '373'
+source-wordcount: '340'
 ht-degree: 0%
 
 ---
@@ -36,11 +36,9 @@ Flags è una piattaforma di gestione delle funzioni che fornisce:
 
 * **Flag di funzionalità** — Attiva o disattiva qualsiasi funzionalità in fase di esecuzione per un pubblico di destinazione, senza ridistribuire il codice.
 
-* **Destinazione pubblico**: controllo che visualizza una funzionalità utilizzando dati del profilo utente, regole basate su percentuali, indirizzo e-mail, dominio e-mail, indirizzo IP o attributi contestuali.
+* **Destinazione pubblico**: controllo che visualizza una caratteristica utilizzando attributi contestuali.
 
 * **Gruppi di funzioni**: raggruppamento di più flag di funzioni correlati in più applicazioni e gestione in un&#39;unica unità, per garantire che lo stesso pubblico veda un&#39;esperienza coerente.
-
-* **Versioni**: coordina rollout di grandi dimensioni tra team raggruppando i flag di funzionalità di più team e applicazioni in un unico evento di rilascio.
 
 * **Rollout graduali**: distribuzione delle funzionalità in fasi incrementale per ridurre i rischi, raccogliere feedback e gestire il carico di back-end.
 

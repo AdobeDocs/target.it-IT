@@ -4,7 +4,7 @@ description: Scopri come utilizzare i flag in Adobe Target per distribuire le fu
 hide: true
 index: false
 exl-id: c400d75d-d928-4cf6-a094-1a2f443389f0
-source-git-commit: fea4d9e87ad8417de9d820ee3556796fba112dc1
+source-git-commit: 9c6f2b72f964b06da51e1f3655545147d7240a93
 workflow-type: tm+mt
 source-wordcount: '358'
 ht-degree: 1%
@@ -39,14 +39,10 @@ Il recupero del valore dai flag inizia con tre passaggi:
 
 1. **Crea e pubblica un contrassegno**. Segui la [guida Crea il tuo primo contrassegno di funzionalità](guides/feature-flags/create-your-first-feature-flag.md) per definire un contrassegno, impostare il pubblico iniziale e pubblicarlo nell&#39;ambiente.
 
-1. **Integrare con l&#39;applicazione**: connetti l&#39;app tramite AEP Web SDK o AEP Mobile SDK in modo che possa recuperare e applicare i flag in fase di esecuzione. Inizia con [passaggi di integrazione](guides/integrate/integration-steps.md) per il tipo di applicazione.
+1. **Integrare con l&#39;applicazione**: connetti l&#39;app tramite AEP Web SDK o AEP Mobile SDK in modo che possa recuperare e applicare i flag in fase di esecuzione. Inizia con la [guida all&#39;integrazione](guides/integrate/sdks.md) per il tipo di applicazione.
 
 Una volta che il primo flag è attivo, puoi perfezionarne il pubblico, configurare un rollout graduale e promuoverlo dal rollout salvato a quello completo.
 
 ## Hai bisogno di aiuto?
 
 Se qualcosa non si comporta come previsto, contatta il rappresentante Adobe per richiedere assistenza.
-
-<!-- 
-Bob was here. Again.
--->
