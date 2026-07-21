@@ -3,10 +3,10 @@ title: Test A/B con flag di funzione
 description: Scopri come eseguire i test A/B utilizzando i gruppi di funzioni in Flag configurando più varianti per un set di flag di funzione.
 hide: true
 exl-id: bb849049-229c-40ff-bbfe-7996f868bcc3
-source-git-commit: 35fa45d2a5374dcc47a02bb737f28f24847d7fc6
+source-git-commit: eeba7af62ab101e687852ce993a001832ce4a83b
 workflow-type: tm+mt
-source-wordcount: '420'
-ht-degree: 0%
+source-wordcount: '391'
+ht-degree: 1%
 
 ---
 
@@ -18,7 +18,7 @@ I test A/B nei flag vengono eseguiti utilizzando **gruppi di funzionalità**. Co
 
 * Accesso alla console. Vedere [Accesso alla console](../console/log-in-to-the-console.md)
 * Appartieni a un team e la tua applicazione è integrata
-* Hai il ruolo **Sviluppatore** o **Proprietario versione prodotto**
+* Hai il ruolo **Proprietario versione prodotto**
 * Sono stati creati i flag di funzionalità da testare. Vedere [Creare il primo flag di funzionalità](create-your-first-feature-flag.md)
 
 ## Passaggio 1: creare un gruppo di funzioni con più varianti {#create}
@@ -37,10 +37,6 @@ I test A/B nei flag vengono eseguiti utilizzando **gruppi di funzionalità**. Co
 
 Nella scheda **Pubblico**, aggiungi i criteri di pubblico e seleziona le applicazioni da includere. I gruppi di funzioni possono essere distribuiti su più applicazioni all’interno dello stesso team.
 
->[!NOTE]
->
->Per eseguire il targeting degli utenti esterni in un test A/B, è necessario avere il ruolo **Proprietario della versione del prodotto**. Il ruolo Sviluppatore è in modalità sandbox ed è limitato ai test privati.
-
 ## Passaggio 3: aggiungere funzioni per variante {#features}
 
 Nella scheda **Funzioni**, ogni variante ha la propria scheda. Aggiungi i flag di funzione appropriati a ogni variante per definire le diverse esperienze che desideri confrontare.
@@ -57,6 +53,6 @@ Salvate le impostazioni del gruppo di feature. Quando siete pronti per iniziare 
 
 * [Creare un gruppo di funzioni](create-a-feature-group.md)
 * [Impostare un gruppo di funzioni per il rollout graduale](set-feature-group-gradual-rollout.md)
-* [Reporting](analytics.md)
+* [Reporting](reporting.md)
 
 <!-- -->

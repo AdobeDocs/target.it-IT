@@ -3,9 +3,9 @@ title: Importa flag di funzione
 description: Scopri come importare i flag di funzioni da una sandbox a un’altra in Flag per evitare di ricreare manualmente le configurazioni dei flag.
 hide: true
 exl-id: 37c84d75-a565-4202-8c99-f630e05b6bb6
-source-git-commit: fea4d9e87ad8417de9d820ee3556796fba112dc1
+source-git-commit: eeba7af62ab101e687852ce993a001832ce4a83b
 workflow-type: tm+mt
-source-wordcount: '304'
+source-wordcount: '313'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,9 @@ Flag consente di importare flag di funzioni da una sandbox (ad esempio, sandbox 
 
 ## Passaggio 1: passare alla sandbox e all’applicazione di destinazione {#step-1}
 
-Accedi alla console per la sandbox **destinazione**, la sandbox in cui desideri importare i flag *in*. Selezionare l&#39;applicazione in cui si desidera importare i flag dal menu a discesa dell&#39;applicazione nella pagina Flag funzione.
+Accedi alla console per la sandbox **destinazione**, la sandbox in cui desideri importare i flag. Fai clic su **Importa flag di funzionalità**, quindi seleziona l&#39;applicazione in cui desideri importare i flag dal menu a discesa dell&#39;applicazione.
+
+![Pulsante Importa contrassegni funzionalità nella pagina Contrassegni funzionalità](assets/import-feature-flags.png)
 
 >[!IMPORTANT]
 >

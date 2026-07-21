@@ -1,56 +1,53 @@
 ---
-title: Guida all’integrazione dell’estensione Experience Rollout per iOS
-description: Scopri come integrare l’estensione Experience Rollout con Adobe Experience Platform Mobile SDK su iOS.
+title: Guida all’integrazione di Flag per l’estensione iOS
+description: Scopri come integrare l’estensione Flags con Adobe Experience Platform Mobile SDK su iOS.
 hide: true
-source-git-commit: 35fa45d2a5374dcc47a02bb737f28f24847d7fc6
+source-git-commit: eeba7af62ab101e687852ce993a001832ce4a83b
 workflow-type: tm+mt
-source-wordcount: '1116'
-ht-degree: 6%
+source-wordcount: '1035'
+ht-degree: 5%
 
 ---
 
-# Estensione Experience Rollout per iOS {#ios-extension-integration-guide}
+# Estensione flag per iOS {#ios-extension-integration-guide}
 
-Questa guida descrive come integrare l’estensione Experience Rollout con Adobe Experience Platform Mobile SDK su iOS.
+Questa guida descrive come integrare l’estensione Flags con Adobe Experience Platform Mobile SDK su iOS.
 
 ## Prerequisiti {#prerequisites}
 
-Prima di implementare l’estensione Experience Rollout, assicurati di disporre di:
+Prima di implementare l’estensione Flags, assicurati di disporre di:
 
 * Una proprietà mobile configurata in [Raccolta dati di Adobe Experience Platform](https://experience.adobe.com/#/data-collection)
-* L&#39;estensione Experience Rollout installata e configurata nella proprietà mobile
+* L&#39;estensione Flags installata e configurata nella proprietà mobile
 * Un ID organizzazione Adobe Experience Cloud
 * Destinazione minima di distribuzione: iOS 12.0
-* Xcode 14.1 o versione successiva
 
 ## Dipendenze delle estensioni {#extension-dependencies}
 
-L’estensione Experience Rollout richiede le seguenti estensioni Adobe Experience Platform:
+L&#39;estensione Flags richiede le seguenti estensioni Adobe Experience Platform:
 
 | Estensione | Descrizione | Obbligatorio |
 |---|---|---|
 | Core mobile | Offre funzionalità di base, tra cui configurazione ed elaborazione degli eventi | Sì |
 | Ciclo di vita | Raccoglie i dati del ciclo di vita dell&#39;applicazione e della sessione per Mobile SDK | Sì |
 | Edge Network | Abilita la comunicazione con Adobe Experience Platform Edge Network | Sì |
-| Edge Identity | Gestisce l’identità utente per Edge Network | Sì |
+| Edge Identity | Abilita la gestione delle identità da un’app mobile quando si utilizza l’estensione Edge Network | Sì |
 
 Assicurati che queste estensioni siano installate nella proprietà mobile di Data Collection e incluse nelle dipendenze dell’app.
 
-## Configurare l’estensione Experience Rollout in Raccolta dati {#configure}
+## Configurare l’estensione dei flag in Raccolta dati {#configure}
 
 ### Installare l’estensione {#install-extension}
 
 1. Accedi a [Raccolta dati Adobe Experience Platform](https://experience.adobe.com/#/data-collection).
 1. Seleziona la scheda **Tag** e scegli la tua proprietà mobile.
 1. Passa a **Estensioni** > **Catalogo**.
-1. Cerca **l&#39;estensione di rollout esperienza** e seleziona **Installa**.
+1. Cerca **Estensione flag** e seleziona **Installa**.
 1. Configura le impostazioni dell&#39;estensione:
 
    | Impostazione | Descrizione |
    |---|---|
-   | Sandbox | La sandbox di Adobe Experience Platform contenente la configurazione di Rollout esperienza |
-   | ID applicazione | Un identificatore univoco per l’applicazione in Experience Rollout |
-   | ID set di dati | ID del set di dati di Adobe Experience Platform per i dati dell’evento di analisi |
+   | ID applicazione | Un identificatore univoco per l’applicazione nei flag |
 
 1. Seleziona **Salva**.
 1. Segui il [processo di pubblicazione](https://experienceleague.adobe.com/it/docs/experience-platform/tags/publish/overview) per aggiornare la configurazione.
@@ -61,84 +58,109 @@ Assicurati che queste estensioni siano installate nella proprietà mobile di Dat
 1. Seleziona l&#39;icona della casella nella colonna **Installa** dell&#39;ambiente.
 1. Nella finestra di dialogo **Istruzioni di installazione per dispositivi mobili**, copia **ID file ambiente**.
 
->[!IMPORTANT]
->
->Nell&#39;ambiente **staging**, aggiungere all&#39;ID del file di ambiente il prefisso `staging/`, ovvero utilizzare `staging/<environmentId>`. In **production**, utilizza direttamente l&#39;ID file dell&#39;ambiente.
-
-## Aggiungere l’estensione Experience Rollout all’app {#add-to-app}
+## Aggiungere l’estensione Flags all’app {#add-to-app}
 
 ### Aggiungi dipendenze {#add-dependencies}
 
-Aggiungi le dipendenze di Mobile SDK al progetto. L&#39;estensione Experience Rollout richiede Mobile Core e le estensioni relative ad Edge elencate di seguito.
+Aggiungi le dipendenze di Mobile SDK al progetto. L&#39;estensione Flags richiede Mobile Core e le estensioni relative ad Edge elencate di seguito.
 
-#### Utilizzo di Gestione pacchetti Swift (consigliato) {#swift-package-manager}
+#### Utilizzo di Gestione pacchetti Swift {#swift-package-manager}
 
-1. In Xcode, passa a **File** > **Aggiungi dipendenze pacchetto**.
-1. Immetti l’URL dell’archivio di Adobe Experience Platform Mobile SDK:
+In Xcode, seleziona **File** > **Aggiungi pacchetti** e aggiungi i seguenti URL del pacchetto Adobe Experience Platform Mobile SDK:
 
-   ```
-   https://github.com/adobe/aepsdk-core-ios
-   ```
+| Pacchetto | URL |
+|---|---|
+| AEPCore | `https://github.com/adobe/aepsdk-core-ios.git` |
+| AEPdge | `https://github.com/adobe/aepsdk-edge-ios.git` |
+| AEPEdgeIdentity | `https://github.com/adobe/aepsdk-edgeidentity-ios.git` |
 
-1. Aggiungi i seguenti pacchetti:
+Quando richiesto, seleziona le seguenti librerie da aggiungere alla destinazione:
 
-   | Pacchetto | Archivio |
-   |---|---|
-   | AEPCore, AEPLifecycle | `https://github.com/adobe/aepsdk-core-ios` |
-   | AEPdge | `https://github.com/adobe/aepsdk-edge-ios` |
-   | AEPEdgeIdentity | `https://github.com/adobe/aepsdk-edgeidentity-ios` |
-   | AEPRollout | `https://github.com/adobe/aepsdk-rollout-ios` |
+* `AEPCore`, `AEPLifecycle` (da `aepsdk-core-ios`)
+* `AEPEdge` (da `aepsdk-edge-ios`)
+* `AEPEdgeIdentity` (da `aepsdk-edgeidentity-ios`)
 
-#### Utilizzo di CocoaPods {#cocoapods}
+Utilizzare AEPCore 5.8.0 o versione successiva.
 
-Aggiungi i seguenti pod a `Podfile`:
-
-```ruby
-pod 'AEPCore'
-pod 'AEPLifecycle'
-pod 'AEPEdge'
-pod 'AEPEdgeIdentity'
-pod 'AEPRollout'
-```
-
-Quindi esegui:
-
-```bash
-pod install
-```
-
->[!IMPORTANT]
+>[!NOTE]
 >
->Per le applicazioni di produzione, Adobe consiglia di aggiungere puntini ai numeri di versione espliciti anziché utilizzare `~>` o intervalli aperti. Per ulteriori informazioni, vedere la [Guida al controllo delle versioni di CocoaPods](https://guides.cocoapods.org/using/the-podfile.html).
+>Quando aggiungi un pacchetto in Xcode, scegli una regola di dipendenza per ciascun pacchetto (ad esempio **Fino alla successiva versione principale**), che seleziona automaticamente le nuove versioni secondarie e di patch escludendo la successiva versione principale. Per le ultime versioni rilasciate, controlla la pagina delle versioni di ogni estensione su GitHub.
+
+### Aggiungere il pacchetto Flag {#add-flags-package}
+
+Utilizza il pacchetto Swift o il metodo di integrazione XCFramework per un’app target, non entrambi.
+
+#### Per un progetto Xcode senza un file Package.swift {#xcode-project}
+
+1. In Xcode, selezionare **File** > **Aggiungi pacchetti**.
+1. Selezionare **Aggiungi locale**.
+1. Selezionare la directory `Packages/AEPFlags` fornita contenente `Package.swift`.
+1. Aggiungi la libreria `AEPFlags` alla destinazione dell&#39;applicazione.
+
+Xcode memorizza il riferimento al pacchetto locale nel progetto, pertanto l&#39;applicazione non necessita del proprio file `Package.swift`.
+
+#### Per un progetto con un file Package.swift {#package-swift-project}
+
+Nel manifesto esistente, aggiungi `AEPFlags` alle dipendenze della destinazione dell&#39;applicazione e aggiungi la destinazione binaria utilizzando l&#39;URL e il checksum dal manifesto fornito:
+
+```swift
+targets: [
+    .target(
+        name: "YourApp",
+        dependencies: [
+            "AEPFlags"
+        ]
+    ),
+    .binaryTarget(
+        name: "AEPFlags",
+        url: "<AEPFlags binary URL>",
+        checksum: "<AEPFlags binary checksum>"
+    )
+]
+```
+
+Swift Package Manager risolve la destinazione binaria per le build Xcode, CI e di archivio locali.
+
+#### Aggiungere direttamente XCFramework {#xcframework}
+
+In alternativa, trascina `AEPFlags.xcframework` fornito nel Navigatore progetti Xcode e aggiungilo alla destinazione dell&#39;applicazione. In **Generale** > **Framework, Librerie e Contenuto incorporato**, impostare il framework su **Incorpora e firma**.
 
 ### Inizializzare SDK {#initialize-sdk}
 
-Inizializza Mobile SDK in `AppDelegate` (o `SceneDelegate`) prima di richiamare qualsiasi API di estensione Experience Rollout. Utilizza l’ID file dell’ambiente dalla tua proprietà mobile in modo che l’app selezioni le impostazioni di rollout pubblicate in Raccolta dati.
+Registra le estensioni Mobile SDK in `AppDelegate` prima di richiamare le API dei flag. Registra `Flag` dopo Identity, Edge e Lifecycle, quindi configura SDK utilizzando l&#39;ID file di ambiente dalla proprietà mobile.
+
+#### Registrare e configurare le estensioni {#register-configure}
+
+>[!IMPORTANT]
+>
+>Per le app di produzione, utilizza solo il livello di registro `.error`; non utilizzare `.debug` o `.trace` nelle build delle versioni.
 
 **Swift**
 
 ```swift
+// AppDelegate.swift
 import AEPCore
 import AEPLifecycle
 import AEPEdge
 import AEPEdgeIdentity
-import AEPRollout
+import AEPFlags
+import UIKit
 
-@main
-class AppDelegate: UIResponder, UIApplicationDelegate {
+final class AppDelegate: NSObject, UIApplicationDelegate {
 
-    func application(
-        _ application: UIApplication,
-        didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?
-    ) -> Bool {
-
+    func application(_: UIApplication,
+                      didFinishLaunchingWithOptions _: [UIApplication.LaunchOptionsKey: Any]? = nil) -> Bool {
+        // Production: use .error only. Do not use .debug or .trace in release builds.
         MobileCore.setLogLevel(.error)
 
-        MobileCore.registerExtensions(
-            [Lifecycle.self, Edge.self, Identity.self, Rollout.self]
-        ) {
-            // Initialize with your Environment File ID from Data Collection
+        MobileCore.registerExtensions([
+            Identity.self,
+            Edge.self,
+            Lifecycle.self,
+            Flag.self
+        ]) {
             MobileCore.configureWith(appId: "YOUR_ENVIRONMENT_FILE_ID")
+            MobileCore.lifecycleStart(additionalContextData: nil)
         }
 
         return true
@@ -149,29 +171,30 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 **Objective-C**
 
 ```objc
+// AppDelegate.m
+#import "AppDelegate.h"
 @import AEPCore;
 @import AEPLifecycle;
 @import AEPEdge;
 @import AEPEdgeIdentity;
-@import AEPRollout;
+@import AEPFlags;
 
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application
     didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
 
+    // Production: use AEPLogLevelError only. Do not use Debug or Trace in release builds.
     [AEPMobileCore setLogLevel:AEPLogLevelError];
 
-    NSArray *extensions = @[
-        AEPMobileLifecycle.class,
-        AEPMobileEdge.class,
+    [AEPMobileCore registerExtensions:@[
         AEPMobileEdgeIdentity.class,
-        AEPMobileRollout.class
-    ];
-
-    [AEPMobileCore registerExtensions:extensions completion:^{
-        // Initialize with your Environment File ID from Data Collection
+        AEPMobileEdge.class,
+        AEPMobileLifecycle.class,
+        AEPMobileFlag.class
+    ] completion:^{
         [AEPMobileCore configureWithAppId:@"YOUR_ENVIRONMENT_FILE_ID"];
+        [AEPMobileCore lifecycleStart:nil];
     }];
 
     return YES;
@@ -180,23 +203,18 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 @end
 ```
 
->[!IMPORTANT]
->
->Per le app di produzione, utilizza solo `LogLevel.error`. Non utilizzare `.debug` o `.verbose` nelle build delle versioni.
-
 ## Contesto di valutazione {#evaluation-context}
 
-`FeatureEvaluationContext` include attributi di targeting (utilizzati per la corrispondenza delle regole di rollout) e identità facoltativa (utilizzati per Analytics).
+`FeatureEvaluationContext` include attributi di targeting (utilizzati per la corrispondenza della regola del flag).
 
-| Metodo | Obbligatorio | Descrizione |
+| Parametro | Obbligatorio | Descrizione |
 |---|---|---|
-| `withIdentity(namespace:id:)` | No | Primo argomento: spazio dei nomi delle identità (vedi [Spazi dei nomi delle identità di Adobe](https://experienceleague.adobe.com/it/docs/experience-platform/identity/features/namespaces)). Secondo argomento: valore identità. Includi questo quando desideri che lo spazio dei nomi e l’ID siano rappresentati nell’analisi per questa valutazione. Se non specificato, per impostazione predefinita Analytics utilizza l’ECID. Non viene utilizzato per determinare le decisioni di abilitazione delle funzioni. |
-| `withAttributes(_:)` | No | `[String: [String]]`. Chiave è il nome dell&#39;attributo di contesto utilizzato dalle regole di rollout (ad esempio `locale`, `platform`, `appVersion`, `deviceType`). Valore è l&#39;elenco dei valori degli attributi candidati per la chiave per l&#39;utente/sessione corrente (ad esempio `["en_US"]` o `["phone"]`). |
+| `attributes` | No | `[String: [String]]`. Chiave è il nome dell&#39;attributo di contesto utilizzato dalle regole del flag (ad esempio `locale`, `platform`, `appVersion`, `deviceType`). Valore è l&#39;elenco dei valori degli attributi candidati per la chiave per l&#39;utente/sessione corrente (ad esempio `["en_US"]` o `["phone"]`). |
 
 **Swift**
 
 ```swift
-import AEPRollout
+import AEPFlags
 
 let attrs: [String: [String]] = [
     "locale": ["en_US"],
@@ -205,7 +223,6 @@ let attrs: [String: [String]] = [
 ]
 
 let ctx = FeatureEvaluationContext.builder()
-    .withIdentity(namespace: "Email", id: "customer@example.com")
     .withAttributes(attrs)
     .build()
 ```
@@ -213,7 +230,7 @@ let ctx = FeatureEvaluationContext.builder()
 **Objective-C**
 
 ```objc
-@import AEPRollout;
+@import AEPFlags;
 
 NSDictionary<NSString *, NSArray<NSString *> *> *attrs = @{
     @"locale": @[@"en_US"],
@@ -221,10 +238,8 @@ NSDictionary<NSString *, NSArray<NSString *> *> *attrs = @{
     @"appVersion": @[@"3.0.0"]
 };
 
-AEPFeatureEvaluationContext *ctx = [[[AEPFeatureEvaluationContextBuilder builder]
-    withIdentityNamespace:@"Email" id:@"customer@example.com"]
-    withAttributes:attrs]
-    .build;
+AEPFeatureEvaluationContextBuilder *builder = [AEPFeatureEvaluationContext builder];
+AEPFeatureEvaluationContext *ctx = [[builder withAttributes:attrs] build];
 ```
 
 ### Attributi di targeting di esempio {#sample-attributes}
@@ -236,28 +251,54 @@ AEPFeatureEvaluationContext *ctx = [[[AEPFeatureEvaluationContextBuilder builder
 | `appVersion` | Versione applicazione | `["3.0.0"]` |
 | `deviceType` | Tipo di dispositivo | `["phone"]`, `["tablet"]` |
 
-## Concetti chiave per la valutazione delle feature {#key-concepts}
+### Identità personalizzata {#custom-identity}
 
-Tieni presente quanto segue durante l’implementazione dei gate delle funzioni nell’app:
+L&#39;estensione Flags utilizza l&#39;estensione Identity for Edge Network per la risoluzione delle identità. Un flag di funzione può essere associato a un’identità personalizzata (ad esempio, un ID del sistema di gestione delle relazioni con i clienti o un ID fedeltà) in modo che le suddivisioni e le analisi delle varianti siano legate all’identità rilevante per l’applicazione.
 
-* **Passare i valori degli attributi, non le etichette di visualizzazione.** I valori degli attributi di contesto sono **con distinzione tra maiuscole e minuscole**. Passa il valore non elaborato inviato dall&#39;app o dal sito Web (ad esempio `"en_US"` o `"IOS"`), non l&#39;etichetta visualizzata nella console.
-* **Valuta a livello di funzionalità (flag).** Anche quando un flag appartiene a un gruppo di funzionalità, chiama sempre l&#39;API con la singola **chiave di funzionalità**. Non esiste alcuna valutazione a livello di gruppo. La risposta restituisce la variante in cui si trovava l’utente.
-* **Non è necessario collegare l&#39;identità a un profilo.** La valutazione viene eseguita in fase di runtime. L’evento di valutazione viene inviato a Customer Journey Analytics indipendentemente dal fatto che l’identità sia collegata a un profilo noto.
-* **Ogni nuovo flag richiede una modifica del codice.** Aggiungi un gate per ogni chiave del flag nel codice. Utilizzare `isFeatureEnabled()` per verificare uno stato di attivazione/disattivazione booleano oppure `getFeature()` per recuperare il payload completo delle funzionalità, inclusa la variante.
+Lo spazio dei nomi delle identità personalizzate deve essere selezionato nell’interfaccia utente Flag quando viene creato il flag di funzione. Per valutare un flag rispetto a tale identità, la stessa identità deve essere presente nell&#39;identità Edge `identityMap` sul dispositivo, utilizzando lo spazio dei nomi corrispondente. Fornirla in fase di esecuzione con l&#39;API Identity for Edge Network `updateIdentities`.
+
+#### Aggiungere l’identità personalizzata a Identity Map {#add-identity}
+
+Aggiungi l’identità nello stesso spazio dei nomi configurato sul flag della funzione.
+
+**Swift**
+
+```swift
+import AEPEdgeIdentity
+
+let identityMap = IdentityMap()
+identityMap.add(item: IdentityItem(id: "1111", authenticatedState: .authenticated, primary: true),
+                 withNamespace: "userCRMId") // must match the namespace configured on the feature flag
+Identity.updateIdentities(with: identityMap)
+```
+
+**Objective-C**
+
+```objc
+@import AEPEdgeIdentity;
+
+AEPIdentityItem *item = [[AEPIdentityItem alloc]
+    initWithId:@"1111"
+    authenticatedState:AEPAuthenticatedStateAuthenticated
+    primary:YES];
+AEPIdentityMap *identityMap = [[AEPIdentityMap alloc] init];
+[identityMap addItem:item withNamespace:@"userCRMId"]; // must match the namespace configured on the feature flag
+[AEPMobileEdgeIdentity updateIdentities:identityMap];
+```
 
 ## Documentazione sulle API {#api-reference}
 
 ### isFeatureEnabled {#is-feature-enabled}
 
-`isFeatureEnabled` restituisce se una funzione di rollout esperienza è attiva o disattivata per il contesto specificato. Passa `featureKey`, un `FeatureEvaluationContext` (attributi di targeting facoltativi e identità facoltativa per Analytics) e un gestore di completamento. Vedi [Contesto di valutazione](#evaluation-context).
+`isFeatureEnabled` restituisce se una funzione Flag è attivata o disattivata per il contesto specificato. Passa `featureKey`, un `FeatureEvaluationContext` (attributi di targeting facoltativi) e una chiusura di completamento. Vedi [Contesto di valutazione](#evaluation-context).
 
 **Firma**
 
 *Swift*
 
 ```swift
-Rollout.isFeatureEnabled(
-    featureKey: String,
+static func isFeatureEnabled(
+    _ featureKey: String,
     evaluationContext: FeatureEvaluationContext,
     completion: @escaping (Bool) -> Void
 )
@@ -266,17 +307,17 @@ Rollout.isFeatureEnabled(
 *Objective-C*
 
 ```objc
-[AEPMobileRollout isFeatureEnabled:(NSString *)featureKey
-               evaluationContext:(AEPFeatureEvaluationContext *)evaluationContext
-                      completion:(void (^)(BOOL))completion];
++ (void)isFeatureEnabled:(NSString *)featureKey
+       evaluationContext:(AEPFeatureEvaluationContext *)evaluationContext
+               completion:(void (^)(BOOL))completion;
 ```
 
 **Parametri**
 
 | Parametro | Tipo | Descrizione |
 |---|---|---|
-| `featureKey` | Stringa | Chiave della funzione da valutare nel rollout dell’esperienza |
-| `evaluationContext` | FeatureEvaluationContext | Includere attributi di targeting e identità facoltativa per l&#39;analisi in base alle esigenze. Utilizzare `FeatureEvaluationContext.builder().build()` per un contesto vuoto. Vedi [Contesto di valutazione](#evaluation-context). |
+| `featureKey` | Stringa | Chiave della funzione da valutare nei flag |
+| `evaluationContext` | FeatureEvaluationContext | Includere gli attributi di targeting in base alle esigenze; utilizzare `FeatureEvaluationContext.builder().build()` per un contesto vuoto. Vedi [Contesto di valutazione](#evaluation-context). |
 | `completion` | `(Bool) -> Void` | Chiamata eseguita con `true` se la funzionalità è abilitata, `false` in caso contrario. |
 
 **Esempi**
@@ -284,16 +325,16 @@ Rollout.isFeatureEnabled(
 *Swift*
 
 ```swift
-import AEPRollout
+import AEPFlags
 
-Rollout.isFeatureEnabled(
-    featureKey: "new-checkout-experience",
+Flag.isFeatureEnabled(
+    "new-flag",
     evaluationContext: ctx
 ) { isEnabled in
     if isEnabled {
-        showNewCheckout()
+        // Feature is enabled: run the feature-specific behavior
     } else {
-        showDefaultCheckout()
+        // Feature is disabled: fall back to the default behavior
     }
 }
 ```
@@ -301,15 +342,15 @@ Rollout.isFeatureEnabled(
 *Objective-C*
 
 ```objc
-@import AEPRollout;
+@import AEPFlags;
 
-[AEPMobileRollout isFeatureEnabled:@"new-checkout-experience"
-               evaluationContext:ctx
+[AEPMobileFlag isFeatureEnabled:@"new-flag"
+              evaluationContext:ctx
                       completion:^(BOOL isEnabled) {
     if (isEnabled) {
-        [self showNewCheckout];
+        // Feature is enabled: run the feature-specific behavior
     } else {
-        [self showDefaultCheckout];
+        // Feature is disabled: fall back to the default behavior
     }
 }];
 ```
@@ -323,8 +364,8 @@ Rollout.isFeatureEnabled(
 *Swift*
 
 ```swift
-Rollout.getFeature(
-    featureKey: String,
+static func getFeature(
+    _ featureKey: String,
     evaluationContext: FeatureEvaluationContext,
     completion: @escaping (FeatureEvaluationResult?) -> Void
 )
@@ -333,18 +374,18 @@ Rollout.getFeature(
 *Objective-C*
 
 ```objc
-[AEPMobileRollout getFeature:(NSString *)featureKey
-         evaluationContext:(AEPFeatureEvaluationContext *)evaluationContext
-                completion:(void (^)(AEPFeatureEvaluationResult * _Nullable))completion];
++ (void)getFeature:(NSString *)featureKey
+ evaluationContext:(AEPFeatureEvaluationContext *)evaluationContext
+        completion:(void (^)(AEPFeatureEvaluationResult * _Nullable))completion;
 ```
 
 **Parametri**
 
 | Parametro | Tipo | Descrizione |
 |---|---|---|
-| `featureKey` | Stringa | Chiave della funzione da valutare nel rollout dell’esperienza |
-| `evaluationContext` | FeatureEvaluationContext | Includere attributi di targeting e identità facoltativa per l&#39;analisi in base alle esigenze. Utilizzare `FeatureEvaluationContext.builder().build()` per un contesto vuoto. Vedi [Contesto di valutazione](#evaluation-context). |
-| `completion` | `(FeatureEvaluationResult?) -> Void` | Chiamata eseguita con il payload della funzionalità valutata. Se la funzionalità non è stata trovata, il valore potrebbe essere `nil`. |
+| `featureKey` | Stringa | Chiave della funzione da valutare nei flag |
+| `evaluationContext` | FeatureEvaluationContext | Includere gli attributi di targeting in base alle esigenze; utilizzare `FeatureEvaluationContext.builder().build()` per un contesto vuoto. Vedi [Contesto di valutazione](#evaluation-context). |
+| `completion` | `(FeatureEvaluationResult?) -> Void` | Chiamata eseguita con il payload della funzionalità valutata. `nil` quando la funzionalità non è stata trovata. |
 
 **Risposta**
 
@@ -354,15 +395,15 @@ Rollout.getFeature(
 |---|---|---|
 | `id` | Intero | Identificatore numerico di funzione |
 | `key` | Stringa | Chiave funzione |
-| `releaseKey` | Stringa? | Chiave di rilascio per questa funzione, se disponibile |
-| `meta` | Stringa? | Metadati delle funzioni come stringa JSON, se disponibili |
+| `featureGroupKey` | Stringa? | Chiave gruppo di funzioni, se disponibile |
+| `meta` | Stringa? | Metadati opachi delle funzioni, se disponibili |
 | `analyticsParam` | AnalyticsParam? | Dettagli di Analytics per la funzione valutata |
 
 *AnalyticsParam*
 
 | Campo | Tipo | Descrizione |
 |---|---|---|
-| `releaseId` | Intero | Identificatore di versione numerico |
+| `featureGroupId` | Intero | Identificatore gruppo di funzioni numerico |
 | `featureId` | Intero | Identificatore numerico di funzione |
 | `variantId` | Stringa? | Identificatore variante |
 
@@ -371,63 +412,53 @@ Rollout.getFeature(
 *Swift*
 
 ```swift
-import AEPRollout
+import AEPFlags
 
-Rollout.getFeature(
-    featureKey: "new-checkout-experience",
+Flag.getFeature(
+    "new-flag",
     evaluationContext: ctx
 ) { feature in
-    if let meta = feature?.meta, !meta.isEmpty {
-        applyMetaDrivenExperience(meta)
-    } else {
-        showFallbackExperience()
+    guard let meta = feature?.meta, !meta.isEmpty else {
+        // No metadata available: fall back to the default behavior
+        return
     }
+    // Feature metadata is available: use it to drive the feature behavior
 }
 ```
 
 *Objective-C*
 
 ```objc
-@import AEPRollout;
+@import AEPFlags;
 
-[AEPMobileRollout getFeature:@"new-checkout-experience"
-         evaluationContext:ctx
+[AEPMobileFlag getFeature:@"new-flag"
+        evaluationContext:ctx
                 completion:^(AEPFeatureEvaluationResult * _Nullable feature) {
     NSString *meta = feature.meta;
-    if (meta != nil && meta.length > 0) {
-        [self applyMetaDrivenExperience:meta];
+    if (meta.length > 0) {
+        // Feature metadata is available: use it to drive the feature behavior
     } else {
-        [self showFallbackExperience];
+        // No metadata available: fall back to the default behavior
     }
 }];
 ```
 
-### refreshCache {#refresh-cache}
+### extensionVersion {#extension-version}
 
-Per impostazione predefinita, l’estensione Rollout esperienza sincronizza regolarmente le regole e le funzionalità di rollout più recenti dal server in base a una pianificazione che puoi configurare. Se è necessario un aggiornamento prima della successiva sincronizzazione pianificata, chiamare `refreshCache` per forzare un aggiornamento. I casi tipici includono dopo l’accesso o quando lo stato dell’app cambia in un modo che dovrebbe influenzare il targeting.
+Restituisce la stringa della versione dell&#39;estensione Flags.
 
 **Sintassi**
 
 *Swift*
 
 ```swift
-Rollout.refreshCache()
+static var extensionVersion: String
 ```
 
 *Objective-C*
 
 ```objc
-[AEPMobileRollout refreshCache];
-```
-
-### extensionVersion {#extension-version}
-
-Restituisce la stringa della versione dell&#39;estensione Experience Rollout.
-
-**Sintassi**
-
-```swift
-Rollout.extensionVersion(): String
++ (nonnull NSString *)flagExtensionVersion;
 ```
 
 **Esempio**
@@ -435,28 +466,26 @@ Rollout.extensionVersion(): String
 *Swift*
 
 ```swift
-let version = Rollout.extensionVersion()
+let version = Flag.extensionVersion
 ```
 
 *Objective-C*
 
 ```objc
-NSString *version = [AEPMobileRollout extensionVersion];
+NSString *version = [AEPMobileFlag flagExtensionVersion];
 ```
 
 ## Riepilogo API {#api-summary}
 
 | API | Restituisce |
 |---|---|
-| `isFeatureEnabled(featureKey:evaluationContext:completion:)`. `FeatureEvaluationContext` contiene attributi di targeting per le regole e identità facoltativa per analytics. Vedi [isFeatureEnabled](#is-feature-enabled). | Booleano tramite gestore di completamento |
-| `getFeature(featureKey:evaluationContext:completion:)`. Restituisce il payload della funzione valutato per il contesto specificato. Vedi [getFeature](#get-feature). | FeatureEvaluationResult? tramite gestore di completamento |
-| `refreshCache()` | Vuoto |
-| `extensionVersion()` | Stringa |
+| `isFeatureEnabled(_:evaluationContext:completion:)`. `FeatureEvaluationContext` contiene attributi di targeting per le regole. Vedi [isFeatureEnabled](#is-feature-enabled). | Bool tramite chiusura di completamento |
+| `getFeature(_:evaluationContext:completion:)`. Restituisce il payload della funzione valutato per il contesto specificato. Vedi [getFeature](#get-feature). | FeatureEvaluationResult? tramite chiusura |
+| `extensionVersion` | Stringa |
 
 ## Vedi anche {#see-also}
 
 * [Applicazioni mobili](../../integrate/mobile-applications.md)
-* [Passaggi dell’integrazione](../../integrate/integration-steps.md)
 * [SDK](../../integrate/sdks.md)
 * [guida all’integrazione delle estensioni Android](../android/android-extension-integration-guide.md)
 
