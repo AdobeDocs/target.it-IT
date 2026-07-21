@@ -62,7 +62,7 @@ Regola l’intervallo di date dall’intestazione del pannello per tracciare nuo
 
 ![Pannello Sperimentazione con selettori esperimento, variante controllo e metrica](assets/experimentation-selection.png)
 
-Per ulteriori dettagli sul calcolo di queste metriche, consulta la [documentazione del pannello Sperimentazione](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/panels/experimentation).
+Per ulteriori dettagli sul calcolo di queste metriche, consulta la [documentazione del pannello Sperimentazione](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-workspace/panels/experimentation).
 
 ![Risultati della sperimentazione che mostrano l&#39;incremento, l&#39;affidabilità e il tasso di conversione per variante](assets/experimentation.png)
 
