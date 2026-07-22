@@ -1,11 +1,12 @@
 ---
 title: Gruppi di feature per controllare più feature
 description: Scopri come i gruppi di funzioni nei flag consentono di raggruppare e gestire i relativi flag di funzione nelle applicazioni come un’unica unità.
+badge: label="Beta" type="Informative"
 hide: true
 exl-id: dfeb7eff-34f1-4cb5-9c3e-a40d1eda3016
-source-git-commit: fea4d9e87ad8417de9d820ee3556796fba112dc1
+source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
 workflow-type: tm+mt
-source-wordcount: '173'
+source-wordcount: '174'
 ht-degree: 0%
 
 ---

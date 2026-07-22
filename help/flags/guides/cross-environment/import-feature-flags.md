@@ -1,11 +1,12 @@
 ---
 title: Importa flag di funzione
 description: Scopri come importare i flag di funzioni da una sandbox a un’altra in Flag per evitare di ricreare manualmente le configurazioni dei flag.
+badge: label="Beta" type="Informative"
 hide: true
 exl-id: 37c84d75-a565-4202-8c99-f630e05b6bb6
-source-git-commit: eeba7af62ab101e687852ce993a001832ce4a83b
+source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
 workflow-type: tm+mt
-source-wordcount: '313'
+source-wordcount: '314'
 ht-degree: 0%
 
 ---

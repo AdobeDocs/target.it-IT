@@ -3,9 +3,9 @@ audience: user
 user-guide-title: Flag
 user-guide-description: Scopri come utilizzare i flag in Adobe Target per gestire i flag di funzioni, i rollout controllati e le versioni mirate nelle applicazioni.
 hide: true
-source-git-commit: 9c6f2b72f964b06da51e1f3655545147d7240a93
+source-git-commit: 56c59c705d33c1e9edf336c03c2627654869ef81
 workflow-type: tm+mt
-source-wordcount: '168'
+source-wordcount: '175'
 ht-degree: 9%
 
 ---
@@ -43,6 +43,7 @@ ht-degree: 9%
   + [Impostare un gruppo di funzioni per il rollout graduale](guides/feature-flags/set-feature-group-gradual-rollout.md)
   + [Test A/B con flag di funzione](guides/feature-flags/a-b-testing.md)
   + [Generazione di rapporti](guides/feature-flags/reporting.md)
+  + [Configurare CJA per la generazione di rapporti sui flag di funzione](guides/feature-flags/set-up-cja-reporting.md)
 + Criteri di pubblico {#audience}
   + [Pubblico nei flag di funzione e nei gruppi di funzioni](guides/audience/audience-in-feature-flags-and-feature-groups.md)
   + [Usa contesto nelle regole del pubblico](guides/audience/using-context-in-audience-rules.md)
