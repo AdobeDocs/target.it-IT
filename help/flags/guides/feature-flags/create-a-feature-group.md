@@ -1,11 +1,12 @@
 ---
 title: Creare un gruppo di funzioni
 description: Scopri come creare un gruppo di funzioni in Flag per gestire più flag di funzioni tra le applicazioni del team come una singola unità.
+badge: label="Beta" type="Informative"
 hide: true
 exl-id: 58148df1-84ee-4a78-a4b4-71f74cd8ce0a
-source-git-commit: eeba7af62ab101e687852ce993a001832ce4a83b
+source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
 workflow-type: tm+mt
-source-wordcount: '464'
+source-wordcount: '465'
 ht-degree: 0%
 
 ---

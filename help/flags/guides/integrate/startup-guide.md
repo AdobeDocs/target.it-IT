@@ -1,11 +1,12 @@
 ---
 title: Guida all’avvio
 description: Per integrare l’applicazione con i flag, dalla richiesta di accesso alla creazione del primo flag di funzione, segui la procedura riportata di seguito.
+badge: label="Beta" type="Informative"
 hide: true
 exl-id: 7aa09535-45fa-4ddf-9e3f-a23f8a8ee666
-source-git-commit: 9a4e16418c93fa163d821409a0eecb251f2a9929
+source-git-commit: 339de89fff7bb14eb8146d42482b30c86feeedef
 workflow-type: tm+mt
-source-wordcount: '352'
+source-wordcount: '397'
 ht-degree: 1%
 
 ---
@@ -44,9 +45,10 @@ Segui la guida all’integrazione per il tipo di applicazione. Scegli il percors
 
 Se esegui l’integrazione tramite un approccio basato su tag (web o mobile), configura la proprietà tag prima di inizializzare SDK:
 
-1. In [Raccolta dati Adobe Experience Platform](https://experience.adobe.com/#/data-collection), apri la tua proprietà mobile o web.
-1. Installa l&#39;estensione **Edge Network**, quindi l&#39;estensione **Flags** (nell&#39;ordine indicato).
-1. Seleziona il **flusso di dati** (deve includere il set di dati di Customer Journey Analytics) e il dominio Edge.
+1. In [Raccolta dati Adobe Experience Platform](https://experience.adobe.com/#/data-collection), creare una [proprietà tag](https://experienceleague.adobe.com/it/docs/experience-platform/tags/get-started/quick-start) se non ne è già disponibile una, oppure utilizzare una proprietà tag esistente.
+1. Apri la proprietà del tag per dispositivi mobili o web e passa a [Estensioni](https://experienceleague.adobe.com/it/docs/experience-platform/tags/ui/extensions/overview).
+1. Installa e configura l&#39;estensione **Edge Network**. Quindi installa l&#39;estensione **Flags**.
+1. Seleziona lo **stream di dati** (deve includere il set di dati di Customer Journey Analytics) e configura il dominio Edge.
 1. Pubblica la configurazione tramite **Dev → Staging → Produzione**.
 1. Copiare l&#39;ID **file di ambiente** dalla scheda **Ambienti**. Verrà utilizzato per inizializzare SDK.
 

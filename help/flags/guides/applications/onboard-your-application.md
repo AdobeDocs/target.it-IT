@@ -1,11 +1,12 @@
 ---
 title: Eseguire l’onboarding dell’applicazione
 description: Scopri come integrare una nuova applicazione nei flag per iniziare a creare e gestire i flag di funzioni.
+badge: label="Beta" type="Informative"
 hide: true
 exl-id: d88c27a5-f490-4504-9764-5e4ce98fdf20
-source-git-commit: 35fa45d2a5374dcc47a02bb737f28f24847d7fc6
+source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
 workflow-type: tm+mt
-source-wordcount: '192'
+source-wordcount: '193'
 ht-degree: 2%
 
 ---

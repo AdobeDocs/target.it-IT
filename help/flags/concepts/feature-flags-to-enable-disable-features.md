@@ -1,11 +1,12 @@
 ---
 title: Flag di funzioni per abilitare e disabilitare le funzioni
 description: Scopri in che modo i flag di funzione in Flag consentono di controllare la disponibilità delle funzioni, gestire le dipendenze e ridurre i rischi di distribuzione.
+badge: label="Beta" type="Informative"
 hide: true
 exl-id: 627775e8-9b17-4bc7-9565-07a438ae8ed7
-source-git-commit: fea4d9e87ad8417de9d820ee3556796fba112dc1
+source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
 workflow-type: tm+mt
-source-wordcount: '391'
+source-wordcount: '392'
 ht-degree: 0%
 
 ---

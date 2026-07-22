@@ -1,12 +1,13 @@
 ---
 title: Generazione di rapporti
 description: Scopri come visualizzare il reporting dei flag di funzione in Flag utilizzando Customer Journey Analytics.
+badge: label="Beta" type="Informative"
 hide: true
 exl-id: edddca99-f263-461b-a16f-b46ee7c15f6c
-source-git-commit: eeba7af62ab101e687852ce993a001832ce4a83b
+source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
 workflow-type: tm+mt
-source-wordcount: '599'
-ht-degree: 0%
+source-wordcount: '431'
+ht-degree: 1%
 
 ---
 
@@ -22,7 +23,7 @@ I flag consentono la generazione di rapporti tramite **Customer Journey Analytic
 
 Prima di poter visualizzare i rapporti, assicurati che:
 
-1. La creazione di report è impostata per l&#39;applicazione. Vedere [Configurare la creazione di report con Customer Journey Analytics](#setup).
+1. Il reporting è configurato per l&#39;applicazione. Vedere [Configurazione di CJA per il reporting dei flag di funzionalità](set-up-cja-reporting.md).
 1. Il flag di funzione o il gruppo di funzioni è attivo e contiene dati accumulati.
 
 ## Visualizzare un rapporto {#view-report}
@@ -66,28 +67,9 @@ Per ulteriori dettagli sul calcolo di queste metriche, consulta la [documentazio
 
 ![Risultati della sperimentazione che mostrano l&#39;incremento, l&#39;affidabilità e il tasso di conversione per variante](assets/experimentation.png)
 
-### Analisi in CJA (opzionale) {#analyze-in-cja}
-
-Una volta caricato un report, nella parte superiore destra della scheda Report viene visualizzato il pulsante **Analizza in CJA**. Selezionando questa opzione si apre la stessa pagina di report in Customer Journey Analytics in una nuova scheda del browser, in cui si dispone del set completo di strumenti di CJA per un’analisi più approfondita e ad hoc.
-
-![Rapporto Panoramica contrassegni aperto nell&#39;area di lavoro di Customer Journey Analytics](assets/cja-workspace.png)
-
->[!IMPORTANT]
->
->Il report viene aperto come progetto temporaneo non salvato. Se lo personalizzi in CJA (aggiungi metriche, modifica pannelli, regola filtri e così via) e desideri mantenere tali modifiche, salvalo utilizzando **Progetto > Salva come modello**. In caso contrario, le modifiche andranno perse quando si chiude il report.
-
-![Menu Progetto con Salva come modello evidenziato](assets/save-as-template.png)
-
-## Configurare la generazione di rapporti con Customer Journey Analytics {#setup}
-
-Il reporting richiede un set di dati Customer Journey Analytics connesso all’applicazione Flags. Per abilitare il reporting per la tua applicazione, contatta il supporto dei flag o il tuo rappresentante Adobe.
-
->[!NOTE]
->
->L’identità passata nella richiesta di funzione non deve essere collegata a un profilo. La valutazione viene eseguita in fase di runtime e l’evento viene inviato a Customer Journey Analytics.
-
 ## Vedi anche {#see-also}
 
+* [Configurare CJA per la generazione di rapporti sui flag di funzione](set-up-cja-reporting.md)
 * [Creare il primo flag di funzione](create-your-first-feature-flag.md)
 * [Test A/B con flag di funzione](a-b-testing.md)
 * [Creare un gruppo di funzioni](create-a-feature-group.md)
