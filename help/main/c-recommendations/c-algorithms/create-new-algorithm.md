@@ -2,23 +2,17 @@
 keywords: criteri;algoritmo;settore verticale;tipo di pagina;chiave consiglio;logica consiglio;logica consiglio;intervallo dati;intervallo di lookback;comportamento origine dati;progettazione parziale;backup consigli;regole di inclusione;ponderazione attributi;categoria corrente;attributo personalizzato;ultimo articolo acquistato;ultimo articolo visualizzato;ultimo articolo visualizzato;articolo più visualizzato;categoria preferita;popolarità;articolo visualizzato di recente;ultimo articolo acquistato;più visualizzato;preferito;visualizzato di recente
 description: Scopri come creare criteri che controllano il contenuto delle attività di  [!DNL Recommendations]  per visualizzare i consigli più appropriati per l'attività.
 title: Come posso creare [!UICONTROL criteri] in [!DNL Recommendations]?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=it#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."
 feature: Recommendations
 exl-id: 3f4f59b2-6637-4c33-bf17-bff11bef7173
 TQID: https://experienceleague.adobe.com/r9FWgHWw6NX1CmhqI-7MLoamNFDepeCq1bpiJ8eyISM
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
-source-git-commit: 6c2f1426564d1d242ec4473b1b7c155bf1be5cf5
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: c93393a4-e558-47e1-992e-c91ed4d480ce
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
+source-git-commit: 220c828fc77e9022a3884de04b78ae5d107e4c7d
 workflow-type: tm+mt
-source-wordcount: 2900
-ht-degree: 46%
+source-wordcount: 2984
+ht-degree: 44%
 
 ---
 
@@ -79,7 +73,7 @@ La procedura seguente presuppone che tu acceda alla schermata [!UICONTROL Crea n
 >[!CONTEXTUALHELP]
 >id="target_recommendations_profile_attribute"
 >title="Attributo del profilo"
->abstract="Puoi creare un attributo del profilo utilizzando gli script di profilo."
+>abstract="Puoi creare un attributo di profilo utilizzando gli script di profilo."
 
 1. Seleziona un **[!UICONTROL Tipo di algoritmo]** e **[!UICONTROL Algoritmo]**:
 
@@ -88,7 +82,7 @@ La procedura seguente presuppone che tu acceda alla schermata [!UICONTROL Crea n
    | Tipo di algoritmo | Quando utilizzare / Algoritmi disponibili |
    | --- | --- |
    | [!UICONTROL Basato su carrello] | Creare consigli in base al contenuto del carrello dell’utente. <ul><li>[!UICONTROL Persone Che Hanno Visualizzato Questi, Hanno Visualizzato Anche] </li><li>[!UICONTROL Chi ha visualizzato questi elementi ha acquistato anche]</li><li>[!UICONTROL Chi ha acquistato questi, ha acquistato anche]</li></ul> |
-   | [!UICONTROL Basato Sulla Popolarità] | Puoi formulare raccomandazioni in base alla popolarità complessiva di un elemento nel tuo sito o in base alla popolarità degli elementi nella categoria, nel brand, nel genere e così via preferiti o più visualizzati di un utente. <ul><li>[!UICONTROL Più visualizzati nel sito]</li><li>[!UICONTROL Più visualizzati per categoria]</li><li>[!UICONTROL Più visualizzati per attributo elemento]</li><li>[!UICONTROL Più venduti nel sito]</li><li>[!UICONTROL Più venduti per categoria]</li><li>[!UICONTROL Più venduti per attributo articolo]</li><li>[!UICONTROL Primi per metrica di Analytics]</li></ul> |
+   | [!UICONTROL Basato Sulla Popolarità] | Puoi formulare raccomandazioni in base alla popolarità complessiva di un elemento nel tuo sito o in base alla popolarità degli elementi nella categoria, nel brand, nel genere e così via preferiti o più visualizzati di un utente. <ul><li>[!UICONTROL Più visualizzati nel sito]</li><li>[!UICONTROL Più visualizzati per categoria]</li><li>[!UICONTROL Più visualizzati per attributo elemento]</li><li>[!UICONTROL Più visualizzati per attributo profilo]</li><li>[!UICONTROL Più venduti nel sito]</li><li>[!UICONTROL Più venduti per categoria]</li><li>[!UICONTROL Più venduti per attributo articolo]</li><li>[!UICONTROL Più venduti per attributo profilo]</li><li>[!UICONTROL Primi per metrica di Analytics]</li></ul> |
    | [!UICONTROL Basato su elemento] | Creare consigli in base alla ricerca di elementi simili a quelli di un elemento attualmente visualizzato dall’utente o che è stato recentemente visualizzato. <ul><li>[!UICONTROL Chi ha visualizzato questo ha visualizzato anche quello]</li><li>[!UICONTROL Chi ha visualizzato questo ha acquistato anche quello]</li><li>[!UICONTROL Chi ha acquistato questo ha acquistato anche quello]</li><li>[!UICONTROL Elementi con attributi simili]</li></ul> |
    | [!UICONTROL Basato su utente] | Creare consigli in base al comportamento dell’utente.<ul><li>[!UICONTROL Elementi visualizzati di recente]</li><li>[!UICONTROL Consigliato per te]</li></ul> |
    | [!UICONTROL Criteri personalizzati] | Formulare raccomandazioni in base a un file personalizzato caricato.<ul><li>Algoritmo personalizzato</li></ul> |
@@ -100,6 +94,8 @@ La procedura seguente presuppone che tu acceda alla schermata [!UICONTROL Crea n
 1. Come richiesto, selezionare un attributo **Item** e un attributo **Profile da abbinare**, una **Chiave Recommendation**, **Chiave filtro** e/o **Metrica Analytics** per configurare l&#39;algoritmo.
 
 Le altre opzioni di configurazione dell’algoritmo variano a seconda dell’algoritmo selezionato. Per completare la configurazione dell&#39;algoritmo, selezionare una [!UICONTROL Chiave consiglio], [!UICONTROL Chiave filtro], [!UICONTROL Base co-occorrenza], [!UICONTROL Metrica analisi] e/o [!UICONTROL Attributo elemento] e [!UICONTROL Attributo profilo da associare].
+
+Quando selezioni [!UICONTROL Più visualizzati per attributo profilo] o [!UICONTROL Più venduti per attributo profilo], seleziona un **[!UICONTROL attributo profilo]** per raggruppare i dati di interazione in base a. Gli attributi del profilo provengono da uno script di profilo che acquisisce una caratteristica del visitatore, ad esempio regione o paese, e il nome dello script deve contenere il prefisso `recsAttribute`, quindi viene memorizzato come `user.recsAttribute<Name>`, ad esempio `user.recsAttributeRegion`. Al momento della consegna, [!DNL Target] fornisce a ogni visitatore l&#39;elenco classificato che corrisponde al proprio valore di tale attributo.
 
 Per ulteriori informazioni sulla scelta di una [!UICONTROL Chiave consiglio], vedere [Basare il consiglio su una chiave consiglio](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md).
 
