@@ -18,10 +18,10 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 65b4878ba8858b105cbebe536b55a9e1775478d3
+source-git-commit: c74d8b09fba181fcded2f982d99a03f1e7f3a07a
 workflow-type: tm+mt
-source-wordcount: 573
-ht-degree: 47%
+source-wordcount: 927
+ht-degree: 29%
 
 ---
 
@@ -30,6 +30,60 @@ ht-degree: 47%
 Esplora le funzioni, i miglioramenti e le correzioni più recenti in [!DNL Adobe Target]. Queste note sulla versione descrivono anche gli aggiornamenti alle API [!DNL Target], agli SDK, a [!DNL Adobe Experience Platform Web SDK], at.js e ad altri componenti della piattaforma, se applicabili.
 
 I codici dei problemi tra parentesi sono per uso interno di [!DNL Adobe].
+
+## [!DNL Target Standard/Premium] 26.7.4 (23 luglio 2026)
+
+**Generazione di rapporti**
+
++++Vedi i dettagli
+
+* **Il grafico del tasso di conversione non è disponibile per un pubblico specifico per dispositivi mobili.** È stato risolto un problema che impediva il rendering del grafico [!UICONTROL Tasso di conversione] per alcuni tipi di pubblico di dispositivi mobili. (TGT-55611)
+
+* **Obiettivo di conversione &quot;Visualizzazione di una mbox&quot; non funzionante se selezionato dal menu a discesa.** È stato risolto un problema che impediva la registrazione delle conversioni quando si selezionava una mbox dal menu a discesa in [!UICONTROL Obiettivi e impostazioni] per un obiettivo di conversione &quot;Visualizzazione di una mbox&quot;. Il nome della mbox veniva salvato in modo errato. (TGT-55588)
+
++++
+
+**Tipi di pubblico**
+
++++Vedi i dettagli
+
+* **Problema di layout nella pagina Libreria tipi di pubblico.** È stato risolto un problema di layout che si verificava quando i filtri erano abilitati nella pagina [!UICONTROL Libreria pubblico] mentre la navigazione laterale era compressa. (TGT-55502)
+
++++
+
+**[!UICONTROL Compositore esperienza visivo] (VEC)**
+
++++Vedi i dettagli
+
+* **La versione mobile non viene caricata correttamente.** È stato risolto un problema che impediva il corretto caricamento della visualizzazione mobile in [!UICONTROL Compositore esperienza visivo]. (TGT-54408)
+
+* **Impossibile modificare o eliminare le azioni di modifica.** È stato risolto un problema che impediva il funzionamento della modifica o dell&#39;eliminazione di una modifica dalla visualizzazione [!UICONTROL Modifica esperienza]. (TGT-55250)
+
+* **La modalità Sfoglia non risponde dopo il caricamento dell&#39;attività.** È stato risolto un problema che causava la mancata risposta della modalità [!UICONTROL Sfoglia] per le esperienze contenenti una modifica, impedendo ulteriori attività di navigazione e authoring. (TGT-55306)
+
+* **Impossibile selezionare elementi in Salesforce LWC (DOM shadow).** È stato risolto un problema che impediva al [!UICONTROL Compositore esperienza visivo] di selezionare elementi nidificati all&#39;interno di Salesforce Lightning Web Components utilizzando Shadow DOM, causando un errore di tipo &quot;selettore non trovato&quot;. (TGT-54956)
+
+* **Offerte duplicate visualizzate nel [!UICONTROL Compositore esperienza visivo].** È stato risolto un problema a causa del quale le modifiche e le offerte venivano visualizzate in modo intermittente duplicate nell’interfaccia utente di authoring delle attività. (TGT-55685)
+
++++
+
+**Amministrazione**
+
++++Vedi i dettagli
+
+* **L&#39;Assistente alla generazione dei contenuti è stato rinominato [!UICONTROL Genera contenuto].** La funzionalità di generazione dei contenuti &quot;Assistente IA&quot; è stata rinominata [!UICONTROL Genera contenuto] nelle superfici dell&#39;interfaccia utente [!DNL Target]. (TGT-55689)
+
++++
+
+**Funzione Consigli**
+
++++Vedi i dettagli
+
+* **Consigli basati sulla popolarità utilizzando gli attributi del profilo.** [!DNL Target] ora supporta il raggruppamento dei consigli di popolarità, Più visualizzati e Più venduti, in modo dinamico in base agli attributi del profilo del visitatore come paese, lingua preferita o livello di iscrizione. (TAPER-7614)
+
+* **Mancata corrispondenza della raccolta di consigli tra [!UICONTROL Raccolte] e la configurazione dell&#39;attività.** È stato risolto un problema a causa del quale una raccolta di [!UICONTROL Recommendations] restituiva entità aggiuntive non qualificate quando veniva visualizzata dalla configurazione dell&#39;attività rispetto alla visualizzazione di [!UICONTROL Recommendations] > [!UICONTROL Collections]. (TGT-55554)
+
++++
 
 ## [!DNL Target Standard/Premium] 26.7.2 (16 luglio 2026)
 
