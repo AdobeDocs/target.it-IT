@@ -6,19 +6,13 @@ feature: Administration & Configuration
 role: Admin
 exl-id: fd83e60e-64a6-4d0e-909f-480d13bac32b
 TQID: https://experienceleague.adobe.com/Vdi1o6bvCbgrhWUrJfCOyxqN3JkhEe3Rd9J-3NmLVyY
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 283e20be405890a7f53ca95d370e3eef5820f437
 workflow-type: tm+mt
-source-wordcount: 795
-ht-degree: 22%
+source-wordcount: 823
+ht-degree: 21%
 
 ---
 
@@ -68,11 +62,11 @@ Quando determini l’origine per la generazione di rapporti, considera le seguen
 
 * **[!DNL Customer Journey Analytics]**: per una matrice di attività supportate che utilizzano la generazione di rapporti [!DNL Target] in [!DNL Customer Journey Analytics], vedere [Tipi di attività supportati](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md#supported-activities) in *[!DNL Target]generazione di rapporti in[!DNL Adobe Customer Journey Analytics]*.
 
-  La creazione e l&#39;attivazione delle attività [!UICONTROL Automated Personalization] (AP), [!UICONTROL Allocazione automatica] e [!UICONTROL Targeting automatico] sono consentite indipendentemente dall&#39;origine per la generazione di rapporti selezionata. Queste attività non sono supportate quando si sceglie [Adobe Customer Journey Analytics come origine per la generazione di rapporti](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md).
+  La creazione e l&#39;attivazione delle attività di [!UICONTROL Automated Personalization] (AP) e [!UICONTROL Targeting automatico] sono consentite indipendentemente dall&#39;origine per la generazione di rapporti selezionata a livello di account. Questi tipi di attività non sono supportati quando si sceglie [Adobe Customer Journey Analytics come origine per la generazione di rapporti](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md) per un&#39;attività.
 
-  Anche se si specifica [!DNL Customer Journey Analytics] come origine per la generazione di rapporti, [!DNL Target] viene utilizzato come origine per la generazione di rapporti per le attività [!DNL Automated Personalization].
+  Anche se si specifica [!DNL Customer Journey Analytics] come origine per la generazione di rapporti a livello di account, [!DNL Target] viene utilizzato come origine per la generazione di rapporti per le attività [!DNL Automated Personalization].
 
-  Se si specifica [!DNL Customer Journey Analytics] come origine per la generazione di rapporti per le attività [!UICONTROL Allocazione automatica] o [!UICONTROL Targeting automatico], è possibile utilizzare [!DNL Target] o [!DNL Analytics] come origine per la generazione di rapporti.
+  [!UICONTROL Le attività Allocazione automatica] possono utilizzare [!DNL Customer Journey Analytics] come origine per la generazione di rapporti. Vedi [Crea un&#39;attività che utilizza [!DNL Customer Journey Analytics] come origine per la generazione di rapporti](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md#create-an-activity-that-uses-customer-journey-analytics-as-the-reporting-source) in *[!DNL Target]per la generazione di rapporti in[!DNL Adobe Customer Journey Analytics]*. Se si specifica [!DNL Customer Journey Analytics] come origine per la generazione di rapporti per le attività [!UICONTROL Targeting automatico], è possibile utilizzare [!DNL Target] o [!DNL Analytics] come origine per la generazione di rapporti.
 
 ## Fuso orario per il reporting
 
