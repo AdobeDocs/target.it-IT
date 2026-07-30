@@ -18,10 +18,10 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: c74d8b09fba181fcded2f982d99a03f1e7f3a07a
+source-git-commit: 4111bfa406259af6fb0877170fd7d80b11c22482
 workflow-type: tm+mt
-source-wordcount: 927
-ht-degree: 29%
+source-wordcount: 1046
+ht-degree: 26%
 
 ---
 
@@ -30,6 +30,26 @@ ht-degree: 29%
 Esplora le funzioni, i miglioramenti e le correzioni più recenti in [!DNL Adobe Target]. Queste note sulla versione descrivono anche gli aggiornamenti alle API [!DNL Target], agli SDK, a [!DNL Adobe Experience Platform Web SDK], at.js e ad altri componenti della piattaforma, se applicabili.
 
 I codici dei problemi tra parentesi sono per uso interno di [!DNL Adobe].
+
+## [!DNL Target Standard/Premium] 26.7.5 (30 luglio 2026)
+
+**Attività**
+
++++Vedi i dettagli
+
+* **Le statistiche bayesiane per le attività [!DNL A/B Test (Manual)]** [!DNL A/B Test (Manual)] ora supportano le statistiche bayesiane come alternativa al test t di Welch. Scegli la metodologia statistica in [!UICONTROL Obiettivi e impostazioni]: il rapporto di un&#39;attività bayesiana mostra metriche decisionali basate sulla probabilità, ad esempio [!UICONTROL Possibilità di controllo battute], e intervalli credibili invece dell&#39;intervallo di attendibilità del frequentatore. [Ulteriori informazioni](../c-reports/statistical-methodology/statistical-calculations.md)
+
+* Generazione rapporti **[!DNL Customer Journey Analytics]per [!DNL Auto-Allocate] attività.** Le attività [!DNL Auto-Allocate] possono ora utilizzare [!DNL Customer Journey Analytics] come origine per la generazione di rapporti, oltre a [!DNL Target] e [!DNL Adobe Analytics] (A4T). [Ulteriori informazioni](../c-integrating-target-with-mac/cja/target-reporting-in-cja.md)
+
++++
+
+**[!UICONTROL Compositore esperienza visivo] (VEC)**
+
++++Vedi i dettagli
+
+* **Impossibile selezionare o modificare le offerte HTML nell&#39;attività.** È stato risolto un problema che causava l&#39;arresto anomalo del [!UICONTROL Compositore esperienza visivo] a causa del quale l&#39;aggiunta di alcune offerte HTML o di frammenti di esperienza a un&#39;attività impediva la selezione o la modifica delle offerte. (TGT-55732)
+
++++
 
 ## [!DNL Target Standard/Premium] 26.7.4 (23 luglio 2026)
 

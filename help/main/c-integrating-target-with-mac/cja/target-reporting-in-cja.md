@@ -22,10 +22,10 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 28043bff2987da0280091df9c935a4644309b1c0
+source-git-commit: 5b60a40e83437c535ccb3a7e7800493619fc62c8
 workflow-type: tm+mt
-source-wordcount: 1580
-ht-degree: 32%
+source-wordcount: 1754
+ht-degree: 20%
 
 ---
 
@@ -49,13 +49,13 @@ Prima di utilizzare l&#39;integrazione di [!DNL Customer Journey Analytics] e [!
 
 * Per utilizzare [!DNL Customer Journey Analytics] come origine per la generazione di rapporti per [!DNL Target], sia tu che la tua società dovete avere accesso ad [!DNL Customer Journey Analytics] e a [!DNL Target]. Se hai bisogno di accedere a una delle soluzioni, contatta l’amministratore della tua organizzazione o il rappresentante del tuo account.
 * Per creare attività [!DNL Target] con reporting [!DNL Customer Journey Analytics], è necessario avere il ruolo &quot;[!UICONTROL Approvatore]&quot; o &#39;[!UICONTROL Editor]&quot; in [!DNL Target].
-   * Se la tua organizzazione dispone di un account [Target Standard](/help/main/c-intro/intro.md#section_ACD5EFF17AAB4E979CBEFA0145CCD905), consulta [Specificare ruoli e autorizzazioni](/help/main/administrating-target/c-user-management/c-user-management/user-management.md#roles-permissions) in *Utenti*.
-   * Se si dispone di un account [Target Premium](/help/main/c-intro/intro.md#premium), consulta [Ruoli e autorizzazioni](/help/main/administrating-target/c-user-management/property-channel/property-channel.md#roles-permissions) in *Autorizzazioni per gli utenti Enterprise*.
+  * Se la tua organizzazione dispone di un account [Target Standard](/help/main/c-intro/intro.md#section_ACD5EFF17AAB4E979CBEFA0145CCD905), consulta [Specificare ruoli e autorizzazioni](/help/main/administrating-target/c-user-management/c-user-management/user-management.md#roles-permissions) in *Utenti*.
+  * Se si dispone di un account [Target Premium](/help/main/c-intro/intro.md#premium), consulta [Ruoli e autorizzazioni](/help/main/administrating-target/c-user-management/property-channel/property-channel.md#roles-permissions) in *Autorizzazioni per gli utenti Enterprise*.
 
 * Essere parte di un ruolo in [!DNL Adobe Experience Platform] per impostare un&#39;attività [!DNL Target] con [!DNL Customer Journey Analytics] come origine per la generazione di rapporti. Per ulteriori informazioni, vedere [Aggiungere un ruolo in [!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/it/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/configure-permissions#add-a-role-in-adobe-experience-platform-requires-a-system-administrator-or-product-admin){target=_blank} in *Configurare le autorizzazioni* nell&#39;esercitazione *Architetto dati e ingegnere.*
 * A seconda delle impostazioni, il reporting può essere modificato per attività o a livello di organizzazione. Consulta [Soluzione Reporting Cloud](/help/main/administrating-target/reporting.md#solution) in *Configurare il reporting in Target*.
 * Per la generazione dei rapporti, utilizza un’origine o l’altra. Non è possibile raccogliere dati per una singola attività da diverse origini di reporting.
-* Quando imposti [!DNL Customer Journey Analytics] come origine di reporting, ti viene richiesto di specificare la sandbox per la generazione dei rapporti. Durante la configurazione, vengono visualizzate solo le sandbox a cui hai accesso.
+* Quando imposti [!DNL Customer Journey Analytics] come origine per la generazione dei rapporti, ti viene richiesto di specificare la sandbox e la visualizzazione dati per la generazione dei rapporti. Durante la configurazione, vengono visualizzate solo le sandbox e le visualizzazioni dati a cui hai accesso.
 * Tutte le attività [!DNL Target] esistenti continuano a utilizzare la raccolta dati [!DNL Target] e non sono interessate dall&#39;abilitazione di questa integrazione.
 * Per utilizzare questa integrazione, il metodo di implementazione preferito ha [[!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/it/docs/experience-platform){target=_blank} e [!DNL Target] implementati tramite [[!DNL Adobe Experience Platform Web SDK]](https://experienceleague.adobe.com/it/docs/target-dev/developer/client-side/aep/aep-web-sdk-overview){target=_blank}.
 
@@ -76,22 +76,25 @@ I seguenti tipi di attività sono supportati quando si utilizza [Adobe Experienc
 | Tipi di attività | Supportate? |
 |--- |--- |
 | [Attività A/B con suddivisione manuale del traffico](/help/main/c-activities/t-test-ab/test-ab.md) | Sì |
-| [Attività A/B con allocazione automatica](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | No |
+| [Attività A/B con allocazione automatica](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | Sì |
 | [Attività A/B con targeting automatico](/help/main/c-activities/auto-target/auto-target-to-optimize.md) | No |
 | [Targeting delle esperienze (XT)](/help/main/c-activities/t-experience-target/experience-target.md) | Sì |
 | [Test multivariato (MVT)](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md) | Sì |
 | [Attività di Automated Personalization (AP)](/help/main/c-activities/t-automated-personalization/automated-personalization.md) | No |
 | [Attività di Consigli](/help/main/c-recommendations/recommendations.md) | Sì |
 
-## Creare un’attività che utilizza [!DNL Customer Journey Analytics] come origine di reporting
+Le attività [!UICONTROL Targeting automatico] e [!UICONTROL Automated Personalization] non supportano ancora [!DNL Customer Journey Analytics] come origine per la generazione di rapporti.
 
-La creazione di un’attività [!DNL Target] che utilizza [!DNL Customer Journey Analytics] come origine di reporting è simile alla configurazione di una normale attività [!DNL Target].
+## Creare un’attività che utilizza [!DNL Customer Journey Analytics] come origine di reporting {#create-an-activity-that-uses-customer-journey-analytics-as-the-reporting-source}
+
+La creazione di un’attività [!DNL Target] che utilizza [!DNL Customer Journey Analytics] come origine di reporting è simile alla configurazione di una normale attività [!DNL Target]. Questo flusso di lavoro si applica a tutti i tipi di attività supportati nella tabella precedente, inclusi i test A/B di [!UICONTROL Allocazione automatica].
 
 >[!TIP]
 >
 >È inoltre possibile specificare che [!DNL Target] utilizza la creazione di rapporti in [!DNL Customer Journey Analytics] per tutte le attività create nel tuo account (**[!UICONTROL Amministrazione]** > **[!UICONTROL Generazione rapporti]** > **[!UICONTROL Soluzione Experience Cloud per la generazione di rapporti]**). Per ulteriori informazioni, consulta *Soluzione Reporting Cloud* in [Configurare la generazione di rapporti in [!DNL Target]](/help/main/administrating-target/reporting.md#solution).
 
 1. Dall&#39;elenco **[!UICONTROL Attività]**, fai clic su **[!UICONTROL Crea attività]**, quindi seleziona il tipo di attività (in base al [grafico attività supportato sopra](#supported-activities)) e inizia a configurare l&#39;attività.
+
 1. Quando si accede alla pagina **[!UICONTROL Obiettivi e impostazioni]** del flusso di lavoro di creazione attività in tre parti, selezionare **[!DNL Customer Journey Analytics]** come origine per la generazione di rapporti.
 
    ![Customer Journey Analytics come opzione di origine di reporting](/help/main/c-integrating-target-with-mac/cja/assets/cja-as-reporting-source.png)
@@ -100,15 +103,19 @@ La creazione di un’attività [!DNL Target] che utilizza [!DNL Customer Journey
    >
    >Impossibile modificare l’origine di reporting quando l’attività [!DNL Target] è già live.
 
-1. Seleziona una sandbox.
-
-   In questo elenco a discesa sono visualizzate solo le sandbox a cui hai accesso. Se una o più delle sandbox a cui hai accesso non è presente nell’elenco, verifica di avere l’accesso. Contatta l’[Assistenza clienti](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) se i problemi persistono.
+1. Selezionare la sandbox [!DNL Adobe Experience Platform] che corrisponde ai dati utilizzati per il reporting di [!DNL Customer Journey Analytics]. In questo elenco a discesa sono visualizzate solo le sandbox a cui hai accesso. Se una o più delle sandbox a cui hai accesso non è presente nell’elenco, verifica di avere l’accesso. Contatta l’[Assistenza clienti](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) se i problemi persistono.
 
    ![Seleziona opzione sandbox](/help/main/c-integrating-target-with-mac/cja/assets/sandbox.png)
 
-1. Specifica l’obiettivo dell’attività.
+1. Seleziona una **[!UICONTROL Visualizzazione dati]**. Una visualizzazione dati funziona come una suite di rapporti [!DNL Analytics] per [!DNL Customer Journey Analytics]. Vengono visualizzate solo le visualizzazioni dati nella sandbox selezionata a cui hai accesso.
 
-   Seleziona una metrica di successo da utilizzare come obiettivo per ogni attività. Puoi scegliere una delle metriche di conversione di [!DNL Target] o utilizzare una metrica di [!DNL Customer Journey Analytics].
+   ➡️ [Ulteriori informazioni sulla visualizzazione dati nella documentazione di Adobe Customer Journey Analytics](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-dataviews/data-views)
+
+1. Specifica la metrica di obiettivo. Scegliere una delle opzioni seguenti:
+
+   * **[!UICONTROL Conversione]**: scegli l&#39;azione che il pubblico deve intraprendere per indicare che l&#39;obiettivo è stato raggiunto. [Ulteriori informazioni sulle metriche di successo](/help/main/c-activities/r-success-metrics/success-metrics.md).
+
+   * **[!UICONTROL Usa una metrica di Customer Journey Analytics]**: scegliere una metrica [!DNL Customer Journey Analytics] o una metrica calcolata dalla visualizzazione dati selezionata. Questa metrica funge da criterio di ottimizzazione. Il modello viene eseguito sui dati [!DNL Customer Journey Analytics] e aggiorna i dati sulle prestazioni con la stessa frequenza utilizzata per il reporting [!DNL Customer Journey Analytics].
 
    ![Utilizza un’opzione di metrica di Customer Journey Analytics in Metrica per obiettivo](/help/main/c-integrating-target-with-mac/cja/assets/goal-metric.png)
 
@@ -116,13 +123,13 @@ La creazione di un’attività [!DNL Target] che utilizza [!DNL Customer Journey
 
 ## Configurare una connessione a [!DNL Customer Journey Analytics]
 
-Dopo la creazione di un’attività [!DNL Target], è necessario creare una connessione in [!DNL Customer Journey Analytics]. Se hai già impostato una connessione, puoi utilizzarla e saltare al passaggio 4 seguente. La connessione consente a [!DNL Customer Journey Analytics] di iniziare a estrarre dati dal set di dati per il reporting.
+Dopo aver creato l&#39;attività [!DNL Target], configurare [!DNL Customer Journey Analytics] per estrarre i dati per il reporting. La configurazione segue il flusso di lavoro di connessione standard [!DNL Customer Journey Analytics]. Se hai già configurato una connessione, puoi usare quella esistente e passare a [Configura visualizzazioni dati](#set-up-data-views).
 
-1. In [!DNL Customer Journey Analytics], nella pagina **[!UICONTROL Connessioni]**, fare clic su **[!UICONTROL Crea una nuova connessione]**.
+1. In [!DNL Customer Journey Analytics], vai a **[!UICONTROL Gestione dati]** > **[!UICONTROL Connessioni]**, quindi fai clic su **[!UICONTROL Crea una nuova connessione]**.
 
    ![Crea nuovo collegamento connessione in [!DNL Customer Journey Analytics]](/help/main/c-integrating-target-with-mac/cja/assets/create-connection.png)
 
-1. Configura la [connessione e le impostazioni dei dati](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-connections/overview){target=_blank} con le informazioni corrette.
+1. Configura la [connessione e le impostazioni dei dati](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-connections/overview){target=_blank} con le informazioni corrette, inclusa la stessa sandbox [!DNL Adobe Experience Platform] selezionata per l&#39;attività.
 1. Aggiungi il set di dati evento utilizzato durante la configurazione dello stream di dati.
 1. Aggiungi il set di dati di ricerca **[!UICONTROL Adobe Target Classification Events]**, quindi fai clic su **[!UICONTROL Next]**.
 
@@ -142,15 +149,15 @@ Dopo la creazione di un’attività [!DNL Target], è necessario creare una conn
 
 1. Fai clic su **[!UICONTROL Aggiungi set di dati]**, quindi fai clic su **[!UICONTROL Salva]** nella schermata successiva per completare la connessione.
 
-## Impostare le visualizzazioni dati
+## Impostare le visualizzazioni dati {#set-up-data-views}
 
-Configurare una visualizzazione dati in [!DNL Customer Journey Analytics]. Una visualizzazione dati garantisce che i dati della connessione possano essere utilizzati correttamente.
+Configurare una visualizzazione dati in [!DNL Customer Journey Analytics] che punti alla connessione creata. Una visualizzazione dati garantisce che i dati della connessione possano essere utilizzati correttamente per l&#39;analisi e per il pannello [!UICONTROL Sperimentazione].
 
 1. Configura la visualizzazione dati e accertati che punti alla connessione creata in precedenza.
 
    Per ulteriori informazioni, vedere [Creare o modificare una visualizzazione dati](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-dataviews/create-dataview){target=_blank} nella Guida di *[!DNL Adobe Customer Journey Analytics]*.
 
-1. Per visualizzare correttamente i dati [!DNL Target] in [!DNL Customer Journey Analytics], è necessario aggiungere come dimensioni i campi seguenti dal set di dati di ricerca:
+1. Per visualizzare correttamente i dati di [!DNL Target] in [!DNL Customer Journey Analytics], aggiungi i seguenti campi del set di dati di ricerca come dimensioni (incluso [!UICONTROL Experience ID] e [!UICONTROL Activity ID]):
 
    * [!UICONTROL Nome esperienza]
    * [!UICONTROL ID esperienza]
@@ -176,9 +183,7 @@ Configurare una visualizzazione dati in [!DNL Customer Journey Analytics]. Una v
 
 ## Crea e visualizza i report attività in [!DNL Customer Journey Analytics]
 
-Dopo aver completato l&#39;installazione, [!DNL Customer Journey Analytics] tramite [!DNL Adobe Experience Cloud] o la scheda [!UICONTROL Report] dell&#39;attività in [!DNL Target].
-
-La scheda Rapporti ha un collegamento **[!UICONTROL Visualizza in Customer Journey Analytics]**. Attualmente, questo collegamento ti reindirizza alla pagina di destinazione principale [!DNL Customer Journey Analytics].
+Dopo che l&#39;attività è attiva e hai completato la connessione e la configurazione della visualizzazione dati, i dati di reporting sono disponibili in [!DNL Customer Journey Analytics]. Dalla scheda **[!UICONTROL Report]** dell&#39;attività in [!DNL Target], utilizzare **[!UICONTROL Visualizza in Customer Journey Analytics]** per aprire [!DNL Customer Journey Analytics] per l&#39;analisi. Attualmente, questo collegamento ti reindirizza alla pagina di destinazione principale [!DNL Customer Journey Analytics].
 
 ![Collegamento per la generazione di rapporti di CJA](/help/main/c-integrating-target-with-mac/cja/assets/report-link.png)
 
