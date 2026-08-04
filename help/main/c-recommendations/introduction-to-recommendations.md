@@ -20,7 +20,7 @@ topic_v2:
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 2109
+source-wordcount: 2110
 ht-degree: 83%
 
 ---
@@ -206,4 +206,4 @@ Ad esempio, nel contesto dei contenuti, puoi escludere i film che il visitatore 
 
 ## Demo
 
-Una volta completate le attività illustrate qui sopra nel funnel per la generazione dei consigli, si passa alla fase di creazione finale. Per assistere a una dimostrazione all&#39;interno di [!DNL Target], la demo inizia al 21:00 nel *webinar sulle nozioni di base di Adobe Target*, tramite il collegamento seguente.
+Una volta completate le attività illustrate qui sopra nel funnel per la generazione dei consigli, si passa alla fase di creazione finale. Per una dimostrazione all&#39;interno di [!DNL Target], la demo inizia alle 21:00 nel *webinar sulle nozioni di base di Adobe Target*, collegato di seguito.
