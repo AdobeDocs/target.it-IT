@@ -138,7 +138,7 @@ Scopri come personalizzare l’hit successivo con [!DNL Real-Time Customer Data 
 
 Per ulteriori informazioni, consulta [Personalizzazione dell&#39;hit successivo con Real-Time CDP e Adobe Target](https://experienceleague.adobe.com/docs/platform-learn/tutorials/experience-cloud/next-hit-personalization.html?lang=it){target=_blank} nella *Guida ai tutorial su Platform*.
 
->[!VIDEO](https://video.tv.adobe.com/v/340091?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/342978?captions=ita&quality=12&learn=on)
 
 ### Video: configurare la destinazione [!DNL Adobe Target] in [!DNL Real-Time Customer Data Platform]
 
