@@ -7,21 +7,14 @@ title: Cosa è incluso nella versione corrente?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 TQID: https://experienceleague.adobe.com/-Unx6cVsw3wch2LJgPtvBYPe-10rdpiJ4v9F7tMSP08
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
-subfeature_v2:
-  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 4111bfa406259af6fb0877170fd7d80b11c22482
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: c93393a4-e558-47e1-992e-c91ed4d480ce
+subfeature_v2: id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 0ff60ed8b6fedd553d6df67e122a8a0b6520cce9
 workflow-type: tm+mt
-source-wordcount: 1046
-ht-degree: 26%
+source-wordcount: 529
+ht-degree: 50%
 
 ---
 
@@ -31,133 +24,33 @@ Esplora le funzioni, i miglioramenti e le correzioni più recenti in [!DNL Adobe
 
 I codici dei problemi tra parentesi sono per uso interno di [!DNL Adobe].
 
-## [!DNL Target Standard/Premium] 26.7.5 (30 luglio 2026)
+## [!DNL Target Standard/Premium] 26.8.2 (11 agosto 2026)
 
-**Attività**
+**Tipi di pubblico**
 
 +++Vedi i dettagli
 
-* **Le statistiche bayesiane per le attività [!DNL A/B Test (Manual)]** [!DNL A/B Test (Manual)] ora supportano le statistiche bayesiane come alternativa al test t di Welch. Scegli la metodologia statistica in [!UICONTROL Obiettivi e impostazioni]: il rapporto di un&#39;attività bayesiana mostra metriche decisionali basate sulla probabilità, ad esempio [!UICONTROL Possibilità di controllo battute], e intervalli credibili invece dell&#39;intervallo di attendibilità del frequentatore. [Ulteriori informazioni](../c-reports/statistical-methodology/statistical-calculations.md)
-
-* Generazione rapporti **[!DNL Customer Journey Analytics]per [!DNL Auto-Allocate] attività.** Le attività [!DNL Auto-Allocate] possono ora utilizzare [!DNL Customer Journey Analytics] come origine per la generazione di rapporti, oltre a [!DNL Target] e [!DNL Adobe Analytics] (A4T). [Ulteriori informazioni](../c-integrating-target-with-mac/cja/target-reporting-in-cja.md)
+* **Impossibile copiare e salvare una modifica del codice personalizzato in un&#39;attività utilizzando un pubblico per sola attività.** È stato risolto un problema che impediva il salvataggio della copia di un&#39;attività che utilizzava un pubblico per sola attività con un errore &quot;ID pubblico non validi&quot; dopo l&#39;aggiunta di una modifica al codice personalizzato. (TGT-55785)
 
 +++
+
+**Localizzazione**
+
++++Vedi i dettagli
+
+* **Caratteri multibyte danneggiati nell&#39;URL attività.** È stato risolto un problema che causava il danneggiamento dei caratteri multibyte nell&#39;URL attività in [!UICONTROL Compositore esperienza visivo] e nella scheda **[!UICONTROL Conflitti]**. (TGT-55708)
+
+* **Messaggio di errore non localizzato all&#39;apertura di una progettazione eliminata.** È stato risolto un problema che impediva di trovare la **[!UICONTROL risorsa richiesta]**. Il messaggio di errore non veniva localizzato quando si tentava di aprire una progettazione eliminata da un altro utente. (TGT-50902)
+
++++
+
+## [!DNL Target Standard/Premium] 26.8.1 (4 agosto 2026)
 
 **[!UICONTROL Compositore esperienza visivo] (VEC)**
 
 +++Vedi i dettagli
 
-* **Impossibile selezionare o modificare le offerte HTML nell&#39;attività.** È stato risolto un problema che causava l&#39;arresto anomalo del [!UICONTROL Compositore esperienza visivo] a causa del quale l&#39;aggiunta di alcune offerte HTML o di frammenti di esperienza a un&#39;attività impediva la selezione o la modifica delle offerte. (TGT-55732)
-
-+++
-
-## [!DNL Target Standard/Premium] 26.7.4 (23 luglio 2026)
-
-**Generazione di rapporti**
-
-+++Vedi i dettagli
-
-* **Il grafico del tasso di conversione non è disponibile per un pubblico specifico per dispositivi mobili.** È stato risolto un problema che impediva il rendering del grafico [!UICONTROL Tasso di conversione] per alcuni tipi di pubblico di dispositivi mobili. (TGT-55611)
-
-* **Obiettivo di conversione &quot;Visualizzazione di una mbox&quot; non funzionante se selezionato dal menu a discesa.** È stato risolto un problema che impediva la registrazione delle conversioni quando si selezionava una mbox dal menu a discesa in [!UICONTROL Obiettivi e impostazioni] per un obiettivo di conversione &quot;Visualizzazione di una mbox&quot;. Il nome della mbox veniva salvato in modo errato. (TGT-55588)
-
-+++
-
-**Tipi di pubblico**
-
-+++Vedi i dettagli
-
-* **Problema di layout nella pagina Libreria tipi di pubblico.** È stato risolto un problema di layout che si verificava quando i filtri erano abilitati nella pagina [!UICONTROL Libreria pubblico] mentre la navigazione laterale era compressa. (TGT-55502)
-
-+++
-
-**[!UICONTROL Compositore esperienza visivo] (VEC)**
-
-+++Vedi i dettagli
-
-* **La versione mobile non viene caricata correttamente.** È stato risolto un problema che impediva il corretto caricamento della visualizzazione mobile in [!UICONTROL Compositore esperienza visivo]. (TGT-54408)
-
-* **Impossibile modificare o eliminare le azioni di modifica.** È stato risolto un problema che impediva il funzionamento della modifica o dell&#39;eliminazione di una modifica dalla visualizzazione [!UICONTROL Modifica esperienza]. (TGT-55250)
-
-* **La modalità Sfoglia non risponde dopo il caricamento dell&#39;attività.** È stato risolto un problema che causava la mancata risposta della modalità [!UICONTROL Sfoglia] per le esperienze contenenti una modifica, impedendo ulteriori attività di navigazione e authoring. (TGT-55306)
-
-* **Impossibile selezionare elementi in Salesforce LWC (DOM shadow).** È stato risolto un problema che impediva al [!UICONTROL Compositore esperienza visivo] di selezionare elementi nidificati all&#39;interno di Salesforce Lightning Web Components utilizzando Shadow DOM, causando un errore di tipo &quot;selettore non trovato&quot;. (TGT-54956)
-
-* **Offerte duplicate visualizzate nel [!UICONTROL Compositore esperienza visivo].** È stato risolto un problema a causa del quale le modifiche e le offerte venivano visualizzate in modo intermittente duplicate nell’interfaccia utente di authoring delle attività. (TGT-55685)
-
-+++
-
-**Amministrazione**
-
-+++Vedi i dettagli
-
-* **L&#39;Assistente alla generazione dei contenuti è stato rinominato [!UICONTROL Genera contenuto].** La funzionalità di generazione dei contenuti &quot;Assistente IA&quot; è stata rinominata [!UICONTROL Genera contenuto] nelle superfici dell&#39;interfaccia utente [!DNL Target]. (TGT-55689)
-
-+++
-
-**Funzione Consigli**
-
-+++Vedi i dettagli
-
-* **Consigli basati sulla popolarità utilizzando gli attributi del profilo.** [!DNL Target] ora supporta il raggruppamento dei consigli di popolarità, Più visualizzati e Più venduti, in modo dinamico in base agli attributi del profilo del visitatore come paese, lingua preferita o livello di iscrizione. (TAPER-7614)
-
-* **Mancata corrispondenza della raccolta di consigli tra [!UICONTROL Raccolte] e la configurazione dell&#39;attività.** È stato risolto un problema a causa del quale una raccolta di [!UICONTROL Recommendations] restituiva entità aggiuntive non qualificate quando veniva visualizzata dalla configurazione dell&#39;attività rispetto alla visualizzazione di [!UICONTROL Recommendations] > [!UICONTROL Collections]. (TGT-55554)
-
-+++
-
-## [!DNL Target Standard/Premium] 26.7.2 (16 luglio 2026)
-
-**Attività**
-
-+++Vedi i dettagli
-
-* **Informazioni obiettivo errate nella pagina [!UICONTROL Panoramica attività].** È stato risolto un problema a causa del quale la pagina [!UICONTROL Panoramica attività] per [!DNL Automated Personalization] attività mostrava obiettivi aggiuntivi invece dell&#39;obiettivo di ottimizzazione. (TGT-55553)
-
-* **Schermata non reattiva durante la navigazione nelle pagine in modalità [!UICONTROL Sfoglia].** È stato risolto un problema che causava la mancata risposta della schermata durante la navigazione tra le pagine in modalità [!UICONTROL Sfoglia]. (TGT-55565)
-
-+++
-
-**Home page**
-
-+++Vedi i dettagli
-
-* **Modifica dell&#39;interfaccia utente per [!UICONTROL Principali esecutori] e [!UICONTROL Salvataggi].** È stata aggiornata l&#39;interfaccia utente per i migliori esecutori e consente di salvare l&#39;esperienza. (TGT-54975)
-
-+++
-
-**Tipi di pubblico**
-
-+++Vedi i dettagli
-
-* **Stringhe non localizzate nella finestra di dialogo [!UICONTROL Crea script di profilo].** È stato risolto un problema che impediva la localizzazione delle stringhe nella finestra di dialogo [!UICONTROL Crea script profilo]. (TGT-51527)
-
-+++
-
-## [!DNL Target Standard/Premium] 26.7.1 (9 luglio 2026)
-
-**Attività**
-
-+++Vedi i dettagli
-
-* **Visualizzazione origine incoerente nelle [!UICONTROL Attività], [!UICONTROL Tipi di pubblico] e [!UICONTROL Offerte] pagine.** È stato risolto un problema che causava la visualizzazione incoerente dell&#39;origine tra le pagine [!UICONTROL Attività], [!UICONTROL Tipi di pubblico] e [!UICONTROL Offerte]. (TGT-55247)
-
-* **Modifiche all&#39;origine dell&#39;attività durante la modifica tramite l&#39;interfaccia utente.** È stato risolto un problema a causa del quale la modifica di un’attività tramite l’interfaccia utente modificava l’origine dell’attività originale. (TGT-55248)
-
-+++
-
-**Tipi di pubblico**
-
-+++Vedi i dettagli
-
-* **Area di lavoro predefinita non corretta durante la modifica di un pubblico.** È stato risolto un problema a causa del quale l’area di lavoro predefinita non era corretta dopo aver modificato un pubblico. (TGT-55510)
-
-+++
-
-**Generazione di rapporti**
-
-+++Vedi i dettagli
-
-* **Errore di download CSV per i report di maggio.** È stato risolto un problema che impediva il download di un rapporto CSV di maggio. (TGT-55524)
+* **Icone troncate nel pannello [!UICONTROL Tipi di pubblico esperienza].** È stato risolto un problema a causa del quale le icone **[!UICONTROL Aggiungi]** ed espandi/comprimi erano nascoste o troncate nel pannello **[!UICONTROL Tipi di pubblico esperienza]** durante la creazione dell&#39;attività. (TGT-55372)
 
 +++
 
