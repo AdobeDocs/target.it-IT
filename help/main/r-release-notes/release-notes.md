@@ -18,10 +18,10 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ff60ed8b6fedd553d6df67e122a8a0b6520cce9
+source-git-commit: 51f1eb085a253559ccd58407f5b508e5b094b297
 workflow-type: tm+mt
-source-wordcount: 529
-ht-degree: 50%
+source-wordcount: 564
+ht-degree: 47%
 
 ---
 
@@ -30,6 +30,16 @@ ht-degree: 50%
 Esplora le funzioni, i miglioramenti e le correzioni più recenti in [!DNL Adobe Target]. Queste note sulla versione descrivono anche gli aggiornamenti alle API [!DNL Target], agli SDK, a [!DNL Adobe Experience Platform Web SDK], at.js e ad altri componenti della piattaforma, se applicabili.
 
 I codici dei problemi tra parentesi sono per uso interno di [!DNL Adobe].
+
+## [!DNL Target Standard/Premium] 26.8.3 (13 agosto 2026)
+
+**Attività e pubblico**
+
++++Vedi i dettagli
+
+* **Modifica abilitata per le attività e i tipi di pubblico creati da API/MCP.** È ora possibile modificare le attività e i tipi di pubblico creati tramite l&#39;API di amministrazione [!DNL Adobe Target] e MCP [!DNL Target] nell&#39;interfaccia utente [!DNL Target].
+
++++
 
 ## [!DNL Target Standard/Premium] 26.8.2 (11 agosto 2026)
 

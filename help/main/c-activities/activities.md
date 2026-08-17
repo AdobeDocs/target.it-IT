@@ -17,10 +17,10 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+source-git-commit: 51f1eb085a253559ccd58407f5b508e5b094b297
 workflow-type: tm+mt
-source-wordcount: 2633
-ht-degree: 25%
+source-wordcount: 2648
+ht-degree: 24%
 
 ---
 
@@ -57,7 +57,7 @@ La tabella seguente ti aiuta a comprendere vari elementi dell&#39;elenco [!UICON
 | [!UICONTROL Priorità] | La priorità dell’attività.<P>La priorità è utilizzata se più attività vengono assegnate alla stessa posizione con lo stesso pubblico. Se due o più attività vengono assegnate alla posizione, viene visualizzata l’attività con priorità maggiore.<P>A seconda delle [impostazioni](/help/main/administrating-target/reporting.md), l&#39;interfaccia utente di [!DNL Target] e le opzioni per [!UICONTROL Priorità] variano. Puoi utilizzare le impostazioni legacy di [!UICONTROL Bassa], [!UICONTROL Medium] o [!UICONTROL Alta] oppure abilitare le priorità precise da 0 a 999.<P>Per ulteriori informazioni sulle impostazioni di priorità, vedere [Priorità](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_DCBDC354261F420EBD4B43EA34947BAC) in *Impostazioni attività* in *Obiettivi e impostazioni*. |
 | [!UICONTROL Proprietà] | Mostra la [proprietà](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) per l’attività.<P>Le autorizzazioni per gli utenti Enterprise sono una funzionalità di [Target Premium](/help/main/c-intro/intro.md#premium). |
 | [!UICONTROL Incremento stimato dei ricavi] | Mostra l&#39;aumento previsto dei ricavi se il 100% del pubblico visualizza l&#39;esperienza vincente.<P>È calcolato con la seguente formula:<P>`(<winning experience> - <control experience>)*<total number of visitors>`<P>Se nella forma condensata è presente solo una cifra prima del decimale, il risultato viene arrotondato al massimo a una cifra decimale. Ad esempio: $ 1,6 M, $ 60 K, $ 900, $ 8,5 K, $ 205 K.<P>In questa colonna viene visualizzato “---” per le attività prive di dati sufficienti per richiamare una visualizzazione vincente o prive di un preventivo di spesa.<P>Consulta [Stima dell’incremento dei ricavi](/help/main/administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md) per maggiori informazioni. |
-| [!UICONTROL Source] | Mostra dove è stata creata l&#39;attività: [!DNL Adobe Target], [API Adobe Target](https://experienceleague.adobe.com/it/docs/target-dev/developer/overview), [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform.html?lang=it), [Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-cloud-service.html?lang=it) o [Adobe Mobile Services](https://developer.adobe.com/client-sdks/documentation/). |
+| [!UICONTROL Source] | Mostra dove è stata creata l&#39;attività: [!DNL Adobe Target], [API Adobe Target](https://experienceleague.adobe.com/it/docs/target-dev/developer/overview), [[!DNL Adobe Target] server MCP](/help/main/c-integrating-target-with-mac/mcp/target-mcp.md), [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform.html?lang=it), [Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-cloud-service.html?lang=it) o [Adobe Mobile Services](https://developer.adobe.com/client-sdks/documentation/). |
 | [!UICONTROL Autore] | Nome della persona che ha creato l&#39;attività. |
 | [!UICONTROL Metodo di decisione] | Il metodo decisionale utilizzato in ogni attività: [Lato server](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/on-device-decisioning/overview.html?lang=it) o [Lato client](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/on-device-decisioning/on-device-decisioning.html). |
 
@@ -91,7 +91,7 @@ Il menu consente di filtrare le attività in base ai seguenti attributi:
 | [!UICONTROL Compositore esperienza] | Filtro in base al quale il compositore esperienza è stato utilizzato durante la creazione dell’attività:<ul><li>[Visivo](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md): visualizza le attività create utilizzando il [!UICONTROL Compositore esperienza visivo].</li><li>[Basato su modulo](/help/main/c-experiences/form-experience-composer.md): visualizza le attività create utilizzando [!UICONTROL Compositore esperienza basato su modulo].</li></ul> |
 | [!UICONTROL Tipo di metrica] | Filtro in base al quale [metrica di successo](/help/main/c-activities/r-success-metrics/success-metrics.md) è stata scelta durante la creazione dell&#39;attività.<ul><li>[!UICONTROL Conversione]</li><li>[!UICONTROL Ricavi]</li><li>[!UICONTROL Coinvolgimento]</li><li>[!UICONTROL Usa una metrica di Analytics]</lI></ul> |
 | [!UICONTROL Metodo di decisione] | Filtra in base al metodo decisionale utilizzato in ogni attività.<ul><li>[Lato server](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/on-device-decisioning/overview.html?lang=it): visualizza le attività che utilizzano le decisioni lato server.</li><li>[Lato client](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/on-device-decisioning/on-device-decisioning.html): visualizza le attività che utilizzano le decisioni lato client.</li></ul> |
-| [!UICONTROL Source attività] | Filtra in base all’origine dell’attività utilizzata per creare ogni attività.<ul><li>[!DNL Adobe Target]</li><li>[[!DNL Adobe Target] API](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=it)</li><li>[[!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/docs/experience-platform.html?lang=it)</li><li>[[!DNL Adobe Experience Manager]](https://experienceleague.adobe.com/docs/experience-manager-cloud-service.html?lang=it)</li><li>[[!DNL Adobe Mobile Services]](https://developer.adobe.com/client-sdks/home/)</li></ul> |
+| [!UICONTROL Source attività] | Filtra in base all’origine dell’attività utilizzata per creare ogni attività.<ul><li>[!DNL Adobe Target]</li><li>[[!DNL Adobe Target] API](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=it)</li><li>[[!DNL Adobe Target] Server MCP](/help/main/c-integrating-target-with-mac/mcp/target-mcp.md)</li><li>[[!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/docs/experience-platform.html?lang=it)</li><li>[[!DNL Adobe Experience Manager]](https://experienceleague.adobe.com/docs/experience-manager-cloud-service.html?lang=it)</li><li>[[!DNL Adobe Mobile Services]](https://developer.adobe.com/client-sdks/home/)</li></ul> |
 | [!UICONTROL Proprietà] | Filtra in base alla [proprietà](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) in cui è stata creata l&#39;attività. |
 
 
@@ -111,7 +111,7 @@ Sono disponibili le seguenti azioni (a seconda delle autorizzazioni e dello stat
 
 | Azione | Descrizione |
 | --- | --- |
-| [!UICONTROL Modifica] | Modifica l&#39;attività. Qualsiasi attività può essere modificata.<P>Per ulteriori informazioni sulle diverse modalità di modifica delle attività, vedere [Modificare un&#39;attività o salvarla come bozza](/help/main/c-activities/edit-activity.md). |
+| [!UICONTROL Modifica] | Modifica l&#39;attività. È possibile modificare qualsiasi attività, incluse quelle create tramite l&#39;API [!DNL Adobe Target] o il server MCP [!DNL Adobe Target].<P>Per ulteriori informazioni sulle diverse modalità di modifica delle attività, vedere [Modificare un&#39;attività o salvarla come bozza](/help/main/c-activities/edit-activity.md). |
 | [!UICONTROL Disattiva] | Interrompe un&#39;attività in esecuzione o pianificata. Un’attività disattivata può essere riattivata o archiviata.<P>Se disattivi o archivi un’attività e poi la riattivi in un secondo momento, un visitatore continuerà a esserne parte dopo la riattivazione se vi partecipava prima che fosse disattivata o archiviata. Ogni metrica di conversione registrata durante il periodo trascorso tra i due eventi non verrà attribuita a quell’attività. |
 | [!UICONTROL Attiva] | Avvia un’attività inattiva o pronta per essere attivata. |
 | [!UICONTROL Archivia] | Invia l&#39;attività all&#39;archivio. Per impostazione predefinita, le attività archiviate non vengono più visualizzate nell&#39;elenco [!UICONTROL Attività]. Modifica il filtro per l&#39;elenco [!UICONTROL Attività] in modo da includere le attività archiviate per visualizzarle. È possibile attivare un&#39;attività archiviata per utilizzarla nuovamente.<P>Se disattivi o archivi un’attività e poi la riattivi in un secondo momento, un visitatore continuerà a esserne parte dopo la riattivazione se si trovava in tale attività prima che fosse disattivata o archiviata. Ogni metrica di conversione registrata durante il periodo trascorso tra i due eventi non verrà attribuita a quell’attività. |
@@ -127,11 +127,11 @@ Tieni presente i seguenti dettagli sull&#39;elenco [!UICONTROL Attività]:
 * Tutti i tipi di attività diversi da [!UICONTROL Automated Personalization] (AP), [!UICONTROL Allocazione automatica] e [!UICONTROL Targeting automatico] consentono di scegliere se utilizzare [!DNL Target] o [!DNL Adobe Analytics] come origine dati. [!UICONTROL Automated Personalization], [!UICONTROL Allocazione automatica] e [!UICONTROL Targeting automatico] *utilizza sempre* dati [!DNL Target].
 * Le attività sono disponibili per diversi canali:
 
-   * Siti web e mobili
-   * Schermi e dispositivi collegati a Internet, inclusi chioschi e sportelli automatici
-   * Email e altri canali di acquisizione o siti partner
-   * App mobili
-   * In qualsiasi altro luogo sia possibile fornire contenuti con tag
+  * Siti web e mobili
+  * Schermi e dispositivi collegati a Internet, inclusi chioschi e sportelli automatici
+  * Email e altri canali di acquisizione o siti partner
+  * App mobili
+  * In qualsiasi altro luogo sia possibile fornire contenuti con tag
 
 ## Limitazioni {#section_049D4684403A4E07B998067EB8E9BE56}
 
