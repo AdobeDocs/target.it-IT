@@ -35,7 +35,7 @@ Per ulteriori informazioni su RTCDP, vedere [Panoramica di Real-Time Customer Da
 
 >[!NOTE]
 >
->Questo articolo si concentra sull&#39;integrazione di [!DNL Target]/RTCDP. A partire da agosto 2026, la destinazione **[!UICONTROL Adobe Target]** sottostante nel catalogo delle destinazioni di Experience Platform è disponibile anche per le organizzazioni con [!DNL Adobe Journey Optimizer] che non dispongono di Real-Time CDP. Consulta [Diritto](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html#entitlement){target=_blank} nella guida *Connessione Adobe Target* per informazioni dettagliate sulle funzionalità disponibili per ogni tipo di diritto.
+>Questo articolo si concentra sull&#39;integrazione di [!DNL Target]/RTCDP. A partire da agosto 2026, la destinazione **[!UICONTROL Adobe Target]** sottostante nel catalogo delle destinazioni di Experience Platform è disponibile anche per le organizzazioni con [!DNL Adobe Journey Optimizer] che non dispongono di Real-Time CDP. Consulta [Diritto](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html?lang=it#entitlement){target=_blank} nella guida *Connessione Adobe Target* per informazioni dettagliate sulle funzionalità disponibili per ogni tipo di diritto.
 
 ## Funzioni chiave
 
