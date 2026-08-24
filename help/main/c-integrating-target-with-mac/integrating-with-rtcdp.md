@@ -5,25 +5,14 @@ title: Come posso integrare  [!DNL Target]  con  [!DNL Real-Time Customer Data P
 feature: Integrations
 exl-id: 1c066b62-91a2-4b8c-807a-3cc56fca7778
 TQID: https://experienceleague.adobe.com/0Zw98ulFxHFH-PdV8tmocpOXYCKR2ciKtqFKwD44iiM
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
-  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
-  - id: f7c7de77-382f-4f48-8b36-61a170f06d3d
-subfeature_v2:
-  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 16fb7a1902ea76cab56a93fa141a32a3c6bc4467
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eebid: c93393a4-e558-47e1-992e-c91ed4d480ceid: f7c7de77-382f-4f48-8b36-61a170f06d3d
+subfeature_v2: id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: e0eb8757-182f-49f3-94a4-1587d16f5094id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+source-git-commit: 6d72a6d0a1de27d8cd0286c799e61028d6419761
 workflow-type: tm+mt
-source-wordcount: 1173
-ht-degree: 71%
+source-wordcount: 1239
+ht-degree: 67%
 
 ---
 
@@ -32,6 +21,10 @@ ht-degree: 71%
 Basato su [!DNL Adobe Experience Platform], [!DNL Real-Time Customer Data Platform] (RTCDP) consente alle aziende di riunire dati noti e anonimi provenienti da più origini aziendali. RTCDP consente di creare profili cliente da utilizzare per fornire ai clienti esperienze personalizzate in tempo reale su tutti i canali e i dispositivi.
 
 Per ulteriori informazioni su RTCDP, vedere [Panoramica di Real-Time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html?lang=it){target=_blank}.
+
+>[!NOTE]
+>
+>Questo articolo si concentra sull&#39;integrazione di [!DNL Target]/RTCDP. A partire da agosto 2026, la destinazione **[!UICONTROL Adobe Target]** sottostante nel catalogo delle destinazioni di Experience Platform è disponibile anche per le organizzazioni con [!DNL Adobe Journey Optimizer] che non dispongono di Real-Time CDP. Consulta [Diritto](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html#entitlement){target=_blank} nella guida *Connessione Adobe Target* per informazioni dettagliate sulle funzionalità disponibili per ogni tipo di diritto.
 
 ## Funzioni chiave
 
@@ -138,31 +131,31 @@ Scopri come personalizzare l’hit successivo con [!DNL Real-Time Customer Data 
 
 Per ulteriori informazioni, consulta [Personalizzazione dell&#39;hit successivo con Real-Time CDP e Adobe Target](https://experienceleague.adobe.com/docs/platform-learn/tutorials/experience-cloud/next-hit-personalization.html?lang=it){target=_blank} nella *Guida ai tutorial su Platform*.
 
->[!VIDEO](https://video.tv.adobe.com/v/342978?captions=ita&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/340091?quality=12&learn=on)
 
 ### Video: configurare la destinazione [!DNL Adobe Target] in [!DNL Real-Time Customer Data Platform]
 
 Scopri come configurare la destinazione [!DNL Adobe Target] in [!DNL Real-Time Customer Data Platform] per iniziare a inviare segmenti e attributi di profilo da [!DNL Real-Time CDP] a [!DNL Target].
 
->[!VIDEO](https://video.tv.adobe.com/v/3449801/?captions=ita&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3418799/?learn=on)
 
 ### Video: attivare segmenti e attributi di profilo
 
 Scopri come attivare segmenti e attributi di profilo da [!DNL Adobe Real-Time Customer Data Platform] a [!DNL Adobe Target] per visualizzare contenuti personalizzati in tempo reale su siti web, app per dispositivi mobili e altre proprietà digitali.
 
->[!VIDEO](https://video.tv.adobe.com/v/3447363/?captions=ita&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3419036/?learn=on)
 
 ### Video: utilizzare segmenti [!DNL Real-Time CDP] in [!DNL Target]
 
 Scopri come utilizzare segmenti [!DNL Real-Time Customer Data Platform] in [!DNL Adobe Target] per offrire esperienze personalizzate sul sito web e sulle app per dispositivi mobili.
 
->[!VIDEO](https://video.tv.adobe.com/v/3446835/?captions=ita&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3419149/?learn=on)
 
 ### Video: utilizzare attributi di profilo [!DNL Real-Time CDP] in [!DNL Adobe Target]
 
 Scopri come utilizzare attributi di profilo [!DNL Adobe Real-Time Customer Data Platform] in [!DNL Adobe Target] per offrire esperienze personalizzate sul sito web e sulle app per dispositivi mobili.
 
->[!VIDEO](https://video.tv.adobe.com/v/3451901/?captions=ita&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3419318/?learn=on)
 
 ### Blog e video di [!DNL Adobe Target]: Personalizzazione stessa pagina avanzata
 
