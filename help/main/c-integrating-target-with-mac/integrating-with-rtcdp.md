@@ -20,10 +20,10 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 16fb7a1902ea76cab56a93fa141a32a3c6bc4467
+source-git-commit: 6d72a6d0a1de27d8cd0286c799e61028d6419761
 workflow-type: tm+mt
-source-wordcount: 1173
-ht-degree: 71%
+source-wordcount: 1239
+ht-degree: 67%
 
 ---
 
@@ -32,6 +32,10 @@ ht-degree: 71%
 Basato su [!DNL Adobe Experience Platform], [!DNL Real-Time Customer Data Platform] (RTCDP) consente alle aziende di riunire dati noti e anonimi provenienti da più origini aziendali. RTCDP consente di creare profili cliente da utilizzare per fornire ai clienti esperienze personalizzate in tempo reale su tutti i canali e i dispositivi.
 
 Per ulteriori informazioni su RTCDP, vedere [Panoramica di Real-Time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html?lang=it){target=_blank}.
+
+>[!NOTE]
+>
+>Questo articolo si concentra sull&#39;integrazione di [!DNL Target]/RTCDP. A partire da agosto 2026, la destinazione **[!UICONTROL Adobe Target]** sottostante nel catalogo delle destinazioni di Experience Platform è disponibile anche per le organizzazioni con [!DNL Adobe Journey Optimizer] che non dispongono di Real-Time CDP. Consulta [Diritto](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html?lang=it#entitlement){target=_blank} nella guida *Connessione Adobe Target* per informazioni dettagliate sulle funzionalità disponibili per ogni tipo di diritto.
 
 ## Funzioni chiave
 
