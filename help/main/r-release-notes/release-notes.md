@@ -18,10 +18,10 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 51f1eb085a253559ccd58407f5b508e5b094b297
+source-git-commit: df2b7986e9c1371a0aa570b0429f4adec0890eb5
 workflow-type: tm+mt
-source-wordcount: 564
-ht-degree: 47%
+source-wordcount: 411
+ht-degree: 65%
 
 ---
 
@@ -31,43 +31,13 @@ Esplora le funzioni, i miglioramenti e le correzioni più recenti in [!DNL Adobe
 
 I codici dei problemi tra parentesi sono per uso interno di [!DNL Adobe].
 
-## [!DNL Target Standard/Premium] 26.8.3 (13 agosto 2026)
+## [!DNL Target Standard/Premium] 26.9.1 (1° settembre 2026)
 
-**Attività e pubblico**
-
-+++Vedi i dettagli
-
-* **Modifica abilitata per le attività e i tipi di pubblico creati da API/MCP.** È ora possibile modificare le attività e i tipi di pubblico creati tramite l&#39;API di amministrazione [!DNL Adobe Target] e MCP [!DNL Target] nell&#39;interfaccia utente [!DNL Target].
-
-+++
-
-## [!DNL Target Standard/Premium] 26.8.2 (11 agosto 2026)
-
-**Tipi di pubblico**
+**[!UICONTROL Pubblico]**
 
 +++Vedi i dettagli
 
-* **Impossibile copiare e salvare una modifica del codice personalizzato in un&#39;attività utilizzando un pubblico per sola attività.** È stato risolto un problema che impediva il salvataggio della copia di un&#39;attività che utilizzava un pubblico per sola attività con un errore &quot;ID pubblico non validi&quot; dopo l&#39;aggiunta di una modifica al codice personalizzato. (TGT-55785)
-
-+++
-
-**Localizzazione**
-
-+++Vedi i dettagli
-
-* **Caratteri multibyte danneggiati nell&#39;URL attività.** È stato risolto un problema che causava il danneggiamento dei caratteri multibyte nell&#39;URL attività in [!UICONTROL Compositore esperienza visivo] e nella scheda **[!UICONTROL Conflitti]**. (TGT-55708)
-
-* **Messaggio di errore non localizzato all&#39;apertura di una progettazione eliminata.** È stato risolto un problema che impediva di trovare la **[!UICONTROL risorsa richiesta]**. Il messaggio di errore non veniva localizzato quando si tentava di aprire una progettazione eliminata da un altro utente. (TGT-50902)
-
-+++
-
-## [!DNL Target Standard/Premium] 26.8.1 (4 agosto 2026)
-
-**[!UICONTROL Compositore esperienza visivo] (VEC)**
-
-+++Vedi i dettagli
-
-* **Icone troncate nel pannello [!UICONTROL Tipi di pubblico esperienza].** È stato risolto un problema a causa del quale le icone **[!UICONTROL Aggiungi]** ed espandi/comprimi erano nascoste o troncate nel pannello **[!UICONTROL Tipi di pubblico esperienza]** durante la creazione dell&#39;attività. (TGT-55372)
+* **Impossibile salvare la copia di un&#39;attività con un pubblico per sola attività**. Quando un’attività A/B utilizza una regola di pubblico per sola attività (con ambito locale) e una modifica del Codice personalizzato, la copia e il salvataggio della copia non riescono e viene visualizzato un errore di tipo &quot;ID pubblico non validi&quot;. (TGT-55785)
 
 +++
 

@@ -39,10 +39,10 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 3573ace9c7f19f1c04dbe92b50c37109a7a502e6
+source-git-commit: df2b7986e9c1371a0aa570b0429f4adec0890eb5
 workflow-type: tm+mt
-source-wordcount: 72205
-ht-degree: 48%
+source-wordcount: 72534
+ht-degree: 47%
 
 ---
 
@@ -57,6 +57,66 @@ Le note sulla versione sono elencate in ordine decrescente per mese e anno di ri
 >Consulta [Note sulla versione di Target (corrente)](/help/main/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A) per informazioni sulle versioni di Target del mese corrente (piattaforma e Target Standard/Premium).
 
 ## Note sulla versione - 2026
+
+## [!DNL Target Standard/Premium] 26.8.5 (18 agosto 2026)
+
+**Funzione Consigli**
+
++++Vedi i dettagli
+
+* **Filtro con valori Null per esclusioni e raccolte.** È ora possibile utilizzare gli operatori **Valore presente** e **Valore non presente** durante la definizione delle regole di esclusione e dei filtri di raccolta in [!DNL Recommendations]. (TGT-55790)
+
++++
+
+**[!UICONTROL Compositore esperienza visivo] (VEC)**
+
++++Vedi i dettagli
+
+* **Gli elementi delle metriche di clic non vengono visualizzati nell&#39;editor del Compositore esperienza visivo dopo il salvataggio dell&#39;attività.** È stato risolto un problema a causa del quale le metriche di clic configurate in precedenza non venivano visualizzate quando si modificavano gli obiettivi e le metriche per un&#39;attività nel [!UICONTROL Compositore esperienza visivo], anche se le metriche continuavano a essere tracciate correttamente nei report di attività. (TGT-55826)
+
+* **Messaggio &quot;Nessuna modifica&quot; intermittente nel Compositore esperienza visivo** È stato risolto un problema a causa del quale il pannello **[!UICONTROL Modifiche]** visualizzava in modo intermittente &quot;Nessuna modifica&quot; per le modifiche esistenti nelle attività di Targeting esperienza attive. (TGT-55842)
+
++++
+
+## [!DNL Target Standard/Premium] 26.8.3 (13 agosto 2026)
+
+**Attività e pubblico**
+
++++Vedi i dettagli
+
+* **Modifica abilitata per le attività e i tipi di pubblico creati da API/MCP.** È ora possibile modificare le attività e i tipi di pubblico creati tramite l&#39;API di amministrazione [!DNL Adobe Target] e MCP [!DNL Target] nell&#39;interfaccia utente [!DNL Target].
+
++++
+
+## [!DNL Target Standard/Premium] 26.8.2 (11 agosto 2026)
+
+**Tipi di pubblico**
+
++++Vedi i dettagli
+
+* **Impossibile copiare e salvare una modifica del codice personalizzato in un&#39;attività utilizzando un pubblico per sola attività.** È stato risolto un problema che impediva il salvataggio della copia di un&#39;attività che utilizzava un pubblico per sola attività con un errore &quot;ID pubblico non validi&quot; dopo l&#39;aggiunta di una modifica al codice personalizzato. (TGT-55785)
+
++++
+
+**Localizzazione**
+
++++Vedi i dettagli
+
+* **Caratteri multibyte danneggiati nell&#39;URL attività.** È stato risolto un problema che causava il danneggiamento dei caratteri multibyte nell&#39;URL attività in [!UICONTROL Compositore esperienza visivo] e nella scheda **[!UICONTROL Conflitti]**. (TGT-55708)
+
+* **Messaggio di errore non localizzato all&#39;apertura di una progettazione eliminata.** È stato risolto un problema che impediva di trovare la **[!UICONTROL risorsa richiesta]**. Il messaggio di errore non veniva localizzato quando si tentava di aprire una progettazione eliminata da un altro utente. (TGT-50902)
+
++++
+
+## [!DNL Target Standard/Premium] 26.8.1 (4 agosto 2026)
+
+**[!UICONTROL Compositore esperienza visivo] (VEC)**
+
++++Vedi i dettagli
+
+* **Icone troncate nel pannello [!UICONTROL Tipi di pubblico esperienza].** È stato risolto un problema a causa del quale le icone **[!UICONTROL Aggiungi]** ed espandi/comprimi erano nascoste o troncate nel pannello **[!UICONTROL Tipi di pubblico esperienza]** durante la creazione dell&#39;attività. (TGT-55372)
+
++++
 
 ## [!DNL Target Standard/Premium] 26.7.5 (30 luglio 2026)
 
@@ -3378,7 +3438,7 @@ Questa versione include i miglioramenti, le correzioni e le modifiche seguenti:
   | Visitatori giornalieri, Visitatori orari, Visitatori mensili, Visitatori trimestrali, Visitatori settimanali, Visitatori annuali | Visitatori univoci |
   | Profondità media della visita | n/d. Non suggerito come metrica di obiettivo principale |
   | Bot | n/d. Non suggerito come metrica di obiettivo principale |
-  | Frequenza arresti anomali mobile, Lunghezza media sessione precedente mobile, Classifica media app store mobile, Frequenza arresti anomali prestazioni app mobile, Valutazione media app store mobile | n/d. Non suggerito come metrica di obiettivo principale |
+  | Frequenza arresti anomali mobile, Lunghezza media sessione precedente mobile, Ranking medio app store mobile, Frequenza arresti anomali prestazioni app mobile, Ranking medio app store mobile | n/d. Non suggerito come metrica di obiettivo principale |
 
 ### Navigazione in Adobe Experience Cloud (22 febbraio 2019)
 
@@ -3848,7 +3908,7 @@ Questa versione include i miglioramenti e le funzioni seguenti:
    <td colname="col2"> <p>Accedi a rapporti specializzati per le attività di Automated Personalization e Targeting automatico: </p> <p> 
      <ul id="ul_54652C5AE0984657BB9A0E46673CB2F1"> 
       <li id="li_0807959BA7D94114BE47A43D3454CAB4"> <p><b>Segmenti automatizzati:</b> scopri come diversi segmenti automatizzati definiti dai modelli di personalizzazione di Target rispondono alle offerte o esperienze della tua attività. </p> </li> 
-      <li id="li_48210B1E4EB24288B96CDECAF1CEE34A"> <p><b>Classifica attributi modello:</b> scopri i principali attributi che hanno influenzato i modelli di personalizzazione di Target e l’importanza relativa di ciascun attributo. </p> </li> 
+      <li id="li_48210B1E4EB24288B96CDECAF1CEE34A"> <p><b>Ranking attributi del modello:</b> scopri i principali attributi che hanno influenzato i modelli di personalizzazione di Target e l’importanza relativa di ciascun attributo. </p> </li> 
      </ul> </p> <p> <p>Nota: questa funzione sarà presto disponibile. Resta in attesa per un annuncio della data esatta in cui questa funzione sarà pronta per l'uso. </p> </p> <p>Consulta <a href="/help/main/c-reports/c-personalization-insights-reports/personalization-insights-reports.md#concept_A897070E1EDC403EB84CFB7A6ECAD767" format="dita" scope="local"> rapporti Approfondimenti Personalization </a>. </p> </td> 
   </tr> 
   <tr> 
@@ -4499,7 +4559,7 @@ Questa versione include i miglioramenti e le funzioni seguenti (i codici tra par
   </tr> 
   <tr> 
    <td colname="col1"> <p>Consegna a dispositivi mobili con funzioni batch e preacquisizione </p> </td> 
-   <td colname="col2"> <p><b>Aggiornamento: 12 ottobre 2017</b> </p> <p> Il contenuto di più mbox può essere pre-acquisito in una singola chiamata e memorizzato nella cache locale del dispositivo senza preoccuparsi di come, quando e se l'utente finale vedrà il contenuto. </p> <p>Per eseguirla, è necessario scaricare e installare la versione 4.14 (o successiva) appropriata di Adobe Mobile SDK. </p> <p>Per ulteriori informazioni, vedere <a href="https://experienceleague.adobe.com/docs/target-dev/developer/mobile-apps/version-4/prefetch-offer-content.html?lang=it" format="dita" scope="local"> Preacquisizione del contenuto dell'offerta </a>. </p> </td> 
+   <td colname="col2"> <p><b>Aggiornamento: 12 ottobre 2017</b> </p> <p> Il contenuto di più mbox può essere pre-acquisito in una singola chiamata e memorizzato nella cache locale del dispositivo senza preoccuparsi di come, quando e se l'utente finale vedrà il contenuto. </p> <p>Per eseguirla, è necessario scaricare e installare la versione 4.14 (o successiva) appropriata di Adobe Mobile SDK. </p> <p>Per ulteriori informazioni, vedere <a href="https://experienceleague.adobe.com/docs/target-dev/developer/mobile-apps/version-4/prefetch-offer-content.html" format="dita" scope="local"> Preacquisizione del contenuto dell'offerta </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Attività </p> </td> 
@@ -5777,7 +5837,7 @@ Questa versione include i miglioramenti e le funzioni seguenti:
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> <p class="Premium">Consigli </p> <p> Ponderazione degli attributi </p> </td> 
-   <td colname="col2"> <p> Le regole di classificazione per i consigli sono cambiate per i criteri. Questa modifica interessa i consigli esistenti. </p> <p> Utilizza la ponderazione degli attributi per “indirizzare” l’algoritmo. L’addetto al marketing può influenzare l’algoritmo in base a descrizioni importanti o metadati relativi al catalogo dei contenuti. Attribuisci una ponderazione maggiore agli articoli in offerta affinché compaiano più spesso tra i prodotti consigliati. Gli articoli non in offerta non vengono esclusi del tutto, ma sono visualizzati con minore frequenza. È possibile applicare più coefficienti di ponderazione allo stesso algoritmo, e sottoporli a test con traffico suddiviso nel consiglio. </p> <p>Queste nuove ponderazioni sono automaticamente applicate a tutte le attività. </p></td> 
+   <td colname="col2"> <p> Le regole di ranking per i consigli sono cambiate per i criteri. Questa modifica interessa i consigli esistenti. </p> <p> Utilizza la ponderazione degli attributi per “indirizzare” l’algoritmo. L’addetto al marketing può influenzare l’algoritmo in base a descrizioni importanti o metadati relativi al catalogo dei contenuti. Attribuisci una ponderazione maggiore agli articoli in offerta affinché compaiano più spesso tra i prodotti consigliati. Gli articoli non in offerta non vengono esclusi del tutto, ma sono visualizzati con minore frequenza. È possibile applicare più coefficienti di ponderazione allo stesso algoritmo, e sottoporli a test con traffico suddiviso nel consiglio. </p> <p>Queste nuove ponderazioni sono automaticamente applicate a tutte le attività. </p></td> 
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> <p class="Premium">Consigli </p> <p>Impostazione dell’ora per l’elaborazione dei feed </p> </td> 
