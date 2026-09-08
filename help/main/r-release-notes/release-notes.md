@@ -7,21 +7,14 @@ title: Cosa è incluso nella versione corrente?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 TQID: https://experienceleague.adobe.com/-Unx6cVsw3wch2LJgPtvBYPe-10rdpiJ4v9F7tMSP08
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
-subfeature_v2:
-  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: df2b7986e9c1371a0aa570b0429f4adec0890eb5
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: c93393a4-e558-47e1-992e-c91ed4d480ce
+subfeature_v2: id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 35d7254f67314c1c89050379b0a7850a8db8b5e9
 workflow-type: tm+mt
-source-wordcount: 411
-ht-degree: 65%
+source-wordcount: 495
+ht-degree: 54%
 
 ---
 
@@ -30,6 +23,25 @@ ht-degree: 65%
 Esplora le funzioni, i miglioramenti e le correzioni più recenti in [!DNL Adobe Target]. Queste note sulla versione descrivono anche gli aggiornamenti alle API [!DNL Target], agli SDK, a [!DNL Adobe Experience Platform Web SDK], at.js e ad altri componenti della piattaforma, se applicabili.
 
 I codici dei problemi tra parentesi sono per uso interno di [!DNL Adobe].
+
+## [!DNL Target Standard/Premium] 26.9.2 (8 settembre 2026)
+
+
+**[!UICONTROL Funzione Consigli]**
+
++++Vedi i dettagli
+
+* L&#39;interfaccia utente **[!DNL New]codifica gli URL del feed in modo errato**. Durante la creazione di un feed di consigli da un URL nella nuova interfaccia [!DNL Target], l&#39;URL del feed non è stato codificato correttamente. La creazione del feed non è riuscita a causa di un errore sconosciuto. (TGT-56084)
+
++++
+
+**[!UICONTROL Generazione di rapporti]**
+
++++Vedi i dettagli
+
+* Il report **Segmenti automatizzati non visualizza in modo coerente i valori degli attributi**. Nel rapporto Segmenti automatizzati sono stati visualizzati valori e intervalli di attributi non coerenti per le attività [!DNL Automated Personalization] e [!DNL Auto-Target]. Alcuni segmenti automatizzati mostravano solo il nome dell’attributo invece del valore o dell’intervallo associato. (TGT-55855)
+
++++
 
 ## [!DNL Target Standard/Premium] 26.9.1 (1° settembre 2026)
 
