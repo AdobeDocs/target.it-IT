@@ -18,10 +18,10 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: df2b7986e9c1371a0aa570b0429f4adec0890eb5
+source-git-commit: 35d7254f67314c1c89050379b0a7850a8db8b5e9
 workflow-type: tm+mt
-source-wordcount: 411
-ht-degree: 65%
+source-wordcount: 495
+ht-degree: 54%
 
 ---
 
@@ -30,6 +30,25 @@ ht-degree: 65%
 Esplora le funzioni, i miglioramenti e le correzioni più recenti in [!DNL Adobe Target]. Queste note sulla versione descrivono anche gli aggiornamenti alle API [!DNL Target], agli SDK, a [!DNL Adobe Experience Platform Web SDK], at.js e ad altri componenti della piattaforma, se applicabili.
 
 I codici dei problemi tra parentesi sono per uso interno di [!DNL Adobe].
+
+## [!DNL Target Standard/Premium] 26.9.2 (8 settembre 2026)
+
+
+**[!UICONTROL Funzione Consigli]**
+
++++Vedi i dettagli
+
+* L&#39;interfaccia utente **[!DNL New]codifica gli URL del feed in modo errato**. Durante la creazione di un feed di consigli da un URL nella nuova interfaccia [!DNL Target], l&#39;URL del feed non è stato codificato correttamente. La creazione del feed non è riuscita a causa di un errore sconosciuto. (TGT-56084)
+
++++
+
+**[!UICONTROL Generazione di rapporti]**
+
++++Vedi i dettagli
+
+* Il report **Segmenti automatizzati non visualizza in modo coerente i valori degli attributi**. Nel rapporto Segmenti automatizzati sono stati visualizzati valori e intervalli di attributi non coerenti per le attività [!DNL Automated Personalization] e [!DNL Auto-Target]. Alcuni segmenti automatizzati mostravano solo il nome dell’attributo invece del valore o dell’intervallo associato. (TGT-55855)
+
++++
 
 ## [!DNL Target Standard/Premium] 26.9.1 (1° settembre 2026)
 
