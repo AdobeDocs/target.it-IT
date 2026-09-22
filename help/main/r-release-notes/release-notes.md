@@ -25,10 +25,10 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 674308a558a90154b171fe9a17d2642120c07923
+source-git-commit: e7d752d7b77f6c167878f1b3679d118c2b44a31f
 workflow-type: tm+mt
-source-wordcount: '680'
-ht-degree: 40%
+source-wordcount: '744'
+ht-degree: 36%
 ---
 # Note sulla versione (corrente) di [!DNL Target]
 
@@ -100,6 +100,18 @@ I codici dei problemi tra parentesi sono per uso interno di [!DNL Adobe].
 +++Vedi i dettagli
 
 * **Impossibile salvare la copia di un&#39;attività con un pubblico per sola attività**. Quando un’attività A/B utilizza una regola di pubblico per sola attività (con ambito locale) e una modifica del Codice personalizzato, la copia e il salvataggio della copia non riescono e viene visualizzato un errore di tipo &quot;ID pubblico non validi&quot;. (TGT-55785)
+
++++
+
+Server MCP **[!DNL Adobe Target]- Strumenti di Recommendations (Beta pubblico)**
+
++++Vedi i dettagli
+
+Il server MCP [!DNL Adobe Target] ora espone gli strumenti Consigli, consentendo di elencare, esaminare, creare e aggiornare criteri, raccolte, progettazioni, promozioni ed esclusioni e di eseguire ricerche nel catalogo prodotti direttamente dall&#39;assistente AI.
+
+Questa funzionalità richiede un tenant abilitato per Recommendations con **Target Premium**; non è disponibile per account non Premium.
+
+Per ulteriori informazioni, vedere [Riferimento strumenti server MCP](../c-integrating-target-with-mac/mcp/target-mcp-tools-reference.md).
 
 +++
 

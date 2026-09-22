@@ -8,13 +8,11 @@ topic: Experimentation, Personalization, Artificial Intelligence
 badge: label="Beta" type="Informative"
 role: Developer, User
 level: Intermediate, Experienced
-source-git-commit: aa7a47b00b86a47c97996b667ee0d73db52650aa
+source-git-commit: 4b154f401cc9d31d99c169bf08781bcaa7ef5c8f
 workflow-type: tm+mt
-source-wordcount: '3046'
+source-wordcount: '3804'
 ht-degree: 14%
-
 ---
-
 # Riferimento per gli strumenti del server MCP [!DNL Adobe Target] {#target-mcp-tools-reference}
 
 >[!AVAILABILITY]
@@ -755,6 +753,143 @@ Nessun parametro richiesto.
 
 +++
 
+## Strumenti di Recommendations {#tools-recommendations}
+
+>[!NOTE]
+>
+>* Gli strumenti di Recommendations richiedono un tenant abilitato per Recommendations con **Target Premium**. Sugli account non Premium, questi strumenti non vengono visualizzati nell’elenco degli strumenti del client e l’API sottostante restituisce un errore 403.
+>* Questi strumenti supportano le operazioni di elenco, recupero, creazione e aggiornamento per criteri, raccolte, progettazioni, promozioni ed esclusioni. Le operazioni di eliminazione non vengono esposte tramite il server MCP.
+
++++Criteri
+
+**Strumenti:** `list_target_criteria`, `get_target_criteria`, `list_target_criteria_by_type`, `get_target_criteria_by_type`, `create_target_criteria`, `update_target_criteria`
+
+I criteri sono regole che determinano gli elementi da consigliare, in base a un set predeterminato di comportamenti dei visitatori. I criteri sono raggruppati in 9 famiglie digitate: `category`, `custom`, `item`, `cart`, `popularity`, `profileattribute`, `recent`, `sequence`, `userhistory`.
+
+| Parametro | Tipo | Obbligatorio | Descrizione |
+|---|---|---|---|
+| `criteria_id` | numero intero | Per ottenere/aggiornare | Identificatore univoco dei criteri |
+| `criteria_type` | stringa | Per operazioni tipizzate | Una delle 9 famiglie di criteri |
+| `limit` / `offset` | numero intero | No | Paginazione |
+| `name` | stringa | Sì (crea) | Nome univoco del criterio |
+| `criteriaTitle` | stringa | No | Visualizza titolo utilizzato nella progettazione tramite `$criteria.title` |
+| `description` | stringa | No | Descrizione dei criteri |
+| `key` | stringa | Sì (crea/aggiorna, la maggior parte dei tipi) | Chiave consiglio (ad esempio `CURRENT`, `LAST_VIEWED`, `LAST_PURCHASED`, `MOST_VIEWED`, `PROFILE_ATTRIBUTE`) |
+| `type` | stringa | Sì (crea/aggiorna, la maggior parte dei tipi) | Logica consigli (esempio: `VIEWED_BOUGHT`, `BOUGHT_CF`, `VIEWED_CF`, `SITE_AFFINITY`, `SIMILARITY`) |
+| `configuration` | oggetto | Sì (crea/aggiorna) | Regole di inclusione, ponderazione degli attributi, filtro prezzi e altre impostazioni specifiche per la famiglia |
+| `daysCount` | stringa | Varia | Intervallo di tempo storico considerato (ad esempio da `ONE_DAY` a `TWO_MONTHS`) |
+
+`list_target_criteria` e `get_target_criteria` restituiscono metadati minimi di criteri per più famiglie (`id`, `name`, `criteriaTitle`, `criteriaGroup`). Utilizza `list_target_criteria_by_type` / `get_target_criteria_by_type` (o `create_target_criteria` / `update_target_criteria`) con un `criteria_type` per lavorare con la configurazione completa specifica per il tipo. I requisiti dei campi sono diversi a seconda della famiglia. Per informazioni sullo schema completo per tipo, vedere [!DNL Adobe] [Riferimento API per i consigli](https://developer.adobe.com/target/administer/recommendations-api/){target="_blank"}.
+
+**Restituisce:** l&#39;oggetto criteri o un elenco impaginato con `offset`, `limit`, `total` e `list`.
+
+**Esempio di prompt:** &quot;Elenca tutti i criteri di Recommendations configurati in questo account e riepiloga i tipi di algoritmo in uso.&quot;
+
++++
+
++++Raccolte
+
+**Strumenti:** `list_target_collections`, `get_target_collection`, `create_target_collection`, `update_target_collection`
+
+Le raccolte raggruppano le entità catalogo in base alle regole di corrispondenza, per l&#39;utilizzo in criteri e promozioni.
+
+| Parametro | Tipo | Obbligatorio | Descrizione |
+|---|---|---|---|
+| `collection_id` | numero intero | Per ottenere/aggiornare | Identificatore univoco della raccolta |
+| `limit` / `offset` | numero intero | No | Paginazione |
+| `name` | stringa | Sì | Nome univoco della raccolta (massimo 250 caratteri) |
+| `description` | stringa | No | Descrizione della raccolta (massimo 1000 caratteri) |
+| `rules` | array | Sì | 1-1000 regole (`attribute` + operatore/operando) che determinano l&#39;appartenenza al catalogo |
+
+**Restituisce:** l&#39;oggetto della raccolta, inclusi `id`, `name`, `description`, `rules` e i metadati dell&#39;ultima modifica.
+
+**Esempio di prompt:** &quot;Quali raccolte sono disponibili e su quali attributi di catalogo filtrano?&quot;
+
++++
+
++++Progettazioni
+
+**Strumenti:** `list_target_designs`, `get_target_design`, `create_target_design`, `update_target_design`
+
+Le progettazioni sono modelli Velocity o HTML che controllano il rendering delle entità consigliate.
+
+| Parametro | Tipo | Obbligatorio | Descrizione |
+|---|---|---|---|
+| `design_id` | numero intero | Per ottenere/aggiornare | Identificatore univoco della progettazione |
+| `limit` / `offset` | numero intero | No | Paginazione |
+| `includeScript` | booleano | No | Se includere il contenuto del modello della progettazione |
+| `name` | stringa | Sì | Nome univoco del design (massimo 250 caratteri) |
+| `script` | stringa | Sì | Modello Velocity che fa riferimento ad almeno un oggetto entità (massimo 65.000 caratteri) |
+| `type` | stringa | No | Tipo di contenuto dello script: `HTML`, `JSON` o `OTHER` (impostazione predefinita) |
+
+**Restituisce:** l&#39;oggetto di progettazione, inclusi `id`, `name`, `script` e `type`.
+
+**Prompt di esempio:** &quot;Quali progetti e raccolte ho configurato per Recommendations?&quot;
+
++++
+
++++Promozioni
+
+**Strumenti:** `list_target_promotions`, `get_target_promotion`, `create_target_promotion`, `update_target_promotion`
+
+Le promozioni forzano entità specifiche nei risultati dei consigli, dando la precedenza sui criteri e i consigli di backup.
+
+| Parametro | Tipo | Obbligatorio | Descrizione |
+|---|---|---|---|
+| `promotion_id` | numero intero | Per ottenere/aggiornare | Identificatore univoco della promozione |
+| `limit` / `offset` | numero intero | No | Paginazione |
+| `name` | stringa | Sì | Nome univoco della promozione (massimo 250 caratteri) |
+| `type` | stringa | Sì | Attualmente è supportato solo `EXTERNAL` |
+| `key` | stringa | No | Chiave promozione: `CURRENT`, `LAST_VIEWED`, `LAST_PURCHASED`, `MOST_VIEWED` o `PROFILE_ATTRIBUTE` |
+| `attribute` | stringa | No | Nome attributo profilo, applicabile quando `key` è `PROFILE_ATTRIBUTE` |
+| `schedule` | oggetto | No | Intervallo di tempo di inizio/fine durante il quale viene applicata la promozione |
+| `order` | oggetto | No | Configurazione dell’ordine per le entità promosse |
+| `configuration` | oggetto | No | Riferimento raccolta per gli elementi promossi (utilizzato quando `rules` è vuoto) |
+| `rules` | array | No | Regole di inclusione che identificano le entità da promuovere |
+
+**Restituisce:** L&#39;oggetto della promozione.
+
+**Prompt di esempio:** &quot;Creare una promozione esterna che includa la raccolta &#39;Backpacking Tents&#39; fino alla fine di agosto.&quot;
+
++++
+
++++Esclusioni
+
+**Strumenti:** `list_target_exclusions`, `get_target_exclusion`, `create_target_exclusion`, `update_target_exclusion`
+
+Le esclusioni rimuovono le entità corrispondenti dai risultati dei consigli. Le esclusioni si applicano a livello di account, in tutti i criteri e le attività.
+
+| Parametro | Tipo | Obbligatorio | Descrizione |
+|---|---|---|---|
+| `exclusion_id` | numero intero | Per ottenere/aggiornare | Identificatore univoco dell’esclusione |
+| `name` | stringa | Sì | Nome univoco dell’esclusione (massimo 250 caratteri) |
+| `description` | stringa | No | Descrizione dell’esclusione (massimo 1000 caratteri) |
+| `rule` | oggetto | No | Una singola regola (`attribute` + operatore/operando) che identifica le entità da escludere |
+
+**Restituisce:** l&#39;oggetto di esclusione.
+
+**Esempio di richiesta:** &quot;Sono attualmente configurate esclusioni a livello di account e su cosa si filtrano?&quot;
+
++++
+
++++Catalogo
+
+**Strumenti:** `get_target_entity`, `search_target_catalog`
+
+Strumenti di sola lettura per l’ispezione del catalogo di prodotti/contenuti Consigli. Non è disponibile alcuno strumento di creazione, aggiornamento o eliminazione per le entità catalogo tramite il server MCP.
+
+| Parametro | Tipo | Obbligatorio | Descrizione |
+|---|---|---|---|
+| `catalog_entity_id` | stringa | Sì (get) | ID dell’entità catalogo (ad esempio SKU) |
+| `environment_id` | stringa | No | Ambiente in cui cercare l’entità |
+| `query` | oggetto | Sì (ricerca) | Un blocco `meta` (richiede `environmentId`, facoltativo `displayFields`) più un blocco `query` (`simple` o `compound`); le query semplici utilizzano `queryFields`, un `operator` (`eq`, `lt`, `gt`, `le`, `ge`, `contains`) e un `matchValue` |
+
+**Restituisce:** `get_target_entity` restituisce gli attributi del catalogo dell&#39;entità. `search_target_catalog` restituisce corrispondenze in un array `entities`. I nomi dei campi in `query` devono essere attributi di catalogo reali configurati per il tenant.
+
+**Prompt di esempio:** &quot;Cerca nel catalogo prodotti con inventario inferiore a 1000&quot;.
+
++++
+
 ## Riepilogo strumenti {#tools-summary}
 
 | Categoria | Conteggio | Strumenti |
@@ -770,7 +905,8 @@ Nessun parametro richiesto.
 | Revisione | 2 | `get_target_revisions`, `get_target_entity_revisions` |
 | AT.js | 2 | `get_atjs_settings`, `get_atjs_versions` |
 | Modello | 1 | `list_target_templates` |
-| **Totale** | **38** | |
+| Consigli | 24 | `list_target_criteria`, `get_target_criteria`, `list_target_criteria_by_type`, `get_target_criteria_by_type`, `create_target_criteria`, `update_target_criteria`, `list_target_collections`, `get_target_collection`, `create_target_collection`, `update_target_collection`, `list_target_designs`, `get_target_design`, `create_target_design`, `update_target_design`, `list_target_promotions`, `get_target_promotion`, `create_target_promotion`, `update_target_promotion`, `list_target_exclusions`, `get_target_exclusion`, `create_target_exclusion`, `update_target_exclusion`, `get_target_entity`, `search_target_catalog` |
+| **Totale** | **62** | |
 
 ## Risorse correlate {#tools-related}
 
