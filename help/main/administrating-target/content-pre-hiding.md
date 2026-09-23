@@ -4,20 +4,12 @@ description: Scopri come il pre-hiding dei contenuti riduce lo sfarfallio nascon
 title: Pre-hiding dei contenuti per esperienze personalizzate
 feature: Administration & Configuration
 role: Admin
-badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=it#beta newtab=true" tooltip="Cosa sono le funzioni beta in [!DNL Adobe Target]."
-hide: true
-source-git-commit: 77741253fdfb007d0eda0c57fe293df2f9c638a2
+source-git-commit: a002b0a3549c0e47734849fce0df63b0df9cdee0
 workflow-type: tm+mt
-source-wordcount: '624'
-ht-degree: 3%
-
+source-wordcount: '596'
+ht-degree: 1%
 ---
-
 # Pre-hiding dei contenuti per esperienze personalizzate
-
->[!AVAILABILITY]
->
->Il pre-hiding dei contenuti personalizzati è disponibile come funzionalità **beta**.
 
 Quando un visitatore carica una pagina, il contenuto predefinito può essere visualizzato brevemente e poi sostituito da contenuto personalizzato di [!DNL Adobe Target]. Tale opzione visibile è spesso denominata **visualizzazione momentanea di altri contenuti** ed è un problema comune per i programmi di personalizzazione.
 
@@ -55,7 +47,7 @@ Il pre-hiding del contenuto è disattivato per la tua istanza fino a quando non 
 
 1. Fai clic su **[!UICONTROL Salva]**. Questo applicherà le impostazioni di gestione della visualizzazione momentanea di altri contenuti all’istanza.
 
-1. Una volta attivato, fare clic su **[!UICONTROL Scarica]**, quindi aggiungere il file alla pagina `<head>` in modo che venga caricato prima di [!DNL at.js] o di [!DNL Web SDK]. Per istruzioni complete sull&#39;implementazione, vedere [Contenuto che nasconde preventivamente SDK](https://experienceleague.adobe.com/it/docs/target-dev/developer/client-side/prehide-sdk).
+1. Una volta attivato, fare clic su **[!UICONTROL Scarica]**, quindi aggiungere il file alla pagina `<head>` in modo che venga caricato prima di [!DNL at.js] o di [!DNL Web SDK]. Per istruzioni complete sull&#39;implementazione, vedere [Contenuto che nasconde preventivamente SDK](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/prehide-sdk).
 
    ![](assets/content-pre-hiding-2.png)
 

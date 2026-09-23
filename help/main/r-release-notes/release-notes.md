@@ -25,10 +25,10 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: e7d752d7b77f6c167878f1b3679d118c2b44a31f
+source-git-commit: 8036ca6a8241ab254dcf3451c2feeb2ed9e63d6a
 workflow-type: tm+mt
-source-wordcount: '744'
-ht-degree: 36%
+source-wordcount: '816'
+ht-degree: 34%
 ---
 # Note sulla versione (corrente) di [!DNL Target]
 
@@ -37,6 +37,27 @@ Esplora le funzioni, i miglioramenti e le correzioni più recenti in [!DNL Adobe
 I codici dei problemi tra parentesi sono per uso interno di [!DNL Adobe].
 
 ## [!DNL Target Standard/Premium] 26.9.5 (21 settembre 2026)
+
+### Funzione
+
+<table>
+<thead>
+<tr>
+<th><strong>Pre-hiding dei contenuti</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Il pre-hiding dei contenuti aiuta a ridurre lo sfarfallio della pagina nascondendo solo le sezioni che la personalizzazione Adobe Target sta per modificare, fornendo un’esperienza più fluida durante il caricamento dei contenuti. Questo approccio evita di nascondere l’intera pagina e aiuta a ridurre al minimo lo sforzo di implementazione quando vengono avviate nuove attività.</p>
+<p>Precedentemente rilasciata in Disponibilità limitata, questa funzionalità è ora disponibile per tutti gli ambienti (Disponibilità generale).</p>
+<p>Per ulteriori informazioni, consulta la <a href="../administrating-target/content-pre-hiding.md">documentazione dettagliata</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+### Migliori
 
 **[!UICONTROL Analytics per Target]**
 
