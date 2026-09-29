@@ -4,13 +4,14 @@ description: Scopri come visualizzare il reporting dei flag di funzione in Flag 
 badge: label="Beta" type="Informative"
 hide: true
 exl-id: edddca99-f263-461b-a16f-b46ee7c15f6c
-source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
 source-wordcount: '431'
 ht-degree: 1%
-
 ---
-
 # Generazione di rapporti {#reporting}
 
 I flag consentono la generazione di rapporti tramite **Customer Journey Analytics (CJA)**. Una scheda **Report** è disponibile in ogni flag di funzionalità e pagina dei dettagli del gruppo di funzionalità. Ti consente di visualizzare un rapporto di CJA con ambito specifico per tale flag o gruppo, incorporato direttamente nella pagina.
@@ -63,7 +64,7 @@ Regola l’intervallo di date dall’intestazione del pannello per tracciare nuo
 
 ![Pannello Sperimentazione con selettori esperimento, variante controllo e metrica](assets/experimentation-selection.png)
 
-Per ulteriori dettagli sul calcolo di queste metriche, consulta la [documentazione del pannello Sperimentazione](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-workspace/panels/experimentation).
+Per ulteriori dettagli sul calcolo di queste metriche, consulta la [documentazione del pannello Sperimentazione](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/panels/experimentation).
 
 ![Risultati della sperimentazione che mostrano l&#39;incremento, l&#39;affidabilità e il tasso di conversione per variante](assets/experimentation.png)
 

@@ -1,31 +1,39 @@
 ---
 keywords: ambiente;risoluzione dei problemi;best practice;ubox;reindirizzamenti;reindirizzamento;whitelist;blacklist;inserisco nell'elenco Bloccati di;inserisco nell'elenco Consentiti di
-description: Scopri come utilizzare gli ambienti in Adobe [!DNL Target] per organizzare i siti e gli ambienti di pre-produzione per semplificare la gestione e creare rapporti separati.
+description: Scopri come utilizzare gli ambienti in Adobe [!DNL Target] per organizzare siti e ambienti di pre-produzione per semplificare la gestione e creare rapporti separati.
 title: Cosa sono gli ambienti e come li utilizzo?
 feature: Administration & Configuration
 role: Admin
 exl-id: 820a116a-15f9-4ba0-94f3-8e35aa0f90da
-TQID: https://experienceleague.adobe.com/ve3zhtylLWwRv890FaptsA9shmINkioM6-Yrq-nmmm0
+TQID: 'https://experienceleague.adobe.com/ve3zhtylLWwRv890FaptsA9shmINkioM6-Yrq-nmmm0'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
 subfeature_v2:
   - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
+    internal-label: Recommendations
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Administration
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 709
+source-wordcount: '710'
 ht-degree: 46%
-
 ---
-
 # Ambienti
 
 Organizza siti e ambienti di preproduzione per gestirli facilmente e per generare rapporti separati.
@@ -64,7 +72,7 @@ Per impostare l’ambiente predefinito per la segnalazione:
 >
 >Se gli host passano ad altri gruppi host, gli utenti che usano la funzionalità [!DNL Recommendations] devono rigenerare il database dei comportamenti e quello dei prodotti.
 >
->Se si specifica un [ambiente predefinito in un [!DNL Adobe Experience Platform] flusso di dati](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=it#target){target=_blank}, questa impostazione ha la precedenza su quella in [!DNL Target].
+>Se si specifica un [ambiente predefinito in un [!DNL Adobe Experience Platform] flusso di dati](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=en#target){target=_blank}, questa impostazione ha la precedenza su quella in [!DNL Target].
 
 ## Modificare il nome di un ambiente {#section_9F5F94285F8E495E9CE69810CE94CA08}
 

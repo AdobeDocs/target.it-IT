@@ -1,23 +1,29 @@
 ---
 keywords: attributi di entità multivalore;attributi di entità personalizzati;JSON valido;valore di attributo di entità;vettore JSON;array JSON;matrice JSON;multivalore;con più valori
-description: Scopri come utilizzare attributi di entità personalizzati a valore singolo e multiplo per definire informazioni aggiuntive sugli elementi nel catalogo Adobe [!DNL Target] Recommendations.
+description: Scopri come utilizzare attributi di entità personalizzati a valore singolo e multiplo per definire informazioni aggiuntive sugli elementi nel catalogo dei consigli di Adobe [!DNL Target].
 title: Come Si Utilizzano Gli Attributi Di Entità Personalizzati?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=it#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."
 feature: Recommendations
 mini-toc-levels: 3
 exl-id: d7d0b04a-0f50-4d30-9cbe-c0347a3d3715
-TQID: https://experienceleague.adobe.com/eFeg78-PswBCwtpzMR7j5c8FJ03MyQVcSdzo6ctZt3Q
+TQID: 'https://experienceleague.adobe.com/eFeg78-PswBCwtpzMR7j5c8FJ03MyQVcSdzo6ctZt3Q'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
+    internal-label: Recommendations
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Customer experience
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 1504
+source-wordcount: '1505'
 ht-degree: 80%
-
 ---
-
 # Attributi di entità personalizzati
 
 Utilizzare attributi di entità personalizzati a valore singolo e multiplo in [!DNL Adobe Target Recommendations] per definire informazioni aggiuntive sugli elementi del catalogo.
@@ -132,7 +138,7 @@ Puoi trasmettere attributi con più valori utilizzando l’API di consegna in un
   }
 ```
 
-Per informazioni sull&#39;utilizzo delle API di recapito e salvataggio di entità, consulta la [documentazione delle API di Adobe Recommendations](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=it){target=_blank}.
+Per informazioni sull&#39;utilizzo delle API di recapito e salvataggio di entità, consulta la [documentazione delle API di Adobe Recommendations](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}.
 
 ## Utilizzo di operatori con attributi con più valori {#section_83C2288A805242D9A02EBC4F07DEE945}
 

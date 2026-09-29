@@ -1,23 +1,30 @@
 ---
 keywords: catalogo ricerca;catalogo;ricerca;esclusione;raccolta;filtro;consigli;catalog search;search;exclusion;collection;filter;recommendations
-description: Scopri come utilizzare la  [!DNL Recommendations] [!UICONTROL Ricerca nel catalogo] per individuare prodotti o contenuti, rimuovere elementi dal catalogo e altro ancora.
-title: Come si utilizza  [!DNL Recommendations] [!UICONTROL Ricerca nel catalogo]?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=it#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."
+description: Scopri come utilizzare [!DNL Recommendations] [!UICONTROL Ricerca nel catalogo] per individuare prodotti o contenuti, rimuovere elementi dal catalogo e altro ancora.
+title: Come si utilizza [!DNL Recommendations] [!UICONTROL Ricerca nel catalogo]?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."
 feature: Recommendations
 exl-id: 925fea97-e2c5-4883-84e3-fd357a8ee8d9
-TQID: https://experienceleague.adobe.com/en3hkFsDjEE86Tc-3vPSiZFy0K47SftZMN6RW0INNic
+TQID: 'https://experienceleague.adobe.com/en3hkFsDjEE86Tc-3vPSiZFy0K47SftZMN6RW0INNic'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
+    internal-label: Recommendations
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 16fb7a1902ea76cab56a93fa141a32a3c6bc4467
+    internal-label: Customer experience
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 552
-ht-degree: 21%
-
+source-wordcount: '554'
+ht-degree: 20%
 ---
-
 # [!UICONTROL Ricerca nel catalogo]
 
 La pagina [!UICONTROL Ricerca nel catalogo] in [!DNL Adobe Recommendations] consente di individuare i prodotti o il contenuto nel catalogo. L&#39;operazione di base che è possibile eseguire in questa pagina è la ricerca di un elemento. Inoltre, puoi modificare l’ambiente, filtrare i facet, modificare le colonne della tabella, aggiungere nuovi facet di ricerca e altro ancora.

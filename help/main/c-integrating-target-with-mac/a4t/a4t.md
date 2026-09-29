@@ -1,32 +1,43 @@
 ---
 keywords: a4t;analytics;analytics for target;origine per la generazione di rapporti analytics;adobe analytics come origine per la generazione di rapporti per target;atjs;at.js;adobe experience platform web sdk;platform web sdk;platform sdk
-description: Utilizza  [!DNL Analytics]  for  [!DNL Target]  (A4T) per creare attività basate su metriche di conversione di  [!DNL Analytics]  e segmenti di pubblico e utilizza i rapporti di  [!DNL Analytics]  per esaminare i risultati.
-title: Cos’è  [!DNL Analytics]  for  [!DNL Target]  (A4T)?
+description: Utilizza [!DNL Analytics] per [!DNL Target] (A4T) per creare attività basate su [!DNL Analytics] metriche di conversione e segmenti di pubblico e utilizza [!DNL Analytics] rapporti per esaminare i risultati.
+title: Cos'è [!DNL Analytics] per [!DNL Target] (A4T)?
 feature: Analytics for Target (A4T)
 exl-id: 5bb80b03-8209-4932-a838-0e11c5865133
-TQID: https://experienceleague.adobe.com/KZaqBS6BDJwdXJ3x1ltBoRS6eeCr4POuSp9Bkhqt1-8
+TQID: 'https://experienceleague.adobe.com/KZaqBS6BDJwdXJ3x1ltBoRS6eeCr4POuSp9Bkhqt1-8'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
+  - id: 891742a5-242d-5099-966a-ca76c17cd2d2
+    internal-label: Analytics for Target (A4T)
 subfeature_v2:
   - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+    internal-label: at.js
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Personalization
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 1125
-ht-degree: 78%
-
+source-wordcount: '1131'
+ht-degree: 76%
 ---
-
 # [!DNL Adobe Analytics] come origine per la generazione di rapporti per [!DNL Adobe Target] (A4T)
 
 [!DNL Adobe Analytics for Target] (A4T) è un’integrazione tra soluzioni che consente di creare attività basate su metriche di conversione e segmenti di pubblico di [!DNL Analytics]. L’integrazione di A4T consente di utilizzare i rapporti di [!DNL Analytics] per esaminare i risultati. Se utilizzi [!DNL Analytics] come origine per la generazione di rapporti per un’attività, tutti i rapporti e le segmentazioni per tale attività si basano sulla raccolta di dati di [!DNL Analytics].
@@ -64,7 +75,7 @@ Considerazioni importanti per l’utilizzo di A4T:
 
 ## Implementazione di A4T
 
-Per informazioni sull’implementazione di A4T con at.js e [!DNL Adobe Experience Platform Web SDK], consulta [Implementazione di Analytics for  [!DNL Target] &#x200B;](/help/main/c-integrating-target-with-mac/a4t/a4timplementation.md).
+Per informazioni sull’implementazione di A4T con at.js e [!DNL Adobe Experience Platform Web SDK], consulta [Implementazione di Analytics for  [!DNL Target] ](/help/main/c-integrating-target-with-mac/a4t/a4timplementation.md).
 
 ## Tipi di attività supportati {#section_F487896214BF4803AF78C552EF1669AA}
 
@@ -123,7 +134,7 @@ Questo video spiega come usare [!DNL Analytics] come origine per la generazione 
 * Come funziona A4T
 * Prerequisiti necessari prima di utilizzare A4T
 
->[!VIDEO](https://video.tv.adobe.com/v/3421726?captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/17384)
 
 ### Integrazione di Analytics e Adobe Target (A4T) (40:33) ![Icona esercitazione](/help/main/assets/tutorial.png)
 
@@ -138,7 +149,7 @@ Questo video è una registrazione di “ [Office Hours](/help/main/cmp-resources
 
 >[!MORELIKETHIS]
 >
->* [Implementazione di Analytics for  [!DNL Target] &#x200B;](/help/main/c-integrating-target-with-mac/a4t/a4timplementation.md): contiene informazioni sull’implementazione per at.js e Platform Web SDK.
+>* [Implementazione di Analytics for  [!DNL Target] ](/help/main/c-integrating-target-with-mac/a4t/a4timplementation.md): contiene informazioni sull’implementazione per at.js e Platform Web SDK.
 >* [Offerte di reindirizzamento: domande frequenti su A4T](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md)
 >* [Cos’è Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=it): contiene informazioni generali su Platform Web SDK.
 >* [Panoramica di Target](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/adobe-target/target-overview.html?lang=it): contiene informazioni specifiche di [!DNL Target] e [!DNL Platform Web SDK].

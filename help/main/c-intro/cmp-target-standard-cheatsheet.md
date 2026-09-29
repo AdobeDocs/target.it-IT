@@ -1,37 +1,55 @@
 ---
 keywords: Target Standard;faq;domande frequenti;guida di riferimento rapido;riferimento rapido
-description: Esplora un elenco di domande frequenti sull'utilizzo delle funzionalità di  [!DNL Target], oltre a informazioni e collegamenti per ulteriori informazioni.
+description: Esplora un elenco di domande frequenti sull'utilizzo delle funzionalità di [!DNL Target], oltre a informazioni e collegamenti per ulteriori informazioni.
 title: Dove posso trovare le risposte alle mie domande su ottimizzazione e personalizzazione?
 feature: Overview
 exl-id: 75e29d2a-78e7-40aa-b134-36a7cc8b3ed8
-TQID: https://experienceleague.adobe.com/ZLjNWdMjyDhOM4i7SzNGKZ5izqeusWmDLLNWG1HBaFg
+TQID: 'https://experienceleague.adobe.com/ZLjNWdMjyDhOM4i7SzNGKZ5izqeusWmDLLNWG1HBaFg'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
   - id: f7c7de77-382f-4f48-8b36-61a170f06d3d
+    internal-label: Integrations
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
 subfeature_v2:
   - id: df62f171-ac37-440f-8f0f-f41a72ebdd34
+    internal-label: Analytics integration
   - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+    internal-label: at.js
+  - id: fc9c2184-9102-403f-bd6c-0055021e4bea
+    internal-label: Overview
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
+    internal-label: Experimentation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Administration
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 2871
+source-wordcount: '2871'
 ht-degree: 50%
-
 ---
-
 # Domande frequenti sull’ottimizzazione e la personalizzazione di Target
 
 Risposte alle domande frequenti sull&#39;utilizzo delle funzionalità di [!DNL Adobe Target]. Scopri come ottimizzare i tuoi esperimenti, personalizzare le esperienze e accedere a risorse utili con collegamenti diretti per approfondimenti.
@@ -44,7 +62,7 @@ Risposte alle domande frequenti sull&#39;utilizzo delle funzionalità di [!DNL A
 
 L’interfaccia utente è strutturata in un formato logico e intuitivo per trarre il massimo da [!DNL Target]. La seguente breve panoramica consente di acquisire familiarità con [!DNL Target] e il Compositore esperienza visivo e fornisce collegamenti per ottenere informazioni più approfondite e istruzioni dettagliate.
 
-Per ulteriori informazioni, consulta [Comprendere l&#39;interfaccia utente [!DNL Target] &#x200B;](/help/main/c-intro/understand-the-target-ui.md).
+Per ulteriori informazioni, consulta [Comprendere l&#39;interfaccia utente [!DNL Target] ](/help/main/c-intro/understand-the-target-ui.md).
 
 +++
 
@@ -69,14 +87,14 @@ Rimani aggiornato con [!DNL Target] versioni.
 **[!DNL Adobe] dispone di una community o un forum in cui è possibile trovare risposte e ulteriori informazioni su [!DNL Target]?**
 
 +++Vedi i dettagli
-Connettiti con altri professionisti di [!DNL Target] nel [Forum della community di Target](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community?profile.language=it){target=_blank}. Condividi le tue competenze, fai domande e collabora con altri utenti che utilizzano [!DNL Target] per promuovere la personalizzazione e la sperimentazione. Una comunità fiorente dipende dalla partecipazione attiva. Le tue conoscenze ed esperienze possono aiutare gli altri a raggiungere il successo. Entra, contribuisci e trova le risposte che ti servono.
+Connettiti con altri professionisti di [!DNL Target] nel [Forum della community di Target](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community){target=_blank}. Condividi le tue competenze, fai domande e collabora con altri utenti che utilizzano [!DNL Target] per promuovere la personalizzazione e la sperimentazione. Una comunità fiorente dipende dalla partecipazione attiva. Le tue conoscenze ed esperienze possono aiutare gli altri a raggiungere il successo. Entra, contribuisci e trova le risposte che ti servono.
 
 +++
 
 **Quali browser sono supportati da [!DNL Target]?**
 
 +++Vedi i dettagli
-Per maggiori dettagli, consulta la nostra griglia dei [browser supportati](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html?lang=it){target=_blank}. Si noti che esistono due aspetti: il supporto dell&#39;interfaccia [!DNL Target Standard/Premium] e il supporto del browser per l&#39;utente finale su desktop/dispositivi.
+Per maggiori dettagli, consulta la nostra griglia dei [browser supportati](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html){target=_blank}. Si noti che esistono due aspetti: il supporto dell&#39;interfaccia [!DNL Target Standard/Premium] e il supporto del browser per l&#39;utente finale su desktop/dispositivi.
 
 +++
 
@@ -254,7 +272,7 @@ Utilizza i controlli di allocazione della percentuale disponibili nel [passaggio
 Dai un&#39;occhiata alle seguenti funzioni del prodotto:
 
 * [Analytics for Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
-* [Attributi del cliente](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html?lang=it)
+* [Attributi del cliente](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html)
 * [Tipi di pubblico](/help/main/c-integrating-target-with-mac/mmp.md)
 
 +++
@@ -401,7 +419,7 @@ Sfrutta l’efficacia delle [attività basate su moduli](/help/main/c-experience
 Dai un&#39;occhiata alle seguenti funzioni del prodotto:
 
 * [Analytics for Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
-* [Attributi del cliente](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html?lang=it)
+* [Attributi del cliente](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html)
 * [Tipi di pubblico](/help/main/c-integrating-target-with-mac/mmp.md)
 
 +++

@@ -4,13 +4,17 @@ description: Scopri come utilizzare l'opzione Reindirizza all'URL in Adobe [!DNL
 title: Posso reindirizzare una pagina a un URL diverso?
 feature: Visual Experience Composer (VEC)
 exl-id: bd448482-0079-4689-aa24-65ecbb31b8ae
-source-git-commit: be9996c4dce0a3135a39fcbf0608b57b6e742ac3
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f7501c88-b36a-590b-9cc4-dea607bda94b
+    internal-label: Visual Experience Composer (VEC)
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '482'
+source-wordcount: '483'
 ht-degree: 82%
-
 ---
-
 # Reindirizzamento a un URL
 
 Utilizzare l&#39;opzione [!UICONTROL Reindirizza all&#39;URL] in [!DNL Adobe Target] per inviare il visitatore a una pagina diversa anziché mostrare il contenuto nella stessa pagina.

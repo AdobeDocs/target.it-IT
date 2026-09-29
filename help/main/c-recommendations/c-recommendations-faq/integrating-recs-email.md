@@ -1,24 +1,32 @@
 ---
 keywords: e-mail;ESP;provider di servizi di posta elettronica;rawbox;API di consegna;modello di solo download;modello di posta elettronica;elaborazione batch;e-mail build-time
-description: Scopri come integrare le e-mail con le API di consegna di Adobe [!DNL Target Recommendations], including using the [!DNL Target] , modelli rawbox e modelli di solo download.
+description: Scopri come integrare le e-mail con Adobe [!DNL Target Recommendations], incluso l’utilizzo dell’API di consegna [!DNL Target], dei modelli rawbox e dei modelli di solo download.
 title: Come posso integrare Consigli con l’e-mail?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=it#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."
 feature: Recommendations
 exl-id: 08fcb507-2c91-444a-b8ac-26165e359f6f
-TQID: https://experienceleague.adobe.com/ZyeOl6ysM03a0mMiNgHuicOLPfgpXnrdqXJE1gHRRvE
+TQID: 'https://experienceleague.adobe.com/ZyeOl6ysM03a0mMiNgHuicOLPfgpXnrdqXJE1gHRRvE'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
+    internal-label: Recommendations
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Personalization
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 1768
-ht-degree: 87%
-
+source-wordcount: '1772'
+ht-degree: 86%
 ---
-
 # Integrare [!DNL Recommendations] con l&#39;e-mail
 
 [!DNL Adobe Target] supporta la personalizzazione in fase di invio dei consigli nelle e-mail.
@@ -114,9 +122,9 @@ Il sistema e-mail utilizzato deve essere in grado di gestire i seguenti scenari:
 
 * L&#39;applicazione e-mail deve cercare quel testo ed essere in grado di gestire l&#39;errore. Il provider di posta elettronica dispone di più opzioni per gestire questo caso:
 
-   * Provare immediatamente un&#39;altra chiamata del server (consigliato, possibilmente con un contatore di tentativi).
-   * Escludere quella particolare e-mail e passare a quella successiva.
-   * Metti in coda quella specifica e-mail ed esegui nuovamente le e-mail non riuscite come batch alla fine dell’esecuzione iniziale.
+  * Provare immediatamente un&#39;altra chiamata del server (consigliato, possibilmente con un contatore di tentativi).
+  * Escludere quella particolare e-mail e passare a quella successiva.
+  * Metti in coda quella specifica e-mail ed esegui nuovamente le e-mail non riuscite come batch alla fine dell’esecuzione iniziale.
 
 ### URL di richiesta di esempio
 

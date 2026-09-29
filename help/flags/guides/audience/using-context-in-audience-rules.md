@@ -4,13 +4,14 @@ description: Scopri come utilizzare gli attributi di contesto nelle regole per i
 badge: label="Beta" type="Informative"
 hide: true
 exl-id: 0367f475-9209-4d53-86b4-a739a73a23a7
-source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
 source-wordcount: '186'
 ht-degree: 1%
-
 ---
-
 # Usa contesto nelle regole del pubblico {#context-in-audience-rules}
 
 Gli attributi di contesto sono valori forniti dall’applicazione client in fase di esecuzione. Consentono di eseguire il targeting degli utenti in base a informazioni dinamiche a livello di sessione, come la lingua attiva dell’utente, il tipo di dispositivo o lo stato dell’applicazione.

@@ -4,13 +4,14 @@ description: Scopri come integrare l’estensione Flags con Adobe Experience Pla
 badge: label="Beta" type="Informative"
 hide: true
 exl-id: 683ef4d4-e637-4b7b-b694-689c7e65a99e
-source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '984'
-ht-degree: 5%
-
+source-wordcount: '996'
+ht-degree: 6%
 ---
-
 # Estensione flag per Android {#android-extension-integration-guide}
 
 Questa guida descrive come integrare l’estensione Flags con Adobe Experience Platform Mobile SDK su Android.
@@ -52,7 +53,7 @@ Assicurati che queste estensioni siano installate nella proprietà mobile di Dat
    | ID applicazione | Un identificatore univoco per l’applicazione nei flag |
 
 1. Seleziona **Salva**.
-1. Segui il [processo di pubblicazione](https://experienceleague.adobe.com/it/docs/experience-platform/tags/publish/overview) per aggiornare la configurazione.
+1. Segui il [processo di pubblicazione](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/overview) per aggiornare la configurazione.
 
 ### Ottieni l’ID del file di ambiente {#environment-file-id}
 

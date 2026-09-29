@@ -2,29 +2,40 @@
 keywords: algoritmi consigli;formazione modello;server modelli;distribuzione contenuti;basato su elementi;basato su utenti;basato su popolarità;basato su carrello;criteri personalizzati;recommendations algorithms;model training;model serving;content delivery;item-based;user-based;popularity-based;cart-based;custom criteria
 description: Scopri gli algoritmi utilizzati in [!DNL Target Recommendations], inclusi l'apprendimento dei modelli e il model serving.
 title: Dove posso scoprire la scienza alla base degli algoritmi di Recommendations di Target?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=it#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."
 feature: Recommendations
 mini-toc-levels: 2
 exl-id: c156952b-8eda-491d-a68e-d3d09846f640
-TQID: https://experienceleague.adobe.com/goYsorjFUweT4Aw0XvzQSeiqON7orDcLntZaJliqGl4
+TQID: 'https://experienceleague.adobe.com/goYsorjFUweT4Aw0XvzQSeiqON7orDcLntZaJliqGl4'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
+    internal-label: Recommendations
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
+    internal-label: Behavioral data
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 220c828fc77e9022a3884de04b78ae5d107e4c7d
+    internal-label: Personalization
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 3045
+source-wordcount: '3045'
 ht-degree: 0%
-
 ---
-
 # La scienza alla base degli algoritmi della funzione Consigli di Target
 
 Descrizione dettagliata degli algoritmi utilizzati in [!DNL Adobe Target Recommendations], inclusi i dettagli logici e matematici dell&#39;apprendimento dei modelli e del processo di modellazione.
@@ -77,7 +88,7 @@ Il flusso logico dell’implementazione effettiva dell’algoritmo è mostrato n
 
 Di seguito sono riportati i dettagli di questi passaggi:
 
-* **Dati di input**: dati comportamentali, sotto forma di visualizzazioni e acquisti di visitatori raccolti quando [implementi Target](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=it){target=_blank} o da [Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md){target=_blank}.
+* **Dati di input**: dati comportamentali, sotto forma di visualizzazioni e acquisti di visitatori raccolti quando [implementi Target](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} o da [Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md){target=_blank}.
 
 * **Apprendimento del modello**:
 
@@ -101,7 +112,7 @@ Sebbene gli aspetti relativi alla distribuzione dei modelli e dei contenuti degl
 
 Di seguito sono riportati i dettagli di questi passaggi:
 
-* **Dati di input**: come descritto in precedenza, questo algoritmo si basa esclusivamente sui dati del catalogo (acquisiti in [!DNL Target] tramite un [Feed catalogo, l&#39;API delle entità o dagli aggiornamenti nella pagina](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=it){target=_blank}.
+* **Dati di input**: come descritto in precedenza, questo algoritmo si basa esclusivamente sui dati del catalogo (acquisiti in [!DNL Target] tramite un [Feed catalogo, l&#39;API delle entità o dagli aggiornamenti nella pagina](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}.
 
 * **Apprendimento del modello**:
 
@@ -139,7 +150,7 @@ La logica dei passaggi di apprendimento del modello e del punteggio è illustrat
 
 Di seguito sono riportati i dettagli di questi passaggi:
 
-* **Dati di input**: identico ai metodi di filtro collaborativo elemento-elemento. [!UICONTROL Entrambi gli algoritmi consigliati per te] e basati su carrello utilizzano dati comportamentali, sotto forma di visualizzazioni e acquisti di utenti raccolti quando [implementi Target](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=it){target=_blank} o da [Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md){target=_blank}.
+* **Dati di input**: identico ai metodi di filtro collaborativo elemento-elemento. [!UICONTROL Entrambi gli algoritmi consigliati per te] e basati su carrello utilizzano dati comportamentali, sotto forma di visualizzazioni e acquisti di utenti raccolti quando [implementi Target](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} o da [Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md){target=_blank}.
 
 * **Apprendimento del modello**:
 

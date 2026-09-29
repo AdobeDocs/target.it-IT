@@ -1,17 +1,24 @@
 ---
 keywords: sequenza criteri;criteri multipli;algoritmi;criteri;criteri consigli;sequenza;numero limite di elementi restituiti;controllo a livello di slot;slot;criteria sequence;multiple criteria;algorithms;criteria;recommendations criteria;sequence;limit number of items returned;slot level control;slot level control;slot
-description: Scopri come impostare sequenze fino a cinque criteri per esercitare un maggiore controllo sugli elementi visualizzati nelle attività Adobe [!DNL Target] Recommendations.
+description: Scopri come impostare sequenze fino a cinque criteri per esercitare un maggiore controllo sugli elementi visualizzati nelle attività Consigli di Adobe [!DNL Target].
 title: Come si creano sequenze di criteri in Recommendations?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=it#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."
 feature: Recommendations
 exl-id: 5366c86c-7685-478b-a621-9b3f24296ab7
-source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
+    internal-label: Recommendations
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '866'
+source-wordcount: '868'
 ht-degree: 30%
-
 ---
-
 # Creare sequenze di criteri
 
 Utilizza le sequenze di criteri (fino a cinque criteri per sequenza) per esercitare un maggiore controllo sugli elementi da visualizzare nelle attività [!UICONTROL Consigli]. È inoltre possibile limitare il numero di elementi restituiti (talvolta denominati &quot;controllo a livello di slot&quot;).
@@ -95,4 +102,4 @@ Questo video contiene le seguenti informazioni:
 * Creare sequenze di criteri
 * Caricare criteri personalizzati
 
->[!VIDEO](https://video.tv.adobe.com/v/328806?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/27694?quality=12)

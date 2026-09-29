@@ -4,7 +4,16 @@ description: Scopri come il pre-hiding dei contenuti riduce lo sfarfallio nascon
 title: Pre-hiding dei contenuti per esperienze personalizzate
 feature: Administration & Configuration
 role: Admin
-source-git-commit: a002b0a3549c0e47734849fce0df63b0df9cdee0
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
 source-wordcount: '596'
 ht-degree: 1%
@@ -47,7 +56,7 @@ Il pre-hiding del contenuto è disattivato per la tua istanza fino a quando non 
 
 1. Fai clic su **[!UICONTROL Salva]**. Questo applicherà le impostazioni di gestione della visualizzazione momentanea di altri contenuti all’istanza.
 
-1. Una volta attivato, fare clic su **[!UICONTROL Scarica]**, quindi aggiungere il file alla pagina `<head>` in modo che venga caricato prima di [!DNL at.js] o di [!DNL Web SDK]. Per istruzioni complete sull&#39;implementazione, vedere [Contenuto che nasconde preventivamente SDK](https://experienceleague.adobe.com/it/docs/target-dev/developer/client-side/prehide-sdk).
+1. Una volta attivato, fare clic su **[!UICONTROL Scarica]**, quindi aggiungere il file alla pagina `<head>` in modo che venga caricato prima di [!DNL at.js] o di [!DNL Web SDK]. Per istruzioni complete sull&#39;implementazione, vedere [Contenuto che nasconde preventivamente SDK](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/prehide-sdk).
 
    ![](assets/content-pre-hiding-2.png)
 

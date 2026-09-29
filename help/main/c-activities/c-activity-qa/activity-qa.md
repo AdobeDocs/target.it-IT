@@ -1,30 +1,39 @@
 ---
 keywords: qa;modalità qa; qa attività;qa url;qa url;anteprima url;anteprima url
-description: Scopri come utilizzare gli URL di controllo qualità di Adobe [!DNL Target] per eseguire in modo semplice e completo il controllo qualità delle attività con collegamenti di anteprima che restano invariati, targeting facoltativo del pubblico e rapporti di controllo qualità mantenuti segmentati dai dati delle attività live.
+description: Scopri come utilizzare gli URL di controllo qualità di Adobe [!DNL Target] per eseguire facilmente il controllo qualità delle attività end-to-end con collegamenti di anteprima che restano invariati, targeting facoltativo del pubblico e rapporti di controllo qualità mantenuti segmentati dai dati delle attività live.
 title: Come posso eseguire il controllo qualità delle attività?
 feature: Activities
 exl-id: 5c606d61-6d13-4a9b-9a23-4840f1754d3c
-TQID: https://experienceleague.adobe.com/glE1Kx2xhqagq9v-SgSkdwr6lYwpioe4DlSkLRFQ0jI
+TQID: 'https://experienceleague.adobe.com/glE1Kx2xhqagq9v-SgSkdwr6lYwpioe4DlSkLRFQ0jI'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
+  - id: 6efa6b7a-8062-5c41-aef4-b4853cc306ae
+    internal-label: Activities
 subfeature_v2:
   - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+    internal-label: at.js
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Personalization
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 1815
+source-wordcount: '1816'
 ht-degree: 27%
-
 ---
-
 # Controllo di qualità delle attività
 
 Gli URL di controllo qualità in [!DNL Adobe Target] consentono di verificare in modo semplice e completo la qualità delle attività tramite collegamenti di anteprima che restano invariati, l&#39;eventuale definizione di un pubblico di destinazione e rapporti di controllo qualità mantenuti separati dai dati delle attività live.
@@ -55,8 +64,8 @@ Gli URL di controllo qualità in [!DNL Adobe Target] consentono di verificare in
 
      Se questa impostazione è disattivata, considera quanto segue:
 
-      * Se ci sono conflitti tra l&#39;attività che stai testando e altre attività live, vengono applicate [le normali regole di priorità](/help/main/c-activities/priority.md#concept_1780C11FEA57440499F0047DD6900E0F). A causa di conflitti, è possibile che non riesca a visualizzare l’attività di cui intendi eseguire il controllo qualità.
-      * Le metriche vengono incrementate per le attività visualizzate, ma solo nell’ambiente di reporting ai fini del controllo qualità.
+     * Se ci sono conflitti tra l&#39;attività che stai testando e altre attività live, vengono applicate [le normali regole di priorità](/help/main/c-activities/priority.md#concept_1780C11FEA57440499F0047DD6900E0F). A causa di conflitti, è possibile che non riesca a visualizzare l’attività di cui intendi eseguire il controllo qualità.
+     * Le metriche vengono incrementate per le attività visualizzate, ma solo nell’ambiente di reporting ai fini del controllo qualità.
 
 1. Fai clic su **[!UICONTROL Fine]** per salvare le modifiche.
 1. Condividi gli URL di collegamento dell’attività con i membri della tua organizzazione per il test.
@@ -98,7 +107,7 @@ Se nel sito è implementato [[!UICONTROL Platform Web SDK]](https://experiencele
 * Le attività importate in [!DNL Target Standard/Premium] (ad esempio da [!DNL Target Classic]) non supportano gli URL di controllo qualità.
 * Nelle attività [!UICONTROL Allocazione automatica] e [!UICONTROL Consigli], il modello non è interessato dalle visite acquisite in [!UICONTROL Controllo qualità attività].
 * Se hai specificato un URL durante la creazione di [perfezionamenti dell&#39;attività nel Compositore basato su modulo](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) o [opzioni di consegna pagine nel Compositore esperienza visivo](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81), l&#39;URL del controllo qualità non funziona perché [!UICONTROL Controllo qualità attività] aggiunge parametri all&#39;URL. Per risolvere questo problema, fai clic su URL di controllo qualità per passare al sito, rimuovi dall’URL i parametri aggiunti, quindi carica il nuovo l’URL.
-* Se disponi di at.js 1.*x*, la modalità [!UICONTROL Controllo qualità attività] non è definitiva se utilizzi Safari o un altro browser che blocca i cookie di terze parti. In questi casi, devi aggiungere i parametri di anteprima a ogni URL a cui vai. Lo stesso vale se hai implementato [CNAME](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/implement-cname-support-in-target.html?lang=it){target=_blank}.
+* Se disponi di at.js 1.*x*, la modalità [!UICONTROL Controllo qualità attività] non è definitiva se utilizzi Safari o un altro browser che blocca i cookie di terze parti. In questi casi, devi aggiungere i parametri di anteprima a ogni URL a cui vai. Lo stesso vale se hai implementato [CNAME](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/implement-cname-support-in-target.html){target=_blank}.
 * Se un’attività utilizza più tipi di pubblico per le esperienze (ad esempio, se nella stessa attività sono inclusi un sito britannico e uno statunitense), i collegamenti di controllo qualità non vengono generati per le quattro combinazioni (Esperienza A/sito US, Esperienza A/sito UK, Esperienza B/sito US, Esperienza B/sito UK). Vengono creati solo due collegamenti di controllo qualità (Esperienza A ed Esperienza B) e la pagina verrà visualizzata dagli utenti che risultano idonei per il pubblico appropriato. Una persona che effettua il controllo qualità nel Regno Unito non può visualizzare il sito degli Stati Uniti.
 * Tutti i parametri e i valori `at_preview` sono già codificati nell’URL. Nella maggior parte dei casi, tutto funziona come previsto. Tuttavia, alcuni clienti devono caricare bilanciatori o server Web che tentano di codificare nuovamente i parametri della stringa di query.
 
@@ -125,8 +134,8 @@ Se nel sito è implementato [[!UICONTROL Platform Web SDK]](https://experiencele
 
 [!DNL Target] supporta le seguenti librerie JavaScript:
 
-* [at.js 1.x](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html?lang=it)
-* [at.js 2.x](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html?lang=it)
+* [at.js 1.x](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html)
+* [at.js 2.x](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html)
 * [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=it)
 
 Nella tabella seguente sono elencati i vari tipi di attività e viene indicato se la modalità di controllo qualità [!UICONTROL Attività] è supportata per ogni libreria:

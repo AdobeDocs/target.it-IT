@@ -1,18 +1,27 @@
 ---
 keywords: deduplicare;consentire duplicati;escludere offerte duplicate;personalizzazione automatizzata;non consentire offerte duplicate;escludere;contenuto predefinito;gruppo di esclusione;
-description: Gestire le esclusioni nelle  [!DNL Adobe Target] [!UICONTROL attività Automated Personalization] (AP). Crea gruppi di esclusione ed escludi le offerte duplicate, esperienze specifiche e contenuti predefiniti.
+description: Gestisci esclusioni nelle attività [!DNL Adobe Target] [!UICONTROL Automated Personalization] (AP). Crea gruppi di esclusione ed escludi le offerte duplicate, esperienze specifiche e contenuti predefiniti.
 title: Come posso gestire le esclusioni nelle [!UICONTROL attività Automated Personalization]?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=it#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."
 feature: Automated Personalization
 solution: Target,Analytics
 exl-id: d9e9f2a2-5914-4b81-acae-eaf388646652
-source-git-commit: 3a44c05bea24c622292dd0b774f88f0c93be1d88
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: f0055dd2-93f3-4ac8-9abc-d69d4ed2d977
+    internal-label: Automated personalization
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '1008'
+source-wordcount: '1009'
 ht-degree: 47%
-
 ---
-
 # Gestire le esclusioni
 
 Gestisci le esclusioni creando gruppi di esclusione, escludendo le offerte duplicate, esperienze specifiche e contenuti predefiniti nelle attività di [!UICONTROL Automated Personalization] (AP) in [!DNL Adobe Target].

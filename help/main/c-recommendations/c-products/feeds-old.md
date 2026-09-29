@@ -1,17 +1,24 @@
 ---
 keywords: feed consigli;feed;SAINT;ftp;csv;classificazioni;classificazioni analytics
-description: Scopri come i feed importano le entità in [!DNL Adobe Target] [!DNL Recommendations] utilizzando file CSV, il formato feed di Google Product Search e le  [!DNL Analytics] classificazioni di prodotto.
+description: Scopri come i feed importano le entità in [!DNL Adobe Target] [!DNL Recommendations] utilizzando file CSV, il formato feed di Google Product Search e le classificazioni di prodotto [!DNL Analytics].
 title: Come si utilizzano [!UICONTROL feed] in [!DNL Target Recommendations]?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=it#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."
 feature: Recommendations
 exl-id: 7b336a9e-23f4-4b09-9c8f-b9cb68162b1b
-source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
+    internal-label: Recommendations
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '2572'
-ht-degree: 44%
-
+source-wordcount: '2580'
+ht-degree: 45%
 ---
-
 # Feed
 
 Utilizzare i feed per importare le entità in [!DNL Adobe Target] [!DNL Recommendations]. Le entità possono essere inviate tramite file CSV, il formato feed di Google Product Search e le classificazioni di prodotto [!DNL Adobe Analytics].
@@ -212,7 +219,7 @@ na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round c
 
 ### [!DNL Analytics] classificazioni prodotto {#section_79E430D2C75443BEBC9AA0916A337E0A}
 
-La classificazione di prodotto [!DNL Analytics] è l&#39;unica classificazione disponibile per i consigli. Per ulteriori informazioni su questo file di classificazione, vedere [Informazioni sulle classificazioni](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html?lang=it) nella *Guida ai componenti di Analytics*. È possibile che non tutte le informazioni necessarie per i consigli siano disponibili nell’implementazione corrente. Per aggiungere elementi al file delle classificazioni, consulta quindi questa guida utente.
+La classificazione di prodotto [!DNL Analytics] è l&#39;unica classificazione disponibile per i consigli. Per ulteriori informazioni su questo file di classificazione, vedere [Informazioni sulle classificazioni](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html) nella *Guida ai componenti di Analytics*. È possibile che non tutte le informazioni necessarie per i consigli siano disponibili nell’implementazione corrente. Per aggiungere elementi al file delle classificazioni, consulta quindi questa guida utente.
 
 >[!IMPORTANT]
 >
@@ -246,10 +253,10 @@ Crea un feed per inserire le informazioni sui prodotti o i servizi in [!DNL Reco
 
      Impostazioni del server FTP supportate:
 
-      * FTP e FTPS devono essere impostati per FTP passivo.
-      * Per FTPS, configura il server per accettare connessioni FTPS esplicite.
-      * SFTP non è supportato.
-      * È possibile specificare manualmente una porta su cui avviare la connessione (ad esempio, `ftp://ftp.yoursite.com:2121`). Se non specifichi una porta, viene usata la porta FTP o FTPS predefinita.
+     * FTP e FTPS devono essere impostati per FTP passivo.
+     * Per FTPS, configura il server per accettare connessioni FTPS esplicite.
+     * SFTP non è supportato.
+     * È possibile specificare manualmente una porta su cui avviare la connessione (ad esempio, `ftp://ftp.yoursite.com:2121`). Se non specifichi una porta, viene usata la porta FTP o FTPS predefinita.
 
    * **URL**: se selezioni [!UICONTROL URL], specifica l&#39;URL.
 
@@ -328,14 +335,14 @@ Prendi in considerazione gli esempi seguenti:
 
 **Esempio 1:**
 
-* Primo giorno: processi di feed giornalieri alle 9:00 PST.
-* Secondo giorno: sono le 15:00 e da ieri alle 09:01 non viene più eseguito alcun feed.:30:00
+* Primo giorno: i processi di alimentazione giornalieri sono effettuati alle 9.00 PST.
+* Giorno 2: sono le 15.30 e il feed non viene eseguito da ieri alle 09.00.
 
 Lo stato visualizzato sarà giallo, perché l’indice doveva essere eseguito circa 6 ore e 30 minuti fa. 6 ore e 30 minuti + 24 ore rappresentano il 127% della finestra del feed.
 
 **Esempio 2:**
 
-* 1 gennaio: processi di feed mensili alle 9.00 PST.:00
+* 1 gennaio: processi di feed mensili alle 9:00 PST.
 * 3 febbraio: sono le 10:00 e il feed non viene eseguito da un mese, un giorno e un’ora.
 
 Lo stato visualizzato sarà giallo, perché l’indice doveva essere eseguito circa un giorno e un’ora fa. Anche se questo rappresenta solo l’1,03% delle impostazioni di frequenza [(31 + (1/25))/30 = 1,03%], il ritardo massimo di un giorno è stato superato.
@@ -344,14 +351,14 @@ Lo stato visualizzato sarà giallo, perché l’indice doveva essere eseguito ci
 
 I video seguenti contengono ulteriori informazioni sui concetti descritti in questo articolo.
 
-### Informazioni sui feed in Recommendations (3:01) ![Icona Panoramica](/help/main/assets/overview.png)
+### Feed in Recommendations (3:01) ![Icona Panoramica](/help/main/assets/overview.png)
 
 Questo video contiene le seguenti informazioni:
 
 * Comprendere lo scopo dei feed
 * Comprendere il valore dei feed
 
->[!VIDEO](https://video.tv.adobe.com/v/328597?captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/27695)
 
 ### Crea un feed (6:44) ![Icona esercitazione](/help/main/assets/tutorial.png)
 
@@ -360,4 +367,4 @@ Questo video contiene le seguenti informazioni:
 * Impostare un feed
 * Quale tipo di feed usare
 
->[!VIDEO](https://video.tv.adobe.com/v/328596?captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/27696)

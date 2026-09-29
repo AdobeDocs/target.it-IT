@@ -1,17 +1,24 @@
 ---
 keywords: creare consigli;attività consigli;nuovi consigli;panoramica consigli
-description: Scopri come utilizzare il Compositore esperienza visivo di Adobe [!DNL Target] per creare un'attività Consigli direttamente su una pagina abilitata per  [!DNL Target].
+description: Scopri come utilizzare il Compositore esperienza visivo di Adobe [!DNL Target] per creare un’attività Consigli direttamente su una pagina abilitata per [!DNL Target].
 title: Come si crea un’attività Consigli?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=it#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."
 feature: Recommendations
 exl-id: c83073d5-f852-4f09-8343-e4658fbf6f43
-source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
+    internal-label: Recommendations
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '1340'
+source-wordcount: '1342'
 ht-degree: 58%
-
 ---
-
 # Creare un’attività Consigli
 
 Utilizza il Compositore esperienza visivo di Target per creare attività Consigli direttamente su una pagina abilitata per Target e modificare parti della pagina in Target.
@@ -30,7 +37,7 @@ Utilizza il Compositore esperienza visivo di Target per creare attività Consigl
    >
    >Per informazioni sulla risoluzione dei problemi relativi al Compositore esperienza visivo, consulta [Risoluzione dei problemi relativi al Compositore esperienza visivo](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md).
    >
-   >L&#39;opzione [[!UICONTROL [Scegli area di lavoro]]](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) nell&#39;illustrazione precedente è una funzionalità di [Target Premium](/help/main/c-intro/intro.md). Se la tua organizzazione dispone di una licenza Target Standard, questa opzione non è disponibile.
+   >L&#39;opzione [!UICONTROL [Scegli area di lavoro]](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) nell&#39;illustrazione precedente è una funzionalità di [Target Premium](/help/main/c-intro/intro.md). Se la tua organizzazione dispone di una licenza Target Standard, questa opzione non è disponibile.
 
 1. (Condizionale) Se sei un cliente [Target Premium](/help/main/c-intro/intro.md#premium), scegli un’[area di lavoro](/help/main/administrating-target/c-user-management/property-channel/property-channel.md).
 
@@ -77,7 +84,7 @@ Utilizza il Compositore esperienza visivo di Target per creare attività Consigl
 
    >[!NOTE]
    >
-   >Non tutti i criteri vengono eseguiti correttamente su ogni pagina. La pagina o mbox deve passare `entity.id` o `entity.categoryId` per rendere compatibili i consigli per l’elemento o la categoria corrente. In generale, è consigliabile mostrare solo i criteri compatibili. Tuttavia, se desideri che i criteri non compatibili siano disponibili per l’attività, deseleziona la casella di controllo **[!UICONTROL Compatibile]**. L&#39;opzione [!UICONTROL Compatibile] potrebbe non essere visualizzata, a seconda delle impostazioni dei consigli ( **[!UICONTROL Consigli]** > **[!UICONTROL Impostazioni]** > **[!UICONTROL Filtra criteri incompatibili]**). Per ulteriori informazioni, consulta [Impostazioni](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=it){target=_blank}.
+   >Non tutti i criteri vengono eseguiti correttamente su ogni pagina. La pagina o mbox deve passare `entity.id` o `entity.categoryId` per rendere compatibili i consigli per l’elemento o la categoria corrente. In generale, è consigliabile mostrare solo i criteri compatibili. Tuttavia, se desideri che i criteri non compatibili siano disponibili per l’attività, deseleziona la casella di controllo **[!UICONTROL Compatibile]**. L&#39;opzione [!UICONTROL Compatibile] potrebbe non essere visualizzata, a seconda delle impostazioni dei consigli ( **[!UICONTROL Consigli]** > **[!UICONTROL Impostazioni]** > **[!UICONTROL Filtra criteri incompatibili]**). Per ulteriori informazioni, consulta [Impostazioni](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}.
 
    ![Finestra di dialogo Seleziona criteri](/help/main/c-recommendations/t-create-recs-activity/assets/SCRN_SelectCriteria2.png)
 
@@ -176,6 +183,6 @@ Utilizza il Compositore esperienza visivo di Target per creare attività Consigl
 
    I conflitti tra attività si verificano quando più attività sono impostate per consegnare il contenuto sulla stessa pagina e possono causare la visualizzazione di contenuto imprevisto.
 
-## Video di formazione: Crea un&#39;attività Consigli (7:15) ![Icona esercitazione](/help/main/assets/tutorial.png)
+## Video di formazione: Crea un’attività Consigli (7:15) ![Icona esercitazione](/help/main/assets/tutorial.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/328598?captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/27688)

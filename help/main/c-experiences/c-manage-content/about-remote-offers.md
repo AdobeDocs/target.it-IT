@@ -4,20 +4,28 @@ description: Scopri come sfruttare le offerte remote in [!DNL Target] per ospita
 title: Come si creano le offerte remote?
 feature: Experiences and Offers
 exl-id: 6a5283ee-c1fb-49f7-8e7f-c23ccde26ade
-TQID: https://experienceleague.adobe.com/maKcis5ROOKMcc3-axxGv1qJIQzC6o-Qc-Cjl8clQ1I
+TQID: 'https://experienceleague.adobe.com/maKcis5ROOKMcc3-axxGv1qJIQzC6o-Qc-Cjl8clQ1I'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
+subfeature_v2:
+  - id: ef98a6e0-f26c-4870-9bd4-e6b72e9cc699
+    internal-label: Experiences and offers
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Personalization
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 1145
+source-wordcount: '1146'
 ht-degree: 24%
-
 ---
-
 # Creare offerte remote
 
 Utilizzare le offerte remote per l&#39;hosting di contenuto esterno a [!DNL Adobe Target], consentendo a [!DNL Target] di fare riferimento a tali contenuti e di distribuirli ai siti Web degli utenti. Questi contenuti possono trovarsi in un sistema di gestione dei contenuti (CMS) o in un altro sistema per motivi di facilità d’uso o sicurezza.
@@ -41,14 +49,14 @@ Best practice per l’utilizzo delle offerte remote nelle attività:
 
 * Le offerte remote sono supportate in:
 
-   * Attività A/B
-   * Attività di Targeting di esperienza (XT)
-   * Flussi di lavoro basati su moduli
+  * Attività A/B
+  * Attività di Targeting di esperienza (XT)
+  * Flussi di lavoro basati su moduli
 
 * Le offerte remote non sono supportate in:
 
-   * [Funzionalità Premium](/help/main/c-intro/intro.md#premium) (Automated Personalization (AP), Targeting automatico e Consigli)
-   * Multivariate Testing (MVT), a causa della dipendenza dal Compositore esperienza visivo, che non supporta le offerte remote.
+  * [Funzionalità Premium](/help/main/c-intro/intro.md#premium) (Automated Personalization (AP), Targeting automatico e Consigli)
+  * Multivariate Testing (MVT), a causa della dipendenza dal Compositore esperienza visivo, che non supporta le offerte remote.
 
 * Se l&#39;offerta si trova nello stesso dominio delle richieste [!DNL Target], l&#39;utilizzo dell&#39;opzione [!UICONTROL Memorizzata in cache] consente di utilizzare URL relativi per descrivere la posizione dell&#39;offerta.
 

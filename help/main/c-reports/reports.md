@@ -1,25 +1,32 @@
 ---
 keywords: report;bloccare indirizzo ip;bloccare visitatore da indirizzo ip;scaricare report;csv;reporting;reports;block ip address;block visitor from ip address;download reports;csv;reporting
-description: Ottimizza le tue attività grazie alla padronanza delle funzionalità di reporting di  [!DNL Adobe Target] per migliorare il processo decisionale e aumentare il ROI.
+description: Ottimizza le tue attività acquisendo le funzionalità di reporting di [!DNL Adobe Target] per migliorare il processo decisionale e aumentare il ROI.
 title: Come posso visualizzare i rapporti?
 feature: Reports
 exl-id: c5710eb3-0c72-47f8-870d-df50453ecf08
-TQID: https://experienceleague.adobe.com/aRp-t-Z-Hfu5O01RqfxnKyHHL2suM2ahkteDQJShGQI
+TQID: 'https://experienceleague.adobe.com/aRp-t-Z-Hfu5O01RqfxnKyHHL2suM2ahkteDQJShGQI'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: e8a43148-398f-56c7-9433-6564f96999c2
+    internal-label: Reports
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Insights
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 947
+source-wordcount: '948'
 ht-degree: 24%
-
 ---
-
 # Rapporti
 
 I report forniscono informazioni sull&#39;avanzamento e i risultati delle attività [!DNL Adobe Target] che consentono di prendere decisioni basate sui dati. I dati dei rapporti possono aiutarti a decidere quando terminare un’attività, a individuare l’esperienza o l’offerta vincente e a ottenere informazioni o risultati utili per determinare le azioni successive.
@@ -83,7 +90,7 @@ Oltre alle informazioni di reporting generali presenti in questo argomento e nei
 | [[!UICONTROL Automated Personalization]](/help/main/c-activities/t-automated-personalization/automated-personalization.md) (AP) | Informazioni sui due rapporti [!UICONTROL Riepilogo Automated Personalization] per le attività di Personalizzazione automatizzata: [!UICONTROL Livello attività] e [!UICONTROL Livello offerta]. Per ulteriori informazioni, consulta [Rapporti di riepilogo di Automated Personalization](/help/main/c-reports/personalization-reports/reports-ap.md).<br>Informazioni sui due rapporti [!UICONTROL Personalization Insights] per le attività di AT e AP: [!UICONTROL Rapporto Segmenti automatizzati] e [!UICONTROL Rapporto Attributi importanti]. Per ulteriori informazioni, consulta [Rapporti Approfondimenti personalizzazione](/help/main/c-reports/c-personalization-insights-reports/personalization-insights-reports.md). |
 | [[!UICONTROL Test multivariato]](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md) (MVT) | Informazioni sui due report per attività MVT: [!UICONTROL Prestazioni esperienza] e [!UICONTROL Contributo posizione]. Per ulteriori informazioni, vedere [Rapporto prestazioni esperienza](/help/main/c-reports/multivariate-test-reports/experience-performance-report.md) (MVT) e [Rapporto contributo posizione](/help/main/c-reports/multivariate-test-reports/location-contribution-report.md) (MVT). |
 | [[!DNL Adobe Analytics] come Source di reporting per Adobe Target](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T) | Informazioni sull&#39;utilizzo di [!DNL Adobe Analytics] come origine per la generazione di rapporti per [!DNL Target] (A4T). A4T consente di accedere ai rapporti di [!DNL Analytics] per le attività di [!DNL Target]. Per ulteriori informazioni, consulta [Creazione di rapporti di Analytics for Target (A4T)](/help/main/c-reports/analytics-for-target-a4t-reporting.md). |
-| [[!DNL Target] generazione rapporti in [!DNL Adobe Customer Journey Analytics]](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md) | Informazioni sull&#39;integrazione tra [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/it/docs/customer-journey-analytics){target=_blank} e [!DNL Target] che fornisce potenti strumenti di analisi per il programma di ottimizzazione che consentono di risparmiare tempo. |
+| [[!DNL Target] generazione rapporti in [!DNL Adobe Customer Journey Analytics]](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md) | Informazioni sull&#39;integrazione tra [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/customer-journey-analytics){target=_blank} e [!DNL Target] che fornisce potenti strumenti di analisi per il programma di ottimizzazione che consentono di risparmiare tempo. |
 
 ## Blocca i dati di reporting dagli indirizzi IP specificati
 

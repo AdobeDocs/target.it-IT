@@ -4,21 +4,25 @@ description: Scopri come utilizzare un [!UICONTROL test multivariato] (MVT) in [
 title: Cos'è un [!UICONTROL test multivariato]?
 feature: Multivariate Tests
 exl-id: c8b60011-cb3a-4e28-b84f-06910687b14b
-TQID: https://experienceleague.adobe.com/JKmjIHJuRxAXlhvUOrrmLMVLnJFhA3T4xkahgH-ozHE
+TQID: 'https://experienceleague.adobe.com/JKmjIHJuRxAXlhvUOrrmLMVLnJFhA3T4xkahgH-ozHE'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
+  - id: b934e7cf-c07f-5a64-924b-3c9da8413e3d
+    internal-label: Multivariate Tests
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Customer experience
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 1473
+source-wordcount: '1477'
 ht-degree: 46%
-
 ---
-
 # Panoramica di [!UICONTROL Test multivariato]
 
 Un&#39;attività [!UICONTROL Test multivariato] (MVT) in [!DNL Adobe Target] confronta le combinazioni di offerte negli elementi di una pagina per determinare quale combinazione funziona meglio per un pubblico specifico. Un&#39;attività [!UICONTROL Test multivariato] consente inoltre di identificare quale elemento influisce maggiormente sul successo dell&#39;attività.
@@ -100,19 +104,19 @@ I video seguenti contengono ulteriori informazioni sui concetti descritti in que
 
 ### Tipi di attività (9:03) ![Icona panoramica](/help/main/assets/overview.png)
 
-Questo video di panoramica spiega i tipi di attività disponibili in [!DNL Target]. Il test multivariato viene discusso a partire dal 4:20.
+Questo video di panoramica spiega i tipi di attività disponibili in [!DNL Target]. Il test multivariato è trattato a partire dal minuto 4:20.
 
 * Descrizione dei tipi di attività inclusi in [!DNL Adobe Target]
 * Selezionare il tipo di attività appropriato per i tuoi obiettivi
 * Descrizione del flusso di lavoro guidato in tre passaggi da applicare a tutti i tipi di attività
 
->[!VIDEO](https://video.tv.adobe.com/v/36365?captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/17386)
 
 ### Creazione di test multivariati (9:25) ![Icona esercitazione](/help/main/assets/tutorial.png)
 
-Questo video spiega come comprendere, pianificare e creare un test multivariato utilizzando il flusso di lavoro guidato in tre passaggi di Target.
+Questo video spiega come comprendere, pianificare e creare un test multivariato utilizzando il flusso di lavoro guidato in tre passaggi di [!DNL]Target.
 
 * Definizione e progettazione di un test multivariato
 * Creazione di un test multivariato
 
->[!VIDEO](https://video.tv.adobe.com/v/36329?captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/17395)

@@ -1,29 +1,38 @@
 ---
 keywords: Guida alle attività;attività;attività;tipi di attività;azioni di attività
-description: Scarica un PDF interattivo che descrive i diversi tipi di attività in  [!DNL Adobe Target].
+description: Scarica un PDF interattivo che descrive i diversi tipi di attività in [!DNL Adobe Target].
 title: Quali tipi di attività sono disponibili in [!DNL Target]?
 feature: Activities
 exl-id: fa62592d-230a-4388-94bb-d9bc3bdfe973
-TQID: https://experienceleague.adobe.com/-q-l6teGnZIZWbS7MR9-yCoBKnEbc156-YybqoYZ0a0
+TQID: 'https://experienceleague.adobe.com/-q-l6teGnZIZWbS7MR9-yCoBKnEbc156-YybqoYZ0a0'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
+  - id: 6efa6b7a-8062-5c41-aef4-b4853cc306ae
+    internal-label: Activities
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+    internal-label: Machine learning
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Customer profiles
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 1543
+source-wordcount: '1543'
 ht-degree: 66%
-
 ---
-
 # Tipi di attività di [!DNL Target]
 
 Scarica un PDF interattivo che descrive i diversi tipi di attività in [!DNL Adobe Target].
@@ -71,7 +80,7 @@ Scarica un PDF interattivo che descrive i diversi tipi di attività in [!DNL Ado
 
 | Tipo di attività | Dettagli |
 |--- |--- |
-| [!UICONTROL Test A/B manuale] | Il test confronta ogni esperienza di sfida con un’esperienza di controllo e poi classifica le prestazioni di tutte le esperienze, identificando sia un’esperienza vincente che un’esperienza perdente rispetto al controllo. |
+| [!UICONTROL Test A/B manuale] | Il test confronta ogni esperienza di sfida con un’esperienza di controllo e poi determina il ranking delle prestazioni di tutte le esperienze, identificando sia un’esperienza vincente che un’esperienza perdente rispetto al controllo. |
 | [!UICONTROL Allocazione automatica] | Il test produce immediatamente una garanzia statistica su una vincitrice, poi dirige più traffico verso i tipi di pubblico che hanno una più alta probabilità di conversione con l’esperienza vincente. |
 | [!UICONTROL Targeting automatico] | Il meccanismo di ottimizzazione identifica il pubblico rilevante per ogni esperienza mostrando aumenti e diminuzioni dell’incremento nel tempo e prima di determinare quale esperienza distribuire a quale visitatore. Il meccanismo di ottimizzazione è influenzato da conversioni, segmenti, parametri e script di profilo. Da lì, il meccanismo sceglie automaticamente quale algoritmo utilizzare al fine di generare un elevato incremento e tasso di conversione. |
 | [!UICONTROL Automated Personalization] (AP) | Il meccanismo di ottimizzazione regola costantemente quali esperienze vengono consegnate ai visitatori in base a un nuovo comportamento del visitatore nuovo e ai comportamenti passati di visitatori simili, con le prestazioni di un&#39;offerta che viene misurata rispetto a gruppi di controllo concorrenti. |

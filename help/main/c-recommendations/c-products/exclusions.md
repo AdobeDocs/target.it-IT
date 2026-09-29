@@ -4,19 +4,26 @@ description: Scopri come creare esclusioni in [!DNL Target Recommendations] per 
 title: Come si utilizzano le esclusioni nelle attività [!UICONTROL Consigli]?
 feature: Recommendations
 exl-id: e41487c7-6d47-4958-8e4b-616a2ad56b3c
-TQID: https://experienceleague.adobe.com/6-PWkqq5eXAwyLcGGbSqSZmFdJa85yU3x7FPNEt8-2o
+TQID: 'https://experienceleague.adobe.com/6-PWkqq5eXAwyLcGGbSqSZmFdJa85yU3x7FPNEt8-2o'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
+    internal-label: Recommendations
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 16fb7a1902ea76cab56a93fa141a32a3c6bc4467
+    internal-label: Customer experience
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 527
+source-wordcount: '529'
 ht-degree: 13%
-
 ---
-
 # Esclusioni
 
 Crea un&#39;esclusione in [!DNL Adobe Target Recommendations] per impedire che prodotti o contenuti vengano consigliati ai visitatori. Un’esclusione è un sottoinsieme di prodotti o contenuti che non devono essere consigliati ai visitatori.
@@ -41,7 +48,7 @@ Alcuni esempi di utilizzo delle esclusioni includono:
 
 1. Fai clic su **[!UICONTROL Consigli]** > **[!UICONTROL Esclusioni]** per visualizzare l&#39;elenco delle esclusioni esistenti.
 
-   Il &quot;Numero di elementi&quot; segnalato per ogni esclusione nella visualizzazione elenco [!UICONTROL Esclusioni] è il numero di prodotti che corrispondono alle regole per tale esclusione all&#39;interno del gruppo predefinito di consigli [host](/help/main/administrating-target/hosts.md) (ambiente) configurato. Per informazioni su come modificare il gruppo host predefinito, vedere [Pianificare e implementare [!DNL Recommendations]](https://experienceleague.adobe.com/it/docs/target-dev/developer/recommendations){target=_blank} nella *Guida per gli sviluppatori di Adobe Target*.
+   Il &quot;Numero di elementi&quot; segnalato per ogni esclusione nella visualizzazione elenco [!UICONTROL Esclusioni] è il numero di prodotti che corrispondono alle regole per tale esclusione all&#39;interno del gruppo predefinito di consigli [host](/help/main/administrating-target/hosts.md) (ambiente) configurato. Per informazioni su come modificare il gruppo host predefinito, vedere [Pianificare e implementare [!DNL Recommendations]](https://experienceleague.adobe.com/en/docs/target-dev/developer/recommendations){target=_blank} nella *Guida per gli sviluppatori di Adobe Target*.
 
 1. (Condizionale) Fai clic sull&#39;icona **[!UICONTROL Mostra filtri]** ( ![Mostra icona filtri](/help/main/assets/icons/Filter.svg) ), quindi scegli l&#39;[ambiente](/help/main/administrating-target/environments.md) desiderato dall&#39;elenco a discesa **[!UICONTROL Ambiente]** durante la creazione (o l&#39;aggiornamento) di un&#39;esclusione per visualizzare in anteprima il contenuto dell&#39;esclusione in tale ambiente. Per impostazione predefinita, sono visualizzati i risultati del gruppo di host predefinito.
 
@@ -84,4 +91,4 @@ Questo video contiene le seguenti informazioni:
 * Creare una raccolta
 * Creare un’esclusione
 
->[!VIDEO](https://video.tv.adobe.com/v/328804?captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/27689)

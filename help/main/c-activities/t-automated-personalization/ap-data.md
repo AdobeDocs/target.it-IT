@@ -2,29 +2,41 @@
 keywords: dati ambientali;dati sessione;dati geografici;dati geografici;dati dispositivo;dati mobili;attributi;attributi profilo;algoritmi di personalizzazione;algoritmi di apprendimento automatico;algoritmi di apprendimento automatico
 description: Scopri quali dati [!DNL Adobe Target] raccoglie e utilizza per creare gli algoritmi di apprendimento automatico.
 title: Quali dati vengono raccolti per creare algoritmi di apprendimento automatico?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=it#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."
 feature: Automated Personalization
 exl-id: 7114a6d6-4779-471e-9b91-646aa49e102a
-TQID: https://experienceleague.adobe.com/eXEeFKovZmtYqcIe0dNda7f0J-nWgfW5mB1Mxv9Zp6U
+TQID: 'https://experienceleague.adobe.com/eXEeFKovZmtYqcIe0dNda7f0J-nWgfW5mB1Mxv9Zp6U'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: f0055dd2-93f3-4ac8-9abc-d69d4ed2d977
+    internal-label: Automated personalization
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Machine learning
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 2009
+source-wordcount: '2010'
 ht-degree: 50%
-
 ---
-
 # Dati utilizzati da [!DNL Target] algoritmi di apprendimento automatico
 
 [!DNL Adobe Target] raccoglie e utilizza automaticamente vari dati per generare gli algoritmi di personalizzazione nelle attività [!UICONTROL Automated Personalization] (AP) e [!UICONTROL Targeting automatico] (AT). Quando un visitatore accede a un&#39;attività di [!UICONTROL Automated Personalization] o [!UICONTROL Targeting automatico], viene passata un&#39;istantanea di informazioni a un set di &quot;record di formazione&quot; (i dati del visitatore su cui gli algoritmi di personalizzazione apprendono qualcosa).
@@ -51,10 +63,10 @@ La tabella seguente mostra i dati forniti dal cliente raccolti dalle attività [
 | --- | --- | --- | --- |
 | Parametri di pagina | BOX | Parametri di pagina personalizzati (&quot;parametri mbox&quot;) passati nella chiamata a [!DNL Target]. | Personalizzato - Parametro Mbox - [nome parametro] |
 | Profilo [!DNL Target] | PRO | Gli attributi di profilo personalizzati vengono caricati direttamente nel profilo [!DNL Target] tramite API o parametro di pagina e [!DNL Target] script di profilo. | Personalizzato - Profilo visitatore - [nome attributo] |
-| Attributi del cliente | CRS | Attributi del cliente caricati nel profilo [!DNL Target] tramite [[!DNL Adobe Experience Cloud Customer Attributes Service]](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/attributes.html?lang=it){target=_blank}. | Personalizzato - Profilo visitatore - [nome attributo] |
+| Attributi del cliente | CRS | Attributi del cliente caricati nel profilo [!DNL Target] tramite [[!DNL Adobe Experience Cloud Customer Attributes Service]](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/attributes.html){target=_blank}. | Personalizzato - Profilo visitatore - [nome attributo] |
 | Parametri URL | URL | URL ed eventuali parametri URL per la pagina visualizzata. | Personalizzato - Parametro URL - [Parametro URL] |
 | URL di riferimento | RIF | URL di riferimento ed eventuali parametri URL per l’URL di riferimento. | Personalizzato - [Parametro URL di riferimento] - [Valore parametro] |
-| [!DNL Adobe Experience Cloud] tipi di pubblico condivisi | AAM | Tutti i tipi di pubblico condivisi con [!DNL Target] da altre soluzioni [!DNL Adobe Experience Cloud] (ad esempio, [!DNL Adobe Audience Manager] e [!DNL Adobe Analytics], tramite [[!DNL Experience Cloud Audience Library]](https://experienceleague.adobe.com/docs/core-services/interface/services/audiences/audience-library.html?lang=it){target=_blank}). | Personalizzato - Pubblico Experience Cloud - [Nome pubblico] |
+| [!DNL Adobe Experience Cloud] tipi di pubblico condivisi | AAM | Tutti i tipi di pubblico condivisi con [!DNL Target] da altre soluzioni [!DNL Adobe Experience Cloud] (ad esempio, [!DNL Adobe Audience Manager] e [!DNL Adobe Analytics], tramite [[!DNL Experience Cloud Audience Library]](https://experienceleague.adobe.com/docs/core-services/interface/services/audiences/audience-library.html){target=_blank}). | Personalizzato - Pubblico Experience Cloud - [Nome pubblico] |
 | [!DNL Adobe Experience Platform Real-time CDP] tipi di pubblico | UPS | Pubblico di Platform Real-time CDP condiviso con [!DNL Target] tramite [!UICONTROL Destinazioni]. |  |
 
 
@@ -62,7 +74,7 @@ La tabella seguente mostra i dati forniti dal cliente raccolti dalle attività [
 
 Le funzionalità possono essere bloccate da [!DNL Target] algoritmi di apprendimento automatico, impedendo che vengano utilizzate in qualsiasi modello o attività di [!UICONTROL Automated Personalization] o [!UICONTROL Targeting automatico].
 
-Per ulteriori informazioni, vedere [Panoramica di Models API (Inserisce nell&#39;elenco Bloccati di modelli) (Guida per gli sviluppatori di *[!DNL Adobe Target]](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api.html?lang=it){target=_blank}) (in lingua inglese).*
+Per ulteriori informazioni, vedere [Panoramica di Models API (Inserisce nell&#39;elenco Bloccati di modelli) (Guida per gli sviluppatori di *[!DNL Adobe Target]](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api.html){target=_blank}) (in lingua inglese).*
 
 ## Dati mobili e sul dispositivo {#device-mobile}
 

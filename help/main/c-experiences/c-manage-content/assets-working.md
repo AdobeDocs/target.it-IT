@@ -4,19 +4,26 @@ description: Organizzazione e ottimizzazione delle offerte di codice e immagini 
 title: Esplora la gestione dei contenuti nella libreria [!UICONTROL Offerte]
 feature: Experiences and Offers
 exl-id: 2668ba68-29c8-4c3f-bebc-ba62760a8a61
-TQID: https://experienceleague.adobe.com/xETbt9jN1zca-gyeKLFVxPvcYEQVBJn-N1zoimiDJko
+TQID: 'https://experienceleague.adobe.com/xETbt9jN1zca-gyeKLFVxPvcYEQVBJn-N1zoimiDJko'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
+subfeature_v2:
+  - id: ef98a6e0-f26c-4870-9bd4-e6b72e9cc699
+    internal-label: Experiences and offers
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Customer experience
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 794
+source-wordcount: '794'
 ht-degree: 11%
-
 ---
-
 # Utilizza il contenuto della libreria [!UICONTROL Risorsa]
 
 Scopri le attività che puoi eseguire sulle risorse nella [!UICONTROL Adobe Target] [!UICONTROL Libreria contenuti]. Le attività includono l’annotazione, la copia, l’eliminazione, il download, la modifica, la condivisione e la visualizzazione delle proprietà.
@@ -50,21 +57,21 @@ Quando si visualizza la pagina [!UICONTROL Offerte immagine], è possibile esegu
 
 * **Cartelle**: selezionare una o più cartelle in cui eseguire le azioni seguenti:
 
-   * Download: scarica la cartella e il suo contenuto.
-   * Copia: copia la cartella e il relativo contenuto.
-   * Sposta: fare clic sull&#39;icona **[!UICONTROL Sposta]**, mantenere lo stesso nome per la cartella o rinominarla; fare clic su **[!UICONTROL Seleziona destinazione]** per selezionare il percorso in cui si desidera spostare la cartella, quindi fare clic su **[!UICONTROL Sposta]**.
-   * Elimina (vedere [Considerazioni durante l&#39;eliminazione di elementi](#delete)).
+  * Download: scarica la cartella e il suo contenuto.
+  * Copia: copia la cartella e il relativo contenuto.
+  * Sposta: fare clic sull&#39;icona **[!UICONTROL Sposta]**, mantenere lo stesso nome per la cartella o rinominarla; fare clic su **[!UICONTROL Seleziona destinazione]** per selezionare il percorso in cui si desidera spostare la cartella, quindi fare clic su **[!UICONTROL Sposta]**.
+  * Elimina (vedere [Considerazioni durante l&#39;eliminazione di elementi](#delete)).
 
 * **Offerte**: seleziona una o più offerte di immagini su cui eseguire le azioni seguenti:
 
-   * [!UICONTROL Condividi]: condividi l&#39;offerta immagine con persone o gruppi della tua organizzazione.
-   * [!UICONTROL Scarica]: scarica l&#39;offerta immagine o la cartella e il relativo contenuto.
-   * [!UICONTROL Visualizza proprietà]: visualizza le proprietà dell&#39;elemento. Fare clic sulle schede [!UICONTROL Base] e [!UICONTROL Avanzate] per visualizzare tutte le informazioni disponibili. Puoi modificare le proprietà e aggiungere ulteriori informazioni. Puoi aggiungere informazioni su metadati, stato di pubblicazione e dati sulla licenza.
-   * [!UICONTROL Modifica]: modifica cartella o offerta.
-   * [!UICONTROL Annota]: aggiungi una nota alla risorsa. Fai clic sulla risorsa, quindi seleziona l&#39;area da annotare e digita la nota.
-   * [!UICONTROL Copia]: copia l&#39;offerta. Copiare e quindi modificare l’offerta ti consente di creare facilmente una nuova offerta simile.
-   * [!UICONTROL Sposta]: fare clic sull&#39;icona [!UICONTROL Sposta], passare alla posizione in cui si desidera spostare l&#39;offerta o la cartella, quindi fare clic su **[!UICONTROL Sposta]**. Ad esempio, puoi spostare una o più cartelle in un’altra per creare sottocartelle.
-   * [!UICONTROL Elimina]: elimina l&#39;offerta. Per ulteriori informazioni, vedere [Considerazioni durante l&#39;eliminazione degli elementi](#delete).
+  * [!UICONTROL Condividi]: condividi l&#39;offerta immagine con persone o gruppi della tua organizzazione.
+  * [!UICONTROL Scarica]: scarica l&#39;offerta immagine o la cartella e il relativo contenuto.
+  * [!UICONTROL Visualizza proprietà]: visualizza le proprietà dell&#39;elemento. Fare clic sulle schede [!UICONTROL Base] e [!UICONTROL Avanzate] per visualizzare tutte le informazioni disponibili. Puoi modificare le proprietà e aggiungere ulteriori informazioni. Puoi aggiungere informazioni su metadati, stato di pubblicazione e dati sulla licenza.
+  * [!UICONTROL Modifica]: modifica cartella o offerta.
+  * [!UICONTROL Annota]: aggiungi una nota alla risorsa. Fai clic sulla risorsa, quindi seleziona l&#39;area da annotare e digita la nota.
+  * [!UICONTROL Copia]: copia l&#39;offerta. Copiare e quindi modificare l’offerta ti consente di creare facilmente una nuova offerta simile.
+  * [!UICONTROL Sposta]: fare clic sull&#39;icona [!UICONTROL Sposta], passare alla posizione in cui si desidera spostare l&#39;offerta o la cartella, quindi fare clic su **[!UICONTROL Sposta]**. Ad esempio, puoi spostare una o più cartelle in un’altra per creare sottocartelle.
+  * [!UICONTROL Elimina]: elimina l&#39;offerta. Per ulteriori informazioni, vedere [Considerazioni durante l&#39;eliminazione degli elementi](#delete).
 
 ## Considerazioni durante l’eliminazione di elementi {#delete}
 

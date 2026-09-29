@@ -1,17 +1,24 @@
 ---
 keywords: chiave consigli;logica consigli;categoria corrente;attributo personalizzato;ultimo articolo acquistato;ultimo articolo visualizzato;articolo più visualizzato;articolo più visualizzato;categoria preferita;popolarità;articolo visualizzato di recente;ultimo articolo acquistato;più visualizzato;preferito;visualizzato di recente
-description: Scopri come utilizzare i consigli in base a chiavi che utilizzano il contesto del comportamento del visitatore per mostrare risultati rilevanti nelle attività di Adobe [!DNL Target] Recommendations.
+description: Scopri come utilizzare i consigli in base a chiavi che utilizzano il contesto del comportamento del visitatore per mostrare risultati rilevanti nelle attività Consigli di Adobe [!DNL Target].
 title: Come posso basare il consiglio su una Chiave consiglio?
 feature: Recommendations
 mini-toc-levels: 2
 exl-id: 49764f18-88fb-41be-b2a0-e7ced9de742c
-source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
+    internal-label: Recommendations
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '4021'
+source-wordcount: '4075'
 ht-degree: 31%
-
 ---
-
 # Basare il consiglio su una chiave consiglio
 
 I consigli basati su algoritmi utilizzano il contesto del comportamento del visitatore per mostrare risultati rilevanti nelle attività [!DNL Adobe Target] [!DNL Recommendations].
@@ -34,7 +41,7 @@ Diversi algoritmi di Recommendations si prestano a essere posizionati su diversi
 
 ## Basato su carrello {#cart-based}
 
-Il tipo di algoritmo [!UICONTROL Basato sul carrello] consente di consigliare gli elementi in base al contenuto del carrello corrente del visitatore. Le chiavi di consigli sono fornite tramite il parametro `cartIds`[&#128279;](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=it){target=_blank} di mbox in valori separati da virgola. Vengono considerati solo i primi 10 valori.
+Il tipo di algoritmo [!UICONTROL Basato sul carrello] consente di consigliare gli elementi in base al contenuto del carrello corrente del visitatore. Le chiavi di consigli sono fornite tramite il parametro `cartIds`](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} di [mbox in valori separati da virgola. Vengono considerati solo i primi 10 valori.
 
 La logica dei consigli basati sul carrello è simile all&#39;algoritmo basato sull&#39;utente &quot;[!UICONTROL Consigliato per te]&quot; e agli algoritmi basati sull&#39;elemento &quot;[!UICONTROL Persone che hanno visualizzato queste, hanno acquistato quelle]&quot; e &quot;[!UICONTROL Persone che hanno acquistato queste, hanno acquistato quelle]&quot;.
 

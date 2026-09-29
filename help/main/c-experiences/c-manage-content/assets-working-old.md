@@ -1,16 +1,23 @@
 ---
 keywords: libreria di contenuti;risorsa;annota;copia;elimina risorsa;scarica risorsa;modifica contenuto;condividi scheda;visualizza proprietà contenuto
-description: Scopri come gestire le offerte di codice e immagini nella libreria Adobe [!DNL Target] Offers. Scopri come visualizzare i dettagli di un’offerta e come modificare, copiare, spostare o eliminare le offerte.
+description: Scopri come gestire le offerte di codice e immagini nella libreria Offerte di Adobe [!DNL Target]. Scopri come visualizzare i dettagli di un’offerta e come modificare, copiare, spostare o eliminare le offerte.
 title: Come si utilizzano i contenuti nella libreria delle offerte?
 feature: Experiences and Offers
 exl-id: 2668ba68-29c8-4c3f-bebc-ba62760a8a61
-source-git-commit: e8201198dc6ac36e803153d5c6b345a30716204a
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
+subfeature_v2:
+  - id: ef98a6e0-f26c-4870-9bd4-e6b72e9cc699
+    internal-label: Experiences and offers
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '771'
+source-wordcount: '773'
 ht-degree: 31%
-
 ---
-
 # Utilizzare i contenuti della libreria di risorse
 
 Informazioni sulle attività che è possibile eseguire su una risorsa della Libreria dei contenuti di [!DNL Adobe Target], tra cui annotazione, copia, eliminazione, download, modifica, condivisione e visualizzazione delle proprietà.
@@ -55,19 +62,19 @@ Nella figura seguente sono illustrate le icone che si trovano al passaggio del m
 
 * **Seleziona**: seleziona una o più cartelle in cui eseguire le azioni seguenti:
 
-   * Scarica
-   * Copia
-   * Sposta
-   * Elimina (vedere [Considerazioni durante l&#39;eliminazione di elementi](#delete)).
+  * Scarica
+  * Copia
+  * Sposta
+  * Elimina (vedere [Considerazioni durante l&#39;eliminazione di elementi](#delete)).
 
   Seleziona una o più offerte di immagini su cui eseguire le azioni seguenti:
 
-   * Condividi
-   * Scarica
-   * View Properties (Visualizza proprietà)
-   * Modifica
-   * Annota
-   * Sposta
+  * Condividi
+  * Scarica
+  * View Properties (Visualizza proprietà)
+  * Modifica
+  * Annota
+  * Sposta
 
 * **Scarica**: scarica l&#39;offerta immagine o la cartella e il relativo contenuto.
 * **Visualizza proprietà**: visualizza le proprietà dell&#39;elemento. Fare clic sulle schede [!UICONTROL Base] e [!UICONTROL Avanzate] per visualizzare tutte le informazioni disponibili. Fai clic sull&#39;icona a forma di matita nella pagina delle proprietà per modificare le proprietà e aggiungere altre informazioni. Puoi aggiungere informazioni su metadati, stato di pubblicazione e dati sulla licenza.
@@ -86,7 +93,7 @@ Nella figura seguente sono illustrate le icone che si trovano al passaggio del m
 
 Questo video include informazioni sulla gestione del contenuto. (4:56)
 
-* Connessione tra la [libreria delle risorse di Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/assets/creative-cloud.html?lang=it) e la libreria dei contenuti di Target
+* Connessione tra la [libreria delle risorse di Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/assets/creative-cloud.html) e la libreria dei contenuti di Target
 * Offerte HTML personalizzate
 * Offerta HTML personalizzata nel Compositore esperienza visivo
 

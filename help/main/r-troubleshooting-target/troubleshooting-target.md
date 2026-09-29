@@ -4,31 +4,46 @@ description: Riguarda l’elenco di argomenti che consentono di risolvere i prob
 title: Come posso risolvere i problemi di Target?
 feature: Troubleshooting
 exl-id: c72443f0-1ea2-4f81-9bc3-495a8d459083
-TQID: https://experienceleague.adobe.com/dW3TS0g9VKJRluwA2PXDr4upXiY1yKzfh5v9WRaOB50
+TQID: 'https://experienceleague.adobe.com/dW3TS0g9VKJRluwA2PXDr4upXiY1yKzfh5v9WRaOB50'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
 subfeature_v2:
   - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+    internal-label: at.js
+  - id: b1d5cd6a-4ed3-43f6-9a52-2721acea1129
+    internal-label: Troubleshooting
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Privacy
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 556
+source-wordcount: '556'
 ht-degree: 77%
-
 ---
-
 # Risolvere i problemi di Target
 
 Elenco di argomenti che consentono di risolvere i problemi di [!DNL Adobe Target], inclusi gli argomenti relativi alla risoluzione dei problemi, le domande frequenti (FAQ) e altri argomenti utili.
@@ -80,15 +95,15 @@ Nelle sezioni seguenti sono disponibili informazioni sulla risoluzione di proble
 * [Risoluzione di problemi relativi all’integrazione di Analytics e Target](/help/main/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md)
 * Video “Office hours”, un&#39;iniziativa portata avanti dal team di assistenza clienti di Adobe. Consulta [Adobe Analytics come origine per la generazione di rapporti per Adobe Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md).
 * Domande frequenti su A4T
-   * [Provisioning iniziale - Domande frequenti su A4T](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-initial-provisioning.md)
-   * [Configurazione delle attività - Domande frequenti su A4T](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-activity-setup.md)
-   * [Visualizzazione dei rapporti - Domande frequenti su A4T](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md)
-   * [Offerte di reindirizzamento - Domande frequenti su A4T](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md)
-   * [Incremento e affidabilità - Domande frequenti su A4T](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-lift-and-confidence.md)
-   * [Definizioni delle metriche - Domande frequenti su A4T](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-metric-definition.md)
-   * [Condivisione di metriche, segmenti e rapporti - Domande frequenti su A4T](/help/main/c-target/c-troubleshooting-targets-and-audiences/a4t-faq-sharing-metrics-audiences-reports.md)
-   * [Classificazioni - Domande frequenti su A4T](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-classifications.md)
-   * [Integrazione legacy tra SiteCatalyst e Test&amp;Target - Domande frequenti su A4T](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-old-integration.md)
+  * [Provisioning iniziale - Domande frequenti su A4T](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-initial-provisioning.md)
+  * [Configurazione delle attività - Domande frequenti su A4T](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-activity-setup.md)
+  * [Visualizzazione dei rapporti - Domande frequenti su A4T](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md)
+  * [Offerte di reindirizzamento - Domande frequenti su A4T](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md)
+  * [Incremento e affidabilità - Domande frequenti su A4T](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-lift-and-confidence.md)
+  * [Definizioni delle metriche - Domande frequenti su A4T](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-metric-definition.md)
+  * [Condivisione di metriche, segmenti e rapporti - Domande frequenti su A4T](/help/main/c-target/c-troubleshooting-targets-and-audiences/a4t-faq-sharing-metrics-audiences-reports.md)
+  * [Classificazioni - Domande frequenti su A4T](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-classifications.md)
+  * [Integrazione legacy tra SiteCatalyst e Test&amp;Target - Domande frequenti su A4T](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-old-integration.md)
 
 ## Pubblico e target
 
@@ -114,7 +129,7 @@ Nelle sezioni seguenti sono disponibili informazioni sulla risoluzione di proble
 
 ## Mbox globale
 
-* [Mbox globale](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/global-mbox/global-mbox-faq.html?lang=it)
+* [Mbox globale](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/global-mbox/global-mbox-faq.html)
 
 ## Host/Ambienti
 
@@ -126,12 +141,12 @@ Nelle seguenti sezioni sono disponibili informazioni sulla risoluzione di proble
 
 ### Implementazione generale
 
-* [Browser supportati](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html?lang=it)
+* [Browser supportati](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html)
 * [Utilizzo di istanze basate su cloud con Target](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targeting-using-cloud-based-instances.html)
 
 ### Mboxs globali
 
-* [Domande frequenti sulle mbox globali](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/global-mbox/global-mbox-faq.html?lang=it)
+* [Domande frequenti sulle mbox globali](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/global-mbox/global-mbox-faq.html)
 
 ### at.js
 
@@ -142,7 +157,7 @@ Nelle seguenti sezioni sono disponibili informazioni sulla risoluzione di proble
 
 ## App mobili
 
-* [Domande frequenti su Target per le app per dispositivi mobili](https://experienceleague.adobe.com/docs/target-dev/developer/mobile-apps/mobile-faq.html?lang=it)
+* [Domande frequenti su Target per le app per dispositivi mobili](https://experienceleague.adobe.com/docs/target-dev/developer/mobile-apps/mobile-faq.html)
 
 ## Generazione di rapporti
 
@@ -151,7 +166,7 @@ Nelle seguenti sezioni sono disponibili informazioni sulla risoluzione di proble
 
 ## Ottimizzazione dei motori di ricerca (SEO)
 
-* [Test di usabilità per l’ottimizzazione per i motori di ricerca (SEO)](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html?lang=it)
+* [Test di usabilità per l’ottimizzazione per i motori di ricerca (SEO)](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html)
 
 ## Sicurezza
 

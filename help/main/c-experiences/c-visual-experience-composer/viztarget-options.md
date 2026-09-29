@@ -1,25 +1,30 @@
 ---
 keywords: opzioni compositore esperienza visivo;opzioni compositore esperienza;opzioni esperienza;modifica testo;modifica html;modifica testo/html;modifica colore di sfondo;colore di sfondo;inserire elemento;modifica collegamento;collegamento;collegamento;collegamento compositore esperienza visivo;modifica classe css;classe css;sostituire offerta;scambiare offerta;scambiare immagine;sostituire immagine;rimuovere elemento;rimuovere elemento;nascondere elemento;nascondere elemento;nascondere elemento;ridisporre;spostare elemento;spostare elemento;ridimensionare elemento;ridimensionare elemento;elemento;espandere selezione;passare a questo collegamento;passare al collegamento;passare al collegamento;navigare;passare;collegamento;annullare;ripetere;annullare/ripetere;eventi personalizzati;componenti web;decisione offerta;decisione offerta
-description: Esplora le opzioni disponibili nel  [!DNL Adobe Target] [!UICONTROL Compositore esperienza visivo].
+description: Esplora le opzioni disponibili nel [!DNL Adobe Target] [!UICONTROL Compositore esperienza visivo] (VEC).
 title: Come si utilizzano le [!UICONTROL opzioni del Compositore esperienza visivo]?
 feature: Visual Experience Composer (VEC)
 exl-id: 50993d6c-5025-488a-8b33-9ed7c142de6e
-TQID: https://experienceleague.adobe.com/pC9GSE2Uf3f-WCG72O6gUxVwgYY18y6frQ0VCk-jvpA
+TQID: 'https://experienceleague.adobe.com/pC9GSE2Uf3f-WCG72O6gUxVwgYY18y6frQ0VCk-jvpA'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
+  - id: f7501c88-b36a-590b-9cc4-dea607bda94b
+    internal-label: Visual Experience Composer (VEC)
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 16fb7a1902ea76cab56a93fa141a32a3c6bc4467
+    internal-label: Administration
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 2249
-ht-degree: 7%
-
+source-wordcount: '2271'
+ht-degree: 8%
 ---
-
 # [!UICONTROL Opzioni del Compositore esperienza visivo]
 
 La versione di [!DNL Adobe Target Standard/Premium] 25.2.1 (17 febbraio 2015) introduce un [!UICONTROL Compositore esperienza visivo] aggiornato. Questo articolo spiega l’interfaccia utente aggiornata e le relative opzioni.
@@ -105,17 +110,17 @@ Per aggiungere un nuovo componente a un’esperienza:
    I componenti disponibili sono raggruppati in contenitori logici:
 
    * [!UICONTROL Base]
-      * [!UICONTROL Divisore]
-      * [!UICONTROL HTML]
-      * [!UICONTROL Immagine]
+     * [!UICONTROL Divisore]
+     * [!UICONTROL HTML]
+     * [!UICONTROL Immagine]
    * [!UICONTROL Testo]
-      * [!UICONTROL Intestazione]
-      * [!UICONTROL Paragrafo]
-      * [!UICONTROL Collegamento]
+     * [!UICONTROL Intestazione]
+     * [!UICONTROL Paragrafo]
+     * [!UICONTROL Collegamento]
    * [!UICONTROL Dinamico]
-      * [[!UICONTROL Consiglio]](/help/main/c-recommendations/recommendations-as-an-offer.md)
-      * [[!UICONTROL Frammento esperienza]](/help/main/c-integrating-target-with-mac/aem/experience-fragments-aem.md)
-      * [[!UICONTROL Offerta HTML]](/help/main/c-experiences/c-manage-content/manage-content.md)
+     * [[!UICONTROL Consiglio]](/help/main/c-recommendations/recommendations-as-an-offer.md)
+     * [[!UICONTROL Frammento esperienza]](/help/main/c-integrating-target-with-mac/aem/experience-fragments-aem.md)
+     * [[!UICONTROL Offerta HTML]](/help/main/c-experiences/c-manage-content/manage-content.md)
 
 1. Trascina il componente su un elemento di pagina esistente nell&#39;area di lavoro [!UICONTROL Progettazione].
 1. Scegli di sostituire l’elemento selezionato o di inserire il componente prima di dopo l’elemento selezionato.
@@ -499,7 +504,7 @@ The following options are available:
 
 ### [!UICONTROL Offer Decision]
 
-Add an [offer created in [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html?lang=it){target=_blank} to present the best offer and experience to your customers using offer decisioning.
+Add an [offer created in [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html){target=_blank} to present the best offer and experience to your customers using offer decisioning.
 
 **Note:** This option is available when editing or creating [manual [!UICONTROL A/B Test]](/help/main/c-activities/t-test-ab/test-ab.md#types) or [[!UICONTROL Experience Targeting]](/help/main/c-activities/t-experience-target/experience-target.md) (XT) activities only. This option is not available for other activity types.
 
@@ -531,7 +536,7 @@ The following options are available:
 
 ### [!UICONTROL Offer Decision]
 
-Add an [offer created in [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html?lang=it){target=_blank} to present the best offer and experience to your customers using offer decisioning.
+Add an [offer created in [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html){target=_blank} to present the best offer and experience to your customers using offer decisioning.
 
 **Note:** This option is available when editing or creating [manual [!UICONTROL A/B Test]](/help/main/c-activities/t-test-ab/test-ab.md#types) or [[!UICONTROL Experience Targeting]](/help/main/c-activities/t-experience-target/experience-target.md) (XT) activities only. This option is not available for other activity types.
 
@@ -563,7 +568,7 @@ The following options are available:
 
 ### [!UICONTROL Offer Decision]
 
-Add an [offer created in [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html?lang=it){target=_blank} to present the best offer and experience to your customers using offer decisioning.
+Add an [offer created in [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html){target=_blank} to present the best offer and experience to your customers using offer decisioning.
 
 **Note:** This option is available when editing or creating [manual [!UICONTROL A/B Test]](/help/main/c-activities/t-test-ab/test-ab.md#types) or [[!UICONTROL Experience Targeting]](/help/main/c-activities/t-experience-target/experience-target.md) (XT) activities only. This option is not available for other activity types.
 
@@ -653,7 +658,7 @@ Undo changes you make to your activities during an editing session. You can also
 
 ## Considerations {#considerations}
 
-* If an offer contains HTML content, see "How at.js renders offers with HTML content" in [How at.js works](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html?lang=it){target=_blank} for more information.
+* If an offer contains HTML content, see "How at.js renders offers with HTML content" in [How at.js works](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html){target=_blank} for more information.
 
 ## Custom element support {#custom}
 
@@ -663,7 +668,7 @@ The VEC supports [Web Components](https://developer.mozilla.org/en-US/docs/Web/W
 >
 >VEC support for custom elements is supported in [at.js version](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} 2.7.0 (or later){target=_blank}. Ensure that your website has the required version deployed. If you are using the [Visual Experience Composer helper extension](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md), it must also have the required version of at.js deployed. The VEC options described above are not visible and available for use with non-supported versions of at.js.
 >
->VEC support for custom elements is currently not supported with the [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=it){target=_blank}.
+>VEC support for custom elements is currently not supported with the [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}.
 
 Most VEC actions are supported on custom events and inside custom events, with the following exceptions: 
 

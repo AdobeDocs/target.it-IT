@@ -1,27 +1,35 @@
 ---
 keywords: assistente ai;assistente di intelligenza artificiale
-description: Scopri come acquisire [!DNL Target] conoscenze sul prodotto con [!DNL AI Assistant].
-title: Come si utilizza  [!DNL AI Assistant] in [!DNL Target] per acquisire informazioni sul prodotto?
+description: Scopri come acquisire le conoscenze sul prodotto [!DNL Target] con [!DNL AI Assistant].
+title: Come si utilizza [!DNL AI Assistant] in [!DNL Target] per acquisire informazioni sul prodotto?
 feature: Overview
 exl-id: 48a6a9d3-07e8-4858-b15b-48d182161a76
-TQID: https://experienceleague.adobe.com/C4O-4iorggYJHyg0MMtEb-n-v0-DtetiMtcDp-GWDWQ
+TQID: 'https://experienceleague.adobe.com/C4O-4iorggYJHyg0MMtEb-n-v0-DtetiMtcDp-GWDWQ'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
 subfeature_v2:
   - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+    internal-label: at.js
+  - id: fc9c2184-9102-403f-bd6c-0055021e4bea
+    internal-label: Overview
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
+    internal-label: Artificial intelligence
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Customer experience
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 315
+source-wordcount: '318'
 ht-degree: 1%
-
 ---
-
 # Utilizza [!DNL AI Assistant] in [!DNL Adobe Target] per conoscere il prodotto
 
 [!DNL AI Assistant] in [!DNL Adobe Experience Platform] è una funzionalità dell&#39;interfaccia utente che consente di navigare e comprendere i concetti di [!DNL Adobe Target].
@@ -77,10 +85,10 @@ Per accedere a [!DNL AI Assistant] per informazioni sul prodotto:
 
 Informazioni sulle applicazioni [!DNL Adobe Experience Platform] di [!DNL AI Assistant].
 
->[!VIDEO](https://video.tv.adobe.com/v/3441032/?captions=ita&learn=on&#x26;enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3441024/?learn=on&#x26;enablevpops)
 
 ### Convalidare le risposte dall’Assistente AI
 
 Scopri come verificare e convalidare le risposte fornite da [!DNL AI Assistant] in [!DNL Adobe Experience Platform].
 
->[!VIDEO](https://video.tv.adobe.com/v/3441747/?captions=ita&learn=on&#x26;enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3441738/?learn=on&#x26;enablevpops)

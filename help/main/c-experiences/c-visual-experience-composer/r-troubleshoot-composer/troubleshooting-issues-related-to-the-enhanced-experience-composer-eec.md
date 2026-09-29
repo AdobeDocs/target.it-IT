@@ -1,26 +1,32 @@
 ---
 keywords: Targeting;eec;compositore esperienza visiva;risoluzione dei problemi compositore esperienza avanzato;risoluzione dei problemi
-description: Scopri come risolvere i problemi che a volte si verificano nel  [!DNL Adobe Target] [!UICONTROL Compositore esperienza avanzato] (EEC) in determinate condizioni.
+description: Scopri come risolvere i problemi che a volte si verificano nel [!DNL Adobe Target] [!UICONTROL Compositore esperienza avanzato] (EEC) in determinate condizioni.
 title: Come posso risolvere i problemi relativi a [!UICONTROL Compositore esperienza avanzato]?
 feature: Visual Experience Composer (VEC)
 exl-id: 7dea7707-5d9f-49c4-9ccd-618eeb7b3568
-TQID: https://experienceleague.adobe.com/Yan2cKWjs-u9JHQzT-PiRAFdxUJa1JSHS-fT68yxIjg
+TQID: 'https://experienceleague.adobe.com/Yan2cKWjs-u9JHQzT-PiRAFdxUJa1JSHS-fT68yxIjg'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
+  - id: f7501c88-b36a-590b-9cc4-dea607bda94b
+    internal-label: Visual Experience Composer (VEC)
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Security
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 509
+source-wordcount: '510'
 ht-degree: 29%
-
 ---
-
 # Risoluzione dei problemi relativi a [!UICONTROL Compositore esperienza avanzato]
 
 In determinate condizioni in [!DNL Adobe Target] [!UICONTROL Compositore esperienza avanzato] (EEC) si verificano a volte problemi di visualizzazione.
@@ -147,7 +153,7 @@ Di seguito sono riportati possibili cause per questo messaggio di errore e soluz
 
   **Rimedio:** Inserire nell&#39;elenco Consentiti gli indirizzi IP elencati sopra.
 
-* **Problema:** gli indirizzi IP vengono inseriti nell&#39;elenco Consentiti ma il sito Web non supporta la versione 1.2 di TLS. [!DNL Target] utilizza attualmente la configurazione predefinita di 1.2. Prima di [!DNL Target] 18.4.1 (25 aprile 2018), la configurazione predefinita supportava TLS 1.0. Per ulteriori informazioni, consulta [Modifiche alla crittografia TLS](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html?lang=it){target=_blank}.
+* **Problema:** gli indirizzi IP vengono inseriti nell&#39;elenco Consentiti ma il sito Web non supporta la versione 1.2 di TLS. [!DNL Target] utilizza attualmente la configurazione predefinita di 1.2. Prima di [!DNL Target] 18.4.1 (25 aprile 2018), la configurazione predefinita supportava TLS 1.0. Per ulteriori informazioni, consulta [Modifiche alla crittografia TLS](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html){target=_blank}.
 
   **Soluzione:** Vedi la seguente domanda (il [!UICONTROL Compositore esperienza visivo avanzato] non verrà caricato su pagine protette del mio sito che utilizzano TLS 1.2).
 
@@ -156,7 +162,7 @@ Di seguito sono riportati possibili cause per questo messaggio di errore e soluz
 ## Il Compositore esperienza avanzato non viene caricato su pagine protette del mio sito che utilizzano TLS 1.0. (Solo Compositore esperienza avanzato) {#section_C5B31E3D32A844F68E5A8153BD17551F}
 
 +++Dettagli
-È possibile che venga visualizzato il messaggio di errore descritto in precedenza in &quot;Il Compositore esperienza visivo [!UICONTROL avanzato] non verrà caricato su pagine protette del sito&quot;. se gli indirizzi IP di cui sopra vengono inseriti nell&#39;elenco Consentiti ma il tuo sito web non supporta la versione 1.2 di TLS. [!DNL Target] utilizza attualmente la configurazione predefinita di 1.2. Prima di [!DNL Target] 18.4.1 (25 aprile 2018), la configurazione predefinita supportava TLS 1.0. Per ulteriori informazioni, consulta [Modifiche alla crittografia TLS](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html?lang=it){target=_blank}.
+È possibile che venga visualizzato il messaggio di errore descritto in precedenza in &quot;Il Compositore esperienza visivo [!UICONTROL avanzato] non verrà caricato su pagine protette del sito&quot;. se gli indirizzi IP di cui sopra vengono inseriti nell&#39;elenco Consentiti ma il tuo sito web non supporta la versione 1.2 di TLS. [!DNL Target] utilizza attualmente la configurazione predefinita di 1.2. Prima di [!DNL Target] 18.4.1 (25 aprile 2018), la configurazione predefinita supportava TLS 1.0. Per ulteriori informazioni, consulta [Modifiche alla crittografia TLS](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html){target=_blank}.
 
 Per controllare la versione TLS sul tuo sito web con Firefox (altri browser hanno passaggi simili):
 
@@ -173,7 +179,7 @@ Per controllare la versione TLS sul tuo sito web con Firefox (altri browser hann
 
    ![immagine firefox_more_info_3](assets/firefox_more_info_3.png)
 
-1. Se il sito Web visualizza TLS 1.0, vedere [Modifiche alla crittografia di TLS (Transport Layer Security)](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html?lang=it){target=_blank} per informazioni sui criteri di supporto per TLS di Target. Per risolvere la situazione (valido fino al 12 settembre 2018){target=_blank}, contatta l&#39;[Assistenza clienti](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) per la configurazione con la versione di TLS e il dominio.
+1. Se il sito Web visualizza TLS 1.0, vedere [Modifiche alla crittografia di TLS (Transport Layer Security)](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html){target=_blank} per informazioni sui criteri di supporto per TLS di Target. Per risolvere la situazione (valido fino al 12 settembre 2018){target=_blank}, contatta l&#39;[Assistenza clienti](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) per la configurazione con la versione di TLS e il dominio.
 
 +++
 

@@ -4,13 +4,14 @@ description: Scopri in che modo i flag di funzione in Flag consentono di control
 badge: label="Beta" type="Informative"
 hide: true
 exl-id: 627775e8-9b17-4bc7-9565-07a438ae8ed7
-source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
 source-wordcount: '392'
 ht-degree: 0%
-
 ---
-
 # Flag di funzioni per abilitare e disabilitare le funzioni {#feature-flags}
 
 I flag di funzione consentono di attivare o disattivare le funzioni dell’applicazione in fase di esecuzione senza ridistribuire il codice. Separano inoltre le distribuzioni del codice dalla disponibilità delle funzioni: il nuovo codice può essere distribuito in produzione dietro un flag e attivato solo quando sei pronto.

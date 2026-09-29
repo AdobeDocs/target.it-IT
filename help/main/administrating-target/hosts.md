@@ -5,30 +5,41 @@ title: Cosa sono gli host e come li utilizzo?
 feature: Administration & Configuration
 role: Admin
 exl-id: 31c661c0-686d-440e-ad58-864fb853b1c4
-TQID: https://experienceleague.adobe.com/xgqNVseu3l-0JjsJuUp74zkyYDAs3klz1YllL64vHWo
+TQID: 'https://experienceleague.adobe.com/xgqNVseu3l-0JjsJuUp74zkyYDAs3klz1YllL64vHWo'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
   - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
 subfeature_v2:
   - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+    internal-label: at.js
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Administration
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 1095
+source-wordcount: '1095'
 ht-degree: 22%
-
 ---
-
 # Host
 
 Organizza i tuoi siti e gli ambienti di pre-produzione per gestirli facilmente e creare rapporti separati in [!DNL Adobe Target].
@@ -50,8 +61,8 @@ Per riconoscere un host e aggiungerlo all&#39;elenco [!UICONTROL Host], è neces
 * Deve esistere almeno una richiesta [!DNL Target] nell&#39;host
 * Una pagina sull’host deve avere quanto segue:
 
-   * Un preciso riferimento at.js
-   * Una richiesta [!DNL Target] o una richiesta [!DNL Target] globale generata automaticamente
+  * Un preciso riferimento at.js
+  * Una richiesta [!DNL Target] o una richiesta [!DNL Target] globale generata automaticamente
 
 * La pagina con la richiesta [!DNL Target] deve essere visualizzata in un browser
 
@@ -102,7 +113,7 @@ Se viene effettuata una richiesta [!DNL Target] su un host non autorizzato, la c
 
 >[!IMPORTANT]
 >
->**Best practice per la sicurezza**: se utilizzi la funzionalità ubox di [!DNL Target], questo inserisco nell&#39;elenco Consentiti di protezione controlla anche l&#39;elenco dei domini a cui i tuoi [redirector](https://experienceleague.adobe.com/docs/target-dev/developer/implement-email/working-with-redirectors.html?lang=it){target=_blank} possono accedere. Assicurati di aggiungere tutti i domini a cui desideri reindirizzare quando utilizzi ubox come parte dell’implementazione. Se il inserisco nell&#39;elenco Consentiti di viene lasciato non specificato, [!DNL Adobe] non è in grado di verificare gli URL di reindirizzamento e di proteggere da potenziali reindirizzamenti dannosi.
+>**Best practice per la sicurezza**: se utilizzi la funzionalità ubox di [!DNL Target], questo inserisco nell&#39;elenco Consentiti di protezione controlla anche l&#39;elenco dei domini a cui i tuoi [redirector](https://experienceleague.adobe.com/docs/target-dev/developer/implement-email/working-with-redirectors.html){target=_blank} possono accedere. Assicurati di aggiungere tutti i domini a cui desideri reindirizzare quando utilizzi ubox come parte dell’implementazione. Se il inserisco nell&#39;elenco Consentiti di viene lasciato non specificato, [!DNL Adobe] non è in grado di verificare gli URL di reindirizzamento e di proteggere da potenziali reindirizzamenti dannosi.
 >
 >Il inserisco nell&#39;elenco Consentiti di ha la precedenza sugli ambienti. Cancella tutti gli host prima di utilizzare la funzione di inserisce nell&#39;elenco Consentiti di, quindi nell’elenco degli host vengono visualizzati solo gli host consentiti dal inserisco nell&#39;elenco Consentiti di. A questo punto puoi spostare gli host nell’ambiente desiderato.
 

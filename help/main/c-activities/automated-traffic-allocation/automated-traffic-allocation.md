@@ -4,24 +4,34 @@ description: Scopri come utilizzare un'attività [!UICONTROL Allocazione automat
 title: Cos'è un'attività [!UICONTROL Allocazione automatica]?
 feature: Auto-Allocate
 exl-id: 2d1ddd71-2ca6-4f00-9d0c-eb25ede8fdb8
-TQID: https://experienceleague.adobe.com/V5ZS2vBGVilH0-4bacB4x7iQi8M6qroLe3R9LNMoVEc
+TQID: 'https://experienceleague.adobe.com/V5ZS2vBGVilH0-4bacB4x7iQi8M6qroLe3R9LNMoVEc'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: f2d0aafb-18af-41a0-a32e-2788eafacc2b
+    internal-label: Auto-allocate
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Administration
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 3756
+source-wordcount: '3760'
 ht-degree: 34%
-
 ---
-
 # Panoramica di [!UICONTROL Allocazione automatica]
 
 Un&#39;attività di [!UICONTROL Allocazione automatica] in [!DNL Adobe Target] identifica un vincitore tra due o più esperienze e ridistribuisce automaticamente più traffico per aumentare le conversioni, mentre il test continua a essere eseguito e ad apprendere.
@@ -94,7 +104,7 @@ L&#39;illustrazione mostra come il traffico assegnato a ogni esperienza progredi
 >
 >Se un&#39;attività ha solo due esperienze, entrambe ottengono la stessa quantità di traffico fino a quando [!DNL Target] trova un&#39;esperienza vincente con il 75% di affidabilità. A quel punto, due terzi del traffico vengono assegnati al vincitore e un terzo al perdente. Successivamente, quando un’esperienza raggiunge il 95% di affidabilità, il 90% del traffico viene assegnato al vincitore e il 10% al perdente. [!DNL Target] invia sempre del traffico all&#39;esperienza &quot;perdente&quot; per evitare falsi positivi alla fine (ovvero, mantieni alcune esplorazioni).
 
-Dopo l&#39;attivazione di un&#39;attività [!UICONTROL Allocazione automatica], le operazioni seguenti dell&#39;interfaccia utente Target non sono consentite:
+Dopo l&#39;attivazione di un&#39;attività [!UICONTROL Allocazione automatica], le operazioni seguenti dell&#39;interfaccia utente Tar[!DNL]get non sono consentite:
 
 * Impostazione della modalità di Allocazione traffico su Manuale
 * Modifica del tipo di metrica obiettivo
@@ -134,9 +144,9 @@ Di seguito sono riportati alcuni esempi di fattori che possono influenzare le pr
 
   Ad esempio:
 
-   * &quot;Grazie a Dio è venerdì&quot; ha fatto aumentare le conversioni di venerdì.
-   * &quot;Jump-start your Monday&quot; ha una conversione più alta il lunedì.
-   * &quot;Prepararsi per un inverno della costa orientale&quot; fornisce una maggiore conversione nelle zone della costa orientale o in quelle afflitte dall&#39;inverno.
+  * &quot;Grazie a Dio è venerdì&quot; ha fatto aumentare le conversioni di venerdì.
+  * &quot;Jump-start your Monday&quot; ha una conversione più alta il lunedì.
+  * &quot;Prepararsi per un inverno della costa orientale&quot; fornisce una maggiore conversione nelle zone della costa orientale o in quelle afflitte dall&#39;inverno.
 
   L&#39;utilizzo di esperienze con rilevanza contestuale variabile può distorcere i risultati in un test [!UICONTROL Allocazione automatica] più che in un test A/B perché il test A/B analizza i risultati su un periodo più lungo.
 
@@ -252,9 +262,9 @@ Questo video include informazioni su come impostare l&#39;allocazione del traffi
 
 ### Creazione di test A/B (8:36) ![Icona esercitazione](/help/main/assets/tutorial.png)
 
-In questo video viene illustrato come creare un test A/A utilizzando il flusso di lavoro guidato in tre passaggi di Target. [!UICONTROL Allocazione automatica] è discusso a partire da 4:45.
+In questo video viene illustrato come creare un test A/A utilizzando il flusso di lavoro guidato in tre passaggi di Target. [!UICONTROL Allocazione automatica] è discusso a partire dal minuto 4:45.
 
 * Crea un&#39;attività A/B in [!DNL Adobe Target]
 * Allocare il traffico con suddivisione manuale o automatica del traffico
 
->[!VIDEO](https://video.tv.adobe.com/v/36325?captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/17391)

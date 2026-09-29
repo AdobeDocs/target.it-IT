@@ -1,17 +1,24 @@
 ---
 keywords: origine dati comportamentali;analisi;consigli;criteri;variabili prodotto
-description: Scopri come utilizzare  [!DNL Adobe Analytics] come origine dei dati comportamentali per utilizzare i dati comportamentali basati sulla visualizzazione e/o sull'acquisto di [!DNL Analytics] in [!DNL Target Recommendations].
-title: Come si utilizza  [!DNL Adobe Analytics] con [!DNL Target Recommendations]?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=it#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."
+description: Scopri come utilizzare [!DNL Adobe Analytics] come origine dei dati comportamentali per utilizzare i dati comportamentali basati sulla visualizzazione e/o sull'acquisto di [!DNL Analytics] in [!DNL Target Recommendations].
+title: Come si utilizza [!DNL Adobe Analytics] con [!DNL Target Recommendations]?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."
 feature: Recommendations
 exl-id: d2b7e840-9546-4a8e-bec4-1ebea5a79672
-source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
+    internal-label: Recommendations
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '826'
+source-wordcount: '829'
 ht-degree: 1%
-
 ---
-
 # Usa [!DNL Adobe Analytics] con [!DNL Recommendations]
 
 L&#39;utilizzo di [!DNL Adobe Analytics] come origine dei dati comportamentali consente ai client di utilizzare i dati comportamentali basati sulla visualizzazione e/o sull&#39;acquisto di [!DNL Analytics] nelle attività di [!DNL Adobe Target] [!DNL Recommendations]. Questa funzione è particolarmente utile nelle situazioni in cui la configurazione di [!DNL Target Recommendations] è nuova e [!DNL Analytics] ha molti dati storici da utilizzare.
@@ -49,7 +56,7 @@ Un formato di feed di esempio [!DNL Target Recommendations] funge da guida su cu
 >
 >Se si tratta di un sito di contenuti, le rispettive parti di contenuto devono essere trattate come &quot;prodotti&quot; e gli attributi associati a tale contenuto devono essere passati come attributi. Tali attributi possono includere il nome dell’autore, la data di pubblicazione, il titolo del contenuto, il mese di rilascio e così via. La granularità del livello di categoria, o dei tipi di categoria, deve essere decisa dall’azienda in base ai requisiti del caso d’uso.
 
-Per ulteriori dettagli sulla configurazione delle variabili di prodotto, vedi [products](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/products.html?lang=it) nella *Guida all&#39;implementazione di Adobe Analytics*. Alcune delle note in tale documentazione richiedono discrezione da parte del team che la sta distribuendo (ad esempio: Categoria). È sempre consigliabile consultare [!DNL Adobe] prima di eseguire questa attività.
+Per ulteriori dettagli sulla configurazione delle variabili di prodotto, vedi [products](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/products.html) nella *Guida all&#39;implementazione di Adobe Analytics*. Alcune delle note in tale documentazione richiedono discrezione da parte del team che la sta distribuendo (ad esempio: Categoria). È sempre consigliabile consultare [!DNL Adobe] prima di eseguire questa attività.
 
 ### Considerazioni
 

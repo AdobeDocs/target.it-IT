@@ -1,22 +1,28 @@
 ---
 keywords: Progettazione consigli;creare progettazione;copia progettazione
-description: Scopri come creare una progettazione  [!DNL Target Recommendations]  utilizzando una progettazione predefinita o creando una progettazione personalizzata che si adatti al meglio al layout della pagina.
+description: Scopri come creare una progettazione di [!DNL Target Recommendations] utilizzando una progettazione predefinita o creando una progettazione personalizzata che si adatti al meglio al layout della pagina.
 title: Come si crea una progettazione in Recommendations?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=it#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."
 feature: Recommendations
 exl-id: 0f10ee9d-7210-4e02-9342-e4f85cf46e8c
-TQID: https://experienceleague.adobe.com/GLWcKaQGl6TmL9i7LYUiYepg6SkAjBtL-78-zlaWCTk
+TQID: 'https://experienceleague.adobe.com/GLWcKaQGl6TmL9i7LYUiYepg6SkAjBtL-78-zlaWCTk'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
+    internal-label: Recommendations
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Customer experience
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 1065
+source-wordcount: '1067'
 ht-degree: 25%
-
 ---
-
 # Creare una progettazione
 
 Una progettazione definisce come i consigli verranno visualizzati su una pagina.
@@ -53,7 +59,7 @@ Questa illustrazione mostra una progettazione personalizzata:
 
    Viene visualizzata la finestra di dialogo [!UICONTROL Crea design].
 
-1. Digitare un nome **&#x200B;**&#x200B;e un&#39;immagine di anteprima facoltativa da visualizzare sulla scheda progettazione.
+1. Digitare un nome **** e un&#39;immagine di anteprima facoltativa da visualizzare sulla scheda progettazione.
 
    Quando si utilizza una progettazione predefinita, il nome della progettazione e la &quot;copia&quot; vengono visualizzati nel campo **[!UICONTROL Nome contenuto]**. È possibile modificare il nome. È inoltre possibile selezionare un&#39;immagine da visualizzare nella scheda di progettazione.
 
@@ -325,4 +331,4 @@ Questo video contiene le seguenti informazioni:
 * Creare una progettazione personalizzata
 * Come fare riferimento alle variabili di visualizzazione nelle progettazioni
 
->[!VIDEO](https://video.tv.adobe.com/v/328805?captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/27687)

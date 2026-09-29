@@ -1,15 +1,22 @@
 ---
 keywords: experience cloud debugger;mbox trace
-description: Debug di Adobe  [!DNL Target]  utilizzando Adobe Experience Cloud Debugger.
-title: Debug di  [!DNL Target]  con Experience Cloud Debugger
+description: Eseguire il debug di Adobe [!DNL Target] utilizzando Adobe Experience Cloud Debugger.
+title: Debug di [!DNL Target] con Experience Cloud Debugger
 feature: Troubleshooting
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
+subfeature_v2:
+  - id: b1d5cd6a-4ed3-43f6-9a52-2721acea1129
+    internal-label: Troubleshooting
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '80'
-ht-degree: 80%
-
+source-wordcount: '81'
+ht-degree: 70%
 ---
-
 
 # Debug di [!DNL Target] con Experience Cloud Debugger
 
@@ -17,15 +24,15 @@ Debug di [!DNL Adobe Target] utilizzando [!DNL Adobe Experience Cloud Debugger].
 
 ## Aggiungi estensione
 
->[!VIDEO](https://video.tv.adobe.com/v/326674/?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/23114/?quality=12)
 
 ## Debug di base di [!DNL Target]
 
->[!VIDEO](https://video.tv.adobe.com/v/326675/?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/23115/?quality=12)
 
 ## Mbox Trace
 
->[!VIDEO](https://video.tv.adobe.com/v/326676/?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/23113/?quality=12)
 
 ## Risorse aggiuntive
 

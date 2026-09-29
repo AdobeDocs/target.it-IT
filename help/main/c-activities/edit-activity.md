@@ -4,20 +4,23 @@ description: Scopri i diversi modi in cui puoi modificare un’attività esisten
 title: Come posso modificare un’attività?
 feature: Activities
 exl-id: 5f2a930a-9950-430e-a898-50af1f917ec1
-TQID: https://experienceleague.adobe.com/joqYeCK6Zy6Xz27eRKodA4M1kfPMi-AJu84wNXsGgQA
+TQID: 'https://experienceleague.adobe.com/joqYeCK6Zy6Xz27eRKodA4M1kfPMi-AJu84wNXsGgQA'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
+  - id: 6efa6b7a-8062-5c41-aef4-b4853cc306ae
+    internal-label: Activities
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Customer experience
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 1049
+source-wordcount: '1049'
 ht-degree: 20%
-
 ---
-
 # Modificare un’attività
 
 Scopri come modificare le attività esistenti in [!DNL Adobe Target]. Questo articolo descrive i diversi metodi disponibili nell&#39;interfaccia [!DNL Target] per la modifica delle attività. Sia che si stiano aggiornando le esperienze, regolando le regole di targeting o configurando gli obiettivi, [!DNL Target] garantisce che le modifiche vengano salvate in modo sicuro prima dell&#39;attivazione.
@@ -70,33 +73,33 @@ Tieni in considerazione le seguenti informazioni quando utilizzi la funzionalit�
 
 * Se si copia un&#39;attività all&#39;interno della stessa area di lavoro o dall&#39;area di lavoro predefinita in un&#39;area di lavoro non predefinita, l&#39;Activity Wizard viene aperta automaticamente. Nelle copie tra aree di lavoro diverse, potrebbe essere necessario aggiornare solo le proprietà dell’attività.
 * Quando un&#39;attività viene copiata da un&#39;area di lavoro non predefinita in un&#39;altra area di lavoro (predefinita o non predefinita), viene visualizzata l&#39;Activity Wizard e per completare l&#39;impostazione è necessario un input manuale:
-   * **[!UICONTROL Proprietà]**: le proprietà potrebbero essere diverse tra le aree di lavoro. Questa situazione potrebbe generare un avviso:
+  * **[!UICONTROL Proprietà]**: le proprietà potrebbero essere diverse tra le aree di lavoro. Questa situazione potrebbe generare un avviso:
 
-      * Nel [!UICONTROL Compositore esperienza basato su moduli], gli avvisi vengono visualizzati direttamente nell&#39;interfaccia utente per ottenere una visibilità immediata.
+    * Nel [!UICONTROL Compositore esperienza basato su moduli], gli avvisi vengono visualizzati direttamente nell&#39;interfaccia utente per ottenere una visibilità immediata.
 
-        ![Avviso area di lavoro basata su modulo](/help/main/c-activities/assets/form-based-warning.png)
+      ![Avviso area di lavoro basata su modulo](/help/main/c-activities/assets/form-based-warning.png)
 
-      * Nel Compositore esperienza visivo, gli avvisi sono visibili quando si fa clic su [!UICONTROL Configura] > [!UICONTROL Proprietà].
+    * Nel Compositore esperienza visivo, gli avvisi sono visibili quando si fa clic su [!UICONTROL Configura] > [!UICONTROL Proprietà].
 
-        ![vec-warning](/help/main/c-activities/assets/vec-warning.png)
+      ![vec-warning](/help/main/c-activities/assets/vec-warning.png)
 
-        Per risolvere il problema, fare clic su [!UICONTROL Aggiungi/Rimuovi] in modo che vengano visualizzate per la selezione solo le proprietà disponibili nell&#39;area di lavoro di destinazione.
+      Per risolvere il problema, fare clic su [!UICONTROL Aggiungi/Rimuovi] in modo che vengano visualizzate per la selezione solo le proprietà disponibili nell&#39;area di lavoro di destinazione.
 
-   * **Tipi di pubblico e offerte**: quando si copia un&#39;attività in una nuova area di lavoro, tutti i tipi di pubblico e le offerte ad hoc associati [!DNL Target] o dall&#39;area di lavoro originale vengono duplicati nel formato `<Entity Name> Copy <Date>` per i tipi di pubblico [!DNL Target] e per le offerte ad hoc `<Entity Name>`.
+  * **Tipi di pubblico e offerte**: quando si copia un&#39;attività in una nuova area di lavoro, tutti i tipi di pubblico e le offerte ad hoc associati [!DNL Target] o dall&#39;area di lavoro originale vengono duplicati nel formato `<Entity Name> Copy <Date>` per i tipi di pubblico [!DNL Target] e per le offerte ad hoc `<Entity Name>`.
 
-     Dettagli del comportamento:
+    Dettagli del comportamento:
 
-      * I tipi di pubblico e le offerte copiati non vengono visualizzati negli elenchi [!UICONTROL Tipi di pubblico] e [!UICONTROL Offerte] finché l&#39;attività non viene salvata e riaperta.
-      * Queste entità non possono essere modificate immediatamente dopo la copia. I clienti potrebbero visualizzare contenuti vuoti nel Compositore esperienza visivo per questi elementi durante la sessione di modifica iniziale.
-      * Se necessario, i clienti possono sostituire i tipi di pubblico o le offerte copiati con altri utenti dell’area di lavoro di destinazione.
+    * I tipi di pubblico e le offerte copiati non vengono visualizzati negli elenchi [!UICONTROL Tipi di pubblico] e [!UICONTROL Offerte] finché l&#39;attività non viene salvata e riaperta.
+    * Queste entità non possono essere modificate immediatamente dopo la copia. I clienti potrebbero visualizzare contenuti vuoti nel Compositore esperienza visivo per questi elementi durante la sessione di modifica iniziale.
+    * Se necessario, i clienti possono sostituire i tipi di pubblico o le offerte copiati con altri utenti dell’area di lavoro di destinazione.
 
-     Questo processo garantisce una duplicazione più fluida delle attività in più aree di lavoro, mantenendo al contempo la flessibilità per la personalizzazione.
+    Questo processo garantisce una duplicazione più fluida delle attività in più aree di lavoro, mantenendo al contempo la flessibilità per la personalizzazione.
 
-     Durante la copia di un’attività, i tipi di pubblico e le offerte non di destinazione che non vengono salvati nell’area di lavoro corrente o in quella predefinita devono essere sostituiti manualmente.
+    Durante la copia di un’attività, i tipi di pubblico e le offerte non di destinazione che non vengono salvati nell’area di lavoro corrente o in quella predefinita devono essere sostituiti manualmente.
 
-     Sostituendo manualmente questi tipi di pubblico e le offerte non di destinazione, si garantisce che nell’attività copiata vengano utilizzate solo entità valide e accessibili e si evitano errori durante la modifica o la consegna.
+    Sostituendo manualmente questi tipi di pubblico e le offerte non di destinazione, si garantisce che nell’attività copiata vengano utilizzate solo entità valide e accessibili e si evitano errori durante la modifica o la consegna.
 
-     ![Messaggio di avviso](/help/main/c-activities/assets/copy.png)
+    ![Messaggio di avviso](/help/main/c-activities/assets/copy.png)
 
 >[!NOTE]
 >

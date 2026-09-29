@@ -4,13 +4,20 @@ description: Scopri come creare offerte JSON in da utilizzare nel [!UICONTROL Co
 title: Come si creano le offerte JSON?
 feature: Experiences and Offers
 exl-id: 793665a4-4cd6-458f-8225-ba23e503a115
-source-git-commit: e8201198dc6ac36e803153d5c6b345a30716204a
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
+subfeature_v2:
+  - id: ef98a6e0-f26c-4870-9bd4-e6b72e9cc699
+    internal-label: Experiences and offers
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
 source-wordcount: '489'
 ht-degree: 29%
-
 ---
-
 # Creare offerte JSON
 
 Crea offerte JSON nella [!UICONTROL Libreria di offerte] in [!DNL Adobe Target] da utilizzare nel [!UICONTROL Compositore esperienza basato su moduli].

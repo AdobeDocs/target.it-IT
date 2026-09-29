@@ -4,23 +4,29 @@ description: Scopri come utilizzare la pagina [!UICONTROL Obiettivi e impostazio
 title: Come si specificano obiettivi e impostazioni in un'attività [!UICONTROL Test multivariato] (MVT)?
 feature: Multivariate Tests
 exl-id: 823a1435-ccb9-4357-9c33-a0968d704b7a
-TQID: https://experienceleague.adobe.com/FKRQnliVYaVby-SiFunkRWX7iFMi76JAP3D3TKUdMXE
+TQID: 'https://experienceleague.adobe.com/FKRQnliVYaVby-SiFunkRWX7iFMi76JAP3D3TKUdMXE'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
+  - id: b934e7cf-c07f-5a64-924b-3c9da8413e3d
+    internal-label: Multivariate Tests
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Administration
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 1261
-ht-degree: 39%
-
+source-wordcount: '1266'
+ht-degree: 40%
 ---
-
 # Obiettivi e impostazioni ([!UICONTROL Test multivariato])
 
 Nella pagina [!UICONTROL Obiettivi e impostazioni] di [!DNL Adobe Target] è possibile immettere informazioni sugli obiettivi delle attività di [!UICONTROL Test multivariato] (MVT).
@@ -64,7 +70,7 @@ Per le attività create con le versioni precedenti di [!DNL Target], la priorit�
 
 ### Durata
 
-L’attività può iniziare dopo l’approvazione, oppure è possibile impostare una data e un’ora specifiche. Analogamente, l’attività può terminare quando viene disattivata, oppure è possibile impostare una data e un’ora specifiche. Il selettore dell&#39;ora utilizza un orologio di 24 ore, dove 00:00 corrisponde a mezzanotte. Il fuso orario è impostato sul fuso configurato nel browser. Per utilizzare un fuso orario diverso, imposta il browser su un altro fuso orario e riavvia il browser.
+L’attività può iniziare dopo l’approvazione, oppure è possibile impostare una data e un’ora specifiche. Analogamente, l’attività può terminare quando viene disattivata, oppure è possibile impostare una data e un’ora specifiche. Il selettore dell’ora è nel formato 24 ore e la mezzanotte è indicata come 00:00. Il fuso orario è impostato sul fuso configurato nel browser. Per utilizzare un fuso orario diverso, imposta il browser su un altro fuso orario e riavvia il browser.
 
 ## Impostazioni reporting {#section_13119392051044FBA6387D9B3B1C43CF}
 
@@ -183,9 +189,9 @@ Questo video include informazioni sulle impostazioni delle attività.
 
 ### Creazione di test multivariati (9:25)
 
-Questo video illustra come creare un test multivariato utilizzando il flusso di lavoro guidato in tre passaggi di [!DNL Target]. Obiettivi e impostazioni sono discussi a partire dal 7:00.
+Questo video illustra come creare un test multivariato utilizzando il flusso di lavoro guidato in tre passaggi di [!DNL Target]. Obiettivi e impostazioni sono trattati a partire dal minuto 07:00.
 
 * Definizione e progettazione di un test multivariato
 * Creazione di un test multivariato
 
->[!VIDEO](https://video.tv.adobe.com/v/36329?captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/17395)

@@ -1,16 +1,23 @@
 ---
 keywords: Creare test A/B;attività A/B;nuova attività A/B;creare test A/B
-description: Scopri come utilizzare il Compositore esperienza visivo in Adobe [!DNL Target] per creare l'attività Test A/B direttamente su una pagina abilitata per  [!DNL Target].
+description: Scopri come utilizzare il Compositore esperienza visivo in Adobe [!DNL Target] per creare l’attività Test A/B direttamente su una pagina abilitata per [!DNL Target].
 title: Come si crea un test A/B?
 feature: A/B Tests
 exl-id: 76002873-0b7c-44a8-8e89-8ad28b63eccb
-source-git-commit: eb7e892a85fa3952ffc22172085d421756d0dfb5
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ab2570eb-4844-49aa-8334-e91a345525e5
+    internal-label: A/B Tests
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '947'
+source-wordcount: '949'
 ht-degree: 36%
-
 ---
-
 # Creare un test A/B
 
 Utilizza il [!UICONTROL Compositore esperienza visivo] (VEC) in [!DNL Adobe Target] per creare l&#39;attività [!UICONTROL Test A/B] direttamente su una pagina abilitata per [!DNL Target] e modificare parti della pagina in [!DNL Target].
@@ -39,7 +46,7 @@ Per creare un&#39;attività [!UICONTROL Test A/B] manuale:
 
    >[!NOTE]
    >
-   >Oltre al Compositore esperienza visivo e al Compositore esperienza basato su moduli [!UICONTROL 1&rbrace;, [!DNL Target] offre anche il Compositore esperienza visivo per applicazione a pagina singola. &#x200B;]Per ulteriori informazioni sui vari moduli di composizione, consulta [Esperienze e offerte](/help/main/c-experiences/experiences.md).
+   >Oltre al Compositore esperienza visivo e al Compositore esperienza basato su moduli [!UICONTROL 1}, [!DNL Target] offre anche il Compositore esperienza visivo per applicazione a pagina singola. ]Per ulteriori informazioni sui vari moduli di composizione, consulta [Esperienze e offerte](/help/main/c-experiences/experiences.md).
    >
    >Per informazioni sulla risoluzione dei problemi relativi al Compositore esperienza visivo, consulta [Risoluzione dei problemi relativi al Compositore esperienza visivo](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md).
 
@@ -132,4 +139,4 @@ In questo video viene illustrato come creare un test A/B utilizzando il flusso d
 * Crea un&#39;attività [!UICONTROL Test A/B] in [!DNL Adobe Target]
 * Allocare il traffico con suddivisione manuale o automatica del traffico
 
->[!VIDEO](https://video.tv.adobe.com/v/36325?captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/17391)

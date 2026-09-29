@@ -1,26 +1,35 @@
 ---
 keywords: impostazioni attività;obiettivi e impostazioni A/B;impostazioni di reporting;metriche obiettivo;metriche di successo;metriche di successo dipendenti;impostazioni avanzate;obiettivo principale;metriche aggiuntive;obiettivo;priorità;durata;soluzione di reporting;obiettivo;pubblico per rapporti;Quale metrica di successo deve essere raggiunta prima di incrementare questa metrica;Cosa succede dopo che un utente ha individuato questa metrica obiettivo;note
 description: Scopri come utilizzare la pagina [!UICONTROL Obiettivi e impostazioni] per definire gli obiettivi dell'attività A/B.
-title: Come posso specificare obiettivi e impostazioni in un'attività A/B di  [!DNL Target] ?
+title: Come si specificano obiettivi e impostazioni in un'attività A/B [!DNL Target]?
 feature: A/B Tests
 exl-id: 6c970289-a897-46bc-a8d2-ba8c045abe12
-TQID: https://experienceleague.adobe.com/X3JDvfXDHM2rAOodEY5N9TVO-tBpz4vNDUvhOpC0XZ4
+TQID: 'https://experienceleague.adobe.com/X3JDvfXDHM2rAOodEY5N9TVO-tBpz4vNDUvhOpC0XZ4'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ab2570eb-4844-49aa-8334-e91a345525e5
+    internal-label: A/B Tests
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: d0846dd933f267d990069a95532a8643bb4bf792
+    internal-label: Administration
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 1546
+source-wordcount: '1547'
 ht-degree: 28%
-
 ---
-
 # Obiettivi e impostazioni
 
 Nella pagina [!UICONTROL Obiettivi e impostazioni] di [!DNL Adobe Target] è possibile specificare informazioni sugli obiettivi dell&#39;attività.
@@ -65,7 +74,7 @@ Sono disponibili le seguenti opzioni:
 
 | Impostazione | Descrizione |
 |--- |--- |
-| [!UICONTROL Quale metrica di successo deve essere raggiunta prima di incrementare questa metrica?] | Utilizza questa opzione per contare solo chi raggiunge la metrica di successo se in precedenza aveva raggiunto una metrica di successo diversa. Ad esempio, una conversione di attività potrebbe essere valida solo se il visitatore fa clic sull’offerta o raggiunge una pagina particolare prima della conversione. È possibile fornire la dipendenza su più metriche insieme alla flessibilità necessaria, per scegliere se la metrica debba essere raggiunta o meno per incrementare il conteggio. Definisci entrambe le metriche (o più metriche) di successo prima di renderle interdipendenti tra loro. L’opzione [!UICONTROL Aggiungi dipendenza] consente di incrementare la metrica di successo nel caso in cui un’altra metrica di successo venga raggiunta o meno. Per aggiungere una dipendenza:<ul><li>Dopo aver aggiunto le metriche aggiuntive, fai clic su [!UICONTROL Impostazioni avanzate].</li><li>Fai clic sull’opzione [!UICONTROL Aggiungi dipendenza]:</li><li>Trascina e rilascia le metriche desiderate dal riquadro di sinistra a quello di destra, quindi fai clic su [!UICONTROL Raggiunto] per scegliere tra [!UICONTROL Raggiunto] e[!UICONTROL &#x200B; Non raggiunto].</li><li>È possibile modificare o rimuovere le dipendenze dopo averle aggiunte.</li></ul> |
+| [!UICONTROL Quale metrica di successo deve essere raggiunta prima di incrementare questa metrica?] | Utilizza questa opzione per contare solo chi raggiunge la metrica di successo se in precedenza aveva raggiunto una metrica di successo diversa. Ad esempio, una conversione di attività potrebbe essere valida solo se il visitatore fa clic sull’offerta o raggiunge una pagina particolare prima della conversione. È possibile fornire la dipendenza su più metriche insieme alla flessibilità necessaria, per scegliere se la metrica debba essere raggiunta o meno per incrementare il conteggio. Definisci entrambe le metriche (o più metriche) di successo prima di renderle interdipendenti tra loro. L’opzione [!UICONTROL Aggiungi dipendenza] consente di incrementare la metrica di successo nel caso in cui un’altra metrica di successo venga raggiunta o meno. Per aggiungere una dipendenza:<ul><li>Dopo aver aggiunto le metriche aggiuntive, fai clic su [!UICONTROL Impostazioni avanzate].</li><li>Fai clic sull’opzione [!UICONTROL Aggiungi dipendenza]:</li><li>Trascina e rilascia le metriche desiderate dal riquadro di sinistra a quello di destra, quindi fai clic su [!UICONTROL Raggiunto] per scegliere tra [!UICONTROL Raggiunto] e[!UICONTROL  Non raggiunto].</li><li>È possibile modificare o rimuovere le dipendenze dopo averle aggiunte.</li></ul> |
 | [!UICONTROL Cosa succede quando un utente incontra questa metrica per obiettivo?] | Dopo che un visitatore raggiunge la metrica obiettivo, sono disponibili tre opzioni:<ul><li>Seleziona **[!UICONTROL Incrementa il conteggio e mantieni utente attivo]** per specificare la modalità di incremento del conteggio.</li><li>Seleziona **[!UICONTROL Incrementa il conteggio, rilascia l’utente e consenti nuovo accesso]** per specificare l’esperienza che l’utente vedrà se accede di nuovo all’attività.</li><li>Seleziona **[!UICONTROL Incrementa il conteggio, rilascia l&#39;utente e impedisci nuovo accesso]** per specificare cosa vedrà l&#39;utente al posto del contenuto dell&#39;attività.</li></ul> |
 | [!UICONTROL Come verrà incrementato il conteggio?] | Sono disponibili tre opzioni per l’incremento del conteggio:<ul><li>[!UICONTROL Una volta per partecipante]</li><li>[!UICONTROL Su ogni impression (esclusi aggiornamenti pagina)]</li><li>[!UICONTROL Su ogni impression]</li></ul> |
 

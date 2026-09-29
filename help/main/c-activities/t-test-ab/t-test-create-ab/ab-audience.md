@@ -1,23 +1,29 @@
 ---
 keywords: pubblico;selezionare il pubblico;scegliere il pubblico;audience;selettori
-description: Definisci i visitatori del sito che partecipano alla tua attività Adobe [!DNL Target]  in base ai criteri di pubblico.
-title: Come si seleziona un pubblico in un'attività  [!DNL Target] A/B?
+description: Definire i visitatori del sito che partecipano all'attività di Adobe [!DNL Target] in base ai criteri di pubblico.
+title: Come si seleziona un pubblico in un'attività A/B di [!DNL Target]?
 feature: A/B Tests
 exl-id: 281ae227-c593-4b71-ad12-865430b332be
-TQID: https://experienceleague.adobe.com/7W8BrRxk4mKlYlgGb-GSOuc0kRMRWBvSochz9STYrTs
+TQID: 'https://experienceleague.adobe.com/7W8BrRxk4mKlYlgGb-GSOuc0kRMRWBvSochz9STYrTs'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ab2570eb-4844-49aa-8334-e91a345525e5
+    internal-label: A/B Tests
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Customer experience
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 575
+source-wordcount: '577'
 ht-degree: 10%
-
 ---
-
 # Selezionare il pubblico
 
 Il pubblico determina quali visitatori idonei vengono inseriti nell&#39;attività [!DNL Adobe Target].

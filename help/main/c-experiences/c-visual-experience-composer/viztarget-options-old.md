@@ -1,16 +1,20 @@
 ---
 keywords: opzioni compositore esperienza visivo;opzioni compositore esperienza;opzioni esperienza;modifica testo;modifica html;modifica testo/html;modifica colore di sfondo;colore di sfondo;inserire elemento;modifica collegamento;collegamento;collegamento;collegamento compositore esperienza visivo;modifica classe css;classe css;sostituire offerta;scambiare offerta;scambiare immagine;sostituire immagine;rimuovere elemento;rimuovere elemento;nascondere elemento;nascondere elemento;nascondere elemento;ridisporre;spostare elemento;spostare elemento;ridimensionare elemento;ridimensionare elemento;elemento;espandere selezione;passare a questo collegamento;passare al collegamento;passare al collegamento;navigare;passare;collegamento;annullare;ripetere;annullare/ripetere;eventi personalizzati;componenti web;decisione offerta;decisione offerta
-description: Esplora le opzioni disponibili nel  [!DNL Adobe Target] [!UICONTROL Compositore esperienza visivo].
+description: Esplora le opzioni disponibili nel [!DNL Adobe Target] [!UICONTROL Compositore esperienza visivo] (VEC).
 title: Come si utilizzano le [!UICONTROL opzioni del Compositore esperienza visivo]?
 feature: Visual Experience Composer (VEC)
 exl-id: 50993d6c-5025-488a-8b33-9ed7c142de6e
-source-git-commit: be9996c4dce0a3135a39fcbf0608b57b6e742ac3
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f7501c88-b36a-590b-9cc4-dea607bda94b
+    internal-label: Visual Experience Composer (VEC)
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '2992'
-ht-degree: 54%
-
+source-wordcount: '3014'
+ht-degree: 55%
 ---
-
 # Opzioni del Compositore esperienza visivo
 
 Quando si fa clic su un elemento di pagina nel [!DNL Adobe Target] [!UICONTROL Compositore esperienza visivo] (VEC), un menu mostra le opzioni disponibili per tale tipo di elemento. Inoltre, nella parte inferiore della pagina viene visualizzato un percorso DOM che consente di navigare facilmente nella struttura della pagina.
@@ -74,15 +78,15 @@ I punti blu nel pannello principale e accanto a ogni opzione nei vari pannelli d
 
   Cambia il colore e l’immagine di sfondo.
 
-   * Colore (specifica il codice del colore o utilizza il selettore del colore)
-   * Immagine (seleziona un’immagine dal selettore immagini)
-   * Origine immagine (specifica un URL esterno)
-   * Allegato
-      * Fai clic sull’elenco a discesa in alto per selezionare scroll, fixed o local (Scorrimento, Fisso o Locale).
-      * Fai clic sull’elenco a discesa in alto per selezionare repeat, repeat-x, repeat-y, no-repeat, space o round (Ripeti, Ripeti x, Ripeti y, Non ripetere, Spazio, Arrotonda).
-   * Clip
-      * Fai clic sull’elenco a discesa in alto per selezionare border-box, padding-box, content-box o text (Casella bordo, Casella margine, Casella contenuto, Testo).
-      * Fai clic sull’elenco a discesa in alto per selezionare auto audio o audio (Audio automatico, Audio).
+  * Colore (specifica il codice del colore o utilizza il selettore del colore)
+  * Immagine (seleziona un’immagine dal selettore immagini)
+  * Origine immagine (specifica un URL esterno)
+  * Allegato
+    * Fai clic sull’elenco a discesa in alto per selezionare scroll, fixed o local (Scorrimento, Fisso o Locale).
+    * Fai clic sull’elenco a discesa in alto per selezionare repeat, repeat-x, repeat-y, no-repeat, space o round (Ripeti, Ripeti x, Ripeti y, Non ripetere, Spazio, Arrotonda).
+  * Clip
+    * Fai clic sull’elenco a discesa in alto per selezionare border-box, padding-box, content-box o text (Casella bordo, Casella margine, Casella contenuto, Testo).
+    * Fai clic sull’elenco a discesa in alto per selezionare auto audio o audio (Audio automatico, Audio).
 
 * **[!UICONTROL Tipografia]**
 
@@ -92,13 +96,13 @@ I punti blu nel pannello principale e accanto a ogni opzione nei vari pannelli d
 
   È possibile modificare i seguenti stili di composizione tipografica:
 
-   * [!UICONTROL Dimensione carattere]
-   * [!UICONTROL Spessore carattere]
-   * [!UICONTROL Stile carattere]
-   * [!UICONTROL Colore] (specificare il codice colore o utilizzare il selettore colore)
-   * [!UICONTROL Spaziatura tra parole]
-   * [!UICONTROL Altezza riga]
-   * [!UICONTROL Allineamento testo]
+  * [!UICONTROL Dimensione carattere]
+  * [!UICONTROL Spessore carattere]
+  * [!UICONTROL Stile carattere]
+  * [!UICONTROL Colore] (specificare il codice colore o utilizzare il selettore colore)
+  * [!UICONTROL Spaziatura tra parole]
+  * [!UICONTROL Altezza riga]
+  * [!UICONTROL Allineamento testo]
 
 * **[!UICONTROL Margine]**
 
@@ -106,8 +110,8 @@ I punti blu nel pannello principale e accanto a ogni opzione nei vari pannelli d
 
   Fai clic sull’icona a discesa di ciascun margine per scegliere tra le opzioni seguenti:
 
-   * [!UICONTROL Automatico]
-   * [!UICONTROL Valore] (trascina il cursore per impostare il margine o specifica il numero di pixel per ciascun margine)
+  * [!UICONTROL Automatico]
+  * [!UICONTROL Valore] (trascina il cursore per impostare il margine o specifica il numero di pixel per ciascun margine)
 
   Il margine supporta valori positivi e negativi.
 
@@ -129,9 +133,9 @@ I punti blu nel pannello principale e accanto a ogni opzione nei vari pannelli d
 
   È possibile modificare i seguenti stili per ciascun bordo (superiore, destro, inferiore e sinistro):
 
-   * [!UICONTROL Stile bordo] (nessuno, nascosto, punteggiato, tratteggiato, pieno o doppio)
-   * [!UICONTROL Colore bordo] (specificare il codice colore o utilizzare il selettore colore)
-   * [!UICONTROL Larghezza bordo] (trascina il cursore per selezionare la larghezza del bordo o specifica la larghezza in pixel)
+  * [!UICONTROL Stile bordo] (nessuno, nascosto, punteggiato, tratteggiato, pieno o doppio)
+  * [!UICONTROL Colore bordo] (specificare il codice colore o utilizzare il selettore colore)
+  * [!UICONTROL Larghezza bordo] (trascina il cursore per selezionare la larghezza del bordo o specifica la larghezza in pixel)
 
   Il bordo supporta valori di spessore a partire da 0.
 
@@ -143,16 +147,16 @@ I punti blu nel pannello principale e accanto a ogni opzione nei vari pannelli d
 
   Fai clic sull&#39;elenco a discesa [!UICONTROL Static] per scegliere tra le seguenti opzioni di posizione:
 
-   * [!UICONTROL Statico]
-   * [!UICONTROL Relativo]
-   * [!UICONTROL Assoluto]
-   * [!UICONTROL Sticky]
-   * [!UICONTROL Corretto]
+  * [!UICONTROL Statico]
+  * [!UICONTROL Relativo]
+  * [!UICONTROL Assoluto]
+  * [!UICONTROL Sticky]
+  * [!UICONTROL Corretto]
 
   Fai clic sull’icona a discesa per ciascuna posizione per scegliere tra le seguenti opzioni:
 
-   * [!UICONTROL Automatico]
-   * [!UICONTROL Valore] (trascina il cursore per posizionare l&#39;elemento o specifica il numero di pixel da spostare)
+  * [!UICONTROL Automatico]
+  * [!UICONTROL Valore] (trascina il cursore per posizionare l&#39;elemento o specifica il numero di pixel da spostare)
 
   La posizione supporta valori positivi e negativi.
 
@@ -164,22 +168,22 @@ I punti blu nel pannello principale e accanto a ogni opzione nei vari pannelli d
 
   Fai clic sull&#39;icona a discesa accanto a [!UICONTROL Larghezza] e [!UICONTROL Altezza] per scegliere tra le seguenti opzioni:
 
-   * [!UICONTROL Automatico]
-   * [!UICONTROL Valore] (trascina il cursore per ridimensionare l&#39;elemento o specifica il numero di pixel per ogni dimensione)
+  * [!UICONTROL Automatico]
+  * [!UICONTROL Valore] (trascina il cursore per ridimensionare l&#39;elemento o specifica il numero di pixel per ogni dimensione)
 
 * **[!UICONTROL Filtro]**
 
   Trascina il cursore per ogni opzione filtro o specifica la percentuale desiderata:
 
-   * [!UICONTROL Seppia]
-   * [!UICONTROL Contrasto]
-   * [!UICONTROL Luminosità]
-   * [!UICONTROL ScalaGrigia]
-   * [!UICONTROL Sfocatura]
-   * [!UICONTROL Opacità]
-   * [!UICONTROL Inverti]
-*[!UICONTROL &#x200B; rotazione tonalità]
-   * [!UICONTROL Saturazione]
+  * [!UICONTROL Seppia]
+  * [!UICONTROL Contrasto]
+  * [!UICONTROL Luminosità]
+  * [!UICONTROL ScalaGrigia]
+  * [!UICONTROL Sfocatura]
+  * [!UICONTROL Opacità]
+  * [!UICONTROL Inverti]
+    *[!UICONTROL  rotazione tonalità]
+  * [!UICONTROL Saturazione]
 
 * **[!UICONTROL Editor CSS]**
 
@@ -217,7 +221,7 @@ Sono disponibili le seguenti opzioni:
 
 ### [!UICONTROL Decisione offerta]
 
-Aggiungi un&#39;offerta [creata in [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html?lang=it){target=_blank} per presentare ai clienti l&#39;offerta e l&#39;esperienza migliore utilizzando offer decisioning.
+Aggiungi un&#39;offerta [creata in [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html){target=_blank} per presentare ai clienti l&#39;offerta e l&#39;esperienza migliore utilizzando offer decisioning.
 
 **Nota:** questa opzione è disponibile solo per la modifica o la creazione di [attività [!UICONTROL Test A/B manuale]](/help/main/c-activities/t-test-ab/test-ab.md#types) o [[!UICONTROL Targeting esperienza]](/help/main/c-activities/t-experience-target/experience-target.md) (XT). Questa opzione non è disponibile per altri tipi di attività.
 
@@ -249,7 +253,7 @@ Sono disponibili le seguenti opzioni:
 
 ### [!UICONTROL Decisione offerta]
 
-Aggiungi un&#39;offerta [creata in [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html?lang=it){target=_blank} per presentare ai clienti l&#39;offerta e l&#39;esperienza migliore utilizzando offer decisioning.
+Aggiungi un&#39;offerta [creata in [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html){target=_blank} per presentare ai clienti l&#39;offerta e l&#39;esperienza migliore utilizzando offer decisioning.
 
 **Nota:** questa opzione è disponibile solo per la modifica o la creazione di [attività [!UICONTROL Test A/B manuale]](/help/main/c-activities/t-test-ab/test-ab.md#types) o [[!UICONTROL Targeting esperienza]](/help/main/c-activities/t-experience-target/experience-target.md) (XT). Questa opzione non è disponibile per altri tipi di attività.
 
@@ -281,7 +285,7 @@ Sono disponibili le seguenti opzioni:
 
 ### [!UICONTROL Decisione offerta]
 
-Aggiungi un&#39;offerta [creata in [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html?lang=it){target=_blank} per presentare ai clienti l&#39;offerta e l&#39;esperienza migliore utilizzando offer decisioning.
+Aggiungi un&#39;offerta [creata in [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html){target=_blank} per presentare ai clienti l&#39;offerta e l&#39;esperienza migliore utilizzando offer decisioning.
 
 **Nota:** questa opzione è disponibile solo per la modifica o la creazione di [attività [!UICONTROL Test A/B manuale]](/help/main/c-activities/t-test-ab/test-ab.md#types) o [[!UICONTROL Targeting esperienza]](/help/main/c-activities/t-experience-target/experience-target.md) (XT). Questa opzione non è disponibile per altri tipi di attività.
 
@@ -309,7 +313,7 @@ La funzione Consigli supporta la funzione Sostituisci con nei tag DIV, SECTION e
 
 Seleziona un&#39;offerta diversa dalla [!UICONTROL Libreria contenuti].
 
-**Nota:**&#x200B;[!DNL Target] le offerte HTML sono memorizzate sui server di
+**Nota:**[!DNL Target] le offerte HTML sono memorizzate sui server di
 
 Un&#39;offerta HTML può essere fino a 256 KB.
 
@@ -371,7 +375,7 @@ Annulla le modifiche apportate alle attività durante una sessione di modifica. 
 
 ## Considerazioni {#considerations}
 
-* Se un’offerta contiene contenuti HTML, consulta la sezione su come avviene il rendering di contenuti HTML in at.js, in [Funzionamento di at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html?lang=it){target=_blank}.
+* Se un’offerta contiene contenuti HTML, consulta la sezione su come avviene il rendering di contenuti HTML in at.js, in [Funzionamento di at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html){target=_blank}.
 
 ## Supporto per elementi personalizzati {#custom}
 
@@ -388,16 +392,16 @@ La maggior parte delle azioni del Compositore esperienza visivo è supportata su
 Le seguenti azioni non sono disponibili sugli elementi personalizzati:
 
 * [!UICONTROL Modifica]
-   * [!UICONTROL Testo/HTML]
-   * [!UICONTROL Collegamento]
-   * [!UICONTROL Modifica Source]
+  * [!UICONTROL Testo/HTML]
+  * [!UICONTROL Collegamento]
+  * [!UICONTROL Modifica Source]
 
 * [!UICONTROL Sostituisci contenuto]
 
 La seguente azione non è disponibile all’interno di elementi personalizzati:
 
 * [!UICONTROL Layout]
-   * [!UICONTROL Ridisponi]
+  * [!UICONTROL Ridisponi]
 
 ## Navigare tra gli elementi utilizzando il percorso DOM {#dom-path}
 

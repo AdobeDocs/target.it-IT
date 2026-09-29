@@ -1,16 +1,20 @@
 ---
 keywords: dati parziali;dati parziali;A4T;incongruenze;analytics for target;orfano;suite rapporti virtuali;fittizio;risoluzione dei problemi;non vincolati;gonfiato;non specificato
-description: Scopri come ridurre al minimo gli effetti dei conteggi gonfiati di visite e visitatori quando utilizzi Analytics for  [!DNL Target]  (A4T). Scopri cosa sono i “dati parziali” e come ridurli.
+description: Scopri come ridurre al minimo gli effetti dei conteggi gonfiati di visite e visitatori quando utilizzi Analytics per [!DNL Target] (A4T). Scopri cosa sono i “dati parziali” e come ridurli.
 title: Come posso ridurre al minimo i conteggi gonfiati di visite e visitatori in A4T?
 feature: Analytics for Target (A4T)
 exl-id: 308711f7-e630-4f6b-8a6d-a1f36ed7902d
-source-git-commit: 122484056e73f8f679312a3e776e623d905701d5
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: 891742a5-242d-5099-966a-ca76c17cd2d2
+    internal-label: Analytics for Target (A4T)
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
 source-wordcount: '1362'
-ht-degree: 97%
-
+ht-degree: 96%
 ---
-
 # Minimizzare i conteggi gonfiati di visite e visitatori in A4T
 
 Informazioni che consentono di minimizzare gli effetti dei conteggi gonfiati di visite e visitatori quando si utilizza [!DNL Adobe Analytics] come origine per la generazione di rapporti [!DNL Adobe Target] (A4T).
@@ -32,7 +36,7 @@ Quando [!DNL Adobe Analytics] viene utilizzato per misurare le attività di [!DN
 
 ## Perché Adobe ha introdotto questa modifica? {#section_92380A4BD69E4B8886692DD27540C92A}
 
-L’accuratezza e la qualità dei dati sono motivo di orgoglio per Adobe. Quando il tag [!DNL Target] viene attivato, ma il [!DNL Analytics] no, Analytics registra i “dati parziali” (talvolta denominati “risultati non vincolati”). Questi risultati non vincolati non vengono acquisiti da [!DNL Analytics] se non si è verificata alcuna attività di [!DNL Target]. L’inclusione dei dati parziali nella reportistica di [!DNL Analytics] fornisce informazioni aggiuntive, ma genera anche risultati incoerenti per i dati precedenti relativi a periodi in cui non vi erano attività di [!DNL Target] in esecuzione. Questa situazione può causare problemi agli utenti di [!DNL Analytics] che analizzano le tendenze nel tempo. Al fine di garantire la coerenza dei dati in [!DNL Analytics], Adobe esclude tutti i dati parziali.
+L’accuratezza e la qualità dei dati sono motivo di orgoglio per Adobe. Quando il tag [!DNL Target] viene attivato, ma il tag [!DNL Analytics] no, Analytics registra i “dati parziali” (o “hit senza unione delle identità”). Questi hit senza unione delle identità non vengono acquisiti da [!DNL Analytics] se non si è verificata alcuna attività di [!DNL Target]. L’inclusione dei dati parziali nella reportistica di [!DNL Analytics] fornisce informazioni aggiuntive, ma genera anche risultati incoerenti per i dati precedenti relativi a periodi in cui non vi erano attività di [!DNL Target] in esecuzione. Questa situazione può causare problemi agli utenti di [!DNL Analytics] che analizzano le tendenze nel tempo. Al fine di garantire la coerenza dei dati in [!DNL Analytics], Adobe esclude tutti i dati parziali.
 
 ## Cosa contribuisce ai dati parziali? {#section_C9C906BEAA7D44DAB9D3C03932A2FEB8}
 
@@ -67,11 +71,11 @@ Questa modifica di elaborazione influisce sui dati solo dopo la data di rilascio
 
 Le informazioni seguenti relative a questo cambiamento includono istruzioni su come definire il segmento e applicarlo a una suite di rapporti virtuale in modo che questo segmento venga sempre applicato alle visualizzazioni di [!DNL Analytics].
 
-Nella maggior parte delle situazioni, un risultato di [!DNL Target] è vincolato a un risultato di [!DNL Analytics] su ogni pagina web. Questo vincolo si verifica se c’è un SDID coerente nella chiamata di [!DNL Target] e in quella di [!DNL Analytics] e un [!DNL Experience Cloud ID] (MCID) nella chiamata di [!DNL Analytics] sulla stessa pagina. Normalmente [!DNL Target] ha anche il MCID, ma se la chiamata a [!DNL Target] si verifica prima che l’ID del visitatore venga restituito, il risultato è ancora vincolato a causa dell’SDID. Inoltre, l’utente deve rimanere sulla pagina abbastanza a lungo per generare una chiamata [!DNL Analytics] dopo che è stata attivata una chiamata [!DNL Target]. Questo scenario è ideale.
+Nella maggior parte delle situazioni, un hit di [!DNL Target] è unito a un hit di [!DNL Analytics] per ogni pagina web. Questo vincolo si verifica se c’è un SDID coerente nella chiamata di [!DNL Target] e in quella di [!DNL Analytics] e un [!DNL Experience Cloud ID] (MCID) nella chiamata di [!DNL Analytics] sulla stessa pagina. Normalmente [!DNL Target] ha anche l’identificatore MCID, ma se la chiamata a [!DNL Target] si verifica prima che venga restituito l’ID del visitatore, l’hit risulta comunque con unione delle identità per via dell’SDID. Inoltre, l’utente deve rimanere sulla pagina abbastanza a lungo per generare una chiamata [!DNL Analytics] dopo che è stata attivata una chiamata [!DNL Target]. Questo scenario è ideale.
 
-**Risultati con dati parziali:** gli utenti a volte non rimangono su una pagina abbastanza a lungo per inviare una chiamata di [!DNL Analytics], ma [!DNL Target] ha un MCID corretto. Questo scenario comporta risultati con dati parziali (risultati senza visualizzazioni di pagina di [!DNL Analytics]). Se questi utenti tornano sul tuo sito e visualizzano una pagina che contiene codice [!DNL Analytics], vengono conteggiati correttamente come visitatori ritornati. Questi risultati verrebbero persi se sulla pagina fosse presente solo il codice [!DNL Analytics]. Alcuni clienti non desiderano i dati per questi risultati perché gonfiano determinate metriche (visite) e ne riducono altre (visualizzazioni di pagina per visita, durata per visita, ecc.). Inoltre, si vedono le visite senza alcuna visualizzazione di pagina. Tuttavia, esistono anche validi motivi per mantenere questi dati.
+**Hit con dati parziali:** gli utenti a volte non rimangono su una pagina abbastanza a lungo per inviare una chiamata di [!DNL Analytics], ma [!DNL Target] ha un MCID corretto. Questo scenario comporta hit con dati parziali (senza visualizzazioni di pagina di [!DNL Analytics]). Se questi utenti tornano sul tuo sito e visualizzano una pagina che contiene codice [!DNL Analytics], vengono conteggiati correttamente come visitatori ritornati. Questi hit verrebbero persi se sulla pagina fosse presente solo il codice [!DNL Analytics]. Alcuni clienti non desiderano i dati per questi hit perché gonfiano determinate metriche (visite) e ne riducono altre (visualizzazioni di pagina per visita, durata per visita, ecc.). Inoltre, si vedono le visite senza alcuna visualizzazione di pagina. Tuttavia, esistono anche validi motivi per mantenere questi dati.
 
-Per ridurre al minimo i risultati con dati parziali, velocizza il caricamento della pagina, aggiorna le librerie alle versioni più recenti oppure crea una [suite di rapporti virtuale](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html?lang=it) che escluda tali risultati. Per istruzioni dettagliate, consulta [Creazione di suite di rapporti virtuali](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html?lang=it) in *Guida ai componenti di Analytics*.
+Per ridurre al minimo gli hit con dati parziali, velocizza il caricamento della pagina, aggiorna le librerie alle versioni più recenti oppure crea una [suite di rapporti virtuale](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html?lang=it) che escluda tali hit. Per istruzioni dettagliate, consulta [Creazione di suite di rapporti virtuali](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html?lang=it) in *Guida ai componenti di Analytics*.
 
 Nell’illustrazione seguente viene mostrata la definizione di un segmento per la suite di rapporti virtuale:
 
@@ -79,7 +83,7 @@ Nell’illustrazione seguente viene mostrata la definizione di un segmento per l
 
 Quando si crea la suite di rapporti virtuale, specificare la seguente configurazione per la definizione del segmento (come mostrato nell&#39;illustrazione precedente):
 
-* **Mostra risultato:**
+* **Mostra hit:**
 * Analytics for Target: esiste
 * E
 * Visualizzazioni pagine: non esiste
@@ -90,10 +94,10 @@ Quando si crea la suite di rapporti virtuale, specificare la seguente configuraz
 * E
 * Istanze di collegamento di uscita: non esiste
 
-**Risultati orfani:** in poche situazioni, gli utenti non rimangono sulla pagina abbastanza a lungo per una chiamata Analytics e Target non riceve un MCID corretto. Questi risultati sono quelli che Adobe definisce hit “orfani”. Rappresentano i clienti che ritornano raramente e gonfiano il conteggio delle visite e dei visitatori.
+&lt;ph x=&quot;1&quot; type=&quot;x-LPH&quot;/Hit orfani:**in poche situazioni, gli utenti non rimangono sulla pagina abbastanza a lungo per una chiamata Analytics e Target non riceve un MCID corretto.** Questi risultati sono quelli che Adobe definisce hit “orfani”. Rappresentano i clienti che ritornano raramente e gonfiano il conteggio delle visite e dei visitatori.
 
-Per ridurre al minimo i risultati orfani, è possibile creare una [suite di rapporti virtuale](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html?lang=it) che escluda tali risultati, come spiegato in precedenza.
+Per ridurre al minimo gli hit orfani, è possibile creare una [suite di rapporti virtuale](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html?lang=it) che escluda tali hit, come spiegato in precedenza.
 
 ## Che cosa significa questo per i rapporti di [!DNL Target]? {#section_AAD354C722BE46D4875507F0FCBA5E36}
 
-Con questo cambiamento, potresti notare una diminuzione dei nuovi visitatori e delle visite ai test live perché [!DNL Adobe] non elabora i dati parziali in entrata. Le conversioni e i risultati di altre metriche [!DNL Analytics] non cambieranno.
+Con questo cambiamento, potresti notare una diminuzione dei nuovi visitatori e delle visite ai test live perché [!DNL Adobe] non elabora i dati parziali in entrata. Le conversioni e gli hit di altre metriche [!DNL Analytics] non cambieranno.

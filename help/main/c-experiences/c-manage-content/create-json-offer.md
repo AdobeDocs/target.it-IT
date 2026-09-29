@@ -4,25 +4,34 @@ description: Scopri come creare offerte JSON da utilizzare nel [!UICONTROL Compo
 title: Come si creano le offerte JSON?
 feature: Experiences and Offers
 exl-id: 793665a4-4cd6-458f-8225-ba23e503a115
-TQID: https://experienceleague.adobe.com/BI7N44iK4Ce2xOiz1vgh4O9efGZFAvK83RsL1368ItU
+TQID: 'https://experienceleague.adobe.com/BI7N44iK4Ce2xOiz1vgh4O9efGZFAvK83RsL1368ItU'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
   - id: f7c7de77-382f-4f48-8b36-61a170f06d3d
+    internal-label: Integrations
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
 subfeature_v2:
   - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+    internal-label: at.js
+  - id: ef98a6e0-f26c-4870-9bd4-e6b72e9cc699
+    internal-label: Experiences and offers
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Personalization
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 506
+source-wordcount: '506'
 ht-degree: 23%
-
 ---
-
 # Creare offerte JSON
 
 Crea offerte JSON nella [!UICONTROL Libreria di offerte] in [!DNL Adobe Target] da utilizzare nel [!UICONTROL Compositore esperienza basato su moduli].
@@ -35,7 +44,7 @@ Quando lavori con le offerte JSON, considera quanto segue:
 
 * Le offerte JSON sono attualmente disponibili solo per le attività [!UICONTROL Test A/B], [!UICONTROL Automated Personalization] (AP) e [!UICONTROL Targeting esperienza] (XT).
 * Le offerte JSON possono essere utilizzate solo in [attività basate su moduli](/help/main/c-experiences/form-experience-composer.md).
-* Le offerte JSON possono essere recuperate direttamente quando si utilizzano le [API lato server e Mobile Node.js, Java, .NET e gli SDK Python](https://experienceleague.adobe.com/it/docs/target-dev/developer/server-side/server-side-overview){target=_blank}.
+* Le offerte JSON possono essere recuperate direttamente quando si utilizzano le [API lato server e Mobile Node.js, Java, .NET e gli SDK Python](https://experienceleague.adobe.com/en/docs/target-dev/developer/server-side/server-side-overview){target=_blank}.
 * Nel browser, le offerte JSON possono essere recuperate solo tramite at.js 1.2.3 (o versione successiva) e utilizzando [getOffer()](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/adobe-target-getoffer){target=_blank} filtrando le azioni tramite l&#39;azione `setJson`.
 * Le offerte JSON vengono consegnate come oggetti JSON nativi anziché come stringhe. I consumatori di questi oggetti non devono più gestire gli oggetti come stringhe e convertirli in oggetti JSON.
 * Le offerte JSON non vengono applicate automaticamente, a differenza di altre offerte (come le offerte HTML), perché sono offerte non visive. Gli sviluppatori devono scrivere il codice per ottenere esplicitamente l&#39;offerta utilizzando [getOffer()](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/adobe-target-getoffer){target=_blank}.

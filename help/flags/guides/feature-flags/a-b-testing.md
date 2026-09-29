@@ -4,13 +4,14 @@ description: Scopri come eseguire i test A/B utilizzando i gruppi di funzioni in
 badge: label="Beta" type="Informative"
 hide: true
 exl-id: bb849049-229c-40ff-bbfe-7996f868bcc3
-source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
 source-wordcount: '392'
 ht-degree: 1%
-
 ---
-
 # Test A/B con flag di funzione {#a-b-testing}
 
 I test A/B nei flag vengono eseguiti utilizzando **gruppi di funzionalità**. Configurando più varianti in un gruppo di funzioni, puoi distribuire versioni diverse di una funzione a sottoinsiemi diversi del pubblico e confrontare i risultati.

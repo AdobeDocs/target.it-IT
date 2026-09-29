@@ -1,18 +1,25 @@
 ---
 keywords: regole di inclusione;criteri di inclusione;consigli;creazione di nuovi criteri;promozione;promozioni;filtro dinamico;dinamico;valori vuoti;ignorare regola di filtro;filtro statico;filtro per valore;corrispondenza attributo entità;corrispondenza attributo profilo;parametro corrispondente;filtro per valore;filtro statico
-description: Scopri come creare regole di inclusione in Adobe [!DNL Target] Recommendations per criteri e promozioni. Per ottenere risultati migliori, aggiungi regole di filtro più dinamiche o statiche.
+description: Scopri come creare regole di inclusione in Consigli di Adobe [!DNL Target] per criteri e promozioni. Per ottenere risultati migliori, aggiungi regole di filtro più dinamiche o statiche.
 title: Come si utilizzano le regole di inclusione dinamiche e statiche nella funzione Consigli?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=it#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."
 feature: Recommendations
 mini-toc-levels: 3
 exl-id: 49b20e75-ee55-4239-94a0-6d175e2d4811
-source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
+    internal-label: Recommendations
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '2111'
-ht-degree: 14%
-
+source-wordcount: '2112'
+ht-degree: 15%
 ---
-
 # Utilizzare regole di inclusione dinamiche e statiche
 
 Informazioni sulla creazione di regole di inclusione per criteri e promozioni in [!DNL Adobe Target] e sull&#39;aggiunta di regole di filtro dinamiche o statiche per ottenere risultati migliori per i consigli.

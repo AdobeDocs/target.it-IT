@@ -2,16 +2,23 @@
 keywords: raccolta;Targeting
 description: Scopri come utilizzare le raccolte di prodotti o elementi in [!DNL Target Recommendations].
 title: Come si utilizzano le raccolte nelle attività Consigli?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=it#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."
 feature: Recommendations
 exl-id: e62f501b-3521-4456-9ea1-e4b8a2b478c6
-source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
+    internal-label: Recommendations
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '897'
-ht-degree: 42%
-
+source-wordcount: '898'
+ht-degree: 41%
 ---
-
 # Raccolte
 
 Una raccolta è un insieme di prodotti o elementi che sono considerati idonei per essere proposti come consigli. Una raccolta viene definita specificando le condizioni che devono essere soddisfatte dagli elementi affinché ne facciano parte.
@@ -46,7 +53,7 @@ Crea una raccolta per organizzare i prodotti o i contenuti da mostrare nei consi
 
    ![Icone al passaggio del mouse: modifica, copia ed elimina](/help/main/c-recommendations/c-products/assets/hover-icons.png)
 
-   Il &quot;Numero di elementi&quot; segnalato per ogni raccolta nella visualizzazione elenco [!UICONTROL Raccolte] è il numero di prodotti che corrispondono alle regole per tale raccolta all&#39;interno del gruppo predefinito di consigli [host](/help/main/administrating-target/hosts.md) (ambiente) configurato. Consulta [Impostazioni](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=it){target=_blank} per modificare il gruppo host predefinito.
+   Il &quot;Numero di elementi&quot; segnalato per ogni raccolta nella visualizzazione elenco [!UICONTROL Raccolte] è il numero di prodotti che corrispondono alle regole per tale raccolta all&#39;interno del gruppo predefinito di consigli [host](/help/main/administrating-target/hosts.md) (ambiente) configurato. Consulta [Impostazioni](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} per modificare il gruppo host predefinito.
 
 1. Fai clic su **[!UICONTROL Crea raccolta]**.
 
@@ -109,4 +116,4 @@ Questo video contiene le seguenti informazioni:
 * Creare una raccolta
 * Creare un’esclusione
 
->[!VIDEO](https://video.tv.adobe.com/v/328804?captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/27689)

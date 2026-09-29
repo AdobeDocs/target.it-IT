@@ -4,26 +4,34 @@ description: Scopri come risolvere i problemi nel [!UICONTROL Compositore esperi
 title: Come posso risolvere i problemi relativi al [!UICONTROL Compositore esperienza visivo]?
 feature: Visual Experience Composer (VEC)
 exl-id: ca251025-25e8-4e56-9b59-81310fc763c1
-TQID: https://experienceleague.adobe.com/VNkydzzU-WRRAL0pqQPOs-sKrY8a6DS5Go764UGh0Hs
+TQID: 'https://experienceleague.adobe.com/VNkydzzU-WRRAL0pqQPOs-sKrY8a6DS5Go764UGh0Hs'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
+  - id: f7501c88-b36a-590b-9cc4-dea607bda94b
+    internal-label: Visual Experience Composer (VEC)
 subfeature_v2:
   - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+    internal-label: at.js
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Administration
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 1154
+source-wordcount: '1154'
 ht-degree: 29%
-
 ---
-
 # Risoluzione dei problemi relativi al [!UICONTROL Compositore esperienza visivo]
 
 In determinate condizioni si verificano a volte problemi di visualizzazione nel [!DNL Adobe Target] [!UICONTROL Compositore esperienza visivo].
@@ -87,16 +95,16 @@ Se né il [!UICONTROL Compositore esperienza visivo] né il [!UICONTROL Composit
    * Nome regola
    * Regole di modifica
 
-      * Passa da **[!UICONTROL Aggiungi]** a **[!UICONTROL Rimuovi]**.
-      * Passa da **[!UICONTROL Richiesta]** a **[!UICONTROL Risposta]**.
-      * Immetti “X-Frame-Options” come nome dell&#39;intestazione.
-      * Ripeti i passaggi precedenti e immetti “x-frame-options” come nome dell&#39;intestazione.
+     * Passa da **[!UICONTROL Aggiungi]** a **[!UICONTROL Rimuovi]**.
+     * Passa da **[!UICONTROL Richiesta]** a **[!UICONTROL Risposta]**.
+     * Immetti “X-Frame-Options” come nome dell&#39;intestazione.
+     * Ripeti i passaggi precedenti e immetti “x-frame-options” come nome dell&#39;intestazione.
 
-        >[!NOTE]
-        >
-        >Le intestazioni manipolate tramite [!DNL Requestly] fanno distinzione tra maiuscole e minuscole.
+       >[!NOTE]
+       >
+       >Le intestazioni manipolate tramite [!DNL Requestly] fanno distinzione tra maiuscole e minuscole.
 
-      * Cambia la condizione per l&#39;URL di origine da **[!UICONTROL È uguale a]** a **[!UICONTROL Contiene]** e immetti l&#39;URL dell&#39;attività da caricare nel Compositore esperienza visivo.
+     * Cambia la condizione per l&#39;URL di origine da **[!UICONTROL È uguale a]** a **[!UICONTROL Contiene]** e immetti l&#39;URL dell&#39;attività da caricare nel Compositore esperienza visivo.
 
      ![immagine chrome_extension](assets/chrome_extension.png)
 
@@ -140,14 +148,14 @@ Dopo aver configurato un&#39;estensione, aprire [!DNL Target]. Le pagine ora dev
 
 * Assicurati che il codice JavaScript della pagina web non interferisca con le librerie di authoring. Non utilizzare o includere file che utilizzano i seguenti nomi riservati:
 
-   * `target-vec-helper.js`
-   * `target-vec.js`
-   * `target.js`
-   * `admin.css`
-   * `sizzle.js`
-   * `mixContentCheck.html`
+  * `target-vec-helper.js`
+  * `target-vec.js`
+  * `target.js`
+  * `admin.css`
+  * `sizzle.js`
+  * `mixContentCheck.html`
 
-     Inoltre, la sostituzione accidentale di variabili o eventi definiti in questi file potrebbe causare problemi con il Compositore esperienza visivo.
+    Inoltre, la sostituzione accidentale di variabili o eventi definiti in questi file potrebbe causare problemi con il Compositore esperienza visivo.
 
 * Il browser sta bloccando una pagina non sicura su un sito sicuro.
 

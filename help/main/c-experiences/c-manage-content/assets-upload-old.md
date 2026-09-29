@@ -4,13 +4,20 @@ description: Scopri come caricare le immagini da utilizzare come offerte di imma
 title: Come si caricano i contenuti nella libreria delle offerte?
 feature: Experiences and Offers
 exl-id: c0fb26ca-4b98-4558-81c6-d84cf6841903
-source-git-commit: e8201198dc6ac36e803153d5c6b345a30716204a
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
+subfeature_v2:
+  - id: ef98a6e0-f26c-4870-9bd4-e6b72e9cc699
+    internal-label: Experiences and offers
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
 source-wordcount: '235'
 ht-degree: 17%
-
 ---
-
 # Caricare contenuto
 
 Puoi caricare immagini nell&#39;elenco [!UICONTROL Offerte immagine] in [!DNL Adobe Target] per utilizzarle come offerte immagini nelle attività. Puoi anche eliminare le offerte di immagini quando non sono più necessarie nelle attività.
@@ -39,7 +46,7 @@ Dalla [!UICONTROL Vista a elenco], fai clic sull&#39;immagine di miniatura dell&
 
 Questo video include informazioni sulla gestione del contenuto.
 
-* Connessione tra la [libreria delle risorse di Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/assets/creative-cloud.html?lang=it) e la libreria dei contenuti di Target
+* Connessione tra la [libreria delle risorse di Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/assets/creative-cloud.html) e la libreria dei contenuti di Target
 * Offerte HTML personalizzate
 * Offerta HTML personalizzata nel Compositore esperienza visivo
 

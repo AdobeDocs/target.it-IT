@@ -4,23 +4,32 @@ description: Scopri come utilizzare le attività [!UICONTROL Targeting esperienz
 title: Che cos'è un'attività [!UICONTROL Targeting esperienza] (XT)?
 feature: Experience Targeting
 exl-id: 416d8941-d4de-487f-8fd2-27806b73a63c
-TQID: https://experienceleague.adobe.com/PCTBCP2tGaNZSIAScWLR84B6an42E-2PJ1Ijm0tHrn4
+TQID: 'https://experienceleague.adobe.com/PCTBCP2tGaNZSIAScWLR84B6an42E-2PJ1Ijm0tHrn4'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: b6f5758b-84f7-4943-8b05-1297a046943c
+    internal-label: Experience target
 topic_v2:
   - id: a09a5a04-e30b-4d55-b031-38e6f5ec86db
+    internal-label: Experience design
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Personalization
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 461
+source-wordcount: '462'
 ht-degree: 38%
-
 ---
-
 # [!UICONTROL Targeting dell’esperienza] (XT)
 
 [!UICONTROL La funzione Targeting esperienza] (XT) fornisce contenuti a un pubblico specifico in base a una serie di regole e criteri definiti dall&#39;addetto al marketing.
@@ -49,4 +58,4 @@ Questo video descrive come portare il test A/B al livello successivo con [!UICON
 * Descrivi come distribuire contenuti specifici per la posizione a tipi di pubblico in diverse aree geografiche
 * Descrivi come riordinare le esperienze per garantire che il contenuto corretto venga distribuito al pubblico giusto
 
->[!VIDEO](https://video.tv.adobe.com/v/41140?captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/22418/)

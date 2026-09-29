@@ -1,17 +1,24 @@
 ---
 keywords: Consigli;offerta;anteprima;lancio;stato;criteri;algoritmo
-description: Scopri come visualizzare in anteprima la tua attività Adobe [!DNL Target] Recommendations per assicurarti che i risultati siano disponibili prima di avviare l'attività.
+description: Scopri come visualizzare in anteprima l’attività Consigli di Adobe [!DNL Target] per garantire che i risultati siano disponibili prima di avviare l’attività.
 title: Come posso visualizzare in anteprima e avviare un’attività Consigli?
 feature: Recommendations
 hide: true
 hidefromtoc: true
-source-git-commit: 1be09adbab3db2c0cf4447b8abba06ca26cf5571
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
+    internal-label: Recommendations
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '1444'
+source-wordcount: '1445'
 ht-degree: 14%
-
 ---
-
 # Anteprima e avvio di un’attività Consigli
 
 Dopo aver creato l&#39;attività [!UICONTROL Consigli], [!UICONTROL Test A/B] o [!UICONTROL Targeting esperienza] (XT) contenente [Offerte Consigli](/help/main/c-recommendations/recommendations-as-an-offer.md), è necessario visualizzare in anteprima i consigli per assicurarsi che siano disponibili i risultati prima di avviare l&#39;attività. [!DNL Target Recommendations] offre diversi modi per visualizzare in anteprima i consigli.

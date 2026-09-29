@@ -4,13 +4,14 @@ description: Scopri gli stati del ciclo di vita di una versione in Flag, compres
 badge: label="Beta" type="Informative"
 hide: true
 exl-id: c1311353-9c36-43c5-8e75-3b3ee225da41
-source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
 source-wordcount: '335'
 ht-degree: 3%
-
 ---
-
 # Stati di rilascio {#release-states}
 
 Un Release Manager può aggiornare lo stato di una versione direttamente dalla barra di navigazione della console. Lo stato controlla se la versione è live, limitata ai test, completamente implementata o chiusa.

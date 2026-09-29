@@ -4,13 +4,17 @@ description: Scopri come utilizzare il [!UICONTROL Compositore esperienza visivo
 title: Come si creano combinazioni in un [!UICONTROL test multivariato] (MVT)?
 feature: Multivariate Tests
 exl-id: 8b5883de-de76-403d-ae20-c933a8665555
-source-git-commit: 8f9c0ea65197fd639d463628e54db79db993c2da
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: b934e7cf-c07f-5a64-924b-3c9da8413e3d
+    internal-label: Multivariate Tests
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '509'
+source-wordcount: '510'
 ht-degree: 60%
-
 ---
-
 # Creare combinazioni
 
 Utilizza il [!UICONTROL Compositore esperienza visivo] (VEC) in [!DNL Adobe Target] per creare le offerte da includere nel [!UICONTROL Test multivariato] (MVT).

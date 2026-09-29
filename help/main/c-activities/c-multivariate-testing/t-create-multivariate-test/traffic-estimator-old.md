@@ -1,16 +1,20 @@
 ---
 keyword: traffic estimate;traffic estimator;estimate;traffic;confidence;statistical power;lift;bonferroni;conversion rate;visitors per day;duration
-description: Scopri come utilizzare il Calcolatore del traffico che ti consente di sapere se disponi di traffico sufficiente per il completamento dell'attività  [!DNL Adobe Target] [!UICONTROL Test multivariato].
+description: Scopri come utilizzare il Calcolatore del traffico che ti consente di sapere se disponi di traffico sufficiente per il completamento dell'attività [!DNL Adobe Target] [!UICONTROL Test multivariato].
 title: Quanto traffico è necessario per un'attività [!UICONTROL Test multivariato] (MVT)?
 feature: Multivariate Tests
 exl-id: 2b32f4a7-b9b4-40bf-a17b-88225bc88787
-source-git-commit: 8f9c0ea65197fd639d463628e54db79db993c2da
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: b934e7cf-c07f-5a64-924b-3c9da8413e3d
+    internal-label: Multivariate Tests
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '512'
+source-wordcount: '513'
 ht-degree: 51%
-
 ---
-
 # Stimare il traffico necessario per un&#39;attività [!UICONTROL Test multivariato] completata
 
 Dato che in un test multivariato vengono messe a confronto più esperienze, è importante sapere quanto traffico è necessario per generare risultati significativi. Il Calcolatore di traffico utilizza le statistiche sulla pagina e il numero di esperienze sottoposte al test per stimare la quantità di traffico e la durata del test necessarie per la sua riuscita.

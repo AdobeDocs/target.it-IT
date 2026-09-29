@@ -4,18 +4,24 @@ description: Scopri come cercare offerte di codice e immagini nella libreria [!U
 title: Come posso cercare contenuti nella libreria delle offerte?
 feature: Experiences and Offers
 exl-id: 68ff0da5-4556-493e-b6b3-7bcbba320d57
-TQID: https://experienceleague.adobe.com/xtTQAyp8W-kfGyICiennKS-122Ltte2bZr-i0o7nkYw
+TQID: 'https://experienceleague.adobe.com/xtTQAyp8W-kfGyICiennKS-122Ltte2bZr-i0o7nkYw'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
+subfeature_v2:
+  - id: ef98a6e0-f26c-4870-9bd4-e6b72e9cc699
+    internal-label: Experiences and offers
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Customer experience
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 281
+source-wordcount: '281'
 ht-degree: 0%
-
 ---
-
 # Cercare e filtrare i contenuti
 
 Cerca le risorse per parole chiave nella libreria [!UICONTROL Offerte] in [!DNL Adobe Target].
@@ -41,10 +47,10 @@ Cerca le risorse per parole chiave nella libreria [!UICONTROL Offerte] in [!DNL 
    Puoi filtrare per:
 
    * **[!UICONTROL Tipo file]**:
-      * [!UICONTROL Immagini]
-      * [!UICONTROL Documenti]
-      * [!UICONTROL File multimediali]
-      * [!UICONTROL Archivi]
+     * [!UICONTROL Immagini]
+     * [!UICONTROL Documenti]
+     * [!UICONTROL File multimediali]
+     * [!UICONTROL Archivi]
    * **[!UICONTROL Dimensione file]**: utilizzare il dispositivo di scorrimento per selezionare le dimensioni di file desiderate: [!UICONTROL Più piccolo], [!UICONTROL Piccolo], [!UICONTROL Medium], [!UICONTROL Grande] o [!UICONTROL Più grande].
    * **[!UICONTROL Ultima modifica]**: utilizza il cursore per selezionare il periodo di tempo: [!UICONTROL Recente], [!UICONTROL Ora], [!UICONTROL Giorno], [!UICONTROL Settimana], [!UICONTROL Mese], [!UICONTROL Anno] o [!UICONTROL Tutto Assets].
    * **[!UICONTROL Stato approvazione]**: [!UICONTROL Approvato] o [!UICONTROL Rifiutato]
