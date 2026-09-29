@@ -37,7 +37,7 @@ L&#39;URL attività determina la pagina utilizzata nel [!UICONTROL test multivar
 
    Le regole aggiuntive possono essere basate su uno dei seguenti elementi:
 
-   * [!UICONTROL  URL]
+   * [!UICONTROL &#x200B; URL]
    * [!UICONTROL Dominio]
    * [!UICONTROL Percorso]
    * [!UICONTROL Frammento hash (#)]

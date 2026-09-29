@@ -74,7 +74,7 @@ Per generare testo coinvolgente utilizzando [!DNL AI Assistant]:
 
    * **Tono**: il tono del testo dovrebbe risuonare con il pubblico. Sia che si desideri utilizzare un suono informativo, emozionante, giocoso o persuasivo, [!DNL AI Assistant] può adattare il messaggio di conseguenza.
 
-     Le opzioni includono: [!UICONTROL Nessuna], [!UICONTROL Professionale], [!UICONTROL Empatico], [!UICONTROL Umoristico], [!UICONTROL Eccitante], [!UICONTROL Ispirativo], [!UICONTROL Persuasivo], [!UICONTROL Amichevole], [!UICONTROL Formale], [!UICONTROL Apologetico], [!UICONTROL Assertivo], [!UICONTROL  Racconto e], [!UICONTROL Conversazione].
+     Le opzioni includono: [!UICONTROL Nessuna], [!UICONTROL Professionale], [!UICONTROL Empatico], [!UICONTROL Umoristico], [!UICONTROL Eccitante], [!UICONTROL Ispirativo], [!UICONTROL Persuasivo], [!UICONTROL Amichevole], [!UICONTROL Formale], [!UICONTROL Apologetico], [!UICONTROL Assertivo], [!UICONTROL &#x200B; Racconto e], [!UICONTROL Conversazione].
 
 1. Utilizzare il dispositivo di scorrimento per scegliere la durata desiderata per il testo, da più breve a più lungo.
 
