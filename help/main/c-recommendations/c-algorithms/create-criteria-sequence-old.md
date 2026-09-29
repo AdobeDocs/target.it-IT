@@ -102,4 +102,4 @@ Questo video contiene le seguenti informazioni:
 * Creare sequenze di criteri
 * Caricare criteri personalizzati
 
->[!VIDEO](https://video.tv.adobe.com/v/27694?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/328806?captions=ita&quality=12)

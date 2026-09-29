@@ -119,7 +119,7 @@ Questo video descrive come portare il test A/B al livello successivo con [!UICON
 * Descrivi come distribuire contenuti specifici per la posizione a tipi di pubblico in diverse aree geografiche
 * Descrivi come riordinare le esperienze per garantire che il contenuto corretto venga distribuito al pubblico giusto
 
->[!VIDEO](https://video.tv.adobe.com/v/22418/)
+>[!VIDEO](https://video.tv.adobe.com/v/41140?captions=ita)
 
 ### Tipi di attività (9:03)
 
@@ -129,7 +129,7 @@ Questo video spiega i tipi di attività disponibili in [!DNL Target]. [!UICONTRO
 * Selezionare il tipo di attività appropriato per i tuoi obiettivi
 * Descrizione del flusso di lavoro guidato in tre passaggi da applicare a tutti i tipi di attività
 
->[!VIDEO](https://video.tv.adobe.com/v/17386)
+>[!VIDEO](https://video.tv.adobe.com/v/36365?captions=ita)
 
 ### Utilizzo di [!UICONTROL Compositore esperienza visivo]
 
