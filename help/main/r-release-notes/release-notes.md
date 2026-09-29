@@ -29,16 +29,27 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 340fe2c3fadde03a6a592a16d687c483099dfd88
 workflow-type: tm+mt
-source-wordcount: '874'
-ht-degree: 32%
+source-wordcount: '914'
+ht-degree: 30%
 ---
 # Note sulla versione (corrente) di [!DNL Target]
 
 Esplora le funzioni, i miglioramenti e le correzioni più recenti in [!DNL Adobe Target]. Queste note sulla versione descrivono anche gli aggiornamenti alle API [!DNL Target], agli SDK, a [!DNL Adobe Experience Platform Web SDK], at.js e ad altri componenti della piattaforma, se applicabili.
 
 I codici dei problemi tra parentesi sono per uso interno di [!DNL Adobe].
+
+## [!DNL Target Standard/Premium] 26.9.7 (28 settembre 2026)
+
+**[!UICONTROL Funzione Consigli]**
+
++++ Vedi i dettagli
+
+* **Errore &quot;Input utente non valido&quot; nel Compositore esperienza visivo**. Durante la modifica di un’attività Consigli nel Compositore esperienza visivo, veniva visualizzato un errore di tipo &quot;Input utente non valido&quot; quando si tentava di salvare e chiudere l’attività.
+
++++
+
 
 ## [!DNL Target Standard/Premium] 26.9.6 (24 settembre 2026)
 
