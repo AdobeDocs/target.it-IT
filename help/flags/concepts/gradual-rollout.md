@@ -4,13 +4,14 @@ description: Scopri in che modo i rollout graduali nei flag consentono di inseri
 badge: label="Beta" type="Informative"
 hide: true
 exl-id: ede24236-de19-4008-893c-e67bd82e23e3
-source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
 source-wordcount: '245'
 ht-degree: 2%
-
 ---
-
 # Rollout graduale {#gradual-rollout}
 
 Il rollout graduale di una nuova funzione viene introdotto in produzione in modo incrementale, anziché essere abilitato per tutti gli utenti contemporaneamente. Questo approccio riduce i rischi, aiuta a gestire il carico di back-end e crea un ciclo di feedback stretto prima del rilascio completo.

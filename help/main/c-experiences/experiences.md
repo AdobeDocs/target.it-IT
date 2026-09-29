@@ -1,30 +1,38 @@
 ---
 keywords: esperienza;compositore esperienza visivo;compositore esperienza avanzato;compositore esperienza basato su moduli;compositore moduli;compositore visivo;compositore esperienza;contenuto misto;iframe;iframe busting;iframe bust;x-frame-options;origini incrociate;problemi di origini incrociate;flusso di lavoro di autenticazione
 description: 'Ulteriori informazioni su Compositori esperienza Adobe: Compositore esperienza visivo, Compositore esperienza basato su moduli e Compositore esperienza visivo a pagina singola.'
-title: Quali Compositori Esperienza Offre  [!DNL Target] ?
+title: Quali Compositori Esperienza Offre [!DNL Target]?
 feature: Experiences and Offers
 exl-id: 83daca9f-c154-487e-83cd-e458d50cece2
-TQID: https://experienceleague.adobe.com/M6qSdXMgnhZjKOwvH6dMI35uetwpnt7oa9GmlrMkMjw
+TQID: 'https://experienceleague.adobe.com/M6qSdXMgnhZjKOwvH6dMI35uetwpnt7oa9GmlrMkMjw'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
+subfeature_v2:
+  - id: ef98a6e0-f26c-4870-9bd4-e6b72e9cc699
+    internal-label: Experiences and offers
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Personalization
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 388
+source-wordcount: '389'
 ht-degree: 79%
-
 ---
-
 # Esperienze e offerte
 
 Un&#39;esperienza in [!DNL Adobe Target] determina quale contenuto visualizzare quando il visitatore soddisfa i criteri di pubblico per un&#39;attività.
 
-Un’esperienza può essere un’offerta, un’immagine, un testo, un pulsante, un video, una combinazione di questi vari elementi su una pagina, un’intera pagina web o un set di pagine, ad esempio un percorso di acquisto o altra sequenza logica di pagine. Può essere anche la risposta di un assistente vocale o di uno script di servizio clienti, o addirittura un gusto personalizzato da un distributore di bevande. Puoi testare o personalizzare le esperienze nelle attività di [!DNL Target].
+Un’esperienza può essere un’offerta, un’immagine, un testo, un pulsante, un video, una combinazione di questi vari elementi su una pagina, un’intera pagina web o un set di pagine, ad esempio un funnel di acquisto o altra sequenza logica di pagine. Può essere anche la risposta di un assistente vocale o di uno script di servizio clienti, o addirittura un gusto personalizzato da un distributore di bevande. Puoi testare o personalizzare le esperienze nelle attività di [!DNL Target].
 
 Un’attività contiene in genere più di un’esperienza. Ad esempio, potresti voler presentare ai visitatori provenienti dalla zona di Salt Lake City un’offerta per uno sconto di $30 su scarponi da sci, e a quelli di San Diego un’offerta sulle mute da sub. Oppure, puoi sottoporre a test una pagina con diverse offerte speciali per i visitatori di ritorno. Ognuna di queste offerte è presentata in un’esperienza separata.
 

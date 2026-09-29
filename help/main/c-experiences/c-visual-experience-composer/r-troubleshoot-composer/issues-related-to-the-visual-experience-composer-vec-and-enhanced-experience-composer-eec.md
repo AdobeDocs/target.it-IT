@@ -1,29 +1,37 @@
 ---
 keywords: Targeting;compositore esperienza visivo;whitelist;whitelist;compositore;elenco consentiti;compositore esperienza visivo avanzato;vec;risoluzione dei problemi compositore esperienza visivo;risoluzione dei problemi;eec;esperienza avanzata;tls;tls 1.2
-description: Scopri come risolvere i problemi che a volte si verificano nel  [!DNL Target] [!UICONTROL Compositore esperienza visivo] (VEC) e nel [!UICONTROL Compositore esperienza avanzato] (EEC) in determinate condizioni.
+description: Scopri come risolvere i problemi che a volte si verificano nel [!DNL Target] [!UICONTROL Compositore esperienza visivo] (VEC) e nel [!UICONTROL Compositore esperienza avanzato] (EEC) in determinate condizioni.
 title: Come posso risolvere i problemi relativi al [!UICONTROL Compositore esperienza visivo] e al [!UICONTROL Compositore esperienza avanzato]?
 feature: Visual Experience Composer (VEC)
 exl-id: d829cd63-950f-4bb4-aa58-0247f85de383
-TQID: https://experienceleague.adobe.com/4v7Qe-Yzjke-GceUSRDO2SMZGkxvrkdsSXQt8TR-bic
+TQID: 'https://experienceleague.adobe.com/4v7Qe-Yzjke-GceUSRDO2SMZGkxvrkdsSXQt8TR-bic'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
+  - id: f7501c88-b36a-590b-9cc4-dea607bda94b
+    internal-label: Visual Experience Composer (VEC)
 subfeature_v2:
   - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+    internal-label: at.js
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Personalization
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 1271
+source-wordcount: '1272'
 ht-degree: 31%
-
 ---
-
 # Risoluzione dei problemi relativi a [!DNL Adobe Target] [!UICONTROL Compositore esperienza visivo] e [!UICONTROL Compositore esperienza avanzato]
 
 In determinate condizioni si verificano problemi di visualizzazione e altri problemi nel [!DNL Target] [!UICONTROL Compositore esperienza visivo] e nel [!UICONTROL Compositore esperienza avanzato].

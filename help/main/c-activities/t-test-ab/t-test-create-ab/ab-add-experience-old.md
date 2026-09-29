@@ -1,16 +1,23 @@
 ---
 keywords: Targeting;esperienza;aggiungere un’esperienza;aggiunta esperienza
-description: Scopri come utilizzare il [!UICONTROL Compositore esperienza visivo] (VEC) in [!DNL Adobe Target].
-title: Come si aggiungono esperienze in un'attività A/B di  [!DNL Target] ?
+description: Scopri come utilizzare il [!UICONTROL Compositore esperienza visivo] in [!DNL Adobe Target].
+title: Come si aggiungono esperienze in un'attività A/B [!DNL Target]?
 feature: A/B Tests
 exl-id: c0f1b5a7-07b0-46c2-97f3-95dcc0fcbe3d
-source-git-commit: eb7e892a85fa3952ffc22172085d421756d0dfb5
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ab2570eb-4844-49aa-8334-e91a345525e5
+    internal-label: A/B Tests
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '485'
+source-wordcount: '487'
 ht-degree: 41%
-
 ---
-
 # Aggiungi esperienza
 
 Il [!DNL Adobe Target] [!UICONTROL Compositore esperienza visivo] (VEC) fornisce un&#39;interfaccia visiva per l&#39;aggiunta e la modifica delle esperienze sulla pagina.
@@ -104,4 +111,4 @@ Il video seguente fornisce informazioni sull&#39;utilizzo delle opzioni [!UICONT
 * Modificare il contenuto di una pagina
 * Modificare il layout di una pagina
 
->[!VIDEO](https://video.tv.adobe.com/v/36326?captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/17399)

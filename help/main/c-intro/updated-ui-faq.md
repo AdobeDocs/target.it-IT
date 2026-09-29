@@ -1,31 +1,43 @@
 ---
 keywords: interfaccia utente di target;interfaccia utente;domande frequenti;faq
-description: Domande e risposte sull'interfaccia utente  [!DNL Target] aggiornata.
-title: Dove posso trovare le domande frequenti sull'interfaccia utente  [!DNL Target]  aggiornata?
+description: Domande e risposte sull'interfaccia utente [!DNL Target] aggiornata.
+title: Dove posso trovare le domande frequenti sull'interfaccia utente [!DNL Target] aggiornata?
 feature: Overview
 exl-id: 75db4791-ca51-472d-99dd-583f7a74b222
-TQID: https://experienceleague.adobe.com/yMMNq7GL-lvpzJL9nw9mPm8QHmp0A0hgDK3spB1Z2r0
+TQID: 'https://experienceleague.adobe.com/yMMNq7GL-lvpzJL9nw9mPm8QHmp0A0hgDK3spB1Z2r0'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
 subfeature_v2:
   - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+    internal-label: at.js
+  - id: fc9c2184-9102-403f-bd6c-0055021e4bea
+    internal-label: Overview
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Data collection
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 2013
+source-wordcount: '2015'
 ht-degree: 1%
-
 ---
-
 # Domande frequenti sull&#39;aggiornamento dell&#39;interfaccia utente [!DNL Target]
 
 Novità del 2025, l&#39;interfaccia utente riprogettata di [!DNL Adobe Target] offre un&#39;esperienza più pulita e intuitiva per tutti gli utenti. Queste domande frequenti riguardano gli aggiornamenti chiave dell&#39;interfaccia utente [!DNL Target] e del [!UICONTROL Compositore esperienza visivo], incluse le modifiche alla navigazione, il posizionamento delle funzioni e la rimozione dell&#39;interruttore temporaneo dell&#39;interfaccia utente. Sia che siate un addetto al marketing, uno sviluppatore o un amministratore, è la vostra guida per una transizione fluida e flussi di lavoro più intelligenti.
@@ -47,8 +59,8 @@ A causa dei problemi recenti identificati, principalmente correlati a complesse 
 
 * **30 giugno 2025**: l&#39;esperienza [aggiornata [!DNL Target] interfaccia utente](/help/main/c-intro/understand-the-target-ui.md) è diventata predefinita per tutte le organizzazioni IMS che hanno attivato l&#39;interruttore della versione dell&#39;interfaccia utente.
 
-   * Per impostazione predefinita, i clienti che attualmente vedono l’interfaccia utente legacy visualizzano ora l’interfaccia utente aggiornata al momento dell’accesso.
-   * L’interruttore della versione dell’interfaccia utente rimane disponibile fino alla fine di luglio e consente agli utenti di tornare indietro se necessario.
+  * Per impostazione predefinita, i clienti che attualmente vedono l’interfaccia utente legacy visualizzano ora l’interfaccia utente aggiornata al momento dell’accesso.
+  * L’interruttore della versione dell’interfaccia utente rimane disponibile fino alla fine di luglio e consente agli utenti di tornare indietro se necessario.
 
   >[!IMPORTANT]
   >
@@ -56,8 +68,8 @@ A causa dei problemi recenti identificati, principalmente correlati a complesse 
 
 * **dal 15 luglio al 30 luglio 2025**: l&#39;attivazione/disattivazione della versione dell&#39;interfaccia utente verrà disabilitata in modo permanente in più fasi. Le organizzazioni IMS interessate non sono più in grado di ripristinare l’interfaccia utente legacy.
 
-   * Le eccezioni vengono esaminate caso per caso.
-   * I ritardi nell’attivazione/disattivazione dell’impostazione obsoleta vengono concessi solo brevemente (alcuni giorni), mentre i problemi di blocco vengono risolti.
+  * Le eccezioni vengono esaminate caso per caso.
+  * I ritardi nell’attivazione/disattivazione dell’impostazione obsoleta vengono concessi solo brevemente (alcuni giorni), mentre i problemi di blocco vengono risolti.
 
 Contatta l&#39;[Assistenza clienti Adobe](/help/main/cmp-resources-and-contact-information.md#/help/main/cmp-resources-and-contact-information.md) per qualsiasi problema o se prevedi problemi durante questa transizione.
 

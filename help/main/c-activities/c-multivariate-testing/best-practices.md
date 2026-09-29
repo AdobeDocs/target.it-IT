@@ -4,18 +4,21 @@ description: Scopri come migliorare le prestazioni, evitare problemi e corregger
 title: Quali sono le best practice per un'attività [!UICONTROL Test multivariato]?
 feature: Multivariate Tests
 exl-id: bcd15517-1b5f-4425-9404-1d7dd0689e28
-TQID: https://experienceleague.adobe.com/nQEf5GZ8-zVZakygPtMAYWk-xoJPdcycFbzCNKTqJ-k
+TQID: 'https://experienceleague.adobe.com/nQEf5GZ8-zVZakygPtMAYWk-xoJPdcycFbzCNKTqJ-k'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: b934e7cf-c07f-5a64-924b-3c9da8413e3d
+    internal-label: Multivariate Tests
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Customer experience
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 625
+source-wordcount: '625'
 ht-degree: 55%
-
 ---
-
 # [!UICONTROL Best practice per il test multivariato]
 
 Suggerimenti per migliorare le prestazioni, evitare problemi e correggere problemi noti che potrebbero verificarsi durante la creazione ed esecuzione di [!UICONTROL attività Test multivariato] (MVT) in [!DNL Adobe Target].
@@ -62,11 +65,11 @@ Suggerimenti per migliorare le prestazioni, evitare problemi e correggere proble
 
   Le azioni specifiche che reimpostano i nomi delle esperienze e i rapporti includono:
 
-   * Aggiunta di una nuova posizione
-   * Eliminazione di una posizione
-   * Aggiunta di nuove offerte o eliminazione di offerte da una posizione esistente
-   * Modifica di offerte di testo avanzate
-   * Modifica del colore di sfondo
+  * Aggiunta di una nuova posizione
+  * Eliminazione di una posizione
+  * Aggiunta di nuove offerte o eliminazione di offerte da una posizione esistente
+  * Modifica di offerte di testo avanzate
+  * Modifica del colore di sfondo
 
 * Facendo seguire un test MVT da uno o più test A/B, puoi determinare il contenuto migliore possibile per i risultati desiderati.
 

@@ -1,16 +1,23 @@
 ---
 keywords: offerta remota;matrice di selezione offerta remota;contenuto memorizzato nella cache;contenuto dinamico;tipo url
-description: Scopri come utilizzare le offerte remote in Adobe [!DNL Target] per ospitare contenuto esterno (contenuto in un CMS o in un altro sistema). Scopri perché potresti voler utilizzare le offerte remote.
+description: Scopri come utilizzare le offerte remote in Adobe [!DNL Target] per ospitare contenuti esterni (contenuti in un CMS o in un altro sistema). Scopri perché potresti voler utilizzare le offerte remote.
 title: Come si creano le offerte remote?
 feature: Experiences and Offers
 exl-id: 6a5283ee-c1fb-49f7-8e7f-c23ccde26ade
-source-git-commit: e8201198dc6ac36e803153d5c6b345a30716204a
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
+subfeature_v2:
+  - id: ef98a6e0-f26c-4870-9bd4-e6b72e9cc699
+    internal-label: Experiences and offers
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '1105'
+source-wordcount: '1106'
 ht-degree: 38%
-
 ---
-
 # Creare offerte remote
 
 Utilizza le offerte remote per l’hosting di contenuti esterni a [!DNL Adobe Target] a cui [!DNL Target] può fare riferimento per consegnarli ai siti web degli utenti. Il contenuto potrebbe trovarsi in un sistema di gestione dei contenuti (CMS) o in un altro sistema, per motivi di facilità d’uso o di sicurezza.

@@ -1,25 +1,30 @@
 ---
 keywords: varianze di dati;analytics;differenze;varianza;a4t;analytics for target;analytics come origine per la generazione di rapporti;discrepanze;discrepanza
-description: Scopri le varianze di dati previste tra Adobe [!DNL Target] e Analytics quando non utilizzi Analytics for [!DNL Target] (A4T), il che elimina completamente la varianza di dati.
+description: Scopri le varianze di dati previste tra Adobe [!DNL Target] e Analytics quando non si utilizza Analytics per [!DNL Target] (A4T), eliminando completamente la varianza di dati.
 title: Qual è la varianza dei dati prevista tra Analytics e A4T?
 feature: Analytics for Target (A4T)
 exl-id: 9e63f309-8ec1-4ed5-a1f9-6c3098a7b8f6
-TQID: https://experienceleague.adobe.com/ElzOVANCbFvKaQX5D9-gyhWTjAA1rRU1BZZj-tkpdQg
+TQID: 'https://experienceleague.adobe.com/ElzOVANCbFvKaQX5D9-gyhWTjAA1rRU1BZZj-tkpdQg'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
+  - id: 891742a5-242d-5099-966a-ca76c17cd2d2
+    internal-label: Analytics for Target (A4T)
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Customer experience
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 731
+source-wordcount: '732'
 ht-degree: 45%
-
 ---
-
 # Varianze di dati previste tra Adobe [!DNL Target] e Adobe Analytics durante l&#39;utilizzo con e senza A4T
 
 Informazioni sulle varianze di dati previste tra [!DNL Target] e Adobe [!DNL Analytics] quando vengono utilizzati *con* e *senza* Analytics come origine per la generazione di rapporti (A4T). A4T riduce in modo significativo la varianza dei dati.

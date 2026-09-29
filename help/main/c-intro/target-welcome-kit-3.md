@@ -4,25 +4,36 @@ description: Scopri i sei passaggi di un processo collaudato per migliorare le i
 title: Come posso sviluppare le mie idee di test e personalizzazione?
 feature: Overview
 exl-id: 1f1af086-70bf-43ab-80aa-36d98d8d8d8f
-TQID: https://experienceleague.adobe.com/jjs7B9nDwYBr7b6TYl2mG3f7wfO1pmgJSfV8NY5-UfU
+TQID: 'https://experienceleague.adobe.com/jjs7B9nDwYBr7b6TYl2mG3f7wfO1pmgJSfV8NY5-UfU'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
+subfeature_v2:
+  - id: fc9c2184-9102-403f-bd6c-0055021e4bea
+    internal-label: Overview
 topic_v2:
   - id: a09a5a04-e30b-4d55-b031-38e6f5ec86db
+    internal-label: Experience design
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Insights
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 723
+source-wordcount: '723'
 ht-degree: 100%
-
 ---
-
 # Capitolo 3: Sviluppare idee di test e personalizzazione
 
 Per la prima attività, puoi testare qualcosa di molto semplice come cambiare il colore o il testo di un pulsante di invito all’azione. Solo per fare un po’ di pratica. A lungo termine, tuttavia, vorrai stabilire un processo formale e ripetibile per elaborare idee per attività di test e personalizzazione che contribuiscano a maturare il tuo programma di ottimizzazione e personalizzazione. I sei passaggi seguenti delineano un processo collaudato per fare proprio questo, e sono completati da dettagli su cosa fare in ogni fase.
@@ -42,11 +53,11 @@ Ad esempio, cerca una pagina del sito con un tasso di mancato recapito elevato, 
 
 ## Passaggio 2: Stabilire le priorità
 
-Classifica e programma le attività in base all’allineamento con gli obiettivi di business, al livello di impegno e al potenziale impatto.
+Determina il ranking e programma le attività in base all’allineamento con gli obiettivi di business, al livello di impegno e al potenziale impatto.
 
 A tale scopo:
 
-* Classificare le attività potenziali in base a più criteri per aumentare le probabilità di successo e allinearsi agli obiettivi di business.
+* Ranking delle attività potenziali in base a più criteri per aumentare le probabilità di successo e allinearsi agli obiettivi di business.
 * Ricercare i risultati di precedenti esperienze sottoposte a test per determinare eventuali test di follow-up.
 * Rivedere e condividere con le parti interessate interne la tabella di marcia dei test, con relative priorità.
 

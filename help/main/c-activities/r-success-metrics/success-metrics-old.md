@@ -4,18 +4,25 @@ description: Scopri le metriche di successo in Adobe [!DNL Target] che ti aiutan
 title: Cosa Sono Le Metriche Di Successo?
 feature: Success Metrics
 exl-id: 38d5314d-4950-4106-a058-0d221faf5a24
-source-git-commit: 8f9c0ea65197fd639d463628e54db79db993c2da
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
+subfeature_v2:
+  - id: eb2bfbe8-b0f3-4cc3-ae8d-af79179585eb
+    internal-label: Success metrics
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '1278'
+source-wordcount: '1279'
 ht-degree: 41%
-
 ---
-
 # Metriche di successo
 
 In [!DNL Adobe Target] le metriche di successo sono parametri utilizzati per misurare il successo di un&#39;attività. Le metriche di successo includono misure aziendali chiave che consentono di determinare il successo di un&#39;esperienza o un&#39;offerta specifica in un&#39;attività [!DNL Target].
 
-Ad esempio, puoi determinare se una nuova offerta o l’aggiunta di un articolo al carrello può aumentare il tuo ricavo per visitatore. Le metriche di successo possono essere utili per individuare problemi a livello di registrazione, ordini o percorsi di acquisto, o anche semplicemente il livello di coinvolgimento di visitatori o clienti.
+Ad esempio, puoi determinare se una nuova offerta o l’aggiunta di un articolo al carrello può aumentare il tuo ricavo per visitatore. Le metriche di successo possono essere utili per individuare problemi a livello di registrazione, ordini o funnel di acquisto, o anche semplicemente il livello di coinvolgimento di visitatori o clienti.
 
 ## Panoramica
 

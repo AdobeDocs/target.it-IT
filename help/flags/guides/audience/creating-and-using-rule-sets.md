@@ -3,13 +3,14 @@ title: Creazione e utilizzo dei set di regole
 description: Scopri come creare un set di regole riutilizzabile di criteri contestuali per il pubblico in Flag e importarlo in flag di funzioni e gruppi di funzioni.
 badge: label="Beta" type="Informative"
 hide: true
-source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
 source-wordcount: '584'
 ht-degree: 1%
-
 ---
-
 # Creazione e utilizzo dei set di regole {#creating-and-using-rule-sets}
 
 Un set di regole è una raccolta riutilizzabile di criteri contestuali di pubblico. Crea un set di regole quando più flag di funzionalità o gruppi di funzionalità richiedono lo stesso pubblico. Puoi quindi importare il set di regole invece di ricreare i criteri di pubblico per ogni funzione.

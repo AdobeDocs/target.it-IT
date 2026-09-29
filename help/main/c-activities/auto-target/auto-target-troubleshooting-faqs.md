@@ -5,22 +5,32 @@ title: Come posso risolvere i problemi relativi alle [!UICONTROL attività Targe
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=it#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."
 feature: Auto-Target
 exl-id: 934f738e-560a-4847-9608-432ecfa2afe7
-TQID: https://experienceleague.adobe.com/LXOa1Ma0y8VbncCPN1Az33p-GDsd-bW-BDqJjSGbVQU
+TQID: 'https://experienceleague.adobe.com/LXOa1Ma0y8VbncCPN1Az33p-GDsd-bW-BDqJjSGbVQU'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: db15a02f-03cd-46fe-a53e-02064cdeadfa
+    internal-label: Auto target
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Personalization
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 1982
+source-wordcount: '1982'
 ht-degree: 30%
-
 ---
-
 # [!UICONTROL Domande frequenti sul Targeting automatico] e risoluzione dei problemi
 
 Risoluzione dei problemi e domande frequenti sulle [!UICONTROL attività Targeting automatico] in [!DNL Adobe Target].
@@ -38,7 +48,7 @@ Consulta le seguenti domande frequenti e risposte mentre lavori con [!UICONTROL 
 * Se stai testando l&#39;algoritmo di personalizzazione, non è consigliabile modificare le esperienze o aggiungere o rimuovere attributi di profilo mentre l&#39;attività è in esecuzione.
 * È consigliabile completare un&#39;attività A/B tra le offerte e le posizioni che intendi utilizzare nell&#39;attività [!UICONTROL Targeting automatico] per garantire che le posizioni e le offerte abbiano un impatto sull&#39;obiettivo di ottimizzazione. Se un&#39;attività A/B non riesce a dimostrare una differenza significativa, [!UICONTROL Targeting automatico] probabilmente non riesce a generare l&#39;incremento.
 
-  Se un test A/B non mostra differenze statisticamente significative tra le esperienze, probabilmente le offerte che stai prendendo in considerazione non sono sufficientemente diverse tra loro, le posizioni selezionate non incidono sulla metrica successo o l&#39;obiettivo di ottimizzazione è troppo lontano nell&#39;imbuto di conversione per essere influenzato dalle offerte scelte.
+  Se un test A/B non mostra differenze statisticamente significative tra le esperienze, probabilmente le offerte che stai prendendo in considerazione non sono sufficientemente diverse tra loro, le posizioni selezionate non incidono sulla metrica successo o l’obiettivo di ottimizzazione è troppo lontano nel funnel di conversione per essere influenzato dalle offerte scelte.
 
 * Cerca di non apportare modifiche sostanziali alle esperienze durante l’attività.
 

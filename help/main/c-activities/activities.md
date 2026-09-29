@@ -1,29 +1,38 @@
 ---
 keywords: elenco attività;attività;tipi di attività;modificare attività;azioni attività;attributo attività;filtro elenco attività;limitazioni attività;personalizzare;personalizzazione;elenco attività;activity list;activities types;edit activity;actions;activity attribute;activity list filter;activity limits;personalization
-description: Personalizza contenuti e progetti di pagine di prova per tipi di pubblico specifici con [!DNL Adobe Target] attività.
-title: Come posso personalizzare il contenuto e testare le progettazioni di pagine con  [!DNL Target]?
+description: Personalizzare contenuti e progettazioni di pagine di prova per tipi di pubblico specifici con [!DNL Adobe Target] attività.
+title: Come posso personalizzare contenuti e testare progettazioni di pagine con [!DNL Target]?
 feature: Activities
 exl-id: 7e61525d-b2db-44f6-a7c2-df5a8d28eca2
-TQID: https://experienceleague.adobe.com/q3-Z8r2eEWTISBkZBBJTJ8XarLi-lTa2qsqj961hhEQ
+TQID: 'https://experienceleague.adobe.com/q3-Z8r2eEWTISBkZBBJTJ8XarLi-lTa2qsqj961hhEQ'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
+  - id: 6efa6b7a-8062-5c41-aef4-b4853cc306ae
+    internal-label: Activities
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-source-git-commit: 51f1eb085a253559ccd58407f5b508e5b094b297
+    internal-label: Machine learning
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 2648
+source-wordcount: '2649'
 ht-degree: 24%
-
 ---
-
 # Panoramica sulle attività
 
 Personalizzare contenuti e progettazioni di pagine di prova per tipi di pubblico specifici con [!DNL Adobe Target] attività.

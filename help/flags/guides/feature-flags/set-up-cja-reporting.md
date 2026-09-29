@@ -4,13 +4,14 @@ description: Configura lo stream di dati, la connessione e la visualizzazione da
 badge: label="Beta" type="Informative"
 hide: true
 exl-id: 57bd1106-2b3d-4e03-882a-acfef1c0df66
-source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
 source-wordcount: '791'
 ht-degree: 4%
-
 ---
-
 # Configurare CJA per la generazione di rapporti sui flag di funzione {#set-up-cja-reporting}
 
 L’integrazione tra Flags e Adobe Customer Journey Analytics (CJA) offre un modo unificato per misurare l’impatto aziendale delle varianti dei flag di funzione. Applica le metriche di successo di CJA ai rapporti Flag in qualsiasi momento e sfrutta le funzionalità di Customer Journey Analytics, come il [pannello Sperimentazione](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-workspace/panels/experimentation), per valutare le prestazioni dell&#39;esperimento e capire in che modo le varianti di funzionalità influenzano il comportamento del cliente.

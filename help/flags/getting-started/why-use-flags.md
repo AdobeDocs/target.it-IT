@@ -4,13 +4,14 @@ description: Scopri i casi d’uso principali per i flag in Adobe Target, dal te
 badge: label="Beta" type="Informative"
 hide: true
 exl-id: c39c6b34-2024-4c38-b2f2-a9b58f5eff63
-source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
 source-wordcount: '253'
 ht-degree: 0%
-
 ---
-
 # Perché utilizzare i flag {#why-use}
 
 Flag è lo strumento giusto quando è necessario controllare chi vede una funzione e quando, sia che si stia testando in fase di sviluppo, convalidando con un sottoinsieme di utenti o coordinando una versione di grandi dimensioni tra più team.

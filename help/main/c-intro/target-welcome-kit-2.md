@@ -4,36 +4,56 @@ description: Dai uno sguardo ad alto livello ad Adobe Target. Scopri le attivit�
 title: Dove posso trovare un’introduzione ad alto livello per Target?
 feature: Overview
 exl-id: 19238d4c-b7e1-418d-96e5-c46a3769f7bf
-TQID: https://experienceleague.adobe.com/nPXW07lMjkfeUeuElqoTVYd7-JG7N7uVVZ-m9cOKE8w
+TQID: 'https://experienceleague.adobe.com/nPXW07lMjkfeUeuElqoTVYd7-JG7N7uVVZ-m9cOKE8w'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
   - id: f599e456-545c-47e5-8e50-b7dfe3579517
+    internal-label: Governance and control
   - id: f7c7de77-382f-4f48-8b36-61a170f06d3d
+    internal-label: Integrations
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
 subfeature_v2:
   - id: a94ced60-8199-4549-b453-ede2acb4101e
+    internal-label: Hybrid implementation
   - id: b06652e6-189f-46a9-90c5-677f6d9cc699
+    internal-label: Adobe Admin Console for Enterprise
   - id: df62f171-ac37-440f-8f0f-f41a72ebdd34
+    internal-label: Analytics integration
+  - id: fc9c2184-9102-403f-bd6c-0055021e4bea
+    internal-label: Overview
 topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+    internal-label: Customer engagement
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
+    internal-label: Artificial intelligence
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Machine learning
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 2606
+source-wordcount: '2606'
 ht-degree: 72%
-
 ---
-
 # Capitolo 2: Panoramica di Adobe [!DNL Target]
 
 Prima di iniziare a utilizzare [!DNL Adobe Target], potrebbe essere utile ottenere una panoramica ad alto livello della soluzione. In questo capitolo, scopri le funzionalità chiave della soluzione, i punti di contatto del brand su cui puoi utilizzarla, le opzioni di implementazione, le funzioni e i flussi di lavoro importanti dell&#39;interfaccia utente, le funzioni di governance e il suo ruolo generale in [!DNL Adobe Experience Cloud]. A meno che non siano indicati come funzionalità di [!DNL Adobe Target Premium], gli elementi descritti in questo capitolo sono disponibili sia con [!DNL Adobe Target Premium] che con [!DNL Adobe Target Standard]. Per ulteriori informazioni su Target, vedi [Introduzione a Target](/help/main/c-intro/intro.md).
@@ -85,10 +105,10 @@ In [!DNL Target] puoi creare un’attività di personalizzazione, un’attività
 
 | Tipo di elemento | Dettagli |
 | --- | --- |
-| Esperienze | Un’offerta, un’immagine, un testo, un pulsante, un video, una combinazione di questi vari elementi su una pagina, un’intera pagina web o un set di pagine, ad esempio un percorso di acquisto o altra sequenza logica di pagine. Può essere anche la risposta di un assistente vocale o di uno script di servizio clienti, o addirittura un gusto personalizzato da un distributore di bevande. Puoi testare o personalizzare le esperienze nelle attività di [!DNL Target]. [Per saperne di più](/help/main/c-experiences/experiences.md). |
+| Esperienze | Un’offerta, un’immagine, un testo, un pulsante, un video, una combinazione di questi vari elementi su una pagina, un’intera pagina web o un set di pagine, ad esempio un funnel di acquisto o altra sequenza logica di pagine. Può essere anche la risposta di un assistente vocale o di uno script di servizio clienti, o addirittura un gusto personalizzato da un distributore di bevande. Puoi testare o personalizzare le esperienze nelle attività di [!DNL Target]. [Per saperne di più](/help/main/c-experiences/experiences.md). |
 | Offerte | Un blocco di contenuto che può contenere immagini, testo, HTML, collegamenti, video, un pulsante di chiamata all’azione, una risposta dell’assistente vocale o qualsiasi altro tipo di contenuto. Un’offerta potrebbe essere per uno sconto, la spedizione gratuita e così via. Un’offerta può essere visualizzata su una pagina web, ma può anche essere sperimentata su qualsiasi punto di contatto del cliente, come un assistente vocale o una console di gioco. Quando sottoponi a test un’offerta, ne misuri il successo rispetto ad altre offerte o a nessuna offerta. [Per saperne di più](/help/main/c-experiences/c-manage-content/manage-content.md). |
 | Tipi di pubblico | Gruppo di persone con le stesse caratteristiche, ad esempio nuovi visitatori, visitatori di ritorno o visitatori provenienti da una specifica area geografica. La funzione Pubblico consente di indirizzare contenuti ed esperienze diversi a tipi di pubblico specifici per ottimizzare le attività di marketing digitale presentando al momento giusto i messaggi più appropriati ai vari visitatori. Se un visitatore viene identificato come parte di un pubblico, [!DNL Target] determina quale esperienza mostrare, in base ai criteri stabiliti durante la creazione dell’attività. [Per saperne di più](/help/main/c-target/target.md). |
-| Metriche di successo | Misure aziendali chiave che consentono di determinare il successo di un’esperienza o un’offerta specifica in un’attività [!DNL Target] Ad esempio, puoi determinare se una nuova offerta o l’aggiunta di un articolo al carrello può aumentare il tuo ricavo per visitatore. Le metriche di successo possono essere utili per individuare problemi a livello di registrazione, ordini o percorsi di acquisto, o anche semplicemente il livello di coinvolgimento di visitatori o clienti. [Per saperne di più](/help/main/c-activities/r-success-metrics/success-metrics.md). |
+| Metriche di successo | Misure aziendali chiave che consentono di determinare il successo di un’esperienza o un’offerta specifica in un’attività [!DNL Target] Ad esempio, puoi determinare se una nuova offerta o l’aggiunta di un articolo al carrello può aumentare il tuo ricavo per visitatore. Le metriche di successo possono essere utili per individuare problemi a livello di registrazione, ordini o funnel di acquisto, o anche semplicemente il livello di coinvolgimento di visitatori o clienti. [Per saperne di più](/help/main/c-activities/r-success-metrics/success-metrics.md). |
 | Rapporti | Informazioni sull’avanzamento e i risultati delle attività, utili per prendere decisioni basate sui dati. I dati dei rapporti possono aiutarti a decidere quando terminare un test, a individuare l’esperienza o l’offerta vincente e a ottenere informazioni o risultati utili per determinare le azioni successive. [Per saperne di più](/help/main/c-reports/reports.md). |
 
 ## Strumenti per la creazione di attività

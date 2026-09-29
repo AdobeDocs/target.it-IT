@@ -1,22 +1,26 @@
 ---
 keywords: reattivo;riquadri di visualizzazione mobili;riquadro di visualizzazione;dispositivi;dispositivi mobili;responsive web design;rwd
-description: I riquadri di visualizzazione mobili consentono di visualizzare in anteprima il modo in cui le attività Adobe  [!DNL Target]  si presentano su schermi di varie dimensioni. Puoi trovare un elenco delle dimensioni e risoluzioni dei riquadri di visualizzazione dei dispositivi più diffusi.
+description: I riquadri di visualizzazione mobili consentono di visualizzare l'aspetto delle attività di Adobe [!DNL Target] in Screens di varie dimensioni. Puoi trovare un elenco delle dimensioni e risoluzioni dei riquadri di visualizzazione dei dispositivi più diffusi.
 title: Come posso utilizzare i riquadri di visualizzazione mobili per esperienze reattive?
 feature: Visual Experience Composer (VEC)
 exl-id: 1062e7a1-10b4-4746-bce9-67017978578d
-TQID: https://experienceleague.adobe.com/uBJtaoaCh28mRGwc-SlK-XhU6sOIK3RaT58-ZXxSsHw
+TQID: 'https://experienceleague.adobe.com/uBJtaoaCh28mRGwc-SlK-XhU6sOIK3RaT58-ZXxSsHw'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f7501c88-b36a-590b-9cc4-dea607bda94b
+    internal-label: Visual Experience Composer (VEC)
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Administration
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 1379
-ht-degree: 93%
-
+source-wordcount: '1382'
+ht-degree: 92%
 ---
-
 # Riquadri di visualizzazione mobile per esperienze reattive
 
 I riquadri di visualizzazione mobili consentono di visualizzare in anteprima il modo in cui le attività [!DNL Adobe Target] si presentano su schermi di varie dimensioni.

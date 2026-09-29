@@ -3,13 +3,14 @@ title: Estensione dei flag per la guida all’integrazione web
 description: Scopri come integrare l’estensione Flags con Adobe Experience Platform Web SDK (Alloy) per le applicazioni web.
 badge: label="Beta" type="Informative"
 hide: true
-source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
 source-wordcount: '1184'
 ht-degree: 8%
-
 ---
-
 # Estensione flag per il web {#web-extension-integration-guide}
 
 Questa guida descrive come integrare l’estensione Flags con Adobe Experience Platform Web SDK (Alloy) per le applicazioni web. L’estensione Flags abilita la gestione dei flag di funzione e i rollout controllati per le esperienze web.

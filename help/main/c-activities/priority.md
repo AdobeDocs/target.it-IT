@@ -1,24 +1,28 @@
 ---
 keywords: impostazioni;priorità
 description: Scopri come [!DNL Adobe Target] determina in modo diverso l'attività (o le attività) da consegnare a una pagina, a seconda dell'interfaccia [!DNL Target] e della funzione di creazione attività in uso.
-title: In che modo  [!DNL Target]  assegna la priorità ad attività diverse?
+title: In che modo [!DNL Target] assegna la priorità ad attività diverse?
 feature: Activities
 exl-id: c32f1699-e564-40dd-8ff1-7c75a672c6ef
-TQID: https://experienceleague.adobe.com/KSkJ1CDkd4hgwnLQ1RKn8l8r2MDIO-6flcHcdN0c0oQ
+TQID: 'https://experienceleague.adobe.com/KSkJ1CDkd4hgwnLQ1RKn8l8r2MDIO-6flcHcdN0c0oQ'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
+  - id: 6efa6b7a-8062-5c41-aef4-b4853cc306ae
+    internal-label: Activities
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Customer experience
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 987
+source-wordcount: '991'
 ht-degree: 34%
-
 ---
-
 # Priorità
 
 [!DNL Adobe Target] determina in modo diverso l&#39;attività (o le attività) da consegnare a una pagina a seconda dell&#39;interfaccia [!DNL Target] e della funzione di creazione attività ([[!UICONTROL Compositore esperienza visivo]](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) o [Compositore esperienza basato su moduli](/help/main/c-experiences/form-experience-composer.md)) in uso.

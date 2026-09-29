@@ -1,16 +1,23 @@
 ---
 keywords: impostazioni attività;obiettivi e impostazioni A/B;impostazioni di reporting;metriche obiettivo;metriche di successo;metriche di successo dipendenti;impostazioni avanzate;obiettivo principale;metriche aggiuntive;obiettivo;priorità;durata;soluzione di reporting;obiettivo;pubblico per rapporti;Quale metrica di successo deve essere raggiunta prima di incrementare questa metrica;Cosa succede dopo che un utente ha individuato questa metrica obiettivo;note
 description: Scopri come utilizzare la pagina [!UICONTROL Obiettivi e impostazioni] per specificare informazioni sugli obiettivi di un'attività A/B.
-title: Come posso specificare obiettivi e impostazioni in un'attività A/B di  [!DNL Target] ?
+title: Come si specificano obiettivi e impostazioni in un'attività A/B [!DNL Target]?
 feature: A/B Tests
 exl-id: 6c970289-a897-46bc-a8d2-ba8c045abe12
-source-git-commit: eb7e892a85fa3952ffc22172085d421756d0dfb5
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ab2570eb-4844-49aa-8334-e91a345525e5
+    internal-label: A/B Tests
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '1411'
-ht-degree: 37%
-
+source-wordcount: '1416'
+ht-degree: 38%
 ---
-
 # Obiettivi e impostazioni
 
 Nella pagina [!UICONTROL Obiettivi e impostazioni] di [!DNL Adobe Target] è possibile specificare informazioni sugli obiettivi dell&#39;attività.
@@ -25,7 +32,7 @@ La sezione [!UICONTROL Impostazioni attività] della pagina [!UICONTROL Obiettiv
 |--- |--- |
 | [!UICONTROL Obiettivo] | Specifica una finalità facoltativa. L’obiettivo può essere qualsiasi informazione che aiuti te e i membri del tuo team a identificare l’attività. |
 | [!UICONTROL Priorità] | A seconda delle impostazioni, l&#39;interfaccia utente di [!DNL Target] e le opzioni per [!UICONTROL Priorità] variano. Puoi utilizzare le impostazioni legacy di [!UICONTROL Bassa], [!UICONTROL Medium] o [!UICONTROL Alta] oppure abilitare le priorità precise da 0 a 999.<P>La priorità è utilizzata se più attività vengono assegnate alla stessa posizione con lo stesso pubblico. Se due o più attività vengono assegnate alla posizione, viene visualizzata l’attività con priorità maggiore.<P>Se questa opzione non è abilitata in [!UICONTROL Amministrazione] (impostazione predefinita), specificare una priorità: [!UICONTROL Bassa], [!UICONTROL Medium] o [!UICONTROL Alta].<P>Per abilitare [le priorità precise](/help/main/administrating-target/reporting.md), fai clic su [!UICONTROL Amministrazione] > [!UICONTROL Generazione rapporti], quindi attiva l&#39;opzione [!UICONTROL Abilita priorità precise]. <P>Se questa opzione è abilitata, specifica un valore compreso tra 0 e 999: 0 = [!UICONTROL Bassa] e 999 = [!UICONTROL Alta]. <P>Per le attività create con le versioni precedenti di [!DNL Target], la priorità [!UICONTROL Bassa] viene convertita in 0, [!UICONTROL Medium] in 5 e la priorità [!UICONTROL Alta] in 10. Se necessario, è possibile modificare questi valori.<P>Nota: prima di poter disabilitare questa opzione dopo aver utilizzato le priorità precise, tutte le priorità devono essere impostate su 0, 5 o 10. |
-| Durata | L’attività può iniziare dopo l’approvazione, oppure è possibile impostare una data e un’ora specifiche. Analogamente, l’attività può terminare quando viene disattivata, oppure è possibile impostare una data e un’ora specifiche. Il selettore dell&#39;ora utilizza un orologio di 24 ore, dove 00:00 corrisponde a mezzanotte. Il fuso orario è impostato sul fuso configurato nel browser. Per utilizzare un fuso orario diverso, imposta il browser su un altro fuso orario e riavvia il browser. |
+| Durata | L’attività può iniziare dopo l’approvazione, oppure è possibile impostare una data e un’ora specifiche. Analogamente, l’attività può terminare quando viene disattivata, oppure è possibile impostare una data e un’ora specifiche. Il selettore dell’ora è nel formato 24 ore e la mezzanotte è indicata come 00:00. Il fuso orario è impostato sul fuso configurato nel browser. Per utilizzare un fuso orario diverso, imposta il browser su un altro fuso orario e riavvia il browser. |
 
 ## [!UICONTROL Impostazioni reporting] {#section_13119392051044FBA6387D9B3B1C43CF}
 
@@ -82,7 +89,7 @@ Questo video include informazioni sulle impostazioni delle attività.
 
 ### Creazione di test A/B (8:36) ![Icona esercitazione](/help/main/assets/tutorial.png)
 
-Questo video mostra le impostazioni di attività nel flusso di lavoro guidato in tre passaggi durante la creazione di un’attività. Obiettivi e impostazioni sono discussi a partire dal 5:30.
+Questo video mostra le impostazioni di attività nel flusso di lavoro guidato in tre passaggi durante la creazione di un’attività. Obiettivi e impostazioni sono trattati a partire dal minuto 5:30.
 
 * Creare un’attività A/B in Adobe Target
 * Allocare il traffico con suddivisione manuale o automatica del traffico

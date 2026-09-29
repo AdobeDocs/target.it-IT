@@ -4,27 +4,36 @@ description: Scopri perché alcuni siti web potrebbero non essere aperti in modo
 title: Come si utilizza l'estensione [!UICONTROL Helper per editing video]?
 feature: Visual Experience Composer (VEC)
 exl-id: e5aeb8b9-fab5-4ad4-882e-2106d2c9daab
-TQID: https://experienceleague.adobe.com/wUWUT-FvVIAo52PDaBMfmT7vxv8VOR71hSGhxFvylus
+TQID: 'https://experienceleague.adobe.com/wUWUT-FvVIAo52PDaBMfmT7vxv8VOR71hSGhxFvylus'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
+  - id: f7501c88-b36a-590b-9cc4-dea607bda94b
+    internal-label: Visual Experience Composer (VEC)
 subfeature_v2:
   - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+    internal-label: at.js
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
+    internal-label: Web experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Administration
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 837
+source-wordcount: '837'
 ht-degree: 52%
-
 ---
-
 # Estensione [!UICONTROL Helper per editing video]
 
 L&#39;estensione del browser [!DNL Adobe Experience Cloud] [!UICONTROL Helper per editing video] per [!DNL Google Chrome] consente di caricare i siti Web in modo affidabile all&#39;interno del [!UICONTROL Adobe Target] [!UICONTROL Compositore esperienza visivo] (VEC) per creare e verificare rapidamente le esperienze Web.
@@ -80,8 +89,8 @@ L&#39;estensione del browser [!DNL Adobe Experience Cloud] [!UICONTROL Helper pe
 * Quando utilizzi l’estensione per inserire at.js durante la [modalità Controllo qualità](/help/main/c-activities/c-activity-qa/activity-qa.md), apri un’altra scheda di Chrome. Questa scheda di Chrome deve essere autenticata nella stessa organizzazione di [!DNL Adobe Experience Cloud] in cui è stata creata l’attività.
 * I messaggi seguenti ti mantengono informato:
 
-   * Se il caricamento di un sito Web utilizzando il Compositore esperienza visivo non riesce, viene visualizzato un messaggio per suggerirti di installare l&#39;estensione del browser [!UICONTROL Helper per editing video].
-   * Se at.js o alloy.js non è ancora implementato sul sito web, nel Compositore esperienza visivo viene visualizzato un messaggio per suggerirti di installare l’estensione.
+  * Se il caricamento di un sito Web utilizzando il Compositore esperienza visivo non riesce, viene visualizzato un messaggio per suggerirti di installare l&#39;estensione del browser [!UICONTROL Helper per editing video].
+  * Se at.js o alloy.js non è ancora implementato sul sito web, nel Compositore esperienza visivo viene visualizzato un messaggio per suggerirti di installare l’estensione.
 * Se provi a utilizzare la nuova estensione e poi torni all’[estensione precedente](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) e [!DNL Target] non riesci a caricare il sito web, cancella tutti i dati del browser e disabilita la nuova estensione.
 
 ## Domande frequenti

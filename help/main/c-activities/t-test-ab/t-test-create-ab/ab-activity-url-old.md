@@ -1,16 +1,23 @@
 ---
 keywords: url attività;url;url diverso
-description: Scopri come specificare l'URL attività che determina la pagina utilizzata nel test e che viene visualizzata quando il test è progettato utilizzando  [!DNL Adobe Target].
+description: Scopri come specificare l'URL attività che determina la pagina utilizzata nel test e che viene visualizzata quando il test viene progettato utilizzando [!DNL Adobe Target].
 title: Qual è l’URL attività in un’attività A/B?
 feature: A/B Tests
 exl-id: 7482ae10-fb7e-42ba-9ea0-97b82ed85bff
-source-git-commit: eb7e892a85fa3952ffc22172085d421756d0dfb5
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ab2570eb-4844-49aa-8334-e91a345525e5
+    internal-label: A/B Tests
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
 source-wordcount: '316'
 ht-degree: 55%
-
 ---
-
 # URL attività
 
 L’URL attività determina la pagina utilizzata nel test e che viene visualizzata quando il test viene progettato utilizzando Adobe Target.

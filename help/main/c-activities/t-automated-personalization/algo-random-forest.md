@@ -1,23 +1,30 @@
 ---
 keywords: foresta casuale;albero decisionale;ap;Automated Personalization
 description: Scopri come [!DNL Adobe Target] utilizza l'algoritmo Foresta casuale nelle attività [!UICONTROL Automated Personalization] (AP) e [!UICONTROL Targeting automatico].
-title: In che modo  [!DNL Target]  utilizza l'algoritmo Foresta casuale?
+title: In che modo [!DNL Target] utilizza l'algoritmo Foresta casuale?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=it#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."
 feature: Automated Personalization
 exl-id: 07a89525-4071-4434-ac96-c59a4f4422ad
-TQID: https://experienceleague.adobe.com/Ui8E8CkiiJSdqim9fzIgPDdsKG1MMtuu3EUuAqgmm0M
+TQID: 'https://experienceleague.adobe.com/Ui8E8CkiiJSdqim9fzIgPDdsKG1MMtuu3EUuAqgmm0M'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: f0055dd2-93f3-4ac8-9abc-d69d4ed2d977
+    internal-label: Automated personalization
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Personalization
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 1458
+source-wordcount: '1460'
 ht-degree: 40%
-
 ---
-
 # Algoritmo Foresta casuale
 
 L&#39;algoritmo di personalizzazione principale utilizzato in entrambe le attività (AP) e [!DNL Auto-Target] è Foresta casuale. I metodi di raggruppamento, come Foresta casuale, utilizzano più algoritmi di apprendimento per ottenere prestazioni predittive migliori rispetto a quelle ottenibili da uno qualsiasi degli algoritmi di apprendimento costituenti. L&#39;algoritmo Foresta casuale in [!UICONTROL Automated Personalization] e [!UICONTROL Targeting automatico] è un metodo di classificazione o regressione che funziona costruendo una moltitudine di alberi decisionali quando viene addestrato.

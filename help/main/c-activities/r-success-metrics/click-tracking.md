@@ -1,25 +1,33 @@
 ---
 keywords: Tracciamento clic;tracciamento dei clic;clic;AppMeasurement
-description: Scopri come  [!DNL Adobe Target]  consente di tenere traccia dei clic su qualsiasi elemento come metrica di successo.
+description: Scopri come [!DNL Adobe Target] consente di tenere traccia dei clic su qualsiasi elemento come metrica di successo.
 title: Cos’è il tracciamento dei clic?
 feature: Success Metrics
 exl-id: 9181424b-179e-49fc-b760-b764a0c3458a
-TQID: https://experienceleague.adobe.com/Nk1MANDrtYMHmUQfcJi-gT-HoW1j--sikurxSloM2LU
+TQID: 'https://experienceleague.adobe.com/Nk1MANDrtYMHmUQfcJi-gT-HoW1j--sikurxSloM2LU'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
+subfeature_v2:
+  - id: eb2bfbe8-b0f3-4cc3-ae8d-af79179585eb
+    internal-label: Success metrics
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 69d580451d5d25ec6642fd2035a5537c9096541c
+    internal-label: Personalization
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 942
-ht-degree: 73%
-
+source-wordcount: '943'
+ht-degree: 72%
 ---
-
 # Tracciamento dei clic
 
 [!DNL Adobe Target] consente di tenere traccia dei clic su qualsiasi elemento come metrica di successo. Il tracciamento dei clic si riferisce al processo di monitoraggio e registrazione delle interazioni dell’utente, in particolare dei clic, sugli elementi all’interno di una pagina web o esperienza. Si tratta di un elemento chiave per misurare il coinvolgimento e le prestazioni in test A/B, test multivariati e attività di personalizzazione.
@@ -92,14 +100,14 @@ Ci sono diversi fattori da considerare quando si selezionano gli elementi:
 
   I seguenti passaggi vengono eseguiti da [!DNL at.js] quando l’evento di tracciamento dei clic è associato un tag `A` (collegamento) o a un tag `FORM`:
 
-   1. Invocare `event.preventDefault()`.
+  1. Invocare `event.preventDefault()`.
 
-   1. Attivare la richiesta di [!DNL Target].
+  1. Attivare la richiesta di [!DNL Target].
 
-   1. Quando la richiesta di [!DNL Target] genera un callback di esito positivo o errore, eseguire il comportamento predefinito:
+  1. Quando la richiesta di [!DNL Target] genera un callback di esito positivo o errore, eseguire il comportamento predefinito:
 
-      * Tag (collegamento)`A`: il comportamento predefinito consiste nel passare all&#39;URL definito dall&#39;attributo href.
-      * Tag `FORM`: il comportamento predefinito consiste nell’inviare il modulo.
+     * Tag (collegamento)`A`: il comportamento predefinito consiste nel passare all&#39;URL definito dall&#39;attributo href.
+     * Tag `FORM`: il comportamento predefinito consiste nell’inviare il modulo.
 
   Questo comportamento predefinito potrebbe interferire con il tracciamento dei clic di [!DNL Analytics]. Se si utilizza [!DNL Analytics], per il tracciamento dei clic è necessario appoggiarsi ad [!DNL Analytics] anziché a [!DNL Target].
 

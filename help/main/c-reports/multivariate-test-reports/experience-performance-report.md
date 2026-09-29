@@ -1,23 +1,28 @@
 ---
 keywords: test multivariato;MVT;rapporto prestazioni esperienza
-description: Scopri come utilizzare il rapporto Prestazioni esperienza per le attività Targeting esperienza di Adobe [!DNL Target] che mostrano le prestazioni di ogni esperienza nell'attività.
+description: Scopri come utilizzare il rapporto Prestazioni esperienza per le attività Targeting esperienza di Adobe [!DNL Target] che mostrano le prestazioni di ogni esperienza nell’attività.
 title: Come si utilizza il rapporto Prestazioni esperienza per i test multivariati?
 feature: Reports
 exl-id: 83ca691c-4392-42f5-9251-f374bf28cc4b
-TQID: https://experienceleague.adobe.com/H9FsCRlv9l2tdooTn2KWjTRP84XR6lthSJZd59KtBbg
+TQID: 'https://experienceleague.adobe.com/H9FsCRlv9l2tdooTn2KWjTRP84XR6lthSJZd59KtBbg'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: e8a43148-398f-56c7-9433-6564f96999c2
+    internal-label: Reports
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Insights
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 331
-ht-degree: 71%
-
+source-wordcount: '333'
+ht-degree: 74%
 ---
-
 # [!UICONTROL Rapporto Prestazioni Esperienza] (MVT)
 
 Il report [!UICONTROL Prestazioni esperienza] mostra le prestazioni di ogni esperienza nell&#39;attività. Questo rapporto include informazioni sul numero di partecipanti, il tasso di conversione, l’incremento e l’affidabilità.
@@ -42,6 +47,6 @@ Sotto il grafico, una tabella mostra il numero di partecipanti che hanno visuali
 
 ## Video di formazione: crea un test MVT ![Icona esercitazione](/help/main/assets/tutorial.png)
 
-In questo video viene illustrato come creare un test multivariato utilizzando il flusso di lavoro guidato in tre passaggi di Target. Il rapporto Prestazioni esperienza è descritto a partire dall&#39;8:20.
+In questo video viene illustrato come creare un test multivariato utilizzando il flusso di lavoro guidato in tre passaggi di Target. Il rapporto Prestazioni esperienza è descritto a partire dal minuto 8:20.
 
 >[!VIDEO](https://video.tv.adobe.com/v/36329?captions=ita)

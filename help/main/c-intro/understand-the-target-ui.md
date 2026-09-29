@@ -1,27 +1,37 @@
 ---
 keywords: interfaccia utente target;interfaccia utente;ui;annunci;eventi;notifiche
-description: Acquisisci familiarità con l'interfaccia utente e trova collegamenti a informazioni più approfondite per trarre il massimo da  [!DNL Target].
-title: Come si utilizza l’interfaccia di [!DNL Target] ?
+description: Acquisisci familiarità con l'interfaccia utente e trova collegamenti a informazioni più approfondite per ottenere il massimo da [!DNL Target].
+title: Come si utilizza l'interfaccia utente di [!DNL Target]?
 feature: Overview
 exl-id: ce4c72b2-b635-406b-9830-650816445a64
-TQID: https://experienceleague.adobe.com/oO4N94r8-ZP3Et-P0b-31zl3apkEhqlJLJUUOQmFGAg
+TQID: 'https://experienceleague.adobe.com/oO4N94r8-ZP3Et-P0b-31zl3apkEhqlJLJUUOQmFGAg'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
+subfeature_v2:
+  - id: fc9c2184-9102-403f-bd6c-0055021e4bea
+    internal-label: Overview
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Administration
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 1442
+source-wordcount: '1443'
 ht-degree: 23%
-
 ---
-
 # Interfaccia utente di [!DNL Target]
 
 L’interfaccia utente è strutturata in un formato logico e intuitivo per trarre il massimo da [!DNL Adobe Target]. La seguente breve panoramica consente di acquisire familiarità con [!DNL Target] e fornisce collegamenti per ottenere informazioni più approfondite e istruzioni dettagliate.
@@ -92,9 +102,9 @@ Le notifiche di [!DNL Target] eventi includono:
 
   Le notifiche sono formattate come i seguenti esempi:
 
-   * `Activity {target.activity.name} has been activated`
+  * `Activity {target.activity.name} has been activated`
 
-   * `Activity {target.activity.name} has been deactivated`
+  * `Activity {target.activity.name} has been deactivated`
 
 * **Script di profilo**: notifiche quando uno script di profilo viene attivato o disattivato, manualmente o da [!DNL Target].
 
@@ -102,8 +112,8 @@ Le notifiche di [!DNL Target] eventi includono:
 
   Le notifiche sono formattate come i seguenti esempi:
 
-   * `Profile Script {target.profileScript.name} has been activated`
-   * `Profile Script {target.profileScript.name} has been deactivated`
+  * `Profile Script {target.profileScript.name} has been activated`
+  * `Profile Script {target.profileScript.name} has been deactivated`
 
 * **Feed consigli**: notifiche quando un feed [!DNL Recommendations] viene attivato o disattivato, manualmente o da [!DNL Target]. Le notifiche vengono inviate anche quando un feed [!DNL Recommendations] non riesce.
 
@@ -111,10 +121,10 @@ Le notifiche di [!DNL Target] eventi includono:
 
   Le notifiche sono formattate come i seguenti esempi:
 
-   * `Feed  {target.feed.name} has been activated`
-   * `Feed {target.feed.name} has been deactivated`
-   * `Feed {target.feed.name} has failed`
-   * `Feed {target.feed.name} has failed to import from source`
+  * `Feed  {target.feed.name} has been activated`
+  * `Feed {target.feed.name} has been deactivated`
+  * `Feed {target.feed.name} has failed`
+  * `Feed {target.feed.name} has failed to import from source`
 
 Per contrassegnare le singole notifiche come lette, passa il puntatore del mouse sulla notifica desiderata e fai clic sull&#39;icona [!UICONTROL Contrassegna come lette] ( ![Contrassegna come lette](/help/main/assets/icons/CheckmarkCircle.svg) ). Puoi contrassegnare tutte le notifiche come lette o visualizzare tutte le notifiche facendo clic su [!UICONTROL Segna come lette] o [!UICONTROL Visualizza tutte] nella parte inferiore del pannello.
 
@@ -188,7 +198,7 @@ Consulta [Crea tipi di pubblico](/help/main/c-target/c-audiences/create-audience
 
 Fai clic sulla scheda **[!UICONTROL Offerte]** per visualizzare l&#39;elenco [!UICONTROL Offerte] in cui puoi creare esperienze e offerte e gestire quelle esistenti.
 
-Un’esperienza può essere un’offerta, un’immagine, un testo, un pulsante, un video, una combinazione di questi vari elementi su una pagina, un’intera pagina web o un set di pagine, ad esempio un percorso di acquisto o altra sequenza logica di pagine. Può essere anche la risposta di un assistente vocale o di uno script di servizio clienti, o addirittura un gusto personalizzato da un distributore di bevande. Puoi testare o personalizzare le esperienze nelle attività di [!DNL Target].
+Un’esperienza può essere un’offerta, un’immagine, un testo, un pulsante, un video, una combinazione di questi vari elementi su una pagina, un’intera pagina web o un set di pagine, ad esempio un funnel di acquisto o altra sequenza logica di pagine. Può essere anche la risposta di un assistente vocale o di uno script di servizio clienti, o addirittura un gusto personalizzato da un distributore di bevande. Puoi testare o personalizzare le esperienze nelle attività di [!DNL Target].
 
 Consulta [Offerte](/help/main/c-experiences/c-manage-content/manage-content.md) per informazioni approfondite sui tipi di offerta in [!DNL Target] e per ulteriori informazioni sull&#39;interfaccia utente dell&#39;elenco [!UICONTROL Offerte].
 

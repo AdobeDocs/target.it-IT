@@ -1,30 +1,38 @@
 ---
 keywords: scene7;dynamic media classic;gestione risorse digitali;digital asset management;risorse;assets;dam;libreria contenuti;cambiare immagine
-description: Scopri come integrare Adobe  [!DNL Target]  con Adobe Dynamic Media Classic (precedentemente Scene7) per il Digital Asset Management (DAM) nella Libreria contenuti.
+description: Scopri come integrare Adobe [!DNL Target] con Adobe Dynamic Media Classic (precedentemente Scene7) per il Digital Asset Management (DAM) nella libreria dei contenuti.
 title: Come si configura l’integrazione Dynamic Media Classic (Scene7)?
 feature: Administration & Configuration
 role: Admin
 exl-id: 315670ca-a4d1-4808-b3ec-f2ac195c281a
-TQID: https://experienceleague.adobe.com/LKbjwlGIxrgaU-2i6Ddn1wi-VjsSmpQPAxYkFHRNOYQ
+TQID: 'https://experienceleague.adobe.com/LKbjwlGIxrgaU-2i6Ddn1wi-VjsSmpQPAxYkFHRNOYQ'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: da3860b0-d637-47df-bef0-273751180266
+    internal-label: Digital asset management
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Administration
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 402
-ht-degree: 83%
-
+source-wordcount: '403'
+ht-degree: 78%
 ---
-
 # Configurazione di Dynamic Media Classic (precedentemente Scene7)
 
 [!DNL Adobe Target] può essere integrato con [!DNL Adobe Dynamic Media Classic] (precedentemente [!DNL Scene7]) per fornire Digital Asset Management (DAM) nella [!UICONTROL Libreria contenuti].

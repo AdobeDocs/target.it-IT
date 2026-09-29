@@ -4,23 +4,32 @@ description: Scopri come utilizzare la pagina [!UICONTROL Obiettivi e impostazio
 title: Come posso specificare [!UICONTROL Obiettivi e impostazioni] in un'attività [!UICONTROL Targeting esperienza]?
 feature: Experience Targeting
 exl-id: 80cb7eff-4e9c-43d7-a3d8-7a9de79c91b9
-TQID: https://experienceleague.adobe.com/vlpJSJ4Z6mxQI-D8UyUPEXHVWKfR54l89uoxULd2oD0
+TQID: 'https://experienceleague.adobe.com/vlpJSJ4Z6mxQI-D8UyUPEXHVWKfR54l89uoxULd2oD0'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: b6f5758b-84f7-4943-8b05-1297a046943c
+    internal-label: Experience target
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Administration
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 1285
-ht-degree: 41%
-
+source-wordcount: '1288'
+ht-degree: 42%
 ---
-
 # Obiettivi e impostazioni nelle [!UICONTROL attività Targeting esperienza] (XT)
 
 Nella pagina [!UICONTROL Obiettivi e impostazioni] è possibile immettere informazioni sugli obiettivi del test:
@@ -33,7 +42,7 @@ Le impostazioni disponibili dipendono dall&#39;utilizzo di [!DNL Target] o [!DNL
 
 ## [!UICONTROL Impostazioni attività] {#section_DCBDC354261F420EBD4B43EA34947BAC}
 
-Sono disponibili le seguenti impostazioni:
+Sono disponibili le seguenti opzioni:
 
 ### [!UICONTROL Obiettivo]
 
@@ -62,11 +71,11 @@ Per le attività create con le versioni precedenti di [!DNL Target], la priorit�
 
 ### [!UICONTROL Durata]
 
-L’attività può iniziare dopo l’approvazione, oppure è possibile impostare una data e un’ora specifiche. Allo stesso modo, l’attività può terminare quando viene disattivata oppure puoi impostare una data e un’ora di fine. Il selettore dell&#39;ora utilizza un orologio di 24 ore, dove 00:00 corrisponde a mezzanotte. Il fuso orario è impostato sul fuso configurato nel browser. Per utilizzare un fuso orario diverso, imposta il browser su un altro fuso orario e riavvia il browser.
+L’attività può iniziare dopo l’approvazione, oppure è possibile impostare una data e un’ora specifiche. Allo stesso modo, l’attività può terminare quando viene disattivata oppure puoi impostare una data e un’ora di fine. Il selettore dell’ora è nel formato 24 ore e la mezzanotte è indicata come 00:00. Il fuso orario è impostato sul fuso configurato nel browser. Per utilizzare un fuso orario diverso, imposta il browser su un altro fuso orario e riavvia il browser.
 
 ## [!UICONTROL Impostazioni reporting] {#section_13119392051044FBA6387D9B3B1C43CF}
 
-Sono disponibili le seguenti impostazioni:
+Sono disponibili le seguenti opzioni:
 
 ### [!UICONTROL Reporting di Source]
 
@@ -130,7 +139,7 @@ Le impostazioni avanzate sono disponibili per [!UICONTROL Metriche obiettivo di 
 >
 >Se utilizzi [!DNL Analytics] come origine per la generazione dei rapporti, le impostazioni vengono gestite dal server [!DNL Analytics]. Opzione [!UICONTROL Impostazioni avanzate] non disponibile.
 
-Sono disponibili le seguenti impostazioni:
+Sono disponibili le seguenti opzioni:
 
 ### [!UICONTROL Quale metrica di successo deve essere raggiunta prima di incrementare questa metrica?]
 

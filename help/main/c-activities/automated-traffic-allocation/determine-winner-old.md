@@ -1,16 +1,23 @@
 ---
 keywords: allocazione automatica del traffico;targeting;vincitore;garanzia statistica;affidabilità;determinare vincitore;incremento;affidabilità;impostazione predefinita;esperienza predefinita;allocazione automatica;allocazione automatica
-description: Scopri come interpretare i risultati di un'attività A/B [!UICONTROL Allocazione automatica] in Adobe [!DNL Target] esaminando indicatori importanti, inclusi incremento e affidabilità.
+description: Scopri come interpretare i risultati di un'attività A/B di [!UICONTROL Allocazione automatica] in Adobe [!DNL Target] esaminando indicatori importanti, inclusi incremento e affidabilità.
 title: Come posso interpretare [!UICONTROL i report Allocazione automatica]?
 feature: Auto-Allocate
 exl-id: 4ed00eee-8939-4958-9be6-b45a8c08afbc
-source-git-commit: 32a91a41cd182d3a55ded7dea8c1c6ea6f46aa71
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: f2d0aafb-18af-41a0-a32e-2788eafacc2b
+    internal-label: Auto-allocate
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '1257'
+source-wordcount: '1258'
 ht-degree: 22%
-
 ---
-
 # Interpretare i rapporti di allocazione automatica
 
 Interpretare i risultati di un&#39;attività A/B di [!UICONTROL Allocazione automatica] in [!UICONTROL Adobe Target] esaminando indicatori importanti, inclusi incremento e affidabilità.

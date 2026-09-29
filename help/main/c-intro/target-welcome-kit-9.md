@@ -4,26 +4,36 @@ description: Hai creato la tua prima attività in Adobe Target. Cosa succede ora
 title: Dove posso trovare risorse aggiuntive per utilizzare più efficacemente Target?
 feature: Overview
 exl-id: 76bd62e6-07fa-40b9-9d81-529a825500fb
-TQID: https://experienceleague.adobe.com/gnPAfU7eUX1v-Ku2KYzbn4l1SNqdLLtwcnpbVbiyrQM
+TQID: 'https://experienceleague.adobe.com/gnPAfU7eUX1v-Ku2KYzbn4l1SNqdLLtwcnpbVbiyrQM'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
 subfeature_v2:
   - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+    internal-label: at.js
+  - id: fc9c2184-9102-403f-bd6c-0055021e4bea
+    internal-label: Overview
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Personalization
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 701
+source-wordcount: '701'
 ht-degree: 79%
-
 ---
-
 # Capitolo 9: passaggi successivi e risorse
 
 Abbiamo trattato le nozioni di base sull’esecuzione della tua prima attività. Ci auguriamo che l’attività abbia mostrato a te e alla tua azienda l’incredibile potenziale di influenza sui profitti aziendali dell’utilizzo di [!DNL Adobe Target] per ottimizzare e personalizzare. Questo è solo un inizio. È ora di pensare a cosa concentrarti per la seconda attività? Prendi in considerazione la creazione di un elenco con priorità delle attività da eseguire. Sarai sorpreso di quanto rapidamente, attività dopo attività, riesci a migliorare l’esperienza del cliente e promuovere il successo aziendale.
@@ -48,8 +58,8 @@ Abbiamo compilato un elenco organizzato di informazioni importanti per consentir
 * **Serie di webinar**: nozioni di base su Adobe Target. Iscriviti alla serie di webinar Customer Success per approfondire le nozioni di base sull’ottimizzazione, tramite le testimonianze di altri utenti Adobe Target. Guarda la [serie di webinar sui concetti di base di Target](/help/main/cmp-resources-and-contact-information.md#concept_11902FAC95C64479AABE020557A7EEE4).
 * **Adobe Customer Care Office Hours**: “Office Hours” è un’iniziativa gestita dal team di assistenza clienti Adobe. Queste sessioni sono progettate per informare e aiutare i partecipanti a risolvere problemi e fornire suggerimenti e trucchi utili per le soluzioni [!DNL Adobe Experience Cloud], tra cui [!DNL Target]. Visita [Adobe Customer Care Office Hours](/help/main/cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7).
 * **Adobe Summit**: partecipa al più grande evento professionale dell’anno per gli esperti di marketing digitale.
-   * [Adobe Summit](https://summit.adobe.com/na/) (Nord America)
-   * [Adobe Summit](https://summit-emea.adobe.com/emea/) (EMEA)
+  * [Adobe Summit](https://summit.adobe.com/na/) (Nord America)
+  * [Adobe Summit](https://summit-emea.adobe.com/emea/) (EMEA)
 
 ## Risorse aggiuntive
 

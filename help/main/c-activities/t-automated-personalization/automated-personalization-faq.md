@@ -5,25 +5,36 @@ title: Come posso trovare le domande frequenti sulle [!UICONTROL attività Autom
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=it#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."
 feature: Automated Personalization
 exl-id: 2bf62cc1-1781-4021-a400-2884e0bae893
-TQID: https://experienceleague.adobe.com/cYdFwvkJDlfGYdcxql9iWGwNiTed4Lb2kC7JdN7xgdo
+TQID: 'https://experienceleague.adobe.com/cYdFwvkJDlfGYdcxql9iWGwNiTed4Lb2kC7JdN7xgdo'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: f0055dd2-93f3-4ac8-9abc-d69d4ed2d977
+    internal-label: Automated personalization
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-source-git-commit: c467f629596b37c334276d6f095f19b639a8518d
+    internal-label: Machine learning
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 2303
+source-wordcount: '2303'
 ht-degree: 18%
-
 ---
-
 # Domande frequenti su Automated Personalization
 
 Consulta le seguenti domande frequenti e risposte mentre lavori con [!UICONTROL attività Automated Personalization] in [!DNL Adobe Target].
@@ -57,32 +68,32 @@ Non è disponibile alcuna opzione chiavi in mano per confrontare [!UICONTROL Aut
 * Se desideri personalizzare una pagina a traffico ridotto o apportare modifiche strutturali all&#39;esperienza che stai personalizzando, puoi utilizzare un&#39;attività [!UICONTROL Targeting automatico] al posto di [!UICONTROL Automated Personalization]. Vedi [Targeting automatico](/help/main/c-activities/auto-target/auto-target-to-optimize.md).
 * È consigliabile completare un&#39;attività [!UICONTROL Test A/B] tra le offerte e le posizioni che si prevede di utilizzare nell&#39;attività [!UICONTROL Automated Personalization] per assicurarsi che la posizione e le offerte abbiano un impatto sull&#39;obiettivo di ottimizzazione. Se un&#39;attività [!UICONTROL Test A/B] non riesce a dimostrare una differenza significativa, è probabile che anche [!UICONTROL Automated Personalization] non riesca a generare un incremento.
 
-   * Se un test A/B...N non mostra differenze statisticamente significative tra le esperienze, una o più delle seguenti situazioni è probabilmente responsabile:
+  * Se un test A/B...N non mostra differenze statisticamente significative tra le esperienze, una o più delle seguenti situazioni è probabilmente responsabile:
 
-      * È probabile che le offerte non siano sufficientemente diverse tra loro.
-      * Le posizioni selezionate non influiscono sulla metrica di successo.
-      * L’obiettivo di ottimizzazione è troppo lontano nel funnel di conversione per essere influenzato dalle offerte scelte.
+    * È probabile che le offerte non siano sufficientemente diverse tra loro.
+    * Le posizioni selezionate non influiscono sulla metrica di successo.
+    * L’obiettivo di ottimizzazione è troppo lontano nel funnel di conversione per essere influenzato dalle offerte scelte.
 
 * Assicurati di utilizzare il [Calcolatore del traffico](/help/main/c-activities/t-automated-personalization/ap-traffic-estimator.md#task_71AA6922AFD447EA8C5E610A78ABA714) per capire quanto tempo ci vuole per la generazione dei modelli di personalizzazione nell&#39;attività [!UICONTROL Automated Personalization].
 * Decidi l’allocazione tra il controllo e il targeting prima di iniziare l’attività, in base ai tuoi obiettivi.
 
   Esistono tre scenari da considerare in base all’obiettivo dell’attività e al tipo di controllo selezionato:
 
-   * **Controllo: esperienze casuali; obiettivo dell&#39;attività: testare l&#39;efficacia dell&#39;algoritmo di personalizzazione**: se l&#39;obiettivo è quello di valutare l&#39;algoritmo di personalizzazione, è necessario avere un&#39;immagine più precisa dell&#39;incremento. È inoltre molto probabile che si desideri confrontare il tasso di conversione per le esperienze o le offerte se è stato semplicemente eseguito un [!UICONTROL Test A/B] (un controllo distribuito in modo casuale). In tal caso, si consiglia di utilizzare un’allocazione del 50% a un controllo composto da esperienze distribuite in modo casuale.
-   * **&quot;Esperienze casuali&quot; come controllo e l&#39;obiettivo dell&#39;attività è quello di massimizzare il traffico personalizzato**: se l&#39;algoritmo va bene e desideri che la quantità massima di traffico sia personalizzata, si consiglia di allocare al controllo dal 10% al 30% del traffico. Il compromesso qui è la precisione che vedete nelle informazioni sull&#39;incremento. Gli intervalli di affidabilità del traffico di controllo sono più ampi perché il traffico verso di essi scorre meno.
-   * **Controllo: esperienza specifica; entrambi i tipi di obiettivo**: se desideri confrontare con i modelli di personalizzazione un’esperienza specifica definita dagli esperti di marketing, si consiglia di allocare al controllo dal 10% al 30% del traffico. Quando selezioni una sola esperienza come controllo, tale traffico non viene distribuito su ogni offerta o esperienza nell’attività.
+  * **Controllo: esperienze casuali; obiettivo dell&#39;attività: testare l&#39;efficacia dell&#39;algoritmo di personalizzazione**: se l&#39;obiettivo è quello di valutare l&#39;algoritmo di personalizzazione, è necessario avere un&#39;immagine più precisa dell&#39;incremento. È inoltre molto probabile che si desideri confrontare il tasso di conversione per le esperienze o le offerte se è stato semplicemente eseguito un [!UICONTROL Test A/B] (un controllo distribuito in modo casuale). In tal caso, si consiglia di utilizzare un’allocazione del 50% a un controllo composto da esperienze distribuite in modo casuale.
+  * **&quot;Esperienze casuali&quot; come controllo e l&#39;obiettivo dell&#39;attività è quello di massimizzare il traffico personalizzato**: se l&#39;algoritmo va bene e desideri che la quantità massima di traffico sia personalizzata, si consiglia di allocare al controllo dal 10% al 30% del traffico. Il compromesso qui è la precisione che vedete nelle informazioni sull&#39;incremento. Gli intervalli di affidabilità del traffico di controllo sono più ampi perché il traffico verso di essi scorre meno.
+  * **Controllo: esperienza specifica; entrambi i tipi di obiettivo**: se desideri confrontare con i modelli di personalizzazione un’esperienza specifica definita dagli esperti di marketing, si consiglia di allocare al controllo dal 10% al 30% del traffico. Quando selezioni una sola esperienza come controllo, tale traffico non viene distribuito su ogni offerta o esperienza nell’attività.
 
 * Le regole di targeting devono essere utilizzate con la massima parsimonia possibile perché possono interferire con la capacità di ottimizzazione del modello.
 * I gruppi di reporting possono limitare il successo dell&#39;attività [!UICONTROL Automated Personalization]. Utilizza i gruppi di reporting solo in determinate condizioni:
 
-   * Utilizza i gruppi di reporting solo se sono soddisfatte le seguenti condizioni:
+  * Utilizza i gruppi di reporting solo se sono soddisfatte le seguenti condizioni:
 
-      * Pianifica la sostituzione o l’aggiunta di nuove offerte mentre l’attività è in esecuzione.
-      * Le offerte nel gruppo di reporting si rivolgono agli stessi visitatori.
-      * Le offerte in quel gruppo di reporting hanno circa lo stesso tasso di risposta complessivo.
+    * Pianifica la sostituzione o l’aggiunta di nuove offerte mentre l’attività è in esecuzione.
+    * Le offerte nel gruppo di reporting si rivolgono agli stessi visitatori.
+    * Le offerte in quel gruppo di reporting hanno circa lo stesso tasso di risposta complessivo.
 
-   * Non esiste alcuna personalizzazione tra le offerte di un gruppo di reporting. Le offerte vengono tutte trattate come tali dal modello di personalizzazione.
-   * Non mettere mai tutte le offerte di un’attività in un singolo gruppo di rapporti. In questo modo tutte le offerte vengono distribuite in modo casuale e uniforme a tutti i visitatori nell’attività.
+  * Non esiste alcuna personalizzazione tra le offerte di un gruppo di reporting. Le offerte vengono tutte trattate come tali dal modello di personalizzazione.
+  * Non mettere mai tutte le offerte di un’attività in un singolo gruppo di rapporti. In questo modo tutte le offerte vengono distribuite in modo casuale e uniforme a tutti i visitatori nell’attività.
 
 +++
 

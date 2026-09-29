@@ -1,23 +1,31 @@
 ---
 keywords: Consigli;offerta;anteprima;lancio;stato;criteri;algoritmo
-description: Scopri come visualizzare in anteprima la tua attività Adobe [!DNL Target] Recommendations per assicurarti che i risultati siano disponibili prima di avviare l'attività.
+description: Scopri come visualizzare in anteprima l’attività Consigli di Adobe [!DNL Target] per garantire che i risultati siano disponibili prima di avviare l’attività.
 title: Come posso visualizzare in anteprima e avviare un’attività Consigli?
 feature: Recommendations
 exl-id: 60391778-4d48-4c41-a7c5-fedcfabf2530
-TQID: https://experienceleague.adobe.com/21swhpZie0QN09m0LB7VwVO-9U6GWxQ0kbthPlnns18
+TQID: 'https://experienceleague.adobe.com/21swhpZie0QN09m0LB7VwVO-9U6GWxQ0kbthPlnns18'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
+    internal-label: Recommendations
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
-source-git-commit: 1be09adbab3db2c0cf4447b8abba06ca26cf5571
+    internal-label: Behavioral data
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 1535
+source-wordcount: '1536'
 ht-degree: 13%
-
 ---
-
 # Anteprima e avvio di un’attività Consigli
 
 Dopo aver creato l&#39;attività [!UICONTROL Consigli], [!UICONTROL Test A/B] o [!UICONTROL Targeting esperienza] (XT) contenente [Offerte Consigli](/help/main/c-recommendations/recommendations-as-an-offer.md), è necessario visualizzare in anteprima i consigli per assicurarsi che siano disponibili i risultati prima di avviare l&#39;attività. [!DNL Target Recommendations] offre diversi modi per visualizzare in anteprima i consigli.
@@ -110,13 +118,13 @@ Il file CSV scaricabile riflette in modo coerente i risultati generati dopo l’
 
 * **Per gli algoritmi basati sulla popolarità (non basati su chiave), il file include:**
 
-   * Una riga di consigli di backup con prefisso * (un asterisco)
-   * Una riga distinta elenca i consigli basati sulle impostazioni dell’algoritmo
+  * Una riga di consigli di backup con prefisso * (un asterisco)
+  * Una riga distinta elenca i consigli basati sulle impostazioni dell’algoritmo
 
 * **Per gli algoritmi basati su chiavi, il file include:**
 
-   * Una riga di backup simile agli algoritmi basati sulla popolarità
-   * Righe multiple in formato chiave-valore, dove la prima voce è l’ID prodotto della chiave, seguita da ID prodotto separati da virgole che rappresentano i candidati per i consigli
+  * Una riga di backup simile agli algoritmi basati sulla popolarità
+  * Righe multiple in formato chiave-valore, dove la prima voce è l’ID prodotto della chiave, seguita da ID prodotto separati da virgole che rappresentano i candidati per i consigli
 
 ## Attivazione dell’attività Consigli
 

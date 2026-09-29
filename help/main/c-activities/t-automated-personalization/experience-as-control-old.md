@@ -6,13 +6,24 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Automated Personalization, Auto-Target
 solution: Target,Analytics
 exl-id: a0a36ace-3cba-4d8d-9bbd-e35204ff6453
-source-git-commit: 3a44c05bea24c622292dd0b774f88f0c93be1d88
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: f0055dd2-93f3-4ac8-9abc-d69d4ed2d977
+    internal-label: Automated personalization
+  - id: db15a02f-03cd-46fe-a53e-02064cdeadfa
+    internal-label: Auto target
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
 source-wordcount: '802'
 ht-degree: 39%
-
 ---
-
 # Seleziona il controllo per l&#39;attività [!UICONTROL Automated Personalization] o [!UICONTROL Targeting automatico]
 
 Durante la creazione di un&#39;attività di [[!UICONTROL Automated Personalization]](/help/main/c-activities/t-automated-personalization/automated-personalization.md) (AP) o [[!UICONTROL Targeting automatico]](/help/main/c-activities/auto-target/auto-target-to-optimize.md) (AT) puoi selezionare un&#39;esperienza casuale o selezionarne una specifica da usare come controllo.
@@ -49,6 +60,6 @@ Quando utilizzi come controllo un’esperienza specifica, considera gli aspetti 
 * In genere è richiesto meno traffico verso il controllo: infatti, quando si seleziona come controllo un’esperienza specifica, tutto il traffico viene veicolato verso un’unica esperienza o un set di offerte; nel caso di un controllo casuale, invece, il traffico allocato al controllo viene suddiviso tra le varie esperienze o offerte presenti nell’attività. Si consiglia di iniziare con un valore di 10%.
 * Se le seguenti operazioni vengono effettuate su un’attività live e con il controllo impostato un’esperienza specifica, questo viene reimpostato automaticamente su esperienze casuali (anziché sull’esperienza specifica selezionata in precedenza):
 
-   * Eliminare un’esperienza
-   * Rimuovi una posizione o un&#39;offerta ([!UICONTROL solo Automated Personalization])
-   * Escludi un&#39;esperienza manualmente rimuovendo le offerte duplicate o tramite un gruppo di esclusione ([!UICONTROL Automated Personalization] only)
+  * Eliminare un’esperienza
+  * Rimuovi una posizione o un&#39;offerta ([!UICONTROL solo Automated Personalization])
+  * Escludi un&#39;esperienza manualmente rimuovendo le offerte duplicate o tramite un gruppo di esclusione ([!UICONTROL Automated Personalization] only)

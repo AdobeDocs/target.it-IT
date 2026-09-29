@@ -1,23 +1,30 @@
 ---
 keywords: risoluzione dei problemi;domande frequenti;FAQ;consigli;caratteri speciali;ponderazione degli attributi;somiglianza contenuti
-description: Visualizza un elenco di domande e risposte frequenti sulle  [!DNL Target Recommendations]  attività.
-title: Dove posso trovare domande e risposte su  [!DNL Recommendations]?
+description: Visualizza un elenco delle domande e risposte più frequenti sulle attività [!DNL Target Recommendations].
+title: Dove posso trovare domande e risposte su [!DNL Recommendations]?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=it#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."
 feature: Recommendations
 exl-id: aaa52923-1c2d-44ae-bd89-671329222077
-TQID: https://experienceleague.adobe.com/Hz37Dp21q-25Pj6mmbiaGqONY14eImVB9Ebz8VH9hMA
+TQID: 'https://experienceleague.adobe.com/Hz37Dp21q-25Pj6mmbiaGqONY14eImVB9Ebz8VH9hMA'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
+    internal-label: Recommendations
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 1be09adbab3db2c0cf4447b8abba06ca26cf5571
+    internal-label: Troubleshooting
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 3578
+source-wordcount: '3579'
 ht-degree: 80%
-
 ---
-
 # Domande frequenti sui consigli
 
 Elenco delle domande frequenti sulle attività relative alle attività di [!DNL Adobe Target] [!DNL Recommendations].
@@ -61,8 +68,8 @@ Le modifiche seguenti vengono applicate solo dopo l’esecuzione dell’algoritm
 * Attributi degli articoli utilizzati nelle regole di raccolta utilizzate per l’attività.
 * Attributi degli articoli utilizzati in una promozione in base a una raccolta o un attributo associato all’attività.
 * Categoria di articoli in cui l’articolo viene visualizzato, per “Categoria corrente” o “Categoria preferita” nell’algoritmo “Articoli più venduti” o “Articoli più visualizzati”.
-* Classificazione degli articoli consigliati quando l’attributo modificato è un attributo personalizzato utilizzato come chiave personalizzata per un algoritmo.
-* Classificazione degli articoli consigliati in base a uno o più attributi modificati quando la logica dei consigli è “Articoli con attributi simili”, quando vengono utilizzati i fattori di ponderazione “Somiglianza del contenuto” o quando vengono utilizzati i fattori “Ponderazione degli attributi”.
+* Ranking degli articoli consigliati quando l’attributo modificato è un attributo personalizzato utilizzato come chiave personalizzata per un algoritmo.
+* Ranking degli articoli consigliati in base a uno o più attributi modificati quando la logica dei consigli è “Articoli con attributi simili”, quando vengono utilizzati i fattori di ponderazione “Somiglianza del contenuto” o quando vengono utilizzati i fattori “Ponderazione degli attributi”.
 
 >[!NOTE]
 >
@@ -73,9 +80,9 @@ Le modifiche seguenti vengono applicate solo dopo l’esecuzione dell’algoritm
 * Una modifica alle impostazioni di promozione può richiedere fino a cinque ore per essere visualizzata sul sito.
 * Una modifica alle impostazioni di altri criteri potrebbe essere applicata solo alla successiva esecuzione dell’algoritmo:
 
-   * Alcune impostazioni di criteri (ad esempio, &quot;aggiunta di una regola di inclusione dinamica&quot;) vengono applicate immediatamente.
-   * Non è possibile incorporare altre impostazioni di criteri (ad esempio &quot;rimozione di una regola di inclusione dinamica&quot;, modifica dell’intervallo di lookback e così via) fino alla successiva esecuzione dell’algoritmo.
-   * Le esecuzioni dell’algoritmo vengono attivate da queste modifiche, ma il loro completamento può richiedere fino a 24 ore. Inoltre, gli algoritmi vengono eseguiti su base pianificata ogni 12-24 ore.
+  * Alcune impostazioni di criteri (ad esempio, &quot;aggiunta di una regola di inclusione dinamica&quot;) vengono applicate immediatamente.
+  * Non è possibile incorporare altre impostazioni di criteri (ad esempio &quot;rimozione di una regola di inclusione dinamica&quot;, modifica dell’intervallo di lookback e così via) fino alla successiva esecuzione dell’algoritmo.
+  * Le esecuzioni dell’algoritmo vengono attivate da queste modifiche, ma il loro completamento può richiedere fino a 24 ore. Inoltre, gli algoritmi vengono eseguiti su base pianificata ogni 12-24 ore.
 
 ## Quanto tempo ci vuole affinché il comportamento di un utente (ad esempio, clic sul prodotto A e acquisto del prodotto B) si rifletta nei consigli *ricevuti dall&#39;utente*?
 

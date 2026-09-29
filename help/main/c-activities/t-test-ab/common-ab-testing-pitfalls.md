@@ -1,23 +1,31 @@
 ---
 keywords: AB;A/B;AB...n;errori;insidie;errore;insidia;significatività;vincitore;differenza statistica;statistica;potenza statistica;allocazione del traffico;allocazione;
-description: Scopri come evitare le insidie e gli errori più comuni commessi dalle aziende durante l’esecuzione di test A/B in [!DNL Adobe Target] e altre soluzioni di test.
+description: Scopri come evitare le insidie e gli errori più comuni commessi dalle aziende durante l'esecuzione di test A/B in [!DNL Adobe Target] e altre soluzioni di test.
 title: Come posso evitare gli errori comuni relativi ai test A/B?
 feature: A/B Tests
 exl-id: db085819-1a85-4936-bdc9-7501cf9b26ce
-TQID: https://experienceleague.adobe.com/w5ICZthuuhm1Czd2-xKv6Ud4CZR9rhSKNPCBgchB-QQ
+TQID: 'https://experienceleague.adobe.com/w5ICZthuuhm1Czd2-xKv6Ud4CZR9rhSKNPCBgchB-QQ'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ab2570eb-4844-49aa-8334-e91a345525e5
+    internal-label: A/B Tests
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Insights
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 3983
-ht-degree: 100%
-
+source-wordcount: '3984'
+ht-degree: 99%
 ---
-
 # Dieci insidie frequenti per i test A/B e come evitarle
 
 Il test A/B in [!DNL Adobe Target] costituisce la spina dorsale della maggior parte dei programmi di ottimizzazione del marketing digitale e aiuta gli addetti al marketing a offrire esperienze ottimizzate e mirate ai loro visitatori e clienti. Questo articolo delinea dieci delle insidie più significative che possono presentarsi durante l’esecuzione di un test A/B. Illustra inoltre metodi per evitare tali insidie, in modo da ottenere un maggiore ROI attraverso le attività di testing e una maggiore fiducia nei risultati evidenziati dai test A/B.
@@ -102,9 +110,9 @@ In un test a una coda, si verifica se l&#39;offerta B è migliore dell&#39;offer
 
 Potresti visualizzare un test a una coda che mette un&#39;offerta sotto processo con un giudice che ha già la sua idea. In un test a una coda, hai già deciso quale sarà l’offerta vincente e lo vuoi dimotrare, piuttosto che dare a ogni esperienza una pari possibilità di dimostrarsi vincente. I test a una coda devono essere utilizzati solo nelle rare situazioni in cui si è interessati solo se un&#39;offerta è migliore rispetto agli altri e non il contrario. Per evitare il problema del test a una coda, utilizza una soluzione di test A/B che utilizza sempre test a due code, ad esempio [!DNL Adobe Target].
 
-## Insidia 5: monitorare i test {#section_EA42F8D5967B439284D863C46706A1BA}
+## Insidia 5: monitoraggio dei test {#section_EA42F8D5967B439284D863C46706A1BA}
 
-Gli addetti al marketings controllano frequentemente i test A/B finché il test non determina un risultato significativo. Dopotutto, perché ttoporre a test dopo aver raggiunto l&#39;importanza statistica?
+Gli addetti al marketing monitorano frequentemente i test A/B finché un test non determina un risultato significativo. Dopotutto, perché ttoporre a test dopo aver raggiunto l&#39;importanza statistica?
 
 Sfortunatamente, non è così semplice. Infatti il monitoraggio dei risultati influenza negativamente la rilevanza statistica del test. Aumenta notevolmente la probabilità di falsi positivi e rende inattendibili gli intervalli di affidabilità.
 
@@ -166,7 +174,7 @@ Per evitare questa insidia, dopo che è stato interrotto un nuovo ingresso nel t
 
 ## Insidia 10: utilizzare metriche che non riflettono le finalità aziendali {#section_F0CD6DC7993B4A6F9BEEBB31CD1D9BEE}
 
-Gli addetti al marketing potrebbero essere tentati di utilizzare metriche di conversione ad alto traffico e a bassa varianza nella canalizzazione superiore, ad esempio il CTR (tasso di click-through), per raggiungere un numero adeguato di conversioni di test più velocemente. Tuttavia, valuta attentamente se il CTR è un proxy adeguato per l&#39;obiettivo di business che desideri raggiungere. Offerte con CTR più alto possono portare facilmente a minori ricavi. Questo può accadere quando le offerte attraggono i visitatori con una propensione più bassa a comprare o quando l’offerta stessa, ad esempio un’offerta di sconto, porta semplicemente a minori ricavi.
+I marketer potrebbero essere tentati di utilizzare metriche di conversione ad alto traffico e a bassa varianza nella parte iniziale del funnel, ad esempio il CTR (tasso di click-through), per raggiungere più velocemente un numero adeguato di conversioni di test. Tuttavia, valuta attentamente se il CTR è un proxy adeguato per l&#39;obiettivo di business che desideri raggiungere. Offerte con CTR più alto possono portare facilmente a minori ricavi. Questo può accadere quando le offerte attraggono i visitatori con una propensione più bassa a comprare o quando l’offerta stessa, ad esempio un’offerta di sconto, porta semplicemente a minori ricavi.
 
 ![immagine pitfalls6](assets/pitfalls6.png)
 

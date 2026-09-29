@@ -1,27 +1,33 @@
 ---
 keywords: FAQ;domande frequenti;analytics for target;a4t;rapporto;report;visualizzare rapporti;reporting;metodologia di conteggio;impression;visitatori;visite;metriche predefinite;conversioni di attività;non specificato
-description: Trova le risposte alle domande che vengono spesso poste in merito alla visualizzazione dei rapporti durante l'utilizzo di Analytics for [!DNL Target] (A4T). A4T consente di utilizzare la funzione di reporting di Analytics per  [!DNL Target]  attività.
+description: Risposte alle domande più frequenti sulla visualizzazione dei rapporti durante l'utilizzo di Analytics per [!DNL Target] (A4T). A4T consente di utilizzare il reporting di Analytics per le attività [!DNL Target].
 title: Risposte alle domande sulla visualizzazione di rapporti con A4T?
 feature: Analytics for Target (A4T)
 exl-id: a02eeb34-3975-424b-a046-e51f10ae1823
-TQID: https://experienceleague.adobe.com/H1hpX9csogL5grp85Zn1HZleM9GF85W5LU-y-k9MSyc
+TQID: 'https://experienceleague.adobe.com/H1hpX9csogL5grp85Zn1HZleM9GF85W5LU-y-k9MSyc'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
   - id: f7c7de77-382f-4f48-8b36-61a170f06d3d
+    internal-label: Integrations
+  - id: 891742a5-242d-5099-966a-ca76c17cd2d2
+    internal-label: Analytics for Target (A4T)
 subfeature_v2:
   - id: df62f171-ac37-440f-8f0f-f41a72ebdd34
+    internal-label: Analytics integration
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Customer experience
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 2699
+source-wordcount: '2700'
 ht-degree: 27%
-
 ---
-
 # Visualizzare i rapporti - Domande frequenti su A4T
 
 Questo argomento contiene le risposte alle domande più frequenti sulla visualizzazione dei report quando si utilizza [!DNL Adobe Analytics] come origine per la generazione di rapporti per [!DNL Adobe Target] (A4T).

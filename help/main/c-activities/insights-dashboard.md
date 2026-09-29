@@ -1,16 +1,20 @@
 ---
 keywords: attività;attività;dashboard approfondimenti
-description: Il [!UICONTROL dashboard di Adobe Target] offre una panoramica generale dell'utilizzo di [!DNL Target] nel tempo da parte della tua organizzazione, fornendo una panoramica immediata dell'adozione, del volume di attività e dell'utilizzo della sperimentazione.
+description: Il [!UICONTROL dashboard di Adobe Target] offre una panoramica generale dell'utilizzo di [!DNL Target] da parte dell'organizzazione nel tempo, fornendo una panoramica immediata dell'adozione, del volume di attività e dell'utilizzo della sperimentazione.
 title: Dashboard di Adobe Target Insights
 feature: Activities
 exl-id: 042befcd-025b-4592-a6b2-5dc0b952b031
-source-git-commit: 346b54882d4082f14bbc16ede350758a362ee418
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: 6efa6b7a-8062-5c41-aef4-b4853cc306ae
+    internal-label: Activities
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '820'
+source-wordcount: '821'
 ht-degree: 1%
-
 ---
-
 # Dashboard di Adobe Target Insights
 
 Il [!UICONTROL dashboard di Adobe Target] offre una panoramica generale dell&#39;utilizzo di [!DNL Adobe Target] da parte dell&#39;organizzazione nel tempo. Aiuta i team a comprendere a colpo d’occhio l’adozione, il volume delle attività e l’utilizzo della sperimentazione.
