@@ -34,7 +34,7 @@ topic_v2:
 source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
 source-wordcount: '1644'
-ht-degree: 33%
+ht-degree: 70%
 ---
 # Introduzione a [!DNL Target]
 
@@ -42,92 +42,92 @@ ht-degree: 33%
 >[!CONTEXTUALHELP]
 >id="target_sample_size_ab_daily_traffic"
 >title="Traffico giornaliero"
->abstract="Quanti utenti entrano ogni giorno nell’esperimento. Se non conosci il traffico giornaliero, scegli \&quot;Volume di traffico\&quot; qui sopra e il calcolatore lo risolverà utilizzando gli altri input."
+>abstract="Numero di utenti che entrano ogni giorno nell’esperimento. Se non conosci il tuo traffico giornaliero, seleziona “Volume di traffico” qui sopra e il calcolatore lo risolverà utilizzando gli altri input."
 
 >[!CONTEXTUALHELP]
 >id="target_sample_size_setup"
 >title="Configurare il test"
->abstract="Questi campi definiscono il test A/B, ciò che ci si aspetta di vedere e quanto è sicuro di avere nel risultato. Il campo associato a quello selezionato in precedenza verrà risolto automaticamente per. Compila il resto con i valori previsti."
+>abstract="Questi campi definiscono il test A/B, ciò che ti aspetti di ottenere e il livello di affidabilità del risultato. Il campo associato a quanto selezionato in precedenza verrà risolto automaticamente. Compila il resto con i valori previsti."
 
 >[!CONTEXTUALHELP]
 >id="target_sample_size_number_experiences"
 >title="Numero di esperienze"
->abstract="Numero di varianti nell’esperimento, incluso il controllo. Un test A/B ha 2 bracci. Cinque varianti più un controllo è uguale a 6. Più armi richiedono proporzionalmente più traffico per mantenere la potenza statistica."
+>abstract="Numero di varianti nell’esperimento, incluso il controllo. Un test A/B ha 2 bracci. Cinque varianti più un controllo equivalgono a 6. Un numero maggiore di bracci richiede proporzionalmente un maggiore traffico per mantenere la potenza statistica."
 
 >[!CONTEXTUALHELP]
 >id="target_sample_size_duration"
 >title="Durata del test A/B"
->abstract="Quanti giorni eseguirà l’esperimento. Durate più lunghe danno all’esperimento più tempo per raccogliere i dati, consentendo di rilevare in modo affidabile effetti più piccoli. Durate più brevi richiedono effetti maggiori o più traffico giornaliero per raggiungere un risultato affidabile."
+>abstract="Numeri di giorni di esecuzione dell’esperimento. Durate più lunghe offrono all’esperimento più tempo per raccogliere i dati, consentendo di rilevare in modo affidabile effetti più piccoli. Durate più brevi richiedono effetti più grandi o un maggiore traffico giornaliero per raggiungere un risultato affidabile."
 
 >[!CONTEXTUALHELP]
 >id="target_sample_size_minimum_detectable_effect"
 >title="Effetto rilevabile minimo"
->abstract="Il miglioramento più piccolo che vale la pena rilevare, la modifica minima nella metrica su cui agire. Si tratta della dimensione dell&#39;incremento in punti percentuali, non della variazione percentuale relativa alla linea di base. Ad esempio, se la previsione è pari al 5% e un incremento di 1 punto percentuale è rilevante, immettere 1."
+>abstract="Il miglioramento più piccolo che vale la pena rilevare, la modifica minima della metrica su cui agiresti. Si tratta dell’entità di incremento in punti percentuali, non della variazione percentuale rispetto alla linea di base. Ad esempio, se la linea di base di riferimento è 5% e consideri rilevante un incremento di 1 punto percentuale, immetti 1."
 
 >[!CONTEXTUALHELP]
 >id="target_sample_size_expected_improvement"
 >title="Miglioramento previsto"
->abstract="Il miglioramento che ci si aspetta dall’esperimento."
+>abstract="Il miglioramento che, secondo le tue stime, possa essere prodotto dall’esperimento."
 
 >[!CONTEXTUALHELP]
 >id="target_sample_size_variance"
 >title="Varianza"
->abstract="Distribuzione dei valori della metrica, non della media. Una metrica come il click rate (per lo più 0 e 1 s) ha una varianza bassa, una metrica come il ricavo per utente (pochi spenditori elevati, molti bassi) può avere una varianza molto più elevata. In caso di dubbi, lascia il valore predefinito 1."
+>abstract="Dispersione dei valori della metrica (non la loro media). Una metrica come il tasso di clic (per lo più 0 e 1) ha una varianza bassa; una metrica come le entrate generate per utente (pochi acquirenti generano entrate elevate, molti generano entrate basse) può avere una varianza molto più elevata. In caso di dubbi, lascia il valore predefinito 1."
 
 >[!CONTEXTUALHELP]
 >id="target_sample_size_confidence_level"
 >title="Livello di affidabilità"
->abstract="Quanto devi essere sicuro che un risultato non sia solo un caso casuale prima di chiamarlo reale, la soglia della significatività statistica. Un livello di affidabilità del 95% significa che c’è al massimo un 5% di possibilità di un falso positivo. Valori più alti riducono i falsi positivi ma richiedono più dati."
+>abstract="Con quanta certezza un risultato possa essere ritenuto reale, e non solo una possibilità casuale; soglia di significatività statistica. Un livello di affidabilità del 95% significa che la possibilità di falsi positivo non supera il 5%. Con valori più alti si riducono i falsi positivi, ma sono necessari più dati."
 
 >[!CONTEXTUALHELP]
 >id="target_sample_size_statistical_power"
 >title="Potenza statistica"
->abstract="La probabilità di rilevare un effetto se uno esiste veramente, la sensibilità dell&#39;esperimento. 80% di potenza significa che c&#39;è una probabilità dell&#39;80% di rilevare un effetto reale. Una potenza più elevata riduce i falsi negativi ma richiede più traffico o un runtime più lungo."
+>abstract="Probabilità di rilevare un effetto, se ne esiste veramente uno; sensibilità dell’esperimento. Con una potenza statistica pari a 80%, c&#39;è una possibilità dell’80% di rilevare un effetto reale. Una potenza più alta riduce i falsi negativi, ma richiede più traffico o un tempo di esecuzione più lungo."
 
 >[!CONTEXTUALHELP]
 >id="target_sample_size_traffic_mode"
 >title="Modalità Traffico"
->abstract="Come gli utenti inseriscono l’esperimento. Continuo: gli utenti immettono giornalmente per tutta la durata dell’esperimento. Con l’arrivo dei risultati, il traffico si sposta automaticamente verso varianti con prestazioni migliori."
+>abstract="In che modo avviene l’ingresso degli utenti nell’esperimento. Continuo: l’ingresso degli utenti avviene su base giornaliera, per tutta la durata dell’esperimento. Man mano che arrivano i risultati, il traffico viene indirizzato automaticamente verso le varianti dalle prestazioni migliori."
 
 >[!CONTEXTUALHELP]
 >id="target_sample_size_metric_type"
 >title="Tipo di metrica"
->abstract="Che tipo di metrica stai misurando. Percentuale: utilizzalo per risultati binari come clic o conversioni, in cui ogni utente esegue o meno un’operazione. Numero: utilizzalo per metriche quali entrate o visualizzazioni di pagina, in cui il valore può variare notevolmente da utente a utente."
+>abstract="Che tipo di metrica stai misurando. Percentuale: utilizza questa opzione per risultati binari come clic o conversioni, in cui ogni utente esegue o meno un’operazione. Numero: utilizza questa opzione per metriche quali entrate o visualizzazioni di pagina, in cui il valore può variare notevolmente da utente a utente."
 
 >[!CONTEXTUALHELP]
 >id="target_sample_size_auto_daily_traffic"
 >title="Traffico giornaliero"
->abstract="Quanti utenti entrano ogni giorno nell’esperimento. Utilizzato per esperimenti continui che si svolgono su più giorni, con il traffico che si sposta automaticamente verso varianti con prestazioni migliori man mano che arrivano i risultati."
+>abstract="Numero di utenti che entrano ogni giorno nell’esperimento. Utilizzato per esperimenti continui che si svolgono su più giorni, in cui il traffico viene indirizzato automaticamente verso le varianti dalle prestazioni migliori man mano che arrivano i risultati."
 
 >[!CONTEXTUALHELP]
 >id="target_sample_size_baseline_metric_rate"
->title="Tasso metrico linea di base"
->abstract="Le prestazioni correnti prima dell’inizio dell’esperimento, la media del braccio di controllo. Sempre obbligatorio. Per le metriche percentuali, immetti come percentuale: se il 5% dei visitatori fa clic su Acquista oggi, immetti 5. Per le metriche di conteggio, inserisci il valore decimale non elaborato."
+>title="Tasso della metrica linea di base"
+>abstract="Prestazioni correnti prima dell’inizio dell’esperimento; la media del braccio di controllo. Sempre obbligatorio. Per le metriche percentuali, immetti un valore percentuale: se il 5% dei visitatori fa clic su Acquista subito, immetti 5. Per le metriche di conteggio, inserisci il valore decimale non elaborato."
 
 >[!CONTEXTUALHELP]
 >id="target_ai_insights_primary_metric"
 >title="Metrica primaria"
->abstract="La metrica principale viene estratta automaticamente dalle impostazioni di reporting. Per apportare modifiche, modifica la metrica dell’obiettivo in Obiettivi e impostazioni."
+>abstract="La metrica primaria viene estratta in automatico dalle impostazioni di reporting. Per apportarvi modifiche, cambia la metrica dell’obiettivo in Obiettivi e impostazioni."
 
 >[!CONTEXTUALHELP]
 >id="target_ai_insights_hypothesis"
 >title="Ipotesi"
->abstract="L’ipotesi è un’istruzione da te definita che spiega il risultato atteso dell’esperimento. Includi una descrizione di cosa viene modificato e dove, quindi specifica la metrica da modificare e come."
+>abstract="L’ipotesi è un’istruzione da te definita che spiega il risultato atteso dell’esperimento. Includi una descrizione di cosa viene modificato e dove, quindi specifica la metrica che dovrebbe cambiare, e il tipo di cambiamento che ti aspetti."
 
 >[!CONTEXTUALHELP]
 >id="target_ai_insights_insights"
 >title="Insight"
->abstract="Gli insight sugli esperimenti sono le conoscenze individuate dall’IA quando i dati dell’esperimento hanno raggiunto la significatività statistica."
+>abstract="Gli insight dagli esperimenti sono informazioni acquisite dall’IA una volta che i dati di un esperimento raggiungono un livello di significatività statistica."
 
 >[!CONTEXTUALHELP]
 >id="target_ai_insights_opportunities"
 >title="Opportunità"
->abstract="Le opportunità di esperimento sono idee di trattamento suggerite dall’intelligenza artificiale basate sui pattern che si trovano nelle schermate e nei risultati dell’esperimento."
+>abstract="Le opportunità dagli esperimenti sono idee di trattamento suggerite dall’IA in base ai pattern che l’IA rileva nei risultati e nelle schermate dell’esperimento."
 
 >[!CONTEXTUALHELP]
 >id="target_ai_insights_treatment_details"
->title="Dettagli trattamento"
->abstract="I dettagli del trattamento mostrano immagini di come appare un trattamento quando un utente ne è idoneo. Puoi rivedere queste immagini per tutti gli esperimenti. Alcuni esperimenti potrebbero chiederti di confermare l’immagine o sostituirla, se necessario."
+>title="Dettagli del trattamento"
+>abstract="I dettagli del trattamento mostrano immagini di come si presenta un trattamento agli utenti qualificati. Puoi rivedere queste immagini per tutti gli esperimenti. Per alcuni esperimenti potrebbe essere necessario confermare l’immagine o sostituirla."
 
 [!DNL Adobe Target], parte di [!DNL Adobe Experience Cloud], offre strumenti completi per personalizzare le esperienze dei clienti su siti Web, mobili, app, social media e altri canali digitali.
 

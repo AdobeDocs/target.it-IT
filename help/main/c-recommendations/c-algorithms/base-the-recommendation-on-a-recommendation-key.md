@@ -193,7 +193,7 @@ Quindi seleziona gli attributi di profilo memorizzati nel profilo del visitatore
 
 >[!CONTEXTUALHELP]
 >id="target_recommendations_profile_attribute"
->title="Attributo del profilo"
+>title="Attributo di profilo"
 >abstract="Puoi creare un attributo del profilo utilizzando gli script di profilo. Una volta creato e attivato uno script di profilo, è possibile utilizzare il relativo attributo di profilo corrispondente con questo algoritmo."
 
 Consiglia di raggruppare gli elementi più visualizzati in base a un attributo del profilo visitatore anziché in base alle informazioni sugli elementi, come avviene per [!UICONTROL Articoli più visualizzati per categoria] e [!UICONTROL Attributi più visualizzati per elemento]. [!DNL Target] mantiene un elenco di classificazione separato per valore di attributo e, al momento della consegna, mostra a ogni visitatore l&#39;elenco corrispondente al proprio valore memorizzato.

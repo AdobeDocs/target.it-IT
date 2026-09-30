@@ -87,7 +87,7 @@ La procedura seguente presuppone che tu acceda alla schermata [!UICONTROL Crea n
 
 >[!CONTEXTUALHELP]
 >id="target_recommendations_profile_attribute"
->title="Attributo del profilo"
+>title="Attributo di profilo"
 >abstract="Puoi creare un attributo del profilo utilizzando gli script di profilo."
 
 1. Seleziona un **[!UICONTROL Tipo di algoritmo]** e **[!UICONTROL Algoritmo]**:
