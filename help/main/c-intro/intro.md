@@ -31,10 +31,10 @@ topic_v2:
     internal-label: Machine learning
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: bf39456558115ef589b2dff4a5de0711ee5963aa
+source-git-commit: 88a811c3ae521b94ceb6350ba44aa2d40afda2b6
 workflow-type: tm+mt
-source-wordcount: '1627'
-ht-degree: 70%
+source-wordcount: '1510'
+ht-degree: 68%
 ---
 # Introduzione a [!DNL Target]
 
@@ -104,25 +104,6 @@ ht-degree: 70%
 >title="Tasso della metrica linea di base"
 >abstract="Prestazioni correnti prima dell’inizio dell’esperimento; la media del braccio di controllo. Sempre obbligatorio. Per le metriche percentuali, immetti un valore percentuale: se il 5% dei visitatori fa clic su Acquista subito, immetti 5. Per le metriche di conteggio, inserisci il valore decimale non elaborato."
 
->[!CONTEXTUALHELP]
->id="target_ai_insights_primary_metric"
->title="Metrica primaria"
->abstract="La metrica primaria viene estratta in automatico dalle impostazioni di reporting. Per apportarvi modifiche, cambia la metrica dell’obiettivo in Obiettivi e impostazioni."
-
->[!CONTEXTUALHELP]
->id="target_ai_insights_hypothesis"
->title="Ipotesi"
->abstract="L’ipotesi è un’istruzione da te definita che spiega il risultato atteso dell’esperimento. Includi una descrizione di cosa viene modificato e dove, quindi specifica la metrica che dovrebbe cambiare, e il tipo di cambiamento che ti aspetti."
-
->[!CONTEXTUALHELP]
->id="target_ai_insights_opportunities"
->title="Opportunità"
->abstract="Le opportunità dagli esperimenti sono idee di trattamento suggerite dall’IA in base ai pattern che l’IA rileva nei risultati e nelle schermate dell’esperimento."
-
->[!CONTEXTUALHELP]
->id="target_ai_insights_treatment_details"
->title="Dettagli del trattamento"
->abstract="I dettagli del trattamento mostrano immagini di come si presenta un trattamento agli utenti qualificati. Puoi rivedere queste immagini per tutti gli esperimenti. Per alcuni esperimenti potrebbe essere necessario confermare l’immagine o sostituirla."
 
 [!DNL Adobe Target], parte di [!DNL Adobe Experience Cloud], offre strumenti completi per personalizzare le esperienze dei clienti su siti Web, mobili, app, social media e altri canali digitali.
 
@@ -219,6 +200,6 @@ Il seguente video spiega i tipi di attività disponibili in [!DNL Target Standar
 * Selezionare il tipo di attività appropriato per i tuoi obiettivi
 * Descrizione del flusso di lavoro guidato in tre passaggi da applicare a tutti i tipi di attività
 
->[!VIDEO](https://video.tv.adobe.com/v/36365?captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/17386)
 
 

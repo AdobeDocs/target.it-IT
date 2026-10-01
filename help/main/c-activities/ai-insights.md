@@ -4,10 +4,10 @@ description: Scopri come utilizzare le informazioni generate dall’intelligenza
 title: Informazioni sull’intelligenza artificiale nella panoramica dell’attività
 feature: Activities
 badge: label="Beta" type="Informative"
-source-git-commit: bf39456558115ef589b2dff4a5de0711ee5963aa
+source-git-commit: 88a811c3ae521b94ceb6350ba44aa2d40afda2b6
 workflow-type: tm+mt
-source-wordcount: '649'
-ht-degree: 18%
+source-wordcount: '766'
+ht-degree: 31%
 ---
 # Informazioni sull’intelligenza artificiale
 
@@ -40,6 +40,26 @@ Il menu **[!UICONTROL Informazioni IA]** nella **[!UICONTROL Panoramica attivit�
 >id="target_ai_insights_treatment_details"
 >title="Dettagli esperienza"
 >abstract="I dettagli dell’esperienza mostrano immagini di come si presenta un’esperienza quando un utente ne è idoneo. Puoi rivedere queste immagini per tutti gli esperimenti. Per alcuni esperimenti potrebbe essere necessario confermare l’immagine o sostituirla."
+
+>[!CONTEXTUALHELP]
+>id="target_ai_insights_primary_metric"
+>title="Metrica primaria"
+>abstract="La metrica primaria viene estratta in automatico dalle impostazioni di reporting. Per apportarvi modifiche, cambia la metrica dell’obiettivo in Obiettivi e impostazioni."
+
+>[!CONTEXTUALHELP]
+>id="target_ai_insights_hypothesis"
+>title="Ipotesi"
+>abstract="L’ipotesi è un’istruzione da te definita che spiega il risultato atteso dell’esperimento. Includi una descrizione di cosa viene modificato e dove, quindi specifica la metrica che dovrebbe cambiare, e il tipo di cambiamento che ti aspetti."
+
+>[!CONTEXTUALHELP]
+>id="target_ai_insights_opportunities"
+>title="Opportunità"
+>abstract="Le opportunità dagli esperimenti sono idee di trattamento suggerite dall’IA in base ai pattern che l’IA rileva nei risultati e nelle schermate dell’esperimento."
+
+>[!CONTEXTUALHELP]
+>id="target_ai_insights_treatment_details"
+>title="Dettagli del trattamento"
+>abstract="I dettagli del trattamento mostrano immagini di come si presenta un trattamento agli utenti qualificati. Puoi rivedere queste immagini per tutti gli esperimenti. Per alcuni esperimenti potrebbe essere necessario confermare l’immagine o sostituirla."
 
 Prima di poter accedere alle opportunità e agli approfondimenti generati dall’intelligenza artificiale, devi innanzitutto impostare l’attività confermando la metrica principale, le ipotesi e le schermate dell’esperienza.
 
