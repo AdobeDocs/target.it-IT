@@ -393,7 +393,7 @@ Se desideri utilizzare le attività A/B di targeting automatico, sposta tutte le
 | --- | --- |
 | [Analytics for Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md) | Sì |
 | [Experience Cloud Audiences](/help/main/c-integrating-target-with-mac/mmp.md) | Sì |
-| [Attributi del cliente](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html){target=_blank} | Sì |
+| [Attributi del cliente](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html?lang=it){target=_blank} | Sì |
 | [Frammenti esperienza AEM](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md) | Sì |
 
 ## Funzioni supportate {#supported-features}
@@ -416,7 +416,7 @@ Per accedere alle opzioni di [!UICONTROL Consegna pagine] nel flusso di lavoro g
 
 ![Finestra di dialogo delle opzioni di Consegna pagine](/help/main/c-experiences/assets/page-delivery.png)
 
-Ad esempio, come definito dalle impostazioni di [!UICONTROL Consegna pagine] riportate qui sopra, un&#39;attività Target si qualifica come idonea e viene eseguita quando un visitatore arriva direttamente a `https://www.adobe.com` *o* quando un visitatore arriva a un URL che contiene `https://www.adobe.com/products`. Questo funziona molto bene per qualsiasi applicazione multipagina in cui ogni interazione con la pagina richiama un ricaricamento della stessa, per il quale at.js recupera le attività che si qualificano come idonee per l’URL a cui passa l’utente.
+Ad esempio, come definito dalle impostazioni di [!UICONTROL Consegna pagine] riportate qui sopra, un&#39;attività Target si qualifica come idonea e viene eseguita quando un visitatore arriva direttamente a `https://www.adobe.com` *o* quando un visitatore arriva a un URL che contiene `https://www.adobe.com/it/products`. Questo funziona molto bene per qualsiasi applicazione multipagina in cui ogni interazione con la pagina richiama un ricaricamento della stessa, per il quale at.js recupera le attività che si qualificano come idonee per l’URL a cui passa l’utente.
 
 Tuttavia, poiché le applicazioni a pagina singola funzionano diversamente, le impostazioni di [!UICONTROL Consegna pagine] devono essere configurate in modo da consentire che tutte le azioni vengano applicate alle visualizzazioni definite nell&#39;attività del Compositore esperienza visivo per applicazioni a pagina singola.
 
