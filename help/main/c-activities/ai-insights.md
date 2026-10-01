@@ -4,10 +4,10 @@ description: Scopri come utilizzare le informazioni generate dall’intelligenza
 title: Informazioni sull’intelligenza artificiale nella panoramica dell’attività
 feature: Activities
 badge: label="Beta" type="Informative"
-source-git-commit: 643b30757e9212388dcb6921580f86feb0704338
+source-git-commit: bf39456558115ef589b2dff4a5de0711ee5963aa
 workflow-type: tm+mt
-source-wordcount: '632'
-ht-degree: 16%
+source-wordcount: '649'
+ht-degree: 18%
 ---
 # Informazioni sull’intelligenza artificiale
 
@@ -20,6 +20,11 @@ ht-degree: 16%
 Il menu **[!UICONTROL Informazioni IA]** nella **[!UICONTROL Panoramica attività]** fornisce accesso alle informazioni e alle opportunità di ottimizzazione. Utilizza questa scheda per rivedere gli insegnamenti dell’esperimento, confrontare i trattamenti e identificare le modifiche che potrebbero migliorare i tassi di conversione.
 
 ## Configurazione per approfondimenti e opportunità IA
+
+>[!CONTEXTUALHELP]
+>id="target_ai_insights"
+>title="Insight"
+>abstract="Gli insight dagli esperimenti sono informazioni acquisite dall’IA una volta che i dati di un esperimento raggiungono un livello di significatività statistica."
 
 >[!CONTEXTUALHELP]
 >id="target_ai_insights_primary_metric"
@@ -69,10 +74,10 @@ La metrica principale viene estratta automaticamente dalle impostazioni di repor
 
 Una volta completata la configurazione, l’attività è pronta per generare opportunità. Gli insights diventano disponibili dopo che l’esperimento dispone di dati sufficienti per la convalida statistica e i dettagli dell’esperimento richiesti sono stati confermati.
 
-## Insight
+## Insight {#insights}
 
 >[!CONTEXTUALHELP]
->id="target_ai_insights"
+>id="target_ai_insights_insights"
 >title="Insight"
 >abstract="Gli insight dagli esperimenti sono informazioni acquisite dall’IA una volta che i dati di un esperimento raggiungono un livello di significatività statistica."
 

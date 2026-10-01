@@ -31,9 +31,9 @@ topic_v2:
     internal-label: Machine learning
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: bf39456558115ef589b2dff4a5de0711ee5963aa
 workflow-type: tm+mt
-source-wordcount: '1644'
+source-wordcount: '1627'
 ht-degree: 70%
 ---
 # Introduzione a [!DNL Target]
@@ -113,11 +113,6 @@ ht-degree: 70%
 >id="target_ai_insights_hypothesis"
 >title="Ipotesi"
 >abstract="L’ipotesi è un’istruzione da te definita che spiega il risultato atteso dell’esperimento. Includi una descrizione di cosa viene modificato e dove, quindi specifica la metrica che dovrebbe cambiare, e il tipo di cambiamento che ti aspetti."
-
->[!CONTEXTUALHELP]
->id="target_ai_insights_insights"
->title="Insight"
->abstract="Gli insight dagli esperimenti sono informazioni acquisite dall’IA una volta che i dati di un esperimento raggiungono un livello di significatività statistica."
 
 >[!CONTEXTUALHELP]
 >id="target_ai_insights_opportunities"
@@ -224,6 +219,6 @@ Il seguente video spiega i tipi di attività disponibili in [!DNL Target Standar
 * Selezionare il tipo di attività appropriato per i tuoi obiettivi
 * Descrizione del flusso di lavoro guidato in tre passaggi da applicare a tutti i tipi di attività
 
->[!VIDEO](https://video.tv.adobe.com/v/36365?captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/17386)
 
 
