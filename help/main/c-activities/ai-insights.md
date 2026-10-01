@@ -4,10 +4,10 @@ description: Scopri come utilizzare le informazioni generate dall’intelligenza
 title: Informazioni sull’intelligenza artificiale nella panoramica dell’attività
 feature: Activities
 badge: label="Beta" type="Informative"
-source-git-commit: 88a811c3ae521b94ceb6350ba44aa2d40afda2b6
+source-git-commit: 8d2b3af9942acbf30519c1f7b32fe79bed1f2eaa
 workflow-type: tm+mt
-source-wordcount: '766'
-ht-degree: 31%
+source-wordcount: '763'
+ht-degree: 27%
 ---
 # Informazioni sull’intelligenza artificiale
 
@@ -24,7 +24,7 @@ Il menu **[!UICONTROL Informazioni IA]** nella **[!UICONTROL Panoramica attivit�
 >[!CONTEXTUALHELP]
 >id="target_ai_insights"
 >title="Insight"
->abstract="Gli insight dagli esperimenti sono informazioni acquisite dall’IA una volta che i dati di un esperimento raggiungono un livello di significatività statistica."
+>abstract="Gli insights sono risultati generati dall’intelligenza artificiale che diventano disponibili quando l’esperimento raggiunge la rilevanza statistica."
 
 >[!CONTEXTUALHELP]
 >id="target_ai_insights_primary_metric"
@@ -99,7 +99,7 @@ Una volta completata la configurazione, l’attività è pronta per generare opp
 >[!CONTEXTUALHELP]
 >id="target_ai_insights_insights"
 >title="Insight"
->abstract="Gli insight dagli esperimenti sono informazioni acquisite dall’IA una volta che i dati di un esperimento raggiungono un livello di significatività statistica."
+>abstract="Gli insight dell’esperimento sono insegnamenti generati dall’intelligenza artificiale che diventano disponibili quando l’esperimento raggiunge la rilevanza statistica."
 
 Le informazioni sugli esperimenti sono informazioni generate dall’intelligenza artificiale derivate da questo esperimento. Queste informazioni diventano disponibili quando l’esperimento raggiunge una rilevanza statistica e forniscono un contesto su ciò che ha contribuito al suo successo. Evidenziano gli attributi chiave presenti nell’esperienza vincente che sono distinti dal controllo e che probabilmente hanno influenzato il risultato.
 
