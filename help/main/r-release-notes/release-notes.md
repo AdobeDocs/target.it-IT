@@ -29,10 +29,10 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 340fe2c3fadde03a6a592a16d687c483099dfd88
+source-git-commit: fb81a52b8e3c6301b63f5a98ce7d4873cf66d6ac
 workflow-type: tm+mt
-source-wordcount: '914'
-ht-degree: 30%
+source-wordcount: '1062'
+ht-degree: 28%
 ---
 # Note sulla versione (corrente) di [!DNL Target]
 
@@ -41,6 +41,46 @@ Esplora le funzioni, i miglioramenti e le correzioni più recenti in [!DNL Adobe
 I codici dei problemi tra parentesi sono per uso interno di [!DNL Adobe].
 
 ## [!DNL Target Standard/Premium] 26.9.7 (28 settembre 2026)
+
+### Funzioni
+
+<table>
+<thead>
+<tr>
+<th><strong>Calcolatore dimensioni campione</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Il Calcolatore dimensione campione consente di pianificare gli esperimenti prima del lancio stimando il traffico necessario, la durata del test, il numero di esperienze o l’effetto minimo rilevabile in modo affidabile. Disponibile dal menu Attività, utilizza i tuoi input per aiutarti a determinare le risorse e il runtime necessari per il test.</p>
+<p>La funzione del Calcolatore dimensione campione è attualmente disponibile come funzione beta.</p>
+<p>Per ulteriori informazioni, consulta la <a href="../c-activities/sample-size-calculator.md">documentazione dettagliata</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Approfondimenti IA</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Gli insights sull’intelligenza artificiale forniscono insegnamenti sugli esperimenti generati dall’intelligenza artificiale e opportunità di ottimizzazione per le attività di test A/B con allocazione manuale del traffico. Quando un esperimento raggiunge la rilevanza statistica, le informazioni evidenziano gli attributi dell’esperienza vincente che probabilmente hanno contribuito alla sua performance. Le opportunità suggerite includono nuove idee di esperienza, ipotesi e linee guida sull’implementazione per contribuire a migliorare i tassi di conversione.</p>
+<p>La funzione Informazioni sull’intelligenza artificiale è attualmente disponibile come funzione beta.</p>
+<p>Per ulteriori informazioni, consulta la <a href="../c-activities/ai-insights.md">documentazione dettagliata</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+### Migliori
+
+
 
 **[!UICONTROL Funzione Consigli]**
 
