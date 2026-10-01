@@ -3,10 +3,10 @@ user-guide-title: Guida di Adobe Target per professionisti aziendali
 breadcrumb-title: Guida di Target
 user-guide-description: Scopri come personalizzare le esperienze dei clienti su siti web, app e canali social per incrementare le entrate.
 feature-set: Target
-source-git-commit: 57fda375b52d514f7af207a6bf4bbdaf18b815ea
+source-git-commit: b8d259ffb03092740b50fe317f181f4b7c91e8d5
 workflow-type: tm+mt
-source-wordcount: '1317'
-ht-degree: 83%
+source-wordcount: '1327'
+ht-degree: 82%
 ---
 
 # Guida di Adobe Target per professionisti aziendali {#using}
@@ -31,6 +31,7 @@ ht-degree: 83%
     + [Abilita Assistente IA](/help/main/c-intro/enabling-ai-assistant.md)
     + [Utilizzare l’Assistente AI per acquisire conoscenze sul prodotto](/help/main/c-intro/ai-assistant-product-knowledge.md)
     + {hide-from-toc}[Utilizza l&#39;Assistente AI per la generazione di contenuti](/help/main/c-intro/ai-assistant-content-generation.md)
+  + [Competenze dei collaboratori per Adobe Target](c-intro/coworker-skills.md)
   + Kit di benvenuto Adobe Target {#welcome}
     + [Panoramica del kit di benvenuto di Target](/help/main/c-intro/target-welcome-kit.md)
     + [Capitolo 1: Introduzione](/help/main/c-intro/target-welcome-kit-1.md)
@@ -123,6 +124,7 @@ ht-degree: 83%
 + Attività {#activities}
   + [Panoramica sulle attività](c-activities/activities.md)
   + [Dashboard approfondimenti](c-activities/insights-dashboard.md)
+  + [Calcolatore dimensione campione](c-activities/sample-size-calculator.md)
   + [Tipi di attività di Target](c-activities/target-activities-guide.md)
   + Test A/B {#abtest}
     + [Panoramica sui test A/B](c-activities/t-test-ab/test-ab.md)
@@ -194,6 +196,7 @@ ht-degree: 83%
     + [Tracciamento dei clic](c-activities/r-success-metrics/click-tracking.md)
     + [Acquisire il punteggio](c-activities/r-success-metrics/capture-score.md)
   + [Registro delle modifiche apportate alle attività](c-activities/change-log.md)
+  + [Informazioni sull’intelligenza artificiale](c-activities/ai-insights.md)
   + Risolvere i problemi relativi alle attività {#troubleshoot-activities}
     + [Panoramica sui problemi relativi alle attività](c-activities/c-troubleshooting-activities/troubleshooting-activities.md)
     + [Risolvere i problemi relativi alla distribuzione dei contenuti](c-activities/c-troubleshooting-activities/content-trouble.md)
