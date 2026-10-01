@@ -29,10 +29,10 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: fb81a52b8e3c6301b63f5a98ce7d4873cf66d6ac
+source-git-commit: b6d899d12b0a9d9afe261a6f4e3c3dab209c21b6
 workflow-type: tm+mt
-source-wordcount: '1062'
-ht-degree: 28%
+source-wordcount: '1112'
+ht-degree: 26%
 ---
 # Note sulla versione (corrente) di [!DNL Target]
 
@@ -40,7 +40,7 @@ Esplora le funzioni, i miglioramenti e le correzioni più recenti in [!DNL Adobe
 
 I codici dei problemi tra parentesi sono per uso interno di [!DNL Adobe].
 
-## [!DNL Target Standard/Premium] 26.9.7 (28 settembre 2026)
+## [!DNL Target Standard/Premium] 26.9.8 (30 settembre 2026)
 
 ### Funzioni
 
@@ -80,6 +80,15 @@ I codici dei problemi tra parentesi sono per uso interno di [!DNL Adobe].
 
 ### Migliori
 
+**[!UICONTROL Amministrazione]**
+
++++ Vedi i dettagli
+
+* **Impossibile concedere autorizzazioni di IA agli utenti**. Gli utenti con l’accesso di amministratore di prodotto e amministratore di sistema non potevano concedere autorizzazioni di intelligenza artificiale ad altri utenti. Il tentativo di abilitare l&#39;autorizzazione AI ha restituito un errore `Unauthorized`, anche quando l&#39;intelligenza artificiale era abilitata per l&#39;organizzazione. (TGT-56261)
+
++++
+
+## [!DNL Target Standard/Premium] 26.9.7 (28 settembre 2026)
 
 
 **[!UICONTROL Funzione Consigli]**
