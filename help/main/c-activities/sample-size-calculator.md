@@ -157,7 +157,7 @@ Stimare gli input di pianificazione per un’attività A/B che si basa sui dati 
 
    * **[!UICONTROL Varianza]**: distribuzione dei valori delle metriche. Un tasso di click-through ha in genere una varianza bassa e i ricavi per utente possono essere molto più elevati. In caso di dubbi, lascia il valore predefinito su 1.
 
-     Scopri come calcolare una **[!UICONTROL Varianza]** in [Documentazione di Analytics](https://experienceleague.adobe.com/it/docs/analytics/components/calculated-metrics/calcmetrics-reference/cm-functions#variance)
+     Scopri come calcolare una **[!UICONTROL Varianza]** in [Documentazione di Analytics](https://experienceleague.adobe.com/en/docs/analytics/components/calculated-metrics/calcmetrics-reference/cm-functions#variance)
 
      ![](assets/calculator-cja-analytics-2.png)
 
