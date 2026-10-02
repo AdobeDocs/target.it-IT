@@ -27,9 +27,9 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7dc5040aaa3efc4e65ed19a53e4401b152e7661e
 workflow-type: tm+mt
-source-wordcount: '1443'
+source-wordcount: '1442'
 ht-degree: 23%
 ---
 # Interfaccia utente di [!DNL Target]
@@ -62,11 +62,11 @@ Seleziona l&#39;organizzazione desiderata dall&#39;elenco a discesa [!UICONTROL 
 
 Fornisci una descrizione per il tuo feedback, includi i file o le schermate applicabili ed eventuali dettagli aggiuntivi, a seconda delle necessità, quindi fai clic su **[!UICONTROL Invia]**.
 
-### [!DNL AI Assistant]
+### [!DNL Coworker]
 
-(Condizionale) Se ti sono stati concessi i diritti per utilizzare [!DNL AI Assistant] da parte dell&#39;organizzazione, fai clic sull&#39;icona [!DNL AI Assistant].
+(Condizionale) Se ti sono stati concessi i diritti per utilizzare [!DNL Coworker] da parte dell&#39;organizzazione, fai clic sull&#39;icona [!DNL Coworker].
 
-Per ulteriori informazioni, vedere [Panoramica dell&#39;Assistente di Adobe Experience Platform AI](/help/main/c-intro/ai-assistant.md).
+Per ulteriori informazioni, consulta [Competenze come collaboratore per Adobe Target](/help/main/c-intro/coworker-skills.md).
 
 ### Aiuto
 

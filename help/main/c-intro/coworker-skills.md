@@ -6,7 +6,7 @@ feature: Overview
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
     internal-label: Target
-source-git-commit: cc4c6b77fa6c600723813b939ba1e5323836ebcc
+source-git-commit: 4b90f47050b63c7e1e6ac5019d45a7b99b3a33b8
 workflow-type: tm+mt
 source-wordcount: '798'
 ht-degree: 2%
@@ -49,166 +49,166 @@ Le seguenti abilità sono disponibili nel plug-in **Target**:
 
   Rilevamento, ispezione e conteggio in sola lettura delle entità Target, incluse attività, tipi di pubblico, offerte e configurazione correlata.
 
-  >[!BEGINSHADEBOX]
+>[!BEGINSHADEBOX]
 
-  *Esempi di prompt:*
+*Esempi di prompt:*
 
-  * &quot;Elencare le attività attive&quot;
-  * &quot;Quante attività sono attualmente in esecuzione?&quot;
-  * &quot;Mostrami i tipi di pubblico e le offerte utilizzati da questa attività.&quot;
+* &quot;Elencare le attività attive&quot;
+* &quot;Quante attività sono attualmente in esecuzione?&quot;
+* &quot;Mostrami i tipi di pubblico e le offerte utilizzati da questa attività.&quot;
 
-  >[!ENDSHADEBOX]
+>[!ENDSHADEBOX]
 
 * **Verdetto attività Target**
 
   Determina se un&#39;attività è pronta per essere spedita, deve attendere ulteriori dati, deve arrestarsi o richiede una correzione, utilizzando calcoli di significatività e controlli di configurazione.
 
-  >[!BEGINSHADEBOX]
+>[!BEGINSHADEBOX]
 
-  *Esempi di prompt:*
+*Esempi di prompt:*
 
-  * &quot;Dovrei spedire questo test?&quot;
-  * &quot;Questa attività è pronta per essere interrotta?&quot;
-  * &quot;La configurazione dell’attività corrente presenta problemi?&quot;
+* &quot;Dovrei spedire questo test?&quot;
+* &quot;Questa attività è pronta per essere interrotta?&quot;
+* &quot;La configurazione dell’attività corrente presenta problemi?&quot;
 
-  >[!ENDSHADEBOX]
+>[!ENDSHADEBOX]
 
 * **Progettazione destinazione**
 
   Crea e configura attività e offerte, genera URL di controllo qualità e crea o ottimizza il contenuto delle offerte.
 
-  >[!BEGINSHADEBOX]
+>[!BEGINSHADEBOX]
 
-  *Esempi di prompt:*
+*Esempi di prompt:*
 
-  * &quot;Crea un test A/B per la pagina home.&quot;
-  * &quot;Crea un’offerta per l’esperienza del visitatore di ritorno.&quot;
-  * &quot;Genera un URL di controllo qualità per questa attività.&quot;
+* &quot;Crea un test A/B per la pagina home.&quot;
+* &quot;Crea un’offerta per l’esperienza del visitatore di ritorno.&quot;
+* &quot;Genera un URL di controllo qualità per questa attività.&quot;
 
-  >[!ENDSHADEBOX]
+>[!ENDSHADEBOX]
 
 * **VEC di Target**
 
   Crea e modifica le attività del Compositore esperienza visivo e i relativi tipi di pubblico per la distribuzione delle pagine.
 
-  >[!BEGINSHADEBOX]
+>[!BEGINSHADEBOX]
 
-  *Esempi di prompt:*
+*Esempi di prompt:*
 
-  * &quot;Crea un test A/B VEC per la home page.&quot;
-  * &quot;Modifica il titolo principale protagonista nell’attività del Compositore esperienza visivo.&quot;
-  * &quot;Crea un pubblico per la consegna delle pagine per questa attività del Compositore esperienza visivo.&quot;
+* &quot;Crea un test A/B VEC per la home page.&quot;
+* &quot;Modifica il titolo principale protagonista nell’attività del Compositore esperienza visivo.&quot;
+* &quot;Crea un pubblico per la consegna delle pagine per questa attività del Compositore esperienza visivo.&quot;
 
-  >[!ENDSHADEBOX]
+>[!ENDSHADEBOX]
 
 * **Installazione di Target**
 
   Le guide completano la creazione di attività A/B, Targeting esperienza o Compositore esperienza visivo, inclusi i prerequisiti, la pianificazione, il QA e l’attivazione.
 
-  >[!BEGINSHADEBOX]
+>[!BEGINSHADEBOX]
 
-  *Esempi di prompt:*
+    *Esempi di prompt:*
+    
+    * &quot;Aiutaci a creare il mio primo test.&quot;
+    * &quot;Cosa mi serve prima di creare un&#39;attività Targeting esperienza?&quot;
+    * &quot;Fammi vedere durante la pianificazione, il controllo qualità e l&#39;attivazione di questa attività.&quot;
 
-  * &quot;Aiutami a creare il mio primo test.&quot;
-  * &quot;Di cosa ho bisogno prima di creare un’attività Targeting esperienza?&quot;
-  * &quot;Fammi vedere le fasi di pianificazione, controllo qualità e attivazione di questa attività.&quot;
-
-  >[!ENDSHADEBOX]
+>[!ENDSHADEBOX]
 
 * **Informazioni di Target**
 
   Audit Programmi di Target per rischi, collisioni, configurazioni errate, problemi di igiene e risultati positivi rapidi.
 
-  >[!BEGINSHADEBOX]
+>[!BEGINSHADEBOX]
 
-  *Esempi di prompt:*
+*Esempi di prompt:*
 
-  * &quot;Controlla le attività Target&quot;
-  * &quot;Trovare conflitti o rischi di configurazione tra le mie attività.&quot;
-  * &quot;Quali risultati rapidi possono migliorare l’igiene del mio programma Target?&quot;
+* &quot;Controlla le attività Target&quot;
+* &quot;Trovare conflitti o rischi di configurazione tra le mie attività.&quot;
+* &quot;Quali risultati rapidi possono migliorare l’igiene del mio programma Target?&quot;
 
-  >[!ENDSHADEBOX]
+>[!ENDSHADEBOX]
 
 * **Stratega target**
 
   Analizza i dati storici di Target per i pattern vincenti e consiglia test futuri.
 
-  >[!BEGINSHADEBOX]
+>[!BEGINSHADEBOX]
 
-  *Esempi di prompt:*
+*Esempi di prompt:*
 
-  * &quot;Cosa devo testare dopo in base ai risultati passati?&quot;
-  * &quot;Quali modelli vengono visualizzati nei test con le prestazioni più elevate?&quot;
-  * &quot;Consiglia un test di follow-up basato sui risultati di questa attività.&quot;
+* &quot;Cosa devo testare dopo in base ai risultati passati?&quot;
+* &quot;Quali modelli vengono visualizzati nei test con le prestazioni più elevate?&quot;
+* &quot;Consiglia un test di follow-up basato sui risultati di questa attività.&quot;
 
-  >[!ENDSHADEBOX]
+>[!ENDSHADEBOX]
 
 * **Calcolatore test di destinazione**
 
   Pianifica la dimensione del campione A/B/n, la durata e l&#39;incremento rilevabile per le metriche di conversione e ricavi, con la correzione Bonferroni per più confronti.
 
-  >[!BEGINSHADEBOX]
+>[!BEGINSHADEBOX]
 
-  *Esempi di prompt:*
+*Esempi di prompt:*
 
-  * &quot;Di quale dimensione campione ho bisogno?&quot;
-  * &quot;Per quanto tempo devo eseguire questo test A/B per rilevare un incremento del 5%?&quot;
-  * &quot;Quale incremento rilevabile posso misurare con questo traffico?&quot;
+* &quot;Di quale dimensione campione ho bisogno?&quot;
+* &quot;Per quanto tempo devo eseguire questo test A/B per rilevare un incremento del 5%?&quot;
+* &quot;Quale incremento rilevabile posso misurare con questo traffico?&quot;
 
-  >[!ENDSHADEBOX]
+>[!ENDSHADEBOX]
 
 * **Report Portfolio di destinazione**
 
   Fornisce aggregazioni delle prestazioni di sola lettura a livello di programma, analisi delle tendenze delle attività e dello slancio.
 
-  >[!BEGINSHADEBOX]
+>[!BEGINSHADEBOX]
 
-  *Esempi di prompt:*
+*Esempi di prompt:*
 
-  * &quot;Quali sono i miei test migliori e peggiori?&quot;
-  * &quot;Mostrami le tendenze delle prestazioni nelle mie attività.&quot;
-  * &quot;Quali attività hanno guadagnato o perso slancio di recente?&quot;
+* &quot;Quali sono i miei test migliori e peggiori?&quot;
+* &quot;Mostrami le tendenze delle prestazioni nelle mie attività.&quot;
+* &quot;Quali attività hanno guadagnato o perso slancio di recente?&quot;
 
-  >[!ENDSHADEBOX]
+>[!ENDSHADEBOX]
 
 * **Compositore pubblico di destinazione**
 
   Crea o modifica i tipi di pubblico nativi di Target da descrizioni in linguaggio naturale o da regole esplicite.
 
-  >[!BEGINSHADEBOX]
+>[!BEGINSHADEBOX]
 
-  *Esempi di prompt:*
+*Esempi di prompt:*
 
-  * &quot;Crea un pubblico per i visitatori di ritorno da dispositivi mobili.&quot;
-  * &quot;Modifica questo pubblico per includere i visitatori della ricerca organica.&quot;
-  * &quot;Crea un pubblico Target per i visitatori che hanno visualizzato la pagina dei prezzi.&quot;
+* &quot;Crea un pubblico per i visitatori di ritorno da dispositivi mobili.&quot;
+* &quot;Modifica questo pubblico per includere i visitatori della ricerca organica.&quot;
+* &quot;Crea un pubblico Target per i visitatori che hanno visualizzato la pagina dei prezzi.&quot;
 
-  >[!ENDSHADEBOX]
+>[!ENDSHADEBOX]
 
 * **Consigli di Target**
 
   Gestisce e lavora con le attività e le configurazioni di Target Recommendations.
 
-  >[!BEGINSHADEBOX]
+>[!BEGINSHADEBOX]
 
-  *Esempi di prompt:*
+*Esempi di prompt:*
 
-  * &quot;Creare un’attività Consigli.&quot;
-  * &quot;Mostra le attività e le configurazioni consigliate&quot;.
-  * &quot;Aggiorna le impostazioni per questa attività Consigli.&quot;
+* &quot;Creare un’attività Consigli.&quot;
+* &quot;Mostra le attività e le configurazioni consigliate&quot;.
+* &quot;Aggiorna le impostazioni per questa attività Consigli.&quot;
 
-  >[!ENDSHADEBOX]
+>[!ENDSHADEBOX]
 
 * **Diagnosi consigli di destinazione**
 
   Diagnostica i problemi relativi a distribuzione, configurazione, catalogo e feed dei consigli.
 
-  >[!BEGINSHADEBOX]
+>[!BEGINSHADEBOX]
 
-  *Esempi di prompt:*
+*Esempi di prompt:*
 
-  * &quot;Perché i miei consigli non vengono visualizzati?&quot;
-  * &quot;Diagnosticare la configurazione del feed e del catalogo per questa attività Consigli.&quot;
-  * &quot;I problemi di consegna o configurazione influiscono sui consigli?&quot;
+* &quot;Perché i miei consigli non vengono visualizzati?&quot;
+* &quot;Diagnosticare la configurazione del feed e del catalogo per questa attività Consigli.&quot;
+* &quot;I problemi di consegna o configurazione influiscono sui consigli?&quot;
 
-  >[!ENDSHADEBOX]
+>[!ENDSHADEBOX]

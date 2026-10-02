@@ -73,10 +73,10 @@ topic_v2:
     internal-label: Privacy
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7dc5040aaa3efc4e65ed19a53e4401b152e7661e
 workflow-type: tm+mt
-source-wordcount: '72534'
-ht-degree: 47%
+source-wordcount: '72418'
+ht-degree: 48%
 ---
 # Note sulla versione per le versioni precedenti
 
@@ -2085,15 +2085,17 @@ Questa versione include le correzioni e gli aggiornamenti seguenti:
 * È stato aggiunto un messaggio di errore per avvisare gli utenti quando un arco temporale del pubblico non è valido. (TGT52522)
 * È stata aggiornata la struttura delle attività per supportare tipi di pubblico duplicati di diversi tipi. (TGT-51200)
 
-### Versione di [!DNL Adobe Target] [!DNL AI Assistant] (16 maggio 2025)
+<!--
+### [!DNL Adobe Target] [!DNL AI Assistant] release (May 16, 2025)
 
-Siamo entusiasti di annunciare il lancio di [!DNL AI Assistant] in [!DNL Adobe Target]. Questa potente funzionalità dell&#39;interfaccia utente è stata progettata per facilitare la navigazione e la comprensione dei concetti di [!DNL Target]. Disponibile in più prodotti in [!DNL Adobe Experience Cloud], tra cui [!DNL Target], [!DNL AI Assistant] è qui per rivoluzionare la tua esperienza.
+We are thrilled to announce the launch of the [!DNL AI Assistant] in [!DNL Adobe Target]! This powerful user interface feature is designed to help you navigate and understand [!DNL Target] concepts with ease. Available across multiple products in [!DNL Adobe Experience Cloud], including [!DNL Target], [!DNL AI Assistant] is here to revolutionize your experience.
 
-[!DNL AI Assistant] in [!UICONTROL Target] è uno strumento di conversazione che puoi utilizzare per accelerare i flussi di lavoro con le applicazioni e i servizi [!DNL Experience Platform]. Utilizza [!DNL AI Assistant] per migliorare la tua produttività complessiva e approfondire la tua conoscenza dei prodotti
+[!DNL AI Assistant] in [!UICONTROL Target] is a conversational tool that you can use to accelerate your workflows with [!DNL Experience Platform] applications and services. Use [!DNL AI Assistant] to boost your overall productivity and amplify your understanding of product knowledge
 
-In [!DNL Target], la prima fase di [!DNL AI Assistant] fornisce informazioni preziose sui prodotti basate sulla documentazione di [!DNL Experience League]. Sono state trattate sia la configurazione di uno script di profilo, la risoluzione di problemi o l&#39;aggiornamento a AEP Web SDK, [!DNL AI Assistant].
+In [!DNL Target], the first phase of [!DNL AI Assistant] provides invaluable product knowledge grounded in [!DNL Experience League] documentation. Whether you're setting up a profile script, troubleshooting errors, or considering an upgrade to the AEP Web SDK, [!DNL AI Assistant] has you covered.
 
-Per ulteriori informazioni, vedere [Panoramica dell&#39;Assistente di Adobe Experience Platform AI](/help/main/c-intro/ai-assistant.md).
+For more information, see [Coworker skills for Adobe Target](/help/main/c-intro/coworker-skills.md).
+-->
 
 ### [!DNL Target Standard/Premium] 25.5.2 (8 maggio 2025)
 
@@ -2882,12 +2884,12 @@ Questa versione include i miglioramenti e le correzioni seguenti:
 
 Questa versione include i miglioramenti e le correzioni seguenti:
 
-* È stato aggiunto il supporto [per i User Agent Client Hints](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/user-agent-and-client-hints.html?lang=it){target=_blank}.
+* È stato aggiunto il supporto [per gli User-Agent Client Hints](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/user-agent-and-client-hints.html?lang=it){target=_blank}.
 * È stato risolto un problema che causava timeout in modo intermittente durante il rendering di [!UICONTROL Decisioni di offerta] nelle attività [!UICONTROL Targeting esperienza] (XT). (TNT-44611)
 
 ### at.js versione 2.9.0 (27 maggio 2022)
 
-* È stato aggiunto il supporto [per i User Agent Client Hints](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/user-agent-and-client-hints.html?lang=it){target=_blank}.
+* È stato aggiunto il supporto [per gli User-Agent Client Hints](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/user-agent-and-client-hints.html?lang=it){target=_blank}.
 * È stato corretto un errore per cui più richieste di mbox sulla stessa pagina avevano ID di impression diversi.
 
 ### [!DNL Target Standard/Premium] 22.5.1 (rilascio scaglionato; 11-13 maggio 2022)
