@@ -1,34 +1,45 @@
 ---
 keywords: analisi del percorso di clienti;analisi del percorso di clienti per target;origine per la generazione di rapporti analisi del percorso di clienti;analisi del percorso di clienti come origine per la generazione di rapporti per target;generazione di rapporti target in cja; generazione di rapporti target in Customer Journey Analytics
-description: Utilizza  [!DNL Target] creazione di rapporti in [!DNL Adobe Customer Journey Analytics] per creare attività basate su [!DNL Customer Journey Analytics] metriche di conversione e segmenti di pubblico e utilizza [!DNL Customer Journey Analytics] rapporti per esaminare i risultati.
-title: Cos'è il reporting di  [!DNL Target]  in [!DNL Adobe Customer Journey Analytics]?
+description: Utilizza il reporting [!DNL Target] in [!DNL Adobe Customer Journey Analytics] per creare attività basate su [!DNL Customer Journey Analytics] metriche di conversione e segmenti di pubblico e utilizza i report [!DNL Customer Journey Analytics] per esaminare i risultati.
+title: Cosa è il reporting di [!DNL Target] in [!DNL Adobe Customer Journey Analytics]?
 feature: Integrations
 exl-id: 67b20bf6-ffbe-4220-9455-cb3886bb9227
 TQID: https://experienceleague.adobe.com/bEwtqdwOsXyDbBUdxZKMl3I3LLTgxdxURvXjrfco-WI
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
   - id: f7c7de77-382f-4f48-8b36-61a170f06d3d
+    internal-label: Integrations
 subfeature_v2:
   - id: df62f171-ac37-440f-8f0f-f41a72ebdd34
+    internal-label: Analytics integration
   - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+    internal-label: at.js
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
+    internal-label: Experimentation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 5b60a40e83437c535ccb3a7e7800493619fc62c8
+    internal-label: Administration
+source-git-commit: f5c3f6f1b0cc044f0daaafb59643b8ffb3e3f8e4
 workflow-type: tm+mt
-source-wordcount: 1754
-ht-degree: 20%
-
+source-wordcount: '1826'
+ht-degree: 21%
 ---
-
 # Generazione rapporti per [!DNL Target] in [!DNL Adobe Customer Journey Analytics]
 
 L&#39;integrazione tra [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/it/docs/customer-journey-analytics){target=_blank} e [!DNL Target] offre potenti strumenti di analisi che consentono di risparmiare tempo per il programma di ottimizzazione.
@@ -55,7 +66,7 @@ Prima di utilizzare l&#39;integrazione di [!DNL Customer Journey Analytics] e [!
 * Essere parte di un ruolo in [!DNL Adobe Experience Platform] per impostare un&#39;attività [!DNL Target] con [!DNL Customer Journey Analytics] come origine per la generazione di rapporti. Per ulteriori informazioni, vedere [Aggiungere un ruolo in [!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/it/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/configure-permissions#add-a-role-in-adobe-experience-platform-requires-a-system-administrator-or-product-admin){target=_blank} in *Configurare le autorizzazioni* nell&#39;esercitazione *Architetto dati e ingegnere.*
 * A seconda delle impostazioni, il reporting può essere modificato per attività o a livello di organizzazione. Consulta [Soluzione Reporting Cloud](/help/main/administrating-target/reporting.md#solution) in *Configurare il reporting in Target*.
 * Per la generazione dei rapporti, utilizza un’origine o l’altra. Non è possibile raccogliere dati per una singola attività da diverse origini di reporting.
-* Quando imposti [!DNL Customer Journey Analytics] come origine per la generazione dei rapporti, ti viene richiesto di specificare la sandbox e la visualizzazione dati per la generazione dei rapporti. Durante la configurazione, vengono visualizzate solo le sandbox e le visualizzazioni dati a cui hai accesso.
+* Quando imposti [!DNL Customer Journey Analytics] come origine di reporting, ti viene richiesto di specificare la sandbox per la generazione dei rapporti. Per le attività A/B con suddivisione manuale del traffico o [!UICONTROL Allocazione automatica], puoi anche selezionare una visualizzazione dati e una metrica [!DNL Customer Journey Analytics] in [!DNL Target]. Queste opzioni di selezione non sono disponibili per le attività [!UICONTROL Targeting esperienza], [!UICONTROL Test multivariato] o [!UICONTROL Consigli]. Durante la configurazione, vengono visualizzate solo le sandbox e le visualizzazioni dati a cui hai accesso.
 * Tutte le attività [!DNL Target] esistenti continuano a utilizzare la raccolta dati [!DNL Target] e non sono interessate dall&#39;abilitazione di questa integrazione.
 * Per utilizzare questa integrazione, il metodo di implementazione preferito ha [[!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/it/docs/experience-platform){target=_blank} e [!DNL Target] implementati tramite [[!DNL Adobe Experience Platform Web SDK]](https://experienceleague.adobe.com/it/docs/target-dev/developer/client-side/aep/aep-web-sdk-overview){target=_blank}.
 
@@ -73,15 +84,15 @@ Prima di utilizzare l&#39;integrazione di [!DNL Customer Journey Analytics] e [!
 
 I seguenti tipi di attività sono supportati quando si utilizza [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/it/docs/target-dev/developer/client-side/aep/aep-web-sdk-overview){target=_blank} o la libreria JavaScript [at.js](https://experienceleague.adobe.com/it/docs/target-dev/developer/client-side/at-js-implementation/overview){target=_blank}:
 
-| Tipi di attività | Supportate? |
-|--- |--- |
-| [Attività A/B con suddivisione manuale del traffico](/help/main/c-activities/t-test-ab/test-ab.md) | Sì |
-| [Attività A/B con allocazione automatica](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | Sì |
-| [Attività A/B con targeting automatico](/help/main/c-activities/auto-target/auto-target-to-optimize.md) | No |
-| [Targeting delle esperienze (XT)](/help/main/c-activities/t-experience-target/experience-target.md) | Sì |
-| [Test multivariato (MVT)](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md) | Sì |
-| [Attività di Automated Personalization (AP)](/help/main/c-activities/t-automated-personalization/automated-personalization.md) | No |
-| [Attività di Consigli](/help/main/c-recommendations/recommendations.md) | Sì |
+| Tipi di attività | Supportate? | Visualizzazione dati supportata? |
+|--- |--- |--- |
+| [Attività A/B con suddivisione manuale del traffico](/help/main/c-activities/t-test-ab/test-ab.md) | Sì | Sì |
+| [Attività A/B con allocazione automatica](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | Sì | Sì |
+| [Attività A/B con targeting automatico](/help/main/c-activities/auto-target/auto-target-to-optimize.md) | No | No |
+| [Targeting delle esperienze (XT)](/help/main/c-activities/t-experience-target/experience-target.md) | Sì | No |
+| [Test multivariato (MVT)](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md) | Sì | No |
+| [Attività di Automated Personalization (AP)](/help/main/c-activities/t-automated-personalization/automated-personalization.md) | No | No |
+| [Attività di Consigli](/help/main/c-recommendations/recommendations.md) | Sì | No |
 
 Le attività [!UICONTROL Targeting automatico] e [!UICONTROL Automated Personalization] non supportano ancora [!DNL Customer Journey Analytics] come origine per la generazione di rapporti.
 
@@ -107,7 +118,7 @@ La creazione di un’attività [!DNL Target] che utilizza [!DNL Customer Journey
 
    ![Seleziona opzione sandbox](/help/main/c-integrating-target-with-mac/cja/assets/sandbox.png)
 
-1. Seleziona una **[!UICONTROL Visualizzazione dati]**. Una visualizzazione dati funziona come una suite di rapporti [!DNL Analytics] per [!DNL Customer Journey Analytics]. Vengono visualizzate solo le visualizzazioni dati nella sandbox selezionata a cui hai accesso.
+1. Per le attività A/B con suddivisione manuale del traffico o [!UICONTROL Allocazione automatica], seleziona una **[!UICONTROL Visualizzazione dati]**. Una visualizzazione dati funziona come una suite di rapporti [!DNL Analytics] per [!DNL Customer Journey Analytics]. Vengono visualizzate solo le visualizzazioni dati nella sandbox selezionata a cui hai accesso.
 
    ➡️ [Ulteriori informazioni sulla visualizzazione dati nella documentazione di Adobe Customer Journey Analytics](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-dataviews/data-views)
 
@@ -115,7 +126,7 @@ La creazione di un’attività [!DNL Target] che utilizza [!DNL Customer Journey
 
    * **[!UICONTROL Conversione]**: scegli l&#39;azione che il pubblico deve intraprendere per indicare che l&#39;obiettivo è stato raggiunto. [Ulteriori informazioni sulle metriche di successo](/help/main/c-activities/r-success-metrics/success-metrics.md).
 
-   * **[!UICONTROL Usa una metrica di Customer Journey Analytics]**: scegliere una metrica [!DNL Customer Journey Analytics] o una metrica calcolata dalla visualizzazione dati selezionata. Questa metrica funge da criterio di ottimizzazione. Il modello viene eseguito sui dati [!DNL Customer Journey Analytics] e aggiorna i dati sulle prestazioni con la stessa frequenza utilizzata per il reporting [!DNL Customer Journey Analytics].
+   * **[!UICONTROL Usa una metrica di Customer Journey Analytics]**: disponibile solo per attività A/B con suddivisione manuale del traffico o [!UICONTROL Allocazione automatica]. Scegliere una metrica [!DNL Customer Journey Analytics] o una metrica calcolata dalla visualizzazione dati selezionata. Questa metrica funge da criterio di ottimizzazione. Il modello viene eseguito sui dati [!DNL Customer Journey Analytics] e aggiorna i dati sulle prestazioni con la stessa frequenza utilizzata per il reporting [!DNL Customer Journey Analytics].
 
    ![Utilizza un’opzione di metrica di Customer Journey Analytics in Metrica per obiettivo](/help/main/c-integrating-target-with-mac/cja/assets/goal-metric.png)
 

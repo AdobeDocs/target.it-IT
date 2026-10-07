@@ -7,21 +7,25 @@ exl-id: 73d5c80c-bfa2-4806-8c04-652781b70bf2
 TQID: https://experienceleague.adobe.com/oCyCtd21XayR3G4ClrQwyqcrgyxS4nmUONE-iIwavOY
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
 subfeature_v2:
   - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+    internal-label: at.js
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Customer experience
+source-git-commit: 47dd2c2489f6805aec15fbfd044725a5698ced49
 workflow-type: tm+mt
-source-wordcount: 707
-ht-degree: 39%
-
+source-wordcount: '828'
+ht-degree: 33%
 ---
-
 # Dispositivi mobili
 
 Crea tipi di pubblico in [!DNL Adobe Target] per indirizzare l&#39;attività a dispositivi mobili in base a parametri quali dispositivo mobile, tipo di dispositivo, fornitore, dimensioni dello schermo e altro ancora.
@@ -89,6 +93,14 @@ L’aggiornamento iOS 12.2 (o versioni successive) non influisce sull’identifi
 ### Targeting di dispositivi con Safari 14.0.2 (o versione successiva)
 
 Quando si utilizzano le regole per dispositivi mobili per eseguire il targeting di dispositivi che eseguono Safari versione 14.0.2 (o successiva) su macOS, a causa di un problema noto che coinvolge gli agenti utente e DeviceAtlas di Apple, [!DNL Target] identifica in modo errato Safari sui dispositivi Mac e iPad. Questo problema sarà affrontato in futuro.
+
+### Script personalizzati che sovrascrivono l’agente utente {#custom-scripts-overwrite-user-agent}
+
+Poiché il targeting dei dispositivi mobili si basa sulla stringa dell&#39;agente utente, qualsiasi script personalizzato nella pagina che modifica `navigator.userAgent` prima che [!DNL Target] legga può causare un errore nel targeting dei dispositivi.
+
+Se il sito Web dispone di uno script personalizzato che ascolta tutti gli eventi anziché l&#39;evento specifico necessario, potrebbe intercettare involontariamente un evento [!DNL Web SDK] e sovrascrivere `navigator.userAgent`. Di conseguenza, [!DNL Target] riceve informazioni errate sul dispositivo invece del dispositivo effettivo del visitatore e l&#39;esperienza prevista non viene distribuita.
+
+Se il targeting del dispositivo mobile non si comporta come previsto, verificare se eventuali script personalizzati o listener di eventi nella pagina modificano `navigator.userAgent` e definiscono l&#39;ambito di tali listener nel modo più ristretto possibile in modo che non intercettino involontariamente [!DNL Target] o eventi Web SDK.
 
 ## Video di formazione: Creazione di tipi di pubblico
 

@@ -28,9 +28,9 @@ topic_v2:
     internal-label: Personalization
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
     internal-label: Machine learning
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 3c6c808c85affddc1e4734727e90472151dff692
 workflow-type: tm+mt
-source-wordcount: '2649'
+source-wordcount: '2682'
 ht-degree: 24%
 ---
 # Panoramica sulle attività
@@ -120,7 +120,7 @@ Sono disponibili le seguenti azioni (a seconda delle autorizzazioni e dello stat
 
 | Azione | Descrizione |
 | --- | --- |
-| [!UICONTROL Modifica] | Modifica l&#39;attività. È possibile modificare qualsiasi attività, incluse quelle create tramite l&#39;API [!DNL Adobe Target] o il server MCP [!DNL Adobe Target].<P>Per ulteriori informazioni sulle diverse modalità di modifica delle attività, vedere [Modificare un&#39;attività o salvarla come bozza](/help/main/c-activities/edit-activity.md). |
+| [!UICONTROL Modifica] | Modifica l&#39;attività. È possibile modificare qualsiasi attività, incluse quelle create tramite l&#39;API [!DNL Adobe Target] o il server MCP [!DNL Adobe Target]. Dopo aver modificato un’attività creata dall’API nell’interfaccia utente, questa viene considerata modificata dall’interfaccia utente. Le azioni con restrizioni precedenti, tra cui [!UICONTROL Copia] e [!UICONTROL Elimina], diventano disponibili in base alle autorizzazioni e allo stato dell&#39;attività.<P>Per ulteriori informazioni sulle diverse modalità di modifica delle attività, vedere [Modificare un&#39;attività o salvarla come bozza](/help/main/c-activities/edit-activity.md). |
 | [!UICONTROL Disattiva] | Interrompe un&#39;attività in esecuzione o pianificata. Un’attività disattivata può essere riattivata o archiviata.<P>Se disattivi o archivi un’attività e poi la riattivi in un secondo momento, un visitatore continuerà a esserne parte dopo la riattivazione se vi partecipava prima che fosse disattivata o archiviata. Ogni metrica di conversione registrata durante il periodo trascorso tra i due eventi non verrà attribuita a quell’attività. |
 | [!UICONTROL Attiva] | Avvia un’attività inattiva o pronta per essere attivata. |
 | [!UICONTROL Archivia] | Invia l&#39;attività all&#39;archivio. Per impostazione predefinita, le attività archiviate non vengono più visualizzate nell&#39;elenco [!UICONTROL Attività]. Modifica il filtro per l&#39;elenco [!UICONTROL Attività] in modo da includere le attività archiviate per visualizzarle. È possibile attivare un&#39;attività archiviata per utilizzarla nuovamente.<P>Se disattivi o archivi un’attività e poi la riattivi in un secondo momento, un visitatore continuerà a esserne parte dopo la riattivazione se si trovava in tale attività prima che fosse disattivata o archiviata. Ogni metrica di conversione registrata durante il periodo trascorso tra i due eventi non verrà attribuita a quell’attività. |
