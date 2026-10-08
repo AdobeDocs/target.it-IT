@@ -77,7 +77,7 @@ ht-degree: 68%
 >[!CONTEXTUALHELP]
 >id="target_sample_size_confidence_level"
 >title="Livello di affidabilità"
->abstract="Con quanta certezza un risultato possa essere ritenuto reale, e non solo una possibilità casuale; soglia di significatività statistica. Un livello di affidabilità del 95% significa che la possibilità di falsi positivo non supera il 5%. Con valori più alti si riducono i falsi positivi, ma sono necessari più dati."
+>abstract="Con quanta certezza un risultato possa essere ritenuto reale, e non solo una possibilità casuale; soglia di significatività statistica. Un livello di affidabilità del 95% significa che la probabilità di falsi positivi non supera il 5%. Con valori più alti si riducono i falsi positivi, ma sono necessari più dati."
 
 >[!CONTEXTUALHELP]
 >id="target_sample_size_statistical_power"
@@ -200,6 +200,6 @@ Il seguente video spiega i tipi di attività disponibili in [!DNL Target Standar
 * Selezionare il tipo di attività appropriato per i tuoi obiettivi
 * Descrizione del flusso di lavoro guidato in tre passaggi da applicare a tutti i tipi di attività
 
->[!VIDEO](https://video.tv.adobe.com/v/36365?captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/17386)
 
 
