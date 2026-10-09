@@ -7,7 +7,7 @@ badge: label="Beta" type="Informative"
 source-git-commit: 8d2b3af9942acbf30519c1f7b32fe79bed1f2eaa
 workflow-type: tm+mt
 source-wordcount: '763'
-ht-degree: 27%
+ht-degree: 36%
 ---
 # Informazioni sull’intelligenza artificiale
 
@@ -19,12 +19,12 @@ ht-degree: 27%
 
 Il menu **[!UICONTROL Informazioni IA]** nella **[!UICONTROL Panoramica attività]** fornisce accesso alle informazioni e alle opportunità di ottimizzazione. Utilizza questa scheda per rivedere gli insegnamenti dell’esperimento, confrontare i trattamenti e identificare le modifiche che potrebbero migliorare i tassi di conversione.
 
-## Configurazione per approfondimenti e opportunità IA
+## Configurazione per gli insight e le opportunità basati sull’IA
 
 >[!CONTEXTUALHELP]
 >id="target_ai_insights"
 >title="Insight"
->abstract="Gli insights sono risultati generati dall’intelligenza artificiale che diventano disponibili quando l’esperimento raggiunge la rilevanza statistica."
+>abstract="Gli insight sono risultati generati dall’IA che diventano disponibili quando l’esperimento raggiunge la significatività statistica."
 
 >[!CONTEXTUALHELP]
 >id="target_ai_insights_primary_metric"
@@ -38,8 +38,8 @@ Il menu **[!UICONTROL Informazioni IA]** nella **[!UICONTROL Panoramica attivit�
 
 >[!CONTEXTUALHELP]
 >id="target_ai_insights_treatment_details"
->title="Dettagli esperienza"
->abstract="I dettagli dell’esperienza mostrano immagini di come si presenta un’esperienza quando un utente ne è idoneo. Puoi rivedere queste immagini per tutti gli esperimenti. Per alcuni esperimenti potrebbe essere necessario confermare l’immagine o sostituirla."
+>title="Dettagli dell’esperienza"
+>abstract="I dettagli dell’esperienza mostrano immagini di come si presenta un’esperienza quando un utente si qualifica per questa. Puoi rivedere queste immagini per tutti gli esperimenti. Per alcuni esperimenti potrebbe essere necessario confermare l’immagine o sostituirla."
 
 >[!CONTEXTUALHELP]
 >id="target_ai_insights_primary_metric"
@@ -99,7 +99,7 @@ Una volta completata la configurazione, l’attività è pronta per generare opp
 >[!CONTEXTUALHELP]
 >id="target_ai_insights_insights"
 >title="Insight"
->abstract="Gli insight dell’esperimento sono insegnamenti generati dall’intelligenza artificiale che diventano disponibili quando l’esperimento raggiunge la rilevanza statistica."
+>abstract="Gli insight sugli esperimenti sono informazioni apprese generate dall’IA che diventano disponibili quando l’esperimento raggiunge la significatività statistica."
 
 Le informazioni sugli esperimenti sono informazioni generate dall’intelligenza artificiale derivate da questo esperimento. Queste informazioni diventano disponibili quando l’esperimento raggiunge una rilevanza statistica e forniscono un contesto su ciò che ha contribuito al suo successo. Evidenziano gli attributi chiave presenti nell’esperienza vincente che sono distinti dal controllo e che probabilmente hanno influenzato il risultato.
 
@@ -118,7 +118,7 @@ Le informazioni sugli esperimenti sono informazioni generate dall’intelligenza
 >[!CONTEXTUALHELP]
 >id="target_ai_insights_opportunities"
 >title="Opportunità"
->abstract="Le opportunità di esperimento sono idee di esperienza suggerite dall’intelligenza artificiale basate sui pattern che si trovano nelle schermate e nei risultati dell’esperimento."
+>abstract="Le opportunità dagli esperimenti sono idee di esperienze suggerite dall’IA in base ai pattern che l’IA rileva nei risultati e nelle schermate dell’esperimento."
 
 Il pannello **[!UICONTROL Opportunità]** mostra i consigli generati dall&#39;intelligenza artificiale progettati per migliorare le prestazioni dei test e allinearsi a obiettivi di business e KPI più ampi.
 
