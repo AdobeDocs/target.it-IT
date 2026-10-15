@@ -3,9 +3,9 @@ user-guide-title: Guida di Adobe Target per professionisti aziendali
 breadcrumb-title: Guida di Target
 user-guide-description: Scopri come personalizzare le esperienze dei clienti su siti web, app e canali social per incrementare le entrate.
 feature-set: Target
-source-git-commit: 4b90f47050b63c7e1e6ac5019d45a7b99b3a33b8
+source-git-commit: 53cd01d2406b8a2f8560fe380ebb5044872e6711
 workflow-type: tm+mt
-source-wordcount: '1304'
+source-wordcount: '1307'
 ht-degree: 84%
 ---
 
@@ -19,7 +19,10 @@ ht-degree: 84%
   + [Panoramica della documentazione di Target](/help/main/r-release-notes/target-documentation.md)
   + [Aggiornamenti dello stato del sistema e notifiche proattive](r-release-notes/system-status-updates.md)
   + [Modifiche alla documentazione](r-release-notes/doc-change.md)
-  + [Note sulla versione per le versioni precedenti](r-release-notes/release-notes-for-previous-releases.md)
+  + Note sulla versione per le versioni precedenti {#previous-rn}
+    + [2026](r-release-notes/release-notes-for-previous-releases.md)
+    + [2025](r-release-notes/release-notes-for-previous-releases-2025.md)
+    + [2024](r-release-notes/release-notes-for-previous-releases-2024.md)
 + Introduzione {#introduction}
   + [Introduzione a Target](c-intro/intro.md)
   + [Accedere a Target da Adobe Experience Cloud](c-intro/target-access-from-mac.md)
@@ -119,7 +122,7 @@ ht-degree: 84%
 + Attività {#activities}
   + [Panoramica sulle attività](c-activities/activities.md)
   + [Dashboard approfondimenti](c-activities/insights-dashboard.md)
-  + [Calcolatore dimensione campione](c-activities/sample-size-calculator.md)
+  + [Calcolatore delle dimensioni del campione](c-activities/sample-size-calculator.md)
   + [Tipi di attività di Target](c-activities/target-activities-guide.md)
   + Test A/B {#abtest}
     + [Panoramica sui test A/B](c-activities/t-test-ab/test-ab.md)
