@@ -242,7 +242,7 @@ Il 2022 ha portato alle imprese un ambiente dinamico e in rapida evoluzione. Sco
 
   +++Dettagli
 
-  Michael Klein (Director, Industry Strategy Retail) e Leina Betzer (Target Consultant, Adobe Premier Support) parlano di come le vendite da e-commerce nel settore retail stanno aumentando vertiginosamente con l’evolversi dei modelli e dei comportamenti di acquisto, con una maggiore domanda di beni e servizi in alcuni mercati.
+  Michael Klein (Director, Industry Strategy Retail) e Leina Betzer (Target Consultant, Adobe Premier Support) parlano di come le vendite da e-commerce nel settore retail stanno aumentando vertiginosamente con l’evolversi dei modelli e dei comportamenti di acquisto dei consumatori, con una maggiore domanda di beni e servizi in alcuni mercati.
 
   +++
 
