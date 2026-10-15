@@ -618,7 +618,7 @@ Per ulteriori informazioni, vedere [Riferimento strumenti server MCP](../c-integ
 
 +++
 
-Server MCP **[!DNL Adobe Target](Beta pubblico)**
+Server MCP **[!DNL Adobe Target] (Beta pubblico)**
 
 +++Vedi i dettagli
 
