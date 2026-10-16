@@ -18,96 +18,101 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 140a7287246905d47bf02a84348627017a619386
 workflow-type: tm+mt
-source-wordcount: '1175'
-ht-degree: 47%
+source-wordcount: '889'
+ht-degree: 0%
 ---
 # [!UICONTROL Compositore esperienza visivo] (VEC)
 
-Il [!UICONTROL Compositore esperienza visivo] (VEC) in [!DNL Adobe Target] è un editor di WYSIWYG che consente ai clienti di creare e testare esperienze personalizzate direttamente sui propri siti Web o pagine Web mobili senza dover modificare il codice.
+Il [!UICONTROL Compositore esperienza visivo] (VEC) in [!DNL Adobe Target] è un editor WYSIWYG per la creazione e il testing di esperienze personalizzate direttamente su siti Web e pagine Web mobili senza modificare il codice.
 
->[!NOTE]
->
->La versione di [!DNL Target Standard/Premium] 25.2.1 (17 febbraio 2025) includeva una versione aggiornata del Compositore esperienza visivo. Per informazioni sulle differenze tra il Compositore esperienza visivo aggiornato e la versione precedente, vedi [Modifiche al Compositore esperienza visivo](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md). Per una panoramica delle varie opzioni del Compositore esperienza visivo aggiornato, vedi [Opzioni del Compositore esperienza visivo](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md).
+Creare esperienze e offerte per le attività [!DNL Target] trascinando e rilasciando elementi, scambiando contenuti e modificando i layout di pagina. Il compositore fornisce anche opzioni per la modifica di HTML e JavaScript.
 
-Il Compositore esperienza visivo consente di creare e testare offerte ed esperienze personalizzate nel contesto del sito. Puoi creare esperienze e offerte per le attività di [!DNL Target] trascinando, scambiando e modificando il layout e il contenuto di una pagina web (o offerta) oppure di una pagina web per dispositivi mobili.
+## Requisiti del browser {#browser-requirements}
 
-Il Compositore esperienza visivo è una delle funzionalità principali di [!DNL Target]. Il Compositore esperienza visivo consente agli addetti al marketing e ai designer di creare e modificare i contenuti mediante un’interfaccia visiva che permette di operare molte scelte di progettazione senza dover intervenire direttamente sul codice. Il compositore offre anche opzioni per modificare il codice HTML e JavaScript.
+[!DNL Safari] è supportato per l&#39;interfaccia [!DNL Adobe Target]. È possibile creare attività basate su moduli in [!DNL Safari] e utilizzare tutte le funzionalità, ad eccezione del Compositore esperienza visivo e del [!UICONTROL Compositore esperienza avanzato] (EEC). Se si apre Compositore esperienza visivo in [!DNL Safari], viene richiesto di passare a [!DNL Google Chrome] per modificare le esperienze.
 
-Nella scheda [!DNL Target] **[!UICONTROL Amministrazione]** > **[!UICONTROL Compositore esperienza visivo]**, puoi immettere l&#39;URL predefinito di [!UICONTROL Compositore esperienza visivo].
+I browser come [!DNL Firefox] potrebbero bloccare la visualizzazione nel Compositore esperienza visivo delle pagine che contengono contenuti misti, ad esempio una pagina non protetta all&#39;interno di un sito protetto. Se una pagina non viene visualizzata, fare clic sull&#39;icona accanto all&#39;URL nella barra degli indirizzi del browser, quindi fare clic su **[!UICONTROL Disattiva protezione in questa pagina]**. Questo problema non influisce sulla modalità di visualizzazione delle pagine per i visitatori del sito.
 
-Questo URL determina la posizione di partenza all’apertura del Compositore esperienza visivo Se non immetti un URL predefinito, puoi iniziare con una pagina vuota quando apri l’editor e quindi specificare un URL.
+## Aprire il Compositore esperienza visivo {#open-the-vec}
+
+Per impostare la pagina che si apre per impostazione predefinita nel Compositore esperienza visivo, immetti un URL predefinito di [!UICONTROL Compositore esperienza visivo] nella scheda [!DNL Target] **[!UICONTROL Amministrazione]** > **[!UICONTROL Compositore esperienza visivo]**.
+
+Se non imposti un URL predefinito, il Compositore esperienza visivo si apre con una pagina vuota in cui puoi specificare un URL.
 
 ![Compositore esperienza visivo evidenziato](/help/main/c-experiences/c-visual-experience-composer/assets/vec-highlight-refresh.png)
 
->[!NOTE]
->
->Alcuni browser, come [!DNL Firefox], potrebbero impedire la visualizzazione di una pagina nel Compositore esperienza visivo se la pagina contiene contenuti misti (ad esempio, una pagina non protetta su un sito protetto). Se la pagina non viene visualizzata, fare clic sull&#39;icona accanto all&#39;URL nella barra degli indirizzi del browser e fare clic su **[!UICONTROL Disattiva protezione in questa pagina]**. Questo problema non influenza la visualizzazione delle pagine da parte dei visitatori del sito.
+## Modificare le esperienze {#edit-experiences}
 
-Il contenuto all’interno di un iframe nella pagina non può essere modificato nel Compositore esperienza visivo. Per modificare il contenuto di un iframe, accertati che il documento iframe sia abilitato per [!DNL Target], quindi carica l’URL dell’iframe nel Compositore esperienza visivo.
+### Visualizzare e denominare le esperienze {#view-and-name-experiences}
 
-Puoi utilizzare le schede nella barra [!UICONTROL Esperienze] per visualizzare la pagina così come apparirebbe a tipi di pubblico diversi o con esperienze diverse. Puoi fornire un nome per ogni esperienza. Ad esempio, se stai testando la posizione del collegamento Home nella barra di navigazione, puoi denominare un’esperienza dove viene visualizzato per primo il collegamento Home. Ad esempio, &quot;Collegamento Home&quot; per facilitare l’identificazione delle esperienze nell’elenco.
+Utilizza le schede nella barra [!UICONTROL Esperienze] per visualizzare in che modo la pagina viene visualizzata da tipi di pubblico diversi o con esperienze diverse. Assegna un nome descrittivo a ogni esperienza per facilitarne l’identificazione nell’elenco.
 
->[!NOTE]
->
->Le modifiche alla struttura di una pagina che influiscono sulle posizioni utilizzate in un’attività creata in tale pagina possono causare problemi nella modifica dell’esperienza. Se una posizione è stata modificata all&#39;esterno del Compositore esperienza visivo, [!DNL Target] potrebbe non essere in grado di trovare la posizione in cui è stato modificato il contenuto.
+Ad esempio, quando verifichi la posizione del collegamento Home nella barra di navigazione, denomina l’esperienza in cui appare prima &quot;Collegamento Home&quot;.
 
-Mentre sposti il mouse sulla pagina, una casella sensibile al contesto segue il cursore ed evidenzia gli elementi nella pagina.
+![Rinominare un&#39;esperienza nella barra Esperienze](/help/main/c-experiences/c-visual-experience-composer/assets/rename_exp.png)
 
-<!--
-Click the **[!UICONTROL Overlays]** icon to change the way the highlight displays. For example, you can choose to highlight only images, links, regional mboxes, modifications, or JavaScript. You can change the color of the highlight. You can also specify a highlight color and type of fill used to highlight different element types.
+### Selezionare e modificare gli elementi {#select-and-modify-elements}
 
-![Change Overlay settings](/help/main/c-experiences/c-visual-experience-composer/assets/change-overlay.png)
--->
+Sposta il cursore sulla pagina per evidenziare singoli elementi con una casella sensibile al contesto.
 
-Per visualizzare il menu delle opzioni disponibili per un determinato tipo di elemento, fare clic su un elemento evidenziato. Ad esempio, è possibile fare clic su un&#39;immagine e selezionare **[!UICONTROL Cambia immagine]** per modificare l&#39;immagine in un&#39;altra immagine. In alternativa, fare clic su un pulsante e modificare il colore del testo.
+Fai clic su un elemento evidenziato per visualizzare le opzioni di modifica per tale tipo di elemento. Ad esempio, selezionare un&#39;immagine e fare clic su **[!UICONTROL Cambia origine immagine]** per sostituirla oppure selezionare un pulsante per modificarne il colore del testo.
 
-Puoi inoltre fare clic su **[!UICONTROL Sfoglia]** e passare dalla pagina principale a una pagina disponibile, ad esempio quella di spedizione o del carrello acquisti, ed eseguire da questa il test delle modifiche. Puoi inoltre accedere agli elementi della pagina disponibili, come menu a comparsa e mini-carrelli, passando il puntatore del mouse sopra di essi. Al termine dell&#39;esplorazione della pagina, fare clic su **[!UICONTROL Progettazione]** per modificare l&#39;esperienza. Ad esempio, puoi modificare la struttura di un elenco a discesa del carrello acquisti o un carosello di immagini.
+![Modifica delle opzioni per un elemento selezionato](/help/main/c-experiences/c-visual-experience-composer/assets/properties-exp.png)
 
->[!NOTE]
->
->Se uno stato al passaggio del mouse dipende da JavaScript, assicurati che **[!UICONTROL Disabilita JavaScript]** non sia selezionato. Per modificare elementi JavaScript è necessario che JavaScript sia abilitato.
+Non è possibile modificare il contenuto all’interno di un iframe incorporato nella pagina. Per modificare tale contenuto, accertati che il documento iframe sia abilitato per [!DNL Target], quindi carica l’URL iframe direttamente nel Compositore esperienza visivo.
 
-Per informazioni sulle opzioni disponibili nel Compositore esperienza visivo, vedi [Opzioni del Compositore esperienza visivo](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81).
+Le modifiche alla struttura della pagina all’esterno del Compositore esperienza visivo possono influenzare le posizioni utilizzate da un’attività. Se tali percorsi cambiano, [!DNL Target] potrebbe non essere in grado di trovare gli elementi modificati, il che potrebbe causare problemi durante la modifica delle esperienze.
 
-È possibile eseguire alcune modifiche su una pagina mentre questa è in fase di caricamento (o dopo il suo mancato caricamento), oppure è possibile annullarne nel Compositore esperienza visivo. Per ulteriori informazioni, consulta:
+### Sfoglia e progetta {#browse-and-design}
 
-* [Modificare una pagina durante il suo caricamento o dopo il suo mancato caricamento](#loading)
-* [Annullare il caricamento di una pagina all’interno del Compositore esperienza visivo](#cancel-loading)
+Fai clic su **[!UICONTROL Sfoglia]** per passare a una pagina accessibile dalla pagina corrente, ad esempio una pagina di spedizione o un carrello acquisti, ed esegui il test delle modifiche.
 
-## Modificare una pagina durante il suo caricamento o dopo il suo mancato caricamento {#loading}
+![Modalità Sfoglia nel Compositore esperienza visivo](/help/main/c-experiences/c-visual-experience-composer/assets/browse_exp.png)
 
-Potrai eseguire molte azioni prima che la pagina si carichi nel Compositore esperienza visivo, anche qualora non possa essere caricata completamente (ad esempio, se il codice personalizzato non è più operativo).
+In modalità Sfoglia è inoltre possibile accedere agli elementi visualizzati al passaggio del mouse, ad esempio menu a comparsa e mini-carrelli. Quando si raggiunge la pagina o l&#39;elemento che si desidera modificare, fare clic su **[!UICONTROL Progettazione]** per modificare l&#39;esperienza.
 
-Alcuni motivi per cui potresti voler accedere o apportare modifiche a una pagina mentre è in fase di caricamento all’interno del Compositore esperienza visivo o dopo il suo mancato caricamento:
+Se uno stato al passaggio del mouse dipende da JavaScript, assicurarsi che **[!UICONTROL Disabilita JavaScript]** non sia selezionato. Per modificare gli elementi che dipendono da JavaScript, è necessario abilitarlo.
 
-* Desideri apportare una semplice modifica a una pagina, ad esempio per aggiungere codice personalizzato o modificare il nome di un’esperienza
-* Desideri copiare il codice personalizzato esistente da una pagina non più accessibile
-* Sai che una pagina non può essere caricata nel Compositore esperienza visivo, ma desideri comunque apportare semplici modifiche
+Per informazioni dettagliate sulle opzioni di modifica disponibili, vedere [Opzioni del Compositore esperienza visivo](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81).
 
-Mentre la pagina viene caricata (o dopo il suo mancato caricamento), le opzioni [!UICONTROL Esperienze], [!UICONTROL Componenti] e [!UICONTROL Configura] sono accessibili.
+## Gestire il caricamento delle pagine {#manage-page-loading}
 
-## Annullare il caricamento di una pagina all’interno del Compositore esperienza visivo {#cancel-loading}
+Alcune opzioni di modifica rimangono disponibili durante il caricamento di una pagina o dopo il suo mancato caricamento. Puoi anche annullare il caricamento della pagina per accedere a queste opzioni senza attendere.
 
-Puoi annullare il caricamento di una pagina all’interno del Compositore esperienza visivo per poter procedere con la modifica dell’attività senza attendere che venga completato il caricamento della pagina. Questa funzione consente di risparmiare tempo e di apportare semplici modifiche o di inserire codice personalizzato in modo più efficace, senza attendere che la pagina venga caricata all’interno del Compositore esperienza visivo.
+### Modificare una pagina durante il suo caricamento o dopo il suo mancato caricamento {#loading}
 
-Alcuni motivi per cui potrebbe essere utile annullare il caricamento della pagina all’interno del Compositore esperienza visivo:
+Puoi apportare alcune modifiche prima che una pagina finisca di essere caricata nel Compositore esperienza visivo o dopo il suo mancato caricamento, ad esempio, perché il codice personalizzato non funziona più.
 
-* Desideri apportare modifiche minori alle modifiche esistenti
-* Desideri eliminare una o più modifiche esistenti
-* Desideri inserire o modificare del codice personalizzato
-* Hai immesso erroneamente l’URL errato per la pagina
-* Desideri abilitare o disabilitare JavaScript prima di caricare la pagina nel Compositore esperienza visivo
-* Desideri aggiungere altre regole di test dei modelli ai criteri [!UICONTROL Consegna pagine]
-* Desideri ignorare l&#39;interruttore globale [!UICONTROL Compositore esperienza avanzato] durante il caricamento di una pagina tramite il Compositore esperienza avanzato o solo iframe
+Utilizza le opzioni di modifica disponibili per:
 
-Se annulli il caricamento della pagina nel Compositore esperienza visivo, puoi passare da un’esperienza all’altra senza attendere che la pagina venga caricata. Per visualizzare di nuovo la pagina nel Compositore esperienza visivo, fai clic sul pulsante **[!UICONTROL Ricarica]**.
+* Apportare semplici modifiche, ad esempio aggiungere codice personalizzato o rinominare un’esperienza
+* Copia il codice personalizzato esistente da una pagina non più accessibile
+* Apportare semplici modifiche a una pagina che non può essere caricata nel Compositore esperienza visivo
+
+La barra [!UICONTROL Esperienze], la barra [!UICONTROL Componenti] e le opzioni [!UICONTROL Configura] rimangono accessibili durante il caricamento della pagina o dopo il suo mancato caricamento.
+
+### Annullare il caricamento di una pagina all’interno del Compositore esperienza visivo {#cancel-loading}
+
+Annulla il caricamento della pagina nel Compositore esperienza visivo per modificare l’attività senza attendere il completamento del caricamento della pagina.
+
+L’annullamento del caricamento della pagina è utile quando è necessario:
+
+* Apportare modifiche minori alle modifiche esistenti
+* Elimina una o più modifiche esistenti
+* Inserisci o modifica codice personalizzato
+* Correggere un URL di pagina immesso in modo errato
+* Attivare o disattivare JavaScript prima di caricare la pagina nel Compositore esperienza visivo
+* Aggiungi regole di test dei modelli ai criteri [!UICONTROL Consegna pagine]
+* Ignora l&#39;interruttore globale [!UICONTROL Compositore esperienza avanzato] durante il caricamento di una pagina tramite il Compositore esperienza avanzato o in modalità solo iframe
+
+Dopo aver annullato il caricamento della pagina, puoi passare da un’esperienza all’altra nell’attività senza attendere che la pagina venga caricata. Fai clic su **[!UICONTROL Ricarica]** per visualizzare nuovamente la pagina nel Compositore esperienza visivo.
 
 >[!IMPORTANT]
 >
->Tieni presente che quando effettui un codice personalizzato o eventuali modifiche, scegliendo di annullare il caricamento nel Compositore esperienza visivo, devi verificare che la codifica o le modifiche vengano eseguite correttamente. Assicurati di eseguire un controllo qualità appropriato per verificare che il codice personalizzato ed altre modifiche vengano consegnati come previsto.
+>Se modifichi il codice personalizzato o apporti altre modifiche dopo aver annullato il caricamento della pagina, esegui un test di controllo qualità per verificare che le modifiche vengano consegnate come previsto.
 
-Per annullare il caricamento di una pagina nel Compositore esperienza visivo, fai clic sul pulsante **[!UICONTROL Annulla caricamento]** durante il caricamento della pagina. La pagina non viene caricata nel Compositore esperienza visivo per questa attività durante la sessione di modifica corrente.
+Per interrompere il caricamento della pagina, fare clic su **[!UICONTROL Annulla caricamento]** durante il caricamento della pagina. La pagina rimane scaricata per questa attività durante la sessione di modifica corrente a meno che non venga ricaricata.
 
-Per continuare a gestire le esperienze nell&#39;attività corrente o per aggiungere nuove modifiche, fare clic sul pulsante **[!UICONTROL Ricarica]**.
+Fai clic su **[!UICONTROL Ricarica]** per riprendere a gestire le esperienze nell&#39;attività corrente o aggiungere nuove modifiche.

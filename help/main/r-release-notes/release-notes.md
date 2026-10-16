@@ -29,9 +29,9 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 06cdc2613d49e3c71c2d29c6ee1307d39215ac84
+source-git-commit: ece061af0f50ec45e07b9710d355a9c91731578e
 workflow-type: tm+mt
-source-wordcount: '643'
+source-wordcount: '645'
 ht-degree: 42%
 ---
 # Note sulla versione (corrente) di [!DNL Target]
@@ -71,7 +71,7 @@ I codici dei problemi tra parentesi sono per uso interno di [!DNL Adobe].
 +++Vedi i dettagli
 
 * Supporto di **Safari aggiunto a[!DNL Adobe Target]**. [!DNL Target] è ora supportato nel browser [!DNL Safari]. Compositore esperienza visivo e [!DNL Enhanced Experience Composer] non sono supportati in [!DNL Safari]. Di conseguenza, in [!DNL VEC] viene ora visualizzata una sovrapposizione per avvisare gli utenti che devono passare a [!DNL Chrome] per utilizzare l&#39;editor. (TGT-55853)
-
+  [Ulteriori informazioni](../c-experiences/c-visual-experience-composer/visual-experience-composer.md#browser-requirements)
 +++
 
 
