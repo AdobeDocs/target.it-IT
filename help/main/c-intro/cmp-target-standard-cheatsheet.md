@@ -45,10 +45,10 @@ topic_v2:
     internal-label: Insights
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 140a7287246905d47bf02a84348627017a619386
 workflow-type: tm+mt
-source-wordcount: '2871'
-ht-degree: 50%
+source-wordcount: '2913'
+ht-degree: 49%
 ---
 # Domande frequenti sull’ottimizzazione e la personalizzazione di Target
 
@@ -95,6 +95,8 @@ Connettiti con altri professionisti di [!DNL Target] nel [Forum della community 
 
 +++Vedi i dettagli
 Per maggiori dettagli, consulta la nostra griglia dei [browser supportati](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html?lang=it){target=_blank}. Si noti che esistono due aspetti: il supporto dell&#39;interfaccia [!DNL Target Standard/Premium] e il supporto del browser per l&#39;utente finale su desktop/dispositivi.
+
+[!DNL Safari] è supportato per l&#39;interfaccia [!DNL Target]. È possibile creare attività basate su moduli in [!DNL Safari] e utilizzare tutte le funzionalità, ad eccezione del [!UICONTROL Compositore esperienza visivo] e del [!UICONTROL Compositore esperienza avanzato], che non sono supportati in [!DNL Safari]. Per modificare le esperienze nel Compositore esperienza visivo o Compositore esperienza avanzato, utilizza [!DNL Google Chrome].
 
 +++
 
