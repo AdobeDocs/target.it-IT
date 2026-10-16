@@ -1,8 +1,8 @@
 ---
-keywords: creazione di criteri personalizzati;algoritmi;criteri;criteri di consigli;csv;ftp;caricamento csv
+keywords: creazione di criteri personalizzati;algoritmi;criteri;criteri consigli;csv;ftp;caricare csv
 description: Scopri come caricare un file CSV per personalizzare i consigli in Adobe [!DNL Target] Recommendations.
 title: Come posso caricare criteri personalizzati in [!DNL Recommendations]?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=it#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."
 feature: Recommendations
 exl-id: 33434121-e0ae-4b82-b1dd-78b9738026cb
 TQID: 'https://experienceleague.adobe.com/8gSKOQxHGB5TPe6vdhjgy5sAFxN8O7dodITo7wgrR50'
@@ -18,10 +18,10 @@ subfeature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: ced3e207fe0a99485fa1fce2a29d2c2855bb2bd4
 workflow-type: tm+mt
-source-wordcount: '697'
-ht-degree: 32%
+source-wordcount: '762'
+ht-degree: 27%
 ---
 # Caricare criteri personalizzati
 
@@ -57,9 +57,13 @@ La procedura seguente presuppone che tu acceda alla schermata [!UICONTROL Crea n
 
    Il file CSV deve essere formattato correttamente per essere caricato con successo. Fai clic su **[!UICONTROL Scarica il modello CSV]** per ottenere un file CSV formattato correttamente.
 
-   Puoi scegliere tra due opzioni di posizione:
+   Sono disponibili tre opzioni di posizione:
 
    * **FTP:** Per caricare il file CSV da un server FTP, selezionare **[!UICONTROL FTP]**, quindi immettere le informazioni richieste. Puoi utilizzare SSL, che utilizza il protocollo FTPS per trasferire il file CSV in modo sicuro.
+
+   * **SFTP:** Per caricare il file CSV da un server SFTP, seleziona **[!UICONTROL SFTP]**, quindi immetti il nome host o l&#39;indirizzo IP, la porta (impostazione predefinita: 22), il nome utente, una password e/o la chiave privata SSH, la directory e il nome file. Per informazioni dettagliate, consulta [Impostazioni del server SFTP supportate](/help/main/c-recommendations/c-products/feeds.md#sftp-settings).
+
+     SFTP non modifica il formato CSV dei criteri personalizzati. Se si utilizza il formato `# Key,Recommendation_1,...`, l&#39;utilizzo di un formato di feed diverso causerà un errore di importazione.
 
    * **URL:** Per caricare il file CSV da un URL, seleziona **[!UICONTROL URL]**, quindi immetti un URL di feed.
 
