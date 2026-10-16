@@ -2,7 +2,7 @@
 keywords: Targeting;rapporto AP;rapporti di personalizzazione automatizzata;targeting automatico;targeting automatico;rapporto di targeting automatico;report di targeting automatico;personalizzazione;approfondimenti;segmenti automatizzati;FAQ;domande frequenti
 description: Scopri in che modo i diversi segmenti definiti dai modelli di personalizzazione Adobe [!DNL Target] rispondono alle offerte o esperienze dell'attività visualizzando il rapporto Segmenti automatizzati.
 title: Cos’è il rapporto Segmenti automatizzati?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=it#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."
 feature: Reports
 exl-id: d21517b7-770b-4618-9899-7ac4948c2a8b
 TQID: 'https://experienceleague.adobe.com/ZC68Nd--YErTUrEfPs3GOVUsG03-QiTjos81TPRr2Yg'
@@ -31,10 +31,10 @@ topic_v2:
     internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 3070e58c48964878a916718fa4a9931fc4d85a61
+source-git-commit: f6fd44786c6c8903e81598357a2b6985af0e6eb6
 workflow-type: tm+mt
-source-wordcount: '2219'
-ht-degree: 62%
+source-wordcount: '2340'
+ht-degree: 58%
 ---
 # Rapporto [!UICONTROL Segmenti automatizzati]
 
@@ -139,6 +139,11 @@ Per ulteriori informazioni sull&#39;algoritmo di personalizzazione della foresta
 **Che cosa determina l&#39;ordine dei segmenti automatizzati?**
 
 Per ogni segmento viene calcolato un punteggio in base alle sue dimensioni e prestazioni nel contenuto dell&#39;attività. La combinazione di questi input determina l&#39;ordine dei segmenti automatizzati, in modo tale che i segmenti più grandi e con maggiori differenze di prestazione in rapporto ai vari contenuti appaiano in cima all&#39;elenco.
+
+**Perché tutte le schede in un&#39;esperienza di Personalizzazione automatizzata con più schede mostrano lo stesso tasso di conversione quando si utilizza &quot;Qualsiasi scheda selezionata&quot;?**
+
+In [!UICONTROL Automated Personalization], l&#39;ottimizzazione e il reporting vengono valutati a livello di esperienza, non a livello di singola scheda o componente. La metrica di successo [!UICONTROL Qualsiasi scheda selezionata] registra una conversione quando un visitatore fa clic su almeno una scheda nell&#39;esperienza.
+Poiché il clic è attribuito all&#39;esperienza nel suo complesso, tutte le schede in tale esperienza possono visualizzare gli stessi conteggi di conversione e tassi di conversione nei rapporti, inclusi [!UICONTROL Segmenti automatizzati]. Questo comportamento è previsto e riflette il modo in cui [!UICONTROL Automated Personalization] ottimizza le combinazioni di contenuto anziché le singole schede.
 
 **Perché nel rapporto di Segmenti automatizzati non sono visibili tutte le offerte/esperienze?**
 
