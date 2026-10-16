@@ -29,16 +29,51 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 9c44e8949e5e6f14af6790a72a2adbcf02c0a944
+source-git-commit: 06cdc2613d49e3c71c2d29c6ee1307d39215ac84
 workflow-type: tm+mt
-source-wordcount: '462'
-ht-degree: 58%
+source-wordcount: '643'
+ht-degree: 42%
 ---
 # Note sulla versione (corrente) di [!DNL Target]
 
 Esplora le funzioni, i miglioramenti e le correzioni più recenti in [!DNL Adobe Target]. Queste note sulla versione descrivono anche gli aggiornamenti alle API [!DNL Target], agli SDK, a [!DNL Adobe Experience Platform Web SDK], at.js e ad altri componenti della piattaforma, se applicabili.
 
 I codici dei problemi tra parentesi sono per uso interno di [!DNL Adobe].
+
+## [!DNL Target Standard/Premium] 26.10.2 (15 ottobre 2026)
+
+**[!UICONTROL Attività]**
+
++++Vedi i dettagli
+
+* **Impostazioni obiettivo errate visualizzate nella panoramica attività**. È stato risolto un problema a causa del quale le impostazioni dell&#39;obiettivo visualizzate nella pagina **[!UICONTROL Panoramica]** di un&#39;attività non erano corrette. Ad esempio, `https://` è stato aggiunto all&#39;URL della pagina e la condizione **[!UICONTROL URL contiene]** non è stata visualizzata, anche se la configurazione effettiva dell&#39;obiettivo era corretta. (TGT-56326)
+
++++
+
+**[!UICONTROL Funzione Consigli]**
+
++++Vedi i dettagli
+
+* **Consigli di backup visualizzati dopo l&#39;aggiornamento di una promozione in un&#39;attività live**. È stato risolto un problema a causa del quale la modifica di una promozione in un&#39;attività di [!DNL Recommendations] in tempo reale causava la creazione di nuove promozioni e unità di consigli da parte di [!DNL Target], anche se la definizione non era modificata. (TGT-56369)
+
++++
+
+**[!UICONTROL Rapporti]**
+
++++Vedi i dettagli
+
+* **Predefiniti per rapporti eliminati dopo due settimane**. È stato risolto un problema a causa del quale i predefiniti per la generazione di rapporti salvati dagli utenti per un’attività venivano eliminati automaticamente dopo circa due settimane. (TGT-56374)
+
++++
+
+**[!UICONTROL Compositore esperienza visivo] (VEC)**
+
++++Vedi i dettagli
+
+* Supporto di **Safari aggiunto a[!DNL Adobe Target]**. [!DNL Target] è ora supportato nel browser [!DNL Safari]. Compositore esperienza visivo e [!DNL Enhanced Experience Composer] non sono supportati in [!DNL Safari]. Di conseguenza, in [!DNL VEC] viene ora visualizzata una sovrapposizione per avvisare gli utenti che devono passare a [!DNL Chrome] per utilizzare l&#39;editor. (TGT-55853)
+
++++
+
 
 ## [!DNL Target Standard/Premium] 26.10.1 (13 ottobre 2026)
 
