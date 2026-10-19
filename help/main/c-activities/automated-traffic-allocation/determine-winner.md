@@ -19,10 +19,10 @@ topic_v2:
     internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: cfab6f04bc59cc7480d871f327fde9ce0a2d6e8f
 workflow-type: tm+mt
-source-wordcount: '1253'
-ht-degree: 20%
+source-wordcount: '1288'
+ht-degree: 19%
 ---
 # Interpreta [!UICONTROL Allocazione automatica] report
 
@@ -41,6 +41,8 @@ Quando si utilizza la funzione [!UICONTROL Allocazione automatica], [!DNL Target
 Quando viene dichiarata l&#39;esperienza migliore, [!DNL Target] visualizza il badge &quot;Vincitore: esperienza *X*&quot;.
 
 ![Badge vincitore](/help/main/c-activities/automated-traffic-allocation/assets/winner-new.png)
+
+Il badge vincitore viene visualizzato anche nel pop-up di informazioni di un&#39;attività nell&#39;elenco [!UICONTROL Attività], in modo da visualizzare lo stato di un&#39;attività [!UICONTROL Allocazione automatica] senza aprirla.
 
 >[!NOTE]
 >
@@ -92,6 +94,6 @@ Nella colonna [!UICONTROL Affidabilità] del rapporto per tutte le attività vie
 
 ### Sono disponibili i badge &quot;No Winner&quot;, &quot;Winner&quot; e &quot;star&quot; per le attività [!UICONTROL Allocazione automatica] che utilizzano [!UICONTROL Analytics come origine per la generazione di rapporti] (A4T)?
 
-I badge &quot;Ancora nessun vincitore&quot; e &quot;Vincitore&quot; non sono attualmente disponibili nel pannello [!UICONTROL A4T] in [!DNL Analysis Workspace]. Questi badge non sono disponibili neanche se lo stesso report viene visualizzato in [!DNL Target]. Un badge vincitore &quot;star&quot; visualizzato in un report [!DNL Target] per un&#39;attività [!UICONTROL Allocazione automatica] tramite A4T deve essere ignorato.
+I badge &quot;Ancora nessun vincitore&quot; e &quot;Vincitore&quot; vengono visualizzati nella finestra a comparsa delle informazioni sull&#39;attività nell&#39;elenco [!UICONTROL Attività]. Non vengono visualizzati nel pannello [!UICONTROL A4T] in [!DNL Analysis Workspace] o quando visualizzi lo stesso rapporto in [!DNL Target]. Se un report [!DNL Target] per un&#39;attività A4T [!UICONTROL Allocazione automatica] mostra un badge vincitore, ignoralo.
 
 Per ulteriori informazioni su questa e altre limitazioni e note, consulta [Allocazione automatica](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md#aa) in *Supporto A4T per [!UICONTROL Attività di allocazione automatica] e [!UICONTROL Attività di targeting automatico]*.
