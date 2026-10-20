@@ -49,7 +49,7 @@ Utilizzare il [!DNL Target] [!UICONTROL Compositore esperienza visivo] per crear
 
    >[!NOTE]
    >
-   >[!DNL Target] non distingue tra protocolli URL ([!DNL https] e [!DNL http]). Di conseguenza, [!DNL `http://www.adobe.com`] e [!DNL `https://wwww.adobe.com`] corrispondono entrambi.
+   >[!DNL Target] non distingue tra protocolli URL ([!DNL https] e [!DNL http]). Di conseguenza, [!DNL `http://www.adobe.com/it`] e [!DNL `https://wwww.adobe.com`] corrispondono entrambi.
 
    L’URL attività è la pagina in cui vengono visualizzati i consigli.
 

@@ -69,7 +69,7 @@ Definisci il pool di varianti di contenuto su cui [!UICONTROL Automated Personal
 
    Se l’account è [configurato con un URL predefinito](/help/main/administrating-target/visual-experience-composer-set-up.md), questo verrà visualizzato come impostazione predefinita. Se necessario, puoi passare dall’URL predefinito a un altro.
 
-   [!DNL Target] non distingue tra protocolli URL ([!DNL https] e [!DNL http]). Di conseguenza, [!DNL `http://www.adobe.com`] e [!DNL `https://wwww.adobe.com`] corrispondono entrambi.
+   [!DNL Target] non distingue tra protocolli URL ([!DNL https] e [!DNL http]). Di conseguenza, [!DNL `http://www.adobe.com/it`] e [!DNL `https://wwww.adobe.com`] corrispondono entrambi.
 
 1. Fai clic su **[!UICONTROL Crea]**.
 

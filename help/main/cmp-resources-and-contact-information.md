@@ -134,7 +134,7 @@ Il team Assistenza clienti di Adobe Experience Cloud è a tua disposizione e pu�
 
 Per ricevere anticipazioni sui miglioramenti dei prodotti in arrivo, iscriviti ad Adobe Priority Product Update:
 
-[Adobe Priority Product Update](https://www.adobe.com/subscription/priority-product-update.html)
+[Adobe Priority Product Update](https://www.adobe.com/it/subscription/priority-product-update.html)
 
 ### Servizio, funzionalità e fatturazione {#section_FA4F5274FDFE4DF7BB079E575877DFC2}
 
@@ -149,7 +149,7 @@ Siamo lieti di ricevere qualsiasi suggerimento o feedback sulla soluzione. È po
 * © 2023 Adobe Systems Incorporated. All Rights Reserved.
 * Published by Adobe Systems Incorporated.
 
-[Condizioni d’uso](https://www.adobe.com/legal/terms.html)
+[Condizioni d’uso](https://www.adobe.com/it/legal/terms.html)
 
 Adobe and the Adobe logo are either registered trademarks or trademarks of Adobe Systems Incorporated in the United States and/or other countries. A trademark symbol (®, ™, etc.) denotes an Adobe trademark.
 
