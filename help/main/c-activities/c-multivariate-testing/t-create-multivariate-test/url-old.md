@@ -23,7 +23,7 @@ Quando viene richiesto durante la [creazione dell’attività](/help/main/c-acti
 
 >[!NOTE]
 >
->[!DNL Target] non distingue tra protocolli URL ([!DNL https] e [!DNL http]). Di conseguenza, [!DNL `https://www.adobe.com`] e [!DNL `http://www.adobe.com`] corrispondono entrambi.
+>[!DNL Target] non distingue tra protocolli URL ([!DNL https] e [!DNL http]). Di conseguenza, [!DNL `https://www.adobe.com/it`] e [!DNL `http://www.adobe.com/it`] corrispondono entrambi.
 
 Per impostazione predefinita, il [!UICONTROL Compositore esperienza visivo] (VEC) apre la pagina specificata nelle [impostazioni del Compositore esperienza visivo](/help/main/administrating-target/visual-experience-composer-set-up.md). È possibile specificare una pagina diversa durante la creazione dell’attività.
 

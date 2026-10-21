@@ -30,7 +30,7 @@ L&#39;[!UICONTROL URL attività] determina la pagina utilizzata in un&#39;attivi
 
    >[!NOTE]
    >
-   >[!DNL Target] non distingue tra protocolli URL ([!DNL https] e [!DNL http]). Di conseguenza, [!DNL `https://www.adobe.com`] e [!DNL `http://www.adobe.com`] corrispondono entrambi.
+   >[!DNL Target] non distingue tra protocolli URL ([!DNL https] e [!DNL http]). Di conseguenza, [!DNL `https://www.adobe.com/it`] e [!DNL `http://www.adobe.com/it`] corrispondono entrambi.
    >
    >Per impostazione predefinita, nel Compositore esperienza visivo o nel [Compositore esperienza basato su moduli](/help/main/c-experiences/form-experience-composer.md) viene aperta la pagina specificata nelle [impostazioni del Compositore esperienza visivo](/help/main/administrating-target/visual-experience-composer-set-up.md). È possibile specificare una pagina diversa durante la creazione dell’attività.
    >

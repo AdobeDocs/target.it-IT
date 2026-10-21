@@ -45,7 +45,7 @@ Utilizza il Compositore esperienza visivo di Target per creare attività Consigl
 
    >[!NOTE]
    >
-   >[!DNL Target] non distingue tra protocolli URL ([!DNL https] e [!DNL http]). Di conseguenza, [!DNL `http://www.adobe.com`] e [!DNL `https://wwww.adobe.com`] corrispondono entrambi.
+   >[!DNL Target] non distingue tra protocolli URL ([!DNL https] e [!DNL http]). Di conseguenza, [!DNL `http://www.adobe.com/it`] e [!DNL `https://wwww.adobe.com`] corrispondono entrambi.
 
    L’URL dell’attività è la pagina in cui verranno visualizzati i consigli.
 
