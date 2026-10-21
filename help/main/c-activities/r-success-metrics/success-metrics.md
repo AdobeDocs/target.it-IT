@@ -31,10 +31,10 @@ topic_v2:
     internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: ee887007d9793bbe49bbb8f84151473cd626846d
 workflow-type: tm+mt
-source-wordcount: '1502'
-ht-degree: 20%
+source-wordcount: '1443'
+ht-degree: 21%
 ---
 # [!UICONTROL Metriche di successo]
 
@@ -59,7 +59,7 @@ Le metriche di successo seguenti possono essere configurate nella sezione [!UICO
 | Metrica di successo | Approccio di misurazione | Definizione |
 |--- |--- |--- |
 | [!UICONTROL Conversione] | Basato su conversione | La conversione si verifica quando un visitatore esegue sul tuo sito un’azione da te definita, ad esempio <ul><li>Visualizzazione di una pagina</li><li>Visualizzazione di una mbox</li><li>Clic su un elemento</li></ul>Una conversione può essere conteggiata una volta per visitatore o ogni volta che un visitatore completa una conversione. |
-| [!UICONTROL Ricavi] | Basato su conversione | Ricavi generati dalla visita. Puoi scegliere una sola metrica di ricavo:<ul><li>Visualizzazione di una mbox</li></ul>Per ulteriori informazioni sulle modifiche apportate all&#39;interfaccia utente aggiornata di [!DNL Target] in relazione alle metriche di successo per le entrate, vedi [Aggiornato [!DNL Target] Modifiche all&#39;interfaccia utente](#changes) di seguito. |
+| [!UICONTROL Ricavi] | Basato su conversione | Ricavi generati dalla visita. Puoi scegliere una sola metrica di ricavo:<ul><li>Visualizzazione di una mbox</li></ul>La visualizzazione dei ricavi (Ricavo per visitatore, Ricavo per visitatore, Vendite totali o Ordini) è selezionata nella sezione [!UICONTROL Rapporti] anziché durante la configurazione dell&#39;attività. Vedi [Passare da una visualizzazione all&#39;altra per la generazione di rapporti sui ricavi](#revenue-views). |
 | [!UICONTROL Coinvolgimento] | Basato su coinvolgimento | Coinvolgimento generato dalla visita. Puoi scegliere una delle metriche di coinvolgimento seguenti:<UL><li>Visualizzazioni di pagina: ogni visita univoca viene conteggiata come conversione.</li><li>[!UICONTROL Punteggio personalizzato]: Punteggio aggregato basato sul valore assegnato alle pagine visitate sul sito, dal momento in cui il visitatore vede per la prima volta la prima richiesta [!DNL Target] di visualizzazione dell&#39;attività.</li>[!DNL Time on Site]: tempo trascorso nella visita (in secondi) dal momento in cui il visitatore vede la prima richiesta di visualizzazione [!DNL Target] dell&#39;attività al caricamento della pagina finale con una richiesta nella sessione.</UL> |
 
 Per le metriche basate sul coinvolgimento (a differenza delle metriche basate sulla conversione e sui ricavi), i visitatori devono riqualificarsi per l’attività in ogni visita per incrementare il conteggio per quella sessione. La metrica associata inizia ad aumentare dopo la riqualificazione e termina alla fine di ogni sessione del visitatore. Una visita termina dopo 30 minuti di inattività. Pertanto, non vedrai immediatamente i risultati durante il test; tuttavia, tutti i risultati di quella sessione sono disponibili entro pochi minuti dalla fine della sessione.
@@ -75,6 +75,25 @@ Se attivato, il campo [!UICONTROL Valore stimato di una conversione] (non dispon
 Le metriche di successo scelte per l’attività sono disponibili nelle impostazioni del rapporto quando si visualizza un rapporto per l’attività.
 
 Alcune metriche, come [!UICONTROL Punteggio personalizzato] e [!UICONTROL Ricavo per visitatore], richiedono un&#39;implementazione personalizzata che trasmette le informazioni, ad esempio i totali degli ordini e gli ID degli ordini.
+
+### Passare da una visualizzazione all’altra per la generazione di rapporti sui ricavi {#revenue-views}
+
+I rapporti sui ricavi sono aperti per impostazione predefinita nella visualizzazione [!UICONTROL Ricavo per visita (RPV)], pertanto non è necessaria alcuna selezione durante la configurazione dell&#39;attività. È possibile passare a una visualizzazione diversa in qualsiasi momento durante la revisione dei risultati.
+
+Per passare da una visualizzazione di reporting sui ricavi a un&#39;altra:
+
+1. Apri la **[!UICONTROL attività]** e passa alla sezione **[!UICONTROL Rapporti]**.
+
+1. Fare clic su ![](assets/Smock_Gears_18_N.png) e selezionare la visualizzazione metrica richiesta:
+
+   * **[!UICONTROL Ricavo per visitatore (RPV)]**
+   * **[!UICONTROL Valore medio ordine (AOV)]**
+   * **[!UICONTROL Vendite totali]**
+   * **[!UICONTROL Percentuale ordini]**
+
+   ![](assets/change-view.png)
+
+[!UICONTROL Ricavo per visita (RPV)] rimane la visualizzazione visualizzata a meno che non sia selezionata un&#39;altra opzione. Questa selezione influisce solo sulla metrica visualizzata nel rapporto e non sulle metriche di consegna.
 
 ## Impostazioni avanzate {#section_7CE95A2FA8F5438E936C365A6D43BC5B}
 
@@ -135,15 +154,3 @@ Scegli il comportamento desiderato:
 * Le metriche di successo con l’opzione avanzata “Come verrà incrementato il conteggio?” impostata su “a ogni impression” o “a ogni impression (esclusi aggiornamenti pagina)” non possono essere utilizzate come metriche di successo da cui dipende un’altra metrica.
 
   Quando una metrica di successo è impostata per essere incrementata a ogni impression, [!DNL Target] conta nuovamente il visitatore ogni volta che visita questa metrica di successo. [!DNL Target] reimposta quindi su 0 la metrica di successo &quot;appartenenza&quot; in modo che possa contare di nuovo sull&#39;impression successiva. Pertanto, se un&#39;altra metrica richiede che questa metrica sia stata vista per prima, [!DNL Target] non riconosce mai che l&#39;utente ha visto la prima metrica.
-
-## [!DNL Target] modifiche all&#39;interfaccia utente aggiornate {#changes}
-
-La versione [[!DNL Target Standard/Premium] 25.2.1](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-2), avviata il 17 febbraio 2015, ha introdotto [!DNL Target] e [!UICONTROL Interfaccia utente del Compositore esperienza visivo] aggiornate. Questa sezione illustra le differenze chiave tra l’interfaccia utente legacy e quella aggiornata, in particolare per quanto riguarda la configurazione e la gestione delle metriche di successo.
-
-### Modifiche all&#39;interfaccia utente relative alle metriche di successo [!UICONTROL Ricavi]
-
-Nell&#39;interfaccia aggiornata di [!DNL Target], l&#39;elenco a discesa [!UICONTROL Visualizzazione predefinita per i report] è stato rimosso. Questo campo era ridondante in quanto in precedenza aveva salvato la visualizzazione di reporting predefinita in [!DNL Overview] > [!UICONTROL Rapporti] nell&#39;interfaccia utente legacy.
-
-Con l&#39;interfaccia utente aggiornata, la metrica di reporting predefinita ora è sempre impostata su [!UICONTROL Ricavo per visitatore (RPV)]. Puoi comunque personalizzare la visualizzazione nella sezione [!UICONTROL Rapporti] per visualizzare le metriche più rilevanti per l&#39;analisi.
-
-Questa modifica non influisce sulle metriche di consegna. Questa modifica influisce solo sul filtro predefinito visualizzato nella visualizzazione di reporting. Poiché RPV è la metrica più comunemente utilizzata dai clienti, questa impostazione predefinita è stata selezionata per semplificare i flussi di lavoro di reporting. Puoi passare ad altre metriche in qualsiasi momento nella sezione [!UICONTROL Rapporti].
