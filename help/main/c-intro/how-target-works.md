@@ -47,10 +47,10 @@ topic_v2:
     internal-label: Privacy
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: ad017513885fba06841c53b4f3da0d151cf8a351
 workflow-type: tm+mt
-source-wordcount: '2424'
-ht-degree: 24%
+source-wordcount: '2288'
+ht-degree: 20%
 ---
 # Come funziona [!DNL Adobe Target]
 
@@ -215,7 +215,7 @@ Il servizio [!DNL Target Recommendations] è ospitato in un data center [!DNL Ad
 
 Se necessario, puoi inserire nell’elenco Consentiti i cluster di Edge [!DNL Target]. Per ulteriori informazioni, consulta [elenco Consentiti nodi edge di Target](https://experienceleague.adobe.com/it/docs/target-dev/developer/implementation/privacy/allowlist-edges){target=_blank}.
 
-## Esperienza di utilizzo protetta {#concept_40A5E781D90A41E4955F80EA9E5F8F96}
+## Esperienza utente protetta {#concept_40A5E781D90A41E4955F80EA9E5F8F96}
 
 [!DNL Adobe] garantisce la disponibilità e le prestazioni della propria infrastruttura di targeting nel modo più affidabile possibile. Tuttavia, i problemi di comunicazione tra il browser di un visitatore e i server [!DNL Adobe] possono interrompere la distribuzione del contenuto.
 
@@ -236,13 +236,7 @@ Le funzionalità di test di [!DNL Adobe Target] sono conformi alle linee guida d
 
 Le funzionalità di test di [!DNL Adobe Target] sono conformi alle linee guida dei motori di ricerca.
 
-Per ulteriori informazioni, consulta le seguenti risorse di Google:
-
-* [Website testing and Google Search (Test di sito web e ricerca Google)](https://webmasters.googleblog.com/2012/08/website-testing-google-search.html)
-* [Esperimenti e Cloaking](https://support.google.com/analytics/answer/12979939?hl)
-
-
-Le linee guida sono state pubblicate su [Google Webmaster Central Blog](https://webmasters.googleblog.com/2012/08/website-testing-google-search.html). Anche se il post risale al 2012, rimane la dichiarazione più recente di [!DNL Google] sull&#39;argomento, e le linee guida sono ancora rilevanti.
+Per ulteriori informazioni, consulta [Documentazione di Google](https://developers.google.com/search/docs/crawling-indexing/website-testing).
 
 * **Nessun cloaking**: per &quot;cloaking&quot; si intende mostrare un set di contenuti agli utenti e un diverso set ai bot dei motori di ricerca, identificando in modo specifico i bot e fornendo loro contenuti diversi.
 
@@ -266,13 +260,7 @@ Le linee guida sono state pubblicate su [Google Webmaster Central Blog](https://
 
   Inoltre, considera l’accessibilità della pagina che stai testando. Se la pagina non è accessibile ai motori di ricerca e non è mai stata concepita per essere classificata nella ricerca organica, queste considerazioni non si applicano. Un esempio è una pagina di destinazione dedicata per una campagna e-mail.
 
-Google afferma che seguendo queste linee guida “i test dovrebbero avere un impatto minimo o nullo sul tuo sito nei risultati di ricerca”.
-
-Oltre a queste linee guida, Google fornisce anche una guida in più nella documentazione del suo strumento Esperimenti sui contenuti:
-
-* “Le varianti di pagina devono conservare lo spirito dei contenuti delle pagine originali. e non devono alterare il significato o la percezione generale che gli utenti hanno dei contenuti originali.”
-
-Google dichiara, a titolo di esempio, che “se la pagina originale di un sito presenta parole chiave non correlate alle combinazioni mostrate agli utenti, possiamo rimuovere il sito dal nostro indice”.
+Google afferma che le varianti in un test spesso hanno un impatto minimo o nullo sul frammento di risultati di ricerca o sulla classificazione di una pagina.
 
 [!UICONTROL Adobe] ritiene che sarebbe difficile modificare involontariamente il significato del contenuto originale all&#39;interno delle varianti di test. Tuttavia, [!UICONTROL Adobe] consiglia di essere consapevoli dei temi delle parole chiave in una pagina e di mantenere tali temi. Le modifiche al contenuto di una pagina, in particolare l’aggiunta o l’eliminazione di parole chiave rilevanti, possono influenzare il ranking dell’URL nella ricerca organica. [!DNL Adobe] consiglia di coinvolgere il tuo partner SEO (Search Engine Optimization) come parte del protocollo di test.
 
