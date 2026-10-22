@@ -47,10 +47,10 @@ topic_v2:
     internal-label: Privacy
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: ad017513885fba06841c53b4f3da0d151cf8a351
 workflow-type: tm+mt
-source-wordcount: '2424'
-ht-degree: 24%
+source-wordcount: '2288'
+ht-degree: 20%
 ---
 # Come funziona [!DNL Adobe Target]
 
@@ -69,14 +69,14 @@ I punti chiave includono:
 
 Target si integra con i siti Web utilizzando [!DNL Experience Platform Web SDK] o at.js:
 
-* **[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/it/docs/target-dev/developer/client-side/aep/aep-web-sdk-overview){target=_blank}**: questa libreria JavaScript lato client consente a [!DNL Adobe Experience Cloud] clienti di interagire con vari servizi tramite [!DNL Experience Platform Edge Network]. [!DNL Adobe] consiglia ai nuovi clienti [!DNL Target] di implementare [!DNL Experience Platform Web SDK].
+* **[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/aep/aep-web-sdk-overview){target=_blank}**: questa libreria JavaScript lato client consente a [!DNL Adobe Experience Cloud] clienti di interagire con vari servizi tramite [!DNL Experience Platform Edge Network]. [!DNL Adobe] consiglia ai nuovi clienti [!DNL Target] di implementare [!DNL Experience Platform Web SDK].
 * **[at.js](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/how-to-deployatjs){target=_blank}**: questa libreria di implementazione per [!DNL Target] migliora i tempi di caricamento delle pagine per le implementazioni web e offre opzioni migliori per le applicazioni a pagina singola. Aggiornato spesso con nuove funzionalità, [!DNL Adobe] consiglia a tutti gli utenti di [at.js di eseguire l&#39;aggiornamento alla versione più recente](https://experienceleague-review.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}.
 
 >[!NOTE]
 >
 >La libreria mbox.js è un&#39;implementazione legacy per [!DNL Target] e non è più supportata dopo il 31 marzo 2021. Esegui l&#39;aggiornamento a [!UICONTROL Experience Platform Web SDK] (preferito) o alla versione più recente di at.js.
 
-Fai riferimento a [!UICONTROL Experience Platform Web SDK] o at.js in ogni pagina del sito. Ad esempio, aggiungi una di queste librerie all’intestazione globale. In alternativa, utilizzare [tag in Adobe Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/tags/home){target=_blank} per implementare [!DNL Target].
+Fai riferimento a [!UICONTROL Experience Platform Web SDK] o at.js in ogni pagina del sito. Ad esempio, aggiungi una di queste librerie all’intestazione globale. In alternativa, utilizzare [tag in Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/tags/home){target=_blank} per implementare [!DNL Target].
 
 Le risorse seguenti contengono informazioni dettagliate utili per implementare [!DNL Experience Platform Web SDK] o at.js:
 
@@ -213,9 +213,9 @@ Il servizio [!DNL Target Recommendations] è ospitato in un data center [!DNL Ad
 >
 >[!DNL Target] non dispone attualmente di un cluster Edge in Cina, limitando le prestazioni dei visitatori per [!DNL Target] clienti nella regione. Il firewall e l’assenza di cluster Edge possono influire sulle esperienze del sito, rallentando i tempi di rendering e caricamento delle pagine. Inoltre, gli addetti al marketing possono riscontrare una latenza durante l&#39;utilizzo dell&#39;interfaccia utente di creazione di [!DNL Target].
 
-Se necessario, puoi inserire nell’elenco Consentiti i cluster di Edge [!DNL Target]. Per ulteriori informazioni, consulta [elenco Consentiti nodi edge di Target](https://experienceleague.adobe.com/it/docs/target-dev/developer/implementation/privacy/allowlist-edges){target=_blank}.
+Se necessario, puoi inserire nell’elenco Consentiti i cluster di Edge [!DNL Target]. Per ulteriori informazioni, consulta [elenco Consentiti nodi edge di Target](https://experienceleague.adobe.com/en/docs/target-dev/developer/implementation/privacy/allowlist-edges){target=_blank}.
 
-## Esperienza di utilizzo protetta {#concept_40A5E781D90A41E4955F80EA9E5F8F96}
+## Esperienza utente protetta {#concept_40A5E781D90A41E4955F80EA9E5F8F96}
 
 [!DNL Adobe] garantisce la disponibilità e le prestazioni della propria infrastruttura di targeting nel modo più affidabile possibile. Tuttavia, i problemi di comunicazione tra il browser di un visitatore e i server [!DNL Adobe] possono interrompere la distribuzione del contenuto.
 
@@ -236,13 +236,7 @@ Le funzionalità di test di [!DNL Adobe Target] sono conformi alle linee guida d
 
 Le funzionalità di test di [!DNL Adobe Target] sono conformi alle linee guida dei motori di ricerca.
 
-Per ulteriori informazioni, consulta le seguenti risorse di Google:
-
-* [Website testing and Google Search (Test di sito web e ricerca Google)](https://webmasters.googleblog.com/2012/08/website-testing-google-search.html)
-* [Esperimenti e Cloaking](https://support.google.com/analytics/answer/12979939?hl)
-
-
-Le linee guida sono state pubblicate su [Google Webmaster Central Blog](https://webmasters.googleblog.com/2012/08/website-testing-google-search.html). Anche se il post risale al 2012, rimane la dichiarazione più recente di [!DNL Google] sull&#39;argomento, e le linee guida sono ancora rilevanti.
+Per ulteriori informazioni, consulta [Documentazione di Google](https://developers.google.com/search/docs/crawling-indexing/website-testing).
 
 * **Nessun cloaking**: per &quot;cloaking&quot; si intende mostrare un set di contenuti agli utenti e un diverso set ai bot dei motori di ricerca, identificando in modo specifico i bot e fornendo loro contenuti diversi.
 
@@ -250,7 +244,7 @@ Le linee guida sono state pubblicate su [Google Webmaster Central Blog](https://
 
 * **Usa rel=&quot;canonical&quot;**: a volte un test A/B richiede URL diversi per le varianti. In questi casi, tutte le varianti devono includere un tag rel=&quot;canonical&quot; che fa riferimento all’URL originale (di controllo). Ad esempio, se [!DNL Adobe] sta testando la propria home page con URL diversi per ogni variante, il seguente tag canonical per la home page deve essere inserito nel tag `<head>` di ogni variante:
 
-  `<link rel="canonical" href="https://www.adobe.com/it" />`
+  `<link rel="canonical" href="https://www.adobe.com" />`
 
 * **Usa reindirizzamenti 302 (temporanei)**: se vengono utilizzati URL diversi per le pagine delle varianti di un test, [!DNL Google] consiglia di indirizzare il traffico alle varianti del test mediante un reindirizzamento 302. Il reindirizzamento 302 informa i motori di ricerca che il reindirizzamento è temporaneo e attivo solo durante l’esecuzione del test.
 
@@ -266,13 +260,7 @@ Le linee guida sono state pubblicate su [Google Webmaster Central Blog](https://
 
   Inoltre, considera l’accessibilità della pagina che stai testando. Se la pagina non è accessibile ai motori di ricerca e non è mai stata concepita per essere classificata nella ricerca organica, queste considerazioni non si applicano. Un esempio è una pagina di destinazione dedicata per una campagna e-mail.
 
-Google afferma che seguendo queste linee guida “i test dovrebbero avere un impatto minimo o nullo sul tuo sito nei risultati di ricerca”.
-
-Oltre a queste linee guida, Google fornisce anche una guida in più nella documentazione del suo strumento Esperimenti sui contenuti:
-
-* “Le varianti di pagina devono conservare lo spirito dei contenuti delle pagine originali. e non devono alterare il significato o la percezione generale che gli utenti hanno dei contenuti originali.”
-
-Google dichiara, a titolo di esempio, che “se la pagina originale di un sito presenta parole chiave non correlate alle combinazioni mostrate agli utenti, possiamo rimuovere il sito dal nostro indice”.
+Google afferma che le varianti in un test spesso hanno un impatto minimo o nullo sul frammento di risultati di ricerca o sulla classificazione di una pagina.
 
 [!UICONTROL Adobe] ritiene che sarebbe difficile modificare involontariamente il significato del contenuto originale all&#39;interno delle varianti di test. Tuttavia, [!UICONTROL Adobe] consiglia di essere consapevoli dei temi delle parole chiave in una pagina e di mantenere tali temi. Le modifiche al contenuto di una pagina, in particolare l’aggiunta o l’eliminazione di parole chiave rilevanti, possono influenzare il ranking dell’URL nella ricerca organica. [!DNL Adobe] consiglia di coinvolgere il tuo partner SEO (Search Engine Optimization) come parte del protocollo di test.
 
