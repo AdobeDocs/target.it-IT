@@ -13,9 +13,9 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: a12dea5df94b20aecd8bf30da62646d01b0b07fe
 workflow-type: tm+mt
-source-wordcount: '596'
+source-wordcount: '591'
 ht-degree: 1%
 ---
 # Pre-hiding dei contenuti per esperienze personalizzate
@@ -66,7 +66,7 @@ La tua istanza ora utilizza le impostazioni predefinite per il pre-hiding e il t
 
 Con il pre-hiding abilitato per la tua istanza, scegli se ciascuna attività lo utilizza in **[!UICONTROL Obiettivi e impostazioni]**. Le attività per le quali si abilita il pre-hiding sono incluse nel comportamento di destinazione quando sono live.
 
-[!DNL Target] crea quindi un set di regole leggere dalle attività live create nel [!UICONTROL Compositore esperienza visivo] (VEC) e nel [!UICONTROL Compositore basato su moduli], descrivendo i selettori e le aree che la consegna può modificare.
+[!DNL Target] crea quindi un set di regole leggere dalle attività live create nel [!UICONTROL Compositore esperienza visivo] (VEC), descrivendo i selettori e le aree che la consegna può modificare.
 
 Quando crei o modifichi un’attività:
 
