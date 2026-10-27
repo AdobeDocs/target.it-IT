@@ -16,10 +16,10 @@ topic_v2:
     internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '2264'
-ht-degree: 81%
+source-wordcount: '2266'
+ht-degree: 79%
 ---
 # Modifiche
 
@@ -205,7 +205,7 @@ Se non è più necessario il codice personalizzato, è sufficiente lasciare vuot
 
 **Non utilizzare l&#39;ID elemento “CDQID” per apportare modifiche alla pagina eseguita nell&#39;editor di codice.**
 
-Target applica un nuovo ID elemento con il valore “CDQID” a qualsiasi elemento della pagina modificato da Target. Poiché questo ID viene applicato da Target, non deve essere utilizzato per ulteriori modifiche o regolazioni nell&#39;editor di codice.
+Target applica un nuovo ID elemento con il valore &quot;CDQID&quot; a qualsiasi elemento della pagina modificato da Target. Poiché questo ID viene applicato da Target, non deve essere utilizzato per ulteriori modifiche o regolazioni nell&#39;editor di codice.
 
 **Non eseguire azioni document.write negli script di codice personalizzati.**
 
@@ -242,7 +242,7 @@ Ad esempio, supponiamo che tu abbia eseguito due azioni:
 
 Ogni modifica crea un nuovo elemento nel pannello Modifiche. La seconda azione modifica l&#39;elemento 1: se lo elimini, la seconda azione non avrà più niente da modificare, risultando nella mancata applicazione della modifica.
 
-In altre parole, se aggiungi un elemento con testo e modifichi tale elemento con un testo diverso in un&#39;azione separata, il pannello Modifiche mostrerà entrambe le azioni come elementi distinti. Durante la modifica dell&#39;elemento è stato creato un nuovo elemento, contenente il testo modificato, che modifica l&#39;elemento originale creato. Se elimini l&#39;elemento originale, il testo modificato non sarà in grado di trovare l&#39;elemento modificato e non verrà visualizzato. Il secondo elemento rimarrà nell&#39;elenco senza tuttavia influire sulla pagina, poiché l&#39;elemento da modificare non esiste più.
+In altre parole, se aggiungi un elemento con testo e modifichi tale elemento con un testo diverso in un&#39;azione separata, il pannello Modifiche mostrerà entrambe le azioni come elementi distinti. Durante la modifica dell&#39;elemento è stato creato un nuovo elemento, contenente il testo modificato, che modifica l&#39;elemento originale creato. Se poi elimini l’elemento originale, il testo modificato non sarà in grado di trovare l’elemento modificato e non verrà visualizzato. Il secondo elemento rimarrà nell&#39;elenco senza tuttavia influire sulla pagina, poiché l&#39;elemento da modificare non esiste più.
 
 ***Un elemento creato utilizzando `document.write` in uno script non viene visualizzato dove previsto.***
 

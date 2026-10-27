@@ -37,10 +37,10 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ba43f5a3b7008fe051ef099919781f1690a6e2f3
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '3955'
-ht-degree: 56%
+source-wordcount: '3960'
+ht-degree: 55%
 ---
 # Compositore esperienza visivo per app a pagina singola (SPA)
 

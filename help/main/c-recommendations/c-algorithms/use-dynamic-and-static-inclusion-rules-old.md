@@ -15,10 +15,10 @@ feature_v2:
 subfeature_v2:
   - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
     internal-label: Recommendations
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '2112'
-ht-degree: 15%
+source-wordcount: '2113'
+ht-degree: 13%
 ---
 # Utilizzare regole di inclusione dinamiche e statiche
 
@@ -107,7 +107,7 @@ Per selezionare l&#39;azione desiderata, passa il puntatore sull&#39;icona ingra
 
 | Azione | Disponibile per | Dettagli |
 |--- |--- |--- |
-| [!UICONTROL Ignora questa regola di filtro] | [!UICONTROL Corrispondenza attributo profilo] e [!UICONTROL Corrispondenza parametro] | Questa azione è predefinita per [!UICONTROL Corrispondenza attributo profilo] e [!UICONTROL Corrispondenza parametro].<br>Questa opzione specifica che la regola viene ignorata. Ad esempio, se sono presenti tre regole di filtro e la terza regola non passa alcun valore, invece di non restituire alcun risultato si può semplicemente ignorare la terza regola con valori vuoti. |
+| [!UICONTROL Ignora questa regola di filtro] | [!UICONTROL Corrispondenza attributo profilo] e [!UICONTROL Corrispondenza parametro] | Questa azione è predefinita per [!UICONTROL Corrispondenza attributo profilo] e [!UICONTROL Corrispondenza parametro].<br>Questa opzione specifica che la regola viene ignorata. Ad esempio, se sono presenti tre regole di filtro e la terza regola non trasmette alcun valore, invece di non restituire alcun risultato puoi semplicemente ignorare la terza regola con i valori vuoti. |
 | [!UICONTROL Non mostrare risultati per questo criterio]<br>(solo criteri) | [!UICONTROL Corrispondenza attributo entità], [!UICONTROL Corrispondenza attributo profilo] e [!UICONTROL Corrispondenza parametro] | Questa azione è l&#39;impostazione predefinita per [!UICONTROL Corrispondenza attributo entità].<br>Questa azione indica come [!DNL Target] ha gestito i valori vuoti prima dell&#39;aggiunta di questa opzione: non vengono visualizzati risultati per questo criterio. |
 | [!UICONTROL Non promuovere alcun elemento<br>(solo promozioni)] | [!UICONTROL Corrispondenza attributo entità], [!UICONTROL Corrispondenza attributo profilo] e [!UICONTROL Corrispondenza parametro] | Questa azione è l&#39;impostazione predefinita per [!UICONTROL Corrispondenza attributo entità].<br>Questa azione indica come [!DNL Target] ha gestito i valori vuoti prima dell&#39;aggiunta di questa opzione: non vengono visualizzati risultati per questo criterio. |
 | [!UICONTROL Usa un valore statico] | [!UICONTROL Corrispondenza attributo entità], [!UICONTROL Corrispondenza attributo profilo] e [!UICONTROL Corrispondenza parametro] | Se un valore è vuoto, è possibile scegliere di utilizzare un valore statico. |

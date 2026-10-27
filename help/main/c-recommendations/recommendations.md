@@ -26,10 +26,10 @@ topic_v2:
     internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '869'
-ht-degree: 91%
+source-wordcount: '872'
+ht-degree: 88%
 ---
 # Consigli
 
@@ -66,7 +66,7 @@ Per ulteriori informazioni su questi e altri criteri di [!DNL Recommendations], 
 
 ## Termini
 
-Prima di iniziare a utilizzare [!DNL Recommendations] (Consigli), è utile acquisire familiarità con alcuni termini utilizzati in questa sezione. Non preoccuparti se ancora non comprendi perfettamente questi termini, acquisirai maggiore familiarità durante la configurazione delle attività [!DNL Recommendations] (Consigli).
+Prima di iniziare a utilizzare [!DNL Recommendations] (Consigli), è utile acquisire familiarità con alcuni termini utilizzati in questa sezione. Non preoccuparti se ancora non comprendi perfettamente questi termini, acquisirai maggiore familiarità durante la configurazione delle attività di [!DNL Recommendations].
 
 | Termine | Definizione |
 | --- | --- |

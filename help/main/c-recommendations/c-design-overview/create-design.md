@@ -18,10 +18,10 @@ subfeature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '1067'
-ht-degree: 25%
+source-wordcount: '1069'
+ht-degree: 24%
 ---
 # Creare una progettazione
 
@@ -170,7 +170,7 @@ L&#39;esempio seguente mostra come è possibile restituire le risposte JSON dura
    | `[YOUR_CLIENT_CODE]` | Codice client di Target (disponibile in /help/target/products.html#recsSettings > Token API per i consigli > Codice client). |
    | `[YOUR_MBOX_NAME]` | Il nome selezionato nella sezione &quot;locations&quot; dei consigli basati su moduli, in questo caso Sample_Recs_Response. |
    | `[ENTITY_ID` | L&#39;`entity.id` di un elemento nel catalogo. |
-   | `[AT_PROPERTY_TOKEN]` | (Facoltativo) Aggiungi se hai selezionato una Proprietà (parte delle autorizzazioni dell&#39;azienda) durante l&#39;impostazione dell&#39;attività. |
+   | `[AT_PROPERTY_TOKEN]` | (Facoltativo) Aggiungi se hai selezionato una Proprietà (parte di Autorizzazioni Enterprise) durante l’impostazione dell’attività. |
 
 Dopo che l&#39;algoritmo è stato eseguito e si dispone dei risultati, la risposta dovrebbe essere simile a questa:
 

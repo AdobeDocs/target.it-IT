@@ -18,18 +18,18 @@ subfeature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '473'
-ht-degree: 79%
+source-wordcount: '476'
+ht-degree: 69%
 ---
 # Domande frequenti sulle progettazioni
 
 Elenco di domande frequenti sulle progettazioni di [!DNL Adobe Target] [!DNL Recommendations].
 
-## Nel prezzo consigliato dell’articolo non vengono visualizzati i due valori a destra del punto decimale. Come è possibile visualizzarli?
+## Nel prezzo consigliato dell&#39;articolo non vengono visualizzati entrambi i valori a destra del punto decimale. Come è possibile visualizzarli?
 
-Per impostazione predefinita, i valori numerici (ad esempio `entity.value`) restituiti nei modelli di progettazione non presentano eventuali zeri finali dopo il separatore dei decimali. Ad esempio, se un articolo costa $35,00, `entity.value` è pari a 35 e sulla pagina viene visualizzato solo $35, e non $35,00.
+Per impostazione predefinita, i valori numerici (ad esempio `entity.value`) restituiti nei modelli struttura non visualizzeranno eventuali zeri finali dopo il separatore dei decimali. Ad esempio, se un articolo costa $35,00, `entity.value` è pari a 35 e sulla pagina viene visualizzato solo $35, e non $35,00.
 
 Per risolvere il problema sono disponibili due opzioni:
 

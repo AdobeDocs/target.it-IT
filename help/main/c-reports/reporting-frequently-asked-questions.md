@@ -29,9 +29,9 @@ topic_v2:
     internal-label: Troubleshooting
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '1393'
+source-wordcount: '1399'
 ht-degree: 23%
 ---
 # Domande frequenti sulla generazione di rapporti
@@ -104,7 +104,7 @@ Ci sono alcuni possibili motivi per cui i dati mancano dai rapporti di attività
 * Non hai selezionato l’ambiente corretto nelle impostazioni del rapporto
 * Non è stato allocato traffico all&#39;esperienza di controllo
 
-### Nelle impostazioni del rapporto non è stato selezionato l’ambiente corretto:
+### Nelle impostazioni del rapporto non è selezionato l’ambiente corretto:
 
 Se il contenuto di un’attività è stato recapitato correttamente agli utenti ma il relativo rapporto non contiene dati, assicurati di aver selezionato l’ambiente corretto ([gruppo host](/help/main/administrating-target/hosts.md)) nelle impostazioni del rapporto.
 

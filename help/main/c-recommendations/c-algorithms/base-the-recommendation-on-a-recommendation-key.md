@@ -26,10 +26,10 @@ topic_v2:
     internal-label: Behavioral data
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '4434'
-ht-degree: 25%
+source-wordcount: '4442'
+ht-degree: 24%
 ---
 # Basare il consiglio su una chiave consiglio
 
@@ -67,7 +67,7 @@ La logica dei consigli basati sul carrello è simile all&#39;algoritmo basato su
 
 * **[!UICONTROL Tra sessioni]**: in base a ciò che hanno fatto altri visitatori in più sessioni.
 
-  Osservare il comportamento in più sessioni potrebbe avere senso quando si ha la sensazione che i prodotti vivamente &quot;vanno di pari passo&quot; l’uno con l’altro in base alle preferenze o al gusto dei visitatori. Ad esempio, a un visitatore piace Star Wars e potrebbe piacere anche Indiana Jones, anche se non desidera necessariamente guardare entrambi i film contemporaneamente. Oppure, a un visitatore piace il gioco da tavolo &quot;Codenames&quot; e potrebbe anche piacere il gioco da tavolo &quot;Avalon&quot;, anche se il visitatore non può giocare entrambi i giochi contemporaneamente.
+  Osservare il comportamento in più sessioni potrebbe avere senso quando si ha la sensazione che i prodotti vivamente &quot;vanno di pari passo&quot; l’uno con l’altro in base alle preferenze o al gusto del visitatore. Ad esempio, a un visitatore piace Star Wars e potrebbe piacere anche Indiana Jones, anche se non desidera necessariamente guardare entrambi i film nella stessa sessione. Oppure, a un visitatore piace il gioco da tavolo &quot;Codenames&quot; e potrebbe anche piacere il gioco da tavolo &quot;Avalon&quot;, anche se il visitatore non può giocare entrambi i giochi contemporaneamente.
 
 [!DNL Target] formula raccomandazioni per ogni visitatore in base agli elementi nel carrello corrente, indipendentemente dal fatto che si osservi il comportamento del visitatore all&#39;interno di una singola sessione o in più sessioni.
 
@@ -337,7 +337,7 @@ Sia le visualizzazioni che gli acquisti vengono utilizzati per determinare gli a
 
 Sarà possibile, ad esempio:
 
-* Escludi gli articoli che non soddisfano determinati criteri (prodotti esauriti, articoli pubblicati più di 30 giorni fa, film classificati R e così via).
+* Sono esclusi gli articoli che non soddisfano determinati criteri (prodotti esauriti, articoli pubblicati più di 30 giorni fa, film classificati R e così via).
 * Limita gli elementi inclusi a una singola categoria o alla categoria corrente.
 
 Se si seleziona questo algoritmo, è possibile selezionare le seguenti chiavi di filtro:
@@ -368,7 +368,7 @@ Con l&#39;aggiunta delle regole di inclusione a [!UICONTROL Criteri personalizza
 
 Eventuali casi di utilizzo includono:
 
-* Vuoi consigliare film da una lista personalizzata, ma solo se il visitatore non li ha già guardati.
+* Desideri consigliare film da un elenco personalizzato, ma solo se il visitatore non li ha già guardati.
 * Desideri eseguire un algoritmo offline e utilizzare i risultati per alimentare i consigli, ma devi assicurarti che gli elementi esauriti non vengano mai consigliati.
 * Vuoi includere solo gli articoli appartenenti alla categoria preferita del visitatore.
 
@@ -419,7 +419,7 @@ Puoi basare i consigli sul valore di un attributo di profilo personalizzato. Ad 
 1. Seleziona l&#39;attributo di profilo personalizzato dall&#39;elenco a discesa **[!UICONTROL Chiave consiglio]** (ad esempio, &quot;[!UICONTROL Ultimo spettacolo aggiunto alla watchlist]&quot;).
 1. Seleziona quindi la **[!UICONTROL Logica consigli]** (ad esempio &quot;[!UICONTROL Persone che hanno visualizzato questo, hanno visualizzato anche quello]&quot;).
 
-Se l’attributo di profilo personalizzato non corrisponde direttamente a un singolo ID entità, devi spiegare a [!DNL Recommendations] come desideri che avvenga la corrispondenza a un’entità. Ad esempio, supponi di voler visualizzare gli articoli più venduti della marca preferita di un visitatore.
+Se l&#39;attributo di profilo personalizzato non corrisponde direttamente a un singolo ID entità, è necessario spiegare a [!DNL Recommendations] come si desidera che avvenga la corrispondenza a un&#39;entità. Ad esempio, supponi di voler visualizzare gli articoli più venduti della marca preferita di un visitatore.
 
 1. Seleziona l&#39;attributo di profilo personalizzato dall&#39;elenco a discesa **[!UICONTROL Chiave consiglio]** (ad esempio, &quot;Marchio preferito&quot;).
 

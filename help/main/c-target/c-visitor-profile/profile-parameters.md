@@ -1,27 +1,32 @@
 ---
 keywords: script di profilo;attributi degli script di profilo;best practice per gli script di profilo;debug;eseguire il debug;script;script di profilo;attributi;attributo;parametro
-description: Scopri gli attributi specifici del visitatore che vengono memorizzati nel suo profilo in modo da fornire informazioni che puoi usare nelle attività di Adobe [!DNL Target] .
+description: Scopri gli attributi specifici del visitatore memorizzati nel suo profilo in modo da fornire informazioni che puoi usare nelle attività di Adobe [!DNL Target].
 title: Cosa sono gli attributi del profilo?
 feature: Audiences
 exl-id: 6c689629-bbd3-461e-9a68-5b16d4eb4250
 TQID: https://experienceleague.adobe.com/jW4BCxf12N2GRN4ZsxNR1xBd0upkEc-FjuTEQ4KvKis
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Administration
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: 2520
-ht-degree: 88%
-
+source-wordcount: '2523'
+ht-degree: 86%
 ---
-
 # Attributi del profilo
 
 Gli attributi del profilo in [!DNL Adobe Target] sono parametri specifici di un visitatore. Tali attributi vengono memorizzati nel profilo del visitatore in modo da fornire informazioni che puoi usare nelle attività.
@@ -89,7 +94,7 @@ Considera le seguenti informazioni:
 * I parametri e i valori fanno distinzione tra maiuscole e minuscole. Usa le stesse maiuscole e minuscole dei parametri e dei valori che ricevi durante l’attività o il test.
 * Per ulteriore sintassi JavaScript, consulta la sezione “Riferimento JavaScript per i parametri del profilo di script” qui di seguito.
 * Il parametro rimane nel profilo dopo aver disabilitato lo script. Gli utenti i cui profili contengono già un parametro utilizzato nel pubblico di un’attività si qualificano in tale attività.
-* Gli script di profilo non possono essere eliminati mentre sono utilizzati in un’attività.
+* Non è possibile eliminare gli script di profilo mentre sono utilizzati in un’attività.
 * La creazione di script di profilo dipendenti che utilizzano il risultato di uno script di profilo in un altro script di profilo non è consigliata. L’ordine di esecuzione dello script di profilo non è garantito.
 
 ## Visualizzazione delle schede di informazioni sugli script di profilo {#section_18EA3B919A8E49BBB09AA9215E1E3F17}
@@ -149,11 +154,11 @@ Le seguenti linee guida hanno lo scopo di facilitare la scrittura di script di p
 
   Best practice:
 
-   * Mantieni gli script di profilo piccoli e il più semplici possibile.
-   * Evita espressioni regolari o utilizza solo espressioni regolari semplici. Anche le espressioni semplici possono richiedere molte istruzioni per la valutazione.
-   * Evita la ricorsione.
-   * Gli script di profilo devono essere testati in termini di prestazioni prima di essere aggiunti a [!DNL Target]. Tutti gli script di profilo vengono eseguiti dietro ogni richiesta mbox. Se gli script di profilo non vengono eseguiti correttamente, l’esecuzione delle richieste mbox richiede più tempo, il che può influire sul traffico e sulla conversione.
-   * Se gli script di profilo diventano troppo complessi, puoi utilizzare al loro posto i [token di risposta](/help/main/administrating-target/response-tokens.md).
+  * Mantieni gli script di profilo piccoli e il più semplici possibile.
+  * Evita espressioni regolari o utilizza solo espressioni regolari semplici. Anche le espressioni semplici possono richiedere molte istruzioni per la valutazione.
+  * Evita la ricorsione.
+  * Gli script di profilo devono essere testati in termini di prestazioni prima di essere aggiunti a [!DNL Target]. Tutti gli script di profilo vengono eseguiti dietro ogni richiesta mbox. Se gli script di profilo non vengono eseguiti correttamente, l’esecuzione delle richieste mbox richiede più tempo, il che può influire sul traffico e sulla conversione.
+  * Se gli script di profilo diventano troppo complessi, puoi utilizzare al loro posto i [token di risposta](/help/main/administrating-target/response-tokens.md).
 
 * Per ulteriori informazioni, consulta la documentazione sul motore JS Rhino.
 

@@ -29,10 +29,10 @@ topic_v2:
     internal-label: Optimization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '647'
-ht-degree: 56%
+source-wordcount: '648'
+ht-degree: 50%
 ---
 # Consentire alle integrazioni Adobe I/O di accedere alle aree di lavoro e assegnare ruoli
 
@@ -60,7 +60,7 @@ Questo aggiornamento supporta i casi d’uso seguenti:
 
 >[!NOTE]
 >
->Se non viene eseguita, dopo il rilascio della versione di settembre 2019 di [!DNL Target] verranno attivati i controlli di accesso e potresti essere in grado di accedere solo all’area di lavoro predefinita, qualora questa sia l’impostazione corrente. L’impostazione preventiva delle integrazioni non comporta alcun impatto negativo. Conviene quindi eseguirla quanto prima possibile. A seconda del numero di aree di lavoro dell’organizzazione, questo processo richiede solo pochi clic per aggiungere un’integrazione esistente alle aree di lavoro con il ruolo desiderato.
+>Se non viene eseguita, dopo il rilascio della versione di [!DNL Target] settembre 2019 verranno attivati i controlli di accesso e potresti essere in grado di accedere solo all&#39;area di lavoro predefinita, qualora questa sia l&#39;impostazione corrente. L’impostazione preventiva delle integrazioni non comporta alcun impatto negativo. Conviene quindi eseguirla quanto prima possibile. A seconda del numero di aree di lavoro dell’organizzazione, questo processo richiede solo pochi clic per aggiungere un’integrazione esistente alle aree di lavoro con il ruolo desiderato.
 
 **Per consentire alle integrazioni Adobe I/O di accedere alle aree di lavoro e assegnare ruoli:**
 

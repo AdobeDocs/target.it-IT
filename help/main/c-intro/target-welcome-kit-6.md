@@ -23,10 +23,10 @@ topic_v2:
     internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '402'
-ht-degree: 81%
+source-wordcount: '404'
+ht-degree: 80%
 ---
 # Capitolo 6: Problemi facilmente evitabili
 
@@ -43,7 +43,7 @@ Quando inizi il tuo programma di ottimizzazione e personalizzazione, ricorda che
 | Mancato allineamento delle attività con gli obiettivi di business. | Potenzia l’attenzione sulla metodologia di definizione delle priorità e comunica tale metodologia alle parti interessate interne. |
 | Poco o nessun backlog di test. | Coinvolgi le parti interessate interne e consenti loro di inviare test in linea con gli obiettivi di business chiave. |
 | Estensione dei lanci di attività oltre le scadenze | Migliora la documentazione per le attività e includi dettagli specifici sulla configurazione del test. |
-| Selezionare dati di metriche di successo dell’attività che non sono utili per il processo decisionale. | Documenta tutte le metriche di test primarie e include alcune metriche aggiuntive per ottenere ulteriori informazioni. |
+| Selezionare i dati delle metriche di successo dell’attività che non sono utili per il processo decisionale. | Documenta tutte le metriche di test primarie e include alcune metriche aggiuntive per ottenere ulteriori informazioni. |
 | Apportare durante il test delle modifiche che potrebbero influire sui risultati. | Gestisci un calendario delle prossime promozioni e modifiche al sito. Comunica chiaramente i lanci di attività [!DNL Target] per evitare conflitti. |
 | Modificare le esperienze di test o i criteri in prossimità del lancio di un’attività. | Richiedi l’approvazione delle principali parti interessate nelle fasi iniziali del processo di attività di test. |
 | Concludere un’attività prima che i risultati siano statisticamente significativi. | Verificare la durata del test utilizzando [!DNL Adobe Target] [Calcolatore dimensioni campione](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6). |

@@ -18,9 +18,9 @@ subfeature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '553'
+source-wordcount: '554'
 ht-degree: 2%
 ---
 # Corrispondenza attributo entità
@@ -67,7 +67,7 @@ Se si visualizza la pagina di un prodotto del Marchio B, il valore `entity.brand
 
 ### Upselling per un prodotto più costoso
 
-Supponiamo di essere un retailer di abbigliamento e di voler incoraggiare gli utenti a considerare articoli più costosi e, quindi, più redditizi. Puoi utilizzare gli operatori &quot;è uguale a&quot; ed &quot;è tra&quot; per promuovere articoli più costosi della stessa categoria e dello stesso marchio. Ad esempio, un retailer di scarpe può promuovere scarpe da corsa più costose nel tentativo di vendere un visitatore che cerca scarpe da corsa, come nell’esempio seguente:
+Supponiamo di essere un retailer di abbigliamento e di voler incoraggiare gli utenti a prendere in considerazione articoli più costosi e, quindi, più redditizi. Puoi utilizzare gli operatori &quot;è uguale a&quot; ed &quot;è tra&quot; per promuovere articoli più costosi della stessa categoria e dello stesso marchio. Ad esempio, un retailer di scarpe può promuovere scarpe da corsa più costose nel tentativo di vendere un visitatore che cerca scarpe da corsa, come nell’esempio seguente:
 
 ![Upselling](/help/main/c-recommendations/c-algorithms/assets/upsell-new.png)
 

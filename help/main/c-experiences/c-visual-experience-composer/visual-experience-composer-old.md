@@ -10,10 +10,10 @@ product_v2:
 feature_v2:
   - id: f7501c88-b36a-590b-9cc4-dea607bda94b
     internal-label: Visual Experience Composer (VEC)
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
 source-wordcount: '1382'
-ht-degree: 75%
+ht-degree: 74%
 ---
 # Compositore esperienza visivo
 
@@ -33,7 +33,7 @@ Questo URL determina la posizione di partenza all’apertura del Compositore esp
 >
 >Alcuni browser, come Firefox, potrebbero impedire la visualizzazione di una pagina nel Compositore esperienza visivo se la pagina presenta contenuti misti (ad esempio, una pagina non protetta su un sito protetto). Se la pagina non viene visualizzata, fare clic sull&#39;icona accanto all&#39;URL nella barra degli indirizzi del browser e fare clic su **[!UICONTROL Disattiva protezione in questa pagina]**. Questo problema non influenza la visualizzazione delle pagine da parte dei visitatori del sito.
 
-Il contenuto all’interno di un iframe nella pagina non può essere modificato nel Compositore esperienza visivo. Per modificare il contenuto di un iframe, assicurati che il documento iframe sia abilitato per Target, quindi carica l’URL dell’iframe nel Compositore esperienza visivo.
+Il contenuto di un iframe nella pagina non può essere modificato nel Compositore esperienza visivo. Per modificare il contenuto di un iframe, assicurati che il documento iframe sia abilitato per Target, quindi carica l’URL dell’iframe nel Compositore esperienza visivo.
 
 Per un’anteprima della pagina per diversi tipi di pubblico o con altre esperienze, utilizza i menu a discesa nella parte superiore della pagina. Puoi specificare un nome per ogni esperienza nel secondo elenco a discesa. Ad esempio, se stai eseguendo il test della posizione del collegamento Pagina principale nella barra di navigazione, a un’esperienza in cui compare tale collegamento puoi assegnare un nome tipo “Collegamento Pagina principale”, per individuarla più facilmente nell’elenco delle esperienze.
 

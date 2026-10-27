@@ -36,10 +36,10 @@ topic_v2:
     internal-label: Machine learning
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '2157'
-ht-degree: 18%
+source-wordcount: '2160'
+ht-degree: 16%
 ---
 # Panoramica di [!UICONTROL Targeting automatico]
 
@@ -153,7 +153,7 @@ Esistono diversi scenari in cui si preferisce utilizzare [!UICONTROL Targeting a
 
 * La slot machine assicura che il modello &quot;spenda&quot; sempre una piccola frazione di traffico per continuare a imparare per tutta la vita dell&#39;attività di apprendimento e per prevenire un eccessivo sfruttamento delle tendenze apprese in precedenza.
 * I modelli sottostanti vengono ricreati ogni 24 ore utilizzando i dati di comportamento dei visitatori più recenti per garantire che [!DNL Target] sfrutti sempre le preferenze dei visitatori in continua evoluzione.
-* Se l&#39;algoritmo non può determinare le esperienze vincenti per i singoli visitatori, mostra automaticamente quella con i migliori risultati a livello generale, mentre continua a cercare vincitori personalizzati. L’esperienza che offre prestazioni migliori viene individuata tramite il [campione di Thompson](https://en.wikipedia.org/wiki/Thompson_sampling).
+* Se l’algoritmo non è in grado di determinare le esperienze vincenti per i singoli utenti, mostra automaticamente quella con le prestazioni migliori, continuando a cercare vincitori personalizzati. L’esperienza che offre prestazioni migliori viene individuata tramite il [campione di Thompson](https://en.wikipedia.org/wiki/Thompson_sampling).
 
 ### L’algoritmo viene continuamente ottimizzato per una singola metrica di obiettivo.
 
@@ -165,7 +165,7 @@ Esistono diversi scenari in cui si preferisce utilizzare [!UICONTROL Targeting a
 
 ### [!DNL Target] utilizza automaticamente tutti i [!DNL Adobe Experience Cloud] tipi di pubblico condivisi per generare i modelli di personalizzazione.
 
-* Non è necessario eseguire alcuna operazione specifica per aggiungere i tipi di pubblico al modello. Per informazioni sull’utilizzo di [!DNL Experience Cloud Audiences] con [!DNL Target], consulta [Audience di Experience Cloud](/help/main/c-integrating-target-with-mac/mmp.md).
+* Non è necessario eseguire alcuna operazione specifica per aggiungere tipi di pubblico al modello. Per informazioni sull’utilizzo di [!DNL Experience Cloud Audiences] con [!DNL Target], consulta [Audience di Experience Cloud](/help/main/c-integrating-target-with-mac/mmp.md).
 
 ### Gli addetti al marketing possono caricare dati offline, punteggi di propensione o altri dati personalizzati per creare modelli di personalizzazione.
 
@@ -177,7 +177,7 @@ Esistono diversi scenari in cui si preferisce utilizzare [!UICONTROL Targeting a
 
 Anche se la quantità di traffico *per esperienza* richiesta per [!UICONTROL Targeting automatico] o [!UICONTROL Modelli Personalization] automatici da compilare è la stessa, ci sono in genere più esperienze in un&#39;attività [!UICONTROL Automated Personalization] rispetto a un&#39;attività [!UICONTROL Targeting automatico].
 
-Se, ad esempio, si disponesse di un&#39;attività [!UICONTROL Auto Personalization] in cui sono state create due offerte per posizione con due posizioni, l&#39;attività includerebbe quattro (2 = 4) esperienze totali (senza esclusioni). Utilizzando [!UICONTROL Targeting automatico], puoi impostare l&#39;esperienza 1 per includere l&#39;offerta 1 in posizione 1 e l&#39;offerta 2 in posizione 2 e l&#39;esperienza 2 per includere l&#39;offerta 1 in posizione 1 e l&#39;offerta 2 in posizione 2. Poiché [!UICONTROL Targeting automatico] consente di avere più modifiche all&#39;interno di un&#39;esperienza, puoi ridurre il numero di esperienze totali nell&#39;attività.
+Se ad esempio si disponesse di un&#39;attività [!UICONTROL Auto Personalization] in cui sono state create due offerte per posizione con due posizioni, l&#39;attività conterrà quattro (2 = 4) esperienze totali (senza esclusioni). Utilizzando [!UICONTROL Targeting automatico], puoi impostare l&#39;esperienza 1 per includere l&#39;offerta 1 in posizione 1 e l&#39;offerta 2 in posizione 2 e l&#39;esperienza 2 per includere l&#39;offerta 1 in posizione 1 e l&#39;offerta 2 in posizione 2. Poiché [!UICONTROL Targeting automatico] consente di avere più modifiche all&#39;interno di un&#39;esperienza, puoi ridurre il numero di esperienze totali nell&#39;attività.
 
 Per [!UICONTROL Targeting automatico] è possibile utilizzare semplici regole generali per comprendere i requisiti del traffico:
 

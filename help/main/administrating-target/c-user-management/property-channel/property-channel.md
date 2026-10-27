@@ -9,33 +9,48 @@ exl-id: 838abe87-dba7-4274-97b4-31a7905846dc
 TQID: https://experienceleague.adobe.com/-BGfedOu33CmhLMoKT543SebVtnp-H3DiWhmwO9OkCw
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
   - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
 subfeature_v2:
   - id: c011fe9c-b94b-4a88-93d8-f2acece55112
+    internal-label: Administration
   - id: cf6b8469-14d0-4c0e-90ee-fb54066a035e
+    internal-label: Roles and permissions
   - id: e22d67ea-317b-44f8-abd1-52e07f636ca8
+    internal-label: Reporting
   - id: faed1c89-faf7-4df1-910d-a88263e03b15
+    internal-label: Target UI
   - id: fc9c2184-9102-403f-bd6c-0055021e4bea
+    internal-label: Overview
   - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+    internal-label: at.js
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Administration
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: 3233
-ht-degree: 47%
-
+source-wordcount: '3255'
+ht-degree: 48%
 ---
-
 # Autorizzazioni per gli utenti Enterprise
 
 Le autorizzazioni per gli utenti Enterprise rappresentano un mezzo per amministrare formalmente l&#39;accesso degli utenti a [!DNL Adobe Target] a livello aziendale. Aggiungere utenti a [!DNL Target], assegnare le autorizzazioni in base ai ruoli e creare aree di lavoro per i team in base a reparti, posizioni globali, canali e altri raggruppamenti logici. Puoi assegnare agli utenti i ruoli di [!UICONTROL Osservatore], [!UICONTROL Editor], [!UICONTROL Approvatore] o [!UICONTROL Editore].
@@ -158,7 +173,7 @@ Il nuovo modello [!DNL Target] [!UICONTROL Autorizzazioni] dispone degli stessi 
 
 In questo esempio, Jan dispone delle autorizzazioni da approvatore per la Homepage e il sito internet degli Stati Uniti e le autorizzazioni da osservatore per il sito francese.
 
-Inoltre Jan non può visualizzare pagine, proprietà o siti di [!DNL Target] per i quali non dispone dell&#39;autorizzazione di visualizzazione, come illustrato di seguito:
+Inoltre Jan non è in grado di visualizzare pagine, proprietà o siti di [!DNL Target] per i quali non dispone dell&#39;autorizzazione di visualizzazione, come illustrato di seguito:
 
 ![autorizzazioni_4 immagine](assets/permissions_4.png)
 
@@ -170,8 +185,8 @@ I seguenti casi di utilizzo possono essere utili per comprendere come le proprie
 
 ### Organizzazione multinazionale
 
-Se fai parte di un’organizzazione multinazionale, potresti avere un’area di lavoro per le pagine web, le proprietà o i siti europei e un’altra per le pagine web, le proprietà o i siti americani.
-Dopo una riorganizzazione, utilizzando gli utenti tipo nelle illustrazioni di cui sopra, è possibile impostare aree di lavoro e autorizzazioni simili alle seguenti:
+Se fai parte di un’azienda multinazionale, potresti avere un’area di lavoro per le pagine web, le proprietà o i siti europei e un’altra per le pagine web, le proprietà o i siti americani.
+Dopo una riorganizzazione, utilizzando gli utenti tipo nelle illustrazioni di cui sopra, è possibile impostare le aree di lavoro e le autorizzazioni simili alle seguenti:
 
 * **Jan**: Jan è il capo dell’ottimizzazione nel centro di eccellenza per le pagine Web degli Stati Uniti, le proprietà e i siti della sua organizzazione. Molto probabilmente dispone dei diritti di amministratore di sistema nel cloud Adobe Experience Cloud.
 
@@ -197,13 +212,13 @@ Se fai parte di un&#39;azienda multi-brand, potresti avere un&#39;area di lavoro
 
 Dopo una riorganizzazione, utilizzando gli utenti tipo nelle illustrazioni di cui sopra, è possibile impostare i progetti e le autorizzazioni come di seguito:
 
-* **Jan**: Jan è il capo dell’ottimizzazione nel centro di eccellenza di un’organizzazione sanitaria che opera nell’ambito dei prodotti ospedalieri e dei prodotti di consumo. Molto probabilmente dispone dei diritti di amministratore di sistema nel cloud Adobe Experience Cloud.
+* **Jan**: Jan è responsabile dell’ottimizzazione nel centro di eccellenza di un’organizzazione sanitaria che opera nell’ambito di prodotti ospedalieri e prodotti per consumatori. Molto probabilmente dispone dei diritti di amministratore di sistema nel cloud Adobe Experience Cloud.
 
   Nel suo ruolo dispone delle autorizzazioni di approvatore per il sito ospedaliero. Con l&#39;autorizzazione dell&#39;approvatore, può creare, modificare, attivare o interrompere le attività.
 
-  Jan si consulta inoltre con il team di ottimizzazione nell&#39;ambito dei prodotti di consumo e, pertanto, dispone delle autorizzazioni di osservatore per quel sito, che le consentono l&#39;accesso in sola lettura alle attività. Jan può visualizzare le attività, ma non può crearle o modificarle.
+  Jan si consulta inoltre con il team di ottimizzazione nell’ambito dei prodotti per consumatori, pertanto dispone delle autorizzazioni di osservatore per quel sito, che le consentono di accedere in sola lettura alle attività. Jan può visualizzare le attività, ma non può crearle o modificarle.
 
-* **Ernie:** Ernie è un Marketing Manager per l’organizzazione ed è responsabile del marketing nell’ambito dei prodotti di consumo.
+* **Ernie:** Ernie è Marketing Manager per l’organizzazione ed è responsabile del marketing nell’ambito dei prodotti per consumatori.
 
   Siccome Ernie è entrato di recente nell&#39;organizzazione e non ha esperienza con Target, dispone dell&#39;autorizzazione Editor per il sito consumatore. Con le autorizzazioni dell’editor, Ernie può creare e modificare le attività prima che siano live. Non può approvare l’avvio di un’attività: un utente con autorizzazioni di approvazione per il sito consumatore, ma non Jan in questo scenario, deve approvare l’attività prima che possa essere messa in produzione.
 
@@ -231,40 +246,40 @@ Quando si utilizzano o si configurano proprietà e autorizzazioni in [!DNL Targe
 * **Importante**: non eliminare le aree di lavoro con le attività. Se elimini un’area di lavoro con attività, contatta l’Assistenza clienti per ripristinarle.
 * Quando usi la vista Tutte le aree di lavoro:
 
-   * Puoi visualizzare le attività, i destinatari e le offerte per tutti gli spazi di lavoro e le autorizzazioni per accedere.
-   * Quando si seleziona la visualizzazione [!UICONTROL Tutte le aree di lavoro], viene aggiunta una nuova colonna alla pagina Attività, Tipi di pubblico e Offerte. In questa colonna sono elencate l&#39;area di lavoro e l&#39;autorizzazione utente associate all&#39;elemento (osservatore, editor o approvatore).
-   * Quando crei un&#39;attività, un pubblico o un&#39;offerta nella vista Tutte le aree di lavoro, devi selezionare l&#39;area di lavoro in cui deve essere creato l&#39;elemento. Possono essere selezionate solamente le aree di lavoro per cui si possiedono le autorizzazioni dell&#39;editor o dell&#39;approvatore.
-   * Quando copi un&#39;attività, un pubblico o un&#39;offerta nella vista Tutte le aree di lavoro, devi selezionare l&#39;area di lavoro in cui copiare l&#39;elemento. Possono essere selezionate solamente le aree di lavoro per cui si possiedono le autorizzazioni dell&#39;editor o dell&#39;approvatore.
+  * Puoi visualizzare le attività, i destinatari e le offerte per tutti gli spazi di lavoro e le autorizzazioni per accedere.
+  * Quando si seleziona la visualizzazione [!UICONTROL Tutte le aree di lavoro], viene aggiunta una nuova colonna alla pagina Attività, Tipi di pubblico e Offerte. In questa colonna sono elencate l&#39;area di lavoro e l&#39;autorizzazione utente associate all&#39;elemento (osservatore, editor o approvatore).
+  * Quando crei un&#39;attività, un pubblico o un&#39;offerta nella vista Tutte le aree di lavoro, devi selezionare l&#39;area di lavoro in cui deve essere creato l&#39;elemento. Possono essere selezionate solamente le aree di lavoro per cui si possiedono le autorizzazioni dell&#39;editor o dell&#39;approvatore.
+  * Quando copi un&#39;attività, un pubblico o un&#39;offerta nella vista Tutte le aree di lavoro, devi selezionare l&#39;area di lavoro in cui copiare l&#39;elemento. Possono essere selezionate solamente le aree di lavoro per cui si possiedono le autorizzazioni dell&#39;editor o dell&#39;approvatore.
 
 * Qualsiasi impostazione nelle seguenti [!UICONTROL pagine di amministrazione] può essere controllata da qualsiasi [!UICONTROL Approvatore] in qualsiasi area di lavoro:
 
-   * Compositore esperienza visivo
-   * Generazione di rapporti
-   * Configurazione Scene7
-   * Implementazione
-   * Proprietà
-   * Host
-   * Ambienti
-   * Token di risposta
-   * Utenti
+  * Compositore esperienza visivo
+  * Generazione di rapporti
+  * Configurazione Scene7
+  * Implementazione
+  * Proprietà
+  * Host
+  * Ambienti
+  * Token di risposta
+  * Utenti
 
 * Gli utenti non possono spostare le risorse da un&#39;area di lavoro (profilo prodotto) a un&#39;altra. Copy, tuttavia, è supportato.
 * Quando si visualizzano i tipi di pubblico dalla pagina [!DNL Audiences], questa viene caricata più lentamente del previsto. Se interagite in qualsiasi modo con la barra di ricerca, la pagina dei tipi di pubblico si visualizzerà più velocemente. Questo problema è noto e verrà risolto in un prossimo aggiornamento. Questo problema non influisce sulla selezione dei destinatari durante il flusso di lavoro della creazione di attività.
 * Le risorse seguenti fanno parte del nuovo modello di autorizzazioni Enterprise:
 
-   * Attività, tipi di pubblico e offerte di codice creati in [!DNL Target Standard/Premium] sono disponibili per l&#39;utilizzo dopo l&#39;abilitazione del cliente per le autorizzazioni. (Nota: i clienti devono avere diritto a [!DNL Target Premium].)
-   * Le proprietà possono essere aggiunte alle attività esistenti nel Workspace predefinito; tuttavia, questo approccio è soggetto a modifiche.
-   * Solo le nuove risorse (ad esempio attività, offerte di codice e tipi di pubblico) create all’interno di Target Premium (dopo l’abilitazione delle autorizzazioni Enterprise) sono disponibili per limitare le autorizzazioni.
-   * Le risorse esterne sono disponibili solo per gli utenti nell&#39;area di lavoro predefinita. Il ruolo di un utente nell&#39;area di lavoro predefinita si applica globalmente (a tutte le richieste Target e a tutte le risorse Target).
+  * Attività, tipi di pubblico e offerte di codice creati in [!DNL Target Standard/Premium] sono disponibili per l&#39;utilizzo dopo l&#39;abilitazione del cliente per le autorizzazioni. (Nota: i clienti devono avere diritto a [!DNL Target Premium].)
+  * Le proprietà possono essere aggiunte alle attività esistenti nel Workspace predefinito; tuttavia, questo approccio è soggetto a modifiche.
+  * Solo le nuove risorse (ad esempio attività, offerte di codice e tipi di pubblico) create all’interno di Target Premium (dopo l’abilitazione delle autorizzazioni Enterprise) sono disponibili per limitare le autorizzazioni.
+  * Le risorse esterne sono disponibili solo per gli utenti nell&#39;area di lavoro predefinita. Il ruolo di un utente nell&#39;area di lavoro predefinita si applica globalmente (a tutte le richieste Target e a tutte le risorse Target).
 
 * Le risorse seguenti *non* fanno parte del nuovo modello di autorizzazioni Enterprise:
 
-   * Offerte immagine
-   * Tutte le risorse per la funzione Consigli, inclusi Libreria criteri, Libreria progettazioni, Catalogo, Configurazione consigli.
-   * Le risorse esistenti (ad esempio attività, offerte di codice e tipi di pubblico) create all’interno di Target Premium prima di abilitare le autorizzazioni Enterprise possono essere copiate ma non possono essere spostate in altre aree di lavoro.
-   * Le attività, i tipi di pubblico, le offerte basate su codice, le offerte immagini o qualsiasi altra risorsa creata utilizzando le soluzioni o i metodi seguenti non possono essere controllate dal modello di autorizzazioni Enterprise, ma fanno parte di Workspace predefinito: Target Classic, Adobe Experience Manager (AEM), Adobe Mobile Services e le risorse create tramite API. Le risorse create tramite API includono le attività, i tipi di pubblico, le offerte basate su codice e le offerte di immagini.
-   * Le offerte di immagini (le risorse archiviate in `https://[tenantName].marketing.adobe.com/content/mac/[tenantName]/target/offers.html#image-library` non possono essere attualmente controllate dal modello di autorizzazioni Enterprise.
-   * clickTracking e reindirizzamenti funzionano quando il collegamento di destinazione o la pagina di destinazione fanno parte di una proprietà inclusa nell’attività. Inoltre, clickTracking potrebbe non funzionare quando si utilizza la funzione `targetPageParams()`. La funzione suggerita è `targetPageParamsAll()`.
+  * Offerte immagine
+  * Tutte le risorse per la funzione Consigli, inclusi Libreria criteri, Libreria progettazioni, Catalogo, Configurazione consigli.
+  * Le risorse esistenti (ad esempio attività, offerte di codice e tipi di pubblico) create all’interno di Target Premium prima di abilitare le autorizzazioni Enterprise possono essere copiate ma non possono essere spostate in altre aree di lavoro.
+  * Le attività, i tipi di pubblico, le offerte basate su codice, le offerte immagini o qualsiasi altra risorsa creata utilizzando le soluzioni o i metodi seguenti non possono essere controllate dal modello di autorizzazioni Enterprise, ma fanno parte di Workspace predefinito: Target Classic, Adobe Experience Manager (AEM), Adobe Mobile Services e le risorse create tramite API. Le risorse create tramite API includono le attività, i tipi di pubblico, le offerte basate su codice e le offerte di immagini.
+  * Le offerte di immagini (le risorse archiviate in `https://[tenantName].marketing.adobe.com/content/mac/[tenantName]/target/offers.html#image-library` non possono essere attualmente controllate dal modello di autorizzazioni Enterprise.
+  * clickTracking e reindirizzamenti funzionano quando il collegamento di destinazione o la pagina di destinazione fanno parte di una proprietà inclusa nell’attività. Inoltre, clickTracking potrebbe non funzionare quando si utilizza la funzione `targetPageParams()`. La funzione suggerita è `targetPageParamsAll()`.
 
   [!DNL Target] attualmente richiede un token `at_property` per essere presente in qualsiasi pagina in cui si verifica il tracciamento. Se il token è (1) non presente, (2) non rilevato al momento della configurazione dell’attività (all’interno del Compositore esperienza visivo), o (3) non passato alla chiamata di destinazione clickTracking tramite la funzione `targetPageParamsAll()`, la metrica non viene incrementata e viene visualizzata come &quot;0&quot;.
 

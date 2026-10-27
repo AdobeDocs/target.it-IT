@@ -38,10 +38,10 @@ topic_v2:
     internal-label: Personalization
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
     internal-label: Machine learning
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '1053'
-ht-degree: 29%
+source-wordcount: '1054'
+ht-degree: 27%
 ---
 # [!UICONTROL Automated Personalization] (AP)
 
@@ -81,7 +81,7 @@ Foresta casuale è uno dei principali metodi di apprendimento automatico. In ter
 
 * La slot machine assicura che il modello &quot;spenda&quot; sempre una piccola frazione di traffico per continuare a imparare per tutta la durata dell&#39;attività e per prevenire lo sfruttamento eccessivo delle tendenze apprese in precedenza.
 * I modelli sottostanti vengono ricreati ogni 24 ore utilizzando i dati di comportamento del visitatore più recenti per garantire che [!DNL Target] utilizzi sempre le preferenze del visitatore in modifica.
-* Se l&#39;algoritmo non può determinare le esperienze vincenti per i singoli visitatori, mostra automaticamente l&#39;esperienza con i migliori risultati a livello generale, mentre continua a cercare vincitori personalizzati. L’esperienza che offre prestazioni migliori viene individuata tramite il [campione di Thompson](https://en.wikipedia.org/wiki/Thompson_sampling).
+* Se l’algoritmo non è in grado di determinare le esperienze vincenti per i singoli visitatori, mostra automaticamente quella con le prestazioni migliori, continuando a cercare vincitori personalizzati. L’esperienza che offre prestazioni migliori viene individuata tramite il [campione di Thompson](https://en.wikipedia.org/wiki/Thompson_sampling).
 
 ## Il modello ottimizza continuamente una singola metrica di obiettivo
 

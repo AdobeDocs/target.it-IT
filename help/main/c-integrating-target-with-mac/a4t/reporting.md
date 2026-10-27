@@ -20,10 +20,10 @@ topic_v2:
     internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '1317'
-ht-degree: 41%
+source-wordcount: '1320'
+ht-degree: 40%
 ---
 # Generazione di rapporti per A4T
 
@@ -81,7 +81,7 @@ Quando [!DNL Analytics] viene utilizzato come origine per la generazione di rapp
 
   Eventuali numeri che aumentano vengono visualizzati come positivi nel rapporto, anche quando un aumento è indesiderato. Ad esempio, anche se si desidera una percentuale di mancato recapito più bassa, la percentuale più elevata viene visualizzata come vincitore con l’incremento più alto. Considera queste metriche e ad altre simili, e se preferisci aumentare o diminuire i numeri, quando prendi decisioni in base ai rapporti.
 
-Puoi applicare la metrica o il pubblico al rapporto in [!DNL Target] dopo l&#39;inizio dell&#39;attività o anche dopo il completamento del test. Non devi sapere preventivamente con precisione che cosa vuoi misurare.
+Puoi applicare la metrica o il pubblico al rapporto in [!DNL Target] dopo l&#39;inizio dell&#39;attività o anche dopo il completamento del test. Non è necessario sapere esattamente cosa si desidera misurare in anticipo.
 
 Fare clic per visualizzare il report completo [!DNL Analytics] direttamente dalla pagina del report attività.
 
@@ -95,7 +95,7 @@ Durante la creazione di attività, devi specificare un obiettivo per l’attivit
 
 Per A4T viene utilizzato il calcolo del test t [&#128279;](https://en.wikipedia.org/wiki/Welch%27s_t-test){target=_blank} di Welch per variabili continue (anziché metriche binarie). In Analytics, un visitatore viene sempre tracciato e ogni azione intrapresa viene conteggiata. Pertanto, se il visitatore effettua più acquisti o visita una metrica di successo più volte, tali hit aggiuntivi vengono conteggiati. Questo rende la metrica una variabile continua. Per eseguire il calcolo del test t di Welch, è necessaria la &quot;somma dei quadrati&quot; per calcolare la varianza, che viene utilizzata nel denominatore della statistica t. [I calcoli statistici nei test A/Bn](/help/main/c-reports/statistical-methodology/statistical-calculations.md) spiegano i dettagli delle formule matematiche utilizzate. La somma dei quadrati può essere recuperata da [!DNL Analytics]. Per ottenere la somma dei quadrati è necessario eseguire un’esportazione a livello del visitatore per la metrica che desideri ottimizzare, per un periodo di tempo campione.
 
-Ad esempio, se stai ottimizzando le visualizzazioni di pagina per visitatore, puoi esportare un campione del numero totale di visualizzazioni di pagina per visitatore per un intervallo di tempo specificato, forse un paio di giorni (sono sufficienti poche migliaia di punti dati). Dovresti poi quadrare ogni valore e sommare i totali (è importante eseguire le operazioni in questo ordine). Questo valore di “somma dei quadrati” viene quindi utilizzato nel Calcolatore di affidabilità completo. Per questi valori consulta la sezione “ricavi” del foglio di calcolo.
+Ad esempio, se ottimizzi le visualizzazioni di pagina per visitatore, puoi esportare un campione del numero totale di visualizzazioni di pagina per visitatore per un intervallo di tempo specificato, ad esempio un paio di giorni (sono sufficienti poche migliaia di punti dati). Dovresti poi quadrare ogni valore e sommare i totali (è importante eseguire le operazioni in questo ordine). Questo valore di “somma dei quadrati” viene quindi utilizzato nel Calcolatore di affidabilità completo. Per questi valori consulta la sezione “ricavi” del foglio di calcolo.
 
 **Per eseguire la funzione di esportazione dei dati di [!DNL Analytics]:**
 
@@ -119,7 +119,7 @@ Ad esempio, se stai ottimizzando le visualizzazioni di pagina per visitatore, pu
 
    La consegna dei file può richiedere fino a 72 ore, a seconda della quantità di dati richiesti. Puoi controllare l’avanzamento della richiesta in qualsiasi momento facendo clic su [!UICONTROL Tools] > [!UICONTROL Data Warehouse] > [!UICONTROL Request Manager] (Strumenti > Data Warehouse > Gestione richieste).
 
-   Se desideri richiedere nuovamente i dati richiesti in passato, puoi duplicare una vecchia richiesta di [!UICONTROL Gestione richieste] in base alle esigenze.
+   Se desideri richiedere nuovamente i dati che hai richiesto in passato, puoi duplicare una richiesta precedente da [!UICONTROL Gestione richieste], in base alle esigenze.
 
 Per ulteriori informazioni su [!DNL Data Warehouse], consulta i seguenti collegamenti nella documentazione di [!DNL Analytics]:
 

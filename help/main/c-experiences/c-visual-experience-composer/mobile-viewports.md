@@ -16,10 +16,10 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '1382'
-ht-degree: 92%
+source-wordcount: '1384'
+ht-degree: 89%
 ---
 # Riquadri di visualizzazione mobile per esperienze reattive
 
@@ -101,7 +101,7 @@ Se il sito non è reattivo, puoi comunque utilizzare il compositore web per disp
 
 >[!IMPORTANT]
 >
->Puoi modificare un’esperienza dall’interno dei riquadri di visualizzazione mobili. Tuttavia, queste modifiche si applicano a tutti i riquadri di visualizzazione e a tutti i dispositivi, non solo al riquadro di visualizzazione in cui stai lavorando. Analogamente, la modifica di un’esperienza nella normale visualizzazione desktop cambia la pagina per tutte le dimensioni di schermo, non solo la visualizzazione sul desktop. Attualmente, [!DNL Target] non supporta le modifiche di pagina specifiche per i riquadri di visualizzazione.
+>Puoi modificare un’esperienza dall’interno dei riquadri di visualizzazione mobili. Tuttavia, queste modifiche si applicano a tutti i riquadri di visualizzazione e a tutti i dispositivi, non solo al riquadro di visualizzazione in cui si sta lavorando. Analogamente, la modifica di un’esperienza nella normale visualizzazione desktop cambia la pagina per tutte le dimensioni di schermo, non solo la visualizzazione sul desktop. Attualmente, [!DNL Target] non supporta le modifiche di pagina specifiche per i riquadri di visualizzazione.
 
 ## Configurazione di riquadri di visualizzazione mobili {#task_B4B161499DC0470584ED922A4D20FCAB}
 

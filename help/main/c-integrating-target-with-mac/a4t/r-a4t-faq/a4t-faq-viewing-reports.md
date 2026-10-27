@@ -23,10 +23,10 @@ topic_v2:
     internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '2700'
-ht-degree: 27%
+source-wordcount: '2716'
+ht-degree: 26%
 ---
 # Visualizzare i rapporti - Domande frequenti su A4T
 
@@ -114,11 +114,11 @@ Le &quot;Conversioni di attività&quot; sono vuote se è stata selezionata una m
 ## Perché viene visualizzato &quot;non specificato&quot; nei report [!DNL Analytics]? Che cosa significa? {#unspecified}
 
 +++Risposta
-In altri rapporti, “non specificato” significa che i dati non soddisfano una regola di classificazione, ma in A4T non dovrebbe mai verificarsi. Se viene visualizzato “non specificato”, il servizio di classificazione non è ancora stato eseguito. In genere i dati relativi all’attività vengono visualizzati nei rapporti dopo 24-72 ore. Anche se le attività non compaiono ancora nel rapporto, tutti i dati dei visitatori associati a tali attività vengono comunque acquisiti e visualizzati al termine della classificazione.
+In altri rapporti, “non specificato” significa che i dati non soddisfano una regola di classificazione, ma in A4T non dovrebbe mai verificarsi. Se viene visualizzato &quot;non specificato&quot;, significa che il servizio di classificazione non è ancora stato eseguito. In genere i dati relativi all’attività vengono visualizzati nei rapporti dopo 24-72 ore. Anche se le attività non compaiono ancora nel rapporto, tutti i dati dei visitatori associati a tali attività vengono comunque acquisiti e visualizzati al termine della classificazione.
 
 Dopo il periodo di classificazione, i dati sono visualizzati in questi rapporti circa un&#39;ora dopo essere stati raccolti dal sito. Tutte le metriche, i segmenti e i valori nei rapporti provengono dalla suite di rapporti selezionata quando si configura l’attività.
 
-Nel caso in cui la classificazione sia stata eseguita per l&#39;attività e nel report venga ancora visualizzata una riga con dicitura &quot;Non specificata&quot;, verificare che il report non utilizzi una metrica non [!DNL Target] per visualizzare i dati. A meno che il report non utilizzi una metrica specifica di [!DNL Target], la riga &quot;Non specificato&quot; contiene eventi per chiamate non associate a [!DNL Target]. La riga non conterrà alcuna informazione associata a [!DNL Target] (ad esempio, visitatori/visite/impression).
+Se per l&#39;attività è stata eseguita la classificazione e nel report viene ancora visualizzata una riga con dicitura &quot;Non specificata&quot;, verificare che il report non utilizzi una metrica non [!DNL Target] per visualizzare i dati. A meno che il report non utilizzi una metrica specifica di [!DNL Target], la riga &quot;Non specificato&quot; contiene eventi per chiamate non associate a [!DNL Target]. La riga non conterrà alcuna informazione associata a [!DNL Target] (ad esempio, visitatori/visite/impression).
 
 +++
 
@@ -164,7 +164,7 @@ L’utente poi torna il 1° aprile, visualizza altre cinque pagine ed effettua u
 | ABC | 1 | 10 | 2 | 1 | 1 |
 | Totale | 2 | 20 | 3 | 1 | 1 |
 
-Poiché entrambe le esperienze sono state viste prima della conversione, entrambe ricevono il &quot;merito&quot; per l’ordine. Tuttavia, nel sistema è stato effettuato un solo ordine e il totale riflette questa situazione. Per il reporting di [!DNL Target], poiché non stai confrontando un&#39;attività di [!DNL Target] con un&#39;altra attività per vedere quale ha più successo, non importa che tutte le attività che l&#39;utente ha visto abbiano ottenuto credito. Stai confrontando i risultati di due elementi all’interno della singola attività. Non è possibile per un utente vedere diverse esperienze nella stessa attività, quindi non devi preoccuparti della contaminazione incrociata del credito dell’ordine.
+Poiché entrambe le esperienze sono state viste prima della conversione, entrambe ricevono il &quot;merito&quot; per l’ordine. Tuttavia, nel sistema è stato effettuato un solo ordine e il totale riflette questa situazione. Per il reporting di [!DNL Target], poiché non stai confrontando un&#39;attività di [!DNL Target] con un&#39;altra attività per vedere quale ha più successo, non importa che tutte le attività che l&#39;utente ha visto abbiano ricevuto credito. Stai confrontando i risultati di due elementi all’interno della singola attività. Non è possibile per un utente vedere diverse esperienze nella stessa attività, quindi non devi preoccuparti della contaminazione incrociata del credito dell’ordine.
 
 Per ulteriori informazioni, vedere [Variabili di conversione (eVar](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/conversion-var-admin.html?lang=it)) nella *Guida dell&#39;amministratore di Analytics*.
 
@@ -186,7 +186,7 @@ La metrica [!UICONTROL Visitatori univoci] è diversa in [!DNL Analytics] e [!DN
 
 La metrica [!UICONTROL Visitatori univoci] visualizza il numero di persone esposte al test che hanno visitato il sito durante il periodo di tempo specificato. Queste persone fanno parte del test e devono essere conteggiate. Se si desidera visualizzare solo il numero di persone esposte durante una sola settimana, è possibile creare un segmento di visitatori per i quali è stata registrata un’impression di attività e applicare tale segmento al rapporto.
 
-È possibile ridurre il tempo di persistenza della variabile [!DNL Target] in una sessione; tuttavia, ciò è problematico per i test in cui la probabilità che l&#39;evento di conversione si verifichi all&#39;interno della stessa sessione non è altrettanto elevata.
+È possibile ridurre il tempo di persistenza della variabile [!DNL Target] in una sessione; tuttavia, ciò è problematico per i test in cui la probabilità che l&#39;evento di conversione si verifichi all&#39;interno della stessa sessione è inferiore.
 
 +++
 

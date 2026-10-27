@@ -45,10 +45,10 @@ topic_v2:
     internal-label: Insights
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 140a7287246905d47bf02a84348627017a619386
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '2913'
-ht-degree: 49%
+source-wordcount: '2918'
+ht-degree: 47%
 ---
 # Domande frequenti sull’ottimizzazione e la personalizzazione di Target
 
@@ -395,7 +395,7 @@ Utilizza il nostro [debugger](/help/main/c-activities/c-troubleshooting-activiti
 **Perché la consegna dei contenuti non avviene nel mio processo QA?**
 
 +++Vedi i dettagli
-È possibile che il sito abbia ID dinamici, ID duplicati o classi dinamiche sugli elementi. Potrebbe essere necessario valutare le opzioni di preferenza del sito a livello di account (o a livello di attività se il problema è specifico a un dominio o a una pagina). Consulta [Selettori CSS](/help/main/administrating-target/visual-experience-composer-set-up.md#css).
+È possibile che nel sito siano presenti ID dinamici, ID duplicati o classi dinamiche di elementi. Potrebbe essere necessario valutare le opzioni di preferenza del sito a livello di account (o a livello di attività se il problema è specifico a un dominio o a una pagina). Consulta [Selettori CSS](/help/main/administrating-target/visual-experience-composer-set-up.md#css).
 
 +++
 
@@ -440,7 +440,7 @@ Tieni presente che [!DNL Target] raccoglie i dati in questo ambito dal momento i
 **Non posso definire i tipi di pubblico prima di eseguire l’attività. Trovo restrittivo questo aspetto di reporting per i tipi di pubblico nelle attività di [!DNL Target]. Cosa posso fare per semplificare questo processo?**
 
 +++Vedi i dettagli
-[Analytics for Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE) è molto comodo a tale scopo. Se hai [!DNL Adobe Analytics], scegli semplicemente l&#39;origine come [!DNL Analytics], eliminando questa restrizione. Ora è possibile eseguire analisi su qualsiasi pubblico in qualsiasi punto e non è necessario definire a priori i tipi di pubblico per i rapporti.
+[Analytics for Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE) è molto comodo a tale scopo. Se hai [!DNL Adobe Analytics], scegli semplicemente l&#39;origine come [!DNL Analytics], eliminando questa restrizione. Ora puoi eseguire analisi su qualsiasi pubblico in qualsiasi momento e non è necessario definire i tipi di pubblico di reporting iniziali.
 
 +++
 

@@ -7,18 +7,20 @@ exl-id: 5fe0507a-75d1-47bc-a941-8c8eeeaf3b75
 TQID: https://experienceleague.adobe.com/IWQT8Lw7uXxY8znUlzOIB-92M2sdjvMj91Ut-gAvZVU
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Customer experience
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: 477
+source-wordcount: '479'
 ht-degree: 27%
-
 ---
-
 # Creare un pubblico per sola attività
 
 Durante la creazione di un&#39;attività puoi creare tipi di pubblico per sola attività dal flusso di lavoro guidato in tre passaggi di [!DNL Adobe Target]. Questi tipi di pubblico specifici possono essere utilizzati in altre aree della stessa attività, ma non vengono memorizzati nella [!UICONTROL Libreria tipi di pubblico] per l&#39;utilizzo in altre attività.
@@ -59,5 +61,5 @@ Quando lavori con tipi di pubblico per sola attività, considera quanto segue:
 
   Per utilizzare le regole di esclusione, puoi utilizzare le seguenti alternative:
 
-   * [Crea e utilizza un pubblico della libreria](/help/main/c-target/c-audiences/create-audience.md) invece di un pubblico per sola attività.
-   * [Combina più](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5) (fino a 20) tipi di pubblico della libreria in un pubblico per sola attività. Quando si combinano tipi di pubblico, è possibile utilizzare le regole di inclusione ed esclusione nei singoli tipi di pubblico della libreria anche quando il pubblico combinato viene salvato come pubblico per sola attività.
+  * [Crea e utilizza un pubblico della libreria](/help/main/c-target/c-audiences/create-audience.md) invece di un pubblico per sola attività.
+  * [Combina più](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5) (fino a 20) tipi di pubblico della libreria in un pubblico per sola attività. Quando si combinano tipi di pubblico, è possibile utilizzare le regole di inclusione ed esclusione nei singoli tipi di pubblico della libreria anche quando il pubblico combinato viene salvato come pubblico per sola attività.

@@ -22,10 +22,10 @@ topic_v2:
     internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '1932'
-ht-degree: 47%
+source-wordcount: '1934'
+ht-degree: 43%
 ---
 # Impostazioni dei rapporti
 
@@ -266,8 +266,8 @@ Se passi il puntatore su una delle esperienze in grigio, sul grafico viene visua
 
 Il grafico mostra le linee delle prime 16 esperienze (alcune si sovrappongono, quindi sembra che siano meno di 16). Il punto colorato nel riquadro Esperienze a sinistra indica il colore associato all’esperienza corrispondente.
 
-Se scorri verso il basso nel riquadro Esperienze, puoi notare che i nomi delle esperienze dalla 17 alla 26 sono in grigio, come illustrato nella figura seguente:
+Se scorri verso il basso nel riquadro Esperienze, noterai che i nomi delle esperienze dalla 17° alla 26° sono disattivati, come illustrato nella figura seguente:
 
 Se passi il cursore del mouse sopra una delle esperienze in grigio, sul grafico viene visualizzata temporaneamente la corrispondente linea grigia.
 
-Supponiamo che desideri visualizzare la linea dell’esperienza R e nascondere quella linea dell’esperienza P. Fai clic sul nome dell’esperienza P per deselezionarla, quindi fai clic sul nome dell’esperienza R per selezionarla, come illustrato di seguito:
+Supponiamo di voler visualizzare la linea del tracciato per l&#39;Esperienza R e di non voler vedere la linea per l&#39;Esperienza P. Fai clic sul nome dell&#39;Esperienza P per deselezionarla, quindi fai clic sul nome dell&#39;Esperienza R per selezionarla, come illustrato di seguito:

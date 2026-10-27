@@ -22,10 +22,10 @@ topic_v2:
     internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ced3e207fe0a99485fa1fce2a29d2c2855bb2bd4
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '2785'
-ht-degree: 31%
+source-wordcount: '2792'
+ht-degree: 29%
 ---
 # Feed
 
@@ -86,7 +86,7 @@ L&#39;utilizzo del formato .csv presenta i seguenti vantaggi rispetto al formato
 * Il formato .csv supporta attributi con più valori (vedi l’esempio di seguito).
 * Il formato .csv supporta fino a 100 attributi personalizzati. Se ti servono più di 100 attributi personalizzati, puoi specificarne un altro set con un secondo file di feed.
 
-Utilizza il metodo di caricamento in blocco per inviare informazioni di visualizzazione se non disponi di mbox sulla pagina o se desideri integrare le informazioni di visualizzazione con elementi non disponibili sul sito. Ad esempio, puoi inviare informazioni di inventario non pubblicate sul sito.
+Utilizza il metodo di caricamento in blocco per inviare informazioni di visualizzazione se non hai mbox sulla pagina o se desideri integrare le informazioni di visualizzazione con elementi non disponibili sul sito. Ad esempio, puoi inviare informazioni di inventario non pubblicate sul sito.
 
 Tutti i dati caricati utilizzando il file .csv, il feed di prodotto Google o il feed di classificazione di prodotto [!DNL Analytics] sovrascrivono il valore dell’attributo dell’entità esistente nel database. Se invii informazioni sul prezzo tramite richieste mbox e poi invii diversi valori prezzo nel file, questi valori sovrascrivono quelli impostati con la richiesta mbox. Fa eccezione l’attributo dell’entità `categoryId` dove i valori della categoria vengono aggiunti invece di essere sovrascritti fino al limite di 250 caratteri.
 
@@ -108,7 +108,7 @@ La sintassi corretta è:
 
 >[!NOTE]
 >
->Non è possibile sovrascrivere un valore esistente con un valore vuoto. Passa un altro valore al suo posto per sovrascrivere il valore esistente. Nel caso di un prezzo di vendita, una soluzione comune è quella di passare un &quot;NULL&quot; effettivo o qualche altro messaggio. Puoi quindi scrivere una regola di modello per escludere gli elementi con tale valore.
+>Non puoi sovrascrivere un valore esistente con un valore vuoto. Passa un altro valore al suo posto per sovrascrivere il valore esistente. Nel caso di un prezzo di vendita, una soluzione comune è quella di passare un &quot;NULL&quot; effettivo o qualche altro messaggio. Puoi quindi scrivere una regola di modello per escludere gli elementi con tale valore.
 
 Il prodotto è disponibile nell’interfaccia di amministrazione circa due ore dopo il corretto caricamento della relativa entità.
 
@@ -326,7 +326,7 @@ Di seguito sono riportati gli stati possibili per un feed:
 | [!UICONTROL Download del file di feed] | [!DNL Target] sta scaricando il file di feed. |
 | [!UICONTROL Importazione elementi] | [!DNL Target] sta importando elementi dal file di feed. |
 | Feed importato correttamente alle *ora* | [!DNL Target] ha importato il file di feed nel proprio sistema di distribuzione dei contenuti. Le modifiche apportate agli attributi degli elementi sono state inserite nel sistema di distribuzione dei contenuti e presto saranno applicate ai consigli consegnati. Se le modifiche previste non vengono visualizzate, riprovare e aggiornare la pagina contenente i consigli.<br>Note:<ul><li>Se le modifiche apportate agli attributi di un elemento ne determinano l’esclusione dai consigli, tale esclusione viene applicata immediatamente. Se un elemento è stato aggiunto di recente, oppure se a causa delle modifiche apportate agli attributi un elemento non viene più *escluso* dai consigli, questo verrà applicato al successivo aggiornamento dell&#39;algoritmo, che si verifica entro 24 ore.</li><li>Quando viene visualizzato questo stato, è possibile che gli aggiornamenti non siano ancora visibili nell&#39;interfaccia utente di [!UICONTROL Ricerca nel catalogo]. In [!UICONTROL Ricerca nel catalogo] è elencato uno stato separato che indica l&#39;ultima volta che il catalogo ricercabile è stato aggiornato.</li></ul> |
-| Importazione parziale non riuscita | In precedenza, quando non venivano caricate tutte le righe, il feed veniva comunque contrassegnato come completato. Pertanto, la creazione di una falsa impressione che tutte le righe siano state caricate come feed mostra l’esito positivo.<P>Ecco uno scenario del motivo per cui potresti riscontrare un’importazione di feed parziale:<ul><li>Hai caricato un file di feed per l’ambiente di produzione, ad esempio 100 righe.</li><li>Il feed ha eseguito e caricato 80 di queste righe e ha rilasciato 20 righe a causa di formattazione errata, campo che ha superato i caratteri e così via.</li><li>Il feed è stato contrassegnato come riuscito nell’interfaccia utente, dando l’impressione che tutte le 100 righe siano state caricate.</li><li>Alcuni di questi 20 prodotti sono previsti nella consegna di un’attività, ma non si verifica.</li><li> A questo punto sei perplesso perché hai caricato il feed contenente i dettagli del prodotto per i prodotti in questione. Quando esegui una query tramite l’API di entità, che indica che non si trova nel backend, la query non viene visualizzata.</li></ul>Per eliminare questa confusione, il messaggio viene migliorato per comunicare esattamente cosa è successo con il feed. Invece di contrassegnarlo come operazione riuscita, ora viene contrassegnato come importazione parziale non riuscita. |
+| Importazione parziale non riuscita | In precedenza, quando non venivano caricate tutte le righe, il feed veniva comunque contrassegnato come completato. Pertanto, la creazione di una falsa impressione che tutte le righe siano state caricate come feed mostra l’esito positivo.<P>Ecco uno scenario del motivo per cui potresti riscontrare un’importazione di feed parziale:<ul><li>Hai caricato un file di feed per l’ambiente di produzione, ad esempio 100 righe.</li><li>Il feed ha eseguito e caricato 80 di queste righe e ha rilasciato 20 righe a causa di formattazione errata, campo che ha superato i caratteri e così via.</li><li>Il feed è stato contrassegnato come riuscito nell’interfaccia utente, dando l’impressione che tutte le 100 righe siano state caricate.</li><li>Alcuni di questi 20 prodotti sono previsti nella consegna di un’attività, ma non si verifica.</li><li> A questo punto sei perplesso perché hai caricato il feed contenente i dettagli del prodotto per i prodotti in questione. Non viene visualizzata nel backend quando si esegue una query tramite l’API di entità, il che indica che non si trova nel backend.</li></ul>Per eliminare questa confusione, il messaggio viene migliorato per comunicare esattamente cosa è successo con il feed. Invece di contrassegnarlo come operazione riuscita, ora viene contrassegnato come importazione parziale non riuscita. |
 | [!UICONTROL Impossibile indicizzare] | L’operazione di indicizzazione non è riuscita. Riprova. |
 | [!UICONTROL Server non trovato] | Le posizioni FTP, SFTP o URL non sono valide o altrimenti non raggiungibili. |
 
@@ -343,7 +343,7 @@ I seguenti indicatori di stato dei feed vengono visualizzati nella colonna [!UIC
 | Indicatore di stato | Descrizione |
 |--- |--- |
 | Indicatore di stato verde | Quando l’indicizzazione del feed viene terminata con successo, viene visualizzato un indicatore di stato verde. |
-| Indicatore di stato giallo | Quando un feed o l’indice di un feed viene ritardato del 25% rispetto alla sua frequenza, viene visualizzato un indicatore di stato giallo. L’indicatore di colore giallo viene visualizzato se, ad esempio, l’indice di una serie di feed da eseguire giornalmente non è stato completato sei ore dopo l’orario pianificato. Nota: una volta che lo stato del feed è &quot;In attesa della coda indice&quot;, i valori appena aggiornati sono disponibili nell’elaborazione della consegna e dei criteri. |
+| Indicatore di stato giallo | Quando un feed o l’indice di un feed viene ritardato del 25% rispetto alla sua frequenza, viene visualizzato un indicatore di stato giallo. Ad esempio, viene visualizzato un punto giallo per una serie di feed da eseguire giornalmente se l’indice non è stato completato sei ore dopo l’ora pianificata. Nota: una volta che lo stato del feed è &quot;In attesa della coda indice&quot;, i valori appena aggiornati sono disponibili nell’elaborazione della consegna e dei criteri. |
 | Indicatore di stato bianco | Quando un feed non è pianificato, viene visualizzato un indicatore di stato bianco a indicare che il feed non è ancora stato eseguito. |
 | Indicatore di stato rosso | Se il feed non riesce a caricare i dati sul server, viene visualizzato un indicatore di stato rosso. |
 
@@ -352,14 +352,14 @@ Prendi in considerazione gli esempi seguenti:
 **Esempio 1:**
 
 * Primo giorno: i processi di alimentazione giornalieri sono effettuati alle 9.00 PST.
-* Giorno 2: sono le 15.30 e il feed non viene eseguito da ieri alle 09.00.
+* Secondo giorno: sono le 15:30 e da ieri alle 09:00 il feed non viene più eseguito.
 
 Lo stato visualizzato sarà giallo, perché l’indice doveva essere eseguito circa 6 ore e 30 minuti fa. 6 ore e 30 minuti + 24 ore rappresentano il 127% della finestra del feed.
 
 **Esempio 2:**
 
 * 1 gennaio: processi di feed mensili alle 9:00 PST.
-* 3 febbraio: sono le 10:00 e il feed non viene eseguito da un mese, un giorno e un’ora.
+* 3 febbraio: sono le 10:00 e il feed non è stato eseguito per un mese, un giorno e un’ora fa.
 
 Lo stato visualizzato sarà giallo, perché l’indice doveva essere eseguito circa un giorno e un’ora fa. Anche se questo rappresenta solo l’1,03% delle impostazioni di frequenza [(31 + (1/25))/30 = 1,03%], il ritardo massimo di un giorno è stato superato.
 

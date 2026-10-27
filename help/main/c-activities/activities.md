@@ -28,10 +28,10 @@ topic_v2:
     internal-label: Personalization
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
     internal-label: Machine learning
-source-git-commit: 3c6c808c85affddc1e4734727e90472151dff692
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '2682'
-ht-degree: 24%
+source-wordcount: '2685'
+ht-degree: 23%
 ---
 # Panoramica sulle attività
 
@@ -121,9 +121,9 @@ Sono disponibili le seguenti azioni (a seconda delle autorizzazioni e dello stat
 | Azione | Descrizione |
 | --- | --- |
 | [!UICONTROL Modifica] | Modifica l&#39;attività. È possibile modificare qualsiasi attività, incluse quelle create tramite l&#39;API [!DNL Adobe Target] o il server MCP [!DNL Adobe Target]. Dopo aver modificato un’attività creata dall’API nell’interfaccia utente, questa viene considerata modificata dall’interfaccia utente. Le azioni con restrizioni precedenti, tra cui [!UICONTROL Copia] e [!UICONTROL Elimina], diventano disponibili in base alle autorizzazioni e allo stato dell&#39;attività.<P>Per ulteriori informazioni sulle diverse modalità di modifica delle attività, vedere [Modificare un&#39;attività o salvarla come bozza](/help/main/c-activities/edit-activity.md). |
-| [!UICONTROL Disattiva] | Interrompe un&#39;attività in esecuzione o pianificata. Un’attività disattivata può essere riattivata o archiviata.<P>Se disattivi o archivi un’attività e poi la riattivi in un secondo momento, un visitatore continuerà a esserne parte dopo la riattivazione se vi partecipava prima che fosse disattivata o archiviata. Ogni metrica di conversione registrata durante il periodo trascorso tra i due eventi non verrà attribuita a quell’attività. |
+| [!UICONTROL Disattiva] | Interrompe un&#39;attività in esecuzione o pianificata. Un’attività disattivata può essere riattivata o archiviata.<P>Se disattivi o archivi un’attività e poi la riattivi in un secondo momento, un visitatore continuerà a esserne parte dopo la riattivazione se vi partecipava prima che fosse disattivata o archiviata. Eventuali metriche di conversione registrate durante il periodo di tempo tra i due eventi non saranno attribuite a tale attività. |
 | [!UICONTROL Attiva] | Avvia un’attività inattiva o pronta per essere attivata. |
-| [!UICONTROL Archivia] | Invia l&#39;attività all&#39;archivio. Per impostazione predefinita, le attività archiviate non vengono più visualizzate nell&#39;elenco [!UICONTROL Attività]. Modifica il filtro per l&#39;elenco [!UICONTROL Attività] in modo da includere le attività archiviate per visualizzarle. È possibile attivare un&#39;attività archiviata per utilizzarla nuovamente.<P>Se disattivi o archivi un’attività e poi la riattivi in un secondo momento, un visitatore continuerà a esserne parte dopo la riattivazione se si trovava in tale attività prima che fosse disattivata o archiviata. Ogni metrica di conversione registrata durante il periodo trascorso tra i due eventi non verrà attribuita a quell’attività. |
+| [!UICONTROL Archivia] | Invia l&#39;attività all&#39;archivio. Per impostazione predefinita, le attività archiviate non vengono più visualizzate nell&#39;elenco [!UICONTROL Attività]. Modifica il filtro per l&#39;elenco [!UICONTROL Attività] in modo da includere le attività archiviate per visualizzarle. È possibile attivare un&#39;attività archiviata per utilizzarla nuovamente.<P>Se disattivi o archivi un’attività e poi la riattivi in un secondo momento, un visitatore continuerà a esserne parte dopo la riattivazione se si trovava in tale attività prima che fosse disattivata o archiviata. Eventuali metriche di conversione registrate durante il periodo di tempo tra i due eventi non saranno attribuite a tale attività. |
 | [!UICONTROL Copia] | Copia un&#39;attività. Qualsiasi attività può essere copiata. Quando si copia un&#39;attività viene creata una nuova attività con lo stesso nome e la dicitura “Copia”. Ad esempio, la copia di un test denominato “Offerte browser” sarà denominata “Copia Offerte browser”.<P>Le offerte visive vengono copiate con l&#39;attività. È possibile modificare in modo sicuro le offerte nella copia senza influire sull&#39;attività originale. L&#39;unica eccezione sono le offerte e le immagini salvate nella cartella Contenuto/Risorse. |
 | [!UICONTROL Elimina] | Elimina una bozza o un’attività.<P>**NOTA**: non è possibile recuperare le attività eliminate. A meno che tu non sia sicuro che questa attività non sarà più necessaria, utilizza l&#39;azione [!UICONTROL Archivia]. Se necessario, puoi quindi riattivare l’attività. |
 

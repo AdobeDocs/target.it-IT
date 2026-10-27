@@ -10,10 +10,10 @@ product_v2:
 feature_v2:
   - id: 891742a5-242d-5099-966a-ca76c17cd2d2
     internal-label: Analytics for Target (A4T)
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '1362'
-ht-degree: 96%
+source-wordcount: '1366'
+ht-degree: 90%
 ---
 # Minimizzare i conteggi gonfiati di visite e visitatori in A4T
 
@@ -73,7 +73,7 @@ Le informazioni seguenti relative a questo cambiamento includono istruzioni su c
 
 Nella maggior parte delle situazioni, un hit di [!DNL Target] è unito a un hit di [!DNL Analytics] per ogni pagina web. Questo vincolo si verifica se c’è un SDID coerente nella chiamata di [!DNL Target] e in quella di [!DNL Analytics] e un [!DNL Experience Cloud ID] (MCID) nella chiamata di [!DNL Analytics] sulla stessa pagina. Normalmente [!DNL Target] ha anche l’identificatore MCID, ma se la chiamata a [!DNL Target] si verifica prima che venga restituito l’ID del visitatore, l’hit risulta comunque con unione delle identità per via dell’SDID. Inoltre, l’utente deve rimanere sulla pagina abbastanza a lungo per generare una chiamata [!DNL Analytics] dopo che è stata attivata una chiamata [!DNL Target]. Questo scenario è ideale.
 
-**Hit con dati parziali:** gli utenti a volte non rimangono su una pagina abbastanza a lungo per inviare una chiamata di [!DNL Analytics], ma [!DNL Target] ha un MCID corretto. Questo scenario comporta hit con dati parziali (senza visualizzazioni di pagina di [!DNL Analytics]). Se questi utenti tornano sul tuo sito e visualizzano una pagina che contiene codice [!DNL Analytics], vengono conteggiati correttamente come visitatori ritornati. Questi hit verrebbero persi se sulla pagina fosse presente solo il codice [!DNL Analytics]. Alcuni clienti non desiderano i dati per questi hit perché gonfiano determinate metriche (visite) e ne riducono altre (visualizzazioni di pagina per visita, durata per visita, ecc.). Inoltre, si vedono le visite senza alcuna visualizzazione di pagina. Tuttavia, esistono anche validi motivi per mantenere questi dati.
+**Risultati con dati parziali:** Gli utenti a volte non rimangono su una pagina abbastanza a lungo per inviare una chiamata [!DNL Analytics], ma [!DNL Target] ha un MCID corretto. Questo scenario comporta hit con dati parziali (senza visualizzazioni di pagina di [!DNL Analytics]). Se questi utenti tornano sul tuo sito e visualizzano una pagina che contiene codice [!DNL Analytics], vengono conteggiati correttamente come visitatori ritornati. Questi hit verrebbero persi se sulla pagina fosse presente solo il codice [!DNL Analytics]. Alcuni clienti non desiderano i dati per questi hit perché gonfiano determinate metriche (visite) e ne riducono altre (visualizzazioni di pagina per visita, tempo per visita e così via). Inoltre, si vedono le visite senza alcuna visualizzazione di pagina. Tuttavia, esistono anche validi motivi per mantenere questi dati.
 
 Per ridurre al minimo gli hit con dati parziali, velocizza il caricamento della pagina, aggiorna le librerie alle versioni più recenti oppure crea una [suite di rapporti virtuale](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html?lang=it) che escluda tali hit. Per istruzioni dettagliate, consulta [Creazione di suite di rapporti virtuali](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html?lang=it) in *Guida ai componenti di Analytics*.
 
@@ -94,7 +94,7 @@ Quando si crea la suite di rapporti virtuale, specificare la seguente configuraz
 * E
 * Istanze di collegamento di uscita: non esiste
 
-&lt;ph x=&quot;1&quot; type=&quot;x-LPH&quot;/Hit orfani:**in poche situazioni, gli utenti non rimangono sulla pagina abbastanza a lungo per una chiamata Analytics e Target non riceve un MCID corretto.** Questi risultati sono quelli che Adobe definisce hit “orfani”. Rappresentano i clienti che ritornano raramente e gonfiano il conteggio delle visite e dei visitatori.
+**Risultati orfani:** In poche situazioni, gli utenti non rimangono sulla pagina abbastanza a lungo per una chiamata Analytics e Target non riceve un MCID corretto. Questi risultati sono quelli che Adobe definisce hit “orfani”. Rappresentano i clienti che ritornano raramente e gonfiano il conteggio delle visite e dei visitatori.
 
 Per ridurre al minimo gli hit orfani, è possibile creare una [suite di rapporti virtuale](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html?lang=it) che escluda tali hit, come spiegato in precedenza.
 

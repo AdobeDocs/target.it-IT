@@ -21,9 +21,9 @@ topic_v2:
     internal-label: Customer experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '876'
+source-wordcount: '878'
 ht-degree: 20%
 ---
 # Gruppi di reporting di offerte in [!UICONTROL Automated Personalization]
@@ -37,7 +37,7 @@ I gruppi di reporting svolgono due funzioni chiave:
 
 Quando si utilizzano i gruppi di reporting, [!DNL Target] crea un modello di personalizzazione per ogni gruppo di reporting utilizzando i dati di tutte le offerte del gruppo. Senza gruppi di reporting, [!DNL Target] crea un modello di personalizzazione per ogni offerta nell&#39;attività di Personalizzazione automatizzata.
 
-Se la configurazione dell&#39;attività non dispone di dati sufficienti per creare un modello di personalizzazione per offerta, i gruppi di reporting aiutano a ridurre i requisiti di dati per utilizzare [!UICONTROL Automated Personalization]. I gruppi di reporting consentono inoltre di risolvere il problema “Avvio a freddo” per le nuove offerte raggruppando offerte simili, in modo che ogni modello abbia più dati su cui basarsi. I gruppi di modeling possono essere utilizzati anche per attività in cui le nuove offerte vengono introdotte regolarmente nell’attività di AP.
+Se la configurazione dell&#39;attività non dispone di dati sufficienti per creare un modello di personalizzazione per ogni offerta, i gruppi di reporting aiutano a ridurre i requisiti di dati per utilizzare [!UICONTROL Automated Personalization]. I gruppi di reporting consentono inoltre di risolvere il problema “Avvio a freddo” per le nuove offerte raggruppando offerte simili, in modo che ogni modello abbia più dati su cui basarsi. I gruppi di modeling possono essere utilizzati anche per attività in cui le nuove offerte vengono introdotte regolarmente nell’attività di AP.
 
 Questo approccio funziona bene se i visitatori rispondono allo stesso modo a tutte le offerte di un gruppo. È consigliabile raggruppare offerte a cui gruppi simili di visitatori rispondono in modo simile. In altre parole, offerte per gruppi con tassi di conversione simili. È sconsigliabile mettere tutte le offerte in un unico gruppo di rapporti. Il raggruppamento di tutte le offerte o le offerte con tassi di conversione diversi riduce probabilmente l&#39;efficacia dei modelli di personalizzazione [!DNL Target].
 

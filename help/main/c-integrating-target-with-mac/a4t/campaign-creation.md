@@ -18,10 +18,10 @@ topic_v2:
     internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '663'
-ht-degree: 29%
+source-wordcount: '666'
+ht-degree: 26%
 ---
 # Creare un’attività che utilizza Analytics come sorgente per la generazione di rapporti
 
@@ -56,7 +56,7 @@ La creazione di un&#39;attività [!DNL Target] che utilizza [!DNL Analytics] com
 
      Controlla la tua società [!DNL Analytics]. Se l&#39;account [!DNL Adobe Experience Cloud] è associato a più società [!DNL Analytics], disconnettersi da [!DNL Target] e accedere a [!DNL Analytics] nella società corretta. Quindi torna a [!DNL Target] e le suite di rapporti vengono caricate.
 
-   * Non è possibile visualizzare la suite di rapporti attesa.
+   * La suite di rapporti prevista non è visibile.
 
      È possibile selezionare solo le suite di rapporti predisposte per la connessione a [!DNL Target]. Se le suite di rapporti previste non sono visualizzate, disconnettersi e accedere di nuovo a [!DNL Adobe Experience Cloud] per riprovare.
 
@@ -75,7 +75,7 @@ La creazione di un&#39;attività [!DNL Target] che utilizza [!DNL Analytics] com
    >
    >È possibile inviare una metrica personalizzata basata su Target a [!DNL Analytics] anziché basarsi solo sui dati di [!DNL Analytics]. Ad esempio, è possibile monitorare il clic su una pagina, che in genere non viene tracciata da [!DNL Analytics]. Questa metrica personalizzata viene inviata automaticamente a [!DNL Analytics] dal server [!DNL Target] e viene visualizzata come metrica &quot;[!DNL Target] Conversion&quot; nel selettore delle metriche in [!DNL Analytics]. La metrica di conversione [!DNL Target] è vuota se si sceglie di utilizzare [!DNL Analytics] metriche.
 
-   L&#39;impostazione di un obiettivo non impedisce di utilizzare un&#39;altra metrica per valutare i risultati dei test. L&#39;obiettivo, tuttavia, funge da promemoria rispetto all&#39;elemento da migliorare con l&#39;attività.
+   Fissare un obiettivo non significa non poter utilizzare un’altra metrica durante la valutazione dei risultati del test. L&#39;obiettivo, tuttavia, funge da promemoria rispetto all&#39;elemento da migliorare con l&#39;attività.
 
    Il visitatore resta nell&#39;attività dopo aver raggiunto l&#39;obiettivo. Il visitatore continua a visualizzare il contenuto dell&#39;attività ma non viene conteggiato come nuovo accesso all&#39;attività.
 

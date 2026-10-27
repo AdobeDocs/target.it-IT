@@ -4,9 +4,9 @@ description: Visualizza un elenco di funzioni, miglioramenti e correzioni inclus
 title: Quali funzioni sono incluse nelle versioni precedenti del 2025?
 feature: Release Notes
 TQID: 'https://experienceleague.adobe.com/cjheajZKokzwCNspfQckh6PHh5ecetdj7vZrrq9IqXw'
-source-git-commit: 53cd01d2406b8a2f8560fe380ebb5044872e6711
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '25397'
+source-wordcount: '25402'
 ht-degree: 5%
 ---
 # Note sulla versione per le versioni precedenti
@@ -806,7 +806,7 @@ A causa dei problemi recenti identificati, principalmente correlati a complesse 
 
 +++Vedi i dettagli
 
-* È stato risolto un problema nel livello di persistenza back-end a causa del quale le opzioni eliminate venivano memorizzate correttamente ma non erano accessibili tramite gli endpoint API esistenti. Di conseguenza, le applicazioni front-end non sono state in grado di recuperare nomi significativi per le opzioni eliminate, influendo sulle visualizzazioni di reporting storiche. Questa correzione assicura che i dati delle opzioni eliminati conservati possano ora essere visualizzati correttamente nell’interfaccia utente. (TGT-52973)
+* È stato risolto un problema nel livello di persistenza back-end a causa del quale le opzioni eliminate venivano memorizzate correttamente ma non erano accessibili tramite gli endpoint API esistenti. Di conseguenza, le applicazioni front-end non sono state in grado di recuperare nomi significativi per le opzioni eliminate, con un impatto sulle visualizzazioni cronologiche dei rapporti. Questa correzione assicura che i dati delle opzioni eliminati conservati possano ora essere visualizzati correttamente nell’interfaccia utente. (TGT-52973)
 * È stato implementato un nuovo endpoint di migrazione per supportare il trasferimento delle opzioni di attività eliminate dalle attività basate su JCR a [!DNL Target] Central. Questa funzionalità consente di eseguire il tracciamento e il reporting in modo coerente tra i sistemi. Questa funzione garantisce che le opzioni eliminate vengano mantenute e sincronizzate nel front-end e nel back-end di [!DNL Target], migliorando l&#39;integrità dei dati e dei report cronologici. (TGT-53217)
 * È stato introdotto un nuovo endpoint API che consente agli utenti di ripristinare da un database secondario le opzioni delle attività precedentemente eliminate. Questa funzionalità sfrutta l&#39;infrastruttura esistente fornita dalle classi `RemovedCampaignElements` e `RemovedOptionInfo`, garantendo la perfetta reintegrazione delle opzioni eliminate nelle attività attive. (TGT-52903)
 * È stato risolto un problema che impediva l&#39;apertura o la modifica di [!DNL Recommendations] attività contenenti nomi di metriche con più di 25 caratteri a causa di limitazioni API. Questa correzione assicura la compatibilità con i nomi delle metriche che superano il limite di caratteri, ripristinando l’accesso completo alle attività interessate. (TGT-52839)
@@ -1246,7 +1246,7 @@ We are thrilled to announce the launch of the [!DNL AI Assistant] in [!DNL Adobe
 
 [!DNL AI Assistant] in [!UICONTROL Target] is a conversational tool that you can use to accelerate your workflows with [!DNL Experience Platform] applications and services. Use [!DNL AI Assistant] to boost your overall productivity and amplify your understanding of product knowledge
 
-In [!DNL Target], the first phase of [!DNL AI Assistant] provides invaluable product knowledge grounded in [!DNL Experience League] documentation. Whether you're setting up a profile script, troubleshooting errors, or considering an upgrade to the AEP Web SDK, [!DNL AI Assistant] has you covered.
+In [!DNL Target], the first phase of [!DNL AI Assistant] provides invaluable product knowledge grounded in [!DNL Experience League] documentation. Whether you are setting up a profile script, troubleshooting errors, or considering an upgrade to the AEP Web SDK, [!DNL AI Assistant] has you covered.
 
 For more information, see [Coworker skills for Adobe Target](/help/main/c-intro/coworker-skills.md).
 -->

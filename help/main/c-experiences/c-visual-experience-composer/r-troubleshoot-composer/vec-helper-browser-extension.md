@@ -29,9 +29,9 @@ topic_v2:
     internal-label: Web experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '1111'
+source-wordcount: '1113'
 ht-degree: 48%
 ---
 # Estensione helper [!UICONTROL Compositore esperienza visivo]
@@ -58,7 +58,7 @@ Un SW è una tecnologia web che può essere utilizzata per intercettare le richi
 
 SW può controllare la memorizzazione in cache; può memorizzare in cache la pagina web stessa, le risorse statiche come JS, CSS, IMG, le richieste AJAX, il loro contenuto e le relative intestazioni di risposta, incluse quelle che l’[estensione VEC Helper di Target](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) tenta di rimuovere, come X-Frame-Options: SAMEORIGIN, CSP (Content-Security-Policy) o Set-Cookie.
 
-Sfortunatamente, le API di estensione Chrome che intercettano le richieste web non ricevono le richieste intercettate e gestite da un SW. Pertanto, l’estensione non può correggere le intestazioni e i cookie se la richiesta di pagina web è stata servita da una cache da un SW, perché la pagina web non viene caricata nel Compositore esperienza visivo a causa delle intestazioni X-Frame-Options o CSP anch’esse memorizzate nella cache.
+Sfortunatamente, le API di estensione Chrome che intercettano le richieste web non ricevono le richieste intercettate e gestite da un SW. Pertanto, l’estensione non può correggere le intestazioni e i cookie se la richiesta di pagina web è stata servita da una cache da un SW, perché la pagina web non verrà caricata nel Compositore esperienza visivo a causa delle intestazioni X-Frame-Options o CSP anch’esse memorizzate nella cache.
 
 Come potenziale soluzione alternativa, è possibile disabilitare i processi di lavoro dei servizi dalla scheda Chrome Developer Tools > Application (Strumenti di sviluppo di > Applicazione), quindi abilitare la casella di controllo &quot;Bypass for network&quot; (Ignora per rete) nella sezione Service Workers (Lavoratori dei servizi).
 

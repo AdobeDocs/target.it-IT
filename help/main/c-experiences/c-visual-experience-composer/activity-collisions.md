@@ -16,10 +16,10 @@ feature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '350'
-ht-degree: 49%
+source-wordcount: '351'
+ht-degree: 43%
 ---
 # Conflitti tra attività
 
@@ -42,4 +42,4 @@ L&#39;elenco [!UICONTROL Conflitti] mostra ogni [!DNL Target] scenario in cui vi
 
 L’elenco mostra lo stato e la priorità di ogni potenziale conflitto, insieme ad altre informazioni. Puoi utilizzare lo stato e la priorità per determinare la probabilità del verificarsi di un conflitto. Considera due attività che potrebbero entrare in conflitto. Se un’attività non è attualmente attiva, non può verificarsi un conflitto. Una collisione è possibile solo se l’attività inattiva diventa attiva. Se il potenziale conflitto è tra due attività live con la stessa priorità e lo stesso pubblico, si verifica un conflitto. Per evitarlo, puoi modificare la priorità o lo stato.
 
-Se i tipi di pubblico sono diversi, il potenziale conflitto permane, perché è possibile che un particolare visitatore appartenga a più tipi di pubblico.
+Se i tipi di pubblico sono diversi, esiste ancora un potenziale conflitto perché è possibile che un visitatore specifico appartenga a più tipi di pubblico.

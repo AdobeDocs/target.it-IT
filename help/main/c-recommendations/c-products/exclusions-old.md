@@ -13,9 +13,9 @@ feature_v2:
 subfeature_v2:
   - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
     internal-label: Recommendations
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '630'
+source-wordcount: '631'
 ht-degree: 30%
 ---
 # Esclusioni
@@ -30,7 +30,7 @@ Alcuni esempi di utilizzo delle esclusioni includono:
 * Il catalogo Autunno/Inverno è ora l&#39;unico catalogo che dovrebbe essere presente online. Tutti gli articoli del catalogo estivo non sono più disponibili per l&#39;acquisto.
 * Articoli che potrebbero essere inappropriati da consigliare sulla maggior parte delle pagine/schermate (prodotti per adulti, film NC-17, ecc.)
 * Prodotti con campi di metadati incompleti (miniatura, prezzo o altri metadati importanti mancanti)
-* Prodotti che non dovrebbero mai essere consigliati (forse nel sistema esiste una SKU per qualcosa, ma non è un articolo acquistabile, o forse è una SKU falsa per il team di QA simulare un acquisto senza effettivamente ordinare qualcosa, ecc.)
+* Prodotti che non dovrebbero mai essere consigliati (forse nel sistema esiste una SKU per qualcosa, ma non è un articolo acquistabile, o forse è una SKU falsa per il team QA simulare un acquisto senza effettivamente ordinare qualcosa, ecc.)
 
 >[!IMPORTANT]
 >

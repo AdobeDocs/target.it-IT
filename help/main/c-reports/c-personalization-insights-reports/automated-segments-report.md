@@ -31,10 +31,10 @@ topic_v2:
     internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: f6fd44786c6c8903e81598357a2b6985af0e6eb6
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '2340'
-ht-degree: 58%
+source-wordcount: '2351'
+ht-degree: 56%
 ---
 # Rapporto [!UICONTROL Segmenti automatizzati]
 
@@ -68,7 +68,7 @@ I vari visitatori rispondono in modo diverso alle offerte/esperienze nell&#39;at
 
    >[!IMPORTANT]
    >
-   >Il rapporto [!UICONTROL Segmenti automatizzati] non sarà disponibile per almeno 15 giorni dopo l&#39;attivazione dell&#39;attività. Durante questo periodo iniziale, non potrai accedere a questo report o fare clic sull’icona di [!UICONTROL Segmenti automatizzati]. Trascorsi 15 giorni, supponendo che la tua attività abbia un traffico personalizzato sufficiente, sarà disponibile il rapporto [!UICONTROL Segmenti automatizzati].
+   >Il rapporto [!UICONTROL Segmenti automatizzati] non sarà disponibile per almeno 15 giorni dopo l&#39;attivazione dell&#39;attività. Durante questo periodo iniziale, non potrai accedere a questo rapporto o fare clic sull&#39;icona [!UICONTROL Segmenti automatizzati]. Trascorsi 15 giorni, supponendo che la tua attività abbia un traffico personalizzato sufficiente, sarà disponibile il rapporto [!UICONTROL Segmenti automatizzati].
 
 1. A 15 giorni dall&#39;attivazione dell&#39;attività, puoi fare clic sull&#39;icona **[!UICONTROL Segmenti automatizzati.]**
 
@@ -118,7 +118,7 @@ Questo segmento automatizzato viene definito in base a due attributi. I visitato
 
 Ci sono vari motivi per cui i rapporti di [!UICONTROL Registri di personalizzazione] non sono ancora disponibili per la tua attività:
 
-* Non sono trascorsi 15 giorni dall’attivazione dell’attività. I rapporti di Segmenti automatizzati e Attributi importanti non saranno disponibili per almeno 15 giorni dopo l&#39;attivazione dell&#39;attività. Durante questo periodo iniziale, non potrai accedere a questi rapporti o fare clic sulle icone di Segmenti automatizzati e Attributi importanti.
+* Non sono trascorsi 15 giorni dall’attivazione dell’attività. I rapporti di Segmenti automatizzati e Attributi importanti non saranno disponibili per almeno 15 giorni dopo l’avvio dell’attività. Durante questo periodo iniziale, non potrai accedere a questi rapporti o fare clic sulle icone Segmenti automatizzati e Attributi importanti.
 * L&#39;attività non ha avuto traffico a sufficienza durante l’arco temporale specificato. Trascorsi 15 giorni, supponendo che la tua attività abbia un traffico personalizzato sufficiente, saranno disponibili i rapporti Segmenti automatizzati e Attributi importanti.
 * L&#39;attività ha un obiettivo di ottimizzazione dei profitti. Attualmente, [!UICONTROL Personalization Insights] è disponibile solo per le attività con obiettivo di ottimizzazione della conversione. In una versione futura, Adobe aggiungerà il supporto per le attività con obiettivo di ottimizzazione dei ricavi.
 
@@ -147,7 +147,7 @@ Poiché il clic è attribuito all&#39;esperienza nel suo complesso, tutte le sch
 
 **Perché nel rapporto di Segmenti automatizzati non sono visibili tutte le offerte/esperienze?**
 
-Le attività di PA e TA creano un modello per ogni offerta (nel caso di PA) e un modello per esperienze (nel caso di TA). Queste attività iniziano a gestire il traffico personalizzato e a creare [!UICONTROL Registri di personalizzazione] a partire da due modelli. Se non trovi tutte le offerte/esperienze in [!UICONTROL Personalization Insights], probabilmente non disponi di modelli generati per tali offerte/esperienze specifiche. Controlla il rapporto [!UICONTROL Riepilogo] della tua attività e verifica se accanto quell&#39;offerta o esperienza è presente l&#39;icona dell&#39;orologio. Questa icona indica che i modelli non sono ancora stati generati per quell’offerta o esperienza.
+Le attività di PA e TA creano un modello per ogni offerta (nel caso di PA) e un modello per esperienze (nel caso di TA). Queste attività iniziano a gestire il traffico personalizzato e a creare [!UICONTROL Registri di personalizzazione] a partire da due modelli. Se non trovi tutte le offerte/esperienze in [!UICONTROL Personalization Insights], probabilmente non disponi di modelli generati per tali offerte/esperienze specifiche. Controlla il rapporto [!UICONTROL Riepilogo] della tua attività e verifica se accanto quell&#39;offerta o esperienza è presente l&#39;icona dell&#39;orologio. Questa icona indica che i modelli non sono ancora stati creati per quell’offerta o esperienza.
 
 **Perché alcune offerte/esperienze con un tasso di conversione inferiore ricevono una maggiore quantità di traffico rispetto ad altre per un determinato segmento automatizzato?**
 

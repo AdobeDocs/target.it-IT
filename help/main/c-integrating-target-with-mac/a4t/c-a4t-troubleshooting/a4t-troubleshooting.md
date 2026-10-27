@@ -25,10 +25,10 @@ topic_v2:
     internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '966'
-ht-degree: 87%
+source-wordcount: '972'
+ht-degree: 78%
 ---
 # Risoluzione dei problemi relativi all’integrazione di Analytics e [!DNL Target] (A4T)
 
@@ -38,11 +38,11 @@ In questo argomento vengono descritti alcuni problemi che sono stati riscontrati
 
 Ci sono diversi motivi per cui i dati possono apparire come “non specificati”:
 
-* La classificazione in [!DNL Target] non è stata completamente elaborata.
+* Classificazione in [!DNL Target] non completamente elaborata.
 
   In genere la classificazione impiega da 24 a 72 ore per classificare i rapporti dopo il primo salvataggio.
 
-* La suite di rapporti non contiene dati, ma [!DNL Target] ha effettuato un tentativo di classificazione degli hit. [!DNL Target] non può classificare i dati finché non si verifica il primo hit.
+* La suite di rapporti non contiene dati, ma [!DNL Target] ha tentato di classificare gli hit. [!DNL Target] non può classificare i dati finché non si verifica il primo hit.
 
   Assicurati che la suite di rapporti abbia avuto almeno un hit.
 
@@ -54,7 +54,7 @@ Se suddividi la riga “Non specificata” per la dimensione “Analytics for Ta
 
 >[!NOTE]
 >
->A volte i dati vengono visualizzati correttamente nei rapporti, ma successivamente vengono elencati come “non specificati” perché è stata aggiunta una nuova attività per la quale non è ancora stata completata la classificazione. Tieni presente che in genere la classificazione impiega da 24 a 72 ore per classificare i rapporti dopo il primo salvataggio.
+>A volte i dati vengono visualizzati correttamente nei rapporti, ma successivamente vengono elencati come &quot;non specificato&quot; perché è stata aggiunta una nuova attività per la quale non è stata completata la classificazione. Tieni presente che in genere la classificazione impiega da 24 a 72 ore per classificare i rapporti dopo il primo salvataggio.
 >
 >Quando compare la dicitura “non specificato” non viene perso alcun dato. I dati vengono assegnati correttamente all’attività o all’esperienza appropriata dopo l’esecuzione della classificazione.
 
@@ -64,7 +64,7 @@ Nel report potrebbe essere visualizzata una riga di eventi &quot;[!UICONTROL Non
 
 In genere, questa riga viene visualizzata se si sceglie una metrica comune nel report che non è specifica di [!DNL Target] (ad esempio, [!UICONTROL Visualizzazioni pagina], [!UICONTROL Visite], [!UICONTROL Visitatori univoci] e così via). In questo caso, la riga [!UICONTROL &quot;Non specificato&quot;] include tutte le [!UICONTROL Visualizzazioni pagina], [!UICONTROL Visite] e [!UICONTROL Visitatori univoci] non associati alle [!DNL Target] attività.
 
-Quella riga non includerà alcuna informazione associata a [!DNL Target] (ad esempio, nessun visitatore, visita o impression). Per ulteriori informazioni, consulta [“Non specificato”, “Nessuno,” “Altro,” e “Sconosciuto” nel reporting](https://experienceleague.adobe.com/docs/analytics/technotes/unspecified.html?lang=it) nelle *Note tecniche di Analytics*.
+La riga non conterrà alcuna informazione associata a [!DNL Target] (ad esempio, nessun visitatore, visita o impression). Per ulteriori informazioni, consulta [“Non specificato”, “Nessuno,” “Altro,” e “Sconosciuto” nel reporting](https://experienceleague.adobe.com/docs/analytics/technotes/unspecified.html?lang=it) nelle *Note tecniche di Analytics*.
 
 Se scegli una metrica specifica per [!DNL Target] nel report, la riga [!UICONTROL &quot;Non specificato&quot;] non viene visualizzata. L’unico modo per evitare di averla nel rapporto è impostare una chiamata [!DNL Target] su ogni richiesta inviata da quella pagina, che non è comune o necessaria.
 
@@ -80,7 +80,7 @@ Le attività A4T richiedono che sia stato specificato un server di tracciamento 
 >
 >Se utilizzi la versione 0.9.1 (o successiva) di at.js, non devi specificare un server di tracciamento durante la creazione dell’attività. La libreria at.js invia automaticamente i valori del server di tracciamento a [!DNL Target]. Durante la creazione di attività, puoi lasciare vuoto il campo [!UICONTROL Server di tracciamento] nella pagina [!UICONTROL Obiettivi e impostazioni].
 
-## I miei segmenti di Analytics non compaiono in Target. {#section_DEE87F1557834F448E99381D3D02EEEF}
+## I miei segmenti di Analytics non vengono visualizzati in Target. {#section_DEE87F1557834F448E99381D3D02EEEF}
 
 Assicurati di disporre delle autorizzazioni necessarie prima di iniziare a creare attività A4T:
 
@@ -100,7 +100,7 @@ L’elenco delle suite di rapporti visualizzate in [!DNL Target Standard/Premium
 
 Se utilizzi più origini per la generazione di rapporti, le suite di rapporti devono essere presenti anche nell’origine predefinita impostata in [!DNL Target]. Le suite di rapporti non vengono visualizzate se non sono presenti nell’origine per la generazione di rapporti predefinita.
 
-Se ancora non trovi la suite di rapporti che stai cercando, contatta l’[Assistenza clienti](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) per abilitarla.
+Se ancora non trovi la suite di rapporti che stai cercando, contatta l&#39;[Assistenza clienti](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) per abilitarla.
 
 ## Nei rapporti non trovo la quantità di dati che mi aspettavo. {#section_75002584FA63456D8D9086172925DD8D}
 

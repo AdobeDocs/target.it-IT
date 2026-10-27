@@ -49,9 +49,9 @@ topic_v2:
     internal-label: Insights
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
     internal-label: Machine learning
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '2606'
+source-wordcount: '2620'
 ht-degree: 72%
 ---
 # Capitolo 2: Panoramica di Adobe [!DNL Target]
@@ -156,12 +156,12 @@ Considera le seguenti idee prima di passare al prossimo capitolo: “Sviluppa i 
 ### Le opinioni possono influenzare negativamente i risultati
 
 * Opinioni che possono avere un impatto negativo sull’efficacia. Parere, atteggiamenti e pregiudizi della persona più pagata (HIPPO). Ad esempio, l’amministratore delegato vuole ridurre le dimensioni della casella di ricerca per liberare spazio su ogni pagina. Dovremmo eseguire un test per assicurarci che non riduca il numero di ricerche.
-* Stai agendo sulle opinioni? Non mi piace l&#39;aspetto di quel test. Al cliente non piacerà per niente questa esperienza. Anche se l&#39;intuizione è utile, i test A/B hanno dimostrato più volte che non è sempre azzeccata.
+* Stai agendo sulle opinioni? Non mi piace l&#39;aspetto di quel test. Al cliente non piacerà per niente questa esperienza. Anche se l’intuizione è utile, i test A/B hanno dimostrato più volte che non è sempre azzeccata.
 * O hai una mentalità orientata all’ottimizzazione? Sono emozionato di vedere quale esperienza vince. Abbiamo abbastanza opzioni da testare?
 
 ### Le supposizioni possono anche influenzare negativamente i risultati
 
 * Ipotesi che possono avere un impatto negativo sull’efficacia. La mentalità del mandriano (i nostri concorrenti fanno così). Ad esempio, tutti i nostri concorrenti usano banner hero con immagini rotanti, quindi anche noi dovremmo fare altrettanto.
-* Supponendo di sapere perché qualcosa funziona o no. Supponendo che non abbiamo bisogno di testare qualcosa. Ad esempio, elenchiamo sempre le camere di hotel in ordine dal prezzo più alto a quello più basso come impostazione predefinita.
-* Ti stai basando su supposizioni? Non c&#39;è bisogno di fare un test, abbiamo controllato le analisi. (Sì, ma ci può essere dell’altro oltre a quello che ci rivelano le analisi.)
+* Supponendo di sapere perché qualcosa funziona o no. Supponendo che non sia necessario testare qualcosa. Ad esempio, elenchiamo sempre le camere di hotel in ordine dal prezzo più alto a quello più basso come impostazione predefinita.
+* Ti stai basando su supposizioni? Non abbiamo bisogno di testarlo, abbiamo controllato l&#39;analisi. (Sì, ma ci può essere dell’altro oltre a quello che ci rivelano le analisi.)
 * O hai una mentalità orientata all’ottimizzazione? Noi testiamo tutto.

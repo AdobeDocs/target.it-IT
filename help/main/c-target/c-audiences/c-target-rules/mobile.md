@@ -21,10 +21,10 @@ topic_v2:
     internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 47dd2c2489f6805aec15fbfd044725a5698ced49
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '828'
-ht-degree: 33%
+source-wordcount: '829'
+ht-degree: 31%
 ---
 # Dispositivi mobili
 
@@ -36,7 +36,7 @@ Il targeting per i dispositivi mobili è fornito da [DeviceAtlas](https://device
 
 Il rilevamento del dispositivo viene eseguito analizzando le stringhe Utente-Agente. Alcuni produttori di dispositivi, come ad esempio Apple, disabilitano questa funzionalità (non forniscono informazioni sufficienti nel documentazione per gli utenti).
 
-Ad esempio, i dispositivi Apple non condividono token specifici del modello di dispositivo nell&#39;UA. Il risultato è che non è possibile rilevare i modelli di iPhone (come iPhone 12 Pro, iPhone 12, iPhone 11 Pro Max e così via) utilizzando un semplice metodo basato su parole chiave.
+Ad esempio, i dispositivi Apple non condividono token specifici del modello di dispositivo nell’UA. Il risultato è che non è possibile rilevare i modelli di iPhone (come iPhone 12 Pro, iPhone 12, iPhone 11 Pro Max e così via) utilizzando un semplice metodo basato su parole chiave.
 
 Per risolvere questo problema, [!DNL Target] raccoglie dati aggiuntivi per rilevare con precisione iPhone e altri dispositivi Apple utilizzando i seguenti parametri:
 

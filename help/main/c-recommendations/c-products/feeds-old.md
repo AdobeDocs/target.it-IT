@@ -14,10 +14,10 @@ feature_v2:
 subfeature_v2:
   - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
     internal-label: Recommendations
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '2580'
-ht-degree: 45%
+source-wordcount: '2586'
+ht-degree: 43%
 ---
 # Feed
 
@@ -78,7 +78,7 @@ L’utilizzo del formato .csv presenta i seguenti vantaggi rispetto al formato f
 * Il formato .csv supporta attributi con più valori (vedi l’esempio di seguito).
 * Il formato .csv supporta fino a 100 attributi personalizzati. Se ti servono più di 100 attributi personalizzati, puoi specificarne un altro set con un secondo file di feed.
 
-Utilizza il metodo di caricamento in blocco per inviare informazioni di visualizzazione se non disponi di mbox sulla pagina o se desideri integrare le informazioni di visualizzazione con elementi non disponibili sul sito. Ad esempio, puoi inviare informazioni di inventario non pubblicate sul sito.
+Utilizza il metodo di caricamento in blocco per inviare informazioni di visualizzazione se non hai mbox sulla pagina o se desideri integrare le informazioni di visualizzazione con elementi non disponibili sul sito. Ad esempio, puoi inviare informazioni di inventario non pubblicate sul sito.
 
 Qualsiasi dato caricato utilizzando il file .csv, il feed di prodotto Google o il feed di classificazione di prodotto [!DNL Analytics] sovrascrive il valore dell’attributo dell’entità esistente nel database. Se invii informazioni sul prezzo tramite richieste mbox e poi invii diversi valori prezzo nel file, questi valori sovrascrivono quelli impostati con la richiesta mbox. Fa eccezione l’attributo dell’entità `categoryId` dove i valori della categoria vengono aggiunti invece di essere sovrascritti fino al limite di 250 caratteri.
 
@@ -100,7 +100,7 @@ La sintassi corretta è:
 
 >[!NOTE]
 >
->Non è possibile sovrascrivere un valore esistente con un valore vuoto. Passa un altro valore al suo posto per sovrascriverlo. Nel caso di un prezzo di vendita, una soluzione comune è quella di passare un &quot;NULL&quot; effettivo o qualche altro messaggio. Puoi quindi scrivere una regola di modello per escludere gli elementi con tale valore.
+>Non puoi sovrascrivere un valore esistente con un valore vuoto. Passa un altro valore al suo posto per sovrascriverlo. Nel caso di un prezzo di vendita, una soluzione comune è quella di passare un &quot;NULL&quot; effettivo o qualche altro messaggio. Puoi quindi scrivere una regola di modello per escludere gli elementi con tale valore.
 
 Il prodotto è disponibile nell’interfaccia di amministrazione circa due ore dopo il corretto caricamento della relativa entità.
 
@@ -327,7 +327,7 @@ I seguenti indicatori di stato dei feed vengono visualizzati nella colonna [!UIC
 | Indicatore di stato | Descrizione |
 |--- |--- |
 | Indicatore di stato verde | Quando l’indicizzazione del feed viene terminata con successo, viene visualizzato un indicatore di stato verde. |
-| Indicatore di stato giallo | Quando un feed o l’indice di un feed viene ritardato del 25% rispetto alla sua frequenza, viene visualizzato un indicatore di stato giallo. L’indicatore di colore giallo viene visualizzato se, ad esempio, l’indice di una serie di feed da eseguire giornalmente non è stato completato sei ore dopo l’orario pianificato. Nota: una volta che lo stato del feed è &quot;In attesa della coda indice&quot;, i valori appena aggiornati sono disponibili nell’elaborazione della consegna e dei criteri. |
+| Indicatore di stato giallo | Quando un feed o l’indice di un feed viene ritardato del 25% rispetto alla sua frequenza, viene visualizzato un indicatore di stato giallo. Ad esempio, viene visualizzato un punto giallo per una serie di feed da eseguire giornalmente se l’indice non è stato completato sei ore dopo l’ora pianificata. Nota: una volta che lo stato del feed è &quot;In attesa della coda indice&quot;, i valori appena aggiornati sono disponibili nell’elaborazione della consegna e dei criteri. |
 | Indicatore di stato bianco | Quando un feed non è pianificato, viene visualizzato un indicatore di stato bianco a indicare che il feed non è ancora stato eseguito. |
 | Indicatore di stato rosso | Se il feed non riesce a caricare i dati sul server, viene visualizzato un indicatore di stato rosso. |
 
@@ -336,14 +336,14 @@ Prendi in considerazione gli esempi seguenti:
 **Esempio 1:**
 
 * Primo giorno: i processi di alimentazione giornalieri sono effettuati alle 9.00 PST.
-* Giorno 2: sono le 15.30 e il feed non viene eseguito da ieri alle 09.00.
+* Secondo giorno: sono le 15:30 e da ieri alle 09:00 il feed non viene più eseguito.
 
 Lo stato visualizzato sarà giallo, perché l’indice doveva essere eseguito circa 6 ore e 30 minuti fa. 6 ore e 30 minuti + 24 ore rappresentano il 127% della finestra del feed.
 
 **Esempio 2:**
 
 * 1 gennaio: processi di feed mensili alle 9:00 PST.
-* 3 febbraio: sono le 10:00 e il feed non viene eseguito da un mese, un giorno e un’ora.
+* 3 febbraio: sono le 10:00 e il feed non è stato eseguito per un mese, un giorno e un’ora fa.
 
 Lo stato visualizzato sarà giallo, perché l’indice doveva essere eseguito circa un giorno e un’ora fa. Anche se questo rappresenta solo l’1,03% delle impostazioni di frequenza [(31 + (1/25))/30 = 1,03%], il ritardo massimo di un giorno è stato superato.
 

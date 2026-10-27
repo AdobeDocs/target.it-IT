@@ -27,10 +27,10 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '1154'
-ht-degree: 29%
+source-wordcount: '1156'
+ht-degree: 27%
 ---
 # Risoluzione dei problemi relativi al [!UICONTROL Compositore esperienza visivo]
 
@@ -47,7 +47,7 @@ Per evitare questo problema, assicurati di non tagliare o rimuovere questi due p
 
 +++
 
-## La pagina non si apre nel Compositore esperienza avanzato, o si carica lentamente. Le attività o le esperienze si caricano lentamente nel Compositore esperienza visivo. (Solo Compositore esperienza visivo) {#section_71E7601BE9894E3DA3A7FBBB72B6B0C1}
+## La pagina non si apre nel Compositore esperienza avanzato o si carica lentamente. Le attività o le esperienze si caricano lentamente nel Compositore esperienza visivo. (Solo Compositore esperienza visivo) {#section_71E7601BE9894E3DA3A7FBBB72B6B0C1}
 
 +++Dettagli
 Diversi problemi possono influire sulle prestazioni della pagina nei compositori di esperienza [!UICONTROL Target]. Alcuni problemi comuni includono:

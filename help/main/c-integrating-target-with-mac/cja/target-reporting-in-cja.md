@@ -35,9 +35,9 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 525737d4f8973f0b1ff04becd00c361c64b111e2
+source-git-commit: ea519da13a7a2e5dad0ea5303980347489b824df
 workflow-type: tm+mt
-source-wordcount: '1877'
+source-wordcount: '1935'
 ht-degree: 20%
 ---
 # Generazione rapporti per [!DNL Target] in [!DNL Adobe Customer Journey Analytics]
@@ -198,21 +198,23 @@ Configurare una visualizzazione dati in [!DNL Customer Journey Analytics] che pu
 
 ## Crea e visualizza i report attività in [!DNL Customer Journey Analytics]
 
+>[!BEGINSHADEBOX]
+
+Questa integrazione è diversa da [!UICONTROL Adobe Analytics for Target] (A4T).
+
+* L&#39;integrazione di [!DNL Target]/[!DNL Customer Journey Analytics] non include un rapporto predefinito come A4T. I report attività devono essere generati in [!DNL Customer Journey Analytics].
+
+* Se [!UICONTROL Utilizza una metrica di CJA] come metrica di obiettivo dell&#39;attività è selezionata, questa opzione offre flessibilità quando è necessario definire metriche di successo specifiche. La metrica di successo viene selezionata durante la configurazione del pannello [!UICONTROL Sperimentazione]. Incremento e affidabilità vengono calcolati dalla metrica CJA selezionata.
+
+>[!ENDSHADEBOX]
+
 Dopo che l&#39;attività è attiva e hai completato la connessione e la configurazione della visualizzazione dati, i dati di reporting sono disponibili in [!DNL Customer Journey Analytics]. Dalla scheda **[!UICONTROL Report]** dell&#39;attività in [!DNL Target], utilizzare **[!UICONTROL Visualizza in Customer Journey Analytics]** per aprire [!DNL Customer Journey Analytics] per l&#39;analisi. Attualmente, questo collegamento ti reindirizza alla pagina di destinazione principale [!DNL Customer Journey Analytics].
 
 ![Collegamento per la generazione di rapporti di CJA](/help/main/c-integrating-target-with-mac/cja/assets/report-link.png)
 
->[!NOTE]
->
->Questa integrazione è diversa da [!UICONTROL Adobe Analytics for Target] (A4T).
->
->* L&#39;integrazione di [!DNL Target]/[!DNL Customer Journey Analytics] non include un rapporto predefinito come A4T. I report attività devono essere generati in [!DNL Customer Journey Analytics].
->
->* Se [!UICONTROL Utilizza una metrica di CJA] come metrica di obiettivo dell&#39;attività è selezionata, questa opzione offre flessibilità quando è necessario definire metriche di successo specifiche. La metrica di successo viene selezionata durante la configurazione del pannello [!UICONTROL Sperimentazione]. Incremento e affidabilità vengono calcolati dalla metrica CJA selezionata.
-
 1. In [!DNL Customer Journey Analytics], crea un pannello Sperimentazione, quindi seleziona l&#39;attività dal menu a discesa **[!UICONTROL Esperimento]**.
 
-   Per ulteriori informazioni, vedere [Pannello Sperimentazione](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-workspace/panels/experimentation?lang=en#use){target=_blank} in *Pannello Sperimentazione* nella guida *[!DNL Customer Journey Analytics]*.
+   Per ulteriori informazioni, consulta la documentazione del [pannello Sperimentazione](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-workspace/panels/experimentation?lang=en#use){target=_blank}.
 
    ![Pannello Sperimentazione in Customer Journey Analytics](/help/main/c-integrating-target-with-mac/cja/assets/experimentation-panel.png)
 
@@ -225,3 +227,5 @@ Dopo che l&#39;attività è attiva e hai completato la connessione e la configur
    Il pannello [!UICONTROL Sperimentazione] restituisce un set completo di dati e visualizzazioni per consentirti di comprendere meglio le prestazioni degli esperimenti. Per ulteriori informazioni, vedere [[!UICONTROL Output pannello]](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-workspace/panels/experimentation#panel-output){target=_blank} in *Pannello sperimentazioni* nella guida di *[!DNL Customer Journey Analytics]*.
 
    ![Sperimentazione](/help/main/c-integrating-target-with-mac/cja/assets/experimentation.png)
+
+Se il pannello [!UICONTROL Sperimentazione] mostra 0 per le colonne della metrica di successo [!UICONTROL Conversione], [!UICONTROL Incremento] e [!UICONTROL Affidabilità], la metrica di successo potrebbe non verificarsi nello stesso evento dell&#39;attività [!DNL Target]. Verifica se [persistenza](#set-up-data-views) è abilitato per le dimensioni [!DNL Target] e se è appropriato per il tuo caso d&#39;uso. Per ulteriori informazioni, vedere [Persistenza](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-dataviews/component-settings/persistence){target=_blank}.

@@ -14,10 +14,10 @@ feature_v2:
 subfeature_v2:
   - id: db15a02f-03cd-46fe-a53e-02064cdeadfa
     internal-label: Auto target
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '904'
-ht-degree: 38%
+source-wordcount: '905'
+ht-degree: 36%
 ---
 # Crea un&#39;attività [!UICONTROL Targeting automatico]
 
@@ -70,7 +70,7 @@ Per creare un&#39;attività [!UICONTROL Targeting automatico]:
 
 1. Crea le esperienze modificando gli elementi nella pagina.
 
-   Il [!UICONTROL Compositore esperienza visivo] visualizza due schede sul lato sinistro dopo aver creato un&#39;attività: Esperienza A ed Esperienza B. Esperienza A è l&#39;esperienza di controllo. L&#39;attenzione è rivolta alla scheda Esperienza B, che puoi modificare in base alle tue esigenze. L’esperienza B è un’esperienza alternativa che puoi aggiungere al test. È possibile aggiungere più esperienze al test. È inoltre possibile eliminare l&#39;Esperienza A dall&#39;attività se non si desidera includere un&#39;esperienza di sito predefinita come opzione.
+   Il [!UICONTROL Compositore esperienza visivo] visualizza due schede sul lato sinistro dopo aver creato un&#39;attività: Esperienza A ed Esperienza B. Esperienza A è l&#39;esperienza di controllo. L&#39;attenzione è rivolta alla scheda Esperienza B, che puoi modificare in base alle tue esigenze. L’esperienza B è un’esperienza alternativa che puoi aggiungere al test. È possibile aggiungere più esperienze al test. Puoi anche eliminare l’Esperienza A dall’attività se non desideri includere come opzione un’esperienza predefinita del sito.
 
    Per ulteriori informazioni sull&#39;aggiunta e la modifica delle esperienze nel [!UICONTROL Compositore esperienza visivo], vedere [Aggiungi esperienza](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-add-experience.md). Per modificare l&#39;Esperienza B, inizia con il passaggio 2.
 

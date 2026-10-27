@@ -22,10 +22,10 @@ topic_v2:
     internal-label: Troubleshooting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
     internal-label: Security
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '510'
-ht-degree: 29%
+source-wordcount: '514'
+ht-degree: 23%
 ---
 # Risoluzione dei problemi relativi a [!UICONTROL Compositore esperienza avanzato]
 
@@ -155,14 +155,14 @@ Di seguito sono riportati possibili cause per questo messaggio di errore e soluz
 
 * **Problema:** gli indirizzi IP vengono inseriti nell&#39;elenco Consentiti ma il sito Web non supporta la versione 1.2 di TLS. [!DNL Target] utilizza attualmente la configurazione predefinita di 1.2. Prima di [!DNL Target] 18.4.1 (25 aprile 2018), la configurazione predefinita supportava TLS 1.0. Per ulteriori informazioni, consulta [Modifiche alla crittografia TLS](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html?lang=it){target=_blank}.
 
-  **Soluzione:** Vedi la seguente domanda (il [!UICONTROL Compositore esperienza visivo avanzato] non verrà caricato su pagine protette del mio sito che utilizzano TLS 1.2).
+  **Soluzione:** Consulta la domanda seguente (il [!UICONTROL Compositore esperienza visivo avanzato] non verrà caricato su pagine protette del mio sito che utilizzano TLS 1.2).
 
 +++
 
-## Il Compositore esperienza avanzato non viene caricato su pagine protette del mio sito che utilizzano TLS 1.0. (Solo Compositore esperienza avanzato) {#section_C5B31E3D32A844F68E5A8153BD17551F}
+## Il Compositore esperienza avanzato non verrà caricato su pagine protette del mio sito che utilizzano TLS 1.0. (Solo Compositore esperienza avanzato) {#section_C5B31E3D32A844F68E5A8153BD17551F}
 
 +++Dettagli
-È possibile che venga visualizzato il messaggio di errore descritto in precedenza in &quot;Il Compositore esperienza visivo [!UICONTROL avanzato] non verrà caricato su pagine protette del sito&quot;. se gli indirizzi IP di cui sopra vengono inseriti nell&#39;elenco Consentiti ma il tuo sito web non supporta la versione 1.2 di TLS. [!DNL Target] utilizza attualmente la configurazione predefinita di 1.2. Prima di [!DNL Target] 18.4.1 (25 aprile 2018), la configurazione predefinita supportava TLS 1.0. Per ulteriori informazioni, consulta [Modifiche alla crittografia TLS](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html?lang=it){target=_blank}.
+È possibile che venga visualizzato il messaggio di errore descritto in precedenza in &quot;Il [!UICONTROL Compositore esperienza visivo avanzato] non verrà caricato su pagine protette del sito&quot;. se gli indirizzi IP di cui sopra vengono inseriti nell&#39;elenco Consentiti ma il tuo sito web non supporta la versione 1.2 di TLS. [!DNL Target] utilizza attualmente la configurazione predefinita di 1.2. Prima di [!DNL Target] 18.4.1 (25 aprile 2018), la configurazione predefinita supportava TLS 1.0. Per ulteriori informazioni, consulta [Modifiche alla crittografia TLS](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html?lang=it){target=_blank}.
 
 Per controllare la versione TLS sul tuo sito web con Firefox (altri browser hanno passaggi simili):
 

@@ -14,9 +14,9 @@ feature_v2:
 subfeature_v2:
   - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
     internal-label: Recommendations
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '504'
+source-wordcount: '505'
 ht-degree: 6%
 ---
 # Corrispondenza attributo profilo
@@ -51,7 +51,7 @@ brand - equals - the value/text stored in - profile.favoritebrand
 
 ### Corrispondenza tra processi e persone in cerca di lavoro
 
-Supponiamo che tu stia cercando di mettere in pari i lavori con le persone in cerca di lavoro. Vuoi consigliare solo i lavori che si trovano nella stessa città della persona in cerca di lavoro.
+Supponiamo che tu stia cercando di far corrispondere i lavori con quelli di chi è in cerca di lavoro. Vuoi consigliare solo i lavori che si trovano nella stessa città della persona in cerca di lavoro.
 
 È possibile utilizzare le regole di inclusione per far corrispondere la posizione di una persona in cerca di lavoro dal suo profilo visitatore a un’inserzione di lavoro, come nell’esempio seguente:
 

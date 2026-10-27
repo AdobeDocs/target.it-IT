@@ -18,10 +18,10 @@ topic_v2:
     internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '1477'
-ht-degree: 46%
+source-wordcount: '1480'
+ht-degree: 45%
 ---
 # Panoramica di [!UICONTROL Test multivariato]
 
@@ -67,13 +67,13 @@ Puoi usare i test multivariati insieme ai test A/B per ottimizzare la pagina. Al
 
 * Utilizza un test MVT per determinare quale elemento è il più importante, facendolo seguire da un test A/B maggiormente concentrato su tale elemento.
 
-  Quando il numero di esperienze diverse supera le cinque e si estende su due o più elementi, è consigliabile prendere in considerazione l’idea di effettuare un test MVT prima di eseguire i test A/B. I test multivariati mostrano quali aree della pagina hanno più probabilità di migliorare la conversione. Questi sono gli elementi sui quali un addetto al marketing dovrebbe concentrarsi. Ad esempio, il test MVT potrebbe indicare che l’invito all’azione è l’elemento più importante per soddisfare gli obiettivi. Una volta stabiliti gli elementi e il contenuto più utili per raggiungere gli obiettivi, puoi eseguire un test A/B per perfezionare ulteriormente i risultati. Ad esempio, puoi sottoporre a test reciproco due immagini specifiche, oppure confrontare il testo o i colori di un call to action. Facendo seguire un test MVT da uno o più test A/B, puoi determinare il contenuto migliore possibile per i risultati desiderati.
+  Quando il numero di esperienze diverse supera i cinque e si estende su due o più elementi, è consigliabile prendere in considerazione l’idea di effettuare un test MVT prima di eseguire i test A/B. I test multivariati mostrano quali aree della pagina hanno più probabilità di migliorare la conversione. Questi sono gli elementi sui quali un addetto al marketing dovrebbe concentrarsi. Ad esempio, il test MVT potrebbe indicare che l’invito all’azione è l’elemento più importante per soddisfare gli obiettivi. Una volta stabiliti gli elementi e il contenuto più utili per raggiungere gli obiettivi, puoi eseguire un test A/B per perfezionare ulteriormente i risultati. Ad esempio, puoi sottoporre a test reciproco due immagini specifiche, oppure confrontare il testo o i colori di un call to action. Facendo seguire un test MVT da uno o più test A/B, puoi determinare il contenuto migliore possibile per i risultati desiderati.
 
 ## Considerazioni {#section_979FE3F398654C1EA1C86E7DBC9A8DAD}
 
 * Utilizza un test MVT quando disponi di almeno tre elementi. Se il numero è inferiore, esegui una serie di test A/B.
 * Seleziona gli elementi della pagina che ritieni abbiano il maggiore impatto sui risultati.
-* Evita di includere troppi elementi o posizioni in un test. Maggiore è il numero, più lunga è la durata del test.
+* Non includere troppi elementi o posizioni in un test. Maggiore è il numero, più lunga è la durata del test.
 * Pianifica la progettazione del test in anticipo. Non modificare un test dopo che è stato avviato e i dati iniziano a essere raccolti e analizzati.
 * Gli elementi dovrebbero essere indipendenti l&#39;uno dall&#39;altro.
 

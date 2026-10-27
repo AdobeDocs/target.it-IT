@@ -29,10 +29,10 @@ topic_v2:
     internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '723'
-ht-degree: 100%
+source-wordcount: '726'
+ht-degree: 88%
 ---
 # Capitolo 3: Sviluppare idee di test e personalizzazione
 
@@ -73,7 +73,7 @@ A tale scopo:
 * Completare e approvare i progetti finali per le esperienze dell’attività.
 * Documentare i requisiti per l’attività [!DNL Target], compresi i criteri di immissione dei test, le metriche per la generazione dei rapporti e le modifiche delle esperienze.
 
-Utilizza Activity Planner, fornito più avanti nel kit di benvenuto, per documentare i dettagli dell’attività, comprese le metriche da utilizzare per misurarne le prestazioni, ad esempio i clic su un pulsante di invito all’azione, gli avvii di un video o i ricavi generati. Accertati di includere schermate o immagini delle progettazioni delle esperienze che intendi testare o personalizzare.
+Utilizza Activity Planner, fornito più avanti nel kit di benvenuto, per documentare i dettagli dell’attività, incluse le metriche da utilizzare per misurarne le prestazioni, ad esempio i clic su un pulsante call to action, gli avvii di un video o i ricavi generati. Accertati di includere schermate o immagini delle progettazioni delle esperienze che intendi testare o personalizzare.
 
 ## Passaggio 4: Creare ed eseguire
 

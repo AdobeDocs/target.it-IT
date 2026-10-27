@@ -22,10 +22,10 @@ topic_v2:
     internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '1772'
-ht-degree: 86%
+source-wordcount: '1774'
+ht-degree: 83%
 ---
 # Integrare [!DNL Recommendations] con l&#39;e-mail
 
@@ -97,7 +97,7 @@ Per ulteriori informazioni, consulta la [documentazione sulle API di consegna](h
 
 ## Metodo 2 - Utilizzare un modello di e-mail rawbox {#rawbox}
 
-Un rawbox è simile a una richiesta mbox, ma per ambienti non web, come ad esempio i provider di servizi e-mail (ESP). Poiché non disponi di [!DNL Adobe Experience Platform Web SDK] o [!DNL at.js] da utilizzare nelle richieste rawbox, devi creare le richieste manualmente. Gli esempi qui sotto spiegano come lavorare con le richieste rawbox nell&#39;e-mail.
+Un rawbox è simile a una richiesta mbox, ma per ambienti non web, come ad esempio i provider di servizi e-mail (ESP). Poiché non hai [!DNL Adobe Experience Platform Web SDK] o [!DNL at.js] da utilizzare nelle richieste rawbox, devi creare le richieste manualmente. Gli esempi qui sotto spiegano come lavorare con le richieste rawbox nell&#39;e-mail.
 
 >[!NOTE]
 >
@@ -105,7 +105,7 @@ Un rawbox è simile a una richiesta mbox, ma per ambienti non web, come ad esemp
 
 Questo approccio ti consente di monitorare le prestazioni dei consigli nelle e-mail, sottoporli normalmente a test con un consiglio e continuare il monitoraggio sul sito.
 
-Configura un’attività [!DNL Recommendations] in [!DNL Target] utilizzando l’opzione [Compositore esperienza basata su modulo](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E). Per il percorso, seleziona il nome dell&#39;elemento mbox che hai deciso di utilizzare nella richiesta rawbox proveniente dall&#39;ESP. Seleziona una progettazione con l&#39;aspetto che desideri per la tua e-mail. Al momento della compilazione dell&#39;e-mail, l&#39;ESP effettua una chiamata ai server di [!DNL Target] per ogni rawbox in ogni e-mail che viene generata. L&#39;ESP deve disporre di un modo per includere l&#39;HTML restituito nell&#39;e-mail quando viene inviato.
+Configura un’attività [!DNL Recommendations] in [!DNL Target] utilizzando l’opzione [Compositore esperienza basata su modulo](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E). Per la posizione, seleziona il nome della mbox che hai scelto di utilizzare nella richiesta rawbox proveniente dall’ESP. Seleziona una progettazione con l&#39;aspetto che desideri per la tua e-mail. Al momento della compilazione dell&#39;e-mail, l&#39;ESP effettua una chiamata ai server di [!DNL Target] per ogni rawbox in ogni e-mail che viene generata. L&#39;ESP deve disporre di un modo per includere l&#39;HTML restituito nell&#39;e-mail quando viene inviato.
 
 Il sistema e-mail utilizzato deve essere in grado di gestire i seguenti scenari:
 
@@ -162,7 +162,7 @@ https://client_code.tt.omtrdc.net/m2/client_code/ubox/raw?mbox=mbox_name&mboxSes
 
 | Risposta | Descrizione |
 |--- |--- |
-| //ERRORE: | Generato dal bilanciamento del carico quando non può restituire il contenuto |
+| //ERRORE: | Generato dal load balancer quando non può restituire il contenuto |
 | Completato | Il parametro `mboxNoRedirect` è impostato su “true” e il server non restituisce alcun consiglio (ad esempio, non vi è alcuna corrispondenza per l’elemento mbox o la cache del server non è inizializzata). |
 | richiesta errata | Il parametro `mbox` è mancante.<ul><li>Il parametro `mboxDefault` o `mboxNoRedirect` non è specificato.</li><li>Il parametro di richiesta `mboxTrace` è specificato ma `mboxNoRedirect` non lo è.</li><li>Il parametro `mboxTarget` non viene specificato quando i nomi mbox terminano con il suffisso `-clicked`.</li></ul> |
 | `Cannot redirect to default content, please specify mboxDefault parameter` | `mboxDefault` non viene specificato quando non esiste alcuna corrispondenza per la richiesta e il parametro `mboxNoRedirect` non è specificato. |

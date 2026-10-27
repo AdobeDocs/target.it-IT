@@ -25,14 +25,14 @@ topic_v2:
     internal-label: Customer experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '521'
+source-wordcount: '523'
 ht-degree: 23%
 ---
 # Gestire le esclusioni
 
-Assumi il controllo della strategia [!UICONTROL Automated Personalization] (AP) masterizzando le esclusioni. Che tu impedisca le offerte duplicate, perfezioni le combinazioni di esperienze o rimuovi il contenuto predefinito, le esclusioni ti consentono di fornire esperienze più chiare e rilevanti, in linea con i tuoi obiettivi e le aspettative del pubblico.
+Assumi il controllo della strategia [!UICONTROL Automated Personalization] (AP) masterizzando le esclusioni. Che tu stia impedendo le offerte duplicate, perfezionando le combinazioni di esperienze o rimuovendo il contenuto predefinito, le esclusioni ti consentono di fornire esperienze più chiare e pertinenti in linea con i tuoi obiettivi e le aspettative del pubblico.
 
 ## Consentire o non consentire le offerte duplicate {#concept_4EF78013F80E48EFA024AE0274C9F037}
 

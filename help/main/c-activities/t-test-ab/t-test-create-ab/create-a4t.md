@@ -18,10 +18,10 @@ topic_v2:
     internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '495'
-ht-degree: 19%
+source-wordcount: '498'
+ht-degree: 16%
 ---
 # Utilizzo dei dati di [!DNL Adobe Analytics]
 
@@ -35,7 +35,7 @@ Prima di impostare un&#39;attività che utilizza [!DNL Analytics] come origine p
 >
 >L&#39;opzione [!DNL Adobe Analytics] è disponibile se l&#39;account [!DNL Adobe Experience Cloud] è stato collegato sia a [!DNL Analytics] che a [!DNL Target], anche se l&#39;integrazione tra [!DNL Target] e [!DNL Analytics] non è stata impostata per l&#39;account.
 
-Quando selezioni [!DNL Analytics] come origine per la generazione di rapporti per [!DNL Target], selezioni una suite di rapporti [!DNL Analytics] per ricevere i dati dell&#39;attività [!DNL Target]. Per specificare un&#39;origine per la generazione di rapporti, scegliere innanzitutto una delle [!DNL Analytics] società associate al proprio account, quindi selezionare la suite di rapporti appropriata per l&#39;attività. È possibile selezionare solo le suite di rapporti predisposte per la connessione a [!DNL Adobe Target]. Se la suite di rapporti prevista non è visibile, disconnettersi e accedere nuovamente a [!DNL Adobe Experience Cloud] per riprovare. Se la suite di rapporti non è ancora presente nell’elenco, contatta l’Assistenza clienti.
+Quando selezioni [!DNL Analytics] come origine per la generazione di rapporti per [!DNL Target], selezioni una suite di rapporti [!DNL Analytics] per ricevere i dati dell&#39;attività [!DNL Target]. Per specificare un&#39;origine per la generazione di rapporti, scegliere innanzitutto una delle [!DNL Analytics] società associate al proprio account, quindi selezionare la suite di rapporti appropriata per l&#39;attività. È possibile selezionare solo le suite di rapporti predisposte per la connessione a [!DNL Adobe Target]. Se la suite di rapporti prevista non viene visualizzata, disconnettersi e accedere nuovamente a [!DNL Adobe Experience Cloud] per riprovare. Se la suite di rapporti non è ancora presente nell’elenco, contatta l’Assistenza clienti.
 
 [!UICONTROL Analytics for Target] (A4T) richiede un server di tracciamento per riportare correttamente i risultati. Nel campo [!UICONTROL Server di monitoraggio] viene visualizzato un server di monitoraggio predefinito. Se utilizzi più server di tracciamento, assicurati di includere in questo campo il server di tracciamento corretto. Per ulteriori informazioni, vedere [Utilizzo di un server di tracciamento di Analytics](/help/main/c-integrating-target-with-mac/a4t/analytics-tracking-server.md#task_72077BA7E93C4A65A715A18F32228823).
 
@@ -47,6 +47,6 @@ Durante l&#39;impostazione dell&#39;attività dopo aver impostato [!DNL Analytic
 
 Devi selezionare una metrica di successo da utilizzare come obiettivo per ogni attività. L&#39;obiettivo è l&#39;attività di conversione che indica un&#39;attività di successo. È buona norma non eseguire mai un test senza un obiettivo da migliorare in modo specifico. Puoi scegliere qualsiasi metrica [!DNL Analytics] disponibile nel selettore delle metriche [!DNL Analytics].
 
-L&#39;impostazione di un obiettivo non impedisce di utilizzare un&#39;altra metrica per valutare i risultati dei test. L&#39;obiettivo, comunque, funge da promemoria rispetto all&#39;elemento da migliorare con il test.
+Fissare un obiettivo non significa non poter utilizzare un’altra metrica durante la valutazione dei risultati del test. L&#39;obiettivo, comunque, funge da promemoria rispetto all&#39;elemento da migliorare con il test.
 
 Quando un visitatore completa l&#39;obiettivo, non viene più incluso nell&#39;attività. Se il visitatore rientra nell’attività dopo aver completato un’attività, viene conteggiato come un nuovo visitatore.

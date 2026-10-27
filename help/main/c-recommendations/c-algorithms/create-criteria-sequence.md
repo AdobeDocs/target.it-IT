@@ -18,10 +18,10 @@ subfeature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '833'
-ht-degree: 21%
+source-wordcount: '834'
+ht-degree: 17%
 ---
 # Creare sequenze di criteri
 
@@ -33,7 +33,7 @@ Utilizza sequenze di criteri fino a cinque per esercitare un maggiore controllo 
 
 Per creare una sequenza di criteri, è necessario innanzitutto creare i criteri da includere nella sequenza. Per ulteriori informazioni, vedere [Creare i criteri](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md).
 
-Utilizzando una sequenza di criteri, è possibile fornire ulteriori consigli mirati, anziché utilizzare consigli di backup più generici, quando un criterio non fornisce abbastanza risultati per completare il progetto. In genere, una sequenza di criteri passa dal targeting più specifico, che potrebbe restituire un numero minore di risultati, al targeting più generale, che in genere restituisce più risultati.
+Utilizzando una sequenza di criteri, puoi fornire ulteriori consigli mirati, invece di utilizzare consigli di backup più generici, quando un criterio non restituisce un numero di risultati sufficiente per riempire la progettazione. In genere, una sequenza di criteri passa dal targeting più specifico, che potrebbe restituire un numero minore di risultati, al targeting più generale, che in genere restituisce più risultati.
 
 Le sequenze di criteri possono variare in ordine a seconda del tipo di pagina, come illustrato negli esempi seguenti:
 

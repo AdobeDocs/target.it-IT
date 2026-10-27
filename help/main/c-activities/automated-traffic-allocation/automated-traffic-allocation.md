@@ -27,10 +27,10 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '3760'
-ht-degree: 34%
+source-wordcount: '3768'
+ht-degree: 32%
 ---
 # Panoramica di [!UICONTROL Allocazione automatica]
 
@@ -40,7 +40,7 @@ Durante la [creazione di un&#39;attività A/B](/help/main/c-activities/t-test-ab
 
 ## La sfida {#section_85D5A03637204BACA75E19646162ACFF}
 
-I test A/B standard hanno un costo intrinseco. Devi investire del traffico per misurare le prestazioni di ogni esperienza e capire quale sia l’esperienza vincente attraverso l’analisi. La distribuzione del traffico rimane fissa anche dopo aver compreso che alcune esperienze hanno prestazioni migliori di altre. Inoltre, è complicato calcolare la dimensione necessaria del campione, e l’attività deve essere eseguita completamente prima di poter intervenire in base al vincitore. E c&#39;è ancora la possibilità che il vincitore identificato non sia un vero vincitore.
+I test A/B standard hanno un costo intrinseco. Devi investire del traffico per misurare le prestazioni di ogni esperienza e capire quale sia l’esperienza vincente attraverso l’analisi. La distribuzione del traffico rimane fissa anche dopo aver compreso che alcune esperienze hanno prestazioni migliori di altre. Inoltre, è complicato calcolare la dimensione del campione, e l’attività deve eseguire l’intero corso prima di poter agire su un vincitore. E c&#39;è ancora la possibilità che il vincitore identificato non sia un vero vincitore.
 
 ## Soluzione: [!UICONTROL Allocazione automatica] {#section_98388996F0584E15BF3A99C57EEB7629}
 
@@ -130,7 +130,7 @@ Se i visitatori di ritorno sono distribuiti in modo casuale, è più probabile c
 
 ### Differenzia tra i migliori e non tra i peggiori.
 
-[!UICONTROL Allocazione automatica] è in grado di distinguere tra esperienze dalle prestazioni migliori (e trovare un vincitore). Ci potrebbero essere momenti in cui non vi è abbastanza differenziazione tra le esperienze con prestazioni inferiori.
+[!UICONTROL Allocazione automatica] è in grado di distinguere tra esperienze dalle prestazioni migliori (e trovare un vincitore). In alcuni casi potrebbe non esserci una sufficiente differenziazione tra le esperienze meno performanti.
 
 Se desideri produrre una differenziazione statisticamente significativa tra tutte le esperienze, puoi utilizzare la modalità di allocazione manuale del traffico.
 
@@ -152,7 +152,7 @@ Di seguito sono riportati alcuni esempi di fattori che possono influenzare le pr
 
 * Esperienze con ritardi diversi nella conversione possono essere dovute all’urgenza del messaggio.
 
-  Ad esempio, “i saldi al 30% finiscono oggi” incita il visitatore ad eseguire oggi stesso la conversione, mentre “50% di sconto sul primo acquisto” non crea lo stesso senso di urgenza.
+  Ad esempio, &quot;Il 30% della vendita termina oggi&quot; indica al visitatore di convertirsi oggi, ma &quot;Il 50% di sconto sul primo acquisto&quot; non crea lo stesso senso di urgenza.
 
 ## Domande frequenti {#section_0E72C1D72DE74F589F965D4B1763E5C3}
 

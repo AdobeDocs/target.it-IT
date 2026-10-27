@@ -29,9 +29,9 @@ topic_v2:
     internal-label: Web experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '837'
+source-wordcount: '838'
 ht-degree: 52%
 ---
 # Estensione [!UICONTROL Helper per editing video]
@@ -79,7 +79,7 @@ L&#39;estensione del browser [!DNL Adobe Experience Cloud] [!UICONTROL Helper pe
 1. Apri il Compositore esperienza visivo in [!DNL Target].
 1. Per utilizzare l&#39;estensione, fare clic sull&#39;icona dell&#39;estensione del browser [!UICONTROL Helper per editing video] (![icona Estensione editing video](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/visual-editing-helper.png) ) nella barra degli strumenti del browser Chrome quando si è nel Compositore esperienza visivo o in modalità Controllo qualità.
 
-   L&#39;[!UICONTROL Helper per editing video] viene attivato automaticamente quando si apre un sito Web nel Compositore esperienza visivo [!UICONTROL Target] per l&#39;authoring potente. L’estensione non dispone di impostazioni condizionali. L’estensione gestisce automaticamente tutte le impostazioni, incluse le impostazioni dei cookie SameSite.
+   L&#39;[!UICONTROL Helper per editing video] viene attivato automaticamente quando si apre un sito Web nel Compositore esperienza visivo [!UICONTROL Target] per l&#39;authoring potente. L&#39;estensione non dispone di impostazioni condizionali. L’estensione gestisce automaticamente tutte le impostazioni, incluse le impostazioni dei cookie SameSite.
 
    Per ulteriori informazioni sulla correzione dell’attributo del browser `SameSite=None`, consulta “In che modo i criteri di imposizione dei cookie SameSite di Google Chrome recentemente annunciati influiscono sul Compositore esperienza visivo e sul Compositore esperienza avanzato?” in [Risoluzione dei problemi relativi al Compositore esperienza visivo e al Compositore esperienza avanzato](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md).
 

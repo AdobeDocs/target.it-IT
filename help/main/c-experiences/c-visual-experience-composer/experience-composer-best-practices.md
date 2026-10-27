@@ -27,10 +27,10 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '2552'
-ht-degree: 49%
+source-wordcount: '2560'
+ht-degree: 46%
 ---
 # [!UICONTROL Best practice e limitazioni del Compositore esperienza visivo]
 
@@ -56,12 +56,12 @@ Per abilitare il [!UICONTROL Compositore esperienza avanzato] a livello di attiv
 
 +++
 
-### Puoi determinati indirizzi IP se il [!UICONTROL Compositore esperienza avanzato] non si carica su pagine protette del tuo sito.
+### È possibile determinati indirizzi IP se il [!UICONTROL Compositore esperienza avanzato] non verrà caricato su pagine protette del sito.
 
 +++Vedi i dettagli
 I problemi relativi al caricamento di [!UICONTROL Compositore esperienza avanzato] possono essere risolti inserendo nell&#39;elenco Consentiti i seguenti indirizzi IP. Questi indirizzi IP sono per i server [!DNL Adobe] utilizzati per il proxy [!UICONTROL Compositore esperienza avanzato]. Sono necessari solo per modificare le attività. I visitatori del tuo sito non hanno bisogno di inserire nell&#39;elenco Consentiti questi indirizzi IP.
 
-Per ulteriori informazioni, vedere [Il Compositore esperienza avanzato non carica un URL di controllo qualità interno che non è accessibile nell&#39;IP pubblico](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md) in *Risoluzione dei problemi relativi al Compositore esperienza avanzato*.
+Per ulteriori informazioni, vedere [Il Compositore esperienza avanzato non caricherà un URL di controllo qualità interno che non è accessibile sull&#39;IP pubblico](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md) in *Risoluzione dei problemi relativi al Compositore esperienza avanzato*.
 
 +++
 
@@ -79,7 +79,7 @@ Qualsiasi elemento interno all&#39;elemento corpo deve presentare un ID univoco.
 +++Dettagli
 Quando si modificano le classi CSS in [!DNL Visual Experience Composer], è utile semplificare l&#39;identificazione delle classi utilizzando nomi descrittivi di classi. Questa operazione assicura che vengano modificate le classi CSS corrette e che le pagine vengano visualizzate come previsto.
 
-Non utilizzare la proprietà CSS `!important` quando nascondi o rimuovi elementi.
+Non utilizzare la proprietà CSS `!important` quando si nascondono o si rimuovono elementi.
 
 Se la proprietà CSS `!important` è presente, le modifiche apportate da `target.js` durante la consegna vengono ignorate dalle regole CSS del sito.
 
@@ -141,7 +141,7 @@ Ad esempio, supponiamo che tu abbia eseguito due azioni:
 
 Ogni modifica crea un nuovo elemento nel Compositore esperienza visivo. La seconda azione modifica l&#39;elemento 1: se lo elimini, la seconda azione non avrà più niente da modificare, risultando nella mancata applicazione della modifica.
 
-In altre parole, se aggiungi un elemento con testo e modifichi tale elemento con un testo diverso in un&#39;azione separata, l&#39;editor di codice mostrerà entrambe le azioni come elementi distinti. Durante la modifica dell&#39;elemento è stato creato un nuovo elemento, contenente il testo modificato, che modifica l&#39;elemento originale creato. Se elimini l&#39;elemento originale, il testo modificato non sarà in grado di trovare l&#39;elemento modificato e non verrà visualizzato. Il secondo elemento rimarrà nell&#39;elenco senza tuttavia influire sulla pagina, poiché l&#39;elemento da modificare non esiste più.
+In altre parole, se aggiungi un elemento con testo e modifichi tale elemento con un testo diverso in un&#39;azione separata, l&#39;editor di codice mostrerà entrambe le azioni come elementi distinti. Durante la modifica dell&#39;elemento è stato creato un nuovo elemento, contenente il testo modificato, che modifica l&#39;elemento originale creato. Se poi elimini l’elemento originale, il testo modificato non sarà in grado di trovare l’elemento modificato e non verrà visualizzato. Il secondo elemento rimarrà nell&#39;elenco senza tuttavia influire sulla pagina, poiché l&#39;elemento da modificare non esiste più.
 
 Consulta [Selettori di elementi utilizzati nel [!UICONTROL Compositore esperienza visivo]](/help/main/c-experiences/c-visual-experience-composer/vec-selectors.md#concept_4EB7663E255F439B8D24079D23479337).
 
@@ -265,7 +265,7 @@ Quando utilizzi il [!UICONTROL Compositore esperienza visivo] per progettare l&#
 ### La funzionalità [!UICONTROL Sposta] non supporta la funzionalità z-index.
 
 +++Dettagli
-In assenza della funzionalità z-index, l&#39;elemento spostato non può essere spostato sopra un altro elemento. Per ulteriori dettagli, vedi [Limitazioni](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#section_F33C2EA27F2E417AA036BC199DD6C721).
+Poiché non è disponibile la funzionalità z-index, l&#39;elemento spostato non può essere spostato sopra un altro elemento. Per ulteriori dettagli, vedi [Limitazioni](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#section_F33C2EA27F2E417AA036BC199DD6C721).
 
 +++
 
@@ -480,6 +480,6 @@ A causa delle limitazioni di Internet Explorer 8 relative alla gestione del cont
 ### Il monitoraggio dei clic è supportato solo nella pagina in cui vengono create le esperienze o nella pagina reindirizzata.
 
 +++Dettagli
-Sebbene la modalità [!UICONTROL Sfoglia] sia disponibile per il tracciamento dei clic nel Compositore esperienza visivo, non è possibile utilizzare la modalità [!UICONTROL Sfoglia] per aggiungere il tracciamento dei clic in una pagina.
+Sebbene la modalità [!UICONTROL Sfoglia] sia disponibile per il tracciamento dei clic nel Compositore esperienza visivo, non è possibile utilizzare la modalità [!UICONTROL Sfoglia] per aggiungere il tracciamento dei clic su una pagina.
 
 +++

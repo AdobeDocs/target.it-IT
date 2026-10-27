@@ -1,6 +1,6 @@
 ---
 keywords: AB;A/B;AB...n;confrontare esperienze;Targeting;confrontare contenuto;targeting automatico;allocazione automatica
-description: 'Scopri i diversi tipi di attività di test A/B in Adobe [!DNL Target]: manuale, allocazione automatica e targeting automatico. Scegli quello che fa per te.'
+description: 'Scopri i diversi tipi di attività di test A/B in Adobe [!DNL Target]: manuale, allocazione automatica e targeting automatico. Scegli quello giusto per te.'
 title: Quale tipo di attività A/B è disponibile in Target?
 feature: A/B Tests
 exl-id: e8ff8994-a0a9-4fc7-8fcb-e3a1b7697604
@@ -13,9 +13,9 @@ feature_v2:
 subfeature_v2:
   - id: ab2570eb-4844-49aa-8334-e91a345525e5
     internal-label: A/B Tests
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '839'
+source-wordcount: '841'
 ht-degree: 22%
 ---
 # Panoramica sui test A/B

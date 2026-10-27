@@ -14,10 +14,10 @@ feature_v2:
 subfeature_v2:
   - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
     internal-label: Recommendations
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '2934'
-ht-degree: 48%
+source-wordcount: '2937'
+ht-degree: 47%
 ---
 # Creare criteri
 
@@ -47,7 +47,7 @@ La procedura seguente presuppone che tu acceda alla schermata [!UICONTROL Crea n
 
 1. Digita un **[!UICONTROL Nome criterio]**.
 
-   Si tratta del nome “interno” usato per descrivere i criteri. Ad esempio, potresti voler chiamare i tuoi criteri “prodotti di margine più alto”, ma non vuoi che questo titolo venga visualizzato pubblicamente. Vedi il passo successivo per impostare il titolo visualizzato dal pubblico.
+   Si tratta del nome “interno” usato per descrivere i criteri. Ad esempio, potresti voler chiamare il criterio &quot;Prodotti con margine più alto&quot;, ma non desideri che il titolo venga visualizzato pubblicamente. Vedi il passo successivo per impostare il titolo visualizzato dal pubblico.
 
    ![Sezione informazioni di base](assets/basic-information.png)
 
@@ -125,7 +125,7 @@ Per ulteriori informazioni sulla scelta di una [!UICONTROL Chiave consiglio], ve
 
    Se il sito genera molto traffico e i comportamenti si modificano spesso, scegli una finestra dati più breve. Una finestra più breve consente a [!DNL Recommendations] di essere più reattivo alle modifiche all’interno del mercato e della tua attività. Ad esempio, una finestra più breve implica che [!DNL Recommendations] rileverà le modifiche nel comportamento dei visitatori quando questi iniziano lo shopping stagionale, ad esempio quello natalizio o per il rientro a scuola, raccomandando gli articoli appropriati.
 
-   In presenza di un volume limitato di dati, o se il comportamento dei visitatori non si modifica di frequente, puoi selezionare una finestra più ampia. Tuttavia, per molti siti, una finestra più breve genera consigli di qualità superiore.
+   Se non si dispone di molti dati o se il comportamento del visitatore non cambia frequentemente, è possibile selezionare una finestra più lunga. Tuttavia, per molti siti, una finestra più breve genera consigli di qualità superiore.
 
    Gli intervalli di dati disponibili sono:
 
@@ -161,7 +161,7 @@ Le regole di [!UICONTROL Contenuto di backup] determinano ciò che accade se il 
 
    Supponiamo che il criterio determini solo due articoli da consigliare. Se abiliti l&#39;opzione [!UICONTROL Rendering design parziale], i primi due slot vengono riempiti, ma i due slot rimanenti rimangono vuoti. Tuttavia, se abiliti l&#39;opzione [!UICONTROL Mostra consigli di backup], i primi due slot vengono riempiti in base ai criteri specificati e i due slot rimanenti vengono compilati in base ai consigli di backup.
 
-   La seguente matrice mostra il risultato che osserverai quando utilizzerai le opzioni [!UICONTROL Rendering design parziale] e [!UICONTROL Contenuto backup]:
+   La matrice seguente mostra il risultato che si osserverà quando si utilizzano le opzioni [!UICONTROL Rendering design parziale] e [!UICONTROL Contenuto backup]:
 
    | Rendering parziale della progettazione | Contenuto di backup | Risultato |
    |--- |--- |--- |
