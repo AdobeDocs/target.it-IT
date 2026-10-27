@@ -2,7 +2,7 @@
 keywords: Recommendations;consigli;intro;introduzione;webinar;demo
 description: Scopri le attività Consigli in Adobe [!DNL Target] che consentono di visualizzare automaticamente contenuti che potrebbero interessare ai clienti in base alle loro attività precedenti o ad altri algoritmi.
 title: Quali sono le attività Consigli?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=it#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."
 feature: Recommendations
 exl-id: bc4d9a46-ea21-4687-b8a0-7f2e1dc33ebf
 TQID: 'https://experienceleague.adobe.com/6jmXI9CsdCnyyQrQXKzq5WF8OQPQSCbE2Zb8AnpUvks'
@@ -32,10 +32,10 @@ topic_v2:
     internal-label: Personalization
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
     internal-label: Machine learning
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '2111'
-ht-degree: 82%
+source-wordcount: '2121'
+ht-degree: 79%
 ---
 # Introduzione alla funzione Consigli
 
@@ -51,7 +51,7 @@ L’illustrazione seguente mostra alcuni articoli consigliati: accessori acquist
 
 ![Prodotti consigliati, in base agli accessori che altri utenti hanno acquistato insieme a un telefono nuovo.](/help/main/c-recommendations/assets/intro-1.png)
 
-Ma non ci soffermiamo spesso a pensare in che modo le aziende di digital-first contribuiscono ad alzare le aspettative dei clienti. Il modo in cui usiamo contenuti e media è sempre più spesso guidato da suggerimenti e consigli personalizzati. Pensa alla prima cosa che vedi quando apri Netflix, Spotify o YouTube. L’esperienza dei clienti inizia sempre con una serie di articoli consigliati. In un mondo in cui sono disponibili più alternative che mai, è fondamentale poter identificare i contenuti più rilevanti per il cliente al momento dell’interazione.
+Ma non ci soffermiamo spesso a pensare in che modo le aziende di digital-first possano alzare le aspettative dei clienti. Il modo in cui usiamo contenuti e media è sempre più spesso guidato da suggerimenti e consigli personalizzati. Pensa alla prima cosa che vedi quando apri Netflix, Spotify o YouTube. L’esperienza dei clienti inizia sempre con una serie di articoli consigliati. In un mondo in cui sono disponibili più alternative che mai, è fondamentale poter identificare i contenuti più rilevanti per il cliente al momento dell’interazione.
 
 ![Consigli proposti da brand digitali](/help/main/c-recommendations/assets/intro-2.png)
 
@@ -80,7 +80,7 @@ Per essere efficaci, i consigli devono essere pertinenti e personalizzati. Per g
 
 * **Controlli per gli addetti al marketing** che consentano di ottimizzare la pertinenza degli articoli consigliati. In qualità di addetto al marketing, conosci bene il contesto e sai quali attributi dei prodotti o contenuti devono essere considerati da un modello per la generazione di consigli. Se gestisci un sito di video, sai che gli utenti potrebbero essere interessati a vedere film dello stesso regista, ma probabilmente non è interessato a vedere film prodotti dallo stesso studio. [!DNL Target] ti offre i controlli necessari per ottimizzare gli algoritmi con la tua specifica conoscenza del dominio.
 * **Modelli sofisticati** con cui ottenere informazioni importanti dai milioni di articoli presenti nel catalogo ed eventi di interazione. [!DNL Target] ha sofisticate funzionalità di apprendimento automatico che attingono a dieci anni di esperienza, e gestisce miliardi di consigli all’anno.
-* **Contesto dell’utente** per assicurare che i consigli siano puntuali e rilevanti per i singoli utenti. Non vorrai consigliare il video appena guardato o la maglietta appena aggiunta al carrello. Il profilo utente avanzato di Target può essere utilizzato nei consigli per garantire la personalizzazione.
+* **Contesto dell’utente** per assicurare che i consigli siano puntuali e rilevanti per i singoli utenti. Non vorrai consigliare il video appena guardato o la maglietta che un utente ha appena aggiunto al carrello. Il profilo utente avanzato di Target può essere utilizzato nei consigli per garantire la personalizzazione.
 
 ## Implementare le attività Consigli di [!DNL Target]
 
@@ -168,13 +168,13 @@ Le sezioni seguenti descrivono le varie parti di questo funnel e come funzionano
 
 ### Filtri statici (raccolte ed esclusioni)
 
-I filtri statici sono regole generiche applicabili agli attributi del catalogo, che non saranno soggette a frequenti modifiche.
+I filtri statici sono regole applicabili in generale agli attributi del catalogo e che non dovrebbero essere soggette a modifiche frequenti.
 
 ![Illustrazione di raccolte ed esclusioni](/help/main/c-recommendations/assets/intro-16.png)
 
 Ad esempio, in un contesto di contenuti, potresti voler includere nei consigli tutti i film eccetto quelli vietati ai minori di 18 anni. In un contesto retail in cui gestisci più marchi, potresti voler consigliare solo i prodotti disponibili per una specifica area geografica. Potresti anche voler escludere i prodotti di un’etichetta locale privata.
 
-Questi sono tutti attributi del catalogo applicabili in ambito generale che possono essere usati in più consigli e che non sono soggetti a modifiche frequenti.
+Si tratta di tutti attributi di catalogo applicabili in generale che è possibile utilizzare in più consigli e che non sono soggetti a modifiche frequenti.
 
 ### Algoritmo (chiave e logica per la generazione dei consigli)
 

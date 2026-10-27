@@ -2,37 +2,49 @@
 keywords: aggiungi utente;progetto;gruppo utenti;proprietà;area di lavoro;gestisci proprietà;proprietà;at_property;ruoli;autorizzazioni
 description: Scopri come aggiungere utenti ad Adobe Target; creare aree di lavoro, gruppi di utenti e proprietà; aggiornare l’implementazione e specificare ruoli e autorizzazioni.
 title: Come Si Configurano Le Autorizzazioni Enterprise?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=it#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."
 feature: Administration & Configuration
 role: Admin
 exl-id: 6494fc86-d2d3-4382-9d2e-63be435ba935
 TQID: https://experienceleague.adobe.com/hMnPeT5NMMeNPLRdTtgcikwXWxcEjuMtycy1RNBi0Q4
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
   - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
   - id: f7c7de77-382f-4f48-8b36-61a170f06d3d
+    internal-label: Integrations
 subfeature_v2:
   - id: c011fe9c-b94b-4a88-93d8-f2acece55112
+    internal-label: Administration
   - id: cd7b6938-5837-4ee0-9790-5840997133d9
+    internal-label: User management
   - id: cf6b8469-14d0-4c0e-90ee-fb54066a035e
+    internal-label: Roles and permissions
   - id: faed1c89-faf7-4df1-910d-a88263e03b15
+    internal-label: Target UI
   - id: fc9c2184-9102-403f-bd6c-0055021e4bea
+    internal-label: Overview
   - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+    internal-label: at.js
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Administration
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: 1509
-ht-degree: 55%
-
+source-wordcount: '1513'
+ht-degree: 54%
 ---
-
 # Configurare le autorizzazioni Enterprise
 
 Informazioni sulle attività necessarie per aggiungere utenti all&#39;implementazione di [!DNL Target]; creare aree di lavoro, gruppi di utenti e proprietà; aggiornare l&#39;implementazione di [!DNL Target] per includere il parametro `at_property` e specificare ruoli e autorizzazioni.
@@ -92,19 +104,19 @@ Gli utenti possono fare parte di più aree di lavoro e possono anche avere ruoli
 
    * **Nuove aree di lavoro (profili prodotto):** è possibile iniziare a sfruttare le nuove funzionalità delle autorizzazioni eseguendo le operazioni seguenti:
 
-      * Creazione di nuove aree di lavoro all’interno di [!DNL Admin Console for Enterprise].
-      * Assegnazione delle proprietà di Target alle aree di lavoro.
+     * Creazione di nuove aree di lavoro all’interno di [!DNL Admin Console for Enterprise].
+     * Assegnazione delle proprietà di Target alle aree di lavoro.
 
    È possibile utilizzare queste aree di lavoro per dividere l&#39;accesso per team diversi per regione, business unit, sezione sito o tramite qualsiasi altro metodo scelto. Gli utenti possono fare parte di più aree di lavoro e possono avere ruoli diversi all&#39;interno di ogni area di lavoro.
 
-1. Segui le istruzioni riportate in [Creare e gestire le configurazioni di prodotto](https://helpx.adobe.com/it/enterprise/help/manage-products-and-configurations.html) nella *guida utente della versione Enterprise*.
+1. Segui le istruzioni riportate in [Creare e gestire le configurazioni di prodotto](https://helpx.adobe.com/enterprise/help/manage-products-and-configurations.html) nella *guida utente della versione Enterprise*.
 
 >[!NOTE]
 >Per ulteriori informazioni sulla configurazione delle aree di lavoro, guarda il video di formazione sottostante.
 
 ### Ottenere l’ID workspace {#workspace-id}
 
-Per sfruttare le autorizzazioni Enterprise nelle [API di Target](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html?lang=it){target=_blank} devi passare l’ID workspace.
+Per sfruttare le autorizzazioni Enterprise in [API di Target](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html?lang=it){target=_blank}, devi passare l&#39;ID workspace.
 
 1. In [Adobe Admin Console](https://adminconsole.adobe.com), fare clic sulla scheda [!UICONTROL Prodotti], quindi fare clic sul prodotto nel menu a sinistra per visualizzare l&#39;elenco di PLC(workspace).
 1. Fai clic sulla voce PLC(workspace) desiderata, quindi individua l’ID “profiles” nell’URL, come mostrato di seguito.
@@ -116,7 +128,7 @@ Per sfruttare le autorizzazioni Enterprise nelle [API di Target](https://experie
 È possibile creare gruppi di utenti, ad esempio sviluppatori, analisti, addetti al marketing, dirigenti e così via, e assegnare privilegi a più prodotti Adobe e aree di lavoro. Per assegnare a un nuovo membro del team tutti i privilegi appropriati per i diversi prodotti Adobe, sarà sufficiente aggiungerlo a un gruppo di utenti specifico.
 
 1. In Admin Console, fai clic sulla scheda **[!UICONTROL Utenti]** nella parte superiore della pagina > **[!UICONTROL Gruppi di utenti]** per creare nuovi gruppi di utenti o per modificare quelli esistenti.
-1. Segui le istruzioni contenute in [Gestire utenti e gruppi nella configurazione di un prodotto](https://helpx.adobe.com/it/enterprise/help/manage-products-and-configurations.html) nella *Guida utente Enterprise*.
+1. Segui le istruzioni contenute in [Gestire utenti e gruppi nella configurazione di un prodotto](https://helpx.adobe.com/enterprise/help/manage-products-and-configurations.html) nella *Guida utente Enterprise*.
 
 ## Passaggio 4: Creare proprietà {#section_E8F2C92BE0F4466AB87604059C9CF3FD}
 
@@ -165,7 +177,7 @@ Per utilizzare la funzionalità di autorizzazioni utente di [!DNL Target], è ne
 
    * **Tramite un &quot;parametro personalizzato&quot; nei tag all&#39;interno di [!DNL Adobe Experience Platform]:**
 
-     Per ulteriori informazioni, consulta [Aggiungere parametri Mbox](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/target/overview.html?lang=it#add-mbox-params) nella *Panoramica sui tag* documentazione.
+     Per ulteriori informazioni, consulta [Aggiungere parametri Mbox](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/target/overview.html?lang=en#add-mbox-params) nella *Panoramica sui tag* documentazione.
 
    * **Tramite la funzione targetPageParamsAll():** Inserisci il seguente codice nei tag `<head>`, sopra il riferimento at.js.
 
@@ -225,12 +237,12 @@ Questo video spiega come creare aree di lavoro.
 * Accedere ad Admin Console da Adobe Target (3 modalità)
 * Configurare un&#39;area di lavoro in Adobe Admin Console
 
-   * Aggiungere utenti alle aree di lavoro
-   * Aggiungere proprietà alle aree di lavoro
+  * Aggiungere utenti alle aree di lavoro
+  * Aggiungere proprietà alle aree di lavoro
 
 * Comprendere le aree di lavoro predefinite
 
->[!VIDEO](https://video.tv.adobe.com/v/3421732?captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/19463/)
 
 ### Come creare proprietà in Adobe Target (3:05) ![Icona esercitazione](/help/main/assets/tutorial.png)
 
@@ -238,8 +250,8 @@ Questo video spiega come creare aree di lavoro.
 * Come generare un token di proprietà da includere nell&#39;implementazione della proprietà
 * Familiarizza con i tre metodi di implementazione:
 
-   * Web
-   * App mobile
-   * Posta elettronica, set top box o chiamate API
+  * Web
+  * App mobile
+  * Posta elettronica, set top box o chiamate API
 
 >[!VIDEO](https://video.tv.adobe.com/v/18990/)

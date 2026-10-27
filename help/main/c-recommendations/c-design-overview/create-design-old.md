@@ -2,7 +2,7 @@
 keywords: Progettazione consigli;creare progettazione;copia progettazione
 description: Scopri come creare una progettazione di Adobe [!DNL Target] Recommendations utilizzando una progettazione predefinita o creando una progettazione personalizzata che si adatti al meglio al layout della pagina.
 title: Come si crea una progettazione in Recommendations?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=it#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."
 feature: Recommendations
 exl-id: 0f10ee9d-7210-4e02-9342-e4f85cf46e8c
 product_v2:
@@ -14,10 +14,10 @@ feature_v2:
 subfeature_v2:
   - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
     internal-label: Recommendations
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '1063'
-ht-degree: 27%
+source-wordcount: '1065'
+ht-degree: 25%
 ---
 # Creare una progettazione
 
@@ -173,7 +173,7 @@ L’esempio seguente mostra come le risposte JSON possono essere restituite dura
    | `[YOUR_CLIENT_CODE]` | Codice client di Target (disponibile in /help/target/products.html#recsSettings > Token API per i consigli > Codice client). |
    | `[YOUR_MBOX_NAME]` | Il nome selezionato nella sezione &quot;locations&quot; dei consigli basati su moduli, in questo caso Sample_Recs_Response. |
    | `[ENTITY_ID` | L&#39;`entity.id` di un elemento nel catalogo. |
-   | `[AT_PROPERTY_TOKEN]` | (Facoltativo) Aggiungi se hai selezionato una Proprietà (parte delle autorizzazioni dell&#39;azienda) durante l&#39;impostazione dell&#39;attività. |
+   | `[AT_PROPERTY_TOKEN]` | (Facoltativo) Aggiungi se hai selezionato una Proprietà (parte di Autorizzazioni Enterprise) durante l’impostazione dell’attività. |
 
 Dopo che l&#39;algoritmo è stato eseguito e si dispone dei risultati, la risposta dovrebbe essere simile a questa:
 
@@ -334,4 +334,4 @@ Questo video contiene le seguenti informazioni:
 * Creare una progettazione personalizzata
 * Come fare riferimento alle variabili di visualizzazione nelle progettazioni
 
->[!VIDEO](https://video.tv.adobe.com/v/328805?captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/27687)

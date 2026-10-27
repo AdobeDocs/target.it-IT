@@ -2,7 +2,7 @@
 keywords: targeting automatico;targeting;allocazione del traffico;domande frequenti;faq;risoluzione dei problemi;risoluzione problemi;traffico
 description: Esplora gli argomenti relativi alla risoluzione dei problemi e le domande frequenti sulle [!UICONTROL attività Targeting automatico].
 title: Come posso risolvere i problemi relativi alle [!UICONTROL attività Targeting automatico]?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=it#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."
 feature: Auto-Target
 exl-id: 934f738e-560a-4847-9608-432ecfa2afe7
 TQID: 'https://experienceleague.adobe.com/LXOa1Ma0y8VbncCPN1Az33p-GDsd-bW-BDqJjSGbVQU'
@@ -26,10 +26,10 @@ topic_v2:
     internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '1982'
-ht-degree: 30%
+source-wordcount: '1991'
+ht-degree: 28%
 ---
 # [!UICONTROL Domande frequenti sul Targeting automatico] e risoluzione dei problemi
 
@@ -45,7 +45,7 @@ Consulta le seguenti domande frequenti e risposte mentre lavori con [!UICONTROL 
 * Decidi se il valore aziendale di una metrica di successo [!UICONTROL Ricavo per visita] (RPV) vale i requisiti di traffico aggiuntivi. RPV richiede in genere almeno 1.000 conversioni per esperienza perché un&#39;attività funzioni rispetto alla conversione.
 * In base ai tuoi obiettivi, decidi la ripartizione tra il controllo e le esperienze personalizzate prima di iniziare l&#39;attività.
 * Determina se disponi di traffico sufficiente per la pagina in cui viene eseguita l&#39;attività di [!UICONTROL Targeting automatico] affinché i modelli di personalizzazione compilino in un tempo ragionevole.
-* Se stai testando l&#39;algoritmo di personalizzazione, non è consigliabile modificare le esperienze o aggiungere o rimuovere attributi di profilo mentre l&#39;attività è in esecuzione.
+* Se stai testando l&#39;algoritmo di personalizzazione, non devi modificare le esperienze, né aggiungere o rimuovere attributi di profilo mentre l&#39;attività è in esecuzione.
 * È consigliabile completare un&#39;attività A/B tra le offerte e le posizioni che intendi utilizzare nell&#39;attività [!UICONTROL Targeting automatico] per garantire che le posizioni e le offerte abbiano un impatto sull&#39;obiettivo di ottimizzazione. Se un&#39;attività A/B non riesce a dimostrare una differenza significativa, [!UICONTROL Targeting automatico] probabilmente non riesce a generare l&#39;incremento.
 
   Se un test A/B non mostra differenze statisticamente significative tra le esperienze, probabilmente le offerte che stai prendendo in considerazione non sono sufficientemente diverse tra loro, le posizioni selezionate non incidono sulla metrica successo o l’obiettivo di ottimizzazione è troppo lontano nel funnel di conversione per essere influenzato dalle offerte scelte.
@@ -61,12 +61,12 @@ La suddivisione ottimale del traffico dipende da cosa desideri eseguire.
 
 Se l’obiettivo è quello di personalizzare il traffico il più possibile, puoi mantenere un’allocazione mirata del 90% e un controllo del 10% per la durata dell’attività. Se l’obiettivo è quello di eseguire un esperimento confrontando il comportamento degli algoritmi personalizzati rispetto al controllo, allora una suddivisione 50/50 è la migliore per la durata dell’attività.
 
-Si consiglia di mantenere la suddivisione del traffico per la durata dell’attività in modo che i visitatori non passino da un’esperienza di targeting a una di controllo.
+Si consiglia di mantenere la suddivisione del traffico per la durata dell’attività in modo che i visitatori non passino da un’esperienza di targeting a un’esperienza di controllo.
 
 <!-- 
 ### Do the check marks indicating a model is built for that experience update if the report date range changes?
 
-No, check marks for model generation show only the models built to date. There's no way to go back and see when a model was completed.
+No, check marks for model generation show only the models built to date. There is no way to go back and see when a model was completed.
 -->
 
 +++
@@ -78,7 +78,7 @@ No, solo i visitatori che si qualificano e visualizzano l&#39;attività [!UICONT
 
 +++
 
-### Perché la mia attività di [!UICONTROL Targeting automatico] non sembra generare alcun incremento.
+### Perché la mia attività [!UICONTROL Targeting automatico] non sembra generare alcun incremento.
 
 +++Risposta
 Ci sono quattro fattori necessari affinché un&#39;attività [!UICONTROL Targeting automatico] generi incremento:
@@ -198,7 +198,7 @@ Ci sono quattro fattori necessari affinché un&#39;attività [!UICONTROL Targeti
 * Il test deve avere traffico e potenza statistica tali da consentire il rilevamento di un incremento.
 * L’algoritmo di personalizzazione deve funzionare bene.
 
-**Soluzione:** in primo luogo, assicurati che l&#39;attività personalizzi il traffico. Se i modelli non sono generati per tutte le esperienze, l&#39;attività di [!UICONTROL Targeting automatico] fornisce ancora in modo casuale una parte significativa di visite per tentare di generare tutti i modelli il più rapidamente possibile. Se i modelli non sono generati, [!UICONTROL Targeting automatico] non personalizza il traffico.
+**Soluzione:** in primo luogo, assicurati che l&#39;attività personalizzi il traffico. Se i modelli non sono generati per tutte le esperienze, l&#39;attività [!UICONTROL Targeting automatico] fornisce ancora in modo casuale una parte significativa di visite per tentare di generare tutti i modelli il più rapidamente possibile. Se i modelli non sono generati, [!UICONTROL Targeting automatico] non personalizza il traffico.
 
 Quindi, assicurati che le offerte e le posizioni di attività facciano davvero la differenza nei tassi di risposta generali utilizzando un semplice test A/B non personalizzato. Calcola le dimensioni del campione in tempo per assicurarti che sia possibile visualizzare un incremento ragionevole ed esegui il test A/B per una durata fissa senza interruzioni né modifiche. Se i risultati di un test A/B mostrano un incremento statisticamente significativo su una o più esperienze, è probabile che un’attività personalizzata funzioni. Personalization può funzionare anche se non ci sono differenze nei tassi di risposta generali delle esperienze. In genere, il problema deriva dal fatto che le offerte e le posizioni non hanno un impatto sufficiente sull’obiettivo di ottimizzazione da rilevare con significatività statistica.
 

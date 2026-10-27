@@ -21,9 +21,9 @@ topic_v2:
     internal-label: Customer experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '989'
+source-wordcount: '990'
 ht-degree: 35%
 ---
 # Compositore esperienza basato su moduli
@@ -50,7 +50,7 @@ Se stai creando un&#39;attività [!UICONTROL Consigli], non ci sono esperienze. 
 
    Questa schermata è diversa se stai creando un&#39;attività [!UICONTROL Consigli]. Le attività [!UICONTROL Consigli] non includono esperienze.
 
-1. &#x200B;
+1. 
    1. Fai clic sull&#39;icona **[!UICONTROL Rinomina]** ( ![Rinomina icona](/help/main/assets/icons/MoreSmallListVert.svg) ), fai clic su **[!UICONTROL Rinomina]**, specifica un nome per l&#39;attività, quindi fai clic su **[!UICONTROL Salva]**.
 
    Il nome dell’attività non può iniziare con uno dei seguenti caratteri:

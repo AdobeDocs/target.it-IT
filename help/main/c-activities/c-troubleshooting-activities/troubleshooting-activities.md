@@ -1,5 +1,5 @@
 ---
-keywords: risolvi problemi di Target;risoluzione problemi di Target;contenuto predefinito;test non live;attività non live;targeting non funzionante;visualizzazione esperienza precedente;impossibile creare attività;creare attività;struttura pagina modificata;struttura pagina cambiata;messaggio di errore;errore elimina script profilo;AJAX non funziona
+keywords: risolvere problemi target;risoluzione problemi target;contenuto predefinito;test non live;attività non live;targeting non funzionante;esperienza precedente visualizza;impossibile creare attività;creare attività;struttura pagina modificata;struttura pagina modificata;messaggio di errore;errore elimina script profilo;ajax non funziona
 description: Trova suggerimenti per la risoluzione dei problemi, qualora l'attività Adobe [!DNL Target] non venga visualizzata sul tuo sito.
 title: Come posso risolvere i problemi relativi alle attività?
 feature: Activities
@@ -18,10 +18,10 @@ topic_v2:
     internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '867'
-ht-degree: 41%
+source-wordcount: '870'
+ht-degree: 36%
 ---
 # Risolvere i problemi relativi alle attività
 
@@ -148,6 +148,6 @@ Quando si eseguono determinate azioni, ad esempio l&#39;attivazione di un&#39;at
 
 ## Dopo la conversione dell’attività, il visitatore non si trova in alcuna esperienza.
 
-In rari casi, se la metrica di conversione dell’attività per qualificarsi per un’esperienza viene inviata nella stessa richiesta di qualificazione dell’attività, il visitatore potrebbe non trovarsi in alcuna esperienza dopo l’invio della richiesta. In questa situazione, il visitatore vede che il contenuto predefinito e l&#39;ID esperienza acquisito tramite i token sarebbe -1. [!DNL Adobe] non consiglia di inviare qualificazione e conversione attività nella stessa richiesta [!DNL Target].
+In rari casi, se la metrica di conversione dell’attività per qualificarsi per un’esperienza viene inviata nella stessa richiesta di qualificazione dell’attività, il visitatore potrebbe non trovarsi in alcuna esperienza dopo l’invio della richiesta. In questa situazione, il visitatore vede che il contenuto predefinito e l&#39;ID esperienza acquisito tramite i token sarebbe -1. [!DNL Adobe] sconsiglia di inviare qualificazione e conversione attività nella stessa richiesta [!DNL Target].
 
 Se desideri inviare entrambe le metriche nella stessa richiesta, puoi utilizzare [!UICONTROL Impostazioni avanzate] per specificare che il visitatore rimane nella stessa esperienza dopo la conversione.

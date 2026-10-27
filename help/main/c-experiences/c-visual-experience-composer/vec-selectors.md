@@ -18,10 +18,10 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '456'
-ht-degree: 29%
+source-wordcount: '457'
+ht-degree: 25%
 ---
 # Selettori di elementi utilizzati nel Compositore esperienza visivo
 
@@ -37,7 +37,7 @@ Puoi specificare se utilizzare l’ID o la classe degli elementi nelle preferenz
 
 >[!NOTE]
 >
->Le classi di elementi sono disponibili come selettori nelle attività [!UICONTROL Test A/B], [!UICONTROL Automated Personalization] e[!UICONTROL &#x200B; Test multivariato].
+>Le classi di elementi sono disponibili come selettori nelle attività [!UICONTROL Test A/B], [!UICONTROL Automated Personalization] e[!UICONTROL  Test multivariato].
 
 Per informazioni su quando utilizzare selettori CSS e quando utilizzare ID univoci, consulta [Best practice e limitazioni del Compositore esperienza visivo](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#concept_E284B3F704C04406B174D9050A2528A6).
 
@@ -85,7 +85,7 @@ Per informazioni su quando utilizzare selettori CSS e quando utilizzare ID univo
 
    Selettore: `#container` > `ul.navigation:eq(0)` > `li.item:eq(0)` (“ > ” indica l’elemento secondario diretto).
 
-   `eq` comunica all’indice che c’è un elemento con &quot;tagName=UL&quot; e che la prima classe è `navigation`. Pertanto, l’`index` è 0. Per ulteriori informazioni, leggi l’articolo sui [selettori](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started/Selectors) in MDN.
+   `eq` comunica all&#39;indice che esiste un elemento con &quot;tagName=UL&quot; e che la prima classe è `navigation`. Pertanto, l’`index` è 0. Per ulteriori informazioni, leggi l’articolo sui [selettori](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started/Selectors) in MDN.
 
 1. Se un elemento non contiene una classe, [!DNL Target] utilizza `tagName` per l&#39;elemento ed analizza l&#39;elemento padre finché non viene trovato l&#39;elemento `<HTML>` o un elemento con un ID.
 

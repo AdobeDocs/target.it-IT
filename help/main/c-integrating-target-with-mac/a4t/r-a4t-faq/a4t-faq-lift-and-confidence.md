@@ -18,10 +18,10 @@ topic_v2:
     internal-label: Customer experience
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '549'
-ht-degree: 25%
+source-wordcount: '550'
+ht-degree: 21%
 ---
 # Incremento e affidabilità - Domande frequenti su A4T
 
@@ -69,7 +69,7 @@ Esempi di metriche o casi d’uso non supportati includono:
 
 +++
 
-## L’incremento e l’affidabilità funzionano in Ad Hoc e Report Builder? Se non sono funzioni native, posso intervenire io? {#section_D8BB69AE700B4C5CB5FD28DB51F9A4E9}
+## L’incremento e l’affidabilità funzionano in Ad Hoc e Report Builder? Se non è una funzione nativa, posso intervenire io? {#section_D8BB69AE700B4C5CB5FD28DB51F9A4E9}
 
 +++Risposta
 Incremento e affidabilità non funzionano in Ad Hoc e Report Builder e non puoi calcolarli per variabili continue. È possibile calcolarli manualmente per metriche binarie.

@@ -37,10 +37,10 @@ topic_v2:
     internal-label: Administration
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
     internal-label: Audience segmentation
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '2961'
-ht-degree: 72%
+source-wordcount: '2987'
+ht-degree: 71%
 ---
 # Capitolo 4: Suggerimenti per l’utilizzo di Target
 
@@ -144,7 +144,7 @@ Molti esperti di marketing lanciano programmi di ottimizzazione per la segmentaz
 
 ## Suggerimento 12: progetta test più semplici per assicurarti di poterli creare e implementare.
 
-Dopo aver considerato tutti gli aspetti su come progettare un test, un piano può diventare molto complesso. In base a dove si trova la tua azienda con i test e alla capacità del tuo gruppo di progettare, codificare, eseguire e analizzare i risultati, verifica se il test sembra troppo ambizioso. In caso affermativo, riducine la portata e la complessità. Meglio iniziare in piccolo che non eseguire affatto il test. Non puoi offrire un incremento di impatto se non avvii mai il test. È importante bilanciare le aspirazioni del team con le realtà delle risorse e delle capacità.
+Dopo aver considerato tutti gli aspetti su come progettare un test, un piano può diventare molto complesso. In base a dove si trova la tua azienda con i test e alla capacità del tuo gruppo di progettare, codificare, eseguire e analizzare i risultati, verifica se il test sembra troppo ambizioso. In caso affermativo, riducine la portata e la complessità. Meglio iniziare in piccolo che non eseguire affatto il test. Non puoi fornire un incremento di impatto se non avvii mai il test. È importante bilanciare le aspirazioni del team con le realtà delle risorse e delle capacità.
 
 ## Suggerimento 13: suddividi i test complessi in attività di test più piccole per renderli raggiungibili.
 
@@ -160,7 +160,7 @@ Il test eseguito vicino alla pagina in cui i visitatori fanno clic su Acquisto c
 
 ## Suggerimento 15: aggiorna costantemente i test per apportare miglioramenti iterativi.
 
-Se la tua ipotesi non si è rivelata vera, pensa a come migliorare il tuo test. Ricorda che anche se nessuna delle esperienze testate ha avuto risultati migliori, l’esperimento non è stato una perdita di tempo. Un test di successo non significa sempre un aumento dei ricavi o delle conversioni. Se il test ha effettivamente supportato la tua ipotesi, allora sei sulla strada per sviluppare una teoria generale. Ma anche quando hai un chiaro risultato di vittoria, non fermarti lì. Troppo spesso, gli esperti di marketing commettono l’errore di testare una volta e poi di fare il punto su tali risultati senza capire realmente cosa ha portato al successo. Piuttosto, pianificare l’iterazione di quei risultati per capire perché il favorito era in testa. Questo ti porterà a informazioni più approfondite che puoi utilizzare nelle campagne future.
+Se la tua ipotesi non si è rivelata vera, pensa a come migliorare il tuo test. Ricorda che anche se nessuna delle esperienze testate ha avuto risultati migliori, l’esperimento non è stato una perdita di tempo. Un test di successo non significa sempre un aumento dei ricavi o delle conversioni. Se il test ha effettivamente sostenuto la tua ipotesi, allora sei sulla strada per sviluppare una teoria generale. Ma anche quando hai un chiaro risultato di vittoria, non fermarti lì. Troppo spesso, gli esperti di marketing commettono l’errore di testare una volta e poi di fare il punto su tali risultati senza capire realmente cosa ha portato al successo. Piuttosto, pianificare l’iterazione di quei risultati per capire perché il favorito era in testa. Questo ti porterà a informazioni più approfondite che puoi utilizzare nelle campagne future.
 
 ## Suggerimento 16: confronta test e attività di personalizzazione per idee per migliorare il targeting.
 
@@ -180,14 +180,14 @@ Ad esempio, un cliente Adobe nel campo dei servizi sanitari ha recentemente dimo
 
 ## Suggerimento 19: comunica a tutti che hai avviato un test per evitare problemi quando il sito cambia.
 
-Uno dei vantaggi della configurazione delle attività per l’utilizzo dei parametri di controllo qualità è la possibilità di condividere tali collegamenti con tutti gli utenti del team. Fai in modo che più persone siano consapevoli dell’attività e assicurati che non credano che il sito non funzioni correttamente quando raggiungono una variante di test.
+Uno dei vantaggi della configurazione delle attività per l’utilizzo dei parametri di controllo qualità è la possibilità di condividere tali collegamenti con tutti gli utenti del team. Fai in modo che più persone siano consapevoli dell’attività e assicurati che non presumano che il sito non funzioni correttamente quando raggiungono una variante di test.
 
 Dopo aver completato i test, comunicare i lanci delle campagne, i risultati dei test e in particolare le lezioni apprese ti aiuta a sensibilizzare l’utente sui risultati dei test e a renderli più interessati. Condividere i risultati con tutti nell’organizzazione evita anche di ripetere un’ipotesi, educa tutti su ciò che funziona e li aiuta fondamentalmente a sfidare le proprie idee su ciò che funziona in base a ciò che hai trovato. È consigliabile preparare un modello da utilizzare ogni volta per condividere i risultati e gli insegnamenti chiave.
 Quindi prendi in considerazione la creazione di un libro condivisibile o un deck Microsoft PowerPoint che acquisisce cumulativamente questi insegnamenti.
 
 ## Suggerimento 20: utilizza la funzionalità mobile per creare attività mobili più innovative.
 
-Le esperienze degli utenti di tablet e smartphone devono concentrarsi sui controlli basati sul tocco come interazione principale del visitatore, anziché sui clic del mouse e sui controlli da tastiera. Sfrutta i controlli dello schermo mobile, tra cui scorrimento del dito, tocco, trascinamento, pizzico e zoom. Utilizza pulsanti semplici e di grandi dimensioni per designare interazioni e navigazione, ad esempio un grande carrello o un pulsante di riproduzione video. Per la progettazione per il retail mobile, incorpora una visualizzazione di prodotti avanzata ottimizzata per il tipo di dispositivo. Cerca sempre le opportunità per spostare il punto di interesse dell’esperienza di utilizzo su visualizzatori di grandi dimensioni incorporati o zoom e panoramica interattivi a schermo intero, rotazione a 360 gradi e funzionalità video migliorate.
+Le esperienze degli utenti di tablet e smartphone devono concentrarsi sui controlli basati sul tocco come interazione principale del visitatore, anziché sui clic del mouse e sui controlli da tastiera. Sfrutta i controlli dello schermo mobile, tra cui scorrimento del dito, tocco, trascinamento, pizzico e zoom. Utilizza pulsanti semplici e di grandi dimensioni per designare interazioni e navigazione, ad esempio un grande carrello o un pulsante di riproduzione video. Per la progettazione per il retail mobile, incorpora una visualizzazione di prodotti avanzata ottimizzata per il tipo di dispositivo. Cerca sempre possibili opportunità per potenziare l’esperienza utente con grandi visualizzatori incorporati o funzioni di zoom e panning interattivi a schermo intero, rotazione a 360 gradi e funzionalità video ottimizzate.
 
 ## Suggerimento 21: aiuta i visitatori con dispositivi mobili a trovare ciò che desiderano ottimizzando la ricerca sul mobile.
 

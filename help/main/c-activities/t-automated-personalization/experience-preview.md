@@ -2,7 +2,7 @@
 keywords: Anteprima esperienza;URL esperienza;generare URL;visualizzare gli URL esperienza
 description: Scopri come utilizzare gli URL di anteprima dell’esperienza per le attività Automated Personalization di Adobe [!DNL Target] per visualizzare il contenuto dell’esperienza direttamente sul sito prima che l’attività venga pubblicata.
 title: Come posso utilizzare gli URL di anteprima dell’esperienza nelle attività di Automated Personalization?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=it#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."
 feature: Automated Personalization
 exl-id: 9f329b8a-5f86-4cae-a3be-eed24fa0a9cd
 product_v2:
@@ -14,10 +14,10 @@ feature_v2:
 subfeature_v2:
   - id: f0055dd2-93f3-4ac8-9abc-d69d4ed2d977
     internal-label: Automated personalization
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '744'
-ht-degree: 48%
+source-wordcount: '748'
+ht-degree: 41%
 ---
 # Anteprima delle attività Automated Personalization con URL di anteprima dell’esperienza
 
@@ -42,7 +42,7 @@ Utilizza gli URL di anteprima dell’esperienza per condividere le esperienze co
 
    Puoi aggiungere più URL, tale opzione è utile quando esegui un test a più pagine o un test modello e desideri visualizzare in anteprima l&#39;attività su più di una pagina.
 
-   Una finestra modale visualizza i collegamenti alle esperienze sul sito per ottenere una &quot;anteprima fedele&quot; al di fuori del Compositore esperienza visivo [!DNL Target]. Per condividere l’anteprima, è necessario condividere i collegamenti dal messaggio. Non è possibile fare clic su un collegamento e poi copiare l&#39;URL risultante direttamente dalla pagina, perché l&#39;URL contiene un parametro che visualizza la pagina correttamente solo quando si accede alla pagina dal collegamento nel messaggio. Invece, copia il testo nella finestra modale e invialo all&#39;intero team.
+   Una finestra modale visualizza i collegamenti alle esperienze sul sito per ottenere una &quot;anteprima fedele&quot; al di fuori del Compositore esperienza visivo [!DNL Target]. Per condividere l’anteprima, è necessario condividere i collegamenti dal messaggio. Non è possibile fare clic su un collegamento e quindi copiare l&#39;URL risultante dalla pagina, perché l&#39;URL contiene un parametro che visualizza la pagina correttamente solo quando si accede alla pagina dal collegamento nel messaggio. Invece, copia il testo nella finestra modale e invialo all&#39;intero team.
 
 1. Fai clic su **[!UICONTROL Genera tutto]**, quindi su ogni esperienza per visualizzarne l&#39;anteprima.
 
@@ -76,7 +76,7 @@ Utilizza gli URL di anteprima dell’esperienza per condividere le esperienze co
 
 **Visualizzazione di esperienze con URL di anteprima esperienza**
 
-* L’anteprima funziona per qualsiasi attività salvata, purché la pagina non venga modificata.
+* L’anteprima funziona per qualsiasi attività salvata, purché la pagina non sia stata modificata.
 * L’URL di anteprima dell’esperienza è disponibile indipendentemente dal fatto che l’attività sia attiva o inattiva.
 * Impossibile visualizzare in anteprima un&#39;esperienza con stato [!UICONTROL Bozza].
 * La visualizzazione degli URL di anteprima dell’esperienza non influisce sul reporting.

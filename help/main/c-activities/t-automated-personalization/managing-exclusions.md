@@ -2,7 +2,7 @@
 keywords: deduplicare;consentire duplicati;escludere offerte duplicate;personalizzazione automatizzata;non consentire offerte duplicate;escludere;contenuto predefinito;
 description: Gestire le esclusioni nelle attività di [!UICONTROL Automated Personalization] (AP).
 title: Come posso gestire le esclusioni nelle [!UICONTROL attività Automated Personalization]?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=it#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."
 feature: Automated Personalization
 solution: Target,Analytics
 exl-id: d9e9f2a2-5914-4b81-acae-eaf388646652
@@ -25,14 +25,14 @@ topic_v2:
     internal-label: Customer experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '521'
+source-wordcount: '523'
 ht-degree: 23%
 ---
 # Gestire le esclusioni
 
-Assumi il controllo della strategia [!UICONTROL Automated Personalization] (AP) masterizzando le esclusioni. Che tu impedisca le offerte duplicate, perfezioni le combinazioni di esperienze o rimuovi il contenuto predefinito, le esclusioni ti consentono di fornire esperienze più chiare e rilevanti, in linea con i tuoi obiettivi e le aspettative del pubblico.
+Assumi il controllo della strategia [!UICONTROL Automated Personalization] (AP) masterizzando le esclusioni. Che tu stia impedendo le offerte duplicate, perfezionando le combinazioni di esperienze o rimuovendo il contenuto predefinito, le esclusioni ti consentono di fornire esperienze più chiare e pertinenti in linea con i tuoi obiettivi e le aspettative del pubblico.
 
 ## Consentire o non consentire le offerte duplicate {#concept_4EF78013F80E48EFA024AE0274C9F037}
 

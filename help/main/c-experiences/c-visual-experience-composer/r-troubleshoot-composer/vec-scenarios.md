@@ -14,10 +14,10 @@ feature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '532'
-ht-degree: 90%
+source-wordcount: '533'
+ht-degree: 87%
 ---
 # Scenari di modifica delle pagine
 
@@ -95,7 +95,7 @@ Selettore: `#wrap > ul.nav:eq(0) > li.women-section:eq(0)`
 
 **Risultato:**
 
-Il selettore non funziona, perché `ul.nav:eq(0)` fornisce un elemento aggiunto in modo dinamico. L’elemento non sarà disponibile e l’azione non viene applicata. Se dopo aver creato un’attività aggiungi in modo dinamico o manuale un elemento elenco simile con la stessa classe, viene creato un nuovo elemento nella prima posizione. Questo impedisce il corretto funzionamento del selettore.
+Il selettore non funziona, perché `ul.nav:eq(0)` fornisce un elemento aggiunto in modo dinamico. L’elemento non sarà disponibile e l’azione non verrà applicata. Se dopo aver creato un’attività aggiungi in modo dinamico o manuale un elemento elenco simile con la stessa classe, viene creato un nuovo elemento nella prima posizione. Questo impedisce il corretto funzionamento del selettore.
 
 Prima:
 

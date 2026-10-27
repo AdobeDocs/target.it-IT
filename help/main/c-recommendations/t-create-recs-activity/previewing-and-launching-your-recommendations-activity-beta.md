@@ -14,14 +14,14 @@ feature_v2:
 subfeature_v2:
   - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
     internal-label: Recommendations
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '1445'
+source-wordcount: '1448'
 ht-degree: 14%
 ---
 # Anteprima e avvio di un’attività Consigli
 
-Dopo aver creato l&#39;attività [!UICONTROL Consigli], [!UICONTROL Test A/B] o [!UICONTROL Targeting esperienza] (XT) contenente [Offerte Consigli](/help/main/c-recommendations/recommendations-as-an-offer.md), è necessario visualizzare in anteprima i consigli per assicurarsi che siano disponibili i risultati prima di avviare l&#39;attività. [!DNL Target Recommendations] offre diversi modi per visualizzare in anteprima i consigli.
+Dopo aver creato l&#39;attività [!UICONTROL Consigli], [!UICONTROL Test A/B] o [!UICONTROL Targeting esperienza] (XT) contenente [Offerte Consigli](/help/main/c-recommendations/recommendations-as-an-offer.md), sarà necessario visualizzare in anteprima i consigli per assicurarsi che siano disponibili i risultati prima di avviare l&#39;attività. [!DNL Target Recommendations] offre diversi modi per visualizzare in anteprima i consigli.
 
 ## Verifica dello stato dell’algoritmo di Recommendations
 

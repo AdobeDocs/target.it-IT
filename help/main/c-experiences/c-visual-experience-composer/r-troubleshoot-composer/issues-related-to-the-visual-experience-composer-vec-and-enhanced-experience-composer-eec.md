@@ -27,10 +27,10 @@ topic_v2:
     internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '1272'
-ht-degree: 31%
+source-wordcount: '1274'
+ht-degree: 29%
 ---
 # Risoluzione dei problemi relativi a [!DNL Adobe Target] [!UICONTROL Compositore esperienza visivo] e [!UICONTROL Compositore esperienza avanzato]
 
@@ -139,7 +139,7 @@ Se lo stesso ID di elemento DOM è utilizzato in più elementi della pagina, la 
 
 +++
 
-## Non sono in grado di modificare le esperienze per un sito non compatibile con iFrame. (Compositore esperienza visivo e Compositore esperienza avanzato) {#section_9FE266B964314F2EB75604B4D7047200}
+## Non è possibile modificare le esperienze per un sito non compatibile con iFrame. (Compositore esperienza visivo e Compositore esperienza avanzato) {#section_9FE266B964314F2EB75604B4D7047200}
 
 +++Dettagli
 Questo problema può essere risolto abilitando [!UICONTROL Compositore esperienza avanzato] (EEC). Fai clic su **[!UICONTROL Amministrazione]** > **[!UICONTROL Compositore esperienza visivo]**, quindi seleziona la casella di controllo che abilita il [!UICONTROL Compositore esperienza avanzato]. Il Compositore esperienza avanzato utilizza un proxy gestito da [!DNL Adobe] per caricare la pagina per la modifica. Questo proxy consente la modifica su siti non compatibili con iFrame e la modifica su siti e pagine in cui non è stato ancora aggiunto il codice [!DNL Adobe Target]. Le attività non vengono fornite al sito fino all&#39;aggiunta del codice. Alcuni siti potrebbero non essere caricati tramite il Compositore esperienza avanzato. In questo caso, deseleziona questa opzione per caricare il Compositore esperienza avanzato tramite un iFrame.
@@ -153,7 +153,7 @@ Questo problema può essere risolto abilitando [!UICONTROL Compositore esperienz
 ## Desidero impostare i test sulle pagine per le quali non è stata ancora completata l&#39;implementazione di mbox/[!DNL Target]. (Compositore esperienza visivo e Compositore esperienza avanzato) {#section_DE63BCCB5B124E10A71FA579B582A80A}
 
 +++Dettagli
-Vedi “Non sono in grado di modificare le esperienze per un sito non compatibile con iFrame” più sopra.
+Consulta &quot;Non è possibile modificare le esperienze per un sito iFrame-bursting&quot; qui sopra.
 
 +++
 

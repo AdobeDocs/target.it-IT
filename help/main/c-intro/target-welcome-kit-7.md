@@ -25,9 +25,9 @@ topic_v2:
     internal-label: Insights
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
     internal-label: Machine learning
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '1743'
+source-wordcount: '1754'
 ht-degree: 69%
 ---
 # Capitolo 7: Creare ed eseguire la prima attività [!DNL Target]
@@ -96,7 +96,7 @@ In un test A/B con un’esperienza di controllo e una variante, ad esempio, puoi
 
 ### Quali sono le metriche primarie per misurare l’impatto dell’attività?
 
-Descrivi le metriche aziendali da utilizzare come indicatore del successo dell’attività. Ad esempio, maggiori ricavi per visitatore (RPV), tasso di conversione o valore medio dell’ordine (AOV). Più puoi legare l&#39;impatto al bottom-line aziendale, meglio è, quindi se puoi legare l&#39;impatto ai ricavi, è ideale.
+Descrivi le metriche aziendali da utilizzare come indicatore del successo dell’attività. Ad esempio, maggiori ricavi per visitatore (RPV), tasso di conversione o valore medio dell’ordine (AOV). Più puoi legare l’impatto al bottom-line aziendale, meglio è, quindi se puoi legare l’impatto ai ricavi, è ideale.
 
 ### Quali sono le metriche secondarie per misurare l’impatto dell’attività?
 
@@ -126,4 +126,4 @@ I risultati dell’attività forniscono spesso informazioni approfondite sulle a
 
 ## Aprire [!DNL Target] quindi creare e avviare l’attività
 
-Hai compilato il tuo Activity Planner. Ora è il momento di entrare nella soluzione e creare la tua attività. [!DNL Target] semplifica notevolmente la modifica della pagina Web nel [!UICONTROL Compositore esperienza visivo].
+Hai compilato la Activity Planner. Ora è il momento di entrare nella soluzione e creare la tua attività. [!DNL Target] semplifica notevolmente la modifica della pagina Web nel [!UICONTROL Compositore esperienza visivo].

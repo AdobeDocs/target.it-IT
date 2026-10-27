@@ -25,14 +25,14 @@ topic_v2:
     internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '1073'
-ht-degree: 100%
+source-wordcount: '1077'
+ht-degree: 91%
 ---
 # Capitolo 5: ispirazione per attività di test e personalizzazione.
 
-Puoi provare o utilizzare come ispirazione per le tue attività queste idee di test e personalizzazione, ispirate da attività reali gestite da nostri clienti che hanno aumentato i tassi di conversione e i ricavi [!DNL Target]. Anche se la proposta non è adatta alla tua organizzazione, con un po’ di creatività e brainstorming, puoi sviluppare un’attività basata sull’essenza del test o dell’idea di personalizzazione.
+Puoi provare o utilizzare come ispirazione per le tue attività queste idee di test e personalizzazione, ispirate da attività reali gestite da nostri clienti che hanno aumentato i tassi di conversione e i ricavi [!DNL Target]. Anche se l’idea non è adatta alla tua organizzazione, con un po’ di creatività e brainstorming, puoi sviluppare un’attività basata sullo spirito del test o dell’idea di personalizzazione.
 
 ## Idea 1: Testare la personalizzazione del percorso del cliente.
 
@@ -60,7 +60,7 @@ Prova a fornire informazioni contestuali aggiuntive direttamente sulle miniature
 
 ## Idea 5: Ridurre il numero di contatti necessari per la conversione.
 
-Comprendi gli obiettivi aziendali e i KPI a cui stai cercando di dare impulso con i tuoi sforzi sul mobile. Poi progetta l’esperienza mobile che offra ai clienti il percorso di minor resistenza al raggiungimento di tali obiettivi. La conversione dovrebbe avvenire entro tre punti, ma puoi cercare di ridurla a due punti, se possibile.
+Comprendi gli obiettivi aziendali e i KPI a cui stai cercando di dare impulso con le tue attività mobili. Poi progetta l’esperienza mobile che offra ai clienti il percorso di minor resistenza al raggiungimento di tali obiettivi. La conversione dovrebbe avvenire entro tre punti, ma puoi cercare di ridurla a due punti, se possibile.
 
 ## Idea 6: Non portare i visitatori a un vicolo cieco.
 

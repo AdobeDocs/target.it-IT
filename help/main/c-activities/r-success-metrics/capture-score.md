@@ -17,9 +17,9 @@ subfeature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '778'
+source-wordcount: '779'
 ht-degree: 44%
 ---
 # Punteggio di acquisizione
@@ -68,6 +68,6 @@ Si consiglia di assegnare valori nella richiesta [!DNL Target]. Ciò ti consente
 
 È possibile combinare i due metodi, ma questo potrebbe causare un punteggio più alto del previsto. Ad esempio, se assegni un valore di 10 a ciascuna delle tre richieste [!DNL Target] e nessun punteggio a una quarta richiesta, passando quindi il parametro URL `?mboxPageValue=5`, il tuo punteggio di pagina sarà 50, di cui 30 per le tre richieste con valori assegnati e 5 per ciascuna delle quattro richieste sulla pagina.
 
-Il contatore inizia con la prima richiesta di visualizzazione, non con la richiesta di immissione. Ad esempio, se si immette l&#39;attività nella home page che non dispone di una richiesta di visualizzazione e quindi si collega alla pagina del catalogo contenente una richiesta di visualizzazione, il contatore inizia quando si passa alla pagina del catalogo.
+Il contatore inizia con la prima richiesta di visualizzazione, non con la richiesta di immissione. Ad esempio, se si immette l&#39;attività nella home page che non dispone di una richiesta di visualizzazione e quindi si collega la pagina del catalogo contenente una richiesta di visualizzazione, il contatore inizia quando si passa alla pagina del catalogo.
 
 Inoltre puoi passare in valori negativi su alcune pagine che costano o non è opportuno che un visitatore le veda. Anche i valori negativi influiscono sul punteggio complessivo. Questa tecnica può essere utilizzata su una pagina che i visitatori raggiungono da un annuncio, in modo da sapere quanto è stato il CPC. Oppure, per esempio, può essere utilizzata per una pagina di supporto o di contatto, dalla quale sai che i visitatori potrebbero chiamare o richiedere assistenza.

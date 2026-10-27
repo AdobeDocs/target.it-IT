@@ -18,10 +18,10 @@ topic_v2:
     internal-label: Troubleshooting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
     internal-label: Security
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '566'
-ht-degree: 84%
+source-wordcount: '569'
+ht-degree: 73%
 ---
 # Consentire contenuti misti nel browser
 
@@ -47,7 +47,7 @@ Per ulteriori informazioni, consulta la pagina sui [contenuti misti](https://dev
 
 ## Consentire contenuti misti in [!DNL Google Chrome] {#task_FF297A08F66E47A588C14FD67C037B3A}
 
-Se stai visitando un sito tramite una connessione sicura, [!DNL Chrome] verifica che i contenuti della pagina web siano trasmessi in modo sicuro.
+Se si visita un sito tramite una connessione protetta, [!DNL Chrome] verifica che i contenuti della pagina Web siano trasmessi in modo sicuro.
 
 Consulta “[Gestire avvisi sui siti non sicuri](https://support.google.com/chrome/answer/99020?hl=it)” nella guida di Google Chrome.
 
@@ -86,7 +86,7 @@ Per impostazione predefinita, [!DNL Firebox] blocca le pagine che contengono un 
 
 ## Consentire contenuti misti in [!DNL Microsoft Edge]
 
-Se stai visitando un sito tramite una connessione sicura, [!DNL Edge] verifica che i contenuti della pagina web siano trasmessi in modo sicuro.
+Se si visita un sito tramite una connessione protetta, [!DNL Edge] verifica che i contenuti della pagina Web siano trasmessi in modo sicuro.
 
 Se utilizzi il Compositore esperienza visivo con la versione più recente di [!DNL Edge], devi aggiornare le impostazioni del sito. I visitatori del sito non devono completare questi passaggi.
 

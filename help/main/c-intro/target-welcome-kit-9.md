@@ -29,14 +29,14 @@ topic_v2:
     internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '701'
-ht-degree: 79%
+source-wordcount: '708'
+ht-degree: 77%
 ---
 # Capitolo 9: passaggi successivi e risorse
 
-Abbiamo trattato le nozioni di base sull’esecuzione della tua prima attività. Ci auguriamo che l’attività abbia mostrato a te e alla tua azienda l’incredibile potenziale di influenza sui profitti aziendali dell’utilizzo di [!DNL Adobe Target] per ottimizzare e personalizzare. Questo è solo un inizio. È ora di pensare a cosa concentrarti per la seconda attività? Prendi in considerazione la creazione di un elenco con priorità delle attività da eseguire. Sarai sorpreso di quanto rapidamente, attività dopo attività, riesci a migliorare l’esperienza del cliente e promuovere il successo aziendale.
+Abbiamo trattato le nozioni di base sull’esecuzione della tua prima attività. Ci auguriamo che l’attività abbia mostrato a te e alla tua azienda l’incredibile potenziale di influenza sui profitti aziendali dell’utilizzo di [!DNL Adobe Target] per ottimizzare e personalizzare. Questo è solo un inizio. È ora di pensare a cosa ti concentrerai per la seconda attività? Prendi in considerazione la creazione di un elenco con priorità delle attività da eseguire. Sarai sorpreso di quanto rapidamente, attività dopo attività, riesci a migliorare l’esperienza del cliente e promuovere il successo aziendale.
 
 In ogni caso, ci sono svariati modi per saperne di più su test, personalizzazione e utilizzo di [!DNL Target]. Rivedi l’elenco delle risorse riportato di seguito e inizia ad approfondire le tue conoscenze. Ascolta i nostri webinar, leggi il blog di Adobe Target, partecipa ad Adobe Summit e partecipa attivamente nella community online di Adobe Target. Non dimenticare che siamo sempre qui per aiutarti a lanciare il tuo programma e a indirizzarlo sulla strada giusta per garantirne il successo. Contattaci in qualsiasi momento.
 
@@ -65,6 +65,6 @@ Abbiamo compilato un elenco organizzato di informazioni importanti per consentir
 
 * **Home page di Adobe Target**: la home page di [!DNL Adobe Target], dove puoi scoprire le funzionalità e conoscere le ultime storie di successo. Visita [Adobe Target](https://www.adobe.com/it/marketing/target.html).
 * **Blog**: resta aggiornato sulle ultime notizie, i suggerimenti e le storie di successo seguendo il [blog di Target](https://blog.adobe.com/en/topics/target).
-* **Experience League**: scopri le guide, gli eventi e i corsi di formazione necessari per avviare attività incentrate sulle esperienze, entrare in contatto con la community di Target e trovare le risposte che cerchi. Consulta la [home page di Adobe Experience League](https://experienceleague.adobe.com/it?lang=it#home).
+* **Experience League**: scopri le guide, gli eventi e i corsi di formazione necessari per avviare attività incentrate sulle esperienze, entrare in contatto con la community di Target e trovare le risposte che cerchi. Consulta la [home page di Adobe Experience League](https://experienceleague.adobe.com/?lang=it#home).
 * **Certificazione Adobe Target**: ottieni lo stato di Adobe Certified Expert con i nuovi esami Adobe Target. Qui puoi pianificare un esame o corsi di formazione. Consulta [Formazione e certificazione](/help/main/c-intro/training-and-certification.md).
 * **Note sulla versione di Adobe Target**: informazioni su funzioni, miglioramenti e correzioni per ogni versione di [!DNL Target Standard] e [!DNL Target Premium]. Sono inoltre incluse, ove applicabili, le note sulla versione per API di Target, SDK, libreria JavaScript (at.js) e altre modifiche alla piattaforma. Consulta [Note sulla versione di Target (corrente)](/help/main/r-release-notes/release-notes.md).

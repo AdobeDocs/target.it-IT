@@ -23,10 +23,10 @@ topic_v2:
     internal-label: Troubleshooting
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '389'
-ht-degree: 79%
+source-wordcount: '390'
+ht-degree: 70%
 ---
 # Esperienze e offerte
 
@@ -41,5 +41,5 @@ Target fornisce i seguenti compositori esperienza:
 | Tipo | Dettagli |
 | --- | --- |
 | [Compositore esperienza visivo (VEC)](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md#concept_CF63320EB8924B2F9BDA3C72256DCE50) | Il Compositore esperienza visivo è una delle funzionalità principali di Adobe Target. Il Compositore esperienza visivo è un editor che consente agli addetti al marketing e ai designer di creare e modificare i contenuti mediante un’interfaccia visiva, che permette di operare molte scelte di progettazione senza dover intervenire direttamente sul codice. Il compositore offre anche opzioni per modificare il codice HTML e JavaScript. |
-| [Compositore esperienza basato su moduli](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) | Il compositore esperienza basato su moduli permette di creare esperienze in modo non visivo. Questa funzione consente a Target Standard di consegnare attività di test A/B, targeting delle esperienze, personalizzazione automatizzata e consigli in e-mail, kiosk e altre destinazioni che non consentono l’utilizzo del Compositore esperienza visivo. |
+| [Compositore esperienza basato su moduli](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) | Il compositore esperienza basato su moduli permette di creare esperienze in modo non visivo. Questa funzione consente di consegnare le attività di test A/B, Targeting esperienza, Automated Personalization e Consigli di Target Standard tramite e-mail, chioschi e altre risorse che non sono compatibili con il Compositore esperienza visivo. |
 | [Compositore esperienza visivo per applicazione a pagina singola](/help/main/c-experiences/spa-visual-experience-composer.md) | Il Compositore esperienza visivo per le applicazioni a pagina singola consente agli addetti al marketing di creare test e di personalizzare contenuti nelle SPA in modalità fai-da-te senza dover dipendere sempre dagli sviluppatori. Il Compositore esperienza visivo può essere utile per creare test A/B e attività di Targeting delle esperienze (XT) sui framework più diffusi, come React e Angular. |

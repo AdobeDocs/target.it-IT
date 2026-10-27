@@ -2,7 +2,7 @@
 keywords: Recommendations;consigli;criteri Recommendations;criteri consigli;algoritmi Recommendations;algoritmi consigli:attività;criteri;recommendations targeting;targeting consigli
 description: Scopri le attività Consigli in Adobe [!DNL Target] che consentono di visualizzare automaticamente contenuti che potrebbero interessare ai clienti in base alle loro attività precedenti o ad altri algoritmi.
 title: Cos'è [!DNL Target] Recommendations?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=it#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."
 feature: Recommendations
 exl-id: 0d986e17-bc99-4c08-a963-7f9a6619609a
 TQID: 'https://experienceleague.adobe.com/gR3x6ABhdZNZ4lKvBHpJ-edRj7ZdCKBklMITXaLUhTA'
@@ -26,10 +26,10 @@ topic_v2:
     internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '869'
-ht-degree: 91%
+source-wordcount: '872'
+ht-degree: 88%
 ---
 # Consigli
 
@@ -66,7 +66,7 @@ Per ulteriori informazioni su questi e altri criteri di [!DNL Recommendations], 
 
 ## Termini
 
-Prima di iniziare a utilizzare [!DNL Recommendations] (Consigli), è utile acquisire familiarità con alcuni termini utilizzati in questa sezione. Non preoccuparti se ancora non comprendi perfettamente questi termini, acquisirai maggiore familiarità durante la configurazione delle attività [!DNL Recommendations] (Consigli).
+Prima di iniziare a utilizzare [!DNL Recommendations] (Consigli), è utile acquisire familiarità con alcuni termini utilizzati in questa sezione. Non preoccuparti se ancora non comprendi perfettamente questi termini, acquisirai maggiore familiarità durante la configurazione delle attività di [!DNL Recommendations].
 
 | Termine | Definizione |
 | --- | --- |
@@ -89,7 +89,7 @@ Questo video spiega i tipi di attività disponibili in [!DNL Target Standard/Pre
 * Selezionare il tipo di attività appropriato per i tuoi obiettivi
 * Descrizione del flusso di lavoro guidato in tre passaggi da applicare a tutti i tipi di attività
 
->[!VIDEO](https://video.tv.adobe.com/v/36365?captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/17386)
 
 <!--
 ## Adobe Target Basics Webinar: Introduction to Recommendations ![Tutorial badge](/help/main/assets/tutorial.png) {#intro-to-recs}

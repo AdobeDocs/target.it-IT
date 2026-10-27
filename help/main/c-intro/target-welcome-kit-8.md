@@ -19,17 +19,17 @@ topic_v2:
     internal-label: Customer experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '218'
-ht-degree: 87%
+source-wordcount: '221'
+ht-degree: 61%
 ---
 # Capitolo 8: comunicazione dei risultati dell’attività
 
 Se esegui un’attività e ottieni risultati straordinari, devi condividere tali risultati con l’organizzazione. Forse hai appena acquisito nuovi clienti, aumentato i ricavi, risparmiato riducendo le chiamate al call center o aumentato il valore medio dell’ordine. Mostra agli interessati cosa puoi fare per l’azienda grazie all’ottimizzazione e alla personalizzazione con [!DNL Target].
 
-La comunicazione dei risultati è efficace se la affronti come il racconto di una storia. Rendi interessante il resoconto e spiega chiaramente cosa è stato testato o personalizzato e perché, e quali sono stati i risultati. Utilizza lingua e terminologia facili da comprendere per coloro che stanno esaminando i risultati.
+Quando si comunicano questi risultati, è utile affrontarli come si sta raccontando una storia. Rendi interessante il resoconto e spiega chiaramente cosa è stato testato o personalizzato e perché, e quali sono stati i risultati. Utilizza lingua e terminologia facili da comprendere per coloro che stanno esaminando i risultati.
 
-Abbiamo incluso un Microsoft PowerPoint con il [modello dei risultati del riepilogo esecutivo](/help/main/assets/executive-summary.zip). Puoi personalizzarlo con la combinazione di colori e il logo della tua azienda e utilizzarlo per presentare i risultati della prima attività di test o personalizzazione. Lo trovi nel kit di benvenuto come file autonomo, insieme ad Activity Planner, ma abbiamo anche aggiunto qui un’immagine del file, insieme a un esempio del tipo di informazioni da includere in ogni area del modello.
+Abbiamo incluso un Microsoft PowerPoint con il [modello dei risultati del riepilogo esecutivo](/help/main/assets/executive-summary.zip). Puoi personalizzarlo con la combinazione di colori e il logo della tua azienda e utilizzarlo per presentare i risultati della prima attività di test o personalizzazione. Come Activity Planner, è incluso nel kit di benvenuto come file autonomo, ma abbiamo anche aggiunto qui un’immagine del file, insieme a un esempio del tipo di informazioni da includere in ogni area del modello.
 
 ![Rapporto di sintesi esecutiva](/help/main/c-intro/assets/executive-summary-report.png)

@@ -18,10 +18,10 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '643'
-ht-degree: 14%
+source-wordcount: '646'
+ht-degree: 13%
 ---
 # Impostazioni delle attività - Domande frequenti su A4T
 
@@ -44,7 +44,7 @@ Anche se questo è supportato quando si utilizza [!DNL Target] come origine per 
 
 +++
 
-## Perché non posso accedere alle impostazioni avanzate durante la configurazione delle metriche obiettivo?
+## Perché non posso accedere alle impostazioni avanzate durante la configurazione delle metriche dell’obiettivo?
 
 +++Risposta
 Per le attività che utilizzano [!DNL Analytics] come origine per la generazione di rapporti (A4T), la metrica di obiettivo utilizza le impostazioni &quot;[!UICONTROL Incrementa il conteggio e mantieni l&#39;utente nell&#39;attività]&quot; e &quot;[!UICONTROL Su ogni impression]&quot;. Queste impostazioni sono *non* configurabili.
@@ -61,7 +61,7 @@ Quando viene creata un&#39;attività, [!DNL Target] invia un file di classificaz
 
 +++
 
-## Perché non è possibile selezionare Analytics come origine per la generazione di rapporti quando si crea un&#39;attività? {#section_9F4F69C3085F4C2480AF439127EB27CD}
+## Perché non è possibile selezionare Analytics come origine per la generazione di rapporti quando si crea un’attività? {#section_9F4F69C3085F4C2480AF439127EB27CD}
 
 +++Risposta
 È possibile modificare le [!UICONTROL Impostazioni report] opzioni in [!UICONTROL Amministrazione].

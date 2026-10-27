@@ -23,10 +23,10 @@ topic_v2:
     internal-label: Customer experience
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '3185'
-ht-degree: 47%
+source-wordcount: '3188'
+ht-degree: 45%
 ---
 # Per quanto tempo si deve eseguire un test A/B?
 
@@ -44,7 +44,7 @@ Si è tentati di interrompere un’attività se nei primi giorni di attività un
 
 Un&#39;attività [Allocazione automatica](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) è un tipo di test A/B che identifica un vincitore tra due o più esperienze. Un test di [!UICONTROL Allocazione automatica] ridistribuisce automaticamente più traffico per aumentare le conversioni, mentre il test continua a essere eseguito e ad apprendere.
 
-I test A/B standard hanno un costo intrinseco. Devi investire del traffico per misurare le prestazioni di ogni esperienza e capire quale sia l’esperienza vincente attraverso l’analisi. La distribuzione del traffico rimane fissa anche dopo aver compreso che alcune esperienze hanno prestazioni migliori di altre. Inoltre, è complicato calcolare la dimensione necessaria del campione, e l’attività deve essere eseguita completamente prima di poter intervenire in base al vincitore. E c&#39;è ancora una possibilità che il vincitore identificato non sia un vero vincitore.
+I test A/B standard hanno un costo intrinseco. Devi investire del traffico per misurare le prestazioni di ogni esperienza e capire quale sia l’esperienza vincente attraverso l’analisi. La distribuzione del traffico rimane fissa anche dopo aver compreso che alcune esperienze hanno prestazioni migliori di altre. Inoltre, è complicato calcolare la dimensione del campione, e l’attività deve eseguire l’intero corso prima di poter agire su un vincitore. E c&#39;è ancora una possibilità che il vincitore identificato non sia un vero vincitore.
 
 La soluzione è [!UICONTROL Allocazione automatica]. [!UICONTROL Allocazione automatica] riduce il costo e il sovraccarico associati alla determinazione di un&#39;esperienza vincente. [!UICONTROL Allocazione automatica] monitora le prestazioni della metrica obiettivo di tutte le esperienze e invia in modo proporzionale un numero maggiore di nuovi partecipanti alle esperienze con prestazioni migliori. Per l’esplorazione delle altre esperienze viene riservata una quantità adeguata di traffico. Puoi vedere i vantaggi dell’attività sui tuoi risultati, anche mentre l’attività è ancora in esecuzione: l’ottimizzazione si verifica in parallelo con l’apprendimento.
 
@@ -148,7 +148,7 @@ Può essere difficile trovare il giusto equilibrio tra costi di opportunità del
 
 Come regola generale, sono consigliati un livello di affidabilità del 95% e una potenza statistica dell’80%.
 
-Nel Calcolatore dimensione campione (disponibile dal collegamento fornito in precedenza) dovrai decidere l’importanza statistica (valore consigliato: 95%) e la potenza statistica (valore consigliato: 80%). Dopo che avrai inserito il tasso di conversione linea di base e il traffico giornaliero per tutte le offerte, il foglio di calcolo fornisce il numero di visitatori necessari per rilevare un incremento pari a 1%, 2%, 5%, 10%, 15% e 20% con una probabilità pari alla potenza specificata del test. Il foglio di calcolo consente inoltre all’utente di inserire un incremento rilevabile con affidabilità minima personalizzato. Inoltre, il foglio indica il numero di settimane richieste per il test in base al livello di traffico immesso. Il numero di settimane richiesto viene arrotondato alla settimana intera più vicina per evitare effetti del giorno della settimana che influenzino i risultati.
+Nel Calcolatore dimensione campione (disponibile dal collegamento fornito in precedenza) dovrai decidere l’importanza statistica (valore consigliato: 95%) e la potenza statistica (valore consigliato: 80%). Dopo che avrai inserito il tasso di conversione linea di base e il traffico giornaliero per tutte le offerte, il foglio di calcolo fornisce il numero di visitatori necessari per rilevare un incremento pari a 1%, 2%, 5%, 10%, 15% e 20% con una probabilità pari alla potenza specificata del test. Il foglio di calcolo consente inoltre all’utente di inserire un incremento rilevabile con affidabilità minima personalizzato. Inoltre, il foglio indica il numero di settimane richieste per il test in base al livello di traffico immesso dall’utente. Il numero di settimane richiesto viene arrotondato alla settimana intera più vicina per evitare effetti del giorno della settimana che influenzino i risultati.
 
 Esiste un compromesso tra l’incremento minimo che può essere identificato in modo affidabile dal test e il numero richiesto di visitatori. L’immagine qui sotto, che è valida per un tasso di conversione linea di base (il controllo) del 5%, mostra ricavi marcatamente decrescenti all’aumentare del numero di visitatori. L’incremento minimo che può essere rilevato in modo affidabile migliora enormemente quando si aggiungono i primi visitatori al test, ma richiede un numero sempre maggiore di visitatori per migliorare il test. L’immagine aiuta a trovare un compromesso adeguato tra il tempo necessario per eseguire il test (determinato dal numero di visitatori richiesti e dal traffico del sito) e l’incremento minimo rilevabile in modo affidabile.
 
@@ -162,7 +162,7 @@ In questo esempio, potresti decidere che la capacità di rilevare un incremento 
 
 Quando si utilizza Ricavo per visita (RPV) come metrica, viene aggiunta un&#39;ulteriore fonte di varianza perché RPV è il prodotto dei ricavi per ordine e tasso di conversione (RPV = Ricavo / #visitors = (Ricavo per ordine &#42; #orders) / # visitatori = Ricavo per ordine &#42; (#visitors &#42; CTR) / #visitors = Ricavo per ordine &#42; CTR), ciascuno con la propria varianza. La varianza del tasso di conversione può essere stimata direttamente utilizzando un modello matematico, ma la varianza dei ricavi per ordine è specifica per l’attività. Pertanto, utilizza la conoscenza di questa varianza dalle attività passate o esegui il test A/B per alcuni giorni per stimare la varianza nei ricavi. La varianza è calcolata in base ai valori di Somma delle vendite, Somma delle vendite al quadrato e Numero di visitatori che si trovano nel file CSV scaricabile. Una volta stabilito questo valore, utilizzare il foglio di calcolo per calcolare il tempo necessario per completare il test.
 
-Con il Calcolatore dimensione campione (disponibile dal collegamento fornito in precedenza) puoi configurare più facilmente la metrica RPV. Quando apri il calcolatore, viene visualizzata una scheda con l&#39;etichetta [!UICONTROL Metrica RPV]. Per usare la versione RPV del calcolatore, ti serviranno le seguenti informazioni:
+Con il Calcolatore dimensione campione (disponibile dal collegamento fornito in precedenza) puoi configurare più facilmente la metrica RPV. Quando apri il calcolatore, viene visualizzata una scheda con l&#39;etichetta [!UICONTROL Metrica RPV]. Quando si utilizza la versione RPV del calcolatore, sono necessarie le seguenti informazioni:
 
 * Numero di visitatori dell’offerta di controllo
 * Ricavi totali dell’offerta di controllo

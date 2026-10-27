@@ -2,7 +2,7 @@
 keywords: regole di inclusione;criteri di inclusione;consigli;promozione;promozioni;filtro dinamico;dinamico;corrispondenza attributo profilo
 description: Scopri come filtrare dinamicamente in [!DNL Target Recommendations] confrontando gli elementi (entità) con un valore nel profilo dell'utente.
 title: Come posso filtrare per corrispondenza degli attributi di profilo nelle attività Consigli?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=it#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."
 feature: Recommendations
 exl-id: d4b837af-771b-41b4-982b-f9f08e4753f2
 TQID: 'https://experienceleague.adobe.com/Gm91Mww5ylvNjUcmzp6KwxIG6LTibvI44LnW67KFzqk'
@@ -18,9 +18,9 @@ subfeature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '496'
+source-wordcount: '497'
 ht-degree: 0%
 ---
 # Corrispondenza attributo profilo
@@ -55,7 +55,7 @@ brand - equals - the value/text stored in - profile.favoritebrand
 
 ### Corrispondenza tra processi e persone in cerca di lavoro
 
-Supponiamo che tu stia cercando di mettere in pari i lavori con le persone in cerca di lavoro. Vuoi consigliare solo i lavori che si trovano nella stessa città della persona in cerca di lavoro.
+Supponiamo che tu stia cercando di far corrispondere i lavori con quelli di chi è in cerca di lavoro. Vuoi consigliare solo i lavori che si trovano nella stessa città della persona in cerca di lavoro.
 
 Puoi utilizzare le regole di inclusione per far corrispondere la posizione di una persona in cerca di lavoro dal profilo del visitatore a un’inserzione di lavoro, come nell’esempio seguente:
 

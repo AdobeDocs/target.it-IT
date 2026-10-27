@@ -29,10 +29,10 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
 source-wordcount: '1689'
-ht-degree: 85%
+ht-degree: 84%
 ---
 # Risolvere i problemi relativi alla distribuzione dei contenuti
 
@@ -138,7 +138,7 @@ Per informazioni più dettagliate, consulta [Eseguire il debug di at.js utilizza
 
 ## Gli articoli più venduti non compaiono nei consigli {#section_3920C857270A406C80BE6CBAC8221ECD}
 
-La chiamata *`SiteCatalyst: purchase`* non può essere utilizzata per i dati del traffico dell’algoritmo di acquisto. Utilizza al suo posto la chiamata *`orderConfirmPage`*.
+Impossibile utilizzare la chiamata *`SiteCatalyst: purchase`* per i dati del traffico algoritmo di acquisto. Utilizza al suo posto la chiamata *`orderConfirmPage`*.
 
 ## Controllare la priorità dell’attività {#section_3D0DD07240F0465BAF655D0804100AED}
 
@@ -229,12 +229,12 @@ I video seguenti contengono ulteriori informazioni sui concetti descritti in que
 
 ### Aggiungi estensione ![Icona esercitazione](/help/main/assets/tutorial.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/326674?captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/23114t2/)
 
 ### Debug di base per Adobe Target ![Icona tutorial](/help/main/assets/tutorial.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/326675?captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/23115t2/)
 
 ### Mbox Trace ![Icona Tutorial](/help/main/assets/tutorial.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/326676?captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/23113t2/)

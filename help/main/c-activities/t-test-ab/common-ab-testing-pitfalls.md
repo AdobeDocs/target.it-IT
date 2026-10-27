@@ -21,10 +21,10 @@ topic_v2:
     internal-label: Optimization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '3984'
-ht-degree: 99%
+source-wordcount: '4003'
+ht-degree: 87%
 ---
 # Dieci insidie frequenti per i test A/B e come evitarle
 
@@ -34,7 +34,7 @@ Il test A/B in [!DNL Adobe Target] costituisce la spina dorsale della maggior pa
 
 Quanto è probabile che il test riporti una differenza significativa nel tasso di conversione tra due offerte, quando in realtà non c&#39;è? Questo è ciò che il *livello di significatività* di un test aiuta a determinare. Tali risultati fuorvianti sono chiamati spesso “falso positivo” e, nel mondo delle statistiche, rappresentano un errore di Tipo I (se si rifiuta erroneamente l’ipotesi null che è effettivamente vera).
 
-Quando si specifica il livello di significatività di un test A/B, si sta effettuando un compromesso tra la tolleranza di accettare che un&#39;esperienza sia migliore rispetto alle altre quando in realtà non lo è (errore di Tipo I o “falso positivo”) e non vedere differenza statistica tra le esperienze quando in realtà c&#39;è (errore di Tipo II o “falso negativo”). Il *livello di affidabilità* viene determinato prima dell&#39;esecuzione di un test.
+Quando si specifica il livello di significatività di un test A/B, si sta effettuando un compromesso tra la tolleranza di accettare che un’esperienza sia migliore dell’altra quando in realtà non lo è (errore di Tipo I o &quot;falso positivo&quot;) e non vedere differenza statistica tra le esperienze quando in realtà c’è (errore di Tipo II o &quot;falso negativo&quot;). Il *livello di affidabilità* viene determinato prima dell&#39;esecuzione di un test.
 
 L’*intervallo di affidabilità*, che viene determinato dopo il completamento di un test, è influenzato da tre fattori chiave:
 
@@ -42,7 +42,7 @@ L’*intervallo di affidabilità*, che viene determinato dopo il completamento d
 * Livello di significatività
 * Deviazione standard della popolazione
 
-Poiché l&#39;addetto al marketing ha selezionato il livello di importanza prima della progettazione del test e la deviazione standard della popolazione non può essere influenzata, l&#39;unico fattore “controllabile” è la dimensione del campione. In fase di progettazione del test è quindi importante determinare la dimensione del campione necessaria per un intervallo di affidabilità accettabile e quanto tempo occorre per raggiungere tale dimensione del campione.
+Poiché l’addetto al marketing ha selezionato il livello di significatività prima della progettazione del test e la deviazione standard della popolazione non può essere influenzata, l’unico fattore &quot;controllabile&quot; è la dimensione del campione. In fase di progettazione del test è quindi importante determinare la dimensione del campione necessaria per un intervallo di affidabilità accettabile e quanto tempo occorre per raggiungere tale dimensione del campione.
 
 Un altro termine direttamente correlato, il *livello di affidabilità*, adotta invece un approccio di tipo “bicchiere mezzo pieno”. Piuttosto che indicare la probabilità di ottenere un falso positivo, come per il livello di significatività, il livello di affidabilità rappresenta la probabilità che il test non faccia tale errore.
 
@@ -50,7 +50,7 @@ Livello di affidabilità e livello di significatività sono direttamente correla
 
 100% - livello di affidabilità = livello di significatività
 
-Nel test A/B, gli addetti al marketing utilizzano spesso livelli di affidabilità del 95%. Chiaramente, sulla base dell&#39;equazione di cui sopra, che corrisponde ad un livello di significatività del 5%. Sottoporre a test con un livello di affidabilità del 95% significa avere una probabilità del 5% di rilevare un incremento statisticamente significativo, anche quando in realtà non c&#39;è differenza tra le offerte.
+Nel test A/B, gli addetti al marketing utilizzano spesso livelli di affidabilità del 95%. Chiaramente, sulla base dell&#39;equazione di cui sopra, che corrisponde ad un livello di significatività del 5%. Testare con un livello di affidabilità del 95% significa avere una probabilità del 5% di rilevare un incremento statisticamente significativo, anche quando in realtà non c’è alcuna differenza tra le offerte.
 
 Come illustrato nel grafico riportato di seguito, la probabilità che almeno un test si traduca in falso positivo aumenta proporzionalmente con l’esecuzione di più test. Ad esempio, se si eseguono 10 test utilizzando un livello di affidabilità pari al 95%, la probabilità di rilevare uno o più falsi positivi è all’incirca pari al 40% (dato che non esiste un vero e proprio incremento: Pr(almeno un falso positivo) = 1 - Pr(nessun falso positivo) = 1 - 0,95^10 = 40%).
 
@@ -66,11 +66,11 @@ Tuttavia, due situazioni richiedono di prestare particolare attenzione al livell
 
   L’esecuzione di più test crea una maggiore probabilità che si verifichi almeno un falso positivo tra i test. In sostanza, ogni segmento post-test rappresenta un test separato, che aumenta la probabilità di un falso positivo. Questo aumento può essere ancora più significativo se i segmenti sono correlati.
 
-  Non sarebbe meglio non fare la segmentazione post-test? No, i segmenti post-test sono preziosi. Al contrario, per evitare questo problema cumulativo di falso positivo con la segmentazione di post-test, dopo aver identificato un segmento di post-test, è consigliabile sottoporlo ad un nuovo test. In alternativa, è possibile applicare la correzione Bonferroni, discussa di seguito.
+  Non sarebbe meglio non fare la segmentazione post-test? No, i segmenti post-test sono preziosi. Al contrario, per evitare questo problema cumulativo di falso positivo con la segmentazione post-test, dopo aver identificato un segmento post-test, è consigliabile testarlo in un nuovo test. In alternativa, è possibile applicare la correzione Bonferroni, discussa di seguito.
 
-* **Test di offerte multiple:** gli addetti al marketing spesso sottopongono a test più di due offerte (o esperienze) tra loro. Ecco perché a volte vedi soluzioni di test A/B chiamati test A/B/n, dove n è il numero di offerte che si sta sottoponendo a test contemporaneamente.
+* **Test di offerte multiple:** gli addetti al marketing spesso sottopongono a test più di due offerte (o esperienze) tra loro. Per questo motivo a volte vengono visualizzate soluzioni di test A/B denominate test A/B/n, dove n è il numero di offerte che si stanno testando simultaneamente.
 
-  È importante notare che *ogni* offerta sottoposta a test ha un tasso di falso positivo pari al livello di significatività, come descritto sopra. Esegui effettivamente più test quando diverse offerte sono contrapposte l&#39;una all&#39;altra all&#39;interno di un singolo ambiente di test. Ad esempio, se confronti cinque offerte in un test A/B/C/D/E, formi effettivamente quattro confronti: tra il controllo e B, tra il controllo e C, tra il controllo e D, tra il controllo ed E. Con un livello di affidabilità del 95%, la probabilità di un falso positivo non è più pari al 5%, bensì al 18,5%.
+  È importante notare che *ogni offerta* sottoposta a test ha un tasso di falso positivo pari al livello di significatività, come descritto in precedenza. Esegui effettivamente più test quando diverse offerte sono contrapposte l&#39;una all&#39;altra all&#39;interno di un singolo ambiente di test. Ad esempio, se confronti cinque offerte in un test A/B/C/D/E, formi effettivamente quattro confronti: tra il controllo e B, tra il controllo e C, tra il controllo e D, tra il controllo ed E. Con un livello di affidabilità del 95%, la probabilità di un falso positivo non è più pari al 5%, bensì al 18,5%.
 
   Per mantenere il livello di affidabilità globale al 95% ed evitare questo problema, si applica la correzione Bonferroni. Con questa correzione, è sufficiente dividere il livello di significatività per il numero di confronti e si ottiene il livello di significatività necessario per raggiungere un livello di affidabilità del 95%.
 
@@ -86,7 +86,7 @@ Le offerte A e B hanno il più alto incremento osservato durante il test e sareb
 
 In questo caso entrambe le offerte A e B dovrebbero essere considerate i vincitori del test.
 
-In genere non è possibile eseguire il test abbastanza a lungo da identificare le prestazioni reali relative delle alternative e spesso la differenza di prestazioni tra le alternative è troppo piccola per incidere notevolmente sul tasso di conversione. In questi casi, è possibile interpretare il risultato come un pareggio e utilizzare altre considerazioni, ad esempio la strategia o l&#39;allineamento con altri elementi della pagina, per determinare quale offerta implementare. Con test multipli, è necessario essere aperti a più di un vincitore, che a volte presenta notevoli possibilità per la direzione da prendere con lo sviluppo del sito web.
+In genere non è possibile eseguire il test abbastanza a lungo per identificare le prestazioni reali relative delle alternative e spesso la differenza di prestazioni tra le alternative è troppo piccola per influire in modo sostanziale sul tasso di conversione. In questi casi, è possibile interpretare il risultato come un pareggio e utilizzare altre considerazioni, ad esempio la strategia o l&#39;allineamento con altri elementi della pagina, per determinare quale offerta implementare. Con test multipli, è necessario essere aperti a più di un vincitore, che a volte presenta notevoli possibilità per la direzione da prendere con lo sviluppo del sito web.
 
 Se vuoi individuare l’offerta con il più alto tasso di conversione, si devono confrontare tutte le offerte con ogni altra offerta. Nell’esempio precedente, si dispone di n = 5 offerte, pertanto è necessario effettuare n(n-1)/2 confronti ossia 5 &#42; (5-1)/2 = 10 confronti. In questo caso, la correzione Bonferroni richiede che il livello di significatività del test sia 5%/10 = 0,5%, il che corrisponde a un livello di affidabilità del 99,5%. Tuttavia, tale livello di affidabilità elevato potrebbe richiedere di eseguire il test per un periodo di tempo eccessivo.
 
@@ -94,7 +94,7 @@ Se vuoi individuare l’offerta con il più alto tasso di conversione, si devono
 
 La potenza statistica è la probabilità che un test rilevi una reale differenza nel tasso di conversione tra le offerte. A causa della natura casuale o “stocastica” degli eventi di conversione, un test potrebbe non mostrare una differenza statisticamente significativa, anche quando esiste una reale differenza nel tasso di conversione tra due offerte nel lungo periodo. Chiamala sfortuna o caso. Il mancato rilevamento di una reale differenza nel tasso di conversione è chiamato un falso negativo o un errore di Tipo II.
 
-Esistono due fattori chiave che determinano la potenza di un test. La prima è la dimensione del campione, cioè il numero di visitatori inclusi nel test. La seconda è l’entità della differenza di tasso di conversione che deve essere rilevata dal test. Forse è intuitivo, ma se sei interessato a rilevare solo grandi differenze di tasso di conversione, c’è una probabilità più alta che il test rilevi effettivamente tali grandi differenze. Lungo queste linee, minore è la differenza da rilevare, maggiore è la dimensione del campione e, quindi, più tempo sarà necessario per ottenere la dimensione del campione richiesta.
+Esistono due fattori chiave che determinano la potenza di un test. La prima è la dimensione del campione, cioè il numero di visitatori inclusi nel test. La seconda è l’entità della differenza di tasso di conversione che deve essere rilevata dal test. Forse è intuitivo, ma se sei interessato a rilevare solo grandi differenze di tasso di conversione, c&#39;è una probabilità più elevata che il test rilevi effettivamente tali grandi differenze. Lungo queste linee, minore è la differenza da rilevare, maggiore è la dimensione del campione e, quindi, più tempo sarà necessario per ottenere la dimensione del campione richiesta.
 
 Oggi gli addetti al marketing tendono a condurre molti test con una potenza statistica insufficiente. In altre parole, utilizzano un campione troppo ridotto. Ciò significa che hanno meno probabilità di rilevare dei positivi, anche quando esiste realmente una differenza notevole nel tasso di conversione. In realtà, se esegui continuamente test con potenza ridotta, il numero di falsi positivi può essere paragonabile o addirittura dominare il numero di veri positivi. Questo comporta spesso l&#39;introduzione di cambiamenti neutri a un sito (una perdita di tempo) o addirittura di cambiamenti che riducono i tassi di conversione.
 
@@ -104,25 +104,25 @@ Per evitare di condurre test con potenza statistica insufficiente, considera che
 
 ## Insidia 4: utilizzo di test a una coda {#section_8BB136D1DD6341FA9772F4C31E9AA37C}
 
-I test a una coda richiedono una differenza più ridotta osservata nei tassi di conversione tra le offerte per ottenere un vincitore a un certo livello di significatività. Questo tipo di test sembra interessante perché i vincitori possono essere ottenuti prima e più spesso rispetto ai test a due code. Ma in linea con il detto “nessuno dà niente per niente”, i test a una coda hanno un costo.
+I test a una coda richiedono una differenza più ridotta osservata nei tassi di conversione tra le offerte per ottenere un vincitore a un certo livello di significatività. Questo tipo di test sembra interessante perché i vincitori possono essere ottenuti prima e più spesso rispetto ai test a due code. Ma in linea con il detto, &quot;Non c&#39;è un pranzo gratuito&quot;, i test a una coda sono costosi.
 
 In un test a una coda, si verifica se l&#39;offerta B è migliore dell&#39;offerta A. La direzione del test deve essere determinata prima dell&#39;inizio dell stesso o “a priori” come si dice in statistica. In altre parole, è necessario decidere se verificare che B sia migliore di A o A sia migliore di B *prima* di iniziare il test. Tuttavia, se esamini i risultati del test A/B e vedi che B sta facendo meglio di A e *poi* decidi di eseguire un test a una coda per verificare se tale differenza è statisticamente significativa, stai violando le ipotesi dietro il test statistico. Violare i presupposti del test significa che gli intervalli di affidabilità sono inaffidabili e il test ha un tasso più elevato di falsi positivi di quanto ci si aspetterebbe.
 
-Potresti visualizzare un test a una coda che mette un&#39;offerta sotto processo con un giudice che ha già la sua idea. In un test a una coda, hai già deciso quale sarà l’offerta vincente e lo vuoi dimotrare, piuttosto che dare a ogni esperienza una pari possibilità di dimostrarsi vincente. I test a una coda devono essere utilizzati solo nelle rare situazioni in cui si è interessati solo se un&#39;offerta è migliore rispetto agli altri e non il contrario. Per evitare il problema del test a una coda, utilizza una soluzione di test A/B che utilizza sempre test a due code, ad esempio [!DNL Adobe Target].
+Potresti visualizzare un test a una coda che mette un&#39;offerta sotto processo con un giudice che ha già la sua idea. In un test a una coda, hai già deciso qual è l&#39;offerta vincente e vuoi dimostrarla, piuttosto che dare a ogni esperienza una pari possibilità di dimostrarsi come il vincitore. I test a una coda devono essere utilizzati solo nelle rare situazioni in cui si è interessati solo se un&#39;offerta è migliore rispetto agli altri e non il contrario. Per evitare il problema del test a una coda, utilizza una soluzione di test A/B che utilizza sempre test a due code, ad esempio [!DNL Adobe Target].
 
 ## Insidia 5: monitoraggio dei test {#section_EA42F8D5967B439284D863C46706A1BA}
 
-Gli addetti al marketing monitorano frequentemente i test A/B finché un test non determina un risultato significativo. Dopotutto, perché ttoporre a test dopo aver raggiunto l&#39;importanza statistica?
+Gli addetti al marketing monitorano frequentemente i test A/B finché un test non determina un risultato significativo. Dopotutto, perché testare dopo aver raggiunto la rilevanza statistica?
 
 Sfortunatamente, non è così semplice. Infatti il monitoraggio dei risultati influenza negativamente la rilevanza statistica del test. Aumenta notevolmente la probabilità di falsi positivi e rende inattendibili gli intervalli di affidabilità.
 
-Potrebbe sembrare confuso. Sembra che stiamo dicendo che solo guardando i risultati a metà test, puoi fargli perdere il loro significato statistico. Non è esattamente quello che succede. Il seguente esempio spiega perché.
+Potrebbe sembrare confuso. Sembra che stiamo dicendo che solo guardando i risultati a metà test, puoi fargli perdere il loro significato statistico. Non è esattamente quello che sta succedendo. Il seguente esempio spiega perché.
 
 Supponiamo di simulare 10.000 eventi di conversione di due offerte, entrambe con tassi di conversione del 10%. Poiché i tassi di conversione sono uguali, non dovresti rilevare alcuna differenza nell’incremento di conversione quando sottoponi a test le due offerte tra loro. Con un intervallo di affidabilità del 95%, il test dà il tasso di falso positivo del 5% previsto quando viene valutato dopo che sono state raccolte tutte le 10.000 osservazioni. Quindi, se si eseguono 100 di questi test, in media si ottengono cinque falsi positivi (in realtà, tutti i positivi sono falsi in questo esempio, perché non vi è alcuna differenza nel tasso di conversione tra le due offerte). Tuttavia, se il test viene valutato dieci volte durante l’esecuzione, ogni 1.000 osservazioni, si scopre che il tasso di falso positivo sale al 16%. Il monitoraggio del test ha più che triplicato il rischio di falsi positivi. Come è possibile?
 
 Per comprendere perché ciò si verifica, è necessario prendere in considerazione le diverse azioni intraprese quando viene rilevato un risultato significativo e quando non viene rilevato. Quando viene rilevato un risultato statisticamente significativo, il test viene interrotto e viene dichiarato un vincitore. Tuttavia, se il risultato non è statisticamente significativo, il test continuerà. Questa situazione favorisce fortemente un esito positivo e quindi distorce l&#39;effettivo livello di significatività del test.
 
-Per evitare questo problema, prima di avviare un test è necessario determinare un periodo di tempo adeguato in cui il test viene eseguito. È bene tenere d’occhio i risultati del test in corso, per assicurarsi che sia implementato correttamente. Tuttavia, non bisogna trarre conclusioni o interrompere il test prima che sia stato raggiunto il numero richiesto di visitatori. In altre parole, niente “sbirciatine”!
+Per evitare questo problema, prima di avviare un test è necessario determinare un periodo di tempo adeguato in cui il test viene eseguito. Anche se è bene esaminare i risultati del test durante il test per assicurarsi di implementarlo correttamente, non trarre conclusioni o arrestare il test prima che venga raggiunto il numero richiesto di visitatori. In altre parole, niente “sbirciatine”!
 
 ## Insidia 6: interrompere prematuramente i test {#section_DF01A97275E44CA5859D825E0DE2F49F}
 
@@ -154,9 +154,9 @@ Per fare un altro esempio, se l’allocazione del traffico del test A/B è suddi
 
 ## Insidia 8: non considerare gli effetti “novità” {#section_90F0D24C40294A8F801B1A6D6DEF9003}
 
-Se un test non viene eseguito per il tempo necessario, possono verificarsi anche altre cose inaspettate. Questa volta il problema non legato alla statistica, ma semplicemente alla normale reazione al cambiamento da parte dei visitatori. Se cambi una parte consolidata del sito web, i visitatori di ritorno potrebbero, in un primo momento, essere meno coinvolti dalla nuova offerta per via di un cambiamento al loro flusso di lavoro abituale. Questo può causare un temporaneo calo nelle prestazioni di una nuova offerta superiore, fino a quando i visitatori di ritorno si abituano; è un piccolo prezzo da pagare in considerazione dei guadagni a lungo termine che si possono trarre dall’offerta superiore.
+Se non si concede tempo sufficiente per l&#39;esecuzione di un test, possono verificarsi altri eventi imprevisti. Questa volta il problema non è statistico, è semplicemente una reazione al cambiamento da parte dei visitatori. Se cambi una parte consolidata del sito web, i visitatori di ritorno potrebbero, in un primo momento, essere meno coinvolti dalla nuova offerta per via di un cambiamento al loro flusso di lavoro abituale. Questo può causare un temporaneo calo nelle prestazioni di una nuova offerta superiore, fino a quando i visitatori di ritorno si abituano; è un piccolo prezzo da pagare in considerazione dei guadagni a lungo termine che si possono trarre dall’offerta superiore.
 
-Per determinare se le scarse prestazioni della nuova offerta sono dovute all’effetto “novità” o perché è realmente inferiore, è possibile segmentare i visitatori in nuovi e di ritorno, e confrontare i tassi di conversione. Se si tratta dell’effetto “novità”, la nuova offerta risulta vincente con i nuovi visitatori. Quando poi i visitatori di ritorno si saranno abituati ai nuovi cambiamenti, l’offerta risulta vincente anche per loro.
+Per determinare se la nuova offerta ha prestazioni inferiori a causa di un effetto di novità o perché è veramente inferiore, puoi segmentare i visitatori in nuovi visitatori e visitatori di ritorno e confrontare i tassi di conversione. Se si tratta solo dell’effetto novità, la nuova offerta vince con i nuovi visitatori. Quando poi i visitatori di ritorno si saranno abituati ai nuovi cambiamenti, l’offerta risulta vincente anche per loro.
 
 L’effetto novità può anche funzionare al contrario. I visitatori spesso reagiscono positivamente a un cambiamento, solo perché introduce qualcosa di nuovo. Dopo un po&#39;, passata lla novità, il tasso di conversione scende. Questo effetto è più difficile da identificare, ma può essere rilevata da un attento monitoraggio dei cambiamenti nel tasso di conversione.
 

@@ -25,9 +25,9 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '1547'
+source-wordcount: '1548'
 ht-degree: 28%
 ---
 # Obiettivi e impostazioni
@@ -74,7 +74,7 @@ Sono disponibili le seguenti opzioni:
 
 | Impostazione | Descrizione |
 |--- |--- |
-| [!UICONTROL Quale metrica di successo deve essere raggiunta prima di incrementare questa metrica?] | Utilizza questa opzione per contare solo chi raggiunge la metrica di successo se in precedenza aveva raggiunto una metrica di successo diversa. Ad esempio, una conversione di attività potrebbe essere valida solo se il visitatore fa clic sull’offerta o raggiunge una pagina particolare prima della conversione. È possibile fornire la dipendenza su più metriche insieme alla flessibilità necessaria, per scegliere se la metrica debba essere raggiunta o meno per incrementare il conteggio. Definisci entrambe le metriche (o più metriche) di successo prima di renderle interdipendenti tra loro. L’opzione [!UICONTROL Aggiungi dipendenza] consente di incrementare la metrica di successo nel caso in cui un’altra metrica di successo venga raggiunta o meno. Per aggiungere una dipendenza:<ul><li>Dopo aver aggiunto le metriche aggiuntive, fai clic su [!UICONTROL Impostazioni avanzate].</li><li>Fai clic sull’opzione [!UICONTROL Aggiungi dipendenza]:</li><li>Trascina e rilascia le metriche desiderate dal riquadro di sinistra a quello di destra, quindi fai clic su [!UICONTROL Raggiunto] per scegliere tra [!UICONTROL Raggiunto] e[!UICONTROL &#x200B; Non raggiunto].</li><li>È possibile modificare o rimuovere le dipendenze dopo averle aggiunte.</li></ul> |
+| [!UICONTROL Quale metrica di successo deve essere raggiunta prima di incrementare questa metrica?] | Utilizza questa opzione per contare solo chi raggiunge la metrica di successo se in precedenza aveva raggiunto una metrica di successo diversa. Ad esempio, una conversione di attività potrebbe essere valida solo se il visitatore fa clic sull’offerta o raggiunge una pagina particolare prima della conversione. È possibile fornire la dipendenza su più metriche insieme alla flessibilità necessaria, per scegliere se la metrica debba essere raggiunta o meno per incrementare il conteggio. Definisci entrambe le metriche (o più metriche) di successo prima di renderle interdipendenti tra loro. L’opzione [!UICONTROL Aggiungi dipendenza] consente di incrementare la metrica di successo nel caso in cui un’altra metrica di successo venga raggiunta o meno. Per aggiungere una dipendenza:<ul><li>Dopo aver aggiunto le metriche aggiuntive, fai clic su [!UICONTROL Impostazioni avanzate].</li><li>Fai clic sull’opzione [!UICONTROL Aggiungi dipendenza]:</li><li>Trascina e rilascia le metriche desiderate dal riquadro di sinistra a quello di destra, quindi fai clic su [!UICONTROL Raggiunto] per scegliere tra [!UICONTROL Raggiunto] e[!UICONTROL  Non raggiunto].</li><li>È possibile modificare o rimuovere le dipendenze dopo averle aggiunte.</li></ul> |
 | [!UICONTROL Cosa succede quando un utente incontra questa metrica per obiettivo?] | Dopo che un visitatore raggiunge la metrica obiettivo, sono disponibili tre opzioni:<ul><li>Seleziona **[!UICONTROL Incrementa il conteggio e mantieni utente attivo]** per specificare la modalità di incremento del conteggio.</li><li>Seleziona **[!UICONTROL Incrementa il conteggio, rilascia l’utente e consenti nuovo accesso]** per specificare l’esperienza che l’utente vedrà se accede di nuovo all’attività.</li><li>Seleziona **[!UICONTROL Incrementa il conteggio, rilascia l&#39;utente e impedisci nuovo accesso]** per specificare cosa vedrà l&#39;utente al posto del contenuto dell&#39;attività.</li></ul> |
 | [!UICONTROL Come verrà incrementato il conteggio?] | Sono disponibili tre opzioni per l’incremento del conteggio:<ul><li>[!UICONTROL Una volta per partecipante]</li><li>[!UICONTROL Su ogni impression (esclusi aggiornamenti pagina)]</li><li>[!UICONTROL Su ogni impression]</li></ul> |
 

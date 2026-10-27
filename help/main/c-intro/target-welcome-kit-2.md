@@ -49,9 +49,9 @@ topic_v2:
     internal-label: Insights
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
     internal-label: Machine learning
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '2606'
+source-wordcount: '2620'
 ht-degree: 72%
 ---
 # Capitolo 2: Panoramica di Adobe [!DNL Target]
@@ -95,7 +95,7 @@ Molti di voi potrebbero voler utilizzare [!DNL Target] per testare e personalizz
 
 | Tipo di implementazione | Dettagli |
 | --- | --- |
-| Lato client | In un’implementazione lato client di [!DNL Target], [!DNL Target] distribuisce le esperienze associate a un’attività direttamente al browser client. Il browser determina quale esperienza visualizzare e la visualizza. Con un&#39;esperienza lato client, puoi utilizzare un editor di WYSIWYG, il **[!UICONTROL Compositore esperienza visivo]**, o un&#39;interfaccia non visiva, il **[!UICONTROL Compositore esperienza basato su moduli]**, per creare esperienze di test e personalizzazione. [Per saperne di più](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html?lang=it){target=_blank}. |
+| Lato client | In un’implementazione lato client di [!DNL Target], [!DNL Target] distribuisce le esperienze associate a un’attività direttamente al browser client. Il browser determina quale esperienza visualizzare e la visualizza. Con un&#39;esperienza lato client, puoi utilizzare un editor di WYSIWYG, il **[!UICONTROL Compositore esperienza visivo]**, o un&#39;interfaccia non visiva, il **[!UICONTROL Compositore esperienza basato su moduli]**, per creare esperienze di test e personalizzazione. [Per saperne di più](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html){target=_blank}. |
 | Lato server | In questo tipo di implementazione di [!DNL Target], un dispositivo client richiede un’esperienza tramite il server, il server invia la richiesta a [!DNL Target], [!DNL Target] invia nuovamente la risposta al server e il server decide quale esperienza distribuire al dispositivo client affinché esegua il rendering. L’esperienza non deve necessariamente essere visualizzata in un browser; può essere visualizzata in un’e-mail o un chiosco, tramite un assistente vocale oppure tramite altre esperienze non visive o su un dispositivo non basato su browser. Poiché il server risiede tra il client e [!DNL Target], questo tipo di implementazione è ideale anche se hai bisogno di maggiore controllo e sicurezza oppure in presenza di processi di backend complessi che devono essere eseguiti sul server. [Per saperne di più](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html?lang=it){target=_blank}. |
 | Implementazione ibrida | In questa implementazione, scegli l’approccio di implementazione più adatto per un dato caso d’uso. Ad esempio, puoi utilizzare un’implementazione lato client per eseguire test A/B su un’offerta in un hero banner hero sulla pagina home, ma anche un’implementazione lato server per determinare i risultati della ricerca interna da visualizzare su un browser client, un’esperienza da visualizzare su una dashboard smart car o una risposta vocale da consegnare tramite assistente vocale. |
 
@@ -156,12 +156,12 @@ Considera le seguenti idee prima di passare al prossimo capitolo: “Sviluppa i 
 ### Le opinioni possono influenzare negativamente i risultati
 
 * Opinioni che possono avere un impatto negativo sull’efficacia. Parere, atteggiamenti e pregiudizi della persona più pagata (HIPPO). Ad esempio, l’amministratore delegato vuole ridurre le dimensioni della casella di ricerca per liberare spazio su ogni pagina. Dovremmo eseguire un test per assicurarci che non riduca il numero di ricerche.
-* Stai agendo sulle opinioni? Non mi piace l&#39;aspetto di quel test. Al cliente non piacerà per niente questa esperienza. Anche se l&#39;intuizione è utile, i test A/B hanno dimostrato più volte che non è sempre azzeccata.
+* Stai agendo sulle opinioni? Non mi piace l&#39;aspetto di quel test. Al cliente non piacerà per niente questa esperienza. Anche se l’intuizione è utile, i test A/B hanno dimostrato più volte che non è sempre azzeccata.
 * O hai una mentalità orientata all’ottimizzazione? Sono emozionato di vedere quale esperienza vince. Abbiamo abbastanza opzioni da testare?
 
 ### Le supposizioni possono anche influenzare negativamente i risultati
 
 * Ipotesi che possono avere un impatto negativo sull’efficacia. La mentalità del mandriano (i nostri concorrenti fanno così). Ad esempio, tutti i nostri concorrenti usano banner hero con immagini rotanti, quindi anche noi dovremmo fare altrettanto.
-* Supponendo di sapere perché qualcosa funziona o no. Supponendo che non abbiamo bisogno di testare qualcosa. Ad esempio, elenchiamo sempre le camere di hotel in ordine dal prezzo più alto a quello più basso come impostazione predefinita.
-* Ti stai basando su supposizioni? Non c&#39;è bisogno di fare un test, abbiamo controllato le analisi. (Sì, ma ci può essere dell’altro oltre a quello che ci rivelano le analisi.)
+* Supponendo di sapere perché qualcosa funziona o no. Supponendo che non sia necessario testare qualcosa. Ad esempio, elenchiamo sempre le camere di hotel in ordine dal prezzo più alto a quello più basso come impostazione predefinita.
+* Ti stai basando su supposizioni? Non abbiamo bisogno di testarlo, abbiamo controllato l&#39;analisi. (Sì, ma ci può essere dell’altro oltre a quello che ci rivelano le analisi.)
 * O hai una mentalità orientata all’ottimizzazione? Noi testiamo tutto.

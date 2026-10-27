@@ -10,10 +10,10 @@ product_v2:
 feature_v2:
   - id: b934e7cf-c07f-5a64-924b-3c9da8413e3d
     internal-label: Multivariate Tests
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '510'
-ht-degree: 60%
+source-wordcount: '511'
+ht-degree: 58%
 ---
 # Creare combinazioni
 
