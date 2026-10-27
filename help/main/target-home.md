@@ -42,7 +42,7 @@ ht-degree: 28%
 
 >[!TAB Novità]
 
-Server MCP **[!DNL Adobe Target](Beta pubblico)**
+Server MCP **[!DNL Adobe Target] (Beta pubblico)**
 
 [!DNL Adobe Target] fornisce ora un server MCP (Model Context Protocol) che esegue operazioni di sperimentazione, personalizzazione e reporting direttamente all&#39;interno di qualsiasi applicazione compatibile con MCP, inclusi Claude, Cursor e ChatGPT.
 
@@ -95,7 +95,7 @@ Esperti di marketing, sviluppatori, amministratori, analisti e addetti al contro
 
 - [[!DNL Target] note sulla versione](r-release-notes/release-notes.md): contiene informazioni sulla versione corrente, informazioni sui problemi noti che interessano [!DNL Target], un elenco di modifiche importanti alla presente documentazione e un archivio delle note sulle versioni passate.
 - [Introduzione a [!DNL Target]](c-intro/intro.md): illustra i concetti fondamentali di [!DNL Target].
-- [Interfaccia utente [!DNL Target] 2}: consente di acquisire familiarità con [!DNL Target] e fornisce collegamenti per ottenere informazioni più approfondite e istruzioni dettagliate.](/help/main/c-intro/understand-the-target-ui.md)
+- [Interfaccia utente [!DNL Target] 2&rbrace;: consente di acquisire familiarità con [!DNL Target] e fornisce collegamenti per ottenere informazioni più approfondite e istruzioni dettagliate.](/help/main/c-intro/understand-the-target-ui.md)
 - [Competenze del collaboratore per Adobe Target](/help/main/c-intro/coworker-skills.md): scopri le competenze del collaboratore per esplorare attività e pubblico, creare test, analizzare le prestazioni e risolvere problemi in Consigli in [!DNL Adobe Target].
 - Integrare [!DNL Target] con [!DNL Adobe Experience Cloud]: illustra come integrare [!DNL Target] con altre soluzioni [!DNL Experience Cloud], tra cui [[!UICONTROL Analytics for Target]](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T), [[!DNL Experience Cloud Audiences]](/help/main/c-integrating-target-with-mac/mmp.md) e [[!DNL Adobe Campaign]](/help/main/c-integrating-target-with-mac/campaign-and-target.md).
 - [[!DNL Adobe Target] Esercitazioni](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html?lang=it): fornisce esercitazioni e video per ottenere il massimo da [!DNL Target].
