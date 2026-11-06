@@ -1,8 +1,8 @@
 ---
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: 87c0d2aa67d54dcbc2963be63d2d7ad9c02b6aa9
 workflow-type: tm+mt
-source-wordcount: '244'
-ht-degree: 8%
+source-wordcount: '413'
+ht-degree: 5%
 ---
 # Frammenti
 
@@ -35,5 +35,24 @@ ht-degree: 8%
 >* [[!UICONTROL Opzioni del Compositore esperienza visivo]](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md): questo articolo illustra l&#39;interfaccia utente del Compositore esperienza visivo aggiornata e le relative opzioni.
 >
 >* [[!DNL Target] Domande frequenti sull&#39;aggiornamento dell&#39;interfaccia utente](/help/main/c-intro/updated-ui-faq.md): queste domande frequenti riguardano le domande comuni sulla nuova interfaccia utente [!DNL Target] e sul [!UICONTROL Compositore esperienza visivo], incluse le modifiche alla navigazione, le posizioni delle funzionalità e l&#39;attivazione/disattivazione della versione temporanea dell&#39;interfaccia utente. Che tu sia un addetto marketing, uno sviluppatore o un amministratore, queste domande frequenti consentono una transizione fluida e di sfruttare al massimo l’interfaccia utente aggiornata.
+
+## Regole del nome attività {#activity-name-rules}
+
+Il nome attività non può iniziare con `=`, `+`, `-` o `@`. Il nome dell&#39;attività non può inoltre contenere nessuna delle seguenti sequenze di caratteri: `;=`, `;+`, `;-`, `;@`, `,=`, `,+`, `,-`, `,@`, `["` o `"]`.
+
+## Selezionare un pubblico nel passaggio Targeting {#audience-selection-steps}
+
+1. Per cambiare il pubblico, fai clic sull&#39;icona **[!UICONTROL Sostituisci]** ( ![Sostituisci](/help/main/assets/icons/Retweet.svg) ) nel riquadro a destra.
+
+1. Nella finestra di dialogo **[!UICONTROL Aggiungi pubblico]**, [seleziona il pubblico desiderato](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-audience.md), quindi fai clic su **[!UICONTROL Assegna pubblico]**.
+
+   Per creare un pubblico che combina più tipi di pubblico, fare clic su **[!UICONTROL Combina tipi di pubblico]**. Per ulteriori dettagli, vedere [Combinare più tipi di pubblico](/help/main/c-target/combining-multiple-audiences.md).
+
+   Per creare un nuovo pubblico che non sia già presente nella [!UICONTROL Libreria pubblico], fai clic su **[!UICONTROL Crea pubblico]**. Nel flusso di lavoro [create-audience](/help/main/c-target/c-audiences/audiences.md), scegli una delle seguenti opzioni:
+
+   * **[!UICONTROL Libreria tipi di pubblico]**: crea un pubblico on-demand salvato nella [!UICONTROL Libreria tipi di pubblico] e riutilizzabile in altre attività.
+   * **[!UICONTROL Solo per questa attività]**: crea un [pubblico specifico per l&#39;attività](/help/main/c-target/creating-activity-only-audience.md) che non viene salvato nella [!UICONTROL Libreria tipi di pubblico] e che può essere utilizzato solo nell&#39;attività corrente.
+
+1. Fai clic su **[!UICONTROL Percentuale visitatori]** nel frame a destra, quindi scegli la percentuale di visitatori idonei che desideri inserire nell&#39;attività.
 
 
