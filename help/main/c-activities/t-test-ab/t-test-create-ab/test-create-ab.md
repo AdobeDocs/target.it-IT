@@ -25,10 +25,10 @@ topic_v2:
     internal-label: Machine learning
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: bc72bb770dbfab32fbce7fac9c2aaed1bd61112d
+source-git-commit: 4bdd36a7ca0162f95e5d9efd67899433d970d384
 workflow-type: tm+mt
-source-wordcount: '867'
-ht-degree: 20%
+source-wordcount: '961'
+ht-degree: 17%
 ---
 # Creare un’attività di test A/B
 
@@ -50,7 +50,7 @@ Per creare un&#39;attività [!UICONTROL Test A/B] manuale:
 
    >[!NOTE]
    >
-   >Oltre al Compositore esperienza visivo e al Compositore esperienza basato su moduli [!UICONTROL 1&rbrace;, [!DNL Target] offre il Compositore esperienza visivo [!UICONTROL Applicazione a pagina singola]. &#x200B;]Per ulteriori informazioni sui vari moduli di composizione, consulta [Esperienze e offerte](/help/main/c-experiences/experiences.md).
+   >Oltre al Compositore esperienza visivo e al Compositore esperienza basato su moduli [!UICONTROL 1}, [!DNL Target] offre il Compositore esperienza visivo [!UICONTROL Applicazione a pagina singola]. ]Per ulteriori informazioni sui vari moduli di composizione, consulta [Esperienze e offerte](/help/main/c-experiences/experiences.md).
    >
    >Per informazioni sulla risoluzione dei problemi relativi al Compositore esperienza visivo, vedere [Risoluzione dei problemi relativi al Compositore esperienza visivo](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md).
 
@@ -68,29 +68,7 @@ Per creare un&#39;attività [!UICONTROL Test A/B] manuale:
 
 1. Per assegnare un nome all&#39;attività, fare clic sull&#39;icona **[!UICONTROL Modifica]** ( ![Icona Modifica](/help/main/assets/icons/Edit.svg) ) accanto a &quot;[!UICONTROL Attività senza titolo]&quot;, specificare un nome descrittivo per l&#39;attività, quindi fare clic su **[!UICONTROL Salva]**.
 
-   Il nome dell’attività non può iniziare con uno dei seguenti caratteri:
-
-   | Carattere | Descrizione |
-   |--- |--- |
-   | `=` | Uguale |
-   | `+` | Più |
-   | `-` | Meno |
-   | `@` | Chiocciola |
-
-   Il nome dell’attività non può contenere nessuna delle seguenti sequenze di caratteri:
-
-   | Sequenza di caratteri | Descrizione |
-   |--- |--- |
-   | ;= | Punto e virgola, uguale a |
-   | ;+ | Punto e virgola, segno più |
-   | ;- | Punto e virgola, meno |
-   | ;@ | Punto e virgola, segno A |
-   | ,= | Virgola, uguale a |
-   | ,+ | Virgola più |
-   | ,- | Virgola meno |
-   | ,@ | Virgola, segno A |
-   | `[`&quot; | Parentesi quadra aperta, virgolette doppie |
-   | &quot;`]` | Virgolette doppie, parentesi quadra chiusa |
+   {{activity-name-rules}}
 
 1. Crea nuove esperienze modificando gli elementi nella pagina.
 
@@ -112,7 +90,19 @@ Per creare un&#39;attività [!UICONTROL Test A/B] manuale:
 
    +++ Passaggi per selezionare un pubblico diverso
 
-   {{$include /help/_includes/audience-selection-steps.md}}
+   Viene visualizzato il frame a destra, che consente di aggiungere o eliminare un pubblico e di assegnare la percentuale di visitatori per l’attività.
+
+   1. Per cambiare il pubblico, fai clic sull&#39;icona **[!UICONTROL Sostituisci]** ( ![Sostituisci](/help/main/assets/icons/Retweet.svg) ) nel riquadro a destra.
+   1. Nella finestra di dialogo **[!UICONTROL Aggiungi pubblico]**, [seleziona il pubblico desiderato](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-audience.md), quindi fai clic su **[!UICONTROL Assegna pubblico]**.
+
+      Per creare un pubblico che combina più tipi di pubblico, fare clic su **[!UICONTROL Combina tipi di pubblico]**. Per ulteriori dettagli, vedere [Combinare più tipi di pubblico](/help/main/c-target/combining-multiple-audiences.md).
+
+      Per creare un nuovo pubblico che non sia già presente nella [!UICONTROL Libreria pubblico], fai clic su **[!UICONTROL Crea pubblico]**. Nel flusso di lavoro [create-audience](/help/main/c-target/c-audiences/audiences.md), scegli una delle seguenti opzioni:
+
+      * **[!UICONTROL Libreria tipi di pubblico]**: crea un pubblico on-demand salvato nella [!UICONTROL Libreria tipi di pubblico] e riutilizzabile in altre attività.
+      * **[!UICONTROL Solo per questa attività]**: crea un [pubblico specifico per l&#39;attività](/help/main/c-target/creating-activity-only-audience.md) che non viene salvato nella [!UICONTROL Libreria tipi di pubblico] e che può essere utilizzato solo nell&#39;attività corrente.
+
+   1. Fai clic su **[!UICONTROL Percentuale visitatori]** nel frame a destra, quindi scegli la percentuale di visitatori idonei che desideri inserire nell&#39;attività.
 
    +++
 
