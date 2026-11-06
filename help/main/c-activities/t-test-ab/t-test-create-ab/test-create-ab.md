@@ -25,7 +25,7 @@ topic_v2:
     internal-label: Machine learning
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: 191350233707b59e863e1315e6546e44bd837af7
+source-git-commit: bc72bb770dbfab32fbce7fac9c2aaed1bd61112d
 workflow-type: tm+mt
 source-wordcount: '867'
 ht-degree: 20%
@@ -50,7 +50,7 @@ Per creare un&#39;attività [!UICONTROL Test A/B] manuale:
 
    >[!NOTE]
    >
-   >Oltre al Compositore esperienza visivo e al Compositore esperienza basato su moduli [!UICONTROL 1&rbrace;, [!DNL Target] offre il Compositore esperienza visivo [!UICONTROL Applicazione a pagina singola]. &#x200B;]Per ulteriori informazioni sui vari moduli di composizione, consulta [Esperienze e offerte](/help/main/c-experiences/experiences.md).
+   >Oltre al Compositore esperienza visivo e al Compositore esperienza basato su moduli [!UICONTROL 1}, [!DNL Target] offre il Compositore esperienza visivo [!UICONTROL Applicazione a pagina singola]. ]Per ulteriori informazioni sui vari moduli di composizione, consulta [Esperienze e offerte](/help/main/c-experiences/experiences.md).
    >
    >Per informazioni sulla risoluzione dei problemi relativi al Compositore esperienza visivo, vedere [Risoluzione dei problemi relativi al Compositore esperienza visivo](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md).
 
@@ -112,7 +112,7 @@ Per creare un&#39;attività [!UICONTROL Test A/B] manuale:
 
    +++ Passaggi per selezionare un pubblico diverso
 
-   {{audience-selection-steps}}
+   {{$include /help/_includes/audience-selection-steps.md}}
 
    +++
 
