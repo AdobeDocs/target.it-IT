@@ -1,8 +1,8 @@
 ---
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: bc72bb770dbfab32fbce7fac9c2aaed1bd61112d
 workflow-type: tm+mt
-source-wordcount: '244'
-ht-degree: 8%
+source-wordcount: '267'
+ht-degree: 7%
 ---
 # Frammenti
 
@@ -36,4 +36,7 @@ ht-degree: 8%
 >
 >* [[!DNL Target] Domande frequenti sull&#39;aggiornamento dell&#39;interfaccia utente](/help/main/c-intro/updated-ui-faq.md): queste domande frequenti riguardano le domande comuni sulla nuova interfaccia utente [!DNL Target] e sul [!UICONTROL Compositore esperienza visivo], incluse le modifiche alla navigazione, le posizioni delle funzionalità e l&#39;attivazione/disattivazione della versione temporanea dell&#39;interfaccia utente. Che tu sia un addetto marketing, uno sviluppatore o un amministratore, queste domande frequenti consentono una transizione fluida e di sfruttare al massimo l’interfaccia utente aggiornata.
 
+## Regole del nome attività {#activity-name-rules}
+
+Il nome attività non può iniziare con `=`, `+`, `-` o `@`. Il nome dell&#39;attività non può inoltre contenere nessuna delle seguenti sequenze di caratteri: `;=`, `;+`, `;-`, `;@`, `,=`, `,+`, `,-`, `,@`, `["` o `"]`.
 
