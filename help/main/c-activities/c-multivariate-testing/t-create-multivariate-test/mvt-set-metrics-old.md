@@ -68,4 +68,4 @@ Questo video contiene informazioni su come utilizzare le metriche di successo.
 * Comprendere e generare le metriche [!UICONTROL Conversione], [!UICONTROL Ricavi] e [!UICONTROL Coinvolgimento]
 * Creazione di una metrica di tracciamento dei clic
 
->[!VIDEO](https://video.tv.adobe.com/v/17380)
+>[!VIDEO](https://video.tv.adobe.com/v/3507821?captions=ita)

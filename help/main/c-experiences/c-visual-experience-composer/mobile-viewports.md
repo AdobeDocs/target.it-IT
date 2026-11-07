@@ -190,4 +190,4 @@ Il video demo seguente include informazioni sull&#39;utilizzo del Compositore es
 
 Questo video include informazioni sulla configurazione dei riquadri di visualizzazione per dispositivi mobili, a partire dal minuto 4:40.
 
->[!VIDEO](https://video.tv.adobe.com/v/17379)
+>[!VIDEO](https://video.tv.adobe.com/v/3507631?captions=ita)

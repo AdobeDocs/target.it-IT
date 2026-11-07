@@ -69,4 +69,4 @@ Questo video contiene informazioni su come utilizzare le metriche di successo.
 * Concetti e creazione di metriche per conversione, ricavi e coinvolgimento
 * Creazione di una metrica di tracciamento dei clic
 
->[!VIDEO](https://video.tv.adobe.com/v/17380)
+>[!VIDEO](https://video.tv.adobe.com/v/3507821?captions=ita)

@@ -85,7 +85,7 @@ Questo video include informazioni sulle impostazioni delle attività.
 * Aggiungere tipi di pubblico da usare come filtri nella generazione di rapporti
 * Inserire delle note per le attività
 
-(https://video.tv.adobe.com/v/17381?captions=ita)
+(https://video.tv.adobe.com/v/3507949?captions=ita)
 
 ### Creazione di test A/B (8:36) ![Icona esercitazione](/help/main/assets/tutorial.png)
 

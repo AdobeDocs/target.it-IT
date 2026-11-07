@@ -171,4 +171,4 @@ Questo video offre una demo del compositore basato su moduli, che puoi utilizzar
 * Quando utilizzare il Compositore esperienza basato su moduli o il Compositore esperienza visivo
 * Indirizzare una posizione con i perfezionamenti
 
->[!VIDEO](https://video.tv.adobe.com/v/17390)
+>[!VIDEO](https://video.tv.adobe.com/v/3507886?captions=ita)

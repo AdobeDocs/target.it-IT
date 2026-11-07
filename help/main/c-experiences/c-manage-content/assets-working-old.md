@@ -97,4 +97,4 @@ Questo video include informazioni sulla gestione del contenuto. (4:56)
 * Offerte HTML personalizzate
 * Offerta HTML personalizzata nel Compositore esperienza visivo
 
->[!VIDEO](https://video.tv.adobe.com/v/17387)
+>[!VIDEO](https://video.tv.adobe.com/v/3507958?captions=ita)
