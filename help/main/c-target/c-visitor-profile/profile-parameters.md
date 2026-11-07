@@ -301,4 +301,4 @@ Questo video include informazioni sull’utilizzo e sulla creazione degli script
 * Utilizzare il menu Token disponibile per accedere alle opzioni disponibili
 * Abilitare e disabilitare gli script di profilo
 
->[!VIDEO](https://video.tv.adobe.com/v/17394)
+>[!VIDEO](https://video.tv.adobe.com/v/3507913?captions=ita)

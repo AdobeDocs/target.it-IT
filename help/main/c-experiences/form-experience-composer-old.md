@@ -130,4 +130,4 @@ Questo video fornisce una demo del Compositore esperienza basato su moduli.
 * Quando utilizzare il Compositore esperienza basato su moduli o il Compositore esperienza visivo
 * Indirizzare una posizione con i perfezionamenti
 
->[!VIDEO](https://video.tv.adobe.com/v/17390)
+>[!VIDEO](https://video.tv.adobe.com/v/3507886?captions=ita)

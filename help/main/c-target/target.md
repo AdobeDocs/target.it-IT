@@ -48,4 +48,4 @@ Questo video include informazioni su come impostare il targeting e i tipi di pub
 * Selezionare il metodo di allocazione del traffico
 * Allocare il traffico tra diverse esperienze
 
->[!VIDEO](https://video.tv.adobe.com/v/17385)
+>[!VIDEO](https://video.tv.adobe.com/v/3507595?captions=ita)

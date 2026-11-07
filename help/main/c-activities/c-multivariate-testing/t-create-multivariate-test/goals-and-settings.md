@@ -185,7 +185,7 @@ Questo video include informazioni sulle impostazioni delle attività.
 * Aggiungere tipi di pubblico da usare come filtri nella generazione di rapporti
 * Inserire delle note per le attività
 
->[!VIDEO](https://video.tv.adobe.com/v/17381)
+>[!VIDEO](https://video.tv.adobe.com/v/3507949?captions=ita)
 
 ### Creazione di test multivariati (9:25)
 

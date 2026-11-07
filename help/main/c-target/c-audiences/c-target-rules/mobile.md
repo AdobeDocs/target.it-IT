@@ -109,4 +109,4 @@ Questo video contiene informazioni sull&#39;utilizzo delle categorie di pubblico
 * Creazione di un pubblico
 * Definizione delle categorie di pubblico
 
->[!VIDEO](https://video.tv.adobe.com/v/17392)
+>[!VIDEO](https://video.tv.adobe.com/v/3507776?captions=ita)

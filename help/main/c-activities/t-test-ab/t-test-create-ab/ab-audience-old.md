@@ -86,6 +86,6 @@ Questo video contiene informazioni su come impostare i tipi di pubblico.
 * Selezionare il metodo di allocazione del traffico
 * Allocare il traffico tra diverse esperienze
 
->[!VIDEO](https://video.tv.adobe.com/v/17385)
+>[!VIDEO](https://video.tv.adobe.com/v/3507595?captions=ita)
 
 Per informazioni dettagliate, consulta [Tipi di pubblico](/help/main/c-target/c-audiences/audiences.md#concept_65BE870D290E412D8BBF557EEA67C271).
