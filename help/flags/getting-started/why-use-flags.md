@@ -7,9 +7,9 @@ exl-id: c39c6b34-2024-4c38-b2f2-a9b58f5eff63
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
     internal-label: Target
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: c1fafcfcd7d5d22781abdd10e6eb3c2b84136c2d
 workflow-type: tm+mt
-source-wordcount: '253'
+source-wordcount: '265'
 ht-degree: 0%
 ---
 # Perché utilizzare i flag {#why-use}
@@ -37,6 +37,6 @@ Abilita una funzione contemporaneamente in più applicazioni per un set specific
 Distribuisci il codice in produzione in anticipo, quindi attiva la funzione in un momento preciso, ad esempio all’inizio di un evento di avvio del prodotto, senza alcuna modifica del codice dell’ultimo minuto.
 
 **Termina opzione**
-Se dopo il rilascio viene rilevato un problema, disattiva immediatamente la funzione senza un hotfix o una ridistribuzione.
+Se dopo il rilascio viene rilevato un problema, disattiva la funzione senza un hotfix o una ridistribuzione. Le modifiche diventano effettive al successivo aggiornamento del flag (ogni 5 minuti per impostazione predefinita).
 
 <!-- -->

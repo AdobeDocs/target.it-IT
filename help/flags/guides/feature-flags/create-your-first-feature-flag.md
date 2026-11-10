@@ -7,10 +7,10 @@ exl-id: ae115120-8da9-465e-a556-c17591ea7054
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
     internal-label: Target
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: c1fafcfcd7d5d22781abdd10e6eb3c2b84136c2d
 workflow-type: tm+mt
-source-wordcount: '378'
-ht-degree: 3%
+source-wordcount: '468'
+ht-degree: 2%
 ---
 # Creare il primo flag di funzione {#create-feature-flag}
 
@@ -33,8 +33,8 @@ Per creare un nuovo flag di funzione, effettua le seguenti operazioni nella cons
 
    | Campo | Descrizione |
    | --- | --- |
-   | **Nome** | Etichetta di visualizzazione per il flag di funzione. Non utilizzato nel codice. |
-   | **Chiave*** | Identificatore utilizzato nel codice per valutare il flag. Non può essere modificato dopo la creazione. |
+   | **Nome** | Etichetta di visualizzazione per il flag di funzione. Non utilizzato nel codice. **Name** è solo un&#39;etichetta di visualizzazione e non viene utilizzato nel codice; i due sono indipendenti (il nome non viene convertito nella chiave). |
+   | **Chiave*** | Identificatore utilizzato nel codice per valutare il flag. Non può essere modificato dopo la creazione. La **Chiave** è l&#39;identificatore utilizzato nel codice e non può essere modificato dopo la creazione. Le chiavi **non possono contenere spazi** e sono **sensibili a maiuscole e minuscole**. L&#39;immissione di uno spazio nel campo Chiave genera l&#39;errore: _&quot;Valore non valido per la chiave della funzionalità.&quot;_ |
    | **Descrizione** | Descrizione facoltativa a scopo di documentazione. |
    | **Metadati** | Facoltativo. Fino a 1.024 caratteri. Utilizza questo campo per eventuali metadati aggiuntivi da associare al flag. |
    | **Tag** | Tag opzionali a scopo di documentazione. |
@@ -45,7 +45,9 @@ Per creare un nuovo flag di funzione, effettua le seguenti operazioni nella cons
 
 >[!IMPORTANT]
 >
->La **Chiave** è l&#39;identificatore utilizzato nel codice e non può essere modificato dopo la creazione. Le chiavi **non possono contenere spazi** e sono **sensibili a maiuscole e minuscole**. **Name** è solo un&#39;etichetta di visualizzazione e non viene utilizzato nel codice; i due sono indipendenti (il nome non viene convertito nella chiave). L&#39;immissione di uno spazio nel campo Chiave genera l&#39;errore: _&quot;Valore non valido per la chiave di funzionalità.&quot;_
+>L’identità selezionata qui deve corrispondere a quella passata dall’app a SDK quando recupera i flag di funzione. Se le due non corrispondono, SDK non può trovare l’identità prevista e torna a un ID temporaneo generato in modo casuale per assegnare una variante. La valutazione del contrassegno continua a funzionare, non viene visualizzato alcun errore e gli utenti ricevono ancora una variante.
+>
+>Tuttavia, con un ID temporaneo, un utente può ricevere una variante diversa a ogni riavvio dell’app e non si garantisce alla stessa persona una variante coerente su tutti i dispositivi.
 
 1. Facoltativamente, aggiungi un criterio di pubblico (vedi Passaggio 2).
 1. Salva le impostazioni dei flag di funzione.
