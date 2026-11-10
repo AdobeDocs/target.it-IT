@@ -6,10 +6,10 @@ hide: true
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
     internal-label: Target
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: c1fafcfcd7d5d22781abdd10e6eb3c2b84136c2d
 workflow-type: tm+mt
-source-wordcount: '1184'
-ht-degree: 8%
+source-wordcount: '1229'
+ht-degree: 7%
 ---
 # Estensione flag per il web {#web-extension-integration-guide}
 
@@ -45,28 +45,30 @@ Prima di installare l’estensione Flags, assicurati che questa estensione sia i
 
 ### Installare l’estensione {#install-extension}
 
-1. Accedi a [experience.adobe.com](https://experience.adobe.com) utilizzando le credenziali Adobe ID.
-1. Passa a **Raccolta dati** > **Tag**.
-1. Seleziona la proprietà tag desiderata.
-1. Passa a **Estensioni** > **Catalogo**.
-1. Cerca **Flag** e seleziona la scheda dell&#39;estensione.
-1. Selezionare **Installa**.
+1. Accedi a [Raccolta dati Adobe Experience Platform](https://experience.adobe.com/#/data-collection).
 
-### Configurare le impostazioni dell’estensione {#configure-settings}
+1. Seleziona la scheda **[!UICONTROL Tag]** e scegli la tua proprietà mobile.
 
-Quando installi l’estensione Flags, viene visualizzata la pagina di configurazione. Configura le seguenti impostazioni:
+1. Passa a **[!UICONTROL Estensioni]** > **[!UICONTROL Catalogo]**.
 
-| Impostazione | Descrizione | Obbligatorio |
-|---|---|---|
-| ID client | Un identificatore univoco dell’applicazione nei flag. | Sì |
+1. Cerca **[!DNL Adobe Flags]** e seleziona **[!UICONTROL Installa]**.
 
-### Salva e pubblica {#save-publish}
+   ![](../assets/extension-install.png)
 
-1. Seleziona **Salva** per salvare la configurazione dell&#39;estensione.
-1. Segui il flusso di pubblicazione per distribuire le modifiche:
+1. Configura le impostazioni dell&#39;estensione:
+
+* ID client: un identificatore univoco dell’applicazione nei flag.
+
+1. Seleziona **[!UICONTROL Salva]**.
+
+1. Segui il [processo di pubblicazione](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/overview) per aggiornare la configurazione.
+
    1. Aggiungi l&#39;estensione a una libreria.
+
    1. Genera nell’ambiente di sviluppo.
-   1. Convalida con Adobe Experience Platform Debugger.
+
+   1. Convalida con [Adobe Experience Platform Debugger](https://experienceleague.adobe.com/docs/experience-platform/debugger/home.html).
+
    1. Promuovi a staging e produzione.
 
 ## Aggiungi il codice di incorporamento dei tag al tuo sito web {#embed-code}
@@ -76,17 +78,28 @@ Dopo aver pubblicato la libreria Tag, devi aggiungere il codice di incorporament
 ### Copiare il codice di incorporamento {#copy-embed-code}
 
 1. In Raccolta dati, passa alla proprietà web.
-1. Seleziona **Ambienti** nel menu di navigazione a sinistra.
-1. Nella riga dell&#39;ambiente di destinazione (Sviluppo, Staging o Produzione), seleziona l&#39;icona della casella nella colonna **Installa**.
-1. Nella finestra di dialogo **Istruzioni di installazione Web**, Tag utilizza per impostazione predefinita il codice di incorporamento asincrono.
-1. Seleziona l&#39;icona **Copia** per copiare il codice da incorporare negli Appunti.
-1. Seleziona **Chiudi** per chiudere il modale.
+
+1. Accedi al menu **[!UICONTROL Ambienti]**.
+
+1. Seleziona l&#39;icona della casella nella colonna **[!UICONTROL Installa]** dell&#39;ambiente selezionato.
+
+   ![](../assets/extension-install-2.png)
+
+1. Nella finestra di dialogo **[!UICONTROL Istruzioni di installazione Web]**, Tag utilizza per impostazione predefinita il codice di incorporamento asincrono.
+
+1. Seleziona l&#39;icona **[!UICONTROL Copia]** per copiare il codice da incorporare negli Appunti.
+
+   >[!NOTE]
+   >
+   >Ogni ambiente ha un URL di codice di incorporamento univoco. Per ulteriori informazioni, consulta la documentazione [Ambienti](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/environments/environments.html?lang=it).
+
+   ![](../assets/extension-install-4.png)
+
+### Implementare il codice di incorporamento {#implement-embed-code}
 
 >[!NOTE]
 >
->Ogni ambiente ha un URL di codice di incorporamento univoco. Per ulteriori informazioni, consulta Ambienti.
-
-### Implementare il codice di incorporamento {#implement-embed-code}
+>Sostituisci l&#39;URL `src` con il codice di incorporamento effettivo dalla pagina Ambienti. L&#39;URL contiene l&#39;identificatore società, la proprietà e l&#39;identificatore ambiente (ad esempio, `launch-EN123456789abcdef.min.js`).
 
 Aggiungere il codice di incorporamento nell&#39;elemento `<head>` delle pagine HTML. Il codice di incorporamento deve essere posizionato prima di altri script che dipendono dalla libreria Tag:
 
@@ -97,17 +110,13 @@ Aggiungere il codice di incorporamento nell&#39;elemento `<head>` delle pagine H
   <title>My Website</title>
 
   <!-- Adobe Experience Platform Tags embed code -->
-  <script src="https://assets.adobedtm.com/yourcompany/your-property/launchENxxxxxxxxxxx.min.js" async></script>
+  <script src="https://assets.adobedtm.com/your-company/your-property/launch-ENxxxxxxxxxxx.min.js" async></script>
 </head>
 <body>
   <!-- Your page content -->
 </body>
 </html>
 ```
-
->[!NOTE]
->
->Sostituisci l&#39;URL `src` con il codice di incorporamento effettivo dalla pagina Ambienti. L&#39;URL contiene l&#39;identificatore società, la proprietà e l&#39;identificatore ambiente (ad esempio, `launch-EN123456789abcdef.min.js`).
 
 ### Valutare i flag con i componenti Tag {#tags-components}
 
@@ -168,7 +177,7 @@ const context = {
 
 ## Documentazione sulle API {#api-reference}
 
-### isFeatureEnabled {#is-feature-enabled}
+### Valutazione delle funzioni {#is-feature-enabled}
 
 `isFeatureEnabled` restituisce se una funzione Flag è attivata o disattivata per il contesto specificato. Passaggio `featureKey` e `FeatureEvaluationContext`. Vedi [Contesto di valutazione](#evaluation-context). Utilizza la condizione Tag **Funzionalità abilitata** o chiama `window._flagClient.isFeatureEnabled(...)` dal codice personalizzato dopo l&#39;inizializzazione.
 
@@ -185,40 +194,35 @@ isFeatureEnabled(featureKey: string, context: FeatureEvaluationContext): boolean
 | `featureKey` | stringa | Chiave della funzione da valutare nei flag |
 | `context` | FeatureEvaluationContext | Attributi di identità (obbligatori) e di targeting facoltativo. Vedi [Contesto di valutazione](#evaluation-context). |
 
-### Creare un elemento dati per i flag di funzione {#create-data-element}
+## Creare un elemento dati per i flag di funzione {#create-data-element}
 
 Utilizzare un elemento dati quando è necessario un valore di flag disponibile come `%Data Element Name%` nelle regole o nel codice personalizzato.
 
-**Passaggi**
+1. Nella tua proprietà, accedi al menu **[!UICONTROL Elementi dati]** e seleziona **[!UICONTROL Aggiungi elemento dati]**.
 
-1. Nella tua proprietà, vai a **Elementi dati** e seleziona **Aggiungi elemento dati**.
+   ![](../assets/extension-install-5.png)
+
 1. Nella schermata **Crea elemento dati**, configura i campi Tag:
 
-   | Campo | Valore |
-   |---|---|
-   | Nome | Un nome descrittivo (ad esempio `checkout flag`) |
-   | Estensione | Flag |
-   | Tipo di elemento dati | Flag di funzione |
+   * **[!UICONTROL Nome]**: un nome descrittivo (ad esempio `checkout flag`)
+   * **[!UICONTROL Estensione]**: Flag
+   * **[!UICONTROL Tipo Di Elemento Dati]**: Flag Di Funzione
 
 1. Configura i campi dell&#39;estensione **Flag**:
 
-   | Campo | Obbligatorio | Descrizione |
-   |---|---|---|
-   | Chiave funzione | Sì | Chiave flag univoca (ad esempio `checkout_flag`) |
-   | Tipo restituito | Sì | **Booleano (true/false)** — abilitato/disabilitato o **Oggetto funzionalità (dettagli completi)** — payload completo che include `meta` |
+   * **[!UICONTROL Chiave funzionalità]**: chiave flag univoca (ad esempio `checkout_flag`), obbligatoria.
+   * **[!UICONTROL Tipo restituito]**: **Booleano (true/false)** — abilitato/disabilitato oppure **Oggetto funzionalità (dettagli completi)** — payload completo, incluso `meta`, obbligatorio.
+
+     | Tipo restituito | Risolve in |
+     |---|---|
+     | Boolean (true/false) | `true` se abilitato, `false` altrimenti |
+     | Oggetto funzione (dettagli completi) | Payload della funzionalità valutata quando il flag è abilitato e il contesto corrisponde al relativo pubblico; `null` quando il flag è disabilitato, non trovato o il contesto non corrisponde |
 
 1. Seleziona **Salva**.
 
-**Tipi restituiti**
-
-| Tipo restituito | Risolve in |
-|---|---|
-| Boolean (true/false) | `true` se abilitato, `false` altrimenti |
-| Oggetto funzione (dettagli completi) | Payload completo della funzionalità valutato oppure `null` se non soddisfa le regole |
-
 ### Utilizzare l’elemento dati {#use-data-element}
 
-In una regola: riferimento per nome, ad esempio `%Test Flag%`.
+In una regola, fare riferimento per nome, ad esempio `%Test Flag%`.
 
 Nel codice personalizzato, utilizzare `_satellite.getVar`. Con gli attributi di runtime, passa una mappa di attributi piatta come secondo argomento da valutare:
 
@@ -227,7 +231,15 @@ var isEnabled = _satellite.getVar('Test Flag', {
   locale: ['en-US'],
   platform: ['web']
 });
+```
 
+**Codice personalizzato**
+
+```javascript
+var isEnabled = _satellite.getVar('Test Flag', {
+  locale: ['en-US'],
+  platform: ['web']
+});
 if (isEnabled) {
   // your custom code
 } else {
@@ -239,7 +251,7 @@ if (isEnabled) {
 
 `getFeature` restituisce il payload della funzionalità valutata quando sono necessari metadati oltre a abilitati/disabilitati.
 
-Utilizza un elemento dati **Flag di funzionalità** con **Tipo restituito: oggetto funzionalità (dettagli completi)** — vedi [Creare un elemento dati Flag di funzionalità](#create-data-element) — oppure chiama `window._flagClient.getFeature(...)` dal codice personalizzato dopo la risoluzione di `flagClientReady`.
+Utilizza un elemento dati **Flag di funzionalità** con **Tipo restituito: Oggetto funzionalità (dettagli completi)**, vedi [Creare un elemento dati Flag di funzionalità](#create-data-element) oppure chiama `window._flagClient.getFeature(...)` dal codice personalizzato dopo la risoluzione di `flagClientReady`.
 
 **Firma**
 
@@ -255,6 +267,8 @@ getFeature(featureKey: string, context: FeatureEvaluationContext): FeatureResult
 | `context` | FeatureEvaluationContext | Identità (obbligatoria) e attributi di targeting. Vedi [Contesto di valutazione](#evaluation-context). |
 
 **Risposta**
+
+`getFeature` valuta un flag solo quando è abilitato e il contesto fornito corrisponde ai criteri di pubblico del flag. In tal caso restituisce un oggetto risultato; in caso contrario, restituisce `null`.
 
 *RisultatoFunzionalità*
 
@@ -272,7 +286,7 @@ getFeature(featureKey: string, context: FeatureEvaluationContext): FeatureResult
 |---|---|---|
 | `featureGroupId` | numero | Identificatore gruppo di funzioni numerico |
 | `featureId` | numero | Identificatore numerico di funzione |
-| `variantId` | number \| null | Identificatore variante (`0` per il controllo) |
+| `variantId` | number \| null | Identificatore variante (`0` se l&#39;utente fa parte del gruppo di controllo) |
 
 **Comportamento gruppo di controllo**
 
@@ -282,10 +296,16 @@ getFeature(featureKey: string, context: FeatureEvaluationContext): FeatureResult
 | Controllo a livello di funzionalità | `false` | Sentinella (`id: -1`, `key: null`) | Sì (`variantId: 0`) | Sì |
 | Criterio non corrispondente/non trovato | `false` | `null` | No | No |
 
-**Esempio**
+**Esempi**
+
+*Elemento dati tag*
+
+Fai riferimento all&#39;elemento dati (ad esempio `%Test Feature%`) in una regola e recuperalo tramite `_satellite.getVar`.
+
+*Codice personalizzato*
 
 ```javascript
-var feature = _flagClient.getFeature('new-testflag', {
+var feature = _flagClient.getFeature('new-test-flag', {
   identityNamespace: 'ECID',
   identityId: visitorEcid,
   attributes: {
@@ -339,6 +359,8 @@ L&#39;estensione gestisce gli errori correttamente:
 | Identità mancante nel contesto | La valutazione genera un errore. Specificare `identityNamespace` e `identityId` |
 | Funzione non trovata | `getFeature` restituisce `null`; `isFeatureEnabled` restituisce `false` |
 
+**Esempio**
+
 ```javascript
 try {
   const isEnabled = _flagClient.isFeatureEnabled('my-feature', context);
@@ -354,6 +376,8 @@ try {
 ### Fornire un’identità coerente {#consistent-identity}
 
 Utilizza lo stesso ID e lo stesso spazio dei nomi delle identità nelle valutazioni per creare contenitori coerenti nei rollout percentuali.
+
+**Esempio**
 
 ```javascript
 const context = {
@@ -373,7 +397,7 @@ const isEnabled = _flagClient.isFeatureEnabled('my-feature', context);
 Fornisci sempre un comportamento di fallback quando una funzione non viene trovata o la valutazione non riesce.
 
 ```javascript
-const feature = _flagClient.getFeature('new-testflag', context);
+const feature = _flagClient.getFeature('new-test-flag', context);
 
 if (feature && feature.meta) {
   // your custom code
@@ -399,4 +423,3 @@ window.flagClientReady.then(function () {
 * [Pubblico nei flag di funzione e nei gruppi di funzioni](../../audience/audience-in-feature-flags-and-feature-groups.md)
 * [Reporting](../../feature-flags/reporting.md)
 
-<!-- -->
