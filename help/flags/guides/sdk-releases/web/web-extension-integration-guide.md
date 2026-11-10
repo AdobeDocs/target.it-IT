@@ -6,9 +6,9 @@ hide: true
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
     internal-label: Target
-source-git-commit: c1fafcfcd7d5d22781abdd10e6eb3c2b84136c2d
+source-git-commit: a25ca0f3ce4c9cf38a871d8193ec43250d61edb9
 workflow-type: tm+mt
-source-wordcount: '1229'
+source-wordcount: '1241'
 ht-degree: 7%
 ---
 # Estensione flag per il web {#web-extension-integration-guide}
@@ -55,21 +55,25 @@ Prima di installare l’estensione Flags, assicurati che questa estensione sia i
 
    ![](../assets/extension-install.png)
 
-1. Configura le impostazioni dell&#39;estensione:
+#### Configurare le impostazioni dell’estensione {#configure-extension-settings}
 
-* ID client: un identificatore univoco dell’applicazione nei flag.
+Quando installi l’estensione Flags, viene visualizzata la pagina di configurazione. Configura le seguenti impostazioni:
 
-1. Seleziona **[!UICONTROL Salva]**.
+| Impostazione | Descrizione | Obbligatorio |
+|---|---|---|
+| ID client | Un identificatore univoco dell’applicazione nei flag. | Sì |
 
-1. Segui il [processo di pubblicazione](https://experienceleague.adobe.com/it/docs/experience-platform/tags/publish/overview) per aggiornare la configurazione.
+#### Pubblicare l’estensione {#publish-extension}
 
-   1. Aggiungi l&#39;estensione a una libreria.
+Segui il [processo di pubblicazione](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/overview) per aggiornare la configurazione.
 
-   1. Genera nell’ambiente di sviluppo.
+1. Aggiungi l&#39;estensione a una libreria.
 
-   1. Convalida con [Adobe Experience Platform Debugger](https://experienceleague.adobe.com/docs/experience-platform/debugger/home.html?lang=it).
+1. Genera nell’ambiente di sviluppo.
 
-   1. Promuovi a staging e produzione.
+1. Convalida con [Adobe Experience Platform Debugger](https://experienceleague.adobe.com/docs/experience-platform/debugger/home.html).
+
+1. Promuovi a staging e produzione.
 
 ## Aggiungi il codice di incorporamento dei tag al tuo sito web {#embed-code}
 
@@ -275,10 +279,10 @@ getFeature(featureKey: string, context: FeatureEvaluationContext): FeatureResult
 | Campo | Tipo | Descrizione |
 |---|---|---|
 | `id` | numero | Identificatore numerico di funzione. `-1` per la sentinella di controllo a livello di funzionalità. |
-| `key` | string \| null | Chiave funzione. `null` per la sentinella di controllo a livello di funzionalità. |
-| `featureGroupKey` | string \| null | Chiave gruppo di funzioni, se disponibile |
-| `meta` | string \| null | Metadati delle funzioni, se disponibili |
-| `analyticsParam` | AnalyticsParam \| null | Dettagli di Analytics per la funzione valutata |
+| `key` | `string \| null` | Chiave funzione. `null` per la sentinella di controllo a livello di funzionalità. |
+| `featureGroupKey` | `string \| null` | Chiave gruppo di funzioni, se disponibile |
+| `meta` | `string \| null` | Metadati delle funzioni, se disponibili |
+| `analyticsParam` | `AnalyticsParam \| null` | Dettagli di Analytics per la funzione valutata |
 
 *AnalyticsParam*
 
@@ -286,7 +290,7 @@ getFeature(featureKey: string, context: FeatureEvaluationContext): FeatureResult
 |---|---|---|
 | `featureGroupId` | numero | Identificatore gruppo di funzioni numerico |
 | `featureId` | numero | Identificatore numerico di funzione |
-| `variantId` | number \| null | Identificatore variante (`0` se l&#39;utente fa parte del gruppo di controllo) |
+| `variantId` | `number \| null` | Identificatore variante (`0` se l&#39;utente fa parte del gruppo di controllo) |
 
 **Comportamento gruppo di controllo**
 
