@@ -84,7 +84,7 @@ Assicurati che queste estensioni siano installate nella proprietà mobile di Dat
 >L&#39;estensione Flags non fa parte della DBA di Mobile SDK. Sostituisci `<latest-version>` con la versione più recente da Maven Central. Senza una versione, Gradle non può risolvere la dipendenza.
 >
 ></br>
-&gt;Per le applicazioni di produzione, Adobe consiglia di utilizzare numeri di versione espliciti invece delle versioni dinamiche come "3.+". Per ulteriori informazioni, vedere [Gestione delle dipendenze Gradle](https://docs.gradle.org/current/userguide/dependency_management.html).
+>&gt;Per le applicazioni di produzione, Adobe consiglia di utilizzare numeri di versione espliciti invece delle versioni dinamiche come "3.+". Per ulteriori informazioni, vedere [Gestione delle dipendenze Gradle](https://docs.gradle.org/current/userguide/dependency_management.html).
 
 Aggiungi le dipendenze seguenti al file `build.gradle.kts` (Cotlin) o `build.gradle` (Groovy) dell&#39;app:
 
