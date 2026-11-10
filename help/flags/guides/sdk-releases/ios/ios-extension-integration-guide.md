@@ -29,7 +29,7 @@ Prima di iniziare, assicurati di avere:
   | [Ciclo di vita](https://developer.adobe.com/client-sdks/home/base/mobile-core/lifecycle/) | Dati del ciclo di vita dell&#39;applicazione | Come AEPCore |
   | [Edge Network](https://developer.adobe.com/client-sdks/edge/edge-network/) | Comunicazione con Adobe Experience Platform Edge Network. Richiede un flusso di dati. | AEPEdge 5.0.2 |
   | [Identità per Edge Network](https://developer.adobe.com/client-sdks/edge/identity-for-edge-network/) | Gestione delle identità per Edge Network | AEPEdgeIdentity 5.0.0 |
-  | [Contrassegni](https://experienceleague.adobe.com/en/docs/target/flags/home) | Valutazione flag di funzione | Vedi [Installazione](#installation) |
+  | [Contrassegni](https://experienceleague.adobe.com/it/docs/target/flags/home) | Valutazione flag di funzione | Vedi [Installazione](#installation) |
 
 ## Configurare i flag nella raccolta dati {#configure}
 
@@ -52,7 +52,7 @@ Prima di iniziare, assicurati di avere:
 
 1. Seleziona **[!UICONTROL Salva]**.
 
-1. Segui il [processo di pubblicazione](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/overview) per aggiornare la configurazione.
+1. Segui il [processo di pubblicazione](https://experienceleague.adobe.com/it/docs/experience-platform/tags/publish/overview) per aggiornare la configurazione.
 
 ### Ottieni l’ID del file di ambiente {#environment-file-id}
 

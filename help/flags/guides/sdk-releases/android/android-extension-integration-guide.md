@@ -61,7 +61,7 @@ Assicurati che queste estensioni siano installate nella proprietà mobile di Dat
 
 1. Seleziona **[!UICONTROL Salva]**.
 
-1. Segui il [processo di pubblicazione](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/overview) per aggiornare la configurazione.
+1. Segui il [processo di pubblicazione](https://experienceleague.adobe.com/it/docs/experience-platform/tags/publish/overview) per aggiornare la configurazione.
 
 ### Ottieni l’ID del file di ambiente {#environment-file-id}
 

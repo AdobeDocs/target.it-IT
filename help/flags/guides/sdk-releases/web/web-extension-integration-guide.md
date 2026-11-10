@@ -61,13 +61,13 @@ Prima di installare l’estensione Flags, assicurati che questa estensione sia i
 
 1. Seleziona **[!UICONTROL Salva]**.
 
-1. Segui il [processo di pubblicazione](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/overview) per aggiornare la configurazione.
+1. Segui il [processo di pubblicazione](https://experienceleague.adobe.com/it/docs/experience-platform/tags/publish/overview) per aggiornare la configurazione.
 
    1. Aggiungi l&#39;estensione a una libreria.
 
    1. Genera nell’ambiente di sviluppo.
 
-   1. Convalida con [Adobe Experience Platform Debugger](https://experienceleague.adobe.com/docs/experience-platform/debugger/home.html).
+   1. Convalida con [Adobe Experience Platform Debugger](https://experienceleague.adobe.com/docs/experience-platform/debugger/home.html?lang=it).
 
    1. Promuovi a staging e produzione.
 
