@@ -65,13 +65,13 @@ Quando installi l’estensione Flags, viene visualizzata la pagina di configuraz
 
 #### Pubblicare l’estensione {#publish-extension}
 
-Segui il [processo di pubblicazione](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/overview) per aggiornare la configurazione.
+Segui il [processo di pubblicazione](https://experienceleague.adobe.com/it/docs/experience-platform/tags/publish/overview) per aggiornare la configurazione.
 
 1. Aggiungi l&#39;estensione a una libreria.
 
 1. Genera nell’ambiente di sviluppo.
 
-1. Convalida con [Adobe Experience Platform Debugger](https://experienceleague.adobe.com/docs/experience-platform/debugger/home.html).
+1. Convalida con [Adobe Experience Platform Debugger](https://experienceleague.adobe.com/docs/experience-platform/debugger/home.html?lang=it).
 
 1. Promuovi a staging e produzione.
 
