@@ -27,7 +27,7 @@ topic_v2:
     internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: 25f5877bbdb513b3a57efbbd207b13312322b9e1
 workflow-type: tm+mt
 source-wordcount: '728'
 ht-degree: 28%
@@ -36,7 +36,7 @@ ht-degree: 28%
 
 [!DNL Adobe Target] è la soluzione di [!DNL Adobe Experience Cloud] che offre tutto il necessario per adattare e personalizzare l’esperienza dei clienti in modo da massimizzare i ricavi sui siti web e mobili, applicazioni, social media e altri canali digitali.
 
-**Ultimo aggiornamento: 12 maggio 2026 ( [vedi che cosa è cambiato](r-release-notes/doc-change.md) )**
+**Ultimo aggiornamento: 17 giugno 2026 ( [vedi che cosa è cambiato](r-release-notes/doc-change.md) )**
 
 >[!BEGINTABS]
 
