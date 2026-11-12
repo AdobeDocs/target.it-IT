@@ -16,7 +16,7 @@ topic_v2:
     internal-label: Customer experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: e62cab5f2a4ac7d18bdb6847784a06b37513624a
 workflow-type: tm+mt
 source-wordcount: '1506'
 ht-degree: 1%
@@ -25,7 +25,7 @@ ht-degree: 1%
 
 Questo articolo documenta i calcoli statistici dettagliati utilizzati nei test A/Bn manuali in [!DNL Adobe Target]. Le definizioni vengono fornite per le metriche di decisione **[!UICONTROL Tasso di conversione]**, **[!UICONTROL Intervallo di affidabilità del tasso di conversione]**, **[!UICONTROL Incremento]**, **[!UICONTROL Intervallo di affidabilità per Incremento]**, **[!UICONTROL Affidabilità]** e **[!UICONTROL Bayesiano]**.
 
-Un&#39;attività **[!UICONTROL Test A/B]** (Manuale) supporta due metodologie statistiche, selezionate per attività in [Obiettivi e impostazioni](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_13119392051044FBA6387D9B3B1C43CF):
+Un&#39;attività **[!UICONTROL Test A/B]** (Manuale) supporta due metodologie statistiche, selezionate per attività in [Obiettivi e impostazioni](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_statistical-methodology):
 
 * [Test t di Welch](#welchs-t-test): una metodologia frequente che riporta una percentuale di affidabilità **[!UICONTROL e un intervallo di affidabilità]**, in base a un test di ipotesi a dimensione campione fissa. Utilizzato per attività con un obiettivo primario di **[!UICONTROL Ricavi]** o **[!UICONTROL Coinvolgimento]**.
 
@@ -131,7 +131,7 @@ Dove *μ<sub>v</sub>* e *μ<sub>v0</sub>* sono le medie rispettivamente di *μ* 
 
 <p style="text-align:center;"><img width="150px" src="img/standard_error_diff.png"></p>
 
-Dove *<sup>2</sup><sub>v</sub>* e *Prodotti finiti<sup>2</sup><sub>v<sub>0</sub></sub>* sono le varianze di due esperienze **&#x200B; e *0</sub>* rispettivamente e *N<sub>v</sub>* e *N<sub>v<sub>0</sub></sub>* sono le dimensioni campione rispettivamente di &#x200B;** e *24&rbrace;0</sub>*.<sub><sub>
+Dove *<sup>2</sup><sub>v</sub>* e *Prodotti finiti<sup>2</sup><sub>v<sub>0</sub></sub>* sono le varianze di due esperienze ** e *0</sub>* rispettivamente e *N<sub>v</sub>* e *N<sub>v<sub>0</sub></sub>* sono le dimensioni campione rispettivamente di ** e *24}0</sub>*.<sub><sub>
 
 Per il test t di Welch, il grado di libertà è calcolato come segue:
 
@@ -157,7 +157,7 @@ Invece di calcolare un valore p da una distribuzione approssimativa, il rapporto
 
 La metodologia **[!UICONTROL Bayesiana]** consente inoltre agli addetti al marketing di avanzare un&#39;ipotesi basata sulla loro precedente sperimentazione e sui risultati per la variante di controllo.
 
-La metodologia **[!UICONTROL Bayesiana]** è disponibile solo per le attività la cui metrica obiettivo principale è **[!UICONTROL Conversione]**, le attività con **[!UICONTROL Ricavi]** o **[!UICONTROL Coinvolgimento]** utilizzano sempre il test t di **[!UICONTROL Welch]**. Per ulteriori informazioni sulla selezione di una metodologia, vedere [Obiettivi e impostazioni](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_13119392051044FBA6387D9B3B1C43CF).
+La metodologia **[!UICONTROL Bayesiana]** è disponibile solo per le attività la cui metrica obiettivo principale è **[!UICONTROL Conversione]**, le attività con **[!UICONTROL Ricavi]** o **[!UICONTROL Coinvolgimento]** utilizzano sempre il test t di **[!UICONTROL Welch]**. Per ulteriori informazioni sulla selezione di una metodologia, vedere [Obiettivi e impostazioni](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_statistical-methodology).
 
 ### Incremento medio e intervallo credibile
 

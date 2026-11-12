@@ -10,14 +10,20 @@ product_v2:
 feature_v2:
   - id: 6efa6b7a-8062-5c41-aef4-b4853cc306ae
     internal-label: Activities
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 9b496bb9a6606c3627afce1227c7830ba710f5d2
 workflow-type: tm+mt
-source-wordcount: '821'
+source-wordcount: '858'
 ht-degree: 1%
 ---
-# Dashboard di Adobe Target Insights
+# Dashboard di Adobe Target Insights {#insights-dashboard}
 
-Il [!UICONTROL dashboard di Adobe Target] offre una panoramica generale dell&#39;utilizzo di [!DNL Adobe Target] da parte dell&#39;organizzazione nel tempo. Aiuta i team a comprendere a colpo d’occhio l’adozione, il volume delle attività e l’utilizzo della sperimentazione.
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** Scopri come leggere la **[!UICONTROL dashboard di Adobe Target]**: come selezionare un intervallo di tempo e cosa visualizzano i KPI, la suddivisione del tipo di attività, le metriche di test A/B e il grafico delle attività nel tempo.
+
+>[!ENDSHADEBOX]
+
+Il **[!UICONTROL dashboard di Adobe Target]** offre una panoramica generale dell&#39;utilizzo di [!DNL Adobe Target] da parte dell&#39;organizzazione nel tempo. Aiuta i team a comprendere a colpo d’occhio l’adozione, il volume delle attività e l’utilizzo della sperimentazione.
 
 Il dashboard è progettato per professionisti e stakeholder che desiderano una rapida visibilità sull&#39;utilizzo di [!DNL Target] senza dover esaminare singoli report di attività.
 
@@ -63,23 +69,23 @@ Le schede KPI nella parte superiore della pagina riepilogano rapidamente i conte
 
 ![](assets/insights-4.png)
 
-La metrica **Attività live totali** descrive il numero di attività che sono state live in qualsiasi momento durante l&#39;intervallo di tempo selezionato. Un’attività viene considerata live se era in servizio attivo sul traffico, anche se è iniziata prima o terminata dopo il periodo selezionato. Utilizza questa metrica per:
+La metrica **[!UICONTROL Attività live totali]** descrive il numero di attività che sono state live in qualsiasi momento durante l&#39;intervallo di tempo selezionato. Un’attività viene considerata live se era in servizio attivo sul traffico, anche se è iniziata prima o terminata dopo il periodo selezionato. Utilizza questa metrica per:
 
 * Comprendere come è stato utilizzato attivamente [!DNL Target] durante il periodo di tempo.
 * Misura la scala complessiva delle tue attività di personalizzazione e test.
 
-La metrica **Attività live o modificate** rappresenta il numero totale di attività nell&#39;organizzazione che sono state live, create o modificate nell&#39;intervallo di tempo selezionato. Utilizza questa metrica per:
+La metrica **[!UICONTROL Attività live o modificate]** rappresenta il numero totale di attività nell&#39;organizzazione che sono state live, create o modificate nell&#39;intervallo di tempo selezionato. Utilizza questa metrica per:
 
 * Comprendere le dimensioni complessive della libreria di attività [!DNL Target] e il numero di attività in uso.
 
 * Monitora la crescita a lungo termine dei programmi di sperimentazione e personalizzazione.
 
-La metrica **Attività terminate** rappresenta il numero di attività che hanno raggiunto una data di completamento o di interruzione durante l&#39;intervallo di tempo selezionato. Utilizza questa metrica per:
+La metrica **[!UICONTROL Attività terminate]** rappresenta il numero di attività che hanno raggiunto una data di completamento o di interruzione durante l&#39;intervallo di tempo selezionato. Utilizza questa metrica per:
 
 * Scopri quante attività sono state concluse durante il periodo di tempo.
 * Monitora il volume di completamento nel tempo.
 
-La metrica **Attività pubblicate** descrive il numero di attività pubblicate durante l&#39;intervallo di tempo selezionato. Un’attività viene considerata pubblicata quando viene pubblicata per la prima volta. Se un’attività viene resa live, interrotta e quindi riprodotta live, in questa metrica viene conteggiata solo la prima occorrenza. Utilizza questa metrica per:
+La metrica **[!UICONTROL Attività pubblicate]** descrive il numero di attività pubblicate durante l&#39;intervallo di tempo selezionato. Un’attività viene considerata pubblicata quando viene pubblicata per la prima volta. Se un’attività viene resa live, interrotta e quindi riprodotta live, in questa metrica viene conteggiata solo la prima occorrenza. Utilizza questa metrica per:
 
 * Misura quante nuove attività sono state avviate.
 * Comprendere la velocità di creazione e pubblicazione delle attività.
@@ -88,13 +94,13 @@ La metrica **Attività pubblicate** descrive il numero di attività pubblicate d
 
 ![](assets/insights-5.png)
 
-Il grafico [!UICONTROL Tipo di attività] mostra la distribuzione delle attività live per tipo durante l&#39;intervallo di tempo selezionato, tra cui:
+Il grafico **[!UICONTROL Tipo di attività]** mostra la distribuzione delle attività live per tipo durante l&#39;intervallo di tempo selezionato, tra cui:
 
-* [!UICONTROL Test A/B]
-* [!UICONTROL Targeting esperienza]
-* [!UICONTROL Funzione Consigli]
-* [!UICONTROL Personalizzazione automatizzata]
-* [!UICONTROL Test multivariato]
+* **[!UICONTROL Test A/B]**
+* **[!UICONTROL Targeting esperienza]**
+* **[!UICONTROL Funzione Consigli]**
+* **[!UICONTROL Personalizzazione automatizzata]**
+* **[!UICONTROL Test multivariato]**
 
 Utilizzare questo grafico per identificare le funzionalità di [!DNL Target] su cui l&#39;organizzazione si basa maggiormente e per individuare le opportunità per ampliare la combinazione di tipi di attività eseguiti.
 
@@ -110,7 +116,7 @@ La metrica **[!UICONTROL Totale attività test A/B in tempo reale]** mostra il n
 
 Utilizza queste metriche per comprendere con quale frequenza viene utilizzato il test A/B e per monitorare il volume di sperimentazione e l’adozione nel tempo.
 
-### Attività nel tempo
+### Attività nel tempo {#activities-over-time}
 
 ![](assets/insights-7.png){align="center"}
 

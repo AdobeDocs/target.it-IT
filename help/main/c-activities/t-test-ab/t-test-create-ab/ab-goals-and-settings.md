@@ -25,61 +25,205 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: abab6b3e464bb9f294e9c3c455dca1f57bb0d458
 workflow-type: tm+mt
-source-wordcount: '1548'
-ht-degree: 28%
+source-wordcount: '1669'
+ht-degree: 24%
 ---
-# Obiettivi e impostazioni
+# Obiettivi e impostazioni {#ab-goals-and-settings}
 
-Nella pagina [!UICONTROL Obiettivi e impostazioni] di [!DNL Adobe Target] è possibile specificare informazioni sugli obiettivi dell&#39;attività.
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** Scopri cosa è possibile impostare nella pagina **[!UICONTROL Obiettivi e impostazioni]** di un&#39;attività A/B, Targeting esperienza (XT) o Test multivariato (MVT): le impostazioni dell&#39;attività, le impostazioni del reporting, le impostazioni avanzate e le note.
+
+>[!ENDSHADEBOX]
+
+Nella pagina **[!UICONTROL Obiettivi e impostazioni]** di [!DNL Adobe Target] è possibile specificare informazioni sugli obiettivi dell&#39;attività.
 
 Le impostazioni disponibili dipendono dall&#39;utilizzo di Target o [Analytics come origine per la generazione di rapporti](/help/main/c-integrating-target-with-mac/a4t/a4t.md).
 
+Le stesse impostazioni si applicano alle attività [!UICONTROL Targeting esperienza] (XT) e [!UICONTROL Test multivariato] (MVT), ad eccezione di [Metodologia statistica](#section_statistical-methodology), che è disponibile solo per le attività A/B.
+
+* [Impostazioni attività](#section_DCBDC354261F420EBD4B43EA34947BAC): finalità, priorità e durata
+* [Impostazioni reporting](#section_13119392051044FBA6387D9B3B1C43CF): origine per la generazione di rapporti, metrica obiettivo, metriche aggiuntive e pubblico
+* [Impostazioni avanzate](#section_E2FE441AFB324E498793ABB025ED9974): dipendenze e cosa accade dopo che un visitatore ha raggiunto l&#39;obiettivo
+* [Metodologia statistica](#section_statistical-methodology): analisi dei risultati
+* [Altri metadati](#section_2E8917BEFB954480A4206B9E9E917F80): note
+
 ## [!UICONTROL Impostazioni attività] {#section_DCBDC354261F420EBD4B43EA34947BAC}
 
-La sezione [!UICONTROL Impostazioni attività] della pagina [!UICONTROL Obiettivi e impostazioni] consente di configurare le opzioni seguenti:
+La sezione **[!UICONTROL Impostazioni attività]** della pagina **[!UICONTROL Obiettivi e impostazioni]** consente di configurare le opzioni seguenti.
 
-| Impostazioni | Descrizione |
-|--- |--- |
-| [!UICONTROL Obiettivo] | Specifica una finalità facoltativa. L’obiettivo può essere qualsiasi informazione che aiuti te e i membri del tuo team a identificare l’attività. |
-| [!UICONTROL Priorità] | A seconda delle impostazioni, l&#39;interfaccia utente di [!DNL Target] e le opzioni per [!UICONTROL Priorità] variano. Puoi utilizzare le impostazioni legacy di [!UICONTROL Bassa], [!UICONTROL Medium] o [!UICONTROL Alta] oppure abilitare le priorità precise da 0 a 999.<P>La priorità è utilizzata se più attività vengono assegnate alla stessa posizione con lo stesso pubblico. Se due o più attività vengono assegnate alla posizione, viene visualizzata l’attività con priorità maggiore.<P>Se questa opzione non è abilitata in [!UICONTROL Amministrazione] (impostazione predefinita), specificare una priorità: [!UICONTROL Bassa], [!UICONTROL Medium] o [!UICONTROL Alta].<P>Per abilitare [le priorità precise](/help/main/administrating-target/reporting.md), fai clic su [!UICONTROL Amministrazione] > [!UICONTROL Generazione rapporti], quindi attiva l&#39;opzione [!UICONTROL Abilita priorità precise]. <P>Se questa opzione è abilitata, specifica un valore compreso tra 0 e 999: 0 = [!UICONTROL Bassa] e 999 = [!UICONTROL Alta]. <P>Per le attività create con le versioni precedenti di [!DNL Target], la priorità [!UICONTROL Bassa] viene convertita in 0, [!UICONTROL Medium] in 5 e la priorità [!UICONTROL Alta] in 10. Se necessario, è possibile modificare questi valori.<P>Nota: prima di poter disabilitare questa opzione dopo aver utilizzato le priorità precise, tutte le priorità devono essere impostate su 0, 5 o 10. |
-| [!UICONTROL Durata] | L’attività può iniziare dopo l’approvazione, oppure è possibile impostare una data e un’ora specifiche. Analogamente, l’attività può terminare quando viene disattivata, oppure è possibile impostare una data e un’ora specifiche. Il selettore dell’ora è nel formato 24 ore e la mezzanotte è indicata come 00:00. Il fuso orario è impostato sul fuso configurato nel browser. Per utilizzare un fuso orario diverso, imposta il browser su un altro fuso orario e riavvia il browser. |
+![](../../assets/goals-ab-1.png)
+
+### Finalità {#objective}
+
+Specifica una finalità facoltativa. L’obiettivo può essere qualsiasi informazione che aiuti te e i membri del tuo team a identificare l’attività.
+
+### Priorità {#priority}
+
+La priorità è utilizzata se più attività vengono assegnate alla stessa posizione con lo stesso pubblico. Se due o più attività vengono assegnate alla posizione, viene visualizzata l’attività con priorità maggiore.
+
+A seconda delle impostazioni, l&#39;interfaccia utente di [!DNL Target] e le opzioni per **[!UICONTROL Priorità]** variano:
+
+* **Priorità legacy (predefinita):** Se questa opzione non è abilitata in **[!UICONTROL Amministrazione]** (predefinita), specifica una priorità di **[!UICONTROL Bassa]**, **[!UICONTROL Medium]** o **[!UICONTROL Alta]**.
+* **Priorità precise:** Specificare un valore compreso tra 0 e 999, dove 0 = **[!UICONTROL Bassa]** e 999 = **[!UICONTROL Alta]**.
+
+  Per abilitare [priorità precise](/help/main/administrating-target/reporting.md), accedi a **[!UICONTROL Amministrazione]** > **[!UICONTROL Generazione rapporti]**, quindi attiva l&#39;opzione **[!UICONTROL Abilita priorità precise]**.
+
+Per le attività create con le versioni precedenti di [!DNL Target], la priorità **[!UICONTROL Bassa]** viene convertita in 0, **[!UICONTROL Medium]** in 5 e la priorità **[!UICONTROL Alta]** in 10. Se necessario, è possibile modificare questi valori.
+
+>[!NOTE]
+>
+>Prima di poter disabilitare le priorità dettagliate dopo averle utilizzate, tutte le priorità devono essere impostate su 0, 5 o 10.
+
+### Durata {#duration}
+
+L’attività può iniziare dopo l’approvazione, oppure è possibile impostare una data e un’ora specifiche. Analogamente, l’attività può terminare quando viene disattivata, oppure è possibile impostare una data e un’ora specifiche.
+
+Il selettore dell’ora è nel formato 24 ore e la mezzanotte è indicata come 00:00. Il fuso orario è impostato sul fuso configurato nel browser. Per utilizzare un fuso orario diverso, imposta il browser su un altro fuso orario e riavvia il browser.
 
 ## [!UICONTROL Impostazioni reporting] {#section_13119392051044FBA6387D9B3B1C43CF}
 
-La sezione [!UICONTROL Impostazioni reporting] della pagina [!UICONTROL Obiettivi e impostazioni] consente di configurare le opzioni seguenti:
+La sezione **[!UICONTROL Impostazioni reporting]** della pagina **[!UICONTROL Obiettivi e impostazioni]** consente di configurare le opzioni seguenti.
 
-| Impostazioni | Descrizione |
-|--- |--- |
-| [!UICONTROL Reporting di Source] | Specifica da quali dati della soluzione vengono raccolti:<ul><li>[!DNL Adobe Target]</li><li>[!DNL Adobe Analytics]</li><li>[!DNL Adobe Customer Journey Analytics]</li></ul>Se un&#39;origine per la generazione di rapporti è specificata nelle [impostazioni account](/help/main/administrating-target/reporting.md), viene utilizzata l&#39;origine specificata e questa impostazione non è visibile.<P>Al fine di mantenere coerenza dei rapporti, non è possibile modificare l’origine per i rapporti una volta che l’attività è diventata attiva.<P>**Adobe Analytics**: consulta [Adobe Analytics as the Reporting Source for Target](/help/main/c-integrating-target-with-mac/a4t/a4t.md) per informazioni sulle differenze tra le soluzioni di reporting e i vantaggi di ciascuna. Quando selezioni [!DNL Analytics] come origine per la generazione di rapporti per [!DNL Target], selezioni una suite di rapporti [!DNL Analytics] per ricevere i dati dell&#39;attività [!DNL Target].<P>Per specificare un&#39;origine per la generazione di rapporti, scegliere innanzitutto una delle [!DNL Analytics] società associate al proprio account, quindi selezionare la suite di rapporti appropriata per l&#39;attività. È possibile selezionare solo le suite di rapporti predisposte per la connessione a [!DNL Adobe Target]. Se le suite di rapporti previste non sono visualizzate, disconnettersi e accedere di nuovo a [!DNL Adobe Experience Cloud] per riprovare. Se la suite di rapporti non è ancora presente nell’elenco, contatta l’Assistenza clienti.<P><P>**Adobe Customer Journey Analytics**: vedi [[!DNL Target] creazione di rapporti in [!DNL Adobe Customer Journey Analytics]](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md) per i tipi di attività supportati, la selezione di sandbox e visualizzazioni dati, le metriche obiettivo e la configurazione dei rapporti in [!DNL Customer Journey Analytics]. |
-| [!UICONTROL Metrica per obiettivo] | Seleziona l’azione che deve essere eseguita da un visitatore per raggiungere l’obiettivo. Ad esempio, scegli una metrica [!UICONTROL Conversione], quindi imposta i parametri che determinano quando viene raggiunto il successo. Per ulteriori informazioni sull’impostazione delle metriche, consulta [Impostare le metriche](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-set-metrics.md).<P>Nota: se la soluzione di reporting è impostata su [!DNL Analytics], l&#39;unica metrica di obiettivo disponibile è [!UICONTROL Conversione]. Impossibile selezionare [!DNL Analytics] metriche come obiettivo. Quando si seleziona la metrica di successo, viene visualizzato un selettore. Utilizza questo selettore per scegliere le specifiche per la metrica di successo.<P>Se attivato, il campo [!UICONTROL Valore stimato della conversione] (non disponibile per le metriche [!UICONTROL Punteggio di pagina]) fornisce un valore per l&#39;obiettivo, ma non per altre metriche. Questo valore consente a [!DNL Target] di calcolare un incremento stimato dei ricavi. Questo campo è facoltativo; tuttavia, i ricavi incrementali per eventuali metriche non collegate ai ricavi non possono essere calcolate senza di esso. Per tutte le metriche relative ai ricavi ([!UICONTROL Ricavi per visitatore], [!UICONTROL Valore medio ordine], [!UICONTROL Vendite totali] e [!UICONTROL Ordini]), la stima utilizza [!UICONTROL Ricavi per visitatore]. Il tipo di dati è valuta.<P>Dopo aver raggiunto l’obiettivo dell’attività, un visitatore continua a vedere il contenuto dell’attività, a meno che il visitatore non sia idoneo per un’attività di priorità più elevata. Se il visitatore raggiunge nuovamente l’obiettivo, viene conteggiato come un’altra conversione. Si tratta di un comportamento diverso da quello predefinito in [!DNL Target Classic], che ha conteggiato i visitatori come nuovi se visualizzavano nuovamente l&#39;attività. |
-| [!UICONTROL Altre metriche] | Consente di creare metriche di successo aggiuntive. Questa impostazione non è disponibile se la soluzione di reporting è impostata su [!DNL Analytics]. In questo caso, vengono applicate le metriche definite per la suite di rapporti [!DNL Analytics]. |
-| [!UICONTROL Tipi di pubblico per reporting] | Per impostazione predefinita, nei rapporti sono mostrati i risultati per tutti i visitatori idonei. È possibile aggiungere tipi di pubblico per i rapporti per mostrare informazioni solo su tipi di pubblico specifici. Questa impostazione non è disponibile se si sceglie [!DNL Analytics] come soluzione di reporting. Il pubblico definito per la suite di rapporti [!DNL Analytics] è applicato. |
-| [!UICONTROL Metodologia statistica] | Scegli come analizzare i risultati dell’esperimento. Questa scelta determina il framework statistico, le metriche dei risultati e i criteri di decisione utilizzati per la metrica dell&#39;obiettivo [!UICONTROL Conversione] di questa attività:<ul><li>**[!UICONTROL Bayesiano]**: decisioni basate sulle probabilità che aggiornano le credenze con l&#39;arrivo dei dati e supportano il monitoraggio continuo e dimensioni di campione inferiori. I risultati sono espressi come probabilità che una variante sia migliore di un&#39;altra, ad esempio &quot;92% di probabilità che la variante B batta Control&quot;. [!UICONTROL Bayesiano] è ideale per campioni di dimensioni più piccole, per il monitoraggio continuo, per le parti interessate che preferiscono le probabilità o quando si ha una conoscenza precedente dei test passati da applicare. Non è ideale quando hai bisogno di un accordo rigoroso sulle normative o sulla conformità, o di valori p tradizionali. I report mostrano [!UICONTROL possibilità di controllo battute] e un intervallo credibile invece della colonna [!UICONTROL Affidabilità].</li><li>**[!UICONTROL Test t di Welch (Frequentist)]**: la metodologia tradizionale di testing delle ipotesi esistente. Utilizza valori p e richiede una dimensione campione fissa. I rapporti mostrano una percentuale di [!UICONTROL affidabilità] e un intervallo di affidabilità.</li></ul>Questa impostazione è disponibile solo per le attività la cui metrica obiettivo principale è [!UICONTROL Conversione], le attività con [!UICONTROL Ricavi] o [!UICONTROL Coinvolgimento] utilizzano sempre il test t di [!UICONTROL Welch]. Per ulteriori informazioni su come viene calcolata e segnalata ogni metodologia, vedere [Calcoli statistici nei test A/Bn](/help/main/c-reports/statistical-methodology/statistical-calculations.md). |
-| [!UICONTROL Configurazione bayesiana] | Visualizzato solo quando [!UICONTROL Bayesiano] è selezionato come [!UICONTROL Metodologia statistica]. Configura le seguenti opzioni:<ul><li>[!UICONTROL Intervallo credibile]: imposta l&#39;intervallo entro il quale è previsto che l&#39;effetto reale rientri.</li><li>[!UICONTROL Soglia di decisione]: imposta la probabilità minima che una variante deve raggiungere, rispetto a [!UICONTROL Controllo], prima di poter essere dichiarata vincitrice. </li><li>[!UICONTROL Utilizzare le conoscenze precedenti dei test passati?]: attivare questa opzione per fornire le conoscenze precedenti sulle prestazioni passate per informare il calcolo [!UICONTROL bayesiano].</li></ul> |
+![](../../assets/goals-ab-2.png)
 
+### Origine per i rapporti {#reporting-source}
+
+Specifica da quali dati della soluzione vengono raccolti:
+
+* [!DNL Adobe Target]
+
+* [!DNL Adobe Analytics]
+
+  +++ Ulteriori informazioni su Analytics come origine per la generazione di rapporti
+
+  Consulta [Adobe Analytics come origine per la generazione di rapporti per Target](/help/main/c-integrating-target-with-mac/a4t/a4t.md) per scoprire le differenze tra le soluzioni di reporting e i vantaggi di ciascuna. Quando selezioni [!DNL Analytics] come origine per la generazione di rapporti per [!DNL Target], selezioni una suite di rapporti [!DNL Analytics] per ricevere i dati dell&#39;attività [!DNL Target].
+
+  Per specificare un&#39;origine per la generazione di rapporti, scegliere innanzitutto una delle [!DNL Analytics] società associate al proprio account, quindi selezionare la suite di rapporti appropriata per l&#39;attività. È possibile selezionare solo le suite di rapporti predisposte per la connessione a [!DNL Adobe Target]. Se le suite di rapporti previste non sono visualizzate, disconnettersi e accedere di nuovo a [!DNL Adobe Experience Cloud] per riprovare. Se la suite di rapporti non è ancora presente nell’elenco, contatta l’Assistenza clienti.
+
+  [!DNL Analytics for Target] (A4T) richiede un server di tracciamento per riportare correttamente i risultati. Nel campo **[!UICONTROL Server di monitoraggio]** viene visualizzato un server di monitoraggio predefinito. Se utilizzi più server di tracciamento, assicurati di includere in questo campo il server di tracciamento corretto. Per ulteriori informazioni, vedere [Utilizzo di un server di tracciamento di Analytics](/help/main/c-integrating-target-with-mac/a4t/analytics-tracking-server.md#task_72077BA7E93C4A65A715A18F32228823).
+  +++
+
+* [!DNL Adobe Customer Journey Analytics]
+
+  +++ Ulteriori informazioni su Customer Journey Analytics come origine per la generazione di rapporti
+
+  Consulta [[!DNL Target] creazione di rapporti in [!DNL Adobe Customer Journey Analytics]](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md) per i tipi di attività supportati, selezione di sandbox e visualizzazioni dati, metriche obiettivo e impostazione di reporting in [!DNL Customer Journey Analytics].
+  +++
+
+Se un&#39;origine per la generazione di rapporti è specificata nelle [impostazioni account](/help/main/administrating-target/reporting.md), viene utilizzata l&#39;origine specificata e questa impostazione non è visibile.
+
+Al fine di mantenere coerenza dei rapporti, non è possibile modificare l’origine per i rapporti una volta che l’attività è diventata attiva.
+
+### Metrica per obiettivo {#goal-metric}
+
+>[!NOTE]
+>
+>Se la soluzione di reporting è impostata su [!DNL Analytics], l&#39;unica metrica di obiettivo disponibile è **[!UICONTROL Conversione]**. Impossibile selezionare [!DNL Analytics] metriche come obiettivo.
+
+Seleziona l’azione che deve essere eseguita da un visitatore per raggiungere l’obiettivo. Ad esempio, scegli una metrica **[!UICONTROL Conversione]**, quindi imposta i parametri che determinano quando viene raggiunto il successo.
+
+Per ulteriori informazioni sull’impostazione delle metriche, consulta [Impostare le metriche](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-set-metrics.md).
+
+Per altre opzioni, fai clic sull&#39;icona **[!UICONTROL Altro]** accanto alla metrica obiettivo, quindi fai clic su **[!UICONTROL Impostazioni avanzate]**. Consulta [Impostazioni avanzate](#section_E2FE441AFB324E498793ABB025ED9974).
+
+![](../../assets/goals-ab-3.png)
+
+Se attivato, il campo **[!UICONTROL Valore stimato della conversione]** fornisce un valore per l&#39;obiettivo, ma non per altre metriche. A questo campo si applicano i seguenti punti:
+
+* Il valore consente a [!DNL Target] di calcolare un incremento stimato dei ricavi.
+* Il campo è facoltativo; tuttavia, i ricavi incrementali per qualsiasi metrica non relativa ai ricavi non possono essere calcolati senza di esso.
+* Il campo non è disponibile per le metriche **[!UICONTROL Punteggio di pagina]**.
+* Per tutte le metriche relative ai ricavi (**[!UICONTROL Ricavi per visitatore]**, **[!UICONTROL Valore medio ordine]**, **[!UICONTROL Vendite totali]** e **[!UICONTROL Ordini]**), la stima utilizza **[!UICONTROL Ricavi per visitatore]**. Il tipo di dati è valuta.
+
+### Additional Metrics (Metriche aggiuntive) {#additional-metrics}
+
+Questa impostazione non è disponibile se la soluzione di reporting è impostata su [!DNL Analytics]. In questo caso, vengono applicate le metriche definite per la suite di rapporti [!DNL Analytics].
+
+### Tipi di pubblico per i rapporti {#audiences-for-reporting}
+
+![](../../assets/goals-ab-4.png)
+
+Per impostazione predefinita, nei rapporti sono mostrati i risultati per tutti i visitatori idonei. È possibile aggiungere tipi di pubblico per i rapporti per mostrare informazioni solo su tipi di pubblico specifici.
+
+Tieni presente che questa impostazione non è disponibile se scegli [!DNL Analytics] come soluzione per la generazione di rapporti. Il pubblico definito per la suite di rapporti [!DNL Analytics] è applicato.
 
 ## Impostazioni avanzate {#section_E2FE441AFB324E498793ABB025ED9974}
 
-La sezione [!UICONTROL Impostazioni avanzate] della pagina [!UICONTROL Obiettivi e impostazioni] consente di configurare le opzioni avanzate.
+La sezione **[!UICONTROL Impostazioni avanzate]** della pagina **[!UICONTROL Obiettivi e impostazioni]** consente di configurare le opzioni avanzate.
 
-Per specificare le impostazioni avanzate, fai clic sull&#39;icona **[!UICONTROL Altro]** ( ![Altro icona](/help/main/assets/icons/MoreSmallList.svg) ) nella sezione [!UICONTROL Obiettivo primario], quindi fai clic su **[!UICONTROL Impostazioni avanzate]**.
+Per specificare le impostazioni avanzate, fai clic sull&#39;icona **[!UICONTROL Altro]** ( ![Altro icona](/help/main/assets/icons/MoreSmallList.svg) ) nella sezione **[!UICONTROL Obiettivo primario]**, quindi fai clic su **[!UICONTROL Impostazioni avanzate]**.
+
+![](../../assets/goals-ab-3.png)
 
 >[!NOTE]
 >
 >Se utilizzi [!DNL Adobe Analytics] come origine per la generazione dei rapporti, le impostazioni vengono gestite dal server [!DNL Analytics]. L&#39;opzione Impostazioni avanzate non è disponibile.
 
-Sono disponibili le seguenti opzioni:
+### Quali sono le metriche di successo da raggiungere prima di incrementare questa metrica? {#dependencies}
 
-| Impostazione | Descrizione |
-|--- |--- |
-| [!UICONTROL Quale metrica di successo deve essere raggiunta prima di incrementare questa metrica?] | Utilizza questa opzione per contare solo chi raggiunge la metrica di successo se in precedenza aveva raggiunto una metrica di successo diversa. Ad esempio, una conversione di attività potrebbe essere valida solo se il visitatore fa clic sull’offerta o raggiunge una pagina particolare prima della conversione. È possibile fornire la dipendenza su più metriche insieme alla flessibilità necessaria, per scegliere se la metrica debba essere raggiunta o meno per incrementare il conteggio. Definisci entrambe le metriche (o più metriche) di successo prima di renderle interdipendenti tra loro. L’opzione [!UICONTROL Aggiungi dipendenza] consente di incrementare la metrica di successo nel caso in cui un’altra metrica di successo venga raggiunta o meno. Per aggiungere una dipendenza:<ul><li>Dopo aver aggiunto le metriche aggiuntive, fai clic su [!UICONTROL Impostazioni avanzate].</li><li>Fai clic sull’opzione [!UICONTROL Aggiungi dipendenza]:</li><li>Trascina e rilascia le metriche desiderate dal riquadro di sinistra a quello di destra, quindi fai clic su [!UICONTROL Raggiunto] per scegliere tra [!UICONTROL Raggiunto] e[!UICONTROL &#x200B; Non raggiunto].</li><li>È possibile modificare o rimuovere le dipendenze dopo averle aggiunte.</li></ul> |
-| [!UICONTROL Cosa succede quando un utente incontra questa metrica per obiettivo?] | Dopo che un visitatore raggiunge la metrica obiettivo, sono disponibili tre opzioni:<ul><li>Seleziona **[!UICONTROL Incrementa il conteggio e mantieni utente attivo]** per specificare la modalità di incremento del conteggio.</li><li>Seleziona **[!UICONTROL Incrementa il conteggio, rilascia l’utente e consenti nuovo accesso]** per specificare l’esperienza che l’utente vedrà se accede di nuovo all’attività.</li><li>Seleziona **[!UICONTROL Incrementa il conteggio, rilascia l&#39;utente e impedisci nuovo accesso]** per specificare cosa vedrà l&#39;utente al posto del contenuto dell&#39;attività.</li></ul> |
-| [!UICONTROL Come verrà incrementato il conteggio?] | Sono disponibili tre opzioni per l’incremento del conteggio:<ul><li>[!UICONTROL Una volta per partecipante]</li><li>[!UICONTROL Su ogni impression (esclusi aggiornamenti pagina)]</li><li>[!UICONTROL Su ogni impression]</li></ul> |
+Utilizza questa opzione per contare solo chi raggiunge la metrica di successo se in precedenza aveva raggiunto una metrica di successo diversa. Ad esempio, una conversione di attività potrebbe essere valida solo se il visitatore fa clic sull’offerta o raggiunge una pagina particolare prima della conversione.
 
-Consulta [Metriche di successo](/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924) per ulteriori informazioni sulle impostazioni avanzate.
+È possibile fornire la dipendenza su più metriche insieme alla flessibilità necessaria, per scegliere se la metrica debba essere raggiunta o meno per incrementare il conteggio. Definisci entrambe le metriche (o più metriche) di successo prima di renderle interdipendenti tra loro. L’opzione **[!UICONTROL Aggiungi dipendenza]** consente di incrementare la metrica di successo nel caso in cui un’altra metrica di successo venga raggiunta o meno.
+
+Per aggiungere una dipendenza:
+
+1. Dopo aver aggiunto le metriche aggiuntive, fai clic su **[!UICONTROL Impostazioni avanzate]**.
+
+1. Fai clic sull&#39;opzione **[!UICONTROL Aggiungi dipendenza]**.
+
+1. Trascina e rilascia le metriche desiderate, quindi fai clic su **[!UICONTROL Raggiunto]** per scegliere tra **[!UICONTROL Raggiunto]** e **[!UICONTROL Non raggiunto]**.
+
+È possibile modificare o rimuovere le dipendenze dopo averle aggiunte.
+
+### Cosa accade dopo che un utente incontra questa metrica per obiettivo? {#after-goal}
+
+Dopo aver raggiunto l’obiettivo dell’attività, un visitatore continua a vedere il contenuto dell’attività, a meno che il visitatore non sia idoneo per un’attività di priorità più elevata. Se il visitatore raggiunge nuovamente l’obiettivo, viene conteggiato come un’altra conversione. Si tratta di un comportamento diverso da quello predefinito in [!DNL Target Classic], che ha conteggiato i visitatori come nuovi se visualizzavano nuovamente l&#39;attività.
+
+Dopo che un visitatore raggiunge la metrica obiettivo, sono disponibili tre opzioni:
+
+* **[!UICONTROL Incrementa il conteggio e mantieni utente attivo]** per specificare come viene incrementato il conteggio.
+* **[!UICONTROL Incrementa il conteggio, rilascia l&#39;utente e consenti nuovo accesso]** per specificare l&#39;esperienza che l&#39;utente vedrà se accede di nuovo all&#39;attività.
+* **[!UICONTROL Incrementa il conteggio, rilascia l&#39;utente e impedisci nuovo accesso]** per specificare cosa vedrà l&#39;utente al posto del contenuto dell&#39;attività.
+
+### Come verrà incrementato il conteggio? {#count-increment}
+
+Sono disponibili tre opzioni per l’incremento del conteggio:
+
+* **[!UICONTROL Una volta per partecipante]**
+* **[!UICONTROL Su ogni impression (esclusi aggiornamenti pagina)]**
+* **[!UICONTROL Su ogni impression]**
+
+Consulta [Metriche di successo](/help/main/c-activities/r-success-metrics/success-metrics.md#overview) per ulteriori informazioni sulle impostazioni avanzate.
+
+## Metodologia statistica {#section_statistical-methodology}
+
+La sezione **[!UICONTROL Metodologia statistica]** della pagina **[!UICONTROL Obiettivi e impostazioni]** consente di scegliere come analizzare i risultati dell&#39;esperimento.
+
+### Opzioni di metodologia {#methodology-options}
+
+Questa scelta determina il framework statistico, le metriche dei risultati e i criteri di decisione utilizzati per la metrica dell&#39;obiettivo **[!UICONTROL Conversione]** di questa attività:
+
+* **[!UICONTROL Bayesiano]:** decisioning basato sulle probabilità che aggiorna le credenze con l&#39;arrivo dei dati e supporta il monitoraggio continuo e dimensioni di campione inferiori. I risultati sono espressi come probabilità che una variante sia migliore di un&#39;altra, ad esempio &quot;92% di probabilità che la variante B batta Control&quot;.
+  * Ideale per campioni di dimensioni più piccole, monitoraggio continuo, stakeholder che preferiscono le probabilità o quando si ha una conoscenza pregressa da test passati da applicare.
+  * Non è ideale quando hai bisogno di un accordo rigoroso sulle normative o sulla conformità, o di valori p tradizionali.
+  * I report mostrano **[!UICONTROL possibilità di controllo battute]** e un intervallo credibile invece della colonna **[!UICONTROL Affidabilità]**.
+* **[!UICONTROL Test t di Welch (Frequentist)]:** La metodologia tradizionale di testing delle ipotesi esistente. Utilizza valori p e richiede una dimensione campione fissa. I rapporti mostrano una percentuale di **[!UICONTROL affidabilità]** e un intervallo di affidabilità.
+
+Questa impostazione è disponibile solo per le attività la cui metrica obiettivo principale è **[!UICONTROL Conversione]**. Le attività con obiettivo primario **[!UICONTROL Ricavi]** o **[!UICONTROL Coinvolgimento]** utilizzano sempre il test t di **[!UICONTROL Welch]**.
+
+Per ulteriori informazioni su come viene calcolata e segnalata ogni metodologia, vedere [Calcoli statistici nei test A/Bn](/help/main/c-reports/statistical-methodology/statistical-calculations.md).
+
+### Configurazione bayesiana {#bayesian-configuration}
+
+Questa impostazione viene visualizzata solo quando **[!UICONTROL Bayesiano]** è selezionato come **[!UICONTROL Metodologia statistica]**. Configura le seguenti opzioni:
+
+* **[!UICONTROL Intervallo credibile]**: imposta l&#39;intervallo entro il quale è previsto che l&#39;effetto reale rientri.
+* **[!UICONTROL Soglia di decisione]**: imposta la probabilità minima che una variante deve raggiungere, rispetto a **[!UICONTROL Controllo]**, prima di poter essere dichiarata vincitrice.
+* **[!UICONTROL Utilizzare le conoscenze precedenti dei test passati?]**: attivare questa opzione per fornire le conoscenze precedenti sulle prestazioni passate per informare il calcolo **[!UICONTROL bayesiano]**.
 
 ## Altri metadati {#section_2E8917BEFB954480A4206B9E9E917F80}
 
-La sezione [!UICONTROL Altri metadati] della pagina [!UICONTROL Obiettivi e impostazioni] consente di specificare qualsiasi informazione sull&#39;attività utile da tenere a portata di mano per se stessi o per altri membri del team. Il riquadro Note è ridimensionabile.|
+La sezione **[!UICONTROL Altri metadati]** della pagina **[!UICONTROL Obiettivi e impostazioni]** consente di specificare qualsiasi informazione sull&#39;attività utile da tenere a portata di mano per se stessi o per altri membri del team.

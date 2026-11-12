@@ -27,7 +27,7 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: d887712962ad4e3cecd6b3b86ee33a4bcb99f2a8
 workflow-type: tm+mt
 source-wordcount: '3768'
 ht-degree: 32%
@@ -59,7 +59,7 @@ In questi test, la maggior parte dei prodotti, incluso [!DNL Target], utilizza u
 ## Quando utilizzare [!UICONTROL Allocazione automatica] rispetto a [!UICONTROL Attività A/B Test] o [!UICONTROL Attività Automated Personalization] {#section_3F73B0818A634E4AAAA60A37B502BFF9}
 
 * Utilizza l&#39;**[!UICONTROL Allocazione automatica]** quando vuoi ottimizzare l&#39;attività fin dall&#39;inizio e identificare le esperienze vincenti il più rapidamente possibile. Rendendo più frequenti le esperienze ad alte prestazioni, le prestazioni complessive dell’attività aumentano.
-* Utilizza un **[test A/B](/help/main/c-activities/t-test-ab/test-ab.md#task_05E33EB15C4D4459B5EAFF90A94A7977)** standard quando vuoi caratterizzare le prestazioni di tutte le esperienze prima di ottimizzare il sito. Un test A/B consente di classificare tutte le esperienze, mentre l&#39;[!UICONTROL allocazione automatica] trova le prestazioni migliori ma non garantisce la differenziazione tra le prestazioni più basse.
+* Utilizza un **[test A/B](/help/main/c-activities/t-test-ab/test-ab.md#test-ab)** standard quando vuoi caratterizzare le prestazioni di tutte le esperienze prima di ottimizzare il sito. Un test A/B consente di classificare tutte le esperienze, mentre l&#39;[!UICONTROL allocazione automatica] trova le prestazioni migliori ma non garantisce la differenziazione tra le prestazioni più basse.
 * Utilizza [Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) quando desideri algoritmi di ottimizzazione della complessità più elevata, ad esempio modelli di apprendimento automatico che generano previsioni basate su attributi di profilo individuali. [!UICONTROL Allocazione automatica] esamina il comportamento aggregato delle esperienze (proprio come i test A/B standard) e non distingue tra i visitatori.
 
 ## Vantaggi principali di [!UICONTROL Allocazione automatica] {#section_0913BF06F73C4794862561388BBDDFF0}
@@ -104,7 +104,7 @@ L&#39;illustrazione mostra come il traffico assegnato a ogni esperienza progredi
 >
 >Se un&#39;attività ha solo due esperienze, entrambe ottengono la stessa quantità di traffico fino a quando [!DNL Target] trova un&#39;esperienza vincente con il 75% di affidabilità. A quel punto, due terzi del traffico vengono assegnati al vincitore e un terzo al perdente. Successivamente, quando un’esperienza raggiunge il 95% di affidabilità, il 90% del traffico viene assegnato al vincitore e il 10% al perdente. [!DNL Target] invia sempre del traffico all&#39;esperienza &quot;perdente&quot; per evitare falsi positivi alla fine (ovvero, mantieni alcune esplorazioni).
 
-Dopo l&#39;attivazione di un&#39;attività [!UICONTROL Allocazione automatica], le operazioni seguenti dell&#39;interfaccia utente Target non sono consentite:
+Dopo l&#39;attivazione di un&#39;attività [!UICONTROL Allocazione automatica], le operazioni seguenti dell&#39;interfaccia utente Tar[!DNL]get non sono consentite:
 
 * Impostazione della modalità di Allocazione traffico su Manuale
 * Modifica del tipo di metrica obiettivo
@@ -258,7 +258,7 @@ Questo video include informazioni su come impostare l&#39;allocazione del traffi
 * Selezionare il metodo di allocazione del traffico
 * Allocare il traffico tra diverse esperienze
 
->[!VIDEO](https://video.tv.adobe.com/v/3507595?captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/17385)
 
 ### Creazione di test A/B (8:36) ![Icona esercitazione](/help/main/assets/tutorial.png)
 
@@ -267,4 +267,4 @@ In questo video viene illustrato come creare un test A/A utilizzando il flusso d
 * Crea un&#39;attività A/B in [!DNL Adobe Target]
 * Allocare il traffico con suddivisione manuale o automatica del traffico
 
->[!VIDEO](https://video.tv.adobe.com/v/36325?captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/17391)

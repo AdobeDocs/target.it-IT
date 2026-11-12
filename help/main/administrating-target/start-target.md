@@ -1,6 +1,6 @@
 ---
 keywords: Amministrazione;ruolo approvatore;approvatore
-description: Eseguire le prime attività [!DNL Adobe Target] che gli amministratori devono eseguire dopo aver ricevuto l'invito a [!DNL Adobe Experience Cloud].
+description: Esegui le prime attività che gli amministratori di Adobe Target devono intraprendere dopo aver ricevuto l’invito ad Adobe Experience Cloud.
 title: Dove Si Inizia Ad Amministrare [!DNL Target]?
 feature: Administration & Configuration
 role: Admin
@@ -22,61 +22,74 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 553aa8fb523a62f72f0e2be7d7fd1b4eb663da6b
 workflow-type: tm+mt
-source-wordcount: '474'
-ht-degree: 29%
+source-wordcount: '556'
+ht-degree: 9%
 ---
 # Primi passaggi per l&#39;amministratore
 
-Questo articolo contiene i primi passi che gli amministratori di [!DNL Adobe Target] devono compiere dopo aver ricevuto l&#39;invito a [!DNL Adobe Experience Cloud].
+Completa questi passaggi dopo aver ricevuto un invito a partecipare a [!DNL Adobe Target] tramite [!DNL Adobe Experience Cloud]. Quando sei pronto a configurare le impostazioni predefinite dell&#39;account, vedi [Come posso amministrare Target?](/help/main/administrating-target/administrating-target.md). Per informazioni su come trovare **[!UICONTROL Amministrazione]** nell&#39;interfaccia utente, vedere [Comprendere l&#39;interfaccia utente [!DNL Target] UI](/help/main/c-intro/understand-the-target-ui.md).
+
+**Panoramica del flusso di lavoro**
+
+1. [Ricevi un invito per Target](#task_3E0817630774431983FAA3D2CB2E75BD): un amministratore di sistema ti aggiunge in [!DNL Adobe Admin Console].
+1. [Accetta l&#39;invito](#task_24FE66659E634B24AB61DB8497772E17): accedi a [!DNL Experience Cloud] e collega il tuo account [!DNL Target].
+1. [Assegnarsi il ruolo Approvatore](#task_15CAA437A71444E2932B333D5E66A3C7): confermare l&#39;accesso e le autorizzazioni per il tipo di licenza.
+1. [Gestione utenti](/help/main/administrating-target/c-user-management/user-management.md): aggiungere utenti e assegnare ruoli per [!DNL Target Standard] o [!DNL Target Premium].
 
 ## Ricevi invito per [!DNL Target] {#task_3E0817630774431983FAA3D2CB2E75BD}
 
-Un amministratore di sistema in [!DNL Adobe Admin Console] deve aggiungerti come utente in [!DNL Target] invitandoti a partecipare. L’amministratore di sistema deve quindi aggiungerti a uno o più profili di prodotto (gruppi di utenti) specifici per il tuo ruolo. Entrambe queste attività vengono eseguite in [Adobe Admin Console](https://adminconsole.adobe.com).
+Un amministratore di sistema in [!DNL Adobe Admin Console] deve aggiungerti come utente in [!DNL Target] invitandoti a partecipare. L’amministratore deve inoltre aggiungerti a uno o più profili di prodotto (gruppi di utenti) specifici per il tuo ruolo. Entrambe le attività vengono eseguite in [Adobe Admin Console](https://adminconsole.adobe.com).
 
-Per ulteriori informazioni, vedere [Gestione dei gruppi di utenti](https://helpx.adobe.com/it/enterprise/using/users.html).
+Per istruzioni dettagliate, consulta [Scopri come gestire utenti e profili di prodotto](https://helpx.adobe.com/enterprise/using/users.html) nella documentazione di Adobe Enterprise.
 
-Dopo che l’amministratore di sistema avrà eseguito questi passaggi, riceverai un’e-mail di invito.
+Dopo che l’amministratore avrà completato questi passaggi, riceverai un’e-mail di invito.
 
 ## Accettare l&#39;invito {#task_24FE66659E634B24AB61DB8497772E17}
 
-Dopo aver ricevuto l&#39;invito ad aderire a [!DNL Adobe Experience Cloud], accettare l&#39;invito, accedere e accettare il [!UICONTROL Contratto di licenza con l&#39;utente finale] (EULA).
+Dopo aver ricevuto l&#39;invito a partecipare a [!DNL Adobe Experience Cloud], accettarlo, accedere e accettare il [!UICONTROL Contratto di licenza con l&#39;utente finale] (EULA).
+
+Utilizzare la procedura seguente per accettare l&#39;invito e collegare [!DNL Target] al proprio account [!DNL Experience Cloud]:
 
 1. Accetta l’invito per [!DNL Adobe Experience Cloud].
 1. Se non disponi già di un Adobe ID, viene richiesto di crearne uno.
 
-   Se disponi di un Adobe ID, il tuo Adobe ID viene riconosciuto e ti viene richiesto di accedere.
+   Se disponi già di un Adobe ID, accedi quando richiesto.
+
 1. Accetta le [!UICONTROL Condizioni per l&#39;utilizzo].
+
 1. Rivedi il riepilogo di quello che hai fatto finora, quindi fai clic su **[!UICONTROL Continua per Experience Cloud]**.
+
 1. Accedi a [!DNL Adobe Experience Cloud] e fai clic su **[!UICONTROL Collega account]**.
 
    >[!NOTE]
    >
-   >Se non colleghi l’account, non potrai accedere ad [!DNL Target].
+   >Se non colleghi l&#39;account, non puoi accedere a [!DNL Target].
 
-   Tutti i prodotti [!UICONTROL Experience Cloud] vengono visualizzati nella pagina di collegamento. Fai clic su `Link Target` e immetti il nome utente e la password di [!DNL Target] per accedere a [!DNL Target].
+   Tutti i prodotti [!UICONTROL Experience Cloud] vengono visualizzati nella pagina di collegamento. Fai clic su **[!UICONTROL Collega destinazione]**, quindi immetti il nome utente e la password di [!DNL Target].
 1. Fai clic su **[!UICONTROL Continua su Experience Cloud]**.
 
-   A questo punto, non disponi ancora di gruppi configurati con diritti per effettuare collegamenti.
-1. Puoi guardare il video con l’introduzione ad [!DNL Adobe Experience Cloud].
-1. Per visualizzare i nuovi privilegi e accedere al prodotto, disconnettiti da [!DNL Adobe Experience Cloud], quindi accedi nuovamente.
-1. Procedi al passaggio successivo, [Assegnarsi il ruolo Approvatore](/help/main/administrating-target/start-target.md#task_15CAA437A71444E2932B333D5E66A3C7).
+   A questo punto, è possibile che non si disponga ancora di profili di prodotto con autorizzazioni per il collegamento; l&#39;amministratore di sistema può assegnare tali profili in [!DNL Adobe Admin Console].
+1. Se necessario, guarda il video che introduce [!DNL Adobe Experience Cloud].
+1. Per aggiornare i privilegi e aprire il prodotto, disconnettiti da [!DNL Adobe Experience Cloud], quindi accedi di nuovo.
+1. Continua con [Assegnati il ruolo Approvatore](#task_15CAA437A71444E2932B333D5E66A3C7).
 
 ## Assegnarsi il ruolo Approvatore {#task_15CAA437A71444E2932B333D5E66A3C7}
 
-Dopo aver accettato l&#39;invito ad aderire a [!DNL Adobe Experience Cloud] e aver effettuato l&#39;accesso, verificare che [!DNL Target] sia stato aggiunto al tuo account [!DNL Experience Cloud], quindi assegnarti il ruolo [!UICONTROL Approvatore] per [!DNL Target].
+Dopo aver accettato l&#39;invito e aver effettuato l&#39;accesso, verificare che [!DNL Target] sia presente nell&#39;account [!DNL Experience Cloud], quindi assegnare la mansione [!UICONTROL Approvatore] per [!DNL Target].
 
-Se la tua organizzazione dispone di una licenza di [Target Standard](/help/main/c-intro/intro.md#section_ACD5EFF17AAB4E979CBEFA0145CCD905), consulta [Specificare ruoli e autorizzazioni](/help/main/administrating-target/c-user-management/c-user-management/user-management.md#roles-permissions) in *Utenti*.
+Scegli la guida che corrisponde alla tua licenza:
 
-Se la tua organizzazione dispone di una licenza di [Target Premium](/help/main/c-intro/intro.md#premium), consulta il [Passaggio 6: specificare ruoli e autorizzazioni](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md#section_8C425E43E5DD4111BBFC734A2B7ABC80) in *Configurare le autorizzazioni Enterprise*.
+* Se la tua organizzazione dispone di una licenza di [Target Standard](/help/main/c-intro/intro.md#section_ACD5EFF17AAB4E979CBEFA0145CCD905), consulta [Scopri come specificare ruoli e autorizzazioni](/help/main/administrating-target/c-user-management/c-user-management/user-management.md#roles-permissions) in *Utenti*.
+* Se la tua organizzazione dispone di una licenza di [Target Premium](/help/main/c-intro/intro.md#premium), consulta il [Passaggio 6: specificare ruoli e autorizzazioni](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md#section_8C425E43E5DD4111BBFC734A2B7ABC80) in *Configurare le autorizzazioni Enterprise*.
 
-Il passaggio successivo deve essere la configurazione degli utenti in [!DNL Target Standard] e [!DNL Target Premium]. Per ulteriori informazioni, consulta [Gestione utenti](/help/main/administrating-target/c-user-management/user-management.md).
+È quindi possibile configurare gli utenti per [!DNL Target Standard] o [!DNL Target Premium]. Consulta [Gestione utente](/help/main/administrating-target/c-user-management/user-management.md) per una panoramica e collegamenti al flusso di lavoro corretto per la licenza.
 
 ## Autorizzazioni necessarie per modificare le impostazioni di [!UICONTROL Amministrazione] {#admin-permissions}
 
-**Prima del 22 aprile 2025**: gli utenti con i diritti [!UICONTROL Approvatori] in [!DNL Adobe Admin Console] possono modificare o modificare tutte le impostazioni nella pagina [[!UICONTROL Amministrazione]](/help/main/administrating-target/administrating-target.md) di [!DNL Target], indipendentemente dal ruolo [!DNL Target].
+**Prima del 22 aprile 2025**: gli utenti con i diritti [!UICONTROL Approvatori] in [!DNL Adobe Admin Console] possono modificare o modificare tutte le impostazioni nelle pagine [[!UICONTROL Amministrazione]](/help/main/administrating-target/administrating-target.md) in [!DNL Target], indipendentemente dal ruolo [!DNL Target].
 
-**In vigore dal 22 aprile 2025**: solo gli amministratori di [!UICONTROL Prodotto] e [!UICONTROL Soluzioni] potranno aggiornare le impostazioni nelle sezioni [[!UICONTROL Amministrazione]](/help/main/administrating-target/administrating-target.md), indipendentemente dai ruoli che ricoprono nelle [!DNL Target] aree di lavoro. Gli utenti senza questa autorizzazione avranno accesso in sola lettura alle sezioni [!UICONTROL Amministrazione].
+**A partire dal 22 aprile 2025**: solo gli amministratori di [!UICONTROL Prodotto] e [!UICONTROL Soluzioni] possono aggiornare le impostazioni nelle sezioni [[!UICONTROL Amministrazione]](/help/main/administrating-target/administrating-target.md), indipendentemente dai ruoli che ricoprono nelle [!DNL Target] aree di lavoro. Gli utenti senza questa autorizzazione dispongono dell&#39;accesso in sola lettura alle sezioni [!UICONTROL Amministrazione].
 
-Questo aggiornamento migliora il controllo dell&#39;organizzazione sulle configurazioni delle istanze [!DNL Target], impedendo aggiornamenti accidentali che potrebbero influire sulla distribuzione delle attività tra i vari team di test e personalizzazione.
+Questa modifica migliora il controllo dell&#39;organizzazione sulla configurazione dell&#39;istanza [!DNL Target] e consente di evitare aggiornamenti accidentali che potrebbero influire sulla distribuzione delle attività tra i team di test e personalizzazione.

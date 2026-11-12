@@ -1,6 +1,8 @@
 ---
 keywords: scene7;dynamic media classic;gestione risorse digitali;digital asset management;risorse;assets;dam;libreria contenuti;cambiare immagine
-description: Scopri come integrare Adobe [!DNL Target] con Adobe Dynamic Media Classic (precedentemente Scene7) per il Digital Asset Management (DAM) nella libreria dei contenuti.
+description: Connetti Adobe Target a Adobe Dynamic Media Classic (Scene7) per consentire agli autori di utilizzare le offerte di immagini e scambiare immagini dalle risorse Experience Cloud nelle attività.
+landing-page-description: Configura la configurazione Scene7 in Amministrazione per abilitare le offerte di immagini, i flussi di lavoro DAM della libreria dei contenuti e le azioni di scambio delle immagini nel Compositore esperienza visivo e nel Compositore esperienza basato su moduli.
+short-description: Configura la configurazione Scene7 in Amministrazione per abilitare le offerte di immagini, i flussi di lavoro DAM della libreria dei contenuti e le azioni di scambio delle immagini nel Compositore esperienza visivo e nel Compositore esperienza basato su moduli.
 title: Come si configura l’integrazione Dynamic Media Classic (Scene7)?
 feature: Administration & Configuration
 role: Admin
@@ -10,6 +12,8 @@ product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
     internal-label: Target
 feature_v2:
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
     internal-label: Implementation
   - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
@@ -18,57 +22,70 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
 topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-    internal-label: Reporting
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
   - id: da3860b0-d637-47df-bef0-273751180266
     internal-label: Digital asset management
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 553aa8fb523a62f72f0e2be7d7fd1b4eb663da6b
 workflow-type: tm+mt
-source-wordcount: '403'
-ht-degree: 78%
+source-wordcount: '541'
+ht-degree: 5%
 ---
-# Configurazione di Dynamic Media Classic (precedentemente Scene7)
+# Configurare Dynamic Media Classic (Scene7)
 
-[!DNL Adobe Target] può essere integrato con [!DNL Adobe Dynamic Media Classic] (precedentemente [!DNL Scene7]) per fornire Digital Asset Management (DAM) nella [!UICONTROL Libreria contenuti].
+Utilizzare la scheda **[!UICONTROL Configurazione Scene7]** in **[!UICONTROL Amministrazione]** per connettere [!DNL Adobe Target] a [!DNL Adobe Dynamic Media Classic] (in precedenza [!DNL Scene7]). L&#39;integrazione porta Digital Asset Management (DAM) nella [!UICONTROL Libreria contenuti] e abilita i flussi di lavoro di scambio immagini nelle attività.
+
+Per informazioni su come questa scheda si adatta ad altre attività di amministrazione, vedere [Come posso amministrare Target?](/help/main/administrating-target/administrating-target.md). Per individuare **[!UICONTROL Amministrazione]** nell&#39;interfaccia, vedere [Comprendere l&#39;interfaccia utente [!DNL Target] 4}.](/help/main/c-intro/understand-the-target-ui.md)
+
+**Panoramica**
+
+1. [Funzionalità dell&#39;integrazione](#what-it-enables): offerte di immagini, scambio di immagini e risorse idonee.
+1. [Account e credenziali](#account-and-credentials): account [!DNL Dynamic Media] esistenti e tipi di account supportati.
+1. [Linee guida per l&#39;utilizzo](#usage-guidelines): URL, consegna e ciò che non è supportato.
+1. [Configura Scene7 in Target](#configure-scene7): impostazioni di accesso e area geografica.
 
 {{permissions-update}}
 
->[!NOTE]
->
->L’integrazione di [!DNL Target] con [!DNL Dynamic Media Classic] consente la trasmissione delle risorse (come parte delle attività) caricate nella cartella risorse di [!DNL Adobe Experience Cloud]. Tale integrazione non consente l’accesso a tutte le risorse caricate in [!DNL Dynamic Media Classic] per la trasmissione alle attività di [!DNL Target].
+## Funzionalità dell&#39;integrazione {#what-it-enables}
 
-Se disponi già di un account [!DNL Dynamic Media], puoi fornire le tue credenziali. In caso contrario, puoi richiedere un account [!DNL Dynamic Media Classic] limitato, senza alcun costo aggiuntivo, rivolgendoti al tuo rappresentante [!DNL Adobe]. Questo account può essere utilizzato per scopi limitati solo in [!DNL Target]. Questo servizio viene reso disponibile ai clienti per i flussi di lavoro che necessitano di funzionalità di scambio immagini.
+Quando è configurata la configurazione **[!UICONTROL Scene7]**, gli autori possono utilizzare le immagini caricate nella cartella delle risorse [!DNL Adobe Experience Cloud] nelle attività [!DNL Target]. L&#39;opzione **[!UICONTROL Scambia offerta immagine]** viene visualizzata nel flusso di lavoro dell&#39;attività, incluso nel [Compositore esperienza visivo e Compositore esperienza basato su moduli](/help/main/c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D). Per informazioni sul comportamento di scambio nel Compositore esperienza visivo, consulta [Opzioni del Compositore esperienza visivo](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md).
 
-<!-- 
->[!NOTE]
->
->A restricted-use, free [!DNL Dynamic Media Classic] account for [!DNL Adobe Target] is no longer supported for new customers or new users. Existing sign-in credentials work as usual. 
--->
+Se questa impostazione non è configurata, **[!UICONTROL L&#39;offerta di scambio immagine]** non è disponibile durante la creazione dell&#39;attività.
 
-Se questa impostazione non è configurata, l&#39;opzione [!UICONTROL Scambia offerta immagine] nel flusso di lavoro di creazione attività non è disponibile. Dopo aver configurato questa impostazione, l&#39;opzione per scambiare/modificare le offerte di immagini è disponibile sia nel [Compositore esperienza visivo che nel Compositore esperienza basato su moduli](/help/main/c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D). Puoi quindi sfruttare le offerte di immagine con le immagini che sono state caricate da [!DNL Adobe Experience Cloud] e usarle in attività di [!DNL Target].
+L’integrazione distribuisce le risorse che fanno parte delle attività dalla cartella risorse di Experience Cloud. **not** espone ogni risorsa in [!DNL Dynamic Media Classic] per l&#39;utilizzo in [!DNL Target] attività.
 
-Se desideri fare riferimento a un URL di immagine pubblica direttamente in un&#39;offerta o codice personalizzato durante la creazione di attività, devi distribuire l&#39;immagine ai server web e utilizzare il tuo URL nel codice. Non è possibile ottenere l’URL pubblicato di un’immagine caricata su [!DNL Experience Cloud] per utilizzarlo direttamente o all’esterno dei flussi di lavoro di targeting utilizzando [!DNL Target]. Questa funzionalità non è consentita, secondo il contratto.
+Dopo la configurazione, gestisci le offerte di immagini nella libreria [!UICONTROL Offerte]. Vedi [Gestione contenuto](/help/main/c-experiences/c-manage-content/manage-content.md).
 
-Tieni presente che l’URL di archiviazione e gli URL di pubblicazione finali delle immagini di [!DNL Dynamic Media] sono diversi; fai attenzione a *NON* creare offerte utilizzando il collegamento di archiviazione delle immagini, poiché in tal caso la consegna non funziona. Utilizza piuttosto la funzionalità per offerte di immagini descritta nella documentazione di supporto.
+## Account e credenziali {#account-and-credentials}
 
-Per l’integrazione con [!DNL Dynamic Media Classic] ([!DNL Scene7]), devi specificare alcune delle seguenti informazioni.
+Se disponi già di un account [!DNL Dynamic Media], immetti tali credenziali nella pagina **[!UICONTROL Configurazione Scene7]**.
+
+Adobe non esegue più il provisioning degli account [!DNL Dynamic Media Classic] con utilizzo limitato e senza addebiti per i nuovi clienti [!DNL Target] o i nuovi utenti. Se la tua organizzazione dispone già delle credenziali di accesso per questa integrazione, continuerà a funzionare. Per domande sull&#39;account, contattare il rappresentante [!DNL Adobe].
+
+## Linee guida sull’utilizzo {#usage-guidelines}
+
+Quando utilizzi le immagini con questa integrazione, tieni presenti i seguenti vincoli:
+
+* **Offerte immagine, non URL di archiviazione.** [!DNL Dynamic Media] gli URL di archiviazione e gli URL di consegna pubblicati sono diversi. Non creare offerte dai collegamenti di archiviazione; la consegna non riesce. Utilizza invece [offerte immagine](/help/main/c-experiences/c-manage-content/manage-content.md) e flussi di lavoro di scambio immagini.
+* **URL pubblici nel codice personalizzato.** Per fare riferimento a un URL di immagine pubblica direttamente in un’offerta o in un codice personalizzato, ospita l’immagine sui tuoi server web e utilizza tale URL. Impossibile ottenere un URL pubblicato per un&#39;immagine caricata da Experience Cloud da utilizzare al di fuori dei flussi di lavoro di targeting [!DNL Target]. L&#39;utilizzo non è consentito dal contratto.
+* **Risorse idonee.** Solo le risorse caricate nella cartella delle risorse di Experience Cloud (e i flussi di lavoro supportati da questa integrazione) sono nell&#39;ambito, non l&#39;intero catalogo [!DNL Dynamic Media Classic].
+
+## Configurare Scene7 in Target {#configure-scene7}
+
+Utilizzare i passaggi seguenti per connettere [!DNL Dynamic Media Classic] ([!DNL Scene7]):
 
 1. Fare clic su **[!UICONTROL Amministrazione]** > **[!UICONTROL Configurazione Scene7]**.
+1. Immettere le informazioni sull&#39;account [!DNL Dynamic Media Classic]:
 
-1. Specifica le informazioni seguenti sull’account [!DNL Dynamic Media Classic]:
+   | Campo | Descrizione |
+   | --- | --- |
+   | **Area** | Area geografica del tuo account [!DNL Dynamic Media]: Nord America, Europa o Asia. |
+   | **Cartella ad hoc** | Percorso del contenuto esterno alla cartella di destinazione caricato manualmente in [!DNL Dynamic Media]. |
+   | **Indirizzo e-mail** | Indirizzo e-mail utilizzato per accedere a [!DNL Dynamic Media Classic] ([!DNL Scene7]). |
+   | **Password** | Password utilizzata per accedere a [!DNL Dynamic Media Classic] ([!DNL Scene7]). |
 
-   **Area geografica:** area geografica del tuo account [!DNL Dynamic Media], Nord America, Europa o Asia.
-
-   **Adhoc folder** (Cartella ad hoc): posizione del contenuto che si trova al di fuori della cartella di Target e viene caricato manualmente in [!DNL Dynamic Media].
-
-   **Indirizzo e-mail:** indirizzo e-mail utilizzato per accedere a [!DNL Dynamic Media Classic] ([!DNL Scene7]).
-
-   **Password:** password utilizzata per accedere a [!DNL Dynamic Media Classic] ([!DNL Scene7]).
+   ![Campi di configurazione Scene7](/help/main/administrating-target/assets/scene7-1.png)
 
 1. Fate clic su **[!UICONTROL Submit]** (Invia).

@@ -22,7 +22,7 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 5106a9844a15c7d81baab75b26324b954cdeb42d
 workflow-type: tm+mt
 source-wordcount: '434'
 ht-degree: 79%
@@ -65,10 +65,10 @@ Utilizza [!UICONTROL Impostazioni attività] in [!DNL Adobe Target] per gestire 
 
 La pagina [!UICONTROL Obiettivi e impostazioni] include impostazioni aggiuntive che variano in base al tipo di attività che si sta creando. Per ulteriori informazioni su queste impostazioni, fai riferimento al tipo di attività:
 
-* [Test A/B](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC)
+* [Test A/B](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#ab-goals-and-settings)
 * [Personalizzazione automatizzata](/help/main/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9)
-* [Targeting esperienza](/help/main/c-activities/t-experience-target/t-xt-create/xt-goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC)
-* [Test multivariato](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC)
+* [Targeting esperienza](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#ab-goals-and-settings)
+* [Test multivariato](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#ab-goals-and-settings)
 * [Consigli](/help/main/c-recommendations/t-create-recs-activity/recs-activity-settings.md#reference_3FDA8388CEEC4159949151C1829E2FBB)
 
 ## Video di formazione: Impostazioni attività ![Icona esercitazione](/help/main/assets/tutorial.png)
@@ -81,4 +81,4 @@ Questo video include informazioni sulle impostazioni delle attività.
 * Aggiungere tipi di pubblico da usare come filtri nella generazione di rapporti
 * Inserire delle note per le attività
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3507949?captions=ita)
+  >[!VIDEO](https://video.tv.adobe.com/v/17381)

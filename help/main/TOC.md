@@ -3,9 +3,9 @@ user-guide-title: Guida di Adobe Target per professionisti aziendali
 breadcrumb-title: Guida di Target
 user-guide-description: Scopri come personalizzare le esperienze dei clienti su siti web, app e canali social per incrementare le entrate.
 feature-set: Target
-source-git-commit: 53cd01d2406b8a2f8560fe380ebb5044872e6711
+source-git-commit: 7799b1855a382df8461a78e5bf4e7d02dbcce751
 workflow-type: tm+mt
-source-wordcount: '1307'
+source-wordcount: '1293'
 ht-degree: 84%
 ---
 
@@ -166,24 +166,18 @@ ht-degree: 84%
     + [Panoramica su Targeting esperienza](c-activities/t-experience-target/experience-target.md)
     + Creare un’attività Targeting esperienze {#create-targeting}
       + [Crea un’attività](c-activities/t-experience-target/t-xt-create/xt-create.md)
-      + [URL attività](c-activities/t-experience-target/t-xt-create/xt-activity-url.md)
       + [Crea un&#39;esperienza](c-activities/t-experience-target/t-xt-create/xt-add-experience.md)
       + [Passare ad altre esperienze in Targeting esperienza](c-activities/t-experience-target/t-xt-create/xt-switching-experiences.md)
-      + [Obiettivi e impostazioni](c-activities/t-experience-target/t-xt-create/xt-goals-and-settings.md)
-      + [Impostare le metriche](c-activities/t-experience-target/t-xt-create/xt-set-metrics.md)
   + Test multivariato {#multivariate-test}
     + [Panoramica sul test multivariato](c-activities/c-multivariate-testing/multivariate-testing.md)
     + [Best practice relative ai test multivariati](c-activities/c-multivariate-testing/best-practices.md)
     + [Pianificare un test multivariato](c-activities/c-multivariate-testing/plan-mvt.md)
     + Creazione di un test multivariato {#create-mvt}
       + [Creare test](c-activities/c-multivariate-testing/t-create-multivariate-test/create-multivariate-test.md)
-      + [URL attività](c-activities/c-multivariate-testing/t-create-multivariate-test/url.md)
       + [Creare combinazioni](c-activities/c-multivariate-testing/t-create-multivariate-test/add-offers.md)
       + [Visualizzare un&#39;anteprima delle esperienze per un test multivariato](c-activities/c-multivariate-testing/t-create-multivariate-test/preview-experiences.md)
       + [Stimare il traffico necessario per il successo del test](c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator.md)
       + [Riepilogo del test](c-activities/c-multivariate-testing/t-create-multivariate-test/test-summary.md)
-      + [Obiettivi e impostazioni](c-activities/c-multivariate-testing/t-create-multivariate-test/goals-and-settings.md)
-      + [Impostare le metriche](c-activities/c-multivariate-testing/t-create-multivariate-test/mvt-set-metrics.md)
       + [Risolvere i problemi relativi ai test multivariati](c-activities/c-multivariate-testing/t-create-multivariate-test/troubleshooting.md)
   + [Attività di Consigli](c-activities/recommendations-activity.md)
   + [Modificare un’attività](c-activities/edit-activity.md)
@@ -346,4 +340,4 @@ ht-degree: 84%
   + [Limiti](r-troubleshooting-target/target-limits.md)
 + API di Target {#apis}
   + [Panoramica API di Adobe Target](/help/main/api/api-overview.md)
-+ [Risorse e informazioni di contatto &#x200B;](cmp-resources-and-contact-information.md)
++ [Risorse e informazioni di contatto ](cmp-resources-and-contact-information.md)

@@ -2,7 +2,7 @@
 keywords: Anteprima esperienza;URL esperienza;generare URL;visualizzare gli URL esperienza
 description: Scopri come utilizzare gli URL di anteprima dell’esperienza per le attività Automated Personalization di Adobe [!DNL Target] per visualizzare il contenuto dell’esperienza direttamente sul sito prima che l’attività venga pubblicata.
 title: Come posso utilizzare gli URL di anteprima dell’esperienza nelle attività di Automated Personalization?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=it#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."
 feature: Automated Personalization
 exl-id: 9f329b8a-5f86-4cae-a3be-eed24fa0a9cd
 product_v2:
@@ -14,7 +14,7 @@ feature_v2:
 subfeature_v2:
   - id: f0055dd2-93f3-4ac8-9abc-d69d4ed2d977
     internal-label: Automated personalization
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: dbeed9d4cda556478eb1d13331129b0e31fdd3f0
 workflow-type: tm+mt
 source-wordcount: '748'
 ht-degree: 41%
@@ -29,7 +29,7 @@ Gli URL di anteprima dell&#39;esperienza possono essere generati per le attivit�
 
 Utilizza gli URL di anteprima dell’esperienza per condividere le esperienze con i membri del gruppo e per eseguire il controllo qualità delle esperienze tra browser e ambienti diversi, senza creare un’attività di controllo qualità separata. Questa funzione è particolarmente utile in caso di siti complessi o se le policy di sicurezza non consentono la visualizzazione del sito in un simulatore.
 
-1. Crea un’[attività di personalizzazione automatizzata](/help/main/c-activities/t-automated-personalization/create-ap-activity.md#task_8AAF837796D74CF893CA2F88BA1491C9) oppure fai clic sull’attività per aprirla.
+1. Crea un’[attività di personalizzazione automatizzata](/help/main/c-activities/t-automated-personalization/create-ap-activity.md#create-ap-activity) oppure fai clic sull’attività per aprirla.
 
    L&#39;attività non deve essere live per visualizzare un&#39;anteprima dell&#39;esperienza.
 

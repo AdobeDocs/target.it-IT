@@ -21,7 +21,7 @@ topic_v2:
     internal-label: Customer experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: dbeed9d4cda556478eb1d13331129b0e31fdd3f0
 workflow-type: tm+mt
 source-wordcount: '990'
 ht-degree: 35%
@@ -50,7 +50,7 @@ Se stai creando un&#39;attività [!UICONTROL Consigli], non ci sono esperienze. 
 
    Questa schermata è diversa se stai creando un&#39;attività [!UICONTROL Consigli]. Le attività [!UICONTROL Consigli] non includono esperienze.
 
-1. &#x200B;
+1. 
    1. Fai clic sull&#39;icona **[!UICONTROL Rinomina]** ( ![Rinomina icona](/help/main/assets/icons/MoreSmallListVert.svg) ), fai clic su **[!UICONTROL Rinomina]**, specifica un nome per l&#39;attività, quindi fai clic su **[!UICONTROL Salva]**.
 
    Il nome dell’attività non può iniziare con uno dei seguenti caratteri:
@@ -147,7 +147,7 @@ Se stai creando un&#39;attività [!UICONTROL Consigli], non ci sono esperienze. 
 1. Fai clic su **[!UICONTROL Avanti]**, quindi completa i passaggi di creazione dell&#39;attività come di consueto secondo il tipo di attività.
 
 * [Creare un test A/B](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)
-* [Creare un’attività Targeting delle esperienze](/help/main/c-activities/t-experience-target/t-xt-create/xt-create.md#task_D6B3429AC31549E1A70EDF04B3DDC765)
+* [Creare un’attività Targeting delle esperienze](/help/main/c-activities/t-experience-target/t-xt-create/xt-create.md#create-xt-activity)
 * [Creare un’attività Consigli](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md#task_6874328773C64C44A73F0A130AD3F96F)
 
 ## Video di formazione: Compositore basato su moduli ![Icona esercitazione](/help/main/assets/tutorial.png)
@@ -158,4 +158,4 @@ Questo video fornisce una demo del Compositore esperienza basato su moduli.
 * Quando utilizzare il Compositore esperienza basato su moduli o il Compositore esperienza visivo
 * Indirizzare una posizione con i perfezionamenti
 
->[!VIDEO](https://video.tv.adobe.com/v/3507886?captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/17390)

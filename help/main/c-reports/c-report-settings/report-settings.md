@@ -22,7 +22,7 @@ topic_v2:
     internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: c87804d95464cc31658be23bc7de051c6e1bc12e
 workflow-type: tm+mt
 source-wordcount: '1934'
 ht-degree: 43%
@@ -94,7 +94,7 @@ Nell&#39;elenco seguente sono descritte alcune delle situazioni che potrebbero p
 
 ## [!UICONTROL Metrica report] {#section_894ABD7148244806B7CE556EBBA2AD62}
 
-Fai clic sull&#39;elenco a discesa **[!UICONTROL Metrica rapporto]** per selezionare una [metrica di successo](/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924) diversa o più metriche da visualizzare nel grafico.
+Fai clic sull&#39;elenco a discesa **[!UICONTROL Metrica rapporto]** per selezionare una [metrica di successo](/help/main/c-activities/r-success-metrics/success-metrics.md#overview) diversa o più metriche da visualizzare nel grafico.
 
 Per impostazione predefinita, la metrica principale è determinata nella configurazione delle metriche di successo quando crei l’attività. Se modifichi la configurazione e salvi di nuovo l’attività, la metrica principale per la generazione dei rapporti si aggiorna.
 
@@ -151,7 +151,7 @@ Seleziona l’ambiente (gruppo host) da utilizzare per il rapporto. Per ulterior
 
 >[!NOTE]
 >
->Se l&#39;organizzazione utilizza [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=it){target=_blank} (AEP) per inviare i dati delle metriche a [!DNL Target], l&#39;ambiente nello stream di dati di AEP deve corrispondere all&#39;ambiente nelle impostazioni del report [!DNL Target].
+>Se l&#39;organizzazione utilizza [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html){target=_blank} (AEP) per inviare i dati delle metriche a [!DNL Target], l&#39;ambiente nello stream di dati di AEP deve corrispondere all&#39;ambiente nelle impostazioni del report [!DNL Target].
 
 ### Ripristina dati rapporto
 
