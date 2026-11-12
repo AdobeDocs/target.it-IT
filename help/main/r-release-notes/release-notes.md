@@ -29,16 +29,27 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ece061af0f50ec45e07b9710d355a9c91731578e
+source-git-commit: b608d181c660201f2c373ec8a1ac6e95be1be96c
 workflow-type: tm+mt
-source-wordcount: '645'
-ht-degree: 42%
+source-wordcount: '703'
+ht-degree: 39%
 ---
 # Note sulla versione (corrente) di [!DNL Target]
 
 Esplora le funzioni, i miglioramenti e le correzioni più recenti in [!DNL Adobe Target]. Queste note sulla versione descrivono anche gli aggiornamenti alle API [!DNL Target], agli SDK, a [!DNL Adobe Experience Platform Web SDK], at.js e ad altri componenti della piattaforma, se applicabili.
 
 I codici dei problemi tra parentesi sono per uso interno di [!DNL Adobe].
+
+## [!DNL Target Standard/Premium] 26.11.1 (12 novembre 2026)
+
+**[!UICONTROL Attività]**
+
++++Vedi i dettagli
+
+* **[!DNL Coworker]punti di ingresso aggiunti all&#39;elenco Attività**. Se la tua organizzazione ha accesso a [!DNL Coworker], l&#39;elenco [!UICONTROL Attività] ora include un pulsante **[!UICONTROL Rivedi i miei test live]** e un menu **[!UICONTROL Chiedi a Collaboratore]** per ogni attività. Utilizzale per fare in modo che [!DNL Coworker] riveda le tue attività live o risponda alle domande su un&#39;attività specifica. (TGT-56536)
+  [Ulteriori informazioni](../c-activities/activities.md#coworker)
++++
+
 
 ## [!DNL Target Standard/Premium] 26.10.2 (15 ottobre 2026)
 
@@ -126,5 +137,5 @@ Le risorse seguenti contengono informazioni sulle funzionalità in arrivo con la
 
 | Risorsa | Dettagli |
 |--- |--- |
-| [Adobe Priority Product Update](https://www.adobe.com/it/subscription/priority-product-update.html){target=_blank} | Notifiche anticipate sui miglioramenti dei prodotti in arrivo per [!DNL Target] e altre soluzioni [!DNL Adobe Experience Cloud]. |
+| [Adobe Priority Product Update](https://www.adobe.com/subscription/priority-product-update.html){target=_blank} | Notifiche anticipate sui miglioramenti dei prodotti in arrivo per [!DNL Target] e altre soluzioni [!DNL Adobe Experience Cloud]. |
 | [Note sulla versione di Target: pre-release](/help/main/r-release-notes/target-release-notes.md){target=_blank} | Informazioni sulle versioni di Target del mese corrente, incluse le informazioni pre-release. |
