@@ -141,4 +141,4 @@ In questo video trovi informazioni sulle preferenze dell&#39;account.
 
 * Descrizione delle impostazioni account disponibili in [!DNL Target Standard]
 
->[!VIDEO](https://video.tv.adobe.com/v/17379)
+>[!VIDEO](https://video.tv.adobe.com/v/3507631?captions=ita)

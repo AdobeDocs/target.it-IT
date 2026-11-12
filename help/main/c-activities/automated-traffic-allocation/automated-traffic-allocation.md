@@ -258,7 +258,7 @@ Questo video include informazioni su come impostare l&#39;allocazione del traffi
 * Selezionare il metodo di allocazione del traffico
 * Allocare il traffico tra diverse esperienze
 
->[!VIDEO](https://video.tv.adobe.com/v/17385)
+>[!VIDEO](https://video.tv.adobe.com/v/3507595?captions=ita)
 
 ### Creazione di test A/B (8:36) ![Icona esercitazione](/help/main/assets/tutorial.png)
 
@@ -267,4 +267,4 @@ In questo video viene illustrato come creare un test A/A utilizzando il flusso d
 * Crea un&#39;attività A/B in [!DNL Adobe Target]
 * Allocare il traffico con suddivisione manuale o automatica del traffico
 
->[!VIDEO](https://video.tv.adobe.com/v/17391)
+>[!VIDEO](https://video.tv.adobe.com/v/36325?captions=ita)
