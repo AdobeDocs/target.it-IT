@@ -72,7 +72,7 @@ Aprire la pagina che si desidera verificare nel **[!UICONTROL Compositore esperi
 
    >[!NOTE]
    >
-   >Oltre al Compositore esperienza visivo e al Compositore esperienza basato su moduli **[!UICONTROL 1}, [!DNL Target] offre il Compositore esperienza visivo**[!UICONTROL  Applicazione a pagina singola ]**.]** Per ulteriori informazioni sui vari moduli di composizione, consulta [Esperienze e offerte](/help/main/c-experiences/experiences.md).
+   >Oltre al Compositore esperienza visivo e al Compositore esperienza basato su moduli **[!UICONTROL 1&rbrace;, [!DNL Target] offre il Compositore esperienza visivo**&#x200B;[!UICONTROL &#x200B; Applicazione a pagina singola &#x200B;]&#x200B;**.]** Per ulteriori informazioni sui vari moduli di composizione, consulta [Esperienze e offerte](/help/main/c-experiences/experiences.md).
    >
    >Per informazioni sulla risoluzione dei problemi relativi al Compositore esperienza visivo, vedere [Risoluzione dei problemi relativi al Compositore esperienza visivo](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md).
 
@@ -144,7 +144,7 @@ Il diagramma di flusso ti guida attraverso l’assegnazione di un pubblico e del
    | Metodo | Funzionamento |
    |---|---|
    | **[!UICONTROL Manuale (predefinito)]** | Specifica la percentuale di partecipanti che dovranno visualizzare ogni esperienza. Puoi suddividere le percentuali in modo uniforme tra tutte le esperienze, oppure specificare percentuali maggiori o minori per ogni esperienza. Il totale per tutte le esperienze deve essere uguale al 100%. |
-   | **[!UICONTROL Allocazione automatica all&#39;esperienza migliore]** | La maggior parte dei partecipanti all’attività viene automaticamente indirizzata alle esperienze con prestazioni migliori. Alcuni visitatori sono assegnati a tutte le esperienze, per mantenere l’esplorazione delle esperienze e riconoscere eventuali cambiamenti nelle tendenze prestazionali. Per ulteriori informazioni, vedere [**[!UICONTROL Cenni preliminari sull&#39;allocazione automatica ]**](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4). |
+   | **[!UICONTROL Allocazione automatica all&#39;esperienza migliore]** | La maggior parte dei partecipanti all’attività viene automaticamente indirizzata alle esperienze con prestazioni migliori. Alcuni visitatori sono assegnati a tutte le esperienze, per mantenere l’esplorazione delle esperienze e riconoscere eventuali cambiamenti nelle tendenze prestazionali. Per ulteriori informazioni, vedere [**[!UICONTROL Cenni preliminari sull&#39;allocazione automatica &#x200B;]**](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4). |
    | **[!UICONTROL Targeting automatico per esperienze personalizzate]** | [!DNL Target] utilizza l&#39;apprendimento automatico avanzato per personalizzare i contenuti e favorire le conversioni identificando più esperienze ad alte prestazioni definite dall&#39;addetto al marketing e fornendo l&#39;esperienza più adatta ai visitatori in base ai loro profili cliente individuali e ai comportamenti passati di visitatori simili. Per ulteriori informazioni, consulta [Panoramica sul Targeting automatico](/help/main/c-activities/auto-target/auto-target-to-optimize.md). |
 
    +++

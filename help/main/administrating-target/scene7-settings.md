@@ -37,7 +37,7 @@ ht-degree: 5%
 
 Utilizzare la scheda **[!UICONTROL Configurazione Scene7]** in **[!UICONTROL Amministrazione]** per connettere [!DNL Adobe Target] a [!DNL Adobe Dynamic Media Classic] (in precedenza [!DNL Scene7]). L&#39;integrazione porta Digital Asset Management (DAM) nella [!UICONTROL Libreria contenuti] e abilita i flussi di lavoro di scambio immagini nelle attività.
 
-Per informazioni su come questa scheda si adatta ad altre attività di amministrazione, vedere [Come posso amministrare Target?](/help/main/administrating-target/administrating-target.md). Per individuare **[!UICONTROL Amministrazione]** nell&#39;interfaccia, vedere [Comprendere l&#39;interfaccia utente [!DNL Target] 4}.](/help/main/c-intro/understand-the-target-ui.md)
+Per informazioni su come questa scheda si adatta ad altre attività di amministrazione, vedere [Come posso amministrare Target?](/help/main/administrating-target/administrating-target.md). Per individuare **[!UICONTROL Amministrazione]** nell&#39;interfaccia, vedere [Comprendere l&#39;interfaccia utente [!DNL Target] 4&rbrace;.](/help/main/c-intro/understand-the-target-ui.md)
 
 **Panoramica**
 
