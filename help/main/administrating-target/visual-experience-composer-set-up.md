@@ -35,72 +35,79 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 140a7287246905d47bf02a84348627017a619386
+source-git-commit: 553aa8fb523a62f72f0e2be7d7fd1b4eb663da6b
 workflow-type: tm+mt
-source-wordcount: '733'
-ht-degree: 47%
+source-wordcount: '777'
+ht-degree: 32%
 ---
-# Configura il [!UICONTROL Compositore esperienza visivo]
+# Configurare il Compositore esperienza visivo
 
-Configura il [!DNL Adobe Target] [!UICONTROL Compositore esperienza visivo] specificandone le impostazioni generali, la configurazione del riquadro di visualizzazione mobile e i selettori CSS.
+Utilizza la scheda **[!UICONTROL Compositore esperienza visivo]** in **[!UICONTROL Amministrazione]** per impostare le impostazioni predefinite a livello di account per il [!DNL Adobe Target] [!UICONTROL Compositore esperienza visivo]. Queste impostazioni si applicano ogni volta che gli autori creano o visualizzano in anteprima le esperienze nel Compositore esperienza visivo.
 
-Per accedere alla pagina di configurazione del [!UICONTROL Compositore esperienza visivo], fai clic su **[!UICONTROL Amministrazione]** > **[!UICONTROL Compositore esperienza visivo].**
+**Panoramica sulla configurazione**
 
-{{permissions-update}}
+1. [Impostazioni generali](#general-settings): URL predefinito, Compositore esperienza avanzato, contenuti misti e istantanee delle esperienze.
+1. [Configurazione riquadro di visualizzazione mobile](#mobile-viewport-configuration): dispositivi di anteprima per esperienze reattive ([Target Premium](/help/main/c-intro/intro.md#premium)).
+1. [Selettori CSS](#css): come Target genera i selettori per la distribuzione dei contenuti.
+
+Per aprire la pagina di configurazione, fare clic su **[!UICONTROL Amministrazione]** > **[!UICONTROL Compositore esperienza visivo]**.
 
 >[!NOTE]
 >
->Tenere presente che le impostazioni di questa pagina si applicano all&#39;intero account [!DNL Target].
+>Le impostazioni di questa pagina vengono applicate all&#39;intero account [!DNL Target].
 
-## Impostazioni generali
+## Impostazioni generali {#general-settings}
 
-È possibile specificare le impostazioni generali per il [!UICONTROL Compositore esperienza visivo].
+Nella sezione **[!UICONTROL Impostazioni generali]**, configura le impostazioni predefinite utilizzate all&#39;apertura del Compositore esperienza visivo.
 
 ![Sezione Impostazioni generali](/help/main/administrating-target/assets/general-settings.png)
 
 Sono disponibili le seguenti impostazioni:
 
-### URL predefinito
+* **URL predefinito**
 
-Imposta l&#39;URL predefinito utilizzato dal [!UICONTROL Compositore esperienza visivo]. Si tratta della pagina predefinita, ad esempio la pagina principale, utilizzata ogni volta che configuri un’esperienza per ogni nuova attività. Se non imposti un URL predefinito, dovrai immetterne uno ogni volta che crei una nuova attività.
+  Imposta l&#39;URL predefinito utilizzato dal [!UICONTROL Compositore esperienza visivo]. Si tratta della pagina predefinita, ad esempio la pagina principale, utilizzata ogni volta che configuri un’esperienza per ogni nuova attività. Se non imposti un URL predefinito, dovrai immetterne uno ogni volta che crei una nuova attività.
 
-### Abilita Compositore esperienza avanzato {#eec}
+* **Abilita Compositore esperienza avanzato**
 
-Consente la modifica sui siti non compatibili con iFrame e su siti con contenuti misti. Alcuni siti potrebbero non essere compatibili con la versione avanzata. Deseleziona questa opzione per ripristinare il [!UICONTROL Compositore esperienza visivo] originale. La distribuzione delle attività ai siti non è interessata da questa selezione.
+  Consente la modifica sui siti non compatibili con iFrame e su siti con contenuti misti. Alcuni siti potrebbero non essere compatibili con la versione avanzata. Deseleziona questa opzione per ripristinare il [!UICONTROL Compositore esperienza visivo] originale. La distribuzione delle attività ai siti non è interessata da questa selezione.
 
-Il [!UICONTROL Compositore esperienza avanzato] non è supportato in [!DNL Safari].
+  Il [!UICONTROL Compositore esperienza avanzato] non è supportato in [!DNL Safari].
 
-Per ulteriori informazioni, vedete [Risoluzione dei problemi relativi a Compositore esperienza visivo](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md).
+  Per ulteriori informazioni, vedete [Risoluzione dei problemi relativi a Compositore esperienza visivo](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md).
 
-Puoi anche abilitare il [!UICONTROL Compositore esperienza avanzato] a livello di attività.
+  Puoi anche abilitare il [!UICONTROL Compositore esperienza avanzato] a livello di attività. Consulta [Scopri come abilitare il Compositore esperienza avanzato a livello di attività](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md).
 
-### Caricamento contenuto misto
+* **Carica contenuto misto**
 
-Abilita i contenuti misti durante l&#39;apertura di un sito Web utilizzando [!UICONTROL Compositore esperienza avanzato] (EEC). L&#39;abilitazione di questa opzione evita un carico aggiuntivo dovuto al caricamento di risorse statiche tramite i server proxy [!DNL Target].
+  Abilita i contenuti misti durante l&#39;apertura di un sito Web utilizzando [!UICONTROL Compositore esperienza avanzato] (EEC). L&#39;abilitazione di questa opzione evita un carico aggiuntivo dovuto al caricamento di risorse statiche tramite i server proxy [!DNL Target].
 
-Questa opzione è utile se, ad esempio:
+  Questa opzione è utile se, ad esempio:
 
-* Le intestazioni Content Security Policy (CSP) consentono di caricare contenuti misti senza l’utilizzo di server proxy quando è abilitato il Compositore esperienza avanzato.
-* Il sito web HTTP deve affrontare tempi di caricamento più elevati nel Compositore esperienza avanzato, con JavaScript, immagini e così via che richiedono più tempo per essere caricati tramite proxy.
+  * Le intestazioni Content Security Policy (CSP) consentono di caricare contenuti misti senza l’utilizzo di server proxy quando è abilitato il Compositore esperienza avanzato.
+  * Il sito web HTTP deve affrontare tempi di caricamento più elevati nel Compositore esperienza avanzato, con JavaScript, immagini e così via che richiedono più tempo per essere caricati tramite proxy.
 
-### Generare istantanee delle esperienze nel diagramma del flusso di attività
+* **Genera istantanee esperienza nel diagramma del flusso di attività**
 
-Abilitando le istantanee delle esperienze, vengono generate miniature per le tue esperienze nel diagramma del flusso di lavoro delle attività. La disabilitazione delle istantanee potrebbe determinare prestazioni più veloci per alcuni utenti.
+  Abilitando le istantanee delle esperienze, vengono generate miniature per le tue esperienze nel diagramma del flusso di lavoro delle attività. La disabilitazione delle istantanee potrebbe determinare prestazioni più veloci per alcuni utenti.
 
-## Configurazione di riquadri di visualizzazione per dispositivi mobili
+## Configurazione di riquadri di visualizzazione mobili {#mobile-viewport-configuration}
 
 >[!NOTE]
 >
->Le impostazioni della [!UICONTROL configurazione riquadro di visualizzazione mobile] sono una funzionalità di [Target Premium](/help/main/c-intro/intro.md#premium).
+>Le impostazioni della **[!UICONTROL configurazione riquadro di visualizzazione mobile]** sono una funzionalità di [Target Premium](/help/main/c-intro/intro.md#premium).
 
-
-Puoi aggiungere dispositivi da utilizzare quando visualizzi le esperienze in anteprima. A ogni dispositivo è associato un pubblico.
+Aggiungi dispositivi da utilizzare per l&#39;anteprima delle esperienze. A ogni dispositivo è associato un pubblico.
 
 ![Sezione configurazione riquadro di visualizzazione mobile](/help/main/administrating-target/assets/mobile-viewport-configuration.png)
 
-Fai clic su **[!UICONTROL Aggiungi]**, specifica un nome descrittivo per il riquadro di visualizzazione mobile, specifica la larghezza e l&#39;altezza, seleziona il sistema operativo desiderato, quindi fai clic su [!UICONTROL Salva].
+Per aggiungere un riquadro di visualizzazione mobile, procedi come segue:
 
-Per informazioni su come aggiungere un riquadro di visualizzazione mobile, vedi [Configurazione di riquadri di visualizzazione per dispositivi mobili](/help/main/c-experiences/c-visual-experience-composer/mobile-viewports.md).
+1. Fai clic su **[!UICONTROL Aggiungi]**.
+1. Specifica un nome descrittivo per il riquadro di visualizzazione mobile, specifica la larghezza e l’altezza, quindi seleziona il sistema operativo desiderato.
+1. Fai clic su **[!UICONTROL Salva]**.
+
+Per informazioni dettagliate sull&#39;anteprima e sul pubblico, consulta [Scopri come utilizzare i riquadri di visualizzazione mobili per esperienze dinamiche](/help/main/c-experiences/c-visual-experience-composer/mobile-viewports.md).
 
 ## Selettori CSS {#css}
 
@@ -112,32 +119,26 @@ Queste opzioni permettono a [!DNL Target] di comprendere la struttura del sito p
 
 È possibile scegliere una o entrambe le opzioni seguenti:
 
-### Usa ID elemento
+* **Usa ID elemento**
 
-Deseleziona questa opzione se lo stesso ID viene utilizzato per più elementi o se l&#39;ID elemento potrebbe cambiare in fase di caricamento della pagina.
+  Deseleziona questa opzione se lo stesso ID viene utilizzato per più elementi o se l&#39;ID elemento potrebbe cambiare in fase di caricamento della pagina.
 
-### Utilizza classi elemento
+* **Usa classi elemento**
 
-Per impostazione predefinita, [!DNL Target] utilizza solo ID elemento. Tuttavia, se la pagina è progettata per utilizzare classi per identificare elementi, ad esempio una pagina creata con [!DNL Adobe Experience Manager], è necessario selezionare anche [!UICONTROL Usa classi elemento].
+  Per impostazione predefinita, [!DNL Target] utilizza solo ID elemento. Tuttavia, se la pagina è progettata per utilizzare classi per identificare elementi, ad esempio una pagina creata con [!DNL Adobe Experience Manager], è necessario selezionare anche **[!UICONTROL Usa classi elemento]**. La precisione del selettore è generalmente massima quando si utilizzano gli ID, inferiore quando si utilizzano le classi e inferiore quando non è selezionata alcuna opzione. Verifica la pagina nel Compositore esperienza visivo per verificare che i selettori siano corretti.
 
->[!NOTE]
->
->Sebbene sia stato fatto tutto il possibile per garantire la precisione, l’utilizzo delle classi può causare errori. Anche non selezionare nessuna opzione influenza la precisione. L&#39;ordine di precisione è ID > classi > nessuna opzione. Testa sempre la pagina per assicurarti che i selettori siano corretti.
-
-Puoi sovrascrivere questa impostazione per ogni attività (fai clic sull&#39;icona a forma di ingranaggio [!UICONTROL Impostazioni], quindi seleziona [!UICONTROL Selettori CSS]). È particolarmente utile se disponi di più siti configurati in modo diverso.
-
->[!NOTE]
->
->L&#39;override dell&#39;impostazione per ogni attività non è disponibile nelle attività [!UICONTROL Automated Personalization] e [!UICONTROL Multivariate Testing].  Per ulteriori informazioni sui selettori, vedi [Selettori di elementi utilizzati nel Compositore esperienza visivo](/help/main/c-experiences/c-visual-experience-composer/vec-selectors.md).
+  Puoi sovrascrivere questa impostazione per ogni attività facendo clic sull&#39;icona a forma di ingranaggio **[!UICONTROL Impostazioni]** e selezionando **[!UICONTROL Selettori CSS]**, utile quando i siti nello stesso account sono configurati in modo diverso. Le sostituzioni per attività non sono disponibili nelle **[!UICONTROL attività Automated Personalization]** o **[!UICONTROL Multivariate Testing]**. Per informazioni sul comportamento del selettore e sulla risoluzione dei problemi, vedere [Selettori di elementi utilizzati nel Compositore esperienza visivo](/help/main/c-experiences/c-visual-experience-composer/vec-selectors.md).
 
 ## Video di formazione: Preferenze account (7:33) ![Icona panoramica](/help/main/assets/overview.png)
+
+>[!BEGINSHADEBOX]
+
+L&#39;interfaccia utente del menu [!DNL Target] **[!UICONTROL Amministrazione]** (in precedenza **[!UICONTROL Configurazione]**) è stata riprogettata per fornire prestazioni migliori, ridurre il tempo di manutenzione necessario per il rilascio di nuove funzionalità e migliorare l&#39;esperienza utente nel prodotto. Le informazioni contenute nel video seguente sono generalmente corrette; tuttavia, le opzioni potrebbero trovarsi in punti leggermente diversi. I video aggiornati verranno pubblicati a breve.
+
+>[!ENDSHADEBOX]
 
 In questo video trovi informazioni sulle preferenze dell&#39;account.
 
 * Descrizione delle impostazioni account disponibili in [!DNL Target Standard]
-
->[!NOTE]
->
->L&#39;interfaccia utente del menu [!DNL Target] [!UICONTROL Amministrazione] (in precedenza [!UICONTROL Configurazione]) è stata riprogettata per fornire prestazioni migliori, ridurre il tempo di manutenzione necessario per il rilascio di nuove funzionalità e migliorare l&#39;esperienza utente nel prodotto. Le informazioni contenute nel video seguente sono generalmente corrette; tuttavia, le opzioni potrebbero trovarsi in punti leggermente diversi. I video aggiornati verranno pubblicati a breve.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3507631?captions=ita)

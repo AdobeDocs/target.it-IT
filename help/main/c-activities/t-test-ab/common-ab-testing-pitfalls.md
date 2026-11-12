@@ -21,16 +21,37 @@ topic_v2:
     internal-label: Optimization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: 2ffe1a02ae60370b349f9b6f348d24ecb0a8cb2e
 workflow-type: tm+mt
-source-wordcount: '4003'
-ht-degree: 87%
+source-wordcount: '4347'
+ht-degree: 81%
 ---
-# Dieci insidie frequenti per i test A/B e come evitarle
+# Dieci insidie frequenti per i test A/B e come evitarle {#common-ab-testing-pitfalls}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** scopri le dieci insidie più significative dei test A/B, ad esempio ignorare il livello di significatività, monitorare i test o interromperli in anticipo e come evitarle tutte.
+
+>[!ENDSHADEBOX]
 
 Il test A/B in [!DNL Adobe Target] costituisce la spina dorsale della maggior parte dei programmi di ottimizzazione del marketing digitale e aiuta gli addetti al marketing a offrire esperienze ottimizzate e mirate ai loro visitatori e clienti. Questo articolo delinea dieci delle insidie più significative che possono presentarsi durante l’esecuzione di un test A/B. Illustra inoltre metodi per evitare tali insidie, in modo da ottenere un maggiore ROI attraverso le attività di testing e una maggiore fiducia nei risultati evidenziati dai test A/B.
 
+Le insidie sono:
+
+* [Insidia 1: ignorare gli effetti del livello di significatività](#section_55F5577A13C6470BA1417C2B735C6B1D)
+* [Insidia 2: dichiarare i vincitori di test di offerta multipla senza differenza statisticamente significativa](#section_FA83977C71DB4F69B3D438AF850EF3B6)
+* [Insidia 3: ignorare gli effetti della potenza statistica](#section_0D517079B7D547CCAA75F80981CBE12A)
+* [Insidia 4: utilizzo di test a una coda](#section_8BB136D1DD6341FA9772F4C31E9AA37C)
+* [Insidia 5: monitoraggio dei test](#section_EA42F8D5967B439284D863C46706A1BA)
+* [Insidia 6: interrompere prematuramente i test](#section_DF01A97275E44CA5859D825E0DE2F49F)
+* [Insidia 7: modificare l’allocazione del traffico durante il periodo di test](#allocation)
+* [Insidia 8: non considerare gli effetti “novità”](#section_90F0D24C40294A8F801B1A6D6DEF9003)
+* [Insidia 9: non considerare eventuali differenze nel periodo preso in esame](#section_B166731B5BEE4E578816E351ECDEA992)
+* [Insidia 10: utilizzare metriche che non riflettono le finalità aziendali](#section_F0CD6DC7993B4A6F9BEEBB31CD1D9BEE)
+
 ## Insidia 1: ignorare gli effetti del livello di significatività {#section_55F5577A13C6470BA1417C2B735C6B1D}
+
+### Livello di significatività e livello di affidabilità
 
 Quanto è probabile che il test riporti una differenza significativa nel tasso di conversione tra due offerte, quando in realtà non c&#39;è? Questo è ciò che il *livello di significatività* di un test aiuta a determinare. Tali risultati fuorvianti sono chiamati spesso “falso positivo” e, nel mondo delle statistiche, rappresentano un errore di Tipo I (se si rifiuta erroneamente l’ipotesi null che è effettivamente vera).
 
@@ -54,33 +75,39 @@ Nel test A/B, gli addetti al marketing utilizzano spesso livelli di affidabilit�
 
 Come illustrato nel grafico riportato di seguito, la probabilità che almeno un test si traduca in falso positivo aumenta proporzionalmente con l’esecuzione di più test. Ad esempio, se si eseguono 10 test utilizzando un livello di affidabilità pari al 95%, la probabilità di rilevare uno o più falsi positivi è all’incirca pari al 40% (dato che non esiste un vero e proprio incremento: Pr(almeno un falso positivo) = 1 - Pr(nessun falso positivo) = 1 - 0,95^10 = 40%).
 
-![immagine insidie1](assets/pitfalls1.png)
+![Grafico a barre della probabilità di almeno un falso positivo: 5% per 1 test, circa 40% per 10 test e circa 64% per 20 test, con un livello di affidabilità del 95%](assets/pitfalls1.png)
 
 In un’azienda di marketing, il 95% di solito costituisce un compromesso ragionevole tra il rischio di un falso positivo e un falso negativo.
 
+### Quando prestare particolare attenzione
+
 Tuttavia, due situazioni richiedono di prestare particolare attenzione al livello di significatività e alle sue implicazioni per i risultati dei test: la segmentazione post-test e il test di offerte multiple.
 
-* **Segmentazione post-test:** gli addetti al marketing spesso dividono e tagliano i risultati di un test basato sui segmenti di visitatori dopo la conclusione del test A/B. I segmenti comuni includono tipo di browser, tipo di dispositivo, aree geografiche, ora del giorno e visitatori nuovi rispetto a quelli di ritorno. Questa pratica, nota come segmentazione post-test, fornisce un&#39;eccellente intuizione nei segmenti di visitatori. Inoltre, i marketer possono utilizzare questi insight per creare contenuti più mirati e più rilevanti, oltre che differenziati.
+#### Segmentazione post-test
 
-  Se non c&#39;è una reale differenza nel tasso di conversione, ogni volta che si sottopone a test un segmento, la probabilità di un falso positivo è uguale al livello di significatività. Come accennato, l’esecuzione di più test crea una maggiore probabilità che si verifichi almeno un falso positivo tra i test. In sostanza, ogni segmento post-test rappresenta un test separato. Con un livello di significatività del 5%, in media ci si imbatte in un falso positivo ogni volta che si osservano 20 segmenti post-test. Il grafico di cui sopra mostra come aumenta tale probabilità.
+Gli addetti al marketing spesso dividono e tagliano i risultati di un test basato sui segmenti di visitatori dopo la conclusione del test A/B. I segmenti comuni includono tipo di browser, tipo di dispositivo, aree geografiche, ora del giorno e visitatori nuovi rispetto a quelli di ritorno. Questa pratica, nota come segmentazione post-test, fornisce un&#39;eccellente intuizione nei segmenti di visitatori. Inoltre, i marketer possono utilizzare questi insight per creare contenuti più mirati e più rilevanti, oltre che differenziati.
 
-  L’esecuzione di più test crea una maggiore probabilità che si verifichi almeno un falso positivo tra i test. In sostanza, ogni segmento post-test rappresenta un test separato, che aumenta la probabilità di un falso positivo. Questo aumento può essere ancora più significativo se i segmenti sono correlati.
+Se non c&#39;è una reale differenza nel tasso di conversione, ogni volta che si sottopone a test un segmento, la probabilità di un falso positivo è uguale al livello di significatività. Come accennato, l’esecuzione di più test crea una maggiore probabilità che si verifichi almeno un falso positivo tra i test. In sostanza, ogni segmento post-test rappresenta un test separato. Con un livello di significatività del 5%, in media ci si imbatte in un falso positivo ogni volta che si osservano 20 segmenti post-test. Il grafico di cui sopra mostra come aumenta tale probabilità.
 
-  Non sarebbe meglio non fare la segmentazione post-test? No, i segmenti post-test sono preziosi. Al contrario, per evitare questo problema cumulativo di falso positivo con la segmentazione post-test, dopo aver identificato un segmento post-test, è consigliabile testarlo in un nuovo test. In alternativa, è possibile applicare la correzione Bonferroni, discussa di seguito.
+L’esecuzione di più test crea una maggiore probabilità che si verifichi almeno un falso positivo tra i test. In sostanza, ogni segmento post-test rappresenta un test separato, che aumenta la probabilità di un falso positivo. Questo aumento può essere ancora più significativo se i segmenti sono correlati.
 
-* **Test di offerte multiple:** gli addetti al marketing spesso sottopongono a test più di due offerte (o esperienze) tra loro. Per questo motivo a volte vengono visualizzate soluzioni di test A/B denominate test A/B/n, dove n è il numero di offerte che si stanno testando simultaneamente.
+Non sarebbe meglio non fare la segmentazione post-test? No, i segmenti post-test sono preziosi. Al contrario, per evitare questo problema cumulativo di falso positivo con la segmentazione post-test, dopo aver identificato un segmento post-test, è consigliabile testarlo in un nuovo test. In alternativa, è possibile applicare la correzione Bonferroni, discussa di seguito.
 
-  È importante notare che *ogni offerta* sottoposta a test ha un tasso di falso positivo pari al livello di significatività, come descritto in precedenza. Esegui effettivamente più test quando diverse offerte sono contrapposte l&#39;una all&#39;altra all&#39;interno di un singolo ambiente di test. Ad esempio, se confronti cinque offerte in un test A/B/C/D/E, formi effettivamente quattro confronti: tra il controllo e B, tra il controllo e C, tra il controllo e D, tra il controllo ed E. Con un livello di affidabilità del 95%, la probabilità di un falso positivo non è più pari al 5%, bensì al 18,5%.
+#### Verifica di più offerte
 
-  Per mantenere il livello di affidabilità globale al 95% ed evitare questo problema, si applica la correzione Bonferroni. Con questa correzione, è sufficiente dividere il livello di significatività per il numero di confronti e si ottiene il livello di significatività necessario per raggiungere un livello di affidabilità del 95%.
+Gli addetti al marketing spesso sottopongono a test più di due offerte (o esperienze) tra loro. Per questo motivo a volte vengono visualizzate soluzioni di test A/B denominate test A/B/n, dove n è il numero di offerte che si stanno testando simultaneamente.
 
-  Applicando la correzione Bonferroni all&#39;esempio precedente, si utilizzerebbe un livello di significatività di 5%/4 = 1,25%, che corrisponde al livello di affidabilità del 98,75% per un singolo test (100%-1,25% = 98,75%). Quando si hanno quattro test, come nell&#39;esempio precedente, questa regolazione mantiene il livello di affidabilità effettivo al 95%.
+È importante notare che *ogni offerta* sottoposta a test ha un tasso di falso positivo pari al livello di significatività, come descritto in precedenza. Esegui effettivamente più test quando diverse offerte sono contrapposte l&#39;una all&#39;altra all&#39;interno di un singolo ambiente di test. Ad esempio, se confronti cinque offerte in un test A/B/C/D/E, formi effettivamente quattro confronti: tra il controllo e B, tra il controllo e C, tra il controllo e D, tra il controllo ed E. Con un livello di affidabilità del 95%, la probabilità di un falso positivo non è più pari al 5%, bensì al 18,5%.
+
+Per mantenere il livello di affidabilità globale al 95% ed evitare questo problema, si applica la correzione Bonferroni. Con questa correzione, è sufficiente dividere il livello di significatività per il numero di confronti e si ottiene il livello di significatività necessario per raggiungere un livello di affidabilità del 95%.
+
+Applicando la correzione Bonferroni all&#39;esempio precedente, si utilizzerebbe un livello di significatività di 5%/4 = 1,25%, che corrisponde al livello di affidabilità del 98,75% per un singolo test (100%-1,25% = 98,75%). Quando si hanno quattro test, come nell&#39;esempio precedente, questa regolazione mantiene il livello di affidabilità effettivo al 95%.
 
 ## Insidia 2: dichiarare i vincitori di test di offerta multipla senza differenza statisticamente significativa {#section_FA83977C71DB4F69B3D438AF850EF3B6}
 
 Con il test di offerta multipla, gli addetti al marketing dichiarano spesso l&#39;offerta con il più alto elevatore come il vincitore della prova, anche se non c&#39;è differenza statisticamente significativa fra il vincitore e il secondo classificato. Questa situazione si verifica quando la differenza tra le alternative è minore della differenza tra le alternative e il controllo. La figura seguente illustra questo concetto, con le barre di errore nere che rappresentano gli intervalli di affidabilità del 95% dell&#39;incremento. Il reale incremento per ogni offerta rispetto all&#39;offerta di controllo ha il 95% di probabilità di rientrare nell&#39;intervallo di affidabilità, indicato dalle barre di errore.
 
-![immagine pitfalls2](assets/pitfalls2.png)
+![Grafico a barre dell&#39;incremento delle offerte A, B e C con intervalli di affidabilità: gli intervalli A e B si sovrappongono, l&#39;intervallo C non](assets/pitfalls2.png)
 
 Le offerte A e B hanno il più alto incremento osservato durante il test e sarebbe improbabile che l’offerta C risulti migliore di tali offerte in un test futuro, perché l’intervallo di affidabilità di C non coincide nemmeno in parte con gli intervalli di affidabilità di A o B. Tuttavia, anche se l’offerta A ha l’incremento osservato più alto durante il test, è probabile che l’offerta B possa dare risultati migliori in un test futuro, perché vi è un’area di sovrapposizione nei rispettivi intervalli di affidabilità.
 
@@ -98,7 +125,7 @@ Esistono due fattori chiave che determinano la potenza di un test. La prima è l
 
 Oggi gli addetti al marketing tendono a condurre molti test con una potenza statistica insufficiente. In altre parole, utilizzano un campione troppo ridotto. Ciò significa che hanno meno probabilità di rilevare dei positivi, anche quando esiste realmente una differenza notevole nel tasso di conversione. In realtà, se esegui continuamente test con potenza ridotta, il numero di falsi positivi può essere paragonabile o addirittura dominare il numero di veri positivi. Questo comporta spesso l&#39;introduzione di cambiamenti neutri a un sito (una perdita di tempo) o addirittura di cambiamenti che riducono i tassi di conversione.
 
-![immagine pitfalls3](assets/pitfalls3.png)
+![Tabella dei quattro possibili risultati di un test: true positivo, false positivo (controllato dal livello di significatività), false negativo (controllato dal livello di potenza) e true negativo](assets/pitfalls3.png)
 
 Per evitare di condurre test con potenza statistica insufficiente, considera che uno standard tipico per un test con potenza adeguata include un livello di affidabilità del 95% e una potenza statistica dell’80%. Tale test offre una probabilità del 95% di evitare un falso positivo e un 80% di probabilità di evitare un falso negativo.
 
@@ -130,7 +157,7 @@ Se nei primi giorni del test una delle offerte ha risultati migliori o peggiori 
 
 La figura seguente mostra cinque offerte che hanno lo stesso tasso di conversione a lungo termine. L&#39;offerta B ha avuto un tasso di conversione scarso per i primi 2.000 visitatori e ci vuole molto tempo prima che il tasso di conversione stimato corrisponda al reale tasso a lungo termine.
 
-![immagine pitfalls4](assets/pitfalls4.png)
+![Grafico a linee della differenza nel tasso di conversione tra cinque offerte alternative e il controllo: le differenze sono grandi per le prime migliaia di visitatori, ad esempio meno 8 a meno 9% per l&#39;offerta B, e convergono verso zero quando il numero di visitatori aumenta](assets/pitfalls4.png)
 
 Questo fenomeno è noto come “regresso verso la media” e può portare a una delusione quando un’offerta che ha dato buoni risultati nei giorni iniziali di un test alla fine non riesce a mantenere tale livello di prestazioni. Inoltre, se una buona offerta non viene implementata a causa di risultati di un test inizialmente scarsi ma di natura del tutto casuale, si rischia di perdere i ricavi.
 
@@ -168,7 +195,7 @@ Tali offerte spingono i visitatori a convertirsi prima in acquirenti e saranno f
 
 La figura seguente mostra due offerte che due visitatori diversi vedono allo stesso tempo in una domenica pomeriggio. Il periodo di considerazione per l&#39;offerta a è breve e il visitatore converte più tardi nello stesso giorno. Tuttavia, l&#39;offerta B ha un periodo di esame più lungo e il visitatore che ha visto offerta B riflette sull&#39;offerta per un po&#39; e finisce per convertire il lunedì mattina. Se si interrompe il test domenica notte, la conversione associata all&#39;offerta A viene conteggiata per offrire una metrica di conversione, mentre la conversione associata all&#39;offerta B non viene conteggiata alla metrica di conversione di B. Ciò mette l&#39;offerta B in uno svantaggio significativo.
 
-![immagine pitfalls5](assets/pitfalls5.png)
+![Timeline da domenica a lunedì: l&#39;offerta A ha un breve periodo di considerazione e il visitatore si converte di domenica, l&#39;offerta B ha un periodo di considerazione più lungo e il visitatore si converte di lunedì](assets/pitfalls5.png)
 
 Per evitare questa insidia, dopo che è stato interrotto un nuovo ingresso nel test, lascia un certo tempo per la conversione dei visitatori che sono stati esposti alle offerte di test. Questo passaggio dà un equo confronto delle offerte.
 
@@ -176,11 +203,11 @@ Per evitare questa insidia, dopo che è stato interrotto un nuovo ingresso nel t
 
 I marketer potrebbero essere tentati di utilizzare metriche di conversione ad alto traffico e a bassa varianza nella parte iniziale del funnel, ad esempio il CTR (tasso di click-through), per raggiungere più velocemente un numero adeguato di conversioni di test. Tuttavia, valuta attentamente se il CTR è un proxy adeguato per l&#39;obiettivo di business che desideri raggiungere. Offerte con CTR più alto possono portare facilmente a minori ricavi. Questo può accadere quando le offerte attraggono i visitatori con una propensione più bassa a comprare o quando l’offerta stessa, ad esempio un’offerta di sconto, porta semplicemente a minori ricavi.
 
-![immagine pitfalls6](assets/pitfalls6.png)
+![Funnel e metriche dal CTR nella parte superiore per ottenere un profitto in tempo reale nella parte inferiore: maggiore traffico e minore varianza nella parte superiore, più vicini agli obiettivi aziendali nella parte inferiore](assets/pitfalls6.png)
 
 Considera l&#39;offerta di sci di seguito. Genera un CTR più elevato rispetto all’offerta del ciclismo, ma poiché i visitatori spendono in media molto di più quando seguono l’offerta del ciclismo, il ricavo atteso per un’offerta di ciclismo presentata a un dato visitatore è più alto. Pertanto, un test A/B con metrica CTR potrebbe scegliere un’offerta che non massimizza i ricavi, che potrebbero rappresentare la finalità aziendale fondamentale.
 
-![immagine pitfalls7](assets/pitfalls7.png)
+![Offerta di sci con un CTR del 20% e un ricavo medio di 50 dollari, quindi un ricavo previsto di 10 dollari, rispetto a un&#39;offerta di ciclismo con un CTR del 10% e un ricavo medio di 250 dollari, quindi un ricavo previsto di 25 dollari](assets/pitfalls7.png)
 
 Per evitare questo problema, monitora con attenzione le metriche aziendali per identificare l&#39;impatto commerciale delle offerte o, meglio ancora, utilizza se possibile una metrica più vicina all&#39;obiettivo aziendale.
 

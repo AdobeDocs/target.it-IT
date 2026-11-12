@@ -19,24 +19,29 @@ topic_v2:
     internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 322dbbd67ea981ad05ed8a1fdc1137ec50effd12
 workflow-type: tm+mt
-source-wordcount: '949'
+source-wordcount: '907'
 ht-degree: 1%
 ---
-# Test A/A
+# Test A/A {#aa-testing}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** scopri cos&#39;è un test A/A, perché potresti eseguirne uno, perché potresti vedere l&#39;incremento tra esperienze identiche e la best practice per eseguire un test A/A in [!DNL Target].
+
+>[!ENDSHADEBOX]
 
 Prima di eseguire un test A/A sul sito tramite [!DNL Adobe Target], è importante comprendere cos&#39;è un test A/A, il motivo per cui è consigliabile eseguire un test A/A, la durata dell&#39;esecuzione e l&#39;interpretazione dei risultati.
 
-## Cos’è il test A/A?
+## Cos’è il test A/A? {#what-is-aa}
 
-Prima di spiegare il test A/A, è opportuno rivedere il test A/B in modo da poter discutere le differenze.
+Un test A/A differisce da un test A/B standard nel modo in cui viene allocato il traffico e in ciò che desideri apprendere:
 
-In un test A/B standard, il traffico viene allocato a due o più esperienze diverse. Un’esperienza è in genere il &quot;controllo&quot; e le varianti dell’esperienza vengono testate rispetto al controllo per vedere quale esperienza crea il maggior incremento in una data metrica.
+* **Test A/B:** Il traffico è allocato a due o più esperienze diverse. Un’esperienza è in genere il &quot;controllo&quot; e le varianti dell’esperienza vengono testate rispetto al controllo per vedere quale esperienza crea il maggior incremento in una data metrica. In genere, si desidera individuare un incremento nella conversione.
+* **Test A/A:** il traffico è allocato a due esperienze identiche, in genere con una suddivisione 50/50 del traffico. L&#39;obiettivo è in genere quello di determinare una differenza di *no* tra le esperienze identiche.
 
-Il test A/A, tuttavia, comporta l’allocazione del traffico a due esperienze identiche, di solito con una suddivisione del traffico 50/50. Con un test A/B standard, in genere desideri scoprire un incremento nella conversione. Questo differisce da un test A/A in cui l&#39;obiettivo è in genere quello di determinare che c&#39;è *no* differenza di incremento tra le esperienze identiche.
-
-## Perché vorresti testare due esperienze identiche e quali risultati si ottengono?
+## Perché eseguire un test A/A? {#why-aa}
 
 Alcune organizzazioni eseguono test A/A quando implementano un nuovo strumento di test, ad esempio [!DNL Target], per determinare se:
 
@@ -46,7 +51,7 @@ Alcune organizzazioni eseguono test A/A quando implementano un nuovo strumento d
 
 Anche se poche organizzazioni eseguono test A/A, è buona prassi eseguirli come esperimenti di &quot;sanità&quot; per creare fiducia dopo l’implementazione dello strumento o prima di eseguire test A/B che potrebbero influire sulla conversione e sui ricavi.
 
-## Perché potresti visualizzare l’incremento per un’esperienza quando le esperienze sono identiche?
+## Perché esperienze identiche possono mostrare incremento {#why-lift}
 
 Ci sono diversi motivi per cui potresti vedere l’incremento in un’esperienza rispetto a un’altra esperienza (identica):
 
@@ -56,19 +61,6 @@ Un problema comune nell’esecuzione di qualsiasi tipo di test, incluso un test 
 
 In un test A/A, il data peking può spesso causare la visualizzazione dell’incremento da parte degli analisti in un’esperienza, quando in realtà non dovrebbe esserci alcuna differenza, perché le due esperienze sono identiche. Infatti, con un peeking continuo, i test A/A sono *garantiti* per mostrare una &quot;significatività statistica&quot; (vale a dire, un&#39;affidabilità al di sopra di una certa soglia, ad esempio il 95%) ad un certo punto durante il test.
 
-Per evitare questo problema, e come con un normale test A/B, è necessario quindi decidere in anticipo quale dimensione campione utilizzare, in base alla dimensione minima dell’effetto (l’incremento minimo al di sotto del quale un effetto non è importante per la tua azienda), alla potenza e ai livelli di significatività che ritieni accettabili.
-
-In un test A/A, l&#39;obiettivo sarebbe quindi *non* visualizzare un risultato statisticamente significativo dopo che il test ha raggiunto la dimensione di campione desiderata.
-
-Il [!UICONTROL calcolatore delle dimensioni del campione di Adobe Target] è uno strumento importante per determinare la dimensione del campione da prendere in considerazione e per quanto tempo si deve eseguire il test.
-
-* [Calcolatore dimensioni Adobe Target](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6)
-
-Inoltre, consulta i seguenti articoli per informazioni sulla durata di un’attività e altri suggerimenti utili:
-
-* [Per quanto tempo si deve eseguire un test A/B?](/help/main/c-activities/t-test-ab/sample-size-determination.md)
-* [Dieci insidie A/B comuni e come evitarle](/help/main/c-activities/t-test-ab/common-ab-testing-pitfalls.md)
-
 ### La rilevanza statistica influisce sui risultati dei test
 
 Il livello di significatività di un test determina la probabilità che il test riporti una differenza significativa nei tassi di conversione tra due offerte diverse, quando in realtà non c’è alcuna differenza reale. Questo è noto come falso positivo o errore di tipo I. Il livello di significatività è una soglia specificata dall’utente ed esiste un compromesso tra la tolleranza per i falsi positivi e il numero di visitatori che devono essere inclusi nel test per scegliere il livello di significatività corretto.
@@ -77,10 +69,19 @@ Un livello di significatività comunemente utilizzato nei test A/A e A/B è 5%, 
 
 Supponi di voler raggiungere un livello di affidabilità del 95% con il test A/A. Con un livello di affidabilità del 95%, 1 test A/A su 20 potrebbe mostrare un incremento statisticamente significativo nelle conversioni. Con un livello di affidabilità del 90%, 1 test su 10 potrebbe mostrare un incremento delle conversioni durante il test di esperienze identiche.
 
-## Best practice
+## Best practice {#best-practice}
 
 Se ritieni necessario un test A/A nell’organizzazione, tieni presente che le esperienze identiche potrebbero mostrare temporaneamente una differenza rispetto al controllo. Questo può essere normale, a seconda del tempo in cui il test può essere eseguito. La differenza dovrebbe ridursi con l’aumentare del tempo e dei visitatori.
 
-Si consiglia di utilizzare una metodologia di test A/B regolare: decidere la dimensione del campione in anticipo in base a una dimensione minima dell&#39;effetto rilevante, alla potenza desiderata e alla rilevanza utilizzando il [calcolatore delle dimensioni di Adobe Target](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6).
+Utilizza una metodologia di test A/B regolare:
 
-Quindi, lascia un tempo adeguato e i visitatori prima di raggiungere qualsiasi conclusione, e ricorda che a seconda del livello di significatività del test, c&#39;è la possibilità che un&#39;esperienza mostri una differenza nell&#39;incremento, e possa anche essere dichiarata vincitrice.
+1. Decidi in anticipo la dimensione del campione da utilizzare, in base alla dimensione dell’effetto minimo (l’incremento minimo al di sotto del quale un effetto non è importante per la tua azienda), alla potenza e ai livelli di significatività che ritieni accettabili. Il **[!UICONTROL calcolatore delle dimensioni del campione di Adobe Target]** è uno strumento importante per determinare la dimensione del campione da prendere in considerazione e per quanto tempo si deve eseguire il test. Consulta il [Calcolatore dimensioni campione Adobe Target](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6).
+
+1. Concedi tempo e visitatori adeguati prima di raggiungere qualsiasi conclusione. In un test A/A, l&#39;obiettivo è *non* visualizzare un risultato statisticamente significativo dopo che il test ha raggiunto la dimensione di campione desiderata.
+
+1. Ricorda che, a seconda del livello di significatività del test, esiste la possibilità che un’esperienza mostri una differenza in termini di incremento e che venga addirittura dichiarata vincitrice.
+
+Per informazioni sulla durata di un’attività e altri suggerimenti utili, consulta i seguenti articoli:
+
+* [Per quanto tempo si deve eseguire un test A/B?](/help/main/c-activities/t-test-ab/sample-size-determination.md)
+* [Dieci insidie A/B comuni e come evitarle](/help/main/c-activities/t-test-ab/common-ab-testing-pitfalls.md)

@@ -27,7 +27,7 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: d887712962ad4e3cecd6b3b86ee33a4bcb99f2a8
 workflow-type: tm+mt
 source-wordcount: '3768'
 ht-degree: 32%
@@ -59,7 +59,7 @@ In questi test, la maggior parte dei prodotti, incluso [!DNL Target], utilizza u
 ## Quando utilizzare [!UICONTROL Allocazione automatica] rispetto a [!UICONTROL Attività A/B Test] o [!UICONTROL Attività Automated Personalization] {#section_3F73B0818A634E4AAAA60A37B502BFF9}
 
 * Utilizza l&#39;**[!UICONTROL Allocazione automatica]** quando vuoi ottimizzare l&#39;attività fin dall&#39;inizio e identificare le esperienze vincenti il più rapidamente possibile. Rendendo più frequenti le esperienze ad alte prestazioni, le prestazioni complessive dell’attività aumentano.
-* Utilizza un **[test A/B](/help/main/c-activities/t-test-ab/test-ab.md#task_05E33EB15C4D4459B5EAFF90A94A7977)** standard quando vuoi caratterizzare le prestazioni di tutte le esperienze prima di ottimizzare il sito. Un test A/B consente di classificare tutte le esperienze, mentre l&#39;[!UICONTROL allocazione automatica] trova le prestazioni migliori ma non garantisce la differenziazione tra le prestazioni più basse.
+* Utilizza un **[test A/B](/help/main/c-activities/t-test-ab/test-ab.md#test-ab)** standard quando vuoi caratterizzare le prestazioni di tutte le esperienze prima di ottimizzare il sito. Un test A/B consente di classificare tutte le esperienze, mentre l&#39;[!UICONTROL allocazione automatica] trova le prestazioni migliori ma non garantisce la differenziazione tra le prestazioni più basse.
 * Utilizza [Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) quando desideri algoritmi di ottimizzazione della complessità più elevata, ad esempio modelli di apprendimento automatico che generano previsioni basate su attributi di profilo individuali. [!UICONTROL Allocazione automatica] esamina il comportamento aggregato delle esperienze (proprio come i test A/B standard) e non distingue tra i visitatori.
 
 ## Vantaggi principali di [!UICONTROL Allocazione automatica] {#section_0913BF06F73C4794862561388BBDDFF0}

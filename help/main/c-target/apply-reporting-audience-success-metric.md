@@ -21,7 +21,7 @@ topic_v2:
     internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: c87804d95464cc31658be23bc7de051c6e1bc12e
 workflow-type: tm+mt
 source-wordcount: '407'
 ht-degree: 40%
@@ -46,7 +46,7 @@ Oppure, per formularlo in altro modo, è possibile specificare che un visitatore
 
 >[!NOTE]
 >
->[Le metriche di successo](/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924) sono disponibili solo se sono state configurate per l’attività. Se non hai definito le metriche di successo, visualizzerai solo due opzioni dall&#39;elenco a discesa: [!UICONTROL Voce campagna] e [!UICONTROL Conversione].
+>[Le metriche di successo](/help/main/c-activities/r-success-metrics/success-metrics.md#overview) sono disponibili solo se sono state configurate per l’attività. Se non hai definito le metriche di successo, visualizzerai solo due opzioni dall&#39;elenco a discesa: [!UICONTROL Voce campagna] e [!UICONTROL Conversione].
 
 
 ## Considerazioni
