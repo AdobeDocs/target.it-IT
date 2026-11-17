@@ -18,35 +18,45 @@ topic_v2:
     internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: 4876228feee28031373f7e0abe62a66b05b15274
 workflow-type: tm+mt
-source-wordcount: '498'
-ht-degree: 16%
+source-wordcount: '448'
+ht-degree: 0%
 ---
-# Utilizzo dei dati di [!DNL Adobe Analytics]
+# Utilizzo dei dati di [!DNL Adobe Analytics] {#create-a4t}
 
-È possibile configurare un&#39;attività in [!DNL Adobe Target] per utilizzare [!DNL Adobe Analytics] come origine per la generazione di rapporti (A4T).
+>[!BEGINSHADEBOX]
 
-Per informazioni dettagliate sulla configurazione di [!DNL Analytics] come origine dati per [!DNL Target], vedere [Adobe Analytics come Source di reporting per Adobe Target](/help/main/c-integrating-target-with-mac/a4t/a4t.md).
+**In questa pagina:** Scopri come configurare un&#39;attività per utilizzare [!DNL Adobe Analytics] come origine per la generazione di rapporti (A4T), cosa preparare prima di iniziare e come scegliere l&#39;obiettivo dell&#39;attività.
 
-Prima di impostare un&#39;attività che utilizza [!DNL Analytics] come origine per la generazione di rapporti, stabilisci l&#39;obiettivo dell&#39;attività, ad esempio il miglioramento dei ricavi per visitatore (RPV) o l&#39;aumento dei clic sul carrello. Scegli una metrica di successo finale per l’attività. Sebbene sia possibile selezionare metriche aggiuntive in qualsiasi momento in [!DNL Analytics], è necessario specificare una particolare metrica che si prevede verrà influenzata dal test.
+>[!ENDSHADEBOX]
 
->[!NOTE]
->
->L&#39;opzione [!DNL Adobe Analytics] è disponibile se l&#39;account [!DNL Adobe Experience Cloud] è stato collegato sia a [!DNL Analytics] che a [!DNL Target], anche se l&#39;integrazione tra [!DNL Target] e [!DNL Analytics] non è stata impostata per l&#39;account.
+Analytics for Target (A4T) misura i risultati di un&#39;attività [!DNL Adobe Target] con i dati e le metriche di [!DNL Adobe Analytics]. Per utilizzare A4T, configura l&#39;attività in modo che [!DNL Analytics] sia la sua origine per la generazione di rapporti. Per informazioni dettagliate sulla configurazione di [!DNL Analytics] come origine dati per [!DNL Target], vedere [Adobe Analytics come Source di reporting per Adobe Target](/help/main/c-integrating-target-with-mac/a4t/a4t.md).
 
-Quando selezioni [!DNL Analytics] come origine per la generazione di rapporti per [!DNL Target], selezioni una suite di rapporti [!DNL Analytics] per ricevere i dati dell&#39;attività [!DNL Target]. Per specificare un&#39;origine per la generazione di rapporti, scegliere innanzitutto una delle [!DNL Analytics] società associate al proprio account, quindi selezionare la suite di rapporti appropriata per l&#39;attività. È possibile selezionare solo le suite di rapporti predisposte per la connessione a [!DNL Adobe Target]. Se la suite di rapporti prevista non viene visualizzata, disconnettersi e accedere nuovamente a [!DNL Adobe Experience Cloud] per riprovare. Se la suite di rapporti non è ancora presente nell’elenco, contatta l’Assistenza clienti.
-
-[!UICONTROL Analytics for Target] (A4T) richiede un server di tracciamento per riportare correttamente i risultati. Nel campo [!UICONTROL Server di monitoraggio] viene visualizzato un server di monitoraggio predefinito. Se utilizzi più server di tracciamento, assicurati di includere in questo campo il server di tracciamento corretto. Per ulteriori informazioni, vedere [Utilizzo di un server di tracciamento di Analytics](/help/main/c-integrating-target-with-mac/a4t/analytics-tracking-server.md#task_72077BA7E93C4A65A715A18F32228823).
+## Prima di iniziare {#before-you-begin}
 
 >[!NOTE]
 >
->Se utilizzi [!DNL Adobe Analytics] come origine per la generazione di rapporti dell&#39;attività, non è necessario specificare un server di tracciamento durante la creazione dell&#39;attività se utilizzi at.js versione 0.9.1 (o successiva). La libreria at.js invia automaticamente i valori del server di tracciamento a [!DNL Target]. Durante la creazione di attività, puoi lasciare vuoto il campo [!UICONTROL Server di tracciamento] nella pagina [!UICONTROL Obiettivi e impostazioni].
+>L&#39;opzione **[!UICONTROL Adobe Analytics]** è disponibile quando l&#39;account [!DNL Adobe Experience Cloud] è collegato sia a [!DNL Analytics] che a [!DNL Target], anche se l&#39;integrazione tra [!DNL Target] e [!DNL Analytics] non è stata impostata per l&#39;account.
 
-Durante l&#39;impostazione dell&#39;attività dopo aver impostato [!DNL Analytics] come origine per la generazione di rapporti, non è possibile impostare tipi di pubblico per la generazione dei rapporti. [!DNL Analytics] segmenti sono disponibili nel report [!DNL Target] [!UICONTROL Attività].
+Prima di creare l’attività, stabilisci il relativo obiettivo, ad esempio il miglioramento dei ricavi per visitatore (RPV) o l’aumento dei clic sul carrello. Quindi scegli la metrica di successo finale che misura questo obiettivo. È possibile selezionare metriche aggiuntive in [!DNL Analytics] in qualsiasi momento, ma è comunque necessario specificare l&#39;unica metrica su cui si prevede di influenzare il test.
 
-Devi selezionare una metrica di successo da utilizzare come obiettivo per ogni attività. L&#39;obiettivo è l&#39;attività di conversione che indica un&#39;attività di successo. È buona norma non eseguire mai un test senza un obiettivo da migliorare in modo specifico. Puoi scegliere qualsiasi metrica [!DNL Analytics] disponibile nel selettore delle metriche [!DNL Analytics].
+## Seleziona Analytics come origine per la generazione rapporti {#select-reporting-source}
 
-Fissare un obiettivo non significa non poter utilizzare un’altra metrica durante la valutazione dei risultati del test. L&#39;obiettivo, comunque, funge da promemoria rispetto all&#39;elemento da migliorare con il test.
+>[!NOTE]
+>
+>Se si utilizza at.js versione 0.9.1 o successiva, non è necessario specificare un server di tracciamento quando si crea un&#39;attività che utilizza [!DNL Adobe Analytics] come origine per la generazione di rapporti. La libreria at.js invia automaticamente i valori del server di tracciamento a [!DNL Target]. Il campo **[!UICONTROL Server di monitoraggio]** nella pagina **[!UICONTROL Obiettivi e impostazioni]** può rimanere vuoto.
 
-Quando un visitatore completa l&#39;obiettivo, non viene più incluso nell&#39;attività. Se il visitatore rientra nell’attività dopo aver completato un’attività, viene conteggiato come un nuovo visitatore.
+L&#39;origine per la generazione di rapporti è selezionata nella pagina **[!UICONTROL Obiettivi e impostazioni]** dell&#39;attività. In questa pagina è possibile scegliere una società [!DNL Analytics] e la suite di rapporti che riceve i dati dell&#39;attività [!DNL Target] e verificare il server di tracciamento.
+
+➡️ Per i passaggi, i requisiti della suite di rapporti e i dettagli del server di tracciamento, vedere [Reporting di Source](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#reporting-source).
+
+Quando [!DNL Analytics] è l&#39;origine per la generazione di rapporti, l&#39;attività non offre un&#39;opzione per impostare i tipi di pubblico per la generazione dei rapporti. [!DNL Analytics] segmenti sono disponibili nel report [!DNL Target] **[!UICONTROL Attività]**.
+
+## Imposta l’obiettivo dell’attività {#set-goal}
+
+Ogni attività richiede una metrica di successo come obiettivo. L’obiettivo è l’attività di conversione che segnala un’attività di successo. È possibile utilizzare qualsiasi metrica disponibile nel selettore di metriche [!DNL Analytics]. È consigliabile non eseguire mai un test senza un obiettivo di miglioramento in un modo specifico.
+
+L’impostazione di un obiettivo non impedisce l’utilizzo di altre metriche per valutare i risultati del test. L’obiettivo, tuttavia, identifica l’unica cosa che desideri migliorare con il test.
+
+Quando un visitatore completa l&#39;obiettivo, non viene più incluso nell&#39;attività. Se il visitatore accede nuovamente all’attività dopo averla completata, viene conteggiato come un nuovo visitatore.

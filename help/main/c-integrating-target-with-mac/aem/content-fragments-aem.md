@@ -1,7 +1,7 @@
 ---
 keywords: esperienza;json;aem;adobe experience manager;esportare in adobe target;frammenti di contenuto;frammenti;CF;cf;headless;personalizzazione;sperimentazione
-description: Scopri come utilizzare  [!DNL Adobe Experience Manager] [!UICONTROL Frammenti di contenuto] in [!DNL Adobe Target] attività.
-title: Come Si Utilizza  [!DNL Adobe Experience Manager] (AEM) [!UICONTROL Frammenti Di Contenuto]?
+description: Scopri come utilizzare [!DNL Adobe Experience Manager] [!UICONTROL Frammenti di contenuto] nelle attività [!DNL Adobe Target].
+title: Come Si Utilizzano [!DNL Adobe Experience Manager] (AEM) [!UICONTROL Frammenti Di Contenuto]?
 feature: Integrations
 exl-id: 2057d9fe-c0f9-41d5-82e1-529db9ef7ca5
 TQID: https://experienceleague.adobe.com/tb500kFSZoR3czs10Gs3EIOWEX2ybnd7tSWwDmWSMWQ
@@ -22,13 +22,11 @@ topic_v2:
     internal-label: Personalization
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
     internal-label: Machine learning
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+source-git-commit: 5f78680bff6489e51d7f0afb6db1c9360f5cb6d1
 workflow-type: tm+mt
-source-wordcount: 775
+source-wordcount: '777'
 ht-degree: 20%
-
 ---
-
 # AEM [!UICONTROL Frammenti di contenuto]
 
 Utilizza [!UICONTROL Frammenti di contenuto] (FC) creati in [!DNL Adobe Experience Manager] (AEM) nelle attività [!DNL Target] per facilitare la personalizzazione e la sperimentazione headless.
@@ -40,16 +38,16 @@ Considera quanto segue mentre lavori con AEM [!UICONTROL Frammenti di contenuto]
 * Questa funzione richiede una licenza come cliente di [!DNL Adobe Experience Manager as a Cloud Service]. Per ulteriori informazioni, consulta [Requisiti](#section_AE6F0971E1574B3AA324003599B96E5A), di seguito.
 * [!UICONTROL Frammenti di esperienza] e [!UICONTROL Frammenti di contenuto] sono disponibili per i seguenti tipi di attività:
 
-   * [[!UICONTROL Test A/B]](/help/main/c-activities/t-test-ab/test-ab.md)
-   * [[!UICONTROL Allocazione automatica]](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)
-   * [[!UICONTROL Targeting automatico]](/help/main/c-activities/auto-target/auto-target-to-optimize.md)
-   * [[!UICONTROL Automated Personalization] (AP)](/help/main/c-activities/t-automated-personalization/automated-personalization.md)
-   * [[!UICONTROL Targeting dell’esperienza] (XT)](/help/main/c-activities/t-experience-target/experience-target.md)
+  * [[!UICONTROL Test A/B]](/help/main/c-activities/t-test-ab/test-ab.md)
+  * [[!UICONTROL Allocazione automatica]](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)
+  * [[!UICONTROL Targeting automatico]](/help/main/c-activities/auto-target/auto-target-to-optimize.md)
+  * [[!UICONTROL Automated Personalization] (AP)](/help/main/c-activities/t-automated-personalization/automated-personalization.md)
+  * [[!UICONTROL Targeting dell’esperienza] (XT)](/help/main/c-activities/t-experience-target/experience-target.md)
 
 * [!UICONTROL Frammenti di esperienza] e [!UICONTROL Frammenti di contenuto] non sono disponibili per i seguenti tipi di attività:
 
-   * [[!UICONTROL Test multivariato] (MVT)](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md)
-   * [[!UICONTROL Funzione Consigli]](/help/main/c-recommendations/recommendations.md)
+  * [[!UICONTROL Test multivariato] (MVT)](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md)
+  * [[!UICONTROL Funzione Consigli]](/help/main/c-recommendations/recommendations.md)
 
 * Puoi utilizzare [!UICONTROL Frammenti di contenuto] in [!DNL Target] attività utilizzando solo il [Compositore esperienza basato su moduli](/help/main/c-experiences/form-experience-composer.md). *impossibile* utilizzare [!UICONTROL Frammenti di contenuto] nelle attività [!DNL Target] utilizzando il [!UICONTROL Compositore esperienza visivo].
 
@@ -87,7 +85,7 @@ Puoi utilizzare [!UICONTROL Frammenti di contenuto] in [!DNL Target] attività u
 >
 >Utilizza l&#39;intelligenza artificiale, l&#39;apprendimento automatico e i consigli con [!UICONTROL frammenti di contenuto]:
 >
->* Per utilizzare completamente la funzionalità di IA e ML [!DNL Target], è possibile selezionare [Allocazione automatica](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4) o [Targeting automatico](/help/main/c-activities/auto-target/auto-target-to-optimize.md) durante la creazione di un&#39;attività [!UICONTROL Test A/B].
+>* Per utilizzare completamente la funzionalità di IA e ML [!DNL Target], è possibile selezionare [Allocazione automatica](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#auto-allocate-overview) o [Targeting automatico](/help/main/c-activities/auto-target/auto-target-to-optimize.md) durante la creazione di un&#39;attività [!UICONTROL Test A/B].
 >
 >* [!UICONTROL I frammenti di contenuto] non sono supportati nelle attività [!DNL Recommendations]. Tuttavia, per utilizzare [!UICONTROL Frammenti di contenuto] per i consigli, puoi creare un&#39;attività [!UICONTROL Test A/B] (tra cui [!UICONTROL Allocazione automatica] e [!UICONTROL Targeting automatico]) o un&#39;attività [!UICONTROL Targeting esperienza] (XT) e [includere i consigli come offerta](/help/main/c-recommendations/recommendations-as-an-offer.md).
 

@@ -45,7 +45,7 @@ topic_v2:
     internal-label: Insights
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 76cfdeb96e4d9c0bb69aab192f89636821787791
+source-git-commit: 174d4631b6f4a481c039bd7fff52a8e70161e19e
 workflow-type: tm+mt
 source-wordcount: '2918'
 ht-degree: 47%
@@ -119,7 +119,7 @@ L’interruzione prematura delle attività può portare a conclusioni sbagliate.
 **Come posso eseguire un&#39;attività se la finestra temporale è piccola e posso ottimizzare per il mio obiettivo durante il test?**
 
 +++Vedi i dettagli
-Consulta [i rapporti per determinare l&#39;esperienza vincente](/help/main/c-activities/automated-traffic-allocation/determine-winner.md#concept_5741A89ED7224E1285A3BC34B2CCD0F9).
+Consulta [i rapporti per determinare l&#39;esperienza vincente](/help/main/c-activities/automated-traffic-allocation/determine-winner.md#interpret-auto-allocate-reports).
 
 +++
 
@@ -264,7 +264,7 @@ Prova la [funzione Script di profilo](/help/main/c-target/c-visitor-profile/prof
 **Posso iniziare un&#39;attività con un minor numero di visitatori?**
 
 +++Vedi i dettagli
-Utilizza i controlli di allocazione della percentuale disponibili nel [passaggio 2 del flusso di lavoro guidato in tre parti (pagina di targeting)](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-audience.md#concept_A268236C1224451DB7844BF67F41A087) per decidere in che modo impostare l&#39;attività.
+Utilizza i controlli di allocazione della percentuale disponibili nel [passaggio 2 del flusso di lavoro guidato in tre parti (pagina di targeting)](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-audience.md#select-audience) per decidere in che modo impostare l&#39;attività.
 
 +++
 
@@ -339,7 +339,7 @@ Rivolgiti ad Adobe per [assicurarti di avere l’account configurato per Scene7]
 **Voglio testare due esperienze diverse, per esempio sconto forfettario e sconto percentuale, ma voglio indirizzare le esperienze correttamente (mostrare diverso testo in una specifica lingua o con una specifica valuta alle persone provenienti da vari paesi). Come posso fare?**
 
 +++Vedi i dettagli
-Puoi farlo semplicemente con la [funzionalità Più versioni di esperienza](/help/main/c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences.md#task_0138112E283A4A5B9F8AB9AAF2FBC2FF). In questi test, noterai le sfumature relative alla consegna.
+Puoi farlo semplicemente con la [funzionalità Più versioni di esperienza](/help/main/c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences.md#use-case). In questi test, noterai le sfumature relative alla consegna.
 
 +++
 

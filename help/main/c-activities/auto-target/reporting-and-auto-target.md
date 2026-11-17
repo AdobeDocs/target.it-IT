@@ -26,21 +26,25 @@ topic_v2:
     internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 90943644c64269a8f34b79cf1b6dac35ffd57bb2
 workflow-type: tm+mt
-source-wordcount: '223'
-ht-degree: 12%
+source-wordcount: '247'
+ht-degree: 5%
 ---
-# Reporting e [!UICONTROL Targeting automatico]
+# Reporting e [!UICONTROL Targeting automatico] {#reporting-and-auto-target}
 
-Informazioni su come interpretare i report [!UICONTROL Riepilogo targeting automatico] in [!DNL Adobe Target], inclusi i report [!UICONTROL Segmenti automatizzati] e [!UICONTROL Attributi importanti].
+>[!BEGINSHADEBOX]
 
-Per ulteriori informazioni su ciascun rapporto, vedere gli argomenti seguenti:
+**In questa pagina:** Scopri quali report ti aiutano a interpretare i risultati di un&#39;attività di **[!UICONTROL Targeting automatico]**.
+
+>[!ENDSHADEBOX]
+
+[!DNL Adobe Target] fornisce tre report per interpretare i risultati di un&#39;attività di **[!UICONTROL Targeting automatico]**: il report **[!UICONTROL Riepilogo Targeting automatico]**, il report **[!UICONTROL Segmenti automatizzati]** e il report **[!UICONTROL Attributi importanti]**. Per ulteriori informazioni su ciascun rapporto, vedere gli argomenti seguenti:
 
 | Rapporto | Dettagli |
 | --- | --- |
-| [Rapporto di riepilogo del Targeting automatico](/help/main/c-reports/personalization-reports/auto-target-summary-report.md) | Il report [!UICONTROL Riepilogo targeting automatico] consente di visualizzare le metriche di reporting in una vista tabella o in una vista grafico.<P>Questo report consente di visualizzare le metriche per [!UICONTROL Visite], [!UICONTROL Tasso di conversione], [!UICONTROL Incremento medio e intervallo di affidabilità] e [!UICONTROL Affidabilità]. |
-| [Rapporto Segmenti automatizzati](/help/main/c-reports/c-personalization-insights-reports/automated-segments-report.md) | Il rapporto [!UICONTROL Segmenti automatizzati] mostra come i diversi visitatori rispondono in modo diverso alle offerte/esperienze nell&#39;attività [!UICONTROL Targeting automatico]. Questo report mostra come diversi segmenti automatizzati definiti dai modelli di personalizzazione di [!DNL Target] hanno risposto alle offerte/esperienze nell&#39;attività. |
-| [Rapporto Attributi importanti](/help/main/c-reports/c-personalization-insights-reports/important-attributes-report.md) | Il rapporto [!UICONTROL Attributi importanti] mostra come, nelle diverse attività, i diversi attributi sono più (o meno) importanti per il modo in cui il modello decide di personalizzare. Questo rapporto mostra gli attributi principali che hanno influenzato il modello e la loro importanza relativa. |
+| [Rapporto di riepilogo del Targeting automatico](/help/main/c-reports/personalization-reports/auto-target-summary-report.md) | Il report **[!UICONTROL Riepilogo targeting automatico]** consente di visualizzare le metriche di reporting in una vista tabella o in una vista grafico.<P>Questo report consente di visualizzare le metriche per **[!UICONTROL Visite]**, **[!UICONTROL Tasso di conversione]**, **[!UICONTROL Incremento medio e intervallo di affidabilità]** e **[!UICONTROL Affidabilità]**. |
+| [Rapporto Segmenti automatizzati](/help/main/c-reports/c-personalization-insights-reports/automated-segments-report.md) | Il rapporto **[!UICONTROL Segmenti automatizzati]** mostra in che modo i diversi visitatori rispondono in modo diverso alle offerte ed esperienze nell&#39;attività **[!UICONTROL Targeting automatico]**. Mostra come i segmenti automatizzati definiti dai modelli di personalizzazione di [!DNL Target] hanno risposto alle offerte ed esperienze dell&#39;attività. |
+| [Rapporto Attributi importanti](/help/main/c-reports/c-personalization-insights-reports/important-attributes-report.md) | Il rapporto **[!UICONTROL Attributi importanti]** mostra come, nelle diverse attività, i diversi attributi sono più (o meno) importanti per il modo in cui il modello decide di personalizzare. Mostra gli attributi principali che hanno influenzato il modello e la loro importanza relativa. |
 
 Per informazioni generali sulla creazione di rapporti, consulta [Rapporti](/help/main/c-reports/reports.md).

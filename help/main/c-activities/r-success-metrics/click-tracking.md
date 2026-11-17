@@ -23,10 +23,10 @@ topic_v2:
     internal-label: Measurement
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 6c83bb52aabc3441ee9c8caf02988dc5c227d837
+source-git-commit: 4dc3c1d5a5a7fa1eb16855e91eb516240df8a65c
 workflow-type: tm+mt
-source-wordcount: '1034'
-ht-degree: 63%
+source-wordcount: '1004'
+ht-degree: 50%
 ---
 # Tracciamento dei clic {#click-tracking}
 
@@ -42,15 +42,15 @@ ht-degree: 63%
 >
 >Il tracciamento dei clic non è supportato nella richiesta globale di [!DNL Target] se questa viene utilizzata come posizione in un’attività basata su modulo.
 
-* [Configurare il tracciamento dei clic](#section_5540C5A533114E57BAE022A600B02E72)
-* [Pannello Elementi selezionati](#selected-elements)
-* [Considerazioni](#considerations): selezione degli elementi, conteggio dei clic, Analytics e at.js e limiti
-
 ## Configurare il tracciamento dei clic {#section_5540C5A533114E57BAE022A600B02E72}
+
+Il tracciamento dei clic è un tipo di metrica di successo della conversione. Conta i clic effettuati dai partecipanti all’attività sugli elementi della pagina selezionati, in modo da poter misurare il modo in cui i visitatori interagiscono con tali elementi. Qualsiasi elemento di una pagina può essere tracciato, ad esempio un collegamento, un pulsante o un’immagine.
 
 1. Quando imposterai gli obiettivi dell&#39;attività nella pagina **[!UICONTROL Obiettivi e impostazioni]**, seleziona la metrica di successo **[!UICONTROL Conversione]**.
 
 1. Per eseguire tale azione, selezionare **[!UICONTROL Scegli un elemento]**, quindi fare clic su **[!UICONTROL Seleziona elementi]**.
+
+   ![Elementi selezionati](../assets/click-tracking-1.png)
 
    La pagina viene visualizzata nel **[!UICONTROL Compositore esperienza visivo]**.
 
@@ -60,15 +60,19 @@ ht-degree: 63%
 
 1. Fai clic su **[!UICONTROL Fine]** nella parte superiore della schermata per salvare le selezioni.
 
+   La metrica obiettivo nella pagina **[!UICONTROL Obiettivi e impostazioni]** mostra quindi il numero di elementi selezionati. Passa il cursore sopra di esso per vedere gli elementi.
+
+   ![Elementi selezionati](../assets/click-tracking-2.png)
+
 Quando un partecipante all’attività fa clic su un elemento selezionato, tale clic viene conteggiato come conversione.
 
 ## Pannello Elementi selezionati {#selected-elements}
 
 Per le attività **[!UICONTROL Test A/B]**, **[!UICONTROL Targeting esperienza]** (XT), **[!UICONTROL Automated Personalization]** (AP) e **[!UICONTROL Test multivariato]** (MVT), nel pannello **[!UICONTROL Elementi selezionati]** sono elencati a sinistra gli elementi selezionati per il tracciamento dei clic.
 
-![Pannello Elementi selezionati](/help/main/c-activities/r-success-metrics/assets/selected-elements.png)
+![Pannello Elementi selezionati](../assets/click-tracking-3.png)
 
-Quando fai clic su un elemento nel pannello **[!UICONTROL Componenti tracciati]** puoi applicare diverse azioni. La tabella seguente descrive ogni azione che è possibile eseguire su un elemento:
+Quando fai clic su un elemento nel pannello **[!UICONTROL Elementi selezionati]** puoi applicare diverse azioni. La tabella seguente descrive ogni azione che è possibile eseguire su un elemento:
 
 | Azione | Descrizione |
 | --- | --- |
@@ -80,19 +84,17 @@ Quando fai clic su un elemento nel pannello **[!UICONTROL Componenti tracciati]*
 
 Se conosci già il percorso DOM del selettore, puoi aggiungerlo manualmente facendo clic sull&#39;icona **[!UICONTROL Aggiungi componente]** nella parte superiore del pannello.
 
-![Icona Aggiungi componente](/help/main/c-activities/r-success-metrics/assets/add-element.png)
+![Icona Aggiungi componente](../assets/click-tracking-4.png)
 
 ## Considerazioni {#considerations}
 
-Quando impostate il tracciamento dei clic, tenete presente quanto segue.
-
 ### Seleziona elementi
 
-* La funzione percorso DOM è disponibile quando si imposta il tracciamento dei clic. Facendo clic su un elemento della pagina, viene visualizzato il menu delle opzioni del Compositore esperienza visivo. Inoltre, il percorso DOM corrispondente viene visualizzato nella parte inferiore della pagina. Puoi utilizzare il percorso DOM per vedere rapidamente le informazioni sull’elemento selezionato (tipo, ID e classe) e spostarti verso l’alto o il basso nel percorso DOM per selezionare l’elemento desiderato.
+* Quando fai clic su un elemento, viene visualizzato il menu delle opzioni del Compositore esperienza visivo e il percorso DOM dell’elemento viene visualizzato nella parte inferiore della pagina. Utilizza il percorso DOM per visualizzare informazioni sull’elemento (tipo, ID e classe) e per spostarti verso l’alto o verso il basso nel percorso per selezionare l’elemento desiderato.
 
-  Come per la creazione di esperienze, al passaggio 1 nel flusso di lavoro di creazione attività, puoi scegliere un elemento con il selettore del percorso DOM nella parte inferiore della pagina. Quando selezioni un elemento dal percorso DOM, nel Compositore esperienza visivo l’elemento corrispondente è visualizzato come Selezionato. Per deselezionare un elemento selezionato, puoi fare clic di nuovo su di esso nel selettore del percorso DOM o sulla casella “Selezionato” nel Compositore esperienza visivo.
+  L&#39;elemento selezionato nel percorso DOM viene visualizzato come **[!UICONTROL Selezionato]** nel Compositore esperienza visivo. Per deselezionarlo, fai di nuovo clic su di esso nel percorso DOM o sulla casella **[!UICONTROL Selezionato]** nel Compositore esperienza visivo.
 
-  ![Selettore percorso DOM](/help/main/c-activities/r-success-metrics/assets/click-tracking-dom.png)
+  ![Selettore percorso DOM](../assets/click-tracking-5.png)
 
   Per ulteriori informazioni, consulta [Navigare tra gli elementi utilizzando il percorso DOM](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path) in *Opzioni del Compositore esperienza visivo*.
 
@@ -100,10 +102,6 @@ Quando impostate il tracciamento dei clic, tenete presente quanto segue.
 * Assicurati di selezionare il livello di elemento di cui desideri tenere traccia. Ad esempio, quando definisci un pulsante, assicurati di selezionare il collegamento e non il testo del pulsante.
 * Se selezioni più di un elemento, quando un partecipante fa clic su uno qualsiasi degli elementi scelti, il clic viene conteggiato. Per contare ogni elemento separatamente, imposta le metriche di successo individuali per ogni elemento. Per contare un elemento facendo clic su più elementi in una pagina, modifica il selettore degli elementi CSS in modo che corrisponda a più elementi.
 * Per le attività di **[!UICONTROL Automated Personalization]** (AP) e Targeting automatico nelle applicazioni a pagina singola (SPA), è possibile selezionare gli elementi per il tracciamento dei clic che appartengono a una visualizzazione [!DNL Target] specifica. Per ulteriori informazioni sulle visualizzazioni, vedere [Visualizzazioni di Adobe Target e applicazioni a pagina singola](/help/main/c-experiences/spa-visual-experience-composer.md).
-
-Dopo aver fatto clic su **[!UICONTROL Fine]**, il numero di elementi selezionati viene visualizzato nella metrica obiettivo nella pagina **[!UICONTROL Obiettivi e impostazioni]**. Passa il cursore sopra di esso per visualizzare gli elementi selezionati.
-
-![Elementi selezionati](/help/main/c-activities/r-success-metrics/assets/elements-selected-link.png)
 
 ### Come vengono conteggiati i clic
 

@@ -32,34 +32,40 @@ topic_v2:
     internal-label: Insights
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
     internal-label: Machine learning
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: ddd4fa83540294ee229b87f041bc2245ba9a3464
 workflow-type: tm+mt
-source-wordcount: '2010'
-ht-degree: 50%
+source-wordcount: '2038'
+ht-degree: 48%
 ---
-# Dati utilizzati da [!DNL Target] algoritmi di apprendimento automatico
+# Dati utilizzati da [!DNL Target] algoritmi di apprendimento automatico {#ap-data}
 
-[!DNL Adobe Target] raccoglie e utilizza automaticamente vari dati per generare gli algoritmi di personalizzazione nelle attività [!UICONTROL Automated Personalization] (AP) e [!UICONTROL Targeting automatico] (AT). Quando un visitatore accede a un&#39;attività di [!UICONTROL Automated Personalization] o [!UICONTROL Targeting automatico], viene passata un&#39;istantanea di informazioni a un set di &quot;record di formazione&quot; (i dati del visitatore su cui gli algoritmi di personalizzazione apprendono qualcosa).
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** Scopri quali dati [!DNL Target] raccoglie per impostazione predefinita e quali dati personalizzati puoi fornire per generare i modelli di personalizzazione delle attività **[!UICONTROL Automated Personalization]** e **[!UICONTROL Targeting automatico]**.
+
+>[!ENDSHADEBOX]
+
+[!DNL Adobe Target] raccoglie e utilizza automaticamente vari dati per generare gli algoritmi di personalizzazione nelle attività **[!UICONTROL Automated Personalization]** (AP) e **[!UICONTROL Targeting automatico]** (AT). Quando un visitatore accede a un&#39;attività di **[!UICONTROL Automated Personalization]** o **[!UICONTROL Targeting automatico]**, viene passata un&#39;istantanea di informazioni a un set di &quot;record di formazione&quot; (i dati del visitatore su cui gli algoritmi di personalizzazione apprendono qualcosa).
 
 Per ulteriori informazioni sugli algoritmi di personalizzazione [!DNL Target], vedere [Algoritmo Foresta casuale](/help/main/c-activities/t-automated-personalization/algo-random-forest.md).
 
 ## Categorie di attributi [!DNL Target] predefinite
 
-Nella tabella seguente sono riportati i dati raccolti dalle attività [!UICONTROL Automated Personalization] e [!UICONTROL Targeting automatico] per impostazione predefinita, senza alcuna configurazione di [!DNL Target] o altre soluzioni [!DNL Adobe]. La tabella include anche la convenzione di denominazione utilizzata per indicare questi attributi nei [rapporti Personalization Insights](/help/main/c-reports/c-personalization-insights-reports/personalization-insights-reports.md#concept_A897070E1EDC403EB84CFB7A6ECAD767). Puoi aumentare il set di dati di input in qualsiasi momento. Per ulteriori informazioni su come caricare dati aggiuntivi, consulta [Caricamento dei dati per gli  [!DNL Target] algoritmi di personalizzazione](/help/main/c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md).
+Nella tabella seguente sono riportati i dati raccolti dalle attività **[!UICONTROL Automated Personalization]** e **[!UICONTROL Targeting automatico]** per impostazione predefinita, senza alcuna configurazione di [!DNL Target] o altre soluzioni [!DNL Adobe]. La tabella include anche la convenzione di denominazione utilizzata per indicare questi attributi nei [rapporti Personalization Insights](/help/main/c-reports/c-personalization-insights-reports/personalization-insights-reports.md). Puoi aumentare il set di dati di input in qualsiasi momento. Per ulteriori informazioni su come caricare dati aggiuntivi, consulta [Caricamento dei dati per gli  [!DNL Target] algoritmi di personalizzazione](/help/main/c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md).
 
-| Categoria di dati | Prefisso di sistema | Descrizione | Nome visualizzato nei report [!UICONTROL Insights] |
+| Categoria di dati | Prefisso di sistema | Descrizione | Nome visualizzato nei report **[!UICONTROL Insights]** |
 | --- | --- | --- | --- |
 | Parametri dell’ambiente | ENV | Informazioni sull’ambiente di un utente, tra cui sistema operativo, browser e ora del giorno/giorno della settimana. | Browser - [Nome attributo]<br>Sistema operativo - [Valore] |
 | Informazioni geografiche | GEO | Informazioni sulla posizione geografica di un utente, ottenute tramite ricerca IP. | Geo - [attributo geo] |
 | Dispositivo mobile | FOLLA | Informazioni sul dispositivo mobile di un utente. | Dispositivo - [attributo dispositivo]<br>Dispositivo mobile - [attributo dispositivo mobile] |
-| [!DNL Target] segmenti di reporting | SEG | Segmenti di reporting configurati nel reporting di [!DNL Target]. | Segmento di reporting -[Nome segmento] |
+| [!DNL Target] segmenti di reporting | SEG | Segmenti di reporting configurati nel reporting di [!DNL Target]. | Segmento di reporting - [Nome segmento] |
 | Comportamento sessione | SES | Informazioni sul comportamento dell’utente, ad esempio il numero di pagine visualizzate. | Profilo visitatore - [Nome attributo] |
 
 ## Categorie di attributi [!DNL Target] personalizzate
 
-La tabella seguente mostra i dati forniti dal cliente raccolti dalle attività [!UICONTROL Automated Personalization] e [!UICONTROL Targeting automatico]. Questi dati vengono raccolti solo se forniti dall&#39;utente. Nomi di attributi specifici e valori di esempio sono specifici per la configurazione del sistema.
+La tabella seguente mostra i dati forniti dal cliente raccolti dalle attività **[!UICONTROL Automated Personalization]** e **[!UICONTROL Targeting automatico]**. Questi dati vengono raccolti solo se forniti dall&#39;utente. Nomi di attributi specifici e valori di esempio sono specifici per la configurazione del sistema.
 
-| Categoria di dati | Prefisso di sistema | Descrizione | Nome visualizzato nei report [!UICONTROL Insights] |
+| Categoria di dati | Prefisso di sistema | Descrizione | Nome visualizzato nei report **[!UICONTROL Insights]** |
 | --- | --- | --- | --- |
 | Parametri di pagina | BOX | Parametri di pagina personalizzati (&quot;parametri mbox&quot;) passati nella chiamata a [!DNL Target]. | Personalizzato - Parametro Mbox - [nome parametro] |
 | Profilo [!DNL Target] | PRO | Gli attributi di profilo personalizzati vengono caricati direttamente nel profilo [!DNL Target] tramite API o parametro di pagina e [!DNL Target] script di profilo. | Personalizzato - Profilo visitatore - [nome attributo] |
@@ -67,12 +73,11 @@ La tabella seguente mostra i dati forniti dal cliente raccolti dalle attività [
 | Parametri URL | URL | URL ed eventuali parametri URL per la pagina visualizzata. | Personalizzato - Parametro URL - [Parametro URL] |
 | URL di riferimento | RIF | URL di riferimento ed eventuali parametri URL per l’URL di riferimento. | Personalizzato - [Parametro URL di riferimento] - [Valore parametro] |
 | [!DNL Adobe Experience Cloud] tipi di pubblico condivisi | AAM | Tutti i tipi di pubblico condivisi con [!DNL Target] da altre soluzioni [!DNL Adobe Experience Cloud] (ad esempio, [!DNL Adobe Audience Manager] e [!DNL Adobe Analytics], tramite [[!DNL Experience Cloud Audience Library]](https://experienceleague.adobe.com/docs/core-services/interface/services/audiences/audience-library.html?lang=it){target=_blank}). | Personalizzato - Pubblico Experience Cloud - [Nome pubblico] |
-| [!DNL Adobe Experience Platform Real-time CDP] tipi di pubblico | UPS | Pubblico di Platform Real-time CDP condiviso con [!DNL Target] tramite [!UICONTROL Destinazioni]. |  |
-
+| [!DNL Adobe Experience Platform Real-time CDP] tipi di pubblico | UPS | Pubblico di Platform Real-time CDP condiviso con [!DNL Target] tramite **[!UICONTROL Destinazioni]**. |  |
 
 ## Blocco delle funzionalità da [!DNL Target] algoritmi di apprendimento automatico
 
-Le funzionalità possono essere bloccate da [!DNL Target] algoritmi di apprendimento automatico, impedendo che vengano utilizzate in qualsiasi modello o attività di [!UICONTROL Automated Personalization] o [!UICONTROL Targeting automatico].
+Le funzionalità possono essere bloccate da [!DNL Target] algoritmi di apprendimento automatico, impedendo che vengano utilizzate in qualsiasi modello o attività di **[!UICONTROL Automated Personalization]** o **[!UICONTROL Targeting automatico]**.
 
 Per ulteriori informazioni, vedere [Panoramica di Models API (Inserisce nell&#39;elenco Bloccati di modelli) (Guida per gli sviluppatori di *[!DNL Adobe Target]](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api.html?lang=it){target=_blank}) (in lingua inglese).*
 
@@ -105,10 +110,10 @@ Per ulteriori informazioni, vedere [Panoramica di Models API (Inserisce nell&#39
 | Browser - Timezone | Il fuso orario del visitatore durante l’accesso all’attività. | Pacific Time<br>Eastern Time<br>GMT | ENV_BrowserTimezoneOffsetMinutes |
 | Browser - Type | Il tipo di browser utilizzato dal visitatore per accedere all’attività. | [!DNL Chrome]<br>[!DNL Firefox]<br>[!DNL Internet Explorer]<br>[!DNL Safari]<br>Altro | ENV_Browser |
 | Browser - Weekday/Weekend | Lo stato lavorativo del giorno in cui il visitatore accede all’attività (fine settimana, orario lavorativo, orario non lavorativo infrasettimanale). | weekend = sabato e domenica<br>work time = lunedì-venerdì 0900 - 1800<br>weekday free time = lunedì-venerdì dopo le 1800 alle 0900 | ENV_UserHourType |
-| Browser - Window Height (px) | L’altezza (in pixel) della finestra del browser utilizzato per accedere all’attività. | 1, 2, 3 e così via, | ENV_BrowserHeight |
-| Browser - Window Width (px) | La larghezza (in pixel) della finestra del browser utilizzato per accedere all’attività. | 1, 2, 3 e così via, | ENV_BrowserWidth |
-| Device - Screen Height (px) | L’altezza (in pixel) dello schermo del dispositivo mobile utilizzato per accedere all’attività. | 1, 2, 3 e così via, | ENV_ScreenHeight |
-| Device - Screen Width (px) | La larghezza (in pixel) dello schermo del dispositivo mobile utilizzato per accedere all’attività. | 1, 2, 3 e così via, | ENV_ScreenWidth |
+| Browser - Window Height (px) | L’altezza (in pixel) della finestra del browser utilizzato per accedere all’attività. | 1, 2, 3 e così via. | ENV_BrowserHeight |
+| Browser - Window Width (px) | La larghezza (in pixel) della finestra del browser utilizzato per accedere all’attività. | 1, 2, 3 e così via. | ENV_BrowserWidth |
+| Device - Screen Height (px) | L’altezza (in pixel) dello schermo del dispositivo mobile utilizzato per accedere all’attività. | 1, 2, 3 e così via. | ENV_ScreenHeight |
+| Device - Screen Width (px) | La larghezza (in pixel) dello schermo del dispositivo mobile utilizzato per accedere all’attività. | 1, 2, 3 e così via. | ENV_ScreenWidth |
 | Sistema operativo | Il sistema operativo del dispositivo utilizzato dal visitatore per accedere all’attività. | [!DNL Mac OS]<br>[!DNL Windows]<br>[!DNL Linux]<br>Bot di ricerca<br>Sistema operativo sconosciuto | ENV_OperatingSystem |
 | Operating System - Version | La versione del sistema operativo utilizzato dal visitatore per accedere all’attività. | [!DNL Windows] 10<br>[!DNL Mac OS] 10 | ENV_OperatingSystemVersion |
 | Origini del traffico - URL della pagina di destinazione di riferimento | La prima pagina visualizzata dal visitatore all’accesso al sito. | `https://www.adobe.com/ecloud.html` | ENV_Referrer |
@@ -135,7 +140,7 @@ Per ulteriori informazioni, vedere [Panoramica di Models API (Inserisce nell&#39
 | --- | --- | --- | --- |
 | Visitor Profile - Activity Lifetime Order Value | Specifica la somma di tutti i valori degli ordini per tutte le visite/sessioni di una particolare attività. | Doppio | SES_CUMULATIVE_ORDER_VALUE |
 | Visitor Profile - Activity Lifetime Time on Site | Specifica il tempo totale trascorso dal visitatore sul sito, esclusa la sessione corrente, e viene aggiornato al termine della sessione. | Doppio, millisecondi | SES_TOTAL_TIME |
-| Visitor Profile -Average Page Views per Visit during Activity | Specifica il numero medio di visualizzazioni pagina per sessione, esclusa la sessione corrente. | Doppio | SES_REQUESTS_PER_SESSION |
+| Profilo visitatore: media delle visualizzazioni di pagina per visita durante l&#39;attività | Specifica il numero medio di visualizzazioni pagina per sessione, esclusa la sessione corrente. | Doppio | SES_REQUESTS_PER_SESSION |
 | Visitor Profile - Average Time per Visit | Specifica il tempo medio trascorso per visita/sessione. La sessione corrente non è inclusa. | Doppio, millisecondi | SES_TIME_PER_SESSION |
 | Visitor Profile - First Visit | Specifica l&#39;ora della prima visita in cui l&#39;utente ha interagito con [!DNL Target]. | Doppio, millisecondi | SES_PROFILE_CREATION_TIME |
 | Visitor Profile - Hours since Last Visit | Specifica quante ore sono trascorse dall’ultima visita a questa attività specifica. | Doppio (solo numero intero positivo) 1, 2, 3 e così via. | SES_HOURS_SINCE_LAST_VISIT |

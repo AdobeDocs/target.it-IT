@@ -31,7 +31,7 @@ topic_v2:
     internal-label: Machine learning
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: 88a811c3ae521b94ceb6350ba44aa2d40afda2b6
+source-git-commit: 3acd51a37f38ba67e60304fce606df948ecdd1f4
 workflow-type: tm+mt
 source-wordcount: '1510'
 ht-degree: 68%
@@ -125,7 +125,7 @@ Le best practice di settore sono integrate in [!DNL Target Standard], rendendolo
 
 ### [!UICONTROL Personalizzazione automatizzata]
 
-[[!UICONTROL Automated Personalization]](/help/main/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) (AP) utilizza algoritmi avanzati di apprendimento automatico per fornire esperienze personalizzate e migliorare i tassi di conversione per le interazioni digitali.
+[[!UICONTROL Automated Personalization]](/help/main/c-activities/t-automated-personalization/automated-personalization.md#automated-personalization-overview) (AP) utilizza algoritmi avanzati di apprendimento automatico per fornire esperienze personalizzate e migliorare i tassi di conversione per le interazioni digitali.
 
 AP registra l’attività dei visitatori e crea profili per eseguire il targeting dei contenuti a visitatori simili. AP tiene traccia delle risposte ai contenuti per i singoli utenti e la popolazione, utilizzando una modellazione sofisticata per eseguire automaticamente il targeting di ogni visitatore in base a tutto ciò che sa su di lui.
 

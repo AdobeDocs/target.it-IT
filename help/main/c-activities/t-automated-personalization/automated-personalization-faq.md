@@ -30,7 +30,7 @@ topic_v2:
     internal-label: Personalization
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
     internal-label: Machine learning
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: ddd4fa83540294ee229b87f041bc2245ba9a3464
 workflow-type: tm+mt
 source-wordcount: '2307'
 ht-degree: 17%
@@ -74,7 +74,7 @@ Non è disponibile alcuna opzione chiavi in mano per confrontare [!UICONTROL Aut
     * Le posizioni selezionate non influiscono sulla metrica di successo.
     * L’obiettivo di ottimizzazione è troppo lontano nel funnel di conversione per essere influenzato dalle offerte scelte.
 
-* Assicurati di utilizzare il [Calcolatore del traffico](/help/main/c-activities/t-automated-personalization/ap-traffic-estimator.md#task_71AA6922AFD447EA8C5E610A78ABA714) per capire quanto tempo ci vuole per la generazione dei modelli di personalizzazione nell&#39;attività [!UICONTROL Automated Personalization].
+* Assicurati di utilizzare il [Calcolatore del traffico](/help/main/c-activities/t-automated-personalization/ap-traffic-estimator.md#use-traffic-estimator) per capire quanto tempo ci vuole per la generazione dei modelli di personalizzazione nell&#39;attività [!UICONTROL Automated Personalization].
 * Decidi l’allocazione tra il controllo e il targeting prima di iniziare l’attività, in base ai tuoi obiettivi.
 
   Esistono tre scenari da considerare in base all’obiettivo dell’attività e al tipo di controllo selezionato:
@@ -162,7 +162,7 @@ Si supponga, ad esempio, che un&#39;attività [!UICONTROL Automated Personalizat
 
 +++Vedi i dettagli
 
-Il tempo necessario alla generazione dei modelli nell’attività dipende in genere dal traffico delle posizioni dell’attività selezionate e dalla metrica di successo dell’attività. Utilizza [Calcolatore del traffico](/help/main/c-activities/t-automated-personalization/ap-traffic-estimator.md#task_71AA6922AFD447EA8C5E610A78ABA714) per determinare il periodo di tempo previsto per la generazione dei modelli nell&#39;attività.
+Il tempo necessario alla generazione dei modelli nell’attività dipende in genere dal traffico delle posizioni dell’attività selezionate e dalla metrica di successo dell’attività. Utilizza [Calcolatore del traffico](/help/main/c-activities/t-automated-personalization/ap-traffic-estimator.md#use-traffic-estimator) per determinare il periodo di tempo previsto per la generazione dei modelli nell&#39;attività.
 
 +++
 

@@ -19,9 +19,9 @@ topic_v2:
     internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 322dbbd67ea981ad05ed8a1fdc1137ec50effd12
+source-git-commit: d27cb7e782e79c68f185f897758c6edb439da2cb
 workflow-type: tm+mt
-source-wordcount: '907'
+source-wordcount: '920'
 ht-degree: 1%
 ---
 # Test A/A {#aa-testing}
@@ -32,7 +32,7 @@ ht-degree: 1%
 
 >[!ENDSHADEBOX]
 
-Prima di eseguire un test A/A sul sito tramite [!DNL Adobe Target], è importante comprendere cos&#39;è un test A/A, il motivo per cui è consigliabile eseguire un test A/A, la durata dell&#39;esecuzione e l&#39;interpretazione dei risultati.
+Un test A/A divide il traffico tra due esperienze identiche. Poiché le esperienze non differiscono, il test è un modo per verificare che l’attività, l’implementazione e i rapporti funzionino come previsto. Tuttavia, esperienze identiche a volte possono mostrare una differenza nell’incremento. Comprendere il motivo per cui consente di eseguire il test e interpretarne correttamente i risultati.
 
 ## Cos’è il test A/A? {#what-is-aa}
 
@@ -49,21 +49,21 @@ Alcune organizzazioni eseguono test A/A quando implementano un nuovo strumento d
 * Il codice è stato implementato correttamente
 * Il reporting è accurato
 
-Anche se poche organizzazioni eseguono test A/A, è buona prassi eseguirli come esperimenti di &quot;sanità&quot; per creare fiducia dopo l’implementazione dello strumento o prima di eseguire test A/B che potrebbero influire sulla conversione e sui ricavi.
+Anche se poche organizzazioni eseguono test A/A, è buona prassi eseguirli come esperimenti di controllo dell’integrità per creare fiducia dopo l’implementazione dello strumento o prima di eseguire test A/B che potrebbero influire sulla conversione e sui ricavi.
 
 ## Perché esperienze identiche possono mostrare incremento {#why-lift}
 
-Ci sono diversi motivi per cui potresti vedere l’incremento in un’esperienza rispetto a un’altra esperienza (identica):
+Ci sono due motivi principali per cui potresti vedere l’incremento in un’esperienza rispetto a un’altra esperienza (identica):
 
-### Il test A/A è stato monitorato continuamente
+### Il test A/A è stato monitorato continuamente {#data-peeking}
 
 Un problema comune nell’esecuzione di qualsiasi tipo di test, incluso un test A/A, consiste nell’esaminare i risultati in modo continuo e nell’interrompere anticipatamente un test quando si rileva una significatività statistica e si dichiara un’esperienza vincente. Gli analisti fanno spesso ciò che viene chiamato &quot;sbirciamento dei dati&quot;. Il peking dei dati comporta l’esame dei dati del test in anticipo e con frequenza, cercando di determinare quale esperienza funziona meglio. Il rischio è quello di interrompere prematuramente il test, il che potrebbe invalidare i risultati.
 
 In un test A/A, il data peking può spesso causare la visualizzazione dell’incremento da parte degli analisti in un’esperienza, quando in realtà non dovrebbe esserci alcuna differenza, perché le due esperienze sono identiche. Infatti, con un peeking continuo, i test A/A sono *garantiti* per mostrare una &quot;significatività statistica&quot; (vale a dire, un&#39;affidabilità al di sopra di una certa soglia, ad esempio il 95%) ad un certo punto durante il test.
 
-### La rilevanza statistica influisce sui risultati dei test
+### La rilevanza statistica influisce sui risultati dei test {#statistical-significance}
 
-Il livello di significatività di un test determina la probabilità che il test riporti una differenza significativa nei tassi di conversione tra due offerte diverse, quando in realtà non c’è alcuna differenza reale. Questo è noto come falso positivo o errore di tipo I. Il livello di significatività è una soglia specificata dall’utente ed esiste un compromesso tra la tolleranza per i falsi positivi e il numero di visitatori che devono essere inclusi nel test per scegliere il livello di significatività corretto.
+Il livello di significatività di un test determina la probabilità che il test riporti una differenza significativa nei tassi di conversione tra due esperienze diverse, quando in realtà non c’è alcuna differenza reale. Questo è noto come falso positivo o errore di tipo I. Il livello di significatività è una soglia specificata dall’utente ed esiste un compromesso tra la tolleranza per i falsi positivi e il numero di visitatori che devono essere inclusi nel test per scegliere il livello di significatività corretto.
 
 Un livello di significatività comunemente utilizzato nei test A/A e A/B è 5%, che corrisponde a un livello di affidabilità del 95% (livello di affidabilità = 100% - livello di significatività). Un livello di affidabilità del 95% significa che ogni volta che esegui un test, esiste una probabilità del 5% di rilevare un incremento statisticamente significativo anche se non vi è alcuna differenza tra le esperienze.
 
@@ -71,15 +71,13 @@ Supponi di voler raggiungere un livello di affidabilità del 95% con il test A/A
 
 ## Best practice {#best-practice}
 
-Se ritieni necessario un test A/A nell’organizzazione, tieni presente che le esperienze identiche potrebbero mostrare temporaneamente una differenza rispetto al controllo. Questo può essere normale, a seconda del tempo in cui il test può essere eseguito. La differenza dovrebbe ridursi con l’aumentare del tempo e dei visitatori.
+Se ritieni necessario un test A/A nell’organizzazione, tieni presente che le esperienze identiche potrebbero mostrare temporaneamente una differenza rispetto al controllo. Questo può essere normale, a seconda del tempo in cui il test può essere eseguito. La differenza dovrebbe ridursi con l’aumentare del tempo e dei visitatori. A seconda del livello di significatività del test, esiste anche la possibilità che un’esperienza mostri una differenza in termini di incremento e venga addirittura dichiarata vincitrice.
 
 Utilizza una metodologia di test A/B regolare:
 
 1. Decidi in anticipo la dimensione del campione da utilizzare, in base alla dimensione dell’effetto minimo (l’incremento minimo al di sotto del quale un effetto non è importante per la tua azienda), alla potenza e ai livelli di significatività che ritieni accettabili. Il **[!UICONTROL calcolatore delle dimensioni del campione di Adobe Target]** è uno strumento importante per determinare la dimensione del campione da prendere in considerazione e per quanto tempo si deve eseguire il test. Consulta il [Calcolatore dimensioni campione Adobe Target](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6).
 
 1. Concedi tempo e visitatori adeguati prima di raggiungere qualsiasi conclusione. In un test A/A, l&#39;obiettivo è *non* visualizzare un risultato statisticamente significativo dopo che il test ha raggiunto la dimensione di campione desiderata.
-
-1. Ricorda che, a seconda del livello di significatività del test, esiste la possibilità che un’esperienza mostri una differenza in termini di incremento e che venga addirittura dichiarata vincitrice.
 
 Per informazioni sulla durata di un’attività e altri suggerimenti utili, consulta i seguenti articoli:
 

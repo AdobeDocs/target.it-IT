@@ -3,10 +3,10 @@ user-guide-title: Guida di Adobe Target per professionisti aziendali
 breadcrumb-title: Guida di Target
 user-guide-description: Scopri come personalizzare le esperienze dei clienti su siti web, app e canali social per incrementare le entrate.
 feature-set: Target
-source-git-commit: 7799b1855a382df8461a78e5bf4e7d02dbcce751
+source-git-commit: 4c4ef48f9849069a6a525d167bc42c933fd0b156
 workflow-type: tm+mt
-source-wordcount: '1293'
-ht-degree: 84%
+source-wordcount: '1285'
+ht-degree: 83%
 ---
 
 # Guida di Adobe Target per professionisti aziendali {#using}
@@ -142,7 +142,7 @@ ht-degree: 84%
     + [Panoramica dell’allocazione automatica](c-activities/automated-traffic-allocation/automated-traffic-allocation.md)
     + [Creare un’attività di allocazione automatico](/help/main/c-activities/automated-traffic-allocation/create-auto-allocate-activity.md)
     + [Interpretare i rapporti di allocazione automatica](c-activities/automated-traffic-allocation/determine-winner.md)
-    + [L’allocazione automatica può fornire risultati di test più rapidi e ricavi più elevati rispetto a un test manuale](/help/main/c-activities/automated-traffic-allocation/faster-results-higher-revenue.md)
+    + [Prestazioni superiori a un test manuale con Allocazione automatica](/help/main/c-activities/automated-traffic-allocation/faster-results-higher-revenue.md)
   + Targeting automatico {#auto-target}
     + [Panoramica del Targeting automatico](/help/main/c-activities/auto-target/auto-target-to-optimize.md)
     + [Creare un’attività di Targeting automatico](/help/main/c-activities/auto-target/create-auto-target.md)

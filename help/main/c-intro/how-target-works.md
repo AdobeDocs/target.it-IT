@@ -47,7 +47,7 @@ topic_v2:
     internal-label: Privacy
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: 3acd51a37f38ba67e60304fce606df948ecdd1f4
 workflow-type: tm+mt
 source-wordcount: '2289'
 ht-degree: 20%
@@ -106,7 +106,7 @@ Consulta [Creare un test A/B](/help/main/c-activities/t-test-ab/t-test-create-ab
 
 [!UICONTROL Allocazione automatica] identifica l&#39;esperienza vincente tra due o più opzioni. Quindi ridistribuisce automaticamente più traffico per il vincitore, aumentando le conversioni mentre il test continua a essere eseguito e ad apprendere.
 
-Per ulteriori informazioni, vedere [[!UICONTROL Allocazione automatica]](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4).
+Per ulteriori informazioni, vedere [[!UICONTROL Allocazione automatica]](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#auto-allocate-overview).
 
 ### [!UICONTROL Targeting automatico] (AT)
 
@@ -118,7 +118,7 @@ Per ulteriori informazioni, consulta [Targeting automatico](/help/main/c-activit
 
 [!UICONTROL Automated Personalization] (AP) combina offerte o messaggi e utilizza l&#39;apprendimento automatico avanzato per abbinare diverse varianti a ciascun visitatore. AP personalizza i contenuti in base ai profili dei singoli clienti per favorire l’incremento.
 
-Per ulteriori informazioni, consulta [Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9).
+Per ulteriori informazioni, consulta [Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md#automated-personalization-overview).
 
 ### [!UICONTROL Targeting dell’esperienza] (XT)
 
