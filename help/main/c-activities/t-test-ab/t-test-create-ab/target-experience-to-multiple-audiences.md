@@ -19,45 +19,53 @@ subfeature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 4876228feee28031373f7e0abe62a66b05b15274
 workflow-type: tm+mt
-source-wordcount: '612'
-ht-degree: 51%
+source-wordcount: '488'
+ht-degree: 8%
 ---
-# Esperienza con più tipi di pubblico un testo A/B
+# Esperienza con più tipi di pubblico un testo A/B {#multiple-experience-audiences}
 
-È possibile indirizzare le versioni della stessa esperienza a tipi di pubblico diversi nelle attività A/B di [!DNL Adobe Target]. È possibile impostare più tipi di pubblico per un&#39;esperienza nel [!UICONTROL Compositore esperienza visivo] o nel Compositore esperienza basato su moduli.
+>[!BEGINSHADEBOX]
 
-I visitatori possono passare da un pubblico all’altro con la modifica del loro profilo. I visitatori non rimangono bloccati nella stessa esperienza per tutta la durata dell’attività.
+**In questa pagina:** scopri come eseguire il targeting di tipi di pubblico diversi con versioni della stessa esperienza in un&#39;attività A/B, come illustrato da un caso d&#39;uso con i passaggi da seguire e le best practice.
 
-Ad esempio, se il sito utilizza una progettazione coerente tra pagine o prodotti e si desidera utilizzare la stessa esperienza per più destinatari (ad esempio, i visitatori che utilizzano browser in diverse lingue), è possibile impostare più versioni dell&#39;esperienza. È presentare la stessa esperienza a inglesi e giapponesi, l&#39;unica differenza è che il testo è nella lingua del visitatore. Vengono raccolti i dati dell&#39;esperienza, a prescindere dalla lingua; in questo modo, il rapporto mostra le prestazioni dell&#39;esperienza, anziché della versione.
+>[!ENDSHADEBOX]
 
-Senza la possibilità di impostare le versioni dell&#39;esperienza, è necessario impostare diversi test per ogni lingua (in questo esempio), quindi aggregare manualmente i risultati per cercare di ottenere un quadro delle prestazioni di una singola esperienza con entrambe le lingue. Tale metodo produce risultati meno accurati. Per alcuni test, questi calcoli potrebbero persino non essere utili per via della casualizzazione dei visitatori.
+Nelle attività A/B di [!DNL Adobe Target], è possibile indirizzare le versioni della stessa esperienza a tipi di pubblico diversi. È possibile impostare più tipi di pubblico per un&#39;esperienza nel **[!UICONTROL Compositore esperienza visivo]** o nel Compositore esperienza basato su moduli.
 
-Con la creazione di diverse versioni di un&#39;esperienza, si ricevono informazioni più accurate senza la necessità di calcoli manuali e ipotesi.
+I dati vengono raccolti per l&#39;esperienza indipendentemente dalla versione, pertanto il rapporto mostra le prestazioni dell&#39;esperienza e non di ogni versione. I visitatori possono anche passare da un pubblico all’altro con la modifica del loro profilo. Non sono bloccati nella stessa esperienza per tutta la durata dell’attività.
 
-## Scenario
+## Caso d’uso {#use-case}
 
-Stai testando due esperienze, un banner con targeting geografico rispetto a un banner generico. Il banner per ogni area geografica deve essere diverso, ma il test generale consiste nel determinare se il geotargeting è migliore della visualizzazione di contenuti generici. Se imposti un’esperienza separata per ogni posizione, in realtà misurerai le prestazioni di ogni area geografica rispetto alle altre, anziché stabilire se il geotargeting aiuta a raggiungere gli obiettivi di successo quando viene misurato rispetto al banner generico.
+Stai testando due esperienze:
+
+* un banner con targeting geografico
+
+* un banner generico.
+
+Il banner per ogni area geografica deve essere diverso, ma l’obiettivo del test è determinare se il geotargeting funziona meglio dei contenuti generici.
+
+Se imposti un’esperienza separata per ogni posizione, puoi misurare le prestazioni di ogni area geografica rispetto alle altre. Non puoi misurare se il geotargeting aiuta a raggiungere gli obiettivi di successo rispetto al banner generico.
 
 In questo caso, sono necessarie versioni specifiche per l’area geografica dell’esperienza, in modo da poter testare l’esperienza con targeting geografico rispetto a un controllo non con targeting geografico.
 
+Per impostare le versioni specifiche per le aree geografiche:
+
 1. [Crea un&#39;attività A/B](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md) come si farebbe normalmente.
 
-   Al momento di configurare l’esperienza che avrà più versioni, seleziona il pubblico per ogni versione, come illustrato nei passaggi seguenti.
+   Quando configuri l’esperienza con più versioni, seleziona il pubblico per ciascuna versione, come descritto nei passaggi seguenti.
 
 1. Seleziona l&#39;esperienza, quindi fai clic su **[!UICONTROL Configura]** > **[!UICONTROL Più tipi di pubblico]**.
 
-1. Fai clic sull&#39;icona **[!UICONTROL Aggiungi pubblico]** ( ![Icona Aggiungi](/help/main/assets/icons/Add.svg) ) nel riquadro [!UICONTROL Tipi di pubblico esperienza], quindi seleziona il primo pubblico a cui desideri rivolgerti. Ripeti per ogni pubblico.
+1. Nel riquadro **[!UICONTROL Tipi di pubblico per l&#39;esperienza]**, fai clic sull&#39;icona **[!UICONTROL Aggiungi pubblico]** ( ![Icona Aggiungi](/help/main/assets/icons/Add.svg) ), quindi seleziona il primo pubblico a cui desideri rivolgerti. Ripeti per ogni pubblico.
 
-   Se il pubblico non esiste ancora, fai clic su [Crea pubblico](/help/main/c-target/c-audiences/create-audience.md#task_E18BD77A9A8F4ED0AC50569F94556558) e configuralo.
-
-   Se un visitatore è adeguato per più di un pubblico, il contenuto viene respinto per tutti i tipi di pubblico e l&#39;ultimo nell&#39;elenco esegue effettivamente il rendering sulla pagina.
+   Se il pubblico non esiste ancora, [crea il pubblico](/help/main/c-target/c-audiences/create-audience.md) e configuralo.
 
 1. Continua a configurare l’attività.
 
-## Best practice
+## Best practice {#best-practices}
 
-* Scegli tipi di pubblico reciprocamente esclusivi. Se l’attività è stata creata nel Compositore esperienza visivo e un visitatore corrisponde a più di un pubblico, viene restituito il contenuto di ciascun pubblico e il contenuto del pubblico elencato per ultimo viene visualizzato nella pagina.
-* Il pubblico di accesso all&#39;attività definito nel diagramma viene combinato con il pubblico di esperienza utilizzando una condizione E. Per accedere all&#39;attività, un visitatore deve essere idoneo al pubblico di attività e uno dei tipi di pubblico dell&#39;esperienza.
-* Aggiungi gli stessi tipi di pubblico come segmenti per i rapporti. Questo consente di esaminare i risultati del test ai livelli elevati dell’esperienza A rispetto a B e al livello inferiore dell’esperienza A rispetto a B solo per &quot;browser lang ja_JP&quot;. Funziona solo per i report basati su [!DNL Target], non per i report basati su [!DNL Analytics].
+* Scegli tipi di pubblico reciprocamente esclusivi. Se un visitatore è idoneo per più di un pubblico, viene restituito il contenuto di tutti questi tipi di pubblico e nella pagina viene visualizzato l’ultimo contenuto del pubblico elencato. Questo vale per le attività create nel Compositore esperienza visivo.
+* I tipi di pubblico per l’immissione di attività definiti nel diagramma vengono combinati con i tipi di pubblico dell’esperienza utilizzando una condizione AND. Per accedere all’attività, un visitatore deve qualificarsi per il pubblico dell’attività e per uno dei tipi di pubblico dell’esperienza.
+* Aggiungi gli stessi tipi di pubblico come segmenti per i rapporti. Questo consente di esaminare i risultati del test al livello elevato dell’esperienza A rispetto a B e al livello inferiore dell’esperienza A rispetto a B solo per &quot;browser lang ja_JP&quot;. Funziona solo per i report basati su [!DNL Target], non per i report basati su [!DNL Analytics].

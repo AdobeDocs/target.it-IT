@@ -2,7 +2,7 @@
 keywords: targeting automatico;targeting;allocazione del traffico;domande frequenti;faq;risoluzione dei problemi;risoluzione problemi;traffico
 description: Esplora gli argomenti relativi alla risoluzione dei problemi e le domande frequenti sulle [!UICONTROL attività Targeting automatico].
 title: Come posso risolvere i problemi relativi alle [!UICONTROL attività Targeting automatico]?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=it#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."
 feature: Auto-Target
 exl-id: 934f738e-560a-4847-9608-432ecfa2afe7
 TQID: 'https://experienceleague.adobe.com/LXOa1Ma0y8VbncCPN1Az33p-GDsd-bW-BDqJjSGbVQU'
@@ -26,42 +26,46 @@ topic_v2:
     internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: 878df20c7fb08c893239135c20f358b5606d0c6f
 workflow-type: tm+mt
-source-wordcount: '1991'
-ht-degree: 28%
+source-wordcount: '1841'
+ht-degree: 10%
 ---
-# [!UICONTROL Domande frequenti sul Targeting automatico] e risoluzione dei problemi
+# [!UICONTROL Domande frequenti sul Targeting automatico] e risoluzione dei problemi {#auto-target-faqs}
 
-Risoluzione dei problemi e domande frequenti sulle [!UICONTROL attività Targeting automatico] in [!DNL Adobe Target].
+>[!BEGINSHADEBOX]
 
-## [!UICONTROL Targeting automatico] domande frequenti {#section_5C120A2B11D14D9BAF767BBAB50FED23}
+**In questa pagina:** Trova le risposte alle domande frequenti sulle attività di **[!UICONTROL Targeting automatico]** e le soluzioni suggerite per i problemi comuni.
 
-Consulta le seguenti domande frequenti e risposte mentre lavori con [!UICONTROL attività Targeting automatico]:
+>[!ENDSHADEBOX]
 
-### Quali sono le best practice per impostare un&#39;attività [!UICONTROL Targeting automatico]?
+Questa pagina risponde alle domande frequenti e descrive i passaggi per la risoluzione dei problemi relativi alle attività **[!UICONTROL Targeting automatico]** in [!DNL Adobe Target].
 
-+++Risposta
-* Decidi se il valore aziendale di una metrica di successo [!UICONTROL Ricavo per visita] (RPV) vale i requisiti di traffico aggiuntivi. RPV richiede in genere almeno 1.000 conversioni per esperienza perché un&#39;attività funzioni rispetto alla conversione.
-* In base ai tuoi obiettivi, decidi la ripartizione tra il controllo e le esperienze personalizzate prima di iniziare l&#39;attività.
-* Determina se disponi di traffico sufficiente per la pagina in cui viene eseguita l&#39;attività di [!UICONTROL Targeting automatico] affinché i modelli di personalizzazione compilino in un tempo ragionevole.
-* Se stai testando l&#39;algoritmo di personalizzazione, non devi modificare le esperienze, né aggiungere o rimuovere attributi di profilo mentre l&#39;attività è in esecuzione.
-* È consigliabile completare un&#39;attività A/B tra le offerte e le posizioni che intendi utilizzare nell&#39;attività [!UICONTROL Targeting automatico] per garantire che le posizioni e le offerte abbiano un impatto sull&#39;obiettivo di ottimizzazione. Se un&#39;attività A/B non riesce a dimostrare una differenza significativa, [!UICONTROL Targeting automatico] probabilmente non riesce a generare l&#39;incremento.
+## Domande frequenti {#section_5C120A2B11D14D9BAF767BBAB50FED23}
 
-  Se un test A/B non mostra differenze statisticamente significative tra le esperienze, probabilmente le offerte che stai prendendo in considerazione non sono sufficientemente diverse tra loro, le posizioni selezionate non incidono sulla metrica successo o l’obiettivo di ottimizzazione è troppo lontano nel funnel di conversione per essere influenzato dalle offerte scelte.
+Quando lavori con **[!UICONTROL attività Targeting automatico]**, consulta le domande e le risposte seguenti.
 
-* Cerca di non apportare modifiche sostanziali alle esperienze durante l’attività.
++++ Quali sono le best practice per impostare un&#39;attività [!UICONTROL Targeting automatico]?
+
+* Decidi se il valore aziendale di una metrica di successo **[!UICONTROL Ricavo per visita]** (RPV) vale i requisiti di traffico aggiuntivi. Affinché un’attività funzioni, RPV in genere richiede almeno 1.000 conversioni per esperienza, rispetto alla conversione.
+* Decidi l’allocazione tra il controllo e le esperienze personalizzate prima di iniziare l’attività, in base ai tuoi obiettivi.
+* Determina se disponi di traffico sufficiente per la pagina in cui viene eseguita l&#39;attività di **[!UICONTROL Targeting automatico]** affinché i modelli di personalizzazione possano essere generati in un tempo ragionevole.
+* Se stai testando l’algoritmo di personalizzazione, non modificare le esperienze, né aggiungere o rimuovere attributi di profilo mentre l’attività è in esecuzione.
+* È consigliabile completare un&#39;attività A/B tra le offerte e le posizioni che intendi utilizzare nell&#39;attività **[!UICONTROL Targeting automatico]**, per assicurarsi che le posizioni e le offerte abbiano un impatto sull&#39;obiettivo di ottimizzazione. Se un&#39;attività A/B non riesce a dimostrare una differenza significativa, **[!UICONTROL Targeting automatico]** probabilmente non riesce a generare l&#39;incremento.
+
+  Se un test A/B non mostra differenze statisticamente significative tra le esperienze, è probabile che le offerte che stai prendendo in considerazione non siano sufficientemente diverse tra loro, che le posizioni selezionate non influiscano sulla metrica di successo o che l’obiettivo di ottimizzazione sia troppo lontano nel funnel di conversione per essere influenzato dalle offerte scelte.
+
+* Non apportare modifiche sostanziali alle esperienze durante l’attività.
 
 +++
 
-### [!UICONTROL Adobe] che si consiglia di utilizzare [!UICONTROL Targeting automatico] con una suddivisione 90(Controllo)/10(Target) fino a quando i modelli non vengono generati?
++++ Adobe consiglia di utilizzare il Targeting automatico con una suddivisione 90 (controllo) / 10 (destinazione) fino a quando i modelli non vengono generati?
 
-+++Risposta 
 La suddivisione ottimale del traffico dipende da cosa desideri eseguire.
 
-Se l’obiettivo è quello di personalizzare il traffico il più possibile, puoi mantenere un’allocazione mirata del 90% e un controllo del 10% per la durata dell’attività. Se l’obiettivo è quello di eseguire un esperimento confrontando il comportamento degli algoritmi personalizzati rispetto al controllo, allora una suddivisione 50/50 è la migliore per la durata dell’attività.
+Se il tuo obiettivo è quello di personalizzare il traffico il più possibile, puoi mantenere un’allocazione mirata del 90% e un controllo del 10% per la durata dell’attività. Se l’obiettivo è quello di eseguire un esperimento che confronta la performance degli algoritmi di personalizzazione con quella del controllo, una suddivisione 50/50 è la migliore per la durata dell’attività.
 
-Si consiglia di mantenere la suddivisione del traffico per la durata dell’attività in modo che i visitatori non passino da un’esperienza di targeting a un’esperienza di controllo.
+Si consiglia di mantenere la suddivisione del traffico per la durata dell’attività, in modo che i visitatori non passino da un’esperienza di targeting a un’esperienza di controllo.
 
 <!-- 
 ### Do the check marks indicating a model is built for that experience update if the report date range changes?
@@ -71,71 +75,57 @@ No, check marks for model generation show only the models built to date. There i
 
 +++
 
-### Se un visitatore **non** vede l&#39;attività [!UICONTROL Targeting automatico] e converte, la conversione conta nella mia attività?
++++ Se un visitatore non vede l&#39;attività [!UICONTROL Targeting automatico] e converte, la conversione conta nella mia attività?
 
-+++Risposta
-No, solo i visitatori che si qualificano e visualizzano l&#39;attività [!UICONTROL Targeting automatico] sono conteggiati nel reporting.
-
-+++
-
-### Perché la mia attività [!UICONTROL Targeting automatico] non sembra generare alcun incremento.
-
-+++Risposta
-Ci sono quattro fattori necessari affinché un&#39;attività [!UICONTROL Targeting automatico] generi incremento:
-
-* Le offerte devono essere sufficientemente diverse da influenzare i visitatori.
-* Le offerte devono essere posizionate in un punto che faccia la differenza per l’obiettivo di ottimizzazione.
-* Il test deve avere traffico e potenza statistica tali da consentire il rilevamento di un incremento.
-* L’algoritmo di personalizzazione deve funzionare bene.
-
-La migliore linea di azione è di assicurarsi in primo luogo che i contenuti e le posizioni, che compongono le esperienze di attività, facciano davvero una differenza per i tassi di risposta generali tramite un semplice test A/B e non personalizzato. Calcola le dimensioni del campione in tempo per assicurarti che sia possibile visualizzare un incremento ragionevole ed esegui il test A/B per una durata fissa senza interruzioni né modifiche.
-
-Se i risultati di test A/B mostrano un incremento statisticamente significativo su una o più esperienze, può funzionare un&#39;attività personalizzata. Naturalmente, la personalizzazione può funzionare anche se non ci sono differenze nei tassi di risposta complessiva delle esperienze. In genere, il problema deriva dal fatto che le offerte e le posizioni non hanno un impatto sufficiente sull’obiettivo di ottimizzazione da rilevare con significatività statistica.
+No. Solo i visitatori che si qualificano e visualizzano l&#39;attività **[!UICONTROL Targeting automatico]** sono conteggiati nel reporting.
 
 +++
 
-### Quando devo interrompere l&#39;attività di [!UICONTROL Targeting automatico]?
++++ Perché la mia attività di [!UICONTROL Targeting automatico] non genera alcun incremento?
 
-+++Risposta
-[!UICONTROL Targeting automatico] può essere utilizzato come personalizzazione &quot;sempre attiva&quot; che si ottimizza costantemente. Soprattutto per i contenuti fissi, non è necessario arrestare l&#39;attività [!UICONTROL Targeting automatico].
-
-Se desideri apportare modifiche sostanziali al contenuto nell&#39;attività [!UICONTROL Targeting automatico], la procedura consigliata consiste nell&#39;avviare una nuova attività in modo che gli altri utenti che revisionano i report non confondano o riferiscano i risultati passati con contenuti diversi.
+Per i quattro fattori necessari per generare l&#39;incremento e la soluzione suggerita, vedere l&#39;elemento di risoluzione dei problemi [L&#39;attività Targeting automatico non genera alcun incremento](#section_23995AB813F24525AF294D20A20875C8).
 
 +++
 
-### Quanto tempo devo aspettare per la generazione dei modelli? {#how-long}
++++ Quando devo interrompere l&#39;attività di [!UICONTROL Targeting automatico]?
 
-+++Risposta
-Il tempo necessario alla generazione dei modelli nell&#39;attività [!UICONTROL Targeting automatico] dipende in genere dal traffico delle posizioni dell&#39;attività selezionate e dai tassi di conversione associati alla metrica di successo dell&#39;attività.
+**[!UICONTROL Targeting automatico]** può essere utilizzato come personalizzazione &quot;sempre attiva&quot; che si ottimizza costantemente. Soprattutto per i contenuti fissi, non è necessario arrestare l&#39;attività **[!UICONTROL Targeting automatico]**.
 
-[!UICONTROL Targeting automatico] non tenta di generare un modello personalizzato per una determinata esperienza fino a quando non ci sono almeno 50 conversioni per tale esperienza. Inoltre, se il modello generato è di qualità insufficiente (come determinato dalla valutazione offline sui dati &quot;test&quot; di sospensione, utilizzando [una metrica nota come AUC](https://it.wikipedia.org/wiki/Receiver_operating_characteristic#Area_under_the_curve)), il modello non viene utilizzato per gestire il traffico in modo personalizzato.
-
-Altri punti da tenere a mente sulla creazione di modelli di [!UICONTROL Targeting automatico]:
-
-* Dopo che un&#39;attività è attiva, [!UICONTROL Targeting automatico] considera fino agli ultimi 45 giorni di dati serviti in modo casuale durante il tentativo di generare modelli. Ad esempio, controlla il traffico, più alcuni dati forniti in modo casuale dall’algoritmo.
-* Quando [!UICONTROL Ricavo per visita] è la metrica di successo, in genere queste attività richiedono più dati per generare modelli a causa della varianza di dati più elevata che esiste in genere nei ricavi da visita rispetto al tasso di conversione.
-* Poiché i modelli sono generati in base all’esperienza, sostituire un’esperienza con un’altra significa che è necessario raccogliere per la nuova esperienza un traffico sufficiente (almeno 50 conversioni) prima di poter ricostruire i modelli personalizzati.
+Se desideri apportare modifiche sostanziali al contenuto nell&#39;attività **[!UICONTROL Targeting automatico]**, la procedura consigliata consiste nell&#39;avviare una nuova attività in modo che gli altri utenti che esaminano i report non confondano o riferiscano i risultati passati con contenuti diversi.
 
 +++
 
-### L’attività contiene un modello generato. Le visite a quell’esperienza sono personalizzate?
++++ Quanto tempo devo aspettare per la generazione dei modelli?
 
-+++Risposta
-No, per iniziare la personalizzazione occorrono almeno due modelli generati nell’attività.
+Il tempo necessario alla generazione dei modelli nell&#39;attività **[!UICONTROL Targeting automatico]** dipende in genere dal traffico delle posizioni dell&#39;attività selezionate e dai tassi di conversione associati alla metrica di successo dell&#39;attività.
+
+**[!UICONTROL Targeting automatico]** non tenta di generare un modello personalizzato per una determinata esperienza fino a quando non ci sono almeno 50 conversioni per tale esperienza. Inoltre, se il modello generato è di qualità insufficiente (come determinato dalla valutazione offline sui dati &quot;test&quot; di sospensione, utilizzando [una metrica nota come AUC](https://it.wikipedia.org/wiki/Receiver_operating_characteristic#Area_under_the_curve)), il modello non viene utilizzato per gestire il traffico in modo personalizzato.
+
+Considera i seguenti punti sulla creazione di modelli in **[!UICONTROL Targeting automatico]**:
+
+* Dopo che un&#39;attività è attiva, **[!UICONTROL Targeting automatico]** considera fino agli ultimi 45 giorni di dati serviti in modo casuale quando tenta di generare modelli. Ad esempio, controlla il traffico, più alcuni dati forniti in modo casuale dall’algoritmo.
+* Quando **[!UICONTROL Ricavo per visita]** è la metrica di successo, in genere queste attività richiedono più dati per generare modelli, perché la varianza nei ricavi da visita è in genere più elevata rispetto al tasso di conversione.
+* I modelli sono generati in base all’esperienza, pertanto sostituire un’esperienza con un’altra significa che è necessario raccogliere per la nuova esperienza un traffico sufficiente (almeno 50 conversioni) prima di poter ricostruire i modelli personalizzati.
+
+Se la generazione dei modelli richiede troppo tempo, vedi [La mia attività di Targeting automatico sta impiegando troppo tempo per generare i modelli](#section_23995AB813F24525AF294D20A20875C8).
 
 +++
 
-### Quando posso iniziare a esaminare i risultati della mia attività di [!UICONTROL Targeting automatico]?
++++ L’attività contiene un modello generato. Le visite a quell’esperienza sono personalizzate?
 
-+++Risposta
-Puoi iniziare a esaminare i risultati del test [!UICONTROL Targeting automatico] dopo aver creato almeno due esperienze con modelli (segno di spunta verde) per l&#39;esperienza con modelli generati.
+No. Per iniziare la personalizzazione, è necessario che nell’attività siano presenti almeno due modelli.
 
 +++
 
-### Posso specificare un’esperienza particolare da usare come controllo?
++++ Quando posso iniziare a esaminare i risultati della mia attività di [!UICONTROL Targeting automatico]?
 
-+++Risposta
-Puoi selezionare un’esperienza da usare come controllo durante la creazione di un’attività [Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md) oppure [Targeting automatico](/help/main/c-activities/auto-target/auto-target-to-optimize.md).
+Puoi iniziare a esaminare i risultati dell&#39;attività **[!UICONTROL Targeting automatico]** dopo che almeno due esperienze hanno generato modelli (segno di spunta verde).
+
++++
+
++++ Posso specificare un’esperienza particolare da usare come controllo?
+
+È possibile selezionare un&#39;esperienza da utilizzare come controllo durante la creazione di un&#39;attività [Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md) (AP) o [Targeting automatico](/help/main/c-activities/auto-target/auto-target-to-optimize.md) (AT).
 
 Questa funzione ti consente di indirizzare l’intero traffico di controllo a un’esperienza specifica, in base alla percentuale di allocazione del traffico configurata nell’attività. Puoi quindi valutare i rapporti sulle prestazioni del traffico personalizzato rispetto al traffico verso l’esperienza di controllo.
 
@@ -143,74 +133,70 @@ Per ulteriori informazioni, consulta [Utilizzare un’esperienza specifica come 
 
 +++
 
-### Posso cambiare la metrica obiettivo a metà strada attraverso un&#39;attività [!UICONTROL Targeting automatico]? {#change-metric}
++++ Posso cambiare la metrica obiettivo a metà strada attraverso un&#39;attività [!UICONTROL Targeting automatico]?
 
-+++Risposta
-Adobe consiglia di non modificare la metrica obiettivo a metà strada attraverso un’attività. Anche se è possibile modificare la metrica dell’obiettivo durante un’attività utilizzando l’interfaccia utente [!DNL Target], è sempre necessario avviare una nuova attività. Adobe non fornisce alcuna garanzia su ciò che accade se modifichi la metrica obiettivo in un’attività dopo l’esecuzione.
+Adobe consiglia di non modificare la metrica obiettivo a metà strada attraverso un’attività. Anche se è possibile modificare la metrica dell’obiettivo durante un’attività utilizzando l’interfaccia utente [!DNL Target], è sempre necessario avviare una nuova attività. Adobe non garantisce ciò che accade se modifichi la metrica di obiettivo in un’attività dopo l’esecuzione.
 
-Questo consiglio si applica alle attività [!UICONTROL Allocazione automatica], [!UICONTROL Targeting automatico] e [!UICONTROL Automated Personalization] che utilizzano [!DNL Target] o [!DNL Analytics] (A4T) come origine per la generazione di rapporti.
-
-+++
-
-### È possibile utilizzare l&#39;opzione [!UICONTROL Ripristina dati report] durante l&#39;esecuzione di un&#39;attività [!UICONTROL Targeting automatico]?
-
-+++Risposta
-L&#39;utilizzo dell&#39;opzione [!UICONTROL Ripristina dati report] per le attività [!UICONTROL Targeting automatico] non è consigliato. Anche se rimuove i dati di reporting visibili, questa opzione non rimuove tutti i record di formazione dal modello [!UICONTROL Targeting automatico]. Invece di utilizzare l&#39;opzione [!UICONTROL Ripristina dati rapporto] per le attività [!UICONTROL Targeting automatico], crea una nuova attività e disattiva l&#39;attività originale.
-
-Questa guida si applica anche alle attività [!UICONTROL Allocazione automatica] e [!UICONTROL Automated Personalization].
+Questo consiglio si applica alle attività **[!UICONTROL Allocazione automatica]**, **[!UICONTROL Targeting automatico]** e **[!UICONTROL Automated Personalization]** che utilizzano [!DNL Target] o [!DNL Analytics] (A4T) come origine per la generazione di rapporti.
 
 +++
 
-### Cosa succede se rimuovo una singola esperienza da un&#39;attività di [!UICONTROL Targeting automatico]?
++++ È possibile utilizzare l&#39;opzione [!UICONTROL Ripristina dati report] durante l&#39;esecuzione di un&#39;attività [!UICONTROL Targeting automatico]?
 
-+++Risposta
+L&#39;utilizzo dell&#39;opzione **[!UICONTROL Ripristina dati report]** per le attività **[!UICONTROL Targeting automatico]** non è consigliato. Anche se rimuove i dati di reporting visibili, questa opzione non rimuove tutti i record di formazione dal modello **[!UICONTROL Targeting automatico]**. Invece di utilizzare l&#39;opzione **[!UICONTROL Ripristina dati report]**, crea una nuova attività e disattiva l&#39;attività originale.
+
+Questa guida si applica anche alle attività **[!UICONTROL Allocazione automatica]** e **[!UICONTROL Automated Personalization]**.
+
++++
+
++++ Cosa succede se rimuovo una singola esperienza da un&#39;attività di [!UICONTROL Targeting automatico]?
+
 [!DNL Target] crea un modello per esperienza, pertanto rimuovendo un&#39;esperienza [!DNL Target] crea un modello in meno e non influisce sui modelli per le altre esperienze.
 
-Ad esempio, supponi di avere un&#39;attività [!UICONTROL Targeting automatico] con otto esperienze e di non apprezzare le prestazioni di un&#39;esperienza. Puoi rimuovere tale esperienza e non influisce sui modelli per le sette esperienze rimanenti.
+Ad esempio, supponi di avere un&#39;attività **[!UICONTROL Targeting automatico]** con otto esperienze e di non apprezzare le prestazioni di un&#39;esperienza. Puoi rimuovere tale esperienza, che non influirà sui modelli per le sette esperienze rimanenti.
 
 +++
 
 ## Risoluzione dei problemi di [!UICONTROL Targeting automatico] {#section_23995AB813F24525AF294D20A20875C8}
 
-A volte le attività non vanno come previsto. Ecco alcune potenziali sfide che potresti affrontare durante l&#39;utilizzo di [!UICONTROL Targeting automatico] e alcune soluzioni suggerite.
+A volte le attività non vanno come previsto. Gli elementi seguenti descrivono le potenziali sfide che potresti affrontare quando utilizzi **[!UICONTROL Targeting automatico]**, con le soluzioni suggerite.
 
-### La mia attività di [!UICONTROL Targeting automatico] sta impiegando troppo tempo per generare i modelli.
++++ La mia attività di [!UICONTROL Targeting automatico] sta impiegando troppo tempo per generare i modelli.
 
-+++Suggerimenti per la risoluzione dei problemi
-Sono disponibili diverse modifiche dell&#39;impostazione dell&#39;attività che possono ridurre il tempo previsto per la generazione di modelli, tra cui il numero di esperienze nell&#39;attività [!UICONTROL Targeting automatico], il traffico verso il sito e la metrica di successo selezionata.
+Diverse modifiche alla configurazione dell&#39;attività possono ridurre il tempo previsto per la generazione dei modelli, tra cui il numero di esperienze nell&#39;attività **[!UICONTROL Targeting automatico]**, il traffico verso il sito e la metrica di successo selezionata.
 
-**Soluzione:** controlla la configurazione dell&#39;attività e verifica se sono state apportate modifiche per migliorare la velocità di generazione dei modelli.
+**Soluzione:** esamina la configurazione dell&#39;attività e verifica se sono state apportate modifiche per migliorare la velocità di generazione dei modelli.
 
-* Se la metrica di successo è impostata su [!UICONTROL RPV], puoi passare alla conversione? Le attività di conversione tendono a richiedere meno traffico per la generazione dei modelli. Non perderai i dati di attività se modifichi la metrica di successo da RPV a conversione.
-* La metrica del successo è molto in basso nel funnel di vendita dalle esperienze dell’attività? Un tasso di conversione dell’attività più basso aumenta i requisiti di traffico necessari per la generazione dei modelli, perché è necessario un numero minimo di conversioni.
+* Se la metrica di successo è impostata su **[!UICONTROL RPV]**, puoi passare alla conversione? Le attività di conversione tendono a richiedere meno traffico per la generazione dei modelli. I dati dell’attività non vengono persi se modifichi la metrica di successo da RPV alla conversione.
+* La metrica del successo è molto in basso nel funnel di vendita dalle esperienze dell’attività? Un tasso di conversione dell’attività inferiore aumenta i requisiti di traffico per i modelli da generare, perché è necessario un numero minimo di conversioni.
 * È possibile eliminare alcune esperienze dall’attività? La riduzione del numero di esperienze in un’attività riduce il tempo necessario per generare i modelli.
-* Esiste una pagina con traffico più alto in cui questa attività avrebbe più successo? Maggiore è il traffico e le conversioni nelle posizioni di attività, più rapidi saranno i modelli generati.
+* Esiste una pagina con traffico più alto in cui questa attività avrebbe più successo? Maggiore è il traffico e le conversioni nelle posizioni di attività, più rapida sarà la generazione dei modelli.
+
+Per ulteriori informazioni sul tempo necessario per la generazione dei modelli, vedere [Quanto tempo devo attendere per la generazione dei modelli?](#section_5C120A2B11D14D9BAF767BBAB50FED23).
 
 +++
 
-### La mia attività di [!UICONTROL Targeting automatico] non genera alcun incremento.
++++ La mia attività di [!UICONTROL Targeting automatico] non genera alcun incremento.
 
-+++Suggerimenti per la risoluzione dei problemi
-Ci sono quattro fattori necessari affinché un&#39;attività [!UICONTROL Targeting automatico] generi incremento:
+Sono necessari quattro fattori affinché un&#39;attività **[!UICONTROL Targeting automatico]** generi incremento:
 
 * Le offerte devono essere sufficientemente diverse da influenzare i visitatori.
 * Le offerte devono essere posizionate in un punto che faccia la differenza per l’obiettivo di ottimizzazione.
 * Il test deve avere traffico e potenza statistica tali da consentire il rilevamento di un incremento.
 * L’algoritmo di personalizzazione deve funzionare bene.
 
-**Soluzione:** in primo luogo, assicurati che l&#39;attività personalizzi il traffico. Se i modelli non sono generati per tutte le esperienze, l&#39;attività [!UICONTROL Targeting automatico] fornisce ancora in modo casuale una parte significativa di visite per tentare di generare tutti i modelli il più rapidamente possibile. Se i modelli non sono generati, [!UICONTROL Targeting automatico] non personalizza il traffico.
+**Soluzione:** in primo luogo, assicurati che l&#39;attività personalizzi il traffico. Se i modelli non sono generati per tutte le esperienze, l&#39;attività **[!UICONTROL Targeting automatico]** fornisce ancora in modo casuale una parte significativa di visite per tentare di generare tutti i modelli il più rapidamente possibile. Se i modelli non sono generati, **[!UICONTROL Targeting automatico]** non personalizza il traffico.
 
-Quindi, assicurati che le offerte e le posizioni di attività facciano davvero la differenza nei tassi di risposta generali utilizzando un semplice test A/B non personalizzato. Calcola le dimensioni del campione in tempo per assicurarti che sia possibile visualizzare un incremento ragionevole ed esegui il test A/B per una durata fissa senza interruzioni né modifiche. Se i risultati di un test A/B mostrano un incremento statisticamente significativo su una o più esperienze, è probabile che un’attività personalizzata funzioni. Personalization può funzionare anche se non ci sono differenze nei tassi di risposta generali delle esperienze. In genere, il problema deriva dal fatto che le offerte e le posizioni non hanno un impatto sufficiente sull’obiettivo di ottimizzazione da rilevare con significatività statistica.
+Quindi, assicurati che le offerte e le posizioni di attività facciano davvero la differenza nei tassi di risposta generali, utilizzando un semplice test A/B non personalizzato. Calcola le dimensioni del campione in anticipo per assicurarti che ci sia abbastanza potenza per vedere un incremento ragionevole ed esegui il test A/B per una durata fissa senza interromperlo o apportare modifiche. Se i risultati del test A/B mostrano un incremento statisticamente significativo su una o più esperienze, è probabile che un’attività personalizzata funzioni. Personalization può funzionare anche se non ci sono differenze nei tassi di risposta generali delle esperienze. In genere, il problema deriva dal fatto che le offerte e le posizioni non hanno un impatto sufficiente sull’obiettivo di ottimizzazione da rilevare con significatività statistica.
 
 +++
 
-### Qualsiasi metrica dipendente da una metrica di conversione non consegue mai la conversione.
++++ Qualsiasi metrica dipendente da una metrica di conversione non consegue mai la conversione.
 
-+++Suggerimenti per la risoluzione dei problemi
 Si tratta di un comportamento previsto.
 
-In un&#39;attività [!UICONTROL Targeting automatico], una volta convertita una metrica di conversione (che si tratti di obiettivo di ottimizzazione o di corrispondenza), l&#39;utente viene rilasciato dall&#39;esperienza e l&#39;attività viene riavviata.
+In un&#39;attività **[!UICONTROL Targeting automatico]**, una volta convertita una metrica di conversione (che si tratti di obiettivo di ottimizzazione o di corrispondenza), l&#39;utente viene rilasciato dall&#39;esperienza e l&#39;attività viene riavviata.
 
-Prendiamo ad esempio un’attività con una metrica di conversione (C1) e una metrica aggiuntiva (A1). A1 dipende da C1. Quando un visitatore accede all’attività per la prima volta e i criteri di conversione per A1 e C1 non vengono soddisfatti, la metrica A1 non consegue la conversione a causa della dipendenza dalla metrica di successo. Se il visitatore converte C1 e poi A1, A1 non viene ancora convertito perché quando C1 viene convertito, il visitatore viene rilasciato.
+Prendiamo ad esempio un’attività con una metrica di conversione (C1) e una metrica aggiuntiva (A1). A1 dipende da C1. Quando un visitatore accede all’attività per la prima volta e i criteri di conversione per A1 e C1 non sono soddisfatti, la metrica A1 non viene convertita a causa della dipendenza dalla metrica di successo. Se il visitatore converte C1 e poi A1, A1 non viene ancora convertito, perché quando C1 viene convertito, il visitatore viene rilasciato.
 
 +++
