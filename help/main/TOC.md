@@ -3,9 +3,9 @@ user-guide-title: Guida di Adobe Target per professionisti aziendali
 breadcrumb-title: Guida di Target
 user-guide-description: Scopri come personalizzare le esperienze dei clienti su siti web, app e canali social per incrementare le entrate.
 feature-set: Target
-source-git-commit: 13fd7f8c92c5d8202d0e81518300fcc7e1fd1444
+source-git-commit: 745fabd3cd19cc2b076314c1ee1e97d1914a0007
 workflow-type: tm+mt
-source-wordcount: '1339'
+source-wordcount: '1335'
 ht-degree: 71%
 ---
 
@@ -124,6 +124,8 @@ ht-degree: 71%
   + [Dashboard approfondimenti](c-activities/insights-dashboard.md)
   + [Calcolatore delle dimensioni del campione](c-activities/sample-size-calculator.md)
   + [Tipi di attività di Target](c-activities/target-activities-guide.md)
+  + [Modificare un’attività](c-activities/edit-activity.md)
+  + [Priorità](c-activities/priority.md)
   + Test A/B {#abtest}
     + [Introduzione ai test A/B](c-activities/t-test-ab/test-ab.md)
     + [Per quanto tempo si deve eseguire un test A/B?](c-activities/t-test-ab/sample-size-determination.md)
@@ -176,10 +178,6 @@ ht-degree: 71%
       + [Visualizzare un&#39;anteprima delle esperienze per un test multivariato](c-activities/c-multivariate-testing/t-create-multivariate-test/preview-experiences.md)
       + [Stimare il traffico necessario per il successo del test](c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator.md)
       + [Riepilogo del test](c-activities/c-multivariate-testing/t-create-multivariate-test/test-summary.md)
-  + [Attività di Consigli](c-activities/recommendations-activity.md)
-  + [Modificare un’attività](c-activities/edit-activity.md)
-  + [Priorità](c-activities/priority.md)
-  + [Impostazioni delle attività](c-activities/activity-settings.md)
   + Metriche di successo {#success-metrics}
     + [Metriche di successo](c-activities/r-success-metrics/success-metrics.md)
     + [Tracciamento dei clic](c-activities/r-success-metrics/click-tracking.md)
@@ -337,4 +335,4 @@ ht-degree: 71%
   + [Limiti](r-troubleshooting-target/target-limits.md)
 + API di Target {#apis}
   + [Introduzione agli SDK e alle API di Adobe Target](/help/main/api/api-overview.md)
-+ [Risorse e informazioni di contatto &#x200B;](cmp-resources-and-contact-information.md)
++ [Risorse e informazioni di contatto ](cmp-resources-and-contact-information.md)

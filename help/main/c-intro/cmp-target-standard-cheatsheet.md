@@ -45,7 +45,7 @@ topic_v2:
     internal-label: Insights
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 0ae6991a6a86854bd64a632070a1fcbe544cc606
+source-git-commit: 9621044454d3e1b47c06cac2ad5d08cba8e482c0
 workflow-type: tm+mt
 source-wordcount: '2918'
 ht-degree: 47%
@@ -62,7 +62,7 @@ Risposte alle domande frequenti sull&#39;utilizzo delle funzionalità di [!DNL A
 
 L’interfaccia utente è strutturata in un formato logico e intuitivo per trarre il massimo da [!DNL Target]. La seguente breve panoramica consente di acquisire familiarità con [!DNL Target] e il Compositore esperienza visivo e fornisce collegamenti per ottenere informazioni più approfondite e istruzioni dettagliate.
 
-Per ulteriori informazioni, consulta [Comprendere l&#39;interfaccia utente [!DNL Target] &#x200B;](/help/main/c-intro/understand-the-target-ui.md).
+Per ulteriori informazioni, consulta [Comprendere l&#39;interfaccia utente [!DNL Target] ](/help/main/c-intro/understand-the-target-ui.md).
 
 +++
 
@@ -87,14 +87,14 @@ Rimani aggiornato con [!DNL Target] versioni.
 **[!DNL Adobe] dispone di una community o un forum in cui è possibile trovare risposte e ulteriori informazioni su [!DNL Target]?**
 
 +++Vedi i dettagli
-Connettiti con altri professionisti di [!DNL Target] nel [Forum della community di Target](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community?profile.language=it){target=_blank}. Condividi le tue competenze, fai domande e collabora con altri utenti che utilizzano [!DNL Target] per promuovere la personalizzazione e la sperimentazione. Una comunità fiorente dipende dalla partecipazione attiva. Le tue conoscenze ed esperienze possono aiutare gli altri a raggiungere il successo. Entra, contribuisci e trova le risposte che ti servono.
+Connettiti con altri professionisti di [!DNL Target] nel [Forum della community di Target](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community){target=_blank}. Condividi le tue competenze, fai domande e collabora con altri utenti che utilizzano [!DNL Target] per promuovere la personalizzazione e la sperimentazione. Una comunità fiorente dipende dalla partecipazione attiva. Le tue conoscenze ed esperienze possono aiutare gli altri a raggiungere il successo. Entra, contribuisci e trova le risposte che ti servono.
 
 +++
 
 **Quali browser sono supportati da [!DNL Target]?**
 
 +++Vedi i dettagli
-Per maggiori dettagli, consulta la nostra griglia dei [browser supportati](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html?lang=it){target=_blank}. Si noti che esistono due aspetti: il supporto dell&#39;interfaccia [!DNL Target Standard/Premium] e il supporto del browser per l&#39;utente finale su desktop/dispositivi.
+Per maggiori dettagli, consulta la nostra griglia dei [browser supportati](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html){target=_blank}. Si noti che esistono due aspetti: il supporto dell&#39;interfaccia [!DNL Target Standard/Premium] e il supporto del browser per l&#39;utente finale su desktop/dispositivi.
 
 [!DNL Safari] è supportato per l&#39;interfaccia [!DNL Target]. È possibile creare attività basate su moduli in [!DNL Safari] e utilizzare tutte le funzionalità, ad eccezione del [!UICONTROL Compositore esperienza visivo] e del [!UICONTROL Compositore esperienza avanzato], che non sono supportati in [!DNL Safari]. Per modificare le esperienze nel Compositore esperienza visivo o Compositore esperienza avanzato, utilizza [!DNL Google Chrome].
 
@@ -194,14 +194,14 @@ Ricordati di attivare l’attività. Solo le attività live aderiscono alla pian
 **Posso apportare una modifica solo al passaggio [!UICONTROL Targeting] e non passare attraverso l&#39;intero flusso di lavoro guidato in tre passaggi per la modifica?**
 
 +++Vedi i dettagli
-Puoi farlo semplicemente [inserendo direttamente il passaggio desiderato dalla pagina [!UICONTROL Panoramica attività]](/help/main/c-activities/edit-activity.md#concept_BB064C0D4A194BD1A1AE7CCA1E6BB8F0) e uscendo da tale passaggio utilizzando l&#39;opzione [!UICONTROL Salva e chiudi].
+Puoi farlo semplicemente [inserendo direttamente il passaggio desiderato dalla pagina [!UICONTROL Panoramica attività]](/help/main/c-activities/edit-activity.md#section_176180DAD17E40CEA441903F39E0AA1C) e uscendo da tale passaggio utilizzando l&#39;opzione [!UICONTROL Salva e chiudi].
 
 +++
 
 **Posso rimanere in un particolare passaggio, continuare a modificare l&#39;attività (offerta di testo o codice personalizzato, per esempio), e quindi eseguire il QA in un&#39;altra scheda?**
 
 +++Vedi i dettagli
-Questo è possibile. È sufficiente [utilizzare l&#39;opzione [!UICONTROL Salva] per apportare modifiche incrementali senza uscire dal passaggio](/help/main/c-activities/edit-activity.md#concept_BB064C0D4A194BD1A1AE7CCA1E6BB8F0).
+Questo è possibile. È sufficiente [utilizzare l&#39;opzione [!UICONTROL Salva] per apportare modifiche incrementali senza uscire dal passaggio](/help/main/c-activities/edit-activity.md#section_29EE2ECA6B88473A8F9AC5600FFBB174).
 
 +++
 
@@ -274,7 +274,7 @@ Utilizza i controlli di allocazione della percentuale disponibili nel [passaggio
 Dai un&#39;occhiata alle seguenti funzioni del prodotto:
 
 * [Analytics for Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
-* [Attributi del cliente](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html?lang=it)
+* [Attributi del cliente](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html)
 * [Tipi di pubblico](/help/main/c-integrating-target-with-mac/mmp.md)
 
 +++
@@ -378,7 +378,7 @@ Utilizza l’[approccio basato su moduli](/help/main/c-experiences/form-experien
 **Perché non vedo l&#39;offerta/esperienza desiderata e vedo invece altre attività?**
 
 +++Vedi i dettagli
-Utilizza il nostro [debugger](/help/main/c-activities/c-troubleshooting-activities/content-trouble.md#concept_D2548B486C984B1E97ED7A72075B8EEA) e verifica la presenza di [conflitti tra attività](/help/main/c-experiences/c-visual-experience-composer/activity-collisions.md#concept_0BC6B929592744DFA7DA01FF4F91052E).
+Utilizza il nostro [debugger](/help/main/c-activities/c-troubleshooting-activities/content-trouble.md#debugging-tools) e verifica la presenza di [conflitti tra attività](/help/main/c-experiences/c-visual-experience-composer/activity-collisions.md#concept_0BC6B929592744DFA7DA01FF4F91052E).
 
 +++
 
@@ -402,7 +402,7 @@ Utilizza il nostro [debugger](/help/main/c-activities/c-troubleshooting-activiti
 **Perché non vedo l&#39;offerta/esperienza desiderata e vedo invece altre attività?**
 
 +++Vedi i dettagli
-Utilizza il nostro [debugger](/help/main/c-activities/c-troubleshooting-activities/content-trouble.md#concept_D2548B486C984B1E97ED7A72075B8EEA) e verifica la presenza di [conflitti tra attività](/help/main/c-experiences/c-visual-experience-composer/activity-collisions.md#concept_0BC6B929592744DFA7DA01FF4F91052E).
+Utilizza il nostro [debugger](/help/main/c-activities/c-troubleshooting-activities/content-trouble.md#debugging-tools) e verifica la presenza di [conflitti tra attività](/help/main/c-experiences/c-visual-experience-composer/activity-collisions.md#concept_0BC6B929592744DFA7DA01FF4F91052E).
 
 +++
 
@@ -421,7 +421,7 @@ Sfrutta l’efficacia delle [attività basate su moduli](/help/main/c-experience
 Dai un&#39;occhiata alle seguenti funzioni del prodotto:
 
 * [Analytics for Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
-* [Attributi del cliente](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html?lang=it)
+* [Attributi del cliente](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html)
 * [Tipi di pubblico](/help/main/c-integrating-target-with-mac/mmp.md)
 
 +++
