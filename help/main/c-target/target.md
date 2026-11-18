@@ -1,6 +1,6 @@
 ---
 keywords: Targeting;audience
-description: Scopri come utilizzare i tipi di pubblico in [!DNL Adobe Target] per indirizzare contenuti ed esperienze diversi a tipi di pubblico specifici per ottimizzare le attività di marketing web.
+description: Scopri come utilizzare i tipi di pubblico in [!DNL Adobe Target] per indirizzare contenuti ed esperienze diversi a tipi di pubblico specifici per ottimizzare le attività di marketing Web.
 title: Come posso usare [!UICONTROL Tipi di pubblico] per indirizzare contenuti diversi a segmenti specifici?
 feature: Audiences
 exl-id: 5c52ddf1-11e1-4b99-9f74-1af03190136a
@@ -16,14 +16,12 @@ topic_v2:
     internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+source-git-commit: de439134b0ee5aa795ae255bba852b9b6f10da12
 workflow-type: tm+mt
-source-wordcount: 316
+source-wordcount: '321'
 ht-degree: 38%
-
 ---
-
-# Tipi di pubblico
+# Introduzione ai tipi di pubblico
 
 Utilizza i tipi di pubblico in [!DNL Adobe Target] per indirizzare contenuti ed esperienze diversi a tipi di pubblico specifici per ottimizzare le attività di Web marketing presentando al momento giusto i messaggi più appropriati ai vari visitatori.
 
@@ -48,4 +46,4 @@ Questo video include informazioni su come impostare il targeting e i tipi di pub
 * Selezionare il metodo di allocazione del traffico
 * Allocare il traffico tra diverse esperienze
 
->[!VIDEO](https://video.tv.adobe.com/v/3507595?captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/17385)

@@ -2,7 +2,7 @@
 keywords: personalizzazione automatizzata;offerta;reporting;gruppo;gruppo di reporting;ap
 description: Scopri come utilizzare i gruppi di reporting di offerte nelle attività [!DNL Adobe Target] [!UICONTROL Automated Personalization].
 title: Posso utilizzare i gruppi di reporting di offerte nelle [!UICONTROL attività Automated Personalization]?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=it#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."
 feature: Reports
 exl-id: 9058a6c5-c651-480f-9b23-d0782a13b042
 TQID: 'https://experienceleague.adobe.com/VW3zVGXb3IuQMDaRyidbkjsbUrojvwFsvwP3yRVeHp4'
@@ -21,68 +21,83 @@ topic_v2:
     internal-label: Customer experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: 44c6bdd4ab818226e76477782d7e4238b49d5cdc
 workflow-type: tm+mt
-source-wordcount: '878'
-ht-degree: 20%
+source-wordcount: '926'
+ht-degree: 3%
 ---
-# Gruppi di reporting di offerte in [!UICONTROL Automated Personalization]
+# Gruppi di reporting di offerte in [!UICONTROL Automated Personalization] {#offer-reporting-groups}
 
-Informazioni sull&#39;utilizzo dei gruppi di reporting nelle attività di [!DNL Adobe Target] [Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md) (AP).
+>[!BEGINSHADEBOX]
 
-I gruppi di reporting svolgono due funzioni chiave:
+**In questa pagina:** Scopri come funzionano i gruppi di reporting delle offerte nelle attività di **[!UICONTROL Automated Personalization]**, come configurarli e come visualizzarli nei rapporti.
 
-* I gruppi di reporting consentono di visualizzare le offerte raggruppate nel reporting delle attività di AP.
-* I gruppi di reporting svolgono un ruolo chiave nel funzionamento dei modelli di personalizzazione [!DNL Target].
+>[!ENDSHADEBOX]
 
-Quando si utilizzano i gruppi di reporting, [!DNL Target] crea un modello di personalizzazione per ogni gruppo di reporting utilizzando i dati di tutte le offerte del gruppo. Senza gruppi di reporting, [!DNL Target] crea un modello di personalizzazione per ogni offerta nell&#39;attività di Personalizzazione automatizzata.
+I gruppi di reporting consentono di organizzare le offerte di un&#39;attività [!DNL Adobe Target] [Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md) (AP) in gruppi. I gruppi di reporting svolgono due funzioni chiave:
 
-Se la configurazione dell&#39;attività non dispone di dati sufficienti per creare un modello di personalizzazione per ogni offerta, i gruppi di reporting aiutano a ridurre i requisiti di dati per utilizzare [!UICONTROL Automated Personalization]. I gruppi di reporting consentono inoltre di risolvere il problema “Avvio a freddo” per le nuove offerte raggruppando offerte simili, in modo che ogni modello abbia più dati su cui basarsi. I gruppi di modeling possono essere utilizzati anche per attività in cui le nuove offerte vengono introdotte regolarmente nell’attività di AP.
+* Consentono di vedere le offerte raggruppate nel reporting delle attività di PA.
+* Hanno un ruolo chiave nel funzionamento dei modelli di personalizzazione [!DNL Target].
 
-Questo approccio funziona bene se i visitatori rispondono allo stesso modo a tutte le offerte di un gruppo. È consigliabile raggruppare offerte a cui gruppi simili di visitatori rispondono in modo simile. In altre parole, offerte per gruppi con tassi di conversione simili. È sconsigliabile mettere tutte le offerte in un unico gruppo di rapporti. Il raggruppamento di tutte le offerte o le offerte con tassi di conversione diversi riduce probabilmente l&#39;efficacia dei modelli di personalizzazione [!DNL Target].
+Quando si utilizzano i gruppi di reporting, [!DNL Target] crea un modello di personalizzazione per ogni gruppo di reporting, utilizzando i dati di tutte le offerte del gruppo. Senza gruppi di reporting, [!DNL Target] crea un modello di personalizzazione per ogni offerta nell&#39;attività di Personalizzazione automatizzata.
+
+I gruppi di reporting riducono inoltre i requisiti di dati per utilizzare **[!UICONTROL Automated Personalization]** quando la configurazione dell&#39;attività non dispone di dati sufficienti per creare un modello di personalizzazione per offerta. Sono utili per risolvere il problema dell’avvio a freddo delle nuove offerte, che sono raggruppate con offerte simili, in modo che ogni modello abbia più dati su cui formarsi.
+
+Questo approccio funziona bene quando i visitatori rispondono allo stesso modo a tutte le offerte di un gruppo, pertanto le offerte di gruppo con tassi di conversione simili. Non mettere mai tutte le offerte in un unico gruppo di reporting e non raggruppare le offerte con tassi di conversione diversi, perché entrambe le scelte probabilmente ridurranno l&#39;efficacia dei modelli di personalizzazione [!DNL Target].
 
 >[!NOTE]
 >
->Se un’offerta viene eliminata o sostituita da un particolare gruppo di modeling, viene rimosso dal gruppo anche il traffico storico relativo a quell’offerta specifica. In altre parole, le offerte eliminate non contribuiscono ai dati utilizzati per l&#39;apprendimento dei modelli di personalizzazione [!DNL Target].
+>Se un&#39;offerta viene rimossa o sostituita in un gruppo di reporting, anche il traffico storico relativo a tale offerta viene eliminato dal gruppo, pertanto le offerte eliminate non contribuiscono ai dati utilizzati dai modelli di personalizzazione [!DNL Target] per apprendere.
+
+
+## Considerazioni
+
+### Utilizzare i gruppi di reporting per le attività live
+
+I gruppi di reporting influiscono sul modo in cui [!DNL Target] crea i propri modelli. Di conseguenza, [!DNL Adobe] consiglia di utilizzare i gruppi di reporting solo se si intende sostituire o aggiungere offerte mentre un&#39;attività è in esecuzione. Se una nuova offerta viene introdotta in un&#39;attività live, inserendo la nuova offerta in un gruppo con offerte simili esistenti, [!DNL Target] potrà utilizzare i dati già raccolti per le altre offerte del gruppo per conoscere la nuova offerta.
+
+### Registrazione dei dati per offerte e posizioni
+
+Le attività di Personalizzazione automatizzata hanno combinazioni di posizione e offerta (modellabili). Quando [!DNL Target] registra i dati nei rapporti, considera queste combinazioni, quindi è chiaro da quale evento (visualizzazione, clic e così via) è arrivata l&#39;offerta.
+
+Ad esempio, un’attività potrebbe avere più posizioni e diverse offerte, che potrebbero sovrapporsi. Se un visitatore vede più di una di queste offerte in posizioni diverse, [!DNL Target] registra i dati solo per tali offerte. Se lo stesso visitatore fa successivamente clic su un&#39;offerta, [!DNL Target] registra un evento solo da tale combinazione (non per tutte le combinazioni).
+
+Allo stesso modo, se il clic proviene da una posizione diversa presente in una metrica ma che non visualizza un’offerta, l’evento viene registrato nell’attività, ma non per qualsiasi combinazione di offerta e posizione. Di conseguenza, questa offerta non viene visualizzata nel gruppo di reporting delle offerte. Questo comportamento si verifica perché il clic potrebbe essere stato fatto da una mbox diversa da quella che ha servito l’offerta. In tal caso, la metrica è associata all’attività, ma non all’offerta.
 
 ## Configurare gruppi di reporting
 
-1. Nella pagina **[!UICONTROL Esperienze]** di un&#39;attività di Personalizzazione automatizzata, fare clic sull&#39;icona **[!UICONTROL Gestisci contenuto]** ( ![icona Gestisci contenuto](/help/main/assets/icons/Experience.svg) )
-1. Fai clic sulla scheda **[!UICONTROL Offerte]** nella parte superiore della finestra di dialogo [!UICONTROL Gestisci contenuto].
-1. (Condizionale) Aggiungi esperienze specifiche a un gruppo di reporting facendo clic sull&#39;icona [!UICONTROL Altre azioni] ( ![Altre azioni](/help/main/assets/icons/MoreSmall.svg) ) per l&#39;offerta desiderata e quindi su **[!UICONTROL Gruppo di rapporti]**.
+L&#39;assegnazione delle offerte ai gruppi di reporting determina il modo in cui [!DNL Target] crea i modelli di personalizzazione e il modo in cui le offerte vengono visualizzate nei rapporti attività. Imposta i gruppi durante la creazione dell’attività o in un secondo momento, se aggiungi nuove offerte a un’attività live.
 
-1. (Facoltativo) Il batch include le esperienze in un gruppo di reporting selezionando le caselle di controllo per le esperienze rilevanti e facendo clic su **[!UICONTROL Gruppo di reporting]** nella parte inferiore della finestra di dialogo.
+1. Nella pagina **[!UICONTROL Esperienze]** di un&#39;attività di Personalizzazione automatizzata, fare clic sull&#39;icona **[!UICONTROL Gestisci contenuto]** ( ![icona Gestisci contenuto](/help/main/assets/icons/Experience.svg) ).
 
-1. Per assegnare l&#39;offerta selezionata a un gruppo di reporting esistente, selezionare **[!UICONTROL Esistente]**, selezionare il gruppo di reporting desiderato dall&#39;elenco a discesa, quindi fare clic su **[!UICONTROL Conferma]**.
+1. Fai clic sulla scheda **[!UICONTROL Offerte]** nella parte superiore della finestra di dialogo **[!UICONTROL Gestisci contenuto]**.
 
-   Oppure
+   ![Icona Configura](../assets/ap-offers-2.png)
 
-   Per creare un gruppo di reporting a cui assegnare l&#39;offerta selezionata, seleziona **[!UICONTROL Nuovo]**, dai un nome al nuovo gruppo di reporting, quindi fai clic su **[!UICONTROL Conferma]**.
+1. (Condizionale) Scegli le offerte da aggiungere a un gruppo di reporting.
 
-È possibile utilizzare l&#39;elenco [!UICONTROL Posizione] per filtrare le offerte in base alla posizione. Utilizza l&#39;elenco [!UICONTROL Gruppo di rapporti] per filtrare le offerte in base ai gruppi di rapporti. È inoltre possibile utilizzare l&#39;elenco [!UICONTROL Gruppo di rapporti] per filtrare le [!UICONTROL Offerte non assegnate] così da poter assegnare un gruppo di rapporti a un&#39;offerta attualmente non assegnata ad alcun gruppo di rapporti.
+   * Per aggiungere una singola offerta, fai clic sull&#39;icona **[!UICONTROL Altre azioni]** ( ![Altre azioni](/help/main/assets/icons/MoreSmall.svg) ) per l&#39;offerta, quindi fai clic su **[!UICONTROL Gruppo di reporting]**.
+   * Per aggiungere più offerte contemporaneamente, seleziona le caselle di controllo relative alle offerte, quindi fai clic su **[!UICONTROL Gruppo di reporting]** nella parte inferiore della finestra di dialogo.
 
-Per informazioni su come indirizzare un&#39;offerta a tipi di pubblico specifici, consulta [Offerte di Target [!UICONTROL Automated Personalization]](/help/main/c-activities/t-automated-personalization/ap-target-offers.md#task_F207ED7A41B84FD39BB6FCBFABF4B23E).
+1. Assegna le offerte selezionate a un gruppo di reporting.
 
-## Avvertenze
+   * Per assegnare le offerte a un gruppo di reporting esistente, seleziona **[!UICONTROL Esistente]**, seleziona il gruppo di reporting dall&#39;elenco a discesa, quindi fai clic su **[!UICONTROL Conferma]**.
+   * Per creare un gruppo di reporting per le offerte, seleziona **[!UICONTROL Nuovo]**, assegna un nome al nuovo gruppo di reporting, quindi fai clic su **[!UICONTROL Conferma]**.
 
-* È importante comprendere che i gruppi di reporting influiscono sul modo in cui [!DNL Target] crea i propri modelli. Di conseguenza, [!DNL Adobe] consiglia di utilizzare i gruppi di reporting solo se si intende sostituire o aggiungere nuove offerte mentre un&#39;attività è in esecuzione. Se una nuova offerta viene introdotta in un’attività live, inserendo la nuova offerta in un gruppo con offerte simili esistenti, la macchina può utilizzare i dati già raccolti per le altre offerte del gruppo per scoprire la nuova offerta. È sconsigliabile mettere tutte le offerte in un unico gruppo di rapporti.
+Per limitare l&#39;elenco delle offerte, filtrarlo in base alla posizione con l&#39;elenco **[!UICONTROL Posizione]** o in base al gruppo di reporting con l&#39;elenco **[!UICONTROL Gruppo di rapporti]**. L&#39;elenco **[!UICONTROL Gruppo di rapporti]** offre anche l&#39;opzione **[!UICONTROL Offerte non assegnate]**, che visualizza le offerte che non appartengono ancora ad alcun gruppo di reporting, in modo da poterle assegnare a uno.
 
-* Le attività di Personalizzazione automatizzata hanno combinazioni di posizione + offerta (modellabili). Quando [!DNL Target] registra i dati nei rapporti, [!DNL Target] considera tali combinazioni in modo che sia chiaro da quale evento (visualizzazione, clic e così via) è arrivata l&#39;offerta.
-
-  Ad esempio, un’attività potrebbe avere più posizioni e diverse offerte, che potrebbero sovrapporsi. Se un visitatore vede più di una di queste offerte in posizioni diverse, [!DNL Target] registra i dati solo per tali offerte. Se lo stesso visitatore fa successivamente clic su un&#39;offerta, [!DNL Target] registra un evento solo da tale combinazione (non per tutte le combinazioni).
-
-  Allo stesso modo, se il clic proviene da una posizione diversa, presente in una metrica, ma che non visualizza un’offerta, questo evento viene registrato nell’attività, ma non per qualsiasi combinazione di offerta e posizione. Di conseguenza, questa offerta non viene visualizzata nel gruppo di reporting delle offerte.
-
-  Questo comportamento è dovuto al fatto che il clic potrebbe provenire da una mbox diversa e non dalla mbox che ha fornito l’offerta. Per questo motivo, la metrica è associata all’attività, ma non all’offerta.
+Per informazioni su come indirizzare un&#39;offerta a tipi di pubblico specifici, consulta [Offerte di Target **[!UICONTROL Automated Personalization]**](/help/main/c-activities/t-automated-personalization/ap-target-offers.md#set-up-targeting-rules).
 
 ## Visualizzare le offerte in un gruppo di reporting
 
-1. Fai clic su **[!UICONTROL Attività]**, fai clic sull&#39;attività [!UICONTROL Automated Personalization] desiderata dall&#39;elenco, quindi fai clic sulla scheda **[!UICONTROL Rapporti]** per visualizzare il rapporto [Livello offerta](/help/main/c-reports/personalization-reports/reports-ap.md).
+Il report **[!UICONTROL Livello offerta]** mostra le prestazioni delle offerte di un&#39;attività, raggruppate per gruppo di reporting, in modo da poter confrontare i gruppi e le singole offerte.
 
-   Se hai numerose attività, fai clic sull&#39;icona [!UICONTROL Mostra filtri] (funnel), quindi seleziona la casella di controllo [!UICONTROL Automated Personalization] per filtrare l&#39;elenco in modo da visualizzare solo le [!UICONTROL attività Automated Personalization].
+1. Fai clic su **[!UICONTROL Attività]**, fai clic sull&#39;attività **[!UICONTROL Automated Personalization]** nell&#39;elenco, quindi fai clic sulla scheda **[!UICONTROL Rapporti]** per visualizzare il rapporto [Livello offerta](/help/main/c-reports/personalization-reports/reports-ap.md).
 
-1. Fai clic su **[!UICONTROL Controllo]** o **[!UICONTROL Destinato]** nella tabella per visualizzare le offerte e le offerte non raggruppate all&#39;interno dei gruppi di reporting.
+   Se hai numerose attività, fai clic sull&#39;icona **[!UICONTROL Mostra filtri]** (funnel), quindi seleziona la casella di controllo **[!UICONTROL Automated Personalization]** per visualizzare solo **[!UICONTROL Automated Personalization]** attività.
 
-   ![Gruppi di offerte: controllo e destinazione](/help/main/c-reports/c-report-settings/assets/offer-groups.png)
+1. Fai clic su **[!UICONTROL Controllo]** o **[!UICONTROL Destinato]** nella tabella per visualizzare le offerte non raggruppate e le offerte all&#39;interno dei gruppi di reporting.
 
-Per informazioni sull&#39;utilizzo dei report [!UICONTROL Automated Personalization] (incluso il report [!UICONTROL Livello di offerta]), vedi [Report di riepilogo di Automated Personalization](/help/main/c-reports/personalization-reports/reports-ap.md).
+   ![Gruppi di offerte: controllo e destinazione](/help/main/c-reports/assets/offer-groups.png)
+
+Per informazioni sull&#39;utilizzo dei report **[!UICONTROL Automated Personalization]** (incluso il report **[!UICONTROL Livello di offerta]**), vedi [Report di riepilogo di Automated Personalization](/help/main/c-reports/personalization-reports/reports-ap.md).

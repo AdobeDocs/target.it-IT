@@ -2,7 +2,7 @@
 keywords: Targeting;rapporto AP;rapporti di personalizzazione automatizzata:targeting automatico;auto targeting;rapporto di targeting automatico;report di targeting automatico;personalizzazione;approfondimenti;segmenti automatizzati;FAQ;domande frequenti;attributi importanti
 description: 'Scopri come utilizzare i rapporti specializzati per le attività di Automated Personalization (AP) e Targeting automatico (AT): Segmenti automatizzati e Attributi importanti.'
 title: Come si utilizzano i rapporti Approfondimenti Personalization?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=it#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."
 feature: Reports
 exl-id: 89295d95-f179-4277-ae63-453350e1bba8
 TQID: 'https://experienceleague.adobe.com/qDaIhyfV-m3oHJArqg8TKMAe-k5QwjEUjGzhZrPSTEI'
@@ -30,12 +30,12 @@ topic_v2:
     internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: de439134b0ee5aa795ae255bba852b9b6f10da12
 workflow-type: tm+mt
-source-wordcount: '1024'
-ht-degree: 28%
+source-wordcount: '1027'
+ht-degree: 27%
 ---
-# [!UICONTROL Rapporti di Personalization Insights]
+# Introduzione ai report [!UICONTROL Personalization Insights]
 
 Sono disponibili due report specializzati per gli utenti di [!UICONTROL attività di Automated Personalization] (AP) e [!UICONTROL Targeting automatico] (AT): i report [!UICONTROL Segmenti automatizzati] e [!UICONTROL Attributi importanti].
 
@@ -117,7 +117,7 @@ I modelli [!UICONTROL Automated Personalization] (AP) e [!UICONTROL Targeting au
 
 ## Video di formazione: Utilizzo dei rapporti Approfondimenti Personalization ![Icona esercitazione](/help/main/assets/tutorial.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/329906?captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/25601/)
 
 Per ulteriori informazioni, vedere [Utilizzo dei rapporti Approfondimenti Personalization in Adobe Target](https://helpx.adobe.com/target/kt/using/personalization-insights-report-feature-video-use.html).
 

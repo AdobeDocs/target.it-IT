@@ -25,37 +25,35 @@ topic_v2:
     internal-label: Customer experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: aaa094f4f36b6088ca180637d8054b6d5ff59d60
 workflow-type: tm+mt
-source-wordcount: '462'
-ht-degree: 38%
+source-wordcount: '417'
+ht-degree: 2%
 ---
-# [!UICONTROL Targeting dell’esperienza] (XT)
+# Introduzione a [!UICONTROL Targeting esperienza] {#get-started-xt}
 
-[!UICONTROL La funzione Targeting esperienza] (XT) fornisce contenuti a un pubblico specifico in base a una serie di regole e criteri definiti dall&#39;addetto al marketing.
+>[!BEGINSHADEBOX]
 
-[!UICONTROL Targeting esperienza], incluso [geotargeting](/help/main/c-target/c-audiences/c-target-rules/geo.md), è utile per definire regole che rivolgono un&#39;esperienza o un contenuto specifico a un determinato pubblico. È possibile definire diverse regole in un’attività per fornire diverse varianti di contenuto a tipi di pubblico diversi.
+**In questa pagina:** Scopri cos&#39;è **[!UICONTROL Targeting esperienza]**, come si inserisce nella personalizzazione e come uno scenario esegue il targeting di tipi di pubblico diversi con esperienze diverse.
 
-Quando i visitatori visualizzano il tuo sito, [!UICONTROL Targeting esperienza] (XT) valuta tali visitatori per determinare se soddisfano i criteri impostati. Se soddisfano i criteri, accedono all’attività e viene visualizzata l’esperienza progettata per i tipi di pubblico idonei. Puoi creare esperienze per più tipi di pubblico all&#39;interno di una singola attività.
+>[!ENDSHADEBOX]
 
-[!UICONTROL Targeting esperienza] è un primo passo nel mondo della personalizzazione e spesso inizia con test A/B. Un addetto al marketing esegue un test A/B e, utilizzando i tipi di pubblico di reporting, rileva che esperienze diverse risuonano con tipi di pubblico diversi. [!UICONTROL Targeting esperienza] consente all&#39;addetto al marketing di utilizzare facilmente tale individuazione e passare al targeting a lungo termine del contenuto per tali segmenti di utenti diversi.
+[!UICONTROL La funzione Targeting esperienza] (XT) fornisce contenuti a un pubblico specifico in base a una serie di regole e criteri definiti dall&#39;addetto al marketing. È utile per definire regole, tra cui [geotargeting](/help/main/c-target/c-audiences/c-target-rules/geo.md), che rivolgono un&#39;esperienza o un contenuto specifico a un determinato pubblico. È possibile definire diverse regole in una singola attività per fornire diverse varianti di contenuto a tipi di pubblico diversi.
 
-## Scenario: Targeting esperienza
+Quando i visitatori visualizzano il tuo sito, [!UICONTROL Targeting esperienza] valuta tali visitatori per determinare se soddisfano i criteri impostati. Se soddisfano i criteri, vengono inclusi nell’attività e viene visualizzata l’esperienza progettata per il pubblico idoneo.
 
-Supponiamo di avere un sito per attrezzature per attività all’aperto. I rapporti per il test A/B indicano che tre esperienze risuonano con tipi di pubblico diversi. Per applicare questo rilevamento, vuoi visualizzare un’immagine protagonista diversa sulla pagina home per questi diversi tipi di pubblico, a seconda della posizione o degli hobby dei visitatori. In questo scenario, vuoi visualizzare un’immagine di trekking per i visitatori del New Jersey e una di surf per i visitatori delle Hawaii. Un terzo tipo di pubblico è invece interessato al ciclismo. Vuoi quindi presentare a questo pubblico una terza immagine hero in linea con il loro interesse.
+[!UICONTROL Targeting esperienza] è un primo passo nel mondo della personalizzazione e spesso inizia con test A/B. Un addetto al marketing esegue un test A/B e, utilizzando i tipi di pubblico di reporting, rileva che diverse esperienze risuonano con tipi di pubblico diversi. [!UICONTROL Targeting esperienza] consente all&#39;addetto al marketing di utilizzare facilmente tale individuazione e passare al targeting a lungo termine dei contenuti per questi diversi segmenti di pubblico.
 
-Un&#39;attività [!UICONTROL Targeting esperienza] ti consente di indirizzare questi tre tipi di pubblico con un&#39;immagine protagonista diversa che risulti interessante per ogni pubblico. Il video seguente *From A/B Testing to Experience Targeting* (Da test A/B a targeting esperienza) mostra come creare esperienze mirate per i due stati e una terza esperienza per gli appassionati di ciclismo. Il video mostra anche come ordinare le tre esperienze per raggiungere gli obiettivi. Guarda il video, quindi continua con [Creare un’attività Targeting esperienze](/help/main/c-activities/t-experience-target/t-xt-create/xt-create.md).
+## Scenario: da test A/B a Targeting esperienza {#xt-scenario}
 
-## Video di formazione:
+Supponiamo che il tuo sito web sia dotato di attrezzature per esterni. I rapporti per il test A/B indicano che tre esperienze risuonano con tipi di pubblico diversi. Per applicare questa scoperta, vuoi visualizzare un’immagine protagonista diversa sulla pagina home per attrarre ogni pubblico, a seconda della posizione o degli hobby dei visitatori. Vuoi mostrare un’immagine di trekking ai visitatori del New Jersey, una di surf ai visitatori delle Hawaii e una terza immagine a un pubblico che ama andare in bicicletta.
 
-I video seguenti contengono ulteriori informazioni sui concetti descritti in questo articolo.
+Un&#39;attività [!UICONTROL Targeting esperienza] ti consente di indirizzare questi tre tipi di pubblico con un&#39;immagine protagonista diversa per ciascuno di essi. Nel video seguente viene descritto come portare il test A/B al livello successivo con [!UICONTROL Targeting esperienza]. Viene illustrato come:
 
-### Da test A/B a [!UICONTROL Targeting esperienza]
+* Configura un&#39;attività [!UICONTROL Targeting esperienza] utilizzando il flusso di lavoro guidato in tre passaggi.
+* Distribuisci contenuti specifici per la posizione a tipi di pubblico in diverse aree geografiche, creando esperienze mirate per entrambi gli stati e una terza esperienza per gli appassionati di ciclismo.
+* Riordina le tre esperienze in modo che il contenuto giusto venga distribuito al pubblico giusto.
 
-Questo video descrive come portare il test A/B al livello successivo con [!UICONTROL Targeting esperienza].
+>[!VIDEO](https://video.tv.adobe.com/v/22418/)
 
-* Descrivi il flusso di lavoro guidato in tre passaggi per configurare un&#39;attività [!UICONTROL Targeting esperienza]
-* Descrivi come distribuire contenuti specifici per la posizione a tipi di pubblico in diverse aree geografiche
-* Descrivi come riordinare le esperienze per garantire che il contenuto corretto venga distribuito al pubblico giusto
-
->[!VIDEO](https://video.tv.adobe.com/v/41140?captions=ita)
+Dopo aver guardato il video, continua con [Creare un&#39;attività Targeting esperienze](/help/main/c-activities/t-experience-target/t-xt-create/xt-create.md).

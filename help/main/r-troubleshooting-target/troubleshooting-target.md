@@ -39,7 +39,7 @@ topic_v2:
     internal-label: Insights
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 5f78680bff6489e51d7f0afb6db1c9360f5cb6d1
+source-git-commit: 0ae6991a6a86854bd64a632070a1fcbe544cc606
 workflow-type: tm+mt
 source-wordcount: '556'
 ht-degree: 77%
@@ -82,7 +82,7 @@ Nelle sezioni seguenti sono disponibili informazioni sulla risoluzione di proble
 ### Test multivariato (MVT)
 
 * [Best practice relative ai test multivariati](/help/main/c-activities/c-multivariate-testing/best-practices.md)
-* [Risoluzione dei problemi di test multivariati](/help/main/c-activities/c-multivariate-testing/best-practices.md)
+* [Risoluzione dei problemi di test multivariati](/help/main/c-activities/c-multivariate-testing/best-practices.md#follow-up)
 * [Stimare il traffico necessario per il successo del test](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator.md)
 
 ### Consigli
@@ -129,7 +129,7 @@ Nelle sezioni seguenti sono disponibili informazioni sulla risoluzione di proble
 
 ## Mbox globale
 
-* [Mbox globale](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/global-mbox/global-mbox-faq.html?lang=it)
+* [Mbox globale](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/global-mbox/global-mbox-faq.html)
 
 ## Host/Ambienti
 
@@ -141,12 +141,12 @@ Nelle seguenti sezioni sono disponibili informazioni sulla risoluzione di proble
 
 ### Implementazione generale
 
-* [Browser supportati](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html?lang=it)
+* [Browser supportati](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html)
 * [Utilizzo di istanze basate su cloud con Target](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targeting-using-cloud-based-instances.html)
 
 ### Mboxs globali
 
-* [Domande frequenti sulle mbox globali](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/global-mbox/global-mbox-faq.html?lang=it)
+* [Domande frequenti sulle mbox globali](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/global-mbox/global-mbox-faq.html)
 
 ### at.js
 
@@ -157,7 +157,7 @@ Nelle seguenti sezioni sono disponibili informazioni sulla risoluzione di proble
 
 ## App mobili
 
-* [Domande frequenti su Target per le app per dispositivi mobili](https://experienceleague.adobe.com/docs/target-dev/developer/mobile-apps/mobile-faq.html?lang=it)
+* [Domande frequenti su Target per le app per dispositivi mobili](https://experienceleague.adobe.com/docs/target-dev/developer/mobile-apps/mobile-faq.html)
 
 ## Generazione di rapporti
 
@@ -166,7 +166,7 @@ Nelle seguenti sezioni sono disponibili informazioni sulla risoluzione di proble
 
 ## Ottimizzazione dei motori di ricerca (SEO)
 
-* [Test di usabilità per l’ottimizzazione per i motori di ricerca (SEO)](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html?lang=it)
+* [Test di usabilità per l’ottimizzazione per i motori di ricerca (SEO)](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html)
 
 ## Sicurezza
 

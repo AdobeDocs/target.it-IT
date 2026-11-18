@@ -17,12 +17,12 @@ subfeature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: de439134b0ee5aa795ae255bba852b9b6f10da12
 workflow-type: tm+mt
-source-wordcount: '202'
-ht-degree: 23%
+source-wordcount: '204'
+ht-degree: 22%
 ---
-# Panoramica della progettazione
+# Introduzione alle progettazioni
 
 Le progettazioni in [!DNL Adobe Target Recommendations] definiscono la modalità di visualizzazione dei consigli in una pagina. Le progettazioni definiscono il layout e il formato dei consigli per migliorare il coinvolgimento, la conversione e i ricavi dei visitatori.
 

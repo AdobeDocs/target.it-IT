@@ -29,9 +29,9 @@ topic_v2:
     internal-label: Troubleshooting
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: 44c6bdd4ab818226e76477782d7e4238b49d5cdc
 workflow-type: tm+mt
-source-wordcount: '1399'
+source-wordcount: '1392'
 ht-degree: 23%
 ---
 # Domande frequenti sulla generazione di rapporti
@@ -136,7 +136,7 @@ Se il contenuto di un’attività è stato recapitato correttamente agli utenti 
 
 >[!NOTE]
 >
->Per ulteriori informazioni su come aggiornare un&#39;attività [!UICONTROL Automated Personalization] (AP) e modificare l&#39;esperienza di controllo in un&#39;esperienza che riceve il traffico, vedere [Selezionare il controllo per l&#39;attività Automated Personalization o Targeting automatico](/help/main/c-activities/t-automated-personalization/experience-as-control.md).
+>Per ulteriori informazioni su come aggiornare un&#39;attività di [!UICONTROL Automated Personalization] (AP) e modificare l&#39;esperienza di controllo in un&#39;esperienza che riceve il traffico, vedere [Selezionare l&#39;esperienza di controllo](/help/main/c-activities/t-automated-personalization/experience-as-control.md).
 
 
 ## Perché la suddivisione del traffico tra le mie esperienze è irregolare nella mia attività A/B o MVT? {#uneven}

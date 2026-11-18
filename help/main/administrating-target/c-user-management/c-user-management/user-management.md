@@ -1,7 +1,7 @@
 ---
 keywords: aggiungere utente;gestire utente;autorizzazioni utente
-description: Scopri come utilizzare  [!DNL Adobe Admin Console]  per gestire gli utenti e le autorizzazioni e i diritti di questi in  [!DNL Adobe Target Standard].
-title: Come si aggiungono utenti e si gestiscono le autorizzazioni per un account  [!DNL Target Standard] ?
+description: Scopri come utilizzare [!DNL Adobe Admin Console] per gestire gli utenti e le relative autorizzazioni e diritti in [!DNL Adobe Target Standard].
+title: Come posso aggiungere utenti e gestire le autorizzazioni per un account [!DNL Target Standard]?
 feature: Administration & Configuration
 role: Admin
 exl-id: 535c28c7-179d-4edc-b140-880b9dfe1d59
@@ -33,14 +33,12 @@ topic_v2:
     internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+source-git-commit: de439134b0ee5aa795ae255bba852b9b6f10da12
 workflow-type: tm+mt
-source-wordcount: 925
-ht-degree: 59%
-
+source-wordcount: '930'
+ht-degree: 56%
 ---
-
-# Utenti
+# Introduzione agli utenti
 
 Aggiungere utenti e gestirne le autorizzazioni in [!DNL Adobe Admin Console] per un account [!DNL Target Standard].
 
@@ -50,7 +48,7 @@ Aggiungere utenti e gestirne le autorizzazioni in [!DNL Adobe Admin Console] per
 >
 >Per verificare se la tua organizzazione dispone di una licenza [!UICONTROL Standard] o [!UICONTROL Premium], fai clic sul collegamento [!UICONTROL Amministrazione] nella parte superiore dell&#39;interfaccia utente [!DNL Target].
 >
->* **[!DNL Target]&#x200B;[!UICONTROL Standard] Clienti**: se è presente la scheda [!UICONTROL Utenti] ([!UICONTROL Amministrazione > Utenti]) (e non la scheda **[!UICONTROL Proprietà]**), la tua organizzazione dispone di una licenza [!DNL Target] [!UICONTROL Standard]. [!DNL Target] I clienti [!UICONTROL Standard] devono seguire le istruzioni riportate in questo articolo per aggiungere utenti e assegnare autorizzazioni in [!DNL Adobe Admin Console].
+>* **[!DNL Target][!UICONTROL Standard] Clienti**: se è presente la scheda [!UICONTROL Utenti] ([!UICONTROL Amministrazione > Utenti]) (e non la scheda **[!UICONTROL Proprietà]**), la tua organizzazione dispone di una licenza [!DNL Target] [!UICONTROL Standard]. [!DNL Target] I clienti [!UICONTROL Standard] devono seguire le istruzioni riportate in questo articolo per aggiungere utenti e assegnare autorizzazioni in [!DNL Adobe Admin Console].
 >
 >* Clienti Premium **[!DNL Target]**: se sono presenti le schede [!UICONTROL Utenti] e [!UICONTROL Proprietà] ([!UICONTROL Amministrazione > Proprietà]), la tua organizzazione dispone di una licenza Premium [!DNL Target]. [!DNL Target] I clienti Premium devono seguire le istruzioni contenute in [Autorizzazioni utente Enterprise](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) e [Configurare le autorizzazioni Enterprise](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md) per aggiungere utenti e assegnare le autorizzazioni in [!DNL Adobe Admin Console].
 >
@@ -133,12 +131,12 @@ Finalità di apprendimento:
 
 * Accedere ad Admin Console dall’interfaccia di Adobe Target (tre modi)
 * Configurare un’area di lavoro in Adobe Admin Console
-   * Aggiungere utenti alle aree di lavoro
-   * Aggiungere proprietà alle aree di lavoro
+  * Aggiungere utenti alle aree di lavoro
+  * Aggiungere proprietà alle aree di lavoro
 * Comprendere le aree di lavoro predefinite
 
 >[!NOTE]
 >
 >L&#39;interfaccia utente del menu [!DNL Target] [!UICONTROL Amministrazione] (in precedenza [!UICONTROL Configurazione]) è stata riprogettata per fornire prestazioni migliori, ridurre il tempo di manutenzione necessario per il rilascio di nuove funzionalità e migliorare l&#39;esperienza utente nel prodotto. Le informazioni contenute nel video seguente sono generalmente corrette; tuttavia, le opzioni potrebbero trovarsi in punti leggermente diversi. I video aggiornati verranno pubblicati a breve.
 
->[!VIDEO](https://video.tv.adobe.com/v/3421732?captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/19463/)

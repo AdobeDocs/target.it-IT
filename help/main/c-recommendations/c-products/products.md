@@ -2,7 +2,7 @@
 keywords: prodotto;collezioni
 description: Informazioni sulle entità in Consigli di Adobe [!DNL Target]. Le entità si riferiscono agli elementi che si desidera consigliare utilizzando [!DNL Target], ad esempio articoli, film o prodotti.
 title: Come si utilizzano le entità?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=it#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."
 feature: Recommendations
 exl-id: ffe23eea-b914-4c86-ad54-c63c1cc1c0d7
 TQID: 'https://experienceleague.adobe.com/zfISb59XJ5qrD1-FA0syglPPswIL8cA0N0pBpY4tgIE'
@@ -18,12 +18,12 @@ subfeature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: de439134b0ee5aa795ae255bba852b9b6f10da12
 workflow-type: tm+mt
-source-wordcount: '123'
-ht-degree: 63%
+source-wordcount: '126'
+ht-degree: 61%
 ---
-# Entità
+# Introduzione alle entità
 
 Le entità si riferiscono agli elementi che desideri consigliare. Le entità possono essere qualsiasi cosa, ad esempio prodotti, contenuti (articoli, presentazioni, immagini, filmati, programmi TV ecc.), annunci di lavoro, ristoranti e così via.
 

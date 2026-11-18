@@ -20,12 +20,12 @@ topic_v2:
     internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: de439134b0ee5aa795ae255bba852b9b6f10da12
 workflow-type: tm+mt
-source-wordcount: '250'
-ht-degree: 66%
+source-wordcount: '253'
+ht-degree: 61%
 ---
-# Risoluzione dei problemi relativi al Compositore esperienza visivo e Compositore esperienza avanzato
+# Introduzione alla risoluzione dei problemi relativi a [!UICONTROL Compositore esperienza visivo] e [!UICONTROL Compositore esperienza avanzato]
 
 In determinate condizioni, in [!DNL Adobe Target] [!UICONTROL Compositore esperienza visivo] e Compositore esperienza avanzato [!UICONTROL si verificano problemi di visualizzazione.]
 

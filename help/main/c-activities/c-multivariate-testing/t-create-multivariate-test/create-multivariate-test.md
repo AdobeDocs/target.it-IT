@@ -16,9 +16,9 @@ feature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: aad553690f1f399177214c94a2276d038f46d9cb
+source-git-commit: 0ae6991a6a86854bd64a632070a1fcbe544cc606
 workflow-type: tm+mt
-source-wordcount: '907'
+source-wordcount: '929'
 ht-degree: 16%
 ---
 # Creazione di un test multivariato {#create-mvt}
@@ -34,6 +34,8 @@ Il **[!UICONTROL Compositore esperienza visivo]** (VEC) in [!DNL Adobe Target] s
 L&#39;editor point-and-click di [!DNL Target] consente di scegliere qualsiasi posizione e di aggiungere più offerte.
 
 Il **[!UICONTROL test multivariato]** (MVT) accetta un report di tipo &quot;page-first&quot;. In altre parole, il test viene eseguito su un URL specifico, con l’esperienza progettata per tale pagina.
+
+Prima di creare il test, controlla le [raccomandazioni di pianificazione](/help/main/c-activities/c-multivariate-testing/best-practices.md#plan) per controllare il traffico, scegliere gli elementi da testare e preparare il contenuto.
 
 Segui i passaggi seguenti per creare un **[!UICONTROL Test multivariato]** (MVT):
 
@@ -70,7 +72,7 @@ Scegli il tipo di attività e di consegna, specifica la pagina da testare e asse
 
 Aggiungi offerte a ciascuna posizione, visualizza in anteprima le esperienze risultanti e verifica che il piano di test sia fattibile.
 
-1. [Crea le offerte in ogni posizione](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/add-offers.md#concept_DCE6B45C30F7419B8EC17AFDEE8D8AA6).
+1. [Crea le offerte in ogni posizione](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/add-offers.md#create-combinations).
 
    Puoi aggiungere i seguenti tipi di offerte:
 
@@ -82,7 +84,7 @@ Aggiungi offerte a ciascuna posizione, visualizza in anteprima le esperienze ris
 
 1. Fai clic sull&#39;icona **[!UICONTROL Mostra esperienze]** ( ![Mostra esperienze](/help/main/assets/icons/WebPages.svg) ) per visualizzare l&#39;elenco di tutte le esperienze nel frame a sinistra, quindi fai clic su un&#39;esperienza specifica nell&#39;elenco per visualizzarla.
 
-1. [Utilizza Il Calcolatore del traffico](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator.md#task_71AA6922AFD447EA8C5E610A78ABA714) per verificare la fattibilità del piano di test.
+1. [Utilizza Il Calcolatore del traffico](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator.md#use-traffic-estimator) per verificare la fattibilità del piano di test.
 
 ### Escludi esperienze (facoltativo) {#exclude-experiences}
 
@@ -124,7 +126,7 @@ Scegli quali visitatori inserire nel test e rivedi il riepilogo del test.
 
    +++
 
-1. [Rivedi il riepilogo del test](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/test-summary.md#reference_971AB225963A4DC18EEB5B0E20F0A4A7) e apporta le modifiche desiderate, quindi fai clic su **[!UICONTROL Avanti]**.
+1. [Rivedi il riepilogo del test](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/test-summary.md#mvt-test-summary) e apporta le modifiche desiderate, quindi fai clic su **[!UICONTROL Avanti]**.
 
 ## Configurare obiettivi e impostazioni {#configure-goals-and-settings}
 
@@ -150,4 +152,4 @@ Questo video illustra come pianificare e creare un test multivariato utilizzando
 * Definizione e progettazione di un test multivariato
 * Creazione di un test multivariato
 
->[!VIDEO](https://video.tv.adobe.com/v/36329?captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/17395)

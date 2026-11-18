@@ -20,14 +20,12 @@ topic_v2:
     internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+source-git-commit: de439134b0ee5aa795ae255bba852b9b6f10da12
 workflow-type: tm+mt
-source-wordcount: 118
-ht-degree: 36%
-
+source-wordcount: '121'
+ht-degree: 33%
 ---
-
-# Profili dei visitatori
+# Introduzione ai profili dei visitatori
 
 I profili dei visitatori in [!DNL Adobe Target] contengono informazioni su come i visitatori utilizzano le pagine e altre posizioni di contenuto ottimizzate.
 
@@ -40,6 +38,6 @@ Le sezioni che seguono contengono le informazioni seguenti:
 - [Durata del profilo del visitatore](visitor-profile-lifetime.md)
 - [Attributi del profilo](profile-parameters.md)
 - [Affinità tra categorie](category-affinity.md)
-- [Attributi del cliente](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html?lang=it)
+- [Attributi del cliente](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html)
 - [Sincronizzazione dei profili in tempo reale per mbox3rdPartyID](3rd-party-id.md)
 - [Glossario di profili e variabili](variables-profiles-parameters-methods.md)
