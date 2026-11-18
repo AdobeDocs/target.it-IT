@@ -16,12 +16,12 @@ topic_v2:
     internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: de439134b0ee5aa795ae255bba852b9b6f10da12
 workflow-type: tm+mt
-source-wordcount: '2266'
+source-wordcount: '2269'
 ht-degree: 79%
 ---
-# Modifiche
+# Introduzione alle modifiche
 
 Informazioni sulla pagina [!UICONTROL Modifiche] in [!DNL Adobe Target] che consente di visualizzare le modifiche apportate alla pagina e di aggiungere ulteriori modifiche (selettore CSS, Mbox e codice personalizzato).
 

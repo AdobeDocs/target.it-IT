@@ -18,12 +18,12 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 140a7287246905d47bf02a84348627017a619386
+source-git-commit: de439134b0ee5aa795ae255bba852b9b6f10da12
 workflow-type: tm+mt
-source-wordcount: '889'
+source-wordcount: '892'
 ht-degree: 0%
 ---
-# [!UICONTROL Compositore esperienza visivo] (VEC)
+# Introduzione a [!UICONTROL Compositore esperienza visivo]
 
 Il [!UICONTROL Compositore esperienza visivo] (VEC) in [!DNL Adobe Target] è un editor WYSIWYG per la creazione e il testing di esperienze personalizzate direttamente su siti Web e pagine Web mobili senza modificare il codice.
 

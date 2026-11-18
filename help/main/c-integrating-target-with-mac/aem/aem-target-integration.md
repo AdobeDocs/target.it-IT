@@ -1,7 +1,7 @@
 ---
 keywords: aem;experience manager;adobe experience manager;integrare;integrazione
 description: Scopri come utilizzare l’integrazione Target/Experience Manager.
-title: Come posso integrare  [!DNL Target]  con Adobe Experience Manager (AEM)?
+title: Come posso integrare [!DNL Target] con Adobe Experience Manager (AEM)?
 feature: Integrations
 exl-id: bff6d9da-8b1e-4458-8d5c-0a34e570e15a
 TQID: https://experienceleague.adobe.com/vrDZA-CUa0UB0Xk8NOcTBfXidSXCNlJm8dlvxmMkSaE
@@ -20,14 +20,12 @@ topic_v2:
     internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+source-git-commit: de439134b0ee5aa795ae255bba852b9b6f10da12
 workflow-type: tm+mt
-source-wordcount: 63
-ht-degree: 61%
-
+source-wordcount: '67'
+ht-degree: 41%
 ---
-
-# Integrare [!DNL Target] con [!DNL Adobe Experience Manager] (AEM)
+# Introduzione all&#39;integrazione di [!DNL Target] con AEM
 
 L&#39;integrazione di [!DNL Adobe Target]/[!DNL Adobe Experience Manager] (AEM) attualmente consente di utilizzare [!UICONTROL Frammenti di esperienza] (XFs) e [!UICONTROL Frammenti di contenuto] (CFs) creati in AEM in [!DNL Target] attività per facilitare l&#39;ottimizzazione e la personalizzazione.
 

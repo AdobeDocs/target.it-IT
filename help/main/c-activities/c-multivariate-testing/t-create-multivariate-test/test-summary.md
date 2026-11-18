@@ -16,23 +16,29 @@ feature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 0ae6991a6a86854bd64a632070a1fcbe544cc606
 workflow-type: tm+mt
-source-wordcount: '116'
-ht-degree: 30%
+source-wordcount: '162'
+ht-degree: 9%
 ---
-# Riepilogo test ([!UICONTROL Test multivariato])
+# Riepilogo test ([!UICONTROL Test multivariato]) {#mvt-test-summary}
 
-La pagina [!UICONTROL Targeting] fornisce una panoramica visiva del [!DNL Adobe Target] [!UICONTROL Test multivariato].
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** Scopri cosa viene visualizzato il riepilogo del test di un **[!UICONTROL test multivariato]**, in modo da poter rivedere la configurazione prima di continuare.
+
+>[!ENDSHADEBOX]
+
+La pagina **[!UICONTROL Targeting]** fornisce una panoramica visiva del [!DNL Adobe Target] **[!UICONTROL Test multivariato]**. L’esame di questo riepilogo ti consente di confermare la configurazione del test prima di impostare obiettivi e impostazioni.
 
 ![Finestra di dialogo Riepilogo del test](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/summary-new.png)
 
 Il riepilogo del test mostra quanto segue:
 
-* Nome del test
-* URL
-* Pubblico: fai clic sul pubblico per selezionarne uno diverso dall’elenco dei tipi di pubblico disponibili.
-* Algoritmo: l&#39;unico algoritmo disponibile è [!UICONTROL Fattoriale completo]. Il nome dell’algoritmo viene specificato a scopo informativo, per sapere quale è attualmente in uso.
+* Nome del test.
+* URL.
+* Il pubblico. Fai clic sul pubblico per selezionarne uno diverso dall’elenco dei tipi di pubblico disponibili.
+* L&#39;algoritmo. L&#39;unico algoritmo disponibile è **[!UICONTROL Fattoriale completo]**. Il nome dell’algoritmo viene fornito a scopo informativo, in modo da conoscere l’algoritmo utilizzato.
 * Il numero delle esperienze incluse ed escluse.
 
-Fare clic su **[!UICONTROL Avanti]** se la configurazione del test è soddisfacente. Viene visualizzata la pagina [!UICONTROL Obiettivi e impostazioni].
+Fare clic su **[!UICONTROL Avanti]** se la configurazione del test è soddisfacente. Viene visualizzata la pagina **[!UICONTROL Obiettivi e impostazioni]**.

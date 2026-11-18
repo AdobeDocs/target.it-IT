@@ -17,12 +17,12 @@ subfeature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 3c6c808c85affddc1e4734727e90472151dff692
+source-git-commit: de439134b0ee5aa795ae255bba852b9b6f10da12
 workflow-type: tm+mt
-source-wordcount: '974'
+source-wordcount: '977'
 ht-degree: 7%
 ---
-# Offerte
+# Introduzione alle offerte
 
 Scopri come gestire in modo efficiente le offerte di codice e immagini utilizzando la libreria [!UICONTROL Offerte] in [!DNL Adobe Target].
 

@@ -29,54 +29,70 @@ topic_v2:
     internal-label: Customer experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: 44c6bdd4ab818226e76477782d7e4238b49d5cdc
 workflow-type: tm+mt
-source-wordcount: '846'
-ht-degree: 31%
+source-wordcount: '801'
+ht-degree: 3%
 ---
-# Seleziona il controllo per l&#39;attività [!UICONTROL Automated Personalization] o [!UICONTROL Targeting automatico]
+# Seleziona l’esperienza di controllo {#experience-as-control}
 
-Durante la creazione di un&#39;attività di [[!UICONTROL Automated Personalization]](/help/main/c-activities/t-automated-personalization/automated-personalization.md) (AP) o [[!UICONTROL Targeting automatico]](/help/main/c-activities/auto-target/auto-target-to-optimize.md) (AT) puoi selezionare un&#39;esperienza casuale o selezionarne una specifica da usare come controllo.
+>[!BEGINSHADEBOX]
 
-Questa funzione ti permette di indirizzare tutto il traffico di controllo a una specifica esperienza, in base alla percentuale di allocazione del traffico configurata nell’attività. Puoi quindi valutare i rapporti sulle prestazioni del traffico personalizzato rispetto al traffico verso questa esperienza di controllo.
+**In questa pagina:** Scopri come scegliere il controllo di un&#39;attività **[!UICONTROL Automated Personalization]** o **[!UICONTROL Targeting automatico]** e cosa considerare quando utilizzi come controllo un&#39;esperienza specifica.
 
-Le opzioni per l&#39;impostazione di un controllo nelle attività [!UICONTROL Automated Personalization] e [!UICONTROL Targeting automatico] sono leggermente diverse dagli altri tipi di attività. In un [!UICONTROL Test A/B] manuale, puoi modificare il tipo di rapporto visualizzato come controllo e l&#39;incremento viene calcolato in base al tasso di conversione dell&#39;esperienza di controllo. Puoi effettuare facilmente questa modifica perché il traffico viene distribuito in modo casuale verso ogni esperienza inclusa nell’attività, indipendentemente dall’impostazione iniziale del controllo. In altre parole, la selezione del controllo non influisce sul modo in cui viene distribuito il traffico. Nelle attività [!UICONTROL Automated Personalization] e [!UICONTROL Targeting automatico], la tua decisione su cosa scegliere come controllo influisce sul modo in cui viene distribuito il traffico del visitatore. Di conseguenza, devi riflettere più attentamente sulla tua decisione.
+>[!ENDSHADEBOX]
 
-Nelle attività [!UICONTROL Automated Personalization] e [!UICONTROL Targeting automatico] sono disponibili due opzioni per il controllo:
+Durante la creazione di un&#39;attività di [**[!UICONTROL Automated Personalization]**](/help/main/c-activities/t-automated-personalization/automated-personalization.md#automated-personalization-overview) (AP) o [**[!UICONTROL Targeting automatico]**](/help/main/c-activities/auto-target/auto-target-to-optimize.md) (AT) puoi selezionare un&#39;esperienza casuale o un&#39;esperienza specifica da utilizzare come controllo. Il traffico di controllo viene indirizzato alle esperienze rilevanti in base alla percentuale di allocazione del traffico configurata nell’attività, in modo da poter valutare i rapporti sulle prestazioni del traffico personalizzato rispetto al traffico di controllo.
 
-* **Distribuzione casuale**: per un controllo casuale, la percentuale di traffico del controllo viene distribuita in modo casuale a tutte le esperienze dell&#39;attività, senza considerare il profilo del visitatore. Puoi considerare il controllo come una risposta alla domanda: &quot;Se distribuisco in modo casuale un’esperienza (o offerta) ai visitatori e non considero i loro profili, qual è il tasso di conversione per tale esperienza (o offerta)?&quot; Il controllo è simile a un [!UICONTROL test A/B] nell&#39;attività AI. Queste informazioni sul tasso di conversione non personalizzato per ogni esperienza o offerta possono essere utili per comprendere quando analizzare i risultati dell’attività.
+In un **[!UICONTROL Test A/B]** manuale, è possibile modificare ciò che il reporting mostra come controllo e l&#39;incremento viene calcolato da tale esperienza, perché il traffico viene distribuito in modo casuale a tutte le esperienze, indipendentemente dal controllo. Nelle attività **[!UICONTROL Automated Personalization]** e **[!UICONTROL Targeting automatico]**, il controllo influisce sul modo in cui viene distribuito il traffico del visitatore, quindi scegline attentamente.
 
-* **Esperienza specifica**: un controllo esperienza specifico consente di confrontare il traffico gestito dai modelli di personalizzazione [!DNL Target] con un&#39;esperienza specifica definita dall&#39;addetto al marketing (ad esempio, la pagina home predefinita). Con questa opzione, la percentuale di traffico di controllo viene veicolata in modo casuale unicamente all’esperienza definita come controllo.
+Per il controllo sono disponibili due opzioni:
 
-## Specificare come controllo un’esperienza specifica
+* **Distribuzione casuale:** La percentuale di traffico del controllo viene distribuita in modo casuale a tutte le esperienze dell&#39;attività, senza considerare il profilo del visitatore. Funziona come un **[!UICONTROL Test A/B]** all&#39;interno dell&#39;attività e mostra il tasso di conversione non personalizzato di ogni esperienza o offerta, per aiutarti ad analizzare i risultati.
 
-1. Durante la creazione o la modifica di un&#39;attività [[!UICONTROL Automated Personalization]](/help/main/c-activities/t-automated-personalization/create-ap-activity.md) o [[!UICONTROL Targeting automatico]](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-audience.md), configura le esperienze nel modo desiderato.
-1. Nella pagina [!UICONTROL Targeting] (passaggio 2 del flusso di lavoro guidato in tre parti), fai clic sull&#39;esperienza di controllo per visualizzare le opzioni di [!UICONTROL Controllo] nel riquadro a destra.
+* **Esperienza specifica:** La percentuale di traffico del controllo viene distribuita in modo casuale solo a quella esperienza. Questa opzione consente di confrontare il traffico gestito dai modelli di personalizzazione [!DNL Target] con un&#39;esperienza specifica definita, ad esempio la pagina home predefinita.
+
+## Considerazioni {#considerations}
+
+Quando utilizzi come controllo un’esperienza specifica, considera gli aspetti seguenti:
+
+* Non è consigliabile modificare l’esperienza di controllo in un’attività live. Nella generazione rapporti viene denominato l’ultima esperienza di controllo selezionata, anche se i rapporti precedenti sono basati su un’altra esperienza.
+
+* Non è consigliabile eliminare l’esperienza di controllo.
+
+* Non è consigliabile aggiungere molte nuove offerte o esperienze a un’attività live con un’esperienza specifica come controllo.
+
+* Nelle attività di **[!UICONTROL Automated Personalization]**, non è consigliabile includere nell&#39;esperienza di controllo un targeting che potrebbe limitare ulteriormente chi può vedere tale esperienza.
+
+* Nelle attività di **[!UICONTROL Automated Personalization]**, le informazioni su incremento e affidabilità sono *non* disponibili nel report a livello di offerta se è selezionata un&#39;esperienza specifica. Questo perché il confronto tra il tasso di conversione di un’esperienza specifica e il tasso di conversione di un’offerta non è logico a causa della differenza nelle unità. Le informazioni di incremento e affidabilità sono disponibili a livello di traffico &quot;mirato&quot; complessivo rispetto al livello di traffico &quot;di controllo&quot; per l’attività e a tutti i livelli se come controllo viene selezionato &quot;casuale&quot;. Le informazioni disponibili in un&#39;attività di **[!UICONTROL Targeting automatico]** sono uguali, indipendentemente dal tipo di controllo selezionato.
+
+* Quando selezioni un’esperienza specifica come controllo, tutto il traffico viene indirizzato a un’unica esperienza o a un set di offerte. Con un controllo casuale, il traffico di controllo viene suddiviso sul numero di esperienze o offerte nell’attività. Di conseguenza, in genere non è necessario trasportare tanto traffico verso il controllo con un’esperienza specifica. Si consiglia di iniziare con un valore di 10%.
+
+* Se esegui una delle operazioni seguenti su un’attività live e il controllo è impostato su un’esperienza specifica, questo viene reimpostato automaticamente su esperienze casuali (anziché sull’esperienza specifica selezionata in precedenza):
+
+  * Eliminare un’esperienza.
+  * Rimuovi una posizione o un&#39;offerta (**[!UICONTROL solo Automated Personalization]**).
+  * Escludi un&#39;esperienza manualmente, rimuovendo le offerte duplicate o tramite un gruppo di esclusione (**[!UICONTROL Automated Personalization]** only).
+
+
+## Specificare come controllo un’esperienza specifica {#specify-control}
+
+Specificando come controllo un’esperienza specifica, nei rapporti dell’attività si assegna al traffico personalizzato un’esperienza nota da confrontare, ad esempio l’esperienza predefinita corrente.
+
+1. Durante la creazione o la modifica di un&#39;attività [**[!UICONTROL Automated Personalization &#x200B;]**](/help/main/c-activities/t-automated-personalization/create-ap-activity.md#create-ap-activity) o di un&#39;attività [**[!UICONTROL Targeting automatico]**](/help/main/c-activities/auto-target/create-auto-target.md#create-auto-target-activity), configura le esperienze nel modo desiderato.
+
+1. Nella pagina **[!UICONTROL Targeting]** (passaggio 2 del flusso di lavoro guidato in tre parti), fai clic sull&#39;esperienza di controllo per visualizzare le opzioni **[!UICONTROL Controllo]** nel riquadro a destra.
 
    ![Riquadro di controllo](/help/main/c-activities/t-automated-personalization/assets/control.png)
 
-1. Dall&#39;elenco a discesa [!UICONTROL Controllo], selezionare [!UICONTROL Esperienza casuale] o selezionare l&#39;esperienza desiderata che si desidera utilizzare per il controllo.
+1. Dall&#39;elenco a discesa **[!UICONTROL Controllo]**, selezionare **[!UICONTROL Esperienza casuale]** oppure selezionare l&#39;esperienza che si desidera utilizzare come controllo.
 
-1. Fai clic sul controllo [!UICONTROL Allocazione traffico], quindi specifica l&#39;allocazione del traffico desiderata per l&#39;esperienza di controllo e le altre esperienze.
+1. Fai clic sul controllo **[!UICONTROL Allocazione traffico]**, quindi specifica l&#39;allocazione del traffico per l&#39;esperienza di controllo e le altre esperienze.
 
    ![Barra di allocazione traffico](/help/main/c-activities/t-automated-personalization/assets/traffic-allocation.png)
 
    Se usi come controllo una specifica esperienza, i valori consigliati sono dal 10% al 30%.
 
-1. Continua con la pagina [!UICONTROL Obiettivi e impostazioni].
+1. Continua con la pagina **[!UICONTROL Obiettivi e impostazioni]**.
 
-## Limitazioni note e considerazioni
-
-Quando utilizzi come controllo un’esperienza specifica, considera gli aspetti seguenti:
-
-* Non è consigliabile modificare l’esperienza di controllo in un’attività live. Nei rapporti si fa riferimento all’ultima esperienza di controllo selezionata, anche se i rapporti precedenti sono basati su un’altra esperienza.
-* Non è consigliabile eliminare l’esperienza di controllo.
-* Non è consigliabile aggiungere molte nuove offerte o esperienze a un’attività live con un’esperienza specifica come controllo.
-* Nelle attività di [!UICONTROL Automated Personalization], non è consigliabile includere nell&#39;esperienza di controllo un targeting che potrebbe limitare ulteriormente chi può vedere tale esperienza.
-* Nelle attività di [!UICONTROL Automated Personalization], le informazioni su incremento e affidabilità sono *NOT* disponibili nel report a livello di offerta se è selezionata un&#39;esperienza specifica. Le informazioni di incremento e affidabilità sono disponibili a livello di traffico &quot;con targeting&quot; complessivo rispetto a quello di &quot;controllo&quot; per l&#39;attività [!UICONTROL Automated Personalization]. Le informazioni di incremento e affidabilità sono disponibili se si utilizza un controllo di tipo casuale. Questa differenza è dovuta al fatto che il confronto tra il tasso di conversione di un’esperienza specifica e quello di un’offerta non è logico a causa della differenza nelle unità. Le informazioni disponibili in un&#39;attività di [!UICONTROL Targeting automatico] sono uguali, indipendentemente dal tipo di controllo selezionato.
-* In genere è richiesto meno traffico verso il controllo: infatti, quando si seleziona come controllo un’esperienza specifica, tutto il traffico viene veicolato verso un’unica esperienza o un set di offerte; nel caso di un controllo casuale, invece, il traffico allocato al controllo viene suddiviso tra le varie esperienze o offerte presenti nell’attività. Si consiglia di iniziare con un valore di 10%.
-* Se le seguenti operazioni vengono effettuate su un’attività live e con il controllo impostato un’esperienza specifica, questo viene reimpostato automaticamente su esperienze casuali (anziché sull’esperienza specifica selezionata in precedenza):
-
-  * Eliminare un’esperienza
-  * Rimuovi una posizione o un&#39;offerta ([!UICONTROL solo Automated Personalization])
-  * Escludi un&#39;esperienza manualmente rimuovendo le offerte duplicate o tramite un gruppo di esclusione ([!UICONTROL Automated Personalization] only)
+Una volta che l’attività è live, i relativi rapporti confrontano il traffico personalizzato con l’esperienza di controllo selezionata. Rivedi le [considerazioni](#considerations) prima di modificare un&#39;attività live, poiché alcune modifiche reimpostano automaticamente il controllo su esperienze distribuite in modo casuale.

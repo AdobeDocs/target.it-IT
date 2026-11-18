@@ -18,12 +18,12 @@ subfeature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: de439134b0ee5aa795ae255bba852b9b6f10da12
 workflow-type: tm+mt
-source-wordcount: '123'
-ht-degree: 63%
+source-wordcount: '126'
+ht-degree: 61%
 ---
-# Entità
+# Introduzione alle entità
 
 Le entità si riferiscono agli elementi che desideri consigliare. Le entità possono essere qualsiasi cosa, ad esempio prodotti, contenuti (articoli, presentazioni, immagini, filmati, programmi TV ecc.), annunci di lavoro, ristoranti e così via.
 

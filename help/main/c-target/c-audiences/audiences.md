@@ -20,14 +20,12 @@ topic_v2:
     internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 51f1eb085a253559ccd58407f5b508e5b094b297
+source-git-commit: de439134b0ee5aa795ae255bba852b9b6f10da12
 workflow-type: tm+mt
-source-wordcount: 844
+source-wordcount: '847'
 ht-degree: 27%
-
 ---
-
-# Creazione di un pubblico
+# Introduzione alla creazione di tipi di pubblico
 
 I tipi di pubblico in [!DNL Adobe Target] determinano chi visualizzerà il contenuto e le esperienze in un&#39;attività di destinazione.
 

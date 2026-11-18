@@ -45,7 +45,7 @@ topic_v2:
     internal-label: Insights
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 174d4631b6f4a481c039bd7fff52a8e70161e19e
+source-git-commit: 0ae6991a6a86854bd64a632070a1fcbe544cc606
 workflow-type: tm+mt
 source-wordcount: '2918'
 ht-degree: 47%
@@ -142,7 +142,7 @@ Accertati inoltre di prendere in considerazione le [attività Consigli](/help/ma
 **Come faccio a scoprire quali combinazioni di elementi sulla mia pagina contribuiscono al suo successo e il livello di contribuzione di ogni elemento?**
 
 +++Vedi i dettagli
-Consulta [Attività fattoriali complete multivariate (MVT)](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md#concept_628695CDC71B449B8DCC2F5654C11499) con analisi del contributo degli elementi per vedere se soddisfa le tue esigenze.
+Consulta [Attività fattoriali complete multivariate (MVT)](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md#get-started-mvt) con analisi del contributo degli elementi per vedere se soddisfa le tue esigenze.
 
 Tieni presente che il fabbisogno di traffico aumenta con le attività MVT.
 

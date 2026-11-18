@@ -24,12 +24,12 @@ topic_v2:
     internal-label: Content and assets
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
     internal-label: Machine learning
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: de439134b0ee5aa795ae255bba852b9b6f10da12
 workflow-type: tm+mt
-source-wordcount: '410'
-ht-degree: 36%
+source-wordcount: '412'
+ht-degree: 35%
 ---
-# Panoramica di [!UICONTROL Frammenti esperienza] e [!UICONTROL Frammenti di contenuto] di AEM
+# Introduzione a [!UICONTROL Frammenti di esperienza] e [!UICONTROL Frammenti di contenuto] in AEM
 
 Utilizza [!UICONTROL Frammenti di esperienza] (XF) e [!UICONTROL Frammenti di contenuto] (CF) creati in [!DNL Adobe Experience Manager] (AEM) in [!DNL Target] attività per facilitare l&#39;ottimizzazione e la personalizzazione.
 

@@ -47,7 +47,7 @@ topic_v2:
     internal-label: Privacy
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: 3acd51a37f38ba67e60304fce606df948ecdd1f4
+source-git-commit: 0ae6991a6a86854bd64a632070a1fcbe544cc606
 workflow-type: tm+mt
 source-wordcount: '2289'
 ht-degree: 20%
@@ -124,13 +124,13 @@ Per ulteriori informazioni, consulta [Automated Personalization](/help/main/c-ac
 
 [!UICONTROL La funzione Targeting esperienza] (XT) fornisce contenuti a tipi di pubblico specifici in base a regole e criteri definiti dall&#39;addetto al marketing. Incluso il geotargeting, XT è utile per definire regole che rivolgono esperienze o contenuti specifici a tipi di pubblico particolari. È possibile impostare più regole in un’attività per fornire diverse varianti di contenuto a tipi di pubblico diversi. Quando i visitatori visualizzano il tuo sito, XT li valuta per determinare se soddisfano i criteri. Se si qualificano, accedono all’attività e visualizzano l’esperienza progettata per loro. Puoi creare esperienze per più tipi di pubblico all&#39;interno di una singola attività.
 
-Per ulteriori informazioni, consulta [Targeting esperienza](/help/main/c-activities/t-experience-target/experience-target.md#task_A53DF336CB9F4D7BB87EF2106099EFC4).
+Per ulteriori informazioni, consulta [Targeting esperienza](/help/main/c-activities/t-experience-target/experience-target.md#get-started-xt).
 
 ### [!UICONTROL Test multivariato] (MVT)
 
 [!UICONTROL Multivariate Testing] (MVT) confronta le combinazioni di offerte negli elementi della pagina per determinare quale combinazione funziona meglio per un pubblico specifico. MVT consente di identificare quale elemento influisce maggiormente sul successo dell’attività.
 
-Per ulteriori informazioni, consulta [Test multivariato](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md#concept_628695CDC71B449B8DCC2F5654C11499).
+Per ulteriori informazioni, consulta [Test multivariato](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md#get-started-mvt).
 
 ### [!UICONTROL Funzione Consigli]
 
