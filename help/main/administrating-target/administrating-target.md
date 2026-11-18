@@ -39,7 +39,7 @@ ht-degree: 5%
 
 Utilizza **[!UICONTROL Amministrazione]** per configurare le impostazioni predefinite a livello di account per il [!UICONTROL Compositore esperienza visivo], il reporting, l&#39;infrastruttura di consegna, il controllo degli accessi e [!DNL Recommendations].
 
-Se stai configurando [!DNL Target] per la prima volta, inizia con [Primi passaggi per amministratori](/help/main/administrating-target/start-target.md). Per informazioni su come individuare **[!UICONTROL Amministrazione]** nell&#39;interfaccia aggiornata, vedere [Comprendere l&#39;interfaccia utente [!DNL Target] ](/help/main/c-intro/understand-the-target-ui.md).
+Se stai configurando [!DNL Target] per la prima volta, inizia con [Primi passaggi per amministratori](/help/main/administrating-target/start-target.md). Per informazioni su come individuare **[!UICONTROL Amministrazione]** nell&#39;interfaccia aggiornata, vedere [Comprendere l&#39;interfaccia utente [!DNL Target] &#x200B;](/help/main/c-intro/understand-the-target-ui.md).
 
 Per aprire una pagina di amministrazione, fare clic su **[!UICONTROL Amministrazione]** nella barra dei menu superiore, quindi fare clic sulla scheda desiderata lungo il lato sinistro:
 

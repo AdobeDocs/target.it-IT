@@ -79,7 +79,7 @@ Quando utilizzi come controllo un’esperienza specifica, considera gli aspetti 
 
 Specificando come controllo un’esperienza specifica, nei rapporti dell’attività si assegna al traffico personalizzato un’esperienza nota da confrontare, ad esempio l’esperienza predefinita corrente.
 
-1. Durante la creazione o la modifica di un&#39;attività [**[!UICONTROL Automated Personalization ]**](/help/main/c-activities/t-automated-personalization/create-ap-activity.md#create-ap-activity) o di un&#39;attività [**[!UICONTROL Targeting automatico]**](/help/main/c-activities/auto-target/create-auto-target.md#create-auto-target-activity), configura le esperienze nel modo desiderato.
+1. Durante la creazione o la modifica di un&#39;attività [**[!UICONTROL Automated Personalization &#x200B;]**](/help/main/c-activities/t-automated-personalization/create-ap-activity.md#create-ap-activity) o di un&#39;attività [**[!UICONTROL Targeting automatico]**](/help/main/c-activities/auto-target/create-auto-target.md#create-auto-target-activity), configura le esperienze nel modo desiderato.
 
 1. Nella pagina **[!UICONTROL Targeting]** (passaggio 2 del flusso di lavoro guidato in tre parti), fai clic sull&#39;esperienza di controllo per visualizzare le opzioni **[!UICONTROL Controllo]** nel riquadro a destra.
 
