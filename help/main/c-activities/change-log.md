@@ -18,28 +18,35 @@ topic_v2:
     internal-label: Troubleshooting
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 8c6f23b495228ab930e6649aa2f9e6dae506cae2
 workflow-type: tm+mt
-source-wordcount: '191'
-ht-degree: 12%
+source-wordcount: '220'
+ht-degree: 10%
 ---
-# Registro delle modifiche apportate alle attività
+# Registro delle modifiche apportate alle attività {#change-log}
 
-Il [!DNL Adobe Target] [!UICONTROL Registro modifiche] registra le azioni dell&#39;attività, incluso ciò che è cambiato, chi ha apportato le modifiche e quando si sono verificate. La pagina [!UICONTROL Registro modifiche] è compilata per le informazioni in tempo reale.
+>[!BEGINSHADEBOX]
 
-Per accedere alla pagina [!UICONTROL Registro modifiche]:
+**In questa pagina:** Scopri come visualizzare le azioni eseguite su un&#39;attività, chi le ha eseguite e quando.
 
-1. Fai clic su **[!UICONTROL Attività]** > fai clic sull&#39;attività desiderata dall&#39;elenco.
+>[!ENDSHADEBOX]
+
+Il [!DNL Adobe Target] **[!UICONTROL Registro modifiche]** registra le azioni eseguite su un&#39;attività, inclusi gli elementi modificati, gli autori delle modifiche e il momento in cui si sono verificati. Fornisce una chiara cronologia dell&#39;attività e la pagina **[!UICONTROL Registro modifiche]** viene compilata per ottenere informazioni in tempo reale.
+
+Per accedere alla pagina **[!UICONTROL Registro modifiche]**:
+
+1. Fai clic su **[!UICONTROL Attività]**, quindi sull&#39;attività nell&#39;elenco.
 1. Fai clic su **[!UICONTROL Registro modifiche]** nella barra a sinistra.
 
-L’azione eseguita, la data in cui è stata eseguita e l’utente che l’ha eseguita vengono elencati ogni volta che un’attività viene creata, aggiornata, attivata o disattivata. Vengono inoltre elencate le modifiche apportate alle destinazioni e alle offerte personalizzate utilizzate nell&#39;attività.
+   Nella pagina sono elencate l’azione eseguita, la data dell’azione e l’utente che l’ha eseguita ogni volta che un’attività viene creata, aggiornata, attivata o disattivata. Vengono inoltre elencate le modifiche apportate alle destinazioni e alle offerte personalizzate utilizzate nell&#39;attività.
 
-Aggiorna la pagina per visualizzare le modifiche dello stato. Puoi anche elencare le azioni eseguite in ordine crescente o decrescente facendo clic sull&#39;intestazione della colonna [!UICONTROL Date].
+   ![Modifica menu registro](assets/change_logs.png)
+
+1. Per elencare le azioni in ordine crescente o decrescente, fare clic sull&#39;intestazione di colonna **[!UICONTROL Data]**.
+
+1. Aggiorna la pagina per visualizzare le modifiche dello stato.
 
 ## API del registro di controllo di Target
 
 * [Revisioni: ottiene il registro di controllo in base al nome dell’ultimo autore e a un timestamp dopo modificato](https://developer.adobe.com/target/administer/admin-api/#tag/Revisions){target=_blank}
 * [Registro modifiche attività elenco](https://developer.adobe.com/target/administer/admin-api/#tag/Activities/operation/getChangelog){target=_blank}
-
-
-

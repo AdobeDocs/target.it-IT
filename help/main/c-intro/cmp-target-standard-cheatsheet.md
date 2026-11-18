@@ -45,7 +45,7 @@ topic_v2:
     internal-label: Insights
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 0ae6991a6a86854bd64a632070a1fcbe544cc606
+source-git-commit: 9621044454d3e1b47c06cac2ad5d08cba8e482c0
 workflow-type: tm+mt
 source-wordcount: '2918'
 ht-degree: 47%
@@ -194,14 +194,14 @@ Ricordati di attivare l’attività. Solo le attività live aderiscono alla pian
 **Posso apportare una modifica solo al passaggio [!UICONTROL Targeting] e non passare attraverso l&#39;intero flusso di lavoro guidato in tre passaggi per la modifica?**
 
 +++Vedi i dettagli
-Puoi farlo semplicemente [inserendo direttamente il passaggio desiderato dalla pagina [!UICONTROL Panoramica attività]](/help/main/c-activities/edit-activity.md#concept_BB064C0D4A194BD1A1AE7CCA1E6BB8F0) e uscendo da tale passaggio utilizzando l&#39;opzione [!UICONTROL Salva e chiudi].
+Puoi farlo semplicemente [inserendo direttamente il passaggio desiderato dalla pagina [!UICONTROL Panoramica attività]](/help/main/c-activities/edit-activity.md#section_176180DAD17E40CEA441903F39E0AA1C) e uscendo da tale passaggio utilizzando l&#39;opzione [!UICONTROL Salva e chiudi].
 
 +++
 
 **Posso rimanere in un particolare passaggio, continuare a modificare l&#39;attività (offerta di testo o codice personalizzato, per esempio), e quindi eseguire il QA in un&#39;altra scheda?**
 
 +++Vedi i dettagli
-Questo è possibile. È sufficiente [utilizzare l&#39;opzione [!UICONTROL Salva] per apportare modifiche incrementali senza uscire dal passaggio](/help/main/c-activities/edit-activity.md#concept_BB064C0D4A194BD1A1AE7CCA1E6BB8F0).
+Questo è possibile. È sufficiente [utilizzare l&#39;opzione [!UICONTROL Salva] per apportare modifiche incrementali senza uscire dal passaggio](/help/main/c-activities/edit-activity.md#section_29EE2ECA6B88473A8F9AC5600FFBB174).
 
 +++
 
@@ -378,7 +378,7 @@ Utilizza l’[approccio basato su moduli](/help/main/c-experiences/form-experien
 **Perché non vedo l&#39;offerta/esperienza desiderata e vedo invece altre attività?**
 
 +++Vedi i dettagli
-Utilizza il nostro [debugger](/help/main/c-activities/c-troubleshooting-activities/content-trouble.md#concept_D2548B486C984B1E97ED7A72075B8EEA) e verifica la presenza di [conflitti tra attività](/help/main/c-experiences/c-visual-experience-composer/activity-collisions.md#concept_0BC6B929592744DFA7DA01FF4F91052E).
+Utilizza il nostro [debugger](/help/main/c-activities/c-troubleshooting-activities/content-trouble.md#debugging-tools) e verifica la presenza di [conflitti tra attività](/help/main/c-experiences/c-visual-experience-composer/activity-collisions.md#concept_0BC6B929592744DFA7DA01FF4F91052E).
 
 +++
 
@@ -402,7 +402,7 @@ Utilizza il nostro [debugger](/help/main/c-activities/c-troubleshooting-activiti
 **Perché non vedo l&#39;offerta/esperienza desiderata e vedo invece altre attività?**
 
 +++Vedi i dettagli
-Utilizza il nostro [debugger](/help/main/c-activities/c-troubleshooting-activities/content-trouble.md#concept_D2548B486C984B1E97ED7A72075B8EEA) e verifica la presenza di [conflitti tra attività](/help/main/c-experiences/c-visual-experience-composer/activity-collisions.md#concept_0BC6B929592744DFA7DA01FF4F91052E).
+Utilizza il nostro [debugger](/help/main/c-activities/c-troubleshooting-activities/content-trouble.md#debugging-tools) e verifica la presenza di [conflitti tra attività](/help/main/c-experiences/c-visual-experience-composer/activity-collisions.md#concept_0BC6B929592744DFA7DA01FF4F91052E).
 
 +++
 

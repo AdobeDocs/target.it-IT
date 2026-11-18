@@ -29,7 +29,7 @@ topic_v2:
     internal-label: Measurement
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: de439134b0ee5aa795ae255bba852b9b6f10da12
+source-git-commit: 8c6f23b495228ab930e6649aa2f9e6dae506cae2
 workflow-type: tm+mt
 source-wordcount: '1821'
 ht-degree: 27%
@@ -64,7 +64,7 @@ Gli URL di controllo qualità in [!DNL Adobe Target] consentono di verificare in
 
      Se questa impostazione è disattivata, considera quanto segue:
 
-     * Se ci sono conflitti tra l&#39;attività che stai testando e altre attività live, vengono applicate [le normali regole di priorità](/help/main/c-activities/priority.md#concept_1780C11FEA57440499F0047DD6900E0F). A causa di conflitti, è possibile che non riesca a visualizzare l’attività di cui intendi eseguire il controllo qualità.
+     * Se ci sono conflitti tra l&#39;attività che stai testando e altre attività live, vengono applicate [le normali regole di priorità](/help/main/c-activities/priority.md#priority). A causa di conflitti, è possibile che non riesca a visualizzare l’attività di cui intendi eseguire il controllo qualità.
      * Le metriche vengono incrementate per le attività visualizzate, ma solo nell’ambiente di reporting ai fini del controllo qualità.
 
 1. Fai clic su **[!UICONTROL Fine]** per salvare le modifiche.

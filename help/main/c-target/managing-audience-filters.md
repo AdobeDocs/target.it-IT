@@ -29,7 +29,7 @@ topic_v2:
     internal-label: Customer experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 5106a9844a15c7d81baab75b26324b954cdeb42d
+source-git-commit: 745fabd3cd19cc2b076314c1ee1e97d1914a0007
 workflow-type: tm+mt
 source-wordcount: '479'
 ht-degree: 57%
@@ -58,5 +58,5 @@ Nelle sezioni seguenti vengono fornite ulteriori informazioni sull&#39;impostazi
 | Crea l&#39;attività o il test appropriati. | [Attività e test](/help/main/c-intro/target-key-concepts.md) |
 | Crea i tipi di pubblico, se necessario. | [Creare un pubblico](/help/main/c-target/c-audiences/create-audience.md) |
 | Se necessario, combina più tipi di pubblico. | [Combinare più tipi di pubblico](/help/main/c-target/combining-multiple-audiences.md) |
-| Applica i tipi di pubblico alla pagina Obiettivi e impostazioni dell&#39;attività. | Test A/B: [Obiettivi e impostazioni](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md)<br>Automated Personalization: [Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md)<br>Targeting esperienza: [Obiettivi e impostazioni](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md)<br>Test multivariato: [Obiettivi e impostazioni](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#ab-goals-and-settings)<br>Consigli: [Impostazioni attività Consigli](/help/main/c-recommendations/t-create-recs-activity/recs-activity-settings.md)<br>Impostazioni attività: [Impostazioni attività](/help/main/c-activities/activity-settings.md) |
+| Applica i tipi di pubblico alla pagina Obiettivi e impostazioni dell&#39;attività. | Test A/B: [Obiettivi e impostazioni](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md)<br>Automated Personalization: [Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md)<br>Targeting esperienza: [Obiettivi e impostazioni](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md)<br>Test multivariato: [Obiettivi e impostazioni](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#ab-goals-and-settings)<br>Consigli: [Impostazioni attività Consigli](/help/main/c-recommendations/t-create-recs-activity/recs-activity-settings.md)<br>Impostazioni attività: [Impostazioni attività](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_DCBDC354261F420EBD4B43EA34947BAC) |
 | Visualizza i rapporti con informazioni sui filtri dei tipi di pubblico. | [Impostazioni dei rapporti](/help/main/c-reports/c-report-settings/report-settings.md) |

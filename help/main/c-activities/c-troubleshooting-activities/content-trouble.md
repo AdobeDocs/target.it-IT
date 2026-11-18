@@ -29,28 +29,32 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: 22dff18ca8369805557788d62c4eaf09f9764494
 workflow-type: tm+mt
-source-wordcount: '1689'
-ht-degree: 84%
+source-wordcount: '1677'
+ht-degree: 55%
 ---
-# Risolvere i problemi relativi alla distribuzione dei contenuti
+# Risolvere i problemi relativi alla distribuzione dei contenuti {#content-trouble}
 
-Se nella pagina non viene visualizzato il contenuto previsto, puoi adottare alcune misure per eseguire il debug della distribuzione dei contenuti.
+>[!BEGINSHADEBOX]
 
-* Controlla con attenzione il codice relativo all’attività o alla campagna. Un errore di battitura o di altro tipo potrebbe causare la mancata visualizzazione del contenuto previsto.
-* Utilizza mboxTrace o mboxDebug per risolvere problemi relativi alla richiesta di [!DNL Target].
-* Adobe Experience Cloud Debugger è uno strumento facile da usare che fornisce molte informazioni in comune con mboxDebug, per risolvere i problemi di richiesta di [!DNL Target].
+**In questa pagina:** Scopri come eseguire il debug della consegna dei contenuti in [!DNL Adobe Target] quando nella pagina non viene visualizzato il contenuto previsto.
 
-mboxDebug è particolarmente utile quando esegui la configurazione di [!DNL Target] sulla pagina per assicurarti che la richiesta di Target sia attiva e che il cookie sia impostato. Tuttavia, non fornisce il livello di dettaglio necessario durante il debug della distribuzione dei contenuti. Se l’attività non viene visualizzata nella pagina o un contenuto indesiderato viene visualizzato, esamina ed esegui il debug della pagina nel dettaglio tramite mboxTrace.
+>[!ENDSHADEBOX]
 
-## Recuperare il token di autorizzazione per gli strumenti di debug {#section_BED130298E794D1FA229DB7C3358BA54}
+Quando in una pagina non viene visualizzato il contenuto previsto, la causa può essere un errore nel codice dell&#39;attività, una richiesta [!DNL Target] mancante o spostata in modo errato o un conflitto con un&#39;altra attività. Controlla attentamente il codice dell’attività o della campagna, perché un errore di battitura o di altro tipo può impedire la visualizzazione del contenuto previsto. Quindi utilizza mboxTrace, mboxDebug o il debugger di Adobe Experience Cloud per esaminare la richiesta [!DNL Target].
 
-Dato che in mboxTrace e mboxDebug è possibile esporre dati sulla campagna e sul profilo a soggetti esterni, è necessario un token di autorizzazione. Il token di autorizzazione può essere recuperato nell’interfaccia utente di [!DNL Target]. Il token è valido per sei ore.
+**mboxDebug** è particolarmente utile quando imposti [!DNL Target] sulla pagina, per assicurarti che la richiesta [!DNL Target] venga attivata e che il cookie sia impostato. Tuttavia, non approfondisce i dettagli utili per il debug della distribuzione dei contenuti. Se l’attività non viene visualizzata nella pagina o un contenuto indesiderato viene visualizzato, esamina ed esegui il debug della pagina nel dettaglio tramite mboxTrace.
+
+## Strumenti di debug {#debugging-tools}
+
+### Recuperare il token di autorizzazione {#section_BED130298E794D1FA229DB7C3358BA54}
+
+mboxTrace e mboxDebug possono esporre i dati della campagna e del profilo a parti esterne, per cui è necessario un token di autorizzazione. Il token di autorizzazione può essere recuperato nell’interfaccia utente di [!DNL Target]. Il token è valido per sei ore.
 
 Per generare un token di autenticazione, è necessario disporre di una delle seguenti autorizzazioni utente:
 
-* Almeno [!UICONTROL autorizzazione Editor] (o [!UICONTROL Approvatore])
+* Almeno **[!UICONTROL autorizzazione Editor]** (o **[!UICONTROL Approvatore]**)
 
   Per ulteriori informazioni per i clienti [!DNL Target Standard], consulta [Specificare ruoli e autorizzazioni](/help/main/administrating-target/c-user-management/c-user-management/user-management.md#roles-permissions) in *Utenti*. Per ulteriori informazioni per i clienti [!DNL Target Premium], consulta [Configurare le autorizzazioni aziendali](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md).
 
@@ -62,7 +66,7 @@ Per generare un token di autenticazione, è necessario disporre di una delle seg
 
 Per recuperare il token di autorizzazione:
 
-1. Fare clic su **[!UICONTROL Amministrazione]** > **[!UICONTROL Implementazione]**.
+1. Accedi a **[!UICONTROL Amministrazione]** > **[!UICONTROL Implementazione]**.
 1. Dalla sezione Strumenti di debug, fare clic su **[!UICONTROL Genera nuovo token di autenticazione]**.
 
    ![Generare un nuovo token di autenticazione](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/assets/debugger-auth-token.png)
@@ -71,7 +75,7 @@ Per recuperare il token di autorizzazione:
 
    ![Token di autorizzazione](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/assets/auth-token.png)
 
-## mboxTrace {#section_256FCF7C14BB435BA2C68049EF0BA99E}
+### mboxTrace {#section_256FCF7C14BB435BA2C68049EF0BA99E}
 
 mboxTrace consente di ricevere informazioni di trace collegate alle risposte di [!DNL Target]. Le informazioni di trace riflettono il risultato di una chiamata [!DNL Target] (ad esempio, una conversione o un’impression) ed eventuali dati ulteriori che possono aiutare a determinare perché sia stato ottenuto questo particolare risultato, ad esempio un insieme di rami disponibili tra i quali è stata effettuata la selezione in una campagna. Esegui il debug della distribuzione dei contenuti con queste informazioni.
 
@@ -110,109 +114,134 @@ Non è necessario includere `=console`, `=json` o `=window` nel parametro di que
 
 mboxTrace non influenza il normale funzionamento e aspetto del tuo sito. I visitatori vedranno la solita struttura dei consigli.
 
-## mboxDebug {#mboxdebug}
+### mboxDebug {#mboxdebug}
 
 Per utilizzare mboxDebug, aggiungi un parametro mboxDebug alla fine dell’URL. Nella tabella seguente sono incluse informazioni sui parametri URL relativi a risposte di [!DNL Target].
 
->[!NOTE]
->
->Alcuni parametri mboxDebug sono disponibili con o senza autenticazione.
+Alcuni parametri mboxDebug sono disponibili con o senza autenticazione.
 
 | Parametri URL | Finalità |
 |--- |--- |
 | `mboxDebug=1` | Debugger<br>L’aggiunta di questo parametro a qualsiasi URL in cui sono definite delle richieste di Target determina l’apertura di una finestra a comparsa con dettagli utili al debug. Vengono inserite informazioni sui cookie, valori PCid e ID di sessione e sono visibili tutti gli URL. Fai clic su un URL con richiesta di Target per visualizzarne la risposta di [!DNL Target]. Maggiori dettagli sono disponibili in [mbox_debug.pdf](/help/main/assets/mbox_debug.pdf). |
 | `mboxDisable=1` | Disattiva le mbox sulla pagina |
-| `mboxOverride.browserIp=<Insert IP address>` | Testa geotargeting<br>Testa il geotargeting con questo parametro URL. Digita un indirizzo IP come valore per questo attributo e il geotargeting di Test&amp;Target valuterà tale indirizzo IP rispetto a qualsiasi geotargeting o segmentazione impostata in una campagna. |
+| `mboxOverride.browserIp=<Insert IP address>` | Testa geotargeting<br>Testa il geotargeting con questo parametro URL. Digitare un indirizzo IP come valore per questo attributo e il geotargeting [!DNL Target] valuta l&#39;indirizzo IP in base a qualsiasi geotargeting o segmentazione impostata in una campagna. |
 
 >[!NOTE]
 >
 >Assicurati che il frammento URL sia dopo i parametri della stringa di query. Qualsiasi elemento dopo il primo `#` è un identificatore di frammento e causa il mancato funzionamento dei parametri di debug.
 
-## Adobe Experience Cloud Debugger {#section_A2798ED3A431409690A4BE08A1BFCF17}
+### Adobe Experience Cloud Debugger {#section_A2798ED3A431409690A4BE08A1BFCF17}
 
-Il debugger di Adobe Experience Cloud facilita e velocizza la comprensione dell&#39;implementazione di Target. Puoi visualizzare rapidamente la configurazione della libreria, esaminare le richieste per verificare che i parametri personalizzati vengano passati correttamente, attivare la registrazione della console e disattivare tutte le richieste Target. Autenticati in Experience Cloud per utilizzare lo strumento MboxTrace ed esaminare le tue attività, le qualificazioni del pubblico e il profilo visitatore.
+Adobe Experience Cloud Debugger ti aiuta a comprendere l&#39;implementazione di [!DNL Target]. Puoi visualizzare la configurazione della libreria, verificare che i parametri personalizzati siano passati correttamente, attivare la registrazione della console e disabilitare tutte le [!DNL Target] richieste. Dopo l’autenticazione in Experience Cloud, puoi utilizzare mboxTrace per controllare le attività, i requisiti del pubblico e il profilo visitatore.
 
-Per ulteriori informazioni, vedi i video di formazione seguenti:
+Per ulteriori informazioni, consulta i [video di formazione](#training-videos) alla fine di questa pagina e [Eseguire il debug di at.js utilizzando il debugger di Adobe Experience Cloud](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/target-debugging-atjs.html){target=_blank}.
 
-Per informazioni più dettagliate, consulta [Eseguire il debug di at.js utilizzando Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/target-debugging-atjs.html){target=_blank}.
+## Problemi comuni {#common-problems}
 
-## Gli articoli più venduti non compaiono nei consigli {#section_3920C857270A406C80BE6CBAC8221ECD}
++++ Gli articoli più venduti non compaiono nei consigli
 
 Impossibile utilizzare la chiamata *`SiteCatalyst: purchase`* per i dati del traffico algoritmo di acquisto. Utilizza al suo posto la chiamata *`orderConfirmPage`*.
 
-## Controllare la priorità dell’attività {#section_3D0DD07240F0465BAF655D0804100AED}
++++
 
-Le attività basate su moduli create con [!DNL Target Standard/Premium] potrebbero entrare in conflitto con le attività create nell’interfaccia utente di [!DNL Target Classic] che hanno la stessa priorità e utilizzano la stessa richiesta di [!DNL Target].
+</br>
 
-## Il codice personalizzato non produce i risultati previsti in Internet Explorer 8. {#section_FAC3651F19144D12A37A3E4F14C06945}
++++ Le attività basate su moduli si scontrano con le attività di Target Classic
 
-Target non supporta più Internet Explorer 8.
+Le attività basate su moduli create con [!DNL Target Standard/Premium] potrebbero entrare in conflitto con le attività create nell’interfaccia utente di [!DNL Target Classic] che hanno la stessa priorità e utilizzano la stessa richiesta di [!DNL Target]. Per ulteriori informazioni, vedere [Priorità attività](/help/main/c-activities/priority.md).
 
-## Cookie di Target non impostato {#section_77AFEB541C0B495EB67E29A4475DF960}
++++
 
-Se nel sito è presente un sottodominio, ad esempio [!DNL us.domain.com], ma è necessario impostare il cookie di Target su [!DNL domain.com] (anziché [!DNL us.domain.com]), devi sovrascrivere l’impostazione `cookieDomain`. Per ulteriori informazioni, consulta [targetGlobalSettings()](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetglobalsettings.html?lang=it){target=_blank}.
+</br>
 
-## Il contenuto di Target viene visualizzato momentaneamente o non viene visualizzato se un elemento fa anche parte della personalizzazione di Adobe Experience Manager. {#section_9E1DABEB75AB431FB9F09887E6DD07D3}
++++ Il cookie [!DNL Target] non viene impostato
 
-Il contenuto di Target potrebbe essere visualizzato momentaneamente o non essere visualizzato, se un elemento DOM fa parte del targeting di personalizzazione di Adobe Experience Manager (AEM) e di un’attività di Target.
+Se nel sito è presente un sottodominio, ad esempio [!DNL us.domain.com], ma è necessario impostare il cookie [!DNL Target] su [!DNL domain.com] (anziché [!DNL us.domain.com]), è necessario ignorare l&#39;impostazione `cookieDomain`. Per ulteriori informazioni, consulta [targetGlobalSettings()](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetglobalsettings.html?lang=it){target=_blank}.
 
-Per ovviare a questo problema, puoi disabilitare la personalizzazione AEM nelle pagine in cui Target è in esecuzione.
++++
 
-## Errore nella consegna di offerte di reindirizzamento e offerte remote a causa di un URL non valido. {#section_7D09043B687F43B39DAEDF17D00375AC}
+</br>
+
++++ Il contenuto viene visualizzato momentaneamente o non viene visualizzato quando un elemento fa anche parte della personalizzazione Adobe Experience Manager
+
+Se un elemento DOM fa parte del targeting di personalizzazione di Adobe Experience Manager (AEM) e di un&#39;attività [!DNL Target], il contenuto di [!DNL Target] potrebbe essere visualizzato momentaneamente o non essere visualizzato.
+
+Per risolvere questo problema, è possibile disabilitare la personalizzazione AEM nelle pagine in cui è in esecuzione [!DNL Target].
+
++++
+
+</br>
+
++++ Impossibile reindirizzare offerte remote e di reindirizzamento a causa di un URL non valido
 
 Se l’offerta di reindirizzamento o l’offerta remota utilizza un URL non valido, la sua consegna potrebbe non riuscire.
 
-Per le offerte di reindirizzamento, la risposta di [!DNL Target] può contenere `/* invalid redirect offer URL */`
+* Per le offerte di reindirizzamento, la risposta [!DNL Target] può contenere `/* invalid redirect offer URL */`.
+* Per le offerte remote, la risposta [!DNL Target] può contenere `/* invalid remote offer URL */`.
 
-Oppure
+Puoi controllare la risposta [!DNL Target] nel browser o utilizzando mboxTrace. Per ulteriori informazioni sugli URL validi, consulta [https://tools.ietf.org/html/std66](https://tools.ietf.org/html/std66).
 
-Per le offerte remote, la risposta di [!DNL Target] può contenere `/* invalid remote offer URL */`
++++
 
-Puoi controllare la risposta di [!DNL Target] nel browser o utilizzando mboxTrace. Per ulteriori informazioni sugli URL validi, consulta [https://tools.ietf.org/html/std66](https://tools.ietf.org/html/std66).
+</br>
 
-## [!DNL Target]Le richieste di non si attivano sul sito.
++++ [!DNL Target] richieste non si attivano sul sito
 
-at.js non attiva le richieste di Target se utilizzi un doctype non valido. at.js richiede il doctype HTML5.
+at.js non attiva [!DNL Target] richieste se si utilizza un doctype non valido. at.js richiede il doctype HTML5.
 
-## Assicurati che le attività di [!DNL Target] gestiscano correttamente gli URL con parametri di stringa di query. {#query-strings}
++++
 
-L&#39;[!UICONTROL URL attività] determina la pagina che qualifica i visitatori per l&#39;attività ed esegue il rendering delle esperienze di attività per gli utenti. Quando viene richiesto durante la creazione dell’attività, la digitazione dell’URL completo non sempre assicura che il contenuto venga distribuito sulla pagina del sito, in particolare con gli URL che contengono parametri della stringa di query.
+## Attività con parametri di stringa di query nell’URL {#query-strings}
+
+L&#39;**[!UICONTROL URL attività]** determina la pagina che qualifica i visitatori per l&#39;attività ed esegue il rendering delle esperienze di attività per gli utenti. Quando viene richiesto durante la creazione dell’attività, la digitazione dell’URL completo non sempre assicura che il contenuto venga distribuito sulla pagina del sito, in particolare con gli URL che contengono parametri della stringa di query.
 
 Per impostazione predefinita, il [!UICONTROL Compositore esperienza visivo] (VEC) apre la pagina specificata nelle [impostazioni del Compositore esperienza visivo](/help/main/administrating-target/visual-experience-composer-set-up.md). È anche possibile specificare una pagina diversa durante la creazione dell’attività.
 
-Per visualizzare una pagina diversa dopo l&#39;apertura del Compositore esperienza visivo, fai clic su **[!UICONTROL Configura icona ingranaggio]** > seleziona **[!UICONTROL Consegna pagine]** > quindi specifica l&#39;URL desiderato nel campo [!UICONTROL URL attività].
+Per visualizzare una pagina diversa dopo l&#39;apertura del Compositore esperienza visivo, fai clic su **[!UICONTROL Configura icona ingranaggio]** > seleziona **[!UICONTROL Consegna pagine]** > quindi specifica l&#39;URL desiderato nel campo **[!UICONTROL URL attività]**.
 
 ![Configurare l’interfaccia utente delle impostazioni di Consegna pagina](assets/configure-page-delivery.png)
 
-Ma cosa succede se l’URL contiene parametri della stringa di query? Funzionerà e mostrerà il contenuto personalizzato? In questo scenario, indipendentemente dal pubblico di destinazione, puoi includere regole di modello oltre all’URL di base per definire i parametri di query.
+Se l’URL contiene parametri della stringa di query, la pagina potrebbe non essere idonea per l’attività o potrebbe non visualizzare il contenuto personalizzato. Indipendentemente dal pubblico di destinazione, puoi includere regole di modello oltre all’URL di base per definire i parametri di query.
 
 Per includere regole di modello aggiuntive, è possibile utilizzare le seguenti opzioni:
 
-### Opzione 1: replicare l’URL e mantenerlo nella regola del modello con l’opzione &quot;contiene&quot;.
+* **Opzione 1:** Replica l&#39;URL e mantienilo nella regola del modello con l&#39;opzione &quot;contiene&quot;
 
-Questa opzione assicura che l’URL sia idoneo per l’attività. Tuttavia esistono casi limite ad esso associati che possono influenzare i dati di reporting con record aggiuntivi per gli URL che contengono l’URL di base.
+  +++ Visualizzare l’impostazione della regola del modello
 
-In questo caso, l’URL è `https://shopping.mycart.com?type=Summers%20Offers` e regole di modello aggiuntive “contiene” lo stesso URL, separate da un operatore OR:
+  Questa opzione assicura che l’URL sia idoneo per l’attività. Tuttavia esistono casi limite ad esso associati che possono influenzare i dati di reporting con record aggiuntivi per gli URL che contengono l’URL di base.
 
-![Replicare l’URL nelle regole del modello](assets/option1.png)
+  In questo caso, l’URL è `https://shopping.mycart.com?type=Summers%20Offers` e regole di modello aggiuntive “contiene” lo stesso URL, separate da un operatore OR:
 
-### Opzione 2: limita la condizione URL &quot;contiene&quot; con solo la stringa di query.
+  ![Replicare l’URL nelle regole del modello](assets/option1.png)
 
-Il caso limite discusso nell’opzione precedente viene applicato in questa opzione, ma qui l’impostazione condizionale è limitata solo alla stringa di query.
+  +++
 
-In questo caso, l’URL è `https://shopping.mycart.com?type=Summers%20Offers` e regole di modello aggiuntive “contiene” solo la stringa di query, separate da un operatore OR:
+* **Opzione 2:** Limita la condizione URL &quot;contiene&quot; solo alla stringa di query
 
-![La regola del modello contiene solo la stringa di query](assets/option2.png)
+  +++ Visualizzare l’impostazione della regola del modello
 
-### Opzione 3: invece di eseguire il targeting dell’URL completo, sfruttane una parte specifica.
+  Il caso limite discusso nell’opzione precedente viene applicato in questa opzione, ma qui l’impostazione condizionale è limitata solo alla stringa di query.
 
-In questo caso, l&#39;URL è `https://shopping.mycart.com?type=Summers%20Offers` e regole di modello aggiuntive specificano una [!UICONTROL Query] con [!UICONTROL type] > [!UICONTROL is (distinzione maiuscole/minuscole)] > type=Summers%20Offers, separati da un operatore OR:
+  In questo caso, l’URL è `https://shopping.mycart.com?type=Summers%20Offers` e regole di modello aggiuntive “contiene” solo la stringa di query, separate da un operatore OR:
 
-![Regola del modello che sfrutta una parte specifica dell’URL](assets/option3.png)
+  ![La regola del modello contiene solo la stringa di query](assets/option2.png)
 
-## L&#39;escape delle virgolette doppie nel valore dell&#39;attributo di profilo [!DNL Target] non funziona come previsto. {#escape}
+  +++
 
-Quando si inviano valori contenenti virgolette doppie in un attributo di profilo [!DNL Target], è necessario eseguire un doppio escape come mostrato di seguito.
+* **Opzione 3:** Invece di eseguire il targeting dell&#39;URL completo, sfrutta una parte specifica dell&#39;URL
+
+  +++ Visualizzare l’impostazione della regola del modello
+
+  In questo caso, l&#39;URL è `https://shopping.mycart.com?type=Summers%20Offers` e regole di modello aggiuntive specificano una **[!UICONTROL Query]** con **[!UICONTROL type]** > **[!UICONTROL is (distinzione maiuscole/minuscole)]** > type=Summers%20Offers, separati da un operatore OR:
+
+  ![Regola del modello che sfrutta una parte specifica dell’URL](assets/option3.png)
+
+  +++
+
+## Esclusione delle virgolette doppie nei valori degli attributi del profilo {#escape}
+
+Quando si inviano valori contenenti virgolette doppie in un attributo di profilo [!DNL Target], è necessario eseguire un doppio escape come illustrato di seguito.
 
 ```
 adobe.target.trackEvent({
@@ -223,7 +252,7 @@ adobe.target.trackEvent({
 });
 ```
 
-## Video di formazione
+## Video di formazione {#training-videos}
 
 I video seguenti contengono ulteriori informazioni sui concetti descritti in questo articolo.
 

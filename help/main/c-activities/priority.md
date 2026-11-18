@@ -18,84 +18,89 @@ topic_v2:
     internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: 8c6f23b495228ab930e6649aa2f9e6dae506cae2
 workflow-type: tm+mt
-source-wordcount: '993'
-ht-degree: 34%
+source-wordcount: '1043'
+ht-degree: 19%
 ---
-# Priorità
+# Priorità {#priority}
 
-[!DNL Adobe Target] determina in modo diverso l&#39;attività (o le attività) da consegnare a una pagina a seconda dell&#39;interfaccia [!DNL Target] e della funzione di creazione attività ([[!UICONTROL Compositore esperienza visivo]](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) o [Compositore esperienza basato su moduli](/help/main/c-experiences/form-experience-composer.md)) in uso.
+>[!BEGINSHADEBOX]
 
-## [!UICONTROL Solo Compositore esperienza visivo] o [!UICONTROL Solo Compositore esperienza basato su moduli] utilizzando una richiesta [!DNL Target] globale {#section_4A0A317DFED345649B58B0CB5B410C8B}
+**In questa pagina:** Scopri come [!DNL Adobe Target] decide quali attività distribuire a una pagina, a seconda del compositore esperienza e del tipo di richiesta [!DNL Target] in uso.
+
+>[!ENDSHADEBOX]
+
+[!DNL Adobe Target] determina in modo diverso l&#39;attività (o le attività) da consegnare a una pagina a seconda dell&#39;interfaccia [!DNL Target] e della funzione di creazione attività ([**[!UICONTROL Compositore esperienza visivo]**](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) o [Compositore esperienza basato su moduli](/help/main/c-experiences/form-experience-composer.md)) in uso. La tabella che segue riassume i tre casi, descritti nelle sezioni che seguono.
+
+| Scenario | Attività che possono fornire | Contenuto restituito |
+|---|---|---|
+| **[!UICONTROL Solo Compositore esperienza visivo]** o **[!UICONTROL Solo Compositore esperienza basato su moduli]** con una richiesta [!DNL Target] globale | Vari prodotti | Contenuto di tutte le attività corrispondenti. Se i selettori si sovrappongono, viene visualizzato il contenuto dell’attività con priorità più alta. |
+| **[!UICONTROL Compositore esperienza basato su moduli]** e **[!UICONTROL Compositore esperienza visivo]** | Vari prodotti | Se un’attività basata su moduli ha la priorità più elevata, il suo contenuto e il contenuto di tutte le attività del Compositore esperienza visivo corrispondenti. Se un’attività del Compositore esperienza visivo ha la priorità più alta, indica solo il contenuto di tutte le attività del Compositore esperienza visivo corrispondenti. |
+| **[!UICONTROL Compositore esperienza basato su moduli]** con [!DNL Target] richieste non globali | Uno per chiamata | Contenuto dell’attività di corrispondenza a priorità più alta. |
+
+## VEC o [!UICONTROL Compositore esperienza basato su moduli] con una richiesta globale {#section_4A0A317DFED345649B58B0CB5B410C8B}
 
 Se l’azienda utilizza esclusivamente il Compositore esperienza visivo, è possibile restituire il contenuto di più attività per la stessa chiamata. Le attività vengono consegnate in base al seguente flusso decisionale:
 
-1. La chiamata al server [!DNL Target] arriva a [!DNL Target] con informazioni sull&#39;URL.
-1. [!DNL Target] richiama ogni attività in esecuzione su tale URL.
-1. [!DNL Target] tenta di associare il visitatore alle attività.
+1. La chiamata al server [!DNL Target] raggiunge [!DNL Target]. La chiamata contiene informazioni sull’URL della pagina richiesta.
+1. [!DNL Target] richiama tutte le attività in esecuzione sull&#39;URL. Queste attività sono le candidate per la consegna.
+1. [!DNL Target] tenta di associare il visitatore alle attività candidate.
 
-   Se il visitatore si trova già in un&#39;attività [!UICONTROL Test A/B] o [!UICONTROL Test multivariato], la corrispondenza con tale attività verrà mantenuta fino alla conversione. Se si trovavano in precedenza in un&#39;attività [!UICONTROL Targeting esperienza], devono corrispondere nuovamente in essa. Se soddisfa le regole del pubblico, allora il visitatore rientra in tali attività e in esperienze specifiche.
+   {{visitor-matching}}
 
-1. Alla pagina vengono restituiti i contenuti per tutte le attività e le esperienze a cui corrisponde il visitatore.
-1. Se il contenuto di ogni attività fa riferimento a [selettori CSS](/help/main/c-experiences/c-visual-experience-composer/vec-selectors.md#concept_4EB7663E255F439B8D24079D23479337) diversi, viene visualizzato tutto il contenuto.
-
-   In caso di sovrapposizione o di selettore CSS duplicato, viene visualizzato il contenuto dell’attività con la priorità più alta. I risultati di tutte le attività eseguite sulla pagina vengono conteggiati e si riflettono nei rapporti.
+1. Il contenuto di tutte le attività ed esperienze a cui corrisponde il visitatore viene restituito alla pagina, quindi il contenuto di più attività può essere consegnato per la stessa chiamata.
+1. [!DNL Target] confronta i [selettori CSS](/help/main/c-experiences/c-visual-experience-composer/vec-selectors.md#concept_4EB7663E255F439B8D24079D23479337) a cui fa riferimento il contenuto di ogni attività. Se le attività fanno riferimento a selettori diversi, viene visualizzato tutto il contenuto.
+1. Se un selettore si sovrappone o è duplicato, viene visualizzato il contenuto dell’attività con priorità più elevata.
 
    >[!IMPORTANT]
    >
-   >[!DNL Target] restituisce il contenuto per tutte le attività sulla pagina, a partire dal contenuto con priorità più bassa, che viene quindi sovrascritto da ogni attività, dalla priorità più bassa a quella più alta. Di solito, questo determina la visualizzazione del contenuto con la priorità più elevata. Tuttavia, se un’attività con priorità inferiore modifica la struttura del DOM per la pagina, è possibile che l’attività con priorità più alta non riconosca la struttura della pagina, per cui viene visualizzato il contenuto con priorità inferiore. I risultati di tutte le attività eseguite sulla pagina vengono conteggiati e si riflettono nei rapporti.
+   >[!DNL Target] restituisce il contenuto per tutte le attività sulla pagina, a partire dal contenuto con priorità più bassa, che viene quindi sovrascritto da ogni attività, dalla priorità più bassa a quella più alta. Di solito, questo determina la visualizzazione del contenuto con la priorità più elevata. Tuttavia, se un’attività con priorità inferiore modifica la struttura del DOM per la pagina, l’attività con priorità superiore potrebbe non riconoscere la struttura della pagina, pertanto viene visualizzato il contenuto con priorità inferiore.
 
-1. Se più attività condividono il livello di priorità, esistono due livelli di priorità:
+1. Se più attività condividono un livello di priorità, viene applicato un tiebreaker. Se solo una delle attività dispone di un targeting di pubblico, viene visualizzata tale attività. Se tutte o nessuna delle attività ha un targeting, viene visualizzata l’attività approvata per prima.
+1. I risultati di tutte le attività eseguite sulla pagina vengono conteggiati e si riflettono nei rapporti.
 
-   * Se il targeting per il pubblico è stato impostato per una sola attività, viene visualizzata tale attività.
-   * Se tutti o nessuno ha un targeting, viene visualizzata l’attività approvata per prima.
+## [!UICONTROL Compositore esperienza basato su moduli] e Compositore esperienza visivo {#section_4620253E1CE942DD830724C7822B175F}
 
-## [!UICONTROL Compositore esperienza basato su moduli] e [!UICONTROL Compositore esperienza visivo] {#section_4620253E1CE942DD830724C7822B175F}
-
-Se l&#39;azienda utilizza il [!UICONTROL Compositore esperienza basato su moduli] *e* il Compositore esperienza visivo, è possibile distribuire il contenuto di più [!UICONTROL Compositore esperienza basato su moduli] e attività del Compositore esperienza visivo. In precedenza, era possibile eseguire una sola attività dal flusso di lavoro basato su moduli. Non esiste più un limite al numero di attività basate su moduli che possono essere consegnate.
+Se l&#39;azienda utilizza il [!UICONTROL Compositore esperienza basato su moduli] *e* il Compositore esperienza visivo, è possibile distribuire il contenuto di più [!UICONTROL attività del Compositore esperienza basato su moduli] e del Compositore esperienza visivo. In precedenza, era possibile eseguire una sola attività dal flusso di lavoro basato su moduli. Non esiste più un limite al numero di attività basate su moduli che possono essere consegnate.
 
 Le attività vengono consegnate in base al seguente flusso decisionale:
 
-1. Chiamata al server [!DNL Target] inviata a [!DNL Target] con informazioni sulla richiesta e sull&#39;URL di [!DNL Target].
-1. [!DNL Target] richiama ogni attività in esecuzione nella richiesta [!DNL Target].
-1. [!DNL Target] tenta di associare il visitatore alle attività.
+1. La chiamata al server [!DNL Target] raggiunge [!DNL Target]. La chiamata contiene informazioni sulla richiesta [!DNL Target] e sull&#39;URL.
+1. [!DNL Target] richiama tutte le attività in esecuzione nella richiesta [!DNL Target]. Queste attività sono le candidate per la consegna.
+1. [!DNL Target] tenta di associare il visitatore alle attività candidate.
 
-   Se il visitatore si trova già in un&#39;attività [!UICONTROL Test A/B] o [!UICONTROL Test multivariato], la corrispondenza con tale test viene mantenuta fino alla conversione. Se si trovavano in precedenza in un&#39;attività [!UICONTROL Targeting esperienza], devono corrispondere nuovamente in essa. Se soddisfa le regole del pubblico, allora il visitatore rientra in tali attività e in esperienze specifiche.
+   {{visitor-matching}}
 
-1. Se un’attività basata su moduli ha la priorità più alta, il contenuto dell’attività viene restituito insieme a tutto il contenuto dell’attività corrispondente dalle attività del Compositore esperienza visivo.
-1. Se un’attività del Compositore esperienza visivo ha la priorità più alta, viene restituito il contenuto di tutte le attività del Compositore esperienza visivo corrispondenti, ma non viene restituito alcun contenuto di attività basato su modulo.
-
-   I risultati di tutte le attività eseguite sulla pagina vengono conteggiati e si riflettono nei rapporti.
+1. [!DNL Target] controlla quali delle attività corrispondenti hanno la priorità più alta e se tale attività è stata creata nel [!UICONTROL Compositore esperienza basato su moduli] o nel Compositore esperienza visivo.
+1. Se un’attività basata su modulo ha la priorità più elevata, il suo contenuto viene restituito insieme a quello di tutte le attività del Compositore esperienza visivo corrispondenti.
+1. Se un’attività del Compositore esperienza visivo ha la priorità più alta, viene restituito il contenuto di tutte le attività del Compositore esperienza visivo corrispondenti, ma non viene restituito alcun contenuto di attività basato su moduli.
+1. I risultati di tutte le attività eseguite sulla pagina vengono conteggiati e si riflettono nei rapporti.
 
 **Esempio**
 
-In presenza di due attività, una con targeting per la parola chiave di ricerca del brand &quot;Nike&quot; e la seconda con targeting per la parola chiave non del brand &quot;sneakers&quot;, vengono controllate le priorità di entrambe le attività. Se l’attività Nike ha una priorità più alta, viene visualizzato tale contenuto. Se l’attività sneaker ha la priorità più alta, viene visualizzato il suo contenuto.
+Esistono due attività: una è indirizzata alla parola chiave di ricerca &quot;Nike&quot; e l’altra alla parola chiave non di marca &quot;sneakers&quot;. Vengono verificate le priorità di entrambe le attività. Se l’attività Nike ha una priorità più alta, viene visualizzato il relativo contenuto. Se l’attività sneaker ha la priorità più alta, viene visualizzato il suo contenuto.
 
 Se entrambe le attività di targeting hanno la stessa priorità, viene visualizzata l’attività che è stata vista più di recente. Se si tratta di un visitatore sulla pagina in questione, viene visualizzata l’attività attivata più di recente.
 
-## [!UICONTROL Compositore esperienza basato su moduli] con [!DNL Target] richieste non globali {#section_C3F5F09B0B2D4EF795C5929D5C426A8C}
+## [!UICONTROL Compositore esperienza basato su moduli] con richieste non globali {#section_C3F5F09B0B2D4EF795C5929D5C426A8C}
 
 Se la società utilizza [!DNL Target] richieste diverse dalla richiesta globale di [!DNL Target] nel compositore basato su moduli, è possibile restituire il contenuto di una sola attività per chiamata. Le attività vengono consegnate in base al seguente flusso decisionale:
 
-1. La chiamata al server [!DNL Target] arriva a [!DNL Target] con informazioni sulla richiesta e sull&#39;URL di [!DNL Target].
-1. [!DNL Target] richiama ogni attività in esecuzione nella richiesta [!DNL Target].
-1. [!DNL Target] tenta di associare il visitatore all&#39;attività con la priorità più alta.
+1. La chiamata al server [!DNL Target] raggiunge [!DNL Target]. La chiamata contiene informazioni sulla richiesta [!DNL Target] e sull&#39;URL.
+1. [!DNL Target] richiama tutte le attività in esecuzione nella richiesta [!DNL Target]. Queste attività sono le candidate per la consegna.
+1. [!DNL Target] tenta di associare il visitatore all&#39;attività candidato con la priorità più elevata.
 
-   Se il visitatore si trova già in un&#39;attività [!UICONTROL Test A/B] o [!UICONTROL Test multivariato], la corrispondenza con tale attività verrà mantenuta fino alla conversione. Se si trovavano in precedenza in un&#39;attività [!UICONTROL Targeting esperienza], devono corrispondere nuovamente in essa. Se soddisfa le regole del pubblico, allora il visitatore rientra in tali attività e in esperienze specifiche.
+   {{visitor-matching}}
 
-1. Se più attività condividono il livello di priorità, esistono due livelli di priorità:
-
-   * Se il targeting per il pubblico è stato impostato per una sola attività, viene visualizzata tale attività.
-   * Se tutti o nessuno ha un targeting, viene visualizzata l’attività approvata per prima.
+1. Se più attività condividono un livello di priorità, viene applicato un tiebreaker. Se solo una delle attività dispone di un targeting di pubblico, viene visualizzata tale attività. Se tutte o nessuna delle attività ha un targeting, viene visualizzata l’attività approvata per prima.
+1. Il contenuto di quella singola attività viene restituito alla pagina.
 
 ## Esempi {#section_F6A788AAC3884A2FA03E47F0557A1213}
 
 >[!NOTE]
 >
->I valori di priorità variano a seconda delle impostazioni. Puoi utilizzare le impostazioni legacy di [!UICONTROL Bassa], [!UICONTROL Medium] o [!UICONTROL Alta] oppure abilitare le priorità precise da 0 a 999. Per ulteriori informazioni, vedere [Impostazioni attività](/help/main/c-activities/activity-settings.md#task_C6B2FF8374724933BE79A83549B9CD02).
-
-Risposta: offer1
+>I valori di priorità variano a seconda delle impostazioni. Puoi utilizzare le impostazioni legacy di **[!UICONTROL Bassa]**, **[!UICONTROL Medium]** o **[!UICONTROL Alta]** oppure abilitare le priorità precise da 0 a 999. Per ulteriori informazioni, vedere [Impostazioni attività](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_DCBDC354261F420EBD4B43EA34947BAC).
 
 **Due attività utilizzano solo le offerte create nel [!UICONTROL Compositore esperienza visivo] per selettori diversi**
 
