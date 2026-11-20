@@ -10,7 +10,7 @@ product_v2:
 feature_v2:
   - id: 6efa6b7a-8062-5c41-aef4-b4853cc306ae
     internal-label: Activities
-source-git-commit: 9b496bb9a6606c3627afce1227c7830ba710f5d2
+source-git-commit: 7eede3484d524e87127de9147aa786484fc87c7d
 workflow-type: tm+mt
 source-wordcount: '858'
 ht-degree: 1%
@@ -120,5 +120,5 @@ Utilizza queste metriche per comprendere con quale frequenza viene utilizzato il
 
 ![](assets/insights-7.png){align="center"}
 
-Il grafico **[!UICONTROL Attività nel tempo]** traccia il numero di attività create, modificate e pubblicate nell&#39;intervallo di tempo selezionato, semplificando l&#39;individuazione di tendenze, picchi o periodi tranquilli nel programma di sperimentazione.
+Il grafico **[!UICONTROL Attività nel tempo]** traccia il numero di attività create, modificate e pubblicate nell&#39;intervallo di tempo selezionato, in modo da identificare tendenze, picchi o periodi tranquilli nel programma di sperimentazione.
 

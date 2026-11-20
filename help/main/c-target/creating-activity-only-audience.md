@@ -16,7 +16,7 @@ topic_v2:
     internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: 7eede3484d524e87127de9147aa786484fc87c7d
 workflow-type: tm+mt
 source-wordcount: '479'
 ht-degree: 27%
@@ -30,7 +30,7 @@ I tipi di pubblico per sola attività forniscono i seguenti vantaggi:
 * È possibile utilizzare i tipi di pubblico per sola attività per creare un pubblico da utilizzare una sola volta, senza archiviarlo nella [!UICONTROL Libreria tipi di pubblico]. I tipi di pubblico per sola attività consentono di evitare che la [!UICONTROL Libreria tipi di pubblico] si riempia di tipi di pubblico che non verranno più utilizzati.
 * Il pubblico per sola attività non è visibile nella [!UICONTROL Libreria tipi di pubblico]. Poiché questi tipi di pubblico non sono visibili nella libreria, sono protetti da modifiche indesiderate da parte di altri utenti dell’organizzazione.
 
-1. Durante la creazione di un&#39;[attività](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03), nella pagina **[!UICONTROL Targeting]**, fai clic sui tre puntini di sospensione verticali e quindi su **[!UICONTROL Sostituisci pubblico]**.
+1. Durante la creazione di un&#39;[attività](/help/main/c-activities/activities.md), nella pagina **[!UICONTROL Targeting]**, fai clic sui tre puntini di sospensione verticali e quindi su **[!UICONTROL Sostituisci pubblico]**.
 
    ![Risultato passaggio](assets/edit_audience.png)
 

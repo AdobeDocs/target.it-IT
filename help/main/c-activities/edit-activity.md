@@ -16,7 +16,7 @@ feature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 8c6f23b495228ab930e6649aa2f9e6dae506cae2
+source-git-commit: 7eede3484d524e87127de9147aa786484fc87c7d
 workflow-type: tm+mt
 source-wordcount: '952'
 ht-degree: 14%
@@ -76,7 +76,7 @@ Un’area di lavoro consente a un’azienda di assegnare un gruppo specifico di 
 
 Se fai parte di un’azienda multinazionale, potresti avere un’area di lavoro per le pagine web, le proprietà o i siti europei e un’altra per le pagine web, le proprietà o i siti americani. Se fai parte di un’azienda multi-brand, potresti avere un’area di lavoro diversa per ciascuno dei marchi.
 
-Per ulteriori informazioni sulle aree di lavoro e sulla funzionalità Autorizzazioni per gli utenti Enterprise, vedere [Autorizzazioni per gli utenti Enterprise](/help/main/administrating-target/c-user-management/property-channel/property-channel.md#concept_E396B16FA2024ADBA27BC056138F9838).
+Per ulteriori informazioni sulle aree di lavoro e sulla funzionalità Autorizzazioni per gli utenti Enterprise, vedere [Autorizzazioni per gli utenti Enterprise](/help/main/administrating-target/c-user-management/property-channel/property-channel.md).
 
 Se nel tuo ambiente sono abilitate **[!UICONTROL Autorizzazioni per gli utenti Enterprise]**, puoi copiare le attività nella stessa area di lavoro o in un&#39;altra. Attualmente non puoi spostare un’attività da un’area di lavoro a un’altra. Per copiare un&#39;attività in un&#39;altra area di lavoro, dalla pagina **[!UICONTROL Attività]** fai clic sull&#39;icona **[!UICONTROL Altre azioni]** ( ![Altre azioni](/help/main/assets/icons/MoreSmall.svg) ) accanto all&#39;attività da copiare, quindi fai clic su **[!UICONTROL Copia]**.
 

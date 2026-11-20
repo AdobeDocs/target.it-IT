@@ -25,10 +25,10 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: abab6b3e464bb9f294e9c3c455dca1f57bb0d458
+source-git-commit: ec6df29fa12dab229b89c061a9db3374e38c2152
 workflow-type: tm+mt
-source-wordcount: '1669'
-ht-degree: 24%
+source-wordcount: '1732'
+ht-degree: 18%
 ---
 # Obiettivi e impostazioni {#ab-goals-and-settings}
 
@@ -103,7 +103,7 @@ Specifica da quali dati della soluzione vengono raccolti:
 
   Per specificare un&#39;origine per la generazione di rapporti, scegliere innanzitutto una delle [!DNL Analytics] società associate al proprio account, quindi selezionare la suite di rapporti appropriata per l&#39;attività. È possibile selezionare solo le suite di rapporti predisposte per la connessione a [!DNL Adobe Target]. Se le suite di rapporti previste non sono visualizzate, disconnettersi e accedere di nuovo a [!DNL Adobe Experience Cloud] per riprovare. Se la suite di rapporti non è ancora presente nell’elenco, contatta l’Assistenza clienti.
 
-  [!DNL Analytics for Target] (A4T) richiede un server di tracciamento per riportare correttamente i risultati. Nel campo **[!UICONTROL Server di monitoraggio]** viene visualizzato un server di monitoraggio predefinito. Se utilizzi più server di tracciamento, assicurati di includere in questo campo il server di tracciamento corretto. Per ulteriori informazioni, vedere [Utilizzo di un server di tracciamento di Analytics](/help/main/c-integrating-target-with-mac/a4t/analytics-tracking-server.md#task_72077BA7E93C4A65A715A18F32228823).
+  [!DNL Analytics for Target] (A4T) richiede un server di tracciamento per riportare correttamente i risultati. Nel campo **[!UICONTROL Server di monitoraggio]** viene visualizzato un server di monitoraggio predefinito. Se utilizzi più server di tracciamento, assicurati di includere in questo campo il server di tracciamento corretto. Per ulteriori informazioni, vedere [Utilizzo di un server di tracciamento di Analytics](/help/main/c-integrating-target-with-mac/a4t/analytics-tracking-server.md).
   +++
 
 * [!DNL Adobe Customer Journey Analytics]
@@ -152,7 +152,7 @@ Tieni presente che questa impostazione non è disponibile se scegli [!DNL Analyt
 
 ## Impostazioni avanzate {#section_E2FE441AFB324E498793ABB025ED9974}
 
-La sezione **[!UICONTROL Impostazioni avanzate]** della pagina **[!UICONTROL Obiettivi e impostazioni]** consente di configurare le opzioni avanzate.
+La sezione **[!UICONTROL Impostazioni avanzate]** della pagina **[!UICONTROL Obiettivi e impostazioni]** consente di definire il conteggio di ciascuna metrica di successo: se dipende da un&#39;altra metrica, cosa succede a un visitatore dopo che è stato raggiunto l&#39;obiettivo e come viene incrementato il conteggio.
 
 Per specificare le impostazioni avanzate, fai clic sull&#39;icona **[!UICONTROL Altro]** ( ![Altro icona](/help/main/assets/icons/MoreSmallList.svg) ) nella sezione **[!UICONTROL Obiettivo primario]**, quindi fai clic su **[!UICONTROL Impostazioni avanzate]**.
 
@@ -162,37 +162,37 @@ Per specificare le impostazioni avanzate, fai clic sull&#39;icona **[!UICONTROL 
 >
 >Se utilizzi [!DNL Adobe Analytics] come origine per la generazione dei rapporti, le impostazioni vengono gestite dal server [!DNL Analytics]. L&#39;opzione Impostazioni avanzate non è disponibile.
 
-### Quali sono le metriche di successo da raggiungere prima di incrementare questa metrica? {#dependencies}
+### Dipendenze {#dependencies}
 
-Utilizza questa opzione per contare solo chi raggiunge la metrica di successo se in precedenza aveva raggiunto una metrica di successo diversa. Ad esempio, una conversione di attività potrebbe essere valida solo se il visitatore fa clic sull’offerta o raggiunge una pagina particolare prima della conversione.
+Utilizza questa opzione per contare un visitatore che raggiunge una metrica di successo solo se ha precedentemente raggiunto una metrica di successo diversa. Ad esempio, una conversione di attività potrebbe essere valida solo se il visitatore fa clic sull’offerta o raggiunge una pagina particolare prima della conversione.
 
-È possibile fornire la dipendenza su più metriche insieme alla flessibilità necessaria, per scegliere se la metrica debba essere raggiunta o meno per incrementare il conteggio. Definisci entrambe le metriche (o più metriche) di successo prima di renderle interdipendenti tra loro. L’opzione **[!UICONTROL Aggiungi dipendenza]** consente di incrementare la metrica di successo nel caso in cui un’altra metrica di successo venga raggiunta o meno.
+Puoi rendere una metrica dipendente da più metriche e scegliere per ciascuna se deve essere raggiunta o meno affinché il conteggio aumenti. Definisci tutte le metriche di successo prima di renderle interdipendenti tra loro. L&#39;opzione **[!UICONTROL Aggiungi dipendenza]** consente di incrementare la metrica di successo nel caso in cui un&#39;altra metrica di successo venga raggiunta o meno.
 
 Per aggiungere una dipendenza:
 
-1. Dopo aver aggiunto le metriche aggiuntive, fai clic su **[!UICONTROL Impostazioni avanzate]**.
+1. Dopo aver aggiunto le metriche aggiuntive, fare clic su **[!UICONTROL Impostazioni avanzate]**.
 
 1. Fai clic sull&#39;opzione **[!UICONTROL Aggiungi dipendenza]**.
 
-1. Trascina e rilascia le metriche desiderate, quindi fai clic su **[!UICONTROL Raggiunto]** per scegliere tra **[!UICONTROL Raggiunto]** e **[!UICONTROL Non raggiunto]**.
+1. Trascina e rilascia le metriche da cui dipende la metrica di successo, quindi fai clic su **[!UICONTROL Raggiunto]** per scegliere tra **[!UICONTROL Raggiunto]** e **[!UICONTROL Non raggiunto]**.
 
-È possibile modificare o rimuovere le dipendenze dopo averle aggiunte.
+È possibile modificare o rimuovere le dipendenze dopo averle aggiunte. Per i casi in cui le dipendenze non sono supportate, vedere [Aggiungi dipendenza](/help/main/c-activities/r-success-metrics/success-metrics.md#add-dependency).
 
-### Cosa accade dopo che un utente incontra questa metrica per obiettivo? {#after-goal}
+### Dopo che un visitatore ha raggiunto l’obiettivo {#after-goal}
 
-Dopo aver raggiunto l’obiettivo dell’attività, un visitatore continua a vedere il contenuto dell’attività, a meno che il visitatore non sia idoneo per un’attività di priorità più elevata. Se il visitatore raggiunge nuovamente l’obiettivo, viene conteggiato come un’altra conversione. Si tratta di un comportamento diverso da quello predefinito in [!DNL Target Classic], che ha conteggiato i visitatori come nuovi se visualizzavano nuovamente l&#39;attività.
+Dopo aver raggiunto l’obiettivo dell’attività, un visitatore continua a vedere il contenuto dell’attività, a meno che il visitatore non sia idoneo per un’attività di priorità più elevata. Se il visitatore raggiunge nuovamente l’obiettivo, viene conteggiato come un’altra conversione. Si tratta di un comportamento diverso da quello predefinito in [!DNL Target Classic], che ha conteggiato i visitatori come nuovi quando hanno visto di nuovo l&#39;attività.
 
 Dopo che un visitatore raggiunge la metrica obiettivo, sono disponibili tre opzioni:
 
-* **[!UICONTROL Incrementa il conteggio e mantieni utente attivo]** per specificare come viene incrementato il conteggio.
-* **[!UICONTROL Incrementa il conteggio, rilascia l&#39;utente e consenti nuovo accesso]** per specificare l&#39;esperienza che l&#39;utente vedrà se accede di nuovo all&#39;attività.
-* **[!UICONTROL Incrementa il conteggio, rilascia l&#39;utente e impedisci nuovo accesso]** per specificare cosa vedrà l&#39;utente al posto del contenuto dell&#39;attività.
+* **[!UICONTROL Incrementa il conteggio e mantieni utente attivo]:** Specifica come viene incrementato il conteggio, come descritto nella sezione successiva.
+* **[!UICONTROL Incrementa il conteggio, rilascia l&#39;utente e consenti nuovo accesso]:** Specifica l&#39;esperienza che il visitatore vede se accede nuovamente all&#39;attività: la stessa esperienza (predefinita), un&#39;esperienza casuale o invisibile.
+* **[!UICONTROL Incrementa il conteggio, rilascia l&#39;utente e impedisci nuovo accesso]:** Specifica cosa vedrà il visitatore al posto del contenuto dell&#39;attività: la stessa esperienza senza tracciamento (impostazione predefinita), contenuto predefinito o altro contenuto dell&#39;attività.
 
-### Come verrà incrementato il conteggio? {#count-increment}
+### Incremento conteggio {#count-increment}
 
-Sono disponibili tre opzioni per l’incremento del conteggio:
+Quando si seleziona **[!UICONTROL Incrementa il conteggio e mantieni utente attivo]**, sono disponibili tre opzioni per l&#39;incremento del conteggio:
 
-* **[!UICONTROL Una volta per partecipante]**
+* **[!UICONTROL Una volta per partecipante]** (impostazione predefinita)
 * **[!UICONTROL Su ogni impression (esclusi aggiornamenti pagina)]**
 * **[!UICONTROL Su ogni impression]**
 

@@ -2,7 +2,7 @@
 keywords: Anteprima esperienza;URL esperienza;generare URL;visualizzare gli URL esperienza
 description: Scopri come utilizzare gli URL di anteprima dell’esperienza per le attività Automated Personalization di Adobe [!DNL Target] per visualizzare il contenuto dell’esperienza direttamente sul sito prima che l’attività venga pubblicata.
 title: Come posso utilizzare gli URL di anteprima dell’esperienza nelle attività di Automated Personalization?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=it#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."
 feature: Automated Personalization
 exl-id: 9f329b8a-5f86-4cae-a3be-eed24fa0a9cd
 product_v2:
@@ -14,18 +14,24 @@ feature_v2:
 subfeature_v2:
   - id: f0055dd2-93f3-4ac8-9abc-d69d4ed2d977
     internal-label: Automated personalization
-source-git-commit: dbeed9d4cda556478eb1d13331129b0e31fdd3f0
+source-git-commit: 7eede3484d524e87127de9147aa786484fc87c7d
 workflow-type: tm+mt
-source-wordcount: '748'
-ht-degree: 41%
+source-wordcount: '774'
+ht-degree: 39%
 ---
-# Anteprima delle attività Automated Personalization con URL di anteprima dell’esperienza
+# Anteprima delle attività Automated Personalization con URL di anteprima dell’esperienza {#experience-preview}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** Scopri come generare URL di anteprima dell&#39;esperienza per le attività **[!UICONTROL Automated Personalization]** per visualizzare le esperienze sul tuo sito prima che l&#39;attività sia attiva.
+
+>[!ENDSHADEBOX]
 
 Gli URL di anteprima dell&#39;esperienza possono essere generati per le attività [!DNL Target] [!UICONTROL Automated Personalization] per visualizzare il contenuto dell&#39;esperienza direttamente sul sito prima che l&#39;attività venga pubblicata, per scopi di anteprima e controllo qualità. Gli URL di anteprima esperienza ignorano il targeting per forzare la visualizzazione di una particolare esperienza.
 
 >[!NOTE]
 >
->È possibile creare URL di anteprima esperienza per altri tipi di attività [!DNL Target]. Tuttavia, il processo è leggermente diverso. Per ulteriori informazioni, consulta [Controllo qualità delle attività](/help/main/c-activities/c-activity-qa/activity-qa.md#preview).
+>È possibile creare URL di anteprima esperienza per altri tipi di attività [!DNL Target]. Tuttavia, il processo è leggermente diverso. Per ulteriori informazioni, consulta [Controllo qualità delle attività](/help/main/c-activities/c-activity-qa/activity-qa.md#section_1C59BAA247B247BDB125D1BE8EAD4547).
 
 Utilizza gli URL di anteprima dell’esperienza per condividere le esperienze con i membri del gruppo e per eseguire il controllo qualità delle esperienze tra browser e ambienti diversi, senza creare un’attività di controllo qualità separata. Questa funzione è particolarmente utile in caso di siti complessi o se le policy di sicurezza non consentono la visualizzazione del sito in un simulatore.
 

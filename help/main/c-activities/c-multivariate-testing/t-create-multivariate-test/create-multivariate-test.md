@@ -16,9 +16,9 @@ feature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 0ae6991a6a86854bd64a632070a1fcbe544cc606
+source-git-commit: 7eede3484d524e87127de9147aa786484fc87c7d
 workflow-type: tm+mt
-source-wordcount: '929'
+source-wordcount: '926'
 ht-degree: 16%
 ---
 # Creazione di un test multivariato {#create-mvt}
@@ -29,7 +29,7 @@ ht-degree: 16%
 
 >[!ENDSHADEBOX]
 
-Il **[!UICONTROL Compositore esperienza visivo]** (VEC) in [!DNL Adobe Target] semplifica la creazione di un **[!UICONTROL test multivariato]** e la modifica di parti della pagina in [!DNL Target].
+Il **[!UICONTROL Compositore esperienza visivo]** (VEC) in [!DNL Adobe Target] consente di creare un **[!UICONTROL test multivariato]** e modificare parti della pagina in [!DNL Target].
 
 L&#39;editor point-and-click di [!DNL Target] consente di scegliere qualsiasi posizione e di aggiungere più offerte.
 
@@ -50,7 +50,7 @@ Scegli il tipo di attività e di consegna, specifica la pagina da testare e asse
 
 1. Fai clic su **[!UICONTROL Crea attività]** > **[!UICONTROL Test multivariato]**.
 
-   Per ulteriori informazioni sui vari tipi di attività disponibili in [!DNL Target] e sulle loro differenze, consulta [Attività](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03). Consulta [Tipi di attività di Target](/help/main/c-activities/target-activities-guide.md) per aiutarti a stabilire il tipo di attività più adatto per le tue esigenze.
+   Per ulteriori informazioni sui vari tipi di attività disponibili in [!DNL Target] e sulle loro differenze, consulta [Attività](/help/main/c-activities/activities.md#types). Consulta [Tipi di attività di Target](/help/main/c-activities/target-activities-guide.md) per aiutarti a stabilire il tipo di attività più adatto per le tue esigenze.
 
    ![](../../assets/create-mvt-1.png)
 
@@ -132,7 +132,7 @@ Scegli quali visitatori inserire nel test e rivedi il riepilogo del test.
 
 Nella pagina **[!UICONTROL Obiettivi e impostazioni]**, indica a [!DNL Target] come misurare il test. Le impostazioni disponibili dipendono dall&#39;utilizzo di [!DNL Target] o [!DNL Analytics] come origine per la generazione di rapporti.
 
-1. Rivedi le sezioni della pagina e imposta ciò che ti serve. Vedi [Impostazioni impostate nella pagina Obiettivi e impostazioni](#goals-settings-overview).
+1. Rivedi le sezioni della pagina e imposta ciò che ti serve. Vedi [Impostazioni impostate nella pagina Obiettivi e impostazioni](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md).
 
 
    | Sezione | Impostazioni |
@@ -152,4 +152,4 @@ Questo video illustra come pianificare e creare un test multivariato utilizzando
 * Definizione e progettazione di un test multivariato
 * Creazione di un test multivariato
 
->[!VIDEO](https://video.tv.adobe.com/v/36329?captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/17395)

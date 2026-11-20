@@ -23,10 +23,10 @@ topic_v2:
     internal-label: Customer experience
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: e43265e56e7add690f33a4cd19990bed55a82123
+source-git-commit: 7eede3484d524e87127de9147aa786484fc87c7d
 workflow-type: tm+mt
-source-wordcount: '3146'
-ht-degree: 43%
+source-wordcount: '3140'
+ht-degree: 42%
 ---
 # Per quanto tempo si deve eseguire un test A/B? {#sample-size-determination}
 
@@ -64,7 +64,7 @@ Prima di configurare il test A/B, accedi al [!DNL Adobe Target] [Calcolatore dim
 
 ![Calcolatore delle dimensioni del campione di Adobe Target](/help/main/c-activities/t-test-ab/assets/sample_size_calculator-new.png)
 
-È importante determinare una dimensione di campione adeguata (numero di visitatori) prima di eseguire qualsiasi test A/B per stabilire per quanto tempo l’attività deve essere eseguita prima di valutare i risultati. Il semplice monitoraggio dell’attività fino a raggiungere la significatività statistica causa una notevole sottostima dell’intervallo di affidabilità, rendendo il test inaffidabile. L’intuizione alla base di questo risultato è che, nel caso in cui venga rilevato un risultato statisticamente significativo, il test viene interrotto e viene dichiarato un vincitore. Tuttavia, se il risultato non è statisticamente significativo, il test può continuare. Questa procedura favorisce fortemente un esito positivo, aumentando il livello dei falsi positivi e quindi distorcendo il livello di significatività effettiva del test.
+È importante determinare una dimensione di campione adeguata (numero di visitatori) prima di eseguire qualsiasi test A/B per stabilire per quanto tempo l’attività deve essere eseguita prima di valutare i risultati. Il monitoraggio dell’attività fino a raggiungere la significatività statistica causa una notevole sottostima dell’intervallo di affidabilità, rendendo il test inaffidabile. L’intuizione alla base di questo risultato è che, nel caso in cui venga rilevato un risultato statisticamente significativo, il test viene interrotto e viene dichiarato un vincitore. Tuttavia, se il risultato non è statisticamente significativo, il test può continuare. Questa procedura favorisce fortemente un esito positivo, aumentando il livello dei falsi positivi e quindi distorcendo il livello di significatività effettiva del test.
 
 Questa procedura può causare molti falsi positivi, che portano all’implementazione di offerte che non forniscono alla fine l’incremento previsto. Lo scarso incremento di per sé è un risultato insoddisfacente, ma una conseguenza ancora più grave è che, nel tempo, l&#39;incapacità di prevedere con precisione l&#39;incremento erode la fiducia organizzativa nei test come pratica.
 
@@ -93,7 +93,7 @@ La figura seguente illustra i quattro possibili risultati di un test A/B:
 
 ![Tabella dei quattro possibili risultati di un test A/B: vero positivo, falso positivo (controllato dal livello di significatività), falso negativo (controllato dal livello di potenza) e vero negativo](assets/outcomes.png)
 
-È auspicabile evitare falsi positivi o falsi negativi, Tuttavia, l’ottenimento di zero falsi positivi non può mai essere garantito da un test statistico. È sempre possibile che le tendenze osservate non siano rappresentative dei tassi di conversione sottostanti. Ad esempio, in un test per verificare se è più probabile che una moneta dia testa o croce, è possibile ottenere dieci teste su dieci lanci solo per caso. La significatività statistica e la potenza aiutano a quantificare il numero di falsi positivi e falsi negativi e consentono di mantenerli a livelli ragionevoli per un determinato test.
+È auspicabile evitare falsi positivi o falsi negativi, Tuttavia, l’ottenimento di zero falsi positivi non può mai essere garantito da un test statistico. È sempre possibile che le tendenze osservate non siano rappresentative dei tassi di conversione sottostanti. Ad esempio, in un test per verificare se è più probabile che una moneta dia testa o croce, è possibile ottenere dieci teste su dieci lanci per caso. La significatività statistica e la potenza aiutano a quantificare il numero di falsi positivi e falsi negativi e consentono di mantenerli a livelli ragionevoli per un determinato test.
 
 ### Rilevanza statistica {#section_8230FB9C6D1241D8B1786B72B379C3CD}
 
@@ -119,7 +119,7 @@ Si consiglia di utilizzare sempre un livello di affidabilità del 95% o superior
 
 ### Potenza statistica {#section_1169C27F8E4643719D38FB9D6EBEB535}
 
-La potenza statistica di un test A/B è la probabilità di individuare una differenza effettiva nel tasso di conversione di una certa portata. A causa della natura casuale (stocastica) degli eventi di conversione, è possibile che una differenza statisticamente significativa non venga osservata, per semplice casualità, anche se esiste una differenza reale nel tasso di conversione tra le due offerte. Questo scenario viene definito falso negativo o errore di tipo II.
+La potenza statistica di un test A/B è la probabilità di individuare una differenza effettiva nel tasso di conversione di una certa portata. È possibile che non venga osservata una differenza statisticamente significativa, per caso, anche se esiste una differenza reale nel tasso di conversione tra le due offerte, a causa della natura casuale (stocastica) degli eventi di conversione. Questo scenario viene definito falso negativo o errore di tipo II.
 
 La potenza statistica viene spesso ignorata perché la sua determinazione, a differenza della rilevanza statistica, non è necessaria per eseguire un test A/B. Tuttavia, ignorando la potenza statistica, esiste una possibilità sostanziale che le differenze reali tra i tassi di conversione delle diverse offerte non vengano rilevate dal test, a causa di un campione di dimensioni troppo ridotte. Questa situazione fa sì che i test siano dominati da falsi positivi.
 
@@ -139,7 +139,7 @@ L’immagine in basso mostra le distribuzioni delle probabilità.
 
 ![Distribuzioni di probabilità dei tassi di conversione osservati delle offerte A e B con 100 visitatori ciascuna: le curve si sovrappongono fortemente](assets/probability_distributions.png)
 
-A motivo dell’ampia sovrapposizione tra i due intervalli, il test non può determinare se i tassi di conversione siano diversi. Pertanto, con questo test su 100 visitatori non è possibile distinguere tra le due offerte. Tuttavia, se [!DNL Target] espone le offerte a 5.000 visitatori ciascuno, esiste una probabilità del 95% che i tassi di conversione osservati scendano rispettivamente tra il 9% e l&#39;11% e tra il 14% e il 16%.
+I due intervalli si sovrappongono in larga misura, pertanto il test non può determinare se i tassi di conversione sono diversi. Pertanto, con questo test su 100 visitatori non è possibile distinguere tra le due offerte. Tuttavia, se [!DNL Target] espone le offerte a 5.000 visitatori ciascuno, esiste una probabilità del 95% che i tassi di conversione osservati scendano rispettivamente tra il 9% e l&#39;11% e tra il 14% e il 16%.
 
 ![Distribuzioni di probabilità dei tassi di conversione osservati delle offerte A e B con 5.000 visitatori ciascuna: le curve non si sovrappongono](assets/probability_distributions2.png)
 

@@ -4,12 +4,18 @@ description: Scopri come utilizzare le informazioni generate dall’intelligenza
 title: Informazioni sull’intelligenza artificiale nella panoramica dell’attività
 feature: Activities
 badge: label="Beta" type="Informative"
-source-git-commit: 8d2b3af9942acbf30519c1f7b32fe79bed1f2eaa
+source-git-commit: ec6df29fa12dab229b89c061a9db3374e38c2152
 workflow-type: tm+mt
-source-wordcount: '763'
-ht-degree: 36%
+source-wordcount: '788'
+ht-degree: 35%
 ---
-# Informazioni sull’intelligenza artificiale
+# Informazioni sull’intelligenza artificiale {#ai-insights}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** Scopri come utilizzare il menu **[!UICONTROL Informazioni IA]** della [!DNL Adobe Target] **[!UICONTROL Panoramica attività]** per esaminare gli insegnamenti dell&#39;esperimento, confrontare i trattamenti e identificare le opportunità di ottimizzazione.
+
+>[!ENDSHADEBOX]
 
 >[!AVAILABILITY]
 >

@@ -18,7 +18,7 @@ topic_v2:
     internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 8c6f23b495228ab930e6649aa2f9e6dae506cae2
+source-git-commit: 7eede3484d524e87127de9147aa786484fc87c7d
 workflow-type: tm+mt
 source-wordcount: '1043'
 ht-degree: 19%
@@ -50,7 +50,7 @@ Se l’azienda utilizza esclusivamente il Compositore esperienza visivo, è poss
    {{visitor-matching}}
 
 1. Il contenuto di tutte le attività ed esperienze a cui corrisponde il visitatore viene restituito alla pagina, quindi il contenuto di più attività può essere consegnato per la stessa chiamata.
-1. [!DNL Target] confronta i [selettori CSS](/help/main/c-experiences/c-visual-experience-composer/vec-selectors.md#concept_4EB7663E255F439B8D24079D23479337) a cui fa riferimento il contenuto di ogni attività. Se le attività fanno riferimento a selettori diversi, viene visualizzato tutto il contenuto.
+1. [!DNL Target] confronta i [selettori CSS](/help/main/c-experiences/c-visual-experience-composer/vec-selectors.md) a cui fa riferimento il contenuto di ogni attività. Se le attività fanno riferimento a selettori diversi, viene visualizzato tutto il contenuto.
 1. Se un selettore si sovrappone o è duplicato, viene visualizzato il contenuto dell’attività con priorità più elevata.
 
    >[!IMPORTANT]
@@ -126,4 +126,4 @@ Questo video include informazioni sulle impostazioni delle attività.
 * Aggiungere tipi di pubblico da usare come filtri nella generazione di rapporti
 * Inserire delle note per le attività
 
->[!VIDEO](https://video.tv.adobe.com/v/3507949?captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/17381)

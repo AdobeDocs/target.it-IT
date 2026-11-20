@@ -25,9 +25,9 @@ topic_v2:
     internal-label: Machine learning
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: 5f78680bff6489e51d7f0afb6db1c9360f5cb6d1
+source-git-commit: 7eede3484d524e87127de9147aa786484fc87c7d
 workflow-type: tm+mt
-source-wordcount: '1114'
+source-wordcount: '1119'
 ht-degree: 10%
 ---
 # Creare un’attività di test A/B {#create-ab-activity}
@@ -71,7 +71,7 @@ Aprire la pagina che si desidera verificare nel **[!UICONTROL Compositore esperi
 
    >[!NOTE]
    >
-   >Oltre al Compositore esperienza visivo e al Compositore esperienza basato su moduli **[!UICONTROL 1&rbrace;, [!DNL Target] offre il Compositore esperienza visivo**&#x200B;[!UICONTROL &#x200B; Applicazione a pagina singola &#x200B;]&#x200B;**.]** Per ulteriori informazioni sui vari moduli di composizione, consulta [Esperienze e offerte](/help/main/c-experiences/experiences.md).
+   >Oltre al Compositore esperienza visivo e al Compositore esperienza basato su moduli **[!UICONTROL 1}, [!DNL Target] offre il Compositore esperienza visivo**[!UICONTROL  Applicazione a pagina singola ]**.]** Per ulteriori informazioni sui vari moduli di composizione, consulta [Esperienze e offerte](/help/main/c-experiences/experiences.md).
    >
    >Per informazioni sulla risoluzione dei problemi relativi al Compositore esperienza visivo, vedere [Risoluzione dei problemi relativi al Compositore esperienza visivo](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md).
 
@@ -134,7 +134,7 @@ Il diagramma di flusso ti guida attraverso l’assegnazione di un pubblico e del
 
    +++
 
-1. Fare clic sul controllo **[!UICONTROL Allocazione traffico]**, quindi scegliere un metodo di allocazione del traffico nel riquadro di destra. Vedi [Metodi di allocazione traffico](#traffic-allocation-methods).
+1. Fare clic sul controllo **[!UICONTROL Allocazione traffico]**, quindi scegliere un metodo di allocazione del traffico nel riquadro di destra. I metodi disponibili sono elencati nella tabella seguente.
 
    ![Impostazioni del metodo di allocazione traffico](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/traffic-allocation-method-new.png)
 
@@ -143,7 +143,7 @@ Il diagramma di flusso ti guida attraverso l’assegnazione di un pubblico e del
    | Metodo | Funzionamento |
    |---|---|
    | **[!UICONTROL Manuale (predefinito)]** | Specifica la percentuale di partecipanti che dovranno visualizzare ogni esperienza. Puoi suddividere le percentuali in modo uniforme tra tutte le esperienze, oppure specificare percentuali maggiori o minori per ogni esperienza. Il totale per tutte le esperienze deve essere uguale al 100%. |
-   | **[!UICONTROL Allocazione automatica all&#39;esperienza migliore]** | La maggior parte dei partecipanti all’attività viene automaticamente indirizzata alle esperienze con prestazioni migliori. Alcuni visitatori sono assegnati a tutte le esperienze, per mantenere l’esplorazione delle esperienze e riconoscere eventuali cambiamenti nelle tendenze prestazionali. Per ulteriori informazioni, vedere [**[!UICONTROL Cenni preliminari sull&#39;allocazione automatica &#x200B;]**](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#auto-allocate-overview). |
+   | **[!UICONTROL Allocazione automatica all&#39;esperienza migliore]** | La maggior parte dei partecipanti all’attività viene automaticamente indirizzata alle esperienze con prestazioni migliori. Alcuni visitatori sono assegnati a tutte le esperienze, per mantenere l’esplorazione delle esperienze e riconoscere eventuali cambiamenti nelle tendenze prestazionali. Per ulteriori informazioni, vedere [**[!UICONTROL Cenni preliminari sull&#39;allocazione automatica ]**](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#auto-allocate-overview). |
    | **[!UICONTROL Targeting automatico per esperienze personalizzate]** | [!DNL Target] utilizza l&#39;apprendimento automatico avanzato per personalizzare i contenuti e favorire le conversioni identificando più esperienze ad alte prestazioni definite dall&#39;addetto al marketing e fornendo l&#39;esperienza più adatta ai visitatori in base ai loro profili cliente individuali e ai comportamenti passati di visitatori simili. Per ulteriori informazioni, consulta [Panoramica sul Targeting automatico](/help/main/c-activities/auto-target/auto-target-to-optimize.md). |
 
    +++
@@ -156,7 +156,7 @@ Il diagramma di flusso ti guida attraverso l’assegnazione di un pubblico e del
 
 Nella pagina **[!UICONTROL Obiettivi e impostazioni]**, indica a [!DNL Target] come misurare l&#39;attività. Le impostazioni disponibili dipendono dall&#39;utilizzo di [!DNL Target] o [Analytics come origine per la generazione di rapporti](/help/main/c-integrating-target-with-mac/a4t/a4t.md).
 
-1. Rivedi le sezioni della pagina e imposta ciò che ti serve. Vedi [Impostazioni impostate nella pagina Obiettivi e impostazioni](#goals-settings-overview).
+1. Rivedi le sezioni della pagina e imposta ciò che ti serve. Vedi [Impostazioni impostate nella pagina Obiettivi e impostazioni](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md).
 
    | Sezione | Impostazioni |
    |---|---|
