@@ -47,7 +47,7 @@ Scarica un PDF interattivo che descrive i diversi tipi di attività in [!DNL Ado
 >
 >Per una migliore esperienza e per condividere con gli altri, scarica il PDF interattivo [Guida sulle attività di Adobe Target](/help/main/assets/activities_guide_82817.pdf).
 >
->Questo articolo non contiene informazioni sulle [**[!UICONTROL attività Consigli ]**](/help/main/c-recommendations/recommendations.md). Tuttavia, puoi includere i consigli nelle attività**[!UICONTROL  Test A/B ]**,**[!UICONTROL  Allocazione automatica ]**,**[!UICONTROL  Targeting automatico ]**e**[!UICONTROL  Targeting esperienza ]**(XT). Per ulteriori informazioni, consulta [Consigli come offerta](/help/main/c-recommendations/recommendations-as-an-offer.md). Questa funzionalità richiede una [licenza di Target Premium](/help/main/c-intro/intro.md#premium).
+>Questo articolo non contiene informazioni sulle [**[!UICONTROL attività Consigli &#x200B;]**](/help/main/c-recommendations/recommendations.md). Tuttavia, puoi includere i consigli nelle attività&#x200B;**[!UICONTROL &#x200B; Test A/B &#x200B;]**,**[!UICONTROL &#x200B; Allocazione automatica &#x200B;]**,**[!UICONTROL &#x200B; Targeting automatico &#x200B;]**&#x200B;e&#x200B;**[!UICONTROL &#x200B; Targeting esperienza &#x200B;]**(XT). Per ulteriori informazioni, consulta [Consigli come offerta](/help/main/c-recommendations/recommendations-as-an-offer.md). Questa funzionalità richiede una [licenza di Target Premium](/help/main/c-intro/intro.md#premium).
 
 ## Che cosa fa? {#section_4ECAACC68723402EB3649033190E1BBC}
 
