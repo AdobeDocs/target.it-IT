@@ -398,7 +398,7 @@ Questo video contiene le seguenti informazioni:
 * Comprendere lo scopo dei feed
 * Comprendere il valore dei feed
 
->[!VIDEO](https://video.tv.adobe.com/v/27695)
+>[!VIDEO](https://video.tv.adobe.com/v/328597?captions=ita)
 
 +++
 
@@ -409,6 +409,6 @@ Questo video contiene le seguenti informazioni:
 * Impostare un feed
 * Quale tipo di feed usare
 
->[!VIDEO](https://video.tv.adobe.com/v/27696)
+>[!VIDEO](https://video.tv.adobe.com/v/328596?captions=ita)
 
 +++
