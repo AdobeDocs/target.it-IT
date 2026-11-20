@@ -54,6 +54,6 @@ Un&#39;attività [!UICONTROL Targeting esperienza] ti consente di indirizzare qu
 * Distribuisci contenuti specifici per la posizione a tipi di pubblico in diverse aree geografiche, creando esperienze mirate per entrambi gli stati e una terza esperienza per gli appassionati di ciclismo.
 * Riordina le tre esperienze in modo che il contenuto giusto venga distribuito al pubblico giusto.
 
->[!VIDEO](https://video.tv.adobe.com/v/22418/)
+>[!VIDEO](https://video.tv.adobe.com/v/41140?captions=ita)
 
 Dopo aver guardato il video, continua con [Creare un&#39;attività Targeting esperienze](/help/main/c-activities/t-experience-target/t-xt-create/xt-create.md).
