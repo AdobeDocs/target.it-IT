@@ -5,7 +5,6 @@ title: Panoramica del server Adobe Target MCP
 description: Scopri cos’è il server Adobe Target MCP, le sue funzionalità chiave e come si connette al tuo assistente AI.
 feature: Integrations
 topic: Experimentation, Personalization, Artificial Intelligence
-badge: label="Beta" type="Informative"
 role: User, Developer
 level: Beginner, Intermediate
 product_v2:
@@ -24,9 +23,9 @@ level_v2:
     internal-label: Beginner
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
     internal-label: Intermediate
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 8fd1b8e05c92c3e0b49f61b17fbf5fba522a8410
 workflow-type: tm+mt
-source-wordcount: '1039'
+source-wordcount: '1029'
 ht-degree: 0%
 ---
 # Server MCP [!DNL Adobe Target] {#target-mcp}
@@ -35,7 +34,7 @@ L&#39;integrazione MCP [!DNL Adobe Target] ti consente di ispezionare, analizzar
 
 >[!AVAILABILITY]
 >
->Il server MCP [!DNL Adobe Target] è disponibile per tutti i clienti in **Beta pubblico**. Attualmente è supportato in **Claude Web**, **Claude Desktop**, **Claude Code**, **Cursor** e **ChatGPT**. Il supporto per ulteriori applicazioni compatibili con MCP verrà aggiunto nelle prossime versioni.
+>Il server MCP [!DNL Adobe Target] è attualmente supportato in **Claude Web**, **Claude Desktop**, **Claude Code**, **Cursor** e **ChatGPT**. Il supporto per ulteriori applicazioni compatibili con MCP verrà aggiunto nelle prossime versioni.
 
 
 ## Che cos&#39;è Model Context Protocol? {#mcp-overview}
@@ -95,7 +94,7 @@ No. Il server MCP è progettato sia per utenti tecnici che di marketing. Gli add
 
 +++I dati di [!DNL Adobe Target] vengono inviati al provider client MCP?
 
-Quando si invia una richiesta, il client MCP può inviare il contesto rilevante (inclusi i dati [!DNL Adobe Target] restituiti dal server MCP) al proprio modello per l&#39;elaborazione. Rivedi le politiche sulla privacy e la gestione dei dati del provider client MCP prima di connetterti ai dati di produzione. La gestione dei dati di Adobe è disciplinata dalle [Informativa sulla privacy di Adobe](https://www.adobe.com/it/privacy.html) e dalle [Condizioni sulla protezione dei dati](https://www.adobe.com/go/dpt-ww).
+Quando si invia una richiesta, il client MCP può inviare il contesto rilevante (inclusi i dati [!DNL Adobe Target] restituiti dal server MCP) al proprio modello per l&#39;elaborazione. Rivedi le politiche sulla privacy e la gestione dei dati del provider client MCP prima di connetterti ai dati di produzione. La gestione dei dati di Adobe è disciplinata dalle [Informativa sulla privacy di Adobe](https://www.adobe.com/privacy.html) e dalle [Condizioni sulla protezione dei dati](https://www.adobe.com/go/dpt-ww).
 +++
 
 +++Le operazioni di scrittura possono causare modifiche non desiderate alle attività live?
