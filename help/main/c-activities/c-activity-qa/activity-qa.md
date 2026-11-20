@@ -154,7 +154,7 @@ Se hai specificato un URL durante la creazione dell&#39;attività nei [perfezion
 
 +++ Browser che bloccano i cookie di terze parti (at.js 1.*x*)
 
-Se hai at.js 1.*x*, la modalità **[!UICONTROL Controllo qualità attività]** non persiste su più pagine se utilizzi Safari o un altro browser che blocca i cookie di terze parti. In questi casi, devi aggiungere i parametri di anteprima a ogni URL a cui vai. Lo stesso vale se hai implementato [CNAME](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/implement-cname-support-in-target.html){target=_blank}.
+Se hai at.js 1.*x*, la modalità **[!UICONTROL Controllo qualità attività]** non persiste su più pagine se utilizzi Safari o un altro browser che blocca i cookie di terze parti. In questi casi, devi aggiungere i parametri di anteprima a ogni URL a cui vai. Lo stesso vale se hai implementato [CNAME](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/implement-cname-support-in-target.html?lang=it){target=_blank}.
 
 +++
 
@@ -204,8 +204,8 @@ Nella tabella seguente sono elencati i parametri che possono essere inseriti nel
 
 [!DNL Target] supporta le seguenti librerie JavaScript:
 
-* [at.js 1.x](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html)
-* [at.js 2.x](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html)
+* [at.js 1.x](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html?lang=it)
+* [at.js 2.x](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html?lang=it)
 * [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=it)
 
 Nella tabella seguente sono elencati i vari tipi di attività e viene indicato se la modalità di controllo qualità **[!UICONTROL Attività]** è supportata per ogni libreria:
