@@ -45,7 +45,7 @@ topic_v2:
     internal-label: Insights
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 9621044454d3e1b47c06cac2ad5d08cba8e482c0
+source-git-commit: 4f38c80880eedd9b966cdb2f178f408bb529b60c
 workflow-type: tm+mt
 source-wordcount: '2918'
 ht-degree: 47%
@@ -133,9 +133,9 @@ Consulta il tipo di attività [Targeting automatico](/help/main/c-activities/aut
 **Come posso sapere quale tipo di attività si adatta meglio alle mie esigenze?**
 
 +++Vedi i dettagli
-Leggi la [Guida alle attività di Target](/help/main/c-activities/target-activities-guide.md#concept_D974B0918EB74B3B8CB07ACD32BF37A1) per scoprire gli scenari adatti per ciascuna delle opzioni fornite da [!DNL Target].
+Leggi la [Guida alle attività di Target](/help/main/c-activities/target-activities-guide.md) per scoprire gli scenari adatti per ciascuna delle opzioni fornite da [!DNL Target].
 
-Accertati inoltre di prendere in considerazione le [attività Consigli](/help/main/c-recommendations/recommendations.md#concept_7556C8A4543942F2A77B13A29339C0C0).
+Accertati inoltre di prendere in considerazione le [attività Consigli](/help/main/c-recommendations/recommendations.md).
 
 +++
 
@@ -174,7 +174,7 @@ Quindi, in questo caso, è possibile scegliere “Incrementa il conteggio, rilas
 **Come posso essere chiaro su come impostare un&#39;attività per raggiungere le mie finalità?**
 
 +++Vedi i dettagli
-Qui è dove entrano in gioco gli [obiettivi](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC).
+Qui è dove entrano in gioco gli [obiettivi](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md).
 
 Per iniziare è importante sapere cosa si desidera ottimizzare. È [!UICONTROL Ricavo], [!UICONTROL Conversione] o [!UICONTROL Coinvolgimento]? Ognuna di queste opzioni è disponibile nella sezione obiettivi. Per ogni obiettivo, è possibile definire l&#39;azione intrapresa dall&#39;utente sul tuo sito per il raggiungimento dell&#39;obiettivo.
 

@@ -22,7 +22,7 @@ topic_v2:
     internal-label: Personalization
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
     internal-label: Machine learning
-source-git-commit: 5f78680bff6489e51d7f0afb6db1c9360f5cb6d1
+source-git-commit: 7eede3484d524e87127de9147aa786484fc87c7d
 workflow-type: tm+mt
 source-wordcount: '777'
 ht-degree: 20%
@@ -35,7 +35,7 @@ Utilizza [!UICONTROL Frammenti di contenuto] (FC) creati in [!DNL Adobe Experien
 
 Considera quanto segue mentre lavori con AEM [!UICONTROL Frammenti di contenuto] in [!DNL Target]:
 
-* Questa funzione richiede una licenza come cliente di [!DNL Adobe Experience Manager as a Cloud Service]. Per ulteriori informazioni, consulta [Requisiti](#section_AE6F0971E1574B3AA324003599B96E5A), di seguito.
+* Questa funzione richiede una licenza come cliente di [!DNL Adobe Experience Manager as a Cloud Service]. Per ulteriori informazioni, consulta [Requisiti](#requirements), di seguito.
 * [!UICONTROL Frammenti di esperienza] e [!UICONTROL Frammenti di contenuto] sono disponibili per i seguenti tipi di attività:
 
   * [[!UICONTROL Test A/B]](/help/main/c-activities/t-test-ab/test-ab.md)

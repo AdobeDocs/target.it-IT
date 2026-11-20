@@ -25,9 +25,9 @@ topic_v2:
     internal-label: Customer experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: aaa094f4f36b6088ca180637d8054b6d5ff59d60
+source-git-commit: 7eede3484d524e87127de9147aa786484fc87c7d
 workflow-type: tm+mt
-source-wordcount: '417'
+source-wordcount: '416'
 ht-degree: 2%
 ---
 # Introduzione a [!UICONTROL Targeting esperienza] {#get-started-xt}
@@ -42,7 +42,7 @@ ht-degree: 2%
 
 Quando i visitatori visualizzano il tuo sito, [!UICONTROL Targeting esperienza] valuta tali visitatori per determinare se soddisfano i criteri impostati. Se soddisfano i criteri, vengono inclusi nell’attività e viene visualizzata l’esperienza progettata per il pubblico idoneo.
 
-[!UICONTROL Targeting esperienza] è un primo passo nel mondo della personalizzazione e spesso inizia con test A/B. Un addetto al marketing esegue un test A/B e, utilizzando i tipi di pubblico di reporting, rileva che diverse esperienze risuonano con tipi di pubblico diversi. [!UICONTROL Targeting esperienza] consente all&#39;addetto al marketing di utilizzare facilmente tale individuazione e passare al targeting a lungo termine dei contenuti per questi diversi segmenti di pubblico.
+[!UICONTROL Targeting esperienza] è un primo passo nel mondo della personalizzazione e spesso inizia con test A/B. Un addetto al marketing esegue un test A/B e, utilizzando i tipi di pubblico di reporting, rileva che diverse esperienze risuonano con tipi di pubblico diversi. [!UICONTROL Targeting esperienza] consente all&#39;addetto al marketing di utilizzare tale individuazione e di passare al targeting a lungo termine del contenuto per questi diversi segmenti di pubblico.
 
 ## Scenario: da test A/B a Targeting esperienza {#xt-scenario}
 

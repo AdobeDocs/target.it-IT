@@ -22,7 +22,7 @@ topic_v2:
     internal-label: Personalization
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
     internal-label: Machine learning
-source-git-commit: 5f78680bff6489e51d7f0afb6db1c9360f5cb6d1
+source-git-commit: 7eede3484d524e87127de9147aa786484fc87c7d
 workflow-type: tm+mt
 source-wordcount: '1449'
 ht-degree: 32%
@@ -35,7 +35,7 @@ Utilizza [!UICONTROL Frammenti esperienza] (XF) creati in [!DNL Adobe Experience
 
 Considera quanto segue mentre lavori con i [!UICONTROL Frammenti esperienza] di AEM in [!DNL Target]:
 
-* Questa funzionalità è disponibile solo per chi è cliente [!DNL Adobe Experience Manager] (AEM). Per ulteriori informazioni, consulta [Requisiti](#section_AE6F0971E1574B3AA324003599B96E5A), di seguito.
+* Questa funzionalità è disponibile solo per chi è cliente [!DNL Adobe Experience Manager] (AEM). Per ulteriori informazioni, consulta [Requisiti](#requirements), di seguito.
 * [!UICONTROL Frammenti di esperienza] e [!UICONTROL Frammenti di contenuto] sono disponibili per i seguenti tipi di attività:
 
   * [[!UICONTROL Test A/B]](/help/main/c-activities/t-test-ab/test-ab.md)

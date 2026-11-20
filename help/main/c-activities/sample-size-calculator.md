@@ -4,12 +4,18 @@ description: Utilizza il calcolatore delle dimensioni del campione di Adobe Targ
 title: Calcolatore delle dimensioni del campione
 feature: Activities
 badge: label="Beta" type="Informative"
-source-git-commit: d3fb1b69975951d41803be0eb902333332cb1ed1
+source-git-commit: 39876928cad809220f39c0ffe104edf9422e2773
 workflow-type: tm+mt
-source-wordcount: '1604'
-ht-degree: 35%
+source-wordcount: '1632'
+ht-degree: 34%
 ---
-# Calcolatore delle dimensioni del campione
+# Calcolatore delle dimensioni del campione {#sample-size-calculator}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** Scopri come utilizzare il calcolatore delle dimensioni del campione di [!DNL Adobe Target] per stimare il traffico, la durata, il numero di esperienze o l&#39;effetto minimo rilevabile per un test A/B.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="target_sample_size_ab_daily_traffic"

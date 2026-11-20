@@ -19,9 +19,9 @@ topic_v2:
     internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: d27cb7e782e79c68f185f897758c6edb439da2cb
+source-git-commit: 7eede3484d524e87127de9147aa786484fc87c7d
 workflow-type: tm+mt
-source-wordcount: '920'
+source-wordcount: '915'
 ht-degree: 1%
 ---
 # Test A/A {#aa-testing}
@@ -32,7 +32,7 @@ ht-degree: 1%
 
 >[!ENDSHADEBOX]
 
-Un test A/A divide il traffico tra due esperienze identiche. Poiché le esperienze non differiscono, il test è un modo per verificare che l’attività, l’implementazione e i rapporti funzionino come previsto. Tuttavia, esperienze identiche a volte possono mostrare una differenza nell’incremento. Comprendere il motivo per cui consente di eseguire il test e interpretarne correttamente i risultati.
+Un test A/A suddivide il traffico tra due esperienze identiche, pertanto è un modo per verificare che l’attività, l’implementazione e i rapporti funzionino come previsto. Tuttavia, esperienze identiche a volte possono mostrare una differenza nell’incremento. Comprendere il motivo per cui consente di eseguire il test e interpretarne correttamente i risultati.
 
 ## Cos’è il test A/A? {#what-is-aa}
 

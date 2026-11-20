@@ -47,7 +47,7 @@ topic_v2:
     internal-label: Privacy
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: 0ae6991a6a86854bd64a632070a1fcbe544cc606
+source-git-commit: 4f38c80880eedd9b966cdb2f178f408bb529b60c
 workflow-type: tm+mt
 source-wordcount: '2289'
 ht-degree: 20%
@@ -136,7 +136,7 @@ Per ulteriori informazioni, consulta [Test multivariato](/help/main/c-activities
 
 Le attività di [!UICONTROL Consigli] visualizzano automaticamente prodotti o contenuti che potrebbero interessare ai clienti in base alla loro attività precedente o ad altri algoritmi. I consigli aiutano a indirizzare i clienti verso elementi rilevanti che altrimenti potrebbero non scoprire.
 
-Consulta [Funzione Consigli](/help/main/c-recommendations/recommendations.md#concept_7556C8A4543942F2A77B13A29339C0C0) per ulteriori informazioni.
+Consulta [Funzione Consigli](/help/main/c-recommendations/recommendations.md) per ulteriori informazioni.
 
 <!--
 ## How [!DNL Target] counts server-call usage {#usage}

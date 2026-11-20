@@ -21,10 +21,10 @@ topic_v2:
     internal-label: Optimization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 2ffe1a02ae60370b349f9b6f348d24ecb0a8cb2e
+source-git-commit: 7eede3484d524e87127de9147aa786484fc87c7d
 workflow-type: tm+mt
-source-wordcount: '4347'
-ht-degree: 81%
+source-wordcount: '4341'
+ht-degree: 75%
 ---
 # Dieci insidie frequenti per i test A/B e come evitarle {#common-ab-testing-pitfalls}
 
@@ -63,7 +63,7 @@ L’*intervallo di affidabilità*, che viene determinato dopo il completamento d
 * Livello di significatività
 * Deviazione standard della popolazione
 
-Poiché l’addetto al marketing ha selezionato il livello di significatività prima della progettazione del test e la deviazione standard della popolazione non può essere influenzata, l’unico fattore &quot;controllabile&quot; è la dimensione del campione. In fase di progettazione del test è quindi importante determinare la dimensione del campione necessaria per un intervallo di affidabilità accettabile e quanto tempo occorre per raggiungere tale dimensione del campione.
+L’addetto al marketing seleziona il livello di significatività prima che il test sia progettato e la deviazione standard della popolazione non possa essere influenzata, pertanto l’unico fattore &quot;controllabile&quot; è la dimensione del campione. In fase di progettazione del test è quindi importante determinare la dimensione del campione necessaria per un intervallo di affidabilità accettabile e quanto tempo occorre per raggiungere tale dimensione del campione.
 
 Un altro termine direttamente correlato, il *livello di affidabilità*, adotta invece un approccio di tipo “bicchiere mezzo pieno”. Piuttosto che indicare la probabilità di ottenere un falso positivo, come per il livello di significatività, il livello di affidabilità rappresenta la probabilità che il test non faccia tale errore.
 
@@ -99,7 +99,7 @@ Gli addetti al marketing spesso sottopongono a test più di due offerte (o esper
 
 È importante notare che *ogni offerta* sottoposta a test ha un tasso di falso positivo pari al livello di significatività, come descritto in precedenza. Esegui effettivamente più test quando diverse offerte sono contrapposte l&#39;una all&#39;altra all&#39;interno di un singolo ambiente di test. Ad esempio, se confronti cinque offerte in un test A/B/C/D/E, formi effettivamente quattro confronti: tra il controllo e B, tra il controllo e C, tra il controllo e D, tra il controllo ed E. Con un livello di affidabilità del 95%, la probabilità di un falso positivo non è più pari al 5%, bensì al 18,5%.
 
-Per mantenere il livello di affidabilità globale al 95% ed evitare questo problema, si applica la correzione Bonferroni. Con questa correzione, è sufficiente dividere il livello di significatività per il numero di confronti e si ottiene il livello di significatività necessario per raggiungere un livello di affidabilità del 95%.
+Per mantenere il livello di affidabilità globale al 95% ed evitare questo problema, si applica la correzione Bonferroni. Utilizzando questa correzione, il livello di significatività viene diviso per il numero di confronti necessari per ottenere il livello di significatività che deve essere raggiunto con un livello di affidabilità del 95%.
 
 Applicando la correzione Bonferroni all&#39;esempio precedente, si utilizzerebbe un livello di significatività di 5%/4 = 1,25%, che corrisponde al livello di affidabilità del 98,75% per un singolo test (100%-1,25% = 98,75%). Quando si hanno quattro test, come nell&#39;esempio precedente, questa regolazione mantiene il livello di affidabilità effettivo al 95%.
 
@@ -119,7 +119,7 @@ Se vuoi individuare l’offerta con il più alto tasso di conversione, si devono
 
 ## Insidia 3: ignorare gli effetti della potenza statistica {#section_0D517079B7D547CCAA75F80981CBE12A}
 
-La potenza statistica è la probabilità che un test rilevi una reale differenza nel tasso di conversione tra le offerte. A causa della natura casuale o “stocastica” degli eventi di conversione, un test potrebbe non mostrare una differenza statisticamente significativa, anche quando esiste una reale differenza nel tasso di conversione tra due offerte nel lungo periodo. Chiamala sfortuna o caso. Il mancato rilevamento di una reale differenza nel tasso di conversione è chiamato un falso negativo o un errore di Tipo II.
+La potenza statistica è la probabilità che un test rilevi una reale differenza nel tasso di conversione tra le offerte. Un test potrebbe non mostrare una differenza statisticamente significativa, anche quando esiste una differenza reale nel tasso di conversione tra due offerte alla fine, a causa della natura casuale o &quot;stocastica&quot; degli eventi di conversione, come la chiamano gli statistici. Chiamala sfortuna o caso. Il mancato rilevamento di una reale differenza nel tasso di conversione è chiamato un falso negativo o un errore di Tipo II.
 
 Esistono due fattori chiave che determinano la potenza di un test. La prima è la dimensione del campione, cioè il numero di visitatori inclusi nel test. La seconda è l’entità della differenza di tasso di conversione che deve essere rilevata dal test. Forse è intuitivo, ma se sei interessato a rilevare solo grandi differenze di tasso di conversione, c&#39;è una probabilità più elevata che il test rilevi effettivamente tali grandi differenze. Lungo queste linee, minore è la differenza da rilevare, maggiore è la dimensione del campione e, quindi, più tempo sarà necessario per ottenere la dimensione del campione richiesta.
 
@@ -143,9 +143,9 @@ Gli addetti al marketing monitorano frequentemente i test A/B finché un test no
 
 Sfortunatamente, non è così semplice. Infatti il monitoraggio dei risultati influenza negativamente la rilevanza statistica del test. Aumenta notevolmente la probabilità di falsi positivi e rende inattendibili gli intervalli di affidabilità.
 
-Potrebbe sembrare confuso. Sembra che stiamo dicendo che solo guardando i risultati a metà test, puoi fargli perdere il loro significato statistico. Non è esattamente quello che sta succedendo. Il seguente esempio spiega perché.
+Potrebbe sembrare confuso. Sembra che stiamo dicendo che osservando i risultati a metà test, puoi farli perdere il loro significato statistico. Non è esattamente quello che sta succedendo. Il seguente esempio spiega perché.
 
-Supponiamo di simulare 10.000 eventi di conversione di due offerte, entrambe con tassi di conversione del 10%. Poiché i tassi di conversione sono uguali, non dovresti rilevare alcuna differenza nell’incremento di conversione quando sottoponi a test le due offerte tra loro. Con un intervallo di affidabilità del 95%, il test dà il tasso di falso positivo del 5% previsto quando viene valutato dopo che sono state raccolte tutte le 10.000 osservazioni. Quindi, se si eseguono 100 di questi test, in media si ottengono cinque falsi positivi (in realtà, tutti i positivi sono falsi in questo esempio, perché non vi è alcuna differenza nel tasso di conversione tra le due offerte). Tuttavia, se il test viene valutato dieci volte durante l’esecuzione, ogni 1.000 osservazioni, si scopre che il tasso di falso positivo sale al 16%. Il monitoraggio del test ha più che triplicato il rischio di falsi positivi. Come è possibile?
+Supponiamo di simulare 10.000 eventi di conversione di due offerte, entrambe con tassi di conversione del 10%. I tassi di conversione sono gli stessi, pertanto non dovresti rilevare alcuna differenza nell’incremento di conversione quando sottoponi a test le due offerte tra loro. Con un intervallo di affidabilità del 95%, il test dà il tasso di falso positivo del 5% previsto quando viene valutato dopo che sono state raccolte tutte le 10.000 osservazioni. Quindi, se si eseguono 100 di questi test, in media si ottengono cinque falsi positivi (in realtà, tutti i positivi sono falsi in questo esempio, perché non vi è alcuna differenza nel tasso di conversione tra le due offerte). Tuttavia, se il test viene valutato dieci volte durante l’esecuzione, ogni 1.000 osservazioni, si scopre che il tasso di falso positivo sale al 16%. Il monitoraggio del test ha più che triplicato il rischio di falsi positivi. Come è possibile?
 
 Per comprendere perché ciò si verifica, è necessario prendere in considerazione le diverse azioni intraprese quando viene rilevato un risultato significativo e quando non viene rilevato. Quando viene rilevato un risultato statisticamente significativo, il test viene interrotto e viene dichiarato un vincitore. Tuttavia, se il risultato non è statisticamente significativo, il test continuerà. Questa situazione favorisce fortemente un esito positivo e quindi distorce l&#39;effettivo livello di significatività del test.
 
@@ -153,13 +153,13 @@ Per evitare questo problema, prima di avviare un test è necessario determinare 
 
 ## Insidia 6: interrompere prematuramente i test {#section_DF01A97275E44CA5859D825E0DE2F49F}
 
-Se nei primi giorni del test una delle offerte ha risultati migliori o peggiori delle altre, si potrebbe essere tentati di interromperlo. Tuttavia, con un numero ridotto di osservazioni, c&#39;è un&#39;alta probabilità che un incremento positivo o negativo sia imputabile unicamente al caso, perché il tasso di conversione è calcolato dalla media di un numero basso di visitatori. Man mano che il test raccoglie più punti di dati, i tassi di conversione convergono verso i loro reali valori a lungo termine.
+Se nei primi giorni del test una delle offerte ha risultati migliori o peggiori delle altre, si potrebbe essere tentati di interromperlo. Tuttavia, quando il numero di osservazioni è basso, c’è un’alta probabilità che un incremento positivo o negativo venga osservato per caso, perché il tasso di conversione è calcolato come media su un numero basso di visitatori. Man mano che il test raccoglie più punti di dati, i tassi di conversione convergono verso i loro reali valori a lungo termine.
 
 La figura seguente mostra cinque offerte che hanno lo stesso tasso di conversione a lungo termine. L&#39;offerta B ha avuto un tasso di conversione scarso per i primi 2.000 visitatori e ci vuole molto tempo prima che il tasso di conversione stimato corrisponda al reale tasso a lungo termine.
 
 ![Grafico a linee della differenza nel tasso di conversione tra cinque offerte alternative e il controllo: le differenze sono grandi per le prime migliaia di visitatori, ad esempio meno 8 a meno 9% per l&#39;offerta B, e convergono verso zero quando il numero di visitatori aumenta](assets/pitfalls4.png)
 
-Questo fenomeno è noto come “regresso verso la media” e può portare a una delusione quando un’offerta che ha dato buoni risultati nei giorni iniziali di un test alla fine non riesce a mantenere tale livello di prestazioni. Inoltre, se una buona offerta non viene implementata a causa di risultati di un test inizialmente scarsi ma di natura del tutto casuale, si rischia di perdere i ricavi.
+Questo fenomeno è noto come “regresso verso la media” e può portare a una delusione quando un’offerta che ha dato buoni risultati nei giorni iniziali di un test alla fine non riesce a mantenere tale livello di prestazioni. Può anche comportare una perdita di ricavi quando una buona offerta non viene implementata perché si è verificata una sottoprestazione nei primi giorni di un test per caso.
 
 Anche in questo caso, il modo migliore per evitare questo tipo di errori consiste nel determinare un numero adeguato di visitatori prima di avviare il test e lasciare quindi che il test venga eseguito finché tale numero di visitatori adeguato sia stato esposto alle offerte in oggetto.
 
@@ -181,11 +181,11 @@ Per fare un altro esempio, se l’allocazione del traffico del test A/B è suddi
 
 ## Insidia 8: non considerare gli effetti “novità” {#section_90F0D24C40294A8F801B1A6D6DEF9003}
 
-Se non si concede tempo sufficiente per l&#39;esecuzione di un test, possono verificarsi altri eventi imprevisti. Questa volta il problema non è statistico, è semplicemente una reazione al cambiamento da parte dei visitatori. Se cambi una parte consolidata del sito web, i visitatori di ritorno potrebbero, in un primo momento, essere meno coinvolti dalla nuova offerta per via di un cambiamento al loro flusso di lavoro abituale. Questo può causare un temporaneo calo nelle prestazioni di una nuova offerta superiore, fino a quando i visitatori di ritorno si abituano; è un piccolo prezzo da pagare in considerazione dei guadagni a lungo termine che si possono trarre dall’offerta superiore.
+Se non si concede tempo sufficiente per l&#39;esecuzione di un test, possono verificarsi altri eventi imprevisti. Questa volta il problema non è statistico, ma è una reazione al cambiamento da parte dei visitatori. Se cambi una parte consolidata del sito web, i visitatori di ritorno potrebbero, in un primo momento, essere meno coinvolti dalla nuova offerta per via di un cambiamento al loro flusso di lavoro abituale. Questo può causare un temporaneo calo nelle prestazioni di una nuova offerta superiore, fino a quando i visitatori di ritorno si abituano; è un piccolo prezzo da pagare in considerazione dei guadagni a lungo termine che si possono trarre dall’offerta superiore.
 
-Per determinare se la nuova offerta ha prestazioni inferiori a causa di un effetto di novità o perché è veramente inferiore, puoi segmentare i visitatori in nuovi visitatori e visitatori di ritorno e confrontare i tassi di conversione. Se si tratta solo dell’effetto novità, la nuova offerta vince con i nuovi visitatori. Quando poi i visitatori di ritorno si saranno abituati ai nuovi cambiamenti, l’offerta risulta vincente anche per loro.
+Per determinare se la nuova offerta ha prestazioni inferiori a causa di un effetto di novità o perché è veramente inferiore, puoi segmentare i visitatori in nuovi visitatori e visitatori di ritorno e confrontare i tassi di conversione. Se l’effetto novità è l’unica causa, la nuova offerta vince con i nuovi visitatori. Quando poi i visitatori di ritorno si saranno abituati ai nuovi cambiamenti, l’offerta risulta vincente anche per loro.
 
-L’effetto novità può anche funzionare al contrario. I visitatori spesso reagiscono positivamente a un cambiamento, solo perché introduce qualcosa di nuovo. Dopo un po&#39;, passata lla novità, il tasso di conversione scende. Questo effetto è più difficile da identificare, ma può essere rilevata da un attento monitoraggio dei cambiamenti nel tasso di conversione.
+L’effetto novità può anche funzionare al contrario. I visitatori spesso reagiscono positivamente a un cambiamento solo perché introduce qualcosa di nuovo. Dopo un po&#39;, passata lla novità, il tasso di conversione scende. Questo effetto è più difficile da identificare, ma può essere rilevata da un attento monitoraggio dei cambiamenti nel tasso di conversione.
 
 ## Insidia 9: non considerare eventuali differenze nel periodo preso in esame {#section_B166731B5BEE4E578816E351ECDEA992}
 
@@ -201,7 +201,7 @@ Per evitare questa insidia, dopo che è stato interrotto un nuovo ingresso nel t
 
 ## Insidia 10: utilizzare metriche che non riflettono le finalità aziendali {#section_F0CD6DC7993B4A6F9BEEBB31CD1D9BEE}
 
-I marketer potrebbero essere tentati di utilizzare metriche di conversione ad alto traffico e a bassa varianza nella parte iniziale del funnel, ad esempio il CTR (tasso di click-through), per raggiungere più velocemente un numero adeguato di conversioni di test. Tuttavia, valuta attentamente se il CTR è un proxy adeguato per l&#39;obiettivo di business che desideri raggiungere. Offerte con CTR più alto possono portare facilmente a minori ricavi. Questo può accadere quando le offerte attraggono i visitatori con una propensione più bassa a comprare o quando l’offerta stessa, ad esempio un’offerta di sconto, porta semplicemente a minori ricavi.
+I marketer potrebbero essere tentati di utilizzare metriche di conversione ad alto traffico e a bassa varianza nella parte iniziale del funnel, ad esempio il CTR (tasso di click-through), per raggiungere più velocemente un numero adeguato di conversioni di test. Tuttavia, valuta attentamente se il CTR è un proxy adeguato per l&#39;obiettivo di business che desideri raggiungere. Offerte con CTR più elevati possono portare a minori ricavi. Ciò può accadere quando le offerte attirano visitatori con una minore propensione all’acquisto o quando l’offerta stessa, ad esempio un’offerta di sconto, porta a ricavi più bassi.
 
 ![Funnel e metriche dal CTR nella parte superiore per ottenere un profitto in tempo reale nella parte inferiore: maggiore traffico e minore varianza nella parte superiore, più vicini agli obiettivi aziendali nella parte inferiore](assets/pitfalls6.png)
 

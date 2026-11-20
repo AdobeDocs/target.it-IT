@@ -19,7 +19,7 @@ subfeature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: af388cf398e03e4ec7b4c5c44b03f772eacedf51
+source-git-commit: 7eede3484d524e87127de9147aa786484fc87c7d
 workflow-type: tm+mt
 source-wordcount: '900'
 ht-degree: 16%
@@ -58,9 +58,9 @@ Durante la [creazione di un&#39;attività **[!UICONTROL Targeting esperienza]**]
 
    +++ Ulteriori informazioni sui tipi di pubblico
 
-   La libreria del pubblico include tipi di pubblico definiti in precedenza, inclusi alcuni di utilizzo comune già integrati in [!DNL Target]. È possibile selezionare un pubblico dalla libreria o [crearne uno nuovo](/help/main/c-target/c-audiences/audiences.md#concept_65BE870D290E412D8BBF557EEA67C271).
+   La libreria del pubblico include tipi di pubblico definiti in precedenza, inclusi alcuni di utilizzo comune già integrati in [!DNL Target]. È possibile selezionare un pubblico dalla libreria o [crearne uno nuovo](/help/main/c-target/c-audiences/audiences.md).
 
-   Oltre a selezionare un pubblico esistente, puoi combinare più tipi di pubblico per creare un pubblico combinato su richiesta anziché crearne uno nuovo. Per ulteriori informazioni, consulta [Combinazione di più tipi di pubblico](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5).
+   Oltre a selezionare un pubblico esistente, puoi combinare più tipi di pubblico per creare un pubblico combinato su richiesta anziché crearne uno nuovo. Per ulteriori informazioni, consulta [Combinazione di più tipi di pubblico](/help/main/c-target/combining-multiple-audiences.md).
 
    Durante la creazione di un pubblico, puoi selezionare una posizione e specificarne i parametri relativi. In **[!UICONTROL Personalizzato]** (**[!UICONTROL Crea pubblico]** > **[!UICONTROL Personalizzato]**), seleziona la posizione, quindi specifica i parametri desiderati.
 

@@ -23,7 +23,7 @@ topic_v2:
     internal-label: Measurement
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 4dc3c1d5a5a7fa1eb16855e91eb516240df8a65c
+source-git-commit: 7eede3484d524e87127de9147aa786484fc87c7d
 workflow-type: tm+mt
 source-wordcount: '1004'
 ht-degree: 50%
@@ -98,7 +98,7 @@ Se conosci già il percorso DOM del selettore, puoi aggiungerlo manualmente face
 
   Per ulteriori informazioni, consulta [Navigare tra gli elementi utilizzando il percorso DOM](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path) in *Opzioni del Compositore esperienza visivo*.
 
-* È possibile passare a una pagina diversa per monitorare i clic su una pagina in cui non è possibile modificare il contenuto. Questa pagina diversa deve essere inclusa nell&#39;attività utilizzando la [funzionalità multipagina](/help/main/c-experiences/c-visual-experience-composer/multipage-activity.md#concept_277E096063E14813AC5D8EDFA1D2ED48) e [!DNL at.js] deve essere implementato su di essa.
+* È possibile passare a una pagina diversa per monitorare i clic su una pagina in cui non è possibile modificare il contenuto. Questa pagina diversa deve essere inclusa nell&#39;attività utilizzando la [funzionalità multipagina](/help/main/c-experiences/c-visual-experience-composer/multipage-activity.md) e [!DNL at.js] deve essere implementato su di essa.
 * Assicurati di selezionare il livello di elemento di cui desideri tenere traccia. Ad esempio, quando definisci un pulsante, assicurati di selezionare il collegamento e non il testo del pulsante.
 * Se selezioni più di un elemento, quando un partecipante fa clic su uno qualsiasi degli elementi scelti, il clic viene conteggiato. Per contare ogni elemento separatamente, imposta le metriche di successo individuali per ogni elemento. Per contare un elemento facendo clic su più elementi in una pagina, modifica il selettore degli elementi CSS in modo che corrisponda a più elementi.
 * Per le attività di **[!UICONTROL Automated Personalization]** (AP) e Targeting automatico nelle applicazioni a pagina singola (SPA), è possibile selezionare gli elementi per il tracciamento dei clic che appartengono a una visualizzazione [!DNL Target] specifica. Per ulteriori informazioni sulle visualizzazioni, vedere [Visualizzazioni di Adobe Target e applicazioni a pagina singola](/help/main/c-experiences/spa-visual-experience-composer.md).

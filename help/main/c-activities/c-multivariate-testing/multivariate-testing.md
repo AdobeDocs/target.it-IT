@@ -18,7 +18,7 @@ topic_v2:
     internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 0ae6991a6a86854bd64a632070a1fcbe544cc606
+source-git-commit: 7eede3484d524e87127de9147aa786484fc87c7d
 workflow-type: tm+mt
 source-wordcount: '1382'
 ht-degree: 25%
@@ -44,7 +44,7 @@ In [!DNL Target], ogni combinazione è un&#39;esperienza. Il **[!UICONTROL test 
 
 ![Combinazioni test multivariato](assets/multivariate.png)
 
-A causa del numero di combinazioni che possono essere generate, un **[!UICONTROL test multivariato]** richiede più tempo e traffico di un test A/B. La pagina deve ricevere abbastanza traffico per produrre risultati statisticamente significativi per ogni esperienza. Per ottenere risultati utili, scopri la quantità di traffico ricevuto dalla pagina e verifica il numero ottimale di combinazioni per il periodo di tempo corretto.
+Un **[!UICONTROL test multivariato]** richiede più tempo e traffico di un test A/B a causa del numero di combinazioni che possono essere generate. La pagina deve ricevere abbastanza traffico per produrre risultati statisticamente significativi per ogni esperienza. Per ottenere risultati utili, scopri la quantità di traffico ricevuto dalla pagina e verifica il numero ottimale di combinazioni per il periodo di tempo corretto.
 
 Il [Calcolatore del traffico](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator.md#traffic-estimator) può aiutarti a progettare un test che funzioni con il tuo traffico. Prima di utilizzarlo, è necessario disporre di statistiche valide che mostrino il numero di impression e di conversioni che il sito riceve normalmente e considerare i livelli di traffico giornalieri. Più esperienze ha un’attività, più traffico deve includere o più a lungo deve essere eseguita. Se la quantità di traffico non è elevata, prova alcune combinazioni. In caso contrario, il tempo necessario per produrre risultati significativi dei test potrebbe essere troppo lungo per essere utile.
 

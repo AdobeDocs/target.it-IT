@@ -20,10 +20,10 @@ topic_v2:
     internal-label: Customer experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ddd4fa83540294ee229b87f041bc2245ba9a3464
+source-git-commit: 7eede3484d524e87127de9147aa786484fc87c7d
 workflow-type: tm+mt
-source-wordcount: '1313'
-ht-degree: 7%
+source-wordcount: '1312'
+ht-degree: 6%
 ---
 # Algoritmo Foresta casuale {#random-forest-algorithm}
 
@@ -60,7 +60,7 @@ L&#39;albero pone la domanda: &quot;Qual è la variabile più predittiva?&quot; 
 
 ## Come vengono utilizzati gli alberi decisionali da Foresta casuale? {#section_536C105EF9F540C096D60450CAC6F627}
 
-Gli alberi decisionali possono essere un potente strumento statistico. Tuttavia, hanno alcuni svantaggi. La cosa più importante è che possono &quot;adattare eccessivamente&quot; i dati, in modo che un singolo albero predice male i dati futuri che non sono stati utilizzati per costruire l&#39;albero iniziale. Questa sfida è conosciuta come il [compromesso bias-variance](https://en.wikipedia.org/wiki/Bias%E2%80%93variance_tradeoff) nell&#39;apprendimento statistico.
+Gli alberi decisionali sono un utile strumento statistico. Tuttavia, hanno alcuni svantaggi. La cosa più importante è che possono &quot;adattare eccessivamente&quot; i dati, in modo che un singolo albero predice male i dati futuri che non sono stati utilizzati per costruire l&#39;albero iniziale. Questa sfida è conosciuta come il [compromesso bias-variance](https://en.wikipedia.org/wiki/Bias%E2%80%93variance_tradeoff) nell&#39;apprendimento statistico.
 
 Le foreste casuali aiutano a superare questa sfida. Una foresta casuale è una raccolta di centinaia di alberi decisionali che sono costruiti in modo leggermente diverso sullo stesso insieme di dati e che &quot;votano&quot; insieme per produrre un modello migliore di un singolo albero. Gli alberi vengono costruiti selezionando in modo casuale un sottoinsieme di record di visita con la sostituzione (nota come insaccamento) e selezionando in modo casuale un sottoinsieme di attributi, in modo che la foresta sia costituita da alberi decisionali leggermente diversi. Questo metodo introduce piccole variazioni negli alberi. L&#39;aggiunta di questa quantità di varianza controllata consente di migliorare la precisione predittiva dell&#39;algoritmo.
 

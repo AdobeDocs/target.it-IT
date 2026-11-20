@@ -18,7 +18,7 @@ subfeature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: 67ee6127f023f8450e1e6798a617b2bcbd6e7ba6
 workflow-type: tm+mt
 source-wordcount: '764'
 ht-degree: 24%
@@ -61,7 +61,7 @@ La procedura seguente presuppone che tu acceda alla schermata [!UICONTROL Crea n
 
    * **FTP:** Per caricare il file CSV da un server FTP, selezionare **[!UICONTROL FTP]**, quindi immettere le informazioni richieste. Puoi utilizzare SSL, che utilizza il protocollo FTPS per trasferire il file CSV in modo sicuro.
 
-   * **SFTP:** Per caricare il file CSV da un server SFTP, seleziona **[!UICONTROL SFTP]**, quindi immetti il nome host o l&#39;indirizzo IP, la porta (impostazione predefinita: 22), il nome utente, una password e/o la chiave privata SSH, la directory e il nome file. Per informazioni dettagliate, consulta [Impostazioni del server SFTP supportate](/help/main/c-recommendations/c-products/feeds.md#sftp-settings).
+   * **SFTP:** Per caricare il file CSV da un server SFTP, seleziona **[!UICONTROL SFTP]**, quindi immetti il nome host o l&#39;indirizzo IP, la porta (impostazione predefinita: 22), il nome utente, una password e/o la chiave privata SSH, la directory e il nome file. Per informazioni dettagliate, consulta [Impostazioni del server SFTP supportate](/help/main/c-recommendations/c-products/feeds.md#steps).
 
      SFTP non modifica il formato CSV dei criteri personalizzati. Se si utilizza il formato `# Key,Recommendation_1,...`, l&#39;utilizzo di un formato di feed diverso causerà un errore di importazione.
 

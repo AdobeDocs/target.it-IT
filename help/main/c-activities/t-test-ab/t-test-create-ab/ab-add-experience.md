@@ -17,7 +17,7 @@ subfeature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 9f1aaf5c0b172b4bbe89266800708881306e4592
+source-git-commit: 7eede3484d524e87127de9147aa786484fc87c7d
 workflow-type: tm+mt
 source-wordcount: '472'
 ht-degree: 25%
@@ -30,7 +30,7 @@ ht-degree: 25%
 
 >[!ENDSHADEBOX]
 
-Il [!DNL Adobe Target] **[!UICONTROL Compositore esperienza visivo]** (VEC) fornisce un&#39;interfaccia visiva per l&#39;aggiunta e la modifica delle esperienze sulla pagina. Per ulteriori dettagli sulle esperienze, vedi [Esperienze](/help/main/c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D).
+Il [!DNL Adobe Target] **[!UICONTROL Compositore esperienza visivo]** (VEC) fornisce un&#39;interfaccia visiva per l&#39;aggiunta e la modifica delle esperienze sulla pagina. Per ulteriori dettagli sulle esperienze, vedi [Esperienze](/help/main/c-experiences/experiences.md).
 
 ## Aggiungere e progettare un’esperienza {#add-experience}
 
