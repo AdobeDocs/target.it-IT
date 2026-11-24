@@ -2,7 +2,7 @@
 keywords: algoritmi consigli;formazione modello;server modelli;distribuzione contenuti;basato su elementi;basato su utenti;basato su popolarità;basato su carrello;criteri personalizzati;recommendations algorithms;model training;model serving;content delivery;item-based;user-based;popularity-based;cart-based;custom criteria
 description: Scopri gli algoritmi utilizzati in [!DNL Target Recommendations], inclusi l'apprendimento dei modelli e il model serving.
 title: La scienza alla base degli algoritmi della funzione Consigli di Target
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=it#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."
 feature: Recommendations
 mini-toc-levels: 2
 exl-id: c156952b-8eda-491d-a68e-d3d09846f640
@@ -92,7 +92,7 @@ Il diagramma schematico seguente mostra il flusso logico dell’implementazione 
 
 I passaggi sono i seguenti:
 
-* **Dati di input**: dati comportamentali sotto forma di visualizzazioni e acquisti del visitatore, raccolti quando [implementi Target](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} o da [Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md){target=_blank}.
+* **Dati di input**: dati comportamentali sotto forma di visualizzazioni e acquisti del visitatore, raccolti quando [implementi Target](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=it){target=_blank} o da [Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md){target=_blank}.
 
 * **Apprendimento del modello**:
 
@@ -116,7 +116,7 @@ La distribuzione dei modelli e dei contenuti per gli algoritmi di somiglianza de
 
 I passaggi sono i seguenti:
 
-* **Dati di input**: questo algoritmo utilizza solo i dati del catalogo, acquisiti in [!DNL Target] tramite un [feed del catalogo, l&#39;API delle entità o aggiornamenti su pagina](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}.
+* **Dati di input**: questo algoritmo utilizza solo i dati del catalogo, acquisiti in [!DNL Target] tramite un [feed del catalogo, l&#39;API delle entità o aggiornamenti su pagina](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=it){target=_blank}.
 
 * **Apprendimento del modello**:
 
@@ -154,7 +154,7 @@ Il diagramma seguente mostra la logica dei passaggi di apprendimento del modello
 
 I passaggi sono i seguenti:
 
-* **Dati di input**: identico ai metodi di filtro collaborativo elemento-elemento. Sia **[!UICONTROL Consigliato per te]** che gli algoritmi basati su carrello utilizzano dati comportamentali sotto forma di visualizzazioni utente e acquisti, raccolti quando [implementi Target](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} o da [Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md){target=_blank}.
+* **Dati di input**: identico ai metodi di filtro collaborativo elemento-elemento. Sia **[!UICONTROL Consigliato per te]** che gli algoritmi basati su carrello utilizzano dati comportamentali sotto forma di visualizzazioni utente e acquisti, raccolti quando [implementi Target](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=it){target=_blank} o da [Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md){target=_blank}.
 
 * **Apprendimento del modello**:
 

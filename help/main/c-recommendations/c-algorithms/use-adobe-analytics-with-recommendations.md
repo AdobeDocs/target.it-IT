@@ -2,7 +2,7 @@
 keywords: origine dati comportamentali;analisi;consigli;criteri;variabili prodotto
 description: Scopri come utilizzare [!DNL Adobe Analytics] come origine dei dati comportamentali in [!DNL Target Recommendations].
 title: Utilizza Adobe Analytics con la funzione Consigli
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=it#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."
 feature: Recommendations
 exl-id: d2b7e840-9546-4a8e-bec4-1ebea5a79672
 TQID: 'https://experienceleague.adobe.com/2ryixOT-YoKjDlMbqs8g2DJElNVmlCUFhbdZzpfSnNs'
@@ -64,7 +64,7 @@ Implementare le variabili di prodotto in [!DNL Analytics] con gli attributi rich
 >
 >Se si tratta di un sito di contenuti, le rispettive parti di contenuto devono essere trattate come &quot;prodotti&quot; e gli attributi associati di tale contenuto devono essere passati come attributi. Tali attributi possono includere il nome dell’autore, la data di pubblicazione, il titolo del contenuto, il mese di rilascio e così via. L’azienda deve decidere la granularità del livello di categoria, o dei tipi di categoria, in base ai requisiti del caso d’uso.
 
-Per ulteriori dettagli sulla configurazione delle variabili di prodotto, vedi [products](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/products.html) nella *Guida all&#39;implementazione di Adobe Analytics*. Alcune delle note in tale documentazione, ad esempio quelle relative alla categoria, richiedono il giudizio del team che le distribuisce. Consulta [!DNL Adobe] prima che questa attività sia consigliata.
+Per ulteriori dettagli sulla configurazione delle variabili di prodotto, vedi [products](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/products.html?lang=it) nella *Guida all&#39;implementazione di Adobe Analytics*. Alcune delle note in tale documentazione, ad esempio quelle relative alla categoria, richiedono il giudizio del team che le distribuisce. Consulta [!DNL Adobe] prima che questa attività sia consigliata.
 
 ### Considerazioni {#considerations}
 
