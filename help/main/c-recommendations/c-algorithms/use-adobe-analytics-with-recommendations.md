@@ -1,7 +1,7 @@
 ---
 keywords: origine dati comportamentali;analisi;consigli;criteri;variabili prodotto
 description: Scopri come utilizzare [!DNL Adobe Analytics] come origine dei dati comportamentali in [!DNL Target Recommendations].
-title: Come si utilizza [!DNL Adobe Analytics] con [!DNL Target Recommendations]?
+title: Utilizza Adobe Analytics con la funzione Consigli
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=it#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."
 feature: Recommendations
 exl-id: d2b7e840-9546-4a8e-bec4-1ebea5a79672
@@ -24,85 +24,79 @@ topic_v2:
     internal-label: Customer experience
   - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
     internal-label: Behavioral data
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 374d176c5c40826d958a8b87d220422466433690
 workflow-type: tm+mt
-source-wordcount: '806'
-ht-degree: 0%
+source-wordcount: '736'
+ht-degree: 1%
 ---
-# Usa [!DNL Adobe Analytics] con [!DNL Recommendations]
+# Usa [!DNL Adobe Analytics] con [!DNL Recommendations] {#use-analytics-with-recommendations}
 
-L&#39;utilizzo di [!DNL Adobe Analytics] come origine dei dati comportamentali consente ai client di utilizzare i dati comportamentali basati sulla visualizzazione e sull&#39;acquisto di [!DNL Analytics] nelle attività di [!DNL Adobe Target Recommendations]. Questa funzione è particolarmente utile nelle situazioni in cui la configurazione di [!DNL Target Recommendations] è nuova e [!DNL Analytics] contiene molti dati storici da utilizzare.
+>[!BEGINSHADEBOX]
 
-L&#39;utilizzo di [!DNL Analytics] come origine dei dati comportamentali può rappresentare una fonte completa di informazioni sul comportamento degli utenti. Queste informazioni potrebbero includere dati provenienti da un&#39;origine o un feed di terze parti condiviso solo con [!DNL Analytics].
+**In questa pagina:** Scopri come utilizzare [!DNL Adobe Analytics] come origine dei dati comportamentali nelle attività di [!DNL Adobe Target Recommendations].
 
-Durante la [creazione dei criteri](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md) in [!DNL Recommendations], sono disponibili due pulsanti di scelta che consentono di scegliere l&#39;origine dati da utilizzare: [!UICONTROL mbox] o [!UICONTROL Analytics]. Per creare un criterio, fai clic su [!UICONTROL Consigli] > [!UICONTROL Criteri] > [!UICONTROL Crea criterio] > [!UICONTROL Crea criterio]. Per ulteriori informazioni, vedere [Creare i criteri](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md).
+>[!ENDSHADEBOX]
+
+L&#39;utilizzo di [!DNL Adobe Analytics] come origine dei dati comportamentali consente alle attività di [!DNL Adobe Target Recommendations] di utilizzare i dati comportamentali basati su visualizzazione e su acquisto di [!DNL Analytics]. Questa funzione è utile quando la configurazione di [!DNL Target Recommendations] è nuova e [!DNL Analytics] ha molti dati storici da utilizzare. I dati potrebbero inoltre includere informazioni provenienti da un&#39;origine o un feed di terze parti condiviso solo con [!DNL Analytics].
+
+L&#39;origine dati è selezionata con l&#39;opzione **[!UICONTROL Behavioral Data Source]** durante la [creazione dei criteri](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#data-source) in [!DNL Recommendations]: **[!UICONTROL Adobe Target]** o **[!UICONTROL Analytics]**.
 
 >[!NOTE]
 >
->Se questi due pulsanti non vengono visualizzati nel tuo account, contatta l&#39;[Assistenza clienti](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C).
+>Se queste due opzioni non vengono visualizzate nell&#39;account, contatta l&#39;[Assistenza clienti](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C).
 
-## Casi d&#39;uso per i dati [!DNL Analytics] in [!DNL Target]
+## Casi d&#39;uso per i dati [!DNL Analytics] in [!DNL Target] {#use-cases}
 
-L&#39;utilizzo di [!DNL Analytics] come origine dei dati comportamentali per i consigli consente inoltre di distribuire casi d&#39;uso specifici senza la necessità di assegnare tag alle pagine delle entità con tutti i parametri delle entità [!DNL Target]. Anche se questo richiede l’esistenza di alcuni prerequisiti, la disponibilità di &quot;Variabili di prodotto&quot; è la cosa più importante per il corretto funzionamento di tale funzionalità. Le eVar e le proprietà regolari non sono sufficienti per consentire l&#39;esecuzione automatica di questo handshake tra [!DNL Analytics] e [!DNL Target].
+L&#39;utilizzo di [!DNL Analytics] come origine dei dati comportamentali consente inoltre di distribuire casi d&#39;uso specifici senza assegnare tag alle pagine delle entità con tutti i parametri delle entità [!DNL Target]. Questo richiede alcuni prerequisiti e la disponibilità di &quot;Variabili di prodotto&quot; è quella più importante. Le eVar e le proprietà regolari non sono sufficienti per consentire a [!DNL Analytics] e [!DNL Target] di scambiare automaticamente questi dati.
 
-È possibile utilizzare [!DNL Analytics] come origine dei dati comportamentali per:
+[!DNL Analytics] può essere utilizzato come origine dei dati comportamentali per:
 
 * Visualizzare i suggerimenti su un sito di vendita al dettaglio agli utenti in una pagina dei dettagli di un prodotto, in base agli altri utenti che hanno acquistato dalla stessa categoria nell&#39;ultimo mese, utilizzando i dati di [!DNL Analytics].
 * Visualizza contenuto nella schermata iniziale di un sito multimediale per i contenuti più popolari in una particolare categoria che è attualmente in tendenza, in base ai dati di [!DNL Analytics].
 
 ## Implementazione in [!DNL Analytics]
 
-Le sezioni seguenti sono utili per implementare questa funzionalità sul lato [!DNL Analytics].
+### Prerequisiti: configurare le variabili di prodotto in [!DNL Analytics] {#prerequisites}
 
-### Prerequisiti: configurare le variabili di prodotto in [!DNL Analytics]
-
-Implementare le variabili di prodotto in [!DNL Analytics] con gli attributi necessari necessari per [!DNL Target Recommendations].
-
-Un formato di feed di esempio [!DNL Target Recommendations] funge da guida su cui tutti gli attributi devono essere definiti nelle variabili di prodotto. Successivamente, tali valori devono essere &quot;mappati&quot; nell&#39;interfaccia utente [!DNL Target] per i rispettivi valori di entità [!DNL Target].
+Implementare le variabili di prodotto in [!DNL Analytics] con gli attributi richiesti per [!DNL Target Recommendations]. Un esempio di formato di feed [!DNL Target Recommendations] guida gli attributi che devono essere definiti nelle variabili di prodotto. Questi valori devono essere successivamente &quot;mappati&quot; nell&#39;interfaccia utente [!DNL Target] ai rispettivi valori dell&#39;entità [!DNL Target].
 
 >[!NOTE]
 >
->Se si tratta di un sito di contenuti, le rispettive parti di contenuto devono essere trattate come &quot;prodotti&quot; e gli attributi associati a tale contenuto devono essere passati come attributi. Tali attributi possono includere il nome dell’autore, la data di pubblicazione, il titolo del contenuto, il mese di rilascio e così via. La granularità del livello di categoria, o dei tipi di categoria, deve essere decisa dall’azienda in base ai requisiti del caso d’uso.
+>Se si tratta di un sito di contenuti, le rispettive parti di contenuto devono essere trattate come &quot;prodotti&quot; e gli attributi associati di tale contenuto devono essere passati come attributi. Tali attributi possono includere il nome dell’autore, la data di pubblicazione, il titolo del contenuto, il mese di rilascio e così via. L’azienda deve decidere la granularità del livello di categoria, o dei tipi di categoria, in base ai requisiti del caso d’uso.
 
-Per ulteriori dettagli sulla configurazione delle variabili di prodotto, vedi [products](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/products.html?lang=it) nella *Guida all&#39;implementazione di Adobe Analytics*. Alcune delle note in tale documentazione richiedono discrezione da parte del team che la sta distribuendo (ad esempio: Categoria). È sempre consigliabile consultare [!DNL Adobe] prima di eseguire questa attività.
+Per ulteriori dettagli sulla configurazione delle variabili di prodotto, vedi [products](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/products.html?lang=it) nella *Guida all&#39;implementazione di Adobe Analytics*. Alcune delle note in tale documentazione, ad esempio quelle relative alla categoria, richiedono il giudizio del team che le distribuisce. Consulta [!DNL Adobe] prima che questa attività sia consigliata.
 
-### Considerazioni
+### Considerazioni {#considerations}
 
-I dati di [!DNL Analytics] vengono inviati tramite un feed giornaliero. I risultati comportamentali possono richiedere fino a 24 ore per essere rispecchiati nei risultati dei consigli sul sito. Come per tutte le impostazioni dei criteri [!DNL Recommendations], questa origine dati può e deve essere testata.
+I dati di [!DNL Analytics] vengono inviati tramite un feed giornaliero. I risultati comportamentali possono richiedere fino a 24 ore per essere riflessi nei risultati delle raccomandazioni sul sito. Come per tutte le impostazioni dei criteri [!DNL Recommendations], questa origine dati deve essere testata.
 
-Per un processo decisionale rapido su quale origine dati deve essere utilizzata, se ogni giorno gli utenti generano molti dati organici e non è necessaria una grande dipendenza dai dati storici, l&#39;utilizzo di una mbox [!DNL Target] come origine dati comportamentali può essere una buona soluzione. Nei casi di minore disponibilità di dati organici generati di recente, se desideri basarti sui dati [!DNL Analytics], l&#39;utilizzo di [!DNL Analytics] come origine di dati comportamentali è una buona soluzione.
+Per scegliere un&#39;origine dati:
 
-Ora è il momento di mappare queste variabili sul lato [!DNL Target] per la fornitura continua di dati comportamentali.
+* Una mbox [!DNL Target] è adatta quando molti dati organici vengono generati ogni giorno dagli utenti ed è necessaria una piccola dipendenza dai dati storici.
+* [!DNL Analytics] è adatto quando di recente sono stati generati meno dati organici e devono essere utilizzati i dati [!DNL Analytics].
 
-## Implementare in [!DNL Target]
+I valori `entity.id` e `entity.categoryId` devono ancora essere trasmessi nella chiamata mbox [!DNL Target]. Gli altri attributi possono essere trasmessi tramite un feed [!DNL Analytics], come descritto in questa pagina.
+
+Le regole di inclusione dinamica, ad esempio la corrispondenza di un parametro di entità a un attributo di profilo, possono essere utilizzate con l&#39;approccio feed [!DNL Analytics]. Il metodo è simile all&#39;utilizzo di [!DNL Target] in modo autonomo, ma è necessario considerare la tempistica: le variabili di entità che devono corrispondere alle variabili di profilo dipendono dal livello dati, che potrebbe apparire molto più tardi sulla pagina.
+
+## Implementare in [!DNL Target] {#implement-target}
+
+Le variabili di prodotto sono mappate in [!DNL Target] per fornire una fornitura continua di dati comportamentali.
 
 1. In [!DNL Target], fai clic su **[!UICONTROL Consigli]**, quindi fai clic sulla scheda **[!UICONTROL Feed]**.
 
 1. Fare clic su **[!UICONTROL Crea feed]**.
 
+   ![Pagina Feed con il pulsante Crea feed evidenziato](../assets/feeds_1.png)
+
 1. Seleziona **[!UICONTROL Classificazioni Analytics]**, quindi specifica la suite di rapporti.
 
-1. Fai clic su **[!UICONTROL Avanti]** per passare alle impostazioni **[!UICONTROL Pianifica]**, quindi seleziona un periodo di frequenza per il feed:
+1. Fai clic su **[!UICONTROL Avanti]** per passare alle impostazioni **[!UICONTROL Pianifica]**, quindi seleziona una frequenza per il feed: **[!UICONTROL Giornaliero]**, **[!UICONTROL Settimanale]**, **[!UICONTROL Ogni 2 settimane]** o **[!UICONTROL Mai]**. È inoltre possibile selezionare l’ora del giorno in cui elaborare il feed.
 
-   * [!UICONTROL Giornaliero]
-   * [!UICONTROL Settimanale]
-   * [!UICONTROL Ogni 2 settimane]
-   * [!UICONTROL Mai]
+   ![Passaggio pianificato della finestra di dialogo Crea feed con le opzioni di frequenza Giornaliero, Settimanale, Ogni 2 settimane e Mai e il campo Ora del giorno](../assets/feeds_3.png)
 
-   Puoi anche selezionare l’ora del giorno in cui il feed deve essere elaborato.
-
-1. Fai clic su **[!UICONTROL Avanti]** per passare alle impostazioni di **[!UICONTROL Mappatura]**, quindi mappa le intestazioni delle colonne di campo ai nomi di campo [!UICONTROL Consigli] appropriati.
+1. Fai clic su **[!UICONTROL Avanti]** per passare alle impostazioni di **[!UICONTROL Mappatura]**, quindi mappa le intestazioni delle colonne di campo ai nomi di campo **[!UICONTROL Consigli]** appropriati.
 
 1. Fai clic su **[!UICONTROL Salva]**.
 
-## Domande frequenti
-
-Considera le seguenti domande frequenti mentre utilizzi [!DNL Analytics] con [!DNL Target]:
-
-### I valori `entity.id` e `entity.categoryId` devono essere trasmessi entro la chiamata mbox [!DNL Target]?
-
-Sì, questi due valori sono ancora obbligatori. Gli altri attributi possono essere trasmessi tramite un feed [!DNL Analytics], come descritto in questo documento.
-
-### È possibile utilizzare le regole di inclusione dinamica, ad esempio il parametro di entità corrisponde agli attributi del profilo utilizzando l&#39;approccio feed [!DNL Analytics]?
-
-Sì, puoi. Il metodo è simile quando si utilizza [!DNL Target] in modalità autonoma. In questo caso, tuttavia, devi prestare attenzione al fattore temporale. Le variabili di entità che devono corrispondere alle variabili di profilo dipendono dal livello dati che potrebbe apparire molto più tardi sulla pagina.
+Per ulteriori informazioni sulla creazione di un feed, vedere [Creare un feed](/help/main/c-recommendations/c-products/feeds.md#steps).

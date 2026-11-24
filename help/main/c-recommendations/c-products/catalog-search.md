@@ -20,28 +20,42 @@ topic_v2:
     internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 3883dc9752db0a2427f70cb3036fe060c440361a
 workflow-type: tm+mt
-source-wordcount: '554'
-ht-degree: 20%
+source-wordcount: '551'
+ht-degree: 7%
 ---
-# [!UICONTROL Ricerca nel catalogo]
+# [!UICONTROL Ricerca nel catalogo] {#catalog-search}
 
-La pagina [!UICONTROL Ricerca nel catalogo] in [!DNL Adobe Recommendations] consente di individuare i prodotti o il contenuto nel catalogo. L&#39;operazione di base che è possibile eseguire in questa pagina è la ricerca di un elemento. Inoltre, puoi modificare l’ambiente, filtrare i facet, modificare le colonne della tabella, aggiungere nuovi facet di ricerca e altro ancora.
+>[!BEGINSHADEBOX]
 
-I cataloghi si riferiscono all’intero set di prodotti (entità). Il catalogo può contenere molte raccolte, un modo per organizzare i prodotti in contenitori logici.
+**In questa pagina:** Scopri come cercare nel catalogo in [!DNL Adobe Recommendations] per individuare prodotti o contenuti e come filtrare, visualizzare e rimuovere elementi.
 
-## Accedi a [!UICONTROL Ricerca nel catalogo]
+>[!ENDSHADEBOX]
 
-1. Per accedere alla pagina [!UICONTROL Ricerca nel catalogo], fai clic su **[!UICONTROL Consigli]** > **[!UICONTROL Ricerca nel catalogo]**.
+La pagina **[!UICONTROL Ricerca nel catalogo]** in [!DNL Adobe Recommendations] viene utilizzata per individuare i prodotti o il contenuto nel catalogo. L’attività di base in questa pagina è quella di cercare un elemento. La pagina consente inoltre di modificare l’ambiente, filtrare i facet, modificare le colonne della tabella e altro ancora.
 
-1. (Facoltativo) Per applicare i filtri alla ricerca, fai clic sull&#39;icona **[!UICONTROL Mostra filtri]** ( ![Mostra icona filtri](/help/main/assets/icons/Filter.svg) ). Puoi filtrare per [!UICONTROL Ambiente], [!UICONTROL Raccolte], [!UICONTROL Categoria], [!UICONTROL Marchio], [!UICONTROL Inventario] e [!UICONTROL Valore].
+Il catalogo è l’intero set di prodotti (entità). Può contenere molte raccolte, che organizzano i prodotti in gruppi logici.
 
-## Eseguire una ricerca semplice
+L&#39;indice del catalogo viene creato automaticamente al caricamento del primo feed e aggiornato in base alla [pianificazione specificata](/help/main/c-recommendations/c-products/feeds.md#steps).
+
+Il catalogo viene aggiornato automaticamente quando si ricevono aggiornamenti tramite file di feed, API o aggiornamenti mbox. In genere, gli aggiornamenti vengono completati entro un’ora. Se sono in corso degli aggiornamenti, viene visualizzata l’ora di inizio dell’aggiornamento più recente. Se non vi sono aggiornamenti in corso, viene visualizzata l’ora di inizio e di fine dell’aggiornamento più recente.
+
+## Ricerca nel catalogo
+
+Utilizzare i risultati della ricerca per esaminare gli elementi nel catalogo e, se necessario, rimuoverne gli elementi.
+
+1. Fai clic su **[!UICONTROL Consigli]** > **[!UICONTROL Ricerca nel catalogo]**.
+
+1. (Facoltativo) Per filtrare i risultati, fai clic sull&#39;icona **[!UICONTROL Mostra filtri]** ( ![Mostra icona filtri](/help/main/assets/icons/Filter.svg) ), quindi seleziona i filtri da applicare. I filtri disponibili sono **[!UICONTROL Ambiente]**, **[!UICONTROL Raccolte]**, **[!UICONTROL Categoria]**, **[!UICONTROL Marchio]**, **[!UICONTROL Inventario]** e **[!UICONTROL Valore]**.
+
+   [Ambienti](/help/main/administrating-target/environments.md) organizzano siti e ambienti di pre-produzione per la gestione e la generazione di rapporti separati. Per modificare l&#39;ambiente, selezionare l&#39;ambiente desiderato dall&#39;elenco a discesa **[!UICONTROL Ambiente]**.
+
+   ![Pagina Ricerca nel catalogo con il pannello dei filtri evidenziato: Raccolte, Categoria, Marchio, Inventario, Valore e Ricerca avanzata](../assets/catalog_search.png)
 
 1. Digitare un termine di ricerca nel campo **[!UICONTROL Cerca in]**.
 
-1. (Facoltativo) Puoi perfezionare la ricerca selezionando un&#39;opzione di ricerca dal menu delle opzioni visualizzato quando fai clic sulla freccia rivolta verso il basso nel campo [!UICONTROL Cerca in].
+1. (Facoltativo) Affina la ricerca selezionando un&#39;opzione di ricerca dal menu delle opzioni, che si apre dalla freccia giù nel campo **[!UICONTROL Cerca in]**.
 
    Le opzioni di ricerca includono:
 
@@ -49,13 +63,27 @@ I cataloghi si riferiscono all’intero set di prodotti (entità). Il catalogo p
    * Nome
    * Messaggio
 
+1. Fai clic sull&#39;icona **[!UICONTROL Personalizza tabella]** ( ![Icona Personalizza tabella](/help/main/assets/icons/ColumnSetting.svg) ) per modificare le colonne attive nella pagina **[!UICONTROL Ricerca nel catalogo]**.
+
+   ![Pagina Ricerca nel catalogo con l&#39;icona Personalizza tabella evidenziata](../assets/catalog_search_4.png)
+
 1. Scorrere gli elementi nei risultati della ricerca per visualizzare miniature e altre informazioni sul prodotto.
 
    >[!NOTE]
    >
-   > Quando esegui sul catalogo la ricerca di un attributo personalizzato con un valore numerico, l’attributo personalizzato viene considerato come di tipo stringa anziché come valore numerico.
+   >In una ricerca nel catalogo per un attributo personalizzato con un valore numerico, l’attributo personalizzato viene considerato come di tipo stringa anziché come valore numerico.
    >
-   >Al momento non è disponibile alcuna funzionalità che consenta di modificare il tipo di un attributo. Per apportare una modifica, [apri un problema cliente](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) facendo riferimento agli attributi che richiedono la modifica del tipo da stringa a numerico.
+   >Il tipo di un attributo non può essere modificato. Per richiedere una modifica, [apri un problema cliente](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) facendo riferimento agli attributi il cui tipo deve passare da stringa a numerico.
+
+1. Fai clic su un elemento nei risultati della ricerca per visualizzarne i dettagli, tra cui ID, nome, messaggio, categoria e altro ancora.
+
+   ![Dettagli di un elemento del catalogo con ID, categorie, margine e altri attributi](../assets/catalog_search_2.png)
+
+1. Per rimuovere l&#39;elemento dal catalogo, fare clic su **[!UICONTROL Rimuovi dal catalogo]**.
+
+   Tutte le informazioni sull&#39;elemento vengono quindi rimosse dall&#39;indice del catalogo. L’elemento viene incluso nuovamente nel catalogo solo se viene aggiunto nuovamente in un feed di dati. Anche un elemento eliminato deve essere eliminato separatamente dai feed.
+
+   ![Dettagli di un elemento del catalogo con il pulsante Rimuovi dal catalogo evidenziato](../assets/catalog_search_3.png)
 
 <!--
 ### Perform an advanced search {#advanced-search}
@@ -81,52 +109,6 @@ You can use [!UICONTROL Advanced Search] to further refine your search results o
    For more information, see [Create a collection or exclusion based on Advanced Search](#save-as) below.
 -->
 
-## Visualizzare i dettagli di un elemento
-
-Puoi visualizzare i dettagli di un singolo elemento, tra cui ID, nome, messaggio, categoria e altro ancora, visualizzandone i dettagli.
-
-1. Fare clic su un elemento nei risultati della ricerca per visualizzarne i dettagli.
-
-## Rimuovere un elemento dal catalogo
-
-1. Fare clic su un elemento nei risultati della ricerca per visualizzarne i dettagli.
-
-1. Fare clic su **[!UICONTROL Rimuovi dal catalogo]**.
-
-1. Confermare la rimozione dell&#39;elemento.
-
-Tutte le informazioni sull&#39;elemento vengono rimosse dall&#39;indice del catalogo. L’elemento verrà incluso nel catalogo solo se viene aggiunto nuovamente in un feed di dati. Un elemento eliminato deve essere eliminato separatamente dai feed.
-
-## Aggiorna il catalogo
-
-L&#39;indice del catalogo viene creato automaticamente al caricamento del primo feed e aggiornato in base alla [pianificazione specificata](/help/main/c-recommendations/c-products/feeds.md#steps).
-
-Il catalogo viene aggiornato automaticamente quando si ricevono aggiornamenti tramite file di feed, API o aggiornamenti di mbox. In genere, gli aggiornamenti vengono completati entro un’ora. Se sono in corso degli aggiornamenti, viene visualizzata l’ora di inizio dell’aggiornamento più recente. Se non vi sono aggiornamenti in corso, viene visualizzata l’ora di inizio e di fine dell’aggiornamento più recente.
-
-<!--
-## Create a collection or exclusion based on Advanced Search {#save-as}
-
-You can create [collections](/help/main/c-recommendations/c-products/collections.md) or [exclusions](/help/main/c-recommendations/c-products/exclusions.md) using [!UICONTROL Advanced Search] on the [!UICONTROL Catalog Search] page ([!UICONTROL Recommendations] > [!UICONTROL Catalog Search] > [!UICONTROL Advanced Search]).
-
-1. Perform an [advanced search](#advanced-search).
-
-1. Click **[!UICONTROL Save As]**, then click **[!UICONTROL Collection]** or **[!UICONTROL Exclusion]**.
-
-   ![Save as options](/help/main/c-recommendations/c-products/assets/save-as.png)
-
-   >[!IMPORTANT]
-   >
-   >The [!UICONTROL Advanced Search] functionality is case-insensitive; however, products returned at the time of delivery are based on case-sensitive search. This mismatch might lead to confusion. Ensure that you consider case-sensitivity when you create collections or exclusions based on results using the [!UICONTROL Advanced Search] functionality. For example, if you perform a search for "Holiday," that initial search lists results containing "Holiday" and "holiday." If you then create a catalog with the intent to return products containing "holiday," only products containing "holiday" are returned. Products containing "Holiday" are not returned. Exclusions are handled in a similar fashion.
--->
-
-## Modificare l’ambiente
-
-[Ambienti](/help/main/administrating-target/environments.md) consente di organizzare i siti e gli ambienti di pre-produzione per semplificare la gestione e la creazione di rapporti separati.
-
-1. Fare clic sull&#39;icona Mostra filtri ( ![icona Mostra filtri](/help/main/assets/icons/Filter.svg) ).
-
-1. Selezionare l&#39;ambiente desiderato dall&#39;elenco a discesa **[!UICONTROL Ambiente]**.
-
 <!--
 ## Modify the Catalog Search page (filters and columns)
 
@@ -147,12 +129,20 @@ You can add additional filter facets to the [!UICONTROL Catalog Search] page.
 Keep in mind that the additional filter facets are available in the current session only.
 -->
 
-## Modifica colonne
 
-Puoi modificare le colonne attive nella pagina [!UICONTROL Ricerca nel catalogo].
 
-1. Fai clic sull&#39;icona **[!UICONTROL Personalizza tabella]** ( ![Personalizza tabella icona](/help/main/assets/icons/ColumnSetting.svg) ).
+<!--
+## Create a collection or exclusion based on Advanced Search {#save-as}
 
-1. Seleziona o deseleziona le colonne desiderate da visualizzare o nascondere.
+You can create [collections](/help/main/c-recommendations/c-products/collections.md) or [exclusions](/help/main/c-recommendations/c-products/exclusions.md) using [!UICONTROL Advanced Search] on the [!UICONTROL Catalog Search] page ([!UICONTROL Recommendations] > [!UICONTROL Catalog Search] > [!UICONTROL Advanced Search]).
 
-Tutte le modifiche apportate rimangono invariate nelle sessioni.
+1. Perform an [advanced search](#advanced-search).
+
+1. Click **[!UICONTROL Save As]**, then click **[!UICONTROL Collection]** or **[!UICONTROL Exclusion]**.
+
+   ![Save as options](/help/main/c-recommendations/c-products/assets/save-as.png)
+
+   >[!IMPORTANT]
+   >
+   >The [!UICONTROL Advanced Search] functionality is case-insensitive; however, products returned at the time of delivery are based on case-sensitive search. This mismatch might lead to confusion. Ensure that you consider case-sensitivity when you create collections or exclusions based on results using the [!UICONTROL Advanced Search] functionality. For example, if you perform a search for "Holiday," that initial search lists results containing "Holiday" and "holiday." If you then create a catalog with the intent to return products containing "holiday," only products containing "holiday" are returned. Products containing "Holiday" are not returned. Exclusions are handled in a similar fashion.
+-->

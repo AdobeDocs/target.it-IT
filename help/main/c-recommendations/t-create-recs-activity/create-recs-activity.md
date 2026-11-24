@@ -22,7 +22,7 @@ topic_v2:
     internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: f9c9c7b2b78ec020fcabae420686b8955e350a0e
 workflow-type: tm+mt
 source-wordcount: '1306'
 ht-degree: 52%
@@ -108,7 +108,7 @@ Utilizzare il [!DNL Target] [!UICONTROL Compositore esperienza visivo] per crear
 1. Fai clic su **[!UICONTROL Avanti]**.
 1. Seleziona un [design](/help/main/c-recommendations/c-design-overview/design-overview.md).
 
-   Una progettazione è un modello che determina l’aspetto delle posizioni sulla pagina. [!DNL Target] include diverse progettazioni preconfigurate. Puoi anche creare progettazioni personalizzate. Per ulteriori informazioni, vedere [Creare una progettazione](/help/main/c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14) e [Personalizzare una progettazione](/help/main/c-recommendations/c-design-overview/customizing-a-template.md#concept_94F1554C3F2E4CDB9A2C3D78F10EDA59).
+   Una progettazione è un modello che determina l’aspetto delle posizioni sulla pagina. [!DNL Target] include diverse progettazioni preconfigurate. Puoi anche creare progettazioni personalizzate. Per ulteriori informazioni, vedere [Creare una progettazione](/help/main/c-recommendations/c-design-overview/create-design.md#create-design) e [Personalizzare una progettazione](/help/main/c-recommendations/c-design-overview/customizing-a-template.md#customize-design).
 
    ![Finestra di dialogo Seleziona design](/help/main/c-recommendations/t-create-recs-activity/assets/Card_SelectDesign.png)
 
@@ -118,7 +118,7 @@ Utilizzare il [!DNL Target] [!UICONTROL Compositore esperienza visivo] per crear
 
      Se hai selezionato più criteri, puoi selezionare un solo design.
 
-   * Per creare una progettazione personalizzata, fare clic su **[!UICONTROL Crea progettazione]**, quindi immettere il nome e il codice per la nuova progettazione. Fai clic su **[!UICONTROL Successivo]**, quindi seleziona o carica un’immagine e fai clic su **[!UICONTROL Fine]** > **[!UICONTROL Fine]**. Per informazioni sulla creazione di una nuova progettazione, consulta [Creare una progettazione](/help/main/c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14).
+   * Per creare una progettazione personalizzata, fare clic su **[!UICONTROL Crea progettazione]**, quindi immettere il nome e il codice per la nuova progettazione. Fai clic su **[!UICONTROL Successivo]**, quindi seleziona o carica un’immagine e fai clic su **[!UICONTROL Fine]** > **[!UICONTROL Fine]**. Per informazioni sulla creazione di una nuova progettazione, consulta [Creare una progettazione](/help/main/c-recommendations/c-design-overview/create-design.md#create-design).
 
 1. Fai clic su **[!UICONTROL Avanti]**.
 

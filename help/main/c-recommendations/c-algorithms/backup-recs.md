@@ -1,7 +1,7 @@
 ---
 keywords: consigli;backup;back up
 description: Scopri come utilizzare i consigli di backup in Adobe [!DNL Target Recommendations].
-title: Come si utilizza un consiglio di backup in [!DNL Target Recommendations]?
+title: Utilizzare un consiglio di backup
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=it#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."
 feature: Recommendations
 exl-id: 070aa8ef-5691-4106-b5cf-45eb9f6f334c
@@ -22,46 +22,43 @@ topic_v2:
     internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: e8a9b6be04169ea3024673babb62085667fe8990
 workflow-type: tm+mt
-source-wordcount: '536'
-ht-degree: 64%
+source-wordcount: '497'
+ht-degree: 18%
 ---
-# Utilizzare un consiglio di backup
+# Utilizzare un consiglio di backup {#backup-recommendations}
 
-Se si utilizza la funzione di consiglio di backup in [!DNL Adobe Target], per i consigli privi di un numero sufficiente di elementi consigliati non viene visualizzato il contenuto predefinito. Al loro posto saranno visualizzati i risultati dell’algoritmo di backup.
+>[!BEGINSHADEBOX]
 
-Se non utilizzi un consiglio di backup e per un consiglio non sono presenti elementi sufficienti a popolare completamente la visualizzazione, nel sistema viene visualizzato il contenuto predefinito per l’utente.
+**In questa pagina:** Scopri come i consigli di backup riempiono gli slot rimanenti di una progettazione in [!DNL Adobe Target Recommendations].
+
+>[!ENDSHADEBOX]
+
+Quando un consiglio non dispone di un numero sufficiente di elementi consigliati per riempire la progettazione, la funzionalità di consiglio di backup in [!DNL Adobe Target] visualizza i risultati dell&#39;algoritmo di backup anziché il contenuto predefinito. Senza un consiglio di backup, il sistema visualizza il contenuto predefinito all’utente.
 
 >[!NOTE]
 >
->Ulteriori informazioni sono incluse nella sezione [Content dell&#39;argomento Create criteria](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#content), inclusa una matrice che spiega i risultati che si osserveranno quando si utilizzano le opzioni [!UICONTROL Partial Design Rendering] e [!UICONTROL Show Backup Recommendations] insieme o separatamente.
+>Per ulteriori informazioni, inclusa una matrice che spiega i risultati dell&#39;utilizzo delle opzioni **[!UICONTROL Rendering design parziale]** e **[!UICONTROL Mostra contenuto di backup]** insieme o separatamente, vedere la sezione [Contenuto di backup dei criteri di creazione](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#content).
 
-La funzione di consigli di backup utilizza sempre gli elementi visualizzati in alto sul sito per riempire eventuali slot rimanenti dopo l’utilizzo dei dati dell’algoritmo. Ad esempio, il modello è configurato per mostrare cinque elementi consigliati e stai utilizzando l&#39;algoritmo *Affinità di acquisto*. Se tuttavia i dati sono sufficienti solo per popolare due spazi su cinque, la funzione di consiglio di backup popola gli altri tre con gli elementi più visualizzati.
+La funzione di consigli di backup utilizza sempre gli elementi visualizzati in alto sul sito per riempire eventuali slot rimanenti dopo l’utilizzo dei dati dell’algoritmo. Ad esempio, una progettazione è configurata per mostrare cinque elementi consigliati, ma l’algoritmo dispone di dati sufficienti per riempire solo due dei cinque slot. La funzione di consiglio di backup riempie gli altri tre slot con gli elementi visualizzati in alto.
 
 I consigli di backup vengono selezionati in modo casuale tra i 500 prodotti più visualizzati in tutto il sito. I dati raccolti per i consigli di backup coprono una settimana.
 
-I 500 risultati più visualizzati vengono ordinati sequenzialmente e poi divisi in blocchi di 20. I blocchi vengono forniti in ordine, ma i risultati all’interno di ogni blocco sono randomizzati e restituiti alla pagina. Se gli utenti aggiornano la pagina, vengono presentati risultati nuovi e randomizzati. Se il set di risultati dall’unione della raccolta e le regole di filtro sono inferiori a 20, viene selezionato in modo casuale dalla raccolta.
+I 500 risultati più visualizzati vengono ordinati sequenzialmente e poi suddivisi in bucket di 20. I bucket vengono serviti in ordine, ma i risultati all’interno di ogni bucket vengono randomizzati e restituiti alla pagina, in modo che gli utenti che aggiornano la pagina ricevano nuovi risultati randomizzati. Se il set di risultati dall’unione della raccolta e le regole di filtro sono inferiori a 20, gli elementi vengono selezionati in modo casuale dalla raccolta.
 
-Questo processo di divisione in blocchi determina che i consigli di backup vengano visualizzati nell’ordine seguente:
+Grazie a questo processo di suddivisione in bucket, i consigli di backup vengono visualizzati nell’ordine seguente:
 
-1. Mostra i 20 elementi più visualizzati, randomizzati, quindi
-1. Mostra i successivi 20 elementi più visualizzati, randomizzati, quindi
-1. Mostra i successivi 20 elementi più visualizzati, randomizzati,
-1. E così via
+1. I 20 elementi più visualizzati, randomizzati.
+1. I successivi 20 elementi più visualizzati, randomizzati.
+1. I successivi 20 elementi più visualizzati, randomizzati e così via.
 
-Senza la divisione in blocchi dei consigli di backup, il primo consiglio presentato potrebbe essere ad esempio il 499° elemento più visualizzato, seguito dal 200°, dal 380° e così via. Grazie al processo di divisione in blocchi, invece, gli articoli più visualizzati vengono consigliati per primi.
+Senza bucket, è possibile visualizzare il 499esimo elemento più visualizzato, seguito dal 200esimo, dal 380esimo e così via. Il bucket assicura che gli articoli più visualizzati siano consigliati per primi.
 
->[!NOTE]
->
->Se raggruppi gli articoli in cataloghi, anche i consigli di backup generati per ogni algoritmo all’interno dei consigli utilizzano questo catalogo; di conseguenza, nei consigli di backup vengono inclusi solo gli articoli del catalogo.
+Se gli elementi sono raggruppati in raccolte, anche i consigli di backup generati per ciascun criterio utilizzano la raccolta, in modo da includere nel consiglio di backup solo gli elementi della raccolta. Gli articoli esclusi dalle regole di esclusione globali non vengono distribuiti come consigli di backup. I duplicati vengono rimossi dai blocchi di consigli.
 
-Gli articoli esclusi dalle regole di esclusione globali non vengono distribuiti come consigli di backup.
+I consigli di backup sono abilitati per impostazione predefinita e riempiono gli slot aggiuntivi in una progettazione con una selezione casuale degli elementi più popolari sul sito.
 
-I consigli di backup sono abilitati per impostazione predefinita e popolano gli spazi aggiuntivi in un modello con una selezione casuale degli articoli più popolari sul sito.
+L’utilizzo dei consigli di backup solitamente fa parte della discussione con il team di implementazione durante la configurazione iniziale. Per modificare l’impostazione dei consigli di backup dopo l’implementazione, contatta l’account manager.
 
-I duplicati vengono rimossi dai blocchi di consigli.
-
-L’utilizzo dei consigli di backup viene di solito discusso con il team di implementazione durante la configurazione iniziale. Se desideri modificare l’impostazione relativa ai consigli di backup dopo l’implementazione, contatta il tuo Account Manager.
-
-Se Abilita rendering design parziale (vedi [Impostazioni contenuto](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#content)) non è abilitato e il modello non viene visualizzato, verrà visualizzato il consiglio di backup o il contenuto predefinito.
+Quando **[!UICONTROL Rendering design parziale]** (vedi [Contenuto backup](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#content)) non è abilitato e la progettazione non può essere riempita, vengono visualizzati i consigli di backup (se abilitati) o il contenuto predefinito.

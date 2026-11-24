@@ -1,7 +1,7 @@
 ---
 keywords: regole di inclusione;criteri di inclusione;consigli;promozione;promozioni;filtro dinamico;statico;filtro statico
 description: Scopri come immettere manualmente uno o più valori statici da filtrare utilizzando le regole di inclusione in Consigli di Adobe [!DNL Target].
-title: Come Posso Filtrare Per Valori Statici Nelle Attività Di Consigli?
+title: Filtro statico
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=it#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."
 feature: Recommendations
 exl-id: 217e19bf-521f-4913-9b41-099c9af8b393
@@ -18,23 +18,21 @@ subfeature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: e8a9b6be04169ea3024673babb62085667fe8990
 workflow-type: tm+mt
-source-wordcount: '250'
-ht-degree: 32%
+source-wordcount: '184'
+ht-degree: 2%
 ---
-# [!UICONTROL Filtro statico]
+# Filtro statico {#static-filter}
 
-Immettere manualmente uno o più valori statici da filtrare utilizzando le regole di inclusione in [!DNL Adobe Target Recommendations].
+>[!BEGINSHADEBOX]
 
-Ad esempio, per consigliare solo i contenuti con classificazione Motion Picture Association (MPA) &quot;G&quot; o &quot;PG&quot;.
+**In questa pagina:** Scopri come filtrare i consigli immettendo manualmente uno o più valori statici nelle regole di inclusione in [!DNL Adobe Target Recommendations].
 
-È possibile creare tutte le regole di inclusione necessarie. Le regole di inclusione vengono collegate mediante un operatore E. Gli articoli verranno inclusi in un consiglio solo se vengono soddisfatte tutte le regole.
+>[!ENDSHADEBOX]
 
->[!NOTE]
->
->Se hai dimestichezza con la configurazione delle regole di inclusione prima della versione di Target 17.6.1 (giugno 2017), noterai che alcune delle opzioni e degli operatori sono cambiati. Vengono visualizzati solo gli operatori applicabili all’opzione selezionata; alcuni altri operatori sono stati rinominati (“corrisponde a” è ora “è uguale a”), per maggiore coerenza e intuitività. Tutte le regole di esclusione esistenti create prima di questa versione sono state automaticamente convertite nella nuova struttura. Non è necessaria alcuna modifica da parte dell’utente.
+**[!UICONTROL Filtro statico]** limita gli elementi di un consiglio agli elementi che corrispondono a valori statici immessi manualmente. È possibile creare qualsiasi numero di regole di inclusione. Le regole di inclusione sono collegate con un operatore AND, pertanto affinché un elemento possa essere incluso in un consiglio è necessario che siano soddisfatte tutte le regole. Per informazioni generali sulle regole di inclusione, vedere [Utilizzare regole di inclusione dinamiche e statiche](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md).
 
 ## Consiglia contenuti classificati G o PG
 
-Per creare una regola di inclusione con valori statici per consigliare contenuti con una classificazione MPA di solo &quot;G&quot; o &quot;PG&quot; (escludendo i contenuti &quot;R&quot; e &quot;NC17&quot;), puoi creare le seguenti regole di filtro: &quot;classificazione filmato è uguale a qualsiasi di g-nominale&quot; e &quot;classificazione filmato è uguale a qualsiasi di pg-nominale&quot;.
+Per consigliare solo i contenuti con classificazione Motion Picture Association (MPA) &quot;G&quot; o &quot;PG&quot; (esclusi i contenuti &quot;R&quot; e &quot;NC17&quot;), crea una regola di filtro con l’operatore &quot;classificazione filmato uguale a qualsiasi di&quot; e immetti i valori &quot;g-nominale&quot; e &quot;pg-nominale&quot;.
