@@ -1,7 +1,7 @@
 ---
 keywords: progettazione di consigli;modello;creare progettazione;consegna;output
 description: Scopri come utilizzare le progettazioni in Adobe [!DNL Target] Recommendations per definire la modalità di visualizzazione dei consigli in una pagina (1X4, 1X6, 2X2 e così via).
-title: Come si utilizzano le progettazioni in Recommendations?
+title: Introduzione alle progettazioni
 feature: Recommendations
 exl-id: 348b1d77-49c9-4a6b-ba85-7ba051713d5b
 TQID: 'https://experienceleague.adobe.com/08jboJLkp6MhgXiISjkVzh2kVze5DRrxO8BbQBFLeA4'
@@ -17,25 +17,31 @@ subfeature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: de439134b0ee5aa795ae255bba852b9b6f10da12
+source-git-commit: f9c9c7b2b78ec020fcabae420686b8955e350a0e
 workflow-type: tm+mt
-source-wordcount: '204'
-ht-degree: 22%
+source-wordcount: '224'
+ht-degree: 9%
 ---
-# Introduzione alle progettazioni
+# Introduzione alle progettazioni {#design-overview}
 
-Le progettazioni in [!DNL Adobe Target Recommendations] definiscono la modalità di visualizzazione dei consigli in una pagina. Le progettazioni definiscono il layout e il formato dei consigli per migliorare il coinvolgimento, la conversione e i ricavi dei visitatori.
+>[!BEGINSHADEBOX]
 
-[!DNL Recommendations] viene fornito con diverse progettazioni predefinite (pre-build) o puoi crearne di personalizzate.
+**In questa pagina:** Scopri come le progettazioni definiscono il layout e il formato dei consigli in [!DNL Adobe Target Recommendations].
+
+>[!ENDSHADEBOX]
+
+Le progettazioni in [!DNL Adobe Target Recommendations] definiscono la modalità di visualizzazione dei consigli in una pagina. Una progettazione definisce il layout e il formato dei consigli.
+
+[!DNL Recommendations] viene fornito con diverse progettazioni predefinite (predefinite) ed è anche possibile creare progettazioni personalizzate. Per ulteriori informazioni, consulta [Creare una progettazione](/help/main/c-recommendations/c-design-overview/create-design.md).
 
 [!DNL Target] può fornire l&#39;aspetto completo dei consigli, come illustrato nella figura seguente. La progettazione può includere HTML, JavaScript e CSS. Questo progetto è denominato progetto 4 x 1: quattro spazi in una riga.
 
-![immagine velocity_example](assets/velocity_example.png)
+![Esempio di un design 4 x 1 intitolato &quot;Altre attività divertenti&quot;, con quattro elementi ciascuno dei quali mostra una foto, un nome, un prezzo, una valutazione e una distanza](/help/main/c-recommendations/c-design-overview/assets/velocity_example.png)
 
-Target può anche inviare i consigli come oggetti JSON che possono essere utilizzati in messaggi di posta elettronica, dispositivi IoT (Internet of Things), console o i casi di utilizzo vocale (Amazon Alexa o Google Home).
+[!DNL Target] può anche inviare i consigli come oggetti JSON che possono essere utilizzati nei messaggi e-mail, nei dispositivi IoT (Internet of Things), nella console o nei casi di utilizzo della voce (Amazon Alexa o Google Home).
 
-Le progettazioni consentono di determinare:
+Le progettazioni determinano:
 
-* Quanti elementi vuoi mostrare in un consiglio
-* Modalità di visualizzazione degli elementi (in una riga, colonna, griglia o tabella)
-* Vuoi limitare i visitatori alla visualizzazione solo del numero specificato di elementi o vuoi consentire ai visitatori di scorrere più elementi?
+* Quanti elementi vengono visualizzati in un consiglio
+* Modalità di visualizzazione degli elementi in una riga, colonna, griglia o tabella
+* Se i visitatori vedono solo il numero specificato di elementi o possono scorrere tra più elementi

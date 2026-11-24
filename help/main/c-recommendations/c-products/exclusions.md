@@ -19,48 +19,65 @@ topic_v2:
     internal-label: Metadata
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: 3883dc9752db0a2427f70cb3036fe060c440361a
 workflow-type: tm+mt
-source-wordcount: '530'
-ht-degree: 13%
+source-wordcount: '496'
+ht-degree: 6%
 ---
-# Esclusioni
+# Esclusioni {#exclusions}
 
-Crea un&#39;esclusione in [!DNL Adobe Target Recommendations] per impedire che prodotti o contenuti vengano consigliati ai visitatori. Un’esclusione è un sottoinsieme di prodotti o contenuti che non devono essere consigliati ai visitatori.
+>[!BEGINSHADEBOX]
 
-Le esclusioni sono disponibili a livello dell&#39;intero account. A differenza delle raccolte, in cui si specifica una raccolta specifica per ogni esperienza durante la creazione di un&#39;attività [!UICONTROL Consigli], le esclusioni si applicano a tutte le attività nell&#39;account. Non è possibile assegnare un gruppo di esclusione durante la creazione dell’attività.
+**In questa pagina:** Scopri come creare e gestire esclusioni in [!DNL Adobe Target Recommendations] per impedire che prodotti o contenuti vengano consigliati ai visitatori.
 
-Alcuni esempi di utilizzo delle esclusioni includono:
+>[!ENDSHADEBOX]
+
+Un’esclusione è un sottoinsieme di prodotti o contenuti che non devono essere consigliati ai visitatori. Le esclusioni sono disponibili a livello dell&#39;intero account. A differenza delle raccolte, che vengono selezionate per ogni esperienza al momento della creazione di un&#39;attività [!DNL Recommendations], le esclusioni si applicano a tutte le attività nell&#39;account e nessun gruppo di esclusione può essere assegnato durante la creazione dell&#39;attività.
+
+Le esclusioni vengono generalmente utilizzate per:
 
 * Prodotti che sono stati sospesi.
-* Il catalogo Autunno e Inverno è ora l&#39;unico catalogo che dovrebbe essere presente online. Tutti gli articoli del catalogo estivo non sono più disponibili per l&#39;acquisto.
+* Elementi di un catalogo non più disponibile. Ad esempio, quando solo il catalogo Autunno e Inverno deve essere presente online, non è possibile acquistare alcun articolo del catalogo Estate.
 * Articoli che potrebbero essere inappropriati da consigliare sulla maggior parte delle pagine o schermate (prodotti per adulti, film NC-17 e così via).
 * Prodotti con campi di metadati incompleti (miniatura, prezzo o altri metadati importanti mancanti).
-* Prodotti che non dovrebbero mai essere consigliati (forse nel sistema esiste una SKU per qualcosa, ma non è un articolo acquistabile. O forse è un finto SKU per il team di QA simulare un acquisto senza effettivamente ordinare qualcosa, e così via).
+* Prodotti che non dovrebbero mai essere consigliati, come una SKU presente nel sistema ma non acquistabile o una SKU falsa utilizzata dal team di controllo qualità per simulare un acquisto senza ordinare nulla.
 
 >[!IMPORTANT]
 >
 >Le regole di esclusione vengono applicate globalmente a tutti i [ambienti](/help/main/administrating-target/environments.md).
 >
->Le regole di esclusione statica e dinamica sono funzioni molto efficaci che possono esserti utili nelle iniziative di marketing. Per informazioni dettagliate, esempi e scenari di utilizzo, consulta [Utilizzare regole di inclusione dinamiche e statiche](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#concept_4CB5C0FA705D4E449BD0B37B3D987F9F).
+>Per informazioni dettagliate, esempi e scenari di utilizzo relativi alle regole di esclusione statiche e dinamiche, consulta [Utilizzare regole di inclusione dinamiche e statiche](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#inclusion-rules).
 
 ## Creare un’esclusione
 
+Le regole di esclusione vengono definite una volta e quindi applicate a ogni attività [!DNL Recommendations] nell&#39;account.
+
 1. Fai clic su **[!UICONTROL Consigli]** > **[!UICONTROL Esclusioni]** per visualizzare l&#39;elenco delle esclusioni esistenti.
 
-   Il &quot;Numero di elementi&quot; segnalato per ogni esclusione nella visualizzazione elenco [!UICONTROL Esclusioni] è il numero di prodotti che corrispondono alle regole per tale esclusione all&#39;interno del gruppo predefinito di consigli [host](/help/main/administrating-target/hosts.md) (ambiente) configurato. Per informazioni su come modificare il gruppo host predefinito, vedere [Pianificare e implementare [!DNL Recommendations]](https://experienceleague.adobe.com/it/docs/target-dev/developer/recommendations){target=_blank} nella *Guida per gli sviluppatori di Adobe Target*.
+   >[!NOTE]
+   >
+   >Il &quot;Numero di elementi&quot; segnalato per ogni esclusione nella visualizzazione elenco **[!UICONTROL Esclusioni]** è il numero di prodotti che corrispondono alle regole per tale esclusione all&#39;interno del gruppo predefinito di consigli [host](/help/main/administrating-target/hosts.md) (ambiente) configurato. Per informazioni su come modificare il gruppo host predefinito, vedere [Pianificare e implementare [!DNL Recommendations]](https://experienceleague.adobe.com/en/docs/target-dev/developer/recommendations){target=_blank} nella *Guida per gli sviluppatori di Adobe Target*.
 
-1. (Condizionale) Fai clic sull&#39;icona **[!UICONTROL Mostra filtri]** ( ![Mostra icona filtri](/help/main/assets/icons/Filter.svg) ), quindi scegli l&#39;[ambiente](/help/main/administrating-target/environments.md) desiderato dall&#39;elenco a discesa **[!UICONTROL Ambiente]** durante la creazione (o l&#39;aggiornamento) di un&#39;esclusione per visualizzare in anteprima il contenuto dell&#39;esclusione in tale ambiente. Per impostazione predefinita, sono visualizzati i risultati del gruppo di host predefinito.
+
+1. Fai clic sull&#39;icona **[!UICONTROL Mostra filtri]** ( ![Mostra icona filtri](/help/main/assets/icons/Filter.svg) ), quindi scegli l&#39;[ambiente](/help/main/administrating-target/environments.md) desiderato dall&#39;elenco a discesa **[!UICONTROL Ambiente]** per visualizzare in anteprima il contenuto dell&#39;esclusione in tale ambiente. Per impostazione predefinita, sono visualizzati i risultati del gruppo di host predefinito.
+
+   ![Pagina Esclusioni con il pannello Filtri aperto e l&#39;elenco Ambiente](../assets/exclusions_2.png)
 
 1. Fai clic su **[!UICONTROL Crea esclusione]**.
 
-1. Digitare un nome di esclusione **[!UICONTROL Name]** e immettere una descrizione facoltativa.
+   ![Pagina Esclusioni con il pulsante Crea esclusione](../assets/exclusions_1.png)
 
-1. Utilizza il generatore di regole per creare le esclusioni.
+1. Digitare un&#39;esclusione **[!UICONTROL Nome]**. È inoltre possibile immettere una descrizione facoltativa.
 
-   Selezionare un parametro nell&#39;elenco [!UICONTROL Regole], selezionare un operatore, quindi immettere uno o più valori per identificare i prodotti. Separa i valori con le virgole.
+1. Utilizza il generatore di regole per definire l’esclusione.
+
+   Selezionare un parametro nell&#39;elenco **[!UICONTROL Regole]**, selezionare un operatore, quindi immettere uno o più valori per identificare i prodotti. Separa i valori con le virgole.
 
 1. Fai clic su **[!UICONTROL Crea]**.
+
+1. Fai clic sull&#39;icona Altre azioni ( ![Icona Altre azioni](/help/main/assets/icons/MoreSmallList.svg) ) accanto all&#39;esclusione desiderata nell&#39;elenco, quindi fai clic sull&#39;opzione appropriata: **[!UICONTROL Modifica]**, **[!UICONTROL Copia]** o **[!UICONTROL Elimina]**.
+
+   ![Elenco esclusioni con il menu Altre azioni aperto, che mostra Modifica, Copia ed Elimina](../assets/exclusions_3.png)
 
 <!--
 ## Create an exclusion using Advanced Search
@@ -76,13 +93,6 @@ After creating a search using "id > contains," for example, you can then click [
 >The [!UICONTROL Advanced Search] functionality is case-insensitive; however, products returned at the time of delivery are based on case-sensitive search. This mismatch might lead to confusion. Ensure that you consider case-sensitivity when you create exclusions based on results using the Advanced Search functionality. For example, if you perform a search for "Holiday," that initial search lists results containing "Holiday" and "holiday." If you then create an exclusion with the intent to exclude products containing "holiday," only products containing "holiday" are excluded. Products containing "Holiday" are not excluded.
 -->
 
-## Modificare, copiare o eliminare un’esclusione
-
-Fai clic sull&#39;icona Altre azioni ( ![Icona Altre azioni](/help/main/assets/icons/MoreSmallList.svg) ) accanto all&#39;esclusione desiderata nell&#39;elenco, quindi fai clic sull&#39;icona appropriata: [!UICONTROL Modifica], [!UICONTROL Copia] o [!UICONTROL Elimina].
-
-Puoi copiare un’esclusione esistente per creare un’esclusione duplicata che puoi quindi modificare. Questa opzione consente di creare un’esclusione simile con meno sforzo.
-
-Tieni presente che le esclusioni sono disponibili in tutto l’account. Assicurati di considerare questa avvertenza prima di eliminare un’esclusione. Non è possibile recuperare le esclusioni eliminate.
 
 ## Video di formazione: Crea raccolte ed esclusioni in Recommendations (7:05) ![Icona esercitazione](/help/main/assets/tutorial.png)
 
@@ -91,4 +101,4 @@ Questo video contiene le seguenti informazioni:
 * Creare una raccolta
 * Creare un’esclusione
 
->[!VIDEO](https://video.tv.adobe.com/v/328804?captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/27689)

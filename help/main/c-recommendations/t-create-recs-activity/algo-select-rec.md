@@ -2,7 +2,7 @@
 keywords: consigli;consigli;consigli;criteri;algoritmo;recommendations activity;criteria;algorithm
 description: Scopri come selezionare i criteri (regole che determinano quali prodotti o contenuti consigliare) da utilizzare nell’attività Consigli di Adobe [!DNL Target].
 title: Come Posso Selezionare Criteri per Un’Attività Consigli?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=it#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."
 feature: Recommendations
 exl-id: 119227ec-88c3-4de9-b2cf-f7d5fa2e98f6
 product_v2:
@@ -14,7 +14,7 @@ feature_v2:
 subfeature_v2:
   - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
     internal-label: Recommendations
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 891bf9f764be54ae97b073f3f10c9132b1b52cce
 workflow-type: tm+mt
 source-wordcount: '421'
 ht-degree: 62%
@@ -31,7 +31,7 @@ Se selezioni più criteri, il traffico viene suddiviso in modo uniforme tra i cr
 
   Alcuni criteri sono forniti con [!DNL Recommendations]. Con il tuo team puoi inoltre creare criteri personalizzati.
 
-* Per creare un nuovo criterio, fai clic su **[!UICONTROL Crea criterio]** > **[!UICONTROL Crea criterio]**, quindi inserisci le informazioni per il nuovo criterio. Per informazioni sulla creazione di un nuovo criterio, consulta [Creare un nuovo criterio](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#task_8A9CB465F28D44899F69F38AD27352FE).
+* Per creare un nuovo criterio, fai clic su **[!UICONTROL Crea criterio]** > **[!UICONTROL Crea criterio]**, quindi inserisci le informazioni per il nuovo criterio. Per informazioni sulla creazione di un nuovo criterio, consulta [Creare un nuovo criterio](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#create-criteria).
 
 **Per selezionare i criteri:**
 

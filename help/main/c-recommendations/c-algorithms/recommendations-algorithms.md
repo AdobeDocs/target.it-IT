@@ -1,8 +1,8 @@
 ---
 keywords: algoritmi consigli;formazione modello;server modelli;distribuzione contenuti;basato su elementi;basato su utenti;basato su popolarità;basato su carrello;criteri personalizzati;recommendations algorithms;model training;model serving;content delivery;item-based;user-based;popularity-based;cart-based;custom criteria
 description: Scopri gli algoritmi utilizzati in [!DNL Target Recommendations], inclusi l'apprendimento dei modelli e il model serving.
-title: Dove posso scoprire la scienza alla base degli algoritmi di Recommendations di Target?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=it#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."
+title: La scienza alla base degli algoritmi della funzione Consigli di Target
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."
 feature: Recommendations
 mini-toc-levels: 2
 exl-id: c156952b-8eda-491d-a68e-d3d09846f640
@@ -31,177 +31,181 @@ topic_v2:
     internal-label: Behavioral data
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: e8a9b6be04169ea3024673babb62085667fe8990
 workflow-type: tm+mt
-source-wordcount: '3045'
+source-wordcount: '2755'
 ht-degree: 0%
 ---
-# La scienza alla base degli algoritmi della funzione Consigli di Target
+# La scienza alla base degli algoritmi della funzione Consigli di Target {#recommendations-algorithms}
 
-Descrizione dettagliata degli algoritmi utilizzati in [!DNL Adobe Target Recommendations], inclusi i dettagli logici e matematici dell&#39;apprendimento dei modelli e del processo di modellazione.
+>[!BEGINSHADEBOX]
 
-L&#39;apprendimento del modello è il processo di generazione dei consigli da parte degli algoritmi di apprendimento [!DNL Adobe Target]. Model serving è il modo in cui [!DNL Target] fornisce consigli ai visitatori del tuo sito (noto anche come distribuzione di contenuti).
+**In questa pagina:** Scopri come funzionano gli algoritmi di [!DNL Adobe Target Recommendations], inclusi i dettagli logici e matematici dell&#39;apprendimento dei modelli e del model serving.
 
-[!DNL Target] include i seguenti tipi di algoritmi in [!DNL Recommendations]:
+>[!ENDSHADEBOX]
 
-* **Algoritmi basati su elementi**: includono gli algoritmi che seguono la logica &quot;Chi ha visualizzato/acquistato questo elemento ha anche visualizzato/acquistato questi elementi&quot;. Questi algoritmi sono raggruppati sotto il termine generale filtro collaborativo elemento-elemento e [!UICONTROL Elementi con attributi simili].
+L&#39;apprendimento del modello è il processo mediante il quale gli algoritmi di apprendimento [!DNL Adobe Target] generano i consigli. Il servizio modelli, noto anche come distribuzione di contenuti, è il modo in cui [!DNL Target] distribuisce tali consigli ai visitatori del sito.
 
-* **Algoritmi basati sugli utenti**: includere gli algoritmi [!UICONTROL Visualizzati di recente] e [!UICONTROL Consigliati per te].
+[!DNL Target] offre i seguenti tipi di algoritmi in [!DNL Recommendations]:
 
-* **Algoritmi basati sulla popolarità**: includono gli algoritmi che restituiscono gli articoli più visualizzati o acquistati in tutto il sito Web oppure più visualizzati o acquistati per categoria o attributo di articolo.
+* **Algoritmi basati sugli elementi**: segui la logica &quot;Anche le persone che hanno visualizzato/acquistato questo elemento hanno visualizzato/acquistato questi elementi.&quot; Questi algoritmi sono raggruppati sotto il termine filtro collaborativo elemento-elemento. Questo tipo include anche gli algoritmi **[!UICONTROL Items con attributi simili]**.
 
-* **Algoritmi basati sul carrello**: include consigli basati su più elementi con la logica &quot;persone che hanno visualizzato/acquistato questi elementi, hanno anche visualizzato/acquistato tali elementi&quot;.
+* **Algoritmi basati sull&#39;utente**: includere gli **[!UICONTROL elementi visualizzati di recente]** e gli **[!UICONTROL algoritmi consigliati]**.
 
-* **Criteri personalizzati**: include consigli basati su file personalizzati caricati in [!DNL Target].
+* **Algoritmi basati sulla popolarità**: restituisce gli articoli più visualizzati o più acquistati nel sito Web, oppure per categoria o attributo di articolo.
 
->[!NOTE]
->
->Per informazioni più generali su ciascun tipo di algoritmo e sui singoli algoritmi, vedere [Basare il consiglio su una chiave di consiglio](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md).
+* **Algoritmi basati sul carrello**: formula consigli con più elementi con la logica &quot;anche le persone che hanno visualizzato/acquistato questi elementi hanno visualizzato/acquistato tali elementi&quot;.
 
-Molti degli algoritmi elencati sopra sono basati sulla presenza di una o più chiavi. Queste chiavi vengono utilizzate per recuperare elementi simili al momento della consegna del contenuto (quando vengono creati i consigli). Le chiavi specificate dal cliente possono includere l’articolo corrente che un utente sta visualizzando, l’ultimo articolo visualizzato o acquistato, l’articolo più visualizzato, la categoria corrente o la categoria preferita per quel visitatore. Altri algoritmi, come i consigli basati su carrello o su utente, utilizzano chiavi implicite (che il cliente non può configurare). Per ulteriori informazioni, vedere *Chiavi consiglio*, in [Basare il consiglio su una chiave consiglio](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#keys). Tieni presente, tuttavia, che queste chiavi sono rilevanti solo al momento della distribuzione del modello (consegna dei contenuti). Queste chiavi non influiscono sulla logica dei tempi di apprendimento &quot;offline&quot; o del modello.
+* **Criteri personalizzati**: utilizza i file personalizzati caricati in [!DNL Target] come origine dei consigli.
 
-Le sezioni seguenti raggruppano gli algoritmi in modo leggermente diverso rispetto ai tipi di algoritmo descritti in precedenza. Il seguente raggruppamento si basa sulla somiglianza della logica di apprendimento del modello.
+Per ulteriori informazioni su ciascun tipo di algoritmo e sui relativi algoritmi, vedere [Basare il consiglio su una chiave di consiglio](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md).
+
+Molti di questi algoritmi si basano su una o più chiavi, che [!DNL Target] utilizza al momento della distribuzione del contenuto (quando vengono formulati i consigli) per recuperare elementi simili. Le chiavi specificate dal cliente possono essere l’articolo corrente visualizzato dal visitatore, l’ultimo articolo visualizzato o acquistato, l’articolo visualizzato più in alto, la categoria corrente o la categoria preferita del visitatore. Altri algoritmi, come gli algoritmi basati sul carrello e quelli basati sull’utente, utilizzano chiavi implicite che non possono essere configurate dal cliente. Per ulteriori informazioni, vedere [Chiavi consiglio](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#keys).
+
+Le chiavi si applicano solo al momento della distribuzione del modello (consegna dei contenuti). Non influiscono sulla logica di apprendimento dei modelli offline.
+
+Le sezioni seguenti raggruppano gli algoritmi in base alla somiglianza della logica di apprendimento del modello, pertanto i gruppi differiscono leggermente dai tipi riportati sopra.
 
 ## Filtro collaborativo elemento-elemento
 
 Gli algoritmi includono:
 
-* [!UICONTROL Chi ha visualizzato questo ha visualizzato anche quello]
-* [!UICONTROL Chi ha visualizzato questo ha acquistato anche quello]
-* [!UICONTROL Chi ha acquistato questo ha acquistato anche quello]
+* **[!UICONTROL Chi ha visualizzato questo ha visualizzato anche quello]**
+* **[!UICONTROL Chi ha visualizzato questo ha acquistato anche quello]**
+* **[!UICONTROL Chi ha acquistato questo ha acquistato anche quello]**
 
-Gli algoritmi per la generazione di consigli con filtro collaborativo elemento-elemento si basano sull’idea che si debbano utilizzare i modelli comportamentali di molti utenti (quindi collaborativi) per fornire consigli utili per un dato elemento (ad esempio, filtrare il catalogo di possibili elementi da consigliare). Anche se esistono molti algoritmi diversi che rientrano nell&#39;ombrello generale del [filtro collaborativo](https://en.wikipedia.org/wiki/Collaborative_filtering), questi algoritmi utilizzano universalmente origini di dati comportamentali come input. In [!DNL Target Recommendations], questi input sono le visualizzazioni e gli acquisti univoci di elementi da parte degli utenti.
+Gli algoritmi di filtro collaborativo elemento-elemento utilizzano i pattern comportamentali di molti utenti (quindi collaborativi) per consigliare gli elementi correlati a un dato elemento, che filtra il catalogo di elementi possibili. Molti algoritmi diversi ricadono sotto l&#39;ombrello generale del filtraggio collaborativo, e tutti utilizzano dati comportamentali come input. In [!DNL Target Recommendations], questi input sono le visualizzazioni e gli acquisti univoci di elementi da parte degli utenti.
 
-Per l’algoritmo &quot;chi ha visualizzato/acquistato questo articolo ha anche visualizzato/acquistato questi articoli&quot;, l’obiettivo è calcolare una somiglianza s(A,B) tra tutte le coppie di articoli. Per un dato articolo A, i consigli principali sono quindi ordinati in base alle somiglianze (A,B).
+Per gli algoritmi &quot;chi ha visualizzato/acquistato questo articolo ha anche visualizzato/acquistato questi articoli&quot;, l’obiettivo è calcolare una somiglianza s(A,B) tra tutte le coppie di articoli. Per un dato articolo A, i consigli principali sono gli articoli ordinati in base alla loro similarità (A,B).
 
-Un esempio di tale somiglianza è la co-occorrenza tra gli articoli: un conteggio semplice del numero di utenti che hanno acquistato entrambi gli articoli. Anche se intuitiva, tale metrica è ingenua in quanto tende a consigliare articoli popolari. Ad esempio, se in un retailer alimentare la maggior parte delle persone acquista il pane, il pane avrà un&#39;elevata co-occorrenza con tutti gli articoli, ma non è necessariamente una buona raccomandazione. [!DNL Target] utilizza invece una metrica di somiglianza più sofisticata nota come log likelihood ratio (LLR). Questa quantità è grande quando la probabilità che due articoli, A e B, si verifichino contemporaneamente è molto diversa dalla probabilità che non si verifichino contemporaneamente. Per maggiore concretezza, considera un caso di [!UICONTROL persone che hanno visualizzato questo, hanno acquistato quell&#39;algoritmo]. La somiglianza LLR è grande quando la probabilità che B sia stato acquistato è *non* indipendentemente dal fatto che qualcuno abbia visualizzato A.
+Un esempio di somiglianza è la co-occorrenza tra gli articoli: un conteggio degli utenti che hanno acquistato entrambi gli articoli. Questa metrica è intuitiva ma ingenua, perché tende a consigliare articoli popolari. Ad esempio, in un retailer alimentare in cui la maggior parte delle persone acquista il pane, il pane ha un&#39;elevata co-occorrenza con tutti gli articoli, ma non è necessariamente una buona raccomandazione. [!DNL Target] utilizza invece il rapporto di probabilità del registro (LLR). Questa quantità è grande quando la probabilità che due articoli, A e B, si verifichino contemporaneamente è molto diversa dalla probabilità che non si verifichino contemporaneamente. Ad esempio, con l&#39;algoritmo **[!UICONTROL Persone che hanno visualizzato questo, hanno acquistato quello]**, la somiglianza LLR è grande quando la probabilità che qualcuno abbia acquistato B è *non* indipendentemente dal fatto che abbia visualizzato A.
 
-Ad esempio, se
+L&#39;articolo B non è consigliato con l&#39;articolo A quando i seguenti blocchi:
 
-![Formula per l&#39;algoritmo visualizzato/acquistato](assets/formula.png)
+![Formula per l&#39;algoritmo visualizzato/acquistato](/help/main/c-recommendations/c-algorithms/assets/formula.png)
 
-l&#39;elemento B non deve essere consigliato con l&#39;elemento A. I dettagli completi di questo calcolo di somiglianza delle proporzioni di probabilità del registro sono forniti [in questo PDF](/help/main/c-recommendations/c-algorithms/assets/log-likelihood-ratios-recommendation-algorithms.pdf).
+Per informazioni complete sul calcolo della somiglianza delle proporzioni di probabilità del registro, vedere [questo PDF](/help/main/c-recommendations/c-algorithms/assets/log-likelihood-ratios-recommendation-algorithms.pdf).
 
-Il flusso logico dell’implementazione effettiva dell’algoritmo è mostrato nel diagramma schematico seguente:
+Il diagramma schematico seguente mostra il flusso logico dell’implementazione dell’algoritmo:
 
-![Diagramma schematico di un algoritmo visualizzato/acquistato](assets/diagram1.png)
+![Diagramma schematico di un algoritmo visualizzato/acquistato](/help/main/c-recommendations/c-algorithms/assets/diagram1.png)
 
-Di seguito sono riportati i dettagli di questi passaggi:
+I passaggi sono i seguenti:
 
-* **Dati di input**: dati comportamentali, sotto forma di visualizzazioni e acquisti di visitatori raccolti quando [implementi Target](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=it){target=_blank} o da [Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md){target=_blank}.
+* **Dati di input**: dati comportamentali sotto forma di visualizzazioni e acquisti del visitatore, raccolti quando [implementi Target](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} o da [Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md){target=_blank}.
 
 * **Apprendimento del modello**:
 
-  * **Pulizia e campionamento dei dati**: per gli algoritmi con un lookback di N giorni, i dati comportamentali vengono prima filtrati per includere solo tali N giorni di dati. Le regole di raccolta e le esclusioni globali vengono quindi applicate per rimuovere tutti gli elementi che non devono essere consigliati. Infine, per i visitatori che hanno interagito con più di 1.000 elementi, i dati di utilizzo sono stati campionati in soli 1.000 elementi.
-  * **Calcolo della somiglianza tra elementi**: questo è il passaggio di calcolo principale: calcolo della somiglianza del rapporto di probabilità del registro tra tutte le coppie di elementi candidati e classificazione delle coppie di elementi in base a questo punteggio di somiglianza.
-  * **Filtro non in linea**: verranno infine applicati eventuali altri filtri dinamici applicabili (ad esempio, esclusioni di categorie dinamiche). Dopo questo passaggio, i consigli precalcolati vengono memorizzati nella cache a livello globale per essere disponibili per il servizio.
+  * **Pulizia e campionamento dei dati**: per gli algoritmi con un lookback di N giorni, i dati comportamentali vengono prima filtrati per includere solo tali N giorni di dati. Le regole di raccolta e le esclusioni globali vengono quindi applicate per rimuovere tutti gli elementi che non devono essere consigliati. Infine, i dati di utilizzo di qualsiasi visitatore che ha interagito con più di 1.000 elementi vengono campionati fino a 1.000 elementi.
+  * **Calcolo per somiglianza elemento**: il passaggio di calcolo principale. [!DNL Target] calcola la somiglianza del rapporto di probabilità del registro tra tutte le coppie di elementi candidati e classifica le coppie in base a questo punteggio.
+  * **Filtro offline**: vengono applicati altri filtri dinamici applicabili (ad esempio, esclusioni di categorie dinamiche). I consigli precalcolati vengono quindi memorizzati nella cache a livello globale, pronti per essere utilizzati.
 
-* **Server modelli**: il contenuto dei consigli viene distribuito dalla [rete &quot;Edge&quot; globale di [!DNL Target]](/help/main/c-intro/how-target-works.md#concept_0AE2ED8E9DE64288A8B30FCBF1040934). Quando vengono effettuate richieste mbox a [!DNL Target] e viene determinato che il contenuto dei consigli deve essere recapitato alla pagina, la richiesta della [chiave elemento](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#keys) appropriata per l&#39;algoritmo dei consigli viene analizzata dalla richiesta o cercata dal profilo utente, e quindi utilizzata per recuperare i consigli calcolati nei passaggi precedenti. Ulteriori filtri dinamici vengono applicati in questo momento, prima che venga eseguito il rendering della [progettazione](/help/main/c-recommendations/c-design-overview/create-design.md) appropriata.
+* **Server modelli**: i consigli vengono distribuiti dalla [rete &quot;Edge&quot; globale](/help/main/c-intro/how-target-works.md#concept_0AE2ED8E9DE64288A8B30FCBF1040934) di [!DNL Target]. Quando viene effettuata una richiesta mbox a [!DNL Target] e viene determinato che il contenuto dei consigli deve essere recapitato alla pagina, la [chiave elemento](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#keys) di cui l&#39;algoritmo ha bisogno viene analizzata dalla richiesta o cercata dal profilo del visitatore. [!DNL Target] utilizza questa chiave per recuperare i consigli calcolati nei passaggi precedenti, applica ulteriori filtri dinamici ed esegue il rendering del [design](/help/main/c-recommendations/c-design-overview/create-design.md) appropriato.
 
 ## Somiglianza dei contenuti
 
 Algoritmo incluso:
 
-* [!UICONTROL Elementi con attributi simili]
+* **[!UICONTROL Elementi con attributi simili]**
 
-In questo tipo di algoritmo, due elementi sono considerati correlati se i loro nomi e le descrizioni testuali sono semanticamente simili. A differenza della maggior parte degli algoritmi di consigli in cui devono essere utilizzate origini di dati comportamentali, gli algoritmi di somiglianza dei contenuti utilizzano metadati dei cataloghi di prodotti per derivare la somiglianza tra gli elementi. [!DNL Target] è quindi in grado di gestire i consigli in scenari cosiddetti &quot;cold-start&quot;, in cui non sono stati raccolti dati comportamentali (ad esempio, all&#39;inizio di un&#39;attività [!DNL Target]).
+Con questo algoritmo, due elementi sono correlati se i loro nomi e le descrizioni testuali sono semanticamente simili. A differenza della maggior parte degli algoritmi di consigli, che richiedono dati comportamentali, gli algoritmi di somiglianza dei contenuti derivano la somiglianza tra gli elementi dai metadati del catalogo dei prodotti. [!DNL Target] può quindi fornire raccomandazioni in scenari cosiddetti &quot;cold-start&quot;, in cui non sono ancora stati raccolti dati comportamentali (ad esempio, all&#39;inizio di un&#39;attività [!DNL Target]).
 
-Sebbene gli aspetti relativi alla distribuzione dei modelli e dei contenuti degli algoritmi di somiglianza dei contenuti di [!DNL Target] siano identici ad altri algoritmi basati su elementi, i passaggi di formazione dei modelli sono notevolmente diversi e implicano una serie di passaggi di elaborazione e pre-elaborazione del linguaggio naturale, come illustrato nel diagramma seguente. Il nucleo del calcolo della somiglianza è l&#39;uso della somiglianza coseno dei vettori tf-idf modificati che rappresentano ogni elemento del catalogo.
+La distribuzione dei modelli e dei contenuti per gli algoritmi di somiglianza dei contenuti è identica a quella degli altri algoritmi basati su elementi. L&#39;apprendimento dei modelli è molto diverso: comporta una serie di fasi di elaborazione e pre-elaborazione del linguaggio naturale, illustrate nel diagramma seguente. Il nucleo del calcolo della somiglianza è la somiglianza coseno dei vettori tf-idf modificati che rappresentano ogni elemento del catalogo.
 
-![Diagramma che mostra il flusso del processo di somiglianza dei contenuti](assets/diagram2.png)
+![Diagramma che mostra il flusso del processo di somiglianza dei contenuti](/help/main/c-recommendations/c-algorithms/assets/diagram2.png)
 
-Di seguito sono riportati i dettagli di questi passaggi:
+I passaggi sono i seguenti:
 
-* **Dati di input**: come descritto in precedenza, questo algoritmo si basa esclusivamente sui dati del catalogo (acquisiti in [!DNL Target] tramite un [Feed catalogo, l&#39;API delle entità o dagli aggiornamenti nella pagina](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=it){target=_blank}.
+* **Dati di input**: questo algoritmo utilizza solo i dati del catalogo, acquisiti in [!DNL Target] tramite un [feed del catalogo, l&#39;API delle entità o aggiornamenti su pagina](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}.
 
 * **Apprendimento del modello**:
 
-  * **Estrazione attributo**: dopo l&#39;applicazione di normali filtri statici, regole di catalogo ed esclusioni globali, questo algoritmo estrae i campi testuali pertinenti dallo schema di entità. [!DNL Target] utilizza automaticamente i campi nome, messaggio e categoria dagli attributi di entità e tenta di estrarre qualsiasi campo stringa dagli [attributi di entità](/help/main/c-recommendations/c-products/entity-attributes.md) personalizzati. Questo processo viene eseguito assicurandosi che la maggior parte dei valori per quel campo non sia analizzabile come numero, data o booleano.
-  * **Rimozione stemming e stop-word**: per una corrispondenza più precisa della somiglianza del testo, è prudente rimuovere le parole &quot;stop&quot; molto comuni che non alterano in modo significativo il significato di un elemento (ad esempio, &quot;was&quot;, &quot;is&quot;, &quot;and&quot; e così via). Allo stesso modo, il termine stemming si riferisce al processo di riduzione delle parole con suffissi diversi alla loro parola principale, che ha un significato identico (ad esempio, &quot;connect&quot;, &quot;connect&quot; e &quot;connection&quot; hanno tutti la stessa parola principale: &quot;connect&quot;). [!DNL Target] utilizza lo stemmer Snowball. [!DNL Target] esegue prima il rilevamento automatico della lingua e può interrompere la rimozione delle parole per un massimo di 50 lingue e la creazione di stemming per 18 lingue.
-  * Creazione di **n grammi**: dopo i passaggi precedenti, ogni parola viene considerata come un token. Il processo di combinazione di sequenze contigue di token in un singolo token è definito creazione di n grammi. Gli algoritmi di [!DNL Target] considerano fino a 2 grammi.
-  * **calcolo tf-idf**: il passaggio successivo prevede la creazione di vettori tf-idf per riflettere l&#39;importanza relativa dei token nella descrizione dell&#39;elemento. Per ogni token/termine t in un elemento i, in un catalogo D con |D| elementi, il termine frequenza TF(t, i) viene calcolato per primo (il numero di volte che il termine appare nella voce i), nonché la frequenza del documento DF(t, D). In sostanza, il numero di elementi in cui esiste il token. La misura tf-idf è quindi
+  * **Estrazione attributo**: dopo l&#39;applicazione di filtri statici, regole di catalogo ed esclusioni globali, l&#39;algoritmo estrae i campi testuali pertinenti dallo schema di entità. [!DNL Target] utilizza automaticamente i campi nome, messaggio e categoria degli attributi di entità. Tenta inoltre di estrarre i campi stringa dagli [attributi di entità](/help/main/c-recommendations/c-products/entity-attributes.md) personalizzati. Un campo viene trattato come un campo stringa quando la maggior parte dei suoi valori non può essere analizzata come un numero, una data o un valore booleano.
+  * **Rimozione stemming e stop-word**: per rendere più precisa la corrispondenza del testo, [!DNL Target] rimuove le parole &quot;stop&quot; molto comuni che non alterano in modo significativo il significato di un elemento (ad esempio, &quot;was&quot;, &quot;is&quot; e &quot;and&quot;). Lo stemming riduce le parole con suffissi diversi alla loro parola principale, che ha un significato identico (ad esempio, &quot;connect&quot;, &quot;connection&quot; e &quot;connection&quot; hanno tutti la parola principale &quot;connect&quot;). [!DNL Target] utilizza lo stemmer Snowball. Esegue prima il rilevamento automatico della lingua, può rimuovere le parole non significative per un massimo di 50 lingue ed eseguire lo stemming per 18 lingue.
+  * Creazione di **n grammi**: dopo i passaggi precedenti, ogni parola viene considerata come un token. La combinazione di sequenze contigue di token in un singolo token è chiamata creazione n-grammi. [!DNL Target] considera fino a 2 grammi.
+  * **calcolo tf-idf**: nel passaggio successivo vengono creati vettori tf-idf che riflettono l&#39;importanza relativa dei token nella descrizione dell&#39;elemento. Per ogni token o termine t in un elemento i, in un catalogo D con |D| elementi, [!DNL Target] calcola prima il termine frequenza TF(t, i), che è il numero di volte che il termine appare nell&#39;elemento i, e la frequenza del documento DF(t, D), che è il numero di elementi in cui esiste il token t. La misura tf-idf è quindi:
 
-    ![Formula che mostra la misura tf-idf](assets/formula2.png)
+    ![Formula che mostra la misura tf-idf](/help/main/c-recommendations/c-algorithms/assets/formula2.png)
 
-    [!DNL Target] utilizza l&#39;implementazione della funzionalità *tf-idf* di Apache Spark, che esegue l&#39;hash di ogni token su uno spazio di 218 token. In questo passaggio, il potenziamento degli attributi specificati dal cliente e il seppellimento vengono applicati anche regolando le frequenze dei termini in ciascun vettore in base alle impostazioni specificate nei [criteri](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#similarity).
+    [!DNL Target] utilizza l&#39;implementazione della funzionalità *tf-idf* di Apache Spark, che esegue l&#39;hash di ogni token su uno spazio di 2<sup>18</sup> token. In questo passaggio, viene applicato anche l&#39;incremento e il seppellimento dell&#39;attributo specificati nei [criteri](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#similarity), regolando le frequenze dei termini in ciascun vettore.
 
-  * **Calcolo per somiglianza elemento**: il calcolo per la somiglianza dell&#39;elemento finale viene eseguito utilizzando una somiglianza approssimativa con il coseno. Per due elementi, *A* e *B*, con vettori tA e tB, la somiglianza coseno è definita come:
+  * **Calcolo per somiglianza elemento**: la somiglianza dell&#39;elemento finale viene calcolata con una somiglianza approssimativa del coseno. Per due elementi, *A* e *B*, con vettori tA e tB, la somiglianza coseno è definita come:
 
-    ![Formula che mostra il calcolo della somiglianza dell&#39;elemento](assets/formula3.png)
+    ![Formula che mostra il calcolo della somiglianza dell&#39;elemento](/help/main/c-recommendations/c-algorithms/assets/formula3.png)
 
-    Per evitare una complessità significativa nel calcolo delle somiglianze tra tutti gli elementi N x N, il vettore *tf-idf* viene troncato in modo da contenere solo le 500 voci più grandi e quindi calcola le somiglianze coseno tra gli elementi utilizzando questa rappresentazione vettoriale troncata. Questo approccio si dimostra più robusto per i calcoli di somiglianza vettoriale sparsa, rispetto ad altre tecniche approssimate più vicine (ANN), come l&#39;hashing sensibile alla località.
+    Per evitare la notevole complessità di calcolo delle somiglianze tra tutti gli elementi N x N, il vettore *tf-idf* viene troncato alle sue 500 voci più grandi e le somiglianze coseno tra gli elementi vengono calcolate da questa rappresentazione troncata. Questo approccio è più robusto per i calcoli di somiglianza vettoriale sparsa rispetto ad altre tecniche di approssimazione più vicine (ANN), come l&#39;hashing sensibile alla località.
 
-  * **Model serving**: questo processo è identico alle tecniche di filtro collaborativo elemento-elemento descritte nella sezione precedente.
+* **Server modelli**: questo processo è identico a quello per il filtro collaborativo elemento-elemento descritto nella sezione precedente.
 
 ## Consigli multichiave
 
 Gli algoritmi includono:
 
 * Consigli basati su carrello
-* [!UICONTROL Consigliato Per Te]
+* **[!UICONTROL Consigliato per te]**
 
-Le aggiunte più recenti alla suite di algoritmi di consigli [!DNL Target] sono [!UICONTROL Consigliati per te] e una serie di algoritmi di consigli basati sul carrello. Entrambi i tipi di algoritmi utilizzano tecniche di filtro collaborativo per formare singoli consigli basati su elementi. Quindi, al momento del server, più elementi nella cronologia di navigazione dell&#39;utente (per [!UICONTROL Consigliato per te]) o nel carrello corrente dell&#39;utente (per i consigli basati su carrello) vengono utilizzati per recuperare questi consigli basati su elementi, che vengono quindi uniti per formare l&#39;elenco finale dei consigli. Tieni presente che esistono molti aromi di algoritmi di consigli personalizzati. La scelta di un algoritmo multi-chiave significa che i consigli sono immediatamente disponibili dopo che un visitatore ha una cronologia di navigazione e che possono essere aggiornati per rispondere al comportamento del visitatore più recente.
+**[!UICONTROL Consigliato per te]** e gli algoritmi basati su carrello utilizzano tecniche di filtro collaborativo per creare consigli basati su singoli elementi. Al momento della distribuzione, più elementi vengono quindi utilizzati come chiavi per recuperare questi consigli basati su elementi: gli elementi nella cronologia di navigazione del visitatore (per **[!UICONTROL Consigliato per te]**) o nel carrello corrente del visitatore (per i consigli basati su carrello). I consigli recuperati vengono uniti per formare l’elenco finale. Con un algoritmo a più chiavi, i consigli sono disponibili non appena un visitatore dispone di una cronologia di navigazione e vengono aggiornati per riflettere il comportamento del visitatore più recente.
 
-Questi algoritmi si basano sulle tecniche di filtraggio collaborativo fondamentale descritte nella sezione Consigli basati su elementi, ma incorporano anche la regolazione hyperparameter per determinare la metrica di somiglianza ottimale tra gli elementi. L’algoritmo esegue una suddivisione cronologica dei dati comportamentali per ogni utente e forma modelli di consigli sui dati precedenti durante il tentativo di prevedere gli elementi che un utente visualizzerà o acquisterà in un secondo momento. Viene quindi scelta la metrica di somiglianza che produce la [precisione media ottimale]&#x200B;(https://en.wikipedia.org/wiki/Evaluation_measures_(information_retrieval)).
+Questi algoritmi si basano sulle tecniche di filtro collaborativo descritte nella sezione Consigli basati su elementi e utilizzano anche la regolazione hyperparameter per determinare la metrica di somiglianza ottimale tra gli elementi. L’algoritmo suddivide i dati comportamentali di ciascun utente in ordine cronologico e forma i modelli di consigli sui dati precedenti, tentando al contempo di prevedere gli elementi visualizzati o acquistati in un secondo momento. Viene quindi scelta la metrica di somiglianza con la migliore precisione media.
 
-La logica dei passaggi di apprendimento del modello e del punteggio è illustrata nel diagramma seguente:
+Il diagramma seguente mostra la logica dei passaggi di apprendimento del modello e del punteggio:
 
-![Diagramma che mostra la logica dei passaggi di apprendimento del modello e del punteggio](assets/diagram3.png)
+![Diagramma che mostra la logica dei passaggi di apprendimento del modello e del punteggio](/help/main/c-recommendations/c-algorithms/assets/diagram3.png)
 
-Di seguito sono riportati i dettagli di questi passaggi:
+I passaggi sono i seguenti:
 
-* **Dati di input**: identico ai metodi di filtro collaborativo elemento-elemento. [!UICONTROL Entrambi gli algoritmi consigliati per te] e basati su carrello utilizzano dati comportamentali, sotto forma di visualizzazioni e acquisti di utenti raccolti quando [implementi Target](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=it){target=_blank} o da [Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md){target=_blank}.
+* **Dati di input**: identico ai metodi di filtro collaborativo elemento-elemento. Sia **[!UICONTROL Consigliato per te]** che gli algoritmi basati su carrello utilizzano dati comportamentali sotto forma di visualizzazioni utente e acquisti, raccolti quando [implementi Target](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} o da [Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md){target=_blank}.
 
 * **Apprendimento del modello**:
 
-  * **Pulizia e campionamento dei dati**: anche in questo caso è lo stesso dei metodi di filtro collaborativo, in cui l&#39;intervallo di lookback viene applicato per filtrare i dati comportamentali in un intervallo di date appropriato, seguito dall&#39;applicazione di regole di catalogo ed esclusioni globali. I visitatori che hanno interagito con più di 1.000 elementi vengono considerati solo i 1.000 utilizzi più recenti.
-  * **Divisione test del treno**: esegui una suddivisione cronologica degli utilizzi per ogni utente, allocando il primo 80% dei suoi utilizzi ai dati di addestramento, con il restante 20% allocato ai dati di test.
-  * **Formazione sul modello per similarità degli elementi**: il calcolo della somiglianza degli elementi principali differisce per [!UICONTROL Algoritmi consigliati per te] e basati su carrello nel modo in cui vengono costruiti i vettori degli elementi candidati. Per [!UICONTROL Consigliato per te], i vettori articolo hanno dimensioni NUsers, dove ogni voce rappresenta la somma delle valutazioni implicite per l&#39;utente dell&#39;articolo. Agli acquisti di un articolo viene assegnato un peso pari al doppio delle visualizzazioni dell&#39;articolo. Per i consigli basati su carrello, i vettori di elementi dispongono di voci binarie; se il comportamento all’interno della sessione deve essere considerato solo, esiste una nuova voce per ogni sessione. In caso contrario, esiste una voce in questo vettore elemento per ogni visitatore.
+  * **Pulizia e campionamento dei dati**: come per i metodi di filtro collaborativo. L’intervallo di lookback filtra i dati comportamentali in un intervallo di date appropriato, quindi vengono applicate le regole di catalogo e le esclusioni globali. Per i visitatori che hanno interagito con più di 1.000 elementi, vengono considerati solo i 1.000 utilizzi più recenti.
+  * **Divisione test del treno**: gli utilizzi di ogni utente sono suddivisi in ordine cronologico. Il primo 80% è assegnato ai dati di formazione e il restante 20% ai dati di prova.
+  * **Apprendimento del modello per similarità degli elementi**: il calcolo della somiglianza degli elementi principali differisce tra **[!UICONTROL Consigliato per te]** e Basato sul carrello in base alla costruzione dei vettori degli elementi candidati. Per **[!UICONTROL Consigliato per te]**, i vettori dell&#39;elemento hanno dimensioni NUsers e ogni voce è la somma delle valutazioni implicite che l&#39;utente ha assegnato all&#39;elemento. Gli acquisti hanno un peso pari al doppio di quello delle visualizzazioni. Per i consigli basati su carrello, i vettori di elementi dispongono di voci binarie. Se si considera solo il comportamento all’interno della sessione, esiste una voce per ogni sessione. In caso contrario, esiste una voce per ogni visitatore.
 
-  Il passaggio di apprendimento calcola diversi tipi di somiglianze vettoriali: somiglianza LLR ([discussa qui](/help/main/c-recommendations/c-algorithms/assets/log-likelihood-ratios-recommendation-algorithms.pdf)), somiglianza coseno (definita in precedenza) e somiglianza L2 normalizzata, definita come:
+    Il passaggio di apprendimento calcola diversi tipi di somiglianze vettoriali: somiglianza LLR ([vedi PDF](/help/main/c-recommendations/c-algorithms/assets/log-likelihood-ratios-recommendation-algorithms.pdf)), somiglianza coseno (definita in precedenza) e somiglianza L2 normalizzata, definita come:
 
-  ![Formula che mostra il calcolo dell&#39;addestramento](assets/formula4.png)
+    ![Formula che mostra il calcolo dell&#39;addestramento](/help/main/c-recommendations/c-algorithms/assets/formula4.png)
 
-  * **Valutazione modello similarità elemento**: la valutazione del modello viene eseguita prendendo i consigli generati nel passaggio precedente e facendo previsioni sul set di dati del test. La fase di punteggio online viene imitata ordinando in modo cronologico gli utilizzi degli articoli di ogni utente nel set di dati di test, quindi eseguendo 100 consigli per sottoinsiemi di articoli ordinati nel tentativo di prevedere visualizzazioni e acquisti successivi. Per valutare la qualità di questi consigli, viene utilizzata una metrica di recupero delle informazioni, la [precisione media]&#x200B;(https://en.wikipedia.org/wiki/Evaluation_measures_(information_retrieval)). Questa metrica prende in considerazione l’ordine dei consigli e favorisce gli elementi pertinenti più in alto nell’elenco dei consigli, che è una proprietà importante per i sistemi di classificazione.
-  * **Selezione modello**: dopo la valutazione offline, viene selezionato il modello con la precisione media più elevata e vengono calcolati tutti i singoli suggerimenti elemento-elemento.
-  * **Filtro offline**: la fase finale dell&#39;apprendimento del modello è l&#39;applicazione di eventuali filtri dinamici applicabili. Dopo questo passaggio, i consigli precalcolati vengono memorizzati nella cache a livello globale per essere disponibili per il servizio.
+  * **Valutazione modello similarità elemento**: i consigli generati nel passaggio precedente vengono valutati eseguendo previsioni sul set di dati del test. La fase di valutazione online viene imitata ordinando in ordine cronologico l’utilizzo degli articoli di ciascun utente nel set di dati del test e quindi formulando 100 consigli per sottoinsiemi di articoli ordinati al fine di prevedere visualizzazioni e acquisti successivi. La qualità di questi consigli viene valutata con la precisione media, una metrica di recupero delle informazioni. Questa metrica prende in considerazione l’ordine dei consigli e favorisce gli elementi rilevanti più in alto nell’elenco, che è una proprietà importante per i sistemi di classificazione.
+  * **Selezione modello**: dopo la valutazione offline, viene selezionato il modello con la precisione media più elevata e vengono calcolati tutti i singoli elementi consigliati.
+  * **Filtro non in linea**: la fase finale dell&#39;apprendimento del modello applica tutti i filtri dinamici applicabili. I consigli precalcolati vengono quindi memorizzati nella cache a livello globale, pronti per essere utilizzati.
 
-* **Server modelli**: a differenza degli algoritmi precedenti in cui i consigli di server richiedono la specifica di una singola chiave per il recupero, seguita dall&#39;applicazione di regole di business, gli algoritmi [!UICONTROL Consigliati per te] e basati su carrello utilizzano un processo di runtime più complesso.
+* **Server modelli**: a differenza degli algoritmi precedenti, che specificano una singola chiave per il recupero e quindi applicano le regole business, **[!UICONTROL Consigliato per te]** e basato su carrello utilizzano un processo di runtime più complesso:
 
-  * **Recupero e unione di più chiavi**: per i consigli basati su carrello, fino a dieci elementi passati nel carrello vengono considerati chiavi per il recupero e i consigli di ciascuno vengono ponderati allo stesso modo. Per [!UICONTROL Consigliato per l&#39;utente], fino agli ultimi cinque articoli visualizzati e agli ultimi cinque articoli acquistati vengono considerati chiavi per il recupero, con i consigli derivanti dagli articoli acquistati ponderati il doppio dei consigli derivanti dagli articoli visualizzati. Quando si uniscono i consigli, se un elemento viene visualizzato in più elenchi di consigli singoli, vengono aggiunti i punteggi di somiglianza ponderati. L’elenco finale dei consigli in questa fase è quindi l’elenco unito dei consigli riponderati, ordinati in ordine decrescente.
-  * **Filtro**: vengono quindi applicate le regole di filtro, ad esempio la rimozione degli elementi visualizzati e/o acquistati in precedenza, e altre regole aziendali dinamiche.
+  * **Recupero e unione di più chiavi**: per i consigli basati su carrello, vengono utilizzati come chiavi per il recupero fino a dieci elementi passati nel carrello e i consigli di ciascuna chiave vengono ponderati allo stesso modo. Per **[!UICONTROL Consigliato per te]**, vengono utilizzati come chiavi fino agli ultimi cinque articoli visualizzati e gli ultimi cinque articoli acquistati univoci, e i consigli dagli articoli acquistati vengono ponderati il doppio di quelli dagli articoli visualizzati. Quando i consigli vengono uniti, vengono aggiunti i punteggi di somiglianza ponderati di un elemento visualizzato in più elenchi. Il risultato è l’elenco unito dei consigli riponderati, ordinati in ordine decrescente.
+  * **Filtro**: vengono quindi applicate le regole di filtro, ad esempio la rimozione degli elementi visualizzati o acquistati in precedenza, e altre regole aziendali dinamiche.
 
-Questi processi sono illustrati nell’immagine seguente, dove un visitatore ha visualizzato l’articolo A e ha acquistato l’articolo B. I singoli consigli vengono recuperati con i punteggi di somiglianza offline riportati sotto l’etichetta di ciascun articolo. Dopo il recupero, i consigli vengono uniti con la somma dei punteggi di somiglianza ponderati. Infine, in uno scenario in cui il cliente ha specificato che gli articoli visualizzati e acquistati in precedenza devono essere esclusi dal filtro, il passaggio di filtro rimuove gli articoli A e B dall’elenco dei consigli.
+L’immagine seguente illustra questi processi per un visitatore che ha visualizzato l’articolo A e ha acquistato l’articolo B. I singoli consigli vengono recuperati con i punteggi di somiglianza offline riportati sotto l’etichetta di ciascun articolo e quindi uniti ai punteggi di somiglianza ponderati sommati. Infine, quando il cliente ha specificato che gli articoli visualizzati e acquistati in precedenza devono essere esclusi dal filtro, il passaggio del filtro rimuove gli articoli A e B dall’elenco dei consigli.
 
-![Diagramma che mostra l&#39;elaborazione degli algoritmi a più chiavi](assets/diagram4.png)
+![Diagramma che mostra l&#39;elaborazione degli algoritmi a più chiavi](/help/main/c-recommendations/c-algorithms/assets/diagram4.png)
 
 ## Basato sulla popolarità
 
 Gli algoritmi includono:
 
-* [!UICONTROL Più visualizzati nel sito]
-* [!UICONTROL Più visualizzati per categoria]
-* [!UICONTROL Più visualizzati per attributo elemento]
-* [!UICONTROL Più visualizzati per attributo profilo]
-* [!UICONTROL Più venduti nel sito]
-* [!UICONTROL Più venduti per categoria]
-* [!UICONTROL Più venduti per attributo articolo]
-* [!UICONTROL Più venduti per attributo profilo]
+* **[!UICONTROL Più visualizzati nel sito]**
+* **[!UICONTROL Più visualizzati per categoria]**
+* **[!UICONTROL Più visualizzati per attributo elemento]**
+* **[!UICONTROL Più visualizzati per attributo profilo]**
+* **[!UICONTROL Più venduti nel sito]**
+* **[!UICONTROL Più venduti per categoria]**
+* **[!UICONTROL Più venduti per attributo articolo]**
+* **[!UICONTROL Più venduti per attributo profilo]**
 
-[!DNL Target] fornisce algoritmi basati sulla popolarità sia per gli elementi più visualizzati che per quelli più venduti in un sito Web o suddivisi per un attributo o una categoria di elementi. Gli algoritmi basati sulla popolarità classificano gli elementi in base al numero di sessioni in cui l’elemento è stato visualizzato o acquistato in un determinato intervallo di tempo.
+[!DNL Target] fornisce algoritmi basati sulla popolarità per gli elementi più visualizzati e per quelli più venduti, sia nel sito Web che suddivisi per un attributo o una categoria di elementi. Questi algoritmi classificano gli elementi in base al numero di sessioni in cui l’elemento è stato visualizzato o acquistato in un determinato intervallo di tempo.
 
-Tutti questi algoritmi combinano dati comportamentali aggregati in cui il numero totale di sessioni in cui gli elementi sono stati visualizzati e acquistati viene registrato sia con risoluzione oraria che giornaliera. I singoli algoritmi individuano quindi gli articoli più visualizzati o acquistati per l’intervallo di lookback configurato dal cliente.
+Tutti questi algoritmi combinano dati comportamentali aggregati che registrano il numero totale di sessioni in cui gli elementi sono stati visualizzati e acquistati, sia con risoluzione oraria che giornaliera. Ogni algoritmo trova quindi gli articoli più visualizzati o acquistati per l’intervallo di lookback configurato dal cliente.
 
-Le singole sfumature dell’algoritmo sono le seguenti:
+Gli algoritmi differiscono come segue:
 
-* [!UICONTROL Articoli più visualizzati nel sito] e [!UICONTROL Articoli più venduti nel sito] vengono classificati in base ai conteggi aggregati delle sessioni in cui tali articoli sono stati rispettivamente visualizzati o acquistati. L’output è un singolo elenco (senza chiave) di elementi consigliati.
-* Più visualizzati/Articoli più venduti per categoria/attributo articolo sono consigli in cui gli articoli vengono ordinati in base ai conteggi aggregati delle sessioni in cui tali articoli sono stati visualizzati o acquistati, ma raggruppati per categoria articolo o attributo articolo specifico. Gli output sono elenchi di articoli consigliati, in base ai valori delle categorie o ai valori degli attributi degli articoli.
-* Anche [!UICONTROL Articoli più visualizzati per attributo profilo] e [!UICONTROL Articoli più venduti per attributo profilo] classificano gli articoli in base ai conteggi aggregati di visualizzazione o acquisto, ma la chiave di raggruppamento è un attributo profilo visitatore, ad esempio paese, area geografica o livello di appartenenza, anziché una proprietà articolo. Il conteggio di ogni sessione è attribuito al valore di profilo che il visitatore deteneva al momento dell’interazione, non ad alcun attributo dell’elemento. Il risultato è un set di elenchi di consigli basati sui valori distinti dell’attributo di profilo.
+* **[!UICONTROL Articoli più visualizzati nel sito]** e **[!UICONTROL Articoli più venduti nel sito]** vengono classificati in base al numero aggregato di sessioni in cui gli articoli sono stati visualizzati o acquistati, rispettivamente. L’output è un singolo elenco (senza chiave) di elementi consigliati.
+* Anche gli articoli più visualizzati e più venduti per categoria o attributo articolo ordinano gli articoli in base ai conteggi aggregati delle sessioni, ma li raggruppano per categoria di articoli o in base a un attributo di articolo specifico. L’output è costituito da elenchi di elementi consigliati, codificati in base ai valori delle categorie o agli attributi degli elementi.
+* Anche i **[!UICONTROL Più visualizzati per attributo profilo]** e i **[!UICONTROL Più venduti per attributo profilo]** classificano gli articoli in base ai conteggi di visualizzazione o acquisto aggregati, ma vengono raggruppati in base a un attributo del profilo visitatore, ad esempio paese, area geografica o livello di appartenenza, anziché in base a una proprietà articolo. Il conteggio di ciascuna sessione è attribuito al valore di profilo che il visitatore deteneva al momento dell’interazione, non a qualsiasi attributo dell’elemento. Il risultato è un set di elenchi di consigli basati sui valori distinti dell’attributo di profilo.
 
 ## Visualizzato di recente
 
-L’algoritmo per consigli &quot;visualizzato di recente&quot; consente la personalizzazione dei consigli nella sessione. Questo algoritmo non richiede alcun &quot;apprendimento del modello&quot; offline. Al contrario, [!DNL Target] utilizza il [Profilo visitatore](/help/main/c-target/c-visitor-profile/visitor-profile.md) univoco per mantenere in esecuzione un elenco di elementi che sono stati visualizzati in una determinata sessione e che possono far emergere questi elementi nelle attività di consigli. Questo consente di aggiornare in tempo reale i consigli e la personalizzazione della pagina successiva.
+L’algoritmo &quot;visualizzato di recente&quot; fornisce la personalizzazione dei consigli durante la sessione. Non richiede l’apprendimento offline dei modelli. Al contrario, [!DNL Target] utilizza il [Profilo visitatore](/help/main/c-target/c-visitor-profile/visitor-profile.md) univoco per mantenere in esecuzione un elenco degli elementi visualizzati in una sessione e può far emergere tali elementi nelle attività di consigli. Questo consente di aggiornare in tempo reale i consigli e la personalizzazione della pagina successiva.
 
 ## Criteri personalizzati
 
-I criteri personalizzati consentono ai clienti di [caricare i propri consigli in [!DNL Target]](/help/main/c-recommendations/c-algorithms/recommendations-csv.md), offrendo una flessibilità importante e consentendo funzionalità personalizzate. I criteri personalizzati sostituiscono la parte &quot;formazione offline&quot; di [!UICONTROL consigli basati su elementi], ma si comportano in modo simile agli algoritmi di raccomandazione basati su elementi durante la fase di distribuzione dei contenuti online, in quanto viene utilizzata un&#39;unica chiave per recuperare i consigli e vengono quindi applicati i filtri o le regole aziendali.
+I criteri personalizzati consentono ai clienti di [caricare i propri consigli in Target](/help/main/c-recommendations/c-algorithms/recommendations-csv.md), il che offre flessibilità e consente di &quot;introdurre il proprio modello&quot; di funzionalità. I criteri personalizzati sostituiscono la parte di formazione offline di **[!UICONTROL consigli basati su elementi]**. Durante la distribuzione dei contenuti online, si comportano come gli algoritmi basati sugli elementi: viene utilizzata un’unica chiave per recuperare i consigli e quindi vengono applicate le regole e i filtri di business.
