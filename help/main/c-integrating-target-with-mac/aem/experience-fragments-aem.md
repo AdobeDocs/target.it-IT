@@ -22,7 +22,7 @@ topic_v2:
     internal-label: Personalization
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
     internal-label: Machine learning
-source-git-commit: 7eede3484d524e87127de9147aa786484fc87c7d
+source-git-commit: 1ca30ccbd1acc115980ffe3780ba6c0dbb343806
 workflow-type: tm+mt
 source-wordcount: '1449'
 ht-degree: 32%
@@ -132,7 +132,7 @@ Puoi passare il cursore del mouse su un [!UICONTROL frammento di esperienza] nel
 
 **Per utilizzare [!UICONTROL Frammenti esperienza] utilizzando il Compositore esperienza visivo:**
 
-1. In [!DNL Target], durante la creazione o la modifica di un&#39;esperienza nel [Compositore esperienza visivo](/help/main/c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D), fare clic sul percorso nella pagina in cui si desidera inserire il contenuto [!DNL AEM], quindi fare clic su **[!UICONTROL Sostituisci contenuto]** > **[!UICONTROL Frammento esperienza]** per visualizzare la finestra di dialogo [!UICONTROL Frammento esperienza].
+1. In [!DNL Target], durante la creazione o la modifica di un&#39;esperienza nel [Compositore esperienza visivo](/help/main/c-experiences/experiences.md#experiences-overview), fare clic sul percorso nella pagina in cui si desidera inserire il contenuto [!DNL AEM], quindi fare clic su **[!UICONTROL Sostituisci contenuto]** > **[!UICONTROL Frammento esperienza]** per visualizzare la finestra di dialogo [!UICONTROL Frammento esperienza].
 
    La finestra di dialogo [!UICONTROL Frammento esperienza] visualizza il contenuto creato in [!DNL AEM] che è ora disponibile in modalità nativa in [!DNL Target].
 

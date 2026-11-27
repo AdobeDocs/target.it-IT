@@ -14,18 +14,22 @@ feature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: 1ca30ccbd1acc115980ffe3780ba6c0dbb343806
 workflow-type: tm+mt
-source-wordcount: '154'
-ht-degree: 66%
+source-wordcount: '193'
+ht-degree: 2%
 ---
-# Creazione di caroselli di immagini adatti al Compositore esperienza visivo
+# Creazione di caroselli di immagini adatti al [!UICONTROL Compositore esperienza visivo] {#vec-carousels}
 
-In questo argomento viene illustrato come creare un carosello che possa essere modificato nel [!DNL Adobe Target] [!UICONTROL Compositore esperienza visivo] (VEC).
+>[!BEGINSHADEBOX]
 
-Quando esegui i passaggi seguenti, [!DNL Target] saprà sempre che la diapositiva selezionata avrà il “selettore” per la diapositiva corretta, anche se viene modificato nel Compositore esperienza visivo dopo pochi secondi.
+**In questa pagina:** Scopri come creare un carosello che può essere modificato nel **[!UICONTROL Compositore esperienza visivo]**.
 
-1. Crea segnaposti HTML statici.
+>[!ENDSHADEBOX]
+
+Un carosello creato con la seguente struttura può essere modificato nel [!DNL Adobe Target] **[!UICONTROL Compositore esperienza visivo]** (VEC). La struttura mantiene valido il selettore di ogni diapositiva, pertanto [!DNL Target] identifica sempre la diapositiva corretta, anche quando la diapositiva visualizzata cambia pochi secondi dopo il caricamento della pagina nel Compositore esperienza visivo.
+
+1. Creare le diapositive come segnaposto statici di HTML, con una diapositiva visibile e le altre diapositive nascoste per classe.
 
    ```html
    <ul>
@@ -35,14 +39,10 @@ Quando esegui i passaggi seguenti, [!DNL Target] saprà sempre che la diapositiv
    </ul>
    ```
 
-1. Aggiungi CSS per definire l’aspetto grafico.
-
-   Non utilizzare JavaScript per questo.
+1. Progetta il look and feel solo con CSS. Non utilizzare JavaScript per questo.
 
    >[!NOTE]
    >
-   >L’opzione [!UICONTROL Rendering con JavaScript] non è attualmente supportata se viene utilizzata con codice personalizzato nel Compositore esperienza visivo.
+   >L&#39;opzione **[!UICONTROL Rendering con JavaScript]** non è attualmente supportata se utilizzata insieme al codice personalizzato nel **[!UICONTROL Compositore esperienza visivo]**.
 
-1. Aggiorna i valori classNames solo per nascondere le altre slide e mostrare quella successiva con timer/animazione.
-
-   Non aggiornare mai la struttura DOM tramite JavaScript.
+1. Visualizzare la diapositiva successiva aggiornando solo i nomi delle classi: nascondere le altre diapositive e mostrare quella successiva con un timer o un&#39;animazione. Non aggiornare mai la struttura DOM con JavaScript.

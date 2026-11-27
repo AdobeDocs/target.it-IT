@@ -16,96 +16,79 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: 1ca30ccbd1acc115980ffe3780ba6c0dbb343806
 workflow-type: tm+mt
-source-wordcount: '1384'
-ht-degree: 89%
+source-wordcount: '1126'
+ht-degree: 19%
 ---
-# Riquadri di visualizzazione mobile per esperienze reattive
+# Riquadri di visualizzazione mobile per esperienze reattive {#mobile-viewports}
 
-I riquadri di visualizzazione mobili consentono di visualizzare in anteprima il modo in cui le attività [!DNL Adobe Target] si presentano su schermi di varie dimensioni.
+>[!BEGINSHADEBOX]
 
-La funzione di anteprima del riquadro di visualizzazione mobile è progettata per i siti reattivi con un rendering ottimale su vari dispositivi, finestre e dimensioni di schermo. I siti reattivi si adattano automaticamente a qualsiasi dimensione di schermo, compresi desktop, laptop, tablet o telefoni cellulari.
+**In questa pagina:** Scopri come configurare i riquadri di visualizzazione mobili e utilizzarli per visualizzare in anteprima e creare esperienze per schermi di varie dimensioni.
+
+>[!ENDSHADEBOX]
+
+I riquadri di visualizzazione mobili visualizzano [!DNL Adobe Target] attività alle dimensioni dello schermo di vari dispositivi. Sono progettati per i siti dinamici, che si adattano automaticamente a desktop, notebook, tablet e telefoni cellulari e consentono di verificare che un’esperienza sia efficace su ciascuno di essi.
 
 >[!NOTE]
 >
-> * I riquadri di visualizzazione mobili si utilizzano quando il sito è reattivo e gli stessi elementi presenti nella pagina del desktop vengono utilizzati nella versione mobile della pagina in una configurazione diversa. Se disponi di una versione mobile del sito separata con una struttura separata, ad esempio `m.mysite.com`, utilizza invece un’[attività multipagina](/help/main/c-experiences/c-visual-experience-composer/multipage-activity.md#concept_277E096063E14813AC5D8EDFA1D2ED48).
+> * Utilizza i riquadri di visualizzazione mobili quando il sito è reattivo e la pagina mobile riutilizza gli elementi della pagina desktop in un layout diverso. Quando il sito mobile è separato e ha una propria struttura, ad esempio `m.mysite.com`, utilizza invece un&#39;[attività multipagina](/help/main/c-experiences/c-visual-experience-composer/multipage-activity.md#multipage-activity).
 >
->* I riquadri di visualizzazione mobili non sono disponibili se sovrapposti da una sovrapposizione di offerta di reindirizzamento.
+>* I riquadri di visualizzazione per dispositivi mobili non sono disponibili quando una sovrapposizione di offerta di reindirizzamento li sovrappone.
 
-Un riquadro di visualizzazione è definito dalla dimensione del rettangolo riempito da una pagina web sullo schermo. Il riquadro ha le dimensioni della finestra, escluse le barre di scorrimento e le barre degli strumenti. I browser utilizzano i “pixel CSS”. Per molti dispositivi, ad esempio quelli con schermi retina, il riquadro di visualizzazione è più piccolo della risoluzione del dispositivo pubblicizzato.
+## Riquadri di visualizzazione e punti di interruzione CSS
 
-Di seguito sono mostrati i riquadri di visualizzazione e le risoluzioni dei dispositivi più diffusi. Ricordati di utilizzare la dimensione del riquadro di visualizzazione in [!DNL Target].
+Un riquadro di visualizzazione è l&#39;area dello schermo occupata da una pagina Web: le dimensioni della finestra del browser, meno le barre di scorrimento e le barre degli strumenti. I browser lo misurano in pixel CSS, quindi su molti dispositivi, come quelli con schermi retina, il riquadro di visualizzazione è più piccolo della risoluzione del dispositivo pubblicizzato. Utilizzare sempre le dimensioni del riquadro di visualizzazione in [!DNL Target]. Nella tabella seguente sono elencati entrambi i valori per i dispositivi più diffusi.
+
++++ Riquadri di visualizzazione e risoluzioni dei dispositivi più diffusi
 
 >[!NOTE]
 >
 >Ci sono vari siti web che elencano le misure del riquadro di visualizzazione dei dispositivi più popolari. Ad esempio, vedi `https://viewportsizer.com/devices/`. Consulta il sito web del produttore del dispositivo per informazioni più precise e aggiornate.
+>
+>Dimensioni dei riquadri di visualizzazione contrassegnate con &quot;est&quot;. sono stime.
 
 | Dispositivo | Dimensioni del riquadro di visualizzazione (larghezza x altezza) | Risoluzione del dispositivo (larghezza x altezza) |
 |---|---|---|
-| iPhone 12 | 390 x 844 | 1170 x 2532 |
-| iPhone 12 Mini | 360 x 780 | 1080 x 2340 |
-| iPhone 12 Pro | 390 x 844 | 1170 x 2532 |
-| iPhone 12 Pro Max | 428 x 926 | 1248 x 2778 |
-| iPhone SE | 214 x 379 | 640 x 1136 |
-| iPhone 11 Pro Max | 414 x 896 | 1242 x 2688 |
-| iPhone 11 Xs Max | 414 x 896 | 1242 x 2688 |
-| iPhone 11 | 414 x 896 | 828 x 1792 |
-| iPhone 11 Xr | 414 x 896 | 828 x 1792 |
-| iPhone 11 Pro | 375 x 812 | 1125 x 2436 |
-| iPhone 11 X | 375 x 812 | 1125 x 2436 |
-| iPhone 11 Xs | 375 x 812 | 1125 x 2436 |
-| iPhone X | 375 x 812 | 1125 x 2436 |
-| iPhone 8 Plus | 414 x 736 | 1080 x 1920 |
-| iPhone 8 | 375 x 667 | 750 x 1334 |
-| iPhone 7 Plus | 414 x 736 | 1080 x 1920 |
-| iPhone 7 | 375 x 667 | 750 x 1334 |
-| iPhone 6s Plus | 414 x 736 | 1080 x 1920 |
-| iPhone 6s | 375 x 667 | 750 x 1334 |
-| iPhone 6 Plus | 414 x 736 | 1080 x 1920 |
-| iPhone 6 | 375 x 667 | 750 x 1334 |
-| iPad Pro | 1024 x 1366 | 2048 x 2732 |
-| iPad di terza e quarta generazione | 768 x 1024 | 1536 x 2048 |
-| iPad Air 1 e 2 | 768 x 1024 | 1536 x 2048 |
-| iPad Mini | 768 x 1024 | 768 x 1024 |
-| iPad Mini 2 e 3 | 768 x 1024 | 1536 x 2048 |
-| Nexus 6P | 411 x 731 | 1440 x 2560 |
-| Nexus 5X | 411 x 731 | 1080 x 1920 |
-| Google Pixel | 411 x 731 | 1080 x 1920 |
-| Google Pixel XL | 411 x 731 | 1440 x 2560 |
-| Google Pixel 2 | 411 x 731 | 1080 x 1920 |
-| Google Pixel 2 XL | 411 x 823 | 1440 x 2880 |
-| Samsung Galaxy Note 5 | 480 x 853 | 1440 x 2560 |
-| LG G5 | 360 x 640 | 1440 x 2560 |
-| LG G4 | 360 x 640 | 1440 x 2560 |
-| LG G3 | 360 x 640 | 1440 x 2560 |
-| One Plus 3 | 480 x 853 | 1080 x 1920 |
-| Samsung Galaxy S9 | 360 x 740 | 1440 x 2960 |
-| Samsung Galaxy S9+ | 360 x 740 | 1440 x 2960 |
-| Samsung Galaxy S8 | 360 x 740 | 1440 x 2960 |
-| Samsung Galaxy S8+ | 360 x 740 | 1440 x 2960 |
-| Samsung Galaxy S7 | 360 x 640 | 1440 x 2560 |
-| Samsung Galaxy S7 Edge | 360 x 640 | 1440 x 2560 |
-| Nexus 7 (2013) | 600 x 960 | 1200 x 1920 |
-| Nexus 9 | 768 x 1024 | 1536 x 2048 |
-| Samsung Galaxy Tab 10 | 800 x 1280 | 800 x 1280 |
-| Chromebook Pixel | 1280 x 850 | 2560 x 1700 |
+| iPhone 18 Pro Max | 440 x 956 | 1320 x 2868 |
+| iPhone 18 Pro | 402 x 874 | 1206 x 2622 |
+| iPhone 17 Pro Max | 440 x 956 | 1320 x 2868 |
+| iPhone 17 Pro | 402 x 874 | 1206 x 2622 |
+| iPhone Air | 420 x 912 | 1260 x 2736 |
+| iPhone 17 | 402 x 874 | 1206 x 2622 |
+| iPhone 16e | 390 x 844 | 1170 x 2532 |
+| iPad (A16) | 820 x 1180 | 1640 x 2360 |
+| iPad mini (A17 Pro) | 744 x 1133 | 1488 x 2266 |
+| iPad Air 11″ (M3 / M4) | 820 x 1180 | 1640 x 2360 |
+| iPad Pro 11″ (M5) | 834 x 1210 | 1668 x 2420 |
+| Google Pixel 11 | 412 x 924 (est) | 1080 x 2424 |
+| Google Pixel 11 Pro | 410 x 914 (est.) | 1280 x 2856 |
+| Google Pixel 11 Pro XL | 448 x 997 (est) | 1344 x 2992 |
+| Google Pixel 10 | 412 x 924 | 1080 x 2424 |
+| Google Pixel 10 Pro | 410 x 914 (est.) | 1280 x 2856 |
+| Google Pixel 10 Pro XL | 448 x 997 (est) | 1344 x 2992 |
+| Samsung Galaxy S26 | 360 x 780 | 1080 x 2340 |
+| Samsung Galaxy S26 Ultra | 412 x 891 | 1440 x 3120 |
+| iPhone Duo (aperto) | 890 x 626 (versione standard) | 2670 x 1878 |
+| iPhone Duo (piegato) | 466 x 678 (versione standard) | 1398 x 2034 |
+| Samsung Galaxy Z Piega 7 (piegato) | 412 x 960 (versione standard) | 1080 x 2520 |
+| Samsung Galaxy Z Flip 8 | 360 x 840 (est) | 1080 x 2520 |
+| Pixel Google 11 Pro Fold (aperto) | 791 x 820 (est) | 2076 x 2152 |
 
-Per inviare un’attività ai visitatori su un determinato dispositivo, scegli il pubblico appropriato per tale dispositivo nel diagramma delle attività. Utilizza il Compositore web per dispositivi mobili per modificare la pagina nell’attività relativa a tale dispositivo. Per eseguire un’attività nell’intera esperienza digitale per garantirne la visualizzazione ottimale su tutti i dispositivi, non applicare il targeting. Utilizza invece i riquadri di visualizzazione mobili per visualizzare in anteprima l’attività su ogni dimensione di schermo.
++++
 
-Per quanto riguarda i siti reattivi, in genere il sito è progettato per aprirsi in una visualizzazione diversa quando si accede da un dispositivo con una dimensione dello schermo specifica. Le dimensioni dello schermo che attivano le nuove visualizzazioni sono noti come Punti di interruzione CSS. I punti di interruzione CSS sono punti in cui il contenuto del sito web risponde a seconda della larghezza del dispositivo per mostrare ai visitatori il layout ottimale. I punti di interruzione CSS sono anche denominati [media query](https://developer.mozilla.org/es/docs/Web/CSS/Media_Queries/Using_media_queries).
+Un sito reattivo passa a un layout diverso per schermi di dimensioni specifiche. Queste dimensioni sono denominate punti di interruzione CSS o [query multimediali](https://developer.mozilla.org/es/docs/Web/CSS/Media_Queries/Using_media_queries). Il salvataggio dei punti di interruzione CSS del sito in [!DNL Target] consente di visualizzare in anteprima ogni visualizzazione e facendo clic su un riquadro di visualizzazione nella parte superiore della visualizzazione si apre la visualizzazione corrispondente alla dimensione dello schermo.
 
-Salva i punti di interruzione CSS in [!DNL Target] per poter visualizzare in anteprima le esperienze per ogni visualizzazione che definisci. Ognuna di queste esperienze viene visualizzata in un riquadro di visualizzazione mobile nell’interfaccia di [!DNL Target]. Apri la visualizzazione per ogni dimensione dello schermo cliccando sul riquadro di visualizzazione corrispondente nella parte superiore del display.
-
-Se il sito non è reattivo, puoi comunque utilizzare il compositore web per dispositivi mobili per visualizzare un sito, se l’attività è destinata a un dispositivo specifico.
+Per distribuire un&#39;attività a un determinato dispositivo, seleziona il pubblico per tale dispositivo nel diagramma attività, quindi modifica la pagina per tale dispositivo nel Compositore web per dispositivi mobili. Lo stesso strumento viene utilizzato per visualizzare un sito che non risponde quando l’attività è destinata a un dispositivo specifico. Per eseguire un’attività su tutti i dispositivi, non applicare alcun targeting e visualizzare in anteprima l’attività su ogni dimensione di schermo con i riquadri di visualizzazione mobili.
 
 >[!IMPORTANT]
 >
->Puoi modificare un’esperienza dall’interno dei riquadri di visualizzazione mobili. Tuttavia, queste modifiche si applicano a tutti i riquadri di visualizzazione e a tutti i dispositivi, non solo al riquadro di visualizzazione in cui si sta lavorando. Analogamente, la modifica di un’esperienza nella normale visualizzazione desktop cambia la pagina per tutte le dimensioni di schermo, non solo la visualizzazione sul desktop. Attualmente, [!DNL Target] non supporta le modifiche di pagina specifiche per i riquadri di visualizzazione.
+>Le esperienze possono essere modificate dall&#39;interno dei riquadri di visualizzazione mobili, ma le modifiche si applicano a tutti i riquadri e dispositivi, non solo a quello in uso. Allo stesso modo, la modifica di un’esperienza nella vista desktop cambia la pagina per tutte le dimensioni di schermo. [!DNL Target] non supporta attualmente le modifiche di pagina specifiche per i riquadri di visualizzazione.
 
 ## Configurazione di riquadri di visualizzazione mobili {#task_B4B161499DC0470584ED922A4D20FCAB}
 
-Configura i riquadri di visualizzazione mobili che desideri rendere disponibili quando crei le tue esperienze.
+Definisci i riquadri di visualizzazione mobili disponibili durante la creazione di esperienze.
 
 1. Fai clic su **[!UICONTROL Amministrazione]** > **[!UICONTROL Compositore esperienza visivo]**.
 1. Nella sezione **[!UICONTROL Configurazione riquadri di visualizzazione mobili]**, fai clic su **[!UICONTROL Aggiungi]**.
@@ -114,16 +97,10 @@ Configura i riquadri di visualizzazione mobili che desideri rendere disponibili 
 
    Oppure
 
-   Per modificare la configurazione di un riquadro di visualizzazione mobile esistente, selezionare tale riquadro, quindi fare clic sull&#39;icona [!UICONTROL Modifica] (matita).
+   Per modificare la configurazione di un riquadro di visualizzazione mobile esistente, selezionare tale riquadro, quindi fare clic sull&#39;icona **[!UICONTROL Modifica]** (matita).
 
-1. Inserisci un nome per il riquadro di visualizzazione mobile.
-
-   Assegna al riquadro di visualizzazione mobile un nome descrittivo facile da riconoscere. Il nome può essere lungo fino a 36 caratteri.
-
-1. Specifica le dimensioni dello schermo del dispositivo mobile, sia larghezza che altezza.
-
-   La larghezza può essere compresa tra 150 e 968 pixel. L’altezza può essere compresa tra 150 e 1280 pixel.
-
+1. Digita un nome descrittivo per il riquadro di visualizzazione mobile. Il nome può essere lungo fino a 36 caratteri.
+1. Inserisci le dimensioni dello schermo del dispositivo mobile. La larghezza può essere compresa tra 150 e 968 pixel e l&#39;altezza tra 150 e 1280 pixel.
 1. (Facoltativo) Seleziona il sistema operativo del dispositivo.
 
    Opzioni:
@@ -134,20 +111,20 @@ Configura i riquadri di visualizzazione mobili che desideri rendere disponibili 
    * Symbian
    * BlackBerry
 
-   Se utilizzi il [Compositore esperienza avanzato](/help/main/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) e scegli un sistema operativo, [!DNL Target] emulerà tale dispositivo quando visualizzerai la pagina. Ad esempio, se il sito reattivo si presenta in modo diverso su Android e iOS, [!DNL Target] imita quel comportamento.
+   Se il [Compositore esperienza avanzato](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#enable-eec) è abilitato e viene selezionato un sistema operativo, [!DNL Target] emula tale dispositivo quando viene visualizzata la pagina. Ad esempio, se il sito reattivo ha un aspetto diverso per Android rispetto ad iOS, [!DNL Target] imita quel comportamento.
 
 1. Fai clic su **[!UICONTROL Salva]**.
 
 >[!NOTE]
 >
->Se tenti di eliminare un riquadro di visualizzazione mobile in uso, viene visualizzato il seguente messaggio: “This viewport is currently associated to one or multiple activities. You need to remove the viewport from those activities before being able to delete it.” (Questo riquadro di visualizzazione è attualmente associato a una o più attività. Per eliminarlo, rimuovilo da tali attività.).
+>Quando si tenta di eliminare un riquadro di visualizzazione mobile in uso, viene visualizzato il seguente messaggio: &quot;Questo riquadro di visualizzazione è attualmente associato a una o più attività. (Questo riquadro di visualizzazione è attualmente associato a una o più attività. Per eliminarlo, rimuovilo da tali attività.).
 
 ## Creazione di un’esperienza reattiva {#task_D6332438B5EE48CCA8AF199270F1CAEF}
 
-Aggiungi i riquadri di visualizzazione mobili alle attività di [!DNL Target] per creare esperienze reattive per gli schermi dei cellulari.
+Aggiungi i riquadri di visualizzazione mobili alle attività [!DNL Target] per creare esperienze reattive per gli schermi dei cellulari.
 
 1. Crea l’[attività desiderata](/help/main/c-activities/activities.md).
-1. Nel [!UICONTROL Compositore esperienza visivo] (VEC), fai clic sull&#39;icona a forma di ingranaggio **[!UICONTROL Impostazioni]**, quindi seleziona **[!UICONTROL Aggiungi riquadri di visualizzazione mobili]**.
+1. Nel **[!UICONTROL Compositore esperienza visivo]** (VEC), fai clic sull&#39;icona a forma di ingranaggio **[!UICONTROL Impostazioni]**, quindi seleziona **[!UICONTROL Aggiungi riquadri di visualizzazione mobili]**.
 
    ![Opzione Aggiungi riquadri di visualizzazione mobili](/help/main/c-experiences/c-visual-experience-composer/assets/add-mobile-viewports.png)
 
@@ -157,25 +134,21 @@ Aggiungi i riquadri di visualizzazione mobili alle attività di [!DNL Target] pe
 
    I riquadri di visualizzazione mobili sono elencati dai più piccola ai più grandi secondo la larghezza.
 
-1. Modifica i riquadri di visualizzazione mobili come desideri.
-
-   Tutte le modifiche apportate all’esperienza vengono applicate all’esperienza su tutti i dispositivi. Ad esempio, puoi modificare il testo di un’intestazione.
-
-   Sposta il mouse sul nome di un riquadro di visualizzazione per visualizzarne le dimensioni.
+1. Modifica l’esperienza nei riquadri di visualizzazione mobili in base alle esigenze. Qualsiasi modifica si applica all’esperienza su tutti i dispositivi, ad esempio una modifica al testo di un’intestazione. Passa il cursore del mouse sul nome di un riquadro di visualizzazione per visualizzarne le dimensioni.
 
    ![Esperienza reattiva su iPhone 11 Pro Max](/help/main/c-experiences/c-visual-experience-composer/assets/iphone11.png)
 
-1. Se lo desideri, passa dalla modalità verticale a quella orizzontale facendo clic sull’icona dell’orientamento desiderato.
+1. (Facoltativo) Per passare dalla modalità verticale a quella orizzontale, fai clic sull’icona orientamento.
 
    ![Opzioni di orientamento](/help/main/c-experiences/c-visual-experience-composer/assets/orientation.png)
 
 ## Video di formazione
 
-I video seguenti contengono ulteriori informazioni sui concetti descritti in questo articolo.
+I video seguenti contengono ulteriori informazioni sui riquadri di visualizzazione per dispositivi mobili.
 
 ### Compositore esperienza visivo (2 di 2) (7:29) ![Badge panoramica](/help/main/assets/overview.png)
 
-Il video demo seguente include informazioni sull&#39;utilizzo del Compositore esperienza visivo per lavorare con i riquadri di visualizzazione per dispositivi mobili:
+Il video dimostrativo seguente include informazioni sull’utilizzo del Compositore esperienza visivo per lavorare con i riquadri di visualizzazione per dispositivi mobili:
 
 * Rinominare e duplicare un’esperienza
 * Creare un’esperienza con reindirizzamento

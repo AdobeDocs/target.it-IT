@@ -28,7 +28,7 @@ topic_v2:
     internal-label: Digital asset management
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 553aa8fb523a62f72f0e2be7d7fd1b4eb663da6b
+source-git-commit: 1ca30ccbd1acc115980ffe3780ba6c0dbb343806
 workflow-type: tm+mt
 source-wordcount: '541'
 ht-degree: 5%
@@ -50,7 +50,7 @@ Per informazioni su come questa scheda si adatta ad altre attività di amministr
 
 ## Funzionalità dell&#39;integrazione {#what-it-enables}
 
-Quando è configurata la configurazione **[!UICONTROL Scene7]**, gli autori possono utilizzare le immagini caricate nella cartella delle risorse [!DNL Adobe Experience Cloud] nelle attività [!DNL Target]. L&#39;opzione **[!UICONTROL Scambia offerta immagine]** viene visualizzata nel flusso di lavoro dell&#39;attività, incluso nel [Compositore esperienza visivo e Compositore esperienza basato su moduli](/help/main/c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D). Per informazioni sul comportamento di scambio nel Compositore esperienza visivo, consulta [Opzioni del Compositore esperienza visivo](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md).
+Quando è configurata la configurazione **[!UICONTROL Scene7]**, gli autori possono utilizzare le immagini caricate nella cartella delle risorse [!DNL Adobe Experience Cloud] nelle attività [!DNL Target]. L&#39;opzione **[!UICONTROL Scambia offerta immagine]** viene visualizzata nel flusso di lavoro dell&#39;attività, incluso nel [Compositore esperienza visivo e Compositore esperienza basato su moduli](/help/main/c-experiences/experiences.md#experiences-overview). Per informazioni sul comportamento di scambio nel Compositore esperienza visivo, consulta [Opzioni del Compositore esperienza visivo](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md).
 
 Se questa impostazione non è configurata, **[!UICONTROL L&#39;offerta di scambio immagine]** non è disponibile durante la creazione dell&#39;attività.
 

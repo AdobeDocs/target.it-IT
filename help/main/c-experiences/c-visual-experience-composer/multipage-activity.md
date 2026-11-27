@@ -16,31 +16,42 @@ topic_v2:
     internal-label: Customer experience
   - id: c18d9e03-ac7d-4811-9c92-3e92ddc70ade
     internal-label: Mobile experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 1ca30ccbd1acc115980ffe3780ba6c0dbb343806
 workflow-type: tm+mt
-source-wordcount: '354'
-ht-degree: 54%
+source-wordcount: '374'
+ht-degree: 13%
 ---
-# Attività multipagina
+# Attività multipagina {#multipage-activity}
 
-Un&#39;attività multipagina in [!DNL Adobe Target] consente di creare una storia su più pagine, con una progettazione specifica per ogni pagina.
+>[!BEGINSHADEBOX]
 
-Ad esempio, ti può essere utile per testare un’offerta di spedizione gratuita per acquisti superiori a un determinato importo. Vorresti che questa offerta venga visualizzata nella pagina di destinazione, in una pagina di categoria e in alcune pagine di prodotto, ma con dimensioni e posizione diverse in ciascun tipo di pagina. L’offerta dovrà essere prominente sulla home page, quindi proposta di nuovo ma più piccola su altre pagine correlate.
+**In questa pagina:** Scopri come utilizzare un&#39;attività multipagina per creare una storia su più pagine, con una progettazione specifica per ogni pagina.
 
-Puoi anche utilizzare un’attività multipagina per definire layout diversi per i siti desktop e mobile non reattivi. Se il sito dispone di un sito per dispositivi mobili separato come [!DNL m.mysite.com] invece di [!DNL `www.mysite.com`], è preferibile creare un&#39;[attività multipagina](/help/main/c-experiences/c-visual-experience-composer/multipage-activity.md#concept_277E096063E14813AC5D8EDFA1D2ED48), aggiungere [!DNL m.mysite.com] come pagine separate e quindi applicare le modifiche per dispositivi mobili per apportare le modifiche appropriate alla versione desktop e alla versione mobile nella stessa esperienza. Per i siti per dispositivi mobili adattivi, utilizza le [modifiche delle esperienze mobile](/help/main/c-experiences/c-visual-experience-composer/mobile-viewports.md#concept_8E45527C4ABC41D59AA3553BEDC76FA5).
+>[!ENDSHADEBOX]
+
+Un&#39;attività multipagina in [!DNL Adobe Target] crea una storia su più pagine, con una struttura specifica per ogni pagina.
+
+Ad esempio, è possibile testare un’offerta di spedizione gratuita con acquisti superiori a un determinato importo. L’offerta può apparire nella pagina di destinazione, in una pagina di categoria e in alcune pagine di prodotto, con dimensioni e posizione diverse su ciascun tipo di pagina. Un’offerta importante può essere visualizzata nella home page, quindi rafforzata con offerte più piccole su altre pagine pertinenti.
+
+Un’attività multipagina può anche definire layout diversi per i siti desktop e mobili non reattivi. Se il sito dispone di un sito mobile separato come [!DNL m.mysite.com] invece di [!DNL `www.mysite.com`], crea un&#39;attività multipagina, aggiungi [!DNL m.mysite.com] come pagine separate, quindi applica le modifiche mobile per apportare le modifiche appropriate alla versione desktop e alla versione mobile nella stessa esperienza. Per i siti per dispositivi mobili adattivi, utilizza le [modifiche delle esperienze mobile](/help/main/c-experiences/c-visual-experience-composer/mobile-viewports.md).
 
 >[!NOTE]
 >
->Le attività multipagina sono progettate per le attività in cui la stessa offerta ha un aspetto diverso su più pagine. Se l’offerta appare nello stesso modo su tutte le pagine, un [test modello](/help/main/c-experiences/c-visual-experience-composer/temtest.md#task_2539D51A18044F82B0D9895636546781) risulta più efficiente.
+>Le attività multipagina sono progettate per le attività in cui la stessa offerta ha un aspetto diverso su più pagine. Se l’offerta appare nello stesso modo su tutte le pagine, un [test modello](/help/main/c-experiences/c-visual-experience-composer/temtest.md#similar-pages) risulta più efficiente.
 
-È possibile specificare regole modello per ogni pagina del test multipagina. Ad esempio, è possibile eseguire un test multipagina nella home page e in tutte le pagine delle categorie applicando delle regole modello alla pagina categoria del test multipagina. Vedi [Includere la stessa esperienza in pagine simili](/help/main/c-experiences/c-visual-experience-composer/temtest.md#task_2539D51A18044F82B0D9895636546781).
+È possibile specificare le regole del modello per ogni pagina nel test multipagina. Ad esempio, un test multipagina può essere eseguito in tutta la home page e in tutte le pagine delle categorie applicando regole di modello alla pagina delle categorie nel test multipagina. Vedi [Includere la stessa esperienza in pagine simili](/help/main/c-experiences/c-visual-experience-composer/temtest.md#similar-pages).
 
-Per aggiungere delle pagine a un test:
+## Aggiungere pagine a un’attività {#add-pages}
+
+Ogni pagina aggiunta all’attività può avere una propria progettazione dell’offerta.
 
 1. Fai clic sull&#39;icona **[!UICONTROL Configura]** ( ![Configura icona](/help/main/assets/icons/Setting.svg) ).
+
 1. Fai clic su **[!UICONTROL Aggiungi pagine supplementari]**.
 
-   Nella parte sinistra dello schermo viene visualizzato un riquadro di [!UICONTROL Pagine].
+   Nella parte sinistra dello schermo viene visualizzato un riquadro di **[!UICONTROL Pagine]**.
+
+   ![Icona Configura](assets/vec_edit_4.png)
 
 1. Specificare le pagine e impostare la pagina predefinita.
 

@@ -21,138 +21,139 @@ topic_v2:
     internal-label: Customer experience
   - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
     internal-label: Behavioral data
-source-git-commit: 7eede3484d524e87127de9147aa786484fc87c7d
+source-git-commit: 1ca30ccbd1acc115980ffe3780ba6c0dbb343806
 workflow-type: tm+mt
-source-wordcount: '1539'
-ht-degree: 13%
+source-wordcount: '1365'
+ht-degree: 0%
 ---
-# Anteprima e avvio di un’attività Consigli
+# Anteprima e avvio di un’attività Consigli {#preview-launch-recs-activity}
 
-Dopo aver creato l&#39;attività [!UICONTROL Consigli], [!UICONTROL Test A/B] o [!UICONTROL Targeting esperienza] (XT) contenente [Offerte Consigli](/help/main/c-recommendations/recommendations-as-an-offer.md), sarà necessario visualizzare in anteprima i consigli per assicurarsi che siano disponibili i risultati prima di avviare l&#39;attività. [!DNL Target Recommendations] offre diversi modi per visualizzare in anteprima i consigli.
+>[!BEGINSHADEBOX]
 
-## Verifica dello stato dell’algoritmo di Recommendations
+**In questa pagina:** Scopri come controllare lo stato dell&#39;algoritmo, visualizzare in anteprima i consigli e attivare un&#39;attività [!DNL Recommendations].
 
-Dopo aver creato un&#39;attività, [!DNL Recommendations] esegue un algoritmo per generare i consigli. L’esecuzione di questo algoritmo potrebbe richiedere alcune ore.
+>[!ENDSHADEBOX]
 
-Puoi verificare se l&#39;algoritmo ha terminato l&#39;esecuzione nel diagramma di panoramica [!UICONTROL Attività], in cui è elencato lo stato dei criteri. La figura seguente mostra lo stato nel diagramma attività nella pagina [!UICONTROL Panoramica] di un&#39;attività [!DNL Recommendations]:
+L’anteprima dei consigli prima di avviare un’attività conferma la disponibilità dei risultati. Ciò si applica alle [!UICONTROL attività Consigli], [!UICONTROL Test A/B] e [!UICONTROL Targeting esperienza] (XT) che contengono [Offerte Consigli](/help/main/c-recommendations/recommendations-as-an-offer.md). [!DNL Target Recommendations] offre diversi modi per visualizzare in anteprima i consigli.
+
+## Controllare lo stato dell’algoritmo {#check-status}
+
+Dopo la creazione di un&#39;attività, [!DNL Recommendations] esegue un algoritmo per generare i consigli. L’esecuzione di questo algoritmo potrebbe richiedere alcune ore.
+
+Lo stato dell&#39;algoritmo è elencato con i criteri nel diagramma attività nella pagina **[!UICONTROL Panoramica]** dell&#39;attività [!DNL Recommendations].
 
 ![Pagina di panoramica dell&#39;attività Consigli](/help/main/c-recommendations/t-create-recs-activity/assets/recs-overview-new.png)
 
-I risultati dello stato includono quanto segue, come illustrato di seguito:
+Lo stato può essere uno dei seguenti:
 
-* [!UICONTROL Risultati pronti]: indica che l&#39;algoritmo ha restituito dei risultati
-* [!UICONTROL Risultati non pronti]: indica che l&#39;esecuzione dell&#39;algoritmo non è stata completata.
-* [!UICONTROL Errore di feed]: indica che non è stato possibile recuperare il file di feed dei criteri personalizzato.
+* **[!UICONTROL Risultati pronti]**: l&#39;algoritmo ha restituito dei risultati.
+* **[!UICONTROL Risultati non pronti]**: l&#39;esecuzione dell&#39;algoritmo non è stata completata.
+* **[!UICONTROL Errore di feed]**: impossibile recuperare il file di feed dei criteri personalizzato.
 
 ![Finestra di dialogo dei risultati](/help/main/c-recommendations/c-algorithms/assets/criteria_status_multi.png)
 
-## Quanto tempo ci vorrà per eseguire l&#39;algoritmo?
+## Stimare il tempo di esecuzione dell’algoritmo {#algorithm-run-time}
 
-Dopo aver salvato un&#39;attività contenente un criterio, [!DNL Target] calcola i consigli in base alla raccolta, ai criteri, alla progettazione e alle promozioni selezionati. Il calcolo richiede un po’ di tempo, in base alla logica selezionata per i consigli, all’intervallo di dati, al numero di elementi nel catalogo, alla quantità di dati comportamentali generati dai clienti e all’origine selezionata per i dati comportamentali.
-
-Quest’ultima influisce maggiormente sul tempo di elaborazione, come segue:
+Dopo il salvataggio di un&#39;attività che contiene un criterio, [!DNL Target] calcola i consigli in base alla raccolta, ai criteri, alla progettazione e alle promozioni selezionate. Il tempo necessario dipende dalla logica dei consigli, dall’intervallo di dati, dal numero di elementi nel catalogo, dalla quantità di dati comportamentali generati dai clienti e dall’origine dei dati comportamentali. L’origine dei dati comportamentali ha il maggiore impatto sul tempo di elaborazione.
 
 ### mbox
 
-Se come origini dei dati comportamentali sono selezionate delle mbox, i criteri creati vengono eseguiti subito. A seconda della quantità di dati comportamentali utilizzati e delle dimensioni del catalogo, l’esecuzione dell’algoritmo può richiedere fino a 12 ore. L’apporto di modifiche alla configurazione dei criteri comporta solitamente la riesecuzione dei criteri. A seconda della modifica apportata, i consigli calcolati in precedenza potrebbero non essere disponibili fino a quando non viene completata una nuova esecuzione oppure, per modifiche di maggiore entità, fino a quando non viene completata una nuova esecuzione potrebbero essere disponibili solo i contenuti di backup o predefiniti. Se un algoritmo non viene modificato, viene rieseguito automaticamente da [!DNL Target] ogni 12-48 ore, a seconda dell’intervallo di dati selezionato.
+Quando le mbox sono l’origine dei dati comportamentali, i criteri vengono eseguiti subito dopo la creazione. A seconda della quantità di dati comportamentali e delle dimensioni del catalogo, l’esecuzione dell’algoritmo può richiedere fino a 12 ore.
+
+Le modifiche alla configurazione dei criteri in genere causano la riesecuzione dell’algoritmo. A seconda della modifica, i consigli calcolati in precedenza potrebbero non essere disponibili fino al completamento della nuova esecuzione. Per modifiche di grandi dimensioni, è disponibile solo il contenuto di backup o predefinito fino al completamento della nuova esecuzione.
+
+Un algoritmo non modificato viene rieseguito automaticamente da [!DNL Target] ogni 12-48 ore, a seconda dell&#39;intervallo di dati selezionato.
 
 ### [!DNL Adobe Analytics]
 
-Se il criterio utilizza [!DNL Adobe Analytics] come origine dei dati comportamentali, l’eventuale utilizzo della suite di rapporti e dell’intervallo di lookback selezionati per altri criteri incide sul tempo che trascorre prima che il criterio creato diventi disponibile.
+Quando [!DNL Adobe Analytics] è l&#39;origine dei dati comportamentali, il tempo fino a quando i criteri non sono disponibili dipende dal fatto che la suite di rapporti e l&#39;intervallo di lookback selezionati siano già stati utilizzati per altri criteri. La prima volta che una suite di rapporti viene utilizzata con un intervallo di lookback specificato, [!DNL Target Recommendations] può richiedere da due a sette giorni per scaricare i dati comportamentali da [!DNL Analytics].
 
-* **Configurazione una tantum della suite di rapporti**: la prima volta che una suite di rapporti viene utilizzata con una specifica finestra di lookback dei dati, [!DNL Target Recommendations] può richiedere da due a sette giorni per scaricare completamente i dati comportamentali della suite di rapporti selezionata da [!DNL Analytics]. L’arco temporale dipende dal caricamento del sistema [!DNL Analytics].
-* **Criteri nuovi o modificati che utilizzano una suite di rapporti già disponibile**: se crei un nuovo criterio o ne modifichi uno esistente e la suite di rapporti selezionata è già utilizzata per [!DNL Target Recommendations], con un intervallo di dati uguale o inferiore a quello selezionato, i dati saranno immediatamente disponibili e non sarà richiesta alcuna configurazione una tantum. In questo caso, oppure se le impostazioni di un algoritmo vengono modificate senza che si modifichi la suite di rapporti o l’intervallo di dati selezionato, l’algoritmo viene eseguito o rieseguito entro 12 ore.
-* **Viene eseguito un algoritmo continuo**: i dati scorrono da [!DNL Analytics] a [!DNL Target Recommendations] su base giornaliera. Ad esempio, per il consiglio [!UICONTROL Affinità visualizzata], quando un utente visualizza un prodotto, a [!DNL Analytics] viene passata una chiamata di tracciamento per la visualizzazione del prodotto quasi in tempo reale. I dati di [!DNL Analytics] vengono inviati a [!DNL Target] all&#39;inizio del giorno successivo e [!DNL Target] esegue l&#39;algoritmo in meno di 12 ore.
+Per informazioni sulla tempistica dei criteri nuovi o modificati e delle esecuzioni in corso dell&#39;algoritmo, vedere il menu a discesa **Disponibilità dei criteri quando Analytics è l&#39;origine dati** in [Data Source](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#data-source).
 
 >[!NOTE]
 >
->[!UICONTROL Gli elementi visualizzati di recente] non richiedono l&#39;esecuzione di algoritmi offline e i risultati sono immediatamente disponibili. Gli algoritmi [!UICONTROL Più visualizzati] e [!UICONTROL Più venduti] basati sui dati mbox producono in genere risultati molto rapidamente grazie al calcolo più semplice richiesto. Queste possono essere buone opzioni quando vuoi visualizzare in anteprima una modifica alla progettazione o confermare che i dati comportamentali vengono raccolti correttamente.
+>**[!UICONTROL Gli elementi visualizzati di recente]** non richiedono l&#39;esecuzione di un algoritmo offline e i risultati sono immediatamente disponibili. Gli algoritmi **[!UICONTROL Più visualizzati]** e **[!UICONTROL Più venduti]** basati sui dati mbox generalmente producono risultati molto rapidamente perché il calcolo è più semplice. Questi algoritmi sono buone opzioni per visualizzare in anteprima una modifica alla progettazione o per confermare che i dati comportamentali vengono raccolti correttamente.
 
-## Utilizzo dei collegamenti di controllo qualità per visualizzare in anteprima i consigli
+## Anteprima con un collegamento di controllo qualità {#preview-qa-link}
 
-Quando i risultati dell&#39;algoritmo sono pronti, è possibile visualizzarli in anteprima utilizzando la funzionalità [Collegamento QA](/help/main/c-activities/c-activity-qa/activity-qa.md) di [!DNL Adobe Target]. I collegamenti di controllo qualità sono disponibili nella sezione [!UICONTROL Posizione attività] della pagina di panoramica [!UICONTROL Attività]:
-
->[!NOTE]
->
->Per impostazione predefinita, [!DNL Target] ti aggiunge automaticamente al pubblico richiesto per il collegamento di controllo qualità. Se questa impostazione è disattivata e l&#39;attività dispone di regole di targeting, il profilo utente deve soddisfare tali regole di targeting per visualizzare l&#39;esperienza contenente i consigli.
-
-L’utilizzo di un collegamento di controllo qualità consente di visualizzare in anteprima i consigli sulla pagina:
+Quando i risultati dell&#39;algoritmo sono pronti, è possibile visualizzarli in anteprima con la funzionalità [Collegamento controllo qualità](/help/main/c-activities/c-activity-qa/activity-qa.md) di [!DNL Adobe Target]. I collegamenti di controllo qualità sono disponibili nella sezione **[!UICONTROL Posizione attività]** della pagina di panoramica **[!UICONTROL Attività]** e consentono di visualizzare i consigli nella pagina.
 
 ![Prodotti in primo piano](/help/main/c-recommendations/t-create-recs-activity/assets/featured-products.png)
 
 >[!NOTE]
 >
->* La modalità di controllo qualità di [!DNL Target] viene salvata in un cookie e persiste tra le pagine. Se non esci dalla modalità di controllo qualità, continuerai a visualizzare i risultati del controllo qualità in tutto il sito. Per uscire dalla modalità di controllo qualità, utilizzare [bookmarklet](/help/main/c-activities/c-activity-qa/activity-qa-bookmark.md).
->
->* In modalità di controllo qualità, l&#39;esplorazione del sito non influirà sui [!UICONTROL articoli visualizzati di recente] o [!UICONTROL articoli acquistati di recente] del profilo. Questo comportamento si verifica per progettazione per evitare un inquinamento involontario dei dati comportamentali di produzione. Per visualizzare in anteprima i risultati di un criterio di [!UICONTROL Elementi visualizzati di recente] o di [!UICONTROL Consigli basati sull&#39;utente], esplorare prima il sito al di fuori della modalità di controllo qualità e quindi utilizzare la stessa sessione per aprire un collegamento alla modalità di controllo qualità.
+>Per impostazione predefinita, [!DNL Target] aggiunge automaticamente l&#39;utente al pubblico richiesto per il collegamento di controllo qualità. Se questa impostazione è disattivata e l’attività dispone di regole di targeting, il profilo utente deve soddisfare tali regole di targeting per visualizzare l’esperienza che contiene i consigli.
 
-## Utilizzo del file CSV scaricabile per visualizzare in anteprima i consigli
+La modalità di controllo qualità prevede i seguenti comportamenti:
 
-In alcuni casi, potrebbe essere utile controllare gli elementi specifici consigliati. Questa funzione è particolarmente utile quando si utilizzano algoritmi come [!UICONTROL Persone che hanno visualizzato questo/a, hanno visualizzato quel/a], in cui si consiglia un diverso set di elementi a seconda dell&#39;elemento che l&#39;utente sta visualizzando e si potrebbero avere migliaia o milioni di elementi diversi nel catalogo.
+* La modalità di controllo qualità di [!DNL Target] viene salvata in un cookie e persiste tra le pagine. Se non si esce dalla modalità di controllo qualità, i risultati del controllo qualità continuano a essere visualizzati in tutto il sito. Per uscire dalla modalità di controllo qualità, utilizzare [bookmarklet](/help/main/c-activities/c-activity-qa/activity-qa-bookmark.md).
+* In modalità di controllo qualità, la navigazione nel sito non influisce sui **[!UICONTROL articoli visualizzati di recente]** o **[!UICONTROL articoli acquistati di recente]** del profilo. Questo comportamento è progettato per evitare un inquinamento involontario dei dati comportamentali di produzione. Per visualizzare in anteprima i risultati di un criterio di **[!UICONTROL Elementi visualizzati di recente]** o di **[!UICONTROL Consigli basati sull&#39;utente]**, esplorare prima il sito al di fuori della modalità di controllo qualità e quindi utilizzare la stessa sessione per aprire un collegamento alla modalità di controllo qualità.
 
-I risultati non sono disponibili per il download finché non viene visualizzato uno stato [!UICONTROL Risultati pronti] per almeno un algoritmo nell&#39;attività.
+## Anteprima con il file CSV scaricabile {#preview-csv}
 
-Per scaricare i risultati per l&#39;anteprima, fai clic sull&#39;icona del menu nell&#39;angolo superiore destro della pagina Panoramica attività, quindi fai clic su **[!UICONTROL Scarica dati]**.
+Il download dei risultati consente di controllare gli elementi consigliati specifici. Questo è particolarmente utile per algoritmi come **[!UICONTROL Persone che hanno visualizzato questo/a, hanno visualizzato quel/a]**, in cui gli elementi consigliati dipendono dall&#39;elemento attualmente visualizzato dal visitatore e il catalogo può contenere migliaia o milioni di elementi diversi.
 
-![Opzione per il download dei dati](/help/main/c-recommendations/t-create-recs-activity/assets/download-data.png)
+1. Attendi che venga visualizzato lo stato **[!UICONTROL Risultati pronti]** per almeno un algoritmo nell&#39;attività. I risultati non sono prima disponibili per il download.
 
-È in corso il download di un file CSV. Aprilo per visualizzare gli articoli consigliati:
+1. Nella pagina della panoramica dell&#39;**[!UICONTROL Attività]**, fai clic sull&#39;icona del menu nell&#39;angolo superiore destro, quindi fai clic su **[!UICONTROL Scarica dati]**.
 
-![File CSV elementi consigliati](/help/main/c-recommendations/t-create-recs-activity/assets/recommended-items.png)
+   ![Opzione per il download dei dati](/help/main/c-recommendations/t-create-recs-activity/assets/download-data.png)
 
-Da sinistra a destra è un elenco di articoli consigliati, in questo caso quelli visualizzati più di frequente. I consigli sono separati per ambiente; in questo caso solo l’ambiente di produzione dispone di consigli.
+1. Apri il file CSV scaricato per visualizzare gli elementi consigliati.
 
-Se un asterisco (*) è il primo valore di una riga, indica [elementi di backup](/help/main/c-recommendations/c-algorithms/backup-recs.md). Gli elementi di backup vengono visualizzati se non tutti gli slot di una progettazione possono essere riempiti dagli elementi consigliati dell’algoritmo (criteri).
+   ![File CSV elementi consigliati](/help/main/c-recommendations/t-create-recs-activity/assets/recommended-items.png)
 
-Per altri tipi di algoritmo basati su un valore chiave, ad esempio [!UICONTROL Persone che hanno visualizzato questo/a, hanno visualizzato questo/a], i valori chiave (ovvero gli elementi &quot;Questo&quot;) sono elencati nella colonna più a sinistra e gli elementi consigliati (ovvero gli elementi &quot;Che&quot;) sono elencati da sinistra a destra nelle colonne Recommendation_X.
+Nel file sono elencati gli elementi consigliati da sinistra a destra, in questo esempio quelli visualizzati più di frequente. I consigli sono separati per ambiente. In questo esempio, solo l’ambiente di produzione dispone di consigli.
 
-Tieni presente che per le attività con set di risultati molto grandi, l&#39;opzione **[!UICONTROL Scarica dati]** potrebbe non riuscire con l&#39;errore `Error while fetching recommendation data file.`. Ciò si verifica quando il CSV generato supera la dimensione della risposta che può essere restituita tramite l&#39;interfaccia utente in un singolo download.
+Una riga che inizia con un asterisco (*) elenca [elementi di backup](/help/main/c-recommendations/c-algorithms/backup-recs.md). Gli elementi di backup vengono visualizzati quando gli elementi consigliati dell’algoritmo (criteri) non possono riempire tutti gli slot di una progettazione.
+
+Per gli algoritmi basati su un valore chiave, ad esempio **[!UICONTROL Persone che hanno visualizzato questo, hanno visualizzato quel]**, i valori chiave (gli elementi &quot;Questo&quot;) si trovano nella colonna più a sinistra. Gli elementi consigliati (gli elementi &quot;che&quot;) sono elencati da sinistra a destra nelle colonne Recommendation_X.
+
+Per le attività con set di risultati molto grandi, l&#39;opzione **[!UICONTROL Scarica dati]** potrebbe non riuscire con l&#39;errore `Error while fetching recommendation data file.`. Ciò si verifica quando il CSV generato supera le dimensioni di risposta che l&#39;interfaccia utente può restituire in un singolo download.
 
 >[!NOTE]
 >
->I download dei risultati non sono disponibili per le attività contenenti un algoritmo di [!UICONTROL Consigli basati sull&#39;utente]. I download dei risultati non sono disponibili per i criteri che utilizzano la logica per i consigli [!UICONTROL Articoli visualizzati di recente].
+>I download dei risultati non sono disponibili per le attività che contengono un algoritmo di **[!UICONTROL Consigli basati sull&#39;utente]** o per i criteri che utilizzano la logica di **[!UICONTROL Articoli visualizzati di recente]** per i consigli.
 
 ### Formato di download CSV per algoritmi basati sulla popolarità e su chiavi {#format}
 
 Il file CSV scaricabile riflette in modo coerente i risultati generati dopo l’esecuzione dei criteri di back-end.
 
-* **Per gli algoritmi basati sulla popolarità (non basati su chiave), il file include:**
+* **Algoritmi basati sulla popolarità (non basati su chiave)**: il file include:
 
-  * Una riga di consigli di backup con prefisso * (un asterisco)
-  * Una riga distinta elenca i consigli basati sulle impostazioni dell’algoritmo
+  * Una riga di consigli di backup con prefisso (*)
+  * Una riga separata che elenca i consigli in base alle impostazioni dell’algoritmo
 
-* **Per gli algoritmi basati su chiavi, il file include:**
+* **Algoritmi basati su chiavi**: il file include:
 
-  * Una riga di backup simile agli algoritmi basati sulla popolarità
+  * Una riga di backup, come per gli algoritmi basati sulla popolarità
   * Righe multiple in formato chiave-valore, dove la prima voce è l’ID prodotto della chiave, seguita da ID prodotto separati da virgole che rappresentano i candidati per i consigli
 
-## Attivazione dell’attività Consigli
+## Attivare l’attività {#activate-activity}
 
-Dalla scheda [!UICONTROL Panoramica attività], fai clic sulla freccia a discesa Stato, quindi seleziona **[!UICONTROL Attiva]**.
+Quando si attiva l&#39;attività, questa viene avviata e il suo stato cambia in **[!UICONTROL Live]**.
 
-Se l&#39;attività [!UICONTROL Recommendations] è attualmente nello stato [!UICONTROL Inactive], l&#39;elenco a discesa è etichettato come [!UICONTROL Inactive].
+Dalla scheda **[!UICONTROL Panoramica attività]**, fai clic sulla freccia a discesa **[!UICONTROL Stato]**, quindi seleziona **[!UICONTROL Attiva]**. Se l&#39;attività è attualmente nello stato **[!UICONTROL Inattivo]**, l&#39;elenco a discesa è etichettato come **[!UICONTROL Inattivo]**. Dopo alcuni secondi o pochi minuti, lo stato passa a **[!UICONTROL Live]**.
 
-Dopo alcuni secondi o pochi minuti, lo stato passa a [!UICONTROL Live].
+Lo stesso elenco a discesa può essere utilizzato anche per disattivare o archiviare l’attività.
 
-Puoi anche disattivare o archiviare l’attività utilizzando lo stesso elenco a discesa.
+## Evitare interruzioni durante la modifica delle impostazioni {#avoid-disruptions}
 
-## Evitare interruzioni durante la modifica delle impostazioni di Recommendations
+La modifica di [!DNL Recommendations] raccolte, criteri, promozioni o impostazioni di progettazione in un&#39;attività live potrebbe invalidare i risultati dell&#39;algoritmo e modificare lo stato di un algoritmo in **[!UICONTROL Risultati non pronti]**.
 
-La modifica di [!DNL Recommendations] raccolte, criteri, promozioni o impostazioni di progettazione in un&#39;attività live potrebbe causare la mancata validità dei risultati dell&#39;algoritmo e la modifica dello stato di un algoritmo in [!UICONTROL Risultati non pronti].
+Per evitare di interrompere un’attività live, l’approccio consigliato consiste nel modificare una copia dell’attività e quindi sostituire l’originale:
 
-Per evitare di interrompere un’attività live, si consiglia di adottare il seguente approccio durante la modifica di un’attività live:
-
-1. Duplica l’attività originale (attività 1) e i criteri che desideri modificare per creare una nuova attività (attività 2).
-1. Modifica l’attività duplicata (attività 2) e i criteri, quindi attendi che l’algoritmo generi risultati.
-1. Visualizza l’anteprima della nuova attività modificata (attività 2) e conferma che i risultati corrispondano alle tue esigenze.
+1. Duplica l’attività originale (attività 1) e i criteri da modificare, per creare una nuova attività (attività 2).
+1. Apporta le modifiche all’attività duplicata (attività 2) e ai relativi criteri, quindi attendi che l’algoritmo generi risultati.
+1. Visualizza l’anteprima dell’attività modificata (attività 2) e conferma che i risultati siano quelli desiderati.
 1. Attiva la nuova attività (attività 2).
 1. Disattiva l’attività originale (attività 1).
 
-Se devi conservare i risultati dei rapporti storici nella stessa attività, è possibile un approccio alternativo che potrebbe causare un’interruzione temporanea della disponibilità dei consigli:
+Quando i risultati storici delle segnalazioni devono essere mantenuti nella stessa attività, è possibile un approccio alternativo. Questo approccio potrebbe causare un’interruzione temporanea della disponibilità dei consigli:
 
-1. Duplica l’attività originale (attività 1) e i criteri che desideri modificare per creare una nuova attività (attività 2).
-1. Modifica l’attività duplicata (attività 2) e i criteri, quindi attendi che l’algoritmo generi risultati.
-1. Visualizza l’anteprima della nuova attività modificata (attività 2) e conferma che i risultati corrispondano alle tue esigenze.
-1. Sospendi la nuova attività modificata (attività 2) e cambia le impostazioni/criteri con l’attività originale (attività 1).
-1. Visualizza l’anteprima dell’attività originale (attività 1) e conferma che i risultati corrispondano alle tue esigenze.
+1. Duplica l’attività originale (attività 1) e i criteri da modificare, per creare una nuova attività (attività 2).
+1. Apporta le modifiche all’attività duplicata (attività 2) e ai relativi criteri, quindi attendi che l’algoritmo generi risultati.
+1. Visualizza l’anteprima dell’attività modificata (attività 2) e conferma che i risultati siano quelli desiderati.
+1. Sospendi l’attività modificata (attività 2) e cambia le impostazioni e i criteri con l’attività originale (attività 1).
+1. Visualizza l’anteprima dell’attività originale (attività 1) e conferma che i risultati siano quelli desiderati.
 1. Riattiva l’attività originale (attività 1).

@@ -21,7 +21,7 @@ topic_v2:
     internal-label: Customer experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: dbeed9d4cda556478eb1d13331129b0e31fdd3f0
+source-git-commit: 1ca30ccbd1acc115980ffe3780ba6c0dbb343806
 workflow-type: tm+mt
 source-wordcount: '990'
 ht-degree: 35%
@@ -148,7 +148,7 @@ Se stai creando un&#39;attività [!UICONTROL Consigli], non ci sono esperienze. 
 
 * [Creare un test A/B](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)
 * [Creare un’attività Targeting delle esperienze](/help/main/c-activities/t-experience-target/t-xt-create/xt-create.md#create-xt-activity)
-* [Creare un’attività Consigli](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md#task_6874328773C64C44A73F0A130AD3F96F)
+* [Creare un’attività Consigli](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md#create-recs-activity)
 
 ## Video di formazione: Compositore basato su moduli ![Icona esercitazione](/help/main/assets/tutorial.png)
 

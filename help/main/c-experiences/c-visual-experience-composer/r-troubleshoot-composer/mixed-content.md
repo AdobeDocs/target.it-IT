@@ -18,82 +18,77 @@ topic_v2:
     internal-label: Troubleshooting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
     internal-label: Security
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: 1ca30ccbd1acc115980ffe3780ba6c0dbb343806
 workflow-type: tm+mt
-source-wordcount: '569'
-ht-degree: 73%
+source-wordcount: '624'
+ht-degree: 11%
 ---
-# Consentire contenuti misti nel browser
+# Consentire contenuti misti nel browser {#mixed-content}
 
-I contenuti misti si verificano se la richiesta iniziale è protetta tramite HTTPS, ma per visualizzare la pagina web vengono caricati i contenuti HTTPS *e* HTTP. Il contenuto HTTPS è sicuro. Il contenuto HTTP non è sicuro.
+>[!BEGINSHADEBOX]
 
-I browser moderni potrebbero bloccare la visualizzazione di una pagina o visualizzare messaggi di avviso in caso di combinazione di contenuto sicuro e contenuto non sicuro.
+**In questa pagina:** Scopri come abilitare i contenuti misti in [!DNL Google Chrome], [!DNL Mozilla Firefox] e [!DNL Microsoft Edge], in modo che il **[!UICONTROL Compositore esperienza visivo]** possa aprire siti HTTP e siti con contenuti misti.
 
-Viene visualizzato un messaggio di avviso se il [!UICONTROL Compositore esperienza visivo] (VEC) in [!DNL Adobe Target] tenta di aprire una pagina con contenuti misti. Questo messaggio spiega come disattivare il blocco nel browser. La disattivazione del blocco consente di aprire un sito HTTP o un sito con contenuti misti (HTTPS e HTTP).
+>[!ENDSHADEBOX]
 
-![Avviso contenuti misti](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/mixed_content_warning.png)
+Una pagina contiene contenuti misti quando viene richiesta in modo sicuro tramite HTTPS ma carica sia contenuti HTTPS che HTTP. Il contenuto HTTPS è sicuro, mentre il contenuto HTTP non lo è, pertanto i browser moderni potrebbero bloccare una pagina di questo tipo o visualizzare un messaggio di avviso.
 
-In precedenza, quando i contenuti misti non erano consentiti, era comunque possibile eseguire alcune azioni nel passaggio 1 del flusso di lavoro guidato in tre passaggi durante la creazione di attività. [!DNL Target] Ora blocca le azioni nel passaggio 1. Quando viene visualizzato questo messaggio, prima di continuare la creazione dell’attività devi abilitare i contenuti misti.
+Quando il **[!UICONTROL Compositore esperienza visivo]** (VEC) in [!DNL Adobe Target] tenta di aprire una pagina con contenuti misti, viene visualizzato un messaggio di avviso con le istruzioni per disattivare il blocco nel browser. La disattivazione del blocco consente di aprire un sito HTTP o un sito con contenuti misti (HTTPS e HTTP).
 
-Le impostazioni di sicurezza del browser potrebbero bloccare i contenuto misti o non sicuri (HTTP) caricati in una pagina o in un frame sicuri (HTTPS) (come, ad esempio Compositore esperienza visivo). Se non vuoi disabilitare le impostazioni di sicurezza del browser, devi disporre di un sito web HTTPS.
+![Pagina di creazione attività con il messaggio che gli script del browser devono essere caricati per creare attività, accanto a un&#39;illustrazione del prompt di ricaricamento del browser](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/mixed_content_warning.png)
 
-Se il sito web è in esecuzione su un dominio non sicuro (HTTP), devi consentire al Compositore esperienza visivo di caricare i contenuti misti attivi.
+In precedenza, alcune azioni nel passaggio 1 del flusso di lavoro guidato in tre passaggi rimanevano disponibili quando i contenuti misti non erano consentiti. [!DNL Target] ora blocca tutte le azioni nel passaggio 1, pertanto i contenuti misti devono essere abilitati prima che la creazione dell&#39;attività possa continuare.
+
+Le impostazioni di sicurezza del browser potrebbero bloccare il contenuto non sicuro (HTTP) caricato in una pagina o in un frame protetto (HTTPS), ad esempio nel Compositore esperienza visivo. L&#39;alternativa alla modifica di queste impostazioni è un sito Web HTTPS. Se il sito web viene eseguito su un dominio non sicuro (HTTP), il Compositore esperienza visivo deve essere autorizzato a caricare contenuti misti attivi.
 
 >[!IMPORTANT]
 >
->Consentire l’utilizzo di contenuti misti influenza solo il Compositore esperienza visivo e non il sito attivo.
+>Consentire l’utilizzo di contenuti misti influisce solo sul Compositore esperienza visivo e non sul sito web live.
 
 Per ulteriori informazioni, consulta la pagina sui [contenuti misti](https://developer.mozilla.org/en-US/docs/Web/Security/Mixed_content) nel sito web di *Mozilla Developer Network* (MDN).
 
-## Consentire contenuti misti in [!DNL Google Chrome] {#task_FF297A08F66E47A588C14FD67C037B3A}
+## Abilita contenuto misto in [!DNL Google Chrome]
 
-Se si visita un sito tramite una connessione protetta, [!DNL Chrome] verifica che i contenuti della pagina Web siano trasmessi in modo sicuro.
+[!DNL Chrome] verifica che il contenuto di una pagina richiesta tramite una connessione sicura sia stato trasmesso in modo sicuro. Consulta “[Gestire avvisi sui siti non sicuri](https://support.google.com/chrome/answer/99020?hl=it)” nella guida di Google Chrome.
 
-Consulta “[Gestire avvisi sui siti non sicuri](https://support.google.com/chrome/answer/99020?hl=it)” nella guida di Google Chrome.
-
-Se utilizzi il Compositore esperienza visivo con la versione più recente di [!DNL Chrome] (versione 79.0.3945.117 o successiva), devi aggiornare le impostazioni del sito. I visitatori del sito non devono completare questi passaggi.
+Per utilizzare il Compositore esperienza visivo con la versione più recente di [!DNL Chrome] (versione 79.0.3945.117 o successiva), aggiornare le impostazioni del sito come indicato di seguito. I visitatori del sito non devono completare questi passaggi.
 
 1. Fai clic sull&#39;icona del lucchetto (avviso), quindi fai clic su **[!UICONTROL Impostazioni sito]**.
 
-   ![Impostazioni sito](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/site-settings.png)
+   ![Barra degli indirizzi di Chrome con il menu di connessione aperto e le impostazioni del sito evidenziate](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/site-settings.png)
 
-1. Scorri fino a **[!UICONTROL Contenuto non sicuro]**, quindi utilizza l&#39;elenco a discesa per modificare &quot;Blocca (predefinito)&quot; in &quot;Consenti&quot;.
+1. In **[!UICONTROL Contenuto non sicuro]**, modificare &quot;Blocca (predefinito)&quot; in &quot;Consenti&quot; nell&#39;elenco a discesa.
 
-   ![Contenuto non sicuro](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/insecure-content.png)
+   ![Impostazioni del sito Chrome con il menu a discesa Contenuto non sicuro aperto e Consenti selezione](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/insecure-content.png)
 
 1. Ricarica la pagina del Compositore esperienza visivo.
 
-## Consentire contenuti misti in [!DNL Mozilla Firefox] {#task_5448763B8DC941FD80F84041AEF0A14D}
+## Abilita contenuto misto in [!DNL Mozilla Firefox]
 
-Per impostazione predefinita, [!DNL Firebox] blocca le pagine che contengono un misto di contenuti protetti e non protetti. È necessario modificare questa impostazione in modo permanente per utilizzare [!DNL Target]. I visitatori del sito non devono completare questi passaggi.
+Per impostazione predefinita, [!DNL Firefox] blocca le pagine che contengono un misto di contenuti protetti e non protetti, pertanto questa impostazione deve essere modificata definitivamente per utilizzare [!DNL Target]. I visitatori del sito non devono completare questi passaggi.
 
-1. In Firefox, digita `about:config` nella barra degli indirizzi.
-1. Conferma il messaggio di avvertenza visualizzato da [!DNL Firefox].
+1. In [!DNL Firefox] immettere `about:config` nella barra degli indirizzi.
+1. Confermare il messaggio di avviso visualizzato da [!DNL Firefox].
 
-   ![Avvertenza di Firefox](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/firefox.png)
+   ![Firefox Procedi con la pagina di avviso Attenzione per circa:config con il pulsante Accetta il rischio e continua](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/firefox.png)
 
-1. Nella barra di ricerca digita `block_active`.
+1. Nella barra di ricerca immettere `block_active`.
 
-   ![Impostazione block_active di Firefox](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/firefox3.png)
+   ![Firefox about:config cerca block_active mostrando security.mixed_content.block_active_content impostato su true](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/firefox3.png)
 
-1. Fai doppio clic su ` **[!UICONTROL security.mixed_content.block_active_content]**`.
+1. Fare doppio clic su `security.mixed_content.block_active_content`.
 
-   Il valore cambia da “Vero” a “Falso”. Quando il valore è impostato su “False”, l’operazione è completata.
+   Il valore cambia da &quot;True&quot; a &quot;False&quot;. Quando il valore è impostato su &quot;False&quot;, la modifica è completa.
 
-   ![Sicurezza di Firefox](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/firefox2.png)
+   ![Firefox about:config che mostra security.mixed_content.block_active_content impostato su false](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/firefox2.png)
 
-1. Riavvia il computer dopo aver modificato questa impostazione.
+1. Riavviare il computer dopo aver modificato questa impostazione.
 
-## Consentire contenuti misti in [!DNL Microsoft Edge]
+## Abilita contenuto misto in [!DNL Microsoft Edge]
 
-Se si visita un sito tramite una connessione protetta, [!DNL Edge] verifica che i contenuti della pagina Web siano trasmessi in modo sicuro.
+[!DNL Edge] verifica che il contenuto di una pagina richiesta tramite una connessione sicura sia stato trasmesso in modo sicuro. Per utilizzare il Compositore esperienza visivo con la versione più recente di [!DNL Edge], aggiornare le impostazioni del sito come indicato di seguito. I visitatori del sito non devono completare questi passaggi.
 
-Se utilizzi il Compositore esperienza visivo con la versione più recente di [!DNL Edge], devi aggiornare le impostazioni del sito. I visitatori del sito non devono completare questi passaggi.
-
-1. In [!DNL Edge], fai clic su **[!DNL Microsoft Edge]** nella barra dei menu, **[!UICONTROL Impostazioni]**, quindi fai clic su **Cookie e autorizzazioni sito**.
-
-1. Scorri fino a **[!UICONTROL Contenuto non sicuro]**.
-
-1. Fai clic su **[!UICONTROL Contenuto non sicuro]**, quindi su **[!UICONTROL Aggiungi]** accanto a **[!UICONTROL Consenti]**, aggiungi il sito in cui consentire contenuto non sicuro, quindi fai clic su **[!UICONTROL Aggiungi]**.
-
+1. In [!DNL Edge], fai clic su **[!DNL Microsoft Edge]** nella barra dei menu, fai clic su **[!UICONTROL Impostazioni]**, quindi su **Cookie e autorizzazioni sito**.
+1. Scorri fino a **[!UICONTROL Contenuto non sicuro]** e fai clic su di esso.
+1. Accanto a **[!UICONTROL Consenti]**, fare clic su **[!UICONTROL Aggiungi]**, immettere il sito in cui consentire il contenuto non sicuro, quindi fare clic su **[!UICONTROL Aggiungi]**.
 1. Ricarica la pagina del Compositore esperienza visivo.

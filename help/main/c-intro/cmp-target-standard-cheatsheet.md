@@ -45,7 +45,7 @@ topic_v2:
     internal-label: Insights
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4f38c80880eedd9b966cdb2f178f408bb529b60c
+source-git-commit: 1ca30ccbd1acc115980ffe3780ba6c0dbb343806
 workflow-type: tm+mt
 source-wordcount: '2918'
 ht-degree: 47%
@@ -151,7 +151,7 @@ Tieni presente che il fabbisogno di traffico aumenta con le attività MVT.
 **È possibile eseguire un&#39;attività che si estende su più pagine in cui la struttura della pagina è diversa? È possibile applicare offerte in posizioni diverse (ad esempio, funnel di pagamento)?**
 
 +++Vedi i dettagli
-Prova la [funzionalità per attività multipagina](/help/main/c-experiences/c-visual-experience-composer/multipage-activity.md#concept_277E096063E14813AC5D8EDFA1D2ED48) che consente di utilizzare più pagine all&#39;interno di esperienze.
+Prova la [funzionalità per attività multipagina](/help/main/c-experiences/c-visual-experience-composer/multipage-activity.md#multipage-activity) che consente di utilizzare più pagine all&#39;interno di esperienze.
 
 +++
 
@@ -284,7 +284,7 @@ Dai un&#39;occhiata alle seguenti funzioni del prodotto:
 **È possibile eseguire un&#39;attività su più pagine in cui la struttura della pagina è comune?**
 
 +++Vedi i dettagli
-Consulta [Regole modello](/help/main/c-experiences/c-visual-experience-composer/temtest.md#task_2539D51A18044F82B0D9895636546781) per includere molte pagine strutturate simili per l’attività, durante la creazione di esperienza sul singolo URL fornito.
+Consulta [Regole modello](/help/main/c-experiences/c-visual-experience-composer/temtest.md#similar-pages) per includere molte pagine strutturate simili per l’attività, durante la creazione di esperienza sul singolo URL fornito.
 
 +++
 
@@ -293,39 +293,39 @@ Consulta [Regole modello](/help/main/c-experiences/c-visual-experience-composer/
 +++Vedi i dettagli
 Questo perché il tuo sito ha contenuti misti, è un sito che recupera sia risorse HTTP che HTTPS. Richiedi che il tuo team IT si muova completamente su HTTPS.
 
-In questo caso, seguire le istruzioni riportate in [Abilitazione dei contenuti misti nel browser](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/mixed-content.md#concept_46D022D50280468C9EF6D5DF6EFC911C) per consentire al browser di caricare contenuti misti. Questa è una caratteristica di sicurezza della maggior parte dei browser moderni.
+In questo caso, seguire le istruzioni riportate in [Abilitazione dei contenuti misti nel browser](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/mixed-content.md#mixed-content) per consentire al browser di caricare contenuti misti. Questa è una caratteristica di sicurezza della maggior parte dei browser moderni.
 
 +++
 
 **Posso provare il [!UICONTROL Compositore esperienza visivo] sul mio sito anche se la libreria at.js [!DNL Target] non è ancora stata distribuita?**
 
 +++Vedi i dettagli
-Prova a caricare la pagina con il [Compositore esperienza avanzato](/help/main/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D).
+Prova a caricare la pagina con il [Compositore esperienza avanzato](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#enable-eec).
 
 +++
 
 **Perché il mio sito non viene caricato nel [!UICONTROL Compositore esperienza visivo]?**
 
 +++Vedi i dettagli
-Prova le informazioni sulla [risoluzione dei problemi](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md#reference_77743144F10143A3A89D56E116D296E4) descritte nella nostra pagina di aiuto. Contatta il [Supporto Adobe](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) se non funziona nessuno di questi metodi.
+Prova le informazioni sulla [risoluzione dei problemi](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md#troubleshoot-composer) descritte nella nostra pagina di aiuto. Contatta il [Supporto Adobe](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) se non funziona nessuno di questi metodi.
 
 È anche disponibile un [approccio basato su modulo](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) che può essere d’aiuto.
 
-Leggi inoltre le informazioni su quando e perché il [Compositore esperienza avanzato](/help/main/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) può essere utile. Potrebbe essere necessario contattare il reparto IT per [inserire nell&#39;elenco Consentiti anche i server proxy di Adobe](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#concept_E284B3F704C04406B174D9050A2528A6).
+Leggi inoltre le informazioni su quando e perché il [Compositore esperienza avanzato](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#enable-eec) può essere utile. Potrebbe essere necessario contattare il reparto IT per [inserire nell&#39;elenco Consentiti anche i server proxy di Adobe](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#vec-best-practices).
 
 +++
 
 **Ho un sito reattivo. Durante la creazione di un&#39;attività, come posso essere sicuro che sto prendendo in considerazione i dispositivi chiave?**
 
 +++Vedi i dettagli
-Prova la funzione dei [riquadri di visualizzazione per dispositivi mobili](/help/main/c-experiences/c-visual-experience-composer/mobile-viewports.md#concept_8E45527C4ABC41D59AA3553BEDC76FA5). Si noti che funziona solo quando [!UICONTROL Compositore esperienza avanzato] è abilitato.
+Prova la funzione dei [riquadri di visualizzazione per dispositivi mobili](/help/main/c-experiences/c-visual-experience-composer/mobile-viewports.md#mobile-viewports). Si noti che funziona solo quando [!UICONTROL Compositore esperienza avanzato] è abilitato.
 
 +++
 
 **Ho più domini. Uno dei domini richiede che [!UICONTROL Compositore esperienza avanzato] sia abilitato, mentre altri richiedono che sia disabilitato. Come posso fare?**
 
 +++Vedi i dettagli
-È sempre possibile utilizzare l&#39;opzione [Compositore esperienza avanzato a livello di attività](/help/main/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) per ignorare l&#39;impostazione predefinita ([!UICONTROL Amministrazione] > [!UICONTROL Compositore esperienza visivo]).
+È sempre possibile utilizzare l&#39;opzione [Compositore esperienza avanzato a livello di attività](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#enable-eec) per ignorare l&#39;impostazione predefinita ([!UICONTROL Amministrazione] > [!UICONTROL Compositore esperienza visivo]).
 
 +++
 
@@ -346,7 +346,7 @@ Puoi farlo semplicemente con la [funzionalità Più versioni di esperienza](/hel
 **Come posso vedere quali modifiche ho apportato in [!UICONTROL Compositore esperienza visivo]?**
 
 +++Vedi i dettagli
-Le modifiche sono sempre visibili nell’[Editor di codice](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md#concept_B3A6E9EE3A60406DB640E205EA1745B5). La scheda [!UICONTROL Modifiche] mostra il selettore CSS o la mbox applicata all&#39;offerta.
+Le modifiche sono sempre visibili nell’[Editor di codice](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md#vec-code-editor). La scheda [!UICONTROL Modifiche] mostra il selettore CSS o la mbox applicata all&#39;offerta.
 
 Il selettore CSS è un selettore sizzle. È possibile utilizzare questa sezione per apportare piccole modifiche o eliminare rapidamente alcune offerte.
 
@@ -355,7 +355,7 @@ Il selettore CSS è un selettore sizzle. È possibile utilizzare questa sezione 
 **Voglio consegnare JavaScript come parte dell&#39;esperimento/attività per apportare modifiche rapide ad alcuni elementi dinamici o semplicemente per inviare una chiamata a una soluzione di terze parti. Come posso fare?**
 
 +++Vedi i dettagli
-Un metodo consiste nell’usare l’[Editor di codice personalizzato](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md#concept_B3A6E9EE3A60406DB640E205EA1745B5). Devi semplicemente inserire il tuo JavaScript nella sezione e questo verrà consegnato. Hai la possibilità di consegnarlo nella sezione head nella parte superiore della sezione body, a seconda delle tue esigenze.
+Un metodo consiste nell’usare l’[Editor di codice personalizzato](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md#vec-code-editor). Devi semplicemente inserire il tuo JavaScript nella sezione e questo verrà consegnato. Hai la possibilità di consegnarlo nella sezione head nella parte superiore della sezione body, a seconda delle tue esigenze.
 
 +++
 
@@ -378,7 +378,7 @@ Utilizza l’[approccio basato su moduli](/help/main/c-experiences/form-experien
 **Perché non vedo l&#39;offerta/esperienza desiderata e vedo invece altre attività?**
 
 +++Vedi i dettagli
-Utilizza il nostro [debugger](/help/main/c-activities/c-troubleshooting-activities/content-trouble.md#debugging-tools) e verifica la presenza di [conflitti tra attività](/help/main/c-experiences/c-visual-experience-composer/activity-collisions.md#concept_0BC6B929592744DFA7DA01FF4F91052E).
+Utilizza il nostro [debugger](/help/main/c-activities/c-troubleshooting-activities/content-trouble.md#debugging-tools) e verifica la presenza di [conflitti tra attività](/help/main/c-experiences/c-visual-experience-composer/activity-collisions.md#activity-collisions).
 
 +++
 
@@ -402,7 +402,7 @@ Utilizza il nostro [debugger](/help/main/c-activities/c-troubleshooting-activiti
 **Perché non vedo l&#39;offerta/esperienza desiderata e vedo invece altre attività?**
 
 +++Vedi i dettagli
-Utilizza il nostro [debugger](/help/main/c-activities/c-troubleshooting-activities/content-trouble.md#debugging-tools) e verifica la presenza di [conflitti tra attività](/help/main/c-experiences/c-visual-experience-composer/activity-collisions.md#concept_0BC6B929592744DFA7DA01FF4F91052E).
+Utilizza il nostro [debugger](/help/main/c-activities/c-troubleshooting-activities/content-trouble.md#debugging-tools) e verifica la presenza di [conflitti tra attività](/help/main/c-experiences/c-visual-experience-composer/activity-collisions.md#activity-collisions).
 
 +++
 
