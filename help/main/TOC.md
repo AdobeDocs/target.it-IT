@@ -3,7 +3,7 @@ user-guide-title: Guida di Adobe Target per professionisti aziendali
 breadcrumb-title: Guida di Target
 user-guide-description: Scopri come personalizzare le esperienze dei clienti su siti web, app e canali social per incrementare le entrate.
 feature-set: Target
-source-git-commit: 745fabd3cd19cc2b076314c1ee1e97d1914a0007
+source-git-commit: d917e1b4f0d3c70eccd6c5fa1df5f799093f1f41
 workflow-type: tm+mt
 source-wordcount: '1335'
 ht-degree: 71%
@@ -245,7 +245,7 @@ ht-degree: 71%
       + [Risoluzione dei problemi relativi al Compositore esperienza visivo e Compositore esperienza avanzato](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md)
       + [Risoluzione dei problemi relativi al Compositore esperienza visivo](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-visual-experience-composer-vec.md)
       + [Risoluzione dei problemi relativi al Compositore esperienza avanzato](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md)
-      + [Consentire contenuto misto nel browser](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/mixed-content.md)
+      + [Consentire contenuti misti nel browser](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/mixed-content.md)
       + [Scenari di modifica delle pagine](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md)
       + [Estensione Helper per editing video](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md)
       + [Estensione Helper per Compositore esperienze visivo](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)
