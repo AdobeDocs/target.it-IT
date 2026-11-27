@@ -70,7 +70,7 @@ L&#39;estensione risolve questi problemi di caricamento del sito, per i quali i 
 
 L&#39;installazione dell&#39;estensione in [!DNL Chrome] consente di caricare i siti Web in modo affidabile nel Compositore esperienza visivo, inclusi i siti Web che bloccano gli iframe o in cui non è ancora implementato at.js.
 
-1. Vai all&#39;estensione del browser [[!DNL Adobe Experience Cloud] **[!UICONTROL Helper per editing video ]**in Chrome Web Store](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca){target=_blank}.
+1. Vai all&#39;estensione del browser [[!DNL Adobe Experience Cloud] **[!UICONTROL Helper per editing video &#x200B;]**&#x200B;in Chrome Web Store](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca){target=_blank}.
 1. Fai clic su **[!UICONTROL Aggiungi a Chrome]** > **[!UICONTROL Aggiungi estensione]**.
 1. Apri il Compositore esperienza visivo in [!DNL Target].
 1. Nel Compositore esperienza visivo o in Modalità Controllo qualità, fai clic sull&#39;icona dell&#39;estensione del browser **[!UICONTROL Helper per editing video]** ( ![icona Helper editing video](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/visual-editing-helper.png) ) nella barra degli strumenti di [!DNL Chrome].
