@@ -2,7 +2,7 @@
 keywords: consigli;consigli;consigli;criteri;algoritmo;recommendations activity;criteria;algorithm
 description: Scopri come selezionare i criteri (regole che determinano quali prodotti o contenuti consigliare) da utilizzare nell’attività Consigli di Adobe [!DNL Target].
 title: Come Posso Selezionare Criteri per Un’Attività Consigli?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=it#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."
 feature: Recommendations
 exl-id: 119227ec-88c3-4de9-b2cf-f7d5fa2e98f6
 product_v2:
@@ -14,7 +14,7 @@ feature_v2:
 subfeature_v2:
   - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
     internal-label: Recommendations
-source-git-commit: 891bf9f764be54ae97b073f3f10c9132b1b52cce
+source-git-commit: 1ca30ccbd1acc115980ffe3780ba6c0dbb343806
 workflow-type: tm+mt
 source-wordcount: '421'
 ht-degree: 62%
@@ -35,7 +35,7 @@ Se selezioni più criteri, il traffico viene suddiviso in modo uniforme tra i cr
 
 **Per selezionare i criteri:**
 
-1. Durante la [creazione di un nuovo consiglio](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md#task_6874328773C64C44A73F0A130AD3F96F), nella finestra di dialogo **[!UICONTROL Seleziona criteri]** individuare e selezionare uno o più criteri.
+1. Durante la [creazione di un nuovo consiglio](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md#create-recs-activity), nella finestra di dialogo **[!UICONTROL Seleziona criteri]** individuare e selezionare uno o più criteri.
 
    Puoi utilizzare il filtro [!UICONTROL Tipo di settore], il filtro [!UICONTROL Tipo di pagina] e la casella di controllo [!UICONTROL Compatibile] per filtrare l&#39;elenco dei criteri. Queste opzioni consentono di individuare facilmente i criteri desiderati.
 

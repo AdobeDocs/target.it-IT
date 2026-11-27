@@ -29,86 +29,92 @@ topic_v2:
     internal-label: Web experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: 1ca30ccbd1acc115980ffe3780ba6c0dbb343806
 workflow-type: tm+mt
-source-wordcount: '1113'
-ht-degree: 48%
+source-wordcount: '1119'
+ht-degree: 5%
 ---
-# Estensione helper [!UICONTROL Compositore esperienza visivo]
+# Estensione helper [!UICONTROL Compositore esperienza visivo] {#vec-helper-extension}
 
-L&#39;estensione del browser Helper [!DNL Adobe Target] [!UICONTROL Compositore esperienza visivo] (VEC) per [!DNL Google Chrome] consente di caricare i siti Web in modo affidabile nel Compositore esperienza visivo per creare e verificare rapidamente le esperienze Web.
+>[!BEGINSHADEBOX]
 
-VEC Helper è un&#39;estensione [!DNL Chrome]. Questa estensione non è necessaria quando si utilizza [!DNL Mozilla Firefox].
+**In questa pagina:** scopri in che modo l&#39;estensione legacy VEC Helper del browser carica i siti Web nel **[!UICONTROL Compositore esperienza visivo]** (VEC) e come installarlo e utilizzarlo.
+
+>[!ENDSHADEBOX]
+
+L&#39;estensione del browser Helper [!DNL Adobe Target] **[!UICONTROL Compositore esperienza visivo]** per [!DNL Google Chrome] carica i siti Web in modo affidabile nel Compositore esperienza visivo, velocizzando l&#39;authoring e il controllo delle esperienze Web. Estensione non necessaria in [!DNL Mozilla Firefox].
 
 >[!IMPORTANT]
 >
->* L&#39;estensione VEC Helper legacy [!DNL Target] documentata in questo articolo è stata creata utilizzando Manifest V2. [!DNL Google] ha annunciato che non consentirà più le estensioni create utilizzando Manifest V2 a partire da giugno 2024. Per ulteriori informazioni, vedere l&#39;annuncio della sequenza temporale del supporto di [Manifest V2](https://developer.chrome.com/docs/extensions/develop/migrate/mv2-deprecation-timeline){target=_blank} da [!DNL Google] nel sito *Chrome for Developers*.
+>* L&#39;estensione VEC Helper [!DNL Target] legacy, documentata in questo articolo, è stata creata con Manifest V2. [!DNL Google] ha annunciato che non consentirà più le estensioni create con Manifest V2 a partire da giugno 2024. Per ulteriori informazioni, vedere l&#39;annuncio della sequenza temporale del supporto di [Manifest V2](https://developer.chrome.com/docs/extensions/develop/migrate/mv2-deprecation-timeline){target=_blank} da [!DNL Google] nel sito *Chrome for Developers*.
 >
->* A partire da giugno 2024, [!DNL Google] inizierà a disabilitare le estensioni create utilizzando Manifest V2, inclusa l&#39;estensione documentata in questo argomento. [!DNL Adobe] consiglia ai clienti di passare al più recente [estensione Helper per editing video](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) non appena possibile.
+>* A partire da giugno 2024, [!DNL Google] disabilita le estensioni create con Manifest V2, inclusa l&#39;estensione documentata in questo articolo. [!DNL Adobe] consiglia di passare al più recente [estensione Helper per editing video](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) non appena possibile.
 
-## Motivi per cui alcuni siti web potrebbero non aprirsi in modo affidabile nel Compositore esperienza visivo
+## Perché alcuni siti web non si aprono in modo affidabile nel Compositore esperienza visivo
+
+Un sito web potrebbe non aprirsi in modo affidabile nel Compositore esperienza visivo per i seguenti motivi:
 
 * Il sito web dispone di criteri di sicurezza rigidi.
 * Il sito web si trova in un iframe.
 * La libreria at.js non è ancora implementata sul sito web.
-* Il sito per il controllo qualità o il sito di staging del cliente non è disponibile nel mondo esterno (è un sito interno).
-* Attualmente esistono alcune limitazioni riguardanti l&#39;utilizzo del Compositore esperienza visivo per aprire un sito Web che utilizza [processi di lavoro dei servizi](https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API){target=_blank} (SW).
+* Il sito di controllo qualità o di gestione temporanea del cliente è interno e non disponibile all’esterno della rete.
+* Il sito Web utilizza [processi di lavoro dei servizi](https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API){target=_blank} (SW), attualmente supportati dal Compositore esperienza visivo con limitazioni. Consulta la sezione seguente.
+* Il sito Web viene aperto in [!DNL Chrome] 80 o versione successiva, che applica i criteri per cookie SameSite. Per ulteriori informazioni, vedere [Criteri per cookie SameSite di Google Chrome](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md#samesite).
 
-Un SW è una tecnologia web che può essere utilizzata per intercettare le richieste verso il dominio in cui è installato da una pagina web. SW sopravvive alla visita della pagina e si attiva nelle visite successive. SW decide quali richieste passare e quali vengono invece intercettate e servite da una cache.
+L&#39;estensione VEC Helper per il browser [!DNL Chrome] risolve i problemi di caricamento del sito, per i quali i clienti altrimenti si affidano a [!DNL Target] [Compositore esperienza avanzato](/help/main/administrating-target/visual-experience-composer-set-up.md#eec) o estensioni di terze parti come Requestly.
 
-SW può controllare la memorizzazione in cache; può memorizzare in cache la pagina web stessa, le risorse statiche come JS, CSS, IMG, le richieste AJAX, il loro contenuto e le relative intestazioni di risposta, incluse quelle che l’[estensione VEC Helper di Target](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) tenta di rimuovere, come X-Frame-Options: SAMEORIGIN, CSP (Content-Security-Policy) o Set-Cookie.
+### Lavoratori del servizio
 
-Sfortunatamente, le API di estensione Chrome che intercettano le richieste web non ricevono le richieste intercettate e gestite da un SW. Pertanto, l’estensione non può correggere le intestazioni e i cookie se la richiesta di pagina web è stata servita da una cache da un SW, perché la pagina web non verrà caricata nel Compositore esperienza visivo a causa delle intestazioni X-Frame-Options o CSP anch’esse memorizzate nella cache.
+Un service worker (SW) è una tecnologia web che una pagina web installa per intercettare le richieste per il proprio dominio. SW sopravvive alla visita della pagina e si attiva nelle visite successive. Decide quali richieste passare e quali vengono intercettate e servite da una cache.
 
-Come potenziale soluzione alternativa, è possibile disabilitare i processi di lavoro dei servizi dalla scheda Chrome Developer Tools > Application (Strumenti di sviluppo di > Applicazione), quindi abilitare la casella di controllo &quot;Bypass for network&quot; (Ignora per rete) nella sezione Service Workers (Lavoratori dei servizi).
+Un SW può memorizzare in cache la pagina web stessa, le risorse statiche come JS, CSS, IMG e le richieste di AJAX, il loro contenuto e le relative intestazioni di risposta. Queste intestazioni includono quelle che l&#39;estensione [Target VEC Helper](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) tenta di rimuovere, ad esempio `X-Frame-Options: SAMEORIGIN`, CSP (`Content-Security-Policy`) e `Set-Cookie`.
 
-* Stai utilizzando Google Chrome 80+ con criteri di imposizione dei cookie SameSite migliorati. Per ulteriori informazioni, consulta [In che modo i criteri di imposizione dei cookie SameSite di Google Chrome recentemente annunciati influiscono sul Compositore esperienza visivo e sul Compositore esperienza avanzato](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md#samesite)?
+Le API dell&#39;estensione [!DNL Chrome] che intercettano le richieste Web non ricevono le richieste intercettate e gestite da un SW. Quando un SW invia la richiesta di pagina web da una cache, l’estensione non può correggere le intestazioni e i cookie e la pagina non viene caricata nel Compositore esperienza visivo a causa delle intestazioni `X-Frame-Options` o CSP memorizzate nella cache.
 
-L&#39;estensione VEC Helper per il browser Chrome risolve problemi di caricamento del sito, per i quali i clienti in genere si affidano a [!DNL Target] [Compositore esperienza avanzato](/help/main/administrating-target/visual-experience-composer-set-up.md#eec) o estensioni di terze parti, come Requestly.
+Come potenziale soluzione alternativa, disabilitare i processi di lavoro dei servizi nella scheda [!DNL Chrome] Developer Tools > **Application**, quindi abilitare la casella di controllo &quot;Bypass for network&quot; nella sezione Service Workers.
 
-## Vantaggi dell’utilizzo dell’estensione VEC Helper
+## Vantaggi dell’estensione VEC Helper
 
-* Tutte le intestazioni dei siti non compatibili con iframe, come X-Frame-Options e Content-Security-Policy, vengono rimosse implicitamente dal sito web. Non è più necessario creare regole complesse di Requestly.
-* Se una pagina web non contiene ancora la libreria JavaScript di [!DNL Target] at.js, puoi utilizzare l’estensione per inserire la libreria in modo da creare esperienze per il sito web. Puoi quindi creare attività e controlli qualità tramite collegamenti di anteprima.
-
-  Tieni presente che utilizzando il Compositore esperienza avanzato, l’estensione non inserisce at.js, ma la funzionalità per cookie SameSite è ancora presente. Per inserire at.js nella pagina web, disattiva il Compositore esperienza avanzato.
-
-* [I riquadri di visualizzazione per dispositivi mobili](/help/main/c-experiences/c-visual-experience-composer/mobile-viewports.md) sono supportati anche senza il [!UICONTROL Compositore esperienza avanzato] (EEC).
-* I clienti non ancora pratici di [!DNL Target] possono utilizzare l’estensione per fare prove con [!DNL Target] anche se i loro sviluppatori IT non hanno ancora implementato [!DNL Target] sui loro siti web.
-* I partner che gestiscono siti web e account [!DNL Target] di più clienti ora hanno a disposizione un meccanismo semplice per supportare il caricamento del Compositore esperienza visivo, anziché gestire più regole in strumenti di terze parti.
+* **Intestazioni non compatibili con Iframe rimosse:** l&#39;estensione rimuove implicitamente dal sito Web intestazioni quali `X-Frame-Options` e `Content-Security-Policy`, pertanto non sono necessarie regole complesse di Requestly.
+* **Iniezione at.js:** quando una pagina web non contiene ancora la libreria JavaScript at.js di [!DNL Target], l&#39;estensione può inserirla. Le esperienze possono quindi essere create per il sito web e le attività possono essere create e controllate con collegamenti di anteprima. Con il Compositore esperienza avanzato, l’estensione non inserisce at.js, ma rimane la funzionalità per cookie SameSite. Per inserire at.js nella pagina web, disattiva il Compositore esperienza avanzato.
+* **Riquadri di visualizzazione per dispositivi mobili:** [riquadri di visualizzazione per dispositivi mobili](/help/main/c-experiences/c-visual-experience-composer/mobile-viewports.md) sono supportati anche senza il **[!UICONTROL Compositore esperienza avanzato]** (EEC).
+* **Nuovi clienti [!DNL Target]:** l&#39;estensione consente di sperimentare [!DNL Target] anche quando gli sviluppatori IT non hanno ancora implementato [!DNL Target] sul sito Web.
+* **Partner:** partner che gestiscono siti Web e [!DNL Target] account di più clienti ottengono un meccanismo per supportare il caricamento del Compositore esperienza visivo, invece di più regole in strumenti di terze parti.
 
 ## Ottenere e installare l’estensione VEC Helper per browser
 
-1. Passa all&#39;estensione [Adobe Target VEC Helper per browser in Chrome Web Store](https://chromewebstore.google.com/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca).
-1. Fai clic su **[!UICONTROL Aggiungi a Chrome > Aggiungi estensione]**.
+L&#39;installazione dell&#39;estensione in [!DNL Chrome] consente di caricare i siti Web in modo affidabile nel Compositore esperienza visivo, inclusi i siti Web che bloccano gli iframe o in cui non è ancora implementato at.js.
+
+1. Vai all&#39;estensione [Adobe Target VEC Helper per browser nel Chrome Web Store](https://chromewebstore.google.com/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca).
+1. Fai clic su **[!UICONTROL Aggiungi a Chrome]** > **[!UICONTROL Aggiungi estensione]**.
 1. Apri il Compositore esperienza visivo in [!DNL Target].
-1. Per utilizzare l’estensione, fai clic sull’icona dell’estensione VEC Helper per browser (![icona di VEC Helper](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/vec-help-extension.png)) nella barra degli strumenti del browser Chrome quando sei nel Compositore esperienza visivo o in [Modalità Controllo qualità](/help/main/c-activities/c-activity-qa/activity-qa.md).
-1. (Facoltativo) Fai scorrere **[!UICONTROL Inserisci librerie di Target]** per attivare la posizione se la pagina Web non contiene ancora la libreria JavaScript at.js [!DNL Target].
+1. Nel Compositore esperienza visivo o in modalità [Controllo qualità](/help/main/c-activities/c-activity-qa/activity-qa.md), fai clic sull&#39;icona dell&#39;estensione VEC Helper per browser ( ![icona VEC Helper](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/vec-help-extension.png) ) nella barra degli strumenti di [!DNL Chrome].
+1. (Condizionale) Se la pagina Web non contiene ancora la libreria JavaScript at.js di [!DNL Target], attiva l&#39;opzione **[!UICONTROL Inserisci librerie di destinazione]**.
 
-   La figura seguente mostra VEC Helper con l&#39;impostazione [!UICONTROL Inserisci librerie di destinazione] abilitata:
+   La figura seguente mostra VEC Helper con l&#39;impostazione **[!UICONTROL Inserisci librerie di destinazione]** abilitata:
 
-   ![VEC Helper 1](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/vec-help-extension-1.png)
+   ![Pannello dell&#39;estensione VEC Helper con l&#39;opzione Inserisci librerie di Target attivata e l&#39;opzione Cookie disattivata, a indicare che l&#39;impostazione Cookie imposta i flag SameSite=None e Secure su tutti i cookie per le richieste all&#39;interno del Compositore esperienza visivo](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/vec-help-extension-1.png)
 
-   La seguente illustrazione mostra VEC Helper che chiede se desideri inserire le librerie [!DNL Target] nella pagina per abilitare l’authoring:
+   VEC Helper chiede quindi se inserire le librerie [!DNL Target] nella pagina per abilitare l’authoring:
 
-   ![VEC Helper 2](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/vec-helper.png)
+   ![Viene visualizzato il messaggio di richiesta Inserisci librerie di Target per indicare che l&#39;estensione VEC Helper di Target desidera inserire le librerie di Target nella pagina per abilitare l&#39;authoring, con i pulsanti Annulla e Consenti](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/vec-helper.png)
 
-1. (Facoltativo) Fai scorrere l&#39;opzione **[!UICONTROL Cookie]** su &quot;on&quot; per aggiungere automaticamente la correzione dell&#39;attributo del browser `SameSite=None`.
+1. (Condizionale) Attiva **[!UICONTROL Cookie]** per aggiungere automaticamente la correzione dell&#39;attributo del browser `SameSite=None`.
 
-   ![Attivazione/disattivazione dei cookie nell&#39;estensione VEC Helper](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/cookies-vec-helper.png)
+   ![Pannello dell&#39;estensione VEC Helper con l&#39;opzione Cookie attivata ed evidenziata, sopra il Compositore esperienza visivo che mostra una pagina di esempio](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/cookies-vec-helper.png)
 
-   Per ulteriori informazioni sulla correzione dell’attributo del browser `SameSite=None`, consulta “In che modo i criteri di imposizione dei cookie SameSite di Google Chrome recentemente annunciati influiscono sul Compositore esperienza visivo e sul Compositore esperienza avanzato?” in [Risoluzione dei problemi relativi al Compositore esperienza visivo e al Compositore esperienza avanzato](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md#samesite).
+   Per ulteriori informazioni sulla correzione del browser per l&#39;attributo `SameSite=None`, vedere [Criteri per cookie SameSite di Google Chrome](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md#samesite).
 
-## Note
+## Note sull’utilizzo
 
-* Il flag [!UICONTROL Inserisci librerie di Target] nell&#39;estensione è disattivato per impostazione predefinita. Abilita questo flag se desideri utilizzare il Compositore esperienza visivo su un sito non ancora implementato per [!DNL Target].
+* Il flag **[!UICONTROL Inserisci librerie di destinazione]** nell&#39;estensione è disattivato per impostazione predefinita. Attivarlo per utilizzare il Compositore esperienza visivo su un sito in cui [!DNL Target] non è ancora implementato.
 
-  Questo flag è un&#39;impostazione globale. Il flag viene abilitato o disabilitato per tutti i siti web aperti nel Compositore esperienza visivo. Quindi, ad esempio, se imposti questo flag su &quot;on&quot; e apri un sito web già implementato con at.js, riceverai un messaggio per informarti che at.js è già caricato. Adobe prevede che la maggior parte dei clienti abbia già at.js implementato nelle proprie pagine e utilizzi l’impostazione predefinita &quot;off&quot;.
+  Il flag è un’impostazione globale e pertanto è abilitato o disabilitato per tutti i siti web aperti nel Compositore esperienza visivo. Ad esempio, con il flag on, quando si apre un sito web in cui è già implementato at.js viene visualizzato un messaggio che informa che at.js è già caricato. [!DNL Adobe] prevede che la maggior parte dei clienti abbia già at.js implementato nelle proprie pagine e utilizzi l&#39;impostazione predefinita off.
 
-* L&#39;estensione carica la versione più recente di at.js disponibile da [!DNL Target UI] in [!UICONTROL Amministrazione > Implementazione].
-* Quando utilizzi l’estensione per inserire at.js durante la [modalità Controllo qualità](/help/main/c-activities/c-activity-qa/activity-qa.md), apri un’altra scheda Chrome. Questa scheda di Chrome deve essere autenticata nella stessa organizzazione [!DNL Adobe Experience Cloud] in cui è stata creata l’attività.
-* I messaggi seguenti ti mantengono informato:
+* L&#39;estensione carica la versione più recente di at.js disponibile nell&#39;interfaccia utente [!DNL Target] in **[!UICONTROL Amministrazione]** > **[!UICONTROL Implementazione]**.
+* Per utilizzare l&#39;estensione per inserire at.js nella modalità [Controllo qualità](/help/main/c-activities/c-activity-qa/activity-qa.md), è necessario aprire un&#39;altra scheda di Chrome. Questa scheda deve essere autenticata nella stessa organizzazione [!DNL Adobe Experience Cloud] in cui è stata creata l&#39;attività.
+* Il Compositore esperienza visivo visualizza i messaggi nei casi seguenti:
 
-  * Se il caricamento di un sito web utilizzando il Compositore esperienza visivo non riesce, viene visualizzato un messaggio per suggerirti di installare l’estensione VEC Helper per browser.
-  * Se at.js non è ancora implementato sul sito web, nel Compositore esperienza visivo viene visualizzato un messaggio per suggerirti di installare l’estensione.
-  * Se l’estensione è abilitata e il caricamento è migliorato, i messaggi appaiono quando l’estensione inserisce la libreria at.js (se necessario) o aiuta ad aprire il sito web in modo affidabile all’interno del Compositore esperienza visivo.
+  * Il caricamento di un sito web nel Compositore esperienza visivo non riesce. Il messaggio suggerisce di installare l’estensione VEC Helper per browser.
+  * at.js non è ancora implementato sul sito web. Il messaggio suggerisce di installare l’estensione.
+  * L&#39;estensione è abilitata e attiva il caricamento. I messaggi vengono visualizzati quando l’estensione inserisce la libreria at.js di, se necessario, o aiuta ad aprire il sito web in modo affidabile nel Compositore esperienza visivo.

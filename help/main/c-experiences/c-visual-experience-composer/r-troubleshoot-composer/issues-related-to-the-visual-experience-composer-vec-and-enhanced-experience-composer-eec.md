@@ -27,155 +27,136 @@ topic_v2:
     internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: 1ca30ccbd1acc115980ffe3780ba6c0dbb343806
 workflow-type: tm+mt
-source-wordcount: '1274'
-ht-degree: 29%
+source-wordcount: '1218'
+ht-degree: 13%
 ---
-# Risoluzione dei problemi relativi a [!DNL Adobe Target] [!UICONTROL Compositore esperienza visivo] e [!UICONTROL Compositore esperienza avanzato]
+# Risoluzione dei problemi relativi a [!DNL Adobe Target] [!UICONTROL Compositore esperienza visivo] e [!UICONTROL Compositore esperienza avanzato] {#vec-eec-issues}
 
-In determinate condizioni si verificano problemi di visualizzazione e altri problemi nel [!DNL Target] [!UICONTROL Compositore esperienza visivo] e nel [!UICONTROL Compositore esperienza avanzato].
+>[!BEGINSHADEBOX]
 
-## In che modo i criteri di implementazione dei cookie SameSite di Google Chrome influiscono sul Compositore esperienza visivo e sul Compositore esperienza avanzato? {#samesite}
+**In questa pagina:** Scopri come risolvere i problemi che interessano sia il **[!UICONTROL Compositore esperienza visivo]** (VEC) che il **[!UICONTROL Compositore esperienza avanzato]** (EEC).
 
-+++Dettagli
-Tieni presente le modifiche che interessano il Compositore esperienza visivo e il Compositore esperienza avanzato quando utilizzi le seguenti versioni di [!DNL Chrome]:
+>[!ENDSHADEBOX]
+
+In determinate condizioni si verificano problemi di visualizzazione e altri problemi nel [!DNL Target] **[!UICONTROL Compositore esperienza visivo]** e nel **[!UICONTROL Compositore esperienza avanzato]**. Gli elementi seguenti descrivono i problemi che interessano entrambi i compositori e come risolverli.
+
+## Browser e sicurezza
+
+### Criteri per cookie SameSite di Google Chrome {#samesite}
+
+I criteri di imposizione dei cookie SameSite di [!DNL Google Chrome] influiscono sul Compositore esperienza visivo e sul Compositore esperienza avanzato nelle seguenti versioni.
 
 >[!NOTE]
 >
->La seguente modifica interessa tutti e tre gli aggiornamenti descritti di seguito:
->
-> * *non* potrà utilizzare il Compositore esperienza visivo senza l&#39;estensione [VEC Helper](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) installata e abilitata per le pagine protette da password dei tuoi siti. I cookie di accesso al sito sono considerati cookie di terze parti e non vengono inviati con richieste di accesso nell&#39;editor del Compositore esperienza visivo in modalità [!UICONTROL Sfoglia]. L&#39;unica eccezione si verifica quando i cookie di accesso al sito dispongono già degli attributi `SameSite=None` e `Secure` impostati.
+>La seguente modifica si applica a tutte e tre le versioni. Impossibile utilizzare il Compositore esperienza visivo nelle pagine protette da password del sito a meno che l&#39;estensione [VEC Helper](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) non sia installata e abilitata. I cookie di accesso del sito sono considerati cookie di terze parti, pertanto non vengono inviati con richieste di accesso nell&#39;editor del Compositore esperienza visivo in modalità **[!UICONTROL Sfoglia]**. L&#39;unica eccezione si verifica quando per i cookie di accesso sono già impostati gli attributi `SameSite=None` e `Secure`.
 
-**Chrome 94 (21 settembre 2021)**: con le modifiche imminenti pianificate per la versione di Chrome 94 (21 settembre 2021), la seguente modifica interessa tutti gli utenti con le versioni del browser Chrome 94+:
+* **Chrome 94 (21 settembre 2021):** Per tutti gli utenti con Chrome 94 e versioni successive, il flag della riga di comando `--disable-features=SameSiteByDefaultCookies,CookiesWithoutSameSiteMustBeSecure` è stato rimosso.
+* **Chrome 91 (25 maggio 2021):** Per tutti gli utenti con Chrome 91 e versioni successive, i flag `#same-site-by-default-cookies` e `#cookies-without-same-site-must-be-secure` sono stati rimossi da `chrome://flags`. Questo comportamento è ora abilitato per impostazione predefinita.
+* **Chrome 80 (agosto 2020):** Per tutti gli utenti con Chrome 80 e versioni successive:
 
-* Il flag della riga di comando `--disable-features=SameSiteByDefaultCookies,CookiesWithoutSameSiteMustBeSecure` verrà rimosso.
+  * Impossibile scaricare [!DNL Target] librerie durante la modifica di un&#39;attività se non sono già nel sito. La chiamata di download viene effettuata dal dominio del cliente a un dominio [!DNL Adobe] protetto e viene rifiutata perché non autenticata.
+  * Il Compositore esperienza avanzato non funziona perché non può impostare l&#39;attributo SameSite per i cookie nel dominio `adobemc.com`. Senza questo attributo, il browser rifiuta questi cookie, causando il mancato funzionamento del Compositore esperienza avanzato.
 
-**Chrome 91 (25 maggio 2021)**: con le modifiche implementate per la versione di Chrome 91 (25 maggio 2021), la seguente modifica interessa tutti gli utenti con le versioni del browser Chrome 91+:
++++ Determinare quali cookie sono bloccati
 
-* I flag `#same-site-by-default-cookies` e `#cookies-without-same-site-must-be-secure` sono stati rimossi da `chrome://flags`. Questo comportamento è ora abilitato per impostazione predefinita.
+Per determinare quali cookie sono bloccati dai criteri di imposizione dei cookie SameSite, utilizzare [!DNL Developer Tools] in [!DNL Chrome].
 
-**Chrome 80 (agosto 2020)**: con le modifiche implementate ad agosto 2020, tutti gli utenti con le versioni del browser Chrome 80+:
-
-* *non* potrà scaricare [!DNL Target] librerie durante la modifica di un&#39;attività (se non sono già presenti nel sito). Questo perché la chiamata di download viene effettuata dal dominio del cliente verso un dominio [!DNL Adobe] protetto e viene rifiutata perché non autenticata.
-
-* Il Compositore esperienza avanzato *non* funzionerà per tutti gli utenti perché non è in grado di impostare l&#39;attributo SameSite per i cookie su `adobemc.com domain`. Senza questo attributo, il browser rifiuta questi cookie, causando il mancato funzionamento del Compositore esperienza avanzato.
-
-+++
-
-### Determinare quali cookie sono bloccati
-
-+++Dettagli
-Per determinare quali cookie sono bloccati a causa dei criteri di imposizione dei cookie SameSite, utilizzare [!DNL Developer Tools] in [!DNL Chrome].
-
-1. Per accedere a [!DNL Developer Tools], durante la visualizzazione del Compositore esperienza visivo in [!DNL Chrome], fai clic sull&#39;icona **[!UICONTROL puntini di sospensione]** nell&#39;angolo superiore destro di Chrome > **[!UICONTROL Altri strumenti]** > **[!UICONTROL Strumenti per sviluppatori]**.
+1. Durante la visualizzazione del Compositore esperienza visivo in [!DNL Chrome], fai clic sull&#39;icona **[!UICONTROL puntini di sospensione]** nell&#39;angolo superiore destro di Chrome > **[!UICONTROL Altri strumenti]** > **[!UICONTROL Strumenti per sviluppatori]**.
 1. Fai clic sulla scheda **[!UICONTROL Rete]**, quindi cerca i cookie bloccati.
 
    >[!NOTE]
    >
-   >Utilizza la casella di controllo **[!UICONTROL Contiene cookie bloccati]** per semplificare la ricerca dei cookie bloccati.
+   >Utilizzare la casella di controllo **[!UICONTROL Contiene cookie bloccati]** per semplificare la ricerca dei cookie bloccati.
 
 +++
 
-## [!DNL Target] supporta gli iframe a più livelli?
++++ Le intestazioni Content Security Policy (CSP) bloccano le librerie [!DNL Target] sul sito Web
 
-+++Dettagli
-[!DNL Target] non supporta gli iframe a più livelli. Se il sito web carica un iframe contenente un iframe secondario, at.js interagisce solo con l’iframe principale. [!DNL Target] librerie non interagiscono con l&#39;iframe secondario.
-
-Come soluzione alternativa, puoi aggiungere all’esperienza una pagina con l’URL dell’iframe secondario.
-
-+++
-
-## Quando si tenta di modificare una pagina, compare solo un’icona che ruota anziché la pagina. (Compositore esperienza visivo e Compositore esperienza avanzato) {#section_313001039F79446DB28C70D932AF5F58}
-
-+++Dettagli
-Questa situazione può verificarsi se l’URL contiene un carattere #. Per risolvere il problema, passa alla modalità [!UICONTROL Sfoglia] nel Compositore esperienza visivo o Compositore esperienza avanzato, quindi torna alla modalità [!UICONTROL Componi]. L’icona che ruota scompare e la pagina viene caricata correttamente.
-
-+++
-
-## Le intestazioni Content Security Policy (CSP) bloccano le librerie [!DNL Target] nel sito Web. (Compositore esperienza visivo e Compositore esperienza avanzato) {#section_89A30C7A213D43BFA0822E66B482B803}
-
-
-+++Dettagli
-Se le intestazioni CSP del sito Web bloccano [!DNL Target] librerie, quindi caricano il sito Web ma ne impediscono la modifica, assicurati che le librerie [!DNL Target] non siano bloccate.
+Se le intestazioni CSP del sito Web bloccano le librerie [!DNL Target], il sito Web viene caricato ma non è possibile modificarlo. Verificare che le librerie [!DNL Target] non siano bloccate.
 
 >[!NOTE]
 >
->Oltre alle seguenti informazioni, puoi utilizzare l&#39;estensione del browser [Adobe Target VEC Helper](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) per [!DNL Google Chrome].
+>Oltre alle seguenti informazioni, è possibile utilizzare l&#39;estensione del browser [Adobe Target VEC Helper](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) per [!DNL Google Chrome].
 
-![immagine cps_headers](assets/cps_headers.png)
+![Nella console del browser è visualizzata una richiesta bloccata per target.js con il messaggio di violazione della direttiva Content Security Policy](assets/cps_headers.png)
 
-Come soluzione alternativa, è possibile configurare una regola [!DNL Requestly] per rimuovere le intestazioni CSP, come illustrato di seguito:
+Come soluzione alternativa, configurare una regola [!DNL Requestly] per rimuovere le intestazioni CSP, come illustrato nella figura seguente.
 
-![cps_headers_2 immagine](assets/cps_headers_2.png)
+![Finestra di dialogo Requestly, Modifica intestazioni in richieste e risposte HTTP, con una regola denominata Content-Security-Policy che rimuove l&#39;intestazione Content-Security-Policy dalla risposta](assets/cps_headers_2.png)
 
-È possibile configurare una regola [!DNL Requestly] simile per qualsiasi intestazione che impedisca il caricamento di una risorsa nel Compositore esperienza visivo.
+È possibile configurare una regola [!DNL Requestly] simile per qualsiasi intestazione che impedisca il caricamento di una risorsa nel Compositore esperienza visivo. Ogni volta che è necessario rimuovere le intestazioni con [!DNL Requestly], eseguire una delle operazioni seguenti:
 
-Per [!DNL Requestly], ogni volta che è necessario rimuovere le intestazioni, eseguire una delle operazioni seguenti:
-
-* Aggiungere regole URL per l&#39;URL che si desidera aprire nel Compositore esperienza visivo in modo tale che le intestazioni vengano rimosse solo per tali URL.
-* Abilitare la regola quando si effettuano modifiche nel Compositore esperienza visivo e disabilitarla quando non lo si utilizza.
+* Aggiungi le regole URL per l’URL da aprire nel Compositore esperienza visivo, in modo che le intestazioni vengano rimosse solo per tali URL.
+* Abilita la regola durante la modifica nel Compositore esperienza visivo e disabilita la regola quando il Compositore esperienza visivo non è in uso.
 
 +++
 
-## Il Compositore esperienza visivo o Compositore esperienza avanzato sembra non funzionare o non viene inizializzato quando si vuole modificare un&#39;attività già salvata. (Compositore esperienza visivo e Compositore esperienza avanzato) {#section_5AC3BA8F8FBB451EA814F298D0645E54}
++++ Gli iframe a più livelli non sono supportati
 
-+++Dettagli
-Se il sito web è stato modificato all’esterno del Compositore esperienza visivo dopo la definizione dell’esperienza, i selettori sui quali sono state eseguite le azioni in precedenza non vengono trovati quando l’attività viene aperta per la modifica. La pagina apparentemente non funziona, senza che venga visualizzato alcun avviso.
+[!DNL Target] non supporta gli iframe a più livelli. Se il sito web carica un iframe che ha un iframe secondario, at.js interagisce solo con l’iframe principale. [!DNL Target] librerie non interagiscono con l&#39;iframe secondario.
 
-+++
-
-## Il Compositore esperienza visivo o Compositore esperienza avanzato non mostra i miei banner rotanti e altri contenuti che contengono JavaScript. (Compositore esperienza visivo e Compositore esperienza avanzato) {#section_8B5BE6EB050B42D6A14A054724C41330}
-
-+++Dettagli
-Per impostazione predefinita, il Compositore esperienza visivo blocca gli elementi di JavaScript. Se disattivi JavaScript, puoi utilizzare questi elementi. In base alla configurazione del sito, alcuni elementi potrebbero continuare a essere visualizzati in modo non corretto o rimanere non disponibili.
+Come soluzione alternativa, aggiungi una pagina nell’esperienza con l’URL dell’iframe secondario.
 
 +++
 
-## Alla modifica di un elemento della pagina, vengono modificati più elementi. (Compositore esperienza visivo e Compositore esperienza avanzato) {#section_309188ACF34942989BE473F63C5710AF}
++++ Impossibile modificare le esperienze su un sito non compatibile con iFrame o su pagine senza l&#39;implementazione [!DNL Target]
 
-+++Dettagli
-Se lo stesso ID di elemento DOM è utilizzato in più elementi della pagina, la modifica di uno di questi elementi influenza tutti gli elementi con lo stesso ID. Per evitare il problema, è opportuno utilizzare ciascun ID solo una volta in ogni pagina. Si tratta di una best practice standard di HTML. Per ulteriori informazioni, vedere [Scenari di modifica delle pagine](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md#concept_A458A95F65B4401588016683FB1694DB).
+Abilita **[!UICONTROL Compositore esperienza avanzato]** (EEC) per risolvere questo problema. Fai clic su **[!UICONTROL Amministrazione]** > **[!UICONTROL Compositore esperienza visivo]**, quindi seleziona la casella di controllo che abilita il **[!UICONTROL Compositore esperienza avanzato]**.
 
-+++
-
-## Non è possibile modificare le esperienze per un sito non compatibile con iFrame. (Compositore esperienza visivo e Compositore esperienza avanzato) {#section_9FE266B964314F2EB75604B4D7047200}
-
-+++Dettagli
-Questo problema può essere risolto abilitando [!UICONTROL Compositore esperienza avanzato] (EEC). Fai clic su **[!UICONTROL Amministrazione]** > **[!UICONTROL Compositore esperienza visivo]**, quindi seleziona la casella di controllo che abilita il [!UICONTROL Compositore esperienza avanzato]. Il Compositore esperienza avanzato utilizza un proxy gestito da [!DNL Adobe] per caricare la pagina per la modifica. Questo proxy consente la modifica su siti non compatibili con iFrame e la modifica su siti e pagine in cui non è stato ancora aggiunto il codice [!DNL Adobe Target]. Le attività non vengono fornite al sito fino all&#39;aggiunta del codice. Alcuni siti potrebbero non essere caricati tramite il Compositore esperienza avanzato. In questo caso, deseleziona questa opzione per caricare il Compositore esperienza avanzato tramite un iFrame.
+Il Compositore esperienza avanzato utilizza un proxy gestito da [!DNL Adobe] per caricare la pagina da modificare. Questo proxy consente la modifica sui siti non compatibili con iFrame e su siti e pagine in cui non è stato ancora aggiunto il codice [!DNL Adobe Target]. Le attività non vengono fornite al sito fino all&#39;aggiunta del codice. Alcuni siti potrebbero non essere caricati tramite il Compositore esperienza avanzato. In questo caso, deselezionando questa opzione, la pagina viene caricata tramite un iFrame.
 
 >[!NOTE]
 >
->Le pagine ospitate localmente o le pagine non accessibili all&#39;esterno della rete non sono accessibili al server proxy [!DNL Adobe] e non possono essere aperte nel Compositore esperienza avanzato. Queste pagine potrebbero includere gli URL di staging, i test di accettazione degli utenti (TAU) o le pagine in hosting locale.
+>Le pagine ospitate localmente e le pagine non accessibili all&#39;esterno della rete non sono accessibili al server proxy [!DNL Adobe] e non possono essere aperte nel Compositore esperienza avanzato. Queste pagine potrebbero includere gli URL di staging, i test di accettazione degli utenti (TAU) o le pagine in hosting locale.
 
 +++
 
-## Desidero impostare i test sulle pagine per le quali non è stata ancora completata l&#39;implementazione di mbox/[!DNL Target]. (Compositore esperienza visivo e Compositore esperienza avanzato) {#section_DE63BCCB5B124E10A71FA579B582A80A}
+## Caricamento e visualizzazione della pagina
 
-+++Dettagli
-Consulta &quot;Non è possibile modificare le esperienze per un sito iFrame-bursting&quot; qui sopra.
++++ Quando si modifica una pagina, viene visualizzato un rotatore invece della pagina
+
+Questa situazione può verificarsi se l’URL contiene un carattere #. Per risolvere il problema, passa alla modalità **[!UICONTROL Sfoglia]** nel Compositore esperienza visivo o Compositore esperienza avanzato, quindi torna alla modalità **[!UICONTROL Componi]**. L’icona che ruota scompare e la pagina viene caricata correttamente.
 
 +++
 
-## Gli stili di testo in grassetto e corsivo con [!UICONTROL Modifica testo]/[!UICONTROL Modifica HTML] o [!UICONTROL Modifica testo]/[!DNL Change HTML] non vengono visualizzati nella pagina. A volte il testo scompare dopo l&#39;applicazione di queste modifiche. (Compositore esperienza visivo e Compositore esperienza avanzato) {#section_7A71D6DF41084C58B34C18701E8774E5}
++++ Il Compositore esperienza visivo o Compositore esperienza avanzato sembra non funzionare o non viene inizializzato quando un’attività salvata viene nuovamente modificata
 
-+++Dettagli
-Se si utilizza **[!UICONTROL Modifica testo]/[!UICONTROL Modifica HTML]** nel Compositore esperienza visivo per [!UICONTROL Test A/B] o [!UICONTROL Attività Targeting esperienza] o **[!UICONTROL Modifica testo]/[!UICONTROL Modifica HTML]** per [!UICONTROL Attività Automated Personalization] o [!UICONTROL Test multivariato] per rendere il testo in grassetto o corsivo, è possibile che tali stili non vengano applicati nella pagina o che il testo scompaia dalla pagina nel Compositore esperienza visivo. Ciò si verifica a causa del modo in cui l’editor Rich Text applica questi stili potrebbero interferire con il markup del sito web.
+Se il sito web è stato modificato all’esterno del Compositore esperienza visivo dopo la definizione dell’esperienza, non è possibile trovare i selettori su cui sono state eseguite le azioni in precedenza quando l’attività viene aperta per la modifica. La pagina apparentemente non funziona, senza che venga visualizzato alcun avviso.
 
-Se vedi questo problema:
++++
+
++++ I banner rotanti e gli altri contenuti che contengono JavaScript non vengono visualizzati nel Compositore esperienza visivo o Compositore esperienza avanzato
+
+Per impostazione predefinita, il Compositore esperienza visivo blocca gli elementi di JavaScript. La disattivazione di JavaScript consente di lavorare con questi elementi. In base alla configurazione del sito, alcuni elementi potrebbero continuare a essere visualizzati in modo non corretto o rimanere non disponibili.
+
++++
+
++++ Per le attività Automated Personalization, lo scambio di immagini nel Compositore esperienza visivo o Compositore esperienza avanzato sembra non funzionare
+
+L&#39;aggiunta dell&#39;offerta di un immagine a una posizione prende la dimensione totale dello spazio immagine originale nel Compositore esperienza visivo e Compositore esperienza avanzato. Alla consegna, l&#39;immagine non viene espansa ed è mostrata così com&#39;è, quindi non c&#39;è impatto sulla consegna.
+
++++
+
+## Modifica dei risultati
+
++++ La modifica di un elemento nella pagina cambia più elementi
+
+Se lo stesso ID di elemento DOM è utilizzato in più elementi della pagina, la modifica di uno di questi elementi influenza tutti gli elementi con lo stesso ID. Per evitare questo problema, utilizza un ID una sola volta su ogni pagina. Questa è una best practice HTML standard. Per ulteriori informazioni, vedere [Scenari di modifica delle pagine](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md#vec-scenarios).
+
++++
+
++++ Gli stili di testo grassetto e corsivo non vengono visualizzati o il testo scompare dopo aver applicato Modifica testo/Modifica HTML o Modifica testo/Cambia HTML
+
+Quando si utilizza **[!UICONTROL Modifica testo]**/**[!UICONTROL Modifica HTML]** nel Compositore esperienza visivo per **[!UICONTROL Test A/B]** o **[!UICONTROL Attività Targeting esperienza]** oppure **[!UICONTROL Modifica testo]**/**[!UICONTROL Modifica HTML]** per **[!UICONTROL Attività Automated Personalization]** o **[!UICONTROL Test multivariato]**, per rendere il testo in grassetto o corsivo, gli stili potrebbero non essere applicati alla pagina o il testo potrebbe scomparire dalla pagina nel Compositore esperienza visivo. Ciò accade perché il modo in cui l’editor Rich Text applica questi stili potrebbe interferire con il markup del sito web.
+
+Se si verifica questo problema:
 
 1. Fai clic sul pulsante **[!UICONTROL HTML]** nell&#39;editor rich-text per accedere alla modalità di modifica della sorgente.
-1. Trova gli elementi di stile di testo.
+1. Trovare gli elementi di testo con stili.
 
    * Per il testo in grassetto, modifica gli elementi `<strong>` in `<b>`.
-
    * Per il testo in corsivo, modifica gli elementi `<em>` in `<i>`.
-
-+++
-
-## Per le attività di personalizzazione automatizzata, lo scambio di immagini nel Compositore esperienza visivo e Compositore esperienza avanzato sembra non funzionare. (Compositore esperienza visivo e Compositore esperienza avanzato) {#section_88AABFDFE6A3420299B0D508B12A3994}
-
-+++Dettagli
-L&#39;aggiunta dell&#39;offerta di un immagine a una posizione prende la dimensione totale dello spazio immagine originale nel Compositore esperienza visivo e Compositore esperienza avanzato. Alla consegna, l&#39;immagine non viene espansa ed è mostrata così com&#39;è, quindi non c&#39;è impatto sulla consegna.
 
 +++

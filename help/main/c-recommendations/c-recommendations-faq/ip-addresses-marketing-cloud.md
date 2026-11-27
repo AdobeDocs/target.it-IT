@@ -2,7 +2,7 @@
 keywords: indirizzo IP;indirizzi IP;whitelist;elenco Consentiti;firewall;consigli;feed;server;Adobe Experience Cloud;consigli;recommendations
 description: Visualizza un elenco di indirizzi IP utilizzati nei server di elaborazione dei feed della funzionalità Consigli di [!DNL Target] per configurare il firewall per l'autorizzazione degli indirizzi IP provenienti dai server di Adobe.
 title: Quali indirizzi IP utilizzano i server di elaborazione dei feed della funzione Recommendations (Consigli)?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=it#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."
 feature: Recommendations
 exl-id: a666cfc4-ed74-44e8-9ff5-212e4fd65c03
 TQID: 'https://experienceleague.adobe.com/-EhfjK6jTuHX33utQig-XYhf-nzkWlxb58VRmK9fLWo'
@@ -18,20 +18,24 @@ subfeature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 1ca30ccbd1acc115980ffe3780ba6c0dbb343806
 workflow-type: tm+mt
-source-wordcount: '190'
+source-wordcount: '193'
 ht-degree: 19%
 ---
-# Indirizzi IP utilizzati da [!DNL Recommendations] server di elaborazione dei feed
+# Indirizzi IP utilizzati da [!DNL Recommendations] server di elaborazione dei feed {#recs-ip-addresses}
 
-Elenco di indirizzi IP utilizzati nei server di elaborazione dei feed [!DNL Recommendations] di [!DNL Adobe Target] per configurare il firewall per l&#39;autorizzazione degli indirizzi IP provenienti dai server [!DNL Adobe].
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** Trovare gli indirizzi IP utilizzati dai server di elaborazione dei feed [!DNL Adobe Target] [!DNL Recommendations] per configurare un firewall che consenta gli indirizzi IP provenienti dai server [!DNL Adobe].
+
+>[!ENDSHADEBOX]
 
 >[!IMPORTANT]
 >
->Il team [!DNL Target] sta aggiornando gli indirizzi gateway NAT per il download di [!DNL Recommendations] feed. Se implementi la inserisce nell&#39;elenco Consentiti di IP, accertati di inserire nell&#39;elenco Consentiti i seguenti nuovi host AWS. La disattivazione degli host esistenti è prevista per il 30 giugno 2024. Per garantire una transizione fluida, inserisce nell&#39;elenco Consentiti tutti e nove gli indirizzi di, in quanto tutti i messaggi sono stati inseriti in un unico file. Non vi è alcuna urgenza di rimuovere gli indirizzi esistenti.
+>Il team [!DNL Target] sta aggiornando gli indirizzi gateway NAT per il download di [!DNL Recommendations] feed. Quando si implementa la inserisce nell&#39;elenco Consentiti di IP, è possibile inserire nell&#39;elenco Consentiti i seguenti nuovi host AWS. La disattivazione degli host esistenti è prevista per il 30 giugno 2024. Per garantire una transizione fluida, inserisce nell&#39;elenco Consentiti tutti e nove gli indirizzi di, in quanto tutti i messaggi sono stati inseriti in un unico file. Non vi è alcuna urgenza di rimuovere gli indirizzi esistenti.
 
-[!DNL Target] [!UICONTROL Le attività Recommendations] utilizzano i seguenti host AWS per accedere ai server FTP dei clienti:
+[!DNL Target] [!UICONTROL Le attività Recommendations] utilizzano i seguenti host AWS per accedere ai server FTP dei clienti.
 
 **Nuovi host**:
 
@@ -52,4 +56,4 @@ Elenco di indirizzi IP utilizzati nei server di elaborazione dei feed [!DNL Reco
 | Oregon | `44.232.167.82` |
 | Oregon | `52.41.252.205` |
 
-Anche le API di [!DNL Target] [!UICONTROL Recommendations] utilizzano gli stessi host AWS.
+Anche le API [!DNL Target] [!UICONTROL Recommendations] utilizzano gli stessi host AWS.

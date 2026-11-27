@@ -33,7 +33,7 @@ topic_v2:
     internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: 1ca30ccbd1acc115980ffe3780ba6c0dbb343806
 workflow-type: tm+mt
 source-wordcount: '2022'
 ht-degree: 1%
@@ -242,7 +242,7 @@ Per ulteriori informazioni, consulta [Estensione Helper per editing video](/help
 +++Dettagli
 Per ulteriori informazioni sugli indirizzi IP che è possibile inserire nell&#39;elenco Consentiti, consulta i seguenti articoli:
 
-* **Compositore esperienza avanzato**: vedere [Il Compositore esperienza avanzato non caricherà un URL di controllo qualità interno non accessibile sull&#39;IP pubblico](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md#section_D29E96911D5C401889B5EACE267F13CF) in *Risoluzione dei problemi relativi al Compositore esperienza avanzato*
+* **Compositore esperienza avanzato**: vedere [Il Compositore esperienza avanzato non caricherà un URL di controllo qualità interno non accessibile sull&#39;IP pubblico](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md#eec-ip-addresses) in *Risoluzione dei problemi relativi al Compositore esperienza avanzato*
 * **[!UICONTROL Recommendations]**: vedi [Indirizzi IP utilizzati dai server di elaborazione dei feed Recommendations](/help/main/c-recommendations/c-recommendations-faq/ip-addresses-marketing-cloud.md).
 
 +++

@@ -20,23 +20,27 @@ topic_v2:
     internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: de439134b0ee5aa795ae255bba852b9b6f10da12
+source-git-commit: 1ca30ccbd1acc115980ffe3780ba6c0dbb343806
 workflow-type: tm+mt
-source-wordcount: '253'
-ht-degree: 61%
+source-wordcount: '276'
+ht-degree: 3%
 ---
-# Introduzione alla risoluzione dei problemi relativi a [!UICONTROL Compositore esperienza visivo] e [!UICONTROL Compositore esperienza avanzato]
+# Introduzione alla risoluzione dei problemi relativi a [!UICONTROL Compositore esperienza visivo] e [!UICONTROL Compositore esperienza avanzato] {#troubleshoot-composer}
 
-In determinate condizioni, in [!DNL Adobe Target] [!UICONTROL Compositore esperienza visivo] e Compositore esperienza avanzato [!UICONTROL si verificano problemi di visualizzazione.]
+>[!BEGINSHADEBOX]
 
-Il Compositore esperienza visivo è una delle funzionalità principali di [!DNL Adobe Target]. Il Compositore esperienza visivo è un editor che consente agli addetti al marketing e ai designer di creare e modificare il contenuto mediante un’interfaccia visiva, che permette di operare molte scelte di progettazione senza dover intervenire direttamente sul codice. Il compositore offre anche opzioni per modificare il codice HTML e JavaScript.
+**In questa pagina:** Scopri quale pagina utilizzare per risolvere i problemi in **[!UICONTROL Compositore esperienza visivo]** (VEC) e in **[!UICONTROL Compositore esperienza avanzato]** (EEC).
 
-Il Compositore esperienza avanzato è un’estensione del Compositore esperienza visivo che consente di modificare un’esperienza per siti non compatibili con iframe o per pagine che non includono ancora l’implementazione di Target. Se hai difficoltà ad aprire la pagina nel Compositore esperienza visivo, prova con il Compositore esperienza avanzato.
+>[!ENDSHADEBOX]
 
-Per informazioni sul Compositore esperienza visivo e sul Compositore esperienza avanzato, vedi [Esperienze](/help/main/c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D).
+In determinate condizioni, in [!DNL Adobe Target] **[!UICONTROL Compositore esperienza visivo]** e Compositore esperienza avanzato **[!UICONTROL si verificano problemi di visualizzazione.]**
 
-Nota che alcuni problemi riguardano sia il Compositore esperienza visivo sia il Compositore esperienza avanzato, mentre alcuni riguardano solo uno dei due compositori. Consulta la pagina appropriata per trovare ulteriori informazioni.
+Il Compositore esperienza visivo è una delle funzionalità principali di [!DNL Adobe Target]. Si tratta di un editor che consente agli addetti al marketing e ai designer di creare e modificare il contenuto con un’interfaccia visiva, in modo tale che sia possibile effettuare molte scelte di progettazione senza dover modificare il codice. HTML e JavaScript possono essere modificati anche con le opzioni di modifica disponibili nel compositore.
 
-* [Risoluzione dei problemi relativi al Compositore esperienza visivo e al Compositore esperienza avanzato](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md)
-* [Risoluzione dei problemi relativi al Compositore esperienza visivo](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-visual-experience-composer-vec.md)
-* [Risoluzione dei problemi relativi al Compositore esperienza avanzato](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md)
+Il Compositore esperienza avanzato è un&#39;estensione del Compositore esperienza visivo per modificare un&#39;esperienza su un sito non compatibile con iframe o su pagine che non includono ancora l&#39;implementazione [!DNL Target]. Quando non è possibile aprire una pagina nel Compositore esperienza visivo, prova il Compositore esperienza avanzato. Per informazioni sul Compositore esperienza visivo e sul Compositore esperienza avanzato, vedi [Esperienze](/help/main/c-experiences/experiences.md#experiences-overview).
+
+Alcuni problemi riguardano entrambi i compositori, e alcuni riguardano solo uno di essi. Rivedi la pagina che corrisponde al problema:
+
+* [Risoluzione dei problemi relativi al Compositore esperienza visivo e al Compositore esperienza avanzato](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md): problemi che interessano entrambi i compositori.
+* [Risoluzione dei problemi relativi al Compositore esperienza visivo](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-visual-experience-composer-vec.md): problemi che interessano solo il Compositore esperienza visivo.
+* [Risoluzione dei problemi relativi al Compositore esperienza avanzato](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md): problemi che interessano solo il Compositore esperienza avanzato.

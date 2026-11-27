@@ -23,23 +23,29 @@ topic_v2:
     internal-label: Troubleshooting
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: de439134b0ee5aa795ae255bba852b9b6f10da12
+source-git-commit: 5eb9c52c66c309a3db66cf01e01f6a3f09dc2ac5
 workflow-type: tm+mt
-source-wordcount: '393'
-ht-degree: 69%
+source-wordcount: '396'
+ht-degree: 28%
 ---
-# Introduzione a esperienze e offerte
+# Introduzione a esperienze e offerte {#experiences-overview}
 
-Un&#39;esperienza in [!DNL Adobe Target] determina quale contenuto visualizzare quando il visitatore soddisfa i criteri di pubblico per un&#39;attività.
+>[!BEGINSHADEBOX]
 
-Un’esperienza può essere un’offerta, un’immagine, un testo, un pulsante, un video, una combinazione di questi vari elementi su una pagina, un’intera pagina web o un set di pagine, ad esempio un funnel di acquisto o altra sequenza logica di pagine. Può essere anche la risposta di un assistente vocale o di uno script di servizio clienti, o addirittura un gusto personalizzato da un distributore di bevande. Puoi testare o personalizzare le esperienze nelle attività di [!DNL Target].
+**In questa pagina:** Scopri cosa è un&#39;esperienza in [!DNL Adobe Target] e quali compositori di esperienze sono disponibili per creare esperienze.
 
-Un’attività contiene in genere più di un’esperienza. Ad esempio, potresti voler presentare ai visitatori provenienti dalla zona di Salt Lake City un’offerta per uno sconto di $30 su scarponi da sci, e a quelli di San Diego un’offerta sulle mute da sub. Oppure, puoi sottoporre a test una pagina con diverse offerte speciali per i visitatori di ritorno. Ognuna di queste offerte è presentata in un’esperienza separata.
+>[!ENDSHADEBOX]
 
-Target fornisce i seguenti compositori esperienza:
+Un&#39;esperienza in [!DNL Adobe Target] determina quale contenuto visualizzare quando un visitatore soddisfa i criteri di pubblico di un&#39;attività.
+
+Un’esperienza può essere un’offerta, un’immagine, un testo, un pulsante, un video, una combinazione di questi elementi su una pagina, un’intera pagina web o un set di pagine, ad esempio un funnel di acquisto o un’altra sequenza logica di pagine. Può essere anche la risposta di un assistente vocale o di uno script di servizio clienti, o addirittura un gusto personalizzato da un distributore di bevande. Le esperienze sono testate o personalizzate nelle attività [!DNL Target].
+
+Un’attività contiene in genere più di un’esperienza. Ad esempio, potresti voler presentare ai visitatori provenienti dalla zona di Salt Lake City un’offerta per uno sconto di $30 su scarponi da sci, e a quelli di San Diego un’offerta sulle mute da sub. Potrebbe anche essere testata una pagina con diverse offerte speciali per i visitatori di ritorno. Ognuna di queste offerte è presentata in un’esperienza separata.
+
+[!DNL Target] fornisce i seguenti compositori esperienza:
 
 | Tipo | Dettagli |
 | --- | --- |
-| [Compositore esperienza visivo (VEC)](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md#concept_CF63320EB8924B2F9BDA3C72256DCE50) | Il Compositore esperienza visivo è una delle funzionalità principali di Adobe Target. Il Compositore esperienza visivo è un editor che consente agli addetti al marketing e ai designer di creare e modificare i contenuti mediante un’interfaccia visiva, che permette di operare molte scelte di progettazione senza dover intervenire direttamente sul codice. Il compositore offre anche opzioni per modificare il codice HTML e JavaScript. |
-| [Compositore esperienza basato su moduli](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) | Il compositore esperienza basato su moduli permette di creare esperienze in modo non visivo. Questa funzione consente di consegnare le attività di test A/B, Targeting esperienza, Automated Personalization e Consigli di Target Standard tramite e-mail, chioschi e altre risorse che non sono compatibili con il Compositore esperienza visivo. |
-| [Compositore esperienza visivo per applicazione a pagina singola](/help/main/c-experiences/spa-visual-experience-composer.md) | Il Compositore esperienza visivo per le applicazioni a pagina singola consente agli addetti al marketing di creare test e di personalizzare contenuti nelle SPA in modalità fai-da-te senza dover dipendere sempre dagli sviluppatori. Il Compositore esperienza visivo può essere utile per creare test A/B e attività di Targeting delle esperienze (XT) sui framework più diffusi, come React e Angular. |
+| [Compositore esperienza visivo (VEC)](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) | Il Compositore esperienza visivo è una delle funzionalità principali di [!DNL Adobe Target]. Si tratta di un editor che consente agli addetti al marketing e ai designer di creare e modificare i contenuti mediante un’interfaccia visiva. Molte scelte di progettazione possono essere effettuate senza la modifica diretta del codice. È inoltre possibile modificare HTML e JavaScript utilizzando le opzioni di modifica disponibili nel compositore. |
+| [Compositore esperienza basato su moduli](/help/main/c-experiences/form-experience-composer.md) | Il compositore esperienza basato su moduli permette di creare esperienze in modo non visivo. Consente di consegnare [!DNL Target Standard] test A/B, Targeting esperienza, Automated Personalization e [!DNL Recommendations] attività tramite e-mail, chioschi e altre risorse che non funzionano con il Compositore esperienza visivo. |
+| [Compositore esperienza visivo per applicazione a pagina singola](/help/main/c-experiences/spa-visual-experience-composer.md) | Il Compositore esperienza visivo per le applicazioni a pagina singola consente agli addetti al marketing di creare test e di personalizzare contenuti nelle applicazioni a pagina singola in modo indipendente, senza dover dipendere sempre dagli sviluppatori. Può essere utilizzato per creare attività di Test A/B e Targeting delle esperienze (XT) sui framework più diffusi, come React e Angular. |

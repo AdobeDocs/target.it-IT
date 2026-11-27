@@ -29,76 +29,81 @@ topic_v2:
     internal-label: Web experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: 1ca30ccbd1acc115980ffe3780ba6c0dbb343806
 workflow-type: tm+mt
-source-wordcount: '838'
-ht-degree: 52%
+source-wordcount: '829'
+ht-degree: 4%
 ---
-# Estensione [!UICONTROL Helper per editing video]
+# Estensione [!UICONTROL Helper per editing video] {#visual-editing-helper}
 
-L&#39;estensione del browser [!DNL Adobe Experience Cloud] [!UICONTROL Helper per editing video] per [!DNL Google Chrome] consente di caricare i siti Web in modo affidabile all&#39;interno del [!UICONTROL Adobe Target] [!UICONTROL Compositore esperienza visivo] (VEC) per creare e verificare rapidamente le esperienze Web.
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** Scopri in che modo l&#39;estensione del browser **[!UICONTROL Helper per editing video]** carica i siti Web in modo affidabile nel **[!UICONTROL Compositore esperienza visivo]** e come installarlo e utilizzarlo.
+
+>[!ENDSHADEBOX]
+
+L&#39;estensione del browser [!DNL Adobe Experience Cloud] **[!UICONTROL Helper per editing video]** per [!DNL Google Chrome] carica i siti Web in modo affidabile nel [!DNL Adobe Target] **[!UICONTROL Compositore esperienza visivo]** (VEC), rendendo più rapida l&#39;authoring e il controllo delle esperienze Web.
 
 >[!IMPORTANT]
 >
->* Questa nuova estensione sostituisce la precedente [Estensione Target VEC Helper per browser](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md). Consulta la nota importante nella parte superiore di tale articolo. A causa dei miglioramenti della sicurezza in Manifest v3, [!DNL Adobe] richiede il download di questa nuova estensione per continuare a creare visivamente i siti Web in [!DNL Target].
+>Questa estensione sostituisce la precedente [Estensione VEC Helper per browser Target](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md), come descritto nella nota importante nella parte superiore di tale articolo. Il manifesto V3 introduce miglioramenti di sicurezza, pertanto [!DNL Adobe] richiede il download di questa nuova estensione per continuare a creare siti Web visivamente in [!DNL Target].
 
-## Modifiche all&#39;estensione [!UICONTROL Helper per editing video] (17 gennaio 2026)
+## Perché alcuni siti web non si aprono in modo affidabile nel Compositore esperienza visivo
 
-### **È stato risolto un problema aggiungendo la nuova funzione sperimentale di pulizia dei cookie di avvio in VEC Helper.**
-
-* È stato risolto un problema aggiungendo una nuova funzione sperimentale di pulizia dei cookie di avvio in VEC Helper.
-* Questo miglioramento migliora le prestazioni e l’affidabilità pulendo i cookie non partizionati una volta per scheda all’inizio dell’authoring, anziché continuamente.
-* La funzione tiene traccia della cronologia delle schede per evitare la pulizia ridondante e cancella la cronologia alla chiusura delle schede, in modo che la pulizia si comporti correttamente quando una scheda viene riaperta.
-* Sono stati aggiunti test di unità completi per garantire un comportamento coerente.
-
-![Nuove opzioni del Compositore esperienza visivo](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper.png)
-
-## Motivi per cui alcuni siti web potrebbero non aprirsi in modo affidabile nel Compositore esperienza visivo
+Un sito web potrebbe non aprirsi in modo affidabile nel Compositore esperienza visivo per i seguenti motivi:
 
 * Il sito web dispone di criteri di sicurezza rigidi.
 * Il sito web si trova in un iframe.
-* Il sito per il controllo qualità o il sito di staging del cliente non è disponibile nel mondo esterno (è un sito interno).
+* Il sito di controllo qualità o di gestione temporanea del cliente è interno e non disponibile all’esterno della rete.
 
-L&#39;estensione del browser [!DNL Adobe Experience Cloud] [!UICONTROL Helper per editing video] per risolvere problemi di caricamento del sito, per i quali i clienti in genere si affidano al [!DNL Target] [Compositore esperienza avanzato](/help/main/administrating-target/visual-experience-composer-set-up.md#eec) o estensioni di terze parti, come Requestly.
+L&#39;estensione risolve questi problemi di caricamento del sito, per i quali i clienti si affidano altrimenti al [Compositore esperienza avanzato](/help/main/administrating-target/visual-experience-composer-set-up.md#eec) o ad estensioni di terze parti come Requestly.
 
-## Vantaggi dell&#39;utilizzo dell&#39;estensione [!UICONTROL Helper per editing video]
+## Vantaggi dell’estensione
 
-* Tutte le intestazioni non compatibili con iframe, come `X-Frame-Options` e `Content-Security-Policy` vengono rimosse implicitamente dal sito web. Non è necessario creare regole complesse di Requestly.
-* Se una pagina web non contiene ancora la libreria di [!DNL Target] at.js, puoi utilizzare l’estensione per inserire la libreria in modo da creare esperienze per il sito web. Puoi quindi creare attività e controlli qualità tramite collegamenti di anteprima.
+* **Intestazioni non compatibili con Iframe rimosse:** l&#39;estensione rimuove implicitamente dal sito Web intestazioni quali `X-Frame-Options` e `Content-Security-Policy`, pertanto non sono necessarie regole complesse di Requestly.
+* **iniezione at.js:** quando una pagina web non contiene ancora la libreria at.js [!DNL Target], l&#39;estensione può inserirla. Le esperienze possono quindi essere create per il sito web e le attività possono essere create e controllate con collegamenti di anteprima. Con [Compositore esperienza avanzato](/help/main/administrating-target/visual-experience-composer-set-up.md#eec) (EEC), l&#39;estensione non inserisce at.js, ma la funzionalità per cookie SameSite rimane. Per inserire at.js nella pagina web, disattiva il Compositore esperienza avanzato.
+* **Riquadri di visualizzazione per dispositivi mobili:** [riquadri di visualizzazione per dispositivi mobili](/help/main/c-experiences/c-visual-experience-composer/mobile-viewports.md) sono supportati anche senza il **[!UICONTROL Compositore esperienza avanzato]** (EEC).
+* **Nuovi clienti [!DNL Target]:** l&#39;estensione consente di sperimentare [!DNL Target] anche quando gli sviluppatori IT non hanno ancora implementato [!DNL Target] sul sito Web.
+* **Partner:** partner che gestiscono siti Web e [!DNL Target] account di più clienti ottengono un meccanismo per supportare il caricamento del Compositore esperienza visivo, invece di più regole in strumenti di terze parti.
 
-  Utilizzando il [Compositore esperienza avanzato](/help/main/administrating-target/visual-experience-composer-set-up.md#eec), l’estensione non inserisce at.js, ma la funzionalità per cookie SameSite è ancora presente. Per inserire at.js nella pagina web, disattiva il Compositore esperienza avanzato.
+## Ottenere e installare l’estensione
 
-* [I riquadri di visualizzazione per dispositivi mobili](/help/main/c-experiences/c-visual-experience-composer/mobile-viewports.md) sono supportati anche senza il [!UICONTROL Compositore esperienza avanzato] (EEC).
-* I clienti non ancora pratici di [!DNL Target] possono utilizzare l’estensione per fare prove con [!DNL Target] anche se i loro sviluppatori IT non hanno ancora implementato [!DNL Target] sui loro siti web.
-* I partner che gestiscono siti web e account [!DNL Target] di più clienti ora hanno a disposizione un meccanismo semplice per supportare il caricamento del Compositore esperienza visivo, anziché gestire più regole in strumenti di terze parti.
+L&#39;installazione dell&#39;estensione in [!DNL Chrome] consente di caricare i siti Web in modo affidabile nel Compositore esperienza visivo, inclusi i siti Web che bloccano gli iframe o in cui non è ancora implementato at.js.
 
-## Ottenere e installare l&#39;estensione del browser [!UICONTROL Helper per editing video]
-
-1. Passare all&#39;estensione del browser [[!DNL Adobe Experience Cloud] [!UICONTROL Helper per editing video] in Chrome Web Store](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca){target=_blank}.
+1. Vai all&#39;estensione del browser [[!DNL Adobe Experience Cloud] **[!UICONTROL Helper per editing video ]**in Chrome Web Store](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca){target=_blank}.
 1. Fai clic su **[!UICONTROL Aggiungi a Chrome]** > **[!UICONTROL Aggiungi estensione]**.
 1. Apri il Compositore esperienza visivo in [!DNL Target].
-1. Per utilizzare l&#39;estensione, fare clic sull&#39;icona dell&#39;estensione del browser [!UICONTROL Helper per editing video] (![icona Estensione editing video](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/visual-editing-helper.png) ) nella barra degli strumenti del browser Chrome quando si è nel Compositore esperienza visivo o in modalità Controllo qualità.
+1. Nel Compositore esperienza visivo o in Modalità Controllo qualità, fai clic sull&#39;icona dell&#39;estensione del browser **[!UICONTROL Helper per editing video]** ( ![icona Helper editing video](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/visual-editing-helper.png) ) nella barra degli strumenti di [!DNL Chrome].
 
-   L&#39;[!UICONTROL Helper per editing video] viene attivato automaticamente quando si apre un sito Web nel Compositore esperienza visivo [!UICONTROL Target] per l&#39;authoring potente. L&#39;estensione non dispone di impostazioni condizionali. L’estensione gestisce automaticamente tutte le impostazioni, incluse le impostazioni dei cookie SameSite.
+   L&#39;estensione viene abilitata automaticamente quando un sito Web viene aperto nel Compositore esperienza visivo [!DNL Target] per l&#39;authoring potente. Non dispone di impostazioni condizionali e gestisce automaticamente tutte le impostazioni, incluse le impostazioni per cookie SameSite. Per ulteriori informazioni sulla correzione del browser per l&#39;attributo `SameSite=None`, vedere [Criteri per cookie SameSite di Google Chrome](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md#samesite).
 
-   Per ulteriori informazioni sulla correzione dell’attributo del browser `SameSite=None`, consulta “In che modo i criteri di imposizione dei cookie SameSite di Google Chrome recentemente annunciati influiscono sul Compositore esperienza visivo e sul Compositore esperienza avanzato?” in [Risoluzione dei problemi relativi al Compositore esperienza visivo e al Compositore esperienza avanzato](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md).
+## Note sull’utilizzo
 
-## Note
+* L&#39;estensione carica la versione più recente di at.js disponibile nell&#39;interfaccia utente [!DNL Target] in **[!UICONTROL Amministrazione]** > **[!UICONTROL Implementazione]** e at.js scarica le librerie di authoring.
+* Per utilizzare l&#39;estensione per inserire at.js nella modalità [Controllo qualità](/help/main/c-activities/c-activity-qa/activity-qa.md), è necessario aprire un&#39;altra scheda di Chrome. Questa scheda deve essere autenticata nella stessa organizzazione [!DNL Adobe Experience Cloud] in cui è stata creata l&#39;attività.
+* Il Compositore esperienza visivo visualizza messaggi che suggeriscono l’installazione dell’estensione nei seguenti casi:
 
-* Per [!DNL Target], l&#39;estensione carica la versione più recente di at.js disponibile nell&#39;interfaccia utente [!DNL Target] in [!UICONTROL Amministrazione] > [!UICONTROL Implementazione] e at.js scarica le librerie di authoring.
-* Quando utilizzi l’estensione per inserire at.js durante la [modalità Controllo qualità](/help/main/c-activities/c-activity-qa/activity-qa.md), apri un’altra scheda di Chrome. Questa scheda di Chrome deve essere autenticata nella stessa organizzazione di [!DNL Adobe Experience Cloud] in cui è stata creata l’attività.
-* I messaggi seguenti ti mantengono informato:
+  * Il caricamento di un sito web nel Compositore esperienza visivo non riesce.
+  * at.js o alloy.js non è ancora implementato sul sito web.
 
-  * Se il caricamento di un sito Web utilizzando il Compositore esperienza visivo non riesce, viene visualizzato un messaggio per suggerirti di installare l&#39;estensione del browser [!UICONTROL Helper per editing video].
-  * Se at.js o alloy.js non è ancora implementato sul sito web, nel Compositore esperienza visivo viene visualizzato un messaggio per suggerirti di installare l’estensione.
-* Se provi a utilizzare la nuova estensione e poi torni all’[estensione precedente](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) e [!DNL Target] non riesci a caricare il sito web, cancella tutti i dati del browser e disabilita la nuova estensione.
+* Se la nuova estensione è stata tentata e l&#39;estensione [vecchia](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) viene nuovamente utilizzata, ma [!DNL Target] non riesce a caricare il sito Web, cancellare tutti i dati del browser e disabilitare la nuova estensione.
+
+## Ultime modifiche dell’estensione (17 gennaio 2026)
+
+L’estensione aggiunge una funzione sperimentale di pulizia dei cookie di avvio a VEC Helper. La funzione pulisce i cookie non partizionati una volta per scheda all’inizio dell’authoring, anziché in modo continuo, migliorando le prestazioni e l’affidabilità. Tiene traccia della cronologia di ogni scheda per evitare la pulizia ridondante e la cancella quando la scheda viene chiusa, in modo che la pulizia si comporti correttamente quando la scheda viene riaperta. Gli unit test garantiscono un comportamento coerente.
+
+![Opzioni dell&#39;estensione VEC Helper, incluse le modalità di elaborazione dei cookie, l&#39;opzione di registrazione avanzata e le funzionalità sperimentali Ritarda il caricamento della pagina Web, la pulizia dei cookie e la pulizia dei cookie di avvio](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper.png)
 
 ## Domande frequenti
 
-### L&#39;estensione, se attiva, esegue operazioni al di fuori di [!DNL Adobe Target] o [!UICONTROL Adobe Journey Optimizer] (AJO)?
++++ L&#39;estensione esegue operazioni quando viene utilizzata al di fuori di [!DNL Adobe Target] o [!UICONTROL Adobe Journey Optimizer] (AJO)?
 
-L’estensione si attiva solo quando il sito web in questione viene caricato all’interno di un iFrame nei prodotti [!DNL Adobe] ([!DNL Target], [!DNL AJO]). Al di fuori di questo flusso, l’estensione non cerca di aggiungere, rimuovere o modificare alcuna intestazione né di inserire alcun codice all’interno del sito web.
+L&#39;estensione viene attivata solo quando il sito Web viene caricato all&#39;interno di un iFrame nei prodotti [!DNL Adobe] ([!DNL Target], [!DNL AJO]). Al di fuori di questo flusso, l’estensione non tenta di aggiungere, rimuovere o modificare alcuna intestazione né di inserire codice all’interno del sito web.
 
-### Cosa fa l’estensione quando è attiva nel Compositore esperienza visivo [!DNL Adobe Target]?
++++
 
-Quando un sito web viene caricato all’interno di un iFrame nei prodotti [!DNL Adobe] ([!DNL Target], [!DNL AJO]), l’estensione inserisce il codice (in bundle con l’estensione) nel sito web e scarica i file Helper dal CDN [!DNL Adobe] per abilitare l’authoring visivo.
++++ Cosa fa l’estensione quando è attiva nel Compositore esperienza visivo [!DNL Adobe Target]?
+
+Quando un sito Web viene caricato all&#39;interno di un iFrame nei prodotti [!DNL Adobe] ([!DNL Target], [!DNL AJO]), l&#39;estensione inserisce nel sito Web il codice associato all&#39;estensione e scarica i file helper dalla rete CDN [!DNL Adobe] per abilitare l&#39;authoring visivo.
+
++++

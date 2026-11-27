@@ -22,25 +22,28 @@ topic_v2:
     internal-label: Troubleshooting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
     internal-label: Security
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: 1ca30ccbd1acc115980ffe3780ba6c0dbb343806
 workflow-type: tm+mt
-source-wordcount: '514'
-ht-degree: 23%
+source-wordcount: '581'
+ht-degree: 5%
 ---
-# Risoluzione dei problemi relativi a [!UICONTROL Compositore esperienza avanzato]
+# Risoluzione dei problemi relativi a [!UICONTROL Compositore esperienza avanzato] {#eec-issues}
 
-In determinate condizioni in [!DNL Adobe Target] [!UICONTROL Compositore esperienza avanzato] (EEC) si verificano a volte problemi di visualizzazione.
+>[!BEGINSHADEBOX]
 
-## Il Compositore esperienza avanzato non carica un URL di controllo qualità interno che non è accessibile su IP pubblico. {#section_D29E96911D5C401889B5EACE267F13CF}
+**In questa pagina:** Scopri come risolvere i problemi che interessano solo il **[!UICONTROL Compositore esperienza avanzato]** (EEC), ad esempio le pagine che non vengono caricate perché gli indirizzi IP del proxy EEC sono bloccati.
 
+>[!ENDSHADEBOX]
 
-+++Dettagli
-Questo problema può essere risolto inserendo nell&#39;elenco Consentiti seguenti indirizzi IP. Questi indirizzi IP sono per il server [!DNL Adobe] utilizzato per il proxy EEC. Questi indirizzi IP sono necessari solo per la modifica delle attività. I visitatori del tuo sito non hanno bisogno di inserire nell&#39;elenco Consentiti questi indirizzi IP.
+In determinate condizioni in [!DNL Adobe Target] **[!UICONTROL Compositore esperienza avanzato]** (EEC) si verificano a volte problemi di visualizzazione. Gli elementi seguenti descrivono i problemi che interessano solo il Compositore esperienza avanzato e come risolverli.
 
-Chiedi al tuo team IT di i seguenti indirizzi IP:
+## Inserire nell&#39;elenco Consentiti gli indirizzi IP del proxy EEC {#eec-ip-addresses}
+
+Il Compositore esperienza avanzato non carica un URL di controllo qualità interno che non è accessibile su un indirizzo IP pubblico. Per risolvere il problema, è necessario Inserire nell&#39;elenco Consentiti gli indirizzi IP del server [!DNL Adobe] utilizzato per il proxy EEC. Questi indirizzi IP sono necessari solo per la modifica delle attività e i visitatori del sito non ne hanno bisogno per essere inseriti nell&#39;elenco Consentiti. Chiedi al team IT di inserire nell&#39;elenco Consentiti i seguenti indirizzi IP.
 
 ### Stati Uniti (va7)
 
+```
 40.70.154.136/29
 52.254.106.240/28
 52.254.106.160/28
@@ -64,9 +67,11 @@ Chiedi al tuo team IT di i seguenti indirizzi IP:
 4.152.211.251
 52.254.107.144/28
 52.254.106.144/28
+```
 
 ### EMEA (nld2)
 
+```
 51.138.17.16/28
 51.138.17.48/28
 51.138.16.128/28
@@ -89,9 +94,11 @@ Chiedi al tuo team IT di i seguenti indirizzi IP:
 51.138.12.100
 51.138.17.64/28
 51.138.12.160/28
+```
 
 ### APAC (aus)
 
+```
 20.43.104.160/28
 20.227.35.177
 20.40.188.227
@@ -117,11 +124,13 @@ Chiedi al tuo team IT di i seguenti indirizzi IP:
 20.43.104.192/28
 20.43.105.0/28
 20.43.104.0/28
+```
 
 ### Indirizzi IP legacy
 
 I seguenti indirizzi IP legacy devono continuare a essere inseriti nell&#39;elenco Consentiti fino a nuovo avviso.
 
+```
 34.254.77.200
 54.73.207.147
 54.229.152.123
@@ -140,52 +149,48 @@ I seguenti indirizzi IP legacy devono continuare a essere inseriti nell&#39;elen
 35.75.212.45
 52.199.184.130
 18.180.161.176
+```
 
-È possibile che in [!DNL Target] venga visualizzato il seguente messaggio di errore:
++++ Il Compositore esperienza avanzato visualizza un messaggio di errore che indica che il dominio del sito Web lo sta bloccando
 
-`Error: Your website domain (ISP) is blocking the [!UICONTROL Enhanced Experience Composer]. You can allowlist the [!UICONTROL Enhanced Experience Composer]'s IP addresses or turn off [!UICONTROL Enhanced Experience Composer] in [!UICONTROL Configure] > [!UICONTROL Page Delivery] menu.`
+Il seguente messaggio di errore può essere visualizzato in [!DNL Target]:
 
-![Immagine EEC_error](assets/EEC_error.png)
+`Error: Your website domain (ISP) is blocking the Enhanced Experience Composer. You can allowlist the Enhanced Experience Composer's IP addresses or turn off Enhanced Experience Composer in Configure > Page Delivery menu.`
 
-Di seguito sono riportati possibili cause per questo messaggio di errore e soluzioni per correggere la situazione:
+![Compositore esperienza con il messaggio di errore che il dominio del sito Web (ISP) sta bloccando il Compositore esperienza avanzato, con un suggerimento per inserire nell&#39;elenco Consentiti gli indirizzi IP o disattivare il Compositore nel menu Configura consegna pagine](assets/EEC_error.png).
 
-* **Problema:** il dominio del sito Web (ISP) sta bloccando il [!UICONTROL Compositore esperienza avanzato].
+Questo messaggio di errore ha due possibili cause:
 
-  **Rimedio:** Inserire nell&#39;elenco Consentiti gli indirizzi IP elencati sopra.
-
-* **Problema:** gli indirizzi IP vengono inseriti nell&#39;elenco Consentiti ma il sito Web non supporta la versione 1.2 di TLS. [!DNL Target] utilizza attualmente la configurazione predefinita di 1.2. Prima di [!DNL Target] 18.4.1 (25 aprile 2018), la configurazione predefinita supportava TLS 1.0. Per ulteriori informazioni, consulta [Modifiche alla crittografia TLS](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html?lang=it){target=_blank}.
-
-  **Soluzione:** Consulta la domanda seguente (il [!UICONTROL Compositore esperienza visivo avanzato] non verrà caricato su pagine protette del mio sito che utilizzano TLS 1.2).
+* Il dominio del sito web (ISP) blocca il Compositore esperienza avanzato. Per risolvere il problema, inserire nell&#39;elenco Consentiti gli indirizzi IP elencati in [Inserire nell&#39;elenco Consentiti gli indirizzi IP del proxy EEC](#eec-ip-addresses).
+* Gli indirizzi IP vengono inseriti nell&#39;elenco Consentiti, ma il sito Web non supporta TLS 1.2. Per risolvere il problema, vedi la voce seguente.
 
 +++
 
-## Il Compositore esperienza avanzato non verrà caricato su pagine protette del mio sito che utilizzano TLS 1.0. (Solo Compositore esperienza avanzato) {#section_C5B31E3D32A844F68E5A8153BD17551F}
++++ Il Compositore esperienza avanzato non viene caricato su pagine sicure di un sito che utilizza TLS 1.0
 
-+++Dettagli
-È possibile che venga visualizzato il messaggio di errore descritto in precedenza in &quot;Il [!UICONTROL Compositore esperienza visivo avanzato] non verrà caricato su pagine protette del sito&quot;. se gli indirizzi IP di cui sopra vengono inseriti nell&#39;elenco Consentiti ma il tuo sito web non supporta la versione 1.2 di TLS. [!DNL Target] utilizza attualmente la configurazione predefinita di 1.2. Prima di [!DNL Target] 18.4.1 (25 aprile 2018), la configurazione predefinita supportava TLS 1.0. Per ulteriori informazioni, consulta [Modifiche alla crittografia TLS](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html?lang=it){target=_blank}.
+Il messaggio di errore descritto nell’elemento precedente può essere visualizzato quando gli indirizzi IP vengono inseriti nell&#39;elenco Consentiti ma il sito web non supporta TLS 1.2. [!DNL Target] utilizza attualmente la versione 1.2 come configurazione predefinita. Prima di [!DNL Target] 18.4.1 (25 aprile 2018), la configurazione predefinita supportava TLS 1.0. Per ulteriori informazioni, consulta [Modifiche alla crittografia TLS](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html){target=_blank}.
 
-Per controllare la versione TLS sul tuo sito web con Firefox (altri browser hanno passaggi simili):
+Per controllare la versione TLS di un sito web in Firefox (altri browser hanno passaggi simili):
 
 1. Apri il sito interessato in Firefox.
-1. Fai clic sull&#39;icona **[!UICONTROL Mostra informazioni del sito]** nella barra degli indirizzi del browser.
+1. Fai clic sull&#39;icona **[!UICONTROL Mostra informazioni sito]** nella barra degli indirizzi del browser.
 
-   ![immagine firefox_more_info](assets/firefox_more_info.png)
+   ![Barra degli indirizzi di Firefox con l&#39;icona Mostra informazioni sito evidenziata a sinistra dell&#39;URL](assets/firefox_more_info.png)
 
 1. Fai clic su **[!UICONTROL Mostra dettagli di connessione]** > **[!UICONTROL Ulteriori informazioni]**.
 
-   ![immagine firefox_more_info_2](assets/firefox_more_info_2.png)
+   ![Pannello informazioni sito Firefox con la freccia Mostra dettagli connessione evidenziata accanto a Connessione protetta](assets/firefox_more_info_2.png)
 
-1. Verifica la versione di TLS alla voce Dettagli tecnici:
+1. Esaminare le informazioni sulla versione di TLS in **[!UICONTROL Dettagli tecnici]**.
 
-   ![immagine firefox_more_info_3](assets/firefox_more_info_3.png)
+   ![Finestra Informazioni pagina Firefox, scheda Sicurezza, con la versione di TLS evidenziata in Dettagli tecnici](assets/firefox_more_info_3.png)
 
-1. Se il sito Web visualizza TLS 1.0, vedere [Modifiche alla crittografia di TLS (Transport Layer Security)](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html?lang=it){target=_blank} per informazioni sui criteri di supporto per TLS di Target. Per risolvere la situazione (valido fino al 12 settembre 2018){target=_blank}, contatta l&#39;[Assistenza clienti](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) per la configurazione con la versione di TLS e il dominio.
+1. Se il sito Web mostra TLS 1.0, vedere [Modifiche alla crittografia di TLS (Transport Layer Security)](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html){target=_blank} per informazioni sui criteri di supporto TLS di [!DNL Target]. Per risolvere la situazione (valido fino al 12 settembre 2018), rivolgiti a [Assistenza clienti](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) per la configurazione con la versione di TLS e il dominio.
 
 +++
 
-## Ricevo errori di timeout o “accesso negato” durante il caricamento di siti con proxy abilitato. (Solo Compositore esperienza avanzato) {#section_60CBB9022DC449F593606C0E6252302D}
++++ Timeout o errori di &quot;accesso negato&quot; vengono visualizzati quando i siti vengono caricati con il proxy abilitato
 
-+++Dettagli
-Assicurati che nel tuo ambiente gli IP proxy non siano bloccati.
+Assicurati che gli indirizzi IP proxy non siano bloccati nell’ambiente. Gli indirizzi sono elencati in [Inserire nell&#39;elenco Consentiti gli indirizzi IP del proxy EEC](#eec-ip-addresses).
 
 +++
