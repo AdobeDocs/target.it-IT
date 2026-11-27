@@ -95,4 +95,4 @@ Questo video illustra le seguenti impostazioni per le attività:
 * Aggiungi dei tipi di pubblico per i rapporti per creare filtri per i rapporti.
 * Immetti le note per l&#39;attività.
 
->[!VIDEO](https://video.tv.adobe.com/v/17381)
+>[!VIDEO](https://video.tv.adobe.com/v/3507949?captions=ita)

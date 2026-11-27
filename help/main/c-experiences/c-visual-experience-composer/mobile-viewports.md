@@ -157,10 +157,10 @@ Il video dimostrativo seguente include informazioni sull’utilizzo del Composit
 * Creare un’esperienza e visualizzarne l’anteprima per i siti web reattivi
 * Evidenziare tipi di elementi con le sovrapposizioni
 
->[!VIDEO](https://video.tv.adobe.com/v/17401)
+>[!VIDEO](https://video.tv.adobe.com/v/36327?captions=ita)
 
 ### Preferenze account in Adobe Target ![Icona panoramica](/help/main/assets/overview.png)
 
 Questo video include informazioni sulla configurazione dei riquadri di visualizzazione per dispositivi mobili, a partire dal minuto 4:40.
 
->[!VIDEO](https://video.tv.adobe.com/v/17379)
+>[!VIDEO](https://video.tv.adobe.com/v/3507631?captions=ita)

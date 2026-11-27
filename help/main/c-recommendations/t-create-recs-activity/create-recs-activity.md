@@ -176,4 +176,4 @@ Sono disponibili due pagine aggiuntive dall’attività:
 
 ## Video di formazione: Creare un’attività Consigli (7:15) ![Icona esercitazione](/help/main/assets/tutorial.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/27688)
+>[!VIDEO](https://video.tv.adobe.com/v/328598?captions=ita)
