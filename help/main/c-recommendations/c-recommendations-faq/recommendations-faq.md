@@ -2,7 +2,7 @@
 keywords: risoluzione dei problemi;domande frequenti;FAQ;consigli;caratteri speciali;ponderazione degli attributi;somiglianza contenuti
 description: Visualizza un elenco delle domande e risposte più frequenti sulle attività [!DNL Target Recommendations].
 title: Dove posso trovare domande e risposte su [!DNL Recommendations]?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=it#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."
 feature: Recommendations
 exl-id: aaa52923-1c2d-44ae-bd89-671329222077
 TQID: 'https://experienceleague.adobe.com/Hz37Dp21q-25Pj6mmbiaGqONY14eImVB9Ebz8VH9hMA'
@@ -156,7 +156,7 @@ Se il visitatore non ha due sessioni attive contemporaneamente, gli elementi vis
 
 I criteri disponibili dipendono dalla categoria corrente. Quando vengono create le offerte di consigli, il selettore di algoritmi visualizza i criteri in base all’ID di categoria. Se la posizione in cui vengono applicati i criteri non contiene l’ID di categoria, alcuni criteri non sono disponibili nel selettore dell’algoritmo. Se nella mbox è utilizzata una posizione in cui l’ID di categoria è presente, il selettore di criteri contiene tutti i criteri applicabili.
 
-[!DNL Target] ha un&#39;impostazione [Filtra criteri incompatibili](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} che controlla il filtro intelligente del selettore dell&#39;algoritmo. Per accedere all&#39;impostazione **[!UICONTROL Filtra criteri incompatibili]**, fare clic su **[!UICONTROL Amministrazione]** > **[!UICONTROL Consigli]**.
+[!DNL Target] ha un&#39;impostazione [Filtra criteri incompatibili](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=it){target=_blank} che controlla il filtro intelligente del selettore dell&#39;algoritmo. Per accedere all&#39;impostazione **[!UICONTROL Filtra criteri incompatibili]**, fare clic su **[!UICONTROL Amministrazione]** > **[!UICONTROL Consigli]**.
 
 ![Pagina Impostazioni consigli con l&#39;opzione Filtra criteri incompatibili evidenziata](assets/recs_settings_filter.png)
 

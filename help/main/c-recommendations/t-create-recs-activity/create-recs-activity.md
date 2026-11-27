@@ -2,7 +2,7 @@
 keywords: creare consigli;attività consigli;nuovi consigli;panoramica consigli
 description: Scopri come utilizzare il [!DNL Target] [!UICONTROL Compositore esperienza visivo] (VEC) per creare un'attività [!DNL Recommendations].
 title: Crea un'attività [!DNL Recommendations]
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=it#premium newtab=true" tooltip="Scopri cosa è incluso in Target Premium."
 feature: Recommendations
 exl-id: c83073d5-f852-4f09-8343-e4658fbf6f43
 TQID: 'https://experienceleague.adobe.com/rb9any1dsbk-E-ELV56A2D6X5f0z0cTziscrajmbYDA'
@@ -53,7 +53,7 @@ L’URL attività e la posizione definiscono la pagina e l’area della pagina i
 
 1. Specifica l&#39;URL attività, quindi fai clic su **[!UICONTROL Crea]**.
 
-   L’URL attività è la pagina in cui vengono visualizzati i consigli. [!DNL Target] non distingue tra protocolli URL ([!DNL https] e [!DNL http]), quindi `http://www.adobe.com` e `https://www.adobe.com` corrispondono entrambi.
+   L’URL attività è la pagina in cui vengono visualizzati i consigli. [!DNL Target] non distingue tra protocolli URL ([!DNL https] e [!DNL http]), quindi `http://www.adobe.com/it` e `https://www.adobe.com/it` corrispondono entrambi.
 
    Viene aperto il Compositore esperienza visivo e viene visualizzata la pagina.
 
@@ -101,7 +101,7 @@ I criteri determinano quali articoli sono consigliati e come vengono scelti per 
 
    >[!NOTE]
    >
-   >Non tutti i criteri vengono eseguiti correttamente su ogni pagina. Affinché i consigli per l&#39;elemento corrente o la categoria corrente siano compatibili, la pagina o la mbox deve passare in `entity.id` o `entity.categoryId`. È consigliabile mostrare solo i criteri compatibili. Per rendere disponibili criteri incompatibili per l&#39;attività, deselezionare la casella di controllo **[!UICONTROL Compatibile]**. Questa casella di controllo potrebbe non essere visualizzata, a seconda dell&#39;impostazione **[!UICONTROL Amministrazione]** > **[!UICONTROL Consigli]** > **[!UICONTROL Filtra criteri incompatibili]**. Per ulteriori informazioni, consulta [Impostazioni](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}.
+   >Non tutti i criteri vengono eseguiti correttamente su ogni pagina. Affinché i consigli per l&#39;elemento corrente o la categoria corrente siano compatibili, la pagina o la mbox deve passare in `entity.id` o `entity.categoryId`. È consigliabile mostrare solo i criteri compatibili. Per rendere disponibili criteri incompatibili per l&#39;attività, deselezionare la casella di controllo **[!UICONTROL Compatibile]**. Questa casella di controllo potrebbe non essere visualizzata, a seconda dell&#39;impostazione **[!UICONTROL Amministrazione]** > **[!UICONTROL Consigli]** > **[!UICONTROL Filtra criteri incompatibili]**. Per ulteriori informazioni, consulta [Impostazioni](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=it){target=_blank}.
 
 1. Se necessario, individua o crea i criteri:
 
